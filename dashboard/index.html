@@ -1,0 +1,1281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Equity Watchlist Dashboard — All 39 Stocks</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.js" integrity="sha384-iU8HYtnGQ8Cy4zl7gbNMOhsDTTKX02BTXptVP/vqAWIaTfM7isw76iyZCsjL2eVi" crossorigin="anonymous"></script>
+<style>
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background: #fafbfc; color: #1a1a1a; margin: 0; padding: 0; line-height: 1.5; font-size: 14px;
+}
+.container { max-width: 1280px; margin: 0 auto; padding: 20px; }
+header.page-header {
+  background: linear-gradient(135deg, #1F4E79 0%, #2E75B6 100%);
+  color: white; padding: 24px 32px; border-radius: 8px;
+  margin-bottom: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+header.page-header h1 { margin: 0 0 8px; font-size: 24px; font-weight: 700; }
+header.page-header .subtitle { font-size: 13px; opacity: 0.92; margin-bottom: 12px; }
+header.page-header .meta-row {
+  display: flex; flex-wrap: wrap; gap: 18px; font-size: 12px; opacity: 0.95;
+  border-top: 1px solid rgba(255,255,255,0.25); padding-top: 12px;
+}
+header.page-header .meta-item strong { font-weight: 600; opacity: 0.85; }
+
+.viz-grid {
+  display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 16px; margin-bottom: 24px;
+}
+.viz-card {
+  background: white; border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  border: 1px solid #eaeef2;
+}
+.viz-card h3 { margin: 0 0 12px; font-size: 13px; font-weight: 700; color: #1F4E79;
+  text-transform: uppercase; letter-spacing: 0.4px; }
+.viz-card .chart-wrapper { position: relative; height: 280px; }
+.viz-card .chart-wrapper canvas { max-height: 280px; }
+
+.toolbar {
+  background: white; padding: 16px; border-radius: 8px; margin-bottom: 24px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  display: flex; gap: 12px; flex-wrap: wrap; align-items: center;
+}
+.toolbar label { font-size: 12px; font-weight: 600; color: #555;
+  text-transform: uppercase; letter-spacing: 0.5px; }
+.toolbar select, .toolbar input {
+  padding: 6px 10px; border: 1px solid #d0d7de; border-radius: 6px;
+  background: white; font-size: 13px; color: #1a1a1a;
+}
+.toolbar input { min-width: 200px; }
+.toolbar button {
+  padding: 6px 12px; border: 1px solid #d0d7de; border-radius: 6px;
+  background: #f6f8fa; cursor: pointer; font-size: 12px; color: #1a1a1a;
+}
+.toolbar button:hover { background: #eaeef2; }
+
+.summary-table {
+  background: white; border-radius: 8px; overflow: hidden; margin-bottom: 24px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05); overflow-x: auto;
+}
+.summary-table table { width: 100%; border-collapse: collapse; font-size: 12.5px; min-width: 900px; }
+.summary-table th {
+  background: #1F4E79; color: white; text-align: left; padding: 10px 12px;
+  font-weight: 600; font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.4px;
+  cursor: pointer; user-select: none;
+}
+.summary-table th:hover { background: #2E75B6; }
+.summary-table td { padding: 10px 12px; border-top: 1px solid #eaeef2; }
+.summary-table tr:hover { background: #f6f8fa; }
+.summary-table .stock-link { color: #1F4E79; font-weight: 600; text-decoration: none; }
+.summary-table .stock-link:hover { text-decoration: underline; }
+
+.tag {
+  display: inline-block; padding: 2px 8px; border-radius: 12px;
+  font-size: 10.5px; font-weight: 600; letter-spacing: 0.3px; text-transform: uppercase;
+}
+.tag-sme { background: #fff3cd; color: #8a6d00; }
+.tag-mainboard { background: #d6e9f8; color: #1F4E79; }
+.tag-conv-high { background: #d4edda; color: #1a6d2e; }
+.tag-conv-med  { background: #fff3cd; color: #8a6d00; }
+.tag-conv-low  { background: #f8d7da; color: #842029; }
+.tag-batch-1 { background: #e7e0fa; color: #5a3aa5; }
+.tag-batch-2 { background: #d4edda; color: #1a6d2e; }
+.tag-batch-3 { background: #fdebd0; color: #8a4a00; }
+.tag-batch-4 { background: #d6e9f8; color: #1F4E79; }
+
+.stock-card {
+  background: white; border-radius: 10px; padding: 0; margin-bottom: 20px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06); overflow: hidden; border: 1px solid #eaeef2;
+}
+.stock-card-header {
+  background: #f6f8fa; padding: 16px 20px; border-bottom: 1px solid #eaeef2;
+  display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 12px;
+}
+.stock-card-header .name-block h2 { margin: 0 0 4px; font-size: 18px; color: #1F4E79; font-weight: 700; }
+.stock-card-header .tagline { font-size: 12px; color: #5a6268; font-style: italic; }
+.stock-card-header .badges { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+.cmp-pill {
+  background: white; border: 2px solid #1F4E79; border-radius: 8px;
+  padding: 6px 12px; text-align: center; min-width: 100px;
+}
+.cmp-pill .cmp-label { font-size: 9.5px; font-weight: 600; color: #1F4E79;
+  text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px; }
+.cmp-pill .cmp-value { font-size: 17px; font-weight: 700; color: #1F4E79; line-height: 1; }
+.cmp-pill .cmp-date { font-size: 9.5px; color: #888; margin-top: 2px; font-style: italic; }
+.cmp-pill.cmp-stale { border-color: #faad14; }
+.cmp-pill.cmp-stale .cmp-label, .cmp-pill.cmp-stale .cmp-value { color: #8a6d00; }
+.cmp-pill.cmp-missing { border-color: #d0d7de; background: #f6f8fa; }
+.cmp-pill.cmp-missing .cmp-label, .cmp-pill.cmp-missing .cmp-value { color: #888; }
+
+.stock-card-body { padding: 20px; }
+.metrics-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 20px; }
+.metric {
+  background: #f6f8fa; padding: 10px 12px; border-radius: 6px; border-left: 3px solid #2E75B6;
+}
+.metric .label { font-size: 10.5px; font-weight: 600; color: #5a6268;
+  text-transform: uppercase; letter-spacing: 0.3px; margin-bottom: 4px; }
+.metric .value { font-size: 13.5px; font-weight: 600; color: #1a1a1a; }
+.metric .source { font-size: 10px; color: #888; margin-top: 2px; font-style: italic; }
+
+.section { margin-bottom: 16px; }
+.section h3 {
+  font-size: 13px; font-weight: 700; color: #1F4E79; text-transform: uppercase;
+  letter-spacing: 0.4px; margin: 0 0 8px; padding-bottom: 4px; border-bottom: 1px solid #eaeef2;
+}
+.section p { margin: 0 0 8px; font-size: 13px; color: #2a2a2a; }
+.section ul { margin: 0; padding-left: 18px; }
+.section ul li { margin-bottom: 6px; font-size: 13px; color: #2a2a2a; }
+.section .compact-list li { margin-bottom: 4px; }
+
+.changes-log {
+  background: #fffbe6; border: 1px solid #ffe58f; border-radius: 8px;
+  padding: 14px 16px; margin-top: 16px;
+}
+.changes-log h3 {
+  font-size: 13px; font-weight: 700; color: #8a6d00;
+  text-transform: uppercase; letter-spacing: 0.4px; margin: 0 0 10px;
+}
+.change-entry {
+  border-left: 3px solid #faad14; padding: 4px 12px; margin-bottom: 10px;
+  background: white; border-radius: 0 4px 4px 0;
+}
+.change-entry:last-child { margin-bottom: 0; }
+.change-entry .date {
+  font-size: 11.5px; font-weight: 700; color: #8a6d00; display: block; margin-bottom: 2px;
+}
+.change-entry .body { font-size: 12.5px; color: #2a2a2a; }
+
+footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 12px; }
+.disclaimer {
+  background: #f6f8fa; border-radius: 6px; padding: 12px 16px; font-size: 11.5px;
+  color: #5a6268; margin-top: 12px; line-height: 1.6;
+}
+
+.kpi-strip {
+  display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin-bottom: 24px;
+}
+.kpi-card {
+  background: white; border-radius: 8px; padding: 16px; text-align: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05); border: 1px solid #eaeef2;
+}
+.kpi-card .kpi-value { font-size: 24px; font-weight: 700; color: #1F4E79; margin-bottom: 4px; }
+.kpi-card .kpi-label { font-size: 11px; color: #5a6268;
+  text-transform: uppercase; letter-spacing: 0.4px; font-weight: 600; }
+
+@media (max-width: 1024px) {
+  .viz-grid { grid-template-columns: 1fr; }
+  .kpi-strip { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 768px) {
+  .metrics-grid { grid-template-columns: repeat(2, 1fr); }
+  .stock-card-header { flex-direction: column; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header class="page-header">
+  <h1>Equity Watchlist Dashboard — All 39 Stocks (Batches 1-4)</h1>
+  <div class="subtitle">SME-led | Lens: 6-18 mo catalysts | Margin of safety | Sector tailwinds | Interactive sector pie + filters + dated changes log</div>
+  <div class="meta-row">
+    <div class="meta-item"><strong>Baseline (Batch 1):</strong> 29 Apr 2026</div>
+    <div class="meta-item"><strong>Baseline (Batches 2-4):</strong> 16 May 2026</div>
+    <div class="meta-item"><strong>Last Refreshed:</strong> 16 May 2026</div>
+    <div class="meta-item"><strong>Next Refresh:</strong> 1 Jun 2026 (bi-weekly)</div>
+    <div class="meta-item"><strong>Prepared for:</strong> Rajat</div>
+  </div>
+</header>
+
+<!-- KPI Strip -->
+<div class="kpi-strip">
+  <div class="kpi-card"><div class="kpi-value" id="kpi-total">39</div><div class="kpi-label">Total Stocks</div></div>
+  <div class="kpi-card"><div class="kpi-value" id="kpi-sme">11</div><div class="kpi-label">SME / SME-recent</div></div>
+  <div class="kpi-card"><div class="kpi-value" id="kpi-mainboard">28</div><div class="kpi-label">Main-board</div></div>
+  <div class="kpi-card"><div class="kpi-value" id="kpi-highconv">11</div><div class="kpi-label">High Conviction</div></div>
+  <div class="kpi-card"><div class="kpi-value" id="kpi-sectors">12</div><div class="kpi-label">Sectors Covered</div></div>
+</div>
+
+<!-- Visualizations -->
+<div class="viz-grid">
+  <div class="viz-card">
+    <h3>📊 Sector Distribution</h3>
+    <div class="chart-wrapper"><canvas id="sectorPie"></canvas></div>
+  </div>
+  <div class="viz-card">
+    <h3>🎯 Conviction Breakdown</h3>
+    <div class="chart-wrapper"><canvas id="convictionDoughnut"></canvas></div>
+  </div>
+  <div class="viz-card">
+    <h3>💰 Market Cap Buckets</h3>
+    <div class="chart-wrapper"><canvas id="mcapBar"></canvas></div>
+  </div>
+</div>
+
+<!-- Toolbar -->
+<div class="toolbar">
+  <label for="filter-batch">Batch:</label>
+  <select id="filter-batch">
+    <option value="all">All</option>
+    <option value="1">Batch 1: Power/Mining/Realty</option>
+    <option value="2">Batch 2: Defence/Engg/Auto</option>
+    <option value="3">Batch 3: Specialty Chem/Pharma</option>
+    <option value="4">Batch 4: EMS/Electronics/Tech</option>
+  </select>
+  <label for="filter-listing">Listing:</label>
+  <select id="filter-listing">
+    <option value="all">All</option>
+    <option value="sme">SME</option>
+    <option value="mainboard">Main-board</option>
+  </select>
+  <label for="filter-conviction">Conviction:</label>
+  <select id="filter-conviction">
+    <option value="all">All</option>
+    <option value="high">High</option>
+    <option value="med">Medium</option>
+    <option value="low">Low / Wait</option>
+  </select>
+  <label for="search-box">Search:</label>
+  <input id="search-box" type="text" placeholder="Stock or sector..." />
+  <button onclick="resetFilters()">Reset</button>
+  <span style="margin-left:auto;font-size:11px;color:#888;">Showing <span id="count">39</span> of 39 stocks</span>
+</div>
+
+<!-- Summary Table -->
+<section class="summary-table">
+  <table id="summary-table">
+    <thead>
+      <tr>
+        <th data-sort="num">#</th>
+        <th data-sort="name">Stock</th>
+        <th data-sort="batch">Batch</th>
+        <th data-sort="sector">Sector</th>
+        <th data-sort="mcap">Mcap (₹Cr)</th>
+        <th>CMP (₹)</th>
+        <th data-sort="conviction">Conviction</th>
+        <th>Thesis</th>
+      </tr>
+    </thead>
+    <tbody id="summary-tbody"></tbody>
+  </table>
+</section>
+
+<!-- Stock Cards -->
+<main id="cards-container"></main>
+
+<footer class="page-footer">
+  <p>Bi-weekly auto-refresh via scheduled Cowork task (1st &amp; 15th of month, 9 AM). Each refresh appends a dated entry to "Changes Since Baseline" per stock.</p>
+  <div class="disclaimer">
+    <strong>Disclaimer:</strong> This dashboard is for personal investment research. Not a buy/sell recommendation. Market caps sourced from public aggregators (Tickertape, Groww, Trendlyne, Business Standard, MarketsMojo, Yahoo, Whalesbook, ScanX, etc.) — verify on Screener.in before action. SME-listed names carry higher governance and liquidity risk.
+  </div>
+</footer>
+
+</div>
+
+<script>
+const stocks = [
+  // ===== BATCH 1 (13 stocks) — Power, Mining, Realty & Others =====
+  { id: "oriana", num: 1, name: "Oriana Power Ltd", listing: "sme", batch: 1,
+    sector: "Renewable Energy & Power", conviction: "med",
+    mcap: 7500, mcapDisp: "~7,500-8,000", mcapSource: "Estimated (verify Screener)",
+    thesis: "Hyper-growth solar+storage; H1FY26 rev +117%; rich valuation needs continuous beats.",
+    tagline: "Renewable Energy EPC + IPP | Listed Aug-2023 | SME-platform multibagger",
+    metrics: [
+      {label: "H1 FY26 Revenue", value: "₹781 Cr (+117% YoY)", source: "Multibagg AI"},
+      {label: "H1 FY26 PAT", value: "₹121 Cr (+165% YoY)", source: "Q2FY26 IP"},
+      {label: "Order Book", value: "₹2,500+ Cr (excl. Maithon)", source: "Q2 FY26 IP"},
+      {label: "Recent Win", value: "₹1,180 Cr DVC Maithon FloatSolar", source: "Ventura Sec"} ],
+    business: "Renewable energy platform: solar EPC for industrials/utilities + own IPP assets + scaling into BESS, green hydrogen. Actis JV for 1 GW transformed company from contractor to platform.",
+    thesisPoints: ["OB ₹2,500 Cr+ (₹3,700 Cr incl. Maithon) provides 2x+ revenue visibility.", "Actis JV: USD 100mn equity for 1 GW, ~₹4,000 Cr 2-yr runway.", "BESS storage tariff discovery driving new tender flow.", "Floating solar pipeline multi-GW across reservoirs."],
+    risks: ["WC-intensive: 4-6 mo discom receivable cycles.", "Maithon execution slip = credibility hit.", "Rich ~30x P/E needs continued earnings beats.", "Equity dilution risk via QIP for capacity scaling."],
+    catalysts: ["Q4 FY26 results (May-26)", "Maithon mobilisation milestones", "Actis JV first IPP commissioning (H1 FY27)", "BESS standalone large tender win", "MSCI/Nifty smallcap inclusion"],
+    valuation: "FY26E rev ₹1,500-1,600 Cr / PAT ₹240-280 Cr. ~30x forward P/E. Comparable KPI Green 25-35x.",
+    mos: "Thin MoS. Best entry: 20-30% drawdown + continued OB momentum.",
+    changes: [{date: "29 Apr 2026", body: "Baseline. H1 FY26 rev ₹781 Cr (+117% YoY); OB ₹2,500 Cr+; ₹1,180 Cr DVC Maithon win adds ~50% to OB."}] },
+
+  { id: "rajesh", num: 2, name: "Rajesh Power Services Ltd", listing: "mainboard", batch: 1,
+    sector: "Renewable Energy & Power", conviction: "high",
+    mcap: 3000, mcapDisp: "~3,000", mcapSource: "Estimated (verify Screener)",
+    thesis: "Niche Gujarat T&D EPC; FY26 rev +52%; OB ₹3,326 Cr (~2x rev); discom-capex pure-play.",
+    tagline: "Power T&D EPC | Listed Dec-2023 | Discom-capex pure-play",
+    metrics: [
+      {label: "FY26 Revenue", value: "₹1,628 Cr (+52% YoY)", source: "TND India"},
+      {label: "FY26 EBITDA/PAT", value: "EBITDA +59% / PAT +48%", source: "BNT"},
+      {label: "OB Mar-26", value: "₹3,326 Cr (incl. L1)", source: "TND India"},
+      {label: "FY26 Inflow", value: "₹2,473 Cr", source: "TND India"} ],
+    business: "Power T&D EPC for Gujarat & adjacent states: builds 33-220 kV substations, transmission lines, distribution infra for state discoms (PGVCL, MGVCL, UGVCL, DGVCL, GETCO).",
+    thesisPoints: ["RDSS ₹3.03 lakh Cr scheme through FY26 drives capex.", "Khavda + Dholera evacuation — Gujarat-geographic edge.", "OB at 2x revenue → 18-24 months visibility.", "Asset-light labour model preserves ROCE 40%+."],
+    risks: ["Gujarat-state concentration.", "Discom payment cycles can stretch.", "Commodity input volatility on fixed-price contracts.", "Pan-India EPCs bidding aggressively for Gujarat work."],
+    catalysts: ["Q1 FY27 results (Jul-26)", "Major Khavda/Dholera evacuation order", "Geographic diversification (Rajasthan/Maharashtra)", "RDSS scheme extension", "OB past ₹4,000 Cr"],
+    valuation: "FY26 PAT ~₹140-160 Cr; ~₹3,000 Cr Mcap → P/E ~19-21x. KEC ~25-28x — discount given size.",
+    mos: "Reasonable MoS. Best entry: 10-15% drawdown post quarterly miss.",
+    changes: [{date: "29 Apr 2026", body: "Baseline. FY26 rev ₹1,628 Cr (+52%); OB ₹3,326 Cr; FY26 inflow ₹2,473 Cr."}] },
+
+  { id: "kmew", num: 3, name: "Knowledge Marine & Engineering Works", listing: "mainboard", batch: 1,
+    sector: "Water / Civil / Marine Infra", conviction: "high",
+    mcap: 2000, mcapDisp: "~2,000", mcapSource: "Estimated (verify Screener)",
+    thesis: "Tonnage-tax + shipbuilding entry + ₹1,500 Cr OB; reasonable valuation vs PSU shipbuilders.",
+    tagline: "Marine Services | BSE Mainboard 2022 | Niche multibagger",
+    metrics: [
+      {label: "Q3 FY26 Revenue", value: "₹90 Cr (+56% YoY)", source: "Whalesbook"},
+      {label: "EBITDA Margin", value: "~43%", source: "Whalesbook"},
+      {label: "Order Book", value: "₹1,500 Cr; bids ₹3,000 Cr+", source: "Whalesbook"},
+      {label: "Tax Rate", value: "<1% (tonnage-tax)", source: "Whalesbook"} ],
+    business: "Marine vessel fleet (dredgers, tugs, mooring boats, survey vessels) for major Indian ports + oil/gas terminals. FY26 entered shipbuilding via captive yard (₹230 Cr IWAI + 15-yr green tug).",
+    thesisPoints: ["Sagarmala ₹6L Cr port modernisation drives dredging.", "Maritime Development Fund + shipbuilding subsidy.", "Green-tug mandate by 2030 → 15-yr annuity.", "Tonnage-tax → effective tax <1%, ROCE uplift."],
+    risks: ["Customer concentration: top 3-4 ports/oil terminals 50%+ rev.", "Marine asset risk: downtime, accidents, dry-docking.", "Shipbuilding is new capability — first-of-kind execution.", "WC stretch on govt port contracts."],
+    catalysts: ["Q4 FY26 results", "First green-tug delivery", "New shipyard commissioning", "Major port long-term contract (5+ yrs)", "Maritime Dev Fund clarifications"],
+    valuation: "FY26E rev ₹350-400 Cr / PAT ₹100-130 Cr. ~16-20x P/E vs Cochin SY ~30x. Cheap relative.",
+    mos: "Better cushion than Oriana/Sathlokhar. Tonnage-tax durable. Size 1-2% with adds on milestones.",
+    changes: [{date: "29 Apr 2026", body: "Baseline. Q3 FY26 rev ₹90 Cr (+56%); EBITDA margin 43%; OB ₹1,500 Cr; entered shipbuilding via ₹230 Cr IWAI + 15-yr green tug."}] },
+
+  { id: "sathlokhar", num: 4, name: "Sathlokhar Synergys E&C Global", listing: "sme", batch: 1,
+    sector: "Water / Civil / Marine Infra", conviction: "med",
+    mcap: 1200, mcapDisp: "~1,200", mcapSource: "Estimated (verify Screener)",
+    thesis: "Factory-construction EPC; rev +400% Q3; OB ₹1,100-1,400 Cr; SME platform risk.",
+    tagline: "Industrial / Civil EPC + PEB | NSE SME 2023 | Hyper-growth manufacturing-capex",
+    metrics: [
+      {label: "Q3 FY26 Revenue", value: "₹190 Cr (+400% YoY)", source: "Devdiscourse"},
+      {label: "Q3 FY26 PAT growth", value: "+340% YoY", source: "Devdiscourse"},
+      {label: "Order Book", value: "₹1,097→₹1,397 Cr (Jan→Feb)", source: "ANI/Tribune"},
+      {label: "Bid Pipeline", value: "~₹15,975 Cr", source: "Tribune"} ],
+    business: "Industrial-construction & civil EPC for factory buildings, warehouses, PEB, MEP works. South India focused. Marquee customer: Reliance Consumer (Campa Cola plants).",
+    thesisPoints: ["PLI ₹1.97L Cr drives factory-build pipeline.", "China+1: every new electronics/EV/pharma plant = EPC work.", "Reliance Campa Cola = multi-year repeat customer.", "FY27 revenue could double again."],
+    risks: ["SME platform → low FF, governance/disclosure risk.", "Hyper-growth (400%) unsustainable.", "Customer concentration: Reliance, EDAC large orders.", "Receivables balloon at this growth rate."],
+    catalysts: ["Q4 FY26 results (May-26)", "OB past ₹2,000 Cr", "New marquee customer (semicon/DC/EV)", "SME → Mainboard migration", "FY27 mgmt guidance"],
+    valuation: "FY26E rev ₹500-550 Cr / PAT ₹50-65 Cr. P/E ~18-24x vs Capacit'e ~12-15x — premium for Reliance halo.",
+    mos: "Thin MoS given SME + valuation. Position 1-1.5% max. Mainboard migration derisks.",
+    changes: [{date: "29 Apr 2026", body: "Baseline. Q3 FY26 rev ₹190 Cr (+400% YoY); FY26 turnover +100%+ YoY; OB ₹1,397 Cr; bid pipeline ₹15,975 Cr."}] },
+
+  { id: "nlc", num: 5, name: "NLC India Ltd", listing: "mainboard", batch: 1,
+    sector: "Renewable Energy & Power", conviction: "high",
+    mcap: 24000, mcapDisp: "~24,000", mcapSource: "Estimated (verify Screener)",
+    thesis: "PSU value-unlock via NLC Renewables (NIRL) listing; lignite cash cow + critical minerals.",
+    tagline: "Lignite Mining + Thermal + Renewables PSU | Demerger value-unlock",
+    metrics: [
+      {label: "Q3 FY26 PAT (consol)", value: "+13.5% YoY", source: "IndianMasterminds"},
+      {label: "Q4 FY26E", value: "Rev ₹3,400-3,700 Cr / PAT ₹350-420 Cr", source: "Univest"},
+      {label: "NIRL Demerger", value: "1,430 MW transferred wef Jan-26; up to 25% OFS", source: "EquityBulls"},
+      {label: "Mining wins", value: "Pachwara South + Talabira record + Chhattisgarh limestone", source: "EquityBulls"} ],
+    business: "PSU under Min of Coal: (1) Lignite mining (Neyveli + new blocks); (2) Thermal power ~6 GW; (3) Renewables 1.43 GW now demerged into NIRL (listing planned).",
+    thesisPoints: ["NIRL listing = value-unlock; could be ₹15-20K Cr standalone.", "Pachwara South + Talabira ramp drives FY27.", "Critical-minerals push: limestone, phosphorite, bauxite, REE.", "PSU re-rating cycle with explicit demerger catalyst."],
+    risks: ["Coal/lignite tariff regulation (CERC).", "NIRL IPO pricing if RE multiples compress.", "PSU disinvestment timing slip.", "Coal block ramp delays."],
+    catalysts: ["Q4 FY26 (May-26)", "NIRL DRHP filing (Q1-Q2 FY27)", "NIRL listing (H2 FY27 most likely)", "Pachwara South full commissioning", "Critical-minerals block allocations"],
+    valuation: "FY26E (post-transfer) rev ₹13-14K Cr / PAT ₹1.8-2K Cr. P/E ~12-13x. SOTP ₹30-38K Cr.",
+    mos: "Strong MoS — PSU floor + 25-30% upside to SOTP. 3-year hold for full unlock.",
+    changes: [{date: "29 Apr 2026", body: "Baseline. NIRL transfer effective Jan-26; up to 25% OFS approved. Talabira record output Dec-25; Pachwara South commenced Dec-25; new limestone+phosphorite licence in Chhattisgarh."}] },
+
+  { id: "gmdc", num: 6, name: "GMDC (Gujarat Mineral Devp Corp)", listing: "mainboard", batch: 1,
+    sector: "Metals & Mining", conviction: "med",
+    mcap: 22718, mcapDisp: "22,718", mcapSource: "Screener via WebSearch, Apr-26",
+    thesis: "REE re-rating play; BARC tech transfer + NMDC MoU; Ambadungar mineral monetisation.",
+    tagline: "Lignite + REE + Critical Minerals | Gujarat-Govt PSU | +128% 1-yr",
+    metrics: [
+      {label: "Market Cap", value: "₹22,718 Cr (+128% 1-yr)", source: "Screener via WS"},
+      {label: "FY24 Lignite Output", value: "6.37 MT", source: "Screener"},
+      {label: "Revenue / PAT", value: "₹2,626 Cr / ₹989 Cr", source: "Screener"},
+      {label: "REE Tech (Jan-26)", value: "BARC tech transfer for hard-rock ankeritic ore", source: "ScanX"} ],
+    business: "Gujarat-govt PSU: (1) Lignite (2nd largest India); (2) Bauxite Kutch; (3) Critical minerals & REE — Ambadungar block, BARC tech-enabled processing.",
+    thesisPoints: ["REE strategic: India imports 95%; Ambadungar 5-10% supply.", "National Critical Minerals Mission ₹16,300 Cr.", "Lignite cash cow funds REE capex.", "BARC tech transfer Jan-26 is exclusive."],
+    risks: ["REE price volatility (50-200% historically).", "First-of-kind hard-rock REE plant execution.", "China retaliation on REE pricing.", "Stock +128% 1-yr — expectations baked in."],
+    catalysts: ["Q4 FY26 results", "REE pilot-plant commissioning (FY27)", "Critical-mineral block auction wins", "NMDC JV definitive agreement", "REE off-take guarantee scheme"],
+    valuation: "FY26E rev ₹2.8-3K Cr / PAT ₹1-1.1K Cr. P/E ~21-23x — premium for REE optionality.",
+    mos: "Moderate MoS. Lignite floor; REE optionality. 15-20% pullback for better entry.",
+    changes: [{date: "29 Apr 2026", body: "Baseline. Mcap ₹22,718 Cr (+128% 1-yr). NMDC MoU March 2026 for REE value chain. BARC tech transfer Jan-26."}] },
+
+  { id: "gpil", num: 7, name: "Godawari Power & Ispat (GPIL)", listing: "mainboard", batch: 1,
+    sector: "Metals & Mining", conviction: "high",
+    mcap: 14000, mcapDisp: "~14,000", mcapSource: "Estimated (verify Screener)",
+    thesis: "Captive iron ore + ₹25,000 Cr revenue vision by 2030; pellet doubled; CRM + BESS capex.",
+    tagline: "Backward-integrated steel maker | Self-funded capex compounder",
+    metrics: [
+      {label: "FY26 Iron Ore", value: "27.49 lakh MT (record)", source: "DSIJ"},
+      {label: "FY26 Pellets", value: "28.56 lakh MT (capacity 4.7 MT)", source: "DSIJ"},
+      {label: "Capex announced", value: "₹1,600 Cr (CRM + BESS)", source: "InvestyWise"},
+      {label: "FY28/FY30 Vision", value: "₹12-15K / ₹25K Cr revenue", source: "InvestyWise"} ],
+    business: "Backward-integrated steel maker in Chhattisgarh: captive iron ore (Ari Dongri) → pellet plant → sponge iron → billets → finished steel.",
+    thesisPoints: ["Captive ore ₹500-1,000/T vs market ₹6-8K/T = cost edge.", "Ari Dongri doubling to 6 MT.", "Pellet capacity 4.7 MT post Dec-25 drives FY27.", "CRM + BESS + greenfield steel = 3x revenue trajectory."],
+    risks: ["Steel cycle exposure.", "Iron ore royalty changes by Chhattisgarh govt.", "Greenfield steel EC clearance timeline.", "DRI carbon intensity — carbon tax overhang 2030s."],
+    catalysts: ["Q4 FY26 results (May-26)", "Greenfield steel EC clearance", "CRM commissioning (FY27)", "BESS first project commissioning", "Steel cycle inflection"],
+    valuation: "FY26E rev ₹6-6.5K Cr / PAT ₹1-1.2K Cr. P/E ~12-14x. Cyclical entry matters.",
+    mos: "Strong MoS — captive ore + low debt + capex roadmap. 3-5% portfolio fit.",
+    changes: [{date: "29 Apr 2026", body: "Baseline. FY26 record output across all divisions. Pellet capacity 4.7 MT (Dec-25). ₹1,600 Cr CRM + BESS capex. FY27 capex ~₹2,000 Cr."}] },
+
+  { id: "ecl", num: 8, name: "Electrosteel Castings", listing: "mainboard", batch: 1,
+    sector: "Water / Civil / Marine Infra", conviction: "high",
+    mcap: 7000, mcapDisp: "~7,000", mcapSource: "Estimated (verify Screener)",
+    thesis: "JJM extended to Dec-28 + ₹8.7L Cr outlay; FY26 weakness creates entry; H2 FY27 inflexion.",
+    tagline: "Ductile Iron Pipes | Jal Jeevan Mission cycle play",
+    metrics: [
+      {label: "Q3 FY26 Revenue", value: "₹1,526 Cr (-16.1% YoY)", source: "MachineMaker"},
+      {label: "9M FY26 Revenue", value: "₹4,602 Cr (-19.3% YoY)", source: "MachineMaker"},
+      {label: "Q3 FY26 EBITDA Margin", value: "5.8% (depressed)", source: "MachineMaker"},
+      {label: "JJM Extension", value: "Through Dec-2028 / ₹8.7L Cr", source: "Business Standard"} ],
+    business: "DI pipe maker for water/sewerage: 100mm to 2000mm pipes for JJM, AMRUT 2.0. Customers: state utilities + EPC (L&T, Megha, NCC).",
+    thesisPoints: ["JJM extended Dec-28 + ₹8.7L Cr outlay = multi-year backstop.", "FY27 budget ₹67,600 Cr → sharp uptick.", "FY26 weakness = low base for reflation.", "Vietnam, Oman international expansion."],
+    risks: ["Govt-order concentration 70%+.", "Iron ore + scrap volatility on fixed price.", "Jindal Saw, Welspun expanding capacity.", "Bolpur mine reserve depletion.", "Kejriwal group governance drag."],
+    catalysts: ["Q4 FY26 results (May-26)", "Union Budget JJM utilisation H1 FY27", "ECL FY27 Q1-Q2 volume growth", "Vietnam/Oman wins", "Brownfield capacity announcement"],
+    valuation: "FY26E rev ₹6.5K Cr / PAT ₹400-500 Cr → P/E ~14-17x. FY27 recovery → ~10-12x forward.",
+    mos: "Strong MoS at depressed levels. Cyclical low + multi-year demand. 2-4% fit.",
+    changes: [{date: "29 Apr 2026", body: "Baseline. 9M FY26 rev -19.3% YoY (govt pause). JJM extended Dec-2028 with ₹8.7L Cr outlay. FY27 budget ₹67,600 Cr."}] },
+
+  { id: "kolte", num: 9, name: "Kolte Patil Developers", listing: "mainboard", batch: 1,
+    sector: "Real Estate", conviction: "med",
+    mcap: 3000, mcapDisp: "~3,000", mcapSource: "Estimated (verify Screener)",
+    thesis: "FY26 sales ₹2,605 Cr; Q4 +13% inflexion after weak 9M; mid-segment Pune lever.",
+    tagline: "Mid-segment RE | Pune-Mumbai-Bengaluru | Cycle recovery candidate",
+    metrics: [
+      {label: "FY26 Sales", value: "₹2,605 Cr (Q4 +13%, 9M -3%)", source: "Business Standard"},
+      {label: "FY26 Collections", value: "₹2,689 Cr", source: "BS"},
+      {label: "9M FY26 Pre-Sales", value: "₹1,891 Cr", source: "BS"},
+      {label: "Geographic Mix", value: "~55% Pune / 25% MMR / 20% B'lore", source: "Investor Pres"} ],
+    business: "Mid-segment residential developer in Pune (flagship Wakad/Hinjawadi), Mumbai (Vikhroli/Thane), Bengaluru (Hennur/Sarjapur).",
+    thesisPoints: ["Pune cycle resilient on IT/services + infra.", "FY27 launch pipeline ₹6-8K Cr GDV (JD/DM model).", "Mid-segment recovery extending to ₹70L-1.5Cr.", "Q4 FY26 +13% suggests cycle start."],
+    risks: ["Pune slowdown if IT hiring cools.", "RERA delays in Mumbai JDs.", "Input cost inflation.", "Smaller scale vs DLF/Macrotech caps multiple."],
+    catalysts: ["Q4 FY26 + FY26 results (May-26)", "Q1 FY27 sales (Jul-26)", "New launches in flagship Pune markets", "RBI rate-cut cycle", "Mumbai redevelopment commencements"],
+    valuation: "FY26E rev ₹1.5-1.8K Cr / PAT ₹150-200 Cr → P/E ~15-20x vs Brigade ~25-30x.",
+    mos: "Reasonable MoS — cycle bottom + cheap relative + solid BS. 25-30% upside.",
+    changes: [{date: "29 Apr 2026", body: "Baseline. FY26 sales ₹2,605 Cr (Q4 +13% after 9M -3%). Collections ₹2,689 Cr. Q4 inflexion suggests cycle recovery."}] },
+
+  { id: "garware", num: 10, name: "Garware Hi-Tech Films", listing: "mainboard", batch: 1,
+    sector: "Specialty Materials & Packaging", conviction: "med",
+    mcap: 10500, mcapDisp: "~10,500", mcapSource: "Estimated (verify Screener)",
+    thesis: "PPF premiumisation; new ₹125 Cr Waluj line live (Sep-25); Q2 dip = tactical entry candidate.",
+    tagline: "Specialty Films | Premium compounder | Near-term blip",
+    metrics: [
+      {label: "FY25 Rev/PAT", value: "₹2,109 / ₹331 Cr (+26%/+63%)", source: "ScanX"},
+      {label: "Q2 FY26 Revenue", value: "₹569.69 Cr (-8.2% YoY)", source: "ScanX"},
+      {label: "Q2 FY26 PAT", value: "₹91.20 Cr (-12.5% YoY)", source: "ScanX"},
+      {label: "Waluj PPF Line", value: "₹125 Cr / 300 LSF (Sep-25)", source: "Garware IP"} ],
+    business: "Specialty plastic films: PPF for premium cars (retail via 250+ GAS), Sun Control Films, BOPET/specialty packaging.",
+    thesisPoints: ["Premium auto penetration = direct PPF demand.", "GAS network 250→400+ studios over 2 yrs.", "Coloured PPF + Headlight protection launches.", "Waluj 300 LSF capacity drives FY27 PPF."],
+    risks: ["Premium auto cycle slowdown.", "Global PPF competition (XPEL, 3M, SunTek).", "Currency: 35-40% PPF exports.", "Channel inventory cycles (Q2 dip)."],
+    catalysts: ["Q3+Q4 FY26 results — confirm Q2 blip", "Waluj full quarterly contribution Q4/Q1", "New product traction (Coloured PPF)", "GAS expansion milestones", "Possible export wins"],
+    valuation: "FY26E rev ₹2-2.1K Cr / PAT ₹280-310 Cr → FY26 P/E ~33-35x; FY27 P/E ~24-27x.",
+    mos: "MoS improved post-Q2 dip. Best buy: pullback to FY27 P/E ~20-22x. 3-4% fit.",
+    changes: [{date: "29 Apr 2026", body: "Baseline. Q2 FY26 dip (-8.2% rev) is channel destocking blip. New Waluj PPF line (₹125 Cr / 300 LSF) commercial production from Sep-25; full benefit FY27."}] },
+
+  { id: "haldyn", num: 11, name: "Haldyn Glass Ltd", listing: "mainboard", batch: 1,
+    sector: "Specialty Materials & Packaging", conviction: "low",
+    mcap: 700, mcapDisp: "~700", mcapSource: "Estimated (verify Screener)",
+    thesis: "Niche micro-cap; capacity expansion + premium decorative plant; liquidity-constrained.",
+    tagline: "Glass Containers | Western India | Q3 turnaround signal",
+    metrics: [
+      {label: "Q3 FY26", value: "Margin expansion + turnaround signal", source: "MarketsMojo"},
+      {label: "Plants", value: "Gavasad (flint + amber)", source: "Investor pres"},
+      {label: "Capex", value: "Decorative glass plant + Triple Gob", source: "Investor pres"},
+      {label: "Recent capex", value: "Furnace relining (FY24)", source: "Investor pres"} ],
+    business: "Niche manufacturer of soda-lime flint + amber glass containers for F&B, liquor, pharma, beverage. Western India concentration.",
+    thesisPoints: ["Premium spirits/craft liquor boom.", "Glass packaging revival vs plastic.", "Decorative glass plant adds higher-margin.", "Triple Gob IS Machine +20-30% productivity."],
+    risks: ["Energy cost (gas) 30% of mfg cost.", "Customer concentration 50%+.", "Logistics costs heavy + fragile.", "Substitution to PET/aluminium.", "Small cap liquidity."],
+    catalysts: ["Q4 FY26 results (May-26)", "Decorative glass plant capex/commissioning", "Triple Gob commissioning", "New premium liquor/gin customers", "HNG industry consolidation"],
+    valuation: "FY26E rev ₹350-400 Cr / PAT ₹35-50 Cr → P/E ~14-20x vs HSIL ~15-18x.",
+    mos: "MoS exists but liquidity-constrained. 0.5-1% max. 3-4 yr horizon.",
+    changes: [{date: "29 Apr 2026", body: "Baseline. Q3 FY26 margin expansion + revenue growth (turnaround signal). Decorative glass plant proposed at Gavasad."}] },
+
+  { id: "care", num: 12, name: "CARE Ratings Ltd", listing: "mainboard", batch: 1,
+    sector: "Financial Services", conviction: "med",
+    mcap: 5000, mcapDisp: "~5,000", mcapSource: "Estimated (verify Screener)",
+    thesis: "9M FY26 rev +14-17%; bank credit at +14.5%; oligopoly with recurring annuity.",
+    tagline: "Credit Rating | #3 after CRISIL, ICRA | Cyclical credit leverage",
+    metrics: [
+      {label: "9M FY26 Standalone Rev", value: "₹280.15 Cr (+14% YoY)", source: "ScanX"},
+      {label: "9M FY26 Consol Rev", value: "₹342.40 Cr (+17% YoY)", source: "ScanX"},
+      {label: "EBITDA Margin", value: "~46% standalone", source: "ScanX"},
+      {label: "Bank Credit Growth", value: "+14.5% (Dec-25)", source: "ScanX"} ],
+    business: "Credit rating agency: corporate debt, structured finance, bank loans + subsidiaries (advisory, analytics, risk solutions, international).",
+    thesisPoints: ["Bank credit +14.5% → ratings volume growth.", "Bond market deepening — RBI/SEBI push.", "ESG ratings emerging product line.", "Recurring surveillance fees = annuity.", "Oligopoly (CRISIL+ICRA+CARE = 85% mkt)."],
+    risks: ["Regulatory: SEBI pricing/rotation rules.", "Cyclical: corp bond/credit cycles.", "Reputation: rating misjudgements.", "Intl/advisory subs loss-making — drag.", "Issuer pricing pressure."],
+    catalysts: ["Q4 FY26 results (May-26)", "FY27 bank credit + bond momentum", "ESG ratings revenue ramp", "Int'l expansion", "Possible buyback/special dividend"],
+    valuation: "FY26E rev ₹400-420 Cr / PAT ₹160-180 Cr → P/E ~28-30x. Between CRISIL ~52x and ICRA ~32x.",
+    mos: "Moderate MoS. Best entry: 10-15% pullback → ~24-25x. Defensive: high div + recurring rev.",
+    changes: [{date: "29 Apr 2026", body: "Baseline. 9M FY26 standalone rev ₹280 Cr (+14%); consol ₹342 Cr (+17%); EBITDA margin 46%. Bank credit at +14.5% (Dec-25)."}] },
+
+  { id: "monarch", num: 13, name: "Monarch Networth Capital", listing: "mainboard", batch: 1,
+    sector: "Financial Services", conviction: "low",
+    mcap: 3500, mcapDisp: "~3,500", mcapSource: "Estimated (verify Screener)",
+    thesis: "Capital-markets cycle late; PAT margins 50%+ but revenue softening.",
+    tagline: "Diversified financial services | Capital-markets cycle exposure",
+    metrics: [
+      {label: "Q2 FY26 PAT", value: "₹44.97 Cr (+2.25% YoY)", source: "MarketsMojo"},
+      {label: "Q2 FY26 Revenue", value: "₹83.12 Cr (-15.17% QoQ)", source: "MarketsMojo"},
+      {label: "Q2 PAT Margin", value: "54.10%", source: "MarketsMojo"},
+      {label: "Q3 FY26 Rev/PAT", value: "₹91.95 Cr / ₹45.41 Cr", source: "MarketsMojo"} ],
+    business: "Mid-tier financial services: retail broking, institutional eq, IB (IPO+advisory), wealth/PMS, AIF, distribution, research.",
+    thesisPoints: ["AIF AUM growth 25-30% annually.", "IB pipeline: SEBI 50+ DRHPs queued.", "Demat 18 Cr+ retail equity deepening.", "Diversified verticals reduce cycle exposure."],
+    risks: ["Capital-markets cycle volatility.", "SEBI F&O restrictions/regulations.", "Discount broker competition.", "AIF/PMS performance lags risks AUM.", "Talent RM departures."],
+    catalysts: ["Q4 FY26 results (May-26)", "Capital-mkt activity recovery", "AIF AUM milestone announcements", "Regulatory clarity on F&O", "Possible inorganic M&A"],
+    valuation: "FY26E rev ₹400-450 Cr / PAT ₹180-200 Cr → P/E ~17-19x. Motilal Oswal ~16x, Anand Rathi Wealth ~32x.",
+    mos: "MoS thin given cycle + regulatory. Best zone: 15-20% pullback. Cyclical not compounder.",
+    changes: [{date: "29 Apr 2026", body: "Baseline. Q2 FY26 revenue -15% QoQ / -20% YoY (cap-mkt soft). Q3 FY26 rev ₹92 Cr / PAT ₹45 Cr. PAT margins held at 50%+."}] },
+
+  // ===== BATCH 2 (14 stocks) — Defence / Engineering / Auto =====
+  { id: "obsc", num: 14, name: "OBSC Perfection Ltd", listing: "sme", batch: 2,
+    sector: "Auto Components & Forgings", conviction: "med",
+    mcap: 935, mcapDisp: "935.55", mcapSource: "Business Standard, 29-Apr-26",
+    thesis: "₹1,200 Cr OB; pivoting to defence/marine; Q3 FY26 rev +70.5%.",
+    tagline: "Precision metal components | Sep-2024 IPO | Auto-anc with defence pivot",
+    metrics: [
+      {label: "Market Cap", value: "₹935.55 Cr", source: "Business Std 29-Apr-26"},
+      {label: "Q3 FY26 Rev Growth", value: "+70.5% YoY", source: "ScanX"},
+      {label: "H1 FY26", value: "Rev +32% / PAT +45% YoY", source: "ScanX"},
+      {label: "Order Book", value: "~₹1,200 Cr", source: "Trade Brains 2026"} ],
+    business: "Precision-machined metal components — gears, shafts, valve bodies — for Tier-1 auto suppliers + increasingly defence/marine/telecom infra.",
+    thesisPoints: ["Auto-anc localisation push (PLI + China+1).", "Defence indigenisation (75% domestic by FY27).", "Marine + telecom expansion.", "7-yr nomination orders (₹22.6 Cr Apr-26) annuity."],
+    risks: ["SME platform liquidity/governance.", "Auto-anc cyclical.", "Customer concentration top 3-5 = 60%+.", "Defence/marine execution different cycles.", "Working capital balloon possible."],
+    catalysts: ["Q4 FY26 results (May-26)", "OB past ₹1,500 Cr", "Defence Min/Navy direct order disclosure", "SME→Mainboard migration", "New marine/telecom customer"],
+    valuation: "FY26E rev ₹350-400 Cr / PAT ₹35-50 Cr → P/E ~19-25x vs Sansera ~25-30x.",
+    mos: "MoS thin given SME + valuation. Position 1-1.5% max. Mainboard migration derisks.",
+    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹935.55 Cr per Business Standard 29-Apr-26. Q3 FY26 rev +70.5% YoY; OB ~₹1,200 Cr; recent ₹22.6 Cr machined parts 7-yr nomination order (8-Apr-26)."}] },
+
+  { id: "sunita", num: 15, name: "Sunita Tools Ltd", listing: "sme", batch: 2,
+    sector: "Auto Components & Forgings", conviction: "low",
+    mcap: 615, mcapDisp: "590-643", mcapSource: "Tickertape/IndMoney Apr-26",
+    thesis: "Faridabad shell-line live; Middle East defence MOU; speculative pivot.",
+    tagline: "Precision tools → Defence | BSE SME | Speculative defence pivot",
+    metrics: [
+      {label: "Market Cap", value: "₹590.36-643.70 Cr", source: "Tickertape/IndMoney Apr-26"},
+      {label: "52-wk Range", value: "₹552.45 - ₹1,123.85", source: "IndMoney 10-Apr-26"},
+      {label: "Defence MOU", value: "Middle East firm for M107 (155mm) shells", source: "Co disclosure"},
+      {label: "Faridabad 2nd factory", value: "Rented; Line 2 commercial Oct-26", source: "Co disclosure"} ],
+    business: "1988-vintage Mumbai precision tools maker (mould bases, ground plates) pivoting to defence ammunition (155mm artillery shells) via Middle East partner.",
+    thesisPoints: ["Indian defence ammunition push.", "Middle East/global shell shortage post-2022.", "Tool & die industry 8-10% CAGR.", "Premium injection mould demand (EV, electronics)."],
+    risks: ["SME / micro-cap liquidity.", "Defence pivot speculative — first production a year out.", "Middle East partner reliance + payment risk.", "Quality issues in 155mm shells = rejection risk.", "Legacy mould margins under pressure."],
+    catalysts: ["Oct-26 Faridabad Line 2 commissioning", "First M107 shell delivery", "Middle East order value disclosure", "Q4 FY26 results", "MoD / Indian Army order"],
+    valuation: "FY26E rev ₹100-150 Cr / PAT ₹10-20 Cr → P/E 30-50x — very rich for size.",
+    mos: "Very thin MoS. Position 0.5-1% max. Hard stop: Oct-26 commissioning slip → exit.",
+    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹590-643 Cr range (Tickertape/IndMoney Apr-26). Speculative defence pivot via Middle East MOU for M107 shells. Faridabad Line 2 targeted Oct-26 commercial."}] },
+
+  { id: "yash", num: 16, name: "Yash Highvoltage Ltd", listing: "sme", batch: 2,
+    sector: "Power T&D / Electrical Components", conviction: "low",
+    mcap: 1996, mcapDisp: "1,995.70", mcapSource: "Business Standard / IndMoney 30-Apr-26",
+    thesis: "240% 1-yr return; T&D capex pure-play; rich valuation.",
+    tagline: "Transformer Bushings | BSE SME | T&D capex play, valuation rich",
+    metrics: [
+      {label: "Market Cap", value: "₹1,995.70 Cr", source: "BS / IndMoney 30-Apr-26"},
+      {label: "Share price", value: "₹692 (BSE, 27-Apr-26)", source: "BS"},
+      {label: "1-yr return", value: "+240.92%", source: "IndMoney"},
+      {label: "Last-month return", value: "+58.73%", source: "IndMoney"} ],
+    business: "Manufactures transformer bushings (OIP, RIP, HC) + FRP cylinders/guard rings. Customers: transformer makers (BHEL, ABB, Siemens, CG Power, GE T&D, Voltamp).",
+    thesisPoints: ["T&D capex ₹9.15L Cr in 2022-32 plan.", "RDSS 25 Cr+ smart meters + new transformers.", "Renewable evacuation grid demand.", "Replacement cycle: 15-20% fleet > 25 yrs."],
+    risks: ["Valuation: 240% 1-yr rally has stretched multiples.", "T&D cycle moderation risk.", "Customer concentration 70%+.", "Commodity input volatility.", "SME governance overhang."],
+    catalysts: ["Q4 FY26 results (May-26)", "Capacity expansion announcement", "Major export contract win", "Mainboard migration", "Possible promoter OFS"],
+    valuation: "FY26E rev ₹150-200 Cr / PAT ₹30-50 Cr → P/E 40-65x — very rich.",
+    mos: "MoS very thin. Best entry: 20-30% drawdown post miss. Position 1% max.",
+    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹1,995.70 Cr per BS/IndMoney 30-Apr-26 (+240% 1-yr, +58.7% last month). Stock is momentum-driven; sector tailwind real but premium steep."}] },
+
+  { id: "systematic", num: 17, name: "Systematic Industries Ltd", listing: "sme", batch: 2,
+    sector: "Power T&D / Electrical Components", conviction: "med",
+    mcap: 445, mcapDisp: "431-457", mcapSource: "Tickertape / IndMoney Apr-26",
+    thesis: "Debt-free + 54% H1 revenue growth + OFC/OPGW thrust; reasonable valuation.",
+    tagline: "OFC + OPGW + Power lines | NSE SME Sep-2025 IPO | Hyper-growth fibre/grid",
+    metrics: [
+      {label: "Market Cap", value: "₹431-457 Cr", source: "Tickertape/IndMoney"},
+      {label: "Earlier Mcap", value: "₹358.6 Cr (21-Feb-26), ₹380 Cr (8-Apr-26)", source: "Tickertape"},
+      {label: "H1 FY26 Rev Growth", value: "+54% YoY", source: "Co disclosure"},
+      {label: "Balance sheet", value: "Nearly debt-free", source: "Co disclosure"} ],
+    business: "Makes OFC (Optical Fiber Cable), OPGW (Optical Ground Wire), and power transmission conductors. Customers: utilities (PowerGrid, state transcos), telecom, cable distributors.",
+    thesisPoints: ["5G + BharatNet rollout = OFC demand.", "RE evacuation = OPGW demand.", "T&D capex ₹9.15L Cr in 2022-32 → conductors.", "Data centre boom = backbone fiber.", "Debt-free → self-funds expansion."],
+    risks: ["OFC commoditisation, Chinese pricing pressure.", "OPGW market small; concentration risk.", "Telecom capex deceleration post-FY27.", "T&D capex slowdown.", "SME liquidity."],
+    catalysts: ["Q4 FY26 + FY26 results (May-26)", "Major OPGW contract (PowerGrid)", "Mainboard migration", "Export contract (Middle East/Africa)", "Capacity expansion announcement"],
+    valuation: "FY26E rev ₹250-300 Cr / PAT ₹25-35 Cr → P/E ~13-18x vs Sterlite Tech ~25-30x.",
+    mos: "Reasonable MoS — valuation not stretched. Position 1-2%. Mainboard migration derisks.",
+    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹431-457 Cr (Tickertape/IndMoney Apr-26). IPO Sep-2025. H1 FY26 rev +54% YoY. Debt-free."}] },
+
+  { id: "paras", num: 18, name: "Paras Defence & Space Technologies", listing: "mainboard", batch: 2,
+    sector: "Aerospace & Defence", conviction: "med",
+    mcap: 6401, mcapDisp: "6,401", mcapSource: "Trendlyne / Finology via search, Apr-26",
+    thesis: "Drone JV with Heven (Israel); marquee but small base; volatile.",
+    tagline: "Defence optics + Drones + Space | Defence small-cap with drone catalyst",
+    metrics: [
+      {label: "Market Cap", value: "₹6,401 Cr", source: "Trendlyne/Finology Apr-26"},
+      {label: "1-yr return", value: "+16.8%", source: "Screener"},
+      {label: "Q3 FY26 PAT", value: "₹18.21 Cr (+21.1% YoY)", source: "Co"},
+      {label: "Q1 FY26 PAT", value: "₹14.27 Cr (+1.14%); Income ₹95.57 Cr", source: "Co"} ],
+    business: "Defence + space optics, drones, electronics. Customers: DRDO, ISRO, defence PSUs (BEL, BDL, HAL), Indian Navy. Drone JV with Heven (Israel).",
+    thesisPoints: ["Indian defence indigenisation 75% target FY27.", "Optronics niche under iDEX + Make-In-India.", "Drone warfare imperative post-Ukraine.", "Space sector growth: ISRO + private (Skyroot/Pixxel).", "Defence exports target ₹50K Cr by FY29."],
+    risks: ["Defence order cyclicality — Q lumpiness.", "MoD procurement delays.", "Margin pressure: defence cost-plus pricing.", "Drone JV: Israel-India geopolitics, tech transfer.", "Smaller scale vs MTAR/Data Patterns."],
+    catalysts: ["Q4 FY26 results (May-26)", "Drone JV first product launch", "Major defence order (optronics for new platform)", "Apr-26 Defence Min budget capital procurement", "Possible export order"],
+    valuation: "FY26E rev ₹400-450 Cr / PAT ₹65-80 Cr → P/E 80-100x — very rich.",
+    mos: "MoS thin at current. Best entry: 20-30% drawdown → 60-70x. Position 1.5-2.5%.",
+    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹6,401 Cr per Trendlyne/Finology Apr-26. Q3 FY26 PAT +21.1% YoY. Drone JV with Heven (Israel) is FY27 H1 catalyst."}] },
+
+  { id: "azad", num: 19, name: "Azad Engineering Ltd", listing: "mainboard", batch: 2,
+    sector: "Aerospace & Defence", conviction: "high",
+    mcap: 13981, mcapDisp: "13,981", mcapSource: "Business Standard, Apr-26",
+    thesis: "OB ₹6,500 Cr+ (10x rev); MHI 8-yr deal; Baker Hughes win.",
+    tagline: "Aerospace + Energy + Defence forgings | Dec-2023 IPO | High-conviction OB compounder",
+    metrics: [
+      {label: "Market Cap", value: "₹13,981 Cr (range ₹10,495-13,884)", source: "BS / Whalesbook Apr-26"},
+      {label: "9M FY26 Revenue", value: "₹432.98 Cr (+32% YoY)", source: "BS"},
+      {label: "9M FY26 PAT", value: "₹97.03 Cr (already > FY25 ₹88.52)", source: "BS"},
+      {label: "Order Book", value: "₹6,500+ Cr (~10x FY26E rev)", source: "Whalesbook"} ],
+    business: "Precision-forged + machined components for aerospace (engines, airframes), energy (gas/steam turbine blades), defence (missiles). Customers: GE, MHI, Siemens Energy, Baker Hughes, Honeywell, Pratt & Whitney, Eaton.",
+    thesisPoints: ["Global aerospace supply chain restructuring → India.", "Engine spares + LEAP/GTF narrow-body demand.", "Energy transition: gas turbine demand.", "China+1 supply chain shift.", "MHI 8-yr contract = annuity revenue."],
+    risks: ["Customer concentration top 5-6 OEMs = 70%+ rev.", "Currency: large export exposure.", "Aerospace cycle: global aviation slowdown.", "Aluminum/titanium/nickel-alloy volatility.", "Talent retention niche skills."],
+    catalysts: ["Q4 FY26 + FY26 results (May-26)", "OB past ₹7,500 Cr", "New customer (Pratt/Rolls/Safran)", "Capacity expansion/new plant", "MSCI/Nifty inclusion"],
+    valuation: "FY26E rev ₹600-650 Cr / PAT ₹130-150 Cr → P/E 95-105x. FY28E P/E ~55-65x.",
+    mos: "MoS thin at 100x. Best entry: 25-35% pullback → 60-70x forward. Position 2-3%.",
+    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹13,981 Cr per Business Standard Apr-26. OB ₹6,500 Cr+ (10x FY26E rev). MHI 8-yr gas turbine deal + Baker Hughes win drive thesis."}] },
+
+  { id: "axiscades", num: 20, name: "AXISCADES Technologies Ltd", listing: "mainboard", batch: 2,
+    sector: "Aerospace & Defence", conviction: "med",
+    mcap: 8248, mcapDisp: "8,248", mcapSource: "BW Businessworld, early-Apr-26",
+    thesis: "9M FY26 rev ₹886 Cr +25%; $18mn OEM deal; aero +28%.",
+    tagline: "Aerospace ER&D + EMS | Tata-lineage | ER&D platform with EMS optionality",
+    metrics: [
+      {label: "Market Cap", value: "₹8,248 Cr", source: "BW Businessworld Apr-26"},
+      {label: "Q3 FY26 Rev", value: "₹343 Cr (+25% YoY)", source: "BW"},
+      {label: "9M FY26 Rev/EBITDA/PAT", value: "₹886 / ₹144 / ₹72 Cr", source: "BW"},
+      {label: "Recent deal", value: "$18mn aerospace OEM (3-5 yr)", source: "BW"} ],
+    business: "Aerospace + defence ER&D services + EMS + aerospace manufacturing. DAL facility (165K sqft Devanahalli aero land) operational with 2 global OEM partnerships.",
+    thesisPoints: ["Aerospace ER&D outsourcing 25-30% offshore.", "Defence indigenisation + private participation.", "DAL facility = structural exclusivity moat.", "20+ yr Boeing/Airbus/GE/Lockheed relationships.", "Tata Group lineage."],
+    risks: ["Customer concentration top 5 = 60%+ rev.", "Currency exposure.", "Global aerospace cycle.", "ER&D competition (KPIT, Cyient, Tata Tech).", "Talent attrition aerospace engineers."],
+    catalysts: ["Q4 FY26 + FY26 results (May-26)", "DAL facility full ramp (FY27)", "New major OEM deal", "Defence platform participation (Tejas Mk2/AMCA)", "AI/digital tools commercialisation"],
+    valuation: "FY26E rev ₹1.2-1.25K Cr / PAT ₹95-110 Cr → P/E ~75-85x — rich.",
+    mos: "Best entry: 20% pullback → ~60x forward. Position 1.5-2%.",
+    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹8,248 Cr per BW Businessworld early-Apr-26. 9M FY26 rev ₹886 Cr +25%; aerospace +28%. $18mn 3-5 yr aerospace OEM deal disclosed."}] },
+
+  { id: "dynamatic", num: 21, name: "Dynamatic Technologies Ltd", listing: "mainboard", batch: 2,
+    sector: "Aerospace & Defence", conviction: "low",
+    mcap: 6737, mcapDisp: "6,737.11", mcapSource: "MarketsMojo, 9-Apr-26",
+    thesis: "Boeing/Airbus tier-1; Q3 FY26 +35% rev; FY26 PAT thin (₹43 Cr).",
+    tagline: "Aerospace + Hydraulics + Auto | Boeing/Airbus tier-1 | Margin recovery needed",
+    metrics: [
+      {label: "Market Cap", value: "₹6,737.11 Cr", source: "MarketsMojo 9-Apr-26"},
+      {label: "FY26 Revenue", value: "₹1,426.6 Cr", source: "Co"},
+      {label: "FY26 PAT", value: "₹43.04 Cr (margin thin)", source: "Co"},
+      {label: "Q3 FY26 Sales", value: "₹424.87 Cr (+34.7% YoY)", source: "Co"} ],
+    business: "Aerospace tier-1 (Boeing/Airbus — A320/A330 Flap Track Beam), Hydraulics, Auto Components. Customers: Boeing, Airbus, Bell, Spirit, Eaton, Magna.",
+    thesisPoints: ["Global aerospace recovery narrow-body.", "Indian aerospace ecosystem development.", "Defence + space optionality emerging.", "Hydraulics infra/agri/CV demand.", "Auto recovery PV+CV."],
+    risks: ["PAT margin compression: ₹43 Cr on ₹1,427 Cr too thin.", "Aerospace cycle Boeing/Airbus production.", "Auto + hydraulics commodity.", "Currency on aerospace exports.", "Single-program risk: Flap Track Beam exposure."],
+    catalysts: ["Q4 FY26 + FY26 results — margin trajectory critical", "New Airbus/Boeing contract", "Aerospace plant capacity ramp", "Possible defence/space contract", "Hydraulics turnaround/sale"],
+    valuation: "FY26 PAT ₹43 Cr / Mcap ₹6,737 Cr → P/E ~155x — extremely rich. FY28E P/E ~35-45x.",
+    mos: "MoS very thin. Best entry: 25-35% drawdown post margin disappointment. Position 1-1.5% max.",
+    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹6,737.11 Cr per MarketsMojo 9-Apr-26. FY26 rev ₹1,427 Cr but PAT only ₹43 Cr (margin thin). Q3 FY26 +35% rev a positive."}] },
+
+  { id: "dee", num: 22, name: "DEE Development Engineers Ltd", listing: "mainboard", batch: 2,
+    sector: "Water / Civil / Marine Infra", conviction: "high",
+    mcap: 2968, mcapDisp: "2,968", mcapSource: "Trendlyne via search, Apr-26",
+    thesis: "FY26 OB ₹1,940 Cr; FY27 target ₹1,500 Cr rev; +88% 1-yr return.",
+    tagline: "Process piping + Heavy fabrication + Power | 2024 IPO | Order-book compounder",
+    metrics: [
+      {label: "Market Cap", value: "₹2,968 Cr (+88.8% 1-yr)", source: "Trendlyne Apr-26"},
+      {label: "FY26 Order Book", value: "₹1,940.07 Cr (31-Mar-26)", source: "SolarQuarter"},
+      {label: "FY26 Order Inflow", value: "₹1,869.67 Cr", source: "SolarQuarter"},
+      {label: "FY27 Pipeline", value: "₹4-5K Cr; FY27 rev target ₹1,500 Cr", source: "SolarQuarter"} ],
+    business: "Process piping for refineries, petchem, power, fertilizer. Customers: L&T Hydrocarbon, Toyo, Tecnimont, IOC, BPCL, GAIL, Reliance. New seamless pipe plant capex.",
+    thesisPoints: ["Refinery+petchem capex: Reliance/IOC/BPCL revival.", "Fertilizer revival: govt subsidy + new urea plants.", "Power capex: thermal mod + new units.", "O&G pipeline rollout (PMUY).", "New seamless pipe plant = value-chain move."],
+    risks: ["Refinery/petchem cyclicality.", "Customer concentration EPC contractors 50%+.", "Steel input volatility.", "Fragmented competition.", "WC cycle 6-9 mo."],
+    catalysts: ["Q4 FY26 + FY26 results (May-26)", "FY27 H1 OB conversion + inflow rate", "Seamless pipe plant commissioning", "Major refinery/petchem order", "Defence/nuclear contract"],
+    valuation: "FY26E rev ₹1,160 Cr / PAT ₹85-100 Cr → P/E ~30-35x. FY27E ~20-23x.",
+    mos: "Reasonable MoS at ~30x for 30%+ growth. Best entry: 10-15% pullback → ~18-20x.",
+    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹2,968 Cr per Trendlyne Apr-26 (+88.8% 1-yr). FY26 OB ₹1,940 Cr (31-Mar-26 disclosure). FY27 target ₹1,500 Cr revenue + ₹4-5K Cr pipeline."}] },
+
+  { id: "happy", num: 23, name: "Happy Forgings Ltd", listing: "mainboard", batch: 2,
+    sector: "Auto Components & Forgings", conviction: "med",
+    mcap: 12521, mcapDisp: "10,334-12,521", mcapSource: "Trendlyne / Sharekhan Apr-26",
+    thesis: "EBITDA margin 28.6%; FY26 muted on US Class 8 drag.",
+    tagline: "Forgings (CV+tractor+farm) | Premium forging franchise | FY26 muted",
+    metrics: [
+      {label: "Market Cap", value: "₹10,334-12,521 Cr range", source: "Trendlyne / Sharekhan"},
+      {label: "Q1 FY26 Revenue", value: "₹350 Cr (+3.6% YoY)", source: "Co"},
+      {label: "Q2 FY26 Revenue", value: "₹377.39 Cr (+4.5% YoY)", source: "Co"},
+      {label: "Q1 FY26 EBITDA Margin", value: "28.6% (industry-leading)", source: "Co"} ],
+    business: "Forging + machined components for CV (MHCV engine/transmission/chassis), tractors, off-highway, industrial. Customers: Tata Motors, M&M, Ashok Leyland, Volvo, Daimler, Cummins, CAT, Bharat Forge.",
+    thesisPoints: ["MHCV recovery FY26-27 cycle uptick.", "Tractor cycle + rural recovery.", "Non-auto (industrial/oil&gas/defence/wind) diversification.", "Premium content shift to BS6.2+EV adjacencies.", "Export demand US/EU CV (despite Class 8 weak)."],
+    risks: ["MHCV cycle prolonged weakness.", "US Class 8 drag continues.", "Steel/alloy input volatility.", "Tractor cycle monsoon dependency.", "Customer concentration Tata/M&M/AL 60%+."],
+    catalysts: ["Q4 FY26 + FY26 results (May-26)", "MHCV cycle inflexion in FY27", "US Class 8 cycle recovery", "Non-auto customer addition (industrial/wind/O&G)", "Capacity expansion announcement"],
+    valuation: "FY26E rev ₹1.5K Cr / PAT ₹250-280 Cr → P/E ~45-50x. FY27E ~30-35x.",
+    mos: "Moderate MoS. Best entry: 15-20% pullback → ~25-28x forward. Position 2-3%.",
+    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹10,334-12,521 Cr range per Trendlyne/Sharekhan Apr-26. Q2 FY26 rev ₹377 Cr (+4.5%); EBITDA margin 28.6% industry-leading. US Class 8 drag."}] },
+
+  { id: "sansera", num: 24, name: "Sansera Engineering Ltd", listing: "mainboard", batch: 2,
+    sector: "Auto Components & Forgings", conviction: "high",
+    mcap: 15762, mcapDisp: "15,762", mcapSource: "Solidarity / Mangalkeshav, Oct-25/Apr-26",
+    thesis: "Q3 FY26 +25% rev / +29% EBITDA; ADS pivot to ₹1,300 Cr by FY30.",
+    tagline: "Auto forging + ADS (Aero/Defence/Semicon) | Diversified compounder",
+    metrics: [
+      {label: "Market Cap", value: "₹15,762 Cr", source: "Solidarity / Mangalkeshav"},
+      {label: "Q3 FY26 Revenue", value: "₹908 Cr (+25% YoY)", source: "InvestyWise"},
+      {label: "Q3 FY26 EBITDA", value: "₹164 Cr (+29% YoY); margin 18.1%", source: "InvestyWise"},
+      {label: "FY26/27/30 ADS Target", value: "₹300 / ₹600 / ₹1,300 Cr", source: "Co"} ],
+    business: "Precision-forged components: (1) Auto-ICE (connecting rods, rocker arms), (2) Auto-EV/non-engine (suspension, steering, chassis), (3) ADS — Aerospace, Defence, Semiconductor.",
+    thesisPoints: ["Auto recovery + EV transition (non-engine EV-agnostic).", "ADS growth — secular aerospace/defence/semi.", "China+1 supply chain shift.", "Premium chassis components in EV.", "Export market US/EU."],
+    risks: ["Auto cycle exposure remains.", "EV transition for ICE components.", "Steel/aluminum input volatility.", "ADS execution risk — long qualification cycles.", "Competition (Bharat Forge, MM, Mahindra CIE)."],
+    catalysts: ["Q4 FY26 + FY26 results (May-26)", "ADS quarterly milestone FY27 H1", "New aerospace OEM win", "Auto-EV component program", "Capacity expansion", "Possible international acquisition"],
+    valuation: "FY26E rev ₹3.3-3.5K Cr / PAT ₹350-400 Cr → P/E ~40-45x. FY27E ~32-35x.",
+    mos: "Moderate MoS — premium justified by ADS diversification. Best entry: 15-20% pullback → ~30-32x.",
+    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹15,762 Cr per Solidarity/Mangalkeshav. Q3 FY26 +25% rev / +29% EBITDA margin 18.1%. ADS pivot trajectory ₹300/₹600/₹1,300 Cr (FY26/27/30)."}] },
+
+  { id: "rossell", num: 25, name: "Rossell Techsys Ltd", listing: "mainboard", batch: 2,
+    sector: "Aerospace & Defence", conviction: "low",
+    mcap: 2735, mcapDisp: "2,734.5", mcapSource: "MarketsMojo, 6-Mar-26",
+    thesis: "99% exports; OB ₹700 Cr; Q3 FY26 +71% rev — but PAT thin.",
+    tagline: "Aerospace + Defence EMS exports | Hyper-growth contractor, thin PAT",
+    metrics: [
+      {label: "Market Cap", value: "₹2,734.5 Cr (6-Mar-26)", source: "MarketsMojo"},
+      {label: "Earlier Mcap", value: "₹2,518 Cr (early-Feb-26)", source: "MarketsMojo"},
+      {label: "Q2 FY26 Rev", value: "₹125.17 Cr (+145% YoY)", source: "MarketsMojo"},
+      {label: "Order Book", value: "₹700 Cr (8 countries, 30 customers)", source: "Co"} ],
+    business: "Contract design + engineering + EMS for aerospace/defence. Customers: Boeing, Lockheed, BAE, GE Aviation, Honeywell, Raytheon, Rolls-Royce, plus 25+ global. 99% exports.",
+    thesisPoints: ["Global aerospace + defence supply chain shift to India.", "Defence offset drives Indian sub-contracting.", "Make-In-India aerospace components.", "Cost arbitrage vs US/EU.", "Defence export target ₹50K Cr by FY29."],
+    risks: ["PAT margin ~3% too thin — input cost shock hits.", "Currency exposure (99% exports).", "Customer concentration top 5-6 = 60%+.", "Aerospace cycle direct hit.", "Execution scale-up control risk."],
+    catalysts: ["Q4 FY26 + FY26 results — full-year clarity", "Operating leverage / margin expansion FY27", "Major OEM long-term agreement", "OB past ₹1,000 Cr", "Capacity expansion / new facility"],
+    valuation: "FY26 PAT ₹7.91 Cr / Mcap ₹2,735 Cr → P/E ~345x — extreme. FY27E P/E ~90-130x.",
+    mos: "MoS very thin. Best entry: 30%+ drawdown + margin trajectory. Position 1% max.",
+    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹2,734.5 Cr per MarketsMojo 6-Mar-26. Q1-Q3 FY26 revenue triple-digit growth but FY26 PAT ₹7.91 Cr too thin → P/E extreme."}] },
+
+  { id: "ssw", num: 26, name: "Steel Strips Wheels Ltd (SSWL)", listing: "mainboard", batch: 2,
+    sector: "Auto Components & Forgings", conviction: "med",
+    mcap: 3366, mcapDisp: "3,366", mcapSource: "Yahoo Finance / Tickertape, 29-Apr-26",
+    thesis: "FY26 rev ₹3,708 Cr (post-acquisition); Q3 PAT -2.3%.",
+    tagline: "Auto Wheels (Steel + Aluminum) | Recently consolidated; cycle-exposed",
+    metrics: [
+      {label: "Market Cap", value: "₹3,366 Cr", source: "Yahoo / Tickertape 29-Apr-26"},
+      {label: "FY26 Revenue", value: "₹3,708.17 Cr (+210% YoY — M&A)", source: "Co"},
+      {label: "FY26 PAT", value: "₹129.37 Cr (-3.9% YoY)", source: "Co"},
+      {label: "Q3 FY26 Revenue", value: "₹1,320.81 Cr (+22.9% YoY)", source: "Co"} ],
+    business: "Largest Indian wheel manufacturer for cars, 2W/3W, CV, tractors, EME. Plants across India + aluminum wheel venture. Customers: Maruti, Hyundai, Tata Motors, M&M, AL, John Deere.",
+    thesisPoints: ["Indian auto cycle recovery — PV + 2W.", "Tractor cycle uptick post-monsoon.", "Premiumisation: alloy wheel adoption.", "EV + adventure 2W shift to alloy.", "Export market growing."],
+    risks: ["Auto cycle exposure direct.", "Steel input cost.", "Customer concentration (Maruti, M&M, Tata 50%+).", "M&A integration risk near-term.", "Aluminum price volatility.", "Wheels India + global imports."],
+    catalysts: ["Q4 FY26 + FY26 results (May-26)", "Auto cycle recovery in FY27", "Alloy wheel revenue mix expansion", "Export contract wins", "Debt reduction post-M&A"],
+    valuation: "FY26 PAT ₹129 Cr / Mcap ₹3,366 Cr → P/E ~26x. FY27E P/E ~18-21x.",
+    mos: "Moderate MoS at current. Best entry: cyclical pullback → ~15-18x forward.",
+    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹3,366 Cr per Yahoo/Tickertape 29-Apr-26. FY26 rev ₹3,708 Cr (+210% — M&A driven). PAT -3.9%. 2W/3W +97%, tractor +35% (Feb-26)."}] },
+
+  { id: "wheels", num: 27, name: "Wheels India Ltd", listing: "mainboard", batch: 2,
+    sector: "Auto Components & Forgings", conviction: "high",
+    mcap: 3000, mcapDisp: "3,000", mcapSource: "Trendlyne via search, Apr-26",
+    thesis: "Q3 FY26 PAT +44%; CV/tractor cycle exposure; air-susp leader.",
+    tagline: "Auto Wheels + Air Suspension + Hydraulics | TVS-group quality compounder",
+    metrics: [
+      {label: "Market Cap", value: "₹3,000 Cr", source: "Trendlyne Apr-26"},
+      {label: "Q3 FY26 PAT", value: "₹36.07 Cr (+44.05% YoY)", source: "Co"},
+      {label: "Q3 FY26 Revenue", value: "₹1,371.45 Cr (+21.92% YoY)", source: "Co"},
+      {label: "Q2 FY26 PAT", value: "₹30.99 Cr (+29.12% YoY)", source: "Co"} ],
+    business: "TVS Group company: largest Indian steel/aluminum wheels for CV/PC/tractor/EME + air suspension (bus + truck lift-axle leader) + hydraulics + fabricated components (wind, railway).",
+    thesisPoints: ["Indian CV cycle recovery FY26-27.", "Tractor cycle post-monsoon.", "Construction/mining capex (govt infra).", "EV bus + electric truck → air suspension.", "Wind capacity expansion → fabrications.", "Defence + railway hydraulics."],
+    risks: ["Auto cycle (CV + tractor + earth-mover).", "Steel + aluminum input.", "Customer concentration CV/tractor.", "Air suspension competition (Knorr-Bremse).", "Wind capex cyclicality.", "Import competition in PV."],
+    catalysts: ["Q4 FY26 + FY26 results (May-26)", "EV bus order pipeline → air susp", "Wind energy fabrication contracts", "Auto cycle recovery FY27", "Alloy wheel premiumisation", "TVS Group strategic actions"],
+    valuation: "FY26E rev ₹4.8-5K Cr / PAT ₹130-150 Cr → P/E ~20-23x vs SSWL ~26x, S-C ~30-35x.",
+    mos: "Reasonable MoS — TVS group + air-suspension franchise. 25-30% upside on cycle.",
+    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹3,000 Cr per Trendlyne Apr-26. Q3 FY26 PAT ₹36 Cr (+44%); Q2 PAT ₹31 Cr (+29%). Margin expansion + cycle inflexion both visible."}] },
+
+  // ===== BATCH 3 (5 stocks) — Specialty Chem / Pharma =====
+  { id: "accent", num: 28, name: "Accent Microcell Ltd", listing: "sme", batch: 3,
+    sector: "Specialty Chem & Pharma", conviction: "med",
+    mcap: 1042, mcapDisp: "1,042", mcapSource: "Screener via WebSearch, Apr-26",
+    thesis: "MCC for pharma+food+industrial; 200+ customers; small-cap.",
+    tagline: "Microcrystalline Cellulose (MCC) | NSE SME 2024 | Niche pharma-input",
+    metrics: [
+      {label: "Market Cap", value: "₹1,042 Cr", source: "Screener via WS"},
+      {label: "Customers", value: "200+ across 10+ sectors", source: "Co"},
+      {label: "Global MCC Mkt (2026)", value: "USD 1.59 bn → 2.66 bn by 2033 (7.6% CAGR)", source: "Coherent MI"},
+      {label: "Pharma MCC share", value: "~36% of global market", source: "Coherent MI"} ],
+    business: "Manufactures high-purity Microcrystalline Cellulose (MCC) — critical excipient (binder/filler/stabilizer) in tablet formulations. Also nutraceutical, food, cosmetics, industrial use.",
+    thesisPoints: ["Global MCC USD 1.59→2.66 bn at 7.6% CAGR.", "Indian pharma export growth → MCC demand.", "Nutraceutical/dietary supplement boom.", "China+1 sourcing for excipients.", "USFDA/EU GMP tightening favours high-purity Indian."],
+    risks: ["SME platform — FF/governance/liquidity.", "Customer concentration in pharma.", "Sigachi + Chinese supplier competition.", "Currency exposure on exports.", "Pulp/chemical input volatility."],
+    catalysts: ["Q4 FY26 results (May-26)", "Major export contract / global pharma customer", "Capacity expansion announcement", "SME→Mainboard migration", "Adjacency product (HPMC, croscarmellose)"],
+    valuation: "FY26E rev ₹250-350 Cr / PAT ₹35-50 Cr → P/E ~21-30x. Sigachi ~25-30x historically.",
+    mos: "Moderate MoS — niche + secular tailwind + small scale. Position 1-2% for SME.",
+    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹1,042 Cr per Screener via WebSearch Apr-26. Pharma excipient niche; global MCC market USD 1.59 bn (2026) → USD 2.66 bn (2033) at 7.6% CAGR."}] },
+
+  { id: "haleos", num: 29, name: "Haleos Labs Ltd (ex-SMS Lifesciences)", listing: "sme", batch: 3,
+    sector: "Specialty Chem & Pharma", conviction: "low",
+    mcap: 379, mcapDisp: "379.42", mcapSource: "MarketsMojo Q3 FY26",
+    thesis: "Q3 FY26 record sales ₹95 Cr; PAT ₹6.6 Cr; ROE weak; margin pressure.",
+    tagline: "Pharma APIs/Intermediates | Small-cap | Margin recovery quarter, weak ROE",
+    metrics: [
+      {label: "Market Cap", value: "₹379.42 Cr", source: "MarketsMojo Q3 FY26"},
+      {label: "Q3 FY26 Net Profit", value: "₹6.62 Cr (+21% YoY, +8.5% QoQ)", source: "MarketsMojo"},
+      {label: "Q3 FY26 Net Sales", value: "₹94.78 Cr (record; +16% QoQ)", source: "MarketsMojo"},
+      {label: "Q3 FY26 Op Margin", value: "14.82% (-187 bps from Q2)", source: "MarketsMojo"} ],
+    business: "Small-cap Indian pharma manufacturer (APIs + intermediates) — recently rebranded from SMS Lifesciences India. Supplies formulators in India + export (USFDA/EU + emerging markets).",
+    thesisPoints: ["China+1 in API sourcing.", "Indian PLI scheme for APIs (₹15K Cr).", "Generic volume growth.", "USFDA/EU GMP scrutiny on Chinese plants.", "Specialty/niche API margin pockets."],
+    risks: ["Weak ROE 8.63% — sub-par for pharma.", "Margin compression -187 bps Q3 vs Q2.", "API price volatility.", "Customer concentration in formulators.", "Regulatory (USFDA inspection binary)."],
+    catalysts: ["Q4 FY26 results (May-26) — margin recovery trajectory", "FY27 H1 first full year post-rebrand", "Major USFDA filing approval", "PLI-scheme product approval", "Capacity expansion announcement"],
+    valuation: "FY26E rev ₹360-400 Cr / PAT ₹25-30 Cr → P/E ~13-15x — cheap but cheap-for-reason.",
+    mos: "MoS thin given weak ROE/margins. Position 0.5-1% max. Watch 2-3 quarters of sustained margin recovery.",
+    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹379.42 Cr per MarketsMojo Q3 FY26. Q3 FY26 record sales ₹95 Cr; PAT ₹6.6 Cr (+21% YoY). ROE 8.63% weak. Margin compression flagged."}] },
+
+  { id: "anupam", num: 30, name: "Anupam Rasayan India Ltd", listing: "mainboard", batch: 3,
+    sector: "Specialty Chem & Pharma", conviction: "high",
+    mcap: 15193, mcapDisp: "15,193", mcapSource: "Yahoo / Screener, late-25/early-26",
+    thesis: "H1 FY26 rev +122% YoY; Q3 standalone rev +89%, PAT +150%; CSM tailwind.",
+    tagline: "Specialty Chem CSM (export-led) | Mar-2021 IPO | Hyper-growth CSM",
+    metrics: [
+      {label: "Market Cap", value: "₹15,193 Cr", source: "Yahoo / Screener late-25/early-26"},
+      {label: "Q3 FY26 Standalone Rev", value: "₹401.37 Cr (+89% YoY)", source: "ScanX"},
+      {label: "Q3 FY26 PAT", value: "₹47.92 Cr (+150% YoY)", source: "ScanX"},
+      {label: "H1 FY26 Consol Rev", value: "₹1,229 Cr (+122% YoY)", source: "Co"} ],
+    business: "Leading Indian Custom Synthesis & Manufacturing (CSM) specialty chemicals: agrochem intermediates + personal care + pharma intermediates + polymer additives. Customers: Syngenta, BASF, Bayer, Dow, FMC, Sumitomo, etc.",
+    thesisPoints: ["Global CSM USD 25 bn+ by 2027.", "Agrochem cycle recovery post-2023 destock.", "Patented agrochem launches → CSM shift to India.", "Specialty chem exports USD 30 bn+ by FY30.", "Long-term LOI contracts with MNCs."],
+    risks: ["Customer concentration top 5-7 = 60%+ rev.", "Agrochem cycle volatility (30-50% swings).", "Currency: significant export exposure.", "Working capital intensive.", "Regulatory (USFDA/EU REACH).", "Competition (PI, Navin Fluorine, SRF)."],
+    catalysts: ["Q4 FY26 + FY26 results (May-26)", "LOI book milestone update", "New large multi-year CSM contract", "Jhagadia capacity full commercial production", "Polymer additives mix shift"],
+    valuation: "FY26E rev ₹2.4-2.6K Cr / PAT ₹220-280 Cr → P/E ~55-65x. FY27E ~35-40x.",
+    mos: "Moderate MoS. H1 +122% justifies premium. Best entry: 15-20% pullback → ~30-35x forward.",
+    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹15,193 Cr per Yahoo/Screener late-25/early-26. Q3 FY26 standalone rev ₹401 Cr (+89%) / PAT ₹48 Cr (+150%). H1 FY26 consol +122%. CSM tailwind."}] },
+
+  { id: "astec", num: 31, name: "Astec Lifesciences Ltd", listing: "mainboard", batch: 3,
+    sector: "Specialty Chem & Pharma", conviction: "low",
+    mcap: 1619, mcapDisp: "1,618.58", mcapSource: "Bajaj Finserv, 28-Apr-26",
+    thesis: "FY26 turnaround narrative; loss narrowed; Godrej Agrovet 67% promoter.",
+    tagline: "Agrochem AI + Pharma int. (Godrej) | Turnaround narrative",
+    metrics: [
+      {label: "Market Cap", value: "₹1,618.58 Cr", source: "Bajaj Finserv 28-Apr-26"},
+      {label: "FY26 Revenue", value: "₹453.2 Cr (+17.5% YoY)", source: "Co audited"},
+      {label: "FY26 Net Loss", value: "₹80.9 Cr (improvement from FY25)", source: "Co"},
+      {label: "Q4 FY26 Net Loss", value: "₹7.76 Cr (vs Q3 ₹15.70 Cr)", source: "ScanX"} ],
+    business: "Godrej group agrochem AI + pharma intermediates manufacturer. FY25 deep losses (EBITDA loss ₹61 Cr) — FY26 turnaround year, losses narrowed, EBITDA at near break-even.",
+    thesisPoints: ["Agrochem cycle recovery post-FY24 destock.", "China+1 in agrochem AI.", "Indian agrochem export 8-10% annually.", "Off-patent agrochem opportunities 2026-28.", "Godrej parent ecosystem synergies."],
+    risks: ["Agrochem cycle reversal extends recovery.", "Customer concentration Godrej + MNCs.", "Raw material / energy volatility.", "FY26 still loss-making — valuation depends on trajectory.", "Regulatory: USFDA/EU.", "Competition (PI, Bharat Rasayan, Sumitomo)."],
+    catalysts: ["Q1 FY27 results (Jul-26) — first profitable quarter expected", "Off-patent agrochem product launches", "Major MNC contract wins", "Godrej Agrovet strategic actions", "Board reshuffle outcome"],
+    valuation: "FY26 loss ₹80.9 Cr; EV/Sales ~3.5-4x. FY27E PAT ₹40-60 Cr → P/E 27-40x forward.",
+    mos: "MoS depends on margin recovery. Best entry: 1-2 profitable quarters confirm. Position 1-1.5% max.",
+    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹1,618.58 Cr per Bajaj Finserv 28-Apr-26. FY26 turnaround: rev ₹453 Cr (+17.5%); loss ₹80.9 Cr (improvement); Q4 sales ₹158.62 Cr (+27% QoQ). EBITDA near break-even."}] },
+
+  { id: "epl", num: 32, name: "EPL Ltd (ex-Essel Propack)", listing: "mainboard", batch: 3,
+    sector: "Specialty Materials & Packaging", conviction: "med",
+    mcap: 7247, mcapDisp: "7,247", mcapSource: "Screener / MarketsMojo (+17.9% 1-yr)",
+    thesis: "Q2 FY26 record sales ₹1,206 Cr / PAT ₹104 Cr; global packaging leader.",
+    tagline: "Laminated tubes (global largest) | Blackstone-owned | Steady compounder",
+    metrics: [
+      {label: "Market Cap", value: "₹7,247 Cr (+17.9% 1-yr)", source: "Screener / MarketsMojo"},
+      {label: "Q2 FY26 Net Sales", value: "₹1,205.90 Cr (+11% YoY)", source: "Co"},
+      {label: "Q2 FY26 Net Profit", value: "₹104.30 Cr (+19.89% YoY)", source: "Co"},
+      {label: "Annual capacity", value: "~8 bn tubes globally", source: "Co"} ],
+    business: "World's largest specialty packaging — laminated plastic tubes for beauty/cosmetics, pharma/health, food, oral care, home care. Customers: Colgate, P&G, Unilever, L'Oréal, GSK, Henkel, Estée Lauder, J&J. 11-country footprint.",
+    thesisPoints: ["FMCG packaging shift to laminated tubes (premium).", "Beauty/personal care premiumisation — ABL tubes.", "Global pharma packaging growth.", "Sustainability/recyclability push — Platina mono-material.", "China+1 in FMCG packaging supply.", "Indian premium FMCG growth."],
+    risks: ["Customer concentration top 5-6 FMCG = 50%+.", "Polymer/aluminum foil volatility.", "Currency (cross-border exposure).", "Sustainability transition risk.", "Blackstone exit overhang (eventual sale).", "FMCG cycle slowdown — beauty/personal care."],
+    catalysts: ["Q4 FY26 + FY26 results (May-26)", "Blackstone exit timeline / strategic action", "New customer announcements (premium beauty/pharma)", "Sustainability product traction", "Capacity expansion/new geography", "Possible buyback/special dividend"],
+    valuation: "FY26E rev ₹4.8-5K Cr / PAT ₹420-470 Cr → P/E ~16-17x. Polyplex ~15-18x, Huhtamaki ~20-25x.",
+    mos: "Reasonable MoS — fair P/E for global market leader. Best entry: 10-15% pullback. Position 2-3%.",
+    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹7,247 Cr per Screener/MarketsMojo (+17.9% 1-yr). Q2 FY26 record sales ₹1,206 Cr (+11%) / PAT ₹104 Cr (+19.89%). FY25 Q4 +411% PAT base-effect."}] },
+
+  // ===== BATCH 4 (7 stocks) — EMS / Electronics / Tech =====
+  { id: "aimtron", num: 33, name: "Aimtron Electronics Ltd", listing: "sme", batch: 4,
+    sector: "EMS / Electronics / AI", conviction: "med",
+    mcap: 2438, mcapDisp: "2,438", mcapSource: "Tradebrains via WebSearch, post-FY26",
+    thesis: "FY26 rev +89% / PAT +79%; OB ₹521 Cr; RFQ pipeline ₹900-950 Cr.",
+    tagline: "EMS / PCB / Box-build | NSE SME | Premium SME EMS pick",
+    metrics: [
+      {label: "Market Cap", value: "₹2,438 Cr", source: "Tradebrains post-FY26"},
+      {label: "FY26 Revenue", value: "₹301.2 Cr (+89.2% YoY)", source: "Co"},
+      {label: "FY26 PAT", value: "₹46 Cr (+79.4%); EBITDA margin 22.6%", source: "Co"},
+      {label: "OB / RFQ", value: "OB ₹521 Cr; RFQ pipeline ₹900-950 Cr", source: "Co"} ],
+    business: "EMS + ESDM: PCB assembly (through-hole + SMT), box-build sub-system assembly, product design services. Customers: India + global (US, Europe) in industrial, medical, defence, telecom, IoT.",
+    thesisPoints: ["PLI scheme white goods/IT hardware/electronics.", "China+1: global OEMs sourcing PCB from India.", "Industrial automation/IoT/medical high-margin EMS.", "Defence + space PCB demand.", "Higher-content shift moves margin up."],
+    risks: ["SME platform liquidity/governance.", "Customer concentration EMS-typical.", "Component/commodity volatility.", "EBITDA margin 22.6% high — compression risk.", "Competition (Syrma, Avalon, Dixon, Kaynes)."],
+    catalysts: ["Q1 FY27 results (Jul-26)", "OB past ₹700 Cr", "Major design-led customer", "International subsidiary disclosure", "SME→Mainboard migration", "PLI/ESDM scheme participation"],
+    valuation: "FY26 PAT ₹46 Cr / Mcap ₹2,438 Cr → P/E ~53x. FY27E ~28-35x. Syrma 50-60x, Avalon ~50x.",
+    mos: "Thin MoS at 53x + SME. Best entry: 20-25% pullback. Position 1-1.5% max for SME EMS.",
+    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹2,438 Cr per Tradebrains via search post-FY26. FY26 rev ₹301 Cr (+89%); PAT ₹46 Cr (+79%); EBITDA margin 22.6%. OB ₹521 Cr; RFQ pipeline ₹900-950 Cr."}] },
+
+  { id: "concord", num: 34, name: "Concord Control Systems Ltd", listing: "sme", batch: 4,
+    sector: "EMS / Electronics / AI", conviction: "med",
+    mcap: 2745, mcapDisp: "2,745", mcapSource: "Screener via search (+205% 1-yr)",
+    thesis: "H1 FY26 PAT +85%; OB ₹313 Cr; ₹47K Cr railway opportunity.",
+    tagline: "Railway Electronics | BSE | RDSO OEM, railway capex play",
+    metrics: [
+      {label: "Market Cap", value: "₹2,745 Cr (+205% 1-yr)", source: "Screener via WS"},
+      {label: "H1 FY26 Revenue", value: "₹81.5 Cr (+63.9% YoY)", source: "Co"},
+      {label: "H1 FY26 PAT", value: "₹16.0 Cr (+85% YoY)", source: "Co"},
+      {label: "Order Book (Sep-25)", value: "₹313 Cr (+47% vs Mar-25)", source: "Co"} ],
+    business: "RDSO-approved OEM for Indian Railways: train control systems, locomotive electronics, sub-station automation, signalling sub-systems, power conditioning, embedded electronics.",
+    thesisPoints: ["Indian Railways modernisation ₹2.4L Cr FY27 budget.", "Kavach (ATP) rollout multi-bn $ opportunity.", "Locomotive electrification + signalling.", "Railway electronics ₹47K Cr opportunity 5-7 yrs.", "Indigenous content mandate favours RDSO-approved."],
+    risks: ["Single-customer (Indian Railways) concentration.", "Tender cycle volatility — lumpy Q.", "Competition (Siemens, Alstom, Hitachi big tenders).", "Regulated pricing limits margin.", "Stock +205% 1-yr — expectations baked in.", "Kavach roll-out delays."],
+    catalysts: ["Q4 FY26 + FY26 results", "Kavach mass rollout contract awards", "Vande Bharat Sleeper / Metro production orders", "Major railway signalling tender win", "OB past ₹400-500 Cr", "Potential NSE listing migration"],
+    valuation: "FY26E rev ₹180-200 Cr / PAT ₹35-45 Cr → P/E ~60-78x — rich.",
+    mos: "MoS thin given 205% rally + concentration. Best entry: 25-30% pullback. Position 1-1.5% max.",
+    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹2,745 Cr per Screener via WS (+205% 1-yr). H1 FY26 rev +63.9% / PAT +85% YoY. OB ₹313 Cr (+47% vs Mar-25). ₹84.68 Cr Indian Railways order recent."}] },
+
+  { id: "avalon", num: 35, name: "Avalon Technologies Ltd", listing: "mainboard", batch: 4,
+    sector: "EMS / Electronics / AI", conviction: "med",
+    mcap: 7059, mcapDisp: "7,059", mcapSource: "Whalesbook via search",
+    thesis: "9M FY26 rev +49%; PAT +83%; OB ₹2,016 Cr; margin pressure flagged.",
+    tagline: "EMS Box-build (US-led) | 2023 IPO | Geographic-arbitrage EMS, margin watch",
+    metrics: [
+      {label: "Market Cap", value: "₹7,059 Cr", source: "Whalesbook via WS"},
+      {label: "9M FY26 Revenue", value: "₹1,123 Cr (+48.7% YoY)", source: "Whalesbook"},
+      {label: "9M FY26 PAT", value: "₹72 Cr (+83.3%); EBITDA ₹116 Cr (+59.2%)", source: "Whalesbook"},
+      {label: "Order Book", value: "₹2,016 Cr", source: "Multibagg AI"} ],
+    business: "EMS box-build for industrial, medical, mobility (rail/EV), defence, clean energy. Dual-shore: US-based facilities + India operations. Customer base largely US OEMs.",
+    thesisPoints: ["China+1 in EMS for US OEMs — dual-shore differentiated.", "Industrial/medical/clean energy EMS demand.", "US onshoring (CHIPS Act + IRA).", "Indian PLI scheme.", "Defence + aerospace EMS opportunities."],
+    risks: ["Q3 FY26 margin compression flagged (EBITDA -84 bps, PAT -58 bps YoY).", "Customer concentration top 5-7 = 50%+.", "US tariff/trade policy changes.", "Currency volatility USD revenue.", "EMS competitive intensity (Syrma, Dixon, Kaynes, Cyient DLM)."],
+    catalysts: ["Q4 FY26 + FY26 results (May 6, 2026)", "Margin recovery quarterly trajectory", "OB past ₹2,500 Cr", "Major US OEM contract", "PLI/India scheme participation", "Capacity expansion"],
+    valuation: "FY26E rev ₹1.5-1.6K Cr / PAT ₹100-120 Cr → P/E ~60-70x. FY27E ~35-42x.",
+    mos: "MoS thin given valuation + margin pressure. Best entry: post-Q4 margin recovery + 15-20% pullback.",
+    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹7,059 Cr per Whalesbook via WS. 9M FY26 rev +49% / PAT +83%. OB ₹2,016 Cr. Q3 margin compression (EBITDA -84 bps YoY) flagged."}] },
+
+  { id: "syrma", num: 36, name: "Syrma SGS Technology Ltd", listing: "mainboard", batch: 4,
+    sector: "EMS / Electronics / AI", conviction: "high",
+    mcap: 16000, mcapDisp: "13,749-18,491", mcapSource: "Range across sources Apr-26",
+    thesis: "9M FY26 rev +17%; PAT +101%; consumer-EMS leader; valuation rich.",
+    tagline: "EMS (Auto/Industrial/Healthcare/RFID) | Aug-2022 listing | Premium EMS leader",
+    metrics: [
+      {label: "Market Cap", value: "₹13,749-18,491 Cr range", source: "Whalesbook / InvestyWise"},
+      {label: "9M FY26 Rev", value: "₹3,380 Cr (+17% YoY)", source: "InvestyWise"},
+      {label: "9M FY26 EBITDA/PAT", value: "₹396 Cr (+63%) / ₹227 Cr (+101%)", source: "InvestyWise"},
+      {label: "Q3 FY26 Rev", value: "₹1,274.5 Cr (+43% YoY)", source: "InvestyWise"} ],
+    business: "Largest Indian EMS/ESDM diversified: Industrial sensors, Auto (BCM, infotainment, telematics), Healthcare devices, Consumer/IoT, IT/BFSI (POS, ATM, kiosks), RFID (India leader).",
+    thesisPoints: ["PLI scheme white goods/IT hardware/telecom.", "China+1 in EMS for US/Europe.", "EV electronics platform programs.", "RFID growth NHAI Fastag/retail/asset tracking.", "Healthcare medical device localisation.", "Indian electronics USD 100→300 bn target."],
+    risks: ["EMS competitive intensity (Dixon, Kaynes, Avalon, Cyient DLM).", "Component/chip/commodity volatility.", "Customer concentration in select segments.", "Currency exposure on exports.", "PE multiple compression on growth normalisation."],
+    catalysts: ["Q4 FY26 + FY26 results (May 2026)", "RFID volume/new applications", "Auto EV programme wins", "Healthcare device customer additions", "Capacity expansion/new plant", "Possible export contract milestone"],
+    valuation: "FY26E rev ₹4.8-5K Cr / PAT ₹325-360 Cr → P/E ~38-57x range. FY27E ~28-37x. Dixon 80-100x.",
+    mos: "Moderate MoS — premium justified vs Dixon/Kaynes. Best entry: 15-20% pullback → ~25-30x forward.",
+    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹13,749-18,491 Cr range across sources Apr-26 (verify on Screener). 9M FY26 rev +17% / PAT +101%. Q3 +43% rev / +108% PAT — acceleration in H2."}] },
+
+  { id: "netweb", num: 37, name: "Netweb Technologies India Ltd", listing: "mainboard", batch: 4,
+    sector: "EMS / Electronics / AI", conviction: "med",
+    mcap: 21000, mcapDisp: "18,843-23,083", mcapSource: "Whalesbook / Tickertape Mar-Apr 26",
+    thesis: "Sovereign AI tailwind; Q4 FY26 rev expected ₹380-420 Cr; high beta.",
+    tagline: "HPC + AI Servers | Jul-2023 IPO | Sovereign-AI multibagger candidate",
+    metrics: [
+      {label: "Market Cap", value: "₹18,843-23,083 Cr range", source: "Whalesbook / Tickertape"},
+      {label: "Q4 FY26E Rev", value: "₹380-420 Cr (vs Q3 ₹310 Cr)", source: "Univest"},
+      {label: "Q4 FY26E PAT", value: "₹45-58 Cr", source: "Univest"},
+      {label: "FY26 guidance", value: "Reportedly 40% revenue growth", source: "Tradebrains"} ],
+    business: "India's leading designer + manufacturer of HPC servers, AI servers (NVIDIA H100/H200/B200 GPU integration), supercomputing, enterprise storage, networking. Customers: govt labs (CDAC, ISRO, IISc), Indian IT majors, defence, BFSI, telcos.",
+    thesisPoints: ["Sovereign AI: IndiaAI mission ₹10,372 Cr scheme.", "Govt + research lab AI compute capex.", "Enterprise AI: Indian IT GPU clusters.", "Datacenter capacity 4-5x by 2030.", "PLI scheme for IT hardware.", "China+1 in AI server manufacturing."],
+    risks: ["GPU supply: NVIDIA allocation swings quarterly.", "Customer concentration in govt + select IT majors.", "AI hype cycle reversal.", "Component/GPU cost volatility on fixed-price.", "Competition (Dell, HPE, Lenovo, Supermicro).", "Valuation rich — compression on miss."],
+    catalysts: ["Q4 FY26 + FY26 results (May 4 call)", "FY27 guidance disclosure", "IndiaAI mission compute orders", "Major NVIDIA H200/B200 deployment", "Enterprise AI customer wins", "International expansion"],
+    valuation: "FY26E rev ₹1.4-1.5K Cr / PAT ₹150-180 Cr → P/E ~110-150x — extremely rich. FY27E ~70-95x.",
+    mos: "MoS very thin at 110-150x. Best entry: 25-30% drawdown. Position 1.5-2.5% for high-beta.",
+    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹18,843-23,083 Cr range (Whalesbook/Tickertape Mar-Apr 26). FY26 results May 4 call. Q4 FY26 rev expected ₹380-420 Cr / PAT ₹45-58 Cr. FY26 guidance 40% growth."}] },
+
+  { id: "aurion", num: 38, name: "Aurionpro Solutions Ltd", listing: "mainboard", batch: 4,
+    sector: "BFSI / IT Software", conviction: "high",
+    mcap: 4800, mcapDisp: "4,600-5,017", mcapSource: "Yahoo / Screener via search",
+    thesis: "9M FY26 rev ₹1,066 Cr (+26%); Fintra + AurionAI launches; B&F focus.",
+    tagline: "Banking software + Fintech | BFSI software compounder + AI launches",
+    metrics: [
+      {label: "Market Cap", value: "₹4,600-5,017 Cr", source: "Yahoo / Screener via WS"},
+      {label: "9M FY26 Revenue", value: "₹1,066 Cr (+26% YoY)", source: "CxOToday"},
+      {label: "B&F Revenue (9M)", value: "₹595 Cr (+26%), 56% of revenue", source: "CxOToday"},
+      {label: "New launches (Apr-26)", value: "Fintra (AI trade fin), AurionAI", source: "Aurionpro"} ],
+    business: "BFSI enterprise software: (1) Banking & Fintech — iCashpro+, SmartLender, Omnifin, FXConnect, AuroPay; (2) Smart Mobility — Queue Mgmt, Kiosks; (3) Customer Experience. Customers: banks, NBFCs, insurance, capital markets across India + Middle East + SE Asia + Africa.",
+    thesisPoints: ["Banking digital transformation global.", "AI in BFSI: Fintra + AurionAI plays.", "Indian fintech ecosystem growth.", "Middle East banking (Saudi 2030, UAE).", "Trade finance digitisation.", "PSU bank tech upgrade cycles."],
+    risks: ["BFSI software competition (Intellect, TCS BaNCS, Infosys Finacle).", "Customer concentration top 5-10 banks 40%+.", "Long deal cycles → revenue lumpy.", "Currency on exports.", "AI/Fintra adoption rate unproven.", "Smart Mobility lower-margin drag."],
+    catalysts: ["Q4 FY26 + FY26 results (May 2026)", "Fintra bank pilot conversion", "AurionAI customer wins", "Major Middle East/Africa contract", "Possible inorganic acquisition", "Smart Mobility large govt order"],
+    valuation: "FY26E rev ₹1.4-1.5K Cr / PAT ₹160-200 Cr → P/E ~25-30x. FY27E ~20-23x. Intellect ~28x, Mastek ~28x.",
+    mos: "Reasonable MoS — fair valuation for growth. Best entry: 10-15% pullback → 18-22x forward. 2-3% fit.",
+    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹4,600-5,017 Cr per Yahoo/Screener via WS. 9M FY26 rev ₹1,066 Cr (+26%); B&F segment ₹595 Cr (+26%). Fintra (AI trade finance) bank pilots from Apr 17, 2026."}] },
+
+  { id: "datamatics", num: 39, name: "Datamatics Global Services Ltd", listing: "mainboard", batch: 4,
+    sector: "BFSI / IT Software", conviction: "low",
+    mcap: 4256, mcapDisp: "4,256", mcapSource: "Finology Ticker via search",
+    thesis: "H1 FY26 rev +20%, PAT +32%; Q3 PAT plunge -42% QoQ — flagged.",
+    tagline: "IT Services + Digital + BPM | Mid-tier IT; Q3 PAT plunge flagged",
+    metrics: [
+      {label: "Market Cap", value: "₹4,256 Cr", source: "Finology Ticker via WS"},
+      {label: "H1 FY26 Revenue", value: "₹957.79 Cr (+19.61% YoY)", source: "Co"},
+      {label: "H1 FY26 PAT", value: "₹113.62 Cr (+32.34% YoY)", source: "Co"},
+      {label: "Q3 FY26 PAT", value: "₹36.38 Cr (-42% QoQ from ₹63 Cr) — flagged", source: "MarketsMojo"} ],
+    business: "Mid-tier IT services: (1) Digital Operations / BPM; (2) Digital Experience; (3) Digital Technologies — data/AI/cloud/automation; (4) Smart City / Govt; (5) Publishing automation.",
+    thesisPoints: ["BPM USD 50+ bn industry growth.", "AI-led BPM automation creates new lines.", "Digital transformation budgets at enterprises.", "Smart city / e-governance projects.", "Publishing automation for global academic/media.", "Onshore-offshore arbitrage."],
+    risks: ["AI/GenAI disruption to BPM core.", "Customer concentration in publishing + select BFSI.", "Currency exposure (USD/EUR).", "Mid-tier IT pricing pressure.", "Q3 FY26 PAT plunge if structural — material concern.", "Smart City project cycles + govt payments."],
+    catalysts: ["Q4 FY26 + FY26 results (May 2026) — confirms Q3 plunge was one-time", "FY27 guidance", "Major BPM/digital deal", "AI/GenAI service revenue ramp", "Smart City project wins", "Possible buyback/special dividend"],
+    valuation: "FY26E rev ₹2.05-2.1K Cr / PAT ₹220-260 Cr → P/E ~16-19x. Coforge ~32x, Persistent ~40x, Mastek ~28x.",
+    mos: "Reasonable MoS at 16-19x if Q3 was one-time. Best entry: post Q4 clarity. Position 1.5-2%.",
+    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹4,256 Cr per Finology Ticker via WS. H1 FY26 rev +20% / PAT +32%. Q3 FY26 PAT plunge -42% QoQ to ₹36 Cr flagged — needs Q4 explanation."}] }
+];
+
+// ---------- CMP Data (verified prices from session research; '—' = awaiting next refresh) ----------
+const CMP_DATA = {
+  "oriana":      { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "rajesh":      { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "kmew":        { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "sathlokhar":  { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "nlc":         { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "gmdc":        { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "gpil":        { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "ecl":         { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "kolte":       { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "garware":     { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "haldyn":      { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "care":        { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "monarch":     { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "obsc":        { cmp: "₹379.00",   date: "29-Apr-26",                source: "Business Standard" },
+  "sunita":      { cmp: "₹966.20",   date: "25-Feb-26 (stale)",        source: "Business Standard" },
+  "yash":        { cmp: "₹692.00",   date: "27-Apr-26",                source: "Business Standard (BSE)" },
+  "systematic":  { cmp: "₹193.15",   date: "23-Apr-26",                source: "Tickertape" },
+  "paras":       { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "azad":        { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "axiscades":   { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "dynamatic":   { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "dee":         { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "happy":       { cmp: "₹1,017.45", date: "28-Oct-25 (stale)",        source: "Sharekhan" },
+  "sansera":     { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "rossell":     { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "ssw":         { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "wheels":      { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "accent":      { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "haleos":      { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "anupam":      { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "astec":       { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "epl":         { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "aimtron":     { cmp: "₹1,098",    date: "late-Apr-26 (post-FY26 UC)", source: "Tradebrains" },
+  "concord":     { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "avalon":      { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "syrma":       { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "netweb":      { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "aurion":      { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "datamatics":  { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" }
+};
+function getCmp(id) { return CMP_DATA[id] || { cmp: "—", date: "—", source: "—" }; }
+
+// ---------- Render functions ----------
+function getListingTag(listing) {
+  return listing === "sme"
+    ? '<span class="tag tag-sme">SME</span>'
+    : '<span class="tag tag-mainboard">Mainboard</span>';
+}
+function getConvictionTag(c) {
+  if (c === "high") return '<span class="tag tag-conv-high">High</span>';
+  if (c === "med")  return '<span class="tag tag-conv-med">Medium</span>';
+  return '<span class="tag tag-conv-low">Low / Wait</span>';
+}
+function getBatchTag(b) {
+  return `<span class="tag tag-batch-${b}">B${b}</span>`;
+}
+
+// Sector palette (Chart.js colors)
+const SECTOR_COLORS = [
+  "#1F4E79", "#2E75B6", "#5B9BD5", "#9DC3E6",
+  "#70AD47", "#A9D08E", "#C00000", "#E97132",
+  "#FFC000", "#7030A0", "#264478", "#636363"
+];
+
+let sectorChart, convictionChart, mcapChart;
+
+function buildCharts(filteredStocks) {
+  // Sector pie data
+  const sectorCounts = {};
+  filteredStocks.forEach(s => { sectorCounts[s.sector] = (sectorCounts[s.sector] || 0) + 1; });
+  const sectorLabels = Object.keys(sectorCounts).sort((a, b) => sectorCounts[b] - sectorCounts[a]);
+  const sectorData = sectorLabels.map(l => sectorCounts[l]);
+
+  // Conviction doughnut
+  const conv = { high: 0, med: 0, low: 0 };
+  filteredStocks.forEach(s => { conv[s.conviction]++; });
+
+  // Market cap buckets
+  const buckets = { "<₹1K Cr": 0, "₹1-3K Cr": 0, "₹3-10K Cr": 0, "₹10-25K Cr": 0, ">₹25K Cr": 0 };
+  filteredStocks.forEach(s => {
+    if (s.mcap < 1000) buckets["<₹1K Cr"]++;
+    else if (s.mcap < 3000) buckets["₹1-3K Cr"]++;
+    else if (s.mcap < 10000) buckets["₹3-10K Cr"]++;
+    else if (s.mcap < 25000) buckets["₹10-25K Cr"]++;
+    else buckets[">₹25K Cr"]++;
+  });
+
+  if (sectorChart) sectorChart.destroy();
+  if (convictionChart) convictionChart.destroy();
+  if (mcapChart) mcapChart.destroy();
+
+  sectorChart = new Chart(document.getElementById('sectorPie'), {
+    type: 'doughnut',
+    data: {
+      labels: sectorLabels,
+      datasets: [{
+        data: sectorData,
+        backgroundColor: sectorLabels.map((_, i) => SECTOR_COLORS[i % SECTOR_COLORS.length]),
+        borderWidth: 2, borderColor: '#fff'
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { position: 'right', labels: { font: { size: 10.5 }, padding: 6, boxWidth: 12 } },
+        tooltip: {
+          callbacks: { label: (ctx) => `${ctx.label}: ${ctx.parsed} stocks (${((ctx.parsed/filteredStocks.length)*100).toFixed(0)}%)` }
+        }
+      },
+      onClick: (evt, items) => {
+        if (items.length) {
+          const label = sectorLabels[items[0].index];
+          document.getElementById('search-box').value = label;
+          applyFilter();
+        }
+      }
+    }
+  });
+
+  convictionChart = new Chart(document.getElementById('convictionDoughnut'), {
+    type: 'doughnut',
+    data: {
+      labels: ['High', 'Medium', 'Low / Wait'],
+      datasets: [{
+        data: [conv.high, conv.med, conv.low],
+        backgroundColor: ['#70AD47', '#FFC000', '#C00000'],
+        borderWidth: 2, borderColor: '#fff'
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { position: 'right', labels: { font: { size: 11 }, padding: 8 } } },
+      onClick: (evt, items) => {
+        if (items.length) {
+          const m = ['high', 'med', 'low'][items[0].index];
+          document.getElementById('filter-conviction').value = m;
+          applyFilter();
+        }
+      }
+    }
+  });
+
+  mcapChart = new Chart(document.getElementById('mcapBar'), {
+    type: 'bar',
+    data: {
+      labels: Object.keys(buckets),
+      datasets: [{
+        label: '# Stocks',
+        data: Object.values(buckets),
+        backgroundColor: '#2E75B6',
+        borderRadius: 4
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false, indexAxis: 'y',
+      plugins: { legend: { display: false } },
+      scales: { x: { beginAtZero: true, ticks: { stepSize: 1 } } }
+    }
+  });
+}
+
+function renderKPIs(filteredStocks) {
+  document.getElementById('kpi-total').textContent = filteredStocks.length;
+  document.getElementById('kpi-sme').textContent = filteredStocks.filter(s => s.listing === 'sme').length;
+  document.getElementById('kpi-mainboard').textContent = filteredStocks.filter(s => s.listing === 'mainboard').length;
+  document.getElementById('kpi-highconv').textContent = filteredStocks.filter(s => s.conviction === 'high').length;
+  const sectorsCount = new Set(filteredStocks.map(s => s.sector)).size;
+  document.getElementById('kpi-sectors').textContent = sectorsCount;
+}
+
+function renderSummary(filteredStocks) {
+  const html = filteredStocks.map(s => {
+    const c = getCmp(s.id);
+    return `
+    <tr>
+      <td>${s.num}</td>
+      <td><a class="stock-link" href="#${s.id}">${s.name}</a></td>
+      <td>${getBatchTag(s.batch)}</td>
+      <td>${s.sector}</td>
+      <td>${s.mcapDisp}<br><span style="font-size:10px;color:#888;">${s.mcapSource}</span></td>
+      <td><strong>${c.cmp}</strong><br><span style="font-size:10px;color:#888;">${c.date}</span></td>
+      <td>${getConvictionTag(s.conviction)}</td>
+      <td>${s.thesis}</td>
+    </tr>`;
+  }).join('');
+  document.getElementById('summary-tbody').innerHTML = html;
+  document.getElementById('count').textContent = filteredStocks.length;
+}
+
+function renderCards(filteredStocks) {
+  const html = filteredStocks.map(s => {
+    const c = getCmp(s.id);
+    const stale = c.date.toLowerCase().includes("stale");
+    const missing = c.cmp === "—";
+    const pillClass = missing ? "cmp-missing" : (stale ? "cmp-stale" : "");
+    return `
+    <article class="stock-card" id="${s.id}">
+      <div class="stock-card-header">
+        <div class="name-block">
+          <h2>${s.num}. ${s.name}</h2>
+          <div class="tagline">${s.tagline}</div>
+        </div>
+        <div class="badges">
+          <div class="cmp-pill ${pillClass}">
+            <div class="cmp-label">CMP</div>
+            <div class="cmp-value">${c.cmp}</div>
+            <div class="cmp-date">${c.date}</div>
+          </div>
+          ${getBatchTag(s.batch)}
+          ${getListingTag(s.listing)}
+          ${getConvictionTag(s.conviction)}
+        </div>
+      </div>
+      <div class="stock-card-body">
+        <div class="metrics-grid">
+          ${s.metrics.map(m => `
+            <div class="metric">
+              <div class="label">${m.label}</div>
+              <div class="value">${m.value}</div>
+              <div class="source">Source: ${m.source}</div>
+            </div>
+          `).join('')}
+        </div>
+        <div class="section"><h3>Business in Plain English</h3><p>${s.business}</p></div>
+        <div class="section"><h3>Thesis / Growth Drivers</h3><ul class="compact-list">${s.thesisPoints.map(t => `<li>${t}</li>`).join('')}</ul></div>
+        <div class="section"><h3>Key Risks</h3><ul class="compact-list">${s.risks.map(r => `<li>${r}</li>`).join('')}</ul></div>
+        <div class="section"><h3>Near-Term Catalysts (6-18 mo)</h3><ul class="compact-list">${s.catalysts.map(c => `<li>${c}</li>`).join('')}</ul></div>
+        <div class="section"><h3>Valuation Snapshot</h3><p>${s.valuation}</p></div>
+        <div class="section"><h3>Margin-of-Safety View</h3><p>${s.mos}</p></div>
+        <div class="changes-log">
+          <h3>📋 Changes Since Baseline</h3>
+          ${s.changes.map(ch => `<div class="change-entry"><span class="date">${ch.date}</span><div class="body">${ch.body}</div></div>`).join('')}
+        </div>
+      </div>
+    </article>`;
+  }).join('');
+  document.getElementById('cards-container').innerHTML = html;
+}
+
+let sortKey = 'num', sortDir = 1;
+function applyFilter() {
+  const batchVal = document.getElementById('filter-batch').value;
+  const listingVal = document.getElementById('filter-listing').value;
+  const convVal = document.getElementById('filter-conviction').value;
+  const search = document.getElementById('search-box').value.toLowerCase();
+  let filtered = stocks.filter(s => {
+    if (batchVal !== "all" && String(s.batch) !== batchVal) return false;
+    if (listingVal !== "all" && s.listing !== listingVal) return false;
+    if (convVal !== "all" && s.conviction !== convVal) return false;
+    if (search && !(s.name.toLowerCase().includes(search) || s.sector.toLowerCase().includes(search) || s.thesis.toLowerCase().includes(search))) return false;
+    return true;
+  });
+  // sort
+  filtered.sort((a, b) => {
+    let av = a[sortKey], bv = b[sortKey];
+    if (typeof av === 'string') { av = av.toLowerCase(); bv = bv.toLowerCase(); }
+    if (av < bv) return -1 * sortDir;
+    if (av > bv) return 1 * sortDir;
+    return 0;
+  });
+  renderKPIs(filtered);
+  renderSummary(filtered);
+  renderCards(filtered);
+  buildCharts(filtered);
+}
+
+function resetFilters() {
+  document.getElementById('filter-batch').value = 'all';
+  document.getElementById('filter-listing').value = 'all';
+  document.getElementById('filter-conviction').value = 'all';
+  document.getElementById('search-box').value = '';
+  sortKey = 'num'; sortDir = 1;
+  applyFilter();
+}
+
+// Wire up
+document.getElementById('filter-batch').addEventListener('change', applyFilter);
+document.getElementById('filter-listing').addEventListener('change', applyFilter);
+document.getElementById('filter-conviction').addEventListener('change', applyFilter);
+document.getElementById('search-box').addEventListener('input', applyFilter);
+
+document.querySelectorAll('#summary-table th[data-sort]').forEach(th => {
+  th.addEventListener('click', () => {
+    const k = th.dataset.sort;
+    if (sortKey === k) sortDir *= -1;
+    else { sortKey = k; sortDir = 1; }
+    applyFilter();
+  });
+});
+
+applyFilter();
+</script>
+</body>
+</html>

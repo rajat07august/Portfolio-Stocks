@@ -1,0 +1,9 @@
+# Don't ship private content to Vercel
+reports/
+build-scripts/
+PUSH_INSTRUCTIONS.md
+VERCEL_DEPLOY.md
+*.docx
+*.tar.gz
+node_modules/
+.git/
