@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Equity Watchlist Dashboard — All 39 Stocks</title>
+<title>Equity Watchlist Dashboard — All 45 Stocks</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.js" integrity="sha384-iU8HYtnGQ8Cy4zl7gbNMOhsDTTKX02BTXptVP/vqAWIaTfM7isw76iyZCsjL2eVi" crossorigin="anonymous"></script>
 <style>
 :root { color-scheme: light; }
@@ -84,6 +84,7 @@ header.page-header .meta-item strong { font-weight: 600; opacity: 0.85; }
 .tag-batch-2 { background: #d4edda; color: #1a6d2e; }
 .tag-batch-3 { background: #fdebd0; color: #8a4a00; }
 .tag-batch-4 { background: #d6e9f8; color: #1F4E79; }
+.tag-batch-5 { background: #d4f0d4; color: #2d6e2d; }
 
 .stock-card {
   background: white; border-radius: 10px; padding: 0; margin-bottom: 20px;
@@ -178,24 +179,25 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
 <div class="container">
 
 <header class="page-header">
-  <h1>Equity Watchlist Dashboard — All 39 Stocks (Batches 1-4)</h1>
+  <h1>Equity Watchlist Dashboard — All 45 Stocks (Batches 1-5)</h1>
   <div class="subtitle">SME-led | Lens: 6-18 mo catalysts | Margin of safety | Sector tailwinds | Interactive sector pie + filters + dated changes log</div>
   <div class="meta-row">
     <div class="meta-item"><strong>Baseline (Batch 1):</strong> 29 Apr 2026</div>
     <div class="meta-item"><strong>Baseline (Batches 2-4):</strong> 16 May 2026</div>
-    <div class="meta-item"><strong>Last Refreshed:</strong> 16 May 2026</div>
-    <div class="meta-item"><strong>Next Refresh:</strong> 1 Jun 2026 (bi-weekly)</div>
+    <div class="meta-item"><strong>Baseline (Batch 5):</strong> 21 May 2026</div>
+    <div class="meta-item"><strong>Last Refreshed:</strong> 21 May 2026</div>
+    <div class="meta-item"><strong>Next Refresh:</strong> 4 Jun 2026 (bi-weekly)</div>
     <div class="meta-item"><strong>Prepared for:</strong> Rajat</div>
   </div>
 </header>
 
 <!-- KPI Strip -->
 <div class="kpi-strip">
-  <div class="kpi-card"><div class="kpi-value" id="kpi-total">39</div><div class="kpi-label">Total Stocks</div></div>
+  <div class="kpi-card"><div class="kpi-value" id="kpi-total">45</div><div class="kpi-label">Total Stocks</div></div>
   <div class="kpi-card"><div class="kpi-value" id="kpi-sme">11</div><div class="kpi-label">SME / SME-recent</div></div>
-  <div class="kpi-card"><div class="kpi-value" id="kpi-mainboard">28</div><div class="kpi-label">Main-board</div></div>
-  <div class="kpi-card"><div class="kpi-value" id="kpi-highconv">11</div><div class="kpi-label">High Conviction</div></div>
-  <div class="kpi-card"><div class="kpi-value" id="kpi-sectors">12</div><div class="kpi-label">Sectors Covered</div></div>
+  <div class="kpi-card"><div class="kpi-value" id="kpi-mainboard">34</div><div class="kpi-label">Main-board</div></div>
+  <div class="kpi-card"><div class="kpi-value" id="kpi-highconv">14</div><div class="kpi-label">High Conviction</div></div>
+  <div class="kpi-card"><div class="kpi-value" id="kpi-sectors">15</div><div class="kpi-label">Sectors Covered</div></div>
 </div>
 
 <!-- Visualizations -->
@@ -223,6 +225,7 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
     <option value="2">Batch 2: Defence/Engg/Auto</option>
     <option value="3">Batch 3: Specialty Chem/Pharma</option>
     <option value="4">Batch 4: EMS/Electronics/Tech</option>
+    <option value="5">Batch 5: Agri/Chemicals/Diversified</option>
   </select>
   <label for="filter-listing">Listing:</label>
   <select id="filter-listing">
@@ -240,7 +243,7 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
   <label for="search-box">Search:</label>
   <input id="search-box" type="text" placeholder="Stock or sector..." />
   <button onclick="resetFilters()">Reset</button>
-  <span style="margin-left:auto;font-size:11px;color:#888;">Showing <span id="count">39</span> of 39 stocks</span>
+  <span style="margin-left:auto;font-size:11px;color:#888;">Showing <span id="count">45</span> of 45 stocks</span>
 </div>
 
 <!-- Summary Table -->
@@ -980,7 +983,116 @@ const stocks = [
     catalysts: ["Q4 FY26 + FY26 results (May 2026) — confirms Q3 plunge was one-time", "FY27 guidance", "Major BPM/digital deal", "AI/GenAI service revenue ramp", "Smart City project wins", "Possible buyback/special dividend"],
     valuation: "FY26E rev ₹2.05-2.1K Cr / PAT ₹220-260 Cr → P/E ~16-19x. Coforge ~32x, Persistent ~40x, Mastek ~28x.",
     mos: "Reasonable MoS at 16-19x if Q3 was one-time. Best entry: post Q4 clarity. Position 1.5-2%.",
-    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹4,256 Cr per Finology Ticker via WS. H1 FY26 rev +20% / PAT +32%. Q3 FY26 PAT plunge -42% QoQ to ₹36 Cr flagged — needs Q4 explanation."}] }
+    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹4,256 Cr per Finology Ticker via WS. H1 FY26 rev +20% / PAT +32%. Q3 FY26 PAT plunge -42% QoQ to ₹36 Cr flagged — needs Q4 explanation."}] },
+
+  // ===== BATCH 5 (6 stocks) — Agri / Chemicals / Diversified =====
+  { id: "dcmshriram", num: 40, name: "DCM Shriram Ltd", listing: "mainboard", batch: 5,
+    sector: "Diversified Chemicals", conviction: "high",
+    mcap: 17578, mcapDisp: "17,578", mcapSource: "Screener via WebSearch, May-26",
+    thesis: "Chemicals engine drives FY26 PAT +42%; ECH plant live Apr-26; Sugar/Fertiliser cyclical drag.",
+    tagline: "Chloro-vinyl + Sugar/Ethanol + Fertiliser + Agri-inputs + Fenesta + Cement | Diversified",
+    metrics: [
+      {label: "FY26 Revenue", value: "₹14,263.91 Cr (+12% YoY)", source: "Tradebrains / ScanX"},
+      {label: "FY26 PAT", value: "₹855.98 Cr (+42%; incl. ₹239 Cr deferred tax credit)", source: "ScanX"},
+      {label: "Chemicals Revenue", value: "₹3,832 Cr (+38%); PBDIT +59% to ₹487 Cr", source: "Tradebrains"},
+      {label: "ECH Plant Bharuch", value: "52,000 TPA — commissioned Apr-26", source: "Co"} ],
+    business: "Diversified conglomerate: chloro-vinyl (caustic soda, PVC, epichlorohydrin), Sugar + ethanol, Fertiliser (urea + crop care), Fenesta UPVC windows, Cement. Promoter: Ajay Shriram family.",
+    thesisPoints: ["Chemicals/vinyl is the growth engine — ECH plant adds capacity.", "Sugar/ethanol blending policy tailwind despite cyclical drag.", "Fenesta windows = premium B2C consumer franchise.", "Diversification provides cyclical cushion vs pure-play peers.", "Self-funded capex; modest debt."],
+    risks: ["Sugar cycle: oversupply + higher cane prices compress margin.", "Urea pricing regulated; capacity utilisation key.", "Caustic / PVC price volatility globally.", "Adjusted PAT growth modest after stripping ₹239 Cr deferred tax credit.", "Conglomerate discount — multi-segment may keep multiple capped."],
+    catalysts: ["ECH plant Q1 FY27 first full-quarter contribution", "Sugar cycle inflexion (FY27 monsoon-dependent)", "Ethanol blending policy updates", "Fenesta scale-up in Tier-2/3 markets", "Possible demerger/value-unlock event"],
+    valuation: "FY26 reported P/E ~20.5x; adjusted (excl. ₹239 Cr tax credit) ~28x. Sugar peers ~15-18x, Chemberg ~25-30x. Fair for diversified profile.",
+    mos: "Moderate MoS — chemicals momentum vs sugar drag. Best entry: 10-15% pullback. 2-3% portfolio fit.",
+    changes: [{date: "21 May 2026", body: "Baseline. Mcap ₹17,578 Cr per Screener via WS. FY26 rev ₹14,264 Cr (+12%), PAT ₹855.98 Cr (+42%). Chemicals rev +38% to ₹3,832 Cr. ECH plant (52,000 TPA Bharuch) commissioned Apr-26. Final div ₹4 (total ₹11.20 for FY26)."}] },
+
+  { id: "mayur", num: 41, name: "Mayur Uniquoters Ltd", listing: "mainboard", batch: 5,
+    sector: "Specialty Materials & Packaging", conviction: "high",
+    mcap: 2651, mcapDisp: "2,651.26", mcapSource: "Business Standard, 19-May-26",
+    thesis: "Q3 FY26 PAT +66%; auto OEM recovery + export ramp; cheap on relative basis.",
+    tagline: "Synthetic Leather (PU/PVC/Semi-PU) | Auto OEM + Footwear + Furnishings exports",
+    metrics: [
+      {label: "Market Cap", value: "₹2,651.26 Cr", source: "Business Standard 19-May-26"},
+      {label: "Share Price", value: "₹615.20 (19-May-26)", source: "Business Standard"},
+      {label: "Q3 FY26 Revenue", value: "₹237.48 Cr (+13.96% YoY)", source: "Co result"},
+      {label: "Q3 FY26 PAT", value: "₹50.73 Cr (+65.95% YoY)", source: "Co result"} ],
+    business: "Manufactures synthetic leather (PU, PVC, semi-PU) coated fabrics. Customers: global auto OEMs (Ford, Mercedes, Chrysler, Tata, M&M), Indian footwear majors, furnishings, leather goods. Promoter: Suresh Poddar family.",
+    thesisPoints: ["Auto OEM export recovery drives volume.", "Premium PU leather (high-margin) mix shift.", "Footwear customer additions in India + global.", "Multi-vertical exposure (auto + footwear + furnishings) reduces single-segment risk.", "Q3 FY26 PAT +66% suggests operating leverage."],
+    risks: ["Customer concentration in select auto OEMs.", "Petrochemical input (PU/PVC resin) price volatility.", "Currency exposure on exports.", "Bull-leather substitution trends.", "Competition from Chinese / Vietnamese coated-fabric players."],
+    catalysts: ["Q4 FY26 + FY26 results", "Major auto OEM contract addition", "PU/Semi-PU capacity expansion", "Footwear export deal wins", "Possible buyback or special dividend"],
+    valuation: "FY26E PAT ~₹180-200 Cr (annualised Q3 ramp) → P/E ~13-15x. Cheap vs broader auto-anc / specialty materials peers.",
+    mos: "Strong MoS — fair-to-cheap valuation + Q3 momentum + export ramp. 2-3% portfolio fit.",
+    changes: [{date: "21 May 2026", body: "Baseline. CMP ₹615.20 / Mcap ₹2,651.26 Cr per Business Standard 19-May-26. Q3 FY26 rev ₹237 Cr (+14%), PAT ₹51 Cr (+66%) — strong operating leverage."}] },
+
+  { id: "insecticides", num: 42, name: "Insecticides (India) Ltd", listing: "mainboard", batch: 5,
+    sector: "Agri-Inputs & Seeds", conviction: "med",
+    mcap: 2256, mcapDisp: "2,256", mcapSource: "Screener via WebSearch (-14.3% 1-yr)",
+    thesis: "Premium product mix shift; Q3 FY26 PAT weak (₹10.49 Cr); stock -14% 1-yr; turnaround candidate.",
+    tagline: "Agrochemicals (Insecticides + Herbicides + Fungicides + Biologicals) | Maharatna brands",
+    metrics: [
+      {label: "Market Cap", value: "₹2,256 Cr (-14.3% 1-yr)", source: "Screener via WS"},
+      {label: "Revenue / PAT (TTM)", value: "₹2,037 Cr / ₹148 Cr", source: "Screener"},
+      {label: "Q3 FY26 Revenue / PAT", value: "₹384.92 Cr / ₹10.49 Cr", source: "Co result"},
+      {label: "Portfolio", value: "20+ technicals, 125 formulations (11 Focused Maharatna + 33 Maharatna)", source: "Co"} ],
+    business: "Manufactures agrochemicals (insecticides, herbicides, fungicides, biologicals, plant growth regulators). 20+ technicals + 125 formulation products. Premium brands: Lethal, Victor, Thimet. HQ Delhi.",
+    thesisPoints: ["Premium product mix shift (Maharatna brands) margin tailwind.", "China+1 in agrochem AI manufacturing.", "Indian agrochem export growth 8-10%.", "Q1 FY26 +5% rev with margin improvement — early turnaround signal.", "Possible off-patent molecule launches."],
+    risks: ["Stock -14% 1-yr reflects weak operational momentum.", "Q3 PAT ₹10.49 Cr too thin — needs explanation.", "Monsoon dependency.", "Generic agrochem price pressure.", "Competition (UPL, PI, Bayer, Sumitomo)."],
+    catalysts: ["Q4 FY26 + FY26 results — confirm Q3 was seasonal/one-time", "FY27 H1 monsoon outcome", "Premium portfolio scaling", "Possible export contract", "New product launches"],
+    valuation: "FY26 PAT ~₹120-150 Cr (post-Q3 weakness) → P/E ~15-19x. UPL ~22x, PI ~40-45x, Bharat Rasayan ~25-30x.",
+    mos: "MoS exists on absolute multiples but operational momentum weak. Position 1-1.5% as turnaround.",
+    changes: [{date: "21 May 2026", body: "Baseline. Mcap ₹2,256 Cr per Screener via WS (-14.3% 1-yr). Q3 FY26 rev ₹385 Cr / PAT ₹10.49 Cr (thin). Premium portfolio: 11 Focused Maharatna + 33 Maharatna brands."}] },
+
+  { id: "kaveri", num: 43, name: "Kaveri Seed Company Ltd", listing: "mainboard", batch: 5,
+    sector: "Agri-Inputs & Seeds", conviction: "med",
+    mcap: 5248, mcapDisp: "5,248", mcapSource: "Groww / Finology via WS",
+    thesis: "H1 FY26 PAT ₹310 Cr; export +250%; Q2 seasonal loss is normal; cash-rich + buyback history.",
+    tagline: "Hybrid Seeds (Cotton + Maize + Rice + Veg) | Telangana | Cash-rich, buyback compounder",
+    metrics: [
+      {label: "Market Cap", value: "₹5,248 Cr", source: "Groww via WS"},
+      {label: "Share Price", value: "₹1,041 (range ₹932-1,041 Apr-May 26)", source: "Groww / Business Standard"},
+      {label: "H1 FY26 PAT", value: "₹310.65 Cr", source: "Co result"},
+      {label: "Export growth", value: "+250% YoY (record)", source: "Co"} ],
+    business: "One of India's largest hybrid seed companies: cotton, maize, rice, vegetable seeds. R&D-led; Telangana-headquartered. Highly seasonal (June quarter peak, September quarter typically loss).",
+    thesisPoints: ["Export business +250% YoY — new growth leg.", "R&D pipeline of hybrid varieties.", "Cash-rich balance sheet + buyback history.", "Vegetable seeds higher-margin diversification.", "Indian hybrid seed adoption secular trend."],
+    risks: ["Monsoon dependency direct.", "Cotton seed regulatory uncertainty (MRP cap, IPR).", "Q2 FY26 net loss ₹15.43 Cr (seasonal — normal).", "Increasing competition in hybrid seed.", "Climate change variability affecting yields."],
+    catalysts: ["Kharif 2026 monsoon outcome + sales (Q1 FY27, Jul-26)", "Export contract additions", "New hybrid variety launches", "Possible buyback announcement", "Cotton MRP/IPR policy clarity"],
+    valuation: "FY26E PAT ~₹300-330 Cr (despite Q2 loss) → P/E ~16-17x. Comparable: KSCL historically 15-20x.",
+    mos: "Reasonable MoS — cash-rich + buyback history + valuation fair. 2% portfolio fit. Best entry pre-Kharif.",
+    changes: [{date: "21 May 2026", body: "Baseline. Mcap ₹5,248 Cr per Groww via WS. CMP ₹1,041 range. H1 FY26 PAT ₹310.65 Cr. Export business +250% YoY. Q2 FY26 seasonal net loss ₹15.43 Cr (normal pattern)."}] },
+
+  { id: "eil", num: 44, name: "Engineers India Ltd (EIL)", listing: "mainboard", batch: 5,
+    sector: "Engineering / EPC Consultancy", conviction: "high",
+    mcap: 13770, mcapDisp: "13,770", mcapSource: "Screener via WebSearch",
+    thesis: "Record OB ₹15,670 Cr; Dangote ₹3,150 Cr win; Q3 FY26 PAT +219%; refinery capex cycle PSU pure-play.",
+    tagline: "Engineering Consultancy + Turnkey EPC (PSU) | Oil/Gas/Refinery/Petrochem | OB compounder",
+    metrics: [
+      {label: "Market Cap", value: "₹13,770 Cr", source: "Screener via WS"},
+      {label: "Share Price", value: "₹259.15 (recent close)", source: "ScanX via WS"},
+      {label: "Q3 FY26 Net Sales / PAT", value: "₹1,210.24 Cr (+58.3%) / ₹347.17 Cr (+219.3%)", source: "ScanX"},
+      {label: "Order Book", value: "₹15,670 Cr (record); Consultancy ₹10,000 Cr ATH", source: "Co"} ],
+    business: "PSU engineering consultancy + turnkey EPC for refinery, petrochem, oil & gas, fertiliser, steel, railways, power, infra. Decades-long expertise across project lifecycles (design, engineering, procurement, construction, integrated PMC).",
+    thesisPoints: ["Record OB ₹15,670 Cr provides multi-year visibility.", "Dangote Refinery ₹3,150 Cr consultancy (Jan-26) — landmark international win.", "Indian refinery capex cycle reviving (Reliance, IOC, BPCL, HPCL).", "PSU re-rating cycle still has runway.", "Consultancy is high-margin annuity-like; Turnkey adds scale."],
+    risks: ["Lumpy quarterly revenue from large Turnkey orders.", "Q3 FY26 +219% PAT partly base-effect; needs sustained execution.", "PSU governance — capital allocation slow vs private peers.", "Hydrocarbon transition long-term overhang (limited near-term).", "Competition (L&T, Tata Projects, Toyo, Tecnimont)."],
+    catalysts: ["Q4 FY26 + FY26 results (May-26)", "Dangote project execution milestones", "Additional international consultancy wins (Middle East, Africa)", "Refinery capex announcements (IOC, BPCL, HPCL)", "Possible bonus / special dividend (cash-rich PSU)"],
+    valuation: "FY26E PAT ~₹700-800 Cr → P/E ~17-20x. PSU EPC peers (RVNL, IRCON) at 25-35x — EIL at discount.",
+    mos: "Strong MoS — record OB + record contract wins + cyclical refinery upturn. 2-3% portfolio fit.",
+    changes: [{date: "21 May 2026", body: "Baseline. Mcap ₹13,770 Cr per Screener via WS. CMP ₹259.15. Record OB ₹15,670 Cr; consultancy OB ATH ₹10,000 Cr. Q3 FY26 net sales +58.3% / PAT +219.3% YoY. Dangote Refinery ₹3,150 Cr win (Jan-26)."}] },
+
+  { id: "nitta", num: 45, name: "Nitta Gelatin India Ltd", listing: "mainboard", batch: 5,
+    sector: "Specialty Chem & Pharma", conviction: "med",
+    mcap: 891, mcapDisp: "891.20", mcapSource: "Tickertape via WS, 30-Apr-26",
+    thesis: "Niche gelatin + collagen peptide; small-cap; FY26 results board meet 24-May-26.",
+    tagline: "Gelatin + Collagen Peptide + Ossein | Kerala-based | JV with Nitta Gelatin Japan",
+    metrics: [
+      {label: "Market Cap", value: "₹891.20 Cr (30-Apr-26)", source: "Tickertape via WS"},
+      {label: "Share Price", value: "₹981.50 (2-May-26)", source: "IndMoney via WS"},
+      {label: "Q3 FY26 Revenue", value: "₹149.72 Cr (+11.2% YoY)", source: "Co result"},
+      {label: "Q3 FY26 PAT", value: "₹25.57 Cr (+4.62% YoY)", source: "Co result"} ],
+    business: "Manufactures gelatin, collagen peptide, ossein from bones. Customers: pharmaceutical (capsule shells), nutraceutical/wellness (collagen peptide), food industry. JV with Nitta Gelatin Japan. HQ Kochi, Kerala.",
+    thesisPoints: ["Collagen peptide for wellness/nutrition is global growth theme.", "Japanese JV partner brings technology + global market access.", "Pharma gelatin (capsule) sticky annuity.", "Niche scale + IP barrier.", "Small-cap valuation looks reasonable."],
+    risks: ["Raw material (bone, hides) sourcing dependency.", "Small-cap liquidity.", "Currency exposure (JV + exports).", "Competition (Sterling Biotech, Pioma Industries).", "Plant-based collagen substitution long-term.", "Customer concentration in pharma."],
+    catalysts: ["FY26 results board meet 24-May-26 — dividend announcement", "Collagen peptide capacity expansion", "Major nutraceutical contract", "Pharma capsule market additions", "JV-led international expansion"],
+    valuation: "FY26E PAT ~₹90-100 Cr → P/E ~9-10x. Cheap for niche specialty chem; small-cap discount.",
+    mos: "Strong MoS on absolute multiples but small-cap liquidity constrains. 1-1.5% portfolio fit.",
+    changes: [{date: "21 May 2026", body: "Baseline. Mcap ₹891.20 Cr per Tickertape via WS (30-Apr-26). CMP ₹981.50 (2-May-26). Q3 FY26 rev ₹149.72 Cr (+11.2%) / PAT ₹25.57 Cr (+4.62%). FY26 board meet 24-May-26 for results + dividend."}] }
 ];
 
 // ---------- CMP Data (verified prices from session research; '—' = awaiting next refresh) ----------
@@ -1023,7 +1135,13 @@ const CMP_DATA = {
   "syrma":       { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
   "netweb":      { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
   "aurion":      { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
-  "datamatics":  { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" }
+  "datamatics":  { cmp: "—",         date: "1-Jun refresh",            source: "Awaiting" },
+  "dcmshriram":  { cmp: "—",         date: "4-Jun refresh",            source: "Awaiting (Mcap ₹17,578 Cr Screener)" },
+  "mayur":       { cmp: "₹615.20",   date: "19-May-26",                source: "Business Standard" },
+  "insecticides":{ cmp: "—",         date: "4-Jun refresh",            source: "Awaiting (Mcap ₹2,256 Cr Screener)" },
+  "kaveri":      { cmp: "₹1,041",    date: "Apr/May-26",               source: "Groww / BS" },
+  "eil":         { cmp: "₹259.15",   date: "recent close",             source: "ScanX / Screener" },
+  "nitta":       { cmp: "₹981.50",   date: "2-May-26",                 source: "IndMoney" }
 };
 function getCmp(id) { return CMP_DATA[id] || { cmp: "—", date: "—", source: "—" }; }
 
