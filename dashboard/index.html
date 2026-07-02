@@ -109,6 +109,21 @@ header.page-header .meta-item strong { font-weight: 600; opacity: 0.85; }
 .cmp-pill.cmp-stale .cmp-label, .cmp-pill.cmp-stale .cmp-value { color: #8a6d00; }
 .cmp-pill.cmp-missing { border-color: #d0d7de; background: #f6f8fa; }
 .cmp-pill.cmp-missing .cmp-label, .cmp-pill.cmp-missing .cmp-value { color: #888; }
+.cmp-pill .cmp-delta { font-size: 10px; font-weight: 700; margin-top: 3px; }
+.cmp-delta-up { color: #1a6d2e; }
+.cmp-delta-down { color: #842029; }
+.price-trajectory {
+  width: 100%; border-collapse: collapse; font-size: 12px; margin-top: 4px;
+  background: #f6f8fa; border-radius: 6px; overflow: hidden;
+}
+.price-trajectory th {
+  background: #1F4E79; color: white; text-align: left; padding: 6px 10px;
+  font-weight: 600; font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.3px;
+}
+.price-trajectory td { padding: 5px 10px; border-top: 1px solid #eaeef2; }
+.price-trajectory tr:last-child td { font-weight: 600; background: #eaf3fb; }
+.price-trajectory .traj-delta-up { color: #1a6d2e; font-weight: 700; }
+.price-trajectory .traj-delta-down { color: #842029; font-weight: 700; }
 
 .stock-card-body { padding: 20px; }
 .metrics-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 20px; }
@@ -185,7 +200,7 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
     <div class="meta-item"><strong>Baseline (Batch 1):</strong> 29 Apr 2026</div>
     <div class="meta-item"><strong>Baseline (Batches 2-4):</strong> 16 May 2026</div>
     <div class="meta-item"><strong>Baseline (Batch 5):</strong> 21 May 2026</div>
-    <div class="meta-item"><strong>Last Refreshed:</strong> 9 Jun 2026</div>
+    <div class="meta-item"><strong>Last Refreshed:</strong> 1 Jul 2026 (Full — CMPs via Yahoo Finance + material events)</div>
     <div class="meta-item"><strong>Refresh Mode:</strong> On-demand only (no schedule)</div>
     <div class="meta-item"><strong>Prepared for:</strong> Rajat</div>
   </div>
@@ -297,6 +312,7 @@ const stocks = [
     valuation: "FY26E rev ₹1,500-1,600 Cr / PAT ₹240-280 Cr. ~30x forward P/E. Comparable KPI Green 25-35x.",
     mos: "Thin MoS. Best entry: 20-30% drawdown + continued OB momentum.",
     changes: [
+      {date: "1 Jul 2026", body: "[CORRECTION + STILL WEAK] CMP ₹1,612 (Yahoo ORIANA-SM.NS, verified fresh timestamp) — actually DOWN -4.2% since 9-Jun (my earlier ₹2,077.80 came from a stale ORIANA.NS instrument returning 708-day-old data). FY26 audited: rev ₹1,814 Cr, EBITDA ₹425 Cr, PAT ₹250 Cr — missed FY26 expectations (commodity inflation, currency, project delays, Actis transaction deferment). Offsetting positives: OB now ~₹6,800-7,000 Cr; participated in ₹12,000 Cr of tenders in a single month; CRISIL reaffirmed A-/Stable + A2+ on 24-Jun-26 and assigned A-/Stable to ₹200 Cr NCDs. Narrative pivots on H1 FY27 execution."},
       {date: "9 Jun 2026", body: "[THESIS WATCH] CMP ₹1,682.75 (NSE 8-Jun-26). Stock down -22% in last 6 months and -22.48% in 1 year. Mcap now ₹3,426.60 Cr (vs ~₹7,500 Cr baseline estimate — material derating). 52-wk range ₹1,500-3,064. P/E 13.58 — much more reasonable than the 30x flagged at baseline. Drawdown likely reflects solar EPC sector valuation reset + execution scrutiny."},
       {date: "29 Apr 2026", body: "Baseline. H1 FY26 rev ₹781 Cr (+117% YoY); OB ₹2,500 Cr+; ₹1,180 Cr DVC Maithon win adds ~50% to OB."}] },
 
@@ -336,7 +352,9 @@ const stocks = [
     catalysts: ["Q4 FY26 results", "First green-tug delivery", "New shipyard commissioning", "Major port long-term contract (5+ yrs)", "Maritime Dev Fund clarifications"],
     valuation: "FY26E rev ₹350-400 Cr / PAT ₹100-130 Cr. ~16-20x P/E vs Cochin SY ~30x. Cheap relative.",
     mos: "Better cushion than Oriana/Sathlokhar. Tonnage-tax durable. Size 1-2% with adds on milestones.",
-    changes: [{date: "29 Apr 2026", body: "Baseline. Q3 FY26 rev ₹90 Cr (+56%); EBITDA margin 43%; OB ₹1,500 Cr; entered shipbuilding via ₹230 Cr IWAI + 15-yr green tug."}] },
+    changes: [
+      {date: "1 Jul 2026", body: "[MATERIAL] Q4 FY26 net profit +140.68% YoY to ₹26.21 Cr (board reviewed 29-May). ₹66.1 Cr IWAI order for 10 hybrid electric passenger ferries (10-mo execution + 60-mo maintenance). DCIL work order for JNPA rock dredging. [DILUTION] Board approved ₹150 Cr preferential issue via 7,64,317 shares on 26-Jun; EGM 19-Jul. CMP ₹2,183.55 (+14% since 9-Jun) reflects order momentum + fund-raise anticipation."},
+      {date: "29 Apr 2026", body: "Baseline. Q3 FY26 rev ₹90 Cr (+56%); EBITDA margin 43%; OB ₹1,500 Cr; entered shipbuilding via ₹230 Cr IWAI + 15-yr green tug."}] },
 
   { id: "sathlokhar", num: 4, name: "Sathlokhar Synergys E&C Global", listing: "sme", batch: 1,
     sector: "Water / Civil / Marine Infra", conviction: "med",
@@ -354,7 +372,9 @@ const stocks = [
     catalysts: ["Q4 FY26 results (May-26)", "OB past ₹2,000 Cr", "New marquee customer (semicon/DC/EV)", "SME → Mainboard migration", "FY27 mgmt guidance"],
     valuation: "FY26E rev ₹500-550 Cr / PAT ₹50-65 Cr. P/E ~18-24x vs Capacit'e ~12-15x — premium for Reliance halo.",
     mos: "Thin MoS given SME + valuation. Position 1-1.5% max. Mainboard migration derisks.",
-    changes: [{date: "29 Apr 2026", body: "Baseline. Q3 FY26 rev ₹190 Cr (+400% YoY); FY26 turnover +100%+ YoY; OB ₹1,397 Cr; bid pipeline ₹15,975 Cr."}] },
+    changes: [
+      {date: "1 Jul 2026", body: "[FUNDAMENTALS STRONG, PRICE WEAK] CMP ₹313.50 (-19.2% since 9-Jun) but FY26 audited is excellent: total income ₹823.56 Cr (+121% YoY), PAT ₹82.32 Cr (+141%), work-to-execute ₹715 Cr (28-May), OB ₹840.22 Cr (post ₹125 Cr Jun new orders), bid pipeline ₹19,831 Cr. New orders: Grand Atlantia Panapakkam SEZ (footwear group) + Ceylon Beverage Can (Maharashtra ₹15.36 Cr + Sri Lanka ₹3.68 Cr). Price-fundamentals divergence — SME liquidity amplifying moves. Q1 FY27 result the real test."},
+      {date: "29 Apr 2026", body: "Baseline. Q3 FY26 rev ₹190 Cr (+400% YoY); FY26 turnover +100%+ YoY; OB ₹1,397 Cr; bid pipeline ₹15,975 Cr."}] },
 
   { id: "nlc", num: 5, name: "NLC India Ltd", listing: "mainboard", batch: 1,
     sector: "Renewable Energy & Power", conviction: "high",
@@ -393,6 +413,7 @@ const stocks = [
     valuation: "FY26E rev ₹2.8-3K Cr / PAT ₹1-1.1K Cr. P/E ~21-23x — premium for REE optionality.",
     mos: "Moderate MoS. Lignite floor; REE optionality. 15-20% pullback for better entry.",
     changes: [
+      {date: "1 Jul 2026", body: "[NO FRESH NEWS] CMP ₹610.65 (-7.2% since 9-Jun). Latest material news is still the Jan-26 BARC tech transfer and Mar-26 NMDC MoU for Ambadungar REE. No Jun-Jul disclosures on pilot-plant timeline or Q1 FY27 preview. Stock consolidating post-rally — REE optionality still intact but needs execution catalysts to drive the next leg."},
       {date: "9 Jun 2026", body: "CMP ₹657.75 (NSE 5-Jun-26). Stock has consolidated post-rally; 52-wk H/L ₹771.90/₹360.10. 6-month return +24.2%, 1-yr +76.91%. REE thesis intact; awaiting Ambadungar pilot-plant timeline updates."},
       {date: "29 Apr 2026", body: "Baseline. Mcap ₹22,718 Cr (+128% 1-yr). NMDC MoU March 2026 for REE value chain. BARC tech transfer Jan-26."}] },
 
@@ -413,6 +434,7 @@ const stocks = [
     valuation: "FY26E rev ₹6-6.5K Cr / PAT ₹1-1.2K Cr. P/E ~12-14x. Cyclical entry matters.",
     mos: "Strong MoS — captive ore + low debt + capex roadmap. 3-5% portfolio fit.",
     changes: [
+      {date: "1 Jul 2026", body: "[POSITIVE OPERATIONAL] 6.91 MW Waste Heat Recovery (WHR) power plant at Siltara (Raipur) commenced commercial operations from 23-Jun-26 — uses waste heat from Pellet Plant + Ferro Alloys flue gases. Additional ₹100 Cr infusion into GNEPL for 20 GWh BESS project (Maharashtra) via 10 Cr equity shares at par (4-Jun); total investment now ₹450 Cr. Special EGM held 27-Jun. Yet stock is DOWN -9.3% since 9-Jun to ₹254.60 — steel/pellet cycle concerns offsetting BESS narrative. Watch iron-ore realizations."},
       {date: "9 Jun 2026", body: "[MATERIAL] GPIL invested ₹100 Cr in GNEPL for BESS plant — total investment now ₹450 Cr (10 Cr shares allotted). Also executed ₹40 Cr inter-corporate loan to DGML for gold project funding (5-Jun-26). CMP ₹280.70 (NSE 5-Jun-26). Stock saw early-June trading range ₹282-286. Capex pipeline expanding as flagged in thesis."},
       {date: "29 Apr 2026", body: "Baseline. FY26 record output across all divisions. Pellet capacity 4.7 MT (Dec-25). ₹1,600 Cr CRM + BESS capex. FY27 capex ~₹2,000 Cr."}] },
 
@@ -433,6 +455,7 @@ const stocks = [
     valuation: "FY26E rev ₹6.5K Cr / PAT ₹400-500 Cr → P/E ~14-17x. FY27 recovery → ~10-12x forward.",
     mos: "Strong MoS at depressed levels. Cyclical low + multi-year demand. 2-4% fit.",
     changes: [
+      {date: "1 Jul 2026", body: "[GOVERNANCE + OPS] CFO Ashutosh Agarwal resigned as WTD & CFO (effective 10-Aug-26). MBF production facility at Khardah + Main Plant shut down from 14-Jun for ~10 days. FY26 annual sales volume declined 25% YoY to 5.84 lakh tons on domestic weakness. Management cautiously optimistic on JJM-2.0 (₹8.69 lakh Cr through Dec-28) and diversification into valves + industrial paints. Customer inquiries recovering; demand momentum expected from Q2 FY27. CMP ₹80.16 (+9.2% since 9-Jun) — early recovery signals being priced."},
       {date: "9 Jun 2026", body: "[THESIS WATCH] CMP ₹73.43 (9-Jun-26); Mcap ₹4,447 Cr — well below baseline ~₹7,000 Cr estimate. 52-wk H/L ₹138.75/₹60.15 — stock has roughly halved from highs. Govt order pause continues to weigh; the JJM-2 inflection was expected in H2 FY27 but the price is pricing in pessimism. Watch for Q1 FY27 volume pickup as the trigger."},
       {date: "29 Apr 2026", body: "Baseline. 9M FY26 rev -19.3% YoY (govt pause). JJM extended Dec-2028 with ₹8.7L Cr outlay. FY27 budget ₹67,600 Cr."}] },
 
@@ -452,7 +475,9 @@ const stocks = [
     catalysts: ["Q4 FY26 + FY26 results (May-26)", "Q1 FY27 sales (Jul-26)", "New launches in flagship Pune markets", "RBI rate-cut cycle", "Mumbai redevelopment commencements"],
     valuation: "FY26E rev ₹1.5-1.8K Cr / PAT ₹150-200 Cr → P/E ~15-20x vs Brigade ~25-30x.",
     mos: "Reasonable MoS — cycle bottom + cheap relative + solid BS. 25-30% upside.",
-    changes: [{date: "29 Apr 2026", body: "Baseline. FY26 sales ₹2,605 Cr (Q4 +13% after 9M -3%). Collections ₹2,689 Cr. Q4 inflexion suggests cycle recovery."}] },
+    changes: [
+      {date: "1 Jul 2026", body: "[MATERIAL — MIXED] Q4 FY26 sales ₹714 Cr, record annual collections ₹2,689 Cr. Launched 4.60 mn sqft new projects; Blackstone partnership + Bhugaon acquisitions worth ₹2,250 Cr. Management refresh 22-May (new heads for Pune/Mumbai BUs + development + HR). [OVERHANG] GST demand notice 19-Jun for ₹103.82 Cr (FY21 through FY26) on TDR + redevelopment — company contesting, sees no material impact. Q1 FY27 trading window closed 1-Jul until results. CMP ₹364.10 (flat since 9-Jun)."},
+      {date: "29 Apr 2026", body: "Baseline. FY26 sales ₹2,605 Cr (Q4 +13% after 9M -3%). Collections ₹2,689 Cr. Q4 inflexion suggests cycle recovery."}] },
 
   { id: "garware", num: 10, name: "Garware Hi-Tech Films", listing: "mainboard", batch: 1,
     sector: "Specialty Materials & Packaging", conviction: "med",
@@ -490,7 +515,9 @@ const stocks = [
     catalysts: ["Q4 FY26 results (May-26)", "Decorative glass plant capex/commissioning", "Triple Gob commissioning", "New premium liquor/gin customers", "HNG industry consolidation"],
     valuation: "FY26E rev ₹350-400 Cr / PAT ₹35-50 Cr → P/E ~14-20x vs HSIL ~15-18x.",
     mos: "MoS exists but liquidity-constrained. 0.5-1% max. 3-4 yr horizon.",
-    changes: [{date: "29 Apr 2026", body: "Baseline. Q3 FY26 margin expansion + revenue growth (turnaround signal). Decorative glass plant proposed at Gavasad."}] },
+    changes: [
+      {date: "1 Jul 2026", body: "[MATERIAL] CMP ₹116.25 (+24.1% since 9-Jun). FY26 audited (board 21-May): Q4 net profit +63.72%, FY26 net profit +39.1% (second consecutive positive quarter). PEG 0.6 — cheap on growth. Acquiring ₹1.44 Cr additional stake in Jamnagar Renewables Two Pvt Ltd for captive renewable power (closing end-Jun). MarketsMojo downgraded from Buy to Hold on 1-Jun despite fundamentals — technical caution."},
+      {date: "29 Apr 2026", body: "Baseline. Q3 FY26 margin expansion + revenue growth (turnaround signal). Decorative glass plant proposed at Gavasad."}] },
 
   { id: "care", num: 12, name: "CARE Ratings Ltd", listing: "mainboard", batch: 1,
     sector: "Financial Services", conviction: "med",
@@ -508,7 +535,9 @@ const stocks = [
     catalysts: ["Q4 FY26 results (May-26)", "FY27 bank credit + bond momentum", "ESG ratings revenue ramp", "Int'l expansion", "Possible buyback/special dividend"],
     valuation: "FY26E rev ₹400-420 Cr / PAT ₹160-180 Cr → P/E ~28-30x. Between CRISIL ~52x and ICRA ~32x.",
     mos: "Moderate MoS. Best entry: 10-15% pullback → ~24-25x. Defensive: high div + recurring rev.",
-    changes: [{date: "29 Apr 2026", body: "Baseline. 9M FY26 standalone rev ₹280 Cr (+14%); consol ₹342 Cr (+17%); EBITDA margin 46%. Bank credit at +14.5% (Dec-25)."}] },
+    changes: [
+      {date: "1 Jul 2026", body: "[MATERIAL] FY26 audited: consol rev ₹473.07 Cr (+18% YoY), PAT ₹173.70 Cr (+24% YoY). Q4 FY26 PAT ₹52.83 Cr (+23.98% YoY). Final dividend ₹14/share (140% of face), record date 26-Jun; total FY26 dividend ₹22/share (₹56.96 Cr outflow). 33rd AGM 3-Jul via VC. Ratings-agency oligopoly compounding as flagged. CMP ₹1,658.20 (+3.8% since 9-Jun)."},
+      {date: "29 Apr 2026", body: "Baseline. 9M FY26 standalone rev ₹280 Cr (+14%); consol ₹342 Cr (+17%); EBITDA margin 46%. Bank credit at +14.5% (Dec-25)."}] },
 
   { id: "monarch", num: 13, name: "Monarch Networth Capital", listing: "mainboard", batch: 1,
     sector: "Financial Services", conviction: "low",
@@ -526,7 +555,9 @@ const stocks = [
     catalysts: ["Q4 FY26 results (May-26)", "Capital-mkt activity recovery", "AIF AUM milestone announcements", "Regulatory clarity on F&O", "Possible inorganic M&A"],
     valuation: "FY26E rev ₹400-450 Cr / PAT ₹180-200 Cr → P/E ~17-19x. Motilal Oswal ~16x, Anand Rathi Wealth ~32x.",
     mos: "MoS thin given cycle + regulatory. Best zone: 15-20% pullback. Cyclical not compounder.",
-    changes: [{date: "29 Apr 2026", body: "Baseline. Q2 FY26 revenue -15% QoQ / -20% YoY (cap-mkt soft). Q3 FY26 rev ₹92 Cr / PAT ₹45 Cr. PAT margins held at 50%+."}] },
+    changes: [
+      {date: "1 Jul 2026", body: "[MATERIAL BEAT — RECONSIDER CONVICTION] FY26 audited: PAT ₹181.2 Cr (+21.4% YoY), rev ₹373 Cr, ROE 20.5%, networth ₹972 Cr. Continues 46% PAT CAGR since 2019. 10% final dividend + strategic FY27 roadmap: total AUM ₹3,000 Cr by Mar-27, PMS AUM ₹500 Cr, Pre-IPO fund ₹250 Cr min, first MF scheme by Sep-26. Subsidiary 'Monarch Capital Venture' incorporated 13-May. Baseline 'low-conviction/cyclical late' call needs revisit — fundamentals are compounding. CMP ₹342.70 (+14.3% since 9-Jun)."},
+      {date: "29 Apr 2026", body: "Baseline. Q2 FY26 revenue -15% QoQ / -20% YoY (cap-mkt soft). Q3 FY26 rev ₹92 Cr / PAT ₹45 Cr. PAT margins held at 50%+."}] },
 
   // ===== BATCH 2 (14 stocks) — Defence / Engineering / Auto =====
   { id: "obsc", num: 14, name: "OBSC Perfection Ltd", listing: "sme", batch: 2,
@@ -546,6 +577,7 @@ const stocks = [
     valuation: "FY26E rev ₹350-400 Cr / PAT ₹35-50 Cr → P/E ~19-25x vs Sansera ~25-30x.",
     mos: "MoS thin given SME + valuation. Position 1-1.5% max. Mainboard migration derisks.",
     changes: [
+      {date: "1 Jul 2026", body: "[NEW ORDERS + DEFENCE PROGRESS] Marine: ₹1.2 Cr US marine parts order (Reg 30, 8-May). Also ₹10.6 Cr order from French firm; earlier ₹22.6 Cr auto-parts nomination. Defence: started mass production of ignition primers (artillery-shell consumable) from May-26; created MK-84 bomb fins from casting ops. Postal ballot 1-30 Jun to appoint Saurabh Priya Singh + Mohit Bhardwaj as Non-Exec Independent Directors (results 2-Jul). CMP ₹564.95 (+9.9% since 9-Jun) — defence pivot delivering."},
       {date: "9 Jun 2026", body: "[MATERIAL UPMOVE] CMP ₹514 (10-Jun-26) — all-time high. Stock up +91.83% over last year and +65.51% over 6 months. From baseline ₹379 (29-Apr) → ₹514 = +36% in 6 weeks. Momentum strong but P/E re-rate further; valuation now stretched even on the higher conviction case."},
       {date: "16 May 2026", body: "Baseline. Mcap ₹935.55 Cr per Business Standard 29-Apr-26. Q3 FY26 rev +70.5% YoY; OB ~₹1,200 Cr; recent ₹22.6 Cr machined parts 7-yr nomination order (8-Apr-26)."}] },
 
@@ -585,7 +617,9 @@ const stocks = [
     catalysts: ["Q4 FY26 results (May-26)", "Capacity expansion announcement", "Major export contract win", "Mainboard migration", "Possible promoter OFS"],
     valuation: "FY26E rev ₹150-200 Cr / PAT ₹30-50 Cr → P/E 40-65x — very rich.",
     mos: "MoS very thin. Best entry: 20-30% drawdown post miss. Position 1% max.",
-    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹1,995.70 Cr per BS/IndMoney 30-Apr-26 (+240% 1-yr, +58.7% last month). Stock is momentum-driven; sector tailwind real but premium steep."}] },
+    changes: [
+      {date: "1 Jul 2026", body: "[MATERIAL] FY26 audited: rev ₹235.10 Cr (+57% YoY), PAT ₹37.40 Cr (+75%). OB ₹400 Cr (from ₹150 Cr Mar-25). [DILUTION] Board approved ₹151 Cr preferential equity raise on 22-Jun-26 — 12.62L shares + 8.32L warrants at ₹721 for 550 kV RIP capacity expansion. Greenfield Vadodara transformer bushing factory: trial production H1 FY27, commercial H2 FY27. Analyst meet + plant visit 3-Jul-26. CMP ₹879.70 (Yahoo)."},
+      {date: "16 May 2026", body: "Baseline. Mcap ₹1,995.70 Cr per BS/IndMoney 30-Apr-26 (+240% 1-yr, +58.7% last month). Stock is momentum-driven; sector tailwind real but premium steep."}] },
 
   { id: "systematic", num: 17, name: "Systematic Industries Ltd", listing: "sme", batch: 2,
     sector: "Power T&D / Electrical Components", conviction: "med",
@@ -603,7 +637,9 @@ const stocks = [
     catalysts: ["Q4 FY26 + FY26 results (May-26)", "Major OPGW contract (PowerGrid)", "Mainboard migration", "Export contract (Middle East/Africa)", "Capacity expansion announcement"],
     valuation: "FY26E rev ₹250-300 Cr / PAT ₹25-35 Cr → P/E ~13-18x vs Sterlite Tech ~25-30x.",
     mos: "Reasonable MoS — valuation not stretched. Position 1-2%. Mainboard migration derisks.",
-    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹431-457 Cr (Tickertape/IndMoney Apr-26). IPO Sep-2025. H1 FY26 rev +54% YoY. Debt-free."}] },
+    changes: [
+      {date: "1 Jul 2026", body: "[MATERIAL] FY26 audited: rev ₹556.3 Cr (+24% YoY), EBITDA ₹40.5 Cr, PAT ₹20.5 Cr (impacted by one-time gratuity/leave provisions from govt policy change). Turned debt-free. Strategic pivot to OPGW+OFC; ₹1,000 Cr OPGW tender pipeline; secured PowerGrid OPGW contract; ₹10 Cr railway OFC order; started OPGW exports FY27. Independent Director Bhagwan Das resigned 22-Jun-26 on personal grounds. CMP ₹181.45 (-17.5% since 9-Jun) — PAT print vs run-rate likely the driver."},
+      {date: "16 May 2026", body: "Baseline. Mcap ₹431-457 Cr (Tickertape/IndMoney Apr-26). IPO Sep-2025. H1 FY26 rev +54% YoY. Debt-free."}] },
 
   { id: "paras", num: 18, name: "Paras Defence & Space Technologies", listing: "mainboard", batch: 2,
     sector: "Aerospace & Defence", conviction: "med",
@@ -622,6 +658,7 @@ const stocks = [
     valuation: "FY26E rev ₹400-450 Cr / PAT ₹65-80 Cr → P/E 80-100x — very rich.",
     mos: "MoS thin at current. Best entry: 20-30% drawdown → 60-70x. Position 1.5-2.5%.",
     changes: [
+      {date: "1 Jul 2026", body: "[MATERIAL] CMP ₹1,277.90 (+24.9% since 9-Jun). Signed exclusive IP License Agreement with Tandem Defense LLC (US) to manufacture + commercialize Guardian-1 Interceptor counter-drone system — validates the drone JV thesis flagged at baseline. Cumulative MoD counter-drone win-list: ₹80.28 Cr DRDO air-defence optical system (Mar-26), ₹46.19 Cr anti-drone systems, ₹35.68 Cr PCDS. Defence sector momentum + counter-drone deal are fueling the rally; valuation now even richer."},
       {date: "9 Jun 2026", body: "CMP ₹1,023.20 (NSE 9-Jun-26); Mcap ₹8,307 Cr — up ~30% from ₹6,401 baseline. 52-wk H/L ₹1,047.95/₹580.50 (near 52-wk high). 6-mo +27.6%, 1-yr +11.21%. Stock has rallied on defence sector momentum; drone JV milestones still ahead. Valuation richer than baseline — re-test conviction at these levels."},
       {date: "16 May 2026", body: "Baseline. Mcap ₹6,401 Cr per Trendlyne/Finology Apr-26. Q3 FY26 PAT +21.1% YoY. Drone JV with Heven (Israel) is FY27 H1 catalyst."}] },
 
@@ -641,7 +678,9 @@ const stocks = [
     catalysts: ["Q4 FY26 + FY26 results (May-26)", "OB past ₹7,500 Cr", "New customer (Pratt/Rolls/Safran)", "Capacity expansion/new plant", "MSCI/Nifty inclusion"],
     valuation: "FY26E rev ₹600-650 Cr / PAT ₹130-150 Cr → P/E 95-105x. FY28E P/E ~55-65x.",
     mos: "MoS thin at 100x. Best entry: 25-35% pullback → 60-70x forward. Position 2-3%.",
-    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹13,981 Cr per Business Standard Apr-26. OB ₹6,500 Cr+ (10x FY26E rev). MHI 8-yr gas turbine deal + Baker Hughes win drive thesis."}] },
+    changes: [
+      {date: "1 Jul 2026", body: "[NO FRESH JUN-JUL DEALS] CMP ₹2,048.60 (flat since 9-Jun). Latest material remains Mar-26 MHI 8-yr Long Term Contract & Price Agreement for hot-section Nozzle Vanes Segments (Single Source Supplier Partner status) — valued ₹651 Cr / $73.47 mn; total MHI relationship value now ₹1,387 Cr / $156.36 mn. Aerospace & Defence segment FY26 rev ₹101 Cr (~17.2% of total, +25% YoY). OB ~₹6,500 Cr. Awaiting Q1 FY27 print + next OEM addition."},
+      {date: "16 May 2026", body: "Baseline. Mcap ₹13,981 Cr per Business Standard Apr-26. OB ₹6,500 Cr+ (10x FY26E rev). MHI 8-yr gas turbine deal + Baker Hughes win drive thesis."}] },
 
   { id: "axiscades", num: 20, name: "AXISCADES Technologies Ltd", listing: "mainboard", batch: 2,
     sector: "Aerospace & Defence", conviction: "med",
@@ -698,6 +737,7 @@ const stocks = [
     valuation: "FY26E rev ₹1,160 Cr / PAT ₹85-100 Cr → P/E ~30-35x. FY27E ~20-23x.",
     mos: "Reasonable MoS at ~30x for 30%+ growth. Best entry: 10-15% pullback → ~18-20x.",
     changes: [
+      {date: "1 Jul 2026", body: "[MATERIAL] ₹300 Cr preferential issue received exchange in-principle nod; 24 allottees include Kotak Mahindra Trustee, WhiteOak Capital, ValueQuest, 360 ONE PIPE, Ashoka WhiteOak ICAV — strong institutional participation. Net proceeds ~₹293 Cr for debt repayment + corporate purposes. EGM 27-Jun. Separately, subsidiary won ₹64 Cr windmill tower order. CMP ₹675.55 (-1.9% since 9-Jun) — dilution mostly digested."},
       {date: "9 Jun 2026", body: "[MATERIAL EVENT] ₹300 Cr preferential issue announced — 59.76 lakh shares at ₹502/share. EGM scheduled 27-Jun-26 for shareholder approval. Stock fell ~4.3% on the announcement; CMP ₹688.70 (Trendlyne 9-Jun-26 close). Earlier hit ATH ₹577 on 26-May then rallied higher. Dilution but funds OB execution + new seamless pipe plant capex. Net positive if capex deployment is on schedule."},
       {date: "16 May 2026", body: "Baseline. Mcap ₹2,968 Cr per Trendlyne Apr-26 (+88.8% 1-yr). FY26 OB ₹1,940 Cr (31-Mar-26 disclosure). FY27 target ₹1,500 Cr revenue + ₹4-5K Cr pipeline."}] },
 
@@ -718,6 +758,7 @@ const stocks = [
     valuation: "FY26E rev ₹1.5K Cr / PAT ₹250-280 Cr → P/E ~45-50x. FY27E ~30-35x.",
     mos: "Moderate MoS. Best entry: 15-20% pullback → ~25-28x forward. Position 2-3%.",
     changes: [
+      {date: "1 Jul 2026", body: "[MATERIAL] FY26 audited (board 21-May): dividend **₹4/share** (record 20-Jul, AGM 27-Jul, 47th). Solar power capacity being expanded by 10 MW to 35 MW AC with ₹170 Cr investment. Secured ₹140 Cr crankshaft order (over FY26-31) from a leading domestic PV player (peak annual rev ~₹27 Cr). CMP ₹1,532.10 (+8.5% since 9-Jun). Q4 net profit ₹83.6 Cr; EBITDA margin 31.46%. Fundamentals delivering."},
       {date: "9 Jun 2026", body: "[MATERIAL UPMOVE] CMP ₹1,412.20 (7-May-26). 6-mo +42.02%, 1-yr +75.89% — stock has run hard ahead of MHCV cycle inflection thesis. 52-wk H ₹1,435.90 near current. The 'FY26 muted' baseline call has been overrun; the market is pricing in FY27 recovery already."},
       {date: "16 May 2026", body: "Baseline. Mcap ₹10,334-12,521 Cr range per Trendlyne/Sharekhan Apr-26. Q2 FY26 rev ₹377 Cr (+4.5%); EBITDA margin 28.6% industry-leading. US Class 8 drag."}] },
 
@@ -737,7 +778,9 @@ const stocks = [
     catalysts: ["Q4 FY26 + FY26 results (May-26)", "ADS quarterly milestone FY27 H1", "New aerospace OEM win", "Auto-EV component program", "Capacity expansion", "Possible international acquisition"],
     valuation: "FY26E rev ₹3.3-3.5K Cr / PAT ₹350-400 Cr → P/E ~40-45x. FY27E ~32-35x.",
     mos: "Moderate MoS — premium justified by ADS diversification. Best entry: 15-20% pullback → ~30-32x.",
-    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹15,762 Cr per Solidarity/Mangalkeshav. Q3 FY26 +25% rev / +29% EBITDA margin 18.1%. ADS pivot trajectory ₹300/₹600/₹1,300 Cr (FY26/27/30)."}] },
+    changes: [
+      {date: "1 Jul 2026", body: "[MATERIAL — AD/S KICKER] FY26 EPS ₹52.09 (vs ₹37.41 FY25); revenue ₹3,560 Cr (+18%). Q4 PAT +108% YoY. ADS (Aerospace/Defence/Semi) revenue 4x YoY; non-auto biz +80% YoY overall; ADS lifetime unexecuted OB ₹3,870 Cr. ₹160 Cr contract from Airbus Defence & Space for Airborne Intensive Care Transport Modules — first shipment before end-2026. Hosted Morgan Stanley group meeting Bangalore 24-Jun. CMP ₹3,165.10 (+12.3% since 9-Jun); Choice IE target ₹2,950 (Add). Thesis firing on all cylinders."},
+      {date: "16 May 2026", body: "Baseline. Mcap ₹15,762 Cr per Solidarity/Mangalkeshav. Q3 FY26 +25% rev / +29% EBITDA margin 18.1%. ADS pivot trajectory ₹300/₹600/₹1,300 Cr (FY26/27/30)."}] },
 
   { id: "rossell", num: 25, name: "Rossell Techsys Ltd", listing: "mainboard", batch: 2,
     sector: "Aerospace & Defence", conviction: "low",
@@ -755,7 +798,9 @@ const stocks = [
     catalysts: ["Q4 FY26 + FY26 results — full-year clarity", "Operating leverage / margin expansion FY27", "Major OEM long-term agreement", "OB past ₹1,000 Cr", "Capacity expansion / new facility"],
     valuation: "FY26 PAT ₹7.91 Cr / Mcap ₹2,735 Cr → P/E ~345x — extreme. FY27E P/E ~90-130x.",
     mos: "MoS very thin. Best entry: 30%+ drawdown + margin trajectory. Position 1% max.",
-    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹2,734.5 Cr per MarketsMojo 6-Mar-26. Q1-Q3 FY26 revenue triple-digit growth but FY26 PAT ₹7.91 Cr too thin → P/E extreme."}] },
+    changes: [
+      {date: "1 Jul 2026", body: "[MATERIAL] CMP ₹963.70 (+32.9% since 9-Jun) — biggest gainer in batch this cycle. Mcap ₹3,506.53 Cr (24-Jun-26). Secured substantial new overseas defence order (announced 6-May) for electrical wire harnesses, 8-12 mo execution. Q3 FY26 rev ₹130 Cr (+72% YoY). Confirmed OB ₹720 Cr + long-term agreements ₹2,500 Cr. Rally reflects the OB conversion narrative; PAT margin recovery remains the critical unknown."},
+      {date: "16 May 2026", body: "Baseline. Mcap ₹2,734.5 Cr per MarketsMojo 6-Mar-26. Q1-Q3 FY26 revenue triple-digit growth but FY26 PAT ₹7.91 Cr too thin → P/E extreme."}] },
 
   { id: "ssw", num: 26, name: "Steel Strips Wheels Ltd (SSWL)", listing: "mainboard", batch: 2,
     sector: "Auto Components & Forgings", conviction: "med",
@@ -812,7 +857,9 @@ const stocks = [
     catalysts: ["Q4 FY26 results (May-26)", "Major export contract / global pharma customer", "Capacity expansion announcement", "SME→Mainboard migration", "Adjacency product (HPMC, croscarmellose)"],
     valuation: "FY26E rev ₹250-350 Cr / PAT ₹35-50 Cr → P/E ~21-30x. Sigachi ~25-30x historically.",
     mos: "Moderate MoS — niche + secular tailwind + small scale. Position 1-2% for SME.",
-    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹1,042 Cr per Screener via WebSearch Apr-26. Pharma excipient niche; global MCC market USD 1.59 bn (2026) → USD 2.66 bn (2033) at 7.6% CAGR."}] },
+    changes: [
+      {date: "1 Jul 2026", body: "[CORRECTION + STRENGTH] CMP ₹496.30 (Yahoo ACCENTMIC-SM.NS, fresh timestamp). My earlier 1-Jul post using ACCENTMIC.NS returned ₹286.90 from a stale 2024-vintage instrument — SME-listed stocks need the -SM.NS suffix. Actual move since 9-Jun (₹425.25): +16.7%. FY26 concall discussed Unit 3 approvals, 15,000 MT sales, Mar-27 Phase 2 target; ₹60 Cr capex for 12,000 MTPA MCC expansion by Nov-26. Fundamentals + capex intact and price now confirms it. Apologies for the earlier bad print."},
+      {date: "16 May 2026", body: "Baseline. Mcap ₹1,042 Cr per Screener via WebSearch Apr-26. Pharma excipient niche; global MCC market USD 1.59 bn (2026) → USD 2.66 bn (2033) at 7.6% CAGR."}] },
 
   { id: "haleos", num: 29, name: "Haleos Labs Ltd (ex-SMS Lifesciences)", listing: "sme", batch: 3,
     sector: "Specialty Chem & Pharma", conviction: "low",
@@ -831,6 +878,7 @@ const stocks = [
     valuation: "FY26E rev ₹360-400 Cr / PAT ₹25-30 Cr → P/E ~13-15x — cheap but cheap-for-reason.",
     mos: "MoS thin given weak ROE/margins. Position 0.5-1% max. Watch 2-3 quarters of sustained margin recovery.",
     changes: [
+      {date: "1 Jul 2026", body: "[MOMENTUM] CMP ₹1,642.30 (+26.3% since 9-Jun). No fresh corporate news in Jun-Jul search; rally appears momentum + rerating driven. Baseline concern (ROE 8.63%, thin margins) hasn't been addressed by newly disclosed fundamentals — verify the price action against Q1 FY27 print before adding."},
       {date: "9 Jun 2026", body: "[MATERIAL UPMOVE] CMP ₹1,300 (Jun-26). Stock has rallied very significantly from baseline. Mcap ~₹393 Cr (similar to baseline ~₹379 Cr — note: face-value share dynamics may explain Mcap+price reconcile). Verify trajectory vs. fundamentals (ROE was weak at 8.63% at baseline)."},
       {date: "16 May 2026", body: "Baseline. Mcap ₹379.42 Cr per MarketsMojo Q3 FY26. Q3 FY26 record sales ₹95 Cr; PAT ₹6.6 Cr (+21% YoY). ROE 8.63% weak. Margin compression flagged."}] },
 
@@ -850,7 +898,9 @@ const stocks = [
     catalysts: ["Q4 FY26 + FY26 results (May-26)", "LOI book milestone update", "New large multi-year CSM contract", "Jhagadia capacity full commercial production", "Polymer additives mix shift"],
     valuation: "FY26E rev ₹2.4-2.6K Cr / PAT ₹220-280 Cr → P/E ~55-65x. FY27E ~35-40x.",
     mos: "Moderate MoS. H1 +122% justifies premium. Best entry: 15-20% pullback → ~30-35x forward.",
-    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹15,193 Cr per Yahoo/Screener late-25/early-26. Q3 FY26 standalone rev ₹401 Cr (+89%) / PAT ₹48 Cr (+150%). H1 FY26 consol +122%. CSM tailwind."}] },
+    changes: [
+      {date: "1 Jul 2026", body: "[MATERIAL — GLOBAL FIRST] Became world's first to commercialize ETFA (Ethyl Trifluoroacetate) using proprietary continuous flow chemistry platform — officially launched 11-Jun-26. Global ETFA market USD 500-600 mn (life sciences + pharma). Validates the CSM + fluorination-chemistry thesis. Two verticals now: (1) Life Science Specialty Chemicals; (2) Performance Materials (Electronics + EV Chemicals + Polymers). CMP ₹1,270.50 (-7.3% since 9-Jun) — profit-taking post-run; watch H1 FY27 for LOI book update."},
+      {date: "16 May 2026", body: "Baseline. Mcap ₹15,193 Cr per Yahoo/Screener late-25/early-26. Q3 FY26 standalone rev ₹401 Cr (+89%) / PAT ₹48 Cr (+150%). H1 FY26 consol +122%. CSM tailwind."}] },
 
   { id: "astec", num: 31, name: "Astec Lifesciences Ltd", listing: "mainboard", batch: 3,
     sector: "Specialty Chem & Pharma", conviction: "low",
@@ -868,7 +918,9 @@ const stocks = [
     catalysts: ["Q1 FY27 results (Jul-26) — first profitable quarter expected", "Off-patent agrochem product launches", "Major MNC contract wins", "Godrej Agrovet strategic actions", "Board reshuffle outcome"],
     valuation: "FY26 loss ₹80.9 Cr; EV/Sales ~3.5-4x. FY27E PAT ₹40-60 Cr → P/E 27-40x forward.",
     mos: "MoS depends on margin recovery. Best entry: 1-2 profitable quarters confirm. Position 1-1.5% max.",
-    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹1,618.58 Cr per Bajaj Finserv 28-Apr-26. FY26 turnaround: rev ₹453 Cr (+17.5%); loss ₹80.9 Cr (improvement); Q4 sales ₹158.62 Cr (+27% QoQ). EBITDA near break-even."}] },
+    changes: [
+      {date: "1 Jul 2026", body: "[TURNAROUND PROGRESSING] FY26 achieved EBITDA break-even (from EBITDA loss ₹61 Cr FY25). Q4 FY26 saw robust YoY rev + EBITDA growth on higher CDMO volumes, improved realizations, better capacity utilization. Mix: Enterprise ~48%, CDMO + new products ~52%; Exports ~53% of revenue. Godrej Agrovet FY26 consol rev crossed ₹10,000 Cr milestone (Q4 rev +9% YoY to ₹2,333 Cr, PBT +16.8%). GM-HR Vijayalakshmi Iyer resigned 5-Jun. CMP ₹713.65 (-8.2% since 9-Jun) — market still cautious pending first profitable quarter."},
+      {date: "16 May 2026", body: "Baseline. Mcap ₹1,618.58 Cr per Bajaj Finserv 28-Apr-26. FY26 turnaround: rev ₹453 Cr (+17.5%); loss ₹80.9 Cr (improvement); Q4 sales ₹158.62 Cr (+27% QoQ). EBITDA near break-even."}] },
 
   { id: "epl", num: 32, name: "EPL Ltd (ex-Essel Propack)", listing: "mainboard", batch: 3,
     sector: "Specialty Materials & Packaging", conviction: "med",
@@ -886,7 +938,9 @@ const stocks = [
     catalysts: ["Q4 FY26 + FY26 results (May-26)", "Blackstone exit timeline / strategic action", "New customer announcements (premium beauty/pharma)", "Sustainability product traction", "Capacity expansion/new geography", "Possible buyback/special dividend"],
     valuation: "FY26E rev ₹4.8-5K Cr / PAT ₹420-470 Cr → P/E ~16-17x. Polyplex ~15-18x, Huhtamaki ~20-25x.",
     mos: "Reasonable MoS — fair P/E for global market leader. Best entry: 10-15% pullback. Position 2-3%.",
-    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹7,247 Cr per Screener/MarketsMojo (+17.9% 1-yr). Q2 FY26 record sales ₹1,206 Cr (+11%) / PAT ₹104 Cr (+19.89%). FY25 Q4 +411% PAT base-effect."}] },
+    changes: [
+      {date: "1 Jul 2026", body: "[MINOR] Fully redeemed ₹50 Cr commercial paper on 1-Jun-26 (deleveraging). Blackstone (parent) posted Q2-2026 realization update 23-Jun estimating $500 mn+ realized performance revenues + principal investment income for Apr-Jun period. No fresh EPL corporate action; CMP ₹227.26 (+2.6% since 9-Jun) — steady compounder profile continuing."},
+      {date: "16 May 2026", body: "Baseline. Mcap ₹7,247 Cr per Screener/MarketsMojo (+17.9% 1-yr). Q2 FY26 record sales ₹1,206 Cr (+11%) / PAT ₹104 Cr (+19.89%). FY25 Q4 +411% PAT base-effect."}] },
 
   // ===== BATCH 4 (7 stocks) — EMS / Electronics / Tech =====
   { id: "aimtron", num: 33, name: "Aimtron Electronics Ltd", listing: "sme", batch: 4,
@@ -923,7 +977,9 @@ const stocks = [
     catalysts: ["Q4 FY26 + FY26 results", "Kavach mass rollout contract awards", "Vande Bharat Sleeper / Metro production orders", "Major railway signalling tender win", "OB past ₹400-500 Cr", "Potential NSE listing migration"],
     valuation: "FY26E rev ₹180-200 Cr / PAT ₹35-45 Cr → P/E ~60-78x — rich.",
     mos: "MoS thin given 205% rally + concentration. Best entry: 25-30% pullback. Position 1-1.5% max.",
-    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹2,745 Cr per Screener via WS (+205% 1-yr). H1 FY26 rev +63.9% / PAT +85% YoY. OB ₹313 Cr (+47% vs Mar-25). ₹84.68 Cr Indian Railways order recent."}] },
+    changes: [
+      {date: "1 Jul 2026", body: "[MAJOR ORDER] Associate Progota India received ₹279.90 Cr KAVACH 4.0 order from Indian Railways (announced 1-Jun-26) for onboard loco equipment, 12-mo execution. Total OB now ₹697 Cr as of Mar-26 (incl. ₹279.9 Cr May-26 add). Mgmt guides EBITDA margin 25-30%. Business includes 15-yr maintenance contracts (recurring revenue kicker). CMP ₹2,844.45 (+17.5% since 9-Jun) reflects the Kavach thesis validation."},
+      {date: "16 May 2026", body: "Baseline. Mcap ₹2,745 Cr per Screener via WS (+205% 1-yr). H1 FY26 rev +63.9% / PAT +85% YoY. OB ₹313 Cr (+47% vs Mar-25). ₹84.68 Cr Indian Railways order recent."}] },
 
   { id: "avalon", num: 35, name: "Avalon Technologies Ltd", listing: "mainboard", batch: 4,
     sector: "EMS / Electronics / AI", conviction: "med",
@@ -941,7 +997,9 @@ const stocks = [
     catalysts: ["Q4 FY26 + FY26 results (May 6, 2026)", "Margin recovery quarterly trajectory", "OB past ₹2,500 Cr", "Major US OEM contract", "PLI/India scheme participation", "Capacity expansion"],
     valuation: "FY26E rev ₹1.5-1.6K Cr / PAT ₹100-120 Cr → P/E ~60-70x. FY27E ~35-42x.",
     mos: "MoS thin given valuation + margin pressure. Best entry: post-Q4 margin recovery + 15-20% pullback.",
-    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹7,059 Cr per Whalesbook via WS. 9M FY26 rev +49% / PAT +83%. OB ₹2,016 Cr. Q3 margin compression (EBITDA -84 bps YoY) flagged."}] },
+    changes: [
+      {date: "1 Jul 2026", body: "[MATERIAL BEAT] Q4 FY26: PAT ₹41.15 Cr (+69.5% YoY), rev ₹480 Cr. FY26 EBITDA ₹173 Cr (+50.9%). OB (31-Mar) ₹2,196 Cr (+25% YoY) providing ~14 months forward visibility; LTAs ₹1,245 Cr (14-mo to 3-yr). ATH ₹1,550 hit on 26-May; Nomura initiated Buy with ₹1,772 target citing EMS upcycle + AI + HVDC + semiconductor tailwinds. CMP ₹1,795.30 (+9.5% since 9-Jun). Q3 margin flag (EBITDA -84 bps) now reversed in Q4 print — baseline concern resolved."},
+      {date: "16 May 2026", body: "Baseline. Mcap ₹7,059 Cr per Whalesbook via WS. 9M FY26 rev +49% / PAT +83%. OB ₹2,016 Cr. Q3 margin compression (EBITDA -84 bps YoY) flagged."}] },
 
   { id: "syrma", num: 36, name: "Syrma SGS Technology Ltd", listing: "mainboard", batch: 4,
     sector: "EMS / Electronics / AI", conviction: "high",
@@ -960,6 +1018,7 @@ const stocks = [
     valuation: "FY26E rev ₹4.8-5K Cr / PAT ₹325-360 Cr → P/E ~38-57x range. FY27E ~28-37x. Dixon 80-100x.",
     mos: "Moderate MoS — premium justified vs Dixon/Kaynes. Best entry: 15-20% pullback → ~25-30x forward.",
     changes: [
+      {date: "1 Jul 2026", body: "[MATERIAL] JV agreement with Kaga Electronics India on 22-Jun for new EMS facility targeting Japanese clients — Syrma 60% / Kaga 40% (Syrma ₹15 Cr, Kaga ₹10 Cr). CEO transition: Jaidit Singh Brar appointed CEO effective 29-Jun (26-Jun announcement); Satendra Singh moved to Senior Operating Director. Q4 FY26 standalone PAT ₹101.19 Cr (+54.63% YoY); consolidated Q3 PAT +108.1%. Final dividend ₹1.5/share (15%). CMP ₹1,421.60 (+13.5% since 9-Jun). Growth + governance both firing."},
       {date: "9 Jun 2026", body: "[MATERIAL] FY26 net profit +87% on strong revenue growth (ScanX). CMP ₹1,252.80 (NSE 9-Jun-26). 6-mo +71.9%, 1-yr +119.40% — 52-wk H ₹1,260.40 near current. The 9M FY26 +101% PAT trajectory has been confirmed by full-year +87% (slight Q4 normalisation). Premium thesis is delivering."},
       {date: "16 May 2026", body: "Baseline. Mcap ₹13,749-18,491 Cr range across sources Apr-26 (verify on Screener). 9M FY26 rev +17% / PAT +101%. Q3 +43% rev / +108% PAT — acceleration in H2."}] },
 
@@ -979,7 +1038,9 @@ const stocks = [
     catalysts: ["Q4 FY26 + FY26 results (May 4 call)", "FY27 guidance disclosure", "IndiaAI mission compute orders", "Major NVIDIA H200/B200 deployment", "Enterprise AI customer wins", "International expansion"],
     valuation: "FY26E rev ₹1.4-1.5K Cr / PAT ₹150-180 Cr → P/E ~110-150x — extremely rich. FY27E ~70-95x.",
     mos: "MoS very thin at 110-150x. Best entry: 25-30% drawdown. Position 1.5-2.5% for high-beta.",
-    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹18,843-23,083 Cr range (Whalesbook/Tickertape Mar-Apr 26). FY26 results May 4 call. Q4 FY26 rev expected ₹380-420 Cr / PAT ₹45-58 Cr. FY26 guidance 40% growth."}] },
+    changes: [
+      {date: "1 Jul 2026", body: "[MATERIAL BLOCKBUSTER] FY26 audited: rev ₹2,183.56 Cr (+90% YoY), PAT ₹205.82 Cr (+80.9%). **AI Systems revenue +459.6% YoY** — now 43.4% of total revenue. Firm OB ₹2,100 Cr + L1-inclusive OB ₹2,400 Cr. **FY27 guidance: 35-40% revenue growth, 13-14% EBITDA margins**. Final dividend ₹3/share (150% of ₹2 face value). Analyst engagements: Systematix Promoters Forum 16-Jun (Taj Santacruz); 1-on-1 with Blackrock 23-Jun (Faridabad). CMP ₹4,507.90 (+5.2% since 9-Jun). Sovereign-AI thesis validated by numbers."},
+      {date: "16 May 2026", body: "Baseline. Mcap ₹18,843-23,083 Cr range (Whalesbook/Tickertape Mar-Apr 26). FY26 results May 4 call. Q4 FY26 rev expected ₹380-420 Cr / PAT ₹45-58 Cr. FY26 guidance 40% growth."}] },
 
   { id: "aurion", num: 38, name: "Aurionpro Solutions Ltd", listing: "mainboard", batch: 4,
     sector: "BFSI / IT Software", conviction: "high",
@@ -998,6 +1059,7 @@ const stocks = [
     valuation: "FY26E rev ₹1.4-1.5K Cr / PAT ₹160-200 Cr → P/E ~25-30x. FY27E ~20-23x. Intellect ~28x, Mastek ~28x.",
     mos: "Reasonable MoS — fair valuation for growth. Best entry: 10-15% pullback → 18-22x forward. 2-3% fit.",
     changes: [
+      {date: "1 Jul 2026", body: "[STRATEGIC PIVOT] Investor Day held 10-Jun (Mumbai): outlined AI-native shift by FY30 targeting $350mn SOM in autonomous systems for banking, transit, data centers. Banking segment 26% CAGR FY22-26; TIG segment 34% CAGR. Q4 FY26 PAT ₹61.51 Cr (+22.2%) / rev ₹345.57 Cr (+5.7%). OB +29% YoY. Final dividend ₹2/share. Choice IE virtual forum 12-Jun. CMP ₹856.55 (+5.3% since 9-Jun) — recovery from post-Q4 -7% dip. Baseline thesis-watch call was right; now bounces on AI/product roadmap."},
       {date: "9 Jun 2026", body: "[THESIS WATCH] CMP ₹813.05 (9-Jun-26) — DOWN -7.04% today. 52-wk H ₹1,663 (16-Jul-25); stock has nearly halved from peak. FY26 net profit ₹209.31 Cr (+12.4% YoY) and revenue ₹1,411.09 Cr (+20.3% YoY) — growth decelerating vs 9M FY26 +26% pace. Q4 underperformed. Re-evaluate the +20-23x P/E thesis against the slowing growth trajectory."},
       {date: "16 May 2026", body: "Baseline. Mcap ₹4,600-5,017 Cr per Yahoo/Screener via WS. 9M FY26 rev ₹1,066 Cr (+26%); B&F segment ₹595 Cr (+26%). Fintra (AI trade finance) bank pilots from Apr 17, 2026."}] },
 
@@ -1017,7 +1079,9 @@ const stocks = [
     catalysts: ["Q4 FY26 + FY26 results (May 2026) — confirms Q3 plunge was one-time", "FY27 guidance", "Major BPM/digital deal", "AI/GenAI service revenue ramp", "Smart City project wins", "Possible buyback/special dividend"],
     valuation: "FY26E rev ₹2.05-2.1K Cr / PAT ₹220-260 Cr → P/E ~16-19x. Coforge ~32x, Persistent ~40x, Mastek ~28x.",
     mos: "Reasonable MoS at 16-19x if Q3 was one-time. Best entry: post Q4 clarity. Position 1.5-2%.",
-    changes: [{date: "16 May 2026", body: "Baseline. Mcap ₹4,256 Cr per Finology Ticker via WS. H1 FY26 rev +20% / PAT +32%. Q3 FY26 PAT plunge -42% QoQ to ₹36 Cr flagged — needs Q4 explanation."}] },
+    changes: [
+      {date: "1 Jul 2026", body: "[MATERIAL — MARGIN INFLECTION] FY26 audited: consol rev ₹1,987.15 Cr (+15.3% YoY). Highest-ever EBITDA margin 18.7%. Final dividend ₹5/share. Board approved amalgamation of Dextara Digital + Datamatics Cloud Solutions with parent. Postal ballot 29-Jun passed appointing Hitesh Gajaria + Navnit Singh as Independent Directors. Q3 PAT plunge concern from baseline appears resolved by Q4 print. Multiple investor engagements in June (Carnelian 3-Jun; Choice InsightX 10-Jun). Stock surged +7.28% on 1-Jun. CMP ₹806.15 (+3.5% since 9-Jun)."},
+      {date: "16 May 2026", body: "Baseline. Mcap ₹4,256 Cr per Finology Ticker via WS. H1 FY26 rev +20% / PAT +32%. Q3 FY26 PAT plunge -42% QoQ to ₹36 Cr flagged — needs Q4 explanation."}] },
 
   // ===== BATCH 5 (6 stocks) — Agri / Chemicals / Diversified =====
   { id: "dcmshriram", num: 40, name: "DCM Shriram Ltd", listing: "mainboard", batch: 5,
@@ -1036,7 +1100,9 @@ const stocks = [
     catalysts: ["ECH plant Q1 FY27 first full-quarter contribution", "Sugar cycle inflexion (FY27 monsoon-dependent)", "Ethanol blending policy updates", "Fenesta scale-up in Tier-2/3 markets", "Possible demerger/value-unlock event"],
     valuation: "FY26 reported P/E ~20.5x; adjusted (excl. ₹239 Cr tax credit) ~28x. Sugar peers ~15-18x, Chemberg ~25-30x. Fair for diversified profile.",
     mos: "Moderate MoS — chemicals momentum vs sugar drag. Best entry: 10-15% pullback. 2-3% portfolio fit.",
-    changes: [{date: "21 May 2026", body: "Baseline. Mcap ₹17,578 Cr per Screener via WS. FY26 rev ₹14,264 Cr (+12%), PAT ₹855.98 Cr (+42%). Chemicals rev +38% to ₹3,832 Cr. ECH plant (52,000 TPA Bharuch) commissioned Apr-26. Final div ₹4 (total ₹11.20 for FY26)."}] },
+    changes: [
+      {date: "1 Jul 2026", body: "[CAPACITY MILESTONE] Full 17,000 TPA ECH balance capacity commissioned at Jhagadia on 1-Apr-26 — total ECH now 52,000 TPA. FY26 PAT ₹855.98 Cr (+42%); Chemicals & Vinyl caustic soda volumes +12%. Board approved ₹100 Cr financial assistance to WoS HSCL (Hindustan Speciality Chemicals) for ₹101 Cr capex expanding Formulated Resins capacity by 36K TPA to 50K TPA. FY26 total dividend 560% (₹11.20/share) inclusive of ₹4 final. CMP ₹1,014 (flat since 9-Jun) — chemicals engine playing out."},
+      {date: "21 May 2026", body: "Baseline. Mcap ₹17,578 Cr per Screener via WS. FY26 rev ₹14,264 Cr (+12%), PAT ₹855.98 Cr (+42%). Chemicals rev +38% to ₹3,832 Cr. ECH plant (52,000 TPA Bharuch) commissioned Apr-26. Final div ₹4 (total ₹11.20 for FY26)."}] },
 
   { id: "mayur", num: 41, name: "Mayur Uniquoters Ltd", listing: "mainboard", batch: 5,
     sector: "Specialty Materials & Packaging", conviction: "high",
@@ -1054,7 +1120,9 @@ const stocks = [
     catalysts: ["Q4 FY26 + FY26 results", "Major auto OEM contract addition", "PU/Semi-PU capacity expansion", "Footwear export deal wins", "Possible buyback or special dividend"],
     valuation: "FY26E PAT ~₹180-200 Cr (annualised Q3 ramp) → P/E ~13-15x. Cheap vs broader auto-anc / specialty materials peers.",
     mos: "Strong MoS — fair-to-cheap valuation + Q3 momentum + export ramp. 2-3% portfolio fit.",
-    changes: [{date: "21 May 2026", body: "Baseline. CMP ₹615.20 / Mcap ₹2,651.26 Cr per Business Standard 19-May-26. Q3 FY26 rev ₹237 Cr (+14%), PAT ₹51 Cr (+66%) — strong operating leverage."}] },
+    changes: [
+      {date: "1 Jul 2026", body: "[MATERIAL] CMP ₹851.50 (+16.1% since 9-Jun). Q4 FY26 record numbers: net sales ₹273.35 Cr, PBDIT ₹85.72 Cr (both all-time highs). Stock 6-mo +62.99%, 1-yr +44.66% — outperforming BSE500. H1 ROCE 22.83%. MarketsMojo rating Hold (last updated 21-May). High-conviction thesis playing out cleanly with fundamentals; still cheap on relative basis."},
+      {date: "21 May 2026", body: "Baseline. CMP ₹615.20 / Mcap ₹2,651.26 Cr per Business Standard 19-May-26. Q3 FY26 rev ₹237 Cr (+14%), PAT ₹51 Cr (+66%) — strong operating leverage."}] },
 
   { id: "insecticides", num: 42, name: "Insecticides (India) Ltd", listing: "mainboard", batch: 5,
     sector: "Agri-Inputs & Seeds", conviction: "med",
@@ -1072,7 +1140,9 @@ const stocks = [
     catalysts: ["Q4 FY26 + FY26 results — confirm Q3 was seasonal/one-time", "FY27 H1 monsoon outcome", "Premium portfolio scaling", "Possible export contract", "New product launches"],
     valuation: "FY26 PAT ~₹120-150 Cr (post-Q3 weakness) → P/E ~15-19x. UPL ~22x, PI ~40-45x, Bharat Rasayan ~25-30x.",
     mos: "MoS exists on absolute multiples but operational momentum weak. Position 1-1.5% as turnaround.",
-    changes: [{date: "21 May 2026", body: "Baseline. Mcap ₹2,256 Cr per Screener via WS (-14.3% 1-yr). Q3 FY26 rev ₹385 Cr / PAT ₹10.49 Cr (thin). Premium portfolio: 11 Focused Maharatna + 33 Maharatna brands."}] },
+    changes: [
+      {date: "1 Jul 2026", body: "[NEWS THIN + WEAK] Q4 FY26 rev ₹426 Cr, PAT ₹11.71 Cr (still thin margins). Unpaid-dividend claims campaign 1-Apr to 9-Jul (Saksham Niveshak / MCA-aligned) — administrative not thesis-relevant. Analyst virtual group meeting via InsightX Choice 10-Jun. No fresh order/M&A/major corp action. CMP ₹656.25 (-8.2% since 9-Jun) — weak operational momentum continues; turnaround unproven. Baseline 'Medium conviction / turnaround candidate' stance holds."},
+      {date: "21 May 2026", body: "Baseline. Mcap ₹2,256 Cr per Screener via WS (-14.3% 1-yr). Q3 FY26 rev ₹385 Cr / PAT ₹10.49 Cr (thin). Premium portfolio: 11 Focused Maharatna + 33 Maharatna brands."}] },
 
   { id: "kaveri", num: 43, name: "Kaveri Seed Company Ltd", listing: "mainboard", batch: 5,
     sector: "Agri-Inputs & Seeds", conviction: "med",
@@ -1090,7 +1160,9 @@ const stocks = [
     catalysts: ["Kharif 2026 monsoon outcome + sales (Q1 FY27, Jul-26)", "Export contract additions", "New hybrid variety launches", "Possible buyback announcement", "Cotton MRP/IPR policy clarity"],
     valuation: "FY26E PAT ~₹300-330 Cr (despite Q2 loss) → P/E ~16-17x. Comparable: KSCL historically 15-20x.",
     mos: "Reasonable MoS — cash-rich + buyback history + valuation fair. 2% portfolio fit. Best entry pre-Kharif.",
-    changes: [{date: "21 May 2026", body: "Baseline. Mcap ₹5,248 Cr per Groww via WS. CMP ₹1,041 range. H1 FY26 PAT ₹310.65 Cr. Export business +250% YoY. Q2 FY26 seasonal net loss ₹15.43 Cr (normal pattern)."}] },
+    changes: [
+      {date: "1 Jul 2026", body: "[MIXED] Q4 FY26 net loss ₹27.8 Cr (+21.2% YoY loss vs prior seasonal Q4 loss — worse than typical). Ex-Q4 seasonality, full-year FY26 numbers per concall 30-May: new cotton products' contribution rose to 30.1%; maize volumes +18.8%. Management guided strong Q1 FY27 on higher cotton + millet + hybrid rice sales, plus export strength and positive vegetable seeds outlook. IEPF transfer notice published 18-Jun. CMP ₹888.70 (+3.7% since 9-Jun) — market waiting on Kharif print."},
+      {date: "21 May 2026", body: "Baseline. Mcap ₹5,248 Cr per Groww via WS. CMP ₹1,041 range. H1 FY26 PAT ₹310.65 Cr. Export business +250% YoY. Q2 FY26 seasonal net loss ₹15.43 Cr (normal pattern)."}] },
 
   { id: "eil", num: 44, name: "Engineers India Ltd (EIL)", listing: "mainboard", batch: 5,
     sector: "Engineering / EPC Consultancy", conviction: "high",
@@ -1109,6 +1181,7 @@ const stocks = [
     valuation: "FY26E PAT ~₹700-800 Cr → P/E ~17-20x. PSU EPC peers (RVNL, IRCON) at 25-35x — EIL at discount.",
     mos: "Strong MoS — record OB + record contract wins + cyclical refinery upturn. 2-3% portfolio fit.",
     changes: [
+      {date: "1 Jul 2026", body: "[MATERIAL — VALIDATED] FY26 audited: standalone turnover ₹3,849 Cr (+27.11% YoY, highest-ever); standalone PAT ₹638 Cr (+37.2% YoY, record). EBITDA margin 21.6% (from 20.6%); operating margin 16.22% (from 14.76%). OB ATH ₹15,109 Cr (+28.95% YoY, per 31-Mar). Dangote Refinery expansion in Nigeria confirmed at $350mn+ / ₹3,250 Cr (PMC + EPCM Consultant). Also secured ₹3,000+ Cr Africa expansion + fertilizer project. CMP ₹237.58 (+5.7% since 9-Jun). Baseline high-conviction call now fully backed by print."},
       {date: "9 Jun 2026", body: "[THESIS WATCH] CMP ₹224.73 (NSE 1-Jun-26); Mcap ₹12,630 Cr — down ~13% from baseline ₹259.15 / ₹13,770. 52-wk H/L ₹267/₹163.55. P/E 20.38, P/B 54.14 (P/B looks misprinted in source — verify). The +219% Q3 PAT spike has not held up in the price; some giveback after the initial rally. Watch FY26 full-year results and Dangote execution milestones."},
       {date: "21 May 2026", body: "Baseline. Mcap ₹13,770 Cr per Screener via WS. CMP ₹259.15. Record OB ₹15,670 Cr; consultancy OB ATH ₹10,000 Cr. Q3 FY26 net sales +58.3% / PAT +219.3% YoY. Dangote Refinery ₹3,150 Cr win (Jan-26)."}] },
 
@@ -1129,59 +1202,117 @@ const stocks = [
     valuation: "FY26E PAT ~₹90-100 Cr → P/E ~9-10x. Cheap for niche specialty chem; small-cap discount.",
     mos: "Strong MoS on absolute multiples but small-cap liquidity constrains. 1-1.5% portfolio fit.",
     changes: [
+      {date: "1 Jul 2026", body: "[MATERIAL] CMP ₹1,722.40 (+19% since 9-Jun). FY26 disclosed: PAT ₹110.59 Cr (+34.5% YoY) on total income ₹614.09 Cr / revenue ₹588.31 Cr. **Dividend ₹7/share recommended** (up from ₹6 prior). Rerating validated by fundamentals — collagen peptide thesis playing out cleanly. VP-HR change 30-Jun (Juby K. Mathews replaces Vinod S. Menon; ex-Tata Steel / Asian Paints). Still cheap by absolute standards despite the run."},
       {date: "9 Jun 2026", body: "[MATERIAL UPMOVE] CMP ₹1,447.05 (8-Jun-26) — up +47% from baseline ₹981.50 in ~5 weeks. 29-May high ₹1,649. 52-wk H ₹1,690. The cheap small-cap thesis at baseline (P/E ~9-10x) has played out fast; multiple now re-rated meaningfully. Confirm FY26 board meet (24-May) actual disclosed numbers vs. the implied re-rating."},
       {date: "21 May 2026", body: "Baseline. Mcap ₹891.20 Cr per Tickertape via WS (30-Apr-26). CMP ₹981.50 (2-May-26). Q3 FY26 rev ₹149.72 Cr (+11.2%) / PAT ₹25.57 Cr (+4.62%). FY26 board meet 24-May-26 for results + dividend."}] }
 ];
 
-// ---------- CMP Data (refreshed 9-Jun-2026; sources cited inline) ----------
+// ---------- CMP Data (refreshed 1-Jul-2026 from Yahoo Finance v8 chart API) ----------
 const CMP_DATA = {
-  "oriana":      { cmp: "₹1,682.75", date: "8-Jun-26",   source: "NSE / Anand Rathi" },
-  "rajesh":      { cmp: "₹849.00",   date: "9-Jun-26",   source: "Tickertape" },
-  "kmew":        { cmp: "₹1,915.00", date: "4-Jun-26",   source: "IndMoney" },
-  "sathlokhar":  { cmp: "₹388.00",   date: "Jun-26",     source: "Screener (high variance across dates)" },
-  "nlc":         { cmp: "₹319.00",   date: "10-Jun-26",  source: "IndMoney (OFS price)" },
-  "gmdc":        { cmp: "₹657.75",   date: "5-Jun-26",   source: "NSE / HDFC Sky" },
-  "gpil":        { cmp: "₹280.70",   date: "5-Jun-26",   source: "MoneyWorks4Me" },
-  "ecl":         { cmp: "₹73.43",    date: "9-Jun-26",   source: "IndMoney" },
-  "kolte":       { cmp: "₹367.50",   date: "1-Jun-26",   source: "ICICI Direct" },
-  "garware":     { cmp: "₹6,019.50", date: "1-Jun-26",   source: "Bajaj Finserv" },
-  "haldyn":      { cmp: "₹93.70",    date: "late-Apr-26",source: "Investing.com" },
-  "care":        { cmp: "₹1,597.40", date: "8-Jun-26",   source: "NSE / Kotak Neo" },
-  "monarch":     { cmp: "₹299.70",   date: "15-May-26",  source: "Tickertape" },
-  "obsc":        { cmp: "₹514.00",   date: "10-Jun-26",  source: "MarketsMojo (all-time high)" },
-  "sunita":      { cmp: "₹679.00",   date: "10-Jun-26",  source: "Bajaj Finserv" },
-  "yash":        { cmp: "₹701.00",   date: "4-Jun-26",   source: "Choice / BSE" },
-  "systematic":  { cmp: "₹220.00",   date: "26-May-26",  source: "Bajaj Broking" },
-  "paras":       { cmp: "₹1,023.20", date: "9-Jun-26",   source: "Tickertape" },
-  "azad":        { cmp: "₹2,057.70", date: "29-May-26",  source: "NSE" },
-  "axiscades":   { cmp: "₹1,682.60", date: "4-Jun-26",   source: "ICICI Direct" },
-  "dynamatic":   { cmp: "₹10,220",   date: "8-Jun-26",   source: "ICICI Direct" },
-  "dee":         { cmp: "₹688.70",   date: "9-Jun-26",   source: "Trendlyne (close)" },
-  "happy":       { cmp: "₹1,412.20", date: "7-May-26",   source: "ICICI Direct" },
-  "sansera":     { cmp: "₹2,819.40", date: "1-Jun-26",   source: "IndMoney" },
-  "rossell":     { cmp: "₹725.40",   date: "3-Jun-26",   source: "Kotak Neo" },
-  "ssw":         { cmp: "₹230.02",   date: "8-Jun-26",   source: "Yahoo Finance" },
-  "wheels":      { cmp: "₹1,677.50", date: "Jun-26",     source: "Bajaj Finserv" },
-  "accent":      { cmp: "₹425.25",   date: "19-May-26",  source: "Motilal Oswal (verify — 52wk H ₹375.80 conflicts)" },
-  "haleos":      { cmp: "₹1,300.00", date: "Jun-26",     source: "Investing.com" },
-  "anupam":      { cmp: "₹1,370.30", date: "26-May-26",  source: "Tickertape" },
-  "astec":       { cmp: "₹777.25",   date: "4-Jun-26",   source: "ScanX" },
-  "epl":         { cmp: "₹221.55",   date: "Jun-26",     source: "IndMoney" },
-  "aimtron":     { cmp: "₹1,257.90", date: "2-Jun-26",   source: "Kotak Neo" },
-  "concord":     { cmp: "₹2,420.80", date: "28-May-26",  source: "Investing.com" },
-  "avalon":      { cmp: "₹1,639.50", date: "9-Jun-26",   source: "Tickertape" },
-  "syrma":       { cmp: "₹1,252.80", date: "9-Jun-26",   source: "Kotak Neo" },
-  "netweb":      { cmp: "₹4,286.20", date: "8-Jun-26",   source: "Business Standard" },
-  "aurion":      { cmp: "₹813.05",   date: "9-Jun-26",   source: "Tickertape (-7% today)" },
-  "datamatics":  { cmp: "₹779.00",   date: "5-Jun-26",   source: "Choice" },
-  "dcmshriram":  { cmp: "₹1,020.70", date: "9-Jun-26",   source: "Tickertape" },
-  "mayur":       { cmp: "₹733.65",   date: "5-Jun-26",   source: "Bajaj Finserv" },
-  "insecticides":{ cmp: "₹714.15",   date: "5-Jun-26",   source: "NSE / Business Std" },
-  "kaveri":      { cmp: "₹857.00",   date: "5-Jun-26",   source: "Business Standard" },
-  "eil":         { cmp: "₹224.73",   date: "1-Jun-26",   source: "NSE" },
-  "nitta":       { cmp: "₹1,447.05", date: "8-Jun-26",   source: "Business Standard" }
+  "oriana":      { cmp: "₹1,612.00", date: "1-Jul-26", source: "Yahoo Finance (ORIANA-SM.NS)" },
+  "rajesh":      { cmp: "₹806.00",   date: "1-Jul-26", source: "Yahoo Finance (RAJESH.BO)" },
+  "kmew":        { cmp: "₹2,183.55", date: "1-Jul-26", source: "Yahoo Finance (KMEW.BO)" },
+  "sathlokhar":  { cmp: "₹313.50",   date: "1-Jul-26", source: "Yahoo Finance (SSEGL-SM.NS)" },
+  "nlc":         { cmp: "₹317.10",   date: "1-Jul-26", source: "Yahoo Finance (NLCINDIA.NS)" },
+  "gmdc":        { cmp: "₹610.65",   date: "1-Jul-26", source: "Yahoo Finance (GMDCLTD.NS)" },
+  "gpil":        { cmp: "₹254.60",   date: "1-Jul-26", source: "Yahoo Finance (GPIL.NS)" },
+  "ecl":         { cmp: "₹80.16",    date: "1-Jul-26", source: "Yahoo Finance (ELECTCAST.NS)" },
+  "kolte":       { cmp: "₹364.10",   date: "1-Jul-26", source: "Yahoo Finance (KOLTEPATIL.NS)" },
+  "garware":     { cmp: "₹6,918.50", date: "1-Jul-26", source: "Yahoo Finance (GRWRHITECH.NS)" },
+  "haldyn":      { cmp: "₹116.25",   date: "1-Jul-26", source: "Yahoo Finance (HALDYNGL.BO)" },
+  "care":        { cmp: "₹1,658.20", date: "1-Jul-26", source: "Yahoo Finance (CARERATING.NS)" },
+  "monarch":     { cmp: "₹342.70",   date: "1-Jul-26", source: "Yahoo Finance (MONARCH.NS)" },
+  "obsc":        { cmp: "₹564.95",   date: "1-Jul-26", source: "Yahoo Finance (OBSCP-SM.NS)" },
+  "sunita":      { cmp: "₹712.10",   date: "1-Jul-26", source: "Yahoo Finance (SUNITATOOL.BO)" },
+  "yash":        { cmp: "₹879.70",   date: "1-Jul-26", source: "Yahoo Finance (YASHHV.BO)" },
+  "systematic":  { cmp: "₹181.45",   date: "1-Jul-26", source: "Yahoo Finance (SYSTEMATIC.BO)" },
+  "paras":       { cmp: "₹1,277.90", date: "1-Jul-26", source: "Yahoo Finance (PARAS.NS)" },
+  "azad":        { cmp: "₹2,048.60", date: "1-Jul-26", source: "Yahoo Finance (AZAD.NS)" },
+  "axiscades":   { cmp: "₹1,668.10", date: "1-Jul-26", source: "Yahoo Finance (AXISCADES.NS)" },
+  "dynamatic":   { cmp: "₹10,397.00",date: "1-Jul-26", source: "Yahoo Finance (DYNAMATECH.NS)" },
+  "dee":         { cmp: "₹675.55",   date: "1-Jul-26", source: "Yahoo Finance (DEEDEV.NS)" },
+  "happy":       { cmp: "₹1,532.10", date: "1-Jul-26", source: "Yahoo Finance (HAPPYFORGE.NS)" },
+  "sansera":     { cmp: "₹3,165.10", date: "1-Jul-26", source: "Yahoo Finance (SANSERA.NS)" },
+  "rossell":     { cmp: "₹963.70",   date: "1-Jul-26", source: "Yahoo Finance (ROSSTECH.NS)" },
+  "ssw":         { cmp: "₹246.98",   date: "1-Jul-26", source: "Yahoo Finance (SSWL.NS)" },
+  "wheels":      { cmp: "₹1,613.50", date: "1-Jul-26", source: "Yahoo Finance (WHEELS.NS)" },
+  "accent":      { cmp: "₹496.30",   date: "1-Jul-26", source: "Yahoo Finance (ACCENTMIC-SM.NS)" },
+  "haleos":      { cmp: "₹1,642.30", date: "1-Jul-26", source: "Yahoo Finance (HALEOSLABS.NS)" },
+  "anupam":      { cmp: "₹1,270.50", date: "1-Jul-26", source: "Yahoo Finance (ANURAS.NS)" },
+  "astec":       { cmp: "₹713.65",   date: "1-Jul-26", source: "Yahoo Finance (ASTEC.NS)" },
+  "epl":         { cmp: "₹227.26",   date: "1-Jul-26", source: "Yahoo Finance (EPL.NS)" },
+  "aimtron":     { cmp: "₹1,234.95", date: "1-Jul-26", source: "Yahoo Finance (AIMTRON-SM.NS)" },
+  "concord":     { cmp: "₹2,844.45", date: "1-Jul-26", source: "Yahoo Finance (CNCRD.BO)" },
+  "avalon":      { cmp: "₹1,795.30", date: "1-Jul-26", source: "Yahoo Finance (AVALON.NS)" },
+  "syrma":       { cmp: "₹1,421.60", date: "1-Jul-26", source: "Yahoo Finance (SYRMA.NS)" },
+  "netweb":      { cmp: "₹4,507.90", date: "1-Jul-26", source: "Yahoo Finance (NETWEB.NS)" },
+  "aurion":      { cmp: "₹856.55",   date: "1-Jul-26", source: "Yahoo Finance (AURIONPRO.NS)" },
+  "datamatics":  { cmp: "₹806.15",   date: "1-Jul-26", source: "Yahoo Finance (DATAMATICS.NS)" },
+  "dcmshriram":  { cmp: "₹1,014.00", date: "1-Jul-26", source: "Yahoo Finance (DCMSHRIRAM.NS)" },
+  "mayur":       { cmp: "₹851.50",   date: "1-Jul-26", source: "Yahoo Finance (MAYURUNIQ.NS)" },
+  "insecticides":{ cmp: "₹656.25",   date: "1-Jul-26", source: "Yahoo Finance (INSECTICID.NS)" },
+  "kaveri":      { cmp: "₹888.70",   date: "1-Jul-26", source: "Yahoo Finance (KSCL.NS)" },
+  "eil":         { cmp: "₹237.58",   date: "1-Jul-26", source: "Yahoo Finance (ENGINERSIN.NS)" },
+  "nitta":       { cmp: "₹1,722.40", date: "1-Jul-26", source: "Yahoo Finance (NITTAGELA.BO)" }
 };
 function getCmp(id) { return CMP_DATA[id] || { cmp: "—", date: "—", source: "—" }; }
+
+// ---------- CMP History (price trajectory across refresh dates) ----------
+// Each entry: { date: "DD-MMM-YY", cmp: number, source: "..." }
+// New refreshes append to this array. Latest entry should match CMP_DATA above.
+const CMP_HISTORY = {
+  "oriana":      [{date:"29-Apr-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:1682.75,source:"NSE/Anand Rathi 8-Jun"},{date:"1-Jul-26",cmp:1612.00,source:"Yahoo Finance ORIANA-SM.NS"}],
+  "rajesh":      [{date:"29-Apr-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:849.00,source:"Tickertape"},{date:"1-Jul-26",cmp:805.55,source:"Yahoo Finance"}],
+  "kmew":        [{date:"29-Apr-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:1915.00,source:"IndMoney 4-Jun"},{date:"1-Jul-26",cmp:2183.55,source:"Yahoo Finance"}],
+  "sathlokhar":  [{date:"29-Apr-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:388.00,source:"Screener"},{date:"1-Jul-26",cmp:313.50,source:"Yahoo Finance"}],
+  "nlc":         [{date:"29-Apr-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:319.00,source:"IndMoney OFS"},{date:"1-Jul-26",cmp:317.10,source:"Yahoo Finance"}],
+  "gmdc":        [{date:"29-Apr-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:657.75,source:"NSE 5-Jun"},{date:"1-Jul-26",cmp:610.65,source:"Yahoo Finance"}],
+  "gpil":        [{date:"29-Apr-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:280.70,source:"MoneyWorks4Me"},{date:"1-Jul-26",cmp:254.60,source:"Yahoo Finance"}],
+  "ecl":         [{date:"29-Apr-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:73.43,source:"IndMoney"},{date:"1-Jul-26",cmp:80.16,source:"Yahoo Finance"}],
+  "kolte":       [{date:"29-Apr-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:367.50,source:"ICICI Direct"},{date:"1-Jul-26",cmp:364.10,source:"Yahoo Finance"}],
+  "garware":     [{date:"29-Apr-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:6019.50,source:"Bajaj Finserv"},{date:"1-Jul-26",cmp:6918.50,source:"Yahoo Finance"}],
+  "haldyn":      [{date:"29-Apr-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:93.70,source:"Investing.com"},{date:"1-Jul-26",cmp:116.25,source:"Yahoo Finance"}],
+  "care":        [{date:"29-Apr-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:1597.40,source:"Kotak Neo"},{date:"1-Jul-26",cmp:1658.20,source:"Yahoo Finance"}],
+  "monarch":     [{date:"29-Apr-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:299.70,source:"Tickertape"},{date:"1-Jul-26",cmp:342.70,source:"Yahoo Finance"}],
+  "obsc":        [{date:"29-Apr-26",cmp:379.00,source:"Business Standard"},{date:"9-Jun-26",cmp:514.00,source:"MarketsMojo ATH"},{date:"1-Jul-26",cmp:564.95,source:"Yahoo Finance"}],
+  "sunita":      [{date:"25-Feb-26",cmp:966.20,source:"Business Standard"},{date:"9-Jun-26",cmp:679.00,source:"Bajaj Finserv"},{date:"1-Jul-26",cmp:712.10,source:"Yahoo Finance"}],
+  "yash":        [{date:"27-Apr-26",cmp:692.00,source:"BSE"},{date:"9-Jun-26",cmp:701.00,source:"Choice"},{date:"1-Jul-26",cmp:879.70,source:"Yahoo Finance"}],
+  "systematic":  [{date:"23-Apr-26",cmp:193.15,source:"Tickertape"},{date:"9-Jun-26",cmp:220.00,source:"Bajaj Broking"},{date:"1-Jul-26",cmp:181.45,source:"Yahoo Finance"}],
+  "paras":       [{date:"16-May-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:1023.20,source:"Tickertape"},{date:"1-Jul-26",cmp:1277.90,source:"Yahoo Finance"}],
+  "azad":        [{date:"16-May-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:2057.70,source:"NSE 29-May"},{date:"1-Jul-26",cmp:2048.60,source:"Yahoo Finance"}],
+  "axiscades":   [{date:"16-May-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:1682.60,source:"ICICI Direct"},{date:"1-Jul-26",cmp:1668.10,source:"Yahoo Finance"}],
+  "dynamatic":   [{date:"16-May-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:10220.00,source:"ICICI Direct"},{date:"1-Jul-26",cmp:10397.00,source:"Yahoo Finance"}],
+  "dee":         [{date:"16-May-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:688.70,source:"Trendlyne"},{date:"1-Jul-26",cmp:675.55,source:"Yahoo Finance"}],
+  "happy":       [{date:"28-Oct-25",cmp:1017.45,source:"Sharekhan (stale)"},{date:"9-Jun-26",cmp:1412.20,source:"ICICI Direct 7-May"},{date:"1-Jul-26",cmp:1532.10,source:"Yahoo Finance"}],
+  "sansera":     [{date:"16-May-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:2819.40,source:"IndMoney"},{date:"1-Jul-26",cmp:3165.10,source:"Yahoo Finance"}],
+  "rossell":     [{date:"16-May-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:725.40,source:"Kotak Neo"},{date:"1-Jul-26",cmp:963.70,source:"Yahoo Finance"}],
+  "ssw":         [{date:"16-May-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:230.02,source:"Yahoo Finance"},{date:"1-Jul-26",cmp:246.98,source:"Yahoo Finance"}],
+  "wheels":      [{date:"16-May-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:1677.50,source:"Bajaj Finserv"},{date:"1-Jul-26",cmp:1613.50,source:"Yahoo Finance"}],
+  "accent":      [{date:"16-May-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:425.25,source:"Motilal Oswal (data quality flagged)"},{date:"1-Jul-26",cmp:496.30,source:"Yahoo Finance ACCENTMIC-SM.NS"}],
+  "haleos":      [{date:"16-May-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:1300.00,source:"Investing.com"},{date:"1-Jul-26",cmp:1642.30,source:"Yahoo Finance"}],
+  "anupam":      [{date:"16-May-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:1370.30,source:"Tickertape 26-May"},{date:"1-Jul-26",cmp:1270.50,source:"Yahoo Finance"}],
+  "astec":       [{date:"16-May-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:777.25,source:"ScanX"},{date:"1-Jul-26",cmp:713.65,source:"Yahoo Finance"}],
+  "epl":         [{date:"16-May-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:221.55,source:"IndMoney"},{date:"1-Jul-26",cmp:227.26,source:"Yahoo Finance"}],
+  "aimtron":     [{date:"late-Apr-26",cmp:1098.00,source:"Tradebrains post-FY26"},{date:"9-Jun-26",cmp:1257.90,source:"Kotak Neo 2-Jun"},{date:"1-Jul-26",cmp:1234.95,source:"Yahoo Finance"}],
+  "concord":     [{date:"16-May-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:2420.80,source:"Investing.com"},{date:"1-Jul-26",cmp:2844.45,source:"Yahoo Finance"}],
+  "avalon":      [{date:"16-May-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:1639.50,source:"Tickertape"},{date:"1-Jul-26",cmp:1795.30,source:"Yahoo Finance"}],
+  "syrma":       [{date:"16-May-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:1252.80,source:"Kotak Neo"},{date:"1-Jul-26",cmp:1421.60,source:"Yahoo Finance"}],
+  "netweb":      [{date:"16-May-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:4286.20,source:"Business Standard 8-Jun"},{date:"1-Jul-26",cmp:4507.90,source:"Yahoo Finance"}],
+  "aurion":      [{date:"16-May-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:813.05,source:"Tickertape (-7% day)"},{date:"1-Jul-26",cmp:856.55,source:"Yahoo Finance"}],
+  "datamatics":  [{date:"16-May-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:779.00,source:"Choice"},{date:"1-Jul-26",cmp:806.15,source:"Yahoo Finance"}],
+  "dcmshriram":  [{date:"21-May-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:1020.70,source:"Tickertape"},{date:"1-Jul-26",cmp:1014.00,source:"Yahoo Finance"}],
+  "mayur":       [{date:"19-May-26",cmp:615.20,source:"Business Standard"},{date:"9-Jun-26",cmp:733.65,source:"Bajaj Finserv"},{date:"1-Jul-26",cmp:851.50,source:"Yahoo Finance"}],
+  "insecticides":[{date:"21-May-26",cmp:null,note:"baseline"},{date:"9-Jun-26",cmp:714.15,source:"NSE 5-Jun"},{date:"1-Jul-26",cmp:656.25,source:"Yahoo Finance"}],
+  "kaveri":      [{date:"Apr/May-26",cmp:1041.00,source:"Groww/BS"},{date:"9-Jun-26",cmp:857.00,source:"BS 5-Jun"},{date:"1-Jul-26",cmp:888.70,source:"Yahoo Finance"}],
+  "eil":         [{date:"21-May-26",cmp:259.15,source:"ScanX close"},{date:"9-Jun-26",cmp:224.73,source:"NSE 1-Jun"},{date:"1-Jul-26",cmp:237.58,source:"Yahoo Finance"}],
+  "nitta":       [{date:"2-May-26",cmp:981.50,source:"IndMoney"},{date:"9-Jun-26",cmp:1447.05,source:"BS 8-Jun"},{date:"1-Jul-26",cmp:1722.40,source:"Yahoo Finance"}]
+};
+function getCmpHistory(id) { return CMP_HISTORY[id] || []; }
+function fmtRupee(n) { return "₹" + n.toLocaleString("en-IN", {minimumFractionDigits: 2, maximumFractionDigits: 2}); }
+function computeDelta(curr, prev) {
+  if (curr === null || prev === null) return null;
+  return ((curr - prev) / prev) * 100;
+}
 
 // ---------- Render functions ----------
 function getListingTag(listing) {
@@ -1336,6 +1467,18 @@ function renderCards(filteredStocks) {
     const stale = c.date.toLowerCase().includes("stale");
     const missing = c.cmp === "—";
     const pillClass = missing ? "cmp-missing" : (stale ? "cmp-stale" : "");
+    // Delta from previous refresh (last-vs-previous entry in history)
+    const hist = getCmpHistory(s.id);
+    let pillDelta = "";
+    if (hist.length >= 2) {
+      const [prev, curr] = [hist[hist.length-2], hist[hist.length-1]];
+      const d = computeDelta(curr.cmp, prev.cmp);
+      if (d !== null) {
+        const cls = d >= 0 ? "cmp-delta-up" : "cmp-delta-down";
+        const arrow = d >= 0 ? "▲" : "▼";
+        pillDelta = `<div class="cmp-delta ${cls}">${arrow} ${Math.abs(d).toFixed(1)}% vs ${prev.date}</div>`;
+      }
+    }
     return `
     <article class="stock-card" id="${s.id}">
       <div class="stock-card-header">
@@ -1348,6 +1491,7 @@ function renderCards(filteredStocks) {
             <div class="cmp-label">CMP</div>
             <div class="cmp-value">${c.cmp}</div>
             <div class="cmp-date">${c.date}</div>
+            ${pillDelta}
           </div>
           ${getBatchTag(s.batch)}
           ${getListingTag(s.listing)}
@@ -1370,6 +1514,26 @@ function renderCards(filteredStocks) {
         <div class="section"><h3>Near-Term Catalysts (6-18 mo)</h3><ul class="compact-list">${s.catalysts.map(c => `<li>${c}</li>`).join('')}</ul></div>
         <div class="section"><h3>Valuation Snapshot</h3><p>${s.valuation}</p></div>
         <div class="section"><h3>Margin-of-Safety View</h3><p>${s.mos}</p></div>
+        ${hist.length > 0 ? `
+        <div class="section">
+          <h3>📈 Price Trajectory (across refresh dates)</h3>
+          <table class="price-trajectory">
+            <thead><tr><th>Date</th><th>CMP</th><th>Δ vs prev</th><th>Source</th></tr></thead>
+            <tbody>${hist.map((h, i) => {
+              const prev = i > 0 ? hist[i-1] : null;
+              const d = prev ? computeDelta(h.cmp, prev.cmp) : null;
+              let delta = "—";
+              if (d !== null) {
+                const cls = d >= 0 ? "traj-delta-up" : "traj-delta-down";
+                const arrow = d >= 0 ? "▲" : "▼";
+                delta = `<span class="${cls}">${arrow} ${Math.abs(d).toFixed(1)}%</span>`;
+              }
+              const priceStr = h.cmp === null ? `<em style="color:#888;">${h.note || "no data"}</em>` : fmtRupee(h.cmp);
+              return `<tr><td>${h.date}</td><td>${priceStr}</td><td>${delta}</td><td style="font-size:11px;color:#5a6268;">${h.source || h.note || "—"}</td></tr>`;
+            }).join("")}</tbody>
+          </table>
+        </div>
+        ` : ""}
         <div class="changes-log">
           <h3>📋 Changes Since Baseline</h3>
           ${s.changes.map(ch => `<div class="change-entry"><span class="date">${ch.date}</span><div class="body">${ch.body}</div></div>`).join('')}
