@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Company Profile — Equity Watchlist</title>
 <meta name="robots" content="noindex,nofollow">
-<script src="https://cdn.jsdelivr.net/npm/marked@11.1.1/marked.min.js" integrity="sha384-zbcZAIxlvJtNE3Dp5nxLXdXtXyxwOdnILY4uNwXjhqQjJTQpQdVE2t8kIvbnA5RH" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@11.1.1/marked.min.js"></script>
 <style>
 :root { color-scheme: light; }
 * { box-sizing: border-box; }
@@ -117,10 +117,13 @@ if (!stock) {
 } else {
   fetch(`profiles/${stock}.md`, { cache: 'no-store' })
     .then(r => {
-      if (!r.ok) throw new Error('Not found');
+      if (!r.ok) throw new Error('HTTP ' + r.status);
       return r.text();
     })
     .then(md => {
+      if (typeof marked === 'undefined') {
+        throw new Error('marked.js failed to load');
+      }
       // Configure marked for GFM tables
       marked.setOptions({ gfm: true, breaks: false, headerIds: true });
       const html = marked.parse(md);
@@ -132,8 +135,10 @@ if (!stock) {
     .catch(err => {
       const el = document.getElementById('content');
       el.className = 'error';
-      el.innerHTML = `<h2 style="border:none;padding:0;color:#842029;">Profile for &ldquo;${stock}&rdquo; not found</h2>
-        <p>This analysis is still in progress or the stock symbol is incorrect.</p>
+      const msg = err && err.message ? err.message : 'unknown error';
+      el.innerHTML = `<h2 style="border:none;padding:0;color:#842029;">Profile for &ldquo;${stock}&rdquo; not available</h2>
+        <p>This analysis may still be in progress, the stock symbol may be incorrect, or a script failed to load.</p>
+        <p style="color:#888;font-size:13px;">Detail: ${msg}</p>
         <p><a href="index.html">← Return to dashboard</a></p>`;
     });
 }
