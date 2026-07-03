@@ -1278,13 +1278,16 @@ function getCmp(id) { return CMP_DATA[id] || { cmp: "—", date: "—", source: 
 // Maps stock id → profile symbol (used in profile.html?stock=SYMBOL).
 // Only listed IDs are "ready"; all others render the "in progress" state.
 const PROFILE_STATUS = {
-  "axiscades":  { ready: true, symbol: "AXISCADES", date: "3-Jul-2026" },
-  "azad":       { ready: true, symbol: "AZAD",      date: "3-Jul-2026" },
-  "dynamatic":  { ready: true, symbol: "DYNAMATIC", date: "3-Jul-2026" },
-  "anupam":     { ready: true, symbol: "ANUPAM",    date: "3-Jul-2026" },
-  "ssw":        { ready: true, symbol: "SSWL",      date: "3-Jul-2026" },
-  "paras":      { ready: true, symbol: "PARAS",     date: "3-Jul-2026" },
-  "rossell":    { ready: true, symbol: "ROSSELL",   date: "3-Jul-2026" }
+  "axiscades":  { ready: true, symbol: "AXISCADES",  date: "3-Jul-2026" },
+  "azad":       { ready: true, symbol: "AZAD",       date: "3-Jul-2026" },
+  "dynamatic":  { ready: true, symbol: "DYNAMATIC",  date: "3-Jul-2026" },
+  "anupam":     { ready: true, symbol: "ANUPAM",     date: "3-Jul-2026" },
+  "ssw":        { ready: true, symbol: "SSWL",       date: "3-Jul-2026" },
+  "paras":      { ready: true, symbol: "PARAS",      date: "3-Jul-2026" },
+  "rossell":    { ready: true, symbol: "ROSSELL",    date: "3-Jul-2026" },
+  "datamatics": { ready: true, symbol: "DATAMATICS", date: "3-Jul-2026" },
+  "kmew":       { ready: true, symbol: "KMEW",       date: "3-Jul-2026" },
+  "yash":       { ready: true, symbol: "YASH",       date: "3-Jul-2026" }
 };
 function getProfile(id) { return PROFILE_STATUS[id] || { ready: false }; }
 
