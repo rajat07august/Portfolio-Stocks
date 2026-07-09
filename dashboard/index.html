@@ -1365,7 +1365,7 @@ const PROFILE_STATUS = {
   "rajesh":     { ready: true, symbol: "RAJESH",     date: "3-Jul-2026" },
   "systematic": { ready: true, symbol: "SYSTEMATIC", date: "3-Jul-2026" },
   "kolte":      { ready: true, symbol: "KOLTE",      date: "3-Jul-2026" },
-  "deep":       { ready: true,  symbol: "DEEP", date: "4-Jul-2026", note: "v2 — transcript-grounded rewrite from 4 concalls (Q4FY26, Q3FY26, Q2FY26, Q1FY26) via Screener AI Summary endpoint" },
+  "deep":       { ready: true,  symbol: "DEEP", date: "4-Jul-2026", note: "v2 — transcript-grounded rewrite from 4 concalls (Q4FY26, Q3FY26, Q2FY26, Q1FY26) via Screener + tradebrains/scanx news corroboration" },
   "amic":       { ready: true,  symbol: "AMIC", date: "4-Jul-2026", note: "v2 — transcript-grounded rewrite from RHP + AR FY25 + AR FY24 + 4 half-yearly filings via pdf.js-in-Chrome" }
 };
 function getProfile(id) { return PROFILE_STATUS[id] || { ready: false }; }
