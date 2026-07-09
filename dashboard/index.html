@@ -1205,7 +1205,7 @@ const stocks = [
   { id: "amic", num: 47, name: "Amic Forging Ltd", listing: "sme", batch: 6,
     sector: "Auto Components & Forgings", conviction: "med",
     mcap: 2046, mcapDisp: "2,046", mcapSource: "Screener 4-Jul-26",
-    thesis: "50-year Chamaria family specialty-forging house; peer-best 30% OPM + 23.5% ROCE; Phase 1 ₹150 Cr capex commissioned 15-Jun-26. Rich 72x P/E — thin MoS.",
+    thesis: "50-yr Chamaria specialty forger (4 promoters: GL+Anshul+Manju+Rashmi); peer-best 30% OPM + 23.5% ROCE; Phase 1 ₹150cr capex commissioned 15-Jun-26; ₹96.88cr Warrant Issue FY25 (3-of-28 allottees are promoters at ₹1,211 = 350x their ₹4.74 cost basis). Rich 72x P/E — thin MoS.",
     tagline: "Bespoke Steel Forgings for Nuclear + Oil & Gas + Power + Cement | Ranchi | 50-yr Chamaria family",
     metrics: [
       {label: "Market Cap", value: "₹2,046 Cr", source: "Screener 4-Jul-26"},
@@ -1219,7 +1219,8 @@ const stocks = [
     valuation: "FY28E revenue ₹230cr @ 22% NPM = ~₹50cr NP × 45x P/E = ₹2,250cr mcap (base case +10%). Bull ₹65cr NP × 60x = ₹3,900cr (+91%). Weighted 2yr return ~+22%.",
     mos: "Thin MoS at CMP ₹1,771. Meaningful MoS only below ₹1,400. 0.5-1% starter portfolio fit; scale on drawdown to Phase 1 ramp visibility.",
     changes: [
-      {date: "4 Jul 2026", body: "Card + profile added. First profile in Sector 3 that is industrial-forgings dominant (vs auto-heavy Happy/SSWL). Screener data: Mcap ₹2,046 Cr, CMP ₹1,771, P/E 72.4x, ROCE 23.5%, ROE 16.8%, 57.96% rock-stable promoter across 6 half-years. Phase 1 ₹150cr expansion just commissioned 15-Jun-2026 per 30-May-26 press release. Peer-best 30% OPM. Data quality note: SME half-yearly reporting only, no public concalls; profile built on IR site scrape + Screener + BSE announcements."}] },
+      {date: "4 Jul 2026 (v2 rewrite)", body: "**Profile rewrite v2 — transcript-grounded.** Original 4-Jul draft was Screener + IR-scrape only. Rewrite fetched 7 primary docs (RHP 329pg, AR FY25 111pg, AR FY24 105pg, 4 half-yearly filings) via pdf.js-in-Chrome workaround (now codified in CLAUDE.md §4A). **Material corrections vs v1:** (a) Promoter group is FOUR members (added Manju Chamaria), (b) Independent Director Pravin Poddar added, (c) Original name 'Kali Mata Forging Pvt Ltd' (2007) → Amic 2020, (d) Registered office Kolkata not Ranchi, (e) **₹96.88 Cr Preferential Warrant Issue FY25** at ₹1,211 with 3-of-28 promoter allottees — this was missed entirely in v1, (f) Promoter cost of acquisition ₹4.74-₹12.17 vs CMP ₹1,771 = ~200-350x paper gain, zero shares sold — extraordinary conviction signal, (g) FY25 revenue actually declined -3.8% (₹126→₹121cr) — margin story not volume, (h) New subsidiary Amic Engg Tech Pvt Ltd incorporated 21-Feb-2025, (i) Historical capacity trajectory 6,300→12,600 MT with 84.88% peak utilization drove IPO decision. Delivery scorecard now grounded in AR verbatim quotes."},
+      {date: "4 Jul 2026 (v1 — SUPERSEDED)", body: "Original card + profile added (Screener + IR scrape, no concalls). Superseded by v2 rewrite same day after Rajat flagged the concall-first process violation."}] },
 
   { id: "deep", num: 46, name: "Deep Industries Ltd", listing: "mainboard", batch: 6,
     sector: "Oil & Gas Services", conviction: "med-high",
@@ -1363,8 +1364,8 @@ const PROFILE_STATUS = {
   "rajesh":     { ready: true, symbol: "RAJESH",     date: "3-Jul-2026" },
   "systematic": { ready: true, symbol: "SYSTEMATIC", date: "3-Jul-2026" },
   "kolte":      { ready: true, symbol: "KOLTE",      date: "3-Jul-2026" },
-  "deep":       { ready: true, symbol: "DEEP",       date: "4-Jul-2026" },
-  "amic":       { ready: true, symbol: "AMIC",       date: "4-Jul-2026" }
+  "deep":       { ready: false, symbol: "DEEP", date: "4-Jul-2026", note: "DRAFT — profile written without concalls; recovery in progress" },
+  "amic":       { ready: true,  symbol: "AMIC", date: "4-Jul-2026", note: "v2 — transcript-grounded rewrite from RHP + AR FY25 + AR FY24 + 4 half-yearly filings via pdf.js-in-Chrome" }
 };
 function getProfile(id) { return PROFILE_STATUS[id] || { ready: false }; }
 
