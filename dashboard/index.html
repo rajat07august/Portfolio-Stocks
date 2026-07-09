@@ -1202,6 +1202,25 @@ const stocks = [
       {date: "9 Jun 2026", body: "[THESIS WATCH] CMP ₹224.73 (NSE 1-Jun-26); Mcap ₹12,630 Cr — down ~13% from baseline ₹259.15 / ₹13,770. 52-wk H/L ₹267/₹163.55. P/E 20.38, P/B 54.14 (P/B looks misprinted in source — verify). The +219% Q3 PAT spike has not held up in the price; some giveback after the initial rally. Watch FY26 full-year results and Dangote execution milestones."},
       {date: "21 May 2026", body: "Baseline. Mcap ₹13,770 Cr per Screener via WS. CMP ₹259.15. Record OB ₹15,670 Cr; consultancy OB ATH ₹10,000 Cr. Q3 FY26 net sales +58.3% / PAT +219.3% YoY. Dangote Refinery ₹3,150 Cr win (Jan-26)."}] },
 
+  { id: "amic", num: 47, name: "Amic Forging Ltd", listing: "sme", batch: 6,
+    sector: "Auto Components & Forgings", conviction: "med",
+    mcap: 2046, mcapDisp: "2,046", mcapSource: "Screener 4-Jul-26",
+    thesis: "50-year Chamaria family specialty-forging house; peer-best 30% OPM + 23.5% ROCE; Phase 1 ₹150 Cr capex commissioned 15-Jun-26. Rich 72x P/E — thin MoS.",
+    tagline: "Bespoke Steel Forgings for Nuclear + Oil & Gas + Power + Cement | Ranchi | 50-yr Chamaria family",
+    metrics: [
+      {label: "Market Cap", value: "₹2,046 Cr", source: "Screener 4-Jul-26"},
+      {label: "P/E / P/B / Div Yield", value: "72.4x / 8.94x / 0.00%", source: "Screener"},
+      {label: "ROCE / ROE", value: "23.5% / 16.8%", source: "Screener"},
+      {label: "Promoter Holding", value: "57.96% (zero dilution 6 half-years)", source: "Screener"} ],
+    business: "Specialty steel-forgings maker since 2007 (50+ yr Chamaria family legacy via predecessor entity Associated Manufacture & Industries Corporation — hence AMIC). Products: forged + heat-treated + machined rounds/shafts/blanks/gear-couplings/flanges. Standards: AISI/BS/IS/DIN. Customers: Heavy Engg, Steel, Oil & Gas, Refineries, Nuclear/Hydro/Thermal Power, Cement, Sugar. Ranchi plant; MD Girdhari Lal Chamaria (50+ yr exp), son Anshul (WTD).",
+    thesisPoints: ["Peer-best 30% OPM + 23.5% ROCE among Castings & Forgings peers (AIA, Happy, PTC, Balu Forge).", "Phase 1 ₹150 Cr capex commissioned 15-Jun-2026 — capacity doubling for FY27-28 revenue ramp.", "Zero-debt balance sheet (₹6cr borrowings, ₹213cr equity) + zero dividend (100% reinvestment).", "Promoter 57.96% rock-stable across 6 half-years — no dilution during re-rating.", "Multi-industry customer base (nuclear/O&G/power/cement) cushions single-sector cyclicality."],
+    risks: ["72x P/E leaves thin MoS — better entry <₹1,400.", "SME multiple compression risk (retail-heavy, FII 0.15% / DII 0.56%).", "Capex Phase 1 ramp-up execution — FY27 revenue must cross ₹200cr to justify multiple.", "BSE compliance yellow flag — revised consolidated audit report filed 3-Jul-2026.", "Family succession still in transition (Anshul Chamaria taking over from father GL Chamaria).", "Data limits — SME half-yearly reporting only, no public concalls."],
+    catalysts: ["Phase 1 capex ramp-up to 65% utilisation FY27", "Nuclear/defence order announcements", "Phase 2 capex announcement (self-funded plausible)", "FY27 H1 results (Nov 2026) — first post-commissioning print", "Migration from BSE-SME to mainboard listing"],
+    valuation: "FY28E revenue ₹230cr @ 22% NPM = ~₹50cr NP × 45x P/E = ₹2,250cr mcap (base case +10%). Bull ₹65cr NP × 60x = ₹3,900cr (+91%). Weighted 2yr return ~+22%.",
+    mos: "Thin MoS at CMP ₹1,771. Meaningful MoS only below ₹1,400. 0.5-1% starter portfolio fit; scale on drawdown to Phase 1 ramp visibility.",
+    changes: [
+      {date: "4 Jul 2026", body: "Card + profile added. First profile in Sector 3 that is industrial-forgings dominant (vs auto-heavy Happy/SSWL). Screener data: Mcap ₹2,046 Cr, CMP ₹1,771, P/E 72.4x, ROCE 23.5%, ROE 16.8%, 57.96% rock-stable promoter across 6 half-years. Phase 1 ₹150cr expansion just commissioned 15-Jun-2026 per 30-May-26 press release. Peer-best 30% OPM. Data quality note: SME half-yearly reporting only, no public concalls; profile built on IR site scrape + Screener + BSE announcements."}] },
+
   { id: "deep", num: 46, name: "Deep Industries Ltd", listing: "mainboard", batch: 6,
     sector: "Oil & Gas Services", conviction: "med-high",
     mcap: 2974, mcapDisp: "2,974", mcapSource: "Screener 4-Jul-26",
@@ -1290,7 +1309,8 @@ const CMP_DATA = {
   "kaveri":      { cmp: "₹888.70",   date: "1-Jul-26", source: "Yahoo Finance (KSCL.NS)" },
   "eil":         { cmp: "₹237.58",   date: "1-Jul-26", source: "Yahoo Finance (ENGINERSIN.NS)" },
   "nitta":       { cmp: "₹1,722.40", date: "1-Jul-26", source: "Yahoo Finance (NITTAGELA.BO)" },
-  "deep":        { cmp: "₹465.00",   date: "4-Jul-26", source: "Screener (DEEPINDS)" }
+  "deep":        { cmp: "₹465.00",   date: "4-Jul-26", source: "Screener (DEEPINDS)" },
+  "amic":        { cmp: "₹1,771.20", date: "4-Jul-26", source: "Screener (AMIC Forging BSE 544037)" }
 };
 function getCmp(id) { return CMP_DATA[id] || { cmp: "—", date: "—", source: "—" }; }
 
@@ -1343,7 +1363,8 @@ const PROFILE_STATUS = {
   "rajesh":     { ready: true, symbol: "RAJESH",     date: "3-Jul-2026" },
   "systematic": { ready: true, symbol: "SYSTEMATIC", date: "3-Jul-2026" },
   "kolte":      { ready: true, symbol: "KOLTE",      date: "3-Jul-2026" },
-  "deep":       { ready: true, symbol: "DEEP",       date: "4-Jul-2026" }
+  "deep":       { ready: true, symbol: "DEEP",       date: "4-Jul-2026" },
+  "amic":       { ready: true, symbol: "AMIC",       date: "4-Jul-2026" }
 };
 function getProfile(id) { return PROFILE_STATUS[id] || { ready: false }; }
 
