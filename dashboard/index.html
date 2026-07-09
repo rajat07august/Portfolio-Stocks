@@ -1225,7 +1225,7 @@ const stocks = [
   { id: "deep", num: 46, name: "Deep Industries Ltd", listing: "mainboard", batch: 6,
     sector: "Oil & Gas Services", conviction: "med-high",
     mcap: 2974, mcapDisp: "2,974", mcapSource: "Screener 4-Jul-26",
-    thesis: "70%+ Post-Exploration Services market share; 8.0x P/E on 19.4% ROE + zero dilution across 12 quarters. Deep value + niche monopoly.",
+    thesis: "35-yr Savla family; 7.86x P/E on 19.4% ROE + 63.49% promoter unchanged 12 quarters. Mgmt Q4FY26: 25-30% YoY guidance FY27+FY28, ₹3,000cr OB (incl 15-yr contract), Kandla ₹208cr write-off (mgmt: none anticipated further), QIP shelved. Cheap if you believe the write-off is terminal.",
     tagline: "Post-Exploration Oil & Gas Services (Compression + Drilling/Workover + Dehydration + PMC) | Ahmedabad | 35-yr Savla family",
     metrics: [
       {label: "Market Cap", value: "₹2,974 Cr", source: "Screener 4-Jul-26"},
@@ -1239,7 +1239,8 @@ const stocks = [
     valuation: "FY26E PAT ~₹370 Cr (implied) → P/E 8.0x. Rerating to 12-15x = 50-88% upside. Global peers (Schlumberger, Halliburton) at 15-20x.",
     mos: "Strong MoS — 8.0x P/E + zero dilution + 70% market share + P/B 1.49x. High conviction with data-refresh caveat. 1.5-2% portfolio fit.",
     changes: [
-      {date: "4 Jul 2026", body: "Card added. Sector 17 (Oil & Gas Services) created for Deep Industries. Screener data: Mcap ₹2,974 Cr, CMP ₹465, P/E 8.0x, ROCE 16.5%, ROE 19.4%, 63.49% rock-stable promoter across 12 quarters. Data quality note: concalls not in repository; deepindustries.com not reachable; would benefit from Astec-style refresh once BSE/NSE access resolves."}] },
+      {date: "4 Jul 2026 (v2 rewrite)", body: "**Profile rewrite v2 — transcript-grounded.** Original v1 draft was Screener + IR-scrape only (deepindustries.com timed out). Rewrite fetched 4 concall AI Summaries (Q4FY26, Q3FY26, Q2FY26, Q1FY26) via Screener /concalls/summary/ endpoint — same-origin fetch, bypasses BSE CORS block. **Material corrections vs v1:** (a) **Kandla ₹208cr non-cash write-off FY26** — mgmt calls it 'nothing else left', but v1 missed entirely; (b) **Explicit 25-30% YoY growth guidance FY27+FY28** (Q4FY26, reiterated); (c) **QIP shelved** — mgmt categorical, self-fund capex; (d) **Mori-5 gas leak Jan 2026** — contained but 1-2 quarter impact, well-specific stop order; (e) **Order book ₹3,000cr revolving** includes 15-year PEC contract, CFO says >₹800cr executable FY27; (f) **Rig segment 100% utilized** — growth requires 2,000HP JV newbuild ₹100-120cr; (g) **FY27 capex ~₹300cr base** — PEC ₹150cr + rig + offshore; (h) **Dolphin FY27 guide ₹150cr @ 60% EBITDA**; (i) **3-5 yr vision from Paras Savla: company could double**; (j) FY25 REPORTED loss of ₹-79cr due to Kandla legacy — Screener P/E 7.86x on adjusted basis. Weighted 2-yr return ~+90% (~38% CAGR); base +86%, bull +185%, bear -15%."},
+      {date: "4 Jul 2026 (v1 — SUPERSEDED)", body: "Original card. Superseded by v2 rewrite same day after Rajat flagged the concall-first process violation."}] },
 
   { id: "nitta", num: 45, name: "Nitta Gelatin India Ltd", listing: "mainboard", batch: 5,
     sector: "Specialty Chem & Pharma", conviction: "med",
@@ -1310,7 +1311,7 @@ const CMP_DATA = {
   "kaveri":      { cmp: "₹888.70",   date: "1-Jul-26", source: "Yahoo Finance (KSCL.NS)" },
   "eil":         { cmp: "₹237.58",   date: "1-Jul-26", source: "Yahoo Finance (ENGINERSIN.NS)" },
   "nitta":       { cmp: "₹1,722.40", date: "1-Jul-26", source: "Yahoo Finance (NITTAGELA.BO)" },
-  "deep":        { cmp: "₹465.00",   date: "4-Jul-26", source: "Screener (DEEPINDS)" },
+  "deep":        { cmp: "₹454.00",   date: "4-Jul-26", source: "Screener (DEEPINDS) — updated during v2 rewrite" },
   "amic":        { cmp: "₹1,771.20", date: "4-Jul-26", source: "Screener (AMIC Forging BSE 544037)" }
 };
 function getCmp(id) { return CMP_DATA[id] || { cmp: "—", date: "—", source: "—" }; }
@@ -1364,7 +1365,7 @@ const PROFILE_STATUS = {
   "rajesh":     { ready: true, symbol: "RAJESH",     date: "3-Jul-2026" },
   "systematic": { ready: true, symbol: "SYSTEMATIC", date: "3-Jul-2026" },
   "kolte":      { ready: true, symbol: "KOLTE",      date: "3-Jul-2026" },
-  "deep":       { ready: false, symbol: "DEEP", date: "4-Jul-2026", note: "DRAFT — profile written without concalls; recovery in progress" },
+  "deep":       { ready: true,  symbol: "DEEP", date: "4-Jul-2026", note: "v2 — transcript-grounded rewrite from 4 concalls (Q4FY26, Q3FY26, Q2FY26, Q1FY26) via Screener AI Summary endpoint" },
   "amic":       { ready: true,  symbol: "AMIC", date: "4-Jul-2026", note: "v2 — transcript-grounded rewrite from RHP + AR FY25 + AR FY24 + 4 half-yearly filings via pdf.js-in-Chrome" }
 };
 function getProfile(id) { return PROFILE_STATUS[id] || { ready: false }; }

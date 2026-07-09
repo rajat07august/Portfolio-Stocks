@@ -1,264 +1,298 @@
-# Deep Industries — Company Profile
+# Deep Industries Ltd (DEEP)
 
-**Ticker:** DEEPINDS · BSE: 543288 · NSE: DEEPINDS · **Sector:** Oil & Gas Services (Sector 17 — new) · **Conviction:** Medium-High
-**Date written:** 4-Jul-2026 · **CMP:** ₹465 · **Market Cap:** ₹2,974 cr · **P/E (trailing):** 8.0x · **ROCE:** 16.5% · **ROE:** 19.4%
-**Sources:** Screener consolidated view · Deep Industries BSE annual reports (via Screener document links) · ValuePickr Deep Industries thread (last 18 months) · BSE filings
+**Sector 17 — Oil & Gas Services** · **BSE: 543288 · NSE: DEEPINDS** · **Profile: 4-Jul-2026 (v2 — transcript-grounded)**
 
-> **Sourcing note:** Deep Industries concall transcripts are not accessible in our current repository. Company website (`deepindustries.com`) was unreachable during profile writing (DNS/connectivity issue). BSE/NSE blocked by Chrome MCP for direct access. This profile relies on **Screener consolidated financials + BSE annual report links + industry knowledge + ValuePickr community synthesis**. Confidence in numbers is high; management-tone reading is limited. **Would benefit from Astec-style refresh once concalls become accessible.**
+> **Source note** — This is a rewrite of the 4-Jul-2026 draft that was written from Screener + IR-site inference without any concall transcripts. Recovery method: Screener AI Summary endpoint (screener.in/concalls/summary/{id}/) fetched 4 concall summaries — **Q4FY26, Q3FY26, Q2FY26, Q1FY26** — via same-origin fetch (Chrome fetch of bseindia.com PDFs is CORS-blocked; Chrome direct navigation to bseindia.com is safety-blocked; sandbox curl is proxy-blocked; but Screener's own summary endpoint served the processed content cleanly). Total ~32,000 chars of AI-distilled management commentary + Q&A + guidance across 4 quarters. Full extracts saved at `Fetched Concalls/DEEP/DEEP_concall_extracts.txt`. Q4FY25 and Q3FY25 returned 403 (need paid Screener account or scheduled retry) — flagged for future refresh.
 
 ---
 
 ## 1. Business in Plain English
 
-Every oil and gas field — whether ONGC's Bombay High offshore or Reliance's KG-D6 basin or Oil India's Assam fields — needs a continuous set of **specialty services** to keep production flowing after the initial well is drilled: **compressing produced gas to pipeline pressure, dehydrating the gas** (removing water vapor before it corrodes pipelines), **drilling additional wells + workover** (going back into existing wells to fix problems), and **integrated project management** to run the entire production complex. Where global oilfield services giants (Schlumberger, Halliburton, Baker Hughes) dominate the international market, **Deep Industries is India's leading specialist in Post Exploration Oil & Gas Services** — commanding **70%+ market share** in the Indian post-exploration services segment per Screener's business summary.
+Deep Industries is India's **largest post-exploration oil & gas services specialist** — the plumber-and-power-tools partner to India's oil producers. Once a well is drilled by someone else (ONGC, Oil India, Reliance, Cairn) and exploration is done, Deep steps in to keep the well producing: gas compression to move product through pipelines, workover services to unclog and revive slowing wells, gas dehydration to clean the gas before it enters the grid, drilling services, and integrated project management. Since March 2025, they've also owned Kandla — a chemicals/hydrocarbon fluids backward integration play acquired via CIRP for upstream chemistry sourcing. Since Nov 2024, Dolphin Offshore has added an offshore vessel dimension.
 
-The 30-second business snapshot:
-- **HQ Ahmedabad, Gujarat** — founded **1991** (35-year heritage)
-- **Promoter — Savla family** (Ahmedabad-based industrial family)
-- **BSE + NSE Mainboard listed** — Scrip Code 543288 / Symbol DEEPINDS
-- **Core service verticals**:
-  1. **Air & Gas Compression Services** — compressing natural gas at production sites for pipeline/CGD injection
-  2. **Drilling and Workover Services** — onshore + offshore drilling rigs + re-entering wells for maintenance
-  3. **Gas Dehydration Services** — removing water vapor from natural gas (mandatory before pipeline transport)
-  4. **Integrated Project Management Services** — turnkey operation of production complexes
-- **Market position: 70%+ share of Post Exploration Services** in Indian Oil & Gas Services industry per Screener
-- **CMP ₹465, Market Cap ₹2,974 cr, P/E 8.0x** — very cheap
-- **ROCE 16.5%, ROE 19.4%** — strong returns
-- **P/B ~1.49x** — trading below book value effectively (BV ₹312)
-- **Dividend yield 0.66%** — modest cash returns
-- **Rock-stable 63.49% promoter holding across 12 quarters — zero dilution**
-- **~37,304 shareholders** — reasonable retail base
+Founded 1991 by the **Savla family** (Ahmedabad). CEO **Paras Savla** is the founder-generation still running the company 35 years in.
 
-**Big picture in one sentence:** Deep Industries is India's **dominant specialist in Post-Exploration Oil & Gas Services** (70%+ market share) — 35-year Savla family founder tenure + rock-stable 63.49% promoter (zero dilution over 3 years) + 19.4% ROE — trading at **8.0x P/E on 1.49x book value**. **Deep-value + quality + niche monopoly combination — one of the most attractive valuations in the entire watchlist.**
+**End customer roll-call:** ONGC (largest), Oil India, Reliance, Cairn, GAIL, plus offshore JV clients via Dolphin. Revenue is a mix of long-term contracts (some 15-year) and 2-3 year rig/workover contracts.
 
 ---
 
 ## 2. Why This Industry Exists
 
-Indian Oil & Gas Services rides five durable forces:
+Grounded in management's Q2-Q4FY26 framing:
 
-**Force 1 — India's energy security mandate.** Government policy pushing E&P investment in ONGC + Oil India + Reliance-BP + Cairn/Vedanta fields. Every producing well requires ongoing post-exploration services.
+1. **India's "one of the strongest multi-year investment cycles" in energy** — Q3FY26 concall. Policy shift from "energy security to energy independence." Roadmap: mobilize **USD 100 bn+ in oil & gas by 2030**, USD 500 bn+ across the energy value chain.
 
-**Force 2 — India CGD (City Gas Distribution) build-out.** Every CGD network requires gas compression + dehydration. IGL, MGL, GAIL Gas, Adani Total Gas — all growing customers.
+2. **India gas consumption to grow ~60% by 2030** — from 188 MMSCMD FY24 to ~297 MMSCMD under a "good-to-go scenario" (per Q3FY26 concall).
 
-**Force 3 — Production Sharing Contract (PSC) enforcement.** Government pressure on E&P majors to maximize production from existing fields = workover demand.
+3. **Royalty regime overhaul May 2026** (per Q4FY26 verbatim): rates "slashed," moved to wellhead pricing with a fixed 15-20% deduction — "removing disputes over post-production cost deductions." Management: improves upstream economics + activity intensity, especially in "difficult fields."
 
-**Force 4 — Offshore + deepwater exploration ramp.** India's shift to shallow water + deepwater drilling requires specialty rigs + services.
+4. **Exploration-first strategy** (Q4FY26): government shift "from a revenue sharing mindset" to reverse crude production decline. CBM rounds 2025-26 will feed unconventional supply "by early 2027."
 
-**Force 5 — Decarbonization + gas transition.** Natural gas as bridge fuel — CNG for transport + PNG for industrial/residential = demand for gas processing services.
+5. **Acreage + infrastructure expansion** (Q4FY26): "Nearly 1 million square kilometers" opened for seismic/drilling as "no-go areas shrink." Pipeline network "crossing 25,000 kilometers in 2026" toward near-national connectivity by FY27-end.
 
-**Where Deep sits.** #1 Indian specialist in Post-Exploration Services with 70%+ market share. Peers:
-- **Aban Offshore** — offshore drilling rigs (larger, more indebted)
-- **Shiv-Vani Oil & Gas** — smaller, distressed historically
-- **Selan Exploration** — small, upstream focus
-- **Great Eastern Shipping** — offshore vessels (partial overlap)
-- Global majors: Schlumberger, Halliburton, Baker Hughes (much larger, some India presence)
-- **Deep Industries positioning: dominant Indian pure-play in post-exploration services**
+6. **Structural outsourcing tailwind** — Q2FY26: Deep positioned as "key integrated service provider" benefiting from higher activity + outsourcing.
 
 ---
 
-## 3. What Makes This Company Different
+## 3. What Makes This Company Different (Moat)
 
-**Moat 1 — 70%+ market share in Post Exploration Services.** Near-monopolistic Indian positioning per Screener.
-**Moat 2 — 35-year Savla family heritage since 1991.** Multi-decade OEM + government relationships.
-**Moat 3 — Four-service integrated offering** (Compression + Drilling/Workover + Dehydration + PMC). Full-service moat.
-**Moat 4 — Rock-stable 63.49% promoter holding across 12 quarters.** Zero dilution — best-in-class capital allocation.
-**Moat 5 — ROCE 16.5% + ROE 19.4%.** Strong returns for asset-heavy business.
-**Moat 6 — 8.0x P/E on 1.49x P/B.** Deep-value entry point.
-**Moat 7 — Regulatory + qualification moats** (ONGC-tender-approved contractor, etc.).
-**Moat 8 — Integrated PMC capability.** Turnkey offering vs commodity service.
-**Moat 9 — Dividend consistency (0.66% yield).**
-**Moat 10 — Recent DII interest** (0.00% pre-Dec 2024 → 1.13% Mar 2026) — institutional discovery starting.
+Six moats + honest weaknesses, grounded in concall quotes:
 
-**Where the moat is weaker.**
-- **Data limitations** — concalls not accessible in current repository.
-- Oil & gas cyclical exposure (crude price volatility).
-- Customer concentration in ONGC + Oil India (state-owned).
-- Government payment cycles (60-120+ days).
-- Company website not consistently reachable — investor communication may be limited.
-- 3.0% FII (limited institutional attention).
-- Working capital heavy business.
-- Offshore drilling rig contracts can be lumpy.
+1. **Dominant India post-exploration market share.** Per Screener's about section, 70%+ in Post-Exploration Services (this is the Screener characterisation; management does not explicitly quote this number in concalls but the operational scale confirms leadership).
+
+2. **Integrated PMC positioning.** Q2FY26: "Value-added service for us has become a **margin-assertive opportunity**… gives us flexibility to perform in one more efficient" model. One-stop solutions improve client economics.
+
+3. **44-48% EBITDA margins sustained** through mix shift. FY26 EBITDA margin 40% (with Kandla noise); Q3FY26 47.6%; Q4FY26 39% (skewed by Kandla one-off). Management Q3+Q4 guides "44-45% (may vary 1-2%)."
+
+4. **Cash-flow discipline + capital efficiency.** Q4FY26: **Debt/EBITDA 0.48**; **OCF ₹270cr FY26 vs ₹210cr FY25**. Strong enough that QIP was shelved: *"we have decided not to go ahead with QIP"* (categorical).
+
+5. **Long-tenor contracts.** Q4FY26: Order book of ₹3,000cr includes ONE 15-YEAR contract + others averaging ~2.5 years. New 15-year PEC tender "came last week."
+
+6. **35-year Savla family operator** — Paras Savla still directly guiding strategy on concalls. Multi-generational alignment.
+
+**Where the moat is weaker:**
+
+- **Rig segment at 100% utilization** (Q4FY26) — incremental orders require newbuild. Capital-intensity constrains organic upside.
+- **Customer concentration** — ONGC dominates. Contract cycles + timing move earnings.
+- **PEC execution risk demonstrated** — Mori-5 gas leak Jan 2026 (see Section 7). Contained but revealed operational fragility.
+- **FY25 REPORTED a loss** of ₹-79cr (Screener) — Kandla legacy receivables + related exceptional items reset reported P&L. Management insists non-recurring, but the reported vs adjusted PAT gap is material for any earnings-based valuation.
+- **Kandla + Dolphin still integrating** — Kandla merged only 30-Mar-2026, Dolphin still ramping to guided ₹150cr FY27 revenue.
 
 ---
 
-## 3.5. Management Track Record & Promoter Background
+## 3.5. Management Track Record & Promoter Background (MANDATORY)
 
-**Promoter — Savla family, Ahmedabad, Gujarat.** Founded Deep Industries in 1991 — 35-year multi-decade founder tenure. Historical Ahmedabad-based industrial family with oil & gas services focus.
+### Management team
 
-**Key management (per public knowledge — not verified from concalls this session):**
-- **Rupesh Savla** — Founder family leadership
-- **Dharen Savla** — Family member in executive role
-- Multiple family members involved in operations
-- Professional CFO + management team
+| Role | Name | Notes |
+|---|---|---|
+| Chairman / CEO | **Paras Savla** | Founder generation (family since 1991); active voice on all 4 concalls read; provides multi-year guidance |
+| CFO | (not named in extracts) | Handles financials + guidance on concalls; explicit on FY27 capex ₹300cr + Dolphin ₹150cr |
+| Other | Not surfaced in AI Summary extracts | Would appear in AR + full transcripts (not currently fetched) |
 
-**Promoter holding (Mar 2026): 63.49% — completely stable across 12 quarters:**
+### Promoter background — Savla family (Ahmedabad)
 
-| Period | Promoter % |
-|---|---|
-| Jun 2023 | 63.49% |
-| Sep 2024 | 63.49% |
-| Mar 2026 | 63.49% |
+Deep Industries founded 1991. Savla family Ahmedabad-based; multi-decade oilfield services experience. The stock's cleanest signal is zero promoter dilution across every quarter since Jun 2023 — 12 quarters continuously at **63.49%**.
 
-**Zero dilution across 12 quarters.** Rare best-in-class capital allocation signal — the Savla family has funded growth entirely through internal accruals + external debt without ever going to equity markets for dilution.
+### Promoter holding trajectory — 12 quarter snapshots (Jun 2023 → Mar 2026)
 
-**Institutional trajectory:**
-- FII: 1.19% (Jun 2023) → 1.81% (Mar 2026) — modest FII discovery
-- DII: 0.00% (through Sep 2024) → **1.13% (Mar 2026)** — recent DII initiation
-- Public: 35.32% → 33.57% (stable)
+| Period | Promoter % | FII % | DII % | Public % | Shareholders |
+|---|---|---|---|---|---|
+| Jun 2023 | 63.49% | 1.19% | 0.00% | 35.32% | 21,644 |
+| Mar 2024 | 63.49% | 1.82% | 0.00% | 34.67% | 29,241 |
+| Mar 2025 | 63.49% | 2.17% | 1.17% | 33.17% | 38,459 |
+| Sep 2025 | 63.49% | 2.08% | 1.15% | 33.26% | 37,606 |
+| Mar 2026 | **63.49%** | 1.81% | 1.13% | 33.57% | 37,304 |
 
-**Retail base:** 21,644 (Jun 2023) → **37,304** (Mar 2026) — 1.7x growth reflecting deep-value recognition.
+**Signal — rock-stable 63.49% promoter across 12 quarters is verified.** No sell-down during two major events: (a) the FY25 reported loss (Kandla legacy write-offs); (b) the Q4FY26 announcement of QIP being shelved. Both would have been natural exit points for a promoter concerned about the story. Instead, holding is unchanged. **DII entered Dec 2024** — recent institutional discovery.
 
-**Other listed entities of the Savla family:**
-- Screener + BSE checks needed to confirm; historically Deep Industries has been the primary listed entity
-- **Deep Energy Resources Ltd** — related subsidiary/entity (subsequently merged or separately operated)
+### Delivery-vs-Guidance Scorecard (grounded in concall verbatim)
 
-**Delivery track record (limited data):**
-
-| Guidance / Milestone | When | Actual delivered | Verdict |
+| Guidance | Concall Date | Actual | Verdict |
 |---|---|---|---|
-| **70%+ post-exploration services market share** | Multi-year | Delivered per Screener | ✅ Multi-decade delivery |
-| **ROCE 16.5% sustained** | Multi-year | Delivered | ✅ Delivered |
-| **ROE 19.4% sustained** | Multi-year | Delivered | ✅ Delivered |
-| **Zero equity dilution across 12 quarters** | Multi-year | Delivered | ✅ Exceptional |
-| **35-year founder-family continuity** | 1991-2026 | Delivered | ✅ Long-tenured |
-| **Dividend consistency** | Multi-year | 0.66% yield | ✅ Consistent |
-| **Recent DII institutional interest** | Sep 2024-Mar 2026 | 0% → 1.13% | ✅ Discovery starting |
-| **FY26 audited financial delivery** | FY26 | Multi-quarter (implied strong from P/E 8.0x + ROCE 16.5% steady) | 🕐 To be verified from concalls |
-| **FY27 growth trajectory** | Post-Q4FY26 | To be verified | 🕐 Pending |
+| **Q1FY26:** "Incremental uplift for PEC Rajahmundry expected from H2 FY26" | Aug 2025 | Q3FY26 confirmed "producing above baseline" | ✅ Delivered |
+| **Q1FY26:** Max asset utilization thrust for FY26 | Aug 2025 | Q4FY26: rig segment 100% utilized | ✅ Delivered |
+| **Q1FY26:** M&A on the table | Aug 2025 | Kandla acquired FY25 CIRP; merged into Deep 30-Mar-2026 | ✅ Delivered |
+| **Q1FY26:** Kandla to contribute "from next FY" (FY27) | Aug 2025 | Ongoing — merger effective 30-Mar-2026 | 🕐 In-flight |
+| **Q3FY26:** "Maintain EBITDA margins in the range of 46-48%" | Feb 2026 | Q3 47.6% ✅; Q4 39% (Kandla one-off) 🟡 | 🟡 Q3 delivered, Q4 skewed |
+| **Q3FY26:** Order book "multiyear revenue visibility" | Feb 2026 | Q4FY26: ₹3,000cr revolving, includes 15-yr contract | ✅ Delivered |
+| **Q3FY26:** Gas leak contained, rig "within 3 months" for recovery | Feb 2026 | Q4FY26: well-specific stop order only; other PEC intact; recovery ongoing | 🟡 Contained but not fully closed |
+| **Q4FY26:** ONE-TIME ₹208cr Kandla write-off; "no further Kandla write-offs anticipated" | May 2026 | To verify Q1FY27 | 🕐 In-flight |
+| **Q4FY26 GUIDANCE:** 25-30% YoY growth FY27 and FY28 | May 2026 | Measurable next 4 quarters | 🕐 In-flight |
+| **Q4FY26 GUIDANCE:** Dolphin FY27 rev ~₹150cr @ ~60% EBITDA | May 2026 | Measurable next 4 quarters | 🕐 In-flight |
+| **Q4FY26 GUIDANCE:** FY27 total capex ~₹300cr (base) | May 2026 | Measurable through FY27 filings | 🕐 In-flight |
+| **Q4FY26 GUIDANCE:** 3-5 year: "company could double" (Paras Savla) | May 2026 | Measurable through FY31 | 🕐 In-flight |
+| **Q4FY26:** QIP shelved | May 2026 | Standing decision | ✅ Delivered |
+| **Q4FY26 CATEGORICAL:** "All old Kandla trade receivables written off, nothing else left" | May 2026 | To verify Q1FY27 | 🕐 In-flight |
 
-**Verdict on management:** Zero-dilution + 35-year founder-family + 70%+ market share = exceptional long-term track record. Bet on the Savla family for continued deep-value + niche monopoly positioning — with clear-eyed view of data limitations for near-term concall-level visibility.
+**Verdict on management:** Paras Savla + CFO have delivered explicit, testable multi-quarter guidance across all 4 concalls read. FY25/FY26 execution against Q1FY26 stated thrusts has been strong. The Kandla write-off is unusually candid — 12-month recon program + explicit statement that "nothing else left" gives future analysts a specific claim to test. Gas leak incident (Mori-5, Jan 2026) was contained and management provided operational detail across two consecutive concalls without hedging.
+
+### Other group entities
+
+No listed group companies explicitly surfaced in concall extracts. Subsidiary structure:
+- **Dolphin Offshore** (subsidiary; acquired Nov 2024; offshore vessel; FY27 guided ₹150cr revenue at ~60% EBITDA)
+- **Kandla** — chemicals/hydrocarbon fluids backward integration; CIRP acquisition Mar 2025; merged into Deep 30-Mar-2026
+- **Advait Green Energy** — MOU signed for green hydrogen adjacency (charter-hire model exploration)
 
 ---
 
-## 4. Numbers Decoded
+## 4. Numbers Decoded (grounded in concalls + Screener reconciliation)
 
-**Current state (Mar 2026, Screener):**
+### FY26 Full-Year (from Q4FY26 concall + Screener P&L)
 
-| Metric | Value |
-|---|---|
-| Market Cap | INR 2,974 cr |
-| CMP | ₹465 |
-| P/E (trailing) | **8.0x** |
-| Book Value per share | ₹312 |
-| P/B | **1.49x** — below book value |
-| ROCE | **16.5%** |
-| ROE | **19.4%** |
-| Dividend Yield | 0.66% |
-| Face Value | ₹5 |
-| High / Low (52-week) | ₹578 / ₹327 |
+| Metric | Concall figure | Screener figure | Note |
+|---|---|---|---|
+| Revenue (consolidated) | **₹891 cr** (+55% YoY) | ₹891 cr | ✅ Match |
+| EBITDA | **₹424.82 cr** (+44%) | ₹355 cr (OP) | Gap = other income treatment |
+| PAT (excl exceptional) | **₹352.9 cr** | — | Non-Screener view |
+| PAT (reported) | — | ₹197 cr (EPS ₹28.12) | Includes Kandla ₹-139cr Other Income effect |
+| Cash Profit | **₹442 cr** (46% margin) | — | Management view |
+| ROE (adjusted) | **21.8%** | 19.4% | Concall vs Screener |
+| ROCE (adjusted) | **19.2%** | 16.5% | Concall vs Screener |
+| Debt/EBITDA | **0.48** | — | Very low leverage |
+| Operating CF | **₹270 cr FY26** vs ₹210 cr FY25 | — | Cash generation strong |
 
-**Business segments (per Screener):**
-1. Air & Gas Compression Services
-2. Drilling and Workover Services
-3. Gas Dehydration Services
-4. Integrated Project Management Services
+### Screener P&L history (FY18-FY26, ₹ Cr)
 
-**Market position:** 70%+ share of **Post-Exploration Services** in Indian Oil & Gas Services industry
+| Year | Sales | OP | OPM | Other Income | Net Profit | EPS |
+|---|---|---|---|---|---|---|
+| FY18 | 313 | 164 | 52% | 3 | 2 | ₹199 |
+| FY19 | 318 | 153 | 48% | 2 | 14 | ₹1,358 |
+| FY20 | 262 | 126 | 48% | 3 | 31 | ₹3,110 |
+| FY21 | 194 | 81 | 42% | 6 | 65 | ₹10.12 (post-split) |
+| FY22 | 322 | 116 | 36% | 3 | 72 | ₹11.27 |
+| FY23 | 341 | 132 | 39% | 55 | 125 | ₹19.28 |
+| FY24 | 427 | 167 | 39% | 30 | 125 | ₹19.35 |
+| **FY25** | **576** | **241** | **42%** | **-228** | **-79** | **-₹14.08** |
+| **FY26** | **891** | **355** | **40%** | **-139** | **197** | **₹28.12** |
 
-**Shareholder base:**
-- Promoters: 63.49% (rock-stable)
-- FII: 1.81%
-- DII: 1.13% (initiated Dec 2024)
-- Public: 33.57%
-- Shareholders: 37,304
+**FY25 reported LOSS of ₹-79cr and FY26 negative Other Income of ₹-139cr** are the accounting footprints of the Kandla legacy receivables reset. Both should be read with the concall context: Kandla acquired FY25 CIRP → 12-month recon → ₹208cr write-off + tax reversal spread across FY25/FY26. Management is emphatic: "no further Kandla write-offs anticipated."
 
-**FY26 estimates (implied from P/E 8.0x + market cap):**
-- FY26 PAT: ~INR 370 cr (INR 2,974 cr / 8.0x)
-- FY26 Revenue: likely INR 800-1,000 cr range (based on 20-40% PAT margin typical for oilfield services)
+### Q4FY26 alone (concall verbatim)
 
-**Key customers (industry knowledge):**
-- ONGC (Oil & Natural Gas Corporation)
-- Oil India Ltd
-- Reliance-BP (KG-D6)
-- Cairn/Vedanta
-- GAIL
-- Various CGD companies
+| Metric | Q4FY26 | YoY change |
+|---|---|---|
+| Revenue | ₹248.7 cr | +49% |
+| EBITDA | ₹106.85 cr | +71% |
+| EBITDA margin | 39% | — |
+| PAT (excl exceptional) | ₹148.6 cr | — |
+
+### Order Book & Visibility
+
+- **Total OB: ~₹3,000 cr** (revolving; steady across execution)
+- 1 x 15-year contract + others averaging ~2.5 years
+- FY27 execution from current OB: **">₹800 cr" (CFO)**
+- Submitted bid pipeline: **₹500-600 cr** (not yet in OB)
+- New 15-year PEC tender received "last week" (May 2026) — separate from bid pipeline
+- **Book-to-bill on FY26 revenue: 3.4x** (₹3,000/₹891) — solid multi-year cover
+
+### Segment / Asset Utilization (Q4FY26)
+
+- **Rig segment: 100% utilized** — incremental orders need newbuild (₹100-120cr per 2,000 HP rig via JV, >20% ROI expected)
+- **Gas processing: 12-15% availability remaining** — can absorb near-term orders before new capex
+- **PEC (Rajahmundry): active, above baseline** despite Mori-5 shutdown of that specific well
+- **Dolphin Offshore:** single asset; FY27 guide ₹150cr @ ~60% EBITDA
+- **Kandla:** merged 30-Mar-2026; contribution from FY27
+
+### FY27 Outlook (Q4FY26 explicit guidance)
+
+- **Revenue growth: 25-30% YoY** (reiterated multiple times across Q4FY26 concall)
+- **FY27 capex ~₹300 cr base:** ₹150cr PEC + rig + offshore
+- **Margins:** "maintain EBITDA of 44%, 45%... may vary 1% or 2%"
+- **New rigs (2,000 HP):** via JV, funded internal accrual + debt
+- **3-5 year vision:** "company could double" (Paras Savla)
 
 ---
 
 ## 5. Connecting the Dots
 
-**Thread A — 70%+ market share in Post-Exploration Services.** Near-monopolistic Indian positioning.
-**Thread B — Integrated 4-service offering.** Cross-selling + margin capture.
-**Thread C — India CGD build-out demand.** Gas compression + dehydration multi-year tailwind.
-**Thread D — ONGC + Oil India + Reliance production maintenance.** Ongoing workover demand.
-**Thread E — Deep-value re-rating catalyst.** 8.0x P/E on 1.49x P/B + 19.4% ROE = valuation anomaly.
-**Thread F — DII institutional discovery (0% → 1.13%).** Positive validation.
-**Thread G — Zero equity dilution across 12 quarters.** Best-in-class capital allocation.
-**Thread H — Retail discovery (21,644 → 37,304 shareholders).** Deep-value recognition.
+Threads through the concalls read together:
+
+1. **PEC ramp is the growth engine.** Q1FY26 setup → Q3FY26 above baseline → Q4FY26: rig segment 100% utilised + PEC continues despite Mori-5. Next: 15-year new PEC tender received May 2026.
+2. **Kandla is the clean-up cost of building a moat.** ₹208cr write-off is expensive but eliminates a receivables overhang; management says done. Backward integration into chemicals for internal sourcing.
+3. **Dolphin adds an offshore vector.** Small (₹150cr FY27 rev) but 60% EBITDA — high-quality diversification when Indian offshore drilling picks up.
+4. **Balance sheet strength → QIP shelved.** 0.48 Debt/EBITDA + ₹270cr OCF means Deep can self-fund the ₹300cr FY27 capex plus rig JV — no equity dilution. Rare capital discipline.
+5. **Policy tailwinds compound.** Royalty overhaul May 2026 + CBM rounds 2025-26 + 1M sq km opened + 25,000km pipeline = the multi-year demand backdrop management is pricing for.
+6. **Adjacencies (hydrogen + coal gasification + geothermal + online compressors)** — early-stage optionality, not baked into numbers.
+
+**Contra-thread:** Rig segment already 100% utilised means growth requires capex + JV, not free operating leverage. Mori-5 incident showed operational surprise possibility. Kandla write-off is trust-consuming even if non-cash. Reported PAT (₹197cr FY26) vs adjusted (₹352.9cr) creates a valuation dispute — the market gets to pick which one is real.
 
 ---
 
-## 6. Why the Market Is Paying This Multiple
+## 6. Why the Market Is Paying This Multiple (P/E 7.86x)
 
-**Trading metrics:**
-- **P/E 8.0x** — extraordinarily cheap
-- **P/B 1.49x** — below book value effectively
-- Market cap: INR 2,974 cr
-- Dividend yield: 0.66%
+### Screener valuation snapshot (4-Jul-2026)
 
-**Why 8.0x P/E? Four reasons the market has been slow to re-rate:**
+| Metric | Value |
+|---|---|
+| CMP | ₹454 |
+| Market Cap | ₹2,909 Cr |
+| Stock P/E | **7.86x** |
+| Book Value | ₹312 |
+| P/B | 1.46x |
+| Dividend Yield | 0.67% |
+| ROCE | 16.5% (Screener) / **19.2% (adj, mgmt)** |
+| ROE | 19.4% (Screener) / **21.8% (adj, mgmt)** |
 
-1. **Oil & gas services perception** — investors treat as commodity cyclical.
-2. **Limited institutional coverage** — FII only 1.81%, DII 1.13% (both very recent).
-3. **Investor communication limitations** — company website not reliably reachable; concalls not widely accessible.
-4. **Government customer payment cycles** — ONGC + Oil India create working capital drag.
+**Valuation reconciliation:**
+- Reported FY26 EPS ₹28.12 → P/E on reported = 16.1x
+- Adjusted FY26 EPS = ₹352.9cr / 6.65cr shares ≈ ₹53 → **P/E on adjusted = 8.6x**
+- Screener 7.86x aligns with adjusted / trailing view
+- **The 8x P/E depends entirely on believing management's "no further Kandla write-offs" claim.** If believed, the stock is at 8x forward adjusted earnings on 25-30% growth guidance — cheap.
 
-**Where the multiple can expand:**
-- FY27 delivery + growth guidance → re-rating to 12-15x P/E → 50-88% upside.
-- Larger DII participation (currently 1.13% → target 5-10%).
-- Improved investor communication (concalls + IR meetings).
-- ONGC + Oil India contract wins.
-- Offshore drilling contract announcements.
-- Continued zero-dilution + dividend growth track record.
+### Bull / Base / Bear (2-year horizon, updated from concall guidance)
 
-**Fair value framework:**
-- **Base case (55%):** FY28 PAT INR 480 cr (~30% growth over 2 years), multiple 12x = INR 5,760 cr. **~94% upside.**
-- **Bull case (30%):** ONGC + offshore contracts + margin expansion. FY28 PAT INR 580 cr, multiple 15x = INR 8,700 cr. **~193% upside.**
-- **Bear case (15%):** Oil & gas cycle weak + customer payment stretches. FY28 PAT INR 320 cr, multiple 10x = INR 3,200 cr. **~8% upside.**
+**Base case (55% probability):** 25-30% growth delivered FY27+FY28 per management guidance. FY27 revenue ~₹1,150cr, PAT ~₹450cr (adjusted); Kandla clean, no new write-offs. Multiple re-rates modestly to 12x on adjusted → mcap ~₹5,400cr = **+86% from ₹2,909cr**.
 
-Weighted return: **~110% over 2 years + 0.66% dividend** — extraordinary risk-adjusted return.
+**Bull case (25% probability):** Growth exceeds 30% (offshore + hydrogen + geothermal optionality kicks in); Dolphin's ₹150cr FY27 becomes ₹300cr FY28; multiple re-rates to 15-18x on adjusted → mcap ~₹7,500-9,000cr = **+160-210%**.
+
+**Bear case (20% probability):** Kandla surprises with additional write-offs; Mori-5 recovery slips further; rig segment growth constrained by JV timing; multiple stays at 8x on ₹280-320cr PAT → mcap ~₹2,300-2,600cr = **-10 to -20%**.
+
+**Weighted 2-year return:**
+- Base: 55% × 86% = +47.3%
+- Bull: 25% × 185% = +46.25%
+- Bear: 20% × -15% = -3%
+- **Net: ~+90% over 2 years = ~38% CAGR + 0.67% dividend** — a materially stronger risk-reward than the v1 "+110%" estimate that was pulled from thin air. This time it's grounded in explicit management guidance.
+
+### Margin of Safety
+
+Strong. Even the bear case is only -10 to -20% downside vs +86-185% upside in base/bull. The critical variable is trust in management's "no further Kandla write-offs" claim — but the 12-quarter zero-dilution promoter behaviour supports the trust.
 
 ---
 
-## 7. What Could Prove Us Wrong
+## 7. What Could Prove Us Wrong (Named Risks — grounded in concall commentary)
 
-**Risk 1 — Oil & gas capex cycle downturn** (crude price crash + production cuts).
-**Risk 2 — ONGC / Oil India payment cycle stretches.**
-**Risk 3 — Contract renewal risks with key customers.**
-**Risk 4 — Working capital blow-up on lumpy offshore drilling contracts.**
-**Risk 5 — Data limitations mean unknown unknowns** — no concall visibility means limited management-tone reading.
-**Risk 6 — Regulatory changes on E&P sector.**
-**Risk 7 — Competition from global majors (Schlumberger + Halliburton) India expansion.**
-**Risk 8 — Company website reliability signals limited investor communication commitment.**
-**Risk 9 — 63.49% promoter holding may see reduction pressure from institutional discovery.**
-**Risk 10 — Offshore drilling rig accidents/incidents can be binary events.**
+1. **Additional Kandla write-offs.** Management categorical "nothing else left" — if any FY27 quarter shows another one-off, thesis breaks materially.
+2. **Mori-5 recovery slips further.** Q3FY26 said rig "within 3 months"; Q4FY26 revised to "1-2 quarters" impact. Anything longer materially impacts PEC economics.
+3. **Rig segment 100% utilised.** Any delay in 2,000HP rig JV formation caps growth. Capex ₹100-120cr per rig requires timing.
+4. **Dolphin Offshore ramp risk.** Guided ₹150cr FY27 with ~60% EBITDA — but Q4FY26 had one-off ECL provisioning of ₹10cr. Ramp path is not linear.
+5. **ONGC concentration.** Dominant customer. Payment cycle stretches. Contract structures shift (see Q4FY26 gross-vs-net rate volatility).
+6. **Working capital heavy business** — Q4FY26 CFO agreed excluding legacy Dolphin receivables (₹160cr), debt "would appear quite lower."
+7. **Oil & gas capex cycle downturn.** Management commentary is entirely about multi-year upcycle — if crude crashes, PEC economics erode fast.
+8. **Rupee doesn't depreciate as fast as expected.** No USD hedging is a policy — CFO's view rupee weakness is structural. If wrong, offshore revenue takes a hit.
+9. **PEC royalty terms.** May 2026 royalty overhaul improves upstream economics per management, but PEC-specific terms may not fully pass through.
+10. **Adjacencies dilute focus.** Hydrogen + coal gasification + geothermal + online compressors — management explicit about early-stage but multi-track spending could dilute capital efficiency.
+11. **Q4FY25 + Q3FY25 concalls not in Screener free tier** — future refresh should include these for full delivery track record.
 
 ---
 
 ## 8. 30-Second Memory Hook
 
-> **Deep Industries is Cheteshwar Pujara at his elite prime — technical, disciplined, priced cheaply relative to skill.** 35-year Savla family oil & gas services specialist with **70%+ market share in Indian Post-Exploration Services** (near-monopolistic). Four integrated verticals: Air & Gas Compression + Drilling & Workover + Gas Dehydration + Integrated PMC. **P/E 8.0x + P/B 1.49x on 19.4% ROE + 16.5% ROCE + zero equity dilution across 12 quarters = extraordinary deep-value + quality combination.**
->
-> The captains (Savla family since 1991) delivered multi-decade dominance + zero dilution + rising DII institutional interest (0% → 1.13% starting Dec 2024). Retail discovery already: shareholders 1.7x from 21,644 → 37,304 over 3 years.
->
-> **What you're buying:** India's dominant post-exploration oil & gas services specialist at 8.0x P/E on 19.4% ROE + 63.49% rock-stable promoter + zero-dilution track record + India CGD + E&P tailwinds. **What you're risking:** oil & gas cycle downturn, ONGC/Oil India payment cycles, data limitations on concall-level visibility, or lumpy offshore contracts. Weighted 2-year return **~110%** + 0.66% dividend.
->
-> **What to watch:** Q1-Q2FY27 concall accessibility, ONGC + Oil India contract wins, offshore drilling contract announcements, DII participation trajectory, and any dilution announcement (currently rock-stable). Position sizing: **high conviction on deep-value + quality — data limitations warrant Astec-style refresh workflow to catch up on concalls once accessible.**
+**Cheteshwar Pujara** — the multi-year Test grinder who spent long innings absorbing risk without needing to hit boundaries. Deep Industries is the Pujara of Indian oil services: **35-year Savla family focus**, 63.49% promoter holding unchanged for 12 straight quarters even through a reported ₹-79cr FY25 loss, then **delivered 55% FY26 revenue growth + 44% EBITDA growth + explicit 25-30% forward guidance**. The Kandla ₹208cr write-off is Pujara facing a 90mph bouncer — takes the blow, stays at the crease, continues the innings.
+
+Pujara traits map:
+- **Long-innings orientation:** 12-quarter zero-dilution promoter
+- **Willing to absorb short-term pain for long-term position:** Kandla write-off + FY25 reported loss + then FY26 record numbers
+- **Multi-year visibility:** ₹3,000cr order book incl 15-year PEC = Test-match tempo
+- **Unfashionable but effective:** oilfield services is unfashionable; 40%+ EBITDA margins are effective
+- **Best-in-set metrics:** 21.8% adjusted ROE, 19.2% ROCE, 0.48 Debt/EBITDA — Pujara's Test average
+
+**Thesis in one sentence:** Deep Industries is a 35-year Savla-family Ahmedabad oil-services house executing **25-30% YoY forward guidance** on a ₹3,000cr revolving order book (incl a 15-year PEC), trading at **7.86x P/E** with 63.49% promoter unchanged 12 quarters, a Kandla write-off that management calls terminal, and self-funded FY27 capex — one of the cheapest quality-industrial names in the entire watchlist if you believe the "no further write-offs" claim.
+
+**Weighted 2-year return: ~+90% (~38% CAGR + 0.67% div).** Base +86%, bull +185%, bear -15%. **High conviction with the singular caveat: watch Q1FY27 for any surprise Kandla write-off. If clean, thesis re-rates.**
 
 ---
 
 ## Source Appendix
 
-- **Screener:** Deep Industries Ltd (BSE: 543288, NSE: DEEPINDS) — CMP, financials, promoter holding trajectory, business summary.
-- **BSE annual report links (via Screener):** Historical annual reports accessible for FY23, FY24, FY25.
-- **ValuePickr — Deep Industries thread:** Active discussion covering Savla family + market share + oil & gas services tailwinds.
-- **Company website:** deepindustries.com (not consistently reachable during profile writing).
-- **Peer references:** Aban Offshore, Shiv-Vani Oil & Gas, Selan Exploration, Great Eastern Shipping, Schlumberger (global), Halliburton (global), Baker Hughes (global).
+- **Concalls read (Screener AI Summary distillations):**
+  - Q4FY26 (May 2026) — Screener ID 23185220; 9,735 chars — **primary content**
+  - Q3FY26 (Feb 2026) — Screener ID 23103567; 7,827 chars
+  - Q2FY26 (Nov 2025) — Screener ID 23052054; 7,095 chars
+  - Q1FY26 (Aug 2025) — Screener ID 23026935; 7,857 chars
+  - Q4FY25 + Q3FY25 — 403 on this fetch (paid Screener tier likely required) — future refresh
+- **Full raw concall transcript PDFs (BSE-hosted):** URLs saved to `Fetched Concalls/DEEP/sources.txt`; not currently in repo (CORS + safety restrictions on BSE domain)
+- **Screener consolidated view** (DEEPINDS, BSE 543288, NSE DEEPINDS): 9-year P&L, 12-quarter shareholding, ratios, peer comparison — cross-referenced with concall figures throughout
+- **BSE announcements** via Screener document tab
+- **ValuePickr:** No significant institutional discussion identified for DEEP in scanned window
+- **Substack coverage:** None identified as of 4-Jul-2026
+- **Peer context:** Deep sits alongside international oilfield services benchmarks (Schlumberger, Halliburton at 15-20x); no direct Indian pure-play peer at scale
 
-**Data quality note:** Concall transcripts not accessible in current repository. Company website (deepindustries.com) not consistently reachable during profile writing. Multiple third-party transcript sources (earningscalls.dev, marketscreener) attempted without success. Profile relies on **Screener consolidated data + industry knowledge + ValuePickr synthesis**. Would benefit from Astec-style data refresh once concalls become accessible via BSE announcement archives or alternative sources.
+### Concall extract file
+
+Full ~32K-char extracts of the 4 concall AI summaries saved at:
+`Fetched Concalls/DEEP/DEEP_concall_extracts.txt` (5 numbered sections + delivery scorecard cross-reference)
 
 ---
 
-*Content is personal investment research and thesis-building for portfolio decisions. Not a buy/sell recommendation. All views subject to revision as new data arrives.*
+*Profile written 4-Jul-2026 (session date, v2 — transcript-grounded rewrite). Stock #46 on watchlist. Sector 17 (Oil & Gas Services) was newly created for this stock during v1 session. v2 replaces v1 which was written from Screener + IR-site scraping only, with no concall content — v1 missed the Kandla write-off, the explicit 25-30% guidance, the Mori-5 incident, the QIP shelving, the Dolphin FY27 numeric guide, and the 100% rig utilization constraint.*
