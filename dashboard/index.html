@@ -211,13 +211,13 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
 <div class="container">
 
 <header class="page-header">
-  <h1>Equity Watchlist Dashboard — All 45 Stocks (Batches 1-5)</h1>
+  <h1>Equity Watchlist Dashboard — 47 Stocks · 17 Sectors</h1>
   <div class="subtitle">SME-led | Lens: 6-18 mo catalysts | Margin of safety | Sector tailwinds | Interactive sector pie + filters + dated changes log</div>
   <div class="meta-row">
-    <div class="meta-item"><strong>Baseline (Batch 1):</strong> 29 Apr 2026</div>
-    <div class="meta-item"><strong>Baseline (Batches 2-4):</strong> 16 May 2026</div>
-    <div class="meta-item"><strong>Baseline (Batch 5):</strong> 21 May 2026</div>
-    <div class="meta-item"><strong>Last Refreshed:</strong> 1 Jul 2026 (Full — CMPs via Yahoo Finance + material events)</div>
+    <div class="meta-item"><strong>Baseline 1:</strong> 29 Apr 2026</div>
+    <div class="meta-item"><strong>Baseline 2:</strong> 16 May 2026</div>
+    <div class="meta-item"><strong>Baseline 3:</strong> 21 May 2026</div>
+    <div class="meta-item"><strong>Last Refreshed:</strong> 4 Jul 2026 (Session 5 — AMIC + DEEP added as #46, #47)</div>
     <div class="meta-item"><strong>Refresh Mode:</strong> On-demand only (no schedule)</div>
     <div class="meta-item"><strong>Prepared for:</strong> Rajat</div>
   </div>
@@ -225,11 +225,11 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
 
 <!-- KPI Strip -->
 <div class="kpi-strip">
-  <div class="kpi-card"><div class="kpi-value" id="kpi-total">45</div><div class="kpi-label">Total Stocks</div></div>
-  <div class="kpi-card"><div class="kpi-value" id="kpi-sme">11</div><div class="kpi-label">SME / SME-recent</div></div>
+  <div class="kpi-card"><div class="kpi-value" id="kpi-total">47</div><div class="kpi-label">Total Stocks</div></div>
+  <div class="kpi-card"><div class="kpi-value" id="kpi-sme">13</div><div class="kpi-label">SME / SME-recent</div></div>
   <div class="kpi-card"><div class="kpi-value" id="kpi-mainboard">34</div><div class="kpi-label">Main-board</div></div>
   <div class="kpi-card"><div class="kpi-value" id="kpi-highconv">14</div><div class="kpi-label">High Conviction</div></div>
-  <div class="kpi-card"><div class="kpi-value" id="kpi-sectors">15</div><div class="kpi-label">Sectors Covered</div></div>
+  <div class="kpi-card"><div class="kpi-value" id="kpi-sectors">17</div><div class="kpi-label">Sectors Covered</div></div>
 </div>
 
 <!-- Visualizations -->
@@ -250,14 +250,9 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
 
 <!-- Toolbar -->
 <div class="toolbar">
-  <label for="filter-batch">Batch:</label>
-  <select id="filter-batch">
+  <!-- Batch filter hidden 10-Jul-2026 (irrelevant to viewer; batch field retained in data) -->
+  <select id="filter-batch" style="display:none;">
     <option value="all">All</option>
-    <option value="1">Batch 1: Power/Mining/Realty</option>
-    <option value="2">Batch 2: Defence/Engg/Auto</option>
-    <option value="3">Batch 3: Specialty Chem/Pharma</option>
-    <option value="4">Batch 4: EMS/Electronics/Tech</option>
-    <option value="5">Batch 5: Agri/Chemicals/Diversified</option>
   </select>
   <label for="filter-listing">Listing:</label>
   <select id="filter-listing">
@@ -275,7 +270,7 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
   <label for="search-box">Search:</label>
   <input id="search-box" type="text" placeholder="Stock or sector..." />
   <button onclick="resetFilters()">Reset</button>
-  <span style="margin-left:auto;font-size:11px;color:#888;">Showing <span id="count">45</span> of 45 stocks</span>
+  <span style="margin-left:auto;font-size:11px;color:#888;">Showing <span id="count">47</span> of 47 stocks</span>
 </div>
 
 <!-- Summary Table -->
@@ -285,7 +280,6 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
       <tr>
         <th data-sort="num">#</th>
         <th data-sort="name">Stock</th>
-        <th data-sort="batch">Batch</th>
         <th data-sort="sector">Sector</th>
         <th data-sort="mcap">Mcap (₹Cr)</th>
         <th>CMP (₹)</th>
@@ -1492,7 +1486,23 @@ function buildCharts(filteredStocks) {
     options: {
       responsive: true, maintainAspectRatio: false,
       plugins: {
-        legend: { position: 'right', labels: { font: { size: 10.5 }, padding: 6, boxWidth: 12 } },
+        legend: {
+          position: 'right',
+          labels: { font: { size: 10.5 }, padding: 6, boxWidth: 12 },
+          // Override default click behavior: filter cards to selected sector
+          // instead of toggling slice visibility (which used to strike through the label)
+          onClick: (e, legendItem) => {
+            const label = legendItem.text;
+            const searchBox = document.getElementById('search-box');
+            // Toggle: if already filtering to this sector, clear; else set to it
+            if (searchBox.value === label) {
+              searchBox.value = '';
+            } else {
+              searchBox.value = label;
+            }
+            applyFilter();
+          }
+        },
         tooltip: {
           callbacks: { label: (ctx) => `${ctx.label}: ${ctx.parsed} stocks (${((ctx.parsed/filteredStocks.length)*100).toFixed(0)}%)` }
         }
@@ -1500,7 +1510,12 @@ function buildCharts(filteredStocks) {
       onClick: (evt, items) => {
         if (items.length) {
           const label = sectorLabels[items[0].index];
-          document.getElementById('search-box').value = label;
+          const searchBox = document.getElementById('search-box');
+          if (searchBox.value === label) {
+            searchBox.value = '';
+          } else {
+            searchBox.value = label;
+          }
           applyFilter();
         }
       }
@@ -1565,7 +1580,6 @@ function renderSummary(filteredStocks) {
     <tr>
       <td>${s.num}</td>
       <td><a class="stock-link" href="#${s.id}">${s.name}</a></td>
-      <td>${getBatchTag(s.batch)}</td>
       <td>${s.sector}</td>
       <td>${s.mcapDisp}<br><span style="font-size:10px;color:#888;">${s.mcapSource}</span></td>
       <td><strong>${c.cmp}</strong><br><span style="font-size:10px;color:#888;">${c.date}</span></td>
@@ -1609,7 +1623,6 @@ function renderCards(filteredStocks) {
             <div class="cmp-date">${c.date}</div>
             ${pillDelta}
           </div>
-          ${getBatchTag(s.batch)}
           ${getListingTag(s.listing)}
           ${getConvictionTag(s.conviction)}
         </div>
