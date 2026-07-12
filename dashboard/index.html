@@ -288,11 +288,17 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
         <th data-sort="mcap">Mcap (₹Cr)</th>
         <th>CMP (₹)</th>
         <th data-sort="conviction">Conviction</th>
+        <th title="Personal tracker — check off after you manually deep-dive the company. State auto-saves per browser; use 'Copy state → repo' button to sync across devices.">✓ Deep-dived</th>
         <th>Thesis</th>
       </tr>
     </thead>
     <tbody id="summary-tbody"></tbody>
   </table>
+  <div style="margin-top:8px;display:flex;gap:12px;align-items:center;font-size:11px;color:#666;">
+    <button id="dd-copy-btn" onclick="copyDeepDivedState()" style="padding:4px 10px;font-size:11px;background:#2E75B6;color:white;border:none;border-radius:3px;cursor:pointer;">Copy Deep-dived state → clipboard</button>
+    <span id="dd-counter" style="color:#1a6d2e;font-weight:600;">0 deep-dived</span>
+    <span>State auto-saves to this browser. Copy + paste into <code>equity-watchlist-repo/dashboard/deep-dived.json</code> to sync across devices.</span>
+  </div>
 </section>
 
 <!-- Stock Cards -->
@@ -308,6 +314,63 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
 </div>
 
 <script>
+// ---------- Deep-Dived Tracker State ----------
+// Personal tracker: Rajat manually checks off stocks he has deep-dived.
+// State priority: (1) localStorage per-browser is source of truth for instant toggles,
+// (2) deep-dived.json in repo is initial seed on first visit + cross-device sync.
+// To sync a browser's state back to the repo, click "Copy state → clipboard"
+// button below the table, then paste into equity-watchlist-repo/dashboard/deep-dived.json
+// and push.
+let DEEP_DIVED = {};
+try {
+  const local = localStorage.getItem('DEEP_DIVED_STATE');
+  if (local) DEEP_DIVED = JSON.parse(local);
+} catch (e) {}
+
+// Load from repo JSON in background (does not overwrite existing localStorage keys)
+fetch('deep-dived.json?ts=' + Date.now())
+  .then(r => r.ok ? r.json() : {})
+  .then(repoState => {
+    let merged = false;
+    Object.keys(repoState).forEach(id => {
+      if (!(id in DEEP_DIVED)) {
+        DEEP_DIVED[id] = repoState[id];
+        merged = true;
+      }
+    });
+    if (merged) {
+      localStorage.setItem('DEEP_DIVED_STATE', JSON.stringify(DEEP_DIVED));
+      applyFilter(); // Re-render tables/cards with restored state
+    }
+  })
+  .catch(() => {});
+
+function toggleDeepDived(id, checked) {
+  DEEP_DIVED[id] = !!checked;
+  try { localStorage.setItem('DEEP_DIVED_STATE', JSON.stringify(DEEP_DIVED)); } catch (e) {}
+  updateDeepDivedCounter();
+}
+
+function updateDeepDivedCounter() {
+  const total = Object.keys(DEEP_DIVED).filter(k => DEEP_DIVED[k]).length;
+  const el = document.getElementById('dd-counter');
+  if (el) el.textContent = `${total} deep-dived`;
+}
+
+function copyDeepDivedState() {
+  const json = JSON.stringify(DEEP_DIVED, null, 2);
+  navigator.clipboard.writeText(json).then(() => {
+    const btn = document.getElementById('dd-copy-btn');
+    if (btn) {
+      const orig = btn.textContent;
+      btn.textContent = '✓ Copied — paste into dashboard/deep-dived.json and push';
+      setTimeout(() => { btn.textContent = orig; }, 4000);
+    }
+  }).catch(() => {
+    alert('Copy failed. Manual copy of state:\n\n' + json);
+  });
+}
+
 const stocks = [
   // ===== BATCH 1 (13 stocks) — Power, Mining, Realty & Others =====
   { id: "oriana", num: 1, name: "Oriana Power Ltd", listing: "sme", batch: 1,
@@ -1615,11 +1678,17 @@ function renderSummary(filteredStocks) {
       <td>${s.mcapDisp}<br><span style="font-size:10px;color:#888;">${s.mcapSource}</span></td>
       <td><strong>${c.cmp}</strong><br><span style="font-size:10px;color:#888;">${c.date}</span></td>
       <td>${getConvictionTag(s.conviction)}</td>
+      <td style="text-align:center;"><input type="checkbox" class="dd-check" data-id="${s.id}" ${DEEP_DIVED[s.id] ? 'checked' : ''} title="I have manually deep-dived ${s.name}" style="width:18px;height:18px;cursor:pointer;"></td>
       <td>${s.thesis}</td>
     </tr>`;
   }).join('');
   document.getElementById('summary-tbody').innerHTML = html;
   document.getElementById('count').textContent = filteredStocks.length;
+  // Wire checkbox handlers after render
+  document.querySelectorAll('.dd-check').forEach(cb => {
+    cb.addEventListener('change', () => toggleDeepDived(cb.dataset.id, cb.checked));
+  });
+  updateDeepDivedCounter();
 }
 
 function renderCards(filteredStocks) {
