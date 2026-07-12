@@ -1541,11 +1541,35 @@ function buildCharts(filteredStocks) {
     },
     options: {
       responsive: true, maintainAspectRatio: false,
-      plugins: { legend: { position: 'right', labels: { font: { size: 11 }, padding: 8 } } },
+      plugins: {
+        legend: {
+          position: 'right',
+          labels: { font: { size: 11 }, padding: 8 },
+          // Same fix as sector pie: override default click (toggle visibility with strikethrough)
+          // to instead filter cards by that conviction tier. Toggle behavior: click same tier twice = clear.
+          onClick: (e, legendItem) => {
+            const tierMap = { 'High':'high', 'Med-High':'med-high', 'Medium':'med', 'Med-Low':'med-low', 'Speculative':'spec' };
+            const val = tierMap[legendItem.text];
+            if (!val) return;
+            const dd = document.getElementById('filter-conviction');
+            if (dd.value === val) {
+              dd.value = 'all';
+            } else {
+              dd.value = val;
+            }
+            applyFilter();
+          }
+        }
+      },
       onClick: (evt, items) => {
         if (items.length) {
           const m = ['high', 'med-high', 'med', 'med-low', 'spec'][items[0].index];
-          document.getElementById('filter-conviction').value = m;
+          const dd = document.getElementById('filter-conviction');
+          if (dd.value === m) {
+            dd.value = 'all';
+          } else {
+            dd.value = m;
+          }
           applyFilter();
         }
       }
