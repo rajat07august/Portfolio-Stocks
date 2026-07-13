@@ -137,6 +137,9 @@ The Kewalramani family runs **only KMEW as their listed entity.** No other liste
 
 **Verdict on management:** Young, hungry, executing well operationally. Bet on Sujay + Kanak Kewalramani to deliver on 30% CAGR + 35–40% EBITDA margin guidance. Track dilution — if a third round happens at aggressive valuation, re-underwrite the thesis.
 
+
+**Conviction re-rate (M → ML) 10-Jul-2026:** Downgraded M→ML on 10-Jul-2026 re-rate: ~0-5% weighted return + 13.5% dilution over 3 years + priced-for-perfection. Green Tug annuities compelling but return band + dilution warrants ML.
+
 ---
 
 ## 4. Numbers Decoded

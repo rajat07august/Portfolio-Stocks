@@ -116,6 +116,9 @@ The Steel Strips group is one of Punjab's oldest industrial houses. Started with
 
 **Verdict on management:** Founder-family driven, technically credible, consistently deliver on stated milestones, use per-unit economics honestly. Bet on Dheeraj Garg + Aditya Dixit to execute FY27 well. Watch for CFO transition impact on disclosure quality and any distraction from Indian Acrylics.
 
+
+**Conviction re-rate (MH → H) 10-Jul-2026:** Upgraded MH→H on 10-Jul-2026 re-rate: ~55% weighted return + Bhuj capex ₹500cr FY28 + Rahul Dravid mid-career narrative + 10G/1Y/5🕐 scorecard. Concall-verified conviction upgrade.
+
 ---
 
 ## 4. Numbers Decoded

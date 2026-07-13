@@ -116,6 +116,9 @@ Indian residential real estate rides five durable forces:
 
 **Verdict on management:** Kolte + Patil families have delivered generational trust + Q4FY26 quantum leap + Blackstone validation. Bet on the family + Blackstone partnership for FY27+ growth.
 
+
+**Conviction re-rate (M → H) 10-Jul-2026:** Upgraded M→H on 10-Jul-2026 re-rate: ~85% weighted return + 12G/3🕐 clean delivery scorecard. Under-rated on initial classification.
+
 ---
 
 ## 4. Numbers Decoded

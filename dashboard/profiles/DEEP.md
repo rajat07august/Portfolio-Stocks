@@ -107,6 +107,9 @@ Deep Industries founded 1991. Savla family Ahmedabad-based; multi-decade oilfiel
 
 **Verdict on management:** Paras Savla + CFO have delivered explicit, testable multi-quarter guidance across all 4 concalls read. FY25/FY26 execution against Q1FY26 stated thrusts has been strong. The Kandla write-off is unusually candid — 12-month recon program + explicit statement that "nothing else left" gives future analysts a specific claim to test. Gas leak incident (Mori-5, Jan 2026) was contained and management provided operational detail across two consecutive concalls without hedging.
 
+
+**Conviction re-rate (MH → H) 10-Jul-2026:** Upgraded MH→H on 10-Jul-2026 re-rate: ~90% weighted return + v2 transcript-grounded from 4 concalls + explicit 25-30% forward guidance FY27+FY28 + 63.49% promoter unchanged 12 quarters + Kandla ₹208cr write-off terminal per management.
+
 ### Other group entities
 
 No listed group companies explicitly surfaced in concall extracts. Subsidiary structure:

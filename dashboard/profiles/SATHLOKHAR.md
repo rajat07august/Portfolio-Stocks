@@ -110,6 +110,9 @@ Integrated EPC in India rides five durable forces:
 
 **Verdict on management:** Execution strong in FY26. One-person management is a governance concern. Bet on Thiyagu to execute PEB commissioning + bid conversion.
 
+
+**Conviction re-rate (MH → H) 10-Jul-2026:** Upgraded MH→H on 10-Jul-2026 re-rate: ~80-120% weighted return + PEB inauguration Aug 2026 + Class 1A PWD Registration + 8G/3🕐 scorecard. One-person management is the singular caveat; upside far exceeds risk.
+
 ---
 
 ## 4. Numbers Decoded

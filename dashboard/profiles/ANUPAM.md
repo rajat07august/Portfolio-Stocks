@@ -108,6 +108,9 @@ Beyond these, the Desai family does not run other listed businesses. Compared to
 
 **Verdict on management:** Founder-driven, technically credible, ambitious. Track record of delivering top-line growth is strong. Track record on margin discipline is weaker. Bet on Anand Desai + Vishal Thakkar to execute the platform vision, but with clear eyes on integration risk.
 
+
+**Conviction re-rate (H → M) 10-Jul-2026:** Downgraded H→M on 10-Jul-2026 re-rate: ~9-12% CAGR + 85x P/E on 7.4% ROCE + missed 26-28% margin guide + Bliss GVS integration risk. H rating not supportable on this return + ROCE combination.
+
 ---
 
 ## 4. Numbers Decoded

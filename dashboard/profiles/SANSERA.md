@@ -92,6 +92,9 @@ Sansera plays across four verticals:
 
 **Verdict on management:** Strong FY26 delivery. ADS beat guidance materially. Bet on Preetham + Krishnan + Goel to keep executing.
 
+
+**Conviction re-rate (MH → M) 10-Jul-2026:** Downgraded MH→M on 10-Jul-2026 re-rate: ~5% weighted return + 60.4x P/E + 5.12% promoter dilution — ADS +155% story does not offset multiple + dilution flags.
+
 ---
 
 ## 4. Numbers Decoded

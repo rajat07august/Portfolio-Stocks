@@ -127,6 +127,9 @@ Global agrochemical technical + CDMO rides five durable forces:
 
 **Verdict on management:** Godrej Group's capital + management commitment is real + increasing (stake up +7.2% during crisis). Strategic investments (R&D Center + Herbicide facility) made during losses — signals long-term view. **Turnaround thesis increasingly supported by Q4FY26 improvement.** Bet on Godrej Group + Nadir Godrej + Balram Yadav to navigate to cycle turn. Watch quarterly loss trajectory.
 
+
+**Conviction re-rate (M → ML) 10-Jul-2026:** Downgraded M→ML on 10-Jul-2026 re-rate: FY25 crisis (loss ₹135cr) + Q4FY26 still loss ₹7.76cr + scorecard 2G/3R + turnaround unproven. Godrej accumulation to 71.97% is only supporting signal.
+
 ---
 
 ## 4. Numbers Decoded

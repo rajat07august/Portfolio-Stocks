@@ -113,6 +113,9 @@ None significant.
 
 **Verdict on management:** Delivering. Order book 3.3x revenue is unusual for a niche mid-cap. Kavach + green mobility positioning is real. Bet on Gaurav Lath to execute — track record supports.
 
+
+**Conviction re-rate (MH → H) 10-Jul-2026:** Upgraded MH→H on 10-Jul-2026 re-rate: ~55% weighted return + 3.3x revenue order book + 10G/1Y/2🕐 scorecard. Extreme illiquidity is position-sizing caveat, not conviction downgrade.
+
 ---
 
 ## 4. Numbers Decoded

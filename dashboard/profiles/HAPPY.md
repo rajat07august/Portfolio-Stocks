@@ -91,6 +91,9 @@ None significant. Happy Forgings is the primary listed entity.
 
 **Verdict on management:** Excellent execution. Best-in-class margins in the sector. Zero dilution. Bet on Garg family + Goyal to continue delivering.
 
+
+**Conviction re-rate (H → MH) 10-Jul-2026:** Downgraded H→MH on 10-Jul-2026 conviction re-rate: ~10% weighted return is below H threshold despite peer-best 30.4% EBITDA + zero-dilution promoter. Quality justifies MH tier.
+
 ---
 
 ## 4. Numbers Decoded

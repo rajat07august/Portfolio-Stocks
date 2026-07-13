@@ -139,6 +139,9 @@ Sharad Shah family does **not** run other listed businesses. This is a **concent
 
 **Verdict on management:** Founders are credible technologists with a genuine 30-year track record. But the *rate of new-venture creation* (8 subsidiaries, 4+ JVs, quantum, hydrogen drones, OSAT, avionics, semiconductors, drones) is faster than what a INR 500 cr revenue company can staff and fund cleanly. Multiple bets = multiple execution risks. Bet on Sharad + Munjal Shah on the *core* (periscope, EM protection, EO/IR JV with Controp), and treat subsidiary optionality as free upside — but don't pay for it in the current multiple.
 
+
+**Conviction re-rate (M → ML) 10-Jul-2026:** Downgraded M→ML on 10-Jul-2026 re-rate: 125x P/E + order book growth (+6%) trailing revenue (+30%) + 5.74% promoter dilution + scorecard 2G/3Y. Priced for perfection with deteriorating signals.
+
 ---
 
 ## 4. Numbers Decoded

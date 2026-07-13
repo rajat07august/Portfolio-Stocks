@@ -129,6 +129,9 @@ The **demerger structure matters here.** In December 2024, Rossell India (the te
 
 **Verdict on management:** Second-gen founder-driven, executing hungrily post-demerger, delivering on scale + customer wins + certifications. **But margin delivery is a real concern** — 400 bps below guide is not small. Bet on Rishab Gupta + Senthil + Zeena Philip to eventually hit the 17-22% band, but expect FY27 to be another investment year with margins closer to 13-15%.
 
+
+**Conviction re-rate (M → MH) 10-Jul-2026:** Upgraded M→MH on 10-Jul-2026 re-rate: ~40% weighted return + Boeing T-7 US$200M + solid 10G/1Y/3🕐 scorecard. Margin 400bps below guide is real but upside dominates.
+
 ---
 
 ## 4. Numbers Decoded

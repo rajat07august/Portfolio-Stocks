@@ -120,6 +120,9 @@ None significant. Aimtron is the primary listed entity.
 
 **Verdict on management:** Founder-family driven, aggressive growth targets, executing well. Multiple certifications delivered, US acquisition closed, greenfield subsidiary setup. Bet on Vasani + Shah family to execute Aimtron 2.0 vision.
 
+
+**Conviction re-rate (MH → H) 10-Jul-2026:** Upgraded MH→H on 10-Jul-2026 re-rate: ~85% weighted return + 89% FY26 revenue growth + 12G/5🕐 scorecard + Mainboard migration path + AIC US integration. Delivery + upside justifies H tier.
+
 ---
 
 ## 4. Numbers Decoded

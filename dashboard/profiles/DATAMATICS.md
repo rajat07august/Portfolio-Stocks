@@ -123,6 +123,9 @@ The Kanodia family runs multiple companies but **Datamatics Global Services is t
 
 **Verdict on management:** Founder-family driven, technically credible, executing patiently. Rahul Kanodia's style is understated but delivery-focused. Sameer Kanodia's Lumina + TNQTech backdrop gives group depth. Bet on Kanodia family + Ankush Akar to keep expanding margins to 20%+ EBITDA by FY28.
 
+
+**Conviction re-rate (MH → H) 10-Jul-2026:** Upgraded MH→H on 10-Jul-2026 re-rate: ~35% weighted return + 20.3x P/E cheapest mid-cap IT + ₹639cr net cash + Digital Ops 23.2% EBIT margin. Cash-cushioned re-rating optionality warrants H.
+
 ---
 
 ## 4. Numbers Decoded

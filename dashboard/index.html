@@ -82,6 +82,7 @@ header.page-header .meta-item strong { font-weight: 600; opacity: 0.85; }
 .tag-conv-med      { background: #fff3cd; color: #8a6d00; }
 .tag-conv-med-low  { background: #fde4c8; color: #8a4a00; }
 .tag-conv-spec     { background: #e2e3e5; color: #495057; font-style: italic; }
+.tag-geo-exposed   { background: #f8d7da; color: #842029; font-weight: 600; font-size: 10.5px; padding: 3px 8px; border-radius: 10px; cursor: help; white-space: nowrap; }
 .tag-batch-1 { background: #e7e0fa; color: #5a3aa5; }
 .tag-batch-2 { background: #d4edda; color: #1a6d2e; }
 .tag-batch-3 { background: #fdebd0; color: #8a4a00; }
@@ -288,6 +289,7 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
         <th data-sort="mcap">Mcap (₹Cr)</th>
         <th>CMP (₹)</th>
         <th data-sort="conviction">Conviction</th>
+        <th title="Middle East / Hormuz / oil-price / commodity-cyclical exposure. Broad definition — hover any red pill for the per-stock reason grounded in the profile.">⚠ Geopolitical Risk</th>
         <th title="Personal tracker — check off after you manually deep-dive the company. State auto-saves per browser; use 'Copy state → repo' button to sync across devices.">✓ Deep-dived</th>
         <th>Thesis</th>
       </tr>
@@ -314,6 +316,46 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
 </div>
 
 <script>
+// ---------- Geopolitical Exposure Map ----------
+// Added 12-Jul-2026 in response to US-Iran tensions + Strait of Hormuz closure post-ceasefire.
+// Definition: Broad — direct Middle East revenue/operations/customers + oil-price shock + commodity cyclical.
+// Source: systematic scan of each profile's Section 2 (Industry), Section 7 (Risks), Source Appendix (concall commentary).
+// Each entry: stock_id -> 1-line reason grounded in the profile evidence.
+const GEO_EXPOSED = {
+  // ─── DIRECT ORDER-EXECUTION / DELIVERY IMPACT (concall commentary on delays or disruption) ───
+  "deep":         "ORDER EXECUTION + REVENUE. Q4FY26 concall (Paras Savla, CEO): 'shock of Strait of Hormuz closure' was the FY26 disruption. Mgmt framing: 'crisis management to structural rebalancing' — expects FY27 demand normalization. Mori-5 gas leak Jan 2026 (contained 5 days) is separate but adds to ME operational fragility. Direct O&G services exposure.",
+  "aurion":       "REVENUE. FY26 revenue INR 1,411 cr (+20.2% YoY) MISSED 30% growth plan — attributed in profile Big Picture to 'Middle East war impact + hyperscaler execution delay'. Section 2 Force 4: 'Middle East BFSI capex cyclically challenging — ME banks were a growth engine for Aurionpro; currently disrupted by geopolitics.' Direct revenue drag.",
+  "azad":         "ORDER EXECUTION + DELIVERY DELAYS. Section 7 explicit: 'Baker Hughes/Saudi facility already flagged as \"shifted timelines\" on the concall due to regional priorities.' Facility 'deferred but still on'; formal inauguration update flagged as positive catalyst. Also: USD-denominated revenue exposure (INR appreciation of 5%+ compresses margins 100-150 bps).",
+  "kmew":         "PROJECT PAUSE. Section 7: 'Bahrain sand mining project paused due to \"situation\" (Middle East tensions)'. Delivery scorecard: '⏸️ Delayed'. Section 7 named risk: 'Bahrain-style project pauses (geopolitical) become more frequent.' Marine services with GCC project pipeline exposure.",
+
+  // ─── RAW MATERIAL / INPUT COST INFLATION (Hormuz → crude → petrochem feedstock) ───
+  "epl":          "RAW MATERIAL COST INFLATION. Q4FY26 concall: 'Middle East crisis affecting raw material costs' (aluminum + polyethylene — direct petrochem feedstock). Delivery scorecard: '50% under contractual pass-through — Pending outcome'. Section 7 risk 2: 'Middle East raw material cost pass-through delays.' Half the RM inflation risk is un-hedged.",
+  "happy":        "RAW MATERIAL INFLATION. Q4FY26 delivery scorecard: 'Pass-through of US-Iran RM inflation to OEMs — In active discussions'. Steel is the primary input; global crude + logistics costs feed through. FY27 guidance already 'cautious on global' segment.",
+  "yash":         "INDIRECT COST ESCALATION. Section 7 risk 8 verbatim: 'Yash mentioned indirect cost escalation from Middle East war. If broader supply chain disruptions escalate, cost inflation compresses margins.' Epoxy resin + copper + specialty paper feedstock subject to commodity cycles; not all contracts have pass-through.",
+
+  // ─── EXPORT MARKET EXPOSURE (revenue concentration in Middle East / affected geos) ───
+  "eil":          "EXPORT REVENUE + ORDER PIPELINE. Section 7 explicit risk: 'Middle East slowdown (per Q4FY26 concall management).' Section 3 Force 3: 'EIL exports consultancy to Middle East (challenges due to conflict), Africa (growth market)...' Moat 9 cites ME + Africa international project experience. Consultancy contract cycle exposure.",
+  "dee":          "EXPORT REVENUE. Section 7 risk 6 explicit: 'Middle East slowdown affecting exports.' Section 2 Force 2: 'Overseas markets (US, Middle East, Europe) also picking up in energy, process, and infrastructure.' Process piping exports directly hit by ME O&G capex delays.",
+  "ecl":          "EXPORT REVENUE + PARTIAL OFFSET. Section 4: 'Exports: +7% (partial offset via Middle East + Africa)'. Section 1 explicitly names ME as export market for DI pipes. Q4FY26 domestic weakness continuing — ME export weakness would compound. Section 6 risk: 'Middle East export drag'.",
+  "garware":      "EXPORT REVENUE + TARIFF. Section 7 risk 1: 'Tariff escalation (US + Middle East).' Section 4: 'Export-heavy: Major markets US, Europe, Middle East, Asia.' 40+ countries. Q3FY26 already saw meaningful tariff impact; Q4FY26 recovery may reverse if ME/US tariff regime escalates.",
+  "sunita":       "REVENUE (early-stage GCC). Section 3: 'Distribution partnerships: Saudi + UAE (early stage)'. Section 5 growth vector: 'Export potential (Saudi/UAE partnerships)'. Delivery scorecard: '🕐 In progress'. Small SME with concentrated GCC ambition — direct exposure if setup stalls.",
+  "kaveri":       "EXPORT GROWTH VECTOR. Section 2 Force 3: 'Indian hybrid seed manufacturers can serve Africa, Southeast Asia, Middle East. Kaveri exports growing ~90% YoY.' Moat 5: 'Export business +90% YoY FY26 (Q4 +76%).' A key growth thread runs through ME + Africa corridors.",
+
+  // ─── STRATEGIC / JV / CUSTOMER EXPOSURE ───
+  "paras":        "STRATEGIC JVs + REVENUE. Optics segment (46% of FY26 revenue) is via JV with Controp Israel. Paras Heven Drones is a JV with Heven Drones (Israel). Force 2: 'Middle East defence spending at 5%+ GDP.' Direct Israel-partner supply chain + ME defence customer base — both sides of the current conflict.",
+  "rossell":      "REVENUE + SUPPLY CHAIN. Section 3: 'wire harness for Boeing T-7, F/A-18, C-17; defence programs for Israeli customers + Indian defence PSUs' — Israel defence directly named. Force 2: 'Middle East at 5% GDP defence spend' cited as tailwind but same conflict creates supply chain disruption for Israeli-customer programs.",
+  "care":         "MACRO / RATING BOOK IMPACT. Section 7 risk 4 explicit: 'Middle East + geopolitical impact on macro.' As a credit rating agency, CARE's book quality is tied to Indian corporate + banking macro — ME war impacts crude prices → India's oil import bill → banking asset quality → rating actions.",
+  "dcmshriram":   "SOFTER FY27 COMMENTARY. Delivery scorecard Q4FY26: 'Cautiously optimistic amid geopolitical volatility'. Diversified 6-segment conglomerate (sugar, chemicals, farm inputs, PVC, fertilizer, cement) — commentary softened without single-vector attribution; agri + PVC feedstock cycles sensitive to crude.",
+  "oriana":       "MULTIPLE VECTORS. Section 7 lists 5 risks: 'Crude oil + currency fluctuation. Supply chain disturbances. Geopolitical issues (Middle East). Grid infrastructure constraints in RE space. Elections in 4-5 major states → policy uncertainty.' Renewable EPC with imported solar module + inverter dependency.",
+
+  // ─── COMMODITY CYCLICAL (indirect via crude-linked energy input costs / global demand) ───
+  "anupam":       "SUPPLY CHAIN + FEEDSTOCK. Moat 3: 'China dominates HF supply globally' — Anupam's fluorine backward integration via Tanfac is defensive against this concentration risk. Section 2 Force 1: 'China+1 outsourcing' thesis presumes MNCs diversify AWAY from China — a US-China escalation is a positive tailwind but any counter-move (e.g. HF export controls) hurts feedstock security.",
+  "gpil":         "STEEL COMMODITY + ENERGY COSTS. Integrated iron ore → sponge iron → steel manufacturer. Global steel demand pricing tracks industrial cycle; energy input costs (coking coal, power) tie to crude oil prices. A Hormuz-driven oil spike compresses steel margins even without direct ME exposure.",
+  "ssw":          "RAW MATERIAL PASS-THROUGH LAG. Section 3: 'Wheels are a raw material pass-through business. Aluminum and steel prices are contractually reset every 3 months.' Between resets, an oil-driven metal spike hits margins directly. Also USD-linked import content in aluminum + logistics.",
+  "nitta":        "CURRENCY + FEEDSTOCK. Section 7 named: 'Currency exposure (JV + exports)'. Japanese JV structure + gelatin/collagen export book means USD-INR volatility (crude-driven macro) directly impacts realized margins. Feedstock (bovine/porcine bone) has global demand cycle sensitivity.",
+  "mayur":        "US TARIFF + EXPORT REVENUE. Section 4: 'US subsidiary (Mayur USA) for OEM distribution; capex for South India plant + potential Mexico plant (currently POSTPONED due to Trump tariffs)'. Export OEM (34% of Q4 revenue) is highest-margin segment — US tariff/trade regime escalation directly hits the growth vector. Same class of geopolitical trade risk."
+};
+
 // ---------- Deep-Dived Tracker State ----------
 // Personal tracker: Rajat manually checks off stocks he has deep-dived.
 // State priority: (1) localStorage per-browser is source of truth for instant toggles,
@@ -1678,6 +1720,7 @@ function renderSummary(filteredStocks) {
       <td>${s.mcapDisp}<br><span style="font-size:10px;color:#888;">${s.mcapSource}</span></td>
       <td><strong>${c.cmp}</strong><br><span style="font-size:10px;color:#888;">${c.date}</span></td>
       <td>${getConvictionTag(s.conviction)}</td>
+      <td style="text-align:center;">${GEO_EXPOSED[s.id] ? `<span class="tag-geo-exposed" title="${GEO_EXPOSED[s.id].replace(/"/g, '&quot;')}">⚠ Exposed</span>` : ''}</td>
       <td style="text-align:center;"><input type="checkbox" class="dd-check" data-id="${s.id}" ${DEEP_DIVED[s.id] ? 'checked' : ''} title="I have manually deep-dived ${s.name}" style="width:18px;height:18px;cursor:pointer;"></td>
       <td>${s.thesis}</td>
     </tr>`;

@@ -97,6 +97,9 @@ Same forces as other Auto Components profiles:
 
 **Verdict on management:** Beat FY26 guidance meaningfully. Bet on Leekha family + Verma to execute mega factory + order book conversion.
 
+
+**Conviction re-rate (M → MH) 10-Jul-2026:** Upgraded M→MH on 10-Jul-2026 re-rate: ~30-35% weighted return + 54% FY26 growth. Extreme illiquidity (2,273 shareholders) is a real position-sizing constraint but rating should reflect the fundamental delivery.
+
 ---
 
 ## 4. Numbers Decoded

@@ -107,6 +107,9 @@ None significant.
 
 **Verdict on management:** Founder-driven, executed capex cycle. Core business delivering strongly. Non-core power segment being restructured. Bet on Bansal + team for FY27 operating leverage + cash flow improvement.
 
+
+**Conviction re-rate (MH → H) 10-Jul-2026:** Upgraded MH→H on 10-Jul-2026 re-rate: ~40% weighted return + Core EBITDA +64% YoY + capex cycle exit + 6G/0R/4🕐 clean scorecard. Non-core power drag is contained.
+
 ---
 
 ## 4. Numbers Decoded

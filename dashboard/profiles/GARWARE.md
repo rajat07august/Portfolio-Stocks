@@ -112,6 +112,9 @@ Specialty polyester films rides four durable forces:
 
 **Verdict on management:** Strong Q4FY26 execution + tariff resilience. Bet on Garware family + Joshi + Agarwal for continued specialty premium mix expansion.
 
+
+**Conviction re-rate (H → MH) 10-Jul-2026:** Downgraded H→MH on 10-Jul-2026 re-rate: ~15-20% weighted return + 47.2x P/E priced-in. 68-yr heritage + Q4FY26 records intact but return band supports MH not H.
+
 ---
 
 ## 4. Numbers Decoded
