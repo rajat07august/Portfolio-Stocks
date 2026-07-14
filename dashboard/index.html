@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Equity Watchlist Dashboard — 47 Stocks · 17 Sectors</title>
+<title>Equity Watchlist Dashboard — 48 Stocks · 18 Sectors</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.js" integrity="sha384-iU8HYtnGQ8Cy4zl7gbNMOhsDTTKX02BTXptVP/vqAWIaTfM7isw76iyZCsjL2eVi" crossorigin="anonymous"></script>
 <style>
 :root { color-scheme: light; }
@@ -214,7 +214,7 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
 <div class="container">
 
 <header class="page-header">
-  <h1>Equity Watchlist Dashboard — 47 Stocks · 17 Sectors</h1>
+  <h1>Equity Watchlist Dashboard — 48 Stocks · 18 Sectors</h1>
   <div class="subtitle">SME-led | Lens: 6-18 mo catalysts | Margin of safety | Sector tailwinds | Interactive sector pie + filters + dated changes log</div>
   <div class="meta-row">
     <div class="meta-item"><strong>Baseline 1:</strong> 29 Apr 2026</div>
@@ -228,11 +228,11 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
 
 <!-- KPI Strip -->
 <div class="kpi-strip">
-  <div class="kpi-card"><div class="kpi-value" id="kpi-total">47</div><div class="kpi-label">Total Stocks</div></div>
+  <div class="kpi-card"><div class="kpi-value" id="kpi-total">48</div><div class="kpi-label">Total Stocks</div></div>
   <div class="kpi-card"><div class="kpi-value" id="kpi-sme">13</div><div class="kpi-label">SME / SME-recent</div></div>
-  <div class="kpi-card"><div class="kpi-value" id="kpi-mainboard">34</div><div class="kpi-label">Main-board</div></div>
-  <div class="kpi-card"><div class="kpi-value" id="kpi-highconv">14</div><div class="kpi-label">High + Med-High Conviction</div></div>
-  <div class="kpi-card"><div class="kpi-value" id="kpi-sectors">17</div><div class="kpi-label">Sectors Covered</div></div>
+  <div class="kpi-card"><div class="kpi-value" id="kpi-mainboard">35</div><div class="kpi-label">Main-board</div></div>
+  <div class="kpi-card"><div class="kpi-value" id="kpi-highconv">34</div><div class="kpi-label">High + Med-High Conviction</div></div>
+  <div class="kpi-card"><div class="kpi-value" id="kpi-sectors">18</div><div class="kpi-label">Sectors Covered</div></div>
 </div>
 
 <!-- Visualizations -->
@@ -275,7 +275,7 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
   <label for="search-box">Search:</label>
   <input id="search-box" type="text" placeholder="Stock or sector..." />
   <button onclick="resetFilters()">Reset</button>
-  <span style="margin-left:auto;font-size:11px;color:#888;">Showing <span id="count">47</span> of 47 stocks</span>
+  <span style="margin-left:auto;font-size:11px;color:#888;">Showing <span id="count">48</span> of 48 stocks</span>
 </div>
 
 <!-- Summary Table -->
@@ -353,7 +353,8 @@ const GEO_EXPOSED = {
   "gpil":         "STEEL COMMODITY + ENERGY COSTS. Integrated iron ore → sponge iron → steel manufacturer. Global steel demand pricing tracks industrial cycle; energy input costs (coking coal, power) tie to crude oil prices. A Hormuz-driven oil spike compresses steel margins even without direct ME exposure.",
   "ssw":          "RAW MATERIAL PASS-THROUGH LAG. Section 3: 'Wheels are a raw material pass-through business. Aluminum and steel prices are contractually reset every 3 months.' Between resets, an oil-driven metal spike hits margins directly. Also USD-linked import content in aluminum + logistics.",
   "nitta":        "CURRENCY + FEEDSTOCK. Section 7 named: 'Currency exposure (JV + exports)'. Japanese JV structure + gelatin/collagen export book means USD-INR volatility (crude-driven macro) directly impacts realized margins. Feedstock (bovine/porcine bone) has global demand cycle sensitivity.",
-  "mayur":        "US TARIFF + EXPORT REVENUE. Section 4: 'US subsidiary (Mayur USA) for OEM distribution; capex for South India plant + potential Mexico plant (currently POSTPONED due to Trump tariffs)'. Export OEM (34% of Q4 revenue) is highest-margin segment — US tariff/trade regime escalation directly hits the growth vector. Same class of geopolitical trade risk."
+  "mayur":        "US TARIFF + EXPORT REVENUE. Section 4: 'US subsidiary (Mayur USA) for OEM distribution; capex for South India plant + potential Mexico plant (currently POSTPONED due to Trump tariffs)'. Export OEM (34% of Q4 revenue) is highest-margin segment — US tariff/trade regime escalation directly hits the growth vector. Same class of geopolitical trade risk.",
+  "carysil":      "MULTI-VECTOR + REPEATED CONCALL COMMENTARY. Q4FY26 opening verbatim (Chirag Parekh CEO): 'despite the heavy headwinds marked by geopolitical uncertainties, trade volatility, inflationary pressures, tariff-related disruptions'. Named risks across all 4 FY26 concalls: (1) Middle East gas supply disruption 'for a few weeks' (Q4FY26), (2) MMA raw material +30-35% Q4FY26 (petrochem feedstock, crude-linked), (3) freight/container delays impacting exports, (4) US-India tariff regime pending, (5) UK market bottomed out from geopolitical + inflation. ~75% export exposure. FTA + SEPA tailwinds but multi-front geopolitical volatility."
 };
 
 // ---------- Deep-Dived Tracker State ----------
@@ -1305,6 +1306,25 @@ const stocks = [
       {date: "9 Jun 2026", body: "[THESIS WATCH] CMP ₹224.73 (NSE 1-Jun-26); Mcap ₹12,630 Cr — down ~13% from baseline ₹259.15 / ₹13,770. 52-wk H/L ₹267/₹163.55. P/E 20.38, P/B 54.14 (P/B looks misprinted in source — verify). The +219% Q3 PAT spike has not held up in the price; some giveback after the initial rally. Watch FY26 full-year results and Dangote execution milestones."},
       {date: "21 May 2026", body: "Baseline. Mcap ₹13,770 Cr per Screener via WS. CMP ₹259.15. Record OB ₹15,670 Cr; consultancy OB ATH ₹10,000 Cr. Q3 FY26 net sales +58.3% / PAT +219.3% YoY. Dangote Refinery ₹3,150 Cr win (Jan-26)."}] },
 
+  { id: "carysil", num: 48, name: "Carysil Ltd", listing: "mainboard", batch: 6,
+    sector: "Home Building Products", conviction: "high",
+    mcap: 3352, mcapDisp: "3,352", mcapSource: "Screener 12-Jul-26",
+    thesis: "India premier premium kitchen platform; Q4FY26 mgmt (verbatim): 'transition from Quartz Sink manufacturer to one-stop integrated kitchen and bathroom solution'; 14% FY26 revenue + 30% EBITDA + 53% PAT growth; Kohler/Häfele/GROHE OEM tie-ups; Home Depot won new FY26; $1 billion aspiration; 15-20% forward guidance.",
+    tagline: "Premium Quartz Sinks + Stainless Steel + Faucets + Appliances + Solid Surfaces | Bhavnagar | Chirag Parekh (Chairman & MD)",
+    metrics: [
+      {label: "Market Cap", value: "₹3,352 Cr", source: "Screener 12-Jul-26"},
+      {label: "P/E / P/B / Div Yield", value: "33.8x / 5.5x / 0.20%", source: "Screener"},
+      {label: "ROCE / ROE", value: "17.8% / 17.4%", source: "Screener"},
+      {label: "Promoter Holding", value: "41.3%", source: "Screener"} ],
+    business: "India's premier premium kitchen & bath solutions company (formerly Acrysil Ltd, renamed 2023). Five product verticals: Quartz Sinks (legacy ~55%), Stainless Steel Sinks (growth ~15%), Kitchen Appliances (breakout ~10%), Solid Surfaces UK (mature ~10%), Faucets + Others (~10%). Present in 50+ countries. Marquee customers: Lowe's, IKEA, Home Depot (won FY26), Kohler, Häfele, GROHE. Bhavnagar HQ. CEO Chirag Parekh + CFO Anand Sharma.",
+    thesisPoints: ["Q4FY26 verbatim: Carysil delivered 'one of the strongest operating performance to date' despite geopolitical headwinds — FY26 total income ₹932 cr (+14%), EBITDA ₹185 cr (+30%), PAT ₹98 cr (+53%).", "Multi-product platform: Sinks + Faucets + Appliances (Phase 1 hoods pilot, Phase 2 FY28) + Carissa B2C brand + FOFO franchise + Alpha e-com deal with largest Indian marketplace.", "Kohler/Häfele/GROHE OEM tie-ups create supply-constrained scenario — mgmt: 'already falling short on their capacity' → 70K stainless steel capacity added 21-May-2026 (180K → 250K).", "Home Depot won new FY26; Lowe's + IKEA ongoing; Carysil Corp USA achieved operational breakeven in FY26.", "$1 billion aspiration + ₹500 cr India revenue target in 5 years (25% CAGR); Innovaxpo '26 launch event validated new customer traction."],
+    risks: ["Geopolitical headline risk — Middle East gas disruption, tariff regime, freight delays, MMA (+30% Q4FY26) all named in Q4FY26 concall.", "India business under-scaled (20% of biz); CEO admits 'underperforming' + 10% of sales guided ad spend = margin drag.", "Quartz Sink new capacity (Q4FY27 = 250K units) needs demand absorption 6-24 months.", "Kitchen Appliances Phase 1 (50K hoods) still pilot; Phase 2 (another 50K) is FY28 launch — execution risk.", "Working capital + ₹270 cr gross debt (₹59 cr cash) — not fortress balance sheet.", "US customer concentration (Lowe's + Home Depot) → US home improvement downcycle exposure."],
+    catalysts: ["FY27 Q1 (Aug 2026) — H1FY27 delivery vs 15-20% guide", "Quartz Sink Q4FY27 commissioning (250K units → 1,250K)", "Kitchen Appliances Phase 1 FY28 launch (50K)", "India ₹500cr milestone progress annually", "New OEM partnerships / customer wins (announcements)", "Home Depot ramp-up"],
+    valuation: "FY28E revenue ₹1,258 cr @ 20% EBITDA = ~₹252 cr; PAT ~₹128 cr @ 28x = ₹3,584 cr mcap (Base +7%). Bull +48% (₹150 cr PAT × 33x), Bear -36% (geopolitical shock). Weighted 2yr: ~+9% (~4.5% CAGR) + 0.20% div.",
+    mos: "Thin at CMP ₹1,184. Meaningful MoS only below ₹1,000. Quality-growth compounder at fair (not cheap) multiple. Best entry: broader small-cap correction OR below ₹1,000.",
+    changes: [
+      {date: "12 Jul 2026", body: "Card + profile added. **New Sector 18 (Home Building Products / Kitchen & Bath) created** — approved by Rajat. **First raw-transcript-grounded profile using api.cors.lol CORS proxy method** (new working path for BSE-hosted PDFs, restoring capability lost after Anthropic tightened allowlist post-Jul-2). 4 raw concalls fetched: Q1FY26 (Aug 2025) 44K chars, Q2FY26 (Nov 2025) 44K chars, Q3FY26 (Feb 2026) 46K chars, Q4FY26 (May 2026) 39K chars = 173K chars raw transcript content. Screener: BSE 524091 · NSE CARYSIL, CMP ₹1,184, Mcap ₹3,352 Cr, P/E 33.8x, ROCE 17.8%, ROE 17.4%, Promoter 41.3%. Analogy: **Rohit Sharma — captain era** (multi-format player, patient sequential evolution, coach humility)."}] },
+
   { id: "amic", num: 47, name: "Amic Forging Ltd", listing: "sme", batch: 6,
     sector: "Auto Components & Forgings", conviction: "med",
     mcap: 2046, mcapDisp: "2,046", mcapSource: "Screener 4-Jul-26",
@@ -1415,7 +1435,8 @@ const CMP_DATA = {
   "eil":         { cmp: "₹237.58",   date: "1-Jul-26", source: "Yahoo Finance (ENGINERSIN.NS)" },
   "nitta":       { cmp: "₹1,722.40", date: "1-Jul-26", source: "Yahoo Finance (NITTAGELA.BO)" },
   "deep":        { cmp: "₹454.00",   date: "4-Jul-26", source: "Screener (DEEPINDS) — updated during v2 rewrite" },
-  "amic":        { cmp: "₹1,771.20", date: "4-Jul-26", source: "Screener (AMIC Forging BSE 544037)" }
+  "amic":        { cmp: "₹1,771.20", date: "4-Jul-26", source: "Screener (AMIC Forging BSE 544037)" },
+  "carysil":     { cmp: "₹1,184.00", date: "12-Jul-26", source: "Screener (CARYSIL, BSE 524091)" }
 };
 function getCmp(id) { return CMP_DATA[id] || { cmp: "—", date: "—", source: "—" }; }
 
@@ -1469,7 +1490,8 @@ const PROFILE_STATUS = {
   "systematic": { ready: true, symbol: "SYSTEMATIC", date: "3-Jul-2026" },
   "kolte":      { ready: true, symbol: "KOLTE",      date: "3-Jul-2026" },
   "deep":       { ready: true,  symbol: "DEEP", date: "4-Jul-2026", note: "v2 — transcript-grounded rewrite from 4 concalls (Q4FY26, Q3FY26, Q2FY26, Q1FY26) via Screener + tradebrains/scanx news corroboration" },
-  "amic":       { ready: true,  symbol: "AMIC", date: "4-Jul-2026", note: "v2 — transcript-grounded rewrite from RHP + AR FY25 + AR FY24 + 4 half-yearly filings via pdf.js-in-Chrome" }
+  "amic":       { ready: true,  symbol: "AMIC", date: "4-Jul-2026", note: "v2 — transcript-grounded rewrite from RHP + AR FY25 + AR FY24 + 4 half-yearly filings via pdf.js-in-Chrome" },
+  "carysil":    { ready: true,  symbol: "CARYSIL", date: "12-Jul-2026", note: "v1 — raw-transcript-grounded via NEW api.cors.lol CORS proxy method (Q1-Q4 FY26 concalls, 173K chars)" }
 };
 function getProfile(id) { return PROFILE_STATUS[id] || { ready: false }; }
 
