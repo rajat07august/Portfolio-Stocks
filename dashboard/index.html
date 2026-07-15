@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Equity Watchlist Dashboard — 48 Stocks · 18 Sectors</title>
+<title>Equity Watchlist Dashboard — 49 Stocks · 18 Sectors</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.js" integrity="sha384-iU8HYtnGQ8Cy4zl7gbNMOhsDTTKX02BTXptVP/vqAWIaTfM7isw76iyZCsjL2eVi" crossorigin="anonymous"></script>
 <style>
 :root { color-scheme: light; }
@@ -214,7 +214,7 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
 <div class="container">
 
 <header class="page-header">
-  <h1>Equity Watchlist Dashboard — 48 Stocks · 18 Sectors</h1>
+  <h1>Equity Watchlist Dashboard — 49 Stocks · 18 Sectors</h1>
   <div class="subtitle">SME-led | Lens: 6-18 mo catalysts | Margin of safety | Sector tailwinds | Interactive sector pie + filters + dated changes log</div>
   <div class="meta-row">
     <div class="meta-item"><strong>Baseline 1:</strong> 29 Apr 2026</div>
@@ -228,9 +228,9 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
 
 <!-- KPI Strip -->
 <div class="kpi-strip">
-  <div class="kpi-card"><div class="kpi-value" id="kpi-total">48</div><div class="kpi-label">Total Stocks</div></div>
+  <div class="kpi-card"><div class="kpi-value" id="kpi-total">49</div><div class="kpi-label">Total Stocks</div></div>
   <div class="kpi-card"><div class="kpi-value" id="kpi-sme">13</div><div class="kpi-label">SME / SME-recent</div></div>
-  <div class="kpi-card"><div class="kpi-value" id="kpi-mainboard">35</div><div class="kpi-label">Main-board</div></div>
+  <div class="kpi-card"><div class="kpi-value" id="kpi-mainboard">36</div><div class="kpi-label">Main-board</div></div>
   <div class="kpi-card"><div class="kpi-value" id="kpi-highconv">34</div><div class="kpi-label">High + Med-High Conviction</div></div>
   <div class="kpi-card"><div class="kpi-value" id="kpi-sectors">18</div><div class="kpi-label">Sectors Covered</div></div>
 </div>
@@ -275,7 +275,7 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
   <label for="search-box">Search:</label>
   <input id="search-box" type="text" placeholder="Stock or sector..." />
   <button onclick="resetFilters()">Reset</button>
-  <span style="margin-left:auto;font-size:11px;color:#888;">Showing <span id="count">48</span> of 48 stocks</span>
+  <span style="margin-left:auto;font-size:11px;color:#888;">Showing <span id="count">49</span> of 49 stocks</span>
 </div>
 
 <!-- Summary Table -->
@@ -1306,6 +1306,25 @@ const stocks = [
       {date: "9 Jun 2026", body: "[THESIS WATCH] CMP ₹224.73 (NSE 1-Jun-26); Mcap ₹12,630 Cr — down ~13% from baseline ₹259.15 / ₹13,770. 52-wk H/L ₹267/₹163.55. P/E 20.38, P/B 54.14 (P/B looks misprinted in source — verify). The +219% Q3 PAT spike has not held up in the price; some giveback after the initial rally. Watch FY26 full-year results and Dangote execution milestones."},
       {date: "21 May 2026", body: "Baseline. Mcap ₹13,770 Cr per Screener via WS. CMP ₹259.15. Record OB ₹15,670 Cr; consultancy OB ATH ₹10,000 Cr. Q3 FY26 net sales +58.3% / PAT +219.3% YoY. Dangote Refinery ₹3,150 Cr win (Jan-26)."}] },
 
+  { id: "diacabs", num: 49, name: "Diamond Power Infrastructure Ltd (DICABS)", listing: "mainboard", batch: 6,
+    sector: "Power T&D Components", conviction: "spec",
+    mcap: 10321, mcapDisp: "10,321", mcapSource: "Screener 14-Jul-26",
+    thesis: "Post-CIRP turnaround under new promoter GSEC (took over via NCLT 2022). India's largest single-location cable manufacturing; 7th MV/EHV cable line commissioned May 2026. Q3FY26: PAT ₹46cr (+250% YoY), OPM 12% (highest since turnaround). CBI/ED cases discharged May 2026 → up to ₹1,900cr assets may unlock. **105x P/E on negative book value ₹-13.6 + MPS non-compliance + no concall transcripts** = high-variance speculative bet.",
+    tagline: "T&D Cables + Conductors + Towers + EPC | Vadodara | Post-CIRP turnaround under GSEC (new promoter 2022)",
+    metrics: [
+      {label: "Market Cap", value: "₹10,321 Cr", source: "Screener 14-Jul-26"},
+      {label: "P/E / Book Value", value: "105x / ₹-13.6 (NEGATIVE)", source: "Screener"},
+      {label: "Q3FY26 PAT / TTM PAT", value: "₹46 cr / ₹98 cr", source: "Screener"},
+      {label: "Promoter Holding", value: "84.02% (fined for MPS non-compliance Jul 2026)", source: "Screener + BSE"} ],
+    business: "Founded 1970; brand DICABS. India's largest single-location cable + conductor manufacturing (Vadodara). Products: 2.5 lakh MTPA conductors + 19,500 KM MVC cables + 2,000 KM EHV cables up to 550 KV + Transmission Towers + EPC services. Ranked 6th largest Electrical Equipment company by mcap (per FY24 PPT). Went through CIRP 2022 — acquired by GSEC Group through NCLT. Rebuild trajectory: FY22 ₹0 revenue → FY26 TTM ₹1,564 cr.",
+    thesisPoints: ["Q3FY26 highest since turnaround: PAT ₹46cr (+250% YoY), OPM 12%, Revenue ₹481cr — sequential compounding.", "7th MV/EHV CCV cable line commissioned 15-May-2026 (₹55cr investment); 3 more lines expected operational by 31-Mar-2027 = capacity ramp visible.", "**CBI/ED/PMLA cases DISCHARGED 8-May-2026** — up to ₹1,000cr assets + ₹900cr receivables may be released → potential balance sheet clean-up event.", "GSEC promoter takeover cleaned balance sheet: borrowings ₹1,977cr (FY22) → ₹367cr (FY23) → ₹597cr (Sep25 — expansion funded).", "RDSS + RE evacuation + PGCIL HV corridor buildout provides multi-year T&D demand tailwind."],
+    risks: ["**Book value NEGATIVE ₹-13.6** (reserves ₹-770cr Sep 2025) — historic distress hasn't fully cleaned up.", "**MPS non-compliance** — BSE+NSE fined ₹4.5 lakh each July 2026; forced promoter dilution at unfavorable prices possible.", "**No concall transcripts** — only investor PPTs on record; reduces analyst scrutiny discipline.", "CBI/ED discharge can be appealed — ₹1,900cr asset unlock is not certain.", "105x P/E depends on sequential Q-over-Q momentum sustaining — a single flat quarter punctures multiple.", "Working capital ballooning: other assets +45% Sep 25 vs Mar 25.", "Peer competition (KEC, Apar, Sterlite Power, Skipper) all cleaner books + do concalls."],
+    catalysts: ["FY26 audited results (Board 26-May-2026; not yet in Screener at profile date)", "CBI/ED asset release timeline over next 2-4 quarters", "3 more cable lines commissioning through Mar 2027", "First concall transcript filing (if new mgmt adopts practice)", "MPS compliance resolution (SEBI-mandated dilution or OFS)", "Book value turning positive (multi-year — via retained earnings + potential equity issuance)"],
+    valuation: "TTM PAT ₹98cr → P/E 105x. Q3FY26 annualized ₹184cr → forward P/E ~55-60x. Base case FY27 ~₹200cr PAT × 40x = ₹8,000cr mcap (-22%). Bull FY28 ₹400cr × 45x = ₹18,000cr (+74%). Bear FY28 ₹150cr × 30x = ₹4,500cr (-56%). Weighted 2yr: ~+9% (~4.5% CAGR).",
+    mos: "Very thin. Post-CIRP + negative book value + 105x P/E + no dividend + MPS non-compliance = no traditional MoS. Speculative allocation only (0.5-1% max). MoS is entirely operational Q-over-Q momentum.",
+    changes: [
+      {date: "14 Jul 2026", body: "Card + profile added. **DATA-LIMITED (no concall transcripts on record; only investor PPTs)**. Sector 14 (Power T&D Components) alongside YASH + SYSTEMATIC. Profile grounded in: (a) FY23-24 Investor PPT (52 pages, 30K chars via pdf.js-in-Chrome on dicabs.com), (b) Screener 12-quarter data, (c) BSE announcements. **Attempts to fetch BSE-hosted newer PPTs via api.cors.lol FAILED** — the `/xml-data/corpfiling/AttachHis/` URL pattern does not work with the proxy (only `/stockinfo/AnnPdfOpen.aspx` pattern worked for CARYSIL). Turnaround thesis: GSEC takeover through NCLT 2022 → revenue ₹0 (FY22) → ₹1,564cr TTM (Dec 2025). Q3FY26 PAT +250% YoY. CBI/ED cases discharged May 2026. Analogy: **Rishabh Pant — post-accident comeback** (near-death → rebuild → high volatility). Speculative conviction. Refresh urgently after FY26 audited results + BSE PPT fetch resolution."}] },
+
   { id: "carysil", num: 48, name: "Carysil Ltd", listing: "mainboard", batch: 6,
     sector: "Home Building Products", conviction: "high",
     mcap: 3352, mcapDisp: "3,352", mcapSource: "Screener 12-Jul-26",
@@ -1436,7 +1455,8 @@ const CMP_DATA = {
   "nitta":       { cmp: "₹1,722.40", date: "1-Jul-26", source: "Yahoo Finance (NITTAGELA.BO)" },
   "deep":        { cmp: "₹454.00",   date: "4-Jul-26", source: "Screener (DEEPINDS) — updated during v2 rewrite" },
   "amic":        { cmp: "₹1,771.20", date: "4-Jul-26", source: "Screener (AMIC Forging BSE 544037)" },
-  "carysil":     { cmp: "₹1,184.00", date: "12-Jul-26", source: "Screener (CARYSIL, BSE 524091)" }
+  "carysil":     { cmp: "₹1,184.00", date: "12-Jul-26", source: "Screener (CARYSIL, BSE 524091)" },
+  "diacabs":     { cmp: "₹196.00",   date: "14-Jul-26", source: "Screener (DIACABS, BSE 522163) — 25-May-26 close per Screener" }
 };
 function getCmp(id) { return CMP_DATA[id] || { cmp: "—", date: "—", source: "—" }; }
 
@@ -1491,7 +1511,8 @@ const PROFILE_STATUS = {
   "kolte":      { ready: true, symbol: "KOLTE",      date: "3-Jul-2026" },
   "deep":       { ready: true,  symbol: "DEEP", date: "4-Jul-2026", note: "v2 — transcript-grounded rewrite from 4 concalls (Q4FY26, Q3FY26, Q2FY26, Q1FY26) via Screener + tradebrains/scanx news corroboration" },
   "amic":       { ready: true,  symbol: "AMIC", date: "4-Jul-2026", note: "v2 — transcript-grounded rewrite from RHP + AR FY25 + AR FY24 + 4 half-yearly filings via pdf.js-in-Chrome" },
-  "carysil":    { ready: true,  symbol: "CARYSIL", date: "12-Jul-2026", note: "v1 — raw-transcript-grounded via NEW api.cors.lol CORS proxy method (Q1-Q4 FY26 concalls, 173K chars)" }
+  "carysil":    { ready: true,  symbol: "CARYSIL", date: "12-Jul-2026", note: "v1 — raw-transcript-grounded via NEW api.cors.lol CORS proxy method (Q1-Q4 FY26 concalls, 173K chars)" },
+  "diacabs":    { ready: true,  symbol: "DIACABS", date: "14-Jul-2026", note: "v1 — DATA-LIMITED — no concall transcripts on record (only investor PPTs); grounded in FY24 PPT via pdf.js-in-Chrome + Screener + BSE announcements. Post-CIRP turnaround under GSEC promoter" }
 };
 function getProfile(id) { return PROFILE_STATUS[id] || { ready: false }; }
 
