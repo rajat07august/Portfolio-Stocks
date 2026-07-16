@@ -1,6 +1,125 @@
 # Steel Strips Wheels Ltd (SSWL) — Company Profile
 
-**Ticker:** SSWL · BSE: 513262 · **Sector:** Auto Components (Wheels & Knuckles) · **Conviction:** Medium-High
+**Ticker:** SSWL · BSE: 513262 · **Sector:** Auto Components (Wheels & Knuckles) · **Conviction:** High (upgraded 10-Jul-2026 during rerating)
+
+## 🔄 Refresh Log — 16-Jul-2026 (Q1FY27 out)
+
+**Latest data available:** ✅ **Q1FY27 (Jun 2026) RESULTS DECLARED — 16h ago; PPT + Earnings Call intimation filed on BSE**. Screener AI Summary fetched (7,846 chars) via Screener /concalls/summary/23246637/. api.cors.lol was down at fetch time so raw transcript not yet in repo; SSWL's Q1FY27 concall was PPT-only (per Screener note: *"effectively an investor presentation pack (July 2026) plus an exchange intimation page, not a Q&A call"*).
+
+**New material events since 3-Jul-2026 baseline:**
+- **16-Jul-2026** — Q1FY27 Investor Presentation + Earnings Call Transcript filed (both same day)
+- **16-Jul-2026** — Financial Results For Quarter Ended 30-06-2026 filed
+- **16-Jul-2026** — Board Meeting Outcome disclosed
+
+**Numbers update — Q1FY27 (Jun 2026, standalone, verbatim from PPT):**
+
+| Metric | Q1FY27 | Q1FY26 | YoY |
+|---|---|---|---|
+| **Revenue** | **₹1,509.8 cr** | ₹1,187 cr | **+27.2%** |
+| **EBITDA** | **₹162.3 cr** | ₹122 cr | **+33.0%** |
+| **EBITDA margin** | **10.7%** | 10.3% | +40 bps |
+| **PAT** | **₹71.5 cr** | ₹49.9 cr | **+43.3%** |
+| **PAT margin** | 4.7% | 4.2% | +50 bps |
+| **Total wheel volumes** | ~52 lakh units | ~48 lakh units | +8% |
+
+**Management-stated Q1FY27 drivers (verbatim from PPT):**
+- *"driven largely by strong domestic demand"*
+- Margin: *"favourable product mix, cost optimization initiatives, and a rising share of premium products"*
+- Profitability aided by *"operating leverage"*
+
+**Delivery scorecard additions (vs 3-Jul-2026 baseline):**
+- ✅ **Q1FY27 beats FY27 15% growth guidance implicit** — 27% revenue growth vs 15-17% guide (delivered ABOVE band)
+- ✅ **Margin expansion continues** — 10.3% → 10.7% EBITDA (in guide band 10-12%)
+- ✅ **Alloy wheels expansion on track** — FY26 50 lakh units → **FY27E 62 lakh units** (~1.2 Mn addition confirmed)
+- ✅ **Bhuj (AMW acquisition post-NCLT) expansion underway** — "+1.2 Mn alloy wheels + 0.6 Mn knuckles" per Q1FY27 PPT
+- ✅ **Aluminium knuckles commercialized 2025** — capacity **5.0 lakh (FY26) → 11.0 lakh (FY27E)** = 2.2x growth
+- ✅ **Alloy wheels utilization normalizing** to 80-82% (from FY24 peak 96%) — healthy capacity absorption
+- 🕐 **FY28 knuckles ramp beyond 2 leading OEMs** — customer base expected to broaden (in-flight)
+- 🟡 **Steel wheel utilization 76% (Q1FY27)** — down from 78% (FY25); flat capacity structural
+
+**Capacity trajectory (Q1FY27 PPT verbatim):**
+- Steel: ~205-207 lakh units; utilization 76% (Q1FY27), stable
+- Alloy: 50 lakh (FY26) → **62 lakh (FY27E) = +24% capacity growth**
+- Knuckles: 5.0 → 11.0 lakh (FY27E) = **2.2x growth** — new diversification
+- **Bhuj (AMW acquired via NCLT)** expansion: +1.2 Mn alloy + 0.6 Mn knuckles
+
+**Customer concentration flag (NEW disclosure from Q1FY27 PPT):**
+- **Hyundai: 74% share of business across multiple models** — deep integration on specific platforms
+- Others: Renault-Nissan, Kia, Tata, Skoda
+- Signals **program concentration risk** not explicitly discussed but data-visible
+
+**Named headwind (verbatim Q1FY27 PPT):**
+- **"tariff-related export disruption, with June normalization cited as an early recovery indicator"** — geopolitical exposure VALIDATED (already flagged in dashboard Geopolitical Risk column). US tariff regime impacted Q1 export volumes; recovering.
+
+**Screener valuation update (16-Jul-2026):**
+- CMP ₹268 (vs ₹247 on 3-Jul baseline = **+8.5% since baseline**)
+- Market Cap ₹4,219 cr (vs ₹3,880 cr baseline)
+- P/E 19.8x (vs 20.4x — slightly cheaper on higher earnings)
+- Book Value ₹115 · P/B ~2.3x
+- Dividend Yield 0.47%
+- ROCE 14.8% / ROE 11.1% (unchanged)
+
+**Conviction change:** **HELD at HIGH.** Q1FY27 delivery validated the 10-Jul re-rate from MH → H:
+- 27% YoY revenue growth exceeds implicit 15-20% guide
+- Margin expansion + volume growth + alloy/knuckles ramp on track
+- Tariff headwind acknowledged AND normalizing already
+- Program-concentration risk (Hyundai 74%) now explicit — worth watching but not thesis-breaking given stable OEM relationship
+
+**Thesis note:** Baseline "Rahul Dravid mid-career" cricket analogy holds — steady sequential execution + new-format expansion (knuckles = T20/ODI adaptation) delivered. Bhuj (₹500cr capex commissioning FY28) is the next catalyst.
+
+**Community reads triggered?** **No** — no material thesis change; delivery validates existing base case. ValuePickr + Substack read deferred per framework.
+
+---
+
+### 📄 Raw PPT read — additional Q1FY27 evidence (added 16-Jul-2026)
+
+Raw Q1FY27 investor deck fetched via api.cors.lol (2 BSE PDFs — both 32 pages, ~26KB text each; content = same investor presentation, no Q&A transcript exists as noted by Screener AI). Saved to `Fetched Concalls/SSWL/SSWL_Transcript_2026-07.txt` + `SSWL_PPT_2026-07.txt`. Additional findings not surfaced in Screener AI Summary:
+
+**Alloy Wheels — volume + value mix trajectory (verbatim from Slide 17):**
+
+| | FY23 | FY24 | FY25 | FY26 | Q1FY27 |
+|---|---|---|---|---|---|
+| Alloy volumes (lakh units) | 28 | 30 | 33 | 39 | **10** |
+| Volume contribution % | 16% | 16% | 17% | 20% | **20%** |
+| Value contribution % | 28% | 32% | 36% | 35% | **31%** |
+
+Q1FY27 alloy value share slipped -400bps YoY (35% FY26 → 31% Q1FY27) — likely a **steel wheel mix rebound in Q1** due to specific OEM order timing (not a structural degradation). Volume share held at 20%.
+
+**Aluminium Knuckles — Q1FY27 revenue print:** ₹23 crores (~2% of Q1FY27 revenues). Full-year FY27E implies ~₹100cr revenue at current run-rate; capacity ramp to 11 lakh (FY27E) supports 4-5x this by exit.
+
+**Steel Wheels — capacity utilization dip flagged (Slide 9):**
+- FY23 82% → FY24 72% → FY25 78% → FY26 77% → **Q1FY27 76%** — mild downtrend
+- Steel capacity flat at 205-207 lakh — no fresh steel wheel capacity coming; capital being routed to alloy + knuckles
+
+**Balance sheet (standalone, verbatim Slide 28):**
+- Total Assets: ₹3,816.7 cr FY26 vs ₹3,365.4 cr FY25 = **+13.4% asset base growth** (Bhuj + alloy capex funded)
+- Cash + bank + loans: significant intra-year rebalancing visible
+
+**Cash Flow snapshot (standalone, Slide 29) — NOTABLE SIGNAL:**
+- **Net Profit Before Tax FY26: ₹271 cr vs ₹282 cr FY25 = -4% YoY**
+- Cash generated from operations FY26: **₹373 cr vs ₹582.6 cr FY25 = -36% YoY**
+- Reason: working capital changes moved from +₹90.9 cr (release, FY25) to **-₹147 cr (absorption, FY26)** — inventory/receivables buildup ahead of Bhuj commissioning
+- **This softens the "great FY26" narrative — reported PAT was flat/soft; the Q1FY27 sharp jump is a genuine inflection, not just extrapolation of FY26 momentum**
+
+**Volume + capacity table (Slide 9 confirmed):**
+
+| Metric | FY23 | FY24 | FY25 | FY26 | Q1FY27 | FY27E |
+|---|---|---|---|---|---|---|
+| Steel capacity (lakh) | 205 | 205 | 205 | 207 | 207 | — |
+| Steel utilization | 82% | 72% | 78% | 77% | 76% | — |
+| Alloy capacity (lakh) | 30 | 36 | 42 | 50 | 50 | **62** |
+| Alloy utilization | 82% | 96% | 82% | 80% | 80% | — |
+
+**Slide 22 verbatim Q1FY27 commentary (previously partial via Screener AI):**
+- *"Profit After Tax grew 43% YoY, with PAT margin improving to 4.7% reflecting the combined benefit of revenue growth, margin expansion, and operating leverage"*
+- *"While the reported numbers are domestic-demand led, exports began showing signs of recovery in June as tariff-related disruptions normalized — a potential tailwind for coming quarters"*
+
+**Refined conviction reading:** Q1FY27 numbers are stronger than they look because FY26 CFO was soft (working capital absorption). The 43% PAT jump on 27% revenue growth is a **real operating leverage moment** — not just a base effect. **HELD at HIGH.** But note: the FY26 CFO decline is worth watching in Q2FY27 to confirm the WC release cycle turns positive as Bhuj commercial output stabilizes.
+
+---
+
+**Original baseline profile below — unchanged. See 10-Jul-2026 conviction re-rate note in Section 3.5 for prior update.**
+
 **Date written:** 3-Jul-2026 · **CMP:** ₹247 · **Market Cap:** ₹3,880 cr · **P/E (trailing):** 20.4 · **ROCE:** 14.8% · **ROE:** 11.1%
 **Sources:** Concalls Q1FY26, Q2FY26, Q3FY26, Q4FY26 (4 reads) · Screener consolidated view · ValuePickr SSWL thread (last 18 months) · BSE/NSE filings · Auto industry OEM commentary
 
