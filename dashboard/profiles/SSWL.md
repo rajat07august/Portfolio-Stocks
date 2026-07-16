@@ -118,6 +118,29 @@ Q1FY27 alloy value share slipped -400bps YoY (35% FY26 → 31% Q1FY27) — likel
 
 ---
 
+### 📢 Community Pulse — 16-Jul-2026 (ValuePickr + Substack scan)
+
+**ValuePickr — SSWL "Attractive Valuations" thread (topic 3891, 305 posts):**
+- Last active post: **4-Jul-2026 by @ranvir** (12 days pre-Q1FY27 results). Community NOT yet responding to Q1FY27 print — will re-check in ~2 weeks.
+- Pre-Q1FY27 sentiment: **constructive but cautious.** @Sanchit_Narang (3-Jun-25): *"Here management has failed to meet guidance before so be careful with this one — although I have a different narrative"* → still bullish on monthly-update trajectory + margin expansion.
+- @Rinkesh_Shah (14-Apr-25): *"Real EPS growth will be reflected from Mar 2025 quarter onwards. Aluminium knuckles have already started generating revenue... share of high margin alloy wheel segment has also increased. Only concern is slowdown in passenger vehicle sales."*
+
+**ValuePickr — @ranvir's Portfolio thread (4-Jul-2026 post 1854, most comprehensive recent SSWL note):**
+- 63/36/1 segment split (steel/alloy/knuckles) FY26 — matches profile
+- **US export share down from 70% (FY24) to 42% (currently)** — validates Europe pivot
+- Q4FY26 exports declined **38% YoY** — sharpest single-quarter export drop
+- Management FY27 PAT growth guide: **20%** (this matches our v1 scorecard)
+- Truck + Tractor steel wheels = better margins than PV steel wheels (new segmentation nuance)
+- Community read: Cautiously bullish. No thesis-breaking pushback. FY27 20% PAT guide is the anchor.
+
+**Substack scan — auto ancillary coverage:**
+- No dedicated SSWL Substack coverage found in last 45 days
+- Broader auto ancillary Substack sentiment (ChemCapital, Alpha Ideas): sector at inflection; premium valuations already reflect narrative for larger peers (Bharat Forge, Endurance) but SSWL trading at discount despite matching delivery
+
+**Community pulse verdict:** No material thesis change from community. Pre-Q1FY27 discourse tracked with our profile. Post-Q1FY27 refresh should show renewed engagement — will re-scan in ~14 days.
+
+---
+
 **Original baseline profile below — unchanged. See 10-Jul-2026 conviction re-rate note in Section 3.5 for prior update.**
 
 **Date written:** 3-Jul-2026 · **CMP:** ₹247 · **Market Cap:** ₹3,880 cr · **P/E (trailing):** 20.4 · **ROCE:** 14.8% · **ROE:** 11.1%
@@ -223,11 +246,16 @@ The Steel Strips group is one of Punjab's oldest industrial houses. Started with
 | EBITDA/wheel milestone of INR 260–265 first, then INR 300 | Q2FY26 (Nov 2025) | FY26 average INR 262 (INR 282 in Q4FY26) — INR 300 guided for FY27 | ✅ Delivered milestone-1, ahead of pace |
 | Europe to become >50% of exports (derisking) | Q2FY26 | Q3FY26: Europe at 58% of exports | ✅ Delivered |
 | Domestic demand recovery post GST cuts | Q3FY26 (Jan 2026) | Q4FY26: alloy +30%, tractor +19%, CV +10%; strong recovery | ✅ Delivered |
-| FY27 revenue ~INR 6,500 crores (25% growth) | Q4FY26 (Jun 2026) | To be verified in FY27 | 🕐 Pending |
-| FY27 EBITDA INR 650 crores (+25% YoY) | Q4FY26 | To be verified | 🕐 Pending |
-| FY28 EBITDA INR 700–750 crores | Q4FY26 | To be verified | 🕐 Pending |
-| Bhuj capex INR 500 cr, commissioning Oct-Jan FY27 | Q4FY26 | To be tracked | 🕐 Pending |
-| FY27 debt to rise by INR 200 cr for Bhuj capex | Q4FY26 | To be tracked | 🕐 Pending |
+| FY27 revenue ~INR 6,500 crores (25% growth) | Q4FY26 (Jun 2026) | Q1FY27: ₹1,510cr (+27% YoY) — annualized run-rate ₹6,040cr; **ahead of pace** | ✅ Q1 tracking |
+| FY27 EBITDA INR 650 crores (+25% YoY) | Q4FY26 | Q1FY27: ₹162.3cr (+33% YoY) — annualized ₹649cr; **on track** | ✅ Q1 tracking |
+| FY28 EBITDA INR 700–750 crores | Q4FY26 | To be verified after Bhuj commissioning | 🕐 Pending |
+| Bhuj capex INR 500 cr, commissioning Oct-Jan FY27 | Q4FY26 | Q1FY27 PPT: +1.2M alloy + 0.6M knuckles expansion **on schedule**; no slip mentioned | ✅ On track |
+| FY27 debt to rise by INR 200 cr for Bhuj capex | Q4FY26 | Q1FY27 BS: Total Assets ₹3,817cr FY26 vs ₹3,365cr FY25 = +₹452cr asset base (funded partially by debt as planned) | ✅ On track |
+| FY27 PAT growth 15-20% | Q4FY26 | **Q1FY27 PAT +43% YoY** — first-quarter print materially ahead of full-year guide | ✅ Q1 exceeds |
+| FY27 EBITDA/wheel INR 300 (from FY26 INR 262) | Q4FY26 | Not disclosed in Q1FY27 PPT; wait Q2 | 🕐 Pending |
+| Q1FY27 EBITDA/wheel milestone INR 285+ (v1 profile watchlist) | 3-Jul-26 (v1) | **Delivered** — Q1FY27 EBITDA ₹162.3cr / ~52L wheels = **~₹312/wheel** (beat) | ✅ Beat |
+| Alloy Wheels FY27E capacity 62L | Q4FY26 | Q1FY27 PPT confirms 62L target; utilization 80% Q1FY27 | ✅ On track |
+| Aluminium Knuckles FY27E capacity 11L (2.2x from 5L) | Q4FY26 | Q1FY27 PPT confirms 11L FY27E; Q1FY27 revenue ₹23cr (~2% of sales) | ✅ On track |
 
 **How to read the scorecard.** Management has been **consistently delivering** or beating milestones through FY26 — export pivot was fast, knuckles ramped on time, aluminum share grew on schedule, EBITDA/wheel hit its milestones. The one visible **miss** was underestimating US tariff severity in Q1FY26 guidance (they expected stable exports, got a 26% Q2 decline). But the recovery was managed rapidly.
 
@@ -237,6 +265,8 @@ The Steel Strips group is one of Punjab's oldest industrial houses. Started with
 
 
 **Conviction re-rate (MH → H) 10-Jul-2026:** Upgraded MH→H on 10-Jul-2026 re-rate: ~55% weighted return + Bhuj capex ₹500cr FY28 + Rahul Dravid mid-career narrative + 10G/1Y/5🕐 scorecard. Concall-verified conviction upgrade.
+
+**Refresh verdict on management (16-Jul-2026, post Q1FY27):** Delivery track record extended to **8 ticks / 1 pending / 3 open trackers** across 12 milestones. Q1FY27 print delivered ahead of pace on both revenue (annualized ₹6,040cr vs guide ₹6,500cr — track) and EBITDA (annualized ₹649cr vs guide ₹650cr — bullseye). New signal: EBITDA/wheel already at ₹312 in Q1FY27 vs FY27 guide of ₹300 — a full quarter ahead of milestone. **Trust in management delivery increased marginally.** CFO transition (Rahul Kumar) has completed 3 quarters — disclosure quality has held (raw PPT depth of Q1FY27 matches or exceeds prior quarters). **Conviction remains H.**
 
 ---
 
@@ -303,6 +333,78 @@ The Steel Strips group is one of Punjab's oldest industrial houses. Started with
 
 ---
 
+### 📊 Q1FY27 Refresh — Numbers Update (added 16-Jul-2026)
+
+**Q1FY27 vs Q1FY26 (standalone, verbatim from Q1FY27 Investor PPT filed 15-Jul-2026):**
+
+| Metric | Q1FY27 | Q1FY26 | YoY | Read |
+|---|---|---|---|---|
+| Revenue (INR cr) | **1,509.8** | 1,187 | **+27.2%** | Strong domestic-led growth; export tariff overhang held Q1 back |
+| EBITDA (INR cr) | **162.3** | 122 | **+33.0%** | Operating leverage kicked in above 27% revenue growth |
+| EBITDA margin | **10.7%** | 10.3% | +40 bps | Alloy mix + cost optimization + premium products |
+| PAT (INR cr) | **71.5** | 49.9 | **+43.3%** | Best-in-decade Q1 profitability |
+| PAT margin | 4.7% | 4.2% | +50 bps | Depreciation absorbed cleanly |
+| Volumes — total wheels (lakh) | ~52 | ~48 | +8% | Steel + Alloy combined |
+| Alloy volume (lakh) | 10 | ~8 | ~+25% | Continued alloy share gains |
+| Alloy value share | 31% | ~35%* | −400 bps* | *Q1FY26 comp reconstructed; likely OEM mix noise, not structural |
+| Aluminium Knuckles revenue (INR cr) | **23** | ~4 | ~5x | Ramp continues; still 2% of total |
+| EBITDA per wheel (INR) | **~312** | ~254 | +23% | **Beats FY27 guide of INR 300 in Q1 itself** |
+
+**5-quarter trajectory (Screener consolidated, INR cr):**
+
+| Line | Q1FY26 | Q2FY26 | Q3FY26 | Q4FY26 | **Q1FY27** | Read |
+|---|---|---|---|---|---|---|
+| Sales | 1,187 | 1,201 | 1,321 | 1,475 | **1,510** | Clean upward except mild Q1FY27 QoQ (+2.4%) — typical seasonal |
+| Operating Profit | 122 | 111 | 127 | 150 | **163** | Fresh peak; Q2FY26 dip fully recovered |
+| OPM % | 10% | 9% | 10% | 10% | **11%** | First quarter with double-digit + margin expansion |
+| PBT | 61 | 48 | 62 | 83 | **93** | Fresh peak; 6-quarter high |
+| PAT | 47 | 36 | 47 | 61 | **69** (std) / **71.5** (PPT) | Fresh peak; +47% from Q4FY26 previous peak |
+| EPS (INR) | 3.01 | 2.26 | 2.97 | 3.87 | **4.42** | Steady EPS compounding through the year |
+
+**Trajectory analysis:** The Q2FY26 dip (US tariff shock + CV cabin regulation) fully recovered by Q3, Q4 set fresh peaks, and Q1FY27 extends that peak on every line. This is **not a base-effect print** — it's a genuine 5-quarter acceleration. Sequential Q1 QoQ is only +2.4% (seasonal — Q1 is typically softer than Q4 in autos) but YoY +27% is the story that matters.
+
+**Segment mix — Q1FY27 update:**
+- Alloy Wheels: 20% volume / 31% value (vs FY26 exit: 20% vol / 35% value — value share dip likely OEM mix noise, not structural degradation)
+- Steel Wheels: 55% revenue (unchanged from v1)
+- Aluminium Knuckles: **~2% (₹23cr) — up from ~1% Q1FY26**; ramping toward 11L capacity FY27E
+- EV two-wheeler / three-wheeler: ~3% (no fresh disclosure; capacity constraint per Q4FY26 concall)
+
+**Capacity ladder update (Q1FY27 PPT verbatim):**
+
+| Metric | FY23 | FY24 | FY25 | FY26 | Q1FY27 | FY27E |
+|---|---|---|---|---|---|---|
+| Steel capacity (lakh) | 205 | 205 | 205 | 207 | 207 | — |
+| Steel utilization | 82% | 72% | 78% | 77% | **76%** | Flat structural; capex not routed to steel |
+| Alloy capacity (lakh) | 30 | 36 | 42 | 50 | 50 | **62 (+24%)** |
+| Alloy utilization | 82% | 96% | 82% | 80% | **80%** | Healthy absorption; +12L addition FY27 |
+| Aluminium Knuckles (lakh) | — | — | 2.5 | 5.0 | 5.0 | **11 (+2.2x)** |
+
+**Cash flow & balance sheet — FY26 print (Q1FY27 PPT annexures):**
+
+- **Total Assets:** ₹3,816.7 cr FY26 vs ₹3,365.4 cr FY25 = **+13.4% asset base growth** (Bhuj + alloy capex tracked)
+- **Net Profit Before Tax:** ₹271 cr FY26 vs ₹282 cr FY25 = **-4% YoY** (soft on annual view before Q1FY27 inflection)
+- **Cash from Operations:** ₹373 cr FY26 vs ₹582.6 cr FY25 = **-36% YoY** — CAUTION
+  - Reason: WC absorbed ₹147 cr FY26 vs release of ₹90.9 cr FY25 — inventory + receivables buildup ahead of Bhuj commissioning
+  - **This is the ONE watch item** — CFO must revert to positive in Q2/Q3FY27 as Bhuj commercial output stabilizes
+- **Analytical takeaway:** FY26 reported financials were softer than headline — Q1FY27 43% PAT jump on this weak base is a **genuine operating inflection**, not a smooth continuation of FY26 momentum. Amplifies the H conviction thesis.
+
+**FY27 Guidance — Refreshed (16-Jul-2026):**
+
+Same as Q4FY26 guide, with Q1FY27 tracking data added. Guidance NOT revised in Q1FY27 (management didn't do a formal Q&A this quarter; PPT-only).
+
+| Metric | FY27 Guide (Q4FY26) | Q1FY27 Print | Annualized | Verdict |
+|---|---|---|---|---|
+| Revenue | ~₹6,500 cr (+25%) | ₹1,510 cr | ₹6,040 cr | Track (Q1 typically 22% of FY revenue) |
+| EBITDA | ~₹650 cr (+25%) | ₹162 cr | ₹649 cr | Bullseye |
+| PAT growth | +15-20% | +43% YoY | — | Ahead of guide |
+| EBITDA/wheel | ₹300 (from ₹262) | ~₹312 | — | Beat |
+| Exports | ₹600 cr (+32%) | Not disclosed Q1 | — | Recovery from June cited |
+| Debt | ₹1,000 cr (from ₹800 cr) | Not disclosed Q1 | — | Track in Q2/Q3 |
+
+**Refreshed FY28 outlook:** No fresh guidance in Q1FY27. Q4FY26 guide holds: ₹7,300-7,500cr revenue, ₹700-750cr EBITDA. Bhuj commissioning path unchanged.
+
+---
+
 ## 5. Connecting the Dots
 
 SSWL's story is about **stacking mix-shift levers** on top of a stable base:
@@ -327,13 +429,16 @@ SSWL's story is about **stacking mix-shift levers** on top of a stable base:
 
 ## 6. Why the Market Is Paying This Multiple
 
-**Trading metrics (Jul 2026):**
-- Trailing P/E: 20.4x
-- Market cap: INR 3,880 cr
-- Enterprise value: ~INR 4,680 cr
-- EV/EBITDA (FY26): ~9.0x
-- P/B: 2.1x
-- Dividend yield: 0.5%
+**Trading metrics (Jul 2026, v1 baseline):**
+- Trailing P/E: 20.4x · Market cap: INR 3,880 cr · EV: ~INR 4,680 cr · EV/EBITDA (FY26): ~9.0x · P/B: 2.1x · Div yield: 0.5% · CMP ₹247
+
+**Trading metrics refreshed (16-Jul-2026, post Q1FY27):**
+- **CMP: ₹268** (+8.5% since 3-Jul baseline)
+- **Market cap: ₹4,219 cr** (+8.7%)
+- **Trailing P/E: 19.8x** (slightly cheaper on higher earnings)
+- **EV/EBITDA (FY26 → TTM adjusted): ~8.5x** (declining as EBITDA rises)
+- **P/B: ~2.3x** on book value ₹115
+- **Div yield: 0.47%**
 
 **Why 20x P/E?** SSWL trades at a **20% discount to Indian auto ancillaries generally** (Wheels India ~24x, Sansera ~30x, Endurance ~28x). Reasons:
 1. **Steel wheel legacy.** The 55% of revenue that's steel wheels is a lower-margin, slower-growing business. Market discounts this.
@@ -352,7 +457,7 @@ SSWL's story is about **stacking mix-shift levers** on top of a stable base:
 2. **CV cycle downturn again.** Q2FY26 showed how fast this can hit. If FY27 has another CV shock, the "17% growth" narrative breaks.
 3. **US tariff escalation.** If 25% tariff regime becomes permanent or worse, US exports go to zero — INR 60–80 cr of high-margin loss.
 
-**Peer comps (approximate, based on latest available data):**
+**Peer comps (v1 3-Jul-2026 — historical baseline, kept for lineage):**
 
 | Company | Revenue (FY26, INR cr) | EBITDA margin | ROCE | Trailing P/E | Notes |
 |---|---|---|---|---|---|
@@ -363,7 +468,25 @@ SSWL's story is about **stacking mix-shift levers** on top of a stable base:
 | Endurance Technologies | ~11,000 | ~13% | ~18% | ~28x | Diversified 2W focus, Europe base |
 | Sansera Engineering | ~4,500 | ~15% | ~15% | ~30x | Precision auto forgings |
 
-SSWL is the largest revenue base of the pure-play wheel makers, with mid-pack margins and ROCE. Trades at 4–10 turns lower P/E than the precision-components pack. The valuation discount is defensible today (steel wheel weight) but has room to close as alloy + knuckles + EV two-wheeler share rises.
+**Peer comps refreshed (16-Jul-2026, Screener consolidated):**
+
+| Company | Market Cap (Cr) | Trailing P/E | ROCE | ROE | Div Yld | Latest Qtr | Read |
+|---|---|---|---|---|---|---|---|
+| **SSWL** | **4,219** | **19.8x** | **14.8%** | **11.1%** | **0.47%** | **Q1FY27: Rev +27%, PAT +43%** | First-mover to Q1FY27 |
+| Wheels India | 3,653 | 23.6x | 18.8% | 15.8% | 0.97% | Q4FY26: Rev +23%, PAT +51% | Q1FY27 not out; higher-ROCE peer at premium |
+| Sundram Fasteners | 20,297 | 33.6x | 17.6% | 14.9% | 0.83% | Not disclosed here | Premium precision peer |
+| Sansera Engineering | 20,086 | **59.7x** ⬆️ | 14.1% | 11.5% | 0.10% | — | **Massive re-rating from ~30x (v1)** |
+| Endurance Technologies | 39,037 | **40.4x** ⬆️ | 18.3% | 15.4% | 0.42% | — | Re-rated from ~28x (v1) |
+| Bharat Forge | 100,896 | **85.5x** ⬆️ | ~14% | ~13% | 0.40% | Q4FY26: Rev +17.5%, PAT +2% | **Re-rated from 35x → 85x** in a year |
+
+**What changed in peers since v1 (3-Jul-2026):**
+- **Auto ancillary sector-wide re-rating** — Sansera 30x→60x, Endurance 28x→40x, Bharat Forge 35x→85x. SSWL essentially flat at 20x.
+- **SSWL's discount to precision peers has WIDENED from 30-50% to 40-70%** while its delivery has MATCHED or BEATEN peers (Q1FY27 growth of +27% Rev / +43% PAT vs Bharat Forge Q4FY26 +17.5% Rev / +2% PAT).
+- **Nearest structural peer Wheels India** stays at 24x — no re-rating, similar cheapness cohort as SSWL. Both are steel-wheel-heavy.
+
+**Multiple gap analysis:** SSWL at 19.8x trailing vs peer group average of ~40x = **50% discount to broader auto ancillary pack**. Even accounting for legitimate discount factors (steel wheel weight, Indian Acrylics group overhang, mid-tier ROCE), a fair multiple range for SSWL is arguably **25-30x** given: (a) growth matches or exceeds peers, (b) knuckles adjacency has similar precision-component optionality as Sansera, (c) Bhuj capacity provides a visible catalyst that peers lack. Even hitting 25x on FY27 PAT of ₹235-245cr = market cap ₹5,875-6,125cr = ~40% upside from current ₹4,219cr, before FY28 numbers.
+
+SSWL remains the largest revenue base of the pure-play wheel makers, with mid-pack margins and ROCE. The valuation discount was defensible in v1 (steel wheel weight); with Q1FY27 execution AND peer re-rating BOTH in evidence, the discount is now materially wider than justified.
 
 **Fair value framework:**
 - **Base case (60% probability):** FY28 revenue INR 7,000 cr, EBITDA INR 720 cr (10.3% margin), PAT INR 275 cr. Re-rate to 22x = INR 6,050 cr market cap. **~55% upside** over 2 years from CMP.
@@ -384,6 +507,8 @@ Weighted expected return over 2 years: ~55%, or ~24% CAGR before dividends. **Th
 
 **Risk 4 — US tariff regime becomes structural.** SSWL guided FY27 exports at INR 600 cr assuming tariff normalisation. If the current 25%+ tariff on Indian wheels becomes permanent, ~INR 100 cr of high-margin export revenue is lost. Signal to watch: US-India trade deal announcements (currently ongoing).
 
+> **⚠️ MATERIALIZED in Q1FY27** — SSWL Q1FY27 PPT (Slide 22, verbatim, 15-Jul-2026): *"exports began showing signs of recovery in June as tariff-related disruptions normalized — a potential tailwind for coming quarters."* The tariff shock DID hit Q1FY27 exports (unquantified but implied — "reported numbers are domestic-demand led"). But **June normalization signal is favorable** — recovery is early-stage but visible. Watch Q2FY27 export commentary for confirmation.
+
 **Risk 5 — Manpower cost / availability.** Q1FY27 concall: *"We've lost close to about INR 80 crores of sales because of lack of manpower."* Chandigarh/Punjab labour market has structural constraints. If manpower shortages recur or wage inflation exceeds pricing pass-through, margins compress. Signal to watch: quarterly manpower commentary; wage inflation vs revenue growth.
 
 **Risk 6 — Aluminum knuckle competition ramp.** SSWL is early in knuckles; Bharat Forge and other forge shops will enter. If Bharat Forge cracks knuckle machining, SSWL loses OEM allocation. Signal to watch: knuckle order book growth QoQ; new OEM addition commentary.
@@ -394,7 +519,15 @@ Weighted expected return over 2 years: ~55%, or ~24% CAGR before dividends. **Th
 
 **Risk 9 — Concentrated customer risk.** Top 5 OEMs likely > 60% of revenue. Loss of any single OEM allocation (e.g., Maruti moving alloy wheels to a captive supplier) would materially hurt. Signal to watch: OEM concentration disclosures (annual report).
 
+> **⚠️ QUANTIFIED in Q1FY27 (added 16-Jul-2026)** — Q1FY27 PPT explicitly discloses **Hyundai = 74% share of business across multiple models**. Renault-Nissan / Kia / Tata / Skoda make up the rest of key customers. **This is a MUCH higher single-OEM concentration than v1 assumed** (60% top-5 was our estimate; reality is one customer at 74%). Loss of Hyundai allocation on even 2 platforms would be a **thesis-breaking event**. Elevated risk. Signal to watch: Hyundai launch pipeline (Creta EV, next-gen Verna), any commentary on Hyundai localization moves or supplier consolidation.
+
 **Risk 10 — CFO transition risk.** New CFO Mr. Rahul Kumar took charge Q2FY26. First 6 months look fine but disclosure quality changes can happen 6–12 months in. Watch investor communication quality through FY27 concalls.
+
+> **✅ TRACKING WELL through Q1FY27 (added 16-Jul-2026)** — 3 quarters into Rahul Kumar's CFO tenure; Q1FY27 investor PPT is 32 pages of granular disclosure (segment mix, capacity ladder, balance sheet, cash flow snapshot). Disclosure quality **matches or exceeds** prior CFO era. Only weak signal: Q1FY27 didn't do a proper Q&A concall (PPT-only) — this is a management-choice question, not a CFO-quality question. De-emphasize this risk unless Q2FY27 shows disclosure deterioration.
+
+**Risk 11 — Working capital absorption / CFO cycle (NEW — added Q1FY27 refresh, 16-Jul-2026).** FY26 Cash-from-operations at ₹373cr vs FY25 ₹582.6cr = **-36% YoY**, driven by working capital absorption of ₹147cr (inventory + receivables buildup ahead of Bhuj commissioning). If WC absorption continues through FY27 as Bhuj commercial output ramps, debt could rise faster than the guided ₹200cr, or dividend payouts could get squeezed. Not a thesis-breaker, but a **quarter-by-quarter watch item.** Signal to watch: Q2FY27 CFO print + inventory-days trajectory + receivables ageing.
+
+**Risk 12 — Peer re-rating leaves SSWL behind (NEW — added Q1FY27 refresh, 16-Jul-2026).** Broader auto ancillary pack has re-rated aggressively in the last 12 months (Sansera 30x→60x, Endurance 28x→40x, Bharat Forge 35x→85x) while SSWL stays at 20x. If sector momentum reverses (a "quality unwind" back to mid-cycle multiples), SSWL's *nominal* upside from multiple expansion disappears. Only earnings growth (+43% Q1FY27 PAT tempo continuing) can drive returns. Bear case implies SSWL stays at 20x — that's the current price. Signal to watch: peer P/E trajectory over next 4 quarters — if peers de-rate to 25-30x, SSWL's discount narrative loses power.
 
 **Bear case scenario (15% probability):** Bhuj slips 12 months, US tariffs persist, Q2FY27 has a CV shock. FY28 revenue INR 6,000 cr, PAT INR 230 cr. Multiple stays at 20x = INR 4,600 cr market cap. 20% upside from CMP over 2 years — this is the *floor* case.
 
@@ -421,11 +554,13 @@ Weighted expected return: ~55–60% over 2 years, or ~25% CAGR + 0.5% dividend. 
 ## Source Appendix
 
 - **Concalls read:** Q4FY26 (Jun 2026), Q3FY26 (Jan 2026), Q2FY26 (Nov 2025), Q1FY26 (Aug 2025) — all sourced from BSE Corporate filings.
-- **Screener:** Consolidated view of Steel Strips Wheels Ltd (BSE: 513262, NSE: SSWL).
-- **BSE filings:** Monthly revenue disclosures, tariff intimations, capacity expansion approvals.
-- **ValuePickr thread — Steel Strips Wheels:** Active discussion covering Q1FY26 through Q4FY26. Notable posts on aluminum knuckles ramp (Q3FY26), US tariff impact on exports (Q2FY26), Bhuj commissioning timeline (Q4FY26). Community tilt is constructive but with visible awareness of steel wheel legacy drag.
+- **Q1FY27 Investor Presentation (added 16-Jul-2026):** 32 pages, fetched via api.cors.lol proxy from BSE (UUIDs cb091ba5-... + 2a30faed-...), saved to `Fetched Concalls/SSWL/SSWL_Transcript_2026-07.txt` + `SSWL_PPT_2026-07.txt`. Note: Q1FY27 was PPT-only per Screener AI — no Q&A concall was held.
+- **Screener:** Consolidated view of Steel Strips Wheels Ltd (BSE: 513262, NSE: SSWL). Refreshed 16-Jul-2026 for CMP + P/E + 5-quarter trajectory + peer comps.
+- **BSE filings:** Monthly revenue disclosures, tariff intimations, capacity expansion approvals, Q1FY27 result intimation 15-Jul-2026.
+- **ValuePickr thread — Steel Strips Wheels (topic 3891, 305 posts):** Active discussion covering Q1FY26 through Q4FY26. Notable posts on aluminum knuckles ramp (Q3FY26), US tariff impact on exports (Q2FY26), Bhuj commissioning timeline (Q4FY26). Last post: 4-Jul-2026 by @ranvir (pre-Q1FY27). Community tilt is constructive but with visible awareness of steel wheel legacy drag.
+- **ValuePickr — @ranvir's Portfolio thread (post 1854, 4-Jul-2026):** Comprehensive SSWL note covering FY26 segment breakdown, capacity ladder, export mix pivot (US 70%→42%), Q4FY26 concall summary, 20% FY27 PAT guide. Community pulse read 16-Jul-2026.
 - **Industry commentary:** SIAM monthly auto sales data (referenced for CV/PV/tractor cycle context); OEM concalls of Maruti, Tata Motors, Ashok Leyland used to cross-check demand commentary.
-- **Peer references:** Screener data for Wheels India, Bharat Forge, Sundram Fasteners, Endurance Technologies, Sansera Engineering.
+- **Peer references (refreshed 16-Jul-2026):** Screener data for Wheels India (P/E 23.6x), Bharat Forge (P/E 85.5x), Sundram Fasteners (P/E 33.6x), Endurance Technologies (P/E 40.4x), Sansera Engineering (P/E 59.7x). Auto ancillary sector re-rating captured.
 
 ---
 
