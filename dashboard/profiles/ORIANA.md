@@ -1,12 +1,137 @@
 # Oriana Power — Company Profile
 
-**Ticker:** ORIANA · NSE-SME: ORIANA · **Sector:** Power & Renewables (Solar EPC + Rooftop + Captive + Open Access + BESS) · **Conviction:** Medium-High
-**Date written:** 3-Jul-2026 · **CMP:** ₹1,553 · **Market Cap:** ₹3,155 cr · **P/E (trailing):** 12.5x · **ROCE:** 39.6% · **ROE:** 39.6%
-**Sources:** Concalls Q4FY25, Q2FY26, Q4FY26 (3 reads) + Q4FY26 PPT · Screener consolidated view · ValuePickr Oriana thread (last 18 months) · BSE/NSE filings
+**Ticker:** ORIANA · NSE-SME: ORIANA · **Sector:** Power & Renewables (Solar EPC + Rooftop + Captive + Open Access + BESS + Green Ammonia) · **Conviction:** Medium-High (HELD 16-Jul-2026)
 
-> **How to read this profile:** Every meaningful claim is either sourced from a concall (period noted) or a filing. Where I've made a judgment I've flagged it. This is personal thesis-building, not a buy/sell recommendation.
->
-> **Note on sourcing:** Oriana is NSE-SME listed. Only 3 concall transcripts available (~yearly cadence). Screener + BSE filings + investor meetings supplement.
+## 🔄 Refresh Log — 16-Jul-2026 (Tier A — post-v1 corporate actions + community pulse)
+
+**What's genuinely new since v1 (3-Jul-2026):**
+- ✅ **15-Jul-2026 Postal Ballot notice** — three corporate actions proposed (see below); newspaper publication 16-Jul-2026 (freshest filing on entire watchlist)
+- ✅ **Substack deep-dive published 1-Jul-2026** by Madhu Periasamy — external analyst view with new governance flag
+- ✅ **VP thread activity post-v1** — 3 posts (74, 75, 76) between Jun 16 and Jul 7 2026
+- ✅ **CRISIL A- rating reaffirmed 24-Jun-2026**
+- ✅ **Q4FY26 Analyst Meet transcript re-read** from NSE archives (fetched fresh via api.cors.lol — 21 pages, 78K chars, downloaded)
+
+**🆕 CORPORATE ACTIONS PROPOSED — 15-Jul-2026 Postal Ballot (NEW):**
+
+Verbatim from Screener announcement extract:
+
+> "Postal ballot for **1:5 share split**, **MOA change**, and **Section 186 limit increase to Rs. 10,000 crore**."
+
+Three separate proposals:
+1. **1:5 stock split** — Face value moves from ₹10 to ₹2. **Immediate implication:** improves liquidity for retail; each existing share becomes 5. Signal that management wants broader retail participation (or preparing for mainboard migration — VP community was frustrated at lack of migration update). CMP ₹1,468 → post-split price will optically look like ₹294.
+2. **MOA (Memorandum of Association) change** — reasoning not disclosed in filing summary; needs cover letter read
+3. **Section 186 limit increase to ₹10,000 cr** — MASSIVE. Section 186 of Companies Act 2013 governs loans, guarantees, and investments by companies. Currently unclear what the prior limit was, but ₹10,000cr = 3-4x current market cap. **Signals major fund-raising / investment capacity expansion** for asset ownership model (per Substack: management has said asset ownership + recycling to InvITs is core strategy).
+
+**Refreshed valuation snapshot (16-Jul-2026, Screener):**
+- **CMP: ₹1,468** (from v1 ₹1,553 = **−5.5%**)
+- **Market cap: ₹2,984 cr** (from v1 ₹3,155 = −5.4%)
+- **Trailing P/E: 11.8x** (from 12.5x = slight de-rating)
+- **P/B: 3.9x** on book value ₹376
+- **Div yield: 0.00%** (no dividend)
+- **52-week High/Low: ₹3,064 / ₹1,402** — CMP just 5% above 52w low
+- **From Nov 2025 peak of ₹3,064: -52%** — halved in 8 months (per Substack)
+- **ROCE 39.6% / ROE 39.6%** — elite returns held
+
+**Half-year print (v1 confirmed, no revisions — SME half-yearly reporting):**
+
+| | H1FY26 (Sep-25) | H2FY26 (Mar-26) | H2/H1 seq | FY26 total |
+|---|---|---|---|---|
+| Sales | ₹781 cr | ₹1,032 cr | +32% | ₹1,813 cr (**+84% YoY**) |
+| Op Profit | ₹180 cr | ₹217 cr | +21% | ₹397 cr |
+| OPM | 23% | 21% | −200bps | 22% |
+| PAT | ₹122 cr | ₹130 cr | +7% | ₹252 cr (**+59% YoY**) |
+| EPS | ₹60.4 | ₹64.4 | — | ₹124.7 |
+
+**Substack (Madhu Periasamy, 1-Jul-2026, ₹78K chars) — external analyst deep-dive:**
+- **Bull case:** ₹2,500-3,000+ (near Nov 2025 peak)
+- **Base case:** ₹1,650-1,700 — "market currently pricing modestly below base case"
+- **Bear case:** Below ₹1,400 (needs promoter NDU resolution + FY27 execution risk)
+- **Substack governance flag:** *"one new governance item worth watching closely"* — a **promoter NDU (Non-Disposal Undertaking)** flagged with concerns about resolution + potential "forced-selling pressure" if unwound
+- Confirms FY26 revenue ₹1,813.67cr (+83.7%), EBITDA ₹425.37cr (+73.4%), PAT ₹252.34cr (+59.1%)
+- Notes CRISIL upgraded rating; A- reaffirmed 24-Jun-2026
+- **🌟 GAME-CHANGER captured (was in v1 partial):** 30-Mar-2026 signing ceremony in New Delhi (attended by 2 Union Ministers) — TrueRE Oriana Power signed **binding 10-year Green Ammonia Purchase Agreement with SECI**: 60,000 tonnes annually at ₹52.25/kg = **₹3,135 cr total contract value**. Sale agreement between SECI + Madhya Bharat Agro Products Ltd; project in Sagar, MP.
+- **BESS scale:** 1,000+ MWh executed FY26; pipeline >3 GWh; target 20 GWh by 2030
+
+**📢 ValuePickr Community Pulse — Jun-Jul 2026 (posts 71-76):**
+
+Thread: "Oriana Power - SME play on Renewable Energy" (topic 141216, 76 posts total)
+
+Post-v1 activity summary:
+
+| Post # | Date | Author | Sentiment | Key point |
+|---|---|---|---|---|
+| 71 | Jun 2 | Indronl_Roy | 🔴 Confused | *"stock has no momentum from years... market is punishing... hold or sell in 17% loss"* |
+| 72 | Jun 2 | Sushant1 | 🔴 Critical | *"concall... management simply reads scripted answers and selectively responds"* — governance concern |
+| 73 | Jun 3 | Abdullah | 🟡 Explanatory | Defends asset recycling: *"selling solar power generating asset with long standing PPAs is not a distressed sale... business model itself"* |
+| 74 | Jun 16 | ishaanS | 🟢 Analytical | Decodes 40-50% growth guide: *"FY27 organic ₹1,850cr + Actis deal ₹700cr = ₹2,550cr total"* |
+| 75 | Jun 26 | Shail1234 | 🔴 Critical | *"Oriana concall was very poor... no update on mainboard migration, no update on actis per MW profit... 1st qtr Actis deal will materialise, 4 days left for 1st qtr to finish. No shareholder approval yet. Lot of talks... Green hydrogen, CBG, efuel, electrolyzer, so far its nothing. Simple solar n bess EPC that is all."* |
+| 76 | Jul 7 | Indronl_Roy | — | Follow-up (thin content) |
+
+**Community pulse verdict: MIXED-BEARISH.** Consensus concerns:
+1. Management concall transparency (scripted answers, not open Q&A)
+2. **Actis deal delay** — key catalyst not materialized; management said Q1FY27 materialization but community skeptical
+3. **Green hydrogen / CBG / efuel / electrolyzer commentary seen as aspirational** with no delivery
+4. **No mainboard migration update** — retail expected this to catalyze re-rating
+5. **Stock momentum absent** despite strong FY26 numbers — market punishing execution risk
+
+**Q4FY26 Analyst Meet (Jun 2026) — key management verbatim signals (re-read from NSE archives):**
+
+- CEO Rupal Gupta acknowledged: *"FY26 has been a year of mixed outcomes. Some shortfall from expected targets and plans"* (matches v1)
+- On tender participation: *"Why has Oriana not been participating in the last six months-eight months in many tenders, and even though we have participated in many tenders, why have we not won?"* — **explicit acknowledgment of conservative tender participation** (VP community wanted this addressed)
+- Response: *"We understand this business better... we understand the limitations of the business, and we understand the risk"* — defends conservatism as intentional
+- **World's largest floating solar project won by Oriana** — ₹1,200 cr order value (confirmed in transcript)
+- **FY27-FY28 guidance: ~40-50% CAGR possible; ~70% if all goes well (subject to market)** — very wide band, management being conservative
+- **Actis deferment mentioned** — some FY26 profitability slipped to FY27 (VP community concerns confirmed)
+- Management on why: *"We are keeping ourselves a little conservative where we don't want to commit"*
+- FY26 numbers verbatim (management): *"~₹1,814cr revenue, PAT ~₹250+cr, EPS ~₹124+, EBITDA ~₹425cr, PAT margin ~14%"*
+
+**Balance sheet growth (concerning for SME scale-up):**
+
+Screener consolidated:
+
+| | Mar 2024 | Mar 2025 | Mar 2026 | Change FY25→FY26 |
+|---|---|---|---|---|
+| Equity Capital | 19 | 20 | 20 | Zero dilution ✅ |
+| Reserves | 132 | 500 | **766** | +53% (PAT retention) |
+| **Borrowings** | 33 | 33 | **261** | **+691%** ⚠️ |
+| Total Liabilities | 298 | 1,133 | ~1,500+ | Rapid scale |
+
+**⚠️ Borrowings jumped 8x YoY** — from ₹33cr to ₹261cr. Substack framed this as "rising leverage" concern. This is the asset-ownership + BESS EPC financing consumption. Not thesis-breaking but supports the Section 186 limit increase proposal (need more debt headroom).
+
+**Delivery scorecard additions (vs 3-Jul-2026 baseline):**
+- ✅ **FY26 revenue ₹1,813cr (+84%)** — confirmed by Substack independent audit
+- ✅ **CRISIL A- rating reaffirmed 24-Jun-2026** — external validation
+- 🆕 **Postal ballot 15-Jul-2026:** 1:5 split + MOA change + Section 186 limit ₹10,000cr — new signals
+- 🆕 **Green Ammonia PPA SECI 30-Mar-2026:** 10yr, ₹3,135cr — massive multi-year contract
+- 🔴 **Actis deal delay** — Q1FY27 materialization pending; VP community frustrated
+- 🔴 **Concall transparency concerns** — VP community: "scripted answers, no open Q&A"
+- 🔴 **No mainboard migration update** — retail expected this catalyst
+- ⚠️ **Promoter NDU flagged by Substack** — governance item worth watching (may cause forced selling)
+- ⚠️ **Borrowings 8x YoY** — ₹33cr → ₹261cr FY26
+- 🕐 **FY27-FY28 guidance: 40-50% CAGR / 70% stretch** — wide band, mgmt conservative
+
+**Conviction change: HELD at MEDIUM-HIGH — but under Watch.**
+
+Rationale:
+1. **Delivery on the numbers is real** — FY26 +84% revenue, +59% PAT, elite ROCE 39.6% — all audited
+2. **Green Ammonia SECI PPA is a genuine game-changer** — ₹3,135cr 10-year contract with Union-Minister-attended signing
+3. **BESS scale-up real** — 1,000+ MWh executed, 3 GWh pipeline, 20 GWh 2030 target
+4. **But execution catalysts stalled** — Actis deal delay, no mainboard migration, green hydrogen still aspirational
+5. **Community sentiment mixed-bearish** — investors questioning management transparency
+6. **Stock -52% from Nov 2025 peak** — market has priced in execution risk
+7. **1:5 split + Section 186 limit expansion** are positive corporate actions but need catalysts (Actis materialization + FY27 execution) to convert
+
+Multiple has compressed to 11.8x on 39.6% ROCE — cheapest quality RE name. But conviction upside requires Actis + mainboard + guidance delivery in FY27. **Under-Watch downgrade to M if Q1FY27 (results due Aug-Sep 2026) shows continued Actis delay.**
+
+**Watch items for next refresh:**
+1. **Actis deal materialization** — Q1FY27 print (Aug-Sep 2026)
+2. **Postal ballot outcome** — 1:5 split effective date + Section 186 approval
+3. **Promoter NDU resolution** — Substack-flagged governance item
+4. **Mainboard migration announcement**
+5. **Green Ammonia project execution** — Sagar, MP construction milestones
+6. **CRISIL rating trajectory** — any further upgrades
+
+---
 
 ---
 
