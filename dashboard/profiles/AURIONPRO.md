@@ -1,10 +1,132 @@
 # Aurionpro Solutions — Company Profile
 
-**Ticker:** AURIONPRO · BSE: 532668 · NSE: AURIONPRO · **Sector:** IT / BFSI Software + Transit Tech + Data Centers + AI Software · **Conviction:** Medium-High
-**Date written:** 3-Jul-2026 · **CMP:** ₹880 · **Market Cap:** ₹4,860 cr · **P/E (trailing):** 22.3x · **ROCE:** 16.3% · **ROE:** 13.4%
-**Sources:** Concalls Q1FY26, Q2FY26, Q3FY26, Q4FY26 (4 reads) · Screener consolidated view · ValuePickr Aurionpro thread (last 18 months) · BSE filings
+**Ticker:** AURIONPRO · BSE: 532668 · NSE: AURIONPRO · **Sector:** IT / BFSI Software + Transit Tech + Data Centers + AI Software · **Conviction:** Medium-High (under review — see 16-Jul-2026 refresh)
 
-> **How to read this profile:** Every meaningful claim is either sourced from a concall (quarter noted) or a filing. Where I've made a judgment I've flagged it. This is personal thesis-building, not a buy/sell recommendation.
+## 🔄 Refresh Log — 16-Jul-2026 (Tier A — Q4FY26 print grounded + material post-v1 signals)
+
+**Latest data available:**
+- ✅ **Q4FY26 (May 12, 2026) full transcript in repo + re-read** — verified v1 numbers
+- ✅ **Screener consolidated page refresh** — full quarterly trajectory + BS + CFO + latest CMP
+- ✅ **Post-v1 (3-Jul-2026) announcements captured** via Screener extraction
+
+**⚠️ CMP anomaly flagged:** Screener consolidated view shows **CMP ₹743** (Mcap ₹4,100cr, P/E 18.8x). Dashboard 16-Jul-26 bulk fetch showed **₹855** (Mcap ₹4,725cr, P/E 21.7x). The ~₹112 gap is notable — could be exchange timing (standalone vs consolidated), Screener sync lag, or actual movement. **Screener meta: "Mkt Cap: 4,100 Crore (down -45.1% in 1 year)"** — either way, materially de-rated from peak. Using ₹743 for the refreshed valuation math since it's Screener's live figure at fetch time.
+
+**FY26 Full-year Print (re-verified vs v1 baseline):**
+
+| Metric | FY26 | FY25 | YoY | v1 says | Match? |
+|---|---|---|---|---|---|
+| Revenue | ₹1,411 cr | ~₹1,174 cr | **+20.2%** | ₹1,411 (+20.2%) | ✅ |
+| EBITDA margin | **20.02%** | 21%+ | −100bps | 20.02% | ✅ |
+| PAT margin | **15.02%** | 16%+ | −100bps | 15.02% | ✅ |
+| PAT | **~₹212 cr** | ~₹187 cr | +13% | ~₹212 | ✅ |
+
+**No numeric revisions from v1.** Refresh value adds elsewhere:
+
+**Q4FY26 (Mar 2026) alone (verbatim from Screener quarterly, standalone):**
+
+| | Q4FY26 (Mar-26) | Q4FY25 (Mar-25) | YoY |
+|---|---|---|---|
+| Sales | ₹346 cr | ₹327 cr | **+6%** (weakest quarter) |
+| Operating Profit | ₹67 cr | ₹66 cr | +1.5% |
+| **OPM** | **19%** | 20% | −100bps (below guide band) |
+| Other Income | ₹15 cr | ₹3 cr | +5x (boosted PAT) |
+| PBT | ₹67 cr | ₹59 cr | +14% |
+| **Tax %** | **8%** | 14% | Unusually low (deferred tax reversal likely) |
+| **PAT** | **₹61 cr** | ₹51 cr | +20% (optically strong but tax-aided) |
+| EPS | ₹11.13 | ₹9.12 | +22% |
+
+**Read on Q4FY26 print:** Revenue growth of just +6% YoY is the weakest quarterly YoY in the entire 13-quarter table — Middle East + hyperscaler execution delays materially bit. PAT growth of +20% is misleadingly strong because Other Income spiked to ₹15cr (from ₹3cr) and tax rate collapsed to 8% (from 14%). On an operating basis, Q4FY26 growth was minimal.
+
+**5-quarter trajectory (Screener consolidated, standalone):**
+
+| | Q4FY25 | Q1FY26 | Q2FY26 | Q3FY26 | Q4FY26 |
+|---|---|---|---|---|---|
+| Sales (₹cr) | 327 | 337 | 358 | **371** | 346 |
+| PAT (₹cr) | 51 | 51 | 56 | **44** | 61 |
+| OPM % | 20% | 20% | 20% | 20% | **19%** |
+| EPS (₹) | 9.12 | 9.29 | 9.84 | 7.63 | 11.13 |
+
+**Trajectory read:** Revenue peaked in Q3FY26 (₹371cr) and dropped to Q4FY26 (₹346cr, -7% QoQ). PAT was weakest in Q3FY26 (₹44cr with negative other income of -₹7cr). Q4FY26 PAT ₹61 got a tax + other income boost, masking operating softness. **The underlying story: revenue plateau since Q2FY26** — this is what markets are pricing at ₹743.
+
+**⚠️ CFO Watch — Cash flow deterioration MATERIALIZED FY26:**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| CFO (₹cr) | 62 | 41 | 164 | **157** | **56** |
+| CFO YoY | | −34% | +300% | −4% | **−64%** |
+
+**FY26 CFO of ₹56cr vs FY25 ₹157cr = -64% decline.** Not thesis-breaking (positive CFO maintained) but a clear operating-cash conversion deterioration. Cash from Investing was -₹154cr (data center capex + intangibles investment) — this alongside weak CFO means net cash flow is under pressure. Same pattern as Rajesh Power's WC blow-up but AURIONPRO is one degree less severe (CFO still positive vs Rajesh's -₹41cr).
+
+**🆕 MATERIAL POST-V1 SIGNAL — US$33M Fintech Win (21-May-2026):**
+
+Verbatim from Screener announcement extract (post-v1 write date):
+
+> "21 May 2026 — Aurionpro won a three-year USD 33 million fintech engagement in the US."
+
+**~₹275 cr order over 3 years = ~₹92 cr annual = 6.5% of FY26 revenue.** This is the geographic-diversification-from-Middle-East story LANDING (Ashish Rai's Q4FY26 concall quote: *"we are also taking it outside... into US"*). Concrete US customer win validates strategy.
+
+**⚠️ GOVERNANCE FLAG — SEBI PIT show-cause (added 16-Jul-2026):**
+
+Verbatim from Screener announcement extract (29 May 2026):
+
+> "Annual Secretarial Compliance Report cites INR 11,800 fines for two LODR delays, **one PIT show-cause notice**, and past board-composition lapse."
+
+The fine amount is trivial (₹11,800). But **SEBI PIT (Prohibition of Insider Trading) show-cause notice** is a genuine governance flag — indicates SEBI is investigating insider trading regulation compliance at Aurionpro. Board-composition lapse also flagged. This is a **new NEGATIVE signal for MH conviction** — historically Aurionpro governance was clean. Need details on PIT scope from Q1FY27 concall or annual report.
+
+**Balance sheet trajectory (Screener consolidated):**
+
+| | FY25 | FY26 | Change |
+|---|---|---|---|
+| Equity Capital | 54 | 54 | Zero dilution ✅ |
+| Reserves | 1,450 | 1,684 | +16% (retention) |
+| Borrowings | 31 | 61 | +97% (from very low base — comfortable) |
+| Total Liabilities | 1,948 | 2,335 | +20% |
+| **Fixed Assets** | **732** | **892** | **+22%** — data center capex accelerating |
+| Investments | 0 | 0 | — |
+| Other Assets (WC) | 1,196 | 1,443 | +21% |
+| Total Assets | 1,948 | 2,335 | +20% |
+
+Debt/Equity: ₹61cr / ₹1,738cr = **0.04x** — extremely comfortable. Borrowings doubled but off tiny base. Fixed asset build-out visible.
+
+**Refreshed valuation snapshot (16-Jul-2026, per Screener):**
+- CMP ₹743 (v1 ₹880 = **-15.6%**)
+- Mcap ₹4,100 cr (v1 ₹4,860 = -15.6%)
+- Trailing P/E **18.8x** (from 22.3x = de-rated -16%)
+- P/B 2.4x on book value ₹314 (from 2.8x)
+- 52-week High/Low: **₹1,666 / ₹720** — CMP just 3% above low
+- Down **45% in 1 year** per Screener meta — big de-rating
+
+**Delivery scorecard additions (vs 3-Jul-2026 baseline):**
+- 🔴 **Q4FY26 revenue +6% YoY** — weakest quarter in 13-Q history; Middle East + hyperscaler drag
+- 🟡 **Q4FY26 PAT +20% YoY** — optically OK but boosted by Other Income spike + 8% tax rate
+- 🔴 **CFO −64% YoY** (₹157cr FY25 → ₹56cr FY26) — operating cash conversion weakening
+- ✅ **US$33M fintech engagement won 21-May-2026** — validates diversification-from-ME strategy
+- 🔴 **SEBI PIT show-cause notice** disclosed — governance flag added
+- ✅ **Fixed asset build +22% YoY** to ₹892cr — data center capex confirmed on-track
+
+**Peer refresh:** Skipped — Chrome offline. Datamatics (peer) trades at 21.3x P/E per bulk fetch. AURIONPRO now at 18.8x = cheaper than Datamatics for first time in the profile. Full peer table on next refresh.
+
+**📢 Community Pulse:** Pending Chrome. ValuePickr Aurionpro thread scan queued.
+
+**Conviction change: MH → M (proposed for review).**
+
+Rationale:
+1. **Q4FY26 revenue +6% YoY** confirms Middle East drag isn't Q4-isolated — it's persistent
+2. **CFO -64%** while investing continues = free cash flow pressure through FY27
+3. **SEBI PIT show-cause** is a new negative signal on governance quality (was a 🌟 in v1)
+4. **US$33M US win** is a positive but offsetting factor
+5. **-45% stock in 1 year** — market has already priced much of this; question is whether the reset is enough
+
+The 18.8x P/E on ROCE 16.3% is now optically cheap. But the CFO story + governance signal suggests waiting for Q1FY27 print (early Aug 2026) before adding conviction back. **Interim recommendation: HELD at MH with elevated watch** — formal downgrade only if Q1FY27 shows continued revenue weakness OR PIT show-cause becomes material.
+
+**Watch items for next refresh:**
+1. Q1FY27 revenue print — is Middle East recovering or still a drag?
+2. Q1FY27 CFO — must show improvement toward ₹100-150cr run rate
+3. **SEBI PIT show-cause resolution / disclosure detail** — critical
+4. Software 2.0 first products commercialization
+5. Hyperscaler mandate revenue booking start
+
+---
 
 ---
 
@@ -112,8 +234,14 @@ Aurionpro plays across 4 verticals — each with distinct forces:
 | **FY27 growth ahead of industry** | Q4FY26 | Refused to give specific number | 🕐 Pending |
 | **Q1FY27 Middle East recovery** | Q4FY26 | Delayed | 🕐 Pending |
 | **FY27 margin sustainability** | Q4FY26 | Not planning significant dip | 🕐 Pending |
+| **Q4FY26 operating momentum** | Reset mid-FY26 | **Sales +6% YoY, OPM 19% (below 20-21% band)** — weakest quarter in 13Q | 🔴 Miss on operating basis |
+| **FY26 CFO sustainability** | Implied | **CFO ₹56cr FY26 vs ₹157cr FY25 = −64%** — operating cash pressure | 🔴 Deteriorated |
+| **US market entry (Q4FY26 concall commentary)** | May 2026 | **US$33M three-year fintech engagement won 21-May-2026** — first material US customer | ✅ Delivered |
+| **Governance quality (implicit v1 assumption)** | v1 baseline | **SEBI PIT show-cause notice** + LODR delay fines + board composition lapse (Annual Sec Compliance 29-May-2026) | 🔴 Governance signal |
 
 **Verdict on management:** Candid about FY26 miss, articulate on AI transformation strategy. Bet on Ashish Rai to execute Software 2.0 stack + FY27 recovery. **This is a founder-driven strategic transformation, not a boilerplate IT services company.**
+
+**Refresh verdict on management (16-Jul-2026, post Q4FY26 re-read):** Delivery track record extended — **6 ticks / 4 misses / 6 pending / 1 new signal** across 17 milestones. **First governance signal** (SEBI PIT show-cause) is new negative — historically clean track record. But **US$33M win validates strategy**. Bet on Ashish Rai remains intact — the transformation IS underway, just against tougher-than-guided backdrop. **Trust marginally reduced but not broken.**
 
 ---
 
@@ -175,35 +303,85 @@ Aurionpro plays across 4 verticals — each with distinct forces:
 
 ## 6. Why the Market Is Paying This Multiple
 
-**Trading metrics:**
-- Trailing P/E: 22.3x
-- P/B: 2.8x
-- Market cap: INR 4,860 cr
-- Dividend yield: 0.45%
+**Trading metrics (v1, 3-Jul-2026):**
+- Trailing P/E: 22.3x · Mcap: ₹4,860 cr · P/B: 2.8x · Div yield: 0.45% · CMP ₹880
 
-Priced fairly for transformation year + FY27 catalyst.
+**Trading metrics refreshed (16-Jul-2026, Screener consolidated):**
+- **CMP: ₹743** (from ₹880 = **−15.6% since v1 baseline; −55% from 52w high ₹1,666**)
+- **Market cap: ₹4,100 cr** (from ₹4,860 = -15.6%)
+- **Trailing P/E: 18.8x** (from 22.3x = −16% multiple compression)
+- **P/B: 2.4x** on book value ₹314
+- **Div yield: 0.54%** (from 0.45% = slight uplift on lower price)
+- **52-week range: ₹1,666 / ₹720** — CMP just **3% above 52-week low**
+- **Down -45% in 1 year** (Screener meta)
 
-**Fair value framework:**
-- **Base case (55%):** FY28 revenue INR 1,850 cr (+22% CAGR), PAT INR 285 cr, multiple 22x = INR 6,270 cr. **~29% upside.**
-- **Bull case (30%):** Software 2.0 succeeds + Middle East recovers. FY28 revenue INR 2,100 cr, PAT INR 340 cr, multiple 25x = INR 8,500 cr. **~75% upside.**
-- **Bear case (15%):** Middle East drag persists + margins compress. FY28 revenue INR 1,600 cr, PAT INR 220 cr, multiple 20x = INR 4,400 cr. **~10% downside.**
+The market has significantly re-rated AURIONPRO downward. At 18.8x P/E on 16.3% ROCE, it's now cheaper than Datamatics (peer at 21.3x, same watchlist) for the first time.
 
-Weighted return: **~35% over 2 years = ~16% CAGR + dividend.** Attractive with clear catalysts.
+**Peer refresh (partial — Chrome offline for full table):**
+- Datamatics: 21.3x P/E, ROCE ~30%+ (per bulk fetch 16-Jul-26)
+- Persistent, Coforge, LTIMindtree: broadly 40-60x P/E (premium IT services multiples)
+- Larger IT peer sector re-rating hasn't included AURIONPRO — discount widening
+
+**Fair value framework (refreshed 16-Jul-2026):**
+
+*v1 baseline preserved for lineage:*
+- Base (55%): FY28 rev ₹1,850cr, PAT ₹285cr, 22x → ₹6,270cr = ~29% upside
+- Bull (30%): FY28 rev ₹2,100cr, PAT ₹340cr, 25x → ₹8,500cr = ~75% upside
+- Bear (15%): FY28 rev ₹1,600cr, PAT ₹220cr, 20x → ₹4,400cr = ~10% downside
+- Weighted: ~35%
+
+*Refreshed post-Q4FY26 + de-rating:*
+- **Base case (50%):** Middle East recovery over 2-3 quarters + US ramp + Software 2.0 partial monetization. FY28 revenue ₹1,900cr (+16% CAGR from ₹1,411cr FY26 — modest given Q4 weakness), PAT ₹290cr (15% margin), multiple 20x = ₹5,800cr. **~41% upside** from ₹4,100cr Mcap.
+- **Bull case (25%):** Software 2.0 succeeds commercially + hyperscaler mandate ramps + Middle East fully recovers. FY28 revenue ₹2,200cr, PAT ₹350cr, multiple 25x = ₹8,750cr. **~113% upside**.
+- **Bear case (25%, ↑ from 15%):** Middle East drag persists + CFO stays weak + SEBI PIT escalates + margin dips to 18%. FY28 revenue ₹1,700cr, PAT ₹250cr (14.7% margin), multiple 16x = ₹4,000cr. **~-2% downside**. (Bear now essentially flat given price already reset.)
+
+**Weighted expected return over 2 years: ~50%**, or ~22% CAGR + 0.5% dividend.
+
+**What changed vs v1:** Base case reweighted (55%→50%) and bear case elevated (15%→25%) reflecting realized Middle East drag + governance flag + CFO deterioration. Multiples reset lower across scenarios reflecting sector positioning. But **absolute weighted return actually IMPROVED (35% → 50%)** because the starting price has fallen so much. **Classic "price adjusts, math shifts" dynamic.**
+
+**Trade-off read:** AURIONPRO now offers better math than at v1 baseline (₹880), but requires bigger conviction on transformation story + PIT resolution. This is a "buy on more clarity" candidate — Q1FY27 print (Aug 2026) is the trigger point.
 
 ---
 
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — Middle East war prolongs into FY27.**
+
+> **⚠️ MATERIALIZED (added 16-Jul-2026)** — Q4FY26 sales +6% YoY (weakest quarter in 13Q history). Ashish Rai in Q4FY26 concall: *"we are clearly not there"* on Middle East recovery; *"seeing some beginning of activity"* — early signal only. Q1FY27 print in early Aug 2026 is the test.
+
 **Risk 2 — Software 2.0 rollout delays or fails commercially.**
+
+> Status quo — Q4FY26 concall confirmed *"the next couple of quarters, right, where we will build out the software 2.0 version of every [product]"*. First commercial products expected H2FY27. No delay flag yet.
+
 **Risk 3 — Data center hyperscaler execution issues persist.**
+
+> **⚠️ CONTINUING (added 16-Jul-2026)** — Q4FY26 concall: *"A very large hyperscaler win that we announced [revenue] moved from Q4 to Q1FY27"*. Fixed assets +22% YoY (₹732→₹892cr) confirms capex on-track. Revenue conversion still pending — will show up in Q1FY27 print.
+
 **Risk 4 — Margin compression from continued investment intensity.**
+
+> **⚠️ EDGE OF BAND (added 16-Jul-2026)** — Q4FY26 EBITDA margin 19% (below 20-21% guide band). Full-year FY26 OPM stayed 20% but Q4 broke below. Ashish Rai: *"We are not planning on any significant margin dip"* — this is the guide, but Q4 already shows the pressure.
+
 **Risk 5 — Working capital blow-up from large projects.**
-**Risk 6 — Anthropic/OpenAI foundation models undercut BFSI positioning.**
+
+> **⚠️ EARLY WARNING (added 16-Jul-2026)** — **CFO fell 64% YoY** (₹157cr FY25 → ₹56cr FY26). Not as severe as Rajesh Power's outright negative CFO, but the direction is worrying given data center capex is still ramping. Other Assets +21% YoY. **Base case now requires Q1FY27 CFO to show sequential improvement** — if it doesn't, this becomes MH → M downgrade trigger.
+
+**Risk 6 — Anthropic/OpenAI foundation models undercut BFSI positioning.** *(No update this refresh — thesis unchanged)*
+
 **Risk 7 — Additional promoter dilution.**
-**Risk 8 — Transit global expansion slower.**
-**Risk 9 — Competition from Persistent + Coforge + LTIMindtree.**
+
+> **✅ TRACKING WELL (added 16-Jul-2026)** — Promoter holding held at 26.88% since Jun-2024 (2+ years stable). Zero equity capital dilution (₹54cr → ₹54cr FY25→FY26). No new preferential issue. FII rose from 2.90% to 16.29% (institutional accumulation continues).
+
+**Risk 8 — Transit global expansion slower.** *(No update this refresh)*
+
+**Risk 9 — Competition from Persistent + Coforge + LTIMindtree.** *(Note: AURIONPRO now at 18.8x P/E vs peers 40-60x — significant discount reflects execution concerns)*
+
 **Risk 10 — Retail-heavy shareholder base (50,976).**
+
+> **⚠️ ACCUMULATING RISK (added 16-Jul-2026)** — Stock down 45% in 1 year per Screener meta. Near 52-week low (₹720). Retail-heavy holder base could see continued exit pressure if governance PIT show-cause escalates OR Q1FY27 disappoints. Downside support: 18.8x P/E now approaching sector floor.
+
+**Risk 11 — SEBI PIT show-cause notice (NEW — added 16-Jul-2026).** Annual Secretarial Compliance filing 29-May-2026 discloses **one PIT (Prohibition of Insider Trading) show-cause notice**, LODR delay fines (₹11,800 — trivial), and past board-composition lapse. PIT show-cause is a genuine governance flag — SEBI is investigating insider trading regulation compliance. Show-cause is NOT an adverse order (yet), but resolution outcome matters. Historically Aurionpro governance was clean; this is a new-signal negative. **Details TBD.** Signal to watch: SEBI order/resolution announcement; any additional PIT-related disclosures; changes to insider trading window policy.
+
+**Risk 12 — Stock momentum de-rating trap (NEW — added 16-Jul-2026).** AURIONPRO has de-rated from ₹1,666 (52w high) to ₹743 = **-55% peak-to-current**. Screener meta reports **-45% in 1 year**. This is a "falling knife" scenario for momentum-driven investors. Even if fundamentals stabilize in Q1FY27, market sentiment could take 2-3 quarters to re-rate. **Bear case now more probable than v1's 15%** — worth watching whether the peer-relative discount (18.8x vs 40-60x for larger IT peers) attracts value buyers or continues to widen.
 
 ---
 
@@ -221,11 +399,16 @@ Weighted return: **~35% over 2 years = ~16% CAGR + dividend.** Attractive with c
 
 ## Source Appendix
 
-- **Concalls read:** Q4FY26 (May 2026, primary), Q3FY26 (Feb 2026), Q2FY26 (Nov 2025), Q1FY26 (Jul 2025); plus Q4FY26 investor deck.
-- **Screener:** Aurionpro Solutions Ltd (BSE: 532668, NSE: AURIONPRO).
-- **BSE filings:** Aurion AI trade finance platform launch, data center hyperscaler win, foundation model investments.
-- **ValuePickr — Aurionpro thread:** Active discussion covering Software 2.0 transformation + Middle East recovery + Data Center scaling.
-- **Peer references:** Persistent Systems, Coforge, LTIMindtree, Cyient, Datamatics, Tata Elxsi.
+- **Concalls read (v1 baseline):** Q4FY26 (May 12, 2026 primary — file confirmed genuine), Q3FY26 (Feb 2026), Q2FY26 (Nov 2025), Q1FY26 (Jul 2025); plus Q4FY26 investor deck.
+- **Refreshed 16-Jul-2026:** Q4FY26 transcript re-read; full 13-quarter Screener trajectory captured; balance sheet + CFO tables reviewed.
+- **Screener:** Aurionpro Solutions Ltd (BSE: 532668, NSE: AURIONPRO) — consolidated view.
+- **BSE filings (added 16-Jul-2026):**
+  - **21-May-2026** Reg 30 LODR Press Release: *"Aurionpro won a three-year USD 33 million fintech engagement in the US"*
+  - **29-May-2026** Annual Secretarial Compliance Report: *"₹11,800 fines for two LODR delays, **one PIT show-cause notice**, and past board-composition lapse"*
+  - **12-May-2026** Q4 & FY26 Earnings Call held; transcript filed 15-May-2026
+- **ValuePickr — Aurionpro thread:** Pulse scan pending Chrome availability.
+- **Peer references (refreshed 16-Jul-2026):** Datamatics 21.3x P/E (per bulk fetch — same watchlist), Persistent/Coforge/LTIMindtree 40-60x P/E broad reference. Full peer table pending.
+- **Data quality note:** File `AURIONPRO_Transcript_2026-06.pdf` in repo is actually the May 12, 2026 Q4FY26 earnings call transcript (filing dated May 15, 2026). Filename date "2026-06" is a mislabel — content is Q4FY26/FY26 which matches v1's Q4FY26 source citation.
 
 ---
 
