@@ -232,7 +232,7 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
   <div class="kpi-card"><div class="kpi-value" id="kpi-sme">13</div><div class="kpi-label">SME / SME-recent</div></div>
   <div class="kpi-card"><div class="kpi-value" id="kpi-mainboard">36</div><div class="kpi-label">Main-board</div></div>
   <div class="kpi-card"><div class="kpi-value" id="kpi-highconv">34</div><div class="kpi-label">High + Med-High Conviction</div></div>
-  <div class="kpi-card"><div class="kpi-value" id="kpi-sectors">18</div><div class="kpi-label">Sectors Covered</div></div>
+  <div class="kpi-card"><div class="kpi-value" id="kpi-sectors">19</div><div class="kpi-label">Sectors Covered</div></div>
 </div>
 
 <!-- Visualizations -->
@@ -438,7 +438,7 @@ const stocks = [
       {date: "29 Apr 2026", body: "Baseline. H1 FY26 rev ₹781 Cr (+117% YoY); OB ₹2,500 Cr+; ₹1,180 Cr DVC Maithon win adds ~50% to OB."}] },
 
   { id: "rajesh", num: 2, name: "Rajesh Power Services Ltd", listing: "mainboard", batch: 1,
-    sector: "Renewable Energy & Power", conviction: "high",
+    sector: "Power T&D EPC / Turnkey", conviction: "high",
     mcap: 3000, mcapDisp: "~3,000", mcapSource: "Estimated (verify Screener)",
     thesis: "Niche Gujarat T&D EPC; FY26 rev +52%; OB ₹3,326 Cr (~2x rev); discom-capex pure-play.",
     tagline: "Power T&D EPC | Listed Dec-2023 | Discom-capex pure-play",
@@ -1344,6 +1344,24 @@ const stocks = [
     mos: "Thin at CMP ₹1,184. Meaningful MoS only below ₹1,000. Quality-growth compounder at fair (not cheap) multiple. Best entry: broader small-cap correction OR below ₹1,000.",
     changes: [
       {date: "12 Jul 2026", body: "Card + profile added. **New Sector 18 (Home Building Products / Kitchen & Bath) created** — approved by Rajat. **First raw-transcript-grounded profile using api.cors.lol CORS proxy method** (new working path for BSE-hosted PDFs, restoring capability lost after Anthropic tightened allowlist post-Jul-2). 4 raw concalls fetched: Q1FY26 (Aug 2025) 44K chars, Q2FY26 (Nov 2025) 44K chars, Q3FY26 (Feb 2026) 46K chars, Q4FY26 (May 2026) 39K chars = 173K chars raw transcript content. Screener: BSE 524091 · NSE CARYSIL, CMP ₹1,184, Mcap ₹3,352 Cr, P/E 33.8x, ROCE 17.8%, ROE 17.4%, Promoter 41.3%. Analogy: **Rohit Sharma — captain era** (multi-format player, patient sequential evolution, coach humility)."}] },
+  { id: "transraill", num: 50, name: "Transrail Lighting Ltd", listing: "mainboard", batch: 7,
+    sector: "Power T&D EPC / Turnkey", conviction: "med-high",
+    mcap: 6460, mcapDisp: "6,460", mcapSource: "Screener 23-Jul-26",
+    thesis: "Founder-led (Digambar Bagde, since 1984) backward-integrated T&D turnkey EPC. FY26 rev ₹6,880 cr (+30%, beat twice-raised guidance 25>27>30%), PAT ₹404 cr, ROCE 25.8%, 15.5x P/E. Order book ₹16,361 cr (2.4x). CFO doubled to ₹817 cr, net debt −30%, CRISIL AA-. Cheap founder-led compounder on the transmission cycle, kept cheap by four live overhangs.",
+    tagline: "Power T&D turnkey EPC + backward-integrated tower/conductor mfg | ex-Gammon T&D (NCLT 2016), founded 1984 | Mumbai | Digambar Bagde (Exec Chairman) + Randeep Narang (MD & CEO, ex-KEC)",
+    metrics: [
+      {label: "Market Cap", value: "₹6,460 Cr", source: "Screener 23-Jul-26"},
+      {label: "P/E / P/B / Div Yield", value: "15.5x / 2.8x / 0.17%", source: "Screener"},
+      {label: "ROCE / ROE", value: "25.8% / 20.0%", source: "Concall/Screener"},
+      {label: "Promoter Holding", value: "71.12% (Ajanma Holdings, flat 7 qtrs)", source: "Screener Jun-26"} ],
+    business: "40-year founder-led integrated Power T&D turnkey EPC (lines up to 765kV / 800kV HVDC) with in-house tower (172,400 MTPA, doubled FY26), conductor and pole manufacturing (~60-65% backward-integrated). Four verticals: T&D ~90%, poles & lighting, railways, civil (+ nascent solar EPC). ~50:50 domestic:international revenue; footprint across 63 countries (Africa ~20% of order book). Founded by Digambar Bagde 1984; acquired Gammon India T&D via NCLT 2016; IPO Dec-2024.",
+    thesisPoints: ["FY26 beat: rev ₹6,880 cr (+30%) vs guidance raised 25>27%; EBITDA ₹820 cr (11.9%), reported PAT ₹404 cr (operational ₹421 cr, +28%; ₹17 cr Q3 labour-code exceptional).", "Balance sheet REPAIRED while growing: operating cash flow doubled to ₹817 cr, net debt −30% to ₹274 cr, WC 91>81 days, CRISIL upgraded to AA- (reaffirmed Mar-26).", "Backward integration (~60-65% in-house towers/conductors, ~95% util) drives ~12% EBITDA = 3-5% above peers per mgmt; PQ depth (765kV, 800kV HVDC) + 63-country footprint.", "Order book ₹16,361 cr incl L1 (~2.4x FY26 rev, 2yr visibility); FY27 bid pipeline India ₹80k-1L cr + intl ~₹50k cr. Marquee clients: POWERGRID (20+ jobs), Adani, ReNew, Reliance.", "Strong governance for the size: CEO Randeep Narang poached from KEC International; board incl. ex-POWERGRID CMD I.S. Jha + Vinod Dasari. Promoter 71.12% flat, no pledging."],
+    risks: ["QIP fund-raise pending (board considering raise + interim dividend) = dilution overhang, size/pricing unknown.", "Margin guided DOWN to ~11% for FY27 (from 11.9%); on 20% revenue growth, sub-11% margins mean near-flat PAT.", "DII/PE exit: DIIs cut 15.15%>6.51% since listing (largely the Asiana Fund PE unwind + Vita Dani board resignation Nov-25) = persistent supply overhang.", "Order-inflow MISS: FY26 ₹8,520 cr vs ₹10,000 cr guide; a second miss would dent the visibility thesis.", "Working-capital intensity: ₹2,643 cr contract assets, ~₹1,500 cr receivables (60% intl), ₹1,200 cr+ LC; analysts flagged CFO-to-EBITDA below peers. Only ~35% price-variation pass-through.", "Governance to monitor: Burberry Infra related-party loan (~₹80 cr, 12% int, repay Sep-26); ₹67 cr contingent liability; VP thread flagged RHP legal/compliance disclosures. Short (~1.5yr) listed record."],
+    catalysts: ["QIP terms announcement (size, price, dilution) — the key near-term trigger", "Q1FY27 print (Aug-2026) — first read on the ~11% margin guide + inflow catch-up", "Full Phase-1 capex (towers to 1.96L MT, conductor doubling) by Q2FY27", "Order-inflow toward ₹10-11k cr FY27 target; large HVDC/765kV wins", "Burberry Infra loan repayment landing on schedule (Sep-26)", "DII/PE overhang clearing"],
+    valuation: "FY28E PAT ~₹560 cr @ 16-18x = ~₹700-760 (Base +50%). Bull +110% (margin holds 11.5-12%, re-rate 20-22x). Bear -25% (sub-11% margin, QIP dilution, slower growth, de-rate 12x). Weighted 2yr: ~+50% (~22% CAGR) + 0.17% div.",
+    mos: "Reasonable at CMP ₹481 (~16x FY26, 44% off ₹856 high). Cheap for a 26% ROCE founder-led compounder; QIP terms + FY27 margin print are the two swing factors. Prefer sizing after QIP clarity.",
+    changes: [
+      {date: "23 Jul 2026", body: "Card + full 8-section profile added. **New Sector 19 (Power T&D EPC / Turnkey) created** — approved by Rajat; RAJESH moved in from Sector 13 as co-founding member. **First Claude-driven Chrome concall fetch** (no user Terminal) — all 4 FY26 transcripts + investor deck fetched via Screener ids > pdf.js + api.cors.lol > committed to disk. FY26: rev ₹6,880 cr (+30%), reported PAT ₹404 cr, ROCE 25.8%, CFO doubled to ₹817 cr, net debt −30%, CRISIL AA-. Order book ₹16,361 cr. ⚠️ FY27 margin guided ~11%, order-inflow miss, DII/PE (Asiana) exit, QIP pending. Screener: BSE 544317 · NSE TRANSRAILL, CMP ₹481, Mcap ₹6,460 Cr, P/E 15.5x, Promoter 71.12%. Conviction MH. Analogy: **Shubman Gill circa 2024-25** (pedigreed, technically complete, still proving temperament on turning pitches)."}] },
 
   { id: "amic", num: 47, name: "Amic Forging Ltd", listing: "sme", batch: 6,
     sector: "Auto Components & Forgings", conviction: "med",
@@ -1458,6 +1476,7 @@ const CMP_DATA = {
   "amic":        { cmp: "₹1,770", date: "16-Jul-26", source: "Screener bulk 16-Jul-26" },
   "carysil":     { cmp: "₹1,215", date: "16-Jul-26", source: "Screener bulk 16-Jul-26" },
   "diacabs":     { cmp: "₹224", date: "16-Jul-26", source: "Screener (DIACABS, BSE 522163) — 25-May-26 close per Screener" },
+  "transraill":  { cmp: "₹481", date: "23-Jul-26", source: "Screener 23-Jul-26 (live, Chrome)" },
 };
 function getCmp(id) { return CMP_DATA[id] || { cmp: "—", date: "—", source: "—" }; }
 
@@ -1513,7 +1532,8 @@ const PROFILE_STATUS = {
   "deep":       { ready: true,  symbol: "DEEP", date: "4-Jul-2026", note: "v2 — transcript-grounded rewrite from 4 concalls (Q4FY26, Q3FY26, Q2FY26, Q1FY26) via Screener + tradebrains/scanx news corroboration" },
   "amic":       { ready: true,  symbol: "AMIC", date: "4-Jul-2026", note: "v2 — transcript-grounded rewrite from RHP + AR FY25 + AR FY24 + 4 half-yearly filings via pdf.js-in-Chrome" },
   "carysil":    { ready: true,  symbol: "CARYSIL", date: "12-Jul-2026", note: "v1 — raw-transcript-grounded via NEW api.cors.lol CORS proxy method (Q1-Q4 FY26 concalls, 173K chars)" },
-  "diacabs":    { ready: true,  symbol: "DIACABS", date: "15-Jul-2026", note: "v2 refresh via Q3FY26 PPT — fetched via NEW mcp__workspace__web_fetch + api.cors.lol server-side path. Q3FY26 PAT +692% YoY, 9M FY26 PAT +264% YoY, ECHO Conductor 550KM order + CREDAI partnership + EY internal audit. Still no concall transcripts (DIACABS practice); refresh again after FY26 audited results." }
+  "diacabs":    { ready: true,  symbol: "DIACABS", date: "15-Jul-2026", note: "v2 refresh via Q3FY26 PPT — fetched via NEW mcp__workspace__web_fetch + api.cors.lol server-side path. Q3FY26 PAT +692% YoY, 9M FY26 PAT +264% YoY, ECHO Conductor 550KM order + CREDAI partnership + EY internal audit. Still no concall transcripts (DIACABS practice); refresh again after FY26 audited results." },
+  "transraill": { ready: true,  symbol: "TRANSRAILL", date: "23-Jul-2026", note: "v1 — fully transcript-grounded: all 4 FY26 concalls + investor deck read in depth. First Claude-driven Chrome fetch (Screener ids > pdf.js + api.cors.lol > device_commit). Founder-led T&D EPC; FY26 +30% rev, CFO doubled, CRISIL AA-; overhangs = FY27 margin guide-down, order-inflow miss, DII/PE exit, QIP pending." }
 };
 function getProfile(id) { return PROFILE_STATUS[id] || { ready: false }; }
 
