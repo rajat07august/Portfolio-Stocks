@@ -181,7 +181,9 @@ Automotive wheels sit at the intersection of four durable forces:
 
 **Force 4 — Two-wheeler EV shift.** India sells 1.4 lakh EV scooters per month by mid-2026 (up from 40k in 2023). Every EV scooter needs specialty wheels (steel-with-aluminum-hub, low-runout for battery safety, precise geometry). SSWL has the manufacturing tech to make these at scale — competition has struggled.
 
-**Where SSWL sits in this stack.** It's the **largest independent** Indian wheel maker (Wheels India is captive to TVS/TAFE ecosystem; Kalyani focuses on premium exports). SSWL's diversified customer base across CV, PV, tractor, 2W, and OTR gives it cycle resilience — no single segment can crater the company.
+**Where SSWL sits in this stack.** It's the **largest independent** Indian wheel maker (Wheels India sits inside the TSF/TVS group; Kalyani focuses on premium exports).
+
+> **⚠️ CORRECTION 28-Jul-2026:** the original text read *"Wheels India is captive to TVS/TAFE ecosystem."* **That is factually wrong.** Wheels India is an independently-managed listed company in the TSF group whose end-market mix (Q4FY26: CV 22% · construction 17% · tractor 16% · PV 14–15% · fabrication 14% · air suspension 10% · cylinders 5%) is *more* diversified than SSWL's — and SSWL, not Wheels India, carries the single-customer concentration (**Hyundai 74%**). TAFE is a separate TVS-family branch and not Wheels India's parent. SSWL's "largest independent" claim stands on scale; it does not stand on a captivity contrast. SSWL's diversified customer base across CV, PV, tractor, 2W, and OTR gives it cycle resilience — no single segment can crater the company.
 
 **Key industry economics to remember:** Wheels are a **raw material pass-through business**. Aluminum and steel prices are contractually reset every 3 months. Percentage margins fluctuate with metal prices. So SSWL and its peers report **EBITDA per wheel** as the true margin metric — not EBITDA margin percentage. This is a repeated point management makes in every concall.
 
@@ -191,7 +193,9 @@ Automotive wheels sit at the intersection of four durable forces:
 
 There are three listed Indian wheel makers of scale, and SSWL is the largest. What separates it from the pack:
 
-**Moat 1 — Scale + diversification across four segments.** No competitor covers CV + PV + tractor + 2W + OTR + knuckles + exports. This diversification means when one segment falters (Q2FY26: CVs collapsed post-tariff), other segments (aluminum wheels, tractors) can carry the quarter. Wheels India is captive-ish to TVS ecosystem; Kalyani is heavily export-dependent. SSWL has the most balanced customer roster.
+**Moat 1 — Scale + diversification across four segments.** No competitor covers CV + PV + tractor + 2W + OTR + knuckles + exports. This diversification means when one segment falters (Q2FY26: CVs collapsed post-tariff), other segments (aluminum wheels, tractors) can carry the quarter. Kalyani is heavily export-dependent.
+
+> **⚠️ CORRECTED 28-Jul-2026** — original text claimed *"Wheels India is captive-ish to TVS ecosystem"* and that *"SSWL has the most balanced customer roster."* **Both claims are wrong.** Wheels India sells externally across seven end markets with none above 22%, and runs a diversified product book (wheels + air suspension + windmill + hydraulics + fabrication). **SSWL's roster is the concentrated one — Hyundai at 74% of business** (disclosed in the Q1FY27 PPT, see Risk 9). SSWL's genuine moat is *product/segment* diversification and aluminium manufacturing lead, **not** customer diversification.
 
 **Moat 2 — Aluminum manufacturing lead.** Post-2019 SSWL invested aggressively in aluminum wheel capacity in Chennai. Today alloy wheels are 36% of revenue and growing 30% YoY in value. Building an aluminum wheel plant from scratch takes 3–4 years and specialised process expertise — new entrants face structural entry barrier. Q4FY26: management said, *"We are at the top-two position in the country [in alloy wheels]."*
 
@@ -461,7 +465,7 @@ SSWL's story is about **stacking mix-shift levers** on top of a stable base:
 
 | Company | Revenue (FY26, INR cr) | EBITDA margin | ROCE | Trailing P/E | Notes |
 |---|---|---|---|---|---|
-| Wheels India | ~2,300 | ~10% | ~14% | ~24x | Captive to TVS/TAFE ecosystem; steel-heavy |
+| Wheels India | **5,124 (standalone) / 5,465 (consol)** | ~8% | ~18.8% | ~24x | TSF (TVS) group but **not captive** — broad OEM base; part of revenue is conversion (no-RM) work, which depresses reported sales vs activity |
 | **SSWL** | **5,183** | **10.1%** | **14.8%** | **20.4x** | Diversified customer + product mix |
 | Bharat Forge (auto division) | ~11,000 (blended) | ~18% | ~14% | ~35x | Higher-value forgings, defence overlap |
 | Sundram Fasteners | ~5,700 | ~17% | ~16% | ~40x | Precision components, premium mix |
@@ -474,6 +478,8 @@ SSWL's story is about **stacking mix-shift levers** on top of a stable base:
 |---|---|---|---|---|---|---|---|
 | **SSWL** | **4,219** | **19.8x** | **14.8%** | **11.1%** | **0.47%** | **Q1FY27: Rev +27%, PAT +43%** | First-mover to Q1FY27 |
 | Wheels India | 3,653 | 23.6x | 18.8% | 15.8% | 0.97% | Q4FY26: Rev +23%, PAT +51% | Q1FY27 not out; higher-ROCE peer at premium |
+
+> **🔄 Wheels India row updated 28-Jul-2026:** Mcap **₹3,396cr** · P/E **~20.5x** · P/B **3.26x** · OPM **7.5%** · Div yld **1.04%** · **Q1FY27: Rev ₹1,491cr +17.8% YoY but PAT ₹39cr −33.9% QoQ**; stock −7.04% on 28-Jul. **₹400cr equity/equity-linked raise board-approved 10-Jul-2026 (~11.8% dilution, no use of proceeds disclosed).** The "higher-ROCE peer at a premium" framing no longer holds: the two now trade at the same P/E (~20.5x vs SSWL 21.8x) and **SSWL is cheaper on book (2.56x vs 3.26x)** while growing ~2x as fast at ~1.5x the margin. Wheels India still wins on ROCE/ROE, dividend, cash conversion (FY26 CFO +19% vs SSWL −36%) and end-market diversification. See `WHEELS.md` Refresh Log 28-Jul-2026.
 | Sundram Fasteners | 20,297 | 33.6x | 17.6% | 14.9% | 0.83% | Not disclosed here | Premium precision peer |
 | Sansera Engineering | 20,086 | **59.7x** ⬆️ | 14.1% | 11.5% | 0.10% | — | **Massive re-rating from ~30x (v1)** |
 | Endurance Technologies | 39,037 | **40.4x** ⬆️ | 18.3% | 15.4% | 0.42% | — | Re-rated from ~28x (v1) |
@@ -483,6 +489,7 @@ SSWL's story is about **stacking mix-shift levers** on top of a stable base:
 - **Auto ancillary sector-wide re-rating** — Sansera 30x→60x, Endurance 28x→40x, Bharat Forge 35x→85x. SSWL essentially flat at 20x.
 - **SSWL's discount to precision peers has WIDENED from 30-50% to 40-70%** while its delivery has MATCHED or BEATEN peers (Q1FY27 growth of +27% Rev / +43% PAT vs Bharat Forge Q4FY26 +17.5% Rev / +2% PAT).
 - **Nearest structural peer Wheels India** stays at 24x — no re-rating, similar cheapness cohort as SSWL. Both are steel-wheel-heavy.
+  - **🔄 Updated 28-Jul-2026:** Wheels India has since **de-rated to ~20.5x** (CMP ₹1,390, −6.7% since 3-Jul) while SSWL **re-rated to 21.8x** (₹295, +19% since 3-Jul). **SSWL now trades at a premium P/E to Wheels India for the first time in this comparison** — justified by 27% vs 18% revenue growth and 11.0% vs 7.5% OPM, and still supported by a cheaper book multiple (2.56x vs 3.26x). Note also that Wheels India is *not* purely steel-wheel-heavy: ~20% of its revenue is Industrial Components, part of which is **no-raw-material conversion work** (customer-supplied material, billed on machining value-add only) — an economic model SSWL does not have. See `WHEELS.md`.
 
 **Multiple gap analysis:** SSWL at 19.8x trailing vs peer group average of ~40x = **50% discount to broader auto ancillary pack**. Even accounting for legitimate discount factors (steel wheel weight, Indian Acrylics group overhang, mid-tier ROCE), a fair multiple range for SSWL is arguably **25-30x** given: (a) growth matches or exceeds peers, (b) knuckles adjacency has similar precision-component optionality as Sansera, (c) Bhuj capacity provides a visible catalyst that peers lack. Even hitting 25x on FY27 PAT of ₹235-245cr = market cap ₹5,875-6,125cr = ~40% upside from current ₹4,219cr, before FY28 numbers.
 
