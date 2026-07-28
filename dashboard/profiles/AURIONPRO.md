@@ -1,6 +1,150 @@
 # Aurionpro Solutions — Company Profile
 
-**Ticker:** AURIONPRO · BSE: 532668 · NSE: AURIONPRO · **Sector:** IT / BFSI Software + Transit Tech + Data Centers + AI Software · **Conviction:** Medium-High (under review — see 16-Jul-2026 refresh)
+**Ticker:** AURIONPRO · BSE: 532668 · NSE: AURIONPRO · **Sector:** IT / BFSI Software + Transit Tech + Data Centers + AI Software · **Conviction:** **Medium (Under Watch)** — formal downgrade from MH on 28-Jul-2026, per the trigger pre-set in the 16-Jul refresh
+
+---
+
+## 🔄 Refresh Log — 28-Jul-2026 (Tier A — Q1FY27 print; the "under review" flag RESOLVES to a downgrade)
+
+**Concall Fetch Gate: ✅ CLEARED (6 documents).** Transcripts Jun-2026 (Q4FY26), Feb-2026 (Q3FY26), Nov-2025 (Q2FY26), Jul-2025 + Jun-2025 (Q1FY26/Q4FY25), PPT May-2026 — all text-extracted and read.
+**⚠️ Q1FY27 concall was held TODAY (28-Jul-2026, 4:00 PM IST).** Transcript not yet filed. Q1FY27 numbers below are from the exchange filing + Screener; **management's Q1FY27 commentary is NOT yet available.** Re-read when the transcript files — that call is the single most important input for the Q2 conviction decision.
+
+### 🔴 The trigger fired
+
+The 16-Jul refresh set an explicit condition: *"formal downgrade only if Q1FY27 shows continued revenue weakness OR PIT show-cause becomes material."* **Revenue weakness continued — and margin broke below the guided band.** Downgrade executed.
+
+**Q1FY27 (Jun-2026), consolidated:**
+
+| Metric | Q1FY27 | Q1FY26 | YoY | Q4FY26 | QoQ |
+|---|---|---|---|---|---|
+| Sales | ₹358 cr | ₹337 cr | **+6.2%** | ₹346 cr | +3.5% |
+| Operating profit | ₹61 cr | ₹68 cr | **−10.3%** | ₹67 cr | −9.0% |
+| **OPM** | **17.0%** | 20.0% | **−300 bps** | 19.0% | −200 bps |
+| **PAT** | **₹45 cr** | ₹51 cr | **−11.8%** | ₹61 cr | **−26.2%** |
+| PAT margin | **12.6%** | 15.1% | −250 bps | 17.6% | −500 bps |
+| EPS | ₹8.30 | ₹9.29 | −10.7% | ₹11.13 | −25.4% |
+
+**Stock reaction: −10.38% on 28-Jul to ₹748.** Now −38% over one year.
+
+**Three things make this worse than a soft quarter:**
+
+1. **PAT went backwards in absolute terms** — the first YoY PAT decline in the profile's history. Nine-quarter PAT run: 45 → 46 → 48 → 51 → 51 → 56 → 44 → 61 → **45**.
+2. **Margin broke below management's own guided range.** Q4FY26 call: FY26 delivered *"EBITDA margin was 20.02% and PAT margin was 15.02%, well within the **guided ranges of 20% to 21% and 15% to 16%**."* Q1FY27 printed **17.0% EBITDA and 12.6% PAT** — both materially below the floor of the guided bands, in the very first quarter of the year they promised would be *"a strong FY27."*
+3. **The OPM slide is now a trend, not a blip.** Nine quarters: 21% → 20% → 21% → 20% → 20% → 20% → 19%(Q4FY26 restated 19%) → **17%**. This is the sixth consecutive quarter of flat-to-down margin.
+
+**In management's defence — they pre-warned this quarter specifically.** Q4FY26 call, verbatim: *"The biggest impact on Q4 **and likely Q1 of this year as well** was the war in MEA."* Ashish Rai was unusually candid for an Indian mid-cap CEO: *"five years of this pace has left us stretched in places and the current revenue miss from geopolitics and the speed of AI-led disruption **have exposed those vulnerabilities**."* He also owned the FY26 miss squarely: *"When we entered the year, we planned for the revenue to grow close to 30%… In reality, the revenue actually grew 20.2%."* **This is a management that tells you the bad news early.** That is worth something, and it is the main reason this is a downgrade to M rather than to ML.
+
+### 🆕 New since 16-Jul
+
+- **TProcess Inc. acquisition** (announced with Q1FY27) — IP assets and technologies for **flap-gate mechanisms** (transit fare gates), consideration **USD 1.07 million**, integration during FY27. A small, sensible vertical-integration bolt-on for the transit business — consistent with the stated *"owning the full stack"* strategy. **Note:** Screener's summary describes it as Canadian; the location is not confirmed in the filings I could reach. Immaterial to the P&L either way at ~₹9cr.
+- **US$33M US contract confirmed** in the Q1FY27 press release — the win first disclosed 21-May-2026 is now formally referenced alongside results.
+- **Order book entering FY27 >₹1,800cr** (Q4FY26 call) against FY26 revenue of ₹1,411cr = **~1.28x coverage**.
+
+### 📊 Numbers — full print
+
+**FY26 annual (consolidated):** Revenue **₹1,411cr** (+20.2%), OP ₹282cr (20.0% OPM), PAT **₹212cr** (+12.8%), EPS ₹37.88.
+
+**5-year P&L trajectory:**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Sales (₹cr) | 505 | 659 | 887 | 1,173 | **1,411** |
+| OPM | 22% | 22% | 22% | 21% | **20%** |
+| PAT (₹cr) | 76 | 102 | 143 | 188 | **212** |
+
+**Margin has compressed every single year for four years** (22 → 22 → 22 → 21 → 20 → 17 in Q1FY27). The growth story has been real; the margin story has been quietly eroding underneath it the whole time.
+
+**Growth deceleration is stark:**
+
+| | 10Y | 5Y | 3Y | **TTM** |
+|---|---|---|---|---|
+| Sales CAGR | 7% | 30% | 29% | **15%** |
+| Profit CAGR | 15% | 34% | 31% | **8%** |
+
+**TTM profit growth of 8% against a 5-year CAGR of 34%** is the single clearest number in this refresh.
+
+**Balance sheet — genuinely strong, and unchanged:**
+
+| ₹cr | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Equity | 397 | 498 | 930 | 1,504 | **1,738** |
+| Borrowings | 61 | 88 | 81 | 31 | **61** |
+| Total assets | 647 | 849 | 1,398 | 1,948 | **2,335** |
+
+Screener pro: *"Company is almost debt free."* True — ₹61cr of debt against ₹1,738cr of equity. **The company cannot get into balance-sheet trouble from here.** That is the floor under the thesis.
+
+**Cash flow — the real problem, and it got worse:**
+
+| ₹cr | FY22 | FY23 | FY24 | FY25 | **FY26** |
+|---|---|---|---|---|---|
+| CFO | 62 | 41 | 164 | 157 | **56** |
+| Investing | 31 | −56 | −203 | −421 | −154 |
+| **FCF** | 49 | −5 | 131 | 62 | **−114** |
+
+**CFO −64% and FCF negative ₹114cr.** Management framed this deliberately in Q4FY26: *"we will see higher upfront investment than a typical year for us, with larger projects bringing higher working capital needs as they scale. **We would rather absorb temporary balance sheet pressure than underinvest** when the opportunity is this clear to us."* That is a defensible capital-allocation choice — but it means **FY27 earnings quality stays poor while the AI/data-centre bets are funded**, and there is no cash-flow validation of the thesis available until FY28.
+
+**Shareholding — the structural weakness:**
+
+| | Sep-2023 | **Jun-2026** |
+|---|---|---|
+| Promoter | 30.79% | **26.86%** (−3.93 ppt) |
+| FII | — | 16.02% |
+| **DII** | — | **1.47%** |
+| Public | — | 55.65% |
+| Shareholders | — | 55,618 |
+
+Screener flags both as cons: *"Promoter holding is low at 26.9%"* and *"Promoter stake declined 4.33% over 3 years."* **DII at 1.47% is the number that should bother us most** — Indian institutions have effectively refused to own this name despite a 34% five-year profit CAGR. Combined with the SEBI PIT show-cause from May-2026, that absence looks less like oversight and more like a considered pass.
+
+### 📢 Community Pulse — 28-Jul-2026
+
+**ValuePickr — "Aurion Pro: Yet another IP product company?" (topic 103941, 93 posts, last active 17-Jun-2026):**
+- 🟢 **@Vikas Bargale (17-Jun-2026)** — shared a video framing it as *"This Undervalued AI Stock is Growing at 33% CAGR"*, disclosed 1% allocation. Pre-dates Q4FY26's full impact being digested.
+- 🔴 **@Devendra Patel (10-Feb-2026)** — questioned *"absence of domestic institutional investor participation despite FII presence,"* explicitly requesting a governance/red-flag assessment. **The Jun-2026 shareholding data now confirms his concern quantitatively: DII 1.47%.**
+- 🟡 **@Ravikiran Hegde (10-Feb-2026)** — criticised earnings-call imprecision, noting the CEO gave a *"250 to 300 cr"* range rather than a figure, and asked why the CFO wasn't fielding such questions. **A disclosure-quality flag from a follower, not a critic.**
+- 🟢 **@seeankur (10-Feb-2026)** — self-identified employee: *"I work in Aurionpro. I don't see any red flags.. CEO is very dynamic."*
+- Related: **"Data Center Value Chain in India" (topic 130278, 144 posts, last 25-Jun-2026)** — Aurionpro appears in the DC value-chain discussion, relevant to the hyperscaler mandate.
+
+**Substack:** no dedicated Aurionpro coverage found.
+
+**Sentiment verdict: MIXED, tilting cautious.** The bull case is held on the AI/DC optionality; the recurring bear threads are **governance/DII absence** and **management communication precision** — both independently corroborated by hard data in this refresh (DII 1.47%; a guided margin band breached one quarter after being restated).
+
+### 💰 Valuation refresh
+
+| | v1 | 16-Jul-2026 | **28-Jul-2026** |
+|---|---|---|---|
+| CMP | — | ₹743 | **₹748** (−10.38% on day) |
+| Market cap | — | ₹4,100 cr | **₹4,131 cr** |
+| P/E (TTM ₹206cr) | — | 18.8x | **~20.1x** (higher on lower earnings) |
+| P/B | — | — | **2.38x** (BV ₹314) |
+| ROCE / ROE | — | 16.3% / — | **16.3% / 13.4%** |
+| Div yield | 0.54% | 0.54% | **0.55%** |
+
+**Refreshed scenarios (2-year, to FY28):**
+- **Base (55%):** MEA normalises through FY27, AI/DC investments start converting, margin recovers to ~14% PAT. FY28 revenue ₹1,865cr, PAT ₹261cr, 20x = ₹5,220cr. **~+26%.**
+- **Bull (25%):** Hyperscaler mandate scales, Aurion AI trade-finance stack lands, Europe/Fenixys inflects as guided. FY28 revenue ₹2,200cr, PAT ₹341cr (15.5%), re-rate to 26x = ₹8,866cr. **~+115%.**
+- **Bear (20%):** MEA war persists, AI investment doesn't convert inside the window, margin sticks near 17% EBITDA. FY28 revenue ₹1,700cr, PAT ₹187cr, de-rate to 15x = ₹2,805cr. **~−32%.**
+
+**Weighted 2-year return ≈ +37%** (~17% CAGR + 0.55% dividend).
+
+**Why downgrade when the expected return is still +37%?** Because **conviction measures confidence in the estimate, not the size of it.** The expected return is high largely *because the stock has already fallen 38%*. What has changed is the width of the distribution and our right to trust the midpoint: guidance was missed on revenue in FY26 (30% planned, 20.2% delivered), the margin band was breached one quarter into FY27, cash flow has gone negative, DII ownership is 1.47%, and a SEBI PIT show-cause is unresolved. **A wide, cheap, poorly-validated distribution is a Medium, not a Medium-High.**
+
+### Conviction decision
+
+**MEDIUM-HIGH → MEDIUM (Under Watch).** Trigger from 16-Jul met.
+
+**Further downgrade to ML if, at Q2FY27 (Oct-2026), any of:** (a) OPM stays below 18%; (b) revenue growth stays in single digits; (c) SEBI PIT matter escalates beyond show-cause; (d) promoter holding falls below 26%.
+
+**Upgrade back to MH if:** OPM recovers to 20%+ **and** CFO returns to a ₹100cr+ half-yearly run-rate **and** the hyperscaler mandate begins revenue recognition.
+
+### Watch items
+1. **Q1FY27 transcript (call held 28-Jul) — read as soon as it files.** Highest-value pending input.
+2. Whether FY27 guidance ranges are formally revised down
+3. CFO trajectory — the single cleanest validation of the investment thesis
+4. SEBI PIT show-cause resolution (unresolved since 29-May-2026)
+5. DII holding — any institution initiating would be a genuine signal
+6. Hyperscaler data-centre mandate revenue recognition start
+
+---
 
 ## 🔄 Refresh Log — 16-Jul-2026 (Tier A — Q4FY26 print grounded + material post-v1 signals)
 
@@ -245,6 +389,25 @@ Aurionpro plays across 4 verticals — each with distinct forces:
 
 ---
 
+### 📋 Delivery scorecard — 28-Jul-2026 refresh additions (post Q1FY27)
+
+| Guidance / Milestone | When | Actual delivered | Verdict |
+|---|---|---|---|
+| *"we will execute with discipline to deliver **a strong FY27**"* | Q4FY26 (12-May-26) | Q1FY27: revenue +6.2%, **PAT −11.8% YoY, −26.2% QoQ** | 🔴 **Miss — first quarter** |
+| EBITDA margin band **20–21%**, PAT band **15–16%** (restated as met for FY26) | Q4FY26 | Q1FY27: **EBITDA 17.0%, PAT 12.6%** — both below band floor | 🔴 **Band breached** |
+| *"The biggest impact on Q4 **and likely Q1 of this year as well** was the war in MEA"* | Q4FY26 | Q1FY27 weak exactly as warned | ✅ **Forecast accurate** (candour credit) |
+| *"we will see **higher upfront investment** than a typical year… rather absorb temporary balance sheet pressure"* | Q4FY26 | FY26 FCF **−₹114cr**, CFO −64%; Q1FY27 margin absorbed the spend | ✅ Consistent with stated plan |
+| Order book *"exceeding ₹1,800 crores"* entering FY27 | Q4FY26 | Reaffirmed at results; ~1.28x FY26 revenue coverage | ✅ Delivered |
+| Q1FY27 Middle East recovery | Q4FY26 | Still a drag; recovery not evidenced in the print | 🔴 Miss |
+| Transit full-stack ownership strategy | Multi-quarter | **TProcess Inc. flap-gate IP acquired, USD 1.07M** | ✅ Executed (small) |
+| US market entry scaling | Q4FY26 | US$33M contract reconfirmed in Q1FY27 release | ✅ Tracking |
+| SEBI PIT show-cause resolution | 29-May-2026 | **Unresolved**, no further disclosure | 🕐 Open |
+| DII participation (community-raised concern) | — | **DII 1.47%** as of Jun-2026 | 🔴 Unresolved |
+
+**Refresh verdict on management (28-Jul-2026, post Q1FY27):** Scorecard now **~11 ticks / 8 misses / 6 pending** across 27 milestones. The pattern is specific and worth naming precisely: **Ashish Rai forecasts problems accurately and describes them honestly, but the company misses the numbers he commits to.** He correctly predicted the Q1 MEA drag; he also reaffirmed margin bands one quarter before breaching them, and planned FY26 at 30% growth against 20.2% delivered. **Candour is high; calibration is not.** For an investor, that combination means you can trust the narrative direction but must discount the stated numbers — which is precisely why this moves to Medium conviction rather than out of the portfolio. **Trust in disclosure: intact. Trust in guidance: materially reduced.**
+
+---
+
 ## 4. Numbers Decoded
 
 **FY26 headline:**
@@ -382,6 +545,14 @@ The market has significantly re-rated AURIONPRO downward. At 18.8x P/E on 16.3% 
 **Risk 11 — SEBI PIT show-cause notice (NEW — added 16-Jul-2026).** Annual Secretarial Compliance filing 29-May-2026 discloses **one PIT (Prohibition of Insider Trading) show-cause notice**, LODR delay fines (₹11,800 — trivial), and past board-composition lapse. PIT show-cause is a genuine governance flag — SEBI is investigating insider trading regulation compliance. Show-cause is NOT an adverse order (yet), but resolution outcome matters. Historically Aurionpro governance was clean; this is a new-signal negative. **Details TBD.** Signal to watch: SEBI order/resolution announcement; any additional PIT-related disclosures; changes to insider trading window policy.
 
 **Risk 12 — Stock momentum de-rating trap (NEW — added 16-Jul-2026).** AURIONPRO has de-rated from ₹1,666 (52w high) to ₹743 = **-55% peak-to-current**. Screener meta reports **-45% in 1 year**. This is a "falling knife" scenario for momentum-driven investors. Even if fundamentals stabilize in Q1FY27, market sentiment could take 2-3 quarters to re-rate. **Bear case now more probable than v1's 15%** — worth watching whether the peer-relative discount (18.8x vs 40-60x for larger IT peers) attracts value buyers or continues to widen.
+
+> **⚠️ MATERIALIZED 28-Jul-2026** — the knife kept falling: **−10.38% on the Q1FY27 print to ₹748**, now −38% over one year. The 16-Jul hope that *"18.8x approaching sector floor"* would attract value buyers did not hold, because **earnings fell faster than price** — the P/E actually rose to ~20.1x on lower TTM profit. This is the classic value-trap mechanic and it is now demonstrated, not theoretical.
+
+**🆕 Risk 13 — Guided margin band breached (NEW — 28-Jul-2026).** Management restated FY26 delivery as *"well within the guided ranges of 20% to 21% [EBITDA] and 15% to 16% [PAT]"* on the Q4FY26 call. **Q1FY27 printed 17.0% EBITDA and 12.6% PAT — both below the floor of those bands, in the first quarter of the year.** A guidance range breached one quarter after being reaffirmed is a materially different signal from a guidance range simply being lowered. Signal to watch: whether the Q1FY27 call (held 28-Jul, transcript pending) formally revises the bands, or restates them and misses again.
+
+**🆕 Risk 14 — Structural margin erosion, not cyclical (NEW — 28-Jul-2026).** Annual OPM: FY22 22% → FY23 22% → FY24 22% → FY25 21% → FY26 20% → **Q1FY27 17%**. Four consecutive years of compression *before* the MEA war, which means the geopolitical explanation covers the acceleration but not the trend. If the underlying business mix is shifting toward lower-margin systems/hardware work (management: *"we are investing across the full stack, software, systems and hardware"*), the historical 22% margin may not be recoverable at all. Signal to watch: segment-level margin disclosure; whether the hardware/systems share of transit and DC revenue is rising.
+
+**🆕 Risk 15 — Institutions won't own it (NEW — 28-Jul-2026).** **DII holding 1.47%** against FII 16.02% and public 55.65%, with promoter at just 26.86% (−3.93ppt over 3 years). A company compounding profit at 34% over five years that Indian institutions have declined to own is an anomaly that usually resolves one of two ways. ValuePickr flagged this independently (@Devendra Patel, 10-Feb-2026, asking for a governance red-flag assessment) *before* the SEBI PIT show-cause surfaced in May. Signal to watch: any DII initiating a position would be a strong positive; DII going to zero alongside an adverse PIT outcome would be the adverse case.
 
 ---
 
