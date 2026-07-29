@@ -4,7 +4,9 @@
 
 ---
 
-## 🔄 Refresh Log — 28-Jul-2026 (Tier A — Q1FY27, an all-time-high quarter; and the concall gap is CLOSED)
+## 🔄 Refresh Log — 29-Jul-2026 (Tier A — Q1FY27 **concall-grounded**; all-time-high quarter, explicit FY27/FY28 PAT guidance, and the concall gap CLOSED)
+
+> **📌 This block supersedes the deck-only version written 28-Jul-2026.** The Q1FY27 earnings call was held **29-Jul-2026** and the transcript is now in the repo (`DEEP_Transcript_2026-07.pdf`, 26pp, InCred Equities-hosted; Paras Savla CMD + Rohan Shah CFO). **Reading it changed three of my conclusions** — the order-book concern is substantially explained, management gave explicit PAT guidance far above my earlier base case, and the real operational issue is somewhere else entirely (standalone stagnation). Corrections are marked ⤴ throughout.
 
 ### ✅ Data-quality upgrade — the standing gap on this profile is resolved
 
@@ -44,17 +46,72 @@ Deck, verbatim: *"Achieved **all-time high quarterly revenue and profitability**
 
 **This beats management's own guidance.** The Q4FY26 call carried a *"very good guidance of 25%, 30%"* growth for FY27 and FY28 — Q1FY27 delivered **+39.8% revenue and +44.5% PAT**, comfortably ahead. **A 43.6% EBITDA margin on ~₹280cr of quarterly revenue is exceptional for an oilfield-services business**, and the +450bps QoQ recovery confirms Q4FY26's 39.1% was write-off noise, not operational.
 
-### 🔴 The one thing that isn't working: the order book is flat
+### 🎯 Explicit PAT guidance — the single most important disclosure on the call
 
-Straight from the Q1FY27 deck's order-book slide:
+Management put hard numbers on both years, unprompted and then confirmed:
 
-| Opening (revolving) 1-Apr-26 | Added in Q1FY27 | Executed in Q1FY27 | **Closing 30-Jun-26** |
-|---|---|---|---|
-| ₹3,007 cr | **₹319 cr** | ₹279 cr | **₹3,047 cr** |
+| | Guidance | Implied multiple at ₹3,473cr mcap |
+|---|---|---|
+| **FY27 PAT** | *"in FY27 only we are expecting somewhere about **350 crores** kind of PAT"* | **9.9x FY27E** |
+| **FY28 PAT** | *"On FY28 we are **gunning for PAT of almost 500 crores**"* | **6.9x FY28E** |
 
-**Additions exceeded execution by only ₹40cr.** The book is treading water, and this is now a multi-quarter pattern that analysts have already named. Q4FY26 call, verbatim: *"our order book has **stagnated at around this INR3,000 crore odd level**."* Management's answer was that execution is running as fast as inflow: *"the kind of implementation or the kind of execution that is… that have come, and that's how the order book has remained same,"* with the hope that *"in some quarter or 2, you would see that numbers"* improve, and that a rising gas price would lift PEC inflow: *"with increase in gas price, this order book can increase upward."*
+Context: an investor (Manan, Wallfort PMS) annualised Q1's ₹89cr to ~₹360cr and asked whether the prior ₹400cr FY28 guide should be raised. Savla **corrected him upward**: *"I'm not sure we have said 400 crores for FY28 because in FY27 only we are expecting somewhere about 350 crores."* Separately, asked whether the 5-year ~35% topline / ~40% bottom-line CAGR can persist, he said: *"I won't be surprised that this momentum should continue. And we are quite bullish on this."*
 
-**Read it straight: at ₹3,047cr against TTM revenue of ₹970cr, coverage is still a comfortable ~3.1x** — this is not a demand problem today. But **revenue is compounding at ~40% into a book that isn't growing**, and that arithmetic has a horizon. If inflow doesn't inflect within 2–3 quarters, FY28 growth has to come from either a book that finally moves or a re-rating that won't. **This is now the single most important number to track on DEEP.**
+⤴ **This corrects my 28-Jul base case, which assumed FY28 PAT of ₹330cr — roughly a third below what management is guiding.** Q1's ₹89.14cr annualises to ₹356cr, consistent with the FY27 number. **Growth split guided: standalone 18–20%, consolidated >25% for FY27.**
+
+### ⤴ The order book: my "flat book" concern is substantially explained
+
+The Q1FY27 deck shows ₹3,007cr → **₹3,047cr** (added ₹319cr, executed ₹279cr), and on 28-Jul I called this the single most important number on DEEP. **The call reframes it, and I was over-weighting it.**
+
+**Composition, per management:** *"of this order book probably **more than 60% value is something which has been executed over next two to two and a half years**. And one major chunk is of production enhancement contract which is a **long tenure contract**."* Execution guided at **~₹800cr in FY27** alone. The ₹1,402cr / 15-year ONGC PEC sits inside the ₹3,047cr and by construction releases slowly — **so a large, deliberately long-duration contract is suppressing the apparent turnover of the book.** Against ~₹800cr of FY27 execution, the book is ~3.8 years of cover.
+
+**Bidding pipeline runs at ₹700–800cr continuously** — and critically, *"the existing bidding pipeline is **not having any of** this three"* (new PEC, higher-HP rigs, offshore vessels), all of which management expects to reach bid stage *"in coming few months."* **The near-term pipeline understates the opportunity set rather than overstating it.**
+
+**🆕 Two new ONGC PEC tenders are live — and potentially transformational.** An unusually well-prepared retail investor (Srikar Sai) walked through the ONGC notices for the **Gamij** and **Geleki** fields, computing minimum fixed fees of roughly **₹1,500cr and ₹4,000–4,500cr** respectively, against ₹1,402cr for DEEP's existing PEC. Savla did **not** confirm the arithmetic — *"it won't be fair for us to comment… because we have not yet been awarded"* — but confirmed DEEP is evaluating and intends to bid. **Treat the numbers as investor-derived, not company-guided. But even discounted heavily, winning either would re-base this company.**
+
+**Revised read: the flat book is a composition artefact plus timing, not a demand signal.** I still want to see it move — but it is no longer the thesis-critical variable I called it yesterday.
+
+### 🔴 The real operational issue: standalone has been flat for five quarters
+
+This is what I under-weighted on 28-Jul, and both a sell-side analyst and the ValuePickr community landed on it independently.
+
+**Pankaj Motwani (Equirus)**, verbatim: *"I was looking at your standalone revenues, so it has been **demanding at around 175 crore for the last five quarters**. So just wanted to understand like what is constraining growth in this segment?"* He then did the arithmetic publicly: stripping PEC and Dolphin from the ₹3,047cr book leaves **~₹1,450cr of traditional onshore business** over ~2.5 years ≈ ₹600cr/year, against a current standalone run-rate near ₹700cr.
+
+**Where Q1FY27's ₹278.9cr actually came from:**
+
+| Source | Q1FY27 revenue | Note |
+|---|---|---|
+| Standalone (core onshore) | **~₹175cr** | Flat for 5 quarters |
+| Dolphin Offshore | **~₹43cr** | 3-yr Prabha barge contract, ~₹150cr/yr |
+| Dubai + Indian subsidiaries | **>₹50cr** | Gas processing + equipment sales |
+
+**The 40% consolidated growth is being carried by subsidiaries, not by the core business the profile is built on.** Management's answer: four to five gas compression and processing contracts *"were supposed to start contributing from late Q1 and Q2,"* so standalone *"would improve from Q2 onwards"* to 18–20% FY27 growth. **That is a specific, falsifiable claim due in six weeks — and it is now the number I'd watch above the order book.**
+
+### ✅ Kandla write-offs: closed, but the credibility question is legitimate
+
+Raman KB (Sequent Investments) asked directly about *"write-off which we did in the previous year as well as a year before"* — independently confirming the **two consecutive Q4 charges** I identified on 28-Jul (other income −₹245cr Mar-25, −₹183cr Mar-26). Savla: *"with regards to Kandla, we are **completely done with the legacy issues**. And so **no more further write-off in current year**."*
+
+**⚠️ But note this assurance has now been given twice.** ValuePickr @atishay_jain1 (7-Jul-2026) made the point precisely: *"In FY'25 they did a write off and here in this video… they said there won't be any such write offs in the future. **They again did a write off in Q4FY26!**… Its highly unlikely that they were not aware about possibility of write off when they said that."* @BuyHighSellLow framed the right question in reply: *"his question is more on the ability of the management to make **accurate judgements** than the effect of the write-off."*
+
+**My position: accept the operational closure, discount the assurance.** Kandla is now merged into the parent (effective 30-Mar-2026), the receivables are written down, and Q1FY27 printed clean with +₹24cr positive other income. But **Q4FY27 is not de-risked on management's word alone** — the base rate is one broken assurance out of one.
+
+**🆕 Kandla's actual purpose is margin, not revenue.** Savla: the plan is to manufacture a critical drilling/IPM chemical in-house, worth *"one, one and a half percent"* of **EBITDA margin**, on capex of only *"10, 15 crores"* with **no debt**, contributing *"later in this current financial year."* Explicitly *"not expecting much from Kandla"* on revenue. **A 100–150bps margin uplift on a 43.6% base is a real, cheap, under-modelled lever.**
+
+### ✅ Governance: the Prabha Energy related-party loan is being repaid
+
+A standing watch item resolves. Asked about the loan to the group entity, Savla: *"from the loan given to **Prabha Energy**, we have received back almost **86 crores**… and probably **by end of second quarter we are expecting to clear the entire loan** repaid."* Prabha Energy is a CBM company with its own ValuePickr thread (topic 220792, *"nearing commercialization"*). **Full repayment by Q2FY27 would close the largest related-party question on this name — verify at Q2.**
+
+### 🆕 Operating detail worth carrying
+
+- **PEC ramp finally dated.** Mori-5 incident cost 5–6 months. Incremental production now starts **September-end/October 2026**; new wells drilled this FY contribute **Q4FY27 or Q1FY28**. FY28 revenue from this single field **₹150cr+**, at 2.5–3 lakh scm/day against a **1.44 lakh baseline**. Capex ~₹150cr by Mar-2027. Contract is **free-market priced** (gas currently **$8–15/MMBTU**), so DEEP takes price exposure but no exploration success risk: *"we do not carry any success risk."*
+- **Rig fleet at 100% utilisation** — 20 onshore rigs (14 workover 30–150T, 6 drilling @1,000HP). Evaluating **2,000/3,000 HP** rigs, bids in *"next few months."* Market sized by management at **215–220 onshore rigs**, of which ~120–125 outsourced, with the outsourced share rising.
+- **Gas compression:** 80+ units, largest fleet in India, ~**85% of the outsourced market** (outsourcing is ~30% of total).
+- **Offshore:** two assets deployed (DP2 barge *Prabha* on a 3-yr, ~₹150cr/yr contract; plus an AHTSV anchor-handling tug, not yet on long-term contract so *"contribution is not significant"*). Plan: a few more tugs, a barge, 1–2 support vessels over 3–5 years. **Offshore EBITDA margins confirmed better than onshore.** Capex strictly *"only after getting the firm order."*
+- **FY27 capex ₹250–300cr**, funded by debt + internal accruals. **No equity raise contemplated:** *"as of now we are not foreseeing any equity raise."* Net-debt-free.
+- **EBITDA→cash conversion 75–80%**, Q1 *"on similar lines."*
+- **New hire:** Rajiv Sinha, Head of Operations, two decades in oil & gas, ex-Vedanta.
+- **Macro:** the **Strait of Hormuz closure** in early 2026 has settled into *"structural rebalancing"* with the strait *"still operating under restricted capacity."* On whether the enquiry surge is cyclical or crisis-driven, Savla was candid: *"it is a mixture of both."* Also flagged: **Samudra Manthan**, a ₹80,000cr National Deep Water Exploration Mission with government bearing **up to 50% of exploratory well drilling cost**.
+- **Correction from management:** DEEP is **not** in coal gasification (*"in coal gasification we are not there"*), walking back a prior-quarter comment. Green hydrogen: one balance-of-plant EPC tender bid, outcome pending. Geothermal: exploratory.
 
 ### 📊 Full print (parsed directly from Screener HTML)
 
@@ -86,42 +143,62 @@ Straight from the Q1FY27 deck's order-book slide:
 
 **Still the cheapest quality name in the watchlist** — 8.4x earnings on 19.4% ROE, 40% EBITDA margins, 0.48x debt/EBITDA and a 3.1x-covered order book.
 
-**Refreshed scenarios (2-year, to FY28):**
-- **Base (55%):** 25–30% guided growth holds, order book inflects modestly. FY28 revenue ₹1,450cr, PAT ₹330cr, re-rate to 12x = ₹3,960cr. **~+14%.** *(Note: most of the return needs the multiple, and the multiple has been 8x for a reason.)*
-- **Bull (25%):** Gas-price-led PEC inflow lifts the book past ₹4,000cr, 15-yr contract scales, no Q4 surprise. FY28 revenue ₹1,700cr, PAT ₹420cr, 16x = ₹6,720cr. **~+93%.**
-- **Bear (20%):** Order book stays at ₹3,000cr, revenue growth decays to the book's replenishment rate, another Q4 charge. FY28 revenue ₹1,150cr, PAT ₹210cr, 8x = ₹1,680cr. **~−52%.**
+**⤴ Scenarios rebuilt on management's guidance (2-year, to FY28).** My 28-Jul version assumed FY28 PAT of ₹330cr; **management is guiding ₹500cr.** Even haircutting that meaningfully, the base case moves up a lot.
 
-**Weighted 2-year return ≈ +21%** (~10% CAGR + 0.56% div). **Down sharply from v2's ~+90%** — not because the business got worse (it got better) but because **the stock has already re-rated +17% since v2 and the flat order book caps the base case.** The bear case is severe precisely because an 8x multiple on a flat book has little cushion if growth decays.
+- **Base (55%):** FY27 PAT lands near the ₹350cr guide; FY28 reaches **₹440cr** — a ~12% haircut to guidance for PEC-ramp and standalone-recovery slippage. Re-rate modestly to **11x** (still below the market's multiple for a 19% ROE compounder) = ₹4,840cr. **~+39%.**
+- **Bull (25%):** Standalone recovers to 18–20% from Q2 as guided, PEC incremental lands on time, Kandla adds 100–150bps of margin, **and DEEP wins one of the Gamij/Geleki PEC tenders.** FY28 PAT **₹520cr**, re-rate to **15x** on visible multi-year contracted revenue = ₹7,800cr. **~+125%.**
+- **Bear (20%):** Standalone stays flat past Q2, PEC incremental slips again (it already slipped 5–6 months once), a third year-end charge appears, and the accounting critique gains traction. FY28 PAT **₹300cr**, multiple stays at **8x** = ₹2,400cr. **~−31%.**
 
-### 📢 Community Pulse — 28-Jul-2026
+**Weighted 2-year return ≈ +49%** (~22% CAGR + 0.56% dividend).
 
-**Sell-side is the live discourse and it is asking exactly the right question.** The Q4FY26 call was dominated by order-book interrogation, not by celebration of margins:
-- 🔴 **Manan Shah** — the sharpest exchange: *"our order book has stagnated at around this INR3,000 crore odd level"* and pressed on whether execution or inflow is the constraint.
-- 🟡 **Sudhir Bheda** — asked what growth the current book supports.
-- 🟡 An analyst probed whether rising gas prices would lift PEC order inflow; management agreed directionally but committed to nothing.
-- 🟢 **Darshil Jhaveri** — extracted the key assurance: *"all the write-offs from Kandla we've taken, right? … nothing else left?"*
+⤴ **This replaces the +21% I published on 28-Jul.** The change is not new optimism — it is that the 28-Jul figure was built without the transcript and therefore without FY27/FY28 guidance, and it over-weighted a flat order book that management has since explained. **The bear case is unchanged in character but narrower (−31% vs −52%)**, because ~₹800cr of FY27 execution is contractually visible.
 
-**No active ValuePickr thread; no Substack coverage found.** DEEP remains under-followed — consistent with an 8x multiple on a 19% ROE.
+**Sanity check on the guidance:** FY27 PAT of ₹350cr against Q1's ₹89.14cr requires ~₹87cr/quarter for three quarters — i.e. **no growth at all from here** to hit it. FY28's ₹500cr requires ~43% growth on FY27. The FY27 number looks conservative; the FY28 number needs PEC incremental production plus standalone recovery, both of which are dated and falsifiable.
 
-**Sentiment verdict: CONSTRUCTIVE, with a single well-identified concern** — the order book. The market and I are watching the same number.
+### 📢 Community Pulse — 29-Jul-2026
+
+⤴ **Correcting 28-Jul, when I wrote "no active ValuePickr thread; no Substack coverage found." That was wrong** — I had searched only via the rate-limited path. Fetched properly via `curl` against the Discourse JSON API, DEEP has **one of the most active and analytically sophisticated threads in the entire watchlist.**
+
+**ValuePickr — "Deep Industries (DIL)" (topic 1011, 521 posts, last post 28-Jul-2026):**
+
+- 🔴 **The most important thread content is a forensic accounting critique.** @kautuk produced what @Shishir_rai calls a *"masterclass forensic report"*, which **Bastion Research** then wrote up as a Substack piece — *[Deep Industries Ltd. Deep Value, or Value Trap?](https://bastionresearch.substack.com/p/deep-industries-ltd-deep-value-or)* (shared to the thread 21-Jun-2026 as *"Accounting Questions Behind The Value"*). Per its own summary, it asks whether the market is *"right or simply confused by accounting noise and sector-level indifference"*, and leaves open threads on **governance, related-party transactions with Prabha Energy, PEC execution, and accounting clean-up** — flagging **FY27 as the first results free of exceptional noise.** ⚠️ *I have not read the full article — this characterisation is from its public summary and the thread discussion. Read it directly before relying on it.*
+- 🔴 **@atishay_jain1 (7-Jul-2026)** — the sharpest single point, and it matches my own finding independently: management said after the FY25 write-off there would be no more, *"They again did a write off in Q4FY26! … Its highly unlikely that they were not aware about possibility of write off when they said that."*
+- 🟡 **@BuyHighSellLow (10-Jul)** correctly reframes it: the issue is *"the ability of the management to make accurate judgements than the effect of the write-off."*
+- 🟢 **@Pankaj_Motwani (10-Jul)** — *"these write offs are notional and will not affect the net worth."* **Note: this is the same Equirus analyst who then asked the standalone-stagnation question on the 29-Jul call** — a rare case of a forum participant and covering analyst being the same person, and worth knowing.
+- 🟢 **@BuyHighSellLow (6-Jul)** — substantive vertical work: gas compression *"flat at worst and maybe a 5 to 7%"*, DEEP at **75%+ share of the charter-hired gas compression market**, with 4–6 month mobilisation creating modest switching costs.
+- 🟡 **@anupam.kr (16-Jun)** on the receivables write-off: *"it's a positive as the receivables were optically harming the balance sheet."*
+- 🔴 **@Rohit_Priyadarshi (28-Jul), the immediate Q1FY27 reaction:** *"**Strong growth in consolidated numbers but Flat Standalone numbers**"* — the community identified the standalone issue within hours, same as Equirus.
+
+**Substack:** two publications cover DEEP — **Bastion Research** (the bear/forensic case above) and **[Shankar Nath](https://shankarnath.substack.com/p/deep-industries)** (*"Deep Industries: Rigged Up for 55% Growth"*, the bull case).
+
+**Sentiment verdict: MIXED — genuinely two-sided, and better-informed than most names here.** The bull case (structural upstream tailwind, 70%+ post-exploration share, 8x earnings) and the bear case (accounting noise, repeated write-offs, related-party lending, standalone stagnation) are both being argued by people doing real work. **Notably, the community's two live concerns — write-off credibility and flat standalone — are exactly the two I arrived at independently.** That convergence raises my confidence in both.
 
 ### Conviction decision
 
-**HELD at HIGH.**
+**HELD at HIGH — and with more conviction than the 28-Jul deck-only read supported.**
 
-Q1FY27 is an unambiguously excellent quarter: all-time-high revenue and profit, ahead of the 25–30% guide, 43.6% EBITDA margin, first clean quarter post-Kandla, capex commissioned (CWIP ₹258cr → ₹56cr), debt/EBITDA 0.48. At 8.4x with 19.4% ROE, the asymmetry is still there.
+**The investment case, stated plainly:** DEEP is the dominant Indian provider across ~70% of the post-exploration services chain — 80+ gas compression units (~85% of the outsourced market), 20 onshore rigs at **100% utilisation**, first-mover in integrated project management — earning **43.6% EBITDA margins and 19.4% ROE**, net-debt-free, at **8.4x trailing / 9.9x FY27E / 6.9x FY28E guided earnings.** It sits in front of a genuine multi-year domestic upstream capex cycle (exploration-first policy pivot, ₹80,000cr Samudra Manthan deepwater mission with 50% government cost-sharing) and takes **no exploration success risk** — every contract is fixed-price and tender-driven.
 
-**Held rather than upgraded because of the order book, and I want to be precise about why that matters:** DEEP is a contract-execution business. Revenue growth of 40% against net book additions of ₹40cr means the current run-rate is being delivered by *drawing down* visibility, not adding it. That is fine for a few quarters and untenable for many.
+**What the transcript changed:** management guided **FY27 PAT ~₹350cr and FY28 ~₹500cr**, versus my ₹330cr FY28 assumption; explained the flat order book as long-duration PEC composition with ~₹800cr executing in FY27; confirmed Kandla legacy closure; and disclosed the Prabha Energy loan is nearly repaid. **Weighted return moves from ~+21% to ~+49%.**
 
-**Downgrade to MH if:** the closing order book falls below ₹2,900cr at either Q2 or Q3FY27 · **or** Q4FY27 carries a third consecutive year-end write-off · **or** EBITDA margin falls below 38%.
-**Upgrade conviction/sizing if:** the book crosses ₹3,500cr — that single event converts this from a cheap stock into a compounder.
+**Why not upgrade further — three genuine reservations, all of which I'd want resolved before adding size:**
+1. **Standalone has been flat at ~₹175cr for five quarters.** Consolidated growth is currently a subsidiary story (Dolphin ₹43cr, Dubai + Indian subs >₹50cr of a ₹278.9cr quarter). The core franchise the thesis rests on is not itself growing. Management says Q2 fixes it. **That is the test.**
+2. **Management's write-off assurance has been broken once already.** They have now given it again. Operationally I believe Kandla is closed; on the meta-question of judgement, the community's scepticism (@atishay_jain1) is fair and I share it.
+3. **A credible forensic accounting critique exists** (Bastion Research) that I have not yet read in full. Until I have, I am carrying an unquantified known-unknown on this name.
 
-### Watch items
-1. **Closing order book at Q2FY27** — the number that decides the thesis
-2. Whether gas-price strength converts into PEC inflow, as management suggested
-3. Q4FY27 for a clean year-end (two-for-two on write-offs so far)
-4. EBITDA margin holding near 43% now that Kandla is merged in
-5. FCF turning materially positive as the commissioned capex earns
+**Downgrade to MH if:** standalone revenue is still ~₹175cr at Q2FY27 (management's own falsifiable claim) · **or** PEC incremental production slips past Q3FY27 · **or** a third year-end write-off appears · **or** the Bastion critique surfaces something material on reading.
+
+**Upgrade sizing if:** standalone inflects in Q2 **and** PEC incremental starts by October as dated **and** the Prabha loan is fully repaid — at which point the FY28 ₹500cr guide becomes underwritable and 6.9x is indefensible.
+
+### Watch items — ranked
+1. **⭐ Standalone revenue at Q2FY27** — must break above ~₹175cr. Now the single most important number, displacing the order book.
+2. **PEC incremental production from September-end/October 2026** — already slipped 5–6 months once (Mori-5)
+3. **Prabha Energy loan fully repaid by end-Q2FY27** — closes the largest related-party question
+4. **Gamij / Geleki PEC tender outcomes** — either would be transformational; neither is in guidance
+5. Kandla's 100–150bps EBITDA margin uplift landing "later this financial year"
+6. Q4FY27 for a clean year-end (one broken assurance out of one)
+7. Read the Bastion Research piece in full and reconcile it against this profile
+8. Order book — still worth tracking, but as a secondary indicator
 
 ---
 
