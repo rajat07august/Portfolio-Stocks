@@ -1,6 +1,110 @@
 # Netweb Technologies India — Company Profile
 
-**Ticker:** NETWEB · BSE: 543945 · NSE: NETWEB · **Sector:** IT Hardware / EMS (High-End Computing + AI Systems) · **Conviction:** High
+**Ticker:** NETWEB · BSE: 543945 · NSE: NETWEB · **Sector:** IT Hardware / EMS (High-End Computing + AI Systems) · **Conviction:** **HELD at HIGH (Under Watch — valuation)**
+
+---
+
+## 🔄 Refresh Log — 28-Jul-2026 (Tier A — Q1FY27, a genuinely exceptional quarter at a genuinely demanding price)
+
+**Concall Fetch Gate: ✅ CLEARED (7 documents).** On disk: transcripts May-2026 (Q4FY26), Jan-2026 (Q3FY26), Nov-2025 (Q2FY26), Sep-2025, May-2025 + PPT Aug-2025. **🆕 Downloaded today via `Bash`+`curl` from BSE: `NETWEB_PPT_2026-07.pdf` — the 36-page Q1FY27 investor deck, filed today.** All data below is verbatim from that deck or parsed directly from Screener's raw HTML.
+
+> **⚠️ Note:** the Q1FY27 **transcript does not exist yet** — the earnings call is **29-Jul-2026** (tomorrow). Management Q&A on this quarter is not yet available. Re-read when filed.
+
+### 🟢 Q1FY27 — the AI inflection is no longer a thesis, it's a number
+
+Verbatim from the Q1FY27 deck (₹ million as reported; ₹cr in brackets):
+
+| Particulars | Q1FY27 | Q1FY26 | YoY | Q4FY26 | QoQ | FY26 |
+|---|---|---|---|---|---|---|
+| Revenue from operations | **8,196.86** (₹820cr) | 3,012.12 (₹301cr) | **+172.13%** | 7,737.02 | +5.94% | 21,835.63 (₹2,184cr) |
+| Operating EBITDA | **1,205.15** (₹120.5cr) | 448.02 | **+168.99%** | 965.74 | **+24.79%** | 2,848.42 |
+| EBITDA margin | **14.70%** | 14.87% | −17 bps | 12.48% | **+222 bps** | 13.04% |
+| PBT | **1,141.38** | — | — | — | — | — |
+| **PAT** | **853.23** (₹85.3cr) | 304.79 (₹30.5cr) | **+179.94%** | 705.93 | **+20.87%** | 2,058.16 (₹206cr) |
+| PAT margin | **10.30%** | 10.08% | +22 bps | 9.00% | **+130 bps** | 9.35% |
+| EPS (₹) | **14.98** | 5.38 | +178% | 12.40 | +20.8% | — |
+
+Deck, verbatim: *"Netweb Technologies delivered a **record quarter**, achieving its **highest-ever quarterly Revenue from Operations**."*
+
+**Two things make this better than the headline:**
+
+1. **AI Systems is now the company.** ₹5,105.70mn (**₹511cr**) = **62.29% of revenue**, growing **+484.20% YoY**. For context, management said on the Q4FY26 call that AI systems were *"43.4% of our total operating revenue in financial year '26."* **The mix shifted 19 percentage points in a single quarter.**
+2. **Margin beat management's own guide while mix-shifting.** The Q4FY26 call guided EBITDA margins of *"13%, 13.5%"*; Q1FY27 delivered **14.70%**, up 222bps sequentially. Margin expanding *through* a hypergrowth mix shift is the hard version of this.
+
+### 🟢 Order book grew — the opposite of DEEP's problem
+
+| | Entering FY27 (Q4FY26 call) | **30-Jun-2026 (Q1FY27 deck)** | Change |
+|---|---|---|---|
+| Firm order book | ~₹2,100 cr | **₹2,506.94 cr** | **+19.4%** |
+| L1 (lowest bidder) | ~₹300 cr | **₹848.05 cr** | **+183%** |
+| **Total incl. L1** | ~₹2,400 cr | **₹3,354.99 cr** | **+39.8%** |
+
+Deck: *"Our order book stood at ₹25,069.35 million as of 30th June'26, with a **L1 of ₹8,480.47 million**, providing strong revenue visibility for the coming quarters."* Management also sized total pipeline + order book at *"INR6,500 crores"* on the Q4FY26 call.
+
+**The book grew 19% in the same quarter revenue grew 172%.** That is the signature of genuine demand rather than backlog drawdown — and it is the precise inverse of what DEEP printed the same day.
+
+### ⚠️ Three things that got worse, and they all point the same way
+
+1. **Interest cost went from ₹1cr to ₹12cr in four quarters** (Jun-25 ₹1cr → Dec-25 ₹3cr → Mar-26 ₹8cr → **Jun-26 ₹12cr**). That is a 12x increase, and it is now **10% of PBT**.
+2. **Zero-net-debt status is gone.** Q4FY26 call, verbatim: *"Our balance sheet strength is reflected by us being a **zero-net-debt company**."* The Q1FY27 deck now discloses **Net Debt / Operating EBITDA of 0.41**. Still low in absolute terms — but it is a directional change in the financing model, disclosed without commentary.
+3. **This is a working-capital-hungry business scaling fast.** AI systems are large, lumpy, hardware-heavy contracts. Revenue up 172% requires inventory and receivables ahead of collection. **The interest line is the visible symptom; the cash flow statement is where it will show properly, and Q1 cash flow is not in the deck.**
+
+**None of these are alarming yet. All three are the things that break hypergrowth hardware businesses**, and they need the 29-Jul call to be addressed.
+
+### 💰 Valuation — the actual risk
+
+| | v1 (3-Jul-2026, estimated) | **28-Jul-2026 (exact)** |
+|---|---|---|
+| CMP | ~₹2,900 (est) | **₹4,364** |
+| Market cap | ~₹16,500 cr (est) | **₹24,840 cr** |
+| **P/E (TTM PAT ₹260cr)** | ~80x (est) | **95.3x** |
+| P/B | — | **34.4x** (BV ₹127) |
+| **ROCE / ROE** | — | **37.5% / 32.8%** |
+| Dividend yield | minimal | **0.07%** |
+
+> **📌 v1 correction:** the v1 header carried *estimated* CMP/mcap/P/E ("~₹2,900 est", "~₹16,500 cr est", "~80x est"). Exact figures are now parsed from Screener HTML. **The stock is ~50% higher than v1 assumed.**
+
+**37.5% ROCE and 32.8% ROE are elite** — this is not a low-quality business being bid up. But **95x earnings and 34x book** require the growth to continue for years without a stumble. TTM PAT is ₹260cr; the market is paying ₹24,840cr for it.
+
+**Refreshed scenarios (2-year, to FY28):**
+- **Base (50%):** AI systems demand persists, order book converts, margin holds ~14%. FY28 revenue ₹4,500cr, PAT ₹470cr, multiple compresses to 65x = ₹30,550cr. **~+23%.**
+- **Bull (25%):** India AI-infrastructure capex cycle runs hard, Netweb holds share as the Make-in-India incumbent, FY28 revenue ₹6,000cr, PAT ₹660cr, 75x = ₹49,500cr. **~+99%.**
+- **Bear (25%):** A single large contract slips or a hyperscaler in-sources; growth decelerates to 30% and the multiple resets to where hardware businesses actually trade. FY28 revenue ₹3,400cr, PAT ₹320cr, 35x = ₹11,200cr. **~−55%.**
+
+**Weighted 2-year return ≈ +21%** (~10% CAGR). **The distribution is extremely wide and the bear case is brutal — that is what a 95x multiple does**, even to an excellent business. Note the bear case doesn't require the business to fail; it only requires growth to normalise.
+
+### 📢 Community Pulse — 28-Jul-2026
+
+**Sell-side, from the Q4FY26 call — the questioning was on margin, not on demand:**
+- 🟡 **Renu Baid** pressed hardest and twice: why *"gross margins technically have not improved"* despite the jump in base business, and *"what has constrained the margin expansion."* Management's answer — that margin should be read *"adjusted of the forex loss and gain"* and *"it is within the guidance"* — was adequate but not fully satisfying at the time. **Q1FY27's 222bps sequential expansion has since answered her question with data.**
+- 🟢 **Sanjeev Sancheti (mgmt)** framed the entry into FY27: *"a very, very too heavy and too robust order book already."* Vindicated.
+- 🟢 **Sanjay Lodha (mgmt)**: *"seeing the order book yourself will get that conviction."*
+
+**No fresh ValuePickr or Substack coverage located this pass** — worth a dedicated scan next refresh given how much the story has changed.
+
+**Sentiment verdict: BULLISH on operations, with margin scrutiny now resolved in management's favour.** Nobody in the sourced discourse is challenging the valuation, which is itself worth noting.
+
+### Conviction decision
+
+**HELD at HIGH — with an explicit "Under Watch (valuation)" tag, which is new.**
+
+The operating case strengthened materially: revenue +172%, PAT +180%, AI systems at 62% of revenue growing 484%, order book +19% and L1 +183%, margin beating guidance by 120–170bps, and ROCE/ROE of 37.5%/32.8%. **On execution alone this is the best quarter printed by any name in the watchlist this cycle.**
+
+The conviction is not raised because **the price already reflects it and then some.** At 95.3x earnings and 34.4x book, the entire weighted return (~+21%) is dominated by multiple risk, not business risk. **This is a case where being right about the company and wrong about the entry price produce the same outcome.**
+
+**Downgrade to MH if:** the 29-Jul call reveals a material working-capital build without an offsetting explanation · **or** interest cost exceeds 15% of PBT · **or** order book growth stalls below ₹2,500cr · **or** AI Systems concentration creates visible single-customer dependence.
+**Sizing note:** at 95x this warrants position discipline more than conviction discipline. **Trim-on-strength is a legitimate response to this refresh; the thesis does not require adding here.**
+
+### Watch items
+1. **Q1FY27 earnings call, 29-Jul-2026 (tomorrow)** — highest-priority input; transcript not yet filed
+2. **Cash flow and working capital** — the deck doesn't carry it; the interest line says it matters
+3. Net debt trajectory from 0.41x (was zero-net-debt one quarter ago)
+4. AI Systems customer concentration — 62% of revenue from one segment growing 484%
+5. Order book + L1 conversion rate
+6. Whether the 14.70% margin holds as mix continues shifting
+
+---
+
 **Date written:** 3-Jul-2026 · **CMP:** ~₹2,900 (est) · **Market Cap:** ~₹16,500 cr (est) · **P/E (trailing):** ~80x est · **Sector:** AI Infrastructure
 **Sources:** Concalls Q1FY26, Q2FY26, Q3FY26, Q4FY26 (4 reads) · Screener consolidated view · ValuePickr Netweb thread (last 18 months) · BSE filings
 

@@ -1,6 +1,129 @@
 # Deep Industries Ltd (DEEP)
 
-**Sector 17 — Oil & Gas Services** · **BSE: 543288 · NSE: DEEPINDS** · **Profile: 4-Jul-2026 (v2 — transcript-grounded)**
+**Sector 17 — Oil & Gas Services** · **BSE: 543288 · NSE: DEEPINDS** · **Conviction: HELD at HIGH** · **Profile: 4-Jul-2026 (v2) · Tier A refreshed 28-Jul-2026**
+
+---
+
+## 🔄 Refresh Log — 28-Jul-2026 (Tier A — Q1FY27, an all-time-high quarter; and the concall gap is CLOSED)
+
+### ✅ Data-quality upgrade — the standing gap on this profile is resolved
+
+**v2 was built entirely from Screener AI *summaries*** because every raw-PDF route was blocked at the time (BSE CORS, Chrome safety-block, sandbox proxy). The profile has carried that caveat since 4-Jul, and Q4FY25/Q3FY25 returned 403.
+
+**That is now fixed.** Using `Bash` + `curl` (full network in Claude Code on the Mac, per CLAUDE.md §4A), I pulled the BSE `Pname` UUIDs straight off the Screener HTML and downloaded the actual PDFs:
+
+| Document | Pages | Status |
+|---|---|---|
+| `DEEP_PPT_2026-07.pdf` (**Q1FY27 deck**) | 37 | 🆕 Downloaded |
+| `DEEP_Transcript_2026-05.pdf` (Q4FY26) | 21 | 🆕 Downloaded |
+| `DEEP_PPT_2026-05.pdf` (Q4FY26 deck) | 40 | 🆕 Downloaded |
+| `DEEP_Transcript_2026-02.pdf` (Q3FY26) | 18 | 🆕 Downloaded |
+| `DEEP_Transcript_2025-11.pdf` (Q2FY26) | 19 | 🆕 Downloaded |
+| `DEEP_Transcript_2025-08.pdf` (Q1FY26) | 19 | 🆕 Downloaded |
+| `DEEP_Transcript_2025-05.pdf` (Q4FY25) | 20 | 🆕 Downloaded — **was 403 in v2** |
+
+**Concall Fetch Gate: ✅ CLEARED with 5 raw transcripts + 2 decks — no longer summary-derived.** All verified `%PDF`, text-extracted with `pdftotext -layout`. **The v2 "AI-summary only" data-quality flag can be retired.**
+
+> **📌 Method note worth codifying:** parsing Screener's raw HTML with `curl` + Python gives *exact* table values and the BSE UUIDs directly. It removes the extraction-model layer that mislabelled quarters repeatedly elsewhere in this session. This should be the default for both data pulls and concall fetches in this environment.
+
+### 🟢 Q1FY27 — all-time-high quarter, ahead of guidance
+
+Verbatim from the Q1FY27 deck (consolidated, ₹cr):
+
+| Particulars | Q1FY27 | Q1FY26 | YoY | Q4FY26 | QoQ |
+|---|---|---|---|---|---|
+| Revenue | **278.9** | 199.5 | **+39.8%** | 248.7 | **+12.2%** |
+| EBITDA | **131.8** | 95.0 | **+38.7%** | 106.9 | **+23.4%** |
+| EBITDA margin | **43.6%** | 44.6% | −100 bps | 39.1% | **+450 bps** |
+| **PAT** | **89.1** | 61.7 | **+44.5%** | −7.2 | n.m. |
+| PAT margin | **29.5%** | 29.0% | +48 bps | — | — |
+| **Cash PAT** | **113.4** | 78.1 | **+45.2%** | — | — |
+| EPS (₹) | **13.34** | 9.19 | +45.2% | −2.24 | n.m. |
+
+Deck, verbatim: *"Achieved **all-time high quarterly revenue and profitability**, driven by strong operational execution and market demand."*
+
+**This beats management's own guidance.** The Q4FY26 call carried a *"very good guidance of 25%, 30%"* growth for FY27 and FY28 — Q1FY27 delivered **+39.8% revenue and +44.5% PAT**, comfortably ahead. **A 43.6% EBITDA margin on ~₹280cr of quarterly revenue is exceptional for an oilfield-services business**, and the +450bps QoQ recovery confirms Q4FY26's 39.1% was write-off noise, not operational.
+
+### 🔴 The one thing that isn't working: the order book is flat
+
+Straight from the Q1FY27 deck's order-book slide:
+
+| Opening (revolving) 1-Apr-26 | Added in Q1FY27 | Executed in Q1FY27 | **Closing 30-Jun-26** |
+|---|---|---|---|
+| ₹3,007 cr | **₹319 cr** | ₹279 cr | **₹3,047 cr** |
+
+**Additions exceeded execution by only ₹40cr.** The book is treading water, and this is now a multi-quarter pattern that analysts have already named. Q4FY26 call, verbatim: *"our order book has **stagnated at around this INR3,000 crore odd level**."* Management's answer was that execution is running as fast as inflow: *"the kind of implementation or the kind of execution that is… that have come, and that's how the order book has remained same,"* with the hope that *"in some quarter or 2, you would see that numbers"* improve, and that a rising gas price would lift PEC inflow: *"with increase in gas price, this order book can increase upward."*
+
+**Read it straight: at ₹3,047cr against TTM revenue of ₹970cr, coverage is still a comfortable ~3.1x** — this is not a demand problem today. But **revenue is compounding at ~40% into a book that isn't growing**, and that arithmetic has a horizon. If inflow doesn't inflect within 2–3 quarters, FY28 growth has to come from either a book that finally moves or a re-rating that won't. **This is now the single most important number to track on DEEP.**
+
+### 📊 Full print (parsed directly from Screener HTML)
+
+| Consolidated (₹cr) | FY23 | FY24 | FY25 | FY26 | **TTM** |
+|---|---|---|---|---|---|
+| Sales | 341 | 427 | 576 | **891** | **970** |
+| Operating profit | 131 | 167 | 241 | **355** | **382** |
+| OPM | 38% | 39% | 42% | **40%** | 39% |
+| Other income | 56 | 30 | **−228** | **−139** | −128 |
+| PAT | 125 | 125 | **−79** | **197** | **224** |
+| EPS (₹) | 19.58 | 19.35 | −14.08 | 28.12 | **32.26** |
+
+**⚠️ Correcting a v2 understatement — there were TWO Q4 write-offs, not one.** v2 recorded the ₹208cr Kandla charge in Q4FY26. The quarterly data shows **other income of −₹245cr in Mar-2025 (PAT −₹207cr) AND −₹183cr in Mar-2026 (PAT −₹7.2cr)** — two consecutive fourth quarters carrying large negative charges. Management's *"nothing else left"* assurance was given after the **second** one. Q4FY26 call: *"we have written off all old trade receivables of Kandla Energy… around INR208 crores of Kandla legacy trade receivables after intensive recovery process."* Kandla was **merged into Deep effective 30-Mar-2026** (appointed date 31-Mar-2025), so the entity is now inside the parent and the receivables book is cleaned. **Q1FY27's clean ₹89cr PAT with +₹24cr of positive other income is the first quarter that confirms it.** But the base rate here is two-for-two on Q4 surprises — **do not treat Q4FY27 as de-risked until it prints.**
+
+**Balance sheet (Mar-2026):** Net worth ₹1,999cr (equity ₹32cr + reserves ₹1,967cr) · Borrowings ₹203cr · **Debt/EBITDA 0.48** (management, Q4FY26) · Fixed assets ₹1,472cr (+36% YoY) with **CWIP falling ₹258cr → ₹56cr** — the capex cycle has commissioned and is now earning.
+
+**Cash flow:** CFO **₹270cr** FY26 (vs ₹210cr) · Investing −₹233cr · **FCF ₹53cr** · **CFO/OP 81%**. Cash conversion is real; FCF is thin only because the growth capex is still being funded.
+
+### 💰 Valuation
+
+| | v2 (4-Jul-2026) | **28-Jul-2026** |
+|---|---|---|
+| CMP | ₹463 | **₹543** (+17.3%) |
+| Market cap | ₹2,966 cr | **₹3,473 cr** |
+| **P/E (TTM ₹224cr)** | 8.02x (adj 7.86x) | **8.37x** |
+| P/B | — | **1.74x** (BV ₹312) |
+| ROCE / ROE | 16.5% / 19.4% | **16.5% / 19.4%** |
+| Dividend yield | 0.66% | **0.56%** |
+
+**Still the cheapest quality name in the watchlist** — 8.4x earnings on 19.4% ROE, 40% EBITDA margins, 0.48x debt/EBITDA and a 3.1x-covered order book.
+
+**Refreshed scenarios (2-year, to FY28):**
+- **Base (55%):** 25–30% guided growth holds, order book inflects modestly. FY28 revenue ₹1,450cr, PAT ₹330cr, re-rate to 12x = ₹3,960cr. **~+14%.** *(Note: most of the return needs the multiple, and the multiple has been 8x for a reason.)*
+- **Bull (25%):** Gas-price-led PEC inflow lifts the book past ₹4,000cr, 15-yr contract scales, no Q4 surprise. FY28 revenue ₹1,700cr, PAT ₹420cr, 16x = ₹6,720cr. **~+93%.**
+- **Bear (20%):** Order book stays at ₹3,000cr, revenue growth decays to the book's replenishment rate, another Q4 charge. FY28 revenue ₹1,150cr, PAT ₹210cr, 8x = ₹1,680cr. **~−52%.**
+
+**Weighted 2-year return ≈ +21%** (~10% CAGR + 0.56% div). **Down sharply from v2's ~+90%** — not because the business got worse (it got better) but because **the stock has already re-rated +17% since v2 and the flat order book caps the base case.** The bear case is severe precisely because an 8x multiple on a flat book has little cushion if growth decays.
+
+### 📢 Community Pulse — 28-Jul-2026
+
+**Sell-side is the live discourse and it is asking exactly the right question.** The Q4FY26 call was dominated by order-book interrogation, not by celebration of margins:
+- 🔴 **Manan Shah** — the sharpest exchange: *"our order book has stagnated at around this INR3,000 crore odd level"* and pressed on whether execution or inflow is the constraint.
+- 🟡 **Sudhir Bheda** — asked what growth the current book supports.
+- 🟡 An analyst probed whether rising gas prices would lift PEC order inflow; management agreed directionally but committed to nothing.
+- 🟢 **Darshil Jhaveri** — extracted the key assurance: *"all the write-offs from Kandla we've taken, right? … nothing else left?"*
+
+**No active ValuePickr thread; no Substack coverage found.** DEEP remains under-followed — consistent with an 8x multiple on a 19% ROE.
+
+**Sentiment verdict: CONSTRUCTIVE, with a single well-identified concern** — the order book. The market and I are watching the same number.
+
+### Conviction decision
+
+**HELD at HIGH.**
+
+Q1FY27 is an unambiguously excellent quarter: all-time-high revenue and profit, ahead of the 25–30% guide, 43.6% EBITDA margin, first clean quarter post-Kandla, capex commissioned (CWIP ₹258cr → ₹56cr), debt/EBITDA 0.48. At 8.4x with 19.4% ROE, the asymmetry is still there.
+
+**Held rather than upgraded because of the order book, and I want to be precise about why that matters:** DEEP is a contract-execution business. Revenue growth of 40% against net book additions of ₹40cr means the current run-rate is being delivered by *drawing down* visibility, not adding it. That is fine for a few quarters and untenable for many.
+
+**Downgrade to MH if:** the closing order book falls below ₹2,900cr at either Q2 or Q3FY27 · **or** Q4FY27 carries a third consecutive year-end write-off · **or** EBITDA margin falls below 38%.
+**Upgrade conviction/sizing if:** the book crosses ₹3,500cr — that single event converts this from a cheap stock into a compounder.
+
+### Watch items
+1. **Closing order book at Q2FY27** — the number that decides the thesis
+2. Whether gas-price strength converts into PEC inflow, as management suggested
+3. Q4FY27 for a clean year-end (two-for-two on write-offs so far)
+4. EBITDA margin holding near 43% now that Kandla is merged in
+5. FCF turning materially positive as the commissioned capex earns
+
+---
 
 > **Source note** — This is a rewrite of the 4-Jul-2026 draft that was written from Screener + IR-site inference without any concall transcripts. Recovery method: Screener AI Summary endpoint (screener.in/concalls/summary/{id}/) fetched 4 concall summaries — **Q4FY26, Q3FY26, Q2FY26, Q1FY26** — via same-origin fetch (Chrome fetch of bseindia.com PDFs is CORS-blocked; Chrome direct navigation to bseindia.com is safety-blocked; sandbox curl is proxy-blocked; but Screener's own summary endpoint served the processed content cleanly). Total ~32,000 chars of AI-distilled management commentary + Q&A + guidance across 4 quarters. Full extracts saved at `Fetched Concalls/DEEP/DEEP_concall_extracts.txt`. Q4FY25 and Q3FY25 returned 403 (need paid Screener account or scheduled retry) — flagged for future refresh.
 
