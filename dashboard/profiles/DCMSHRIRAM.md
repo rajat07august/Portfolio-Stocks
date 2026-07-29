@@ -1,6 +1,258 @@
 # DCM Shriram — Company Profile
 
-**Ticker:** DCMSHRIRAM · BSE: 523367 · NSE: DCMSHRIRAM · **Sector:** Diversified Conglomerate (Chemicals + Sugar + Fenesta + Bioseed + Farm Solutions) · **Conviction:** Medium-High (HELD 16-Jul-2026)
+**Ticker:** DCMSHRIRAM · BSE: 523367 · NSE: DCMSHRIRAM · **Sector:** 4 — Chemicals (Diversified & Specialty) · **Conviction:** **MEDIUM (Under Watch)** — downgraded from Medium-High 29-Jul-2026
+
+---
+
+## 🔄 Refresh Log — 29-Jul-2026 (Tier A — Q1FY27 print, FY26 Annual Report, Serentica RE deal, Teknor JV)
+
+> **🕐 CONCALL GATE — PARTIAL.** The **Q1FY27 earnings call is scheduled for Thursday, 30-Jul-2026 at 4:00 PM IST** (BSE intimation 23-Jul-2026) — **it has not happened yet.** This refresh is therefore grounded in **primary company documents only**: the Q1FY27 results filing + press release + the full 26-slide investor presentation (all 28-Jul-2026), plus the **FY26 Annual Report (21-Jul-2026)** — a new primary source not available at the 16-Jul refresh. Six historical concalls (Jan-25 → May-26) remain read. **Action: re-read this profile against the 30-Jul transcript when it is filed (typically 3-6 working days) — management's answers on Bioseed FY27 recovery, ethanol policy and the Q2FY27 commissioning wave are the missing pieces.**
+
+**New primary documents obtained this refresh (all fetched to `Fetched Concalls/DCMSHRIRAM/`):**
+
+| Doc | Date | Note |
+|---|---|---|
+| Q1FY27 Investor Presentation (26 slides) | 28-Jul-2026 | Full segment detail — the core source here |
+| Q1FY27 Results + Limited Review (Deloitte) | 28-Jul-2026 | Financial tables are scanned images; entity list is text |
+| Q1FY27 Press Release | 28-Jul-2026 | Ajay + Vikram Shriram joint statement |
+| **FY26 Annual Report + BRSR** | 21-Jul-2026 | 🆕 New primary source (1.5 MB extracted text) |
+| Serentica RE acquisition disclosure + PR | 17-Jul-2026 | 🆕 Post-v1 |
+| Analyst call intimation | 23-Jul-2026 | Confirms 30-Jul call |
+| Change in Senior Management | 24-Jul-2026 | 🆕 CHRO resignation |
+
+---
+
+### 📊 Q1FY27 headline (verbatim from investor presentation slide 25)
+
+| | Q1FY27 (Jun-26) | Q1FY26 (Jun-25) | YoY |
+|---|---|---|---|
+| Revenue from Operations | ₹3,784.7 cr | ₹3,455.2 cr | +9.5% |
+| Net Revenue (ex-excise ₹220cr) | ₹3,564 cr | ₹3,262 cr | **+9%** |
+| PBDIT | ₹364.2 cr | ₹325.7 cr | **+12%** |
+| OPM (Screener) | 9% | 9% | flat |
+| Depreciation | ₹128.4 cr | ₹111.5 cr | +15% |
+| Finance cost | ₹41.1 cr | ₹44.0 cr | −7% |
+| **PBT before exceptional** | **₹194.7 cr** | **₹170.2 cr** | **+14.4%** ✅ |
+| Exceptional item | **+₹79.4 cr** | — | 🆕 |
+| PBT after exceptional | ₹274.2 cr | ₹170.2 cr | +61% |
+| Tax expense | **−₹418.0 cr** | +₹56.3 cr | **credit** |
+| Tax % (Screener) | **−152%** ⚠️ | 33% | — |
+| **PAT reported** | **₹693.4 cr** | ₹113.8 cr | **+509%** ⚠️ |
+| **PAT normalized (company's own)** | **₹147 cr** | ₹114 cr | **+29%** ✅ |
+| EPS reported | ₹44.42 | ₹7.30 | +509% |
+| **Net debt** | **₹1,481 cr** | ₹1,649 cr | **−10%** ✅ |
+| ROCE (company calc, TTM PBIT) | 13.2% | 13.6% | −40 bps |
+
+**The ₹553.7cr of noise, itemised (company footnote, slide 7 + 25):**
+- **₹474.3 cr tax adjustment** — "favorable judgement relating to claim under **Section 80-IA** of the Income Tax Act, 1961 **for previous years**." Section 80-IA is the captive-power-plant deduction; DCM Shriram runs 383 MW coal + 166 MW co-gen, so the claim is structurally sound — but it is a *prior-period* credit, not FY27 earnings.
+- **₹79.4 cr exceptional gain**, comprising **₹67.68 cr** profit on sale of surplus land at **Mokila village** + **₹11.74 cr** on the 50% stake sale in Shriram Polytech to form the Teknor JV.
+
+> **⚠️ THIS IS THE SECOND CONSECUTIVE QUARTER OF TAX-DRIVEN HEADLINE PAT.** Q4FY26 ran a −46% tax rate (ITAT relief on the ₹249.27cr AY2022-23 demand); Q1FY27 ran **−152%**. The 16-Jul refresh set watch item #1 as *"Q1FY27 tax rate normalization — must revert to ~30-34% band."* **It did not. It got dramatically worse.** Reported TTM PAT is now ₹1,436cr against ₹1,096cr of TTM PBT — the P&L is carrying ~₹600cr of prior-year tax credits.
+
+---
+
+### 🔴 The valuation finding — headline P/E 12.0x is a mirage; normalized is ~24x
+
+Screener now shows **Stock P/E 12.0x** (mcap ₹16,386cr ÷ TTM PAT ₹1,436cr). That number is not investable. Rebuilding TTM on a normal ~33% tax rate:
+
+| Quarter | Reported PAT | Normalized PAT | Basis |
+|---|---|---|---|
+| Q2FY26 (Sep-25) | ₹159 cr | ₹159 cr | tax 35% — clean |
+| Q3FY26 (Dec-25) | ₹213 cr | ₹213 cr | tax 34% — clean |
+| Q4FY26 (Mar-26) | ₹371 cr | **₹170 cr** | PBT ₹254cr × 0.67 |
+| Q1FY27 (Jun-26) | ₹693 cr | **₹147 cr** | company's own "effective normal PAT" |
+| **TTM** | **₹1,436 cr** | **≈ ₹689 cr** | — |
+
+- **Normalized TTM EPS ≈ ₹44.1** (15.61 cr shares) → **normalized P/E ≈ 23.8x at CMP ₹1,050**
+- Same exercise on 16-Jul data gave ~25.0x → **the normalized multiple has not moved.** The 18.8x → 12.0x collapse in the *headline* is pure tax accounting.
+
+> **⚠️ CORRECTION TO THE 16-JUL REFRESH.** That block assumed *"underlying PAT ex-tax-anomaly ~₹850cr FY26"* and built the base case on 18x against it. That was too generous. FY26 PBT after exceptional was **₹992.3cr**; at FY25's 34% tax rate normalized FY26 PAT is **₹655-680cr**, not ₹850cr. On that basis **real FY26 earnings growth was ~+9-12% YoY (₹604cr → ~₹665cr), not +49%.** The base case below is rebuilt from the corrected number, and that correction — more than the quarter itself — is what drives the conviction downgrade.
+
+**So: DCM Shriram trades at ~24x normalized earnings on an 11.5% ROCE / 11.5% ROE business with a 3-year profit CAGR of −1%.** It screens as the cheapest it has ever looked and is, on clean earnings, at the expensive end of its own history.
+
+---
+
+### 📊 Segment print — Q1FY27 (verbatim, presentation slide 9)
+
+| Segment | Rev Q1'27 | Rev Q1'26 | YoY | PBIT Q1'27 | PBIT Q1'26 | YoY | PBIT mgn |
+|---|---|---|---|---|---|---|---|
+| **Chemicals & Vinyl** | ₹1,392 cr | ₹1,114 cr | **+25%** | ₹243 cr | ₹185 cr | **+31%** | 17% (=17%) |
+| — Chemicals | ₹1,205 cr | ₹905 cr | **+33%** | ₹205 cr | ₹167 cr | +23% | 17% (18%) |
+| — Vinyl | ₹187 cr | ₹209 cr | −11% | ₹38 cr | ₹18 cr | **+114%** | **20% (8%)** |
+| Sugar & Ethanol | ₹811 cr | ₹824 cr | −2% | −₹9 cr | −₹37 cr | loss narrowed | — |
+| Fenesta | ₹303 cr | ₹248 cr | **+22%** | ₹31 cr | ₹27 cr | +13% | 10% (11%) |
+| Shriram Farm Solutions | ₹357 cr | ₹350 cr | +2% | ₹28 cr | ₹23 cr | +23% | 8% (7%) |
+| Fertilizer | ₹433 cr | ₹390 cr | +11% | ₹19 cr | ₹35 cr | **−44%** | 4% (9%) |
+| **Bioseed** | **₹210 cr** | **₹284 cr** | **−26%** 🔴 | **−₹11 cr** | **+₹40 cr** | **swing** | — (14%) |
+| Others (Cement, fuel retail) | ₹81 cr | ₹77 cr | +4% | −₹6 cr | −₹1 cr | — | — |
+| **Total (net of intersegment)** | **₹3,564 cr** | **₹3,262 cr** | **+9%** | ₹236 cr | ₹214 cr | +10% | 7% (7%) |
+
+**⚠️ Two segment reads are INVERTED once one-offs are stripped** (both one-offs are disclosed in the presentation's own footnotes):
+
+| Segment | Headline read | One-off in base | **Like-for-like truth** |
+|---|---|---|---|
+| **Sugar & Ethanol** | PBDIT swings +₹22cr from −₹7cr = "turnaround" | Q1FY26 carried a **one-time −₹36cr** provision for retrospective ethanol duty | LY normalized = **+₹29cr** → Q1FY27 ₹22cr is **−25% YoY**. Sugar is **DOWN**, not turned. |
+| **Fertilizer** | PBDIT −39% (₹23cr vs ₹38cr) = "collapse" | Q1FY26 carried a **one-time +₹24cr** retention-price revision | LY normalized = **+₹14cr** → Q1FY27 ₹23cr is **+67% YoY**. Fertilizer is the quarter's quiet winner. |
+
+**🔴 Bioseed is the real operating failure — and it failed the exact test v1 set.** Revenue −26% (Bioseed India −22%, subsidiaries −42%); PBDIT swung from **+₹41.8cr to −₹8.9cr = a ₹50.7cr YoY reversal** in what is Bioseed's *biggest* quarter (kharif). Company's stated causes: *"delayed rainfall leading to reduced demand,"* lower Corn and Paddy volumes, lower Cotton margins. Forward warning in the same slide: *"Significantly higher productivity during the seed production season of 2025-26 owing to favourable climatic conditions leading to higher inventory are putting pressure on margins."* — i.e. **an inventory glut is set to pressure Bioseed margins through the rest of FY27**, independent of monsoon recovery.
+
+**Chemicals nuance the headline hides.** Revenue +33% but **caustic volumes were dead flat** (197,544 MT vs 197,304 MT); ECU realisation +6.6% to ₹35,761/MT; capacity utilisation 82% (LY 80%). **Essentially all of the +33% is advanced materials (Glycerine→ECH→Epoxy) ramping** — and it is *dilutive to margin*: Chemicals PBDIT margin fell 24.5% → 22.8% (−7.2%). Growth is real but mix-negative.
+
+**Vinyl is the upside surprise + a genuine new policy tailwind.** PVC volumes −25% and revenue −11%, yet PBDIT ₹42.5cr vs ₹22.6cr (**+88%**) on margin 22.8% vs 10.8% — PVC prices +22%, carbide volumes and prices each +15%, utilisation 100%. Policy, verbatim: *"Custom duty waivers led to continued Chinese imports in India. **Since July 16, the custom duty has been reinstated and on July 24, 'Minimum import price' on low priced suspension grade PVC has been introduced for 6 months and can be extended.**"* 🆕 Both dates are post-v1.
+
+**Fenesta — growth strong, but two yellow flags.** Revenue +22% (volume-led, Projects vertical) but PBDIT +12.8% only, margin 13.1% vs 14.1%; **order book ₹302cr, up just +4% vs revenue +22%** — order intake is not keeping pace with revenue (the same forward-looking pattern flagged on PARAS). And **capital employed doubled: ₹266cr vs ₹128cr (+107%)** as the aluminium extrusion plant, DNV hardware and a new **wooden doors** facility build out. Footprint: 8 fabrication plants, 10 extrusion lines, 430 dealers / 273 cities / 976 cities served, 9 COCO showrooms, 7 countries.
+
+---
+
+### 🆕 Genuinely new post-16-Jul information (Bucket 3)
+
+**1. Serentica Renewables definitive agreement — 17-Jul-2026.** Signed with **Serentica Renewables India 38 Pvt Ltd** (Serentica is KKR-backed, $650M invested, 3,000 MW built) for **58 MW peak (~36 MW round-the-clock)** renewable power for Bharuch, sourced from a 190 MW solar-Rajasthan + wind-Karnataka project. Structure: DCM invests **up to ₹104.4 cr for a minimum 26% equity stake** in the SPV (group-captive requirement under the Electricity Act); presentation puts **total investment incl. related infra at ₹235 cr**. Commissioning **June 2027 (Q1FY28)**. Avoids **~0.4 million tonnes CO₂/year**. Takes Bharuch RE to 108 MW and **total group RE to 176 MW peak** across Bharuch + Kota. Sabaleel Nandy (ED & CEO, DCM Shriram Chemicals): *"power is one of the most significant input costs, this will help improve cost efficiency, provide greater visibility into long-term power costs and reduce exposure to fluctuations in conventional energy prices."*
+
+**2. Shriram Teknor JV — effective 17-Apr-2026.** DCM sold **50% of wholly-owned Shriram Polytech Ltd to Teknor Apex B.V.**, forming a 50:50 JV (renamed Shriram Teknor Ltd); Polytech deconsolidated from the group and now equity-accounted. AR FY26 rationale: *"designed to combine Shriram Polytech's strong Indian manufacturing base in vinyl compounds with Teknor Apex's global expertise in specialized formulations… allows Teknor Apex to expand its footprint in Asia."* Polytech was small (~1.1% of consolidated net assets, ~1.0% of profit) — **strategically more interesting than financially material**, and it brings a global partner into polymer compounding (FRLS, heat-resistant cable, automotive, food & medical grade, coloured PVC).
+
+**3. Salt works acquisition — NEW capex line.** Presentation slide 10: *"Proposed acquisition of Salt works with total capacity of 208,000 MTPA"* in Gujarat, **expected Q3FY27, under regulatory approvals.** This is **backward integration into salt — the primary raw material for caustic soda.** Not in the v1 profile at all.
+
+**4. Kota 68 MW green power — v1's "✅ Delivered" was premature.** Presentation still lists it under **"Investments under implementation, Q2FY27"**, being built **through a JV with JSW Renewables** under a group-captive structure, average 34 MW, with *"injection of 25 MW (average drawl) for July 2026."* v1's scorecard marked this ✅ Delivered in May-2026 at 15 MW average. **Correct status: ramping, not complete** — 25 MW average now vs 34 MW design.
+
+**5. CHRO resignation — 24-Jul-2026.** **Mr. Sandeep Girotra, Chief Human Resource Officer & Senior Management Personnel, resigned effective 24-Jul-2026, "due to personal reasons."** Single senior-management exit; no pattern yet, but logged.
+
+**6. Credit rating disclosed: ICRA AA+/Stable** (presentation slide 4) — not captured in v1. Net worth ₹7,660 cr. 12 locations, 6,609 employees, **27% of total energy is green**.
+
+**7. FY26 revenue mix (slide 4):** Agri-Rural **56%** · Chemicals & Vinyl **34%** · Building Material Products **8%**. Useful correction to the profile's loose "Chemicals is largest" framing — **Agri-Rural is the largest block by revenue**, which is why an erratic monsoon hurts this much.
+
+**8. Ethanol — the ceiling is now visible in the company's own data** (slide 18, as on 30-Jun-2026):
+
+| | ESY 22-23 | ESY 23-24 | ESY 24-25 | ESY 25-26* |
+|---|---|---|---|---|
+| OMC requirement (cr ltrs) | 600 | 825 | **1,206** | **1,050** ⚠️ |
+| Contracted | 574 | 717 | 1,132 | 1,058 |
+| Lifting | 506 | 707 | 1,039 | 717 |
+| **Blending %** | 12.0% | 14.6% | 19.2% | **20.0%** |
+
+**Blending has hit the 20% target — and OMC requirement has now *fallen* 13% YoY (1,206 → 1,050 cr litres).** The ethanol growth runway is closed until an E27/E30 mandate arrives. Management, verbatim: *"the long-term viability of the sector, particularly the ethanol blending ecosystem, still requires decisive and sustained government policy interventions regarding feedstock pricing and alternate usage mandates."*
+
+**9. Commissioning wave lands in Q2FY27** (slide 10) — the next two quarters carry unusual execution density:
+
+| Project | Expected |
+|---|---|
+| Fenesta Aluminium Extrusion, Kota (Phase 1) | Q2FY27 |
+| 68 MW peak captive RE, Kota (JSW Renewables JV) | Q2FY27 |
+| 100 TPD Aluminium Chloride, Bharuch | Q2FY27 — *pre-commissioning trials* |
+| 225 TPD Calcium Chloride, Bharuch | Q2FY27 — *pre-commissioning trials* |
+| Salt works acquisition (208,000 MTPA) | Q3FY27 🆕 |
+| 58 MW peak captive RE, Bharuch (Serentica) | Q1FY28 🆕 |
+| 36 KTPA Formulated Resins expansion, HSCL (₹101cr → 50 KTPA total) | Q2FY28 |
+
+*(Completed and confirmed: ECH 52,000 TPA — 35,000 TPA Oct-2025 + balance 17,000 TPA **April 2026**; HSCL 100% acquisition **Aug-2025**; DNV Global 53% **May-2025**.)*
+
+---
+
+### 📢 Community Pulse — 29-Jul-2026
+
+**ValuePickr.** The dedicated thread — **[DCM Shriram Ltd (previously DCM Shriram Consolidated Ltd), topic #252]** — has **92 posts and has been dormant since 14-Jan-2022.** There is no live retail thesis debate on this name. Last substantive posts (2020-21, user `rahulchauhan007` / `vkagrawal`) concern the Fenesta Bhiwadi plant, the IFC-backed $143M brownfield expansion and distillery capacity additions — all long since executed. **The absence of a live thread is itself the signal: this is an institution-and-dividend name, not a retail momentum story.**
+
+Post-2026 mentions appear only as passing references in other threads:
+- **t204127 #188 · 26-Jun-2026 · `RocketMan`** — 🟡 shared the ET Infra story *"Maersk backs India's container manufacturing push with 1,000-box order to DCM Shriram."* **The company denied this twice** (BSE clarifications 6-Jul and 15-Jul-2026: *"factually incorrect and not about the company"*). Community picked up a story that was not true.
+- **t1114 #154 · 12-Mar-2026 · `Phaeton`** — 🟡 on the chlor-alkali complex: *"TGV stands as a concentrated bet on the caustic soda market. Grasim is a conglomerate, **DCM Shriram has multiple businesses**, Epigral yes but moving away from core caustic."* — i.e. the community explicitly treats DCM as **too diversified to be a caustic play**, which is the conglomerate discount in one sentence.
+- **t220195 #13 · 7-May-2026 · `ha_the_meow`** — 🟢 on the other side of the HSCL deal: *"HSCL Sale (Aug'25): 58.5% stake to DCM Shriram (~₹219 Cr proceeds…)"* — corroborates the HSCL acquisition price from the seller's side.
+
+**Substack.** Search returned **no dedicated DCM Shriram deep-dive** post-v1. Coverage of this name is broker/institutional rather than newsletter-led.
+
+**Sentiment verdict: 🟡 MIXED — and thin.** No bull case being argued publicly, no bear case either. Business Standard notes the stock at **₹1,049 on 28-Jul-2026** — results were filed after market hours and the market has, so far, **not re-rated on the ₹693cr headline**, which is the correct reaction and quietly reassuring about market efficiency here.
+
+---
+
+### 📉 Refreshed valuation snapshot (29-Jul-2026, Screener consolidated)
+
+| | 16-Jul-2026 | 29-Jul-2026 | Change |
+|---|---|---|---|
+| CMP | ₹1,050 | **₹1,050** | flat |
+| Market cap | ₹16,374 cr | **₹16,386 cr** | flat |
+| **Headline P/E** | 18.8x | **12.0x** | ⚠️ tax-distorted |
+| **Normalized P/E** | ~25.0x | **~23.8x** | **the real number** |
+| P/B | 2.1x | 2.12x (BV ₹495) | flat |
+| Dividend yield | 0.86% | **1.07%** | ✅ final dividend counted |
+| ROCE / ROE | 11.8% | **11.5% / 11.5%** | −30 bps |
+| 52-week H/L | ₹1,502 / ₹945 | **₹1,460 / ₹945** | high revised down |
+| 1-year stock return | −27.1% | **−26%** | still deeply negative |
+| **No. of shareholders** | — | **54,377** (Jun-26) | **−11.8% YoY** ⚠️ |
+
+**Shareholding (Jun-2026 quarter, now 12+ quarters of data):**
+
+| | Mar-25 | Sep-25 | Mar-26 | **Jun-26** | Read |
+|---|---|---|---|---|---|
+| Promoters | 66.53% | 66.53% | 66.53% | **66.53%** | ✅ **Zero change, 12 straight quarters** |
+| FIIs | 4.10% | 3.97% | 3.97% | 3.89% | Marginal trim |
+| DIIs | 7.76% | 8.24% | 8.55% | 8.45% | Marginal trim |
+| Public | 20.82% | 20.54% | 20.23% | 20.44% | Flat |
+| **Shareholder count** | 61,682 | 60,864 | 55,220 | **54,377** | ⚠️ **−7,305 (−11.8%) in 5 quarters** |
+
+**Read:** promoter conviction is unimpeachable and institutions are steady. But **retail is leaving steadily** — 7,305 shareholders gone since Mar-25. Combined with a dead ValuePickr thread, DCM Shriram is being quietly de-owned by the small investor even as the promoter holds every share.
+
+**Screener PROs/CONs (29-Jul-2026):**
+- ✅ *"Company has been maintaining a healthy dividend payout"* (FY26 payout 21%)
+- ⚠️ *"Poor sales growth of 10.3% over past five years"*
+- ⚠️ *"Tax rate seems low"* — **now understated; TTM tax rate is 14% and Q1FY27 was −152%**
+
+**Balance sheet — the one unambiguous positive.** Net debt **₹1,481 cr, down 10% YoY** and down **₹286 cr from FY26-end ₹1,767 cr in a single quarter**. FY26 CFO ₹1,234cr, FCF ₹354cr (positive), CFO/OP 88%, working capital days 25 (best in a decade), debtor days 29. **The capex-cycle debt build flagged as Risk 10 on 16-Jul has started to reverse, ahead of schedule.**
+
+---
+
+### Delivery scorecard additions (vs 16-Jul-2026)
+
+| Guidance / Milestone | When | Actual delivered | Verdict |
+|---|---|---|---|
+| **Q1FY27 tax rate normalizes to 30-34%** | v1 watch item #1 | **−152%.** Second straight quarter of prior-year tax credits | 🔴 **Missed — badly** |
+| **Q1FY27 OPM ≥12% to show operating pickup** | v1 Risk 12 trigger | **9%** — but see note below | 🟡 **Trigger failed, trigger was mis-set** |
+| **Bioseed H1FY27 kharif test** | v1 Risk 7 | **Rev −26%, PBDIT +₹42cr → −₹9cr** | 🔴 **Failed** |
+| Q1FY27 PBT before exceptional | — | ₹194.7cr vs ₹170.2cr, **+14.4%** | ✅ Real operating growth |
+| Fenesta Q1FY27 growth sustained | v1 watch item #4 | **+22% revenue** (from a higher base) | ✅ Delivered |
+| Sugar cost pressure normalizes | v1 watch item #2 | **Like-for-like PBDIT −25%** — cane costs still biting | 🔴 Not yet |
+| Net debt trajectory | v1 Risk 10 | **−10% YoY, −₹286cr QoQ** | ✅ **Reversing early** |
+| ECH plant utilization ramp | v1 watch item #5 | Advanced materials drove Chemicals +33%; final 17,000 TPA commissioned Apr-26 | ✅ Ramping |
+| AlCl₃ / CaCl₂ Bharuch | Q4FY26 guide | **Pre-commissioning trials**, Q2FY27 | 🕐 On track |
+| 68 MW Kota captive RE | v1 marked ✅ | **Still "under implementation"**, 25 MW avg vs 34 MW design | 🟡 **v1 verdict corrected — ramping** |
+| Bharuch RE expansion | Q4FY26 guide | **Serentica definitive agreement signed 17-Jul-26**, ₹104.4cr equity / ₹235cr total | ✅ Signed |
+| Salt works acquisition (208,000 MTPA) | — | Under regulatory approval, Q3FY27 | 🆕 New |
+| Teknor Apex 50:50 JV | — | Executed 16-Apr, effective 17-Apr-2026 | 🆕 Delivered |
+| 2 new Independent Directors join | v1 watch item #6 | Effective **9-Aug-2026** — not yet seated | 🕐 Pending |
+| ₹249.27cr ITAT demand deletion | v1 watch item #3 | Superseded by the larger **₹474.3cr Sec 80-IA** favourable judgement | ✅ Won |
+| FY27 capex ₹1,000-1,200cr | Q4FY26 concall | 7 projects live across Q2FY27–Q2FY28 | 🕐 Tracking |
+
+**Note on the OPM trigger:** v1 set *"Q1FY27 OPM must show 12%+ (vs Q1FY26 9%)."* **That trigger was mis-specified.** Q1 is structurally this company's weakest quarter (Q1FY25 9%, Q1FY26 9%) because sugar and agri are off-season — asking a Q1 to print 12% was asking it to beat its own seasonality, not its own base. Q1FY27 came in at 9%, *flat* against the correct comparison, with PBDIT +12% and PBT before exceptional +14.4%. **The honest verdict: the quarter was operationally fine; the trigger was a bad test.** The downgrade below does **not** rest on it.
+
+---
+
+### Conviction: **MEDIUM-HIGH → MEDIUM (Under Watch)**
+
+This is a **valuation-and-arithmetic downgrade, not a quarter downgrade.** The quarter itself was acceptable: PBT before exceptional +14.4%, PBDIT +12%, net debt −10%, Chemicals & Vinyl PBIT +31%, Fenesta +22%.
+
+Rationale:
+1. **The 16-Jul base case was built on a wrong number.** Underlying FY26 PAT is **~₹665-680cr, not ₹850cr**. Correcting it moves the whole framework down — that alone is worth a notch.
+2. **Normalized P/E is ~24x, not 12x.** Paying 24x for an **11.5% ROCE / 11.5% ROE** business with a **−1% three-year profit CAGR** is not a margin-of-safety position, whatever the screen says. The screen is now actively misleading, and will stay misleading for three more quarters until the tax credits roll out of TTM.
+3. **Two consecutive quarters of tax-manufactured headline PAT.** Both are legitimate wins (ITAT, Section 80-IA) and both are prior-period. Reported earnings will *fall sharply* on a like-for-like basis in FY28 when they anniversary.
+4. **Bioseed failed its designated test**, and management has pre-warned that an inventory glut pressures margins through the rest of FY27 — so this is not one bad monsoon quarter.
+5. **Ethanol's runway is closed at 20% blending**, with OMC requirement down 13% YoY in the company's own table. Sugar & Ethanol is ~23% of revenue with no visible growth vector absent policy.
+6. **Retail is leaving** (−11.8% shareholders YoY) and the ValuePickr thread has been dead for four years.
+
+**Held against downgrading further to ML:** promoter at 66.53% for 12 unbroken quarters, ICRA AA+/Stable, net debt reversing early, FCF positive, working capital days at a decade low, a dense and *funded* commissioning wave landing Q2FY27–Q2FY28, real backward integration (salt works) and a credible global partner (Teknor Apex). This is a well-run business at a full price — not a broken one.
+
+**Re-upgrade trigger to MH:** normalized P/E back to ≤18x — either via price (~₹790-800) or via the Q2FY27–Q3FY27 commissioning wave lifting normalized PAT toward ₹900cr+ **with ROCE turning up through 14%**.
+**Downgrade trigger to ML:** Bioseed still loss-making in Q2FY27 *and* Chemicals PBDIT margin below 21%, or any FY27 capex slippage past Q4FY27.
+
+### Watch items for next refresh
+
+1. **🔴 TOP PRIORITY — read the 30-Jul-2026 Q1FY27 concall transcript** when filed. Specifically: Bioseed FY27 recovery guidance and the inventory overhang; whether the Section 80-IA judgement has *forward* P&L effect or is purely prior-period; FY27 capex number reaffirmation.
+2. **Q2FY27 commissioning proof** — AlCl₃, CaCl₂, Fenesta extrusion and Kota 68 MW RE all claim Q2FY27. Four simultaneous commissionings is the execution test of the year.
+3. **Tax rate normalization — third attempt.** Q2FY27 must print 30-34%.
+4. **Fenesta order book vs revenue divergence** — +4% vs +22%. If order book stays flat two more quarters, the +22% growth has no fuel.
+5. **Bioseed Q2FY27** — kharif realisation quarter; the inventory-glut margin warning gets tested.
+6. **Vinyl MIP durability** — the 6-month minimum import price expires ~24-Jan-2027. Extension or lapse swings Vinyl margins hard.
+7. **Salt works regulatory approval** (Q3FY27) and **Serentica financial close**.
+8. **Two new Independent Directors seated 9-Aug-2026** — committee composition.
+9. **Shareholder count** — does the −11.8% retail exodus continue?
+
+---
 
 ## 🔄 Refresh Log — 16-Jul-2026 (Tier A — Q4FY26 concall re-read + FY26 print grounded)
 
@@ -222,27 +474,46 @@ DCM Shriram plays across 6 segments — each with its own force:
 
 ## 3.5. Management Track Record & Promoter Background
 
-**Chairman & Senior Managing Director:** *Mr. Ajay Shriram* — third-generation family patriarch. Senior figure in Indian industry (past CII President).
+**Chairman & Senior Managing Director:** *Mr. Ajay S. Shriram* — third-generation family patriarch. Senior figure in Indian industry (past CII President).
 
-**Joint Managing Director:** *Mr. Ajit Shriram* — brother, complementary role.
+> **🔴 ROSTER CORRECTION (29-Jul-2026) — v1 omitted the Vice Chairman & Managing Director.** The company's own 23-Jul-2026 analyst-call intimation and the 28-Jul-2026 press release both name **Mr. Vikram S. Shriram, Vice-Chairman and Managing Director** as a principal signatory of management commentary — he co-signs the quarterly joint statement *with* Ajay Shriram. He was missing entirely from the v1 roster. **The correct third-generation structure is four Shrirams on the board of management, not three.**
 
-**Deputy Managing Director:** *Mr. Aditya Shriram* — fourth generation. Handles financial + strategic dialogue.
+**Vice Chairman & Managing Director:** *Mr. Vikram S. Shriram* — 🆕 **added 29-Jul-2026.** Co-signs the quarterly management statement with Ajay Shriram; jointly represents the company on every earnings call.
+
+**Joint Managing Director:** *Mr. Ajit S. Shriram* — brother, complementary role.
+
+**Deputy Managing Director:** *Mr. Aditya A. Shriram* — fourth generation. Handles financial + strategic dialogue.
+
+**Executive Director & CEO, DCM Shriram Chemicals:** *Mr. Sabaleel Nandy* — 🆕 **added 29-Jul-2026.** Runs the chlor-alkali + advanced materials business (India's #2 chlor-alkali producer, 1 million MTPA installed). Public face of the Serentica renewable-power deal (17-Jul-2026). **Notable: the largest profit engine now has a named professional CEO outside the family** — a governance and succession positive not captured in v1.
 
 **Group Chief Financial Officer:** *Mr. Amit Agarwal*.
 
-**Company Secretary:** *Mr. Deepak Gupta*.
+**Company Secretary & Compliance Officer:** *Mr. Deepak Gupta*.
+
+**Chief Human Resource Officer:** *Mr. Sandeep Girotra* — ⚠️ **RESIGNED effective 24-Jul-2026**, stated reason "personal reasons" (BSE disclosure, Regulation 30). Single senior-management exit; no successor announced as of 29-Jul-2026. Logged, not yet a pattern.
 
 **Promoter — Shriram family (Delhi).** 137-year business heritage (Shriram Group founded 1889 by Sir Shriram). One of India's oldest business families.
 
-**Promoter holding (Mar 2026): 66.53% — completely stable:**
+**Promoter holding (Jun 2026): 66.53% — completely stable:**
 
 | Period | Promoter % |
 |---|---|
-| Jun 2023 | 66.53% |
+| Sep 2023 | 66.53% |
+| Dec 2023 | 66.53% |
+| Mar 2024 | 66.53% |
+| Jun 2024 | 66.53% |
 | Sep 2024 | 66.53% |
+| Dec 2024 | 66.53% |
+| Mar 2025 | 66.53% |
+| Jun 2025 | 66.53% |
+| Sep 2025 | 66.53% |
+| Dec 2025 | 66.53% |
 | Mar 2026 | 66.53% |
+| **Jun 2026** | **66.53%** |
 
-**Zero dilution across 12 quarters.** Best-in-class capital allocation signal.
+**Zero dilution across all 12 quarters — not a single basis point of movement.** Best-in-class capital allocation signal, and the strongest single item on this profile.
+
+**⚠️ Counter-signal in the same table (added 29-Jul-2026) — retail is leaving.** Shareholder count has fallen **61,682 (Mar-25) → 54,377 (Jun-26) = −7,305, −11.8%** across five quarters, while FIIs (4.10%→3.89%) and DIIs (7.76%→8.45%) barely moved. The float is consolidating into fewer, larger hands. Combined with a ValuePickr thread dormant since Jan-2022, DCM Shriram is being quietly de-owned by the small investor even as the promoter holds every share.
 
 **Other listed entities of the Shriram family (broader):**
 - **DCM Shriram Industries** (BSE: 523369) — separate entity, sugar/chemicals
@@ -275,6 +546,12 @@ Note: DCM Shriram (this profile) is the primary listed entity of the Ajay/Ajit/A
 **Verdict on management:** Excellent long-cycle execution. Sustainability-first + strategic diversification + zero dilution + IFC validation. Bet on Shriram family for multi-decade compounding.
 
 **Refresh verdict on management (16-Jul-2026):** Delivery scorecard extended — **9 ticks / 2 misses / 3 in-progress / 3 pending** across 15 milestones. First operating-level misses recorded (Q4FY26 PBT decel + Sugar segment cost pressure), but these are cyclical, not structural. Governance strengthening (Retd. SC Justice on board) + ITAT win + Fenesta ₹1,000cr milestone all reinforce the "quality-heritage anchor" thesis. **Trust intact; MH conviction held.** The 3-year profit CAGR of −1% (per Screener) is a real headwind on the thesis — DCM Shriram is more "quality holdings" than "growth compounder" at these multiples.
+
+**Refresh verdict on management (29-Jul-2026):** Scorecard now runs to **31 milestones — 7 ticks / 3 red / 2 amber / 5 in-progress** added this quarter. **Disclosure quality is the standout: management itself footnoted every one-off** — the ₹474.3cr Sec 80-IA credit, the ₹79.4cr exceptional split into land (₹67.68cr) and JV stake (₹11.74cr), the LY −₹36cr ethanol duty provision that flatters Sugar, and the LY +₹24cr retention gain that flatters the Fertilizer base. **They also volunteered "effective normal PAT is ₹147 cr" on the front slide of the deck.** A management trying to sell a ₹693cr headline does not print the ₹147cr number in the same footnote. **Candour: high.**
+
+Where it weakens: **the same team marked the Kota 68 MW green power as delivered in May-2026 when it is still "under implementation" at 25 MW average against a 34 MW design** — the profile inherited that optimism in v1's scorecard and it has now been corrected. And two consecutive quarters of tax-manufactured PAT, while legitimate, mean **reported earnings have told you almost nothing about the business for six months.**
+
+**Net: trust the disclosure, discount the headline.** The Shriram family remains the reason to own this — 66.53% for 12 quarters, AA+ rating, a professional CEO now running the biggest segment, real backward integration into salt and a global JV partner in Teknor Apex. But **management quality is not the binding constraint here; price is.** Conviction moves MH → M on arithmetic, with the promoter record explicitly cited as the reason it does not move further.
 
 ---
 
@@ -369,6 +646,91 @@ Note: DCM Shriram (this profile) is the primary listed entity of the Ajay/Ajit/A
 
 ---
 
+### 📊 Q1FY27 Refresh — Full Numbers Print (added 29-Jul-2026)
+
+*v1 and 16-Jul tables above preserved as historical baseline. Source: Q1FY27 investor presentation (28-Jul-2026) + Screener consolidated.*
+
+**6-quarter trajectory (Screener consolidated):**
+
+| | Q4FY25 | Q1FY26 | Q2FY26 | Q3FY26 | Q4FY26 | **Q1FY27** |
+|---|---|---|---|---|---|---|
+| Sales (₹cr) | 2,877 | 3,262 | 3,272 | 3,811 | 3,193 | **3,564** |
+| Operating Profit (₹cr) | 405 | 304 | 309 | 532 | 353 | **337** |
+| OPM % | 14% | 9% | 9% | 14% | 11% | **9%** |
+| Other Income (₹cr) | 21 | 22 | 99 | −26 | 78 | **107** |
+| Interest | 43 | 44 | 43 | 49 | 40 | **41** |
+| Depreciation | 114 | 112 | 119 | 134 | 138 | **128** |
+| PBT | 270 | 170 | 246 | 322 | 254 | **274** |
+| Tax % | 34% | 33% | 35% | 34% | **−46%** ⚠️ | **−152%** ⚠️ |
+| PAT reported | 179 | 114 | 159 | 213 | **371** | **693** |
+| **PAT normalized** | 179 | 114 | 159 | 213 | **~170** | **147** |
+| EPS reported (₹) | 11.47 | 7.27 | 10.13 | 13.60 | 23.72 | **44.42** |
+
+**Trajectory read:** Seasonality holds exactly as v1 described — Q1 and Q2 print 9% OPM (sugar/agri off-season), Q3 and Q4 print 11-14%. **Q1FY27's 9% OPM is therefore flat against the correct comparison (Q1FY26 9%), not a deterioration.** Sales +9% YoY and +12% on a two-year stack. The two right-hand columns of the tax row are the story of the last six months: **the reported PAT line has been decoupled from the business since Dec-2025.** Read the *normalized* row instead — ₹114 → 159 → 213 → 170 → 147, i.e. a business earning roughly ₹650-700cr a year and growing at low-double-digits, not the ₹1,436cr TTM the screen shows.
+
+**Normalized TTM bridge (the number that matters):**
+
+| Quarter | Reported | Normalized | Basis |
+|---|---|---|---|
+| Q2FY26 | ₹159 cr | ₹159 cr | tax 35% — clean |
+| Q3FY26 | ₹213 cr | ₹213 cr | tax 34% — clean |
+| Q4FY26 | ₹371 cr | ₹170 cr | PBT ₹254cr × 0.67 |
+| Q1FY27 | ₹693 cr | ₹147 cr | company's own disclosure |
+| **TTM** | **₹1,436 cr** | **≈ ₹689 cr** | **normalized EPS ≈ ₹44.1** |
+
+**FY26 restated on the same basis:** PBT after exceptional ₹992.3cr × 0.67 = **~₹665cr normalized** vs FY25 ₹604cr = **+10% YoY**. Not the +49% the reported line shows. *(This supersedes the 16-Jul block's ~₹850cr estimate.)*
+
+**Segment mix — Q1FY27 (presentation slide 9), appended to the FY26 breakdown above:**
+
+| Segment | Rev Q1'27 | YoY | PBIT Q1'27 | YoY | Like-for-like note |
+|---|---|---|---|---|---|
+| Chemicals & Vinyl | ₹1,392 cr | +25% | ₹243 cr | +31% | Caustic volumes **flat**; all growth from advanced materials |
+| — Chemicals | ₹1,205 cr | +33% | ₹205 cr | +23% | PBDIT margin 22.8% vs 24.5% — **mix-dilutive** |
+| — Vinyl | ₹187 cr | −11% | ₹38 cr | +114% | PVC vol −25%, price +22%; utilisation 100% |
+| Sugar & Ethanol | ₹811 cr | −2% | −₹9 cr | narrowed | **LY had −₹36cr one-off → l-f-l PBDIT −25%** |
+| Fenesta | ₹303 cr | +22% | ₹31 cr | +13% | Order book only **+4%**; cap. employed **+107%** |
+| Shriram Farm Solutions | ₹357 cr | +2% | ₹28 cr | +23% | Realisation-led; volumes down on monsoon |
+| Fertilizer | ₹433 cr | +11% | ₹19 cr | −44% | **LY had +₹24cr one-off → l-f-l PBDIT +67%** |
+| Bioseed | ₹210 cr | **−26%** | −₹11 cr | **swing** | **₹50.7cr PBDIT reversal in its peak quarter** |
+| Others | ₹81 cr | +4% | −₹6 cr | — | Cement + 5 retail fuel pumps |
+| **Total** | **₹3,564 cr** | **+9%** | ₹236 cr | +10% | — |
+
+**FY26 revenue mix by block (presentation slide 4) — corrects the profile's loose framing:** Agri-Rural **56%** (Sugar & Ethanol, SFS, Bioseed, Fertilizer) · Chemicals & Vinyl **34%** · Building Material Products **8%**. **Agri-Rural is the largest block, not Chemicals** — which is precisely why an erratic southwest monsoon costs this much.
+
+**Balance sheet + cash flow (Q1FY27 + FY26 actuals):**
+
+| | FY25 | FY26 | Q1FY27 | Read |
+|---|---|---|---|---|
+| **Net Debt** | ₹1,395 cr | ₹1,767 cr | **₹1,481 cr** | ✅ **−₹286cr in one quarter; −10% YoY** |
+| Gross borrowings | ₹2,529 cr | ₹2,923 cr | — | Capex-cycle peak passing |
+| Net worth | — | **₹7,660 cr** | — | Book value ₹495/share |
+| CFO | ₹1,127 cr | ₹1,234 cr | — | +9%, CFO/OP 88% |
+| FCF | ₹280 cr | **₹354 cr** | — | ✅ Positive two years running |
+| Working capital days | 26 | **25** | — | ✅ Decade low |
+| Debtor days | 28 | 29 | — | Tight |
+| Inventory days | 162 | 162 | — | Structural (sugar season) |
+| Credit rating | — | **ICRA AA+/Stable** | — | 🆕 Not captured in v1 |
+
+**Historical growth trajectory (Screener, 29-Jul-2026):**
+
+| | 10Y | 5Y | 3Y | TTM |
+|---|---|---|---|---|
+| Sales CAGR | 9% | 10% | 5% | 11% |
+| Profit CAGR | 11% | **5%** | **−1%** ⚠️ | **122%** (tax-manufactured) |
+| Stock CAGR | 16% | 2% | 8% | **−26%** ⚠️ |
+| ROE | 15% | 12% | 9% | 12% (last yr) |
+
+**Read:** the TTM profit figure moved from +49% to **+122%** between the two refreshes without the business changing at all — a clean illustration of why the reported line is unusable right now. The durable numbers are the 5-year (5%) and 3-year (−1%) profit CAGRs. ROCE has compressed 29% (FY19) → **11.5%** on a balance sheet carrying ₹571cr CWIP and a fleet of newly commissioned, under-utilised assets. **The entire bull case rests on that ROCE mean-reverting as the Q2FY27–Q2FY28 commissioning wave loads.**
+
+**FY27 capex outlook (unchanged guide, ₹1,000-1,200cr):** seven projects live — Fenesta aluminium extrusion (Q2FY27), Kota 68 MW RE via JSW Renewables JV (Q2FY27), 100 TPD AlCl₃ (Q2FY27, in trials), 225 TPD CaCl₂ (Q2FY27, in trials), salt works 208,000 MTPA (Q3FY27), Serentica 58 MW Bharuch RE ₹235cr (Q1FY28), HSCL formulated resins +36 KTPA ₹101cr (Q2FY28).
+
+**Anomaly / data-quality flags:**
+- The **Q1FY27 results PDF's financial statements are scanned images** — `pdftotext` recovers the cover letter and Deloitte limited-review opinion but not the tables. **All numbers here are sourced from the investor presentation (machine-readable) and Screener, which agree line-for-line.**
+- Screener's *"Tax rate seems low"* CON is now a severe understatement (TTM 14%, Q1FY27 −152%).
+- FY25 comparatives in the presentation **exclude HSCL and DNV Global**; Screener's FY25 includes group consolidation. Minor basis difference, immaterial at the headline.
+
+---
+
 ## 5. Connecting the Dots
 
 **Thread A — Chemicals value chain (glycerine → ECH → epoxy → formulations).** Full integration.
@@ -420,29 +782,78 @@ The market has re-rated DCM Shriram downward for growth deceleration but the mul
 
 ---
 
+### 💰 Valuation refresh — 29-Jul-2026 (post-Q1FY27)
+
+**Trading metrics (29-Jul-2026, Screener consolidated):**
+- **CMP ₹1,050** · Market cap **₹16,386 cr** (flat vs 16-Jul)
+- **Headline P/E 12.0x** ⚠️ — *unusable; see below*
+- **Normalized P/E ≈ 23.8x** on normalized TTM PAT ₹689cr / EPS ₹44.1
+- P/B **2.12x** on book value ₹495 · Div yield **1.07%** (up from 0.86% as the FY26 final dividend counts)
+- ROCE **11.5%** / ROE **11.5%** · 52-week H/L **₹1,460 / ₹945** · 1-year return **−26%**
+- Credit rating **ICRA AA+/Stable** · Net debt ₹1,481cr (−10% YoY)
+
+**🔴 The single most important line in this profile right now:**
+
+> **The screen says 12.0x. The business is at ~24x.** Two consecutive quarters of prior-period tax credits (₹474.3cr Sec 80-IA in Q1FY27, the ITAT reversal in Q4FY26) have put ~₹600cr of non-operating profit into TTM earnings. **That distortion will sit in the screen until Q4FY27**, making DCM Shriram look like a deep-value conglomerate for three more quarters while it is in fact priced at a full multiple. Anyone screening Indian mid-caps on P/E will surface this name for the wrong reason.
+
+**Multiple gap analysis:**
+
+| Basis | Earnings | P/E at ₹16,386cr mcap |
+|---|---|---|
+| Reported TTM | ₹1,436 cr | **12.0x** — tax-manufactured |
+| Normalized TTM (33% tax) | ₹689 cr | **23.8x** — the real number |
+| Normalized FY26 | ₹665 cr | 24.6x |
+| Bull-case FY28 (full capex monetization) | ₹1,150 cr | 14.2x on today's price |
+
+*v1 (3-Jul-2026) and 16-Jul-2026 scenarios preserved above for lineage. Both are superseded — the 16-Jul base case used an underlying FY26 PAT of ~₹850cr which was ~₹185cr too high.*
+
+**Refreshed scenarios — rebuilt on normalized earnings, 2-year horizon to FY28:**
+
+- **Base case (55%):** The Q2FY27 commissioning wave (AlCl₃, CaCl₂, Fenesta extrusion, Kota RE) lands broadly on time and ramps through FY28; salt works closes and takes a slice out of caustic input cost; Fenesta compounds ~18-20%; Bioseed recovers to roughly breakeven-to-modest-profit but carries the inventory overhang; Sugar & Ethanol stays range-bound with blending capped at 20%. **FY28 normalized PAT ₹900cr** (≈14% CAGR off ₹689cr TTM). The market marks it on clean earnings once the tax credits roll out, so the multiple compresses from 23.8x to **19x** → mcap **₹17,100 cr = +4%.**
+- **Bull case (25%):** Full capex monetization drives ROCE back through 14-15%; an E27/E30 ethanol mandate arrives and re-opens Sugar's runway; Vinyl MIP is extended beyond Jan-2027; a normal FY28 monsoon restores Bioseed to its ₹150cr+ PBDIT form; advanced materials reach designed utilisation at better mix. **FY28 normalized PAT ₹1,150cr at 22x** → mcap **₹25,300 cr = +54%.**
+- **Bear case (20%):** Bioseed's inventory glut persists through FY27 and the monsoon disappoints again; ethanol demand stays capped and cane costs keep rising; global chlor-alkali oversupply compresses ECU; the ₹1,000-1,200cr capex converts to depreciation faster than to EBITDA and ROCE stays stuck near 11%. **FY28 normalized PAT ₹700cr (flat) at 15x** → mcap **₹10,500 cr = −36%.**
+
+**Weighted expected return over 2 years ≈ +8.5%** — `0.55(+4%) + 0.25(+54%) + 0.20(−36%)` — or **~4.2% CAGR + 1.07% dividend yield ≈ 5.3% p.a. total return.**
+
+**What changed vs the 16-Jul framework:** weighted return falls from ~10-12% to **~8.5%**, almost entirely because the underlying-earnings base was corrected from ₹850cr to ₹665-689cr. The *shape* of the distribution also worsened: the base case is now barely positive (+4% over two years) while the bear case is −36%. **The asymmetry has flipped — there is more downside in the bear case than upside in the base case, with the entire positive expectancy carried by the 25% bull branch.** That is a materially less comfortable position than v1 or the 16-Jul refresh described, and it is the arithmetic reason for the MH → M downgrade.
+
+**Trigger for re-rating (what would make this cheap again):** normalized P/E ≤18x — reachable either at **~₹790-800 on price**, or on earnings if the commissioning wave lifts normalized PAT toward ₹900cr+ **with ROCE visibly turning up through 14%**. ROCE is the tell: at 29% (FY19) this business earned a 20x+ multiple; at 11.5% it does not.
+
+---
+
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — Sugar cycle downturn.** Politically sensitive segment.
 
 > **⚠️ MATERIALIZING (added 16-Jul-2026)** — Q4FY26 Sugar & Ethanol PBDIT **−18% to ₹207cr** on sugarcane cost inflation (+8% cane price hike). Ethanol allocations from OMCs are only ~1,100 crore litres vs national capacity ~1,900 cr litres = **~40% underutilization**. Sugar inventory lower at 32.2 lakh quintals vs 39.9 lakh. **Segment stress is real; watch H2FY27.**
+>
+> **⚠️ CONFIRMED + STRUCTURAL CEILING FOUND (added 29-Jul-2026)** — Q1FY27 Sugar & Ethanol revenue −2%, PBDIT **+₹22cr vs −₹7cr LY** which *looks* like a turnaround. It is not: **LY carried a one-time −₹36cr provision for retrospective ethanol duty**, so like-for-like PBDIT is **−25% YoY**. Domestic sugar volumes −8%, sugar prices +1.7% (₹4,137/qtl), ethanol volumes flat, **ethanol prices −4%**. Cane COGS still rising. The new and more serious finding is in management's own ethanol table: **blending has reached the 20% target and OMC requirement has *fallen* 13% YoY (1,206 → 1,050 cr litres)**. This is no longer a cyclical cost problem — **the demand runway for ethanol has closed until an E27/E30 mandate is legislated.** Management's verbatim ask: *"decisive and sustained government policy interventions regarding feedstock pricing and alternate usage mandates."* Sugar & Ethanol is ~23% of revenue with no visible organic growth vector. **Escalated from cyclical to structural.**
 
 **Risk 2 — Caustic soda pricing volatility.** *(Q4FY26 caustic vol +2%, ECUs −4% — Global caustic operating at 80% capacity; India at 85%. Reasonably healthy.)*
 
 **Risk 3 — Chlorine downstream demand weak.** *(No specific update — Vinyl +19% Q4 suggests chlorine chain healthy)*
 
+> **✅ TRACKING WELL — with a new policy tailwind (added 29-Jul-2026)** — Vinyl Q1FY27 revenue −11% (PVC volumes −25%) but **PBDIT +88% to ₹42.5cr on 22.8% margin vs 10.8%**; utilisation 100%; carbide volumes and prices each +15%. Two genuinely new policy events: **customs duty on PVC imports reinstated 16-Jul-2026**, and a **Minimum Import Price on low-priced suspension-grade PVC introduced 24-Jul-2026 for 6 months, extendable.** Both directly counter the Chinese import pressure that had been capping domestic PVC prices. **⚠️ Note the expiry: the MIP lapses ~24-Jan-2027 unless extended — a hard-dated catalyst in both directions.**
+
 **Risk 4 — ECH/epoxy demand slower than expected.**
 
 > **✅ ON TRACK (added 16-Jul-2026)** — ECH plant fully commissioned Apr 2026; anti-dumping duty on ECH+epoxy provides tailwind. Advanced Materials PBDIT ₹163cr Q4FY26 (flat YoY but ramping). Additional ₹101cr epoxy resin expansion Board-approved.
+>
+> **✅ RAMPING — but margin-dilutive, and it is now carrying the whole segment (added 29-Jul-2026)** — Chemicals Q1FY27 revenue **+33%** while **caustic volumes were dead flat** (197,544 MT vs 197,304 MT) and utilisation only ticked 80%→82%. **Essentially all growth is the Glycerine→ECH→Epoxy chain.** Final 17,000 TPA of ECH commissioned April 2026 (52,000 TPA total). But **PBDIT margin fell 24.5% → 22.8%** — advanced materials come in below caustic economics. **🆕 New risk framing: DCM's chemicals growth is now single-threaded through advanced materials**, in a segment management itself calls volatile (*"Advanced material… witnessed volatility despite structurally growing downstream demand"*, *"Global markets remained oversupplied"*). If ECH/epoxy realisations crack, there is no caustic volume growth underneath to cushion it.
 
 **Risk 5 — Sugar policy changes (government).** *(Concall mentions need for aligning sugar/ethanol prices with cane costs, ethanol allocation expansion; industry lobbying ongoing)*
 
 **Risk 6 — Fenesta consumer demand.**
 
 > **✅ OUTPERFORMING (added 16-Jul-2026)** — Fenesta Q4FY26 +34% YoY, FY26 revenue ₹1,112cr = **crossed ₹1,000cr milestone (+28%)**. Consumer brand traction strong. Now a meaningful ₹1,000cr+ business within the conglomerate.
+>
+> **🟡 STILL GROWING — but two forward flags opened (added 29-Jul-2026)** — Q1FY27 revenue **+22%** (volume-led, Projects vertical), PBDIT +12.8%, margin **13.1% vs 14.1%**. Footprint now 8 fabrication plants (4 uPVC, 2 aluminium, 2 facade), 10 extrusion lines, a DNV hardware plant, 430 dealers across 273 cities, 976 cities served, 9 COCO showrooms, 7 countries; a **wooden doors** facility is being set up. **⚠️ Flag 1 — order book +4% vs revenue +22%.** Order intake is not keeping pace with revenue conversion; two more flat quarters and the growth has no fuel (the same divergence flagged on PARAS). **⚠️ Flag 2 — capital employed +107% (₹128cr → ₹266cr).** Fenesta has stopped being the capital-light consumer jewel of the group; the extrusion plant, DNV and wooden doors are turning it capital-hungry, and margin is already paying for *"higher fixed costs for setting up new business platforms."*
 
 **Risk 7 — Bioseed monsoon exposure.**
 
 > **⚠️ WEAKENING (added 16-Jul-2026)** — Q4FY26 Bioseed revenue −1%, PBDIT swung to −₹8cr from +₹2cr prior year. Off-season losses widened. Watch H1FY27 (kharif/monsoon quarter is the meaningful test).
+>
+> **🔴 MATERIALIZED — failed the exact test v1 set (added 29-Jul-2026)** — The 16-Jul refresh named **H1FY27 kharif as "the meaningful test."** The test ran in Q1FY27 and Bioseed failed it outright: **revenue −26% (₹284cr → ₹210cr; India −22%, subsidiaries −42%) and PBDIT swung from +₹41.8cr to −₹8.9cr — a ₹50.7cr YoY reversal in the segment's single biggest quarter.** Stated causes: delayed rainfall cutting Kharif 2026 sowing, lower Corn and Paddy volumes, lower Cotton margins. **The more damaging disclosure is forward-looking**, verbatim from the presentation: *"Significantly higher productivity during the seed production season of 2025-26 owing to favourable climatic conditions leading to **higher inventory are putting pressure on margins**."* **This is an inventory glut, not a weather event** — it pressures Bioseed margins through the rest of FY27 even if the monsoon fully recovers. Management's own hedge: *"Although the monsoon has improved in late June, it may recover only part of the lost sowing."* **Escalated to a live, materialized risk; Q2FY27 is the confirm-or-deny quarter.**
 
 **Risk 8 — Multi-segment complexity.** *(No change — this is structural; conglomerate discount partly reflects this)*
 
@@ -451,10 +862,20 @@ The market has re-rated DCM Shriram downward for growth deceleration but the mul
 **Risk 10 — Working capital stretches.**
 
 > **⚠️ EMERGING (added 16-Jul-2026)** — Net debt +27% YoY (₹1,395→₹1,767cr) reflects heavy capex year. CFI −₹1,241cr (vs −₹850 FY25 = +46% capex intensity). Net cash flow negative for first time since FY23. Not thesis-breaking (CFO healthy at ₹1,234cr) but capex cycle drives debt higher. Watch FY27 debt trajectory.
+>
+> **✅ RESOLVING — earlier than expected (added 29-Jul-2026)** — **Net debt ₹1,481cr at 30-Jun-2026: down 10% YoY (from ₹1,649cr) and down ₹286cr from the FY26-end peak of ₹1,767cr in a single quarter.** Working capital days at a decade-low **25**, debtor days 29, FY26 FCF **positive ₹354cr** (second straight positive year), CFO/OP 88%, and **ICRA AA+/Stable**. Finance cost fell 7% YoY. The capex-cycle debt build peaked at FY26-end and is reversing while the spend continues. **v1's rationale is preserved but the risk is downgraded — this is the single cleanest positive in the Q1FY27 print.** Watch only that it holds through the Q2FY27 commissioning wave and the ₹104.4cr Serentica equity draw.
 
 **Risk 11 — 3-year Profit CAGR at −1% (NEW — added 16-Jul-2026).** The uncomfortable truth from Screener data: DCM Shriram has been earnings-flat for 3 years despite revenue +5% CAGR. The +49% TTM PAT is tax-boosted (Q4FY26 negative tax rate). **If Q1-Q4 FY27 tax rate normalizes to 32-34%, reported PAT growth will collapse.** The market has priced this (stock −27% in 1 year) but the multiple has held at ~18x. **A further de-rating to 14-15x is possible if FY27 disappoints.**
 
 **Risk 12 — Q4FY26 operating decel masked by tax anomaly (NEW — added 16-Jul-2026).** Q4FY26 PBT −6%, OPM −300bps, but PAT +107% due to negative 46% tax rate. **Underlying operations are decelerating.** If Q1FY27 doesn't show operating margin recovery, the narrative shifts from "quality anchor" to "value trap." Signal to watch: Q1FY27 OPM must show 12%+ (vs Q1FY26 9%) to demonstrate operating pickup.
+
+> **🔴 REPEATED AND WORSE — but the stated trigger was mis-specified (added 29-Jul-2026)** — Q1FY27 ran a **−152% tax rate** on a **₹474.3cr Section 80-IA prior-year credit**, plus a ₹79.4cr exceptional. **That is two consecutive quarters of tax-manufactured headline PAT**; reported TTM PAT ₹1,436cr sits on TTM PBT of ₹1,096cr. **However — the specific test this risk set ("Q1FY27 OPM ≥12%") was a bad test.** Q1 is structurally this company's weakest quarter (Q1FY25 9%, Q1FY26 9%, Q1FY27 9%) because sugar and agri are off-season; demanding 12% asked the quarter to beat its own seasonality. Measured correctly, **PBDIT +12% and PBT before exceptional +14.4% — the operating quarter was fine.** The risk is therefore **restated, not retired**: the danger was never "operations are decelerating," it is **"reported earnings have been uninformative for six months and will stay so until Q4FY27."** Replacement test: **Q2FY27 tax rate must print 30-34%.**
+
+**Risk 13 — The screen is lying, and will keep lying until Q4FY27 (🆕 NEW — added 29-Jul-2026).** Headline P/E is **12.0x**; normalized P/E is **~23.8x**. The gap is ~₹600cr of prior-period tax credits parked in TTM earnings. **DCM Shriram will surface on every Indian mid-cap value screen for the next three quarters for a reason that has nothing to do with its earnings power** — and the profile's own 16-Jul base case was built on an underlying-PAT estimate (₹850cr) that was ~₹185cr too high. Paying ~24x for an **11.5% ROCE / 11.5% ROE** business with a **−1% three-year profit CAGR** carries no margin of safety. **This is now the primary risk on the name and the reason conviction moved MH → M.** It resolves only two ways: price falls to ~₹790-800, or the Q2FY27–Q2FY28 commissioning wave lifts normalized PAT toward ₹900cr+ with ROCE turning up through 14%.
+
+**Risk 14 — Execution density in Q2FY27 (🆕 NEW — added 29-Jul-2026).** **Four projects are all claimed for Q2FY27 simultaneously**: 100 TPD Aluminium Chloride and 225 TPD Calcium Chloride at Bharuch (both in pre-commissioning trials), Fenesta's Phase-1 aluminium extrusion plant at Kota, and the 68 MW Kota captive RE via the JSW Renewables JV. Two more follow (salt works Q3FY27, Serentica 58 MW Q1FY28). **This profile has already caught one premature "delivered" mark** — v1 recorded the Kota 68 MW as complete in May-2026 when it is still under implementation at 25 MW average against 34 MW design. **Treat Q2FY27 commissioning claims as unconfirmed until the Q2 presentation shows utilisation, not just "commissioned."** Slippage of the AlCl₃/CaCl₂ pair in particular would push the ROCE recovery — the entire bull case — out by a year.
+
+**Risk 15 — Senior management churn, single data point (🆕 NEW — added 29-Jul-2026).** CHRO **Sandeep Girotra resigned effective 24-Jul-2026** ("personal reasons"), four days before results, with no successor named. One exit is not a pattern and the four-Shriram management core plus Group CFO Amit Agarwal is unchanged. **Logged for pattern-detection only** — escalate only if a second senior departure follows within two quarters.
 
 ---
 
@@ -467,6 +888,8 @@ The market has re-rated DCM Shriram downward for growth deceleration but the mul
 > **What you're buying:** India's most disciplined diversified industrial conglomerate at 18.3x P/E with 137-year heritage + zero dilution + IFC ESG validation. **What you're risking:** sugar cycle, chemicals cyclical downturn, or Bioseed monsoon. Weighted 2-year return ~10-15% + 0.88% dividend.
 >
 > **What to watch:** Q1-Q2FY27 chemicals + sugar segment growth, ECH plant utilization, and Bharuch RE capex milestones. Position sizing: **medium-high conviction on the quality-heritage anchor.**
+
+**🔄 Hook update — 29-Jul-2026:** Gavaskar is still at the crease and still technically immaculate — **but the scoreboard is broken.** Two straight quarters of prior-period tax credits have posted a headline PAT of ₹693cr against ₹147cr of actual quarterly earnings, and the screen now reads 12x for a business trading at **~24x normalized on an 11.5% ROCE.** The batting is fine — PBT before exceptional +14.4%, net debt down 10%, Chemicals & Vinyl PBIT +31%, promoter at 66.53% for twelve unbroken quarters, ICRA AA+. **It is the scoreboard operator you cannot trust, not the batsman.** Bioseed failed the kharif test it was set (PBDIT +₹42cr → −₹9cr) with an inventory glut still to come, and ethanol has hit its 20% blending ceiling with OMC demand *falling* 13%. **Conviction MH → M (Under Watch): a well-run business at a full price, where the base case earns +4% over two years and the bear case loses 36%.** Re-upgrade at ~₹790-800, or when ROCE turns up through 14% on the Q2FY27 commissioning wave.
 
 ---
 
@@ -482,6 +905,24 @@ The market has re-rated DCM Shriram downward for growth deceleration but the mul
 - **ValuePickr — DCM Shriram thread:** Pulse scan pending Chrome availability.
 - **Peer references:** Aditya Birla Chemicals, Chambal Fertilisers, EID Parry, Kaveri Seed (segment-wise). No direct listed conglomerate peer with same 6-segment profile — makes peer comps challenging.
 - **Concall repo:** 6 concalls in local repo (`Fetched Concalls/DCMSHRIRAM/`): Jan-2025, May-2025, Jul-2025, Nov-2025, Jan-2026, May-2026 — comprehensive multi-year coverage.
+
+### Sources added 29-Jul-2026 (Q1FY27 refresh)
+
+**🕐 Concall status — PARTIAL GATE.** The **Q1FY27 earnings call is scheduled for 30-Jul-2026, 4:00 PM IST** (BSE intimation 23-Jul-2026) — it had not occurred at the time of writing. **No Q1FY27 transcript exists yet.** This refresh is grounded entirely in primary company filings. **Re-read against the transcript when filed.**
+
+- **Q1FY27 Investor Presentation (26 slides), 28-Jul-2026** — `DCMSHRIRAM_PPT_Q1FY27_2026-07.pdf` — **the core source for this refresh.** All segment revenue/PBIT/PBDIT/capital-employed tables, the Investments Update slide, the ethanol blending table, and the "effective normal PAT is ₹147 cr" footnote are quoted verbatim from it.
+- **Q1FY27 Unaudited Results + Deloitte Limited Review, 28-Jul-2026** — `DCMSHRIRAM_Results_Q1FY27_2026-07.pdf`. ⚠️ **Data-quality note: the financial statement tables in this PDF are scanned images and do not text-extract**; only the cover letter, entity list and auditor's opinion are machine-readable. Numbers were therefore taken from the investor presentation and Screener, which agree line-for-line. Source of the confirmed **subsidiary/JV list** — notably *"Shriram Teknor Limited (erstwhile Shriram Polytech Limited) (upto April 16, 2026)"* moving to *"Joint Venture… (w.e.f. April 17, 2026)."*
+- **Q1FY27 Press Release, 28-Jul-2026** — `DCMSHRIRAM_PressRelease_Q1FY27_2026-07.pdf`. Joint statement of **Mr. Ajay Shriram (Chairman & Senior MD) and Mr. Vikram Shriram (Vice Chairman & MD)** — the filing that surfaced the **v1 roster omission of Vikram Shriram**. Verbatim: *"PAT includes positive tax adjustment of Rs 474.3 crores on account of favorable judgements from Income Tax authority relating to previous years and one-time exceptional items of Rs. 79.4 crores… Excluding these, the effective normal PAT for the quarter was ₹147 crore."*
+- **🆕 FY26 Annual Report + Notice of 37th AGM, 21-Jul-2026** — `DCMSHRIRAM_AnnualReport_FY26_2026-07.pdf` (1.51 MB extracted text). **New primary source not available at the 16-Jul refresh.** Source of the Teknor Apex JV rationale, verbatim: *"the company sold 50% stake in its subsidiary, Shriram Polytech Ltd., to Teknor Apex B.V. to form a Joint Venture. The joint venture is designed to combine Shriram Polytech's strong Indian manufacturing base in vinyl compounds with Teknor Apex's global expertise in specialized formulations… and allows Teknor Apex to expand its footprint in Asia."* Also confirms the JV agreement was executed **16-Apr-2026**, effective **17-Apr-2026**. AGM: **18-Aug-2026**, via VC/OAVM. BRSR filed same day.
+- **🆕 Serentica Renewables — Regulation 30 acquisition disclosure + press release, 17-Jul-2026** — `DCMSHRIRAM_AcquisitionUpdate_2026-07-17.pdf`. Definitive agreement with **Serentica Renewables India 38 Pvt Ltd** (KKR-backed, $650M, 3,000 MW built) for **58 MW peak / ~36 MW round-the-clock** renewable power to Bharuch, from a 190 MW Rajasthan-solar + Karnataka-wind project. **₹104.4cr for min. 26% equity** under group-captive structure; **₹235cr total incl. infra** (per presentation); completion **30-Jun-2027**; **~0.4 Mt CO₂/yr** avoided; takes group RE to **176 MW peak**. Quote — **Mr. Sabaleel Nandy, Executive Director & CEO, DCM Shriram Chemicals**: *"power is one of the most significant input costs, this will help improve cost efficiency, provide greater visibility into long-term power costs and reduce exposure to fluctuations in conventional energy prices."*
+- **🆕 Change in Senior Management, 24-Jul-2026** — `DCMSHRIRAM_ChangeInMgmt_2026-07-24.pdf`. *"Mr. Sandeep Girotra, Chief Human Resource Officer & Senior Management Personnel, has resigned from the services of the Company effective from 24th July 2026, due to personal reasons."*
+- **Analyst/Investor Call Intimation, 23-Jul-2026** — `DCMSHRIRAM_AnalystMeetIntimation_2026-07-23.pdf`. Confirms the **30-Jul-2026 4:00 PM IST** call and the full four-Shriram management line-up (Ajay, Vikram, Ajit, Aditya). IR handled by **CDR India** (Siddharth Rangnekar / Shruti Joshi) + Himanshu Bokaria in-house.
+- **BSE announcements sweep (1-May → 29-Jul-2026)** via `api.bseindia.com` — 16 filings reviewed. Also noted: **6-Jul-2026** clarification on the CNBC-TV18 Maersk container report (second denial, after 15-Jul per v1).
+- **Screener (refreshed 29-Jul-2026):** DCM Shriram Ltd (BSE 523367, NSE DCMSHRIRAM) consolidated — 13-quarter P&L, 12-year P&L/BS/CF, ratios, 12-quarter shareholding, growth tables, PROs/CONs. CMP ₹1,050, mcap ₹16,386cr, headline P/E 12.0x, ROCE/ROE 11.5%, div yield 1.07%, shareholders 54,377.
+- **ValuePickr — 29-Jul-2026 scan:** dedicated thread **[DCM Shriram Ltd (previously DCM Shriram Consolidated Ltd), topic #252](https://forum.valuepickr.com/t/252)** — **92 posts, dormant since 14-Jan-2022.** No live thesis debate. Post-2026 references found only in other threads: t204127 #188 (26-Jun-26, `RocketMan`, Maersk container story — subsequently denied by the company), t1114 #154 (12-Mar-26, `Phaeton`, *"Grasim is a conglomerate, DCM Shriram has multiple businesses"* — the conglomerate discount in one line), t220195 #13 (7-May-26, `ha_the_meow`, HSCL sale corroborated from the seller's side at ~₹219cr).
+- **Substack coverage:** searched 29-Jul-2026 — **no dedicated DCM Shriram deep-dive found** post-v1. Coverage of this name is broker/institutional rather than newsletter-led. *(Nil result recorded per the mandatory community-pulse standard.)*
+- **Press:** [Free Press Journal — *"DCM Shriram's Consolidated Net Profit Rises To ₹693.44 Crore In Q1 FY27, Revenue At ₹3,784.67 Crore"*](https://www.freepressjournal.in/business/dcm-shrirams-consolidated-net-profit-rises-to-69344-crore-in-q1-fy27-revenue-at-378467-crore) — source of the exceptional-item split (**₹67.68cr Mokila land sale + ₹11.74cr Shriram Polytech 50% stake sale**). [Business Standard markets desk](https://www.business-standard.com/markets) — CMP ₹1,049 on 28-Jul-2026; **results were filed after market hours and the stock did not re-rate on the ₹693cr headline.**
+- **Fetch method note:** all documents downloaded directly from BSE via local `curl` with WAF-bypass headers, plus `fetch_concalls.py --ticker DCMSHRIRAM`. **⚠️ Platform finding (29-Jul-2026): in this Claude Code session on Rajat's Mac, `bash` HAS full outbound network** — Screener, BSE `api.bseindia.com` announcements JSON and BSE `AttachLive` PDFs all resolve directly. This supersedes the CLAUDE.md Section 4A notes about the Cowork VM having no network; **no Chrome/cors.lol hop and no user Terminal action were needed.** (NSE `quote-equity` API and Yahoo Finance remain blocked; Screener is the price source.) `fetch_concalls.py` also has a **filename-collision bug** — documents whose Screener date heading fails to parse all write to `{TICKER}_{label}_undated.pdf` and overwrite each other; four files were renamed by hand this session.
 
 ---
 
