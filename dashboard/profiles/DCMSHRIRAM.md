@@ -40,8 +40,8 @@
 | **PAT reported** | **₹693.4 cr** | ₹113.8 cr | **+509%** ⚠️ |
 | **PAT normalized (company's own)** | **₹147 cr** | ₹114 cr | **+29%** ✅ |
 | EPS reported | ₹44.42 | ₹7.30 | +509% |
-| **Net debt** | **₹1,481 cr** | ₹1,649 cr | **−10%** ✅ |
-| ROCE (company calc, TTM PBIT) | 13.2% | 13.6% | −40 bps |
+| **Net debt** | **₹1,649 cr** | ₹1,481 cr | **+11.3%** ⚠️ |
+| ROCE (company calc, TTM PBIT) | **13.6%** | 13.2% | **+40 bps** ✅ |
 
 **The ₹553.7cr of noise, itemised (company footnote, slide 7 + 25):**
 - **₹474.3 cr tax adjustment** — "favorable judgement relating to claim under **Section 80-IA** of the Income Tax Act, 1961 **for previous years**." Section 80-IA is the captive-power-plant deduction; DCM Shriram runs 383 MW coal + 166 MW co-gen, so the claim is structurally sound — but it is a *prior-period* credit, not FY27 earnings.
@@ -147,6 +147,20 @@ Screener now shows **Stock P/E 12.0x** (mcap ₹16,386cr ÷ TTM PAT ₹1,436cr).
 
 ---
 
+### ⚠️ Extraction-error note — donut charts were read backwards (caught and corrected 29-Jul-2026)
+
+**What happened.** The Q1FY27 presentation was analysed from `pdftotext -layout` output. That works cleanly for **tables** (slides 9, 10, 12-25 — every one verified) but **destroys series identity in charts**, because it emits label text in spatial order with no link to the colour that binds each label to its series.
+
+Slide 7 carries two **donut charts** — Net Debt and ROCE — each with two values and no in-text year labels. `pdftotext` returned `1,481 … 1,649` and `13.2 … 13.6`. The first version of this refresh assumed **first-listed = current period**. That was wrong: the deck's convention is **top-left = prior year, bottom-right = current**, bound by arrow colour against the legend (blue = Q1 FY27, orange = Q1 FY26).
+
+**How it was proven.** Rather than re-guess, the same donut layout was checked in the **Q4FY26 deck (May-2026)**, where both values are independently known from the concall: it renders **1,395 top-left / 1,767 bottom-right**, and FY25 net debt was ₹1,395cr with FY26 at ₹1,767cr. Prior-year is top-left. The ROCE donut on that same slide reads 14.0 / 12.7, matching the known FY25→FY26 decline. Convention confirmed on two independent series with known values, then re-confirmed visually against the rendered slide.
+
+**Impact:** net debt was reported as **−10% YoY when it is +11.3% YoY**, and ROCE as −40bps when it is **+40bps**. Both are corrected above. **The conviction call is unaffected** — net debt was cited as a *mitigant* against a further downgrade, so correcting it makes the case slightly weaker, not stronger; the ROCE uptick partly offsets. The valuation finding (~24x normalized), the ₹850cr→₹665cr base correction, Bioseed and the ethanol ceiling all stand untouched.
+
+**Standing rule adopted:** *in any investor presentation, numbers taken from a **chart** (donut, bar, waterfall, line) must be confirmed against either a table elsewhere in the deck, a prior deck with known values, or the rendered page image before use.* Slide-8 bar values were already cross-checked this way against the slide-9 table and are correct. **Tables extract safely; charts do not.**
+
+---
+
 ### 📢 Community Pulse — 29-Jul-2026
 
 **ValuePickr.** The dedicated thread — **[DCM Shriram Ltd (previously DCM Shriram Consolidated Ltd), topic #252]** — has **92 posts and has been dormant since 14-Jan-2022.** There is no live retail thesis debate on this name. Last substantive posts (2020-21, user `rahulchauhan007` / `vkagrawal`) concern the Fenesta Bhiwadi plant, the IFC-backed $143M brownfield expansion and distillery capacity additions — all long since executed. **The absence of a live thread is itself the signal: this is an institution-and-dividend name, not a retail momentum story.**
@@ -194,7 +208,7 @@ Post-2026 mentions appear only as passing references in other threads:
 - ⚠️ *"Poor sales growth of 10.3% over past five years"*
 - ⚠️ *"Tax rate seems low"* — **now understated; TTM tax rate is 14% and Q1FY27 was −152%**
 
-**Balance sheet — the one unambiguous positive.** Net debt **₹1,481 cr, down 10% YoY** and down **₹286 cr from FY26-end ₹1,767 cr in a single quarter**. FY26 CFO ₹1,234cr, FCF ₹354cr (positive), CFO/OP 88%, working capital days 25 (best in a decade), debtor days 29. **The capex-cycle debt build flagged as Risk 10 on 16-Jul has started to reverse, ahead of schedule.**
+**Balance sheet — mixed, not the clean positive first reported.** Net debt **₹1,649 cr at 30-Jun-2026: UP 11.3% YoY** from ₹1,481cr, though **down ₹118 cr from the FY26-end peak of ₹1,767 cr**. *(⚠️ Corrected 29-Jul-2026 — see the extraction-error note at the end of this block; the first version of this refresh reported this backwards.)* **ROCE improved to 13.6% from 13.2%** — the one metric this profile named as "the tell" for re-rating did tick up. FY26 CFO ₹1,234cr, FCF ₹354cr (positive), CFO/OP 88%, working capital days 25 (best in a decade), debtor days 29. **The capex-cycle debt build flagged as Risk 10 on 16-Jul has stopped compounding but has not yet reversed** — and the ₹104.4cr Serentica equity draw plus the ₹1,000-1,200cr FY27 capex programme are still ahead of it.
 
 ---
 
@@ -208,7 +222,8 @@ Post-2026 mentions appear only as passing references in other threads:
 | Q1FY27 PBT before exceptional | — | ₹194.7cr vs ₹170.2cr, **+14.4%** | ✅ Real operating growth |
 | Fenesta Q1FY27 growth sustained | v1 watch item #4 | **+22% revenue** (from a higher base) | ✅ Delivered |
 | Sugar cost pressure normalizes | v1 watch item #2 | **Like-for-like PBDIT −25%** — cane costs still biting | 🔴 Not yet |
-| Net debt trajectory | v1 Risk 10 | **−10% YoY, −₹286cr QoQ** | ✅ **Reversing early** |
+| Net debt trajectory | v1 Risk 10 | **+11.3% YoY** (₹1,481→₹1,649cr); −₹118cr QoQ off the FY26-end peak | 🟡 **Peaked, not yet reversing** |
+| ROCE direction | v1 — "the tell" | **13.6% vs 13.2%, +40 bps YoY** | ✅ **First uptick since FY24** |
 | ECH plant utilization ramp | v1 watch item #5 | Advanced materials drove Chemicals +33%; final 17,000 TPA commissioned Apr-26 | ✅ Ramping |
 | AlCl₃ / CaCl₂ Bharuch | Q4FY26 guide | **Pre-commissioning trials**, Q2FY27 | 🕐 On track |
 | 68 MW Kota captive RE | v1 marked ✅ | **Still "under implementation"**, 25 MW avg vs 34 MW design | 🟡 **v1 verdict corrected — ramping** |
@@ -235,7 +250,7 @@ Rationale:
 5. **Ethanol's runway is closed at 20% blending**, with OMC requirement down 13% YoY in the company's own table. Sugar & Ethanol is ~23% of revenue with no visible growth vector absent policy.
 6. **Retail is leaving** (−11.8% shareholders YoY) and the ValuePickr thread has been dead for four years.
 
-**Held against downgrading further to ML:** promoter at 66.53% for 12 unbroken quarters, ICRA AA+/Stable, net debt reversing early, FCF positive, working capital days at a decade low, a dense and *funded* commissioning wave landing Q2FY27–Q2FY28, real backward integration (salt works) and a credible global partner (Teknor Apex). This is a well-run business at a full price — not a broken one.
+**Held against downgrading further to ML:** promoter at 66.53% for 12 unbroken quarters, ICRA AA+/Stable, **ROCE ticking up for the first time since FY24 (13.2% → 13.6%)**, net debt off its FY26-end peak, FCF positive, working capital days at a decade low, a dense and *funded* commissioning wave landing Q2FY27–Q2FY28, real backward integration (salt works) and a credible global partner (Teknor Apex). This is a well-run business at a full price — not a broken one.
 
 **Re-upgrade trigger to MH:** normalized P/E back to ≤18x — either via price (~₹790-800) or via the Q2FY27–Q3FY27 commissioning wave lifting normalized PAT toward ₹900cr+ **with ROCE turning up through 14%**.
 **Downgrade trigger to ML:** Bioseed still loss-making in Q2FY27 *and* Chemicals PBDIT margin below 21%, or any FY27 capex slippage past Q4FY27.
@@ -701,7 +716,7 @@ Where it weakens: **the same team marked the Kota 68 MW green power as delivered
 
 | | FY25 | FY26 | Q1FY27 | Read |
 |---|---|---|---|---|
-| **Net Debt** | ₹1,395 cr | ₹1,767 cr | **₹1,481 cr** | ✅ **−₹286cr in one quarter; −10% YoY** |
+| **Net Debt** | ₹1,395 cr | ₹1,767 cr | **₹1,649 cr** | 🟡 **+11.3% YoY; −₹118cr off the FY26-end peak** |
 | Gross borrowings | ₹2,529 cr | ₹2,923 cr | — | Capex-cycle peak passing |
 | Net worth | — | **₹7,660 cr** | — | Book value ₹495/share |
 | CFO | ₹1,127 cr | ₹1,234 cr | — | +9%, CFO/OP 88% |
@@ -790,7 +805,7 @@ The market has re-rated DCM Shriram downward for growth deceleration but the mul
 - **Normalized P/E ≈ 23.8x** on normalized TTM PAT ₹689cr / EPS ₹44.1
 - P/B **2.12x** on book value ₹495 · Div yield **1.07%** (up from 0.86% as the FY26 final dividend counts)
 - ROCE **11.5%** / ROE **11.5%** · 52-week H/L **₹1,460 / ₹945** · 1-year return **−26%**
-- Credit rating **ICRA AA+/Stable** · Net debt ₹1,481cr (−10% YoY)
+- Credit rating **ICRA AA+/Stable** · Net debt **₹1,649cr (+11.3% YoY, −₹118cr QoQ)**
 
 **🔴 The single most important line in this profile right now:**
 
@@ -863,7 +878,7 @@ The market has re-rated DCM Shriram downward for growth deceleration but the mul
 
 > **⚠️ EMERGING (added 16-Jul-2026)** — Net debt +27% YoY (₹1,395→₹1,767cr) reflects heavy capex year. CFI −₹1,241cr (vs −₹850 FY25 = +46% capex intensity). Net cash flow negative for first time since FY23. Not thesis-breaking (CFO healthy at ₹1,234cr) but capex cycle drives debt higher. Watch FY27 debt trajectory.
 >
-> **✅ RESOLVING — earlier than expected (added 29-Jul-2026)** — **Net debt ₹1,481cr at 30-Jun-2026: down 10% YoY (from ₹1,649cr) and down ₹286cr from the FY26-end peak of ₹1,767cr in a single quarter.** Working capital days at a decade-low **25**, debtor days 29, FY26 FCF **positive ₹354cr** (second straight positive year), CFO/OP 88%, and **ICRA AA+/Stable**. Finance cost fell 7% YoY. The capex-cycle debt build peaked at FY26-end and is reversing while the spend continues. **v1's rationale is preserved but the risk is downgraded — this is the single cleanest positive in the Q1FY27 print.** Watch only that it holds through the Q2FY27 commissioning wave and the ₹104.4cr Serentica equity draw.
+> **🟡 PEAKED, NOT YET REVERSING (added 29-Jul-2026; corrected same day)** — **Net debt ₹1,649cr at 30-Jun-2026: UP 11.3% YoY from ₹1,481cr**, though **down ₹118cr from the FY26-end peak of ₹1,767cr**. *(⚠️ The first version of this refresh reported this backwards as "−10% YoY" — a donut-chart series-assignment error, see the extraction-error note in the Refresh Log.)* The capex build has stopped compounding but has not started unwinding, and the ₹104.4cr Serentica equity draw plus a ₹1,000-1,200cr FY27 capex programme are still ahead. Working capital days at a decade-low **25**, debtor days 29, FY26 FCF **positive ₹354cr** (second straight positive year), CFO/OP 88%, and **ICRA AA+/Stable**. Finance cost fell 7% YoY. The capex-cycle debt build peaked at FY26-end and is reversing while the spend continues. **v1's rationale is preserved but the risk is downgraded — this is the single cleanest positive in the Q1FY27 print.** Watch only that it holds through the Q2FY27 commissioning wave and the ₹104.4cr Serentica equity draw.
 
 **Risk 11 — 3-year Profit CAGR at −1% (NEW — added 16-Jul-2026).** The uncomfortable truth from Screener data: DCM Shriram has been earnings-flat for 3 years despite revenue +5% CAGR. The +49% TTM PAT is tax-boosted (Q4FY26 negative tax rate). **If Q1-Q4 FY27 tax rate normalizes to 32-34%, reported PAT growth will collapse.** The market has priced this (stock −27% in 1 year) but the multiple has held at ~18x. **A further de-rating to 14-15x is possible if FY27 disappoints.**
 
@@ -889,7 +904,7 @@ The market has re-rated DCM Shriram downward for growth deceleration but the mul
 >
 > **What to watch:** Q1-Q2FY27 chemicals + sugar segment growth, ECH plant utilization, and Bharuch RE capex milestones. Position sizing: **medium-high conviction on the quality-heritage anchor.**
 
-**🔄 Hook update — 29-Jul-2026:** Gavaskar is still at the crease and still technically immaculate — **but the scoreboard is broken.** Two straight quarters of prior-period tax credits have posted a headline PAT of ₹693cr against ₹147cr of actual quarterly earnings, and the screen now reads 12x for a business trading at **~24x normalized on an 11.5% ROCE.** The batting is fine — PBT before exceptional +14.4%, net debt down 10%, Chemicals & Vinyl PBIT +31%, promoter at 66.53% for twelve unbroken quarters, ICRA AA+. **It is the scoreboard operator you cannot trust, not the batsman.** Bioseed failed the kharif test it was set (PBDIT +₹42cr → −₹9cr) with an inventory glut still to come, and ethanol has hit its 20% blending ceiling with OMC demand *falling* 13%. **Conviction MH → M (Under Watch): a well-run business at a full price, where the base case earns +4% over two years and the bear case loses 36%.** Re-upgrade at ~₹790-800, or when ROCE turns up through 14% on the Q2FY27 commissioning wave.
+**🔄 Hook update — 29-Jul-2026:** Gavaskar is still at the crease and still technically immaculate — **but the scoreboard is broken.** Two straight quarters of prior-period tax credits have posted a headline PAT of ₹693cr against ₹147cr of actual quarterly earnings, and the screen now reads 12x for a business trading at **~24x normalized on an 11.5% ROCE.** The batting is fine — PBT before exceptional +14.4%, ROCE up 40bps to 13.6% (its first uptick since FY24), Chemicals & Vinyl PBIT +31%, promoter at 66.53% for twelve unbroken quarters, ICRA AA+. **It is the scoreboard operator you cannot trust, not the batsman.** Bioseed failed the kharif test it was set (PBDIT +₹42cr → −₹9cr) with an inventory glut still to come, and ethanol has hit its 20% blending ceiling with OMC demand *falling* 13%. **Conviction MH → M (Under Watch): a well-run business at a full price, where the base case earns +4% over two years and the bear case loses 36%.** Re-upgrade at ~₹790-800, or when ROCE turns up through 14% on the Q2FY27 commissioning wave.
 
 ---
 
