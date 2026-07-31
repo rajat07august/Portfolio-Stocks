@@ -208,31 +208,6 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
   .metrics-grid { grid-template-columns: repeat(2, 1fr); }
   .stock-card-header { flex-direction: column; }
 }
-
-/* ---- Cross-Section cluster panel (added 31-Jul-2026) ---- */
-.xsec { background:white; border-radius:8px; padding:16px; margin-bottom:24px;
-  box-shadow:0 1px 3px rgba(0,0,0,0.05); }
-.xsec-head { display:flex; align-items:baseline; gap:10px; flex-wrap:wrap; }
-.xsec-head h3 { font-size:13px; margin:0; text-transform:uppercase; letter-spacing:.5px; color:#555; }
-.xsec-note { font-size:11px; color:#888; }
-.xsec-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
-  gap:22px; margin-top:14px; }
-.xsec-col h4 { font-size:11px; text-transform:uppercase; letter-spacing:.5px; color:#666;
-  margin:0 0 6px; border-bottom:1px solid #eaeef2; padding-bottom:4px; }
-.xsec-row { display:grid; grid-template-columns:1fr 24px 70px 46px; gap:8px; align-items:center;
-  padding:3px 6px; border-radius:4px; cursor:pointer; font-size:12px; }
-.xsec-row:hover { background:#f6f8fa; }
-.xsec-row.on { background:#dbeafe; box-shadow:inset 0 0 0 1px #2E75B6; }
-.xsec-lab { white-space:nowrap; overflow:hidden; text-overflow:ellipsis; color:#1a1a1a; }
-.xsec-n { text-align:right; color:#666; font-variant-numeric:tabular-nums; }
-.xsec-bar { background:#eaeef2; border-radius:3px; height:9px; position:relative; overflow:hidden; }
-.xsec-bar i { position:absolute; top:0; bottom:0; left:0; background:#2E75B6; }
-.xsec-row.risk .xsec-bar i { background:#c0392b; }
-.xsec-pct { text-align:right; font-variant-numeric:tabular-nums; color:#333; font-weight:600; }
-.xsec-clear { margin-left:auto; font-size:11px; padding:3px 10px; border:1px solid #d0d7de;
-  border-radius:5px; background:#f6f8fa; cursor:pointer; color:#1a1a1a; }
-.xsec-clear:hover { background:#eaeef2; }
-.xsec-active { font-size:12px; color:#2E75B6; font-weight:600; }
 </style>
 </head>
 <body>
@@ -302,32 +277,6 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
   <button onclick="resetFilters()">Reset</button>
   <span style="margin-left:auto;font-size:11px;color:#888;">Showing <span id="count">50</span> of 50 stocks</span>
 </div>
-
-
-<!-- Cross-Section cluster panel (added 31-Jul-2026; see cross_section.md) -->
-<section class="xsec">
-  <div class="xsec-head">
-    <h3>Cross-Section — driver &amp; risk clusters</h3>
-    <span class="xsec-note">Book &#8377;<span id="xsec-book"></span>cr &middot; % = share of aggregate mcap &middot; click a row to filter cards + table</span>
-    <span id="xsec-active" class="xsec-active"></span>
-    <button class="xsec-clear" onclick="csClear()">Clear</button>
-  </div>
-  <div class="xsec-grid">
-    <div class="xsec-col">
-      <h4>Demand drivers &mdash; what the revenue depends on</h4>
-      <div id="xsec-drivers"></div>
-    </div>
-    <div class="xsec-col">
-      <h4>Shared risk factors &mdash; what catches many at once</h4>
-      <div id="xsec-risks"></div>
-    </div>
-  </div>
-  <div class="xsec-note" style="margin-top:11px;">
-    Built by reading all 50 profiles &mdash; full analysis, evidence and borderline tagging calls in
-    <code>cross_section.md</code>. Clusters overlap by design; a name can sit in several.
-    Mcap from PORTFOLIO_STATE (16-Jul-2026).
-  </div>
-</section>
 
 <!-- Summary Table -->
 <section class="summary-table">
@@ -464,120 +413,6 @@ function copyDeepDivedState() {
     alert('Copy failed. Manual copy of state:\n\n' + json);
   });
 }
-
-// ---------- Cross-Section Cluster Map ----------
-// Added 31-Jul-2026. Source: cross_section.md + cross_section_clusters.py (working folder).
-// Built by reading all 50 Company Profiles; every tag is profile-evidenced.
-// mcap/% use PORTFOLIO_STATE.md values (16-Jul-2026 bulk pass; SSWL+WHEELS 28-Jul), NOT stocks[].mcap.
-// To refresh: edit cross_section_clusters.py, re-run, paste this block.
-const CS_BOOK_MCAP = 388862;
-const CS_DRIVERS = [
-  {label:"Govt / PSU order flow (primary)", n:14, mcap:125805, pct:32.4, ids:["yash","systematic","diacabs","rajesh","transraill","ecl","concord","kmew","nlc","gmdc","oriana","eil","paras","deep"]},
-  {label:"  └ power T&D / grid capex", n:5, mcap:22972, pct:5.9, ids:["yash","systematic","diacabs","rajesh","transraill"]},
-  {label:"Defence / aerospace indigenisation", n:5, mcap:42727, pct:11.0, ids:["axiscades","azad","dynamatic","paras","rossell"]},
-  {label:"Auto OEM cycle", n:7, mcap:49348, pct:12.7, ids:["ssw","wheels","happy","sansera","obsc","sunita","mayur"]},
-  {label:"Electronics / PLI", n:5, mcap:69153, pct:17.8, ids:["aimtron","avalon","concord","netweb","syrma"]},
-  {label:"Renewables / BESS", n:5, mcap:49730, pct:12.8, ids:["oriana","nlc","rajesh","systematic","yash"]},
-  {label:"Oil & gas / refinery capex", n:5, mcap:38134, pct:9.8, ids:["deep","eil","dee","amic","azad"]},
-  {label:"Agri / monsoon / rural", n:4, mcap:23802, pct:6.1, ids:["insecticides","kaveri","astec","dcmshriram"]},
-];
-const CS_RISKS = [
-  {label:"P/E > 60x", n:19, mcap:176231, pct:45.3, ids:["axiscades","azad","dynamatic","paras","rossell","amic","obsc","sansera","sunita","anupam","aimtron","avalon","concord","netweb","syrma","dee","kmew","yash","diacabs"]},
-  {label:"Geopolitical — broad (GEO_EXPOSED)", n:24, mcap:179229, pct:46.1, ids:["deep","aurion","azad","kmew","epl","happy","yash","eil","dee","ecl","garware","sunita","kaveri","paras","rossell","care","dcmshriram","oriana","anupam","gpil","ssw","nitta","mayur","carysil"]},
-  {label:"Middle East — direct risk", n:13, mcap:100588, pct:25.9, ids:["aurion","eil","dee","kmew","azad","ecl","deep","care","epl","happy","oriana","dcmshriram","yash"]},
-  {label:"Promoter < 50%", n:7, mcap:79468, pct:20.4, ids:["aurion","epl","sansera","carysil","syrma","avalon","care"]},
-  {label:"Retail base 3x+ in 3 yrs", n:6, mcap:61627, pct:15.8, ids:["axiscades","netweb","kmew","diacabs","monarch","paras"]},
-  {label:"US tariff exposure named", n:8, mcap:60298, pct:15.5, ids:["avalon","mayur","ssw","garware","carysil","anupam","rossell","aimtron"]},
-  {label:"Open governance flag", n:14, mcap:57993, pct:14.9, ids:["aurion","monarch","diacabs","oriana","sathlokhar","sunita","accent","amic","deep","transraill","care","haldyn","systematic","dcmshriram"]},
-  {label:"Negative / deteriorating CFO", n:8, mcap:56013, pct:14.4, ids:["axiscades","aurion","rajesh","ssw","transraill","anupam","monarch","azad"]},
-  {label:"Single counterparty or segment >40%", n:6, mcap:53131, pct:13.7, ids:["ssw","rossell","concord","deep","netweb","anupam"]},
-  {label:"SME / <20k shareholders", n:15, mcap:30784, pct:7.9, ids:["accent","aimtron","amic","obsc","sunita","rajesh","oriana","sathlokhar","systematic","concord","nitta","haleos","yash","kmew","monarch"]},
-  {label:"DII exiting into retail", n:5, mcap:31156, pct:8.0, ids:["wheels","transraill","axiscades","diacabs","yash"]},
-  {label:"Dilution pending / announced", n:4, mcap:25511, pct:6.6, ids:["wheels","rossell","transraill","diacabs"]},
-  {label:"Leverage stress", n:3, mcap:23048, pct:5.9, ids:["dynamatic","astec","anupam"]},
-  {label:"Concalls missing / data-limited", n:7, mcap:25523, pct:6.6, ids:["haldyn","monarch","nitta","haleos","gmdc","systematic","sunita"]},
-];
-const CS_STOCK = {
-  "accent": {d:"PHARMA-EXCIP", n:2, f:["thin-float","gov"]},
-  "aimtron": {d:"EMS-PLI", n:3, f:["US-tariff",">60x","thin-float"]},
-  "amic": {d:"CAPGOODS", n:3, f:[">60x","thin-float","gov"]},
-  "anupam": {d:"SPECIALTY-CHEM", n:5, f:["US-tariff",">60x","CFO","leverage","conc>40"]},
-  "astec": {d:"AGRI", n:1, f:["leverage"]},
-  "aurion": {d:"BFSI-SW", n:4, f:["MidEast","prom<50","CFO","gov"]},
-  "avalon": {d:"EMS-PLI", n:3, f:["US-tariff",">60x","prom<50"]},
-  "axiscades": {d:"DEFENCE", n:4, f:[">60x","CFO","DII-exit","retail-3x"]},
-  "azad": {d:"DEFENCE", n:3, f:["MidEast",">60x","CFO"]},
-  "care": {d:"CREDIT-CYCLE", n:3, f:["MidEast","prom<50","gov"]},
-  "carysil": {d:"KITCHEN", n:2, f:["US-tariff","prom<50"]},
-  "concord": {d:"GOVT/PSU", n:3, f:[">60x","thin-float","conc>40"]},
-  "datamatics": {d:"IT-SERVICES", n:0, f:[]},
-  "dcmshriram": {d:"AGRI", n:2, f:["MidEast","gov"]},
-  "dee": {d:"REFINERY", n:2, f:["MidEast",">60x"]},
-  "deep": {d:"GOVT/PSU", n:3, f:["MidEast","gov","conc>40"]},
-  "diacabs": {d:"GOVT/PSU", n:5, f:[">60x","dilution-pending","gov","DII-exit","retail-3x"]},
-  "dynamatic": {d:"DEFENCE", n:2, f:[">60x","leverage"]},
-  "ecl": {d:"GOVT/PSU", n:1, f:["MidEast"]},
-  "eil": {d:"GOVT/PSU", n:1, f:["MidEast"]},
-  "epl": {d:"FMCG-PKG", n:2, f:["MidEast","prom<50"]},
-  "garware": {d:"SPECIALTY-FILM", n:1, f:["US-tariff"]},
-  "gmdc": {d:"GOVT/PSU", n:0, f:[]},
-  "gpil": {d:"STEEL", n:0, f:[]},
-  "haldyn": {d:"GLASS-PKG", n:1, f:["gov"]},
-  "haleos": {d:"PHARMA-API", n:1, f:["thin-float"]},
-  "happy": {d:"AUTO-OEM", n:1, f:["MidEast"]},
-  "insecticides": {d:"AGRI", n:0, f:[]},
-  "kaveri": {d:"AGRI", n:0, f:[]},
-  "kmew": {d:"GOVT/PSU", n:4, f:["MidEast",">60x","thin-float","retail-3x"]},
-  "kolte": {d:"REALTY", n:0, f:[]},
-  "mayur": {d:"AUTO-OEM", n:1, f:["US-tariff"]},
-  "monarch": {d:"CAPITAL-MKT", n:4, f:["thin-float","CFO","gov","retail-3x"]},
-  "netweb": {d:"EMS-PLI", n:3, f:[">60x","retail-3x","conc>40"]},
-  "nitta": {d:"PHARMA-INGRED", n:1, f:["thin-float"]},
-  "nlc": {d:"GOVT/PSU", n:0, f:[]},
-  "obsc": {d:"AUTO-OEM", n:2, f:[">60x","thin-float"]},
-  "oriana": {d:"GOVT/PSU", n:3, f:["MidEast","thin-float","gov"]},
-  "paras": {d:"GOVT/PSU", n:2, f:[">60x","retail-3x"]},
-  "rajesh": {d:"GOVT/PSU", n:2, f:["thin-float","CFO"]},
-  "rossell": {d:"DEFENCE", n:4, f:["US-tariff",">60x","dilution-pending","conc>40"]},
-  "sansera": {d:"AUTO-OEM", n:2, f:[">60x","prom<50"]},
-  "sathlokhar": {d:"INFRA-EPC", n:2, f:["thin-float","gov"]},
-  "ssw": {d:"AUTO-OEM", n:3, f:["US-tariff","CFO","conc>40"]},
-  "sunita": {d:"AUTO-OEM", n:3, f:[">60x","thin-float","gov"]},
-  "syrma": {d:"EMS-PLI", n:2, f:[">60x","prom<50"]},
-  "systematic": {d:"GOVT/PSU", n:2, f:["thin-float","gov"]},
-  "transraill": {d:"GOVT/PSU", n:4, f:["dilution-pending","CFO","gov","DII-exit"]},
-  "wheels": {d:"AUTO-OEM", n:2, f:["dilution-pending","DII-exit"]},
-  "yash": {d:"GOVT/PSU", n:4, f:["MidEast",">60x","thin-float","DII-exit"]},
-};
-
-let csActive = null;
-function csRenderList(arr, kind, elId) {
-  document.getElementById(elId).innerHTML = arr.map((c, i) => {
-    const on = csActive && csActive.kind === kind && csActive.i === i;
-    const lab = c.label.replace(/^ +/, m => '&nbsp;'.repeat(m.length));
-    return '<div class="xsec-row ' + (kind === 'risk' ? 'risk' : '') + (on ? ' on' : '') +
-      '" onclick="csPick(\'' + kind + '\',' + i + ')" title="' + c.n + ' names \u00b7 \u20b9' +
-      c.mcap.toLocaleString('en-IN') + 'cr \u00b7 ' + c.pct + '% of book mcap">' +
-      '<span class="xsec-lab">' + lab + '</span>' +
-      '<span class="xsec-n">' + c.n + '</span>' +
-      '<span class="xsec-bar"><i style="width:' + Math.min(100, c.pct * 2).toFixed(1) + '%"></i></span>' +
-      '<span class="xsec-pct">' + c.pct + '%</span></div>';
-  }).join('');
-}
-function csRenderPanel() {
-  document.getElementById('xsec-book').textContent = CS_BOOK_MCAP.toLocaleString('en-IN');
-  csRenderList(CS_DRIVERS, 'driver', 'xsec-drivers');
-  csRenderList(CS_RISKS, 'risk', 'xsec-risks');
-  document.getElementById('xsec-active').textContent = csActive
-    ? '\u25b8 ' + csActive.c.label.trim() + ' \u2014 ' + csActive.c.n + ' names, ' + csActive.c.pct + '% of book mcap'
-    : '';
-}
-function csPick(kind, i) {
-  const c = (kind === 'driver' ? CS_DRIVERS : CS_RISKS)[i];
-  csActive = (csActive && csActive.kind === kind && csActive.i === i) ? null : {kind: kind, i: i, c: c};
-  applyFilter();
-}
-function csClear() { csActive = null; applyFilter(); }
 
 const stocks = [
   // ===== BATCH 1 (13 stocks) — Power, Mining, Realty & Others =====
@@ -2079,7 +1914,6 @@ function applyFilter() {
     if (listingVal !== "all" && s.listing !== listingVal) return false;
     if (convVal !== "all" && s.conviction !== convVal) return false;
     if (search && !(s.name.toLowerCase().includes(search) || s.sector.toLowerCase().includes(search) || s.thesis.toLowerCase().includes(search))) return false;
-    if (csActive && csActive.c.ids.indexOf(s.id) === -1) return false;
     return true;
   });
   // sort
@@ -2090,7 +1924,6 @@ function applyFilter() {
     if (av > bv) return 1 * sortDir;
     return 0;
   });
-  csRenderPanel();
   renderKPIs(filtered);
   renderSummary(filtered);
   renderCards(filtered);
@@ -2102,7 +1935,6 @@ function resetFilters() {
   document.getElementById('filter-listing').value = 'all';
   document.getElementById('filter-conviction').value = 'all';
   document.getElementById('search-box').value = '';
-  csActive = null;
   sortKey = 'num'; sortDir = 1;
   applyFilter();
 }
