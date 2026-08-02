@@ -581,7 +581,7 @@ const stocks = [
       {date: "29 Apr 2026", body: "Baseline. 9M FY26 rev -19.3% YoY (govt pause). JJM extended Dec-2028 with ₹8.7L Cr outlay. FY27 budget ₹67,600 Cr."}] },
 
   { id: "kolte", num: 9, name: "Kolte Patil Developers", listing: "mainboard", batch: 1,
-    sector: "Real Estate", conviction: "high",
+    sector: "Real Estate", conviction: "med",
     mcap: 3000, mcapDisp: "~3,000", mcapSource: "Estimated (verify Screener)",
     thesis: "FY26 sales ₹2,605 Cr; Q4 +13% inflexion after weak 9M; mid-segment Pune lever.",
     tagline: "Mid-segment RE | Pune-Mumbai-Bengaluru | Cycle recovery candidate",
@@ -597,6 +597,7 @@ const stocks = [
     valuation: "FY26E rev ₹1.5-1.8K Cr / PAT ₹150-200 Cr → P/E ~15-20x vs Brigade ~25-30x.",
     mos: "Reasonable MoS — cycle bottom + cheap relative + solid BS. 25-30% upside.",
     changes: [
+      {date: "2 Aug 2026", body: "[TIER A REFRESH \u2014 conviction HIGH \u2192 MEDIUM (Under Watch); two-notch downgrade] TRIGGERED BY FIXING THE DATA-QUALITY NOTE, WHICH TURNED OUT TO BE THE STORY. The note said Q2/Q3/Q4FY26 transcripts were 'not accessible in current repository' and would benefit from an Astec-style refresh. Wrong diagnosis: THE TRANSCRIPTS DO NOT EXIST. Kolte-Patil filed formal letters stating it 'will not host a conference call' after Q3FY26 (5-Feb-2026) and Q4FY26 (22-May-2026). Last earnings call held: Q1FY26, August 2025 \u2014 three straight quarters dark. Verified three ways: Screener's concall list (Transcript links end Aug-2025), the BSE announcements API (50 filings since 1-Oct-2025, ZERO transcripts), and both letters downloaded and read. WHAT THE MISSING P&L SHOWS: FY26 was a LOSS YEAR and v1 never mentioned it \u2014 revenue Rs658cr, DOWN 57% from Rs1,539cr; operating profit -Rs53cr; PAT -Rs2cr; ROE -5.75%; ROCE 1.39%; no P/E; no dividend; three of four quarters loss-making. v1 led instead with Q4FY26 deck operational metrics (pre-sales +1.5x, collections +1.7x) and assigned High conviction with ~85% weighted return. Q1FY27 OPERATIONAL UPDATE (17-Jul-2026) \u2014 the only Q1 disclosure that exists: sales value Rs617cr vs Rs616cr, which the company calls 'remaining broadly stable'. But realization rose 29% to Rs9,442/sq ft, so AREA SOLD FELL ~22% YoY. Flat value was held entirely by price. Collections did grow 30% to Rs715cr. NEW AND ABSENT FROM v1: GST Show Cause Notices under SECTION 74(1) \u2014 the fraud/wilful-misstatement provision, not routine Section 73 \u2014 claiming Rs103.82cr plus a Rs46.36cr penalty, ~Rs150cr total or 4.4% of market cap, covering FY21 through FY26, which the company calls 'wholly erroneous' and is contesting. ALSO RESTATED: the Blackstone deal was substantially a PROMOTER SELL-DOWN \u2014 40% at Rs329/share of which 25.7% was bought FROM the founding families and only 14.3% was fresh primary capital. Free float has fallen 20.81% to 12.28%, DII 5.59% to 3.30%, shareholder count down 25% to 40,601. GENUINE POSITIVES: collections +30%, CFO Rs345cr and FCF Rs316cr in a loss-making year (the real-estate revenue-recognition trough is a plausible explanation \u2014 but it is MY inference, unverifiable because there is no call); NCDs redeemed early and in full; a benign scheme amalgamating two WOS into the parent; senior team build-out under Blackstone. COMMUNITY: ValuePickr topic 263 has been DORMANT 17 months (last post 14-Mar-2025) and its final, unanswered post asked about promoter selling and balance-sheet stress. Earlier, @Surender: 'Management keeps overpromising and underachieving year after year.' Weighted 2yr return rebuilt from ~+85% to ~-2% (base -12% / bull +61% / bear -46%). Held at Medium rather than lower because the cash generation is real and the business may well be fine \u2014 but none of it can be verified while the company declines to take questions. Downgrade to ML if no Q1FY27 call is held (a fourth straight) or a fourth loss quarter in five appears."},
       {date: "1 Jul 2026", body: "[MATERIAL — MIXED] Q4 FY26 sales ₹714 Cr, record annual collections ₹2,689 Cr. Launched 4.60 mn sqft new projects; Blackstone partnership + Bhugaon acquisitions worth ₹2,250 Cr. Management refresh 22-May (new heads for Pune/Mumbai BUs + development + HR). [OVERHANG] GST demand notice 19-Jun for ₹103.82 Cr (FY21 through FY26) on TDR + redevelopment — company contesting, sees no material impact. Q1 FY27 trading window closed 1-Jul until results. CMP ₹364.10 (flat since 9-Jun)."},
       {date: "29 Apr 2026", body: "Baseline. FY26 sales ₹2,605 Cr (Q4 +13% after 9M -3%). Collections ₹2,689 Cr. Q4 inflexion suggests cycle recovery."}] },
 
@@ -1446,7 +1447,7 @@ const CMP_DATA = {
   "gmdc":        { cmp: "₹592", date: "16-Jul-26", source: "Screener bulk 16-Jul-26" },
   "gpil":        { cmp: "₹245", date: "16-Jul-26", source: "Screener bulk 16-Jul-26" },
   "ecl":         { cmp: "₹75.8", date: "16-Jul-26", source: "Screener bulk 16-Jul-26" },
-  "kolte":       { cmp: "₹392", date: "16-Jul-26", source: "Screener bulk 16-Jul-26" },
+  "kolte":       { cmp: "₹385", date: "2-Aug-26", source: "Screener 2-Aug-26 (curl+HTML parse)" },
   "garware":     { cmp: "₹6,900", date: "16-Jul-26", source: "Screener bulk 16-Jul-26" },
   "haldyn":      { cmp: "₹123", date: "16-Jul-26", source: "Screener bulk 16-Jul-26" },
   "care":        { cmp: "₹1,684", date: "16-Jul-26", source: "Screener bulk 16-Jul-26" },
@@ -1539,7 +1540,7 @@ const PROFILE_STATUS = {
   "oriana":     { ready: true, symbol: "ORIANA",     date: "3-Jul-2026" },
   "rajesh":     { ready: true, symbol: "RAJESH",     date: "3-Jul-2026" },
   "systematic": { ready: true, symbol: "SYSTEMATIC", date: "3-Jul-2026" },
-  "kolte":      { ready: true, symbol: "KOLTE",      date: "3-Jul-2026" },
+  "kolte":      { ready: true, symbol: "KOLTE",      date: "2-Aug-2026" },
   "deep":       { ready: true,  symbol: "DEEP", date: "29-Jul-2026", note: "Tier A refreshed 28-Jul-2026 (Q1FY27 all-time-high quarter). Concall gap CLOSED — 5 raw BSE transcripts + 2 decks downloaded via curl, superseding the v2 AI-summary-only sourcing; the Q4FY25 transcript that previously 403'd is now in the repo." },
   "amic":       { ready: true,  symbol: "AMIC", date: "4-Jul-2026", note: "v2 — transcript-grounded rewrite from RHP + AR FY25 + AR FY24 + 4 half-yearly filings via pdf.js-in-Chrome" },
   "carysil":    { ready: true,  symbol: "CARYSIL", date: "12-Jul-2026", note: "v1 — raw-transcript-grounded via NEW api.cors.lol CORS proxy method (Q1-Q4 FY26 concalls, 173K chars)" },
