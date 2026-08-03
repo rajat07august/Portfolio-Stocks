@@ -8,6 +8,11 @@
 
 ---
 
+> **⚠️ TICKER RENAMED 2-Aug-2026: CONCORD → CONCORDCS.** This is **Concord Control Systems Ltd (BSE 543619)** — railway/metro electronics, Sector 5. It is **not** Concord Biotech Ltd (BSE 543960, ticker `CONCORDBIO`, Sector 12), which was added to the watchlist on 2-Aug-2026, and **not** Concord Enviro Systems. The old `CONCORD` ticker caused a real mis-fetch during a bulk CMP refresh (logged in CLAUDE.md, 18-Jul-2026); the rename removes the ambiguity at source. Concall folder also renamed `Fetched Concalls/543619` → `Fetched Concalls/CONCORDCS`.
+
+---
+
+
 ## 1. Business in Plain English
 
 Every modern locomotive — whether a diesel engine, electric loco, or hybrid — has three critical electronic layers on top of the mechanical body: (a) **propulsion control** (how power gets delivered to wheels), (b) **safety systems** (Kavach train-collision-avoidance, digital axle counters), and (c) **diagnostics + intelligence** (predictive maintenance, real-time sensor data). **Concord Control Systems is a full-stack railway technology platform** — currently a component supplier, evolving into "the brain of modern rolling stock."
