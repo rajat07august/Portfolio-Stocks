@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Equity Watchlist Dashboard — 50 Stocks · 19 Sectors</title>
+<title>Equity Portfolio Analysis</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.js" integrity="sha384-iU8HYtnGQ8Cy4zl7gbNMOhsDTTKX02BTXptVP/vqAWIaTfM7isw76iyZCsjL2eVi" crossorigin="anonymous"></script>
 <style>
 :root { color-scheme: light; }
@@ -200,6 +200,53 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
 .kpi-card .kpi-label { font-size: 11px; color: #5a6268;
   text-transform: uppercase; letter-spacing: 0.4px; font-weight: 600; }
 
+/* ---------- Back-to-top floating button (added 3-Aug-2026) ---------- */
+#back-to-top {
+  position: fixed; right: 24px; bottom: 24px; z-index: 900;
+  width: 44px; height: 44px; border-radius: 50%; border: none;
+  background: #2E75B6; color: #fff; font-size: 19px; line-height: 1;
+  cursor: pointer; box-shadow: 0 2px 10px rgba(0,0,0,0.22);
+  opacity: 0; visibility: hidden; transform: translateY(8px);
+  transition: opacity .2s ease, transform .2s ease, visibility .2s, background .15s;
+}
+#back-to-top.visible { opacity: 1; visibility: visible; transform: translateY(0); }
+#back-to-top:hover { background: #1F4E79; }
+#back-to-top:focus-visible { outline: 2px solid #1F4E79; outline-offset: 3px; }
+
+/* ---------- Hide-stock controls (view-only, per-browser) ---------- */
+.hide-btn {
+  border: 1px solid #dfe3e8; background: #fff; color: #8a9099;
+  border-radius: 4px; cursor: pointer; padding: 1px 6px; font-size: 12px; line-height: 1.4;
+}
+.hide-btn:hover { background: #fdeeee; border-color: #e2b6b6; color: #b03434; }
+.stock-card-header .hide-btn { padding: 3px 9px; font-size: 12px; align-self: flex-start; }
+
+#hidden-chip { font-size: 11px; }
+#hidden-chip.has-hidden { background: #fdf0e3; border-color: #e0b483; color: #8a5216; font-weight: 600; }
+
+#hidden-panel {
+  display: none; background: #fff; border: 1px solid #eaeef2; border-radius: 8px;
+  padding: 12px 16px; margin: -12px 0 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+#hidden-panel.open { display: block; }
+.hidden-panel-head { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 8px; }
+.hidden-panel-note { font-size: 11px; color: #8a9099; }
+.hidden-panel-head button {
+  margin-left: auto; padding: 4px 10px; font-size: 11px; background: #2E75B6;
+  color: #fff; border: none; border-radius: 3px; cursor: pointer;
+}
+#hidden-list { display: flex; flex-wrap: wrap; gap: 6px; }
+#hidden-list .hidden-pill {
+  display: inline-flex; align-items: center; gap: 6px; font-size: 11.5px;
+  background: #f6f8fa; border: 1px solid #eaeef2; border-radius: 12px; padding: 3px 6px 3px 10px;
+}
+#hidden-list .hidden-pill button {
+  border: none; background: #dfe6ed; color: #1F4E79; border-radius: 10px;
+  font-size: 10.5px; padding: 1px 7px; cursor: pointer;
+}
+#hidden-list .hidden-pill button:hover { background: #2E75B6; color: #fff; }
+#hidden-list .none { font-size: 11.5px; color: #8a9099; }
+
 @media (max-width: 1024px) {
   .viz-grid { grid-template-columns: 1fr; }
   .kpi-strip { grid-template-columns: repeat(2, 1fr); }
@@ -207,6 +254,7 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
 @media (max-width: 768px) {
   .metrics-grid { grid-template-columns: repeat(2, 1fr); }
   .stock-card-header { flex-direction: column; }
+  #back-to-top { right: 14px; bottom: 14px; width: 40px; height: 40px; }
 }
 </style>
 </head>
@@ -214,13 +262,13 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
 <div class="container">
 
 <header class="page-header">
-  <h1>Equity Watchlist Dashboard — 50 Stocks · 19 Sectors</h1>
+  <h1 id="page-title">Equity Portfolio Analysis</h1>
   <div class="subtitle">SME-led | Lens: 6-18 mo catalysts | Margin of safety | Sector tailwinds | Interactive sector pie + filters + dated changes log</div>
   <div class="meta-row">
     <div class="meta-item"><strong>Baseline 1:</strong> 29 Apr 2026</div>
     <div class="meta-item"><strong>Baseline 2:</strong> 16 May 2026</div>
     <div class="meta-item"><strong>Baseline 3:</strong> 21 May 2026</div>
-    <div class="meta-item"><strong>Last Refreshed:</strong> 4 Jul 2026 (Session 5 — AMIC + DEEP added as #46, #47)</div>
+    <div class="meta-item"><strong>Last Refreshed:</strong> <span id="meta-last-refreshed">—</span></div>
     <div class="meta-item"><strong>Refresh Mode:</strong> On-demand only (no schedule)</div>
     <div class="meta-item"><strong>Prepared for:</strong> Rajat</div>
   </div>
@@ -228,11 +276,11 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
 
 <!-- KPI Strip -->
 <div class="kpi-strip">
-  <div class="kpi-card"><div class="kpi-value" id="kpi-total">50</div><div class="kpi-label">Total Stocks</div></div>
-  <div class="kpi-card"><div class="kpi-value" id="kpi-sme">13</div><div class="kpi-label">SME / SME-recent</div></div>
-  <div class="kpi-card"><div class="kpi-value" id="kpi-mainboard">37</div><div class="kpi-label">Main-board</div></div>
-  <div class="kpi-card"><div class="kpi-value" id="kpi-highconv">34</div><div class="kpi-label">High + Med-High Conviction</div></div>
-  <div class="kpi-card"><div class="kpi-value" id="kpi-sectors">19</div><div class="kpi-label">Sectors Covered</div></div>
+  <div class="kpi-card"><div class="kpi-value" id="kpi-total">—</div><div class="kpi-label">Total Stocks</div></div>
+  <div class="kpi-card"><div class="kpi-value" id="kpi-sme">—</div><div class="kpi-label">SME / SME-recent</div></div>
+  <div class="kpi-card"><div class="kpi-value" id="kpi-mainboard">—</div><div class="kpi-label">Main-board</div></div>
+  <div class="kpi-card"><div class="kpi-value" id="kpi-highconv">—</div><div class="kpi-label">High + Med-High Conviction</div></div>
+  <div class="kpi-card"><div class="kpi-value" id="kpi-sectors">—</div><div class="kpi-label">Sectors Covered</div></div>
 </div>
 
 <!-- Visualizations -->
@@ -275,7 +323,18 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
   <label for="search-box">Search:</label>
   <input id="search-box" type="text" placeholder="Stock or sector..." />
   <button onclick="resetFilters()">Reset</button>
-  <span style="margin-left:auto;font-size:11px;color:#888;">Showing <span id="count">50</span> of 50 stocks</span>
+  <button id="hidden-chip" onclick="toggleHiddenPanel()" title="Stocks you have hidden in this browser. Hiding never changes the data or the repo.">🙈 Hidden (0)</button>
+  <span style="margin-left:auto;font-size:11px;color:#888;">Showing <span id="count">—</span> of <span id="count-total">—</span> stocks</span>
+</div>
+
+<!-- Hidden-stocks manager (per-browser only; never touches data or repo) -->
+<div id="hidden-panel">
+  <div class="hidden-panel-head">
+    <strong>Hidden in this browser</strong>
+    <span class="hidden-panel-note">View-only — the underlying data and the repo are untouched. Charts and KPIs still count the full universe.</span>
+    <button onclick="unhideAll()">Unhide all</button>
+  </div>
+  <div id="hidden-list"></div>
 </div>
 
 <!-- Summary Table -->
@@ -291,6 +350,7 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
         <th data-sort="conviction">Conviction</th>
         <th title="Middle East / Hormuz / oil-price / commodity-cyclical exposure. Broad definition — hover any red pill for the per-stock reason grounded in the profile.">⚠ Geopolitical Risk</th>
         <th title="Personal tracker — check off after you manually deep-dive the company. State auto-saves per browser; use 'Copy state → repo' button to sync across devices.">✓ Deep-dived</th>
+        <th title="Hide this stock from the table and cards in THIS browser only. Data and repo are untouched. Restore from the 'Hidden' button in the toolbar.">🙈</th>
         <th>Thesis</th>
       </tr>
     </thead>
@@ -308,12 +368,15 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
 
 <footer class="page-footer">
   <p>Refresh on-demand only. Each refresh appends a dated entry to "Changes Since Baseline" per stock. Ask Claude in Cowork to run a refresh when you want current data.</p>
+  <p style="font-size:11px;">Hidden stocks are a per-browser view preference only — they do not alter the watchlist data or the repo.</p>
   <div class="disclaimer">
     <strong>Disclaimer:</strong> This dashboard is for personal investment research. Not a buy/sell recommendation. Market caps sourced from public aggregators (Tickertape, Groww, Trendlyne, Business Standard, MarketsMojo, Yahoo, Whalesbook, ScanX, etc.) — verify on Screener.in before action. SME-listed names carry higher governance and liquidity risk.
   </div>
 </footer>
 
 </div>
+
+<button id="back-to-top" onclick="scrollToTop()" title="Back to top" aria-label="Back to top">↑</button>
 
 <script>
 // ---------- Geopolitical Exposure Map ----------
@@ -412,6 +475,63 @@ function copyDeepDivedState() {
   }).catch(() => {
     alert('Copy failed. Manual copy of state:\n\n' + json);
   });
+}
+
+// ---------- Hidden-stocks state (added 3-Aug-2026) ----------
+// Purely a per-browser VIEW preference. Unlike the deep-dived tracker there is NO repo
+// JSON seed and no sync path — hiding must never change the watchlist data or the repo.
+// Hidden stocks drop out of the summary table and the cards only; the KPI strip and the
+// three charts continue to describe the full (filtered) universe, by design.
+let HIDDEN_STOCKS = {};
+try {
+  const h = localStorage.getItem('HIDDEN_STOCKS_STATE');
+  if (h) HIDDEN_STOCKS = JSON.parse(h);
+} catch (e) {}
+
+function persistHidden() {
+  try { localStorage.setItem('HIDDEN_STOCKS_STATE', JSON.stringify(HIDDEN_STOCKS)); } catch (e) {}
+}
+function isHidden(id) { return !!HIDDEN_STOCKS[id]; }
+function hiddenIds() { return Object.keys(HIDDEN_STOCKS).filter(k => HIDDEN_STOCKS[k]); }
+
+function hideStock(id) {
+  HIDDEN_STOCKS[id] = true;
+  persistHidden();
+  applyFilter();
+}
+function unhideStock(id) {
+  delete HIDDEN_STOCKS[id];
+  persistHidden();
+  applyFilter();
+}
+function unhideAll() {
+  HIDDEN_STOCKS = {};
+  persistHidden();
+  applyFilter();
+}
+function toggleHiddenPanel() {
+  document.getElementById('hidden-panel').classList.toggle('open');
+}
+
+function renderHiddenUI() {
+  const ids = hiddenIds();
+  const chip = document.getElementById('hidden-chip');
+  chip.textContent = `🙈 Hidden (${ids.length})`;
+  chip.classList.toggle('has-hidden', ids.length > 0);
+
+  const byId = {};
+  stocks.forEach(s => { byId[s.id] = s; });
+  const list = document.getElementById('hidden-list');
+  list.innerHTML = ids.length
+    ? ids.map(id => {
+        const s = byId[id];
+        if (!s) return '';
+        return `<span class="hidden-pill">${s.num}. ${s.name}
+          <button onclick="unhideStock('${id}')" title="Show ${s.name} again">unhide</button></span>`;
+      }).join('')
+    : '<span class="none">Nothing hidden. Use the 🙈 button on any table row or card to hide it from this browser.</span>';
+
+  if (ids.length === 0) document.getElementById('hidden-panel').classList.remove('open');
 }
 
 const stocks = [
@@ -1842,6 +1962,7 @@ function renderSummary(filteredStocks) {
       <td>${getConvictionTag(s.conviction)}</td>
       <td style="text-align:center;">${GEO_EXPOSED[s.id] ? `<span class="tag-geo-exposed" title="${GEO_EXPOSED[s.id].replace(/"/g, '&quot;')}">⚠ Exposed</span>` : ''}</td>
       <td style="text-align:center;"><input type="checkbox" class="dd-check" data-id="${s.id}" ${DEEP_DIVED[s.id] ? 'checked' : ''} title="I have manually deep-dived ${s.name}" style="width:18px;height:18px;cursor:pointer;"></td>
+      <td style="text-align:center;"><button class="hide-btn" onclick="hideStock('${s.id}')" title="Hide ${s.name} from this browser's view">✕</button></td>
       <td>${s.thesis}</td>
     </tr>`;
   }).join('');
@@ -1888,6 +2009,7 @@ function renderCards(filteredStocks) {
           </div>
           ${getListingTag(s.listing)}
           ${getConvictionTag(s.conviction)}
+          <button class="hide-btn" onclick="hideStock('${s.id}')" title="Hide ${s.name} from this browser's view">🙈 Hide</button>
         </div>
       </div>
       <div class="stock-card-body">
@@ -1970,10 +2092,16 @@ function applyFilter() {
     if (av > bv) return 1 * sortDir;
     return 0;
   });
+  // Hidden stocks are stripped from the table + cards only. KPIs and charts keep the
+  // full filtered universe by design, so the portfolio-level picture never shifts
+  // just because something was hidden from view.
+  const visible = filtered.filter(s => !isHidden(s.id));
+
   renderKPIs(filtered);
-  renderSummary(filtered);
-  renderCards(filtered);
+  renderSummary(visible);
+  renderCards(visible);
   buildCharts(filtered);
+  renderHiddenUI();
 }
 
 function resetFilters() {
@@ -2000,6 +2128,62 @@ document.querySelectorAll('#summary-table th[data-sort]').forEach(th => {
   });
 });
 
+// ---------- Dynamic header (added 3-Aug-2026) ----------
+// Stock count, sector count and Last Refreshed are all DERIVED from the data below,
+// so adding a stock or refreshing a price updates the banner with no manual edit.
+const MONTHS = { jan:0, feb:1, mar:2, apr:3, may:4, jun:5, jul:6, aug:7, sep:8, oct:9, nov:10, dec:11 };
+
+// Handles every date shape present in this file: "2-Aug-26", "2-Aug-2026", "2 Aug 2026",
+// and trailing commentary such as "4 Jul 2026 (v2 rewrite)".
+function parseAnyDate(str) {
+  if (!str) return null;
+  const m = String(str).match(/(\d{1,2})[\s-]([A-Za-z]{3})[a-z]*[\s-](\d{2,4})/);
+  if (!m) return null;
+  const mo = MONTHS[m[2].toLowerCase()];
+  if (mo === undefined) return null;
+  let yr = parseInt(m[3], 10);
+  if (yr < 100) yr += 2000;
+  const d = new Date(yr, mo, parseInt(m[1], 10));
+  return isNaN(d) ? null : d;
+}
+
+// Latest date anywhere in the dataset — CMP refreshes, profile writes, per-stock change logs.
+function latestDataDate() {
+  const candidates = [];
+  Object.values(CMP_DATA).forEach(c => candidates.push(c.date));
+  Object.values(PROFILE_STATUS).forEach(p => candidates.push(p.date));
+  stocks.forEach(s => (s.changes || []).forEach(ch => candidates.push(ch.date)));
+  const dates = candidates.map(parseAnyDate).filter(Boolean);
+  if (!dates.length) return null;
+  return new Date(Math.max.apply(null, dates));
+}
+
+function fmtLongDate(d) {
+  const names = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  return `${d.getDate()} ${names[d.getMonth()]} ${d.getFullYear()}`;
+}
+
+function renderHeader() {
+  const total = stocks.length;
+  const sectors = new Set(stocks.map(s => s.sector)).size;
+
+  document.title = `Equity Portfolio Analysis — ${total} Stocks`;
+  document.getElementById('page-title').textContent =
+    `Equity Watchlist Dashboard — ${total} Stocks · ${sectors} Sectors`;
+
+  const last = latestDataDate();
+  document.getElementById('meta-last-refreshed').textContent = last ? fmtLongDate(last) : '—';
+  document.getElementById('count-total').textContent = total;
+}
+
+// ---------- Back-to-top ----------
+const backToTopBtn = document.getElementById('back-to-top');
+function scrollToTop() { window.scrollTo({ top: 0, behavior: 'smooth' }); }
+window.addEventListener('scroll', () => {
+  backToTopBtn.classList.toggle('visible', window.scrollY > 400);
+}, { passive: true });
+
+renderHeader();
 applyFilter();
 </script>
 </body>
