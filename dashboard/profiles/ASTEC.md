@@ -1,6 +1,133 @@
 # Astec Lifesciences — Company Profile
 
-**Ticker:** ASTEC · BSE: 533138 · NSE: ASTEC · **Sector:** Agrochemicals (Triazole Fungicides + Herbicides + CDMO) · **Conviction:** Medium (Turnaround Play)
+**Ticker:** ASTEC · BSE: 533138 · NSE: ASTEC · **Sector:** 4 — Chemicals / Agrochemicals (Triazole Fungicides + Herbicides + CDMO) · **Conviction:** **HELD at Medium-Low (Turnaround Play)** — Tier A refreshed 6-Aug-2026
+
+---
+
+## 🔄 Refresh Log — 6-Aug-2026 (Tier A — Q1FY27, filed 31-Jul-2026)
+
+> **⤴ CORRECTING MY OWN QUEUE NOTE.** The 3-Aug refresh queue described this print as *"**Another loss quarter.** ML turnaround thesis needs testing against a fifth disappointment."* **That was wrong, and it was wrong because I read only the PAT line off a screener.** Q1FY27 is the **best quarter of the turnaround so far**: EBITDA reached breakeven for the first time and the net loss nearly halved year-on-year. It is not a disappointment.
+
+### 🔓 The concall gate — and how it was cleared
+
+**Astec has not held an earnings call since November 2022.** Screener's concall list ends there; the repo holds five transcripts, all from 2021–22. Nearly four years of silence. **A direct concall gate is impossible for this name.**
+
+**The documented fallback worked.** Per CLAUDE.md §6, Astec is a **Godrej Agrovet subsidiary and the parent discusses it on its own calls.** This refresh is grounded in three primary documents fetched today:
+
+| Document | Date | What it gives |
+|---|---|---|
+| **Astec Q1FY27 press release** (BSE) | 31-Jul-2026 | Segment revenue split, EBITDA bridge, Chairperson's commentary |
+| **Godrej Agrovet Q4FY26 transcript** (22pp) | May-2026 | Management commentary on Astec's turnaround, board reconstitution |
+| **Godrej Agrovet Q1FY27 investor deck** (32pp) | Aug-2026 | Astec segment table, and the parent's strategic classification |
+
+**Gate outcome: 🟡 3 primary docs — proceed with an explicit data-quality note.** This remains a profile where management commentary is second-hand, via the parent. It is materially better sourced than v1 (which relied on annual reports and Marketscreener) but it is not a company that talks to its own shareholders.
+
+### 🟢 Q1FY27 — the turnaround is real, and the numbers are unambiguous
+
+From Astec's own press release (31-Jul-2026):
+
+| Consolidated (₹cr) | Q1FY27 | Q1FY26 | Change |
+|---|---|---|---|
+| Total income | **84.3** | 91.6 | **−8.0%** |
+| **EBITDA** | **0.1** | **−10.5** | **BREAKEVEN reached** |
+| Loss before tax | **(18.7)** | (33.0) | **−43% loss** |
+| **Loss after tax** | **(18.7)** | **(33.0)** | **Loss nearly halved** |
+
+**Segment split — and it is the opposite of what the parent guided:**
+- **Enterprise Products ₹51.8cr, +42% YoY** (from ₹36.5cr) — *"led by higher volumes and supported by improved realizations"*
+- **CDMO Products ₹31.8cr vs ₹54.6cr** — down 42%, attributed to *"a high base in the corresponding quarter"*
+
+Chairperson **Mr. Vishal Sharma**: *"The Company achieved EBITDA breakeven in the quarter compared to an EBITDA loss of ₹10.5 crore in the same period last year, **despite lower revenues**. The improvement is supported by favourable product mix, improved margins in both the Enterprise and Contract Manufacturing segments and enhanced capacity utilization at its plants."*
+
+On the sector: *"The agrochemical sector is still dealing with the demand–supply imbalance since 2023 and this is expected to even out over the medium term."*
+
+**Godrej Agrovet's Q1FY27 deck corroborates independently:** Astec shows *"Sharp reduction in losses y-o-y"* and *"EBITDA Break-even continued"*, with revenue ₹83cr vs ₹91cr (−9.2%) and EBITDA nil vs −₹11cr.
+
+### ⚠️ But read the sequential line too
+
+| Consolidated (₹cr) | Sep-25 | Dec-25 | **Mar-26** | **Jun-26** |
+|---|---|---|---|---|
+| Revenue | 74 | 125 | **159** | **84** |
+| Operating profit | −7 | 4 | **9** | **−1** |
+| OPM | −9% | 3.2% | **6%** | **−0.8%** |
+| **PAT** | −24 | −16 | **−8** | **−19** |
+
+**Year-on-year the loss halved; quarter-on-quarter it more than doubled** (−₹8cr → −₹19cr), and operating profit slipped from +₹9cr back to −₹1cr. **Q1 is seasonally the weakest quarter for Astec and Q4 the strongest** — the Mar-26 quarter did ₹159cr of revenue against Jun-26's ₹84cr — so the YoY comparison is the fair one. But anyone extrapolating Q4FY26's ₹9cr operating profit forward was reading a seasonal peak.
+
+### 🔴 The gap that still matters: EBITDA breakeven is not profitability
+
+| Annual (₹cr) | FY24 | FY25 | **FY26** | **TTM** |
+|---|---|---|---|---|
+| Revenue | 458 | 381 | **448** | **441** |
+| Operating profit | −6 | −66 | **−4** | **+6** |
+| OPM | −1.3% | −17% | −1.0% | **+1.3%** |
+| Interest | 25 | 37 | 35 | **31** |
+| Depreciation | 36 | 44 | 45 | **44** |
+| **PAT** | −47 | **−135** | **−81** | **−67** |
+
+**TTM operating profit has turned positive (+₹6cr) for the first time since FY23** — genuine progress. **But interest of ~₹31cr and depreciation of ~₹44cr mean Astec needs roughly ₹75–80cr of EBITDA simply to reach PAT breakeven.** It is currently at about ₹6cr. **The distance from "EBITDA breakeven" to "profitable" is the entire investment question, and it is large.**
+
+**Balance sheet:** borrowings **₹555cr (Mar-25) → ₹449cr (Mar-26)** against net worth of ₹390cr. Reserves rose ₹215cr → ₹368cr *despite* an ₹81cr loss — consistent with a substantial capital infusion, and matching promoter holding rising **66.74% → 71.97%** over the same period.
+
+**🔴 Cash flow is still negative.** FY26 CFO **−₹81cr**, FCF **−₹86cr**, funded by ₹94cr of financing inflow. **The business is not yet self-funding**, which is why the parent's continued support is load-bearing rather than incidental.
+
+### 👤 Board reconstituted — and the parent is explicit about why
+
+From the Godrej Agrovet Q4FY26 call: *"in line with our focus on harnessing group expertise in chemicals, we have recently augmented the Astec Board with **Mr. Vishal Sharma as Non-Executive Chairperson**, **Mr. Mathew Eipe as Independent Director**, **Mr. Arijit Mukherjee**, who has been the COO of the business, has joined the Board as **Executive Director and will be leading the business going forward**. These appointments meaningfully strengthen Astec's leadership and we believe will be instrumental in accelerating growth and unlocking its true potential."*
+
+**Mr. Burjis Godrej** is listed as **Chairman Designate of Astec LifeSciences** on the parent's call. **This is a business now being run directly by group leadership, not left to drift.**
+
+### ⚠️ Two tensions worth holding
+
+**1. The parent guided CDMO-led growth; Q1FY27 delivered the opposite.** GOAGRO CEO Sunil Kataria on the Q4FY26 call: *"on the Astec business… we have seen a strong comeback led by CDMO. Our pipeline funnels are looking pretty good. We expect that momentum to continue with **a clear focus on CDMO-led growth**."* One quarter later, **CDMO fell 42% and Enterprise rose 42%.** Management calls it a base effect. Plausible for one quarter — but the stated growth engine went backwards.
+
+**2. The parent classifies Astec as "Reboot / Transform", not "invest".** The GOAGRO Q1FY27 deck sorts its businesses explicitly: *"Double-down on growth / invest: Cattle Feed, OPB, CCB, GFL Branded"* versus *"**Reboot / Transform: CDPL, ACI Godrej, Astec**"*. **Astec is a fix-it, not a grow-it, in its own parent's capital-allocation framework.** That is a meaningful signal about how much capital it can expect.
+
+### 💰 Valuation
+
+| | v1 (3-Jul-2026) | **6-Aug-2026** |
+|---|---|---|
+| CMP | ₹710 | **₹619** |
+| Market cap | ₹1,571 cr | **₹1,381 cr** |
+| P/E | N/A (losses) | **N/A (losses)** |
+| **P/B** | — | **3.54x** (BV ₹175) |
+| ROCE / ROE | −5.45% / −25.2% | **−5.44% / −25.2%** |
+| Mcap / TTM sales | — | **3.1x** |
+
+**Stock is −12.8% since v1 and sits 34% below its ₹942 high.**
+
+**⚠️ The valuation problem, stated plainly:** at 3.54x book with negative returns and 3.1x TTM sales, **Astec is not priced as a distressed turnaround.** Even a full recovery to FY22-type economics — ₹677cr revenue at a 23% operating margin, ₹90cr PAT — would justify roughly the current market cap at a 15–17x multiple. **The equity is pricing the turnaround succeeding, not the option on it.**
+
+**Refreshed scenarios (2-year, to FY28):**
+- **Base (50%):** Recovery continues at the current pace; FY28 revenue ~₹560cr, EBITDA margin ~12% (₹67cr), PAT around breakeven. Valued at ~2.8x sales = ₹1,570cr. **~+14%.**
+- **Bull (25%):** Agrochem demand–supply imbalance resolves as management expects, CDMO pipeline converts, FY28 revenue ₹700cr at 18% EBITDA, PAT ~₹45cr. At 3.5x sales = ₹2,450cr. **~+77%.**
+- **Bear (25%):** Cycle stays depressed, losses persist, further capital required and book erodes. Re-rate toward 2x a shrinking book ≈ ₹700cr. **~−49%.**
+
+**Weighted 2-year return ≈ +14%.** Up from v1's ~5% wide band, reflecting genuine operational improvement — but the distribution remains extremely wide.
+
+### Conviction decision
+
+**HELD at MEDIUM-LOW (Turnaround Play).**
+
+**The operational turnaround is real and better-evidenced than at any point in this profile's history.** EBITDA breakeven achieved and confirmed independently by the parent; loss halved YoY; TTM operating profit positive for the first time since FY23; borrowings down ₹106cr; Enterprise revenue +42%; board reconstituted with group leadership installed and the COO promoted to run it.
+
+**Not upgraded, for three reasons.** First, **PAT breakeven remains ~₹75–80cr of EBITDA away** from a base of ~₹6cr — the gap between the good news and actual profitability is very large. Second, **cash flow is still negative (CFO −₹81cr) and the business is not self-funding**; it depends on parent support that the parent has classified as *"Reboot / Transform"* rather than *"invest"*. Third, **at 3.54x book with negative ROE, the equity already prices success** rather than offering the option cheaply.
+
+**Upgrade to M if:** two consecutive quarters of positive operating profit · **and** CFO turns positive · **and** CDMO revenue recovers alongside Enterprise rather than instead of it.
+**Downgrade to Speculative if:** another capital raise is required · **or** FY27 EBITDA fails to stay positive · **or** the parent moves Astec to a "reduce / restrict capex" classification.
+
+### Watch items
+1. **⭐ CFO turning positive** — the single clearest evidence the turnaround is self-sustaining (currently −₹81cr)
+2. Whether CDMO recovers in Q2FY27, or whether the parent's "CDMO-led growth" thesis needs rewriting
+3. Operating profit staying positive through the seasonally weaker quarters
+4. Godrej Agrovet's segment classification — any move out of "Reboot / Transform"
+5. Borrowings below ₹400cr
+6. **Whether Astec resumes earnings calls** — silent since Nov-2022, and the single cheapest thing it could do for its own shareholders
+
+---
+
+**Original v1 profile below — unchanged.**
+
 **Date written:** 3-Jul-2026 · **CMP:** ₹710 · **Market Cap:** ₹1,571 cr · **P/E:** N/A (losses) · **ROCE:** -5.45% · **ROE:** -25.2%
 **Sources:** Astec FY24-25 Annual Report (primary, from Godrej Agrovet subsidiary accounts) · Marketscreener Q4FY26 loss disclosure · Screener consolidated view · ValuePickr Astec thread (last 18 months) · BSE filings
 
