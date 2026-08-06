@@ -1,6 +1,220 @@
 # Datamatics Global Services — Company Profile
 
-**Ticker:** DATAMATICS · BSE: 532528 · NSE: DATAMATICS · **Sector:** IT Services (Digital Tech + BPM + CX) · **Conviction:** Medium-High
+**Ticker:** DATAMATICS · BSE: 532528 · NSE: DATAMATICS · **Sector:** 8 — IT / Software & Platforms · **Conviction:** **Medium-High (Under Watch)** — Tier A refreshed 6-Aug-2026
+
+---
+
+## 🔄 Refresh Log — 6-Aug-2026 (Tier A — Q1FY27, filed 5-Aug-2026)
+
+> **📌 Conviction discrepancy reconciled.** This profile header read **Medium-High** while PORTFOLIO_STATE carried **H**. The two files had drifted apart. **Settled at MH (Under Watch)** — see the decision at the end. Both files now agree.
+
+**Concall Fetch Gate: ✅ CLEARED — 6 full transcripts + 2 decks + press release.** **The Q4FY26 transcript (11pp, call held 22-May-2026) was supplied manually by Rajat on 6-Aug-2026** after I established it was not publicly linked. It is now in the repo as `DATAMATICS_Transcript_2026-05.pdf`. **Reading it changed the central conclusion of this refresh — see the guidance section below.** Full transcripts: Jan-2025 (Q3FY25), May-2025 (Q4FY25), Aug-2025 (Q1FY26), Nov-2025 (Q2FY26), Feb-2026 (Q3FY26). Plus Q4FY26 and Q1FY27 investor decks and the Q1FY27 press release.
+
+**⚠️🔴 CORRECTED 6-Aug-2026 — DATAMATICS HAS STOPPED PUBLISHING WRITTEN TRANSCRIPTS.** My first pass concluded the Q4FY26 transcript *"exists — I simply could not fetch it."* **That was wrong.** A full scan of the company's earnings-call page (prompted by Rajat supplying the Q1FY27 audio link) shows:
+
+| Asset type | Count on IR page | Most recent |
+|---|---|---|
+| **Transcript PDFs** | 27 | **Q3FY26 (Feb-2026)** |
+| **Audio recordings (.mp3)** | 38 | **Q1FY27 (6-Aug-2026)** |
+
+**Written transcripts stop at Q3FY26; audio continues through Q1FY27.** Neither the Q4FY26 nor the Q1FY27 transcript exists as a PDF. Datamatics still holds calls and posts recordings — it has simply stopped publishing the written record.
+
+> **📌 A precise observation, not an allegation.** The **BSE cover letter of 28-May-2026 states the Q4FY26 transcript *"has been made available on the website of the Company"*** at `datamatics.com/about-us/investor-relations/earnings-call`. **No Q4FY26 transcript PDF is linked on that page** — only the audio recording and the call invite. It may have been posted and later removed, or hosted without a link. The verifiable fact is that the filing points to a page which does not carry the document it describes. **Recorded as an observation for tracking, not as a compliance claim.**
+
+**Practical consequence — now partly resolved.** The Q4FY26 transcript was obtained manually and **does contain explicit FY27 guidance**, which is what let me correct the central misreading in this refresh. **✅ Q1FY27 commentary is now also in hand** — the 6-Aug audio was machine-transcribed locally (see the Concall Addendum above). Between the manually-supplied Q4FY26 transcript and the machine-transcribed Q1FY27 call, **management commentary for both recent quarters is now available.** **The structural problem stands: from Q4FY26 onward this company publishes no written transcript**, so each future quarter will need manual sourcing or will go unread.
+
+## 🎧 Concall Addendum — Q1FY27 call, 6-Aug-2026 (machine-transcribed)
+
+> **Source:** the company posts **audio only** from Q4FY26 onward. Rajat supplied the recording link; the 31-minute file was downloaded and **machine-transcribed locally** (`mlx-whisper` / `whisper-large-v3-turbo`), saved as `DATAMATICS_Transcript_Q1FY27_2026-08-06_MACHINE.txt` beside the source MP3.
+> **⚠️ Speaker labels absent and source audio is 16kbps/8kHz — figures carry ASR risk.** Every number below was cross-checked: **9.9% growth, ₹513.9cr revenue, ~₹2,000cr current base and the 19–20% margin band all reconcile exactly to the press release and deck.** Re-verify if an official transcript ever publishes.
+
+**1. FY27 guidance explicitly REAFFIRMED.** Asked whether the strong Q1 changes the year: *"we have projected high single digits growth in our guidance. **We are maintaining that.** There is still a degree of softness in the market because of the war and the uncertainties."* **So the ~8% guide stands, and Q1's 9.9% is a beat management is not extrapolating from.**
+
+**2. Management steered analysts away from the 43% PAT number — independently confirming this profile's read.** An analyst pushed on the gap: *"in Q1 we did around 43% growth YoY and you're giving us single-digit growth guidance for the whole year — it seems a little [odd]."* The reply: *"what we are highlighting is **the revenue growth**… YoY growth of 9.9%, ₹513.9 crore is what we did. The 43% growth is for the [PAT]. We will continue to maintain the healthy EBITDA margins and we will sustain that."* **I reached the same conclusion from the numbers before hearing this; management says it outright.**
+
+**3. 🆕 A ₹3,000cr revenue ambition, on record for the first time in this profile.** From ~₹2,000cr today (FY26 ₹1,987cr ✅ cross-checks), targeting **₹3,000cr "by next three years, four years"**, starting from FY27 — *"a mixture of organic and inorganic"*. Margin held at *"the same 19, 20% type EBITDA margins"*. **That implies roughly 10–14% CAGR including acquisitions** — consistent with the ~8% organic guide plus bolt-ons, and a useful anchor the Q4FY26 call did not give.
+
+**4. 🆕 ~60% of deals won this year are AI-led** — *"about 60% of the [deals] we won have been AI led, or largely AI driven"*, with a good conversion ratio, though *"we do see still some degree of softness in the market."*
+
+**5. 🔴 The two risks management names itself — and they are the right ones.** Asked what could go wrong in FY27:
+
+> *"when the customers are automating… if they do a lot of automation, which they will, and they choose not to outsource the automation to companies like Datamatics… then the **outsourcing budgets will shrink** and that would have a pressure on all companies in the outsourcing world, **in India particularly**. And also there's the move towards **captives**… So, two risks. One is automation by themselves. And the second is the captives."*
+
+**This is unusually candid.** The CEO of a BPM company stating plainly that customers automating in-house is an existential pressure on the whole Indian outsourcing industry is worth more than any bull-case slide. **It is also the single most important risk in this profile and it was not previously recorded.**
+
+**6. 🔴 Deal duration is structurally shortening — a change to revenue quality.** *"the projects are becoming smaller… many of the AI projects are smaller, three months, six months, nine months, and not a three or five year type deal"*, against *"the large annuity that they were in the industry traditionally."* **Shorter contracts mean less visibility and a weaker annuity base**, even if near-term revenue holds. This affects how much a multiple should be paid for the earnings stream.
+
+**7. Customer spending patterns:** *"No major changes. They are flirting more with the AI space, investing more on automation, but outside of that there's no real pattern shift, other than some degree of softness."* Named trends: **GCC and automation.**
+
+---
+
+### 🟢 Q1FY27 — margin is doing the work, not revenue
+
+From the press release (5-Aug-2026), headline: ***"Datamatics Q1FY27 Revenue up 9.9% YoY to ₹513.9 crore; PAT at ₹72.3 crore up by 43.5% YoY."***
+
+| Consolidated (₹cr) | Q1FY27 | Q1FY26 | YoY | Q4FY26 | **QoQ** |
+|---|---|---|---|---|---|
+| Revenue | **513.9** | 468 | **+9.9%** | 519 | **−1.0%** |
+| **EBITDA** | **101.1** | 76 | **+33.1%** | 111 | **−9.0%** |
+| **EBITDA margin** | **19.7%** | 16.3% | **+343 bps** | 21% | −130 bps |
+| PBT | 92 | 64 | +43.8% | 74 | +24.3% |
+| Tax rate | 21% | 21% | — | **39%** | — |
+| **PAT** | **72.3** | 50 | **+43.5%** | 45 | +60% |
+
+**Two things to read carefully.**
+
+> **⤴ CORRECTED 6-Aug-2026 (after Rajat supplied the Q4FY26 transcript).** My first pass called 9.9% *"a deceleration"* and treated it as a concern, because I had no guidance to judge it against. **With the transcript in hand, that framing is wrong — 9.9% is a BEAT.**
+
+### 🎯 Q1FY27 vs the guidance management actually gave
+
+On the **Q4FY26 call (22-May-2026)**, Rahul Kanodia was asked directly what growth to expect:
+
+> *"the growth we are looking at is **high single digits for next year** because we just launched some of our Agentic AI platforms. We've got some very good traction initially, but we still need to evaluate the performance."*
+
+Pressed for a number — *"would that be around 8% to 9%?"* — he answered: ***"Yes, 8% would be approximately correct."***
+
+On margins, asked whether the elevated FY26 level was sustainable: *"Our EBITDA margins are about 18.7%. We are looking at another roughly **50 to 100 basis points** next year. So by and large, it will remain steady. **I don't see that moving substantially higher.**"*
+
+| FY27 guidance (Q4FY26 call) | Guided | **Q1FY27 delivered** | Verdict |
+|---|---|---|---|
+| Revenue growth | **~8%** ("high single digits") | **+9.9%** | ✅ **Beat** |
+| EBITDA margin | **19.2–19.7%** (18.7% + 50–100bps) | **19.7%** | ✅ **Top of range** |
+
+**So the correct read is the opposite of my first one: Datamatics guided modest growth and beat it, and guided a modest margin step-up and delivered the top of the band.** The 43.5% PAT growth is still a margin-and-tax story rather than a demand story — but **management said in advance that it would be, and calibrated it accurately.**
+
+**⚠️ What remains true: ~8% is genuinely modest growth**, and management has explicitly capped margin expectations (*"I don't see that moving substantially higher"*). **The forward algorithm is roughly 8% revenue plus a small margin gain — call it 10–12% earnings growth.** That is the number to value, not the 43.5%.
+
+**The +60% QoQ PAT is almost entirely tax normalisation.** Q4FY26 carried a **39% effective tax rate** against 21% in both Q1FY26 and Q1FY27. Strip that and the sequential picture is flat-to-down: revenue −1.0%, EBITDA −9.0%, margin −130bps.
+
+Rahul Kanodia on Q1FY27: *"strong market validation of our AI-first strategy… enabling us to win larger, higher-value engagements."* **The margin expansion and the guidance beat both support that; the absolute growth rate is still single-digit.**
+
+### 🆕 Three things only the Q4FY26 transcript revealed
+
+1. **A ₹24cr Labor Code adjustment in FY26.** Kanodia: *"We had a Labor Code adjustment, and that is about INR 24 crores… it is across the whole industry, particularly labor-intense organizations."* **A one-off that depressed FY26 reported profit** — and part of the answer to why PAT fell while operating profit rose 60%.
+2. **One subsidiary carries negative net worth of ~₹26cr.** CFO Ankush Akar: *"this is in one of the subsidiary Company where we have negative net worth. We continue to see now profitable growth in that particular subsidiary."* Kanodia: recovery *"probably in the next 2 years or so."* Small, but a real item not previously in this profile.
+3. **Management attributes the margin gain to two sources, not one.** Asked whether Digital Operations margins improved because of TNQ consolidation, Kanodia: *"It has improved for both reasons, partly the TNQ and partly due to our own operational efficiency."* **Honest answer — the mix effect is real but not the whole story.**
+
+**On the cash pile** (~₹630cr at Q4FY26, ₹710cr now): *"traditionally, we have used our surplus cash for growth and M&A. So that would be the primary agenda."* But: *"we are cautious because you don't acquire a company and then get stuck."* **Dextara and TNQ Tech integration both described as proceeding to plan.**
+
+### 🔴 The FY26 fact v1 doesn't carry: operating profit surged 60% and PAT still fell
+
+| Annual (₹cr) | FY24 | FY25 | **FY26** | **TTM** |
+|---|---|---|---|---|
+| Revenue | 1,550 | 1,723 | **1,987** | **2,034** |
+| Operating profit | 246 | 232 | **372** | **397** |
+| **OPM** | 16% | **13%** | **19%** | **20%** |
+| Other income | 45 | **+78** | **−9** | −3 |
+| Depreciation | 36 | 48 | **84** | 87 |
+| **PAT** | 197 | **206** | **195** | **217** |
+
+**FY26 revenue +15.3% and operating profit +60%, with margin going 13% → 19% — an excellent operating year. And reported PAT still fell, ₹206cr → ₹195cr.**
+
+Two causes, both below the operating line: **other income swung from +₹78cr to −₹9cr** (an ₹87cr reversal, essentially forex on a largely export-facing book), and **depreciation nearly doubled, ₹48cr → ₹84cr**, consistent with amortisation from the TNQ Tech acquisition. **TTM PAT has since recovered to ₹217cr.**
+
+**⚠️ Other income is volatile and periodically negative** — Dec-25 −₹28cr, Mar-26 −₹9cr, Jun-26 +₹18cr. It swings the reported number around materially in both directions. Judge this business on operating margin, not PAT.
+
+### 💪 The balance sheet is the strongest thing here
+
+- **Net cash and investments (net of debt): ₹710cr** — **14% of market cap**, and up from the ₹639cr v1 recorded
+- **FY26 CFO ₹324cr** (from ₹224cr), **FCF ₹285cr**, **CFO/OP 108%**
+- Five-year conversion: 115% / 73% / 90% / 122% / **108%**
+
+**This is the best cash conversion of anything refreshed this cycle** — against MAYUR's 86%, ASTEC's negative, and AVALON's 53%.
+
+Also disclosed in the Q1FY27 deck: **5-year revenue CAGR 14.2%**, **5-year PAT (after NCI) CAGR 19.5%**, **300+ significant customers**, **employee attrition 5% for the quarter**, and an AI product stack — TruAI, TruCap+, TruBot, TruDiscovery, FINATO, TruBI.
+
+### 🆕 TNQ Tech now wholly owned — and it points straight at MPS
+
+Filed 31-Jul-2026: **Lumina Datamatics Limited (LDL)**, a material wholly-owned subsidiary, **completed the second tranche acquisition of the remaining 20% of TNQ Tech Private Limited.** The first tranche (80%) closed 31-Dec-2024 under agreements dated 09-Dec-2024. **TNQ Tech is now a wholly-owned step-down subsidiary with effect from 31-Jul-2026.**
+
+**This is deal completion, not a new acquisition** — worth being precise, since the announcement headline reads as fresh M&A.
+
+**🔗 Sector read-across worth carrying:** Sameer Kanodia (Vice Chairman & CEO, Lumina Datamatics) on the quarter: *"healthy growth momentum across our **Publishing** and **eCommerce** businesses."* **Lumina's publishing-services business is directly adjacent to MPS Ltd**, added to Sector 8 on 2-Aug-2026. Two watchlist names now compete or overlap in academic/STM publishing services. **MPS earns 31.2% ROE at 25.4x; Datamatics earns 16.4% at ~20x.** Worth watching as a paired trade rather than as two independent positions.
+
+### 👥 Shareholding — nobody institutional owns this
+
+| | Dec-2024 | Jun-2025 | Dec-2025 | **Jun-2026** |
+|---|---|---|---|---|
+| **Promoter** | 66.33% | 66.33% | 66.33% | **66.33%** |
+| **FII** | 1.15% | 1.02% | 0.53% | **0.50%** |
+| **DII** | 0.19% | 0.12% | 0.13% | **0.10%** |
+| Public | 32.33% | 32.54% | 33.01% | **33.07%** |
+| Shareholders | 54,194 | 51,102 | 48,604 | **48,772** |
+
+**Promoter holding is immovable at 66.33% across seven quarters** — genuinely stable, no pledging disclosed.
+
+**But combined institutional ownership is 0.60%.** FII has more than halved from 1.15%. **That is the lowest institutional participation of any name in this watchlist** — below AURIONPRO (1.47% DII) and AXISCADES (1.96% DII), both of which I flagged as anomalies. A company compounding revenue at 14% over five years with ₹710cr of net cash and 108% cash conversion, that no institution owns, is either a genuine inefficiency or a signal I am not seeing. **I cannot resolve which, and say so plainly.**
+
+### 📢 Community Pulse — 6-Aug-2026
+
+**There is no active ValuePickr thread.** Topic 1038 "Datamatics global" (22 posts, last **9-Aug-2024**) and topic 1070 "Datamatics Global Solutions" (24 posts, last **2-Dec-2023**) are both dormant for two years or more. **No Substack coverage located.**
+
+**Sentiment verdict: ABSENT.** No bull case, no bear case, no independent scrutiny whatsoever. **Notably, the Datamatics search surfaced the MPS Ltd thread (693 posts, active)** — the adjacent name has forty times the discussion. **This thesis has no external challenge, which is a reason for more caution rather than less.**
+
+### 💰 Valuation
+
+| | v1 (3-Jul-2026) | **6-Aug-2026** |
+|---|---|---|
+| CMP | ₹821 | **₹856** |
+| Market cap | ₹4,855 cr | **₹5,064 cr** |
+| P/E (Screener) | 20.3x | **20.0x** |
+| P/B | — | **3.28x** (BV ₹261) |
+| ROCE / ROE | 20.8% / 16.4% | **20.8% / 16.4%** |
+| **Net cash** | ₹639 cr | **₹710 cr** |
+| Dividend yield | 0.60% | **0.59%** |
+
+**On TTM PAT of ₹217cr the headline multiple is ~23x; excluding the ₹710cr of net cash it is ~20x.** The stock sits **24% below its ₹1,120 high**.
+
+**⚠️ v1 called this "the cheapest mid-cap IT." At ~20x ex-cash that is no longer clearly true** — MPS trades at 25.4x on double the ROE, and the peer set has compressed. The valuation is *reasonable*, not *cheap*.
+
+**Refreshed scenarios (2-year, to FY28):**
+- **Base (55%):** Revenue compounds low-teens to ~₹2,600cr, margin holds 19–20%, FY28 PAT ~₹290cr. At 20x = ₹5,800cr. **~+15%.**
+- **Bull (25%):** AI-first positioning converts into the "larger, higher-value engagements" management describes; revenue reaccelerates past 15% and margin reaches 21%. FY28 revenue ₹2,900cr, PAT ₹350cr, re-rate to 25x = ₹8,750cr. **~+73%.**
+- **Bear (20%):** Revenue growth stays sub-10%, the FY26 margin gain partly reverses, other income keeps dragging. FY28 PAT ₹200cr, de-rate to 15x = ₹3,000cr. **~−41%.**
+
+**Weighted 2-year return ≈ +18%** (~8.6% CAGR + 0.59% dividend). **Down from v1's ~35%.**
+
+### Conviction decision
+
+**MEDIUM-HIGH (Under Watch)** — reconciling the profile/PORTFOLIO_STATE split at MH rather than H.
+
+**What is genuinely strong:** operating margin re-rated from 13% to 20% and held there; **CFO/OP of 108%, the best in this refresh batch**; ₹710cr of net cash growing; promoter at 66.33% unmoved for seven quarters; ROCE 20.8%; attrition at 5%; and TNQ Tech now fully owned.
+
+**What holds it back — restated after reading the Q4FY26 transcript.** My first version leaned on *"revenue decelerated to 9.9%"*. **That reservation is withdrawn: 9.9% beat management's ~8% guide, and the 19.7% margin landed at the top of the guided band.** The real constraint is different and more durable: **management is guiding ~8% growth and has explicitly capped margin expectations** (*"I don't see that moving substantially higher"*). **The forward algorithm is roughly 8% revenue plus a small margin gain — 10–12% earnings growth — and that is what ~20x ex-cash is buying.** Reasonable, not compelling. Alongside: **FY26 PAT fell despite a 60% jump in operating profit**, with below-the-line items (other income ±₹28cr a quarter, a ₹24cr Labor Code one-off, doubled depreciation) large and volatile; **combined institutional ownership of 0.60%**; no community coverage; and **no written transcript published since Q3FY26**. Nothing external is testing this thesis.
+
+**Downgrade to M if:** revenue growth falls **below the ~8% guided floor** · **or** EBITDA margin falls below 18.7% (the FY26 base management said it would build on) · **or** FII holding goes below 0.30%.
+**Upgrade to H if:** revenue reaccelerates above 15% with margin holding 19%+ · **and** any institution initiates a visible position.
+
+### 🔴 Risk — management's own two named risks: in-house automation and captives (added 6-Aug-2026)
+
+Asked on the Q1FY27 call what could go wrong, Rahul Kanodia named two, unprompted and without hedging: **customers automating in-house rather than outsourcing it** (*"the outsourcing budgets will shrink and that would have a pressure on all companies in the outsourcing world, in India particularly"*), and **the shift to captives / GCCs**.
+
+**This is the central structural risk to the whole thesis and it comes from the CEO, not from me.** The AI-led deal share of ~60% cuts both ways: it is winning business today and it is training customers to automate. *Signal to watch: revenue growth against the ~8% guide, and any commentary on captive/GCC losses.*
+
+### 🔴 Risk — deal duration is structurally shortening (added 6-Aug-2026)
+
+*"the projects are becoming smaller… many of the AI projects are smaller, three months, six months, nine months, and not a three or five year type deal"* — against the large annuity contracts the industry traditionally ran on.
+
+**Shorter contracts mean less forward visibility and a weaker annuity base**, even where near-term revenue holds up. It is a quality-of-earnings change, not a level change, and it argues for a *lower* multiple on the same profit stream. *Signal to watch: any disclosure of average contract tenure or order-book duration.*
+
+### 🆕 Risk — disclosure has degraded to audio-only (added 6-Aug-2026)
+
+Datamatics published written transcripts for every quarter through **Q3FY26**, then stopped. **Q4FY26 and Q1FY27 exist only as audio recordings.** The company still holds calls, so this is milder than KOLTE (which stopped holding calls entirely) or ASTEC (silent since Nov-2022) — but it materially raises the cost of following the name and removes the searchable, quotable record that every other profile in this watchlist is built on.
+
+**Combined with institutional ownership of 0.60% and no active community thread, Datamatics is now the least externally-scrutinised name in the watchlist.** Nothing is checking management's account of its own results. *Signal to watch: whether a Q1FY27 or Q2FY27 transcript appears; if audio-only persists, treat all forward commentary in this profile as unverified inference.*
+
+### Watch items
+1. **⭐ Revenue growth** — 9.9% is the deceleration to watch; the margin story is largely delivered
+2. **Q4FY26 and Q1FY27 transcripts** — retrieve when reachable; the Q4FY26 one exists but sits behind a non-guessable URL
+3. Other income — swings of ±₹28cr a quarter make reported PAT unreliable
+4. TNQ Tech / Lumina publishing contribution, and the read-across to **MPS Ltd** in the same sector
+5. Institutional ownership off a 0.60% base
+6. Net cash beyond ₹710cr, and whether it is ever deployed
+
+---
+
+**Original v1 profile below — unchanged.**
+
 **Date written:** 3-Jul-2026 · **CMP:** ₹821 · **Market Cap:** ₹4,855 cr · **P/E (trailing):** 20.3x · **ROCE:** 20.8% · **ROE:** 16.4%
 **Sources:** Concalls Q4FY25, Q1FY26, Q2FY26, Q3FY26 (4 reads) + Q4FY26 investor deck (May 2026) · Screener consolidated view · ValuePickr Datamatics thread (last 18 months) · BSE filings
 

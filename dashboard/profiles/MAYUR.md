@@ -11,6 +11,54 @@
 
 > **📌 Filing-date correction:** the 3-Aug refresh queue listed MAYUR as filed **28-Jul**. Wrong — 28-Jul was the *Analyst/Investor Meet Intimation*, an advance notice. **Results were declared 5-Aug-2026.** Corrected in PORTFOLIO_STATE; MAYUR is 11th in true filing order, not 3rd.
 
+## 🎧 Concall Addendum — Q1FY27 call, 6-Aug-2026 (machine-transcribed)
+
+> **Source:** Mayur posts **audio, no transcript**. Rajat supplied the link (`mayuruniquoters.com/audio/for-the-q1-fy-2027.mp3`); the **47m34s** file was machine-transcribed locally (`mlx-whisper` / `whisper-large-v3-turbo`) → `MAYURUNIQ_Transcript_Q1FY27_2026-08-06_MACHINE.txt`.
+> **✅ Cross-checks all pass:** consolidated revenue **₹269.23cr**, PBT **₹74.12cr**, PAT **₹56.12cr** — each matches Screener exactly. Export **₹103.80cr** + domestic **₹143.23cr** = **₹247.03cr**, which reconciles to standalone revenue. **Speaker labels absent; ASR risk remains on anything not cross-checked.** Re-verify if an official transcript publishes.
+
+### ✅ Management confirms the margin call — and names the cause
+
+The open question from this refresh was whether Q4FY26's 31% margin was an anomaly. **An analyst put it directly**, noting management had previously guided a sustainable 25–30% and asking *"what was the reason that sequentially we basically did not continue with the same trend on the margin?"*
+
+The answer:
+
+> *"we told you earlier also in our previous concall, that our **sustainable margin will be 25% or plus 1% or 2%**. But last quarter, it was **abnormally high because of… abnormally high increase in foreign exchange rates. So, that was a one-time increase**, basically. But **the present quarter's margin will be sustainable and expected to continue**."*
+
+**This confirms the conclusion I reached from the numbers alone — and adds the cause.** Q4FY26 was a **forex** anomaly, not a mix improvement. Management is explicit that the current level is the run-rate. **The reversion is normalisation, and now verified as such by management rather than inferred.**
+
+### 🔴 Why margin didn't expand despite export OEM growing 40%
+
+**Export OEM: Q1FY26 ₹53cr → Q1FY27 ₹74cr, roughly +40%.** An analyst asked why that didn't show up in gross margin. Three reasons, all given plainly:
+
+1. **Gulf War shipping costs — up "four times higher."**
+2. **Raw material volatility since March.** *"the prices went up very sharply. Then there was a fall in prices of some raw materials. Then again the prices went up again… very difficult to predict situations which are out of our control."* Still *"more expensive than what it was in the month of March."*
+3. **Price increases requested but deliberately not pushed.** On US export OEM: they have *"already mailed… their price hike requests but we haven't pushed"* — because prices started softening fast and they already had *"an advantage of US[D] appreciation."* Also, *"for strategic reasons, you don't increase the price for some customers, not for all customers."*
+
+**Read: the margin shortfall is cost-side and self-limited pricing, not a demand or mix failure.** Recoverable if raw materials stabilise — but it means the export mix shift alone does not automatically translate into margin.
+
+**Also flagged:** **volume growth was only ~2%**, and the **footwear segment was muted** because sole prices *"went up to almost like two times, three times"* — a customer-side cost shock, not a Mayur problem.
+
+### 🏭 Capacity and capex
+
+- **Utilisation 75–78%** — meaningful headroom
+- **Installed PVC capacity ~3.5 million metres/month**, ranging **3.5–4.2M depending on product thickness** (*"if we are making more products based on less thickness… it could be 4.1. And if we are making thicker products, it could be 3.8"*)
+- **New line already ordered for the existing premises** — production from **February–March 2027**, adding **5 lakh metres**
+- **Capex ~₹50cr for FY26–27.** FY27–28 undecided, contingent on whether a new facility is committed
+
+### 🆕 The overseas plant decision — directly tied to the tariff overhang
+
+This is the most strategically important thing on the call and it is **not in the v1 profile**:
+
+> *"We definitely need to put more plants somewhere outside India. But because of **all this Trump tariffs, the West Asia war**, or multiple things happening in the last few years, **we have not taken a final call** on which should be the ideal location… **it could be in Mexico, it could be in the US, it could be in some other NAFTA areas.** We are still considering various options, but there's so much volatility in the market."*
+
+**Two expansions are under consideration — one outside India, one within** — with the domestic one taking longer because the current site is already being expanded.
+
+**Why this matters:** the v1 profile named the Trump-tariff overhang as the key unresolved risk. **This is management's answer to it — build inside the tariff wall — and they have explicitly not decided.** A Mexico/US/NAFTA plant would convert the tariff threat into a moat; continued indecision leaves the export book exposed. **This is now the item to track above the margin.**
+
+> **🕐 Flagged for verification — key-man.** A participant asked about the health of **Suresh Poddar** (Chairman & MD, the founder the whole thesis rests on). **The machine transcript is too garbled at that passage to state what was said**, beyond that the question was asked and the reply indicated he is managing the business. **I am not going to characterise a named individual's health from an ASR artefact.** Verify against the official transcript if one publishes. Key-man risk is legitimate to track for a founder-led company of this profile — this is a marker, not a finding.
+
+---
+
 ### 🎯 The Q1FY27 print answers the exact question analysts pressed management on last quarter
 
 On the Q4FY26 call, Q4's extraordinary margin dominated the Q&A. Analyst Awanish Chandra put it plainly: *"We have been used to seeing margin 24%-25%. All of a sudden we are seeing 33% plus margin."* Pritesh Chheda pushed three separate times on whether the ~30% exit margin was sustainable and whether it contained a one-off. Arun Bagaria attributed it to export mix and currency — *"export is increasing and our export prices are also very good prices and margin is in dollar prices"* — and declined to commit: ***"I am not telling you exact margin but…"***
