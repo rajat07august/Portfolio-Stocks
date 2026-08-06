@@ -1,6 +1,134 @@
 # Mayur Uniquoters — Company Profile
 
-**Ticker:** MAYURUNIQ · BSE: 522249 · NSE: MAYURUNIQ · **Sector:** Specialty Materials (Synthetic Leather / Coated Fabrics) · **Conviction:** High
+**Ticker:** MAYURUNIQ · BSE: 522249 · NSE: MAYURUNIQ · **Sector:** 11 — Packaging & Materials (Synthetic Leather / Coated Fabrics) · **Conviction:** **HELD at High** (Tier A refreshed 6-Aug-2026)
+
+---
+
+## 🔄 Refresh Log — 6-Aug-2026 (Tier A — Q1FY27, filed 5-Aug-2026)
+
+**Concall Fetch Gate: ✅ CLEARED (6 transcripts).** Feb-2025 (Q3FY25) · May-2025 (Q4FY25) · Aug-2025 (Q1FY26) · Nov-2025 (Q2FY26) · Feb-2026 (Q3FY26) · **May-2026 (Q4FY26, 23-May)**. All read.
+**Note:** Mayur is **transcript-only — it files no investor decks.** Also downloaded and read: the full **5-Aug-2026 board packet** (16pp) carrying Q1FY27 results, board changes, AGM notice and the dividend record date. **Q1FY27 transcript not yet filed** (Analyst/Investor Meet outcome was 6-Aug); re-read when it lands.
+
+> **📌 Filing-date correction:** the 3-Aug refresh queue listed MAYUR as filed **28-Jul**. Wrong — 28-Jul was the *Analyst/Investor Meet Intimation*, an advance notice. **Results were declared 5-Aug-2026.** Corrected in PORTFOLIO_STATE; MAYUR is 11th in true filing order, not 3rd.
+
+### 🎯 The Q1FY27 print answers the exact question analysts pressed management on last quarter
+
+On the Q4FY26 call, Q4's extraordinary margin dominated the Q&A. Analyst Awanish Chandra put it plainly: *"We have been used to seeing margin 24%-25%. All of a sudden we are seeing 33% plus margin."* Pritesh Chheda pushed three separate times on whether the ~30% exit margin was sustainable and whether it contained a one-off. Arun Bagaria attributed it to export mix and currency — *"export is increasing and our export prices are also very good prices and margin is in dollar prices"* — and declined to commit: ***"I am not telling you exact margin but…"***
+
+**Q1FY27 settles it. The 31% did not hold.**
+
+**Operating margin by quarter:** 22% → 21% → 20% → 21% → 23% → **31% (Q4FY26)** → **22% (Q1FY27)**
+
+| Metric | Q1FY27 | Q1FY26 | YoY | Q4FY26 | **QoQ** |
+|---|---|---|---|---|---|
+| Revenue | ₹269 cr | ₹216 cr | **+24.5%** | ₹273 cr | **−1.5%** |
+| Operating profit | ₹59 cr | ₹43 cr | +37.2% | ₹86 cr | **−31.4%** |
+| **OPM** | **22%** | 20% | +200 bps | **31%** | **−900 bps** |
+| Other income | ₹23 cr | ₹20 cr | — | ₹3 cr | — |
+| PBT | ₹74 cr | ₹55 cr | +34.5% | ₹81 cr | −8.6% |
+| PAT | ₹56 cr | ₹41 cr | **+36.6%** | ₹59 cr | −5.1% |
+
+**How I read it:** Q4FY26 was the anomaly, not the new base. **22% sits squarely inside Mayur's historical 20–23% band**, so this is normalisation rather than deterioration — but anyone who annualised the Q4 margin was modelling a number the company itself refused to endorse. **Management's refusal to name a figure now reads as appropriate caution rather than evasion.** Worth crediting.
+
+**⚠️ Other income does real work in the PAT line.** ₹23cr of the ₹74cr Q1FY27 PBT — about 31%. Not new: FY26 other income was ₹55cr on ₹259cr PBT (21%), TTM ₹58cr on ₹278cr (21%). Mayur runs a substantial investment book alongside the operating business, so **roughly a fifth of profit is consistently non-operating.** Not a red flag, but the operating business is smaller than headline PAT implies.
+
+### 📊 The numbers
+
+| Consolidated (₹cr) | FY23 | FY24 | FY25 | **FY26** | **TTM** |
+|---|---|---|---|---|---|
+| Revenue | 776 | 803 | 880 | **967** | **1,020** |
+| Operating profit | 139 | 159 | 191 | **235** | **251** |
+| OPM | 18% | 20% | 22% | **24%** | **25%** |
+| PAT | 104 | 122 | 149 | **192** | **207** |
+
+**FY26 revenue +9.9%, PAT +28.9%** — profit growing three times faster than revenue on the export mix shift. **TTM revenue has crossed ₹1,000cr for the first time.**
+
+**Compounded growth:** Sales 10Y 7% · 5Y 14% · 3Y 8% · **TTM 16%**. Profit 10Y 10% · 5Y 17% · 3Y 23% · **TTM 36%**. **ROE: 10Y 17% · 5Y 16% · 3Y 17% · last year 18%** — remarkably stable across cycles.
+
+**Cash flow — genuinely strong:** FY26 CFO **₹133cr**, FCF **₹110cr**, **CFO/OP 86%**. Five-year record 114% / 94% / 108% / 86%. **Mayur converts profit to cash properly — a sharp contrast with AVALON (never above 54%) in this same refresh batch.**
+
+### 🎯 Guidance being scored against (Q4FY26 call, 23-May-2026)
+
+- **FY27: domestic 8–10% growth, exports 15–20%**
+- **Export mix ~42.5% of total today**, guided to **40–45%** in FY27 — *"since we are focusing on export business more and especially automotive and export, therefore, it is expected to increase further"*
+- FY26 actual: **export value +35.5%, domestic +4%**; on volume, **export +15%, domestic +2%**, blended ~5%
+- The value/volume gap is deliberate: *"the growth will be much more than the volume growth because our export prices are much more"*
+
+**Q1FY27 revenue +24.5% is comfortably ahead of the blended guide.** The mix strategy is working on the top line; the margin simply reverted to normal.
+
+### 👤 Board changes — routine refresh, not churn
+
+⤴ **Correcting my own queue note**, which flagged *"TWO directorate changes and a cessation"* and implied instability. Reading the filings, it is orderly succession:
+
+1. **Mr. Arun Bagaria (DIN 00373862)** re-appointed as Whole Time Director / Executive Director for **five years from 1-Aug-2027** — a forward re-appointment of the executive who runs the calls.
+2. **Mr. Ratan Kumar Roongta (DIN 03056259)** — Independent Director tenure **completes 27-Sep-2026** by scheduled expiry, ceasing all committee memberships. Not a resignation.
+3. **Mr. Vinod Kumar Haritwal (DIN 00588079)** appointed **Additional Director, Non-Executive Independent, w.e.f. 6-Aug-2026** for five years to 5-Aug-2031, on NRC recommendation.
+
+Also: **33rd AGM on 18-Sep-2026**; **final dividend record date 21-Aug-2026** for FY26. **An independent director's term ending on schedule with a replacement appointed the same week is what good governance looks like** — three separate BSE headlines made it look like turmoil.
+
+### 👥 Shareholding — promoter is buying
+
+| | Dec-2024 | Mar-2025 | Sep-2025 | **Mar-2026** | **Jun-2026** |
+|---|---|---|---|---|---|
+| **Promoter** | 58.59% | 58.59% | 58.59% | **58.77%** | **58.77%** |
+| FII | 3.18% | 3.34% | 3.31% | 3.68% | **4.78%** |
+| DII | 3.31% | 3.44% | 3.47% | 3.65% | 3.13% |
+| Public | 34.92% | 34.61% | 34.63% | 33.90% | **33.33%** |
+| Shareholders | 39,967 | 39,791 | 38,960 | 38,037 | **37,381** |
+
+**Promoter holding rose 58.59% → 58.77%** — small, but *creeping accumulation* rather than dilution; v1's "zero dilution" claim now understates it. **FII up 3.18% → 4.78%.** Retail shareholder count **down 6.5%** — consolidation into fewer hands. **The cleanest shareholding pattern of anything refreshed this cycle.**
+
+### 📢 Community Pulse — 6-Aug-2026
+
+**ValuePickr topic 226 "Mayur Uniquoters — Market Leader in Indian Synthetic Leather Market" — 843 posts, last active 20 May 2026.** One of the oldest and deepest threads in the watchlist (running since 2010), now **dormant for over two months with no reaction to Q4FY26's margin spike or the Q1FY27 print.**
+
+**Sentiment verdict: DORMANT.** No live bull or bear case. The thread's enduring value is its founding analysis — Donald and hitesh2710 debating margin sustainability in 2010, when the question was whether ~10% net margins could hold. They have since roughly doubled. **No independent challenge to the current thesis exists.**
+
+### 💰 Valuation
+
+| | v1 (3-Jul-2026) | **6-Aug-2026** |
+|---|---|---|
+| CMP | ₹882 | **₹775** |
+| Market cap | ₹3,840 cr | **₹3,370 cr** |
+| **P/E** | **20.0x** | **16.3x** |
+| P/B | — | **2.97x** (BV ₹261) |
+| **ROCE / ROE** | 24.7% / 18.4% | **24.7% / 18.4%** |
+| Dividend yield | 0.57% | **0.65%** |
+
+**The multiple compressed from 20x to 16.3x while earnings grew** — the stock is **−12% since v1** even as TTM PAT rose. It sits **15% below its ₹907 high**, though **1-year stock CAGR is +49%**, so the de-rate follows a large run.
+
+**16.3x on 24.7% ROCE with 86% cash conversion, a promoter buying stock, and TTM revenue through ₹1,000cr for the first time is a genuinely reasonable price.**
+
+**Refreshed scenarios (2-year, to FY28):**
+- **Base (55%):** Export mix holds near 45%, margin settles 22–23%, revenue compounds low-teens. FY28 revenue ₹1,250cr, PAT ₹250cr, 17x = ₹4,250cr. **~+26%.**
+- **Bull (25%):** Export share past 45% with dollar pricing holding margin at 25–26%; new OEM wins convert. FY28 revenue ₹1,400cr, PAT ₹300cr, re-rate to 20x = ₹6,000cr. **~+78%.**
+- **Bear (20%):** US tariffs bite the export book, mix reverses, margin back to 20%. FY28 revenue ₹1,050cr, PAT ₹170cr, de-rate to 13x = ₹2,210cr. **~−34%.**
+
+**Weighted 2-year return ≈ +27%** (~12.7% CAGR **+ 0.65% dividend**). **Down from v1's ~45%**, mainly because the Q4FY26 margin spike that flattered trailing numbers has demonstrably reverted.
+
+### Conviction decision
+
+**HELD at HIGH.**
+
+Nothing broke. Revenue +24.5% YoY and through ₹1,000cr TTM for the first time; margin normalised to 22% inside its historical band after an anomalous quarter; 86% cash conversion; ROE stable at 17–18% across a decade; promoter accumulating; board succession handled properly; and the multiple has *fallen* to 16.3x while earnings rose.
+
+**Two things stop this being an upgrade.** The **export concentration cuts both ways** — 42.5% of revenue in dollar-priced exports drove the margin gains and is precisely what a tariff regime would hit; v1's named Trump-tariff overhang is unresolved. And **roughly a fifth of PBT is other income**, so the operating business is smaller than headline profit suggests.
+
+**Downgrade to MH if:** OPM falls below 20% for two consecutive quarters · **or** export share falls below 38% · **or** US tariff action specifically targets synthetic leather / auto-interior imports.
+**Upgrade case:** export share past 45% with OPM holding 24%+ would make the bull case the base case.
+
+### Watch items
+1. **⭐ Q2FY27 operating margin** — is 22% the floor, or does normalisation continue toward 20%?
+2. Export share against the 40–45% FY27 guide (42.5% today)
+3. US tariff developments on auto-interior and synthetic-leather imports — the one named unresolved risk
+4. Other income as a share of PBT (~21%) — a fall would expose the operating run-rate
+5. **Q1FY27 transcript when filed** — first management commentary on the margin reversion
+6. Promoter holding beyond 58.77%
+
+---
+
+**Original v1 profile below — unchanged.**
+
 **Date written:** 3-Jul-2026 · **CMP:** ₹882 · **Market Cap:** ₹3,840 cr · **P/E (trailing):** 20.0x · **ROCE:** 24.7% · **ROE:** 18.4%
 **Sources:** Concalls Q1FY26, Q2FY26, Q3FY26, Q4FY26 (4 full reads) · Screener consolidated view · ValuePickr Mayur Uniquoters thread (last 18 months) · BSE filings
 
