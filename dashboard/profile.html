@@ -85,12 +85,69 @@ em { color: #4a4a4a; }
   margin-top: 60px; padding-top: 20px; border-top: 1px solid #eaeef2;
   color: #888; font-size: 12px; text-align: center;
 }
+/* ── Collapsed older update blocks ───────────────────────────── */
+details.upd {
+  border: 1px solid #d8dee6;
+  border-left: 4px solid #8fa8bf;
+  border-radius: 0 6px 6px 0;
+  background: #f4f7fa;
+  margin: 14px 0;
+  overflow: hidden;
+}
+details.upd > summary {
+  cursor: pointer; padding: 11px 14px; list-style: none;
+  font-size: 14px; color: #1F4E79; display: flex; align-items: baseline;
+  gap: 10px; flex-wrap: wrap; user-select: none;
+}
+details.upd > summary::-webkit-details-marker { display: none; }
+details.upd > summary:hover { background: #e9eff5; }
+details.upd > summary::before {
+  content: '▸'; font-size: 12px; color: #6b8aa8; transition: transform .15s ease;
+  display: inline-block; flex: none;
+}
+details.upd[open] > summary::before { transform: rotate(90deg); }
+details.upd[open] > summary { border-bottom: 1px solid #d8dee6; background: #eaf0f6; }
+summary .upd-date { font-weight: 700; white-space: nowrap; }
+summary .upd-sum  { font-weight: 400; color: #52657a; font-size: 13.5px; }
+.upd-body { padding: 2px 18px 14px; }
+/* headings inside a collapsed block shouldn't shout */
+.upd-body h2 { font-size: 18px; margin-top: 20px; }
+.upd-note {
+  background: #fff8e6; border: 1px solid #f0d9a0; border-left: 4px solid #d9a441;
+  color: #6b4e13; padding: 10px 14px; border-radius: 0 6px 6px 0;
+  margin: 14px 0; font-size: 13.5px;
+}
+.upd-latest-tag {
+  display: inline-block; background: #1F4E79; color: #fff; font-size: 10.5px;
+  font-weight: 700; letter-spacing: .4px; padding: 2px 7px; border-radius: 10px;
+  vertical-align: middle; margin-left: 10px; text-transform: uppercase;
+}
+
+/* ── Back to top ─────────────────────────────────────────────── */
+#backToTopBtn {
+  position: fixed; right: 26px; bottom: 26px; width: 46px; height: 46px;
+  border: none; border-radius: 50%; background: #2E75B6; color: #fff;
+  font-size: 20px; line-height: 1; cursor: pointer; z-index: 999;
+  box-shadow: 0 3px 10px rgba(0,0,0,.24);
+  opacity: 0; visibility: hidden; transform: translateY(8px);
+  transition: opacity .2s ease, visibility .2s ease, transform .2s ease, background .15s ease;
+}
+#backToTopBtn.visible { opacity: .94; visibility: visible; transform: translateY(0); }
+#backToTopBtn:hover { background: #1F4E79; opacity: 1; }
+
 @media (max-width: 600px) {
   body { padding: 14px; font-size: 14px; }
   h1 { font-size: 24px; }
   h2 { font-size: 19px; }
   table { font-size: 12.5px; }
   th, td { padding: 8px 10px; }
+  #backToTopBtn { right: 14px; bottom: 14px; width: 40px; height: 40px; font-size: 17px; }
+  summary .upd-sum { display: none; }
+}
+@media print {
+  #backToTopBtn { display: none; }
+  details.upd { border: 1px solid #ccc; }
+  details.upd > summary::before { content: ''; }
 }
 </style>
 </head>
@@ -103,11 +160,115 @@ em { color: #4a4a4a; }
 
 <div id="content" class="loading">Loading analysis…</div>
 
+<button id="backToTopBtn" type="button" title="Back to top" aria-label="Back to top">↑</button>
+
 <div class="footer">
   Content is personal investment research. Not a buy/sell recommendation. Sourced from concalls, ValuePickr, Substack, and public disclosures at the time of writing — verify before action.
 </div>
 
 <script>
+/* ─────────────────────────────────────────────────────────────────────────
+   Collapse older update blocks.
+
+   An "update block" is an H2 that names a dated refresh, e.g.
+     ## 🔄 Refresh Log — 29-Jul-2026 (Tier A — Q1FY27 print, FY26 Annual Report…)
+     ## 🎧 Concall Addendum — 1-Aug-2026 (Q1FY27 earnings call…)
+   The block runs from that H2 until the next H2.
+
+   Rules (agreed 6-Aug-2026):
+     • Only update blocks collapse. The analysis proper — "1. Business in Plain
+       English" through the Source Appendix — is NEVER touched.
+     • The newest block stays open, chosen by PARSED DATE, not document order.
+       If the two disagree the file is mis-ordered, so we say so in an amber
+       note rather than silently showing a stale block.
+     • Collapsed header = date + the heading's own parenthetical summary
+       (which already lists what was processed). No conviction verdict.
+────────────────────────────────────────────────────────────────────────── */
+const MONTHS = {jan:0,feb:1,mar:2,apr:3,may:4,jun:5,jul:6,aug:7,sep:8,oct:9,nov:10,dec:11};
+
+// Matches "29-Jul-2026", "1 Aug 2026", "16-Jul-26"
+function parseDate(text) {
+  const m = text.match(/(\d{1,2})[-\s]([A-Za-z]{3})[a-z]*[-\s](\d{2,4})/);
+  if (!m) return null;
+  const mo = MONTHS[m[2].toLowerCase()];
+  if (mo === undefined) return null;
+  let y = parseInt(m[3], 10); if (y < 100) y += 2000;
+  return { d: new Date(y, mo, parseInt(m[1], 10)), label: `${parseInt(m[1],10)}-${m[2][0].toUpperCase()+m[2].slice(1,3).toLowerCase()}-${y}` };
+}
+
+function isUpdateHeading(t) {
+  return /refresh log|concall addendum|update log/i.test(t) && parseDate(t) !== null;
+}
+
+// "🔄 Refresh Log — 29-Jul-2026 (Tier A — Q1FY27 print…)" → "Tier A — Q1FY27 print…"
+function headingSummary(t) {
+  const paren = t.match(/\(([^]*)\)\s*$/);
+  if (paren) return paren[1].trim();
+  const dash = t.split(/—|–/).slice(2).join('—').trim();
+  return dash || '';
+}
+
+function collapseOlderUpdates(root) {
+  const heads = Array.from(root.children).filter(n => n.tagName === 'H2');
+  const blocks = [];
+  heads.forEach(h => {
+    const text = h.textContent || '';
+    if (!isUpdateHeading(text)) return;
+    const nodes = [];
+    for (let n = h.nextElementSibling; n && n.tagName !== 'H2'; n = n.nextElementSibling) nodes.push(n);
+    blocks.push({ h, nodes, date: parseDate(text), summary: headingSummary(text) });
+  });
+  if (blocks.length < 2) return;   // nothing to collapse
+
+  // Newest by parsed date; document order breaks ties.
+  let newestIdx = 0;
+  blocks.forEach((b, i) => { if (b.date.d > blocks[newestIdx].date.d) newestIdx = i; });
+
+  // Disagreement between date order and document order = mis-filed block.
+  const outOfOrder = newestIdx !== 0 ||
+    blocks.some((b, i) => i > 0 && b.date.d > blocks[i - 1].date.d);
+
+  blocks.forEach((b, i) => {
+    if (i === newestIdx) {
+      const tag = document.createElement('span');
+      tag.className = 'upd-latest-tag';
+      tag.textContent = 'Latest';
+      b.h.appendChild(tag);
+      return;
+    }
+    const det = document.createElement('details');
+    det.className = 'upd';
+    const sum = document.createElement('summary');
+    sum.innerHTML = `<span class="upd-date"></span><span class="upd-sum"></span>`;
+    sum.querySelector('.upd-date').textContent = b.date.label;
+    sum.querySelector('.upd-sum').textContent = b.summary;
+    det.appendChild(sum);
+    const body = document.createElement('div');
+    body.className = 'upd-body';
+    b.h.parentNode.insertBefore(det, b.h);
+    b.nodes.forEach(n => body.appendChild(n));   // move, don't clone
+    det.appendChild(body);
+    b.h.remove();
+  });
+
+  if (outOfOrder) {
+    const note = document.createElement('div');
+    note.className = 'upd-note';
+    note.innerHTML = '<strong>⚠️ Update blocks are out of date-order in this file.</strong> ' +
+      'The newest block by date is not the topmost one. It has been kept expanded regardless, ' +
+      'but the source <code>.md</code> should be re-ordered so newest sits at the top.';
+    const firstUpd = root.querySelector('details.upd, h2');
+    root.insertBefore(note, firstUpd);
+  }
+}
+
+/* ── Back to top ── */
+const backToTopBtn = document.getElementById('backToTopBtn');
+backToTopBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+window.addEventListener('scroll', () => {
+  backToTopBtn.classList.toggle('visible', window.scrollY > 400);
+}, { passive: true });
+
 const params = new URLSearchParams(window.location.search);
 const stock = (params.get('stock') || '').toUpperCase().replace(/[^A-Z0-9_-]/g,'');
 
@@ -131,6 +292,7 @@ if (!stock) {
       el.className = '';
       el.innerHTML = html;
       document.title = 'Analysis: ' + stock + ' — Equity Watchlist';
+      collapseOlderUpdates(el);
     })
     .catch(err => {
       const el = document.getElementById('content');

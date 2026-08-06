@@ -6,7 +6,7 @@
 
 ## 🎧 Concall Addendum — 1-Aug-2026 (Q1FY27 earnings call, 30-Jul-2026 — GATE NOW CLOSED)
 
-> **Source note.** The official transcript was **still not published as of 1-Aug-2026** (Screener renders "Jul 2026 → Transcript" as a placeholder with no file; every other quarter back to Aug-2015 is a live link; SEBI's 5-working-day deadline falls ~6-Aug). The company **did** file the audio recording to BSE on 30-Jul at 19:12. **That 46m48s recording was downloaded and machine-transcribed locally** (`mlx-whisper` / `whisper-large-v3-turbo`), saved as `DCMSHRIRAM_Transcript_Q1FY27_2026-07-30_MACHINE.txt` alongside the source MP3. **Speaker labels are absent and figures carry ASR risk — every number below was cross-checked against the investor presentation where one exists, and the two that cannot be cross-checked are flagged explicitly. Re-verify against the official transcript when it publishes.**
+> **✅ VERIFIED AGAINST THE OFFICIAL TRANSCRIPT, 6-Aug-2026.** The official transcript was published on **6-Aug-2026** (BSE `1aa78a61…`, saved as `DCMSHRIRAM_Transcript_2026-08_OFFICIAL.pdf`) and **every load-bearing figure in this addendum checks out verbatim** — the ECU level, the chlorine price, the ₹376cr MAT credit, the 19% tax rate, the demerger commitment, the 85% chlorine tie-up and the Bioseed quote. **The machine transcription was accurate.** Three refinements are marked ✅ VERIFIED below. *(Original note, written 1-Aug:)* The official transcript was **still not published as of 1-Aug-2026** (Screener renders "Jul 2026 → Transcript" as a placeholder with no file; every other quarter back to Aug-2015 is a live link; SEBI's 5-working-day deadline falls ~6-Aug). The company **did** file the audio recording to BSE on 30-Jul at 19:12. **That 46m48s recording was downloaded and machine-transcribed locally** (`mlx-whisper` / `whisper-large-v3-turbo`), saved as `DCMSHRIRAM_Transcript_Q1FY27_2026-07-30_MACHINE.txt` alongside the source MP3. **Speaker labels are absent and figures carry ASR risk — every number below was cross-checked against the investor presentation where one exists, and the two that cannot be cross-checked are flagged explicitly. Re-verify against the official transcript when it publishes.**
 
 ### 🟢 FINDING 1 — I was too harsh on tax. The correct normalized P/E is ~21.5x, not ~23.8x.
 
@@ -40,7 +40,7 @@ Three things follow, and they matter:
 Unprompted in the deck, surfaced only in Q&A [~43:36-44:33]:
 
 > Q: *"the status of the demerger plan which you had announced a few quarters back"*
-> A: *"As we've discussed with our board, **we are clear that we do want to work with the demerger**, the reorganisation of the businesses… there are certain issues which have to be sorted out. So we are working on that very actively. **But we are clear we will move ahead with the demerger.** It's difficult to give a timeframe right now because of the internal work which is going on. But we are **definitely moving on it quite aggressively.**"*
+> A: *"As we've discussed with our board, **we are clear that we do want to work with the demerger** reorganization of the businesses. **Having multiple SBUs within the business**, there are certain issues which have to be sorted out. So we are working on that very actively. **But we are clear we will move ahead with the demerger.** It's difficult to give a timeframe right now because of the internal work which is going on. But we are **definitely moving on it quite aggressively.**"*
 > Q: *"Does one expect this to fructify in this financial year?"*
 > A: *"The process itself takes time. But **our objective is yes, we make the application to the government in this financial year.**"*
 
@@ -63,7 +63,7 @@ Asked where caustic prices are heading [~23:19-23:58]:
 
 **Q1FY27 average ECU was ₹35,761/MT** (presentation slide 13, a table — reliable). If "just below 30,000" is accurate, that is a **~16% drop** in the realisation of the segment that delivered +33% revenue and carried the entire quarter. The deck's own monthly chart was already trending down (34,176 → 34,534 → 32,611), so the direction is corroborated even if the level isn't.
 
-> **⚠️ ASR CAUTION:** this figure and the chlorine number come **only** from the machine transcript and have **no cross-check in any published document**. "30,000" could be a mis-transcription of "35,000". **Do not act on this until the official transcript confirms it** — but if it holds, it is the single biggest threat to Q2FY27 and it is not in any written disclosure.
+> **✅ VERIFIED 6-Aug-2026 — the figure is real.** Official transcript, **Aditya Shriram (Deputy MD)**: *"we do expect the prices; **current ECU is in the range of just below INR30,000.** So, we expect it to be in this range or higher. As for the **chlorine price, currently it is in the minus INR7,000 to minus INR8,000 range.**"* The ASR caution is withdrawn. **A ~16% drop in ECU versus the Q1 average of ₹35,761/MT is now a confirmed fact, disclosed nowhere in writing — it appears only in the call.** This is the single biggest threat to Q2FY27 for the segment that carried Q1, and management would only say it should hold "in this range or higher."
 
 ### 🆕 FINDING 5 — Chlorine integration to 50% captive / 85% tied up
 
@@ -82,12 +82,13 @@ Asked where caustic prices are heading [~23:19-23:58]:
 | **Ethanol** | Installed capacity ~2,000 cr litres vs OMC allocation ~1,060 cr litres; **sugarcane feedstock only 28%**. *"Policy developments during the quarter signal an intention to prepare for blending beyond E20"* — softens (does not remove) the 29-Jul "runway closed" read |
 | **Grain/maize optionality** | *"we can go up to **260 KLD for grain**… currently the margins in maize are good… we'll optimise wherever we get better margins. **But we don't plan to grow our capacities.**"* |
 | **Caustic exports** | *"The new **Flaker facility** commissioned last year has enabled us to actively **export** part of our caustic soda production"* |
+| **Call roster** | ✅ **Verified 6-Aug:** the call was taken by **Ajay Shriram (Chairman & Sr MD), Ajit Shriram (Joint MD), Aditya Shriram (Deputy MD) and Amit Agarwal (Group CFO)**. **Vikram S. Shriram — Vice Chairman & MD — was NOT on the call**, despite being named in the 23-Jul intimation and co-signing the quarterly press statement. Worth watching whether he appears on the Q2FY27 call |
 | **Kharif damage** | *"overall shortfall of **15-20% sowing acreage** on an all-India basis and **much higher in some of its markets**"* |
 | **Fenesta order book** | *"The total order book is close to about **₹1,000 crores** if I put all together"* — ⚠️ **clarifies a v1 misread: the presentation's "₹302cr / +4%" is quarterly order *intake*, not total order book** |
 
 ### 🔴 Bioseed — management says FY27 is lost, not delayed
 
-[~44:34-45:25], asked directly whether Q2 recovers:
+[~44:34-45:25], **Amit Agarwal (Group CFO)** asked directly whether Q2 recovers:
 
 > *"**The large part of it is lost.**… in our region where we sell our products, the sowing has been lower by 20%. So overall, monsoon might have recovered a little bit, but **still it has been very patchy. It existed in some places, still dry in a lot of places.**"*
 
