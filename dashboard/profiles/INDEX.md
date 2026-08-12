@@ -106,7 +106,7 @@ Status legend: `⏳ pending` · `🔨 in progress` · `✅ complete`
 - ✅ [Deep Industries](./DEEP.md) *(4-Jul-2026 · **Tier A refreshed 29-Jul-2026, concall-grounded** — Q1FY27 all-time-high quarter + explicit FY27 ₹350cr / FY28 ₹500cr PAT guidance; concall gap CLOSED (6 raw transcripts); HELD at H, weighted return ~+49%; real issue is flat standalone, not the order book)*
 
 ### 18. Home Building Products / Kitchen & Bath (1) ✅ Complete *[new sector, added 12-Jul-2026]*
-- ✅ [Carysil](./CARYSIL.md) *(12-Jul-2026)* — first profile using api.cors.lol raw-transcript method
+- ✅ [Carysil](./CARYSIL.md) *(12-Jul-2026 · **Tier A refreshed 12-Aug-2026** — best quarter on every line (income +16.5%, EBITDA +27%, PAT after MI +37.7%) and **beat guidance both ways**, with margin above the 18-20% band and management now guiding to the upper end. Stainless-steel expansion hit 94% utilisation on arrival. **v1's cors.lol rate-limit gap closed — 6 transcripts now on file.** HELD at H, Under Watch on three expansions commissioning in the same end-FY27 window)*
 
 ### 19. Power T&D EPC / Turnkey (2) ✅ Complete *[new sector, added 23-Jul-2026]*
 - ✅ [Rajesh Power Services](./RAJESH.md) *(3-Jul-2026 — moved from Sector 13)*
