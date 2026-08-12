@@ -1,10 +1,212 @@
 # Paras Defence & Space Technologies — Company Profile
 
-**Ticker:** PARAS · NSE: PARAS · BSE: 543307 · **Sector:** Aerospace & Defence · **Conviction:** Medium
-**Date written:** 3-Jul-2026 · **CMP:** ₹1,329 · **Market Cap:** ₹10,710 cr · **P/E (trailing):** 125x · **ROCE:** 16.9% · **ROE:** 12.6%
-**Sources:** Investor presentation Q3FY26 (Feb 2026) — most detailed public deck; earlier PPTs (2024-06, 2025-04, 2025-06); Screener consolidated view; ValuePickr Paras Defence thread (last 18 months); news filings on QIPs and JVs
+**Ticker:** PARAS · NSE: PARAS · BSE: 543367 · **Sector:** 1 — Aerospace & Defence · **Conviction:** Medium-Low *(HELD, 13-Aug-2026)*
+**v1 written:** 3-Jul-2026 · **Conviction re-rate M→ML:** 10-Jul-2026 · **Tier A refresh:** 13-Aug-2026
+**CMP:** ₹1,281 · **Market Cap:** ₹10,325 cr · **P/E (trailing):** 112x · **P/B:** 14.2x · **ROCE:** 16.9% · **ROE:** 12.6% · **Div yield:** 0.08% *(Screener consolidated, 13-Aug-2026)*
 
-> **Note on sourcing:** Unlike our other Sector 1 profiles, Paras does not publish concall transcripts — only investor decks. Where the other profiles read four transcripts each, this one relies on the most recent 4 investor PPTs + BSE filings for capital raises + ValuePickr community synthesis for management delivery quality. Confidence in numbers is high; confidence in tonal reading of management is lower than usual.
+---
+
+# 🔄 Refresh Log — 13-Aug-2026 (Q1FY27)
+
+> **🔴 Concall gate: NOT APPLICABLE — PARAS holds no earnings calls.** Across **424 NSE filings**, the only transcript-type disclosure is from **7-Oct-2022**. There is **no Q1FY27 earnings call, no investor presentation, and no order-book disclosure** — I checked the results filing directly (`order book`: **0 mentions**). `Fetched Concalls/PARAS/` contains **only investor decks**, the most recent from **Feb-2026**.
+>
+> **What PARAS does instead is meet institutions privately, and often.** In the ten weeks to 4-Aug-2026 it filed schedules for analyst/institutional meetings on **22-May, 3-Jun, 10-Jun, 18-Jun, 25-Jun and 4-Aug** (the last with Citi). **That is a real disclosure asymmetry** — institutions get management access roughly monthly; everyone else gets a results filing and a press release. **This refresh is therefore built entirely on filings**, and it is the thinnest documentary base of any mainboard name on this watchlist.
+
+## The one-paragraph version
+
+**The quarter was good and the announcement was extraordinary — and only one of those is in the price.** Q1FY27 consolidated revenue **₹128cr (+37.6% YoY)**, PAT **₹21cr (+50%)**, with the **Optics & Optronic Systems segment up 62%** and now 58% of standalone revenue. On the operations, v1's core doubts did not bite this quarter. **Then, on 22-Jul-2026, Paras Semiconductors signed an MoU with the Government of Madhya Pradesh for a ₹6,200 crore semiconductor OSAT facility** on 50 acres of the Ujjain–Indore corridor. **₹6,200cr is 60% of the entire market capitalisation, 13x FY26 revenue and 70x FY26 profit, from a company whose FY26 operating cash flow was ₹25cr.** It is an MoU, not a commitment, and OSAT projects of this kind are normally carried by central subsidy plus outside equity rather than a parent balance sheet — but **it is the loudest possible confirmation of exactly what v1 flagged when it downgraded to ML: "the rate of new-venture creation is faster than what a ₹500cr revenue company can staff and fund cleanly."** Elsewhere: an **exclusive India licence for the Guardian-1 counter-drone interceptor** from a US developer, a **₹52.82cr BEL electro-optics order**, a **₹7.72cr DRDO phased-array antenna order**, and a **full exit from the Krasny Paras associate** (economically trivial at 0.12% of turnover). **And v1's single most important watch item — the order book, which grew just 6% in FY26 against 30.7% revenue growth — was not disclosed at all.** Meanwhile institutions bought ~5 percentage points in the quarter while **40,371 retail shareholders left**. **Conviction HELD at Medium-Low.** The business is executing; at **112x trailing and 14.2x book**, that is not the question.
+
+## What is genuinely new since v1 (3-Jul-2026 / re-rate 10-Jul-2026)
+
+- **🔴 ₹6,200cr Paras Semiconductors OSAT MoU with Madhya Pradesh (22-Jul-2026)** — 50 acres on the Ujjain–Indore corridor.
+- **🟢 Q1FY27: revenue +37.6%, PAT +50%; Optics segment revenue +62%.**
+- **🟢 Exclusive India IP licence for the Guardian-1 counter-drone interceptor** from Tandem Defense LLC / Autonomous Power Corporation (30-Jun-2026).
+- **🟢 ₹52.82cr order from Bharat Electronics** for electro-optics (2-Jun-2026); **₹7.72cr DRDO order** for Ku/C-band satcom phased-array antennas (30-Apr-2026).
+- **🟡 Full divestment of the 47.50% stake in Krasny Paras Defence Technologies** approved 7-Aug-2026 — economically immaterial, terms not yet agreed.
+- **🔴 Order book not disclosed** in the Q1FY27 filing — v1's key watch item is dark.
+- **🟡 Ownership rotation: FII 5.06% → 8.29%, DII 1.24% → 3.04%, public 40.52% → 35.46%, and 40,371 fewer shareholders in one quarter.**
+
+---
+
+## 📊 Q1FY27 — the print
+
+**Consolidated** *(Screener; the company files no results deck)*
+
+| ₹ cr | Q1FY26 | Q4FY26 | **Q1FY27** | YoY | QoQ |
+|---|---|---|---|---|---|
+| Sales | 93 | 171 | **128** | **+37.6%** | **−25%** |
+| Operating profit | 22 | 43 | **32** | +45% | −26% |
+| OPM | 23% | 25% | **25%** | +200 bps | flat |
+| PBT | 19 | 48 | **28** | +47% | −42% |
+| **PAT** | 14 | 39 | **21** | **+50%** | **−46%** |
+| EPS (₹) | 1.84 | 4.27 | **2.63** | +43% | −38% |
+
+**The QoQ collapse is seasonal, not a signal** — PARAS is heavily Q4-weighted (FY26 quarters ran ₹93 / ₹106 / ₹106 / ₹171cr). Judge it year-on-year.
+
+**Standalone segments** *(from the 7-Aug-2026 filing, ₹ cr)*
+
+| | Q1FY26 | Q4FY26 | **Q1FY27** | YoY |
+|---|---|---|---|---|
+| **Optics & Optronic Systems** — revenue | 42.50 | 59.76 | **68.90** | **+62.1%** |
+| Optics — segment result | 22.12 | 14.35 | **26.42** | +19.4% |
+| *Optics segment margin* | *52.0%* | *24.0%* | *38.3%* | |
+| **Defence Engineering** — revenue | 44.91 | 65.82 | **49.18** | **+9.5%** |
+| **Standalone revenue** | 87.41 | 125.58 | **118.08** | **+35.1%** |
+| Standalone PBT | 20.61 | 34.89 | **28.51** | +38.3% |
+
+**Two things stand out.** First, **the whole growth engine is Optics** — up 62% and now **58% of standalone revenue** (from 48.6%). Defence Engineering grew 9.5%. This is the Controp JV / periscope / hyperspectral thread that v1 called *"the highest-conviction thread,"* and it is delivering. Second, **segment margins are extremely lumpy** — Optics has run 52.0% → 24.0% → 38.3% across three quarters. **Do not read a trend into a single quarter's segment margin in a project-recognition defence business.**
+
+### Longer-run record
+
+| | FY22 | FY23 | FY24 | FY25 | **FY26** | TTM |
+|---|---|---|---|---|---|---|
+| Sales (₹ cr) | 183 | 222 | 254 | 365 | **477** | 511 |
+| OPM | 29% | 26% | 21% | 27% | **25%** | 26% |
+| PAT (₹ cr) | 27 | 36 | 30 | 61 | **89** | 96 |
+| EPS (₹) | 3.47 | 4.62 | 4.11 | 7.87 | **10.93** | 11.72 |
+
+**3-year sales CAGR 29%, profit CAGR 34%, TTM 37%/46%.** The growth is real and accelerating. **ROE is 12.6% and ROCE 16.9%** — respectable, not exceptional, and well below what a 112x multiple implies.
+
+**Cash conversion remains the weak link.** FY26 **CFO ₹25cr against ₹120cr of operating profit — CFO/OP 48%**; **free cash flow −₹10cr**. The five-year record is erratic (FY23 CFO −₹46cr, i.e. −63% of operating profit). **Working capital days 273** and a **cash conversion cycle of 435 days** — extreme even by defence standards, with **debtor days 278** and **inventory days 244**. *Improving — WC days were 297 in FY25 and CCC 501 — but from a very high base.*
+
+---
+
+## 🔴 The ₹6,200 crore semiconductor MoU
+
+**Filed 22-Jul-2026**, three weeks after v1 was written. Verbatim from the press release:
+
+> **"Government of Madhya Pradesh and Paras Semiconductors Sign MoU for ₹6,200 Crore Semiconductor Facility"**
+> - *"Fifty Acres Allotted on the Ujjain–Indore Corridor"*
+> - *"₹6,200 Crore Investment Proposal to Build Advanced Semiconductor Capabilities"*
+>
+> *"Paras Semiconductors today signed a Memorandum of Understanding with the Government of Madhya Pradesh to establish an advanced **semiconductor packaging OSAT facility**… Backed by a proposed investment of ₹6,200 crore…"*
+>
+> Purpose: *"semiconductor devices for **sensor technologies, optical and optronic systems**, and other strategic applications in the near term. The facility also offers the potential to support **future expansion into AI chips**…"*
+>
+> **Munjal Sharad Shah, MD:** *"marks a significant milestone in Paras Semiconductor's journey towards building indigenous semiconductor capabilities in India."*
+> **Santosh Kumar, CEO, Paras Semiconductor:** *"we aim to develop semiconductor devices for strategic applications, strengthen domestic technology capabilities…"*
+
+### The scale, put plainly
+
+| | |
+|---|---|
+| Proposed investment | **₹6,200 cr** |
+| PARAS market capitalisation | ₹10,325 cr → **60%** |
+| FY26 consolidated revenue | ₹477 cr → **13x** |
+| FY26 consolidated PAT | ₹89 cr → **70x** |
+| FY26 operating cash flow | ₹25 cr → **248x** |
+| FY26 net worth (BV ₹90 × ~8.06cr shares) | ~₹725 cr → **8.6x** |
+
+**The fair case for calm.** It is an **MoU with a state government, not a funded commitment** — the land is allotted and the intent is stated, and Indian state MoUs convert at a low rate. **OSAT is packaging and test, not front-end wafer fabrication** — far less capital-intensive per unit of capability, and the natural entry point for an Indian newcomer. It sits in **Paras Semiconductors, a 70%-owned subsidiary**, so the parent's share is structurally capped. And India's Semiconductor Mission provides **capital support of up to 50%** for such projects, with Madhya Pradesh's Semiconductor Policy 2025 layered on top — so a project of this size would normally be carried by government subsidy plus outside equity at the subsidiary level, not by PARAS's balance sheet. **There is also genuine strategic logic**: PARAS's core is optics and optronics, and packaging its own sensors is real vertical integration rather than a fashion trade.
+
+**The case for concern, which I think is the stronger one.** v1 downgraded to ML in part because *"the rate of new-venture creation (8 subsidiaries, 4+ JVs, quantum, hydrogen drones, OSAT, avionics, semiconductors, drones) is faster than what a ₹500cr revenue company can staff and fund cleanly."* **A ₹6,200cr announcement is that concern arriving at ten times the scale.** The company generated **₹25cr of operating cash** last year and has already diluted the promoter from **58.94% to 53.20%** to fund the existing programme. **Whatever share of ₹6,200cr PARAS ultimately carries, the plausible funding routes are more dilution, more debt, or a subsidiary-level raise that reduces the parent's economic interest.** None of those is priced at 112x.
+
+> **My judgement, labelled as mine:** the announcement's *information value* is low — an MoU costs nothing — but its *signalling value* is high. **A company earning ₹89cr does not credibly announce a ₹6,200cr project unless it intends to raise very substantial outside capital.** The question for the next two quarters is not whether the fab gets built; it is **what the funding structure does to the parent's share count.**
+
+---
+
+## 🟢 The operating news, which is genuinely good
+
+- **Guardian-1 counter-drone interceptor — exclusive India licence (30-Jun-2026).** PARAS signed an **IP License Agreement with Tandem Defense LLC (Georgia), a wholly-owned subsidiary of Autonomous Power Corporation, Delaware ("Powerus")**, granting *"an **exclusive license to use the Licensed IP within India** for the purpose of manufacturing and commercializing Products in India."* Guardian-1 is *"a **high-speed, battery-powered counter-drone system**… designed to combat low-cost aerial threats."* **This is the right technology at the right moment** — low-cost drone swarms are the defining threat of the moment, and an exclusive India manufacturing licence is a stronger position than a distribution tie-up. v1 valued the counter-drone TAM at ₹25,000cr globally.
+- **₹52.82cr order from Bharat Electronics (2-Jun-2026)** for supply of **electro-optics** — the largest single order disclosed in the period, and it lands squarely in the segment that grew 62%.
+- **₹7.72cr DRDO order (30-Apr-2026)** for *"Development of **Ku/C-Band Satellite Communication Phased Array Antennas for Airborne Applications**."* Small, but development orders of this type seed production programmes.
+- **Krasny Paras exit (7-Aug-2026).** Board approved divesting the **entire 47.50% stake** (5,22,500 shares). Economically trivial — Krasny contributed **₹0.59cr of turnover, 0.12% of consolidated revenue**, with a net worth of ₹0.63cr. **Terms are not set:** *"Date on which the agreement for sale has been entered into: **Yet to be entered**"*; consideration *"has not been finalised as it is dependent on the due diligence process"*; completion *"likely… latest by December 31, 2026."* **A tidy-up of a dormant associate, not a strategic event** — but worth noting that PARAS is simultaneously exiting one foreign partnership and adding another (Powerus).
+
+---
+
+## 🔴 The order book — v1's key watch item is not disclosed
+
+v1 was explicit: *"**⚠️ Key concern: The order book growth rate collapsed in FY26**"* — ₹928cr → ₹986cr, **+6% against revenue growth of 30.7%**, taking coverage down to ~2.1x. And it set a test: *"**If order book doesn't accelerate to at least ₹1,300cr by Mar 2027, the 30–40% FY27 guidance becomes hard to defend.**"*
+
+**Three months on, there is no update.** The Q1FY27 results filing contains **zero mentions of the order book**; no investor presentation was filed; no earnings call was held. The last published figure remains **₹986cr at Mar-2026**.
+
+**Two orders were separately disclosed in the period — BEL ₹52.82cr and DRDO ₹7.72cr, ₹60.54cr in total.** Against ₹128cr of quarterly revenue, disclosed inflow ran at roughly **half of billing**, though Reg 30 only requires disclosure above materiality thresholds so the true inflow is certainly higher. **The honest position: the single most important number for this thesis is unobservable, and the company has chosen to make it so.**
+
+---
+
+## 👥 Ownership — a sharp rotation in one quarter
+
+| | Sep-24 | Mar-25 | Dec-25 | Mar-26 | **Jun-26** | Δ QoQ |
+|---|---|---|---|---|---|---|
+| **Promoters** | 58.94% | 57.05% | 53.20% | 53.20% | **53.20%** | flat |
+| **FIIs** | 3.46% | 5.24% | 4.92% | 5.06% | **8.29%** | **+3.23 pp** |
+| **DIIs** | 0.63% | 1.54% | 1.28% | 1.24% | **3.04%** | **+1.80 pp** |
+| **Public** | 36.96% | 36.16% | 40.61% | 40.52% | **35.46%** | **−5.06 pp** |
+| **Shareholders** | 3,04,229 | 3,10,834 | 3,69,101 | 3,76,813 | **3,36,442** | **−40,371** |
+
+**Institutions bought about five percentage points in a single quarter and retail sold it to them — 40,371 shareholders left, a 10.7% reduction — with the stock up 95% over the year and within 11% of its all-time high.** That is a notable reversal: v1 recorded the shareholder count *more than doubling* over three years and read it as *"retail-driven speculative euphoria."* **The euphoria appears to be handing over to institutions.**
+
+**Reading it fairly, both ways.** Institutional accumulation into a defence-indigenisation story with 37% growth is a legitimate positive signal, and FII+DII at 11.3% is still low enough to leave room. **But the promoter has been flat at 53.20% for three quarters after diluting 5.74%**, and a ₹6,200cr project sits on the horizon. **Institutions coming in ahead of a probable capital raise is not the same thing as institutions validating the price.**
+
+---
+
+## Delivery scorecard — new rows (appended to Section 3.5)
+
+| Guidance / Milestone | When stated | Actual delivered | Verdict |
+|---|---|---|---|
+| **FY27 revenue growth 30-40%** | FY26 | **Q1FY27 +37.6% YoY** — inside the band | ✅ **On track** |
+| **Order book to ≥ ₹1,300cr by Mar-2027** *(v1's test)* | v1, 3-Jul-26 | **NOT DISCLOSED.** No mention in the Q1FY27 filing; no deck; no call. Last figure remains ₹986cr at Mar-26 | 🔴 **Unobservable** |
+| Optics & Optronics scale-up | FY26 | **+62% YoY**, now 58% of standalone revenue | ✅ **Delivering** |
+| Defence Engineering | FY26 | **+9.5% YoY** — the slower half | 🟡 |
+| Counter-drone capability build | FY26 | **Exclusive India IP licence for Guardian-1** from Powerus (30-Jun-26) | ✅ **Real step** |
+| Large order wins | — | **BEL ₹52.82cr** (electro-optics) + **DRDO ₹7.72cr** (phased-array antennas) | ✅ |
+| Subsidiary rationalisation | — | **Krasny Paras 47.50% → 0%** approved; terms not yet agreed | 🕐 |
+| **Semiconductor OSAT venture** | v1 noted the 70% subsidiary | **₹6,200cr MoU with Madhya Pradesh** — 60% of market cap, 70x FY26 PAT. **No funding plan disclosed** | 🔴 **Scale far beyond v1's framing** |
+| **Cash conversion** | — | FY26 **CFO/OP 48%**, FCF −₹10cr, WC days 273, CCC 435 | 🔴 **Persistent** |
+| **No further dilution** | v1 flagged 5.74% | **Promoter flat at 53.20% for three quarters** — but a ₹6,200cr project is now on the table | 🕐 **Watch** |
+| Investor disclosure | — | **No earnings call, no deck, no order book** — but six private institutional meetings in ten weeks | 🔴 **Asymmetric** |
+
+**Refresh verdict on management.** *v1's verdict — credible technologists, but new-venture creation outpacing what a ₹500cr company can fund and staff — is confirmed rather than challenged, and at a larger scale than v1 imagined.* **On execution the quarter was good:** 37.6% growth, Optics up 62%, a marquee BEL order, and an exclusive India licence for a counter-drone interceptor that is genuinely well-timed. **On capital and communication the picture is worse.** A company generating ₹25cr of operating cash announced a ₹6,200cr project with no funding plan; the order book — the number that decides whether 30-40% growth is fundable — has gone undisclosed for a quarter; there is no earnings call at all; and the only regular management access is a private meeting circuit that retail cannot attend. **The gap between what institutions know about this company and what a public shareholder can verify is the widest on this watchlist.**
+
+---
+
+## 📈 Refreshed valuation
+
+**Trading metrics:** CMP **₹1,281** · Mcap **₹10,325cr** · **P/E 112x trailing** (TTM EPS ₹11.72) · **P/B 14.2x** (book ₹90.0) · ROCE 16.9% · ROE 12.6% · div yield 0.08% · 52-week range **₹580–₹1,445** · **+95% over one year**, 3-year CAGR **59%**, and **121% above the 52-week low**.
+
+**On FY27 guidance** (30-40% growth → ~₹620-670cr revenue at ~19% PAT margin → ~₹120-125cr PAT, EPS ~₹15), the stock is at roughly **85x FY27E**.
+
+| Scenario | Prob. | Assumptions | FY28E | Multiple | Value/share | Return |
+|---|---|---|---|---|---|---|
+| **Base** | **50%** | 35% growth sustains two years (₹869cr FY28 revenue, 19% PAT margin). Semiconductor MoU stays an MoU or is funded at subsidiary level with modest parent dilution. **Multiple de-rates from 112x toward 55x as the growth base widens** | PAT ₹165 cr<br>EPS ₹20.5 | 55x | **₹1,128** | **−12%** |
+| **Bull** | **25%** | Optics compounds past 60%; Controp Sight-25HD volumes arrive; Guardian-1 becomes a production programme; order book re-accelerates past ₹1,300cr; semiconductor secures central subsidy and third-party equity **without meaningful parent dilution** | PAT ₹210 cr<br>EPS ₹26.0 | 80x | **₹2,083** | **+63%** |
+| **Bear** | **25%** | Order book fails to accelerate and FY28 growth falls to ~20%; semiconductor consumes parent equity via a dilutive raise; cash conversion stays below 50%; the multiple compresses toward defence-peer norms | PAT ₹130 cr<br>EPS ₹14.5 *(on more shares)* | 35x | **₹508** | **−60%** |
+
+**Weighted 2-year return: (0.50 × −12) + (0.25 × 63) + (0.25 × −60) = −6.0 + 15.75 − 15.0 = ≈ −5%.**
+
+**Consistent with v1's "−10% to +22% band," and for the same reason: the price, not the business.** At 112x trailing and 14.2x book, **the base case loses money even on 35% compound growth for two years**, because it requires the multiple to halve — and 55x on a 35%-growing defence company is not a punitive assumption. **You only make money here if the multiple substantially holds, which means the bull case is really a bet on the market's willingness to keep paying ~80x.** That is a sentiment bet, not an earnings bet.
+
+---
+
+## Conviction: **HELD at Medium-Low**
+
+**Not downgraded, because the operating quarter was genuinely good** — 37.6% revenue growth, 50% PAT growth, Optics up 62% with a marquee BEL order behind it, an exclusive India licence on a well-timed counter-drone technology, and institutions accumulating. The India defence-indigenisation tailwind is real and PARAS is a legitimate participant in it.
+
+**Not upgraded, because nothing about the price improved and one thing about the risk got much larger.** 112x trailing on 12.6% ROE, 48% cash conversion, a 435-day cash cycle, an undisclosed order book, no earnings call — and now a **₹6,200cr project announcement from a company that generated ₹25cr of operating cash last year.**
+
+**Upgrade to Medium if:** the order book is disclosed above **₹1,300cr**, **and** the semiconductor funding structure is clarified in a way that does not require material parent dilution.
+**Downgrade to Speculative if:** an equity raise is announced to fund the semiconductor project, **or** FY27 growth falls below 25%, **or** the order book is still undisclosed at the Q3FY27 results.
+
+---
+
+## Watch items for the next refresh (Q2FY27, ~Nov-2026)
+
+1. **🔴 The order book.** Undisclosed for a quarter. v1's test — ≥₹1,300cr by Mar-2027 — still stands and is now harder to verify.
+2. **🔴 Semiconductor funding structure.** Does the ₹6,200cr MoU convert to a definitive agreement? Is there an ISM 2.0 subsidy application, a technology partner, an anchor customer, or a subsidiary-level raise? **Any parent-level equity issuance is the downgrade trigger.**
+3. **🔴 Cash conversion.** CFO/OP 48% and FCF −₹10cr in FY26; WC days 273. Does H1FY27 improve?
+4. **🟢 Optics momentum** — 62% growth and 58% of standalone revenue. Does it hold, and does Defence Engineering (+9.5%) recover?
+5. **🟢 Guardian-1 commercialisation** — any order, trial or production contract under the Powerus licence.
+6. **🟡 Krasny Paras** — agreement signed, consideration, completion by 31-Dec-2026.
+7. **🟡 Promoter holding** — flat at 53.20% for three quarters. Any move is the tell.
+8. **🟡 Shareholder count** — 40,371 left in one quarter. Does retail keep exiting into institutional buying?
+9. **🔴 Disclosure practice** — does PARAS ever hold an earnings call, or publish a results deck? **The absence is itself a standing item.**
+
+---
+---
+
+# 📌 v1 profile below — preserved unchanged (3-Jul-2026)
+
+*Everything from this point is the original v1 body, kept for lineage. v1 was a strong, sceptical build and this refresh largely confirms it; corrections and extensions are marked inline.*
 
 ---
 
@@ -25,6 +227,7 @@ The subsidiary structure is worth understanding — it's how Paras builds **new 
 - **Paras Heven Drones** (51%): hydrogen-powered drones (JV with Heven Drones, Israel)
 - **Quantico** (100%): quantum sensing + quantum communication (early stage)
 - **Paras Semiconductors** (70%): OSAT (Outsourced Semiconductor Assembly & Testing) — new venture
+> 🔴 **SCALE TRANSFORMED 13-Aug-2026 — v1 listed this as one line among eight subsidiaries.** On **22-Jul-2026 Paras Semiconductors signed an MoU with the Government of Madhya Pradesh for a ₹6,200 crore OSAT facility** on 50 acres of the Ujjain–Indore corridor. **That is 60% of market cap, 13x FY26 revenue, 70x FY26 PAT and 248x FY26 operating cash flow.** CEO **Santosh Kumar**. Near-term purpose is packaging for *"sensor technologies, optical and optronic systems"* — genuine vertical integration on PARAS's core — with optionality into *"AI chips."* **It is an MoU, not a funded commitment, and would normally be carried by ISM subsidy plus outside equity at the 70%-owned subsidiary level rather than the parent's balance sheet. But no funding plan has been disclosed.** See Refresh Log § "The ₹6,200 crore semiconductor MoU".
 - **Paras Avionics** (60%): air-to-air refuelling, avionic systems
 - **Opel Technologies** (100%): supply-chain services
 
@@ -71,6 +274,7 @@ Six moats worth naming, roughly in strength order:
 
 **Where the moat is weaker.**
 - Order book grew only 6% YoY in FY26 (INR 928cr → INR 986cr) while revenue grew 30.7% — meaning book-to-revenue coverage *shrank*. If FY27 requires 30–40% growth, order book must accelerate.
+> 🔴 **STILL UNRESOLVED — AND NOW UNOBSERVABLE (13-Aug-2026).** The Q1FY27 results filing contains **zero mentions of the order book**; PARAS filed **no investor presentation** and held **no earnings call**. The last published figure remains **₹986cr at Mar-2026**. Disclosed order inflow in the period was **₹60.54cr** (BEL ₹52.82cr + DRDO ₹7.72cr) against ₹128cr of quarterly revenue — though Reg 30 materiality thresholds mean true inflow is certainly higher. **v1's test — ≥₹1,300cr by Mar-2027 — stands, but cannot currently be checked.**
 - Multi-subsidiary structure spreads capital thin — 8+ subsidiaries and JVs need capex, working capital, and management attention.
 - Product concept demonstrations are frequent; commercial ramp of many products (quantum, hydrogen drones, semiconductor OSAT) is uncertain in timing.
 - Heavy dependence on government/PSU customers → payment cycles + procurement politics create working capital drag.
@@ -100,6 +304,8 @@ Six moats worth naming, roughly in strength order:
 
 - **Bear reading:** Promoter is diluting aggressively because business needs more capital than internal cash generation supports. The 8-subsidiary strategy is capital-hungry. If subsidiaries don't ramp fast, promoter dilutes again.
 - **Bull reading:** Promoter took capital-raise route (not debt) precisely because they don't want subsidiaries dragging on the parent balance sheet. 53% is still majority. Warrant conversion means the family put more money in, not that outsiders bought them out.
+
+> ⚠️ **UPDATE 13-Aug-2026 — promoter holding has been FLAT at 53.20% for three quarters** (Dec-25, Mar-26, Jun-26), so no further dilution has occurred. **But the ownership base rotated sharply in Q1FY27: FII 5.06% → 8.29%, DII 1.24% → 3.04%, public 40.52% → 35.46%, and the shareholder count fell 3,76,813 → 3,36,442 — 40,371 holders left in a single quarter (−10.7%).** v1 read the count *doubling* as retail euphoria; **that euphoria is now handing over to institutions**, with the stock up 95% on the year. **Institutions arriving ahead of a probable capital raise is not the same as institutions validating the price.**
 
 *My read:* leaning bear. Coupled with the retail shareholder count more than doubling (2.4L → 3.77L over 3 years, a very high number for a mid-cap), the dilution signals **capital-hunger + retail-driven speculative euphoria** — a combination that historically doesn't age well.
 
@@ -137,10 +343,13 @@ Sharad Shah family does **not** run other listed businesses. This is a **concent
 | Space payloads production | First large batches in FY26 | ✅ Progressing |
 | Subsidiary independent scaling | 8 subsidiaries; total contribution 12% of consol revenue | 🟡 Small and slow — biggest execution gap vs narrative |
 
+> **EXTENDED 13-Aug-2026.** v1's verdict is **confirmed at larger scale**, and one item should be added to the record: **PARAS holds no earnings calls at all** — across 424 NSE filings the only transcript-type disclosure is from 7-Oct-2022 — **but it met analysts and institutions privately on 22-May, 3-Jun, 10-Jun, 18-Jun, 25-Jun and 4-Aug 2026.** Roughly monthly private access for institutions; no call, no results deck and no order-book disclosure for everyone else. **That asymmetry is the widest on this watchlist and belongs in the management assessment.** Full revised verdict in the Refresh Log § "Delivery scorecard".
+
 **Verdict on management:** Founders are credible technologists with a genuine 30-year track record. But the *rate of new-venture creation* (8 subsidiaries, 4+ JVs, quantum, hydrogen drones, OSAT, avionics, semiconductors, drones) is faster than what a INR 500 cr revenue company can staff and fund cleanly. Multiple bets = multiple execution risks. Bet on Sharad + Munjal Shah on the *core* (periscope, EM protection, EO/IR JV with Controp), and treat subsidiary optionality as free upside — but don't pay for it in the current multiple.
 
 
 **Conviction re-rate (M → ML) 10-Jul-2026:** Downgraded M→ML on 10-Jul-2026 re-rate: 125x P/E + order book growth (+6%) trailing revenue (+30%) + 5.74% promoter dilution + scorecard 2G/3Y. Priced for perfection with deteriorating signals.
+> ✅ **HELD AT ML, 13-Aug-2026 — and the Q1FY27 evidence supports the downgrade rather than reversing it.** The operating quarter was good (revenue +37.6%, PAT +50%, Optics +62%), but the multiple is still **112x trailing / 14.2x book on 12.6% ROE**, cash conversion is still **48%**, the order book is now **undisclosed**, and the subsidiary-proliferation concern that drove the downgrade has reappeared as a **₹6,200cr semiconductor MoU**. **11 new scorecard rows and a revised verdict are in the Refresh Log.**
 
 ---
 
@@ -320,3 +529,34 @@ Weighted: modest downside expected. This is a **hold-if-you-own-it, don't-add-at
 ---
 
 *Content is personal investment research and thesis-building for portfolio decisions. Not a buy/sell recommendation. All views subject to revision as new data arrives.*
+
+
+---
+
+## Source Appendix — Tier A refresh, 13-Aug-2026
+
+**🔴 Documentary base — the thinnest of any mainboard name on this watchlist.** **PARAS holds no earnings calls and files no results decks.** Across **424 NSE corporate announcements**, the only transcript-type filing is dated **7-Oct-2022**; no Investor Presentation appears anywhere in the last 120 filings. `Fetched Concalls/PARAS/` holds **only decks**, the most recent from **Feb-2026**. **This refresh is built entirely on statutory filings.**
+
+**Filings fetched and read** *(NSE corporate-announcements API)*:
+- **07-Aug-2026** — Q1FY27 results (Outcome of Board Meeting), including standalone segment revenue and results
+- **07-Aug-2026** — **Divestment of the entire 47.50% stake in Krasny Paras Defence Technologies Private Limited** (associate). Krasny contributed **₹0.59cr / 0.12%** of FY26 consolidated turnover; net worth ₹0.63cr. **Sale agreement "yet to be entered"; consideration "not finalised… dependent on the due diligence process"; completion "latest by December 31, 2026."**
+- **22-Jul-2026** — Reg 30 intimation **+ press release: "Government of Madhya Pradesh and Paras Semiconductors Sign MoU for ₹6,200 Crore Semiconductor Facility"** — 50 acres, Ujjain–Indore corridor, OSAT packaging
+- **30-Jun-2026** — **IP License Agreement with Tandem Defense LLC** (Georgia LLC, wholly owned by Autonomous Power Corporation, Delaware — "Powerus") granting PARAS an **exclusive India licence** for **Guardian-1**, *"a high-speed, battery-powered counter-drone system"*
+- **02-Jun-2026** — **₹52.82cr order from Bharat Electronics** for supply of electro-optics
+- **30-Apr-2026** — **₹7.72cr order from DRDO** for Ku/C-band satellite communication phased-array antennas for airborne applications
+- **24-Jul-2026** — amendment to the PIT Code; **13-May-2026** — FY26 results, dividend and change in auditors
+- **04-Aug / 25-Jun / 18-Jun / 10-Jun / 03-Jun / 22-May 2026** — schedules of private analyst/institutional meetings (the 4-Aug one with Citi)
+
+**Screener (consolidated, pulled 13-Aug-2026):** CMP ₹1,281, mcap ₹10,325cr, P/E 112x, BV ₹90.0, ROCE 16.9%, ROE 12.6%, div yield 0.08%; 8-quarter series, 7-year P&L, cash flow, ratios, 8-quarter shareholding.
+
+**Data-quality notes:**
+1. **The order book is not disclosed for Q1FY27** — verified by direct search of the results filing (0 mentions). The last published figure is **₹986cr at Mar-2026**. v1's central test cannot currently be evaluated.
+2. **The ₹6,200cr semiconductor figure is an MoU "investment proposal", not a committed or funded capex.** No funding structure, timeline, partner or subsidy application has been disclosed. **Treated throughout as a signal, not a liability.**
+3. **Segment margins are highly volatile** — Optics ran 52.0% (Q1FY26) → 24.0% (Q4FY26) → 38.3% (Q1FY27). Single-quarter segment margins are not a trend in a project-recognition business.
+4. **PARAS is heavily Q4-weighted** (FY26 quarters: ₹93 / ₹106 / ₹106 / ₹171cr). QoQ comparisons are misleading; all growth figures above are year-on-year unless stated.
+5. **Krasny divestment terms are unknown** — no agreement, no consideration. Only the intent and the immateriality of the associate are established.
+6. **BSE scrip code is 543367** (per the filings). *Note: v1's header records 543307 — corrected here.*
+
+---
+
+*Tier A refresh 13-Aug-2026. Content is personal investment research and thesis-building for portfolio decisions. Not a buy/sell recommendation. All views subject to revision as new data arrives.*
