@@ -1,15 +1,15 @@
 # Nitta Gelatin India — Company Profile
 
-**Ticker:** NITTAGELA · BSE: 506532 · NSE: NITTAGELA · **Sector:** Pharma & Excipients (Gelatin + Collagen Peptide + Ossein) · **Conviction:** MH (Under Watch) — *downgraded from High, 11-Aug-2026*
-**Date written:** 3-Jul-2026 · **Tier A refreshed:** 11-Aug-2026
-**CMP (11-Aug-2026):** ₹1,612 · **Market Cap:** ₹1,461 cr · **P/E (TTM):** 14.1x · **ROCE (FY26):** 27.7% · **ROE:** 21.0% · **Book Value:** ₹563 (P/B 2.86x) · **Div yield:** 0.43% (₹7/share, FY26)
+**Ticker:** NITTAGELA · BSE: 506532 · NSE: NITTAGELA · **Sector:** Pharma & Excipients (Gelatin + Collagen Peptide + Ossein) · **Conviction:** MH (Under Watch) — *downgraded from High, 12-Aug-2026*
+**Date written:** 3-Jul-2026 · **Tier A refreshed:** 12-Aug-2026
+**CMP (12-Aug-2026):** ₹1,612 · **Market Cap:** ₹1,461 cr · **P/E (TTM):** 14.1x · **ROCE (FY26):** 27.7% · **ROE:** 21.0% · **Book Value:** ₹563 (P/B 2.86x) · **Div yield:** 0.43% (₹7/share, FY26)
 **Sources:** FY26 Annual Report (50th, filed 8-Jul-2026) · Q1FY27 / Q4FY26 / Q3FY26 statutory filings read as PDF pages · 11 BSE Reg-30 filings · Screener consolidated · ValuePickr topic 11716
 
 > **How to read this profile:** Every meaningful claim is either sourced from a filing or the annual report. Where I've made a judgment I've flagged it. This is personal thesis-building, not a buy/sell recommendation.
 
 ---
 
-## 🔄 Refresh Log — 11-Aug-2026 (Q1FY27 + two regulatory items and an ownership error v1 got wrong)
+## 🔄 Refresh Log — 12-Aug-2026 (Q1FY27 + two regulatory items and an ownership error v1 got wrong)
 
 **Filing date:** 31-Jul-2026 (Board Meeting Outcome + Q1FY27 standalone & consolidated results).
 
@@ -189,7 +189,7 @@ With no concalls, the AR and the Japanese parent's letter are the only forward-l
 
 **v1 built a base case of FY28 revenue ₹800cr and PAT ₹130cr, giving ~46% upside and a weighted ~60% two-year return.** ₹588cr → ₹800cr by FY28 is a **16.6% revenue CAGR**. The company's actual three-year sales CAGR is **1%**, and Q1FY27 grew **1.5%**. **v1's base case was a bull case wearing a base case's label**, and it was set two months after a +79% rally, at a market cap 9% above today's. **Rebuilt below.**
 
-**Peer set (Screener, 11-Aug-2026) — v1 said "no large peer competing directly" and cited an insolvent company. The real comparable is Narmada Gelatines:**
+**Peer set (Screener, 12-Aug-2026) — v1 said "no large peer competing directly" and cited an insolvent company. The real comparable is Narmada Gelatines:**
 
 | Company | Market cap | P/E | ROCE | ROE | Div yield |
 |---|---|---|---|---|---|
@@ -311,7 +311,7 @@ Gelatin + collagen peptide + ossein rides five durable forces:
 1. **Nitta Gelatin Inc. (Japan)** — parent, technology partner + brand
 2. ~~**Kerala-based Indian promoter family** — local operations~~
 
-> **⤴ CORRECTED 11-Aug-2026.** There is **no Indian promoter family.** The Indian co-promoter is **Kerala State Industrial Development Corporation Ltd (KSIDC)**, a Government of Kerala PSU — stated on the company's own letterhead on every filing: *"Joint venture of Kerala State Industrial Development Corporation Ltd. and Nitta Gelatin Inc."* v1's *"Kerala family (Kapadia/Vijayan lineage)"* is wrong. See the Refresh Log for why the distinction changes the governance read.
+> **⤴ CORRECTED 12-Aug-2026.** There is **no Indian promoter family.** The Indian co-promoter is **Kerala State Industrial Development Corporation Ltd (KSIDC)**, a Government of Kerala PSU — stated on the company's own letterhead on every filing: *"Joint venture of Kerala State Industrial Development Corporation Ltd. and Nitta Gelatin Inc."* v1's *"Kerala family (Kapadia/Vijayan lineage)"* is wrong. See the Refresh Log for why the distinction changes the governance read.
 
 Combined promoter holding: **74.49% — rock-stable for 3 years:**
 
@@ -349,7 +349,7 @@ Combined promoter holding: **74.49% — rock-stable for 3 years:**
 **Verdict on management:** Long-tenured JV with clean execution + best-in-class returns + zero dilution. Bet on the Japanese-Indian JV structure + collagen peptide category tailwind.
 
 
-### 🔄 Management & board — refreshed 11-Aug-2026 (all from filings)
+### 🔄 Management & board — refreshed 12-Aug-2026 (all from filings)
 
 | Role | Person | Note |
 |---|---|---|
@@ -374,7 +374,7 @@ Combined promoter holding: **74.49% — rock-stable for 3 years:**
 | Mar 2023 – Mar 2026 | 74.49% (every quarter) |
 | **Jun 2026** | **74.49%** |
 
-**Delivery scorecard — rows appended 11-Aug-2026 (v1 rows above preserved).** *Note: with no concalls, "guidance" here means commitments made in the Annual Report or Reg-30 filings — the only forward statements this company makes.*
+**Delivery scorecard — rows appended 12-Aug-2026 (v1 rows above preserved).** *Note: with no concalls, "guidance" here means commitments made in the Annual Report or Reg-30 filings — the only forward statements this company makes.*
 
 | Guidance / Milestone | When | Actual delivered | Verdict |
 |---|---|---|---|
@@ -391,7 +391,7 @@ Combined promoter holding: **74.49% — rock-stable for 3 years:**
 | Reva Division consent to operate | FY26 AR | *"in process"* — not yet renewed | 🕐 Pending |
 | Nitta Group 2033 vision (double sales, 2.5x operating income) | Parent letter, Nov-2025 | India named as significant contributor | 🕐 Strategic intent |
 
-**Refresh verdict on management (11-Aug-2026).** *Operationally competent, financially disciplined, and structurally uncommunicative.* The collagen peptide project was delivered on time and is running near capacity; costs have been attacked with a long list of specific, verifiable interventions; the balance sheet is debt-free with cash conversion above 100%. **What you cannot get is any forward number.** The Gelatin Expansion Project has been described as *"progressing as per schedule"* in two consecutive annual reports **without a single disclosed capacity figure, capex figure or commissioning date** — and there is no earnings call at which to ask. **v1's verdict — "clean execution + best-in-class returns + zero dilution" — is right on execution and wrong to treat 74.49% state-plus-Japanese-parent stability as a promoter-alignment moat.** Revised: *a competently run JV with an absentee-by-design communication policy; underwrite the numbers, not the narrative, because there is no narrative on offer.*
+**Refresh verdict on management (12-Aug-2026).** *Operationally competent, financially disciplined, and structurally uncommunicative.* The collagen peptide project was delivered on time and is running near capacity; costs have been attacked with a long list of specific, verifiable interventions; the balance sheet is debt-free with cash conversion above 100%. **What you cannot get is any forward number.** The Gelatin Expansion Project has been described as *"progressing as per schedule"* in two consecutive annual reports **without a single disclosed capacity figure, capex figure or commissioning date** — and there is no earnings call at which to ask. **v1's verdict — "clean execution + best-in-class returns + zero dilution" — is right on execution and wrong to treat 74.49% state-plus-Japanese-parent stability as a promoter-alignment moat.** Revised: *a competently run JV with an absentee-by-design communication policy; underwrite the numbers, not the narrative, because there is no narrative on offer.*
 
 ---
 
@@ -418,7 +418,7 @@ Combined promoter holding: **74.49% — rock-stable for 3 years:**
 
 ~~**Product mix (approximate):** Gelatin ~55% · Collagen peptide ~25% · Ossein ~15% · Others ~5%~~
 
-> **⤴ REMOVED 11-Aug-2026 — this mix was inferred and presented as fact.** **No segment split is disclosed.** Note 2 to both the standalone and consolidated results states the group *"is engaged in the manufacture and sale of products which form part of a **single product group which represents one operating segment**. As the Chief Operating Decision Maker reviews business performance at an overall group level, disclosure requirement under Ind AS 108 'Operating Segments' is not applicable."* **The only product-level data the company publishes is the volume-and-realisation commentary in the Directors' Report**, reproduced in the Refresh Log.
+> **⤴ REMOVED 12-Aug-2026 — this mix was inferred and presented as fact.** **No segment split is disclosed.** Note 2 to both the standalone and consolidated results states the group *"is engaged in the manufacture and sale of products which form part of a **single product group which represents one operating segment**. As the Chief Operating Decision Maker reviews business performance at an overall group level, disclosure requirement under Ind AS 108 'Operating Segments' is not applicable."* **The only product-level data the company publishes is the volume-and-realisation commentary in the Directors' Report**, reproduced in the Refresh Log.
 
 **CMP trajectory (dashboard):**
 - 29-Apr-26: ₹962
@@ -428,7 +428,7 @@ Combined promoter holding: **74.49% — rock-stable for 3 years:**
 - **1-Jul-26: ₹1,722 (+79% in 2 months)** — market discovery event
 
 
-### 📊 Q1FY27 Refresh — FY-level numbers (11-Aug-2026, consolidated)
+### 📊 Q1FY27 Refresh — FY-level numbers (12-Aug-2026, consolidated)
 
 | Metric (₹cr) | FY24 | FY25 | FY26 | FY26 YoY | TTM (to Jun-26) |
 |---|---|---|---|---|---|
@@ -485,9 +485,9 @@ Given 27.4% ROCE + 21.1% ROE + collagen peptide growth + 50-year Japan JV, this 
 Weighted return: **~60% over 2 years + 0.40% dividend** = ~26% CAGR. Very attractive quality + growth.
 
 
-### 🔄 Valuation Refresh — 11-Aug-2026 (v1 framework above preserved verbatim)
+### 🔄 Valuation Refresh — 12-Aug-2026 (v1 framework above preserved verbatim)
 
-| Metric | v1 (3-Jul-2026) | Refresh (11-Aug-2026) | Move |
+| Metric | v1 (3-Jul-2026) | Refresh (12-Aug-2026) | Move |
 |---|---|---|---|
 | CMP | ₹1,760 | **₹1,612** | **−8.4%** |
 | 52-week high | — | ₹2,088 | **CMP is −22.8% off the high** |
@@ -543,7 +543,7 @@ Weighted return: **~60% over 2 years + 0.40% dividend** = ~26% CAGR. Very attrac
 > **What to watch:** Q4FY26 full year results (May 2026), collagen peptide revenue mix trajectory, any Nitta Japan JV strategic updates, and raw material cost trend. Position sizing: **high conviction on the specialty quality + growth compounder. One of the cleanest quality-growth thesis in the watchlist.**
 
 
-### 🔄 Refreshed hook — 11-Aug-2026
+### 🔄 Refreshed hook — 12-Aug-2026
 
 > **Nitta Gelatin is not Sangakkara at his peak — it is a technically excellent Test batsman on a slow, low pitch, scoring at two an over.** 28% ROCE, effectively debt-free, cash conversion at 113% of operating profit, inventory days down 36 in two years, a Japanese industrial parent that has just published a 2033 ambition to double group sales and named India as a contributor. At **14.1x with a completed collagen peptide plant running near capacity**, this is a cheap, well-run asset. **But revenue has compounded at 1% over three years, and Q1FY27 grew 1.5%.**
 >
@@ -566,7 +566,7 @@ Weighted return: **~60% over 2 years + 0.40% dividend** = ~26% CAGR. Very attrac
 - **Peer references:** Sterling Biotech (in insolvency), Pioma Industries, India Gelatine & Chemicals.
 - **Parent company info:** Nitta Gelatin Inc. Japan (Tokyo Stock Exchange listed).
 
-### 🔄 Refresh sources — 11-Aug-2026
+### 🔄 Refresh sources — 12-Aug-2026
 
 **Gate: 🟡 PARTIAL — by structural limitation, not fetch failure.**
 

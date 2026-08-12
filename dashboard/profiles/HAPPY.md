@@ -1,17 +1,17 @@
 # Happy Forgings — Company Profile
 
-**Ticker:** HAPPYFORGE · BSE: 544057 · NSE: HAPPYFORGE · **Sector:** Auto Components & Forgings (Precision Forgings + Machining) · **Conviction:** MH (Under Watch) — *downgraded from H on valuation, not execution, 11-Aug-2026*
-**Date written:** 3-Jul-2026 · **Tier A refreshed:** 11-Aug-2026
-**CMP (11-Aug-2026):** ₹1,908 · **Market Cap:** ₹18,006 cr · **P/E (TTM):** 55.0x · **P/B:** 8.4x (BV ₹226) · **ROCE (FY26):** 18.0% · **ROE:** 15.0% · **Div yield:** 0.21%
+**Ticker:** HAPPYFORGE · BSE: 544057 · NSE: HAPPYFORGE · **Sector:** Auto Components & Forgings (Precision Forgings + Machining) · **Conviction:** MH (Under Watch) — *downgraded from H on valuation, not execution, 12-Aug-2026*
+**Date written:** 3-Jul-2026 · **Tier A refreshed:** 12-Aug-2026
+**CMP (12-Aug-2026):** ₹1,908 · **Market Cap:** ₹18,006 cr · **P/E (TTM):** 55.0x · **P/B:** 8.4x (BV ₹226) · **ROCE (FY26):** 18.0% · **ROE:** 15.0% · **Div yield:** 0.21%
 **Sources:** 6 concall transcripts (Feb-2025 → Aug-2026, all read) + Q1FY27 and Q4FY26 decks · Q1FY27 results, ICRA rating letter, BSE filings · Screener consolidated
 
 > **How to read this profile:** Every meaningful claim is either sourced from a concall (quarter noted) or a filing. Where I've made a judgment I've flagged it. This is personal thesis-building, not a buy/sell recommendation.
 
 ---
 
-## 🔄 Refresh Log — 11-Aug-2026 (the best operating quarter in the batch, at the highest multiple)
+## 🔄 Refresh Log — 12-Aug-2026 (the best operating quarter in the batch, at the highest multiple)
 
-**Filing date:** 4-Aug-2026 (Board Meeting Outcome + Q1FY27 results + press release + deck); earnings call **5-Aug-2026**; transcript filed **11-Aug-2026**.
+**Filing date:** 4-Aug-2026 (Board Meeting Outcome + Q1FY27 results + press release + deck); earnings call **5-Aug-2026**; transcript filed **12-Aug-2026**.
 
 **Concall gate: ✅ CLEARED — six transcripts, and the folder was empty before this refresh** despite v1 citing four reads. Q1FY27 (Aug-2026), Q4FY26 (May-2026), Q3FY26 (Feb-2026), Q2FY26 (Nov-2025), Q1FY26 (Aug-2025) and Q4FY25 (May-2025) are now on disk and read in full. **The Q1FY27 transcript was filed on 11-Aug — six days after the call — so no audio question arose.** *(Happy Forgings does post call MP3s, so this is a name to watch under the §4A two-tier policy if a future transcript is slow.)*
 
@@ -136,7 +136,7 @@
 
 ### 📢 Community Pulse
 
-**ValuePickr: no dedicated thread exists.** Searched `happy forgings`, `happyforge`, `HAPPYFORGE` and `Happy Forgings Ltd` — **there is no Happy Forgings topic on the forum.** The closest adjacent thread is **Balu Forge (topic 166478, 52 posts, active 11-Aug-2026)**, a different company in the same industry.
+**ValuePickr: no dedicated thread exists.** Searched `happy forgings`, `happyforge`, `HAPPYFORGE` and `Happy Forgings Ltd` — **there is no Happy Forgings topic on the forum.** The closest adjacent thread is **Balu Forge (topic 166478, 52 posts, active 12-Aug-2026)**, a different company in the same industry.
 
 **Substack: searched, zero results.**
 
@@ -144,7 +144,7 @@
 
 ### 💵 Valuation refresh — the business improved and so did the price
 
-| Metric | v1 (3-Jul-2026) | Refresh (11-Aug-2026) | Move |
+| Metric | v1 (3-Jul-2026) | Refresh (12-Aug-2026) | Move |
 |---|---|---|---|
 | CMP | ₹1,499 | **₹1,908** | **+27.3%** |
 | 52-week high | — | ₹1,966 | CMP 3% off the high |
@@ -293,7 +293,7 @@ None significant. Happy Forgings is the primary listed entity.
 **Conviction re-rate (H → MH) 10-Jul-2026:** Downgraded H→MH on 10-Jul-2026 conviction re-rate: ~10% weighted return is below H threshold despite peer-best 30.4% EBITDA + zero-dilution promoter. Quality justifies MH tier.
 
 
-### 🔄 Delivery scorecard — rows appended 11-Aug-2026 (v1 rows above preserved)
+### 🔄 Delivery scorecard — rows appended 12-Aug-2026 (v1 rows above preserved)
 
 | Guidance / Milestone | When | Actual delivered | Verdict |
 |---|---|---|---|
@@ -316,7 +316,7 @@ None significant. Happy Forgings is the primary listed entity.
 | **🔴 CV exports** | — | **−12% in Q1FY27** — DDP contracts to Europe and Turkey, *"almost a month of deliveries were pending"* on transit delays | 🆕 🔴 **Adverse** |
 | **🔴 Container freight** | — | **US$2,000 → US$6,000**; ~75% pass-through; expects to recover ~US$4,500, taking a **15–20% hit** on incremental cost | 🆕 🟡 **Partly absorbed** |
 
-**Refresh verdict on management (11-Aug-2026).** *This team says a number and then beats it, which is rarer than it sounds and is the whole reason the stock trades where it does.* Volume growth guided at late-teens came in at 23.1%; margin guided "in line with FY26" came in 80bps above; the 4,000-ton press guided for H1FY27 was commissioned in Q1; the OEM price revision management said it was negotiating was signed. **The FY21–FY26 record is the same story compounded — volumes 1.8x, revenue 2.6x, EBITDA 3x, PAT 3.5x, funded almost entirely from internal cash, with ICRA AA reaffirmed.** Ashish Garg is also unusually specific about what is *not* working: he volunteered the −12% CV export number, named the DDP mechanism behind it, and quantified the freight hit he expects to eat. **v1's verdict was right and understated.** Revised: *execution is not the question on this name — price is. The only thing management cannot control is the multiple, and that is now doing the work the earnings used to do.*
+**Refresh verdict on management (12-Aug-2026).** *This team says a number and then beats it, which is rarer than it sounds and is the whole reason the stock trades where it does.* Volume growth guided at late-teens came in at 23.1%; margin guided "in line with FY26" came in 80bps above; the 4,000-ton press guided for H1FY27 was commissioned in Q1; the OEM price revision management said it was negotiating was signed. **The FY21–FY26 record is the same story compounded — volumes 1.8x, revenue 2.6x, EBITDA 3x, PAT 3.5x, funded almost entirely from internal cash, with ICRA AA reaffirmed.** Ashish Garg is also unusually specific about what is *not* working: he volunteered the −12% CV export number, named the DDP mechanism behind it, and quantified the freight hit he expects to eat. **v1's verdict was right and understated.** Revised: *execution is not the question on this name — price is. The only thing management cannot control is the multiple, and that is now doing the work the earnings used to do.*
 
 ---
 
@@ -362,7 +362,7 @@ None significant. Happy Forgings is the primary listed entity.
 - Raw material inflation pass-through: in active discussions with OEMs
 
 
-### 📊 Q1FY27 Refresh — FY-level numbers (11-Aug-2026, consolidated)
+### 📊 Q1FY27 Refresh — FY-level numbers (12-Aug-2026, consolidated)
 
 | Metric (₹cr) | FY24 | FY25 | FY26 | FY26 YoY | TTM (to Jun-26) |
 |---|---|---|---|---|---|
@@ -426,11 +426,11 @@ Priced for quality + margin sustainability + zero dilution track record.
 Weighted return: ~10% over 2 years = ~5% CAGR. Priced-in; downside bounded by quality.
 
 
-### 🔄 Valuation Refresh — 11-Aug-2026
+### 🔄 Valuation Refresh — 12-Aug-2026
 
 Full refreshed metrics and the rebuilt base/bull/bear scenarios are in the **Refresh Log** at the top. Headline:
 
-| | v1 (3-Jul-2026) | Refresh (11-Aug-2026) |
+| | v1 (3-Jul-2026) | Refresh (12-Aug-2026) |
 |---|---|---|
 | CMP / Market cap | ₹1,499 / ₹14,137cr | **₹1,908 / ₹18,006cr** (+27.3%) |
 | **TTM P/E** | **46.9x** | **55.0x** |
@@ -483,7 +483,7 @@ Full refreshed metrics and the rebuilt base/bull/bear scenarios are in the **Ref
 > **What to watch:** Q1-Q2FY27 volume growth vs FY26 base, machining mix trajectory, and raw material pass-through outcome. Position sizing: **high conviction on the quality anchor — priced-in but bounded downside.**
 
 
-### 🔄 Refreshed hook — 11-Aug-2026
+### 🔄 Refreshed hook — 12-Aug-2026
 
 > **Happy Forgings is Rahul Dravid at his peak — and the market has finally noticed, which is precisely the problem.** Q1FY27 was the **highest-ever quarter on both revenue and profit**: ₹449cr **+27%**, PAT ₹91cr **+39%**, EBITDA margin **31.3%** — the **fourth consecutive quarter above 30%** — on volumes up **23.1%** against late-teen guidance. Gross margin 60.7%. CFO at **114% of operating profit**. **ICRA AA reaffirmed.** Borrowings ₹330cr against ₹2,128cr of net worth.
 >
@@ -513,11 +513,11 @@ Full refreshed metrics and the rebuilt base/bull/bear scenarios are in the **Ref
 
 *Content is personal investment research and thesis-building for portfolio decisions. Not a buy/sell recommendation. All views subject to revision as new data arrives.*
 
-### 🔄 Refresh sources — 11-Aug-2026
+### 🔄 Refresh sources — 12-Aug-2026
 
 **Gate: ✅ CLEARED — six transcripts, and closed for the first time.** `Fetched Concalls/HAPPYFORGE/` was **empty** before this refresh despite v1 citing four concall reads.
 
-- **Concall transcripts read in full** (`pdftotext -layout`): **Q1FY27 (call 5-Aug-2026, transcript filed 11-Aug-2026 — primary)**, **Q4FY26 (call 22-May-2026 — source of the FY27 volume/margin guidance, the ₹950cr order book, the mix targets and the capex pipeline)**, Q3FY26 (Feb-2026), Q2FY26 (Nov-2025), Q1FY26 (Aug-2025), Q4FY25 (May-2025). Panel throughout: **Mr. Ashish Garg (Managing Director)** and **Mr. Pankaj Kumar Goyal (CFO)**.
+- **Concall transcripts read in full** (`pdftotext -layout`): **Q1FY27 (call 5-Aug-2026, transcript filed 12-Aug-2026 — primary)**, **Q4FY26 (call 22-May-2026 — source of the FY27 volume/margin guidance, the ₹950cr order book, the mix targets and the capex pipeline)**, Q3FY26 (Feb-2026), Q2FY26 (Nov-2025), Q1FY26 (Aug-2025), Q4FY25 (May-2025). Panel throughout: **Mr. Ashish Garg (Managing Director)** and **Mr. Pankaj Kumar Goyal (CFO)**.
 - **Investor decks:** Q1FY27 (4-Aug-2026) and Q4FY26 (21-May-2026).
 - **🎧 Audio note:** the Q1FY27 transcript was filed six days after the call, so **no audio processing question arose this quarter.** Happy Forgings does publish call MP3s on its own site (`happyforgingsltd.com`) alongside the transcript — **a name to put through the §4A two-tier question if a future transcript is slow.**
 - **BSE filings** (scrip 544057): Q1FY27 results + Board Meeting Outcome + press release + investor presentation (**4-Aug-2026**); Analyst/Investor Meet outcome (5-Aug); **earnings-call transcript (11-Aug)**; **ICRA credit-rating update (7-Jul-2026)**; ESOP allotment (17-Jun); FY26 Annual Report and BRSR (30-Jun); AGM outcome (27-Jul); Q4FY26 results, dividend, **solar capacity enhancement and Change in Directorate (all 21-May-2026)**.

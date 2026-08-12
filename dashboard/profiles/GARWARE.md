@@ -1,15 +1,15 @@
 # Garware Hi-Tech Films — Company Profile
 
 **Ticker:** GRWRHITECH · BSE: 500655 · NSE: GRWRHITECH · **Sector:** Packaging & Materials (Specialty Films — Sun Control + Paint Protection + Industrial) · **Conviction:** MH (Under Watch)
-**Date written:** 3-Jul-2026 · **Tier A refreshed:** 11-Aug-2026
-**CMP (11-Aug-2026):** ₹7,338 · **Market Cap:** ₹17,042 cr · **P/E (TTM):** 43.9x · **ROCE (FY26):** 18.0% · **ROE:** 13.4% · **Book Value:** ₹1,143 (P/B 6.4x) · **Div yield:** 0.16%
+**Date written:** 3-Jul-2026 · **Tier A refreshed:** 12-Aug-2026
+**CMP (12-Aug-2026):** ₹7,338 · **Market Cap:** ₹17,042 cr · **P/E (TTM):** 43.9x · **ROCE (FY26):** 18.0% · **ROE:** 13.4% · **Book Value:** ₹1,143 (P/B 6.4x) · **Div yield:** 0.16%
 **Sources:** 6 concall transcripts (Feb-2025 → May-2026, all read) · Q1FY27 press release + investor deck + BSE filings · Screener consolidated · ValuePickr topic 11215
 
 > **How to read this profile:** Every meaningful claim is either sourced from a concall (quarter noted) or a filing. Where I've made a judgment I've flagged it. This is personal thesis-building, not a buy/sell recommendation.
 
 ---
 
-## 🔄 Refresh Log — 11-Aug-2026 (Q1FY27 print + a management-change cluster v1 missed entirely)
+## 🔄 Refresh Log — 12-Aug-2026 (Q1FY27 print + a management-change cluster v1 missed entirely)
 
 **Filing date:** 6-Aug-2026 (Board Meeting Outcome + results + press release + investor deck).
 **Concall gate: 🟡 PARTIAL — and deliberately so.** Six transcripts (Q3FY25 → Q4FY26) are on disk and were read in full for this refresh. **The Q1FY27 earnings call was held on 7-Aug-2026 at 11:00 AM, i.e. *after* the numbers were filed and after this refresh window opened** (intimation dated 3-Aug-2026). So the Q1FY27 section below is grounded in the **press release, the 23-page investor deck, and the statutory filing — not in management Q&A.** No Q1FY27 transcript and no audio recording existed at the time of writing; there was therefore nothing to ask about processing. **Re-read this refresh against the Q1FY27 transcript when it is filed** (SEBI window: within 5 working days of the call).
@@ -269,7 +269,7 @@ Specialty polyester films rides four durable forces:
 
 **Promoter — Garware family, Mumbai.** Founded 1957 by B. D. Garware (patriarch). Currently run by the second-third generation.
 
-> **⤴ CORRECTED 11-Aug-2026.** v1 stated *"Vayu Garware (son of SB Garware) is the Chairman."* **This is wrong.** GHFL's Chairman & Managing Director is **Dr. S. B. Garware** (named and quoted in the Q1FY27 press release and investor deck, 6-Aug-2026). **Vayu Garware chairs Garware Technical Fibres Ltd (BSE 509557)** — a separate listed company on a different family branch. The original text is kept visible above the correction per §0A rule 4.
+> **⤴ CORRECTED 12-Aug-2026.** v1 stated *"Vayu Garware (son of SB Garware) is the Chairman."* **This is wrong.** GHFL's Chairman & Managing Director is **Dr. S. B. Garware** (named and quoted in the Q1FY27 press release and investor deck, 6-Aug-2026). **Vayu Garware chairs Garware Technical Fibres Ltd (BSE 509557)** — a separate listed company on a different family branch. The original text is kept visible above the correction per §0A rule 4.
 
 **Promoter holding (Mar 2026): 60.73% — rock-stable:**
 
@@ -308,7 +308,7 @@ Specialty polyester films rides four durable forces:
 **Conviction re-rate (H → MH) 10-Jul-2026:** Downgraded H→MH on 10-Jul-2026 re-rate: ~15-20% weighted return + 47.2x P/E priced-in. 68-yr heritage + Q4FY26 records intact but return band supports MH not H.
 
 
-### 🔄 Management roster — refreshed 11-Aug-2026 (all from filings, not inference)
+### 🔄 Management roster — refreshed 12-Aug-2026 (all from filings, not inference)
 
 | Role | Person | Status |
 |---|---|---|
@@ -334,7 +334,7 @@ Specialty polyester films rides four durable forces:
 
 No dilution, no pledge, no creeping acquisition across nine years. **Neutral-to-positive: stability, but also no promoter buying into the Q1 strength.**
 
-**Delivery scorecard — rows appended 11-Aug-2026 (v1 rows above preserved):**
+**Delivery scorecard — rows appended 12-Aug-2026 (v1 rows above preserved):**
 
 | Guidance / Milestone | When | Actual delivered | Verdict |
 |---|---|---|---|
@@ -350,7 +350,7 @@ No dilution, no pledge, no creeping acquisition across nine years. **Neutral-to-
 | Architectural ₹300cr FY26 → ₹400cr FY27 | Q3FY26, restated Q4FY26 | "Strong momentum" claimed; **no number given** | 🕐 Pending |
 | **Permanent CFO appointment** | Implicit since 15-May-26 | **83 days vacant, then interim only** | 🆕 🔴 **Open item** |
 
-**Refresh verdict on management (11-Aug-2026).** *Operationally, this team does what it says* — the FY27 revenue and margin guidance is being beaten one quarter in, the capex is on schedule, and the ₹500cr FY22–26 expansion was funded entirely from internal accruals without touching the balance sheet. **The delta from v1 is not execution, it is continuity.** In twelve weeks GHFL lost a 24-year Joint Managing Director and its CFO, and has replaced only the latter, on an interim basis. Deepak Joshi remains the operational and communicative constant, and Monika Garware's five-year re-appointment — approved *before* the bereavement — means the executive structure was already framed. **v1's verdict ("bet on Garware family + Joshi + Agarwal") is no longer accurate on its own terms: Agarwal is gone.** Revised: *bet on Joshi's execution and the Garware family's capital discipline, and watch the CFO seat until it is permanently filled.*
+**Refresh verdict on management (12-Aug-2026).** *Operationally, this team does what it says* — the FY27 revenue and margin guidance is being beaten one quarter in, the capex is on schedule, and the ₹500cr FY22–26 expansion was funded entirely from internal accruals without touching the balance sheet. **The delta from v1 is not execution, it is continuity.** In twelve weeks GHFL lost a 24-year Joint Managing Director and its CFO, and has replaced only the latter, on an interim basis. Deepak Joshi remains the operational and communicative constant, and Monika Garware's five-year re-appointment — approved *before* the bereavement — means the executive structure was already framed. **v1's verdict ("bet on Garware family + Joshi + Agarwal") is no longer accurate on its own terms: Agarwal is gone.** Revised: *bet on Joshi's execution and the Garware family's capital discipline, and watch the CFO seat until it is permanently filled.*
 
 ---
 
@@ -382,7 +382,7 @@ No dilution, no pledge, no creeping acquisition across nine years. **Neutral-to-
 - Global market share maintenance
 
 
-### 📊 Q1FY27 Refresh — FY-level numbers (11-Aug-2026)
+### 📊 Q1FY27 Refresh — FY-level numbers (12-Aug-2026)
 
 **The FY26 reality v1 did not state plainly: FY26 was a flat year.**
 
@@ -438,11 +438,11 @@ Priced for continued double-digit growth + margin expansion + PPF category leade
 Weighted return: **~15-20% over 2 years.** Priced for perfection.
 
 
-### 🔄 Valuation Refresh — 11-Aug-2026 (v1 framework above preserved verbatim)
+### 🔄 Valuation Refresh — 12-Aug-2026 (v1 framework above preserved verbatim)
 
-**Refreshed trading metrics (Screener, 11-Aug-2026):**
+**Refreshed trading metrics (Screener, 12-Aug-2026):**
 
-| Metric | v1 (3-Jul-2026) | Refresh (11-Aug-2026) | Move |
+| Metric | v1 (3-Jul-2026) | Refresh (12-Aug-2026) | Move |
 |---|---|---|---|
 | CMP | ₹6,875 | **₹7,338** | +6.7% |
 | Market cap | ₹15,967cr | **₹17,042cr** | +6.7% |
@@ -454,7 +454,7 @@ Weighted return: **~15-20% over 2 years.** Priced for perfection.
 
 **The de-rating is arithmetic, not sentiment: the multiple fell from 47x to 44x while the stock rose 6.7%, because Q1FY27's ₹133cr replaced Q1FY26's ₹83cr in the TTM.** If Q2FY27 repeats the pattern, the trailing multiple compresses further without the price doing anything.
 
-**Peer comparison (Screener, 11-Aug-2026) — Garware has left the pack:**
+**Peer comparison (Screener, 12-Aug-2026) — Garware has left the pack:**
 
 | Company | Market cap | P/E | ROCE | ROE | Div yld |
 |---|---|---|---|---|---|
@@ -521,7 +521,7 @@ Weighted return: **~15-20% over 2 years.** Priced for perfection.
 > **What to watch:** Q1-Q2FY27 tariff impact, PPF category growth trajectory, and Sun Control Films rollout. Position sizing: **high conviction on specialty premium anchor — priced-in but quality durability.**
 
 
-### 🔄 Refreshed hook — 11-Aug-2026
+### 🔄 Refreshed hook — 12-Aug-2026
 
 > **Garware Hi-Tech is VVS Laxman — technically exquisite, plays its best innings when conditions are worst, and stays chronically under-followed while doing it.** The 50% US tariff was the hostile pitch: FY26 revenue went nowhere (₹2,109cr → ₹2,120cr, +0.5%) and Q3FY26 collapsed to a 15% operating margin. Then Q1FY27: revenue ₹633cr **+28%**, PAT ₹133cr **+60%**, operating margin **27.2% — an all-time record**, with no tax credit and no one-off propping it up. The plant is running at 75–89% utilisation, 87% of revenue is value-added, exports are 75%, and the entire ₹500cr expansion of the last five years was paid for out of cash flow with the balance sheet still debt-free on ₹774cr.
 >
@@ -541,7 +541,7 @@ Weighted return: **~15-20% over 2 years.** Priced for perfection.
 - **ValuePickr — Garware thread:** Active discussion covering PPF + Sun Control + tariff dynamics.
 - **Peer references:** Uflex, Jindal Poly Films, Cosmo First, Ester Industries.
 
-### 🔄 Refresh sources — 11-Aug-2026
+### 🔄 Refresh sources — 12-Aug-2026
 
 **Concall gate: 🟡 PARTIAL (6 transcripts on disk and read; Q1FY27 call held 7-Aug-2026, transcript not yet filed).**
 

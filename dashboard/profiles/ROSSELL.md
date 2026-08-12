@@ -1,15 +1,15 @@
 # Rossell Techsys — Company Profile
 
 **Ticker:** ROSSTECH · BSE: 544294 · NSE: ROSSTECH · **Sector:** Aerospace & Defence (Wire Harness / Interconnect / EMS) · **Conviction:** M (Under Watch)
-**Date written:** 3-Jul-2026 · **Tier A refreshed:** 11-Aug-2026
-**CMP (11-Aug-2026):** ₹1,067 · **Market Cap:** ₹4,027 cr · **P/E (TTM):** 152x · **P/B:** 26x (BV ₹41.1) · **ROCE (FY26):** 11.5% · **ROE:** 15.7% · **Div yield:** 0.02%
+**Date written:** 3-Jul-2026 · **Tier A refreshed:** 12-Aug-2026
+**CMP (12-Aug-2026):** ₹1,067 · **Market Cap:** ₹4,027 cr · **P/E (TTM):** 152x · **P/B:** 26x (BV ₹41.1) · **ROCE (FY26):** 11.5% · **ROE:** 15.7% · **Div yield:** 0.02%
 **Sources:** 4 concall transcripts (Aug-2025 → May-2026, all read) + 6 investor decks incl. Q1FY27 · Q1FY27 results + 8 BSE Reg-30 filings · Screener consolidated · ValuePickr topic 217695
 
 > **How to read this profile:** Every meaningful claim is either sourced from a concall (quarter noted) or a filing. Where I've made a judgment I've flagged it. Not a buy/sell recommendation.
 
 ---
 
-## 🔄 Refresh Log — 11-Aug-2026 (Q1FY27 + the first promoter sell-down since demerger)
+## 🔄 Refresh Log — 12-Aug-2026 (Q1FY27 + the first promoter sell-down since demerger)
 
 **Filing date:** 28-Jul-2026 (Board Meeting Outcome + Q1FY27 results + investor deck).
 **Concall gate: 🟡 PARTIAL.** Four transcripts (Q1FY26 Aug-2025 · Q2FY26 Nov-2025 · Q3FY26 Feb-2026 · Q4FY26 May-2026) plus six decks are now on disk and read — **the folder was previously empty despite v1 citing three reads, so the gate has been genuinely closed for the first time.** **The Q1FY27 transcript has not been filed** (Screener's Jul-2026 entry carries a deck only). **I also checked for an audio recording and found none** — Rossell has posted call MP3s on its own site before (the Q4FY26 recording is up), but no Q1FY27 file exists at either of the site's URL patterns and the IR page carries no new media. **So there is nothing to ask about processing this quarter.** Q1FY27 below is grounded in the results filing, the 23-page deck and the Reg-30 filings; **re-read against the transcript when filed.**
@@ -98,7 +98,7 @@
 
 **When an analyst asked directly when CFO turns positive, the answer was not a date.** CFO Jayanth V.: *"We are expecting a ramp up I think in the coming years you should be able to see much improvisation in that."*
 
-**The QIP remains pending.** Rishab, Q4FY26: *"We're also looking at a fundraise. The idea for the fundraise is primarily for Rossell to — for growth enablement infrastructure… we are proactively strengthening our balance sheet to support the next phase of accelerated global scale-up. That's the fundamental idea of doing this QIP."* **Not executed as at 11-Aug-2026.** On PAT margin he was explicit that the answer depends on it: *"it completely depends on when the QIP happens as well and when the fundraise happens."*
+**The QIP remains pending.** Rishab, Q4FY26: *"We're also looking at a fundraise. The idea for the fundraise is primarily for Rossell to — for growth enablement infrastructure… we are proactively strengthening our balance sheet to support the next phase of accelerated global scale-up. That's the fundamental idea of doing this QIP."* **Not executed as at 12-Aug-2026.** On PAT margin he was explicit that the answer depends on it: *"it completely depends on when the QIP happens as well and when the fundraise happens."*
 
 ### 🔴 The finding v1 could not have had: promoters sold 4.9% on 31-Jul-2026
 
@@ -158,7 +158,7 @@
 
 ### 💵 Valuation refresh
 
-| Metric | v1 (3-Jul-2026) | Refresh (11-Aug-2026) | Move |
+| Metric | v1 (3-Jul-2026) | Refresh (12-Aug-2026) | Move |
 |---|---|---|---|
 | CMP | ₹991 | **₹1,067** | +7.7% |
 | 52-week high | — | ₹1,135 | CMP is 6% off the high |
@@ -295,7 +295,7 @@ Closest peers globally: TE Connectivity (much larger), Amphenol, Belden. Rossell
 
 ~~**Promoter holding (Mar 2026): 74.80% — completely stable since demerger (Sep 2024).** No dilution, no pledges (verify at each filing). This is a strong signal: family conviction in the demerged techsys entity is very high.~~
 
-> **⤴ CORRECTED 11-Aug-2026 — this is no longer true.** On **31-Jul-2026**, three days after the Q1FY27 results, members of the Promoter Group sold **18,47,117 shares (≈4.9% of paid-up capital) to Kotak Mutual Fund** in a block deal at **₹900/share for ₹166.24cr**. **Promoter & Promoter Group fell 74.80% → 69.90%; public float rose 25.20% → 30.10%.** Sellers were **Harsh Mohan Gupta & Sons (HUF)** (7.63% → 3.63%, ₹135.71cr) and **Mr. Rishab Mohan Gupta, the Managing Director** (17.68% → 16.77%, ₹30.53cr). Harsh Mohan Gupta's own 39.49% and Vinita Gupta's 9.66% were unchanged. **The original v1 text is kept above per §0A rule 4.** Full two-sided reading in the Refresh Log — it is not a distress sale, it went to a single institution, and it creates float ahead of a pending QIP; but the family monetised ₹166cr of secondary before the company raised any primary capital.
+> **⤴ CORRECTED 12-Aug-2026 — this is no longer true.** On **31-Jul-2026**, three days after the Q1FY27 results, members of the Promoter Group sold **18,47,117 shares (≈4.9% of paid-up capital) to Kotak Mutual Fund** in a block deal at **₹900/share for ₹166.24cr**. **Promoter & Promoter Group fell 74.80% → 69.90%; public float rose 25.20% → 30.10%.** Sellers were **Harsh Mohan Gupta & Sons (HUF)** (7.63% → 3.63%, ₹135.71cr) and **Mr. Rishab Mohan Gupta, the Managing Director** (17.68% → 16.77%, ₹30.53cr). Harsh Mohan Gupta's own 39.49% and Vinita Gupta's 9.66% were unchanged. **The original v1 text is kept above per §0A rule 4.** Full two-sided reading in the Refresh Log — it is not a distress sale, it went to a single institution, and it creates float ahead of a pending QIP; but the family monetised ₹166cr of secondary before the company raised any primary capital.
 
 **Other listed entities of promoter group:**
 
@@ -338,7 +338,7 @@ The **demerger structure matters here.** In December 2024, Rossell India (the te
 **Conviction re-rate (M → MH) 10-Jul-2026:** Upgraded M→MH on 10-Jul-2026 re-rate: ~40% weighted return + Boeing T-7 US$200M + solid 10G/1Y/3🕐 scorecard. Margin 400bps below guide is real but upside dominates.
 
 
-### 🔄 Delivery scorecard — rows appended 11-Aug-2026 (v1 rows above preserved)
+### 🔄 Delivery scorecard — rows appended 12-Aug-2026 (v1 rows above preserved)
 
 | Guidance / Milestone | When | Actual delivered | Verdict |
 |---|---|---|---|
@@ -352,11 +352,11 @@ The **demerger structure matters here.** In December 2024, Rossell India (the te
 | MRO licences obtained, traction "short to medium term" | Q4FY26 | No MRO revenue disclosed | 🕐 Pending |
 | Inventory coverage 10 months → 7.67, **target 4 months** | Q4FY26 | 7.67 months at FY26; inventory days 566 → 380 | 🟡 Real progress, long way to go |
 | **CFO turning positive** | Asked directly on the Q4FY26 call | CFO Jayanth V. gave **no date**: *"in the coming years you should be able to see much improvisation"*. **FY26 CFO −₹83cr, third consecutive negative year** | 🔴 **No commitment, worsening** |
-| **QIP for "growth enablement infrastructure"** | Q4FY26 | **Not executed as at 11-Aug-2026.** Meanwhile borrowings ₹240cr → ₹409cr and an extra ₹75cr WC facility was drawn in Q1FY27 | 🕐 **Pending — the swing factor** |
+| **QIP for "growth enablement infrastructure"** | Q4FY26 | **Not executed as at 12-Aug-2026.** Meanwhile borrowings ₹240cr → ₹409cr and an extra ₹75cr WC facility was drawn in Q1FY27 | 🕐 **Pending — the swing factor** |
 | **Promoter holding stability** | v1 assumption | 🆕 **BROKEN — 74.80% → 69.90% on 31-Jul-2026**, ₹166.24cr block to Kotak MF at ₹900 | 🆕 🔴 **Reversed** |
 | ID re-appointments (Arvind Ghei, Shobhana Joshi) | 28-Jul-2026 | Recommended for 3 years from 3-Sep-2026, subject to AGM | ✅ Routine |
 
-**Refresh verdict on management (11-Aug-2026).** *The commercial engine is working; the financial engine is not keeping up, and the guidance is consistently ahead of the delivery.* Customer acquisition has been genuinely excellent — a global semiconductor OEM qualified and ordering, Boeing level-loading schedules, a ₹400cr multi-year space contract, order book up to ₹800cr, and capacity added by lease rather than construction. **But the same management has now missed its own 17–22% EBITDA band in FY25, FY26 and Q1FY27, has run negative operating cash flow for three straight years without giving a date for the turn, and has left the QIP that fixes the balance sheet unexecuted for three months while borrowings rose to 2.6x net worth.** **v1's read — "strong on volume + segment expansion + customer wins, materially weak on margin delivery" — was right and is now a longer pattern, not an investment phase.** Revised: *underwrite the order book, discount the margin guidance, and treat the QIP as the single event that determines whether the equity works.*
+**Refresh verdict on management (12-Aug-2026).** *The commercial engine is working; the financial engine is not keeping up, and the guidance is consistently ahead of the delivery.* Customer acquisition has been genuinely excellent — a global semiconductor OEM qualified and ordering, Boeing level-loading schedules, a ₹400cr multi-year space contract, order book up to ₹800cr, and capacity added by lease rather than construction. **But the same management has now missed its own 17–22% EBITDA band in FY25, FY26 and Q1FY27, has run negative operating cash flow for three straight years without giving a date for the turn, and has left the QIP that fixes the balance sheet unexecuted for three months while borrowings rose to 2.6x net worth.** **v1's read — "strong on volume + segment expansion + customer wins, materially weak on margin delivery" — was right and is now a longer pattern, not an investment phase.** Revised: *underwrite the order book, discount the margin guidance, and treat the QIP as the single event that determines whether the equity works.*
 
 ---
 
@@ -426,7 +426,7 @@ The **demerger structure matters here.** In December 2024, Rossell India (the te
 - New leased facility: 210,000 sqft, from April 2026 — total capacity almost doubles
 
 
-### 📊 Q1FY27 Refresh — FY-level numbers (11-Aug-2026)
+### 📊 Q1FY27 Refresh — FY-level numbers (12-Aug-2026)
 
 | Metric (₹cr) | FY24 | FY25 | FY26 | FY26 YoY | TTM (to Jun-26) |
 |---|---|---|---|---|---|
@@ -530,11 +530,11 @@ Rossell trades at 3-4x the P/E of peers with better margins and better ROCE. The
 Weighted expected return: ~40% over 2 years, ~18% CAGR. Better setup than Paras but worse than SSWL from a base-case perspective.
 
 
-### 🔄 Valuation Refresh — 11-Aug-2026
+### 🔄 Valuation Refresh — 12-Aug-2026
 
 Full refreshed trading metrics, the promoter block-deal price context, and the rebuilt base/bull/bear scenarios are in the **Refresh Log** at the top of this profile. Headline:
 
-| | v1 (3-Jul-2026) | Refresh (11-Aug-2026) |
+| | v1 (3-Jul-2026) | Refresh (12-Aug-2026) |
 |---|---|---|
 | CMP / Market cap | ₹991 / ₹3,737cr | **₹1,067 / ₹4,027cr** |
 | TTM P/E | 165x | **152x** |
@@ -556,7 +556,7 @@ Full refreshed trading metrics, the promoter block-deal price context, and the r
 > **⚠️ ACCUMULATING — now a three-year pattern, not an investment phase.** FY25 **14.6%**, FY26 **13.6%**, Q1FY27 **15.06%** — the 17–22% band has never been achieved. **v1's own test was ">15% to preserve narrative"; Q1FY27 cleared it by 6bps.** Note the direction is right (best operating margin in five quarters, +136bps YoY) but FY26's headline is the damning one: **revenue +87% and EBITDA margin −100bps.**
 
 **Risk 4 — QIP dilution.** Planned QIP will dilute promoter from 74.8% to ~65-68%. If the QIP price is significantly below CMP (say INR 750-850), dilution + valuation signal is double-negative. Signal: QIP announcement details.
-> **⚠️ STILL PENDING three months on — and the starting point has changed.** The QIP was flagged on the Q4FY26 call (12-May-2026) and **has not been executed as at 11-Aug-2026**, while borrowings rose to ₹409cr and a further ₹75cr working capital facility was drawn in Q1FY27. **The dilution base is now 69.90%, not 74.80%, after the 31-Jul block deal** — so a QIP takes the family toward the low 60s. **On v1's price test: the promoter block cleared at ₹900, inside v1's flagged ₹750–850 danger zone's upper edge and ~19% below today's ₹1,067.** Rishab on the Q4FY26 call made PAT guidance itself conditional on it: *"it completely depends on when the QIP happens as well and when the fundraise happens."*
+> **⚠️ STILL PENDING three months on — and the starting point has changed.** The QIP was flagged on the Q4FY26 call (12-May-2026) and **has not been executed as at 12-Aug-2026**, while borrowings rose to ₹409cr and a further ₹75cr working capital facility was drawn in Q1FY27. **The dilution base is now 69.90%, not 74.80%, after the 31-Jul block deal** — so a QIP takes the family toward the low 60s. **On v1's price test: the promoter block cleared at ₹900, inside v1's flagged ₹750–850 danger zone's upper edge and ~19% below today's ₹1,067.** Rishab on the Q4FY26 call made PAT guidance itself conditional on it: *"it completely depends on when the QIP happens as well and when the fundraise happens."*
 
 **Risk 5 — Working capital blow-up.** Inventory at 7.67 months of revenue. Debt rising to fund working capital. If growth stalls but inventory stays high, cash flow strains. Signal: Q2FY27 inventory days + net debt.
 > **🔴 MATERIALIZING — this is now the central risk, ahead of Boeing or semis.** **FY26 operating cash flow −₹83cr** (FY25 −₹42cr, FY24 +₹1cr) — **three consecutive years negative and deteriorating**, with CFO/operating profit at **−121%**. Free cash flow **−₹105cr**. Funded by **₹149cr of financing inflow** and borrowings up 70% to **₹409cr against ₹155cr of net worth (2.6x)**. **Finance cost is 42% of EBITDA and has risen every quarter for eight quarters** — which is exactly why Q1FY27 PAT *fell* 6.5% QoQ while operating profit rose 37.6%. Mitigant: inventory coverage 10 → 7.67 months and inventory days 566 → 380 are real improvement; revenue grew 87% while inventory grew 45%. **Asked directly when CFO turns positive, the CFO gave no date.**
@@ -581,13 +581,13 @@ Full refreshed trading metrics, the promoter block-deal price context, and the r
 
 ---
 
-**Bear case scenario (20% probability) — ⤴ v1 VERSION, SUPERSEDED 11-Aug-2026, kept for lineage:** Boeing slips, semi turns, margin stays flat, QIP dilutes at discount. FY28 revenue INR 900 cr, PAT INR 45 cr. Market re-rates to 55x = INR 2,500 cr. **35% downside from CMP.**
+**Bear case scenario (20% probability) — ⤴ v1 VERSION, SUPERSEDED 12-Aug-2026, kept for lineage:** Boeing slips, semi turns, margin stays flat, QIP dilutes at discount. FY28 revenue INR 900 cr, PAT INR 45 cr. Market re-rates to 55x = INR 2,500 cr. **35% downside from CMP.**
 
 **Base case (55%):** All threads work but slowly. FY28 revenue INR 1,200 cr, PAT INR 90 cr. Market pays 55–70x = INR 5,000–6,300 cr. **35–65% upside.**
 
 **Bull case (25%):** Boeing ramps on time, semi keeps growing, MRO opens, margin hits 18%. FY28 revenue INR 1,500 cr, PAT INR 150 cr. Multiple stays at 60x = INR 9,000 cr. **140% upside.**
 
-~~Weighted expected return: ~40% over 2 years = ~18% CAGR.~~ **⤴ SUPERSEDED 11-Aug-2026 → ≈ +15.4% over 2 years (≈7.4% CAGR), with a −70% bear case.** See the Refresh Log for the rebuilt scenarios. The cut comes from three places: FY27 tracking at 28% growth rather than 80–90%; a base-case multiple of 50x rather than 55–70x; and a bear case that lets the multiple compress to 40x instead of holding 55x.
+~~Weighted expected return: ~40% over 2 years = ~18% CAGR.~~ **⤴ SUPERSEDED 12-Aug-2026 → ≈ +15.4% over 2 years (≈7.4% CAGR), with a −70% bear case.** See the Refresh Log for the rebuilt scenarios. The cut comes from three places: FY27 tracking at 28% growth rather than 80–90%; a base-case multiple of 50x rather than 55–70x; and a bear case that lets the multiple compress to 40x instead of holding 55x.
 
 ---
 
@@ -602,7 +602,7 @@ Full refreshed trading metrics, the promoter block-deal price context, and the r
 > Position sizing: **medium conviction on a 2-year hold; more of a growth-story bet than a fundamental value play.** Attractive versus Paras (which has weaker order book momentum), but not as safe as SSWL. Size accordingly.
 
 
-### 🔄 Refreshed hook — 11-Aug-2026
+### 🔄 Refreshed hook — 12-Aug-2026
 
 > **Rossell Techsys is a young batsman middling the ball beautifully and running himself ragged between the wickets.** Q1FY27 revenue **₹154.7cr, +78%**; PBT **+139%**; operating margin **14.4%, best in five quarters**; order book **₹715cr → ₹800cr**; a global semiconductor OEM qualified and placing its **first order on 7-Aug-2026**; Boeing so satisfied it *"agreed to level load future schedules."* The demand is real and the customer list is genuinely hard to replicate.
 >
@@ -630,7 +630,7 @@ Full refreshed trading metrics, the promoter block-deal price context, and the r
 
 *Content is personal investment research and thesis-building for portfolio decisions. Not a buy/sell recommendation. All views subject to revision as new data arrives.*
 
-### 🔄 Refresh sources — 11-Aug-2026
+### 🔄 Refresh sources — 12-Aug-2026
 
 **Gate: 🟡 PARTIAL — but genuinely closed for the first time.** `Fetched Concalls/ROSSTECH/` was **empty** before this refresh despite v1 citing three concall reads. It now holds four transcripts and six decks.
 

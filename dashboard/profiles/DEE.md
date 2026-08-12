@@ -1,21 +1,21 @@
 # DEE Development Engineers — Company Profile
 
-**Ticker:** DEEDEV · BSE: 544198 · NSE: DEEDEV · **Sector:** Engineering / EPC (Process Piping + Heavy Fabrication + Seamless Pipes) · **Conviction:** MH (Under Watch) — *downgraded from H, 11-Aug-2026*
-**Date written:** 3-Jul-2026 · **Tier A refreshed:** 11-Aug-2026
-**CMP (11-Aug-2026):** ₹623 · **Market Cap:** ₹4,688 cr · **P/E (TTM):** 57.2x · **P/B:** 4.8x (BV ₹129) · **ROCE (FY26):** 10.9% · **ROE:** 9.33% · **Div yield:** 0.00%
+**Ticker:** DEEDEV · BSE: 544198 · NSE: DEEDEV · **Sector:** Engineering / EPC (Process Piping + Heavy Fabrication + Seamless Pipes) · **Conviction:** MH (Under Watch) — *downgraded from H, 12-Aug-2026*
+**Date written:** 3-Jul-2026 · **Tier A refreshed:** 12-Aug-2026
+**CMP (12-Aug-2026):** ₹623 · **Market Cap:** ₹4,688 cr · **P/E (TTM):** 57.2x · **P/B:** 4.8x (BV ₹129) · **ROCE (FY26):** 10.9% · **ROE:** 9.33% · **Div yield:** 0.00%
 **Sources:** 5 concall transcripts (Jun-2025 → May-2026, all read) + Q1FY27 machine transcript + 2 decks · Q1FY27 results, press release, ₹300cr preferential-issue thread, monthly order-book filings · Screener consolidated · ValuePickr topic 222243
 
 > **How to read this profile:** Every meaningful claim is either sourced from a concall (quarter noted) or a filing. Where I've made a judgment I've flagged it. This is personal thesis-building, not a buy/sell recommendation.
 
 ---
 
-## 🔄 Refresh Log — 11-Aug-2026 (Q1FY27 + a ₹300cr recapitalisation v1 knew nothing about)
+## 🔄 Refresh Log — 12-Aug-2026 (Q1FY27 + a ₹300cr recapitalisation v1 knew nothing about)
 
 **Filing date:** 4-Aug-2026 (Board Meeting Outcome + Q1FY27 results + press release); investor deck 5-Aug; earnings call 6-Aug.
 
 **Concall gate: ✅ CLEARED — and the folder was empty before this refresh** despite v1 citing four reads. Five official transcripts (Jun-2025, Aug-2025, Nov-2025, Feb-2026, May-2026) plus the Q4FY26 and Q1FY27 decks are now on disk and read.
 
-**🎧 Q1FY27 was machine-transcribed at Rajat's explicit instruction (11-Aug-2026).** DEE posted the 6-Aug earnings-call audio to its own site (`deepiping.com/document/investor/audio/Investor_Call_on_06_August_2026.mp3`, 10.6 MB, **59 minutes**) with **no transcript filed**. Per the §4A two-tier policy I asked before processing — DEE is not a held position — and was told to transcribe. Run with **mlx-whisper (`whisper-large-v3-turbo`)**; output saved as `DEEDEV_Transcript_Q1FY27_2026-08-06_MACHINE.txt` with a MACHINE header. **Speaker labels are absent and every figure below that comes from the machine transcript has been cross-checked against the press release, deck or statutory filing — the cross-check is stated wherever it matters. Re-verify against the official transcript when DEE files it.**
+**🎧 Q1FY27 was machine-transcribed at Rajat's explicit instruction (12-Aug-2026).** DEE posted the 6-Aug earnings-call audio to its own site (`deepiping.com/document/investor/audio/Investor_Call_on_06_August_2026.mp3`, 10.6 MB, **59 minutes**) with **no transcript filed**. Per the §4A two-tier policy I asked before processing — DEE is not a held position — and was told to transcribe. Run with **mlx-whisper (`whisper-large-v3-turbo`)**; output saved as `DEEDEV_Transcript_Q1FY27_2026-08-06_MACHINE.txt` with a MACHINE header. **Speaker labels are absent and every figure below that comes from the machine transcript has been cross-checked against the press release, deck or statutory filing — the cross-check is stated wherever it matters. Re-verify against the official transcript when DEE files it.**
 
 ### 📊 Q1FY27 — a good operating quarter with a bad-looking bottom line
 
@@ -218,7 +218,7 @@ Three resolutions worth recording, none individually large:
 
 ### 💵 Valuation refresh
 
-| Metric | v1 (3-Jul-2026) | Refresh (11-Aug-2026) | Move |
+| Metric | v1 (3-Jul-2026) | Refresh (12-Aug-2026) | Move |
 |---|---|---|---|
 | CMP | ₹704 | **₹623** | **−11.5%** |
 | 52-week high | — | ₹760 | **CMP is −18% off the high** |
@@ -343,7 +343,7 @@ Process piping + heavy fabrication rides four durable forces:
 
 ~~**Promoter holding (Mar 2026): 70.18% — completely stable.** Zero meaningful dilution.~~
 
-> **⤴ UPDATED 11-Aug-2026 — promoter holding is now 65.13%, and the reason matters.** This is **dilution from a ₹300cr preferential issue allotted 8-Jul-2026** (59,76,096 shares at ₹502; paid-up capital ₹69.26cr → ₹75.24cr = **7.94% dilution**), **not a promoter sale**. **The promoter subscribed to it** — confirmed by management on the Q1FY27 call (*"the subscribers include marquee institutional investors along with promoter participation"*) and by the allottee list, where **Krishan Lalit Bansal is named first**. Working from the disclosed percentages, his absolute holding rose by roughly **3.94 lakh shares (~₹20cr at ₹502)**. *That share-count arithmetic is mine, derived from rounded percentages — approximate, not disclosed.*
+> **⤴ UPDATED 12-Aug-2026 — promoter holding is now 65.13%, and the reason matters.** This is **dilution from a ₹300cr preferential issue allotted 8-Jul-2026** (59,76,096 shares at ₹502; paid-up capital ₹69.26cr → ₹75.24cr = **7.94% dilution**), **not a promoter sale**. **The promoter subscribed to it** — confirmed by management on the Q1FY27 call (*"the subscribers include marquee institutional investors along with promoter participation"*) and by the allottee list, where **Krishan Lalit Bansal is named first**. Working from the disclosed percentages, his absolute holding rose by roughly **3.94 lakh shares (~₹20cr at ₹502)**. *That share-count arithmetic is mine, derived from rounded percentages — approximate, not disclosed.*
 
 | Period | Promoter % | Note |
 |---|---|---|
@@ -375,7 +375,7 @@ None significant.
 **Conviction re-rate (MH → H) 10-Jul-2026:** Upgraded MH→H on 10-Jul-2026 re-rate: ~40% weighted return + Core EBITDA +64% YoY + capex cycle exit + 6G/0R/4🕐 clean scorecard. Non-core power drag is contained.
 
 
-### 🔄 Management roster — refreshed 11-Aug-2026
+### 🔄 Management roster — refreshed 12-Aug-2026
 
 | Role | Person | Note |
 |---|---|---|
@@ -385,7 +385,7 @@ None significant.
 | **Whole-Time Director** | **Ms. Shikha Bansal** | **Remuneration raised ₹38.49 lakh → ₹1.38cr p.a. (3.6x), effective 1-Apr-2026**, subject to a shareholder special resolution (board, 4-Aug-2026) |
 | Company Secretary & Compliance Officer | Mr. Ranjan Kumar Sarangi | |
 
-### 🔄 Delivery scorecard — rows appended 11-Aug-2026 (v1 rows above preserved)
+### 🔄 Delivery scorecard — rows appended 12-Aug-2026 (v1 rows above preserved)
 
 | Guidance / Milestone | When | Actual delivered | Verdict |
 |---|---|---|---|
@@ -403,7 +403,7 @@ None significant.
 | **🔴 GE HRSG — 15–16 units agreed** | Prior calls | **Delayed.** Management says Nooter/Eriksen fresh orders offset it; Thailand *"practically 100% booked for the coming three years"* | 🔴 **Slipped** |
 | **FY30 ₹2,500cr revenue** | Q4FY26 call | Q1FY27 call: *"we are trying that it should happen in FY29 only"* | 🕐 Pulled forward |
 
-**Refresh verdict on management (11-Aug-2026).** *This is the most transparent management in the current refresh batch, and the most aggressive with its own numbers.* DEE publishes a **monthly order-book filing** — opening, inflow, executed, closing, by entity and end-market — which almost no company of this size does, and on the Q1FY27 call the CFO volunteered exact issue mechanics (₹293cr net, ₹224.5cr already applied, ₹64cr GCP) and a hard net-debt target. **They delivered on every capital-structure promise v1 marked "to be verified": the debt reduction happened, the order book nearly doubled, the seamless plant is contributing.** **The risk is not candour, it is calibration.** Bansal committed to ">19% margin, 100%, without any doubt" while Q1 printed 16.9%, and reaffirmed ₹1,500cr+ when it requires three consecutive quarters above the best in company history. **v1's verdict — "founder-driven, executed capex cycle" — stands and is strengthened on execution.** Revised: *believe the disclosure, discount the adjectives, and let the monthly order filings arbitrate.*
+**Refresh verdict on management (12-Aug-2026).** *This is the most transparent management in the current refresh batch, and the most aggressive with its own numbers.* DEE publishes a **monthly order-book filing** — opening, inflow, executed, closing, by entity and end-market — which almost no company of this size does, and on the Q1FY27 call the CFO volunteered exact issue mechanics (₹293cr net, ₹224.5cr already applied, ₹64cr GCP) and a hard net-debt target. **They delivered on every capital-structure promise v1 marked "to be verified": the debt reduction happened, the order book nearly doubled, the seamless plant is contributing.** **The risk is not candour, it is calibration.** Bansal committed to ">19% margin, 100%, without any doubt" while Q1 printed 16.9%, and reaffirmed ₹1,500cr+ when it requires three consecutive quarters above the best in company history. **v1's verdict — "founder-driven, executed capex cycle" — stands and is strengthened on execution.** Revised: *believe the disclosure, discount the adjectives, and let the monthly order filings arbitrate.*
 
 ---
 
@@ -431,7 +431,7 @@ None significant.
 - Non-core power segment stabilisation via biomass pellet commissioning
 
 
-### 📊 Q1FY27 Refresh — FY-level numbers (11-Aug-2026, consolidated)
+### 📊 Q1FY27 Refresh — FY-level numbers (12-Aug-2026, consolidated)
 
 | Metric (₹cr) | FY24 | FY25 | FY26 | FY26 YoY | TTM (to Jun-26) |
 |---|---|---|---|---|---|
@@ -488,11 +488,11 @@ Priced for capex-cycle exit + operating leverage story.
 Weighted return: **~40% over 2 years.**
 
 
-### 🔄 Valuation Refresh — 11-Aug-2026
+### 🔄 Valuation Refresh — 12-Aug-2026
 
 Full refreshed metrics, peer context and the rebuilt base/bull/bear scenarios are in the **Refresh Log** at the top. Headline:
 
-| | v1 (3-Jul-2026) | Refresh (11-Aug-2026) |
+| | v1 (3-Jul-2026) | Refresh (12-Aug-2026) |
 |---|---|---|
 | CMP / Market cap | ₹704 / ₹4,850cr | **₹623 / ₹4,688cr** (−11.5% on price) |
 | TTM P/E | 61.5x | **57.2x** |
@@ -546,7 +546,7 @@ Full refreshed metrics, peer context and the rebuilt base/bull/bear scenarios ar
 > **What to watch:** Q1-Q2FY27 core EBITDA sustainability, non-core segment breakeven timeline, and debt reduction trajectory. Position sizing: **medium-high conviction on the capex-cycle-exit story.**
 
 
-### 🔄 Refreshed hook — 11-Aug-2026
+### 🔄 Refreshed hook — 12-Aug-2026
 
 > **DEE Development Engineers just refinanced itself out of its biggest problem, and the market has marked it down 18% anyway.** Q1FY27 revenue **₹294.5cr, +31.6%**; EBITDA **₹49.7cr at a record 16.9%**; order book **₹2,428cr, +92.5% YoY** — 2.1x coverage — including a **₹386.86cr BPCL order**. Two years of debt-funded capex are over, Anjar is running at 62–65%, and the seamless plant is already showing up in the margin.
 >
@@ -574,12 +574,12 @@ Full refreshed metrics, peer context and the rebuilt base/bull/bear scenarios ar
 
 *Content is personal investment research and thesis-building for portfolio decisions. Not a buy/sell recommendation. All views subject to revision as new data arrives.*
 
-### 🔄 Refresh sources — 11-Aug-2026
+### 🔄 Refresh sources — 12-Aug-2026
 
 **Gate: ✅ CLEARED — and closed for the first time.** `Fetched Concalls/DEEDEV/` was **empty** before this refresh despite v1 citing four concall reads.
 
 - **Official concall transcripts read in full** (`pdftotext -layout`): **Q4FY26 (call 22-May-2026 — source of the ₹1,500cr FY27 and ₹2,500cr FY30 targets)**, Q3FY26 (Feb-2026), Q2FY26 (Nov-2025), Q1FY26 (Aug-2025), Q4FY25 (Jun-2025). Investor decks: Q1FY27 (5-Aug-2026) and Q4FY26.
-- **🎧 Q1FY27 MACHINE TRANSCRIPT — `DEEDEV_Transcript_Q1FY27_2026-08-06_MACHINE.txt`.** Source audio `deepiping.com/document/investor/audio/Investor_Call_on_06_August_2026.mp3` (10.6 MB, **59 min 05 s**), transcribed with **mlx-whisper / `whisper-large-v3-turbo`** on 11-Aug-2026 **at Rajat's explicit instruction** after the §4A two-tier question was put to him. **No official transcript had been filed.** Header marks it MACHINE; speaker labels are absent; **three load-bearing figures were cross-checked at source and the results are tabulated in the Refresh Log — one ASR error found (BPCL ₹386.82cr vs the filing's ₹386.86cr), one figure reconciled (tariff ₹5.44 = PSERC's ₹5.224 plus the 5% escalation), and the three headline P&L numbers matched exactly.** **Re-verify against the official transcript when filed.**
+- **🎧 Q1FY27 MACHINE TRANSCRIPT — `DEEDEV_Transcript_Q1FY27_2026-08-06_MACHINE.txt`.** Source audio `deepiping.com/document/investor/audio/Investor_Call_on_06_August_2026.mp3` (10.6 MB, **59 min 05 s**), transcribed with **mlx-whisper / `whisper-large-v3-turbo`** on 12-Aug-2026 **at Rajat's explicit instruction** after the §4A two-tier question was put to him. **No official transcript had been filed.** Header marks it MACHINE; speaker labels are absent; **three load-bearing figures were cross-checked at source and the results are tabulated in the Refresh Log — one ASR error found (BPCL ₹386.82cr vs the filing's ₹386.86cr), one figure reconciled (tariff ₹5.44 = PSERC's ₹5.224 plus the 5% escalation), and the three headline P&L numbers matched exactly.** **Re-verify against the official transcript when filed.**
 - **BSE filings downloaded and text-extracted** (scrip 544198): Q1FY27 results + Board Meeting Outcome + press release (**4-Aug-2026**); investor presentation (5-Aug); **Analyst/Investor Meet — Outcome (7-Aug)**; **monthly order-book filings (10-Aug, 9-Jul, 8-Jun, 8-May, 8-Apr)**; **₹300cr preferential-issue thread** — board approval 3-Jun, EGM notice 3-Jun, corrigenda 18–19 Jun, **EGM outcome 27-Jun**, **allotment 8-Jul**; **BPCL order ₹386.86cr (30-May)**; contracts ₹206.55cr (2-Jun); DEE Fabricom windmill-tower order ₹64cr from Ganeko Solar (23-Jun); **PSERC final tariff order (1-Apr)**.
 - **Screener consolidated**, parsed directly from HTML by `curl` + Python — no extraction-model layer.
 - **ValuePickr** — topic **222243**, 4 posts, opened 2-Jul-2026. All read.
