@@ -1,6 +1,7 @@
 # Haldyn Glass — Company Profile
 
-**Ticker:** HALDYNGL · BSE: 515147 · NSE: HALDYNGL · **Sector:** Packaging & Materials (Glass Containers — Pharma + F&B + Cosmetics) · **Conviction:** Medium
+**Ticker:** HALDYNGL · **BSE: 515147** · **NSE: HALDYNGL** *(listed on NSE **20-Apr-2026**, series **BE**, ISIN INE506D01020 — confirmed from NSE's `EQUITY_L.csv` master list)*
+> ⚠️ **Announcements caveat:** NSE's corporate-announcements API returns **zero records** for HALDYNGL across its entire NSE listing period. **Use the BSE feed (515147) for this company's filings.** *An earlier note here wrongly concluded it was not NSE-listed — see the correction in CLAUDE.md §4A.* · **Sector:** Packaging & Materials (Glass Containers — Pharma + F&B + Cosmetics) · **Conviction:** Medium
 **Date written:** 3-Jul-2026 · **CMP:** ₹119 · **Market Cap:** ₹632 cr · **P/E (trailing):** 24.1x · **ROCE:** 13.5% · **ROE:** 11.6%
 **Sources:** Screener consolidated view · ValuePickr Haldyn Glass thread (last 18 months) · BSE filings · Public disclosures
 

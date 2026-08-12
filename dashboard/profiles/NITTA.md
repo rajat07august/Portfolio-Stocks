@@ -1,6 +1,7 @@
 # Nitta Gelatin India — Company Profile
 
-**Ticker:** NITTAGELA · BSE: 506532 · NSE: NITTAGELA · **Sector:** Pharma & Excipients (Gelatin + Collagen Peptide + Ossein) · **Conviction:** MH (Under Watch) — *downgraded from High, 12-Aug-2026*
+**Ticker:** NITTAGELA · **BSE: 506532** · **NSE: NITTAGELA** *(listed on NSE **20-Apr-2026**, series **EQ**, ISIN INE265B01019 — confirmed from NSE's `EQUITY_L.csv` master list)*
+> ⚠️ **Announcements caveat:** NSE's corporate-announcements API returns **zero records** for NITTAGELA across its entire NSE listing period. **Use the BSE feed (506532) for this company's filings.** *An earlier note here wrongly concluded it was not NSE-listed — see the correction in CLAUDE.md §4A.* · **Sector:** Pharma & Excipients (Gelatin + Collagen Peptide + Ossein) · **Conviction:** MH (Under Watch) — *downgraded from High, 12-Aug-2026*
 **Date written:** 3-Jul-2026 · **Tier A refreshed:** 12-Aug-2026
 **CMP (12-Aug-2026):** ₹1,612 · **Market Cap:** ₹1,461 cr · **P/E (TTM):** 14.1x · **ROCE (FY26):** 27.7% · **ROE:** 21.0% · **Book Value:** ₹563 (P/B 2.86x) · **Div yield:** 0.43% (₹7/share, FY26)
 **Sources:** FY26 Annual Report (50th, filed 8-Jul-2026) · Q1FY27 / Q4FY26 / Q3FY26 statutory filings read as PDF pages · 11 BSE Reg-30 filings · Screener consolidated · ValuePickr topic 11716

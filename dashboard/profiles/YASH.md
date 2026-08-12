@@ -1,6 +1,6 @@
 # Yash Highvoltage — Company Profile
 
-**Ticker:** YASHHIGH · BSE: 544310 · NSE: YASHHIGHV · **Sector:** Power T&D Components (High-Voltage Transformer Bushings) · **Conviction:** High
+**Ticker:** YASHHIGH · **BSE: 544310** · **⚠️ NOT NSE-listed** *(corrected 12-Aug-2026 — the header previously read "NSE: YASHHIGHV". **Verified against NSE's `EQUITY_L.csv` master list: no YASHHIGHV symbol exists** (the only YASH* entries are Yasho Industries and Viyash Scientific, different companies). **BSE 544310 is the only feed for this name.**)* · **Sector:** Power T&D Components (High-Voltage Transformer Bushings) · **Conviction:** High
 **Date written:** 3-Jul-2026 · **CMP:** ₹831 · **Market Cap:** ₹2,379 cr · **P/E (trailing):** 61.1x · **ROCE:** 28.6% · **ROE:** 23.5%
 **Sources:** Concalls Q3FY25, Q1FY26, Q3FY26, H2FY26 (4 reads) · Screener consolidated view · ValuePickr Yash Highvoltage thread (last 18 months) · BSE filings
 

@@ -253,7 +253,37 @@ curl -s -L -H "User-Agent: $UA" -H "Referer: https://www.nseindia.com/" -o out.p
 4. **`attchmntText`** carries a one-line summary, so you can triage without opening the PDF.
 5. **Dual-listed names can be cross-checked against two independent feeds** — the cheapest possible defence against a mis-keyed identifier.
 
-**BSE remains necessary — this is additive, not a replacement.** Verified 12-Aug-2026: **AMIC (544037), SUNITA (544001), SYSTEMATIC (544541), CONCORDCS (543619), RAJESH, YASH** return nothing from NSE under their obvious symbols — the BSE-SME / BSE-only cohort. **Rule: NSE first for anything with a known NSE symbol (and the only option for NSE-SME); BSE for the BSE-SME/BSE-only names; both when a cross-check matters.**
+**BSE remains necessary — this is additive, not a replacement.**
+
+**✅ Verified NSE symbols (12-Aug-2026):** `DYNAMATIC → DYNAMATECH` *(not DYNAMATIC)* · `WHEELS → WHEELS` *(ISIN INE715A01015)* · `HALDYN → HALDYNGL` · `NITTA → NITTAGELA` · `SATHLOKHAR → SSEGL (sme)` · `ORIANA → ORIANA (sme)` · `ACCENT → ACCENTMIC (sme)` · `AIMTRON → AIMTRON (sme)` · `OBSC → OBSCP (sme)`.
+
+**🔴🔴 A REASONING ERROR WORTH NOT REPEATING (12-Aug-2026).** I concluded that **HALDYN, NITTA and YASH were "not NSE-listed"** because NSE's corporate-announcements API returned `[]` for them, and I then "confirmed" it by pulling the *unfiltered* feed for a window containing their own results filings and finding no matching symbol among 13,113 records / 2,024 symbols. **Rajat corrected me: Haldyn and Nitta are both NSE-listed.** He was right.
+
+**The flaw: I used absence from an activity feed as proof of non-existence, then validated it against the same incomplete feed.** If a feed does not carry a company at all, it will be absent from *every* window — so the second test could only ever agree with the first. **Two tests drawing on one incomplete source are one test.** *(I also briefly treated a `get-quote` HTTP 200 as evidence of listing — that is worthless: NSE's SPA returns 200 for `ZZZFAKESYM123` too. Testing that control is what stopped me compounding the error.)*
+
+**✅ THE RIGHT TOOL — NSE's own equity master list, an enumeration rather than a feed:**
+```bash
+curl -s -H "User-Agent: $UA" -H "Referer: https://www.nseindia.com/" \
+  "https://nsearchives.nseindia.com/content/equities/EQUITY_L.csv"
+# 2,402 rows: SYMBOL, NAME, SERIES, DATE OF LISTING, PAID UP, MARKET LOT, ISIN, FACE VALUE
+grep "^HALDYNGL," EQUITY_L.csv   # -> Haldyn Glass Limited,BE,20-APR-2026,...,INE506D01020
+```
+**Rule: to decide whether a company is NSE-listed, grep `EQUITY_L.csv`. Never infer listing status from the presence or absence of announcements.**
+
+**What the master list actually shows:**
+| Ticker | NSE symbol | Listed | Series | Announcements API |
+|---|---|---|---|---|
+| HALDYN | **HALDYNGL** | **20-Apr-2026** | BE | **returns 0 records** |
+| NITTA | **NITTAGELA** | **20-Apr-2026** | EQ | **returns 0 records** |
+| DYNAMATIC | DYNAMATECH | 14-Sep-2006 | EQ | 672 records ✅ |
+| WHEELS | WHEELS | 07-Apr-2000 | EQ | 732 records ✅ |
+| YASH | — | **not in master** | — | n/a |
+
+**HALDYN and NITTA were listed on NSE only on 20-Apr-2026** — recent secondary listings — which is the most likely reason NSE's announcements feed carries nothing for them yet. **They ARE NSE-listed; NSE simply is not a usable announcements source for them. Use BSE (515147 / 506532).**
+
+**🔴 Genuinely absent from the NSE master (BSE-only):** **YASH (544310) · AMIC (544037) · SUNITA (544001) · SYSTEMATIC (544541) · CONCORDCS (543619) · RAJESH**.
+
+**Rule: NSE first for anything with a verified NSE symbol (and the only option for NSE-SME); BSE for the BSE-only names and for HALDYN/NITTA; both when a cross-check matters. Verify symbols against `EQUITY_L.csv`, not against a profile header — several were wrong in both directions.**
 
 ### 🔧 Platform findings (verified 23-Jul-2026 — apply to the Cowork sandbox environment; superseded by the block above when running in Claude Code on the Mac)
 
