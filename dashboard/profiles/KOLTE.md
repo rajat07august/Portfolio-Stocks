@@ -1,6 +1,8 @@
 # Kolte-Patil Developers (KPDL) — Company Profile
 
-**Ticker:** KOLTEPATIL · BSE: 532924 · NSE: KOLTEPATIL · **Sector:** Real Estate (Residential Developer — Pune + Bangalore + Mumbai) · **Conviction:** **Medium (Under Watch)** — downgraded from High 2-Aug-2026
+**Ticker:** KOLTEPATIL · BSE: 532924 · NSE: KOLTEPATIL · **Sector:** Real Estate (Residential Developer — Pune + Bangalore + Mumbai) · **Conviction:** **MH (Under Watch)** — *upgraded from Medium 12-Aug-2026, on verification of the recognition-trough thesis*
+**CMP (12-Aug-2026):** ₹497 · **Market Cap:** ₹4,410 cr · **P/B:** 3.65x (BV ₹136) · **Dividend:** nil
+**⚠️ Trailing P/E (35.4x), ROCE (−0.32%) and ROE (−4.36%) are all computed on a TTM containing three loss quarters and are actively misleading — see the valuation note.**
 **Date written:** 3-Jul-2026 · **CMP:** ₹364.10 · **Market Cap:** ~₹2,750 cr (est) · **Listing:** Mainboard
 **Sources:** Concalls Q3FY25, Q4FY25, Q1FY26 (3 reads — **the last three that exist**) + Q2/Q3/Q4FY26 investor PPTs · BSE announcement feed (API) · ValuePickr topic 263 · Screener (curl + HTML parse)
 
@@ -13,6 +15,175 @@
 > Verified three ways: (a) Screener lists **Transcript links only through Aug-2025**, PPT-only for Nov-2025 / Feb-2026 / May-2026; (b) the **BSE announcements API** (50 filings since 1-Oct-2025) contains **no transcript filing of any kind**; (c) the two "Update on the Post-Results Conference Call" letters above, downloaded and read.
 >
 > **The last earnings call Kolte-Patil held was Q1FY26 (August 2025). There is nothing to fetch.** This is a disclosure-practice change, not a repository gap — and it is now treated as a **thesis input**, not a footnote. See the Refresh Log.
+
+---
+
+## 🔄 Refresh Log — 12-Aug-2026 (Q1FY27 — the recognition-trough call was right, and the proof arrived)
+
+**Filing date:** 10-Aug-2026 (Board Meeting Outcome + results + press release + deck).
+
+### 🟢 Finding 1 — v1's central *unverified inference* is now verified by outcome
+
+**Ten days ago this profile said, in the FY26 loss-year analysis:**
+> *"Real-estate revenue is recognised on completion/handover, not on sale… the P&L is in a recognition trough because fewer projects hit completion. **That is a legitimate explanation — but it is my inference, because there is no concall in which management makes it.** The honest position: the cash is real, the timing story is plausible, and **it is unverified**."*
+
+**Q1FY27 settles it.** From the company's own release:
+> *"**Record total income of Rs. 937 crore driven by the completion of ~1.27 Mn. Sq. Ft.** across projects in Pune and Mumbai."*
+
+| Metric | FY26 (full year) | **Q1FY27 (one quarter)** |
+|---|---|---|
+| Revenue | ₹735cr | **₹920cr** |
+| Total income | — | **₹937cr (record)** |
+| Operating profit | **−₹61cr** | **₹189cr** |
+| OPM | −8% | **21%** |
+| PBT | −₹28cr | **₹199cr** |
+| **PAT** | **−₹38cr** | **₹147cr** (₹146cr post-MI) |
+| EPS | −₹4.36 | **₹16.49** |
+
+**One quarter of FY27 produced more revenue than the whole of FY26, and swung a full-year loss into a ₹147cr profit.** The quarterly series makes the mechanism unmistakable:
+
+| Quarter | Revenue | PAT |
+|---|---|---|
+| Jun 2025 | ₹82cr | −₹17cr |
+| Sep 2025 | ₹139cr | −₹11cr |
+| Dec 2025 | ₹265cr | ₹4cr |
+| Mar 2026 | ₹249cr | −₹15cr |
+| **Jun 2026** | **₹920cr** | **₹147cr** |
+
+***This is the single most important thing in this refresh.*** v1 downgraded two notches to Medium explicitly because *"I can't verify any of it."* **The specific item it could not verify has now verified itself.** *Note what this does and does not prove: it confirms the accounting mechanism, not that the business is compounding. FY25 revenue was ₹1,717cr, FY26 ₹735cr — a 57% collapse — and Q1FY27 alone was ₹920cr. **Nothing about that pattern is smooth, and reading any single quarter of this company as a run-rate is a mistake in either direction.***
+
+**Operationally the quarter was solid rather than spectacular:**
+
+| Metric | Q1FY27 | YoY |
+|---|---|---|
+| Pre-sales value | **₹617cr** | "broadly stable" |
+| **Collections** | **₹715cr** | **+30%** — *highest ever* |
+| **Average realisation** | **₹9,442/sq ft** | **+29%** — *highest ever* |
+| Launches | 0.78 Mn sq ft | — |
+| **Operating cash flow** | **₹212cr** | — |
+
+MD **Rajesh Patil**: *"We began FY27 in a **more measured residential real estate market**, where premium housing continued to perform well and customers increasingly favoured established developers… Pre-sales for the quarter **remained broadly stable** at Rs. 617 crore."* **Life Republic township (Pune) contributed ~34% of sales and MMR ~30%.**
+
+**⚠️ Read the realisation number carefully.** +29% average realisation with pre-sales only "broadly stable" means **volume was down and price carried the quarter** — the same pattern v1 flagged in FY26, when it noted *"a 22% volume decline the company describes as 'broadly stable'."* **That framing has not changed.**
+
+### 🟡 Finding 2 — The company explained the concall blackout for the first time
+
+**v1's Finding 1 was that the company had gone dark with no explanation.** On **10-Aug-2026** it filed a dedicated notice:
+
+> *"We hereby inform you that **the Company will not host a conference call post announcement of the Q1FY27 results.** As the Company progresses through a phase of **integration and leadership transition** it is undertaking **internal restructuring measures** to further strengthen governance, enhance operational efficiency, and align with long-term strategic priorities."*
+
+**This is a genuine improvement in disclosure quality even though it is a refusal to disclose.** Until now there was silence; there is now a stated reason, and it is one that implies the blackout is **transitional rather than permanent** — "integration" points squarely at the Blackstone transaction and "leadership transition" at the senior-team build-out this profile documented in May (Anil Dwivedi, Vishal Mariya, Pranav Mehta, Mahendra Kumar Chauhan).
+
+**🔴 But it is still the fourth consecutive quarter without a call**, and the Screener concall record confirms it: **Transcript + PPT** for Feb-2025, May-2025 and Aug-2025; **PPT only** for Nov-2025, Feb-2026, May-2026 and Aug-2026. **Every judgement in this profile continues to rest on filings without management Q&A, and no analyst has been able to ask about the GST matter, the volume decline, or the Mumbai economics.**
+
+### 🟢 Finding 3 — A ₹6,000cr GDV addition in MMR, announced four days before results
+
+**On 6-Aug-2026 the company announced its largest-ever annual business-development addition in Mumbai:**
+
+> *"the addition of **six society redevelopment projects** across prime locations in the Mumbai Metropolitan Region (MMR), with a **combined estimated GDV of Rs. 6,000 crore**. This represents the Company's **largest annual business development addition in MMR to date**."*
+
+**Locations: Santacruz West, Andheri West (Lokhandwala), Oshiwara, Versova, Ghatkopar East and Vashi** — established residential micro-markets. **All six are "expected to be launched over the next 6 to 12 months, subject to requisite approvals."**
+
+**₹6,000cr of GDV against a ₹4,410cr market cap is a large number** — but three qualifications belong with it. **First, GDV is gross development value over a multi-year build, not revenue or profit.** **Second, these are society redevelopment projects**, which carry approval, tenant-consent and rehab-obligation risk that greenfield land does not. **Third, "subject to requisite approvals" is doing real work in that sentence** — MMR redevelopment approvals are notoriously slow. *The strategic direction is right and the scale is real; the conversion timeline is the open question, and there is no call at which to ask about it.*
+
+### ⚠️ Finding 4 — The GST Section 74 matter is unmentioned anywhere
+
+**v1 surfaced Show Cause Notices under Section 74(1) CGST/MGST — the fraud / wilful-misstatement provision — with combined exposure ~₹150cr.**
+
+**It appears nowhere in the Q1FY27 results filing, press release or investor presentation.** Not resolved, not updated, not referenced. **On a now-₹4,410cr market cap the exposure is ~3.4%.** *Contested and unresolved, and with no call, still undiscussable.*
+
+### 💰 Balance sheet and cash
+
+| Metric | FY24 | FY25 | FY26 |
+|---|---|---|---|
+| Revenue | ₹1,371cr | ₹1,717cr | **₹735cr** |
+| PAT | −₹67cr | ₹109cr | **−₹38cr** |
+| **Cash from operations** | −₹111cr | ₹282cr | **₹217cr** |
+| Free cash flow | −₹153cr | ₹225cr | **₹188cr** |
+| Borrowings | ₹1,117cr | ₹1,139cr | **₹1,183cr** |
+| **Other liabilities** (incl. customer advances) | ₹3,071cr | ₹3,322cr | **₹5,167cr (+56%)** |
+| Investments | ₹125cr | ₹60cr | **₹476cr** |
+| Reserves | ₹677cr | ₹754cr | **₹1,118cr** |
+| Equity capital | ₹76cr | ₹76cr | **₹89cr** |
+| **Working capital days** | −17 | −74 | **−201** |
+
+**The equity capital step from ₹76cr to ₹89cr is the Blackstone preferential tranche**, and reserves rose ₹364cr alongside it. **Other liabilities up 56% to ₹5,167cr is customer advances** — consistent with collections of ₹715cr in a single quarter and with working-capital days at **−201**, i.e. customers are funding the build. **Q1FY27 operating cash flow was ₹212cr.**
+
+**The cash story was never the problem** — v1 said so, and it holds. Borrowings are broadly flat at ₹1,183cr.
+
+### 👥 Shareholding — the float keeps shrinking, FIIs keep buying
+
+| Period | Promoter *(incl. Blackstone)* | FII | DII | Public | Shareholders |
+|---|---|---|---|---|---|
+| Mar 2025 | 69.45% | 4.15% | 5.59% | 20.81% | 54,497 |
+| Sep 2025 | **73.81%** | 8.77% | 3.70% | 13.71% | 45,226 |
+| Mar 2026 | 73.81% | 9.96% | 3.38% | 12.82% | 41,772 |
+| **Jun 2026** | **73.81%** | **10.61%** | **3.30%** | **12.28%** | **40,601** |
+
+**FII holding has gone 4.15% → 10.61% in five quarters — more than doubled — while DII went 5.59% → 3.30% and the public float fell to 12.28%.** Shareholder count is down **25%** from 54,497 to 40,601.
+
+***My reading, flagged as mine:*** **foreign institutions have been the marginal buyer through the entire blackout period** — they were buying while the company stopped talking and while domestic institutions sold. On a 12.28% float, that is a thin market with a concentrated register.
+
+### 💵 Valuation refresh
+
+| Metric | v1 (2-Aug-2026) | Refresh (12-Aug-2026) | Move |
+|---|---|---|---|
+| CMP | ~₹385 | **₹497** | **+29%** in ten days |
+| 52-week high | — | ₹557 | CMP 10.8% below |
+| Market cap | ~₹3,415cr | **₹4,410cr** | +29% |
+| P/E (TTM) | — | **35.4x** on TTM PAT ₹125cr | *TTM contains three loss quarters* |
+| **P/B** | — | **3.65x** (BV ₹136) | — |
+| ROCE / ROE | — | **−0.32% / −4.36%** | *both are stale FY26 loss-year figures* |
+| Dividend | 0% | **0%** | — |
+
+**⚠️ Every headline ratio on this name is currently misleading, in both directions.** P/E of 35.4x is computed on a TTM that contains three loss quarters; annualising Q1FY27's ₹147cr instead would give ~7.5x, which is equally meaningless. **ROCE of −0.32% and ROE of −4.36% are FY26 figures and are already contradicted by Q1FY27.** *For a completion-accounting developer the honest anchors are pre-sales, collections, GDV pipeline and book value — not trailing earnings.*
+
+**Refreshed scenarios (2-year horizon to FY28):**
+
+- **Base — 55%.** The completion cycle normalises: FY27 revenue ~₹2,200cr with PAT ~₹250cr (Q1 already ₹147cr), and FY28 ~₹2,600cr / **~₹280cr** as the first MMR redevelopments begin contributing. At **20x** → **₹5,600cr. ≈ +27%.**
+- **Bull — 25%.** The ₹6,000cr MMR GDV converts on the 6–12 month launch guidance, Life Republic keeps compounding, realisations hold, and the company resumes calls — removing the disclosure discount. FY28 revenue **~₹3,000cr**, PAT **~₹350cr** at **22x** → **₹7,700cr. ≈ +75%.**
+- **Bear — 20%.** Completions slip into another trough year as they did in FY26; MMR approvals delay past 12 months; the **~₹150cr Section 74 GST claim goes against them**; and the blackout persists into a second year, forcing a governance discount. FY28 revenue **~₹1,600cr**, PAT **~₹110cr** at **15x** → **₹1,650cr. ≈ −63%.**
+
+**Weighted expected return ≈ 0.55(+27%) + 0.25(+75%) + 0.20(−63%) = +21% over two years ≈ 10% CAGR.** No dividend.
+
+**The −63% bear is deliberately severe and it is warranted by this company's own recent record:** FY26 revenue fell 57% and produced a loss. **A completion-accounting developer with a lumpy schedule, a contested fraud-provision tax claim, a 12% float and no earnings calls can de-rate hard, and did within the last eighteen months.**
+
+### 🔁 Conviction: **MEDIUM → MH (Under Watch)** — an upgrade, on verification
+
+**v1 downgraded two notches to Medium on 2-Aug and gave a precise reason: *"The correction here isn't a change in the business — it's a change in what I actually know about it."*** **What I know has now changed back, on the specific item that drove the downgrade.**
+
+**What has been resolved since 2-Aug:**
+1. **The recognition-trough hypothesis is confirmed** — ₹937cr record total income on 1.27 Mn sq ft of completions, FY26's loss reversed to ₹147cr of quarterly PAT.
+2. **The blackout now has a stated, plausible and probably temporary reason** — "integration and leadership transition", filed formally rather than left as silence.
+3. **A ₹6,000cr GDV MMR addition** — the largest in the company's history — with launches guided for 6–12 months.
+4. **Collections +30% and realisations +29%, both highest-ever**, with ₹212cr of quarterly operating cash flow.
+
+**What has not, and is why this is MH rather than a return to High:**
+1. **Still no earnings call — a fourth consecutive quarter.** No analyst has questioned management since August 2025.
+2. **The ~₹150cr Section 74 GST claim is unmentioned** in any Q1FY27 document.
+3. **Volume is still declining and price is doing the work** — "broadly stable" pre-sales with +29% realisation.
+4. **The stock is up 29% in the ten days since the downgrade**, so a good part of the verification is already paid for.
+5. **Float 12.28%, DII 3.30%, shareholder count −25%** — a thin, concentrated market.
+
+**Upgrade triggers back to High:**
+1. **Calls resume** — that single event removes most of the discount in this profile.
+2. **Two consecutive quarters of positive PAT**, proving FY27 is a cycle and not a single completion spike.
+3. **GST matter resolved or quantified** in a disclosure.
+4. **First MMR redevelopment launch** inside the guided 6–12 months.
+
+**Downgrade triggers back to Medium:**
+1. **Q2FY27 revenue below ₹300cr with a loss** — indicating Q1 was a one-off completion spike rather than a normalised cycle.
+2. **Pre-sales falling below ₹550cr**, i.e. volume decline outrunning price.
+3. **A fifth quarter with no call and no further explanation.**
+
+### 👁️ Watch items for next refresh
+1. **Do calls resume?** — the "integration and leadership transition" language implies they should.
+2. **Q2FY27 revenue and PAT** — is FY27 a cycle or was Q1 a spike?
+3. **Pre-sales volume vs realisation** — price has carried two consecutive periods.
+4. **The six MMR redevelopment launches** against the 6–12 month guidance.
+5. **GST Section 74** — any disclosure at all.
+6. **FII holding** past 10.61%, and whether the float falls below 12%.
+7. **Borrowings** at ₹1,183cr against the MMR build-out.
 
 ---
 

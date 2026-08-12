@@ -97,7 +97,7 @@ Status legend: `⏳ pending` · `🔨 in progress` · `✅ complete`
 - ✅ [Yash Highvoltage](./YASH.md) *(3-Jul-2026)*
 
 ### 15. Real Estate (1) ✅ Complete
-- ✅ [Kolte Patil Developers](./KOLTE.md) *(3-Jul-2026 · **Tier A refreshed 2-Aug-2026** — data-quality note corrected: concalls don't exist, company stopped holding them Aug-2025; FY26 loss year + ₹150cr GST Section 74 claim surfaced; H → M Under Watch)*
+- ✅ [Kolte Patil Developers](./KOLTE.md) *(3-Jul-2026 · Tier A refreshed 2-Aug-2026 · **refreshed again 12-Aug-2026** — **the recognition-trough thesis the 2-Aug refresh could not verify is now confirmed by outcome**: record ₹937cr total income on 1.27 Mn sq ft of completions, ₹147cr PAT against an FY26 loss year. Plus a **₹6,000cr GDV MMR addition**. Blackout finally explained but it is the 4th quarter with no call, and the ₹150cr GST Section 74 claim is still unmentioned. **M → MH (Under Watch)** — an upgrade)*
 
 ### 16. Water Infrastructure (1) ✅ Complete
 - ✅ [Electrosteel Castings](./ECL.md) *(3-Jul-2026)*
