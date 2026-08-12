@@ -54,14 +54,14 @@ When a company wants a factory, a warehouse, a data centre or a semiconductor fa
 ## 3. What Makes This Company Different
 
 **Moat 1 — Genuine vertical integration.** Design, engineering, manufacturing, project management and erection in-house. Most competitors do some subset.
-**Moat 2 — Design depth as the real barrier.** 155+ qualified structural design engineers and detailers on Staad Pro, MBS, FrameCad, Tekla, AutoCAD, ZWCAD. Nanda's own framing on the Q4FY26 call is that competitors *"are prepared"* only when they have *"the capacity and skill to do design engineering"* — the constraint is engineers, not presses.
+**Moat 2 — Design depth as the real barrier, and it is deeper than it looks.** 155+ qualified structural design engineers and detailers on Staad Pro, MBS, FrameCad, Tekla, AutoCAD, ZWCAD. **Interarch does not bid to someone else’s structural design — it creates the design in order to bid.** CEO Manish Garg on the Q1FY27 call: *“We do **not** get the final structural design from either the consultant or the customer… For every bid we only get a **design basis RFQ and the architectural drawings**. This is which **we carry out the entire structural design**… Calculate the bill of quantity… and then bid. **There is no design that comes to us from the consultant. That is what our business is.**”* **The engineering team is the product, not overhead** — and it is why capacity for Interarch means engineers as much as presses.
 **Moat 3 — Largest installed capacity in the category: 2,21,000 MTPA**, rising to ~2,90,000 by Q4FY27.
 **Moat 4 — Pan-India manufacturing footprint.** Six plants across north, south and now west. Freight on steel buildings is material; proximity wins bids.
 **Moat 5 — Erection network.** 65 empanelled and approved builders/erectors plus 90+ in-house project managers. This is the part competitors find hardest to replicate quickly.
 **Moat 6 — Marquee references in the hardest segments.** Micron Sanand and Tata Electronics Assam are semiconductor-grade references that de-risk the next fab bid.
 **Moat 7 — Repeat business.** The deck cites repeat orders as a headline FY26 metric and customer groups with multi-year association.
 **Moat 8 — Balance sheet.** Borrowings ₹18cr against ₹881cr of net worth. Growth has been funded from cash and the IPO, not leverage.
-**Moat 9 — Capacity discipline as a stated policy.** *"In a pre-engineered building, we have to go by our capacity to deliver and then only take an order."* The company refuses orders it cannot execute — which protects margin and reputation but caps growth.
+**Moat 9 — Capacity discipline as a stated policy, now with numbers behind it.** *“In a pre-engineered building, we have to go by our capacity to deliver and then only take an order.”* **The Q1FY27 call quantified it for the first time: FY26 volume was 1,62,000 t against 2,00,000 t installed — 80% of installed and ~88% of *utilizable* capacity** (management puts utilizable at 85–90% of installed). **At 88% of usable capacity, “we turn away work” is a measured fact, not a talking point.** Q1FY27 volume was **38,499 t**.
 
 **Where the moat is weaker.**
 - **Margins are thin: 8.6–10.5% EBITDA.** This is a fabrication business, not a branded one. Steel is a pass-through and pricing is competitive.
@@ -158,7 +158,9 @@ When a company wants a factory, a warehouse, a data centre or a semiconductor fa
 
 **🔴 The headline is "+20.7% revenue growth." The number that matters is that PAT went nowhere.**
 
-**Here is the bridge, and it is entirely explicable:** EBITDA rose **₹7.8cr**, other income fell **₹6.9cr** (₹9.9cr → ₹3.0cr), and depreciation rose ₹0.9cr. **Net effect on PBT: −₹0.2cr.** So *the operating business genuinely improved by 24.6% and the entire gain was consumed by a collapse in non-operating income.* **That is a better quarter than the flat PAT suggests — and a worse one than the revenue headline suggests.** *(The bridge is mine; the line items are the company's.)*
+**Here is the bridge, and it is entirely explicable:** EBITDA rose **₹7.8cr**, other income fell **₹6.9cr** (₹9.9cr → ₹3.0cr), and depreciation rose ₹0.9cr. **Net effect on PBT: −₹0.2cr.** So *the operating business genuinely improved by 24.6% and the entire gain was consumed by a fall in non-operating income.* **That is a better quarter than the flat PAT suggests — and a worse one than the revenue headline suggests.** *(The bridge is mine; the line items are the company's.)*
+
+> **✅ And the Q1FY27 call explains *why* the other income fell, which improves the read further.** Management: *"out of 180 crores that we raised during the IPO, **we've already spent 230, 40 crores**… the earlier the Treasury funds were coming in, interest was coming in because we had that money with us. **Now it is getting spent. So in a way, it is a good thing**… instead of holding it, we have now built up the capacity."* **The lost ₹6.9cr is IPO cash being converted into plant — the same fact that is pushing depreciation up 28%.** This is a company spending its treasury on capacity, not a company losing income. *See the machine-transcript section below.*
 
 **Two further things the quarter says:**
 1. **Sequentially it is a step down** — revenue −8.7%, EBITDA −25.3%, margin 10.5% → 8.6%. **But Q1 is structurally the weakest quarter here:** in FY26 the shape was ₹381 / ₹491 / ₹524 / ₹504cr. Q1 was **20.1% of FY26 revenue**; on the same seasonality Q1FY27's ₹459.6cr implies a full year of **~₹2,290cr**, comfortably at management's ₹2,150–2,200cr target. **The naive annualisation of ₹1,838cr is the wrong way to read this business.**
@@ -224,6 +226,115 @@ When a company wants a factory, a warehouse, a data centre or a semiconductor fa
 
 **₹1,864cr against FY26 revenue of ₹1,898cr is roughly one year of cover** — thin by EPC standards, normal for PEB, and consistent with management's stated policy of only booking what it can build.
 
+
+### 🎧 Q1FY27 earnings call — machine transcript, 7-Aug-2026
+
+**Interarch filed a deck and a press release but no transcript, and posted the 7-Aug call audio (9.8 MB, 81 min 51 s) to its own site.** Transcribed at Rajat's explicit instruction with **mlx-whisper (`whisper-large-v3-turbo`)** → `INTERARCH_Transcript_Q1FY27_2026-08-07_MACHINE.txt`. **The call carries a revised FY28 target, the QIP utilisation split, the JV economics, and capacity-utilisation numbers that appear in no filing.** Speakers: **Arvind Nanda (MD)** and **Manish Kumar Garg (Executive Director & CEO)**.
+
+**🔴 Verification first — machine transcripts are evidence, not gospel:**
+
+| Transcript said | Checked against | Result |
+|---|---|---|
+| Revenue ₹460cr · EBITDA ₹39cr · PAT ₹28cr · order book ₹1,864cr | Press release, 7-Aug-2026 | **✅ All four match exactly** |
+| Total capacity "about 220,000 tons… 221,000 to be precise" | Q1FY27 deck | **✅ Matches (2,21,000 MTPA)** |
+| Gujarat plant *"started… on 9th of July"* | Press release ("commissioned Phase 1… in July-26") | **✅ Consistent — the call supplies the exact date** |
+| ₹165cr order *"for a major energy company in Baroda"* | Press release ("a major order worth Rs. 165 crore in Gujarat") | **✅ Consistent — the call adds the city and sector** |
+| *"We have had a 30%, 25% increase in first quarter year on year"* | Press release: revenue **+20.7%**, EBITDA **+24.6%** | **⚠️ Do not use.** Either a misstatement or ASR garble. **The filed figures are 20.7% and 24.6%.** |
+| **Q1FY27 volume 38,499 tonnes; FY26 volume 162,000 tonnes** | — | **🟡 CALL-ONLY. No second source exists** — volumes are not in the deck, press release or Screener. Treat as management-stated. |
+
+**⚠️ One ASR artifact to be aware of:** the transcript contains a long repetition loop (the word *"following"* repeated several hundred times) where the model failed on a passage of silence or crosstalk near the start of Q&A. **A small amount of content is lost there.** Everything quoted below sits outside that region.
+
+### 🆕 What the call adds that no filing contains
+
+**1. FY28 revenue target revised UP — the headline of the call.**
+> *"With the heavy structure also starting, and at least in the next year, giving us the full capacity of phase one and partial phase two, **we want to revise our projections for 27-28 to 2,700 crores from 2,500 crores.**"*
+
+**And an explicit FY28 margin target:** *"currently we are aiming for **9.5% to 10% in 27-28**, and 26-27 remaining as we had projected."*
+
+**2. FY27 reaffirmed, with the required run-rate spelled out.**
+> *"we will meet **2,150 to 2,200** in this year. We are well on target… we want to do **at least 600 crores per quarter** going forward for next three to four quarters… **We have to actually do about 1,700 crores in the next nine months** to meet our target."*
+
+When an analyst pushed on the ₹2,200–2,300cr number, Nanda anchored low: *"we are aiming for a sales target of **2,150** right now."*
+
+**3. The Q1 softness is seasonal, and management explained the mechanism.**
+> *"nearly every year the pickup is the first quarter is lower than second quarter and then third and fourth… during these two quarters… sometimes the clearances and site conditions don't allow us to dispatch these customized materials… there is rains or there is no clearances at certain sites… the sites are flooded."*
+
+**This corroborates the seasonality argument in Section 4** — Q1 is a monsoon/site-clearance quarter, not a demand quarter.
+
+**4. 🟢 CAPACITY UTILISATION — the number that confirms the "capacity-constrained" thesis, available nowhere else.**
+
+| Metric | Figure |
+|---|---|
+| FY26 installed capacity | **2,00,000 t** |
+| FY26 volume sold | **1,62,000 t** |
+| **FY26 utilisation of installed capacity** | **~80%** |
+| **FY26 utilisation of *utilizable* capacity** | **~88%** |
+| Installed capacity today (post Kheda Ph1) | **2,21,000 t** |
+| **Q1FY27 volume** | **38,499 t** |
+| Quarterly capacity | ~50,000 t (so Q1 ≈ 77–80%) |
+
+CFO Garg: *"in our business, the **utilizable capacity is about 85 to 90% of the installed capacity**. So if I look at the utilizable capacity, we were at about **88%**."*
+
+***This is the most important operational disclosure on the call.*** **Running at ~88% of usable capacity is genuinely full for a project business** — it substantiates management's repeated claim that it turns away work, and it means the 31% capacity addition converts to revenue rather than idle assets, provided demand holds.
+
+**5. 🟢 THE WORKING-CAPITAL QUESTION — asked directly, and answered.**
+
+This was flagged in Section 4 and Risk 1 as the single most important thing to verify. **An analyst asked it outright, and management's answer was specific:**
+
+> *"**No, no. We are in a much better condition.** Last quarter, we had explained that a lot of the large projects were in the stage where **the billing had been done, money had not been recovered.** And we had also **stocked a little bit extra because of the prices going up of steel.** And on the other side, to get proper supplies, which a lot of people were not able to get, **we were paying the suppliers literally advanced payments** to buy the steel. So all these three things together had that negative effect. **Now, we are back to positive now.**"*
+
+**Three named causes — billed-but-uncollected receivables on large projects, pre-emptive steel inventory on rising prices, and advances to suppliers to secure supply — and a stated reversal.** *This does not verify itself: "back to positive" is a claim about a quarter whose balance sheet is not published (Interarch does not disclose a quarterly balance sheet). **The H1FY27 cash flow statement is where it gets proved.*** But it is a coherent, falsifiable explanation rather than a deflection, and all three causes are the kind that do unwind.
+
+**6. 🟢 THE FLAT PAT IS BETTER EXPLAINED THAN IT LOOKS — and Section 4's framing needed this.**
+
+> *"the other income is because we are spending money on CapEx… out of 180 crores that we raised during the IPO, **we've already spent 230, 40 crores**. So the earlier the Treasury funds were coming in, interest was coming in because we had that money with us. **Now it is getting spent. So in a way, it is a good thing**… instead of holding it, we have now built up the capacity. But that should give us more operational profit going forward."*
+
+**The ₹6.9cr collapse in other income is IPO treasury being converted into plant.** ***That reframes the flat PAT considerably:*** the company did not lose income, it stopped earning interest on idle cash because the cash became a factory in Kheda. **Depreciation rising 28% YoY is the same fact from the other side.** *This is management's explanation and I find it credible on the evidence — capex of ~₹240cr since 1-Apr-2024 against ₹180cr raised at IPO is consistent with it.*
+
+**7. QIP utilisation — the ₹250cr broken down.**
+
+| Use | Amount |
+|---|---|
+| **Heavy structure Phases 2 and 3, Andhra Pradesh** | **~₹140–150cr** |
+| **A second plant in Gujarat** (*"plant two, not phase two"* — land already bought) | **₹50–60cr** |
+| **Open Web Steel Joist 100% export unit** for the Canada JV | **₹50–60cr** |
+
+Why the ask went from ₹100cr to ₹250cr: *"we figured that there's a lot of change happening in the Indian landscape of industry and **we need to speeden up our expansion of plants**… Earlier it was going to be… one phase a year. **Now we are doing in one and a half years, all three phases**… the idea is to **speed up the expansion and not wait for internal resources**, because right now the market is picking up."*
+
+**And the heavy-structures plant is bigger than the deck implies:** the deck shows +25,000t (Q2FY27) and +24,000t (Q4FY27); on the call Nanda describes Phase 3 by December 2027 taking it to *"a full plant catering to about **75,000, 80,000 tons** of heavy structures, because we see a lot of demand coming from data centers and high-rise buildings."*
+
+**8. 🆕 The Canada JV — full economics, disclosed nowhere else.**
+
+| Item | Detail |
+|---|---|
+| Product | **Open Web Steel Joists (OWSJ)** — *"very commonly used"* in North America, *"India, of course, doesn't use at all"* |
+| Plant size | **~15,000 tonnes** |
+| **Full-capacity revenue** | **US$22–23 million** (at ~$1.50 realisation) |
+| **Phase 1** | **4,000–5,000 t → ~US$7.5m ≈ ₹70–75cr** |
+| **Target EBITDA margin** | **~20%** — against a group margin of 8.6% |
+| Production start | **~1 July 2027** |
+| Ramp to full capacity | **2–3 years** |
+
+Why it works, in Nanda's words: *"this is an item which requires a lot of manpower and manufacturing, which U.S. and Canada don't seem to be very competitive in… **Exports will be more profitable. Prices there are higher. We will make more profit. The expense on sales marketing is zero. Expense on project management is zero.**"*
+
+**A ~20% EBITDA margin on a business whose group margin is 8.6% is the single most interesting number in this profile.** *Small for now — ₹70–75cr in year one against ₹1,898cr of group revenue — but it is the first evidence that the export thesis is a margin story, not just a volume story.*
+
+**9. Why the industrial landscape changed — the answer behind the QIP upsizing.**
+> *"a lot of the large projects are coming into India because India is trying to encourage through PLI schemes… semiconductor plants, renewable plants, lithium battery plants, EVs. And now again the car industry has started moving… **Most of these industries require very large plants. So therefore the size has increased dramatically**… **most of the large orders today are all divided between two to three companies. There's no one company which can do it even now**… And second is **the usage of steel as a building material is also changing** — data centers, high-rise buildings… **both these things happening together is straining everybody's capacity.**"*
+
+**10. 🟢 A moat statement stronger than Section 3 gave credit for.** Asked whether customers arrive with a completed design, CEO Garg was emphatic:
+> *"We do not get the final structural design from either the consultant or the customer… For every bid, we only get what we call a **design basis RFQ and the architectural drawings**. This is which **we carry out the entire structural design**, not the building layout design. Calculate the bill of quantity, how much of which steel is going to get used and then bid… **There is no design that comes to us from the consultant. That is what our business is.**"*
+
+**Interarch is bidding on designs it creates itself, from an RFQ and architectural drawings.** That is a materially higher barrier than "fabricator who bids to spec" — the 155+ design engineers are the product, not overhead.
+
+**11. On whether the new-age segments carry better margin — an honest, hedged answer.**
+> *"margin accretive **depends on the competition**. Yes, of course, as they become larger, you become one of the few companies which can do it. **But you are not the only company. So it's not that I can demand whatever I want**… you don't compete with everybody else who can bid very low… naturally we earn a little better margin also because the moment the size of the project increases, **our productivity level also goes up**… Sometimes I have to take a very large order at a low margin."*
+
+**12. On FY27 margin specifically — management does not promise improvement this year.**
+> *"I'm **not very sure whether it will show immediate results this year** because whenever we open new plants and new areas like we have done Gujarat and heavy structure, **a lot of expense goes into that in advance of actually the sale happening**. But I think on 27-28, we are quite hopeful that we should increase our margins substantially."*
+
+**Read that against Section 6's base case: FY27 margin holding ~9.3% is the realistic expectation; the improvement is an FY28 event.**
+
 ---
 
 ## 5. Connecting the Dots
@@ -257,8 +368,8 @@ When a company wants a factory, a warehouse, a data centre or a semiconductor fa
 
 **Fair value framework (2-year horizon to FY28):**
 
-- **Base case — 55%.** FY27 lands at **~₹2,200cr** (management's target; consistent with Q1 on FY26 seasonality). EBITDA margin holds ~9.3%. FY28 gets a full year of Kheda Phase 2 and both heavy-steel phases: revenue **~₹2,600cr**, EBITDA ~9.5% = ₹247cr, PAT **~₹176cr**. **QIP dilutes ~8–9%.** At **20x** → **₹3,520cr. ≈ +24%.**
-- **Bull case — 25%.** Capacity fills as fast as management implies; exports hit the ₹100cr FY27 target and scale; the ER Steel JV starts contributing with its 100% offtake; heavy steel earns a better margin than PEB. FY28 revenue **~₹2,900cr** at **10.5%** EBITDA, PAT **~₹225cr**, and the market pays **26x** for a visible 20%+ compounder → **₹5,850cr. ≈ +106%.**
+- **Base case — 55%.** FY27 lands at **~₹2,200cr** (management's target; consistent with Q1 on FY26 seasonality). EBITDA margin holds ~9.3% — **management explicitly declines to promise improvement this year**, citing pre-revenue costs at Kheda and the heavy-structures plant. FY28 gets a full year of Kheda Phase 2 and both heavy-steel phases: revenue **~₹2,600cr**, just under management's **newly raised ₹2,700cr** FY28 target; EBITDA ~9.5%, the **bottom of the 9.5–10% they now guide for FY28**, giving ₹247cr and PAT **~₹176cr**. **QIP dilutes ~8–9%.** At **20x** → **₹3,520cr. ≈ +24%.**
+- **Bull case — 25%.** Capacity fills as fast as management implies; exports hit the ₹100cr FY27 target and scale; the **OWSJ unit starts production around 1-Jul-2027 at a guided ~20% EBITDA margin** and ramps toward its US$22–23m potential; heavy steel earns a better margin as that plant heads for 75,000–80,000t. Management's raised FY28 target of **₹2,700cr** is met or beaten. FY28 revenue **~₹2,900cr** at **10.5%** EBITDA, PAT **~₹225cr**, and the market pays **26x** for a visible 20%+ compounder → **₹5,850cr. ≈ +106%.**
 - **Bear case — 20%.** Capacity arrives into a competitive market that will not pay for it — margin stays at 8%; working capital keeps absorbing cash so the QIP funds the balance sheet rather than growth; a large receivable turns bad. FY28 revenue **~₹2,300cr**, PAT **~₹120cr**, multiple de-rates to **14x** → **₹1,680cr. ≈ −41%.**
 
 **Weighted expected return ≈ 0.55(+24%) + 0.25(+106%) + 0.20(−41%) = +31% over two years ≈ 14.5% CAGR**, plus a 0.74% dividend.
@@ -269,7 +380,8 @@ When a company wants a factory, a warehouse, a data centre or a semiconductor fa
 
 ## 7. What Could Prove Us Wrong
 
-**Risk 1 — 🔴 Operating cash flow.** FY26 CFO was **−₹19cr** on ₹135cr of PAT; CFO/operating profit **15%**; FCF **−₹138cr**; working capital days **21 → 59** in two years. Management attributes ₹124cr of receivables to one delayed large project (VP #99). **If that is right it reverses; if it is a pattern, the growth is being bought with working capital.** *This is the number I would check first, every quarter.*
+**Risk 1 — 🟡 Operating cash flow (downgraded from 🔴 after the Q1FY27 call).** FY26 CFO was **−₹19cr** on ₹135cr of PAT; CFO/operating profit **15%**; FCF **−₹138cr**; working capital days **21 → 59** in two years.
+> **The question was put to management directly on the 7-Aug call and answered with three named causes and a claimed reversal:** *"**No, no. We are in a much better condition.** …the large projects were in the stage where **the billing had been done, money had not been recovered**. And we had also **stocked a little bit extra because of the prices going up of steel**. And… **we were paying the suppliers literally advanced payments** to buy the steel. So all these three things together had that negative effect. **Now, we are back to positive now.**"* **All three are self-reversing causes rather than structural ones, which is why this drops from red to amber.** **But Interarch publishes no quarterly balance sheet, so "back to positive" is unverifiable until the H1FY27 cash flow statement.** *This remains the number I would check first.*
 
 **Risk 2 — Margins are thin and structurally so.** 8.6% EBITDA in Q1FY27, 9.3% in FY26, and it has not expanded in three years despite revenue nearly doubling. Steel is a pass-through; competition is real. **A 9% margin business has very little room between a good year and a bad one.**
 
@@ -299,11 +411,13 @@ When a company wants a factory, a warehouse, a data centre or a semiconductor fa
 >
 > **The batting is constrained by the pitch, not the bowling.** Management's own words: *"we can't take orders that we can't deliver… there is still more in the market that we could take if we had the capacity."* So they are adding **31% more capacity in eighteen months** — Kheda Phase 1 landed in **July 2026, the exact month promised in May** — and financing it with a **₹250cr QIP** and a **5-for-1 stock split**. Plus a **76:24 JV with ER Steel of Canada** in which the partner must sign a **100% offtake** for North America.
 >
-> **Q1FY27 is where the caution lives.** Revenue **+20.7%**, EBITDA **+24.6%** — and **PAT dead flat**, because other income fell ₹9.9cr → ₹3.0cr. Margin is **8.6%**, and it has not expanded in three years. Worse, **FY26 generated −₹19cr of operating cash on ₹135cr of profit**, with working capital days going **21 → 59**. Management blames one delayed ₹124cr receivable. **That claim is testable and it is the whole thesis.**
+> **Q1FY27 is where the caution lives — and where the call earns its keep.** Revenue **+20.7%**, EBITDA **+24.6%** — and **PAT dead flat**, because other income fell ₹9.9cr → ₹3.0cr. Margin **8.6%**, unexpanded in three years. Worse, **FY26 generated −₹19cr of operating cash on ₹135cr of profit**, working capital days **21 → 59**.
+>
+> **Both of those were put to management on 7 August, and both answers help.** The other-income fall is **IPO treasury being converted into plant** — ~₹240cr of capex since April 2024 against ₹180cr raised at IPO: *“instead of holding it, we have now built up the capacity.”* On working capital, three named causes — billed-but-uncollected receivables, extra steel stocked as prices rose, and **advances to suppliers to secure supply** — and *“we are back to positive now.”* **All three unwind by nature. But there is no quarterly balance sheet, so it stays unverified until H1FY27.** The call also disclosed what no filing does: **FY26 ran at ~88% of usable capacity**, and the **FY28 target has been raised from ₹2,500cr to ₹2,700cr**.
 >
 > **What you're buying:** the category leader in a formalising, policy-favoured industry at **20.8x and 39% below its 52-week high**, adding a third more capacity into demand it says it cannot currently serve, with a North American option attached. **What you're risking:** a 9% margin that will not expand, a cash conversion that broke in FY26, 8–9% dilution arriving, ROCE already down from 31% to 23%, and only eight quarters of listed history to judge any of it by. **Weighted 2-year return ≈ +31% (≈14.5% CAGR); bear case −41%.**
 >
-> **What to watch:** **H1FY27 operating cash flow above all** — does the ₹124cr receivable come back? Then the QIP price, whether the heavy-structures plant makes Q2FY27, and whether exports reach the ₹100cr FY27 target. **Conviction: MH.** *Good business, fair price, unproven cash conversion.*
+> **What to watch:** **H1FY27 operating cash flow above all** — management says it has already turned; the balance sheet will say whether that is true. Then the QIP price, whether the heavy-structures plant makes its Q2FY27 commercial start, and the **OWSJ unit's ~1-Jul-2027 production date at a guided ~20% EBITDA margin against a group 8.6%.** **Conviction: MH.** *Good business, fair price, cash conversion claimed fixed but not yet shown.*
 
 ---
 
@@ -313,7 +427,7 @@ When a company wants a factory, a warehouse, a data centre or a semiconductor fa
 
 - **Official concall transcripts read in full** (`pdftotext -layout`, in `Fetched Concalls/INTERARCH/`): **Q4FY26 (call 14-May-2026 — primary source of the FY27 ₹2,150–2,200cr target, capacity roadmap, pipeline and capacity-constraint framing)**, Q3FY26 (Feb-2026), Q2FY26 (Nov-2025), Q1FY26 (Aug-2025), Q4FY25 (May-2025), Q3FY25 (Feb-2025). Panels: **Arvind Nanda (MD)**, **Pushpendra Kumar Bansal (CFO)**, **Anil Kumar Chandani (President, Corporate Finance & Strategy)**, **Viraj Nanda (Executive Director)**, **Manish Garg (CEO)**.
 - **Investor presentations:** Q1FY27 (7-Aug-2026), Q4FY26, Q3FY26, Q2FY26, Q1FY26.
-- **🎧 Q1FY27 machine transcript** — see the dedicated note below.
+- **🎧 Q1FY27 MACHINE TRANSCRIPT** — `INTERARCH_Transcript_Q1FY27_2026-08-07_MACHINE.txt`. Source audio `interarchbuildings.com/frontend/pdfs/10046000.mp3` (9.8 MB, **81 min 51 s**), transcribed with **mlx-whisper / `whisper-large-v3-turbo`** on 12-Aug-2026 **at Rajat's explicit instruction** after the §4A two-tier question was put to him. **No official transcript had been filed.** **Six figures cross-checked at source — four matched exactly, one was consistent and added detail, and one (*“a 30%, 25% increase in first quarter”*) is a misstatement or ASR error against the filed +20.7% and is not used.** **⚠️ The transcript contains an ASR repetition loop near the start of Q&A where a short passage is lost.** **Re-verify against the official transcript when filed.**
 - **BSE filings** (scrip **544232**): Board Meeting Outcome + Q1FY27 standalone results (**6-Aug-2026**); **QIP up to ₹250cr, superseding the ₹100cr approved 27-Mar-2026**; **sub-division / stock split ₹10 → ₹2**; **MOA capital-clause alteration**; **JV with ER Steel Inc., Canada**; dividend; ESOP allotments (6-Aug and 8-Aug); press release + investor presentation (7-Aug); Monitoring Agency Report (11-Aug); order award (5-Aug, customer confidential); **Change in Management — Manish Kumar Garg elevated to Executive Director (28-Mar-2026)** and the underlying Change in Directorate (2-Feb-2026); credit rating (3-Jul-2026).
 - **Screener standalone** (`screener.in/company/INTERARCH/`), parsed directly from HTML by `curl` + Python — **the consolidated page is empty; the company reports standalone only.**
 - **ValuePickr — topic 181206, "Interarch: A Proxy Play on India's Infrastructure and Capex", 92 posts, last activity 11-Jun-2026.** Posts #96–101 read verbatim.
@@ -337,7 +451,10 @@ When a company wants a factory, a warehouse, a data centre or a semiconductor fa
 3. **Sector assignment: Sector 6 (Engineering / EPC)**, whose definition explicitly covers *"integrated construction"*, alongside DEE and SATHLOKHAR. **If EPACK Prefab or Pennar are ever added, a dedicated "Pre-Engineered Buildings & Steel Structures" sector would be worth proposing** under the §5 Option A protocol.
 4. **The capacity table's footnote reads "as on October 2025"**, which conflicts with the same deck's slide 9 statement that 2,21,000 MT is the total **post** Kheda Phase 1 (July 2026). **Slide 9 is used**, since the arithmetic of the plant-by-plant rows sums to 221,000 including Kheda Phase 1.
 5. **The Q1FY27 PAT bridge (EBITDA +₹7.8cr, other income −₹6.9cr, depreciation +₹0.9cr) is my derivation** from the company's own line items, not a company-provided reconciliation.
-6. **ValuePickr #99 is a forum member's concall notes, not a primary source.** The ₹124cr receivable and ₹100cr export target are attributed to it and should be confirmed against the Q4FY26 transcript's Q&A or management directly.
+6. **ValuePickr #99 is a forum member's concall notes, not a primary source.** The ₹124cr receivable and ₹100cr export target are attributed to it and should be confirmed against the Q4FY26 transcript or management directly.
+7. **Q1FY27 volume (38,499 t) and FY26 volume (1,62,000 t) come only from the machine transcript.** Interarch publishes no volume data in the deck, press release, results filing or on Screener. **Single-sourced and machine-transcribed — treat accordingly.**
+8. **The heavy-structures plant's eventual size differs by source:** the Q1FY27 deck shows +25,000t (Q2FY27) and +24,000t (Q4FY27); the call describes an eventual *“75,000, 80,000 tons”* plant including a Phase 3 by December 2027. **Both are reported, each attributed.**
+9. **The raised FY28 target of ₹2,700cr and the 9.5–10% FY28 margin target exist only on the Q1FY27 call** — neither is in any filing. The superseded ₹2,500cr FY28 figure appears in ValuePickr #98 (19-Mar-2026).
 
 ---
 
