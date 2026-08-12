@@ -28,7 +28,7 @@ Status legend: `⏳ pending` · `🔨 in progress` · `✅ complete`
 - ✅ [Rossell Techsys](./ROSSELL.md) *(3-Jul-2026 · **Tier A refreshed 12-Aug-2026** — Q1FY27 revenue +78% and first semiconductor order, but PAT fell QoQ as interest hit 42% of EBITDA; revenue tracking at a third of the 80-90% guidance; EBITDA band missed 3 years running; CFO negative 3 years; **promoters sold 4.9% to Kotak MF at ₹900**. Concall gate closed for the first time (folder was empty). **M (Under Watch)**, bear case −70%)*
 
 ### 2. Agri-Inputs & Seeds (2) ✅ Complete
-- ✅ [Insecticides India](./INSECTICIDES.md) *(3-Jul-2026)*
+- ✅ [Insecticides India](./INSECTICIDES.md) *(3-Jul-2026 · **Tier A refreshed 12-Aug-2026** — Q1FY27 revenue −12% and PAT −24% on a rainfall deficit, **but gross margin expanded 240bps to 31.6%**, the premiumisation thesis passing an adverse test. FY23→FY26 GP margin 23.1%→31.5% on 5.9% revenue CAGR. Concall gate cleared (6 transcripts, folder was empty). **H → MH (Under Watch)** — TTM has turned down)*
 - ✅ [Kaveri Seed Company](./KAVERI.md) *(3-Jul-2026)*
 
 ### 3. Auto Components & Forgings (7) ✅ Complete
