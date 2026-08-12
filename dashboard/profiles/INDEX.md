@@ -75,7 +75,7 @@ Status legend: `⏳ pending` · `🔨 in progress` · `✅ complete`
 - ✅ [Godawari Power & Ispat](./GPIL.md) *(3-Jul-2026)*
 
 ### 11. Packaging & Materials (4) ✅ Complete
-- ✅ [EPL](./EPL.md) *(3-Jul-2026 · **Tier A refreshed 28-Jul-2026** — 7 straight 20%+ margin quarters, dividend suspended pending merger; HELD at H Under Watch)*
+- ✅ [EPL](./EPL.md) *(3-Jul-2026 · Tier A refreshed 28-Jul-2026 · **refreshed again 12-Aug-2026** — Q1FY27 record +25.3% revenue and guidance raised to high-teens; **merger cleared CCI + antitrust in 8 countries**; but **the seven-quarter 20%+ margin streak ended** (19.6% underlying) and net debt rose 49%. **💼 HELD POSITION — now Tier 1 for audio.** HELD at H (Under Watch), trigger reset to margin + net debt)*
 - ✅ [Garware Hi-Tech Films](./GARWARE.md) *(3-Jul-2026 · **Tier A refreshed 12-Aug-2026** — Q1FY27 best quarter ever (rev +28%, PAT +60%, 27.2% record operating margin) beats FY27 guidance one quarter in; but CFO resigned 15-May with only an interim replacement, and Joint MD Mrs. Sarita Garware Ramsay died 9-Jul after 24 years. v1's chairman error corrected. HELD at MH (Under Watch))*
 - ✅ [Haldyn Glass](./HALDYN.md) *(3-Jul-2026)*
 - ✅ [Mayur Uniquoters](./MAYUR.md) *(3-Jul-2026 · **Tier A refreshed 6-Aug-2026** — Q1FY27: Q4's 31% margin anomaly reverted to 22%; promoter buying; board refresh routine; HELD at H, weighted ~27%)*
