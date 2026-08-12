@@ -60,7 +60,7 @@ Status legend: `⏳ pending` · `🔨 in progress` · `✅ complete`
 
 ### 7. Financial Services (2) ✅ Complete
 - ✅ [CARE Ratings](./CARE.md) *(3-Jul-2026)*
-- ✅ [Monarch Networth Capital](./MONARCH.md) *(3-Jul-2026)*
+- ✅ [Monarch Networth Capital](./MONARCH.md) *(3-Jul-2026 · Tier A refreshed 16-Jul-2026 · **refreshed again 12-Aug-2026** — PAT plateau now **five** quarters, but the composition reverses the read: **fees +54.9% and interest +36.1% while prop-book gains collapsed 89.5%**. TTM revenue now below FY26; ROCE 52%→28%; FY26 AR still unfiled so debtor days stay unresolved. **H → MH (Under Watch)**)*
 
 ### 8. IT / Software & Platforms (3) ✅ Complete *[definition broadened 2-Aug-2026 to admit non-BFSI enterprise software & platforms]*
 - ✅ [Aurionpro Solutions](./AURIONPRO.md) *(3-Jul-2026 · **Tier A refreshed 28-Jul-2026** — Q1FY27 print, guided margin bands breached; MH → M Under Watch)*

@@ -1,6 +1,167 @@
 # Monarch Networth Capital — Company Profile
 
-**Ticker:** MONARCH · BSE: 511551 · NSE: MONARCH · **Sector:** Financial Services (Broking + Wealth + PMS + Investment Banking + Upcoming MF) · **Conviction:** High (HELD with elevated watch — see 16-Jul-2026 refresh)
+**Ticker:** MONARCH · BSE: 511551 · NSE: MONARCH · **Sector:** Financial Services (Broking + Wealth + PMS + Investment Banking + Upcoming MF) · **Conviction:** **MH (Under Watch)** — *downgraded from High, 12-Aug-2026*
+**CMP (12-Aug-2026):** ₹379 · **Market Cap:** ₹3,002 cr · **P/E:** 16.6x · **P/B:** 3.1x (BV ₹123) · **ROCE:** 27.7% · **ROE:** 20.5% · **Div yield:** 0.27%
+**⚠️ Monarch holds no earnings calls, files no investor presentations, and its FY26 Annual Report is still unfiled — every judgement below is inferred from statutory filings.**
+
+## 🔄 Refresh Log — 12-Aug-2026 (Q1FY27 — the PAT plateau hits five quarters, and the reason is not what it looks like)
+
+**Filing date:** 10-Aug-2026 (Board Meeting Outcome + standalone & consolidated results). **Note: the queue previously recorded this as 11-Aug — corrected, see the data-quality note.**
+
+**Concall gate: N/A — Monarch holds no earnings calls.** Confirmed again this refresh: no transcript, call intimation, audio recording or investor presentation exists in any BSE filing. **This is a structural feature of the name, not a fetch gap** — v1 established it on 16-Jul-2026 and nothing has changed. The profile continues to run on statutory filings + Screener.
+
+**🔴 v1's stated next task is still blocked.** v1 said the debtor-days question *"is the single most important item to investigate on next refresh — read the FY26 Annual Report MD&A."* **The FY26 Annual Report has not been filed.** No AR, no AGM notice and no Regulation 34(1) filing appears anywhere between Aug-2025 and 12-Aug-2026. The AGM is still "ensuing" per the 11-Aug dividend filing. **The question therefore remains open for a second consecutive refresh, through no fault of the analysis.**
+
+### 📊 Q1FY27 — flat profit for the fifth quarter running
+
+| Metric (consolidated, ₹cr) | Q1FY27 | Q1FY26 | YoY | Q4FY26 | QoQ |
+|---|---|---|---|---|---|
+| **Fees and Commission Income** | **54.01** | 34.86 | **+54.9%** | 35.81 | +50.8% |
+| **Interest Income** | **32.79** | 24.10 | **+36.1%** | 31.18 | +5.2% |
+| **Net Gain/(loss) on Fair Value Changes** | **4.09** | **39.02** | **−89.5%** | 32.88 | −87.6% |
+| **Total Revenue from Operations** | **90.89** | 97.98 | **−7.2%** | 99.87 | −9.0% |
+| Other income | 0.16 | 0.40 | — | (0.34) | — |
+| Total income | 91.05 | 98.38 | −7.5% | 99.53 | −8.5% |
+| Employee benefit expenses | 14.37 | 11.34 | **+26.8%** | 9.94 | +44.5% |
+| Fees and commission expenses | 8.67 | 5.94 | +45.9% | 6.55 | +32.3% |
+| Finance costs | 2.30 | 1.63 | +41.1% | 2.02 | +13.9% |
+| Depreciation | 2.26 | 1.85 | +22.2% | 2.11 | +7.1% |
+| **Other expenses** | **7.60** | **18.06** | **−57.9%** | 15.37 | −50.6% |
+| Total expenses | 35.46 | 38.87 | −8.8% | 36.15 | −1.9% |
+| **PBT** | **55.59** | 59.51 | **−6.6%** | 63.38 | −12.3% |
+| Tax rate | **19%** | **24%** | **−500bps** | 28% | — |
+| **PAT** | **45.18** | 45.25 | **−0.2%** | 45.56 | −0.8% |
+| Basic EPS (₹) | 5.70 | 5.76 | −1.0% | 5.75 | −0.9% |
+
+*Statutory filing and Screener reconcile.*
+
+**The plateau v1 identified has extended to five quarters:**
+
+| Quarter | PAT | EPS |
+|---|---|---|
+| Jun 2025 | ₹45cr | 5.71 |
+| Sep 2025 | ₹45cr | 5.67 |
+| Dec 2025 | ₹45cr | 5.73 |
+| Mar 2026 | ₹46cr | 5.75 |
+| **Jun 2026** | **₹45cr** | **5.70** |
+
+**Five consecutive quarters within a ₹45–46cr band and an EPS range of 5.67 to 5.75. That is an extraordinarily tight plateau** — and v1 was right to flag it at four.
+
+### 🟢 But the composition says the opposite of stagnation, and this resolves v1's open question
+
+**v1 could not tell whether the plateau was operational stagnation or something else, and said so.** The Q1FY27 filing answers it, because Monarch discloses revenue in three lines:
+
+| Line | Q1FY26 | Q1FY27 | Change |
+|---|---|---|---|
+| **Fees and Commission Income** (broking, IB, wealth, PMS) | ₹34.86cr | **₹54.01cr** | **+54.9%** |
+| **Interest Income** (margin funding / lending book) | ₹24.10cr | **₹32.79cr** | **+36.1%** |
+| **Net Gain on Fair Value Changes** (treasury / proprietary book) | ₹39.02cr | **₹4.09cr** | **−89.5%** |
+
+**The operating business grew ~48% year on year. The proprietary book collapsed 89.5%. Net of the two, revenue fell 7.2%.**
+
+***This is my reading and I want to be precise about it:*** the plateau is **not** a customer-franchise problem. Fee income — the recurring, franchise-driven line — grew **54.9%**, and interest income on the funding book grew **36.1%**. What went away was **₹34.9cr of mark-to-market gain on the firm's own book**, which in Q1FY26 was **40% of total revenue** and in Q1FY27 was **4.5%**.
+
+**Two consequences follow, and they point in opposite directions:**
+- **🟢 Positive:** earnings quality has improved sharply. A rupee of fee income is worth more than a rupee of fair-value gain, because it recurs. **The five-quarter flat line conceals a large mix shift from proprietary gains toward client revenue.**
+- **🔴 Negative:** it also means the reported ₹45cr has been **propped up by a falling tax rate** — PBT fell 6.6% while PAT was flat only because the effective rate went **24% → 19%**. And **other expenses fell 57.9%**, which flattered the quarter by ₹10.5cr. Without both, PAT would have declined visibly.
+
+**Against the long record, the revenue line is now going backwards:** FY26 revenue ₹372cr (+13.4%), but **TTM revenue is ₹365cr — below the full FY26 figure.** Operating margin held at 66% (FY26 69%).
+
+### 💰 Balance sheet and cash — genuinely better
+
+| Metric | FY24 | FY25 | FY26 |
+|---|---|---|---|
+| Revenue | ₹278cr | ₹328cr | **₹372cr** |
+| PAT | ₹123cr | ₹149cr | **₹181cr** |
+| **Cash from operations** | **−₹108cr** | ₹30cr | **₹114cr** |
+| **CFO / operating profit** | −37% | 31% | **68%** |
+| Free cash flow | −₹114cr | ₹14cr | **₹106cr** |
+| Reserves | ₹312cr | ₹718cr | **₹892cr** |
+| Investments | ₹27cr | ₹120cr | **₹218cr** |
+| Borrowings | ₹113cr | ₹9cr | ₹37cr |
+| **ROCE** | **52%** | 33% | **28%** |
+| **Debtor days** | 98 | **70** | **210** |
+
+**FY26 operating cash flow of ₹114cr against ₹30cr the prior year, with CFO/operating profit up from 31% to 68%, is a material improvement that v1 could not fully weigh.** Free cash flow turned solidly positive.
+
+**⚠️ On the debtor-days spike, historical context v1 lacked.** Screener's full series: **373 (FY15) · 410 · 519 · 237 · 372 · 357 · 112 · 101 · 99 · 98 · 70 (FY25) · 210 (FY26)**. **210 days is not unprecedented for this company — it ran between 237 and 519 for six straight years to FY20.** The FY25 figure of 70 was the outlier low, not the norm. ***That does not make 210 good; it does mean the 3x jump is partly a return toward this business's own historical range rather than a novel deterioration.*** **The AR MD&A is still the place to settle it, and it is still not filed.**
+
+**⚠️ ROCE has fallen 52% → 33% → 28% across two years** as the equity base nearly tripled (reserves ₹312cr → ₹892cr). That is dilution of returns by retained capital, not operational decay — but at some point capital has to earn.
+
+### 🆕 Corporate events this quarter
+
+- **📌 "Revised Outcome & Results" (10-Aug-2026) — checked, and it is benign.** A filing titled *"Revised Outcome & Results"* landed the same day as the results, which reads like a restatement. **It is not.** The company disclosed *"an inadvertent typographical error, the letter 'P' has been mentioned at Sr. No. II on Page No. 8… the said letter 'P' should be read as 'Other Income'… the aforesaid correction is purely typographical in nature and **does not involve any change in the financial figures, results, disclosures or financial position**."* Corrected statements were re-filed. **No figures moved.** *Recorded because a "revised results" filing that turned out to be a restatement would have been a serious item, and the only way to know was to read it.*
+- **🆕 BSE surveillance clarification (28-Jul-2026).** BSE's surveillance desk (Ref. L/SURV/ONL/PV/SG/2026-2027/265) sought an explanation for *"the significant increase in the trading volume"* of the shares. The company replied that it is *"not aware of any information, event or impending announcement… which requires disclosure under Regulation 30"* and that the volume move is *"purely market-driven."* **Routine exchange surveillance, standard response — but it means the stock saw an unexplained volume spike in late July, which is worth knowing alongside the FII move below.**
+- **Final dividend ₹1 per share for FY26**, recommended 15-May-2026, **record date 21-Aug-2026**, subject to AGM approval. At ₹379 that is a **0.26% yield on a 4% payout ratio** — Monarch retains essentially everything.
+- **ESOP allotment** 11-Jun-2026.
+
+### 👥 Shareholding — the creeping accumulation stopped, and FIIs doubled
+
+| Period | Promoter | FII | DII | Public | Shareholders |
+|---|---|---|---|---|---|
+| Sep 2025 | 52.86% | 1.78% | 0.26% | 45.09% | 20,531 |
+| Dec 2025 | 53.41% | 1.44% | 0.15% | 44.99% | 19,564 |
+| Mar 2026 | **53.86%** | 1.47% | 0.15% | 44.51% | 19,072 |
+| **Jun 2026** | **53.83%** | **2.77%** | 0.15% | 43.19% | 18,430 |
+
+**v1's bullish counter-signal was promoter creeping accumulation: 52.78% → 53.86% over four quarters.** **That stopped this quarter — 53.86% → 53.83%, a 3bps dip.** Not a sell-down; but the buying paused.
+
+**Meanwhile FII holding nearly doubled: 1.47% → 2.77% (+130bps)** — the largest single-quarter foreign inflow in the series, and it coincides with the late-July volume spike that triggered the BSE query. **DII remains negligible at 0.15%.** Shareholder count fell 19,072 → 18,430.
+
+### 💵 Valuation refresh
+
+| Metric | v1 (16-Jul-2026) | Refresh (12-Aug-2026) | Move |
+|---|---|---|---|
+| CMP | ~₹388 | **₹379** | −2.3% |
+| 52-week high | — | ₹404 | CMP 6.2% below |
+| Market cap | ₹3,078cr | **₹3,002cr** | −2.5% |
+| **P/E** | ~17x | **16.6x** | — |
+| P/B | — | **3.1x** (BV ₹123) | — |
+| **ROCE** | — | **27.7%** | (FY26 28%, from 52% in FY24) |
+| ROE | — | **20.5%** | — |
+| Dividend yield | — | 0.27% | ₹1/share, 4% payout |
+
+**Refreshed scenarios (2-year horizon to FY28):**
+
+- **Base — 55%.** Fee and interest income keep compounding at 25–35% as the franchise scales; fair-value gains stay subdued rather than recovering; the MF licence contributes modestly. FY28 revenue ~₹470cr, PAT **~₹230cr**. Multiple holds **16x** → **₹3,680cr. ≈ +23%.**
+- **Bull — 25%.** The capital-markets cycle stays strong through FY28, the proprietary book returns to contributing, the mutual-fund business launches and scales, and the market re-rates a 20%+ ROE franchise. FY28 PAT **~₹300cr** at **20x** → **₹6,000cr. ≈ +100%.**
+- **Bear — 20%.** **This is a broking and proprietary-trading business and the cycle is the dominant variable.** A market downturn takes fee income down with volumes, turns fair-value gains into losses, and stresses the margin-funding book that debtor days already flag. FY28 PAT **~₹120cr** at **12x** → **₹1,440cr. ≈ −52%.**
+
+**Weighted expected return ≈ 0.55(+23%) + 0.25(+100%) + 0.20(−52%) = +27% over two years ≈ 12.8% CAGR**, plus a negligible dividend.
+
+**The −52% bear is deliberately harsh and it is the honest number for this business.** Monarch earned ₹2cr of PAT in FY20 and ₹181cr in FY26. **A 90x swing in six years is what a capital-markets intermediary does across a cycle**, and 16.6x trailing is only cheap if the earnings are durable.
+
+### 🔁 Conviction: **HIGH → MH (Under Watch)**
+
+**What genuinely improved and argues against a bigger cut:** fee income **+54.9%** and interest income **+36.1%** — the franchise is accelerating, not stalling; FY26 operating cash flow **₹114cr vs ₹30cr** with CFO/OP at 68%; earnings quality shifting from proprietary gains toward recurring client revenue; **FII holding doubled**; 16.6x on 20.5% ROE is not demanding; promoter at 53.83% with no selling.
+
+**Why not High any more:**
+1. **Five consecutive quarters of flat PAT**, and the flatness in Q1FY27 required **a 500bps tax-rate fall and a 57.9% drop in other expenses** to hold the line — PBT itself fell 6.6%.
+2. **TTM revenue (₹365cr) is now below FY26 (₹372cr)** — the top line has turned.
+3. **ROCE 52% → 33% → 28%** as the capital base nearly tripled.
+4. **The debtor-days question is unresolved for a second refresh** because the FY26 Annual Report still is not filed.
+5. **No concalls, no investor presentations, no management commentary of any kind** — every judgement here is inferred from statutory filings, which is a permanent ceiling on conviction for this name.
+
+**Downgrade triggers for Q2FY27:**
+1. **Fee and commission income growth below 20%** — that would mean the franchise, not just the prop book, is slowing.
+2. **PAT below ₹42cr**, breaking the plateau downward.
+3. **FY26 Annual Report filed and the debtor-day increase turns out to be receivable ageing rather than business mix.**
+4. **Any further fall in promoter holding.**
+
+**Upgrade case back to High:** two quarters of PAT breaking above ₹50cr *on fee-income growth* rather than on tax or fair-value swings, plus an AR that explains the debtor position benignly.
+
+### 👁️ Watch items for next refresh
+1. **The FY26 Annual Report** — still not filed; it holds the answer to the debtor-days question v1 raised in July.
+2. **Fee and commission income growth** — the cleanest read on franchise health, now that prop gains have been stripped out.
+3. **Whether fair-value gains recover** — ₹4.09cr this quarter against ₹39.02cr a year ago.
+4. **The effective tax rate** — 19% this quarter flattered PAT; a normalised 25% would have shown a decline.
+5. **Mutual fund business** — licence progress and launch.
+6. **Monarch Capital Venture WOS** (incorporated 13-May-2026, Pre-IPO vehicle) — any activity.
+7. **Promoter holding** — the creeping accumulation paused at 53.83%.
+8. **FII holding** after the +130bps quarter and the late-July volume spike.
+9. **AGM date and dividend payment** — record date 21-Aug-2026.
+
+---
 
 ## 🔄 Refresh Log — 16-Jul-2026 (Tier A — FY26 full print + BS/CFO/ratios grounded)
 
