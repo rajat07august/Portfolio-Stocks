@@ -1,8 +1,267 @@
 # Azad Engineering
 
-> **Symbol:** `AZAD` · **Sector:** Aerospace & Defence · **Batch:** 2
-> **Sources used:** Q4 FY26 concall (16-May-2026, 17 pages, read in full) · earlier concalls available (Feb/Nov/Aug/May/Feb 2025) · ValuePickr thread ["Azad Engineering - A stock picker's dream!"](https://forum.valuepickr.com/t/azad-engineering-a-stock-picker-s-dream/147652) + Trinetra AM deck · Substack: [*Lateral Thinking* / garao.in](https://garao.in/2025/05/07/azad-engineering-company-overview-and-market-position/), [*rajansingh.substack.com*](https://rajansingh.substack.com/p/azad-engineering-precision-engineering) · Yahoo Finance historical (₹2,160 → ₹2,049, -5% since Apr-26)
-> **Profile written:** 3 Jul 2026 · **Last refreshed:** 3 Jul 2026
+**Symbol:** `AZAD` · NSE: AZAD · BSE: 544061 · **Sector:** 1 — Aerospace & Defence · **Conviction:** Medium *(↓ from Medium-High, 15-Aug-2026 — see Refresh Log)*
+**v1 written:** 3-Jul-2026 (CMP ₹2,049) · **Tier A refresh:** 15-Aug-2026
+**CMP:** ₹2,718 · **Market Cap:** ₹17,552 cr · **P/E (trailing):** 126x · **P/B:** 11.5x · **ROCE:** 11.9% · **ROE:** 9.09% · **Dividend:** none *(Screener consolidated, 15-Aug-2026)*
+
+---
+
+# 🔄 Refresh Log — 15-Aug-2026 (Q1FY27)
+
+> **Concall gate: ✅ CLEARED — official transcript.** The Q1FY27 call was held **8-Aug-2026** and the transcript filed **14-Aug-2026**, exactly on AZAD's usual six-day lag. **Rajat elected to wait for the official rather than machine-transcribe** — the right call, since it landed a day later. Now on disk (69,812 chars) alongside five earlier transcripts (May-2025 → May-2026) and the Q1FY27 deck, results and monitoring report fetched on 13-Aug. Management: **Rakesh Chopdar (Chairman & CEO)**, **Vishnu Malpani (Whole-Time Director)**, **Ronak Jajoo (CFO)**; IR by Strategic Growth Advisors. Analysts included **Goldman Sachs, Investec, Avendus**.
+>
+> **This refresh also retrofits Section 3.5** (Management Track Record & Promoter Background), the standing §9 queue item — v1 was written before Section 3.5 became mandatory and jumped from Section 3 to Section 4.
+
+## The one-paragraph version
+
+**Operationally this was the best quarter in Azad's history, and the milestone in it is genuinely historic.** Azad **manufactured, assembled and delivered India's first indigenous expendable turbojet engine** to GTRE / DRDO / MoD — done, in Chopdar's words, *"everything in-house"* — which converts Azad from a precision-component supplier into **a fully integrated propulsion-system player**. Q1FY27 standalone revenue **₹170.5cr (+26.8%)**, EBITDA **₹64cr (+32.1%)** at a **37.6% margin** (up 150bps), PAT margin 21.3%; consolidated revenue ₹172.6cr, PAT ₹35.2cr. Management **met its guidance and reiterated >25% annual growth**, and the fourth dedicated OEM plant — 7,600 sq m built for **Baker Hughes** — was inaugurated in April, following dedicated lines for **Mitsubishi, GE Power Systems and Siemens Energy**. **And yet consolidated PBT fell 7%**, because other income dropped ~₹8cr while depreciation and interest rose ~₹8cr as the new plants capitalised — with reported **PAT up 21% only because the effective tax rate fell from 30% to 10%, which the call does not explain.** **The real problem is cash.** FY26 operating cash flow was **−₹119cr against ₹384cr of operating profit — CFO/OP of −31%** — and free cash flow **−₹691cr**. **Inventory days doubled to 2,067 and the cash conversion cycle went from 804 to 1,720 days — 4.7 years.** The CFO's fix is candid but revealing: working capital days targeted at ~200 in H1 and 160-180 in H2, achieved *"largely back on the **bill discounting facility**"* taking debtor days from 170-180 to 90 — **i.e. financing the receivable, not collecting it**, with the cost moving into finance charges. Meanwhile **the stock is up 33% since v1 in six weeks to an all-time high at 126x**, and in Q1FY27 **FII and DII both sold (−1.45pp and −1.39pp) while public holding rose 2.84pp**. **Conviction Medium-High → Medium.** The franchise is elite; the price has run past it.
+
+## What is genuinely new since v1 (3-Jul-2026)
+
+- **🟢🟢 India's first indigenous expendable turbojet engine delivered to GTRE/DRDO/MoD** (disclosed 22-Jul-2026, detailed on the call). *"We have also been advised to prepare for a significant scale-up in production volumes once the ongoing sequence of testing is completed."*
+- **🟢 Fourth dedicated plant — 7,600 sq m for Baker Hughes — inaugurated April 2026.** Eight dedicated plants planned at Tuniki Bollaram.
+- **🟢 MHI hot-section contract closed** — a higher-TAM segment than cold section; *"other OEMs have shown super interest and asking us when is your facility ready."*
+- **🟢 Raw-material localisation:** Sunflag and Star Wire qualified in India for critical grades, with Azad helping them qualify with **GE and Siemens globally** — price benefit plus ~4-5% of transportation cost.
+- **🎯 Guidance met, and >25% annual growth reiterated.** 80% of FY26's foundational initiatives stabilised in Q1, remainder by mid-Q2, **full closure by Q3**, with *"accelerated growth from Q3 and Q4 onwards."*
+- **🔴 FY26 cash flow: CFO −₹119cr, FCF −₹691cr, CFO/OP −31%.** Inventory days 1,085 → **2,067**; cash conversion cycle 804 → **1,720 days**.
+- **🔴 Effective tax rate 30% → 10%**, unexplained — it is the entire reason PAT rose while PBT fell.
+- **🟡 Institutions sold in Q1FY27** — FII 14.75% → 13.30%, DII 11.71% → 10.32%, public 17.69% → 20.53%.
+- **🟡 Stock +33% since v1** (₹2,049 → ₹2,718), now at an all-time high.
+- **🔴 The order book was NOT quantified in Q1FY27** — the first time since listing. It has been given a number in every recent quarter (₹6,000cr+ → ₹6,500cr+ → ~₹6,500cr), was **flat at ₹6,500cr between Feb-26 and May-26**, and this quarter drew only *"multiyear order book visibility."* See below.
+
+---
+
+## 📊 Q1FY27 — the print
+
+**Standalone, as management presented it** *(8-Aug-2026 call)*
+
+| | Q1FY26 | **Q1FY27** | Change |
+|---|---|---|---|
+| Revenue from operations | ₹134.5 cr | **₹170.5 cr** | **+26.8%** |
+| EBITDA | ₹48.4 cr | **₹64.0 cr** | **+32.1%** |
+| **EBITDA margin** | 36.1% | **37.6%** | **+150 bps** |
+| PAT | ₹30.0 cr | **₹36.4 cr** | **+21.2%** |
+| PAT margin | — | **21.3%** | |
+
+**Consolidated:** revenue **₹172.6cr**, EBITDA **₹64.4cr**, PAT **₹35.2cr**.
+
+**Consolidated, as the numbers actually flow** *(Screener)*
+
+| ₹ cr | Q1FY26 | **Q1FY27** | Change |
+|---|---|---|---|
+| Sales | 137 | **173** | **+26.3%** |
+| Operating profit | 49 | **64** | +30.6% |
+| OPM | 36% | **37%** | +100 bps |
+| **Other income** | **12** | **4** | **−₹8 cr** |
+| Interest | 6 | **10** | +67% |
+| Depreciation | 15 | **19** | +27% |
+| **PBT** | **42** | **39** | **−7.1%** |
+| **Tax rate** | **30%** | **10%** | **−20 pp** |
+| **PAT** | 29 | **35** | **+20.7%** |
+| EPS (₹) | 4.60 | **5.54** | +20.4% |
+
+**🔴 Two things are worth separating carefully here, because they point in opposite directions.**
+
+**First, the PBT decline is benign and expected.** EBITDA rose 32% with margin up 150bps — the operating business is performing better, not worse. PBT fell only because **other income dropped ~₹8cr** and **depreciation plus interest rose ~₹8cr** as four new dedicated plants came onto the balance sheet. **That is exactly what a capex-heavy ramp year looks like**, and management's H2 story explains why: the machines were switched on in Q1 and are at *"full throttle"* only from Q2.
+
+**Second, the tax line is not explained and should be.** The effective rate fell from **30% to 10%** — worth roughly ₹8cr, and **the entire reason reported PAT rose 21% while PBT fell 7%**. Nobody asked about it on the call and management did not volunteer it. *(This is the third company in this refresh cycle — with TRANSRAILL and GPIL — where a falling tax rate did the work the operating line did not. Worth reading the PBT line first every time.)* **Stated gap: ask at Q2FY27.**
+
+---
+
+## 🔴 The cash flow — the reason conviction moves
+
+**v1 did not examine this.** The FY26 audited picture:
+
+| | FY22 | FY23 | FY24 | FY25 | **FY26** |
+|---|---|---|---|---|---|
+| **Cash from operations (₹ cr)** | 21 | −10 | −7 | 54 | **−119** |
+| **CFO / Operating profit** | 41% | −1% | 7% | 44% | **−31%** |
+| Cash from investing | −114 | −101 | −55 | −918 | −71 |
+| Cash from financing | 96 | 126 | 71 | **877** | **174** |
+| **Free cash flow** | −96 | −94 | −78 | −240 | **−691** |
+
+**Azad has produced positive operating cash flow in exactly one of the last five years.** Cumulative FCF over FY22-FY26 is **−₹1,199cr**, funded by **₹1,344cr of financing inflow** — most of it the FY25 IPO/raise.
+
+**The working-capital ratios are extraordinary:**
+
+| | FY24 | FY25 | **FY26** |
+|---|---|---|---|
+| Debtor days | 182 | 178 | **189** |
+| **Inventory days** | 1,055 | 1,085 | **2,067** |
+| Days payable | 396 | 459 | 536 |
+| **Cash conversion cycle** | 840 | 804 | **1,720** |
+| Working capital days | 283 | 215 | **304** |
+
+**Inventory days of 2,067 means stock turns over once every 5.7 years, and a 1,720-day cash conversion cycle is 4.7 years from cash out to cash in.** Some of this is structural — aerospace and turbine components carry long qualification cycles, certified material has to be held, and Azad is building inventory into four newly commissioned plants ahead of an H2 ramp. **But it doubled in one year, and that is not explained by structure alone.**
+
+### The CFO's answer — candid, and worth reading closely
+
+> **Amit Dixit (Goldman Sachs):** *"in Q1 FY27, we saw that there was a bit of increase in finance costs, possibly due to the working capital thing… this working capital in terms of days, when we can expect it to plateau?"*
+>
+> **Ronak Jajoo (CFO):** *"finance cost will going to continue because you have a **bill discounting charges**, which will go into the finance cost only. So, there is a **betterment of the cash flow — operating cash flow, not on the financial cost side**. And coming to the specific question of when it get tapered, so **we are targeting H1 around 200 days. And by H2, we are targeting in the range of 160 to 180 type of days**. So this is largely back on the **bill discounting facility where our current debtor stage, which are around 170, 180 days will go down to 90 days**."*
+
+**Give management full credit for the honesty of that answer** — the CFO said plainly that the improvement shows up in *operating* cash flow while the cost sits in *finance* costs. **But be clear about what it means:** discounting a bill converts a receivable into cash today at a price. **Reported debtor days fall from ~180 to 90 and CFO improves, without a single customer paying sooner.** The economics move from the working-capital line to the interest line — which is precisely why finance costs rose 67% year-on-year and why management says they *"will going to continue."*
+
+> **My read, labelled as mine:** the H2 targets (200 days in H1, 160-180 in H2) are achievable **because they are financeable**, not because the cash cycle is shortening. **The number to watch is not working capital days — it is whether FY27 operating cash flow turns positive without the discounting flattering it, and what the finance cost does to PAT while it happens.**
+
+**Second-order point:** the CFO also flagged a real operating lever on the cost side — raw material was *"more or less imported"* and Azad has now qualified **Sunflag and Star Wire** domestically for critical grades, *"we have helped them to get qualified with the giants like GE and the Siemens, not for India, but for the **global supply chain**"* — worth a price benefit plus **4-5% of transportation cost**. **That is a genuine, durable margin lever and it is already showing in the 150bps EBITDA expansion.**
+
+---
+
+## 🟢🟢 The turbojet engine — the most important thing Azad has ever done
+
+Disclosed to the exchanges 22-Jul-2026 and given the whole opening of the call:
+
+> **Rakesh Chopdar:** *"Azad Engineering has successfully **manufactured, assembled and delivered India's first indigenous expendable turbojet engine** to the Gas Turbine Research Establishment, DRDO and the Ministry of Defense… jet engine technology represents one of the final frontiers of sophisticated engineering… mastered by only a select handful nations globally."*
+>
+> *"For Azad, this milestone is a **profound architectural shift. We have successfully evolved from being a precision component manufacturer into a fully integrated propulsion system player.** By taking up the end-to-end manufacturing, assembling and integration of this complete engine assembly, **we have moved right up the value chain.** This significantly expands our total addressable market…"*
+>
+> *"We have also been **advised to prepare for a significant scale-up in production volumes** once the ongoing sequence of testing is completed, which will, in turn, accelerate development across all of India's past and future critical indigenous engine programs."*
+
+**Asked how much was actually Azad's own work** — a good, sceptical question from Gaurav at Avendus about whether metallurgy and surface treatment were outsourced:
+
+> **Chopdar:** *"No, but **we have done everything in-house. There's nothing that we have outsourced** any of the parts or something. Maybe some small washers… we have gone to GTRE, and they have either done it in-house or they have got it done by their approved sources."*
+
+**And crucially, it needs no new capex at initial volumes:** *"if it is a 2-digit volume, definitely, yes, we can manage with the existing capacity. We have got so many buildings, shops ready for our different customers. **The best part is all the capacity what we have are fungible** and can manufacture these engine components also."*
+
+**How much weight to put on it.** **A great deal strategically, very little in the near-term model.** No order value, volume or timeline has been disclosed; "expendable turbojet" engines are used in cruise missiles and target drones, and *"2-digit volume"* implies tens of units initially. **The value is optionality: an engine-integration credential that only a handful of countries hold, on fungible existing capacity, in a country committed to propulsion self-reliance.** It is not in FY27 numbers and should not be modelled into them.
+
+---
+
+## 🔴 The order book — quantified every quarter until this one
+
+**Corrected mid-refresh.** I first wrote that AZAD had never disclosed an order-book figure. **That was wrong** — the dashboard card carried ₹6,500cr, which prompted a check of all six transcripts. The actual record:
+
+| Call | Order book, as stated |
+|---|---|
+| **Q1FY26 (Aug-2025)** | *"a very strong order book position of **₹6,000 crores plus**"* — energy segment ~$400M ≈ ₹3,400cr |
+| **Q3FY26 (Feb-2026)** | *"Our order book remains strong at **over ₹6,500 crores plus**… Since listing, we have **consistently grown our order book quarter after quarter**"* |
+| **Q4FY26 (May-2026)** | *"Our order book is at approximately **₹6,500 crores** with ₹600 crores delivered in FY'26 and **still remains at that level**, which is about **11x, 12x our FY'26 revenue**"* |
+| **Q1FY27 (Aug-2026)** | **No figure.** Only *"multiyear order book visibility"* and *"order book expansion for the years to come"* |
+
+**Two observations, and the second matters more than the first.**
+
+**(1) The order book stopped growing before it stopped being disclosed.** It was **₹6,500cr+ in February and ~₹6,500cr in May** — management's own words, *"still remains at that level."* Inflow replaced execution exactly; the book did not compound. That is not alarming on its own — 11-12x revenue coverage is exceptional and Azad's contracts are long-cycle — but it does sit awkwardly beside February's claim of having *"consistently grown our order book quarter after quarter."*
+
+**(2) Q1FY27 is the first call in the set with no number at all.** For a company whose entire investment case rests on multi-year OEM visibility, and which is asking the market to underwrite an H2 ramp at 126x, **dropping the one metric that evidences that visibility is a disclosure regression.** No analyst asked for it either.
+
+> **My read, labelled as mine:** a flat order book is a fact; the absence of the number is a choice. **Neither is fatal, both are worth watching, and the second is the reason this is a watch item rather than a footnote.** Ask directly at Q2FY27.
+
+---
+
+## 🏭 Capacity — four plants down, eight planned
+
+- **Tuniki Bollaram Industrial Park**: dedicated lines commissioned for **Mitsubishi, GE Power Systems and Siemens Energy**; the **fourth — 7,600 sq m for Baker Hughes — inaugurated April 2026**. **Eight dedicated plants planned in total**, one per customer.
+- Chopdar on why this matters: *"Operating dedicated plants represent the **deepest possible level of customer integration** in our industry. It creates immense operational stickiness and provides long-term multiyear supply chain visibility with global marquee OEMs."*
+- **Civil construction on the remaining units wraps up within FY27.** *"more substantive revenue contributions to begin crystallizing in the second half of this financial year."*
+- The ramp, in management's own sequence: *"FY26 Q4 — we could up these buildings, got the machines inside, done the foundations, do the delta qualifications. **Q1 was something we switched on a lot of machines, production started very slowly, the qualifications were done. Now as we speak, in Q2, those machines are now on full throttle**."*
+- **80% of FY26's foundational initiatives stabilised in Q1**, remainder by **mid-Q2**, **full closure by Q3**, then *"accelerated growth from Q3 and Q4 onwards."*
+- **Scale of the asset base:** Aditya Bhartia (Investec) put it at roughly **₹1,500cr gross block and ~₹1,200cr net block including CWIP by FY27-end** — management did not dispute the figure. **Against FY26 revenue of ~₹604cr, that is an asset base built for far more than current volumes**, which is the bull case and the risk in one sentence.
+- **🆕 MHI hot-section contract closed.** Hot section carries a materially larger TAM than cold section, and *"other OEMs have shown super interest and asking us when is your facility ready."*
+- **Forex:** sales are largely dollar-denominated, but rupee depreciation flows **below EBITDA**, and Chopdar was careful not to claim it: *"It is not a significant number… we also import a lot of things… not a major benefit we see or a major problem."*
+
+---
+
+## 3.5 Management Track Record & Promoter Background — **RETROFITTED 15-Aug-2026**
+
+*v1 was written before Section 3.5 became mandatory and skipped from Section 3 to Section 4. This closes the standing §9 queue item for AZAD.*
+
+**Leadership**
+- **Mr. Rakesh Chopdar — Chairman & CEO, founder-promoter.** Founded the business in Hyderabad; drives the OEM-qualification strategy and fronts every call. His answers are notably direct — he declined to claim a forex benefit, and volunteered that ATGG needs no new capex.
+- **Mr. Vishnu Malpani — Whole-Time Director.** Handles capacity, asset-base and customer-plant questions on calls.
+- **Mr. Ronak Jajoo — Chief Financial Officer.** Answers working capital and finance-cost questions with unusual specificity, including the bill-discounting mechanics above.
+- **Mr. G. Praneeth Abhishek — Company Secretary, Compliance Officer and Head Legal** (Membership 435583).
+- Investor relations outsourced to **Strategic Growth Advisors**.
+
+**Promoter holding — a 10-point decline in two years**
+
+| Period | Promoter % | FII % | DII % | Public % | Shareholders |
+|---|---|---|---|---|---|
+| Mar 2024 | **65.90%** | 6.98% | 5.00% | 22.13% | 1,06,231 |
+| Sep 2024 | 65.90% | 9.74% | 5.74% | 18.61% | 1,28,846 |
+| Mar 2025 | **60.32%** | 14.23% | 8.23% | 17.21% | 1,24,539 |
+| Jun 2025 | 55.42% | 16.16% | 8.91% | 19.53% | 1,27,692 |
+| Dec 2025 | 55.84% | 15.33% | 10.73% | 18.08% | 1,25,118 |
+| Mar 2026 | **55.84%** | 14.75% | 11.71% | 17.69% | 1,26,786 |
+| **Jun 2026** | **55.84%** | **13.30%** | **10.32%** | **20.53%** | **1,33,221** |
+
+**Promoter holding fell 65.90% → 55.84% between Mar-2024 and Jun-2025 — 10.06 percentage points — and has been flat for four quarters since.** The FY25 cash-flow statement shows **₹877cr of financing inflow** in that year, so the dilution funded the Tuniki Bollaram build rather than representing a promoter exit. **That is the benign reading and I think it is the right one** — but it is a large dilution and the capex it funded has not yet produced positive operating cash flow.
+
+**🟡 The Q1FY27 rotation runs the wrong way.** **FII fell 14.75% → 13.30% and DII 11.71% → 10.32% — institutions sold 2.84 points between them — while public holding rose 17.69% → 20.53% and the shareholder count rose 1,26,786 → 1,33,221.** *Retail bought what institutions sold, into an all-time high at 126x.* **That is the exact opposite of the rotation seen at PARAS this quarter, and it is the less comfortable direction.**
+
+**Delivery scorecard**
+
+| Guidance / Milestone | When | Actual delivered | Verdict |
+|---|---|---|---|
+| **">25% annual revenue growth"** | Long-standing, reiterated Q1FY27 | **Q1FY27 +26.8% standalone / +26.3% consolidated** | ✅ **Met** |
+| *"We have met our guidance"* (Q1) | Q1FY27 | Company's own statement; consistent with the above | ✅ |
+| Margin maintenance | — | **EBITDA margin 36.1% → 37.6%**, +150 bps | ✅ **Beat** |
+| 4th dedicated plant (Baker Hughes) | FY26 | **Inaugurated April 2026**, 7,600 sq m | ✅ |
+| Mitsubishi / GE / Siemens dedicated lines | FY25-26 | **Commissioned** | ✅ |
+| **India's first indigenous turbojet engine** | — | **Manufactured, assembled and delivered to GTRE/DRDO/MoD**, fully in-house | ✅ **Landmark** |
+| MHI hot-section contract | — | **Closed** | ✅ |
+| Remaining Azad Centre of Excellence units | FY27 | Civil work *"on track to wrap up within this fiscal year"* | 🕐 |
+| **80% of initiatives stabilised in Q1; rest by mid-Q2; full closure Q3** | Q1FY27 | Stated on the call | 🕐 **Dated** |
+| **H2-weighted revenue acceleration** | Q1FY27 | *"accelerated growth from Q3 and Q4 onwards"* | 🕐 **The test** |
+| **Working capital 200 days H1 → 160-180 H2** | Q1FY27 | Stated; **to be achieved largely via bill discounting** | 🕐 **Dated, but financed** |
+| **Positive operating cash flow** | *never guided* | **FY26 CFO −₹119cr, CFO/OP −31%, FCF −₹691cr** | 🔴 |
+| Raw-material localisation | Multi-year | **Sunflag + Star Wire qualified**, incl. for GE/Siemens globally | ✅ |
+| **Order book growth** — *"consistently grown quarter after quarter"* | Q3FY26 | **₹6,000cr+ (Aug-25) → ₹6,500cr+ (Feb-26) → ~₹6,500cr (May-26, flat, mgmt's own "still remains at that level") → not quantified (Aug-26)** | 🔴 **Flat, then undisclosed** |
+
+**Verdict on management.** **On engineering and customer strategy, among the best on this watchlist.** Securing dedicated plants from Mitsubishi, GE, Siemens and Baker Hughes is the deepest form of customer lock-in available in this industry, and delivering India's first indigenous turbojet engine end-to-end — with the metallurgy done in-house — is a credential very few companies anywhere possess. Guidance has been met and margins expanded while four plants were commissioned simultaneously. **On capital and cash, the record is weak and unaddressed.** Five years, one year of positive operating cash flow, −₹1,199cr of cumulative free cash flow, an inventory cycle that doubled in twelve months, and a working-capital plan that leans on bill discounting rather than collection. **The CFO answers these questions honestly and precisely, which is worth a lot — but honesty about a problem is not the same as fixing it.** And two disclosures went backwards this quarter without anyone on the call pressing: **the tax rate fell from 30% to 10% unexplained**, and **the order book — quantified in every prior call — was not given a number at all.**
+
+---
+
+## 📈 Refreshed valuation
+
+**Trading metrics:** CMP **₹2,718** · Mcap **₹17,552cr** · **P/E 126x trailing** · **P/B 11.5x** (book ₹237) · **ROCE 11.9%, ROE 9.09%** · **no dividend** · 52-week range **₹1,359–₹2,735** — **at an all-time high, 0.6% off the peak, and +100% off the low.**
+
+**The stock has risen 33% since v1 was written six weeks ago** (₹2,049 → ₹2,718). v1 called it *"97x trailing… prices in flawless execution of the 4 new facilities coming online in FY27,"* and warned: *"Any slip pushes revenue growth to 15-18% and the multiple compresses to 50-60x."* **Execution has not slipped — and the multiple went to 126x anyway.**
+
+**Base numbers:** FY26 revenue ~₹604cr, PAT ~₹134cr. TTM ₹640cr / ₹140cr. On >25% guided growth, FY27 revenue ~₹760cr and PAT ~₹160-165cr (EPS ~₹25) → **~108x FY27E**.
+
+| Scenario | Prob. | Assumptions | FY28E | Multiple | Value/share | Return |
+|---|---|---|---|---|---|---|
+| **Base** | **50%** | H2 acceleration arrives as guided; FY27 +26%, FY28 +30% to ~₹990cr; margin holds ~37%; PAT ₹220cr. **Multiple de-rates from 126x to 70x** as the asset base matures and cash flow is scrutinised | PAT ₹220 cr<br>EPS ₹34 | 70x | **₹2,380** | **−12%** |
+| **Bull** | **25%** | Q3/Q4 ramp exceeds; turbojet moves to production volumes; MHI hot section and further OEM plants scale; **operating cash flow turns genuinely positive**; the market keeps paying a scarcity premium | PAT ₹280 cr<br>EPS ₹43 | 95x | **₹4,085** | **+50%** |
+| **Bear** | **25%** | H2 ramp slips on qualification schedules; working capital does not improve without discounting and finance costs compound; a capital raise follows; multiple compresses toward v1's own 50-60x floor | PAT ₹175 cr<br>EPS ₹27 | 45x | **₹1,215** | **−55%** |
+
+**Weighted 2-year return: (0.50 × −12) + (0.25 × 50) + (0.25 × −55) ≈ −7%.**
+
+**The arithmetic problem is simple and hard to argue around: at 126x, the base case loses money on 30% compound earnings growth**, because it needs the multiple to fall to 70x — and 70x for a company at 11.9% ROCE with negative operating cash flow is not a punitive assumption. **v1's ~+35% expected return has effectively been paid out in six weeks of share price.**
+
+---
+
+## Conviction: **Medium-High → Medium**
+
+**Downgraded on price and cash, not on the business.** The franchise is genuinely elite and got better this quarter: 37.6% EBITDA margin, guidance met, four dedicated OEM plants live, a hot-section contract with MHI, domestic raw-material qualification that also serves GE and Siemens globally, and **India's first indigenous turbojet engine delivered end-to-end**. Very few Indian engineering companies have any of this, let alone all of it.
+
+**But three things changed the risk/reward.** **(1) The stock is up 33% in six weeks to an all-time high at 126x**, so v1's expected return has been realised in price rather than in earnings. **(2) FY26 operating cash flow was −₹119cr with a −31% conversion ratio and a cash conversion cycle that doubled to 1,720 days** — and the stated remedy is bill discounting, which finances the receivable rather than shortening the cycle. **(3) Institutions sold 2.84 points in Q1FY27 while retail bought**, at the high.
+
+**Upgrade back to Medium-High if:** H2FY27 delivers the guided acceleration **and** FY27 operating cash flow turns positive without leaning further on discounting.
+**Downgrade to Medium-Low if:** the Q3/Q4 ramp slips, **or** an equity raise is announced, **or** the cash conversion cycle extends again in H1FY27.
+
+---
+
+## Watch items for the next refresh (Q2FY27, ~Nov-2026)
+
+1. **🔴 Operating cash flow** — the single most important number. FY26 was −₹119cr. Does H1FY27 turn, and how much of any improvement is bill discounting?
+2. **🔴 Inventory days** — doubled to 2,067 in FY26. Does the H2 ramp consume the build, or add to it?
+3. **🔴 The effective tax rate** — 30% → 10%, unexplained, and the only reason PAT rose while PBT fell. **Ask directly.**
+4. **🟢 The H2 acceleration** — management staked FY27 on *"Q3 and Q4 onwards"* with 80%/mid-Q2/Q3 milestones. Q2 revenue is the first checkpoint.
+5. **🟢 Turbojet follow-through** — any order, volume or programme disclosure after *"advised to prepare for a significant scale-up."*
+6. **🟢 MHI hot-section** and further dedicated plants (four of eight built).
+7. **🟡 Working capital days** vs the stated 200 (H1) and 160-180 (H2) targets — and the finance-cost line alongside them.
+8. **🟡 Institutional holding** — FII and DII both fell in Q1FY27. Does that continue?
+9. **🔴 The order book figure.** Quantified every quarter until this one, and **flat at ~₹6,500cr between Feb-26 and May-26**. Ask for the number, and for inflow versus execution.
+10. **🟡 Any capital raise.** Promoter holding has been flat at 55.84% for four quarters after a 10-point dilution; the asset base is still growing and cash flow is negative.
+
+---
+---
+
+# 📌 v1 profile below — preserved unchanged (3-Jul-2026)
+
+*Everything from this point is the original v1 body, kept for lineage. v1 had no Section 3.5 — that gap is closed above.*
 
 ---
 
@@ -80,6 +339,7 @@ The Azad flywheel is simple but slow-moving. Here's the causal chain:
 ## 6. Why the Market Is Paying This Multiple
 
 At CMP ₹2,049, Mcap ~₹13,000 Cr, on FY26 PAT ₹134 Cr — trailing P/E ~97x. Forward FY27 PAT at 25% growth + slight margin expansion = ~₹175-190 Cr, giving forward P/E ~68-75x.
+> ⤴ **SUPERSEDED 15-Aug-2026 — the stock has risen 33% in six weeks.** CMP **₹2,718**, mcap **₹17,552cr**, **trailing P/E 126x**, P/B 11.5x, at an **all-time high**. v1's own forward band of 68-75x is now **~108x on FY27E**. Refreshed framework: base **−12%** (70x) / bull **+50%** (95x) / bear **−55%** (45x) → **weighted ≈ −7% over 2 years**. **At 126x the base case loses money on 30% compound earnings growth**, because it requires the multiple to fall to 70x. **v1's ~+35% expected return has been paid out in share price rather than earnings.** Full framework in the Refresh Log § "Refreshed valuation".
 
 The market is paying for four specific things:
 1. **Revenue visibility that's genuinely rare.** ₹6,500 Cr OB / ₹603 Cr revenue = 11-12x book-to-bill. Very few Indian companies have this. This deserves a premium — but not any premium.
@@ -89,6 +349,13 @@ The market is paying for four specific things:
 
 **What is priced in that gives me pause:**
 - 97x trailing P/E prices in flawless execution of the 4 new facilities coming online in FY27. Any slip pushes revenue growth to 15-18% and the multiple compresses to 50-60x.
+> ⚠️ **UPDATE 15-Aug-2026 — execution did NOT slip, and the multiple went to 126x anyway.** Q1FY27 met guidance (+26.8% standalone), EBITDA margin expanded 150bps to 37.6%, and the fourth dedicated plant (Baker Hughes, 7,600 sq m) was inaugurated in April. **v1's bear trigger was a slip; the actual risk turned out to be that flawless execution was not enough to stop the multiple expanding past what the cash flow supports.** v1's 50-60x compression floor is retained as the bear case (45x).
+
+**🆕 The risk v1 did not carry — cash conversion.** FY26 **operating cash flow −₹119cr on ₹384cr of operating profit (CFO/OP −31%)**; **free cash flow −₹691cr**; **cumulative FY22-26 FCF −₹1,199cr** against **₹1,344cr of financing inflow**. **Inventory days doubled 1,085 → 2,067; cash conversion cycle 804 → 1,720 days (4.7 years).** The CFO's remedy is **bill discounting** — targeting working capital of ~200 days in H1 and 160-180 in H2 by taking debtor days from ~180 to 90 — which **finances the receivable rather than collecting it**, moving the cost into finance charges (already +67% YoY). *Management stated this plainly and deserves credit for the candour; it remains a financing fix, not an operating one.*
+
+**🆕 The tax line.** Q1FY27 **PBT fell 7%** while **PAT rose 21%**, entirely because the **effective tax rate dropped from 30% to 10%**. **Unexplained on the call and unasked by analysts.** *(The PBT decline itself is benign — other income fell ~₹8cr and depreciation + interest rose ~₹8cr as four new plants capitalised, while EBITDA grew 32%.)*
+
+**🆕 Ownership rotation.** In Q1FY27 **FII fell 14.75% → 13.30% and DII 11.71% → 10.32%** — institutions sold 2.84 points — **while public holding rose 17.69% → 20.53%** and the shareholder count rose to 1,33,221, **into an all-time high at 126x**.
 - The market is assuming margin expansion continues to 38%+. Management guided 33-35%. If margins stay at 33% (a reasonable-case scenario), FY27 PAT is closer to ₹165 Cr not ₹190 Cr.
 - The multiple assumes the "capability transfer" story works — that qualifications with one customer compound to others. This has been true so far but is not guaranteed as customer concentration shifts.
 
@@ -143,3 +410,28 @@ The market is paying for four specific things:
 - Rolls-Royce Q4 FY27 first qualification batch is the biggest single event in the aerospace ramp story.
 - Watch for capacity utilisation disclosures — if any of the 4 new facilities is running below 50% utilisation past 6 months of inauguration, growth guidance is at risk.
 - Contrast Azad's *"5-10 year qualification"* narrative vs AXISCADES's *"design win to manufacturing conversion"* narrative — both companies claim similar moat mechanisms but Azad's is more mature.
+
+
+---
+
+## Source Appendix — Tier A refresh, 15-Aug-2026
+
+**Primary documents:**
+- **Q1FY27 earnings call transcript — call 8-Aug-2026, filed 14-Aug-2026** (69,812 chars). Management: **Rakesh Chopdar (Chairman & CEO)**, **Vishnu Malpani (Whole-Time Director)**, **Ronak Jajoo (CFO)**; IR by Strategic Growth Advisors. Analysts included **Goldman Sachs (Amit Dixit)**, **Investec (Aditya Bhartia)**, **Avendus (Gaurav)**, and others. *Rajat elected on 13-Aug to wait for the official transcript rather than machine-transcribe the audio; it landed the next day.*
+- **Q1FY27 investor presentation and results filing, 7-Aug-2026**; **monitoring agency report, 10-Aug-2026** — all fetched 13-Aug-2026.
+- **22-Jul-2026 Reg 30 disclosure** — delivery of **India's first indigenous expendable turbojet engine** to GTRE, DRDO and the Ministry of Defence.
+- Five earlier official transcripts already on disk: May-2025, Aug-2025, Nov-2025, Feb-2026, May-2026, plus the Feb-2025 deck.
+
+**Screener (consolidated, pulled 15-Aug-2026):** CMP ₹2,718, mcap ₹17,552cr, P/E 126x, BV ₹237, ROCE 11.9%, ROE 9.09%, no dividend; 8-quarter series, 6-year cash flow and ratios, 8-quarter shareholding.
+
+**Data-quality notes:**
+1. **The effective tax rate fell from 30% to 10% and is unexplained** in the transcript, the deck and the results filing. It is worth ~₹8cr and is the sole reason PAT rose while PBT fell. **Stated gap — ask at Q2FY27.**
+2. **Standalone and consolidated figures differ slightly** and management quotes both: standalone revenue ₹170.5cr / EBITDA ₹64.0cr / PAT ₹36.4cr; consolidated ₹172.6cr / ₹64.4cr / ₹35.2cr. **Growth rates above are stated on the basis management used, and labelled.**
+3. **⤴ CORRECTED MID-REFRESH.** I initially wrote that no order-book figure had ever been disclosed. **That was wrong**, and the dashboard card's ₹6,500cr prompted the check. All six transcripts were then searched: the book was quantified at **₹6,000cr+ (Aug-2025)**, **over ₹6,500cr+ (Feb-2026)** and **~₹6,500cr with ₹600cr delivered in FY26, "still remains at that level", 11-12x FY26 revenue (May-2026)** — and **was not quantified in Q1FY27**. **The correct finding is a flat order book followed by a disclosure regression, not an absence of disclosure.** Recorded here because the error is instructive: the dashboard held a figure the draft profile denied existed.
+4. **The ₹1,500cr gross block / ₹1,200cr net block figure for FY27-end came from an analyst (Investec) and was not disputed by management** — treated as an estimate, not a company figure.
+5. **The turbojet engine has no disclosed order value, volume or timeline.** Management's *"2-digit volume"* remark implies tens of units initially. **Treated as strategic optionality, not modelled.**
+6. **v1 had no Section 3.5** — retrofitted in this refresh, closing the standing §9 queue item for AZAD.
+
+---
+
+*Tier A refresh 15-Aug-2026. Content is personal investment research and thesis-building for portfolio decisions. Not a buy/sell recommendation. All views subject to revision as new data arrives.*
