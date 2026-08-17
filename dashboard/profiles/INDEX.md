@@ -1,6 +1,6 @@
 # Company Profiles — Master Index
 
-53 stocks · organised by sector (alphabetical) · each follows the 8-section framework.
+55 stocks · organised by sector (alphabetical) · each follows the 8-section framework.
 
 **Structure per profile:**
 1. Business in Plain English
@@ -22,19 +22,20 @@ Status legend: `⏳ pending` · `🔨 in progress` · `✅ complete`
 
 ### 1. Aerospace & Defence (5) ✅ Complete
 - ✅ [AXISCADES Technologies](./AXISCADES.md) *(3-Jul-2026 · **Tier A refreshed 28-Jul-2026** — FY26 print + two-phase Akkodis divestment; MH → M Under Watch)*
-- ✅ [Azad Engineering](./AZAD.md) *(3-Jul-2026)*
-- ✅ [Dynamatic Technologies](./DYNAMATIC.md) *(3-Jul-2026)*
-- ✅ [Paras Defence & Space](./PARAS.md) *(3-Jul-2026)*
+- ✅ [Azad Engineering](./AZAD.md) *(v1 3-Jul-2026 · **Tier A refresh 15-Aug-2026** — Med-High → Medium; Section 3.5 retrofitted)*
+- ✅ [Dynamatic Technologies](./DYNAMATIC.md) *(v1 3-Jul-2026 · **Tier A refresh 15-Aug-2026** — HELD at Medium)*
+- ✅ [Paras Defence & Space](./PARAS.md) *(v1 3-Jul-2026 · **Tier A refresh 13-Aug-2026** — HELD at Medium-Low)*
 - ✅ [Rossell Techsys](./ROSSELL.md) *(3-Jul-2026 · **Tier A refreshed 12-Aug-2026** — Q1FY27 revenue +78% and first semiconductor order, but PAT fell QoQ as interest hit 42% of EBITDA; revenue tracking at a third of the 80-90% guidance; EBITDA band missed 3 years running; CFO negative 3 years; **promoters sold 4.9% to Kotak MF at ₹900**. Concall gate closed for the first time (folder was empty). **M (Under Watch)**, bear case −70%)*
 
 ### 2. Agri-Inputs & Seeds (2) ✅ Complete
 - ✅ [Insecticides India](./INSECTICIDES.md) *(3-Jul-2026 · **Tier A refreshed 12-Aug-2026** — Q1FY27 revenue −12% and PAT −24% on a rainfall deficit, **but gross margin expanded 240bps to 31.6%**, the premiumisation thesis passing an adverse test. FY23→FY26 GP margin 23.1%→31.5% on 5.9% revenue CAGR. Concall gate cleared (6 transcripts, folder was empty). **H → MH (Under Watch)** — TTM has turned down)*
 - ✅ [Kaveri Seed Company](./KAVERI.md) *(3-Jul-2026)*
 
-### 3. Auto Components & Forgings (7) ✅ Complete
+### 3. Auto Components & Forgings (8) ✅ Complete
 - ✅ [Amic Forging](./AMIC.md) *(4-Jul-2026 — new addition)*
+- ✅ [NRB Bearings](./NRBBEARING.md) *(18-Aug-2026 — **new addition, stock #55**. India's needle-roller-bearing pioneer since 1965; >90% of Indian vehicles run on its bearings. Concall gate 🟡 **AMBER — only 4 transcripts exist**, NRB began publishing them at Q2FY26. FY26 was the first clean year after a Waluj plant fire and a family settlement: 19.5% EBITDA margin, CFO 126% of operating profit, ₹136cr FCF, CRISIL AA-/A1+. 🔴 **But reported FY26 PAT "+77%" is a base effect — normalised PBT growth is ~+15%** — and **promoter holding fell 51.20% → 44.73% in the Jun-26 quarter with no filing or call explaining it** (verified against both Screener and NSE's own shareholding master). Promoters had 39.80% of share capital pledged at Mar-26. Conviction **M (Under Watch)**)*
 - ✅ [Happy Forgings](./HAPPY.md) *(3-Jul-2026 · **Tier A refreshed 12-Aug-2026** — highest-ever quarter: revenue +27%, PAT +39%, 31.3% EBITDA margin (4th straight >30%), volumes +23.1% vs late-teen guidance; **beat guidance on both lines** and ~70% of the OEM price rise still to come. Forging utilisation only 59%. **H → MH (Under Watch) on valuation, explicitly not execution** — 55x and 8.4x book, stock +27.3% since v1 while TTM PAT rose 8%)*
-- ✅ [OBSC Perfection](./OBSC.md) *(3-Jul-2026)*
+- ✅ [OBSC Perfection](./OBSC.md) *(v1 3-Jul-2026 · **Tier A refresh 13-Aug-2026** — conviction MH → M)*
 - ✅ [Sansera Engineering](./SANSERA.md) *(3-Jul-2026)*
 - ✅ [Steel Strips Wheels](./SSWL.md) *(3-Jul-2026)*
 - ✅ [Sunita Tools](./SUNITA.md) *(3-Jul-2026)*
@@ -50,16 +51,16 @@ Status legend: `⏳ pending` · `🔨 in progress` · `✅ complete`
 - ✅ [Avalon Technologies](./AVALON.md) *(3-Jul-2026 · **Tier A refreshed 6-Aug-2026** — Q1FY27 +49.8% YoY but flat QoQ; box-build hits 60%; promoter sell-down surfaced; HELD at M, Under Watch on valuation)*
 - ✅ [Concord Control Systems](./CONCORDCS.md) *(3-Jul-2026 · **renamed CONCORD → CONCORDCS 2-Aug-2026** to disambiguate from Concord Biotech)*
 - ✅ [Netweb Technologies](./NETWEB.md) *(3-Jul-2026 · **Tier A refreshed 28-Jul-2026** — Q1FY27: rev +172%, PAT +180%, AI Systems 62% of revenue; HELD at H, Under Watch on 95x valuation)*
-- ✅ [Syrma SGS Technology](./SYRMA.md) *(3-Jul-2026)*
+- ✅ [Syrma SGS Technology](./SYRMA.md) *(v1 3-Jul-2026 · **Tier A refresh 15-Aug-2026** — Medium → Med-High)*
 
 ### 6. Engineering / EPC (4) ✅ Complete
 - ✅ [DEE Development Engineers](./DEE.md) *(3-Jul-2026 · **Tier A refreshed 12-Aug-2026** — Q1FY27 revenue +31.6% and record 16.9% EBITDA margin; **₹300cr preferential issue allotted 8-Jul cuts net debt ₹718cr → guided ₹400-425cr, with the promoter subscribing**; order book ₹2,428cr +92.5% YoY. **Q1FY27 call machine-transcribed** — yielded FY27 margin, net-debt and inflow guidance found in no filing. **H → MH (Under Watch)**)*
 - ✅ [Engineers India (EIL)](./EIL.md) *(3-Jul-2026 · **Tier A refreshed 28-Jul-2026** — FY26 earnings-quality finding; H → MH Under Watch)*
-- ✅ [Sathlokhar Synergys](./SATHLOKHAR.md) *(3-Jul-2026)*
+- ✅ [Sathlokhar Synergys](./SATHLOKHAR.md) *(v1 3-Jul-2026 · **Tier A refresh 13-Aug-2026** — conviction High → Med-High)*
 - ✅ [Interarch Building Solutions](./INTERARCH.md) *(12-Aug-2026 — **new addition, stock #53**; fully concall-grounded from 6 official transcripts + Q1FY27 machine transcript. India's largest integrated pre-engineered-buildings maker, 2,21,000 MTPA, adding 31% capacity by Q4FY27. Q1FY27 revenue +20.7% but **PAT dead flat** as other income fell ₹9.9→₹3.0cr; **FY26 operating cash flow −₹19cr** is the flag. ₹250cr QIP + 5-for-1 split + Canada JV all approved 6-Aug. Conviction **MH**)*
 
 ### 7. Financial Services (2) ✅ Complete
-- ✅ [CARE Ratings](./CARE.md) *(3-Jul-2026)*
+- ✅ [CARE Ratings](./CARE.md) *(v1 3-Jul-2026 · **Tier A refresh 12-Aug-2026** — conviction High → Med-High)*
 - ✅ [Monarch Networth Capital](./MONARCH.md) *(3-Jul-2026 · Tier A refreshed 16-Jul-2026 · **refreshed again 12-Aug-2026** — PAT plateau now **five** quarters, but the composition reverses the read: **fees +54.9% and interest +36.1% while prop-book gains collapsed 89.5%**. TTM revenue now below FY26; ROCE 52%→28%; FY26 AR still unfiled so debtor days stay unresolved. **H → MH (Under Watch)**)*
 
 ### 8. IT / Software & Platforms (3) ✅ Complete *[definition broadened 2-Aug-2026 to admit non-BFSI enterprise software & platforms]*
@@ -71,8 +72,8 @@ Status legend: `⏳ pending` · `🔨 in progress` · `✅ complete`
 - ✅ [Knowledge Marine & Engg (KMEW)](./KMEW.md) *(3-Jul-2026 — out-of-order at user request)*
 
 ### 10. Metals & Mining (2) ✅ Complete
-- ✅ [GMDC](./GMDC.md) *(3-Jul-2026)*
-- ✅ [Godawari Power & Ispat](./GPIL.md) *(3-Jul-2026)*
+- ✅ [GMDC](./GMDC.md) *(v1 3-Jul-2026 · **Tier A refresh 15-Aug-2026** — Medium → Med-Low; §9 data gap closed as uncloseable)*
+- ✅ [Godawari Power & Ispat](./GPIL.md) *(v1 3-Jul-2026 · **Tier A refresh 13-Aug-2026** — HELD at Med-High, Under Watch)*
 
 ### 11. Packaging & Materials (4) ✅ Complete
 - ✅ [EPL](./EPL.md) *(3-Jul-2026 · Tier A refreshed 28-Jul-2026 · **refreshed again 12-Aug-2026** — Q1FY27 record +25.3% revenue and guidance raised to high-teens; **merger cleared CCI + antitrust in 8 countries**; but **the seven-quarter 20%+ margin streak ended** (19.6% underlying) and net debt rose 49%. **💼 HELD POSITION — now Tier 1 for audio.** HELD at H (Under Watch), trigger reset to margin + net debt)*
@@ -87,12 +88,13 @@ Status legend: `⏳ pending` · `🔨 in progress` · `✅ complete`
 - ✅ [Nitta Gelatin India](./NITTA.md) *(3-Jul-2026 · **Tier A refreshed 12-Aug-2026** — Q1FY27 PAT +31.6% but revenue +1.5% and −26% QoQ; margin is a gel-bone spread, not repricing. SION entitlement cut 47% (untested until Q2FY27), Supreme Court hearing Sept-2026, subsidiary declared not a going concern. **Corrected v1: the Indian co-promoter is KSIDC, a Kerala state PSU, not a family**; concalls don't exist to fetch. **H → MH (Under Watch)**)*
 
 ### 13. Power & Renewables (2) ✅ Complete
-- ✅ [NLC India](./NLC.md) *(3-Jul-2026)*
+- ✅ [NLC India](./NLC.md) *(v1 3-Jul-2026 · **Tier A refresh 15-Aug-2026** — High → Med-High)*
 - ✅ [Oriana Power](./ORIANA.md) *(3-Jul-2026)*
 - *(Rajesh Power Services → moved to Sector 19, Power T&D EPC / Turnkey, 23-Jul-2026)*
 
-### 14. Power T&D Components (3) ✅ Complete
+### 14. Power T&D Components (4) ✅ Complete
 - ✅ [Diamond Power Infrastructure (DIACABS)](./DIACABS.md) *(14-Jul-2026 — data-limited turnaround)*
+- ✅ [Dynamic Cables](./DYCL.md) *(18-Aug-2026 — **new addition, stock #54**. Mangal family, Jaipur, est. 1986; 100% B2B power cables and conductors, deliberately no brand or channel. Concall gate 🟢 **GREEN — 8 transcripts**. The cheapest listed cable name at 24.7x on 26% ROCE, 20% ROE and near-zero debt, against a 28-56x peer set. 🔴 **But Q1FY27's +33% revenue is only 5-6% volume — the rest is aluminium pass-through** — the order book has been flat five quarters, and the growth plant has slipped **eight consecutive calls** (~15-18 months). An unresolved ₹344.75cr related-party guarantee question sits in the FY25 AR. Conviction **M**)*
 - ✅ [Systematic Industries](./SYSTEMATIC.md) *(3-Jul-2026)*
 - ✅ [Yash Highvoltage](./YASH.md) *(3-Jul-2026)*
 
@@ -100,7 +102,7 @@ Status legend: `⏳ pending` · `🔨 in progress` · `✅ complete`
 - ✅ [Kolte Patil Developers](./KOLTE.md) *(3-Jul-2026 · Tier A refreshed 2-Aug-2026 · **refreshed again 12-Aug-2026** — **the recognition-trough thesis the 2-Aug refresh could not verify is now confirmed by outcome**: record ₹937cr total income on 1.27 Mn sq ft of completions, ₹147cr PAT against an FY26 loss year. Plus a **₹6,000cr GDV MMR addition**. Blackout finally explained but it is the 4th quarter with no call, and the ₹150cr GST Section 74 claim is still unmentioned. **M → MH (Under Watch)** — an upgrade)*
 
 ### 16. Water Infrastructure (1) ✅ Complete
-- ✅ [Electrosteel Castings](./ECL.md) *(3-Jul-2026)*
+- ✅ [Electrosteel Castings](./ECL.md) *(v1 3-Jul-2026 · **Tier A refresh 15-Aug-2026** — HELD at Med-High)*
 
 ### 17. Oil & Gas Services (1) ✅ Complete *[new sector, added 4-Jul-2026]*
 - ✅ [Deep Industries](./DEEP.md) *(4-Jul-2026 · **Tier A refreshed 29-Jul-2026, concall-grounded** — Q1FY27 all-time-high quarter + explicit FY27 ₹350cr / FY28 ₹500cr PAT guidance; concall gap CLOSED (6 raw transcripts); HELD at H, weighted return ~+49%; real issue is flat standalone, not the order book)*
@@ -110,4 +112,4 @@ Status legend: `⏳ pending` · `🔨 in progress` · `✅ complete`
 
 ### 19. Power T&D EPC / Turnkey (2) ✅ Complete *[new sector, added 23-Jul-2026]*
 - ✅ [Rajesh Power Services](./RAJESH.md) *(3-Jul-2026 — moved from Sector 13)*
-- ✅ [Transrail Lighting](./TRANSRAILL.md) *(23-Jul-2026 — new addition; first Claude-driven Chrome concall fetch)*
+- ✅ [Transrail Lighting](./TRANSRAILL.md) *(v1 23-Jul-2026 · **Tier A refresh 13-Aug-2026** — HELD at Med-High, Under Watch)*

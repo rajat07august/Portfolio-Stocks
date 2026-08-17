@@ -1,6 +1,6 @@
 # CLAUDE.md — Equity Watchlist Research Framework
 
-**Owner:** Rajat · **Last updated:** 3-Aug-2026 (v1.5 — dashboard banner/title/counts are now **derived from the `stocks` array**, never hardcoded; Last Refreshed auto-derives from the latest date in the data; back-to-top + per-browser hide (localStorage only, never touches data or repo) added. Open item: dashboard `sector:` labels have drifted from the Section 5 taxonomy — derived count reads **20**, taxonomy says 19) · **Version:** 1.5
+**Owner:** Rajat · **Last updated:** 18-Aug-2026 (v1.6 — **DYCL #54 + NRB Bearings #55 added, 55 stocks across 19 sectors.** New §4A methodology: **NSE's shareholding-pattern master API is now the standard second source for any promoter-holding claim** — it is what verified NRB's unexplained 6.47pp promoter decline; **BSE `AttachHis`** serves older filings that `AttachLive` refuses; **revised/superseded transcript handling** codified. Ticker rule hardened: **use the exact NSE symbol**. Open item carried from v1.5: dashboard `sector:` labels have drifted from the Section 5 taxonomy — derived count reads **21**, taxonomy says 19) · **Version:** 1.6
 
 This file is the standing brief for equity analyst work on Rajat's watchlist. Load this at the start of every new session before doing analysis work. It captures methodology, workflows, sector taxonomy, data sources, and session-management conventions built up over prior sessions.
 
@@ -82,6 +82,7 @@ This is the price of running lean sessions. Skip steps 1-3 only if the user expl
 - **BSE-only listings** — use `.BO` suffix (e.g., `RAJESH.BO` after we found the `.NS` was dead)
 - Screener BSE code sometimes differs from NSE symbol (e.g., Yash Highvoltage: BSE 544310, NSE YASHHIGHV)
 - Sunita Tools BSE code is 544001 (folder in `Fetched Concalls/` uses this code, NOT the ticker)
+- **🟢 NEW STOCKS: use the EXACT NSE symbol as the ticker, profile filename and dashboard `symbol`** (codified 18-Aug-2026). NRB Bearings was added as **`NRBBEARING`**, not the shorter, more natural `NRB`; Dynamic Cables as **`DYCL`**. This is the direct lesson of the **DYNAMATIC** error — the profile carried a shortened name while Screener/NSE both use `DYNAMATECH`, and the mismatch produced a 404 and a stale header that survived months of refreshes (see §4A, three Screener ticker mismatches in one cycle: OBSC→`OBSCP`, SATHLOKHAR, DYNAMATIC→`DYNAMATECH`). **A ticker that matches the exchange exactly cannot drift from it. Verify against `EQUITY_L.csv` at creation, not later.**
 
 ### Sandbox/tool restrictions to remember
 
@@ -293,6 +294,45 @@ grep "^HALDYNGL," EQUITY_L.csv   # -> Haldyn Glass Limited,BE,20-APR-2026,...,IN
 - **allorigins.win fails** for BSE (doesn't send `Origin: bseindia.com` → 500). cors.lol passes headers through, which is why only it works.
 - **BSE scrip codes are error-prone from memory** — always confirm from the company's own filing letterhead. (e.g. TRANSRAILL BSE = **544317**, not 544361; INTERARCH = **544232**.)
 - **🔴 AND VERIFY THE RESPONSE, NOT JUST THE REQUEST (added 12-Aug-2026).** A wrong scrip code does not error — **it silently returns another company's filings.** On 12-Aug-2026 a 13-stock scan queried **KMEW as 543664 (actually Kaynes Technology)** and **MONARCH as 530291 (actually Paos Industries)**, and both produced confident, wrong "has reported" conclusions that went into the refresh queue. **Rule: every scrip-code query must echo back the `SLONGNAME` field BSE returns and compare it to the expected company before any conclusion is drawn. The code is the input; the returned name is the check.**
+
+### 🟢 NSE's SHAREHOLDING-PATTERN MASTER — the standard second source for any promoter-holding claim (added 18-Aug-2026)
+
+**Screener's shareholding table is a derived product. Never let a promoter-holding conclusion rest on it alone.** NSE publishes the companies' own *filed* patterns as a clean JSON enumeration:
+
+```bash
+UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/126 Safari/537.36"
+curl -s -c nse.txt -o /dev/null -H "User-Agent: $UA" "https://www.nseindia.com/"   # 403 is fine, sets cookie
+curl -s -b nse.txt -H "User-Agent: $UA" -H "X-Requested-With: XMLHttpRequest" \
+  -H "Referer: https://www.nseindia.com/companies-listing/corporate-filings-shareholding-pattern" \
+  "https://www.nseindia.com/api/corporate-share-holdings-master?index=equities&symbol={SYMBOL}"
+```
+Returns ~20 quarters of `{date, public_val, submissionDate, broadcastDate}`. **Promoter % = 100 − `public_val`.**
+
+**Why this earned its place (NRBBEARING, 18-Aug-2026).** Screener showed NRB's promoter holding falling **51.20% → 44.73%** in the Jun-2026 quarter — a 6.47pp drop that would be the single most important fact about the stock. Rather than publish it off one source, it was cross-checked here: NSE's filed master showed public shareholding at **48.80% for eight straight quarters, then 55.27% at 30-Jun-2026**. The two agreed exactly, and only then was the finding written up.
+
+**The corollary matters as much as the check.** Having confirmed the *fact*, the *cause* still had to be hunted — and was not found: no Reg 29(2) sale disclosure (the only one filed was a **pledge release** explicitly recording *"Shares sold — nil"*), no reclassification filing, and no mention on an earnings call held six weeks after quarter-end. **A verified fact with an unresolved cause is reported as exactly that — per §0A rules 3, 5 and 6. Do not infer a sale, and do not stay silent because the cause is unknown.**
+
+**Two companion filings worth pulling whenever holding or control is in question** — both are on the NSE announcements feed under `Disclosure under SEBI Takeover Regulations`:
+- **Reg 31(4)** — annual/periodic **pledge** confirmation. NRB's (17-Jun-2026) disclosed **39.80% of total share capital pledged** at 31-Mar-2026, ~78% of the promoter stake. This appears in no ratio screen anywhere.
+- **Reg 29(2)** — acquisition/disposal crossing thresholds. **Read the table, don't assume from the title:** NRB's was a *release of pledged shares*, not a sale, and says so in a line that is easy to skim past.
+
+### 🟢 BSE `AttachHis` — the archive endpoint for older filings (added 18-Aug-2026)
+
+When a Screener-listed concall PDF returns a non-PDF from `AttachLive`, **it has not disappeared — it has aged out to the archive path**:
+```bash
+https://www.bseindia.com/xml-data/corpfiling/AttachHis/{uuid}.pdf   # try when AttachLive fails
+```
+Recovered DYCL's Q3FY26 transcript on 18-Aug-2026 after `AttachLive` returned 12KB of non-PDF. **Order of attempts: `AttachLive` → `AttachHis` → `AnnPdfOpen.aspx?Pname=`.** Always verify `head -c4` == `%PDF` before trusting any of them, and beware a guard clause that tests a file the loop has already overwritten — that silently drops a good download.
+
+### ⚠️ REVISED AND SUPERSEDED TRANSCRIPTS — check before counting, and diff before quoting (added 18-Aug-2026)
+
+**A company can file the same call twice.** NRB filed its Q1FY27 transcript at 13:04 on 13-Aug-2026 and a **"Revised Earnings Call Transcript" at 18:19 the same day**, citing *"a typographical error."* Screener lists both, and a naive count read it as **five** transcripts when only **four calls exist** — which would have overstated a concall gate from AMBER to something closer to GREEN.
+
+**Rules:**
+1. **Two documents with the same period label are one call until proven otherwise.** Compare headers and file sizes; `diff` the extracted text.
+2. **Name them explicitly on disk:** `{TICKER}_Transcript_{YYYY-MM}_REVISED.pdf` and `..._SUPERSEDED.pdf`. Keep both — the superseded one is evidence.
+3. **Quote only the revised version**, and say in the Source Appendix that you did.
+4. **🔴 Always diff the bodies, because the correction is itself a finding.** NRB's sole substantive change was: *"NRB's trailing 12-month profit growth is the highest **in the group of competitors we generally benchmark ourselves against**"* → *"...profit growth is **the highest**."* A "typographical error" that removes a peer-benchmark qualifier from a comparative performance claim is worth recording. **Record what changed; do not speculate about why.**
 
 ### Fetch attempts in this order (stop when 6 primary docs are in hand)
 
@@ -661,7 +701,9 @@ Rajat's directive (18-Jul-2026): refresh in filing-date order regardless of Buck
 
 ---
 
-## 5. Sector taxonomy (18 sectors)
+## 5. Sector taxonomy (19 sectors)
+
+*⤴ Header corrected 18-Aug-2026 — it read "18 sectors" while the table has carried 19 rows since **Sector 19 (Power T&D EPC / Turnkey)** was created on 23-Jul-2026. Caught by the §8 step-5 sector-count check. **Note the separate, still-open issue: the dashboard's `sector:` labels have drifted from this taxonomy and derive to 21 distinct labels — see the v1.5/v1.6 header note.***
 
 Current taxonomy. New stock must fit one of these OR trigger sector expansion protocol.
 
@@ -776,6 +818,11 @@ Commit CLAUDE.md + PORTFOLIO_STATE.md changes to git along with any dashboard/pr
 
 Stocks that need a data refresh (like Astec was on 3-Jul-2026). Format: TICKER, reason, target date.
 
+**🔴 TOP OF QUEUE — two unresolved OPEN QUESTIONS from the 18-Aug-2026 additions.** Neither is a data gap in the ordinary sense: both are specific, answerable questions where the fact is established and the *explanation* is missing. Per §0A rule 6, they are recorded as stated gaps rather than resolved by inference.
+
+- **🔴 NRBBEARING — why did promoter holding fall 51.20% → 44.73% in the Jun-2026 quarter?** Verified against **two** independent sources (Screener + NSE's filed shareholding master, public 48.80% → 55.27%). **No Reg 29(2) sale disclosure** — the only one filed (25-Jun-2026) is a *pledge release* recording *"Shares sold — nil"*; **no reclassification filing; not one analyst question** on the Q1FY27 call held 10-Aug, six weeks after quarter-end. It contradicts the MD's Nov-2025 *"just me and my immediate family have over 50%."* **This is the stock's formal Under Watch trigger: if it proves to be an inadequately disclosed promoter sale, downgrade M → ML regardless of operating performance.** Also track the residual pledge (was **39.80% of total share capital** at 31-Mar-2026, ~78% of the promoter stake). **Target: FY26 Annual Report, or the Q2FY27 call (~Nov-2026).**
+- **🔴 DYCL — reconcile the ₹344.75cr related-party corporate guarantees.** The FY25 AR's auditor's report discloses a **₹5cr** guarantee to **Mangal Electrical Industries** (whose MD is DYCL's own Chairman, Rahul Mangal), while the RPT note reportedly shows **~₹344.75cr** of guarantees against **Shiv Kripa Pipes** and **Indokrates Pvt Ltd**. Raised on ValuePickr 5-Aug-2026 (post #42) and unanswered. Management's Q4FY26 answer described an Indo Krates guarantee flowing *to* DYCL's bank as collateral, now withdrawn — which may be the same transaction from the other end, or something different. **₹344.75cr against ₹457cr of net worth. Not an allegation — an open item.** The ₹344.75cr figure is second-hand from a forum reader and **has not been verified against the AR itself**. **Target: read the FY26 Annual Report's related-party note and auditor's report in full.**
+
 **Genuine current gaps (from 4-Jul-2026 corrected audit):**
 - **HALEOS** — only Q4FY25 PPT (SMS Lifesciences pre-rebrand) in repo; FY26 concalls needed for full delivery-scorecard build
 - **HALDYN** — no concalls in repo, small mainboard historically no concall culture; profile built on Screener + public info only
@@ -797,6 +844,36 @@ On 4-Jul-2026 discovered that SUNITA (BSE 544001), ACCENT (NSE-SME ACCENTMIC), R
 ---
 
 ## 10. Rolling changelog (last 30 days)
+
+### 18-Aug-2026 (Session 11 — DYCL #54 + NRB Bearings #55 added; shareholding cross-check codified)
+
+**Two new stocks, both full workflow (card + deep-dive same day), both concall-gated before a word was written. Watchlist now 55 stocks / 19 sectors.** Neither triggered the Section 5 expansion protocol — DYCL joined **Sector 14** alongside DIACABS/YASH/SYSTEMATIC, NRB made **Sector 3** 8/8.
+
+**🟢 DYCL — Dynamic Cables (BSE 540795, NSE DYCL), Sector 14, conviction MEDIUM, weighted ~+30% / 2yr, bear −48%:**
+- Mangal family, Jaipur, est. 1986. **100% B2B power cables and conductors, deliberately no brand and no dealer channel.** Management's own construct: *"an 80-10-10 business"* — 80% material / 10% employee+other / 10% EBITDA. **~95% aluminium, not copper.** ~3-4% of a ₹35-40,000cr B2B cable market.
+- **Gate 🟢 GREEN — 8 transcripts (Oct-2024 → Jul-2026) + 4 decks**, above the 6-call standard.
+- **🔴 THE FINDING: the headline is aluminium, not activity.** Q1FY27 revenue **+33%** but management stated volume growth was **"5% to 6%"** — DYCL passes metal cost through 1:1 in real time, so ~27 of those 33 points are aluminium and would reverse with it. Volume series: 9MFY26 +17%, **Q3FY26 alone +2-3%**, Q4FY26 +8% core, **Q1FY27 +5-6%.**
+- **🔴 Delivery miss, eight consecutive calls:** the greenfield plant was guided for **Q1FY26 (Oct-2024)** → Q2FY26 → H2FY26 → *"end of FY26"* → **"September 2026"** (Jul-2026). ~15-18 months, conceded by management. **Described as *"on schedule"* in Oct-2025 when already ~12 months late.** Causes partly genuine and external (approvals, Iran-war freight, AERB clearance for E-beam — now received).
+- **🟡 Order book ₹811cr, flat five quarters** (₹721 → ₹811cr) while TTM revenue compounded ~19%; coverage thinned ~1.0x → ~0.63x. Management concede it is **capacity-rationed, not demand-rationed** — which makes the September commissioning far more consequential than it looks.
+- **✅ What is genuinely good:** ROCE 26% two years running, ROE 20% on a 3/5/10-yr basis, borrowings **₹119 → ₹43cr**, interest halved **₹21 → ₹11cr** (CRISIL A/Stable + A1), and the rare discipline to **exit ~12% of the revenue base** to hold margin — railway signalling 4% of FY25 → **zero**, LV conductors 8-9% → sub-5%. Mix HV 60% → **68%**; solar ₹105cr (10% of FY25) → **~20%** of Q1FY27. US entered Q1FY27 after ~18 months of tariff delay. Promoter **68.18% flat nine quarters, zero selling**. **Cheapest listed cable name — 24.7x vs KEI 56.3x / RR Kabel 51.4x / Polycab 50.1x.**
+- ⚠️ **Screener's consolidated page is blank — all figures standalone** via plain-URL fallback. 🟡 CFO/OP 69%, FY26 FCF ₹4cr, WC days 56 → 82. Institutional ownership **1.65%**.
+
+**🟢 NRBBEARING — NRB Bearings (BSE 530367, NSE NRBBEARING), Sector 3, conviction MEDIUM (Under Watch), weighted ~+20% / 2yr, bear −53%:**
+- Needle-roller-bearing pioneer since **1965**; **>90% of vehicles on Indian roads** run on its bearings; ~4,000 products co-designed onto platforms 3-5 years pre-launch; 60-70% share of business inside key accounts, 100% on some. **"EV-agnostic" is real** — ~70% of applications common to ICE/hybrid/EV, priced value-neutral. Lifetime nominated book **₹600 → ₹800 → ₹1,100cr in nine months.**
+- **Gate 🟡 AMBER — only 4 transcripts exist.** NRB began publishing at Q2FY26; verified across Screener, BSE and NSE feeds. **A source limit, not a fetch failure** — stated as such in the profile, and the delivery scorecard is explicitly provisional.
+- **🔴 FINDING 1 — the screen is lying about growth.** Reported FY26 PAT **+77%** is a base effect from the **₹55cr family-settlement payment in Q4FY25** (that quarter shows other income −₹45cr, a 284% tax rate, ₹−1cr net). **Normalised PBT growth is ~+15%** (FY25 ₹113cr + ₹55cr = ₹168cr vs FY26 ₹193cr). *PBT basis chosen deliberately to avoid guessing the settlement's tax deductibility.* Distortion persists until FY27 laps it.
+- **🔴 FINDING 2 — promoter holding fell 51.20% → 44.73% in the Jun-2026 quarter**, FII +4.23pp and DII +3.79pp. **Cross-checked against NSE's filed shareholding master** (public 48.80% for eight quarters → 55.27%); the two agree exactly. **No Reg 29(2) sale disclosure, no reclassification filing, no mention on the 10-Aug call.** Promoters had **39.80% of total share capital pledged** at 31-Mar-2026 (~78% of their stake), now unwinding. **Reported as a verified fact with an unresolved cause — the formal Under Watch trigger.**
+- **✅ FY26 was the first clean year in five** after a **Waluj plant fire** (destroyed lines *and* the two-wheeler WIP stores, costing NRB the two-wheeler upcycle) and the **Feb-2025 family settlement** (Devesh Sahney's branch exited to separately-listed NIBL, cross-holdings zero both ways, NRB brand retained). Margin 18.3% → **19.5%**, inventory days **364 → 302** with absolute inventory down >₹20cr on rising sales, **CFO ₹241cr = 126% of operating profit**, **FCF ₹136cr**, **CRISIL AA-/Stable + A1+**. Div yield **1.64%**, highest in Sector 3.
+- ⚠️ **Two margin bases coexist** — company EBITDA ₹267cr/19.5% (includes other income) vs Screener OP ₹232cr/17.4%. Their 18-20% guidance is on the inclusive basis. **Do not mix them.** 🟡 MTR order book quoted ₹50cr/₹70cr/₹25cr in five weeks. 🟡 Standalone PAT +31.7% vs consolidated +15% in Q1FY27 — subsidiaries diluting, unexplained. ✅ *Stated so it isn't misread:* NSE's 19-May query was an **XBRL "Audited/Unaudited" tagging error**, fixed 29-May — administrative, not an earnings-quality issue.
+
+**🟢 Methodology added to §4A (the durable output of this session):**
+1. **NSE shareholding-pattern master (`corporate-share-holdings-master`) is now the standard second source for any promoter-holding claim.** Screener's table is derived; never publish a holding conclusion off it alone. This is what made the NRB finding safe to write.
+2. **Reg 31(4) (pledge) and Reg 29(2) (acquisition/disposal) filings** should be pulled whenever holding or control is in question — **and the table read, not the title**: NRB's Reg 29(2) was a *pledge release*, not a sale.
+3. **BSE `AttachHis`** is the archive endpoint for older filings `AttachLive` refuses. Recovered DYCL's Q3FY26 transcript. Order: `AttachLive` → `AttachHis` → `AnnPdfOpen`.
+4. **Revised/superseded transcripts** — a company can file the same call twice. Two documents with one period label are **one call** until proven otherwise (this would have overstated NRB's gate from AMBER toward GREEN). Name them `_REVISED` / `_SUPERSEDED`, quote only the revised, **and diff the bodies — the correction is itself a finding.**
+5. **New stocks take the exact NSE symbol** as ticker/filename/dashboard symbol (§1) — `NRBBEARING` not `NRB`. Direct lesson of the DYNAMATIC → DYNAMATECH error.
+
+**Dashboard:** both wired to `stocks`, `CMP_DATA` and `PROFILE_STATUS`; verified headlessly — 55 stocks, no duplicate ids or nums, nothing missing from either map, aggregate mcap ₹438,214cr. Banner derives 55 / 21 sectors / "18 Aug 2026" with no hardcoding. **Sector-label drift from v1.5 is unchanged and still open** — derived count now reads **21** against a 19-sector taxonomy; no new labels were introduced by these two additions.
 
 ### 3-Aug-2026 (Session 10 — dashboard UI: dynamic banner, back-to-top, per-browser hide)
 
