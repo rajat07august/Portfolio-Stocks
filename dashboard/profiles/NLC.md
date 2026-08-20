@@ -1,34 +1,144 @@
 # NLC India — Company Profile
 
-**Ticker:** NLC · **NSE: NLCINDIA** · BSE: 513683 · **Sector:** 13 — Power & Renewables *(lignite mining + thermal + renewables)* · **Conviction:** Medium-High *(↓ from High, 15-Aug-2026 — see Refresh Log)*
-**v1 written:** 3-Jul-2026 · **Tier A refresh:** 15-Aug-2026
-**CMP:** ₹275 · **Market Cap:** ₹38,188 cr · **P/E (trailing):** 11.9x *(≈12.9x normalised for tax)* · **P/B:** 1.77x · **ROCE:** 10.4% · **ROE:** 17.5% · **Div yield:** 1.31% *(Screener consolidated, 15-Aug-2026)*
+**Ticker:** NLC · NSE: **NLCINDIA** · BSE: 513683
+**Sector:** 13 — Power & Renewables *(lignite mining + thermal + renewables + critical minerals)* · **Conviction:** **Medium-High**
+**Thesis current as of:** 15-Aug-2026 · **Tracking since:** 3-Jul-2026
+
+**CMP ₹275** · **Market cap ₹38,188 cr** · **P/E 11.9x reported / ≈12.9x normalised for tax** *(TTM PBT ₹3,933cr at 25%)* · **P/B 1.77x** (book ₹155) · **ROCE 10.4%** · **ROE 17.5%** · **Div yield 1.31%** · 52-week range **₹222–₹388**
+*(Screener consolidated, 15-Aug-2026)*
+
+> **How to read this profile.** Sections 1–9 describe what I believe **today**, rewritten at each review rather than annotated. **Section 5.5 is the memory** — how the thesis got here, what changed and when, what I got wrong. **Section 9 is the community read.**
+>
+> **🔴 The single rule for this company: tax-normalise every profit comparison.** FY26's effective tax rate was **2.7%**; FY25's was 26.6%; Q1FY27's was 33%. **Reported PAT is not comparable across any two periods here without adjustment**, and the headline records that justified a High conviction at initiation were substantially an accounting event. **Read the PBT line first.**
 
 ---
 
-# 🔄 Refresh Log — 15-Aug-2026 (Q1FY27)
+## 1. Business in Plain English
 
-> **Concall gate: 🟡 NO Q1FY27 CALL HELD.** NLC normally holds quarterly calls — transcripts were filed **2-Jun-2026, 16-Feb-2026 and 2-Dec-2025** — but **eight days after the 7-Aug results there is no concall intimation, recording or transcript** across 1,543 NSE filings. `Fetched Concalls/NLC/` **did not exist** before this refresh. This refresh is built on the **Q1FY27 press release and results filing (7-Aug)** plus Reg 30 intimations. **Watch for the transcript — it may yet appear.**
+**NLC India (formerly Neyveli Lignite Corporation)** is India's flagship **Navratna** energy PSU — a **70-year-old, fully vertically integrated** business that mines its own lignite at Neyveli in Tamil Nadu, burns it in its own thermal power stations, sells the electricity to state discoms, and is now building a large renewables and critical-minerals arm alongside.
 
-## The one-paragraph version
+**Where most power companies do one thing, NLC does the whole chain.** Mine → generate → sell, plus a growing coal-mining business at Talabira and Pachwara South, plus **NLC India Renewables Limited (NIRL)** for solar, wind and battery storage.
 
-**The operating quarter was strong and the headline PAT number is misleading in the opposite direction from the rest of this batch — but so was FY26's, and that matters more.** Q1FY27 consolidated revenue **₹4,716.75cr (+23.29%)** on gross generation up **25.00%**, with **operating profit up 57% and operating margin 24.4% → 31.2%**. The company reports **EBITDA +18.71%** and **PBT +9.76%** — and then **stops, without mentioning PAT at all.** PAT was **₹436cr against ₹839cr, down 48%**, because **Q1FY26 carried a tax credit (−41% effective rate) and Q1FY27 paid 33%**, while other income halved from ₹497cr to ₹228cr. **The more important discovery is at the full-year level: FY26's effective tax rate was 2.7%.** Against a normalised 25%, FY26 PAT of **₹3,769cr would have been ~₹2,906cr — the reported figure is about 30% tax-inflated.** v1's headline claim that NLC *"delivered ALL-TIME-HIGH across every metric in FY26"* is true for revenue, generation and EBITDA, **but the PAT record is substantially an accounting artefact**, and TTM PAT has already fallen back to ₹3,367cr. **What is genuinely strong:** **India Ratings assigned IND AAA/Stable** (the best rating in this entire refresh cycle), **100% collection efficiency on power debtors**, a **50:50 JV with NALCO for a 1,080 MW captive thermal plant at Angul**, and a **SECI Letter of Award for 200 MW of wind in Karnataka** via the wholly-owned renewables arm. **What is new and unwelcome:** the **Government of India cut its stake from 72.20% to 69.47%** during the quarter, and **the CMD's role is being held in additional charge by a Ministry of Coal official.** **Conviction High → Medium-High.** At ~12.9x normalised earnings, 1.77x book and 17.5% ROE, this remains the cheapest name in the batch — the downgrade is about the quality of v1's evidence, not the price.
+**The snapshot:**
+- **HQ Neyveli, Tamil Nadu; registered in Chennai. Founded 1956.**
+- **Government of India: 69.47%**, via the President of India through the Ministry of Coal — **cut from 72.20% during Q1FY27.**
+- **FY26 consolidated revenue ₹17,490cr (+14%) — a genuine record.**
+- **FY26 reported PAT ₹3,769cr (+39%) — but the effective tax rate was 2.7%. Normalised at 25%, it would have been ~₹2,906cr, and PBT grew just 4.8%.**
+- **FY26 capex ₹9,131cr (+18%)** — the largest investment cycle in the company's history.
+- **Q1FY27: generation +25.00%, revenue +23.29%, operating margin 24.4% → 31.2%** — genuinely strong. **PAT −48%**, entirely on tax and other income.
+- **India Ratings: IND AAA/Stable** — the best credit in this refresh cycle.
+- **100% collection efficiency** on power debtors at 30-Jun-2026.
 
-## What is genuinely new since v1 (3-Jul-2026)
+**Big picture in one sentence:** NLC is a AAA-rated, vertically integrated lignite-and-power Navratna at **~12.9x normalised earnings and 1.77x book on a 17.5% ROE** — genuinely cheap, operationally improving, and carrying two live overhangs: **a government that has resumed selling** and **a profit record that turned out to be about 30% tax.**
 
-- **🔴 FY26's effective tax rate was 2.7%** (vs 26.6% FY25, 35.2% FY24) — **reported FY26 PAT is ~30% above a normalised figure.**
-- **🔴 Q1FY27 PAT −48%** on tax normalisation (−41% → 33%) and other income halving; **the press release does not mention PAT.**
-- **🟢 India Ratings: IND AAA/Stable assigned** on ₹1,102cr bank facilities; **IND AAA/Stable affirmed** on ₹2,500cr NCDs.
-- **🟢 NALCO JV** — 50:50, **1,080 MW (4×270 MW) coal-based captive thermal plant at Angul, Odisha**, signed 8-Jul-2026.
-- **🟢 SECI Letter of Award — 200 MW wind at Koppal, Karnataka** to NLC India Renewables Ltd (wholly owned), 10-Aug-2026.
-- **🟢 100% collection efficiency on power debtors** as at 30-Jun-2026.
-- **🔴 GoI stake 72.20% → 69.47%** in Q1FY27 — the first move since March 2024.
-- **🟡 No permanent CMD** — the role is held in additional charge by the Additional Secretary, Ministry of Coal.
+---
+
+## 2. Why This Industry Exists
+
+**Force 1 — India's power capacity mandate.** Peak demand growing **6–7% CAGR**; coal and lignite remain **55–60% of the generation mix through 2030**, even as renewables scale alongside.
+
+**Force 2 — The 500 GW renewable target by 2030.** More than **₹10 lakh crore of capex** through the decade, with PSUs and private developers both scaling. **NIRL has already secured 2 GW of RE projects.**
+
+**Force 3 — Coal and lignite mining liberalisation.** The policy shift letting PSUs and private developers work their own blocks is what gave NLC **Talabira II & III** and **Pachwara South**.
+
+**Force 4 — Critical minerals.** India's push for lithium, cobalt and rare-earth self-sufficiency. **NLC won two critical mineral blocks in FY26** — multi-decade optionality with no near-term earnings.
+
+**Force 5 — Battery storage.** Renewable integration requires BESS at scale, and **NIRL has already secured 3,300 MWh** across PSPCL, NHPC, GUVNL and SECI.
+
+**Where NLC sits.** **Coal India** is far larger and coal-only; **NTPC** is larger across thermal and renewables; **GMDC** is the Gujarat lignite specialist (also on this watchlist, and a useful contrast — GMDC has stopped holding earnings calls entirely); **SJVN, THDC and NHPC** are hydro-heavy. **NLC is the most diversified PSU across lignite, coal, thermal, renewables and critical minerals** — and the only one with lignite as its core.
+
+---
+
+## 3. What Makes This Company Different
+
+**Moat 1 — Seventy years of lignite mining at Neyveli.** Lignite is low-calorific and uneconomic to transport, so the mine-mouth model is the business. Nobody replicates this position.
+
+**Moat 2 — Navratna status and Government of India ownership** — preferential access, financial strength, and a cost of capital private peers cannot match.
+
+**Moat 3 — 🟢 IND AAA/Stable from India Ratings**, assigned on ₹1,102cr of bank facilities and affirmed on ₹2,500cr of NCDs (10-Aug-2026). **The highest rating available, and comfortably the best in this refresh batch** — against AA−/A1+ at GPIL, AA− at TRANSRAILL, and BBB+ at OBSC and SATHLOKHAR. **For a company running a ₹7,500cr annual investing programme, a AAA cost of capital is a material competitive asset.**
+
+**Moat 4 — 🟢 100% collection efficiency on power debtors** at 30-Jun-2026 — *"reflecting robust recovery measures and sustained improvement in receivables management."* **For a state-discom-facing generator this is the single most important working-capital metric**, and debtor days have fallen **106 → 75 → 70** over three years.
+
+**Moat 5 — Capacity delivered, not promised.** FY26 added **963 MW** (660 MW thermal + 303 MW renewables), commissioned **NNTPS Unit-II (500 MW)** and **NUPPL Unit-I (660 MW COD)**, and **crossed 1 GW of solar — a CPSE first.**
+
+**Moat 6 — NIRL, the renewables arm.** Wholly owned, with **2 GW of RE projects and 3,300 MWh of BESS** secured, and JVs approved with **NCRTC** and **MAHAPREIT**.
+
+**Moat 7 — 🆕 The NALCO joint venture.** Signed **8-Jul-2026** before the Union Minister for Coal and Mines: a **50:50 JV with National Aluminium Company** to *"develop, finance, construct, own and operate"* a **1,080 MW (4 × 270 MW) coal-based captive thermal plant at Angul, Odisha**, supplying NALCO's expansion. **Two Navratna CPSEs, an anchored offtaker, and a captive structure that removes merchant-power risk** — materially better quality than a merchant IPP.
+
+**Moat 8 — 🆕 SECI Letter of Award, 200 MW wind at Koppal, Karnataka** to NIRL (10-Aug-2026).
+
+**Moat 9 — Coal mining ramp.** **19.14 MT produced and 17.69 MT dispatched in FY26** from Talabira II & III, with **Pachwara South commencing March 2026**.
+
+**Moat 10 — Dividend.** FY26 paid **38.5% (₹3.85 on a ₹10 face value)** — 36% interim plus 2.5% final — the best in six years. Current yield **1.31%**.
+
+**Moat 11 — Two critical mineral blocks won in FY26.** Optionality, unquantified.
+
+**Where the moat is weaker — stated plainly:**
+- **🔴 The FY26 profit record was ~30% tax.** 2.7% effective rate. **PBT grew 4.8% while reported PAT grew 38.9%.**
+- **🔴 The Government of India has resumed selling** — 72.20% → **69.47%** in Q1FY27, with a 75% ceiling still far above.
+- **ROCE is 10.4%** — modest for the asset base, and the gap to a 17.5% ROE is leverage.
+- **🔴 Free cash flow is negative.** FY26 CFO ₹5,166cr (108% of operating profit) against **₹7,549cr of investing outflow → FCF −₹2,474cr**, funded by ₹2,907cr of financing inflow. **Appropriate for a AAA-rated PSU in a build phase, but this is not a self-funding business today.**
+- **🟡 No permanent CMD** — the role is held in additional charge by a serving Ministry of Coal official.
 - **🟡 No Q1FY27 earnings call**, against a quarterly cadence.
+- **Lignite and coal pricing volatility**, environmental compliance costs, and a **retail-heavy register** of 3,33,052 shareholders.
 
 ---
 
-## 📊 Q1FY27 — the print, and the tax that runs through it
+## 3.5. Management Track Record & Promoter Background
+
+**🟡 Chairman & Managing Director — held in additional charge.** The NALCO JV release lists *"Shri Sanoj Kumar Jha, Additional Secretary, Ministry of Coal & **Chairman and Managing Director (Additional Charge)**, NLC India Limited."* **The CMD's chair is being filled by a serving Ministry official**, alongside a run of board changes in the quarter — appointments of **Shri Gopal Singh (10-Jul)** and another director **(17-Jul)**, and the **cessation of a director (30-Jun)**. **Common in CPSEs and not a governance failure — but leadership held in additional charge is not the same as leadership**, particularly for a company simultaneously signing a 1,080 MW JV and running a ₹7,500cr capex programme.
+
+**Company Secretary — Sushanta Kumar Panda.**
+
+**Owner — the Government of India**, Ministry of Coal, through the President of India.
+
+| | Jun-23 | Mar-24 | Mar-25 | Mar-26 | **Jun-26** |
+|---|---|---|---|---|---|
+| **Government of India** | 79.20% | **72.20%** *(7% OFS)* | 72.20% | 72.20% | **69.47%** |
+| FIIs | 0.81% | 2.39% | 2.91% | 3.61% | **4.62%** |
+| DIIs | 8.02% | 13.38% | 14.63% | 13.97% | **12.94%** |
+| Public | 7.66% | 7.73% | 5.96% | 5.91% | **8.66%** |
+| Shareholders | — | 2,58,498 | 3,40,021 | 3,03,919 | **3,33,052** |
+
+*A separate LIC/Government category holds ~4.31%, stable.*
+
+**🔴 The Government cut its stake 2.73 percentage points in Q1FY27** — the first move since the **March-2024 OFS** took it from 79.20% to 72.20%. **The stock is 29% below its ₹388 high and fell 8.9% in the twelve days to 15-August**, consistent with a supply overhang. **With GoI at 69.47% against a 75% ceiling, further divestment should be assumed as a live risk rather than a closed chapter.** FIIs bought through it (3.61% → 4.62%) and retail added 29,133 holders; DIIs trimmed.
+
+**Other Ministry of Coal listed entities:** **Coal India**, **BEML**, and several smaller Coal Ministry PSUs.
+
+### Delivery scorecard
+
+| Guidance / milestone | When | Actual | Verdict |
+|---|---|---|---|
+| **Highest-ever FY26 revenue** | multi-year | **₹17,490cr (+14%)** | ✅ **Real** |
+| **Highest-ever FY26 PAT** | multi-year | ₹3,769cr (+39%) — **but on a 2.7% effective tax rate; PBT grew 4.8%** | 🔴 **~30% an artefact** |
+| **Highest-ever FY26 capex** | multi-year | **₹9,131cr (+18%)** | ✅ |
+| **Highest-ever FY26 net worth** | multi-year | **₹21,525cr (+15%)** | ✅ |
+| **Highest dividend in six years** | FY26 | **38.5% — ₹3.85** (36% interim + 2.5% final) | ✅ |
+| **963 MW of capacity added** | FY26 | 660 MW thermal + 303 MW renewables | ✅ |
+| **NNTPS Unit-II 500 MW · NUPPL Unit-I 660 MW COD** | FY26 | Both delivered | ✅ |
+| **Solar past 1 GW — a CPSE first** | FY26 | Achieved | ✅ |
+| **NIRL tender wins** | FY26 | **2 GW RE + 3,300 MWh BESS** | ✅ |
+| **Pachwara South coal commencement** | Mar-2026 | Achieved; **FY26 coal production 19.14 MT, dispatch 17.69 MT** | ✅ |
+| Barsingsar 300 MW solar | multi-year | In progress | 🕐 |
+| **Q1FY27 operating performance** | Q1FY27 | Revenue **+23.29%**, generation **+25.00%**, operating margin **24.4% → 31.2%** | ✅ **Strong** |
+| **Q1FY27 PAT** | Q1FY27 | **−48%** on tax normalisation and a ₹269cr fall in other income; **not mentioned in the press release** | 🔴 |
+| **Renewables pivot** | initiation | **SECI LoA, 200 MW wind at Koppal** via NIRL | ✅ **Progressing** |
+| **Capacity growth** | — | **NALCO 50:50 JV, 1,080 MW captive thermal at Angul** — anchored offtake | ✅ **High quality** |
+| **Credit standing** | — | **IND AAA/Stable assigned and affirmed** — best in the batch | ✅ |
+| **Receivables** | — | **100% power debtor collection**; debtor days 106 → 70 over three years | ✅ |
+| **Free cash flow** | — | FY26 CFO ₹5,166cr (108% of OP) **but investing −₹7,549cr → FCF −₹2,474cr** | 🟡 **Build phase** |
+| **"GoI holding stable post-Mar-24 OFS"** *(the initiation claim)* | initiation | 🔴 **No longer true — 72.20% → 69.47%** | 🔴 **Falsified** |
+| Leadership | — | **CMD held in additional charge** by the Additional Secretary, Ministry of Coal | 🟡 |
+| Investor engagement | — | **No Q1FY27 earnings call**; last transcript 2-Jun-2026 | 🟡 |
+
+**Verdict on management:** *The operating record is real and improving — coal production +7.84%, group generation +25%, operating margin at the best level in the visible series, 100% debtor collection, a AAA rating, and two well-structured growth additions in a single quarter. For a lignite PSU, that is good execution. **What this review exposes is a disclosure and evidence problem rather than an operating one:** the FY26 profit record rested on a 2.7% tax rate that nobody flagged, the Q1FY27 press release reports down to PBT and omits the one line that fell, no earnings call was held this quarter, and the CMD's chair is filled in additional charge. **None of that is disqualifying — but a High conviction needs evidence that survives being checked, and the original evidence did not.***
+
+---
+
+## 4. Numbers Decoded
+
+### Q1FY27 — the print, and the tax that runs through it
 
 **Consolidated ("Group"), as the company presented it** *(press release, 7-Aug-2026)*
 
@@ -39,21 +149,23 @@
 | **EBITDA** *(company basis, incl. other income)* | ₹1,431.71 cr | **₹1,699.59 cr** | **+18.71%** |
 | **PBT** | ₹593.60 cr | **₹651.55 cr** | **+9.76%** |
 | Net worth | ₹19,511.56 cr | **₹22,069.07 cr** | +13.11% |
-| **PAT** | ₹839 cr | **₹436 cr** | **−48%** ← *not in the press release* |
+| **PAT** | ₹839 cr | **₹436 cr** | **−48%** ← *absent from the press release* |
 
-**Standalone:** coal production **40.85 lakh tonnes (+7.84%)**, thermal generation **4,318.85 MU (+8.27%)**, revenue **₹2,871.73cr (+15.07%)**, **EBITDA ₹1,013.13cr — up just 1.13%**, PBT ₹548.67cr (+3.76%), and **collection efficiency on power debtors at 100%**.
+**Standalone:** coal production **40.85 lakh tonnes (+7.84%)**, thermal generation **4,318.85 MU (+8.27%)**, revenue **₹2,871.73cr (+15.07%)**, **EBITDA ₹1,013.13cr — up just 1.13%**, PBT ₹548.67cr (+3.76%), **collection efficiency 100%**.
 
 **🟢 The operating business improved far more than the company's own EBITDA line suggests.** Reconciling the two bases:
 
 | ₹ cr | Q1FY26 | Q1FY27 |
 |---|---|---|
-| Operating profit *(Screener, excludes other income)* | 935 | **1,471** — **+57.3%** |
-| Other income | **497** | **228** — **−54%** |
-| = Company "EBITDA" *(includes other income)* | 1,432 ✓ | **1,699 ✓** — +18.71% |
+| Operating profit *(Screener, excludes other income)* | 935 | **1,471 — +57.3%** |
+| Other income | **497** | **228 — −54%** |
+| = Company "EBITDA" *(includes other income)* | 1,432 ✓ | **1,699 ✓ — +18.71%** |
 
-**Operating margin went 24.4% → 31.2%, up 680bps.** The company's headline EBITDA growth of 18.71% is depressed by a ₹269cr collapse in other income, not by the business. **Both figures are correct; they measure different things, and the difference is worth stating whenever this company is quoted.**
+*Arithmetic check: Q1FY26 ₹935cr + ₹497cr = **₹1,432cr** against the company's ₹1,431.71cr; Q1FY27 ₹1,471cr + ₹228cr = **₹1,699cr** against ₹1,699.59cr. **The company's "EBITDA" includes other income; Screener's "operating profit" excludes it.***
 
-**🔴 The PAT line, and why the press release stops before it.** PBT rose 9.76% and PAT fell 48%:
+**Operating margin went 24.4% → 31.2%, up 680bps.** The company's headline EBITDA growth of 18.71% is depressed by a **₹269cr collapse in other income**, not by the business. **Both figures are correct; they measure different things, and the difference must be stated whenever this company is quoted.**
+
+**🔴 The PAT line, and why the press release stops before it.**
 
 | | Q1FY26 | Q1FY27 |
 |---|---|---|
@@ -61,13 +173,9 @@
 | **Effective tax rate** | **−41%** *(a credit)* | **33%** |
 | PAT | ₹839 cr | **₹436 cr** |
 
-**Q1FY26 was flattered by a tax credit of roughly ₹245cr; Q1FY27 paid roughly ₹215cr.** A ₹460cr swing on the tax line alone. **The year-on-year PAT comparison is meaningless in both directions**, and the company's decision to report down to PBT and no further is — while defensible for a PSU that emphasises physical and operating metrics — **a presentational choice that happens to omit the only line that fell.**
+**Q1FY26 carried a tax credit of roughly ₹245cr; Q1FY27 paid roughly ₹215cr — a ₹460cr swing on the tax line alone.** **The year-on-year PAT comparison is meaningless in both directions**, and the company's choice to report down to PBT and no further is — while defensible for a PSU that emphasises physical and operating metrics — **a presentational choice that happens to omit the only line that fell.**
 
----
-
-## 🔴 The bigger finding: FY26's "all-time high" PAT was ~30% tax-inflated
-
-**v1's headline claim was that NLC *"delivered ALL-TIME-HIGH across every metric in FY26."* For revenue, generation and EBITDA that is true. For PAT it is substantially an artefact.**
+### 🔴 FY26's "all-time high" PAT was ~30% tax-inflated
 
 | | PBT (₹ cr) | PAT (₹ cr) | Tax (₹ cr) | **Effective rate** | PAT @ 25% tax |
 |---|---|---|---|---|---|
@@ -78,398 +186,226 @@
 | **FY26** | **3,875** | **3,769** | **106** | **2.7%** | **2,906** |
 | **TTM** | **3,933** | **3,367** | **566** | **14.4%** | **2,950** |
 
-**FY26 paid ₹106cr of tax on ₹3,875cr of pre-tax profit — an effective rate of 2.7%, against 26.6% the year before.** Normalised at 25%, FY26 PAT would have been about **₹2,906cr rather than ₹3,769cr — the reported figure is ~30% higher than a normalised one.** PBT growth FY25 → FY26 was **+4.8%**; reported PAT growth was **+38.9%**. **Almost all of the "record profit" was the tax line.**
+**FY26 paid ₹106cr of tax on ₹3,875cr of pre-tax profit.** Normalised at 25%, FY26 PAT would have been about **₹2,906cr rather than ₹3,769cr.** **PBT growth FY25 → FY26 was +4.8%; reported PAT growth was +38.9%. Almost all of the "record profit" was the tax line.**
 
-**And it is already unwinding.** TTM PAT of **₹3,367cr is below FY26's ₹3,769cr**, with the TTM effective rate back at 14.4% and Q1FY27 at 33%.
+**And it is already unwinding.** TTM PAT of **₹3,367cr is below FY26's ₹3,769cr**, with the TTM effective rate back at **14.4%** and Q1FY27 at **33%**.
 
-> **What this does and does not change.** It does **not** impugn the operating business: revenue, generation and EBITDA records are real, coal production is growing, and the Q1FY27 operating margin of 31.2% is the best in the visible series. **It does mean v1's central evidence for a High conviction — an unqualified all-time-high across every metric — was partly an accounting event that v1 did not test.** *This is the same failure mode already recorded for DCMSHRIRAM in §10 of CLAUDE.md, where prior-period tax credits made the headline P/E collapse from 18.8x to 12.0x on accounting alone. **Read the PBT line first.***
+> **What this does and does not change.** It does **not** impugn the operating business: revenue, generation and EBITDA records are real, coal production is growing, and the Q1FY27 operating margin of 31.2% is the best in the visible series. **It does mean the original evidence for a High conviction — an unqualified all-time high across every metric — was partly an accounting event that went untested.** *This is the same failure mode recorded for DCMSHRIRAM, where prior-period tax credits made the headline P/E collapse from 18.8x to 12.0x on accounting alone, and for GMDC, where a ₹522.65cr GST write-back produced a +39.5% PAT print on a business whose operating profit fell 30%.* **Read the PBT line first.**
 
-**The valuation impact is modest, which is the saving grace:** the screened **11.9x** becomes about **12.9x** on TTM PBT normalised at 25% tax. **Still the cheapest name in this refresh cycle by a wide margin.**
+**The valuation impact is modest, which is the saving grace:** the screened **11.9x** becomes about **12.9x** on TTM PBT normalised at 25%.
 
----
+### FY26 full year
 
-## 🟢 What is genuinely strong
-
-**India Ratings: IND AAA/Stable** — assigned on **₹1,102cr of bank loan facilities** and **affirmed on ₹2,500cr of non-convertible debentures** (10-Aug-2026). **This is the highest rating available and comfortably the best in this refresh batch** — against CRISIL AA−/India Ratings AA− at TRANSRAILL, CRISIL AA−/A1+ at GPIL, and BBB+ at both OBSC and SATHLOKHAR. For a capital-intensive PSU running a ₹7,500cr annual investing programme, a AAA cost of capital is a material competitive asset.
-
-**100% collection efficiency on power debtors** as at 30-Jun-2026 — *"reflecting robust recovery measures and sustained improvement in receivables management."* **For a state-discom-facing generator this is the single most important working-capital metric**, and NLC's debtor days have come down 106 → 75 → **70** over three years.
-
-**🆕 NALCO joint venture — 1,080 MW captive thermal at Angul.** Signed **8-Jul-2026** in the presence of the Union Minister for Coal and Mines: a **50:50 JV between NLC India and National Aluminium Company** to *"develop, finance, construct, own and operate"* a **4 × 270 MW coal-based captive thermal power plant at Angul, Odisha**, supplying NALCO's expansion. **Two Navratna CPSEs, an anchored offtaker, and a captive structure that removes merchant-power risk** — this is a materially better-quality growth asset than a merchant IPP.
-
-**🆕 SECI Letter of Award — 200 MW wind, Koppal, Karnataka**, to **NLC India Renewables Limited**, a wholly-owned subsidiary (10-Aug-2026). Continues the renewables pivot v1 identified.
-
-**Cash generation remains strong:** FY26 CFO **₹5,166cr at 108% of operating profit**, and above 75% in seven of the last eight years. **But investing outflow was ₹7,549cr, so free cash flow was −₹2,474cr** — this is a company in a heavy build phase, funded by ₹2,907cr of financing inflow. **That is appropriate for a AAA-rated PSU building capacity, but it is not a self-funding business today.**
-
----
-
-## 🔴 The two new overhangs
-
-**Government of India cut its stake from 72.20% to 69.47%** during Q1FY27 — a **2.73 percentage point reduction**, the first since the March-2024 OFS took it from 79.20% to 72.20%.
-
-| | Mar-24 | Mar-25 | Mar-26 | **Jun-26** |
-|---|---|---|---|---|
-| **Government of India** | 72.20% | 72.20% | 72.20% | **69.47%** |
-| FIIs | 2.39% | 2.91% | 3.61% | **4.62%** |
-| DIIs | 13.38% | 14.63% | 13.97% | **12.94%** |
-| Public | 7.73% | 5.96% | 5.91% | **8.66%** |
-| Shareholders | 2,58,498 | 3,40,021 | 3,03,919 | **3,33,052** |
-
-**The stock is 29% below its 52-week high of ₹388 and fell 8.9% in the twelve days to 15-August**, which is consistent with a supply overhang. **With GoI still at 69.47% against a 75% ceiling, further divestment is possible and should be assumed as a live risk rather than a one-off.** FIIs bought (3.61% → 4.62%) and retail rose by 29,133 holders; DIIs trimmed.
-
-**🟡 No permanent Chairman & Managing Director.** The NALCO JV press release lists **"Shri Sanoj Kumar Jha, Additional Secretary, Ministry of Coal & Chairman and Managing Director (Additional Charge), NLC India Limited."** **The CMD role is being discharged in additional charge by a serving Ministry official**, alongside a run of board changes in the quarter — appointments of Shri Gopal Singh (10-Jul) and another director (17-Jul), and the cessation of a director (30-Jun). **Common in CPSEs and not a governance failure — but leadership held in additional charge is not the same as leadership**, particularly for a company simultaneously signing a 1,080 MW JV and running a ₹7,500cr capex programme. **Watch for a permanent appointment.**
-
----
-
-## Delivery scorecard — new rows (appended to Section 3.5)
-
-| Guidance / Milestone | When | Actual delivered | Verdict |
+| | FY25 | **FY26** | Growth |
 |---|---|---|---|
-| **"All-time high across every metric in FY26"** *(v1's core claim)* | v1 | **True for revenue, generation and EBITDA. NOT true in substance for PAT** — FY26's 2.7% effective tax rate inflated reported profit ~30%; PBT grew only 4.8% | 🔴 **Partly an artefact** |
-| Q1FY27 operating performance | Q1FY27 | Revenue **+23.29%**, generation **+25.00%**, operating margin **24.4% → 31.2%** | ✅ **Strong** |
-| Q1FY27 PAT | Q1FY27 | **−48%** on tax normalisation and a ₹269cr fall in other income; **not mentioned in the press release** | 🔴 |
-| Renewables pivot | v1 | **SECI LoA for 200 MW wind (Koppal)** via NLC India Renewables | ✅ **Progressing** |
-| Capacity growth | — | **NALCO 50:50 JV, 1,080 MW captive thermal at Angul** — anchored offtake | ✅ **High quality** |
-| Credit standing | — | **IND AAA/Stable assigned + affirmed** — best in the refresh batch | ✅ |
-| Receivables | — | **100% power debtor collection efficiency**; debtor days 106 → 70 over three years | ✅ |
-| Free cash flow | — | FY26 CFO ₹5,166cr (108% of OP) **but investing −₹7,549cr → FCF −₹2,474cr** | 🟡 **Build phase** |
-| **GoI holding stable post-Mar-24 OFS** *(v1's claim)* | v1 | 🔴 **No longer true — 72.20% → 69.47% in Q1FY27** | 🔴 **Superseded** |
-| Leadership | — | **CMD held in additional charge** by the Additional Secretary, Ministry of Coal | 🟡 |
-| Investor engagement | — | **No Q1FY27 earnings call**, against a quarterly cadence (last transcript 2-Jun-2026) | 🟡 |
+| Revenue (₹ cr) | ~15,342 | **17,490** | **+14%** |
+| PAT (₹ cr) | ~2,712 | 3,769 | *+39% reported / ~+5% on PBT* |
+| Capex (₹ cr) | ~7,738 | **9,131** | **+18%** |
+| Net worth (₹ cr) | ~18,717 | **21,525** | **+15%** |
+| Coal production (MT) | — | **19.14** | Ramp |
+| Coal dispatch (MT) | — | **17.69** | Ramp |
+| Capacity added (MW) | — | **963** | 660 thermal + 303 RE |
+| Renewable generation (BU) | — | **2.26** | Ramp |
 
-**Refresh verdict on management.** **The operating record is real and improving** — coal production up 7.84%, generation up 25% at group level, operating margin at the best level in the visible series, 100% debtor collection, a AAA rating, and two well-structured growth additions in a single quarter (the NALCO captive JV and a SECI wind award). **For a lignite PSU, that is good execution.** **What the refresh exposes is a disclosure and evidence problem rather than an operating one:** the FY26 profit record rested on a 2.7% tax rate that nobody flagged, the Q1FY27 press release reports down to PBT and omits the one line that fell, **no earnings call was held this quarter**, and the CMD's chair is filled in additional charge. **None of that is disqualifying — but a High conviction needs evidence that survives being checked, and v1's did not.**
+**FY26 dividend: 38.5% in total** — **interim 36% (₹3.60/share)** paid earlier plus a **final proposed 2.5% (₹0.25/share)**, on a ₹10 face value. Best in six years.
 
----
+### Cash — strong conversion, negative free cash flow
 
-## 📈 Refreshed valuation
-
-**Trading metrics:** CMP **₹275** · Mcap **₹38,188cr** · **P/E 11.9x reported**, **≈12.9x normalised** (TTM PBT ₹3,933cr at a 25% tax rate) · **P/B 1.77x** (book ₹155) · **ROE 17.5%, ROCE 10.4%** · **div yield 1.31%** · 52-week range **₹222–₹388** — **29% below the high**, and **−8.9% in the twelve days to 15-August**.
-
-**Even on normalised earnings this is the cheapest name in the refresh cycle**, against DYNAMATIC at 130x, AZAD 126x, PARAS 112x, SYRMA 76x, GPIL 18.8x and TRANSRAILL 15.0x.
-
-| Scenario | Prob. | Assumptions | FY28E | Multiple | Mcap | Return |
-|---|---|---|---|---|---|---|
-| **Base** | **50%** | Revenue compounds ~10-12% on generation growth and the renewables pipeline; operating margin holds ~30%; **tax normalises to ~25%**; capex stays heavy so FCF stays negative. Multiple holds ~12x normalised | PAT ₹3,400 cr | 12x | ₹40,800 cr | **+7%** |
-| **Bull** | **25%** | NALCO JV and the renewables pipeline scale; margin holds above 30%; FCF turns positive as the build phase peaks; **GoI divestment concludes and the overhang clears**; re-rating to 15x on a AAA-rated 17.5% ROE utility | PAT ₹4,000 cr | 15x | ₹60,000 cr | **+57%** |
-| **Bear** | **25%** | Further GoI selling caps the stock; other income keeps normalising down; capex overruns keep FCF negative; lignite volumes disappoint or a tariff/regulatory reset bites; multiple compresses to 9x | PAT ₹2,700 cr | 9x | ₹24,300 cr | **−36%** |
-
-**Weighted 2-year return: (0.50 × 7) + (0.25 × 57) + (0.25 × −36) = +8.75%**, plus **1.31% dividend yield** ≈ **~10% p.a. total**.
-
-**Well below v1's ~45%, and the gap is almost entirely the tax normalisation.** v1 built its case on FY26 PAT of ₹3,769cr growing from here; **the correct starting point is a normalised ~₹2,900-2,950cr.** Applying v1's own logic to the corrected base produces roughly a third of its expected return. **The stock is still cheap; it was just not as cheap as the screen said, and the earnings were not as good.**
-
----
-
-## Conviction: **High → Medium-High**
-
-**Downgraded on evidence quality, not on the business.** v1's High rested on *"all-time-high FY26 across every metric"* and *"72.20% GoI (stable post-Mar-24 OFS)"*. **Both have been falsified in part:** FY26's profit record was ~30% tax-inflated with PBT growing just 4.8%, and **the GoI stake fell to 69.47% in Q1FY27.**
-
-**Why Medium-High and not lower.** The operating quarter was genuinely strong — generation +25%, revenue +23%, operating margin at a series high of 31.2%, coal production +7.84%, **100% debtor collection**. **India Ratings assigned IND AAA/Stable**, the best rating in this batch. The **NALCO 1,080 MW captive JV** and the **200 MW SECI wind award** are both high-quality additions with anchored offtake. And at **~12.9x normalised earnings, 1.77x book, 17.5% ROE and a 1.31% yield**, the valuation genuinely protects the downside in a way that nothing else in this batch does.
-
-**Upgrade back to High if:** the GoI divestment concludes and the overhang clears, **and** FY27 shows PBT growth in double digits on a normalised tax rate.
-**Downgrade to Medium if:** further GoI selling is announced, **or** free cash flow stays negative into FY28 with capex rising, **or** a second quarter passes with no earnings call.
-
----
-
-## Watch items for the next refresh (Q2FY27, ~Nov-2026)
-
-1. **🔴 The effective tax rate.** 2.7% in FY26, 33% in Q1FY27. **Every PAT comparison for this company must be tax-normalised until further notice.**
-2. **🔴 Further GoI divestment.** 72.20% → 69.47%, with a 75% ceiling still far above the current level.
-3. **🟡 A permanent CMD appointment** — currently held in additional charge by the Additional Secretary, Ministry of Coal.
-4. **🟡 Whether an earnings call resumes.** None held for Q1FY27 despite a quarterly cadence.
-5. **🟢 Other income**, which fell ₹497cr → ₹228cr and drove most of the reported EBITDA shortfall.
-6. **🟢 NALCO JV** — financial close, capex quantum, NLC's equity commitment and timeline.
-7. **🟢 Renewables pipeline** — execution of the 200 MW Koppal wind LoA and further SECI awards.
-8. **🟡 Free cash flow** — −₹2,474cr in FY26 on ₹7,549cr of investing. When does the build phase peak?
-9. **🟢 Collection efficiency** — 100% is exceptional for a discom-facing generator; watch it hold.
-
----
----
-
-# 📌 v1 profile below — preserved unchanged (3-Jul-2026)
-
-*Everything from this point is the original v1 body, kept for lineage. Where the refresh above corrects it, the v1 text is left visible and the correction is marked `⤴ CORRECTED`.*
-
----
-
-## 1. Business in Plain English
-
-**NLC India Limited (Neyveli Lignite Corporation)** is India's **flagship Navratna PSU** — a 70-year-old integrated **lignite mining + thermal power generation + renewable energy + coal mining + critical minerals** company owned by the Government of India (72.20%). Where private power companies focus on one or two segments, **NLC is the fully-vertically-integrated public sector energy conglomerate** — mining its own lignite (Neyveli, Tamil Nadu), converting it to electricity (integrated Thermal Power Stations), building renewable generation (via subsidiary NIRL — NLC India Renewables Ltd), and now expanding into critical mineral mining.
-
-The 30-second business snapshot:
-- **HQ Neyveli, Tamil Nadu** (Corporate) + Chennai (Registered)
-- **Founded 1956** — 70-year-old PSU
-- **Government of India ownership: 72.20%** (reduced from 79.20% in Mar 2024 — 7% OFS)
-- **FY26 consolidated revenue: INR 17,490 cr (+14% YoY)** — highest ever
-- **FY26 consolidated PAT: INR 3,769 cr (+39% YoY)** — highest ever
-- **FY26 Capex: INR 9,131 cr (+18% YoY)** — highest ever (massive investment cycle)
-- **FY26 Net worth: INR 21,525 cr (+15% YoY)** — highest ever
-- **FY26 Dividend: 38.5% (INR 3.85 on face value INR 10)** — 36% interim + 2.5% final
-- **FY26 Operational highlights**:
-  - Annual coal production: **19.14 MT** (from Talabira II & III OCP)
-  - Annual coal dispatch: 17.69 MT
-  - Capacity additions: **963 MW** (660 MW Thermal + 303 MW Renewables)
-  - Renewable generation: 2.26 BU
-  - Pachwara South coal mine commenced March 2026
-  - Solar capacity crosses **1 GW (CPSE first)**
-  - 2 critical mineral blocks won
-- **NIRL secured**: 2 GW RE Projects + 3,300 MWh BESS across PSPCL, NHPC, GUVNL, SECI
-- **New JVs approved**: NIRL × NCRTC + NIRL × MAHAPREIT for renewables
-
-**Big picture in one sentence:** NLC India is India's **flagship Navratna PSU with 70-year lignite mining + thermal power heritage transitioning into a renewable energy + critical minerals platform** — trading at **12.1x P/E on 17.5% ROE + 1.17% dividend yield** with all-time-high FY26 numbers (PAT +39%, capex +18%, net worth +15%) and clear multi-year renewable pivot. **Best value + quality + government-backed transformation story in the power sector.**
-> 🔴 ⤴ **CORRECTED 15-Aug-2026 — "PAT +39%" is a tax artefact.** **FY26's effective tax rate was 2.7%** (₹106cr of tax on ₹3,875cr of PBT), against 26.6% in FY25 and 35.2% in FY24. **PBT grew just 4.8%; reported PAT grew 38.9%. Normalised at a 25% rate, FY26 PAT would have been ~₹2,906cr rather than ₹3,769cr — the reported figure is ~30% inflated.** The revenue, generation and EBITDA records are real; **the profit record is substantially accounting.** TTM PAT has already fallen back to ₹3,367cr. **The screened 11.9x becomes ~12.9x normalised — still the cheapest name in the current refresh cycle, but not by the margin the screen suggests.** Full working in the Refresh Log.
-
----
-
-## 2. Why This Industry Exists
-
-Integrated power + mining + renewables rides five durable forces:
-
-**Force 1 — India's power capacity mandate.** India's peak power demand growing 6-7% CAGR. Coal + lignite remain 55-60% of generation mix through 2030 with parallel renewables ramp.
-
-**Force 2 — Renewable Energy targets (500 GW by 2030).** Government mandate + INR 10 lakh cr+ capex through 2030. PSU + private both scaling.
-
-**Force 3 — Coal + lignite mining privatization.** Government policy shift enabling PSUs + private developers to mine coal blocks.
-
-**Force 4 — Critical minerals opportunity.** India's push for lithium, cobalt, rare earth self-sufficiency; NLC won 2 critical mineral blocks in FY26.
-
-**Force 5 — BESS (Battery Energy Storage) mandate.** RE integration requires massive BESS deployment. NIRL secured 3,300 MWh already.
-
-**Where NLC sits.** #1 Indian lignite miner + PSU integrated power + emerging renewables. Peers:
-- **Coal India (CIL)** — much larger, coal-focused
-- **NTPC** — larger, thermal + renewables
-- **GMDC** — Gujarat state lignite specialist
-- **SJVN, THDC, NHPC** — hydro-heavy PSUs
-- NLC's positioning: **most diversified PSU across lignite + coal + thermal + renewables + critical minerals**
-
----
-
-## 3. What Makes This Company Different
-
-**Moat 1 — 70-year lignite mining heritage.** Multi-decade operational expertise.
-**Moat 2 — Government of India (Navratna) ownership.** Preferential access + financial strength.
-**Moat 3 — Highest-ever FY26 across ALL metrics** (Revenue, PAT, Capex, Net Worth).
-**Moat 4 — 963 MW capacity additions in FY26** (660 MW Thermal + 303 MW Renewables).
-**Moat 5 — NIRL renewable subsidiary scaling** (2 GW RE + 3,300 MWh BESS).
-**Moat 6 — Solar capacity crossed 1 GW (CPSE first).**
-**Moat 7 — 2 critical mineral blocks won.** Multi-decade optionality.
-**Moat 8 — Multiple new JVs** (NIRL × NCRTC + NIRL × MAHAPREIT + NARL + NRPL + NRRL).
-**Moat 9 — Rock-stable 72.20% Government holding since March 2024 OFS.**
-> 🔴 ⤴ **FALSIFIED 15-Aug-2026. The Government of India cut its stake from 72.20% to 69.47% during Q1FY27** — a 2.73 percentage point reduction and the first move since the March-2024 OFS. **With GoI still at 69.47% against a 75% ceiling, further divestment must be treated as a live risk, not a closed chapter.** The stock is 29% below its 52-week high and fell 8.9% in the twelve days to 15-August, consistent with a supply overhang. *Note v1 did flag "7% OFS by GoI (Mar 2024) — could see more" in its weaknesses; the error was calling the holding a moat at the same time.*
-**Moat 10 — 38.5% dividend (INR 3.85/share).** Best-in-class PSU cash returns.
-**Moat 11 — Talabira coal ramp** + Pachwara South commencement (March 2026).
-
-**Where the moat is weaker.**
-- ROCE 10.4% (modest for asset-heavy business).
-- Massive capex INR 9,131 cr = working capital + balance sheet stretch.
-- Coal + lignite pricing volatility.
-- Environmental compliance costs.
-- Retail-heavy shareholder base (303,919 shareholders).
-- 7% OFS by GoI (Mar 2024) — could see more.
-> ⚠️ **MATERIALISED 15-Aug-2026 — v1's own caution was right and its Moat 9 was wrong.** GoI **72.20% → 69.47%** in Q1FY27. FIIs bought (3.61% → 4.62%) and retail holders rose by 29,133; DIIs trimmed 13.97% → 12.94%.
-- Slow PSU execution pace.
-
----
-
-## 3.5. Management Track Record & Promoter Background
-
-**Chairman & Managing Director:** IAS-appointed (rotational PSU leadership).
-
-**Company Secretary:** *Mr. Sushanta Kumar Panda*.
-
-**Ownership — Government of India** (Ministry of Coal, through President of India).
-
-**Government holding (Mar 2026): 72.20% — down from 79.20% (Mar 2023):**
-
-| Period | Government % |
-|---|---|
-| Jun 2023 | 79.20% |
-| Sep 2023 | 79.20% |
-| **Mar 2024** | **72.20%** (7% OFS) |
-| Mar 2026 | 72.20% (stable) |
-
-**7% one-time OFS in Mar 2024** — LIC + institutional buying absorbed cleanly.
-
-**LIC / Government category:** 4.31% stable (separate from Government of India direct)
-
-**Institutional trajectory:**
-- FII: 0.81% (Jun 2023) → **3.61%** (Mar 2026) — steady FII discovery
-- DII: 8.02% → **13.97%** — significant institutional accumulation
-- Public: 7.66% → 5.91% (natural free-float shift to institutions)
-
-**Retail base:** 303,919 shareholders — huge retail base.
-
-**Other Government of India Ministry of Coal listed entities:**
-- **Coal India (CIL)** — much larger, primary coal
-- **BEML** — heavy engineering
-- Multiple other Coal Ministry PSUs
-
-**Delivery track record (from Q4FY26 PPT):**
-
-| Guidance / Milestone | When | Actual delivered | Verdict |
-|---|---|---|---|
-| **Highest ever FY26 Revenue** | Multi-year | INR 17,490 cr (+14%) | ✅ Delivered |
-| **Highest ever FY26 PAT** | Multi-year | INR 3,769 cr (+39%) | ✅ Delivered |
-| **Highest ever FY26 Capex** | Multi-year | INR 9,131 cr (+18%) | ✅ Delivered |
-| **Highest ever FY26 Net Worth** | Multi-year | INR 21,525 cr (+15%) | ✅ Delivered |
-| **Highest ever Dividend (6 years)** | FY26 | 38.5% (INR 3.85) | ✅ Delivered |
-| **963 MW capacity addition** | FY26 | 660 MW Thermal + 303 MW RE | ✅ Delivered |
-| **Solar 1 GW milestone (CPSE first)** | FY26 | Achieved | ✅ Delivered |
-| **NIRL RE tender wins** | FY26 | 2 GW + 3,300 MWh BESS | ✅ Delivered |
-| **Pachwara South coal commencement** | Mar 2026 | Achieved | ✅ Delivered |
-| **NNTPS Unit-II 500 MW** | FY26 | Delivered | ✅ Delivered |
-| **NUPPL Unit-I 660 MW COD** | FY26 | Delivered | ✅ Delivered |
-| **Barsingsar 300 MW Solar** | Multi-year | In progress | 🕐 Pending |
-| **FY27 target: continued RE ramp** | Q4FY26 | To be verified | 🕐 Pending |
-
-**Verdict on management:** Exceptional FY26 execution — highest-ever across every operational and financial metric. Bet on continued Government of India commitment + Navratna PSU discipline + renewable pivot.
-
----
-
-## 4. Numbers Decoded
-
-**FY26 headline (consolidated group):**
-
-| Metric | FY25 | FY26 | Growth |
-|---|---|---|---|
-| **Revenue (INR cr)** | ~15,342 | 17,490 | +14% |
-| **PAT (INR cr)** | ~2,712 | 3,769 | +39% |
-| **Capex (INR cr)** | ~7,738 | 9,131 | +18% |
-| **Net Worth (INR cr)** | ~18,717 | 21,525 | +15% |
-| Coal Production (MT) | Prior | 19.14 | Ramp |
-| Coal Dispatch (MT) | Prior | 17.69 | Ramp |
-| Capacity Addition (MW) | Prior | 963 | (660 T + 303 RE) |
-| Renewable Generation (BU) | Prior | 2.26 | Ramp |
-
-**Dividend FY26:**
-- **Interim: 36% (INR 3.60/share)** — paid earlier
-- **Final proposed: 2.5% (INR 0.25/share)** — subject to approval
-- **Total FY26: 38.5% (INR 3.85/share)** — highest in 6 years
-- Yield: 1.17%
-
-**Balance sheet:**
-- Book value per share: INR 155 → P/B 2.0x
-- Face value: INR 10
-- Net worth: INR 21,525 cr
-- Debt: elevated (capex-heavy) but manageable
-
-**Return metrics:**
-- ROCE: 10.4% (modest)
-- ROE: 17.5% (strong)
-- Dividend yield: 1.17%
-- **All-time-high market cap ₹53,774 cr (14 May 2026, ₹387.80/share)**
-
-**Key subsidiaries + JVs:**
-- **NIRL (NLC India Renewables Ltd)** — renewable subsidiary
-- **NUPPL** — thermal JV
-- **NNTPS** — thermal
-- **NIGEL** — new incorporated
-- **NARL, NRPL, NRRL** — 3 new JVs
-- **NIRL × NCRTC** — for railway RE
-- **NIRL × MAHAPREIT** — for RE across India
-
-**Coal / Lignite production ramp:**
-- Talabira II & III OCP: 19.14 MT FY26
-- Pachwara South: Commenced March 2026 (Year 1 ramp expected FY27)
-
-**Renewable pipeline:**
-- NIRL secured 2 GW RE projects
-- 3,300 MWh BESS across PSPCL, NHPC, GUVNL, SECI
-- Solar capacity > 1 GW (CPSE first)
+**FY26 CFO ₹5,166cr at 108% of operating profit**, and above 75% in seven of the last eight years. **But investing outflow was ₹7,549cr, giving free cash flow of −₹2,474cr**, funded by ₹2,907cr of financing inflow. **This is a company in a heavy build phase — appropriate for a AAA-rated PSU adding capacity, but it is not self-funding today.**
 
 ---
 
 ## 5. Connecting the Dots
 
-**Thread A — Lignite mining base (Talabira + Pachwara).**
-**Thread B — Thermal power capacity additions (660 MW).**
-**Thread C — Renewable ramp (NIRL 2 GW + 3,300 MWh BESS).**
-**Thread D — Critical mineral blocks (2 won).**
-**Thread E — Multiple JVs (NARL + NRPL + NRRL + NCRTC + MAHAPREIT).**
-**Thread F — Pachwara South Year 1 ramp FY27.**
-**Thread G — Government of India Navratna support.**
-**Thread H — All-time-high FY26 across every metric.**
+**The integration is the point, and it is working.** NLC mines lignite it burns, at pit-head, with no transport economics to lose — then sells power to discoms it now collects from at **100% efficiency**, on a **AAA balance sheet** that funds the next asset more cheaply than any private peer could. **Q1FY27's operating margin of 31.2% is what that chain looks like when generation rises 25% against a fixed cost base.**
+
+**Coal is the second leg, and it is real.** 19.14 MT produced in FY26 from Talabira with Pachwara South now commenced. **This converts NLC from a lignite specialist into a diversified miner** — and lignite alone was always geographically capped.
+
+**Renewables are the third, and they are being built with someone else's offtake risk.** NIRL's 2 GW of RE and 3,300 MWh of BESS are contracted through SECI, PSPCL, NHPC and GUVNL. **The NALCO JV is the same logic applied to thermal: a 1,080 MW captive plant with an anchored industrial offtaker removes merchant-power risk entirely.** For a PSU adding capacity into a market with surplus periods, **contracted offtake is the difference between growth and value destruction.**
+
+**What connects all three is capital, and that is where the tension is.** ₹9,131cr of FY26 capex against ₹5,166cr of operating cash produced **−₹2,474cr of free cash flow.** The AAA rating makes that financeable and the assets are contracted — **but the equity is being asked to fund a build phase while the government is simultaneously selling stock into the market.** Those two facts pull in opposite directions on the share price regardless of how well the plants perform.
+
+**And the fourth thread is the one that broke.** The original thesis rested on FY26 being a record year across every metric. **Revenue, generation, capex and net worth were. Profit was not, in substance — 2.7% tax did most of the work, and PBT grew 4.8%.** *The business is doing better than its reported profit suggests this quarter, and did worse than its reported profit suggested last year. Both statements are true, and both are about the tax line.*
+
+---
+
+## 5.5. 📈 Company Trajectory Since Tracking
+
+### (a) Conviction history
+
+| Date | Conviction | CMP | Weighted 2yr | What moved it |
+|---|---|---|---|---|
+| 3-Jul-2026 | **High** | — | ~+45% | Initiated. *"All-time-high FY26 across every metric"* + *"rock-stable 72.20% GoI"* |
+| **15-Aug-2026** | **High → Medium-High** | **₹275** | **~+8.75% + 1.31% yield ≈ 10% p.a.** | **Both pillars of the High partly falsified: FY26's PAT record was ~30% tax, and GoI cut its stake to 69.47%. Downgraded on evidence quality, not on the business** |
+
+**Valuation, then and now:**
+
+| | 3-Jul-2026 | **15-Aug-2026** |
+|---|---|---|
+| P/E | 12.1x | **11.9x reported / ≈12.9x normalised** |
+| ROCE / ROE | — / 17.5% | **10.4% / 17.5%** |
+| Div yield | 1.17% | **1.31%** |
+| Market cap | ₹42,667 cr | **₹38,188 cr** |
+| P/B | 2.0x | **1.77x** |
+| GoI holding | 72.20% | **69.47%** |
+
+### (b) Material developments
+
+**7-Aug-2026 · `RESULT` — a strong operating quarter whose reported profit fell 48%.**
+Generation **+25.00%**, revenue **+23.29%**, **operating profit +57.3%** and **operating margin 24.4% → 31.2%**. But **PAT ₹436cr against ₹839cr**, because **Q1FY26 carried a tax credit (−41% effective rate) and Q1FY27 paid 33%** — a ₹460cr swing — while **other income halved from ₹497cr to ₹228cr.**
+**Why it matters:** **the press release reports EBITDA and PBT and stops, without mentioning PAT at all.** Defensible for a PSU emphasising physical metrics; **it also happens to omit the only line that fell.** The underlying operating improvement is the largest in the visible series and is being obscured in both directions.
+
+**15-Aug-2026 · `ACCOUNTING` — the finding that drove the downgrade: FY26's effective tax rate was 2.7%.**
+₹106cr of tax on ₹3,875cr of PBT, against 26.6% in FY25 and 35.2% in FY24. **Normalised at 25%, FY26 PAT would have been ~₹2,906cr rather than ₹3,769cr. PBT grew 4.8%; reported PAT grew 38.9%.**
+**Why it matters:** the initiation case rested on *"all-time-high across every metric."* **For revenue, generation, capex and net worth that is true. For profit it is substantially an artefact — and it is already unwinding**, with TTM PAT at ₹3,367cr, below FY26. **The screened 11.9x becomes ~12.9x normalised.**
+
+**10-Aug-2026 · `CREDIT` — India Ratings assigned IND AAA/Stable** on ₹1,102cr of bank facilities and **affirmed IND AAA/Stable** on ₹2,500cr of NCDs.
+**Why it matters:** **the highest rating available and the best in this refresh batch** — against AA−/A1+ at GPIL, AA− at TRANSRAILL, BBB+ at OBSC and SATHLOKHAR. **For a company running a ₹7,500cr annual investing programme, a AAA cost of capital is a competitive asset, not a formality.**
+
+**8-Jul-2026 · `GROWTH` — a 50:50 JV with NALCO for a 1,080 MW captive thermal plant at Angul.**
+Signed before the Union Minister for Coal and Mines, to *"develop, finance, construct, own and operate"* **4 × 270 MW** supplying NALCO's aluminium expansion.
+**Why it matters:** **two Navratna CPSEs, an anchored industrial offtaker, and a captive structure that removes merchant-power risk.** Materially better quality than adding merchant IPP capacity. **What is not yet disclosed: financial close, total capex, or NLC's equity commitment.**
+
+**10-Aug-2026 · `GROWTH` — SECI Letter of Award for 200 MW of wind at Koppal, Karnataka** to **NLC India Renewables Limited**, wholly owned. Continues the renewables pivot identified at initiation.
+
+**Q1FY27 · `OWNERSHIP` — the Government of India resumed selling, cutting its stake 72.20% → 69.47%.**
+A **2.73 percentage point reduction** — the first move since the March-2024 OFS took it from 79.20% to 72.20%. FIIs bought through it (3.61% → 4.62%); DIIs trimmed; retail added 29,133 holders.
+**Why it matters:** **the initiation profile called the 72.20% holding a *moat*.** It is not one. **The stock is 29% below its ₹388 high and fell 8.9% in the twelve days to 15-August**, consistent with a supply overhang. **With GoI at 69.47% against a 75% ceiling, further divestment is a live risk.**
+
+**Q1FY27 · `GOVERNANCE` — no permanent CMD, and no earnings call.**
+The CMD role is discharged **in additional charge by Shri Sanoj Kumar Jha, Additional Secretary, Ministry of Coal**, alongside board appointments (Shri Gopal Singh 10-Jul, another director 17-Jul) and a cessation (30-Jun). **And no Q1FY27 earnings call was held**, against a quarterly cadence — the last transcript is 2-Jun-2026.
+**Why it matters:** neither is disqualifying and both are common in CPSEs. **But leadership held in additional charge is not the same as leadership**, for a company signing a 1,080 MW JV and running a ₹7,500cr capex programme — and a skipped call is how a 2.7% tax rate goes unexamined for a year.
+
+---
+
+**Also on record**
+
+| Date | Tag | Item |
+|---|---|---|
+| 30-Jun-2026 | `OPERATIONS` | **100% collection efficiency** on power debtors; debtor days 106 → 75 → **70** over three years |
+| FY26 | `CAPITAL` | Dividend **38.5% (₹3.85)** — 36% interim + 2.5% final, best in six years |
+| FY26 | `CASH` | CFO **₹5,166cr (108% of operating profit)**; investing **−₹7,549cr**; **FCF −₹2,474cr**; financing inflow ₹2,907cr |
+| Mar-2026 | `OPERATIONS` | **Pachwara South** coal mine commenced |
+
+### (c) Superseded views
+
+- **Scenario set rebuilt, 15-Aug-2026.** The 3-Jul framework produced a **~+45%** weighted return, built on **FY26 PAT of ₹3,769cr growing from there.** **The correct starting point is a normalised ~₹2,900–2,950cr.** Applying the same logic to the corrected base produces roughly **a third** of the original expected return — now **~+8.75% plus a 1.31% yield ≈ 10% p.a.** **The stock is still cheap; it was just not as cheap as the screen said, and the earnings were not as good.**
+- **On "all-time high across every metric."** True for **revenue, generation, capex and net worth**. **Not true in substance for PAT.**
+- **On the government holding as a moat.** The initiation profile listed *"rock-stable 72.20% Government holding since March 2024 OFS"* as **Moat 9**. **Falsified in Q1FY27.** *Note the initiation text did flag "7% OFS by GoI (Mar 2024) — could see more" among its weaknesses; **the error was calling the same fact a moat in the same document.***
+- **The 3-Jul scenario set, verbatim.** *"Base case (55%): FY28 revenue ₹22,000cr (+15% CAGR), PAT ₹5,000cr, multiple 12x = ₹60,000cr — ~40% upside. Bull case (30%): renewable + critical mineral scale + all JVs deliver, FY28 PAT ₹6,000cr, multiple 14x = ₹84,000cr — ~97% upside. Bear case (15%): coal cycle turns + capex overrun, FY28 PAT ₹4,000cr, multiple 10x = ₹40,000cr — ~6% downside."* **Weighted ~45% over two years plus a 1.17% dividend ≈ ~21% CAGR.** **Every branch started from FY26's reported ₹3,769cr — including the bear case, which assumed ₹4,000cr of FY28 PAT, above a normalised FY26. The rebuilt bear assumes ₹2,700cr.**
+- **On the P/E.** Initiation recorded **12.1x** and treated it as the entry case. **The comparable normalised figure is ~12.9x** — a small difference in isolation, but it sits on top of a ~30% lower earnings base.
+
+### (d) Corrections
+
+**⤴ 15-Aug-2026 — "FY26 PAT +39%" was reported as an operating achievement. It was a tax event.**
+FY26's effective rate was **2.7%** (₹106cr on ₹3,875cr of PBT) against 26.6% in FY25. **PBT grew 4.8%.** The claim was not checked against the tax line at initiation. **Rule reinforced: on any PSU or any company with a large reported PAT swing, read PBT and the effective tax rate before the PAT line.** *Third instance of this failure mode in the current cycle, after DCMSHRIRAM and GMDC.*
+
+**⤴ 15-Aug-2026 — "rock-stable 72.20% Government holding" was listed as a moat and is now falsified.** GoI holds **69.47%**.
+
+**🟡 A data-quality note carried forward.** **Screener's "Tax %" row for NLC is column-shifted** — it would show FY26 as 27% rather than the true 2.7%. **All effective tax rates in this profile were computed directly from PBT and PAT rather than read off the ratio row.** *Anyone re-deriving these numbers from Screener's tax line will get the wrong answer.*
 
 ---
 
 ## 6. Why the Market Is Paying This Multiple
 
-**Trading metrics:**
-- Trailing P/E: **12.1x** (cheap for PSU quality)
-- P/B: 2.0x
-- Market cap: INR 42,667 cr
-- Dividend yield: 1.17%
+**At ₹275: 11.9x reported earnings, ≈12.9x normalised for tax, 1.77x book, on 17.5% ROE and 10.4% ROCE, with a 1.31% yield.**
 
-Priced fairly for PSU + capex cycle + renewable pivot + all-time-high FY26.
+**Even on normalised earnings this is comfortably the cheapest name in the current refresh cycle** — against **DYNAMATIC at 130x, AZAD 126x, PARAS 112x, SYRMA 76x, KMEW 53x, GMDC 32x, GPIL 18.8x and TRANSRAILL 15.0x.** For a AAA-rated Navratna earning a 17.5% ROE with contracted growth, that gap is the entire investment case.
 
-**Fair value framework:**
-- **Base case (55%):** FY28 revenue INR 22,000 cr (+15% CAGR), PAT INR 5,000 cr, multiple 12x = INR 60,000 cr. **~40% upside.**
-- **Bull case (30%):** Renewable + critical mineral scale + all JVs deliver. FY28 PAT INR 6,000 cr, multiple 14x = INR 84,000 cr. **~97% upside.**
-- **Bear case (15%):** Coal cycle turns + capex overrun. FY28 PAT INR 4,000 cr, multiple 10x = INR 40,000 cr. **~6% downside.**
+**What the market is discounting, and it is not unreasonable:** a **government that has resumed selling** with 5.5 percentage points of headroom to the 75% ceiling; **negative free cash flow** in a heavy build phase; **ROCE of 10.4%**, which says the 17.5% ROE is partly leverage; **no permanent CMD**; and a **profit line that has just been shown to swing on tax rather than operations.**
 
-Weighted return: **~45% over 2 years + 1.17% dividend = ~21% CAGR.** Attractive value + quality + growth combination.
+**What it may be under-weighting:** a **31.2% operating margin**, the best in the visible series; **100% debtor collection** at a discom-facing generator; **AAA at a moment when it is funding ₹7,500cr a year**; and two growth additions in one quarter — the **NALCO captive JV** and a **SECI wind award** — both with contracted offtake rather than merchant exposure.
+
+**The stock is 29% below its ₹388 high** — an **all-time-high market cap of ₹53,774cr was struck on 14-May-2026 at ₹387.80** — and fell **8.9% in the twelve days to 15-August**, which is what a supply overhang looks like. **That is also the mechanism by which the opportunity exists.**
+
+### Scenarios (2-year, to FY28)
+
+| | Prob. | Assumptions | FY28E | Multiple | Mcap | Return |
+|---|---|---|---|---|---|---|
+| **Base** | **50%** | Revenue compounds ~10–12% on generation growth and the renewables pipeline; operating margin holds ~30%; **tax normalises to ~25%**; capex stays heavy so FCF stays negative. Multiple holds ~12x normalised | PAT ₹3,400 cr | 12x | ₹40,800 cr | **+7%** |
+| **Bull** | **25%** | NALCO JV and the renewables pipeline scale; margin holds above 30%; FCF turns positive as the build phase peaks; **GoI divestment concludes and the overhang clears**; re-rating to 15x on a AAA-rated 17.5% ROE utility | PAT ₹4,000 cr | 15x | ₹60,000 cr | **+57%** |
+| **Bear** | **25%** | Further GoI selling caps the stock; other income keeps normalising down; capex overruns keep FCF negative; lignite volumes disappoint or a tariff/regulatory reset bites; multiple compresses to 9x | PAT ₹2,700 cr | 9x | ₹24,300 cr | **−36%** |
+
+**Weighted 2-year return: (0.50 × 7) + (0.25 × 57) + (0.25 × −36) = +8.75%**, plus a **1.31% dividend yield ≈ ~10% a year.**
+
+**Note what drives the base case's modest return: it assumes the multiple holds and tax normalises.** **Almost the entire upside case is a re-rating, not earnings growth** — which is why the government's selling matters more here than the operating quarter does.
 
 ---
 
 ## 7. What Could Prove Us Wrong
 
-**Risk 1 — Coal + lignite pricing volatility.**
-**Risk 2 — Capex INR 9,131 cr = working capital stretch.**
-**Risk 3 — Environmental compliance costs.**
-**Risk 4 — Further GoI OFS (post 7% Mar 2024).**
-**Risk 5 — PSU pace of execution.**
-**Risk 6 — Renewable tender bidding pricing pressure.**
-**Risk 7 — Critical mineral block execution slow.**
-**Risk 8 — Retail-heavy shareholder base (303,919).**
-**Risk 9 — IAS management transitions.**
-**Risk 10 — Balance sheet leverage from capex.**
+**Risk 1 — 🔴 Further government divestment.** 72.20% → 69.47% already, with a **75% ceiling** still far above the current level. **A supply overhang caps a re-rating, and the bull case is almost entirely a re-rating.** **Watch:** any OFS announcement.
+
+**Risk 2 — 🔴 The tax line.** 2.7% (FY26), 14.4% (TTM), 33% (Q1FY27). **Every PAT comparison must be normalised**, and the FY27 reported profit will look poor against FY26 for reasons that have nothing to do with operations.
+
+**Risk 3 — 🔴 Free cash flow is negative and the build phase has not peaked.** FY26 FCF **−₹2,474cr** on ₹7,549cr of investing. **Watch:** when capex turns.
+
+**Risk 4 — 🟡 Other income is normalising down** — ₹497cr → ₹228cr in a single quarter, and it drove most of the reported EBITDA shortfall. **A large and unexplained swing factor.**
+
+**Risk 5 — 🟡 No permanent CMD**, with the role in additional charge by a Ministry official, during a 1,080 MW JV and a ₹7,500cr programme.
+
+**Risk 6 — 🟡 No Q1FY27 earnings call** against a quarterly cadence. **A skipped call is how a 2.7% tax rate goes unexamined for a year.**
+
+**Risk 7 — 🟡 ROCE of 10.4% against ROE of 17.5%** — the gap is leverage, and leverage is what funds the build.
+
+**Risk 8 — 🟡 Regulatory and tariff reset risk.** A discom-facing generator's realisations are set administratively, not commercially.
+
+**Risk 9 — ⚪ Lignite and coal price volatility**, and environmental compliance costs on an ageing thermal fleet.
+
+**Risk 10 — ⚪ NALCO JV execution.** No financial close, capex quantum, equity commitment or timeline has been disclosed.
+
+**Risk 11 — ⚪ Retail-heavy register** — 3,33,052 shareholders, up 29,133 in a quarter, absorbing government stock.
 
 ---
 
 ## 8. 30-Second Memory Hook
 
-> **NLC India is Sunil Gavaskar's Ranji career — quietly building 100s of runs while the world watches T20 stars.** 70-year Navratna PSU with FY26 delivering ALL-TIME-HIGH across every metric: Revenue INR 17,490 cr (+14%), PAT INR 3,769 cr (+39%), Capex INR 9,131 cr (+18%), Net Worth INR 21,525 cr (+15%), Dividend 38.5% (best in 6 years). 963 MW capacity additions (660 Thermal + 303 RE), Solar 1 GW milestone (CPSE first), Pachwara South coal mine commenced March 2026.
->
-> The captain (GoI Navratna structure) is delivering — 2 GW RE tenders + 3,300 MWh BESS + 2 critical mineral blocks won + 3 new JVs. All-time-high market cap ₹53,774 cr (May 2026).
->
-> **What you're buying:** India's flagship Navratna power PSU at 12.1x P/E on 17.5% ROE + 1.17% dividend + capex cycle + renewable pivot + critical mineral optionality. **What you're risking:** coal pricing volatility, capex-driven balance sheet stretch, further GoI OFS, or slow renewable execution. Weighted 2-year return ~45% + 1.17% dividend.
->
-> **What to watch:** Q1-Q2FY27 Pachwara South ramp, NIRL RE project execution + BESS commissioning, critical mineral block progress, any further GoI OFS. Position sizing: **high conviction on the value + quality + PSU transformation anchor.**
+> **NLC is a Test side that won the series on a pitch nobody inspected.** FY26 was billed as an all-time high across every metric — and revenue, generation, capex and net worth genuinely were. **But the profit record was built on a 2.7% tax rate. Pre-tax profit grew 4.8% while reported profit grew 38.9%**, and the tax line has already swung back to 33%.
+
+**What you're buying:** a **AAA-rated Navratna** at **~12.9x normalised earnings and 1.77x book on a 17.5% ROE** — the cheapest name in this watchlist by a wide margin — mining its own lignite at pit-head, **collecting 100% of what discoms owe it**, running a **31.2% operating margin**, and adding growth with **contracted offtake**: a 1,080 MW captive JV with NALCO and 200 MW of SECI wind.
+
+**What you're risking:** a **government that has resumed selling** with 5.5 points of headroom left; **negative free cash flow** in a build phase that has not peaked; **no permanent CMD and no quarterly call**; and a reported profit line that will look terrible in FY27 for tax reasons alone.
+
+**What to watch, in order:** **the effective tax rate** — normalise everything until further notice · **any further GoI divestment** · **a permanent CMD appointment** · **whether an earnings call resumes** · **other income**, which fell ₹269cr and drove the EBITDA optics · **NALCO JV financial close and NLC's equity commitment** · **when free cash flow turns.**
+
+**Upgrade to High if:** the divestment concludes and the overhang clears, **and** FY27 shows double-digit PBT growth on a normalised tax rate.
+**Downgrade to Medium if:** further GoI selling is announced, **or** FCF stays negative into FY28 with capex rising, **or** a second quarter passes with no earnings call.
+
+---
+
+## 9. 📢 Community Pulse
+
+*Refreshed each review cycle. **Not yet scanned for this name.***
+
+**🔴 No community scan has been run on NLC** — not ValuePickr, not Substack, not X. Stated as a gap.
+
+**Two reasons it is worth doing here.** First, **no Q1FY27 earnings call was held**, so the usual channel for management commentary was closed this quarter — and the last transcript is 2-Jun-2026. Second, and more specifically, **the government's divestment intent is the single largest driver of this stock's return**, and that is a *policy* question rather than a company one. **DIPAM announcements, Ministry of Coal statements and PSU-divestment commentary are exactly what the §4C macro panel exists to catch** — official ministry handles are named there as the highest-value part of the panel.
+
+**Due at the next review:** ValuePickr thread search, Substack scan, and an X panel run per §4C — with the standing caveat that **the panel is curated and absence there is not evidence of absence** — plus a direct check for any DIPAM or Ministry of Coal divestment signalling.
 
 ---
 
 ## Source Appendix
 
-- **Concalls read:** Q4FY26 PPT (May 2026, primary), Q3FY26 (Feb 2026, partial), Q2FY26 (Nov 2025), Q1FY26 (Aug 2025), Q4FY25 (May 2025).
-- **Screener:** NLC India Ltd (BSE: 513683, NSE: NLCINDIA).
-- **BSE filings:** OFS disclosures (Mar 2024), JV formation announcements, critical mineral block wins.
-- **ValuePickr — NLC India thread:** Active discussion covering Navratna PSU + renewable pivot + capex cycle.
-- **Peer references:** Coal India, NTPC, GMDC, SJVN, NHPC, THDC.
+**Primary documents:**
+- **Q1FY27 press release and results, 7-Aug-2026** — source for generation, revenue, the company-basis EBITDA and PBT, standalone coal and thermal figures, and the 100% collection efficiency. **Note: it does not report PAT.**
+- **India Ratings rationale, 10-Aug-2026** — **IND AAA/Stable assigned** on ₹1,102cr of bank facilities; **affirmed** on ₹2,500cr of NCDs.
+- **NALCO JV press release, 8-Jul-2026** — 50:50, 1,080 MW (4 × 270 MW) captive thermal at Angul, Odisha. **Also the source identifying the CMD as holding additional charge.**
+- **SECI Letter of Award intimation, 10-Aug-2026** — 200 MW wind, Koppal, Karnataka, to NLC India Renewables Limited.
+- **Q4FY26 investor presentation and transcript (2-Jun-2026)** — the last earnings call held; source for the FY26 all-time-high framing, capacity additions, NIRL tender wins and the dividend.
+- **Board change intimations** — appointments 10-Jul and 17-Jul-2026, cessation 30-Jun-2026.
 
----
-
-*Content is personal investment research and thesis-building for portfolio decisions. Not a buy/sell recommendation. All views subject to revision as new data arrives.*
-
-
----
-
-## Source Appendix — Tier A refresh, 15-Aug-2026
-
-**Primary documents** *(all newly fetched — `Fetched Concalls/NLC/` did not exist before this refresh)*:
-- **Q1FY27 press release, 7-Aug-2026** — standalone and group physical and financial highlights, including coal production, generation, revenue, EBITDA, PBT, net worth and **100% power-debtor collection efficiency**. *Reports down to PBT; does not state PAT.*
-- **Q1FY27 results filing (570th Board Meeting outcome), 7-Aug-2026.**
-- **Credit rating intimation, 10-Aug-2026** — **India Ratings & Research: IND AAA/Stable assigned** on ₹1,102cr of bank loan facilities; **IND AAA/Stable affirmed** on ₹2,500cr of non-convertible debentures.
-- **SECI Letter of Award intimation, 10-Aug-2026** — **200 MW wind power project at Koppal, Karnataka**, awarded to **NLC India Renewables Limited** (wholly-owned subsidiary).
-- **NALCO joint venture press release, 8-Jul-2026** — **50:50 JV for a 4 × 270 MW (1,080 MW) coal-based captive thermal power plant at Angul, Odisha**, signed in the presence of the Union Minister for Coal and Mines.
-
-**Screener (consolidated, pulled 15-Aug-2026):** CMP ₹275, mcap ₹38,188cr, P/E 11.9x, BV ₹155, ROCE 10.4%, ROE 17.5%, div yield 1.31%; 8-quarter series, 7-year P&L, 8-year cash flow and ratios, 8-quarter shareholding.
+**Screener (consolidated, pulled 15-Aug-2026):** ticker **NLCINDIA**. CMP ₹275, mcap ₹38,188cr, P/E 11.9x, book ₹155, P/B 1.77x, ROCE 10.4%, ROE 17.5%, div yield 1.31%; multi-year P&L with PBT, tax and PAT, cash flow, ratios and 8-quarter shareholding.
 
 **Data-quality notes:**
-1. **🔴 Effective tax rates were computed directly from PBT and PAT, not read off Screener's "Tax %" row** — the parsed row was column-shifted and would have given FY26 as 27% rather than the true 2.7%. **FY26: ₹106cr of tax on ₹3,875cr PBT = 2.7%.** Verified against FY25 (26.6%) and FY24 (35.2%), both of which reconcile to Screener's displayed values one position across. **Anyone re-checking this should compute the rate, not read it.**
-2. **The company's "EBITDA" includes other income; Screener's "operating profit" excludes it.** Q1FY26: ₹935cr + ₹497cr = ₹1,432cr ✓ against the company's ₹1,431.71cr. Q1FY27: ₹1,471cr + ₹228cr = ₹1,699cr ✓ against ₹1,699.59cr. **Hence company EBITDA +18.71% versus operating profit +57.3% — both correct, different definitions.** Always state which.
-3. **The Q1FY27 press release does not disclose PAT**, reporting to PBT only. The PAT figures used here are from Screener's consolidated quarterly series.
-4. **No Q1FY27 earnings call, recording or transcript** had been filed as at 15-Aug-2026, eight days after results, despite transcripts for the three preceding quarters (2-Jun-2026, 16-Feb-2026, 2-Dec-2025). **Gate: no call held.**
-5. **The CMD position is held in additional charge** by Shri Sanoj Kumar Jha, Additional Secretary, Ministry of Coal — sourced from the NALCO JV press release of 8-Jul-2026, not from a separate governance filing.
-6. **The NALCO JV has no disclosed capex quantum, financial close date or NLC equity commitment** — only the 50:50 structure and 1,080 MW capacity. Treated as a quality signal, not a modelled contribution.
+1. **🔴 Effective tax rates were computed directly from PBT and PAT, not read from Screener's "Tax %" row, which is column-shifted for this company** — it would show FY26 as **27% rather than the true 2.7%**. **Anyone re-deriving these figures from that row will get the wrong answer.**
+2. **🔴 FY26 reported PAT of ₹3,769cr is ~30% above a tax-normalised figure of ~₹2,906cr.** PBT grew 4.8%. **All profit comparisons in this profile are stated on a normalised basis or flagged.**
+3. **⚠️ Two EBITDA bases coexist.** The company reports EBITDA **including other income** (₹1,699.59cr in Q1FY27, +18.71%); Screener's operating profit **excludes** it (₹1,471cr, **+57.3%**). **Both are correct and they measure different things** — the ₹269cr collapse in other income is the entire difference. **Always name the basis.**
+4. **🔴 The Q1FY27 press release does not report PAT.** The −48% figure is derived from the filed results.
+5. **🟡 No Q1FY27 earnings call was held**, against a quarterly cadence. Last transcript **2-Jun-2026**. All Q1FY27 interpretation is from the press release and filed results.
+6. **🟡 The NALCO JV carries no disclosed capex, financial close date or equity commitment.** Treated as optionality.
+7. **🟡 Section 9 has never been scanned** for this name.
 
 ---
 
-*Tier A refresh 15-Aug-2026. Content is personal investment research and thesis-building for portfolio decisions. Not a buy/sell recommendation. All views subject to revision as new data arrives.*
+*Thesis current as of 15-Aug-2026. Personal investment research and thesis-building for portfolio decisions. Not a buy/sell recommendation. All views subject to revision as new data arrives.*
