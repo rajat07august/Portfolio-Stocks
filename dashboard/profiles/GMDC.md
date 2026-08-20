@@ -1,12 +1,12 @@
 # Gujarat Mineral Development Corporation (GMDC) — Company Profile
 
-**Ticker:** GMDC · **NSE / BSE: GMDCLTD** · BSE: 532181 · **Sector:** 10 — Metals & Mining (Lignite + Coal + Bauxite + Manganese) · **Conviction:** Medium-Low *(↓ from Medium, 15-Aug-2026 — see Refresh Log)*
-**v1 written:** 3-Jul-2026 · **Tier A refresh:** 15-Aug-2026
-**CMP:** ₹574 · **Market Cap:** ₹18,261 cr · **P/E:** 32.0x *(normalised — see the reconciliation below)* · **P/B:** 2.59x · **ROCE:** 10.8% · **ROE:** 8.34% · **Div yield:** 1.77% *(Screener consolidated, 15-Aug-2026)*
+**Ticker:** GMDC · **NSE / BSE: GMDCLTD** · BSE: 532181 · **Sector:** 10 — Metals & Mining (Lignite + Coal + Bauxite + Manganese) · **Conviction:** Medium-Low *(↓ from Medium, 18-Aug-2026 — see Refresh Log)*
+**v1 written:** 3-Jul-2026 · **Tier A refresh:** 18-Aug-2026
+**CMP:** ₹574 · **Market Cap:** ₹18,261 cr · **P/E:** 32.0x *(normalised — see the reconciliation below)* · **P/B:** 2.59x · **ROCE:** 10.8% · **ROE:** 8.34% · **Div yield:** 1.77% *(Screener consolidated, 18-Aug-2026)*
 
 ---
 
-# 🔄 Refresh Log — 15-Aug-2026 (Q1FY27)
+# 🔄 Refresh Log — 18-Aug-2026 (Q1FY27)
 
 > **🔴 Concall gate: THE STANDING §9 GAP IS NOW RESOLVED — AS UNCLOSEABLE.** GMDC has been on the refresh queue since 4-Jul-2026 for *"FY26 concalls needed (profile built on Q4FY25 May 2025 data)."* **Those concalls do not exist.** Across **472 NSE filings**, the last earnings-call filing is **29-May-2025** (the Q4FY25 call v1 used); before that, **August 2024**. GMDC held roughly annual calls — **and then held none after FY26 results on 14-May-2026, and none after Q1FY27 on 31-Jul-2026.** **No investor presentation appears anywhere in the recent record either.** `Fetched Concalls/GMDC/` did not exist before this refresh; it now holds the Q1FY27 and FY26 results filings, three press releases and the May-2025 transcript.
 >
@@ -199,7 +199,7 @@
 
 > **Sourcing note:** GMDC's FY26 concalls are not in our repository (latest available: Q4FY25 from May 2025). This profile combines the Q4FY25 concall (management guidance for FY26) + Screener FY26 ratios + BSE filings. Would benefit from a future data refresh similar to Astec approach when FY26 concalls become accessible.
 >
-> 🔴 ⤴ **RESOLVED 15-Aug-2026 — the FY26 concalls do not exist and never will.** Across **472 NSE filings**, GMDC's last earnings-call filing is **29-May-2025**; before that, **August 2024**. **No call was held after FY26 results (14-May-2026) or after Q1FY27 (31-Jul-2026), and no investor presentation appears anywhere in the recent record.** **v1's caveat was correct and properly flagged — but the gap cannot be closed by waiting.** The standing §9 queue item is closed and replaced by a permanent disclosure flag: **this is a ₹18,261cr company that no longer speaks to shareholders.**
+> 🔴 ⤴ **RESOLVED 18-Aug-2026 — the FY26 concalls do not exist and never will.** Across **472 NSE filings**, GMDC's last earnings-call filing is **29-May-2025**; before that, **August 2024**. **No call was held after FY26 results (14-May-2026) or after Q1FY27 (31-Jul-2026), and no investor presentation appears anywhere in the recent record.** **v1's caveat was correct and properly flagged — but the gap cannot be closed by waiting.** The standing §9 queue item is closed and replaced by a permanent disclosure flag: **this is a ₹18,261cr company that no longer speaks to shareholders.**
 
 ---
 
@@ -214,14 +214,14 @@ The 30-second business snapshot:
 - **CFO**: Smt. A.K. Iyer
 - **FY25 lignite production**: 8 million tons (against 10 MT target — Rajpardi safety incident + Bhavnagar land acquisition delays)
 - **FY26 growth guidance**: 10-15% on existing 4 mines
-> 🔴 **MISSED BADLY, 15-Aug-2026. FY26 revenue FELL 6.9%** — ₹2,850.84cr → ₹2,653.38cr — against guidance of 10-15% growth. **Operating profit fell 30.5%** (₹637cr → ₹443cr), margin 22% → 17%. **And the reported PAT of ₹957cr (+39.5%) was entirely a ₹522.65cr GST/ITC exceptional; ex-exceptional, PAT fell ~14%.** There was **no FY26 earnings call** at which this miss could be explained.
+> 🔴 **MISSED BADLY, 18-Aug-2026. FY26 revenue FELL 6.9%** — ₹2,850.84cr → ₹2,653.38cr — against guidance of 10-15% growth. **Operating profit fell 30.5%** (₹637cr → ₹443cr), margin 22% → 17%. **And the reported PAT of ₹957cr (+39.5%) was entirely a ₹522.65cr GST/ITC exceptional; ex-exceptional, PAT fell ~14%.** There was **no FY26 earnings call** at which this miss could be explained.
 - **6 new lignite mines** in development (12 MTPA capacity, FY27+ contribution)
 - **3 coal blocks in Odisha**: Baitarani West (15 MTPA, largest — future top 12-13 mine in India), + 2 others
 - **CMP ₹603, MCap ₹19,152 cr, P/E 34.1x** — expensive on trailing (crisis year), reasonable on forward
 - **Government-owned quality moat**: stable land access + statutory clearances (though slow)
 
 **Big picture in one sentence:** GMDC is Gujarat's **flagship lignite + coal mining PSU** in an execution ramp phase — FY25 delivered 8 MT lignite (below 10 MT target), FY26 guidance for 10-15% growth on existing mines, and 6 new lignite mines + 3 coal blocks (Baitarani West largest at 15 MTPA) as multi-year growth catalyst. **Government PSU quality + execution ramp story, priced modestly for FY27-28 catalysts.**
-> 🔴 ⤴ **CORRECTED 15-Aug-2026 — and "priced modestly" is the part most in need of revision.** **FY26 revenue fell 6.9% and operating profit fell 30.5%** against guidance of 10-15% growth. **Reported PAT of +39.5% was entirely a ₹522.65cr GST/ITC exceptional; ex-exceptional PAT fell ~14%.** Q1FY27 — a clean quarter — grew revenue 23.8% but **pre-tax profit only 1.1%**. Three-year sales CAGR **−9%**, profit CAGR **−22%**. **And it is not priced modestly: Screener's headline P/E of 32.0x already excludes the exceptional while its TTM EPS of ₹30.07 includes it — so the apparent 19x is really 32x, at 2.59x book on an 8.34% ROE**, after a 47% three-year price CAGR. Weighted 2-year return **≈ −4% + 1.77% yield**. Conviction **M → Medium-Low**.
+> 🔴 ⤴ **CORRECTED 18-Aug-2026 — and "priced modestly" is the part most in need of revision.** **FY26 revenue fell 6.9% and operating profit fell 30.5%** against guidance of 10-15% growth. **Reported PAT of +39.5% was entirely a ₹522.65cr GST/ITC exceptional; ex-exceptional PAT fell ~14%.** Q1FY27 — a clean quarter — grew revenue 23.8% but **pre-tax profit only 1.1%**. Three-year sales CAGR **−9%**, profit CAGR **−22%**. **And it is not priced modestly: Screener's headline P/E of 32.0x already excludes the exceptional while its TTM EPS of ₹30.07 includes it — so the apparent 19x is really 32x, at 2.59x book on an 8.34% ROE**, after a 47% three-year price CAGR. Weighted 2-year return **≈ −4% + 1.77% yield**. Conviction **M → Medium-Low**.
 
 ---
 
@@ -250,9 +250,9 @@ Lignite + coal mining rides four durable forces:
 **Moat 1 — 60-year Gujarat lignite mining heritage.** Deep operational relationships.
 **Moat 2 — Government of Gujarat ownership (74% stable).** Preferential land + clearance access.
 **Moat 3 — 6 new lignite mines in development (12 MTPA capacity).** Multi-year growth pipeline.
-> 🟢 **ONE REAL MILESTONE, 15-Aug-2026: Environmental Clearance secured for the Lakhpat–Punrajpur Lignite & Limestone Mine in Kutch (27-Feb-2026)** — *"Strengthening Long-Term Production Visibility."* **EC is the binding constraint on Indian mine development, so this matters** — but it is a clearance, not production, and **no volume, capex or commissioning timeline has been disclosed**, because there is no longer a call at which to disclose one.
+> 🟢 **ONE REAL MILESTONE, 18-Aug-2026: Environmental Clearance secured for the Lakhpat–Punrajpur Lignite & Limestone Mine in Kutch (27-Feb-2026)** — *"Strengthening Long-Term Production Visibility."* **EC is the binding constraint on Indian mine development, so this matters** — but it is a clearance, not production, and **no volume, capex or commissioning timeline has been disclosed**, because there is no longer a call at which to disclose one.
 **Moat 4 — 3 coal blocks in Odisha (Baitarani West 15 MTPA).** Coal expansion.
-> ⚪ **UNVERIFIABLE, 15-Aug-2026.** **No update on Baitarani West or the other two Odisha blocks appears anywhere in GMDC's filing record** since v1. v1 already noted the groundbreaking was pending as of May-2025. **With no concall since May-2025 and no investor presentation, there is no source through which to track it.**
+> ⚪ **UNVERIFIABLE, 18-Aug-2026.** **No update on Baitarani West or the other two Odisha blocks appears anywhere in GMDC's filing record** since v1. v1 already noted the groundbreaking was pending as of May-2025. **With no concall since May-2025 and no investor presentation, there is no source through which to track it.**
 **Moat 5 — Diversified commodity portfolio** (lignite + coal + bauxite + manganese + fluorspar).
 **Moat 6 — Gujarat state customer base** (power PSUs + private).
 **Moat 7 — Cash-generating existing operations.** Basis for capex.
@@ -414,7 +414,7 @@ Weighted return: **~15% over 2 years + 1.67% dividend.** Modestly attractive wit
 
 ---
 
-## Source Appendix — Tier A refresh, 15-Aug-2026
+## Source Appendix — Tier A refresh, 18-Aug-2026
 
 **Primary documents** *(all newly fetched — `Fetched Concalls/GMDC/` did not exist before this refresh)*:
 - **Q1FY27 results filing, 31-Jul-2026** — the clean quarter, with FY26 comparatives that isolate the exceptional item.
@@ -423,7 +423,7 @@ Weighted return: **~15% over 2 years + 1.67% dividend.** Modestly attractive wit
 - **Press release, 2-Jun-2026** — *"GMDC Partners with University of Cambridge to Establish India's First AI-Powered Rare Earth Supply Chain Observatory."*
 - **Q4FY25 earnings call transcript, 29-May-2025** — retained; **it remains the most recent call GMDC has held.**
 
-**Screener (consolidated, pulled 15-Aug-2026):** ticker **GMDCLTD**. CMP ₹574, mcap ₹18,261cr, headline P/E 32.0x, BV ₹222, ROCE 10.8%, ROE 8.34%, div yield 1.77%; 8-quarter series, 7-year P&L, 8-year cash flow and ratios, 8-quarter shareholding.
+**Screener (consolidated, pulled 18-Aug-2026):** ticker **GMDCLTD**. CMP ₹574, mcap ₹18,261cr, headline P/E 32.0x, BV ₹222, ROCE 10.8%, ROE 8.34%, div yield 1.77%; 8-quarter series, 7-year P&L, 8-year cash flow and ratios, 8-quarter shareholding.
 
 **Data-quality notes:**
 1. **🔴 FY26 contains a ₹522.65cr exceptional item** (₹492.63cr GST input-credit recognition on cessation of the inverted duty structure + ₹30.02cr litigation-restored ITC). **Reported FY26 PAT of ₹957cr (+39.5%) becomes ~₹588cr (−14.2%) without it, and operating profit fell 30.5% regardless.** Sourced verbatim from Notes 5 and 6 of the FY26 results.
@@ -436,4 +436,4 @@ Weighted return: **~15% over 2 years + 1.67% dividend.** Modestly attractive wit
 
 ---
 
-*Tier A refresh 15-Aug-2026. Content is personal investment research and thesis-building for portfolio decisions. Not a buy/sell recommendation. All views subject to revision as new data arrives.*
+*Tier A refresh 18-Aug-2026. Content is personal investment research and thesis-building for portfolio decisions. Not a buy/sell recommendation. All views subject to revision as new data arrives.*

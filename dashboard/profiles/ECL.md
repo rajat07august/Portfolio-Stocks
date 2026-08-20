@@ -1,12 +1,12 @@
 # Electrosteel Castings (ECL) — Company Profile
 
-**Ticker:** ECL · **NSE / BSE: ELECTCAST** · BSE: 500128 · **Sector:** 16 — Water Infrastructure (Ductile Iron Pipes + Fittings + Valve Castings) · **Conviction:** Medium-High **(Cycle-Turn Play — HELD, 15-Aug-2026)**
-**v1 written:** 3-Jul-2026 · **Tier A refresh:** 15-Aug-2026
-**CMP:** ₹72.0 · **Market Cap:** ₹4,448 cr · **P/E (trailing):** 27.9x · **P/B:** 0.75x · **ROCE:** 5.00% · **ROE:** 3.04% · **Div yield:** 1.27% *(Screener consolidated, 15-Aug-2026)*
+**Ticker:** ECL · **NSE / BSE: ELECTCAST** · BSE: 500128 · **Sector:** 16 — Water Infrastructure (Ductile Iron Pipes + Fittings + Valve Castings) · **Conviction:** Medium-High **(Cycle-Turn Play — HELD, 17-Aug-2026)**
+**v1 written:** 3-Jul-2026 · **Tier A refresh:** 17-Aug-2026
+**CMP:** ₹72.0 · **Market Cap:** ₹4,448 cr · **P/E (trailing):** 27.9x · **P/B:** 0.75x · **ROCE:** 5.00% · **ROE:** 3.04% · **Div yield:** 1.27% *(Screener consolidated, 17-Aug-2026)*
 
 ---
 
-# 🔄 Refresh Log — 15-Aug-2026 (Q1FY27)
+# 🔄 Refresh Log — 17-Aug-2026 (Q1FY27)
 
 > **Concall gate: ✅ CLEARED.** Q1FY27 call held ~7-Aug-2026, **transcript filed 12-Aug** — now on disk with the Q1FY27 deck, results filing and Reg 30 intimations. `Fetched Concalls/ECL/` **did not exist** before this refresh. ECL files transcripts every quarter (12-Aug-2026, 21-May-2026, 10-Feb-2026, 14-Nov-2025, 11-Aug-2025) — **a consistent cadence, and better disclosure than several larger names in this batch.** Management: **Madhav Kejriwal (Whole-Time Director)**, **Sunil Katial (WTD & CEO)**, **Rajesh Daga (CFO)**, **Gaurav Somani (GM Finance)**.
 
@@ -238,7 +238,7 @@ The 30-second business snapshot:
 - **JAL JEEVAN MISSION 2.0 APPROVED** — INR 8.69 lakh cr budget extended to Dec 2028 (Central Govt INR 3.59 lakh cr, up from INR 2.08 lakh cr)
 
 **Big picture in one sentence:** ECL is India's **largest DI pipe manufacturer** — currently trading at 0.81x book value on a crisis year (-25% volume decline in FY26 due to JJM 1.0 slowdown), but **Jal Jeevan Mission 2.0 approved with massive INR 8.69 lakh cr budget** = clear cycle-turn catalyst for FY27+. **Textbook value + cycle-turn play with government-driven demand recovery.**
-> **REFRESHED 15-Aug-2026 — thesis intact, timing slipped.** The catalyst is **confirmed and now funding** (₹6,000cr released this year vs ₹1,560cr in all of FY26), and **realisations turned +8.9% sequentially**. But **Q1FY27 volumes were −27%** and management **cut the FY27 volume expectation from ~7 to ~5.5 lakh tonnes**, with the recovery pushed to **H2FY27**. Two new legs added: **T.I.S. Italy** (EUR 10mn/quarter, mid-teens EBITDA) and an **industrial paints** business (₹800-1,000cr revenue targeted over 5 years for ₹250-300cr of phased capex). **Weighted 2-year return ~+30% + 1.27% yield ≈ 15% p.a.** — the low end of v1's 30-40% band. **Conviction HELD at Medium-High.**
+> **REFRESHED 17-Aug-2026 — thesis intact, timing slipped.** The catalyst is **confirmed and now funding** (₹6,000cr released this year vs ₹1,560cr in all of FY26), and **realisations turned +8.9% sequentially**. But **Q1FY27 volumes were −27%** and management **cut the FY27 volume expectation from ~7 to ~5.5 lakh tonnes**, with the recovery pushed to **H2FY27**. Two new legs added: **T.I.S. Italy** (EUR 10mn/quarter, mid-teens EBITDA) and an **industrial paints** business (₹800-1,000cr revenue targeted over 5 years for ₹250-300cr of phased capex). **Weighted 2-year return ~+30% + 1.27% yield ≈ 15% p.a.** — the low end of v1's 30-40% band. **Conviction HELD at Medium-High.**
 
 ---
 
@@ -276,9 +276,9 @@ Water infrastructure rides five durable forces:
 **Moat 7 — Debt reduction (INR 598 cr reduction FY26).** Balance sheet strengthening.
 **Moat 8 — Promoter holding INCREASED from 44.08% → 50.14%** — Kejriwal family accumulating.
 **Moat 9 — JJM 2.0 tailwind confirmed** (Q4FY26 concall).
-> ✅ **AND NOW FUNDED, 15-Aug-2026 — this is the genuinely new fact.** v1 had the *approval*; the Q1FY27 call has the *disbursement*. **₹67,670cr allocated centrally this year, of which a ₹10,000cr sanction has seen ~₹6,000cr already released — against a "meagre ₹1,560cr released under JJM in previous financial year."** Kejriwal: *"customers approaching for order booking more and more… in the next month or two, we are finding that the **speed of order booking is going to pick up substantially**."* **The DI pipe cycle is disbursement-driven, not demand-driven, and the tap has visibly reopened.** Additional pipelines named: **Ken-Betwa (₹44,000cr)**, **Parbati-Kalisindh-Chambal (~₹90,000cr, "expected to commence shortly")**, **Urban Challenge Fund (₹4 lakh cr)** and the new **MCAD scheme** for underground pressurised irrigation networks.
+> ✅ **AND NOW FUNDED, 17-Aug-2026 — this is the genuinely new fact.** v1 had the *approval*; the Q1FY27 call has the *disbursement*. **₹67,670cr allocated centrally this year, of which a ₹10,000cr sanction has seen ~₹6,000cr already released — against a "meagre ₹1,560cr released under JJM in previous financial year."** Kejriwal: *"customers approaching for order booking more and more… in the next month or two, we are finding that the **speed of order booking is going to pick up substantially**."* **The DI pipe cycle is disbursement-driven, not demand-driven, and the tap has visibly reopened.** Additional pipelines named: **Ken-Betwa (₹44,000cr)**, **Parbati-Kalisindh-Chambal (~₹90,000cr, "expected to commence shortly")**, **Urban Challenge Fund (₹4 lakh cr)** and the new **MCAD scheme** for underground pressurised irrigation networks.
 **Moat 10 — 0.81x P/B** — trading below book value, value entry.
-> **UPDATED 15-Aug-2026 — now 0.75x** (CMP ₹72.0, book ₹95.8). The stock is **−28% over one year and 34% below its ₹109 high**. **And the balance sheet behind that book improved materially through the downturn:** FY26 operating cash flow **₹1,147cr — 337% of operating profit** — funded a **~₹1,100cr reduction in net debt to ₹876cr** (gross ₹1,658cr), with **Q1FY27 interest expense down 25% YoY**. *Note the cash conversion is a working-capital release from a 19% revenue contraction, and will reverse as volumes recover — but it was used to deleverage into the trough, which is the right call.*
+> **UPDATED 17-Aug-2026 — now 0.75x** (CMP ₹72.0, book ₹95.8). The stock is **−28% over one year and 34% below its ₹109 high**. **And the balance sheet behind that book improved materially through the downturn:** FY26 operating cash flow **₹1,147cr — 337% of operating profit** — funded a **~₹1,100cr reduction in net debt to ₹876cr** (gross ₹1,658cr), with **Q1FY27 interest expense down 25% YoY**. *Note the cash conversion is a working-capital release from a 19% revenue contraction, and will reverse as volumes recover — but it was used to deleverage into the trough, which is the right call.*
 
 **Where the moat is weaker.**
 - Volume decline -25% in FY26 = deep cyclical trough.
@@ -372,7 +372,7 @@ Water infrastructure rides five durable forces:
 - Long-term debt: INR 352 cr
 - Short-term debt: INR 464 cr
 - Book value per share: INR 95.8 → P/B **0.81x** (below book value!)
-> **UPDATED 15-Aug-2026: P/B 0.75x** at CMP ₹72.0. **Q1FY27: consolidated revenue ₹1,426cr (−8.5%), EBITDA ₹139cr (9.5%), PAT ₹48cr (−46%); standalone PAT just ₹5.9cr — the consolidated result is being carried by the UK/Europe/USA subsidiaries.** Sequentially, though, this is the **third consecutive quarter of improvement off the Q3FY26 trough**: PAT −₹22cr → ₹16cr → ₹48cr; OPM 2.3% → 4.1% → 7.0%.
+> **UPDATED 17-Aug-2026: P/B 0.75x** at CMP ₹72.0. **Q1FY27: consolidated revenue ₹1,426cr (−8.5%), EBITDA ₹139cr (9.5%), PAT ₹48cr (−46%); standalone PAT just ₹5.9cr — the consolidated result is being carried by the UK/Europe/USA subsidiaries.** Sequentially, though, this is the **third consecutive quarter of improvement off the Q3FY26 trough**: PAT −₹22cr → ₹16cr → ₹48cr; OPM 2.3% → 4.1% → 7.0%.
 
 **Return metrics:**
 - ROCE: 5.21% (cyclical low)
@@ -469,14 +469,14 @@ Weighted return: **~30-40% over 2 years + 1.80% dividend + significant re-rating
 
 ---
 
-## Source Appendix — Tier A refresh, 15-Aug-2026
+## Source Appendix — Tier A refresh, 17-Aug-2026
 
 **Primary documents** *(all newly fetched — `Fetched Concalls/ECL/` did not exist before this refresh)*:
 - **Q1FY27 earnings call transcript**, call ~7-Aug-2026, **filed 12-Aug-2026**. Management: **Madhav Kejriwal (Whole-Time Director)**, **Sunil Katial (WTD & CEO)**, **Rajesh Daga (CFO)**, **Gaurav Somani (GM Finance)**. Analysts included **ICICI Securities, MNCL, Green Portfolio, Kapoor & Co.**
 - **Q1FY27 investor presentation and results filing, 7-Aug-2026.**
 - **Reg 30 intimations:** retirement of a senior management person (31-Jul-2026); appointment of **Rajesh Daga** (7-Aug-2026); resignation of a senior management person (12-Aug-2026).
 
-**Screener (consolidated, pulled 15-Aug-2026):** ticker **ELECTCAST**. CMP ₹72.0, mcap ₹4,448cr, P/E 27.9x, BV ₹95.8, ROCE 5.00%, ROE 3.04%, div yield 1.27%; 8-quarter series, 7-year P&L, 8-year cash flow and ratios, 8-quarter shareholding.
+**Screener (consolidated, pulled 17-Aug-2026):** ticker **ELECTCAST**. CMP ₹72.0, mcap ₹4,448cr, P/E 27.9x, BV ₹95.8, ROCE 5.00%, ROE 3.04%, div yield 1.27%; 8-quarter series, 7-year P&L, 8-year cash flow and ratios, 8-quarter shareholding.
 
 **Data-quality notes:**
 1. **ECL files a transcript every quarter** (12-Aug-2026, 21-May-2026, 10-Feb-2026, 14-Nov-2025, 11-Aug-2025) — a consistent cadence and better disclosure than several larger names refreshed this cycle.
@@ -489,4 +489,4 @@ Weighted return: **~30-40% over 2 years + 1.80% dividend + significant re-rating
 
 ---
 
-*Tier A refresh 15-Aug-2026. Content is personal investment research and thesis-building for portfolio decisions. Not a buy/sell recommendation. All views subject to revision as new data arrives.*
+*Tier A refresh 17-Aug-2026. Content is personal investment research and thesis-building for portfolio decisions. Not a buy/sell recommendation. All views subject to revision as new data arrives.*
