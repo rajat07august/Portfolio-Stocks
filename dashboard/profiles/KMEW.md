@@ -1,12 +1,12 @@
 # Knowledge Marine & Engineering Works (KMEW) — Company Profile
 
-**Ticker:** KMEW · NSE: KMEW · BSE: 543273 · ISIN INE0CJD01029 · **Sector:** 9 — Marine Services · **Conviction:** **Medium-Low (Under Watch)** *(reconciled 18-Aug-2026 — see Refresh Log)*
-**v1 written:** 3-Jul-2026 · **Tier A refresh:** 18-Aug-2026
-**CMP:** ₹2,706 · **Market Cap:** ₹6,892 cr · **P/E (trailing):** 53.2x · **Book Value:** ₹233 · **ROCE:** 16.4% · **ROE:** 20.0% · **Div yield:** 0.00% *(Screener consolidated, 18-Aug-2026)*
+**Ticker:** KMEW · NSE: KMEW · BSE: 543273 · ISIN INE0CJD01029 · **Sector:** 9 — Marine Services · **Conviction:** **Medium-Low (Under Watch)** *(reconciled 21-Aug-2026 — see Refresh Log)*
+**v1 written:** 3-Jul-2026 · **Tier A refresh:** 21-Aug-2026
+**CMP:** ₹2,706 · **Market Cap:** ₹6,892 cr · **P/E (trailing):** 53.2x · **Book Value:** ₹233 · **ROCE:** 16.4% · **ROE:** 20.0% · **Div yield:** 0.00% *(Screener consolidated, 21-Aug-2026)*
 
 ---
 
-# 🔄 Refresh Log — 18-Aug-2026 (Q1FY27)
+# 🔄 Refresh Log — 21-Aug-2026 (Q1FY27)
 
 > **Concall gate: 🟡 AMBER — and the reason is structural, not a fetch failure.**
 > **Five transcripts are now on disk** — Q4FY26 (call 5-Jun-2026, filed 12-Jun), Q3FY26 (call 19-Feb-2026, filed 25-Feb), Q4FY24 (31-May-2024), H1FY24 (Nov-2023) and FY23 (Jun-2023) — plus six investor decks and the Q1FY27 and FY26 results filings. The two most recent were read in full; the older three were read for delivery-versus-guidance context.
@@ -208,7 +208,7 @@ So the promoter group **took roughly ₹120-135cr out and put ₹11cr back in th
 **Sentiment verdict: MIXED-BEARISH — and notably, the bearishness is about *conduct and valuation*, not about operations.** Nobody disputes the business is executing. The thread independently reached the same two conclusions this refresh did: the quarter was pre-announced and borrowed from Q4, and the promoter selling sits awkwardly beside the promotion. **@Harish_H's counter is the fair one and I'd weight it: management genuinely did call the quarter in advance, which is the opposite of concealment.**
 
 ### X / Twitter
-**No posts matching KMEW across the watched panel** (18-Aug-2026). Per §4C: **this is a curated panel, not a search of X. Absence is not evidence of absence** — a ₹6,900cr small-cap simply may not be covered by the handles on the list.
+**No posts matching KMEW across the watched panel** (21-Aug-2026). Per §4C: **this is a curated panel, not a search of X. Absence is not evidence of absence** — a ₹6,900cr small-cap simply may not be covered by the handles on the list.
 
 ### Substack
 No dedicated coverage found.
@@ -237,7 +237,7 @@ No dedicated coverage found.
 
 ## 💸 Valuation refresh
 
-| | v1 (3-Jul-2026) | **Refresh (18-Aug-2026)** |
+| | v1 (3-Jul-2026) | **Refresh (21-Aug-2026)** |
 |---|---|---|
 | CMP | ₹2,375 | **₹2,706** *(+13.9%)* |
 | Market cap | ₹5,842 cr | **₹6,892 cr** |
@@ -266,7 +266,7 @@ No dedicated coverage found.
 
 **Medium-Low, HELD — now formally Under Watch.**
 
-*⤴ **Reconciled 18-Aug-2026.** The v1 profile header carried **Medium** while PORTFOLIO_STATE carried **ML**. The two have disagreed since 3-Jul-2026 and nobody caught it. **ML is correct** and both are now aligned.*
+*⤴ **Reconciled 21-Aug-2026.** The v1 profile header carried **Medium** while PORTFOLIO_STATE carried **ML**. The two have disagreed since 3-Jul-2026 and nobody caught it. **ML is correct** and both are now aligned.*
 
 **The Under Watch trigger, specified:** **downgrade ML → Speculative at the Q2FY27 print (~Nov-2026) if EITHER (a) the order book is below ₹1,400cr, meaning the ₹2,000cr pipeline did not convert inside the three-month window management set, OR (b) Q2 EBITDA margin falls below 35%, the bottom of the guided band.** Both are objective and both resolve on one filing.
 
@@ -284,7 +284,7 @@ No dedicated coverage found.
 >
 > **Note on sourcing:** KMEW only started publishing full concall transcripts from Q3FY26 onwards. Earlier disclosures were investor decks. Confidence in numbers is high; management-tone reading is based on fewer data points than the ideal 4 transcripts.
 >
-> ⤴ **UPDATED 18-Aug-2026 — partly right, and one part wrong.** Transcripts do exist earlier than v1 assumed: **Jun-2023, Nov-2023 and Jun-2024 are all filed and are now on disk**, alongside Q3FY26 (Feb-2026) and Q4FY26 (Jun-2026) — **five in total.** What v1 got right is that the coverage is patchy: **Nov-2024, Feb-2025, Jun-2025 and Nov-2025 produced investor decks but no transcript.** And the structural finding v1 could not have known: **KMEW has never held a first-quarter earnings call**, so the record-breaking Q1FY27 print gets no management commentary until roughly November 2026.
+> ⤴ **UPDATED 21-Aug-2026 — partly right, and one part wrong.** Transcripts do exist earlier than v1 assumed: **Jun-2023, Nov-2023 and Jun-2024 are all filed and are now on disk**, alongside Q3FY26 (Feb-2026) and Q4FY26 (Jun-2026) — **five in total.** What v1 got right is that the coverage is patchy: **Nov-2024, Feb-2025, Jun-2025 and Nov-2025 produced investor decks but no transcript.** And the structural finding v1 could not have known: **KMEW has never held a first-quarter earnings call**, so the record-breaking Q1FY27 print gets no management commentary until roughly November 2026.
 
 ---
 
@@ -301,7 +301,7 @@ The 30-second business snapshot:
 - **Green Tug entry**: won two contracts (VOCPA + Vishakhapatnam) worth **INR 650 cr with 15-year tenures** — a landmark break into a structural high-growth segment
 
 The **big picture in one sentence:** KMEW is transitioning from a specialised marine services contractor into an **integrated maritime infrastructure platform** — riding India's aggressive port expansion + green tug transition + inland waterways build-out — with a young, hungry founder-family and premium valuations (74x P/E) that price in most of the good news.
-> ✅ ⤴ **THIS HELD UP WELL, 18-Aug-2026 — including the caveat.** The integration thesis is intact and progressing (Saphale land executed, IWAI hybrid-electric ferry order won, green tug components ordered). **The valuation warning was the right call:** the multiple has compressed 74x → **53.2x**, but only because earnings outran price — and **~₹60cr of the TTM earnings is Q4FY26 revenue recognised in Q1FY27**, plus a one-off deferred-tax write-back. **At ~8.8x post-issue book with zero dividend and three straight years of negative free cash flow, "prices in most of the good news" remains the correct sentence.** *What v1 did not anticipate: the order book going backwards, and promoter holding crossing below 50%.*
+> ✅ ⤴ **THIS HELD UP WELL, 21-Aug-2026 — including the caveat.** The integration thesis is intact and progressing (Saphale land executed, IWAI hybrid-electric ferry order won, green tug components ordered). **The valuation warning was the right call:** the multiple has compressed 74x → **53.2x**, but only because earnings outran price — and **~₹60cr of the TTM earnings is Q4FY26 revenue recognised in Q1FY27**, plus a one-off deferred-tax write-back. **At ~8.8x post-issue book with zero dividend and three straight years of negative free cash flow, "prices in most of the good news" remains the correct sentence.** *What v1 did not anticipate: the order book going backwards, and promoter holding crossing below 50%.*
 
 ---
 
@@ -337,7 +337,7 @@ The trade-off: **breadth (four segments) vs depth**. If each segment scales, KME
 **Moat 3 — River Pearl 47 — India's largest and deepest self-propelled backhoe dredger.** Built in-house by KMEW's shipbuilding arm. Rock dredging capability at ports (which many peers can't do) — INR 50 cr JNPA contract already executed. Utilization guidance: 240+ days/year over next 2–3 years, targeting rock dredging bids at New Mangalore, Bombay Port, JNPA, Vishakhapatnam, Tuticorin.
 
 **Moat 4 — 15-acre Saphale shipyard near Vadhvan Port.** Strategic land acquisition adjacent to India's future largest deepwater port. Reduces third-party builder dependency + creates margin upside as they insource construction of their own tugs.
-> ✅ **EXECUTED AND SPECIFIED, 18-Aug-2026.** Press release 4-May-2026 confirms **~15 acres acquired (with a 5-acre expansion option)** through subsidiary **Knowledge Shipyard Private Limited**, on the Vaitarna river: **~188m waterfront, natural slipway, ~6m high-tide draft.** Design envelope is vessels **10-120m length**; management targets **14 vessels per year** when fully functional and is *"doing marketing right now, in Europe"*, expecting **export orders in Q3 or Q4 FY27**. Shipbuilding EBITDA guided at **25-30% pre-subsidy, 35-40% including the 10-15% government construction subsidy**. 🟡 **But it is a ₹100cr build inside a ₹400-500cr FY27 capex programme on a ₹256cr revenue base — and KMEW owns only 51% of Knowledge Shipyard** (guided to rise to 75%).
+> ✅ **EXECUTED AND SPECIFIED, 21-Aug-2026.** Press release 4-May-2026 confirms **~15 acres acquired (with a 5-acre expansion option)** through subsidiary **Knowledge Shipyard Private Limited**, on the Vaitarna river: **~188m waterfront, natural slipway, ~6m high-tide draft.** Design envelope is vessels **10-120m length**; management targets **14 vessels per year** when fully functional and is *"doing marketing right now, in Europe"*, expecting **export orders in Q3 or Q4 FY27**. Shipbuilding EBITDA guided at **25-30% pre-subsidy, 35-40% including the 10-15% government construction subsidy**. 🟡 **But it is a ₹100cr build inside a ₹400-500cr FY27 capex programme on a ₹256cr revenue base — and KMEW owns only 51% of Knowledge Shipyard** (guided to rise to 75%).
 
 **Moat 5 — Diversified customer base of major Indian ports.** JNPA, Paradip (DCI subcontracts), Pondicherry, VOCPA, Vishakhapatnam, IWAI. No single customer > 25% of revenue. Balanced across dredging, chartering, and now Green Tug operations.
 
@@ -598,7 +598,7 @@ Weighted expected return: **~0–5% over 2 years.** Priced for perfection.
 
 ---
 
-## Source Appendix — Tier A refresh, 18-Aug-2026
+## Source Appendix — Tier A refresh, 21-Aug-2026
 
 **Primary documents** *(all fetched this refresh; `Fetched Concalls/KMEW/` went from 6 files to 22)*:
 - **Q1FY27 results filing, 14-Aug-2026** — consolidated statement + **consolidated segment reporting**, which is where the margin is located. Exceptional-items line confirmed nil in every column.
@@ -633,4 +633,4 @@ Weighted expected return: **~0–5% over 2 years.** Priced for perfection.
 
 ---
 
-*Tier A refresh 18-Aug-2026. Content is personal investment research and thesis-building for portfolio decisions. Not a buy/sell recommendation. All views subject to revision as new data arrives.*
+*Tier A refresh 21-Aug-2026. Content is personal investment research and thesis-building for portfolio decisions. Not a buy/sell recommendation. All views subject to revision as new data arrives.*
