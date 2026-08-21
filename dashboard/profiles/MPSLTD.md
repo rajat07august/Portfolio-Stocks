@@ -1,12 +1,13 @@
 # MPS Limited — Company Profile
 
-**Ticker:** MPSLTD · BSE: 532440 · NSE: MPSLTD · **Sector:** 8 — IT / Software & Platforms *(sector definition broadened 2-Aug-2026 to admit non-BFSI enterprise software & platform businesses)* · **Conviction:** **Medium-High**
-**Date written:** 2-Aug-2026 · **CMP:** ₹2,721 · **Market Cap:** ₹4,654 cr · **P/E (consolidated TTM):** 25.4x · **ROCE:** 39.3% · **ROE:** 31.2% · **Listing:** Mainboard
-**Sources:** 7 concall transcripts (Q1FY27 Jul-2026 · Q4FY26 May-2026 · Unbound acquisition call Feb-2026 · Q3FY26 Feb-2026 · Q2FY26 Nov-2025 · Q1FY26 Jul-2025 · Q4FY25 May-2025) + 2 investor decks — **all fetched from BSE via curl and read** · Screener consolidated (curl + HTML parse) · ValuePickr topic 959 (693 posts, active) · BSE filings
+**Ticker:** MPSLTD · BSE: 532440 · NSE: MPSLTD · **Sector:** 8 — IT / Software & Platforms *(sector definition broadened 2-Aug-2026 to admit non-BFSI enterprise software & platform businesses)*
+**Conviction:** **Medium-High** · **Weighted 2-yr return:** ~+32% (≈15% CAGR) · dividend currently suspended
+**Thesis current as of:** 21-Aug-2026 · **Tracking since:** 2-Aug-2026
+**CMP:** ₹2,898 · **Market Cap:** ₹4,948 cr · **P/E (consolidated TTM):** 27.0x · **P/B:** 8.3x (BV ₹349) · **ROCE:** 38.7% · **ROE:** 29.7% · **52-wk range ₹1,336–₹2,980** · **Listing:** Mainboard *(Screener consolidated, 21-Aug-2026)*
 
-> **How to read this profile:** Every meaningful claim is sourced to a concall (quarter noted) or a filing. Judgments are flagged as such. This is personal thesis-building, not a buy/sell recommendation.
->
-> **⚠️ Data note — use CONSOLIDATED only.** MPS's standalone figures understate the business by roughly half (Q1FY27 standalone revenue ₹124cr vs **consolidated ₹224cr**), because AJE, HighWire, Liberate Global and Unbound Medicine sit in subsidiaries. Screener's default page for this ticker serves standalone. **Every number in this profile is consolidated and reconciles to the transcript** (Q1FY27: ₹224.24cr revenue, ₹50.39cr PAT — matches Screener consolidated exactly).
+> **⚠️ Data note — use CONSOLIDATED only.** MPS's standalone figures understate the business by roughly half (Q1FY27 standalone revenue ₹124cr vs **consolidated ₹224cr**), because AJE, HighWire, Liberate Global and Unbound Medicine sit in subsidiaries. **Screener's default page for this ticker serves standalone.** Every number in this profile is consolidated and reconciles to the transcript (Q1FY27: ₹224.24cr revenue, ₹50.39cr PAT — matches Screener consolidated exactly).
+
+> **📌 A structural event is in progress and shareholders vote on it tomorrow.** The **promoter holding company, ADI BPO Services Limited, is being amalgamated into MPS Limited** under Sections 230–232, with NCLT-convened meetings of equity shareholders and unsecured creditors on **22-August-2026**. **The swap ratio is calibrated to leave public shareholders untouched** — the arithmetic is checked in §5.5(b). **None of this was in the initiation.**
 
 ---
 
@@ -212,9 +213,82 @@ As of 30-Jun-2026: **cash ₹138.02cr against borrowings of ₹37.63cr** (the fa
 
 ---
 
+## 5.5. 📈 Company Trajectory Since Tracking
+
+*Tracked since 2-Aug-2026 — nineteen days. Short, and it contains one genuinely structural event the initiation missed entirely.*
+
+### (a) Conviction history
+
+| Date | Conviction | Trigger |
+|---|---|---|
+| 2-Aug-2026 | **Medium-High** | Initiation, fully concall-grounded from **seven transcripts**. Elite returns (39.3% ROCE, 31.2% ROE), a seven-year capital-allocation record, and Q1FY27 operating leverage (revenue +20%, EBITDA +53%, headcount +<3%) — **held back from High by the AI question, single-digit organic growth ex-acquisitions, a suspended dividend and an FY28 target that needs M&A** |
+| 21-Aug-2026 | **HELD at Medium-High** | **A promoter-holdco amalgamation surfaced that the initiation did not have** — structurally clean on the arithmetic, and shareholders vote 22-Aug. Two subsidiary restructurings completed. **Nothing operational has changed; the stock is +6.5%** |
+
+**Upgrade to High if:** FY27 EBITDA clears ₹300cr comfortably **and** organic growth moves out of the early teens **and** the dividend resumes.
+
+**Downgrade to Medium if:** organic growth stalls in single digits **or** the FY28 ₹1,500cr target is quietly dropped **or** a large acquisition disappoints.
+
+### (b) Material developments — newest first
+
+**🟢 The promoter holding company is being merged into the listed entity — and the arithmetic is clean** *(NCLT Chennai order 2-Jul-2026; notice 22-Jul; addendum 5-Aug; **meetings 22-Aug-2026**)*
+
+**Scheme of Amalgamation of ADI BPO Services Limited (unlisted Transferor) with MPS Limited (Transferee)** under Sections 230–232 — merger by absorption, with ADI BPO dissolved without winding up. **NCLT-convened meetings of equity shareholders (10:00 AM) and unsecured creditors (11:30 AM) are on Saturday 22-August-2026**, virtually.
+
+**The Fair Share Exchange Ratio, verbatim:** *"**1,16,90,615 equity shares of MPS Limited** of the face value of INR 10 each fully paid-up to be issued and allotted as fully paid up to the equity shareholders of ADI BPO Services Limited **in the proportion of their holding in ADI BPO Services Limited**."*
+
+> **Why it matters — and the check that makes it benign.** **ADI BPO is the vehicle through which the Arora family holds its 68.34% of MPS.** Merging it into MPS collapses a holding-company layer: **ADI BPO's MPS shares are cancelled, and an equivalent block is issued directly to ADI BPO's own shareholders.**
+>
+> **Do the arithmetic rather than take the assurance.** MPS's market cap of ₹4,948cr at ₹2,898 implies **1,70,73,153 shares outstanding**. **68.34% of that is 1,16,68,772 shares.** **The block being issued is 1,16,90,615 — a difference of 21,843 shares, or 0.013% of the enlarged capital.** ***The ratio is calibrated almost exactly to the stake being cancelled.***
+>
+> That matches the company's own statement: *"there shall be **no impact on the shareholding percentage or number of shares of the public shareholders** in the Company. Accordingly, there will be **no adverse impact** of the Scheme."* And the ICDR eligibility condition confirms the floor: *"the percentage of shareholding of pre-scheme public shareholders… **shall not be less than 25%**."*
+>
+> **Stated rationale:** *"simplification, greater operational synergies and rationalization of the shareholding structure"* and *"reducing the number of legal entities in the group structure."* **Read plainly: one fewer layer between the family and the listed company, no economic change to anyone. Mildly positive, and exactly the kind of housekeeping a promoter with this capital-allocation record would do.**
+>
+> **⚠️ One process detail worth recording without alarm.** **BSE emailed the company on 31-July-2026 requiring additional disclosures**, and the company issued a **5-Aug Addendum** adding an **Abridged Prospectus for the Transferor** and **pre/post assets, liabilities, revenue and net-worth tables certified by a Chartered Accountant.** **Exchange observations on a scheme are routine** — they are the mechanism working — **but the disclosures they compelled are the ones a minority shareholder would most want, and they were not in the original notice.** *⭐ Watch the 22-Aug vote outcome and the NCLT Second Motion.*
+
+**⚪ The Beach shareholding in MPSi moves to a trust** *(8-Aug-2026)*
+Amendment to the Share Subscription and Shareholders' Agreement of **10-Oct-2025** among **MPS Interactive Systems Limited (MPSi)**, a material subsidiary, **Mr. Rodney Charles Beach** and MPS. It permits transfer of Beach's MPSi shareholding to **the Beach Trust** (Victoria, Australia), of which he is sole trustee, sole appointor and sole primary beneficiary; the Trust succeeds to his rights and obligations on executing a deed of adherence.
+> **Why it matters — and mostly why it doesn't.** **This is estate and succession planning by a subsidiary co-shareholder, properly disclosed and board-approved.** **No change in economic ownership or control.** Recorded because agreements governing a material subsidiary's minority shareholder are exactly the sort of item that should be visible in a profile, not because anything about it is notable.
+
+**⚪ The AJE two-step merger completed** *(First Merger effective 1-Aug-2026; Second Merger effective 3-Aug-2026, confirmed 7-Aug)*
+Internal restructuring first announced **15-May-2025**. **American Journal Experts, LLC (North Carolina) merged into American Journal Experts, LLC (Delaware)**, which then **merged into MPS North America LLC.** **MPS North America LLC is the final surviving entity** and has succeeded to all assets, rights, liabilities and obligations.
+> **Why it matters:** **AJE is one of the four subsidiaries that make consolidated revenue roughly double standalone**, and it is the asset the initiation records as *"reset by design"* — deliberately shrunk, US roles offshored to India by Q4FY26, with **NPS rising through the transition.** **Folding it into the US operating entity is the legal tidy-up that follows.** Together with the ADI BPO scheme, **two separate structural simplifications completed or advanced inside three weeks** — consistent with a management that says *"capital earns its keep within 12 months or gets returned."*
+
+**⚪ Board refresh** *(29-Jul-2026)*
+**Ms. Ruvina Singh's tenure as an Independent Director completed** *(cessation on scheduled expiry, not a resignation)*; **Mr. Karthik Bhat Khandige re-appointed**; **board committees reconstituted.** **AGM notice filed 13-Aug-2026.**
+> **Why it matters:** orderly. **An independent director's term ending on schedule with committees reconstituted in the same meeting is what routine governance looks like** — recorded so that the category is visibly tracked rather than because it signals anything.
+
+### (c) Superseded views
+
+*Nothing superseded — the thesis is nineteen days old, was built from seven concall transcripts including Q1FY27, and has been reaffirmed rather than revised.*
+
+**What has changed is the price and the structure.** CMP **₹2,721 → ₹2,898 (+6.5%)**, P/E **25.4x → 27.0x**, P/B **7.8x → 8.3x**. **The scenarios in §6 were computed at ₹4,654cr; at ₹4,948cr the base case is worth ~+26% rather than +34%, and the weighted return falls from ~+32% to roughly +25%.** *Still the best risk-adjusted position in Sector 8 on these numbers, but less so than three weeks ago.*
+
+### (d) Corrections
+
+**⤴ ADDED 21-Aug-2026 — the initiation contained no mention of the ADI BPO amalgamation, which was already in progress when it was written.**
+**The NCLT First Motion order is dated 2-July-2026 and the company disclosed it on 17-July-2026 — both before the 2-Aug initiation.** The convening notice followed on 22-July. **A promoter-holdco merger into the listed entity is a structural fact that belongs in any profile, benign or not**, and it was missed. *Root cause: the initiation was built from seven concall transcripts and Screener, without a systematic sweep of the exchange announcement feed for the preceding quarter. **The concall gate was cleared to an unusually high standard and the filings gate was not run at all.** That is the specific lesson.*
+
+**✅ CONFIRMED 21-Aug-2026 — the ValuePickr "active thread" claim is, for once, correct.**
+The initiation described **topic 959** as *"693 posts, active"* and *"one of the most active threads in the watchlist."* **Verified: 693 posts, last activity 29-July-2026.** *Recorded explicitly because the same claim has been wrong in five other profiles this conversion cycle — CARE, GPIL, ASTEC, DATAMATICS and KOLTE. **Here it holds.***
+
+---
+
 ## 6. Why the Market Is Paying This Multiple
 
-**Trading metrics (2-Aug-2026):** CMP ₹2,721 · Market cap ₹4,654cr · **P/E 25.4x** (TTM PAT ₹188cr) · **P/B 7.8x** (BV ₹349) · ROCE 39.3% · ROE 31.2% · trailing dividend yield 3.07% (**forward: nil for now**) · 52-week high ₹2,800 — **trading within 3% of its high.**
+**Trading metrics**
+
+| | Initiation (2-Aug-2026) | **21-Aug-2026** |
+|---|---|---|
+| CMP | ₹2,721 | **₹2,898** *(+6.5% in 19 days)* |
+| Market cap | ₹4,654 cr | **₹4,948 cr** |
+| **P/E (consolidated TTM)** | **25.4x** *(TTM PAT ₹188cr)* | **27.0x** |
+| **P/B** (BV ₹349) | 7.8x | **8.3x** |
+| ROCE / ROE | 39.3% / 31.2% | **38.7% / 29.7%** |
+| Trailing dividend yield | 3.07% | **2.86%** — ***forward: nil for now*** |
+| 52-week range | high ₹2,800 | **₹1,336–₹2,980** |
+
+**The stock is +6.5% since initiation and sits within 2.8% of an all-time high**, having more than doubled off the ₹1,336 low.
 
 **Why 25x?** For a business compounding profit at 19% TTM with 31% ROE, near-zero net debt and 103% cash conversion, 25x is not demanding — the Indian market routinely pays 40–60x for less. The discount exists for one reason: **the market is unsure whether AI is MPS's tailwind or its executioner.** That single question explains most of the valuation, and most of the stock's 2026 volatility.
 
@@ -286,6 +360,42 @@ As of 30-Jun-2026: **cash ₹138.02cr against borrowings of ₹37.63cr** (the fa
 
 ---
 
+## 9. 📢 Community Pulse
+
+*Refreshed 21-Aug-2026.*
+
+### ValuePickr — topic 959, "MPS Ltd - B2B learning and platform solutions"
+
+**693 posts · last activity 29-July-2026 — genuinely one of the most active threads in this watchlist**, and the only one in this conversion cycle where the "active" description held up on checking.
+
+**The thread is valuable because it argued the AI question in real time, in both directions, while the stock halved and recovered.**
+
+| Date | Author | Substance | Sentiment |
+|---|---|---|---|
+| 3-Feb-2026 | `Daljit_Singh` | **The takeover history and capital-return record** — the Arora family took control in Oct-2011 at ~₹37/share on a ~₹60cr market cap; **more than ₹220/share has since been returned in dividends** plus ~₹120cr through two buybacks | 🟢 |
+| 4-Feb-2026 | `Nitya_Shah` | *"Can give it 2 qtrs more"* — patience with a deadline, during the drawdown | 🟡 |
+| 12-Feb-2026 | `reacharjunr` | **The AI fear at its peak** — repeated questions about *"the impact of Anthropic on MPS"*, with the thread describing the stock in *"free fall"* | 🔴 |
+| 15-Mar-2026 | `reacharjunr` | **Keynote Capitals note: BUY, target ₹2,801**, and the Unbound Medicine consideration of **$16.5M with 97% retention** | 🟢 |
+| 7-Jun-2026 | `visitkumaresh` | **The legacy-data bear case** — the sharpest structural argument against MPS on the board | 🔴 |
+| 7-Jun-2026 | `Vivek_Shetty` | A balanced AI assessment against it | 🟡 |
+| 8-Jun-2026 | `Daljit_Singh` | **The counter that has aged best:** AI hallucination makes verification harder, and MPS runs **mission-critical processes** | 🟢 |
+| 25-Jul-2026 | `reacharjunr` | *"**best quarter in MPS history**"* on the Q1FY27 print | 🟢 |
+| **29-Jul-2026** | `vishaltelangre` | **Discloses MPS as a top holding at ~6.5% of family portfolios** — conviction with the position size stated, which is rarer than it should be | 🟢 |
+
+**And the thread produced the single best challenge to this thesis, on the call itself.** `Vikas Mhatre` put it to management on the Q1FY27 call: *"If you just strip off the Unbound revenue… the growth is in the **early teens**… **The only thing that is missing is the organic growth.**"* ***Arora did not dispute the arithmetic.*** **That exchange is Risk 5 in §7, and it came from a community member with a line to management — not from a filing.**
+
+### Sell-side
+
+**Keynote Capitals — BUY, target ₹2,801 (March-2026)**, surfaced via ValuePickr. **The stock is now ₹2,898, through that target.** *Thin coverage overall, consistent with 3.5% institutional ownership.*
+
+### Sentiment verdict: 🟢 ENGAGED, AND ARGUED ON BOTH SIDES
+
+> **This is the healthiest community position of any name in this conversion cycle**, and the contrast is worth stating. **DATAMATICS has 0.60% institutional ownership and two threads dormant for two years. KOLTE's thread died the week its control changed. ASTEC's went quiet in March.** **MPS has 693 posts, a live bear case on legacy data, a live bull case on verification, a member disclosing a 6.5% portfolio position, and a shareholder who took the central objection directly to management on an earnings call.**
+>
+> **That does not make the thesis right. It makes it tested** — which is precisely what §9 exists to establish, and precisely what most of this library's names lack.
+
+---
+
 ## Source Appendix
 
 - **Concalls read (7 transcripts, all downloaded from BSE via `curl` and text-extracted):**
@@ -299,7 +409,21 @@ As of 30-Jun-2026: **cash ₹138.02cr against borrowings of ₹37.63cr** (the fa
 - **Sell-side:** Keynote Capitals — BUY, target ₹2,801 (Mar-2026), via ValuePickr. Unbound Medicine consideration **$16.5M** with **97% retention**, per the same note.
 - **Peer references:** Datamatics, Aurionpro, Tata Elxsi, Cyient.
 
-**Data quality note:** Fully concall-grounded — 7 transcripts covering 6 consecutive quarters plus the acquisition call, all primary BSE documents. No inference substituted for management commentary. **One open item:** the Bastion-style forensic/accounting review that exists for some watchlist names has no equivalent here; no independent critical audit of MPS's accounting was located.
+**Exchange filings read individually** *(NSE MPSLTD / BSE 532440)* — **the gate the initiation did not run:**
+- **2-Jul-2026** — NCLT Chennai First Motion order · **17-Jul** — disclosure of the order · **22-Jul** — notice convening meetings of equity shareholders and unsecured creditors · **5-Aug** — **Addenda to both notices**, following BSE observations of 31-Jul requiring an Abridged Prospectus for the Transferor and CA-certified pre/post financial tables · **meetings 22-Aug-2026**
+- **1-Aug-2026** — AJE First Merger effective (AJE-NC into AJE-DE) · **7-Aug** — **Second Merger effective 3-Aug** (AJE-DE into MPS North America LLC), MPS NA the surviving entity
+- **8-Aug-2026** — **Amendment to the Share Subscription and Shareholders' Agreement** permitting transfer of Mr. Rodney Charles Beach's MPSi shareholding to the Beach Trust
+- **29-Jul-2026** — board outcome; **cessation of Ms. Ruvina Singh on completion of tenure**; **re-appointment of Mr. Karthik Bhat Khandige**; committees reconstituted
+- **13-Aug-2026** — AGM notice and weblink letter · **7-Aug and 14-Aug** — newspaper publications
+
+### ⚠️ Data-quality notes
+
+1. **✅ Concall gate: cleared to an unusually high standard.** **Seven transcripts covering six consecutive quarters plus the Unbound acquisition call**, all primary BSE documents. **No inference substituted for management commentary anywhere in Sections 1–8.**
+2. **🔴 But the FILINGS gate was not run at initiation, and it cost a structural fact.** The **ADI BPO amalgamation** — NCLT order 2-Jul, disclosed 17-Jul, notice 22-Jul — **was all in the exchange feed before the 2-Aug initiation and none of it appears in the original profile.** *Corrected in §5.5(d). **The lesson is that a strong concall gate does not substitute for an announcement sweep.***
+3. **🔴 CONSOLIDATED ONLY.** Screener's default page for this ticker serves **standalone**, which understates the business by roughly half. Every figure here is consolidated.
+4. **The share-count arithmetic in §5.5(b) is mine**, derived from market cap ÷ CMP and the 68.34% promoter figure. **It reconciles to the stated swap block within 0.013% of enlarged capital, but it is a derivation, not a company-provided reconciliation.** *The swap ratio itself, the fairness opinion and the CA-certified pre/post tables sit in Annexures I–II and XIVA–XIVB of the scheme notice, which I have not read in full.*
+5. **The dividend yield on screens is illusory.** Trailing 2.86% against a **forward payout that is currently suspended** (FY26 payout 0% against FY24's 108%). Resumption is contingent on the M&A cycle closing, with **no stated date.**
+6. **One open item, unchanged:** the Bastion-style forensic/accounting review that exists for some watchlist names has no equivalent here; **no independent critical audit of MPS's accounting was located.**
 
 ---
 
