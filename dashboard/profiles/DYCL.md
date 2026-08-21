@@ -1,9 +1,13 @@
-# Dynamic Cables Limited (DYCL)
+# Dynamic Cables Limited (DYCL) — Company Profile
 
-**Sector 14 — Power T&D Components** · BSE 540795 · NSE DYCL · Jaipur, Rajasthan
-**Profile v1 · 18-Aug-2026** · Conviction: **Medium**
-**CMP ₹465 · Mcap ₹2,254cr · P/E 24.7x · ROCE 26.2% · ROE 19.9% · Book ₹94.4 · Div yield 0.11%**
-*(Screener, 18-Aug-2026)*
+**Ticker:** DYCL · NSE: DYCL · BSE: 540795
+**Sector:** 14 — Power T&D Components · **Conviction:** **Medium**
+**Thesis current as of:** 18-Aug-2026 · **Tracking since:** 18-Aug-2026
+
+**CMP ₹465** · **Market cap ₹2,254 cr** · **P/E 24.7x** · **P/B 4.93x** (book ₹94.4) · **ROCE 26.2%** · **ROE 19.9%** · **Div yield 0.11%** · Jaipur, Rajasthan
+*(Screener standalone — see the basis note below — 18-Aug-2026)*
+
+> **How to read this profile.** Sections 1–9 describe what I believe **today**, rewritten at each review rather than annotated. **Section 5.5 is the memory** — how the thesis got here, what changed and when, what I got wrong. **Section 9 is the community read.** **This is the first review, so §5.5 records the baseline rather than a history.**
 
 ---
 
@@ -88,7 +92,7 @@ Very few sub-₹2,500cr companies voluntarily shrink ~12% of their revenue base 
 
 ---
 
-## 3.5 Management Track Record & Promoter Background *(mandatory section)*
+## 3.5. Management Track Record & Promoter Background
 
 ### The team
 
@@ -314,6 +318,60 @@ The threads reinforce each other **only if the plant lands.**
 
 ---
 
+## 5.5. 📈 Company Trajectory Since Tracking
+
+> **This is the first review.** The trajectory record begins here. What follows is **the dated baseline the initiation rests on** — the facts against which every future review will be measured — rather than a history of changes. **Nothing is superseded yet and no corrections are outstanding.**
+
+### (a) Conviction history
+
+| Date | Conviction | CMP | Weighted 2yr | What set it |
+|---|---|---|---|---|
+| **18-Aug-2026** | **Medium** | **₹465** | **~+30%** *(base +26% / bull +103% / bear −48%)* | **Initiated.** Elite capital efficiency (26% ROCE, 20% ROE, near-debt-free) and the cheapest listed cable multiple at 24.7x — **against volume growth of 5-6%, a flat order book, and a greenfield plant 15-18 months late** |
+
+### (b) The dated baseline
+
+**Jul-2026 · `RESULT` — Q1FY27: revenue +33%, volume +5-6%.**
+Revenue ₹349cr, operating profit ₹38cr at a 10.9% margin, PAT ₹25cr (+37%). **But management stated volume growth was *"5% to 6%… balance is large part of it is kind of derived by the price growth of aluminium."***
+**Why it matters — this is the single most important fact in the file.** DYCL passes metal cost through **1:1 in real time**, so **roughly 27 of those 33 points are aluminium and would reverse with it.** *Anyone valuing DYCL off headline revenue growth is valuing aluminium.* The volume series across four reported periods: **9MFY26 +17% → Q3FY26 alone +2-3% → Q4FY26 +8% core → Q1FY27 +5-6%.**
+
+**Jun-2026 · `CAPACITY` — the order book is flat and it is a supply constraint, not a demand one.**
+**₹721cr (Sep-25) → ₹811cr (Jun-26)** — up 12.5% over four quarters while TTM revenue grew ~19%, thinning coverage from ~1.0x to **~0.63x**. Management gave two explanations in tension: order deferral at elevated aluminium prices, **and** *"The order book is also a function of our **capacity to deliver**… our machine time is limited."*
+**Why it matters:** with existing plants at **85% utilisation** and the new plant 15+ months late, **the constraint is capacity, not demand** — supported by management's own claim that *"the impact on dispatches or customer off-take is not impacted."* *My inference, not their stated position.* **It makes the September commissioning far more consequential than it looks.**
+
+**Q1FY27 · `EXECUTION` — the greenfield plant has now been guided eight consecutive times and commissioned zero.**
+Oct-2024 said Q1FY26; the current guidance is **September 2026** — a slip of roughly **15-18 months**, conceded by management: *"there has been a delay in the capex, so there is no two doubts about it."* Causes are partly genuine and external — approvals, **Iran-war freight disruption** on imported machinery, and **AERB clearance for the E-beam facility, now received.**
+**Why it matters:** the plant carries **E-beam cross-linking and DC solar cable capability** — and DC roughly doubles DYCL's wallet share per solar project, in a segment already ~20% of revenue growing 25-30%. **It is the highest-confidence growth lever in the file, and it is the thing that has been late.** *Note the pattern, not just the delay: management called it "on schedule" in Oct-2025 when it was already ~12 months late.*
+
+**Q1FY27 · `MARKET` — first US shipments dispatched**, ~18 months later than first guided, after tariff delays. **US = 15% of exports; exports 7% of FY26 revenue, 13% in Q1FY27.**
+
+**FY26 · `MIX` — the deliberate exits landed.** Railway signalling **4% of FY25 revenue → zero**; low-voltage conductors **8-9% → sub-5%**. **~12% of the revenue base given up to protect margin** — and margin duly went 10.3% → 10.8% → 10.9%. HV mix **60% → 64% → 68%**.
+
+**FY26 · `BALANCE SHEET` — borrowings ₹119cr (FY24) → ₹43cr; interest ₹21cr → ₹11cr**; **CRISIL A/Stable + A1**. **🟡 But working capital days rose 56 → 74 → 82**, CFO/OP is **69%**, and FY26 free cash flow was **₹4cr.**
+
+---
+
+**Also on record**
+
+| Date | Tag | Item |
+|---|---|---|
+| Jun-2026 | `OWNERSHIP` | **Promoter 68.18%, flat for nine consecutive quarters, zero selling.** The one dilution (Jun-2024, 74.47% → 68.17%) was a **₹96.58cr preferential allotment** that recapitalised the balance sheet. **Institutional ownership 1.65%** (FII 0.67%, DII 0.98%); shareholders 35,363 → 51,019 |
+| 16-Jun-2026 | `MANAGEMENT` | Rasik Mangal appointed General Manager — **a fifth Mangal family member in a senior role** |
+| Jul-2025 | `CAPITAL` | 1:1 bonus issue, record date 11-Jul-2025 |
+
+### (c) Superseded views
+
+**None.** This is the first review.
+
+### (d) Corrections
+
+**None outstanding.** Two methodological choices are recorded rather than corrections:
+
+**🟡 All ratios are standalone, stated not assumed.** DYCL's Screener *consolidated* page serves blank ratios, so the plain-URL fallback was used. **DYCL has no material subsidiaries so standalone ≈ consolidated — but the basis is declared** (§0A, the MPS lesson).
+
+**🔴 One open item is carried forward as the highest-priority question, unresolved rather than answered.** The **₹344.75cr of related-party corporate guarantees** raised on ValuePickr (post #42, 5-Aug-2026) against **₹457cr of net worth**. The FY25 AR's auditor's report discloses a **₹5cr** guarantee to **Mangal Electrical Industries** — whose MD is DYCL's own Chairman, Rahul Mangal — while the RPT note reportedly shows ~₹344.75cr against **Shiv Kripa Pipes** and **Indokrates**. Management's Q4FY26 answer described an Indo Krates guarantee flowing **to DYCL's bank** as collateral, now withdrawn — **which may be the same transaction from the other end, or something different.** **The ₹344.75cr figure is second-hand from a forum reader and has not been verified against the AR itself. This is not an allegation; it is an open item, and it must be reconciled before conviction rises.**
+
+---
+
 ## 6. Why the Market Is Paying This Multiple
 
 ### Trading metrics (18-Aug-2026)
@@ -401,6 +459,23 @@ But the scoreboard right now is moving faster than he is batting. **Revenue up 3
 **Conviction: MEDIUM.**
 **Upgrade to Medium-High when:** (a) the plant is commissioned and ramping, **and** (b) volume growth returns to double digits for two consecutive quarters, **and** (c) the FY26 Annual Report resolves the ₹344.75cr related-party guarantee question.
 **Downgrade to Medium-Low if:** the plant slips beyond December 2026, or the order book falls below ₹750cr, or FY27 volume growth stays mid-single-digit.
+
+---
+
+## 9. 📢 Community Pulse
+
+*Refreshed each review cycle. **Partial scan at initiation, 18-Aug-2026.***
+
+**ValuePickr — the one substantive third-party contribution, and it is the most important open item in this profile.**
+
+- **@Omkar_Ranjan · post #42 · 5-Aug-2026** 🔴 — *"The FY25 Annual Report specifically mentions the ₹5 crore corporate guarantee provided to Mangal Electrical Industries in the Auditor's Report. However, the Related Party Transactions note also discloses corporate guarantees of approximately **₹344.75 crore**, which appear against **Shiv Kripa Pipes** in earlier years and **Indokrates Pvt. Ltd.** in subsequent years."*
+  **Unanswered by anyone on the thread as of 18-Aug-2026**, and not addressed by management on any of the eight calls. **See §5.5(d).** *This is a case where the community found something the filings-and-transcripts route did not surface — worth noting, because it is the argument for doing these scans rather than treating them as optional.*
+
+**🔴 The scan is incomplete.** No Substack search and **no X panel run** has been done for this name. **DYCL has 1.65% institutional ownership and no analyst coverage**, which cuts both ways for a community scan: there is no professional research to draw on, so retail forums are a larger share of the available information — **and §4C rule 4 applies with force, since an uncovered smallcap is exactly where unattributed price targets circulate.**
+
+**Sentiment verdict: INSUFFICIENT DATA.** One substantive post is not a pulse.
+
+**Due at the next review:** full ValuePickr thread read, Substack scan, X panel run per §4C — **with the standing caveat that the panel is curated and absence there is not evidence of absence** — and, above all, **the FY26 Annual Report's related-party note and auditor's report read in full.**
 
 ---
 
