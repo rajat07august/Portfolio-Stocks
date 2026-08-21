@@ -1,9 +1,13 @@
-# NRB Bearings Limited (NRBBEARING)
+# NRB Bearings Limited (NRBBEARING) — Company Profile
 
-**Sector 3 — Auto Components & Forgings** · BSE 530367 · NSE NRBBEARING · Mumbai
-**Profile v1 · 18-Aug-2026** · Conviction: **Medium (Under Watch)**
-**CMP ₹484 · Mcap ₹4,695cr · P/E 31.4x · ROCE 18.4% · ROE 15.6% · Book ₹99.3 · Div yield 1.64% · FV ₹2**
+**Ticker:** NRBBEARING · NSE: NRBBEARING · BSE: 530367
+**Sector:** 3 — Auto Components & Forgings · **Conviction:** **Medium (Under Watch)**
+**Thesis current as of:** 18-Aug-2026 · **Tracking since:** 18-Aug-2026
+
+**CMP ₹484** · **Market cap ₹4,695 cr** · **P/E 31.4x** · **P/B 4.87x** (book ₹99.3) · **ROCE 18.4%** · **ROE 15.6%** · **Div yield 1.64%** · Face value ₹2 · Mumbai
 *(Screener consolidated, 18-Aug-2026)*
+
+> **How to read this profile.** Sections 1–9 describe what I believe **today**, rewritten at each review rather than annotated. **Section 5.5 is the memory** — how the thesis got here, what changed and when, what I got wrong. **Section 9 is the community read.** **This is the first review, so §5.5 records the baseline rather than a history.**
 
 ---
 
@@ -103,7 +107,7 @@ Early wins are real and hard to fake: a **Sukhoi-30 plain spherical bearing** or
 
 ---
 
-## 3.5 Management Track Record & Promoter Background *(mandatory section)*
+## 3.5. Management Track Record & Promoter Background
 
 ### The team
 
@@ -335,6 +339,67 @@ Three things held it down:
 
 ---
 
+## 5.5. 📈 Company Trajectory Since Tracking
+
+> **This is the first review.** The trajectory record begins here. What follows is **the dated baseline the initiation rests on** — the facts against which every future review will be measured — rather than a history of changes. **Nothing is superseded yet.** One methodological correction is recorded in (d).
+
+### (a) Conviction history
+
+| Date | Conviction | CMP | Weighted 2yr | What set it |
+|---|---|---|---|---|
+| **18-Aug-2026** | **Medium (Under Watch)** | **₹484** | **~+20%** *(bear −53%)* | **Initiated.** A genuine EV-agnostic franchise with >90% of Indian vehicles on its bearings and a lifetime nominated book compounding ₹600 → ₹1,100cr in nine months — **against a 6.47pp fall in promoter holding that nobody has explained, a pledge that ran to 78% of the promoter stake, and a screen showing +77% PAT growth that is really ~+15%** |
+
+**🎯 The Under Watch trigger, specified:** **if the 6.47pp promoter decline proves to be an inadequately disclosed sale, downgrade M → ML regardless of operating performance.** Resolution expected at the **FY26 Annual Report** or the **Q2FY27 call (~Nov-2026)**.
+
+### (b) The dated baseline
+
+**Jun-2026 quarter · `GOVERNANCE` — promoter holding fell 51.20% → 44.73%, and the cause is unresolved.**
+A **6.47 percentage-point decline** in a single quarter, with **FII up 4.23pp and DII up 3.79pp**. **Cross-checked against two independent sources per §0A rule 1**: Screener reports 44.73%; **NSE's own filed shareholding-pattern master** reports public shareholding of **55.27%** at 30-Jun-2026 against **48.80% for each of the preceding eight quarters**. **The two agree exactly.**
+**What could not be found, having looked:** **no Reg 29(2) disclosure of a promoter sale** — the only one filed in the quarter (25-Jun-2026) is a **pledge release** explicitly recording *"Shares sold — nil"*; **no reclassification announcement**; and **no mention on the Q1FY27 call held 10-Aug-2026**, six weeks after quarter-end and three weeks after the pattern was filed. **Not one analyst asked.**
+**Why it matters:** it directly contradicts the MD's Q2FY26 framing — *"**Just me and my immediate family have over 50%**… we together own 51.2% of NRB."* **A verified fact with an unresolved cause, reported as exactly that. This is the single most important thing to resolve on this stock.**
+
+**Jun-2026 · `GOVERNANCE` — the pledge was extraordinary, and is only now unwinding.**
+Reg 31(4) (17-Jun-2026): at **31-Mar-2026, 3,85,76,384 shares — 39.80% of total share capital — were pledged.** **Against a 51.20% promoter holding, that is roughly 78% of the entire promoter stake.** Releases followed: **3.90% on 23-Jun and 0.81% on 25-Jun — 4.71% in total.**
+**Why it matters:** the deleveraging is real and genuinely positive. **But the level went almost entirely undiscussed across four earnings calls, and a large pledge release coinciding with a 6.47pp holding decline inside the same fortnight is a question that deserves an answer.**
+
+**Feb-2025 · `STRUCTURE` — the family settlement that reshaped the company, and the ₹55cr that still distorts the screen.**
+The **Devesh Sahney branch exited** to separately-listed **NIBL**; **cross-holdings are zero in both directions**; the **NRB brand** stayed with NRB Bearings, with NIBL licensed to use its red logo only while that branch controls it. **NRB paid ₹55cr, in Q4FY25.**
+**Why it matters:** that single payment is why the screen shows **FY26 PAT +77%.** Normalised, **PBT went ₹168cr → ₹193cr, about +15%.** **The distortion persists until FY27 laps it.**
+
+**FY26 · `OPERATIONS` — the first clean year in five.**
+After a **Waluj plant fire** that destroyed lines *and* the two-wheeler WIP stores — costing NRB the two-wheeler upcycle — and then the settlement, FY26 delivered: **margin 18.3% → 19.5%** (company basis), **inventory days 364 → 302** with absolute inventory **down >₹20cr on rising sales**, **CFO ₹241cr = 126% of operating profit**, **FCF ₹136cr**, and **CRISIL AA−/Stable + A1+**.
+
+**Q1FY27 · `GROWTH` — the lifetime nominated book is compounding fast: ₹600cr → ₹800cr → ₹1,100cr in nine months**, across three consecutive calls. Industrial mix **11% → 14%**, growing 34%. **FY31 revenue target raised from ₹2,500cr to ₹2,730cr with a ₹3,000cr aspiration.**
+
+**17-Jul-2026 · `M&A` — the Mahant Tool Room acquisition completed**, giving **AS9100D aerospace certification** — the "buy access, not capacity" logic delivered, about two months later than the *"mid-April to May"* guidance.
+
+**7-Aug-2026 · `CAPITAL` — board approved a ₹50cr corporate guarantee to HSBC** for the **NRB Unitec Friction Solutions JV** (₹110cr investment, industrial cylindrical roller bearings). **Commissioning guided April 2027; location moved Hyderabad → Aurangabad.**
+
+---
+
+**Also on record**
+
+| Date | Tag | Item |
+|---|---|---|
+| 13-Aug-2026 | `DISCLOSURE` | **Two versions of the Q1FY27 transcript** — filed 13:04, revised 18:19 the same day citing *"a typographical error."* **All quotes here are from the revised file.** See §3.5 for what the correction actually changed |
+| 11-Aug-2026 | `DISCLOSURE` | **The MTR order book was quoted three ways in ~5 weeks** — ₹50cr (Q4FY26 call), ₹70cr (media), ₹25cr (Q1FY27 call). Management's reconciliation is coherent; **a ValuePickr member independently flagged the same wobble** |
+| 29-May-2026 | `ADMIN` | **NSE's 19-May query was an XBRL tagging error** — *"Audited"* selected instead of *"Unaudited"*, revised XML uploaded. **Administrative, not an earnings-quality issue.** *Stated so it is not misread* |
+
+### (c) Superseded views
+
+**None.** This is the first review.
+
+### (d) Corrections
+
+**⤴ 18-Aug-2026 — a methodological choice, recorded because it changes the headline by a factor of five.**
+**Reported FY26 PAT growth is +77%. The underlying figure is about +15%**, once FY25's ₹55cr settlement payment is normalised out. **I use PBT deliberately** — it avoids guessing whether the settlement was tax-deductible, which could not be established from the transcripts. *(Q4FY25 shows a 284% effective tax rate on ₹1cr of PBT, suggesting it largely was **not** deductible — but I am not building a number on that inference.)* **This is my calculation, not a management-stated figure, and the screen will keep showing +77% until FY27 laps it.**
+
+**🟡 Two margin bases coexist and must not be mixed.** Management state FY26 EBITDA of **₹267cr / 19.5%**; Screener computes operating profit of **₹232cr / 17.4%**. **The ~₹35cr gap is other income**, which NRB includes and Screener does not. **Their 18-20% guidance is on the inclusive basis** — measured the Screener way, NRB runs **16-18%**.
+
+**🟡 The concall gate is AMBER by source limit, not fetch failure.** **Only four distinct transcripts exist** — NRB appears to have begun publishing them at **Q2FY26 (Nov-2025)**, verified across Screener, BSE and NSE feeds. **The §3.5 delivery scorecard therefore has only ~9 months of guidance history to test, and its verdict is explicitly provisional.**
+
+---
+
 ## 6. Why the Market Is Paying This Multiple
 
 ### Trading metrics (18-Aug-2026)
@@ -425,6 +490,23 @@ But two things stop this being a buy at ₹484: **the headline +77% profit growt
 **Conviction: MEDIUM (Under Watch).**
 **The Under Watch trigger is specific:** *the Jun-2026 promoter holding decline must be explained — by the company, a filing, or the FY26 Annual Report — by the Q2FY27 call. If it proves to be a promoter sale that was not properly disclosed, downgrade to Medium-Low regardless of operating performance.*
 **Upgrade to Medium-High if:** the holding question resolves benignly **and** the pledge falls below 20% of share capital **and** industrial crosses 18% of revenue with margin held at 19%+.
+
+---
+
+## 9. 📢 Community Pulse
+
+*Refreshed each review cycle. **Partial scan at initiation, 18-Aug-2026.***
+
+**ValuePickr — one substantive contribution, and it independently corroborates a disclosure concern found in the filings.**
+
+- **Post #53 · 11-Aug-2026** 🟡 — *"Everything was great in the concall except MTR order book disclosure… Was surprised with this response but it is what it is."*
+  **This matters more than its length suggests.** The MTR order book was quoted **₹50cr on the Q4FY26 call, ₹70cr in a media interview, and ₹25cr on the Q1FY27 call** — inside about five weeks. Management reconciled it coherently (₹30cr in MTR aerospace defence plus ₹20cr in NRB's own non-aerospace defence). **But two independent observers — this reader and this review — caught the same wobble from opposite directions.** *That convergence is the value of the scan.*
+
+**🔴 The scan is incomplete, and one absence is conspicuous.** No Substack search and **no X panel run**. More importantly: **I found no community discussion at all of the 6.47pp promoter-holding decline** — the single most important open question on this stock. **That is a stated gap in my scanning, not evidence that nobody has noticed.** The shareholding pattern was filed 15-Jul-2026 and the finding is derivable from public data by anyone who looks.
+
+**Sentiment verdict: INSUFFICIENT DATA.** One post is not a pulse.
+
+**Due at the next review:** full ValuePickr thread read, Substack scan, X panel run per §4C — **with the standing caveat that the panel is curated and absence there is not evidence of absence** — and specifically **a search for any third-party discussion of the promoter-holding decline**, which would be the fastest route to an explanation short of management giving one.
 
 ---
 
