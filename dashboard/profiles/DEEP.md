@@ -7,6 +7,8 @@
 
 > **⚠️ THE P/E ON THIS NAME DEPENDS ENTIRELY ON WHICH BASE YOU USE, AND THE TWO ARE NEARLY TWICE APART.** **Reported TTM PAT is ₹224cr → 19.6x.** **Adjusted for the ₹183cr Q4FY26 Kandla write-off, TTM PAT is ~₹407cr → ~10.8x**, which is what Screener's headline **10.6x** reflects. **Both are stated throughout; they are never blended.** *§5.5(d) records that an earlier version of this profile did blend them.*
 
+> **📌 RAJAT HOLDS THIS.** Disclosed 22-Aug-2026. **DEEP is therefore on the §4A "transcribe immediately" tier** alongside DCMSHRIRAM, MAYUR, DATAMATICS and EPL — audio gets processed without asking. **§10 (added the same day) works through the Bastion Research accounting critique and, more usefully, through what management has and has not been asked about it across six calls.**
+
 > **✅ Concall gate: CLEARED and current.** The Q1FY27 call was held **29-Jul-2026** (InCred Equities-hosted; **Paras Savla, CMD** and **Rohan Shah, CFO**), transcript filed 3-Aug and in the repo — 26pp. **Reading it changed three conclusions** and is the source of the explicit FY27/FY28 PAT guidance below.
 
 ---
@@ -407,7 +409,7 @@ Called *"the single most important number on DEEP"* on 28-Jul; **it is a composi
 
 **Risk 7 — 🟡 Rigs at 100% utilisation.** Incremental onshore orders require newbuild, and Deep is evaluating 2,000/3,000 HP rigs. **Capital intensity constrains the organic upside** even in a strong market.
 
-**Risk 8 — 🟡 The forensic accounting critique is live and serious.** **Bastion Research published a piece asking whether the market is *"right or simply confused by accounting noise"***, leaving open threads on **governance, Prabha Energy related-party transactions, PEC execution and accounting clean-up** — and flagging **FY27 as the first results free of exceptional noise.** ⚠️ *I have not read the full article; this is from its public summary and thread discussion. **Read it directly before relying on it.***
+**Risk 8 — 🔴 The forensic accounting critique is live, serious, and now read in full.** **Bastion Research (20-June-2026) raises six specific concerns with standards cited** — most materially **₹384.88cr of goodwill still on the balance sheet (≈19% of net worth) from a 2020 same-promoter reorganisation**, plus the Kandla inventory recognition, ₹405–406cr of unprovided receivables, a ~₹96cr tax exposure, dividends from capital, and an auditor-independence question. **⭐ FOUR of the six have never been raised on any concall in six quarters — including the call held five weeks after publication.** ***See the full treatment and management's actual answers in §10.***
 
 **Risk 9 — 🟡 The related-party loan is being repaid but is not yet repaid.** ₹86cr of it back, with full clearance guided *"by end of second quarter."* **Verify, do not assume.**
 
@@ -445,7 +447,7 @@ Called *"the single most important number on DEEP"* on 28-Jul; **it is a composi
 
 **🔴 The most important content is a forensic accounting critique**, and it deserves to be taken seriously rather than dismissed. **@kautuk produced what @Shishir_rai calls a *"masterclass forensic report"***, which **Bastion Research** then wrote up as a Substack piece — *[Deep Industries Ltd. Deep Value, or Value Trap?](https://bastionresearch.substack.com/p/deep-industries-ltd-deep-value-or)*, shared to the thread on 21-Jun-2026 as *"Accounting Questions Behind The Value."* Per its own summary it asks whether the market is *"right or simply confused by accounting noise and sector-level indifference"*, leaving open threads on **governance, related-party transactions with Prabha Energy, PEC execution and accounting clean-up** — and flagging **FY27 as the first results free of exceptional noise.**
 
-> ⚠️ **I have not read the full article.** This characterisation is from its public summary and the thread discussion. ***Read it directly before relying on it.***
+> **✅ UPDATE 22-Aug-2026 — the article has now been read in full at Rajat's request, and §10 is devoted to it.** **It is more specific and more technical than this summary suggests: six numbered concerns, each with an accounting standard cited.** **The finding that matters is not in the article at all — it is that four of the six have never been put to management on any call.**
 
 | Date | Author | Substance | Sentiment |
 |---|---|---|---|
@@ -471,6 +473,161 @@ Called *"the single most important number on DEEP"* on 28-Jul; **it is a composi
 
 ---
 
+## 10. 🔬 The Accounting Critique — and what management has actually been asked
+
+*Added 22-Aug-2026, at Rajat's request, on an active position. **Sources: the Bastion Research piece of 20-June-2026, read in full, plus a term-by-term sweep of all six concall transcripts from May-2025 to July-2026.***
+
+> **The purpose of this section is narrow and specific: not to adjudicate the accounting, but to establish what management has been asked, what they said, and what has never been put to them at all.** *That last category turns out to be the largest.*
+
+### 10.1 What the critique actually says
+
+**Source:** *"Deep Industries Ltd. — Accounting Questions Behind The Value"*, **Bastion Research / Parth Agrawal, 20-June-2026**, built on forensic work by **Kautuk Yemdey**, a CA Final student, first posted to ValuePickr.
+
+**Six numbered concerns, each with a standard cited:**
+
+| # | Concern | Figure | Standard invoked |
+|---|---|---|---|
+| **1** | **Goodwill created in an internal reorganisation.** ₹641.47cr of goodwill recognised in the **2020 demerger**, where the same promoter group controlled the entities before and after | **₹384.88cr still on the books = 14.8% of the balance sheet.** Equity allegedly overstated **37.5%** at scheme date, **19.3%** by Mar-2026 | **IndAS 103 Appendix C** — prohibits goodwill creation in same-promoter reorganisations |
+| **2** | **Dividends paid when free reserves (ex-goodwill, ex-securities premium) were negative** | **₹37.8cr** declared Nov-2021 to Jul-2024 | **Companies Act s.123** — distribution from capital rather than profits |
+| **3** | **Tax deduction claimed on goodwill amortisation**, FY18–FY20 | **₹371cr** claimed; estimated **~₹96cr** exposure at 26%, *"before interest and penalties"* | *Caveat the author gives: pre-2021 law was ambiguous; Finance Act 2021 closed it* |
+| **4** | **Kandla inventory recognised at full book value, then written off in the same year.** Acquired for **₹2cr**; **₹256cr** of inventory recognised, then entirely written off as unusable | **Capital reserve allegedly overstated by ₹256cr** | **IndAS 103/113** — fair value must reflect condition *at acquisition date* |
+| **5** | **₹405–406cr of unverified trade receivables** (Dolphin + Kandla) carried at face value — *"unconfirmed, undocumented, zero provision"* | **~45% of current assets; ~22% of shareholders' funds** | **IndAS 109** — expected credit loss provisioning |
+| **6** | **Auditor independence.** Management controlled the external-confirmation process; a **clean opinion with only an Emphasis of Matter** was issued where the author argues a **qualified opinion** was required | — | **SA 505** — External Confirmations |
+
+**Aggregate claim:** consolidated equity possibly overstated by **~₹459cr** (₹385cr goodwill + ₹75cr deferred tax) against reported equity of ~₹1,820cr — *"before accounting for any receivables impairment."*
+
+**The author's conclusion is a pass, not an accusation:** *"a combination of careless accounting choices and tax optimization, without adequate thought given to what it would do to the reliability of the numbers"* — and *"we would rather put our attention toward companies where the numbers and the story point in the same direction."*
+
+> ⚠️ **This is a serious, technically specific piece of work and it deserves to be engaged rather than dismissed.** *It is also one analyst's reading of accounting treatments that the company's auditors signed off on. Nothing here has been adjudicated by any regulator, and no regulatory action against Deep Industries on any of these points is on the record as of 22-Aug-2026.*
+
+### 10.2 🔴 THE HEADLINE FINDING: four of the six have never been raised on a call. Not once.
+
+**I swept all six transcripts — May-2025, Aug-2025, Nov-2025, Feb-2026, May-2026 and the official Q1FY27 (July-2026) — for every relevant term.**
+
+| Term | Mentions across six concalls |
+|---|---|
+| **"goodwill"** | **0** |
+| **"emphasis of matter"** | **0** |
+| **"capital reserve"** | **0** |
+| **"Section 123" / "free reserves"** | **0** |
+| **"auditor"** | **2 — both in a single exchange in May-2025** |
+| *"qualified"* | 4 — **all about tender qualification, none about audit qualification** |
+
+> **So concerns #1, #2, #3 and #6 — the goodwill, the dividends, the tax deduction and the auditor independence question — have never been put to management by anybody, on any call, in six quarters.** **That includes the Q1FY27 call of 29-July-2026, held five and a half weeks after the Bastion piece published.** **The article is not mentioned. The goodwill is not mentioned. Nobody asked.**
+>
+> ***This is the single most important thing in this section, and it cuts in an uncomfortable direction: management has not evaded these questions. They have never been asked them.*** *An absence of answers is not evidence of anything except an absence of questions — and it means there is no management position on record to evaluate.*
+
+### 10.3 What HAS been asked — the write-offs — and the full audit trail
+
+**Concerns #4 and #5 (Kandla inventory, unverified receivables) have been raised repeatedly.** Here is every exchange, in order.
+
+---
+
+**① May-2025 — the first and only time the auditors came up.** *Viral Shah:* *"auditors have given opinion… Could you elaborate more into this matter? What is it related to by auditors have given some opinion on to this on the receivables front."*
+
+**Rohan Shah (CFO):** *"Since this acquisition happened in only last day of the financial year, so we are in process of evaluating that receivables in full… without evaluating and finalizing on its recoverability, we should not take any action."*
+
+And then, asked twice whether provisioning was complete:
+> *"So as of now, whatever provisioning we have done… **whatever is required, we have already provided.**"*
+> *"So as on date, **whatever was required, we have done entire provision.**"*
+> *"So I think for both of these companies, whatever was required, we have provided. So **surprises, I'm not sure for any of them would be there.**"*
+
+**⚠️ And in the same exchange, the framing that matters:** *"our **acquisition cost for taking Kandla is very miniscule against what we are getting as receivables**… So we would definitely try to take maximum benefit out of it."*
+
+---
+
+**② August-2025 — the assurance becomes specific, and dated.** *Nirvana Laha:* *"what is your expectation for write-offs in FY'26, FY'27?… **Last quarter the numbers sort of came out of the blue.**"*
+
+**Rohan Shah:** *"The assets out of these targets are primarily receivables. **There are old receivables for which we have not paid while acquiring this company.** So these old receivables, **which we believe are a bonus for us** with tagging along these acquisitions…"*
+
+> ***"Speaking today, we are not anticipating any kind of write-off in FY '26. Anything to say on FY '27 would be too early."***
+
+He also sized them: *"I think they are **more than INR350 crore types**"* — **corroborating the critique's ₹405–406cr figure from management's own mouth.**
+
+---
+
+**③ February-2026 — a retail investor arrives at the critique's core point five months before Bastion published it.** *Karn Bhargava:* *"in the Kandla annual report balance sheet, you still have about **INR208-odd crores of doubtful receivables**. So can we expect another write-off coming from this?"*
+
+**Rohan Shah:** *"we may go for some provisioning, but **we are not expecting any such provisioning in this financial year.**"*
+
+**Bhargava then asked the question the whole critique turns on:**
+> *"you have acquired it for INR2 crores, and you've already done a write-off of about INR250 crores and potentially another INR200 crores by write-off is expected. **So what was the reasoning behind acquiring a company which is potentially causing you to write-off close to INR450-odd crores, which is more than 2 years of your earnings?**"*
+
+**Paras Savla's answer is the whole defence in one line:** *"we'd like to reiterate that **we have not paid any amount towards this outstanding.** So this was a part and parcel of the company that we got in."* **Rohan Shah added the strategic rationale:** the interest was *"largely the **hydrocarbon fluids**, which they use to manufacture in their good times… we can achieve some amount of **backward integration**… Also, it was available at a very reasonable price **along with some real estate properties**."*
+
+---
+
+**④ May-2026 — the write-off that broke the assurance.** ***Six to eight weeks after saying "we are not expecting any such provisioning in this financial year," the same financial year closed with a ₹208cr charge*** *(₹183cr net in other income)*.
+
+Management's framing in the opening remarks, three times over: *"to ensure a **transparent and high-quality balance sheet** as part of our **balance sheet strengthening exercise**… This **nonrecurring and noncash** adjustment reflects our commitment to financial discipline. **This has not impacted our core cash profitability.**"* And: *"the said write-off **has not impacted our cash flows.**"*
+
+**On what remains:** *"we have written off **all** old trade receivables of Kandla Energy… With regards to other legacy trade receivables of **Dolphin, we have kept them outstanding in our books** considering the **arbitration awards received in our favor**. So out of total **INR160 crores** of Dolphin Group trade receivables, we have a good amount of arbitration award in our favor."*
+
+---
+
+**⑤ July-2026 — the fourth assurance, from the same person.** *Raman KV:* *"Can we expect any further write-off during the year? Or are we completely done with it?"*
+
+**Rohan Shah:** *"With regards to Kandla, we are **completely done with the legacy issues.** And so **no more further write-off in the current year.**"*
+
+**And the one related-party item that *has* progressed** — *Yash:* *"with regard to the related party transaction, the loan to the group entity, so any progress on that?"* **Rohan Shah:** *"from the loan given to **Prabha Energy**, we have received back almost **INR86 crores**… probably by end of second quarter, we are expecting to clear the entire loan repaid."*
+
+### 10.4 The pattern in the answers
+
+**Four observations, each of which I think is fair to both sides.**
+
+**1. The defence is always cash, and it is a real defence — but it answers a different question.** *"We have not paid any amount towards this outstanding."* *"Noncash."* *"Has not impacted our cash flows."* **All true.** Deep paid ₹2cr and got a company whose balance sheet carried hundreds of crores of assets. **Writing those assets off costs shareholders no cash.**
+
+> **But the critique is not about cash. It is about whether those assets should ever have been recognised at book value.** IndAS 103/113 require fair value **at the acquisition date** — and if inventory acquired for ₹2cr was written off as unusable within twelve months, the argument is that it was not worth ₹256cr on day one, and recognising it at ₹256cr inflated capital reserve by that amount. **The write-off is then not a prudent clean-up; it is the reversal of a recognition that should not have happened.**
+>
+> ***Both statements can be true at once. Management has only ever been asked the cash question, and has answered it consistently and accurately.***
+
+**2. The forward assurance has now been given four times by the same person, and broken at least once in a specific, dated way.** Every one of the four came from **Rohan Shah, the CFO**:
+
+| When | What was said | What happened |
+|---|---|---|
+| **May-2025** | *"whatever was required, we have done entire provision… surprises, I'm not sure for any of them would be there"* | — |
+| **Aug-2025** | *"**we are not anticipating any kind of write-off in FY '26**"* | 🔴 **FY26 carried a ₹208cr charge** |
+| **Feb-2026** | *"we are **not expecting any such provisioning in this financial year**"* | 🔴 **Broken within the same financial year, ~6–8 weeks later** |
+| **Jul-2026** | *"completely done with the legacy issues… no more further write-off in the current year"* | 🕐 **Testable at Q4FY27** |
+
+> ***The February statement is the damning one.*** **It was made on 6-February-2026, about a fiscal year ending 31-March-2026, in direct response to an investor pointing at the ₹208cr of doubtful receivables sitting on Kandla's own balance sheet — and that is very close to the exact amount subsequently written off.** *I am not in a position to say what management knew when. But an investor had identified the number, put it to them, and been told not to expect it.*
+
+**3. Management's own framing describes the mechanism the critique attacks — and calls it upside.** *"There are old receivables **for which we have not paid** while acquiring this company. So these old receivables, **which we believe are a bonus for us**."* **That is the same transaction, viewed from the opposite end.**
+
+**4. ₹160cr is still carried at face value, on arbitration awards.** Kandla's receivables are gone; **Dolphin's ₹160cr remains on the books**, justified by *"arbitration awards received in our favor"* and *"the client relationship."* **That is a stronger justification than Kandla ever had — an award in hand is not the same as hope of recovery — but it is roughly 40% of the ₹405–406cr the critique flags, and it is still unprovided.**
+
+### 10.5 What I think this means for a holder — labelled as my judgement
+
+**What I do not think.** I do not think this is a fraud, and the article does not claim one. **The operating business is real**: rigs at 100% utilisation, ~85% of the outsourced gas-compression market, ₹270cr of operating cash flow in FY26 against ₹210cr, CFO at 81% of operating profit, and a 15-year ONGC contract. **None of the six concerns touches the cash-generating capacity of the business**, and the FY26 cash flow statement is not where the disputes are.
+
+**What I do think, in order of how much it should weigh.**
+
+**🔴 First — the goodwill is the item that matters most and is the least discussed.** **₹384.88cr sitting on a balance sheet with ~₹1,999cr of net worth is roughly 19% of book value.** If the accounting treatment is wrong, **book value is overstated by that much and the P/B of 2.20x is really nearer 2.7x.** *It does not affect earnings or cash — but it is the largest single number in the critique, it is still on the balance sheet, and **in six quarters not one analyst or investor has asked about it.*** ⭐ **This is the question I would want asked.**
+
+**🟡 Second — the write-off track record is a judgement problem, not a cash problem.** The money was never paid, so nothing was lost. **But this profile's base case leans on management's guidance of ₹350cr FY27 and ₹500cr FY28 PAT — and that guidance comes from the same CFO whose forward statements on provisioning have been wrong at least once in a very specific way.** *That does not make the guidance wrong. It means it should carry a haircut, which §6 already applies.*
+
+**🟢 Third — the tax exposure is the most quantifiable and the most bounded.** **~₹96cr before interest and penalties, on a pre-2021 ambiguity that the Finance Act 2021 has since closed.** Against a ₹4,395cr market cap that is ~2%. **It is a contingent item, not a thesis item** — *though I have not verified whether it appears in the contingent liabilities note, and I should.*
+
+**⚪ Fourth — the dividend point is real but small.** ₹37.8cr over three years. **If correct it is a compliance question, not an economic one.**
+
+> **The honest summary: this is a company where the operating story and the accounting story are being told in different rooms, and only one of them has an audience.** **Six quarters of calls have produced detailed, testable, largely-delivered operating guidance — and almost no engagement with the balance sheet.** *The critique's own conclusion is the fair one: the market may be applying a discount for accounting complexity rather than mispricing good operations. **After reading both, I think that is closer to right than wrong** — and it is a large part of why a business with 43% EBITDA margins and 19% ROE trades where it does.*
+
+**Does this change the rating? No — and I want to be clear about why not.** **Conviction stays HIGH on the business**, because none of this is new information about operations, all six concerns predate the July print, and the market has had the article since June. **What it does change is the weight I put on management's forward assurances**, which §6 already haircuts, and it **hardens the Q4FY27 watch item from "check the print" to "check the print and the balance sheet."**
+
+> ***The one thing I would genuinely change if I held this: I would want the goodwill question asked out loud, on a call, with an answer on the record.*** *Everything else here has either been engaged with or is small. That one is large, unaddressed, and entirely answerable.*
+
+### 10.6 The five questions I would want put at the Q2FY27 call
+
+1. **On the ₹384.88cr of goodwill:** *what is the company's position on IndAS 103 Appendix C, given the 2020 demerger involved entities under common control before and after?* **Is the goodwill tested for impairment annually, and what were the FY26 assumptions?**
+2. **On the ₹256cr Kandla inventory:** *what fair-value assessment was performed at the 31-March-2025 acquisition date, and what changed in the following twelve months to make it unusable?*
+3. **On the remaining ₹160cr of Dolphin receivables:** *what is the face value of the arbitration awards held, what is the expected timing of realisation, and why is no ECL provision required under IndAS 109?*
+4. **On the FY18–FY20 goodwill amortisation deduction of ₹371cr:** *is any assessment or demand outstanding, and is it disclosed in contingent liabilities?*
+5. **On the auditors:** *has the Emphasis of Matter on receivables been removed for FY26, and were external confirmations obtained directly by the auditor for the remaining Dolphin balances?*
+
+*⭐ Question 1 is the one that matters. The other four are worth asking; that one is worth insisting on.*
+
+---
+
 ## Source Appendix
 
 **✅ Concall gate: CLEARED — 5 transcripts, all read in full.**
@@ -478,7 +635,11 @@ Called *"the single most important number on DEEP"* on 28-Jul; **it is a composi
 - **Q4FY26 (May-2026)**, Q3FY26 (Feb-2026), Q2FY26 (Nov-2025), Q1FY26 (Aug-2025) — all read.
 - **Q1FY27 investor presentation** (28-Jul-2026) and Q4FY26 deck.
 
-**Exchange filings** (NSE **DEEPINDS** / BSE 543288): Q1FY27 results and presentation (28-Jul) · call recording link (29-Jul) · **transcript (3-Aug)** · **AGM notice and book closure (7-Aug)** · analyst meet schedules (4-Aug, 10-Aug) · newspaper publications. **No filings of substance between 7-Aug and 22-Aug-2026.**
+**⚠️ TRANSCRIPT PROVENANCE — corrected 22-Aug-2026.** The Q1FY27 file previously on disk (`DEEP_Transcript_2026-07.txt`) is a **`concall.in` AI-generated transcript**, carrying its own disclaimer: *"This transcript is AI generated. Please double check for mistakes."* **It is not the company's filing, and it mis-attributes at least one answer** — the *"completely done with the legacy issues"* line is given to **Paras Savla**, whereas **the official transcript attributes it to Rohan Shah (CFO)**. *That matters, because on the official record **all four provisioning assurances come from the same person.*** **The official transcript filed 3-Aug-2026 has now been downloaded** (`DEEP_Transcript_2026-07_OFFICIAL.pdf`, 20pp) **and every quote in §10 is taken from it.**
+
+**Accounting critique:** ***"Deep Industries Ltd. — Accounting Questions Behind The Value"*, Bastion Research / Parth Agrawal, 20-June-2026**, on forensic work by **Kautuk Yemdey** — **read in full 22-Aug-2026.** *(`bastionresearch.substack.com/p/deep-industries-accounting-questions`)*
+
+**Exchange filings** (NSE **DEEPINDS** / BSE 543288): Q1FY27 results and presentation (28-Jul) · call recording link (29-Jul) · **official transcript (3-Aug)** · **AGM notice and book closure (7-Aug)** · analyst meet schedules (4-Aug, 10-Aug) · newspaper publications. **No filings of substance between 7-Aug and 22-Aug-2026.**
 
 **Screener consolidated** (pulled 22-Aug-2026): CMP ₹688, mcap ₹4,395cr, BV ₹312, ROCE 16.5%, ROE 19.2%, div yield 0.36%, 52-week range ₹327–₹721; quarterly series, annual P&L, balance sheet, cash flow, 12-quarter shareholding.
 
@@ -490,7 +651,7 @@ Called *"the single most important number on DEEP"* on 28-Jul; **it is a composi
 
 1. **🔴 TWO P/E BASES EXIST AND THEY ARE NEARLY TWICE APART.** **Reported TTM PAT ₹224cr → 19.6x**; **adjusted for the ₹183cr Q4FY26 Kandla write-off, ~₹407cr → ~10.8x** (Screener's headline 10.6x). **Both are stated throughout and never blended.** *An earlier version of this profile did blend them in one cell — see §5.5(d).*
 2. **The Gamij and Geleki tender values (~₹1,500cr and ~₹4,000–4,500cr) are INVESTOR-DERIVED, not company-guided.** Savla explicitly declined to confirm them. **Do not model them.**
-3. **The Bastion Research forensic piece has not been read in full** — the characterisation here comes from its public summary and thread discussion. ***Read it directly before relying on it.***
+3. **✅ CLOSED 22-Aug-2026 — the Bastion Research forensic piece has been read in full and is treated in §10.** **Nothing in it has been adjudicated by any regulator, and no regulatory action against Deep Industries on any of the six points is on the record.** *It is one analyst's reading of treatments the company's auditors signed off on — engaged with on the merits, not accepted as established fact.*
 4. **Q4 is the risk quarter on this name.** **Two consecutive fourth quarters carried large negative other income** (−₹245cr, −₹183cr). Any annualisation of Q1–Q3 will overstate the full year unless Q4FY27 prints clean.
 5. **Standalone and consolidated diverge materially and the divergence is the story.** Consolidated grew 39.8%; **standalone has been flat at ~₹175cr for five quarters.** *Always check which basis a growth figure is on.*
 6. **The FY28 guidance of ₹500cr comes from the same management whose forward assurance on write-offs was wrong once.** *Recorded not as an accusation but because the profile's base case leans on that guidance.*
