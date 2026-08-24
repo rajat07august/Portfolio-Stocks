@@ -144,6 +144,8 @@ header.page-header .meta-item strong { font-weight: 600; opacity: 0.85; }
 .profile-link-block a {
   color: #1F4E79; font-weight: 600; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;
 }
+.profile-link-block .links { display: flex; align-items: center; gap: 8px 18px; flex-wrap: wrap; }
+.profile-link-block .links .sep { color: #b3c6d6; font-weight: 400; }
 .profile-link-block a:hover { text-decoration: underline; color: #2E75B6; }
 .profile-link-block .meta { font-size: 11.5px; color: #6a737d; font-style: italic; }
 .metrics-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 20px; }
@@ -1939,6 +1941,15 @@ const PROFILE_STATUS = {
 };
 function getProfile(id) { return PROFILE_STATUS[id] || { ready: false }; }
 
+// ---------- Standalone explainers (optional second link on a stock card) ----------
+// stock id → { file: basename under dashboard/explainers/, label: link text }
+// Deliberately NOT fed into renderHeader()'s "Last Refreshed" — an explainer is
+// reference material, not a data refresh.
+const EXPLAINERS = {
+  "unimech": { file: "UNIMECH", label: "Positioning in Value Chain" }
+};
+function getExplainer(id) { return EXPLAINERS[id] || null; }
+
 // ---------- CMP History (price trajectory across refresh dates) ----------
 // Each entry: { date: "DD-MMM-YY", cmp: number, source: "..." }
 // New refreshes append to this array. Latest entry should match CMP_DATA above.
@@ -2242,8 +2253,12 @@ function renderCards(filteredStocks) {
         ${(() => {
           const p = getProfile(s.id);
           if (p.ready) {
+            const x = getExplainer(s.id);
             return `<div class="profile-link-block ready">
-              <a href="profile.html?stock=${p.symbol}" target="_blank" rel="noopener">📄 View Complete Analysis →</a>
+              <span class="links">
+                <a href="profile.html?stock=${p.symbol}" target="_blank" rel="noopener">📄 View Complete Analysis →</a>
+                ${x ? `<span class="sep">|</span><a href="explainers/${x.file}.html" target="_blank" rel="noopener">🔗 ${x.label} →</a>` : ''}
+              </span>
               <span class="meta">8-section deep-dive · ${p.date}</span>
             </div>`;
           }

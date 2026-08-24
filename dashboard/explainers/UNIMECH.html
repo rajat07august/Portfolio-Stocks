@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How the Jet-Engine Tooling Business Works — Unimech Industry Primer</title>
+<meta name="robots" content="noindex,nofollow">
+<style>
+:root{
+  --navy:#1F4E79; --blue:#2E75B6; --ink:#16202b; --mut:#5a6a78; --bg:#fafbfc;
+  --card:#ffffff; --line:#e3e8ee; --amber:#a2650a; --amberbg:#fff8e6;
+  --red:#b3261e; --redbg:#fdeceb; --green:#1a6f4a; --greenbg:#ecf7f1;
+  color-scheme: light;
+}
+*{box-sizing:border-box}
+body{
+  max-width:1040px; margin:0 auto; padding:22px 20px 80px;
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+  line-height:1.62; color:var(--ink); background:var(--bg); font-size:15px;
+}
+.nav{display:flex; gap:18px; flex-wrap:wrap; margin-bottom:12px; font-size:13.5px}
+.nav a{color:var(--navy); font-weight:600; text-decoration:none}
+.nav a:hover{text-decoration:underline; color:var(--blue)}
+.topbar{background:linear-gradient(135deg,#1F4E79 0%,#2E75B6 100%); color:#fff; padding:20px 24px; border-radius:10px; margin-bottom:22px}
+.topbar h1{margin:0 0 6px; font-size:25px; line-height:1.25; color:#fff; border:0; padding:0}
+.topbar .sub{font-size:14.5px; opacity:.92}
+.topbar .meta{font-size:12.5px; opacity:.8; margin-top:10px}
+h2{color:var(--navy); font-size:20px; margin:44px 0 6px; border-left:4px solid var(--navy); padding-left:12px}
+h2 .n{color:var(--blue); font-weight:700}
+h3{color:var(--blue); font-size:16px; margin:26px 0 8px}
+p{margin:11px 0}
+ul{margin:10px 0; padding-left:22px} li{margin:6px 0}
+.lede{font-size:15.5px; color:#2c3b49}
+.box{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 18px; margin:18px 0}
+.box.warn{background:var(--amberbg); border-color:#f0dcae}
+.box.red{background:var(--redbg); border-color:#f3cfcb}
+.box.good{background:var(--greenbg); border-color:#c7e4d5}
+.box h4{margin:0 0 6px; font-size:14px; color:var(--navy); text-transform:uppercase; letter-spacing:.04em}
+.src{color:var(--mut); font-size:12.5px}
+code.src{background:transparent; padding:0}
+figure.dg{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px 16px 12px; margin:22px 0}
+figure.dg svg{width:100%; height:auto; display:block; color:#3d4b5c}
+figure.dg figcaption{font-size:13px; color:var(--mut); margin-top:12px; padding-top:10px; border-top:1px dashed var(--line)}
+svg text{fill:currentColor}
+.t-lg{font-size:15px; font-weight:700}
+.t-md{font-size:13.5px; font-weight:700}
+.t{font-size:12.5px}
+.t-sm{font-size:11px}
+.t-mut{opacity:.7}
+.tw{overflow-x:auto; margin:16px 0}
+table{border-collapse:collapse; width:100%; min-width:620px; font-size:13.5px; background:var(--card)}
+th,td{border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top}
+th{background:#eef3f8; color:var(--navy); font-weight:700}
+.toc{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 20px; font-size:14px}
+.toc ol{margin:6px 0; padding-left:22px} .toc li{margin:4px 0}
+.toc a{color:var(--navy); text-decoration:none} .toc a:hover{text-decoration:underline}
+.glos{display:grid; grid-template-columns:150px 1fr; gap:6px 14px; font-size:13.5px}
+.glos dt{font-weight:700; color:var(--navy)} .glos dd{margin:0}
+@media (max-width:640px){ .glos{grid-template-columns:1fr} .glos dt{margin-top:8px} }
+.tag{display:inline-block; font-size:11px; font-weight:700; letter-spacing:.03em; padding:2px 7px; border-radius:20px; vertical-align:middle}
+.tag.fact{background:#e8f0f8; color:var(--navy)}
+.tag.inf{background:var(--amberbg); color:var(--amber); border:1px solid #ecd9a8}
+hr{border:0; border-top:1px solid var(--line); margin:38px 0}
+</style>
+</head>
+<body>
+
+<div class="nav">
+  <a href="https://portfolio-stocks-chi.vercel.app/index.html">← Dashboard</a>
+  <a href="https://portfolio-stocks-chi.vercel.app/profile.html?stock=UNIMECH">Full profile — UNIMECH →</a>
+</div>
+
+<div class="topbar">
+  <h1>How the jet-engine tooling business actually works</h1>
+  <div class="sub">An industry primer for Unimech Aerospace &amp; Manufacturing — the products, the value chain, and where the money enters</div>
+  <div class="meta">Built 23-Aug-2026 · Sourced from Unimech's 8 concall transcripts and 7 investor decks (Feb-2025 → Aug-2026) · Companion to <strong>Company Profiles/UNIMECH.md</strong></div>
+</div>
+
+<p class="lede">This page explains the <strong>industry</strong>, not the investment case. The valuation, the conviction call and the risk list live in the profile. What follows is the mechanism: what these products physically are, who buys them and why, how an order is born, how a supplier gets qualified, where a 65% gross margin comes from, and why a tariff on one-third of end demand took half of one quarter's revenue away.</p>
+
+<div class="box warn">
+<h4>How to read this</h4>
+<p style="margin:6px 0"><span class="tag fact">FACT</span> Everything unmarked is taken from Unimech's own filings — transcripts and decks — with the source named in grey after the claim. Figures are quoted as the company presented them.</p>
+<p style="margin:6px 0"><span class="tag inf">MY INFERENCE</span> Where a conclusion is mine rather than management's, it is marked. The two positioning maps in §2 and §9 are framing devices I built; they are not company data.</p>
+<p style="margin:6px 0; color:#5a6a78; font-size:13.5px">Nothing here is drawn from a chart in a deck. Every number comes from a table, a text slide, or spoken words on a call.</p>
+</div>
+
+<div class="toc">
+<strong>Contents</strong>
+<ol>
+<li><a href="#s1">The product — what "aero tooling" physically is</a></li>
+<li><a href="#s2">The value chain — who pays whom, and where Unimech sits</a></li>
+<li><a href="#s3">What creates an order — and why revenue is lumpy</a></li>
+<li><a href="#s4">The qualification funnel — how you become a supplier</a></li>
+<li><a href="#s5">Inside the plant — where a 65% gross margin comes from</a></li>
+<li><a href="#s6">The three revenue engines, and the one-off → recurring shift</a></li>
+<li><a href="#s7">Bellows, explained — what Unimech bought for ₹450cr</a></li>
+<li><a href="#s8">The tariff mechanism — why one quarter halved</a></li>
+<li><a href="#s9">Where Unimech sits against the watchlist's other aerospace names</a></li>
+<li><a href="#s10">Reading the industry through the numbers</a></li>
+<li><a href="#s11">What the company does not disclose</a></li>
+<li><a href="#s12">Glossary</a></li>
+</ol>
+</div>
+
+<h2 id="s1"><span class="n">1.</span> The product — what "aero tooling" physically is</h2>
+
+<p>Start with the object, because almost every misunderstanding of this business starts with imagining the wrong one. Unimech does <strong>not</strong> make jet engines, engine parts, or anything that leaves the ground. It makes the <strong>steel equipment that surrounds an engine while people work on it.</strong></p>
+
+<p>A modern turbofan weighs two to three tonnes, is assembled from thousands of parts to tolerances measured in microns, and cannot be laid on a bench. To build one — or to pull one apart for overhaul — a factory needs a stand to hold it, a cradle to carry it, a sling and beam to lift it, fixtures to rotate modules into position, jigs to check alignment, carts to move sub-assemblies, and a certified container to ship the finished engine to the airframer. <strong>Every one of those items is bespoke to a specific engine programme</strong>, and each is designed, machined, inspected and certified as carefully as a flying part, because a stand that fails while holding a ₹40cr engine is a catastrophe.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 450" role="img" aria-label="A turbofan engine at top, with five categories of tooling below it: engine build-up stand, sling and spreader beam, turnover fixture, ground support cart, and transport stand. None of the tooling flies.">
+  <defs>
+    <marker id="f1a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <!-- engine -->
+  <rect x="392" y="60" width="188" height="78" rx="39" fill="#eef3f8" stroke="currentColor" stroke-width="1.5"/>
+  <circle cx="402" cy="99" r="31" fill="#ffffff" stroke="currentColor" stroke-width="1.5"/>
+  <circle cx="402" cy="99" r="10" fill="#dbe6f0" stroke="currentColor" stroke-width="1"/>
+  <line x1="402" y1="68" x2="402" y2="130" stroke="currentColor" stroke-width="1" opacity=".55"/>
+  <line x1="380" y1="77" x2="424" y2="121" stroke="currentColor" stroke-width="1" opacity=".55"/>
+  <line x1="380" y1="121" x2="424" y2="77" stroke="currentColor" stroke-width="1" opacity=".55"/>
+  <polygon points="580,74 620,99 580,124" fill="#eef3f8" stroke="currentColor" stroke-width="1.5"/>
+  <rect x="462" y="36" width="42" height="25" rx="4" fill="#eef3f8" stroke="currentColor" stroke-width="1.5"/>
+  <text class="t-md" x="646" y="86">One turbofan engine</text>
+  <text class="t t-mut" x="646" y="105">LEAP · Pratt &amp; Whitney · Rolls-Royce class</text>
+  <text class="t" x="646" y="126" fill="#b3261e">Unimech makes none of this.</text>
+
+  <line x1="480" y1="142" x2="480" y2="176" stroke="currentColor" stroke-width="1.6" marker-end="url(#f1a)"/>
+  <text class="t-md" x="480" y="200" text-anchor="middle">It makes the equipment that builds, holds, lifts, turns, ships and services it — none of which flies.</text>
+
+  <!-- five tiles -->
+  <g>
+    <rect x="16" y="220" width="176" height="212" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1" opacity=".95"/>
+    <circle cx="104" cy="262" r="22" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.5"/>
+    <rect x="58" y="288" width="92" height="9" rx="2" fill="#dbe6f0" stroke="currentColor" stroke-width="1"/>
+    <line x1="70" y1="297" x2="70" y2="312" stroke="currentColor" stroke-width="1.5"/>
+    <line x1="138" y1="297" x2="138" y2="312" stroke="currentColor" stroke-width="1.5"/>
+    <circle cx="70" cy="316" r="5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+    <circle cx="138" cy="316" r="5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+    <text class="t-md" x="104" y="352" text-anchor="middle">Engine build-up stand</text>
+    <text class="t-sm" x="104" y="374" text-anchor="middle">Holds the engine upright and</text>
+    <text class="t-sm" x="104" y="390" text-anchor="middle">rigid while it is assembled or</text>
+    <text class="t-sm" x="104" y="406" text-anchor="middle">stripped down.</text>
+  </g>
+  <g>
+    <rect x="204" y="220" width="176" height="212" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1" opacity=".95"/>
+    <circle cx="292" cy="240" r="6" fill="none" stroke="currentColor" stroke-width="1.5"/>
+    <line x1="292" y1="246" x2="292" y2="256" stroke="currentColor" stroke-width="1.5"/>
+    <rect x="247" y="256" width="90" height="9" rx="2" fill="#dbe6f0" stroke="currentColor" stroke-width="1"/>
+    <line x1="254" y1="265" x2="272" y2="298" stroke="currentColor" stroke-width="1.5"/>
+    <line x1="330" y1="265" x2="312" y2="298" stroke="currentColor" stroke-width="1.5"/>
+    <rect x="266" y="298" width="52" height="18" rx="3" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.5"/>
+    <text class="t-md" x="292" y="352" text-anchor="middle">Sling &amp; spreader beam</text>
+    <text class="t-sm" x="292" y="374" text-anchor="middle">Lifts the engine or a module</text>
+    <text class="t-sm" x="292" y="390" text-anchor="middle">off the stand without bending</text>
+    <text class="t-sm" x="292" y="406" text-anchor="middle">the casing.</text>
+  </g>
+  <g>
+    <rect x="392" y="220" width="176" height="212" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1" opacity=".95"/>
+    <circle cx="480" cy="276" r="30" fill="none" stroke="#2E75B6" stroke-width="2"/>
+    <rect x="444" y="270" width="10" height="12" rx="2" fill="#dbe6f0" stroke="currentColor" stroke-width="1"/>
+    <rect x="506" y="270" width="10" height="12" rx="2" fill="#dbe6f0" stroke="currentColor" stroke-width="1"/>
+    <rect x="440" y="308" width="80" height="9" rx="2" fill="#dbe6f0" stroke="currentColor" stroke-width="1"/>
+    <path d="M462,240 A34,34 0 0 1 508,244" fill="none" stroke="currentColor" stroke-width="1.4" marker-end="url(#f1a)"/>
+    <text class="t-md" x="480" y="352" text-anchor="middle">Turnover fixture</text>
+    <text class="t-sm" x="480" y="374" text-anchor="middle">Rotates a module so a</text>
+    <text class="t-sm" x="480" y="390" text-anchor="middle">technician can reach every</text>
+    <text class="t-sm" x="480" y="406" text-anchor="middle">fastener at the right torque.</text>
+  </g>
+  <g>
+    <rect x="580" y="220" width="176" height="212" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1" opacity=".95"/>
+    <rect x="628" y="252" width="76" height="38" rx="3" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.5"/>
+    <line x1="704" y1="252" x2="722" y2="236" stroke="currentColor" stroke-width="1.8"/>
+    <line x1="636" y1="296" x2="700" y2="296" stroke="currentColor" stroke-width="1.5"/>
+    <circle cx="644" cy="304" r="7" fill="none" stroke="currentColor" stroke-width="1.5"/>
+    <circle cx="692" cy="304" r="7" fill="none" stroke="currentColor" stroke-width="1.5"/>
+    <text class="t-md" x="668" y="352" text-anchor="middle">Ground support carts</text>
+    <text class="t-sm" x="668" y="374" text-anchor="middle">Carts, dollies and handling rigs</text>
+    <text class="t-sm" x="668" y="390" text-anchor="middle">that move parts around the</text>
+    <text class="t-sm" x="668" y="406" text-anchor="middle">shop floor and the apron.</text>
+  </g>
+  <g>
+    <rect x="768" y="220" width="176" height="212" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1" opacity=".95"/>
+    <rect x="812" y="248" width="88" height="58" rx="3" fill="none" stroke="currentColor" stroke-width="1.5"/>
+    <line x1="812" y1="248" x2="828" y2="234" stroke="currentColor" stroke-width="1.2"/>
+    <line x1="900" y1="248" x2="916" y2="234" stroke="currentColor" stroke-width="1.2"/>
+    <line x1="828" y1="234" x2="916" y2="234" stroke="currentColor" stroke-width="1.2"/>
+    <line x1="916" y1="234" x2="916" y2="292" stroke="currentColor" stroke-width="1.2"/>
+    <circle cx="856" cy="277" r="15" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.5"/>
+    <text class="t-md" x="856" y="352" text-anchor="middle">Shipping stand</text>
+    <text class="t-sm" x="856" y="374" text-anchor="middle">Carries a finished engine by</text>
+    <text class="t-sm" x="856" y="390" text-anchor="middle">road, sea or air without</text>
+    <text class="t-sm" x="856" y="406" text-anchor="middle">shifting on its mounts.</text>
+  </g>
+</svg>
+<figcaption><strong>Aero tooling is a capital good bought by a factory or an overhaul shop — not a part fitted to an aircraft.</strong> That single distinction drives almost everything else in this business: who the customer is, how often they buy, how big an order is, and why demand can pause without a single aircraft being cancelled. <span class="src">Product categories from the Q1FY27 deck ("Aero Engine Tools", "Airframe Tools", "MRO Tools", "Ground Support Equipment"); drawings are schematic.</span></figcaption>
+</figure>
+
+<p>Unimech splits its tooling into <strong>aero-engine tools</strong> (for building and overhauling the engine), <strong>airframe tools</strong> (for assembling the aircraft structure — it names Airbus and Boeing programmes), <strong>MRO tools</strong> (the same kit, sold to overhaul shops), and <strong>ground support equipment</strong>. Named programmes on the company's own slide: <strong>LEAP, Pratt &amp; Whitney, Rolls-Royce engines, and airframe tools for Airbus and Boeing.</strong> <span class="src">Q1FY27 deck, "Aero Tooling / MRO Tooling / Ground Support Equipment" slide.</span></p>
+
+<div class="box">
+<h4>The scale, in the company's own units</h4>
+<p style="margin:6px 0"><strong>4,990 tooling SKUs · 697 people in the tooling division · 6,300+ qualified SKUs across the company · 41 customers · 8 countries · ~96% exports · 150+ CNC machines · 5 plants + 1 free-trade warehouse · ~563,000 sq ft · 1,232 employees.</strong> <span class="src">All as on 30-Jun-2026, Q1FY27 deck.</span></p>
+</div>
+
+<h2 id="s2"><span class="n">2.</span> The value chain — who pays whom, and where Unimech sits</h2>
+
+<p>The money in aerospace starts with an airline ordering aircraft. It reaches Unimech four steps later, and the shape of those four steps explains more about the company's quarterly results than any operating metric does.</p>
+
+<p>The step most investors miss is the <strong>tool licensee</strong>. An engine OEM does not usually manufacture and sell its own tooling. It <em>licenses</em> the tool designs to Tier-1 companies who make and supply them to whoever is building or overhauling that engine. Unimech sits <strong>below</strong> those licensees. Management said this plainly when asked whether it deals directly with the LEAP engine OEM:</p>
+
+<blockquote style="border-left:4px solid #2E75B6; background:#f4f8fc; margin:16px 0; padding:12px 18px; font-size:14px">
+"On the tooling side, it's the licensees who basically, for specifically LEAP engine that you are talking about, licensees are the ones with whom Unimech works… <strong>Unimech works in the Tier-2 side</strong> where LEAP engine OEM is basically OEM and then there's a Tier-1. And typically, we work with the Tier-1. And in the tooling business, <strong>that's largely PO to PO business.</strong>"
+<div class="src" style="margin-top:6px">— Rajanikanth Balaraman, Q1FY27 call, 4-Aug-2026</div>
+</blockquote>
+
+<figure class="dg">
+<svg viewBox="0 0 980 410" role="img" aria-label="Value chain from airlines through aircraft OEMs, engine OEMs and Tier-1 tool licensees down to Unimech at Tier-2, with a separate MRO path and a new dashed flying-parts path via FACC.">
+  <defs>
+    <marker id="f2a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+    <marker id="f2g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a6f4a"/>
+    </marker>
+  </defs>
+
+  <text class="t-sm t-mut" x="88" y="46" text-anchor="middle">fleet orders</text>
+  <text class="t-sm t-mut" x="371" y="46" text-anchor="middle">engine demand</text>
+  <text class="t-sm t-mut" x="581" y="46" text-anchor="middle">licenses tool designs</text>
+  <text class="t-sm t-mut" x="781" y="46" text-anchor="middle">places tooling POs</text>
+
+  <rect x="16" y="60" width="146" height="66" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="89" y="90" text-anchor="middle">Airlines &amp; lessors</text>
+  <text class="t-sm t-mut" x="89" y="109" text-anchor="middle">order aircraft</text>
+
+  <rect x="196" y="60" width="156" height="66" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="274" y="90" text-anchor="middle">Aircraft OEM</text>
+  <text class="t-sm t-mut" x="274" y="109" text-anchor="middle">Airbus · Boeing</text>
+
+  <rect x="386" y="60" width="180" height="66" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="476" y="86" text-anchor="middle">Engine OEM</text>
+  <text class="t-sm t-mut" x="476" y="104" text-anchor="middle">CFM (GE + Safran),</text>
+  <text class="t-sm t-mut" x="476" y="118" text-anchor="middle">Pratt &amp; Whitney, Rolls-Royce</text>
+
+  <rect x="596" y="60" width="170" height="66" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="681" y="86" text-anchor="middle">Tier-1 tool licensee</text>
+  <text class="t-sm t-mut" x="681" y="104" text-anchor="middle">licensed to build and sell</text>
+  <text class="t-sm t-mut" x="681" y="118" text-anchor="middle">the OEM's tool designs</text>
+
+  <rect x="796" y="60" width="168" height="66" rx="7" fill="#eaf2fb" stroke="#2E75B6" stroke-width="2"/>
+  <text class="t-md" x="880" y="90" text-anchor="middle" fill="#1F4E79">UNIMECH</text>
+  <text class="t-sm" x="880" y="109" text-anchor="middle" fill="#1F4E79">Tier-2 · makes the tools</text>
+
+  <line x1="164" y1="93" x2="192" y2="93" stroke="currentColor" stroke-width="1.6" marker-end="url(#f2a)"/>
+  <line x1="354" y1="93" x2="382" y2="93" stroke="currentColor" stroke-width="1.6" marker-end="url(#f2a)"/>
+  <line x1="568" y1="93" x2="592" y2="93" stroke="currentColor" stroke-width="1.6" marker-end="url(#f2a)"/>
+  <line x1="768" y1="93" x2="792" y2="93" stroke="currentColor" stroke-width="1.6" marker-end="url(#f2a)"/>
+
+  <!-- MRO row -->
+  <rect x="386" y="196" width="180" height="62" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="476" y="222" text-anchor="middle">MRO &amp; overhaul shops</text>
+  <text class="t-sm t-mut" x="476" y="241" text-anchor="middle">every engine comes back</text>
+  <line x1="476" y1="128" x2="476" y2="192" stroke="currentColor" stroke-width="1.6" marker-end="url(#f2a)"/>
+  <text class="t-sm t-mut" x="486" y="163">engines return for overhaul</text>
+  <path d="M566,227 H904 V132" fill="none" stroke="currentColor" stroke-width="1.6" marker-end="url(#f2a)"/>
+  <text class="t-sm t-mut" x="735" y="217" text-anchor="middle">shop tool packages</text>
+
+  <!-- callout -->
+  <rect x="16" y="150" width="240" height="118" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.2"/>
+  <text class="t-md" x="32" y="176" fill="#a2650a">Two steps removed</text>
+  <text class="t" x="32" y="199">Unimech does not sell to Airbus,</text>
+  <text class="t" x="32" y="217">and mostly not to the engine OEM.</text>
+  <text class="t" x="32" y="235">It sells to the Tier-1 licensee —</text>
+  <text class="t" x="32" y="253">who decides when a PO is placed.</text>
+
+  <!-- new flying parts path -->
+  <rect x="596" y="300" width="170" height="60" rx="7" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.6"/>
+  <text class="t-md" x="681" y="325" text-anchor="middle" fill="#1a6f4a">FACC (Austria)</text>
+  <text class="t-sm" x="681" y="344" text-anchor="middle" fill="#1a6f4a">Tier-1 aerostructures supplier</text>
+  <path d="M856,132 V330 H772" fill="none" stroke="#1a6f4a" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#f2g)"/>
+  <path d="M592,330 H274 V132" fill="none" stroke="#1a6f4a" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#f2g)"/>
+  <text class="t-sm" x="790" y="322" fill="#1a6f4a">flying parts</text>
+  <text class="t" x="300" y="350" fill="#1a6f4a">NEW in Q1FY27: components that stay</text>
+  <text class="t" x="300" y="368" fill="#1a6f4a">on the aircraft — USD 7.5m over 5 years</text>
+
+  <text class="t-sm t-mut" x="16" y="392">Solid lines = today's tooling flow (equipment that never flies) · Dashed green = the first flying-parts contract, signed Q1FY27</text>
+</svg>
+<figcaption><strong>The chain explains the volatility.</strong> Unimech's demand is set by a Tier-1 licensee's purchasing decision, not by Airbus's delivery schedule — the two can diverge for several quarters. The dashed green path is the strategic prize: with the FACC agreement, for the first time a small part of Unimech's revenue is contracted content that flies, rather than equipment bought once per programme. <span class="src">Chain structure from the Q1FY27 call; FACC LTA from the Q1FY27 deck and call; Safran–HAL Goa MRO example from the Q1FY27 call. <span class="tag inf">MY INFERENCE</span> the "two steps removed" reading is mine, though it follows directly from management's description.</span></figcaption>
+</figure>
+
+<h2 id="s3"><span class="n">3.</span> What creates an order — and why revenue is lumpy</h2>
+
+<p>Tooling demand is <strong>episodic</strong>. There is no subscription, no annual contract, no take-or-pay. Four distinct events cause someone to buy a tool, and each has its own rhythm.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 980 420" role="img" aria-label="Four demand events converge into a purchase order, which enters the order book and converts to revenue over four to eighteen months depending on segment.">
+  <defs>
+    <marker id="f3a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <rect x="16" y="18" width="268" height="60" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="30" y="42">1 · A new engine or aircraft programme</text>
+  <text class="t-sm t-mut" x="30" y="63">a complete toolset is designed, once</text>
+
+  <rect x="16" y="90" width="268" height="60" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="30" y="114">2 · A production rate increase</text>
+  <text class="t-sm t-mut" x="30" y="135">A320 line: 60 → 75 aircraft a month by 2027</text>
+
+  <rect x="16" y="162" width="268" height="60" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="30" y="186">3 · A new overhaul shop opens</text>
+  <text class="t-sm t-mut" x="30" y="207">a shop-wide tool package, all at once</text>
+
+  <rect x="16" y="234" width="268" height="60" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="30" y="258">4 · Wear, damage, design change</text>
+  <text class="t-sm t-mut" x="30" y="279">replacement and updated tools</text>
+
+  <path d="M288,48 C320,48 308,140 336,152" fill="none" stroke="currentColor" stroke-width="1.4" marker-end="url(#f3a)"/>
+  <path d="M288,120 C314,120 314,146 336,152" fill="none" stroke="currentColor" stroke-width="1.4" marker-end="url(#f3a)"/>
+  <path d="M288,192 C314,192 314,166 336,160" fill="none" stroke="currentColor" stroke-width="1.4" marker-end="url(#f3a)"/>
+  <path d="M288,264 C320,264 308,172 336,164" fill="none" stroke="currentColor" stroke-width="1.4" marker-end="url(#f3a)"/>
+
+  <rect x="342" y="118" width="196" height="80" rx="7" fill="#eaf2fb" stroke="#2E75B6" stroke-width="2"/>
+  <text class="t-md" x="440" y="148" text-anchor="middle" fill="#1F4E79">Tier-1 licensee or OEM</text>
+  <text class="t-md" x="440" y="168" text-anchor="middle" fill="#1F4E79">issues a purchase order</text>
+  <text class="t-sm" x="440" y="188" text-anchor="middle" fill="#1F4E79">one PO at a time</text>
+
+  <line x1="542" y1="158" x2="576" y2="158" stroke="currentColor" stroke-width="1.6" marker-end="url(#f3a)"/>
+
+  <rect x="580" y="118" width="176" height="80" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="668" y="146" text-anchor="middle">Order book</text>
+  <text class="t-sm" x="668" y="166" text-anchor="middle">₹280cr at 30-Jun-2026</text>
+  <text class="t-sm t-mut" x="668" y="184" text-anchor="middle">Unimech ₹180cr + Hobel ₹100cr</text>
+
+  <line x1="760" y1="158" x2="794" y2="158" stroke="currentColor" stroke-width="1.6" marker-end="url(#f3a)"/>
+
+  <rect x="798" y="118" width="166" height="80" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="881" y="144" text-anchor="middle">Revenue</text>
+  <text class="t-sm" x="881" y="164" text-anchor="middle">tooling: 4–6 months</text>
+  <text class="t-sm" x="881" y="182" text-anchor="middle">nuclear: 12–18 months</text>
+
+  <rect x="16" y="316" width="948" height="88" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.2"/>
+  <text class="t-md" x="34" y="342" fill="#a2650a">The size of a "big" order tells you what kind of business this is</text>
+  <text class="t" x="34" y="366">Management: order wins "have ranged between USD 0.5 to 1 million" — and the USD 4 million ground-support-equipment order under the LEAP</text>
+  <text class="t" x="34" y="386">programme was "among the larger orders we have secured in recent times." Tooling is "always a PO-to-PO business."</text>
+</svg>
+<figcaption><strong>Nothing in tooling recurs by contract.</strong> A toolset is bought once per programme, per line, per shop — so a quarter's revenue depends on how many POs happened to land, not on an installed base paying every month. This is the structural reason a company with a 36% EBITDA margin can still print a 4.6% margin quarter. <span class="src">Order sizes and the USD 4m LEAP GSE win: Q2FY26 call, 13-Nov-2025. "PO-to-PO": Q4FY26 call, 29-May-2026. Execution timelines and the order-book split: Q4FY26 and Q1FY27 calls and decks.</span></figcaption>
+</figure>
+
+<p>Put that mechanism next to the actual quarterly revenue line and the two match exactly:</p>
+
+<figure class="dg">
+<svg viewBox="0 0 980 320" role="img" aria-label="Quarterly revenue bar chart from September 2024 to June 2026, showing a collapse to 34 crore in December 2025 and a recovery to 108 crore by June 2026.">
+  <line x1="60" y1="176.7" x2="950" y2="176.7" stroke="currentColor" stroke-width="1" opacity=".18"/>
+  <line x1="60" y1="93.3" x2="950" y2="93.3" stroke="currentColor" stroke-width="1" opacity=".18"/>
+  <text class="t-sm t-mut" x="52" y="181" text-anchor="end">₹50cr</text>
+  <text class="t-sm t-mut" x="52" y="97" text-anchor="end">₹100cr</text>
+
+  <rect x="82"  y="158.3" width="66" height="101.7" rx="4" fill="#2E75B6"/><rect x="82"  y="252" width="66" height="8" fill="#2E75B6"/>
+  <rect x="192" y="170"   width="66" height="90"    rx="4" fill="#2E75B6"/><rect x="192" y="252" width="66" height="8" fill="#2E75B6"/>
+  <rect x="302" y="146.7" width="66" height="113.3" rx="4" fill="#2E75B6"/><rect x="302" y="252" width="66" height="8" fill="#2E75B6"/>
+  <rect x="412" y="155"   width="66" height="105"   rx="4" fill="#2E75B6"/><rect x="412" y="252" width="66" height="8" fill="#2E75B6"/>
+  <rect x="522" y="156.7" width="66" height="103.3" rx="4" fill="#2E75B6"/><rect x="522" y="252" width="66" height="8" fill="#2E75B6"/>
+  <rect x="632" y="203.3" width="66" height="56.7"  rx="4" fill="#b3261e"/><rect x="632" y="252" width="66" height="8" fill="#b3261e"/>
+  <rect x="742" y="123.3" width="66" height="136.7" rx="4" fill="#2E75B6"/><rect x="742" y="252" width="66" height="8" fill="#2E75B6"/>
+  <rect x="852" y="80"    width="66" height="180"   rx="4" fill="#2E75B6"/><rect x="852" y="252" width="66" height="8" fill="#2E75B6"/>
+
+  <line x1="60" y1="260" x2="950" y2="260" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t-sm t-mut" x="115" y="278" text-anchor="middle">Sep-24</text>
+  <text class="t-sm t-mut" x="225" y="278" text-anchor="middle">Dec-24</text>
+  <text class="t-sm t-mut" x="335" y="278" text-anchor="middle">Mar-25</text>
+  <text class="t-sm t-mut" x="445" y="278" text-anchor="middle">Jun-25</text>
+  <text class="t-sm t-mut" x="555" y="278" text-anchor="middle">Sep-25</text>
+  <text class="t-sm" x="665" y="278" text-anchor="middle" fill="#b3261e">Dec-25</text>
+  <text class="t-sm t-mut" x="775" y="278" text-anchor="middle">Mar-26</text>
+  <text class="t-sm t-mut" x="885" y="278" text-anchor="middle">Jun-26</text>
+
+  <text class="t-md" x="665" y="196" text-anchor="middle" fill="#b3261e">₹34cr</text>
+  <text class="t-sm" x="665" y="300" text-anchor="middle" fill="#b3261e">US tariffs at 50% · operating margin 4.6%</text>
+  <text class="t-md" x="885" y="72" text-anchor="middle" fill="#1F4E79">₹108cr</text>
+  <text class="t-sm t-mut" x="885" y="300" text-anchor="middle">21% of it is Hobel</text>
+  <text class="t-sm t-mut" x="115" y="150" text-anchor="middle">₹61cr</text>
+</svg>
+<figcaption><strong>Eight quarters of revenue, ₹cr.</strong> Five quarters sat in a ₹54–68cr band, one collapsed to ₹34cr, and the most recent tripled off that low to ₹108cr — of which about a fifth is the newly acquired Hobel. A business whose orders arrive one PO at a time cannot smooth a customer's decision to pause. <span class="src">Quarterly figures as reported (consolidated), cross-checked between the Q1FY27 deck's P&amp;L table and the profile's Screener series.</span></figcaption>
+</figure>
+
+<h2 id="s4"><span class="n">4.</span> The qualification funnel — how you become a supplier, and why it is the moat</h2>
+
+<p>You cannot simply quote for aerospace tooling. Before a customer will buy anything, the plant must hold the right certifications (<strong>AS9100D</strong> for aerospace quality systems, <strong>NADCAP</strong> for special processes like heat treatment and coating), and then <em>each individual part</em> must be qualified on its own through a <strong>First Article Inspection</strong> — you make one, and submit it with a dossier proving every dimension, material certificate and process step. The customer audits it. Only then does that part number become a <strong>qualified SKU</strong> you are allowed to supply.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 980 400" role="img" aria-label="Six-stage qualification funnel from NDA and RFQ through design, first article, FAI audit, qualified SKU, to repeat purchase orders, with cost incurred in the early stages and revenue arriving only at the end.">
+  <defs>
+    <marker id="f4a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <rect x="20"  y="46" width="140" height="76" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="90" y="78" text-anchor="middle">NDA &amp; RFQ</text>
+  <text class="t-sm t-mut" x="90" y="98" text-anchor="middle">customer shares</text>
+  <text class="t-sm t-mut" x="90" y="112" text-anchor="middle">a requirement</text>
+
+  <rect x="180" y="46" width="140" height="76" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="250" y="72" text-anchor="middle">Design &amp;</text>
+  <text class="t-md" x="250" y="88" text-anchor="middle">process plan</text>
+  <text class="t-sm t-mut" x="250" y="108" text-anchor="middle">to print, or to spec</text>
+
+  <rect x="340" y="46" width="140" height="76" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="410" y="78" text-anchor="middle">First article made</text>
+  <text class="t-sm t-mut" x="410" y="98" text-anchor="middle">one unit, full</text>
+  <text class="t-sm t-mut" x="410" y="112" text-anchor="middle">production route</text>
+
+  <rect x="500" y="46" width="140" height="76" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="570" y="72" text-anchor="middle">FAI dossier</text>
+  <text class="t-md" x="570" y="88" text-anchor="middle">+ customer audit</text>
+  <text class="t-sm t-mut" x="570" y="108" text-anchor="middle">full evidence dossier</text>
+
+  <rect x="660" y="46" width="140" height="76" rx="7" fill="#eaf2fb" stroke="#2E75B6" stroke-width="2"/>
+  <text class="t-md" x="730" y="78" text-anchor="middle" fill="#1F4E79">Qualified SKU</text>
+  <text class="t-sm" x="730" y="98" text-anchor="middle" fill="#1F4E79">6,300+ held</text>
+  <text class="t-sm" x="730" y="112" text-anchor="middle" fill="#1F4E79">across the company</text>
+
+  <rect x="820" y="46" width="140" height="76" rx="7" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.6"/>
+  <text class="t-md" x="890" y="78" text-anchor="middle" fill="#1a6f4a">Repeat POs</text>
+  <text class="t-sm" x="890" y="98" text-anchor="middle" fill="#1a6f4a">switching now means</text>
+  <text class="t-sm" x="890" y="112" text-anchor="middle" fill="#1a6f4a">requalifying</text>
+
+  <line x1="162" y1="84" x2="176" y2="84" stroke="currentColor" stroke-width="1.6" marker-end="url(#f4a)"/>
+  <line x1="322" y1="84" x2="336" y2="84" stroke="currentColor" stroke-width="1.6" marker-end="url(#f4a)"/>
+  <line x1="482" y1="84" x2="496" y2="84" stroke="currentColor" stroke-width="1.6" marker-end="url(#f4a)"/>
+  <line x1="642" y1="84" x2="656" y2="84" stroke="currentColor" stroke-width="1.6" marker-end="url(#f4a)"/>
+  <line x1="802" y1="84" x2="816" y2="84" stroke="currentColor" stroke-width="1.6" marker-end="url(#f4a)"/>
+
+  <rect x="20"  y="160" width="620" height="34" rx="5" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.2"/>
+  <text class="t" x="330" y="182" text-anchor="middle" fill="#b3261e">Cost is incurred across all of this — engineering, machine time, scrap, inspection, paperwork</text>
+  <rect x="660" y="160" width="300" height="34" rx="5" fill="#ecf7f1" stroke="#c7e4d5" stroke-width="1.2"/>
+  <text class="t" x="810" y="182" text-anchor="middle" fill="#1a6f4a">Revenue and margin only start here</text>
+  <line x1="644" y1="177" x2="656" y2="177" stroke="currentColor" stroke-width="1.4" marker-end="url(#f4a)"/>
+  <text class="t-sm t-mut" x="490" y="216" text-anchor="middle">the gap between them is measured in months to years — and it is why margin dips when qualification activity is high</text>
+
+  <rect x="20" y="248" width="300" height="88" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1.1"/>
+  <text class="t-md" x="36" y="272">Entry gates</text>
+  <text class="t-sm" x="36" y="293">AS9100D · ISO 9001 · NADCAP special</text>
+  <text class="t-sm" x="36" y="309">processes · customer-specific approvals</text>
+  <text class="t-sm t-mut" x="36" y="327">held since 2016–18</text>
+
+  <rect x="340" y="248" width="300" height="88" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1.1"/>
+  <text class="t-md" x="356" y="272">Throughput</text>
+  <text class="t-sm" x="356" y="293">165 FAIs completed in Q1FY27 alone;</text>
+  <text class="t-sm" x="356" y="309">200+ across FY26; 6,300+ SKUs qualified</text>
+  <text class="t-sm t-mut" x="356" y="327">the growth indicator management points to</text>
+
+  <rect x="660" y="248" width="300" height="88" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.2"/>
+  <text class="t-md" x="676" y="272" fill="#a2650a">The honest caveat</text>
+  <text class="t-sm" x="676" y="293">"Not all qualifications will necessarily</text>
+  <text class="t-sm" x="676" y="309">convert into production orders."</text>
+  <text class="t-sm t-mut" x="676" y="327">— management, Q1FY27 call</text>
+</svg>
+<figcaption><strong>Qualification is simultaneously the moat and the cost.</strong> Every FAI is money spent today against revenue that may arrive in a year, or not at all — which is why a quarter heavy on first articles carries a lower margin, and why management describes the precision segment as structurally lower-margin while it is being qualified. Once through, the same barrier protects the incumbent: replacing Unimech means the customer redoing the qualification. <span class="src">FAI counts and quotes from the Q2FY26, Q4FY26 and Q1FY27 calls; certifications and SKU counts from the Q1FY27 deck.</span></figcaption>
+</figure>
+
+<p><strong>Two ways the work arrives</strong>, and they are worth telling apart because they carry different economics:</p>
+<ul>
+<li><strong>Build-to-print</strong> — the customer supplies the drawing; Unimech manufactures to it. Lower engineering content, faster qualification, more substitutable.</li>
+<li><strong>Build-to-spec</strong> — the customer supplies a functional requirement; Unimech designs the tool and owns the engineering. Higher content, stickier, and the reason "advanced design, simulation and process engineering" appears first on the company's capability slide. <span class="src">Q1FY27 deck, capabilities panel.</span></li>
+</ul>
+
+<h2 id="s5"><span class="n">5.</span> Inside the plant — where a 65% gross margin comes from</h2>
+
+<p>The physical process is not exotic: cut metal, treat it, assemble it, test it, certify it, ship it. What is unusual is the cost structure that comes out the other end. <strong>Raw material and conversion is only about a third of revenue, and outsourced work is 3%.</strong> Almost everything else is people, machine time and paperwork — which is exactly what a customer is paying for when it buys a certified aerospace tool.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 980 430" role="img" aria-label="Eight-stage manufacturing process from engineering and design through export, and a stacked bar showing that material is 32 percent of revenue, sub-contracting 3 percent, employees 15 percent, other costs 13 percent and EBITDA 36.5 percent.">
+  <defs>
+    <marker id="f5a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <rect x="20"  y="40" width="215" height="58" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="127" y="66" text-anchor="middle">Engineering &amp; design</text>
+  <text class="t-sm t-mut" x="127" y="85" text-anchor="middle">design, simulation, process plan</text>
+
+  <rect x="255" y="40" width="215" height="58" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="362" y="66" text-anchor="middle">Material</text>
+  <text class="t-sm t-mut" x="362" y="85" text-anchor="middle">certified steels and alloys</text>
+
+  <rect x="490" y="40" width="215" height="58" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="597" y="66" text-anchor="middle">Precision machining</text>
+  <text class="t-sm t-mut" x="597" y="85" text-anchor="middle">3- to 5-axis CNC, EDM, grinding</text>
+
+  <rect x="725" y="40" width="215" height="58" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="832" y="66" text-anchor="middle">Special processes</text>
+  <text class="t-sm t-mut" x="832" y="85" text-anchor="middle">heat treat, coating — NADCAP</text>
+
+  <line x1="237" y1="69" x2="251" y2="69" stroke="currentColor" stroke-width="1.6" marker-end="url(#f5a)"/>
+  <line x1="472" y1="69" x2="486" y2="69" stroke="currentColor" stroke-width="1.6" marker-end="url(#f5a)"/>
+  <line x1="707" y1="69" x2="721" y2="69" stroke="currentColor" stroke-width="1.6" marker-end="url(#f5a)"/>
+  <path d="M832,100 V118 H127 V134" fill="none" stroke="currentColor" stroke-width="1.4" stroke-dasharray="5 4" marker-end="url(#f5a)"/>
+
+  <rect x="20"  y="138" width="215" height="58" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="127" y="164" text-anchor="middle">Assembly</text>
+  <text class="t-sm t-mut" x="127" y="183" text-anchor="middle">mechanical &amp; electro-mechanical</text>
+
+  <rect x="255" y="138" width="215" height="58" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="362" y="164" text-anchor="middle">Testing</text>
+  <text class="t-sm t-mut" x="362" y="183" text-anchor="middle">NDT, leak, load, performance</text>
+
+  <rect x="490" y="138" width="215" height="58" rx="7" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.8"/>
+  <text class="t-md" x="597" y="164" text-anchor="middle" fill="#1F4E79">Certification &amp; documentation</text>
+  <text class="t-sm" x="597" y="183" text-anchor="middle" fill="#1F4E79">the paper trail a regulator accepts</text>
+
+  <rect x="725" y="138" width="215" height="58" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="832" y="164" text-anchor="middle">Export</text>
+  <text class="t-sm t-mut" x="832" y="183" text-anchor="middle">~96% of revenue leaves India</text>
+
+  <line x1="237" y1="167" x2="251" y2="167" stroke="currentColor" stroke-width="1.6" marker-end="url(#f5a)"/>
+  <line x1="472" y1="167" x2="486" y2="167" stroke="currentColor" stroke-width="1.6" marker-end="url(#f5a)"/>
+  <line x1="707" y1="167" x2="721" y2="167" stroke="currentColor" stroke-width="1.6" marker-end="url(#f5a)"/>
+
+  <text class="t-md" x="20" y="238">Where ₹100 of Q1FY27 revenue goes</text>
+  <text class="t-sm" x="366" y="238" fill="#3d4b5c">3.3% sub-contracting — almost nothing is outsourced</text>
+  <line x1="362" y1="242" x2="362" y2="256" stroke="currentColor" stroke-width="1"/>
+
+  <rect x="20"  y="256" width="293" height="46" rx="3" fill="#b6cde2"/>
+  <rect x="315" y="256" width="30"  height="46" rx="3" fill="#a3c0da"/>
+  <rect x="347" y="256" width="138" height="46" rx="3" fill="#8fb3d2"/>
+  <rect x="487" y="256" width="119" height="46" rx="3" fill="#7ba6cb"/>
+  <rect x="608" y="256" width="332" height="46" rx="3" fill="#2E75B6"/>
+  <text class="t-md" x="166" y="285" text-anchor="middle" fill="#16202b">32.1%</text>
+  <text class="t-md" x="416" y="285" text-anchor="middle" fill="#16202b">15.1%</text>
+  <text class="t-md" x="547" y="285" text-anchor="middle" fill="#16202b">13.1%</text>
+  <text class="t-md" x="774" y="285" text-anchor="middle" fill="#ffffff">36.5% EBITDA</text>
+  <text class="t-sm t-mut" x="166" y="320" text-anchor="middle">material &amp; conversion</text>
+  <text class="t-sm t-mut" x="416" y="320" text-anchor="middle">employees</text>
+  <text class="t-sm t-mut" x="547" y="320" text-anchor="middle">other opex</text>
+  <text class="t-sm t-mut" x="774" y="320" text-anchor="middle">operating profit</text>
+
+  <text class="t" x="20" y="352">Gross margin was 65% in Q1FY27. The customer is not paying for steel — it is paying for engineering hours, certified machine time and a</text>
+  <text class="t" x="20" y="370">document pack that satisfies an auditor. That is the whole economic argument for this business.</text>
+  <rect x="20" y="386" width="920" height="34" rx="6" fill="#f7fafc" stroke="currentColor" stroke-width="1"/>
+  <text class="t" x="36" y="408">Capacity is sold in machine-hours, not tonnes: 5.02 lakh hrs in tooling + 1.82 lakh in precision (H1FY26) — about 60% utilised at Jun-2026.</text>
+</svg>
+<figcaption><strong>This is a conversion business, not a metal business.</strong> Sub-contracting at 3% means the margin is not being shared with a job-shop network; it also means growth needs Unimech's own machines and people, which is why capacity utilisation is the number to watch when demand returns. <span class="src">Cost percentages from the Q1FY27 deck's P&amp;L table; gross margin and sub-contracting from the Q1FY27 call; capacity hours from the H1FY26 deck's capacity table; ~60% utilisation from the Q1FY27 deck.</span></figcaption>
+</figure>
+
+<h2 id="s6"><span class="n">6.</span> The three revenue engines — and the one-off → recurring shift</h2>
+
+<p>Unimech now has three businesses that sell different things to different people on different order rhythms. The important thing is not their relative size today; it is <strong>where each one sits on the line between "bought once" and "bought under contract."</strong></p>
+
+<figure class="dg">
+<svg viewBox="0 0 980 470" role="img" aria-label="Three business cards for aero tooling, precision components and Hobel bellows, plotted on an axis running from episodic one-off orders to recurring contracted revenue.">
+  <defs>
+    <marker id="f6a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+    <marker id="f6g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a6f4a"/>
+    </marker>
+  </defs>
+
+  <rect x="20" y="16" width="300" height="234" rx="9" fill="#f7fafc" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t-lg" x="38" y="44" fill="#1F4E79">Aero tooling</text>
+  <rect x="38" y="54" width="128" height="22" rx="11" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1"/>
+  <text class="t-sm" x="102" y="69" text-anchor="middle" fill="#1F4E79">~76% of revenue</text>
+  <text class="t" x="38" y="100">Sells: engine tools, airframe tools, MRO</text>
+  <text class="t" x="38" y="117">tools, ground support equipment</text>
+  <text class="t" x="38" y="141">Buys: Tier-1 tool licensees, engine and</text>
+  <text class="t" x="38" y="158">aircraft OEMs, MRO shops</text>
+  <text class="t" x="38" y="182">Order type: PO to PO · USD 0.5–1m typical</text>
+  <text class="t" x="38" y="206">4,990 SKUs · 697 people</text>
+  <text class="t t-mut" x="38" y="230">Executes in 4–6 months</text>
+
+  <rect x="340" y="16" width="300" height="234" rx="9" fill="#f7fafc" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t-lg" x="358" y="44" fill="#1F4E79">Precision components</text>
+  <rect x="358" y="54" width="150" height="22" rx="11" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1"/>
+  <text class="t-sm" x="433" y="69" text-anchor="middle" fill="#1F4E79">the diversification leg</text>
+  <text class="t" x="358" y="100">Sells: machined parts and integrated</text>
+  <text class="t" x="358" y="117">sub-assemblies, made to qualification</text>
+  <text class="t" x="358" y="141">Buys: nuclear PSU, semiconductor</text>
+  <text class="t" x="358" y="158">equipment OEMs, defence, oil &amp; gas</text>
+  <text class="t" x="358" y="182">1,312 SKUs · ₹87.3cr nuclear orders booked</text>
+  <text class="t" x="358" y="206">Margin runs lower while FAIs are being run</text>
+  <text class="t t-mut" x="358" y="230">Nuclear executes in 12–18 months</text>
+
+  <rect x="660" y="16" width="300" height="234" rx="9" fill="#f7fafc" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t-lg" x="678" y="44" fill="#1F4E79">Hobel Bellows</text>
+  <rect x="678" y="54" width="176" height="22" rx="11" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1"/>
+  <text class="t-sm" x="766" y="69" text-anchor="middle" fill="#1F4E79">21% of Q1FY27, 2 months only</text>
+  <text class="t" x="678" y="100">Sells: metallic bellows, expansion joints,</text>
+  <text class="t" x="678" y="117">flexible hoses, exhaust manifolds</text>
+  <text class="t" x="678" y="141">Buys: engine, genset, locomotive and</text>
+  <text class="t" x="678" y="158">marine OEMs · ~85% exports</text>
+  <text class="t" x="678" y="182">~₹129cr revenue · EBITDA margin &gt;50%</text>
+  <text class="t" x="678" y="206" fill="#b3261e">Two OEM groups ≈ 93% of its revenue</text>
+  <text class="t t-mut" x="678" y="230">Acquired 27-Apr-2026 for ₹450cr</text>
+
+  <path d="M150,300 H860" fill="none" stroke="#1a6f4a" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#f6g)"/>
+  <text class="t" x="505" y="290" text-anchor="middle" fill="#1a6f4a">the direction management says it is trying to travel</text>
+
+  <line x1="60" y1="336" x2="940" y2="336" stroke="currentColor" stroke-width="1.5" marker-end="url(#f6a)"/>
+  <text class="t-sm t-mut" x="60" y="326">episodic · bought once</text>
+  <text class="t-sm t-mut" x="920" y="326" text-anchor="end">recurring · contracted</text>
+
+  <circle cx="140" cy="336" r="7" fill="#2E75B6"/>
+  <circle cx="380" cy="336" r="7" fill="#2E75B6"/>
+  <circle cx="620" cy="336" r="7" fill="#2E75B6"/>
+  <circle cx="870" cy="336" r="8" fill="#1a6f4a"/>
+
+  <text class="t-md" x="140" y="366" text-anchor="middle">Aero tooling</text>
+  <text class="t-sm t-mut" x="140" y="384" text-anchor="middle">one PO at a time</text>
+  <text class="t-md" x="380" y="366" text-anchor="middle">Nuclear projects</text>
+  <text class="t-sm t-mut" x="380" y="384" text-anchor="middle">large, slow, project-shaped</text>
+  <text class="t-md" x="620" y="366" text-anchor="middle">Bellows</text>
+  <text class="t-sm t-mut" x="620" y="384" text-anchor="middle">repeat industrial demand</text>
+  <text class="t-md" x="870" y="366" text-anchor="middle" fill="#1a6f4a">FACC agreement</text>
+  <text class="t-sm" x="870" y="384" text-anchor="middle" fill="#1a6f4a">5 years, contracted</text>
+
+  <rect x="20" y="404" width="940" height="52" rx="8" fill="#ecf7f1" stroke="#c7e4d5" stroke-width="1.2"/>
+  <text class="t" x="36" y="428" fill="#1a6f4a">The FACC long-term agreement is small in money — USD 7.5m over five years, roughly ₹13cr a year against ₹285cr of trailing revenue — but it is the first</text>
+  <text class="t" x="36" y="446" fill="#1a6f4a">revenue Unimech has that is contracted rather than quoted. Management says a leading engine Tier-1 is "at an advanced stage" on a similar agreement.</text>
+</svg>
+<figcaption><strong>If you only follow one thing in this business, follow this axis.</strong> The volatility problem in §3 and the qualification cost in §4 are both symptoms of living at the left end of it. Every rupee that moves right — contracted flying parts, repeat bellows demand, long-cycle nuclear — makes the revenue line more predictable and the margin less hostage to one customer's stocking decision. <span class="src">Segment data from the Q1FY27 deck; Hobel financials from the 28-Apr-2026 acquisition call; FACC terms from the Q1FY27 call and deck.</span></figcaption>
+</figure>
+
+<h2 id="s7"><span class="n">7.</span> Bellows, explained — what ₹450cr actually bought</h2>
+
+<p>Unimech spent essentially its whole IPO treasury on a company most investors have never heard of, making a product most have never seen. It is worth understanding the object, because the product explains the margin.</p>
+
+<p>A <strong>metallic bellows</strong> is a flexible section of pipe, made of thin corrugated metal, that connects two things which move relative to each other. On an engine exhaust, one end is bolted to an engine that vibrates and gets very hot (metal grows when heated); the other end is bolted to ducting fixed to the structure. A rigid pipe joining them cracks — from thermal expansion, from vibration, or from being fractionally misaligned at installation. The bellows absorbs all three.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 980 350" role="img" aria-label="A metallic bellows drawn as a corrugated tube between two flanges, absorbing axial thermal growth and vibration, shown in position between an engine exhaust manifold and a fixed stack.">
+  <defs>
+    <marker id="f7a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <text class="t-md" x="30" y="42">A metallic bellows, side-on</text>
+
+  <rect x="30"  y="142" width="40" height="36" fill="#eef3f8" stroke="currentColor" stroke-width="1.4"/>
+  <rect x="70"  y="104" width="22" height="112" fill="#dbe6f0" stroke="currentColor" stroke-width="1.4"/>
+  <rect x="350" y="104" width="22" height="112" fill="#dbe6f0" stroke="currentColor" stroke-width="1.4"/>
+  <rect x="372" y="142" width="40" height="36" fill="#eef3f8" stroke="currentColor" stroke-width="1.4"/>
+
+  <polyline points="92,140 100,116 116,144 132,116 148,144 164,116 180,144 196,116 212,144 228,116 244,144 260,116 276,144 292,116 308,144 324,116 340,140 350,140"
+            fill="none" stroke="#2E75B6" stroke-width="2"/>
+  <polyline points="92,180 100,204 116,176 132,204 148,176 164,204 180,176 196,204 212,176 228,204 244,176 260,204 276,176 292,204 308,176 324,204 340,180 350,180"
+            fill="none" stroke="#2E75B6" stroke-width="2"/>
+  <line x1="92" y1="160" x2="350" y2="160" stroke="currentColor" stroke-width="1" stroke-dasharray="5 5" opacity=".5"/>
+
+  <line x1="150" y1="84" x2="300" y2="84" stroke="currentColor" stroke-width="1.5" marker-start="url(#f7a)" marker-end="url(#f7a)"/>
+  <text class="t" x="225" y="74" text-anchor="middle">grows and shrinks as it heats and cools</text>
+  <path d="M200,232 q30,22 60,4" fill="none" stroke="currentColor" stroke-width="1.5" marker-end="url(#f7a)"/>
+  <text class="t" x="225" y="262" text-anchor="middle">absorbs vibration and misalignment</text>
+  <text class="t-sm t-mut" x="225" y="284" text-anchor="middle">the corrugations — "convolutions" — are the working part</text>
+
+  <text class="t-md" x="440" y="42">Where it sits</text>
+  <rect x="440" y="120" width="110" height="52" rx="6" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t" x="495" y="143" text-anchor="middle">Engine</text>
+  <text class="t-sm t-mut" x="495" y="160" text-anchor="middle">hot, vibrating</text>
+  <rect x="570" y="120" width="120" height="52" rx="6" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t" x="630" y="150" text-anchor="middle">Exhaust manifold</text>
+  <rect x="710" y="120" width="110" height="52" rx="6" fill="#eaf2fb" stroke="#2E75B6" stroke-width="2"/>
+  <text class="t-md" x="765" y="143" text-anchor="middle" fill="#1F4E79">BELLOWS</text>
+  <text class="t-sm" x="765" y="160" text-anchor="middle" fill="#1F4E79">takes the movement</text>
+  <rect x="840" y="120" width="110" height="52" rx="6" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t" x="895" y="143" text-anchor="middle">Stack / ducting</text>
+  <text class="t-sm t-mut" x="895" y="160" text-anchor="middle">bolted, fixed</text>
+  <line x1="552" y1="146" x2="566" y2="146" stroke="currentColor" stroke-width="1.6" marker-end="url(#f7a)"/>
+  <line x1="692" y1="146" x2="706" y2="146" stroke="currentColor" stroke-width="1.6" marker-end="url(#f7a)"/>
+  <line x1="822" y1="146" x2="836" y2="146" stroke="currentColor" stroke-width="1.6" marker-end="url(#f7a)"/>
+  <text class="t" x="440" y="206">One end moves, the other cannot. A rigid pipe between them fails.</text>
+  <text class="t" x="440" y="226">The part is small and cheap next to the engine, and its failure</text>
+  <text class="t" x="440" y="246">stops the machine — which is what mission-critical means, and</text>
+  <text class="t" x="440" y="266">what lets a qualified maker hold a &gt;50% EBITDA margin.</text>
+
+  <rect x="20" y="298" width="940" height="42" rx="7" fill="#f7fafc" stroke="currentColor" stroke-width="1"/>
+  <text class="t" x="36" y="324">Hobel Bellows · Visakhapatnam SEZ · est. 2007 · 290+ people · ~85% exports · engines 900–9,000 BHP · power gen, locomotives, marine, industrial</text>
+</svg>
+<figcaption><strong>The product tells you where the margin comes from — and where the risk is.</strong> A qualified, mission-critical, low-ticket consumable inside somebody else's expensive machine is a structurally high-margin position. The same logic makes Hobel's customer concentration — <strong>two OEM groups at roughly 93% of revenue</strong> — the thing to watch: it is the same shape of exposure that produced Unimech's own December-2025 quarter. <span class="src">Product range and plant facts from the Q1FY27 deck; financials, margin and concentration from the dedicated acquisition call, 28-Apr-2026. The engineering explanation of why a bellows exists is standard mechanical practice, not a company statement.</span></figcaption>
+</figure>
+
+<h2 id="s8"><span class="n">8.</span> The tariff mechanism — why one quarter halved</h2>
+
+<p>This is the single most instructive episode in the company's short listed life, and it is a pure industry-structure story rather than an operational failure. Nothing broke inside the factory.</p>
+
+<p>Under normal conditions, a Tier-1 customer holds tooling inventory in a US warehouse and restocks in batches. When US tariffs on Indian goods went to 50%, holding that inventory became expensive, so customers switched to <strong>drop-shipment only</strong> — ordering just what a job needed that week and deferring everything non-urgent. Unimech's order intake did not fall because aircraft stopped being built; it fell because <strong>a link in the chain changed its inventory policy.</strong></p>
+
+<figure class="dg">
+<svg viewBox="0 0 980 555" role="img" aria-label="Three panels showing normal inventory-led ordering, the collapse when a 50 percent tariff pushed customers to drop-shipment only, and the free-trade warehouse fix which helps non-US shipments but not US-bound goods.">
+  <defs>
+    <marker id="f8a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+    <marker id="f8r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b3261e"/>
+    </marker>
+    <marker id="f8g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a6f4a"/>
+    </marker>
+    <marker id="f8m" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#a2650a"/>
+    </marker>
+  </defs>
+
+  <text class="t-md" x="20" y="30">Before — inventory-led ordering</text>
+  <rect x="20"  y="46" width="200" height="60" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t" x="120" y="72" text-anchor="middle">Unimech, India</text>
+  <text class="t-sm t-mut" x="120" y="90" text-anchor="middle">makes the tools</text>
+  <rect x="330" y="46" width="230" height="60" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t" x="445" y="72" text-anchor="middle">Customer's US warehouse</text>
+  <text class="t-sm t-mut" x="445" y="90" text-anchor="middle">holds stock of tooling</text>
+  <rect x="660" y="46" width="240" height="60" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t" x="780" y="72" text-anchor="middle">Assembly lines &amp; MRO shops</text>
+  <text class="t-sm t-mut" x="780" y="90" text-anchor="middle">worldwide</text>
+  <line x1="222" y1="76" x2="326" y2="76" stroke="currentColor" stroke-width="1.6" marker-end="url(#f8a)"/>
+  <text class="t-sm t-mut" x="274" y="66" text-anchor="middle">batch shipments</text>
+  <line x1="562" y1="76" x2="656" y2="76" stroke="currentColor" stroke-width="1.6" marker-end="url(#f8a)"/>
+  <text class="t-sm t-mut" x="609" y="66" text-anchor="middle">drawn down</text>
+
+  <line x1="20" y1="130" x2="960" y2="130" stroke="currentColor" stroke-width="1" opacity=".2"/>
+
+  <text class="t-md" x="20" y="162" fill="#b3261e">During — US tariff at 50%, Aug-2025 to Feb-2026</text>
+  <rect x="20"  y="178" width="200" height="60" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t" x="120" y="212" text-anchor="middle">Unimech, India</text>
+  <rect x="330" y="178" width="230" height="60" rx="7" fill="#fbfbfb" stroke="#b3261e" stroke-width="1.4" stroke-dasharray="6 4"/>
+  <text class="t" x="445" y="204" text-anchor="middle" fill="#b3261e">US warehouse — not restocked</text>
+  <text class="t-sm" x="445" y="222" text-anchor="middle" fill="#b3261e">holding inventory now costs 50%</text>
+  <rect x="660" y="178" width="240" height="60" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t" x="780" y="212" text-anchor="middle">Assembly lines &amp; MRO shops</text>
+  <rect x="266" y="192" width="14" height="34" fill="#b3261e"/>
+  <text class="t-sm" x="273" y="186" text-anchor="middle" fill="#b3261e">duty</text>
+  <line x1="222" y1="208" x2="326" y2="208" stroke="currentColor" stroke-width="1.6" opacity=".35" marker-end="url(#f8a)"/>
+  <path d="M170,240 C300,300 560,300 700,244" fill="none" stroke="#b3261e" stroke-width="1.8" marker-end="url(#f8r)"/>
+  <text class="t" x="440" y="300" text-anchor="middle" fill="#b3261e">drop-shipment only — order what a job needs this week, defer every non-urgent tool</text>
+
+  <rect x="20" y="318" width="940" height="44" rx="7" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.2"/>
+  <text class="t-md" x="36" y="338" fill="#b3261e">Q3FY26 result: revenue ₹62cr → ₹34cr · operating margin 30% → 4.6% · PAT ₹2cr</text>
+  <text class="t" x="36" y="356" fill="#b3261e">…while US end-consumption is only about 30–35% of the business. A third of demand hesitating took roughly half the revenue and nearly all the profit.</text>
+
+  <line x1="20" y1="386" x2="960" y2="386" stroke="currentColor" stroke-width="1" opacity=".2"/>
+
+  <text class="t-md" x="20" y="416" fill="#1a6f4a">The fix — free-trade warehouse, fully operational since Q1FY27</text>
+  <rect x="20"  y="434" width="260" height="90" rx="7" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.8"/>
+  <text class="t-md" x="150" y="464" text-anchor="middle" fill="#1F4E79">Unimech FTWZ, India</text>
+  <text class="t-sm" x="150" y="484" text-anchor="middle" fill="#1F4E79">customers park duty-free stock</text>
+  <text class="t-sm" x="150" y="502" text-anchor="middle" fill="#1F4E79">on Indian soil, before it is sold</text>
+
+  <rect x="600" y="410" width="360" height="56" rx="7" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.5"/>
+  <text class="t" x="780" y="434" text-anchor="middle" fill="#1a6f4a">Non-US destinations — ~65–70% of end consumption</text>
+  <text class="t-sm" x="780" y="453" text-anchor="middle" fill="#1a6f4a">shorter lead time, lower freight, no US duty in the path</text>
+  <line x1="284" y1="452" x2="594" y2="440" stroke="#1a6f4a" stroke-width="1.8" marker-end="url(#f8g)"/>
+
+  <rect x="600" y="486" width="360" height="56" rx="7" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.5"/>
+  <text class="t" x="780" y="510" text-anchor="middle" fill="#a2650a">US destinations — ~30–35% of end consumption</text>
+  <text class="t-sm" x="780" y="529" text-anchor="middle" fill="#a2650a">still ships India → US and still pays duty · 18% since Feb-2026</text>
+  <line x1="284" y1="506" x2="594" y2="514" stroke="#a2650a" stroke-width="1.8" marker-end="url(#f8m)"/>
+</svg>
+<figcaption><strong>Read the third panel carefully — the mitigation is real but partial.</strong> The CFO's own description is that the warehouse lets customers move inventory destined for <em>non-US</em> markets out of the US and into India, saving duty, time and freight; goods actually consumed in the US "has to be shipped from India to the U.S. only, which will definitely attract the kind of tariff." So the FTWZ protects the two-thirds of end demand outside America and improves customer stickiness; it does not neutralise the US third. <span class="src">Mechanism and quotes from the Q3FY26 call (13-Feb-2026) and the Q4FY26 call (29-May-2026); tariff impact figures from the Q3FY26 call and results. <span class="tag inf">MY INFERENCE</span> — the operating-leverage arithmetic in the red strip is mine, computed from the reported numbers.</span></figcaption>
+</figure>
+
+<div class="box">
+<h4>The general lesson, beyond Unimech</h4>
+<p style="margin:6px 0">A supplier this far down the chain does not see end demand — it sees its customer's <em>ordering policy</em>. Those two can diverge sharply and for several quarters at a time. Any component or tooling business with a high fixed-cost base and episodic orders will show this shape: long stretches of stable revenue punctuated by a quarter where the operating margin nearly vanishes, without anything in the underlying market having changed.</p>
+</div>
+
+<h2 id="s9"><span class="n">9.</span> Where Unimech sits against the watchlist's other aerospace names</h2>
+
+<p>There is no listed pure-play comparable for aerospace tooling in India, which is why the peer question keeps getting answered badly. The useful comparison is not "who else is in aerospace" but <strong>what each company sells and to whom</strong>.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 980 500" role="img" aria-label="A positioning map with off-aircraft equipment versus on-aircraft flying content on the horizontal axis and manufacturing versus engineering services on the vertical, showing Unimech in the off-aircraft manufacturing quadrant moving right toward flying content, with Azad, Dynamatech, Paras and Axiscades placed elsewhere.">
+  <defs>
+    <marker id="f9a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+    <marker id="f9b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2E75B6"/>
+    </marker>
+  </defs>
+
+  <line x1="90" y1="410" x2="944" y2="410" stroke="currentColor" stroke-width="1.5" marker-end="url(#f9a)"/>
+  <line x1="90" y1="410" x2="90" y2="36" stroke="currentColor" stroke-width="1.5" marker-end="url(#f9a)"/>
+  <line x1="515" y1="46" x2="515" y2="410" stroke="currentColor" stroke-width="1" stroke-dasharray="5 6" opacity=".35"/>
+  <line x1="90" y1="228" x2="934" y2="228" stroke="currentColor" stroke-width="1" stroke-dasharray="5 6" opacity=".35"/>
+
+  <text class="t-sm t-mut" x="100" y="436">Off-aircraft — equipment that builds and services the platform</text>
+  <text class="t-sm t-mut" x="934" y="436" text-anchor="end">On-aircraft — content that flies</text>
+  <text class="t-sm t-mut" x="74" y="150" transform="rotate(-90 74 150)" text-anchor="middle">manufacturing · physical output</text>
+  <text class="t-sm t-mut" x="74" y="330" transform="rotate(-90 74 330)" text-anchor="middle">engineering services · hours</text>
+
+  <circle cx="250" cy="130" r="10" fill="#2E75B6"/>
+  <text class="t-lg" x="250" y="108" text-anchor="middle" fill="#1F4E79">UNIMECH</text>
+  <text class="t-sm t-mut" x="250" y="162" text-anchor="middle">tooling, GSE, precision parts</text>
+  <text class="t-sm t-mut" x="250" y="178" text-anchor="middle">bought by the factory, not the aircraft</text>
+  <path d="M266,130 H500" fill="none" stroke="#2E75B6" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#f9b)"/>
+  <circle cx="520" cy="130" r="7" fill="none" stroke="#2E75B6" stroke-width="2"/>
+  <text class="t-sm" x="536" y="126" fill="#1F4E79">FACC agreement — first flying content,</text>
+  <text class="t-sm" x="536" y="142" fill="#1F4E79">USD 7.5m over 5 years</text>
+
+  <circle cx="800" cy="196" r="9" fill="#3d4b5c"/>
+  <text class="t-md" x="800" y="176" text-anchor="middle">AZAD</text>
+  <text class="t-sm t-mut" x="800" y="222" text-anchor="middle">precision aero &amp; turbine components</text>
+
+  <circle cx="690" cy="290" r="9" fill="#3d4b5c"/>
+  <text class="t-md" x="690" y="270" text-anchor="middle">DYNAMATECH</text>
+  <text class="t-sm t-mut" x="690" y="316" text-anchor="middle">airframe structures + hydraulics</text>
+
+  <circle cx="846" cy="330" r="9" fill="#3d4b5c"/>
+  <text class="t-md" x="846" y="310" text-anchor="middle">PARAS</text>
+  <text class="t-sm t-mut" x="846" y="356" text-anchor="middle">defence optronics — on-platform</text>
+
+  <circle cx="430" cy="360" r="9" fill="#3d4b5c"/>
+  <text class="t-md" x="430" y="340" text-anchor="middle">AXISCADES</text>
+  <text class="t-sm t-mut" x="430" y="386" text-anchor="middle">engineering services — being sold to Akkodis</text>
+
+  <text class="t-sm t-mut" x="100" y="472">Positions are qualitative and are my framing, not company data. The point of the map is that Unimech's nearest neighbour in economics — Azad — sits</text>
+  <text class="t-sm t-mut" x="100" y="488">in a different place in the value chain, and the company closest to it in the chain is one it is only just starting to resemble.</text>
+</svg>
+<figcaption><strong>Unimech is alone in its quadrant.</strong> Azad, Dynamatech and Paras all sell content that ends up on a flying platform; Axiscades sells engineering hours. Unimech sells the equipment that makes the platform possible — which is a genuinely differentiated position, and also the reason no peer's multiple or growth rate translates cleanly onto it. The dashed arrow is the entire strategic question: does it become a flying-content company, or stay a tooling company. <span class="src">Peer descriptions from their own watchlist profiles; placement is my judgement.</span></figcaption>
+</figure>
+
+<h2 id="s10"><span class="n">10.</span> Reading the industry through the numbers</h2>
+
+<p>Each mechanism above surfaces in a specific line of the disclosure. This is the translation table.</p>
+
+<div class="tw"><table>
+<thead><tr><th style="width:26%">Industry mechanism</th><th style="width:24%">Where it shows up</th><th style="width:30%">Latest reading</th><th style="width:20%">Source</th></tr></thead>
+<tbody>
+<tr><td>Qualification is the barrier to entry</td><td>FAIs executed; qualified SKUs</td><td><strong>165 FAIs in Q1FY27</strong>; 200+ in FY26; 6,300+ SKUs held</td><td>Q1FY27 call &amp; deck</td></tr>
+<tr><td>…but qualification costs money before it earns any</td><td>Precision-segment margin; employee cost ratio</td><td>Management: qualification programmes "carry higher initial cost before transitioning into serial production"</td><td>Q1FY27 call</td></tr>
+<tr><td>Orders are episodic, one PO at a time</td><td>Quarterly revenue swing</td><td><strong>₹62cr → ₹34cr → ₹82cr → ₹108cr</strong> in four quarters</td><td>Q1FY27 deck P&amp;L</td></tr>
+<tr><td>Conversion of qualification into orders</td><td>Order book</td><td><strong>₹280cr</strong> at 30-Jun-26 — Unimech ₹180cr + Hobel ₹100cr; roughly one year of revenue</td><td>Q1FY27 deck</td></tr>
+<tr><td>Shift from one-off to contracted revenue</td><td>Number and value of long-term agreements</td><td><strong>One</strong> — FACC, USD 7.5m over 5 years. A second, with an engine Tier-1, "at an advanced stage"</td><td>Q1FY27 call</td></tr>
+<tr><td>Value sits in hours, not metal</td><td>Gross margin; sub-contracting %</td><td><strong>65% gross margin</strong>; sub-contracting <strong>3.3%</strong> of revenue</td><td>Q1FY27 call &amp; deck</td></tr>
+<tr><td>Operating leverage runs both ways</td><td>Capacity utilisation, measured in machine-hours</td><td><strong>~60%</strong> at Jun-26; management claims peak-capacity revenue of ~3.5x current in tooling</td><td>Q1FY27 deck; Q1FY27 call</td></tr>
+<tr><td>Exposure to a customer's inventory policy</td><td>US share of <em>end consumption</em> (not of billing)</td><td><strong>~30–35%</strong>; non-US 65–70%</td><td>Q3FY26 call</td></tr>
+<tr><td>MRO as the annuity behind the cycle</td><td>MRO tool packages won</td><td><strong>Not quantified anywhere.</strong> Only qualitative — e.g. 100+ tools for the Safran–HAL Goa MRO</td><td>Q1FY27 call</td></tr>
+<tr><td>Nuclear as the domestic second leg</td><td>Orders booked vs revenue recognised</td><td><strong>₹87.3cr booked; execution guided to H2FY27; nothing recognised yet</strong></td><td>Q1FY27 deck</td></tr>
+</tbody>
+</table></div>
+
+<h2 id="s11"><span class="n">11.</span> What the company does not disclose</h2>
+
+<p>Stated as gaps rather than filled with inference, because the difference between "not reported" and "I could not find it" matters. Each of these is answerable and none has been answered on any of the eight calls:</p>
+
+<ul>
+<li><strong>The conversion rate of qualifications into serial orders.</strong> An analyst asked this directly in Q1FY27 — what proportion of SKUs qualified over the last two to three years actually became recurring business. The FAI count is the company's headline growth indicator, and without a conversion rate it cannot be judged.</li>
+<li><strong>Customer concentration in the tooling business.</strong> Hobel's is disclosed (two OEM groups ≈93%). Unimech's own is not, in a segment where the buyers are a small number of Tier-1 licensees.</li>
+<li><strong>The split of revenue between new-build tooling and MRO tooling.</strong> These have different cyclicality — MRO is the annuity, new-build follows programme rates — and they are reported as one number.</li>
+<li><strong>Repeat versus first-time revenue.</strong> The whole moat argument rests on requalification cost deterring switching; the share of revenue that is genuinely repeat business would evidence it.</li>
+<li><strong>Segment-level order book.</strong> Only the Unimech/Hobel split is given, so it is not possible to see whether the nuclear or precision pipeline is actually building.</li>
+</ul>
+
+<h2 id="s12"><span class="n">12.</span> Glossary</h2>
+
+<dl class="glos">
+<dt>OEM</dt><dd>Original Equipment Manufacturer — the company whose name is on the product. Airbus and Boeing for aircraft; GE, Safran, Pratt &amp; Whitney and Rolls-Royce for engines.</dd>
+<dt>Tier-1 / Tier-2</dt><dd>Position in the supply chain. A Tier-1 sells directly to the OEM; a Tier-2 sells to a Tier-1. Unimech is mostly Tier-2.</dd>
+<dt>Tool licensee</dt><dd>A company licensed by an engine OEM to manufacture and sell that engine's tooling. Unimech's main tooling customer type.</dd>
+<dt>MRO</dt><dd>Maintenance, Repair and Overhaul — the shops that strip, inspect and rebuild engines through their service life.</dd>
+<dt>GSE</dt><dd>Ground Support Equipment — carts, dollies, stands and handling rigs used around an aircraft or engine on the ground.</dd>
+<dt>FAI</dt><dd>First Article Inspection — making one unit and submitting a full evidence dossier so the customer can approve that part number for supply.</dd>
+<dt>SKU</dt><dd>A distinct part number. "6,300+ qualified SKUs" means that many individual items Unimech is approved to supply.</dd>
+<dt>AS9100D</dt><dd>The aerospace quality-management standard. Without it you cannot be an aerospace supplier at all.</dd>
+<dt>NADCAP</dt><dd>Accreditation for special processes — heat treatment, coating, welding, non-destructive testing — audited separately from the quality system.</dd>
+<dt>Build-to-print</dt><dd>You manufacture to the customer's drawing. Lower engineering content.</dd>
+<dt>Build-to-spec</dt><dd>You design the item to meet the customer's functional requirement. Higher engineering content, stickier.</dd>
+<dt>LTA</dt><dd>Long-Term Agreement — a multi-year supply contract, as opposed to a one-off purchase order.</dd>
+<dt>PO-to-PO</dt><dd>Business that arrives one purchase order at a time, with no contractual commitment to the next one.</dd>
+<dt>Drop shipment</dt><dd>Shipping directly to the point of use instead of into a customer's warehouse — what customers switched to under the 50% tariff.</dd>
+<dt>FTWZ</dt><dd>Free Trade Warehousing Zone — a bonded warehouse on Indian soil where a customer can hold stock before it is formally imported or exported.</dd>
+<dt>BHP</dt><dd>Brake horsepower — the engine-size range Hobel's bellows serve, 900 to 9,000 BHP.</dd>
+</dl>
+
+<hr>
+
+<h3>Sources</h3>
+<p class="src"><strong>Transcripts (8):</strong> Q1FY27 (4-Aug-2026) · Q4FY26 (29-May-2026) · Hobel acquisition call (28-Apr-2026) · Q3FY26 (13-Feb-2026) · Q2FY26 (13-Nov-2025) · Q1FY26 (25-Jul-2025) · Q4FY25 (28-May-2025) · Q3FY25 (17-Feb-2025).<br>
+<strong>Investor decks (7):</strong> Feb-2025 through Aug-2026, held in <code class="src">Fetched Concalls/UNIMECH/</code>.<br>
+<strong>Extraction discipline:</strong> figures are taken from deck tables, text slides and spoken commentary only. No number on this page is read off a chart in a deck — per the standing rule that chart-derived figures must be confirmed against a table before use.<br>
+<strong>Companion document:</strong> <code class="src">Company Profiles/UNIMECH.md</code> carries the financial analysis, valuation, delivery scorecard and risk list. This page deliberately makes no investment judgement.</p>
+
+</body>
+</html>
