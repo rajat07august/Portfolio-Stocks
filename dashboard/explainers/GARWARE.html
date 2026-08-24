@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How the Speciality Films Business Works — Garware Industry Primer</title>
+<meta name="robots" content="noindex,nofollow">
+<style>
+:root{
+  --navy:#1F4E79; --blue:#2E75B6; --ink:#16202b; --mut:#5a6a78; --bg:#fafbfc;
+  --card:#ffffff; --line:#e3e8ee; --amber:#a2650a; --amberbg:#fff8e6;
+  --red:#b3261e; --redbg:#fdeceb; --green:#1a6f4a; --greenbg:#ecf7f1;
+  color-scheme: light;
+}
+*{box-sizing:border-box}
+body{
+  max-width:1040px; margin:0 auto; padding:22px 20px 80px;
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+  line-height:1.62; color:var(--ink); background:var(--bg); font-size:15px;
+}
+.nav{display:flex; gap:18px; flex-wrap:wrap; margin-bottom:12px; font-size:13.5px}
+.nav a{color:var(--navy); font-weight:600; text-decoration:none}
+.nav a:hover{text-decoration:underline; color:var(--blue)}
+.topbar{background:linear-gradient(135deg,#1F4E79 0%,#2E75B6 100%); color:#fff; padding:20px 24px; border-radius:10px; margin-bottom:22px}
+.topbar h1{margin:0 0 6px; font-size:25px; line-height:1.25; color:#fff; border:0; padding:0}
+.topbar .sub{font-size:14.5px; opacity:.92}
+.topbar .meta{font-size:12.5px; opacity:.8; margin-top:10px}
+h2{color:var(--navy); font-size:20px; margin:44px 0 6px; border-left:4px solid var(--navy); padding-left:12px}
+h2 .n{color:var(--blue); font-weight:700}
+h3{color:var(--blue); font-size:16px; margin:26px 0 8px}
+p{margin:11px 0}
+ul{margin:10px 0; padding-left:22px} li{margin:6px 0}
+.lede{font-size:15.5px; color:#2c3b49}
+.box{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 18px; margin:18px 0}
+.box.warn{background:var(--amberbg); border-color:#f0dcae}
+.box.red{background:var(--redbg); border-color:#f3cfcb}
+.box.good{background:var(--greenbg); border-color:#c7e4d5}
+.box h4{margin:0 0 6px; font-size:14px; color:var(--navy); text-transform:uppercase; letter-spacing:.04em}
+.src{color:var(--mut); font-size:12.5px}
+code.src{background:transparent; padding:0}
+figure.dg{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px 16px 12px; margin:22px 0}
+figure.dg svg{width:100%; height:auto; display:block; color:#3d4b5c}
+figure.dg figcaption{font-size:13px; color:var(--mut); margin-top:12px; padding-top:10px; border-top:1px dashed var(--line)}
+svg text{fill:currentColor}
+.t-lg{font-size:15px; font-weight:700}
+.t-md{font-size:13.5px; font-weight:700}
+.t{font-size:12.5px}
+.t-sm{font-size:11px}
+.t-mut{opacity:.7}
+.tw{overflow-x:auto; margin:16px 0}
+table{border-collapse:collapse; width:100%; min-width:620px; font-size:13.5px; background:var(--card)}
+th,td{border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top}
+th{background:#eef3f8; color:var(--navy); font-weight:700}
+.toc{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 20px; font-size:14px}
+.toc ol{margin:6px 0; padding-left:22px} .toc li{margin:4px 0}
+.toc a{color:var(--navy); text-decoration:none} .toc a:hover{text-decoration:underline}
+.glos{display:grid; grid-template-columns:150px 1fr; gap:6px 14px; font-size:13.5px}
+.glos dt{font-weight:700; color:var(--navy)} .glos dd{margin:0}
+@media (max-width:640px){ .glos{grid-template-columns:1fr} .glos dt{margin-top:8px} }
+.tag{display:inline-block; font-size:11px; font-weight:700; letter-spacing:.03em; padding:2px 7px; border-radius:20px; vertical-align:middle}
+.tag.fact{background:#e8f0f8; color:var(--navy)}
+.tag.inf{background:var(--amberbg); color:var(--amber); border:1px solid #ecd9a8}
+blockquote{border-left:4px solid #2E75B6; background:#f4f8fc; margin:16px 0; padding:12px 18px; font-size:14px}
+hr{border:0; border-top:1px solid var(--line); margin:38px 0}
+</style>
+</head>
+<body>
+
+<div class="nav">
+  <a href="https://portfolio-stocks-chi.vercel.app/index.html">← Dashboard</a>
+  <a href="https://portfolio-stocks-chi.vercel.app/profile.html?stock=GARWARE">Full profile — GARWARE →</a>
+</div>
+
+<div class="topbar">
+  <h1>How the speciality films business actually works</h1>
+  <div class="sub">An industry primer for Garware Hi-Tech Films — what the products physically are, how they are made, and who touches them between the plant and the car</div>
+  <div class="meta">Built 24-Aug-2026 · Sourced from Garware's 7 concall transcripts and the Q1FY27 deck (Feb-2025 → Aug-2026) · Companion to <strong>Company Profiles/GARWARE.md</strong></div>
+</div>
+
+<p class="lede">This page explains the <strong>industry</strong>, not the investment case — valuation, conviction and risks stay in the profile. What follows is the mechanism: what a window film physically is (it is not one layer, it is seven), where a commodity plastic film stops and a speciality product begins, why raw-material prices barely move this company's cost, who stands between the factory and the person whose car gets wrapped, and why the same product sells at three very different margins depending on which of those people buys it.</p>
+
+<div class="box warn">
+<h4>How to read this</h4>
+<p style="margin:6px 0"><span class="tag fact">FACT</span> Unmarked claims come from Garware's own filings — transcripts and the investor deck — with the source named in grey after the claim.</p>
+<p style="margin:6px 0"><span class="tag inf">MY INFERENCE</span> Marks a conclusion that is mine rather than management's. The competitive map in §10 is a framing device I built; it is not company data.</p>
+<p style="margin:6px 0; color:#5a6a78; font-size:13.5px"><strong>Two figures on this page are read off a chart in a deck rather than a table</strong> — the FY17–FY21 margin series in §5. They are flagged where they appear, per the standing rule that chart-derived numbers must be confirmed or marked. Everything else comes from a table, a text slide, or spoken words on a call.</p>
+</div>
+
+<div class="toc">
+<strong>Contents</strong>
+<ol>
+<li><a href="#s1">The product — a window film is seven layers, not one</a></li>
+<li><a href="#s2">Where these films actually go</a></li>
+<li><a href="#s3">Chips to film — and the line where commodity ends</a></li>
+<li><a href="#s4">Deep-dyed vs chip-dyed — the technical fork in the road</a></li>
+<li><a href="#s5">The transformation — nine years from commodity to speciality</a></li>
+<li><a href="#s6">The channel — who touches the film between the plant and the car</a></li>
+<li><a href="#s7">The other quarter of the company — industrial films</a></li>
+<li><a href="#s8">Cost and margin anatomy — including the two margin numbers</a></li>
+<li><a href="#s9">Geography and the tariff swing</a></li>
+<li><a href="#s10">The competitive map — premium, economy, and who is integrated</a></li>
+<li><a href="#s11">Reading the industry through the numbers</a></li>
+<li><a href="#s12">What the company does not disclose · Glossary</a></li>
+</ol>
+</div>
+
+<h2 id="s1"><span class="n">1.</span> The product — a window film is seven layers, not one</h2>
+
+<p>Almost everyone pictures window film as a sheet of tinted plastic. It is not. It is a <strong>laminate</strong> — a stack of very thin functional layers, each doing a different job, assembled on a coating line. The tint is often the least important layer in it.</p>
+
+<p>That single fact explains why this business earns a 24% EBITDA margin while a plain plastic-film producer earns single digits: <strong>the value is in the layers you cannot see</strong>, and in the chemistry that puts them there.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 980 500" role="img" aria-label="Cross-sections of a sun control film with seven layers and a paint protection film with four layers, showing which layers Garware makes in-house.">
+  <text class="t-lg" x="40" y="34">Sun control film — a seven-layer laminate</text>
+  <text class="t-sm t-mut" x="40" y="54">shown magnified; the real thing is thinner than a human hair</text>
+
+  <rect x="40" y="80"  width="170" height="34" rx="3" fill="#dce7f2" stroke="currentColor" stroke-width="1"/>
+  <rect x="40" y="116" width="170" height="34" rx="3" fill="#c9dcee" stroke="currentColor" stroke-width="1"/>
+  <rect x="40" y="152" width="170" height="34" rx="3" fill="#9dbfdd" stroke="currentColor" stroke-width="1"/>
+  <rect x="40" y="188" width="170" height="34" rx="3" fill="#e7eef5" stroke="currentColor" stroke-width="1"/>
+  <rect x="40" y="224" width="170" height="34" rx="3" fill="#c9dcee" stroke="currentColor" stroke-width="1"/>
+  <rect x="40" y="260" width="170" height="34" rx="3" fill="#e7eef5" stroke="currentColor" stroke-width="1"/>
+  <rect x="40" y="296" width="170" height="34" rx="3" fill="#f2f5f8" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+
+  <circle cx="220" cy="97"  r="4" fill="#2E75B6"/><text class="t" x="232" y="101">Scratch-resistant hard top coat</text>
+  <circle cx="220" cy="133" r="4" fill="#2E75B6"/><text class="t" x="232" y="137">Deep-dyed PET + nano-dispersed heat blockers</text>
+  <circle cx="220" cy="169" r="4" fill="#2E75B6"/><text class="t" x="232" y="173">Metallised / ceramic layer — reflects infra-red</text>
+  <circle cx="220" cy="205" r="4" fill="#2E75B6"/><text class="t" x="232" y="209">Laminating adhesive</text>
+  <circle cx="220" cy="241" r="4" fill="#2E75B6"/><text class="t" x="232" y="245">Second PET layer — strength and safety</text>
+  <circle cx="220" cy="277" r="4" fill="#2E75B6"/><text class="t" x="232" y="281">Pressure-sensitive mounting adhesive</text>
+  <text class="t t-mut" x="232" y="317">Release liner — peeled off and thrown away by the installer</text>
+
+  <text class="t-sm" x="232" y="352" fill="#1F4E79">● = a layer Garware makes itself. Management: the integration runs</text>
+  <text class="t-sm" x="232" y="368" fill="#1F4E79">"from petrochemicals to chips to films to our nano dispersion or</text>
+  <text class="t-sm" x="232" y="384" fill="#1F4E79">making our own adhesive and top-coat."</text>
+
+  <text class="t-lg" x="600" y="34">Paint protection film</text>
+  <text class="t-sm t-mut" x="600" y="54">the clear skin over a car's paint</text>
+
+  <rect x="600" y="80"  width="150" height="58" rx="3" fill="#dce7f2" stroke="currentColor" stroke-width="1"/>
+  <rect x="600" y="142" width="150" height="58" rx="3" fill="#9dbfdd" stroke="currentColor" stroke-width="1"/>
+  <rect x="600" y="204" width="150" height="58" rx="3" fill="#e7eef5" stroke="currentColor" stroke-width="1"/>
+  <rect x="600" y="266" width="150" height="58" rx="3" fill="#f2f5f8" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+
+  <text class="t-md" x="762" y="105">Self-healing top coat</text>
+  <text class="t-sm t-mut" x="762" y="122">warmth closes fine scratches</text>
+  <text class="t-md" x="762" y="167">TPU — the body of the film</text>
+  <text class="t-sm t-mut" x="762" y="184">bought in today; own line Q3FY27</text>
+  <text class="t-md" x="762" y="229">Acrylic adhesive</text>
+  <text class="t-sm t-mut" x="762" y="246">must come off without lifting paint</text>
+  <text class="t-md t-mut" x="762" y="291">Release liner</text>
+  <text class="t-sm t-mut" x="762" y="308">discarded at fitting</text>
+
+  <rect x="600" y="344" width="344" height="46" rx="6" fill="#ecf7f1" stroke="#c7e4d5" stroke-width="1.2"/>
+  <text class="t" x="616" y="364" fill="#1a6f4a">The TPU line commissioning in Q3FY27 turns the one</text>
+  <text class="t" x="616" y="380" fill="#1a6f4a">bought-in layer into an owned one. 75% of it feeds PPF.</text>
+
+  <rect x="40" y="412" width="904" height="72" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1"/>
+  <text class="t-md" x="58" y="436">What the customer actually buys is not the film. It is the film, fitted.</text>
+  <text class="t" x="58" y="458">A roll is worthless to a car owner — it has to be cut to the panel and applied without a bubble, a crease or a lifted edge. That is why a</text>
+  <text class="t" x="58" y="476">film maker ends up training installers, writing pattern software and issuing warranties: §6 is where that becomes the whole strategy.</text>
+</svg>
+<figcaption><strong>Layer construction is schematic and reflects standard industry practice for these product types</strong> — Garware does not publish its stack. What <em>is</em> disclosed, and what the blue dots mark, is the set of steps it performs in-house: base film, deep dyeing, nano-dispersion, metallising, adhesive and top coat. <span class="src">Integration quote: Q3FY25 call, 10-Feb-2025. Metallising and nano-dispersion: Q3FY26 call, Feb-2026. TPU timing and 75% captive share: Q1FY27 call, 7-Aug-2026.</span></figcaption>
+</figure>
+
+<h2 id="s2"><span class="n">2.</span> Where these films actually go</h2>
+
+<p>Two end-markets do most of the work — a car and a building — and within each, Garware sells several different films to the same surface.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 980 450" role="img" aria-label="A car and a building showing where paint protection film, sun control film, safety glazing film, sunroof heat shield and architectural film are applied.">
+  <defs>
+    <marker id="g2a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <text class="t-lg" x="40" y="32">On a car</text>
+
+  <path d="M56,286 L56,258 Q56,247 68,244 L128,232 L176,192 L306,190 L366,236 L436,246 Q450,250 450,262 L450,286 Z"
+        fill="#eef3f8" stroke="currentColor" stroke-width="1.6"/>
+  <polygon points="140,230 178,200 244,198 244,230" fill="#dce7f2" stroke="currentColor" stroke-width="1.2"/>
+  <polygon points="254,198 310,200 350,230 254,230" fill="#dce7f2" stroke="currentColor" stroke-width="1.2"/>
+  <line x1="200" y1="190" x2="270" y2="190" stroke="#2E75B6" stroke-width="4"/>
+  <circle cx="132" cy="286" r="26" fill="#fff" stroke="currentColor" stroke-width="1.6"/>
+  <circle cx="132" cy="286" r="10" fill="#dce7f2" stroke="currentColor" stroke-width="1"/>
+  <circle cx="376" cy="286" r="26" fill="#fff" stroke="currentColor" stroke-width="1.6"/>
+  <circle cx="376" cy="286" r="10" fill="#dce7f2" stroke="currentColor" stroke-width="1"/>
+
+  <text class="t-md" x="40" y="76" fill="#1F4E79">Sunroof heat shield</text>
+  <text class="t-sm t-mut" x="40" y="93">a new Q1FY27 launch</text>
+  <line x1="150" y1="86" x2="228" y2="184" stroke="currentColor" stroke-width="1.2" marker-end="url(#g2a)"/>
+
+  <text class="t-md" x="270" y="76" fill="#1F4E79">Sun control film — the glass</text>
+  <text class="t-sm t-mut" x="270" y="93">heat, glare, UV and privacy</text>
+  <line x1="330" y1="104" x2="300" y2="188" stroke="currentColor" stroke-width="1.2" marker-end="url(#g2a)"/>
+
+  <text class="t-md" x="40" y="352" fill="#1F4E79">Safety glazing film — CMVR</text>
+  <text class="t-sm t-mut" x="40" y="369">holds shattered glass together</text>
+  <text class="t-sm t-mut" x="40" y="385">a regulated product, not a cosmetic one</text>
+  <line x1="150" y1="344" x2="214" y2="240" stroke="currentColor" stroke-width="1.2" marker-end="url(#g2a)"/>
+
+  <text class="t-md" x="300" y="352" fill="#1F4E79">Paint protection film</text>
+  <text class="t-sm t-mut" x="300" y="369">bonnet, bumper, mirrors —</text>
+  <text class="t-sm t-mut" x="300" y="385">the growth engine</text>
+  <line x1="440" y1="344" x2="450" y2="270" stroke="currentColor" stroke-width="1.2" marker-end="url(#g2a)"/>
+
+  <text class="t-md" x="40" y="418" fill="#1F4E79">Ceramic and graphene coatings</text>
+  <text class="t-sm t-mut" x="40" y="435">applied to the paint itself — sold through the same studios</text>
+
+  <line x1="530" y1="40" x2="530" y2="440" stroke="currentColor" stroke-width="1" opacity=".2"/>
+
+  <text class="t-lg" x="560" y="32">On a building</text>
+  <rect x="560" y="76" width="200" height="210" rx="4" fill="#eef3f8" stroke="currentColor" stroke-width="1.6"/>
+  <g stroke="currentColor" stroke-width="1" fill="#cfe0ef">
+    <rect x="576" y="94"  width="78" height="44"/><rect x="666" y="94"  width="78" height="44"/>
+    <rect x="576" y="158" width="78" height="44"/><rect x="666" y="158" width="78" height="44"/>
+    <rect x="576" y="222" width="78" height="44"/><rect x="666" y="222" width="78" height="44"/>
+  </g>
+  <line x1="560" y1="286" x2="760" y2="286" stroke="currentColor" stroke-width="2"/>
+
+  <text class="t-md" x="776" y="110" fill="#1F4E79">Architectural sun control</text>
+  <text class="t-sm t-mut" x="776" y="127">cuts cooling load on glazed</text>
+  <text class="t-sm t-mut" x="776" y="142">façades — retrofit, no rebuild</text>
+  <line x1="772" y1="106" x2="764" y2="112" stroke="currentColor" stroke-width="1.2" marker-end="url(#g2a)"/>
+
+  <text class="t-md" x="776" y="186" fill="#1F4E79">Safety and security film</text>
+  <text class="t-sm t-mut" x="776" y="203">holds the pane together</text>
+  <line x1="772" y1="182" x2="764" y2="180" stroke="currentColor" stroke-width="1.2" marker-end="url(#g2a)"/>
+
+  <text class="t-md" x="776" y="248" fill="#1F4E79">Garware Home Solutions</text>
+  <text class="t-sm t-mut" x="776" y="265">the same film, sold to a</text>
+  <text class="t-sm t-mut" x="776" y="280">household — 50–70 sq ft (§6)</text>
+  <line x1="772" y1="244" x2="764" y2="246" stroke="currentColor" stroke-width="1.2" marker-end="url(#g2a)"/>
+
+  <rect x="545" y="330" width="415" height="72" rx="6" fill="#f7fafc" stroke="currentColor" stroke-width="1"/>
+  <text class="t" x="562" y="358">Architectural is the faster-growing half of sun control:</text>
+  <text class="t" x="562" y="382">management cites <tspan font-weight="700">25–30% growth, 35–40% domestically</tspan>.</text>
+</svg>
+<figcaption>The same coating know-how addresses a car window, a car's paintwork and an office façade — which is why the company describes itself as a films platform rather than an automotive supplier. <strong>Consumer Product Division is 74% of revenue</strong> (automotive SCF, architectural SCF, PPF, safety films, home solutions); the industrial 26% is §7. <span class="src">Division mix and product list: Q1FY27 deck. Architectural growth rates and new launches: Q1FY27 call and deck.</span></figcaption>
+</figure>
+
+<h2 id="s3"><span class="n">3.</span> Chips to film — and the line where commodity ends</h2>
+
+<p>Polyester film starts life in an oil refinery. Naphtha and xylene become PTA and MEG; those become <strong>PET chips</strong> — small plastic pellets. The chips are melted, extruded as a thick sheet, then stretched in two directions at once, which is what makes the film strong, clear and dimensionally stable. The output is <strong>base film</strong>, and it is a commodity: hundreds of plants worldwide make it, and its price tracks crude.</p>
+
+<p><strong>Garware makes its own chips</strong> — a 66,000 MT/year plant — and then does not stop at base film. Everything after that point is coating, dyeing and lamination, and that is where the margin lives.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 980 476" role="img" aria-label="Process flow from crude oil through PET chips and biaxial stretching to base film, then the in-house value-addition steps of dyeing, nano-dispersion coating, metallising, adhesive, top coat and TPU.">
+  <defs>
+    <marker id="g3a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <text class="t-md" x="20" y="38" fill="#5a6a78">UPSTREAM — the commodity half</text>
+
+  <rect x="20"  y="52" width="170" height="62" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t" x="105" y="78" text-anchor="middle">Crude → naphtha,</text>
+  <text class="t" x="105" y="95" text-anchor="middle">xylene</text>
+  <rect x="204" y="52" width="170" height="62" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t" x="289" y="87" text-anchor="middle">PTA + MEG</text>
+  <rect x="388" y="52" width="170" height="62" rx="7" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.8"/>
+  <text class="t-md" x="473" y="78" text-anchor="middle" fill="#1F4E79">PET chips</text>
+  <text class="t-sm" x="473" y="96" text-anchor="middle" fill="#1F4E79">own plant · 66,000 MT/yr</text>
+  <rect x="572" y="52" width="170" height="62" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t" x="657" y="78" text-anchor="middle">Melt extrusion</text>
+  <text class="t" x="657" y="95" text-anchor="middle">and casting</text>
+  <rect x="756" y="52" width="170" height="62" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t" x="841" y="78" text-anchor="middle">Biaxial stretching</text>
+  <text class="t" x="841" y="95" text-anchor="middle">(lengthwise × across)</text>
+
+  <line x1="192" y1="83" x2="200" y2="83" stroke="currentColor" stroke-width="1.6" marker-end="url(#g3a)"/>
+  <line x1="376" y1="83" x2="384" y2="83" stroke="currentColor" stroke-width="1.6" marker-end="url(#g3a)"/>
+  <line x1="560" y1="83" x2="568" y2="83" stroke="currentColor" stroke-width="1.6" marker-end="url(#g3a)"/>
+  <line x1="744" y1="83" x2="752" y2="83" stroke="currentColor" stroke-width="1.6" marker-end="url(#g3a)"/>
+
+  <path d="M841,116 V140 H490 V158" fill="none" stroke="currentColor" stroke-width="1.4" marker-end="url(#g3a)"/>
+
+  <rect x="296" y="162" width="388" height="52" rx="7" fill="#eef1f4" stroke="currentColor" stroke-width="1.6"/>
+  <text class="t-md" x="490" y="184" text-anchor="middle">BASE FILM</text>
+  <text class="t-sm t-mut" x="490" y="202" text-anchor="middle">a commodity — hundreds of plants make it, price tracks crude</text>
+  <text class="t-sm" x="700" y="192" fill="#b3261e">← a plain BOPET producer stops here</text>
+
+  <line x1="490" y1="216" x2="490" y2="238" stroke="currentColor" stroke-width="1.6" marker-end="url(#g3a)"/>
+
+  <rect x="20" y="244" width="940" height="160" rx="9" fill="#f6faf8" stroke="#1a6f4a" stroke-width="1.5"/>
+  <text class="t-md" x="38" y="268" fill="#1a6f4a">DOWNSTREAM — where the margin is made, and almost all of it in-house</text>
+
+  <rect x="32"  y="282" width="145" height="56" rx="6" fill="#fff" stroke="currentColor" stroke-width="1.1"/>
+  <text class="t" x="104" y="306" text-anchor="middle">Deep dyeing</text>
+  <text class="t-sm t-mut" x="104" y="324" text-anchor="middle">see §4</text>
+  <rect x="189" y="282" width="145" height="56" rx="6" fill="#fff" stroke="currentColor" stroke-width="1.1"/>
+  <text class="t" x="261" y="303" text-anchor="middle">Nano-dispersion</text>
+  <text class="t" x="261" y="320" text-anchor="middle">heat-block coat</text>
+  <rect x="346" y="282" width="145" height="56" rx="6" fill="#fff" stroke="currentColor" stroke-width="1.1"/>
+  <text class="t" x="418" y="315" text-anchor="middle">Metallising</text>
+  <rect x="503" y="282" width="145" height="56" rx="6" fill="#fff" stroke="currentColor" stroke-width="1.1"/>
+  <text class="t" x="575" y="306" text-anchor="middle">Adhesive</text>
+  <text class="t-sm t-mut" x="575" y="324" text-anchor="middle">made in-house</text>
+  <rect x="660" y="282" width="145" height="56" rx="6" fill="#fff" stroke="currentColor" stroke-width="1.1"/>
+  <text class="t" x="732" y="306" text-anchor="middle">Top / hard coat</text>
+  <text class="t-sm t-mut" x="732" y="324" text-anchor="middle">made in-house</text>
+  <rect x="817" y="282" width="131" height="56" rx="6" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.6"/>
+  <text class="t" x="882" y="303" text-anchor="middle" fill="#1a6f4a">TPU (for PPF)</text>
+  <text class="t-sm" x="882" y="320" text-anchor="middle" fill="#1a6f4a">bought → own, Q3FY27</text>
+
+  <text class="t" x="38" y="366">→ laminate with a release liner → slit to width → <tspan font-weight="700">3,000+ SKUs</tspan>, made to order</text>
+  <text class="t-sm t-mut" x="38" y="388">Installed capacity: sun control 4,200 lakh sq ft/yr · PPF 600 lakh sq ft/yr (doubled Q2FY26) · industrial films 42,000 MT/yr</text>
+
+  <rect x="20" y="412" width="940" height="52" rx="7" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.2"/>
+  <text class="t" x="38" y="434">This is why crude does not set the P&amp;L: <tspan font-weight="700">"there are 10 components which we manufacture on our own… their raw</tspan></text>
+  <text class="t" x="38" y="454"><tspan font-weight="700">material to the end product ultimately reaches only to 10%."</tspan></text>
+</svg>
+<figcaption><strong>The boundary in the middle of this diagram is the whole business model.</strong> A commodity film maker sells what comes out of the stretching line; Garware sells what comes out of six more processes after it. That is also why management insists it is <em>"no longer a commodity company where your raw material, if prices increase, you will take advantage — and then when it goes, you will take a hit on inventory."</em> <span class="src">Chips capacity, product capacities and SKU count: Q1FY27 deck. The 10-component / 10–12% correlation quote: Q1FY27 call, 7-Aug-2026. Upstream petrochemical route is standard industry practice, not a company disclosure.</span></figcaption>
+</figure>
+
+<h2 id="s4"><span class="n">4.</span> Deep-dyed vs chip-dyed — the technical fork in the road</h2>
+
+<p>When management is asked how Garware differs from the fifty-odd Chinese and Korean producers, the answer is not about price. It is about <em>where the colour sits in the film</em> — a distinction that sounds trivial and decides how the product ages.</p>
+
+<blockquote>
+"There are more than 50 producers in China and Korea who produce the products through <strong>chip dyed and glue dyed</strong> method, right? And whereas our products are <strong>deep dyed</strong> products. So the basic difference between us and them is very big."
+<div class="src" style="margin-top:6px">— Deepak Joshi, Q4FY25 call, 7-May-2025</div>
+</blockquote>
+
+<figure class="dg">
+<svg viewBox="0 0 980 290" role="img" aria-label="Three film cross-sections showing colour located in the base resin for chip dyeing, in the adhesive for glue dyeing, and through the film body for deep dyeing.">
+  <text class="t-md" x="60" y="40">Chip-dyed</text>
+  <text class="t-sm t-mut" x="60" y="58">pigment mixed into the PET pellets</text>
+  <rect x="60" y="76" width="200" height="26" rx="2" fill="#e7eef5" stroke="currentColor" stroke-width="1"/>
+  <rect x="60" y="104" width="200" height="30" rx="2" fill="#7f9fc0" stroke="currentColor" stroke-width="1"/>
+  <rect x="60" y="136" width="200" height="26" rx="2" fill="#e7eef5" stroke="currentColor" stroke-width="1"/>
+  <text class="t-sm t-mut" x="60" y="184">colour lives in one internal layer</text>
+
+  <text class="t-md" x="390" y="40">Glue-dyed</text>
+  <text class="t-sm t-mut" x="390" y="58">pigment carried in the adhesive</text>
+  <rect x="390" y="76" width="200" height="26" rx="2" fill="#e7eef5" stroke="currentColor" stroke-width="1"/>
+  <rect x="390" y="104" width="200" height="30" rx="2" fill="#e7eef5" stroke="currentColor" stroke-width="1"/>
+  <rect x="390" y="136" width="200" height="26" rx="2" fill="#7f9fc0" stroke="currentColor" stroke-width="1"/>
+  <text class="t-sm t-mut" x="390" y="184">colour lives in the glue line</text>
+
+  <text class="t-md" x="720" y="40" fill="#1F4E79">Deep-dyed — Garware</text>
+  <text class="t-sm t-mut" x="720" y="58">dye driven into the film body itself</text>
+  <rect x="720" y="76" width="200" height="26" rx="2" fill="#9dbfdd" stroke="#2E75B6" stroke-width="1.2"/>
+  <rect x="720" y="104" width="200" height="30" rx="2" fill="#8fb4d6" stroke="#2E75B6" stroke-width="1.2"/>
+  <rect x="720" y="136" width="200" height="26" rx="2" fill="#9dbfdd" stroke="#2E75B6" stroke-width="1.2"/>
+  <text class="t-sm" x="720" y="184" fill="#1F4E79">colour is part of the film, not a layer in it</text>
+
+  <rect x="60" y="212" width="860" height="62" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1"/>
+  <text class="t" x="78" y="236">Garware pairs this with its own <tspan font-weight="700">nano-dispersion</tspan> technology — the deck calls it "key to producing high-quality durable NIR blocking films."</text>
+  <text class="t" x="78" y="258">Management's competitive claim rests on it: Garware competes with <tspan font-weight="700">American-made premium film</tspan>, and "hardly competes" with Chinese or Korean product.</text>
+</svg>
+<figcaption><strong>The three cross-sections are drawn from the standard meaning of these industry terms, not from a company diagram</strong> — Garware names the methods but does not detail its process. The claim that matters commercially is the one management makes directly: the fifty-plus Asian producers sit in a different quality segment, so a fifty-first entrant does not change Garware's competitive position. <span class="src">Quotes: Q4FY25 call, 7-May-2025 and Q1FY26 call, Aug-2025. Nano-dispersion: Q1FY27 deck.</span></figcaption>
+</figure>
+
+<h2 id="s5"><span class="n">5.</span> The transformation — nine years from commodity to speciality</h2>
+
+<p>This is the single most important chart about Garware, and it is not a growth chart. Revenue roughly two-and-a-half times over nine years is respectable but unremarkable. <strong>What changed is what the company sells:</strong> value-added speciality films went from a minority of the mix to <strong>87% of revenue</strong>, and the margin went with it.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 980 400" role="img" aria-label="Revenue bars from FY17 to FY26 rising from 874 crore to 2120 crore, with EBITDA margin labelled above each bar rising from about 9 percent to 23.6 percent, and the first two years marked as the commodity era.">
+  <line x1="70" y1="190" x2="950" y2="190" stroke="currentColor" stroke-width="1" opacity=".15"/>
+  <line x1="70" y1="80"  x2="950" y2="80"  stroke="currentColor" stroke-width="1" opacity=".15"/>
+  <text class="t-sm t-mut" x="62" y="194" text-anchor="end">₹1,100cr</text>
+  <text class="t-sm t-mut" x="62" y="84"  text-anchor="end">₹2,200cr</text>
+
+  <rect x="86"  y="212.6" width="56" height="87.4"  rx="4" fill="#b8c4ce"/><rect x="86"  y="292" width="56" height="8" fill="#b8c4ce"/>
+  <rect x="174" y="216.7" width="56" height="83.3"  rx="4" fill="#b8c4ce"/><rect x="174" y="292" width="56" height="8" fill="#b8c4ce"/>
+  <rect x="262" y="205.2" width="56" height="94.8"  rx="4" fill="#2E75B6"/><rect x="262" y="292" width="56" height="8" fill="#2E75B6"/>
+  <rect x="350" y="207.5" width="56" height="92.5"  rx="4" fill="#2E75B6"/><rect x="350" y="292" width="56" height="8" fill="#2E75B6"/>
+  <rect x="438" y="201.1" width="56" height="98.9"  rx="4" fill="#2E75B6"/><rect x="438" y="292" width="56" height="8" fill="#2E75B6"/>
+  <rect x="526" y="169.7" width="56" height="130.3" rx="4" fill="#2E75B6"/><rect x="526" y="292" width="56" height="8" fill="#2E75B6"/>
+  <rect x="614" y="156.2" width="56" height="143.8" rx="4" fill="#2E75B6"/><rect x="614" y="292" width="56" height="8" fill="#2E75B6"/>
+  <rect x="702" y="132.3" width="56" height="167.7" rx="4" fill="#2E75B6"/><rect x="702" y="292" width="56" height="8" fill="#2E75B6"/>
+  <rect x="790" y="89.1"  width="56" height="210.9" rx="4" fill="#2E75B6"/><rect x="790" y="292" width="56" height="8" fill="#2E75B6"/>
+  <rect x="878" y="88"    width="56" height="212"   rx="4" fill="#2E75B6"/><rect x="878" y="292" width="56" height="8" fill="#2E75B6"/>
+
+  <line x1="70" y1="300" x2="950" y2="300" stroke="currentColor" stroke-width="1.2"/>
+
+  <text class="t-sm t-mut" x="114" y="204" text-anchor="middle">~9%</text>
+  <text class="t-sm t-mut" x="202" y="208" text-anchor="middle">~11%</text>
+  <text class="t-sm t-mut" x="290" y="197" text-anchor="middle">~16%</text>
+  <text class="t-sm t-mut" x="378" y="199" text-anchor="middle">~19%</text>
+  <text class="t-sm t-mut" x="466" y="193" text-anchor="middle">~24%</text>
+  <text class="t-sm" x="554" y="161" text-anchor="middle" fill="#1F4E79">21.3%</text>
+  <text class="t-sm" x="642" y="148" text-anchor="middle" fill="#1F4E79">18.7%</text>
+  <text class="t-sm" x="730" y="124" text-anchor="middle" fill="#1F4E79">19.1%</text>
+  <text class="t-sm" x="818" y="81"  text-anchor="middle" fill="#1F4E79">23.5%</text>
+  <text class="t-sm" x="906" y="80"  text-anchor="middle" fill="#1F4E79">23.6%</text>
+
+  <text class="t-sm t-mut" x="114" y="318" text-anchor="middle">FY17</text>
+  <text class="t-sm t-mut" x="202" y="318" text-anchor="middle">FY18</text>
+  <text class="t-sm t-mut" x="290" y="318" text-anchor="middle">FY19</text>
+  <text class="t-sm t-mut" x="378" y="318" text-anchor="middle">FY20</text>
+  <text class="t-sm t-mut" x="466" y="318" text-anchor="middle">FY21</text>
+  <text class="t-sm t-mut" x="554" y="318" text-anchor="middle">FY22</text>
+  <text class="t-sm t-mut" x="642" y="318" text-anchor="middle">FY23</text>
+  <text class="t-sm t-mut" x="730" y="318" text-anchor="middle">FY24</text>
+  <text class="t-sm t-mut" x="818" y="318" text-anchor="middle">FY25</text>
+  <text class="t-sm t-mut" x="906" y="318" text-anchor="middle">FY26</text>
+
+  <text class="t-md" x="114" y="342" text-anchor="middle">₹874cr</text>
+  <text class="t-md" x="906" y="342" text-anchor="middle" fill="#1F4E79">₹2,120cr</text>
+
+  <rect x="70" y="358" width="14" height="14" rx="3" fill="#b8c4ce"/>
+  <text class="t-sm t-mut" x="92" y="370">commodity films</text>
+  <rect x="222" y="358" width="14" height="14" rx="3" fill="#2E75B6"/>
+  <text class="t-sm t-mut" x="244" y="370">value-added speciality films — the pivot began in 2018</text>
+  <text class="t-sm t-mut" x="640" y="370">Revenue ×2.4 · margin ×2.6 · VAP now 87% of revenue</text>
+</svg>
+<figcaption>Bars are revenue; the percentage above each is the EBITDA margin the company reported for that year. <strong>The FY22–FY26 margins are verified</strong> — each reconciles by arithmetic against the deck's own EBITDA and revenue figures (₹277 / 269 / 321 / 495 / 500cr). <strong>The FY17–FY21 margins are read off the company's transformation slide and are chart-derived — flagged as such and not independently confirmed.</strong> Note also that this margin series is the <em>company definition</em>, which includes other income — see §8. <span class="src">Q1FY27 deck, transformation and annual-performance slides; FY25 and FY26 revenue cross-checked against the profile's Screener figures.</span></figcaption>
+</figure>
+
+<h2 id="s6"><span class="n">6.</span> The channel — who touches the film between the plant and the car</h2>
+
+<p>Here is the part that makes Garware unusual, and it is a mirror image of the problem a component supplier has. Garware is not stuck deep in someone else's supply chain; it has been <strong>walking forward along its own</strong> — from selling anonymous rolls to distributors, to putting its brand on studios where a consumer's car is actually wrapped.</p>
+
+<p>The economics of each step differ sharply, and management has quantified them.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 980 540" role="img" aria-label="Three routes to market from the Garware plant: private label, the distributor to dealer to applicator chain, and the direct-to-consumer studio network, with volumes and margin differences.">
+  <defs>
+    <marker id="g6a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+    <marker id="g6g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a6f4a"/>
+    </marker>
+  </defs>
+
+  <rect x="20" y="200" width="150" height="96" rx="8" fill="#eaf2fb" stroke="#2E75B6" stroke-width="2"/>
+  <text class="t-md" x="95" y="236" text-anchor="middle" fill="#1F4E79">Garware</text>
+  <text class="t-md" x="95" y="254" text-anchor="middle" fill="#1F4E79">plant</text>
+  <text class="t-sm" x="95" y="274" text-anchor="middle" fill="#1F4E79">90+ countries</text>
+
+  <text class="t-md" x="200" y="42" fill="#5a6a78">Route A — private label · 45% of sales carry someone else's brand</text>
+  <rect x="200" y="58" width="240" height="62" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t" x="320" y="82" text-anchor="middle">Another brand's box</text>
+  <text class="t-sm t-mut" x="320" y="100" text-anchor="middle">Garware makes it; the customer never knows</text>
+  <path d="M172,212 C186,120 190,96 196,90" fill="none" stroke="currentColor" stroke-width="1.5" marker-end="url(#g6a)"/>
+  <text class="t-sm t-mut" x="470" y="84">Own brand is now <tspan font-weight="700">55%</tspan>, up from a private-label past</text>
+  <text class="t-sm t-mut" x="470" y="102">— the mix shift is the strategy, stated plainly</text>
+
+  <text class="t-md" x="200" y="160" fill="#5a6a78">Route B — the traditional trade</text>
+  <rect x="200" y="176" width="164" height="70" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t" x="282" y="200" text-anchor="middle">Distributor</text>
+  <text class="t-sm t-mut" x="282" y="218" text-anchor="middle">buys 5–7 lakh sq ft</text>
+  <text class="t-sm t-mut" x="282" y="233" text-anchor="middle">a month</text>
+  <rect x="392" y="176" width="164" height="70" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t" x="474" y="200" text-anchor="middle">Dealer</text>
+  <text class="t-sm t-mut" x="474" y="218" text-anchor="middle">buys 50,000–1 lakh</text>
+  <text class="t-sm t-mut" x="474" y="233" text-anchor="middle">sq ft</text>
+  <rect x="584" y="176" width="164" height="70" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t" x="666" y="200" text-anchor="middle">Applicator / tinter</text>
+  <text class="t-sm t-mut" x="666" y="218" text-anchor="middle">does the actual fitting —</text>
+  <text class="t-sm t-mut" x="666" y="233" text-anchor="middle">the skill step</text>
+  <rect x="776" y="176" width="164" height="70" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t" x="858" y="207" text-anchor="middle">Car owner</text>
+  <text class="t-sm t-mut" x="858" y="225" text-anchor="middle">pays for a fitted job</text>
+  <line x1="172" y1="230" x2="196" y2="215" stroke="currentColor" stroke-width="1.6" marker-end="url(#g6a)"/>
+  <line x1="366" y1="211" x2="388" y2="211" stroke="currentColor" stroke-width="1.6" marker-end="url(#g6a)"/>
+  <line x1="558" y1="211" x2="580" y2="211" stroke="currentColor" stroke-width="1.6" marker-end="url(#g6a)"/>
+  <line x1="750" y1="211" x2="772" y2="211" stroke="currentColor" stroke-width="1.6" marker-end="url(#g6a)"/>
+
+  <text class="t-md" x="200" y="300" fill="#1a6f4a">Route C — direct to consumer, the strategic push</text>
+  <rect x="196" y="316" width="272" height="88" rx="7" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.6"/>
+  <text class="t" x="332" y="340" text-anchor="middle" fill="#1a6f4a">Garware Application Studios</text>
+  <text class="t-sm" x="332" y="358" text-anchor="middle" fill="#1a6f4a">250+ in India, target 300</text>
+  <text class="t-sm" x="332" y="376" text-anchor="middle" fill="#1a6f4a">Global Application Studios: 14, US + Middle East</text>
+  <text class="t-sm" x="332" y="394" text-anchor="middle" fill="#1a6f4a">Garware Home Solutions: 50-store FY27 target</text>
+  <path d="M172,284 C186,300 190,340 196,352" fill="none" stroke="#1a6f4a" stroke-width="1.8" marker-end="url(#g6g)"/>
+  <line x1="472" y1="360" x2="580" y2="360" stroke="#1a6f4a" stroke-width="1.8" marker-end="url(#g6g)"/>
+  <rect x="584" y="316" width="164" height="88" rx="7" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.6"/>
+  <text class="t" x="666" y="348" text-anchor="middle" fill="#1a6f4a">The consumer,</text>
+  <text class="t" x="666" y="366" text-anchor="middle" fill="#1a6f4a">directly</text>
+  <text class="t-sm" x="666" y="386" text-anchor="middle" fill="#1a6f4a">a home needs 50–70 sq ft</text>
+
+  <rect x="776" y="316" width="164" height="88" rx="7" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.4"/>
+  <text class="t-md" x="858" y="344" text-anchor="middle" fill="#a2650a">D2C margin runs</text>
+  <text class="t-lg" x="858" y="368" text-anchor="middle" fill="#a2650a">25–40% higher</text>
+  <text class="t-sm" x="858" y="388" text-anchor="middle" fill="#a2650a">than distributor margin</text>
+
+  <rect x="20" y="424" width="920" height="100" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1"/>
+  <text class="t-md" x="38" y="450">Why the studios exist — and it is an arithmetic reason, not a branding one</text>
+  <text class="t" x="38" y="474">A distributor buys in lakhs of square feet a month. A household needs fifty. <tspan font-weight="700">No distributor can economically serve that customer</tspan>, so the</text>
+  <text class="t" x="38" y="494">demand simply went unserved. Management sizes it modestly — even 20 lakh sq ft would be "not even 7%, 8% of our business" — but it puts the</text>
+  <text class="t" x="38" y="514">brand in front of consumers and earns the D2C margin. <tspan font-style="italic">D2C is ~10–15% of revenue globally today, and as high as ~40% in India.</tspan></text>
+</svg>
+<figcaption><strong>The same square foot of film earns three different margins depending on which route it takes.</strong> That is the strategy in one sentence, and it is also the reason a film manufacturer trains installers: 1,000+ applicators trained across 150+ cities, 55+ hands-on sessions, plus <em>GARNEST</em>, in-house software that generates pre-cut PPF patterns for Indian vehicle models. <strong>A film maker cannot own the consumer relationship unless the fitting is reliable</strong> — the studio network and the training programme are the same initiative seen from two ends. <span class="src">Channel volumes and the D2C margin premium: Q4FY26 call, 7-May-2026. Studio counts, applicator training and GARNEST: Q1FY27 deck. Own-brand vs private-label split: Q1FY27 call. <span class="tag inf">MY INFERENCE</span> — the "three margins for one square foot" framing is mine.</span></figcaption>
+</figure>
+
+<h2 id="s7"><span class="n">7.</span> The other quarter of the company — industrial films</h2>
+
+<p>Roughly <strong>26% of revenue</strong> is the Industrial Product Division, and it is invisible to consumers because every one of its products ends up <em>inside</em> somebody else's product. It is lower-profile than PPF and it is where Garware's largest market share sits.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 980 328" role="img" aria-label="Four industrial film products shown in the context where they are used: shrink sleeves on bottles, release liners under labels, thermal lamination on printed cartons, and insulation film inside electricals.">
+  <text class="t-md" x="20" y="30" fill="#5a6a78">Industrial Product Division — 26% of revenue · 42,000 MT/yr capacity</text>
+
+  <rect x="20" y="48" width="228" height="200" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1"/>
+  <path d="M108,92 h32 v14 l10,12 v56 h-52 v-56 l10,-12 z" fill="#fff" stroke="currentColor" stroke-width="1.4"/>
+  <rect x="98" y="128" width="52" height="34" fill="#9dbfdd" stroke="#2E75B6" stroke-width="1.2"/>
+  <text class="t-md" x="134" y="196" text-anchor="middle">Shrink film</text>
+  <text class="t-sm t-mut" x="134" y="214" text-anchor="middle">the printed sleeve that hugs a</text>
+  <text class="t-sm t-mut" x="134" y="229" text-anchor="middle">bottle when heated</text>
+  <text class="t-sm" x="134" y="244" text-anchor="middle" fill="#1F4E79">~70% of the Indian market</text>
+
+  <rect x="266" y="48" width="228" height="200" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1"/>
+  <rect x="316" y="104" width="128" height="40" rx="3" fill="#fff" stroke="currentColor" stroke-width="1.4"/>
+  <path d="M316,148 h128 v14 h-128 z" fill="#9dbfdd" stroke="#2E75B6" stroke-width="1.2"/>
+  <path d="M444,148 q22,6 26,22" fill="none" stroke="#2E75B6" stroke-width="1.4"/>
+  <text class="t-md" x="380" y="196" text-anchor="middle">Release liner</text>
+  <text class="t-sm t-mut" x="380" y="214" text-anchor="middle">silicone-coated backing — the</text>
+  <text class="t-sm t-mut" x="380" y="229" text-anchor="middle">bit you peel off a label</text>
+  <text class="t-sm t-mut" x="380" y="244" text-anchor="middle">and discard</text>
+
+  <rect x="512" y="48" width="228" height="200" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1"/>
+  <rect x="566" y="100" width="120" height="66" rx="2" fill="#fff" stroke="currentColor" stroke-width="1.4"/>
+  <rect x="566" y="100" width="120" height="10" fill="#9dbfdd" stroke="#2E75B6" stroke-width="1"/>
+  <line x1="584" y1="128" x2="668" y2="128" stroke="currentColor" stroke-width="1"/>
+  <line x1="584" y1="144" x2="640" y2="144" stroke="currentColor" stroke-width="1"/>
+  <text class="t-md" x="626" y="196" text-anchor="middle">Thermal lamination</text>
+  <text class="t-sm t-mut" x="626" y="214" text-anchor="middle">the glossy or matte skin on a</text>
+  <text class="t-sm t-mut" x="626" y="229" text-anchor="middle">printed carton or book cover</text>
+
+  <rect x="758" y="48" width="202" height="200" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1"/>
+  <circle cx="859" cy="132" r="38" fill="#fff" stroke="currentColor" stroke-width="1.4"/>
+  <circle cx="859" cy="132" r="16" fill="#9dbfdd" stroke="#2E75B6" stroke-width="1.2"/>
+  <line x1="859" y1="94" x2="859" y2="116" stroke="currentColor" stroke-width="1"/>
+  <line x1="859" y1="148" x2="859" y2="170" stroke="currentColor" stroke-width="1"/>
+  <text class="t-md" x="859" y="196" text-anchor="middle">Electrical insulation</text>
+  <text class="t-sm t-mut" x="859" y="214" text-anchor="middle">inside motors and electronics —</text>
+  <text class="t-sm t-mut" x="859" y="229" text-anchor="middle">moisture, thermal and</text>
+  <text class="t-sm t-mut" x="859" y="244" text-anchor="middle">dimensional stability</text>
+
+  <rect x="20" y="264" width="940" height="52" rx="7" fill="#f7fafc" stroke="currentColor" stroke-width="1"/>
+  <text class="t" x="38" y="286">Also in this division: plain film, packaging and lidding films. Garware is the first Indian producer of <tspan font-weight="700">PCR-grade and</tspan></text>
+  <text class="t" x="38" y="306"><tspan font-weight="700">APR-certified eco-friendly shrink films</tspan>, and uses ~30% post-consumer recycled content in film products.</text>
+</svg>
+<figcaption>These are steadier, lower-drama businesses than PPF, and the shrink-film share is the sort of position that rarely shows up in a growth narrative but does show up in the cash flow. <strong>Note what is not disclosed: segment-level margins.</strong> Revenue is split 74/26 between consumer and industrial, but the profitability of each is never given, so the mix effect on group margin can only be inferred. <span class="src">Product list, capacity, market share and certifications: Q1FY27 deck.</span></figcaption>
+</figure>
+
+<h2 id="s8"><span class="n">8.</span> Cost and margin anatomy — including the two margin numbers</h2>
+
+<p>Two things about this P&amp;L are worth understanding before reading any quarter of it.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 980 400" role="img" aria-label="Top: a bar showing raw material correlation of about ten to twelve percent versus in-house value addition. Bottom: two margin definitions for Q1FY27, thirty point three percent including other income versus twenty seven point two percent clean.">
+  <text class="t-md" x="20" y="34">1 · Why crude oil is not this company's story</text>
+  <rect x="20"  y="52" width="110" height="46" rx="4" fill="#b8c4ce"/>
+  <rect x="134" y="52" width="826" height="46" rx="4" fill="#2E75B6"/>
+  <text class="t-md" x="75" y="80" text-anchor="middle" fill="#16202b">10–12%</text>
+  <text class="t-md" x="547" y="80" text-anchor="middle" fill="#ffffff">the rest is value added inside the company — ten components made in-house</text>
+  <text class="t-sm t-mut" x="20" y="118">Direct correlation between the top-end raw material and the cost of a finished consumer product, in management's own estimate. A crude-linked</text>
+  <text class="t-sm t-mut" x="20" y="134">spike is "directly passed on to the consumer… after talking to them, convincing them" — a negotiation, not an automatic pass-through.</text>
+
+  <line x1="20" y1="156" x2="960" y2="156" stroke="currentColor" stroke-width="1" opacity=".2"/>
+
+  <text class="t-md" x="20" y="186" fill="#b3261e">2 · The margin has two numbers, 310bps apart, and both are correct</text>
+
+  <text class="t-sm t-mut" x="20" y="212">Q1FY27, revenue ₹633cr</text>
+
+  <rect x="20" y="226" width="300" height="54" rx="5" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.6"/>
+  <text class="t-lg" x="170" y="250" text-anchor="middle" fill="#1F4E79">30.3%</text>
+  <text class="t-sm" x="170" y="269" text-anchor="middle" fill="#1F4E79">company basis — ₹192cr, includes ₹20cr other income</text>
+
+  <rect x="360" y="226" width="300" height="54" rx="5" fill="#f4f7fa" stroke="currentColor" stroke-width="1.4"/>
+  <text class="t-lg" x="510" y="250" text-anchor="middle">27.2%</text>
+  <text class="t-sm t-mut" x="510" y="269" text-anchor="middle">clean operating margin — ₹172cr, operations only</text>
+
+  <rect x="700" y="226" width="260" height="54" rx="5" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.4"/>
+  <text class="t-md" x="830" y="248" text-anchor="middle" fill="#a2650a">₹20cr of other income</text>
+  <text class="t-sm" x="830" y="267" text-anchor="middle" fill="#a2650a">is the entire difference</text>
+
+  <rect x="20" y="298" width="940" height="88" rx="8" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.2"/>
+  <text class="t-md" x="38" y="322" fill="#b3261e">Never blend the two</text>
+  <text class="t" x="38" y="346" fill="#b3261e">Management's guidance of <tspan font-weight="700">25% ± 2%</tspan> is stated on the company basis. Screener's OPM is on the clean basis. The company's own headline for the</text>
+  <text class="t" x="38" y="366" fill="#b3261e">quarter was "EBITDA margin crosses 30% for the first time" — true on its definition, and 310bps above the operating number. The convention is</text>
+  <text class="t" x="38" y="386" fill="#b3261e">consistent across quarters, so it is a definition to know, not a manipulation to allege. FY26 shows the same gap: ₹500cr company vs ₹435cr clean.</text>
+</svg>
+<figcaption>Both numbers appear in public sources and they do not agree, so any comparison — across quarters, against guidance, or against a peer — has to state which basis it is on. <span class="src">Raw-material correlation and pass-through: Q1FY27 call, 7-Aug-2026. The two margin bases and the FY26 reconciliation: Q1FY27 deck and results, cross-checked in the profile's data-quality notes.</span></figcaption>
+</figure>
+
+<h2 id="s9"><span class="n">9.</span> Geography and the tariff swing</h2>
+
+<p><strong>About 75% of revenue is exported</strong>, to 90+ countries. That is the source of the premium franchise — and it is also why a policy decision in Washington can move a quarter more than anything happening in the plant.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 980 480" role="img" aria-label="Panel showing exports at 75 percent of revenue, the US tariff episode reducing PPF revenue share from 31 to 25 percent, the refund of over 50 crore landing in Q2FY27, and the reverse-direction antidumping duty recommended on Chinese paint protection film imports into India.">
+  <defs>
+    <marker id="g9a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+    <marker id="g9r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b3261e"/>
+    </marker>
+    <marker id="g9g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a6f4a"/>
+    </marker>
+  </defs>
+
+  <text class="t-md" x="20" y="32">Where the revenue comes from</text>
+  <rect x="20"  y="46" width="690" height="40" rx="4" fill="#2E75B6"/>
+  <rect x="714" y="46" width="230" height="40" rx="4" fill="#b8c4ce"/>
+  <text class="t-md" x="365" y="72" text-anchor="middle" fill="#ffffff">Exports ~75% · 90+ countries</text>
+  <text class="t-md" x="829" y="72" text-anchor="middle" fill="#16202b">Domestic ~25%</text>
+
+  <line x1="20" y1="108" x2="960" y2="108" stroke="currentColor" stroke-width="1" opacity=".2"/>
+
+  <text class="t-md" x="20" y="136" fill="#b3261e">What a tariff does to a quarter</text>
+
+  <rect x="20"  y="152" width="180" height="62" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t" x="110" y="178" text-anchor="middle">Plant, India</text>
+  <text class="t-sm t-mut" x="110" y="196" text-anchor="middle">premium film, exported</text>
+
+  <rect x="286" y="140" width="26" height="86" fill="#b3261e"/>
+  <text class="t-sm" x="299" y="132" text-anchor="middle" fill="#b3261e">US duty</text>
+  <text class="t-sm" x="299" y="244" text-anchor="middle" fill="#b3261e">25% → 50%</text>
+
+  <rect x="380" y="152" width="200" height="62" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t" x="480" y="178" text-anchor="middle">US distributors</text>
+  <text class="t-sm t-mut" x="480" y="196" text-anchor="middle">and studios</text>
+
+  <line x1="202" y1="183" x2="282" y2="183" stroke="currentColor" stroke-width="1.6" marker-end="url(#g9a)"/>
+  <line x1="316" y1="183" x2="376" y2="183" stroke="#b3261e" stroke-width="1.6" marker-end="url(#g9r)"/>
+
+  <rect x="620" y="140" width="340" height="86" rx="7" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.2"/>
+  <text class="t-md" x="640" y="164" fill="#b3261e">The damage, in the numbers</text>
+  <text class="t" x="640" y="186" fill="#b3261e">PPF's share of revenue fell <tspan font-weight="700">31% → 25%</tspan></text>
+  <text class="t" x="640" y="206" fill="#b3261e">Q3FY26 margin troughed at <tspan font-weight="700">18.9%</tspan></text>
+
+  <line x1="20" y1="252" x2="960" y2="252" stroke="currentColor" stroke-width="1" opacity=".2"/>
+
+  <text class="t-md" x="20" y="280" fill="#1a6f4a">And what comes back — a refund, landing in one quarter</text>
+  <rect x="20" y="296" width="450" height="76" rx="7" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.5"/>
+  <text class="t" x="38" y="320" fill="#1a6f4a">Q1FY27: <tspan font-weight="700">nothing received</tspan> — "quarter 1 performance is purely</text>
+  <text class="t" x="38" y="340" fill="#1a6f4a">on the company's real natural performance"</text>
+  <text class="t" x="38" y="362" fill="#1a6f4a">Q2FY27: 30–40% already received, full amount expected</text>
+
+  <rect x="490" y="296" width="470" height="76" rx="7" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.5"/>
+  <text class="t-md" x="508" y="320" fill="#a2650a">Net ₹50cr+ — after sharing part of it with US customers</text>
+  <text class="t" x="508" y="342" fill="#a2650a">It is a one-off, it is not in guidance, and it lands in the same</text>
+  <text class="t" x="508" y="362" fill="#a2650a">quarter the market will read as "the new run-rate."</text>
+
+  <rect x="20" y="390" width="940" height="76" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1"/>
+  <text class="t-md" x="38" y="414">Trade policy runs the other way too</text>
+  <text class="t" x="38" y="436">India's DGTR has <tspan font-weight="700">recommended an antidumping duty on TPU-based paint protection film imported from China</tspan> — protection in</text>
+  <text class="t" x="38" y="456">Garware's home market, arriving around the time its own TPU line commissions. <tspan font-style="italic">A recommendation is not yet a customs notification.</tspan></text>
+</svg>
+<figcaption><strong>The export share is both the moat and the exposure.</strong> A premium film business needs the US and European markets to exist at Garware's price point; that same dependence is what turned a policy change into a 600bps swing in PPF mix and a margin trough. The refund is the tail of that episode, and because it is a one-off arriving in a single quarter, <strong>any Q2FY27 margin should be read twice — with it and without it.</strong> <span class="src">Export share: Q1FY27 deck. Tariff impact on PPF mix and the Q3FY26 trough: profile §4, sourced to the Q3FY26 call and results. Refund timing, sharing and the ₹50cr+ net figure: Q1FY27 call, 7-Aug-2026. DGTR recommendation: Q1FY27 call and deck.</span></figcaption>
+</figure>
+
+<h2 id="s10"><span class="n">10.</span> The competitive map — premium, economy, and who is integrated</h2>
+
+<p>Management is careful about naming competitors, but it has described the structure of the market clearly enough to map it: <strong>four large players in the US market including Garware</strong>; a premium tier of American-made brands; and <strong>more than fifty producers in China and Korea</strong> operating in a segment Garware says it "hardly competes with."</p>
+
+<figure class="dg">
+<svg viewBox="0 0 980 470" role="img" aria-label="A map with price tier from economy to super premium on the horizontal axis and depth of backward integration on the vertical, placing Garware at premium and deeply integrated, US premium brands at premium with partial integration, and fifty plus Chinese and Korean producers at the economy end.">
+  <defs>
+    <marker id="g10a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <line x1="100" y1="400" x2="944" y2="400" stroke="currentColor" stroke-width="1.5" marker-end="url(#g10a)"/>
+  <line x1="100" y1="400" x2="100" y2="40" stroke="currentColor" stroke-width="1.5" marker-end="url(#g10a)"/>
+  <line x1="100" y1="220" x2="934" y2="220" stroke="currentColor" stroke-width="1" stroke-dasharray="5 6" opacity=".3"/>
+
+  <text class="t-sm t-mut" x="110" y="426">Economy</text>
+  <text class="t-sm t-mut" x="934" y="426" text-anchor="end">Super premium</text>
+  <text class="t-sm t-mut" x="84" y="120" transform="rotate(-90 84 120)" text-anchor="middle">deeply integrated — chips to coating</text>
+  <text class="t-sm t-mut" x="84" y="330" transform="rotate(-90 84 330)" text-anchor="middle">buys in its base film</text>
+
+  <circle cx="770" cy="110" r="11" fill="#2E75B6"/>
+  <text class="t-lg" x="770" y="88" text-anchor="middle" fill="#1F4E79">GARWARE</text>
+  <text class="t-sm t-mut" x="770" y="140" text-anchor="middle">own chips, film, dye, coat, adhesive;</text>
+  <text class="t-sm t-mut" x="770" y="156" text-anchor="middle">TPU from Q3FY27</text>
+  <text class="t-sm" x="770" y="176" text-anchor="middle" fill="#1F4E79">priced 10–15% below US-made product</text>
+
+  <circle cx="820" cy="292" r="10" fill="#3d4b5c"/>
+  <text class="t-md" x="820" y="272" text-anchor="middle">US premium brands</text>
+  <text class="t-sm t-mut" x="820" y="312" text-anchor="middle">four big players in the US market,</text>
+  <text class="t-sm t-mut" x="820" y="328" text-anchor="middle">Garware among them; some source</text>
+  <text class="t-sm t-mut" x="820" y="344" text-anchor="middle">base film from China or Korea</text>
+
+  <ellipse cx="235" cy="330" rx="105" ry="46" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3" stroke-dasharray="5 4"/>
+  <text class="t-md" x="235" y="322" text-anchor="middle">50+ producers</text>
+  <text class="t-sm t-mut" x="235" y="342" text-anchor="middle">China and Korea</text>
+  <text class="t-sm t-mut" x="235" y="386" text-anchor="middle">chip-dyed and glue-dyed methods</text>
+
+  <rect x="330" y="60" width="330" height="88" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.2"/>
+  <text class="t-md" x="348" y="84" fill="#a2650a">The claim this map encodes</text>
+  <text class="t-sm" x="348" y="106" fill="#a2650a">"Garware or Global competes with the products which</text>
+  <text class="t-sm" x="348" y="122" fill="#a2650a">are manufactured in America. They hardly compete with</text>
+  <text class="t-sm" x="348" y="138" fill="#a2650a">the products which are manufactured from China, Korea."</text>
+
+  <text class="t-sm t-mut" x="110" y="450">Placement is qualitative and is my framing, not company data. What is sourced is the structure: four large US players, the 50+ Asian producers, the dyeing-method</text>
+  <text class="t-sm t-mut" x="110" y="466">difference, the 10–15% price gap to American-made film, and management's statement that some US competitors buy their base film from China or Korea.</text>
+</svg>
+<figcaption><strong>The vertical axis is the one that is hard to copy.</strong> Anyone can buy base film and coat it; very few make the chips, the film, the dye, the adhesive and the top coat, and Garware adds TPU to that list in Q3FY27. The price gap to American-made product is the commercial expression of the same thing — an Indian cost base selling into a premium tier. <span class="src">Market structure, the "hardly compete" quote and the 10–15% price gap: Q1FY26 call, Aug-2025. The 50+ producers and dyeing methods: Q4FY25 call, 7-May-2025. Integration scope: Q3FY25 call and Q1FY27 deck.</span></figcaption>
+</figure>
+
+<h2 id="s11"><span class="n">11.</span> Reading the industry through the numbers</h2>
+
+<div class="tw">
+<table>
+<thead><tr><th style="width:26%">Industry mechanism</th><th style="width:24%">Where it shows up</th><th style="width:30%">Latest reading</th><th style="width:20%">Source</th></tr></thead>
+<tbody>
+<tr><td>Value is added after the base film, not in it</td><td>VAP share of revenue; gross margin</td><td><strong>87% value-added</strong>; target 85%+ sustained</td><td>Q1FY27 deck</td></tr>
+<tr><td>In-house components break the crude link</td><td>Sensitivity of cost to raw material</td><td><strong>10–12% correlation</strong> on consumer products</td><td>Q1FY27 call</td></tr>
+<tr><td>The mix shift from commodity to speciality</td><td>EBITDA margin, over years not quarters</td><td><strong>~9% (FY17) → 23.6% (FY26)</strong>, company basis</td><td>Q1FY27 deck</td></tr>
+<tr><td>Forward integration toward the consumer</td><td>Own-brand share; D2C share; studio count</td><td><strong>55% own brand</strong>; D2C ~10–15% globally, ~40% India; 250+ GAS, 14 global studios</td><td>Q1FY27 call &amp; deck</td></tr>
+<tr><td>PPF is the growth engine, half-full</td><td>Line utilisation</td><td><strong>Old line ~100%, new line ~60%</strong></td><td>Q1FY27 call</td></tr>
+<tr><td>Backward integration into the last bought-in layer</td><td>TPU line; guided margin benefit</td><td><strong>Commissions Q3FY27</strong>; guided <strong>+1.5–2% EBITDA</strong> from FY28; 75% captive</td><td>Q1FY27 call</td></tr>
+<tr><td>Export dependence cuts both ways</td><td>Export share; PPF mix; one-off refunds</td><td><strong>~75% exports</strong>; PPF mix fell 31%→25% under tariffs; <strong>₹50cr+ net refund in Q2FY27</strong></td><td>Q1FY27 call &amp; deck</td></tr>
+<tr><td>Capacity is built ahead of demand</td><td>Committed lines</td><td>SCF line <strong>₹191cr, H1FY28</strong>, +1,200 lakh sq ft; TPU <strong>₹118cr</strong>, 360 lakh sq ft</td><td>Q1FY27 deck</td></tr>
+<tr><td>Two margin definitions coexist</td><td>Reported EBITDA vs operating profit</td><td><strong>30.3% vs 27.2%</strong> in Q1FY27; ₹500cr vs ₹435cr in FY26</td><td>Q1FY27 deck + profile notes</td></tr>
+<tr><td>The industrial half is share, not drama</td><td>IPD revenue share; market position</td><td><strong>26% of revenue</strong>; ~70% of India's shrink-film market</td><td>Q1FY27 deck</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2 id="s12"><span class="n">12.</span> What the company does not disclose · Glossary</h2>
+
+<p>Recorded as gaps rather than filled with inference:</p>
+<ul>
+<li><strong>Segment-level margins.</strong> Revenue splits 74/26 between consumer and industrial, but neither division's profitability is given — so the margin effect of mix can only be inferred, never checked.</li>
+<li><strong>A consistent PPF vs SCF revenue split.</strong> PPF's share appears only occasionally and usually in the context of tariffs (31% → 25%). There is no standing quarterly disclosure.</li>
+<li><strong>Volumes and realisation.</strong> Capacity is stated in lakh square feet, but quarterly volume and price per square foot are not — so it is not possible to separate growth from price.</li>
+<li><strong>The GHS store count is stale.</strong> Six were operational at the May-2026 call and the last figure carried in our profile is nine, against a 50-store FY27 target that was reconfirmed without a current count. <strong>Treat 9 as last-known, not current.</strong></li>
+<li><strong>What the three new TPU products are.</strong> Asked directly, management declined on the call — <em>"these things are beyond certain point, the strategy will become very public, which we can't say in the forum."</em> Reasonable, and it means the FY28 margin bridge rests partly on undisclosed products.</li>
+<li><strong>The permanent CFO.</strong> An interim CFO was appointed in August 2026 and the word "CFO" does not appear once in the Q1FY27 transcript. Not an industry question, but it sits over every number on this page.</li>
+</ul>
+
+<dl class="glos">
+<dt>BOPET</dt><dd>Biaxially-oriented polyethylene terephthalate — polyester film stretched in two directions. The commodity base of this industry.</dd>
+<dt>PET chips</dt><dd>The plastic pellets film is made from. Garware makes its own, 66,000 MT/year.</dd>
+<dt>SCF</dt><dd>Sun control film — window film for cars and buildings; heat, glare, UV and privacy.</dd>
+<dt>PPF</dt><dd>Paint protection film — a clear film applied over car paint to take stone chips and scratches.</dd>
+<dt>TPU</dt><dd>Thermoplastic polyurethane — the flexible, self-healing body of a PPF. Garware's own line commissions Q3FY27.</dd>
+<dt>VAP</dt><dd>Value-added products — the company's term for everything that is not commodity film. 87% of revenue.</dd>
+<dt>CPD / IPD</dt><dd>Consumer Product Division (74%) and Industrial Product Division (26%).</dd>
+<dt>LSF</dt><dd>Lakh square feet — the capacity unit used for films. 4,200 LSF = 420 million sq ft a year.</dd>
+<dt>Deep-dyed</dt><dd>Colour driven into the film body, versus chip-dyed (colour in the pellets) or glue-dyed (colour in the adhesive).</dd>
+<dt>Nano-dispersion</dt><dd>Garware's proprietary technology for dispersing infra-red-blocking particles through a coating.</dd>
+<dt>Release liner</dt><dd>The silicone-coated backing peeled off and discarded when a film or label is applied.</dd>
+<dt>Shrink film</dt><dd>Printed film that tightens onto a container when heated — the sleeve on a bottle. Garware holds ~70% of the Indian market.</dd>
+<dt>GAS / GHS</dt><dd>Garware Application Studios (250+, automotive) and Garware Home Solutions (architectural retail, 50-store FY27 target).</dd>
+<dt>CMVR</dt><dd>Central Motor Vehicles Rules — the Indian regulation automotive safety glazing film must comply with.</dd>
+<dt>DGTR</dt><dd>Directorate General of Trade Remedies — India's antidumping authority, which has recommended a duty on Chinese TPU-based PPF.</dd>
+<dt>D2C</dt><dd>Direct to consumer — selling through own studios rather than distributors. Carries 25–40% higher margin.</dd>
+</dl>
+
+<hr>
+
+<h3>Sources</h3>
+<p class="src"><strong>Transcripts (7):</strong> Q1FY27 (7-Aug-2026) · Q4FY26 (7-May-2026) · Q3FY26 (Feb-2026) · Q2FY26 (Nov-2025) · Q1FY26 (Aug-2025) · Q4FY25 (7-May-2025) · Q3FY25 (10-Feb-2025).<br>
+<strong>Investor deck:</strong> Q1FY27, filed 6-Aug-2026. All held in <code class="src">Fetched Concalls/GRWRHITECH/</code>.<br>
+<strong>Extraction discipline:</strong> figures come from deck tables, text slides and spoken commentary. The two exceptions — the FY17–FY21 margin series in §5 — are read off a chart and are flagged where they appear; the FY22–FY26 margins in the same chart were verified by arithmetic against the deck's own EBITDA and revenue figures.<br>
+<strong>Drawings:</strong> the film cross-sections in §1 and §4 are schematic representations of standard industry construction, not company diagrams. Layers are labelled against capabilities Garware discloses.<br>
+<strong>Companion document:</strong> <code class="src">Company Profiles/GARWARE.md</code> carries the financials, valuation, delivery scorecard and risk list. This page makes no investment judgement.</p>
+
+</body>
+</html>
