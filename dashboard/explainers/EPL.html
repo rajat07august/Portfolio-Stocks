@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How the Laminated Tube Business Works — EPL Industry Primer</title>
+<meta name="robots" content="noindex,nofollow">
+<style>
+
+:root{
+  --navy:#1F4E79; --blue:#2E75B6; --ink:#16202b; --mut:#5a6a78; --bg:#fafbfc;
+  --card:#ffffff; --line:#e3e8ee; --amber:#a2650a; --amberbg:#fff8e6;
+  --red:#b3261e; --redbg:#fdeceb; --green:#1a6f4a; --greenbg:#ecf7f1;
+  color-scheme: light;
+}
+*{box-sizing:border-box}
+body{
+  max-width:1040px; margin:0 auto; padding:22px 20px 80px;
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+  line-height:1.62; color:var(--ink); background:var(--bg); font-size:15px;
+}
+.nav{display:flex; gap:18px; flex-wrap:wrap; margin-bottom:12px; font-size:13.5px}
+.nav a{color:var(--navy); font-weight:600; text-decoration:none}
+.nav a:hover{text-decoration:underline; color:var(--blue)}
+.topbar{background:linear-gradient(135deg,#1F4E79 0%,#2E75B6 100%); color:#fff; padding:20px 24px; border-radius:10px; margin-bottom:22px}
+.topbar h1{margin:0 0 6px; font-size:25px; line-height:1.25; color:#fff; border:0; padding:0}
+.topbar .sub{font-size:14.5px; opacity:.92}
+.topbar .meta{font-size:12.5px; opacity:.8; margin-top:10px}
+h2{color:var(--navy); font-size:20px; margin:44px 0 6px; border-left:4px solid var(--navy); padding-left:12px}
+h2 .n{color:var(--blue); font-weight:700}
+h3{color:var(--blue); font-size:16px; margin:26px 0 8px}
+p{margin:11px 0}
+ul{margin:10px 0; padding-left:22px} li{margin:6px 0}
+.lede{font-size:15.5px; color:#2c3b49}
+.box{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 18px; margin:18px 0}
+.box.warn{background:var(--amberbg); border-color:#f0dcae}
+.box.red{background:var(--redbg); border-color:#f3cfcb}
+.box.good{background:var(--greenbg); border-color:#c7e4d5}
+.box h4{margin:0 0 6px; font-size:14px; color:var(--navy); text-transform:uppercase; letter-spacing:.04em}
+.src{color:var(--mut); font-size:12.5px}
+code.src{background:transparent; padding:0}
+figure.dg{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px 16px 12px; margin:22px 0}
+figure.dg svg{width:100%; height:auto; display:block; color:#3d4b5c}
+figure.dg figcaption{font-size:13px; color:var(--mut); margin-top:12px; padding-top:10px; border-top:1px dashed var(--line)}
+svg text{fill:currentColor}
+.t-lg{font-size:15px; font-weight:700}
+.t-md{font-size:13.5px; font-weight:700}
+.t{font-size:12.5px}
+.t-sm{font-size:11px}
+.t-mut{opacity:.7}
+.tw{overflow-x:auto; margin:16px 0}
+table{border-collapse:collapse; width:100%; min-width:620px; font-size:13.5px; background:var(--card)}
+th,td{border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top}
+th{background:#eef3f8; color:var(--navy); font-weight:700}
+.toc{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 20px; font-size:14px}
+.toc ol{margin:6px 0; padding-left:22px} .toc li{margin:4px 0}
+.toc a{color:var(--navy); text-decoration:none} .toc a:hover{text-decoration:underline}
+.glos{display:grid; grid-template-columns:150px 1fr; gap:6px 14px; font-size:13.5px}
+.glos dt{font-weight:700; color:var(--navy)} .glos dd{margin:0}
+@media (max-width:640px){ .glos{grid-template-columns:1fr} .glos dt{margin-top:8px} }
+.tag{display:inline-block; font-size:11px; font-weight:700; letter-spacing:.03em; padding:2px 7px; border-radius:20px; vertical-align:middle}
+.tag.fact{background:#e8f0f8; color:var(--navy)}
+.tag.inf{background:var(--amberbg); color:var(--amber); border:1px solid #ecd9a8}
+blockquote{border-left:4px solid #2E75B6; background:#f4f8fc; margin:16px 0; padding:12px 18px; font-size:14px}
+hr{border:0; border-top:1px solid var(--line); margin:38px 0}
+</style>
+</head>
+<body>
+
+<div class="nav">
+  <a href="https://portfolio-stocks-chi.vercel.app/index.html">← Dashboard</a>
+  <a href="https://portfolio-stocks-chi.vercel.app/profile.html?stock=EPL">Full profile — EPL →</a>
+</div>
+
+<div class="topbar">
+  <h1>How the laminated tube business actually works</h1>
+  <div class="sub">An industry primer for EPL Limited — what the product is, why plants sit next to customers, and where the money is made</div>
+  <div class="meta">Built 25-Aug-2026 · Sourced from EPL's 6 official transcripts, the Q1FY27 deck, press release and results filing · Companion to <strong>Company Profiles/EPL.md</strong></div>
+</div>
+
+<p class="lede">This page explains the <strong>industry</strong>, not the investment case. Valuation, the Indovida merger terms and the risk list live in the profile. What follows is the mechanism: what a laminated tube physically is, the three ways to make one, why the world's largest maker builds a plant next to each customer instead of one big export factory, how a rise in the polymer price can make growth look better and margin look worse in the same quarter, and where a packaging company finds room to charge more for what looks like a commodity.</p>
+
+<div class="box warn">
+<h4>How to read this</h4>
+<p style="margin:6px 0"><span class="tag fact">FACT</span> Everything unmarked comes from EPL's own filings, with the source named in grey after the claim.</p>
+<p style="margin:6px 0"><span class="tag inf">MY INFERENCE</span> Where the framing is mine rather than management's, it is marked — including the freight arithmetic in §4 and the positioning map in §10.</p>
+<p style="margin:6px 0; color:#5a6a78; font-size:13.5px"><strong>One sourcing note carried from the profile:</strong> the official Q1FY27 transcript had not been filed when the profile was written, so quotes from that call come from a <strong>machine transcription of the company's own audio recording</strong>, with every figure cross-checked against the deck and press release. Quotes from it are labelled. Nothing on this page is read off a chart in a deck.</p>
+</div>
+
+<div class="toc">
+<strong>Contents</strong>
+<ol>
+<li><a href="#s1">The product — what a laminated tube actually is</a></li>
+<li><a href="#s2">Three ways to make a tube, and why the choice matters</a></li>
+<li><a href="#s3">How a tube gets made — and what EPL does not do</a></li>
+<li><a href="#s4">Why the plant sits next to the customer</a></li>
+<li><a href="#s5">The pass-through mechanic — why one quarter grew 25% and lost margin</a></li>
+<li><a href="#s6">Two engines: oral care and everything else</a></li>
+<li><a href="#s7">The premiumisation ladder — charging more for the same square metre</a></li>
+<li><a href="#s8">Recyclability as a moat, not a cost</a></li>
+<li><a href="#s9">Five regions, one product</a></li>
+<li><a href="#s10">Where the merger moves the business</a></li>
+<li><a href="#s11">Reading the industry through the numbers</a></li>
+<li><a href="#s12">What EPL does not disclose</a></li>
+<li><a href="#s13">Glossary</a></li>
+</ol>
+</div>
+
+<h2 id="s1"><span class="n">1.</span> The product — what a laminated tube actually is</h2>
+
+<p>Pick up a tube of toothpaste, face cream or hair colour. It feels like a single piece of soft plastic. It is not. It is a <strong>flat multi-layer sheet — a laminate — that has been printed, rolled into a cylinder, welded along one edge, and had a moulded shoulder and cap attached at the top.</strong> The bottom is left open, because that is where the brand fills it before crimping it shut.</p>
+
+<p>That construction is the whole business. The layers do different jobs: the outer layer takes the printing, an inner layer touches the product and must not react with it, and somewhere in the middle sits a <strong>barrier</strong> — historically aluminium foil, increasingly a polymer — whose job is to stop oxygen, moisture and aroma passing through in either direction. A fluoride toothpaste that loses its active ingredient through the pack wall is a failed product, and the barrier is what prevents it.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 470" role="img" aria-label="An exploded laminated tube showing cap, shoulder, sleeve, side seam and open tail, alongside a cross-section of the laminate showing outer print layer, barrier layer and product-contact layer.">
+  <defs>
+    <marker id="e1a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <text class="t-md" x="30" y="34">The parts of a tube</text>
+
+  <!-- cap -->
+  <rect x="146" y="58" width="58" height="30" rx="5" fill="#dbe6f0" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="210" y1="73" x2="300" y2="73" stroke="currentColor" stroke-width="1" marker-end="url(#e1a)"/>
+  <text class="t" x="308" y="70">Cap — moulded, screwed or flipped on</text>
+  <text class="t-sm t-mut" x="308" y="87">integrated cap-and-shoulder designs too</text>
+
+  <!-- shoulder -->
+  <polygon points="120,132 230,132 204,98 146,98" fill="#eef3f8" stroke="currentColor" stroke-width="1.5"/>
+  <rect x="158" y="88" width="34" height="12" fill="#eef3f8" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="234" y1="118" x2="300" y2="118" stroke="currentColor" stroke-width="1" marker-end="url(#e1a)"/>
+  <text class="t" x="308" y="115">Shoulder and neck — injection-moulded onto the sleeve</text>
+  <text class="t-sm t-mut" x="308" y="132">the orifice shape controls how the product comes out</text>
+
+  <!-- sleeve -->
+  <rect x="120" y="136" width="110" height="210" fill="#f7fafc" stroke="currentColor" stroke-width="1.6"/>
+  <line x1="203" y1="136" x2="203" y2="346" stroke="#2E75B6" stroke-width="2" stroke-dasharray="7 4"/>
+  <line x1="234" y1="210" x2="300" y2="210" stroke="currentColor" stroke-width="1" marker-end="url(#e1a)"/>
+  <text class="t" x="308" y="207">Sleeve — printed laminate, rolled into a cylinder</text>
+  <text class="t-sm" x="308" y="224" fill="#2E75B6">the blue dashed line is the welded side seam</text>
+
+  <!-- open tail -->
+  <path d="M120,346 H230" stroke="currentColor" stroke-width="2.4" stroke-dasharray="4 5"/>
+  <line x1="234" y1="352" x2="300" y2="352" stroke="currentColor" stroke-width="1" marker-end="url(#e1a)"/>
+  <text class="t" x="308" y="349" fill="#a2650a">Open tail — EPL ships the tube like this</text>
+  <text class="t-sm t-mut" x="308" y="366">the brand fills through the bottom, then seals it</text>
+
+  <text class="t-sm t-mut" x="175" y="392" text-anchor="middle">as shipped</text>
+
+  <!-- cross section -->
+  <text class="t-md" x="640" y="34">A slice through the wall</text>
+  <rect x="640" y="56" width="300" height="28" fill="#cfdcea" stroke="currentColor" stroke-width="1"/>
+  <rect x="640" y="84" width="300" height="18" fill="#e6eef6" stroke="currentColor" stroke-width="1"/>
+  <rect x="640" y="102" width="300" height="32" fill="#2E75B6" stroke="currentColor" stroke-width="1"/>
+  <rect x="640" y="134" width="300" height="18" fill="#e6eef6" stroke="currentColor" stroke-width="1"/>
+  <rect x="640" y="152" width="300" height="28" fill="#cfdcea" stroke="currentColor" stroke-width="1"/>
+  <text class="t-sm" x="790" y="75" text-anchor="middle">outer polymer + print</text>
+  <text class="t-sm" x="790" y="97" text-anchor="middle">tie layer</text>
+  <text class="t-md" x="790" y="124" text-anchor="middle" fill="#ffffff">BARRIER</text>
+  <text class="t-sm" x="790" y="147" text-anchor="middle">tie layer</text>
+  <text class="t-sm" x="790" y="171" text-anchor="middle">inner polymer — product contact</text>
+  <text class="t" x="640" y="212">The barrier decides everything: aluminium foil</text>
+  <text class="t" x="640" y="230">blocks best; a polymer barrier can be recycled.</text>
+  <text class="t" x="640" y="248">Swapping one for the other is the biggest</text>
+  <text class="t" x="640" y="266">technical project in this industry (§8).</text>
+  <text class="t-sm t-mut" x="640" y="296">Layer count and materials vary; drawn schematically.</text>
+</svg>
+<figcaption><strong>A tube is a converted sheet, not a moulded object — and it leaves EPL open at the bottom.</strong> That last detail explains the customer relationship: EPL's tube has to run through the brand's filling line at high speed without jamming, tearing or sealing badly, which is why a new tube has to be trialled on the actual line before it can be adopted. <span class="src">Construction is standard industry practice, not a company disclosure; the cap-and-shoulder integration ("Tiara" caps) and orifice design are from the Q1FY27 deck's innovation slides. <span class="tag inf">MY INFERENCE</span> — the framing of the open tail as the source of switching friction is mine.</span></figcaption>
+</figure>
+
+<h2 id="s2"><span class="n">2.</span> Three ways to make a tube, and why the choice matters</h2>
+
+<p>"Tube" is not one technology. Three compete, and a brand's choice is driven by barrier need, decoration quality, order size and cost.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 350" role="img" aria-label="Comparison of laminated, extruded and aluminium tubes: construction, typical uses and where EPL participates.">
+  <rect x="20" y="26" width="292" height="290" rx="9" fill="#eaf2fb" stroke="#2E75B6" stroke-width="2"/>
+  <text class="t-lg" x="40" y="56" fill="#1F4E79">Laminated tube</text>
+  <text class="t-sm" x="40" y="76" fill="#1F4E79">ABL / PBL — EPL's core, ~30% of world supply</text>
+  <rect x="40" y="92" width="60" height="86" rx="3" fill="#ffffff" stroke="currentColor" stroke-width="1.4"/>
+  <line x1="86" y1="92" x2="86" y2="178" stroke="#2E75B6" stroke-width="1.6" stroke-dasharray="5 3"/>
+  <text class="t" x="116" y="112">Sheet welded into a</text>
+  <text class="t" x="116" y="130">cylinder — has a side</text>
+  <text class="t" x="116" y="148">seam, takes the best</text>
+  <text class="t" x="116" y="166">print quality</text>
+  <text class="t" x="40" y="206">Barrier can be foil or polymer, so it spans</text>
+  <text class="t" x="40" y="224">everything from toothpaste to face cream.</text>
+  <text class="t" x="40" y="248">Efficient at large volumes; the seam has</text>
+  <text class="t" x="40" y="266">historically been visible on the pack.</text>
+  <text class="t-sm" x="40" y="294" fill="#1F4E79">EPL's answer to the seam: Neoseam, a 360°</text>
+  <text class="t-sm" x="40" y="308" fill="#1F4E79">seamless print with no visible seam line.</text>
+
+  <rect x="334" y="26" width="292" height="290" rx="9" fill="#f7fafc" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t-lg" x="354" y="56">Extruded tube</text>
+  <text class="t-sm t-mut" x="354" y="76">EPL is adding capacity here</text>
+  <rect x="354" y="92" width="60" height="86" rx="26" fill="#ffffff" stroke="currentColor" stroke-width="1.4"/>
+  <text class="t" x="430" y="112">Body extruded as a</text>
+  <text class="t" x="430" y="130">seamless plastic pipe,</text>
+  <text class="t" x="430" y="148">then cut and shaped</text>
+  <text class="t" x="430" y="166">— no seam at all</text>
+  <text class="t" x="354" y="206">Softer, rounder feel; suits beauty and</text>
+  <text class="t" x="354" y="224">cosmetics, and smaller runs.</text>
+  <text class="t" x="354" y="248">Barrier options are more limited, so it is</text>
+  <text class="t" x="354" y="266">less suited to the most demanding fills.</text>
+  <text class="t-sm t-mut" x="354" y="294">Management has named "investing in extruded</text>
+  <text class="t-sm t-mut" x="354" y="308">capacity" as a Beauty &amp; Cosmetics enabler.</text>
+
+  <rect x="648" y="26" width="292" height="290" rx="9" fill="#f7fafc" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t-lg" x="668" y="56">Aluminium tube</text>
+  <text class="t-sm t-mut" x="668" y="76">the older technology — context, not EPL</text>
+  <rect x="668" y="92" width="60" height="86" rx="3" fill="#e9edf1" stroke="currentColor" stroke-width="1.4"/>
+  <path d="M668,178 L698,166 L728,178" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <text class="t" x="744" y="112">Impact-extruded from</text>
+  <text class="t" x="744" y="130">a metal slug; stays</text>
+  <text class="t" x="744" y="148">squeezed where you</text>
+  <text class="t" x="744" y="166">leave it</text>
+  <text class="t" x="668" y="206">Perfect barrier and no springback, which is</text>
+  <text class="t" x="668" y="224">why pharma and some hair colour still use it.</text>
+  <text class="t" x="668" y="248">Heavier, costlier, and the decoration options</text>
+  <text class="t" x="668" y="266">are narrower than a printed laminate.</text>
+</svg>
+<figcaption><strong>The competitive question in this industry is usually not "which supplier" but "which format".</strong> EPL's position is strongest where a real barrier plus high-quality decoration are both required — which is exactly the toothpaste-to-premium-skincare span. Its investment in extruded lines is a move to cover the format it did not own, in the category it is trying to grow. <span class="src">EPL's laminated share and the extruded-capacity investment are from the Q3FY26 call and the Q1FY27 deck ("Extrusion Lines"); the comparison of the three formats is standard industry knowledge, presented for context. <span class="tag inf">MY INFERENCE</span> — the "format, not supplier" framing is mine.</span></figcaption>
+</figure>
+
+<h2 id="s3"><span class="n">3.</span> How a tube gets made — and what EPL does not do</h2>
+
+<p>The process runs from a roll of film to a palletised box of empty tubes. Everything upstream of "filling" is EPL's; everything from filling onwards belongs to the brand.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 430" role="img" aria-label="Eight-stage tube manufacturing flow from materials through lamination, printing, slitting, tube forming, shoulder moulding, capping and inspection, followed by the customer's filling stage.">
+  <defs>
+    <marker id="e3a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+    <marker id="e3o" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#a2650a"/>
+    </marker>
+  </defs>
+
+  <rect x="20"  y="40" width="215" height="58" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="127" y="66" text-anchor="middle">Materials</text>
+  <text class="t-sm t-mut" x="127" y="85" text-anchor="middle">polymer resin, barrier film or foil</text>
+
+  <rect x="255" y="40" width="215" height="58" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="362" y="66" text-anchor="middle">Lamination</text>
+  <text class="t-sm t-mut" x="362" y="85" text-anchor="middle">layers bonded into one web</text>
+
+  <rect x="490" y="40" width="215" height="58" rx="7" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.8"/>
+  <text class="t-md" x="597" y="66" text-anchor="middle" fill="#1F4E79">Printing &amp; decoration</text>
+  <text class="t-sm" x="597" y="85" text-anchor="middle" fill="#1F4E79">where a tube stops being generic</text>
+
+  <rect x="725" y="40" width="215" height="58" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="832" y="66" text-anchor="middle">Slitting</text>
+  <text class="t-sm t-mut" x="832" y="85" text-anchor="middle">web cut to tube-width strips</text>
+
+  <line x1="237" y1="69" x2="251" y2="69" stroke="currentColor" stroke-width="1.6" marker-end="url(#e3a)"/>
+  <line x1="472" y1="69" x2="486" y2="69" stroke="currentColor" stroke-width="1.6" marker-end="url(#e3a)"/>
+  <line x1="707" y1="69" x2="721" y2="69" stroke="currentColor" stroke-width="1.6" marker-end="url(#e3a)"/>
+  <path d="M832,100 V118 H127 V134" fill="none" stroke="currentColor" stroke-width="1.4" stroke-dasharray="5 4" marker-end="url(#e3a)"/>
+
+  <rect x="20"  y="138" width="215" height="58" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="127" y="164" text-anchor="middle">Tube forming</text>
+  <text class="t-sm t-mut" x="127" y="183" text-anchor="middle">rolled and side-seam welded</text>
+
+  <rect x="255" y="138" width="215" height="58" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="362" y="164" text-anchor="middle">Shoulder moulded on</text>
+  <text class="t-sm t-mut" x="362" y="183" text-anchor="middle">neck and orifice formed</text>
+
+  <rect x="490" y="138" width="215" height="58" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="597" y="164" text-anchor="middle">Capping</text>
+  <text class="t-sm t-mut" x="597" y="183" text-anchor="middle">cap, applicator or dispensing tip</text>
+
+  <rect x="725" y="138" width="215" height="58" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="832" y="164" text-anchor="middle">Inspection &amp; pack</text>
+  <text class="t-sm t-mut" x="832" y="183" text-anchor="middle">shipped OPEN at the tail</text>
+
+  <line x1="237" y1="167" x2="251" y2="167" stroke="currentColor" stroke-width="1.6" marker-end="url(#e3a)"/>
+  <line x1="472" y1="167" x2="486" y2="167" stroke="currentColor" stroke-width="1.6" marker-end="url(#e3a)"/>
+  <line x1="707" y1="167" x2="721" y2="167" stroke="currentColor" stroke-width="1.6" marker-end="url(#e3a)"/>
+
+  <line x1="20" y1="224" x2="940" y2="224" stroke="currentColor" stroke-width="1" opacity=".25"/>
+  <text class="t-sm t-mut" x="20" y="244">— the boundary of what EPL sells —</text>
+
+  <rect x="20" y="258" width="440" height="92" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.4"/>
+  <text class="t-md" x="40" y="284" fill="#a2650a">At the brand's factory: the filling line</text>
+  <text class="t" x="40" y="308">Empty tubes are loaded, product is pumped in through the</text>
+  <text class="t" x="40" y="326">open tail, and the tail is crimped and heat-sealed shut.</text>
+  <text class="t-sm t-mut" x="40" y="344">Hundreds of tubes a minute. A tube that jams costs the brand a line stop.</text>
+  <path d="M832,198 V236 H240 V252" fill="none" stroke="#a2650a" stroke-width="1.6" marker-end="url(#e3o)"/>
+
+  <rect x="490" y="258" width="450" height="92" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1.1"/>
+  <text class="t-md" x="510" y="284">Why that boundary is the moat</text>
+  <text class="t" x="510" y="308">EPL is qualified onto a specific line, running a specific</text>
+  <text class="t" x="510" y="326">laminate at a specific speed. Changing supplier means</text>
+  <text class="t" x="510" y="344">re-trialling the pack — a plant decision, not a price decision.</text>
+
+  <text class="t" x="20" y="386">Capability investments named by management sit at exactly the two value-adding stages above: <tspan font-weight="700">printing lines</tspan>, <tspan font-weight="700">extrusion lines</tspan>,</text>
+  <text class="t" x="20" y="404"><tspan font-weight="700">new tooling</tspan> and <tspan font-weight="700">metallisation</tspan> — all of them ways to make the same square metre of laminate worth more (§7).</text>
+</svg>
+<figcaption><strong>EPL's product is finished when it is still empty.</strong> That is why the relationship is industrial rather than commercial: the tube has to behave on somebody else's machine. <span class="src">Process stages are standard industry practice; the named investments (extrusion lines, printing lines, new tooling, metallisation as a value-added process) are from the Q1FY27 deck. The switching-cost framing follows the profile's Moat 2.</span></figcaption>
+</figure>
+
+<h2 id="s4"><span class="n">4.</span> Why the plant sits next to the customer</h2>
+
+<p>EPL runs <strong>20+ plants across 11 countries</strong>. That looks inefficient for a company making one product — until you consider what a truckload of empty tubes actually contains.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 380" role="img" aria-label="A truck of empty tubes is mostly air, so freight cost per tube is high; EPL's model places a plant near each customer's filling line rather than exporting from a central factory.">
+  <defs>
+    <marker id="e4a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+    <marker id="e4r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b3261e"/>
+    </marker>
+    <marker id="e4g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a6f4a"/>
+    </marker>
+  </defs>
+
+  <text class="t-md" x="30" y="34">An empty tube is mostly air</text>
+  <rect x="30" y="52" width="330" height="120" rx="6" fill="#f7fafc" stroke="currentColor" stroke-width="1.4"/>
+  <circle cx="90" cy="184" r="14" fill="none" stroke="currentColor" stroke-width="1.6"/>
+  <circle cx="300" cy="184" r="14" fill="none" stroke="currentColor" stroke-width="1.6"/>
+  <line x1="30" y1="172" x2="360" y2="172" stroke="currentColor" stroke-width="1.6"/>
+  <g stroke="#2E75B6" stroke-width="1.2" fill="none">
+    <rect x="48" y="68" width="14" height="40" rx="2"/><rect x="70" y="68" width="14" height="40" rx="2"/>
+    <rect x="92" y="68" width="14" height="40" rx="2"/><rect x="114" y="68" width="14" height="40" rx="2"/>
+    <rect x="136" y="68" width="14" height="40" rx="2"/><rect x="158" y="68" width="14" height="40" rx="2"/>
+    <rect x="180" y="68" width="14" height="40" rx="2"/><rect x="202" y="68" width="14" height="40" rx="2"/>
+    <rect x="224" y="68" width="14" height="40" rx="2"/><rect x="246" y="68" width="14" height="40" rx="2"/>
+    <rect x="48" y="116" width="14" height="40" rx="2"/><rect x="70" y="116" width="14" height="40" rx="2"/>
+    <rect x="92" y="116" width="14" height="40" rx="2"/><rect x="114" y="116" width="14" height="40" rx="2"/>
+    <rect x="136" y="116" width="14" height="40" rx="2"/><rect x="158" y="116" width="14" height="40" rx="2"/>
+    <rect x="180" y="116" width="14" height="40" rx="2"/><rect x="202" y="116" width="14" height="40" rx="2"/>
+    <rect x="224" y="116" width="14" height="40" rx="2"/><rect x="246" y="116" width="14" height="40" rx="2"/>
+  </g>
+  <text class="t-sm t-mut" x="300" y="98" text-anchor="middle">volume</text>
+  <text class="t-sm t-mut" x="300" y="116" text-anchor="middle">without</text>
+  <text class="t-sm t-mut" x="300" y="134" text-anchor="middle">weight</text>
+  <text class="t" x="30" y="220">A tube is light and cheap, but takes up space. Freight is charged</text>
+  <text class="t" x="30" y="238">on space. So the cost of moving a tube is large relative to what</text>
+  <text class="t" x="30" y="256">the tube is worth — and it rises with every kilometre.</text>
+
+  <text class="t-md" x="430" y="34">So the industry solves it with geography</text>
+
+  <rect x="430" y="56" width="200" height="58" rx="7" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.8"/>
+  <text class="t" x="530" y="80" text-anchor="middle" fill="#1F4E79">EPL plant</text>
+  <text class="t-sm" x="530" y="98" text-anchor="middle" fill="#1F4E79">one of 20+, in 11 countries</text>
+  <rect x="720" y="56" width="220" height="58" rx="7" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.6"/>
+  <text class="t" x="830" y="80" text-anchor="middle" fill="#1a6f4a">Customer's filling line</text>
+  <text class="t-sm" x="830" y="98" text-anchor="middle" fill="#1a6f4a">often in the same industrial area</text>
+  <line x1="634" y1="85" x2="714" y2="85" stroke="#1a6f4a" stroke-width="1.8" marker-end="url(#e4g)"/>
+  <text class="t-sm" x="674" y="74" text-anchor="middle" fill="#1a6f4a">short haul</text>
+
+  <rect x="430" y="146" width="200" height="58" rx="7" fill="#f7fafc" stroke="currentColor" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text class="t" x="530" y="170" text-anchor="middle">One big export plant</text>
+  <text class="t-sm t-mut" x="530" y="188" text-anchor="middle">the alternative model</text>
+  <path d="M634,175 H714" stroke="#b3261e" stroke-width="1.8" marker-end="url(#e4r)"/>
+  <text class="t-sm" x="674" y="164" text-anchor="middle" fill="#b3261e">ocean freight</text>
+  <rect x="720" y="146" width="220" height="58" rx="7" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.4"/>
+  <text class="t-sm" x="830" y="170" text-anchor="middle" fill="#b3261e">freight and lead time swamp</text>
+  <text class="t-sm" x="830" y="188" text-anchor="middle" fill="#b3261e">the value of the tube</text>
+
+  <rect x="430" y="228" width="510" height="128" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1.1"/>
+  <text class="t-md" x="450" y="254">Three consequences worth holding on to</text>
+  <text class="t" x="450" y="278">1 · Global scale here is <tspan font-weight="700">many local plants</tspan>, not one big factory.</text>
+  <text class="t" x="450" y="300">2 · Entering a market means <tspan font-weight="700">building a plant there</tspan> — Brazil is live</text>
+  <text class="t" x="472" y="318">and "delivering ahead of plan", winning new local customers.</text>
+  <text class="t" x="450" y="340">3 · Capex leads revenue: the plant exists <tspan font-weight="700">before</tspan> the volume does.</text>
+</svg>
+<figcaption><strong>This is why EPL is not really an exporter, and why its capital intensity is structural rather than a phase.</strong> Each new geography needs its own asset base before it produces a rupee — which is exactly what management means by "ahead of the curve capex", and why ROCE dips while that investment is being absorbed. <span class="src">Plant and country counts from the profile; Brazil capacity "now live and delivering ahead of plan" and "ahead of the curve capex investment" from the Q1FY27 deck and call. <span class="tag inf">MY INFERENCE</span> — the freight-versus-value reasoning and the "local monopolies of convenience" phrase are mine, extending the profile's co-location argument.</span></figcaption>
+</figure>
+
+<h2 id="s5"><span class="n">5.</span> The pass-through mechanic — why one quarter grew 25% and lost margin</h2>
+
+<p>This is the single most useful thing to understand about EPL's reported numbers, and it is pure industry structure rather than performance.</p>
+
+<p><strong>Every customer contract is priced on a landed-cost basis.</strong> When polymer prices rise, EPL raises the price it charges, and recovers not just resin but freight and currency movement too. CFO and CEO were explicit on the Q1FY27 call: <em>"all our customer contracts are on a landed cost basis. So currency depreciation also gets recovered. Freight also saw sharp increase and we have been able to recover that from the customers."</em></p>
+
+<p>That protects the business — and it distorts the percentages, in a specific and predictable direction.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 440" role="img" aria-label="Diagram showing how cost pass-through inflates revenue and mechanically dilutes percentage margin while absolute EBITDA is protected, using Q1FY27 numbers.">
+  <defs>
+    <marker id="e5a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <rect x="20" y="30" width="180" height="62" rx="7" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.4"/>
+  <text class="t" x="110" y="56" text-anchor="middle" fill="#b3261e">Polymer price rises</text>
+  <text class="t-sm" x="110" y="74" text-anchor="middle" fill="#b3261e">LLDPE / HDPE, freight, FX</text>
+
+  <line x1="204" y1="61" x2="240" y2="61" stroke="currentColor" stroke-width="1.6" marker-end="url(#e5a)"/>
+
+  <rect x="244" y="30" width="200" height="62" rx="7" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.8"/>
+  <text class="t" x="344" y="56" text-anchor="middle" fill="#1F4E79">Landed-cost contract</text>
+  <text class="t-sm" x="344" y="74" text-anchor="middle" fill="#1F4E79">price to customer rises</text>
+
+  <line x1="448" y1="61" x2="484" y2="61" stroke="currentColor" stroke-width="1.6" marker-end="url(#e5a)"/>
+
+  <rect x="488" y="30" width="200" height="62" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t" x="588" y="56" text-anchor="middle">Revenue rises</text>
+  <text class="t-sm t-mut" x="588" y="74" text-anchor="middle">with no extra tube sold</text>
+
+  <line x1="692" y1="61" x2="728" y2="61" stroke="currentColor" stroke-width="1.6" marker-end="url(#e5a)"/>
+
+  <rect x="732" y="30" width="208" height="62" rx="7" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.6"/>
+  <text class="t" x="836" y="56" text-anchor="middle" fill="#1a6f4a">Absolute EBITDA protected</text>
+  <text class="t-sm" x="836" y="74" text-anchor="middle" fill="#1a6f4a">the rupees are recovered…</text>
+
+  <text class="t-md" x="20" y="136">…but the percentage falls, because the denominator grew and the numerator did not</text>
+
+  <text class="t-sm t-mut" x="20" y="168">Revenue growth, Q1FY27</text>
+  <rect x="20" y="180" width="600" height="34" rx="4" fill="#b6cde2"/>
+  <rect x="20" y="180" width="474" height="34" rx="4" fill="#2E75B6"/>
+  <text class="t-md" x="257" y="203" text-anchor="middle" fill="#ffffff">underlying ~20%</text>
+  <text class="t-md" x="557" y="203" text-anchor="middle" fill="#16202b">+5pp pass-through</text>
+  <text class="t-md" x="636" y="203">= 25.3% reported</text>
+
+  <text class="t-sm t-mut" x="20" y="248">EBITDA margin, Q1FY27 — drawn to scale, so the gap is the real one</text>
+  <rect x="150" y="258" width="376" height="26" rx="4" fill="#8fb3d2"/>
+  <rect x="150" y="290" width="392" height="26" rx="4" fill="#2E75B6"/>
+  <text class="t-md" x="142" y="276" text-anchor="end">reported</text>
+  <text class="t-md" x="142" y="308" text-anchor="end">underlying</text>
+  <text class="t-md" x="518" y="276" text-anchor="end" fill="#16202b">18.8%</text>
+  <text class="t-md" x="534" y="308" text-anchor="end" fill="#ffffff">19.6%</text>
+  <line x1="560" y1="252" x2="560" y2="322" stroke="#b3261e" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <text class="t-sm" x="568" y="286" fill="#b3261e">20.5% a year earlier</text>
+
+  <rect x="20" y="326" width="920" height="96" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.3"/>
+  <text class="t-md" x="40" y="352" fill="#a2650a">How to read any quarter of this business</text>
+  <text class="t" x="40" y="376">When input costs rise, <tspan font-weight="700">reported growth flatters and reported margin understates</tspan>. When they fall, both reverse.</text>
+  <text class="t" x="40" y="398">Judge the business on <tspan font-weight="700">underlying growth and absolute EBITDA</tspan> — in Q1FY27, ~20% and +15.2% respectively —</text>
+  <text class="t" x="40" y="416">and treat a margin percentage moved by pass-through as arithmetic, not as a change in what the company earns per tube.</text>
+</svg>
+<figcaption><strong>A rising polymer price makes EPL's growth look better and its margin look worse, simultaneously, without anything real changing.</strong> The company reports both bases, which is to its credit; the discipline is to compare like with like across quarters. <span class="src">Reported vs underlying growth, EBITDA margins and the +15.2% EBITDA growth are from the Q1FY27 deck; the landed-cost quote is from the Q1FY27 call (machine transcript of the company's audio, figures cross-checked to the deck and press release). The 5pp split between underlying and pass-through is the deck's own arithmetic, rounded.</span></figcaption>
+</figure>
+
+<h2 id="s6"><span class="n">6.</span> Two engines: oral care and everything else</h2>
+
+<p>EPL's revenue splits into two categories that behave completely differently — in growth rate, in customer structure, and in what a salesperson has to do to win.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 430" role="img" aria-label="Comparison of the oral care and personal-care-and-beyond categories, with the share shift from 43 percent in FY19 to 54 percent in Q1FY27.">
+  <rect x="20" y="20" width="450" height="216" rx="9" fill="#f7fafc" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t-lg" x="42" y="50">Oral care — the ballast</text>
+  <text class="t" x="42" y="80">Toothpaste. Everyone brushes their teeth, in every</text>
+  <text class="t" x="42" y="98">economy, every year.</text>
+  <text class="t" x="42" y="126">Dominated by <tspan font-weight="700">a few very large customers</tspan> — so the</text>
+  <text class="t" x="42" y="144">work is wallet share inside accounts you already have.</text>
+  <text class="t" x="42" y="172">Structural growth is <tspan font-weight="700">high single digit</tspan>; management</text>
+  <text class="t" x="42" y="190">says Q1FY27's <tspan font-weight="700">+23.9%</tspan> is a recovery, not a new rate.</text>
+  <text class="t-sm t-mut" x="42" y="218">Predictable, defensive, and not where the growth argument lives.</text>
+
+  <rect x="490" y="20" width="450" height="216" rx="9" fill="#eaf2fb" stroke="#2E75B6" stroke-width="2"/>
+  <text class="t-lg" x="512" y="50" fill="#1F4E79">Personal care &amp; beyond — the engine</text>
+  <text class="t" x="512" y="80">Beauty and cosmetics, plus pharma, food, home, hygiene.</text>
+  <text class="t" x="512" y="108"><tspan font-weight="700">80+ customers in beauty and cosmetics alone</tspan> — so the work</text>
+  <text class="t" x="512" y="126">is <tspan font-weight="700">hunting</tspan>: acquiring and retaining brands continuously.</text>
+  <text class="t" x="512" y="154">Grown at <tspan font-weight="700">~9% CAGR over 12 years</tspan>; <tspan font-weight="700">+25.1% in Q1FY27</tspan>.</text>
+  <text class="t" x="512" y="182">Needs different capability: an innovation centre, sampling,</text>
+  <text class="t" x="512" y="200">proofing, faster tooling, more decoration options.</text>
+  <text class="t-sm" x="512" y="222" fill="#1F4E79">This is why the capex is in printing, extrusion and tooling — not in more tube capacity.</text>
+
+  <text class="t-md" x="20" y="248">Share of tube revenue from "personal care &amp; beyond"</text>
+  <line x1="60" y1="360" x2="920" y2="360" stroke="currentColor" stroke-width="1.2"/>
+  <rect x="70"  y="283" width="62" height="77" rx="3" fill="#b6cde2"/>
+  <rect x="192" y="277" width="62" height="83" rx="3" fill="#aac6de"/>
+  <rect x="314" y="277" width="62" height="83" rx="3" fill="#9fbfda"/>
+  <rect x="436" y="275" width="62" height="85" rx="3" fill="#93b8d6"/>
+  <rect x="558" y="275" width="62" height="85" rx="3" fill="#88b1d2"/>
+  <rect x="680" y="274" width="62" height="86" rx="3" fill="#7daace"/>
+  <rect x="802" y="263" width="62" height="97" rx="3" fill="#2E75B6"/>
+  <text class="t-sm t-mut" x="101" y="380" text-anchor="middle">FY19</text>
+  <text class="t-sm t-mut" x="223" y="380" text-anchor="middle">FY21</text>
+  <text class="t-sm t-mut" x="345" y="380" text-anchor="middle">FY22</text>
+  <text class="t-sm t-mut" x="467" y="380" text-anchor="middle">FY23</text>
+  <text class="t-sm t-mut" x="589" y="380" text-anchor="middle">FY24</text>
+  <text class="t-sm t-mut" x="711" y="380" text-anchor="middle">FY25</text>
+  <text class="t-sm" x="833" y="380" text-anchor="middle" fill="#1F4E79">Q1FY27</text>
+  <text class="t-md" x="101" y="273" text-anchor="middle">43%</text>
+  <text class="t-md" x="223" y="267" text-anchor="middle">46%</text>
+  <text class="t-md" x="345" y="267" text-anchor="middle">46%</text>
+  <text class="t-md" x="467" y="265" text-anchor="middle">47%</text>
+  <text class="t-md" x="589" y="265" text-anchor="middle">47%</text>
+  <text class="t-md" x="711" y="264" text-anchor="middle">48%</text>
+  <text class="t-md" x="833" y="253" text-anchor="middle" fill="#1F4E79">54%</text>
+  <text class="t-sm t-mut" x="20" y="406">A 1,134 basis-point shift over eight years — slow, deliberate, and the reason the mix argument matters more than any single quarter.</text>
+</svg>
+<figcaption><strong>One category pays the bills; the other decides the multiple.</strong> A useful nuance management supplied directly: <em>"our B&amp;C and oral care margins as a percentage are the same… because the selling price is much higher, the total cash you make per unit might be higher in B&amp;C."</em> So the mix shift raises rupees per tube, not percentage margin — which is exactly why absolute EBITDA growth is the honest scoreboard here. <span class="src">Category shares, the 1,134bps shift, the ~9% 12-year CAGR and the 80+ B&amp;C customers are from the Q1FY27 deck; the margin-parity quote is from the Q3FY26 call; the "high single digit" structural rate for oral care is management's, per the profile.</span></figcaption>
+</figure>
+
+<h2 id="s7"><span class="n">7.</span> The premiumisation ladder — charging more for the same square metre</h2>
+
+<p>The obvious question about a packaging business is how it escapes being a commodity. The answer is visible in EPL's own product slides: <strong>the same tube can be sold at several different price points depending on what is done to it.</strong> Each rung below is a real, named EPL offering.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 400" role="img" aria-label="A five-step ladder from a plain printed tube through decoration, seamless printing, integrated caps, applicator tips and dual-chamber tubes, each adding value to the same laminate.">
+  <defs>
+    <marker id="e7a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a6f4a"/>
+    </marker>
+  </defs>
+
+  <rect x="30"  y="290" width="168" height="52" rx="6" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="114" y="314" text-anchor="middle">Printed tube</text>
+  <text class="t-sm t-mut" x="114" y="332" text-anchor="middle">the baseline product</text>
+
+  <rect x="212" y="234" width="168" height="52" rx="6" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="296" y="256" text-anchor="middle">+ Embellishment</text>
+  <text class="t-sm t-mut" x="296" y="274" text-anchor="middle">4D micro-engraving, laser</text>
+
+  <rect x="394" y="178" width="168" height="52" rx="6" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="478" y="200" text-anchor="middle">+ Neoseam</text>
+  <text class="t-sm t-mut" x="478" y="218" text-anchor="middle">360° print, no visible seam</text>
+
+  <rect x="576" y="122" width="168" height="52" rx="6" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="660" y="144" text-anchor="middle">+ Applicator tip</text>
+  <text class="t-sm t-mut" x="660" y="162" text-anchor="middle">dropper, silicone, metal tip</text>
+
+  <rect x="758" y="66" width="180" height="52" rx="6" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.8"/>
+  <text class="t-md" x="848" y="88" text-anchor="middle" fill="#1a6f4a">+ Tube-in-tube</text>
+  <text class="t-sm" x="848" y="106" text-anchor="middle" fill="#1a6f4a">two formulations, one pack</text>
+
+  <path d="M198,300 L212,268" stroke="currentColor" stroke-width="1.4"/>
+  <path d="M380,244 L394,212" stroke="currentColor" stroke-width="1.4"/>
+  <path d="M562,188 L576,156" stroke="currentColor" stroke-width="1.4"/>
+  <path d="M744,132 L758,100" stroke="currentColor" stroke-width="1.4"/>
+
+  <path d="M40,356 H930" stroke="#1a6f4a" stroke-width="1.8" marker-end="url(#e7a)"/>
+  <text class="t-sm" x="40" y="376" fill="#1a6f4a">same laminate, same square metre</text>
+  <text class="t-sm" x="930" y="376" text-anchor="end" fill="#1a6f4a">more value per tube →</text>
+
+  <rect x="30" y="26" width="330" height="82" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.3"/>
+  <text class="t-md" x="50" y="52" fill="#a2650a">Also on the ladder</text>
+  <text class="t-sm" x="50" y="74">Integrated cap-and-shoulder ("Tiara") — fewer parts, less</text>
+  <text class="t-sm" x="50" y="90">plastic; shaped dispensing orifices; metallised finishes.</text>
+</svg>
+<figcaption><strong>This is where a packaging company's engineering budget actually goes.</strong> Note what is <em>not</em> on the ladder: making the tube cheaper. Every rung is a reason for a brand to pay more for a pack that holds the same amount of product — which is why the capex line reads "printing lines, extrusion lines, new tooling" rather than "more capacity". <span class="src">All named products — Neoseam, Tube-in-Tube, Tiara Ring and UNO caps, applicator tips, 4D micro-engraving, double laser stamping, soft-touch and skin-feel textures, shaped orifices — are from the Q1FY27 deck's two innovation slides. <span class="tag inf">MY INFERENCE</span> — arranging them as a value ladder is my framing; EPL presents them as a portfolio.</span></figcaption>
+</figure>
+
+<h2 id="s8"><span class="n">8.</span> Recyclability as a moat, not a cost</h2>
+
+<p>The barrier layer that makes a tube work is also what makes it hard to recycle: a laminate of several different materials, including aluminium foil, cannot go into a single recycling stream. The industry's answer is a <strong>mono-material structure</strong> — a tube built almost entirely from one polymer family, with a polymer barrier instead of foil, so the whole pack can be recycled together.</p>
+
+<p>Replacing that layer is not a marketing decision. It changes how the pack performs, so the brand has to re-test it — and that re-testing is where the competitive advantage is created.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 420" role="img" aria-label="Flow showing how a brand's recyclability commitment forces a laminate change, which requires shelf-life, machinability and print requalification, favouring the incumbent supplier; with adoption rising from 10 percent to 44 percent.">
+  <defs>
+    <marker id="e8a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <rect x="20" y="26" width="200" height="66" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t" x="120" y="52" text-anchor="middle">Brand commits to a</text>
+  <text class="t" x="120" y="70" text-anchor="middle">recyclable pack</text>
+  <text class="t-sm t-mut" x="120" y="86" text-anchor="middle">regulation and shelf pressure</text>
+
+  <line x1="224" y1="59" x2="256" y2="59" stroke="currentColor" stroke-width="1.6" marker-end="url(#e8a)"/>
+
+  <rect x="260" y="26" width="200" height="66" rx="7" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.8"/>
+  <text class="t" x="360" y="52" text-anchor="middle" fill="#1F4E79">The laminate must change</text>
+  <text class="t-sm" x="360" y="70" text-anchor="middle" fill="#1F4E79">foil barrier out,</text>
+  <text class="t-sm" x="360" y="86" text-anchor="middle" fill="#1F4E79">polymer barrier in</text>
+
+  <line x1="464" y1="59" x2="496" y2="59" stroke="currentColor" stroke-width="1.6" marker-end="url(#e8a)"/>
+
+  <rect x="500" y="26" width="200" height="66" rx="7" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.4"/>
+  <text class="t" x="600" y="52" text-anchor="middle" fill="#a2650a">Everything must be re-proved</text>
+  <text class="t-sm" x="600" y="70" text-anchor="middle" fill="#a2650a">shelf life · line speed ·</text>
+  <text class="t-sm" x="600" y="86" text-anchor="middle" fill="#a2650a">seal integrity · print quality</text>
+
+  <line x1="704" y1="59" x2="736" y2="59" stroke="currentColor" stroke-width="1.6" marker-end="url(#e8a)"/>
+
+  <rect x="740" y="26" width="200" height="66" rx="7" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.6"/>
+  <text class="t" x="840" y="52" text-anchor="middle" fill="#1a6f4a">The supplier with an</text>
+  <text class="t" x="840" y="70" text-anchor="middle" fill="#1a6f4a">approved structure wins</text>
+  <text class="t-sm" x="840" y="86" text-anchor="middle" fill="#1a6f4a">months of work, already done</text>
+
+  <text class="t-md" x="20" y="140">Adoption of sustainable tubes, share of EPL's portfolio</text>
+  <line x1="60" y1="290" x2="920" y2="290" stroke="currentColor" stroke-width="1.2"/>
+  <rect x="96"  y="268" width="90" height="22" rx="3" fill="#cfdcea"/>
+  <rect x="256" y="244" width="90" height="46" rx="3" fill="#a8c4dd"/>
+  <rect x="416" y="218" width="90" height="72" rx="3" fill="#8fb3d2"/>
+  <rect x="576" y="207" width="90" height="83" rx="3" fill="#6fa0c9"/>
+  <rect x="736" y="194" width="90" height="96" rx="3" fill="#2E75B6"/>
+  <text class="t-md" x="141" y="260" text-anchor="middle">10%</text>
+  <text class="t-md" x="301" y="236" text-anchor="middle">21%</text>
+  <text class="t-md" x="461" y="210" text-anchor="middle">33%</text>
+  <text class="t-md" x="621" y="199" text-anchor="middle">38%</text>
+  <text class="t-md" x="781" y="186" text-anchor="middle" fill="#1F4E79">44%</text>
+  <text class="t-sm t-mut" x="141" y="310" text-anchor="middle">FY23</text>
+  <text class="t-sm t-mut" x="301" y="310" text-anchor="middle">FY24</text>
+  <text class="t-sm t-mut" x="461" y="310" text-anchor="middle">FY25</text>
+  <text class="t-sm t-mut" x="621" y="310" text-anchor="middle">FY26</text>
+  <text class="t-sm" x="781" y="310" text-anchor="middle" fill="#1F4E79">Q1FY27</text>
+
+  <rect x="20" y="336" width="920" height="66" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1.1"/>
+  <text class="t" x="40" y="362">EPL sells its recyclable range as <tspan font-weight="700">Platina</tspan>, and holds <tspan font-weight="700">EcoVadis Platinum</tspan> — top 1% of 150,000+ companies assessed, the only Indian</text>
+  <text class="t" x="40" y="384">packaging company to hold it — plus a CDP "A" supplier-engagement rating for three consecutive years. <tspan font-style="italic">Ratings are a sales tool here: a brand</tspan></text>
+  <text class="t" x="40" y="400" font-style="italic">with its own public sustainability target needs suppliers whose credentials survive an audit.</text>
+</svg>
+<figcaption><strong>Sustainability in this industry is a switching-cost generator disguised as a compliance cost.</strong> The company that already has a qualified recyclable structure on a brand's line gets the volume as that brand converts its portfolio; the challenger has to start the clock from zero. Adoption going 10% → 44% in four years is the mechanism working. <span class="src">Adoption series and certifications from the Q1FY27 deck; Platina commercialisation from the Q1FY27 deck's business-highlights slide. The requalification sequence is standard practice in packaging, stated here to explain the mechanism.</span></figcaption>
+</figure>
+
+<h2 id="s9"><span class="n">9.</span> Five regions, one product</h2>
+
+<p>Because plants follow customers, EPL reports as five regions rather than as one global business. In Q1FY27 all five grew double digits at once — which is unusual, and worth seeing in proportion.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 330" role="img" aria-label="Bar chart of EPL revenue growth by region in Q1FY27: East Asia Pacific 34.3 percent, Americas 29.4, Europe 20.2, India 19.9, AMESA 17.0.">
+  <line x1="150" y1="46" x2="150" y2="250" stroke="currentColor" stroke-width="1.2"/>
+  <rect x="150" y="54"  width="562" height="30" rx="4" fill="#2E75B6"/>
+  <rect x="150" y="94"  width="482" height="30" rx="4" fill="#2E75B6"/>
+  <rect x="150" y="134" width="331" height="30" rx="4" fill="#8fb3d2"/>
+  <rect x="150" y="174" width="326" height="30" rx="4" fill="#2E75B6"/>
+  <rect x="150" y="214" width="279" height="30" rx="4" fill="#2E75B6"/>
+  <text class="t-md" x="142" y="75" text-anchor="end">East Asia Pacific</text>
+  <text class="t-md" x="142" y="115" text-anchor="end">Americas</text>
+  <text class="t-md" x="142" y="155" text-anchor="end">Europe</text>
+  <text class="t-md" x="142" y="195" text-anchor="end">India</text>
+  <text class="t-md" x="142" y="235" text-anchor="end">AMESA</text>
+  <text class="t-md" x="724" y="75">34.3%</text>
+  <text class="t-md" x="644" y="115">29.4%</text>
+  <text class="t-md" x="493" y="155">20.2%</text>
+  <text class="t-md" x="488" y="195">19.9%</text>
+  <text class="t-md" x="441" y="235">17.0%</text>
+  <text class="t-sm t-mut" x="150" y="270">Revenue growth, Q1FY27 vs Q1FY26 · India is reported within AMESA and shown separately by the company</text>
+
+  <rect x="150" y="286" width="790" height="52" rx="6" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.2"/>
+  <text class="t" x="166" y="308" fill="#a2650a">Europe is the one region with a named, unresolved margin problem — below its mid-teens</text>
+  <text class="t" x="166" y="326" fill="#a2650a">target for three consecutive quarters, on stated cost inefficiencies.</text>
+</svg>
+<figcaption><strong>Growth this broad is hard to manufacture and easy to misread.</strong> Some of it is the pass-through pricing of §5, which lands in every region at once; the underlying picture is roughly five points lower everywhere. The regional detail that actually matters for the next few quarters is the Europe margin exception, not the growth ranking. <span class="src">Regional growth rates from the Q1FY27 deck; the Europe margin issue is management's own disclosure across three consecutive calls, per the profile's §4.</span></figcaption>
+</figure>
+
+<h2 id="s10"><span class="n">10.</span> Where the merger moves the business</h2>
+
+<p>The Indovida transaction is covered in full in the profile — the swap ratio, the control change, the absence of an open offer. Here only its <strong>industrial</strong> consequence matters: it changes what part of the packaging market EPL addresses.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 360" role="img" aria-label="Positioning map showing EPL today concentrated in laminated tubes and, after the Indovida merger, extending into rigid packaging formats.">
+  <defs>
+    <marker id="e10a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a6f4a"/>
+    </marker>
+  </defs>
+
+  <rect x="20" y="30" width="420" height="240" rx="9" fill="#eaf2fb" stroke="#2E75B6" stroke-width="2"/>
+  <text class="t-lg" x="42" y="60" fill="#1F4E79">EPL today</text>
+  <text class="t" x="42" y="88">One pack format, done at world scale</text>
+  <text class="t" x="42" y="118">· Laminated tubes — roughly 30% of world supply</text>
+  <text class="t" x="42" y="140">· 20+ plants, 11 countries</text>
+  <text class="t" x="42" y="162">· Customers: oral care and personal care brands</text>
+  <text class="t" x="42" y="184">· Extruded tube capacity being added</text>
+  <text class="t-sm t-mut" x="42" y="216">Deep rather than broad: the whole company is one</text>
+  <text class="t-sm t-mut" x="42" y="234">shelf format, sold to one kind of customer.</text>
+
+  <path d="M448,150 H508" stroke="#1a6f4a" stroke-width="2" marker-end="url(#e10a)"/>
+  <text class="t-sm" x="478" y="140" text-anchor="middle" fill="#1a6f4a">share</text>
+  <text class="t-sm" x="478" y="176" text-anchor="middle" fill="#1a6f4a">swap</text>
+
+  <rect x="520" y="30" width="420" height="240" rx="9" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.8"/>
+  <text class="t-lg" x="542" y="60" fill="#1a6f4a">After the Indovida merger</text>
+  <text class="t" x="542" y="88" fill="#1a6f4a">Two pack families under one roof</text>
+  <text class="t" x="542" y="118" fill="#1a6f4a">· Laminated tubes (EPL) + rigid packaging (Indovida)</text>
+  <text class="t" x="542" y="140" fill="#1a6f4a">· Indovida is beverages-led, 19 plants across 9 countries</text>
+  <text class="t" x="542" y="162" fill="#1a6f4a">· ~₹3,800cr+ revenue, 21.3% EBITDA, net cash</text>
+  <text class="t" x="542" y="184" fill="#1a6f4a">· Indorama Ventures becomes promoter at 51.8%</text>
+  <text class="t-sm" x="542" y="216" fill="#1a6f4a">Broader shelf coverage and a polymer parent upstream —</text>
+  <text class="t-sm" x="542" y="234" fill="#1a6f4a">a different company in kind, not just in size.</text>
+
+  <rect x="20" y="288" width="920" height="56" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.3"/>
+  <text class="t" x="40" y="312" fill="#a2650a">This page deliberately stops at the industrial logic. <tspan font-weight="700">Whether the terms are good for an existing EPL shareholder is a separate question</tspan> — the swap</text>
+  <text class="t" x="40" y="332" fill="#a2650a">ratio, the absence of an open offer and the related-party surface area are all in §5A and §7 of the profile, which is where the judgement belongs.</text>
+</svg>
+<figcaption><strong>The merger converts a single-format specialist into a multi-format packaging group with a polymer producer as its controlling shareholder.</strong> That is a change in the business's position in its own supply chain — the company's largest raw-material input would now sit inside the controlling group. <span class="src">Indovida's scale, margin, plant count and net-cash position, and the 51.8% post-merger holding, are from the 30-Mar-2026 announcement call as recorded in the profile's §5A. <span class="tag inf">MY INFERENCE</span> — the two-panel framing and the upstream-integration observation are mine.</span></figcaption>
+</figure>
+
+<h2 id="s11"><span class="n">11.</span> Reading the industry through the numbers</h2>
+
+<div class="tw">
+<table>
+<thead><tr><th style="width:26%">Industry mechanism</th><th style="width:24%">Where it shows up</th><th style="width:30%">Latest reading</th><th style="width:20%">Source</th></tr></thead>
+<tbody>
+<tr><td>Landed-cost contracts pass input costs through</td><td>Reported vs underlying revenue growth</td><td><strong>25.3% reported vs ~20% underlying</strong> in Q1FY27</td><td>Q1FY27 deck</td></tr>
+<tr><td>…which mechanically dilutes percentage margin</td><td>Reported vs underlying EBITDA margin</td><td><strong>18.8% reported / 19.6% underlying</strong>, against 20.5% a year earlier</td><td>Q1FY27 deck</td></tr>
+<tr><td>So absolute profit is the honest scoreboard</td><td>EBITDA growth in rupees</td><td><strong>+15.2%</strong> in Q1FY27</td><td>Q1FY27 deck</td></tr>
+<tr><td>Co-location means capex leads revenue</td><td>ROCE, and net debt / EBITDA</td><td>ROCE <strong>18.5%</strong> (−37bps, "ahead of the curve capex"); net debt/EBITDA <strong>0.45x → 0.58x</strong></td><td>Q1FY27 deck</td></tr>
+<tr><td>Mix shift toward personal care &amp; beyond</td><td>Category share of tube revenue</td><td><strong>54%</strong>, from 43% in FY19 — <strong>+1,134bps</strong></td><td>Q1FY27 deck</td></tr>
+<tr><td>…which raises rupees per tube, not margin %</td><td>Management's own framing</td><td><em>"B&amp;C and oral care margins as a percentage are the same"</em></td><td>Q3FY26 call</td></tr>
+<tr><td>Hunting for customers in B&amp;C vs farming in oral</td><td>Customer count</td><td><strong>80+ B&amp;C customers</strong>; oral <em>"dominated by a few"</em></td><td>Q1FY27 deck; Q3FY26 call</td></tr>
+<tr><td>Recyclability creates requalification lock-in</td><td>Sustainable share of portfolio</td><td><strong>44%</strong>, from 10% in FY23</td><td>Q1FY27 deck</td></tr>
+<tr><td>Premiumisation of the pack itself</td><td>Named innovations shipping</td><td>Neoseam, Tube-in-Tube, Tiara caps, applicators, metallisation</td><td>Q1FY27 deck</td></tr>
+<tr><td>Regional plant build-out converting to growth</td><td>Region-level revenue</td><td>All five regions double-digit; <strong>Brazil "ahead of plan"</strong>; Europe margin still below target</td><td>Q1FY27 deck &amp; call</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2 id="s12"><span class="n">12.</span> What EPL does not disclose</h2>
+
+<p>Stated as gaps rather than filled with inference:</p>
+
+<ul>
+<li><strong>Tube volumes.</strong> Growth is reported in revenue, which is exactly the number that pass-through pricing distorts. <strong>A unit count would settle in one line what §5 needs three paragraphs to explain.</strong></li>
+<li><strong>Realisation per tube, by category.</strong> Management says B&amp;C carries a higher selling price and the same percentage margin — so absolute profit per tube is the real mix argument, and it is never quantified.</li>
+<li><strong>Region-level margin.</strong> Europe is discussed qualitatively as below its mid-teens target; the other four regions' margins are not broken out at all.</li>
+<li><strong>Capacity and utilisation.</strong> For a business whose thesis is "capex leads revenue", there is no disclosed capacity number or utilisation rate to judge how much revenue the installed base can carry.</li>
+<li><strong>Customer concentration.</strong> Oral care is stated to be dominated by a few customers; the actual top-customer share is not given.</li>
+<li><strong>The split between laminated and extruded tubes</strong>, even as extruded capacity is named as a growth enabler.</li>
+</ul>
+
+<h2 id="s13"><span class="n">13.</span> Glossary</h2>
+
+<dl class="glos">
+<dt>Laminated tube</dt><dd>A tube made from a printed multi-layer sheet rolled into a cylinder and welded along a side seam. Also called ABL (aluminium barrier laminate) or PBL (plastic barrier laminate) depending on the barrier used.</dd>
+<dt>Extruded tube</dt><dd>A tube whose body is extruded as a seamless plastic cylinder rather than made from a sheet. No side seam; different barrier options.</dd>
+<dt>Barrier layer</dt><dd>The layer inside the wall that stops oxygen, moisture and aroma passing through. Aluminium foil performs best; polymer barriers allow recyclability.</dd>
+<dt>Mono-material</dt><dd>A pack built from a single polymer family so it can be recycled as one stream. The industry's route to a recyclable tube.</dd>
+<dt>Shoulder</dt><dd>The moulded cone at the top of the tube carrying the neck and orifice, formed onto the sleeve.</dd>
+<dt>Tail seal</dt><dd>The crimped, heat-sealed bottom edge — closed by the brand after filling, not by the tube maker.</dd>
+<dt>Filling line</dt><dd>The customer's machine that loads empty tubes, injects product and seals the tail. Where a tube proves itself.</dd>
+<dt>Landed cost</dt><dd>A contract basis in which the price charged recovers raw material, freight and currency movement. EPL states all customer contracts are on this basis.</dd>
+<dt>Pass-through</dt><dd>The revenue effect of that recovery: sales rise with input costs without any extra tube being sold, inflating growth and diluting percentage margin.</dd>
+<dt>Underlying growth</dt><dd>Growth with the pass-through effect stripped out — the number to compare across quarters.</dd>
+<dt>B&amp;C</dt><dd>Beauty &amp; Cosmetics. Reported by EPL inside "personal care &amp; beyond", which also includes pharma, food, home and hygiene.</dd>
+<dt>Neoseam</dt><dd>EPL's technology for a laminated tube with no visible seam line, allowing 360° printing.</dd>
+<dt>Platina</dt><dd>EPL's brand for its sustainable, recyclable tube range.</dd>
+<dt>EcoVadis / CDP</dt><dd>Third-party sustainability rating schemes. EPL holds EcoVadis Platinum (top 1%) and a CDP "A" supplier-engagement rating.</dd>
+</dl>
+
+<hr>
+
+<h3>Sources</h3>
+<p class="src"><strong>Transcripts (6 official):</strong> Q4FY26 (May-2026) · the 30-Mar-2026 merger announcement call (Apr-2026 filing) · Q3FY26 (Feb-2026) · Q2FY26 (Nov-2025) · the Oct-2025 leadership-transition call · Q1FY26 (Aug-2025). <strong>Q1FY27 (call 11-Aug-2026):</strong> quotes taken from a machine transcription of the company's own audio recording, with every figure cross-checked against the deck, press release and results filing — labelled wherever used.<br>
+<strong>Q1FY27 primary documents:</strong> investor deck, press release, board-meeting outcome and statutory results, all filed 11-Aug-2026. Held in <code class="src">Fetched Concalls/EPL/</code>.<br>
+<strong>Extraction discipline:</strong> every figure is taken from a deck table, a text slide, a results filing or spoken commentary. <strong>No number on this page is read off a chart in a deck</strong>, per the standing rule.<br>
+<strong>Companion document:</strong> <code class="src">Company Profiles/EPL.md</code> carries the financial analysis, the Indovida merger terms, the delivery scorecard, valuation and risks. This page makes no investment judgement.</p>
+
+</body>
+</html>
