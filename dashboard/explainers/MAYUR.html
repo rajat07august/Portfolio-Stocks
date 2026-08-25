@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How the Synthetic Leather Business Works — Mayur Industry Primer</title>
+<meta name="robots" content="noindex,nofollow">
+<style>
+
+:root{
+  --navy:#1F4E79; --blue:#2E75B6; --ink:#16202b; --mut:#5a6a78; --bg:#fafbfc;
+  --card:#ffffff; --line:#e3e8ee; --amber:#a2650a; --amberbg:#fff8e6;
+  --red:#b3261e; --redbg:#fdeceb; --green:#1a6f4a; --greenbg:#ecf7f1;
+  color-scheme: light;
+}
+*{box-sizing:border-box}
+body{
+  max-width:1040px; margin:0 auto; padding:22px 20px 80px;
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+  line-height:1.62; color:var(--ink); background:var(--bg); font-size:15px;
+}
+.nav{display:flex; gap:18px; flex-wrap:wrap; margin-bottom:12px; font-size:13.5px}
+.nav a{color:var(--navy); font-weight:600; text-decoration:none}
+.nav a:hover{text-decoration:underline; color:var(--blue)}
+.topbar{background:linear-gradient(135deg,#1F4E79 0%,#2E75B6 100%); color:#fff; padding:20px 24px; border-radius:10px; margin-bottom:22px}
+.topbar h1{margin:0 0 6px; font-size:25px; line-height:1.25; color:#fff; border:0; padding:0}
+.topbar .sub{font-size:14.5px; opacity:.92}
+.topbar .meta{font-size:12.5px; opacity:.8; margin-top:10px}
+h2{color:var(--navy); font-size:20px; margin:44px 0 6px; border-left:4px solid var(--navy); padding-left:12px}
+h2 .n{color:var(--blue); font-weight:700}
+h3{color:var(--blue); font-size:16px; margin:26px 0 8px}
+p{margin:11px 0}
+ul{margin:10px 0; padding-left:22px} li{margin:6px 0}
+.lede{font-size:15.5px; color:#2c3b49}
+.box{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 18px; margin:18px 0}
+.box.warn{background:var(--amberbg); border-color:#f0dcae}
+.box.red{background:var(--redbg); border-color:#f3cfcb}
+.box.good{background:var(--greenbg); border-color:#c7e4d5}
+.box h4{margin:0 0 6px; font-size:14px; color:var(--navy); text-transform:uppercase; letter-spacing:.04em}
+.src{color:var(--mut); font-size:12.5px}
+code.src{background:transparent; padding:0}
+figure.dg{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px 16px 12px; margin:22px 0}
+figure.dg svg{width:100%; height:auto; display:block; color:#3d4b5c}
+figure.dg figcaption{font-size:13px; color:var(--mut); margin-top:12px; padding-top:10px; border-top:1px dashed var(--line)}
+svg text{fill:currentColor}
+.t-lg{font-size:15px; font-weight:700}
+.t-md{font-size:13.5px; font-weight:700}
+.t{font-size:12.5px}
+.t-sm{font-size:11px}
+.t-mut{opacity:.7}
+.tw{overflow-x:auto; margin:16px 0}
+table{border-collapse:collapse; width:100%; min-width:620px; font-size:13.5px; background:var(--card)}
+th,td{border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top}
+th{background:#eef3f8; color:var(--navy); font-weight:700}
+.toc{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 20px; font-size:14px}
+.toc ol{margin:6px 0; padding-left:22px} .toc li{margin:4px 0}
+.toc a{color:var(--navy); text-decoration:none} .toc a:hover{text-decoration:underline}
+.glos{display:grid; grid-template-columns:150px 1fr; gap:6px 14px; font-size:13.5px}
+.glos dt{font-weight:700; color:var(--navy)} .glos dd{margin:0}
+@media (max-width:640px){ .glos{grid-template-columns:1fr} .glos dt{margin-top:8px} }
+.tag{display:inline-block; font-size:11px; font-weight:700; letter-spacing:.03em; padding:2px 7px; border-radius:20px; vertical-align:middle}
+.tag.fact{background:#e8f0f8; color:var(--navy)}
+.tag.inf{background:var(--amberbg); color:var(--amber); border:1px solid #ecd9a8}
+blockquote{border-left:4px solid #2E75B6; background:#f4f8fc; margin:16px 0; padding:12px 18px; font-size:14px}
+hr{border:0; border-top:1px solid var(--line); margin:38px 0}
+</style>
+</head>
+<body>
+
+<div class="nav">
+  <a href="https://portfolio-stocks-chi.vercel.app/index.html">← Dashboard</a>
+  <a href="https://portfolio-stocks-chi.vercel.app/profile.html?stock=MAYUR">Full profile — MAYUR →</a>
+</div>
+
+<div class="topbar">
+  <h1>How the synthetic leather business actually works</h1>
+  <div class="sub">An industry primer for Mayur Uniquoters — what the material is, how a metre is made and priced, and why a Jaipur mill invoices Detroit in dollars</div>
+  <div class="meta">Built 25-Aug-2026 · Sourced from Mayur's 7 official transcripts and the Q1FY27 board packet · Companion to <strong>Company Profiles/MAYUR.md</strong></div>
+</div>
+
+<p class="lede">This page explains the <strong>industry</strong>, not the investment case — valuation, the key-man question and the risk list stay in the profile. What follows is the mechanism: what synthetic leather physically is, the three chemistries and why running all of them matters, how a roll is made from yarn and petroleum, why capacity is counted in metres per month, and the single most important thing to understand about Mayur's revenue line — that a quarter can grow 24% while volume grows 2%.</p>
+
+<div class="box warn">
+<h4>How to read this</h4>
+<p style="margin:6px 0"><span class="tag fact">FACT</span> Everything unmarked comes from Mayur's own transcripts and filings, with the source named in grey after the claim.</p>
+<p style="margin:6px 0"><span class="tag inf">MY INFERENCE</span> Where the framing is mine, it is marked.</p>
+<p style="margin:6px 0; color:#5a6a78; font-size:13.5px"><strong>Two sourcing notes.</strong> <strong>Mayur publishes no investor decks at all</strong> — everything numeric here comes from spoken commentary on a call, or from a results filing. That removes the slide-deck cross-check that every other explainer in this library has. And <strong>§7 carries a specific flag</strong>: the widely repeated "five to seven years" approval figure does not appear in any of the seven transcripts on disk, and is presented there as unverified rather than as fact.</p>
+</div>
+
+<div class="toc">
+<strong>Contents</strong>
+<ol>
+<li><a href="#s1">The product — what synthetic leather actually is</a></li>
+<li><a href="#s2">Three chemistries, and why running all three matters</a></li>
+<li><a href="#s3">How a roll gets made — and where the integration is</a></li>
+<li><a href="#s4">Capacity is counted in metres per month</a></li>
+<li><a href="#s5">Six verticals, two very different halves</a></li>
+<li><a href="#s6">The value chain — from petroleum to a car seat</a></li>
+<li><a href="#s7">The qualification clock — the moat, and a flag on it</a></li>
+<li><a href="#s8">Price versus volume — the most important line in the results</a></li>
+<li><a href="#s9">Why exports are a margin lever — and the quarter that questioned it</a></li>
+<li><a href="#s10">The tariff exposure and the plant that has not been decided</a></li>
+<li><a href="#s11">Reading the industry through the numbers</a></li>
+<li><a href="#s12">What Mayur does not disclose</a></li>
+<li><a href="#s13">Glossary</a></li>
+</ol>
+</div>
+
+<h2 id="s1"><span class="n">1.</span> The product — what synthetic leather actually is</h2>
+
+<p>Synthetic leather is not plastic pretending to be leather in the way a toy is. It is an <strong>engineered textile</strong>: a woven or knitted fabric base, coated with a polymer, then embossed with a grain pattern and finished so it looks, feels and wears like hide. It is sold by the <strong>linear metre</strong>, and cut and sewn by whoever makes the seat, the shoe or the sofa.</p>
+
+<p>The base fabric is what gives it tear strength and dimensional stability — the reason a seat cover survives ten years of people sliding across it. The coating is what gives it the look, the feel, the UV resistance and the cleanability. <strong>Both halves have to be right, and they are made by different processes.</strong></p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 400" role="img" aria-label="Cross-section of synthetic leather showing knitted fabric base, adhesion layer, foam or skin coating and embossed top finish, alongside the properties each layer provides and the unit of sale.">
+  <defs>
+    <marker id="m1a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <text class="t-md" x="30" y="34">A slice through the material</text>
+
+  <path d="M60,80 q14,-12 28,0 q14,12 28,0 q14,-12 28,0 q14,12 28,0 q14,-12 28,0 q14,12 28,0 q14,-12 28,0 q14,12 28,0 q14,-12 28,0 q14,12 28,0"
+        fill="none" stroke="#2E75B6" stroke-width="3"/>
+  <rect x="60" y="86" width="280" height="26" fill="#cfdcea" stroke="currentColor" stroke-width="1"/>
+  <rect x="60" y="112" width="280" height="20" fill="#e6eef6" stroke="currentColor" stroke-width="1"/>
+  <g stroke="currentColor" stroke-width="1" opacity=".75">
+    <line x1="60" y1="140" x2="340" y2="140"/><line x1="60" y1="152" x2="340" y2="152"/>
+    <line x1="72" y1="132" x2="72" y2="160"/><line x1="100" y1="132" x2="100" y2="160"/>
+    <line x1="128" y1="132" x2="128" y2="160"/><line x1="156" y1="132" x2="156" y2="160"/>
+    <line x1="184" y1="132" x2="184" y2="160"/><line x1="212" y1="132" x2="212" y2="160"/>
+    <line x1="240" y1="132" x2="240" y2="160"/><line x1="268" y1="132" x2="268" y2="160"/>
+    <line x1="296" y1="132" x2="296" y2="160"/><line x1="324" y1="132" x2="324" y2="160"/>
+  </g>
+  <rect x="60" y="132" width="280" height="28" fill="none" stroke="currentColor" stroke-width="1.4"/>
+
+  <line x1="346" y1="76" x2="392" y2="76" stroke="currentColor" stroke-width="1" marker-end="url(#m1a)"/>
+  <text class="t" x="400" y="74">Embossed grain — the "leather" look</text>
+  <line x1="346" y1="99" x2="392" y2="99" stroke="currentColor" stroke-width="1" marker-end="url(#m1a)"/>
+  <text class="t" x="400" y="97">Skin coat — colour, UV, abrasion, cleanability</text>
+  <line x1="346" y1="122" x2="392" y2="122" stroke="currentColor" stroke-width="1" marker-end="url(#m1a)"/>
+  <text class="t" x="400" y="120">Foam / tie coat — softness and adhesion</text>
+  <line x1="346" y1="146" x2="392" y2="146" stroke="currentColor" stroke-width="1" marker-end="url(#m1a)"/>
+  <text class="t" x="400" y="144">Base fabric — tear strength and stability</text>
+  <text class="t-sm t-mut" x="400" y="162">knitted or woven from yarn; Mayur makes its own</text>
+
+  <text class="t-sm t-mut" x="60" y="184">Layer structure varies by grade and chemistry; drawn schematically.</text>
+
+  <rect x="60" y="212" width="400" height="150" rx="9" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.8"/>
+  <text class="t-md" x="82" y="240" fill="#1F4E79">The unit of the business</text>
+  <text class="t" x="82" y="268">Everything here is priced and counted in <tspan font-weight="700">linear metres</tspan>.</text>
+  <text class="t" x="82" y="292">Management's own arithmetic on the Q1FY27 call:</text>
+  <text class="t" x="82" y="316"><tspan font-weight="700">5 lakh metres × ₹300 average realisation ≈ ₹150cr a year.</tspan></text>
+  <text class="t-sm t-mut" x="82" y="342">So a rough mental model: about ₹300 of revenue per metre of material.</text>
+
+  <rect x="490" y="212" width="410" height="150" rx="9" fill="#f7fafc" stroke="currentColor" stroke-width="1.1"/>
+  <text class="t-md" x="512" y="240">Why anyone buys it instead of hide</text>
+  <text class="t" x="512" y="266">· Roughly a fifth the cost of animal leather</text>
+  <text class="t" x="512" y="288">· Consistent — no scars, no size limits, no waste in cutting</text>
+  <text class="t" x="512" y="310">· Easier to clean and to sew at volume</text>
+  <text class="t" x="512" y="332">· Auto interiors have gone from ~30% synthetic in 2010 to 60%+</text>
+  <text class="t-sm t-mut" x="512" y="354">One-way substitution: ESG pressure and hide costs push the same way.</text>
+</svg>
+<figcaption><strong>The physical product is unglamorous; the price per metre is where the whole argument lives.</strong> A metre of automotive-grade export material and a metre of footwear material come off similar machines and sell at very different prices — which is why mix, not volume, drives this company's revenue line (§8). <span class="src">The ₹300 per linear metre and the 5-lakh-metre arithmetic are management's own, Q1FY27 call (6-Aug-2026). Layer construction is standard industry practice. The 30% → 60%+ auto-interior substitution figure is carried from the profile's §2.</span></figcaption>
+</figure>
+
+<h2 id="s2"><span class="n">2.</span> Three chemistries, and why running all three matters</h2>
+
+<p>The coating can be one of three polymer families, and the choice sets the price, the feel and the customer. <strong>Most Indian competitors run one. Mayur runs all three</strong> — which is what lets it quote against any OEM's specification rather than only the ones its single line happens to suit.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 330" role="img" aria-label="Comparison of PVC, semi-PU and PU coatings: what each is, typical applications, and Mayur's position in each including the small PU revenue base.">
+  <rect x="20" y="26" width="292" height="270" rx="9" fill="#eaf2fb" stroke="#2E75B6" stroke-width="2"/>
+  <text class="t-lg" x="42" y="56" fill="#1F4E79">PVC</text>
+  <text class="t-sm" x="42" y="76" fill="#1F4E79">the volume workhorse — Mayur's core</text>
+  <text class="t" x="42" y="106">Made from <tspan font-weight="700">paste PVC</tspan>, a petroleum by-product,</text>
+  <text class="t" x="42" y="124">blended with plasticisers and pigment.</text>
+  <text class="t" x="42" y="152">Durable, cheap, easy to emboss and clean.</text>
+  <text class="t" x="42" y="170">The default for auto seats, footwear and</text>
+  <text class="t" x="42" y="188">furniture at most price points.</text>
+  <text class="t" x="42" y="220">All of Mayur's installed capacity figures —</text>
+  <text class="t" x="42" y="238">3.5 to 3.7 million metres a month — are</text>
+  <text class="t" x="42" y="256">PVC. The expansion line is PVC too.</text>
+  <text class="t-sm t-mut" x="42" y="282">Management, asked directly: "whatever you're talking</text>
+  <text class="t-sm t-mut" x="42" y="296">about expansion right now is about the PVC plant."</text>
+
+  <rect x="334" y="26" width="292" height="270" rx="9" fill="#f7fafc" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t-lg" x="356" y="56">Semi-PU</text>
+  <text class="t-sm t-mut" x="356" y="76">the middle</text>
+  <text class="t" x="356" y="106">A PVC base with a polyurethane top coat.</text>
+  <text class="t" x="356" y="134">Gets much of PU's softer hand-feel and</text>
+  <text class="t" x="356" y="152">appearance at closer to PVC economics.</text>
+  <text class="t" x="356" y="180">Where an OEM wants a premium interior</text>
+  <text class="t" x="356" y="198">without paying full PU cost.</text>
+  <text class="t-sm t-mut" x="356" y="236">Having this rung matters commercially: it lets one</text>
+  <text class="t-sm t-mut" x="356" y="252">supplier follow a customer up and down its own</text>
+  <text class="t-sm t-mut" x="356" y="268">model range instead of losing the premium trim.</text>
+
+  <rect x="648" y="26" width="292" height="270" rx="9" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.6"/>
+  <text class="t-lg" x="670" y="56" fill="#a2650a">PU</text>
+  <text class="t-sm" x="670" y="76" fill="#a2650a">the premium product — and the visible gap</text>
+  <text class="t" x="670" y="106">Polyurethane throughout. Softest, most</text>
+  <text class="t" x="670" y="124">breathable, closest to real leather, and</text>
+  <text class="t" x="670" y="142">where global growth is fastest.</text>
+  <text class="t" x="670" y="172" fill="#b3261e">FY26 PU revenue: <tspan font-weight="700">₹27.08 crore.</tspan></text>
+  <text class="t" x="670" y="196">Management, Q4FY26: PU "still the business</text>
+  <text class="t" x="670" y="214">is muted right now. We have not been able</text>
+  <text class="t" x="670" y="232">to succeed too much in terms of volume."</text>
+  <text class="t-sm t-mut" x="670" y="262">A large customer audited and approved Mayur as a</text>
+  <text class="t-sm t-mut" x="670" y="278">vendor — but "no price commercial settlement has</text>
+  <text class="t-sm t-mut" x="670" y="294">happened till now."</text>
+</svg>
+<figcaption><strong>Breadth of chemistry is a real advantage; the PU line is where the advantage is not yet being converted.</strong> PU is simultaneously the fastest-growing part of the global market and the smallest part of Mayur's revenue — an approved vendor status that has not turned into a commercial contract is the clearest single gap in the business. <span class="src">PU revenue of ₹27.08cr and both quotes from the Q4FY26 call (23-May-2026); the PVC-only expansion confirmation from the Q3FY26 call (Feb-2026); PVC capacity figures from the Q1FY27 call. The description of what each chemistry is, is standard industry practice.</span></figcaption>
+</figure>
+
+<h2 id="s3"><span class="n">3.</span> How a roll gets made — and where the integration is</h2>
+
+<p>Two raw materials go in: <strong>yarn</strong>, which becomes the fabric, and <strong>paste PVC</strong>, which becomes the coating. Both are petroleum derivatives, which is why input costs move with crude and why management describes prices going "up very sharply, then a fall, then up again."</p>
+
+<p>The step that separates Mayur from most of the Indian industry sits right at the start: <strong>it makes its own base fabric.</strong> The typical Indian competitor is a converter — it buys fabric in and only coats it.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 420" role="img" aria-label="Manufacturing flow from yarn and paste PVC through fabric knitting, compounding, coating, fusing, embossing, finishing and inspection to a finished roll, with the in-house fabric step marked as the integration point.">
+  <defs>
+    <marker id="m3a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <rect x="20" y="34" width="200" height="56" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="120" y="58" text-anchor="middle">Yarn</text>
+  <text class="t-sm t-mut" x="120" y="77" text-anchor="middle">petroleum derivative</text>
+
+  <rect x="20" y="106" width="200" height="56" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="120" y="130" text-anchor="middle">Paste PVC + plasticiser</text>
+  <text class="t-sm t-mut" x="120" y="149" text-anchor="middle">petroleum by-product</text>
+
+  <rect x="264" y="34" width="200" height="56" rx="7" fill="#eaf2fb" stroke="#2E75B6" stroke-width="2"/>
+  <text class="t-md" x="364" y="58" text-anchor="middle" fill="#1F4E79">Base fabric — in-house</text>
+  <text class="t-sm" x="364" y="77" text-anchor="middle" fill="#1F4E79">knitting / weaving</text>
+
+  <rect x="264" y="106" width="200" height="56" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="364" y="130" text-anchor="middle">Compounding</text>
+  <text class="t-sm t-mut" x="364" y="149" text-anchor="middle">resin, plasticiser, pigment</text>
+
+  <line x1="224" y1="62" x2="258" y2="62" stroke="currentColor" stroke-width="1.6" marker-end="url(#m3a)"/>
+  <line x1="224" y1="134" x2="258" y2="134" stroke="currentColor" stroke-width="1.6" marker-end="url(#m3a)"/>
+
+  <path d="M468,62 C500,62 500,90 512,96" fill="none" stroke="currentColor" stroke-width="1.5" marker-end="url(#m3a)"/>
+  <path d="M468,134 C500,134 500,106 512,100" fill="none" stroke="currentColor" stroke-width="1.5" marker-end="url(#m3a)"/>
+
+  <rect x="516" y="70" width="190" height="56" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="611" y="94" text-anchor="middle">Coating</text>
+  <text class="t-sm t-mut" x="611" y="113" text-anchor="middle">paste laid onto the fabric</text>
+
+  <line x1="710" y1="98" x2="744" y2="98" stroke="currentColor" stroke-width="1.6" marker-end="url(#m3a)"/>
+
+  <rect x="748" y="70" width="192" height="56" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="844" y="94" text-anchor="middle">Fusing / gelling</text>
+  <text class="t-sm t-mut" x="844" y="113" text-anchor="middle">heat sets the coating</text>
+
+  <path d="M844,130 V178 H120 V196" fill="none" stroke="currentColor" stroke-width="1.4" stroke-dasharray="5 4" marker-end="url(#m3a)"/>
+
+  <rect x="20" y="200" width="200" height="56" rx="7" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.8"/>
+  <text class="t-md" x="120" y="224" text-anchor="middle" fill="#1F4E79">Embossing</text>
+  <text class="t-sm" x="120" y="243" text-anchor="middle" fill="#1F4E79">the grain pattern is pressed in</text>
+
+  <rect x="264" y="200" width="200" height="56" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="364" y="224" text-anchor="middle">Finishing / lacquer</text>
+  <text class="t-sm t-mut" x="364" y="243" text-anchor="middle">feel, gloss, scuff resistance</text>
+
+  <rect x="516" y="200" width="190" height="56" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="611" y="224" text-anchor="middle">Inspection</text>
+  <text class="t-sm t-mut" x="611" y="243" text-anchor="middle">defects are metres lost</text>
+
+  <rect x="748" y="200" width="192" height="56" rx="7" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.6"/>
+  <text class="t-md" x="844" y="224" text-anchor="middle" fill="#1a6f4a">Finished roll</text>
+  <text class="t-sm" x="844" y="243" text-anchor="middle" fill="#1a6f4a">sold by the linear metre</text>
+
+  <line x1="224" y1="228" x2="258" y2="228" stroke="currentColor" stroke-width="1.6" marker-end="url(#m3a)"/>
+  <line x1="468" y1="228" x2="510" y2="228" stroke="currentColor" stroke-width="1.6" marker-end="url(#m3a)"/>
+  <line x1="710" y1="228" x2="744" y2="228" stroke="currentColor" stroke-width="1.6" marker-end="url(#m3a)"/>
+
+  <rect x="20" y="286" width="450" height="118" rx="8" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.4"/>
+  <text class="t-md" x="42" y="312" fill="#1F4E79">Where the integration is</text>
+  <text class="t" x="42" y="336">Most Indian producers are <tspan font-weight="700">converters</tspan> — they buy base</text>
+  <text class="t" x="42" y="354">fabric and only coat it. Mayur runs the fabric step itself,</text>
+  <text class="t" x="42" y="372">so it captures that margin, controls the quality variable</text>
+  <text class="t" x="42" y="390">that matters most to an auto customer, and sets its own lead time.</text>
+
+  <rect x="490" y="286" width="450" height="118" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.4"/>
+  <text class="t-md" x="512" y="312" fill="#a2650a">And where the input risk is</text>
+  <text class="t" x="512" y="336">Both raw materials track crude. Management on the</text>
+  <text class="t" x="512" y="354">current quarter: <tspan font-style="italic">"the prices went up very sharply. Then</tspan></text>
+  <text class="t" x="512" y="372"><tspan font-style="italic">there was a fall… Then again the prices went up again."</tspan></text>
+  <text class="t-sm t-mut" x="512" y="394">Availability of paste PVC was a scare in March; management says it resolved.</text>
+</svg>
+<figcaption><strong>Nothing in this process is exotic — the difficulty is consistency at scale, which is exactly what an automotive customer is buying.</strong> Vertical integration into fabric is the structural difference between Mayur and the unorganised majority of the Indian industry. <span class="src">Raw materials (paste PVC, yarn) and the price-volatility quote from the Q4FY26 call (23-May-2026) and Q1FY27 call; the fabric-integration point is from the profile's Moat 3. Process stages are standard industry practice.</span></figcaption>
+</figure>
+
+<h2 id="s4"><span class="n">4.</span> Capacity is counted in metres per month</h2>
+
+<p>This is a business where the capacity number, the utilisation rate and the revenue potential can all be reconciled on the back of an envelope — and management does exactly that on the calls.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 400" role="img" aria-label="Capacity chart showing 3.5 to 3.7 million metres per month installed, 2.7 to 2.8 million produced at 75 to 78 percent utilisation, rising to 4.0 to 4.2 million after the new line, which would drop utilisation to about 65 percent.">
+  <defs>
+    <marker id="m4a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a6f4a"/>
+    </marker>
+  </defs>
+
+  <text class="t-md" x="20" y="34">PVC capacity and output, million metres per month</text>
+
+  <text class="t-md" x="150" y="88" text-anchor="end">Installed today</text>
+  <rect x="160" y="68" width="490" height="30" rx="4" fill="#cfdcea" stroke="currentColor" stroke-width="1"/>
+  <text class="t-md" x="662" y="89">3.5 – 3.7</text>
+
+  <text class="t-md" x="150" y="136" text-anchor="end">Actually produced</text>
+  <rect x="160" y="116" width="378" height="30" rx="4" fill="#2E75B6"/>
+  <text class="t-md" x="550" y="137">2.7 – 2.8</text>
+  <text class="t-sm" x="620" y="137" fill="#1F4E79">= 75–78% utilisation</text>
+
+  <text class="t-md" x="150" y="196" text-anchor="end">After the new line</text>
+  <rect x="160" y="176" width="560" height="30" rx="4" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.6"/>
+  <text class="t-md" x="732" y="197" fill="#1a6f4a">4.0 – 4.2</text>
+  <path d="M650,183 H714" stroke="#1a6f4a" stroke-width="1.6" marker-end="url(#m4a)"/>
+  <text class="t-sm" x="682" y="172" text-anchor="middle" fill="#1a6f4a">+0.5</text>
+
+  <text class="t-sm t-mut" x="160" y="230">If output stayed flat, utilisation would fall to about 65% — management's own figure. The line is ordered; production guided from Feb–Mar 2027.</text>
+
+  <rect x="20" y="256" width="450" height="128" rx="8" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.6"/>
+  <text class="t-md" x="42" y="282" fill="#1F4E79">Turning metres into rupees</text>
+  <text class="t" x="42" y="308">5 lakh metres a month × ₹300 per linear metre</text>
+  <text class="t" x="42" y="330">≈ <tspan font-weight="700">₹150cr of additional annual revenue</tspan> from this line…</text>
+  <text class="t" x="42" y="354">…plus headroom in another facility, so management sizes</text>
+  <text class="t" x="42" y="372">the total at <tspan font-weight="700">₹250cr–₹400cr, "depending on the product mix."</tspan></text>
+
+  <rect x="490" y="256" width="450" height="128" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.4"/>
+  <text class="t-md" x="512" y="282" fill="#a2650a">Three cautions on that arithmetic</text>
+  <text class="t" x="512" y="306">· The capacity number <tspan font-weight="700">moves with product mix</tspan> — thicker</text>
+  <text class="t" x="534" y="324">material means fewer metres from the same line.</text>
+  <text class="t" x="512" y="348">· ₹300 is an <tspan font-weight="700">average</tspan> across export auto and footwear.</text>
+  <text class="t" x="512" y="372">· The ₹250–400cr is a management estimate, not a commitment.</text>
+</svg>
+<figcaption><strong>Capacity is not the constraint here, and management says so plainly: "our capacity will not be a constraint for our business."</strong> That matters because it reframes what the growth question actually is — not "can they make more metres" but "can they sell metres at a higher price", which is §8. <span class="src">All figures from the Q1FY27 call (6-Aug-2026): installed 3.5–3.7mn/month, output 2.7–2.8mn, 75–78% utilisation, +5 lakh metres, 4.0–4.2mn after expansion, ~65% resulting utilisation, ₹300/linear metre, ₹150cr and ₹250–400cr. The ₹50cr line cost is from the same call.</span></figcaption>
+</figure>
+
+<h2 id="s5"><span class="n">5.</span> Six verticals, two very different halves</h2>
+
+<p>Mayur reports six product verticals. Read as one list they look like a diversified customer base; read as two halves — export and domestic — they explain nearly everything about the margin trend.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 420" role="img" aria-label="Q1FY27 revenue by vertical in crore rupees: export OEM 73.56, export general 30.24, auto OEM domestic 56.08, footwear 41.16, replacement 36.52, furnishing 6.08, other 3.38, split into export and domestic halves.">
+  <text class="t-md" x="20" y="32">Q1FY27 revenue by vertical, ₹ crore (standalone)</text>
+
+  <text class="t-sm" x="20" y="62" fill="#1F4E79">EXPORTS — ₹103.80cr</text>
+  <text class="t-md" x="196" y="90" text-anchor="end">Export OEM</text>
+  <rect x="206" y="70" width="368" height="28" rx="4" fill="#2E75B6"/>
+  <text class="t-md" x="584" y="90">73.56</text>
+  <text class="t-sm" x="640" y="90" fill="#1a6f4a">+39% YoY, from ₹53cr</text>
+
+  <text class="t-md" x="196" y="128" text-anchor="end">Export general</text>
+  <rect x="206" y="108" width="151" height="28" rx="4" fill="#5b93c7"/>
+  <text class="t-md" x="367" y="128">30.24</text>
+
+  <text class="t-sm" x="20" y="172" fill="#5a6a78">DOMESTIC — ₹143.23cr</text>
+  <text class="t-md" x="196" y="200" text-anchor="end">Auto OEM domestic</text>
+  <rect x="206" y="180" width="280" height="28" rx="4" fill="#9fbfda"/>
+  <text class="t-md" x="496" y="200">56.08</text>
+
+  <text class="t-md" x="196" y="238" text-anchor="end">Footwear</text>
+  <rect x="206" y="218" width="206" height="28" rx="4" fill="#9fbfda"/>
+  <text class="t-md" x="422" y="238">41.16</text>
+
+  <text class="t-md" x="196" y="276" text-anchor="end">Replacement</text>
+  <rect x="206" y="256" width="183" height="28" rx="4" fill="#9fbfda"/>
+  <text class="t-md" x="399" y="276">36.52</text>
+
+  <text class="t-md" x="196" y="314" text-anchor="end">Furnishing</text>
+  <rect x="206" y="294" width="30" height="28" rx="4" fill="#c3d5e6"/>
+  <text class="t-md" x="246" y="314">6.08</text>
+
+  <text class="t-md" x="196" y="352" text-anchor="end">Other</text>
+  <rect x="206" y="332" width="17" height="28" rx="4" fill="#c3d5e6"/>
+  <text class="t-md" x="233" y="352">3.38</text>
+
+  <line x1="206" y1="366" x2="206" y2="60" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t-sm t-mut" x="206" y="386">Total ₹247.03cr standalone · exports ~42% of the mix, guided to 40–45% for FY27</text>
+  <text class="t-sm t-mut" x="206" y="406">Replacement = the aftermarket, where a worn seat cover is redone. Furnishing = sofas and interiors. Footwear = branded shoe makers.</text>
+</svg>
+<figcaption><strong>One vertical is doing the work.</strong> Export OEM alone is ₹73.56cr of a ₹247cr quarter and grew about 39% year on year, while the whole domestic half grew barely at all in volume terms. The concentration that produces the margin is also the concentration that a tariff would hit — §10. <span class="src">All figures read verbatim from management's segment recitation on the Q1FY27 call (6-Aug-2026); the ₹53cr Q1FY26 export-OEM comparison is from an analyst's question on the same call, accepted by management.</span></figcaption>
+</figure>
+
+<h2 id="s6"><span class="n">6.</span> The value chain — from petroleum to a car seat</h2>
+
+<p>Mayur sits in the middle of a chain that starts at a refinery and ends on something you sit on. It does not sell to consumers, and mostly does not sell to the car maker directly either — the material goes to whoever cuts and sews the seat.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 400" role="img" aria-label="Value chain from petrochemical feedstock through Mayur to seat and trim makers, then to vehicle OEMs, with parallel paths to footwear brands and furniture, and Mayur USA as the export distribution arm.">
+  <defs>
+    <marker id="m6a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+    <marker id="m6b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2E75B6"/>
+    </marker>
+  </defs>
+
+  <rect x="16" y="120" width="150" height="70" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t" x="91" y="148" text-anchor="middle">Petrochemicals</text>
+  <text class="t-sm t-mut" x="91" y="166" text-anchor="middle">paste PVC, yarn,</text>
+  <text class="t-sm t-mut" x="91" y="182" text-anchor="middle">plasticiser</text>
+
+  <line x1="170" y1="155" x2="200" y2="155" stroke="currentColor" stroke-width="1.6" marker-end="url(#m6a)"/>
+
+  <rect x="204" y="112" width="176" height="86" rx="7" fill="#eaf2fb" stroke="#2E75B6" stroke-width="2.2"/>
+  <text class="t-md" x="292" y="140" text-anchor="middle" fill="#1F4E79">MAYUR</text>
+  <text class="t-sm" x="292" y="158" text-anchor="middle" fill="#1F4E79">3 plants, Rajasthan</text>
+  <text class="t-sm" x="292" y="176" text-anchor="middle" fill="#1F4E79">fabric + coating, in-house</text>
+  <text class="t-sm" x="292" y="192" text-anchor="middle" fill="#1F4E79">sells by the metre</text>
+
+  <path d="M384,132 C420,132 420,74 448,70" fill="none" stroke="#2E75B6" stroke-width="1.6" marker-end="url(#m6b)"/>
+  <path d="M384,155 H448" stroke="currentColor" stroke-width="1.6" marker-end="url(#m6a)"/>
+  <path d="M384,178 C420,178 420,236 448,240" fill="none" stroke="currentColor" stroke-width="1.6" marker-end="url(#m6a)"/>
+  <path d="M384,190 C420,196 420,306 448,310" fill="none" stroke="currentColor" stroke-width="1.6" marker-end="url(#m6a)"/>
+
+  <rect x="452" y="44" width="200" height="54" rx="7" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.6"/>
+  <text class="t" x="552" y="68" text-anchor="middle" fill="#1F4E79">Mayur USA</text>
+  <text class="t-sm" x="552" y="86" text-anchor="middle" fill="#1F4E79">subsidiary, OEM distribution</text>
+
+  <rect x="452" y="128" width="200" height="54" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t" x="552" y="152" text-anchor="middle">Seat &amp; trim makers</text>
+  <text class="t-sm t-mut" x="552" y="170" text-anchor="middle">cut and sew the material</text>
+
+  <rect x="452" y="214" width="200" height="54" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t" x="552" y="238" text-anchor="middle">Footwear brands</text>
+  <text class="t-sm t-mut" x="552" y="256" text-anchor="middle">₹41.16cr in Q1FY27</text>
+
+  <rect x="452" y="284" width="200" height="54" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t" x="552" y="308" text-anchor="middle">Furniture &amp; aftermarket</text>
+  <text class="t-sm t-mut" x="552" y="326" text-anchor="middle">furnishing + replacement</text>
+
+  <path d="M656,71 C700,71 700,140 726,150" fill="none" stroke="#2E75B6" stroke-width="1.6" marker-end="url(#m6b)"/>
+  <line x1="656" y1="155" x2="722" y2="155" stroke="currentColor" stroke-width="1.6" marker-end="url(#m6a)"/>
+
+  <rect x="726" y="112" width="218" height="86" rx="7" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.6"/>
+  <text class="t-md" x="835" y="140" text-anchor="middle" fill="#1a6f4a">Vehicle OEMs</text>
+  <text class="t-sm" x="835" y="160" text-anchor="middle" fill="#1a6f4a">US: Ford, Chrysler</text>
+  <text class="t-sm" x="835" y="176" text-anchor="middle" fill="#1a6f4a">South Africa: BMW, Mercedes</text>
+  <text class="t-sm" x="835" y="192" text-anchor="middle" fill="#1a6f4a">India: Mahindra, Tata (early)</text>
+
+  <rect x="16" y="256" width="410" height="120" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.4"/>
+  <text class="t-md" x="36" y="282" fill="#a2650a">What management actually said about the OEMs</text>
+  <text class="t-sm" x="36" y="306"><tspan font-style="italic">"Our share of business in Ford was very less. So we have got</tspan></text>
+  <text class="t-sm" x="36" y="322"><tspan font-style="italic">good orders from Ford and the business will increase with Ford</tspan></text>
+  <text class="t-sm" x="36" y="338"><tspan font-style="italic">also and in Chrysler also… in the next three years the business</tspan></text>
+  <text class="t-sm" x="36" y="354"><tspan font-style="italic">will almost be if not double at least 60%, 70% our US business</tspan></text>
+  <text class="t-sm" x="36" y="370"><tspan font-style="italic">will increase."</tspan> — Q1FY27 call</text>
+
+  <rect x="726" y="228" width="218" height="148" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1.1"/>
+  <text class="t-md" x="746" y="254">Named gaps</text>
+  <text class="t-sm" x="746" y="278">Domestic four-wheeler volume is</text>
+  <text class="t-sm" x="746" y="294">where management says it is</text>
+  <text class="t-sm" x="746" y="310">"lacking right now" — Mahindra</text>
+  <text class="t-sm" x="746" y="326">rising, Tata "in a very initial stage."</text>
+  <text class="t-sm t-mut" x="746" y="352">Europe: participating in RFQs,</text>
+  <text class="t-sm t-mut" x="746" y="368">some lost, none yet awarded.</text>
+</svg>
+<figcaption><strong>Mayur is two steps from the car and one step from the shoe.</strong> The seat maker is the immediate customer, but the specification — and the approval that lets Mayur supply at all — belongs to the vehicle OEM further up. That split is why the sales cycle is long and why an approval, once earned, is worth years of volume. <span class="src">Customer names, the "share of business in Ford was very less" quote, the three-year US growth statement and the Mahindra/Tata comments are all from the Q1FY27 call (6-Aug-2026). Segment revenues from the same call. Mayur USA's role is from the profile's §1.</span></figcaption>
+</figure>
+
+<h2 id="s7"><span class="n">7.</span> The qualification clock — the moat, and a flag on it</h2>
+
+<p>An automotive interior material cannot simply be sold to a car company. It has to pass the OEM's own testing — abrasion, tear, UV and heat ageing, fogging, odour, flammability, colour-fastness — and then be approved onto a specific vehicle platform. Once it is on that platform, it generally stays there for the platform's life, because re-testing an alternative costs the OEM time and money for no benefit.</p>
+
+<p><strong>That is the moat: not the coating line, but the certificate.</strong> It is also why a supplier's growth is lumpy and slow to arrive — you win a platform, then wait for it to launch.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 380" role="img" aria-label="Qualification sequence from RFQ through material development, OEM testing, approval and platform award to life-of-platform supply, with cost incurred early and revenue arriving only at the end.">
+  <defs>
+    <marker id="m7a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <rect x="20"  y="46" width="140" height="72" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="90" y="76" text-anchor="middle">RFQ</text>
+  <text class="t-sm t-mut" x="90" y="96" text-anchor="middle">OEM invites quotes</text>
+  <text class="t-sm t-mut" x="90" y="110" text-anchor="middle">against a spec</text>
+
+  <rect x="180" y="46" width="140" height="72" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="250" y="76" text-anchor="middle">Development</text>
+  <text class="t-sm t-mut" x="250" y="96" text-anchor="middle">match colour, grain,</text>
+  <text class="t-sm t-mut" x="250" y="110" text-anchor="middle">hand-feel, thickness</text>
+
+  <rect x="340" y="46" width="140" height="72" rx="7" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.4"/>
+  <text class="t-md" x="410" y="76" text-anchor="middle" fill="#a2650a">OEM testing</text>
+  <text class="t-sm" x="410" y="96" text-anchor="middle" fill="#a2650a">abrasion · UV · fogging</text>
+  <text class="t-sm" x="410" y="110" text-anchor="middle" fill="#a2650a">odour · flammability</text>
+
+  <rect x="500" y="46" width="140" height="72" rx="7" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.8"/>
+  <text class="t-md" x="570" y="76" text-anchor="middle" fill="#1F4E79">Approved vendor</text>
+  <text class="t-sm" x="570" y="96" text-anchor="middle" fill="#1F4E79">audit passed —</text>
+  <text class="t-sm" x="570" y="110" text-anchor="middle" fill="#1F4E79">but no order yet</text>
+
+  <rect x="660" y="46" width="140" height="72" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="730" y="76" text-anchor="middle">Platform award</text>
+  <text class="t-sm t-mut" x="730" y="96" text-anchor="middle">a specific model,</text>
+  <text class="t-sm t-mut" x="730" y="110" text-anchor="middle">a specific trim</text>
+
+  <rect x="820" y="46" width="120" height="72" rx="7" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.6"/>
+  <text class="t-md" x="880" y="76" text-anchor="middle" fill="#1a6f4a">Life of</text>
+  <text class="t-md" x="880" y="94" text-anchor="middle" fill="#1a6f4a">platform</text>
+  <text class="t-sm" x="880" y="112" text-anchor="middle" fill="#1a6f4a">years of volume</text>
+
+  <line x1="162" y1="82" x2="176" y2="82" stroke="currentColor" stroke-width="1.6" marker-end="url(#m7a)"/>
+  <line x1="322" y1="82" x2="336" y2="82" stroke="currentColor" stroke-width="1.6" marker-end="url(#m7a)"/>
+  <line x1="482" y1="82" x2="496" y2="82" stroke="currentColor" stroke-width="1.6" marker-end="url(#m7a)"/>
+  <line x1="642" y1="82" x2="656" y2="82" stroke="currentColor" stroke-width="1.6" marker-end="url(#m7a)"/>
+  <line x1="802" y1="82" x2="816" y2="82" stroke="currentColor" stroke-width="1.6" marker-end="url(#m7a)"/>
+
+  <rect x="20" y="144" width="620" height="30" rx="5" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.2"/>
+  <text class="t" x="330" y="164" text-anchor="middle" fill="#b3261e">cost and effort here — samples, trials, testing, audits, no revenue</text>
+  <rect x="660" y="144" width="280" height="30" rx="5" fill="#ecf7f1" stroke="#c7e4d5" stroke-width="1.2"/>
+  <text class="t" x="800" y="164" text-anchor="middle" fill="#1a6f4a">revenue only starts here</text>
+
+  <rect x="20" y="196" width="450" height="160" rx="8" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.4"/>
+  <text class="t-md" x="42" y="222" fill="#1F4E79">The gap that proves the mechanism</text>
+  <text class="t" x="42" y="248">Mayur's PU business is stuck at exactly the fourth box.</text>
+  <text class="t" x="42" y="272">Management, Q4FY26: <tspan font-style="italic">"there was an audit from a very big</tspan></text>
+  <text class="t" x="42" y="290"><tspan font-style="italic">customer. They have passed us, approved us as a vendor.</tspan></text>
+  <text class="t" x="42" y="308"><tspan font-style="italic">But no price commercial settlement has happened till now."</tspan></text>
+  <text class="t-sm t-mut" x="42" y="336">Approved does not mean ordered. That distinction is the whole difference</text>
+  <text class="t-sm t-mut" x="42" y="350">between a pipeline and a revenue line.</text>
+
+  <rect x="490" y="196" width="450" height="160" rx="8" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.4"/>
+  <text class="t-md" x="512" y="222" fill="#b3261e">⚠ A flag on the number everyone repeats</text>
+  <text class="t" x="512" y="248">The figure <tspan font-weight="700">"five to seven years to approve a supplier"</tspan> is</text>
+  <text class="t" x="512" y="266">widely cited for this industry and appears in our own profile.</text>
+  <text class="t" x="512" y="290"><tspan font-weight="700">It does not appear in any of the seven transcripts on disk.</tspan></text>
+  <text class="t" x="512" y="314">No management statement of an approval duration was found.</text>
+  <text class="t-sm t-mut" x="512" y="340">Treat the multi-year clock as real and the specific number as unverified until</text>
+  <text class="t-sm t-mut" x="512" y="354">it is sourced. The mechanism does not depend on the precise figure.</text>
+</svg>
+<figcaption><strong>The certificate is the asset, and the PU business shows exactly where the certificate stops being enough.</strong> An approved vendor with no commercial settlement earns nothing — which is why "approved" and "awarded" should never be read as the same news. <span class="src">The PU audit quote is from the Q4FY26 call (23-May-2026). The test list and the platform-life convention are standard automotive practice, included to explain the mechanism. <span class="tag inf">MY INFERENCE</span> — the funnel framing is mine; the flag on the five-to-seven-year figure is a sourcing check I ran across all seven transcripts for this page.</span></figcaption>
+</figure>
+
+<h2 id="s8"><span class="n">8.</span> Price versus volume — the most important line in the results</h2>
+
+<p>If you read one thing about Mayur's numbers, read this. <strong>Revenue grew 24.5% in Q1FY27. Volume grew about 2%.</strong> Everything else was price and mix.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 420" role="img" aria-label="Decomposition of Q1FY27 revenue growth of 24.5 percent into roughly 2 percent volume and the remainder price and mix, with export volume growing 9 percent and domestic 1 percent.">
+  <text class="t-md" x="20" y="34">Q1FY27 revenue growth, decomposed</text>
+
+  <rect x="20" y="56" width="880" height="44" rx="5" fill="#b6cde2"/>
+  <rect x="20" y="56" width="72" height="44" rx="5" fill="#2E75B6"/>
+  <text class="t-md" x="56" y="83" text-anchor="middle" fill="#ffffff">~2%</text>
+  <text class="t-md" x="500" y="83" text-anchor="middle" fill="#16202b">the rest is price and mix</text>
+  <text class="t-sm" x="56" y="118" text-anchor="middle" fill="#1F4E79">volume</text>
+  <text class="t-md" x="906" y="83">24.5%</text>
+
+  <text class="t-sm t-mut" x="20" y="146">Management, asked directly how much of the 25% was volume: "the volume is around 2% and remaining growth has come from price part."</text>
+
+  <text class="t-md" x="20" y="192">And the 2% splits unevenly</text>
+  <text class="t-md" x="150" y="228" text-anchor="end">Export volume</text>
+  <rect x="160" y="208" width="270" height="28" rx="4" fill="#2E75B6"/>
+  <text class="t-md" x="442" y="229">+9%</text>
+  <text class="t-md" x="150" y="270" text-anchor="end">Domestic volume</text>
+  <rect x="160" y="250" width="30" height="28" rx="4" fill="#9fbfda"/>
+  <text class="t-md" x="202" y="271">+1%</text>
+  <text class="t-sm t-mut" x="160" y="300">Overall about 2.77%, per management. Domestic auto production grew materially faster</text>
+  <text class="t-sm t-mut" x="160" y="316">in the same period — an analyst made that point on the call.</text>
+
+  <rect x="20" y="334" width="880" height="76" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.4"/>
+  <text class="t" x="40" y="358" fill="#a2650a"><tspan font-weight="700">Why this matters:</tspan> a revenue line driven by realisation can be a good thing — richer mix, dollar pricing, premium grades —</text>
+  <text class="t" x="40" y="378" fill="#a2650a">or simply raw-material inflation being passed on. Those two look identical in the growth number, and are completely</text>
+  <text class="t" x="40" y="398" fill="#a2650a">different in what they say about demand. <tspan font-weight="700">The volume line is the one that tells you which.</tspan></text>
+</svg>
+<figcaption><strong>This is the single most useful discipline for reading this company.</strong> Management is explicit that the value/volume gap is deliberate — the shift into higher-priced export automotive material is the strategy working. But deliberate mix improvement and input-cost pass-through both show up as "price", and only volume distinguishes a business selling more from a business charging more. <span class="src">All figures and both quotes from the Q1FY27 call (6-Aug-2026): +24.5% revenue, ~2% volume, export +9%, domestic +1%, overall 2.77%. <span class="tag inf">MY INFERENCE</span> — the framing of why the distinction matters is mine.</span></figcaption>
+</figure>
+
+<h2 id="s9"><span class="n">9.</span> Why exports are a margin lever — and the quarter that questioned it</h2>
+
+<p>Export business earns roughly <strong>5–8 percentage points more margin</strong> than domestic, and it is invoiced in dollars, so a weaker rupee lifts realisation without any commercial negotiation. FY26 carried a <strong>₹30cr forex gain</strong> on that mechanism. Export mix has gone from about 35% two years ago to roughly <strong>42.5%</strong> of standalone revenue, guided to 40–45% for FY27.</p>
+
+<p>Then Q1FY27 delivered a test of the theory, and an analyst put it plainly on the call: export OEM grew about 40% year on year — <strong>so why did gross margin not improve?</strong></p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 340" role="img" aria-label="Two panels: the export margin lever mechanism, and the Q1FY27 counterpoint where export OEM grew 40 percent without gross margin improving.">
+  <defs>
+    <marker id="m9a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a6f4a"/>
+    </marker>
+  </defs>
+
+  <rect x="20" y="26" width="450" height="290" rx="9" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.6"/>
+  <text class="t-lg" x="42" y="56" fill="#1a6f4a">The lever, as it is supposed to work</text>
+
+  <rect x="42" y="76" width="180" height="46" rx="6" fill="#ffffff" stroke="#1a6f4a" stroke-width="1.2"/>
+  <text class="t" x="132" y="104" text-anchor="middle" fill="#1a6f4a">Export mix rises</text>
+  <path d="M132,126 V146" stroke="#1a6f4a" stroke-width="1.6" marker-end="url(#m9a)"/>
+  <rect x="42" y="150" width="180" height="46" rx="6" fill="#ffffff" stroke="#1a6f4a" stroke-width="1.2"/>
+  <text class="t" x="132" y="170" text-anchor="middle" fill="#1a6f4a">Higher realisation per</text>
+  <text class="t" x="132" y="188" text-anchor="middle" fill="#1a6f4a">metre, +5–8pp margin</text>
+  <path d="M132,200 V220" stroke="#1a6f4a" stroke-width="1.6" marker-end="url(#m9a)"/>
+  <rect x="42" y="224" width="180" height="46" rx="6" fill="#ffffff" stroke="#1a6f4a" stroke-width="1.2"/>
+  <text class="t" x="132" y="244" text-anchor="middle" fill="#1a6f4a">Invoiced in USD —</text>
+  <text class="t" x="132" y="262" text-anchor="middle" fill="#1a6f4a">weak INR adds more</text>
+
+  <text class="t" x="246" y="96" fill="#1a6f4a">Export mix:</text>
+  <text class="t-md" x="246" y="120" fill="#1a6f4a">~35% → 42.5%</text>
+  <text class="t-sm" x="246" y="140" fill="#1a6f4a">in about two years</text>
+  <text class="t" x="246" y="176" fill="#1a6f4a">FY26 forex gain:</text>
+  <text class="t-md" x="246" y="200" fill="#1a6f4a">₹30 crore</text>
+  <text class="t-sm" x="246" y="220" fill="#1a6f4a">flows straight to profit</text>
+  <text class="t-sm t-mut" x="246" y="256">FY27 guidance keeps</text>
+  <text class="t-sm t-mut" x="246" y="272">export mix at 40–45%.</text>
+
+  <rect x="490" y="26" width="450" height="290" rx="9" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.6"/>
+  <text class="t-lg" x="512" y="56" fill="#a2650a">The counterpoint, Q1FY27</text>
+  <text class="t" x="512" y="86">Export OEM grew from ₹53cr to ₹73.56cr — about 40%.</text>
+  <text class="t" x="512" y="110">Gross margin did not improve.</text>
+  <text class="t" x="512" y="142">An analyst asked exactly that question on the call.</text>
+  <text class="t" x="512" y="172">Two forces were pulling the other way:</text>
+  <text class="t" x="512" y="200">· <tspan font-weight="700">Raw-material prices rose sharply</tspan> during the quarter —</text>
+  <text class="t" x="534" y="218">paste PVC is a petroleum by-product.</text>
+  <text class="t" x="512" y="244">· <tspan font-weight="700">Domestic verticals were soft</tspan> — footwear in particular,</text>
+  <text class="t" x="534" y="262">where management flagged input costs directly.</text>
+  <text class="t-sm t-mut" x="512" y="292">A margin lever is a tendency, not a guarantee. It can be swamped for a</text>
+  <text class="t-sm t-mut" x="512" y="308">quarter or two by the input cycle without the strategy being wrong.</text>
+</svg>
+<figcaption><strong>Both things are true: the export mix genuinely is a margin lever, and it did not show up in this particular quarter.</strong> That combination is normal for a materials business sitting on a petrochemical input — which is why the mix argument should be judged over years and the input cycle over quarters. <span class="src">Export margin spread, mix history and the FY26 ₹30cr forex gain are from the profile's §3; the ₹53cr → ₹73.56cr export-OEM comparison and the unanswered-margin exchange are from the Q1FY27 call (6-Aug-2026); the raw-material and footwear commentary from the same call.</span></figcaption>
+</figure>
+
+<h2 id="s10"><span class="n">10.</span> The tariff exposure and the plant that has not been decided</h2>
+
+<p>The strength and the risk are the same fact. About 42% of revenue is dollar-priced export, and the fastest-growing part of it goes to US automotive. A US tariff regime lands directly on that.</p>
+
+<p>The industry answer is well understood — <strong>build a plant inside the tariff wall</strong>. Mayur has been discussing it for roughly two years and has not chosen a location.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 350" role="img" aria-label="The tariff exposure: dollar-priced exports to the US on one side, the undecided overseas plant options of Mexico, the US or NAFTA on the other, with management's stated reason for the delay.">
+  <defs>
+    <marker id="m10a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b3261e"/>
+    </marker>
+    <marker id="m10b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2E75B6"/>
+    </marker>
+  </defs>
+
+  <rect x="20" y="40" width="210" height="72" rx="7" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.8"/>
+  <text class="t" x="125" y="68" text-anchor="middle" fill="#1F4E79">Three plants, Rajasthan</text>
+  <text class="t-sm" x="125" y="88" text-anchor="middle" fill="#1F4E79">all production is in India</text>
+  <text class="t-sm" x="125" y="104" text-anchor="middle" fill="#1F4E79">~42% of revenue exported</text>
+
+  <path d="M234,76 H400" stroke="#b3261e" stroke-width="2" marker-end="url(#m10a)"/>
+  <rect x="300" y="52" width="14" height="48" fill="#b3261e"/>
+  <text class="t-sm" x="307" y="44" text-anchor="middle" fill="#b3261e">tariff</text>
+
+  <rect x="410" y="40" width="210" height="72" rx="7" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.4"/>
+  <text class="t" x="515" y="68" text-anchor="middle" fill="#b3261e">US automotive customers</text>
+  <text class="t-sm" x="515" y="88" text-anchor="middle" fill="#b3261e">the fastest-growing vertical</text>
+  <text class="t-sm" x="515" y="104" text-anchor="middle" fill="#b3261e">Export OEM ₹73.56cr in Q1FY27</text>
+
+  <text class="t-md" x="20" y="164">The answer everyone agrees on — and the decision that has not been taken</text>
+
+  <rect x="20" y="182" width="280" height="72" rx="7" fill="#f7fafc" stroke="currentColor" stroke-width="1.3" stroke-dasharray="6 4"/>
+  <text class="t" x="160" y="210" text-anchor="middle">A plant outside India</text>
+  <text class="t-sm t-mut" x="160" y="230" text-anchor="middle">Mexico? · US? · elsewhere in NAFTA?</text>
+  <text class="t-sm t-mut" x="160" y="246" text-anchor="middle">under discussion for ~2 years</text>
+
+  <path d="M304,218 H352" stroke="#2E75B6" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#m10b)"/>
+
+  <rect x="356" y="182" width="584" height="72" rx="7" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.4"/>
+  <text class="t" x="376" y="208" fill="#a2650a"><tspan font-style="italic">"We definitely need to put more plants somewhere outside India. But because of all this Trump</tspan></text>
+  <text class="t" x="376" y="228" fill="#a2650a"><tspan font-style="italic">tariff, the West Asia war or multiple things happening in the last few years, we have not taken a</tspan></text>
+  <text class="t" x="376" y="248" fill="#a2650a"><tspan font-style="italic">final call where — which should be the ideal location to put our plant."</tspan> — Q1FY27 call</text>
+
+  <rect x="20" y="274" width="920" height="60" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1.1"/>
+  <text class="t" x="40" y="298">The circularity is worth seeing clearly: <tspan font-weight="700">the volatility that makes the plant necessary is the same volatility that makes the location hard to choose.</tspan></text>
+  <text class="t" x="40" y="320">Meanwhile the India expansion — one line, ₹50cr, production from Feb–Mar 2027 — proceeds: that decision does not depend on the tariff.</text>
+</svg>
+<figcaption><strong>This is the open item in the industry position, and it has an unusual shape: not a disagreement about what to do, but a two-year deferral of where.</strong> Every quarter it stays open, the export concentration that drives the margin keeps growing. <span class="src">Quote and location options (Mexico, US, NAFTA) from the Q1FY27 call (6-Aug-2026); the India line timing and cost from the same call; export mix from the profile's §3.</span></figcaption>
+</figure>
+
+<h2 id="s11"><span class="n">11.</span> Reading the industry through the numbers</h2>
+
+<div class="tw">
+<table>
+<thead><tr><th style="width:26%">Industry mechanism</th><th style="width:24%">Where it shows up</th><th style="width:30%">Latest reading</th><th style="width:20%">Source</th></tr></thead>
+<tbody>
+<tr><td>Sold by the metre, priced by grade</td><td>Average realisation</td><td><strong>~₹300 per linear metre</strong></td><td>Q1FY27 call</td></tr>
+<tr><td>Growth comes from mix, not throughput</td><td>Volume growth vs revenue growth</td><td><strong>+2% volume against +24.5% revenue</strong>; export volume +9%, domestic +1%</td><td>Q1FY27 call</td></tr>
+<tr><td>Export mix is the margin lever</td><td>Export share of revenue</td><td><strong>~42.5%</strong>, guided 40–45% for FY27; export earns 5–8pp more</td><td>Profile §3; Q1FY27 call</td></tr>
+<tr><td>…but the input cycle can swamp it</td><td>Gross margin against export growth</td><td>Export OEM <strong>+40%</strong> with <strong>no gross-margin improvement</strong></td><td>Q1FY27 call</td></tr>
+<tr><td>Capacity is not the constraint</td><td>Utilisation, metres per month</td><td><strong>75–78%</strong> on 3.5–3.7mn/month; new line takes capacity to 4.0–4.2mn</td><td>Q1FY27 call</td></tr>
+<tr><td>Expansion translates at a known rate</td><td>Incremental revenue per line</td><td>5 lakh metres ≈ <strong>₹150cr/yr</strong>; total potential <strong>₹250–400cr</strong></td><td>Q1FY27 call</td></tr>
+<tr><td>All three chemistries — but one is stalled</td><td>PU revenue</td><td><strong>₹27.08cr in FY26</strong>; "approved as a vendor", no commercial settlement</td><td>Q4FY26 call</td></tr>
+<tr><td>Approval, not capacity, gates new business</td><td>Named OEM wins</td><td>Ford share was "very less", now "good orders"; Chrysler rising; Tata "very initial stage"</td><td>Q1FY27 call</td></tr>
+<tr><td>Dollar invoicing adds a currency tailwind</td><td>Forex gain in the P&amp;L</td><td><strong>₹30cr in FY26</strong></td><td>Profile §3</td></tr>
+<tr><td>Export concentration is also the tariff risk</td><td>The overseas plant decision</td><td><strong>Still undecided after ~2 years</strong> — Mexico, US or NAFTA</td><td>Q1FY27 call</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2 id="s12"><span class="n">12.</span> What Mayur does not disclose</h2>
+
+<ul>
+<li><strong>No investor presentation exists at all.</strong> Every number above comes from spoken commentary or a results filing. <strong>There is no slide-deck cross-check</strong> — the verification layer that every other company in this library provides is simply absent here.</li>
+<li><strong>Segment margins.</strong> The six verticals are given in revenue only. The 5–8pp export premium is described, never tabulated, so the mix-shift argument cannot be quantified from disclosure.</li>
+<li><strong>Customer concentration.</strong> OEM names are discussed qualitatively; no top-customer share is published for a business where export OEM is the growth engine.</li>
+<li><strong>PU capacity and utilisation</strong> — disclosed for PVC, not for PU, which is the chemistry the growth argument depends on.</li>
+<li><strong>Order book or platform pipeline.</strong> Nothing equivalent is reported, so a platform win becomes visible only when it turns into revenue.</li>
+<li><strong>Approval cycle length.</strong> Not stated by management on any call on disk — see the flag in §7.</li>
+</ul>
+
+<h2 id="s13"><span class="n">13.</span> Glossary</h2>
+
+<dl class="glos">
+<dt>Synthetic leather</dt><dd>A fabric base coated with polymer and embossed to look like leather. Also called artificial leather, coated fabric or "uniquoter" in Mayur's own naming.</dd>
+<dt>Base fabric</dt><dd>The knitted or woven textile underneath the coating; provides tear strength. Mayur makes its own; most Indian competitors buy it in.</dd>
+<dt>Paste PVC</dt><dd>The PVC grade used for coating, supplied as a paste and a petroleum by-product. One of Mayur's two main raw materials, alongside yarn.</dd>
+<dt>PU / semi-PU</dt><dd>Polyurethane coating (premium, softest) and a PVC base with a PU top coat (the middle grade).</dd>
+<dt>Embossing</dt><dd>Pressing a grain pattern into the coated surface — what makes it look like hide.</dd>
+<dt>Linear metre</dt><dd>The unit of sale. Capacity, output and price are all expressed per metre.</dd>
+<dt>Export OEM</dt><dd>Material supplied to overseas vehicle programmes — Mayur's largest and fastest-growing vertical.</dd>
+<dt>Replacement</dt><dd>The aftermarket: re-covering worn seats, outside the OEM channel.</dd>
+<dt>Furnishing</dt><dd>Upholstery for furniture and interiors.</dd>
+<dt>Platform</dt><dd>A specific vehicle model generation. Material is approved onto a platform and typically supplied for its production life.</dd>
+<dt>RFQ</dt><dd>Request for quotation — the OEM's invitation to bid against a written material specification.</dd>
+<dt>Approved vendor</dt><dd>Passed the customer's audit and testing. Not the same as having an order — Mayur's PU business sits exactly at that distinction.</dd>
+</dl>
+
+<hr>
+
+<h3>Sources</h3>
+<p class="src"><strong>Transcripts (7 official):</strong> Q1FY27 (call 6-Aug-2026, filed 10-Aug-2026) · Q4FY26 (23-May-2026) · Q3FY26 (Feb-2026) · Q2FY26 (Nov-2025) · Q1FY26 (Aug-2025) · Q4FY25 (May-2025) · Q3FY25 (Feb-2025). All text-extracted and read. Held in <code class="src">Fetched Concalls/MAYURUNIQ/</code>.<br>
+<strong>Also read:</strong> the 5-Aug-2026 Q1FY27 board packet. <strong>Mayur publishes no investor decks</strong>, so no deck cross-check exists — stated as a data-quality limit rather than worked around.<br>
+<strong>Extraction discipline:</strong> every figure is taken from spoken commentary in a transcript or from a results filing. Where a claim is carried from the profile's earlier research rather than from these transcripts, it says so — including the explicit flag in §7 on the five-to-seven-year approval figure.<br>
+<strong>Companion document:</strong> <code class="src">Company Profiles/MAYUR.md</code> carries the financials, valuation, the key-man question, promoter and related-party items, and the risk list. This page makes no investment judgement.</p>
+
+</body>
+</html>
