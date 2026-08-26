@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How the Forging Business Works — Amic Industry Primer</title>
+<meta name="robots" content="noindex,nofollow">
+<style>
+
+:root{
+  --navy:#1F4E79; --blue:#2E75B6; --ink:#16202b; --mut:#5a6a78; --bg:#fafbfc;
+  --card:#ffffff; --line:#e3e8ee; --amber:#a2650a; --amberbg:#fff8e6;
+  --red:#b3261e; --redbg:#fdeceb; --green:#1a6f4a; --greenbg:#ecf7f1;
+  color-scheme: light;
+}
+*{box-sizing:border-box}
+body{
+  max-width:1040px; margin:0 auto; padding:22px 20px 80px;
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+  line-height:1.62; color:var(--ink); background:var(--bg); font-size:15px;
+}
+.nav{display:flex; gap:18px; flex-wrap:wrap; margin-bottom:12px; font-size:13.5px}
+.nav a{color:var(--navy); font-weight:600; text-decoration:none}
+.nav a:hover{text-decoration:underline; color:var(--blue)}
+.topbar{background:linear-gradient(135deg,#1F4E79 0%,#2E75B6 100%); color:#fff; padding:20px 24px; border-radius:10px; margin-bottom:22px}
+.topbar h1{margin:0 0 6px; font-size:25px; line-height:1.25; color:#fff; border:0; padding:0}
+.topbar .sub{font-size:14.5px; opacity:.92}
+.topbar .meta{font-size:12.5px; opacity:.8; margin-top:10px}
+h2{color:var(--navy); font-size:20px; margin:44px 0 6px; border-left:4px solid var(--navy); padding-left:12px}
+h2 .n{color:var(--blue); font-weight:700}
+h3{color:var(--blue); font-size:16px; margin:26px 0 8px}
+p{margin:11px 0}
+ul{margin:10px 0; padding-left:22px} li{margin:6px 0}
+.lede{font-size:15.5px; color:#2c3b49}
+.box{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 18px; margin:18px 0}
+.box.warn{background:var(--amberbg); border-color:#f0dcae}
+.box.red{background:var(--redbg); border-color:#f3cfcb}
+.box.good{background:var(--greenbg); border-color:#c7e4d5}
+.box h4{margin:0 0 6px; font-size:14px; color:var(--navy); text-transform:uppercase; letter-spacing:.04em}
+.src{color:var(--mut); font-size:12.5px}
+code.src{background:transparent; padding:0}
+figure.dg{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px 16px 12px; margin:22px 0}
+figure.dg svg{width:100%; height:auto; display:block; color:#3d4b5c}
+figure.dg figcaption{font-size:13px; color:var(--mut); margin-top:12px; padding-top:10px; border-top:1px dashed var(--line)}
+svg text:not([fill]){fill:currentColor}
+.t-lg{font-size:15px; font-weight:700}
+.t-md{font-size:13.5px; font-weight:700}
+.t{font-size:12.5px}
+.t-sm{font-size:11px}
+.t-mut{opacity:.7}
+.tw{overflow-x:auto; margin:16px 0}
+table{border-collapse:collapse; width:100%; min-width:620px; font-size:13.5px; background:var(--card)}
+th,td{border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top}
+th{background:#eef3f8; color:var(--navy); font-weight:700}
+.toc{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 20px; font-size:14px}
+.toc ol{margin:6px 0; padding-left:22px} .toc li{margin:4px 0}
+.toc a{color:var(--navy); text-decoration:none} .toc a:hover{text-decoration:underline}
+.glos{display:grid; grid-template-columns:150px 1fr; gap:6px 14px; font-size:13.5px}
+.glos dt{font-weight:700; color:var(--navy)} .glos dd{margin:0}
+@media (max-width:640px){ .glos{grid-template-columns:1fr} .glos dt{margin-top:8px} }
+.tag{display:inline-block; font-size:11px; font-weight:700; letter-spacing:.03em; padding:2px 7px; border-radius:20px; vertical-align:middle}
+.tag.fact{background:#e8f0f8; color:var(--navy)}
+.tag.inf{background:var(--amberbg); color:var(--amber); border:1px solid #ecd9a8}
+blockquote{border-left:4px solid #2E75B6; background:#f4f8fc; margin:16px 0; padding:12px 18px; font-size:14px}
+hr{border:0; border-top:1px solid var(--line); margin:38px 0}
+</style>
+</head>
+<body>
+
+<div class="nav">
+  <a href="https://portfolio-stocks-chi.vercel.app/index.html">← Dashboard</a>
+  <a href="https://portfolio-stocks-chi.vercel.app/profile.html?stock=AMIC">Full profile — AMIC →</a>
+</div>
+
+<div class="topbar">
+  <h1>How the forging business actually works</h1>
+  <div class="sub">An industry primer for Amic Forging — why anyone forges at all, the two machines that split the industry, and where every watchlist name in the sector actually sits</div>
+  <div class="meta">Built 25-Aug-2026 · Sourced from Amic's 329-page RHP and FY24/FY25 annual reports, downloaded and text-extracted for this page · Companion to <strong>Company Profiles/AMIC.md</strong></div>
+</div>
+
+<p class="lede">This page explains the <strong>industry</strong>, not the investment case. What follows is the mechanism: why a load-bearing part gets forged rather than cut or cast, the difference between the two machines that both get called "forging", what Amic's own line does step by step — and then a map placing all eight watchlist names in this sector onto the process each one actually uses. <strong>Several of them do not belong on the forging spine at all, and the page says so rather than forcing them onto it.</strong></p>
+
+<div class="box warn">
+<h4>How to read this</h4>
+<p style="margin:6px 0"><span class="tag fact">FACT</span> Unmarked claims about Amic come from its own RHP and annual reports, with the source named in grey. <strong>Claims about the other seven companies come from their watchlist profiles</strong>, and say so — those profiles are themselves transcript-grounded, but I did not re-read each company's filings for this page.</p>
+<p style="margin:6px 0"><span class="tag inf">MY INFERENCE</span> The process map in §5 and the batch/weight map in §6 are my framing. No company publishes a chart like either.</p>
+<p style="margin:6px 0; color:#5a6a78; font-size:13.5px"><strong>Sourcing note:</strong> Amic is a BSE-SME that reports half-yearly and holds no earnings calls, so there are no transcripts. The primary documents are the RHP, the annual reports and the half-yearly filings — all of which were fetched and read for this page.</p>
+</div>
+
+<div class="toc">
+<strong>Contents</strong>
+<ol>
+<li><a href="#s1">Why forge at all — the grain-flow argument</a></li>
+<li><a href="#s2">Two machines, one word — open die versus closed die</a></li>
+<li><a href="#s3">Amic's line, end to end</a></li>
+<li><a href="#s4">What Amic makes, and who actually buys it</a></li>
+<li><a href="#s5">The sector map — where all eight names really sit</a></li>
+<li><a href="#s6">Why they don't compete — batch size against part weight</a></li>
+<li><a href="#s7">The value ladder — from billet to certified part</a></li>
+<li><a href="#s8">Capacity and the utilisation record</a></li>
+<li><a href="#s9">The label versus the reality</a></li>
+<li><a href="#s10">Reading the industry through the numbers</a></li>
+<li><a href="#s11">What is not disclosed</a></li>
+<li><a href="#s12">Glossary</a></li>
+</ol>
+</div>
+
+<h2 id="s1"><span class="n">1.</span> Why forge at all — the grain-flow argument</h2>
+
+<p>Steel is not uniform inside. Rolling and solidification leave it with a directional structure — a "grain" — and a part fails along that structure long before it fails across it. There are three ways to get a shape, and they treat the grain completely differently.</p>
+
+<p><strong>Forging deforms hot metal so the grain flows around the finished shape.</strong> Machining from a solid bar cuts straight through it, leaving exposed grain ends where stress concentrates. Casting has no directional grain at all, plus porosity risk. That single difference is why a refinery, a wind turbine or a nuclear pressure boundary specifies a forged part and will not accept a cheaper substitute.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 330" role="img" aria-label="Three ways to make a shape: forging follows the grain around the part, machining cuts through the grain, casting has no directional grain. Forging is specified for load-bearing parts.">
+  <text class="t-md" x="150" y="34" text-anchor="middle">FORGED</text>
+  <text class="t-sm t-mut" x="150" y="52" text-anchor="middle">hot metal deformed to shape</text>
+  <path d="M60,90 h180 v40 h-60 v70 h-60 v-70 h-60 z" fill="#eaf2fb" stroke="#2E75B6" stroke-width="2"/>
+  <g stroke="#2E75B6" stroke-width="1.2" fill="none" opacity=".85">
+    <path d="M60,100 h180"/><path d="M60,112 h180"/><path d="M60,124 h180"/>
+    <path d="M120,136 h60"/><path d="M120,150 h60"/><path d="M120,164 h60"/><path d="M120,178 h60"/><path d="M120,192 h60"/>
+  </g>
+  <text class="t" x="150" y="228" text-anchor="middle" fill="#1F4E79">Grain follows the shape</text>
+  <text class="t-sm t-mut" x="150" y="248" text-anchor="middle">strongest along the load path;</text>
+  <text class="t-sm t-mut" x="150" y="264" text-anchor="middle">best fatigue life</text>
+
+  <text class="t-md" x="480" y="34" text-anchor="middle">MACHINED FROM BAR</text>
+  <text class="t-sm t-mut" x="480" y="52" text-anchor="middle">cut away from solid stock</text>
+  <path d="M390,90 h180 v40 h-60 v70 h-60 v-70 h-60 z" fill="#f7fafc" stroke="currentColor" stroke-width="2"/>
+  <g stroke="#b3261e" stroke-width="1.2" fill="none" opacity=".8">
+    <path d="M390,100 h180"/><path d="M390,112 h180"/><path d="M390,124 h180"/>
+    <path d="M390,136 h180"/><path d="M390,150 h180"/><path d="M390,164 h180"/><path d="M390,178 h180"/><path d="M390,192 h180"/>
+  </g>
+  <path d="M390,90 h180 v40 h-60 v70 h-60 v-70 h-60 z" fill="none" stroke="currentColor" stroke-width="2"/>
+  <text class="t" x="480" y="228" text-anchor="middle" fill="#b3261e">Grain is cut through</text>
+  <text class="t-sm t-mut" x="480" y="248" text-anchor="middle">exposed grain ends at every</text>
+  <text class="t-sm t-mut" x="480" y="264" text-anchor="middle">shoulder; more waste too</text>
+
+  <text class="t-md" x="810" y="34" text-anchor="middle">CAST</text>
+  <text class="t-sm t-mut" x="810" y="52" text-anchor="middle">melted and poured</text>
+  <path d="M720,90 h180 v40 h-60 v70 h-60 v-70 h-60 z" fill="#f4f4f4" stroke="currentColor" stroke-width="2"/>
+  <g fill="none" stroke="currentColor" stroke-width="1" opacity=".55">
+    <circle cx="760" cy="105" r="4"/><circle cx="820" cy="118" r="5"/><circle cx="870" cy="102" r="3"/>
+    <circle cx="742" cy="120" r="3"/><circle cx="800" cy="160" r="4"/><circle cx="760" cy="185" r="3"/>
+    <circle cx="840" cy="112" r="3"/><circle cx="790" cy="105" r="3"/>
+  </g>
+  <text class="t" x="810" y="228" text-anchor="middle">No directional grain</text>
+  <text class="t-sm t-mut" x="810" y="248" text-anchor="middle">cheapest for complex shapes;</text>
+  <text class="t-sm t-mut" x="810" y="264" text-anchor="middle">porosity is the risk</text>
+
+  <rect x="60" y="286" width="840" height="34" rx="6" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.2"/>
+  <text class="t" x="80" y="308" fill="#a2650a">This is why a customer <tspan font-weight="700">specifies</tspan> forging rather than shopping on price: for a pressure boundary or a rotating shaft, the other two routes are not substitutes.</text>
+</svg>
+<figcaption><strong>Forging is not a cheaper way to make a part — it is a stronger one, and the customer's specification is what creates the demand.</strong> Amic's own framing is the same: components in a nuclear pressure boundary, a coker unit, a kiln drive shaft or a turbine runner "need to be forged (not machined from bar or cast) because forging aligns the metal's grain to withstand extreme pressure, temperature, and cyclic stress." <span class="src">Amic's RHP industry section describes the three techniques (open die, closed die, ring forging) and notes open die is preferred for "less material waste, better fatigue resistance… continuous grain flow, and finer grain size". Grain-flow behaviour is standard metallurgy, drawn schematically.</span></figcaption>
+</figure>
+
+<h2 id="s2"><span class="n">2.</span> Two machines, one word — open die versus closed die</h2>
+
+<p>Here is the distinction that does the most work on this page, and the one most easily missed because both are called "forging".</p>
+
+<p><strong>Closed die</strong> puts the hot billet between two shaped dies that enclose it and squeeze. You get a repeatable near-net shape at high speed — but you need a die for every part, so it only pays at volume. <strong>Open die</strong> hammers the billet between simple flat or shaped tools while a manipulator turns and moves it. Nothing encloses the workpiece. It is slower and needs a skilled operator, but it needs no part-specific die at all — so it can make one of something, and it can make something very large.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 380" role="img" aria-label="Open die forging uses a hammer and manipulator with no enclosing die and suits one-off large parts; closed die forging uses matched dies in a press for repeatable high-volume parts.">
+  <rect x="20" y="24" width="450" height="296" rx="9" fill="#eaf2fb" stroke="#2E75B6" stroke-width="2"/>
+  <text class="t-lg" x="42" y="54" fill="#1F4E79">OPEN DIE — what Amic runs</text>
+
+  <rect x="150" y="78" width="190" height="26" rx="3" fill="#dbe6f0" stroke="currentColor" stroke-width="1.6"/>
+  <text class="t-sm" x="245" y="96" text-anchor="middle">hammer / top tool</text>
+  <path d="M245,110 v18" stroke="#b3261e" stroke-width="2.5" marker-end="url(#a2arrow)"/>
+  <defs>
+    <marker id="a2arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b3261e"/>
+    </marker>
+  </defs>
+  <ellipse cx="245" cy="146" rx="72" ry="16" fill="#ffb37a" stroke="#a2650a" stroke-width="1.6"/>
+  <rect x="150" y="164" width="190" height="24" rx="3" fill="#dbe6f0" stroke="currentColor" stroke-width="1.6"/>
+  <text class="t-sm" x="245" y="182" text-anchor="middle">anvil / bottom tool</text>
+  <rect x="60" y="130" width="76" height="32" rx="4" fill="#f7fafc" stroke="currentColor" stroke-width="1.4"/>
+  <text class="t-sm" x="98" y="150" text-anchor="middle">manipulator</text>
+  <path d="M138,146 h8" stroke="currentColor" stroke-width="2"/>
+  <path d="M352,132 a20,20 0 0 1 0,28" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <text class="t-sm t-mut" x="366" y="142">turned between</text>
+  <text class="t-sm t-mut" x="366" y="158">blows</text>
+
+  <text class="t" x="42" y="222">· <tspan font-weight="700">No part-specific die.</tspan> The same tools make any shape.</text>
+  <text class="t" x="42" y="246">· Economic at <tspan font-weight="700">one piece</tspan>. Small and mid batches, bespoke specs.</text>
+  <text class="t" x="42" y="270">· Suits <tspan font-weight="700">large, heavy</tspan> components — shafts, shells, tube sheets.</text>
+  <text class="t" x="42" y="294">· Skill-intensive; cycle times are long and margin is per job.</text>
+
+  <rect x="490" y="24" width="450" height="296" rx="9" fill="#f7fafc" stroke="currentColor" stroke-width="1.4"/>
+  <text class="t-lg" x="512" y="54">CLOSED DIE — what Happy Forgings runs</text>
+
+  <rect x="620" y="78" width="190" height="34" rx="3" fill="#dbe6f0" stroke="currentColor" stroke-width="1.6"/>
+  <path d="M660,112 h30 l12,18 h56 l12,-18 h30" fill="#dbe6f0" stroke="currentColor" stroke-width="1.6"/>
+  <text class="t-sm" x="715" y="98" text-anchor="middle">top die (shaped)</text>
+  <ellipse cx="715" cy="140" rx="52" ry="10" fill="#ffb37a" stroke="#a2650a" stroke-width="1.6"/>
+  <path d="M660,168 h30 l12,-18 h56 l12,18 h30" fill="#dbe6f0" stroke="currentColor" stroke-width="1.6"/>
+  <rect x="620" y="168" width="190" height="26" rx="3" fill="#dbe6f0" stroke="currentColor" stroke-width="1.6"/>
+  <text class="t-sm" x="715" y="188" text-anchor="middle">bottom die (shaped)</text>
+  <text class="t-sm t-mut" x="530" y="140">billet fully</text>
+  <text class="t-sm t-mut" x="530" y="156">enclosed</text>
+
+  <text class="t" x="512" y="222">· <tspan font-weight="700">One die set per part.</tspan> Tooling must be paid for before volume.</text>
+  <text class="t" x="512" y="246">· Economic at <tspan font-weight="700">thousands to millions</tspan> of identical pieces.</text>
+  <text class="t" x="512" y="270">· Near-net shape, so less machining afterwards.</text>
+  <text class="t" x="512" y="294">· Presses up to <tspan font-weight="700">14,000 tonnes</tspan> at Happy; parts 250kg–3t.</text>
+
+  <rect x="20" y="336" width="920" height="34" rx="6" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.2"/>
+  <text class="t" x="40" y="358" fill="#a2650a">Same word, different businesses: <tspan font-weight="700">Amic sells engineering capability job by job; Happy sells repeatability at volume.</tspan> They rarely bid for the same order.</text>
+</svg>
+<figcaption><strong>The machine determines the business model.</strong> Amic's plant is built around a <strong>6 metric-tonne electro-hydraulic hammer and a 1 MT pneumatic hammer, each worked with a manipulator</strong> — the classic open-die configuration. Happy's is built around presses up to 14,000 tonnes. Amic's own profile puts the positioning plainly: it "operates below the tonnage where Bharat Forge / Happy Forgings compete on unit cost, but above the level where garage-shops operate on price." <span class="src">Amic equipment from the RHP ("Our Business", p.112 and the machinery list, p.120). Happy's press tonnage and part-weight range from the HAPPY profile §1. The open/closed-die distinction is from the RHP's own industry section.</span></figcaption>
+</figure>
+
+<h2 id="s3"><span class="n">3.</span> Amic's line, end to end</h2>
+
+<p>The RHP prints Amic's own process flow chart. What follows is that flow with the named equipment attached, because the equipment is what makes the claims about capability checkable.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 430" role="img" aria-label="Amic's process flow: order, raw material procurement, chemical and ultrasonic inspection, cutting, heating, hammer forging with manipulator, annealing and normalising, heat treatment with quenching, machining, final inspection and dispatch.">
+  <defs>
+    <marker id="a3a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <rect x="20"  y="34" width="212" height="58" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="126" y="58" text-anchor="middle">Order received</text>
+  <text class="t-sm t-mut" x="126" y="77" text-anchor="middle">bespoke spec, per job</text>
+
+  <rect x="252" y="34" width="212" height="58" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="358" y="58" text-anchor="middle">Raw material</text>
+  <text class="t-sm t-mut" x="358" y="77" text-anchor="middle">carbon / alloy / stainless / nickel</text>
+
+  <rect x="484" y="34" width="212" height="58" rx="7" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.8"/>
+  <text class="t-md" x="590" y="58" text-anchor="middle" fill="#1F4E79">Incoming inspection</text>
+  <text class="t-sm" x="590" y="77" text-anchor="middle" fill="#1F4E79">chemical + ultrasonic</text>
+
+  <rect x="716" y="34" width="224" height="58" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="828" y="58" text-anchor="middle">Cutting &amp; heating</text>
+  <text class="t-sm t-mut" x="828" y="77" text-anchor="middle">3 oil-fired temp-controlled furnaces</text>
+
+  <line x1="234" y1="63" x2="248" y2="63" stroke="currentColor" stroke-width="1.6" marker-end="url(#a3a)"/>
+  <line x1="466" y1="63" x2="480" y2="63" stroke="currentColor" stroke-width="1.6" marker-end="url(#a3a)"/>
+  <line x1="698" y1="63" x2="712" y2="63" stroke="currentColor" stroke-width="1.6" marker-end="url(#a3a)"/>
+  <path d="M828,94 V116 H126 V134" fill="none" stroke="currentColor" stroke-width="1.4" stroke-dasharray="5 4" marker-end="url(#a3a)"/>
+
+  <rect x="20"  y="138" width="212" height="64" rx="7" fill="#eaf2fb" stroke="#2E75B6" stroke-width="2"/>
+  <text class="t-md" x="126" y="162" text-anchor="middle" fill="#1F4E79">FORGING</text>
+  <text class="t-sm" x="126" y="180" text-anchor="middle" fill="#1F4E79">6 MT electro-hydraulic hammer</text>
+  <text class="t-sm" x="126" y="196" text-anchor="middle" fill="#1F4E79">+ 1 MT pneumatic, w/ manipulator</text>
+
+  <rect x="252" y="138" width="212" height="64" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="358" y="162" text-anchor="middle">Annealing / normalising</text>
+  <text class="t-sm t-mut" x="358" y="181" text-anchor="middle">relieves stress, refines grain</text>
+
+  <rect x="484" y="138" width="212" height="64" rx="7" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.8"/>
+  <text class="t-md" x="590" y="158" text-anchor="middle" fill="#1F4E79">Heat treatment plant</text>
+  <text class="t-sm" x="590" y="176" text-anchor="middle" fill="#1F4E79">oil bogie hearth furnace,</text>
+  <text class="t-sm" x="590" y="192" text-anchor="middle" fill="#1F4E79">water &amp; oil quenching</text>
+
+  <rect x="716" y="138" width="224" height="64" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="828" y="162" text-anchor="middle">Machine shop</text>
+  <text class="t-sm t-mut" x="828" y="181" text-anchor="middle">the part leaves finished, not raw</text>
+
+  <line x1="234" y1="170" x2="248" y2="170" stroke="currentColor" stroke-width="1.6" marker-end="url(#a3a)"/>
+  <line x1="466" y1="170" x2="480" y2="170" stroke="currentColor" stroke-width="1.6" marker-end="url(#a3a)"/>
+  <line x1="698" y1="170" x2="712" y2="170" stroke="currentColor" stroke-width="1.6" marker-end="url(#a3a)"/>
+  <path d="M828,204 V226 H126 V244" fill="none" stroke="currentColor" stroke-width="1.4" stroke-dasharray="5 4" marker-end="url(#a3a)"/>
+
+  <rect x="20"  y="248" width="212" height="58" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="126" y="272" text-anchor="middle">In-process inspection</text>
+  <text class="t-sm t-mut" x="126" y="291" text-anchor="middle">recorded against QAR docs</text>
+
+  <rect x="252" y="248" width="212" height="58" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="358" y="272" text-anchor="middle">Final re-inspection</text>
+  <text class="t-sm t-mut" x="358" y="291" text-anchor="middle">non-conforming → rework</text>
+
+  <rect x="484" y="248" width="212" height="58" rx="7" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.6"/>
+  <text class="t-md" x="590" y="272" text-anchor="middle" fill="#1a6f4a">Dispatch</text>
+  <text class="t-sm" x="590" y="291" text-anchor="middle" fill="#1a6f4a">finished, tested component</text>
+
+  <line x1="234" y1="277" x2="248" y2="277" stroke="currentColor" stroke-width="1.6" marker-end="url(#a3a)"/>
+  <line x1="466" y1="277" x2="480" y2="277" stroke="currentColor" stroke-width="1.6" marker-end="url(#a3a)"/>
+
+  <rect x="716" y="240" width="224" height="74" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.3"/>
+  <text class="t-md" x="736" y="264" fill="#a2650a">80 people</text>
+  <text class="t-sm" x="736" y="286">56 permanent + 24 contract</text>
+  <text class="t-sm t-mut" x="736" y="304">at 30-Jun-2023, per the RHP</text>
+
+  <rect x="20" y="336" width="920" height="82" rx="8" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.4"/>
+  <text class="t-md" x="40" y="362" fill="#1F4E79">The point of doing all of it in one place</text>
+  <text class="t" x="40" y="386">Forging, heat treatment and machining sit under one roof, so <tspan font-weight="700">the customer receives a finished, tested part rather than a raw forging</tspan> that</text>
+  <text class="t" x="40" y="406">has to be shipped elsewhere for finishing. For a bespoke one-off component, that removes a supplier interface, a freight leg and a quality argument.</text>
+</svg>
+<figcaption><strong>Two inspection gates and a heat-treatment plant are what separate this from a jobbing forge.</strong> The ultrasonic check happens on the incoming material — before any work is done — and again on the finished part; for a pressure-boundary component that documentation is part of what the customer is buying. <span class="src">Process flow reproduced from the RHP's "Manufacturing Process Flow Chart" (p.117); equipment from "Our Business" (p.112) and the machinery list (p.120); headcount from the RHP (p.118). The single-facility integration point is Amic's own claim, carried in the profile.</span></figcaption>
+</figure>
+
+<h2 id="s4"><span class="n">4.</span> What Amic makes, and who actually buys it</h2>
+
+<p>This is the section that reframes the company. Amic's RHP lists ten products with photographs. <strong>Not one of them is an automotive part.</strong></p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 400" role="img" aria-label="Amic's ten RHP-listed products mapped to their end markets: wind energy, nuclear power, oil and gas refining, heat exchangers, pressure vessels and general capital goods. None are automotive.">
+  <defs>
+    <marker id="a4a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <text class="t-md" x="20" y="32">Products, as listed in the RHP</text>
+  <text class="t-md" x="640" y="32">Where they end up</text>
+
+  <rect x="20" y="46" width="230" height="30" rx="5" fill="#f4f7fa" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t" x="34" y="66">Main shaft for wind energy</text>
+  <rect x="20" y="82" width="230" height="30" rx="5" fill="#f4f7fa" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t" x="34" y="102">Trunnion for nuclear power plant</text>
+  <rect x="20" y="118" width="230" height="30" rx="5" fill="#f4f7fa" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t" x="34" y="138">Nozzle for oil &amp; gas</text>
+  <rect x="20" y="154" width="230" height="30" rx="5" fill="#f4f7fa" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t" x="34" y="174">Tube sheet · drum tube sheet</text>
+  <rect x="20" y="190" width="230" height="30" rx="5" fill="#f4f7fa" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t" x="34" y="210">Channel cover</text>
+  <rect x="20" y="226" width="230" height="30" rx="5" fill="#f4f7fa" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t" x="34" y="246">Forged shell · forged neck</text>
+  <rect x="20" y="262" width="230" height="30" rx="5" fill="#f4f7fa" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t" x="34" y="282">Casting mould</text>
+  <rect x="20" y="298" width="230" height="30" rx="5" fill="#f4f7fa" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t" x="34" y="318">Wheel</text>
+
+  <path d="M254,61 H420" stroke="currentColor" stroke-width="1.3" marker-end="url(#a4a)"/>
+  <path d="M254,97 H420" stroke="currentColor" stroke-width="1.3" marker-end="url(#a4a)"/>
+  <path d="M254,133 H420" stroke="currentColor" stroke-width="1.3" marker-end="url(#a4a)"/>
+  <path d="M254,169 C330,169 340,196 420,199" fill="none" stroke="currentColor" stroke-width="1.3" marker-end="url(#a4a)"/>
+  <path d="M254,205 C330,205 350,200 420,201" fill="none" stroke="currentColor" stroke-width="1.3" marker-end="url(#a4a)"/>
+  <path d="M254,241 C330,241 350,244 420,241" fill="none" stroke="currentColor" stroke-width="1.3" marker-end="url(#a4a)"/>
+  <path d="M254,277 C330,277 350,290 420,293" fill="none" stroke="currentColor" stroke-width="1.3" marker-end="url(#a4a)"/>
+  <path d="M254,313 C330,313 350,298 420,295" fill="none" stroke="currentColor" stroke-width="1.3" marker-end="url(#a4a)"/>
+
+  <rect x="424" y="46" width="216" height="30" rx="5" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.4"/>
+  <text class="t" x="438" y="66" fill="#1a6f4a">Wind turbines</text>
+  <rect x="424" y="82" width="216" height="30" rx="5" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.4"/>
+  <text class="t" x="438" y="102" fill="#1a6f4a">Nuclear power plants</text>
+  <rect x="424" y="118" width="216" height="30" rx="5" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.4"/>
+  <text class="t" x="438" y="138" fill="#1a6f4a">Refineries &amp; petrochemicals</text>
+  <rect x="424" y="184" width="216" height="32" rx="5" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.4"/>
+  <text class="t" x="438" y="205" fill="#1a6f4a">Heat exchangers &amp; boilers</text>
+  <rect x="424" y="226" width="216" height="32" rx="5" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.4"/>
+  <text class="t" x="438" y="247" fill="#1a6f4a">Pressure vessels</text>
+  <rect x="424" y="278" width="216" height="32" rx="5" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.4"/>
+  <text class="t" x="438" y="299" fill="#1a6f4a">Capital goods &amp; heavy plant</text>
+
+  <rect x="676" y="46" width="264" height="264" rx="9" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.6"/>
+  <text class="t-md" x="698" y="76" fill="#b3261e">What is missing from that list</text>
+  <text class="t" x="698" y="106" fill="#b3261e">No crankshafts. No connecting rods.</text>
+  <text class="t" x="698" y="126" fill="#b3261e">No axle beams. No steering knuckles.</text>
+  <text class="t" x="698" y="146" fill="#b3261e">No gears. No bearings.</text>
+  <text class="t" x="698" y="180" fill="#b3261e"><tspan font-weight="700">Nothing that goes into a vehicle.</tspan></text>
+  <text class="t-sm" x="698" y="212">Amic's demand cycle is the capital-</text>
+  <text class="t-sm" x="698" y="230">expenditure cycle of refineries, power</text>
+  <text class="t-sm" x="698" y="248">plants and wind farms — which moves on</text>
+  <text class="t-sm" x="698" y="266">an entirely different clock from monthly</text>
+  <text class="t-sm" x="698" y="284">auto sales volumes.</text>
+
+  <rect x="20" y="346" width="920" height="44" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.3"/>
+  <text class="t" x="40" y="372" fill="#a2650a">The RHP's own market data agrees that this is the smaller path: it notes India's forging industry is weighted to <tspan font-weight="700">closed-die automotive</tspan> work, with aerospace, railway and industrial machinery behind it.</text>
+</svg>
+<figcaption><strong>Amic is a capital-goods and energy supplier that happens to use a forging process, sitting in a sector folder named after cars.</strong> That is not a filing error so much as a taxonomy artefact — but it changes what you should watch. Auto production numbers tell you very little about this company; refinery turnarounds, wind installations and nuclear ordering tell you a great deal. <span class="src">Product list verbatim from the RHP's "Our Products" table (pp.113–114); end-market mapping is mine, based on what each named component is used for. Industry weighting from the RHP's own industry section.</span></figcaption>
+</figure>
+
+<h2 id="s5"><span class="n">5.</span> The sector map — where all eight names really sit</h2>
+
+<p>Sector 3 on the watchlist is called "Auto Components &amp; Forgings" and holds eight companies. Organised by <strong>how the metal actually gets its shape</strong>, they scatter across five different stations — and that scattering explains why they rarely compete, why their capex looks so different, and why their margins are not comparable.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 486" role="img" aria-label="Five metal-forming stations with the eight sector companies placed: hot forging holds Amic, Happy and Sansera; casting holds SSWL alloy wheels; sheet forming holds SSWL and Wheels India; subtractive holds OBSC, Sunita and part of Wheels India; precision rolling-element holds NRB. An outer ring shows three aerospace names that consume this output.">
+  <rect x="14" y="26" width="180" height="46" rx="7" fill="#1F4E79"/>
+  <text class="t-md" x="104" y="47" text-anchor="middle" fill="#ffffff">HOT FORGING</text>
+  <text class="t-sm" x="104" y="64" text-anchor="middle" fill="#dbe6f0">deform a heated billet</text>
+  <rect x="202" y="26" width="180" height="46" rx="7" fill="#4a7ca8"/>
+  <text class="t-md" x="292" y="47" text-anchor="middle" fill="#ffffff">CASTING</text>
+  <text class="t-sm" x="292" y="64" text-anchor="middle" fill="#eaf2fb">melt and pour</text>
+  <rect x="390" y="26" width="180" height="46" rx="7" fill="#4a7ca8"/>
+  <text class="t-md" x="480" y="47" text-anchor="middle" fill="#ffffff">SHEET FORMING</text>
+  <text class="t-sm" x="480" y="64" text-anchor="middle" fill="#eaf2fb">press, roll, weld</text>
+  <rect x="578" y="26" width="180" height="46" rx="7" fill="#4a7ca8"/>
+  <text class="t-md" x="668" y="47" text-anchor="middle" fill="#ffffff">SUBTRACTIVE</text>
+  <text class="t-sm" x="668" y="64" text-anchor="middle" fill="#eaf2fb">cut a bought blank</text>
+  <rect x="766" y="26" width="180" height="46" rx="7" fill="#4a7ca8"/>
+  <text class="t-md" x="856" y="42" text-anchor="middle" fill="#ffffff">ROLLING-ELEMENT</text>
+  <text class="t-sm" x="856" y="58" text-anchor="middle" fill="#eaf2fb">cold form, then grind</text>
+  <text class="t-sm" x="856" y="70" text-anchor="middle" fill="#eaf2fb">to microns</text>
+
+  <rect x="14" y="80" width="180" height="256" rx="7" fill="#f7fafc" stroke="currentColor" stroke-width="1"/>
+  <rect x="202" y="80" width="180" height="256" rx="7" fill="#f7fafc" stroke="currentColor" stroke-width="1"/>
+  <rect x="390" y="80" width="180" height="256" rx="7" fill="#f7fafc" stroke="currentColor" stroke-width="1"/>
+  <rect x="578" y="80" width="180" height="256" rx="7" fill="#f7fafc" stroke="currentColor" stroke-width="1"/>
+  <rect x="766" y="80" width="180" height="256" rx="7" fill="#f7fafc" stroke="currentColor" stroke-width="1"/>
+
+  <rect x="24" y="90" width="160" height="62" rx="6" fill="#eaf2fb" stroke="#2E75B6" stroke-width="2.4"/>
+  <text class="t-md" x="104" y="112" text-anchor="middle" fill="#1F4E79">AMIC</text>
+  <text class="t-sm" x="104" y="129" text-anchor="middle" fill="#1F4E79">open die · 6 MT hammer</text>
+  <text class="t-sm" x="104" y="144" text-anchor="middle" fill="#1F4E79">one-off &amp; small batch</text>
+
+  <rect x="24" y="160" width="160" height="62" rx="6" fill="#ffffff" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="104" y="182" text-anchor="middle">HAPPY</text>
+  <text class="t-sm t-mut" x="104" y="199" text-anchor="middle">closed die · presses</text>
+  <text class="t-sm t-mut" x="104" y="214" text-anchor="middle">to 14,000 tonnes</text>
+
+  <rect x="24" y="230" width="160" height="62" rx="6" fill="#ffffff" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="104" y="252" text-anchor="middle">SANSERA</text>
+  <text class="t-sm t-mut" x="104" y="269" text-anchor="middle">precision forging +</text>
+  <text class="t-sm t-mut" x="104" y="284" text-anchor="middle">machining, integrated</text>
+
+  <rect x="212" y="90" width="160" height="62" rx="6" fill="#ffffff" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="292" y="112" text-anchor="middle">SSWL</text>
+  <text class="t-sm t-mut" x="292" y="129" text-anchor="middle">alloy wheels are cast,</text>
+  <text class="t-sm t-mut" x="292" y="144" text-anchor="middle">not forged</text>
+  <text class="t-sm t-mut" x="292" y="180" text-anchor="middle">— and see the outer</text>
+  <text class="t-sm t-mut" x="292" y="196" text-anchor="middle">ring: DYNAMATIC runs</text>
+  <text class="t-sm t-mut" x="292" y="212" text-anchor="middle">its own foundry</text>
+
+  <rect x="400" y="90" width="160" height="62" rx="6" fill="#ffffff" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="480" y="112" text-anchor="middle">SSWL</text>
+  <text class="t-sm t-mut" x="480" y="129" text-anchor="middle">steel wheels: stamp,</text>
+  <text class="t-sm t-mut" x="480" y="144" text-anchor="middle">roll the rim, weld</text>
+
+  <rect x="400" y="160" width="160" height="62" rx="6" fill="#ffffff" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="480" y="182" text-anchor="middle">WHEELS</text>
+  <text class="t-sm t-mut" x="480" y="199" text-anchor="middle">steel &amp; alloy wheels</text>
+  <text class="t-sm t-mut" x="480" y="214" text-anchor="middle">for CV, tractor, off-road</text>
+
+  <rect x="588" y="90" width="160" height="62" rx="6" fill="#ffffff" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="668" y="112" text-anchor="middle">OBSC</text>
+  <text class="t-sm t-mut" x="668" y="129" text-anchor="middle">CNC, turning, grinding,</text>
+  <text class="t-sm t-mut" x="668" y="144" text-anchor="middle">coatings, heat treat</text>
+
+  <rect x="588" y="160" width="160" height="62" rx="6" fill="#ffffff" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="668" y="182" text-anchor="middle">SUNITA</text>
+  <text class="t-sm t-mut" x="668" y="199" text-anchor="middle">CNC, grinding, mould</text>
+  <text class="t-sm t-mut" x="668" y="214" text-anchor="middle">bases, plate machining</text>
+
+  <rect x="588" y="230" width="160" height="76" rx="6" fill="#ffffff" stroke="currentColor" stroke-width="1.3" stroke-dasharray="5 3"/>
+  <text class="t-md" x="668" y="250" text-anchor="middle">WHEELS</text>
+  <text class="t-sm t-mut" x="668" y="268" text-anchor="middle">also machines large wind</text>
+  <text class="t-sm t-mut" x="668" y="284" text-anchor="middle">castings — the customer</text>
+  <text class="t-sm t-mut" x="668" y="300" text-anchor="middle">supplies the metal</text>
+
+  <rect x="776" y="90" width="160" height="76" rx="6" fill="#ffffff" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="856" y="112" text-anchor="middle">NRBBEARING</text>
+  <text class="t-sm t-mut" x="856" y="129" text-anchor="middle">needle roller bearings</text>
+  <text class="t-sm t-mut" x="856" y="144" text-anchor="middle">— cold formed, then</text>
+  <text class="t-sm t-mut" x="856" y="159" text-anchor="middle">ground to microns</text>
+  <text class="t-sm" x="856" y="192" text-anchor="middle" fill="#b3261e">Not a forging business.</text>
+  <text class="t-sm t-mut" x="856" y="212" text-anchor="middle">The moat is being designed</text>
+  <text class="t-sm t-mut" x="856" y="228" text-anchor="middle">onto a platform 3–5 years</text>
+  <text class="t-sm t-mut" x="856" y="244" text-anchor="middle">before it launches.</text>
+
+  <rect x="14" y="352" width="932" height="118" rx="9" fill="#fbfbfc" stroke="currentColor" stroke-width="1.2" stroke-dasharray="7 5"/>
+  <text class="t-md" x="34" y="376">Outer ring — not in this sector, but they consume what these stations produce</text>
+  <rect x="34" y="390" width="280" height="64" rx="6" fill="#ffffff" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t-md" x="174" y="412" text-anchor="middle">AZAD</text>
+  <text class="t-sm t-mut" x="174" y="429" text-anchor="middle">machines forged and cast aero blanks</text>
+  <text class="t-sm t-mut" x="174" y="445" text-anchor="middle">into turbine and engine components</text>
+  <rect x="336" y="390" width="280" height="64" rx="6" fill="#ffffff" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t-md" x="476" y="412" text-anchor="middle">DYNAMATIC</text>
+  <text class="t-sm t-mut" x="476" y="429" text-anchor="middle">owns a foundry — it is a caster itself —</text>
+  <text class="t-sm t-mut" x="476" y="445" text-anchor="middle">plus airframe assembly and hydraulics</text>
+  <rect x="638" y="390" width="288" height="64" rx="6" fill="#ffffff" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t-md" x="782" y="412" text-anchor="middle">UNIMECH</text>
+  <text class="t-sm t-mut" x="782" y="429" text-anchor="middle">fabricates and machines tooling —</text>
+  <text class="t-sm t-mut" x="782" y="445" text-anchor="middle">equipment that builds engines, not parts</text>
+</svg>
+<figcaption><strong>Read the columns, not the sector name.</strong> Only three of the eight actually forge, and two of those three do it on a completely different machine from Amic. Two companies appear in more than one column — SSWL casts its alloy wheels and stamps its steel ones; Wheels India both forms wheels and runs a machine shop for large wind castings — which is honest rather than untidy: real companies straddle stations. <span class="src">Amic from its RHP. All other placements from the companies' watchlist profiles: HAPPY §1 (press tonnage), SANSERA §1, SSWL §1 (steel and aluminium wheel capacity), WHEELS §1 (wheels plus machining of large castings, customer-supplied material), OBSC §1, SUNITA §1, NRBBEARING §1. <span class="tag inf">MY INFERENCE</span> — the five-station structure and every placement on it are my framing.</span></figcaption>
+</figure>
+
+<div class="box red">
+<h4>The three placements I refused to force</h4>
+<p style="margin:8px 0"><strong>NRB Bearings is not a forging company.</strong> Needle rollers and races are cold-formed and then ground to tolerances measured in microns, with heat treatment in between. Putting it on the forging spine because it sits in the same sector folder would misdescribe both its capex and its moat — which is being designed into a platform years before launch, not tonnage capability.</p>
+<p style="margin:8px 0"><strong>SSWL and Wheels India are formers, not forgers.</strong> A steel wheel is stamped from sheet, its rim rolled, and the two welded — the metal never starts as a billet. An alloy wheel is cast. The economics are volume-and-metal-price economics, closer to a stamping plant than to a forge.</p>
+<p style="margin:8px 0"><strong>OBSC and Sunita remove metal rather than move it.</strong> Both buy a blank and add precision through machining, grinding, coating and heat treatment. That is a genuinely different business: lower metallurgical risk, lower capex per unit of output, and a customer conversation about tolerance and turnaround rather than about grain flow.</p>
+</div>
+
+<h2 id="s6"><span class="n">6.</span> Why they don't compete — batch size against part weight</h2>
+
+<p>Two variables settle almost every question about who can bid for what. <strong>How many do you need, and how heavy is each one?</strong> Plot the sector on those axes and the apparent overlap disappears.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 470" role="img" aria-label="Scatter map of batch size against part weight placing Amic in the heavy low-volume corner, Happy in heavy medium-volume, Sansera and the wheel makers in medium weight high volume, NRB in light very high volume, and OBSC and Sunita in light low-to-medium volume.">
+  <defs>
+    <marker id="a6a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+  <line x1="110" y1="400" x2="930" y2="400" stroke="currentColor" stroke-width="1.5" marker-end="url(#a6a)"/>
+  <line x1="110" y1="400" x2="110" y2="40" stroke="currentColor" stroke-width="1.5" marker-end="url(#a6a)"/>
+  <text class="t-sm t-mut" x="120" y="424">one-off</text>
+  <text class="t-sm t-mut" x="330" y="424" text-anchor="middle">tens</text>
+  <text class="t-sm t-mut" x="530" y="424" text-anchor="middle">thousands</text>
+  <text class="t-sm t-mut" x="730" y="424" text-anchor="middle">hundreds of thousands</text>
+  <text class="t-sm t-mut" x="920" y="424" text-anchor="end">millions</text>
+  <text class="t-md" x="520" y="450" text-anchor="middle">BATCH SIZE →</text>
+  <text class="t-sm t-mut" x="92" y="70" text-anchor="end">tonnes</text>
+  <text class="t-sm t-mut" x="92" y="180" text-anchor="end">100s of kg</text>
+  <text class="t-sm t-mut" x="92" y="290" text-anchor="end">kilograms</text>
+  <text class="t-sm t-mut" x="92" y="380" text-anchor="end">grams</text>
+  <text class="t-md" x="40" y="230" transform="rotate(-90 40 230)" text-anchor="middle">PART WEIGHT ↑</text>
+
+  <line x1="110" y1="230" x2="920" y2="230" stroke="currentColor" stroke-width="1" stroke-dasharray="5 6" opacity=".25"/>
+  <line x1="500" y1="46" x2="500" y2="400" stroke="currentColor" stroke-width="1" stroke-dasharray="5 6" opacity=".25"/>
+
+  <circle cx="185" cy="86" r="11" fill="#2E75B6"/>
+  <text class="t-md" x="204" y="82" fill="#1F4E79">AMIC</text>
+  <text class="t-sm t-mut" x="204" y="99">heavy, bespoke, one at a time</text>
+
+  <circle cx="470" cy="150" r="10" fill="#3d4b5c"/>
+  <text class="t-md" x="488" y="146">HAPPY</text>
+  <text class="t-sm t-mut" x="488" y="163">250 kg – 3 t, repeated</text>
+
+  <circle cx="700" cy="268" r="10" fill="#3d4b5c"/>
+  <text class="t-md" x="718" y="264">SANSERA</text>
+  <text class="t-sm t-mut" x="718" y="281">engine &amp; xEV parts at volume</text>
+
+  <circle cx="762" cy="238" r="10" fill="#3d4b5c"/>
+  <text class="t-md" x="608" y="222" text-anchor="end">SSWL · WHEELS</text>
+  <text class="t-sm t-mut" x="608" y="239" text-anchor="end">a wheel, millions of times</text>
+  <line x1="614" y1="232" x2="750" y2="237" stroke="currentColor" stroke-width="1" opacity=".5"/>
+
+  <circle cx="880" cy="352" r="10" fill="#3d4b5c"/>
+  <text class="t-md" x="866" y="332" text-anchor="end">NRBBEARING</text>
+  <text class="t-sm t-mut" x="866" y="349" text-anchor="end">small, precise, enormous volume</text>
+
+  <circle cx="300" cy="300" r="10" fill="#3d4b5c"/>
+  <text class="t-md" x="318" y="296">OBSC · SUNITA</text>
+  <text class="t-sm t-mut" x="318" y="313">machined from bought blanks</text>
+
+  <circle cx="235" cy="196" r="9" fill="none" stroke="#1a6f4a" stroke-width="2.2"/>
+  <text class="t-md" x="252" y="192" fill="#1a6f4a">UNIMECH</text>
+  <text class="t-sm" x="252" y="209" fill="#1a6f4a">tooling — often literally one</text>
+
+  <circle cx="380" cy="266" r="9" fill="none" stroke="#1a6f4a" stroke-width="2.2"/>
+  <text class="t-md" x="398" y="262" fill="#1a6f4a">AZAD</text>
+  <text class="t-sm" x="398" y="279" fill="#1a6f4a">low-volume aero components</text>
+
+  <rect x="560" y="52" width="360" height="30" rx="5" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.2"/>
+  <text class="t-sm" x="576" y="72" fill="#1F4E79">Amic's corner: no die can be amortised here, so open die wins</text>
+  <rect x="596" y="366" width="324" height="28" rx="5" fill="#f7fafc" stroke="currentColor" stroke-width="1.1"/>
+  <text class="t-sm t-mut" x="612" y="385">Down here, tooling and automation pay for themselves</text>
+
+  <text class="t-sm t-mut" x="110" y="466">Hollow green markers are the outer-ring aerospace names. Positions are qualitative — no company publishes batch-size data.</text>
+</svg>
+<figcaption><strong>The diagonal is the whole industry.</strong> As batch size rises, it becomes worth paying for a die, then for dedicated tooling, then for full automation — and the process migrates from open die to closed die to cold forming. Amic sits at the top-left corner where none of that investment can be recovered, which is precisely why an open-die shop can charge a premium there and why the volume players have no interest in the work. <span class="src"><span class="tag inf">MY INFERENCE</span> — the entire map is my framing. Part-weight anchors come from disclosure (Happy 250kg–3t; NRB needle rollers; Amic's shafts, shells and tube sheets); batch sizes are qualitative inferences from each business model, not reported data.</span></figcaption>
+</figure>
+
+<h2 id="s7"><span class="n">7.</span> The value ladder — from billet to certified part</h2>
+
+<p>A forging leaves the hammer worth a fraction of what the customer eventually pays. Everything after it — heat treatment, machining, testing, documentation — adds value on the same piece of metal, and where a company stops on that ladder is most of what determines its margin.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 360" role="img" aria-label="A four-step value ladder from raw billet through forged blank, heat treated, machined, to tested and certified part, showing that Amic and Happy both climb to the top of the ladder in-house.">
+  <defs>
+    <marker id="a7a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a6f4a"/>
+    </marker>
+  </defs>
+
+  <rect x="30"  y="250" width="164" height="56" rx="6" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="112" y="274" text-anchor="middle">Billet</text>
+  <text class="t-sm t-mut" x="112" y="292" text-anchor="middle">bought steel</text>
+
+  <rect x="214" y="200" width="164" height="56" rx="6" fill="#e8f0f8" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="296" y="224" text-anchor="middle">Forged blank</text>
+  <text class="t-sm t-mut" x="296" y="242" text-anchor="middle">shape + grain flow</text>
+
+  <rect x="398" y="150" width="164" height="56" rx="6" fill="#dbe8f4" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="480" y="174" text-anchor="middle">Heat treated</text>
+  <text class="t-sm t-mut" x="480" y="192" text-anchor="middle">hardness, toughness</text>
+
+  <rect x="582" y="100" width="164" height="56" rx="6" fill="#cfe0f0" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="664" y="124" text-anchor="middle">Machined</text>
+  <text class="t-sm t-mut" x="664" y="142" text-anchor="middle">to final tolerance</text>
+
+  <rect x="766" y="50" width="170" height="56" rx="6" fill="#eaf2fb" stroke="#2E75B6" stroke-width="2.2"/>
+  <text class="t-md" x="851" y="74" text-anchor="middle" fill="#1F4E79">Tested &amp; certified</text>
+  <text class="t-sm" x="851" y="92" text-anchor="middle" fill="#1F4E79">ultrasonic + documentation</text>
+
+  <path d="M196,262 L212,232" stroke="currentColor" stroke-width="1.4"/>
+  <path d="M380,212 L396,182" stroke="currentColor" stroke-width="1.4"/>
+  <path d="M564,162 L580,132" stroke="currentColor" stroke-width="1.4"/>
+  <path d="M748,112 L764,82" stroke="currentColor" stroke-width="1.4"/>
+
+  <path d="M40,324 H930" stroke="#1a6f4a" stroke-width="1.8" marker-end="url(#a7a)"/>
+  <text class="t-sm" x="40" y="344" fill="#1a6f4a">same piece of metal</text>
+  <text class="t-sm" x="920" y="344" text-anchor="end" fill="#1a6f4a">more value captured →</text>
+
+  <rect x="30" y="26" width="330" height="150" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.3"/>
+  <text class="t-md" x="50" y="52" fill="#a2650a">Where each company stops</text>
+  <text class="t-sm" x="50" y="78"><tspan font-weight="700">AMIC</tspan> — climbs to the top in one facility:</text>
+  <text class="t-sm" x="50" y="96">forge, heat treat, machine, test, dispatch.</text>
+  <text class="t-sm" x="50" y="120"><tspan font-weight="700">HAPPY</tspan> — same logic, different scale: a forged</text>
+  <text class="t-sm" x="50" y="138">crankshaft sells for one price, a fully machined</text>
+  <text class="t-sm" x="50" y="156">one for <tspan font-weight="700">three to four times as much</tspan>.</text>
+</svg>
+<figcaption><strong>"We do the machining too" is the most important sentence in a forger's disclosure.</strong> It is the difference between selling a blank into someone else's supply chain and selling a finished component to the end user — and both Amic and Happy make exactly that claim, at opposite ends of the batch-size range. <span class="src">Amic's integrated forge-to-machining workflow from the RHP and profile §1; Happy's 3–4x machining uplift from the HAPPY profile §1. The ladder itself is my framing.</span></figcaption>
+</figure>
+
+<h2 id="s8"><span class="n">8.</span> Capacity and the utilisation record</h2>
+
+<p>Amic's RHP prints three years of installed capacity against actual production — an unusually clean disclosure, and the one place where the growth story is checkable against physical output rather than revenue.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 330" role="img" aria-label="Bar chart of Amic installed capacity versus production in tonnes: FY21 6,300 installed and 3,961 produced at 62.9 percent; FY22 12,600 and 8,991 at 71.4 percent; FY23 12,600 and 10,695 at 84.9 percent.">
+  <line x1="90" y1="250" x2="920" y2="250" stroke="currentColor" stroke-width="1.2"/>
+  <rect x="150" y="152" width="90" height="98" rx="3" fill="#cfdcea"/>
+  <rect x="248" y="188" width="90" height="62" rx="3" fill="#2E75B6"/>
+  <rect x="420" y="54"  width="90" height="196" rx="3" fill="#cfdcea"/>
+  <rect x="518" y="110" width="90" height="140" rx="3" fill="#2E75B6"/>
+  <rect x="690" y="54"  width="90" height="196" rx="3" fill="#cfdcea"/>
+  <rect x="788" y="84"  width="90" height="166" rx="3" fill="#2E75B6"/>
+
+  <text class="t-sm t-mut" x="195" y="144" text-anchor="middle">6,300</text>
+  <text class="t-md" x="293" y="180" text-anchor="middle" fill="#1F4E79">3,961</text>
+  <text class="t-sm t-mut" x="465" y="46" text-anchor="middle">12,600</text>
+  <text class="t-md" x="563" y="102" text-anchor="middle" fill="#1F4E79">8,991</text>
+  <text class="t-sm t-mut" x="735" y="46" text-anchor="middle">12,600</text>
+  <text class="t-md" x="833" y="76" text-anchor="middle" fill="#1F4E79">10,695</text>
+
+  <text class="t-md" x="244" y="272" text-anchor="middle">FY21</text>
+  <text class="t-md" x="514" y="272" text-anchor="middle">FY22</text>
+  <text class="t-md" x="784" y="272" text-anchor="middle">FY23</text>
+  <text class="t-md" x="244" y="294" text-anchor="middle" fill="#1a6f4a">62.9%</text>
+  <text class="t-md" x="514" y="294" text-anchor="middle" fill="#1a6f4a">71.4%</text>
+  <text class="t-md" x="784" y="294" text-anchor="middle" fill="#1a6f4a">84.9%</text>
+
+  <rect x="90" y="46" width="44" height="14" rx="3" fill="#cfdcea"/>
+  <text class="t-sm t-mut" x="90" y="76">installed</text>
+  <text class="t-sm t-mut" x="90" y="92">capacity (MT)</text>
+  <rect x="90" y="110" width="44" height="14" rx="3" fill="#2E75B6"/>
+  <text class="t-sm" x="90" y="140" fill="#1F4E79">production</text>
+  <text class="t-sm" x="90" y="156" fill="#1F4E79">(MT)</text>
+
+  <text class="t-sm t-mut" x="90" y="318">Capacity doubled once, in FY22, and output then filled it over two years. A further ₹150cr Phase-1 expansion was commissioned in June 2026.</text>
+</svg>
+<figcaption><strong>Capacity doubled in one step and took two years to fill — which is the normal rhythm for this kind of plant and the thing to watch after the June-2026 expansion.</strong> An open-die shop cannot ramp gradually: you add a hammer or a furnace, and the capacity arrives all at once. <span class="src">Capacity, production and utilisation for FY21–FY23 verbatim from the RHP's capacity-utilisation table (p.120). The ₹150cr Phase-1 commissioning (15-Jun-2026, funded by the FY25 preferential warrant issue and IPO proceeds) is from the AMIC profile and the CLAUDE.md Session-5 record.</span></figcaption>
+</figure>
+
+<h2 id="s9"><span class="n">9.</span> The label versus the reality</h2>
+
+<div class="box warn">
+<h4>Stated plainly, because it changes what you should track</h4>
+<p style="margin:8px 0"><strong>Amic sits in a watchlist sector called "Auto Components &amp; Forgings" and sells nothing to the automotive industry.</strong> It shares a <em>process family</em> with Happy and Sansera and shares an <em>end market</em> with almost nobody in the sector — its nearest neighbour by customer is arguably Wheels India's machining of large wind castings, which is a different station on the map entirely.</p>
+<p style="margin:8px 0">The practical consequence: <strong>monthly auto volumes, two-wheeler cycles and OEM platform wins — the news flow that moves the rest of Sector 3 — are close to irrelevant here.</strong> What matters is refinery and petrochemical capex, wind installation rates, nuclear ordering, and the cement and power plant replacement cycle.</p>
+<p style="margin:8px 0"><span class="tag inf">MY INFERENCE</span> This is my reading of the taxonomy, not a criticism of the company or a claim that the sector label is wrong for the other seven. It is a note that <strong>one member of a sector can require a completely different watch list from its neighbours</strong>.</p>
+</div>
+
+<h2 id="s10"><span class="n">10.</span> Reading the industry through the numbers</h2>
+
+<div class="tw">
+<table>
+<thead><tr><th style="width:26%">Industry mechanism</th><th style="width:24%">Where it shows up</th><th style="width:30%">Latest reading</th><th style="width:20%">Source</th></tr></thead>
+<tbody>
+<tr><td>Open die needs no part-specific die</td><td>Plant configuration</td><td><strong>6 MT electro-hydraulic + 1 MT pneumatic hammer, with manipulators</strong> — no press line</td><td>RHP p.112, p.120</td></tr>
+<tr><td>Capacity arrives in steps, not increments</td><td>Installed capacity, tonnes</td><td><strong>6,300 → 12,600 MT</strong> in FY22; ₹150cr Phase 1 commissioned Jun-2026</td><td>RHP p.120; profile</td></tr>
+<tr><td>Output then has to fill it</td><td>Utilisation</td><td><strong>62.9% → 71.4% → 84.9%</strong> across FY21–FY23</td><td>RHP p.120</td></tr>
+<tr><td>Value is captured after the hammer</td><td>Integration depth</td><td>Forging + heat treatment + machining <strong>in one facility</strong>; part ships finished and tested</td><td>RHP; profile §1</td></tr>
+<tr><td>Certification is part of the product</td><td>Inspection regime</td><td><strong>Chemical + ultrasonic on incoming metal and again on the finished part</strong></td><td>RHP p.117</td></tr>
+<tr><td>Demand is capital-goods, not automotive</td><td>Product list</td><td><strong>Wind main shafts, nuclear trunnions, oil &amp; gas nozzles, tube sheets, pressure-vessel shells</strong></td><td>RHP pp.113–114</td></tr>
+<tr><td>Small-batch premium positioning</td><td>Stated competitive stance</td><td>Below Bharat Forge / Happy tonnage, above garage-shop pricing</td><td>Profile §1</td></tr>
+<tr><td>SME scale and structure</td><td>Headcount</td><td><strong>80 people</strong> — 56 permanent, 24 contract</td><td>RHP p.118</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2 id="s11"><span class="n">11.</span> What is not disclosed</h2>
+
+<ul>
+<li><strong>Customer names and concentration.</strong> The RHP describes selling "directly and through various dealers and distributors" but names no customer and gives no top-customer share — a material gap for a job-shop business where a handful of capital projects can dominate a year.</li>
+<li><strong>Product mix.</strong> Ten products are pictured; none is sized. There is no split between wind, nuclear, oil &amp; gas and general engineering, so the end-market exposure in §4 is inferred from what the components are, not reported.</li>
+<li><strong>Order book.</strong> Nothing equivalent is published, so forward visibility rests on utilisation and revenue alone.</li>
+<li><strong>Capacity after the June-2026 expansion.</strong> The RHP table ends at FY23. The new installed tonnage has not been restated in the same format.</li>
+<li><strong>Export share.</strong> The RHP records no import-export obligations; the geographic split of sales is not given.</li>
+<li><strong>No earnings calls at all.</strong> Amic reports half-yearly as a BSE-SME and holds no concalls, so there is no management commentary, no guidance and no analyst questioning anywhere in the record. <strong>Every judgement about this company rests on filed documents alone.</strong></li>
+</ul>
+
+<h2 id="s12"><span class="n">12.</span> Glossary</h2>
+
+<dl class="glos">
+<dt>Billet</dt><dd>A cut length of steel bar — the starting stock for a forging.</dd>
+<dt>Open-die forging</dt><dd>Hot metal hammered between simple tools that do not enclose it, with a manipulator turning the piece between blows. No part-specific die; suits one-off and large components.</dd>
+<dt>Closed-die forging</dt><dd>Hot metal squeezed between two shaped dies that enclose it, giving a repeatable near-net shape. Needs a die per part, so it pays only at volume.</dd>
+<dt>Ring rolling</dt><dd>A third technique: a pierced doughnut of metal rolled out into a seamless ring.</dd>
+<dt>Grain flow</dt><dd>The directional structure inside worked steel. Forging makes it follow the part's shape; machining from bar cuts across it.</dd>
+<dt>Manipulator</dt><dd>The machine that grips, lifts and rotates a hot workpiece under the hammer — what makes open-die work possible at size.</dd>
+<dt>Annealing / normalising</dt><dd>Controlled heating and cooling after forging to relieve stress and refine grain structure.</dd>
+<dt>Quenching</dt><dd>Rapid cooling in water or oil to set hardness. Amic's heat-treatment plant has both.</dd>
+<dt>Bogie hearth furnace</dt><dd>A heat-treatment furnace with a wheeled hearth that rolls large parts in and out.</dd>
+<dt>Ultrasonic testing</dt><dd>Non-destructive inspection for internal flaws, done on incoming metal and on the finished part.</dd>
+<dt>Near-net shape</dt><dd>A forging close enough to final dimensions that little machining is needed afterwards.</dd>
+<dt>Tube sheet / channel cover</dt><dd>Thick forged plates in a heat exchanger — the tube sheet carries the tube ends, the channel cover closes the housing.</dd>
+<dt>Trunnion</dt><dd>A load-bearing pivot mounting. Amic lists one made for a nuclear power plant.</dd>
+</dl>
+
+<hr>
+
+<h3>Sources</h3>
+<p class="src"><strong>Primary documents, downloaded and text-extracted for this page (25-Aug-2026):</strong> the <strong>Red Herring Prospectus</strong> (329pp, Aug-2023 — "Our Business", "Our Products", the manufacturing process flow chart, the capacity-utilisation table and the industry section), <strong>Annual Report FY25</strong> (111pp) and <strong>Annual Report FY24</strong> (105pp). All fetched directly from amicforgings.com and stored in <code class="src">Fetched Concalls/AMIC/</code>, which previously held only extracted excerpts.<br>
+<strong>No transcripts exist.</strong> Amic is a BSE-SME reporting half-yearly with no earnings calls — stated as a limit, not worked around.<br>
+<strong>Peer placements</strong> in §5 and §6 come from the watchlist profiles for HAPPY, SANSERA, SSWL, WHEELS, OBSC, SUNITA, NRBBEARING, AZAD, DYNAMATIC and UNIMECH. Those profiles are transcript-grounded, but their filings were not re-read for this page — the distinction is marked in the figure captions.<br>
+<strong>Companion document:</strong> <code class="src">Company Profiles/AMIC.md</code> carries the financials, promoter background, valuation and risks. This page makes no investment judgement.</p>
+
+</body>
+</html>
