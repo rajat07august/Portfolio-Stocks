@@ -1,477 +1,431 @@
 # Rajesh Power Services — Company Profile
 
-**Ticker:** RAJESH · BSE: 544291 · **Sector:** Power T&D EPC (Distribution + Transmission + GIS Substations + Underground Cabling) · **Conviction:** High (confirmed 16-Jul-2026 refresh)
+**Ticker:** RAJESH · **BSE: 544291** · **ISIN INE0VN801010** · **Sector:** Power T&D EPC / Turnkey (Sector 19)
+**Conviction:** **HELD at HIGH (Under Watch)** — *the Under Watch tag is new; the trigger is unchanged and not yet testable*
+**Thesis date:** 31-Aug-2026 · **CMP ₹791** (Screener, 31-Aug-2026) · **Market cap ₹1,424 cr**
 
-## 🔄 Refresh Log — 16-Jul-2026 (Tier A — FY26 annual print grounded)
+> **⚠️ BSE-ONLY.** **Absent from NSE's `EQUITY_L.csv`** *(the only "Rajesh" there is Rajesh Exports, a different company)* **and NSE's SME announcements feed returns `[]`.** **BSE 544291 is the only feed.** `SLONGNAME` echoed back as **"Rajesh Power Services Ltd"** on every query, per §4A.
 
-**Latest data available:**
-- ✅ **Apr 2026 (H2FY26) filing summary** captured via Screener announcement extract (BSE Reg 30 LODR intimation): FY26 revenue ₹1,628cr, EBITDA ₹197cr, PAT ₹143cr; **BESS project signed** (new business line).
-- ✅ **Full Screener quarterly + annual + balance sheet + CFO tables** captured via server-side fetch.
-- ⚠️ **Apr 2026 (H2FY26) raw transcript NOT re-fetched** — Chrome extension offline during this refresh; api.cors.lol proxy path unavailable for binary PDF via workspace fetch. **v1 profile claims to have read this transcript** but the copy in `Fetched Concalls/544291/544291_Transcript_2026-04.pdf` has identical md5 to the Jan 2026 file (mislabel / overwrite). Re-fetch pending Chrome availability.
-- ✅ **Nov 2025 (H1FY26) transcript in repo** — re-read for prior-guidance context (40% CAGR guide, ₹3,500cr unexecuted OB, ₹4,500cr FY26 exit target, WC guidance 90-100 days).
+> **🔴 QUEUE CORRECTION — this settles the "unconfirmed" flag, and it is the same §4B failure mode as YASH.**
+> **RAJESH DOES NOT REPORT QUARTERLY.** Its last results filing is **23-Apr-2026, headed *"Audited Standalone And Consolidated Financial Results For The **Half** Financial Year"*** — and **there has been no results filing of any kind since.** **Screener's columns run Sep/Mar only.** ***There is no Q1FY27 and there never will be. Next print: H1FY27, around October–November 2026.*** **Move to the C2 half-yearly bucket** *(with ACCENT, AIMTRON, AMIC, CONCORDCS, ORIANA, SUNITA, YASH)*.
+>
+> **🟢 BUT — and this is the part that made the refresh worth doing — RAJESH publishes a QUARTERLY BUSINESS UPDATE anyway.** **On 16-Jul-2026 it disclosed Q1FY27 revenue of ₹436.62cr and an unexecuted order book of ₹3,741.79cr.** ***So there IS a Q1 datapoint; it is just not an audited result. Half-yearly reporting does not mean no news.***
 
-**FY26 Full-year Print (verbatim from Screener consolidated, 16-Jul-2026):**
-
-| Metric | FY26 | FY25 | YoY | Verdict |
-|---|---|---|---|---|
-| Revenue | **₹1,628 cr** | ₹1,107 cr | **+47%** | Beat Nov-25 guide of 40% CAGR |
-| Operating Profit | **₹197 cr** | ₹134 cr | +47% | Margin held 12% |
-| OPM | 12% | 12% | flat | No margin expansion despite scale |
-| PBT | **₹196 cr** | ₹123 cr | +59% | Lower interest cost aided |
-| PAT | **₹143 cr** | ₹93 cr | **+54%** | Beat expectations |
-| EPS (₹) | **₹79.52** | ₹51.85 | +53% | — |
-
-**H1 vs H2 seasonality (SME cadence, standalone):**
-
-| | H1FY25 (Sep-24) | H2FY25 (Mar-25) | H1FY26 (Sep-25) | H2FY26 (Mar-26) | H2/H1 FY26 |
-|---|---|---|---|---|---|
-| Sales (₹cr) | 313 | 759 | **638** | **990** | +55% seq |
-| Operating Profit (₹cr) | 37 | 87 | 84 | 113 | +35% seq |
-| OPM % | 12% | 11% | 13% | 11% | −200bps H2 |
-| PAT (₹cr) | 30 | 67 | 59 | 84 | +42% seq |
-| EPS (₹) | 19.44 | 37.23 | 32.64 | 46.88 | — |
-
-H2-loaded revenue cadence typical for EPC (project completions cluster year-end). **H1FY26 revenue +104% YoY (per Nov 2025 concall verbatim)** — extraordinary; H2FY26 delivered on top of that (+30% YoY implied for H2 vs H2FY25).
-
-**⚠️ NEW SIGNAL — Working Capital Blow-up MATERIALIZED (FY26 audited):**
-
-- **Cash from Operating Activity: −₹41 cr FY26** vs −₹16 cr FY25 = **worsened by 2.6x**
-- **Free Cash Flow: −₹43 cr FY26** (from -₹16 cr FY25)
-- **CFO/OP ratio: 4% FY26** vs 11% FY25 — deteriorating operating-cash conversion
-- **Debtor Days: 78 FY26** vs 62 FY25 = +26% receivables build
-- **Borrowings: ₹127 cr FY26** vs ₹56 cr FY25 = **+127% debt increase** to fund WC + growth
-- **IPO fund utilization (per Apr 2026 filing):** *"Rs 856.88 lakh surplus used for working capital"* — verbatim from BSE Reg 32 disclosure
-- **DISCOM payment cycle risk (Risk 2 in v1) has MATERIALIZED** — this is the risk the profile explicitly named
-
-**Read:** Growth was funded by debt + IPO surplus, not by internal cash. Not a "growth+cash" story anymore — it's a "growth-first, cash-second" story. Not thesis-breaking (order book supports FY27), but conviction premise now depends on WC cycle normalizing in FY27H1.
-
-**⚠️ Order book delivery — MISSED GUIDANCE flag:**
-
-Nov 2025 concall guidance (H1FY26): *"we are estimating that unexecuted order book to be somewhere around INR 4,500 crore"* by FY26 exit.
-
-FY26 actual (per v1): **₹3,326 cr unexecuted OB** = **−26% below guide**.
-
-This is a **🔴 first delivery miss** for a company that has been ✅ on everything else. Order book grew (from ₹3,500cr Nov 2025 to ₹3,326cr Mar 2026 = essentially flat) despite ₹2,743cr inflows — meaning execution moved projects OUT of the OB faster than new ones came in. Could be: (a) FY26 revenue burn was higher than expected (positive), OR (b) inflow pace slowed in Q4FY26 (negative). Needs Apr 2026 concall Q&A to disambiguate.
-
-**🆕 NEW BUSINESS SIGNAL — BESS project signed:**
-
-Apr 2026 filing (Screener announcement extract): *"FY26 earnings call transcript: revenue ₹1,628 crore, EBITDA ₹197 crore, PAT ₹143 crore; **BESS project signed**."*
-
-**BESS = Battery Energy Storage System.** This is a new adjacency for Rajesh Power beyond pure T&D EPC. Battery storage is a **large emerging market in India** (grid-scale storage is a key gap in the renewables transition — Rajasthan, Gujarat, Andhra all tendering GW-scale). Details TBD from raw transcript, but signing the first project is a genuine business-line expansion. Adds optionality to the thesis.
-
-**Screener valuation update (16-Jul-2026):**
-- CMP ₹871 (per dashboard refresh; Screener showed ₹845 at "19 May" reference — small variance is exchange lag)
-- Mcap ₹1,568 cr (from ₹1,538 v1 = +2%)
-- P/E 11.4x (from 10.7x v1 = slight expansion on higher price + lower TTM delta)
-- Book Value ₹226 → P/B 3.8x (unchanged)
-- Div Yield 0.12% (unchanged)
-- ROCE **49%** / ROE **43%** — **elite returns maintained** despite WC blow-up
-
-**Delivery scorecard additions (vs Nov 2025 baseline):**
-- ✅ **FY26 revenue +47%** beat Nov-25 40% CAGR guide
-- ✅ **FY26 PAT ₹143 cr** in line with implied ₹140-150cr trajectory
-- ✅ **Elite ROCE 49%** maintained — no dilution of return quality despite scale
-- 🔴 **FY26 exit OB ₹3,326 cr** vs Nov-25 guide of ₹4,500 cr = **first material miss** (−26%)
-- 🔴 **CFO −₹41 cr FY26** vs prior year −₹16 cr = WC blow-up materialized (risk named in v1 Risk 3)
-- 🆕 **BESS project signed** — new business line signal (transcript Q&A needed for scale)
-- 🟡 **Borrowings +127% YoY** to ₹127 cr — leverage rising fast (still low absolute)
-
-**Peer refresh status:** Screener peer table was in "Loading peers table" state on server-side fetch; requires Chrome. **Pending.** Broader auto ancillary sector re-rating context (documented in SSWL refresh) doesn't apply here (Utilities/Multi Utilities sector). Will refresh when Chrome comes back.
-
-**📢 Community Pulse status:** ValuePickr Rajesh Power thread scan pending Chrome. Skipped for this refresh. Rajat will get pulse in next refresh cycle.
-
-**Conviction change:** **HELD at HIGH.** The FY26 print validates the thesis on returns (49% ROCE) + growth (+47% revenue) + BESS optionality. The WC blow-up + OB miss are both flagged in v1 Risk 3 and Risk 6 — they've materialized as risks, not surprises. But the base case requires FY27H1 CFO to turn positive; if it doesn't, this drops to MH on next refresh.
-
-**Watch items for next refresh:**
-1. **Apr 2026 raw transcript** — refetch when Chrome available; extract BESS details, FY27 guidance, WC commentary
-2. **H1FY27 CFO** — must turn positive to validate H
-3. **OB exit ₹3,326 → tracking to guidance of ₹5,000cr+** by FY27 exit
-4. **BESS revenue print** — first meaningful contribution expected FY27
-
----
+> **📋 WHAT THIS REFRESH FOUND.** Since the 16-Jul Tier-A refresh: **₹1,165.94cr of new orders in four weeks**; **a first entry into Odisha and a deepened Rajasthan position**; **a CRISIL outlook upgrade**; **a New Zealand subsidiary**; **an Independent Director resigning off four committees**; **two Regulation 29(2) share sales from the promoter side**; and **a share price that has fallen 47% in a year and now trades at 9.90x earnings on a 48.6% return on capital.**
 
 ---
 
 ## 1. Business in Plain English
 
-Every Indian state's electricity distribution company (DISCOM) faces the same problem: their overhead HT distribution lines fail during monsoons, trees fall on wires, birds cause faults, and rural + urban customers suffer 6-12 hour blackouts. The government's solution: **underground the distribution network + install GIS (Gas Insulated Substations)** — technically superior + weatherproof + safer. **Rajesh Power Services is Gujarat's leading Power T&D EPC contractor** — building underground distribution networks, GIS substations, transmission substations, and RDSS (Revamped Distribution Sector Scheme) infrastructure for DISCOMs across Gujarat + Rajasthan + Maharashtra + Bihar + Uttarakhand.
+**Rajesh Power Services is a Gujarat-based turnkey contractor that buries power lines.**
 
-The 30-second business snapshot:
-- **HQ Ahmedabad, Gujarat** (Navrangpura, Ellisbridge)
-- **Founded 2010** — 16-year heritage
-- **Director & CEO**: Mr. Utsav Panchal (founder)
-- **Finance Head**: Mrs. Nikita Shah
-- **Senior Manager Finance**: Mr. Adhish Patel
-- **CS**: Ms. Jyoti Dakshesh Mochi
-- **BSE-SME listed** (scrip code 544291)
-- **FY26 order book: INR 3,326 cr** (as of Mar 2026)
-  - Power distribution: **71% (INR 2,365 cr)** — main revenue driver
-  - Power transmission: 29% (INR 961 cr)
-- **FY26 order inflows: INR 2,743 cr**
-- **Bid book: INR 6,000 cr** (75% Gujarat, 25% other states)
-- **CMP ₹854, MCap ₹1,538 cr, P/E 10.7x** — very cheap
-- **ROCE 48.6%, ROE 42.9%** — elite returns
-- Only ~6,172 shareholders — SME
+When a state distribution utility decides that its overhead 11kV network in a coastal city is going to keep failing in cyclones, it tenders a job: dig the trenches, lay the underground cable, install the ring main units that let the network be switched remotely, map every asset on GIS, tag it, commission it, and hand it back working. **Rajesh Power bids for that job, wins it, buys the cable, and executes it end to end.** It does the same at higher voltages — **GIS substations, 220kV underground transmission links, transmission lines** — and it has a solar and BESS adjacency alongside.
 
-**Key FY26 projects executed:**
-- 132 kV GIS at Jodhpur (Rajasthan)
-- 66 kV substation JK Paper (Gujarat)
-- RDSS Gandhinagar + Ahmedabad (UGVCL Gujarat)
-- Lalgarh Traction Substation, Bikaner (Rajasthan)
-- 132 kV GIS Jaipur
-- 220 kV GIS at ATUL, Gujarat
+**The customers are state utilities and transmission corporations.** Historically almost entirely **Paschim Gujarat Vij Company (PGVCL)** and its Gujarat siblings. **In June 2026 it entered Odisha (OPTCL) for the first time, and it has added materially to an existing Rajasthan position (RVPNL).**
 
-**FY26 operational scale:**
-- 350+ feeders installed → **15 lakh consumers** benefited
-- 4,000+ ring main units
-- 1,200+ distribution transformers
-- 1,300+ km cable laid
+**Two structural facts worth holding from the start:**
+1. **It is asset-light to an unusual degree.** **Fixed assets of ₹18cr** support **₹1,628cr of FY26 revenue.** *That is why the return on capital is 48.6% — the capital employed is working capital, not plant.*
+2. **And that is also the whole risk.** **A business whose capital is receivables and work-in-progress grows by extending its balance sheet, not by building one.** *§4 works through what that has cost.*
 
-**MVCC + underground distribution outcomes:**
-- **70-80% reduction in interruption duration**
-- Significant HT fault + weather-related outage reduction
-- Faster fault isolation via RMU-based sectionalization
-- Improved voltage stability
+> **🔎 A cross-check available for the first time this cycle, from a second company's filings.** **On 11-Aug-2026 Diamond Power Infrastructure (DIACABS, also on this watchlist) disclosed a ₹195.48cr order *from Rajesh Power Services* for 11kV medium-voltage underground cable, for PGVCL's State Disaster Mitigation Fund and Urban Underground schemes.** ***That is independent confirmation, from the supplier's side of the transaction, that the PGVCL undergrounding orders Rajesh won in July are actually being executed rather than merely announced. It is the single most useful corroboration in this profile.***
 
-**Big picture in one sentence:** Rajesh Power Services is a **Gujarat-based power T&D EPC contractor** with elite returns (48.6% ROCE + 42.9% ROE), FY26 order book INR 3,326 cr (2.7x revenue coverage), bid book INR 6,000 cr, and undergrounding + GIS positioning aligned with Draft National Electricity Policy 2026 + Viksit Bharat 2047 vision. **At 10.7x P/E — cheapest quality Power T&D EPC name in the watchlist.**
+**The 30-second snapshot:**
+- **Ahmedabad, Gujarat** · **BSE-SME, no NSE listing** · IPO **₹160.47cr** (₹93.47cr fresh + ₹67cr OFS)
+- **FY26 revenue ₹1,628cr (+47%)** · operating profit ₹197cr (**12%**) · **PAT ₹143cr (+54%)** · EPS **₹79.52**
+- **Q1FY27 revenue ₹436.62cr** *(unaudited business update, 16-Jul-2026)*
+- **🟢 Order book ₹3,741.79cr at 30-Jun (incl. L1), plus ₹1,165.94cr won since — including a first entry into Odisha**
+- **🟢 ROCE 48.6%, ROE 42.9%** — the best in Sector 19 by a wide margin
+- **🟢 CRISIL A-/**Positive** (outlook raised from Stable, 15-Jul-2026), A2+ reaffirmed**
+- **🔴 Cash from operations −₹41cr in FY26 after −₹16cr in FY25. CFO/OP 11% → 4%**
+- **🔴 The stock is down 47% in a year and 51% below its ₹1,625 high**
+- **9.90x earnings · 3.5x book · 0.12% dividend yield · 6,172 shareholders**
+
+**Big picture in one sentence.** Rajesh Power earns **48.6% on capital in a sector where the best listed peer earns 29%**, is sitting on **an order book approaching three times revenue after the best four weeks of order intake in its history** — and trades at **half the multiple of every peer**, because it is a BSE-only small cap that has now gone two years without generating cash from operations.
 
 ---
 
 ## 2. Why This Industry Exists
 
-Power T&D EPC + undergrounding rides five durable forces:
+**Force 1 — India is putting its distribution network underground, and it is a policy programme, not a preference.** Cyclone and flood resilience has become a procurement criterion in its own right. **PGVCL's State Disaster Mitigation Fund scheme is exactly this**, and it is where Rajesh's largest orders come from.
 
-**Force 1 — Draft National Electricity Policy 2026 mandates.**
-- Per capita electricity: **2,000 kWh by 2030** (from ~1,300 kWh now)
-- **4,000+ kWh by 2047**
-- **Single-digit AT&C losses in Distribution**
-- **Underground networks in urban areas**
-- Advanced grid technologies + redundancy planning
+**Force 2 — Undergrounding is a multiple of the cost of overhead, which is the point.** Trenching, cable, ring main units, GIS mapping and asset tagging are all EPC scope. *The same kilometre of network converted underground is worth several times more to the contractor.*
 
-**Force 2 — RDSS (Revamped Distribution Sector Scheme).** INR 3+ lakh cr program through FY27. Rajesh is a preferred DISCOM partner.
+**Force 3 — Ring main units and SCADA turn a passive network into a switchable one.** Rajesh's 17-Jul order includes *"SCADA Readiness and Rectification of Ring Main Units with Complete Cover Warranty Maintenance Contract"* across three PGVCL circles — **the maintenance annuity that follows the capex.**
 
-**Force 3 — Grid modernization tailwind.** SCADA + smart grid + fault management + real-time monitoring — all requiring EPC execution.
+**Force 4 — Transmission is a separate, larger, slower cycle**, and Rajesh is scaling into it: **a 220kV underground link for OPTCL in Odisha — a genuinely new state** — and **a 132/33kV GIS substation for RVPNL at Jodhpur**, adding to a Rajasthan book that v2 recorded at **">₹350cr" in the Nov-2025 commentary.**
 
-**Force 4 — GIS substation shift.** Compact + weatherproof + safer than AIS (Air Insulated Substations). Growing at 15-20% CAGR.
+**Force 5 — Policy scaffolding.** The v2 profile anchored this on the **Draft National Electricity Policy 2026** and the **Viksit Bharat 2047** framing, both of which put distribution-network strengthening at the centre.
 
-**Force 5 — Undergrounding economics.** DISCOMs increasingly recognize underground = rapid payback (revenue + efficiency gains > cost).
-
-**Where Rajesh sits.** #1 Gujarat-focused mid-cap Power T&D EPC. Peers: **KEC International** (much larger, transmission tower focus), **Kalpataru Projects** (larger transmission), **Techno Electric** (larger EPC), **Skipper** (transmission towers). Rajesh positioning: **GIS + Underground + RDSS specialist with Gujarat home advantage**.
+**Where RAJESH sits.** **₹1,424cr in Sector 19 (Power T&D EPC / Turnkey) alongside TRANSRAILL.** ***It is by far the smallest name in its comparison set and by far the highest-returning.***
 
 ---
 
 ## 3. What Makes This Company Different
 
-**Moat 1 — Elite returns: ROCE 48.6%, ROE 42.9%.** Best-in-class Indian EPC.
-**Moat 2 — Order book INR 3,326 cr = 2.7x revenue coverage.** Multi-year visibility.
-**Moat 3 — Bid book INR 6,000 cr.** Robust pipeline (10-12% conversion historical).
-**Moat 4 — Gujarat home-state advantage.** UGVCL + DGVCL + PGVCL + MGVCL relationships.
-**Moat 5 — GIS + Underground specialization** (vs commodity AIS/overhead).
-**Moat 6 — RDSS preferred vendor status.**
-**Moat 7 — MVCC + underground execution track record** (70-80% interruption reduction demonstrated).
-**Moat 8 — Diverse project execution: 132 kV GIS, 220 kV GIS, 66 kV substation, RDSS distribution.**
-**Moat 9 — Rock-stable 72.70% promoter holding.**
-**Moat 10 — 10.7x P/E — cheapest quality Power T&D name in watchlist.**
+**Moat 1 — 🟢 Returns that are not close to the peer group.** **ROCE 48.6% and ROE 42.9%**, against Transrail 29.2%/20.0%, Skipper 23.6%/16.6%, Kalpataru 18.3%/13.7% and KEC 16.5%/11.4%. *This is the single hardest fact to argue with.*
 
-**Where the moat is weaker.**
-- SME listing (BSE-SME) — extreme illiquidity (6,172 shareholders).
-- Small size (INR 1,538 cr) — customer + geographic concentration.
-- 75% Gujarat concentration in bid book.
-- DISCOM payment cycles (government entities).
-- Working capital-heavy EPC business.
-- Slight 0.70% promoter dilution over 18 months.
-- No FII interest (0.68%), minimal DII (3.52%).
+**Moat 2 — 🟢 Asset-light execution.** **₹18cr of fixed assets against ₹1,628cr of revenue.** *Capacity is people, project management and a pre-qualification record — not plant that has to be depreciated whether or not it runs.*
+
+**Moat 3 — 🟢 Deep incumbency with PGVCL, and it does travel.** Years of Gujarat distribution work built the pre-qualification. **The 17-Jun OPTCL win is the company's stated *"entry into the State of Odisha"* — a genuinely new geography — and the 27-Jul RVPNL substation adds to a Rajasthan book that already stood above ₹350cr per the Nov-2025 commentary.** ***So the diversification is real but it is a continuation, not a standing start: Rajasthan was already there. Odisha is the new one.***
+
+**Moat 4 — 🟢 A CRISIL outlook upgrade in the middle of a 47% drawdown.** **A-/Stable → A-/Positive on 15-Jul-2026**, short-term A2+ reaffirmed. *Rating agencies see the audited balance sheet and the order book; the share price has been moving the other way.*
+
+**Moat 5 — The order book is now genuinely large relative to the company.** **₹3,741.79cr at 30-Jun (incl. L1) — 2.3x FY26 revenue — plus ₹1,165.94cr won in the four weeks after.** *On the crudest arithmetic that is close to three years of FY26 revenue in hand.*
+
+**Moat 6 — Scope creep in the right direction.** From cable-laying into **GIS substations, 220kV underground transmission, SCADA/RMU maintenance contracts, MVCC covered conductor**, and the **BESS adjacency** flagged in the 18-Jul refresh.
+
+**Moat 7 — 🟢 The multiple.** **9.90x earnings and 3.5x book on 48.6% ROCE.** *The cheapest quality name in Sector 19, and cheaper now than when the last profile called it that.*
+
+### Where the moat is weaker
+
+- **🔴 It does not convert profit into cash.** **CFO −₹16cr (FY25) then −₹41cr (FY26); CFO/OP 11% → 4%; free cash flow −₹43cr.** ***Two consecutive years, worsening. This is the thesis's single point of failure and the v2 refresh said so.***
+- **🔴 The growth is being funded by suppliers.** **Days payable 49 → 90.** *The cash conversion cycle "improved" from 39 to 22 days only because payables doubled; debtor days went 62 → 78 and inventory 27 → 34.*
+- **🔴 And by debt.** **Borrowings ₹56cr → ₹127cr, +127%.**
+- **⚠️ Customer concentration remains high** despite the new states — PGVCL and Gujarat utilities still dominate, and **state discoms are not fast payers.**
+- **⚠️ BSE-only, 6,172 shareholders.** No NSE listing, no index membership, thin liquidity. **The stock has fallen 47% in a year on no disclosed operating deterioration.**
+- **⚠️ Governance depth is thin, and it just got thinner** — see §3.5.
+- **⚠️ Fixed-price EPC on multi-year contracts** carries input-cost risk; the 24-month orders won in July are priced today.
 
 ---
-
 ## 3.5. Management Track Record & Promoter Background
 
-**Director & Chief Executive Officer:** *Mr. Utsav Panchal* (founder-CEO).
+### 🔴 An Independent Director has resigned off four committees
 
-**Finance Head:** *Mrs. Nikita Shah*.
+**On 11-Aug-2026, Mr. Viral Deepakbhai Ranpura (DIN 07177208) resigned as Independent Director**, *"citing personal and medical occupancy."* **Consequent to the resignation he ceases to be *"Chairman/Member of Audit Committee, Nomination and Remuneration Committee and Stakeholders Relationship Committee and Corporate Social Responsibility Committee"*** — **all four board committees**, with effect from the same day.
 
-**Senior Manager Finance:** *Mr. Adhish Patel*.
+> ***Stated as the filing states it: the company's wording does not specify which committees he chaired and which he merely sat on, so I am not asserting that the Audit Committee lost its chair.*** **What is unambiguous is that one Independent Director sat on every committee this board has, and he has gone.** *For a ₹1,424cr company with 6,172 shareholders, that is a material thinning of the oversight layer, and **no replacement has been announced in the twenty days since.***
 
-**Company Secretary:** *Ms. Jyoti Dakshesh Mochi*.
+**Company Secretary & Compliance Officer: Jyoti Dakshesh Mochi (ACS A39777)** — signatory on every filing read for this refresh.
 
-**Promoter — Panchal family, Ahmedabad.** Founded 2010 by Utsav Panchal.
+### 🟡 Two Regulation 29(2) share sales from the promoter side — read the tables, not the titles
 
-**Promoter holding (Mar 2026): 72.70% — slight decline:**
+**Per §4A, both filings were opened and the disclosure tables read rather than the subject lines.**
 
-| Period | Promoter % |
-|---|---|
-| Nov 2024 | 73.40% |
-| Mar 2025 | 73.40% |
-| Sep 2025 | 73.40% |
-| Mar 2026 | 72.70% |
+| Date | Seller | Detail |
+|---|---|---|
+| **4-May-2026** *(filed 7-May)* | **Jyotsna Ramesh Patel** | **Sale of 158,000 equity shares of ₹10 face value in the open market.** On ~1.798cr shares outstanding that is **≈0.88%**. *The letter is on personal letterhead and does not state promoter-group status; the Reg 29(2) route implies a disclosable holding.* |
+| **~25-Jun-2026** | **Krunal Daxesh Panchal**, *"Promotor Group Member"*, PAC **Daxesh Ramchandra Panchal** | **Before: 16,666 shares = 0.09%. Sold: 16,666 shares = 0.09%. After: nil.** ***A complete exit — of a holding that was nine hundredths of one percent.*** No encumbrance, no warrants |
 
-**~0.70% marginal dilution recently.** Otherwise rock-stable.
+> ***The honest reading, and it cuts against the alarming headline.*** **"Promoter group member disposes of entire holding" is technically true and economically trivial: 16,666 shares.** **The larger of the two sales is 0.88%.** **Together they are under 1% of the company.** ***This is not a control event and I am not going to dress it as one.*** **Screener's series is consistent: promoter holding 73.40% (Sep-2025) → 72.70% (Mar-2026), and both these sales post-date that snapshot, so the September-2026 pattern should show roughly 71.7%.**
 
-**Retail base:** 6,172 shareholders (up from 3,048 in Mar 2025) — 2x growth reflects FY26 result quality recognition.
+### Shareholding
 
-**Other listed entities:** None significant beyond Rajesh Power.
+| Period | Promoter | FII | DII | Public | Shareholders |
+|---|---|---|---|---|---|
+| Nov 2024 | 73.40% | 2.32% | 7.43% | 16.85% | 5,191 |
+| Mar 2025 | 73.40% | 0.84% | 4.88% | 20.88% | **3,048** |
+| Sep 2025 | 73.40% | 0.45% | 3.39% | 22.76% | 4,646 |
+| **Mar 2026** | **72.70%** | **0.68%** | **3.52%** | **23.11%** | **6,172** |
 
-**Delivery track record:**
+**🔴 Institutions have been leaving since listing: FII 2.32% → 0.68%, DII 7.43% → 3.52%.** **Combined institutional ownership is 4.20%.** *Meanwhile the retail register has doubled from 3,048 to 6,172 holders.* ***Same shape as several other SME names on this watchlist: institutions out, retail in, price down.***
 
-| Guidance / Milestone | When | Actual delivered | Verdict |
+### 🆕 A New Zealand subsidiary, with the investment undisclosed
+
+**On 14-Aug-2026 the company incorporated *"RAJESH POWER SERVICES NZ LIMITED"*, a 100% wholly-owned foreign subsidiary in New Zealand**, confirmed to the exchange on 15-Aug. **Stated object: *"Electrical and Solar EPC — Power Transmission and Distribution."*** Turnover nil; *"yet to commence business operations."*
+
+> ⚠️ **The consideration is not disclosed.** The Reg-30 annexure says only *"Subscription to the initial share capital of the company (amount to be subscribed as per incorporation documents)."* ***For a shell with no operations that is probably immaterial — but "we have not told you how much" is what the filing actually says, and a Gujarat distribution-EPC contractor opening in New Zealand is a strategic left turn that deserves a sentence of explanation somewhere. It has not had one.***
+
+### Delivery scorecard
+
+*Extended from the 16-Jul version.*
+
+| Guidance / Milestone | When | Actual | Verdict |
 |---|---|---|---|
-| **FY26 order book expansion** | Multi-quarter | INR 3,326 cr (record) | ✅ Delivered |
-| **FY26 order inflows** | Multi-quarter | INR 2,743 cr | ✅ Delivered |
-| **Bid book INR 6,000 cr** | H2FY26 | Delivered | ✅ Delivered |
-| **Multiple GIS substation commissioning** | FY26 | 132kV Jodhpur, 132kV Jaipur, 220kV ATUL, 66kV JK Paper | ✅ Delivered |
-| **RDSS execution** | Multi-quarter | Gandhinagar + Ahmedabad (UGVCL) | ✅ Delivered |
-| **350+ feeders installation** | FY26 | Delivered (15 lakh consumers benefited) | ✅ Delivered |
-| **4,000+ RMUs installation** | FY26 | Delivered | ✅ Delivered |
-| **1,300+ km cable laid** | FY26 | Delivered | ✅ Delivered |
-| **Elite returns sustainability** | Multi-year | 48.6% ROCE + 42.9% ROE | ✅ Delivered |
-| **Geographic diversification (75/25 Gujarat/other)** | Multi-quarter | Rajasthan + Maharashtra + Bihar + Uttarakhand added | ✅ In progress |
-| **FY27 order inflow continuation** | Q4FY26 | To be verified | 🕐 Pending |
-| **National Electricity Policy 2026 tailwind capture** | Multi-year | Positioned well | 🕐 In progress |
-| **FY26 revenue growth (40% CAGR guide from Nov 25 concall)** | Nov 2025 | **FY26 delivered ₹1,628cr = +47% YoY** — BEAT | ✅ Beat |
-| **FY26 exit unexecuted OB ~₹4,500cr guidance** | Nov 2025 | **Delivered ₹3,326cr (Mar 2026)** — 26% BELOW guide | 🔴 **First miss** |
-| **FY26 PAT trajectory (implied ₹140-150cr)** | Multi-quarter | **Delivered ₹143cr = +54% YoY** — in line | ✅ Delivered |
-| **Working capital cycle 90-100 days guidance** | Nov 2025 | Debtor days rose 62→78; **CFO −₹41cr FY26** | 🔴 **WC blow-up** |
-| **BESS (Battery Energy Storage) entry** | Not previously guided | **First BESS project signed Apr 2026** — new adjacency | 🆕 New signal |
-| **Elite ROCE >45% maintenance** | Multi-quarter | **FY26 ROCE 49% delivered** — held despite scale + WC pressure | ✅ Held |
+| **FY26 revenue growth** | — | **₹1,628cr, +47%** | ✅ Delivered |
+| **FY26 ROCE** | — | **48.6%**, ROE 42.9% | ✅ **Elite, and sustained** |
+| **FY26 exit order book ₹4,500cr** *(guided Nov-2025)* | Nov-2025 | **₹3,326cr** | 🔴 **Miss — the first ever, recorded 18-Jul-2026** |
+| **Working capital cycle to normalise** | v1 expectation | **CFO −₹41cr; CFO/OP 11% → 4%; payables 49 → 90 days** | 🔴 **MATERIALISED as a risk, not a surprise** |
+| **BESS entry** | Apr-2026 filing | Signed; no revenue disclosed yet | 🕐 Open |
+| **Geographic diversification beyond Gujarat** — v2 Risk 4 was *"75% Gujarat concentration"*, with Nov-2025 commentary noting **Rajasthan OB already >₹350cr** | ongoing | **🆕 Odisha entered for the first time (OPTCL ₹211.68cr, 17-Jun); Rajasthan deepened (RVPNL ₹75.05cr, 27-Jul)** | ✅ **Progressing — one new state, one existing state scaled** |
+| **🆕 Order intake** | — | **₹1,165.94cr won 9-Jul → 4-Aug** | ✅ **Best four-week intake on record** |
+| **🆕 Credit rating** | — | **CRISIL A-/Stable → A-/Positive**, A2+ reaffirmed, 15-Jul-2026 | ✅ **An upgrade, mid-drawdown** |
+| **🆕 Quarterly business updates** | voluntary | **Q1FY27 published 16-Jul despite half-yearly reporting** | ✅ **Better disclosure than the reporting regime requires** |
+| **IPO proceeds utilisation** | Reg 32, 28-Apr-2026 | *"Is there a Deviation / Variation? **No**"* on the ₹160.47cr issue | ✅ Clean |
+| **CFO to turn positive in H1FY27** | **the standing downgrade trigger, set 16-Jul-2026** | **H1FY27 does not report until ~Oct–Nov 2026** | 🕐 **NOT YET TESTABLE — and this is why the conviction has not moved** |
 
-**Verdict on management:** Exceptional execution on growth + returns (47% rev growth + 49% ROCE despite doubling scale). But **first delivery miss on order book guidance** (₹3,326cr vs ₹4,500cr guided) and **working capital cycle blow-up materialized** (CFO −₹41cr FY26 vs −₹16cr FY25). Bet on Utsav Panchal + team stays intact — the miss is on execution PACE not execution QUALITY. Watch FY27H1 CFO for cycle normalization.
-
-**Refresh verdict on management (16-Jul-2026):** Delivery track record extended — **12 ticks / 2 misses / 1 new signal / 4 open trackers** across 18 milestones. First 🔴 verdicts recorded. **Trust intact but no longer unblemished.** Base case now requires WC cycle to turn positive H1FY27 to validate H conviction.
+**Verdict on management.** ***The operating scorecard since July is close to unblemished: ₹1,166cr of orders in four weeks, a first entry into Odisha, a rating-outlook upgrade, and voluntary quarterly disclosure a half-yearly reporter did not have to give.*** **Set against that: one order-book miss on record, a working-capital cycle that has not turned, an Independent Director gone from all four committees with no replacement, and a foreign subsidiary announced without a number.** ***Trust in execution: high and rising. Trust in the balance sheet: unresolved until November. Governance depth: thinner than it was three weeks ago.***
 
 ---
 
 ## 4. Numbers Decoded
 
-**FY26 headline (implied from concalls + Screener):**
-- Revenue: ~INR 1,220 cr (implied from P/E + market cap)
-- PAT: ~INR 144 cr
-- Order book: **INR 3,326 cr** (Mar 2026) — 2.7x revenue coverage
-- Order inflows FY26: INR 2,743 cr
-- Bid book: INR 6,000 cr
+> **⚠️ BASIS NOTE. RAJESH reports half-yearly.** Screener's "quarters" table is **half-years**: Sep-2024, Mar-2025, Sep-2025, Mar-2026. **The ₹436.62cr Q1FY27 figure is from the company's voluntary business update of 16-Jul-2026 and is explicitly *"unaudited"*** — it is not a filed result and should not be treated as one.
 
-**Balance sheet:**
-- Book value per share: INR 226 → P/B 3.8x
-- Face value: INR 10
+### The half-yearly series
 
-**Return metrics (elite):**
-- ROCE: **48.6%** (elite — one of the highest in watchlist)
-- ROE: **42.9%** (elite)
-- Dividend yield: 0.12% (nominal)
+| ₹cr | H1FY25 | H2FY25 | H1FY26 | **H2FY26** |
+|---|---|---|---|---|
+| **Revenue** | 313 | 759 | 638 | **990** |
+| Operating profit | 37 | 87 | 84 | **113** |
+| **OPM** | 12% | 11% | 13% | **11%** |
+| Other income | 6 | 9 | 3 | 8 |
+| Interest | 5 | 10 | 5 | **6** |
+| **PAT** | 30 | 67 | 59 | **84** |
+| **EPS (₹)** | 19.44 | 37.23 | 32.64 | **46.88** |
 
-**Order book split (Mar 2026):**
-- Power Distribution: 71% (INR 2,365 cr)
-- Power Transmission: 29% (INR 961 cr)
+***The seasonality is pronounced and consistent: H2 was 71% of FY25 revenue and 61% of FY26.*** **Any read of a half-year in isolation, or of Q1 annualised, will mislead.**
 
-**Bid book distribution:**
-- Gujarat: 75%
-- Other states (Rajasthan, Uttarakhand, Maharashtra, Bihar): 25%
+### FY26 full year
 
-**FY26 operational execution:**
-- 350+ feeders installed
-- 15 lakh+ consumers benefited
-- 4,000+ ring main units
-- 1,200+ distribution transformers
-- 1,300+ km cable laid
+| ₹cr | FY25 | **FY26** | Change |
+|---|---|---|---|
+| Revenue | 1,107 | **1,628** | **+47%** |
+| Operating profit | 134 | **197** | +47% |
+| **OPM** | 12% | **12%** | flat |
+| Interest | 17 | **11** | −35% |
+| **PAT** | 93 | **143** | **+54%** |
+| **EPS (₹)** | 51.85 | **79.52** | +53% |
+| Dividend payout | 2% | **1%** | |
 
-**Draft National Electricity Policy 2026 alignment:**
-- Per capita electricity 2,000 kWh by 2030
-- Underground network expansion urban areas
-- Single-digit AT&C losses
-- Grid modernization + smart tech
+**Margin held flat at 12% through a 47% revenue increase, and interest fell in absolute terms.** *For a fixed-price EPC contractor scaling that fast, holding margin is the harder achievement of the two.*
+
+### 🔴 And now the part that has not worked
+
+| ₹cr | FY25 | **FY26** |
+|---|---|---|
+| **Cash from operations** | **−16** | **−41** |
+| Cash from investing | −30 | −16 |
+| Cash from financing | **+47** | **+37** |
+| **Free cash flow** | −16 | **−43** |
+| **CFO / operating profit** | **11%** | **4%** |
+| Debtor days | 62 | **78** |
+| Inventory days | 27 | **34** |
+| **Days payable** | **49** | **90** |
+| Cash conversion cycle | 39 | **22** |
+| Working capital days | 41 | **7** |
+| **Borrowings** | 56 | **127** |
+| Fixed assets | 21 | **18** |
+| Reserves | 245 | **388** |
+
+> **The scale of it, from v2's annotation:** **total working-capital-linked assets grew 74% year on year — Other Assets ₹517cr → ₹900cr** — funded by **(a) supplier payable extension 49 → 90 days, (b) debt up ₹71cr (+127%), and (c) IPO surplus redirected to working capital.**
+
+> **🔴 Read the cash conversion cycle carefully, because on its own it flatters.** **It "improved" from 39 days to 22 — but only because days payable went 49 → 90.** **Debtor days rose 62 → 78 and inventory 34.** ***The working capital did not get better; the suppliers got slower payment.*** **And it still was not enough: ₹197cr of operating profit produced *negative* ₹41cr of operating cash, funded by ₹37cr of financing inflow and ₹71cr more borrowing.**
+>
+> ***This is the entire bear case, and it is not new — the 16-Jul refresh identified it and made it the explicit downgrade trigger. What is new is that it is now two years running and the ratio has fallen from 11% to 4%.***
+
+**🟢 The counterweight, stated fairly.** **Fixed assets are ₹18cr.** **Reserves grew ₹245cr → ₹388cr on ₹143cr of retained profit — the equity is compounding even while the cash does not.** **Borrowings of ₹127cr against ₹406cr of net worth is a debt-to-equity of 0.31x**, and **CRISIL raised the outlook on that balance sheet six weeks ago.** *A contractor growing 47% a year on state-utility receivables will consume working capital; the question is whether the ratio stabilises or keeps falling.*
+
+### 🟢 The order book — the best four weeks on record
+
+**Position at 30-Jun-2026** *(business update, 16-Jul)*: **unexecuted order book ₹3,741.79cr including L1**, against FY26 revenue of ₹1,628cr — **2.3x coverage**, and up from the ₹3,326cr FY26 exit figure.
+
+**Won since, all disclosed under Regulation 30:**
+
+| Date | Customer | Scope | Value *(incl. taxes)* | Term |
+|---|---|---|---|---|
+| **17-Jun** | **OPTCL, Odisha** | 220kV single-circuit **underground** transmission cable, Mendhasal GSS → Chandaka-B GIS, plus AIS and GIS bay extensions | **₹211.68cr** | 24 months |
+| **9-Jul** | **PGVCL** | 11kV HT and LT overhead → **underground with Ring Main System**, GIS mapping and asset tagging — **Bhavnagar, Anjar, Junagadh, Porbandar circles** | **₹653.12cr** | — |
+| **17-Jul** | **PGVCL + RVPNL** | **SCADA readiness and RMU rectification with a Complete Maintenance Contract** across Bhavnagar, Jamnagar and Rajkot circles; **plus** modification of the existing 220kV D/C Jodhpur–CHB line into an **underground system including monopole** | **₹34.37cr** | — |
+| **22-Jul** | **PGVCL** | 11kV **Medium Voltage Covered Conductor** with accessories, Jamnagar circle, System Improvement scheme | **₹40.58cr** | 12 months |
+| **27-Jul** | **RVPNL, Rajasthan** | **132/33kV, 2×50 MVA GIS substation at Pal, Jodhpur** with associated transmission line — survey, supply, erection, civil, testing, commissioning | **₹75.05cr** | 18 months |
+| **4-Aug** | **PGVCL** | 11kV HT and LT → **underground with Ring Main System**, including consumer service lines, **Jamnagar City-2 Division** | **₹362.82cr** | 24 months |
+| | | **TOTAL** | **₹1,165.94cr** | |
+
+**Two things that matter more than the total.**
+1. **🟢 The OPTCL win is described by the company as *"the Company's entry into the State of Odisha"* and *"among the largest orders secured by the Company in the transmission segment."*** ***Odisha is genuinely new; Rajasthan is not — v2 recorded a Rajasthan order book already above ₹350cr in Nov-2025.*** **Either way the Gujarat-only concentration that has always been the central risk is being addressed with contracts rather than intentions.**
+2. **🟢 And execution has independently begun.** **On 11-Aug, Diamond Power Infrastructure disclosed a ₹195.48cr order *from Rajesh Power Services* for 11kV MV underground cable for exactly these PGVCL SDMF and Urban Underground schemes.** ***A supplier's Regulation 30 filing confirming that the buyer is placing material orders four weeks after winning the contract is about as good a corroboration of order-book quality as a small-cap investor gets.***
+
+**Where that leaves the book:** **₹3,741.79cr at 30-Jun plus ₹1,165.94cr won since, less Q2 execution — comfortably above ₹4,500cr gross, and around three years of FY26 revenue.** ***Note this is the number management missed against in November 2025, when it guided to a ₹4,500cr FY26 exit and delivered ₹3,326cr. It has arrived roughly two quarters late.***
+
+**Q1FY27 revenue of ₹436.62cr** compares with **H1FY26's ₹638cr** — *if H1FY27 runs at roughly twice Q1, that is about ₹870cr, or +37% year on year, with the seasonally stronger half still ahead.*
 
 ---
-
-### 📊 FY26 Refresh — Full Numbers Print (added 16-Jul-2026)
-
-**FY26 vs FY25 headline (consolidated, verbatim from Screener P&L):**
-
-| Metric | FY25 | FY26 | Growth | Read |
-|---|---|---|---|---|
-| Revenue (₹cr) | 1,107 | **1,628** | **+47%** | Beat 40% CAGR guide (Nov 2025 concall) |
-| Operating Profit (₹cr) | 134 | 197 | +47% | Margin held |
-| OPM | 12% | 12% | flat | No margin expansion (positive: not compressed either) |
-| Other Income | 7 | 11 | +57% | — |
-| Interest | 17 | 11 | −35% | Lower cost despite +127% borrowings — favourable debt mix |
-| PBT (₹cr) | 123 | 196 | +59% | — |
-| Tax % | 24% | 27% | +300 bps | Higher effective tax normalizing |
-| **PAT (₹cr)** | **93** | **143** | **+54%** | Strong |
-| EPS (₹) | 51.85 | **79.52** | +53% | — |
-
-**Half-year sequential (SME cadence, standalone):**
-
-| | Sep 2024 | Mar 2025 | Sep 2025 | Mar 2026 |
-|---|---|---|---|---|
-| Sales | 313 | 759 | **638 (+104% YoY)** | **990 (+30% YoY)** |
-| OP | 37 | 87 | 84 | 113 |
-| OPM % | 12% | 11% | 13% | 11% |
-| PBT | 37 | 85 | 81 | 114 |
-| PAT | 30 | 67 | 59 | 84 |
-| EPS (₹) | 19.44 | 37.23 | 32.64 | 46.88 |
-
-**Trajectory read:** Classical EPC H2-weighted cadence (H2 typically 55-65% of full year). H1FY26 blowout (+104% YoY revenue) has been followed by strong H2FY26 (+30% YoY revenue). Sequential H2FY26 vs H1FY26: sales +55%, PAT +42% — meaningful ramp. Margin softened -200bps H1→H2 (13%→11%) — expected as project execution mix shifts and cost inflation absorbed.
-
-**Balance sheet trajectory (Screener consolidated):**
-
-| Metric | Mar 2025 | Mar 2026 | Change |
-|---|---|---|---|
-| Equity Capital | 18 | 18 | Zero dilution ✅ |
-| Reserves | 245 | 388 | +58% (PAT retention) |
-| Borrowings | 56 | **127** | **+127%** — leverage rising fast |
-| Other Liabilities | 219 | 409 | +87% (WC + advances) |
-| Total Liabilities | 539 | **942** | **+75%** balance sheet scale-up |
-| Fixed Assets | 21 | 18 | Flat (asset-light EPC model) |
-| Investments | 0 | 23 | New investments |
-| Other Assets (WC-linked) | 517 | **900** | **+74%** — matches liability growth |
-
-**Debt/Equity: ₹127cr / ₹406cr = 0.31x** — still comfortable. But trajectory (0.21x FY25 → 0.31x FY26) worth watching.
-
-**Cash Flow Snapshot (⚠️ WATCH ITEM):**
-
-| Metric | FY25 | FY26 | Delta |
-|---|---|---|---|
-| Cash from Operating Activity | −16 | **−41** | Worsened 2.6x |
-| Cash from Investing Activity | −30 | −16 | Improved (less capex) |
-| Cash from Financing Activity | +47 | +37 | Debt + equity raise |
-| Net Cash Flow | 0 | −21 | First negative net |
-| Free Cash Flow | −16 | **−43** | Worsened |
-| **CFO / Operating Profit** | **11%** | **4%** | **Sharp deterioration** |
-
-**Ratios trajectory (Screener):**
-
-| | Mar 2025 | Mar 2026 | Change |
-|---|---|---|---|
-| Debtor Days | 62 | **78** | +26% (receivables build) |
-| Inventory Days | 27 | 34 | +26% |
-| Days Payable | 49 | **90** | +84% (extending payables) |
-| Cash Conversion Cycle | 39 | 22 | Improved (payable extension helps) |
-| Working Capital Days | 41 | 7 | Sharply improved (payable extension) |
-| ROCE | — | **49%** | Elite |
-
-**Key insight:** The cash conversion cycle looks improved because payables extended from 49→90 days — but receivables also rose (62→78). Net WC is only 7 days vs 41 (great on paper), but the CFO number tells the real story: **CFO −₹41cr** despite ROCE 49% + PAT +54% growth. Growth is being funded by (a) stretching supplier payments, (b) debt (+₹71cr borrowing), and (c) IPO surplus (₹8.57cr redirected to WC per Apr 2026 BSE disclosure).
-
-**FY27 outlook signals (from Screener + Nov 2025 concall context):**
-- Growth guidance: **40% CAGR** (Nov 2025 concall) — implies FY27 revenue ₹2,280 cr if held
-- FY27 exit OB target: ₹5,000cr+ (implied from Nov 2025 comments about bid book conversion)
-- New adjacency: **BESS (Battery Energy Storage Systems)** — first project signed Apr 2026; scale TBD from raw transcript re-fetch
-- Watch: WC cycle turn positive H1FY27 (management guidance 90-100 days sustainable)
-
-**Anomalies flagged:**
-- v1 profile claimed 3 concalls read including "H2FY26 (Apr 2026, primary)" — but the local `Fetched Concalls/544291/544291_Transcript_2026-04.pdf` file has identical md5 as the Jan 2026 file (mislabel or overwrite). Actual raw transcript re-fetch pending Chrome availability.
-- H1FY26 revenue growth of **+104% YoY** is verbatim from Nov 2025 concall — extraordinary; needs cross-check when raw transcript is re-fetched.
-
----
-
 ## 5. Connecting the Dots
 
-**Thread A — Draft National Electricity Policy 2026 mandates.**
-**Thread B — RDSS scheme execution.**
-**Thread C — GIS substation shift (from AIS).**
-**Thread D — Underground distribution economics.**
-**Thread E — Gujarat home-state advantage + national expansion.**
-**Thread F — MVCC + RMU technology adoption.**
-**Thread G — Order book INR 3,326 cr → FY27-28 visibility.**
-**Thread H — Bid book INR 6,000 cr optionality (10-12% conversion).**
+**Thread A — 🟢 The returns are real and they are not a peer-group artefact.** **48.6% ROCE and 42.9% ROE against a Sector 19 comparison set running 16–29%.** *It comes from being asset-light: ₹18cr of fixed assets carrying ₹1,628cr of revenue.*
+
+**Thread B — 🔴 And the same asset-lightness is why the cash does not arrive.** **If your capital is receivables and work-in-progress rather than plant, growth consumes cash by construction.** **₹197cr of operating profit produced −₹41cr of operating cash.** ***The high return and the negative cash flow are two views of one fact.***
+
+**Thread C — 🔴 The funding source is the supplier, and that has a limit.** **Days payable 49 → 90 while debtor days went 62 → 78.** *Stretching payables is a one-time lever — it can go from 49 to 90, but it cannot go from 90 to 180. **After that the funding has to be debt or equity**, and borrowings already rose 127% to ₹127cr.*
+
+**Thread D — 🟢 The order book has answered the question that was open in July.** **A first entry into Odisha, a deepened Rajasthan position, ₹1,166cr of orders in four weeks, and a supplier's own filing confirming execution has started.** *Gujarat concentration was the central structural risk; it is being reduced with contracts.*
+
+**Thread E — 🟢 And a rating agency looked at the same balance sheet and raised the outlook.** **CRISIL A-/Stable → A-/Positive on 15-Jul, six weeks into a share-price collapse.** ***CRISIL sees the audited accounts, the order book and the bank facilities. It is not a guarantee of anything, but it is a considered third-party view that disagrees with the price.***
+
+**Thread F — 🔴 The governance layer is thin and just got thinner.** **One Independent Director sat on all four board committees and resigned on 11-Aug; no replacement in twenty days.** **Institutions are down to 4.20% combined.** **A New Zealand subsidiary was announced without a rupee figure.**
+
+**Thread G — 🟡 The price has decoupled from the operations.** **Down 47% in a year and 51% off the high, while revenue grew 47%, PAT grew 54%, the order book grew, and the credit outlook was raised.** ***I cannot find an operating fact in the filings that explains a halving. The candidates are the working-capital deterioration, the November order-book miss, and BSE-SME illiquidity in a weak small-cap tape — and the first of those is genuine.***
+
+**How they interact.** ***An elite-return, asset-light contractor is winning more work than at any point in its history, entering new states, and being upgraded by its rating agency — while failing, for a second consecutive year, to turn any of it into cash, and funding the gap by paying its suppliers later.*** **At 9.9x earnings the market has decided the second half of that sentence is the important one. The whole investment question is whether the H1FY27 cash flow, due in November, proves it right.**
+
+---
+
+## 5.5. Company Trajectory Since Tracking
+
+| Date | CMP | Conviction | What happened |
+|---|---|---|---|
+| **3-Jul-2026** *(v1)* | **₹854** · mcap ₹1,538cr | **HIGH** · ~170% | Profile initiated. **48.6% ROCE, order book ₹3,326cr (2.7x revenue), bid book ₹6,000cr, 10.7x P/E — "cheapest quality Power T&D EPC name in the watchlist."** Moved from Sector 13 into the newly created Sector 19 on 23-Jul. |
+| **16/18-Jul-2026** *(Tier A)* | **₹871** · mcap ₹1,568cr | **HELD at HIGH** · ~170% | FY26 print grounded. **🟢 Revenue +47%, PAT +54%, BESS project signed (a new adjacency).** **🔴 First-ever delivery miss recorded: FY26 exit order book ₹3,326cr against a Nov-2025 guide of ₹4,500cr.** **🔴 Working-capital blow-up materialised: CFO −₹41cr vs −₹16cr, debtor days 62 → 78, CFO/OP 11% → 4%.** ***Set the explicit trigger: "the base case now REQUIRES CFO to turn positive H1FY27 — if it doesn't, this is a conviction downgrade trigger to MH."*** Also flagged a data-quality issue — the Apr-2026 transcript on disk had an md5 identical to the Jan-2026 file. |
+| **31-Aug-2026** *(this profile)* | **₹791** · mcap **₹1,424cr** | **HELD at HIGH (Under Watch)** — *the tag is new; the trigger is unchanged and not yet testable* | Converted to always-current format on a **28-filing BSE sweep**. **🔴 QUEUE CORRECTION: RAJESH REPORTS HALF-YEARLY — last results 23-Apr-2026, none since. There is no Q1FY27. Moved to the C2 bucket.** **🟢 But it publishes voluntary quarterly business updates: Q1FY27 revenue ₹436.62cr, order book ₹3,741.79cr at 30-Jun.** **🟢 ₹1,165.94cr of orders won 9-Jul → 4-Aug — the best four weeks on record — including a first entry into Odisha (OPTCL ₹211.68cr, 17-Jun) and a deepened Rajasthan position (RVPNL ₹75.05cr).** **🟢 CRISIL outlook raised A-/Stable → A-/Positive.** **🟢 Execution independently confirmed by DIACABS's ₹195.48cr order *from* Rajesh on 11-Aug.** **🔴 Independent Director Viral Ranpura resigned 11-Aug off all four committees, no replacement.** **🟡 Two Reg 29(2) sales from the promoter side totalling under 1%.** **🆕 New Zealand subsidiary, investment undisclosed.** **📉 And the stock is down 47% in a year at 9.90x.** |
+
+**The trajectory in one line.** ***Every operating number the last profile asked for has come in better, the one financial number it made a trigger of will not be visible until November, and the share price has fallen by half in the meantime.***
 
 ---
 
 ## 6. Why the Market Is Paying This Multiple
 
-**Trading metrics (v1, 3-Jul-2026):**
-- Trailing P/E: 10.7x · Market cap: ₹1,538 cr · P/B: 3.8x · Div yield: 0.12% · CMP ₹854
+**Trading metrics (Screener, 31-Aug-2026):**
 
-**Trading metrics refreshed (16-Jul-2026, post-FY26 print):**
-- **CMP: ₹871** (+2% since v1 baseline)
-- **Market cap: ₹1,568 cr** (+2%)
-- **Trailing P/E: 11.4x** (from 10.7x — slight expansion; still cheap)
-- **P/B: 3.8x** (unchanged; book value ₹226)
-- **Div yield: 0.12%**
-- **ROCE 49% / ROE 43%** — elite returns held despite scale doubling
+| | v1 (3-Jul) | 16-Jul-2026 | **31-Aug-2026** |
+|---|---|---|---|
+| CMP | ₹854 | ₹871 | **₹791** *(−9.2%)* |
+| Market cap | ₹1,538 cr | ₹1,568 cr | **₹1,424 cr** |
+| **P/E (trailing)** | 10.7x | 11.4x | **9.90x** |
+| **P/B** | 3.8x | — | **3.5x** *(BV ₹226)* |
+| **ROCE / ROE** | 48.6% / 42.9% | — | **48.6% / 42.9%** |
+| Dividend yield | 0.12% | — | **0.12%** |
+| 52-week high | — | — | **₹1,625** *(CMP is **51.3% below**)* |
+| **1-year price change** | — | — | **−47%** |
 
-Still very cheap vs quality peers. SME liquidity discount continues to apply. Multiple has NOT re-rated meaningfully despite +54% PAT growth — SME cohort remains discounted.
+### Peer comparison — the discount is the finding
 
-**Peer refresh:** Pending — Chrome extension offline; Screener peer table required. Broader Utilities/Multi Utilities sector not undergoing the auto-ancillary-style re-rating documented in SSWL refresh. Comparable listed peers (KEC International ~35x, Kalpataru ~28x, Techno Electric ~30x) trade at ~2-3x SSWL's multiple. SME discount is real but the gap suggests optionality on re-rating.
+| Company | Mcap (₹cr) | **P/E** | **ROCE** | **ROE** |
+|---|---|---|---|---|
+| **RAJESH POWER** | **1,424** | **9.90x** | **48.6%** | **42.9%** |
+| Transrail Lighting *(watchlist, Sector 19)* | 5,866 | 14.0x | 29.2% | 20.0% |
+| KEC International | 11,146 | 18.6x | 16.5% | 11.4% |
+| Kalpataru Projects | 23,720 | 21.4x | 18.3% | 13.7% |
+| Skipper | 6,198 | 26.7x | 23.6% | 16.6% |
 
-**Fair value framework (refreshed 16-Jul-2026):**
+***Read that table twice.*** **Rajesh has the highest return on capital in the group — 48.6% against a range of 16.5% to 29.2% — and the lowest multiple, at roughly half of Transrail and a third of Skipper.** **On returns it should be the most expensive name here. It is by some distance the cheapest.**
 
-*v1 baseline preserved for lineage:*
-- Base case (55%): FY28 revenue ₹2,400cr (30% CAGR), PAT ₹260cr, 15x → ₹3,900cr = ~154% upside
-- Bull case (30%): FY28 revenue ₹3,000cr, PAT ₹340cr, 18x → ₹6,120cr = ~298% upside  
-- Bear case (15%): FY28 PAT ₹180cr, 12x → ₹2,160cr = ~40% upside
-- Weighted: ~170%
+**What the discount is paying for, and I think three of these are legitimate:**
+1. **🔴 Two years of negative operating cash flow.** *Legitimate, and the biggest one. A contractor that cannot convert profit to cash is not really earning 48.6% on capital in any sense a shareholder can spend.*
+2. **🔴 BSE-only listing with 6,172 shareholders and 4.20% institutional ownership.** *Legitimate. There is no institutional bid, and exit liquidity is genuinely poor.*
+3. **🟡 One delivery miss on the order book, in November 2025.** *Legitimate but modest — and the ₹4,500cr target has since effectively been reached, two quarters late.*
+4. **🟢 Customer concentration in Gujarat state utilities.** ***This one is being actively worked on — Odisha entered for the first time and Rajasthan deepened — and the market does not appear to have priced it. Gujarat is still ~75% of the book, so it is progress rather than a solved problem.***
 
-*Refreshed post-FY26 print:*
-- **Base case (55%):** Nov-25 guide of 40% CAGR + BESS optionality. FY28 revenue ₹3,200cr (if 40% CAGR from ₹1,628cr FY26), PAT ₹290cr (at 9% net margin), 14x multiple = ₹4,060 cr. **~160% upside** vs ₹1,568cr.
-- **Bull case (30%):** Bids convert + BESS delivers ₹200cr revenue by FY28. FY28 revenue ₹3,600cr, PAT ₹340cr, 18x multiple (SME re-rating + BESS narrative) = ₹6,120 cr. **~290% upside.**
-- **Bear case (15%):** WC blow-up persists into FY27; OB inflows slow; BESS doesn't ramp. FY28 revenue ₹2,600cr, PAT ₹190cr, 11x multiple = ₹2,090 cr. **~33% upside.** (Downside somewhat capped by returns, but multiple compression is the risk.)
+### Weighted return framework (2-year, to FY28)
 
-**Weighted expected return over 2 years: ~170%**, or ~64% CAGR + 0.1% dividend.
+*Anchored on ₹1,424cr and ~1.80cr shares. **FY27 shape: Q1 ₹436.62cr, H2-weighted seasonality, order book above ₹4,500cr.** Working assumption FY27 revenue ~₹2,300cr (+41%).*
 
-**What changed vs v1:** Base case revenue lifted (₹2,400 → ₹3,200cr) reflecting the actual 40% CAGR delivery pace. Bear case rev lifted (₹2,400 baseline was too pessimistic given ₹1,628cr FY26 already delivered). Multiples held (SME re-rating pending). **Net weighted return unchanged at ~170%** — but the risk composition has shifted (WC risk elevated from tail to real).
+**Base case — 55%.** **The order book converts at the pace the last two years demonstrate; margin holds at 12%; the working-capital ratio stabilises without turning strongly positive.** FY28 revenue **~₹3,000cr** at **12%** → operating profit ₹360cr; interest ₹20cr on a somewhat larger book, depreciation ₹2cr, other income ₹15cr → PBT ₹353cr, tax 26% → **PAT ~₹261cr, EPS ~₹145.** **Multiple re-rates only modestly, to 12x** — still a discount to Transrail's 14x, because the cash question is only half-answered → **₹3,132cr. ≈ +120%.**
+
+**Bull case — 25%.** **CFO turns clearly positive in H1FY27; the new states scale; BESS contributes; and the market re-rates a 48% ROCE contractor toward its peer group.** FY28 revenue **~₹3,600cr at 12.5%**, **PAT ~₹320cr**, multiple **16x** *(still below Skipper's 26.7x)* → **₹5,120cr. ≈ +260%.**
+
+**Bear case — 20%.** **The cash never comes.** Payables cannot stretch past 90 days, receivables from state discoms lengthen further, and growth has to be funded with equity at a depressed price or abandoned. Execution slows, a fixed-price contract on the 24-month orders is repriced by input inflation, and the SME multiple compresses further on the first earnings disappointment. FY28 revenue **~₹2,200cr at 10%**, **PAT ~₹130cr**, multiple **7x** → **₹910cr. ≈ −36%.**
+
+> **The two prior frameworks, preserved for lineage.** **v1 (3-Jul):** base 55% — FY28 revenue ₹2,400cr, PAT ₹260cr at 15x → ₹3,900cr, **+154%**; bull 30% — ₹3,000cr, PAT ₹340cr at 18x → ₹6,120cr, **+298%**; bear 15% — PAT ₹180cr at 12x → ₹2,160cr, **+40%**. **v2 (16-Jul):** base 55% — FY28 revenue ₹3,200cr on the Nov-25 40% CAGR guide, PAT ₹290cr at 14x → ₹4,060cr, **+160%**; bull 30% — ₹3,600cr, PAT ₹340cr at 18x → ₹6,120cr, **+290%**; bear 15% — ₹2,600cr, PAT ₹190cr at 11x → ₹2,090cr, **+33%**. **Both netted ~170%, or ~64% CAGR.**
+
+**Weighted 2-year expected return ≈ +124%** *(0.55 × 120 + 0.25 × 260 + 0.20 × −36)* — roughly **50% CAGR**, plus a 0.12% dividend.
+
+> ***Three honest caveats on a number that large.***
+> 1. **It is lower than the ~170% the last two profiles carried, and the reason is not the business — it is that I have cut the base-case exit multiple from 14–15x to 12x and deepened the bear case from +33% to −36%.** ***A bear case that still shows a gain, as v1 and v2 both did, is not a bear case. Two years of negative operating cash flow at a company funding itself on 90-day payables can absolutely produce a permanent loss, and the framework should say so.***
+> 2. **The whole distribution turns on one number that nobody will see until November.** *If H1FY27 CFO is positive, the base case is conservative. If it is another −₹40cr, the bear case is the base case.*
+> 3. **Exit liquidity is a real constraint.** *A ₹1,424cr BSE-only stock with 6,172 shareholders cannot be sold quickly at a quoted price, and any position should be sized as though it cannot be sold at all for a quarter.*
+
+### Conviction: **HELD at HIGH (Under Watch)**
+
+**Why HIGH is held.** **The v2 downgrade trigger was explicit — *"the base case now REQUIRES CFO to turn positive H1FY27"* — and H1FY27 does not report until October or November. It is not testable, so it cannot have fired.** **Everything that has become observable since 16-Jul has been positive: ₹1,166cr of orders, a first entry into Odisha, a CRISIL outlook upgrade, voluntary quarterly disclosure, and independent confirmation of execution from a supplier's own filing.** *Downgrading on a trigger that has not fired, in a quarter where the observable news was uniformly good, would be reacting to the share price rather than to evidence.*
+
+**Why the Under Watch tag is new.** **Three things appeared this cycle that were not there in July: an Independent Director off all four committees with no replacement, two promoter-side share sales, and a foreign subsidiary announced without a number.** ***Individually small. Together they are enough to say the file is no longer clean, and to want the November print more than usual.***
+
+**🔴 Downgrade to MEDIUM-HIGH if any of these fire:**
+
+| Trigger | Status at 31-Aug-2026 |
+|---|---|
+| ⭐ **H1FY27 cash from operations still negative** *(the standing trigger, unchanged since 16-Jul)* | **Not testable until ~Oct–Nov 2026** |
+| **Days payable above 100**, or debtor days above 90 | 90 and 78 |
+| **H1FY27 revenue below ~₹800cr** | Q1 was ₹436.62cr |
+| **No Independent Director appointed by the AGM** | Vacant since 11-Aug |
+| **Promoter holding below 71%** | 72.70% at Mar-2026; two sales since total <1% |
+| **A further borrowings increase above ₹200cr** without a cash-flow turn | ₹127cr |
+
+**🟢 Upgrade conviction is already at the top of the scale; what would convert HIGH into a larger position:** **positive H1FY27 operating cash flow, days payable back below 75, and a first disclosed revenue contribution from Odisha or Rajasthan.** ***That combination would mean the returns are finally cash returns, which is the one thing this thesis has never demonstrated.***
 
 ---
-
 ## 7. What Could Prove Us Wrong
 
-**Risk 1 — SME liquidity constraint (6,172 shareholders).**
+**Risk 1 — 🔴 The cash never comes, and this is the whole thesis.** **CFO −₹16cr then −₹41cr; CFO/OP 11% → 4%; FCF −₹43cr.** *A 48.6% return on capital that does not produce distributable cash is an accounting return.*
+**⚠️ MATERIALISED, two years running, and the ratio is deteriorating.**
 
-> **⚠️ ACCUMULATING (added 16-Jul-2026)** — Shareholder count grew 3,048 → 6,172 (Mar 2025 → Mar 2026) = **+102% in 12 months**. Public shareholding rose 20.88%→23.11%. Liquidity is improving but SME cohort discount remains structural.
+**Risk 2 — 🔴 Payables are the funding source and they have a ceiling.** **49 → 90 days in one year.** *It cannot go to 180. **After this lever is exhausted, growth needs debt or equity** — and equity at 9.9x, 51% below the high, would be badly dilutive.*
 
-**Risk 2 — DISCOM payment cycles (government slow-pay).**
+**Risk 3 — 🔴 State discom receivables.** Debtor days 62 → 78. **PGVCL, OPTCL and RVPNL are all state utilities.** *Their payment cycles are policy-dependent and can lengthen without warning or recourse.*
 
-> **⚠️ MATERIALIZED in FY26 (added 16-Jul-2026)** — Debtor days rose 62 → 78 (+26%) FY25→FY26. Cash from Operating Activity worsened to **-₹41cr FY26** (from -₹16cr FY25). The DISCOM payment cycle friction has materially hit CFO conversion. Not thesis-breaking, but the risk we named in v1 is now real. Watch H1FY27 for cycle normalization.
+**Risk 4 — 🔴 Fixed-price EPC on 24-month contracts.** **₹362.82cr and ₹211.68cr of orders won in July are priced today and executed through 2028.** *Copper, aluminium and civil-works inflation over two years lands entirely on the contractor.*
 
-**Risk 3 — Working capital blow-up.**
+**Risk 5 — 🟡 Concentration, still.** **The out-of-state wins are real but small: ₹211.68cr (Odisha) and ₹75.05cr (Rajasthan) against ₹1,056.52cr of PGVCL orders in the same window.** **v2 put Gujarat concentration at ~75%**, and *even after the best order month in the company's history, Gujarat is still the business.*
 
-> **⚠️ MATERIALIZED in FY26 (added 16-Jul-2026)** — Total working-capital-linked assets grew 74% YoY (Other Assets ₹517→₹900cr). Funded by (a) supplier payable extension 49→90 days, (b) debt +₹71cr (127% jump), (c) IPO surplus ₹8.57cr redirected to WC per Apr 2026 BSE disclosure. **CFO/OP fell 11%→4%.** Growth was funded, not cash-generative. **The base case now REQUIRES CFO to turn positive H1FY27** — if it doesn't, this is a conviction downgrade trigger to MH.
+**Risk 6 — 🟡 The order-book miss precedent.** **A ₹4,500cr FY26 exit was guided in Nov-2025 and ₹3,326cr delivered.** *It has effectively been made up two quarters late — but the miss establishes that this management's forward numbers can slip.*
 
-**Risk 4 — 75% Gujarat concentration risk.**
+**Risk 7 — 🟡 Governance depth.** **One Independent Director sat on all four committees and resigned on 11-Aug with no replacement in twenty days.** **Institutional ownership is 4.20% and falling.** *There is very little independent scrutiny on this file.*
 
-> Nov 2025 concall commentary: Rajasthan OB now >₹350cr; national expansion tracking. Geographic diversification underway but Gujarat still dominant. Refresh next quarter.
+**Risk 8 — 🟡 Undisclosed amounts.** **The New Zealand subsidiary's subscription is *"as per incorporation documents"*.** *Probably trivial. But a disclosure that declines to state a number is a habit worth watching, not excusing.*
 
-**Risk 5 — Political changes affecting DISCOM contracts.** *(No update this refresh — v1 assessment stands)*
+**Risk 9 — 🟡 BSE-only liquidity.** **6,172 shareholders, no NSE listing, no index membership.** *The 47% fall happened without a disclosed operating cause; the same mechanism works in reverse and in both cases the price is not a signal about the business.*
 
-**Risk 6 — Bid conversion falls below 10-12% historical.**
+**Risk 10 — 🟢 TRACKING WELL.** v1 and v2's central structural worry was **Gujarat customer concentration**. **Two new states in six weeks, both with named contracts and defined scope.** *This is being fixed.*
 
-> **⚠️ EARLY WARNING (added 16-Jul-2026)** — FY26 exit unexecuted OB ₹3,326cr vs Nov-25 guide of ₹4,500cr = 26% below guidance. Could reflect (a) execution ran ahead of intake in H2FY26, or (b) intake pace slowed. **First delivery miss in the scorecard.** Watch H1FY27 OB print.
+**Risk 11 — 🟢 RESOLVED.** v2 recorded a data-quality problem: *"Apr 2026 raw transcript in repo has identical md5 to Jan 2026 file — likely mislabel or overwrite."* ***Moot: the concall folder did not exist at all before this refresh, and RAJESH does not file quarterly transcripts. It has been created and populated with 24 primary filings.***
 
-**Risk 7 — Further promoter dilution.**
+**⚠️ And the register churned:** **shareholder count 3,048 → 6,172 in twelve months, +102%**, while public shareholding rose 20.88% → 23.11% and institutions fell. *v2 flagged this as retail absorption; a year on, it is the whole marginal bid.*
 
-> **✅ TRACKING WELL (added 16-Jul-2026)** — Promoter holding held 73.40% → 72.70% Mar-25 → Mar-26 (0.70% dilution over 12 months — small, likely ESOP-linked). **Zero equity capital dilution** (18cr → 18cr). No preferential issue announced.
-
-**Risk 8 — Competition from KEC + Kalpataru + Techno Electric.** *(No update this refresh — segment differentiation via GIS + underground specialization holds)*
-
-**Risk 9 — RDSS scheme changes.** *(No update this refresh — Draft NEP 2026 policy path affirmed via Union Budget continuity)*
-
-**Risk 10 — Small size customer concentration.** *(No update this refresh)*
-
-**Risk 11 — BESS execution risk (NEW — added 16-Jul-2026).** Rajesh Power signed its first BESS (Battery Energy Storage System) project in Apr 2026 (per BSE Reg 30 LODR intimation) — a new business line beyond pure T&D EPC. BESS execution requires: (a) different technical expertise (cell integration, BMS, safety compliance), (b) different capital cycle (higher upfront battery inventory), (c) different DISCOM payment terms. If first project runs into execution issues (cost overrun, safety event, PPA dispute), BESS narrative could reverse. **Details TBD from Apr 2026 raw transcript re-fetch pending.** Signal to watch: BESS revenue disclosure in H1FY27 concall; project completion timeline; second BESS win.
-
-**Risk 12 — Multiple compression if SME re-rating stalls (NEW — added 16-Jul-2026).** Base case assumes P/E holds 11-15x range. But if SME cohort de-rates further (peer SME EPC names like Sathlokhar / Systematic trading 9-20x), Rajesh's 11.4x could compress toward 8-9x on any earnings hiccup — even without a fundamental change. Bear case P/E of 11x is the floor assumption; downside beyond that would take us below fair-value math.
-
----
+**⚠️ v2 risks re-assessed:** *"WC blow-up"* — **materialised and worsening.** *"Multiple compression if SME re-rating stalls"* — **materialised: 11.4x → 9.90x, and the stock is down 47%.** *"Bear case P/E of 11x is the floor assumption"* — ***that floor has already broken; the stock trades below it today, which is why this profile's bear case uses 7x.***
 
 ---
 
 ## 8. 30-Second Memory Hook
 
-> **Rajesh Power is a Ranji Trophy Man-of-the-Match — young, technical, elite performance with local hero status.** Gujarat-based power T&D EPC contractor with FY26 order book INR 3,326 cr (2.7x revenue), bid book INR 6,000 cr, and **48.6% ROCE + 42.9% ROE (elite)**. FY26 executed 15 lakh consumers benefited via 350+ feeders + 4,000+ RMUs + 1,300+ km cables. **10.7x P/E — cheapest quality T&D EPC name in watchlist.**
+> **Rajesh Power Services earns forty-nine percent on capital and trades at ten times earnings, and both of those facts have the same cause.**
 >
-> The captain (Utsav Panchal + Nikita Shah since 2010) is executing — multiple GIS commissioning (132kV Jodhpur, 132kV Jaipur, 220kV ATUL, 66kV JK Paper), RDSS delivery (Gandhinagar + Ahmedabad), Draft National Electricity Policy 2026 tailwind alignment.
+> **It buries power lines for state utilities in Gujarat — trenching, cable, ring main units, GIS mapping, hand it back working — with eighteen crore of fixed assets carrying sixteen hundred crore of revenue. That is why the return is elite. It is also why the cash never shows up: when your capital is receivables and work-in-progress, growing forty-seven percent consumes cash rather than producing it. Two hundred crore of operating profit turned into *minus* forty-one crore of operating cash last year, funded by paying suppliers in ninety days instead of forty-nine.**
 >
-> **What you're buying:** SME Power T&D EPC contractor at 10.7x P/E on 48.6% ROCE with 2.7x order book coverage + Draft NEP 2026 + Viksit Bharat 2047 tailwinds. **What you're risking:** SME illiquidity (6,172 shareholders), DISCOM payment cycles, working capital blow-up, 75% Gujarat concentration, or further promoter dilution. Weighted 2-year return **~170%** — extraordinary upside if execution holds.
+> **Everything else since July has gone right.** **Eleven hundred and sixty-six crore of new orders in four weeks — the best month in the company's history. A first-ever entry into Odisha and a deepened Rajasthan position, chipping away at the Gujarat concentration that was always the structural worry. CRISIL raising the outlook to Positive in the middle of the drawdown. And Diamond Power's own filing on the eleventh of August disclosing a hundred and ninety-five crore cable order *from* Rajesh — a supplier confirming, from the other side of the transaction, that the July wins are being executed and not just announced.**
 >
-> **What to watch:** H1-H2 FY27 order inflow trajectory, bid book conversion rate, national expansion progress (Rajasthan + Maharashtra + Bihar wins), and any preferential issue announcement. Position sizing: **high conviction on elite returns + growth + policy tailwind — SME liquidity constraint, size 1-2%.**
+> **The share price has fallen forty-seven percent through all of it.**
+>
+> **What you're buying:** the highest-returning contractor in Sector 19 at the lowest multiple in Sector 19, with three years of revenue in the order book and a credit outlook moving the right way. **What you're risking:** that the forty-nine percent return is an accounting return, that the ninety-day payable is a lever already pulled, and that a BSE-only stock with six thousand shareholders and no institutional bid can fall a lot further than it already has.
+>
+> **Weighted 2-year return ≈ +124%** — base **+120%**, bull **+260%**, bear **−36%**. ***Note that is down from the ~170% the last two profiles carried, and the reason is that their bear cases still showed a gain. A bear case that cannot lose money is not a bear case.***
+>
+> **HELD at HIGH (Under Watch).** **What to watch is one number, and it does not arrive until November: H1FY27 cash from operations.** *If it is positive, this is very cheap. If it is another minus forty crore, the market has been right all along.*
+
+---
+
+## 9. Community Pulse
+
+**⤴ v2 recorded *"ValuePickr Rajesh Power thread scan pending Chrome. Skipped for this refresh."* That deferral is now closed, and the answer is that there is nothing to find.**
+
+**There is no dedicated ValuePickr thread for Rajesh Power Services.** A search returns only unrelated topics — Green Hydrogen, Jubilant Ingrevia, CESC. ***For a company that grew revenue 47%, won ₹1,166cr of orders in four weeks and entered a new state, that is a complete absence of retail analytical coverage.***
+
+**No Substack coverage located.**
+
+**Sell-side and institutional:** **institutional ownership is 4.20% and has fallen every period since listing — FII 2.32% → 0.68%, DII 7.43% → 3.52%.** **The company does hold analyst and investor meets** — Reg-30 intimations and outcomes are on file for **20-Apr, 24-Apr, 29-Apr and 15-Jul 2026** — **but it files no transcripts**, so what is said at them is not on the public record.
+
+**Sentiment verdict: ⚫ UNCOVERED.** ***This is not a contested stock or a contrarian one. It is an unfollowed one: no forum thread, no Substack, no transcripts, 6,172 shareholders, and institutions heading for the exit. The 47% fall happened in a vacuum of analysis, which is precisely why the filings had to do all the work in this profile.***
 
 ---
 
 ## Source Appendix
 
-- **Concalls read (v1):** H2FY26 (Apr 2026, primary — ⚠️ file in repo is duplicate of Q3FY26 by md5, re-fetch pending), Q3FY26 (Jan 2026), H1FY26 (Nov 2025) — verified in repo; plus Q4FY25 investor PPT (May 2025).
-- **Screener (refreshed 16-Jul-2026):** Full P&L, Balance Sheet, Cash Flow, Ratios tables captured via server-side fetch. Rajesh Power Services Ltd (BSE-SME: 544291).
-- **BSE filings (added 16-Jul-2026):** Apr 2026 Announcement under Reg 30 LODR — *"FY26 earnings call transcript: revenue ₹1,628 crore, EBITDA ₹197 crore, PAT ₹143 crore; BESS project signed"*; Apr 2026 Reg 32 IPO fund utilization — *"₹856.88 lakh surplus used for working capital"*.
-- **ValuePickr — Rajesh Power thread:** Pulse scan pending Chrome availability.
-- **Peer references:** KEC International, Kalpataru Projects, Techno Electric, Skipper, Voltamp Transformers. Peer P/E refresh pending Chrome.
-- **Data quality note:** Apr 2026 (H2FY26) raw transcript in repo has identical md5 to Jan 2026 file — likely mislabel or overwrite during earlier fetch. Chrome-based refetch queued.
+- **🔴 No concall transcripts exist.** **RAJESH holds analyst and investor meets but files no transcripts, and reports half-yearly.** **Gate: 🟡 PARTIAL by structural limitation.** *Same category as MONARCH, NITTA and AMIC.*
+- **🗂️ `Fetched Concalls/RAJESH/` did not exist before this refresh.** *v2's source appendix referenced an "Apr 2026 raw transcript in repo" with a duplicate md5 — no such folder was on disk.* **Created and populated with 24 primary filings.**
+- **BSE announcements feed (544291), enumerated 1-Apr → 31-Aug-2026: 28 filings**, of which **24 downloaded, `%PDF`-verified, deduplicated by md5 and text-extracted.** **`SLONGNAME` echoed back as "Rajesh Power Services Ltd" on every query**, per §4A. Key documents:
+  - **16-Jul-2026 — Q1FY27 Business Update**: revenue **₹436.62cr (unaudited)**, unexecuted order book **₹3,741.79cr incl. L1** at 30-Jun-2026
+  - **Order wins under Reg 30, with Annexure-A values read in each case**: **17-Jun OPTCL ₹211.68cr / 24 months** · **9-Jul PGVCL ₹653.12cr** · **17-Jul PGVCL + RVPNL ₹34.37cr** · **22-Jul PGVCL ₹40.58cr / 12 months** · **27-Jul RVPNL ₹75.05cr / 18 months** · **4-Aug PGVCL ₹362.82cr / 24 months**
+  - **15-Jul-2026 — CRISIL Ratings**: long-term **A-/Positive** *(outlook revised from Stable; rating reaffirmed)*, short-term **A2+** reaffirmed
+  - **15-Aug-2026 — incorporation of RAJESH POWER SERVICES NZ LIMITED**, 100% wholly-owned foreign subsidiary, New Zealand, incorporated 14-Aug; object *"Electrical and Solar EPC"*; **consideration not stated**
+  - **12-Aug-2026 — resignation of Independent Director Viral Deepakbhai Ranpura (DIN 07177208)** effective 11-Aug, ceasing from the Audit, Nomination & Remuneration, Stakeholders Relationship and CSR committees
+  - **📸 Reg 29(2) disclosures, read as rendered page images** *(both PDFs are scans yielding 3–4 bytes of text)*: **7-May-2026, Jyotsna Ramesh Patel — sale of 158,000 shares in the open market on 4-May (~0.88%)**; **25-Jun-2026, Krunal Daxesh Panchal, "Promotor Group Member", PAC Daxesh Ramchandra Panchal — 16,666 shares (0.09%) sold in full, holding to nil**
+  - **28-Apr-2026 — Regulation 32 statement of deviation**: IPO **₹160.47cr** (fresh issue 27.9 lakh shares / ₹93.47cr + OFS 20 lakh shares / ₹67cr); **"Is there a Deviation / Variation? No"**
+  - **23-Apr-2026 — audited standalone and consolidated results for the HALF financial year**, with investor presentation and press release. **The most recent results filing of any kind.**
+- **🔎 Cross-company corroboration:** **Diamond Power Infrastructure's Reg-30 filing of 11-Aug-2026 discloses a ₹195.48cr order *from Rajesh Power Services* for 11kV MV underground cable for PGVCL's SDMF and Urban Underground schemes.** *Used as independent evidence that the July PGVCL wins are in execution.*
+- **NSE `EQUITY_L.csv`** — **RAJESH is absent** (only Rajesh Exports appears); **NSE's SME announcements feed returns `[]`.** **BSE-only confirmed.**
+- **Screener:** Rajesh Power Services Ltd (BSE 544291), consolidated — half-yearly, P&L, balance sheet, cash flow, ratios, shareholding.
+- **Peer data:** Screener consolidated for TRANSRAILL, KEC, KPIL and SKIPPER, pulled 31-Aug-2026. ⤴ *This closes v2's note that "peer P/E refresh [is] pending Chrome."*
+- **ValuePickr:** **no thread exists.** ⤴ *Closes v2's "pulse scan pending Chrome."*
+- **Peer references:** Transrail Lighting, KEC International, Kalpataru Projects, Skipper.
+
+**Data-quality notes:**
+1. **🔴 RAJESH REPORTS HALF-YEARLY.** Screener's "quarters" table is half-years (Sep/Mar). **The ₹436.62cr Q1FY27 figure is an unaudited voluntary business update, not a filed result.**
+2. **⤴ The C1 queue's "RAJESH — unconfirmed" entry is resolved: there is no Q1FY27 and there never will be. Moved to the C2 half-yearly bucket.** *This is the second instance of the §4B failure mode this cycle, after YASH.*
+3. **⚠️ The cash conversion cycle improved 39 → 22 days only because days payable went 49 → 90.** **Debtor days rose 62 → 78 and inventory 27 → 34.** *Quoting the CCC alone materially misrepresents the working-capital position.*
+4. **🟡 Both Reg 29(2) filings are scans with no usable text layer** and were read by rendering the pages at 120–130 dpi, per §4A rule C.
+5. **🟡 The New Zealand subsidiary's subscription amount is not disclosed.**
+6. **🟡 The Independent Director's committee roles are stated in the filing as *"Chairman/Member"* without specifying which.** *I have not assumed he chaired the Audit Committee.*
+7. **⚠️ v2's risk annotation refers to "IPO surplus ₹8.57cr redirected to WC per Apr 2026 BSE disclosure", while the 28-Apr Reg 32 statement records no deviation or variation.** *Not reconciled; both are recorded.*
+8. **The company holds analyst/investor meets (20-Apr, 24-Apr, 29-Apr, 15-Jul 2026) but files no transcripts**, so management commentary is not on the public record.
 
 ---
 
