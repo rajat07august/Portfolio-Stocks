@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How Refinery Engineering Works — EIL Industry Primer</title>
+<meta name="robots" content="noindex,nofollow">
+<style>
+
+
+:root{
+  --navy:#1F4E79; --blue:#2E75B6; --ink:#16202b; --mut:#5a6a78; --bg:#fafbfc;
+  --card:#ffffff; --line:#e3e8ee; --amber:#a2650a; --amberbg:#fff8e6;
+  --red:#b3261e; --redbg:#fdeceb; --green:#1a6f4a; --greenbg:#ecf7f1;
+  color-scheme: light;
+}
+*{box-sizing:border-box}
+body{
+  max-width:1040px; margin:0 auto; padding:22px 20px 80px;
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+  line-height:1.62; color:var(--ink); background:var(--bg); font-size:15px;
+}
+.nav{display:flex; gap:18px; flex-wrap:wrap; margin-bottom:12px; font-size:13.5px}
+.nav a{color:var(--navy); font-weight:600; text-decoration:none}
+.nav a:hover{text-decoration:underline; color:var(--blue)}
+.topbar{background:linear-gradient(135deg,#1F4E79 0%,#2E75B6 100%); color:#fff; padding:20px 24px; border-radius:10px; margin-bottom:22px}
+.topbar h1{margin:0 0 6px; font-size:25px; line-height:1.25; color:#fff; border:0; padding:0}
+.topbar .sub{font-size:14.5px; opacity:.92}
+.topbar .meta{font-size:12.5px; opacity:.8; margin-top:10px}
+h2{color:var(--navy); font-size:20px; margin:44px 0 6px; border-left:4px solid var(--navy); padding-left:12px}
+h2 .n{color:var(--blue); font-weight:700}
+h3{color:var(--blue); font-size:16px; margin:26px 0 8px}
+p{margin:11px 0}
+ul{margin:10px 0; padding-left:22px} li{margin:6px 0}
+.lede{font-size:15.5px; color:#2c3b49}
+.box{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 18px; margin:18px 0}
+.box.warn{background:var(--amberbg); border-color:#f0dcae}
+.box.red{background:var(--redbg); border-color:#f3cfcb}
+.box.good{background:var(--greenbg); border-color:#c7e4d5}
+.box h4{margin:0 0 6px; font-size:14px; color:var(--navy); text-transform:uppercase; letter-spacing:.04em}
+.src{color:var(--mut); font-size:12.5px}
+code.src{background:transparent; padding:0}
+figure.dg{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px 16px 12px; margin:22px 0}
+figure.dg svg{width:100%; height:auto; display:block; color:#3d4b5c}
+figure.dg figcaption{font-size:13px; color:var(--mut); margin-top:12px; padding-top:10px; border-top:1px dashed var(--line)}
+svg text:not([fill]){fill:currentColor}
+.t-lg{font-size:15px; font-weight:700}
+.t-md{font-size:13.5px; font-weight:700}
+.t{font-size:12.5px}
+.t-sm{font-size:11px}
+.t-mut{opacity:.7}
+.tw{overflow-x:auto; margin:16px 0}
+table{border-collapse:collapse; width:100%; min-width:620px; font-size:13.5px; background:var(--card)}
+th,td{border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top}
+th{background:#eef3f8; color:var(--navy); font-weight:700}
+.toc{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 20px; font-size:14px}
+.toc ol{margin:6px 0; padding-left:22px} .toc li{margin:4px 0}
+.toc a{color:var(--navy); text-decoration:none} .toc a:hover{text-decoration:underline}
+.glos{display:grid; grid-template-columns:150px 1fr; gap:6px 14px; font-size:13.5px}
+.glos dt{font-weight:700; color:var(--navy)} .glos dd{margin:0}
+@media (max-width:640px){ .glos{grid-template-columns:1fr} .glos dt{margin-top:8px} }
+.tag{display:inline-block; font-size:11px; font-weight:700; letter-spacing:.03em; padding:2px 7px; border-radius:20px; vertical-align:middle}
+.tag.fact{background:#e8f0f8; color:var(--navy)}
+.tag.inf{background:var(--amberbg); color:var(--amber); border:1px solid #ecd9a8}
+blockquote{border-left:4px solid #2E75B6; background:#f4f8fc; margin:16px 0; padding:12px 18px; font-size:14px}
+hr{border:0; border-top:1px solid var(--line); margin:38px 0}
+</style>
+</head>
+<body>
+
+<div class="nav">
+  <a href="https://portfolio-stocks-chi.vercel.app/index.html">← Dashboard</a>
+  <a href="https://portfolio-stocks-chi.vercel.app/profile.html?stock=EIL">Full profile — EIL →</a>
+</div>
+
+<div class="topbar">
+  <h1>How refinery engineering actually works</h1>
+  <div class="sub">An industry primer for Engineers India — what a design consultancy sells, why the same rupee of revenue is worth three times more in one segment than the other, and why the order book matters more than the order book</div>
+  <div class="meta">Built 31-Aug-2026 · Sourced from EIL's 7 official transcripts and the Q1FY27 results and filings on disk · Companion to <strong>Company Profiles/EIL.md</strong></div>
+</div>
+
+<p class="lede">This page explains the <strong>industry</strong>, not the investment case. What follows is the mechanism: what a refinery owner actually buys when it hires an engineering consultancy, the two very different businesses EIL runs under one roof, why a quarter with falling revenue can be a much better quarter, what an asset-light design house looks like on a balance sheet, and why the thing to watch is not the backlog but the rate at which it is being refilled.</p>
+
+<div class="box warn">
+<h4>How to read this</h4>
+<p style="margin:6px 0"><span class="tag fact">FACT</span> Everything unmarked comes from EIL's own filings — transcripts, results and exchange notifications — with the source named in grey after the claim.</p>
+<p style="margin:6px 0"><span class="tag inf">MY INFERENCE</span> Where the framing is mine rather than management's, it is marked.</p>
+<p style="margin:6px 0; color:#5a6a78; font-size:13.5px"><strong>One number on this page is disputed by the company's own call.</strong> Q1FY27 order inflow was stated as <strong>₹514cr</strong> by the Director (Finance) and as <strong>₹2,750cr "as of today"</strong> by the head of Business Development six weeks later, on the same call, with nobody reconciling them. §6 shows both and uses the one with a defined period attached.</p>
+</div>
+
+<div class="toc">
+<strong>Contents</strong>
+<ol>
+<li><a href="#s1">What a refinery owner is actually buying</a></li>
+<li><a href="#s2">Two businesses under one roof</a></li>
+<li><a href="#s3">Why mix is the entire P&amp;L</a></li>
+<li><a href="#s4">₹100 of revenue, in each segment</a></li>
+<li><a href="#s5">What an asset-light design house looks like</a></li>
+<li><a href="#s6">The order engine — and why intake beats backlog</a></li>
+<li><a href="#s7">Who buys, and the fact that the owner is also the customer</a></li>
+<li><a href="#s8">The capex cycle, and why a consultancy feels it first</a></li>
+<li><a href="#s9">The new frontiers — all of them consultancy-first</a></li>
+<li><a href="#s10">Where the profit actually comes from</a></li>
+<li><a href="#s11">Reading the industry through the numbers</a></li>
+<li><a href="#s12">What is not disclosed</a></li>
+<li><a href="#s13">Glossary</a></li>
+</ol>
+</div>
+
+<h2 id="s1"><span class="n">1.</span> What a refinery owner is actually buying</h2>
+
+<p>A refinery expansion does not begin with steel. It begins with a question — <em>can this be done, at what cost, and to what design?</em> — and years of engineering answer it before a single vessel is ordered. That engineering is a purchased service, and it is EIL's business.</p>
+
+<p>The work runs in stages, and each stage is a separate contract with its own price. <strong>The early stages are cheap and enormously influential; the later ones are expensive and largely mechanical.</strong></p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 442" role="img" aria-label="The project lifecycle from feasibility study through process design, front-end engineering, detailed engineering, procurement, construction supervision and commissioning, showing that consultancy covers the design and management stages while turnkey adds procurement and construction responsibility.">
+  <defs>
+    <marker id="e1a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <text class="t-sm t-mut" x="20" y="30">Years before the plant runs →</text>
+
+  <rect x="20"  y="44" width="128" height="70" rx="7" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.6"/>
+  <text class="t-md" x="84" y="70" text-anchor="middle" fill="#1F4E79">Feasibility</text>
+  <text class="t-sm" x="84" y="88" text-anchor="middle" fill="#1F4E79">can it be built,</text>
+  <text class="t-sm" x="84" y="104" text-anchor="middle" fill="#1F4E79">and for how much</text>
+
+  <rect x="156" y="44" width="128" height="70" rx="7" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.6"/>
+  <text class="t-md" x="220" y="70" text-anchor="middle" fill="#1F4E79">Process design</text>
+  <text class="t-sm" x="220" y="88" text-anchor="middle" fill="#1F4E79">which technology,</text>
+  <text class="t-sm" x="220" y="104" text-anchor="middle" fill="#1F4E79">what configuration</text>
+
+  <rect x="292" y="44" width="128" height="70" rx="7" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.6"/>
+  <text class="t-md" x="356" y="70" text-anchor="middle" fill="#1F4E79">FEED</text>
+  <text class="t-sm" x="356" y="88" text-anchor="middle" fill="#1F4E79">front-end design —</text>
+  <text class="t-sm" x="356" y="104" text-anchor="middle" fill="#1F4E79">fixes the cost estimate</text>
+
+  <rect x="428" y="44" width="128" height="70" rx="7" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.6"/>
+  <text class="t-md" x="492" y="70" text-anchor="middle" fill="#1F4E79">Detailed</text>
+  <text class="t-md" x="492" y="86" text-anchor="middle" fill="#1F4E79">engineering</text>
+  <text class="t-sm" x="492" y="104" text-anchor="middle" fill="#1F4E79">every drawing, every spec</text>
+
+  <rect x="564" y="44" width="128" height="70" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.4"/>
+  <text class="t-md" x="628" y="70" text-anchor="middle">Procurement</text>
+  <text class="t-sm t-mut" x="628" y="88" text-anchor="middle">buying the vessels,</text>
+  <text class="t-sm t-mut" x="628" y="104" text-anchor="middle">pipes, compressors</text>
+
+  <rect x="700" y="44" width="128" height="70" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.4"/>
+  <text class="t-md" x="764" y="70" text-anchor="middle">Construction</text>
+  <text class="t-sm t-mut" x="764" y="88" text-anchor="middle">building it, or</text>
+  <text class="t-sm t-mut" x="764" y="104" text-anchor="middle">supervising who does</text>
+
+  <rect x="836" y="44" width="108" height="70" rx="7" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.6"/>
+  <text class="t-md" x="890" y="70" text-anchor="middle" fill="#1a6f4a">Commission</text>
+  <text class="t-sm" x="890" y="88" text-anchor="middle" fill="#1a6f4a">start it up,</text>
+  <text class="t-sm" x="890" y="104" text-anchor="middle" fill="#1a6f4a">hand it over</text>
+
+  <line x1="150" y1="79" x2="154" y2="79" stroke="currentColor" stroke-width="1.4" marker-end="url(#e1a)"/>
+  <line x1="286" y1="79" x2="290" y2="79" stroke="currentColor" stroke-width="1.4" marker-end="url(#e1a)"/>
+  <line x1="422" y1="79" x2="426" y2="79" stroke="currentColor" stroke-width="1.4" marker-end="url(#e1a)"/>
+  <line x1="558" y1="79" x2="562" y2="79" stroke="currentColor" stroke-width="1.4" marker-end="url(#e1a)"/>
+  <line x1="694" y1="79" x2="698" y2="79" stroke="currentColor" stroke-width="1.4" marker-end="url(#e1a)"/>
+  <line x1="830" y1="79" x2="834" y2="79" stroke="currentColor" stroke-width="1.4" marker-end="url(#e1a)"/>
+
+  <rect x="20" y="132" width="536" height="34" rx="5" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.6"/>
+  <text class="t-md" x="288" y="154" text-anchor="middle" fill="#1F4E79">CONSULTANCY — brains, drawings, supervision</text>
+  <rect x="564" y="132" width="380" height="34" rx="5" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.6"/>
+  <text class="t-md" x="754" y="154" text-anchor="middle" fill="#a2650a">TURNKEY adds these — money and site risk</text>
+
+  <rect x="20" y="188" width="456" height="126" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t-md" x="40" y="214">The two things a consultancy is really selling</text>
+  <text class="t" x="40" y="240">1 · <tspan font-weight="700">Judgement that is expensive to get wrong.</tspan> A configuration chosen at</text>
+  <text class="t" x="62" y="258">the design stage sets the cost of the plant for thirty years.</text>
+  <text class="t" x="40" y="282">2 · <tspan font-weight="700">Project management (PMC)</tspan> — running the tender, checking the</text>
+  <text class="t" x="62" y="300">contractor's work, protecting the owner from the builder.</text>
+
+  <rect x="492" y="188" width="452" height="126" rx="8" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.5"/>
+  <text class="t-md" x="512" y="214" fill="#1F4E79">Why the incumbent keeps winning</text>
+  <text class="t" x="512" y="240" fill="#1F4E79">This is a <tspan font-weight="700">reference business</tspan>. You are hired to design the next</text>
+  <text class="t" x="512" y="258" fill="#1F4E79">refinery because you designed the last one, and the owner's own</text>
+  <text class="t" x="512" y="276" fill="#1F4E79">standards are often written around your drawings.</text>
+  <text class="t-sm" x="512" y="294" fill="#1F4E79">EIL has done this for the Indian public-sector oil complex for sixty years.</text>
+
+  <rect x="20" y="330" width="924" height="98" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.4"/>
+  <text class="t-md" x="40" y="356" fill="#a2650a">The distinction that matters for everything below</text>
+  <text class="t" x="40" y="382" fill="#a2650a"><tspan font-weight="700">In consultancy, EIL sells hours and carries no money risk.</tspan> The owner buys the equipment and pays the contractor.</text>
+  <text class="t" x="40" y="404" fill="#a2650a"><tspan font-weight="700">In turnkey (LSTK), EIL takes the whole job at a fixed price</tspan> — it buys the equipment, hires the builders, and keeps or loses the difference.</text>
+  <text class="t-sm t-mut" x="40" y="422">Same engineers, same drawings, completely different economics — §2.</text>
+</svg>
+<figcaption><strong>The early stages are where the influence is, and they are also where the margin is.</strong> A feasibility study is a rounding error against the cost of the refinery, yet it decides what gets built — which is why the design house is hired first and, once inside, is very hard to remove. <span class="src">Stage names are standard practice in process-plant engineering. The consultancy/turnkey split and what each covers are EIL's own reporting segments, described on the Q1FY27 call (14-Aug-2026).</span></figcaption>
+</figure>
+
+<h2 id="s2"><span class="n">2.</span> Two businesses under one roof</h2>
+
+<p>EIL reports two segments, and they are not two flavours of the same thing. They differ in what is sold, what is risked, how much capital is consumed and — above all — what a rupee of revenue is worth.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 380" role="img" aria-label="Consultancy versus lump-sum turnkey compared on what is sold, what is risked, ticket size, capital consumed and segment margin of 24 percent against 7.5 percent.">
+  <rect x="20" y="24" width="450" height="326" rx="9" fill="#eaf2fb" stroke="#2E75B6" stroke-width="2.2"/>
+  <text class="t-lg" x="42" y="56" fill="#1F4E79">CONSULTANCY &amp; ENGINEERING</text>
+  <text class="t-sm" x="42" y="76" fill="#1F4E79">the core franchise</text>
+
+  <text class="t-md" x="42" y="112">What is sold</text>
+  <text class="t" x="42" y="134">Engineering hours, drawings, specifications and</text>
+  <text class="t" x="42" y="152">project management. A service, not an asset.</text>
+
+  <text class="t-md" x="42" y="184">What is risked</text>
+  <text class="t" x="42" y="206">Reputation and schedule. <tspan font-weight="700">Not money</tspan> — the owner buys</text>
+  <text class="t" x="42" y="224">the equipment and pays the contractor directly.</text>
+
+  <text class="t-md" x="42" y="256">Segment margin, Q1FY27</text>
+  <rect x="42" y="268" width="300" height="34" rx="4" fill="#2E75B6"/>
+  <text class="t-lg" x="192" y="292" text-anchor="middle" fill="#ffffff">24%</text>
+  <text class="t-sm" x="356" y="292" fill="#1F4E79">up from 17%</text>
+  <text class="t-sm" x="42" y="326" fill="#1F4E79">Management: <tspan font-style="italic">"we are sure to keep 24%, 25% segment profit"</tspan></text>
+
+  <rect x="490" y="24" width="450" height="326" rx="9" fill="#fff8e6" stroke="#ecd9a8" stroke-width="2"/>
+  <text class="t-lg" x="512" y="56" fill="#a2650a">TURNKEY (LSTK)</text>
+  <text class="t-sm" x="512" y="76" fill="#a2650a">lump-sum turnkey — the volume business</text>
+
+  <text class="t-md" x="512" y="112">What is sold</text>
+  <text class="t" x="512" y="134">The finished plant at a fixed price. EIL buys the</text>
+  <text class="t" x="512" y="152">equipment and hires the construction.</text>
+
+  <text class="t-md" x="512" y="184">What is risked</text>
+  <text class="t" x="512" y="206"><tspan font-weight="700">Money.</tspan> Cost overruns, delays and equipment prices land</text>
+  <text class="t" x="512" y="224">on EIL, not the client. Much larger ticket sizes.</text>
+
+  <text class="t-md" x="512" y="256">Segment margin, Q1FY27</text>
+  <rect x="512" y="268" width="94" height="34" rx="4" fill="#a2650a"/>
+  <text class="t-lg" x="559" y="292" text-anchor="middle" fill="#ffffff">7.5%</text>
+  <text class="t-sm" x="620" y="292" fill="#a2650a">also improved year on year</text>
+  <text class="t-sm t-mut" x="512" y="326">Revenue passes through the P&amp;L at scale; profit does not.</text>
+</svg>
+<figcaption><strong>The bars are drawn to the same scale, and that is the whole picture.</strong> A rupee of consultancy revenue produces roughly three times the segment profit of a rupee of turnkey revenue — which is why management says plainly that <em>"it is the strategy of the company to keep consultancy business on higher side… management efforts are always there to grab the consultancy business first."</em> <span class="src">Segment margins of 24% (from 17%) and 7.5%, and both quotes, from the Q1FY27 call (14-Aug-2026), Sanjay Jindal, Director (Finance).</span></figcaption>
+</figure>
+
+<h2 id="s3"><span class="n">3.</span> Why mix is the entire P&amp;L</h2>
+
+<p>Q1FY27 is the cleanest demonstration of this you will find in any Indian filing. <strong>Turnover fell 6.5%. Profit before tax rose 55%.</strong> Nothing about the market changed — the mix did.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 420" role="img" aria-label="In Q1FY27 consultancy revenue rose 22 percent to 499 crore while turnkey fell 33 percent to 302 crore, so total turnover fell 6.5 percent but profit before tax rose 55 percent and operating margin doubled from 7 to 14 percent.">
+  <text class="t-md" x="20" y="32">Standalone turnover by segment, ₹ crore</text>
+
+  <text class="t-md" x="150" y="76" text-anchor="end">Q1FY26</text>
+  <rect x="160" y="56" width="286" height="34" rx="4" fill="#2E75B6"/>
+  <rect x="448" y="56" width="314" height="34" rx="4" fill="#e0c489"/>
+  <text class="t-md" x="303" y="79" text-anchor="middle" fill="#ffffff">consultancy 408</text>
+  <text class="t-md" x="605" y="79" text-anchor="middle" fill="#16202b">turnkey 449</text>
+  <text class="t-md" x="774" y="79">= ₹857cr</text>
+  <text class="t-sm t-mut" x="160" y="106">consultancy ≈ 48% of the mix</text>
+
+  <text class="t-md" x="150" y="164" text-anchor="end">Q1FY27</text>
+  <rect x="160" y="144" width="349" height="34" rx="4" fill="#2E75B6"/>
+  <rect x="511" y="144" width="211" height="34" rx="4" fill="#e0c489"/>
+  <text class="t-md" x="334" y="167" text-anchor="middle" fill="#ffffff">consultancy 499</text>
+  <text class="t-md" x="616" y="167" text-anchor="middle" fill="#16202b">turnkey 302</text>
+  <text class="t-md" x="734" y="167">= ₹801cr</text>
+  <text class="t-sm" x="160" y="194" fill="#1F4E79">consultancy ≈ 62% of the mix — <tspan font-weight="700">+22% while turnkey fell 33%</tspan></text>
+
+  <line x1="20" y1="216" x2="940" y2="216" stroke="currentColor" stroke-width="1" opacity=".2"/>
+
+  <text class="t-md" x="20" y="248">What that did to the profit line</text>
+
+  <text class="t-md" x="220" y="288" text-anchor="end">Turnover</text>
+  <rect x="230" y="268" width="120" height="30" rx="4" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.4"/>
+  <text class="t-md" x="290" y="289" text-anchor="middle" fill="#b3261e">−6.5%</text>
+
+  <text class="t-md" x="220" y="332" text-anchor="end">Operating margin</text>
+  <rect x="230" y="312" width="120" height="30" rx="4" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.4"/>
+  <text class="t-md" x="290" y="333" text-anchor="middle" fill="#1a6f4a">7% → 14%</text>
+
+  <text class="t-md" x="220" y="376" text-anchor="end">Profit before tax</text>
+  <rect x="230" y="356" width="120" height="30" rx="4" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.4"/>
+  <text class="t-md" x="290" y="377" text-anchor="middle" fill="#1a6f4a">+55%</text>
+
+  <rect x="380" y="262" width="560" height="132" rx="8" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.5"/>
+  <text class="t-md" x="400" y="288" fill="#1F4E79">The habit this should build</text>
+  <text class="t" x="400" y="314" fill="#1F4E79">For this company, <tspan font-weight="700">a falling revenue line is not automatically bad news</tspan> and a</text>
+  <text class="t" x="400" y="334" fill="#1F4E79">rising one is not automatically good. Turnkey revenue arrives in large lumps</text>
+  <text class="t" x="400" y="354" fill="#1F4E79">at 7.5%; consultancy arrives slowly at 24%.</text>
+  <text class="t" x="400" y="380" fill="#1F4E79"><tspan font-weight="700">Read the segment split before reading the growth rate.</tspan></text>
+</svg>
+<figcaption><strong>The same quarter looks like contraction on the top line and a step change on the bottom line, and both readings are correct.</strong> EBITDA margin went from 11.72% to 18.55% on lower revenue. Management confirmed there were no write-backs behind it — the improvement is mix and execution. <span class="src">Segment and headline figures from the Q1FY27 call and results (13–14 Aug-2026); the absence of write-backs was confirmed on the call, per the profile's §4.</span></figcaption>
+</figure>
+
+<h2 id="s4"><span class="n">4.</span> ₹100 of revenue, in each segment</h2>
+
+<p>Put the two segments on the same ₹100 note and the strategy explains itself.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 300" role="img" aria-label="One hundred rupees of consultancy revenue yields about 24 rupees of segment profit; the same hundred of turnkey revenue yields about 7.5 rupees, so turnkey needs roughly three times the revenue for the same profit.">
+  <text class="t-md" x="20" y="34">₹100 of segment revenue, Q1FY27 margins</text>
+
+  <text class="t-md" x="150" y="88" text-anchor="end">Consultancy</text>
+  <rect x="160" y="64" width="640" height="38" rx="4" fill="#dbe6f0"/>
+  <rect x="160" y="64" width="154" height="38" rx="4" fill="#2E75B6"/>
+  <text class="t-md" x="237" y="89" text-anchor="middle" fill="#ffffff">₹24</text>
+  <text class="t-sm t-mut" x="560" y="89" text-anchor="middle">₹76 of cost</text>
+  <text class="t-md" x="814" y="89">segment profit</text>
+
+  <text class="t-md" x="150" y="156" text-anchor="end">Turnkey</text>
+  <rect x="160" y="132" width="640" height="38" rx="4" fill="#f0e2c2"/>
+  <rect x="160" y="132" width="48" height="38" rx="4" fill="#a2650a"/>
+  <text class="t-md" x="228" y="157" fill="#a2650a">₹7.5</text>
+  <text class="t-sm t-mut" x="520" y="157" text-anchor="middle">₹92.5 of cost — much of it equipment bought for the client</text>
+  <text class="t-md" x="814" y="157">segment profit</text>
+
+  <rect x="20" y="196" width="456" height="90" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t-md" x="40" y="222">The arithmetic of the strategy</text>
+  <text class="t" x="40" y="248">To earn the profit of <tspan font-weight="700">₹100 of consultancy</tspan>, turnkey has to bill</text>
+  <text class="t" x="40" y="268">roughly <tspan font-weight="700">₹320</tspan> — and carry the cost and delivery risk on all of it.</text>
+
+  <rect x="492" y="196" width="452" height="90" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.4"/>
+  <text class="t-md" x="512" y="222" fill="#a2650a">Which is why turnkey is not simply dropped</text>
+  <text class="t" x="512" y="248" fill="#a2650a">It keeps the organisation busy, wins access to projects, and is</text>
+  <text class="t" x="512" y="268" fill="#a2650a">sometimes the only way a client will award the work at all.</text>
+</svg>
+<figcaption><strong>Turnkey is not a bad business; it is a different one, and it inflates revenue far more than profit.</strong> That is why any comparison of EIL's revenue growth with an EPC contractor's is close to meaningless — and why management guides the <em>mix</em> rather than the top line. Guidance for FY27 is <strong>50–60% consultancy</strong>. <span class="src">Margins and the FY27 mix guidance from the Q1FY27 call. <span class="tag inf">MY INFERENCE</span> — the ₹320 equivalence is my arithmetic from the two stated margins.</span></figcaption>
+</figure>
+
+<h2 id="s5"><span class="n">5.</span> What an asset-light design house looks like</h2>
+
+<p>Almost every other industrial business on this watchlist converts capital into product. A design consultancy converts <strong>people</strong> into product — and the balance sheet shows it.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 380" role="img" aria-label="A design consultancy has no plant, no debt and a large cash pile: interest expense of one crore a quarter against other income of 81 crore, ROCE of 30.4 percent and ROE of 23.4 percent.">
+  <rect x="20" y="24" width="450" height="200" rx="9" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.8"/>
+  <text class="t-lg" x="42" y="56" fill="#1F4E79">What EIL owns</text>
+  <text class="t" x="42" y="86">· Engineers, and the standards and reference designs</text>
+  <text class="t" x="42" y="104">  they have accumulated over sixty years</text>
+  <text class="t" x="42" y="130">· Offices and computers</text>
+  <text class="t" x="42" y="156">· <tspan font-weight="700">A large pile of cash</tspan></text>
+  <text class="t-sm t-mut" x="42" y="186">There is no plant to depreciate, no line to keep loaded, and no</text>
+  <text class="t-sm t-mut" x="42" y="204">inventory. Capacity is headcount and the hours it can bill.</text>
+
+  <rect x="490" y="24" width="450" height="200" rx="9" fill="#f7fafc" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-lg" x="512" y="56">What that produces</text>
+
+  <text class="t-md" x="620" y="94" text-anchor="end">ROCE</text>
+  <rect x="630" y="74" width="182" height="26" rx="4" fill="#2E75B6"/>
+  <text class="t-md" x="824" y="94" fill="#1F4E79">30.4%</text>
+
+  <text class="t-md" x="620" y="132" text-anchor="end">ROE</text>
+  <rect x="630" y="112" width="140" height="26" rx="4" fill="#2E75B6"/>
+  <text class="t-md" x="782" y="132" fill="#1F4E79">23.4%</text>
+
+  <text class="t-md" x="620" y="170" text-anchor="end">Dividend yield</text>
+  <rect x="630" y="150" width="34" height="26" rx="4" fill="#1a6f4a"/>
+  <text class="t-md" x="676" y="170" fill="#1a6f4a">1.88%</text>
+  <text class="t-sm t-mut" x="512" y="200">A 41% payout — the dividend is a material part of the return here,</text>
+  <text class="t-sm t-mut" x="512" y="216">which is unusual on this watchlist.</text>
+
+  <rect x="20" y="240" width="450" height="124" rx="8" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.5"/>
+  <text class="t-md" x="42" y="266" fill="#1a6f4a">The cash cuts both ways in the P&amp;L</text>
+  <text class="t" x="42" y="292" fill="#1a6f4a">Interest expense: <tspan font-weight="700">about ₹1cr a quarter.</tspan></text>
+  <text class="t" x="42" y="314" fill="#1a6f4a">Other income: <tspan font-weight="700">₹81cr in Q1FY27</tspan> — what the cash earns.</text>
+  <text class="t-sm" x="42" y="340" fill="#1a6f4a">So the treasury is a larger contributor to profit than the debt is a</text>
+  <text class="t-sm" x="42" y="356" fill="#1a6f4a">drag — by a factor of roughly eighty. See §10 for what that implies.</text>
+
+  <rect x="490" y="240" width="450" height="124" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.5"/>
+  <text class="t-md" x="512" y="266" fill="#a2650a">The constraint nobody sees on a balance sheet</text>
+  <text class="t" x="512" y="292" fill="#a2650a">An engineering house cannot scale faster than it can <tspan font-weight="700">hire and</tspan></text>
+  <text class="t" x="512" y="312" fill="#a2650a"><tspan font-weight="700">train people</tspan>. There is no equivalent of adding a second shift.</text>
+  <text class="t-sm" x="512" y="338" fill="#a2650a">Which is one reason the long-run growth rate is what it is:</text>
+  <text class="t-sm" x="512" y="356" fill="#a2650a">ten-year sales CAGR 10%, five-year 5%, three-year 6%.</text>
+</svg>
+<figcaption><strong>Thirty percent returns on almost no fixed assets is the signature of this business model — and so is slow growth.</strong> The same absence of capital that produces the return also removes the lever most industrial companies use to grow: you cannot buy your way to more output. <span class="src">ROCE, ROE, dividend yield and payout from Screener as recorded in the profile; interest expense and other income from the Q1FY27 results; growth CAGRs from Screener. <span class="tag inf">MY INFERENCE</span> — the hiring-constraint explanation for the growth rate is mine.</span></figcaption>
+</figure>
+
+<h2 id="s6"><span class="n">6.</span> The order engine — and why intake beats backlog</h2>
+
+<p>A backlog is a stock; intake is a flow. For a business that bills against a book it has already won, <strong>the backlog tells you about the next two years and the intake tells you about everything after that.</strong> Right now those two numbers are saying different things.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 436" role="img" aria-label="Order book of 14,424 crore split between consultancy 10,498 and turnkey 3,926, down from 15,109 crore, with Q1FY27 inflow of 514 crore against an 8,000 crore full-year target.">
+  <defs>
+    <marker id="e6r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b3261e"/>
+    </marker>
+  </defs>
+
+  <text class="t-md" x="20" y="32">Order book at 30-Jun-2026, ₹ crore</text>
+  <rect x="20" y="46" width="654" height="40" rx="4" fill="#2E75B6"/>
+  <rect x="674" y="46" width="245" height="40" rx="4" fill="#e0c489"/>
+  <text class="t-md" x="347" y="72" text-anchor="middle" fill="#ffffff">Consultancy 10,498</text>
+  <text class="t-md" x="796" y="72" text-anchor="middle" fill="#16202b">Turnkey 3,926</text>
+  <text class="t-sm t-mut" x="20" y="104">Total ₹14,424cr — but it was ₹15,109cr a quarter earlier</text>
+
+  <path d="M760,120 L820,120" stroke="#b3261e" stroke-width="2" marker-end="url(#e6r)"/>
+  <text class="t-sm" x="754" y="124" text-anchor="end" fill="#b3261e">execution is outrunning replacement</text>
+
+  <text class="t-md" x="20" y="168">The flow that refills it</text>
+
+  <text class="t-md" x="230" y="208" text-anchor="end">Q1FY27 inflow</text>
+  <rect x="240" y="188" width="43" height="30" rx="4" fill="#b3261e"/>
+  <text class="t-md" x="295" y="209" fill="#b3261e">₹514cr</text>
+
+  <text class="t-md" x="230" y="256" text-anchor="end">FY27 target</text>
+  <rect x="240" y="236" width="668" height="30" rx="4" fill="#cfdcea"/>
+  <text class="t-md" x="920" y="257" text-anchor="end">₹8,000cr</text>
+
+  <text class="t-sm" x="240" y="288" fill="#b3261e">Q1 delivered <tspan font-weight="700">6.4% of the annual target in 25% of the year.</tspan> Management reaffirmed the</text>
+  <text class="t-sm" x="240" y="304" fill="#b3261e">₹8,000cr target and said it would "try to cross that cap".</text>
+
+  <rect x="20" y="320" width="456" height="98" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.5"/>
+  <text class="t-md" x="40" y="346" fill="#a2650a">⚠ Two inflow numbers, same call</text>
+  <text class="t" x="40" y="370" fill="#a2650a">The Director (Finance) stated <tspan font-weight="700">₹514cr for Q1</tspan>. The head of</text>
+  <text class="t" x="40" y="390" fill="#a2650a">Business Development said <tspan font-weight="700">₹2,750cr "as of today"</tspan> — six weeks</text>
+  <text class="t" x="40" y="410" fill="#a2650a">later, ~₹1,100cr overseas. <tspan font-style="italic">Nobody reconciled them.</tspan></text>
+
+  <rect x="492" y="320" width="452" height="98" rx="8" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.5"/>
+  <text class="t-md" x="512" y="346" fill="#1F4E79">Why a consultancy backlog is slow to warn you</text>
+  <text class="t" x="512" y="370" fill="#1F4E79">Design and PMC contracts bill over <tspan font-weight="700">three to five years</tspan>, so a</text>
+  <text class="t" x="512" y="390" fill="#1F4E79">book of ₹14,424cr keeps revenue going long after intake stops.</text>
+  <text class="t-sm" x="512" y="410" fill="#1F4E79">The damage shows up in revenue years after it shows up in inflow.</text>
+</svg>
+<figcaption><strong>This is the number to watch, and it is not the one that appears in most summaries.</strong> A shrinking book with strong margins can look excellent for several quarters; the intake line is what tells you whether the work exists to replace what is being executed. <span class="src">Order book, its segment split, the prior quarter's figure, the ₹514cr inflow, the ₹2,750cr statement and the ₹8,000cr target all from the Q1FY27 call (14-Aug-2026). The billing-period observation follows from the nature of PMC contracts. <span class="tag inf">MY INFERENCE</span> — the stock-versus-flow framing is mine.</span></figcaption>
+</figure>
+
+<h2 id="s7"><span class="n">7.</span> Who buys, and the fact that the owner is also the customer</h2>
+
+<p>EIL's client list is short, concentrated, and mostly owned by the same shareholder that owns EIL.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 400" role="img" aria-label="EIL's clients are the Indian public sector oil companies, plus a Middle East practice run from Abu Dhabi and one large African contract, while the Government of India holds 51.32 percent of EIL itself.">
+  <defs>
+    <marker id="e7a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+    <marker id="e7r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b3261e"/>
+    </marker>
+  </defs>
+
+  <rect x="360" y="30" width="240" height="70" rx="8" fill="#f4f7fa" stroke="currentColor" stroke-width="1.6"/>
+  <text class="t-md" x="480" y="56" text-anchor="middle">Government of India</text>
+  <text class="t-sm t-mut" x="480" y="76" text-anchor="middle">Ministry of Petroleum &amp;</text>
+  <text class="t-sm t-mut" x="480" y="92" text-anchor="middle">Natural Gas</text>
+
+  <path d="M420,104 L300,150" stroke="currentColor" stroke-width="1.6" marker-end="url(#e7a)"/>
+  <text class="t-sm" x="300" y="126" text-anchor="end">owns 51.32% of EIL</text>
+  <path d="M540,104 L660,150" stroke="currentColor" stroke-width="1.6" marker-end="url(#e7a)"/>
+  <text class="t-sm" x="660" y="126">owns the oil PSUs</text>
+
+  <rect x="120" y="156" width="240" height="70" rx="8" fill="#eaf2fb" stroke="#2E75B6" stroke-width="2.2"/>
+  <text class="t-md" x="240" y="184" text-anchor="middle" fill="#1F4E79">ENGINEERS INDIA</text>
+  <text class="t-sm" x="240" y="204" text-anchor="middle" fill="#1F4E79">directors appointed by the ministry,</text>
+  <text class="t-sm" x="240" y="218" text-anchor="middle" fill="#1F4E79">not by the board</text>
+
+  <rect x="600" y="156" width="260" height="70" rx="8" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.6"/>
+  <text class="t-md" x="730" y="182" text-anchor="middle" fill="#1a6f4a">The client list</text>
+  <text class="t-sm" x="730" y="202" text-anchor="middle" fill="#1a6f4a">IOCL · BPCL · HPCL</text>
+  <text class="t-sm" x="730" y="218" text-anchor="middle" fill="#1a6f4a">ONGC · GAIL</text>
+
+  <path d="M364,191 H594" stroke="#1a6f4a" stroke-width="1.8" marker-end="url(#e7a)"/>
+  <text class="t-sm" x="479" y="182" text-anchor="middle" fill="#1a6f4a">designs their refineries</text>
+
+  <rect x="120" y="252" width="240" height="76" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="240" y="278" text-anchor="middle">Middle East practice</text>
+  <text class="t-sm t-mut" x="240" y="298" text-anchor="middle">run from an Abu Dhabi office</text>
+  <text class="t-sm" x="240" y="316" text-anchor="middle" fill="#b3261e">"New mega projects are under hold."</text>
+
+  <rect x="380" y="252" width="200" height="76" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="480" y="278" text-anchor="middle">Africa</text>
+  <text class="t-sm t-mut" x="480" y="298" text-anchor="middle">one large contract —</text>
+  <text class="t-sm t-mut" x="480" y="316" text-anchor="middle">Dangote, Nigeria</text>
+
+  <rect x="600" y="252" width="260" height="76" rx="8" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.4"/>
+  <text class="t-md" x="730" y="278" text-anchor="middle" fill="#b3261e">The growth market is frozen</text>
+  <text class="t-sm" x="730" y="298" text-anchor="middle" fill="#b3261e">Repair and modernisation continues;</text>
+  <text class="t-sm" x="730" y="316" text-anchor="middle" fill="#b3261e">new tenders do not come.</text>
+  <path d="M364,290 H374" stroke="#b3261e" stroke-width="1.6"/>
+
+  <rect x="20" y="344" width="924" height="48" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.4"/>
+  <text class="t" x="40" y="368" fill="#a2650a"><tspan font-weight="700">The structural oddity:</tspan> the shareholder who appoints EIL's directors also owns the companies that award EIL its work. That is a source of durable</text>
+  <text class="t" x="40" y="386" fill="#a2650a">demand and, at the same time, a limit on pricing power, capital allocation and the freedom to walk away from a project.</text>
+</svg>
+<figcaption><strong>Sixty years of incumbency inside a customer base that shares your owner is an unusually strong moat and an unusually soft one.</strong> The work is hard for an outsider to win; it is also hard to price aggressively, and the board that would negotiate it is appointed elsewhere. <span class="src">Shareholding, ministry appointments and client names from the profile's §1 and §3.5, drawn from EIL's filings; the Middle East quote from the Q1FY27 call, where management was asked directly whether clients had put projects on hold. <span class="tag inf">MY INFERENCE</span> — the "strong and soft at once" reading is mine.</span></figcaption>
+</figure>
+
+<h2 id="s8"><span class="n">8.</span> The capex cycle, and why a consultancy feels it first</h2>
+
+<p>Everything EIL sells sits at the <em>front</em> of somebody else's capital expenditure. That position has a consequence most investors get backwards: <strong>a design house is an early indicator of the industrial cycle, not a lagging one.</strong></p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 380" role="img" aria-label="Timeline showing consultancy spend occurring years before construction spend, so a consultancy's order intake turns down before an EPC contractor's, and turns up before it too.">
+  <defs>
+    <marker id="e8a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <line x1="60" y1="220" x2="920" y2="220" stroke="currentColor" stroke-width="1.4" marker-end="url(#e8a)"/>
+  <text class="t-sm t-mut" x="60" y="244">owner decides</text>
+  <text class="t-sm t-mut" x="300" y="244" text-anchor="middle">year 1–2</text>
+  <text class="t-sm t-mut" x="560" y="244" text-anchor="middle">year 2–5</text>
+  <text class="t-sm t-mut" x="880" y="244" text-anchor="end">plant runs</text>
+
+  <rect x="60" y="150" width="280" height="56" rx="7" fill="#eaf2fb" stroke="#2E75B6" stroke-width="2"/>
+  <text class="t-md" x="200" y="176" text-anchor="middle" fill="#1F4E79">CONSULTANCY SPEND</text>
+  <text class="t-sm" x="200" y="196" text-anchor="middle" fill="#1F4E79">small money, decided early</text>
+
+  <rect x="360" y="150" width="500" height="56" rx="7" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.8"/>
+  <text class="t-md" x="610" y="176" text-anchor="middle" fill="#a2650a">CONSTRUCTION SPEND</text>
+  <text class="t-sm" x="610" y="196" text-anchor="middle" fill="#a2650a">the overwhelming majority of the project cost, spent years later</text>
+
+  <text class="t-md" x="20" y="60">The structural pipeline</text>
+  <text class="t" x="20" y="88">India's refining capacity is planned to go from <tspan font-weight="700">~250 MMTPA (FY24) to 400+ MMTPA by 2030</tspan>. Each refinery expansion is a</text>
+  <text class="t" x="20" y="108"><tspan font-weight="700">₹5,000–15,000cr</tspan> consultancy-plus-EPC opportunity — and the consultancy portion is committed first.</text>
+
+  <rect x="20" y="270" width="456" height="94" rx="8" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.5"/>
+  <text class="t-md" x="40" y="296" fill="#1F4E79">What that means on the way up</text>
+  <text class="t" x="40" y="320" fill="#1F4E79">EIL books design work while contractors are still idle. Its intake</text>
+  <text class="t" x="40" y="340" fill="#1F4E79">recovers <tspan font-weight="700">before</tspan> the visible construction boom arrives.</text>
+  <text class="t-sm" x="40" y="358" fill="#1F4E79">Nuclear and coal gasification (§9) are at exactly this stage today.</text>
+
+  <rect x="492" y="270" width="452" height="94" rx="8" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.5"/>
+  <text class="t-md" x="512" y="296" fill="#b3261e">And on the way down</text>
+  <text class="t" x="512" y="320" fill="#b3261e">When owners defer decisions, the <tspan font-weight="700">consultancy order stops first</tspan>,</text>
+  <text class="t" x="512" y="340" fill="#b3261e">while everyone else is still executing the last cycle's backlog.</text>
+  <text class="t-sm" x="512" y="358" fill="#b3261e">That is what "new mega projects are under hold" in the Middle East means.</text>
+</svg>
+<figcaption><strong>The order intake of a design consultancy is a leading indicator of industrial capex — including its own future revenue.</strong> Which is why §6's intake number carries more information about FY29 than the current margin does, and why a frozen tender market abroad shows up in EIL's bookings long before it shows up in anyone's construction activity. <span class="src">Refining capacity trajectory and project sizing from the profile's §2; the Middle East quote from the Q1FY27 call. <span class="tag inf">MY INFERENCE</span> — the lead-indicator framing and the timeline proportions are mine, illustrative rather than measured.</span></figcaption>
+</figure>
+
+<h2 id="s9"><span class="n">9.</span> The new frontiers — all of them consultancy-first</h2>
+
+<p>Three markets have opened that were not in this business five years ago, and the useful pattern is that <strong>EIL enters each of them at the design end</strong> — the high-margin, low-capital, early-cycle end described in §1.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 340" role="img" aria-label="Three new markets: nuclear including environmental studies and SMR work for NPCIL, coal gasification supported by 34,000 crore of government gap funding with projects of 10,000 to 30,000 crore, and infrastructure including a data centre assignment.">
+  <rect x="20" y="26" width="296" height="220" rx="9" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.8"/>
+  <text class="t-lg" x="40" y="58" fill="#1a6f4a">Nuclear</text>
+  <text class="t" x="40" y="88">"a lot of impetus has come after this</text>
+  <text class="t" x="40" y="106">Hormuz crisis… a lot of inquiries</text>
+  <text class="t" x="40" y="124">coming from the nuclear side"</text>
+  <text class="t-sm" x="40" y="152">· 3 environmental studies for a private investor</text>
+  <text class="t-sm" x="40" y="172">· 1 for a government client</text>
+  <text class="t-sm" x="40" y="192">· engaged with NPCIL on engineering consultancy</text>
+  <text class="t-sm" x="40" y="212">· SMR projects secured from NPCIL last year</text>
+  <text class="t-sm t-mut" x="40" y="236">Entry point: studies and design — not construction.</text>
+
+  <rect x="332" y="26" width="296" height="220" rx="9" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.8"/>
+  <text class="t-lg" x="352" y="58" fill="#1F4E79">Coal gasification</text>
+  <text class="t" x="352" y="88">Policy-funded, and the policy is</text>
+  <text class="t" x="352" y="106">the reason the inquiries exist:</text>
+  <text class="t-md" x="352" y="136" fill="#1F4E79">₹34,000cr of government gap funding</text>
+  <text class="t-sm" x="352" y="164">· individual projects of <tspan font-weight="700">₹10,000–30,000cr</tspan></text>
+  <text class="t-sm" x="352" y="184">· executing a coal-to-SNG project for NTPC</text>
+  <text class="t-sm" x="352" y="204">· bidding several feasibility studies</text>
+  <text class="t-sm t-mut" x="352" y="236">Entry point: feasibility studies — the very front of §8.</text>
+
+  <rect x="644" y="26" width="296" height="220" rx="9" fill="#f7fafc" stroke="currentColor" stroke-width="1.4"/>
+  <text class="t-lg" x="664" y="58">Infrastructure</text>
+  <text class="t" x="664" y="88">Adjacent engineering where the</text>
+  <text class="t" x="664" y="106">discipline transfers but the</text>
+  <text class="t" x="664" y="124">client base is new.</text>
+  <text class="t-sm" x="664" y="152">· "We have just got a major assignment in</text>
+  <text class="t-sm" x="664" y="170">  the data center from PowerTel"</text>
+  <text class="t-sm t-mut" x="664" y="198">Smaller than the other two today, and the</text>
+  <text class="t-sm t-mut" x="664" y="216">competitive field is far more crowded.</text>
+
+  <rect x="20" y="262" width="920" height="62" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.4"/>
+  <text class="t-md" x="40" y="286" fill="#a2650a">The thing these three have in common</text>
+  <text class="t" x="40" y="310" fill="#a2650a">Each is entered through <tspan font-weight="700">studies and design</tspan> rather than construction — which is exactly where the 24% margin lives, and exactly the kind of order that does not move the revenue line for two or three years.</text>
+</svg>
+<figcaption><strong>New markets arrive in this business as small, high-margin studies long before they arrive as revenue.</strong> That makes them easy to dismiss on the numbers and easy to overstate in a narrative — the honest reading is that the entry is real and the scale is not yet. <span class="src">All quotes and project details from the Q1FY27 call (14-Aug-2026) — Vivek Midha on nuclear and coal gasification, including the ₹34,000cr gap-funding figure and the ₹10,000–30,000cr project sizing, and on the PowerTel data-centre assignment.</span></figcaption>
+</figure>
+
+<h2 id="s10"><span class="n">10.</span> Where the profit actually comes from</h2>
+
+<p>One habit protects you in a business like this: <strong>separate the operating result from everything else attached to it.</strong> In Q1FY27 the headline and the operating story were genuinely different numbers.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 370" role="img" aria-label="Consolidated profit rose 141 percent but standalone rose 55 percent, with the RFCL joint venture contributing 42.51 crore and other income of 81 crore inside a 197 crore pre-tax profit.">
+  <text class="t-md" x="20" y="32">Q1FY27 profit, unpacked</text>
+
+  <text class="t-md" x="230" y="72" text-anchor="end">Consolidated PAT</text>
+  <rect x="240" y="52" width="632" height="30" rx="4" fill="#cfdcea"/>
+  <text class="t-md" x="884" y="73">₹157.9cr</text>
+  <text class="t-sm t-mut" x="252" y="73">+141% YoY — the headline</text>
+
+  <text class="t-md" x="230" y="120" text-anchor="end">Standalone PAT</text>
+  <rect x="240" y="100" width="436" height="30" rx="4" fill="#2E75B6"/>
+  <text class="t-md" x="688" y="121" fill="#1F4E79">₹109cr</text>
+  <text class="t-sm" x="252" y="121" fill="#ffffff">+55% YoY — the operating business</text>
+
+  <text class="t-md" x="230" y="168" text-anchor="end">of which RFCL JV</text>
+  <rect x="240" y="148" width="170" height="30" rx="4" fill="#1a6f4a"/>
+  <text class="t-md" x="422" y="169" fill="#1a6f4a">₹42.5cr</text>
+  <text class="t-sm t-mut" x="486" y="169">a fertiliser JV — was a ₹7.4cr loss a year ago</text>
+
+  <line x1="20" y1="196" x2="940" y2="196" stroke="currentColor" stroke-width="1" opacity=".2"/>
+
+  <text class="t-md" x="20" y="226">And inside the standalone number</text>
+  <text class="t-md" x="230" y="266" text-anchor="end">Pre-tax profit</text>
+  <rect x="240" y="246" width="600" height="30" rx="4" fill="#dbe6f0"/>
+  <rect x="240" y="246" width="247" height="30" rx="4" fill="#a2650a"/>
+  <text class="t-md" x="363" y="267" text-anchor="middle" fill="#ffffff">other income ₹81cr</text>
+  <text class="t-md" x="664" y="267" text-anchor="middle">operating ₹116cr</text>
+  <text class="t-md" x="852" y="267">₹197cr</text>
+
+  <rect x="20" y="296" width="920" height="62" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.4"/>
+  <text class="t-md" x="40" y="320" fill="#a2650a">Three different growth rates for the same quarter, all of them true</text>
+  <text class="t" x="40" y="344" fill="#a2650a"><tspan font-weight="700">+141%</tspan> consolidated · <tspan font-weight="700">+55%</tspan> standalone · and an operating result that excludes the ₹81cr the cash pile earned. Management has said the JV contribution is now recurring; the treasury income depends on rates and on the cash staying where it is.</text>
+</svg>
+<figcaption><strong>Roughly 40% of pre-tax profit in the quarter came from other income, and a large part of the consolidated jump came from a joint venture rather than from designing anything.</strong> None of that is improper — it is simply not the engineering business, and it should be separated before the engineering business is judged. <span class="src">Consolidated and standalone PAT, the RFCL contribution and the prior-year loss from the Q1FY27 call and results; other income of ₹81cr from the results. <span class="tag inf">MY INFERENCE</span> — the operating-versus-other split of pre-tax profit is my arithmetic from the reported figures.</span></figcaption>
+</figure>
+
+<h2 id="s11"><span class="n">11.</span> Reading the industry through the numbers</h2>
+
+<div class="tw">
+<table>
+<thead><tr><th style="width:26%">Industry mechanism</th><th style="width:24%">Where it shows up</th><th style="width:30%">Latest reading</th><th style="width:20%">Source</th></tr></thead>
+<tbody>
+<tr><td>Two segments, three times the margin</td><td>Segment profit</td><td><strong>Consultancy 24% (from 17%); turnkey 7.5%</strong></td><td>Q1FY27 call</td></tr>
+<tr><td>Mix, not volume, drives profit</td><td>Turnover vs PBT</td><td>Turnover <strong>−6.5%</strong>, PBT <strong>+55%</strong>, operating margin <strong>7% → 14%</strong></td><td>Q1FY27 results</td></tr>
+<tr><td>The mix itself</td><td>Segment revenue</td><td>Consultancy <strong>₹499cr (+22%)</strong>; turnkey <strong>₹302cr (−33%)</strong> — 48% → 62% consultancy</td><td>Q1FY27 call</td></tr>
+<tr><td>Asset-light economics</td><td>Returns and interest</td><td><strong>ROCE 30.4%, ROE 23.4%</strong>; interest <strong>~₹1cr a quarter</strong></td><td>Screener; Q1FY27 results</td></tr>
+<tr><td>Backlog is a stock…</td><td>Order book</td><td><strong>₹14,424cr</strong> (consultancy ₹10,498 + turnkey ₹3,926), <strong>down from ₹15,109cr</strong></td><td>Q1FY27 call</td></tr>
+<tr><td>…intake is the flow that matters</td><td>Order inflow vs target</td><td><strong>₹514cr in Q1 against an ₹8,000cr FY27 target</strong> — 6.4% of the year's target</td><td>Q1FY27 call</td></tr>
+<tr><td>Consultancy leads the capex cycle</td><td>Overseas tendering</td><td>Middle East: <em>"New mega projects are under hold."</em> Repairs continue</td><td>Q1FY27 call</td></tr>
+<tr><td>New markets enter as studies</td><td>Nuclear, coal gasification</td><td>NPCIL SMR work; <strong>₹34,000cr gap funding</strong> behind gasification projects of ₹10–30,000cr</td><td>Q1FY27 call</td></tr>
+<tr><td>Non-operating profit is material</td><td>Other income and JV</td><td><strong>₹81cr of ₹197cr</strong> pre-tax; <strong>RFCL ₹42.5cr</strong> against a ₹7.4cr loss</td><td>Q1FY27 results &amp; call</td></tr>
+<tr><td>The owner is the customer</td><td>Shareholding</td><td><strong>Government of India 51.32%</strong>; directors appointed by the ministry</td><td>Profile §3.5</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2 id="s12"><span class="n">12.</span> What is not disclosed</h2>
+
+<ul>
+<li><strong>Order inflow, reconciled.</strong> Two figures were given on the same call — <strong>₹514cr</strong> for Q1 and <strong>₹2,750cr "as of today"</strong> — and no bridge between them was offered or requested.</li>
+<li><strong>Headcount and utilisation.</strong> For a business whose capacity is engineers and whose product is billable hours, neither the number of engineers nor their utilisation rate is published — the single most useful operating metric for a consultancy is absent.</li>
+<li><strong>Client concentration.</strong> The major PSU clients are named qualitatively; <strong>no top-client revenue share is given</strong>, in a business where a handful of owners award most of the work.</li>
+<li><strong>Order book ageing.</strong> ₹14,424cr is disclosed by segment but not by expected execution period, so the rate at which it converts to revenue has to be inferred.</li>
+<li><strong>Overseas revenue and margin split.</strong> The Middle East and Africa are discussed in commentary; neither revenue nor profitability is broken out.</li>
+<li><strong>The pricing basis of consultancy contracts</strong> — man-hour rate, lump sum or percentage of project cost — is not described, so the improvement from 17% to 24% cannot be attributed between rate, utilisation and mix.</li>
+</ul>
+
+<h2 id="s13"><span class="n">13.</span> Glossary</h2>
+
+<dl class="glos">
+<dt>Consultancy &amp; Engineering</dt><dd>EIL's core segment: feasibility studies, process design, FEED, detailed engineering and project management. Sells hours; carries no money risk.</dd>
+<dt>LSTK / Turnkey</dt><dd>Lump-Sum Turnkey. EIL takes the whole project at a fixed price, buying equipment and hiring construction. Large tickets, ~7.5% margin, real cost risk.</dd>
+<dt>FEED</dt><dd>Front-End Engineering Design — the stage that converts a concept into a costed, specified design. It fixes the budget the owner will be held to.</dd>
+<dt>PMC</dt><dd>Project Management Consultancy — running the tender, supervising the contractor and protecting the owner's interest during construction.</dd>
+<dt>Detailed engineering</dt><dd>Every drawing, specification and datasheet needed to actually build the plant.</dd>
+<dt>Process licensing</dt><dd>Rights to a specific chemical process route. Choosing it early determines what the plant can make and at what cost.</dd>
+<dt>Order book / backlog</dt><dd>Work won but not yet executed. A stock, billed out over three to five years in consultancy.</dd>
+<dt>Order inflow / intake</dt><dd>New work won in a period. The flow that refills the backlog — the leading indicator.</dd>
+<dt>Book-to-bill</dt><dd>Intake divided by revenue. Below one means the backlog is shrinking.</dd>
+<dt>MMTPA</dt><dd>Million metric tonnes per annum — how refining capacity is measured.</dd>
+<dt>SMR</dt><dd>Small Modular Reactor — compact nuclear units. EIL has secured SMR work from NPCIL.</dd>
+<dt>SNG</dt><dd>Synthetic Natural Gas — the output of the coal gasification project EIL is executing for NTPC.</dd>
+<dt>RFCL</dt><dd>Ramagundam Fertilizers &amp; Chemicals — the joint venture whose profit now flows into EIL's consolidated result.</dd>
+</dl>
+
+<hr>
+
+<h3>Sources</h3>
+<p class="src"><strong>Transcripts (7 official):</strong> Q1FY27 (call 14-Aug-2026, transcript filed 18-Aug — primary for this page) · FY26 annual (22-May-2026) · Q3FY26 (Feb-2026) · Q2FY26 (Nov-2025) · Q1FY26 (Aug-2025) · Jun-2025 · Feb-2025. Held in <code class="src">Fetched Concalls/ENGINERSIN/</code>.<br>
+<strong>Q1FY27 primary documents:</strong> unaudited standalone and consolidated results (13-Aug-2026) and the investor presentation (14-Aug-2026), plus the exchange filings on disk covering director appointments, the MoPNG takeover disclosure and the dividend record date.<br>
+<strong>Extraction discipline:</strong> every figure is taken from a results filing or spoken commentary on a call. <strong>No number on this page is read off a chart in a deck.</strong><br>
+<strong>Companion document:</strong> <code class="src">Company Profiles/EIL.md</code> carries the valuation, the normalised-earnings adjustment, conviction and risks — including the note that the trailing P/E is contaminated until January 2027. This page makes no investment judgement.</p>
+
+</body>
+</html>
