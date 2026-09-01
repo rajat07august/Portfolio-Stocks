@@ -24,4 +24,9 @@ desktop.ini
 # Local working scratch
 scratch/
 tmp/
+
+# Private research files — NEVER push. This repo is PUBLIC.
+# Both name Rajat's actual holdings and conviction ratings.
 PORTFOLIO_STATE.md
+CLAUDE.md
+
