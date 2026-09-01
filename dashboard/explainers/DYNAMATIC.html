@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Three Industries, One Company — Dynamatic Industry Primer</title>
+<meta name="robots" content="noindex,nofollow">
+<style>
+
+
+:root{
+  --navy:#1F4E79; --blue:#2E75B6; --ink:#16202b; --mut:#5a6a78; --bg:#fafbfc;
+  --card:#ffffff; --line:#e3e8ee; --amber:#a2650a; --amberbg:#fff8e6;
+  --red:#b3261e; --redbg:#fdeceb; --green:#1a6f4a; --greenbg:#ecf7f1;
+  color-scheme: light;
+}
+*{box-sizing:border-box}
+body{
+  max-width:1040px; margin:0 auto; padding:22px 20px 80px;
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+  line-height:1.62; color:var(--ink); background:var(--bg); font-size:15px;
+}
+.nav{display:flex; gap:18px; flex-wrap:wrap; margin-bottom:12px; font-size:13.5px}
+.nav a{color:var(--navy); font-weight:600; text-decoration:none}
+.nav a:hover{text-decoration:underline; color:var(--blue)}
+.topbar{background:linear-gradient(135deg,#1F4E79 0%,#2E75B6 100%); color:#fff; padding:20px 24px; border-radius:10px; margin-bottom:22px}
+.topbar h1{margin:0 0 6px; font-size:25px; line-height:1.25; color:#fff; border:0; padding:0}
+.topbar .sub{font-size:14.5px; opacity:.92}
+.topbar .meta{font-size:12.5px; opacity:.8; margin-top:10px}
+h2{color:var(--navy); font-size:20px; margin:44px 0 6px; border-left:4px solid var(--navy); padding-left:12px}
+h2 .n{color:var(--blue); font-weight:700}
+h3{color:var(--blue); font-size:16px; margin:26px 0 8px}
+p{margin:11px 0}
+ul{margin:10px 0; padding-left:22px} li{margin:6px 0}
+.lede{font-size:15.5px; color:#2c3b49}
+.box{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 18px; margin:18px 0}
+.box.warn{background:var(--amberbg); border-color:#f0dcae}
+.box.red{background:var(--redbg); border-color:#f3cfcb}
+.box.good{background:var(--greenbg); border-color:#c7e4d5}
+.box h4{margin:0 0 6px; font-size:14px; color:var(--navy); text-transform:uppercase; letter-spacing:.04em}
+.src{color:var(--mut); font-size:12.5px}
+code.src{background:transparent; padding:0}
+figure.dg{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px 16px 12px; margin:22px 0}
+figure.dg svg{width:100%; height:auto; display:block; color:#3d4b5c}
+figure.dg figcaption{font-size:13px; color:var(--mut); margin-top:12px; padding-top:10px; border-top:1px dashed var(--line)}
+svg text:not([fill]){fill:currentColor}
+.t-lg{font-size:15px; font-weight:700}
+.t-md{font-size:13.5px; font-weight:700}
+.t{font-size:12.5px}
+.t-sm{font-size:11px}
+.t-mut{opacity:.7}
+.tw{overflow-x:auto; margin:16px 0}
+table{border-collapse:collapse; width:100%; min-width:620px; font-size:13.5px; background:var(--card)}
+th,td{border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top}
+th{background:#eef3f8; color:var(--navy); font-weight:700}
+.toc{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 20px; font-size:14px}
+.toc ol{margin:6px 0; padding-left:22px} .toc li{margin:4px 0}
+.toc a{color:var(--navy); text-decoration:none} .toc a:hover{text-decoration:underline}
+.glos{display:grid; grid-template-columns:150px 1fr; gap:6px 14px; font-size:13.5px}
+.glos dt{font-weight:700; color:var(--navy)} .glos dd{margin:0}
+@media (max-width:640px){ .glos{grid-template-columns:1fr} .glos dt{margin-top:8px} }
+.tag{display:inline-block; font-size:11px; font-weight:700; letter-spacing:.03em; padding:2px 7px; border-radius:20px; vertical-align:middle}
+.tag.fact{background:#e8f0f8; color:var(--navy)}
+.tag.inf{background:var(--amberbg); color:var(--amber); border:1px solid #ecd9a8}
+blockquote{border-left:4px solid #2E75B6; background:#f4f8fc; margin:16px 0; padding:12px 18px; font-size:14px}
+hr{border:0; border-top:1px solid var(--line); margin:38px 0}
+</style>
+</head>
+<body>
+
+<div class="nav">
+  <a href="https://portfolio-stocks-chi.vercel.app/index.html">← Dashboard</a>
+  <a href="https://portfolio-stocks-chi.vercel.app/profile.html?stock=DYNAMATIC">Full profile — DYNAMATIC →</a>
+</div>
+
+<div class="topbar">
+  <h1>Three industries, one company</h1>
+  <div class="sub">An industry primer for Dynamatic Technologies — what an airframe Tier-1 actually delivers, what a gear pump does on a tractor, why a German foundry is a hard place to be, and how to read a P&amp;L that mixes all three across three currencies</div>
+  <div class="meta">Built 31-Aug-2026 · Sourced from Dynamatic's Q1FY27 investor deck and results, six earlier quarterly decks, and the exchange filings on disk · Companion to <strong>Company Profiles/DYNAMATIC.md</strong></div>
+</div>
+
+<p class="lede">This page explains the <strong>industries</strong>, not the investment case. Dynamatic is unusual on this watchlist because it is not in one business — it is in three, in three countries, with no shared customer, technology or cycle between them. What follows is what each one actually does, why one of them earns almost all of the profit, and the two reading habits you need before any of its numbers mean anything.</p>
+
+<div class="box warn">
+<h4>How to read this</h4>
+<p style="margin:6px 0"><span class="tag fact">FACT</span> Everything unmarked comes from Dynamatic's own filings — the quarterly investor decks and results — with the source named in grey after the claim.</p>
+<p style="margin:6px 0"><span class="tag inf">MY INFERENCE</span> Where the framing is mine rather than the company's, it is marked.</p>
+<p style="margin:6px 0; color:#5a6a78; font-size:13.5px"><strong>The sourcing constraint that shapes this page:</strong> <strong>Dynamatic has held no earnings call since February 2024.</strong> There are no transcripts, no management Q&amp;A and no analyst challenge anywhere in the recent record — everything here comes from written disclosure. Unusually, that written disclosure is very good: see §7.</p>
+</div>
+
+<div class="toc">
+<strong>Contents</strong>
+<ol>
+<li><a href="#s1">Three businesses that share almost nothing</a></li>
+<li><a href="#s2">48% of revenue, 97% of profit</a></li>
+<li><a href="#s3">What an airframe Tier-1 actually delivers</a></li>
+<li><a href="#s4">Why a single-source airframe position is durable</a></li>
+<li><a href="#s5">The gear pump — the original business</a></li>
+<li><a href="#s6">The German foundry, and why it is a hard place to be</a></li>
+<li><a href="#s7">The currency mechanic — reading growth that isn't there</a></li>
+<li><a href="#s8">Three countries, three cost bases</a></li>
+<li><a href="#s9">The turnaround, segment by segment</a></li>
+<li><a href="#s10">What three unrelated cycles do to one P&amp;L</a></li>
+<li><a href="#s11">Reading the industry through the numbers</a></li>
+<li><a href="#s12">What is not disclosed</a></li>
+<li><a href="#s13">Glossary</a></li>
+</ol>
+</div>
+
+<h2 id="s1"><span class="n">1.</span> Three businesses that share almost nothing</h2>
+
+<p>Most diversified companies at least share a customer, a technology or a raw material. Dynamatic's three segments share none of those. They sell to different industries, on different cycles, in different currencies, using different processes.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 430" role="img" aria-label="Dynamatic's three segments: aerospace making airframe structures for Airbus and Boeing, hydraulics making gear pumps for tractor makers, and metallurgy making ferrous castings for German car makers.">
+  <rect x="16" y="30" width="300" height="290" rx="9" fill="#eaf2fb" stroke="#2E75B6" stroke-width="2.2"/>
+  <text class="t-lg" x="36" y="60" fill="#1F4E79">AEROSPACE</text>
+  <rect x="36" y="72" width="128" height="22" rx="11" fill="#ffffff" stroke="#2E75B6" stroke-width="1"/>
+  <text class="t-sm" x="100" y="87" text-anchor="middle" fill="#1F4E79">48% of revenue</text>
+  <text class="t-md" x="36" y="120">What it makes</text>
+  <text class="t-sm" x="36" y="142">Wings, rear fuselages, ailerons, wing flaps,</text>
+  <text class="t-sm" x="36" y="160">major airframe structures, ramp structure</text>
+  <text class="t-sm" x="36" y="178">assembly, AFT pylon assembly</text>
+  <text class="t-md" x="36" y="208">Who buys</text>
+  <text class="t-sm" x="36" y="230">Airbus · Boeing · Bell Helicopter</text>
+  <text class="t-sm" x="36" y="248">Dassault · Deutsche Aircraft · HAL</text>
+  <text class="t-md" x="36" y="278">The cycle</text>
+  <text class="t-sm" x="36" y="300">Aircraft build rates — measured in years,</text>
+  <text class="t-sm" x="36" y="314">on backlogs already sold</text>
+
+  <rect x="330" y="30" width="300" height="290" rx="9" fill="#f7fafc" stroke="currentColor" stroke-width="1.4"/>
+  <text class="t-lg" x="350" y="60">HYDRAULICS</text>
+  <rect x="350" y="72" width="128" height="22" rx="11" fill="#ffffff" stroke="currentColor" stroke-width="1"/>
+  <text class="t-sm t-mut" x="414" y="87" text-anchor="middle">27% of revenue</text>
+  <text class="t-md" x="350" y="120">What it makes</text>
+  <text class="t-sm" x="350" y="142">Hydraulic gear pumps, hydraulic valves,</text>
+  <text class="t-sm" x="350" y="160">combined displacement pump packages</text>
+  <text class="t-sm t-mut" x="350" y="178">Design IP owned in-house for the whole range</text>
+  <text class="t-md" x="350" y="208">Who buys</text>
+  <text class="t-sm" x="350" y="230">Mahindra · Escorts · John Deere</text>
+  <text class="t-sm" x="350" y="248">Cummins · New Holland · Same Deutz-Fahr</text>
+  <text class="t-md" x="350" y="278">The cycle</text>
+  <text class="t-sm" x="350" y="300">Tractor sales — monsoon, rural income,</text>
+  <text class="t-sm" x="350" y="314">European farm machinery demand</text>
+
+  <rect x="644" y="30" width="300" height="290" rx="9" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.8"/>
+  <text class="t-lg" x="664" y="60" fill="#b3261e">METALLURGY</text>
+  <rect x="664" y="72" width="128" height="22" rx="11" fill="#ffffff" stroke="#f3cfcb" stroke-width="1"/>
+  <text class="t-sm" x="728" y="87" text-anchor="middle" fill="#b3261e">25% of revenue</text>
+  <text class="t-md" x="664" y="120">What it makes</text>
+  <text class="t-sm" x="664" y="142">Intricate ferrous castings for performance-</text>
+  <text class="t-sm" x="664" y="160">critical parts — turbocharger housings and</text>
+  <text class="t-sm" x="664" y="178">exhaust manifolds, often single-source</text>
+  <text class="t-md" x="664" y="208">Who buys</text>
+  <text class="t-sm" x="664" y="230">BMW · Audi · Daimler · MAN</text>
+  <text class="t-sm" x="664" y="248">VW · BorgWarner · AGCO</text>
+  <text class="t-md" x="664" y="278">The cycle</text>
+  <text class="t-sm" x="664" y="300">European car production — and the shift</text>
+  <text class="t-sm" x="664" y="314">away from the engine itself (§6)</text>
+
+  <rect x="16" y="336" width="928" height="80" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.4"/>
+  <text class="t-md" x="36" y="362" fill="#a2650a">What actually connects them</text>
+  <text class="t" x="36" y="386" fill="#a2650a">Metal-forming skill and a founder. There is <tspan font-weight="700">no shared customer, no shared technology and no shared cycle</tspan> — an aircraft programme, a monsoon</text>
+  <text class="t" x="36" y="406" fill="#a2650a">and German car production move independently of one another. Everything in §10 follows from that.</text>
+</svg>
+<figcaption><strong>Read this as three separate companies reporting into one P&amp;L, because that is what it is.</strong> The company describes itself as vertically integrated, and in a manufacturing sense it is — it owns a foundry, machining and assembly — but the three segments do not feed each other in any material way. <span class="src">Products, customers and revenue shares verbatim from the Q1FY27 investor deck's business-overview slides (filed 7-Aug-2026); the design-IP and foundry claims from the same deck.</span></figcaption>
+</figure>
+
+<h2 id="s2"><span class="n">2.</span> 48% of revenue, 97% of profit</h2>
+
+<p>This is the single statistic that defines the company, and everything else on this page should be read against it.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 400" role="img" aria-label="In FY26 aerospace was 48 percent of revenue but 97 percent of segment EBITDA, hydraulics contributed 36 crore and metallurgy just 3 crore.">
+  <text class="t-md" x="20" y="32">FY26 revenue, ₹ crore</text>
+  <rect x="20" y="46" width="444" height="38" rx="4" fill="#2E75B6"/>
+  <rect x="466" y="46" width="279" height="38" rx="4" fill="#8fb3d2"/>
+  <rect x="747" y="46" width="205" height="38" rx="4" fill="#e6b0aa"/>
+  <text class="t-md" x="242" y="71" text-anchor="middle" fill="#ffffff">Aerospace 776</text>
+  <text class="t-md" x="605" y="71" text-anchor="middle" fill="#16202b">Hydraulics 487</text>
+  <text class="t-md" x="849" y="71" text-anchor="middle" fill="#16202b">Metallurgy 358</text>
+  <text class="t-sm t-mut" x="20" y="102">Total ₹1,621cr — a reasonably balanced-looking business</text>
+
+  <text class="t-md" x="20" y="150">FY26 segment EBITDA, ₹ crore — drawn to the same scale</text>
+  <rect x="20" y="164" width="759" height="38" rx="4" fill="#2E75B6"/>
+  <rect x="781" y="164" width="153" height="38" rx="4" fill="#8fb3d2"/>
+  <rect x="936" y="164" width="13" height="38" rx="2" fill="#e6b0aa"/>
+  <text class="t-md" x="399" y="189" text-anchor="middle" fill="#ffffff">Aerospace ₹178cr — 22.9% margin</text>
+  <text class="t-md" x="857" y="189" text-anchor="middle" fill="#16202b">₹36cr</text>
+  <text class="t-sm t-mut" x="20" y="220">Hydraulics ₹36cr (7.4% margin) · Metallurgy <tspan font-weight="700">₹3cr (0.8%)</tspan> — the 13-pixel sliver on the right</text>
+
+  <rect x="20" y="244" width="456" height="140" rx="8" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.6"/>
+  <text class="t-md" x="40" y="270" fill="#1F4E79">The statistic, stated two ways</text>
+  <text class="t" x="40" y="296" fill="#1F4E79">Aerospace is <tspan font-weight="700">82% of segment EBITDA</tspan> on 48% of revenue…</text>
+  <text class="t" x="40" y="320" fill="#1F4E79">…and <tspan font-weight="700">~97% of consolidated EBITDA</tspan>, because ₹34cr of</text>
+  <text class="t" x="40" y="340" fill="#1F4E79">unallocated corporate cost sits between the two.</text>
+  <text class="t-sm t-mut" x="40" y="366">Segments sum to ₹217cr; consolidated EBITDA is ₹183cr on ₹1,621cr of</text>
+  <text class="t-sm t-mut" x="40" y="380">revenue — an 11.3% blended margin.</text>
+
+  <rect x="492" y="244" width="452" height="140" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.5"/>
+  <text class="t-md" x="512" y="270" fill="#a2650a">Two consequences worth carrying</text>
+  <text class="t" x="512" y="296" fill="#a2650a">1 · <tspan font-weight="700">The blended margin is meaningless.</tspan> An 11.3% company</text>
+  <text class="t" x="534" y="316" fill="#a2650a">margin describes no business Dynamatic actually runs.</text>
+  <text class="t" x="512" y="342" fill="#a2650a">2 · <tspan font-weight="700">Small moves in the other two matter enormously</tspan> — they</text>
+  <text class="t" x="534" y="362" fill="#a2650a">start from so low a base that any improvement is large in</text>
+  <text class="t" x="534" y="378" fill="#a2650a">percentage terms. §9 is exactly that.</text>
+</svg>
+<figcaption><strong>One business earns the money; the other two consume the balance sheet and produce revenue.</strong> That is the fact to hold before reading any consolidated number this company reports — its margin, its return on capital or its growth rate. <span class="src">FY26 segment revenue and EBITDA from the company's segment disclosure as recorded in the profile's §4: Aerospace ₹776cr / ₹178cr (22.9%), Hydraulics ₹487cr / ₹36cr (7.4%), Metallurgy ₹358cr / ₹3cr (0.8%); consolidated EBITDA ₹183cr on ₹1,621cr. <strong>Note the reconciliation:</strong> the three segments sum to ₹217cr, so ~₹34cr of unallocated corporate cost separates segment EBITDA from consolidated — which is why Aerospace is 82% of one measure and ~97% of the other. Both are stated. <span class="tag inf">MY INFERENCE</span> — the "blended margin is meaningless" reading is mine.</span></figcaption>
+</figure>
+
+<h2 id="s3"><span class="n">3.</span> What an airframe Tier-1 actually delivers</h2>
+
+<p>An aerostructures supplier does not sell parts by the kilo. It is given a <strong>work package</strong> — a defined piece of the aircraft — and is responsible for delivering it complete, to the aircraft maker's own drawings, in matched sets, on the OEM's build rate.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 400" role="img" aria-label="An aircraft with the work packages Dynamatic supplies marked on it: wings and wing flaps, ailerons, rear fuselage, doors and pylon assemblies, delivered as matched ship-sets.">
+  <defs>
+    <marker id="d3a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <path d="M180,150 L640,150 Q700,150 720,132 L760,132 Q790,140 760,150 L720,150 Q700,168 640,168 L180,168 Q140,168 140,159 Q140,150 180,150 Z"
+        fill="#eef3f8" stroke="currentColor" stroke-width="1.6"/>
+  <path d="M400,168 L340,236 L378,236 L452,168 Z" fill="#dbe6f0" stroke="#2E75B6" stroke-width="1.6"/>
+  <path d="M400,150 L340,82 L378,82 L452,150 Z" fill="#dbe6f0" stroke="#2E75B6" stroke-width="1.6"/>
+  <path d="M660,150 L636,104 L654,104 L690,150 Z" fill="#dbe6f0" stroke="#2E75B6" stroke-width="1.4"/>
+  <circle cx="228" cy="159" r="7" fill="#ffffff" stroke="currentColor" stroke-width="1.2"/>
+  <circle cx="262" cy="159" r="7" fill="#ffffff" stroke="currentColor" stroke-width="1.2"/>
+  <circle cx="296" cy="159" r="7" fill="#ffffff" stroke="currentColor" stroke-width="1.2"/>
+  <ellipse cx="470" cy="196" rx="24" ry="10" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+
+  <line x1="360" y1="96" x2="300" y2="66" stroke="currentColor" stroke-width="1" marker-end="url(#d3a)"/>
+  <text class="t-sm" x="294" y="62" text-anchor="end">Wings, wing flaps, ailerons</text>
+  <line x1="376" y1="224" x2="300" y2="256" stroke="currentColor" stroke-width="1" marker-end="url(#d3a)"/>
+  <text class="t-sm" x="294" y="262" text-anchor="end">Flap track beams — single-source</text>
+  <line x1="676" y1="120" x2="742" y2="92" stroke="currentColor" stroke-width="1" marker-end="url(#d3a)"/>
+  <text class="t-sm" x="748" y="88">Rear fuselage structures</text>
+  <line x1="252" y1="172" x2="212" y2="212" stroke="currentColor" stroke-width="1" marker-end="url(#d3a)"/>
+  <text class="t-sm" x="206" y="218" text-anchor="end">Doors — 8 per A220 ship-set</text>
+  <line x1="482" y1="200" x2="560" y2="228" stroke="currentColor" stroke-width="1" marker-end="url(#d3a)"/>
+  <text class="t-sm" x="566" y="234">AFT pylon assembly</text>
+
+  <rect x="20" y="286" width="456" height="100" rx="8" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.6"/>
+  <text class="t-md" x="40" y="312" fill="#1F4E79">The unit of delivery is a ship-set</text>
+  <text class="t" x="40" y="336" fill="#1F4E79">Not "a door" — <tspan font-weight="700">all eight doors for one aircraft</tspan>, matched and</text>
+  <text class="t" x="40" y="356" fill="#1F4E79">delivered together. Q4FY26 marked the first complete A220</text>
+  <text class="t" x="40" y="376" fill="#1F4E79">ship-set from Bengaluru, <tspan font-weight="700">"completed ahead of schedule"</tspan>.</text>
+
+  <rect x="492" y="286" width="452" height="100" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="512" y="312">Build-to-print, not build-to-spec</text>
+  <text class="t" x="512" y="336">The OEM owns the design. Dynamatic owns the <tspan font-weight="700">ability to</tspan></text>
+  <text class="t" x="512" y="356"><tspan font-weight="700">manufacture it repeatably to aerospace tolerance</tspan> — tooling,</text>
+  <text class="t" x="512" y="376">process, quality system and delivery record.</text>
+</svg>
+<figcaption><strong>The work package, not the part, is what gets awarded — and it is awarded for the life of the aircraft programme.</strong> That is why an aerostructures win takes years to convert into revenue and then persists for a decade or more. <span class="src">Product list (wings, rear fuselages, ailerons, wing flaps, ramp structure assembly, AFT pylon assembly) from the Q1FY27 deck; the A220 eight-door ship-set and the "completed ahead of schedule" quote from the Q4FY26 disclosure as recorded in the profile's §3. Aircraft drawing is schematic and not to scale.</span></figcaption>
+</figure>
+
+<h2 id="s4"><span class="n">4.</span> Why a single-source airframe position is durable</h2>
+
+<p>Dynamatic has been the <strong>single global source for the Airbus A320 flap track beam for roughly fifteen years</strong>. Understanding why an aircraft maker would allow that — and why it rarely changes its mind — is the whole moat argument for this segment.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 360" role="img" aria-label="Why single-source airframe positions persist: a flight-critical part requires qualification, tooling and certification, so switching supplier means repeating all of it for no benefit.">
+  <defs>
+    <marker id="d4a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <rect x="20"  y="40" width="210" height="76" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="125" y="68" text-anchor="middle">Flight-critical part</text>
+  <text class="t-sm t-mut" x="125" y="88" text-anchor="middle">a flap track beam carries the</text>
+  <text class="t-sm t-mut" x="125" y="104" text-anchor="middle">wing flap loads in flight</text>
+
+  <line x1="234" y1="78" x2="262" y2="78" stroke="currentColor" stroke-width="1.6" marker-end="url(#d4a)"/>
+
+  <rect x="266" y="40" width="210" height="76" rx="7" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.5"/>
+  <text class="t-md" x="371" y="68" text-anchor="middle" fill="#a2650a">Qualification is per supplier</text>
+  <text class="t-sm" x="371" y="88" text-anchor="middle" fill="#a2650a">process, tooling, people and</text>
+  <text class="t-sm" x="371" y="104" text-anchor="middle" fill="#a2650a">quality system all approved</text>
+
+  <line x1="480" y1="78" x2="508" y2="78" stroke="currentColor" stroke-width="1.6" marker-end="url(#d4a)"/>
+
+  <rect x="512" y="40" width="210" height="76" rx="7" fill="#eaf2fb" stroke="#2E75B6" stroke-width="2"/>
+  <text class="t-md" x="617" y="68" text-anchor="middle" fill="#1F4E79">Awarded for the programme</text>
+  <text class="t-sm" x="617" y="88" text-anchor="middle" fill="#1F4E79">contracts run 5–8 years and</text>
+  <text class="t-sm" x="617" y="104" text-anchor="middle" fill="#1F4E79">renew with the aircraft</text>
+
+  <line x1="726" y1="78" x2="754" y2="78" stroke="currentColor" stroke-width="1.6" marker-end="url(#d4a)"/>
+
+  <rect x="758" y="40" width="186" height="76" rx="7" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.6"/>
+  <text class="t-md" x="851" y="68" text-anchor="middle" fill="#1a6f4a">~15 years single-source</text>
+  <text class="t-sm" x="851" y="88" text-anchor="middle" fill="#1a6f4a">on the A320 flap track</text>
+  <text class="t-sm" x="851" y="104" text-anchor="middle" fill="#1a6f4a">beam, globally</text>
+
+  <rect x="20" y="140" width="456" height="96" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t-md" x="40" y="166">What the OEM gives up by single-sourcing</text>
+  <text class="t" x="40" y="190">Negotiating leverage, and a second source if the supplier fails.</text>
+  <text class="t" x="40" y="212">It accepts that only when the alternative — qualifying and</text>
+  <text class="t" x="40" y="228">maintaining two suppliers — costs more than it saves.</text>
+
+  <rect x="492" y="140" width="452" height="96" rx="8" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.5"/>
+  <text class="t-md" x="512" y="166" fill="#1F4E79">What the supplier gets</text>
+  <text class="t" x="512" y="190" fill="#1F4E79">A position that cannot be competed away on price, because</text>
+  <text class="t" x="512" y="212" fill="#1F4E79">there is nobody else qualified to quote — and <tspan font-weight="700">a 22.9% EBITDA</tspan></text>
+  <text class="t" x="512" y="228" fill="#1F4E79"><tspan font-weight="700">margin</tspan> in a segment where the group blended margin is 11.3%.</text>
+
+  <rect x="20" y="256" width="924" height="86" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.4"/>
+  <text class="t-md" x="40" y="282" fill="#a2650a">And the reason the A220 doors programme matters more than its revenue</text>
+  <text class="t" x="40" y="306" fill="#a2650a">A single-source position won fifteen years ago proves the company <tspan font-weight="700">was</tspan> capable. A new complete ship-set delivered ahead of schedule proves it</text>
+  <text class="t" x="40" y="326" fill="#a2650a"><tspan font-weight="700">still is</tspan> — which is what an OEM looks at when handing out the next work package. The demand backdrop is Airbus and Boeing backlogs above 15,000 aircraft.</text>
+</svg>
+<figcaption><strong>Aerostructures is a business where the position, once earned, is worth far more than the part.</strong> Dynamatic was the first Indian private company to reach Tier-1 status with Airbus, and the durability of that status — not the size of any one contract — is what the 22.9% segment margin is paying for. <span class="src">Single-source status and its duration, contract lengths and the Tier-1 milestone from the profile's §3; the segment margin from the FY26 disclosure; Airbus/Boeing backlog from the profile's §2. <span class="tag inf">MY INFERENCE</span> — the OEM trade-off framing is mine.</span></figcaption>
+</figure>
+
+<h2 id="s5"><span class="n">5.</span> The gear pump — the original business</h2>
+
+<p>Hydraulics is where Dynamatic started, and it is a genuinely strong industrial position that happens to sit in a slow-growing industry.</p>
+
+<p><strong>What the product does:</strong> when a tractor lifts a plough, a loader raises its bucket, or a tipper tilts its bed, a pump is converting engine rotation into pressurised oil. A <strong>gear pump</strong> is the simplest and most robust way to do that — two meshing gears in a tight housing, carrying oil around the outside and forcing it out under pressure. It is cheap, tolerant of dirt, and hard to break, which is exactly what farm equipment needs.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 356" role="img" aria-label="A hydraulic gear pump drawn as two meshing gears in a housing, drawing oil in on one side and delivering it under pressure on the other, used to lift tractor implements.">
+  <defs>
+    <marker id="d5a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2E75B6"/>
+    </marker>
+  </defs>
+
+  <rect x="120" y="60" width="240" height="150" rx="10" fill="#f4f7fa" stroke="currentColor" stroke-width="1.8"/>
+  <circle cx="196" cy="135" r="52" fill="#ffffff" stroke="currentColor" stroke-width="1.6"/>
+  <circle cx="284" cy="135" r="52" fill="#ffffff" stroke="currentColor" stroke-width="1.6"/>
+  <g stroke="currentColor" stroke-width="1.3" fill="none">
+    <line x1="196" y1="83" x2="196" y2="95"/><line x1="196" y1="175" x2="196" y2="187"/>
+    <line x1="144" y1="135" x2="156" y2="135"/><line x1="236" y1="135" x2="248" y2="135"/>
+    <line x1="159" y1="98" x2="168" y2="107"/><line x1="224" y1="163" x2="233" y2="172"/>
+    <line x1="159" y1="172" x2="168" y2="163"/><line x1="224" y1="107" x2="233" y2="98"/>
+    <line x1="284" y1="83" x2="284" y2="95"/><line x1="284" y1="175" x2="284" y2="187"/>
+    <line x1="232" y1="135" x2="244" y2="135"/><line x1="324" y1="135" x2="336" y2="135"/>
+    <line x1="247" y1="98" x2="256" y2="107"/><line x1="312" y1="163" x2="321" y2="172"/>
+    <line x1="247" y1="172" x2="256" y2="163"/><line x1="312" y1="107" x2="321" y2="98"/>
+  </g>
+  <circle cx="196" cy="135" r="9" fill="#dbe6f0" stroke="currentColor" stroke-width="1.2"/>
+  <circle cx="284" cy="135" r="9" fill="#dbe6f0" stroke="currentColor" stroke-width="1.2"/>
+
+  <path d="M40,135 H112" stroke="#2E75B6" stroke-width="3" marker-end="url(#d5a)"/>
+  <text class="t-sm" x="40" y="122" fill="#1F4E79">oil in, low pressure</text>
+  <path d="M368,135 H452" stroke="#2E75B6" stroke-width="4" marker-end="url(#d5a)"/>
+  <text class="t-sm" x="368" y="122" fill="#1F4E79">oil out, high pressure</text>
+  <text class="t-sm t-mut" x="240" y="234" text-anchor="middle">two meshing gears in a tight housing — engine rotation in, hydraulic power out</text>
+
+  <rect x="492" y="52" width="452" height="112" rx="8" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.6"/>
+  <text class="t-md" x="512" y="78" fill="#1F4E79">The market position</text>
+  <text class="t" x="512" y="104" fill="#1F4E79"><tspan font-weight="700">One of the world's largest makers of hydraulic gear pumps</tspan>,</text>
+  <text class="t" x="512" y="124" fill="#1F4E79">with five decades in the market and <tspan font-weight="700">~70% of India's organised</tspan></text>
+  <text class="t" x="512" y="144" fill="#1F4E79"><tspan font-weight="700">tractor market</tspan>, supplying nearly all the major OEMs.</text>
+
+  <rect x="492" y="176" width="452" height="156" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="512" y="202">Why the share does not translate into a high margin</text>
+  <text class="t" x="512" y="228">· It is a <tspan font-weight="700">mature, mid-single-digit growth</tspan> industry</text>
+  <text class="t" x="512" y="250">· Customers are large OEMs with real purchasing power</text>
+  <text class="t" x="512" y="272">· <tspan font-weight="700">Normal-conditions margins are 10–15%</tspan>, not aerospace's 23%</text>
+  <text class="t-sm t-mut" x="512" y="298">Dynamatic does own the <tspan font-style="italic">design IP for the entire Hydraulics range</tspan> — which is</text>
+  <text class="t-sm t-mut" x="512" y="312">unusual, and is what separates it from a contract machinist.</text>
+</svg>
+<figcaption><strong>A dominant share of a slow industry is a good business, not a great one — and Dynamatic's own numbers say so.</strong> The interesting change is not the share, which has been stable for years; it is the margin, which went from 3.4% to 12.5% in a single year once the UK restructuring landed (§8). <span class="src">Market position, share and customers from the Q1FY27 deck; the design-IP claim from the same deck's overview slide; industry growth and normal margin ranges from the profile's §2. The description of how a gear pump works is standard engineering.</span></figcaption>
+</figure>
+
+<h2 id="s6"><span class="n">6.</span> The German foundry, and why it is a hard place to be</h2>
+
+<p>Eisenwerk Erla, at Schwarzenberg in Germany, is a <strong>ferrous foundry</strong> — it melts iron and pours it into moulds to make intricate castings that have to survive extreme heat and vibration: turbocharger housings and exhaust manifolds, sitting inches from an engine's hottest gas.</p>
+
+<p>It is described by the company as one of the most advanced ferrous foundries in Europe, capable of single-source work for BMW, Audi, Daimler, MAN and BorgWarner. <strong>It earned a 0.8% EBITDA margin in FY26.</strong> The gap between those two sentences is the whole section.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 400" role="img" aria-label="Three structural headwinds facing a German automotive foundry: energy costs tripling after 2022, electric vehicles requiring less engine casting content, and Chinese competitors entering the market.">
+  <defs>
+    <marker id="d6r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b3261e"/>
+    </marker>
+  </defs>
+
+  <rect x="330" y="30" width="300" height="72" rx="8" fill="#f4f7fa" stroke="currentColor" stroke-width="1.6"/>
+  <text class="t-md" x="480" y="58" text-anchor="middle">A good specific asset</text>
+  <text class="t-sm t-mut" x="480" y="78" text-anchor="middle">advanced ferrous foundry, single-source</text>
+  <text class="t-sm t-mut" x="480" y="94" text-anchor="middle">capability, blue-chip German customers</text>
+
+  <path d="M400,106 L200,150" stroke="#b3261e" stroke-width="1.8" marker-end="url(#d6r)"/>
+  <path d="M480,106 L480,150" stroke="#b3261e" stroke-width="1.8" marker-end="url(#d6r)"/>
+  <path d="M560,106 L760,150" stroke="#b3261e" stroke-width="1.8" marker-end="url(#d6r)"/>
+
+  <rect x="20" y="156" width="280" height="120" rx="8" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.6"/>
+  <text class="t-md" x="160" y="182" text-anchor="middle" fill="#b3261e">Energy</text>
+  <text class="t" x="40" y="208" fill="#b3261e">Melting iron is one of the most</text>
+  <text class="t" x="40" y="228" fill="#b3261e">energy-intensive processes in</text>
+  <text class="t" x="40" y="248" fill="#b3261e">manufacturing.</text>
+  <text class="t" x="40" y="268" fill="#b3261e"><tspan font-weight="700">German energy costs rose ~3x</tspan></text>
+
+  <rect x="340" y="156" width="280" height="120" rx="8" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.6"/>
+  <text class="t-md" x="480" y="182" text-anchor="middle" fill="#b3261e">The product is disappearing</text>
+  <text class="t" x="360" y="208" fill="#b3261e">Turbocharger housings and</text>
+  <text class="t" x="360" y="228" fill="#b3261e">exhaust manifolds exist because</text>
+  <text class="t" x="360" y="248" fill="#b3261e">engines exist. <tspan font-weight="700">An EV needs</tspan></text>
+  <text class="t" x="360" y="268" fill="#b3261e"><tspan font-weight="700">neither.</tspan></text>
+
+  <rect x="660" y="156" width="280" height="120" rx="8" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.6"/>
+  <text class="t-md" x="800" y="182" text-anchor="middle" fill="#b3261e">Competition</text>
+  <text class="t" x="680" y="208" fill="#b3261e">Chinese foundries have entered</text>
+  <text class="t" x="680" y="228" fill="#b3261e">aggressively, with a structurally</text>
+  <text class="t" x="680" y="248" fill="#b3261e">lower energy and labour cost</text>
+  <text class="t" x="680" y="268" fill="#b3261e">base.</text>
+
+  <rect x="20" y="296" width="456" height="92" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t-md" x="40" y="322">The stated plan</text>
+  <text class="t" x="40" y="346">Management's language has been consistent for at least four</text>
+  <text class="t" x="40" y="366">quarters: <tspan font-style="italic">"focus on high-margin product mix, rationalization of</tspan></text>
+  <text class="t" x="40" y="382"><tspan font-style="italic">low-margin products, development of aerospace castings and forgings."</tspan></text>
+
+  <rect x="492" y="296" width="452" height="92" rx="8" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.5"/>
+  <text class="t-md" x="512" y="322" fill="#1F4E79">Why "aerospace castings" is the interesting phrase</text>
+  <text class="t" x="512" y="346" fill="#1F4E79">It is the one plan that would connect this segment to the one that</text>
+  <text class="t" x="512" y="366" fill="#1F4E79">actually earns money — turning an automotive foundry into a feeder</text>
+  <text class="t" x="512" y="382" fill="#1F4E79">for the aerospace business. It has not yet shown up in the margin.</text>
+</svg>
+<figcaption><strong>A good asset in a bad industry is one of the hardest positions in manufacturing, because competence does not fix it.</strong> Erla's problem is not that it makes poor castings; it is that its customers' engines are being designed out, its energy bill tripled, and cheaper capacity arrived at the same time. Q1FY27 saw margin recover to 3.7% EBITDA and EBIT turn positive at 0.6% — real, and still barely covering the cost of capital. <span class="src">Product description and customers from the Q1FY27 deck; the three headwinds from the profile's §2; the management quote and Q1FY27 segment margins from the profile's §3 and §4.</span></figcaption>
+</figure>
+
+<h2 id="s7"><span class="n">7.</span> The currency mechanic — reading growth that isn't there</h2>
+
+<p>With plants in India, the UK and Germany, a majority of Dynamatic's revenue is earned in euros and pounds and reported in rupees. <strong>When the rupee weakens, reported revenue rises without a single extra part being made.</strong></p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 442" role="img" aria-label="In Q1FY27 reported revenue grew 14.5 percent but constant-currency growth was 3.9 percent, with 39.3 crore of the 53.9 crore increase coming from translation; EBITDA was much less affected.">
+  <text class="t-md" x="20" y="32">Average exchange rates, Q1FY26 → Q1FY27</text>
+  <text class="t-md" x="150" y="70" text-anchor="end">EUR / INR</text>
+  <rect x="160" y="52" width="380" height="24" rx="3" fill="#8fb3d2"/>
+  <text class="t-md" x="556" y="70">96.58 → 109.98</text>
+  <text class="t-md" x="742" y="70" fill="#b3261e">+13.9%</text>
+  <text class="t-md" x="150" y="106" text-anchor="end">GBP / INR</text>
+  <rect x="160" y="88" width="322" height="24" rx="3" fill="#8fb3d2"/>
+  <text class="t-md" x="556" y="106">113.52 → 126.95</text>
+  <text class="t-md" x="742" y="106" fill="#b3261e">+11.8%</text>
+  <text class="t-md" x="150" y="142" text-anchor="end">USD / INR</text>
+  <rect x="160" y="124" width="298" height="24" rx="3" fill="#8fb3d2"/>
+  <text class="t-md" x="556" y="142">85.32 → 94.63</text>
+  <text class="t-md" x="742" y="142" fill="#b3261e">+10.9%</text>
+
+  <line x1="20" y1="166" x2="940" y2="166" stroke="currentColor" stroke-width="1" opacity=".2"/>
+
+  <text class="t-md" x="20" y="196">Q1FY27 revenue growth, ₹53.9cr of increase</text>
+  <rect x="20" y="210" width="920" height="36" rx="4" fill="#cfdcea"/>
+  <rect x="20" y="210" width="671" height="36" rx="4" fill="#b3261e"/>
+  <text class="t-md" x="355" y="234" text-anchor="middle" fill="#ffffff">₹39.3cr was translation — 73%</text>
+  <text class="t-md" x="815" y="234" text-anchor="middle" fill="#16202b">₹14.6cr real</text>
+  <text class="t-sm t-mut" x="20" y="266">Reported <tspan font-weight="700">+14.5%</tspan> · constant currency <tspan font-weight="700">+3.9%</tspan> — the company's own disclosure, on its own slide</text>
+
+  <text class="t-md" x="20" y="306">Q1FY27 EBITDA growth, ₹17.3cr of increase</text>
+  <rect x="20" y="320" width="920" height="36" rx="4" fill="#cfdcea"/>
+  <rect x="20" y="320" width="271" height="36" rx="4" fill="#b3261e"/>
+  <text class="t-md" x="155" y="344" text-anchor="middle" fill="#ffffff">₹5.1cr FX</text>
+  <text class="t-md" x="615" y="344" text-anchor="middle" fill="#16202b">₹12.2cr real — constant-currency EBITDA still grew about 32%</text>
+
+  <rect x="20" y="374" width="920" height="58" rx="8" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.4"/>
+  <text class="t" x="40" y="398" fill="#1a6f4a"><tspan font-weight="700">So the two halves of the headline behave differently:</tspan> the revenue growth is mostly currency, and the margin</text>
+  <text class="t" x="40" y="420" fill="#1a6f4a">improvement is mostly real. <tspan font-weight="700">Judge this company on margin, not on top line.</tspan></text>
+</svg>
+<figcaption><strong>Most companies with this exposure bury the effect in a footnote. Dynamatic put it on a dedicated slide, quantified per currency, and reconciled both revenue and EBITDA.</strong> That is unusually good disclosure — and it comes from the company on this watchlist that holds no earnings call at all. Use it: reported growth of 14.5% describes the rupee more than the business, while the margin expansion survives the adjustment. <span class="src">Exchange rates, the ₹392.58mn revenue adjustment, the ₹51.37mn EBITDA adjustment and the constant-currency growth rates are the company's own, quoted verbatim in the profile's §4 from the Q1FY27 deck.</span></figcaption>
+</figure>
+
+<h2 id="s8"><span class="n">8.</span> Three countries, three cost bases</h2>
+
+<p>Eight facilities across three countries is not just a currency exposure — it is three different labour rates, energy costs and regulatory regimes making broadly similar things. That creates a lever most single-country manufacturers do not have: <strong>work can be moved.</strong></p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 380" role="img" aria-label="Facilities in Bangalore India, Swindon and Bristol in the UK and Schwarzenberg in Germany, and the transfer of hydraulics work from Swindon to Bangalore which lifted segment margin from 3.4 to 12.5 percent.">
+  <defs>
+    <marker id="d8g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a6f4a"/>
+    </marker>
+  </defs>
+
+  <rect x="20" y="40" width="280" height="118" rx="8" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.8"/>
+  <text class="t-lg" x="40" y="70" fill="#1F4E79">India</text>
+  <text class="t-sm" x="40" y="94" fill="#1F4E79">Bangalore — Aerospace SEZ, hydraulics,</text>
+  <text class="t-sm" x="40" y="112" fill="#1F4E79">and Dynamatic Manufacturing Limited</text>
+  <text class="t-sm" x="40" y="136" fill="#1F4E79">Lowest cost base · A220 doors ship-set</text>
+  <text class="t-sm" x="40" y="152" fill="#1F4E79">now built here</text>
+
+  <rect x="330" y="40" width="280" height="118" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1.4"/>
+  <text class="t-lg" x="350" y="70">United Kingdom</text>
+  <text class="t-sm t-mut" x="350" y="94">Swindon and Bristol — high-precision</text>
+  <text class="t-sm t-mut" x="350" y="112">airframe structures and components,</text>
+  <text class="t-sm t-mut" x="350" y="130">plus a hydraulics arm selling into</text>
+  <text class="t-sm t-mut" x="350" y="148">European agri and industrial markets</text>
+
+  <rect x="640" y="40" width="300" height="118" rx="8" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.6"/>
+  <text class="t-lg" x="660" y="70" fill="#b3261e">Germany</text>
+  <text class="t-sm" x="660" y="94" fill="#b3261e">Schwarzenberg — Eisenwerk Erla,</text>
+  <text class="t-sm" x="660" y="112" fill="#b3261e">the ferrous foundry</text>
+  <text class="t-sm" x="660" y="136" fill="#b3261e">Highest energy cost base, and the</text>
+  <text class="t-sm" x="660" y="152" fill="#b3261e">segment earning almost nothing</text>
+
+  <path d="M330,196 H180" stroke="#1a6f4a" stroke-width="2.4" marker-end="url(#d8g)"/>
+  <text class="t-md" x="340" y="192" fill="#1a6f4a">Hydraulics work transferred Swindon → Bangalore</text>
+  <text class="t-sm t-mut" x="340" y="212">the company describes the transfer as "well on its way"</text>
+
+  <rect x="20" y="238" width="456" height="122" rx="8" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.6"/>
+  <text class="t-md" x="40" y="264" fill="#1a6f4a">What moving the work did</text>
+  <text class="t-md" x="40" y="296" fill="#1a6f4a">Hydraulics EBITDA margin</text>
+  <rect x="40" y="308" width="60" height="26" rx="3" fill="#cfdcea"/>
+  <rect x="120" y="308" width="220" height="26" rx="3" fill="#1a6f4a"/>
+  <text class="t-md" x="70" y="326" text-anchor="middle">3.4%</text>
+  <text class="t-md" x="230" y="326" text-anchor="middle" fill="#ffffff">12.5%</text>
+  <text class="t-sm t-mut" x="40" y="352">Q1FY26 → Q1FY27, on revenue growth of only 9.4%</text>
+
+  <rect x="492" y="238" width="452" height="122" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.5"/>
+  <text class="t-md" x="512" y="264" fill="#a2650a">The general mechanic</text>
+  <text class="t" x="512" y="290" fill="#a2650a">A multi-country manufacturer can fix a margin problem by</text>
+  <text class="t" x="512" y="310" fill="#a2650a"><tspan font-weight="700">changing where the work is done</tspan>, without changing the product,</text>
+  <text class="t" x="512" y="330" fill="#a2650a">the customer or the price.</text>
+  <text class="t-sm" x="512" y="352" fill="#a2650a">That lever exists for Hydraulics. It does not obviously exist for a German foundry whose customers are German.</text>
+</svg>
+<figcaption><strong>The same geographic spread that creates the currency noise in §7 also creates the one real self-help lever this company has.</strong> Hydraulics went from 3.4% to 12.5% segment margin largely by relocating work to a cheaper base — an almost ninefold rise in absolute segment EBITDA on 9.4% revenue growth. <span class="src">Facility locations from the Q1FY27 deck; the Swindon-to-Bangalore transfer and "well on its way" from the company's disclosure as recorded in the profile; segment margins from the Q1FY27 segment table. <span class="tag inf">MY INFERENCE</span> — the observation that the lever does not transfer to Erla is mine.</span></figcaption>
+</figure>
+
+<h2 id="s9"><span class="n">9.</span> The turnaround, segment by segment</h2>
+
+<p>Put the three segments side by side for Q1FY27 and the shape of what is actually happening becomes clear — and it is not what the headline growth rate suggests.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 400" role="img" aria-label="Q1FY27 segment margins against Q1FY26: aerospace steady at 23.8 percent, hydraulics up from 3.4 to 12.5 percent, metallurgy up from 1.9 to 3.7 percent.">
+  <text class="t-md" x="20" y="32">EBITDA margin by segment, Q1FY26 → Q1FY27</text>
+  <rect x="600" y="18" width="16" height="12" rx="2" fill="#cfdcea"/><text class="t-sm t-mut" x="622" y="29">Q1FY26</text>
+  <rect x="700" y="18" width="16" height="12" rx="2" fill="#2E75B6"/><text class="t-sm t-mut" x="722" y="29">Q1FY27</text>
+
+  <text class="t-md" x="180" y="76" text-anchor="end">Aerospace</text>
+  <rect x="190" y="56" width="462" height="24" rx="3" fill="#cfdcea"/>
+  <rect x="190" y="84" width="476" height="24" rx="3" fill="#2E75B6"/>
+  <text class="t-md" x="664" y="75">23.1%</text>
+  <text class="t-md" x="678" y="103" fill="#1F4E79">23.8%</text>
+  <text class="t-sm t-mut" x="750" y="90">already strong, still improving</text>
+
+  <text class="t-md" x="180" y="160" text-anchor="end">Hydraulics</text>
+  <rect x="190" y="140" width="68" height="24" rx="3" fill="#cfdcea"/>
+  <rect x="190" y="168" width="250" height="24" rx="3" fill="#1a6f4a"/>
+  <text class="t-md" x="270" y="159">3.4%</text>
+  <text class="t-md" x="452" y="187" fill="#1a6f4a">12.5%</text>
+  <text class="t-sm" x="530" y="174" fill="#1a6f4a">EBITDA up ~9x, on 9.4% revenue growth</text>
+
+  <text class="t-md" x="180" y="244" text-anchor="end">Metallurgy</text>
+  <rect x="190" y="224" width="38" height="24" rx="3" fill="#cfdcea"/>
+  <rect x="190" y="252" width="74" height="24" rx="3" fill="#e6b0aa"/>
+  <text class="t-md" x="240" y="243">1.9%</text>
+  <text class="t-md" x="276" y="271">3.7%</text>
+  <text class="t-sm t-mut" x="340" y="258">EBIT turned positive at 0.6% — from a very low base</text>
+
+  <rect x="20" y="298" width="456" height="90" rx="8" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.5"/>
+  <text class="t-md" x="40" y="324" fill="#1F4E79">What the picture says</text>
+  <text class="t" x="40" y="348" fill="#1F4E79">The anchor is steady, the middle business has been genuinely</text>
+  <text class="t" x="40" y="368" fill="#1F4E79">repaired, and the problem child is off the floor but not fixed.</text>
+
+  <rect x="492" y="298" width="452" height="90" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.5"/>
+  <text class="t-md" x="512" y="324" fill="#a2650a">And what to test next</text>
+  <text class="t" x="512" y="348" fill="#a2650a">Whether 12.5% in Hydraulics <tspan font-weight="700">holds</tspan> — one quarter of a</text>
+  <text class="t" x="512" y="368" fill="#a2650a">restructuring benefit is not yet a run rate.</text>
+</svg>
+<figcaption><strong>Two of the three segments moved in the right direction for structural reasons rather than cyclical ones.</strong> The Hydraulics improvement came from relocating work (§8); the Metallurgy improvement came off a base so low that a 132% rise in EBITDA is ₹1.7cr becoming ₹4.0cr. Both are real; only one is material. <span class="src">All segment revenue and margin figures from the Q1FY27 segment disclosure as recorded in the profile's §4.</span></figcaption>
+</figure>
+
+<h2 id="s10"><span class="n">10.</span> What three unrelated cycles do to one P&amp;L</h2>
+
+<p>This is the structural point the whole page has been building toward, and it is an industry observation rather than a valuation one.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 380" role="img" aria-label="Three independent demand cycles feeding one profit and loss account: aircraft build rates, Indian monsoon and rural income, and European car production, each with its own currency.">
+  <defs>
+    <marker id="d10a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <rect x="20" y="34" width="270" height="86" rx="8" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.6"/>
+  <text class="t-md" x="155" y="60" text-anchor="middle" fill="#1F4E79">Aircraft build rates</text>
+  <text class="t-sm" x="155" y="82" text-anchor="middle" fill="#1F4E79">multi-year backlogs, slow to turn</text>
+  <text class="t-sm" x="155" y="102" text-anchor="middle" fill="#1F4E79">priced in USD, EUR, GBP</text>
+
+  <rect x="345" y="34" width="270" height="86" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1.4"/>
+  <text class="t-md" x="480" y="60" text-anchor="middle">Monsoon &amp; rural income</text>
+  <text class="t-sm t-mut" x="480" y="82" text-anchor="middle">annual, weather-driven, plus</text>
+  <text class="t-sm t-mut" x="480" y="102" text-anchor="middle">European farm machinery demand</text>
+
+  <rect x="670" y="34" width="270" height="86" rx="8" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.6"/>
+  <text class="t-md" x="805" y="60" text-anchor="middle" fill="#b3261e">European car production</text>
+  <text class="t-sm" x="805" y="82" text-anchor="middle" fill="#b3261e">and the powertrain transition</text>
+  <text class="t-sm" x="805" y="102" text-anchor="middle" fill="#b3261e">priced in EUR</text>
+
+  <path d="M155,126 L420,176" stroke="currentColor" stroke-width="1.6" marker-end="url(#d10a)"/>
+  <path d="M480,126 V176" stroke="currentColor" stroke-width="1.6" marker-end="url(#d10a)"/>
+  <path d="M805,126 L540,176" stroke="currentColor" stroke-width="1.6" marker-end="url(#d10a)"/>
+
+  <rect x="330" y="184" width="300" height="66" rx="8" fill="#f4f7fa" stroke="currentColor" stroke-width="2"/>
+  <text class="t-md" x="480" y="212" text-anchor="middle">ONE CONSOLIDATED P&amp;L</text>
+  <text class="t-sm t-mut" x="480" y="232" text-anchor="middle">reported in rupees, one blended margin</text>
+
+  <rect x="20" y="272" width="456" height="94" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.5"/>
+  <text class="t-md" x="40" y="298" fill="#a2650a">Why this is genuinely hard to read</text>
+  <text class="t" x="40" y="322" fill="#a2650a">Any consolidated number — growth, margin, ROCE — is an average</text>
+  <text class="t" x="40" y="342" fill="#a2650a">across three businesses with different economics. <tspan font-weight="700">The average</tspan></text>
+  <text class="t" x="40" y="360" fill="#a2650a"><tspan font-weight="700">describes none of them.</tspan></text>
+
+  <rect x="492" y="272" width="452" height="94" rx="8" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.5"/>
+  <text class="t-md" x="512" y="298" fill="#1F4E79">The only honest way to read it</text>
+  <text class="t" x="512" y="322" fill="#1F4E79">Segment by segment, at constant currency, and separately from</text>
+  <text class="t" x="512" y="342" fill="#1F4E79">each other. <tspan font-weight="700">The company gives you all three</tspan> — segment tables</text>
+  <text class="t" x="512" y="360" fill="#1F4E79">and an FX reconciliation — which is more than most disclose.</text>
+</svg>
+<figcaption><strong>Three industries, three cycles, three currencies, one reporting line — and one of the three earns almost all of the profit.</strong> Whether the group should continue to hold all three is a strategy and valuation question, and it belongs in the profile, where the sum-of-parts arithmetic is worked through. What belongs here is the reading discipline: <strong>never take a consolidated figure from this company at face value.</strong> <span class="src">Segment cycles from the profile's §2. <span class="tag inf">MY INFERENCE</span> — the whole framing of this figure is mine.</span></figcaption>
+</figure>
+
+<h2 id="s11"><span class="n">11.</span> Reading the industry through the numbers</h2>
+
+<div class="tw">
+<table>
+<thead><tr><th style="width:26%">Industry mechanism</th><th style="width:24%">Where it shows up</th><th style="width:30%">Latest reading</th><th style="width:20%">Source</th></tr></thead>
+<tbody>
+<tr><td>One segment earns the profit</td><td>Segment EBITDA</td><td>Aerospace <strong>~97% of consolidated EBITDA</strong> on 48% of revenue (FY26)</td><td>FY26 segment disclosure</td></tr>
+<tr><td>Aerospace economics</td><td>Segment margin</td><td><strong>22.9% FY26; 23.8% in Q1FY27</strong>, against a group blended 11.3%</td><td>Segment tables</td></tr>
+<tr><td>Single-source positions are durable</td><td>Programme tenure</td><td><strong>~15 years single-source globally</strong> on the A320 flap track beam</td><td>Profile §3</td></tr>
+<tr><td>Work packages come as ship-sets</td><td>Programme milestones</td><td>First complete <strong>8-door A220 ship-set</strong> from Bengaluru, ahead of schedule</td><td>Q4FY26 disclosure</td></tr>
+<tr><td>Reported growth is mostly currency</td><td>Constant-currency revenue</td><td>Reported <strong>+14.5%</strong> vs <strong>+3.9%</strong> cc — <strong>₹39.3cr of ₹53.9cr</strong> was translation</td><td>Q1FY27 deck</td></tr>
+<tr><td>…but margin gains are mostly real</td><td>Constant-currency EBITDA</td><td>Only <strong>₹5.1cr of ₹17.3cr</strong> was FX — cc EBITDA still grew ~32%</td><td>Q1FY27 deck</td></tr>
+<tr><td>Geography is a self-help lever</td><td>Hydraulics margin</td><td><strong>3.4% → 12.5%</strong> after the Swindon-to-Bangalore transfer</td><td>Q1FY27 segments</td></tr>
+<tr><td>Dominant share ≠ high margin</td><td>Hydraulics position</td><td><strong>~70% of India's organised tractor market</strong>; industry margins 10–15%</td><td>Q1FY27 deck; profile §2</td></tr>
+<tr><td>A good asset in a bad industry</td><td>Metallurgy margin</td><td><strong>0.8% FY26 EBITDA</strong>; 3.7% in Q1FY27 with EBIT just positive at 0.6%</td><td>Segment tables</td></tr>
+<tr><td>Long-run growth of the whole</td><td>Revenue CAGR</td><td><strong>Ten-year 1%</strong>, five-year 6.5% — ROE 6.62%, ROCE 9.98%</td><td>Screener, via profile</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2 id="s12"><span class="n">12.</span> What is not disclosed</h2>
+
+<ul>
+<li><strong>No earnings call since February 2024 — the largest gap in the file.</strong> There is no management Q&amp;A, no guidance and no analyst challenge anywhere in the recent record. Every judgement rests on written disclosure that nobody has been able to question.</li>
+<li><strong>Order book.</strong> For an aerostructures business awarded multi-year work packages, no backlog figure is published — so forward visibility in the one segment that earns the profit cannot be measured.</li>
+<li><strong>Programme-level revenue.</strong> The A320 flap track beam and the A220 doors are described qualitatively; neither is sized, so the concentration inside Aerospace is unknown.</li>
+<li><strong>Customer concentration.</strong> Blue-chip names are listed for all three segments; no revenue share is given for any of them.</li>
+<li><strong>Capacity and utilisation</strong> at any of the eight facilities.</li>
+<li><strong>The Metallurgy plan, quantified.</strong> "Development of aerospace castings and forgings" has appeared for at least four quarters with no revenue, timeline or capex attached to it.</li>
+<li><strong>Dynauton Systems.</strong> The unmanned-systems arm and the Aerodata MoU carry no disclosed value, timeline or funding.</li>
+</ul>
+
+<h2 id="s13"><span class="n">13.</span> Glossary</h2>
+
+<dl class="glos">
+<dt>Aerostructures</dt><dd>The physical structure of an aircraft — wings, fuselage sections, doors, control surfaces — as distinct from engines or avionics.</dd>
+<dt>Tier-1 supplier</dt><dd>A supplier that sells complete assemblies directly to the aircraft maker, rather than parts to another supplier.</dd>
+<dt>Work package</dt><dd>A defined portion of the aircraft that a supplier is responsible for delivering complete, to the OEM's drawings.</dd>
+<dt>Ship-set</dt><dd>All the units of a given item needed for one aircraft — for the A220 doors programme, eight doors delivered as a matched set.</dd>
+<dt>Flap track beam</dt><dd>The structural beam that carries the wing flap and its loads. Flight-critical, which is why single-sourcing it is a significant OEM decision.</dd>
+<dt>AFT pylon</dt><dd>The rear structure connecting an engine to the wing.</dd>
+<dt>Build-to-print</dt><dd>Manufacturing to the customer's design. The supplier owns the process capability, not the drawing.</dd>
+<dt>Hydraulic gear pump</dt><dd>Two meshing gears in a close-fitting housing that convert engine rotation into pressurised oil flow — the standard way a tractor lifts an implement.</dd>
+<dt>Ferrous foundry</dt><dd>A plant that melts iron and pours it into moulds to make castings. Extremely energy-intensive.</dd>
+<dt>Turbocharger housing / exhaust manifold</dt><dd>Castings that sit against an engine's hottest exhaust gas — Erla's core products, and parts an electric vehicle does not have.</dd>
+<dt>Constant currency</dt><dd>Growth recalculated at last year's exchange rates, stripping out translation. The number to use when a company earns in several currencies.</dd>
+<dt>Segment EBITDA</dt><dd>Operating profit of one business unit before interest, tax, depreciation and amortisation. For this company, the only margin figure worth reading.</dd>
+</dl>
+
+<hr>
+
+<h3>Sources</h3>
+<p class="src"><strong>Primary documents:</strong> the <strong>Q1FY27 investor presentation and results</strong> (filed 7-Aug-2026), six earlier quarterly decks (Feb-2025 through May-2026), the <strong>Dynauton incorporation and Aerodata MoU announcements</strong> (20 and 23-Apr-2026) and the May-2026 board-meeting filing. Held in <code class="src">Fetched Concalls/DYNAMATIC/</code> and <code class="src">Fetched Concalls/DYNAMATECH/</code>.<br>
+<strong>🔴 No transcripts exist.</strong> Dynamatic has held <strong>no earnings call since February 2024</strong> — stated as a limit, not worked around. Everything on this page comes from written disclosure.<br>
+<strong>Ticker note:</strong> the NSE symbol is <strong>DYNAMATECH</strong>, not DYNAMATIC — the mismatch that produced a 404 and a stale header in an earlier refresh cycle. The profile and dashboard entry remain under DYNAMATIC.<br>
+<strong>Extraction discipline:</strong> figures are taken from deck tables, the segment disclosure and results filings. <strong>No number on this page is read off a chart in a deck.</strong><br>
+<strong>Companion document:</strong> <code class="src">Company Profiles/DYNAMATIC.md</code> carries the valuation, the sum-of-parts arithmetic, the balance sheet and the risk list. This page makes no investment judgement.</p>
+
+</body>
+</html>
