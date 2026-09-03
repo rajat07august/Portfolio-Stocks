@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How the Transformer Business Works — Atlanta Electricals Industry Primer</title>
+<meta name="robots" content="noindex,nofollow">
+<style>
+
+
+
+:root{
+  --navy:#1F4E79; --blue:#2E75B6; --ink:#16202b; --mut:#5a6a78; --bg:#fafbfc;
+  --card:#ffffff; --line:#e3e8ee; --amber:#a2650a; --amberbg:#fff8e6;
+  --red:#b3261e; --redbg:#fdeceb; --green:#1a6f4a; --greenbg:#ecf7f1;
+  color-scheme: light;
+}
+*{box-sizing:border-box}
+body{
+  max-width:1040px; margin:0 auto; padding:22px 20px 80px;
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+  line-height:1.62; color:var(--ink); background:var(--bg); font-size:15px;
+}
+.nav{display:flex; gap:18px; flex-wrap:wrap; margin-bottom:12px; font-size:13.5px}
+.nav a{color:var(--navy); font-weight:600; text-decoration:none}
+.nav a:hover{text-decoration:underline; color:var(--blue)}
+.topbar{background:linear-gradient(135deg,#1F4E79 0%,#2E75B6 100%); color:#fff; padding:20px 24px; border-radius:10px; margin-bottom:22px}
+.topbar h1{margin:0 0 6px; font-size:25px; line-height:1.25; color:#fff; border:0; padding:0}
+.topbar .sub{font-size:14.5px; opacity:.92}
+.topbar .meta{font-size:12.5px; opacity:.8; margin-top:10px}
+h2{color:var(--navy); font-size:20px; margin:44px 0 6px; border-left:4px solid var(--navy); padding-left:12px}
+h2 .n{color:var(--blue); font-weight:700}
+h3{color:var(--blue); font-size:16px; margin:26px 0 8px}
+p{margin:11px 0}
+ul{margin:10px 0; padding-left:22px} li{margin:6px 0}
+.lede{font-size:15.5px; color:#2c3b49}
+.box{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 18px; margin:18px 0}
+.box.warn{background:var(--amberbg); border-color:#f0dcae}
+.box.red{background:var(--redbg); border-color:#f3cfcb}
+.box.good{background:var(--greenbg); border-color:#c7e4d5}
+.box h4{margin:0 0 6px; font-size:14px; color:var(--navy); text-transform:uppercase; letter-spacing:.04em}
+.src{color:var(--mut); font-size:12.5px}
+code.src{background:transparent; padding:0}
+figure.dg{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px 16px 12px; margin:22px 0}
+figure.dg svg{width:100%; height:auto; display:block; color:#3d4b5c}
+figure.dg figcaption{font-size:13px; color:var(--mut); margin-top:12px; padding-top:10px; border-top:1px dashed var(--line)}
+svg text:not([fill]){fill:currentColor}
+.t-lg{font-size:15px; font-weight:700}
+.t-md{font-size:13.5px; font-weight:700}
+.t{font-size:12.5px}
+.t-sm{font-size:11px}
+.t-mut{opacity:.7}
+.tw{overflow-x:auto; margin:16px 0}
+table{border-collapse:collapse; width:100%; min-width:620px; font-size:13.5px; background:var(--card)}
+th,td{border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top}
+th{background:#eef3f8; color:var(--navy); font-weight:700}
+.toc{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 20px; font-size:14px}
+.toc ol{margin:6px 0; padding-left:22px} .toc li{margin:4px 0}
+.toc a{color:var(--navy); text-decoration:none} .toc a:hover{text-decoration:underline}
+.glos{display:grid; grid-template-columns:150px 1fr; gap:6px 14px; font-size:13.5px}
+.glos dt{font-weight:700; color:var(--navy)} .glos dd{margin:0}
+@media (max-width:640px){ .glos{grid-template-columns:1fr} .glos dt{margin-top:8px} }
+.tag{display:inline-block; font-size:11px; font-weight:700; letter-spacing:.03em; padding:2px 7px; border-radius:20px; vertical-align:middle}
+.tag.fact{background:#e8f0f8; color:var(--navy)}
+.tag.inf{background:var(--amberbg); color:var(--amber); border:1px solid #ecd9a8}
+blockquote{border-left:4px solid #2E75B6; background:#f4f8fc; margin:16px 0; padding:12px 18px; font-size:14px}
+hr{border:0; border-top:1px solid var(--line); margin:38px 0}
+</style>
+</head>
+<body>
+
+<div class="nav">
+  <a href="https://portfolio-stocks-chi.vercel.app/index.html">← Dashboard</a>
+  <a href="https://portfolio-stocks-chi.vercel.app/profile.html?stock=ATLANTAELE">Full profile — ATLANTAELE →</a>
+</div>
+
+<div class="topbar">
+  <h1>How the transformer business actually works</h1>
+  <div class="sub">An industry primer for Atlanta Electricals — what a transformer does, why the voltage class it is <em>approved</em> to build decides everything, and why capacity is counted in MVA</div>
+  <div class="meta">Built 3-Sep-2026 · Sourced from Atlanta's 5 official transcripts and 5 investor decks — the complete set since its 29-Sep-2025 listing · Companion to <strong>Company Profiles/ATLANTAELE.md</strong></div>
+</div>
+
+<p class="lede">This page explains the <strong>industry</strong>, not the investment case. What follows is the mechanism: why the grid cannot function without a transformer at every junction, why moving from 220 kV to 400 kV is a different business rather than a bigger one, what actually sits inside the steel box, why a manufacturer's capacity is measured in MVA rather than in units, and why the revenue-per-MVA figure tells you about copper prices rather than about performance.</p>
+
+<div class="box warn">
+<h4>How to read this</h4>
+<p style="margin:6px 0"><span class="tag fact">FACT</span> Everything unmarked comes from Atlanta's own filings — transcripts and investor decks — with the source named in grey after the claim.</p>
+<p style="margin:6px 0"><span class="tag inf">MY INFERENCE</span> Where the framing is mine rather than management's, it is marked.</p>
+<p style="margin:6px 0; color:#5a6a78; font-size:13.5px"><strong>Identity check, because there are two.</strong> NSE carries <strong>ATLANTAA</strong> (Atlanta Ltd, an infrastructure company listed 2006) and <strong>ATLANTAELE</strong> (Atlanta Electricals, listed 29-Sep-2025). This page is about the second. Five transcripts is the <em>complete</em> record since listing, not a partial one.</p>
+</div>
+
+<div class="toc">
+<strong>Contents</strong>
+<ol>
+<li><a href="#s1">What a transformer does, and why the grid needs so many</a></li>
+<li><a href="#s2">The voltage ladder — the whole industry in one axis</a></li>
+<li><a href="#s3">What is actually inside the steel box</a></li>
+<li><a href="#s4">The approval barrier — why you cannot simply build a bigger one</a></li>
+<li><a href="#s5">Why capacity is counted in MVA</a></li>
+<li><a href="#s6">Why renewables need more transformers than coal did</a></li>
+<li><a href="#s7">Revenue per MVA is a commodity price</a></li>
+<li><a href="#s8">The order book and its execution window</a></li>
+<li><a href="#s9">Everyone is arriving at 220 kV</a></li>
+<li><a href="#s10">The inputs, and where they come from</a></li>
+<li><a href="#s11">Reading the industry through the numbers</a></li>
+<li><a href="#s12">What is not disclosed</a></li>
+<li><a href="#s13">Glossary</a></li>
+</ol>
+</div>
+
+<h2 id="s1"><span class="n">1.</span> What a transformer does, and why the grid needs so many</h2>
+
+<p>Electricity leaves a power station at a voltage far too low to travel any distance. Push it down a line at that voltage and the current is high, and high current turns energy into heat in the wire. <strong>The fix is to raise the voltage, which lowers the current for the same power, and then lower it again at the other end.</strong> A transformer is the device that does both — and the grid needs one at every junction where the voltage changes.</p>
+
+<p>That is why a country rebuilding its grid buys an enormous number of them, and why they are sold to utilities rather than to consumers.</p>
+
+<figure class="dg">
+<svg
+ viewBox="0.00 0.00 1019.00 147.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 142.9)">
+<title>G</title>
+<g id="node1" class="node">
+<title>gen</title>
+<path fill="#f4f7fa" stroke="#c6d6e4" stroke-width="1.3" d="M153.97,-138.9C153.97,-138.9 60.37,-138.9 60.37,-138.9 54.37,-138.9 48.37,-132.9 48.37,-126.9 48.37,-126.9 48.37,-108 48.37,-108 48.37,-102 54.37,-96 60.37,-96 60.37,-96 153.97,-96 153.97,-96 159.97,-96 165.97,-102 165.97,-108 165.97,-108 165.97,-126.9 165.97,-126.9 165.97,-132.9 159.97,-138.9 153.97,-138.9"/>
+<text xml:space="preserve" text-anchor="start" x="76.8" y="-122.72" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#16202b">Power plant</text>
+<text xml:space="preserve" text-anchor="start" x="59.17" y="-113.65" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">generates at ~11–33 kV</text>
+<text xml:space="preserve" text-anchor="start" x="69.67" y="-104.65" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">— too low to travel</text>
+</g>
+<g id="node2" class="node">
+<title>up</title>
+<path fill="#eaf2fb" stroke="#2e75b6" stroke-width="2" d="M370.2,-132.65C370.2,-132.65 262.35,-132.65 262.35,-132.65 256.35,-132.65 250.35,-126.65 250.35,-120.65 250.35,-120.65 250.35,-100.25 250.35,-100.25 250.35,-94.25 256.35,-88.25 262.35,-88.25 262.35,-88.25 370.2,-88.25 370.2,-88.25 376.2,-88.25 382.2,-94.25 382.2,-100.25 382.2,-100.25 382.2,-120.65 382.2,-120.65 382.2,-126.65 376.2,-132.65 370.2,-132.65"/>
+<text xml:space="preserve" text-anchor="start" x="293.77" y="-116.48" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#16202b">STEP&#45;UP</text>
+<text xml:space="preserve" text-anchor="start" x="275.4" y="-105.98" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#16202b">TRANSFORMER</text>
+<text xml:space="preserve" text-anchor="start" x="261.15" y="-96.9" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#16202b">raises to 220 / 400 / 765 kV</text>
+</g>
+<g id="edge1" class="edge">
+<title>gen&#45;&gt;up</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.2" d="M166.42,-115.48C189.53,-114.7 216.4,-113.79 240.9,-112.96"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.2" points="240.73,-115.42 247.64,-112.74 240.56,-110.52 240.73,-115.42"/>
+</g>
+<g id="node3" class="node">
+<title>line</title>
+<path fill="#f4f7fa" stroke="#c6d6e4" stroke-width="1.3" d="M532.8,-130.9C532.8,-130.9 430.2,-130.9 430.2,-130.9 424.2,-130.9 418.2,-124.9 418.2,-118.9 418.2,-118.9 418.2,-100 418.2,-100 418.2,-94 424.2,-88 430.2,-88 430.2,-88 532.8,-88 532.8,-88 538.8,-88 544.8,-94 544.8,-100 544.8,-100 544.8,-118.9 544.8,-118.9 544.8,-124.9 538.8,-130.9 532.8,-130.9"/>
+<text xml:space="preserve" text-anchor="start" x="433.12" y="-114.73" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#16202b">Transmission lines</text>
+<text xml:space="preserve" text-anchor="start" x="429" y="-105.65" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">high voltage = low current</text>
+<text xml:space="preserve" text-anchor="start" x="429.75" y="-96.65" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">= less energy lost as heat</text>
+</g>
+<g id="edge2" class="edge">
+<title>up&#45;&gt;line</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.2" d="M383.19,-110.05C391.75,-109.99 400.55,-109.94 409.2,-109.89"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.2" points="408.97,-112.34 415.96,-109.85 408.94,-107.44 408.97,-112.34"/>
+</g>
+<g id="node4" class="node">
+<title>down</title>
+<path fill="#eaf2fb" stroke="#2e75b6" stroke-width="2" d="M699.15,-106.65C699.15,-106.65 619.8,-106.65 619.8,-106.65 613.8,-106.65 607.8,-100.65 607.8,-94.65 607.8,-94.65 607.8,-74.25 607.8,-74.25 607.8,-68.25 613.8,-62.25 619.8,-62.25 619.8,-62.25 699.15,-62.25 699.15,-62.25 705.15,-62.25 711.15,-68.25 711.15,-74.25 711.15,-74.25 711.15,-94.65 711.15,-94.65 711.15,-100.65 705.15,-106.65 699.15,-106.65"/>
+<text xml:space="preserve" text-anchor="start" x="627.6" y="-90.48" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#16202b">STEP&#45;DOWN</text>
+<text xml:space="preserve" text-anchor="start" x="618.6" y="-79.98" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#16202b">TRANSFORMER</text>
+<text xml:space="preserve" text-anchor="start" x="621.23" y="-70.9" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#16202b">at every substation</text>
+</g>
+<g id="edge3" class="edge">
+<title>line&#45;&gt;down</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.2" d="M545.04,-100.57C562.44,-98.09 581.3,-95.41 598.55,-92.96"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.2" points="598.49,-95.45 605.08,-92.04 597.8,-90.6 598.49,-95.45"/>
+</g>
+<g id="node5" class="node">
+<title>dist</title>
+<path fill="#fbfbfc" stroke="#b9c4cf" stroke-width="1.3" stroke-dasharray="5,2" d="M888.75,-70.45C888.75,-70.45 786.15,-70.45 786.15,-70.45 780.15,-70.45 774.15,-64.45 774.15,-58.45 774.15,-58.45 774.15,-46.45 774.15,-46.45 774.15,-40.45 780.15,-34.45 786.15,-34.45 786.15,-34.45 888.75,-34.45 888.75,-34.45 894.75,-34.45 900.75,-40.45 900.75,-46.45 900.75,-46.45 900.75,-58.45 900.75,-58.45 900.75,-64.45 894.75,-70.45 888.75,-70.45"/>
+<text xml:space="preserve" text-anchor="start" x="784.95" y="-53.23" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#16202b">Distribution network</text>
+<text xml:space="preserve" text-anchor="start" x="803.33" y="-44.15" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">33 kV and below</text>
+</g>
+<g id="edge4" class="edge">
+<title>down&#45;&gt;dist</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.2" d="M711.85,-75.11C728.5,-72.08 747.28,-68.66 765.11,-65.42"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.2" points="765.54,-67.83 771.99,-64.17 764.67,-63.01 765.54,-67.83"/>
+</g>
+<g id="node6" class="node">
+<title>home</title>
+<path fill="#fbfbfc" stroke="#b9c4cf" stroke-width="1.3" stroke-dasharray="5,2" d="M998.85,-70.45C998.85,-70.45 948.75,-70.45 948.75,-70.45 942.75,-70.45 936.75,-64.45 936.75,-58.45 936.75,-58.45 936.75,-46.45 936.75,-46.45 936.75,-40.45 942.75,-34.45 948.75,-34.45 948.75,-34.45 998.85,-34.45 998.85,-34.45 1004.85,-34.45 1010.85,-40.45 1010.85,-46.45 1010.85,-46.45 1010.85,-58.45 1010.85,-58.45 1010.85,-64.45 1004.85,-70.45 998.85,-70.45"/>
+<text xml:space="preserve" text-anchor="start" x="947.55" y="-53.23" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#16202b">Consumer</text>
+<text xml:space="preserve" text-anchor="start" x="961.8" y="-44.15" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">240 V</text>
+</g>
+<g id="edge5" class="edge">
+<title>dist&#45;&gt;home</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.2" d="M901.3,-52.45C910.22,-52.45 919.24,-52.45 927.73,-52.45"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.2" points="927.55,-54.9 934.55,-52.45 927.55,-50 927.55,-54.9"/>
+</g>
+<g id="node7" class="node">
+<title>atlanta</title>
+<path fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.8" d="M202.35,-77.45C202.35,-77.45 12,-77.45 12,-77.45 6,-77.45 0,-71.45 0,-65.45 0,-65.45 0,-53.45 0,-53.45 0,-47.45 6,-41.45 12,-41.45 12,-41.45 202.35,-41.45 202.35,-41.45 208.35,-41.45 214.35,-47.45 214.35,-53.45 214.35,-53.45 214.35,-65.45 214.35,-65.45 214.35,-71.45 208.35,-77.45 202.35,-77.45"/>
+<text xml:space="preserve" text-anchor="start" x="43.42" y="-60.23" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#1a6f4a">ATLANTA BUILDS THESE</text>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-51.15" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#1a6f4a">power transformers — 79% of Q1FY27 revenue</text>
+</g>
+<g id="edge6" class="edge">
+<title>atlanta&#45;&gt;up</title>
+<path fill="none" stroke="#1a6f4a" stroke-width="1.6" stroke-dasharray="5,2" d="M184.7,-78.3C203.02,-82.81 222.55,-87.62 240.78,-92.1"/>
+<polygon fill="#1a6f4a" stroke="#1a6f4a" stroke-width="1.6" points="239.88,-94.41 247.26,-93.7 241.05,-89.65 239.88,-94.41"/>
+</g>
+<g id="edge7" class="edge">
+<title>atlanta&#45;&gt;down</title>
+<path fill="none" stroke="#1a6f4a" stroke-width="1.6" stroke-dasharray="5,2" d="M214.95,-63.82C303.36,-67.51 432.26,-73.03 544.8,-78.45 561.96,-79.28 580.56,-80.23 597.66,-81.14"/>
+<polygon fill="#1a6f4a" stroke="#1a6f4a" stroke-width="1.6" points="597.45,-83.58 604.57,-81.5 597.71,-78.68 597.45,-83.58"/>
+</g>
+<g id="node8" class="node">
+<title>notpresent</title>
+<path fill="#fdeceb" stroke="#b3261e" stroke-width="1.5" d="M726.15,-42.9C726.15,-42.9 592.8,-42.9 592.8,-42.9 586.8,-42.9 580.8,-36.9 580.8,-30.9 580.8,-30.9 580.8,-12 580.8,-12 580.8,-6 586.8,0 592.8,0 592.8,0 726.15,0 726.15,0 732.15,0 738.15,-6 738.15,-12 738.15,-12 738.15,-30.9 738.15,-30.9 738.15,-36.9 732.15,-42.9 726.15,-42.9"/>
+<text xml:space="preserve" text-anchor="start" x="625.73" y="-26.73" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#b3261e">NOT this end</text>
+<text xml:space="preserve" text-anchor="start" x="596.85" y="-17.65" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#b3261e">&quot;not present in [the] distribution</text>
+<text xml:space="preserve" text-anchor="start" x="591.6" y="-8.65" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#b3261e">market segment&quot; — management</text>
+</g>
+<g id="edge8" class="edge">
+<title>notpresent&#45;&gt;dist</title>
+<path fill="none" stroke="#b3261e" stroke-width="1.4" stroke-dasharray="5,2" d="M738.69,-35.23C747.34,-36.75 756.12,-38.3 764.68,-39.81"/>
+<polygon fill="#b3261e" stroke="#b3261e" stroke-width="1.4" points="764.12,-42.2 771.43,-41 764.97,-37.37 764.12,-42.2"/>
+</g>
+</g>
+</svg>
+
+<figcaption><strong>Atlanta sits at the high-voltage end and says explicitly that it does not compete at the low-voltage end.</strong> The pole-mounted box on a residential street is a distribution transformer and a different business — management's own words are that the company is <em>"not present in [the] distribution market segment."</em> Power transformers were <strong>79% of Q1FY27 revenue</strong>. <span class="src">The distribution quote and the 79% revenue share from the Q1FY27 call (22-Jul-2026) and deck. The physics of transmission voltage is standard electrical engineering, included to explain why the demand exists. Laid out with Graphviz.</span></figcaption>
+</figure>
+
+<h2 id="s2"><span class="n">2.</span> The voltage ladder — the whole industry in one axis</h2>
+
+<p>If you understand one thing about this industry, make it this. <strong>A transformer maker's economics are set by the voltage class it is approved to build</strong> — not by how many transformers it makes, and not by how large its factory is. Every rung up the ladder means bigger units, fewer competitors, longer approval cycles and larger orders.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 448" role="img" aria-label="A voltage ladder from 33 kV distribution up through 132, 220, 400 and 765 kV, showing Atlanta positioned at 220 kV with 400 kV newly approved and 765 kV under negotiation.">
+  <defs>
+    <marker id="v1a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a6f4a"/>
+    </marker>
+  </defs>
+
+  <rect x="60" y="330" width="470" height="42" rx="5" fill="#f0f2f4" stroke="#b9c4cf" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text class="t-md" x="80" y="357" fill="#5a6a78">33 kV and below — distribution</text>
+  <text class="t-sm t-mut" x="546" y="357">Atlanta is not here, by choice</text>
+
+  <rect x="60" y="278" width="520" height="42" rx="5" fill="#e6ecf2" stroke="#9fb0c0" stroke-width="1.2"/>
+  <text class="t-md" x="80" y="305">132 kV</text>
+  <text class="t-sm t-mut" x="596" y="305">Anand Unit II builds here — 10–40 MVA</text>
+
+  <rect x="60" y="226" width="600" height="42" rx="5" fill="#2E75B6" stroke="#1F4E79" stroke-width="2"/>
+  <text class="t-md" x="80" y="253" fill="#ffffff">220 kV — where Atlanta actually is today</text>
+  <text class="t-sm" x="676" y="253" fill="#1F4E79"><tspan font-weight="700">56% of Q1FY27 revenue</tspan></text>
+  <text class="t-sm" x="676" y="268" fill="#1F4E79">&gt;55% of the order book</text>
+
+  <rect x="60" y="174" width="680" height="42" rx="5" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="2"/>
+  <text class="t-md" x="80" y="201" fill="#1a6f4a">400 kV — approved 2-Apr-2026, not yet built</text>
+  <text class="t-sm" x="756" y="201" fill="#1a6f4a">zero commercial revenue</text>
+
+  <rect x="60" y="122" width="760" height="42" rx="5" fill="#fff8e6" stroke="#e0b062" stroke-width="2" stroke-dasharray="6 4"/>
+  <text class="t-md" x="80" y="149" fill="#a2650a">765 kV — technology partner under negotiation</text>
+  <text class="t-sm" x="836" y="149" fill="#a2650a">not yet a business</text>
+
+  <path d="M40,352 V132" stroke="#1a6f4a" stroke-width="2" marker-end="url(#v1a)"/>
+  <text class="t-sm" x="30" y="240" transform="rotate(-90 30 240)" text-anchor="middle" fill="#1a6f4a">climbing the ladder</text>
+
+  <text class="t-md" x="60" y="66">What changes as you climb</text>
+  <text class="t" x="60" y="92">Bigger units · fewer qualified competitors · longer approval cycles · larger order values · and a plant that must be approved again for each rung</text>
+
+  <rect x="60" y="380" width="380" height="52" rx="7" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.5"/>
+  <text class="t" x="78" y="402" fill="#1F4E79">Product range built to order:</text>
+  <text class="t" x="78" y="422" fill="#1F4E79"><tspan font-weight="700">5 MVA / 11 kV up to 500 MVA / 765 kV</tspan></text>
+
+  <rect x="456" y="380" width="444" height="52" rx="7" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.5"/>
+  <text class="t" x="474" y="410" fill="#b3261e">The thesis is on the two rungs that have</text>
+  <text class="t" x="474" y="428" fill="#b3261e">produced <tspan font-weight="700">no revenue yet</tspan>.</text>
+</svg>
+<figcaption><strong>Atlanta is a 220 kV company that has been approved for 400 kV and is negotiating for 765 kV.</strong> The distinction matters because a rung is not a stretch target — it is a separate qualification on a specific plant, and until the first unit is built and tested the higher class contributes nothing. Management is unusually careful about this: on 400 kV tenders it says it is <em>"deliberately participating in restricted quantities… manufacture and prove the first prototype, validate it fully, and only then open the doors."</em> <span class="src">Voltage-class revenue and order-book shares, the 400 kV approval date, the 765 kV partner negotiation and the prototype-first quote from the Q1FY27 call and deck; the 5 MVA/11 kV to 500 MVA/765 kV product range from the Q1FY27 deck. <span class="tag inf">MY INFERENCE</span> — arranging the classes as a ladder is my framing.</span></figcaption>
+</figure>
+
+<h2 id="s3"><span class="n">3.</span> What is actually inside the steel box</h2>
+
+<p>A transformer has no moving parts. It is a stack of specially grained steel with copper wound around it, sitting in a tank of oil — and almost all of its cost is in those three materials.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 430" role="img" aria-label="Cross-section of a power transformer showing the CRGO steel core, copper windings, insulating oil, tank, radiators and bushings, with a note that tank and radiators are only four to five percent of total cost.">
+  <defs>
+    <marker id="t3a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+    <linearGradient id="tank" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9eef3"/><stop offset="1" stop-color="#c3cfda"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="120" y="120" width="260" height="200" rx="6" fill="url(#tank)" stroke="#5a6a78" stroke-width="2"/>
+  <rect x="96" y="140" width="22" height="160" rx="3" fill="#dfe6ed" stroke="#5a6a78" stroke-width="1.3"/>
+  <rect x="382" y="140" width="22" height="160" rx="3" fill="#dfe6ed" stroke="#5a6a78" stroke-width="1.3"/>
+  <g stroke="#8a99a8" stroke-width="1">
+    <line x1="100" y1="152" x2="114" y2="152"/><line x1="100" y1="172" x2="114" y2="172"/>
+    <line x1="100" y1="192" x2="114" y2="192"/><line x1="100" y1="212" x2="114" y2="212"/>
+    <line x1="100" y1="232" x2="114" y2="232"/><line x1="100" y1="252" x2="114" y2="252"/>
+    <line x1="100" y1="272" x2="114" y2="272"/><line x1="100" y1="288" x2="114" y2="288"/>
+    <line x1="386" y1="152" x2="400" y2="152"/><line x1="386" y1="172" x2="400" y2="172"/>
+    <line x1="386" y1="192" x2="400" y2="192"/><line x1="386" y1="212" x2="400" y2="212"/>
+    <line x1="386" y1="232" x2="400" y2="232"/><line x1="386" y1="252" x2="400" y2="252"/>
+    <line x1="386" y1="272" x2="400" y2="272"/><line x1="386" y1="288" x2="400" y2="288"/>
+  </g>
+
+  <rect x="180" y="146" width="26" height="150" fill="#8fb3d2" stroke="#3d4b5c" stroke-width="1.2"/>
+  <rect x="294" y="146" width="26" height="150" fill="#8fb3d2" stroke="#3d4b5c" stroke-width="1.2"/>
+  <rect x="180" y="146" width="140" height="22" fill="#8fb3d2" stroke="#3d4b5c" stroke-width="1.2"/>
+  <rect x="180" y="274" width="140" height="22" fill="#8fb3d2" stroke="#3d4b5c" stroke-width="1.2"/>
+
+  <rect x="160" y="170" width="66" height="104" rx="3" fill="#c88a4a" stroke="#8a5a2b" stroke-width="1.2" opacity="0.92"/>
+  <rect x="274" y="170" width="66" height="104" rx="3" fill="#c88a4a" stroke="#8a5a2b" stroke-width="1.2" opacity="0.92"/>
+  <g stroke="#8a5a2b" stroke-width="0.9" opacity=".8">
+    <line x1="160" y1="184" x2="226" y2="184"/><line x1="160" y1="200" x2="226" y2="200"/>
+    <line x1="160" y1="216" x2="226" y2="216"/><line x1="160" y1="232" x2="226" y2="232"/>
+    <line x1="160" y1="248" x2="226" y2="248"/><line x1="160" y1="264" x2="226" y2="264"/>
+    <line x1="274" y1="184" x2="340" y2="184"/><line x1="274" y1="200" x2="340" y2="200"/>
+    <line x1="274" y1="216" x2="340" y2="216"/><line x1="274" y1="232" x2="340" y2="232"/>
+    <line x1="274" y1="248" x2="340" y2="248"/><line x1="274" y1="264" x2="340" y2="264"/>
+  </g>
+
+  <rect x="168" y="96" width="18" height="26" rx="3" fill="#dfe6ed" stroke="#5a6a78" stroke-width="1.2"/>
+  <ellipse cx="177" cy="94" rx="13" ry="5" fill="#e9eef3" stroke="#5a6a78" stroke-width="1.1"/>
+  <ellipse cx="177" cy="84" rx="11" ry="4" fill="#e9eef3" stroke="#5a6a78" stroke-width="1.1"/>
+  <rect x="314" y="96" width="18" height="26" rx="3" fill="#dfe6ed" stroke="#5a6a78" stroke-width="1.2"/>
+  <ellipse cx="323" cy="94" rx="13" ry="5" fill="#e9eef3" stroke="#5a6a78" stroke-width="1.1"/>
+  <ellipse cx="323" cy="84" rx="11" ry="4" fill="#e9eef3" stroke="#5a6a78" stroke-width="1.1"/>
+
+  <line x1="250" y1="150" x2="250" y2="146" stroke="none"/>
+  <line x1="212" y1="200" x2="470" y2="164" stroke="currentColor" stroke-width="1" marker-end="url(#t3a)"/>
+  <text class="t-md" x="478" y="160">Copper windings</text>
+  <text class="t-sm t-mut" x="478" y="178">two coils per limb — high-voltage and low-voltage.</text>
+  <text class="t-sm t-mut" x="478" y="194">The ratio of turns between them <tspan font-style="italic">is</tspan> the voltage change.</text>
+
+  <line x1="250" y1="160" x2="470" y2="230" stroke="currentColor" stroke-width="1" marker-end="url(#t3a)"/>
+  <text class="t-md" x="478" y="226">CRGO steel core</text>
+  <text class="t-sm t-mut" x="478" y="244">Cold-rolled grain-oriented electrical steel, stacked in</text>
+  <text class="t-sm t-mut" x="478" y="260">thin insulated sheets. <tspan font-weight="700">Imported, and the key input (§10).</tspan></text>
+
+  <line x1="330" y1="300" x2="470" y2="296" stroke="currentColor" stroke-width="1" marker-end="url(#t3a)"/>
+  <text class="t-md" x="478" y="292">Insulating oil</text>
+  <text class="t-sm t-mut" x="478" y="310">Fills the tank. Insulates and carries heat away.</text>
+
+  <line x1="404" y1="240" x2="470" y2="350" stroke="currentColor" stroke-width="1" marker-end="url(#t3a)"/>
+  <text class="t-md" x="478" y="346">Tank and radiators</text>
+  <text class="t-sm" x="478" y="364" fill="#b3261e">The fabricated steelwork — <tspan font-weight="700">only 4–5% of total cost</tspan>.</text>
+
+  <line x1="177" y1="80" x2="150" y2="56" stroke="currentColor" stroke-width="1" marker-end="url(#t3a)"/>
+  <text class="t-sm t-mut" x="60" y="48">Bushings — where the conductors</text>
+  <text class="t-sm t-mut" x="60" y="64">pass through the tank wall</text>
+
+  <rect x="60" y="378" width="840" height="42" rx="6" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.3"/>
+  <text class="t" x="78" y="398" fill="#a2650a">This is why the "backward integration" story is thinner than it sounds: the tank-and-radiator facility</text>
+  <text class="t" x="78" y="416" fill="#a2650a">addresses components that are <tspan font-weight="700">"not more than 4 to 5% of the total transformer cost."</tspan></text>
+</svg>
+<figcaption><strong>The cost of a transformer is core steel, copper and oil — and Atlanta buys all three.</strong> That is worth holding on to when reading about vertical integration: the plant being built in-house covers the fabricated steelwork, which the company's own Director puts at 4–5% of cost. It is a useful margin and lead-time improvement, not a change in the cost structure. <span class="src">The 4–5% figure is Niral Patel's, on the Q1FY27 call (22-Jul-2026), answering a direct question about backward integration. Component names and their functions are standard transformer engineering; the cross-section is schematic.</span></figcaption>
+</figure>
+
+<h2 id="s4"><span class="n">4.</span> The approval barrier — why you cannot simply build a bigger one</h2>
+
+<p>A utility will not buy a 220 kV transformer from a manufacturer whose plant it has not audited and whose prototype has not been destroyed in a test. <strong>Approval is plant-specific and voltage-class-specific</strong> — which means a company that is approved at 220 kV in one factory is not thereby approved at 400 kV, nor at 220 kV in a different factory.</p>
+
+<figure class="dg">
+<svg
+ viewBox="0.00 0.00 1058.00 135.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 131)">
+<title>A</title>
+<g id="node1" class="node">
+<title>build</title>
+<path fill="#f4f7fa" stroke="#c6d6e4" stroke-width="1.3" d="M117.54,-49C117.54,-49 12,-49 12,-49 6,-49 0,-43 0,-37 0,-37 0,-25 0,-25 0,-19 6,-13 12,-13 12,-13 117.54,-13 117.54,-13 123.54,-13 129.54,-19 129.54,-25 129.54,-25 129.54,-37 129.54,-37 129.54,-43 123.54,-49 117.54,-49"/>
+<text xml:space="preserve" text-anchor="start" x="26.89" y="-31.77" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#16202b">Build the plant</text>
+<text xml:space="preserve" text-anchor="start" x="11.52" y="-22.7" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">for a specific voltage class</text>
+</g>
+<g id="node2" class="node">
+<title>audit</title>
+<path fill="#f4f7fa" stroke="#c6d6e4" stroke-width="1.3" d="M288.83,-49C288.83,-49 182.54,-49 182.54,-49 176.54,-49 170.54,-43 170.54,-37 170.54,-37 170.54,-25 170.54,-25 170.54,-19 176.54,-13 182.54,-13 182.54,-13 288.83,-13 288.83,-13 294.83,-13 300.83,-19 300.83,-25 300.83,-25 300.83,-37 300.83,-37 300.83,-43 294.83,-49 288.83,-49"/>
+<text xml:space="preserve" text-anchor="start" x="198.18" y="-31.77" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#16202b">Utility audits it</text>
+<text xml:space="preserve" text-anchor="start" x="182.06" y="-22.7" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">the plant itself is inspected</text>
+</g>
+<g id="edge1" class="edge">
+<title>build&#45;&gt;audit</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.2" d="M130.11,-31C140.31,-31 150.92,-31 161.31,-31"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.2" points="161.15,-33.45 168.15,-31 161.15,-28.55 161.15,-33.45"/>
+</g>
+<g id="node3" class="node">
+<title>proto</title>
+<path fill="#fff8e6" stroke="#e0b062" stroke-width="1.5" d="M442.12,-49C442.12,-49 353.83,-49 353.83,-49 347.83,-49 341.83,-43 341.83,-37 341.83,-37 341.83,-25 341.83,-25 341.83,-19 347.83,-13 353.83,-13 353.83,-13 442.12,-13 442.12,-13 448.12,-13 454.12,-19 454.12,-25 454.12,-25 454.12,-37 454.12,-37 454.12,-43 448.12,-49 442.12,-49"/>
+<text xml:space="preserve" text-anchor="start" x="353.35" y="-31.77" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#16202b">Build a prototype</text>
+<text xml:space="preserve" text-anchor="start" x="356.72" y="-22.7" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">one real transformer</text>
+</g>
+<g id="edge2" class="edge">
+<title>audit&#45;&gt;proto</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.2" d="M301.42,-31C311.74,-31 322.41,-31 332.72,-31"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.2" points="332.46,-33.45 339.46,-31 332.46,-28.55 332.46,-33.45"/>
+</g>
+<g id="node4" class="node">
+<title>sc</title>
+<path fill="#fff8e6" stroke="#e0b062" stroke-width="1.5" d="M597.66,-52.45C597.66,-52.45 507.12,-52.45 507.12,-52.45 501.12,-52.45 495.12,-46.45 495.12,-40.45 495.12,-40.45 495.12,-21.55 495.12,-21.55 495.12,-15.55 501.12,-9.55 507.12,-9.55 507.12,-9.55 597.66,-9.55 597.66,-9.55 603.66,-9.55 609.66,-15.55 609.66,-21.55 609.66,-21.55 609.66,-40.45 609.66,-40.45 609.66,-46.45 603.66,-52.45 597.66,-52.45"/>
+<text xml:space="preserve" text-anchor="start" x="509.26" y="-36.27" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#16202b">Short&#45;circuit test</text>
+<text xml:space="preserve" text-anchor="start" x="506.64" y="-27.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">at CPRI — destructive,</text>
+<text xml:space="preserve" text-anchor="start" x="514.89" y="-18.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">pass or start again</text>
+</g>
+<g id="edge3" class="edge">
+<title>proto&#45;&gt;sc</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.2" d="M454.86,-31C464.95,-31 475.55,-31 485.89,-31"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.2" points="485.67,-33.45 492.67,-31 485.67,-28.55 485.67,-33.45"/>
+</g>
+<g id="node5" class="node">
+<title>appr</title>
+<path fill="#eaf2fb" stroke="#2e75b6" stroke-width="2" d="M760.45,-98.45C760.45,-98.45 673.66,-98.45 673.66,-98.45 667.66,-98.45 661.66,-92.45 661.66,-86.45 661.66,-86.45 661.66,-67.55 661.66,-67.55 661.66,-61.55 667.66,-55.55 673.66,-55.55 673.66,-55.55 760.45,-55.55 760.45,-55.55 766.45,-55.55 772.45,-61.55 772.45,-67.55 772.45,-67.55 772.45,-86.45 772.45,-86.45 772.45,-92.45 766.45,-98.45 760.45,-98.45"/>
+<text xml:space="preserve" text-anchor="start" x="677.3" y="-82.28" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#16202b">PGCIL approval</text>
+<text xml:space="preserve" text-anchor="start" x="679.18" y="-73.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#16202b">plant&#45;specific AND</text>
+<text xml:space="preserve" text-anchor="start" x="673.18" y="-64.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#16202b">voltage&#45;class&#45;specific</text>
+</g>
+<g id="edge4" class="edge">
+<title>sc&#45;&gt;appr</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.2" d="M610.28,-47.09C623.99,-50.97 638.72,-55.13 652.7,-59.09"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.2" points="651.69,-61.34 659.09,-60.89 653.02,-56.63 651.69,-61.34"/>
+</g>
+<g id="node7" class="node">
+<title>again</title>
+<path fill="none" stroke="none" stroke-width="1.3" d="M757.07,-36C757.07,-36 677.03,-36 677.03,-36 671.03,-36 665.03,-30 665.03,-24 665.03,-24 665.03,-12 665.03,-12 665.03,-6 671.03,0 677.03,0 677.03,0 757.07,0 757.07,0 763.07,0 769.07,-6 769.07,-12 769.07,-12 769.07,-24 769.07,-24 769.07,-30 763.07,-36 757.07,-36"/>
+<text xml:space="preserve" text-anchor="start" x="676.55" y="-15.38" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#b3261e">start the class again</text>
+</g>
+<g id="edge6" class="edge">
+<title>sc&#45;&gt;again</title>
+<path fill="none" stroke="#b3261e" stroke-width="1.2" stroke-dasharray="5,2" d="M610.28,-26.45C625.64,-25.23 642.27,-23.9 657.7,-22.66"/>
+<polygon fill="#b3261e" stroke="#b3261e" stroke-width="1.2" points="657.54,-24.78 663.36,-22.21 657.21,-20.6 657.54,-24.78"/>
+<text xml:space="preserve" text-anchor="start" x="629.66" y="-27.14" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">fail</text>
+</g>
+<g id="node6" class="node">
+<title>bid</title>
+<path fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.8" d="M987.99,-127C987.99,-127 875.7,-127 875.7,-127 869.7,-127 863.7,-121 863.7,-115 863.7,-115 863.7,-103 863.7,-103 863.7,-97 869.7,-91 875.7,-91 875.7,-91 987.99,-91 987.99,-91 993.99,-91 999.99,-97 999.99,-103 999.99,-103 999.99,-115 999.99,-115 999.99,-121 993.99,-127 987.99,-127"/>
+<text xml:space="preserve" text-anchor="start" x="887.59" y="-109.78" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#16202b">Now you may bid</text>
+<text xml:space="preserve" text-anchor="start" x="875.22" y="-100.7" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#1a6f4a">for that class, from that plant</text>
+</g>
+<g id="edge5" class="edge">
+<title>appr&#45;&gt;bid</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.2" d="M773.41,-85.32C798.08,-89.03 827.54,-93.46 854.27,-97.48"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.2" points="853.76,-99.89 861.05,-98.5 854.49,-95.04 853.76,-99.89"/>
+</g>
+<g id="node8" class="node">
+<title>note</title>
+<path fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.5" d="M1038.24,-70.95C1038.24,-70.95 825.45,-70.95 825.45,-70.95 819.45,-70.95 813.45,-64.95 813.45,-58.95 813.45,-58.95 813.45,-31.05 813.45,-31.05 813.45,-25.05 819.45,-19.05 825.45,-19.05 825.45,-19.05 1038.24,-19.05 1038.24,-19.05 1044.24,-19.05 1050.24,-25.05 1050.24,-31.05 1050.24,-31.05 1050.24,-58.95 1050.24,-58.95 1050.24,-64.95 1044.24,-70.95 1038.24,-70.95"/>
+<text xml:space="preserve" text-anchor="start" x="838.47" y="-54.77" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#1a6f4a">Atlanta: Vadod → 400 kV, 2&#45;Apr&#45;2026</text>
+<text xml:space="preserve" text-anchor="start" x="848.97" y="-45.7" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#1a6f4a">&quot;among the fastest construction to PGCIL</text>
+<text xml:space="preserve" text-anchor="start" x="824.97" y="-36.7" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#1a6f4a">approval timelines in the Indian transformer industry&quot;</text>
+<text xml:space="preserve" text-anchor="start" x="842.59" y="-27.7" font-family="Helvetica,sans-Serif" font-style="italic" font-size="9.00" fill="#1a6f4a">— subject to completing the short&#45;circuit test</text>
+</g>
+</g>
+</svg>
+<figcaption><strong>This is the moat, and it is why the industry does not get disrupted by a new entrant with capital.</strong> The gate is time and a destructive test, not money — and it has to be passed again for each class and each plant. It is also why Atlanta's 400 kV approval at Vadod, obtained roughly two years from groundbreaking, is a genuine achievement even though it has produced no revenue: the clock, not the cheque, is the barrier. <span class="src">The approval sequence and its plant- and class-specific nature are from the profile's §2 and §3, drawn from management commentary; the 2-Apr-2026 Vadod approval, the &ldquo;among the fastest construction to PGCIL approval timelines&rdquo; claim and the short-circuit-test condition from the Q1FY27 call and deck. Laid out with Graphviz.</span></figcaption>
+</figure>
+
+<h2 id="s5"><span class="n">5.</span> Why capacity is counted in MVA</h2>
+
+<p>A transformer maker does not report how many transformers it made, because a 5 MVA unit and a 500 MVA unit are not comparable objects. <strong>Capacity and output are measured in MVA — mega volt-amperes, the electrical throughput the machine can handle.</strong> It is the industry's tonne.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 430" role="img" aria-label="Five plants totalling 63,060 MVA of installed capacity against FY26 production of 22,943 MVA, showing substantial headroom.">
+  <text class="t-md" x="20" y="32">Installed capacity by plant, MVA</text>
+
+  <text class="t-md" x="196" y="66" text-anchor="end">Vadod (Unit 4)</text>
+  <rect x="206" y="46" width="620" height="26" rx="4" fill="#2E75B6"/>
+  <text class="t-md" x="838" y="66" fill="#1F4E79">30,540</text>
+  <text class="t-sm t-mut" x="216" y="64" fill="#ffffff">commissioned Jul-2025 · PGCIL 400 kV approval sits here</text>
+
+  <text class="t-md" x="196" y="104" text-anchor="end">Atlanta Trafo (Unit 5)</text>
+  <rect x="206" y="84" width="320" height="26" rx="4" fill="#5b93c7"/>
+  <text class="t-md" x="538" y="104">15,780</text>
+  <text class="t-sm t-mut" x="600" y="104">acquired — formerly BTW Atlanta · EHV to 500 MVA / 765 kV</text>
+
+  <text class="t-md" x="196" y="142" text-anchor="end">Anand Unit I</text>
+  <rect x="206" y="122" width="190" height="26" rx="4" fill="#8fb3d2"/>
+  <text class="t-md" x="408" y="142">9,360</text>
+  <text class="t-sm t-mut" x="470" y="142">50–200 MVA / 200 kV — power and auto transformers</text>
+
+  <text class="t-md" x="196" y="180" text-anchor="end">Anand Unit II</text>
+  <rect x="206" y="160" width="135" height="26" rx="4" fill="#8fb3d2"/>
+  <text class="t-md" x="353" y="180">6,660</text>
+  <text class="t-sm t-mut" x="415" y="180">10–40 MVA / 132 kV — inverter duty and special purpose</text>
+
+  <text class="t-md" x="196" y="218" text-anchor="end">Bengaluru</text>
+  <rect x="206" y="198" width="15" height="26" rx="3" fill="#cfdcea"/>
+  <text class="t-md" x="233" y="218">720</text>
+  <text class="t-sm t-mut" x="295" y="218">up to 16 MVA / 110 kV</text>
+
+  <line x1="206" y1="238" x2="940" y2="238" stroke="currentColor" stroke-width="1" opacity=".25"/>
+  <text class="t-md" x="196" y="264" text-anchor="end">Total nameplate</text>
+  <text class="t-lg" x="206" y="264" fill="#1F4E79">63,060 MVA</text>
+  <text class="t-sm t-mut" x="360" y="264">— up from ~16,000 MVA about eighteen months earlier</text>
+
+  <text class="t-md" x="196" y="306" text-anchor="end">FY26 actually produced</text>
+  <rect x="206" y="286" width="266" height="26" rx="4" fill="#1a6f4a"/>
+  <text class="t-md" x="484" y="306" fill="#1a6f4a">22,943 MVA</text>
+  <text class="t-sm t-mut" x="580" y="306">against 63,060 of nameplate</text>
+
+  <rect x="20" y="336" width="456" height="82" rx="8" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.5"/>
+  <text class="t-md" x="40" y="362" fill="#1a6f4a">Why the headroom is the point</text>
+  <text class="t" x="40" y="386" fill="#1a6f4a">Incremental MVA drops through a <tspan font-weight="700">largely fixed cost base</tspan>. Vadod</text>
+  <text class="t" x="40" y="404" fill="#1a6f4a">took ~₹200cr and returned <tspan font-weight="700">₹495cr in seven months</tspan>, at ~39% of nameplate.</text>
+
+  <rect x="492" y="336" width="448" height="82" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.5"/>
+  <text class="t-md" x="512" y="362" fill="#a2650a">And why nameplate is not a promise</text>
+  <text class="t" x="512" y="386" fill="#a2650a">Nameplate assumes a product mix. A plant full of large, complex,</text>
+  <text class="t" x="512" y="406" fill="#a2650a">high-voltage units will not reach it — <tspan font-weight="700">MVA is throughput, not orders.</tspan></text>
+</svg>
+<figcaption><strong>MVA is the unit that makes the business legible — and Atlanta roughly quadrupled its own in about eighteen months.</strong> Capacity went from ~16,000 MVA to 63,060 while FY26 output was 22,943 MVA, so the operating question is not whether there is room to grow but whether orders arrive to fill a plant that has already been paid for. The COO's account of how Vadod avoided idle time is the sharpest operational detail in the file: <em>"orders were secured and structured in advance specifically to ensure there was no idle time at unit four commissioning."</em> <span class="src">Plant-by-plant capacities, voltage ranges and floor areas from the Q1FY27 deck's manufacturing slide; FY26 production of 22,943 MVA, Vadod's ~₹200cr capex and ₹495cr seven-month revenue, and the COO quote from the Q1FY27 and FY26 calls. <span class="tag inf">MY INFERENCE</span> — the caution that nameplate assumes a mix is mine.</span></figcaption>
+</figure>
+
+<h2 id="s6"><span class="n">6.</span> Why renewables need more transformers than coal did</h2>
+
+<p>A coal plant is large, close to the grid backbone and runs at a steady output. A solar or wind farm is none of those things — and each difference adds transformers.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 360" role="img" aria-label="Comparison showing a thermal plant needs few large transformers at one point while a renewable build needs many step-up transformers plus evacuation capacity across a dispersed area.">
+  <defs>
+    <marker id="r6a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5a6a78"/>
+    </marker>
+  </defs>
+
+  <rect x="20" y="30" width="450" height="220" rx="9" fill="#f7fafc" stroke="currentColor" stroke-width="1.4"/>
+  <text class="t-lg" x="42" y="60">Thermal — concentrated</text>
+  <rect x="52" y="86" width="90" height="60" rx="4" fill="#cfdcea" stroke="#5a6a78" stroke-width="1.3"/>
+  <text class="t-sm t-mut" x="97" y="120" text-anchor="middle">one plant</text>
+  <path d="M146,116 H196" stroke="#5a6a78" stroke-width="1.6" marker-end="url(#r6a)"/>
+  <rect x="200" y="94" width="52" height="44" rx="4" fill="#8fb3d2" stroke="#3d4b5c" stroke-width="1.3"/>
+  <text class="t-sm" x="226" y="120" text-anchor="middle">T</text>
+  <path d="M256,116 H306" stroke="#5a6a78" stroke-width="1.6" marker-end="url(#r6a)"/>
+  <rect x="310" y="94" width="120" height="44" rx="4" fill="#e6ecf2" stroke="#5a6a78" stroke-width="1.2"/>
+  <text class="t-sm t-mut" x="370" y="120" text-anchor="middle">grid backbone</text>
+  <text class="t" x="42" y="180">A few very large transformers, at one location,</text>
+  <text class="t" x="42" y="200">sized for a steady, predictable output.</text>
+  <text class="t-sm t-mut" x="42" y="228">Built once, near existing transmission.</text>
+
+  <rect x="490" y="30" width="450" height="220" rx="9" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.8"/>
+  <text class="t-lg" x="512" y="60" fill="#1a6f4a">Renewable — dispersed</text>
+  <g fill="#cfe4d6" stroke="#1a6f4a" stroke-width="1.1">
+    <rect x="518" y="84" width="34" height="24" rx="3"/><rect x="518" y="114" width="34" height="24" rx="3"/>
+    <rect x="518" y="144" width="34" height="24" rx="3"/><rect x="560" y="84" width="34" height="24" rx="3"/>
+    <rect x="560" y="114" width="34" height="24" rx="3"/><rect x="560" y="144" width="34" height="24" rx="3"/>
+  </g>
+  <text class="t-sm" x="556" y="184" text-anchor="middle" fill="#1a6f4a">many farms, low voltage</text>
+  <g fill="#8fd0a8" stroke="#1a6f4a" stroke-width="1.2">
+    <rect x="628" y="88" width="30" height="26" rx="3"/><rect x="628" y="124" width="30" height="26" rx="3"/>
+    <rect x="628" y="160" width="30" height="26" rx="3"/>
+  </g>
+  <text class="t-sm" x="643" y="204" text-anchor="middle" fill="#1a6f4a">step-up at each</text>
+  <path d="M600,124 H622" stroke="#1a6f4a" stroke-width="1.4" marker-end="url(#r6a)"/>
+  <path d="M664,136 H700" stroke="#1a6f4a" stroke-width="1.6" marker-end="url(#r6a)"/>
+  <rect x="704" y="106" width="60" height="60" rx="4" fill="#1a6f4a"/>
+  <text class="t-sm" x="734" y="141" text-anchor="middle" fill="#ffffff">evac</text>
+  <path d="M768,136 H806" stroke="#1a6f4a" stroke-width="1.6" marker-end="url(#r6a)"/>
+  <rect x="810" y="114" width="112" height="44" rx="4" fill="#e6ecf2" stroke="#5a6a78" stroke-width="1.2"/>
+  <text class="t-sm t-mut" x="866" y="140" text-anchor="middle">grid backbone</text>
+  <text class="t" x="512" y="228" fill="#1a6f4a">More units, more locations, <tspan font-weight="700">plus a whole evacuation corridor</tspan> that did not exist.</text>
+
+  <rect x="20" y="266" width="920" height="80" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.4"/>
+  <text class="t-md" x="40" y="292" fill="#a2650a">Why this is a demand driver rather than a talking point</text>
+  <text class="t" x="40" y="316" fill="#a2650a">Renewable generation is far from load centres and produced at low voltage, so it needs step-up plant at the farm <tspan font-style="italic">and</tspan> new transmission to carry it.</text>
+  <text class="t" x="40" y="336" fill="#a2650a"><tspan font-weight="700">Renewables were ~19% of Atlanta's Q1FY27 revenue.</tspan> Management's framing of the cycle is <tspan font-style="italic">"not a cyclical upturn but a multi-year investment cycle."</tspan></text>
+</svg>
+<figcaption><strong>The energy transition is, for a transformer maker, simply more junctions.</strong> That is the structural reason the order books across this industry have lengthened — and also why the demand is tied to transmission capex being actually sanctioned, not to renewable capacity being announced. <span class="src">The ~19% renewable revenue share and the "multi-year investment cycle" framing from the Q1FY27 call and the profile's §2. <span class="tag inf">MY INFERENCE</span> — the thermal-versus-renewable comparison diagram is my framing of why the count differs.</span></figcaption>
+</figure>
+
+<h2 id="s7"><span class="n">7.</span> Revenue per MVA is a commodity price</h2>
+
+<p>The temptation with an MVA-denominated business is to divide revenue by MVA and call it realisation. <strong>Management warns against exactly that</strong>, and the warning is worth taking seriously because it is the same trap as every other pass-through business on this watchlist.</p>
+
+<blockquote style="border-left:4px solid #a2650a; background:#fff8e6; margin:16px 0; padding:14px 18px; font-size:14px">
+"Revenue per MVA is directly related to the commodity pricing… <strong>Per MVA pricing will naturally not be a factor to highlight how the industry is performing.</strong>"
+<div class="src" style="margin-top:6px">— Chairman &amp; Managing Director, FY26 call</div>
+</blockquote>
+
+<figure class="dg">
+<svg viewBox="0 0 960 340" role="img" aria-label="Copper and CRGO steel prices flow into revenue per MVA, so that figure moves with commodities rather than with pricing power or performance.">
+  <defs>
+    <marker id="c7a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <rect x="20" y="40" width="200" height="76" rx="7" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.5"/>
+  <text class="t" x="120" y="68" text-anchor="middle" fill="#b3261e">Copper price moves</text>
+  <text class="t" x="120" y="90" text-anchor="middle" fill="#b3261e">CRGO steel price moves</text>
+  <text class="t-sm" x="120" y="108" text-anchor="middle" fill="#b3261e">oil price moves</text>
+
+  <path d="M224,78 H272" stroke="currentColor" stroke-width="1.8" marker-end="url(#c7a)"/>
+
+  <rect x="276" y="40" width="210" height="76" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.4"/>
+  <text class="t" x="381" y="72" text-anchor="middle">Contract value moves with it</text>
+  <text class="t-sm t-mut" x="381" y="94" text-anchor="middle">tenders are priced off input cost</text>
+
+  <path d="M490,78 H538" stroke="currentColor" stroke-width="1.8" marker-end="url(#c7a)"/>
+
+  <rect x="542" y="40" width="210" height="76" rx="7" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.8"/>
+  <text class="t" x="647" y="72" text-anchor="middle" fill="#1F4E79">Revenue per MVA moves</text>
+  <text class="t-sm" x="647" y="94" text-anchor="middle" fill="#1F4E79">without a single extra MVA sold</text>
+
+  <path d="M756,78 H804" stroke="currentColor" stroke-width="1.8" marker-end="url(#c7a)"/>
+  <rect x="808" y="40" width="132" height="76" rx="7" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.5"/>
+  <text class="t-sm" x="874" y="70" text-anchor="middle" fill="#b3261e">…and tells you</text>
+  <text class="t-sm" x="874" y="88" text-anchor="middle" fill="#b3261e">nothing about</text>
+  <text class="t-sm" x="874" y="106" text-anchor="middle" fill="#b3261e">performance</text>
+
+  <text class="t-md" x="20" y="164">What to read instead</text>
+
+  <rect x="20" y="180" width="292" height="94" rx="8" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.5"/>
+  <text class="t-md" x="166" y="206" text-anchor="middle" fill="#1a6f4a">MVA volume</text>
+  <text class="t-sm" x="166" y="230" text-anchor="middle" fill="#1a6f4a">the physical throughput —</text>
+  <text class="t-sm" x="166" y="248" text-anchor="middle" fill="#1a6f4a">4,381 MVA in Q1FY27, of which</text>
+  <text class="t-sm" x="166" y="266" text-anchor="middle" fill="#1a6f4a">Vadod 1,520 and Ankhi 320</text>
+
+  <rect x="332" y="180" width="292" height="94" rx="8" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.5"/>
+  <text class="t-md" x="478" y="206" text-anchor="middle" fill="#1a6f4a">Voltage-class mix</text>
+  <text class="t-sm" x="478" y="230" text-anchor="middle" fill="#1a6f4a">where on the ladder the</text>
+  <text class="t-sm" x="478" y="248" text-anchor="middle" fill="#1a6f4a">revenue is coming from —</text>
+  <text class="t-sm" x="478" y="266" text-anchor="middle" fill="#1a6f4a">220 kV was 56% of Q1FY27</text>
+
+  <rect x="644" y="180" width="296" height="94" rx="8" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.5"/>
+  <text class="t-md" x="792" y="206" text-anchor="middle" fill="#1a6f4a">Margin</text>
+  <text class="t-sm" x="792" y="230" text-anchor="middle" fill="#1a6f4a">what survives after the</text>
+  <text class="t-sm" x="792" y="248" text-anchor="middle" fill="#1a6f4a">commodity passes through —</text>
+  <text class="t-sm" x="792" y="266" text-anchor="middle" fill="#1a6f4a">FY26 EBITDA 18.6%, +300bps</text>
+
+  <rect x="20" y="292" width="920" height="36" rx="7" fill="#f7fafc" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t" x="40" y="316">A company that told you to ignore its own per-unit realisation is being straight with you. <tspan font-weight="700">Judge it on MVA, on mix, and on margin.</tspan></text>
+</svg>
+<figcaption><strong>This is the same mechanic as a landed-cost contract or a metal pass-through, in a different industry.</strong> Revenue can rise because copper rose; it proves nothing either way about demand or pricing power. FY26's +300bps of margin came from filling a largely fixed cost base with more MVA, which is the thing worth watching. <span class="src">The CMD quote from the FY26 call; Q1FY27 MVA volumes (4,381 total, Vadod 1,520, Ankhi 320) from the Q1FY27 call; the 220 kV revenue share and FY26 EBITDA margin from the Q1FY27 deck and FY26 results.</span></figcaption>
+</figure>
+
+<h2 id="s8"><span class="n">8.</span> The order book and its execution window</h2>
+
+<p>In a build-to-order business, the order book is the forward revenue — but only the part that can actually be executed inside the year tells you anything about the next four quarters.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 380" role="img" aria-label="Order book of 3,117 crore at 30 June 2026 of which 2,400 crore is executable within FY27, with record quarterly inflow of 972 crore and named customer orders.">
+  <text class="t-md" x="20" y="32">Order book at 30-Jun-2026, ₹ crore</text>
+  <rect x="20" y="46" width="920" height="40" rx="4" fill="#cfdcea"/>
+  <rect x="20" y="46" width="708" height="40" rx="4" fill="#2E75B6"/>
+  <text class="t-md" x="374" y="71" text-anchor="middle" fill="#ffffff">₹2,400cr executable within FY27</text>
+  <text class="t-md" x="834" y="71" text-anchor="middle" fill="#16202b">balance beyond</text>
+  <text class="t-sm t-mut" x="20" y="104">Total ₹3,116.63cr — a record</text>
+
+  <text class="t-md" x="20" y="146">Q1FY27 order inflow — the highest ever</text>
+  <text class="t-md" x="220" y="184" text-anchor="end">Total inflow</text>
+  <rect x="230" y="164" width="500" height="28" rx="4" fill="#1a6f4a"/>
+  <text class="t-md" x="742" y="184" fill="#1a6f4a">₹972.42cr</text>
+
+  <text class="t-md" x="220" y="222" text-anchor="end">RVPNL (Rajasthan)</text>
+  <rect x="230" y="202" width="150" height="28" rx="4" fill="#8fb3d2"/>
+  <text class="t-md" x="392" y="222">₹291.68cr</text>
+
+  <text class="t-md" x="220" y="260" text-anchor="end">PSTCL (Punjab)</text>
+  <rect x="230" y="240" width="147" height="28" rx="4" fill="#8fb3d2"/>
+  <text class="t-md" x="389" y="260">₹285.15cr</text>
+
+  <text class="t-md" x="220" y="298" text-anchor="end">APTRANSCO</text>
+  <rect x="230" y="278" width="100" height="28" rx="4" fill="#cfdcea"/>
+  <text class="t-md" x="342" y="298">₹193.92cr</text>
+  <text class="t-sm t-mut" x="440" y="298">landed 18-Aug-2026 — <tspan font-style="italic">after</tspan> the quarter, so not in the ₹3,117cr</text>
+
+  <rect x="20" y="322" width="920" height="46" rx="8" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.5"/>
+  <text class="t" x="40" y="344" fill="#1F4E79">The customers are named state transmission utilities and Power Grid — <tspan font-weight="700">government counterparties on tendered contracts.</tspan> That makes the revenue</text>
+  <text class="t" x="40" y="362" fill="#1F4E79">visible and the receivable slow; it also means <tspan font-weight="700">an order is won on approved capability and price, not on relationships.</tspan></text>
+</svg>
+<figcaption><strong>A record book and a record inflow, with the executable portion disclosed — which is better disclosure than most of this watchlist offers.</strong> The number to track from here is inflow rather than backlog: a book of ₹3,117cr against FY26 revenue of ₹1,852cr is roughly a year and a half of work, so the question is what replaces it. <span class="src">Order book, the ₹2,400cr executable figure, Q1FY27 inflow of ₹972.42cr and the RVPNL and PSTCL order values from the Q1FY27 call and deck; the ₹193.92cr APTRANSCO order from the 18-Aug-2026 exchange filing.</span></figcaption>
+</figure>
+
+<h2 id="s9"><span class="n">9.</span> Everyone is arriving at 220 kV</h2>
+
+<p>The uncomfortable counterpoint to §2, and it came from an analyst on Atlanta's own call rather than from a sceptic outside it.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 340" role="img" aria-label="Roughly 60,000 MVA of new industry capacity from two competitors within three to four months, against Atlanta's own installed base of 63,060 MVA.">
+  <text class="t-md" x="20" y="34">Installed capacity, MVA — and what two competitors are adding</text>
+
+  <text class="t-md" x="250" y="86" text-anchor="end">Atlanta, total installed</text>
+  <rect x="260" y="64" width="620" height="32" rx="4" fill="#2E75B6"/>
+  <text class="t-md" x="892" y="86" fill="#1F4E79">63,060</text>
+  <text class="t-sm t-mut" x="272" y="86" fill="#ffffff">built over about eighteen months</text>
+
+  <text class="t-md" x="250" y="146" text-anchor="end">CG Power + TRIL, incoming</text>
+  <rect x="260" y="124" width="590" height="32" rx="4" fill="#b3261e"/>
+  <text class="t-md" x="862" y="146" fill="#b3261e">~60,000</text>
+  <text class="t-sm" x="272" y="146" fill="#ffffff">within three to four months, per an analyst on the Q1FY27 call</text>
+
+  <rect x="20" y="184" width="456" height="136" rx="8" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.6"/>
+  <text class="t-md" x="40" y="210" fill="#b3261e">Why this lands where it does</text>
+  <text class="t" x="40" y="236" fill="#b3261e">The new capacity arrives at <tspan font-weight="700">220 kV and below</tspan> — the class that is</text>
+  <text class="t" x="40" y="256" fill="#b3261e">56% of Atlanta's revenue and over half its order book.</text>
+  <text class="t" x="40" y="284" fill="#b3261e">Roughly <tspan font-weight="700">Atlanta's entire installed base, added by two companies</tspan></text>
+  <text class="t" x="40" y="304" fill="#b3261e"><tspan font-weight="700">in one quarter.</tspan></text>
+
+  <rect x="492" y="184" width="448" height="136" rx="8" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.6"/>
+  <text class="t-md" x="512" y="210" fill="#1a6f4a">Which is why the ladder matters</text>
+  <text class="t" x="512" y="236" fill="#1a6f4a">The defence against crowding at 220 kV is <tspan font-weight="700">being approved above it.</tspan></text>
+  <text class="t" x="512" y="264" fill="#1a6f4a">400 kV has approval and no product; 765 kV has neither yet.</text>
+  <text class="t-sm" x="512" y="292" fill="#1a6f4a">Management on 400 kV margins: <tspan font-style="italic">"it is not right to comment… since we are</tspan></text>
+  <text class="t-sm" x="512" y="308" fill="#1a6f4a"><tspan font-style="italic">going to manufacture these products for the first time."</tspan></text>
+</svg>
+<figcaption><strong>Supply shortage is the industry's current condition, not a permanent feature — and the capacity being added lands squarely where Atlanta earns today.</strong> That is the honest tension in this business: the approval barrier is real at every rung, but it protects the rung you have already climbed far better than it protects your growth. <span class="src">The ~60,000 MVA figure and the CG Power / Transformers &amp; Rectifiers attribution were raised by an analyst on the Q1FY27 call (22-Jul-2026); the voltage-class revenue and order-book shares and the 400 kV margin quote are management's, from the same call. <span class="tag inf">MY INFERENCE</span> — the framing of approval as protecting the current rung more than future growth is mine.</span></figcaption>
+</figure>
+
+<h2 id="s10"><span class="n">10.</span> The inputs, and where they come from</h2>
+
+<p>Three materials dominate the bill: <strong>CRGO electrical steel, copper and insulating oil.</strong> Two of the three have had a supply event in the past year, and one is subject to a live trade investigation.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 350" role="img" aria-label="CRGO steel is imported and under a DGTR anti-dumping investigation, copper tracks the commodity, and mineral oil had a shortage mitigated with ester oil contracts.">
+  <rect x="20" y="30" width="296" height="200" rx="9" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.8"/>
+  <text class="t-lg" x="40" y="60" fill="#b3261e">CRGO steel</text>
+  <text class="t-sm" x="40" y="80" fill="#b3261e">the core — and the exposed input</text>
+  <text class="t" x="40" y="110">Grain-oriented electrical steel.</text>
+  <text class="t" x="40" y="130">Not made in India at the required</text>
+  <text class="t" x="40" y="150">grades and volumes — it is imported.</text>
+  <text class="t-sm" x="40" y="180" fill="#b3261e"><tspan font-weight="700">DGTR anti-dumping investigation open</tspan>,</text>
+  <text class="t-sm" x="40" y="198" fill="#b3261e">verdict expected by end-March 2027.</text>
+  <text class="t-sm t-mut" x="40" y="220">Also live: BIS licensing for Chinese mills.</text>
+
+  <rect x="332" y="30" width="296" height="200" rx="9" fill="#f7fafc" stroke="currentColor" stroke-width="1.4"/>
+  <text class="t-lg" x="352" y="60">Copper</text>
+  <text class="t-sm t-mut" x="352" y="80">the windings</text>
+  <text class="t" x="352" y="110">A global commodity, priced daily.</text>
+  <text class="t" x="352" y="138">Passes into contract value and</text>
+  <text class="t" x="352" y="158">therefore into revenue per MVA —</text>
+  <text class="t" x="352" y="178">which is §7's whole point.</text>
+  <text class="t-sm t-mut" x="352" y="208">No supply event disclosed this year.</text>
+
+  <rect x="644" y="30" width="296" height="200" rx="9" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.8"/>
+  <text class="t-lg" x="664" y="60" fill="#a2650a">Insulating oil</text>
+  <text class="t-sm" x="664" y="80" fill="#a2650a">fills the tank</text>
+  <text class="t" x="664" y="110" fill="#a2650a">There <tspan font-style="italic">was</tspan> a mineral-oil shortage.</text>
+  <text class="t" x="664" y="138" fill="#a2650a">Atlanta had <tspan font-weight="700">ester and natural oil</tspan></text>
+  <text class="t" x="664" y="158" fill="#a2650a"><tspan font-weight="700">contracts</tspan> already in place and</text>
+  <text class="t" x="664" y="178" fill="#a2650a">executed them.</text>
+  <text class="t-sm" x="664" y="208" fill="#a2650a">Supply has since eased; prices correcting down.</text>
+
+  <rect x="20" y="248" width="920" height="88" rx="8" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.5"/>
+  <text class="t-md" x="40" y="274" fill="#1F4E79">Why the input picture matters more than it looks</text>
+  <text class="t" x="40" y="300" fill="#1F4E79">A transformer maker does not have much cost it can engineer away — the core, the copper and the oil <tspan font-weight="700">are</tspan> the product. The in-house tank-and-radiator</text>
+  <text class="t" x="40" y="322" fill="#1F4E79">facility addresses 4–5% of cost (§3). <tspan font-weight="700">An anti-dumping duty on CRGO would land on the largest input of every player at once</tspan> — an industry event, not a company one.</text>
+</svg>
+<figcaption><strong>Management handled the one shortage that arrived by having contracted an alternative in advance, which is a small but real operational credit.</strong> The open item is CRGO: a duty would raise the cost base across the industry, and because tenders are priced off input cost it would most likely pass through — but with a lag, and lags land on margin. Management declined to speculate on the outcome, which is the right answer. <span class="src">The CRGO/DGTR investigation, the end-March verdict timing, the BIS licensing point and the ester-oil mitigation all from the Q1FY27 call (22-Jul-2026), Anand Sharma and management responses to analyst questions. That CRGO is largely imported is standard industry fact.</span></figcaption>
+</figure>
+
+<h2 id="s11"><span class="n">11.</span> Reading the industry through the numbers</h2>
+
+<div class="tw">
+<table>
+<thead><tr><th style="width:26%">Industry mechanism</th><th style="width:24%">Where it shows up</th><th style="width:30%">Latest reading</th><th style="width:20%">Source</th></tr></thead>
+<tbody>
+<tr><td>Voltage class sets the economics</td><td>Revenue and order book by class</td><td><strong>220 kV = 56% of Q1FY27 revenue, &gt;55% of order book</strong></td><td>Q1FY27 call &amp; deck</td></tr>
+<tr><td>The next rungs are approvals, not products yet</td><td>400 kV / 765 kV status</td><td><strong>400 kV approved 2-Apr-2026</strong> (subject to short-circuit test); 765 kV partner in negotiation. <strong>Zero revenue from either</strong></td><td>Q1FY27 call</td></tr>
+<tr><td>Approval is plant- and class-specific</td><td>Which plant holds which approval</td><td>PGCIL 400 kV sits at <strong>Vadod</strong>, obtained ~2 years from groundbreaking</td><td>Q1FY27 deck</td></tr>
+<tr><td>Capacity is throughput, in MVA</td><td>Nameplate vs production</td><td><strong>63,060 MVA installed</strong> (from ~16,000 in ~18 months) vs <strong>22,943 MVA produced in FY26</strong></td><td>Q1FY27 deck; FY26 results</td></tr>
+<tr><td>Incremental MVA drops through fixed cost</td><td>Margin</td><td>FY26 EBITDA <strong>18.6%, +300bps</strong>; Vadod ₹200cr capex → <strong>₹495cr in 7 months</strong></td><td>FY26 &amp; Q1FY27 calls</td></tr>
+<tr><td>Renewables add junctions</td><td>End-market mix</td><td>Renewables <strong>~19% of Q1FY27 revenue</strong>; power transformers <strong>79%</strong></td><td>Q1FY27 call &amp; deck</td></tr>
+<tr><td>Realisation is a commodity price</td><td>Revenue per MVA</td><td>Management: <em>"will naturally not be a factor to highlight how the industry is performing"</em></td><td>FY26 call</td></tr>
+<tr><td>Forward visibility</td><td>Order book and inflow</td><td><strong>₹3,116.63cr</strong> book, <strong>₹2,400cr executable in FY27</strong>; Q1 inflow <strong>₹972.42cr</strong>, a record</td><td>Q1FY27 call &amp; deck</td></tr>
+<tr><td>The class is getting crowded</td><td>Competitor capacity additions</td><td><strong>~60,000 MVA</strong> from CG Power and TRIL within 3–4 months — near Atlanta's whole base</td><td>Analyst, Q1FY27 call</td></tr>
+<tr><td>Backward integration is thin</td><td>Share of cost addressed</td><td>Tank and radiators are <strong>"not more than 4 to 5% of the total transformer cost"</strong></td><td>Q1FY27 call</td></tr>
+<tr><td>Input exposure sits in CRGO</td><td>Trade action</td><td><strong>DGTR anti-dumping investigation open</strong>, verdict expected by end-March 2027</td><td>Q1FY27 call</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2 id="s12"><span class="n">12.</span> What is not disclosed</h2>
+
+<ul>
+<li><strong>Margin by voltage class.</strong> The entire thesis is a move from 220 kV to 400 kV and 765 kV, and management explicitly declines to estimate what those will earn: <em>"it is not right to comment as to what kind of margins would we be earning… since we are going to manufacture these products for the first time."</em> <strong>Honest, and it means the economics of the growth story are unknown.</strong></li>
+<li><strong>Order book split by voltage class in rupees.</strong> A percentage is given for 220 kV; the 400 kV portion is described as deliberately restricted but not sized.</li>
+<li><strong>Capacity utilisation by plant.</strong> Q1FY27 MVA was broken out for Vadod and Ankhi when an analyst asked, but plant-level utilisation is not a standing disclosure — and nameplate assumes a product mix that is not stated.</li>
+<li><strong>Realisation per MVA by class</strong> — which, given §7, is arguably the right thing not to publish, but it means mix effects cannot be separated from commodity effects by an outside reader.</li>
+<li><strong>The CRGO sourcing split</strong> — how much comes from which origin, which is what would let a reader size the anti-dumping exposure.</li>
+<li><strong>Order-to-delivery lead times</strong>, which in a stretched-supply industry is the single best indicator of whether the shortage is easing.</li>
+</ul>
+
+<h2 id="s13"><span class="n">13.</span> Glossary</h2>
+
+<dl class="glos">
+<dt>Transformer</dt><dd>A device with no moving parts that raises or lowers voltage using two coils wound on a shared steel core. The grid needs one wherever the voltage changes.</dd>
+<dt>Power transformer</dt><dd>The large, high-voltage units used in transmission and at substations. Atlanta's business — 79% of Q1FY27 revenue.</dd>
+<dt>Distribution transformer</dt><dd>The small pole- or pad-mounted units at the consumer end. A different market, which Atlanta states it is not in.</dd>
+<dt>kV</dt><dd>Kilovolt — the voltage class. The rung on the ladder, and the thing a manufacturer is approved against.</dd>
+<dt>MVA</dt><dd>Mega volt-ampere — the throughput rating. The industry's unit for both capacity and output, because units of vastly different size are not comparable.</dd>
+<dt>CRGO</dt><dd>Cold-Rolled Grain-Oriented electrical steel. The core material, largely imported, and the input under a live anti-dumping investigation.</dd>
+<dt>Windings</dt><dd>The copper coils around the core. The ratio of turns between the two windings sets the voltage change.</dd>
+<dt>Bushing</dt><dd>The insulated fitting where a conductor passes through the tank wall.</dd>
+<dt>Radiator</dt><dd>The finned panels on the tank that shed heat from the circulating oil.</dd>
+<dt>Ester oil</dt><dd>A synthetic or natural-ester insulating fluid used as an alternative to mineral oil — what Atlanta had contracted when mineral oil ran short.</dd>
+<dt>Short-circuit test</dt><dd>A destructive type test, in India performed at CPRI, that a prototype must survive before a design and plant are approved for a class.</dd>
+<dt>PGCIL approval</dt><dd>Power Grid Corporation's qualification of a specific plant for a specific voltage class. Plant-specific and class-specific — not transferable.</dd>
+<dt>EHV</dt><dd>Extra High Voltage — broadly 400 kV and above. The capability Atlanta acquired with Atlanta Trafo.</dd>
+<dt>Evacuation</dt><dd>Transmission capacity built to carry generation — typically renewable — from where it is produced to where it is used.</dd>
+</dl>
+
+<hr>
+
+<h3>Sources</h3>
+<p class="src"><strong>Transcripts (5 official — the complete set since listing):</strong> Q1FY27 (22-Jul-2026) · Q4FY26/FY26 (May-2026) · Q3FY26 (Jan-2026) · Q2FY26 (Nov-2025) · Q1FY26 (Oct-2025, the company's first earnings call after its 29-Sep-2025 NSE listing). <strong>Decks (5):</strong> the same five periods, 30–33 pages each. Held in <code class="src">Fetched Concalls/ATLANTAELE/</code>.<br>
+<strong>⚠️ Identity verification:</strong> NSE's equity master carries two "Atlanta" names — <strong>ATLANTAA</strong> (Atlanta Ltd, infrastructure, listed 2006, INE285H01022) and <strong>ATLANTAELE</strong> (Atlanta Electricals, listed 29-Sep-2025, INE0Z4F01028). This page concerns the latter, verified against <code class="src">EQUITY_L.csv</code> before any filing was pulled.<br>
+<strong>Extraction discipline:</strong> every figure comes from a deck table, a results filing or spoken commentary on a call. <strong>No number on this page is read off a chart in a deck.</strong> The grid journey in §1 and the approval sequence in §4 were laid out with Graphviz; all other figures are hand-authored SVG.<br>
+<strong>Companion document:</strong> <code class="src">Company Profiles/ATLANTAELE.md</code> carries the financials, the related-party transactions, the SBPDCL debarment, valuation, conviction and risks. This page makes no investment judgement.</p>
+
+</body>
+</html>
