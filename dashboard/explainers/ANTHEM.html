@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How the CRDMO Business Works — Anthem Industry Primer</title>
+<meta name="robots" content="noindex,nofollow">
+<style>
+
+
+:root{
+  --navy:#1F4E79; --blue:#2E75B6; --ink:#16202b; --mut:#5a6a78; --bg:#fafbfc;
+  --card:#ffffff; --line:#e3e8ee; --amber:#a2650a; --amberbg:#fff8e6;
+  --red:#b3261e; --redbg:#fdeceb; --green:#1a6f4a; --greenbg:#ecf7f1;
+  color-scheme: light;
+}
+*{box-sizing:border-box}
+body{
+  max-width:1040px; margin:0 auto; padding:22px 20px 80px;
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+  line-height:1.62; color:var(--ink); background:var(--bg); font-size:15px;
+}
+.nav{display:flex; gap:18px; flex-wrap:wrap; margin-bottom:12px; font-size:13.5px}
+.nav a{color:var(--navy); font-weight:600; text-decoration:none}
+.nav a:hover{text-decoration:underline; color:var(--blue)}
+.topbar{background:linear-gradient(135deg,#1F4E79 0%,#2E75B6 100%); color:#fff; padding:20px 24px; border-radius:10px; margin-bottom:22px}
+.topbar h1{margin:0 0 6px; font-size:25px; line-height:1.25; color:#fff; border:0; padding:0}
+.topbar .sub{font-size:14.5px; opacity:.92}
+.topbar .meta{font-size:12.5px; opacity:.8; margin-top:10px}
+h2{color:var(--navy); font-size:20px; margin:44px 0 6px; border-left:4px solid var(--navy); padding-left:12px}
+h2 .n{color:var(--blue); font-weight:700}
+h3{color:var(--blue); font-size:16px; margin:26px 0 8px}
+p{margin:11px 0}
+ul{margin:10px 0; padding-left:22px} li{margin:6px 0}
+.lede{font-size:15.5px; color:#2c3b49}
+.box{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 18px; margin:18px 0}
+.box.warn{background:var(--amberbg); border-color:#f0dcae}
+.box.red{background:var(--redbg); border-color:#f3cfcb}
+.box.good{background:var(--greenbg); border-color:#c7e4d5}
+.box h4{margin:0 0 6px; font-size:14px; color:var(--navy); text-transform:uppercase; letter-spacing:.04em}
+.src{color:var(--mut); font-size:12.5px}
+code.src{background:transparent; padding:0}
+figure.dg{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px 16px 12px; margin:22px 0}
+figure.dg svg{width:100%; height:auto; display:block; color:#3d4b5c}
+figure.dg figcaption{font-size:13px; color:var(--mut); margin-top:12px; padding-top:10px; border-top:1px dashed var(--line)}
+svg text:not([fill]){fill:currentColor}
+.t-lg{font-size:15px; font-weight:700}
+.t-md{font-size:13.5px; font-weight:700}
+.t{font-size:12.5px}
+.t-sm{font-size:11px}
+.t-mut{opacity:.7}
+.tw{overflow-x:auto; margin:16px 0}
+table{border-collapse:collapse; width:100%; min-width:620px; font-size:13.5px; background:var(--card)}
+th,td{border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top}
+th{background:#eef3f8; color:var(--navy); font-weight:700}
+.toc{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 20px; font-size:14px}
+.toc ol{margin:6px 0; padding-left:22px} .toc li{margin:4px 0}
+.toc a{color:var(--navy); text-decoration:none} .toc a:hover{text-decoration:underline}
+.glos{display:grid; grid-template-columns:150px 1fr; gap:6px 14px; font-size:13.5px}
+.glos dt{font-weight:700; color:var(--navy)} .glos dd{margin:0}
+@media (max-width:640px){ .glos{grid-template-columns:1fr} .glos dt{margin-top:8px} }
+.tag{display:inline-block; font-size:11px; font-weight:700; letter-spacing:.03em; padding:2px 7px; border-radius:20px; vertical-align:middle}
+.tag.fact{background:#e8f0f8; color:var(--navy)}
+.tag.inf{background:var(--amberbg); color:var(--amber); border:1px solid #ecd9a8}
+blockquote{border-left:4px solid #2E75B6; background:#f4f8fc; margin:16px 0; padding:12px 18px; font-size:14px}
+hr{border:0; border-top:1px solid var(--line); margin:38px 0}
+</style>
+</head>
+<body>
+
+<div class="nav">
+  <a href="https://portfolio-stocks-chi.vercel.app/index.html">← Dashboard</a>
+  <a href="https://portfolio-stocks-chi.vercel.app/profile.html?stock=ANTHEM">Full profile — ANTHEM →</a>
+</div>
+
+<div class="topbar">
+  <h1>How the CRDMO business actually works</h1>
+  <div class="sub">An industry primer for Anthem Biosciences — what a drug company outsources and why, how a molecule travels from grams to tonnes, and why the customer cannot leave once it arrives</div>
+  <div class="meta">Built 3-Sep-2026 · Sourced from Anthem's 5 official transcripts and 6 investor decks — the complete set since its July-2025 listing · Companion to <strong>Company Profiles/ANTHEM.md</strong></div>
+</div>
+
+<p class="lede">This page explains the <strong>industry</strong>, not the investment case. What follows is the mechanism: what a biotech actually hands over, what happens to the molecule inside Anthem, why the manufacturing site ends up written into a drug's regulatory filing, why a quarter can shrink 23% without anything going wrong, and where a 40% EBITDA margin in a contract manufacturing business comes from.</p>
+
+<div class="box warn">
+<h4>How to read this</h4>
+<p style="margin:6px 0"><span class="tag fact">FACT</span> Everything unmarked comes from Anthem's own filings — transcripts and investor decks — with the source named in grey after the claim.</p>
+<p style="margin:6px 0"><span class="tag inf">MY INFERENCE</span> Where the framing is mine rather than management's, it is marked.</p>
+<p style="margin:6px 0; color:#5a6a78; font-size:13.5px"><strong>Two sourcing notes.</strong> Anthem listed on <strong>21-Jul-2025</strong>, so five transcripts is the <em>complete</em> record, not a partial one — its first earnings call was August 2025. And the Q1FY27 deck was filed twice on the same day; the revised version corrects a column-header date typo and changes no figure. <strong>Only the revised deck is quoted here.</strong></p>
+</div>
+
+<div class="toc">
+<strong>Contents</strong>
+<ol>
+<li><a href="#s1">What a drug company is actually buying</a></li>
+<li><a href="#s2">The journey of one molecule</a></li>
+<li><a href="#s3">The funnel — and why most of it dies</a></li>
+<li><a href="#s4">Chemistry and biology — the two lanes most peers pick between</a></li>
+<li><a href="#s5">Why the customer cannot leave</a></li>
+<li><a href="#s6">Why the quarter is not a control variable</a></li>
+<li><a href="#s7">Where a 40% margin comes from</a></li>
+<li><a href="#s8">The second business — and why it exists</a></li>
+<li><a href="#s9">Who the customers are, and where they are</a></li>
+<li><a href="#s10">The decay clock the CEO named himself</a></li>
+<li><a href="#s11">Reading the industry through the numbers</a></li>
+<li><a href="#s12">What is not disclosed</a></li>
+<li><a href="#s13">Glossary</a></li>
+</ol>
+</div>
+
+<h2 id="s1"><span class="n">1.</span> What a drug company is actually buying</h2>
+
+<p>A biotech in Boston or Basel invents a molecule. It has twenty employees, venture funding and no factory — and it has no intention of building one. Big pharma, meanwhile, has spent two decades selling its plants. <strong>Somebody still has to actually make the drug.</strong> That somebody is a CRDMO: a Contract Research, Development and Manufacturing Organisation.</p>
+
+<p>The three letters matter separately. <strong>Research</strong> is working out how to make a molecule nobody has made before. <strong>Development</strong> is proving that route works repeatably at increasing scale. <strong>Manufacturing</strong> is supplying it commercially, for years, once the drug is approved. Many contract manufacturers do only the last one. Anthem does all three, and the "R" is what gets it in early.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 340" role="img" aria-label="What the customer keeps and what it outsources: the innovator keeps the molecule, the intellectual property, the trials and the marketing; the CRDMO takes the chemistry, the scale-up and the manufacturing.">
+  <defs>
+    <marker id="a1a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <rect x="20" y="40" width="400" height="220" rx="9" fill="#f7fafc" stroke="currentColor" stroke-width="1.5"/>
+  <text class="t-lg" x="42" y="72">The innovator keeps</text>
+  <text class="t" x="42" y="104">· The molecule and its intellectual property</text>
+  <text class="t" x="42" y="130">· The clinical trials and the regulatory filing</text>
+  <text class="t" x="42" y="156">· The marketing, the pricing, the profit if it works</text>
+  <text class="t" x="42" y="182">· The decision on when to take delivery</text>
+  <text class="t-sm t-mut" x="42" y="214">A venture-funded biotech may be twenty people. It never owned a plant.</text>
+  <text class="t-sm t-mut" x="42" y="232">Big pharma had plants and has been shedding them for twenty years.</text>
+
+  <path d="M424,150 H536" stroke="#2E75B6" stroke-width="2.4" marker-end="url(#a1a)"/>
+  <text class="t-sm" x="480" y="138" text-anchor="middle" fill="#1F4E79">hands over</text>
+  <text class="t-sm" x="480" y="172" text-anchor="middle" fill="#1F4E79">the molecule</text>
+
+  <rect x="540" y="40" width="400" height="220" rx="9" fill="#eaf2fb" stroke="#2E75B6" stroke-width="2.2"/>
+  <text class="t-lg" x="562" y="72" fill="#1F4E79">The CRDMO takes</text>
+  <text class="t" x="562" y="104" fill="#1F4E79">· Working out a route to make it at all</text>
+  <text class="t" x="562" y="130" fill="#1F4E79">· Proving that route at gram, then kilo, then tonne</text>
+  <text class="t" x="562" y="156" fill="#1F4E79">· Building and qualifying the production line</text>
+  <text class="t" x="562" y="182" fill="#1F4E79">· Supplying commercially for as long as the drug sells</text>
+  <text class="t-sm" x="562" y="214" fill="#1F4E79">Anthem: <tspan font-weight="700">2,282 employees, 1,117 of them scientific staff, 32 PhDs.</tspan></text>
+  <text class="t-sm" x="562" y="232" fill="#1F4E79">That headcount <tspan font-style="italic">is</tspan> the product.</text>
+
+  <rect x="20" y="278" width="920" height="48" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.4"/>
+  <text class="t" x="40" y="302" fill="#a2650a"><tspan font-weight="700">The distinction that runs through this whole page:</tspan> the innovator owns the <tspan font-style="italic">molecule</tspan>; the CRDMO owns the <tspan font-style="italic">method of making it</tspan>. Those are different assets,</text>
+  <text class="t" x="40" y="320" fill="#a2650a">and only one of them is written into the regulatory filing alongside the site that produces it — which is §5, and the reason this is a sticky business.</text>
+</svg>
+<figcaption><strong>The customer is buying capability it has decided never to own.</strong> That is a structurally durable reason for the industry to exist — it does not depend on any single drug working, only on innovators continuing to prefer renting a factory to building one. <span class="src">Headcount and scientific-staff split from the FY26 disclosure as recorded in the profile's §1; the industry rationale from the profile's §2.</span></figcaption>
+</figure>
+
+<h2 id="s2"><span class="n">2.</span> The journey of one molecule</h2>
+
+<p>Here is what actually happens between a customer arriving and revenue appearing. Note where the two exits are — most molecules take one of them.</p>
+
+<figure class="dg">
+<svg
+ viewBox="0.00 0.00 1091.00 186.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 182)">
+<title>A</title>
+<g id="clust1" class="cluster">
+<title>cluster_lab</title>
+<path fill="none" stroke="#2e75b6" stroke-width="1.5" d="M154.23,-18C154.23,-18 383.19,-18 383.19,-18 389.19,-18 395.19,-24 395.19,-30 395.19,-30 395.19,-87 395.19,-87 395.19,-93 389.19,-99 383.19,-99 383.19,-99 154.23,-99 154.23,-99 148.23,-99 142.23,-93 142.23,-87 142.23,-87 142.23,-30 142.23,-30 142.23,-24 148.23,-18 154.23,-18"/>
+<text xml:space="preserve" text-anchor="start" x="170.46" y="-86.03" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#1f4e79">RESEARCH — the &quot;R&quot; most peers skip</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_dev</title>
+<path fill="none" stroke="#e0b062" stroke-width="1.5" d="M430.57,-49C430.57,-49 661.4,-49 661.4,-49 667.4,-49 673.4,-55 673.4,-61 673.4,-61 673.4,-118 673.4,-118 673.4,-124 667.4,-130 661.4,-130 661.4,-130 430.57,-130 430.57,-130 424.57,-130 418.57,-124 418.57,-118 418.57,-118 418.57,-61 418.57,-61 418.57,-55 424.57,-49 430.57,-49"/>
+<text xml:space="preserve" text-anchor="start" x="506.23" y="-117.03" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#a2650a">DEVELOPMENT</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_com</title>
+<path fill="none" stroke="#1a6f4a" stroke-width="1.5" d="M699.4,-80C699.4,-80 939.61,-80 939.61,-80 945.61,-80 951.61,-86 951.61,-92 951.61,-92 951.61,-158 951.61,-158 951.61,-164 945.61,-170 939.61,-170 939.61,-170 699.4,-170 699.4,-170 693.4,-170 687.4,-164 687.4,-158 687.4,-158 687.4,-92 687.4,-92 687.4,-86 693.4,-80 699.4,-80"/>
+<text xml:space="preserve" text-anchor="start" x="773.01" y="-157.03" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#1a6f4a">MANUFACTURING</text>
+</g>
+<g id="node1" class="node">
+<title>cust</title>
+<path fill="#eaf2fb" stroke="#2e75b6" stroke-width="1.8" d="M103.23,-71.42C103.23,-71.42 12,-71.42 12,-71.42 6,-71.42 0,-65.42 0,-59.42 0,-59.42 0,-38.58 0,-38.58 0,-32.58 6,-26.58 12,-26.58 12,-26.58 103.23,-26.58 103.23,-26.58 109.23,-26.58 115.23,-32.58 115.23,-38.58 115.23,-38.58 115.23,-59.42 115.23,-59.42 115.23,-65.42 109.23,-71.42 103.23,-71.42"/>
+<text xml:space="preserve" text-anchor="start" x="12.24" y="-54.05" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00" fill="#16202b">Customer arrives</text>
+<text xml:space="preserve" text-anchor="start" x="19.37" y="-44.95" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">biotech or pharma,</text>
+<text xml:space="preserve" text-anchor="start" x="25.74" y="-35.95" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">with a molecule</text>
+</g>
+<g id="node2" class="node">
+<title>route</title>
+<path fill="#f4f7fa" stroke="#c6d6e4" stroke-width="1.3" d="M268.96,-67C268.96,-67 167.23,-67 167.23,-67 161.23,-67 155.23,-61 155.23,-55 155.23,-55 155.23,-43 155.23,-43 155.23,-37 161.23,-31 167.23,-31 167.23,-31 268.96,-31 268.96,-31 274.96,-31 280.96,-37 280.96,-43 280.96,-43 280.96,-55 280.96,-55 280.96,-61 274.96,-67 268.96,-67"/>
+<text xml:space="preserve" text-anchor="start" x="177.97" y="-49.55" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#16202b">Work out a route</text>
+<text xml:space="preserve" text-anchor="start" x="167.47" y="-40.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">how do you even make it</text>
+</g>
+<g id="edge1" class="edge">
+<title>cust&#45;&gt;route</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.2" d="M115.83,-49C125.57,-49 135.79,-49 145.83,-49"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.2" points="145.79,-51.45 152.79,-49 145.79,-46.55 145.79,-51.45"/>
+</g>
+<g id="node3" class="node">
+<title>gram</title>
+<path fill="#f4f7fa" stroke="#c6d6e4" stroke-width="1.3" d="M370.19,-67C370.19,-67 332.96,-67 332.96,-67 326.96,-67 320.96,-61 320.96,-55 320.96,-55 320.96,-43 320.96,-43 320.96,-37 326.96,-31 332.96,-31 332.96,-31 370.19,-31 370.19,-31 376.19,-31 382.19,-37 382.19,-43 382.19,-43 382.19,-55 382.19,-55 382.19,-61 376.19,-67 370.19,-67"/>
+<text xml:space="preserve" text-anchor="start" x="334.33" y="-49.55" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00" fill="#16202b">Grams</text>
+<text xml:space="preserve" text-anchor="start" x="333.2" y="-40.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">lab scale</text>
+</g>
+<g id="edge2" class="edge">
+<title>route&#45;&gt;gram</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.2" d="M281.37,-49C291.84,-49 302.42,-49 312.06,-49"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.2" points="311.8,-51.45 318.8,-49 311.8,-46.55 311.8,-51.45"/>
+</g>
+<g id="node4" class="node">
+<title>kilo</title>
+<path fill="#fff8e6" stroke="#e0b062" stroke-width="1.3" d="M483.8,-98C483.8,-98 443.57,-98 443.57,-98 437.57,-98 431.57,-92 431.57,-86 431.57,-86 431.57,-74 431.57,-74 431.57,-68 437.57,-62 443.57,-62 443.57,-62 483.8,-62 483.8,-62 489.8,-62 495.8,-68 495.8,-74 495.8,-74 495.8,-86 495.8,-86 495.8,-92 489.8,-98 483.8,-98"/>
+<text xml:space="preserve" text-anchor="start" x="450.18" y="-80.55" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00" fill="#16202b">Kilos</text>
+<text xml:space="preserve" text-anchor="start" x="443.81" y="-71.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">pilot plant</text>
+</g>
+<g id="edge3" class="edge">
+<title>gram&#45;&gt;kilo</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.2" d="M382.66,-57.47C394.99,-60.94 409.43,-65.01 422.63,-68.72"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.2" points="421.94,-71.08 429.34,-70.61 423.27,-66.36 421.94,-71.08"/>
+</g>
+<g id="node9" class="node">
+<title>dead1</title>
+<path fill="none" stroke="none" stroke-width="1.3" d="M493.17,-36C493.17,-36 434.19,-36 434.19,-36 428.19,-36 422.19,-30 422.19,-24 422.19,-24 422.19,-12 422.19,-12 422.19,-6 428.19,0 434.19,0 434.19,0 493.17,0 493.17,0 499.17,0 505.17,-6 505.17,-12 505.17,-12 505.17,-24 505.17,-24 505.17,-30 499.17,-36 493.17,-36"/>
+<text xml:space="preserve" text-anchor="start" x="434.43" y="-15.38" font-family="Helvetica,sans-Serif" font-size="9.50" fill="#b3261e">molecule fails</text>
+</g>
+<g id="edge8" class="edge">
+<title>gram&#45;&gt;dead1</title>
+<path fill="none" stroke="#b3261e" stroke-width="1.2" stroke-dasharray="5,2" d="M382.66,-40.53C392.59,-37.73 403.9,-34.55 414.83,-31.47"/>
+<polygon fill="#b3261e" stroke="#b3261e" stroke-width="1.2" points="415.35,-33.51 420.56,-29.86 414.21,-29.46 415.35,-33.51"/>
+</g>
+<g id="node5" class="node">
+<title>val</title>
+<path fill="#fff8e6" stroke="#e0b062" stroke-width="1.3" d="M648.4,-98C648.4,-98 557.17,-98 557.17,-98 551.17,-98 545.17,-92 545.17,-86 545.17,-86 545.17,-74 545.17,-74 545.17,-68 551.17,-62 557.17,-62 557.17,-62 648.4,-62 648.4,-62 654.4,-62 660.4,-68 660.4,-74 660.4,-74 660.4,-86 660.4,-86 660.4,-92 654.4,-98 648.4,-98"/>
+<text xml:space="preserve" text-anchor="start" x="564.91" y="-80.55" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#16202b">Prove it repeats</text>
+<text xml:space="preserve" text-anchor="start" x="557.41" y="-71.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">yield, purity, impurities</text>
+</g>
+<g id="edge4" class="edge">
+<title>kilo&#45;&gt;val</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.2" d="M496.13,-80C508.05,-80 522.11,-80 536.01,-80"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.2" points="535.81,-82.45 542.81,-80 535.81,-77.55 535.81,-82.45"/>
+</g>
+<g id="node6" class="node">
+<title>tonne</title>
+<path fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.3" d="M751.88,-129C751.88,-129 712.4,-129 712.4,-129 706.4,-129 700.4,-123 700.4,-117 700.4,-117 700.4,-105 700.4,-105 700.4,-99 706.4,-93 712.4,-93 712.4,-93 751.88,-93 751.88,-93 757.88,-93 763.88,-99 763.88,-105 763.88,-105 763.88,-117 763.88,-117 763.88,-123 757.88,-129 751.88,-129"/>
+<text xml:space="preserve" text-anchor="start" x="713.39" y="-111.55" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00" fill="#16202b">Tonnes</text>
+<text xml:space="preserve" text-anchor="start" x="712.64" y="-102.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">Units 1–4</text>
+</g>
+<g id="edge5" class="edge">
+<title>val&#45;&gt;tonne</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.2" d="M660.76,-93.87C671.21,-96.41 681.9,-99.01 691.69,-101.4"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.2" points="690.9,-103.73 698.28,-103 692.05,-98.96 690.9,-103.73"/>
+</g>
+<g id="node10" class="node">
+<title>dead2</title>
+<path fill="none" stroke="none" stroke-width="1.3" d="M750.38,-67C750.38,-67 713.9,-67 713.9,-67 707.9,-67 701.9,-61 701.9,-55 701.9,-55 701.9,-43 701.9,-43 701.9,-37 707.9,-31 713.9,-31 713.9,-31 750.38,-31 750.38,-31 756.38,-31 762.38,-37 762.38,-43 762.38,-43 762.38,-55 762.38,-55 762.38,-61 756.38,-67 750.38,-67"/>
+<text xml:space="preserve" text-anchor="start" x="714.14" y="-46.38" font-family="Helvetica,sans-Serif" font-size="9.50" fill="#b3261e">trial fails</text>
+</g>
+<g id="edge9" class="edge">
+<title>val&#45;&gt;dead2</title>
+<path fill="none" stroke="#b3261e" stroke-width="1.2" stroke-dasharray="5,2" d="M660.76,-66.13C672.27,-63.33 684.08,-60.46 694.65,-57.88"/>
+<polygon fill="#b3261e" stroke="#b3261e" stroke-width="1.2" points="695.01,-59.95 700.35,-56.5 694.02,-55.87 695.01,-59.95"/>
+</g>
+<g id="node7" class="node">
+<title>file</title>
+<path fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.8" d="M926.61,-137.42C926.61,-137.42 815.88,-137.42 815.88,-137.42 809.88,-137.42 803.88,-131.42 803.88,-125.42 803.88,-125.42 803.88,-104.58 803.88,-104.58 803.88,-98.58 809.88,-92.58 815.88,-92.58 815.88,-92.58 926.61,-92.58 926.61,-92.58 932.61,-92.58 938.61,-98.58 938.61,-104.58 938.61,-104.58 938.61,-125.42 938.61,-125.42 938.61,-131.42 932.61,-137.42 926.61,-137.42"/>
+<text xml:space="preserve" text-anchor="start" x="816.12" y="-120.05" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00" fill="#16202b">Written into the filing</text>
+<text xml:space="preserve" text-anchor="start" x="827.75" y="-110.95" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">the site becomes part</text>
+<text xml:space="preserve" text-anchor="start" x="827.37" y="-101.95" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">of the drug&#39;s approval</text>
+</g>
+<g id="edge6" class="edge">
+<title>tonne&#45;&gt;file</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.2" d="M764.25,-111.91C773.42,-112.18 783.87,-112.48 794.55,-112.79"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.2" points="794.27,-115.23 801.34,-112.99 794.41,-110.34 794.27,-115.23"/>
+</g>
+<g id="node8" class="node">
+<title>annuity</title>
+<path fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.8" d="M1071.34,-137.42C1071.34,-137.42 990.61,-137.42 990.61,-137.42 984.61,-137.42 978.61,-131.42 978.61,-125.42 978.61,-125.42 978.61,-104.58 978.61,-104.58 978.61,-98.58 984.61,-92.58 990.61,-92.58 990.61,-92.58 1071.34,-92.58 1071.34,-92.58 1077.34,-92.58 1083.34,-98.58 1083.34,-104.58 1083.34,-104.58 1083.34,-125.42 1083.34,-125.42 1083.34,-131.42 1077.34,-137.42 1071.34,-137.42"/>
+<text xml:space="preserve" text-anchor="start" x="1010.35" y="-120.05" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00" fill="#16202b">Annuity</text>
+<text xml:space="preserve" text-anchor="start" x="990.85" y="-110.95" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">supplied for as long</text>
+<text xml:space="preserve" text-anchor="start" x="997.6" y="-101.95" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">as the drug sells</text>
+</g>
+<g id="edge7" class="edge">
+<title>file&#45;&gt;annuity</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.2" d="M939.14,-115C949.14,-115 959.4,-115 969.26,-115"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.2" points="969,-117.45 976,-115 969,-112.55 969,-117.45"/>
+</g>
+</g>
+</svg>
+
+<figcaption><strong>Grams, then kilos, then tonnes — and the whole thing can stop at any point because the drug fails, not because Anthem did.</strong> The stage that distinguishes a CRDMO from a contract manufacturer is the first one: working out a route to make a molecule nobody has made before. That is where Anthem enters, years before anyone knows whether the drug works. <span class="src">Stage structure from management's description of the business across the Q1FY26–Q1FY27 calls; the Phase III supply from Units 1 and 2, and capacity expansion in Unit 4, from the Q1FY27 call (22-Jul-2026). Laid out with Graphviz.</span></figcaption>
+</figure>
+
+<h2 id="s3"><span class="n">3.</span> The funnel — and why most of it dies</h2>
+
+<p>A CRDMO's pipeline is not an order book. It is a population of programmes at different stages, most of which will never reach a market. <strong>The business is built on the survivors.</strong></p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 420" role="img" aria-label="A funnel from over 100 early-stage programmes down to 10 in Phase III and 14 already commercial, with attrition at each stage and the surviving molecules becoming annuities.">
+  <defs>
+    <linearGradient id="fun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dbe8f4"/><stop offset="1" stop-color="#2E75B6"/>
+    </linearGradient>
+    <marker id="a3r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b3261e"/>
+    </marker>
+    <marker id="a3g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a6f4a"/>
+    </marker>
+  </defs>
+
+  <path d="M120,50 L560,50 L470,300 L210,300 Z" fill="url(#fun)" opacity="0.9" stroke="#2E75B6" stroke-width="1.4"/>
+
+  <text class="t-lg" x="340" y="86" text-anchor="middle" fill="#1F4E79">100+</text>
+  <text class="t-sm" x="340" y="106" text-anchor="middle" fill="#1F4E79">early-stage programmes</text>
+
+  <line x1="150" y1="140" x2="530" y2="140" stroke="#ffffff" stroke-width="1.2" opacity=".7"/>
+  <text class="t-md" x="340" y="176" text-anchor="middle" fill="#1F4E79">10</text>
+  <text class="t-sm" x="340" y="194" text-anchor="middle" fill="#1F4E79">in Phase III (late stage)</text>
+
+  <line x1="196" y1="228" x2="484" y2="228" stroke="#ffffff" stroke-width="1.2" opacity=".7"/>
+  <text class="t-md" x="340" y="264" text-anchor="middle" fill="#ffffff">14</text>
+  <text class="t-sm" x="340" y="282" text-anchor="middle" fill="#ffffff">already commercial</text>
+
+  <path d="M566,96 L640,96" stroke="#b3261e" stroke-width="1.6" marker-end="url(#a3r)"/>
+  <text class="t-sm" x="648" y="92" fill="#b3261e">most molecules simply fail —</text>
+  <text class="t-sm" x="648" y="108" fill="#b3261e">the science, not the supplier</text>
+
+  <path d="M540,186 L640,186" stroke="#b3261e" stroke-width="1.6" marker-end="url(#a3r)"/>
+  <text class="t-sm" x="648" y="182" fill="#b3261e">trials fail, or the customer is</text>
+  <text class="t-sm" x="648" y="198" fill="#b3261e">acquired and the programme shifts</text>
+
+  <path d="M490,272 L640,272" stroke="#1a6f4a" stroke-width="1.8" marker-end="url(#a3g)"/>
+  <text class="t-sm" x="648" y="262" fill="#1a6f4a">the survivors become annuities —</text>
+  <text class="t-sm" x="648" y="278" fill="#1a6f4a">supplied for the life of the drug</text>
+  <text class="t-sm" x="648" y="294" fill="#1a6f4a"><tspan font-weight="700">4 molecules commercialised in FY26 alone</tspan></text>
+
+  <rect x="20" y="330" width="456" height="76" rx="8" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.5"/>
+  <text class="t-md" x="40" y="356" fill="#1F4E79">Why you want a wide top</text>
+  <text class="t" x="40" y="380" fill="#1F4E79">Management's own phrase is <tspan font-style="italic">"many more shots on goal"</tspan>. You cannot</text>
+  <text class="t" x="40" y="398" fill="#1F4E79">pick the winner, so you take as many early programmes as you can staff.</text>
+
+  <rect x="492" y="330" width="448" height="76" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.5"/>
+  <text class="t-md" x="512" y="356" fill="#a2650a">And why the top costs money</text>
+  <text class="t" x="512" y="380" fill="#a2650a">Early work is small, slow and scientist-heavy. It is the cost of being</text>
+  <text class="t" x="512" y="398" fill="#a2650a">present when the one that works needs a manufacturer.</text>
+</svg>
+<figcaption><strong>Failure is the normal case and it is not the supplier's fault — which is exactly why early entry is worth paying for.</strong> A CRDMO that only does commercial manufacturing has to win each molecule in competition, late, on price. One that entered at discovery is already embedded when the molecule graduates. <span class="src">Programme counts (100+ early stage, 10 Phase III, 14 commercial, 4 commercialised in FY26) from the Q1FY27 deck and the FY26 disclosure; "many more shots on goal" from the Q1FY27 call.</span></figcaption>
+</figure>
+
+<h2 id="s4"><span class="n">4.</span> Chemistry and biology — the two lanes most peers pick between</h2>
+
+<p>There are two fundamentally different ways to make a drug substance. You can <strong>synthesise</strong> it — build the molecule step by step in a reactor from simpler chemicals. Or you can <strong>grow</strong> it — put an engineered organism in a fermenter and let biology assemble it. These need different plants, different scientists and different regulatory experience.</p>
+
+<p><strong>Most Indian CRDMOs pick one. Anthem runs both</strong> — 425 kilolitres of custom synthesis and 142 KL of fermentation — which is what lets it accept the molecule classes the industry is moving toward.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 400" role="img" aria-label="Two capability lanes: custom synthesis at 425 kilolitres for small molecules, and fermentation at 142 kilolitres for biological products, with the platforms each unlocks.">
+  <rect x="20" y="30" width="450" height="250" rx="9" fill="#eaf2fb" stroke="#2E75B6" stroke-width="2"/>
+  <text class="t-lg" x="42" y="62" fill="#1F4E79">CHEMISTRY — build it</text>
+  <text class="t-md" x="42" y="92" fill="#1F4E79">425 KL custom synthesis</text>
+  <text class="t" x="42" y="120">Reactors. The molecule is assembled step by step</text>
+  <text class="t" x="42" y="138">from simpler chemicals, each step purified.</text>
+  <text class="t-md" x="42" y="170">What it makes</text>
+  <text class="t" x="42" y="194">Traditional small-molecule APIs — most drugs</text>
+  <text class="t" x="42" y="212">you have ever swallowed as a tablet.</text>
+  <text class="t-sm t-mut" x="42" y="244">Anthem's tools here include <tspan font-style="italic">flow chemistry</tspan> — running a reaction</text>
+  <text class="t-sm t-mut" x="42" y="262">continuously rather than in batches, to cut cost and improve control.</text>
+
+  <rect x="490" y="30" width="450" height="250" rx="9" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="2"/>
+  <text class="t-lg" x="512" y="62" fill="#1a6f4a">BIOLOGY — grow it</text>
+  <text class="t-md" x="512" y="92" fill="#1a6f4a">142 KL fermentation</text>
+  <text class="t" x="512" y="120">Fermenters. An engineered organism is fed and</text>
+  <text class="t" x="512" y="138">kept alive while it produces the molecule.</text>
+  <text class="t-md" x="512" y="170">What it makes</text>
+  <text class="t" x="512" y="194">Enzymes, peptides, antibody-drug conjugates,</text>
+  <text class="t" x="512" y="212">oligonucleotides, RNAi, lipids, probiotics.</text>
+  <text class="t-sm t-mut" x="512" y="244">Anthem also uses <tspan font-style="italic">biocatalysis</tspan> — enzymes as tools inside a chemical</text>
+  <text class="t-sm t-mut" x="512" y="262">route, which is where the two lanes actually meet.</text>
+
+  <rect x="20" y="298" width="920" height="88" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.5"/>
+  <text class="t-md" x="40" y="324" fill="#a2650a">Why running both is the strategic point rather than a boast</text>
+  <text class="t" x="40" y="350" fill="#a2650a">The molecules the industry is moving toward — peptides, ADCs, oligonucleotides — <tspan font-weight="700">need capability from both lanes.</tspan> A pure-chemistry house cannot</text>
+  <text class="t" x="40" y="370" fill="#a2650a">quote for them at all, and a pure-biology house cannot finish them. Anthem is among the few Indian companies able to take both NCE and NBE programmes.</text>
+</svg>
+<figcaption><strong>The capability mix decides which molecules you are even allowed to bid for.</strong> As the industry's pipeline shifts from simple small molecules toward peptides, conjugates and nucleic acids, the set of suppliers qualified to make them narrows — and that narrowing is the structural argument for this business. <span class="src">Capacity figures (425 KL, 142 KL) from the Q1FY27 deck; the platform list (RNAi, ADCs, peptides, lipids, oligonucleotides) from the company's business description; flow chemistry and biocatalysis from the profile's §3, drawn from management commentary. The chemistry-versus-biology distinction is standard pharmaceutical practice.</span></figcaption>
+</figure>
+
+<h2 id="s5"><span class="n">5.</span> Why the customer cannot leave</h2>
+
+<p>This is the mechanism that makes a commercial CRDMO contract an annuity rather than a purchase order — and it is regulatory, not commercial.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 390" role="img" aria-label="The manufacturing site is named in the drug's regulatory filing, so changing supplier requires revalidation, refiling and reinspection, which is why customers do not move for a small price difference.">
+  <defs>
+    <marker id="a5a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+    <marker id="a5r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b3261e"/>
+    </marker>
+  </defs>
+
+  <rect x="20" y="40" width="240" height="80" rx="8" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.8"/>
+  <text class="t-md" x="140" y="70" text-anchor="middle" fill="#1F4E79">The drug's filing</text>
+  <text class="t-sm" x="140" y="90" text-anchor="middle" fill="#1F4E79">submitted to the FDA, EMA</text>
+  <text class="t-sm" x="140" y="106" text-anchor="middle" fill="#1F4E79">or other regulator</text>
+
+  <path d="M264,80 H340" stroke="currentColor" stroke-width="1.8" marker-end="url(#a5a)"/>
+  <text class="t-sm t-mut" x="302" y="70" text-anchor="middle">names</text>
+
+  <rect x="344" y="40" width="260" height="80" rx="8" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="2"/>
+  <text class="t-md" x="474" y="70" text-anchor="middle" fill="#1a6f4a">This site, this process</text>
+  <text class="t-sm" x="474" y="90" text-anchor="middle" fill="#1a6f4a">the specific plant, the specific</text>
+  <text class="t-sm" x="474" y="106" text-anchor="middle" fill="#1a6f4a">route, the specific controls</text>
+
+  <path d="M608,80 H684" stroke="currentColor" stroke-width="1.8" marker-end="url(#a5a)"/>
+  <rect x="688" y="40" width="252" height="80" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1.4"/>
+  <text class="t-md" x="814" y="70" text-anchor="middle">Approval is granted</text>
+  <text class="t-sm t-mut" x="814" y="90" text-anchor="middle">for the drug <tspan font-style="italic">as made there</tspan>,</text>
+  <text class="t-sm t-mut" x="814" y="106" text-anchor="middle">not for the drug in general</text>
+
+  <text class="t-md" x="20" y="166" fill="#b3261e">So what does it cost to switch supplier?</text>
+
+  <rect x="20" y="182" width="212" height="86" rx="8" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.5"/>
+  <text class="t-md" x="126" y="208" text-anchor="middle" fill="#b3261e">Re-validate</text>
+  <text class="t-sm" x="126" y="230" text-anchor="middle" fill="#b3261e">prove the new site makes</text>
+  <text class="t-sm" x="126" y="246" text-anchor="middle" fill="#b3261e">an identical substance</text>
+
+  <path d="M236,225 H262" stroke="#b3261e" stroke-width="1.6" marker-end="url(#a5r)"/>
+  <rect x="266" y="182" width="212" height="86" rx="8" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.5"/>
+  <text class="t-md" x="372" y="208" text-anchor="middle" fill="#b3261e">Re-file</text>
+  <text class="t-sm" x="372" y="230" text-anchor="middle" fill="#b3261e">amend the submission in</text>
+  <text class="t-sm" x="372" y="246" text-anchor="middle" fill="#b3261e">every market it sells in</text>
+
+  <path d="M482,225 H508" stroke="#b3261e" stroke-width="1.6" marker-end="url(#a5r)"/>
+  <rect x="512" y="182" width="212" height="86" rx="8" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.5"/>
+  <text class="t-md" x="618" y="208" text-anchor="middle" fill="#b3261e">Re-inspect</text>
+  <text class="t-sm" x="618" y="230" text-anchor="middle" fill="#b3261e">often a fresh regulatory</text>
+  <text class="t-sm" x="618" y="246" text-anchor="middle" fill="#b3261e">inspection of the new plant</text>
+
+  <path d="M728,225 H754" stroke="#b3261e" stroke-width="1.6" marker-end="url(#a5r)"/>
+  <rect x="758" y="182" width="182" height="86" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.6"/>
+  <text class="t-md" x="849" y="212" text-anchor="middle" fill="#a2650a">Years, and risk</text>
+  <text class="t-sm" x="849" y="234" text-anchor="middle" fill="#a2650a">to an approved,</text>
+  <text class="t-sm" x="849" y="250" text-anchor="middle" fill="#a2650a">revenue-earning drug</text>
+
+  <rect x="20" y="288" width="920" height="88" rx="8" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.5"/>
+  <text class="t-md" x="40" y="314" fill="#1F4E79">The consequence, stated plainly</text>
+  <text class="t" x="40" y="340" fill="#1F4E79"><tspan font-weight="700">Customers do not move a commercial molecule for a 5% price cut.</tspan> The saving is trivial against the cost and risk of re-qualifying a site for a drug that is</text>
+  <text class="t" x="40" y="360" fill="#1F4E79">already selling. That is why the 14 commercial molecules matter far more than their current revenue — each one is a position that is very hard to dislodge.</text>
+</svg>
+<figcaption><strong>The switching cost is written into a regulatory document, which is a far harder lock than a contract.</strong> It is also why the early-stage work in §3 is worth doing at low margin: winning the molecule at discovery is how you end up named in the filing at approval. <span class="src">The regulatory switching-cost mechanism is from the profile's §2, force 4, drawn from management commentary; the commercial and late-stage molecule counts from the Q1FY27 deck. The description of validation, filing amendment and inspection is standard pharmaceutical regulatory practice.</span></figcaption>
+</figure>
+
+<h2 id="s6"><span class="n">6.</span> Why the quarter is not a control variable</h2>
+
+<p>A CRDMO ships when the customer says ship. Batches are large, campaigns are scheduled months ahead, and a delivery that slips from the last week of March into the first week of April moves a material sum between two quarters without anything changing in the business.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 412" role="img" aria-label="Quarterly revenue from June 2024 to June 2026 showing large swings including a 15 percent decline in December 2025, a 27 percent rise in March 2026 and a 23 percent decline in June 2026.">
+  <line x1="70" y1="264" x2="940" y2="264" stroke="currentColor" stroke-width="1.2"/>
+  <line x1="70" y1="150" x2="940" y2="150" stroke="currentColor" stroke-width="1" opacity=".18"/>
+  <text class="t-sm t-mut" x="62" y="154" text-anchor="end">₹500cr</text>
+
+  <rect x="86"  y="187" width="72" height="77" rx="4" fill="#9fbfda"/><rect x="86"  y="256" width="72" height="8" fill="#9fbfda"/>
+  <rect x="182" y="144" width="72" height="120" rx="4" fill="#9fbfda"/><rect x="182" y="256" width="72" height="8" fill="#9fbfda"/>
+  <rect x="278" y="150" width="72" height="114" rx="4" fill="#9fbfda"/><rect x="278" y="256" width="72" height="8" fill="#9fbfda"/>
+  <rect x="374" y="154" width="72" height="110" rx="4" fill="#9fbfda"/><rect x="374" y="256" width="72" height="8" fill="#9fbfda"/>
+  <rect x="470" y="141" width="72" height="123" rx="4" fill="#2E75B6"/><rect x="470" y="256" width="72" height="8" fill="#2E75B6"/>
+  <rect x="566" y="139" width="72" height="125" rx="4" fill="#2E75B6"/><rect x="566" y="256" width="72" height="8" fill="#2E75B6"/>
+  <rect x="662" y="168" width="72" height="96" rx="4" fill="#b3261e"/><rect x="662" y="256" width="72" height="8" fill="#b3261e"/>
+  <rect x="758" y="125" width="72" height="139" rx="4" fill="#1a6f4a"/><rect x="758" y="256" width="72" height="8" fill="#1a6f4a"/>
+  <rect x="854" y="169" width="72" height="95" rx="4" fill="#b3261e"/><rect x="854" y="256" width="72" height="8" fill="#b3261e"/>
+
+  <text class="t-sm t-mut" x="122" y="284" text-anchor="middle">Jun-24</text>
+  <text class="t-sm t-mut" x="218" y="284" text-anchor="middle">Sep-24</text>
+  <text class="t-sm t-mut" x="314" y="284" text-anchor="middle">Dec-24</text>
+  <text class="t-sm t-mut" x="410" y="284" text-anchor="middle">Mar-25</text>
+  <text class="t-sm t-mut" x="506" y="284" text-anchor="middle">Jun-25</text>
+  <text class="t-sm t-mut" x="602" y="284" text-anchor="middle">Sep-25</text>
+  <text class="t-sm" x="698" y="284" text-anchor="middle" fill="#b3261e">Dec-25</text>
+  <text class="t-sm" x="794" y="284" text-anchor="middle" fill="#1a6f4a">Mar-26</text>
+  <text class="t-sm" x="890" y="284" text-anchor="middle" fill="#b3261e">Jun-26</text>
+
+  <text class="t-sm t-mut" x="122" y="179" text-anchor="middle">339</text>
+  <text class="t-sm t-mut" x="218" y="136" text-anchor="middle">525</text>
+  <text class="t-sm t-mut" x="314" y="142" text-anchor="middle">498</text>
+  <text class="t-sm t-mut" x="410" y="146" text-anchor="middle">483</text>
+  <text class="t-sm" x="506" y="133" text-anchor="middle" fill="#1F4E79">540</text>
+  <text class="t-sm" x="602" y="131" text-anchor="middle" fill="#1F4E79">550</text>
+  <text class="t-md" x="698" y="158" text-anchor="middle" fill="#b3261e">423</text>
+  <text class="t-md" x="794" y="115" text-anchor="middle" fill="#1a6f4a">611</text>
+  <text class="t-md" x="890" y="159" text-anchor="middle" fill="#b3261e">418</text>
+
+  <text class="t-sm" x="698" y="306" text-anchor="middle" fill="#b3261e">−15% YoY</text>
+  <text class="t-sm" x="794" y="306" text-anchor="middle" fill="#1a6f4a">+27% YoY</text>
+  <text class="t-sm" x="890" y="306" text-anchor="middle" fill="#b3261e">−23% YoY</text>
+  <text class="t-md" x="70" y="40">Quarterly revenue, ₹ crore</text>
+
+  <rect x="20" y="326" width="456" height="76" rx="8" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.5"/>
+  <text class="t-md" x="40" y="350" fill="#1F4E79">Management's framing, which is candid</text>
+  <text class="t-sm" x="40" y="372" fill="#1F4E79"><tspan font-style="italic">"there'll be soft quarters, and there'll be some very, very nice</tspan></text>
+  <text class="t-sm" x="40" y="386" fill="#1F4E79"><tspan font-style="italic">quarters… it depends on when our customers want delivery"</tspan></text>
+
+  <rect x="492" y="326" width="448" height="76" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.5"/>
+  <text class="t-md" x="512" y="350" fill="#a2650a">What follows for a reader</text>
+  <text class="t-sm" x="512" y="372" fill="#a2650a">Judge this business on <tspan font-weight="700">full years and on the funnel</tspan>, not on a quarter.</text>
+  <text class="t-sm" x="512" y="386" fill="#a2650a">A single quarter carries almost no information about demand.</text>
+</svg>
+<figcaption><strong>Two of the last three quarters shrank year on year, and that is compatible with nothing being wrong.</strong> It is also compatible with something being wrong — the point is that a quarter cannot distinguish between the two, which is why the disclosure that matters here is the programme funnel rather than the print. <span class="src">Quarterly revenue series from the profile's §4, drawn from the company's reported results; the delivery-timing quote from the Q1FY27 call, and the Chairman's "timing shifts in deliveries to key customers" from the Q1FY27 deck.</span></figcaption>
+</figure>
+
+<h2 id="s7"><span class="n">7.</span> Where a 40% margin comes from</h2>
+
+<p>Contract manufacturing is not supposed to earn 40% EBITDA margins. Most of the sector lives in the twenties. Anthem's answer has a name and a number attached to it: <strong>material margin</strong> — what is left of revenue after the physical inputs — and it has risen three years running.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 380" role="img" aria-label="Material margin rising from 57.8 percent in FY24 to 59.7 percent in FY25 to 61.8 percent in FY26, driven by backward integration including discontinuing Chinese intermediate procurement.">
+  <text class="t-md" x="20" y="34">Material margin — revenue left after physical inputs</text>
+
+  <text class="t-md" x="150" y="82" text-anchor="end">FY24</text>
+  <rect x="160" y="60" width="578" height="30" rx="4" fill="#cfdcea"/>
+  <text class="t-md" x="752" y="82">57.8%</text>
+
+  <text class="t-md" x="150" y="130" text-anchor="end">FY25</text>
+  <rect x="160" y="108" width="597" height="30" rx="4" fill="#8fb3d2"/>
+  <text class="t-md" x="771" y="130">59.7%</text>
+
+  <text class="t-md" x="150" y="178" text-anchor="end">FY26</text>
+  <rect x="160" y="156" width="618" height="30" rx="4" fill="#2E75B6"/>
+  <text class="t-md" x="792" y="178" fill="#1F4E79">61.8%</text>
+
+  <text class="t-sm t-mut" x="160" y="210">Three consecutive years of improvement — a mechanism, not a mix accident</text>
+
+  <rect x="20" y="234" width="456" height="130" rx="8" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.6"/>
+  <text class="t-md" x="40" y="260" fill="#1a6f4a">The mechanism: make the input yourself</text>
+  <text class="t" x="40" y="286" fill="#1a6f4a">For one key customer product, Anthem <tspan font-weight="700">discontinued Chinese</tspan></text>
+  <text class="t" x="40" y="306" fill="#1a6f4a"><tspan font-weight="700">intermediate procurement entirely</tspan> and now makes the intermediate</text>
+  <text class="t" x="40" y="326" fill="#1a6f4a">in-house. The margin that a supplier used to take is now Anthem's.</text>
+  <text class="t-sm" x="40" y="352" fill="#1a6f4a">This is "China+1" appearing in a P&amp;L rather than on a strategy slide.</text>
+
+  <rect x="492" y="234" width="448" height="130" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="512" y="260">The other two levers</text>
+  <text class="t" x="512" y="286">· <tspan font-weight="700">Yield</tspan> — getting more product from the same input, which is</text>
+  <text class="t" x="534" y="304">what process chemistry research is actually for</text>
+  <text class="t" x="512" y="328">· <tspan font-weight="700">Technology as a sales argument</tspan> — flow chemistry and biocatalysis</text>
+  <text class="t" x="534" y="346">cut the <tspan font-style="italic">customer's</tspan> cost while holding Anthem's margin</text>
+</svg>
+<figcaption><strong>A rising material margin is the cleanest evidence a contract manufacturer can offer that its advantage is real.</strong> It cannot be explained by pricing power over customers, and it is hard to fake: either fewer rupees of input are going into each rupee of output, or they are not. The CEO's framing of the technology lever — <em>"you're not just a pair of hands, you're actually contributing to innovation"</em> — is the commercial version of the same point. <span class="src">Material margin series (57.8% → 59.7% → 61.8%) and the discontinued Chinese intermediate procurement from the profile's §2 and §3, drawn from FY26 disclosure and management commentary; the quote from the profile's §3.</span></figcaption>
+</figure>
+
+<h2 id="s8"><span class="n">8.</span> The second business — and why it exists</h2>
+
+<p>Alongside the CRDMO sits <strong>Specialty Ingredients</strong>: probiotics, enzymes and nutraceutical actives, sold largely B2B into India. It is lower-margin and much less glamorous — and it is there for a structural reason that §6 explains.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 330" role="img" aria-label="CRDMO is 81.5 percent of Q1FY27 revenue at 3,408 million rupees and specialty ingredients 18.5 percent at 774 million, with contrasting order rhythms.">
+  <text class="t-md" x="20" y="32">Q1FY27 revenue split, ₹ million</text>
+  <rect x="20" y="46" width="752" height="40" rx="4" fill="#2E75B6"/>
+  <rect x="776" y="46" width="164" height="40" rx="4" fill="#e0c489"/>
+  <text class="t-md" x="396" y="72" text-anchor="middle" fill="#ffffff">CRDMO — 3,408 (81.5%)</text>
+  <text class="t-md" x="858" y="72" text-anchor="middle" fill="#16202b">774 (18.5%)</text>
+
+  <rect x="20" y="110" width="456" height="140" rx="8" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.6"/>
+  <text class="t-lg" x="42" y="140" fill="#1F4E79">CRDMO</text>
+  <text class="t" x="42" y="168" fill="#1F4E79">· Project cycles measured in <tspan font-weight="700">months</tspan></text>
+  <text class="t" x="42" y="192" fill="#1F4E79">· Revenue lands when the customer takes delivery</text>
+  <text class="t" x="42" y="216" fill="#1F4E79">· High margin, high switching cost, lumpy</text>
+  <text class="t-sm" x="42" y="240" fill="#1F4E79">Everything in §1 to §7 of this page describes this business.</text>
+
+  <rect x="492" y="110" width="448" height="140" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.6"/>
+  <text class="t-lg" x="514" y="140" fill="#a2650a">Specialty Ingredients</text>
+  <text class="t" x="514" y="168" fill="#a2650a">· Probiotics, enzymes, nutraceutical actives</text>
+  <text class="t" x="514" y="192" fill="#a2650a">· Turns over <tspan font-weight="700">monthly</tspan>, largely B2B into India</text>
+  <text class="t" x="514" y="216" fill="#a2650a">· Lower margin, lower drama, <tspan font-weight="700">steadier</tspan></text>
+  <text class="t-sm" x="514" y="240" fill="#a2650a">Management's own word for it is ballast.</text>
+
+  <rect x="20" y="266" width="920" height="52" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t" x="40" y="292">The two halves solve different problems: <tspan font-weight="700">one earns the margin, the other smooths the month.</tspan> A business whose main line ships on the customer's</text>
+  <text class="t" x="40" y="310">schedule benefits from a second line that ships on its own — which is the industrial logic for keeping a lower-margin segment inside a high-margin company.</text>
+</svg>
+<figcaption><strong>A lower-margin segment can be the right thing to own when the high-margin one cannot control its own timing.</strong> That is the honest reading of Specialty Ingredients — not a diversification story, but a cadence one. <span class="src">Q1FY27 segment revenues (CRDMO ₹3,408mn, Specialty Ingredients ₹774mn) from the Q1FY27 deck; the FY26 segment share (16.6%) and the "ballast" characterisation from the profile's §1.</span></figcaption>
+</figure>
+
+<h2 id="s9"><span class="n">9.</span> Who the customers are, and where they are</h2>
+
+<p>Two facts sit together and pull in opposite directions: the customer base is <strong>highly concentrated</strong>, and it is <strong>weighted to Europe rather than America</strong>.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 400" role="img" aria-label="Three customers are 56.71 percent of FY26 revenue, down from 61.18 percent, and revenue is weighted to Europe at 53.9 percent against North America at 27.3 percent.">
+  <text class="t-md" x="20" y="32">Customer concentration, FY26</text>
+  <rect x="20" y="46" width="196" height="34" rx="4" fill="#2E75B6"/>
+  <rect x="220" y="46" width="194" height="34" rx="4" fill="#5b93c7"/>
+  <rect x="418" y="46" width="137" height="34" rx="4" fill="#8fb3d2"/>
+  <rect x="559" y="46" width="381" height="34" rx="4" fill="#dbe4ec"/>
+  <text class="t-sm" x="118" y="68" text-anchor="middle" fill="#ffffff">A · 21.08%</text>
+  <text class="t-sm" x="317" y="68" text-anchor="middle" fill="#ffffff">B · 20.90%</text>
+  <text class="t-sm" x="486" y="68" text-anchor="middle" fill="#16202b">C · 14.74%</text>
+  <text class="t-sm t-mut" x="749" y="68" text-anchor="middle">everyone else — 43.29%</text>
+  <text class="t-sm" x="20" y="100" fill="#b3261e"><tspan font-weight="700">Top three = 56.71% of revenue.</tspan> Down from 61.18% in FY25 — the right direction, and still the dominant fact about the business.</text>
+
+  <text class="t-md" x="20" y="146">Geography, FY26</text>
+  <rect x="20" y="160" width="497" height="34" rx="4" fill="#2E75B6"/>
+  <rect x="521" y="160" width="252" height="34" rx="4" fill="#8fb3d2"/>
+  <rect x="777" y="160" width="137" height="34" rx="4" fill="#cfdcea"/>
+  <rect x="918" y="160" width="22" height="34" rx="3" fill="#e6ecf2"/>
+  <text class="t-sm" x="268" y="182" text-anchor="middle" fill="#ffffff">Europe — 53.9%</text>
+  <text class="t-sm" x="647" y="182" text-anchor="middle" fill="#16202b">North America — 27.3%</text>
+  <text class="t-sm" x="845" y="182" text-anchor="middle" fill="#16202b">India — 14.9%</text>
+  <text class="t-sm t-mut" x="20" y="214">Exports are 85.1% of revenue. Rest of Asia is the remaining 3.9%.</text>
+
+  <rect x="20" y="238" width="456" height="146" rx="8" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.6"/>
+  <text class="t-md" x="40" y="264" fill="#b3261e">Why concentration is structural here</text>
+  <text class="t" x="40" y="290" fill="#b3261e">A commercial molecule is a large, long contract. Winning three of</text>
+  <text class="t" x="40" y="310" fill="#b3261e">them makes you concentrated <tspan font-style="italic">by construction</tspan> — the same</text>
+  <text class="t" x="40" y="330" fill="#b3261e">regulatory lock that makes revenue durable makes it lumpy.</text>
+  <text class="t-sm" x="40" y="356" fill="#b3261e">Diversifying means winning more molecules, which takes years —</text>
+  <text class="t-sm" x="40" y="372" fill="#b3261e">it is not a sales-effort problem.</text>
+
+  <rect x="492" y="238" width="448" height="146" rx="8" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.6"/>
+  <text class="t-md" x="512" y="264" fill="#1a6f4a">Why the Europe weighting is worth noticing</text>
+  <text class="t" x="512" y="290" fill="#1a6f4a">In a period when US tariff exposure repriced a great many Indian</text>
+  <text class="t" x="512" y="310" fill="#1a6f4a">manufacturers, <tspan font-weight="700">Anthem's largest market is not America.</tspan></text>
+  <text class="t-sm" x="512" y="338" fill="#1a6f4a">And a customer being acquired by big pharma is framed by management</text>
+  <text class="t-sm" x="512" y="354" fill="#1a6f4a">as a way in rather than a risk — one large biotech customer was acquired</text>
+  <text class="t-sm" x="512" y="370" fill="#1a6f4a">in mid-2026, and two new big-pharma customers were onboarded in FY26.</text>
+</svg>
+<figcaption><strong>Concentration and durability are the same fact seen from two sides.</strong> You cannot have contracts that are extremely hard to lose without also having few of them — and the only cure, winning more molecules, runs at the speed of the funnel in §3. <span class="src">Customer shares, the FY25 comparison and the geographic split from the FY26 disclosure as recorded in the profile's §4; the customer-acquisition dynamic from the Q1FY27 call.</span></figcaption>
+</figure>
+
+<h2 id="s10"><span class="n">10.</span> The decay clock the CEO named himself</h2>
+
+<p>The most useful sentence about this industry's risk was said by Anthem's own Chairman and MD, unprompted, about his own moat.</p>
+
+<blockquote style="border-left:4px solid #b3261e; background:#fdeceb; margin:16px 0; padding:14px 18px; font-size:14px">
+"What you might consider specialty today will become fine chemicals much faster. <strong>A fine chemical will go towards commoditization much faster than before.</strong>"
+<div class="src" style="margin-top:6px">— Ajay Bhardwaj, Chairman, MD &amp; CEO</div>
+</blockquote>
+
+<figure class="dg">
+<svg viewBox="0 0 960 320" role="img" aria-label="A molecule's economics decay over time from specialty to fine chemical to commodity, so the funnel must keep refilling with new specialty work.">
+  <defs>
+    <linearGradient id="decay" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2E75B6"/><stop offset="0.5" stop-color="#8fb3d2"/><stop offset="1" stop-color="#e6b0aa"/>
+    </linearGradient>
+    <marker id="a10" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a6f4a"/>
+    </marker>
+  </defs>
+
+  <rect x="60" y="60" width="840" height="40" rx="5" fill="url(#decay)"/>
+  <text class="t-md" x="180" y="86" text-anchor="middle" fill="#ffffff">SPECIALTY</text>
+  <text class="t-md" x="480" y="86" text-anchor="middle" fill="#16202b">FINE CHEMICAL</text>
+  <text class="t-md" x="800" y="86" text-anchor="middle" fill="#16202b">COMMODITY</text>
+
+  <text class="t-sm t-mut" x="180" y="124" text-anchor="middle">few can make it · price set by capability</text>
+  <text class="t-sm t-mut" x="480" y="124" text-anchor="middle">several can make it · price negotiated</text>
+  <text class="t-sm t-mut" x="800" y="124" text-anchor="middle">many can make it · price set by cost</text>
+
+  <text class="t-sm" x="60" y="152" fill="#b3261e">time, and the CEO's point is that this arrow now moves faster than it used to →</text>
+
+  <path d="M820,180 C700,214 300,214 180,186" fill="none" stroke="#1a6f4a" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#a10)"/>
+  <text class="t-md" x="500" y="238" text-anchor="middle" fill="#1a6f4a">so the funnel has to keep refilling the left-hand end</text>
+
+  <rect x="60" y="256" width="840" height="48" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.4"/>
+  <text class="t" x="80" y="280" fill="#a2650a">This is why the <tspan font-weight="700">100+ early-stage programmes</tspan> and the <tspan font-weight="700">chemistry-plus-biology capability</tspan> are not optional extras — they are what replaces margin</text>
+  <text class="t" x="80" y="298" fill="#a2650a">as today's specialty work slides rightward. A CRDMO that stops winning new hard molecules becomes a fine-chemicals maker within a few years.</text>
+</svg>
+<figcaption><strong>Every molecule's economics decay; the business is a race between that decay and the rate at which new hard work is won.</strong> Reading it this way makes the funnel (§3) and the capability mix (§4) the two things worth tracking, rather than any single quarter's margin. <span class="src">The quote is management's own, recorded in the profile's §3. <span class="tag inf">MY INFERENCE</span> — the decay-versus-refill framing of the diagram is mine.</span></figcaption>
+</figure>
+
+<h2 id="s11"><span class="n">11.</span> Reading the industry through the numbers</h2>
+
+<div class="tw">
+<table>
+<thead><tr><th style="width:26%">Industry mechanism</th><th style="width:24%">Where it shows up</th><th style="width:30%">Latest reading</th><th style="width:20%">Source</th></tr></thead>
+<tbody>
+<tr><td>The funnel is the business</td><td>Programme counts by stage</td><td><strong>100+ early stage · 10 Phase III · 14 commercial</strong>; 4 commercialised in FY26</td><td>Q1FY27 deck</td></tr>
+<tr><td>Both lanes, not one</td><td>Installed capacity</td><td><strong>425 KL custom synthesis + 142 KL fermentation</strong></td><td>Q1FY27 deck</td></tr>
+<tr><td>Capability is people</td><td>Headcount mix</td><td><strong>2,282 employees, 1,117 scientific, 32 PhDs</strong></td><td>FY26 disclosure</td></tr>
+<tr><td>The customer cannot leave</td><td>Commercial molecule count</td><td><strong>14 molecules</strong> named in customers' filings at Anthem's sites</td><td>Q1FY27 deck</td></tr>
+<tr><td>Delivery timing, not demand, sets the quarter</td><td>Quarterly revenue</td><td><strong>−15%, +27%, −23%</strong> across the last three quarters</td><td>Reported results</td></tr>
+<tr><td>Backward integration drives margin</td><td>Material margin</td><td><strong>57.8% → 59.7% → 61.8%</strong> across FY24–FY26</td><td>FY26 disclosure</td></tr>
+<tr><td>…which shows up in EBITDA</td><td>Margin</td><td><strong>39.6% in Q1FY27</strong>, against a sector mostly in the twenties</td><td>Q1FY27 deck</td></tr>
+<tr><td>A second line for cadence</td><td>Segment split</td><td>CRDMO <strong>81.5%</strong> / Specialty Ingredients <strong>18.5%</strong> in Q1FY27</td><td>Q1FY27 deck</td></tr>
+<tr><td>Durability implies concentration</td><td>Customer share</td><td>Top three <strong>56.71%</strong>, improved from 61.18%</td><td>FY26 disclosure</td></tr>
+<tr><td>Not a US-exposure story</td><td>Geography</td><td><strong>Europe 53.9%</strong>, North America 27.3%, India 14.9%; exports 85.1%</td><td>FY26 disclosure</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2 id="s12"><span class="n">12.</span> What is not disclosed</h2>
+
+<ul>
+<li><strong>The order book in rupees — the biggest gap.</strong> Only a percentage is given (<em>"60% of the order book for the full year"</em>), with <strong>no base, no ageing and no comparative</strong>. It cannot be tracked from one quarter to the next, which matters enormously in a business whose quarterly revenue is set by delivery timing.</li>
+<li><strong>Customer names.</strong> The three customers that are 56.71% of revenue are identified only as A, B and C — so their end-market, therapeutic area and patent runway are all unknown.</li>
+<li><strong>Revenue by molecule or by stage.</strong> The funnel is given as counts, not as rupees, so there is no way to see how much revenue rests on the 14 commercial molecules versus development work.</li>
+<li><strong>Capacity utilisation.</strong> 425 KL and 142 KL are installed figures; how full they are is not published.</li>
+<li><strong>The split between the "R", the "D" and the "M".</strong> The three activities have very different economics and are reported as one CRDMO line.</li>
+<li><strong>Pricing structure</strong> — whether development work is billed at cost-plus, FTE rates or milestones is not described, so the margin improvement in §7 cannot be attributed between pricing, yield and integration.</li>
+</ul>
+
+<h2 id="s13"><span class="n">13.</span> Glossary</h2>
+
+<dl class="glos">
+<dt>CRDMO</dt><dd>Contract Research, Development and Manufacturing Organisation — a company that takes someone else's molecule from discovery through to commercial supply.</dd>
+<dt>CDMO</dt><dd>The same without the research: development and manufacturing only. The missing "R" is the distinction Anthem trades on.</dd>
+<dt>API</dt><dd>Active Pharmaceutical Ingredient — the substance in a drug that actually does something. What a CRDMO makes.</dd>
+<dt>NCE / NBE</dt><dd>New Chemical Entity (a synthesised small molecule) and New Biological Entity (produced biologically). Anthem is among the few Indian firms taking both.</dd>
+<dt>Custom synthesis</dt><dd>Building a molecule step by step in reactors. Measured here in kilolitres of reactor volume.</dd>
+<dt>Fermentation</dt><dd>Growing a molecule using an engineered organism in a fermenter. A different plant and a different science from synthesis.</dd>
+<dt>Biocatalysis</dt><dd>Using enzymes as tools inside a chemical route — where the chemistry and biology lanes meet.</dd>
+<dt>Flow chemistry</dt><dd>Running a reaction continuously rather than in batches. Better control, lower cost, smaller footprint.</dd>
+<dt>ADC</dt><dd>Antibody-Drug Conjugate — a targeting antibody chemically linked to a potent drug. Needs both chemistry and biology.</dd>
+<dt>Oligonucleotide / RNAi</dt><dd>Short nucleic-acid drugs that act on genetic material rather than on proteins. A fast-growing and demanding class.</dd>
+<dt>Peptide</dt><dd>A short chain of amino acids — the class behind much recent metabolic-drug growth.</dd>
+<dt>Material margin</dt><dd>Revenue less the cost of physical inputs. The cleanest measure of whether backward integration and yield work are paying off.</dd>
+<dt>Phase III</dt><dd>The last and largest stage of clinical trials before approval is sought. A molecule here is close to becoming an annuity — or to failing expensively.</dd>
+<dt>Commercial molecule</dt><dd>An approved drug in ongoing production. Anthem has 14, each named in a customer's regulatory filing.</dd>
+</dl>
+
+<hr>
+
+<h3>Sources</h3>
+<p class="src"><strong>Transcripts (5 official — the complete set since listing):</strong> Q1FY27 (22-Jul-2026) · Q4FY26/FY26 (May-2026) · Q3FY26 (Feb-2026) · Q2FY26 (Nov-2025) · Q1FY26 (Aug-2025, the company's first earnings call). <strong>Decks (6):</strong> the same five periods plus a revised Q1FY27 deck. Held in <code class="src">Fetched Concalls/ANTHEM/</code>.<br>
+<strong>⚠️ Revised deck handling:</strong> the Q1FY27 deck was filed twice on 21-Jul-2026 — 16:20 original and 19:09 "revised… supersedes and replaces". The bodies were diffed in full; <strong>the sole change is a column-header date typo</strong> (both period labels stamped a year forward) and <strong>no figure changed</strong>. Only the revised version is quoted here; the superseded copy is retained as evidence, per the standing rule on revised transcripts.<br>
+<strong>Extraction discipline:</strong> every figure is taken from a deck table, a results filing or spoken commentary on a call. <strong>No number on this page is read off a chart in a deck.</strong> The process flow in §2 was laid out with Graphviz; all other figures are hand-authored SVG.<br>
+<strong>Companion document:</strong> <code class="src">Company Profiles/ANTHEM.md</code> carries the financials, the Upside Sharing Arrangement, the Neoanthem capital question, valuation, conviction and risks. This page makes no investment judgement.</p>
+
+</body>
+</html>
