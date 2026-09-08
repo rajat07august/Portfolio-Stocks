@@ -225,6 +225,10 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
 
 #hidden-chip { font-size: 11px; }
 #hidden-chip.has-hidden { background: #fdf0e3; border-color: #e0b483; color: #8a5216; font-weight: 600; }
+#explainer-chip { font-size: 11px; }
+#explainer-chip.on { background: #e8f1f9; border-color: #2E75B6; color: #1F4E79; font-weight: 600; }
+.exp-cell a { text-decoration: none; font-size: 15px; line-height: 1; }
+.exp-cell a:hover { opacity: .65; }
 
 #hidden-panel {
   display: none; background: #fff; border: 1px solid #eaeef2; border-radius: 8px;
@@ -326,6 +330,7 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
   <input id="search-box" type="text" placeholder="Stock or sector..." />
   <button onclick="resetFilters()">Reset</button>
   <button id="hidden-chip" onclick="toggleHiddenPanel()" title="Stocks you have hidden in this browser. Hiding never changes the data or the repo.">🙈 Hidden (0)</button>
+  <button id="explainer-chip" onclick="toggleExplainerFilter()" title="Show only stocks that have an Industry Explainer — a diagram-led primer on how the business actually works. Click again to show all.">📖 Explainers (0)</button>
   <span style="margin-left:auto;font-size:11px;color:#888;">Showing <span id="count">—</span> of <span id="count-total">—</span> stocks</span>
 </div>
 
@@ -352,6 +357,7 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
         <th data-sort="conviction">Conviction</th>
         <th title="Middle East / Hormuz / oil-price / commodity-cyclical exposure. Broad definition — hover any red pill for the per-stock reason grounded in the profile.">⚠ Geopolitical Risk</th>
         <th title="Personal tracker — check off after you manually deep-dive the company. State auto-saves per browser; use 'Copy state → repo' button to sync across devices.">✓ Deep-dived</th>
+        <th data-sort="explainer" title="Industry Explainer available — a diagram-led primer on how the business works. Click the header to sort; click the icon to open. Derived from the EXPLAINERS map, not stored state.">📖</th>
         <th title="Hide this stock from the table and cards in THIS browser only. Data and repo are untouched. Restore from the 'Hidden' button in the toolbar.">🙈</th>
         <th>Thesis</th>
       </tr>
@@ -2066,6 +2072,23 @@ const EXPLAINERS = {
 };
 function getExplainer(id) { return EXPLAINERS[id] || null; }
 
+// Explainer availability is DERIVED from the map above — never a stored flag, never
+// localStorage. One line added to EXPLAINERS lights up the card link, the table column
+// and the toolbar chip at once, with nothing to keep in sync.
+let explainerOnly = false;
+
+function toggleExplainerFilter() {
+  explainerOnly = !explainerOnly;
+  applyFilter();
+}
+
+function renderExplainerChip() {
+  const n = stocks.filter(s => getExplainer(s.id)).length;
+  const chip = document.getElementById('explainer-chip');
+  chip.textContent = `📖 Explainers (${n})`;
+  chip.classList.toggle('on', explainerOnly);
+}
+
 // ---------- CMP History (price trajectory across refresh dates) ----------
 // Each entry: { date: "DD-MMM-YY", cmp: number, source: "..." }
 // New refreshes append to this array. Latest entry should match CMP_DATA above.
@@ -2312,6 +2335,7 @@ function renderSummary(filteredStocks) {
       <td>${getConvictionTag(s.conviction)}</td>
       <td style="text-align:center;">${GEO_EXPOSED[s.id] ? `<span class="tag-geo-exposed" title="${GEO_EXPOSED[s.id].replace(/"/g, '&quot;')}">⚠ Exposed</span>` : ''}</td>
       <td style="text-align:center;"><input type="checkbox" class="dd-check" data-id="${s.id}" ${DEEP_DIVED[s.id] ? 'checked' : ''} title="I have manually deep-dived ${s.name}" style="width:18px;height:18px;cursor:pointer;"></td>
+      <td class="exp-cell" style="text-align:center;">${(() => { const x = getExplainer(s.id); return x ? `<a href="explainers/${x.file}.html" target="_blank" rel="noopener" title="${x.label} — ${s.name}">📖</a>` : ''; })()}</td>
       <td style="text-align:center;"><button class="hide-btn" onclick="hideStock('${s.id}')" title="Hide ${s.name} from this browser's view">✕</button></td>
       <td>${s.thesis}</td>
     </tr>`;
@@ -2435,12 +2459,15 @@ function applyFilter() {
     if (batchVal !== "all" && String(s.batch) !== batchVal) return false;
     if (listingVal !== "all" && s.listing !== listingVal) return false;
     if (convVal !== "all" && s.conviction !== convVal) return false;
+    if (explainerOnly && !getExplainer(s.id)) return false;
     if (search && !(s.name.toLowerCase().includes(search) || s.sector.toLowerCase().includes(search) || s.thesis.toLowerCase().includes(search))) return false;
     return true;
   });
   // sort
   filtered.sort((a, b) => {
-    let av = a[sortKey], bv = b[sortKey];
+    let av, bv;
+    if (sortKey === 'explainer') { av = getExplainer(a.id) ? 0 : 1; bv = getExplainer(b.id) ? 0 : 1; }
+    else { av = a[sortKey]; bv = b[sortKey]; }
     if (typeof av === 'string') { av = av.toLowerCase(); bv = bv.toLowerCase(); }
     if (av < bv) return -1 * sortDir;
     if (av > bv) return 1 * sortDir;
@@ -2456,6 +2483,7 @@ function applyFilter() {
   renderCards(visible);
   buildCharts(filtered);
   renderHiddenUI();
+  renderExplainerChip();
 }
 
 function resetFilters() {
@@ -2463,6 +2491,7 @@ function resetFilters() {
   document.getElementById('filter-listing').value = 'all';
   document.getElementById('filter-conviction').value = 'all';
   document.getElementById('search-box').value = '';
+  explainerOnly = false;
   sortKey = 'num'; sortDir = 1;
   applyFilter();
 }
