@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How the Conversion Model Works — Wheels India Industry Primer</title>
+<meta name="robots" content="noindex,nofollow">
+<style>
+
+
+
+
+:root{
+  --navy:#1F4E79; --blue:#2E75B6; --ink:#16202b; --mut:#5a6a78; --bg:#fafbfc;
+  --card:#ffffff; --line:#e3e8ee; --amber:#a2650a; --amberbg:#fff8e6;
+  --red:#b3261e; --redbg:#fdeceb; --green:#1a6f4a; --greenbg:#ecf7f1;
+  color-scheme: light;
+}
+*{box-sizing:border-box}
+body{
+  max-width:1040px; margin:0 auto; padding:22px 20px 80px;
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+  line-height:1.62; color:var(--ink); background:var(--bg); font-size:15px;
+}
+.nav{display:flex; gap:18px; flex-wrap:wrap; margin-bottom:12px; font-size:13.5px}
+.nav a{color:var(--navy); font-weight:600; text-decoration:none}
+.nav a:hover{text-decoration:underline; color:var(--blue)}
+.topbar{background:linear-gradient(135deg,#1F4E79 0%,#2E75B6 100%); color:#fff; padding:20px 24px; border-radius:10px; margin-bottom:22px}
+.topbar h1{margin:0 0 6px; font-size:25px; line-height:1.25; color:#fff; border:0; padding:0}
+.topbar .sub{font-size:14.5px; opacity:.92}
+.topbar .meta{font-size:12.5px; opacity:.8; margin-top:10px}
+h2{color:var(--navy); font-size:20px; margin:44px 0 6px; border-left:4px solid var(--navy); padding-left:12px}
+h2 .n{color:var(--blue); font-weight:700}
+h3{color:var(--blue); font-size:16px; margin:26px 0 8px}
+p{margin:11px 0}
+ul{margin:10px 0; padding-left:22px} li{margin:6px 0}
+.lede{font-size:15.5px; color:#2c3b49}
+.box{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 18px; margin:18px 0}
+.box.warn{background:var(--amberbg); border-color:#f0dcae}
+.box.red{background:var(--redbg); border-color:#f3cfcb}
+.box.good{background:var(--greenbg); border-color:#c7e4d5}
+.box h4{margin:0 0 6px; font-size:14px; color:var(--navy); text-transform:uppercase; letter-spacing:.04em}
+.src{color:var(--mut); font-size:12.5px}
+code.src{background:transparent; padding:0}
+figure.dg{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px 16px 12px; margin:22px 0}
+figure.dg svg{width:100%; height:auto; display:block; color:#3d4b5c}
+figure.dg figcaption{font-size:13px; color:var(--mut); margin-top:12px; padding-top:10px; border-top:1px dashed var(--line)}
+svg text:not([fill]){fill:currentColor}
+.t-lg{font-size:15px; font-weight:700}
+.t-md{font-size:13.5px; font-weight:700}
+.t{font-size:12.5px}
+.t-sm{font-size:11px}
+.t-mut{opacity:.7}
+.tw{overflow-x:auto; margin:16px 0}
+table{border-collapse:collapse; width:100%; min-width:620px; font-size:13.5px; background:var(--card)}
+th,td{border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top}
+th{background:#eef3f8; color:var(--navy); font-weight:700}
+.toc{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 20px; font-size:14px}
+.toc ol{margin:6px 0; padding-left:22px} .toc li{margin:4px 0}
+.toc a{color:var(--navy); text-decoration:none} .toc a:hover{text-decoration:underline}
+.glos{display:grid; grid-template-columns:150px 1fr; gap:6px 14px; font-size:13.5px}
+.glos dt{font-weight:700; color:var(--navy)} .glos dd{margin:0}
+@media (max-width:640px){ .glos{grid-template-columns:1fr} .glos dt{margin-top:8px} }
+.tag{display:inline-block; font-size:11px; font-weight:700; letter-spacing:.03em; padding:2px 7px; border-radius:20px; vertical-align:middle}
+.tag.fact{background:#e8f0f8; color:var(--navy)}
+.tag.inf{background:var(--amberbg); color:var(--amber); border:1px solid #ecd9a8}
+blockquote{border-left:4px solid #2E75B6; background:#f4f8fc; margin:16px 0; padding:12px 18px; font-size:14px}
+hr{border:0; border-top:1px solid var(--line); margin:38px 0}
+</style>
+</head>
+<body>
+
+<div class="nav">
+  <a href="https://portfolio-stocks-chi.vercel.app/index.html">← Dashboard</a>
+  <a href="https://portfolio-stocks-chi.vercel.app/profile.html?stock=WHEELS">Full profile — WHEELS →</a>
+</div>
+
+<div class="topbar">
+  <h1>How the conversion model actually works</h1>
+  <div class="sub">An industry primer for Wheels India — why half this company's revenue includes the metal and half does not, and why that single fact makes its reported numbers misleading in three separate ways</div>
+  <div class="meta">Built 8-Sep-2026 · Sourced from Wheels India's official transcripts, investor decks and exchange filings on disk · Companion to <strong>Company Profiles/WHEELS.md</strong></div>
+</div>
+
+<p class="lede">This page explains the <strong>industry</strong>, not the investment case. What follows is the mechanism: what a wheel maker does that is not making wheels, what it means when a customer hands you a two-tonne casting and asks you to machine it, why that arrangement makes revenue understate activity and asset turnover look terrible while margins improve — and why the equipment that does the work takes twelve to fifteen months to arrive before it earns anything at all.</p>
+
+<div class="box warn">
+<h4>How to read this</h4>
+<p style="margin:6px 0"><span class="tag fact">FACT</span> Everything unmarked comes from Wheels India's own filings — transcripts, decks and exchange notifications — with the source named in grey after the claim.</p>
+<p style="margin:6px 0"><span class="tag inf">MY INFERENCE</span> Where the framing is mine rather than management's, it is marked.</p>
+<p style="margin:6px 0; color:#5a6a78; font-size:13.5px"><strong>One structural limit on the record:</strong> Wheels India holds <strong>only two Q&amp;A calls a year</strong>. Q1 and Q3 are decks with no questions, so the verbatim management commentary quoted here comes from the Q2 and Q4 calls. That is a real constraint on how quickly a change in the business can be interrogated.</p>
+</div>
+
+<div class="toc">
+<strong>Contents</strong>
+<ol>
+<li><a href="#s1">What Wheels India actually makes</a></li>
+<li><a href="#s2">The conversion model — the fact everything else follows from</a></li>
+<li><a href="#s3">Three ways conversion distorts the reported numbers</a></li>
+<li><a href="#s4">The flat-revenue puzzle, resolved</a></li>
+<li><a href="#s5">What a wind turbine casting is, and why it needs machining</a></li>
+<li><a href="#s6">Why this work is hard to enter</a></li>
+<li><a href="#s7">The capex-to-earnings lag</a></li>
+<li><a href="#s8">The segment where it either shows up or does not</a></li>
+<li><a href="#s9">The other half — a pass-through that is not complete</a></li>
+<li><a href="#s10">Where the margin ambition actually comes from</a></li>
+<li><a href="#s11">Reading the industry through the numbers</a></li>
+<li><a href="#s12">What is not disclosed</a></li>
+<li><a href="#s13">Glossary</a></li>
+</ol>
+</div>
+
+<h2 id="s1"><span class="n">1.</span> What Wheels India actually makes</h2>
+
+<p>The name is half the business. Wheels India makes steel and aluminium wheels for trucks, buses, tractors and earthmovers — and alongside them machines large castings for wind turbines, fabricates structural parts, and builds hydraulic cylinders, air suspension systems and lift axles.</p>
+
+<p><strong>Those two halves are sold to broadly the same customers and run on completely different economics.</strong> The rest of this page is about the difference.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 430" role="img" aria-label="Wheels India's product range split into the wheel business and the industrial components business, with the end-market mix showing no market above 22 percent.">
+  <rect x="20" y="30" width="450" height="196" rx="9" fill="#fff8e6" stroke="#e0b062" stroke-width="2"/>
+  <text class="t-lg" x="42" y="60" fill="#a2650a">AUTOMOTIVE COMPONENTS</text>
+  <rect x="42" y="72" width="146" height="22" rx="11" fill="#ffffff" stroke="#e0b062" stroke-width="1"/>
+  <text class="t-sm" x="115" y="87" text-anchor="middle" fill="#a2650a">84% of Q1FY27 revenue</text>
+  <text class="t" x="42" y="122">· Steel wheels — trucks, buses, tractors, earthmovers</text>
+  <text class="t" x="42" y="146">· Aluminium wheels — the premium end of the mix</text>
+  <text class="t" x="42" y="170">· Air suspension systems and lift axles for buses</text>
+  <text class="t-sm t-mut" x="42" y="200">Material-heavy. Wheels India buys the steel, forms it, and sells the wheel —</text>
+  <text class="t-sm t-mut" x="42" y="216">so the metal price sits inside the revenue line.</text>
+
+  <rect x="490" y="30" width="450" height="196" rx="9" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="2.2"/>
+  <text class="t-lg" x="512" y="60" fill="#1a6f4a">INDUSTRIAL COMPONENTS</text>
+  <rect x="512" y="72" width="146" height="22" rx="11" fill="#ffffff" stroke="#1a6f4a" stroke-width="1"/>
+  <text class="t-sm" x="585" y="87" text-anchor="middle" fill="#1a6f4a">16% of Q1FY27 revenue</text>
+  <text class="t" x="512" y="122" fill="#1a6f4a">· Windmill and large-casting machining</text>
+  <text class="t" x="512" y="146" fill="#1a6f4a">· Structural fabrication</text>
+  <text class="t" x="512" y="170" fill="#1a6f4a">· Hydraulic cylinders · construction wheels</text>
+  <text class="t-sm" x="512" y="200" fill="#1a6f4a"><tspan font-weight="700">In much of this the customer supplies the metal.</tspan> Wheels India bills only</text>
+  <text class="t-sm" x="512" y="216" fill="#1a6f4a">the engineering — which is §2, and the reason this page exists.</text>
+
+  <text class="t-md" x="20" y="264">End-market mix — no market above 22%</text>
+  <rect x="20" y="278" width="199" height="30" rx="4" fill="#2E75B6"/>
+  <rect x="223" y="278" width="153" height="30" rx="4" fill="#5b93c7"/>
+  <rect x="380" y="278" width="145" height="30" rx="4" fill="#8fb3d2"/>
+  <rect x="529" y="278" width="131" height="30" rx="4" fill="#a8c4dd"/>
+  <rect x="664" y="278" width="127" height="30" rx="4" fill="#c3d5e6"/>
+  <rect x="795" y="278" width="91" height="30" rx="4" fill="#d7e2ec"/>
+  <rect x="890" y="278" width="50" height="30" rx="4" fill="#e6ecf2"/>
+  <text class="t-sm" x="119" y="298" text-anchor="middle" fill="#ffffff">CV 22%</text>
+  <text class="t-sm" x="299" y="298" text-anchor="middle" fill="#ffffff">Constr 17%</text>
+  <text class="t-sm" x="452" y="298" text-anchor="middle" fill="#16202b">Tractor 16%</text>
+  <text class="t-sm" x="594" y="298" text-anchor="middle" fill="#16202b">Car 14–15%</text>
+  <text class="t-sm" x="727" y="298" text-anchor="middle" fill="#16202b">Fabric'n 14%</text>
+  <text class="t-sm" x="840" y="298" text-anchor="middle" fill="#16202b">Air susp 10%</text>
+  <text class="t-sm" x="915" y="298" text-anchor="middle" fill="#16202b">Hyd 5%</text>
+  <text class="t-sm t-mut" x="20" y="326">Q4FY26 call, Q4 alone. Genuine diversification — no single end market can sink the book.</text>
+
+  <rect x="20" y="348" width="920" height="70" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t-md" x="40" y="374">The scale, for orientation</text>
+  <text class="t" x="40" y="400">Chennai, established <tspan font-weight="700">1960</tspan> · part of the TSF Group (~$3.2bn turnover, 36+ plants, since 1936) · <tspan font-weight="700">~8,900 people, 10 plants</tspan> · FY26 revenue <tspan font-weight="700">₹5,465cr</tspan>, operating profit <tspan font-weight="700">₹413cr (8.0%)</tspan>, PAT ₹158cr · exports $141m of $540m.</text>
+</svg>
+<figcaption><strong>Read the two boxes as two companies, because they earn money in two different ways.</strong> The wheel business is the revenue; the industrial components business is where the economics of §2 apply — and it is the smaller half by a wide margin. <span class="src">Segment revenue shares from the Q1FY27 deck; the end-market mix from the Q4FY26 call (Q4 alone); group, plant, headcount, export and FY26 financial figures from the profile's §1, drawn from the company's decks and results.</span></figcaption>
+</figure>
+
+<h2 id="s2"><span class="n">2.</span> The conversion model — the fact everything else follows from</h2>
+
+<p>Here is the mechanism, and it is unusual enough to be worth stating slowly. In windmill machining, large-casting machining and parts of fabrication, <strong>the customer supplies the raw material.</strong> A wind-turbine maker sends Wheels India a large iron casting; Wheels India machines it to tolerance and sends it back, <strong>billing only for the machining.</strong> It never buys the casting, never carries it as inventory, and never books its value as revenue.</p>
+
+<figure class="dg">
+<svg
+ viewBox="0.00 0.00 761.00 194.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 190)">
+<title>C</title>
+<g id="clust1" class="cluster">
+<title>cluster_wheel</title>
+<path fill="none" stroke="#e0b062" stroke-width="1.6" d="M27.88,-8C27.88,-8 543.49,-8 543.49,-8 549.49,-8 555.49,-14 555.49,-20 555.49,-20 555.49,-77 555.49,-77 555.49,-83 549.49,-89 543.49,-89 543.49,-89 27.88,-89 27.88,-89 21.88,-89 15.88,-83 15.88,-77 15.88,-77 15.88,-20 15.88,-20 15.88,-14 21.88,-8 27.88,-8"/>
+<text xml:space="preserve" text-anchor="start" x="181.43" y="-76.03" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#a2650a">THE WHEEL BUSINESS — material&#45;based</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_conv</title>
+<path fill="none" stroke="#1a6f4a" stroke-width="1.6" d="M20,-97C20,-97 549.12,-97 549.12,-97 555.12,-97 561.12,-103 561.12,-109 561.12,-109 561.12,-166 561.12,-166 561.12,-172 555.12,-178 549.12,-178 549.12,-178 20,-178 20,-178 14,-178 8,-172 8,-166 8,-166 8,-109 8,-109 8,-103 14,-97 20,-97"/>
+<text xml:space="preserve" text-anchor="start" x="173.18" y="-165.03" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#1a6f4a">THE CONVERSION BUSINESS — no material</text>
+</g>
+<g id="node1" class="node">
+<title>buy</title>
+<path fill="#fff8e6" stroke="#e0b062" stroke-width="1.3" d="M181.66,-57C181.66,-57 40.88,-57 40.88,-57 34.88,-57 28.87,-51 28.87,-45 28.87,-45 28.87,-33 28.87,-33 28.87,-27 34.87,-21 40.87,-21 40.87,-21 181.66,-21 181.66,-21 187.66,-21 193.66,-27 193.66,-33 193.66,-33 193.66,-45 193.66,-45 193.66,-51 187.66,-57 181.66,-57"/>
+<text xml:space="preserve" text-anchor="start" x="40.39" y="-39.77" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#16202b">Wheels India buys the steel</text>
+<text xml:space="preserve" text-anchor="start" x="50.14" y="-30.7" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">metal sits on its balance sheet</text>
+</g>
+<g id="node2" class="node">
+<title>form</title>
+<path fill="#fff8e6" stroke="#e0b062" stroke-width="1.3" d="M348.95,-57C348.95,-57 259.16,-57 259.16,-57 253.16,-57 247.16,-51 247.16,-45 247.16,-45 247.16,-33 247.16,-33 247.16,-27 253.16,-21 259.16,-21 259.16,-21 348.95,-21 348.95,-21 354.95,-21 360.95,-27 360.95,-33 360.95,-33 360.95,-45 360.95,-45 360.95,-51 354.95,-57 348.95,-57"/>
+<text xml:space="preserve" text-anchor="start" x="266.93" y="-39.77" font-family="Helvetica,sans-Serif" font-size="10.50" fill="#16202b">Form the wheel</text>
+<text xml:space="preserve" text-anchor="start" x="258.68" y="-30.7" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">stamp, roll, weld, paint</text>
+</g>
+<g id="edge1" class="edge">
+<title>buy&#45;&gt;form</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.2" d="M194.29,-39C208.93,-39 223.99,-39 238.07,-39"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.2" points="237.88,-41.45 244.88,-39 237.88,-36.55 237.88,-41.45"/>
+</g>
+<g id="node3" class="node">
+<title>sell</title>
+<path fill="#fff8e6" stroke="#e0b062" stroke-width="1.3" d="M530.49,-57C530.49,-57 424.2,-57 424.2,-57 418.2,-57 412.2,-51 412.2,-45 412.2,-45 412.2,-33 412.2,-33 412.2,-27 418.2,-21 424.2,-21 424.2,-21 530.49,-21 530.49,-21 536.49,-21 542.49,-27 542.49,-33 542.49,-33 542.49,-45 542.49,-45 542.49,-51 536.49,-57 530.49,-57"/>
+<text xml:space="preserve" text-anchor="start" x="441.72" y="-39.77" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#16202b">Sell the wheel</text>
+<text xml:space="preserve" text-anchor="start" x="423.72" y="-30.7" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">price = metal + conversion</text>
+</g>
+<g id="edge2" class="edge">
+<title>form&#45;&gt;sell</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.2" d="M361.15,-39C374.56,-39 389.07,-39 403.13,-39"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.2" points="403,-41.45 410,-39 403,-36.55 403,-41.45"/>
+</g>
+<g id="node7" class="node">
+<title>outA</title>
+<path fill="#fff8e6" stroke="#e0b062" stroke-width="1.6" d="M739.78,-60.45C739.78,-60.45 598.24,-60.45 598.24,-60.45 592.24,-60.45 586.24,-54.45 586.24,-48.45 586.24,-48.45 586.24,-29.55 586.24,-29.55 586.24,-23.55 592.24,-17.55 598.24,-17.55 598.24,-17.55 739.78,-17.55 739.78,-17.55 745.78,-17.55 751.78,-23.55 751.78,-29.55 751.78,-29.55 751.78,-48.45 751.78,-48.45 751.78,-54.45 745.78,-60.45 739.78,-60.45"/>
+<text xml:space="preserve" text-anchor="start" x="597.76" y="-44.27" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#16202b">Revenue includes the metal</text>
+<text xml:space="preserve" text-anchor="start" x="611.64" y="-35.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#16202b">asset turn 3–4x · thin margin</text>
+<text xml:space="preserve" text-anchor="start" x="612.01" y="-26.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#16202b">pass&#45;through, and imperfect</text>
+</g>
+<g id="edge5" class="edge">
+<title>sell&#45;&gt;outA</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.2" d="M543.09,-39C553.95,-39 565.4,-39 576.78,-39"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.2" points="576.64,-41.45 583.64,-39 576.64,-36.55 576.64,-41.45"/>
+</g>
+<g id="node4" class="node">
+<title>cust</title>
+<path fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.3" d="M189.54,-146C189.54,-146 33,-146 33,-146 27,-146 21,-140 21,-134 21,-134 21,-122 21,-122 21,-116 27,-110 33,-110 33,-110 189.54,-110 189.54,-110 195.54,-110 201.54,-116 201.54,-122 201.54,-122 201.54,-134 201.54,-134 201.54,-140 195.54,-146 189.54,-146"/>
+<text xml:space="preserve" text-anchor="start" x="32.52" y="-128.78" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#16202b">Customer supplies the casting</text>
+<text xml:space="preserve" text-anchor="start" x="57.64" y="-119.7" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">Wheels India never buys it</text>
+</g>
+<g id="node5" class="node">
+<title>mach</title>
+<path fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.3" d="M357.58,-146C357.58,-146 250.54,-146 250.54,-146 244.54,-146 238.54,-140 238.54,-134 238.54,-134 238.54,-122 238.54,-122 238.54,-116 244.54,-110 250.54,-110 250.54,-110 357.58,-110 357.58,-110 363.58,-110 369.58,-116 369.58,-122 369.58,-122 369.58,-134 369.58,-134 369.58,-140 363.58,-146 357.58,-146"/>
+<text xml:space="preserve" text-anchor="start" x="279.68" y="-128.78" font-family="Helvetica,sans-Serif" font-size="10.50" fill="#16202b">Machine it</text>
+<text xml:space="preserve" text-anchor="start" x="250.06" y="-119.7" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">the engineering value&#45;add</text>
+</g>
+<g id="edge3" class="edge">
+<title>cust&#45;&gt;mach</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.2" d="M202.08,-128C211.14,-128 220.27,-128 229.14,-128"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.2" points="229.09,-130.45 236.09,-128 229.09,-125.55 229.09,-130.45"/>
+</g>
+<g id="node6" class="node">
+<title>bill</title>
+<path fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.3" d="M536.12,-146C536.12,-146 418.58,-146 418.58,-146 412.58,-146 406.58,-140 406.58,-134 406.58,-134 406.58,-122 406.58,-122 406.58,-116 412.58,-110 418.58,-110 418.58,-110 536.12,-110 536.12,-110 542.12,-110 548.12,-116 548.12,-122 548.12,-122 548.12,-134 548.12,-134 548.12,-140 542.12,-146 536.12,-146"/>
+<text xml:space="preserve" text-anchor="start" x="418.1" y="-128.78" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#16202b">Bill the machining only</text>
+<text xml:space="preserve" text-anchor="start" x="419.97" y="-119.7" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">price = conversion, no metal</text>
+</g>
+<g id="edge4" class="edge">
+<title>mach&#45;&gt;bill</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.2" d="M369.82,-128C378.79,-128 388.09,-128 397.29,-128"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.2" points="397.25,-130.45 404.25,-128 397.25,-125.55 397.25,-130.45"/>
+</g>
+<g id="node8" class="node">
+<title>outB</title>
+<path fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.8" d="M740.91,-149.45C740.91,-149.45 597.12,-149.45 597.12,-149.45 591.12,-149.45 585.12,-143.45 585.12,-137.45 585.12,-137.45 585.12,-118.55 585.12,-118.55 585.12,-112.55 591.12,-106.55 597.12,-106.55 597.12,-106.55 740.91,-106.55 740.91,-106.55 746.91,-106.55 752.91,-112.55 752.91,-118.55 752.91,-118.55 752.91,-137.45 752.91,-137.45 752.91,-143.45 746.91,-149.45 740.91,-149.45"/>
+<text xml:space="preserve" text-anchor="start" x="596.64" y="-133.28" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#16202b">Revenue excludes the metal</text>
+<text xml:space="preserve" text-anchor="start" x="597.39" y="-124.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#16202b">asset turn ~1:1 · &quot;clean double&#45;digit</text>
+<text xml:space="preserve" text-anchor="start" x="622.51" y="-115.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#16202b">or even higher&quot; returns</text>
+</g>
+<g id="edge6" class="edge">
+<title>bill&#45;&gt;outB</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.2" d="M548.7,-128C557.49,-128 566.58,-128 575.64,-128"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.2" points="575.49,-130.45 582.49,-128 575.49,-125.55 575.49,-130.45"/>
+</g>
+</g>
+</svg>
+
+<figcaption><strong>Same factory, same engineers, same machines — and a completely different P&amp;L depending on who owns the metal.</strong> Management's own words across three separate calls: <em>"We have some businesses which are actually what I would call as conversion businesses <strong>where there's no RM</strong>… there, I would say the returns will be <strong>clean double-digit or even higher</strong>"</em> (Q2FY26); <em>"it is a very profitable business because <strong>it is a conversion business, it is not a material-based business</strong>"</em> (Q4FY25); and on the co-located caster, <em>"<strong>Sales value will be less because it's conversion, not material</strong>"</em> (Q4FY26). <span class="src">All three quotes verbatim from the Q2FY26 (Oct-2025), Q4FY25 (May-2025) and Q4FY26 (May-2026) calls. Laid out with Graphviz.</span></figcaption>
+</figure>
+
+<h2 id="s3"><span class="n">3.</span> Three ways conversion distorts the reported numbers</h2>
+
+<p>Because the metal is missing from one side of the business, three of the most commonly used metrics for an auto-component company give the wrong answer for this one.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 420" role="img" aria-label="Three distortions: revenue understates activity, asset turnover collapses to one to one, and the blended margin averages two different businesses.">
+  <text class="t-md" x="20" y="34" fill="#b3261e">1 · Revenue understates activity</text>
+  <text class="t-md" x="230" y="76" text-anchor="end">Material-based work</text>
+  <rect x="240" y="56" width="560" height="28" rx="4" fill="#e0c489"/>
+  <rect x="240" y="56" width="392" height="28" rx="4" fill="#c9a35e"/>
+  <text class="t-sm" x="436" y="75" text-anchor="middle" fill="#16202b">the metal</text>
+  <text class="t-sm" x="716" y="75" text-anchor="middle" fill="#16202b">the work</text>
+  <text class="t-sm t-mut" x="812" y="75">all of it is revenue</text>
+
+  <text class="t-md" x="230" y="118" text-anchor="end">Conversion work</text>
+  <rect x="240" y="98" width="168" height="28" rx="4" fill="#1a6f4a"/>
+  <text class="t-sm" x="324" y="117" text-anchor="middle" fill="#ffffff">the work</text>
+  <text class="t-sm" x="420" y="117" fill="#1a6f4a">only this is revenue — the same physical job, a much smaller top line</text>
+
+  <line x1="20" y1="146" x2="940" y2="146" stroke="currentColor" stroke-width="1" opacity=".2"/>
+
+  <text class="t-md" x="20" y="176" fill="#b3261e">2 · Asset turnover collapses to about 1:1 — and it is an artefact, not inefficiency</text>
+  <text class="t-md" x="230" y="216" text-anchor="end">A wheel line</text>
+  <rect x="240" y="196" width="500" height="28" rx="4" fill="#e0c489"/>
+  <text class="t-md" x="752" y="216">3–4x</text>
+  <text class="t-sm t-mut" x="812" y="216">revenue per rupee of asset</text>
+
+  <text class="t-md" x="230" y="256" text-anchor="end">A machining line</text>
+  <rect x="240" y="236" width="145" height="28" rx="4" fill="#1a6f4a"/>
+  <text class="t-md" x="397" y="256" fill="#1a6f4a">~1x</text>
+  <text class="t-sm" x="452" y="256" fill="#1a6f4a">₹90cr of capex adds roughly ₹90cr of revenue — because no metal rides along</text>
+
+  <line x1="20" y1="284" x2="940" y2="284" stroke="currentColor" stroke-width="1" opacity=".2"/>
+
+  <text class="t-md" x="20" y="314" fill="#b3261e">3 · The blended margin is two businesses averaged into one meaningless number</text>
+  <rect x="240" y="330" width="380" height="30" rx="4" fill="#e0c489"/>
+  <rect x="624" y="330" width="176" height="30" rx="4" fill="#1a6f4a"/>
+  <text class="t-sm" x="430" y="350" text-anchor="middle" fill="#16202b">thin, material-heavy wheel margin</text>
+  <text class="t-sm" x="712" y="350" text-anchor="middle" fill="#ffffff">"healthy IT type"</text>
+  <text class="t-md" x="812" y="350">= 8.0% blended</text>
+  <text class="t-sm t-mut" x="240" y="378">Management's phrase for the conversion slice is <tspan font-style="italic">"clean double-digit type of healthy IT type of margins."</tspan></text>
+  <text class="t-sm" x="620" y="378" fill="#b3261e"><tspan font-style="italic">Widths illustrative — the split is not disclosed (§12).</tspan></text>
+
+  <rect x="20" y="392" width="920" height="22" rx="5" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.2"/>
+  <text class="t-sm" x="36" y="408" fill="#a2650a">Comparing Wheels India's revenue growth, asset turns or margin to a fully material-inclusive peer is a false comparison — the two are not measuring the same thing.</text>
+</svg>
+<figcaption><strong>Every one of the three looks like a weakness and is actually a definitional artefact.</strong> A reader who screens this company on asset turnover or blended margin will reach a conclusion the underlying business does not support — which is exactly the kind of error a screen cannot catch and a filing can. <span class="src">The 1:1 asset-turn figure and the ₹66cr example are management's, Q4FY25 call; the "healthy IT type of margins" phrase from the Q2FY26 call; the 8.0% FY26 operating margin from the results. <span class="tag inf">MY INFERENCE</span> — presenting the three distortions together as a single reading rule is my framing.</span></figcaption>
+</figure>
+
+<h2 id="s4"><span class="n">4.</span> The flat-revenue puzzle, resolved</h2>
+
+<p>An analyst put the obvious question on the Q2FY26 call: revenue had been stuck near ₹1,050–1,150cr for fourteen quarters despite heavy capital spending. Where had the money gone?</p>
+
+<blockquote style="border-left:4px solid #1a6f4a; background:#ecf7f1; margin:16px 0; padding:14px 18px; font-size:14px">
+"…your asset turnover ratio on conversion type of business tends to be more 1:1. At the same time, the EBITDA margins are clean double-digit… <strong>So, while the top line has not grown, the bottom line has grown faster than the top line, largely due to the fact that there's a lot of conversion business that's happened.</strong>"
+<div class="src" style="margin-top:6px">— Management, Q2FY26 call (Oct-2025)</div>
+</blockquote>
+
+<figure class="dg">
+<svg viewBox="0 0 960 330" role="img" aria-label="Capital spent on conversion capacity produces little revenue growth but more profit, so the top line stays flat while the bottom line rises.">
+  <defs>
+    <marker id="w4a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <rect x="20" y="40" width="210" height="76" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.4"/>
+  <text class="t" x="125" y="68" text-anchor="middle">Capital is spent</text>
+  <text class="t-sm t-mut" x="125" y="88" text-anchor="middle">on machining capacity —</text>
+  <text class="t-sm t-mut" x="125" y="104" text-anchor="middle">conversion work</text>
+
+  <path d="M234,78 H282" stroke="currentColor" stroke-width="1.8" marker-end="url(#w4a)"/>
+
+  <rect x="286" y="40" width="230" height="76" rx="7" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.6"/>
+  <text class="t" x="401" y="68" text-anchor="middle" fill="#1F4E79">Activity rises</text>
+  <text class="t-sm" x="401" y="88" text-anchor="middle" fill="#1F4E79">more castings machined,</text>
+  <text class="t-sm" x="401" y="104" text-anchor="middle" fill="#1F4E79">more engineering billed</text>
+
+  <path d="M520,60 H568" stroke="#5a6a78" stroke-width="1.8" marker-end="url(#w4a)"/>
+  <path d="M520,96 H568" stroke="#1a6f4a" stroke-width="1.8" marker-end="url(#w4a)"/>
+
+  <rect x="572" y="30" width="368" height="44" rx="7" fill="#f0f2f4" stroke="#b9c4cf" stroke-width="1.4"/>
+  <text class="t" x="756" y="58" text-anchor="middle" fill="#5a6a78">Top line barely moves — no metal in it</text>
+
+  <rect x="572" y="82" width="368" height="44" rx="7" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.8"/>
+  <text class="t" x="756" y="110" text-anchor="middle" fill="#1a6f4a"><tspan font-weight="700">Bottom line grows faster than the top line</tspan></text>
+
+  <rect x="20" y="150" width="456" height="80" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.5"/>
+  <text class="t-md" x="40" y="176" fill="#a2650a">The reading rule this gives you</text>
+  <text class="t" x="40" y="200" fill="#a2650a">For this company, <tspan font-weight="700">flat revenue is not evidence of a stalled business</tspan></text>
+  <text class="t" x="40" y="220" fill="#a2650a">and revenue growth is not evidence of a thriving one.</text>
+
+  <rect x="492" y="150" width="448" height="80" rx="8" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.5"/>
+  <text class="t-md" x="512" y="176" fill="#1F4E79">What to read instead</text>
+  <text class="t" x="512" y="200" fill="#1F4E79"><tspan font-weight="700">Segment EBIT.</tspan> That is where conversion work shows up undisguised —</text>
+  <text class="t" x="512" y="220" fill="#1F4E79">and §8 is exactly that number.</text>
+
+  <rect x="20" y="248" width="920" height="66" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1.2"/>
+  <text class="t-md" x="40" y="274">And the honest qualifier, which management supplies too</text>
+  <text class="t" x="40" y="300">Conversion is at most <tspan font-weight="700">~16% of the book</tspan> — the Industrial Components segment. The other 84% is the material-based wheel business of §9, and it obeys entirely different rules.</text>
+</svg>
+<figcaption><strong>This is the single most useful thing to understand before looking at any growth number this company reports.</strong> It also cuts the other way: because conversion is a minority of the book, the effect is real but bounded — it explains a flat top line, it does not by itself make the company a high-margin business. <span class="src">The analyst exchange and management's answer are verbatim from the Q2FY26 call; the ~16% segment share from the Q1FY27 deck. <span class="tag inf">MY INFERENCE</span> — the "flat revenue is not evidence" reading rule is my framing of management's explanation.</span></figcaption>
+</figure>
+
+<h2 id="s5"><span class="n">5.</span> What a wind turbine casting is, and why it needs machining</h2>
+
+<p>The conversion work that matters most is machining large castings for wind turbines — gearbox housings, hubs, main-shaft and bearing housings. These arrive as rough iron castings weighing tonnes, and they leave with bores, faces and bolt circles held to tolerances measured in hundredths of a millimetre.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 360" role="img" aria-label="A rough iron casting arrives, is machined on its bores and faces to fine tolerance, and leaves as a finished housing; the customer owns the metal throughout.">
+  <defs>
+    <linearGradient id="rough" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a99e92"/><stop offset="0.45" stop-color="#cfc6ba"/><stop offset="1" stop-color="#8a8177"/>
+    </linearGradient>
+    <linearGradient id="finished" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#aab8c6"/><stop offset="0.4" stop-color="#e9eef3"/><stop offset="1" stop-color="#8b9aa9"/>
+    </linearGradient>
+    <marker id="w5a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a6f4a"/>
+    </marker>
+  </defs>
+
+  <g transform="translate(90,150)">
+    <path d="M0,-78 A26,78 0 0 0 0,78 L76,78 A26,78 0 0 0 76,-78 Z" fill="url(#rough)" stroke="#6b6259" stroke-width="1.4"/>
+    <ellipse cx="76" cy="0" rx="26" ry="78" fill="#c2b8ac" stroke="#6b6259" stroke-width="1.5"/>
+    <ellipse cx="76" cy="0" rx="13" ry="42" fill="#8a8177" stroke="#6b6259" stroke-width="1.2"/>
+    <path d="M56,-70 q6,8 -2,16 M60,44 q7,7 -1,15 M50,-10 q8,6 0,14" fill="none" stroke="#6b6259" stroke-width="1" opacity=".65"/>
+  </g>
+  <text class="t-md" x="128" y="262" text-anchor="middle">Rough casting arrives</text>
+  <text class="t-sm t-mut" x="128" y="282" text-anchor="middle">tonnes of iron, as-cast surfaces,</text>
+  <text class="t-sm t-mut" x="128" y="298" text-anchor="middle">nothing yet held to tolerance</text>
+  <text class="t-sm" x="128" y="322" text-anchor="middle" fill="#1a6f4a"><tspan font-weight="700">the customer owns this</tspan></text>
+
+  <path d="M250,150 H360" stroke="#1a6f4a" stroke-width="2.6" marker-end="url(#w5a)"/>
+  <text class="t-md" x="305" y="134" text-anchor="middle" fill="#1a6f4a">machining</text>
+  <text class="t-sm" x="305" y="174" text-anchor="middle" fill="#1a6f4a">bores · faces · bolt circles</text>
+
+  <g transform="translate(400,150)">
+    <path d="M0,-78 A26,78 0 0 0 0,78 L76,78 A26,78 0 0 0 76,-78 Z" fill="url(#finished)" stroke="#61707f" stroke-width="1.4"/>
+    <ellipse cx="76" cy="0" rx="26" ry="78" fill="#dfe6ed" stroke="#61707f" stroke-width="1.5"/>
+    <ellipse cx="76" cy="0" rx="14" ry="44" fill="#b3bfcb" stroke="#61707f" stroke-width="1.3"/>
+    <ellipse cx="76" cy="0" rx="8" ry="26" fill="#95a3b1" stroke="#61707f" stroke-width="1"/>
+    <g fill="#8b9aa9" stroke="#61707f" stroke-width="0.8">
+      <ellipse cx="78" cy="-58" rx="3" ry="6"/><ellipse cx="78" cy="58" rx="3" ry="6"/>
+      <ellipse cx="70" cy="-34" rx="3" ry="6"/><ellipse cx="70" cy="34" rx="3" ry="6"/>
+    </g>
+  </g>
+  <text class="t-md" x="438" y="262" text-anchor="middle">Finished housing leaves</text>
+  <text class="t-sm t-mut" x="438" y="282" text-anchor="middle">bores round and concentric,</text>
+  <text class="t-sm t-mut" x="438" y="298" text-anchor="middle">faces flat, holes located</text>
+  <text class="t-sm" x="438" y="322" text-anchor="middle" fill="#1a6f4a"><tspan font-weight="700">the customer still owns it</tspan></text>
+
+  <rect x="560" y="46" width="380" height="120" rx="8" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.6"/>
+  <text class="t-md" x="580" y="72" fill="#1F4E79">Why the tolerance matters</text>
+  <text class="t" x="580" y="98" fill="#1F4E79">A gearbox housing holds shafts and bearings in</text>
+  <text class="t" x="580" y="118" fill="#1F4E79">alignment inside a nacelle that will run for twenty</text>
+  <text class="t" x="580" y="138" fill="#1F4E79">years, at height, in weather, with no easy access.</text>
+  <text class="t-sm" x="580" y="158" fill="#1F4E79">A bore out of true becomes a bearing failure a long way up a tower.</text>
+
+  <rect x="560" y="182" width="380" height="140" rx="8" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.6"/>
+  <text class="t-md" x="580" y="208" fill="#1a6f4a">And why Wheels India never buys it</text>
+  <text class="t" x="580" y="234" fill="#1a6f4a">The casting is expensive, heavy and specific to one</text>
+  <text class="t" x="580" y="254" fill="#1a6f4a">turbine design. The customer sources it, owns it, and</text>
+  <text class="t" x="580" y="274" fill="#1a6f4a">carries the risk on it.</text>
+  <text class="t-sm" x="580" y="298" fill="#1a6f4a">Wheels India supplies capability and capacity, and takes</text>
+  <text class="t-sm" x="580" y="314" fill="#1a6f4a"><tspan font-weight="700">no inventory and no metal-price exposure on that work.</tspan></text>
+</svg>
+<figcaption><strong>The physical job is large and demanding; the commercial arrangement is deliberately narrow.</strong> That combination — high technical difficulty, no material ownership — is what produces the unusual economics in §2, and it extends to offshore wind turbine castings, which are larger again. <span class="src">The scope of the work (windmill machining, large-casting machining, offshore WEGs) is from the profile's §2 and §3, drawn from management commentary. The engineering description of why a gearbox housing must be machined to tolerance is standard practice; the drawings are schematic simple solids, not a representation of a specific part.</span></figcaption>
+</figure>
+
+<h2 id="s6"><span class="n">6.</span> Why this work is hard to enter</h2>
+
+<p>If the conversion economics are that attractive, the natural question is why every machine shop is not doing it. Three barriers, and none of them is money alone.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 330" role="img" aria-label="Three barriers to entering large-casting machining: the equipment is heavy and built to order with long lead times, the customer must qualify the shop, and the work is capital intensive per unit of revenue.">
+  <rect x="20" y="30" width="296" height="200" rx="9" fill="#f7fafc" stroke="currentColor" stroke-width="1.4"/>
+  <text class="t-lg" x="40" y="60">The machine</text>
+  <text class="t-sm t-mut" x="40" y="80">is built to order</text>
+  <text class="t" x="40" y="110">A machining centre big enough to</text>
+  <text class="t" x="40" y="130">hold a multi-tonne casting is not</text>
+  <text class="t" x="40" y="150">bought off a shelf.</text>
+  <text class="t-md" x="40" y="182" fill="#a2650a">12–15 months</text>
+  <text class="t-sm t-mut" x="40" y="204">from order to commissioning — management's</text>
+  <text class="t-sm t-mut" x="40" y="220">own figure. You cannot respond to a hot market.</text>
+
+  <rect x="332" y="30" width="296" height="200" rx="9" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.8"/>
+  <text class="t-lg" x="352" y="60" fill="#1F4E79">The customer</text>
+  <text class="t-sm" x="352" y="80" fill="#1F4E79">has to qualify you</text>
+  <text class="t" x="352" y="110" fill="#1F4E79">Handing over a casting you did not</text>
+  <text class="t" x="352" y="130" fill="#1F4E79">pay for, to be machined irreversibly,</text>
+  <text class="t" x="352" y="150" fill="#1F4E79">requires trust in the shop.</text>
+  <text class="t-sm" x="352" y="180" fill="#1F4E79">First articles, dimensional proof, audits — and a</text>
+  <text class="t-sm" x="352" y="196" fill="#1F4E79">scrapped casting is the customer's loss, not yours.</text>
+  <text class="t-sm" x="352" y="220" fill="#1F4E79"><tspan font-weight="700">Slow to enter is slow to be displaced.</tspan></text>
+
+  <rect x="644" y="30" width="296" height="200" rx="9" fill="#fff8e6" stroke="#e0b062" stroke-width="1.8"/>
+  <text class="t-lg" x="664" y="60" fill="#a2650a">The capital</text>
+  <text class="t-sm" x="664" y="80" fill="#a2650a">buys less revenue here</text>
+  <text class="t" x="664" y="110" fill="#a2650a">Because no metal rides along, each</text>
+  <text class="t" x="664" y="130" fill="#a2650a">rupee of machine buys roughly a</text>
+  <text class="t" x="664" y="150" fill="#a2650a">rupee of revenue, not three or four.</text>
+  <text class="t-sm" x="664" y="182" fill="#a2650a">A newcomer chasing revenue growth would rather</text>
+  <text class="t-sm" x="664" y="198" fill="#a2650a">buy a material-based line — which is precisely why</text>
+  <text class="t-sm" x="664" y="214" fill="#a2650a">this niche stays thin.</text>
+
+  <rect x="20" y="250" width="920" height="66" rx="8" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.5"/>
+  <text class="t-md" x="40" y="276" fill="#1a6f4a">The three compound</text>
+  <text class="t" x="40" y="302" fill="#1a6f4a">A competitor needs the capital, then waits over a year for the machine, then waits again to be qualified — and at the end of it owns an asset that generates a rupee of revenue per rupee invested. <tspan font-weight="700">That is a real barrier, and it is why the returns survive.</tspan></text>
+</svg>
+<figcaption><strong>The unattractive-looking asset turn is itself part of the moat.</strong> A business that reports poorly on the metric most people screen on will attract fewer entrants — and the ones who do come still face the lead time and the qualification. <span class="src">The 12–15 month equipment lead time and the qualification barrier are management's, from the profile's §3 drawn from call commentary; the 1:1 asset turn from the Q4FY25 call. <span class="tag inf">MY INFERENCE</span> — the argument that the poor screening optics deter entrants is mine.</span></figcaption>
+</figure>
+
+<h2 id="s7"><span class="n">7.</span> The capex-to-earnings lag</h2>
+
+<p>The consequence of a twelve-to-fifteen-month lead time is that spending and earning are separated by more than a year — and in between, the asset is on the balance sheet carrying depreciation while producing nothing.</p>
+
+<figure class="dg">
+<svg
+ viewBox="0.00 0.00 855.00 106.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 102.45)">
+<title>Q</title>
+<g id="node1" class="node">
+<title>order</title>
+<path fill="#f4f7fa" stroke="#c6d6e4" stroke-width="1.3" d="M141.54,-68.45C141.54,-68.45 12,-68.45 12,-68.45 6,-68.45 0,-62.45 0,-56.45 0,-56.45 0,-37.55 0,-37.55 0,-31.55 6,-25.55 12,-25.55 12,-25.55 141.54,-25.55 141.54,-25.55 147.54,-25.55 153.54,-31.55 153.54,-37.55 153.54,-37.55 153.54,-56.45 153.54,-56.45 153.54,-62.45 147.54,-68.45 141.54,-68.45"/>
+<text xml:space="preserve" text-anchor="start" x="29.52" y="-52.27" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#16202b">Order the machine</text>
+<text xml:space="preserve" text-anchor="start" x="11.52" y="-43.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">large&#45;casting machining centres</text>
+<text xml:space="preserve" text-anchor="start" x="43.39" y="-34.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">are built to order</text>
+</g>
+<g id="node2" class="node">
+<title>wait</title>
+<path fill="#fff8e6" stroke="#e0b062" stroke-width="1.6" d="M311.83,-68.45C311.83,-68.45 205.54,-68.45 205.54,-68.45 199.54,-68.45 193.54,-62.45 193.54,-56.45 193.54,-56.45 193.54,-37.55 193.54,-37.55 193.54,-31.55 199.54,-25.55 205.54,-25.55 205.54,-25.55 311.83,-25.55 311.83,-25.55 317.83,-25.55 323.83,-31.55 323.83,-37.55 323.83,-37.55 323.83,-56.45 323.83,-56.45 323.83,-62.45 317.83,-68.45 311.83,-68.45"/>
+<text xml:space="preserve" text-anchor="start" x="222.68" y="-52.27" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#16202b">12–15 months</text>
+<text xml:space="preserve" text-anchor="start" x="205.06" y="-43.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">management&#39;s own figure,</text>
+<text xml:space="preserve" text-anchor="start" x="211.06" y="-34.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">order to commissioning</text>
+</g>
+<g id="edge1" class="edge">
+<title>order&#45;&gt;wait</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.2" d="M154.07,-47C164.07,-47 174.3,-47 184.25,-47"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.2" points="184.1,-49.45 191.1,-47 184.1,-44.55 184.1,-49.45"/>
+</g>
+<g id="node3" class="node">
+<title>comm</title>
+<path fill="#f4f7fa" stroke="#c6d6e4" stroke-width="1.3" d="M470.87,-65C470.87,-65 375.83,-65 375.83,-65 369.83,-65 363.83,-59 363.83,-53 363.83,-53 363.83,-41 363.83,-41 363.83,-35 369.83,-29 375.83,-29 375.83,-29 470.87,-29 470.87,-29 476.87,-29 482.87,-35 482.87,-41 482.87,-41 482.87,-53 482.87,-53 482.87,-59 476.87,-65 470.87,-65"/>
+<text xml:space="preserve" text-anchor="start" x="389.97" y="-47.77" font-family="Helvetica,sans-Serif" font-size="10.50" fill="#16202b">Commission it</text>
+<text xml:space="preserve" text-anchor="start" x="375.35" y="-38.7" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">depreciation starts here</text>
+</g>
+<g id="edge2" class="edge">
+<title>wait&#45;&gt;comm</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.2" d="M324.44,-47C334.38,-47 344.66,-47 354.66,-47"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.2" points="354.54,-49.45 361.54,-47 354.54,-44.55 354.54,-49.45"/>
+</g>
+<g id="node4" class="node">
+<title>qual</title>
+<path fill="#eaf2fb" stroke="#2e75b6" stroke-width="1.8" d="M665.91,-98.45C665.91,-98.45 534.87,-98.45 534.87,-98.45 528.87,-98.45 522.87,-92.45 522.87,-86.45 522.87,-86.45 522.87,-67.55 522.87,-67.55 522.87,-61.55 528.87,-55.55 534.87,-55.55 534.87,-55.55 665.91,-55.55 665.91,-55.55 671.91,-55.55 677.91,-61.55 677.91,-67.55 677.91,-67.55 677.91,-86.45 677.91,-86.45 677.91,-92.45 671.91,-98.45 665.91,-98.45"/>
+<text xml:space="preserve" text-anchor="start" x="534.39" y="-82.28" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#16202b">Qualify with the customer</text>
+<text xml:space="preserve" text-anchor="start" x="537.39" y="-73.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">first articles, dimensional proof,</text>
+<text xml:space="preserve" text-anchor="start" x="566.64" y="-64.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#5a6a78">audit of the shop</text>
+</g>
+<g id="edge3" class="edge">
+<title>comm&#45;&gt;qual</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.2" d="M483.12,-57.07C492.9,-58.75 503.21,-60.52 513.5,-62.28"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.2" points="513.02,-64.68 520.33,-63.45 513.84,-59.85 513.02,-64.68"/>
+</g>
+<g id="node6" class="node">
+<title>drag</title>
+<path fill="none" stroke="none" stroke-width="1.3" d="M659.16,-36C659.16,-36 541.62,-36 541.62,-36 535.62,-36 529.62,-30 529.62,-24 529.62,-24 529.62,-12 529.62,-12 529.62,-6 535.62,0 541.62,0 541.62,0 659.16,0 659.16,0 665.16,0 671.16,-6 671.16,-12 671.16,-12 671.16,-24 671.16,-24 671.16,-30 665.16,-36 659.16,-36"/>
+<text xml:space="preserve" text-anchor="start" x="541.14" y="-15.38" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#b3261e">depreciation without revenue</text>
+</g>
+<g id="edge5" class="edge">
+<title>comm&#45;&gt;drag</title>
+<path fill="none" stroke="#b3261e" stroke-width="1.2" stroke-dasharray="5,2" d="M483.12,-37.26C495.66,-35.19 509.08,-32.96 522.19,-30.79"/>
+<polygon fill="#b3261e" stroke="#b3261e" stroke-width="1.2" points="522.49,-32.87 528.07,-29.82 521.81,-28.72 522.49,-32.87"/>
+</g>
+<g id="node5" class="node">
+<title>rev</title>
+<path fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.8" d="M835.45,-95C835.45,-95 729.91,-95 729.91,-95 723.91,-95 717.91,-89 717.91,-83 717.91,-83 717.91,-71 717.91,-71 717.91,-65 723.91,-59 729.91,-59 729.91,-59 835.45,-59 835.45,-59 841.45,-59 847.45,-65 847.45,-71 847.45,-71 847.45,-83 847.45,-83 847.45,-89 841.45,-95 835.45,-95"/>
+<text xml:space="preserve" text-anchor="start" x="741.05" y="-77.78" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.50" fill="#16202b">Revenue begins</text>
+<text xml:space="preserve" text-anchor="start" x="729.43" y="-68.7" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#1a6f4a">and the asset finally earns</text>
+</g>
+<g id="edge4" class="edge">
+<title>qual&#45;&gt;rev</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.2" d="M678.63,-77C688.54,-77 698.66,-77 708.49,-77"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.2" points="708.24,-79.45 715.24,-77 708.24,-74.55 708.24,-79.45"/>
+</g>
+</g>
+</svg>
+<figcaption><strong>Between commissioning and qualification the machine is a pure cost — and that is exactly what Wheels India’s Industrial Components segment was reporting a year ago.</strong> The ₹90cr of windmill machining capex commissioned in FY26 carried depreciation before it carried revenue, which is why that segment’s EBIT fell 30% year on year in Q3FY26 even as its revenue grew 24%. <span class="src">The 12–15 month lead time is management’s own figure; the ₹90cr of FY26 windmill machining capex and the Q3FY26 segment numbers are from the profile’s §4, drawn from the decks and calls. Laid out with Graphviz.</span></figcaption>
+</figure>
+
+<figure class="dg">
+<svg viewBox="0 0 960 330" role="img" aria-label="Capex rising from 261 crore in FY26 to a guided 400 to 450 crore in FY27, after an earlier guidance of 280 to 300 crore given one quarter previously.">
+  <text class="t-md" x="20" y="34">Capex, ₹ crore — and a guidance revision worth noticing</text>
+
+  <text class="t-md" x="230" y="80" text-anchor="end">FY26 actual</text>
+  <rect x="240" y="60" width="330" height="30" rx="4" fill="#8fb3d2"/>
+  <text class="t-md" x="582" y="80">₹261.84cr</text>
+
+  <text class="t-md" x="230" y="130" text-anchor="end">FY27 guided, May-2026</text>
+  <rect x="240" y="110" width="366" height="30" rx="4" fill="#cfdcea"/>
+  <text class="t-md" x="618" y="130">₹280–300cr</text>
+  <text class="t-sm t-mut" x="720" y="130">said on the Q4FY26 call</text>
+
+  <text class="t-md" x="230" y="180" text-anchor="end">FY27 guided, Jul-2026</text>
+  <rect x="240" y="160" width="536" height="30" rx="4" fill="#b3261e"/>
+  <text class="t-md" x="788" y="180" fill="#b3261e">₹400–450cr</text>
+  <text class="t-sm" x="880" y="180" fill="#b3261e">Q1FY27 deck</text>
+
+  <rect x="20" y="212" width="456" height="100" rx="8" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.6"/>
+  <text class="t-md" x="40" y="238" fill="#b3261e">A ~50% upward revision in one quarter</text>
+  <text class="t" x="40" y="264" fill="#b3261e">The number changed between two consecutive disclosures</text>
+  <text class="t" x="40" y="284" fill="#b3261e">with <tspan font-weight="700">no stated explanation of what changed</tspan> — and Q1 is a</text>
+  <text class="t" x="40" y="304" fill="#b3261e">deck with no Q&amp;A, so nobody could ask.</text>
+
+  <rect x="492" y="212" width="448" height="100" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.6"/>
+  <text class="t-md" x="512" y="238" fill="#a2650a">Why it matters more here than elsewhere</text>
+  <text class="t" x="512" y="264" fill="#a2650a">In a business with a 12–15 month lag, <tspan font-weight="700">this year's capex is</tspan></text>
+  <text class="t" x="512" y="284" fill="#a2650a"><tspan font-weight="700">next year's depreciation and the year after's revenue.</tspan></text>
+  <text class="t-sm" x="512" y="306" fill="#a2650a">A 50% step-up sets the shape of FY28, not FY27.</text>
+</svg>
+<figcaption><strong>The lag is the reason a capex number is a forward-looking disclosure in this business rather than a backward-looking one.</strong> It also means the margin drag from a step-up arrives before the benefit does — which is worth holding in mind when reading the next few quarters. <span class="src">FY26 capex of ₹261.84cr and the ₹280–300cr FY27 guidance from the Q4FY26 call (May-2026); the revised ₹400–450cr from the Q1FY27 deck (July-2026). The revision and the absence of an explanation are recorded in the profile's delivery scorecard.</span></figcaption>
+</figure>
+
+<h2 id="s8"><span class="n">8.</span> The segment where it either shows up or does not</h2>
+
+<p>All of the above is theory until it appears in one number: <strong>Industrial Components EBIT.</strong> That segment houses the windmill machining, the fabrication, the construction wheels and the hydraulic cylinders — and for several quarters it was growing revenue while its profit went backwards, exactly as §7 predicts an asset in its depreciation-without-revenue phase would.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 380" role="img" aria-label="Industrial Components EBIT fell 30 percent year on year in Q3FY26 and rose 256 percent in Q1FY27, with segment EBIT margin improving from 1.2 to 3.3 percent.">
+  <text class="t-md" x="20" y="34">Industrial Components — revenue grew throughout; profit is the tell</text>
+
+  <text class="t-md" x="210" y="86" text-anchor="end">Q3FY26 revenue</text>
+  <rect x="220" y="66" width="430" height="28" rx="4" fill="#cfdcea"/>
+  <text class="t-md" x="662" y="86">₹258cr</text>
+  <text class="t-sm" x="740" y="86" fill="#1a6f4a">+24% YoY</text>
+
+  <text class="t-md" x="210" y="126" text-anchor="end">Q3FY26 EBIT</text>
+  <rect x="220" y="106" width="60" height="28" rx="4" fill="#b3261e"/>
+  <text class="t-md" x="292" y="126" fill="#b3261e">₹7.43cr</text>
+  <text class="t-md" x="380" y="126" fill="#b3261e">−30% YoY — profit falling on rising revenue</text>
+
+  <line x1="20" y1="152" x2="940" y2="152" stroke="currentColor" stroke-width="1" opacity=".2"/>
+
+  <text class="t-md" x="210" y="192" text-anchor="end">Q1FY27 revenue</text>
+  <rect x="220" y="172" width="395" height="28" rx="4" fill="#cfdcea"/>
+  <text class="t-md" x="627" y="192">₹237cr</text>
+  <text class="t-sm" x="700" y="192" fill="#1a6f4a">+26% YoY</text>
+
+  <text class="t-md" x="210" y="232" text-anchor="end">Q1FY27 EBIT</text>
+  <rect x="220" y="212" width="63" height="28" rx="4" fill="#1a6f4a"/>
+  <text class="t-md" x="295" y="232" fill="#1a6f4a">₹7.76cr</text>
+  <text class="t-md" x="380" y="232" fill="#1a6f4a">+256% YoY — against ₹2.18cr a year earlier</text>
+
+  <text class="t-sm t-mut" x="220" y="262">Segment EBIT margin 1.2% → 3.3%. The ₹90cr of FY26 windmill machining capex has begun to earn.</text>
+
+  <rect x="20" y="282" width="456" height="86" rx="8" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.6"/>
+  <text class="t-md" x="40" y="308" fill="#1a6f4a">Why this is the number to watch</text>
+  <text class="t" x="40" y="332" fill="#1a6f4a">Conversion work is invisible in revenue by construction (§3).</text>
+  <text class="t" x="40" y="352" fill="#1a6f4a"><tspan font-weight="700">Segment EBIT is where it becomes visible.</tspan></text>
+
+  <rect x="492" y="282" width="448" height="86" rx="8" fill="#fff8e6" stroke="#ecd9a8" stroke-width="1.6"/>
+  <text class="t-md" x="512" y="308" fill="#a2650a">Keep it in proportion</text>
+  <text class="t" x="512" y="332" fill="#a2650a">₹7.76cr is a small absolute number. Industrial Components is</text>
+  <text class="t" x="512" y="352" fill="#a2650a"><tspan font-weight="700">15.9% of revenue and 9.3% of EBIT</tspan> — one quarter is one quarter.</text>
+</svg>
+<figcaption><strong>A segment whose revenue rises while its profit falls is usually a warning; here it was the expected signature of an asset mid-installation.</strong> The turn from −30% to +256% is the mechanism completing a cycle, not a sudden improvement in the business — and the absolute numbers remain small enough that one quarter proves direction rather than scale. <span class="src">Q3FY26 and Q1FY27 segment revenue and EBIT verbatim from the respective decks, as recorded in the profile's §4; the ₹90cr FY26 windmill machining capex and the 15.9% / 9.3% proportions from the same section.</span></figcaption>
+</figure>
+
+<h2 id="s9"><span class="n">9.</span> The other half — a pass-through that is not complete</h2>
+
+<p>Eighty-four percent of revenue is the wheel business, and it runs on the opposite model: Wheels India buys the steel, forms it, and sells the wheel. The metal price is supposed to pass through to the customer. <strong>Management's own position is that it does not, entirely.</strong></p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 350" role="img" aria-label="In the wheel business the steel price is meant to pass through to the customer, but management states it does not fully recover material cost over the longer term, leaving a residual margin exposure.">
+  <defs>
+    <marker id="w9a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+    <marker id="w9r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b3261e"/>
+    </marker>
+  </defs>
+
+  <rect x="20" y="46" width="200" height="70" rx="7" fill="#fff8e6" stroke="#e0b062" stroke-width="1.6"/>
+  <text class="t" x="120" y="76" text-anchor="middle" fill="#a2650a">Steel price rises</text>
+  <text class="t-sm" x="120" y="96" text-anchor="middle" fill="#a2650a">Wheels India has already bought it</text>
+
+  <path d="M224,81 H272" stroke="currentColor" stroke-width="1.8" marker-end="url(#w9a)"/>
+
+  <rect x="276" y="46" width="220" height="70" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.4"/>
+  <text class="t" x="386" y="76" text-anchor="middle">Price to the OEM is renegotiated</text>
+  <text class="t-sm t-mut" x="386" y="96" text-anchor="middle">with a lag, and not always in full</text>
+
+  <path d="M500,81 H548" stroke="currentColor" stroke-width="1.8" marker-end="url(#w9a)"/>
+
+  <rect x="552" y="46" width="190" height="70" rx="7" fill="#f4f7fa" stroke="currentColor" stroke-width="1.4"/>
+  <text class="t" x="647" y="76" text-anchor="middle">Revenue rises</text>
+  <text class="t-sm t-mut" x="647" y="96" text-anchor="middle">without a single extra wheel</text>
+
+  <path d="M746,81 H794" stroke="#b3261e" stroke-width="1.8" marker-end="url(#w9r)"/>
+  <rect x="798" y="46" width="142" height="70" rx="7" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.5"/>
+  <text class="t-sm" x="869" y="72" text-anchor="middle" fill="#b3261e">…and the gap that</text>
+  <text class="t-sm" x="869" y="90" text-anchor="middle" fill="#b3261e">is not recovered</text>
+  <text class="t-sm" x="869" y="108" text-anchor="middle" fill="#b3261e">lands on margin</text>
+
+  <rect x="20" y="140" width="920" height="62" rx="8" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.6"/>
+  <text class="t-md" x="40" y="166" fill="#b3261e">Management, Q4FY26 — said plainly, and worth crediting</text>
+  <text class="t" x="40" y="190" fill="#b3261e"><tspan font-style="italic">"we don't think that over the longer term, we are able to get a complete pass-through on material cost."</tspan></text>
+
+  <rect x="20" y="220" width="456" height="112" rx="8" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.5"/>
+  <text class="t-md" x="40" y="246" fill="#1F4E79">Two different economic models, one company</text>
+  <text class="t" x="40" y="272" fill="#1F4E79"><tspan font-weight="700">84% of revenue</tspan> — material-based, imperfect pass-through,</text>
+  <text class="t" x="40" y="292" fill="#1F4E79">thin margin, asset turn 3–4x.</text>
+  <text class="t" x="40" y="316" fill="#1F4E79"><tspan font-weight="700">16% of revenue</tspan> — no material, better margin, asset turn ~1x.</text>
+
+  <rect x="492" y="220" width="448" height="112" rx="8" fill="#f7fafc" stroke="currentColor" stroke-width="1.3"/>
+  <text class="t-md" x="512" y="246">Do not conflate them</text>
+  <text class="t" x="512" y="272">The conversion economics of §2 apply to the smaller half only.</text>
+  <text class="t" x="512" y="296">The larger half is an ordinary, competitive, metal-heavy</text>
+  <text class="t" x="512" y="316">component business — and it sets the blended margin.</text>
+</svg>
+<figcaption><strong>An imperfect pass-through is the normal condition for an auto-component supplier selling to large OEMs, and it is the reason the blended margin sits where it does.</strong> Saying so on a call, rather than describing the arrangement as a full pass-through, is a piece of disclosure worth noting. <span class="src">The quote is verbatim from the Q4FY26 call (May-2026); segment revenue shares from the Q1FY27 deck; the asset-turn contrast from the Q4FY25 call.</span></figcaption>
+</figure>
+
+<h2 id="s10"><span class="n">10.</span> Where the margin ambition actually comes from</h2>
+
+<p>Management has a stated ambition of a double-digit EBITDA margin against a blended 8.0% today. The unusual part is the route: <strong>it does not depend on growth.</strong></p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 330" role="img" aria-label="The path from an eight percent blended margin to double digits runs through loss-making divisions turning positive and conversion capacity earning, rather than through revenue growth.">
+  <defs>
+    <marker id="w10" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a6f4a"/>
+    </marker>
+  </defs>
+
+  <text class="t-md" x="150" y="72" text-anchor="end">Today, blended</text>
+  <rect x="160" y="52" width="320" height="30" rx="4" fill="#8fb3d2"/>
+  <text class="t-md" x="492" y="72">8.0%</text>
+  <text class="t-sm t-mut" x="560" y="72">FY26 operating margin</text>
+
+  <text class="t-md" x="150" y="130" text-anchor="end">The ambition</text>
+  <rect x="160" y="110" width="400" height="30" rx="4" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.8"/>
+  <text class="t-md" x="572" y="130" fill="#1a6f4a">double digit</text>
+  <text class="t-sm" x="672" y="130" fill="#1a6f4a">and management says it is <tspan font-style="italic">"1 or 2 years away"</tspan></text>
+
+  <path d="M320,88 V106" stroke="#1a6f4a" stroke-width="2" marker-end="url(#w10)"/>
+
+  <rect x="20" y="166" width="296" height="146" rx="8" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.6"/>
+  <text class="t-md" x="168" y="192" text-anchor="middle" fill="#1a6f4a">Route 1</text>
+  <text class="t-md" x="168" y="214" text-anchor="middle" fill="#1a6f4a">Loss-makers turn positive</text>
+  <text class="t-sm" x="40" y="242" fill="#1a6f4a">Divisions currently losing money stop losing it.</text>
+  <text class="t-sm" x="40" y="262" fill="#1a6f4a">That is arithmetic on the existing book — it needs</text>
+  <text class="t-sm" x="40" y="282" fill="#1a6f4a">no additional customer and no additional volume.</text>
+  <text class="t-sm t-mut" x="40" y="304">The largest single lever, on management's account.</text>
+
+  <rect x="332" y="166" width="296" height="146" rx="8" fill="#eaf2fb" stroke="#2E75B6" stroke-width="1.6"/>
+  <text class="t-md" x="480" y="192" text-anchor="middle" fill="#1F4E79">Route 2</text>
+  <text class="t-md" x="480" y="214" text-anchor="middle" fill="#1F4E79">Conversion capacity earns</text>
+  <text class="t-sm" x="352" y="242" fill="#1F4E79">The machining assets move from depreciation-</text>
+  <text class="t-sm" x="352" y="262" fill="#1F4E79">without-revenue into full utilisation.</text>
+  <text class="t-sm" x="352" y="282" fill="#1F4E79">§8 is the first quarter of this happening.</text>
+  <text class="t-sm t-mut" x="352" y="304">Bounded by the segment being ~16% of the book.</text>
+
+  <rect x="644" y="166" width="296" height="146" rx="8" fill="#fdeceb" stroke="#f3cfcb" stroke-width="1.6"/>
+  <text class="t-md" x="792" y="192" text-anchor="middle" fill="#b3261e">Not this route</text>
+  <text class="t-md" x="792" y="214" text-anchor="middle" fill="#b3261e">Growth</text>
+  <text class="t-sm" x="664" y="242" fill="#b3261e">The three-year sales CAGR is <tspan font-weight="700">6%</tspan>. This is not,</text>
+  <text class="t-sm" x="664" y="262" fill="#b3261e">and has not been, a fast-growing company.</text>
+  <text class="t-sm" x="664" y="286" fill="#b3261e">A margin story that <tspan font-style="italic">needed</tspan> growth would be a</text>
+  <text class="t-sm" x="664" y="306" fill="#b3261e">much weaker one — this one does not.</text>
+</svg>
+<figcaption><strong>A margin ambition that rests on fixing what already exists is more testable than one that rests on winning new business.</strong> It is also slower and less exciting, and management dates it at one to two years rather than next quarter. The honest reading is that both routes are visible in the disclosure and neither is finished. <span class="src">The double-digit ambition, its dependence on loss-making divisions turning positive, and the "1 or 2 years away" timing are management's, from the profile's §3 drawn from call commentary; the 8.0% FY26 margin from the results and the 6% three-year sales CAGR from Screener. <span class="tag inf">MY INFERENCE</span> — separating the ambition into three labelled routes is my framing.</span></figcaption>
+</figure>
+
+<h2 id="s11"><span class="n">11.</span> Reading the industry through the numbers</h2>
+
+<div class="tw">
+<table>
+<thead><tr><th style="width:26%">Industry mechanism</th><th style="width:24%">Where it shows up</th><th style="width:30%">Latest reading</th><th style="width:20%">Source</th></tr></thead>
+<tbody>
+<tr><td>Conversion work carries no material</td><td>Management's description</td><td><em>"conversion businesses <strong>where there's no RM</strong>… returns will be clean double-digit or even higher"</em></td><td>Q2FY26 call</td></tr>
+<tr><td>…so revenue understates activity</td><td>Revenue vs capex deployed</td><td>14 quarters near <strong>₹1,050–1,150cr</strong> despite heavy capex</td><td>Q2FY26 call</td></tr>
+<tr><td>…and asset turnover looks poor</td><td>Asset turn on machining assets</td><td><strong>~1:1</strong> against 3–4x on a material-inclusive wheel line</td><td>Q4FY25 call</td></tr>
+<tr><td>…and the blended margin averages two businesses</td><td>Operating margin</td><td><strong>8.0% FY26 blended</strong>; conversion slice <em>"healthy IT type of margins"</em></td><td>FY26 results; Q2FY26 call</td></tr>
+<tr><td>The proof is in segment EBIT, not revenue</td><td>Industrial Components EBIT</td><td><strong>−30% YoY (Q3FY26) → +256% YoY (Q1FY27)</strong>; margin 1.2% → 3.3%</td><td>Q3FY26 &amp; Q1FY27 decks</td></tr>
+<tr><td>…kept in proportion</td><td>Segment share</td><td>Industrial Components = <strong>15.9% of revenue, 9.3% of EBIT</strong></td><td>Q1FY27 deck</td></tr>
+<tr><td>Equipment lead times gate entry</td><td>Order-to-commissioning</td><td><strong>12–15 months</strong>, then customer qualification before revenue</td><td>Management commentary</td></tr>
+<tr><td>Capex is a forward-looking disclosure</td><td>FY27 guidance</td><td><strong>₹261.84cr FY26 → ₹400–450cr FY27</strong>, revised up from ₹280–300cr one quarter earlier</td><td>Q4FY26 call; Q1FY27 deck</td></tr>
+<tr><td>The wheel half is an imperfect pass-through</td><td>Management's own caveat</td><td><em>"we don't think… we are able to get a complete pass-through on material cost"</em></td><td>Q4FY26 call</td></tr>
+<tr><td>Diversification is real</td><td>End-market mix</td><td><strong>No end market above 22%</strong> — CV 22, construction 17, tractor 16, car 14–15</td><td>Q4FY26 call</td></tr>
+<tr><td>Cash conversion is the quiet strength</td><td>CFO / operating profit</td><td><strong>124% FY26</strong>; 117%, 134%, 173% in three of the prior four years</td><td>Profile §4</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2 id="s12"><span class="n">12.</span> What is not disclosed</h2>
+
+<ul>
+<li><strong>The size of the conversion book in rupees — the biggest gap.</strong> Conversion economics are described qualitatively and repeatedly, but <strong>no figure is given for how much revenue is conversion versus material-based.</strong> Industrial Components at ~16% of revenue is an upper bound, not a measurement, because parts of that segment do carry material.</li>
+<li><strong>Margin by segment beyond EBIT.</strong> Segment EBIT is published, which is more than many peers give — but the conversion slice's margin is described only as <em>"clean double-digit"</em> and <em>"healthy IT type,"</em> never quantified.</li>
+<li><strong>Which divisions are loss-making, and by how much.</strong> The double-digit margin ambition rests on them turning (§10), and they are not named or sized.</li>
+<li><strong>Capacity and utilisation in the machining business</strong> — so there is no way to judge how much of the ₹400–450cr FY27 capex is expansion versus replacement, or how full the existing assets are.</li>
+<li><strong>What changed to move FY27 capex guidance ~50% in one quarter.</strong> The number was revised; the reason was not given, and Q1 carries no Q&amp;A.</li>
+<li><strong>Customer concentration.</strong> The end-market mix is disclosed; the customer mix is not, in a business whose conversion work depends on a small number of wind-turbine makers.</li>
+</ul>
+
+<h2 id="s13"><span class="n">13.</span> Glossary</h2>
+
+<dl class="glos">
+<dt>Conversion business</dt><dd>Work where the customer supplies the raw material and the supplier bills only its processing. No metal in the supplier's revenue, no inventory, no metal-price risk.</dd>
+<dt>Material-based business</dt><dd>The opposite: the supplier buys the metal, and its price flows through both cost and revenue. The wheel business.</dd>
+<dt>Pass-through</dt><dd>Recovering a change in input cost from the customer. Management states its recovery is not complete over the longer term.</dd>
+<dt>Asset turnover</dt><dd>Revenue per rupee of assets. Structurally ~1:1 in conversion work and 3–4x in material-based work — a definitional difference, not a performance one.</dd>
+<dt>Large-casting machining</dt><dd>Machining multi-tonne iron castings to fine tolerance. The core of Wheels India's conversion work.</dd>
+<dt>WEG</dt><dd>Wind Energy Generator. Offshore WEG castings are larger again and correspondingly harder to machine.</dd>
+<dt>Gearbox housing / hub</dt><dd>Large wind-turbine castings that hold shafts and bearings in alignment. Bores and faces must be machined precisely.</dd>
+<dt>Industrial Components</dt><dd>Wheels India's reporting segment containing windmill machining, fabrication, construction wheels and hydraulic cylinders — where the conversion economics live.</dd>
+<dt>Automotive Components</dt><dd>The other segment: steel and aluminium wheels, air suspension and lift axles. 84% of Q1FY27 revenue.</dd>
+<dt>Air suspension</dt><dd>An air-spring system replacing steel leaf springs, sold into buses. Higher value per vehicle from an existing customer.</dd>
+<dt>Lift axle</dt><dd>An axle that can be raised when a truck runs unladen, cutting tyre wear and fuel use.</dd>
+<dt>Segment EBIT</dt><dd>Operating profit of one reporting segment. For this company, the number where conversion work becomes visible.</dd>
+</dl>
+
+<hr>
+
+<h3>Sources</h3>
+<p class="src"><strong>Transcripts and decks:</strong> Q4FY26 (May-2026), Q2FY26 (Oct-2025) and Q4FY25 (May-2025) calls — the Q&amp;A record — plus the Q1FY27, Q3FY26, Q1FY26 and Q3FY25 investor decks, and the August-2026 exchange filings (postal ballot, revised shareholding pattern, board outcome, Reg 10 disclosures). Held in <code class="src">Fetched Concalls/WHEELS/</code>.<br>
+<strong>⚠️ A structural limit on the record:</strong> Wheels India holds <strong>only two Q&amp;A calls a year</strong> — Q1 and Q3 are decks with no questions. Every verbatim quote on this page therefore comes from a Q2 or Q4 call, and disclosures made in a Q1 or Q3 deck (such as the FY27 capex revision in §7) go unquestioned for six months.<br>
+<strong>Extraction discipline:</strong> every figure comes from a deck table, a results filing or spoken commentary on a call. <strong>No number on this page is read off a chart in a deck.</strong> The conversion model in §2 and the capex-to-revenue sequence in §7 were laid out with Graphviz; all other figures are hand-authored SVG.<br>
+<strong>Companion document:</strong> <code class="src">Company Profiles/WHEELS.md</code> carries the financials, the TSF group background, the ₹180cr promoter preferential issue, valuation, conviction and risks. This page makes no investment judgement.</p>
+
+</body>
+</html>
