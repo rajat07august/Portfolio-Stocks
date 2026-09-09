@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How an Integrated EPC Contractor Works — Sathlokhar Synergys Industry Primer</title>
+<meta name="robots" content="noindex,nofollow">
+<style>
+:root{
+  --navy:#1F4E79; --blue:#2E75B6; --ink:#16202b; --mut:#5a6a78; --bg:#fafbfc;
+  --card:#ffffff; --line:#e3e8ee; --amber:#a2650a; --amberbg:#fff8e6;
+  --red:#b3261e; --redbg:#fdeceb; --green:#1a6f4a; --greenbg:#ecf7f1;
+  color-scheme: light;
+}
+*{box-sizing:border-box}
+body{
+  max-width:1040px; margin:0 auto; padding:22px 20px 80px;
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+  line-height:1.62; color:var(--ink); background:var(--bg); font-size:15px;
+}
+.nav{display:flex; gap:18px; flex-wrap:wrap; margin-bottom:12px; font-size:13.5px}
+.nav a{color:var(--navy); font-weight:600; text-decoration:none}
+.nav a:hover{text-decoration:underline; color:var(--blue)}
+.topbar{background:linear-gradient(135deg,#1F4E79 0%,#2E75B6 100%); color:#fff; padding:20px 24px; border-radius:10px; margin-bottom:22px}
+.topbar h1{margin:0 0 6px; font-size:25px; line-height:1.25; color:#fff; border:0; padding:0}
+.topbar .sub{font-size:14.5px; opacity:.92}
+.topbar .meta{font-size:12.5px; opacity:.8; margin-top:10px}
+h2{color:var(--navy); font-size:20px; margin:44px 0 6px; border-left:4px solid var(--navy); padding-left:12px}
+h2 .n{color:var(--blue); font-weight:700}
+h3{color:var(--blue); font-size:16px; margin:26px 0 8px}
+p{margin:11px 0}
+ul{margin:10px 0; padding-left:22px} li{margin:6px 0}
+.lede{font-size:15.5px; color:#2c3b49}
+.box{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 18px; margin:18px 0}
+.box.warn{background:var(--amberbg); border-color:#f0dcae}
+.box.red{background:var(--redbg); border-color:#f3cfcb}
+.box.good{background:var(--greenbg); border-color:#c7e4d5}
+.box h4{margin:0 0 6px; font-size:14px; color:var(--navy); text-transform:uppercase; letter-spacing:.04em}
+.src{color:var(--mut); font-size:12.5px}
+code.src{background:transparent; padding:0}
+figure.dg{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px 16px 12px; margin:22px 0}
+figure.dg svg{width:100%; height:auto; display:block; color:#3d4b5c}
+figure.dg figcaption{font-size:13px; color:var(--mut); margin-top:12px; padding-top:10px; border-top:1px dashed var(--line)}
+svg text:not([fill]){fill:currentColor}
+.t-lg{font-size:15px; font-weight:700}
+.t-md{font-size:13.5px; font-weight:700}
+.t{font-size:12.5px}
+.t-sm{font-size:11px}
+.t-mut{opacity:.7}
+.tw{overflow-x:auto; margin:16px 0}
+table{border-collapse:collapse; width:100%; min-width:620px; font-size:13.5px; background:var(--card)}
+th,td{border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top}
+th{background:#eef3f8; color:var(--navy); font-weight:700}
+.toc{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 20px; font-size:14px}
+.toc ol{margin:6px 0; padding-left:22px} .toc li{margin:4px 0}
+.toc a{color:var(--navy); text-decoration:none} .toc a:hover{text-decoration:underline}
+.glos{display:grid; grid-template-columns:170px 1fr; gap:6px 14px; font-size:13.5px}
+.glos dt{font-weight:700; color:var(--navy)} .glos dd{margin:0}
+@media (max-width:640px){ .glos{grid-template-columns:1fr} .glos dt{margin-top:8px} }
+.tag{display:inline-block; font-size:11px; font-weight:700; letter-spacing:.03em; padding:2px 7px; border-radius:20px; vertical-align:middle}
+.tag.fact{background:#e8f0f8; color:var(--navy)}
+.tag.inf{background:var(--amberbg); color:var(--amber); border:1px solid #ecd9a8}
+blockquote{border-left:4px solid #2E75B6; background:#f4f8fc; margin:16px 0; padding:12px 18px; font-size:14px}
+hr{border:0; border-top:1px solid var(--line); margin:38px 0}
+</style>
+</head>
+<body>
+
+<div class="nav">
+  <a href="https://portfolio-stocks-chi.vercel.app/index.html">&larr; Dashboard</a>
+  <a href="https://portfolio-stocks-chi.vercel.app/profile.html?stock=SATHLOKHAR">Full profile &mdash; SATHLOKHAR &rarr;</a>
+</div>
+
+<div class="topbar">
+  <h1>How an integrated EPC contractor actually works</h1>
+  <div class="sub">An industry primer for Sathlokhar Synergys &mdash; why a construction company can book record profits and still consume cash every single year, and why the one ratio a screener shows you for this business points exactly the wrong way</div>
+  <div class="meta">Built 9-Sep-2026 &middot; Sourced from Sathlokhar's own transcripts, investor decks and audited filings on disk &middot; Companion to <strong>Company Profiles/SATHLOKHAR.md</strong></div>
+</div>
+
+<p class="lede">This page explains the <strong>industry</strong>, not the investment case. What follows is the mechanism: what an EPC contractor physically hands over, why doing five trades in-house rather than one changes the economics, what a pre-engineered building actually is and why the factories that make them have to be regional &mdash; and then the thing that governs this entire sector, which is that <strong>the moment you record revenue, the moment you are allowed to send a bill, and the moment cash arrives are three different dates that can sit years apart.</strong></p>
+
+<div class="box warn">
+<h4>How to read this</h4>
+<p style="margin:6px 0"><span class="tag fact">FACT</span> Everything unmarked comes from Sathlokhar's own filings &mdash; earnings-call transcripts, investor decks and audited results &mdash; with the source named in grey after the claim.</p>
+<p style="margin:6px 0"><span class="tag inf">MY INFERENCE</span> Where the framing is mine rather than management's, it is marked as such.</p>
+<p style="margin:6px 0; color:#5a6a78; font-size:13.5px"><strong>No investment judgement appears on this page.</strong> Valuation, conviction, the promoter's legal proceedings and the risk register live in the profile, and the two are meant to be read together.</p>
+</div>
+
+<div class="toc">
+<strong>Contents</strong>
+<ol>
+<li><a href="#s1">What this company actually hands over</a></li>
+<li><a href="#s2">The value chain &mdash; one contract instead of nine</a></li>
+<li><a href="#s3">The 35 / 35 / 30 split, and why it explains the whole strategy</a></li>
+<li><a href="#s4">What a pre-engineered building is</a></li>
+<li><a href="#s5">Why PEB factories have to be regional</a></li>
+<li><a href="#s6">How an order is born</a></li>
+<li><a href="#s7">Inside a project &mdash; and why revenue is back-loaded</a></li>
+<li><a href="#s8"><strong>Reading the numbers I &mdash; revenue, billing and cash are three different dates</strong></a></li>
+<li><a href="#s9"><strong>Reading the numbers II &mdash; the ratio that points backwards</strong></a></li>
+<li><a href="#s10">Why growth itself consumes the cash</a></li>
+<li><a href="#s11">Steel, cement, and who carries the price</a></li>
+<li><a href="#s12">Reading the industry through the numbers</a></li>
+<li><a href="#s13">What is not disclosed &middot; Glossary &middot; Sources</a></li>
+</ol>
+</div>
+
+<h2 id="s1"><span class="n">1.</span> What this company actually hands over</h2>
+
+<p>Most industrial companies sell an object. An EPC contractor sells something stranger: <strong>a working building, on a date, for a fixed price.</strong> EPC stands for <em>engineer, procure, construct</em> &mdash; the contractor designs it, buys everything that goes into it, builds it, and hands over the keys.</p>
+
+<p>Sathlokhar describes its own scope in one sentence on every call: <em>&ldquo;end-to-end turnkey construction services across design, civil construction, pre-engineered building construction, MEP systems, solar installation, interior works and finishes, utilities, and statutory approvals.&rdquo;</em> <span class="src">Q1FY27 transcript, opening remarks</span></p>
+
+<p><strong>The word doing the work there is <em>turnkey</em>.</strong> The client signs one contract and receives a finished factory. Every trade in between &mdash; the drawings, the government approvals, the foundations, the steel frame, the plumbing, the electrical distribution, the rooftop solar, the flooring &mdash; is the contractor's problem, not the client's.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 402" role="img" aria-label="Cross-section of an industrial building showing the scopes an integrated EPC contractor delivers: civil foundations and slab, PEB steel frame, roof sheeting and purlins, cladding, MEP services, rooftop solar and interior fit-out, with approvals done before any of it.">
+  <text x="16" y="22" class="t-md" fill="#1F4E79">What the client buys: one contract, seven trades</text>
+
+  <!-- ===== legend column ===== -->
+  <g>
+    <rect x="16" y="52" width="14" height="14" rx="2" fill="#2E75B6"/>
+    <text x="38" y="64" class="t" fill="#2c3b49">PEB steel frame</text>
+    <rect x="16" y="80" width="14" height="14" rx="2" fill="#8fb6dc"/>
+    <text x="38" y="92" class="t" fill="#2c3b49">Roof sheeting &amp; purlins</text>
+    <rect x="16" y="108" width="14" height="14" rx="2" fill="#dbe6f1" stroke="#a9c6e2"/>
+    <text x="38" y="120" class="t" fill="#2c3b49">Cladding &amp; shutters</text>
+    <rect x="16" y="136" width="14" height="14" rx="2" fill="#1a4a70"/>
+    <text x="38" y="148" class="t" fill="#2c3b49">Rooftop solar</text>
+    <rect x="16" y="164" width="14" height="14" rx="2" fill="#1a6f4a"/>
+    <text x="38" y="176" class="t" fill="#2c3b49">MEP &mdash; pipes, cable</text>
+    <text x="38" y="192" class="t" fill="#2c3b49">trays, HVAC, power</text>
+    <rect x="16" y="206" width="14" height="14" rx="2" fill="#9aa7b4"/>
+    <text x="38" y="218" class="t" fill="#2c3b49">Civil &mdash; footings, slab</text>
+    <rect x="16" y="234" width="14" height="14" rx="2" fill="#eef2f6" stroke="#c9d3dd"/>
+    <text x="38" y="246" class="t" fill="#2c3b49">Interior fit-out</text>
+  </g>
+
+  <!-- ===== building ===== -->
+  <!-- ground -->
+  <rect x="205" y="330" width="500" height="9" fill="#c9b79c"/>
+  <rect x="205" y="339" width="500" height="22" fill="#e0d5c4"/>
+  <!-- footings -->
+  <rect x="228" y="306" width="46" height="26" fill="#9aa7b4"/>
+  <rect x="432" y="306" width="46" height="26" fill="#9aa7b4"/>
+  <rect x="636" y="306" width="46" height="26" fill="#9aa7b4"/>
+  <!-- slab -->
+  <rect x="218" y="298" width="474" height="9" fill="#b7c1cb"/>
+  <!-- cladding -->
+  <rect x="248" y="212" width="196" height="86" fill="#dbe6f1"/>
+  <rect x="466" y="212" width="198" height="86" fill="#dbe6f1"/>
+  <!-- roller shutter -->
+  <rect x="500" y="238" width="86" height="60" fill="#b9c6d3"/>
+  <g stroke="#9aa7b4" stroke-width="1">
+    <line x1="500" y1="250" x2="586" y2="250"/><line x1="500" y1="262" x2="586" y2="262"/>
+    <line x1="500" y1="274" x2="586" y2="274"/><line x1="500" y1="286" x2="586" y2="286"/>
+  </g>
+  <!-- interior floor band -->
+  <rect x="248" y="290" width="416" height="8" fill="#eef2f6"/>
+  <!-- roof sheeting -->
+  <polygon points="212,180 455,100 698,180 698,171 455,91 212,171" fill="#8fb6dc"/>
+  <!-- tapered columns -->
+  <polygon points="222,298 250,298 244,184 228,184" fill="#2E75B6"/>
+  <polygon points="688,298 660,298 666,184 682,184" fill="#2E75B6"/>
+  <polygon points="444,298 466,298 462,128 448,128" fill="#5a93cc"/>
+  <!-- tapered rafters -->
+  <polygon points="228,184 244,184 455,122 455,106" fill="#2E75B6"/>
+  <polygon points="682,184 666,184 455,122 455,106" fill="#2E75B6"/>
+  <!-- purlins -->
+  <g fill="#1F4E79" opacity=".55">
+    <rect x="286" y="158" width="7" height="7"/><rect x="346" y="138" width="7" height="7"/>
+    <rect x="406" y="118" width="7" height="7"/><rect x="497" y="118" width="7" height="7"/>
+    <rect x="557" y="138" width="7" height="7"/><rect x="617" y="158" width="7" height="7"/>
+  </g>
+  <!-- solar panels -->
+  <g fill="#1a4a70">
+    <polygon points="290,152 340,136 352,143 302,159"/>
+    <polygon points="360,129 410,113 422,120 372,136"/>
+    <polygon points="488,113 538,129 526,136 476,120"/>
+    <polygon points="558,136 608,152 596,159 546,143"/>
+  </g>
+  <!-- MEP services -->
+  <g stroke="#1a6f4a" stroke-width="3" fill="none"><path d="M262 232 H436"/><path d="M474 232 H650"/></g>
+  <g stroke="#a2650a" stroke-width="3" fill="none"><path d="M262 248 H436"/><path d="M474 248 H650"/></g>
+  <text x="205" y="376" class="t-sm" fill="#7a6a55">Ground level</text>
+  <text x="705" y="376" class="t-sm" text-anchor="end" fill="#5a6a78">Clear-span bays either side of the central column</text>
+
+  <!-- ===== right panel ===== -->
+  <rect x="738" y="52" width="208" height="300" rx="8" fill="#fff8e6" stroke="#e0b062" stroke-width="1.5"/>
+  <text x="752" y="76" class="t-md" fill="#8a5216">Before any of it</text>
+  <text x="752" y="100" class="t" fill="#5a4413">Architectural design</text>
+  <text x="752" y="120" class="t" fill="#5a4413">Structural drawings</text>
+  <text x="752" y="140" class="t" fill="#5a4413">Statutory approvals</text>
+  <text x="752" y="160" class="t" fill="#5a4413">Layout planning</text>
+  <line x1="752" y1="178" x2="932" y2="178" stroke="#e0b062" stroke-width="1"/>
+  <text x="752" y="202" class="t-sm" fill="#8a5216">All of this is designed, paid</text>
+  <text x="752" y="218" class="t-sm" fill="#8a5216">for and delivered by the</text>
+  <text x="752" y="234" class="t-sm" fill="#8a5216">contractor &mdash; and it is why</text>
+  <text x="752" y="250" class="t-sm" fill="#8a5216">the early months of a job are</text>
+  <text x="752" y="266" class="t-sm" fill="#8a5216">pure cash outflow.</text>
+  <text x="752" y="296" class="t-sm" fill="#8a5216">Sathlokhar lists &ldquo;statutory</text>
+  <text x="752" y="312" class="t-sm" fill="#8a5216">approvals&rdquo; as a scope</text>
+  <text x="752" y="328" class="t-sm" fill="#8a5216">line of its own.</text>
+</svg>
+<figcaption><strong>One purchase order, seven trades.</strong> A conventional developer would contract each of these separately &mdash; an architect, a civil contractor, a steel fabricator, an electrical contractor, a plumber, a solar installer, an interiors firm. An integrated EPC contractor signs one contract for all of it. <span class="src">Scope list verbatim from the Q1FY27 and Q4FY26 transcripts and the Q1FY27 investor deck. Drawing is schematic, not to scale.</span></figcaption>
+</figure>
+
+<p>The clients are industrial. Sathlokhar's named orders in a single recent quarter include <strong>Reliance Consumer Products</strong> (₹102.71cr, Kurnool), a <strong>Taiwan-based SEZ developer</strong> at Panapakkam (₹105.37cr plus ₹22.5cr), <strong>Carrier Airconditioning &amp; Refrigeration</strong> (₹94.11cr including GST, at Sri City), <strong>TAFE</strong>, <strong>EDAC Engineering</strong>, <strong>Ceylon Beverages</strong> and <strong>Anabond</strong>. <span class="src">Q1FY27 transcript and 11-Aug-2026 filing</span></p>
+
+<div class="box">
+<h4>The one distinction to hold on to</h4>
+<p style="margin:6px 0">A factory building is not a <em>product</em> the contractor makes and sells from stock. It is a <strong>contract the contractor performs over time</strong> &mdash; typically <strong>three to ten months</strong> for Sathlokhar. <span class="src">Q1FY27 investor deck</span> Almost every accounting oddity in this sector, and everything in sections 8 to 10 below, follows from that single difference.</p>
+</div>
+
+<h2 id="s2"><span class="n">2.</span> The value chain &mdash; one contract instead of nine</h2>
+
+<p>To see what &ldquo;integrated&rdquo; buys, look at what the client avoids. A company building a pharma plant has a choice. It can appoint nine specialists and manage the seams between them itself &mdash; and the seams are where construction projects fail, because when the electrical contractor cannot start until the civil contractor finishes and the civil contractor is late, nobody owns the delay. Or it can sign one contract and make the delay someone else's problem.</p>
+
+<p>Sathlokhar's stated differentiator is exactly this: <em>&ldquo;our fully integrated execution model with dedicated in-house architecture, civil, PEB and MEP teams enabling better project control, faster execution timelines, cost efficiencies and superior delivery quality.&rdquo;</em> <span class="src">Q4FY26 transcript</span></p>
+
+<figure class="dg">
+<svg
+ viewBox="0.00 0.00 948.00 296.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 292)">
+<title>C</title>
+<g id="clust1" class="cluster">
+<title>cluster_ssegl</title>
+<path fill="none" stroke="#2e75b6" stroke-width="2" d="M242.17,-204C242.17,-204 769.05,-204 769.05,-204 775.05,-204 781.05,-210 781.05,-216 781.05,-216 781.05,-268 781.05,-268 781.05,-274 775.05,-280 769.05,-280 769.05,-280 242.17,-280 242.17,-280 236.17,-280 230.17,-274 230.17,-268 230.17,-268 230.17,-216 230.17,-216 230.17,-210 236.17,-204 242.17,-204"/>
+<text xml:space="preserve" text-anchor="middle" x="505.61" y="-265.07" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.50" fill="#1f4e79">SSEGL — one contract, one point of accountability</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_sup</title>
+<path fill="none" stroke="#c9d3dd" stroke-dasharray="5,2" d="M223.8,-8C223.8,-8 330.8,-8 330.8,-8 336.8,-8 342.8,-14 342.8,-20 342.8,-20 342.8,-184 342.8,-184 342.8,-190 336.8,-196 330.8,-196 330.8,-196 223.8,-196 223.8,-196 217.8,-196 211.8,-190 211.8,-184 211.8,-184 211.8,-20 211.8,-20 211.8,-14 217.8,-8 223.8,-8"/>
+<text xml:space="preserve" text-anchor="middle" x="277.3" y="-181.55" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00" fill="#5a6a78">Bought in</text>
+</g>
+
+<g id="node1" class="node">
+<title>client</title>
+<path fill="#1f4e79" stroke="#1f4e79" stroke-width="1.4" d="M124.8,-254C124.8,-254 12,-254 12,-254 6,-254 0,-248 0,-242 0,-242 0,-222 0,-222 0,-216 6,-210 12,-210 12,-210 124.8,-210 124.8,-210 130.8,-210 136.8,-216 136.8,-222 136.8,-222 136.8,-242 136.8,-242 136.8,-248 130.8,-254 124.8,-254"/>
+<text xml:space="preserve" text-anchor="middle" x="68.4" y="-239.07" font-family="Helvetica,sans-Serif" font-size="11.50" fill="white">The client</text>
+<text xml:space="preserve" text-anchor="middle" x="68.4" y="-227.07" font-family="Helvetica,sans-Serif" font-size="11.50" fill="white">wants a factory,</text>
+<text xml:space="preserve" text-anchor="middle" x="68.4" y="-215.07" font-family="Helvetica,sans-Serif" font-size="11.50" fill="white">warehouse or campus</text>
+</g>
+
+<g id="node2" class="node">
+<title>a</title>
+<path fill="#e8f0f8" stroke="#2e75b6" stroke-width="1.4" d="M304.42,-251.8C304.42,-251.8 250.17,-251.8 250.17,-251.8 244.17,-251.8 238.17,-245.8 238.17,-239.8 238.17,-239.8 238.17,-224.2 238.17,-224.2 238.17,-218.2 244.17,-212.2 250.17,-212.2 250.17,-212.2 304.42,-212.2 304.42,-212.2 310.42,-212.2 316.42,-218.2 316.42,-224.2 316.42,-224.2 316.42,-239.8 316.42,-239.8 316.42,-245.8 310.42,-251.8 304.42,-251.8"/>
+<text xml:space="preserve" text-anchor="middle" x="277.3" y="-233.07" font-family="Helvetica,sans-Serif" font-size="11.50">Architecture</text>
+<text xml:space="preserve" text-anchor="middle" x="277.3" y="-221.07" font-family="Helvetica,sans-Serif" font-size="11.50">&amp; approvals</text>
+</g>
+
+<g id="edge1" class="edge">
+<title>client&#45;&gt;a</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.3" d="M137.43,-232C167.53,-232 202.18,-232 229.34,-232"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.3" points="229.05,-234.28 235.55,-232 229.05,-229.73 229.05,-234.28"/>
+<text xml:space="preserve" text-anchor="middle" x="178.3" y="-233.75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#5a6a78"> one PO </text>
+</g>
+
+<g id="node3" class="node">
+<title>b</title>
+<path fill="#e8f0f8" stroke="#2e75b6" stroke-width="1.4" d="M447.55,-251.8C447.55,-251.8 391.8,-251.8 391.8,-251.8 385.8,-251.8 379.8,-245.8 379.8,-239.8 379.8,-239.8 379.8,-224.2 379.8,-224.2 379.8,-218.2 385.8,-212.2 391.8,-212.2 391.8,-212.2 447.55,-212.2 447.55,-212.2 453.55,-212.2 459.55,-218.2 459.55,-224.2 459.55,-224.2 459.55,-239.8 459.55,-239.8 459.55,-245.8 453.55,-251.8 447.55,-251.8"/>
+<text xml:space="preserve" text-anchor="middle" x="419.67" y="-233.07" font-family="Helvetica,sans-Serif" font-size="11.50">Civil</text>
+<text xml:space="preserve" text-anchor="middle" x="419.67" y="-221.07" font-family="Helvetica,sans-Serif" font-size="11.50">construction</text>
+</g>
+
+<g id="edge2" class="edge">
+<title>a&#45;&gt;b</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.3" d="M317.03,-232C333.77,-232 353.51,-232 371.13,-232"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.3" points="371.12,-234.28 377.62,-232 371.12,-229.73 371.12,-234.28"/>
+</g>
+
+<g id="node4" class="node">
+<title>c</title>
+<path fill="#e8f0f8" stroke="#2e75b6" stroke-width="1.4" d="M554.3,-251.8C554.3,-251.8 516.55,-251.8 516.55,-251.8 510.55,-251.8 504.55,-245.8 504.55,-239.8 504.55,-239.8 504.55,-224.2 504.55,-224.2 504.55,-218.2 510.55,-212.2 516.55,-212.2 516.55,-212.2 554.3,-212.2 554.3,-212.2 560.3,-212.2 566.3,-218.2 566.3,-224.2 566.3,-224.2 566.3,-239.8 566.3,-239.8 566.3,-245.8 560.3,-251.8 554.3,-251.8"/>
+<text xml:space="preserve" text-anchor="middle" x="535.42" y="-233.07" font-family="Helvetica,sans-Serif" font-size="11.50">PEB</text>
+<text xml:space="preserve" text-anchor="middle" x="535.42" y="-221.07" font-family="Helvetica,sans-Serif" font-size="11.50">structure</text>
+</g>
+
+<g id="edge3" class="edge">
+<title>b&#45;&gt;c</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.3" d="M460.14,-232C471.71,-232 484.34,-232 495.85,-232"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.3" points="495.53,-234.28 502.03,-232 495.53,-229.73 495.53,-234.28"/>
+</g>
+
+<g id="node5" class="node">
+<title>d</title>
+<path fill="#e8f0f8" stroke="#2e75b6" stroke-width="1.4" d="M658.8,-251.8C658.8,-251.8 623.3,-251.8 623.3,-251.8 617.3,-251.8 611.3,-245.8 611.3,-239.8 611.3,-239.8 611.3,-224.2 611.3,-224.2 611.3,-218.2 617.3,-212.2 623.3,-212.2 623.3,-212.2 658.8,-212.2 658.8,-212.2 664.8,-212.2 670.8,-218.2 670.8,-224.2 670.8,-224.2 670.8,-239.8 670.8,-239.8 670.8,-245.8 664.8,-251.8 658.8,-251.8"/>
+<text xml:space="preserve" text-anchor="middle" x="641.05" y="-233.07" font-family="Helvetica,sans-Serif" font-size="11.50">MEP</text>
+<text xml:space="preserve" text-anchor="middle" x="641.05" y="-221.07" font-family="Helvetica,sans-Serif" font-size="11.50">systems</text>
+</g>
+
+<g id="edge4" class="edge">
+<title>c&#45;&gt;d</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.3" d="M566.96,-232C578.1,-232 590.84,-232 602.52,-232"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.3" points="602.34,-234.28 608.84,-232 602.34,-229.73 602.34,-234.28"/>
+</g>
+
+<g id="node6" class="node">
+<title>e</title>
+<path fill="#e8f0f8" stroke="#2e75b6" stroke-width="1.4" d="M761.05,-251.8C761.05,-251.8 727.8,-251.8 727.8,-251.8 721.8,-251.8 715.8,-245.8 715.8,-239.8 715.8,-239.8 715.8,-224.2 715.8,-224.2 715.8,-218.2 721.8,-212.2 727.8,-212.2 727.8,-212.2 761.05,-212.2 761.05,-212.2 767.05,-212.2 773.05,-218.2 773.05,-224.2 773.05,-224.2 773.05,-239.8 773.05,-239.8 773.05,-245.8 767.05,-251.8 761.05,-251.8"/>
+<text xml:space="preserve" text-anchor="middle" x="744.42" y="-233.07" font-family="Helvetica,sans-Serif" font-size="11.50">Solar &amp;</text>
+<text xml:space="preserve" text-anchor="middle" x="744.42" y="-221.07" font-family="Helvetica,sans-Serif" font-size="11.50">interiors</text>
+</g>
+
+<g id="edge5" class="edge">
+<title>d&#45;&gt;e</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.3" d="M671.37,-232C682.48,-232 695.26,-232 706.94,-232"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.3" points="706.75,-234.28 713.25,-232 706.75,-229.73 706.75,-234.28"/>
+</g>
+
+<g id="node10" class="node">
+<title>bldg</title>
+<path fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.4" d="M928.45,-251.8C928.45,-251.8 830.05,-251.8 830.05,-251.8 824.05,-251.8 818.05,-245.8 818.05,-239.8 818.05,-239.8 818.05,-224.2 818.05,-224.2 818.05,-218.2 824.05,-212.2 830.05,-212.2 830.05,-212.2 928.45,-212.2 928.45,-212.2 934.45,-212.2 940.45,-218.2 940.45,-224.2 940.45,-224.2 940.45,-239.8 940.45,-239.8 940.45,-245.8 934.45,-251.8 928.45,-251.8"/>
+<text xml:space="preserve" text-anchor="middle" x="879.25" y="-233.07" font-family="Helvetica,sans-Serif" font-size="11.50" fill="#125035">A finished,</text>
+<text xml:space="preserve" text-anchor="middle" x="879.25" y="-221.07" font-family="Helvetica,sans-Serif" font-size="11.50" fill="#125035">working building</text>
+</g>
+
+<g id="edge6" class="edge">
+<title>e&#45;&gt;bldg</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.3" d="M773.59,-232C784.15,-232 796.66,-232 809.3,-232"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.3" points="809.13,-234.28 815.63,-232 809.13,-229.73 809.13,-234.28"/>
+</g>
+
+<g id="node7" class="node">
+<title>steel</title>
+<path fill="#f4f6f9" stroke="#c9d3dd" stroke-width="1.4" d="M312.67,-167.8C312.67,-167.8 241.92,-167.8 241.92,-167.8 235.92,-167.8 229.92,-161.8 229.92,-155.8 229.92,-155.8 229.92,-140.2 229.92,-140.2 229.92,-134.2 235.92,-128.2 241.92,-128.2 241.92,-128.2 312.67,-128.2 312.67,-128.2 318.67,-128.2 324.67,-134.2 324.67,-140.2 324.67,-140.2 324.67,-155.8 324.67,-155.8 324.67,-161.8 318.67,-167.8 312.67,-167.8"/>
+<text xml:space="preserve" text-anchor="middle" x="277.3" y="-149.07" font-family="Helvetica,sans-Serif" font-size="11.50" fill="#3d4b5c">Steel &amp; cement</text>
+<text xml:space="preserve" text-anchor="middle" x="277.3" y="-137.07" font-family="Helvetica,sans-Serif" font-size="11.50" fill="#3d4b5c">pass&#45;through</text>
+</g>
+
+<g id="edge7" class="edge">
+<title>steel&#45;&gt;b</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.3" stroke-dasharray="5,2" d="M312.28,-168.33C331.88,-180.06 356.66,-194.89 377.38,-207.29"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.3" points="376.09,-209.17 382.83,-210.55 378.42,-205.26 376.09,-209.17"/>
+</g>
+
+<g id="node8" class="node">
+<title>job</title>
+<path fill="#fdeceb" stroke="#d99a94" stroke-width="1.4" d="M322.8,-55.8C322.8,-55.8 231.8,-55.8 231.8,-55.8 225.8,-55.8 219.8,-49.8 219.8,-43.8 219.8,-43.8 219.8,-28.2 219.8,-28.2 219.8,-22.2 225.8,-16.2 231.8,-16.2 231.8,-16.2 322.8,-16.2 322.8,-16.2 328.8,-16.2 334.8,-22.2 334.8,-28.2 334.8,-28.2 334.8,-43.8 334.8,-43.8 334.8,-49.8 328.8,-55.8 322.8,-55.8"/>
+<text xml:space="preserve" text-anchor="middle" x="277.3" y="-37.08" font-family="Helvetica,sans-Serif" font-size="11.50" fill="#8c241d">PEB job&#45;workers</text>
+<text xml:space="preserve" text-anchor="middle" x="277.3" y="-25.07" font-family="Helvetica,sans-Serif" font-size="11.50" fill="#8c241d">no owned plant yet</text>
+</g>
+
+<g id="edge8" class="edge">
+<title>job&#45;&gt;c</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.3" stroke-dasharray="5,2" d="M329.42,-56.41C334.04,-58.78 338.57,-61.32 342.8,-64 408.87,-105.85 475.06,-170.01 509.71,-205.71"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.3" points="507.88,-207.1 514.03,-210.2 511.16,-203.94 507.88,-207.1"/>
+</g>
+
+<g id="node9" class="node">
+<title>subc</title>
+<path fill="#f4f6f9" stroke="#c9d3dd" stroke-width="1.4" d="M302.55,-111.8C302.55,-111.8 252.05,-111.8 252.05,-111.8 246.05,-111.8 240.05,-105.8 240.05,-99.8 240.05,-99.8 240.05,-84.2 240.05,-84.2 240.05,-78.2 246.05,-72.2 252.05,-72.2 252.05,-72.2 302.55,-72.2 302.55,-72.2 308.55,-72.2 314.55,-78.2 314.55,-84.2 314.55,-84.2 314.55,-99.8 314.55,-99.8 314.55,-105.8 308.55,-111.8 302.55,-111.8"/>
+<text xml:space="preserve" text-anchor="middle" x="277.3" y="-93.08" font-family="Helvetica,sans-Serif" font-size="11.50" fill="#3d4b5c">Civil sub&#45;</text>
+<text xml:space="preserve" text-anchor="middle" x="277.3" y="-81.08" font-family="Helvetica,sans-Serif" font-size="11.50" fill="#3d4b5c">contractors</text>
+</g>
+
+<g id="edge9" class="edge">
+<title>subc&#45;&gt;b</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.3" stroke-dasharray="5,2" d="M315.16,-103.78C324.79,-107.94 334.72,-113.3 342.8,-120 370.81,-143.24 392.72,-179.38 405.64,-204.29"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.3" points="403.5,-205.11 408.47,-209.88 407.56,-203.06 403.5,-205.11"/>
+</g>
+</g>
+</svg>
+<figcaption><strong>The contractor absorbs the seams.</strong> Everything inside the blue boundary is done by Sathlokhar's own teams; the dashed boxes are bought in. Note the red box &mdash; <strong>the PEB structure, one of the three largest scope lines, is currently made by third-party job-workers, not by Sathlokhar.</strong> Section 3 is about why that single box explains the company's entire capital-expenditure programme. <span class="src">Figure computed with Graphviz from the scope descriptions in the Q1FY27 and Q4FY26 transcripts.</span></figcaption>
+</figure>
+
+<p>There is a second, less obvious consequence of integration, and management states it as a cost fact rather than a quality one:</p>
+
+<blockquote>&ldquo;Today, only around <strong>30% to 35% of our operations demand a conventional civil labor</strong> while the majority of execution is driven by engineering and technical professionals and this model enhances scalability, execution speed, operational efficiency and margin stability.&rdquo;<br><span class="src">G. Thiyagu, Q4FY26 transcript</span></blockquote>
+
+<p>That matters because the two halves of construction scale very differently. <strong>Civil work is labour-limited</strong> &mdash; to build twice as much you need roughly twice as many people on site, and site labour is the hardest input in Indian construction to hire, supervise and retain. <strong>Engineered work is not.</strong> A steel frame is designed once, manufactured in a factory, and bolted together on site by a small crew. <span class="tag inf">MY INFERENCE</span> A contractor whose mix is two-thirds engineered rather than two-thirds civil is buying a growth path that does not run into a labour ceiling at the same point &mdash; which is the mechanism behind the phrase &ldquo;enhances scalability&rdquo;.</p>
+
+<h2 id="s3"><span class="n">3.</span> The 35 / 35 / 30 split, and why it explains the whole strategy</h2>
+
+<p>Asked how a rupee of project value divides, management gave a precise answer:</p>
+
+<blockquote>&ldquo;In our business model, as I mentioned, overall, <strong>100%, 35%, 35%, and balance is 30% for utilities and MEP works. So, 35% contributing from PEB sector.</strong>&rdquo;<br><span class="src">G. Thiyagu, Q4FY26 transcript</span></blockquote>
+
+<p>So a typical Sathlokhar project is roughly <strong>35% civil, 35% pre-engineered building, 30% MEP and utilities.</strong> Read that beside the previous section and the strategy assembles itself.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 340" role="img" aria-label="A rupee of project value splits 35 percent civil, 35 percent PEB and 30 percent MEP and utilities. The PEB share is bought in from job-workers today.">
+  <text x="16" y="24" class="t-md" fill="#1F4E79">Where &#8377;100 of project value goes &mdash; and who currently does the work</text>
+
+  <!-- proportional bar: 700px wide = 100% -->
+  <rect x="60" y="52" width="245" height="62" fill="#e8f0f8" stroke="#2E75B6" stroke-width="1.5"/>
+  <rect x="305" y="52" width="245" height="62" fill="#2E75B6" stroke="#1F4E79" stroke-width="1.5"/>
+  <rect x="550" y="52" width="210" height="62" fill="#e8f0f8" stroke="#2E75B6" stroke-width="1.5"/>
+
+  <text x="182" y="80" class="t-lg" text-anchor="middle" fill="#1F4E79">35%</text>
+  <text x="182" y="100" class="t" text-anchor="middle" fill="#2c3b49">Civil</text>
+  <text x="427" y="80" class="t-lg" text-anchor="middle" fill="#ffffff">35%</text>
+  <text x="427" y="100" class="t" text-anchor="middle" fill="#ffffff">Pre-engineered building</text>
+  <text x="655" y="80" class="t-lg" text-anchor="middle" fill="#1F4E79">30%</text>
+  <text x="655" y="100" class="t" text-anchor="middle" fill="#2c3b49">MEP &amp; utilities</text>
+
+  <!-- scale ticks -->
+  <g stroke="#c9d3dd" stroke-width="1">
+    <line x1="60" y1="118" x2="60" y2="126"/><line x1="760" y1="118" x2="760" y2="126"/>
+  </g>
+  <text x="60" y="140" class="t-sm" fill="#8a97a4">0</text>
+  <text x="760" y="140" class="t-sm" text-anchor="end" fill="#8a97a4">&#8377;100</text>
+
+  <!-- who does it -->
+  <rect x="60" y="164" width="245" height="52" rx="6" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.4"/>
+  <text x="182" y="186" class="t" text-anchor="middle" fill="#125035">In-house teams</text>
+  <text x="182" y="204" class="t-sm" text-anchor="middle" fill="#1a6f4a">+ subcontractor ecosystem</text>
+
+  <rect x="305" y="164" width="245" height="52" rx="6" fill="#fdeceb" stroke="#b3261e" stroke-width="1.8"/>
+  <text x="427" y="186" class="t-md" text-anchor="middle" fill="#8c241d">Bought in &mdash; job-work</text>
+  <text x="427" y="204" class="t-sm" text-anchor="middle" fill="#b3261e">Sathlokhar owns no PEB plant today</text>
+
+  <rect x="550" y="164" width="210" height="52" rx="6" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.4"/>
+  <text x="655" y="192" class="t" text-anchor="middle" fill="#125035">In-house teams</text>
+
+  <!-- the point -->
+  <path d="M427 220 L427 246" stroke="#b3261e" stroke-width="2" fill="none" marker-end="url(#ar)"/>
+  <defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#b3261e"/></marker></defs>
+
+  <rect x="150" y="252" width="554" height="72" rx="8" fill="#fff8e6" stroke="#e0b062" stroke-width="1.5"/>
+  <text x="427" y="276" class="t-md" text-anchor="middle" fill="#8a5216">The largest single scope line is the one it does not own</text>
+  <text x="427" y="298" class="t" text-anchor="middle" fill="#5a4413">&ldquo;We just taken over two-three facilities under job order format where we deliver</text>
+  <text x="427" y="314" class="t" text-anchor="middle" fill="#5a4413">the steel and they do processing and job labor payment we are paying them.&rdquo;</text>
+</svg>
+<figcaption><strong>Widths are proportional to the stated 35/35/30 split and sum to 100%.</strong> The split is management's own, given as a round breakdown of a typical project rather than as an audited segment disclosure &mdash; Sathlokhar does not publish a segment P&amp;L on these lines. <span class="src">Split and quotation both from the Q4FY26 and Q1FY27 transcripts.</span></figcaption>
+</figure>
+
+<p><strong>This is the whole logic of the PEB factory.</strong> A third of every project's value is steel structure that Sathlokhar designs and sells but does not manufacture &mdash; it buys steel, ships it to a job-worker, pays a processing fee, and takes the fabricated frame back. Backward integration into PEB is therefore not a diversification; <strong>it is the company buying back the biggest line of its own bill of materials.</strong></p>
+
+<p>Management sizes the gain modestly and is careful about what it is really for:</p>
+
+<blockquote>&ldquo;For the whole financial [year], we are trying to improve <strong>1% on the bottom line</strong>.&rdquo; &hellip; and separately, that the point is <em>&ldquo;more than profit, it's our own facility where we are getting faster in construction.&rdquo;</em><br><span class="src">Q4FY26 and Q1FY27 transcripts</span></blockquote>
+
+<div class="box warn">
+<h4>What the PEB plant is <em>not</em>, yet</h4>
+<p style="margin:6px 0">The facility is intended to run as a separate vertical selling to outside customers too &mdash; <em>&ldquo;all the other competitor also take the PEB from us&rdquo;</em> &mdash; with a stated ambition of <strong>&#8377;200cr-plus of turnover</strong> from it. But management explicitly cautioned against modelling third-party sales yet: <em>&ldquo;as of now, our own requirements are huge.&rdquo;</em> <span class="src">Q1FY27 transcript</span> The first plant's inauguration was fixed for <strong>30-Aug-2026</strong>, with commercial production about <strong>60 working days</strong> later, after consent-to-operate from the pollution control board, a high-tension power connection, a fire licence and machine trial runs &mdash; management's own sequence, which it expected to yield roughly <strong>five months</strong> of output in FY27.</p>
+</div>
+
+<h2 id="s4"><span class="n">4.</span> What a pre-engineered building is</h2>
+
+<p>&ldquo;PEB&rdquo; appears fifty-seven times in a single Sathlokhar earnings call, so it is worth knowing exactly what the thing is.</p>
+
+<p>A <strong>pre-engineered building</strong> is a steel-framed structure whose every member is designed, cut, welded, drilled and painted <em>in a factory</em>, then trucked to site and <strong>bolted together</strong>. Nothing is fabricated at the site. The alternative &mdash; reinforced cement concrete, or RCC &mdash; is the opposite: steel reinforcement bars are tied into cages on site, timber or steel shuttering is built around them, concrete is poured in, and then everyone waits while it cures.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 400" role="img" aria-label="Side by side comparison of conventional RCC construction and pre-engineered building construction, showing that RCC is cast on site with many internal columns while PEB is factory made, bolted, and clear span.">
+  <text x="16" y="22" class="t-md" fill="#1F4E79">Two ways to hold up a roof</text>
+
+  <!-- LEFT: RCC -->
+  <rect x="20" y="40" width="452" height="342" rx="9" fill="#faf7f2" stroke="#d9c9ae" stroke-width="1.5"/>
+  <text x="40" y="66" class="t-md" fill="#8a5216">Conventional RCC &mdash; cast on site</text>
+
+  <rect x="48" y="290" width="396" height="8" fill="#c9b79c"/>
+  <!-- many stocky columns -->
+  <g fill="#a8b4c0">
+    <rect x="70" y="150" width="26" height="140"/><rect x="160" y="150" width="26" height="140"/>
+    <rect x="250" y="150" width="26" height="140"/><rect x="340" y="150" width="26" height="140"/>
+    <rect x="406" y="150" width="26" height="140"/>
+  </g>
+  <rect x="62" y="136" width="380" height="16" fill="#93a0ad"/>
+  <!-- rebar hint -->
+  <g stroke="#8a5216" stroke-width="1.2" opacity=".55">
+    <line x1="76" y1="160" x2="76" y2="284"/><line x1="90" y1="160" x2="90" y2="284"/>
+    <line x1="166" y1="160" x2="166" y2="284"/><line x1="180" y1="160" x2="180" y2="284"/>
+  </g>
+  <text x="83" y="312" class="t-sm" text-anchor="middle" fill="#7a6a55">columns every ~6&ndash;9 m</text>
+
+  <text x="40" y="342" class="t" fill="#5a4413">&bull; Rebar tied, shuttered and poured <tspan font-weight="700">at the site</tspan></text>
+  <text x="40" y="360" class="t" fill="#5a4413">&bull; Concrete must <tspan font-weight="700">cure</tspan> before the next stage &mdash; weather-exposed</text>
+  <text x="40" y="378" class="t" fill="#5a4413">&bull; Internal columns eat usable floor area</text>
+
+  <!-- RIGHT: PEB -->
+  <rect x="488" y="40" width="452" height="342" rx="9" fill="#f4f8fc" stroke="#a9c6e2" stroke-width="1.5"/>
+  <text x="508" y="66" class="t-md" fill="#1F4E79">PEB &mdash; made in a factory, bolted on site</text>
+
+  <rect x="516" y="290" width="396" height="8" fill="#c9b79c"/>
+  <!-- two tapered columns only -->
+  <polygon points="530,290 552,290 546,152 534,152" fill="#2E75B6"/>
+  <polygon points="876,290 898,290 894,152 882,152" fill="#2E75B6"/>
+  <!-- tapered rafters to ridge -->
+  <polygon points="534,152 546,152 716,106 706,96" fill="#2E75B6"/>
+  <polygon points="894,152 882,152 712,106 722,96" fill="#2E75B6"/>
+  <!-- purlins -->
+  <g fill="#1F4E79" opacity=".6">
+    <rect x="596" y="136" width="8" height="8"/><rect x="656" y="120" width="8" height="8"/>
+    <rect x="772" y="120" width="8" height="8"/><rect x="832" y="136" width="8" height="8"/>
+  </g>
+  <!-- bolt markers -->
+  <g fill="#b3261e">
+    <circle cx="540" cy="150" r="4.5"/><circle cx="888" cy="150" r="4.5"/><circle cx="714" cy="101" r="4.5"/>
+  </g>
+  <text x="714" y="86" class="t-sm" text-anchor="middle" fill="#b3261e">bolted joints, no site welding</text>
+  <!-- clear span arrow -->
+  <g stroke="#1a6f4a" stroke-width="1.6" fill="none" marker-start="url(#a2)" marker-end="url(#a2)">
+    <line x1="552" y1="264" x2="876" y2="264"/>
+  </g>
+  <defs><marker id="a2" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1a6f4a"/></marker></defs>
+  <text x="714" y="256" class="t" text-anchor="middle" fill="#125035">clear span &mdash; no internal columns</text>
+
+  <text x="508" y="342" class="t" fill="#2c3b49">&bull; Cut, welded, drilled and painted <tspan font-weight="700">in a plant</tspan>, then trucked in</text>
+  <text x="508" y="360" class="t" fill="#2c3b49">&bull; <tspan font-weight="700">Bolted</tspan> on site &mdash; no curing wait, far less weather risk</text>
+  <text x="508" y="378" class="t" fill="#2c3b49">&bull; Tapered sections put steel only where the load needs it</text>
+</svg>
+<figcaption><strong>Why the shape is odd.</strong> A PEB column and rafter are deliberately <em>tapered</em> &mdash; deep where the bending forces are greatest, shallow where they are not &mdash; so the frame uses materially less steel than a uniform section would. That optimisation is only possible because each member is engineered for its specific building, which is what &ldquo;pre-engineered&rdquo; means. <span class="src">Schematic; drawn to explain the structural principle, not to scale and not a depiction of a specific Sathlokhar building.</span></figcaption>
+</figure>
+
+<p>For the buildings Sathlokhar sells &mdash; warehouses, industrial sheds, factories &mdash; the clear span matters commercially, not just structurally. <strong>A warehouse with columns down the middle is a worse warehouse:</strong> it constrains racking layout and forklift movement. The company's own deck describes the products as <em>&ldquo;high capacity warehouses designed for efficient storage, logistics and material handling&rdquo;</em> and <em>&ldquo;steel and prefabricated sheds for manufacturing units, workshops and storage facilities.&rdquo;</em> <span class="src">Q1FY27 investor deck</span></p>
+
+<h2 id="s5"><span class="n">5.</span> Why PEB factories have to be regional</h2>
+
+<p>Sathlokhar's stated ambition is <strong>five to six PEB plants across India</strong>, roughly one a year, with <strong>Odisha</strong> named as the next location after Tamil Nadu. For most manufacturers that would be a strange plan &mdash; one large efficient plant usually beats six small ones. Management gives the reason in a single phrase:</p>
+
+<blockquote>&ldquo;Every year we would like to have one PEB facility in a different location wherein it <strong>serves the purpose of transportation cut</strong> and also to facilitate the customers to get a faster PEB buildings to the global standards.&rdquo;<br><span class="src">G. Thiyagu, Q1FY27 transcript</span></blockquote>
+
+<p><span class="tag inf">MY INFERENCE</span> The economics behind that phrase are worth spelling out, because they are what makes PEB a regional business everywhere in the world. <strong>A fabricated steel frame is bulky relative to its value.</strong> A truck carrying tapered columns and rafters fills its volume long before it reaches its weight limit, so freight is charged on space, not tonnage, and the cost climbs with every kilometre. Beyond some radius, the freight bill overwhelms whatever the plant saved in fabrication &mdash; and a competitor with a plant nearer the site wins on landed cost without being any better at making steel.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 300" role="img" aria-label="Diagram showing that a single central PEB plant faces rising freight cost with distance, whereas several regional plants each serve a short-radius catchment.">
+  <text x="16" y="22" class="t-md" fill="#1F4E79">The same tonnage, two footprints</text>
+
+  <!-- one plant -->
+  <text x="40" y="54" class="t-md" fill="#b3261e">One central plant</text>
+  <circle cx="210" cy="168" r="96" fill="#fdeceb" stroke="#d99a94" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <circle cx="210" cy="168" r="58" fill="#fbe0dd" stroke="#d99a94" stroke-width="1.2"/>
+  <rect x="192" y="150" width="36" height="36" rx="4" fill="#b3261e"/>
+  <text x="210" y="173" class="t-sm" text-anchor="middle" fill="#ffffff">PEB</text>
+  <g fill="#8c241d">
+    <circle cx="128" cy="120" r="4"/><circle cx="290" cy="128" r="4"/><circle cx="150" cy="228" r="4"/>
+    <circle cx="278" cy="222" r="4"/><circle cx="210" cy="252" r="4"/>
+  </g>
+  <text x="210" y="286" class="t" text-anchor="middle" fill="#8c241d">Distant sites carry a freight penalty</text>
+  <text x="210" y="72" class="t-sm" text-anchor="middle" fill="#b3261e">cost per site rises with radius</text>
+
+  <!-- arrow -->
+  <text x="420" y="176" class="t-lg" text-anchor="middle" fill="#8a97a4">&rarr;</text>
+
+  <!-- several plants -->
+  <text x="520" y="54" class="t-md" fill="#1a6f4a">Five to six regional plants</text>
+  <g>
+    <circle cx="580" cy="118" r="46" fill="#ecf7f1" stroke="#8fc3aa" stroke-width="1.2"/>
+    <circle cx="700" cy="196" r="46" fill="#ecf7f1" stroke="#8fc3aa" stroke-width="1.2"/>
+    <circle cx="820" cy="112" r="46" fill="#ecf7f1" stroke="#8fc3aa" stroke-width="1.2"/>
+    <circle cx="880" cy="216" r="46" fill="#ecf7f1" stroke="#8fc3aa" stroke-width="1.2"/>
+    <circle cx="600" cy="234" r="46" fill="#ecf7f1" stroke="#8fc3aa" stroke-width="1.2"/>
+  </g>
+  <g fill="#1a6f4a">
+    <rect x="568" y="106" width="24" height="24" rx="3"/><rect x="688" y="184" width="24" height="24" rx="3"/>
+    <rect x="808" y="100" width="24" height="24" rx="3"/><rect x="868" y="204" width="24" height="24" rx="3"/>
+    <rect x="588" y="222" width="24" height="24" rx="3"/>
+  </g>
+  <text x="730" y="286" class="t" text-anchor="middle" fill="#125035">Each plant serves a short-radius catchment</text>
+</svg>
+<figcaption><strong>This is a freight argument, not a scale argument.</strong> It is also why the plan is described as one plant per year rather than one large plant &mdash; each new region is a new catchment, not extra capacity for the old one. <span class="src">Rationale is management's stated &ldquo;transportation cut&rdquo;; the radius illustration is mine and the circles are schematic, not mapped to real distances.</span></figcaption>
+</figure>
+
+<h2 id="s6"><span class="n">6.</span> How an order is born</h2>
+
+<p>An EPC contractor does not have a sales pipeline in the ordinary sense. It has a <strong>bid pipeline</strong> &mdash; the total value of tenders and proposals it has actually submitted and is waiting to hear back on. Sathlokhar's stood at <strong>&#8377;22,106cr</strong> at the Q1FY27 call and <strong>&#8377;22,155cr</strong> ten days later. <span class="src">Q1FY27 transcript; 11-Aug-2026 filing</span></p>
+
+<p>Against that, its own deck states a <strong>historical bid win ratio of approximately 10% to 15%</strong>, and management deliberately plans on the bottom of that band:</p>
+
+<blockquote>&ldquo;Our conservative numbers what we are aiming is <strong>minimum 10% success</strong>, it comes to &#8377;2,200 [crore].&rdquo;<br><span class="src">G. Thiyagu, Q1FY27 transcript</span></blockquote>
+
+<figure class="dg">
+<svg viewBox="0 0 960 330" role="img" aria-label="Funnel showing a bid pipeline of 22106 crore narrowing at a 10 to 15 percent win ratio to about 2211 to 3316 crore of expected wins, against a confirmed order book of 1102 crore.">
+  <text x="16" y="22" class="t-md" fill="#1F4E79">From bids submitted to work in hand</text>
+
+  <!-- Stage 1: pipeline, 760px = 22106 -->
+  <rect x="60" y="48" width="760" height="54" fill="#1F4E79"/>
+  <text x="440" y="72" class="t-lg" text-anchor="middle" fill="#ffffff">Bid pipeline &mdash; &#8377;22,106 cr</text>
+  <text x="440" y="92" class="t-sm" text-anchor="middle" fill="#c9dcee">tenders and proposals actually submitted</text>
+
+  <!-- taper -->
+  <polygon points="60,102 820,102 220,150 106,150" fill="#3f7fbc" opacity=".35"/>
+  <text x="470" y="126" class="t" fill="#1F4E79">&times; 10&ndash;15% historical win ratio</text>
+
+  <!-- Stage 2: expected wins. 10% of 760 = 76px; 15% = 114px -->
+  <rect x="106" y="150" width="114" height="46" fill="#8fb6dc"/>
+  <rect x="106" y="150" width="76" height="46" fill="#2E75B6"/>
+  <text x="240" y="170" class="t-md" fill="#1F4E79">&#8377;2,211 cr at 10%</text>
+  <text x="240" y="188" class="t" fill="#5a6a78">&#8377;3,316 cr at 15% &mdash; the lighter block</text>
+
+  <!-- Stage 3: confirmed order book, 1101.59 -> 760*1101.59/22106 = 37.9px -->
+  <rect x="106" y="222" width="38" height="46" fill="#1a6f4a"/>
+  <text x="164" y="242" class="t-md" fill="#125035">&#8377;1,102 cr confirmed order book</text>
+  <text x="164" y="260" class="t" fill="#5a6a78">signed and in hand at 11-Aug-2026 &mdash; of which &#8377;810 cr still to execute</text>
+
+  <!-- baseline -->
+  <line x1="60" y1="292" x2="820" y2="292" stroke="#c9d3dd" stroke-width="1"/>
+  <text x="60" y="308" class="t-sm" fill="#8a97a4">0</text>
+  <text x="820" y="308" class="t-sm" text-anchor="end" fill="#8a97a4">&#8377;22,106 cr</text>
+</svg>
+<figcaption><strong>All three bars are drawn to one scale from zero</strong> &mdash; 760px represents &#8377;22,106cr throughout, so the confirmed order book really is that thin a sliver of the pipeline. Note the bars measure different things: the pipeline and the win ratio are <em>prospective</em>, while the &#8377;1,102cr order book is <em>current and signed</em>. They are not three stages of one cohort. <span class="src">Pipeline and order book from the Q1FY27 transcript and the 11-Aug-2026 filing; win ratio from the Q1FY27 investor deck.</span></figcaption>
+</figure>
+
+<p>Two features of this funnel are worth noticing because they are unusual.</p>
+
+<p><strong>First, the pipeline is twenty-seven times the annual revenue.</strong> That is not a claim about demand so much as a statement about how the industry works: bidding is cheap relative to building, so a contractor bids on far more than it can possibly execute and lets the win ratio do the selection. The constraint on a firm like this is not finding work &mdash; it is <em>capacity and capital to execute</em>.</p>
+
+<p><strong>Second, much of the work is repeat.</strong> The deck puts it plainly: <em>&ldquo;repeat work from existing clients is how this business grows.&rdquo;</em> Reliance Consumer Products has been a client for <em>&ldquo;last 3-plus years&hellip; consistently booking every year a good order&rdquo;</em>, and in the most recent quarter one Taiwanese SEZ developer placed both a Phase 3 order and a Phase 2 top-up. <span class="src">Q1FY27 deck and transcript</span> <span class="tag inf">MY INFERENCE</span> Repeat orders from a satisfied client skip most of the funnel &mdash; which is why a win ratio measured across all bids understates the odds on the bids that matter most.</p>
+
+<h2 id="s7"><span class="n">7.</span> Inside a project &mdash; and why revenue is back-loaded</h2>
+
+<p>Management describes the stages of a job in a fixed order, and the order is the key to the seasonality:</p>
+
+<blockquote>&ldquo;As projects progress through <strong>engineering, procurement, mobilization, and execution</strong> stages, revenue recognition is expected to remain <strong>stronger during the second half</strong> of the financial year consistent with the nature of our business.&rdquo;<br><span class="src">G. Thiyagu, Q1FY27 transcript</span></blockquote>
+
+<figure class="dg">
+<svg
+ viewBox="0.00 0.00 1020.00 104.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 100)">
+<title>L</title>
+<g id="clust1" class="cluster">
+<title>cluster_pre</title>
+<path fill="none" stroke="#e0b062" stroke-width="1.5" stroke-dasharray="5,2" d="M20,-8C20,-8 416,-8 416,-8 422,-8 428,-14 428,-20 428,-20 428,-76 428,-76 428,-82 422,-88 416,-88 416,-88 20,-88 20,-88 14,-88 8,-82 8,-76 8,-76 8,-20 8,-20 8,-14 14,-8 20,-8"/>
+<text xml:space="preserve" text-anchor="middle" x="218" y="-73.08" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.50" fill="#a2650a">Cost goes out. No revenue yet.</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_exec</title>
+<path fill="none" stroke="#2e75b6" stroke-width="1.5" d="M464,-8C464,-8 860,-8 860,-8 866,-8 872,-14 872,-20 872,-20 872,-76 872,-76 872,-82 866,-88 860,-88 860,-88 464,-88 464,-88 458,-88 452,-82 452,-76 452,-76 452,-20 452,-20 452,-14 458,-8 464,-8"/>
+<text xml:space="preserve" text-anchor="middle" x="662" y="-73.08" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.50" fill="#1f4e79">Revenue recognised as work is certified</text>
+</g>
+
+<g id="node1" class="node">
+<title>eng</title>
+<path fill="#fff8e6" stroke="#e0b062" stroke-width="1.4" d="M112,-60.32C112,-60.32 28,-60.32 28,-60.32 22,-60.32 16,-54.32 16,-48.32 16,-48.32 16,-27.68 16,-27.68 16,-21.68 22,-15.68 28,-15.68 28,-15.68 112,-15.68 112,-15.68 118,-15.68 124,-21.68 124,-27.68 124,-27.68 124,-48.32 124,-48.32 124,-54.32 118,-60.32 112,-60.32"/>
+<text xml:space="preserve" text-anchor="middle" x="70" y="-39.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#5a4413">Engineering</text>
+<text xml:space="preserve" text-anchor="middle" x="70" y="-26.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#5a4413">&amp; design</text>
+</g>
+
+<g id="node2" class="node">
+<title>proc</title>
+<path fill="#fff8e6" stroke="#e0b062" stroke-width="1.4" d="M260,-60.32C260,-60.32 176,-60.32 176,-60.32 170,-60.32 164,-54.32 164,-48.32 164,-48.32 164,-27.68 164,-27.68 164,-21.68 170,-15.68 176,-15.68 176,-15.68 260,-15.68 260,-15.68 266,-15.68 272,-21.68 272,-27.68 272,-27.68 272,-48.32 272,-48.32 272,-54.32 266,-60.32 260,-60.32"/>
+<text xml:space="preserve" text-anchor="middle" x="218" y="-39.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#5a4413">Procurement</text>
+<text xml:space="preserve" text-anchor="middle" x="218" y="-26.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#5a4413">steel · cement</text>
+</g>
+
+<g id="edge1" class="edge">
+<title>eng&#45;&gt;proc</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.4" d="M124.69,-38C124.69,-38 154.42,-38 154.42,-38"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.4" points="154.42,-40.45 161.42,-38 154.42,-35.55 154.42,-40.45"/>
+</g>
+
+<g id="node3" class="node">
+<title>mob</title>
+<path fill="#fff8e6" stroke="#e0b062" stroke-width="1.4" d="M408,-60.32C408,-60.32 324,-60.32 324,-60.32 318,-60.32 312,-54.32 312,-48.32 312,-48.32 312,-27.68 312,-27.68 312,-21.68 318,-15.68 324,-15.68 324,-15.68 408,-15.68 408,-15.68 414,-15.68 420,-21.68 420,-27.68 420,-27.68 420,-48.32 420,-48.32 420,-54.32 414,-60.32 408,-60.32"/>
+<text xml:space="preserve" text-anchor="middle" x="366" y="-39.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#5a4413">Mobilization</text>
+<text xml:space="preserve" text-anchor="middle" x="366" y="-26.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#5a4413">site set&#45;up</text>
+</g>
+
+<g id="edge2" class="edge">
+<title>proc&#45;&gt;mob</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.4" d="M272.69,-38C272.69,-38 302.42,-38 302.42,-38"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.4" points="302.42,-40.45 309.42,-38 302.42,-35.55 302.42,-40.45"/>
+</g>
+
+<g id="node4" class="node">
+<title>civil</title>
+<path fill="#e8f0f8" stroke="#2e75b6" stroke-width="1.4" d="M556,-60.32C556,-60.32 472,-60.32 472,-60.32 466,-60.32 460,-54.32 460,-48.32 460,-48.32 460,-27.68 460,-27.68 460,-21.68 466,-15.68 472,-15.68 472,-15.68 556,-15.68 556,-15.68 562,-15.68 568,-21.68 568,-27.68 568,-27.68 568,-48.32 568,-48.32 568,-54.32 562,-60.32 556,-60.32"/>
+<text xml:space="preserve" text-anchor="middle" x="514" y="-39.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#16202b">Civil</text>
+<text xml:space="preserve" text-anchor="middle" x="514" y="-26.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#16202b">35% of scope</text>
+</g>
+
+<g id="edge3" class="edge">
+<title>mob&#45;&gt;civil</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.4" d="M420.69,-38C420.69,-38 450.42,-38 450.42,-38"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.4" points="450.42,-40.45 457.42,-38 450.42,-35.55 450.42,-40.45"/>
+</g>
+
+<g id="node5" class="node">
+<title>peb</title>
+<path fill="#2e75b6" stroke="#1f4e79" stroke-width="1.4" d="M704,-60.32C704,-60.32 620,-60.32 620,-60.32 614,-60.32 608,-54.32 608,-48.32 608,-48.32 608,-27.68 608,-27.68 608,-21.68 614,-15.68 620,-15.68 620,-15.68 704,-15.68 704,-15.68 710,-15.68 716,-21.68 716,-27.68 716,-27.68 716,-48.32 716,-48.32 716,-54.32 710,-60.32 704,-60.32"/>
+<text xml:space="preserve" text-anchor="middle" x="662" y="-39.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">PEB erection</text>
+<text xml:space="preserve" text-anchor="middle" x="662" y="-26.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">35% of scope</text>
+</g>
+
+<g id="edge4" class="edge">
+<title>civil&#45;&gt;peb</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.4" d="M568.69,-38C568.69,-38 598.42,-38 598.42,-38"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.4" points="598.42,-40.45 605.42,-38 598.42,-35.55 598.42,-40.45"/>
+</g>
+
+<g id="node6" class="node">
+<title>mep</title>
+<path fill="#e8f0f8" stroke="#2e75b6" stroke-width="1.4" d="M852,-60.32C852,-60.32 768,-60.32 768,-60.32 762,-60.32 756,-54.32 756,-48.32 756,-48.32 756,-27.68 756,-27.68 756,-21.68 762,-15.68 768,-15.68 768,-15.68 852,-15.68 852,-15.68 858,-15.68 864,-21.68 864,-27.68 864,-27.68 864,-48.32 864,-48.32 864,-54.32 858,-60.32 852,-60.32"/>
+<text xml:space="preserve" text-anchor="middle" x="810" y="-39.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#16202b">MEP · utilities</text>
+<text xml:space="preserve" text-anchor="middle" x="810" y="-26.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#16202b">30% of scope</text>
+</g>
+
+<g id="edge5" class="edge">
+<title>peb&#45;&gt;mep</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.4" d="M716.69,-38C716.69,-38 746.42,-38 746.42,-38"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.4" points="746.42,-40.45 753.42,-38 746.42,-35.55 746.42,-40.45"/>
+</g>
+
+<g id="node7" class="node">
+<title>hand</title>
+<path fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.4" d="M1000,-60.32C1000,-60.32 916,-60.32 916,-60.32 910,-60.32 904,-54.32 904,-48.32 904,-48.32 904,-27.68 904,-27.68 904,-21.68 910,-15.68 916,-15.68 916,-15.68 1000,-15.68 1000,-15.68 1006,-15.68 1012,-21.68 1012,-27.68 1012,-27.68 1012,-48.32 1012,-48.32 1012,-54.32 1006,-60.32 1000,-60.32"/>
+<text xml:space="preserve" text-anchor="middle" x="958" y="-39.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#125035">Handover</text>
+<text xml:space="preserve" text-anchor="middle" x="958" y="-26.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#125035">+ retention held</text>
+</g>
+
+<g id="edge6" class="edge">
+<title>mep&#45;&gt;hand</title>
+<path fill="none" stroke="#5a6a78" stroke-width="1.4" d="M864.69,-38C864.69,-38 894.42,-38 894.42,-38"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" stroke-width="1.4" points="894.42,-40.45 901.42,-38 894.42,-35.55 894.42,-40.45"/>
+</g>
+</g>
+</svg>
+<figcaption><strong>The first three stages cost money and earn nothing.</strong> Design, statutory approvals, buying steel and cement, and setting up the site all happen before the contractor is entitled to record much revenue at all &mdash; and then the execution stages run in a fixed sequence, because MEP cannot be installed until there is a building to install it into. <span class="src">Stage names verbatim from the Q1FY27 transcript; scope percentages from the Q4FY26 transcript. Figure computed with Graphviz.</span></figcaption>
+</figure>
+
+<p>Management confirmed the sequencing consequence directly: <em>&ldquo;when we execute civil and PEB, the further other works like MEP, electrical, those things would be carryforward to next financial year.&rdquo;</em> <span class="src">Q1FY27 transcript</span> <strong>A single order therefore pays out across two financial years</strong> &mdash; civil and steel first, services later.</p>
+
+<p>Stack enough projects started at different times and a pattern emerges in the quarterly revenue: <strong>June quarters are the weakest, March quarters the strongest.</strong></p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 330" role="img" aria-label="Bar chart of quarterly revenue from December 2024 to June 2026 showing growth overall, with both June quarters falling sequentially from the preceding March quarter.">
+  <text x="16" y="22" class="t-md" fill="#1F4E79">Quarterly revenue, &#8377; cr &mdash; growth is the trend, but every June quarter dips</text>
+  <!-- axis: 0 at y=270, 300 cr at y=54 => 0.72 px per cr -->
+  <line x1="72" y1="270" x2="920" y2="270" stroke="#8a97a4" stroke-width="1.2"/>
+  <g stroke="#e3e8ee" stroke-width="1">
+    <line x1="72" y1="198" x2="920" y2="198"/><line x1="72" y1="126" x2="920" y2="126"/><line x1="72" y1="54" x2="920" y2="54"/>
+  </g>
+  <g class="t-sm" fill="#8a97a4">
+    <text x="64" y="274" text-anchor="end">0</text><text x="64" y="202" text-anchor="end">100</text>
+    <text x="64" y="130" text-anchor="end">200</text><text x="64" y="58" text-anchor="end">300</text>
+  </g>
+  <!-- bars: x start 96, width 84, gap 30 -->
+  <g>
+    <rect x="96"  y="243" width="84" height="27"  fill="#a9c6e2"/>
+    <rect x="210" y="136" width="84" height="134" fill="#a9c6e2"/>
+    <rect x="324" y="181" width="84" height="89"  fill="#b3261e"/>
+    <rect x="438" y="130" width="84" height="140" fill="#a9c6e2"/>
+    <rect x="552" y="74"  width="84" height="196" fill="#a9c6e2"/>
+    <rect x="666" y="71"  width="84" height="199" fill="#2E75B6"/>
+    <rect x="780" y="122" width="84" height="148" fill="#b3261e"/>
+  </g>
+  <g class="t" fill="#2c3b49" text-anchor="middle">
+    <text x="138" y="237">38</text><text x="252" y="130">186</text><text x="366" y="175" fill="#8c241d">123</text>
+    <text x="480" y="124">195</text><text x="594" y="68">272</text><text x="708" y="65" fill="#1F4E79">277</text>
+    <text x="822" y="116" fill="#8c241d">205</text>
+  </g>
+  <g class="t-sm" fill="#5a6a78" text-anchor="middle">
+    <text x="138" y="288">Dec 24</text><text x="252" y="288">Mar 25</text><text x="366" y="288">Jun 25</text>
+    <text x="480" y="288">Sep 25</text><text x="594" y="288">Dec 25</text><text x="708" y="288">Mar 26</text>
+    <text x="822" y="288">Jun 26</text>
+  </g>
+  <!-- sequential drop annotations -->
+  <path d="M252 116 C 290 96, 330 96, 366 160" stroke="#b3261e" stroke-width="1.6" fill="none" stroke-dasharray="4 3"/>
+  <path d="M708 51 C 746 34, 786 34, 822 102" stroke="#b3261e" stroke-width="1.6" fill="none" stroke-dasharray="4 3"/>
+  <text x="309" y="90" class="t-sm" text-anchor="middle" fill="#b3261e">&minus;34% QoQ</text>
+  <text x="765" y="28" class="t-sm" text-anchor="middle" fill="#b3261e">&minus;26% QoQ</text>
+  <text x="72" y="316" class="t-sm" fill="#8a97a4">Bars scaled from zero on a single axis. Source: Screener standalone quarterly series, cross-checked to the company's own Q1FY27 and Q4FY26 releases.</text>
+</svg>
+<figcaption><strong>A sequential fall in a June quarter is the pattern, not a warning.</strong> Both June quarters on this chart fall from the March quarter before them, and both years still grew strongly year-on-year. Reading a construction company quarter-on-quarter rather than year-on-year will produce a false alarm every summer.</figcaption>
+</figure>
+
+<hr>
+
+<h2 id="s8"><span class="n">8.</span> Reading the numbers I &mdash; revenue, billing and cash are three different dates</h2>
+
+<p><strong>This is the section that matters.</strong> Everything above is context for it.</p>
+
+<p>When a contractor builds a factory over ten months, when has it earned the money? Accounting's answer &mdash; and it is the right answer &mdash; is <strong>as the work is done</strong>. This is the <em>percentage-of-completion</em> principle: if a contractor has completed 40% of a &#8377;100cr contract, it recognises &#8377;40cr of revenue and the associated profit, whether or not it has sent an invoice and whether or not anyone has paid.</p>
+
+<p>But the contract does not let it invoice whenever it likes. <strong>Billing happens at milestones</strong> written into the contract &mdash; foundations complete, structure erected, services commissioned &mdash; and each bill must usually be certified by the client's engineer before it is payable. And even once paid, the client keeps back a slice, the <strong>retention</strong>, until the defect liability period expires long after handover.</p>
+
+<p>So money moves through four stages, and each transition is a delay.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 400" role="img" aria-label="Four stage pipeline showing work certified becomes recognised revenue, then sits as unbilled contract asset, then becomes a trade receivable when invoiced, then becomes cash on collection with retention held back.">
+  <text x="16" y="22" class="t-md" fill="#1F4E79">The four stages between doing the work and holding the cash</text>
+
+  <!-- stage boxes -->
+  <rect x="30" y="52" width="200" height="94" rx="8" fill="#e8f0f8" stroke="#2E75B6" stroke-width="1.6"/>
+  <text x="130" y="80" class="t-md" text-anchor="middle" fill="#1F4E79">1 &middot; Work done</text>
+  <text x="130" y="102" class="t" text-anchor="middle" fill="#2c3b49">Revenue is recognised</text>
+  <text x="130" y="120" class="t" text-anchor="middle" fill="#2c3b49">on percentage of</text>
+  <text x="130" y="138" class="t" text-anchor="middle" fill="#2c3b49">completion</text>
+
+  <rect x="262" y="52" width="200" height="94" rx="8" fill="#fdeceb" stroke="#b3261e" stroke-width="2"/>
+  <text x="362" y="80" class="t-md" text-anchor="middle" fill="#8c241d">2 &middot; Not yet billable</text>
+  <text x="362" y="102" class="t" text-anchor="middle" fill="#8c241d">Sits as a contract asset</text>
+  <text x="362" y="120" class="t" text-anchor="middle" fill="#8c241d">&mdash; &ldquo;unbilled revenue&rdquo;</text>
+  <text x="362" y="138" class="t-sm" text-anchor="middle" fill="#b3261e">awaiting a contract milestone</text>
+
+  <rect x="494" y="52" width="200" height="94" rx="8" fill="#fff8e6" stroke="#e0b062" stroke-width="1.6"/>
+  <text x="594" y="80" class="t-md" text-anchor="middle" fill="#8a5216">3 &middot; Invoiced</text>
+  <text x="594" y="102" class="t" text-anchor="middle" fill="#5a4413">Becomes a trade</text>
+  <text x="594" y="120" class="t" text-anchor="middle" fill="#5a4413">receivable, once the</text>
+  <text x="594" y="138" class="t" text-anchor="middle" fill="#5a4413">bill is certified</text>
+
+  <rect x="726" y="52" width="204" height="94" rx="8" fill="#ecf7f1" stroke="#1a6f4a" stroke-width="1.6"/>
+  <text x="828" y="80" class="t-md" text-anchor="middle" fill="#125035">4 &middot; Collected</text>
+  <text x="828" y="102" class="t" text-anchor="middle" fill="#125035">Cash &mdash; less the</text>
+  <text x="828" y="120" class="t" text-anchor="middle" fill="#125035">retention held back to</text>
+  <text x="828" y="138" class="t" text-anchor="middle" fill="#125035">the defect liability date</text>
+
+  <!-- arrows -->
+  <defs><marker id="a3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5a6a78"/></marker></defs>
+  <g stroke="#5a6a78" stroke-width="1.8" fill="none" marker-end="url(#a3)">
+    <line x1="232" y1="99" x2="258" y2="99"/><line x1="464" y1="99" x2="490" y2="99"/><line x1="696" y1="99" x2="722" y2="99"/>
+  </g>
+
+  <!-- profit line vs cash line -->
+  <rect x="30" y="176" width="432" height="42" rx="6" fill="#2E75B6" opacity=".14" stroke="#2E75B6" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="246" y="203" class="t-md" text-anchor="middle" fill="#1F4E79">Profit is already recorded here</text>
+  <rect x="726" y="176" width="204" height="42" rx="6" fill="#1a6f4a" opacity=".14" stroke="#1a6f4a" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="828" y="203" class="t-md" text-anchor="middle" fill="#125035">Cash only arrives here</text>
+  <text x="594" y="203" class="t" text-anchor="middle" fill="#8a5216">&larr; the gap is funded by the contractor &rarr;</text>
+
+  <!-- actuals -->
+  <text x="30" y="258" class="t-md" fill="#1F4E79">What was actually sitting in each stage</text>
+
+  <rect x="262" y="272" width="200" height="76" rx="8" fill="#ffffff" stroke="#b3261e" stroke-width="1.6"/>
+  <text x="362" y="298" class="t-lg" text-anchor="middle" fill="#b3261e">~&#8377;234 cr</text>
+  <text x="362" y="318" class="t-sm" text-anchor="middle" fill="#8c241d">unbilled at 31-Mar-2026</text>
+  <text x="362" y="336" class="t-sm" text-anchor="middle" fill="#8c241d">= 28.5% of FY26 revenue</text>
+
+  <rect x="494" y="272" width="200" height="76" rx="8" fill="#ffffff" stroke="#e0b062" stroke-width="1.6"/>
+  <text x="594" y="298" class="t-lg" text-anchor="middle" fill="#a2650a">&#8377;76.8 cr</text>
+  <text x="594" y="318" class="t-sm" text-anchor="middle" fill="#8a5216">trade receivables</text>
+  <text x="594" y="336" class="t-sm" text-anchor="middle" fill="#8a5216">at 31-Mar-2026, audited</text>
+
+  <rect x="726" y="272" width="204" height="76" rx="8" fill="#ffffff" stroke="#1a6f4a" stroke-width="1.6"/>
+  <text x="828" y="296" class="t-lg" text-anchor="middle" fill="#1a6f4a">~&#8377;39 cr</text>
+  <text x="828" y="316" class="t-sm" text-anchor="middle" fill="#125035">held as retention at 30-Jun-26</text>
+  <text x="828" y="334" class="t-sm" text-anchor="middle" fill="#125035">&#8377;99cr with it, &#8377;60cr without</text>
+</svg>
+<figcaption><strong>Sourcing, precisely, because the three figures do not have equal standing.</strong> The &#8377;76.8cr receivable is from the <em>audited</em> FY26 balance sheet. The retention figure is arithmetic on the CFO's own statement that receivables at 30-Jun-2026 were <em>&ldquo;approximately &#8377;99 crores&hellip; including the retention amount&rdquo;</em> and <em>&ldquo;around &#8377;60 crores excluding retention money&rdquo;</em>. <strong>The &#8377;234cr unbilled figure was put to management by an analyst on the call, prefaced with &ldquo;I think&rdquo;, and was neither confirmed nor corrected</strong> &mdash; the company has not itself published the number. Treat it as indicative. <span class="src">Audited FY26 results, 28-May-2026; Q1FY27 transcript.</span></figcaption>
+</figure>
+
+<div class="box red">
+<h4>The question that was asked and not answered</h4>
+<p style="margin:6px 0">On the Q1FY27 call an analyst asked for the one number that would show whether the gap in stage 2 was widening or closing:</p>
+<p style="margin:8px 0 4px; font-style:italic">&ldquo;So, out of that if you can share the figure for 30th June, 2026, if you have it handy?&rdquo;</p>
+<p style="margin:4px 0 8px; font-style:italic">&ldquo;Yes, sir. As of now as I mentioned, <strong>I'm right now at the Delhi airport</strong>&hellip; Maybe once you mail us, we will come back to you, sir.&rdquo;</p>
+<p style="margin:6px 0"><span class="tag inf">MY INFERENCE</span> <strong>The current unbilled balance is the single most informative disclosure this business could make</strong>, and at the time of the call it was not on the record. Anyone tracking this industry should treat the unbilled line &mdash; not the order book, and not the revenue growth &mdash; as the number to ask for.</p>
+</div>
+
+<h2 id="s9"><span class="n">9.</span> Reading the numbers II &mdash; the ratio that points backwards</h2>
+
+<p>Here is where a stock screener will actively mislead you about an EPC contractor, and it is worth understanding the mechanism because it applies to the whole sector.</p>
+
+<p><strong>Debtor days</strong> &mdash; trade receivables divided by revenue, times 365 &mdash; is the standard measure of how fast a company collects. For Sathlokhar it <em>collapsed</em> between FY25 and FY26, from about <strong>117 days to 34 days</strong>. On any screen that reads as one of the great working-capital improvements you will see in a small-cap industrial.</p>
+
+<p><strong>It is not an improvement. Nothing was collected.</strong> Trade receivables fell because the claim on the customer moved out of &ldquo;trade receivables&rdquo; and into a different line of the balance sheet.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 400" role="img" aria-label="Stacked bars comparing March 2025 and March 2026. Trade receivables fall from 118 to 76.8 crore while other current assets rise from 48.6 to 339.2 crore, so the total claim on customers rises from 166.6 to 416.1 crore.">
+  <text x="16" y="22" class="t-md" fill="#1F4E79">The claim on customers did not shrink. It changed bucket.</text>
+  <!-- axis: 0 at y=330, 450cr at y=60 -> 0.6 px per cr -->
+  <line x1="120" y1="330" x2="700" y2="330" stroke="#8a97a4" stroke-width="1.2"/>
+  <g stroke="#e3e8ee" stroke-width="1">
+    <line x1="120" y1="240" x2="700" y2="240"/><line x1="120" y1="150" x2="700" y2="150"/><line x1="120" y1="60" x2="700" y2="60"/>
+  </g>
+  <g class="t-sm" fill="#8a97a4" text-anchor="end">
+    <text x="112" y="334">0</text><text x="112" y="244">150</text><text x="112" y="154">300</text><text x="112" y="64">450</text>
+  </g>
+  <text x="60" y="200" class="t-sm" fill="#8a97a4" transform="rotate(-90 60 200)" text-anchor="middle">&#8377; crore</text>
+
+  <!-- Mar-25: TR 118 (70.8px), OCA 48.64 (29.2px) -->
+  <rect x="190" y="259" width="150" height="71" fill="#e0b062"/>
+  <rect x="190" y="230" width="150" height="29" fill="#b3261e" opacity=".78"/>
+  <text x="265" y="302" class="t-md" text-anchor="middle" fill="#5a4413">118.00</text>
+  <text x="265" y="250" class="t-sm" text-anchor="middle" fill="#ffffff">48.64</text>
+  <text x="265" y="352" class="t-md" text-anchor="middle" fill="#2c3b49">31-Mar-2025</text>
+  <text x="265" y="372" class="t-sm" text-anchor="middle" fill="#5a6a78">total &#8377;166.6 cr</text>
+
+  <!-- Mar-26: TR 76.84 (46.1px), OCA 339.23 (203.5px) -->
+  <rect x="470" y="284" width="150" height="46" fill="#e0b062"/>
+  <rect x="470" y="80" width="150" height="204" fill="#b3261e" opacity=".78"/>
+  <text x="545" y="313" class="t-md" text-anchor="middle" fill="#5a4413">76.84</text>
+  <text x="545" y="190" class="t-lg" text-anchor="middle" fill="#ffffff">339.23</text>
+  <text x="545" y="352" class="t-md" text-anchor="middle" fill="#2c3b49">31-Mar-2026</text>
+  <text x="545" y="372" class="t-sm" text-anchor="middle" fill="#5a6a78">total &#8377;416.1 cr</text>
+
+  <!-- legend -->
+  <rect x="730" y="80" width="18" height="18" fill="#b3261e" opacity=".78"/>
+  <text x="756" y="94" class="t" fill="#2c3b49">Other current assets</text>
+  <text x="756" y="112" class="t-sm" fill="#5a6a78">the bucket that holds unbilled</text>
+  <text x="756" y="128" class="t-sm" fill="#5a6a78">revenue &mdash; <tspan font-weight="700">up 7.0&times;</tspan></text>
+  <rect x="730" y="152" width="18" height="18" fill="#e0b062"/>
+  <text x="756" y="166" class="t" fill="#2c3b49">Trade receivables</text>
+  <text x="756" y="184" class="t-sm" fill="#5a6a78">billed and awaiting payment</text>
+  <text x="756" y="200" class="t-sm" fill="#5a6a78">&mdash; down &#8377;41.2 cr</text>
+
+  <rect x="730" y="228" width="212" height="100" rx="8" fill="#fdeceb" stroke="#d99a94" stroke-width="1.4"/>
+  <text x="740" y="250" class="t-md" fill="#8c241d">What a screener reports</text>
+  <text x="740" y="272" class="t" fill="#8c241d">Debtor days: 117 &rarr; 34</text>
+  <text x="740" y="292" class="t-sm" fill="#b3261e">&ldquo;collections improved 3&times;&rdquo;</text>
+  <text x="740" y="314" class="t-sm" fill="#b3261e">The opposite is true.</text>
+</svg>
+<figcaption><strong>One necessary precision.</strong> &ldquo;Other current assets&rdquo; is a <em>broader</em> bucket than unbilled revenue &mdash; it also contains advances to suppliers, prepaid expenses and tax credits &mdash; so the &#8377;290.6cr increase is not all contract assets. But the direction is unambiguous, and the ratio built on the narrow bucket alone cannot describe it. Debtor days computed as year-end trade receivables over revenue from operations, using the company's own FY25 revenue of &#8377;369.69cr and FY26 of &#8377;820.28cr. <span class="src">Audited FY26 results, 28-May-2026; revenue from the Q1FY27 investor deck.</span></figcaption>
+</figure>
+
+<div class="box warn">
+<h4>A caution on the FY25 base itself</h4>
+<p style="margin:6px 0">Sathlokhar's FY26 statements are labelled <strong>&ldquo;Restated&rdquo;</strong> and carry an opening column at 1-Apr-2024, and the FY25 revenue figure differs between sources &mdash; the company's own deck shows <strong>&#8377;369.69cr</strong> while Screener carries <strong>&#8377;399cr</strong>. Any ratio with FY25 in the denominator inherits that ambiguity. The figures above use the company's own number and say so; <strong>the profile documents the discrepancy in full.</strong></p>
+</div>
+
+<h2 id="s10"><span class="n">10.</span> Why growth itself consumes the cash</h2>
+
+<p>Put sections 8 and 9 together and the structural fact of this industry appears: <strong>a fast-growing EPC contractor consumes cash as a matter of arithmetic, not mismanagement.</strong> Every new project needs design, materials and mobilisation paid for up front, and adds to the pile of work done but not yet billable. Double the revenue and you roughly double that pile &mdash; while the profit on last year's smaller pile is still working its way to the bank.</p>
+
+<p>Sathlokhar's FY26 cash-flow statement is a clean worked example of the mechanism.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 470" role="img" aria-label="Waterfall chart showing FY26 operating profit before working capital changes of 114.96 crore reduced by working capital movements, principally a 290.59 crore increase in other current assets, to give cash generated from operations of negative 134.79 crore.">
+  <text x="16" y="22" class="t-md" fill="#1F4E79">FY26: how &#8377;115 cr of operating profit became &minus;&#8377;135 cr of operating cash</text>
+  <!-- axis: 0 at y=149; 0.683 px per cr; top +130 at y=60; bottom -280 at y=340 -->
+  <g stroke="#e3e8ee" stroke-width="1">
+    <line x1="80" y1="80" x2="936" y2="80"/><line x1="80" y1="217" x2="936" y2="217"/><line x1="80" y1="285" x2="936" y2="285"/>
+  </g>
+  <line x1="80" y1="149" x2="936" y2="149" stroke="#8a97a4" stroke-width="1.4"/>
+  <g class="t-sm" fill="#8a97a4" text-anchor="end">
+    <text x="74" y="84">+100</text><text x="74" y="153">0</text><text x="74" y="221">&minus;100</text><text x="74" y="289">&minus;200</text>
+  </g>
+
+  <!-- bars -->
+  <rect x="105" y="70"  width="62" height="79" fill="#2E75B6"/>
+  <rect x="198" y="70"  width="62" height="60" fill="#b3261e" opacity=".8"/>
+  <rect x="291" y="102" width="62" height="28" fill="#1a6f4a" opacity=".8"/>
+  <rect x="384" y="102" width="62" height="198" fill="#b3261e"/>
+  <rect x="477" y="300" width="62" height="29" fill="#b3261e" opacity=".8"/>
+  <rect x="570" y="280" width="62" height="49" fill="#1a6f4a" opacity=".8"/>
+  <rect x="663" y="242" width="62" height="38" fill="#1a6f4a" opacity=".8"/>
+  <rect x="756" y="149" width="62" height="92" fill="#8c241d"/>
+
+  <!-- connectors -->
+  <g stroke="#8a97a4" stroke-width="1" stroke-dasharray="3 3">
+    <line x1="167" y1="70"  x2="198" y2="70"/>
+    <line x1="260" y1="130" x2="291" y2="130"/>
+    <line x1="353" y1="102" x2="384" y2="102"/>
+    <line x1="446" y1="300" x2="477" y2="300"/>
+    <line x1="539" y1="329" x2="570" y2="329"/>
+    <line x1="632" y1="280" x2="663" y2="280"/>
+    <line x1="725" y1="242" x2="756" y2="242"/>
+  </g>
+
+  <!-- value labels -->
+  <g class="t" text-anchor="middle">
+    <text x="136" y="62" fill="#1F4E79">+114.96</text>
+    <text x="229" y="62" fill="#8c241d">&minus;87.02</text>
+    <text x="322" y="96" fill="#125035">+41.15</text>
+    <text x="415" y="96" fill="#8c241d">&minus;290.59</text>
+    <text x="508" y="344" fill="#8c241d">&minus;41.57</text>
+    <text x="601" y="344" fill="#125035">+71.48</text>
+    <text x="694" y="236" fill="#125035">+55.50</text>
+    <text x="787" y="256" fill="#8c241d">&minus;134.79</text>
+  </g>
+
+  <!-- x labels, two lines -->
+  <g class="t-sm" fill="#5a6a78" text-anchor="middle">
+    <text x="136" y="378">Operating profit</text><text x="136" y="392">before WC changes</text>
+    <text x="229" y="378">Inventories</text><text x="229" y="392">built up</text>
+    <text x="322" y="378">Trade</text><text x="322" y="392">receivables</text>
+    <text x="415" y="378" fill="#8c241d">Other current</text><text x="415" y="392" fill="#8c241d">assets</text>
+    <text x="508" y="378">Other non-curr.</text><text x="508" y="392">fin. assets</text>
+    <text x="601" y="378">Trade</text><text x="601" y="392">payables</text>
+    <text x="694" y="378">Other current</text><text x="694" y="392">liabilities</text>
+    <text x="787" y="378" fill="#8c241d">Cash generated</text><text x="787" y="392" fill="#8c241d">from operations</text>
+  </g>
+
+  <!-- callout -->
+  <rect x="360" y="410" width="576" height="46" rx="8" fill="#fdeceb" stroke="#d99a94" stroke-width="1.4"/>
+  <text x="648" y="430" class="t-md" text-anchor="middle" fill="#8c241d">One line does almost all of it &mdash; other current assets grew &#8377;290.59 cr,</text>
+  <text x="648" y="448" class="t-sm" text-anchor="middle" fill="#b3261e">two and a half times the entire year's operating profit before working-capital movements.</text>
+</svg>
+<figcaption><strong>The waterfall reconciles exactly.</strong> &#8377;114.96cr less the six movements shown, plus &#8377;1.30cr of other net movements not drawn, gives the reported &#8377;&minus;134.79cr of cash generated from operations. After &#8377;28.17cr of taxes and interest paid, net cash used in operating activities was <strong>&#8377;&minus;162.95cr</strong>. All bars share one zero-based axis. <span class="src">Audited FY26 cash-flow statement, filed 28-May-2026.</span></figcaption>
+</figure>
+
+<p>That was not a one-year event. <strong>Across FY25 and FY26 together, Sathlokhar reported &#8377;159cr of profit before tax and consumed &#8377;259cr of operating cash.</strong> The gap was funded externally &mdash; in FY26, &#8377;90.44cr of fresh equity and &#8377;80.70cr of short-term borrowing. <span class="src">Audited FY26 cash-flow statement</span></p>
+
+<p>Which is why the financing side of an EPC contractor's balance sheet is part of the operating story, not a separate topic. Sathlokhar's own description of its bank lines shows the structure:</p>
+
+<blockquote>&ldquo;Long term overall around &#8377;250 crores overall bankers we have got the sanction and out of that <strong>70-30, 30% for bank guarantee and 70% for working capital limit</strong>. And at this juncture, we have almost <strong>utilized 70%</strong> of the money being taken for the cash flows.&rdquo; &mdash; with the CFO adding: <em>&ldquo;Around 180, sir.&rdquo;</em><br><span class="src">G. Thiyagu and P. Vijaykumar, Q1FY27 transcript</span></blockquote>
+
+<p><span class="tag inf">MY INFERENCE</span> The <strong>30% earmarked for bank guarantees</strong> is not idle. Construction clients require performance guarantees and advance-payment guarantees before work starts, so a contractor must have guarantee capacity simply to accept an order &mdash; which means <strong>a contractor's growth is capped by its banking limits in two directions at once</strong>: it needs guarantee capacity to <em>win</em> the work and working-capital capacity to <em>fund</em> it.</p>
+
+<h2 id="s11"><span class="n">11.</span> Steel, cement, and who carries the price</h2>
+
+<p>Two inputs dominate. Management is explicit about which:</p>
+
+<blockquote>&ldquo;The major portion is PEB, I mean <strong>steel and cement</strong>. In any project when it comes to PEB or RCC structures, steel and cement is the primary factors. So, we are protecting these two materials.&rdquo;<br><span class="src">G. Thiyagu, Q1FY27 transcript</span></blockquote>
+
+<p>A fixed-price contract signed today and built over ten months carries an obvious hazard: if steel rises 15% in month four, the contractor absorbs it. The industry's answer is the <strong>price escalation clause</strong> &mdash; the contract names a <em>base price</em> for key materials on the day of signing, and movements away from that base are passed to the client.</p>
+
+<p>Sathlokhar adopted this explicitly and recently:</p>
+
+<blockquote>&ldquo;<strong>Post March 2026 onwards we have been started mentioning the base price</strong>, also protecting the current market price. Both we have been addressed to the clients&hellip; all our projects we are protecting the base price including the material requirements on time.&rdquo;<br>Asked directly whether it is therefore a pass-through, including steel for PEB: <em>&ldquo;Yes.&rdquo;</em><br><span class="src">Q1FY27 transcript</span></blockquote>
+
+<div class="box">
+<h4>What a pass-through does and does not do</h4>
+<p style="margin:6px 0">It protects the <strong>margin</strong>, not the <strong>revenue line</strong>. When steel prices rise, a pass-through contractor's revenue rises with them without any more building being done &mdash; and when they fall, revenue falls while activity is unchanged. <span class="tag inf">MY INFERENCE</span> <strong>Reported revenue growth in this sector is therefore part volume and part steel price, and the two cannot be separated from the outside</strong> unless management gives a volume number. Sathlokhar does not publish one.</p>
+<p style="margin:6px 0">It also cuts the other way on margin. Management attributed part of a <strong>418 basis point</strong> EBITDA margin improvement in Q1FY27 to <em>&ldquo;lower material cost as a percentage of total income&rdquo;</em>, and separately noted that <em>&ldquo;steel prices have moderated from the elevated levels witnessed earlier this year.&rdquo;</em> <span class="src">Q1FY27 transcript</span> <span class="tag inf">MY INFERENCE</span> A margin helped by falling input prices is not the same thing as a structurally better cost base, and the two look identical in a single quarter's percentage.</p>
+</div>
+
+<hr>
+
+<h2 id="s12"><span class="n">12.</span> Reading the industry through the numbers</h2>
+
+<p>Each mechanism on this page leaves a fingerprint somewhere in the reported figures. This table is the translation.</p>
+
+<div class="tw">
+<table>
+<thead><tr><th style="width:23%">Mechanism</th><th style="width:27%">Where it shows up</th><th style="width:27%">Latest reading</th><th style="width:23%">Source</th></tr></thead>
+<tbody>
+<tr><td><strong>Integrated, engineering-led delivery</strong></td><td>EBITDA margin, and its stability</td><td><strong>15.2%</strong> in Q1FY27, +418bps YoY &mdash; and held near 15% for four consecutive quarters after two at 11%</td><td>Q1FY27 transcript &amp; results</td></tr>
+<tr><td><strong>Only 30&ndash;35% of work is conventional civil labour</strong></td><td>Ability to grow without a site-labour ceiling</td><td>Revenue &#8377;369.69cr &rarr; &#8377;820.28cr in one year</td><td>Q4FY26 transcript; Q1FY27 deck</td></tr>
+<tr><td><strong>PEB is 35% of scope and bought in</strong></td><td>Capex, and a future margin line</td><td>First plant inaugurated 30-Aug-2026; guided benefit <em>&ldquo;1% on the bottom line&rdquo;</em>; <strong>no revenue from it yet</strong></td><td>Q4FY26 &amp; Q1FY27 transcripts</td></tr>
+<tr><td><strong>Bidding is cheap, execution is not</strong></td><td>Bid pipeline vs order book</td><td>Pipeline <strong>&#8377;22,155cr</strong> against a confirmed book of <strong>&#8377;1,101.59cr</strong>; win ratio 10&ndash;15%</td><td>11-Aug-2026 filing; Q1FY27 deck</td></tr>
+<tr><td><strong>Fixed execution sequence, civil &rarr; PEB &rarr; MEP</strong></td><td>Quarterly revenue shape</td><td>Both June quarters fell sequentially: &minus;34% and &minus;26% from the preceding March</td><td>Screener quarterly series</td></tr>
+<tr><td><strong>&#128308; Percentage-of-completion revenue</strong></td><td><strong>Unbilled revenue / contract assets</strong></td><td><strong>~&#8377;234cr</strong> at 31-Mar-2026 &mdash; 28.5% of FY26 revenue. <em>Analyst-stated, undisputed, not company-published</em></td><td>Q1FY27 transcript</td></tr>
+<tr><td><strong>&#128308; The claim changes bucket</strong></td><td>Debtor days &mdash; <strong>misleading</strong></td><td>Falls <strong>117 &rarr; 34 days</strong> while total claims on customers rose &#8377;166.6cr &rarr; &#8377;416.1cr</td><td>Audited FY26 balance sheet</td></tr>
+<tr><td><strong>&#128308; Growth pre-funds itself</strong></td><td>Operating cash flow vs profit</td><td>FY25+FY26: <strong>&#8377;159cr PBT, &#8377;&minus;259cr operating cash</strong></td><td>Audited FY26 cash-flow statement</td></tr>
+<tr><td><strong>Guarantees are needed to accept work</strong></td><td>Bank sanction split and utilisation</td><td>&#8377;250cr sanctioned, <strong>70% working capital / 30% bank guarantee</strong>, ~&#8377;180cr drawn</td><td>Q1FY27 transcript</td></tr>
+<tr><td><strong>Retention held to defect liability</strong></td><td>Gap between gross and net receivables</td><td>&#8377;99cr with retention vs &#8377;60cr without at 30-Jun-2026 &rarr; <strong>~&#8377;39cr retained</strong></td><td>Q1FY27 transcript, CFO</td></tr>
+<tr><td><strong>Steel &amp; cement pass-through</strong></td><td>Revenue growth is part price, part volume</td><td>Base-price clauses adopted from <strong>March 2026</strong>; no volume figure published</td><td>Q1FY27 transcript</td></tr>
+<tr><td><strong>Qualification gates the customer set</strong></td><td>Registrations and credit ratings</td><td><strong>Class 1A PWD</strong> obtained (highest category); <strong>CRISIL BBB+/Positive and A2</strong> on &#8377;200cr of facilities</td><td>Q4FY26 &amp; Q1FY27 transcripts</td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="box good">
+<h4>If you remember one thing</h4>
+<p style="margin:6px 0">In an EPC business, <strong>the order book tells you about the future, the P&amp;L tells you about the work, and only the cash-flow statement tells you whether the work is turning into money.</strong> Growth, profit and cash can point in three different directions for years at a time without anything being wrong &mdash; and the number that reconciles them is the unbilled balance.</p>
+</div>
+
+<h2 id="s13"><span class="n">13.</span> What is not disclosed &middot; Glossary &middot; Sources</h2>
+
+<h3>What is not disclosed</h3>
+<p>Stated as gaps rather than passed over, because each one limits what can be concluded from the outside:</p>
+<ul>
+<li><strong>The unbilled revenue balance is not published by the company.</strong> The &#8377;234cr figure used throughout this page came from an analyst's question and was not confirmed on the record. The 30-Jun-2026 balance was asked for on the call and deferred to email.</li>
+<li><strong>There is no segment P&amp;L.</strong> The 35 / 35 / 30 split is management's description of a typical project, not an audited segment disclosure, so margins by scope line cannot be derived.</li>
+<li><strong>No volume or physical-output measure is published</strong> &mdash; no square feet built, no tonnes of steel erected. With a steel and cement pass-through in the contracts, that makes it impossible to separate price from activity in the revenue line.</li>
+<li><strong>Order-book composition by client is partial.</strong> Large orders are announced individually, but there is no periodic disclosure of client concentration.</li>
+<li><strong>The PEB plant's capacity is not quantified</strong> in tonnes. The <em>&ldquo;&#8377;200cr-plus turnover&rdquo;</em> ambition is a revenue aspiration, not a rated capacity, and management cautioned against modelling third-party sales at all for now.</li>
+<li><strong>FY25 comparatives are restated and differ across sources</strong> (&#8377;369.69cr per the company, &#8377;399cr per Screener), so every FY26 growth rate depends on which base is used.</li>
+</ul>
+
+<h3>Glossary</h3>
+<dl class="glos">
+<dt>EPC</dt><dd>Engineer, Procure, Construct. A contractor that designs the facility, buys everything for it and builds it &mdash; handing over a finished, working asset.</dd>
+<dt>Turnkey</dt><dd>A contract where the client's only obligation is to pay and take the keys. All coordination risk sits with the contractor.</dd>
+<dt>PEB</dt><dd>Pre-Engineered Building. A steel structure whose members are designed, cut, welded and drilled in a factory, then bolted together on site. Contrasted with RCC.</dd>
+<dt>RCC</dt><dd>Reinforced Cement Concrete. Steel bars tied and concrete poured <em>in place</em> at the site, requiring curing time before work continues.</dd>
+<dt>MEP</dt><dd>Mechanical, Electrical and Plumbing &mdash; a building's services: power distribution, HVAC, water, drainage, fire systems. Roughly 30% of scope here, and installed last.</dd>
+<dt>Clear span</dt><dd>A roof carried without internal columns. Commercially valuable in warehousing, where columns obstruct racking and material handling.</dd>
+<dt>Percentage of completion</dt><dd>The accounting principle that revenue and profit on a long contract are recognised as the work is performed, not when it is invoiced or paid.</dd>
+<dt>Unbilled revenue</dt><dd>Also <em>contract asset</em>. Work performed and recognised as revenue, but not yet billable because the contractual milestone has not been reached. Sits in current assets, not in trade receivables.</dd>
+<dt>Retention money</dt><dd>A percentage of each bill the client withholds until the defect liability period after handover expires. Earned, invoiced, but deliberately unpaid for months or years.</dd>
+<dt>Defect liability period</dt><dd>The window after handover during which the contractor must fix defects at its own cost. Retention is the client's security for it.</dd>
+<dt>Bid pipeline</dt><dd>The total value of tenders and proposals submitted and awaiting an outcome. Not an order book &mdash; nothing in it is won.</dd>
+<dt>Order book</dt><dd>Signed, confirmed work in hand. The <em>executable</em> order book nets off what has already been billed.</dd>
+<dt>Bank guarantee (BG)</dt><dd>A bank's undertaking to pay the client if the contractor fails to perform. Required before many contracts can even be accepted, and it consumes a bank limit.</dd>
+<dt>Price escalation clause</dt><dd>A contract term naming a base price for key materials, with movements away from it passed to the client. Protects margin, but makes revenue move with input prices.</dd>
+<dt>Class 1A PWD</dt><dd>The highest contractor registration category with the Public Works Department. It confers <em>eligibility</em> to bid for large government work &mdash; not revenue.</dd>
+</dl>
+
+<h3>Sources</h3>
+<p class="src">Every figure and quotation on this page comes from Sathlokhar Synergys E&amp;C Global Limited's own documents held in <code class="src">Fetched Concalls/SATHLOKHAR/</code>:</p>
+<ul class="src">
+<li><strong>Earnings call transcripts</strong> &mdash; Q1FY27 (call 3-Aug-2026, filed 5-Aug-2026), Q4FY26 (1-Jun-2026), Q3FY26 (12-Feb-2026), H1FY26 (13-Nov-2025), H2FY25 (16-May-2025), H1FY25 (12-Nov-2024).</li>
+<li><strong>Investor presentations</strong> &mdash; Q1FY27 (2-Aug-2026) and Q4FY26 (29-May-2026).</li>
+<li><strong>Audited results</strong> &mdash; FY26 (filed 28-May-2026, including the cash-flow statement and balance sheet used in sections 9 and 10) and Q1FY27 (29-Jul-2026).</li>
+<li><strong>Exchange filing</strong> &mdash; order book and guidance update, 11-Aug-2026.</li>
+<li><strong>Screener</strong> (<code class="src">screener.in/company/SSEGL/</code>) for the quarterly revenue series only. Note that <code class="src">SATHLOKHAR</code> returns 404 on Screener and the company reports standalone only.</li>
+</ul>
+<p class="src" style="margin-top:14px">No figure on this page is taken from a chart in a slide deck. Where a number exists only in a chart, it has been omitted rather than estimated.</p>
+
+<hr>
+<p class="src">Companion document: <strong>Company Profiles/SATHLOKHAR.md</strong> &mdash; which carries the valuation, the conviction rating, the delivery scorecard, the promoter and governance record including the NCLT proceedings, and the full risk register. <strong>This page deliberately makes no investment judgement of any kind.</strong></p>
+
+<div class="nav" style="margin-top:22px">
+  <a href="https://portfolio-stocks-chi.vercel.app/index.html">&larr; Dashboard</a>
+  <a href="https://portfolio-stocks-chi.vercel.app/profile.html?stock=SATHLOKHAR">Full profile &mdash; SATHLOKHAR &rarr;</a>
+</div>
+
+</body>
+</html>
