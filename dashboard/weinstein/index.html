@@ -30,7 +30,25 @@ h2 .n{color:var(--mut);font-weight:400;font-size:15px}
 .kpi b{display:block;font-size:26px;line-height:1.15}
 .kpi span{font-size:11.5px;opacity:.94;text-transform:uppercase;letter-spacing:.6px}
 .kpi p{margin:7px 0 0;font-size:12.3px;opacity:.95;line-height:1.42}
-.k1{background:#b8860b}.k2{background:#1a7f4b}.k3{background:#c77700}.k4{background:#b3261e}.k0{background:#1F4E79}.k5{background:#6b7280}
+.k1{background:#b8860b}.k2{background:#1a7f4b}.k3{background:#c77700}.k4{background:#b3261e}.k0{background:#1F4E79}.k5{background:#6b7280}.k6{background:#5b4b8a}
+button.kpi{display:block;width:100%;border:0;text-align:left;font:inherit;cursor:pointer;-webkit-appearance:none}
+.kpi:hover{filter:brightness(1.07)}
+.kpi:focus-visible{outline:3px solid #12263a;outline-offset:2px}
+.kpi[aria-expanded=true]{box-shadow:0 0 0 3px rgba(18,38,58,.4)}
+.kmore{display:block;margin-top:9px;padding-top:7px;border-top:1px solid rgba(255,255,255,.3);font-style:normal;font-size:11.3px;opacity:.93}
+.kpi[aria-expanded=true] .kmore::after{content:" \25BE"}
+#kpinames{margin-top:12px}
+.knhead{display:flex;flex-wrap:wrap;gap:9px;align-items:baseline;border-bottom:1px solid var(--line);padding-bottom:9px;margin-bottom:11px}
+.knhead b{color:var(--navy);font-size:15px}
+.knhead .knsub{flex:1;min-width:230px;color:var(--mut);font-size:12.6px}
+.knclose{border:none;background:#eef1f5;border-radius:6px;padding:4px 11px;cursor:pointer;font-weight:700;color:var(--mut);font-size:12px}
+.knames{display:grid;grid-template-columns:repeat(auto-fill,minmax(266px,1fr));gap:8px}
+.nchip{display:block;width:100%;text-align:left;background:#fff;border:1px solid var(--line);border-radius:8px;padding:8px 10px;font:inherit;color:inherit;cursor:pointer}
+.nchip:hover{border-color:#b3261e;background:#fdf8f8}
+.nchip:focus-visible{outline:2px solid #b3261e;outline-offset:1px}
+.nrow1{display:block;font-size:13.4px}
+.nrow2{display:block;margin-top:5px}
+.nmeta{display:block;margin-top:4px;color:var(--mut);font-size:11.8px;font-variant-numeric:tabular-nums}
 table{width:100%;border-collapse:collapse;font-size:13.2px}
 .scroll{overflow-x:auto}
 th{text-align:left;background:#eef3f8;color:var(--navy);font-size:11.4px;text-transform:uppercase;letter-spacing:.6px;padding:9px;border-bottom:2px solid var(--line);position:sticky;top:0;white-space:nowrap;z-index:2}
@@ -109,7 +127,9 @@ code{background:#eef1f5;padding:1px 5px;border-radius:3px;font-size:12.5px}
 <div class="card" id="changes"></div>
 
 <h2>The stage ladder <span class="n">&middot; where the 58 sit today</span></h2>
+<p class="lede" style="margin-top:0">Click any tile to list the names inside it &mdash; then any name for its annotated chart and written read-out.</p>
 <div class="grid" id="kpis"></div>
+<div class="card" id="kpinames" hidden></div>
 
 <h2>The rules, in full <span class="n">&middot; every criterion this screen applies</span></h2>
 <p class="lede">Frozen 9-Sep-2026, two amendments logged. Nothing here was chosen after seeing a result.</p>
@@ -250,17 +270,42 @@ document.getElementById('changes').innerHTML = CH.length===0
  ? `<p style="margin:0;color:var(--mut)">No changes since the previous run. <span style="font-size:13px">(The engine is idempotent — running it twice on the same data must produce zero changes. That is a standing correctness check, not a formality.)</span></p>`
  : CH.map(c=>`<div class="chg"><span class="sev ${c.sev||'info'}">${(c.sev||'info').toUpperCase()}</span>
     <b>${(S.stocks[c.t]||{}).name||c.t}</b><span>${c.msg}</span></div>`).join('');
-// ── KPI ladder
-const cnt=v=>rows.filter(r=>r.verdict===v).length;
-const stg=v=>rows.filter(r=>r.stage===v).length;
-document.getElementById('kpis').innerHTML=[
- ['k1','Stage 1 · base',stg('S1'),'MA flat after a decline. Wait — the breakout is the trigger.'],
- ['k2','Stage 2 · advance',stg('S2'),'Above a rising MA. The only stage you may buy in — and only early in it.'],
- ['k3','Stage 3 · top',stg('S3'),'MA flattening, price churning through it. Never buy here.'],
- ['k4','Stage 4 · decline',stg('S4'),'Below a falling MA. Never buy, never hold.'],
- ['k0','Watch / watch-base',cnt('WATCH')+cnt('WATCH-base'),'Would be buys if the market gate were open.'],
- ['k5','Hold-only',cnt('HOLD-ONLY'),'Trend intact but the low-risk entry has gone.']
-].map(k=>`<div class="kpi ${k[0]}"><span>${k[1]}</span><b>${k[2]}</b><p>${k[3]}</p></div>`).join('');
+// ── KPI ladder — every tile opens the names inside it
+const LADDER=[
+ {c:'k1',l:'Stage 1 · base',    n:'MA flat after a decline. Wait — the breakout is the trigger.',              pick:r=>r.stage==='S1'},
+ {c:'k2',l:'Stage 2 · advance', n:'Above a rising MA. The only stage you may buy in — and only early in it.',  pick:r=>r.stage==='S2'},
+ {c:'k3',l:'Stage 3 · top',     n:'MA flattening, price churning through it. Never buy here.',                 pick:r=>r.stage==='S3'},
+ {c:'k4',l:'Stage 4 · decline', n:'Below a falling MA. Never buy, never hold.',                                pick:r=>r.stage==='S4'},
+ {c:'k6',l:'Between stages',    n:'Price and the 30-week MA disagree — a pullback below a rising average, or price above a falling one. Never a buy.', pick:r=>r.stage==='TRANS'},
+ {c:'k0',l:'Watch / watch-base',n:'Would be buys if the market gate were open.',                               pick:r=>r.verdict==='WATCH'||r.verdict==='WATCH-base'},
+ {c:'k5',l:'Hold-only',         n:'Trend intact but the low-risk entry has gone.',                             pick:r=>r.verdict==='HOLD-ONLY'}
+];
+const shortName=n=>n.replace(/\s*(Pvt\.?\s*)?(Ltd|Limited)\.?\s*$/i,'');
+document.getElementById('kpis').innerHTML=LADDER.map((k,i)=>{
+ const n=rows.filter(k.pick).length;
+ return `<button type="button" class="kpi ${k.c}" data-k="${i}" aria-expanded="false" aria-controls="kpinames">
+  <span>${k.l}</span><b>${n}</b><p>${k.n}</p>
+  <em class="kmore">${n?'Click to list the '+n+' name'+(n===1?'':'s'):'Nothing in this bucket today'}</em></button>`}).join('');
+let KSEL=null;
+function ladderNames(i){
+ const box=document.getElementById('kpinames'), tiles=document.querySelectorAll('.kpi');
+ if(KSEL===i){KSEL=null;box.hidden=true;tiles.forEach(b=>b.setAttribute('aria-expanded','false'));return}
+ KSEL=i; tiles.forEach(b=>b.setAttribute('aria-expanded',String(Number(b.dataset.k)===i)));
+ const k=LADDER[i], rs=rows.filter(k.pick);   // rows is already sorted: verdict, then MA slope
+ box.hidden=false;
+ box.innerHTML=`<div class="knhead"><b>${k.l}</b>
+   <span class="knsub">${rs.length} name${rs.length===1?'':'s'} · ordered by verdict, then by the slope of the 30-week MA · click any name for its annotated chart and read-out</span>
+   <button type="button" class="knclose" onclick="ladderNames(${i})">Close &times;</button></div>`
+  +(rs.length?'<div class="knames">'+rs.map(r=>
+    `<button type="button" class="nchip" data-t="${r.t}">
+      <span class="nrow1"><b>${shortName(r.name)}</b>${r.held?'<span class="held">★</span>':''}</span>
+      <span class="nrow2"><span class="stg g-${r.stage}">${r.sub||r.stage}</span> <span class="pill ${cls(r.verdict)}">${r.verdict}</span></span>
+      <span class="nmeta">MA slope ${r.slope10==null?'—':(r.slope10>0?'+':'')+f(r.slope10)+'%'} · RS ${r.rs_rank??'—'} · stop ${r.risk==null?'—':(r.risk<=0?'already broken':f(r.risk)+'% away')}</span>
+     </button>`).join('')+'</div>'
+   :'<p style="margin:0;color:var(--mut);font-size:13.4px">No name sits in this bucket on this run.</p>');
+ box.querySelectorAll('.nchip').forEach(b=>b.onclick=()=>openM(b.dataset.t));
+}
+document.querySelectorAll('.kpi').forEach(b=>b.onclick=()=>ladderNames(Number(b.dataset.k)));
 // ── rules
 const RULES=[
  ['MKT','','Market first. Stage the index itself; if it is in Stage 4, no buy may be issued.','“If you keep up just one long-term indicator, this is it.”'],
