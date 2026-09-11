@@ -226,6 +226,12 @@ const rows=Object.entries(S.stocks).map(([t,r])=>({t,...r,held:HOLD.includes(t),
 const ordv={BUY:0,WATCH:1,"WATCH-base":2,"HOLD-ONLY":3,AVOID:4,EXIT:5,ABSTAIN:6};
 rows.sort((a,b)=>ordv[a.verdict]-ordv[b.verdict]||(b.slope10??-999)-(a.slope10??-999));
 const cls=v=>'p-'+v.replace(/[^A-Za-z]/g,'');
+// 🔴 Vercel serves this page at /weinstein (cleanUrls, trailingSlash:false), so the
+// document's base is the SITE ROOT — a relative 'charts/x.jpg' resolves to
+// /charts/x.jpg and 404s, while working perfectly from the local file. Derive the
+// page's own folder instead; the relative form stays as an onerror fallback.
+const CHARTBASE=(()=>{const p=location.pathname;
+ return ((p.endsWith('/')||/\.[a-z0-9]+$/i.test(p)) ? p.replace(/[^/]*$/,'') : p+'/')+'charts/';})();
 const f=(n,p=1)=>n==null?'—':n.toFixed(p);
 // ── status bar
 const gate=S.market_open;
@@ -357,7 +363,10 @@ function openM(t){
  document.getElementById('mtitle').textContent=r.name;
  document.getElementById('msub').innerHTML=`<span class="stg g-${r.stage}">${r.sub||r.stage}</span> &nbsp; <span class="pill ${cls(r.verdict)}">${r.verdict}</span> &nbsp; price ${(r.close||0).toLocaleString()} · 30-week MA ${(r.ma||0).toLocaleString()} · slope ${f(r.slope10)}% · RS rank ${r.rs_rank??'—'} · stop ${(r.stop||0).toLocaleString()} (${f(r.risk)}% away)`;
  const img=document.getElementById('mimg');
- img.src='charts/'+t+'.jpg';img.style.display='';img.onerror=()=>{img.style.display='none'};
+ img.style.display='';
+ img.dataset.tried='';
+ img.onerror=()=>{ if(img.dataset.tried!=='1'){img.dataset.tried='1';img.src='charts/'+t+'.jpg';} else {img.style.display='none';} };
+ img.src=CHARTBASE+t+'.jpg';
  const ro=RO[t]||{};
  const md=s=>s.replace(/\*\*(.+?)\*\*/g,'<b>$1</b>').replace(/\*(.+?)\*/g,'<i>$1</i>');
  let h='';
