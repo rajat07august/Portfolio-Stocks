@@ -59,6 +59,8 @@ tr.idxrow{cursor:pointer}tr.idxrow:hover td{background:#eef3f8}
 .pickrow:last-child{border-bottom:none}
 .picknone{color:var(--mut);font-size:13.3px;margin:0}
 .ixname{display:inline-block;background:#f2f6fa;border-radius:4px;padding:1px 6px;font-size:11.6px;margin:1px 3px 1px 0;color:#12263a}
+.ixname.gx{cursor:pointer;border:1px solid #e1e8ef}
+.ixname.gx:hover{background:#1F4E79;color:#fff}
 table{width:100%;border-collapse:collapse;font-size:13.2px}
 .scroll{overflow-x:auto}
 th{text-align:left;background:#eef3f8;color:var(--navy);font-size:11.4px;text-transform:uppercase;letter-spacing:.6px;padding:9px;border-bottom:2px solid var(--line);position:sticky;top:0;white-space:nowrap;z-index:2}
@@ -490,6 +492,26 @@ function openM(t){
  const ro=RO[t]||{};
  const md=s=>s.replace(/\*\*(.+?)\*\*/g,'<b>$1</b>').replace(/\*(.+?)\*/g,'<i>$1</i>');
  let h='';
+ // ── step 2, shown where the decision is actually made. Weinstein checks the group
+ // BEFORE the stock, so the chart above is only half the case.
+ (function(){
+  const gs=IX.filter(i=>i.watchlist.includes(t));
+  const narrow=gs.filter(i=>i.group==='SECTORAL INDICES'||i.group==='THEMATIC INDICES');
+  const broad=gs.filter(i=>i.group!=='SECTORAL INDICES'&&i.group!=='THEMATIC INDICES');
+  const chip=i=>`<span class="ixname gx" data-s="${i.slug}">${i.name} <span class="stg g-${i.stage}">${i.sub||i.stage}</span></span>`;
+  const up=narrow.filter(i=>i.stage==='S2'), dn=narrow.filter(i=>i.stage==='S3'||i.stage==='S4');
+  let line, colr;
+  if(up.length){ colr='#14532d'; line=`<b>Step 2 passes.</b> It trades in ${up.length===1?'a Stage 2 group':'Stage 2 groups'} — the group is advancing with it.`; }
+  else if(dn.length){ colr='#b3261e'; line=`<b>Step 2 fails.</b> Its own ${dn.length===1?'group is':'groups are'} in Stage ${[...new Set(dn.map(i=>i.stage[1]))].join('/')} — <i>&ldquo;don't try to be a whiz kid and find the one winner in a sick group.&rdquo;</i>`; }
+  else if(narrow.length){ colr='#8a6200'; line=`<b>Step 2 is unresolved.</b> Its ${narrow.length===1?'group is':'groups are'} neither advancing nor topping.`; }
+  else { colr='#5b6670'; line=`<b>Step 2 cannot be run.</b> No sectoral or thematic index carries this name${broad.length?' — only broad-market ones, which are the market, not a group':' at all'}.`; }
+  h+='<h4 style="margin:16px 0 6px;color:var(--navy);font-size:14.5px">The group it trades in <span class="n" style="font-weight:400">&middot; Weinstein\'s step 2</span></h4>';
+  h+=`<p style="margin:0 0 8px;font-size:13.5px;color:${colr}">${line}</p>`;
+  h+= (narrow.length||broad.length)
+     ? '<div>'+narrow.map(chip).join('')+broad.map(chip).join('')+'</div>'
+     : '';
+  h+='<p style="margin:8px 0 0;font-size:12.4px;color:var(--mut)">The RS rank above is measured <b>against the market</b>, not against the group — that is his formula: <i>&ldquo;the price of a stock (or group average) divided by the price of a market average.&rdquo;</i> The group is a <b>separate test</b>, which is what this block is.</p>';
+ })();
  if(ro.read){
    h+='<h4 style="margin:16px 0 6px;color:var(--navy);font-size:14.5px">How Weinstein would read this chart</h4>';
    h+='<div style="font-size:13.8px;line-height:1.6">'+ro.read.map(x=>'<p style="margin:0 0 8px">'+md(x)+'</p>').join('')+'</div>';
@@ -502,7 +524,8 @@ function openM(t){
        <span style="font-size:13.4px">${md(x[1])}</span></div>`).join('')+'</div>';
    h+='<p style="margin:8px 0 0;font-size:12.5px;color:var(--mut)">Naming the level is his instruction, not decoration: <i>“write down the price that each would need to break out.”</i></p>';
  }
- document.getElementById('mrules').innerHTML=h;
+ const mr2=document.getElementById('mrules'); mr2.innerHTML=h;
+ mr2.querySelectorAll('.gx').forEach(g=>g.onclick=()=>openIdx(g.dataset.s));
  document.getElementById('modal').classList.add('on');
 }
 function closeM(){document.getElementById('modal').classList.remove('on')}
