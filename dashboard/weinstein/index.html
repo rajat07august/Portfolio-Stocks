@@ -125,6 +125,7 @@ code{background:#eef1f5;padding:1px 5px;border-radius:3px;font-size:12.5px}
 <p style="margin:4px 0 0;font-size:13.4px">Where the stop sits, before any order. <b>More than 15% away and it is not a buy</b>, however good the chart.</p></div>
 </div></div>
 
+<p class="lede" style="margin-top:14px"><b>Why a chart screen sits beside a library of fundamental profiles at all</b> &mdash; <em>&ldquo;Your buy and sell decisions are going to be timed from the chart pattern, not from press releases. No longer will you be amazed at seeing <b>Sears rising in 1985 on decreasing earnings and then crashing in 1987 on increasing earnings</b>.&rdquo;</em> That is the one rule that cannot be blended with the other two frameworks: where price and earnings disagree, this one goes with price.</p>
 <h2>Stage 0 &mdash; the market gate <span class="n">&middot; nothing below matters until this is settled</span></h2>
 <p class="lede"><em>&ldquo;Forest to the trees&rdquo;</em>: market &rarr; group &rarr; stock, never the reverse. <em>&ldquo;If it's negative, you'll want to do very little if any buying, <b>even if you see some stocks breaking out</b>.&rdquo;</em></p>
 <div class="card" id="gatebox"></div>
@@ -174,7 +175,7 @@ code{background:#eef1f5;padding:1px 5px;border-radius:3px;font-size:12.5px}
 <li><b>Shaded bands, named</b> &mdash; every stage the stock has passed through: <span class="stg g-S1">STAGE 1 base</span> <span class="stg g-S2">STAGE 2 advance</span> <span class="stg g-S3">STAGE 3 top</span> <span class="stg g-S4">STAGE 4 decline</span>. Runs shorter than 8 weeks are absorbed into their neighbours, because a stage is a phase of months, not a weekly flip.</li>
 <li><b>The red line is the 30-week MA</b> &mdash; the single most important object on the chart. <em>&ldquo;Stocks trading beneath their 30-week MAs should never be considered for purchase, especially if the MA is declining.&rdquo;</em></li>
 <li><b>The green dashed line</b> is the ceiling of the most recent base, with an arrow at the point price broke through it &mdash; where Stage 2 begins.</li>
-<li><b>The purple dotted line is the protective sell-stop</b>, placed below the correction low or the MA (whichever is lower) and tucked just under a round number, with the risk from today's price.</li>
+<li><b>The purple dotted line is the protective sell-stop</b>, placed below the correction low or the MA (whichever is lower) and tucked just under a round number, with the risk from today's price. <em>&ldquo;Ask eight out of ten investors who bought stock XYZ at 40 how much they've lost now that the stock is down to 20, and they'll answer <b>nothing!</b>&hellip; That's ridiculous! <b>Your stock is only worth the price of the last print on the tape.</b>&rdquo;</em></li>
 <li><b>Volume panel</b> &mdash; the dashed red line is <b>2&times; the 4-week average</b>, Weinstein's breakout threshold; bars that clear it are red. <em>&ldquo;Never trust a breakout that isn't accompanied by a significant increase in volume.&rdquo;</em></li>
 <li><b>A written read-out accompanies every chart</b> &mdash; how Weinstein would read it in words, followed by <b>the specific price levels at which the stage would change</b>. Naming those levels is his instruction: <em>&ldquo;write down the price that each would need to break out.&rdquo;</em></li>
 <li><b>RS panel</b> &mdash; relative strength against the Nifty as a <b>0&ndash;99 rank</b>. Above 50 the stock is leading the index, below 50 it is lagging. <em>&ldquo;As long as this line is in a downtrend, don't consider buying the stock even if it breaks out.&rdquo;</em></li>
@@ -222,7 +223,7 @@ code{background:#eef1f5;padding:1px 5px;border-radius:3px;font-size:12.5px}
 
 <h2>Keeping it live</h2>
 <div class="card">
-<p style="margin-top:0">The screen is a script, not a snapshot. To refresh:</p>
+<p style="margin-top:0">The screen is a script, not a snapshot. He asks for it weekly, and names the number that should make you stop: <em>&ldquo;I strongly suggest that <b>each weekend you tabulate the value of your portfolio</b>. Don't worry if it swings a few percent from week to week. That's the way of the market. But <b>if you see your assets drop by 20 to 25 percent, something is wrong</b>.&rdquo;</em> To refresh:</p>
 <p><code>cd "Investor Frameworks/WEINSTEIN" &amp;&amp; ../../.venv-charts/bin/python tools/refresh.py</code></p>
 <ul class="tight">
 <li>Re-fetches weekly price and volume for all 58 names plus the Nifty, with back-off on rate limits and a fall back to the cached file if a fetch fails &mdash; <b>a failed fetch never silently becomes an abstention</b>.</li>
