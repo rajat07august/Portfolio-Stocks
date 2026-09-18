@@ -1,6 +1,6 @@
 # Company Profiles — Master Index
 
-61 stocks · organised by sector (alphabetical) · each follows the 8-section framework.
+62 stocks · organised by sector (alphabetical) · each follows the 8-section framework.
 
 **Structure per profile:**
 1. Business in Plain English
@@ -20,7 +20,8 @@
 
 Status legend: `⏳ pending` · `🔨 in progress` · `✅ complete`
 
-### 1. Aerospace & Defence (6) ✅ Complete
+### 1. Aerospace & Defence (7) ✅ Complete
+- ✅ [CFF Fluid Control](./CFF.md) *(tracking since 18-Sep-2026 · 🆕 **new format, v1** — **MEDIUM-LOW**, weighted ≈ +28%. **BSE-only; migrated from BSE SME to the BSE Main Board 16-Sep-2026.** Gate 🟡 AMBER — SME documents complete but **zero transcripts ever filed** (152 BSE announcements checked). Naval Group- and Atlas-qualified submarine systems + LFVDS sonar; revenue +43% at 28% OPM; order book ₹551cr. **🔴 Operating cash negative four years running (−₹65cr on ₹90cr PAT), funded by IPO ₹85.8cr + FPO ₹87.75cr**; ₹44cr undisclosed supplier advances; same-business promoter company Flash Forge receives ₹4.9cr/yr of unexplained reimbursements)*
 - ✅ [Shree Refrigerations](./SHREEREFR.md) *(thesis current 1-Sep-2026 · 🆕 **new addition** — **Medium-Low**; the only Indian firm cleared for the complete naval cooling package, at 68x with margin falling)*
 - ✅ [AXISCADES Technologies](./AXISCADES.md) *(thesis current 31-Aug-2026 · 🆕 **new format** · **§3.5 retrofit closed** — **Medium (Under Watch)**; record loss-making quarter, ₹2,256cr Akkodis exit with four incompatible proceeds figures, Cloud Wave bought 28-Aug)*
 - ✅ [Azad Engineering](./AZAD.md) *(tracking since 3-Jul-2026 · **thesis current 15-Aug-2026** · 🆕 **new format** — MH → M; turbojet landmark, but 126x on CFO −₹119cr)*
