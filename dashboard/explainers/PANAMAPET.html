@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Where a Base-Oil Processor Sits — Panama Petrochem Industry Primer</title>
+<meta name="robots" content="noindex,nofollow">
+<style>
+:root{
+  --navy:#1F4E79; --blue:#2E75B6; --ink:#16202b; --mut:#5a6a78; --bg:#fafbfc;
+  --card:#ffffff; --line:#e3e8ee; --amber:#a2650a; --amberbg:#fff8e6;
+  --red:#b3261e; --redbg:#fdeceb; --green:#1a6f4a; --greenbg:#ecf7f1;
+  color-scheme: light;
+}
+*{box-sizing:border-box}
+body{
+  max-width:1040px; margin:0 auto; padding:22px 20px 80px;
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+  line-height:1.62; color:var(--ink); background:var(--bg); font-size:15px;
+}
+.nav{display:flex; gap:18px; flex-wrap:wrap; margin-bottom:12px; font-size:13.5px}
+.nav a{color:var(--navy); font-weight:600; text-decoration:none}
+.nav a:hover{text-decoration:underline; color:var(--blue)}
+.topbar{background:linear-gradient(135deg,#1F4E79 0%,#2E75B6 100%); color:#fff; padding:20px 24px; border-radius:10px; margin-bottom:22px}
+.topbar h1{margin:0 0 6px; font-size:25px; line-height:1.25; color:#fff; border:0; padding:0}
+.topbar .sub{font-size:14.5px; opacity:.92}
+.topbar .meta{font-size:12.5px; opacity:.8; margin-top:10px}
+h2{color:var(--navy); font-size:20px; margin:44px 0 6px; border-left:4px solid var(--navy); padding-left:12px}
+h2 .n{color:var(--blue); font-weight:700}
+h3{color:var(--blue); font-size:16px; margin:26px 0 8px}
+p{margin:11px 0}
+ul{margin:10px 0; padding-left:22px} li{margin:6px 0}
+.lede{font-size:15.5px; color:#2c3b49}
+.box{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 18px; margin:18px 0}
+.box.warn{background:var(--amberbg); border-color:#f0dcae}
+.box.red{background:var(--redbg); border-color:#f3cfcb}
+.box.good{background:var(--greenbg); border-color:#c7e4d5}
+.box h4{margin:0 0 6px; font-size:14px; color:var(--navy); text-transform:uppercase; letter-spacing:.04em}
+.src{color:var(--mut); font-size:12.5px}
+code.src{background:transparent; padding:0}
+figure.dg{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px 16px 12px; margin:22px 0}
+figure.dg svg{width:100%; height:auto; display:block; color:#3d4b5c}
+figure.dg figcaption{font-size:13px; color:var(--mut); margin-top:12px; padding-top:10px; border-top:1px dashed var(--line)}
+svg text:not([fill]){fill:currentColor}
+.t-lg{font-size:15px; font-weight:700}
+.t-md{font-size:13.5px; font-weight:700}
+.t{font-size:12.5px}
+.t-sm{font-size:11px}
+.t-mut{opacity:.7}
+.tw{overflow-x:auto; margin:16px 0}
+table{border-collapse:collapse; width:100%; min-width:620px; font-size:13.5px; background:var(--card)}
+th,td{border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top}
+th{background:#eef3f8; color:var(--navy); font-weight:700}
+td.r,th.r{text-align:right}
+.toc{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 20px; font-size:14px}
+.toc ol{margin:6px 0; padding-left:22px} .toc li{margin:4px 0}
+.toc a{color:var(--navy); text-decoration:none} .toc a:hover{text-decoration:underline}
+.glos{display:grid; grid-template-columns:170px 1fr; gap:6px 14px; font-size:13.5px}
+.glos dt{font-weight:700; color:var(--navy)} .glos dd{margin:0}
+@media (max-width:640px){ .glos{grid-template-columns:1fr} .glos dt{margin-top:8px} }
+.tag{display:inline-block; font-size:11px; font-weight:700; letter-spacing:.03em; padding:2px 7px; border-radius:20px; vertical-align:middle}
+.tag.fact{background:#e8f0f8; color:var(--navy)}
+.tag.inf{background:var(--amberbg); color:var(--amber); border:1px solid #ecd9a8}
+blockquote{border-left:4px solid #2E75B6; background:#f4f8fc; margin:16px 0; padding:12px 18px; font-size:14px}
+hr{border:0; border-top:1px solid var(--line); margin:38px 0}
+</style>
+</head>
+<body>
+
+<div class="nav">
+  <a href="https://portfolio-stocks-chi.vercel.app/index.html">&larr; Dashboard</a>
+  <a href="https://portfolio-stocks-chi.vercel.app/profile.html?stock=PANAMAPET">Full profile — PANAMAPET &rarr;</a>
+</div>
+
+<div class="topbar">
+  <h1>Where a base-oil processor sits</h1>
+  <div class="sub">An industry primer for Panama Petrochem: what white oil, petroleum jelly and transformer oil physically are, why 83 paise of every rupee is spent on oil before the plant does anything, how a three-month stockpile and a one-month pricing lag turn a crude shock into a year's profit in one quarter, and why the margin percentage is the wrong number to watch</div>
+  <div class="meta">Built 19-Sep-2026 · Sourced from Panama's FY26 Annual Report, audited and reviewed results (rendered page images), six earnings-call transcripts (May-2022 → Nov-2023), two investor decks (Aug-2022, Nov-2024) and three ICRA rationales · Companion to <strong>Company Profiles/PANAMAPET.md</strong></div>
+</div>
+
+<p class="lede">This page explains the <strong>industry</strong>, not the investment case. It has no valuation, no conviction and no target; those live in the profile. What follows is the mechanism: what the products are, where Panama sits between the refinery and the shampoo bottle, what it actually does to the oil it buys, and <strong>why the timing of its purchases, rather than its own work on the oil, is what moves its profit in any given quarter.</strong></p>
+
+<div class="box warn">
+<h4>How to read this</h4>
+<p style="margin:6px 0"><span class="tag fact">FACT</span> Everything unmarked comes from Panama's own filings, calls or ICRA's rationales, with the source in grey after the claim. Every computed figure is derived from a filed statement and the arithmetic is shown.</p>
+<p style="margin:6px 0"><span class="tag inf">MY INFERENCE</span> Where the framing or derivation is mine rather than the company's, it is marked.</p>
+<p style="margin:6px 0; color:#5a6a78; font-size:13.5px"><strong>🔴 One structural limit.</strong> <strong>Panama has not held an earnings call since 9-Nov-2023.</strong> The six transcripts used here run from May-2022 to Nov-2023. Everything management said about volume, pricing, inventory and product mix is at least 34 months old, and <strong>nobody at the company has explained the Q1FY27 quarter at all.</strong> Where this page explains that quarter, it reads the filed profit-and-loss lines and says so.</p>
+</div>
+
+<div class="toc">
+<strong>Contents</strong>
+<ol>
+<li><a href="#s1">The products, physically: one oil, eighty grades</a></li>
+<li><a href="#s2">Where Panama sits between the refinery and the shelf</a></li>
+<li><a href="#s3">The ₹100 cost stack: a handling business, not a chemistry business</a></li>
+<li><a href="#s4">The clock: three months of stock, one month of pricing lag</a></li>
+<li><a href="#s5">A worked example: one tonne, four price paths</a></li>
+<li><a href="#s6">The plants, and the one next to the Gulf refineries</a></li>
+<li><a href="#s7">🔴 Reading the numbers (I): revenue growth is mostly price</a></li>
+<li><a href="#s8">🔴 Reading the numbers (II): Q1FY27, line by line</a></li>
+<li><a href="#s9">The counterweight: the stockpile that earns the gain also eats the cash</a></li>
+<li><a href="#s10">The counterweight: eleven years of margin, and what "specialty" buys</a></li>
+<li><a href="#s11">Mechanism &rarr; metric</a></li>
+<li><a href="#s12">What is not disclosed</a></li>
+<li><a href="#s13">Glossary · Sources</a></li>
+</ol>
+</div>
+
+<!-- ============================ §1 ============================ -->
+<h2 id="s1"><span class="n">1.</span> The products, physically: one oil, eighty grades</h2>
+
+<p>Everything Panama sells starts as the same thing: <strong>base oil</strong>. When a refinery distils crude, the heavy, slow-moving fraction left after petrol, diesel and kerosene have boiled off is cleaned up and sold as base oil. It is a clear-to-yellow liquid that looks like cooking oil and is chemically a mixture of long hydrocarbon chains. Most of the world's base oil becomes engine lubricant. <strong>A smaller slice is sold to specialists like Panama, who turn it into oils that go inside things rather than inside engines.</strong></p>
+
+<p>Panama makes "over 80 variants" <span class="src">(ICRA, May-2026; FY26 AR MD&amp;A: "nearly 80")</span>, which fall into six families:</p>
+
+<ul>
+<li><strong>White oil (liquid paraffin) and petroleum jelly.</strong> Base oil refined until it is colourless, odourless and safe on skin or in the body. This is the oil in baby oil and hair oil, the jelly in a Vaseline-type tub, and a pharmaceutical laxative. ICRA names <em>"Dabur and Marico"</em> among the customers.</li>
+<li><strong>Rubber process oil.</strong> Mixed into rubber compound to make it workable and to extend it. Every tyre contains some.</li>
+<li><strong>Printing-ink oils.</strong> The carrier that holds pigment in offset and newspaper ink.</li>
+<li><strong>Textile oils</strong> (knitting and anti-static coning oils). Sprayed onto yarn so it runs through knitting machines without snapping or building static.</li>
+<li><strong>Transformer oil.</strong> The fluid that fills a power transformer, insulating the windings and carrying the heat away.</li>
+<li><strong>Others:</strong> drilling fluids, cable-filling compounds, specialty greases, waxes and industrial oils.</li>
+</ul>
+
+<figure class="dg">
+<svg viewBox="0 0 960 470" role="img" aria-label="One feedstock, base oil, flows into Panama and out as six product families. Shares of sales from the August 2022 deck: cosmetics and pharma 24 percent, rubber process oil 21, printing ink 20, knitting and coning oil 19, transformer oil 7, others 9.">
+  <text x="20" y="26" class="t-md" fill="#1F4E79">One input, six families: share of sales as last published (Aug-2022)</text>
+
+  <rect x="20" y="175" width="150" height="110" rx="8" fill="#eef3f8" stroke="#c3d7ea"/>
+  <text x="95" y="208" class="t-md" text-anchor="middle" fill="#16202b">Base oil</text>
+  <text x="95" y="228" class="t-sm" text-anchor="middle">bought from refineries</text>
+  <text x="95" y="244" class="t-sm" text-anchor="middle">in India and abroad</text>
+  <text x="95" y="268" class="t-sm" text-anchor="middle" fill="#b3261e">~76% of revenue, FY26</text>
+
+  <line x1="170" y1="230" x2="196" y2="230" stroke="#2E75B6" stroke-width="2.5"/>
+  <polygon points="196,224 206,230 196,236" fill="#2E75B6"/>
+
+  <rect x="208" y="160" width="150" height="140" rx="8" fill="#1F4E79"/>
+  <text x="283" y="196" class="t-lg" text-anchor="middle" fill="#ffffff">Panama</text>
+  <text x="283" y="220" class="t-sm" text-anchor="middle" fill="#ffffff">select · blend</text>
+  <text x="283" y="236" class="t-sm" text-anchor="middle" fill="#ffffff">treat · test · fill</text>
+  <text x="283" y="262" class="t-md" text-anchor="middle" fill="#ffffff">~80 grades</text>
+
+  <g stroke="#9fb9d3" stroke-width="1.4" fill="none">
+    <path d="M358 230 C 370 230, 368 76, 380 76"/>
+    <path d="M358 230 C 370 230, 368 138, 380 138"/>
+    <path d="M358 230 C 370 230, 368 200, 380 200"/>
+    <path d="M358 230 C 370 230, 368 262, 380 262"/>
+    <path d="M358 230 C 370 230, 368 324, 380 324"/>
+    <path d="M358 230 C 370 230, 368 386, 380 386"/>
+  </g>
+
+  <g>
+    <rect x="380" y="50" width="560" height="52" rx="6" fill="#ffffff" stroke="#e3e8ee"/>
+    <text x="392" y="71" class="t-md" fill="#16202b">Cosmetics &amp; pharma</text>
+    <text x="392" y="90" class="t-sm">white oil, liquid paraffin, petroleum jelly → FMCG, pharma</text>
+    <rect x="700" y="64" width="192" height="22" rx="3" fill="#2E75B6"/>
+    <text x="898" y="80" class="t-md" fill="#2E75B6">24%</text>
+
+    <rect x="380" y="112" width="560" height="52" rx="6" fill="#ffffff" stroke="#e3e8ee"/>
+    <text x="392" y="133" class="t-md" fill="#16202b">Rubber process oil</text>
+    <text x="392" y="152" class="t-sm">softener and extender → tyres, rubber goods</text>
+    <rect x="700" y="126" width="168" height="22" rx="3" fill="#2E75B6"/>
+    <text x="874" y="142" class="t-md" fill="#2E75B6">21%</text>
+
+    <rect x="380" y="174" width="560" height="52" rx="6" fill="#ffffff" stroke="#e3e8ee"/>
+    <text x="392" y="195" class="t-md" fill="#16202b">Printing ink</text>
+    <text x="392" y="214" class="t-sm">pigment carrier → offset and news ink makers</text>
+    <rect x="700" y="188" width="160" height="22" rx="3" fill="#2E75B6"/>
+    <text x="866" y="204" class="t-md" fill="#2E75B6">20%</text>
+
+    <rect x="380" y="236" width="560" height="52" rx="6" fill="#ffffff" stroke="#e3e8ee"/>
+    <text x="392" y="257" class="t-md" fill="#16202b">Knitting &amp; anti-static coning oil</text>
+    <text x="392" y="276" class="t-sm">yarn lubricant → textile mills</text>
+    <rect x="700" y="250" width="152" height="22" rx="3" fill="#2E75B6"/>
+    <text x="858" y="266" class="t-md" fill="#2E75B6">19%</text>
+
+    <rect x="380" y="298" width="560" height="52" rx="6" fill="#ffffff" stroke="#e3e8ee"/>
+    <text x="392" y="319" class="t-md" fill="#16202b">Transformer oil</text>
+    <text x="392" y="338" class="t-sm">insulating coolant → transformer makers, utilities</text>
+    <rect x="700" y="312" width="56" height="22" rx="3" fill="#2E75B6"/>
+    <text x="762" y="328" class="t-md" fill="#2E75B6">7%</text>
+
+    <rect x="380" y="360" width="560" height="52" rx="6" fill="#ffffff" stroke="#e3e8ee"/>
+    <text x="392" y="381" class="t-md" fill="#16202b">Others</text>
+    <text x="392" y="400" class="t-sm">drilling fluids, cable filling, greases, waxes, industrial</text>
+    <rect x="700" y="374" width="72" height="22" rx="3" fill="#2E75B6"/>
+    <text x="778" y="390" class="t-md" fill="#2E75B6">9%</text>
+  </g>
+
+  <text x="20" y="444" class="t-sm" fill="#5a6a78">Bars on one scale from zero. Shares are the printed data labels on the "Revenue Mix" slide of the Aug-2022 investor deck: the only end-market split Panama has ever published.</text>
+  <text x="20" y="460" class="t-sm" fill="#5a6a78">It is four years old. The FY26 Annual Report splits sales only into "Panoil 99.19% / Wax 0.81%".</text>
+</svg>
+<figcaption><strong>Figure 1: one feedstock, six markets.</strong> No family is more than a quarter of sales, which is why ICRA credits the business with protection <em>"against the downturns in any specific, end-user sector."</em> The same breadth means there is no single demand story to follow. <strong>⚠️ One inconsistency, left unresolved:</strong> in Nov-2023 management said textile oils were <em>"about 50% of our revenue"</em>. That does not reconcile with the 19% above and is not repeated in any later filing. <span class="src">Aug-2022 deck, slide 10; ICRA 15-May-2026; Nov-2023 transcript; FY26 AR MD&amp;A.</span></figcaption>
+</figure>
+
+<p>The point to carry forward is that <strong>all six families are the same raw material, finished to a different specification.</strong> A white-oil customer and a transformer-oil customer are buying base oil that has been selected, cleaned and tested to meet their particular standard. So the cost of every product moves with one commodity, and it moves at the same time.</p>
+
+<!-- ============================ §2 ============================ -->
+<h2 id="s2"><span class="n">2.</span> Where Panama sits between the refinery and the shelf</h2>
+
+<p>Panama does not refine crude oil. It buys base oil that a refinery has already made, and sells a finished grade to a company that puts it into a product with a brand on it. <strong>It is a middle link with a commodity on one side and a formulator on the other, and it controls the price of neither.</strong></p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 420" role="img" aria-label="Value chain from crude oil to refinery to base oil to Panama to formulator to end product, with who sets the price at each link and Panama's buying and selling terms.">
+  <text x="20" y="26" class="t-md" fill="#1F4E79">The chain: Panama is the fourth link of six</text>
+
+  <g>
+    <rect x="10" y="50" width="140" height="112" rx="8" fill="#f2f4f7" stroke="#d5dce4"/>
+    <text x="80" y="78" class="t-md" text-anchor="middle" fill="#16202b">Crude oil</text>
+    <text x="80" y="100" class="t-sm" text-anchor="middle">world-priced</text>
+    <text x="80" y="116" class="t-sm" text-anchor="middle">commodity</text>
+
+    <rect x="170" y="50" width="140" height="112" rx="8" fill="#f2f4f7" stroke="#d5dce4"/>
+    <text x="240" y="78" class="t-md" text-anchor="middle" fill="#16202b">Refinery</text>
+    <text x="240" y="100" class="t-sm" text-anchor="middle">distils the heavy cut,</text>
+    <text x="240" y="116" class="t-sm" text-anchor="middle">refines it into</text>
+    <text x="240" y="132" class="t-sm" text-anchor="middle">base oil</text>
+
+    <rect x="330" y="50" width="140" height="112" rx="8" fill="#eef3f8" stroke="#c3d7ea"/>
+    <text x="400" y="78" class="t-md" text-anchor="middle" fill="#16202b">Base oil</text>
+    <text x="400" y="100" class="t-sm" text-anchor="middle">shipped in bulk from</text>
+    <text x="400" y="116" class="t-sm" text-anchor="middle">Asia-Pacific, Middle East,</text>
+    <text x="400" y="132" class="t-sm" text-anchor="middle">Europe, US refineries</text>
+
+    <rect x="490" y="42" width="140" height="128" rx="8" fill="#1F4E79"/>
+    <text x="560" y="72" class="t-lg" text-anchor="middle" fill="#ffffff">Panama</text>
+    <text x="560" y="96" class="t-sm" text-anchor="middle" fill="#ffffff">selects, blends,</text>
+    <text x="560" y="112" class="t-sm" text-anchor="middle" fill="#ffffff">treats, tests, fills</text>
+    <text x="560" y="136" class="t-sm" text-anchor="middle" fill="#ffffff">5 plants in India +</text>
+    <text x="560" y="152" class="t-sm" text-anchor="middle" fill="#ffffff">1 in Ras Al Khaimah</text>
+
+    <rect x="650" y="50" width="140" height="112" rx="8" fill="#f2f4f7" stroke="#d5dce4"/>
+    <text x="720" y="78" class="t-md" text-anchor="middle" fill="#16202b">Formulator</text>
+    <text x="720" y="100" class="t-sm" text-anchor="middle">FMCG, pharma, tyre,</text>
+    <text x="720" y="116" class="t-sm" text-anchor="middle">ink, textile and</text>
+    <text x="720" y="132" class="t-sm" text-anchor="middle">transformer makers</text>
+
+    <rect x="810" y="50" width="140" height="112" rx="8" fill="#f2f4f7" stroke="#d5dce4"/>
+    <text x="880" y="78" class="t-md" text-anchor="middle" fill="#16202b">End product</text>
+    <text x="880" y="100" class="t-sm" text-anchor="middle">hair oil, baby oil,</text>
+    <text x="880" y="116" class="t-sm" text-anchor="middle">a tyre, a newspaper,</text>
+    <text x="880" y="132" class="t-sm" text-anchor="middle">yarn, a transformer</text>
+  </g>
+  <g fill="#2E75B6">
+    <polygon points="152,100 166,106 152,112"/>
+    <polygon points="312,100 326,106 312,112"/>
+    <polygon points="472,100 486,106 472,112"/>
+    <polygon points="632,100 646,106 632,112"/>
+    <polygon points="792,100 806,106 792,112"/>
+  </g>
+
+  <text x="20" y="200" class="t-md" fill="#1F4E79">Who sets the price at each link</text>
+  <line x1="10" y1="208" x2="950" y2="208" stroke="#e3e8ee"/>
+  <text x="80" y="230" class="t-sm" text-anchor="middle">the world market</text>
+  <text x="240" y="230" class="t-sm" text-anchor="middle">the refiner, off crude</text>
+  <text x="400" y="230" class="t-sm" text-anchor="middle">refiner contracts + spot</text>
+  <text x="560" y="230" class="t-md" text-anchor="middle" fill="#b3261e">takes both prices</text>
+  <text x="560" y="246" class="t-sm" text-anchor="middle" fill="#b3261e">earns the spread</text>
+  <text x="720" y="230" class="t-sm" text-anchor="middle">the brand owner</text>
+  <text x="880" y="230" class="t-sm" text-anchor="middle">the consumer</text>
+
+  <rect x="10" y="272" width="460" height="130" rx="8" fill="#ffffff" stroke="#c3d7ea"/>
+  <text x="26" y="296" class="t-md" fill="#1F4E79">How Panama BUYS</text>
+  <text x="26" y="318" class="t">"About 50% of our purchases on formula-based contract</text>
+  <text x="26" y="334" class="t">buying and another 50% is on spot" (May-2022 call).</text>
+  <text x="26" y="356" class="t">Suppliers: Asia-Pacific, Middle East, Europe, US refineries.</text>
+  <text x="26" y="378" class="t">India's own base-oil supply is "not adequate to meet such</text>
+  <text x="26" y="394" class="t">domestic demands" (FY26 AR), so most of the input is imported.</text>
+
+  <rect x="490" y="272" width="460" height="130" rx="8" fill="#ffffff" stroke="#c3d7ea"/>
+  <text x="506" y="296" class="t-md" fill="#1F4E79">How Panama SELLS</text>
+  <text x="506" y="318" class="t">Prices "negotiated every month" against a quarterly volume</text>
+  <text x="506" y="334" class="t">commitment (Feb-2023 call). ICRA calls it an "M-1" mechanism:</text>
+  <text x="506" y="350" class="t">this month's price set on last month's base oil.</text>
+  <text x="506" y="372" class="t">About 50% of contracts are fixed-price (ICRA, May-2026).</text>
+  <text x="506" y="394" class="t">No customer is above 10% of revenue (FY26 AR).</text>
+</svg>
+<figcaption><strong>Figure 2: the chain.</strong> Panama is a price-taker at both ends. It buys a commodity priced off crude and sells to a formulator who owns the brand and the consumer. Its income is the gap between the two, which is why §3 to §5 are about that gap and when it opens. <span class="src">May-2022 and Feb-2023 transcripts; ICRA 15-May-2026; FY26 AR MD&amp;A (Threats) and revenue notes.</span></figcaption>
+</figure>
+
+<p>Three things follow from this position.</p>
+<ul>
+<li><strong>The customer can switch, but not quickly.</strong> FMCG and pharma buyers audit the plant and qualify each grade (<em>"Because we have been approved by them, our plans are audited by them,"</em> Aug-2022). That makes a supplier sticky. It is not a high barrier, and ICRA calls the industry one of <em>"low entry barriers"</em> where <em>"companies mostly focus on volume, which leads to competitive pricing."</em></li>
+<li><strong>The competitor on the specialty grades is often an importer.</strong> Management's most consistent claim across all six calls was that it gives multinational formulators <em>"an import substitute at a much more competitive price"</em> (Nov-2022), and that <em>"major competition is from the international players"</em> on the value-added grades.</li>
+<li><strong>Supply security is part of the product.</strong> Half the feedstock sits on formula-linked supply contracts. In normal times that is a procurement detail. When supply is disrupted, it decides who still has oil to sell. <em>"A few of our refinery suppliers have been on maintenance turnaround… However, the company has firm long-term contracts"</em> (May-2023).</li>
+</ul>
+
+<!-- ============================ §3 ============================ -->
+<h2 id="s3"><span class="n">3.</span> The ₹100 cost stack: a handling business, not a chemistry business</h2>
+
+<p>The FY26 consolidated profit-and-loss account shows exactly where a rupee of Panama's revenue goes. The answer is the most important fact on this page: <strong>₹82.73 of every ₹100 is spent on oil the company bought, before its own work adds anything.</strong></p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 440" role="img" aria-label="FY26 consolidated cost stack per 100 rupees of revenue. Materials 82.73, of which raw material 75.96, packing 1.01, traded goods 5.76; gross margin 17.27. The gross margin magnified: logistics 5.21, employees 1.27, brokerage 0.48, power and water 0.20, other 1.12, operating profit 8.99.">
+  <text x="20" y="26" class="t-md" fill="#1F4E79">FY26 consolidated: where ₹100 of revenue goes</text>
+
+  <text x="40" y="58" class="t-sm" fill="#5a6a78">₹0</text>
+  <text x="920" y="58" class="t-sm" fill="#5a6a78" text-anchor="end">₹100</text>
+  <rect x="40" y="66" width="668.4" height="46" fill="#6b7c8f"/>
+  <rect x="708.4" y="66" width="8.9" height="46" fill="#94a3b3"/>
+  <rect x="717.3" y="66" width="50.7" height="46" fill="#b7c3cf"/>
+  <rect x="768" y="66" width="152" height="46" fill="#2E75B6"/>
+  <text x="374" y="94" class="t-md" text-anchor="middle" fill="#ffffff">Base oil &amp; other raw material ₹75.96</text>
+  <text x="844" y="94" class="t-md" text-anchor="middle" fill="#ffffff">Gross ₹17.27</text>
+  <line x1="712.8" y1="112" x2="712.8" y2="134" stroke="#94a3b3"/>
+  <text x="706" y="148" class="t-sm" text-anchor="end">packing ₹1.01</text>
+  <line x1="742.6" y1="112" x2="742.6" y2="158" stroke="#b7c3cf"/>
+  <text x="706" y="166" class="t-sm" text-anchor="end">traded goods, net of stock change ₹5.76</text>
+  <text x="40" y="136" class="t-md" fill="#b3261e">Materials: ₹82.73</text>
+
+  <line x1="768" y1="112" x2="40" y2="208" stroke="#9fb9d3" stroke-dasharray="4 3"/>
+  <line x1="920" y1="112" x2="920" y2="208" stroke="#9fb9d3" stroke-dasharray="4 3"/>
+  <text x="910" y="200" class="t-sm" fill="#5a6a78" text-anchor="end">The ₹17.27 gross margin, magnified 5.1x ↓</text>
+
+  <rect x="40" y="208" width="265.5" height="46" fill="#a2650a"/>
+  <rect x="305.5" y="208" width="64.7" height="46" fill="#c08a3e"/>
+  <rect x="370.2" y="208" width="24.5" height="46" fill="#d3a86b"/>
+  <rect x="394.7" y="208" width="10.2" height="46" fill="#e3c79d"/>
+  <rect x="404.9" y="208" width="57.1" height="46" fill="#cfd6de"/>
+  <rect x="462" y="208" width="458" height="46" fill="#1a6f4a"/>
+  <text x="172.8" y="236" class="t-md" text-anchor="middle" fill="#ffffff">Logistics ₹5.21</text>
+  <text x="691" y="236" class="t-md" text-anchor="middle" fill="#ffffff">Operating profit ₹8.99</text>
+
+  <line x1="337.9" y1="254" x2="337.9" y2="276" stroke="#c08a3e"/>
+  <text x="337.9" y="290" class="t-sm" text-anchor="middle">employees ₹1.27</text>
+  <line x1="382.5" y1="254" x2="382.5" y2="300" stroke="#d3a86b"/>
+  <text x="382.5" y="312" class="t-sm" text-anchor="middle">brokerage ₹0.48</text>
+  <line x1="399.8" y1="254" x2="399.8" y2="322" stroke="#e3c79d"/>
+  <text x="399.8" y="334" class="t-sm" text-anchor="middle">power &amp; water ₹0.20</text>
+  <line x1="433.5" y1="254" x2="433.5" y2="276" stroke="#aab4bf"/>
+  <text x="440" y="290" class="t-sm">other ₹1.12</text>
+
+  <rect x="40" y="356" width="880" height="70" rx="8" fill="#fff8e6" stroke="#ecd9a8"/>
+  <text x="58" y="380" class="t-md" fill="#a2650a">Clearing, forwarding and freight: ₹159.7 Cr. Power and fuel: ₹4.5 Cr. The logistics bill is 35 times the energy bill.</text>
+  <text x="58" y="402" class="t" fill="#a2650a">A plant that cracked, distilled or hydrogenated oil would show a large power-and-fuel line. Panama's is 0.15% of revenue.</text>
+  <text x="58" y="418" class="t" fill="#a2650a">What it pays for is moving oil: into tanks from ships, and out to 55+ countries and 22 Indian states.</text>
+</svg>
+<figcaption><strong>Figure 3: the ₹100 cost stack, FY26.</strong> Both bars are drawn from zero; the lower bar magnifies the gross margin 5.1x so the small lines can be seen, and is labelled as such. Materials = cost of materials consumed ₹2,358.55 Cr + traded goods ₹188.07 Cr − inventory build ₹11.54 Cr = ₹2,535.08 Cr on revenue of ₹3,064.26 Cr. Operating profit ₹275.55 Cr (8.99%) matches the reported line. "Logistics" = clearing and forwarding ₹126.49 Cr + freight outwards ₹33.19 Cr. <span class="src">FY26 AR, Consolidated P&amp;L and Notes 18–21, 24 (read from rendered pages).</span></figcaption>
+</figure>
+
+<p>Two things stand out.</p>
+<ul>
+<li><strong>The value added is thin, and it is mostly logistics and specification.</strong> The only process the company itself describes, in three consecutive annual reports and its 2024 deck, is <em>"blending, filling and packaging"</em> and a <em>"technically improved blending system."</em> The FY26 BRSR files the whole business under NIC 19201, <em>"manufacture of refined petroleum products."</em> <span class="tag inf">MY INFERENCE</span> The power-and-fuel line is too small for heavy refining to happen at Panama's plants. The deep refining that makes oil colourless and skin-safe is most likely done upstream by the base-oil supplier, with Panama selecting, finishing, blending and certifying. <strong>The company has never described its process, so this cannot be confirmed.</strong></li>
+<li><strong>Only about ₹17 of every ₹100 responds to Panama's own work.</strong> The other ₹83 is oil, bought at a price Panama does not set. When the oil price moves 10%, it moves ₹8.3 of the stack, which is almost as much as the ₹9 of operating profit. <strong>That arithmetic is the whole reason the next two sections exist.</strong></li>
+</ul>
+
+<!-- ============================ §4 ============================ -->
+<h2 id="s4"><span class="n">4.</span> The clock: three months of stock, one month of pricing lag</h2>
+
+<p>If Panama bought oil on Monday and sold it on Tuesday at cost plus a fixed fee, the oil price would pass straight through and the business would earn the same rupee spread whatever crude did. <strong>It does not work that way, for three disclosed reasons</strong>, and each one puts time between the cost and the price.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 400" role="img" aria-label="Timeline of one tonne. Bought at month zero, held about three months, sold at month three. Half the book is priced monthly on the previous month's base oil, so the price reflects month two. The other half is fixed-price.">
+  <text x="20" y="26" class="t-md" fill="#1F4E79">The life of one tonne: the cost is set at M0, the price mostly at M2</text>
+
+  <line x1="160" y1="64" x2="920" y2="64" stroke="#16202b" stroke-width="1.5"/>
+  <g class="t-md" text-anchor="middle">
+    <line x1="160" y1="58" x2="160" y2="70" stroke="#16202b"/><text x="160" y="52" class="t-md" text-anchor="middle">M0</text>
+    <line x1="350" y1="58" x2="350" y2="70" stroke="#16202b"/><text x="350" y="52" class="t-md" text-anchor="middle">M1</text>
+    <line x1="540" y1="58" x2="540" y2="70" stroke="#16202b"/><text x="540" y="52" class="t-md" text-anchor="middle">M2</text>
+    <line x1="730" y1="58" x2="730" y2="70" stroke="#16202b"/><text x="730" y="52" class="t-md" text-anchor="middle">M3</text>
+    <line x1="920" y1="58" x2="920" y2="70" stroke="#16202b"/><text x="920" y="52" class="t-md" text-anchor="middle">M4</text>
+  </g>
+
+  <text x="20" y="112" class="t-md" fill="#16202b">① Cost</text>
+  <text x="20" y="128" class="t-sm">what the tonne cost</text>
+  <circle cx="160" cy="112" r="8" fill="#6b7c8f"/>
+  <rect x="160" y="104" width="570" height="16" rx="3" fill="#dfe5eb"/>
+  <circle cx="160" cy="112" r="8" fill="#6b7c8f"/>
+  <text x="176" y="146" class="t-sm">bought at the M0 base-oil price → sits in the tank about three months</text>
+  <text x="176" y="160" class="t-sm" fill="#5a6a78">"Normally have 3-month inventory" (CFO, Nov-2022) · 97 inventory days in FY26</text>
+
+  <text x="20" y="208" class="t-md" fill="#16202b">② Formula half</text>
+  <text x="20" y="224" class="t-sm">price moves monthly</text>
+  <rect x="540" y="200" width="190" height="16" rx="3" fill="#cfe0f1"/>
+  <circle cx="540" cy="208" r="8" fill="#2E75B6"/>
+  <circle cx="730" cy="208" r="8" fill="#1F4E79"/>
+  <text x="556" y="242" class="t-sm">price for M3 set on M2's base oil ("M-1")</text>
+  <text x="740" y="212" class="t-sm" fill="#1F4E79">sold</text>
+
+  <text x="20" y="286" class="t-md" fill="#16202b">③ Fixed half</text>
+  <text x="20" y="302" class="t-sm">price does not move</text>
+  <rect x="160" y="278" width="570" height="16" rx="3" fill="#f1e4cf" stroke="#d3a86b" stroke-dasharray="4 3"/>
+  <circle cx="730" cy="286" r="8" fill="#a2650a"/>
+  <text x="176" y="318" class="t-sm">"around 50% contracts being fixed-price" (ICRA, May-2026): the term is not disclosed</text>
+
+  <rect x="20" y="336" width="920" height="54" rx="8" fill="#fff8e6" stroke="#ecd9a8"/>
+  <text x="36" y="358" class="t-md" fill="#a2650a">On the formula half, the margin on a tonne sold at M3 contains roughly two months of base-oil price change (M0 → M2).</text>
+  <text x="36" y="378" class="t" fill="#a2650a">Rising market: the stock was cheap and the price has caught up, a gain. Falling market: the stock was dear and the price has fallen, a loss.</text>
+</svg>
+<figcaption><strong>Figure 4: the clock.</strong> Each element is disclosed separately: the three-month inventory (CFO, Nov-2022; Screener inventory days 97 in FY26), monthly repricing (Feb-2023 call) with ICRA's "M-1" description, and the ~50% fixed-price share (ICRA, May-2026). <span class="tag inf">MY INFERENCE</span> Putting them on one timeline, and the "roughly two months" figure, are mine. Neither the fixed-price term nor the purchase timing is disclosed, so the true lag in any quarter is unknown.</figcaption>
+</figure>
+
+<p>Management has described this mechanism in its own words, in the 2022 cycle: <em>"In this quarter, there was an inventory gain as price has moved substantially from the March level"</em> (Aug-2022). ICRA describes the reverse direction: <em>"the one-month lag along with around 50% contracts being fixed-price can result in temporary margin pressures during sharp price movements,"</em> and <em>"sharp adverse movements in base oil prices could lead to temporary inventory-related risks."</em></p>
+
+<p><strong>The fixed-price half cuts the other way.</strong> In a rising market, a fixed-price contract keeps the selling price at the old level while the replacement oil gets dearer. That is why, on 15-May-2026, management expected the West Asia disruption to <em>hurt</em>, citing <em>"the lag in price pass-through and the presence of fixed-price contracts."</em> The formula half gains from a rise, and the fixed half loses from it. <strong>Which one wins depends on how fast prices move and how long the fixed contracts run, and the second of those is not disclosed.</strong> In Q1FY27 the gain won by a very wide margin (§8).</p>
+
+<!-- ============================ §5 ============================ -->
+<h2 id="s5"><span class="n">5.</span> A worked example: one tonne, four price paths</h2>
+
+<p>The clock is easier to see with numbers. The figure below follows one tonne through four price paths. <strong>The numbers are an index, not rupees.</strong> Base oil starts at 100, and Panama's rupee spread (its conversion fee, logistics and profit) is held at 21 in every path. That is roughly FY26's 17.3% gross margin.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 460" role="img" aria-label="Illustrative example. Path A normal: cost 100, price 121, gross margin 17 percent. Path B, base oil doubles and stays, same spread: cost 200, price 221, margin 9.5 percent. Path C, windfall: stock bought at 100 sold at 221, margin 55 percent. Path D, reversal: stock bought at 200 sold at 121, margin minus 65 percent.">
+  <text x="20" y="26" class="t-md" fill="#1F4E79">ILLUSTRATIVE: one tonne, base oil indexed to 100, spread held at 21 throughout</text>
+  <text x="20" y="44" class="t-sm" fill="#b3261e">Index values, not rupees. Not a disclosure: the spread is fixed only to isolate the timing effect.</text>
+
+  <g>
+    <line x1="300" y1="62" x2="300" y2="382" stroke="#c3d7ea"/>
+    <text x="300" y="398" class="t-sm" text-anchor="middle" fill="#5a6a78">0</text>
+    <text x="560" y="398" class="t-sm" text-anchor="middle" fill="#5a6a78">100</text>
+    <text x="820" y="398" class="t-sm" text-anchor="middle" fill="#5a6a78">200</text>
+    <line x1="560" y1="62" x2="560" y2="382" stroke="#eef2f6"/>
+    <line x1="820" y1="62" x2="820" y2="382" stroke="#eef2f6"/>
+  </g>
+
+  <text x="20" y="80" class="t-md" fill="#16202b">A · Normal</text>
+  <text x="20" y="96" class="t-sm">stable base oil</text>
+  <text x="20" y="116" class="t-md" fill="#1F4E79">gross margin 17.4%</text>
+  <rect x="300" y="68" width="260" height="18" rx="2" fill="#94a3b3"/>
+  <text x="566" y="82" class="t-sm">cost of the tonne 100</text>
+  <rect x="300" y="92" width="314.6" height="18" rx="2" fill="#2E75B6"/>
+  <text x="620" y="106" class="t-sm" fill="#2E75B6">selling price 121</text>
+
+  <text x="20" y="160" class="t-md" fill="#16202b">B · New normal</text>
+  <text x="20" y="176" class="t-sm">base oil doubles and stays</text>
+  <text x="20" y="196" class="t-md" fill="#a2650a">gross margin 9.5%</text>
+  <rect x="300" y="148" width="520" height="18" rx="2" fill="#94a3b3"/>
+  <text x="826" y="162" class="t-sm">cost 200</text>
+  <rect x="300" y="172" width="574.6" height="18" rx="2" fill="#2E75B6"/>
+  <text x="880" y="186" class="t-sm" fill="#2E75B6">price 221</text>
+  <text x="300" y="212" class="t-sm" fill="#a2650a">Same 21 earned per tonne; the percentage nearly halves.</text>
+
+  <text x="20" y="250" class="t-md" fill="#16202b">C · Windfall</text>
+  <text x="20" y="266" class="t-sm">stock bought before the rise</text>
+  <text x="20" y="286" class="t-md" fill="#1a6f4a">gross margin 54.8%</text>
+  <rect x="300" y="238" width="260" height="18" rx="2" fill="#94a3b3"/>
+  <text x="566" y="252" class="t-sm">cost 100 (old stock)</text>
+  <rect x="300" y="262" width="574.6" height="18" rx="2" fill="#2E75B6"/>
+  <text x="880" y="276" class="t-sm" fill="#2E75B6">price 221</text>
+  <text x="300" y="302" class="t-sm" fill="#1a6f4a">Earns 121 on a tonne that normally earns 21.</text>
+
+  <text x="20" y="340" class="t-md" fill="#16202b">D · Reversal</text>
+  <text x="20" y="356" class="t-sm">stock bought at the peak</text>
+  <text x="20" y="376" class="t-md" fill="#b3261e">gross margin −65.3%</text>
+  <rect x="300" y="328" width="520" height="18" rx="2" fill="#94a3b3"/>
+  <text x="826" y="342" class="t-sm">cost 200 (old stock)</text>
+  <rect x="300" y="352" width="314.6" height="18" rx="2" fill="#2E75B6"/>
+  <text x="620" y="366" class="t-sm" fill="#2E75B6">price 121</text>
+  <text x="700" y="366" class="t-sm" fill="#b3261e">→ loses 79 on the tonne.</text>
+
+  <rect x="20" y="412" width="920" height="40" rx="8" fill="#f4f8fc" stroke="#c3d7ea"/>
+  <text x="36" y="437" class="t" fill="#1F4E79">Actual Q1FY27 gross margin: 31.2%, between A and C. Only part of the book was old stock sold at new prices; the rest dilutes it.</text>
+</svg>
+<figcaption><strong>Figure 5: four paths, one spread.</strong> All bars on one axis from zero. <span class="tag inf">MY INFERENCE</span> <strong>Illustrative only.</strong> The paths are extreme cases chosen to separate the effects. Real quarters blend them, because stock is bought continuously and half the book is fixed-price. The one real number, Q1FY27's 31.2% gross margin, is computed in §8 from the filed consolidated results.</figcaption>
+</figure>
+
+<p>The four paths show that <strong>two separate things move the margin percentage, and neither of them is Panama's skill:</strong></p>
+<ul>
+<li><strong>The denominator effect (A → B).</strong> If base oil settles at a permanently higher price and Panama earns exactly the same rupees per tonne, the percentage margin still falls, because the price it is divided by has doubled. A lower percentage after a price rise is not, by itself, a deterioration.</li>
+<li><strong>The timing effect (A → C, and C → D).</strong> Stock bought before a move is sold after it. This is where windfalls and write-downs come from, and it runs in both directions with the same force.</li>
+</ul>
+
+<!-- ============================ §6 ============================ -->
+<h2 id="s6"><span class="n">6.</span> The plants, and the one next to the Gulf refineries</h2>
+
+<p>Panama's plants sit in India's western industrial belt, close to the ports that land imported base oil and to the customer clusters: textiles and chemicals in south Gujarat, pharma and FMCG around Mumbai. ICRA notes that the plants are <em>"located strategically to cater to different end-user industries,"</em> and that <em>"the company's facility at Taloja is close to the port and is used for most of its exports."</em></p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 470" role="img" aria-label="Plant footprint with capacities from the August 2022 deck: Ankleshwar 50,000, Daman 60,000, Taloja 75,000, Dahej SEZ 15,000, and Panol in Ras Al Khaimah 40,000 tonnes a year. Panol was 16.7 percent of capacity but 36 percent of FY26 revenue.">
+  <text x="20" y="26" class="t-md" fill="#1F4E79">Six plants: capacity as last published plant by plant (Aug-2022), plus what came later</text>
+
+  <rect x="20" y="42" width="560" height="270" rx="10" fill="#f7f9fb" stroke="#d5dce4"/>
+  <text x="36" y="66" class="t-md" fill="#16202b">Western India · standalone company</text>
+  <g>
+    <rect x="36" y="80" width="250" height="52" rx="6" fill="#ffffff" stroke="#c3d7ea"/>
+    <text x="48" y="101" class="t-md" fill="#16202b">Ankleshwar, Gujarat</text>
+    <text x="48" y="120" class="t-sm">50,000 TPA · DSIR-approved R&amp;D centre</text>
+    <rect x="300" y="80" width="264" height="52" rx="6" fill="#ffffff" stroke="#c3d7ea"/>
+    <text x="312" y="101" class="t-md" fill="#16202b">Daman (UT)</text>
+    <text x="312" y="120" class="t-sm">60,000 TPA</text>
+    <rect x="36" y="142" width="250" height="52" rx="6" fill="#ffffff" stroke="#c3d7ea"/>
+    <text x="48" y="163" class="t-md" fill="#16202b">Taloja, Maharashtra</text>
+    <text x="48" y="182" class="t-sm">75,000 TPA · EOU · near port; most exports</text>
+    <rect x="300" y="142" width="264" height="52" rx="6" fill="#ffffff" stroke="#c3d7ea"/>
+    <text x="312" y="163" class="t-md" fill="#16202b">Dahej SEZ, Gujarat</text>
+    <text x="312" y="182" class="t-sm">15,000 TPA</text>
+    <rect x="36" y="204" width="528" height="52" rx="6" fill="#ecf7f1" stroke="#c7e4d5"/>
+    <text x="48" y="225" class="t-md" fill="#1a6f4a">Ambernath (LILP II, Thane) EOU: commercial operations 6-Jul-2026</text>
+    <text x="48" y="244" class="t-sm">15,000 TPA as guided Nov-2023 for "the coming year": ~2.5 years late; cost never disclosed</text>
+  </g>
+  <text x="36" y="278" class="t-sm" fill="#5a6a78">+30,000 TPA added in FY23–FY24, location not stated → consolidated 270,000 TPA (Nov-2023, last stated).</text>
+  <text x="36" y="296" class="t-sm" fill="#5a6a78">"Our capacity is about 15% to 20% expandable over the installed capacity" (Aug-2022 call).</text>
+
+  <rect x="600" y="42" width="340" height="270" rx="10" fill="#eef3f8" stroke="#c3d7ea"/>
+  <text x="616" y="66" class="t-md" fill="#16202b">Ras Al Khaimah, UAE · Panol Industries</text>
+  <text x="616" y="84" class="t-sm">100% subsidiary</text>
+  <text x="616" y="112" class="t-lg" fill="#1F4E79">40,000 TPA (Aug-2022)</text>
+  <text x="616" y="134" class="t-sm">+15,000 TPA planned (Nov-2023): status not disclosed</text>
+  <text x="616" y="162" class="t">"Dedicated pipelines that directly connect to</text>
+  <text x="616" y="178" class="t">the port infrastructure… to and from bulk</text>
+  <text x="616" y="194" class="t">vessels" (FY26 AR)</text>
+  <text x="616" y="222" class="t">Close to "base oil suppliers in West Asia"</text>
+  <text x="616" y="238" class="t">and to GCC/MENA customers (ICRA)</text>
+  <text x="616" y="266" class="t-sm" fill="#5a6a78">FY26 revenue ₹1,102.45 Cr · PAT ₹69.21 Cr</text>
+  <text x="616" y="282" class="t-sm" fill="#5a6a78">Q1FY27 revenue ₹487.29 Cr · PAT ₹91.39 Cr</text>
+
+  <text x="20" y="348" class="t-md" fill="#1F4E79">Panol's weight: share of capacity vs share of revenue</text>
+  <text x="200" y="378" class="t-sm" text-anchor="end">Capacity, Aug-2022</text>
+  <rect x="210" y="364" width="66.8" height="22" rx="3" fill="#94a3b3"/>
+  <text x="284" y="380" class="t-md">16.7%  (40,000 of 240,000 t)</text>
+  <text x="200" y="412" class="t-sm" text-anchor="end">Revenue, FY26</text>
+  <rect x="210" y="398" width="144" height="22" rx="3" fill="#2E75B6"/>
+  <text x="362" y="414" class="t-md" fill="#2E75B6">36.0%  (₹1,102 of ₹3,064 Cr)</text>
+  <line x1="210" y1="358" x2="210" y2="428" stroke="#16202b"/>
+  <text x="20" y="452" class="t-sm" fill="#5a6a78">Scale: 100% = 400px, both bars from zero. Part of the gap is trading: by subtraction, ₹178.9 Cr of FY26's ₹188.1 Cr traded-goods purchases sit in Panol.</text>
+</svg>
+<figcaption><strong>Figure 6: the footprint.</strong> Plant capacities are the figures printed on slide 7 of the Aug-2022 deck, the last plant-by-plant disclosure. Panol's traded-goods figure is consolidated ₹188.07 Cr minus standalone ₹9.16 Cr. <span class="tag inf">MY INFERENCE</span> Panol earns a revenue share more than twice its capacity share. Trading explains some of it. The rest could be capacity added since 2022, running above nameplate, or higher-value grades, and <strong>no filing says which.</strong> <span class="src">Aug-2022 deck; Aug-2022 and Nov-2023 transcripts; ICRA May-2026; FY26 AR Directors' Report; Reg-30 filings 4-Dec-2025, 2-Jul-2026 and 6-Jul-2026; Q1FY27 results.</span></figcaption>
+</figure>
+
+<p><strong>Panol is the part of the company that matters most in a Gulf disruption.</strong> It sits beside the West Asian base-oil refineries and loads straight from bulk vessels by pipeline. In normal times that is a freight and working-capital saving. In Q4FY26, ICRA recorded only <em>"limited disruption… marginal impact on utilisation and sales"</em> from the Strait of Hormuz, and operations continued <em>"through alternative routing, continued local supplies and regional dispatches."</em> In Q1FY27, Panol's profit for the quarter (₹91.39 Cr) exceeded its profit for the whole of FY26 (₹69.21 Cr). <span class="tag inf">MY INFERENCE</span> <strong>Panol also bought ₹182.6 Cr of traded goods in that one quarter</strong> (consolidated ₹185.58 Cr less standalone ₹2.98 Cr), <strong>more than in all of FY26.</strong> In a supply squeeze, a trader with oil to hand next to the source earns as much from trading as from processing.</p>
+
+<!-- ============================ §7 ============================ -->
+<h2 id="s7"><span class="n">7.</span> 🔴 Reading the numbers (I): revenue growth is mostly price</h2>
+
+<p>The headline revenue line is the number most likely to mislead a reader of Panama's results. <strong>Revenue is tonnes × price, and the price is mostly base oil passing through.</strong> The only way to separate the two is revenue per tonne, and volumes were disclosed only while the calls were held.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 470" role="img" aria-label="Two panels. Revenue per tonne in thousands of rupees: FY18 51.0, FY19 65.1, FY20 55.7, FY21 56.5, FY22 82.0, FY23 94.9, Q2FY24 88.0, Q1FY27 at least 172. EBITDA per tonne: 4.2, 5.1, 2.9, 7.4, 11.4, 13.0, 9.4, and Q1FY27 at least 38.4.">
+  <text x="20" y="26" class="t-md" fill="#1F4E79">Per tonne, ₹ thousand (consolidated revenue and operating profit ÷ disclosed volume)</text>
+
+  <text x="40" y="54" class="t-md" fill="#16202b">Revenue per tonne</text>
+  <line x1="40" y1="330" x2="470" y2="330" stroke="#16202b"/>
+  <line x1="40" y1="80" x2="470" y2="80" stroke="#eef2f6"/><text x="36" y="84" class="t-sm" text-anchor="end" fill="#5a6a78">220</text>
+  <line x1="40" y1="205" x2="470" y2="205" stroke="#eef2f6"/><text x="36" y="209" class="t-sm" text-anchor="end" fill="#5a6a78">110</text>
+  <g>
+    <rect x="48" y="272.1" width="40" height="57.9" fill="#94a3b3"/><text x="68" y="266" class="t-sm" text-anchor="middle">51.0</text>
+    <rect x="100" y="256.0" width="40" height="74.0" fill="#94a3b3"/><text x="120" y="250" class="t-sm" text-anchor="middle">65.1</text>
+    <rect x="152" y="266.7" width="40" height="63.3" fill="#94a3b3"/><text x="172" y="261" class="t-sm" text-anchor="middle">55.7</text>
+    <rect x="204" y="265.8" width="40" height="64.2" fill="#94a3b3"/><text x="224" y="260" class="t-sm" text-anchor="middle">56.5</text>
+    <rect x="256" y="236.8" width="40" height="93.2" fill="#2E75B6"/><text x="276" y="231" class="t-sm" text-anchor="middle" fill="#2E75B6">82.0</text>
+    <rect x="308" y="222.2" width="40" height="107.8" fill="#94a3b3"/><text x="328" y="216" class="t-sm" text-anchor="middle">94.9</text>
+    <rect x="360" y="230.0" width="40" height="100.0" fill="#94a3b3"/><text x="380" y="224" class="t-sm" text-anchor="middle">88.0</text>
+    <rect x="412" y="134.8" width="40" height="195.2" fill="none" stroke="#b3261e" stroke-width="2" stroke-dasharray="5 3"/><text x="432" y="128" class="t-sm" text-anchor="middle" fill="#b3261e">≥172</text>
+  </g>
+  <g class="t-sm" text-anchor="middle">
+    <text x="68" y="348" class="t-sm" text-anchor="middle">FY18</text><text x="120" y="348" class="t-sm" text-anchor="middle">FY19</text><text x="172" y="348" class="t-sm" text-anchor="middle">FY20</text><text x="224" y="348" class="t-sm" text-anchor="middle">FY21</text><text x="276" y="348" class="t-sm" text-anchor="middle">FY22</text><text x="328" y="348" class="t-sm" text-anchor="middle">FY23</text><text x="380" y="348" class="t-sm" text-anchor="middle">Q2FY24</text><text x="432" y="348" class="t-sm" text-anchor="middle" fill="#b3261e">Q1FY27</text>
+  </g>
+
+  <text x="500" y="54" class="t-md" fill="#16202b">Operating profit (EBITDA) per tonne</text>
+  <line x1="500" y1="330" x2="930" y2="330" stroke="#16202b"/>
+  <line x1="500" y1="80" x2="930" y2="80" stroke="#eef2f6"/><text x="496" y="84" class="t-sm" text-anchor="end" fill="#5a6a78">50</text>
+  <line x1="500" y1="205" x2="930" y2="205" stroke="#eef2f6"/><text x="496" y="209" class="t-sm" text-anchor="end" fill="#5a6a78">25</text>
+  <g>
+    <rect x="508" y="309.3" width="40" height="20.7" fill="#94a3b3"/><text x="528" y="303" class="t-sm" text-anchor="middle">4.2</text>
+    <rect x="560" y="304.4" width="40" height="25.6" fill="#94a3b3"/><text x="580" y="298" class="t-sm" text-anchor="middle">5.1</text>
+    <rect x="612" y="315.3" width="40" height="14.7" fill="#94a3b3"/><text x="632" y="309" class="t-sm" text-anchor="middle">2.9</text>
+    <rect x="664" y="292.9" width="40" height="37.1" fill="#94a3b3"/><text x="684" y="287" class="t-sm" text-anchor="middle">7.4</text>
+    <rect x="716" y="273.1" width="40" height="56.9" fill="#2E75B6"/><text x="736" y="267" class="t-sm" text-anchor="middle" fill="#2E75B6">11.4</text>
+    <rect x="768" y="264.8" width="40" height="65.2" fill="#94a3b3"/><text x="788" y="259" class="t-sm" text-anchor="middle">13.0</text>
+    <rect x="820" y="283.2" width="40" height="46.8" fill="#94a3b3"/><text x="840" y="277" class="t-sm" text-anchor="middle">9.4</text>
+    <rect x="872" y="138.0" width="40" height="192.0" fill="none" stroke="#b3261e" stroke-width="2" stroke-dasharray="5 3"/><text x="892" y="132" class="t-sm" text-anchor="middle" fill="#b3261e">≥38.4</text>
+  </g>
+  <g>
+    <text x="528" y="348" class="t-sm" text-anchor="middle">FY18</text><text x="580" y="348" class="t-sm" text-anchor="middle">FY19</text><text x="632" y="348" class="t-sm" text-anchor="middle">FY20</text><text x="684" y="348" class="t-sm" text-anchor="middle">FY21</text><text x="736" y="348" class="t-sm" text-anchor="middle">FY22</text><text x="788" y="348" class="t-sm" text-anchor="middle">FY23</text><text x="840" y="348" class="t-sm" text-anchor="middle">Q2FY24</text><text x="892" y="348" class="t-sm" text-anchor="middle" fill="#b3261e">Q1FY27</text>
+    <text x="504" y="368" class="t-sm" text-anchor="end" fill="#5a6a78">OPM</text>
+    <text x="528" y="368" class="t-sm" text-anchor="middle" fill="#5a6a78">8%</text><text x="580" y="368" class="t-sm" text-anchor="middle" fill="#5a6a78">8%</text><text x="632" y="368" class="t-sm" text-anchor="middle" fill="#5a6a78">5%</text><text x="684" y="368" class="t-sm" text-anchor="middle" fill="#5a6a78">13%</text><text x="736" y="368" class="t-sm" text-anchor="middle" fill="#5a6a78">14%</text><text x="788" y="368" class="t-sm" text-anchor="middle" fill="#5a6a78">14%</text><text x="840" y="368" class="t-sm" text-anchor="middle" fill="#5a6a78">11%</text><text x="892" y="368" class="t-sm" text-anchor="middle" fill="#5a6a78">22%</text>
+  </g>
+
+  <rect x="20" y="386" width="920" height="72" rx="8" fill="#fdeceb" stroke="#f3cfcb"/>
+  <text x="36" y="408" class="t-md" fill="#b3261e">FY22: revenue +47.3% on volume +1.6% (256,000 → 260,000 t). Revenue per tonne +45%. Almost all of the growth was price.</text>
+  <text x="36" y="428" class="t" fill="#b3261e">Q1FY27 (dashed): no volume disclosed. Plants cannot make more than ~81,000 t a quarter (270,000 × 1.2 ÷ 4); a further 20,000 t is allowed</text>
+  <text x="36" y="446" class="t" fill="#b3261e">for traded goods. On 101,000 t, revenue per tonne is at least ₹1.72 lakh, about twice any year on record. Fewer tonnes would mean a higher figure.</text>
+</svg>
+<figcaption><strong>Figure 7: the price inside the revenue line.</strong> Each panel on its own axis from zero, labelled. Volumes: FY21 256,000 t and FY22 260,000 t are management's (May-2022 call). FY18 ~260,000, FY19 ~195,000 and FY20 ~180,000 t were put by an analyst on the Nov-2022 call and not contradicted by management. FY23 ~237,000 t is <span class="tag inf">MY SUM</span> of four quarterly figures management gave (57,220 + 63,808 + 59,000 + 57,000). Q2FY24 65,200 t is management's (Nov-2023), the last volume ever disclosed. <span class="tag inf">MY INFERENCE</span> The Q1FY27 bars are floors, not measurements. The 20,000 t allowance is generous: ₹185.6 Cr of traded purchases would buy ~19,000 t even at ₹1 lakh a tonne. Revenue and operating profit: Screener consolidated, reconciled to filings for FY26 and Q1FY27.</figcaption>
+</figure>
+
+<p>Three readings follow.</p>
+<ul>
+<li><strong>A revenue jump with no volume behind it is a price event.</strong> FY22 is the template, and Q1FY27 (+150.3% revenue) is a larger version of it. When Panama's revenue moves sharply, the first question is what base oil did, not what Panama did.</li>
+<li><strong>Rupee profit per tonne is the better gauge, and management declined to use it.</strong> An analyst asked on the May-2023 call for "per ton margin", arguing that <em>"your EBITDA margin varies depending upon the oil price going up and going down."</em> Management replied, <em>"We work on the EBITDA percentage."</em> Every margin guidance it gave (13–16%, then 12–15%, 12–14% and 11–13%) was set in percentage terms, <strong>the measure that §5 shows moves with the oil price on its own.</strong></li>
+<li><strong>Profit per tonne roughly tripled from FY18 to FY23</strong> (₹4.2k → ₹13.0k), across the Covid and Russia–Ukraine dislocations, and fell back to ₹9.4k by the last disclosed quarter. <span class="tag inf">MY INFERENCE</span> How much of that is mix improvement and how much is inventory timing cannot be separated without the data the company stopped publishing.</li>
+</ul>
+
+<!-- ============================ §8 ============================ -->
+<h2 id="s8"><span class="n">8.</span> 🔴 Reading the numbers (II): Q1FY27, line by line</h2>
+
+<p>The quarter to June 2026 is the mechanism of §4 and §5 at full scale. It came after the Strait of Hormuz disruption that began in Q4FY26. <strong>In one quarter Panama earned more gross profit than in the whole of FY26.</strong> Every line below is read from the rendered consolidated results page (the filing is a scan).</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 400" role="img" aria-label="Left: gross margin Q1FY26 17.0 percent, FY26 full year 17.3, Q4FY26 20.0, Q1FY27 31.2. Right: gross profit Q1FY26 117.9 crore, Q4FY26 164.9, Q1FY27 541.1, against FY26 full year 529.2.">
+  <text x="20" y="26" class="t-md" fill="#1F4E79">Consolidated gross margin and gross profit: the quarter that beat the year</text>
+
+  <text x="40" y="56" class="t-md" fill="#16202b">Gross margin, % of revenue</text>
+  <line x1="40" y1="300" x2="440" y2="300" stroke="#16202b"/>
+  <line x1="40" y1="100" x2="440" y2="100" stroke="#eef2f6"/><text x="438" y="96" class="t-sm" text-anchor="end" fill="#5a6a78">40%</text>
+  <line x1="40" y1="200" x2="440" y2="200" stroke="#eef2f6"/><text x="438" y="196" class="t-sm" text-anchor="end" fill="#5a6a78">20%</text>
+  <rect x="60" y="257.5" width="64" height="42.5" fill="#94a3b3"/><text x="92" y="251" class="t-md" text-anchor="middle">17.0%</text>
+  <rect x="150" y="256.8" width="64" height="43.2" fill="#cfd6de"/><text x="182" y="251" class="t-md" text-anchor="middle">17.3%</text>
+  <rect x="240" y="249.9" width="64" height="50.1" fill="#94a3b3"/><text x="272" y="244" class="t-md" text-anchor="middle">20.0%</text>
+  <rect x="330" y="222.0" width="64" height="78.0" fill="#2E75B6"/><text x="362" y="216" class="t-md" text-anchor="middle" fill="#2E75B6">31.2%</text>
+  <text x="92" y="318" class="t-sm" text-anchor="middle">Q1FY26</text>
+  <text x="182" y="318" class="t-sm" text-anchor="middle">FY26 year</text>
+  <text x="272" y="318" class="t-sm" text-anchor="middle">Q4FY26</text>
+  <text x="362" y="318" class="t-sm" text-anchor="middle" fill="#2E75B6">Q1FY27</text>
+
+  <text x="500" y="56" class="t-md" fill="#16202b">Gross profit, ₹ Cr</text>
+  <line x1="500" y1="300" x2="930" y2="300" stroke="#16202b"/>
+  <line x1="500" y1="100" x2="930" y2="100" stroke="#eef2f6"/><text x="928" y="96" class="t-sm" text-anchor="end" fill="#5a6a78">600</text>
+  <line x1="500" y1="200" x2="930" y2="200" stroke="#eef2f6"/><text x="928" y="196" class="t-sm" text-anchor="end" fill="#5a6a78">300</text>
+  <rect x="520" y="260.7" width="64" height="39.3" fill="#94a3b3"/><text x="552" y="254" class="t-md" text-anchor="middle">117.9</text>
+  <rect x="610" y="245.0" width="64" height="55.0" fill="#94a3b3"/><text x="642" y="239" class="t-md" text-anchor="middle">164.9</text>
+  <rect x="700" y="119.6" width="64" height="180.4" fill="#2E75B6"/><text x="732" y="113" class="t-md" text-anchor="middle" fill="#2E75B6">541.1</text>
+  <rect x="790" y="123.6" width="64" height="176.4" fill="#cfd6de" stroke="#6b7c8f" stroke-dasharray="4 3"/><text x="822" y="117" class="t-md" text-anchor="middle">529.2</text>
+  <text x="552" y="318" class="t-sm" text-anchor="middle">Q1FY26</text>
+  <text x="642" y="318" class="t-sm" text-anchor="middle">Q4FY26</text>
+  <text x="732" y="318" class="t-sm" text-anchor="middle" fill="#2E75B6">Q1FY27</text>
+  <text x="822" y="318" class="t-sm" text-anchor="middle">FY26, 12 months</text>
+
+  <rect x="20" y="340" width="920" height="50" rx="8" fill="#fdeceb" stroke="#f3cfcb"/>
+  <text x="36" y="362" class="t-md" fill="#b3261e">Revenue +150%, materials +108%. A 14-point jump in gross margin on 2.5x the revenue produced 4.6x the gross profit.</text>
+  <text x="36" y="380" class="t" fill="#b3261e">PAT ₹308.91 Cr in the quarter, more than any full year in the company's history (the previous best was FY23: ₹233 Cr).</text>
+</svg>
+<figcaption><strong>Figure 8: the windfall in two panels.</strong> Each panel on its own axis from zero. Gross margin = revenue − (cost of materials + purchase of stock-in-trade + change in inventories). Q1FY27: ₹1,735.15 − (₹1,096.83 + ₹185.58 − ₹88.35) = ₹541.09 Cr. Q1FY26: ₹693.22 − ₹575.28 = ₹117.94 Cr. Q4FY26: ₹822.77 − ₹657.88 = ₹164.89 Cr. FY26: ₹529.18 Cr (§3). <span class="src">Q1FY27 consolidated results (12-Aug-2026, rendered page); FY26 AR consolidated P&amp;L.</span></figcaption>
+</figure>
+
+<p>The lines under the headline show how the quarter was built. The company has explained none of them.</p>
+
+<div class="tw">
+<table>
+<tr><th>Line, consolidated ₹ Cr</th><th class="r">Q1FY26</th><th class="r">Q1FY27</th><th>What it says about the mechanism</th></tr>
+<tr><td>Revenue from operations</td><td class="r">693.22</td><td class="r"><strong>1,735.15</strong></td><td>+150%. Capacity rose by nothing during the quarter (Ambernath started 6-Jul-2026, after it ended), so this is mostly price (§7).</td></tr>
+<tr><td>Purchase of stock-in-trade</td><td class="r">23.11</td><td class="r"><strong>185.58</strong></td><td>8x. ₹182.6 Cr of it in Panol. Trading oil during a squeeze, with no plant capacity needed. <span class="tag inf">MY INFERENCE</span></td></tr>
+<tr><td>(Increase)/decrease in inventories of FG &amp; traded goods</td><td class="r">(0.54)</td><td class="r"><strong>(88.35)</strong></td><td>A build of ₹88 Cr of finished and traded stock, while standalone <em>drew down</em> ₹6.42 Cr. So Panol added ~₹95 Cr. <strong>That stock gains if prices hold and loses if they fall (path D in §5).</strong></td></tr>
+<tr><td>Gross margin</td><td class="r">17.0%</td><td class="r"><strong>31.2%</strong></td><td>The timing effect (path C in §5), plus scarcity pricing to customers who could not source elsewhere. <span class="tag inf">MY INFERENCE</span></td></tr>
+<tr><td>Employee benefits</td><td class="r">8.79</td><td class="r"><strong>40.33</strong></td><td>4.6x, unexplained. Panama has booked lumpy performance incentives in strong periods before (Q3FY22, per a community summary of that call).</td></tr>
+<tr><td>Operating profit (ex-other income)</td><td class="r">54.9</td><td class="r"><strong>387.9</strong></td><td>OPM 7.9% → 22.4%.</td></tr>
+<tr><td>PAT: standalone / Panol</td><td class="r">28.81 / 13.81</td><td class="r"><strong>217.52 / 91.39</strong></td><td>Both entities printed windfalls. Panol's quarter beat its FY26 year (₹69.21 Cr). They sum exactly to the consolidated figure, so there are no eliminations to adjust for.</td></tr>
+</table>
+</div>
+<p class="src">Q1FY26 Panol PAT is consolidated ₹42.62 Cr less standalone ₹28.81 Cr. All figures from the rendered Q1FY27 standalone and consolidated results pages and the auditor's review report (Panol: revenue ₹487.29 Cr, PAT ₹91.39 Cr).</p>
+
+<div class="box">
+<h4>Is this Panama, or the industry?</h4>
+<p style="margin:6px 0">One cross-check separates the two. The closest listed processor of the same oils, Savita Oil Technologies, went from about 5% to about 25% operating margin in the same quarter, and from ₹47 Cr to ₹288 Cr of profit <span class="src">(Screener, 18-Sep-2026, as recorded in the profile)</span>. <strong>When a competitor prints the same jump in the same quarter, the cause is the oil price, not either company.</strong> <em>That is the only peer reference on this page. No Savita filing was read for it.</em></p>
+</div>
+
+<!-- ============================ §9 ============================ -->
+<h2 id="s9"><span class="n">9.</span> The counterweight: the stockpile that earns the gain also eats the cash</h2>
+
+<p>The three months of stock that produce a windfall have to be paid for first. Base oil is imported against letters of credit (ICRA: <em>"partial mitigation through LC-backed supplier credit"</em>), it sits in the tank for about a quarter, and customers take around two months to pay (<em>"3-month inventory and 2 months debtors,"</em> CFO, Nov-2022). <strong>When the price per tonne doubles, the same number of tonnes ties up twice the rupees.</strong></p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 380" role="img" aria-label="Consolidated inventory rose from 409.2 crore in March 2025 to 668.6 crore in March 2026, 93 percent of it raw material. Cash from operations went from plus 162 crore in FY25 to minus 69 crore in FY26. Borrowings rose from 33 to 111 crore.">
+  <text x="20" y="26" class="t-md" fill="#1F4E79">FY26: stocking into the crisis, paid for with borrowing (consolidated, ₹ Cr)</text>
+
+  <line x1="300" y1="50" x2="300" y2="300" stroke="#16202b"/>
+  <text x="300" y="318" class="t-sm" text-anchor="middle" fill="#5a6a78">0</text>
+  <line x1="500" y1="50" x2="500" y2="300" stroke="#eef2f6"/><text x="500" y="318" class="t-sm" text-anchor="middle" fill="#5a6a78">250</text>
+  <line x1="700" y1="50" x2="700" y2="300" stroke="#eef2f6"/><text x="700" y="318" class="t-sm" text-anchor="middle" fill="#5a6a78">500</text>
+  <line x1="900" y1="50" x2="900" y2="300" stroke="#eef2f6"/><text x="900" y="318" class="t-sm" text-anchor="middle" fill="#5a6a78">750</text>
+  <line x1="20" y1="300" x2="940" y2="300" stroke="#e3e8ee"/>
+
+  <text x="236" y="70" class="t-md" text-anchor="end">Inventory, Mar-25</text>
+  <rect x="300" y="56" width="327.4" height="22" rx="3" fill="#94a3b3"/>
+  <text x="635" y="72" class="t-md">409.2</text>
+  <text x="236" y="102" class="t-md" text-anchor="end">Inventory, Mar-26</text>
+  <rect x="300" y="88" width="497.98" height="22" rx="3" fill="#2E75B6"/>
+  <rect x="797.98" y="88" width="36.9" height="22" rx="0" fill="#9fc2e4"/>
+  <text x="842" y="104" class="t-md" fill="#2E75B6">668.6</text>
+  <text x="300" y="128" class="t-sm" fill="#2E75B6">raw material ₹622.5 Cr (93%) · finished, traded &amp; packing ₹46.2 Cr: the stockpile is unprocessed base oil</text>
+
+  <text x="236" y="170" class="t-md" text-anchor="end">Cash from operations, FY25</text>
+  <rect x="300" y="156" width="129.6" height="22" rx="3" fill="#1a6f4a"/>
+  <text x="438" y="172" class="t-md" fill="#1a6f4a">+162</text>
+  <text x="236" y="202" class="t-md" text-anchor="end">Cash from operations, FY26</text>
+  <rect x="244.8" y="188" width="55.2" height="22" rx="3" fill="#b3261e"/>
+  <text x="308" y="204" class="t-md" fill="#b3261e">−69 (bar drawn left of zero)</text>
+
+  <text x="236" y="246" class="t-md" text-anchor="end">Borrowings, Mar-25</text>
+  <rect x="300" y="232" width="26.4" height="22" rx="3" fill="#94a3b3"/>
+  <text x="334" y="248" class="t-md">33</text>
+  <text x="236" y="278" class="t-md" text-anchor="end">Borrowings, Mar-26</text>
+  <rect x="300" y="264" width="88.8" height="22" rx="3" fill="#a2650a"/>
+  <text x="396" y="280" class="t-md" fill="#a2650a">111  (ICRA: "largely… lease liabilities")</text>
+
+  <rect x="20" y="332" width="920" height="40" rx="8" fill="#fff8e6" stroke="#ecd9a8"/>
+  <text x="36" y="357" class="t" fill="#a2650a">Inventory days 65 → 97 and working-capital days 100 → 120 (Screener). ICRA warns of supplier "demands for… advance payments."</text>
+</svg>
+<figcaption><strong>Figure 9: the cash cost of the stockpile.</strong> One axis from zero (₹250 Cr = 200px); the FY26 cash-flow bar is negative and drawn to the left of zero. Inventory from the FY26 AR consolidated Note 7 (Mar-26 raw material ₹622.47 Cr, finished goods ₹35.62 Cr, traded ₹8.91 Cr, packing ₹1.64 Cr; Mar-25 total ₹409.23 Cr). Cash flow and borrowings: Screener consolidated. <span class="tag inf">MY INFERENCE</span> <strong>The inventory built in FY26 is the stock on which Q1FY27's gain was earned.</strong> The build was deliberate, and it was funded partly with debt: ICRA had expected FY26 operating cash flow of ₹100–120 Cr.</figcaption>
+</figure>
+
+<p>This is the working-capital side of the clock in §4. <strong>A processor that holds a quarter of stock is making a bet on the oil price every quarter, whether it means to or not.</strong> The bet pays out through gross margin and costs money through working capital. Both sides have to be read together. A year with a large inventory build and negative operating cash flow is not necessarily a bad year, as FY26 shows. It is a year in which the exposure got bigger.</p>
+
+<!-- ============================ §10 ============================ -->
+<h2 id="s10"><span class="n">10.</span> The counterweight: eleven years of margin, and what "specialty" buys</h2>
+
+<p>Management's case for a structurally higher margin rested on product mix: <strong>value-added grades earn more than conventional ones</strong>, and the value-added share was rising. The figures they gave:</p>
+
+<div class="tw">
+<table>
+<tr><th>Call</th><th>Value-added grades, EBITDA</th><th>Conventional grades, EBITDA</th><th>Value-added share</th></tr>
+<tr><td>Aug-2022</td><td>14–17%</td><td>—</td><td>—</td></tr>
+<tr><td>Nov-2022</td><td>15–18%</td><td>10–12%</td><td>~65% of Q2FY23 volume</td></tr>
+<tr><td>Feb-2023</td><td>14–15%</td><td>8–10%</td><td>~65%</td></tr>
+<tr><td>May-2023</td><td>14–16%</td><td>8–10%</td><td>—</td></tr>
+<tr><td>Nov-2023</td><td>—</td><td>—</td><td><strong>68%</strong>; target 85% "in the next three years to five years"</td></tr>
+</table>
+</div>
+
+<p>Management did this arithmetic itself in Feb-2023: <em>"for the conventional grades, we have an EBITDA margin of 8% to 10%, vis-à-vis about 14% to 15% for our value-add. So we have a blended EBITDA in the range of 12% to 14%."</em> <span class="tag inf">MY INFERENCE</span> At the later 68% value-added share, the same per-grade margins blend to about 13%. FY25 and FY26 both reported 9%. <strong>Either the mix went backwards, the per-grade margins compressed, or both, and the company has not said which.</strong> The value-added share has not been disclosed since Nov-2023.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 400" role="img" aria-label="Operating margin FY15 to FY26 and trailing twelve months: 4, 6, 9, 8, 8, 5, 13, 14, 14, 11, 9, 9, and TTM 15 percent. Guidance band 13 to 16 percent in August 2022 cut to 11 to 13 percent by November 2023.">
+  <text x="20" y="26" class="t-md" fill="#1F4E79">Consolidated operating margin (ex-other income), FY15 → TTM Jun-26</text>
+
+  <line x1="60" y1="310" x2="930" y2="310" stroke="#16202b"/>
+  <line x1="60" y1="210" x2="930" y2="210" stroke="#eef2f6"/><text x="52" y="214" class="t-sm" text-anchor="end" fill="#5a6a78">10%</text>
+  <line x1="60" y1="110" x2="930" y2="110" stroke="#eef2f6"/><text x="52" y="114" class="t-sm" text-anchor="end" fill="#5a6a78">20%</text>
+  <text x="52" y="314" class="t-sm" text-anchor="end" fill="#5a6a78">0</text>
+
+  <rect x="570" y="150" width="175" height="30" fill="#fff8e6" stroke="#ecd9a8" stroke-dasharray="4 3"/>
+  <text x="576" y="144" class="t-sm" fill="#a2650a">guidance 13–16% (Aug-22) … cut 3 times … 11–13% (Nov-23)</text>
+
+  <g>
+    <rect x="72" y="270" width="48" height="40" fill="#94a3b3"/><text x="96" y="264" class="t-sm" text-anchor="middle">4%</text>
+    <rect x="138" y="250" width="48" height="60" fill="#94a3b3"/><text x="162" y="244" class="t-sm" text-anchor="middle">6%</text>
+    <rect x="204" y="220" width="48" height="90" fill="#94a3b3"/><text x="228" y="214" class="t-sm" text-anchor="middle">9%</text>
+    <rect x="270" y="230" width="48" height="80" fill="#94a3b3"/><text x="294" y="224" class="t-sm" text-anchor="middle">8%</text>
+    <rect x="336" y="230" width="48" height="80" fill="#94a3b3"/><text x="360" y="224" class="t-sm" text-anchor="middle">8%</text>
+    <rect x="402" y="260" width="48" height="50" fill="#94a3b3"/><text x="426" y="254" class="t-sm" text-anchor="middle">5%</text>
+    <rect x="468" y="180" width="48" height="130" fill="#2E75B6"/><text x="492" y="174" class="t-sm" text-anchor="middle" fill="#2E75B6">13%</text>
+    <rect x="534" y="170" width="48" height="140" fill="#2E75B6"/><text x="558" y="194" class="t-sm" text-anchor="middle" fill="#ffffff">14%</text>
+    <rect x="600" y="170" width="48" height="140" fill="#2E75B6"/><text x="624" y="194" class="t-sm" text-anchor="middle" fill="#ffffff">14%</text>
+    <rect x="666" y="200" width="48" height="110" fill="#94a3b3"/><text x="690" y="220" class="t-sm" text-anchor="middle" fill="#ffffff">11%</text>
+    <rect x="732" y="220" width="48" height="90" fill="#94a3b3"/><text x="756" y="214" class="t-sm" text-anchor="middle">9%</text>
+    <rect x="798" y="220" width="48" height="90" fill="#94a3b3"/><text x="822" y="214" class="t-sm" text-anchor="middle">9%</text>
+    <rect x="864" y="160" width="48" height="150" fill="none" stroke="#b3261e" stroke-width="2" stroke-dasharray="5 3"/><text x="888" y="154" class="t-sm" text-anchor="middle" fill="#b3261e">15%</text>
+  </g>
+  <g>
+    <text x="96" y="328" class="t-sm" text-anchor="middle">FY15</text><text x="162" y="328" class="t-sm" text-anchor="middle">FY16</text><text x="228" y="328" class="t-sm" text-anchor="middle">FY17</text><text x="294" y="328" class="t-sm" text-anchor="middle">FY18</text><text x="360" y="328" class="t-sm" text-anchor="middle">FY19</text><text x="426" y="328" class="t-sm" text-anchor="middle">FY20</text><text x="492" y="328" class="t-sm" text-anchor="middle">FY21</text><text x="558" y="328" class="t-sm" text-anchor="middle">FY22</text><text x="624" y="328" class="t-sm" text-anchor="middle">FY23</text><text x="690" y="328" class="t-sm" text-anchor="middle">FY24</text><text x="756" y="328" class="t-sm" text-anchor="middle">FY25</text><text x="822" y="328" class="t-sm" text-anchor="middle">FY26</text><text x="888" y="328" class="t-sm" text-anchor="middle" fill="#b3261e">TTM</text>
+  </g>
+  <text x="492" y="352" class="t-sm" text-anchor="middle" fill="#2E75B6">Covid dislocation</text>
+  <text x="591" y="368" class="t-sm" text-anchor="middle" fill="#2E75B6">Russia–Ukraine crude spike</text>
+  <text x="888" y="352" class="t-sm" text-anchor="middle" fill="#b3261e">Hormuz</text>
+  <text x="60" y="392" class="t-sm" fill="#5a6a78">Bars from zero, one axis (10% = 100px). Blue: the two dislocations of FY21–FY23. Dashed: trailing twelve months, which includes the single Q1FY27 quarter at 22.4%.</text>
+</svg>
+<figcaption><strong>Figure 10: the margin is a cycle, not a step.</strong> Margins were 4–9% from FY15 to FY20. They rose to 13–14% through two supply dislocations (FY21–FY23), when management called the step-up structural (<em>"the direction of the management is to keep working on the specialty zone and the change in the product mix is the reason why we have been able to -- the margins have been on the upswing,"</em> Feb-2023). By FY25 they were back at 9%. The guidance band was cut three times over the next four calls: 13–16% (Aug-22) → 12–15% (Nov-22) → 12–14% (Feb-23, held May-23) → 11–13% (Nov-23). <span class="src">Screener consolidated P&amp;L (FY26 and TTM reconciled to filings); guidance from the Aug-2022 → Nov-2023 transcripts.</span></figcaption>
+</figure>
+
+<p>Two structural facts sit under the cycle.</p>
+<ul>
+<li><strong>Volume has not grown.</strong> Consolidated volume was ~260,000 t in FY18 and 260,000 t in FY22, with a dip to ~180,000 t in between. FY23 was ~237,000 t by management's own quarterly figures. Capacity went from 240,000 to 270,000 t, and in Aug-2022 management said it was <em>"currently running on 100% capacity utilization at all our units."</em> <strong>This is a business whose tonnes grow in steps as plants are added, not continuously.</strong></li>
+<li><strong>"Specialty" here means spec-matched, not chemically novel.</strong> The premium for a value-added grade (roughly 5–6 points of EBITDA margin on management's figures) is real. It is earned by meeting a pharma or FMCG specification reliably, which is exactly the kind of advantage ICRA's <em>"low entry barriers"</em> caveat addresses. The pipeline management named in 2022 (aromatic-free ink distillates, TDAE/RAE rubber oils, biodegradable drilling fluids) moves further along the same spectrum. It does not leave it.</li>
+</ul>
+
+<!-- ============================ §11 ============================ -->
+<h2 id="s11"><span class="n">11.</span> Mechanism &rarr; metric</h2>
+
+<div class="tw">
+<table>
+<tr><th>Mechanism</th><th>Where it shows up</th><th>Latest reading</th><th>Source</th></tr>
+<tr><td>Base oil is the product's cost (§3)</td><td>Materials ÷ revenue</td><td><strong>82.7%</strong> FY26; 68.8% Q1FY27</td><td>FY26 AR; Q1FY27 results</td></tr>
+<tr><td>Inventory timing, rising market (§4–5, path C)</td><td>Gross margin jumps above ~17–20%</td><td><strong>31.2%</strong> Q1FY27 vs 17.0% Q1FY26</td><td>Q1FY27 results</td></tr>
+<tr><td>Inventory timing, falling market (path D)</td><td>Gross margin below ~15%; inventory write-down</td><td>Not yet seen. <strong>Watch Q2FY27</strong> against the ₹88 Cr Q1 stock build</td><td>—</td></tr>
+<tr><td>Denominator effect (path B)</td><td>OPM % falls with a flat rupee spread</td><td>Cannot be tested: no volume since Q2FY24</td><td>—</td></tr>
+<tr><td>Price inside revenue (§7)</td><td>Revenue growth ≫ capacity growth</td><td><strong>+150%</strong> Q1FY27 on ~0% capacity added in the quarter</td><td>Q1FY27 results; Reg-30 6-Jul-2026</td></tr>
+<tr><td>Trading in a squeeze (§6)</td><td>Purchase of stock-in-trade</td><td><strong>₹185.6 Cr</strong> Q1FY27 vs ₹188.1 Cr all of FY26</td><td>Q1FY27 results; FY26 AR Note 19</td></tr>
+<tr><td>The Gulf plant (§6)</td><td>Panol PAT and revenue</td><td>₹91.4 Cr PAT on ₹487.3 Cr, Q1FY27</td><td>Auditor's review report, Q1FY27</td></tr>
+<tr><td>Cash cost of the stockpile (§9)</td><td>Inventory; CFO; inventory days</td><td>₹668.6 Cr; −₹69 Cr; 97 days (FY26)</td><td>FY26 AR Note 7; Screener</td></tr>
+<tr><td>Handling, not refining (§3)</td><td>Logistics vs power &amp; fuel</td><td>₹159.7 Cr vs ₹4.5 Cr (35x), FY26</td><td>FY26 AR Note 24</td></tr>
+<tr><td>Mix: value-added grades (§10)</td><td>Value-added share; blended OPM</td><td>68% (Nov-2023, last disclosed); OPM 9% FY26</td><td>Nov-2023 transcript; Screener</td></tr>
+<tr><td>Buying and selling terms (§2, §4)</td><td>Formula vs spot; M-1; fixed-price share</td><td>~50/50; M-1; ~50% fixed</td><td>May-2022 call; ICRA May-2026</td></tr>
+</table>
+</div>
+
+<!-- ============================ §12 ============================ -->
+<h2 id="s12"><span class="n">12.</span> What is not disclosed</h2>
+
+<ul>
+<li><strong>🔴 Any explanation of Q1FY27.</strong> No call, no press release, no deck. The FY26 Annual Report, published 28-Jul-2026, four weeks after the quarter closed, does not address it. Everything in §8 is read from P&amp;L lines.</li>
+<li><strong>🔴 Volume, since Q2FY24.</strong> The last tonnage disclosed is 65,200 t for the September-2023 quarter. Without it, revenue cannot be split into price and volume, and the denominator effect in §5 cannot be measured.</li>
+<li><strong>The manufacturing process.</strong> The company describes blending, filling and packaging, and nothing about refining, treatment or hydrogenation. Whether Panama's plants do any deep refining, or finish oil that suppliers have already refined, is not stated (§3).</li>
+<li><strong>Capacity today, plant by plant.</strong> The last plant-level figures are from Aug-2022. The consolidated 270,000 t is from Nov-2023. The Ambernath and UAE additions (15,000 t each, as guided) have no confirmed figure.</li>
+<li><strong>End-market split.</strong> Published once, in Aug-2022. The FY26 AR splits sales only into "Panoil" and "Wax". Management's Nov-2023 statement that textile oils were "about 50%" of revenue conflicts with the deck's 19%.</li>
+<li><strong>The value-added share and its margin.</strong> Last given in Nov-2023 (68%). The implied blended margin (~13%) does not reconcile with the reported 9% (§10).</li>
+<li><strong>Length of the fixed-price contracts</strong>, which decides how long the lag in §4 lasts.</li>
+<li><strong>What Panol trades</strong>, and why its revenue share (36%) is more than twice its last-published capacity share (16.7%).</li>
+<li><strong>Export share, consistently.</strong> The standalone geography note gives ₹618.69 Cr of ₹1,961.81 Cr (31.5%) outside India, while the BRSR states exports were 35.69% of turnover. They cannot both be the same measure.</li>
+<li><strong>The Q1FY27 employee-cost jump</strong> (₹8.79 Cr → ₹40.33 Cr consolidated). Unexplained in any filing.</li>
+</ul>
+
+<!-- ============================ §13 ============================ -->
+<h2 id="s13"><span class="n">13.</span> Glossary · Sources</h2>
+
+<h3>Glossary</h3>
+<dl class="glos">
+<dt>Base oil</dt><dd>The refined heavy fraction of crude oil, sold by refineries mainly for lubricants. Panama's only real raw material.</dd>
+<dt>Group I / II / III</dt><dd>The industry's classification of base oil by how severely it has been refined: Group I is solvent-refined, while II and III are hydro-processed and purer. <span class="tag inf">Industry background</span> Panama does not say which groups it buys.</dd>
+<dt>White oil / liquid paraffin</dt><dd>Base oil refined until colourless, odourless and chemically inert. Used in cosmetics, pharma and food-contact applications.</dd>
+<dt>Petroleum jelly</dt><dd>A semi-solid blend of white oil and wax: the Vaseline-type product.</dd>
+<dt>Rubber process oil (RPO)</dt><dd>Oil mixed into rubber compound as a softener and extender. TDAE and RAE are low-toxicity versions demanded by tyre makers for regulated markets.</dd>
+<dt>Transformer oil</dt><dd>An insulating, heat-carrying oil that fills power transformers.</dd>
+<dt>Coning / knitting oil</dt><dd>Lubricant applied to yarn so it runs through winding and knitting machines without breaking or building static.</dd>
+<dt>Spread</dt><dd>The rupees per tonne between what the oil cost and what the finished grade sells for. The business's real earning unit.</dd>
+<dt>M-1 pricing</dt><dd>This month's selling price set on last month's base-oil price (ICRA's term). It creates a one-month lag between cost and price.</dd>
+<dt>Formula / fixed-price contract</dt><dd>A formula contract moves with a reference price. A fixed-price contract holds the price for a term. About half of Panama's book is each.</dd>
+<dt>Inventory gain / loss</dt><dd>Profit or loss that comes from selling stock bought at an older price, not from processing it. Produces windfalls in rising markets and write-downs in falling ones.</dd>
+<dt>Denominator effect</dt><dd>A percentage margin falling because the price it is divided by rose, while the rupee spread did not change (§5, path B).</dd>
+<dt>Stock-in-trade</dt><dd>Goods bought for resale without processing: trading, not manufacturing.</dd>
+<dt>EOU</dt><dd>Export-Oriented Unit: a plant licensed mainly for export, with duty benefits. Taloja and the new Ambernath plant are EOUs.</dd>
+<dt>Panol</dt><dd>Panol Industries RMC FZE, Panama's wholly-owned plant in Ras Al Khaimah, UAE.</dd>
+<dt>TPA</dt><dd>Tonnes per annum, a plant's installed capacity.</dd>
+</dl>
+
+<h3>Sources</h3>
+<ul>
+<li><strong>Annual Report FY2025-26</strong>: MD&amp;A (industry, manufacturing facilities, threats), Directors' Report (Panol performance and port pipelines), energy-conservation annexure, BRSR §16–19, consolidated P&amp;L and Notes 7, 17–21 and 24, standalone Note 7 and the geography note. <strong>Financial notes read from rendered page images (PyMuPDF)</strong>, because the text layer scrambles the columns.</li>
+<li><strong>Q1FY27 results</strong> (12-Aug-2026): standalone and consolidated statements and the auditor's review report. A scanned filing, read from rendered pages.</li>
+<li><strong>Earnings-call transcripts (6):</strong> 31-May-2022, 2-Aug-2022, 15-Nov-2022 (Revised Transcript), 10-Feb-2023, 31-May-2023, 9-Nov-2023. <strong>The last call the company has held.</strong></li>
+<li><strong>Investor decks:</strong> Aug-2022 (slide 7, plant capacities; slide 10, revenue mix; new-product pipeline, all read as printed labels) and Nov-2024 (business model, blending and automation).</li>
+<li><strong>ICRA rationales:</strong> 15-May-2026 (primary: M-1 pricing, fixed-price share, competition, working capital, Panol in Q4FY26), 23-Sep-2025, 21-Feb-2025.</li>
+<li><strong>Reg-30 filings:</strong> EOU approval (4-Dec-2025), factory licence (2-Jul-2026), Ambernath commercial operations (6-Jul-2026).</li>
+<li><strong>Screener</strong> consolidated annual and quarterly tables (18-Sep-2026) for FY15–FY25 margins, cash flow, borrowings and working-capital days. FY26 and Q1FY27 figures reconciled to the filings.</li>
+<li><strong>Peer reference:</strong> a single Savita Oil quarterly comparison, taken from <code class="src">Company Profiles/PANAMAPET.md</code> §4. <strong>No Savita filing was read for this page.</strong></li>
+</ul>
+
+<hr>
+
+<p class="src"><strong>This page makes no investment judgement.</strong> Valuation, conviction, the weighted-return framework and the risk register live in <a href="https://portfolio-stocks-chi.vercel.app/profile.html?stock=PANAMAPET">Company Profiles/PANAMAPET.md</a>. Built 19-Sep-2026.</p>
+
+</body>
+</html>
