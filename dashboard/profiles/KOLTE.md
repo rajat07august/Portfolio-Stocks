@@ -40,6 +40,23 @@ Screener P/E 30.8x (distorted by earnings timing), ROCE −0.3%, ROE −4.4%; pr
 </details>
 <!-- SINCE-BASELINE:END -->
 
+<!-- FACTORS:START -->
+<details class="upd" id="factor-check">
+<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<div class="upd-body">
+
+**Read (19-Sep-2026, mine, not management's):** No tracked series applies; launches, pre-sales and home-loan rates drive it.
+
+**How cost moves reach profit:** No tracked price or macro series drives this business directly. The drivers are launches, pre-sales and home-loan rates.
+
+
+
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+
+</div>
+</details>
+<!-- FACTORS:END -->
+
 ---
 
 ## 1. Business in Plain English

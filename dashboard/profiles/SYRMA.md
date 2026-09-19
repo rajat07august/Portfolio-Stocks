@@ -46,6 +46,32 @@ Screener P/E 89.8x (was 76.1x), ROCE 16.8%, ROE 14.0%; market cap ₹33,338cr; p
 </details>
 <!-- SINCE-BASELINE:END -->
 
+<!-- FACTORS:START -->
+<details class="upd" id="factor-check">
+<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<div class="upd-body">
+
+**Read (19-Sep-2026, mine, not management's):** Component and memory prices are not tracked; the rupee cuts both ways here (imported parts, 24% exports) and is flat over three months.
+
+**How cost moves reach profit:** Management was asked whether rising memory prices are a pass-through (profile); components are mostly imported.
+
+**Sensitivity:** raw materials were **74.0% of sales in FY26** (FY25: 77.0%, Screener). A 10% move across the whole raw-material bill is worth about **740 bps of margin before any pass-through**.
+
+| Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
+|---|---|---|---|---|---|---|---|
+| USD/INR (95.88 ₹ per $) | Proxy / context | +0.4% | +1.6% | +8.7% | -1.0% | ⚪ context | Yahoo Finance · 19-Sep-2026 |
+
+**Why each factor is here:**
+
+- **USD/INR**: Imports components in dollars and exports 24% of revenue; the net effect is not disclosed.
+
+
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+
+</div>
+</details>
+<!-- FACTORS:END -->
+
 ---
 
 ## 1. Business in Plain English

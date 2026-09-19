@@ -33,6 +33,41 @@ Filings: annual report (2-Sep), AGM notice, analyst-meet notice (9-Sep). Price �
 </details>
 <!-- SINCE-BASELINE:END -->
 
+<!-- FACTORS:START -->
+<details class="upd" id="factor-check">
+<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<div class="upd-body">
+
+**Read (19-Sep-2026, mine, not management's):** Mildly favourable: aluminium −6.7% and long steel flat over three months, while management said earlier pass-throughs were 'in process'. Two-wheeler (+34.1%) and car (+26.8%) sales are strong.
+
+**How cost moves reach profit:** Steel and aluminium pass-throughs are 'currently in process, not yet translated', with forex giving 'some cushion' (profile §4).
+
+**Sensitivity:** raw materials were **41.5% of sales in FY26** (FY25: 41.1%, Screener). A 10% move across the whole raw-material bill is worth about **416 bps of margin before any pass-through**. The tracked inputs averaged **-3.5% over three months**, which would be roughly **145 bps of relief** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+
+| Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
+|---|---|---|---|---|---|---|---|
+| Aluminium (COMEX) (3,446.75 $/t) | Input cost | +2.9% | -6.7% | +33.6% | -17.8% | 🟢 tailwind | Yahoo Finance · 18-Sep-2026 |
+| Steel Long | Input cost | +12.0% | -0.2% | +26.9% | -0.2% | ⚪ flat | Tijori (indianpetrochem.com) · 19 Sep, 09:30 am IST |
+| Two Wheeler - Retail Sales (YoY, Jul 26) | Demand driver | — | +24.0% | +34.1% | — | 🟢 tailwind | Tijori macro (India) · Jul 26 |
+| Passenger Car - Retail Sales (YoY, Jul 26) | Demand driver | — | +32.7% | +26.8% | — | 🟢 tailwind | Tijori macro (India) · Jul 26 |
+| USD/INR (95.88 ₹ per $) | FX (export revenue) | +0.4% | +1.6% | +8.7% | -1.0% | ⚪ flat | Yahoo Finance · 19-Sep-2026 |
+
+**Why each factor is here:**
+
+- **Aluminium (COMEX)**: Aluminium inflation named on the Q1FY27 call (profile §4).
+- **Steel Long**: Forged steel components; steel inflation 'limited' per management (profile §4).
+- **Two Wheeler - Retail Sales (YoY, Jul 26)**: Auto-ICE two-wheeler components (profile §1).
+- **Passenger Car - Retail Sales (YoY, Jul 26)**: Passenger-vehicle components (profile §1).
+- **USD/INR**: ~40% international revenue (profile §4).
+
+*India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
+
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+
+</div>
+</details>
+<!-- FACTORS:END -->
+
 ---
 
 ## 1. Business in Plain English

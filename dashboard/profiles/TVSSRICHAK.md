@@ -19,6 +19,43 @@
 
 ---
 
+
+<!-- FACTORS:START -->
+<details class="upd" id="factor-check">
+<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<div class="upd-body">
+
+**Read (19-Sep-2026, mine, not management's):** Natural rubber is flat over three months (RSS3 +1.5%, TSR20 +1.4%) after rising 27–31% over the year, which the FY26 MD&A called 'unprecedented'. Crude is +30.1%, which reaches synthetic rubber and carbon black. Two-wheeler demand is strong (+34.1% YoY).
+
+**How cost moves reach profit:** No contractual pass-through; replacement prices are raised after the fact. The FY26 MD&A says FY27 opened with an 'unprecedented increase in raw material prices' (profile).
+
+**Sensitivity:** raw materials were **58.0% of sales in FY26** (FY25: 58.0%, Screener). A 10% move across the whole raw-material bill is worth about **580 bps of margin before any pass-through**. The tracked inputs averaged **+1.4% over three months**, which would be roughly **81 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+
+| Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
+|---|---|---|---|---|---|---|---|
+| Rubber, RSS3 (monthly avg) (2.73 $/kg) | Input cost | -1.8% | +1.5% | +27.0% | -4.5% | ⚪ flat | World Bank Pink Sheet · 2026M08 |
+| Rubber, TSR20 (monthly avg) (2.24 $/kg) | Input cost | +4.7% | +1.4% | +31.0% | -0.4% | ⚪ flat | World Bank Pink Sheet · 2026M08 |
+| Brent crude (103.87 $/bbl) | Proxy / context | +13.4% | +30.1% | +54.0% | -12.2% | ⚪ context | Yahoo Finance · 18-Sep-2026 |
+| Two Wheeler - Retail Sales (YoY, Jul 26) | Demand driver | — | +24.0% | +34.1% | — | 🟢 tailwind | Tijori macro (India) · Jul 26 |
+| Tractor Sales (YoY, May 26) | Demand driver | — | +23.1% | +19.1% | — | 🟢 tailwind | Tijori macro (India) · May 26 |
+
+**Why each factor is here:**
+
+- **Rubber, RSS3 (monthly avg)**: Natural rubber; roughly two-thirds of the selling price is raw material (profile).
+- **Rubber, TSR20 (monthly avg)**: Second natural-rubber grade (same).
+- **Brent crude**: Synthetic rubber, carbon black and process oils are crude-derived (profile).
+- **Two Wheeler - Retail Sales (YoY, Jul 26)**: 2W/3W tyres are the core OEM and replacement book (profile).
+- **Tractor Sales (YoY, May 26)**: Off-highway and farm tyres (profile).
+
+*India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
+*Monthly average; lags spot by up to a month.*
+
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+
+</div>
+</details>
+<!-- FACTORS:END -->
+
 ## 1. Business in Plain English
 
 TVS Srichakra makes the tyres on India's scooters, motorcycles, auto-rickshaws and e-rickshaws, and sells them under the brand **TVS Eurogrip**. It is one of the two largest two-wheeler tyre makers in the country. A second, smaller business makes **off-highway tyres (OHT)** — the chunky ones on tractors, backhoes, graders, skid-steers and forklifts — which it exports to more than 85 countries.
@@ -324,6 +361,9 @@ FY26 actual capex was **₹106.09 Cr**; the approved pipeline is **₹430 Cr**.
 **Risks (the case against):**
 
 1. **🔴 Raw materials, flagged by management as "unprecedented."** Two-thirds of the selling price. This is the dominant near-term variable and it is entirely exogenous.
+
+   > 📈 **Factor check 19-Sep-2026:** Natural rubber has levelled off (+1.4–1.5% over three months after +27–31% over the year), but crude is +30.1%, which feeds synthetic rubber and carbon black. *(Numbers and sources: Input & factor check, at the top.)*
+
 2. **🔴 The multiple.** 42.7x trailing on a 7.85% ROCE, against a peer group at 12-30x on 11-19% ROCE. Multiple compression alone can produce the bear case without a single operational miss.
 3. **🔴 A decade of margin erosion that has not yet been explained.** PBDIT/sales 14.5% → 8.0%, RONW 28.5% → 7.3%. Two good quarters do not reverse a ten-year trend, and no management commentary exists to say what changed or what will change it.
 4. **🔴 Super Grip USA:** −₹18.03 Cr on ₹91.82 Cr, funded by a ₹52.96 Cr parent loan, exposed to US tariffs. No disclosed path to breakeven.

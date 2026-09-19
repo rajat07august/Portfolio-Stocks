@@ -54,6 +54,33 @@ Screener P/E 11.6x, ROCE 8.4%, ROE 11.9%; promoter (President of India) 69.47%; 
 </details>
 <!-- SINCE-BASELINE:END -->
 
+<!-- FACTORS:START -->
+<details class="upd" id="factor-check">
+<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<div class="upd-body">
+
+**Read (19-Sep-2026, mine, not management's):** Electricity demand is growing 9.0% YoY. Regulated, cost-plus tariffs mean fuel prices largely pass through (my inference).
+
+**How cost moves reach profit:** Power is sold under regulated, cost-plus tariffs, so fuel prices pass through (my inference).
+
+| Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
+|---|---|---|---|---|---|---|---|
+| Production - Electricity (YoY, Jul 26) | Demand driver | — | +9.2% | +9.0% | — | 🟢 tailwind | Tijori macro (India) · Jul 26 |
+| Production - Coal (YoY, Jul 26) | Proxy / context | — | -0.1% | +7.6% | — | ⚪ context | Tijori macro (India) · Jul 26 |
+
+**Why each factor is here:**
+
+- **Production - Electricity (YoY, Jul 26)**: Generation volumes (profile).
+- **Production - Coal (YoY, Jul 26)**: India coal output: context for NLC's coal blocks (profile).
+
+*India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
+
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+
+</div>
+</details>
+<!-- FACTORS:END -->
+
 ---
 
 ## 1. Business in Plain English

@@ -24,6 +24,35 @@
 
 ---
 
+
+<!-- FACTORS:START -->
+<details class="upd" id="factor-check">
+<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<div class="upd-body">
+
+**Read (19-Sep-2026, mine, not management's):** Crude is +30.1% over three months (~$104). Base oil is not tracked, but the profile shows this business gains on rising prices through its three-month stock and gives it back when prices fall. The Q1 windfall's conditions are still in place for now.
+
+**How cost moves reach profit:** A spread business on imported base oil held for about three months: rising crude first lifts margins (inventory gains), then compresses them on the way down (profile, explainer).
+
+**Sensitivity:** raw materials were **82.0% of sales in FY26** (FY25: 83.0%, Screener). A 10% move across the whole raw-material bill is worth about **820 bps of margin before any pass-through**.
+
+| Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
+|---|---|---|---|---|---|---|---|
+| Brent crude (103.87 $/bbl) | Proxy / context | +13.4% | +30.1% | +54.0% | -12.2% | ⚪ context | Yahoo Finance · 18-Sep-2026 |
+| USD/INR (95.88 ₹ per $) | Input cost | +0.4% | +1.6% | +8.7% | -1.0% | ⚪ flat | Yahoo Finance · 19-Sep-2026 |
+
+**Why each factor is here:**
+
+- **Brent crude**: Base oil is not tracked; crude is the closest proxy (profile).
+- **USD/INR**: Most base oil is imported (profile §1).
+
+
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+
+</div>
+</details>
+<!-- FACTORS:END -->
+
 ## 1. Business in Plain English
 
 Panama Petrochem takes **base oil** (the clean, heavy fraction a refinery sells to lubricant makers) and **turns it into about 80 specialised oils and waxes**, each tuned to one industry's specification:
@@ -386,6 +415,8 @@ The Rayani family, a Mumbai-based Khoja/Ismaili business family *(community is m
 ## 7. What Could Prove Us Wrong
 
 **1. 🔴 The windfall reverses.** Three months of inventory is a double-edged sword. **A fast crude fall marks down stock just as the fixed-price half of the contract book lags.** The FY22 cycle faded over three years; a sharp Hormuz resolution could reverse this one within a quarter. The ~₹95cr of stock Panol built in Q1 is the immediate exposure.
+
+> 📈 **Factor check 19-Sep-2026:** Not yet: crude is +30.1% over three months (~$104). The reversal risk is building, not receding. *(Numbers and sources: Input & factor check, at the top.)*
 
 **2. 🔴 Earnings are mistaken for earning power.** At 5.9x TTM the stock *looks* like a deep-value screen hit. **Anyone who buys it on that basis is buying one quarter's weather.** On FY26 earnings it is 13x, which is fair for a flat-volume processor, not cheap.
 

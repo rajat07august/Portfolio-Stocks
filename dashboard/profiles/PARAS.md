@@ -38,6 +38,25 @@ Screener P/E 120x, ROCE 17.2%, ROE 12.4%; market cap ₹11,062cr; promoter 53.20
 </details>
 <!-- SINCE-BASELINE:END -->
 
+<!-- FACTORS:START -->
+<details class="upd" id="factor-check">
+<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<div class="upd-body">
+
+**Read (19-Sep-2026, mine, not management's):** No tracked series applies; defence orders drive it.
+
+**How cost moves reach profit:** No tracked price or macro series drives this business directly. The driver is defence orders.
+
+**Sensitivity:** raw materials were **50.0% of sales in FY26** (FY25: 47.0%, Screener). A 10% move across the whole raw-material bill is worth about **500 bps of margin before any pass-through**.
+
+
+
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+
+</div>
+</details>
+<!-- FACTORS:END -->
+
 ---
 
 ## 1. Business in Plain English

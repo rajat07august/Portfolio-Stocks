@@ -38,6 +38,43 @@ Screener P/E 19.2x, ROCE 20.5%, ROE 15.3%; market cap ₹15,718cr; 52-week range
 </details>
 <!-- SINCE-BASELINE:END -->
 
+<!-- FACTORS:START -->
+<details class="upd" id="factor-check">
+<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<div class="upd-body">
+
+**Read (19-Sep-2026, mine, not management's):** Mixed. Its finished products are rising (sponge iron +14.8%, billet +8.9% over three months) while iron ore fell 11.3%. As a captive miner it is long ore, so cheaper ore narrows its integration edge (profile Risk 7). The gas-fed pellet plant restarted on 29-Aug.
+
+**How cost moves reach profit:** A price-taker on its products; iron ore comes from its own captive mine (profile §1).
+
+**Sensitivity:** raw materials were **51.0% of sales in FY26** (FY25: 55.0%, Screener). A 10% move across the whole raw-material bill is worth about **510 bps of margin before any pass-through**.
+
+| Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
+|---|---|---|---|---|---|---|---|
+| Iron ore, cfr spot (monthly avg) (96.3 $/dmtu) | Selling price | -1.9% | -11.3% | -3.4% | -11.3% | 🔴 headwind | World Bank Pink Sheet · 2026M08 |
+| Sponge Iron | Selling price | +8.9% | +14.8% | +20.5% | -1.0% | 🟢 tailwind | Tijori (indianpetrochem.com) · 19 Sep, 09:30 am IST |
+| Billet | Selling price | +12.8% | +8.9% | +20.8% | +0.0% | 🟢 tailwind | Tijori (indianpetrochem.com) · 19 Sep, 09:30 am IST |
+| Steel Long | Selling price | +12.0% | -0.2% | +26.9% | -0.2% | ⚪ flat | Tijori (indianpetrochem.com) · 19 Sep, 09:30 am IST |
+| Coal, Australian (monthly avg) (135.2 $/mt) | Input cost | +2.5% | -1.2% | +20.5% | -2.5% | ⚪ flat | World Bank Pink Sheet · 2026M08 |
+| Liquefied natural gas, Japan (monthly avg) (13.94 $/mmbtu) | Proxy / context | +0.6% | +8.2% | +18.2% | -10.9% | ⚪ context | World Bank Pink Sheet · 2026M08 |
+
+**Why each factor is here:**
+
+- **Iron ore, cfr spot (monthly avg)**: Pellets are sold at prices that track iron ore (my inference).
+- **Sponge Iron**: Integrated pellet → sponge iron → billets → structural steel (profile header).
+- **Billet**: Same chain (profile header).
+- **Steel Long**: Structural steel is the end product (profile header).
+- **Coal, Australian (monthly avg)**: Sponge iron is made with coal (my inference; the profile does not give the coal source).
+- **Liquefied natural gas, Japan (monthly avg)**: The 2 MnT pellet plant runs on gas and was shut 14-Jul to 29-Aug after GAIL curtailed supply (profile); Asian LNG is context, not its contract price.
+
+*Monthly average; lags spot by up to a month.*
+
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+
+</div>
+</details>
+<!-- FACTORS:END -->
+
 ---
 
 ## 1. Business in Plain English
@@ -536,6 +573,8 @@ CMP **₹229** · Mcap **₹15,419cr** · **P/E 18.8x** · **P/B 2.65x** (book �
 **Risk 6 — 🔴 Steel is cyclical, and FY22 remains unbeaten.** Revenue ₹5,397cr (FY22) → ₹5,381cr (FY26); PAT **₹1,467cr → ₹802cr.** 3-year CAGRs of **−2% sales, 0% profit** while the stock compounded 26% a year. **Multiple expansion on flat earnings is the starting condition, not the thesis.** *(The cycle was not what bit in Q1FY27 — but that does not retire the risk.)*
 
 **Risk 7 — 🟡 Iron ore price collapse.** GPIL is long its own ore at ~₹2,900/t. A sustained fall in market ore prices compresses the integration advantage that is most of the moat.
+
+> 📈 **Factor check 19-Sep-2026:** Iron ore is −11.3% over three months (World Bank, August), while sponge iron (+14.8%) and billet (+8.9%) rose: the integration edge narrowed a little. *(Numbers and sources: Input & factor check, at the top.)*
 
 **Risk 8 — 🟡 Coking coal inflation.** Management named **higher coal prices "amid the West Asia crisis"** as the second cause of the Q1FY27 cost gap.
 

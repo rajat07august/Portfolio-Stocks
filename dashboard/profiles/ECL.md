@@ -38,6 +38,37 @@ Screener P/E 28.5x on trough earnings, ROCE 5.0%, ROE 3.0%; market cap ₹4,536c
 </details>
 <!-- SINCE-BASELINE:END -->
 
+<!-- FACTORS:START -->
+<details class="upd" id="factor-check">
+<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<div class="upd-body">
+
+**Read (19-Sep-2026, mine, not management's):** Mixed inputs: iron ore −11.3% but met coke +16.7% over three months. Coke is made in-house, so the market price is an opportunity cost rather than a cash cost (my inference). DI pipe prices are not tracked.
+
+**How cost moves reach profit:** DI pipe is a commodity-linked product; management describes price turning before volume (profile §4).
+
+**Sensitivity:** raw materials were **54.0% of sales in FY26** (FY25: 49.0%, Screener). A 10% move across the whole raw-material bill is worth about **540 bps of margin before any pass-through**. The tracked inputs averaged **+1.4% over three months**, which would be roughly **76 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+
+| Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
+|---|---|---|---|---|---|---|---|
+| Iron ore, cfr spot (monthly avg) (96.3 $/dmtu) | Input cost | -1.9% | -11.3% | -3.4% | -11.3% | 🟢 tailwind | World Bank Pink Sheet · 2026M08 |
+| Met Coke | Input cost | +19.0% | +16.7% | +42.4% | +0.0% | 🔴 headwind | Tijori (indianpetrochem.com) · 19 Sep, 09:30 am IST |
+| Coal, Australian (monthly avg) (135.2 $/mt) | Input cost | +2.5% | -1.2% | +20.5% | -2.5% | ⚪ flat | World Bank Pink Sheet · 2026M08 |
+
+**Why each factor is here:**
+
+- **Iron ore, cfr spot (monthly avg)**: Backward-integrated into steel and coke (profile Moat 2); iron ore is the base input (my inference).
+- **Met Coke**: Coke making is in-house (profile Moat 2); the market price is the opportunity cost.
+- **Coal, Australian (monthly avg)**: Coking coal feeds the coke ovens (my inference; the grade differs from the tracked thermal series).
+
+*Monthly average; lags spot by up to a month.*
+
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+
+</div>
+</details>
+<!-- FACTORS:END -->
+
 ---
 
 ## 1. Business in Plain English

@@ -52,6 +52,25 @@ Screener P/E 76.4x, ROCE 19.5%, ROE 19.6%; market cap ₹2,404cr; 52-week range 
 </details>
 <!-- SINCE-BASELINE:END -->
 
+<!-- FACTORS:START -->
+<details class="upd" id="factor-check">
+<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<div class="upd-body">
+
+**Read (19-Sep-2026, mine, not management's):** Not trackable yet: the profile does not identify its raw-material mix, and raw materials jumped from 50% to 71% of sales in FY26 (Screener). That jump is worth explaining at the next refresh.
+
+**How cost moves reach profit:** The profile does not identify the raw-material mix or pass-through terms.
+
+**Sensitivity:** raw materials were **71.0% of sales in FY26** (FY25: 50.0%, Screener). A 10% move across the whole raw-material bill is worth about **710 bps of margin before any pass-through**.
+
+
+
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+
+</div>
+</details>
+<!-- FACTORS:END -->
+
 ---
 
 ## 1. Business in Plain English

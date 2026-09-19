@@ -54,6 +54,39 @@ Screener P/E 34.1x, ROCE 18.4%, ROE 15.6%; market cap ₹5,093cr; promoter 44.73
 </details>
 <!-- SINCE-BASELINE:END -->
 
+<!-- FACTORS:START -->
+<details class="upd" id="factor-check">
+<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<div class="upd-body">
+
+**Read (19-Sep-2026, mine, not management's):** Long steel is flat over three months (−0.2%) after a 26.9% rise over the year, so there is no fresh cost pressure this quarter. Vehicle demand is strong in every segment it supplies (two-wheelers +34.1%, cars +26.8%, trucks +30.4% YoY in July).
+
+**How cost moves reach profit:** Management: 'We do not work on commodity pricing' (profile §1). Pass-through terms are not disclosed.
+
+**Sensitivity:** raw materials were **39.3% of sales in FY26** (FY25: 38.2%, Screener). A 10% move across the whole raw-material bill is worth about **393 bps of margin before any pass-through**. The tracked inputs averaged **-0.2% over three months**, which would be roughly **8 bps of relief** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+
+| Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
+|---|---|---|---|---|---|---|---|
+| Steel Long | Input cost | +12.0% | -0.2% | +26.9% | -0.2% | ⚪ flat | Tijori (indianpetrochem.com) · 19 Sep, 09:30 am IST |
+| Two Wheeler - Retail Sales (YoY, Jul 26) | Demand driver | — | +24.0% | +34.1% | — | 🟢 tailwind | Tijori macro (India) · Jul 26 |
+| Passenger Car - Retail Sales (YoY, Jul 26) | Demand driver | — | +32.7% | +26.8% | — | 🟢 tailwind | Tijori macro (India) · Jul 26 |
+| Commercial Vehicles - Retail Sales (YoY, Jul 26) | Demand driver | — | +21.7% | +30.4% | — | 🟢 tailwind | Tijori macro (India) · Jul 26 |
+
+**Why each factor is here:**
+
+- **Steel Long**: Needle-roller bearings are made from bearing-steel bar and wire (my inference; the profile says only 'small steel components').
+- **Two Wheeler - Retail Sales (YoY, Jul 26)**: >90% of Indian vehicles carry NRB bearings (profile §1).
+- **Passenger Car - Retail Sales (YoY, Jul 26)**: Same (profile §1).
+- **Commercial Vehicles - Retail Sales (YoY, Jul 26)**: Same (profile §1).
+
+*India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
+
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+
+</div>
+</details>
+<!-- FACTORS:END -->
+
 ---
 
 ## 1. Business in Plain English

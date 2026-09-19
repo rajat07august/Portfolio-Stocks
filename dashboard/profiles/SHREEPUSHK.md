@@ -21,6 +21,39 @@
 
 ---
 
+
+<!-- FACTORS:START -->
+<details class="upd" id="factor-check">
+<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<div class="upd-body">
+
+**Read (19-Sep-2026, mine, not management's):** Its biggest input, sulphur, is not tracked by any source here; crude (+30.1%) is the nearest proxy. Rock phosphate for fertiliser is +11.5% over three months, and national fertiliser output is −8.0% YoY. Both work against it.
+
+**How cost moves reach profit:** Sulphur went from ~$250–300/t to ~$1,100/t in March 2026 (CMD, Q1FY27); pass-through is partial. Sulphur itself is not tracked by any source here.
+
+**Sensitivity:** raw materials were **66.0% of sales in FY26** (FY25: 63.0%, Screener). A 10% move across the whole raw-material bill is worth about **660 bps of margin before any pass-through**.
+
+| Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
+|---|---|---|---|---|---|---|---|
+| Brent crude (103.87 $/bbl) | Proxy / context | +13.4% | +30.1% | +54.0% | -12.2% | ⚪ context | Yahoo Finance · 18-Sep-2026 |
+| Phosphate rock (monthly avg) (170.0 $/mt) | Input cost | +0.0% | +11.5% | +11.5% | +0.0% | 🔴 headwind | World Bank Pink Sheet · 2026M08 |
+| Production - Fertilizers (YoY, Jul 26) | Demand driver | — | -4.1% | -8.0% | — | 🔴 headwind | Tijori macro (India) · Jul 26 |
+
+**Why each factor is here:**
+
+- **Brent crude**: Sulphur is a refinery by-product whose price follows crude and Gulf shipping (profile).
+- **Phosphate rock (monthly avg)**: Single super phosphate is made from rock phosphate and sulphuric acid (profile: SSP fertiliser).
+- **Production - Fertilizers (YoY, Jul 26)**: SSP/NPK fertiliser business (profile).
+
+*India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
+*Monthly average; lags spot by up to a month.*
+
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+
+</div>
+</details>
+<!-- FACTORS:END -->
+
 ## 1. Business in Plain English
 
 Shree Pushkar runs two businesses that share one factory's plumbing.
@@ -379,6 +412,8 @@ Plus ₹9.33cr for 30,000 m² of adjoining land at Lote Parshuram, bought at auc
 **1. 🔴 Units 5 and 6 do not start — or start and run at low load.** Seven timetables in 21 months, three different stated causes. At ₹100/kg sulphur and ₹100/kg ammonia, **a new NPK plant is a working-capital sink** — the CMD's own words: *"once it's started, if I stop later this will involve lot of working capital… at the three times price."*
 
 **2. 🔴 Sulphur and ammonia stay at crisis prices and the finished-product market does not reprice.** Both segments are hit simultaneously. The integration does not hedge; it concentrates.
+
+> 📈 **Factor check 19-Sep-2026:** Sulphur is not tracked by any available source; crude, its driver, is +30.1% over three months, and rock phosphate +11.5%. National fertiliser output is −8.0% YoY. *(Numbers and sources: Input & factor check, at the top.)*
 
 **3. 🔴 Profit-margin guidance is not reliable.** FY26 was guided at 8.25%, 8.5-9%, 7.5-8% and 8% across four calls and delivered 7.1%. **FY27's 8.5-9% should be read through that record.**
 

@@ -42,6 +42,43 @@ Screener P/E 15.6x, ROCE 24.5%, ROE 18.0%; 52-week range ₹471–907. FII holdi
 </details>
 <!-- SINCE-BASELINE:END -->
 
+<!-- FACTORS:START -->
+<details class="upd" id="factor-check">
+<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<div class="upd-body">
+
+**Read (19-Sep-2026, mine, not management's):** This is the holding most exposed right now. Raw materials were 55% of FY26 sales, and its two tracked PVC-leather inputs rose over three months (PVC +13.3%, DOP plasticiser +20.9%) while crude rose 30%. There is no contractual pass-through. If its whole bill moved like that average, it would be about 600 bps of margin before price increases: an upper bound, not a forecast. The rupee is flat over three months, so exports are not cushioning it this quarter (the +8.7% over a year still helps). Test: Q2FY27 gross margin against Q1.
+
+**How cost moves reach profit:** Partial and lagged. Management described raw materials going 'up very sharply… then a fall… then again up' since March 2026, with shipping costs up 4x (profile Risk 4). No contractual pass-through is disclosed.
+
+**Sensitivity:** raw materials were **55.0% of sales in FY26** (FY25: 57.0%, Screener). A 10% move across the whole raw-material bill is worth about **550 bps of margin before any pass-through**. The tracked inputs averaged **+11.0% over three months**, which would be roughly **605 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+
+| Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
+|---|---|---|---|---|---|---|---|
+| PVC | Input cost | +9.0% | +13.3% | +37.2% | -11.5% | 🔴 headwind | Tijori (indianpetrochem.com) · 19 Sep, 09:00 am IST |
+| DOP ( Dioctyl Phthalate ) | Input cost | +19.2% | +20.9% | +71.4% | -6.0% | 🔴 headwind | Tijori (indianpetrochem.com) · 19 Sep, 09:00 am IST |
+| Polyurethane | Input cost | -0.3% | -1.2% | +25.3% | -12.8% | ⚪ flat | Tijori (indianpetrochem.com) · 19 Sep, 09:00 am IST |
+| Brent crude (103.87 $/bbl) | Proxy / context | +13.4% | +30.1% | +54.0% | -12.2% | ⚪ context | Yahoo Finance · 18-Sep-2026 |
+| USD/INR (95.88 ₹ per $) | FX (export revenue) | +0.4% | +1.6% | +8.7% | -1.0% | ⚪ flat | Yahoo Finance · 19-Sep-2026 |
+| Passenger Car - Retail Sales (YoY, Jul 26) | Demand driver | — | +32.7% | +26.8% | — | 🟢 tailwind | Tijori macro (India) · Jul 26 |
+
+**Why each factor is here:**
+
+- **PVC**: PVC resin is the volume coating chemistry (profile Moat 2).
+- **DOP ( Dioctyl Phthalate )**: Plasticiser that makes PVC coatings soft (my inference: standard PVC-leather formulation; not named in the profile).
+- **Polyurethane**: PU and semi-PU coatings (profile Moat 2); Tijori's PU series is a general grade, so treat as a proxy.
+- **Brent crude**: Context, not a direct purchase: petrochemical inputs track crude (profile Risk 4).
+- **USD/INR**: ~42.5% of standalone revenue is USD-invoiced exports; FY26 carried a ₹30cr forex gain (profile Moat 5).
+- **Passenger Car - Retail Sales (YoY, Jul 26)**: Domestic auto OEM is one of its six verticals (profile §1).
+
+*India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
+
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+
+</div>
+</details>
+<!-- FACTORS:END -->
+
 ---
 
 ## 1. Business in Plain English
@@ -470,6 +507,8 @@ Analysts and management discuss a **"25% plus"** margin on the Q1FY27 call while
 **Risk 3 — 🔴 Key-man concentration.** The 51-year founder-CMD **is not currently able to take earnings calls** (management's own words). Arun Bagaria has led the last two and is re-appointed to 2032, **but a shareholder's question about a full-time MD was asked on the Q1FY27 call and went unanswered.** *Signal: whether the succession question is addressed at the FY27 annual call.*
 
 **Risk 4 — 🟡 Raw material and freight volatility.** Petrochemical inputs *"went up very sharply… then a fall… then again up"*, and **shipping costs rose 4x** in Q1FY27 on the war situation. Management will not call the freight increase permanent, but nor can they call it temporary.
+
+> 📈 **Factor check 19-Sep-2026:** The risk is live. PVC +13.3% and DOP plasticiser +20.9% over three months, crude +30%, and raw materials are 55% of sales with no contractual pass-through. Watch Q2FY27 gross margin against Q1. *(Numbers and sources: Input & factor check, at the top.)*
 
 **Risk 5 — 🟡 Volume growth is ~2%.** The +24.5% revenue came almost entirely from price and mix. **The value/volume gap is deliberate and management says so — but a mix shift is finite, and at some point volume has to do the work.** *This is what the capacity additions are for; it is also why they matter.*
 

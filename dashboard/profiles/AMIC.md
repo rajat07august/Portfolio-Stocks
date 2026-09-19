@@ -43,6 +43,39 @@ Screener P/E 86.7x, ROCE 25.2%, ROE 18.1%; market cap ₹2,643cr; promoter 57.96
 </details>
 <!-- SINCE-BASELINE:END -->
 
+<!-- FACTORS:START -->
+<details class="upd" id="factor-check">
+<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<div class="upd-body">
+
+**Read (19-Sep-2026, mine, not management's):** The steel it forges and the scrap its new melt shop will use are both rising: billet +8.9% and scrap +13.2% over three months, each at or near a 52-week high. Pass-through terms are not disclosed. End markets look healthy, with cement output +13.1% YoY.
+
+**How cost moves reach profit:** Not disclosed. Bespoke forgings are quoted per order (my inference); Phase 1 adds 48,000 MTPA of in-house ingot, so from FY27 it buys scrap and melts its own steel (profile §3).
+
+**Sensitivity:** raw materials were **51.0% of sales in FY26** (FY25: 64.0%, Screener). A 10% move across the whole raw-material bill is worth about **510 bps of margin before any pass-through**. The tracked inputs averaged **+11.1% over three months**, which would be roughly **566 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+
+| Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
+|---|---|---|---|---|---|---|---|
+| Billet | Input cost | +12.8% | +8.9% | +20.8% | +0.0% | 🔴 headwind | Tijori (indianpetrochem.com) · 19 Sep, 09:30 am IST |
+| Scrap | Input cost | +10.8% | +13.2% | +25.4% | -0.7% | 🔴 headwind | Tijori (indianpetrochem.com) · 19 Sep, 09:30 am IST |
+| Production - Cement (YoY, Jul 26) | Demand driver | — | +10.4% | +13.1% | — | 🟢 tailwind | Tijori macro (India) · Jul 26 |
+| Production - Steel (YoY, Jul 26) | Demand driver | — | +4.2% | +2.9% | — | ⚪ flat | Tijori macro (India) · Jul 26 |
+
+**Why each factor is here:**
+
+- **Billet**: Forging stock bought as steel billets/ingots until in-house melting ramps (profile §3; my reading of the capacity note).
+- **Scrap**: Feed for the new in-house melt shop (my inference: induction melting runs on scrap; the profile says only 'melt its own steel').
+- **Production - Cement (YoY, Jul 26)**: End markets are steel, cement, sugar, power, oil & gas and hydel, all in capacity addition (profile §2).
+- **Production - Steel (YoY, Jul 26)**: Same end-market list (profile §2).
+
+*India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
+
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+
+</div>
+</details>
+<!-- FACTORS:END -->
+
 ---
 
 ## 1. Business in Plain English

@@ -42,6 +42,34 @@ Market cap ₹1,073cr; ROCE 36.3%, ROE 30.3%; promoter 58.27% (after the Dec-202
 </details>
 <!-- SINCE-BASELINE:END -->
 
+<!-- FACTORS:START -->
+<details class="upd" id="factor-check">
+<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<div class="upd-body">
+
+**Read (19-Sep-2026, mine, not management's):** The input that helped is reversing: flat steel is +10.0% over three months and at a 52-week high. Management credited Q1FY27's +418 bps margin partly to steel having moderated, so Q2 should give some of that back.
+
+**How cost moves reach profit:** Management said steel 'moderated from the elevated levels' and part of Q1FY27's +418 bps margin came from that (profile §4).
+
+**Sensitivity:** raw materials were **47.2% of sales in FY26** (FY25: 48.8%, Screener). A 10% move across the whole raw-material bill is worth about **472 bps of margin before any pass-through**. The tracked inputs averaged **+4.9% over three months**, which would be roughly **231 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+
+| Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
+|---|---|---|---|---|---|---|---|
+| Steel Flat | Input cost | +9.3% | +10.0% | +29.5% | +0.0% | 🔴 headwind | Tijori (indianpetrochem.com) · 19 Sep, 09:30 am IST |
+| Steel Long | Input cost | +12.0% | -0.2% | +26.9% | -0.2% | ⚪ flat | Tijori (indianpetrochem.com) · 19 Sep, 09:30 am IST |
+
+**Why each factor is here:**
+
+- **Steel Flat**: PEB and structural steel (profile §4).
+- **Steel Long**: Same (profile §4).
+
+
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+
+</div>
+</details>
+<!-- FACTORS:END -->
+
 ---
 
 ## 1. Business in Plain English
@@ -427,6 +455,8 @@ Total income **₹206.19cr (+67.76%)**, EBITDA **₹31.35cr (+131.4%)** at **15.
 **Risk 4 — 🟡 The guidance gap.** **₹1,102cr confirmed against ₹1,399cr implied — ~₹300cr to be won *and* executed in eight months.**
 
 **Risk 5 — 🟡 The margin gain is partly input-cost driven.** Q1FY27's +418bps came with steel *"moderated from the elevated levels."* **Escalation clauses cut both ways.** *My inference, not management's position.*
+
+> 📈 **Factor check 19-Sep-2026:** The tailwind has reversed: flat steel is +10.0% over three months and at a 52-week high. Expect Q2FY27 to give back part of the steel-driven gain. *(Numbers and sources: Input & factor check, at the top.)*
 
 **Risk 6 — 🟡 PEB margin is not yet in the P&L.** **No owned capacity today**; production outsourced under job-work. Inauguration 30-Aug-2026, commercial production realistically **Nov–Dec 2026**, benefit *"1%-plus or 1.5%."* **Third-party PEB revenue should not be modelled at all.**
 

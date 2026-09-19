@@ -40,6 +40,34 @@ Screener P/E 29.9x, ROCE 18.0%, ROE 17.4%; market cap ₹3,218cr; promoter 41.34
 </details>
 <!-- SINCE-BASELINE:END -->
 
+<!-- FACTORS:START -->
+<details class="upd" id="factor-check">
+<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<div class="upd-body">
+
+**Read (19-Sep-2026, mine, not management's):** Methyl methacrylate, the acrylic binder in its quartz sinks, fell 22.9% over three months, which helps. Quartz, the main material, is not tracked. The rupee is flat over three months.
+
+**How cost moves reach profit:** Not disclosed. Pricing to IKEA and Lowe's is contractual (my inference).
+
+**Sensitivity:** raw materials were **32.1% of sales in FY26** (FY25: 34.1%, Screener). A 10% move across the whole raw-material bill is worth about **321 bps of margin before any pass-through**.
+
+| Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
+|---|---|---|---|---|---|---|---|
+| Methyl-Methacrylate | Input cost | -2.4% | -22.9% | +64.9% | -27.1% | 🟢 tailwind | Tijori (indianpetrochem.com) · 19 Sep, 09:00 am IST |
+| USD/INR (95.88 ₹ per $) | FX (export revenue) | +0.4% | +1.6% | +8.7% | -1.0% | ⚪ flat | Yahoo Finance · 19-Sep-2026 |
+
+**Why each factor is here:**
+
+- **Methyl-Methacrylate**: Quartz sinks are crushed quartz bound in acrylic resin (profile §1); MMA is the acrylic monomer (my inference).
+- **USD/INR**: Export-led: IKEA, Lowe's and other global retailers (profile §1).
+
+
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+
+</div>
+</details>
+<!-- FACTORS:END -->
+
 ---
 
 ## 1. Business in Plain English

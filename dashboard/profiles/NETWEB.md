@@ -39,6 +39,32 @@ Screener P/E 106x (was ~127x on the same earnings), ROCE 37.5%, ROE 32.8%; marke
 </details>
 <!-- SINCE-BASELINE:END -->
 
+<!-- FACTORS:START -->
+<details class="upd" id="factor-check">
+<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<div class="upd-body">
+
+**Read (19-Sep-2026, mine, not management's):** GPU prices and supply, the real driver, are not tracked. The rupee is flat over three months.
+
+**How cost moves reach profit:** GPU prices and allocation are not tracked; inventory days rose 86 → 110 to secure GPU supply (profile).
+
+**Sensitivity:** raw materials were **79.0% of sales in FY26** (FY25: 77.0%, Screener). A 10% move across the whole raw-material bill is worth about **790 bps of margin before any pass-through**.
+
+| Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
+|---|---|---|---|---|---|---|---|
+| USD/INR (95.88 ₹ per $) | Input cost | +0.4% | +1.6% | +8.7% | -1.0% | ⚪ flat | Yahoo Finance · 19-Sep-2026 |
+
+**Why each factor is here:**
+
+- **USD/INR**: GPUs and servers are imported (my inference).
+
+
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+
+</div>
+</details>
+<!-- FACTORS:END -->
+
 ---
 
 ## 1. Business in Plain English

@@ -34,6 +34,37 @@ Filings: FY26 annual report (2-Sep), final-dividend tax notice, Ms. Ranjana Mait
 </details>
 <!-- SINCE-BASELINE:END -->
 
+<!-- FACTORS:START -->
+<details class="upd" id="factor-check">
+<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<div class="upd-body">
+
+**Read (19-Sep-2026, mine, not management's):** Zinc for galvanising is +11.3% over three months and at a 52-week high; tower steel is flat and aluminium −6.7%. With 65% of contracts carrying fixed-price input risk, zinc is the input to watch.
+
+**How cost moves reach profit:** About 65% of contracts carry input risk on fixed prices (profile).
+
+**Sensitivity:** raw materials were **44.7% of sales in FY26** (FY25: 48.4%, Screener). A 10% move across the whole raw-material bill is worth about **447 bps of margin before any pass-through**. The tracked inputs averaged **+1.5% over three months**, which would be roughly **67 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+
+| Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
+|---|---|---|---|---|---|---|---|
+| Steel Long | Input cost | +12.0% | -0.2% | +26.9% | -0.2% | ⚪ flat | Tijori (indianpetrochem.com) · 19 Sep, 09:30 am IST |
+| Zinc (monthly avg) (3,875.0 $/mt) | Input cost | +7.7% | +11.3% | +38.9% | +0.0% | 🔴 headwind | World Bank Pink Sheet · 2026M08 |
+| Aluminium (COMEX) (3,446.75 $/t) | Input cost | +2.9% | -6.7% | +33.6% | -17.8% | 🟢 tailwind | Yahoo Finance · 18-Sep-2026 |
+
+**Why each factor is here:**
+
+- **Steel Long**: Tower steel (profile).
+- **Zinc (monthly avg)**: Galvanising (profile: 'steel, zinc and aluminium still swing the P&L').
+- **Aluminium (COMEX)**: Conductors (same).
+
+*Monthly average; lags spot by up to a month.*
+
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+
+</div>
+</details>
+<!-- FACTORS:END -->
+
 ---
 
 ## 1. Business in Plain English
@@ -404,6 +435,8 @@ CFO Khandelwal, pressed by Kartikay Agrawal: *"It is **INR80 crores** loan, and 
 **Risk 6 — 🟡 DII / PE exodus.** **15.15% → 6.51%.** Part is the known Asiana Fund exit, **but it is a persistent supply overhang and a "what do domestic institutions see?" question.**
 
 **Risk 7 — 🟡 Commodity pass-through gap.** Only **~35% price-variation**; **65% fixed-price input risk** on steel, zinc and aluminium.
+
+> 📈 **Factor check 19-Sep-2026:** Zinc is +11.3% over three months and at a 52-week high; tower steel is flat and aluminium −6.7%. *(Numbers and sources: Input & factor check, at the top.)*
 
 **Risk 8 — 🟡 International and country risk.** **Africa ~20% across 28 countries** — security (Mali kidnappings were raised by an analyst), currency and payment. **Mitigated by multilateral funding, not eliminated.**
 

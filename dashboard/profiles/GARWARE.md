@@ -41,6 +41,38 @@ Screener P/E 40.3x, ROCE 18.1%, ROE 13.5%; 52-week range ₹2,691–7,990. Jun-2
 </details>
 <!-- SINCE-BASELINE:END -->
 
+<!-- FACTORS:START -->
+<details class="upd" id="factor-check">
+<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<div class="upd-body">
+
+**Read (19-Sep-2026, mine, not management's):** Polyester feedstocks are rising hard: PTA +20.8% and MEG +14.5% over three months, both up about 65% over the year. Garware makes its own chips, so this reaches its cost base directly. Branded, premium-priced films should absorb it better than a commodity film maker (my inference). Q2FY27 will be hard to read: it carries a ~₹50cr tariff refund that is not in guidance, so judge the gross margin excluding that refund, not the headline.
+
+**How cost moves reach profit:** Not disclosed. It sells branded films (window, paint-protection, sun-control) at premium prices, so polyester feedstock is a smaller lever than for a commodity film maker (my inference).
+
+**Sensitivity:** raw materials were **45.1% of sales in FY26** (FY25: 46.2%, Screener). A 10% move across the whole raw-material bill is worth about **451 bps of margin before any pass-through**. The tracked inputs averaged **+17.6% over three months**, which would be roughly **794 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+
+| Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
+|---|---|---|---|---|---|---|---|
+| Purified terephthalic acid (PTA) | Input cost | +14.0% | +20.8% | +63.8% | -6.2% | 🔴 headwind | Tijori (indianpetrochem.com) · 19 Sep, 09:00 am IST |
+| Monoethylene glycol(MEG) | Input cost | +13.2% | +14.5% | +67.2% | -2.6% | 🔴 headwind | Tijori (indianpetrochem.com) · 19 Sep, 09:00 am IST |
+| Polyurethane | Proxy / context | -0.3% | -1.2% | +25.3% | -12.8% | ⚪ context | Tijori (indianpetrochem.com) · 19 Sep, 09:00 am IST |
+| USD/INR (95.88 ₹ per $) | FX (export revenue) | +0.4% | +1.6% | +8.7% | -1.0% | ⚪ flat | Yahoo Finance · 19-Sep-2026 |
+
+**Why each factor is here:**
+
+- **Purified terephthalic acid (PTA)**: Fully integrated 'petrochemicals to chips to films' with a 66,000 MT chips plant (Q1FY27 deck and call): PTA is one of the two polyester feedstocks.
+- **Monoethylene glycol(MEG)**: The other polyester feedstock (same source).
+- **Polyurethane**: Paint-protection film's key input is a bought-in urethane (TPU) film until Garware's own TPU line commissions in Q3FY27 (profile Force 3). Tijori has no TPU-film series; this is the nearest proxy.
+- **USD/INR**: ~75% of revenue is exports (profile Risk 3).
+
+
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+
+</div>
+</details>
+<!-- FACTORS:END -->
+
 ---
 
 ## 1. Business in Plain English
@@ -369,6 +401,8 @@ Two product families do most of the work:
 > **⚠️ MATERIALIZED AND THEN REVERSED, WITH A REFUND ATTACHED.** The 50% US tariff episode drove **Dec-2025 to a 15% OPM and ₹56cr PAT**, and cut PPF's revenue share **31% → 25%**. **🆕 It is now unwinding: a net refund of *"anywhere around ₹50 crores plus"* is expected in full in Q2FY27, of which 30–40% has been received.** **Exports are ~75% of revenue, so this is a recurring exposure, not a resolved one.** **Signal to watch: PPF revenue share returning toward the 30–35% management expects long-term.**
 
 **⚠️ Risk 2 — Commodity BOPET price volatility.** *(No update. Speciality mix insulates but does not eliminate.)*
+
+> 📈 **Factor check 19-Sep-2026:** Polyester feedstocks are up sharply: PTA +20.8% and MEG +14.5% over three months, about +65% over the year. Garware makes its own chips, so this reaches its costs directly. Read Q2FY27 margin excluding the ~₹50cr tariff refund. *(Numbers and sources: Input & factor check, at the top.)*
 
 **⚠️ Risk 3 — Currency exposure.** ~75% export revenue.
 

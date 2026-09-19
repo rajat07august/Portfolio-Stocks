@@ -50,6 +50,30 @@ Contract from the Inland Waterways Authority of India for design, construction a
 </details>
 <!-- SINCE-BASELINE:END -->
 
+<!-- FACTORS:START -->
+<details class="upd" id="factor-check">
+<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<div class="upd-body">
+
+**Read (19-Sep-2026, mine, not management's):** Only a proxy is tracked: crude +30.1% over three months raises diesel for dredgers and tugs, but the profile does not say who bears fuel cost on its contracts.
+
+**How cost moves reach profit:** Not disclosed; who bears fuel cost on dredging contracts is not stated in the profile.
+
+| Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
+|---|---|---|---|---|---|---|---|
+| Brent crude (103.87 $/bbl) | Proxy / context | +13.4% | +30.1% | +54.0% | -12.2% | ⚪ context | Yahoo Finance · 18-Sep-2026 |
+
+**Why each factor is here:**
+
+- **Brent crude**: Diesel for dredgers and tugs (my inference).
+
+
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+
+</div>
+</details>
+<!-- FACTORS:END -->
+
 ---
 
 ## 1. Business in Plain English

@@ -36,6 +36,32 @@ Screener P/E 56.4x, ROCE 8.1%, ROE 5.3%; market cap ₹6,625cr; promoter 35.66% 
 </details>
 <!-- SINCE-BASELINE:END -->
 
+<!-- FACTORS:START -->
+<details class="upd" id="factor-check">
+<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<div class="upd-body">
+
+**Read (19-Sep-2026, mine, not management's):** Only currency is tracked; it is flat over three months. API intermediates are not tracked.
+
+**How cost moves reach profit:** API intermediates are not tracked.
+
+**Sensitivity:** raw materials were **62.0% of sales in FY26** (FY25: 64.0%, Screener). A 10% move across the whole raw-material bill is worth about **620 bps of margin before any pass-through**.
+
+| Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
+|---|---|---|---|---|---|---|---|
+| USD/INR (95.88 ₹ per $) | FX (export revenue) | +0.4% | +1.6% | +8.7% | -1.0% | ⚪ flat | Yahoo Finance · 19-Sep-2026 |
+
+**Why each factor is here:**
+
+- **USD/INR**: Export APIs and the CDMO mandate (profile).
+
+
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+
+</div>
+</details>
+<!-- FACTORS:END -->
+
 ---
 
 ## 1. Business in Plain English

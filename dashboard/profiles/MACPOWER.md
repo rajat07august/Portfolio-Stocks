@@ -45,6 +45,35 @@ Screener P/E 54.1x (was ~47x), ROCE 29.1%, ROE 21.3%; market cap ₹2,105cr; pro
 </details>
 <!-- SINCE-BASELINE:END -->
 
+<!-- FACTORS:START -->
+<details class="upd" id="factor-check">
+<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<div class="upd-body">
+
+**Read (19-Sep-2026, mine, not management's):** No commodity series fits a CNC builder; the tracked factors are the rupee (flat over three months) for imported ball screws and guideways, and MSME credit (+26.1% YoY), which funds its job-shop buyers. Both are supportive.
+
+**How cost moves reach profit:** Machine prices were raised 4–6% from 1-Jun-2026 (profile §4); a 19,000-SKU component shelf with a one-year buffer on imported ball screws delays cost moves (profile §4).
+
+**Sensitivity:** raw materials were **61.0% of sales in FY26** (FY25: 62.0%, Screener). A 10% move across the whole raw-material bill is worth about **610 bps of margin before any pass-through**.
+
+| Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
+|---|---|---|---|---|---|---|---|
+| USD/INR (95.88 ₹ per $) | Input cost | +0.4% | +1.6% | +8.7% | -1.0% | ⚪ flat | Yahoo Finance · 19-Sep-2026 |
+| Credit to MSME - Outstanding (YoY, Jul 26) | Demand driver | — | +26.1% | +26.1% | — | 🟢 tailwind | Tijori macro (India) · Jul 26 |
+
+**Why each factor is here:**
+
+- **USD/INR**: Ball screws and guideways are imported from Taiwan (profile §4).
+- **Credit to MSME - Outstanding (YoY, Jul 26)**: Buyers are tier-3/tier-4 job shops, i.e. MSMEs (profile §1).
+
+*India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
+
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+
+</div>
+</details>
+<!-- FACTORS:END -->
+
 ---
 
 ## 1. Business in Plain English

@@ -40,6 +40,49 @@ No company filing explains the fall. Reported P/E 11.3x on TTM; on the profile's
 </details>
 <!-- SINCE-BASELINE:END -->
 
+<!-- FACTORS:START -->
+<details class="upd" id="factor-check">
+<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<div class="upd-body">
+
+**Read (19-Sep-2026, mine, not management's):** Its selling prices look firmer than management's July comment implied, but the two caustic series disagree. Tijori shows caustic soda lye +32.2% over three months and at a 52-week high, while caustic flakes are −3.3%. On the 30-Jul call management put current realisation 'just below ₹30,000', about 16% below the Q1 average. Both can be true if prices fell in July and recovered in August–September. PVC is +13.3% over three months, and the PVC-over-EDC spread +10.1%, consistent with the July customs duty and minimum import price. Resolve with the Q2FY27 realisation disclosure.
+
+**How cost moves reach profit:** Mostly a price-taker on both sides: caustic is priced off chlor-alkali spreads, sugar off a government-set cane price, urea is regulated (profile §2).
+
+**Sensitivity:** raw materials were **52.0% of sales in FY26** (FY25: 52.0%, Screener). A 10% move across the whole raw-material bill is worth about **520 bps of margin before any pass-through**.
+
+| Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
+|---|---|---|---|---|---|---|---|
+| Caustic Soda Lye | Selling price | +28.8% | +32.2% | +73.0% | +0.0% | 🟢 tailwind | Tijori (indianpetrochem.com) · 19 Sep, 09:00 am IST |
+| Caustic Soda Flakes | Selling price | +1.6% | -3.3% | +13.9% | -17.4% | 🔴 headwind | Tijori (indianpetrochem.com) · 19 Sep, 09:00 am IST |
+| PVC | Selling price | +9.0% | +13.3% | +37.2% | -11.5% | 🟢 tailwind | Tijori (indianpetrochem.com) · 19 Sep, 09:00 am IST |
+| PVC - Ethylene Dichloride | Margin spread | +8.3% | +10.1% | +6.5% | -27.6% | 🟢 tailwind | Tijori (indianpetrochem.com) · 19 Sep, 09:30 am IST |
+| Coal, Australian (monthly avg) (135.2 $/mt) | Input cost | +2.5% | -1.2% | +20.5% | -2.5% | ⚪ flat | World Bank Pink Sheet · 2026M08 |
+| Ethanol | Selling price | +0.0% | +1.3% | +7.3% | -7.5% | ⚪ flat | Tijori (indianpetrochem.com) · 19 Sep, 09:00 am IST |
+| Sugar, world (monthly avg) (0.38 $/kg) | Proxy / context | +11.8% | +11.8% | +2.7% | +0.0% | ⚪ context | World Bank Pink Sheet · 2026M08 |
+| Production - Fertilizers (YoY, Jul 26) | Demand driver | — | -4.1% | -8.0% | — | 🔴 headwind | Tijori macro (India) · Jul 26 |
+
+**Why each factor is here:**
+
+- **Caustic Soda Lye**: Chemicals & Vinyl is 34% of revenue; caustic realisation (ECU) drives it. Q1FY27 ECU ₹35,761/t; on the 30-Jul call management said current ECU was 'just below ₹30,000' (profile §4).
+- **Caustic Soda Flakes**: Second caustic grade (same).
+- **PVC**: Vinyl is sold as PVC; customs duty reinstated 16-Jul-2026 and a US$766/t minimum import price from 24-Jul (profile Force 4).
+- **PVC - Ethylene Dichloride**: PVC price minus its EDC feedstock: the vinyl margin (my framing).
+- **Coal, Australian (monthly avg)**: 383 MW of coal-fired captive power (profile Moat 1). Imported-coal grade is a proxy: the profile does not say how much coal is imported.
+- **Ethanol**: Sugar & ethanol segment; ethanol hit the E20 blending ceiling with OMC requirement down 13% (profile).
+- **Sugar, world (monthly avg)**: Context only: Indian sugar prices and cane costs are government-set, so the world price is not the company's realisation.
+- **Production - Fertilizers (YoY, Jul 26)**: Fertiliser business within Agri-Rural (profile Thread F).
+
+*India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
+*Monthly average; lags spot by up to a month.*
+*Spread between two prices: % moves on a spread are huge and flip sign; read the direction, not the size.*
+
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+
+</div>
+</details>
+<!-- FACTORS:END -->
+
 ---
 
 ## 1. Business in Plain English
@@ -353,6 +396,8 @@ The 30-second snapshot:
 **Fenesta — growth strong, two yellow flags.** Revenue +22% but PBDIT +12.8%, margin 13.1% vs 14.1%. **Quarterly order intake ₹302cr, up just +4% against revenue +22%.** And **capital employed doubled — ₹266cr vs ₹128cr (+107%)** on the aluminium-extrusion plant, DNV hardware and a new wooden-doors facility. *Total order book across everything is ~₹1,000cr.*
 
 ### 🔴 The disclosure that appears nowhere in writing: ECU may be down ~16%
+
+> 📈 **Factor check 19-Sep-2026:** The market series do not show a fall. Tijori's caustic soda lye is +32.2% over three months and at a 52-week high, though caustic flakes are −3.3%. Either July's dip reversed or the two sources measure different grades. Unresolved until the Q2FY27 realisation is disclosed. *(Numbers and sources: Input & factor check, at the top.)*
 
 Asked where caustic prices are heading, **Aditya Shriram (Deputy MD)**:
 > *"We normally don't make forward-looking statements, but… **current ECU is in the range of just below INR30,000.** So, we expect it to be in this range or higher. As for the **chlorine price, currently it is in the minus INR7,000 to minus INR8,000 range.**"*

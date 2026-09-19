@@ -32,6 +32,37 @@ ESOP allotment filings only. Price ₹2,212 → ₹2,148; Screener P/E 61.9x, RO
 </details>
 <!-- SINCE-BASELINE:END -->
 
+<!-- FACTORS:START -->
+<details class="upd" id="factor-check">
+<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<div class="upd-body">
+
+**Read (19-Sep-2026, mine, not management's):** Billet, its main input, is +8.9% over three months and at a 52-week high. Contracts are about 75% pass-through, so roughly a quarter of that lands on margin. Truck demand is strong (+30.4% YoY); management has called overseas tractor demand subdued, while Indian tractor sales were +19.1% in May.
+
+**How cost moves reach profit:** Management: contracts are 'around 75% pass-through', with the rest absorbed (profile Risk 4).
+
+**Sensitivity:** raw materials were **40.9% of sales in FY26** (FY25: 42.0%, Screener). A 10% move across the whole raw-material bill is worth about **409 bps of margin before any pass-through**. The tracked inputs averaged **+8.9% over three months**, which would be roughly **364 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+
+| Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
+|---|---|---|---|---|---|---|---|
+| Billet | Input cost | +12.8% | +8.9% | +20.8% | +0.0% | 🔴 headwind | Tijori (indianpetrochem.com) · 19 Sep, 09:30 am IST |
+| Commercial Vehicles - Retail Sales (YoY, Jul 26) | Demand driver | — | +21.7% | +30.4% | — | 🟢 tailwind | Tijori macro (India) · Jul 26 |
+| Tractor Sales (YoY, May 26) | Demand driver | — | +23.1% | +19.1% | — | 🟢 tailwind | Tijori macro (India) · May 26 |
+
+**Why each factor is here:**
+
+- **Billet**: It hammers steel billets into crankshafts, axle beams and knuckles (profile §1).
+- **Commercial Vehicles - Retail Sales (YoY, Jul 26)**: Truck crankshafts and axle beams (profile §1).
+- **Tractor Sales (YoY, May 26)**: Tractor components; management called overseas tractor demand 'subdued' (profile §3.5).
+
+*India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
+
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+
+</div>
+</details>
+<!-- FACTORS:END -->
+
 ---
 
 ## 1. Business in Plain English

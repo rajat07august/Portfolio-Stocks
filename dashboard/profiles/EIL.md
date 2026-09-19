@@ -43,6 +43,33 @@ Screener P/E 19.1x, ROCE 30.4%, ROE 23.4%; market cap ₹14,970cr; promoter (Pre
 </details>
 <!-- SINCE-BASELINE:END -->
 
+<!-- FACTORS:START -->
+<details class="upd" id="factor-check">
+<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<div class="upd-body">
+
+**Read (19-Sep-2026, mine, not management's):** Crude is +30.1% over three months. That supports upstream budgets but squeezes refiners, its main clients, so the net effect on its order flow is unclear (my inference). Refinery output +2.7% YoY.
+
+**How cost moves reach profit:** Fee-based consultancy plus turnkey projects; commodity prices act on customers' capex, not its costs (my inference).
+
+| Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
+|---|---|---|---|---|---|---|---|
+| Brent crude (103.87 $/bbl) | Proxy / context | +13.4% | +30.1% | +54.0% | -12.2% | ⚪ context | Yahoo Finance · 18-Sep-2026 |
+| Production - Petroleum Refinery (YoY, Jul 26) | Proxy / context | — | -3.6% | +2.7% | — | ⚪ context | Tijori macro (India) · Jul 26 |
+
+**Why each factor is here:**
+
+- **Brent crude**: Refinery and petrochemical capex by IOCL, BPCL, HPCL and ONGC (profile §1); higher crude supports upstream budgets but squeezes refiners (my inference).
+- **Production - Petroleum Refinery (YoY, Jul 26)**: Refinery throughput: context.
+
+*India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
+
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+
+</div>
+</details>
+<!-- FACTORS:END -->
+
 ---
 
 ## 1. Business in Plain English
