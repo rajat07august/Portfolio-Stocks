@@ -2,10 +2,45 @@
 
 **Ticker:** DATAMATICS · BSE: 532528 · NSE: DATAMATICS · **Sector:** 8 — IT / Software & Platforms
 **Conviction:** **Medium-High (Under Watch)** · **Weighted 2-yr return:** ~+18% (≈8.6% CAGR) + 0.61% dividend
-**Thesis current as of:** 21-Aug-2026 · **Tracking since:** 3-Jul-2026
+**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 21-Aug-2026)* · **Tracking since:** 3-Jul-2026
 **CMP:** ₹819 · **Market Cap:** ₹4,842 cr · **P/E (trailing):** 19.1x · **P/B:** 3.14x (BV ₹261) · **ROCE:** 20.8% · **ROE:** 16.4% · **Div yield:** 0.61% · **52-wk range ₹632–₹1,054** *(Screener consolidated, 21-Aug-2026)*
 
 > **🎧 Sourcing note. Datamatics is a HELD POSITION and falls under the §4A "transcribe immediately" tier.** The Q1FY27 call (6-Aug-2026) was machine-transcribed the same day because the company had published audio only. **The official transcript was filed on 12-Aug-2026 and the machine version has now been verified against it** — see §9 data-quality note 1. **All quotes in this profile are from the official transcript.**
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹766** · market cap ₹4,527 cr · P/E 17.8x · ROCE 20.4% · ROE 16.0% · 52-wk high ₹1,015 / low ₹632 · **vs ₹819 at baseline (-6.5%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">No material company event; AI voice-agent expansion with a US client, Gartner mention; FY26 annual report out; stock −6.5%</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-HIGH (Under Watch) — a held position; quiet month.** The only commercial items are a press release on an expanded AI engagement with an existing US client (no value disclosed) and a fifth consecutive Gartner 'Niche Player' placement. Neither is order-book news. The price fell ~6.5% to ₹766 with no adverse filing behind it; reported P/E is now 17.8x on the same numbers. Nothing since 21-Aug changes the guidance-versus-actual picture in §3.5.
+
+**8-Sep-2026 — Press release: US pet-care group extends its engagement to an AI voice-agent solution**  
+Datamatics will implement an AI-powered voice agent for an existing US client (30+ veterinary centres, grooming, boarding), covering FAQs, appointment scheduling, prescription refills and reminders, built on Google Cloud technologies. **No contract value, duration or revenue impact was disclosed.**
+> *Why it matters:* A further data point for the AI-services thread the CEO has pitched, with an existing client rather than a new logo. Because no value is stated, it cannot be read against the revenue guidance.
+
+**25-Aug-2026 — Gartner Magic Quadrant for Finance & Accounting BPO — fifth consecutive year as a Niche Player**  
+Datamatics states it was recognised as a *Niche Player* (one of Gartner's four quadrants, not the 'Leaders' quadrant) among 16 providers, tied to its FINATO platform.
+> *Why it matters:* A reputational mention, not a commercial one. Recorded so the tier is not misread as a 'leader' placement.
+
+**18-Sep-2026 — 38th AGM held; final dividend record date set**  
+Final dividend for FY26 was on the agenda with record date fixed in the 24-Aug notice; annual report FY26 and BRSR were filed 26-Aug; two analyst/investor meets were scheduled (26-Aug and 16-Sep notices).
+> *Why it matters:* Routine. The FY26 annual report is filed but has not been read for this refresh.
+
+**21 → 18-Sep-2026 — Price ₹819 → ₹766 (−6.5%)**  
+Screener P/E 17.8x (was 19.1x), ROCE 20.4%, ROE 16.0%; 52-week range ₹632–1,015; promoter 66.33% unchanged.
+> *Why it matters:* A lower multiple on unchanged fundamentals; the market, not the news, moved.
+
+**Routine filings, not material:** AGM proceedings, scrutinizer report, newspaper notices, letter to members, press release on an industry-body felicitation of the Chairman (27-Aug).
+
+**Where this was blended into the profile:** No body-text edits: nothing since 21-Aug is material to §3.5, §4 or §7 beyond the dropdown; §5.5(a) and (b) carry a new line.
+
+*Sweep: BSE + NSE announcements from 21-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 
@@ -292,12 +327,17 @@ Filed 31-Jul-2026: **Lumina Datamatics Limited**, a material wholly-owned subsid
 | 3-Jul-2026 | **Medium-High** *(PORTFOLIO_STATE carried **H** — the two files had drifted)* | Initiation. FY26 margin re-rating 13% → 19%, ₹639cr net cash, 20x P/E framed as *"the cheapest mid-cap IT"* |
 | **6-Aug-2026** | **MH (Under Watch)** — *discrepancy reconciled at MH, both files now agree* | Q1FY27 refresh. **First pass called 9.9% "a deceleration"; the Q4FY26 transcript reversed that — it is a BEAT against a ~8% guide.** Held back by a modest forward algorithm, 0.60% institutional ownership, and no external scrutiny |
 | 21-Aug-2026 | **HELD at MH (Under Watch)** | **Official Q1FY27 transcript filed 12-Aug and verified against the machine transcription.** One risk **resolved** (disclosure), one risk **halved** (deal duration). No change to the rating |
+| **19-Sep-2026** | **HELD at MH (Under Watch)** | Filings refresh: no material event. AI voice-agent extension with an existing US client (no value disclosed), Gartner Niche Player mention, AGM. Stock ₹819 → ₹766. |
 
 **Downgrade to M if:** revenue growth falls **below the ~8% guided floor** · **or** EBITDA margin falls below **18.7%** (the FY26 base management said it would build on) · **or** FII holding goes below 0.30%.
 
 **Upgrade to H if:** revenue reaccelerates above 15% with margin holding 19%+ · **and** any institution initiates a visible position.
 
 ### (b) Material developments — newest first
+
+**⚪ Quiet interval: AI voice-agent extension with a US client, Gartner mention, AGM** *(8-Sep, 25-Aug, 18-Sep-2026)*
+No order, guidance, management or balance-sheet event was filed between 22-Aug and 18-Sep. The stock fell ~6.5%.
+> **Why it matters:** the Under-Watch trigger set on 21-Aug is untested until the Q2FY27 print (~Nov-2026).
 
 **✅ The official Q1FY27 transcript was filed 12-Aug-2026 — which both verifies the machine transcription and resolves a risk this profile had raised**
 

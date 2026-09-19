@@ -15,6 +15,27 @@
 
 > **🗂️ Housekeeping:** duplicate `Fetched Concalls/INSECTICID/` and `INSECTICIDES/` folders **consolidated into `INSECTICIDES/`** (38 files); the six older transcripts had no text extracts and now do.
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹606** · market cap ₹1,762 cr · P/E 14.1x · ROCE 15.8% · ROE 12.0% · 52-wk high ₹789 / low ₹519 · **vs ₹610 at baseline (-0.7%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">No filing at all since 24-Aug on either exchange; stock ₹610 → ₹606</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-HIGH (Under Watch).** The BSE feed (scrip 532851) and NSE feed (INSECTICID) both carry **zero announcements between 24-Aug and 18-Sep**; the last filings were the Q1 earnings-call transcript (17-Aug) and AGM items. Every trigger in the profile is set at Q2FY27 (~Nov-2026). Nothing to blend. Screener still shows P/E 14.1x, ROCE 15.8% and promoter 72.30%.
+
+**24-Aug → 18-Sep-2026 — No filing**  
+Verified on both feeds: no announcements. Price ₹610 → ₹606; market cap ₹1,762cr; 52-week range ₹519–789.
+> *Why it matters:* Silence is the finding; the kharif season read for Q2FY27 arrives with the Nov results.
+
+**Where this was blended into the profile:** No body-text edits.
+
+*Sweep: BSE + NSE announcements from 24-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
 ---
 
 ## 1. Business in Plain English

@@ -10,6 +10,41 @@
 
 > **🔴 THE ONE-PARAGRAPH VERSION.** Unimech makes the **tools that build and maintain jet engines** — a genuinely differentiated, 65%-gross-margin business with AS9100 certification, multi-year qualification cycles and real switching costs. It listed in December 2024, guided **+40% revenue growth for FY26, and delivered −1%** when US tariffs hit 50% and its customers stopped restocking. It has since spent **₹450cr — essentially its entire IPO treasury — buying Hobel Bellows**, a 50%-EBITDA-margin business, at 7x EBITDA. The stock trades at **105x earnings and 10.3x book on an 11.2% ROCE**, and **roughly half of reported pre-tax profit is interest income, not operations.** **The ₹1,000cr-by-FY29 target that would justify the multiple has not been mentioned on any of the last three calls.**
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹1,591** · market cap ₹8,100 cr · P/E 112x · ROCE 11.2% · ROE 7.96% · 52-wk high ₹1,653 / low ₹695 · **vs ₹1,491 at baseline (+6.7%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">🔴 Five senior managers' exits disclosed up to 13 months late ('inadvertent error'); CARE assigns Issuer Rating A/Stable; ₹3cr more into Dheya, on whose board the CMD and a WTD sit; stock +6.7%</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-LOW.** On 7-Sep the company filed one notice reporting that **five Senior Management Personnel have left, four of them with cessation dates between 7-Jul-2025 and 29-Jan-2026, disclosed 7 to 14 months late**, each attributed to 'an inadvertent error, which has since been identified and rectified'. Among them: the **Head and VP (Technology & IT)**, an **AGM for Business Development, Projects and Customer Accounts**, an **AVP heading a strategic business unit**, and a **Business Unit Head**. A fifth, the SCM Head, ceased to be an SMP on 7-Sep under an internal restructuring. **This is a Regulation 30 timeliness failure inside a business the profile already flags for a thin disclosure record**, and it names departures of technology and business-development leaders during the period the profile records the December-2025 revenue collapse. In the same week CARE **assigned an Issuer Rating of CARE A; Stable**, and the company **invested ₹2.998cr more in Dheya Engineering Technologies, on whose board the Chairman & MD and a Whole-Time Director sit**. The stock is +6.7% to ₹1,591 at 112x.
+
+**7-Sep-2026 (cessations 7-Jul-2025 → 7-Sep-2026) — 🔴 Five SMP departures disclosed late; one redesignation**  
+Reg 30 notice listing: **Ravi B. Ramarao, Head & VP (Technology & IT) — resigned 25-Jul-2025; Sudhindra V. Kulkarni, AGM (Business Development, Projects, Customer Accounts) — 29-Jan-2026; Ravi Kumar Vaddeswaram, AVP (Unimech SBU 2) — 6-Nov-2025; Ramesh Jaiswara, Business Unit Head — 7-Jul-2025; Sheshadri N. Nittoor, SCM Head & Business Unit Head — ceased as SMP 7-Sep-2026 (restructure).** Jagadeesha HC (Senior Manager, Projects) was designated Senior Management on 7-Sep. For each late item the company states: 'The delay … was due to an inadvertent error, which has since been identified and rectified by … filing this intimation.'
+> *Why it matters:* **A filed admission that at least four SMP resignations were not disclosed for between roughly 7 and 14 months.** The profile's central management read rests on a small, stable leadership; the technology head and a business-development lead left in 2025-26 without notice to shareholders. It follows the profile's finding that management stopped mentioning a stated target. The reason the omission surfaced now (an exchange query, an audit) is not stated.
+
+**15-Sep-2026 — 🟢 CARE Ratings assigns Issuer Rating 'CARE A; Stable'**  
+CARE Ratings assigned an **Issuer Rating of CARE A with a Stable outlook** (letter enclosed); a second same-day filing carried the rationale.
+> *Why it matters:* A first external credit assessment for a net-cash company; 'A' is a mid-investment-grade issuer rating. The detailed rationale was not read.
+
+**7-Sep-2026 (SPA 7-Aug) — 🟡 Further ₹2.998cr into Dheya Engineering Technologies**  
+Unimech bought **850 equity shares of Dheya Engineering Technologies Pvt Ltd for ₹2,99,82,364.50 by secondary purchase** under an SPA dated 7-Aug (first announced 3-Aug). Dheya: **turnover ₹206.03 lakh, paid-up capital ₹1.67 lakh, aerospace and energy technology.** **Chairman & MD Anil Kumar Puttan and Whole-Time Director Rajanikanth Balaraman are directors of Dheya and represent Unimech on its board;** the company says the investment is not a related-party transaction.
+> *Why it matters:* Small relative to ₹8,100cr of market cap, but the counterparty is one on whose board two Unimech executive directors sit, and the target's revenue is ₹2.1cr. The profile already calls Dheya 'optionality, not thesis'.
+
+**22 → 18-Sep-2026 — Price ₹1,491 → ₹1,591 (+6.7%)**  
+Screener P/E 112x, ROCE 11.2%, ROE 8.0%; market cap ₹8,100cr; promoter 79.82%; 52-week range ₹695–1,653. June-quarter revenue ₹108cr (revenue ₹34cr in Dec-2025); investor-meet notices 17-Sep; AGM was 28-Aug.
+> *Why it matters:* Stock rose after the SMP filing; the disclosure has had no visible price effect.
+
+**Routine filings, not material:** AGM proceedings (28-Aug), investor-meet notices.
+
+**Where this was blended into the profile:** §3.5 management section, §5.5 conviction table, §7 new risk.
+
+*Sweep: BSE + NSE announcements from 22-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
 ---
 
 ## 1. Business in Plain English
@@ -330,6 +365,7 @@ Management's reply: *"Kamlesh, I do understand your concern. So this has been on
 | **28-Apr-2026** | — | **Hobel Bellows acquired for ₹450cr**, all cash. Dedicated analyst call. |
 | **Q1FY27 (Jun-26)** | **₹108cr / ₹28cr** | **+71% headline, ~+35% organic.** OPM 36%, gross margin 65%. **FACC Austria LTA signed (USD 7.5m / 5 yrs) — first recurring flying-parts contract.** FTWZ fully operational. **Order book ₹280cr, DOWN from ₹314cr.** Working capital guided to 160+ days. Gross block guided to double. **₹1,000cr FY29: not mentioned.** |
 | **22-Aug-2026 — tracking starts** | CMP **₹1,491**, mcap **₹7,592cr** | Stock has more than doubled off its ₹695 low and sits **4.1% below its ₹1,555 high**. **105x earnings, 10.3x book, 11.2% ROCE.** |
+| **19-Sep-2026 — filings refresh** | CMP **₹1,591**, mcap **₹8,100cr** | **🔴 Five SMP departures (Head of Technology & IT, BD/Projects AGM, SBU 2 head, two BU heads) disclosed 7-14 months late ('inadvertent error'); CARE Issuer Rating A/Stable assigned 15-Sep; ₹3cr more into Dheya (CMD and a WTD on its board). Stock +6.7% at 112x.** |
 
 **The trajectory in one line.** **A good business had one genuinely bad quarter caused by something outside its control, recovered from it convincingly, made a large and defensible acquisition — and the share price behaved throughout as though none of it mattered.**
 
@@ -394,6 +430,8 @@ Management's reply: *"Kamlesh, I do understand your concern. So this has been on
 ## 7. What Could Prove Us Wrong
 
 *Written from a starting position of scepticism about the price. Risks 1-9 are what could make the bear case real; Risks 10-12 are what could make me wrong about the price.*
+
+**🆕 🔴 Risk A — Late disclosure of senior-management departures (added 19-Sep-2026).** On 7-Sep-2026 the company disclosed the exits of five SMPs (cessations 7-Jul-2025, 25-Jul-2025, 6-Nov-2025, 29-Jan-2026 and 7-Sep-2026), blaming 'an inadvertent error'. *Watch:* SEBI or exchange action for Reg 30 non-compliance, further unreported changes, and the successors to the technology and business-development heads.
 
 **🔴 Risk 1 — Customer restocking behaviour, not demand, sets the revenue line.** Unimech sells tools to OEMs and MROs who decide when to buy them. **In Q3FY26 they decided not to, and revenue halved in a single quarter with operating margin going to 4.6%.** Management is right that this was not structural — but it was also not forecastable, and it can recur for reasons unrelated to tariffs. **Signal to watch: sequential revenue, and any language about customers moving to "drop-shipment-only."**
 

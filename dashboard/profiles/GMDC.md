@@ -2,7 +2,7 @@
 
 **Ticker:** GMDC · NSE: GMDCLTD · BSE: 532181
 **Sector:** 10 — Metals & Mining · **Conviction:** **Medium-Low**
-**Thesis current as of:** 18-Aug-2026 · **Tracking since:** 3-Jul-2026
+**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 18-Aug-2026)* · **Tracking since:** 3-Jul-2026
 
 **CMP ₹574** · **Market cap ₹18,261 cr** · **P/E 32.0x normalised** *(19.1x on exceptional-inclusive TTM EPS — do not use)* · **P/B 2.59x** (BV ₹222) · **ROCE 10.8%** · **ROE 8.34%** · **Div yield 1.77%** · Face value ₹2
 *(Screener consolidated, 18-Aug-2026)*
@@ -10,6 +10,41 @@
 > **How to read this profile.** Sections 1–9 describe what I believe **today**, rewritten at each review rather than annotated. **Section 5.5 is the memory** — how the thesis got here, what changed and when, what I got wrong. **Section 9 is the community read.**
 >
 > **🔴 The disclosure gap that governs everything below: GMDC has not held an earnings call since 29-May-2025.** Across **472 NSE filings**, the last earnings-call filing is that date; before it, August 2024. **No call was held after FY26 results (14-May-2026) or after Q1FY27 (31-Jul-2026), and no investor presentation appears anywhere in the recent record.** This profile is therefore built from **statutory filings and press releases only**. The standing §9 data-gap queue item — *"FY26 concalls needed"* — has been **closed as uncloseable: the calls were never held.** *A ₹18,261cr company that no longer speaks to shareholders, in a year containing a ₹522.65cr exceptional item and a 30% fall in operating profit.*
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹556** · market cap ₹17,695 cr · P/E 31.0x · ROCE 10.8% · ROE 4.22% · 52-wk high ₹772 / low ₹464 · **vs ₹574 at baseline (-3.1%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">CARE AA+/Stable reaffirmed; CERT-In 'probable data breach' on the corporate website disclosed (operations unaffected); FY26 annual report out; stock −3%</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-LOW.** Nothing filed changes the thesis. The rating is reaffirmed at AA+ with slightly lower long-term facilities. The only item with a risk flavour is a CERT-In intimation of a *probable* data breach on the company's website, which the company says has not touched core operations. The FY26 annual report was filed 5-Sep and has **not been read for this refresh**.
+
+**18-Sep-2026 — ✅ CARE Ratings reaffirms AA+; Stable / A1+**  
+CARE Ratings (letter of 17-Sep, on FY26 audited and Q1FY27 unaudited results) **reaffirmed CARE AA+; Stable / A1+ on ₹3,975cr of long-term/short-term bank facilities (reduced from ₹3,995cr)** and A1+ on short-term facilities enhanced from ₹5cr to ₹25cr. A separate, **unsolicited** ESG score of 69 ('Leader') from a small rating firm the company did not engage was also disclosed.
+> *Why it matters:* A clean rating action, no change of view. The ESG score is issued without the company's participation and carries little weight.
+
+**4-Sep-2026 — 🟡 CERT-In flags a 'probable data breach' at the company website**  
+Reg 30 filing: **CERT-In intimated that there may be a probable data breach pertaining to gmdcltd.com.** The company activated incident response with internal and external cyber experts to assess scope and says **core operations and systems were not affected and stayed fully functional.**
+> *Why it matters:* Scope, data exposed and root cause are not disclosed and the assessment was ongoing at the time of filing. For a government enterprise with a large shareholder register (2.48 lakh holders), a follow-up disclosure is the thing to watch. No financial impact stated.
+
+**5-Sep-2026 — Integrated annual report FY26 and AGM notice filed**  
+Annual report, BRSR and the 63rd AGM notice (30-Sep-2026) were filed on 5-Sep.
+> *Why it matters:* **Not read for this refresh**; the related-party and provisions notes may add to the profile's open items.
+
+**18-Aug → 18-Sep-2026 — Price ₹574 → ₹556 (−3%)**  
+Screener P/E 31.0x on reported earnings, ROCE 10.8%, ROE 4.2%; promoter (Government of Gujarat) 74.00%; 52-week range ₹464–772.
+> *Why it matters:* Mild drift lower; nothing company-specific explains it.
+
+**Routine filings, not material:** AGM notice, record date, newspaper notices, BRSR.
+
+**Where this was blended into the profile:** No body-text edits.
+
+*Sweep: BSE + NSE announcements from 18-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 

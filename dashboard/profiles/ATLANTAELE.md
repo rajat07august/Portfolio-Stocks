@@ -2,13 +2,36 @@
 
 **Ticker:** ATLANTAELE · **NSE: ATLANTAELE · BSE: 544527** · **ISIN INE0Z4F01028** · **Sector:** Power T&D Components (Sector 14)
 **Conviction:** **MEDIUM-LOW** — an excellent business, a real order book, and a multiple its own peer group says is double what these returns fetch
-**Thesis current as of:** 3-Sep-2026 · **Tracking since:** 3-Sep-2026 · **CMP ₹1,902** (Screener, 3-Sep-2026) · **Market cap ₹14,624 cr**
+**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 3-Sep-2026)* · **Tracking since:** 3-Sep-2026 · **CMP ₹1,902** (Screener, 3-Sep-2026) · **Market cap ₹14,624 cr**
 
 > **⚠️ IDENTITY — TWO "ATLANTA"s ON THE NSE MASTER.** `ATLANTAA` is **Atlanta Ltd**, an infrastructure company listed in 2006 (INE285H01022). **This company is `ATLANTAELE`, listed 29-Sep-2025 (INE0Z4F01028).** Screener's `<h1>` and BSE's `SLONGNAME` on scrip **544527** both echo **"Atlanta Electricals Ltd"** — verified on both feeds per §4A. *A single-letter-prefix mismatch here would have pulled a road-BOT company's filings.*
 
 > **🟢 CONCALL GATE: GREEN — 10 primary documents.** **5 transcripts + 5 investor decks**, covering **every earnings call the company has held**: Oct-2025, Nov-2025, Jan-2026, May-2026 (Q4 & FY26), Jul-2026 (Q1FY27). Below the six-call standard **by structural limit** — the company listed on 29-Sep-2025. Supplemented by the **FY26 Annual Report (153pp)**, **eleven primary filings read individually**, and quarterly Monitoring Agency reports. **The decks run 30–33 pages with real extractable text — this is a materially more generous discloser than most of the watchlist.**
 
 > **🔴 THE ONE THING TO CARRY.** Q1FY27 revenue grew **48%** and the CFO's prepared remarks called it *"primarily volume-driven,"* with *"no material changes in pricing or product mix."* **The company's own volume disclosure, given in Q&A twenty minutes later, shows volumes up 21.5% and realisation per MVA up 21.8% — i.e. 45% of the growth was price.** The CMD had explained that exact mechanism himself one quarter earlier. **The growth is real; the characterisation of it is not.**
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹1,666** · market cap ₹12,812 cr · P/E 58.7x · ROCE 45.3% · ROE 31.7% · 52-wk high ₹2,200 / low ₹708 · **vs ₹1,902 at baseline (-12.4%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 3-Sep-2026 → 19-Sep-2026</span> <span class="upd-sum">No company event beyond an investor-meet notice; stock −12.4% to ₹1,666, now 24% below its ₹2,200 52-week high</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-LOW.** The exchange feed carries only one investor-meet schedule since 3-Sep. The stock fell 12.4% to ₹1,666 (58.7x), on no disclosure. That moves it toward the profile's own peer-group view that its multiple is roughly double what its returns fetch, without changing any operating fact. The profile's unresolved items (400 kV first revenue, the 765 kV approval, the ~60,000 MVA of new competitor capacity) have no filing behind them.
+
+**3 → 18-Sep-2026 — No company filing; price −12.4%**  
+Only a 15-Sep investor-meet notice. Price ₹1,902 → ₹1,666; Screener P/E 58.7x, ROCE 45.3%, ROE 31.7%; market cap ₹12,812cr; promoter 87.28% unchanged; 52-week range ₹708–2,200. June-quarter revenue ₹466cr, operating margin 17%.
+> *Why it matters:* A 12% fall inside two weeks on no news; the price still assumes the profile's 400 kV ramp.
+
+**Routine filings, not material:** Investor-meet schedule.
+
+**Where this was blended into the profile:** No body-text edits.
+
+*Sweep: BSE + NSE announcements from 3-Sep-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 

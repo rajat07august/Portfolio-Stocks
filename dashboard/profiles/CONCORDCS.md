@@ -10,6 +10,37 @@
 
 > **⚠️ TICKER RENAMED 2-Aug-2026: CONCORD → CONCORDCS.** This is **Concord Control Systems Ltd (BSE 543619)** — railway/metro electronics, Sector 5. It is **not** Concord Biotech Ltd (BSE 543960, ticker `CONCORDBIO`, Sector 12), which was added to the watchlist on 2-Aug-2026, and **not** Concord Enviro Systems. The old `CONCORD` ticker caused a real mis-fetch during a bulk CMP refresh (logged in CLAUDE.md, 18-Jul-2026); the rename removes the ambiguity at source. Concall folder also renamed `Fetched Concalls/543619` → `Fetched Concalls/CONCORDCS`.
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹2,229** · market cap ₹2,315 cr · P/E 54.6x · ROCE 30.6% · ROE 25.8% · 52-wk high ₹3,070 / low ₹1,469 · **vs ₹2,860 at baseline (-22.1%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 2-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Board approves migration to the BSE Main Board and a direct NSE Main Board listing (postal ballot); FY26 annual report and new auditors; stock −22% to ₹2,229</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at HIGH (data-limited, SME half-yearly reporter).** The migration the profile listed as a possible catalyst has been formally started: the Board on 17-Aug approved moving from the BSE SME platform to the BSE Main Board and a direct listing on the NSE Main Board, subject to a postal ballot and exchange eligibility. Yet **the stock has fallen 22% since 3-Jul (₹2,860 → ₹2,229)**, so the market is not treating it as a re-rating event. FY26 annual report and new secretarial, internal and cost auditors are administrative. The Mar-2026 half-year on Screener shows revenue ₹129cr (H2FY26) and PAT ₹25cr; promoter holding 65.57%.
+
+**17-Aug-2026 — 🟢 Board approves Main Board migration and a direct NSE Main Board listing**  
+Board outcome: (1) migration from BSE SME to the **BSE Main Board**; (2) **direct listing on the NSE Main Board**; (3) postal-ballot notice for members' approval; (4) scrutinizer appointed. All 'subject to eligibility, requisite approvals and compliance'. Postal-ballot newspaper notices followed 19-20 Aug.
+> *Why it matters:* Migration widens the shareholder base (institutions, index funds and mutual funds cannot buy most SME stocks) and usually improves liquidity. The timing of the exchange approvals is not stated. **A listing catalyst that arrived while the price fell 22% suggests the market had already discounted it, or that other factors dominate.**
+
+**7-Sep-2026 — Auditor appointments and annual report**  
+Board appointed M/s Amit Gupta & Associates as secretarial auditor, Ms. Anu Agarwal as internal auditor and M/s Aman Malviya & Associates as cost auditor for FY27; FY26 annual report filed 7-Sep and re-filed 15-Sep; AGM e-voting notice.
+> *Why it matters:* Administrative. **The FY26 annual report (and its revision) was not read for this refresh.**
+
+**3-Jul → 18-Sep-2026 — Price ₹2,860 → ₹2,229 (−22%)**  
+Screener P/E 54.6x (was 70x), ROCE 30.6%, ROE 25.8%; market cap ₹2,315cr; 52-week range ₹1,469–3,070; promoter 65.57% (from 70.63% two years ago); 1,914 shareholders.
+> *Why it matters:* The de-rating brought the multiple down from 70x to ~55x on unchanged trailing earnings.
+
+**Routine filings, not material:** Newspaper advertisements, AGM notice, e-voting intimation.
+
+**Where this was blended into the profile:** Dropdown only: the profile is in the original pre-methodology format and needs a full rewrite before body edits.
+
+*Sweep: BSE + NSE announcements from 2-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
 ---
 
 

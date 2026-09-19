@@ -1,13 +1,52 @@
 # Interarch Building Solutions — Company Profile
 
 **Ticker:** INTERARCH · **BSE: 544232** · NSE: INTERARCH · **Sector:** 6 — Engineering / EPC (Pre-Engineered Buildings + Heavy Steel Structures)
-**Conviction:** **Medium-High** · **Weighted 2-yr return:** ~+31% (≈14.5% CAGR) + 0.74% dividend
-**Thesis current as of:** 21-Aug-2026 · **Tracking since:** 12-Aug-2026 *(stock #53)*
+**Conviction:** **Medium-High (Under Watch — income-tax search assessment, 19-Sep-2026)** · **Weighted 2-yr return:** ~+31% (≈14.5% CAGR) + 0.74% dividend *(not adjusted for the search assessment)*
+**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 21-Aug-2026)* · **Tracking since:** 12-Aug-2026 *(stock #53)*
 **CMP:** ₹1,690 · **Market Cap:** ₹2,842 cr · **P/E (TTM):** 20.8x · **P/B:** 3.2x (BV ₹525) · **ROCE:** 22.8% · **ROE:** 16.8% · **Div yield:** 0.74% · **52-wk high ₹2,763 — CMP is 38.8% below it** *(Screener standalone, 12-Aug-2026)*
 
 > **⚠️ Name and code, because both are commonly wrong.** The company is **Interarch Building *Solutions* Limited**, renamed from **Interarch Building *Products* Limited** — every filing still carries the "formerly known as" line. **BSE scrip code 544232.** CIN L45201DL1983PLC017029.
 
 > **📌 Basis note: Interarch reports STANDALONE only.** Screener's consolidated page is empty and the board resolution reads *"Standalone Unaudited Financial Results"*. **Every figure in this profile is standalone.**
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹1,706** · market cap ₹2,869 cr · P/E 21.0x · ROCE 23.7% · ROE 16.8% · 52-wk high ₹2,763 / low ₹1,600 · **vs ₹1,690 at baseline (+0.9%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">🔴 OMISSION CORRECTED: the profile never carried the August-2025 income-tax search; a block-assessment notice for 2019-2025 was received 15-Sep with documents due 29-Sep; conviction moved to Under Watch</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-HIGH, now UNDER WATCH — because of a fact the profile should have carried from the start.** The Income Tax Department **searched the company's offices and factories on 18-Aug-2025 (completed 22-Aug-2025)**; on 29-Jan-2026 the company, **together with certain Key Managerial Personnel and Senior Management Personnel, received a Section 158BC notice** requiring a return of undisclosed income for the **block period 1-Apr-2019 to 17-Oct-2025**; and on **15-Sep-2026 it received a Section 142(1) notice, dated 14-Sep, calling for accounts, documents and issue-wise explanations by 29-Sep-2026 for Assessment Years 2020-21 to 2025-26.** **None of this appears in the profile, which was initiated on 12-Aug-2026, a year after the search.** The company states that the notices are procedural, that **no tax demand, penalty or adverse order has been passed**, and that it is fully compliant. The 15-Sep notice 'does not determine any undisclosed income and does not raise any demand'. **New Under-Watch trigger: any assessment order that determines undisclosed income, or any action against a KMP or SMP.** Operating story and price (₹1,690 → ₹1,706, 21.0x) are unchanged.
+
+**15-Sep-2026 — 🔴 Section 142(1) notice in the block assessment following the search**  
+Received 15-Sep-2026 from the ACIT, Central Circle 7, Delhi (notice dated 14-Sep), **for the block period 1-Apr-2019 to 17-Oct-2025 under Chapter XIV-B, 'consequent to the search and seizure action conducted under Section 132 on 18 August 2025 in the case of the Company along with its associated entities and other related persons'.** The company must file accounts, documents and verified information **electronically by 29-Sep-2026, 11:00 a.m.**, with issue-wise explanations and year-wise questionnaires for AY 2020-21 to 2025-26. The notice **'does not determine any undisclosed income and does not raise any demand'**.
+> *Why it matters:* This is the live stage of a search assessment that has run for 13 months. **The block period covers 6.5 years, including the whole pre-IPO period (IPO Aug-2024), and named associates and KMPs are in scope.** The outcome could range from no addition to a tax-and-penalty demand; the filing does not quantify a range. Documents due in ten days.
+
+**29-Jan-2026 (disclosed 30-Jan) — 🔴 Section 158BC notice to the company and certain KMPs and SMPs**  
+The company, 'along with certain Key Managerial Personnel (KMPs) and Senior Management Personnel (SMPs)', received notice under Section 158BC requiring a true and correct **return of undisclosed income for the block period 1-Apr-2019 to 17-Oct-2025.** The company calls it 'procedural in nature'; **no tax demand, penalty, or adverse order** had been passed.
+> *Why it matters:* A block return is the formal step after a search; the individuals named are not identified in the filing. The block period's end date (17-Oct-2025) is two months after the 18-Aug search, suggesting a further authorisation.
+
+**18-22-Aug-2025 — 🔴 Income-tax search at the offices and factory premises**  
+Reg 30 filings: a search under Section 132 began at the company's offices and factory premises on 18-Aug-2025 and 'has been completed as of today, i.e. 22nd August 2025'; the company cooperated, said it is 'fully compliant with all applicable laws', and undertook to update the exchange on the outcome.
+> *Why it matters:* **The outcome of the search has never been disclosed on the exchange feed** beyond the two notices above. It fell one year after the IPO.
+
+**26-27-Aug-2026 — GST show-cause notice: ₹21.31 lakh**  
+GST DRC-01 under Section 74 (Faridabad): input tax credit mismatch between GSTR-3B and GSTR-2A of ₹9.89 lakh plus interest ₹11.42 lakh, total ₹21.31 lakh; the company will reply.
+> *Why it matters:* Immaterial in size. It is a compliance-hygiene item in the same period as the search assessment.
+
+**21 → 18-Sep-2026 — Price ₹1,690 → ₹1,706 (+1%)**  
+Screener P/E 21.0x, ROCE 23.7%, ROE 16.8%; market cap ₹2,869cr; promoter 59.44%; 52-week range ₹1,600–2,763. Investor meet scheduled 2-Sep.
+> *Why it matters:* The market did not react to the 15-Sep notice.
+
+**Routine filings, not material:** AGM notice, investor-meet schedule.
+
+**Where this was blended into the profile:** Header conviction line, §5.5(a) row and (b) entry, §5.5(d) corrections, §7 new Risk 13.
+
+*Sweep: BSE + NSE announcements from 21-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 
@@ -348,12 +387,17 @@ Why the ask went from ₹100cr to ₹250cr: *"we figured that there's a lot of c
 |---|---|---|
 | 12-Aug-2026 | **Medium-High** | Initiation as stock #53, fully concall-grounded from six official transcripts plus a machine transcription of the Q1FY27 call. Category leader at 20.8x and 39% below its high, adding 31% capacity — held back from High by a 9% margin that will not expand, FY26's negative operating cash flow, and eight quarters of listed history |
 | **21-Aug-2026** | **HELD at Medium-High** | Official Q1FY27 transcript verified against the machine transcription; ₹211cr of fresh orders disclosed; no change to the thesis |
+| **19-Sep-2026** | **HELD at Medium-High — Under Watch** | Filings refresh: **income-tax search (18-Aug-2025) and block-assessment notices (158BC 29-Jan-2026; 142(1) 15-Sep-2026, documents due 29-Sep) found and added — omitted at initiation.** No demand or adverse order yet. |
 
 **Downgrade to Medium if:** H1FY27 operating cash flow is **not** clearly positive, **or** the heavy-structures plant misses its Q2FY27 commercial start, **or** FY27 revenue tracks materially below the ₹2,150cr floor.
 
 **Upgrade to High** on H1FY27 CFO turning solidly positive **and** evidence that the FY28 9.5–10% margin target is being approached rather than deferred again.
 
 ### (b) Material developments — newest first
+
+**🔴 Income-tax block assessment after the Aug-2025 search: Section 142(1) notice received 15-Sep-2026** *(documents due 29-Sep-2026)*
+Search under Section 132 on 18-22 Aug 2025; Section 158BC notice on 29-Jan-2026 for the block period 1-Apr-2019 to 17-Oct-2025, including certain KMPs and SMPs; Section 142(1) notice dated 14-Sep-2026 seeking documents and explanations for AY 2020-21 to 2025-26. No demand or adverse order so far.
+> **Why it matters:** an unquantified tax and governance overhang covering the pre-IPO years, absent from the initiation profile. The company says it is compliant and the notices procedural.
 
 **🟢 ₹211cr of fresh orders disclosed in three weeks, after the order-book date** *(Reg 30 filings 5-Aug and 18-Aug-2026)*
 - **5-Aug — ₹83cr** including taxes, *"Design, Engineering, Manufacturing, Supply of Pre-Engineered Steel Building System for a **Major Energy Transmission project**."*
@@ -392,6 +436,8 @@ NSE carried two entries headed **"Change in Management"** and **"Resignation of 
 
 ### (d) Corrections
 
+**🔴 19-Sep-2026 — OMISSION: the income-tax search and block assessment were never in this profile.** The Income Tax Department searched the company on 18-Aug-2025 (completed 22-Aug-2025); a Section 158BC block-return notice (block period 1-Apr-2019 to 17-Oct-2025) reached the company and certain KMPs and SMPs on 29-Jan-2026; a Section 142(1) notice was received on 15-Sep-2026 with documents due 29-Sep-2026. All are on the BSE feed and should have been found by the initiation sweep. *Corrected by adding Risk 13, the refresh block and the Under-Watch tag; the initiation view was written without them.*
+
 **⤴ CORRECTED 21-Aug-2026 — the Canada JV's full-capacity revenue is US$20–23 million, not US$22–23 million.**
 The initiation took *"$22 to 23 million"* from the machine transcript. The official reads *"it will be about **$20 million to $23 million** at full capacity."* **The bottom of the range is $2m lower.** Immaterial to the valuation — the JV contributes ₹70–75cr in year one either way — **but the base case and bull case both quote the range, so it is fixed at source.**
 
@@ -428,6 +474,8 @@ The initiation carried FY26 volume (1,62,000 t) and Q1FY27 volume (38,499 t) as 
 ---
 
 ## 7. What Could Prove Us Wrong
+
+**🆕 Risk 13 — 🔴 Income-tax search assessment (added 19-Sep-2026; omitted at initiation).** Search 18-22 Aug 2025; block-return notice (Section 158BC) 29-Jan-2026 to the company and certain KMPs/SMPs for 1-Apr-2019 to 17-Oct-2025; Section 142(1) notice 15-Sep-2026 with documents due 29-Sep-2026. **The company says no tax demand, penalty or adverse order has been passed. The outcome of the search has never been disclosed.** *Watch:* any assessment order determining undisclosed income; any action against a KMP or SMP; the 29-Sep response. Severity order: this outranks Risk 1 until quantified.
 
 **Risk 1 — 🟡 Operating cash flow.** FY26 CFO was **−₹19cr** on ₹135cr of PAT; CFO/operating profit **15%**; FCF **−₹138cr**; working capital days **21 → 59** in two years.
 > **Put to management directly on the 7-Aug call and answered with three named causes and a claimed reversal** — billed-but-uncollected receivables on large projects, extra steel stocked as prices rose, and advances paid to suppliers to secure supply; *"We are back to positive now."* **All three are self-reversing rather than structural, which is why this is amber and not red.** **But Interarch publishes no quarterly balance sheet, so it is unverifiable until the H1FY27 cash flow statement.** *This remains the number I would check first.* **The 20% advance on the 18-Aug FMCG order is a small piece of evidence in the right direction.**

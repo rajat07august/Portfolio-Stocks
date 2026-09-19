@@ -2,7 +2,7 @@
 
 **Ticker:** NRBBEARING · NSE: NRBBEARING · BSE: 530367
 **Sector:** 3 — Auto Components & Forgings · **Conviction:** **Medium (Under Watch)**
-**Thesis current as of:** 18-Aug-2026 · **Tracking since:** 18-Aug-2026
+**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 18-Aug-2026)* · **Tracking since:** 18-Aug-2026
 
 **CMP ₹484** · **Market cap ₹4,695 cr** · **P/E 31.4x** · **P/B 4.87x** (book ₹99.3) · **ROCE 18.4%** · **ROE 15.6%** · **Div yield 1.64%** · Face value ₹2 · Mumbai
 *(Screener consolidated, 18-Aug-2026)*
@@ -18,6 +18,41 @@
 > **Concall gate: 🟡 AMBER — 4 distinct transcripts, not 6.** NRB appears to have begun publishing earnings-call transcripts only from **Q2FY26 (Nov-2025)**. Screener lists none earlier; BSE's announcement feed carries none earlier; NSE's announcement API returns transcript filings only from 18-Nov-2025 onward. Three older investor decks (Mar-2025, Jun-2025, Nov-2025) partly fill the gap. **This is a limit of the source, not a fetch failure** — but it means the delivery scorecard in §3.5 has only ~9 months of guidance history to test, which is thin. Treat the management-delivery verdict as provisional.
 >
 > **⚠️ Two versions of the Q1FY27 transcript exist.** NRB filed one at 13:04 on 13-Aug-2026 and a **"Revised Earnings Call Transcript" at 18:19 the same day**, citing *"a typographical error."* All quotes below are from the **revised** file, which is authoritative. See §3.5 for what the correction actually changed — it is not nothing.
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹526** · market cap ₹5,093 cr · P/E 34.1x · ROCE 18.4% · ROE 15.6% · 52-wk high ₹535 / low ₹213 · **vs ₹484 at baseline (+8.7%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Promoter pledge falls again (Tata Capital release of 23 lakh shares; 3.10% of capital still pledged vs 39.80% in March), but two promoter-group holders also SOLD 5.1 lakh shares on 11-Sep; NSE volume spurt; stock +8.7%</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM (Under Watch), trigger not fired.** The profile's two promoter items both moved on 16-Sep filings. **Good: Harshbeena Sahney Zaveri released the pledge on 23,00,000 shares (2.37% of the company) to Tata Capital after pre-paying a loan, leaving 30,00,254 shares (3.10%) pledged**, against 39.80% of the company at 31-Mar-2026. **Less good: two promoter-group holders sold shares on 11-Sep — 10,000 by Harshbeena Zaveri and 5,00,000 (0.52%) by Trilochan Singh Sahney Trust 1, leaving that trust 11,175 shares — and disclosed the sales on 16-Sep.** Roughly 5.1 lakh shares is ~₹27cr at ₹526 *(my arithmetic)*. Both filings are timely and adequate, so this is not the 'inadequately disclosed promoter sale' the trigger names. **They do not explain the 6.47 percentage-point fall in promoter holding in the June-2026 quarter, which remains unexplained.** The stock is +8.7% to ₹526 (34x), NSE flagged a volume spurt on 18-Sep, and it sits at its ₹535 52-week high.
+
+**16-Sep-2026 — 🟢 Pledge cut by a further 2.37% of the company after loan pre-payment**  
+Reg 31 disclosure: Harshbeena Sahney Zaveri (promoter, 41.47% in total: 3,48,90,631 unencumbered plus 53,00,254 encumbered) **released a pledge on 23,00,000 shares (2.37%) in favour of Tata Capital, reason 'pre-payment of loan and release of related pledged shares'; encumbered shares after the event: 30,00,254 (3.10%).**
+> *Why it matters:* Continues the unwinding the profile called 'real, verified deleveraging'. **Pledged shares are now ~7.5% of her holding against ~78% of the promoter stake in March.** A 3.10% pledge remains. The pre-payment source of cash is not stated.
+
+**11-Sep-2026 (disclosed 16-Sep) — 🟡 Two promoter-group holders sell 5.1 lakh shares**  
+Reg 29(2) filings: **Trilochan Singh Sahney Trust 1 sold 5,00,000 shares (0.52%) on 11-Sep**, from 5,11,175 (0.53%) to 11,175; **Harshbeena Sahney Zaveri sold 10,000 shares (0.01%)**, reducing her unencumbered holding. Buyers and prices are not in the filings.
+> *Why it matters:* A small but real promoter-group sale after a 62% rise from ₹213, in the same week as the pledge release; *whether the sale funded the loan pre-payment is my inference, not stated.* The profile's Under-Watch trigger concerns an **inadequately disclosed** sale; these were disclosed within three trading days. Whether the June-quarter drop was similar is still unknown.
+
+**18-Sep-2026 — NSE flags a significant volume spurt**  
+NSE published a spurt-in-volume notice for NRB Bearing on 18-Sep; no company reply was on the feed at the time of the sweep.
+> *Why it matters:* Coincides with the filing of the promoter sales and the price at its 52-week high.
+
+**18 → 18-Sep-2026 — 📈 Price ₹484 → ₹526 (+8.7%)**  
+Screener P/E 34.1x, ROCE 18.4%, ROE 15.6%; market cap ₹5,093cr; promoter 44.73% at June (before these sales); 52-week range ₹213–535; dividend yield ~1.5%.
+> *Why it matters:* Higher multiple and promoter selling into strength.
+
+**Routine filings, not material:** None beyond the above.
+
+**Where this was blended into the profile:** §3.5 pledge section and §5.5 row.
+
+*Sweep: BSE + NSE announcements from 18-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 
@@ -159,6 +194,8 @@ The settlement also resolved the **NRB brand**: all names and logos belong to NR
 **I am stating a verified fact and an unresolved cause — not an allegation.** A 6.47pp move could be a sale below individual disclosure thresholds spread across promoter entities, a reclassification not yet announced, an invocation, or a filing revision. **I do not know which, and neither the filings nor the call say.** It directly contradicts the "over 50%, total control" framing given nine months earlier, and it is the single most important thing to resolve on this stock.
 
 ### 🔴 The pledge — large, under-discussed, and only now unwinding
+
+> **⤴ UPDATE 16-Sep-2026.** Harshbeena Sahney Zaveri released a further **23,00,000 shares (2.37% of the company) from a Tata Capital pledge** after pre-paying a loan; **encumbered shares are now 30,00,254 (3.10%)** against 3,85,76,384 (39.80%) at 31-Mar-2026. On 11-Sep two promoter-group holders **sold 5.1 lakh shares** (Trilochan Singh Sahney Trust 1: 5,00,000; Harshbeena Sahney Zaveri: 10,000), disclosed 16-Sep. The June-quarter fall in promoter holding remains unexplained.
 
 From NRB's own Reg 31(4) filing (17-Jun-2026):
 
@@ -348,6 +385,7 @@ Three things held it down:
 | Date | Conviction | CMP | Weighted 2yr | What set it |
 |---|---|---|---|---|
 | **18-Aug-2026** | **Medium (Under Watch)** | **₹484** | **~+20%** *(bear −53%)* | **Initiated.** A genuine EV-agnostic franchise with >90% of Indian vehicles on its bearings and a lifetime nominated book compounding ₹600 → ₹1,100cr in nine months — **against a 6.47pp fall in promoter holding that nobody has explained, a pledge that ran to 78% of the promoter stake, and a screen showing +77% PAT growth that is really ~+15%** |
+| **19-Sep-2026** *(filings refresh)* | **HELD at Medium (Under Watch)** — trigger not fired | **₹526** | *(~+20% at ₹484; lower at ₹526)* | **Pledge cut a further 2.37% (30,00,254 shares, 3.10% still pledged vs 39.80% in March); two promoter-group holders sold 5.1 lakh shares on 11-Sep, adequately disclosed; June-quarter holding fall still unexplained; NSE volume spurt 18-Sep; stock +8.7%.** |
 
 **🎯 The Under Watch trigger, specified:** **if the 6.47pp promoter decline proves to be an inadequately disclosed sale, downgrade M → ML regardless of operating performance.** Resolution expected at the **FY26 Annual Report** or the **Q2FY27 call (~Nov-2026)**.
 

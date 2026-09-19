@@ -13,6 +13,33 @@
 
 > **🆕 What the official transcript adds, and it is substantial:** **FY27 capex of ₹80–90 crore**, 80% of it into core kitchen sinks · **the factory is running seven days a week and management calls it *"a serious stress"*** · **the US tariff discount rollback is ~90% complete and is a price restoration, not a one-off credit** · **a Lowe's display-cost share of USD 3–4 million that "will not happen now"** · and Q1's soft quartz growth explained by **container delays, not demand**.
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹1,131** · market cap ₹3,218 cr · P/E 29.9x · ROCE 18.0% · ROE 17.4% · 52-wk high ₹1,281 / low ₹732 · **vs ₹1,155 at baseline (-2.1%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">New Chief Technology Officer; FY26 annual report and dividend payment date; nothing else filed; stock −2%</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at HIGH (Under Watch — commissioning concentration).** The only substantive item is a senior appointment: **Mr. Sumit Kumar as Chief Technology Officer from 3-Sep-2026.** The FY26 annual report (25-Aug, re-filed 3-Sep) and the dividend payment date were filed. No order, capacity or balance-sheet event since 22-Aug. The FY27 capex of ₹80-90cr and the commissioning timeline the Under-Watch flag tracks are unchanged; the next evidence is the Q2FY27 print (~Nov-2026).
+
+**3-Sep-2026 — Chief Technology Officer appointed**  
+Mr. Sumit Kumar joined as CTO (senior management) from 3-Sep-2026. The filing does not give a background.
+> *Why it matters:* A technology-leadership hire while the company commissions ₹80-90cr of FY27 capex, 80% in core sinks. The appointee's track record is not disclosed in the filing.
+
+**22-Aug → 18-Sep-2026 — Price ₹1,155 → ₹1,131 (−2%)**  
+Screener P/E 29.9x, ROCE 18.0%, ROE 17.4%; market cap ₹3,218cr; promoter 41.34%; 52-week range ₹732–1,281. June-quarter revenue ₹262cr (+15% YoY), operating margin 20%. FY26 annual report and dividend-payment date filed 25-Aug.
+> *Why it matters:* No change.
+
+**Routine filings, not material:** Annual report, dividend payment date, AGM notices, book closure, BRSR.
+
+**Where this was blended into the profile:** §5.5 conviction table.
+
+*Sweep: BSE + NSE announcements from 22-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
 ---
 
 ## 1. Business in Plain English
@@ -334,6 +361,7 @@ International subsidiaries — **Carysil Products Ltd (UK), Carysil Surfaces Ltd
 | **12-Jul-2026** *(v1)* | — | **HIGH** | Profile initiated; **Sector 18 (Home Building Products — Kitchen & Bath) created for it.** Built on four transcripts, with a stated gap: *"Q4FY25 + Q3FY25 hit cors.lol rate limit — flagged for future refresh."* |
 | **12-Aug-2026** *(refresh)* | **₹1,190** | **HELD at HIGH — "Under Watch (commissioning concentration)" added** | Q1FY27: **best quarter on every line in 13 quarters**, growth inside guidance and **margin above it**. **v1's transcript gap closed** — six official transcripts on file for the first time. **Stainless steel filled to 94% on arrival**; domestic mix 28% → 33%; CFO +82%. **Written from a machine transcription of a WhatsApp audio export**, with the ASR risk flagged and re-verification set as watch item #1. |
 | **22-Aug-2026** *(this profile)* | **₹1,155** | **HELD at HIGH (Under Watch)** — no trigger fired | Converted to always-current format. **🎧 The official transcript filed 14-Aug and the re-verification was done: every figure the machine transcript carried checks out — volumes, +43% faucets, exports +10.6% / domestic +39.8%, the ₹1,000cr framing, 180 stores, 3x e-commerce — but `capex` appears 10 times in the official and ZERO in the machine version.** **🆕 FY27 capex ₹80–90cr disclosed, 80% into core sinks, plus a "bare minimum ₹50–60cr every year" floor.** **🆕 *"My factory has to literally run now 7 days a week. So we are in a serious stress."*** **⤴ And the revenue guidance is 15%, not the 15–20% band the refresh reported.** **🆕 18-Aug Reg 30 clarification: the US quartz TRQ does not cover Carysil's sinks.** |
+| **19-Sep-2026** *(filings refresh)* | **₹1,131** | **HELD at HIGH (Under Watch)** — no trigger fired | New CTO (Sumit Kumar, 3-Sep); annual report and dividend date filed. Stock −2%. |
 
 **The trajectory in one line.** **Nothing about the business changed in ten days — but the official transcript turned a good refresh into a complete one, and the thing it added (capex, capacity stress, and a 15% volume guide against a 6% quartz quarter) is the part that actually decides FY27.**
 

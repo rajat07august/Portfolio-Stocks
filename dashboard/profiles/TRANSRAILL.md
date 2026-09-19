@@ -2,7 +2,7 @@
 
 **Ticker:** TRANSRAILL · NSE: TRANSRAILL · BSE: 544317
 **Sector:** 19 — Power T&D EPC / Turnkey · **Conviction:** **Medium-High (Under Watch)**
-**Thesis current as of:** 13-Aug-2026 · **Tracking since:** 23-Jul-2026
+**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 13-Aug-2026)* · **Tracking since:** 23-Jul-2026
 
 **CMP ₹467** · **Market cap ₹6,272 cr** · **P/E 15.0x** *(~12.7x FY27E pre-dilution)* · **P/B 2.75x** (book ₹170) · **ROCE 29.2%** · **ROE 20.0%** · **Div yield 0.64%** · 52-week range **₹450–₹856**, **−41% over one year**
 *(Screener consolidated, 13-Aug-2026)*
@@ -10,6 +10,29 @@
 > **How to read this profile.** Sections 1–9 describe what I believe **today**, rewritten at each review rather than annotated. **Section 5.5 is the memory** — how the thesis got here, what changed and when, what I got wrong. **Section 9 is the community read.**
 >
 > **🎯 This name carries a live Under Watch trigger with four named conditions, set at the Q1FY27 review and testable at Q2FY27 (~Nov-2026). It is in §5.5(a).**
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹409** · market cap ₹5,488 cr · P/E 13.1x · ROCE 33.6% · ROE 20.0% · 52-wk high ₹801 / low ₹401 · **vs ₹467 at baseline (-12.4%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Quiet interval: no order or governance filing beyond the FY26 annual report and investor meets; stock −12% to ₹409, at its 52-week low</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-HIGH (Under Watch).** No new order, results, QIP or management filing since 13-Aug; only the FY26 annual report (2-Sep), a dividend tax notice and investor-meet schedules (18 and 21-Sep). The stock fell 12% to ₹409, within 2% of its ₹401 52-week low, at 13.1x trailing earnings. **On the profile's own arithmetic the weighted return rises from +29.5% at ₹467 to roughly +48% at ₹409** *(my scaling; scenarios not re-derived)*. The Under-Watch items (order inflow against the ₹10,000cr guide, the QIP and the Burberry loan repayment due Sep-2026) remain open; none resolved in the exchange feed.
+
+**13 → 18-Sep-2026 — No order or governance filing; price −12% to the 52-week low**  
+Filings: FY26 annual report (2-Sep), final-dividend tax notice, Ms. Ranjana Maitra's appointment as independent director (13-Aug, already in profile), investor meets on 18 and 21-Sep. Price ₹467 → ₹409; Screener P/E 13.1x, ROCE 33.6%, ROE 20.0%; market cap ₹5,488cr; 52-week range ₹401–801; promoter 71.12%.
+> *Why it matters:* The profile's open items are undated in the feed: **the Burberry Infra related-party loan was due to be repaid in September 2026**, and no filing confirms it. FY26 annual report not read for this refresh.
+
+**Routine filings, not material:** Analyst-meet schedules, dividend communication, monitoring-agency report for the June quarter (12-Aug).
+
+**Where this was blended into the profile:** §5.5 conviction table.
+
+*Sweep: BSE + NSE announcements from 13-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 
@@ -270,6 +293,7 @@ It is a turnkey EPC contractor winning contracts to erect transmission lines up 
 |---|---|---|---|---|
 | 23-Jul-2026 | **Medium-High** | ₹481 | **~+50%** | Initiated. Four named overhangs: margin guide-down, order-inflow miss, DII/PE exit, pending QIP |
 | **13-Aug-2026** | **Medium-High — HELD, moved to UNDER WATCH** | **₹467** | **~+29.5%** | **Margin overhang resolved favourably; QIP crystallised at ₹600cr; DII exit continues; order inflow unresolved and more acute. Revenue +5% against 20% guided; net debt tripled** |
+| **19-Sep-2026** *(filings refresh)* | **HELD at Medium-High (Under Watch)** | **₹409** | **~+48% at the new price** *(scaled from +29.5% at ₹467)* | No order or governance filing; FY26 annual report (2-Sep) not read; stock −12% to its 52-week low. Burberry loan repayment (due Sep-2026) unconfirmed on the feed. |
 
 **🎯 UNDER WATCH TRIGGER — Q2FY27 (results ~Nov-2026). Downgrade to Medium if ANY of:**
 1. **Q2FY27 revenue below ₹2,000cr** — management guided a ₹2,173–2,300cr run-rate and said *"very much"* achievable;

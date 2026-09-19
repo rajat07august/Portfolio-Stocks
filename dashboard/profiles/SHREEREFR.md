@@ -12,6 +12,37 @@
 
 > **📌 SECTOR NOTE.** Placed in **Sector 1 (Aerospace & Defence)** at Rajat's instruction, 1-Sep-2026, **with the sector definition widened from *"Defence electronics, aerospace forging, avionics, drones"* to include defence platform systems and equipment.** ***Its customer, its qualification barrier and its margin structure are naval-platform economics — the same thing that groups PARAS, AZAD, AXISCADES, DYNAMATIC, ROSSELL and UNIMECH — even though it makes none of the four things the old definition listed.***
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹395** · market cap ₹1,415 cr · P/E 65.7x · ROCE 13.8% · ROE 13.0% · 52-wk high ₹439 / low ₹161 · **vs ₹410 at baseline (-3.7%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 1-Sep-2026 → 19-Sep-2026</span> <span class="upd-sum">CARE upgrades the bank rating to BBB-/Stable (from BB+) and cites a ₹279.67cr order book; AGM approves the new Whole-Time Director; stock −3.7%</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-LOW.** The rating upgrade is a genuine outside data point on a name the profile could only source to management. It also supplies the first agency-stated order book (₹279.67cr at 30-Jun-2026, 1.82x FY26 income) and repeats the concentration and working-capital cautions the profile already carries. The Aquilon Deep Chill subsidiary approved on 31-Aug is unchanged. The stock is 3.7% lower at ₹395 on 65.7x.
+
+**15-Sep-2026 — 🟢 CARE Ratings upgrades the bank facilities to BBB-/Stable**  
+**₹68.25cr and ₹6.75cr of facilities upgraded from CARE BB+ to CARE BBB-; Stable (short-term A4+ to A3); a new ₹15cr facility assigned BBB-/A3.** Rationale: improved **scale of operations, operating cycle and liquidity in FY26**. **CARE records: FY26 total operating income ₹153.55cr (+55.53%); PBILDT margin 19.43% (down 500 bps); PAT margin 14.02% (12.78%); total debt to gross cash accruals 1.78x (2.76x); interest cover 8.42x (5.29x); top three customers ~69% of income (73%); order book ₹279.67cr at 30-Jun-2026 (1.82x FY26 income) to be executed over three years, mainly defence.** Partial offsets: moderate scale and working-capital intensity; upgrade triggers include an operating cycle below 250 days.
+> *Why it matters:* Two things the profile lacked. **(1) An independent agency has reviewed the balance sheet and moved it up one notch to the bottom rung of investment grade.** (2) **The ₹270cr order-book figure is now corroborated as ~₹280cr at 30-Jun by CARE**, though the source of the figure is still the company. **CARE also confirms the 500 bps margin fall the profile flagged (revenue +55%, margin from ~27% to ~21%)** and names a >250-day operating cycle as the weakness. BBB- is a low rating; the company remains a working-capital-heavy, three-customer business.
+
+**31-Aug / 2-Sep-2026 — AGM held; Whole-Time Director regularised; wholly owned subsidiary approved**  
+Shareholders at the 31-Aug AGM approved Ms. Rucha Ravalnath Shende as Whole-Time Director for three years from 23-Feb-2026 (filed 2-Sep). The Board on 31-Aug approved incorporating **Aquilon Deep Chill Limited** as a wholly owned subsidiary (already in the profile).
+> *Why it matters:* Administrative. The subsidiary's purpose, capital and any order remain undisclosed.
+
+**1 → 18-Sep-2026 — Price ₹410 → ₹395 (−3.7%)**  
+Screener P/E 65.7x, ROCE 13.8%, ROE 13.0%; market cap ₹1,415cr; promoter 44.60%; 52-week range ₹161–439. Reports half-yearly; next print ~Nov-2026.
+> *Why it matters:* No change to the valuation read.
+
+**Routine filings, not material:** AGM proceedings.
+
+**Where this was blended into the profile:** §3 Thread E (order-book verification), §5.5 conviction table.
+
+*Sweep: BSE + NSE announcements from 1-Sep-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
 ---
 
 ## 1. Business in Plain English
@@ -232,7 +263,7 @@ A naval vessel is a sealed steel box full of people, electronics and machinery, 
 
 **Thread D — 🔴 The working capital is still the dominant fact of the balance sheet.** **370 days after a 200-day improvement.** *More than a year of revenue tied up in receivables and inventory, in a business selling to government shipyards.*
 
-**Thread E — 🟡 The order book is a large number made of small pieces.** **₹270cr from ₹2.5–9.75cr tickets.** *Robust to any single loss, demanding to execute, and largely invisible in Reg-30 announcements.*
+**Thread E — 🟡 The order book is a large number made of small pieces.** ⤴ **UPDATE 15-Sep-2026: CARE Ratings puts the order book at ₹279.67cr at 30-Jun-2026 (1.82x FY26 income), executed over three years, mainly defence — the first outside statement of the figure, though its source is still company data. CARE also upgraded the bank rating BB+ → BBB-/Stable and recorded the 500 bps PBILDT margin decline and ~69% top-three customer concentration.** **₹270cr from ₹2.5–9.75cr tickets.** *Robust to any single loss, demanding to execute, and largely invisible in Reg-30 announcements.*
 
 **Thread F — 🟢 The data-centre adjacency is technologically genuine, not a bolt-on.** **Oil-free magnetic-bearing chillers, first proven on warships, are what hyperscale data centres are converting to.** **A wholly-owned subsidiary was approved for it on 31 August.** ***But management explicitly excluded it from FY27 guidance and put the revenue in FY28 — so nothing in the current numbers reflects it, and everything in the multiple might.***
 
@@ -249,6 +280,7 @@ A naval vessel is a sealed steel box full of people, electronics and machinery, 
 | Date | CMP | Conviction | What happened |
 |---|---|---|---|
 | **1-Sep-2026** *(v1 — added to the watchlist)* | **₹410** · mcap **₹1,469cr** | **MEDIUM-LOW** | Added at Rajat's request, into **Sector 1 with the sector definition widened** to cover defence platform systems. **🔴 Established that it reports HALF-YEARLY — no Q1FY27 exists; straight into the C2 bucket.** **🟡 Concall gate AMBER: ~3 calls since listing, but it does hold them and does file transcripts — creditable for a BSE-SME.** **🟢 The moat is real and rare: the only Indian firm with all three naval registrations (HVAC + AC/Ref plant + own control panel), the only one to have indigenised the Scorpene submarine HVAC system, and the first to bring oil-free magnetic-bearing chillers to the Indian Navy.** **🟢 FY26: revenue ₹153.5cr (+55.5%), PAT ₹21.4cr (+64.7%), operating cash flow turned positive, working capital ~570 → ~370 days, Phase 1 capex delivered.** **🔴 But EBITDA grew only 21.8% — margin fell ~27% → 21.4% — and guidance of 20–24% accepts the lower level.** **🔴 Two internal inconsistencies on the FY26 call: revenue growth stated as "150%" when it was 55%, and forward guidance given as both 20% and 40% CAGR within one answer.** **🟢 The 29-May resubmission of FY26 results was checked and is benign — a cash-flow presentation reclassification with net CFO and closing cash unchanged.** **🆕 31-Aug-2026: wholly-owned subsidiary "Aquilon Deep Chill Limited" approved, almost certainly the data-centre vehicle — though the filing does not say so.** **At 68.2x and 4.9% below the 52-week high.** |
+| **19-Sep-2026** *(filings refresh)* | **₹395** · mcap ₹1,415cr | **HELD at MEDIUM-LOW** | **CARE upgraded the bank facilities BB+ → BBB-/Stable (15-Sep) and stated an order book of ₹279.67cr at 30-Jun-2026; margin decline (−500 bps), 69% top-three concentration and a >250-day operating-cycle weakness repeated.** WTD regularised at the AGM. |
 
 **The starting position in one line.** ***A genuine defence monopoly in a very small niche, executing well, priced for a data-centre business that management has explicitly said will not contribute until FY28.***
 

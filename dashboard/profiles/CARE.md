@@ -2,10 +2,35 @@
 
 **Ticker:** CARERATING · BSE: 534804 · NSE: CARERATING · **Sector:** Financial Services
 **Conviction:** **Medium-High** · **Weighted 2-yr return:** ~+26% (≈12.3% CAGR) + ~1.3% dividend
-**Thesis current as of:** 12-Aug-2026 · **Tracking since:** 3-Jul-2026
+**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 12-Aug-2026)* · **Tracking since:** 3-Jul-2026
 **CMP:** ₹1,687 · **Market Cap:** ₹5,078 cr · **P/E (trailing):** 28.6x · **P/B:** 5.4x · **ROCE:** 26.3% · **ROE:** 19.7% · **Div yield:** 1.28% *(Screener consolidated, 12-Aug-2026)*
 
 > **Structural note that governs how this profile should be read: CARE holds ONE earnings call a year, after Q4 only.** Its transcript filings run May-2026, May-2025, May-2024 — nothing in between. There is no Q1FY27 concall and there never will be. Three transcripts is therefore **the complete available universe, not a fetch gap** — but it is also the thinnest investor-communication cadence of any high-conviction name in this library, and that is a choice rather than a constraint. This profile is grounded in the **full Q4FY26 annual call (14-May-2026, 87,518 chars)**, the **Q1FY27 investor deck + press release (7-Aug-2026)**, the **audited FY26 results filing (13-May-2026)**, and **17 NSE/BSE filings read individually**.
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹1,669** · market cap ₹5,026 cr · P/E 28.3x · ROCE 26.3% · ROE 19.7% · 52-wk high ₹1,838 / low ₹1,393 · **vs ₹1,687 at baseline (-1.1%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">No material company event: investor-meet schedule and ESOP allotments only; stock −1%</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-HIGH.** The exchange feed since 12-Aug holds investor-meet schedules (ten in five weeks) and a small ESOP allotment. Nothing to blend into the profile. Ratings-industry context (regulator, competitor pricing) is outside the exchange feed and was not re-checked.
+
+**13-Aug → 15-Sep-2026 — Heavy investor-meet calendar; ESOP allotment**  
+Ten schedule, reschedule and cancellation notices for investor meets between 13-Aug and 15-Sep; 24,500 shares allotted on ESOP exercise (2-Sep).
+> *Why it matters:* No disclosure content. The frequency is the only signal: management is spending time with investors after the Q1FY27 print (operating margin 31% vs 46% in Mar-2026 quarter).
+
+**12 → 18-Sep-2026 — Price ₹1,687 → ₹1,669 (−1%)**  
+Screener P/E 28.3x, ROCE 26.3%, ROE 19.7%; 52-week range ₹1,393–1,838.
+> *Why it matters:* No change.
+
+**Where this was blended into the profile:** No body-text edits.
+
+*Sweep: BSE + NSE announcements from 12-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 

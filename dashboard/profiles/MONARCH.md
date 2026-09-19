@@ -4,6 +4,33 @@
 **CMP (12-Aug-2026):** ₹379 · **Market Cap:** ₹3,002 cr · **P/E:** 16.6x · **P/B:** 3.1x (BV ₹123) · **ROCE:** 27.7% · **ROE:** 20.5% · **Div yield:** 0.27%
 **⚠️ Monarch holds no earnings calls, files no investor presentations, and its FY26 Annual Report is still unfiled — every judgement below is inferred from statutory filings.**
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹366** · market cap ₹2,904 cr · P/E 16.0x · ROCE 27.7% · ROE 20.5% · 52-wk high ₹407 / low ₹235 · **vs ₹379 at baseline (-3.4%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">No company event beyond the FY26 annual report; stock −3.4% to ₹366</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-HIGH (Under Watch).** Nothing filed since 12-Aug changes the profile. The FY26 annual report (2-Sep) was filed and has **not been read for this refresh**; the profile's open items (debtor days, board-composition penalties) would be settled there. Monarch does not hold earnings calls, so the next evidence is the H1FY27 result.
+
+**2-Sep-2026 — FY26 annual report filed**  
+Annual report 2025-26 and the Reg 36(1)(b) weblink letter to shareholders were filed 2-3 Sep; AGM notice and BRSR followed.
+> *Why it matters:* **Not read for this refresh.** It is the source for the related-party, receivables and penalty notes the profile lists as open.
+
+**12 → 18-Sep-2026 — Price ₹379 → ₹366 (−3.4%)**  
+Screener P/E 16.0x, ROCE 27.7%, ROE 20.5%; promoter 53.83% (stable); 52-week range ₹235–407. Jun-2026 quarter: revenue ₹91cr, PAT ₹45cr.
+> *Why it matters:* Drift, not news.
+
+**Routine filings, not material:** AGM logistics, record date, newspaper notices, BRSR.
+
+**Where this was blended into the profile:** No body-text edits.
+
+*Sweep: BSE + NSE announcements from 12-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
 ## 🔄 Refresh Log — 12-Aug-2026 (Q1FY27 — the PAT plateau hits five quarters, and the reason is not what it looks like)
 
 **Filing date:** 10-Aug-2026 (Board Meeting Outcome + standalone & consolidated results). **Note: the queue previously recorded this as 11-Aug — corrected, see the data-quality note.**

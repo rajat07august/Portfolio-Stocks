@@ -26,6 +26,33 @@
 > **2. ₹36 crore of contracts (incl. GST) on a job-work basis**, disclosed 20-Aug-2026.
 > **3. The recapitalisation is now visible in the register.** A Reg 29(2) filing on 11-Aug confirms **59,76,096 equity shares issued by preferential allotment**, with **Chairman & MD Krishan Lalit Bansal's holding falling by more than 2%**; listing and trading approvals came 23-Jul and 28-Jul. **Screener now carries a July-2026 shareholding column: promoter 70.18% → 65.13%, FII 2.17% → 4.67%, DII 10.79% → 14.16%.**
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹669** · market cap ₹5,032 cr · P/E 61.4x · ROCE 10.7% · ROE 9.31% · 52-wk high ₹760 / low ₹183 · **vs ₹646 at baseline (+3.6%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">August order update: inflow ₹94cr, executed ₹87cr, book ₹2,436cr (flat); FY27 inflow so far ~₹955–973cr vs ₹2,000cr guide; stock +3.6%</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-HIGH (Under Watch).** The monthly filing the profile tells you to track came in flat: **closing order book ₹2,435.61cr against ₹2,428.20cr at 1-Aug** (₹2,428.80cr at 31-Jul per the profile), with August inflow of ₹94.18cr against ₹87.37cr executed, roughly 1.08x book-to-bill. **Cumulative FY27 inflow to 31-Aug is ₹955.46cr including amendments (₹972.62cr excluding), about 48% of the ₹2,000cr guide after five of twelve months,** which is on pace. Cumulative execution is ₹461.55cr. Q2FY27 is still the test the profile set. No new governance or balance-sheet filing.
+
+**9-10-Sep-2026 — 🟢 August 2026 order and execution update (revised 10-Sep)**  
+**Opening book ₹2,428.20cr; August inflow ₹94.18cr (Oil & Gas piping ₹54.26cr, Power piping ₹7.16cr, Thailand ₹28.40cr); executed ₹87.37cr; closing ₹2,435.61cr.** Cumulative FY27 to 31-Aug: **inflow ₹955.46cr** (₹972.62cr before amendments/currency), **executed ₹461.55cr**. By unit: DEE Piping India (Power ₹1,205cr, Oil & Gas ₹841cr, others ₹14cr), DEE Thailand ₹198cr, DEE Fabricom ₹173cr, Molsieve ₹4cr. Notes restate the Malwa Power tariff (PSERC final order 5.224/kWh for FY26; ₹5.437 for FY27; appeal at APTEL) and that the DEE Power Division continues to supply PSPCL at ₹7.47 under a High Court stay, with any recovery withheld pending final disposal.
+> *Why it matters:* The book is flat rather than growing, as it was on 31-Jul. **Two-thirds of the book is Power and Oil & Gas piping in India;** Thailand is small but grew ₹28cr in August. **The PSPCL tariff dispute (₹7.47 vs a PSERC-revised ₹5.877) remains an unquantified contingent exposure** if the stay is lifted; the filing gives no amount. Invoicing is not revenue: the company itself says recognised revenue may be lower than the invoiced value.
+
+**22-Aug → 18-Sep-2026 — Price ₹646 → ₹669 (+3.6%)**  
+Screener P/E 61.4x, ROCE 10.7%, ROE 9.3%; market cap ₹5,032cr; promoter 65.13% (after the ₹300cr preferential); 52-week range ₹183–760. FY26 annual report and dividend record date filed in late August.
+> *Why it matters:* No change to the valuation read.
+
+**Routine filings, not material:** Annual report, AGM notice and book closure, dividend and record-date filings, newspaper notices.
+
+**Where this was blended into the profile:** §5.5 conviction table.
+
+*Sweep: BSE + NSE announcements from 22-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
 ---
 
 ## 1. Business in Plain English
@@ -328,6 +355,7 @@ CFO Brham Yadav, on the ₹300cr: *"we have **293 crores net amount available** 
 | **v1** | — | **MH** *(header)* / **H** *(a §3.5 footnote recording a 10-Jul-2026 upgrade)* / **"high"** *(dashboard)* | Profile initiated on the FY26 print — revenue +38%, PAT +75%, order book growing. **Three sources disagreed on the conviction and none was reconciled.** Written before the ₹300cr issue existed; §3.5 stated promoter holding was *"completely stable… zero meaningful dilution."* |
 | **12-Aug-2026** *(refresh)* | **₹623** | **HIGH → MH (Under Watch)** — **and the header mismatch fixed; all three sources aligned** | **The concall folder was empty despite v1 citing four reads** — five official transcripts plus two decks fetched and read. **🎧 Q1FY27 machine-transcribed from DEE's own 59-minute audio at Rajat's instruction**, producing FY27 guidance that appears in no filing. **🔴 Discovered the ₹300cr preferential issue v1 knew nothing about** — and established by arithmetic and by management's own words that **the promoter's absolute holding ROSE**. Q1: revenue +31.6% YoY but PAT −41.9% QoQ on a 49.8% jump in finance costs. |
 | **22-Aug-2026** *(this profile)* | **₹646** | **HELD at MH (Under Watch)** — no trigger fired; Q2FY27 is the test | Converted to always-current format. **🎧 The official transcript filed 11-Aug and the re-verification PASSES CLEANLY** — near-identical term counts, nothing material lost *(a useful contrast with CARYSIL, whose WhatsApp-export transcript lost an entire topic)*. **🆕 Re. 1 dividend for FY26 declared 21-Aug — the first since FY20, and it directly contradicts the refresh's *"DEE has never paid a dividend"*.** **🆕 ₹36cr of job-work contracts, 20-Aug.** **🆕 Reg 29(2) confirms the allotment mechanics; Screener's July column now shows promoter 65.13%, FII 4.67%, DII 14.16%.** **🆕 From the official transcript: order-book composition, Thailand 100% booked for three years with GE replaced by Nooter/Eriksen, and *"Plan is for that only, sir, to exceed that guidance."*** **🗂️ Duplicate `DEE/` and `DEEDEV/` concall folders consolidated.** |
+| **19-Sep-2026** *(filings refresh)* | **₹669** | **HELD at MH (Under Watch)** — no trigger fired | August update: book flat at ₹2,436cr; FY27 inflow ~₹955-973cr (~48% of ₹2,000cr guide after five months); executed ₹462cr. Malwa/PSPCL tariff disputes restated. |
 
 **The trajectory in one line.** **Two refreshes have now found something v1 missed — first a ₹300cr recapitalisation, then a maiden dividend — and in both cases the surprise was better than the profile assumed, which is worth noticing about a company whose disclosure is monthly and whose CEO answers directly.**
 

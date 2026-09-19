@@ -2,7 +2,7 @@
 
 **Ticker:** DEEP *(profile)* · **NSE: DEEPINDS** · BSE: 543288 · **Sector:** 17 — Oil & Gas Services
 **Conviction:** **HIGH** · **Weighted 2-yr return:** ~+16% (≈7.7% CAGR) + 0.36% dividend · *(was ~+49% before a 27% price move — see §6)*
-**Thesis current as of:** 22-Aug-2026 · **Tracking since:** 4-Jul-2026
+**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 22-Aug-2026)* · **Tracking since:** 4-Jul-2026
 **CMP:** ₹688 · **Market Cap:** ₹4,395 cr · **P/B:** 2.20x (BV ₹312) · **ROCE:** 16.5% · **ROE:** 19.2% · **Div yield:** 0.36% · **52-wk range ₹327–₹721** *(Screener consolidated, 22-Aug-2026)*
 
 > **⚠️ THE P/E ON THIS NAME DEPENDS ENTIRELY ON WHICH BASE YOU USE, AND THE TWO ARE NEARLY TWICE APART.** **Reported TTM PAT is ₹224cr → 19.6x.** **Adjusted for the ₹183cr Q4FY26 Kandla write-off, TTM PAT is ~₹407cr → ~10.8x**, which is what Screener's headline **10.6x** reflects. **Both are stated throughout; they are never blended.** *§5.5(d) records that an earlier version of this profile did blend them.*
@@ -10,6 +10,37 @@
 > **📌 RAJAT HOLDS THIS.** Disclosed 22-Aug-2026. **DEEP is therefore on the §4A "transcribe immediately" tier** alongside DCMSHRIRAM, MAYUR, DATAMATICS and EPL — audio gets processed without asking. **§10 (added the same day) works through the Bastion Research accounting critique and, more usefully, through what management has and has not been asked about it across six calls.**
 
 > **✅ Concall gate: CLEARED and current.** The Q1FY27 call was held **29-Jul-2026** (InCred Equities-hosted; **Paras Savla, CMD** and **Rohan Shah, CFO**), transcript filed 3-Aug and in the repo — 26pp. **Reading it changed three conclusions** and is the source of the explicit FY27/FY28 PAT guidance below.
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹743** · market cap ₹4,757 cr · P/E 11.5x · ROCE 16.5% · ROE 19.2% · 52-wk high ₹827 / low ₹327 · **vs ₹688 at baseline (+8.0%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">New ONGC gas-compression award (₹88.15cr, 3 years); new corporate deck adds 'defence-grade re-rating' framing and two government-scheme read-acrosses (not orders); stock +8%</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at HIGH — a held position; one small order win, one promotional deck.** The ₹88.15cr ONGC award is ~2.9% of the ₹3,047cr order book and does not move the standalone-stagnation question (Risk 1). The 31-Aug corporate presentation restates the Q1FY27 numbers already in the profile and adds a marketing thesis that the deck itself disclaims as not a confirmed order. **The stock is +8% since 22-Aug to ₹743, about 10% above the ₹688 the return arithmetic was set at, so the profile's ~+16% two-year weighted return is now lower at this price** *(my scaling; scenarios not re-derived)*.
+
+**8-Sep-2026 — 🟢 Letter of Award from ONGC: gas compression at Balol GGS-1, Mehsana — ₹88.15cr, 3 years**  
+Reg 30 filing: the company received a Letter of Award for **hiring of gas-compression services at ONGC's Balol GGS-1 (Mehsana asset) for three years, estimated at ~₹88.15cr.** Domestic; no promoter interest; not a related-party transaction.
+> *Why it matters:* Core-business work from the existing anchor customer, roughly ₹29cr a year. The filing does not say whether it is new capacity or a renewal of existing compressors, so whether it adds to the ₹3,047cr book or replaces expiring work is **not knowable from the filing.** Against ~₹800cr of guided FY27 execution it is small.
+
+**31-Aug-2026 — New 40-page corporate presentation: an 'energy is national defence' framing and two scheme read-acrosses**  
+The deck (a) restates Q1FY27: order book ₹3,007cr + ₹319cr added − ₹279cr executed = **₹3,047cr**; revenue +39.8%, EBITDA +38.7%, PAT +44.5%; FY26 receivable days 131 vs 275; (b) argues the company merits a **'defence-grade re-rating'** as an import-substitution 'toll-booth'; (c) cites the **₹84,084cr Samudra Manthan offshore exploration scheme** (Union Cabinet, Aug-2026) and the **₹23,731cr GOBARdhan biogas scheme** as addressable markets. **Both slides carry the company's own disclaimer that Deep is 'not an awarded participant' / that the slide 'does not represent a confirmed order, contract or customer commitment'.**
+> *Why it matters:* Nothing here is new to the numbers. **The valuation framing is management's marketing, not evidence**, and the sector-defence comparison is stated by the deck itself to be illustrative. The scheme slides are opportunity-sizing: the offshore scheme maps to Dolphin Offshore's DP2 barge and vessels, the biogas scheme to Deep's compression and dehydration skills. Treat both as upside optionality until an order is filed.
+
+**22-Aug → 18-Sep-2026 — 📈 Price ₹688 → ₹743 (+8%), near the ₹827 52-week high**  
+Screener P/E 11.5x, which is the profile's write-off-adjusted basis (on reported TTM PAT the profile had 19.6x at ₹688); ROCE 16.5%; promoter 63.49% unchanged; FII 1.47%, DII 1.53%.
+> *Why it matters:* The re-rating has run ahead of the standalone business, which was flat at ~₹175cr a quarter for five quarters. The 31-Aug deck arriving alongside a rising price is a coincidence of timing, not a finding.
+
+**Routine filings, not material:** AGM and analyst-meet notices (22-Aug onward).
+
+**Where this was blended into the profile:** §5.5(a) conviction table and (b) new entry; the order-book table in §4 was already at ₹3,047cr and is unchanged.
+
+*Sweep: BSE + NSE announcements from 22-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 
@@ -283,12 +314,17 @@ Deck, verbatim: *"Achieved **all-time high quarterly revenue and profitability**
 | 28-Jul-2026 | **HELD at HIGH** | Q1FY27 deck-only read. **Flagged the flat order book as *"the single most important number on DEEP"*** and cut the weighted return to ~+21% |
 | **29-Jul-2026** | **HELD at HIGH** | **The transcript changed three conclusions.** The order-book concern was substantially explained; management gave PAT guidance far above the prior base case; **and the real operational issue turned out to be somewhere else entirely — standalone stagnation.** Weighted return rebuilt to **~+49%** |
 | **22-Aug-2026** | **HELD at HIGH** | **No new filings of substance.** But **the stock is +26.7% in three weeks to a near-all-time high**, and re-anchoring the same scenarios to the new market cap takes the weighted return from **~+49% to ~+16%** |
+| **19-Sep-2026** | **HELD at HIGH** | Filings refresh: ONGC gas-compression award ₹88.15cr / 3 years (8-Sep); corporate deck with 'defence-grade re-rating' framing (31-Aug). Stock ₹688 → ₹743 (+8%), so the ~+16% return at ₹688 is lower at ₹743. |
 
 **Downgrade to MH if:** standalone does **not** recover toward 18–20% growth from Q2FY27 · **or** a third year-end charge appears in Q4FY27 · **or** the PEC incremental production slips again past October.
 
 **Upgrade case is external:** **winning either the Gamij or Geleki PEC tender** would re-base the company.
 
 ### (b) Material developments — newest first
+
+**🟢 New ONGC gas-compression award, ₹88.15cr over three years, and a new corporate deck** *(8-Sep and 31-Aug-2026)*
+A Letter of Award for gas compression at Balol GGS-1, Mehsana (~₹29cr a year). The deck restates the ₹3,047cr order book and frames Deep as an energy-security 'toll-booth' deserving a defence-style re-rating, citing the ₹84,084cr Samudra Manthan and ₹23,731cr GOBARdhan schemes as addressable markets, with the company's own disclaimer that neither is a confirmed order.
+> **Why it matters:** the award is small and its newness against a renewal is undisclosed. The deck adds no numbers, and its valuation argument is management's, not evidence. The standalone-stagnation risk in §7 is unchanged.
 
 **📉 The price has moved 27% and the thesis has not — which is itself the development** *(22-Aug-2026)*
 CMP **₹543 → ₹688**, market cap **₹3,473cr → ₹4,395cr**, against a 52-week high of **₹721.**

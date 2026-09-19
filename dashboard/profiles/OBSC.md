@@ -2,7 +2,7 @@
 
 **Ticker:** OBSC · **NSE-SME: OBSCP** *(no BSE listing)* · **Screener ticker: `OBSCP`**
 **Sector:** 3 — Auto Components & Forgings *(precision components, multi-process)* · **Conviction:** **Medium**
-**Thesis current as of:** 13-Aug-2026 · **Tracking since:** 3-Jul-2026
+**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 13-Aug-2026)* · **Tracking since:** 3-Jul-2026
 
 **CMP ₹790** · **Market cap ₹2,042 cr** · **P/E 64.9x** *(75.6x on FY26 basic EPS — see §4)* · **P/B 11.3x** (book ₹70.2) · **ROCE 19.5%** · **ROE 19.6%** · **No dividend, ever** · 52-week range **₹270–₹810**, **+157% over one year**
 *(Screener standalone, 13-Aug-2026)*
@@ -12,6 +12,45 @@
 > **⚠️ Screener ticker note, first thing.** The company is **`OBSCP` on Screener**, not `OBSC` — the latter returns **HTTP 404**. The initiation profile recorded *"Screener CMP/valuation data missing (recent listing)"* and built its valuation section on that assumption. **The data was never missing; the ticker was wrong.** Full financials, an 8-quarter series, a 5-year P&L, balance sheet, cash flow and shareholding were all available and always were. **Everything numeric below flows from that fix.** *First of three ticker-mismatch errors found this cycle, with SATHLOKHAR→`SSEGL` and DYNAMATIC→`DYNAMATECH`.* **OBSC reports standalone only.**
 >
 > **Concall gate: 🟡 ONE CALL A YEAR.** OBSC holds a single earnings call, after the annual results. The most recent is **Q4FY26, 21-May-2026** (57,585 characters). **There is no Q1FY27 call.**
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹930** · market cap ₹2,404 cr · P/E 76.4x · ROCE 19.5% · ROE 19.6% · 52-wk high ₹1,030 / low ₹270 · **vs ₹790 at baseline (+17.7%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">₹86.5cr preferential issue allotted at ₹601 (35% below the new ₹930 price); AS9100D aerospace certification recommended; non-binding New Mexico MoU; ₹31.4cr five-year order; stock +18%</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM.** The dilution the profile flagged on 5-Aug has now been executed: the EGM approved it on 2-Sep and **14,39,600 shares were allotted at ₹601 on 11-Sep (₹86.52cr, post-issue 2,72,85,200 shares).** With the stock at ₹930 the issue price is **35% below market**, against the 24% discount the profile cited at ₹790. On the operating side the AS9100D recommendation opens the aerospace door the thesis needs, and a ₹31.4cr five-year machined-parts order was won; the New Mexico MoU is non-binding. **The stock's +18% since 13-Aug at 76x P/E means the price is running ahead of the operating milestones.**
+
+**11-Sep-2026 — 🔴 Preferential issue allotted: 14,39,600 shares at ₹601, ₹86.52cr**  
+After EGM approval on 2-Sep and NSE in-principle approval (26-Aug), the Board allotted **14,39,600 equity shares at ₹601 (premium ₹591) on a preferential basis, aggregate ₹86,51,99,600**, taking paid-up shares to 2,72,85,200. Allottees are listed in an annexure I did not extract.
+> *Why it matters:* Completes the second preferential issue in about eighteen months, with **no promoter participation** as the profile recorded. On the 5.6% dilution, promoter holding falls from 69.81% to about 66%. The stock closed at ₹930 on 18-Sep, so allottees hold a ~55% paper gain on ₹601 within a week (*my arithmetic*).
+
+**7-Sep-2026 — 🟢 AS9100D certification recommended by TÜV India**  
+Following a successful audit, OBSC was **recommended for AS9100D certification (aerospace quality management) for 'Manufacture of Precision Machined Metal Components'**; the certificate is 'expected shortly'.
+> *Why it matters:* A necessary qualification for the aerospace vertical that the profile treats as the growth option. It is a recommendation, not the certificate; no aerospace order is attached.
+
+**9-Sep-2026 — 🟡 MoU with Aethrone Aerospace to explore a precision-manufacturing facility in New Mexico, USA**  
+A preliminary, **non-binding** MoU to jointly evaluate and, subject to definitive agreements, set up a facility in New Mexico. OBSC would contribute machining infrastructure and know-how; Aethrone business development, design and certification support.
+> *Why it matters:* An option, not a commitment: no capex, equity split or customer is stated. It follows a ₹86.5cr raise, so a use of proceeds worth tracking. The counterparty is described only as a deep-tech design firm.
+
+**1-Sep-2026 — 🟢 Purchase orders of ₹31.4cr over five years**  
+Purchase orders from a domestic auto-components manufacturer for supply of machined parts over five years.
+> *Why it matters:* About ₹6cr a year, small against FY27 run-rate revenue of ~₹300cr, and from an existing type of customer.
+
+**13 → 18-Sep-2026 — Price ₹790 → ₹930 (+18%); company secretary changes**  
+Screener P/E 76.4x, ROCE 19.5%, ROE 19.6%; market cap ₹2,404cr; 52-week range ₹270–1,030. Company Secretary Mudit Johri resigned 14-Sep and Heena Arora was appointed 16-Sep; an insider-trading Reg 7(2) disclosure was filed 17-Sep.
+> *Why it matters:* An administrative compliance-officer change with a two-day gap; no operating content.
+
+**Routine filings, not material:** Letters to members, results-related filings of 12-Aug already in the profile.
+
+**Where this was blended into the profile:** §1 dilution bullet, §5.5(a) row.
+
+*Sweep: BSE + NSE announcements from 13-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 
@@ -27,7 +66,7 @@ Where Happy Forgings and Sansera do precision forging and machining, **OBSC Perf
 - **Registered with 3 of India's 7 DPSUs**, with first defence prototype orders named.
 - **Order book ₹1,200cr+**, running 6-7 years.
 - **🔴 FY26 operating cash flow −₹2cr against ₹40cr of operating profit — CFO/OP of 6%. Free cash flow −₹79cr.**
-- **🔴 A second preferential issue: ₹86.5cr at ₹601 against a ₹790 market price**, taking promoter holding 73.50% → **~66%** in about eighteen months.
+- **🔴 ⤴ EXECUTED 11-Sep-2026: 14,39,600 shares allotted at ₹601 (₹86.52cr); the issue price is now ~35% below the ₹930 market price.** *Original text:* 🔴 A second preferential issue: ₹86.5cr at ₹601 against a ₹790 market price, taking promoter holding 73.50% → **~66%** in about eighteen months.
 
 **Big picture in one sentence:** a genuinely fast-compounding precision manufacturer — **seven straight quarters of sequential growth, exports and non-auto at records, Tenneco and DPSU credentials** — trading at **64.9x after a +157% year**, where **the business is real and the cash, dilution and disclosure picture is materially worse than it first appeared.**
 
@@ -322,6 +361,7 @@ Where Happy Forgings and Sansera do precision forging and machining, **OBSC Perf
 | 3-Jul-2026 | Medium | — | — | Initiated. **Valuation section built on "Screener data missing" — the ticker was wrong** |
 | 10-Jul-2026 | **Medium-High** | — | ~+30-35% | Upgraded citing *"~30-35% weighted return + 54% FY26 growth"* |
 | **13-Aug-2026** | **Medium-High → Medium** | **₹790** | **~+14.3%** *(bear −61%)* | **The Screener ticker fix exposed everything below the operating line: CFO/OP 6%, FCF −₹79cr, a second discounted preferential issue, and three reporting-quality items** |
+| **19-Sep-2026** *(filings refresh)* | **HELD at Medium** | **₹930** | *(return at ₹790 was ~+14.3%; lower at ₹930)* | **Preferential issue allotted 11-Sep at ₹601 (₹86.52cr); AS9100D recommended (7-Sep); non-binding New Mexico MoU (9-Sep); ₹31.4cr five-year order (1-Sep). Stock +18% to 76x.** |
 
 **🎯 Downgrade to Medium-Low if:** a third dilution round is announced, **or** a CRISIL outlook revision, **or** the order book declines below **₹1,100cr**, **or** the employee-cost / job-work question is put to management and not answered.
 

@@ -11,6 +11,27 @@
 > **The opposite happened.** **The stock is +12.5% in ten days — ₹1,966 → ₹2,212 — and the multiple has gone 55.0x → 63.8x.** **On the refresh's own scenario targets, the weighted two-year return has fallen from +12% to roughly −4%, with the base case now negative on its own.**
 > ***Applying the refresh's own logic consistently: if 55x with +12% justified MH, then 63.8x with −4% justifies MEDIUM.*** **Nothing in the business caused this, and nothing in §3.5 or §4 has deteriorated.**
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹2,148** · market cap ₹20,280 cr · P/E 61.9x · ROCE 18.0% · ROE 15.0% · 52-wk high ₹2,484 / low ₹889 · **vs ₹2,212 at baseline (-2.9%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">No company event beyond an ESOP allotment; stock −3% to ₹2,148</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM (valuation downgrade of 22-Aug stands).** Two ESOP filings are the only items since 22-Aug. The stock fell 3% to ₹2,148 at 61.9x, closer to but not at a level that changes the valuation-driven downgrade. Operating quality (31% operating margin, revenue ₹449cr in the June quarter) is unchanged.
+
+**22-Aug → 18-Sep-2026 — ESOP allotment; price −3%**  
+ESOP allotment filings only. Price ₹2,212 → ₹2,148; Screener P/E 61.9x, ROCE 18.0%, ROE 15.0%; market cap ₹20,280cr; promoter 78.46%; 52-week range ₹889–2,484.
+> *Why it matters:* No thesis change.
+
+**Where this was blended into the profile:** No body-text edits.
+
+*Sweep: BSE + NSE announcements from 22-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
 ---
 
 ## 1. Business in Plain English

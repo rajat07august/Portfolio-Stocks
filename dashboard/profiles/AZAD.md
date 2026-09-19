@@ -2,7 +2,7 @@
 
 **Ticker:** AZAD · NSE: AZAD · BSE: 544061
 **Sector:** 1 — Aerospace & Defence · **Conviction:** **Medium**
-**Thesis current as of:** 15-Aug-2026 · **Tracking since:** 3-Jul-2026
+**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 15-Aug-2026)* · **Tracking since:** 3-Jul-2026
 
 **CMP ₹2,718** · **Market cap ₹17,552 cr** · **P/E 126x trailing** · **P/B 11.5x** (book ₹237) · **ROCE 11.9%** · **ROE 9.09%** · **Dividend: none** · 52-week range **₹1,359–₹2,735** — at an **all-time high, 0.6% off the peak and +100% off the low**
 *(Screener consolidated, 15-Aug-2026)*
@@ -10,6 +10,33 @@
 > **How to read this profile.** Sections 1–9 describe what I believe **today**, rewritten at each review rather than annotated. **Section 5.5 is the memory** — how the thesis got here, what changed and when, what I got wrong. **Section 9 is the community read.**
 >
 > **The tension to hold throughout: this is an elite manufacturing franchise attached to a valuation and a cash-flow record that do not match it.** The engineering is world-class and got better this quarter. **Operating cash flow has been positive in one of the last five years.** Both statements are true, and the profile is written to keep them side by side rather than resolve them.
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹2,790** · market cap ₹18,020 cr · P/E 130x · ROCE 11.9% · ROE 9.09% · 52-wk high ₹2,987 / low ₹1,359 · **vs ₹2,718 at baseline (+2.6%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">No company event beyond the FY26 annual report; stock +2.6% to ₹2,790 at ~130x</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM.** The only substantive filing since 15-Aug is the FY26 annual report (7-Sep), **not read for this refresh**. The 8-Aug earnings-call transcript was filed 14-Aug, before the profile date. The stock is at an all-time-high zone (₹2,987 52-week high) on a 130x trailing multiple, which is the profile's central valuation caution.
+
+**7-Sep-2026 — FY26 annual report and Reg 36(1)(b) shareholder letter**  
+Annual report 2025-26 filed; AGM notice and BRSR followed.
+> *Why it matters:* **Not read for this refresh.** The related-party note and contingent-liability disclosures are the items worth reading for the §3.5 retrofit that is still open.
+
+**15 → 18-Sep-2026 — Price ₹2,718 → ₹2,790 (+2.6%)**  
+Screener P/E 130x, ROCE 11.9%, ROE 9.1%; market cap ₹18,020cr; promoter 55.84% unchanged; Jun-2026 quarter revenue ₹173cr (+26% YoY), PAT ₹35cr.
+> *Why it matters:* No change to the profile's read.
+
+**Routine filings, not material:** AGM notice, BRSR, newspaper notices.
+
+**Where this was blended into the profile:** No body-text edits.
+
+*Sweep: BSE + NSE announcements from 15-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 

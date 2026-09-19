@@ -10,6 +10,29 @@
 
 > **📋 WHAT THIS REFRESH FOUND, IN ONE BOX.** v1 was written 3-Jul-2026 and is 9.7 KB. It predates the Q1FY27 print, the ADS order-book step-up, and **a four-event management and board reconstruction that ran from 27-Jul to 24-Aug-2026.** It also carried four factual errors that are corrected in place below: a wrong FY25 revenue base (and therefore a wrong growth rate), a wrong FY26 EBITDA level, **an assertion that Sansera manufactures in the United States — it does not and never has**, and a dashboard claim of a **₹160cr Airbus Defence & Space contract that appears in no filing and no transcript.**
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹4,260** · market cap ₹26,583 cr · P/E 71.4x · ROCE 14.5% · ROE 11.8% · 52-wk high ₹4,300 / low ₹1,364 · **vs ₹3,815 at baseline (+11.7%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 26-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">No company event beyond the FY26 annual report; the Jun-2026 promoter decline is still unexplained; stock +11.7% to ₹4,260 at 71x</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM (Under Watch).** The Under-Watch trigger is the unexplained Jun-2026 fall in promoter holding (30.10% → 29.21%). **No Reg 29(2) or other disclosure explaining it appears on the BSE or NSE feed since 26-Aug.** The FY26 annual report (2-Sep) is filed and **not read for this refresh**; it may shed light. The stock is up 11.7% to ₹4,260, right at its ₹4,300 52-week high, at 71x.
+
+**26-Aug → 18-Sep-2026 — No trigger-relevant filing; price +11.7%**  
+Filings: annual report (2-Sep), AGM notice, analyst-meet notice (9-Sep). Price ₹3,815 → ₹4,260; Screener P/E 71.4x, ROCE 14.5%, ROE 11.8%; market cap ₹26,583cr; promoter 29.21%; 52-week range ₹1,364–4,300.
+> *Why it matters:* The unexplained promoter decline has not been explained, and the price has risen 11.7% since the profile flagged it. Cause remains open per §0A rule 6.
+
+**Routine filings, not material:** Book closure, record date, BRSR, newspaper notices.
+
+**Where this was blended into the profile:** §5.5 conviction table.
+
+*Sweep: BSE + NSE announcements from 26-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
 ---
 
 ## 1. Business in Plain English
@@ -384,6 +407,7 @@ Asked directly whether it sits in the margin, he confirmed: *"No, it is included
 | **10-Jul-2026** *(re-rate)* | — | **MH → MEDIUM** | Downgraded on valuation: *"~5% weighted return + 60.4x P/E + 5.12% promoter dilution."* **v1's scenarios, preserved for lineage: base 55% — FY28 revenue ₹4,600cr, PAT ₹380cr at 55x → ₹21,000cr, +5%; bull 30% — ₹5,200cr / ₹450cr at 60x → ₹27,000cr, +35%; bear 15% — PAT ₹290cr at 50x → ₹14,500cr, −28%.** **The judgement was right. The header was never updated to match, and read "Medium-High" for seven more weeks.** |
 | **3-Aug-2026** *(bulk CMP)* | **₹3,787** | MEDIUM | Price refresh only. |
 | **26-Aug-2026** *(this profile)* | **₹3,815** | **HELD at MEDIUM (Under Watch)** | Converted to always-current format and fully re-grounded. **Q1FY27 print: revenue +33.3%, EBITDA margin +200bps to 19.2%, normalised PAT +59%.** **🟢 ADS backlog ₹3,800cr → ₹5,700cr; FY27 guidance raised from "high-teens" to "high-teens to 20%."** **🔴 Found the four-event board and management reconstruction of 27-Jul → 24-Aug, including the loss of the Audit Committee chair and the CRO, and today's elevation of the professional Group CEO to Managing Director.** **🔴 Found and cross-verified a 0.89pp promoter decline in the Jun-2026 quarter with no disclosed cause.** **Found the ₹2m Metaldyne settlement and the ₹126mn tariff provision.** **Corrected four v1 errors and two dashboard errors.** |
+| **19-Sep-2026** *(filings refresh)* | **₹4,260** | **HELD at MEDIUM (Under Watch)** — trigger unresolved | No filing explains the Jun-2026 promoter decline (30.10% → 29.21%); stock +11.7% to its 52-week high at 71x. FY26 annual report filed 2-Sep, not read. |
 
 > **🔴 THE AIRBUS CLAIM — stated plainly per §0A rule 6.** The dashboard card records a **₹160cr contract from Airbus Defence & Space for Airborne Intensive Care Transport Modules, first shipment before end-2026.** **I searched NSE's corporate-announcements feed for all of 2025 (86 records) and 1-Jan to 26-Aug-2026 (61 records) and found no order-award filing of any kind. I searched all seven transcripts and both decks: "Airbus" appears five times in total, every one of them describing Airbus as an end-customer of the aerospace industry — never as a Sansera counterparty.** ***I could not find it. That is not the same as saying it did not happen*** — a ₹160cr order may fall below Sansera's materiality threshold for a Reg 30 filing, and it may have been reported in the press. **But it is unverified, it is load-bearing, and it should not sit on the card as established fact. It has been removed from the card and recorded here instead.**
 

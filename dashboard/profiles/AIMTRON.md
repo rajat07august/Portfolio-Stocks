@@ -6,6 +6,49 @@
 
 > **How to read this profile:** Every meaningful claim is either sourced from a concall (period noted) or a filing. Aimtron reports H1/H2 not Q1/Q2/Q3/Q4 as it's on the SME platform. This is personal thesis-building, not a buy/sell recommendation.
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹1,662** · market cap ₹3,536 cr · P/E 76.9x · ROCE 28.2% · ROE 23.6% · 52-wk high ₹1,800 / low ₹675 · **vs ₹1,313 at baseline (+26.6%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 19-Sep-2026</span> <span class="upd-sum">Q1FY27 update: revenue +94%, order book ₹604cr; US arm books US$11.8m in Q2 to date; pilot orders from Curtiss-Wright and a test-solutions major; warrants converted; stock +27% to 77x</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at HIGH (data-limited, SME half-yearly reporter).** Since the 3-Jul profile the company has issued a voluntary Q1FY27 business update and four order announcements, all on the constructive side. Two cautions: **the pilot orders are qualification steps with no value (Curtiss-Wright) or a stated *potential* of US$2.6–3.4m (a global test-solutions company)**, and **the stock is +27% to ₹1,662 at 77x**, from ₹1,313 at 59x, so the growth is being paid for in advance. Promoter holding on Screener is 68.63%, down from 70.90%, which fits the warrant-conversion allotments but is not explained in the filings I read.
+
+**17-Sep-2026 — 🟢 US subsidiary AIC books US$11.8m of orders in Q2 to date — more than twice its historical quarterly average**  
+Press release: Aimtron International Controls LLC (AIC, the acquired ICS business, operating under Aimtron since 1-Feb-2026) **has bagged US$11.8 million of order bookings in the quarter to 17-Sep with the quarter still open, against a historical average of under US$4 million a quarter, including five new customers.**
+> *Why it matters:* The first hard evidence that the US acquisition is producing more than its legacy run-rate. Company-reported and mid-quarter; conversion into revenue and margin is not disclosed. The profile flagged AIC integration as its main execution risk.
+
+**10-Sep-2026 — 🟡 Pilot order from Curtiss-Wright (NYSE-listed US engineering major)**  
+Press release: a **pilot order** from Curtiss-Wright Corporation for engineering-led electronics manufacturing, 'subject to successful qualification, programme approvals and future business requirements'. **No value stated.**
+> *Why it matters:* A marquee customer name and a stated path to further programmes, but explicitly a pilot. Treat as an option.
+
+**14-Jul-2026 — 🟡 Pilot box-build order from a global semiconductor test-solutions company**  
+Pilot for a next-generation fibre network test and certification platform, **'business potential around $2.6–3.4 million'** if qualified; the customer is evaluating additional manufacturing partners for supply-chain resilience.
+> *Why it matters:* Potential, not order value, and qualification-dependent.
+
+**27-Jul-2026 — 🟢 Q1FY27 business update: revenue +94%; order book 2x FY26 revenue**  
+Consolidated revenue **₹84.01cr vs ₹43.30cr (+94%)**; consolidated order book **₹604cr, about twice FY26 revenue**; demand across industrial electronics and power and energy.
+> *Why it matters:* Voluntary update from an SME that reports half-yearly; unaudited. The order book is unchanged from the ~₹600cr in the profile.
+
+**14-Aug-2026 — Warrants: 4,33,122 converted into equity**  
+Allotment of 4,33,122 shares at ₹680.64 on conversion of warrants issued 3-Sep-2025 (13,89,388 in total); 8,60,654 converted so far; **5,28,734 warrants remained outstanding with a conversion deadline of 2-Sep-2026**. Paid-up capital: 2,12,74,479 shares.
+> *Why it matters:* Cash in at ₹680.64 while the stock trades at ₹1,662 — a 59% discount to market for the holders. The outcome of the 5,28,734 warrants by the 2-Sep deadline was not on the feed I read.
+
+**3-Jul → 18-Sep-2026 — 📈 Price ₹1,313 → ₹1,662 (+27%); P/E 59x → 77x**  
+Screener: market cap ₹3,536cr, ROCE 28.2%, ROE 23.6%; 52-week range ₹675–1,800; promoter 68.63%.
+> *Why it matters:* A 27% rise, mostly multiple expansion, on updates that were largely already in the profile's order-book figure.
+
+**Routine filings, not material:** Analyst-meet schedules, DP certificates, record date, structural digital database.
+
+**Where this was blended into the profile:** Dropdown only: the profile is in the original pre-methodology format and needs a full rewrite before body edits.
+
+*Sweep: BSE + NSE announcements from 3-Jul-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
 ---
 
 ## 1. Business in Plain English

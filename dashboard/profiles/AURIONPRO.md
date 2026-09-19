@@ -8,6 +8,33 @@
 
 > **📌 What this update is.** The 28-Jul-2026 refresh downgraded the stock on the Q1FY27 *numbers* alone, and left one instruction in the file: *"Q1FY27 transcript — read as soon as it files. Highest-value pending input."* It filed on 3-Aug-2026. This profile is built on it. **The single most consequential thing on that call is not a number — it is that management has withdrawn guidance entirely** (§3.5, §5.5). The 28-Jul watch item asked whether the FY27 bands would be *revised down*; the answer is that they no longer exist.
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹686** · market cap ₹3,789 cr · P/E 18.1x · ROCE 16.3% · ROE 13.4% · 52-wk high ₹1,247 / low ₹663 · **vs ₹696 at baseline (-1.4%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Integro Lending named category leader in five Chartis 2026 quadrants; FY26 annual report filed; no order or governance event; stock −1.4% at 18x</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM (Under Watch).** The only content item is an analyst-recognition press release: **Integro Lending was named a category leader across five lending-technology quadrants in the Chartis 2026 report** (28-Aug). It is marketing evidence of product standing rather than orders or revenue. The FY26 annual report (5-Sep) is filed and **not read for this refresh**, which matters because the profile's Under-Watch items (the SEBI PIT show-cause notice, cash conversion) may be updated there. The stock is 1.4% lower at ₹686 (18x).
+
+**28-Aug-2026 — Chartis 2026: Integro Lending suite category leader across five quadrants**  
+Press release: Aurionpro's Integro lending technology suite was named a category leader in five lending-technology quadrants in the Chartis 2026 report.
+> *Why it matters:* Third-party validation of product positioning in lending software. No customer, contract or revenue is attached, and the profile's watch item, Q2FY27 growth and cash conversion, is unchanged.
+
+**22 → 18-Sep-2026 — Price ₹696 → ₹686 (−1.4%)**  
+Screener P/E 18.1x, ROCE 16.3%, ROE 13.4%; market cap ₹3,789cr; promoter 26.86%; 52-week range ₹663–1,247, i.e. ₹686 is 3% above the low. June-quarter revenue ₹358cr, operating margin 17% (20% a year ago).
+> *Why it matters:* The stock trades near its 52-week low with margin slipping; the analyst recognition has not moved it.
+
+**Routine filings, not material:** Investor-meet schedule (16-Sep), shareholder letters, record date and dividend, AGM notice, newspaper notices.
+
+**Where this was blended into the profile:** §5.5 note only.
+
+*Sweep: BSE + NSE announcements from 22-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
 ---
 
 ## 1. Business in Plain English

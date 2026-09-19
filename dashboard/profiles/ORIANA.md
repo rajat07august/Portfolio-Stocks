@@ -2,6 +2,45 @@
 
 **Ticker:** ORIANA · NSE-SME: ORIANA · **Sector:** Power & Renewables (Solar EPC + Rooftop + Captive + Open Access + BESS + Green Ammonia) · **Conviction:** Medium-High (HELD 16-Jul-2026)
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹272** · market cap ₹2,761 cr · P/E 10.9x · ROCE 39.6% · ROE 39.6% · 52-wk high ₹613 / low ₹235 · **vs ₹294 at baseline (-7.4%)** *(baseline ₹1,468 pre-split ÷ 5 = ₹293.6, the 1:5 split having taken effect since)*
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 16-Jul-2026 → 19-Sep-2026</span> <span class="upd-sum">₹309cr of new EPC orders; ₹4,500cr green-hydrogen MoU; ~₹540cr of corporate guarantees approved (₹340cr on the ₹460cr SBI facility for the 234 MW floating-solar JV); 1:5 split effective; stock ₹272</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-HIGH (Under Watch), with a new trigger.** Six weeks of filings add about ₹309cr of orders, a captive-power structure with JK Lakshmi Cement, a headline ₹4,500cr green-hydrogen MoU and a new subsidiary layer. **The other side is contingent liabilities: the Board has approved corporate guarantees totalling roughly ₹540cr in six weeks, about 70% of the March-2026 consolidated net worth of ~₹763cr** *(my sum of the four filings against Screener's balance sheet)*. The largest is 74% of a ₹460cr SBI working-capital facility, repayable on demand, for the 234 MW DVC floating-solar JV. The 1:5 split has taken effect (Screener price ₹272; the ₹1,251 on the dashboard was pre-split). **New trigger: guarantees above ~₹700cr, or any invocation.**
+
+**14-Sep-2026 — ⚠️ Board approves guarantees and investments across the subsidiary web**  
+Same-day filings: **(1) corporate guarantee limited to 74% of a ₹460cr SBI working-capital facility (≈₹340cr) for Oriana Usolar Joint Venture Pvt Ltd, the vehicle building the 234 MW floating solar plant at DVC's Maithon reservoir, Jharkhand**; the facility is initially 12 months, renewable yearly, **repayable on demand**; subject to shareholder approval; **(2) guarantee to Tata Capital for a ₹148cr term loan to wholly owned Dynospark; (3) guarantee for a ₹6.19cr term loan to Voltonomy Energy;** and equity investments of **up to ₹65cr in Oriana Usolar JV, ₹50cr in Dynospark and ₹3cr in Voltonomy.** On 1-Aug a ₹45cr Tata Capital guarantee for Sunpulse Power had also been approved, plus ₹2.1cr of rights subscription (4-Aug).
+> *Why it matters:* **Guarantees total ~₹540cr (₹340 + 148 + 45 + 6)** against consolidated net worth of ~₹763cr and borrowings of ₹509cr at March-2026 *(Screener; my arithmetic)*. These are subsidiaries' loans backed by the parent; if consolidated, the debt is already in the ₹509cr, but the parent's contingent exposure is what the SBI facility repayable on demand creates. The ₹10,000cr Section 186 limit proposed in July's postal ballot is the enabling limit; I did not confirm its approval in the filings read.
+
+**19 / 20-Aug-2026 — 🟢 Two EPC orders totalling ~₹309cr**  
+**(1) ₹214.80cr (incl. GST) from a cement-industry player for 50 MW of solar in Rajasthan, 9 months to execute plus a 10-year O&M period. (2) ₹94.51cr from Bellwether Energy Pvt Ltd (directly and through group companies) for 25.138 MW / 31.423 MWp of ground-mounted solar across Bihar.** Neither involves promoter interest.
+> *Why it matters:* About 17% of FY26 revenue (~₹1,813cr, from Screener's two half-years) in two announcements; both domestic and short-cycle. The first is the project for which the STSA below was signed.
+
+**25-Aug-2026 — 🟢 Captive-power structure with JK Lakshmi Cement**  
+Board approved a Share Transfer and Shareholders' Agreement among Oriana, its wholly owned Dynospark and **JK Lakshmi Cement**: a **25 MW AC / 36.25 MWp solar plant with 20 MWh of BESS under open access in Rajasthan**, with JK Lakshmi taking **26% of Dynospark's equity** to qualify as a captive user. Cost accountants appointed as 'other' auditors.
+> *Why it matters:* The 26% sale is what makes the power captive under the Electricity Act; it is structural, not a stake sale for cash. It ties the ₹148cr Tata Capital loan to a named offtaker.
+
+**6-Aug-2026 — 🟡 MoU with the Government of Maharashtra: ~₹4,500cr integrated green hydrogen / ammonia / methanol project**  
+Memorandum recording the company's **intent** to invest ~₹4,500cr in an integrated green hydrogen project, with the state facilitating approvals and incentives. Two new wholly owned subsidiaries (Truere Suryagrid Energy, Truere Prithvi Renewables) were incorporated 4-6 Aug.
+> *Why it matters:* An intent, not an order or funded plan, against a company with ~₹763cr of net worth. The profile already records community scepticism that the green-hydrogen commentary is 'aspirational with no delivery'; nothing here changes that.
+
+**16-Jul → 18-Sep-2026 — Price ₹293.6 (post-split equivalent) → ₹272 (−7%)**  
+1:5 split effective; face value ₹2. Screener P/E 10.9x, ROCE 39.6%, ROE 39.6%; market cap ₹2,761cr; 52-week range ₹235–613 (split-adjusted); promoter 57.98%; 15,186 shareholders.
+> *Why it matters:* Still ~55% below its high. Actis deal, mainboard migration and the SECI ammonia PPA delivery, the items the profile called stalled, have no filing since 16-Jul.
+
+**Routine filings, not material:** Record-date and postal-ballot filings, share-transfer certificates, newspaper notices.
+
+**Where this was blended into the profile:** §7 new risk added; refresh block otherwise contains the detail. This profile is in the older Tier A format; a full rewrite is due.
+
+*Sweep: BSE + NSE announcements from 16-Jul-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
 ## 🔄 Refresh Log — 16-Jul-2026 (Tier A — post-v1 corporate actions + community pulse)
 
 **What's genuinely new since v1 (3-Jul-2026):**
@@ -336,6 +375,8 @@ Weighted return: **~85% over 2 years** — very attractive.
 **Risk 8 — Customer concentration.**
 **Risk 9 — Competition from Waaree + Adani Green + Suzlon.**
 **Risk 10 — Recent retail interest surge (15k shareholders) = momentum risk.**
+
+**🆕 Risk 11 — Contingent liabilities from subsidiary financing (NEW — 19-Sep-2026).** Between 1-Aug and 14-Sep the Board approved guarantees of ~₹45cr, ₹148cr, ₹6cr and up to 74% of a ₹460cr SBI working-capital facility (~₹340cr, repayable on demand) for the 234 MW DVC floating-solar JV — about ₹540cr, or ~70% of March-2026 net worth, plus up to ₹118cr of new equity into three subsidiaries. **Watch:** total guarantees above ~₹700cr, any invocation, and shareholder approval of the SBI guarantee.
 
 ---
 

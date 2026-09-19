@@ -2,10 +2,41 @@
 
 **Ticker:** GPIL · BSE: 532734 · NSE: GPIL · **Sector:** 10 — Metals & Mining (Integrated Pellet + Sponge + Billets + Structural Steel)
 **Conviction:** **Medium-High (Under Watch)** · **Weighted 2-yr return:** ~+8.75% (≈4.3% CAGR) + 0.44% dividend
-**Thesis current as of:** 21-Aug-2026 · **Tracking since:** 3-Jul-2026
+**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 21-Aug-2026)* · **Tracking since:** 3-Jul-2026
 **CMP:** ₹229 · **Market Cap:** ₹15,419 cr · **P/E (trailing):** 18.8x · **P/B:** 2.65x · **ROCE:** 20.4% · **ROE:** 15.2% · **Div yield:** 0.44% *(Screener consolidated, 13-Aug-2026)*
 
 > **The operating thesis is current as of the Q1FY27 print (7-Aug) and the earnings call (10-Aug).** Two things have been added since: the **official transcript was filed 13-Aug and the machine transcription has now been verified against it** (§9 data-quality note 1 — one figure was wrong and is corrected below), and a **promoter-group transmission on 17-Aug** following a death in the family (§5.5(b)). Neither changes the thesis.
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹233** · market cap ₹15,718 cr · P/E 19.2x · ROCE 20.5% · ROE 15.3% · 52-wk high ₹320 / low ₹221 · **vs ₹229 at baseline (+1.7%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">2 MnT pellet plant back in operation on 29-Aug after ~46 days down; promoter transmission (17-Aug) formalised; stock +1.7%</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-HIGH (Under Watch).** The one operating fact the profile was waiting on arrived: the 2.0 MnT phase-II pellet plant, suspended on 14-Jul after GAIL curtailed contracted gas, resumed 'normally' on 29-Aug. **The filing gives 'improved market conditions' as the reason and does not restate whether the gas supply was restored.** About 46 days of a 2 MnT-a-year plant (~0.25 MnT, *my arithmetic at nameplate*) were lost in Q2FY27, so the profile's FY27 pellet target of 4.0 MnT (0.90 MnT achieved in Q1) stays 'at risk' but is no longer worsening. Nothing else changes the thesis.
+
+**29-Aug-2026 — 🟢 Pellet plant resumes operations**  
+Reg 30 filing: production at the **2.00 MTPA iron-ore pellet plant, Phase II, Siltara, Raipur resumed normally 'in view of improved market conditions'.** It had been temporarily suspended from 14-Jul-2026 because of a curtailment of contracted natural gas by GAIL under the withdrawal of the Natural Gas (Supply Regulation) Order, 2026.
+> *Why it matters:* Ends a 46-day outage (14-Jul to 29-Aug). **The filing attributes the restart to market conditions and does not say gas supply was restored**, so whether the plant now runs on gas, on a substitute or on a different contract is not disclosed. The pellet line is producing again, but FY27's 4.0 MnT target needs ~1.0 MnT a quarter from here *(my arithmetic)*.
+
+**17 / 19-Aug-2026 — Promoter shares transmitted by succession**  
+SAST Reg 29(2) and 10(6) disclosures: promoter Narayan Prasad Agrawal received **1,99,11,155 shares (~2.9% of equity)** by transmission from the late Mrs Madhu Agrawal, a promoter-group member, on 17-Aug; exempt under Reg 10(1)(g) (succession).
+> *Why it matters:* Already in the profile (promoter holding unchanged through the transmission at 63.18%). Recorded: the disclosure is a transfer inside the family, not a sale.
+
+**21 → 18-Sep-2026 — Price ₹229 → ₹233 (+1.7%)**  
+Screener P/E 19.2x, ROCE 20.5%, ROE 15.3%; market cap ₹15,718cr; 52-week range ₹221–320. FY26 annual report filed 25-Aug (not read for this refresh); investor meets 7, 8 and 16-Sep.
+> *Why it matters:* No change to the valuation read.
+
+**Routine filings, not material:** AGM and dividend logistics, ESOP allotments, analyst-meet notices, newspaper notices.
+
+**Where this was blended into the profile:** §4 guidance-versus-actual row, §5.5(a) and (b).
+
+*Sweep: BSE + NSE announcements from 21-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 
@@ -142,7 +173,7 @@ All three Whole-Time Director re-appointments were approved at the **7-Aug-2026 
 | FY27 sponge / billets / rolled / ferro | Q1FY27 deck | 26% / 22% / 22% / **29%** of the year after Q1 | ✅ **On pace** |
 | **"Q4FY26 momentum turn continuing into FY27"** *(the initiation's core thesis)* | 3-Jul-26 | **Did not hold.** EBITDA −24% QoQ, margin 27.3% → 19.1%, PAT −21% QoQ | 🔴 **Broken** |
 | **FY27 iron ore mining 3.4 MnT** | Q1FY27 deck | **0.54 MnT in Q1 = 16% of the year** | 🔴 **Behind** |
-| FY27 pellets 4.0 MnT | Q1FY27 deck | 0.90 MnT = 23%. **Plant suspended 14-Jul** | 🔴 **At risk** |
+| FY27 pellets 4.0 MnT | Q1FY27 deck | 0.90 MnT = 23%. **Plant suspended 14-Jul; ⤴ resumed 29-Aug-2026 after ~46 days ('improved market conditions'; gas restoration not stated)** | 🔴 **At risk, no longer worsening** |
 | **1 MnT Integrated Steel Plant** | prior guidance | **KEPT IN ABEYANCE** — water allocation stuck | 🔴 **Shelved** |
 | **250 MW captive solar** | prior guidance | **KEPT IN ABEYANCE** | 🔴 **Shelved** |
 | **0.7 MnT CRM complex** | prior guidance | **Relocated to Maharashtra**; commissioning revised to **Dec-2027**, *"a delay of almost six months"* | 🟡 **Deferred + moved** |
@@ -346,6 +377,7 @@ The deck's own explanation: *"Fall in Iron Ore Mining volumes was primarily due 
 | 3-Jul-2026 | **Medium-High** | Initiation. Framed on the **Q4FY26 momentum turn** (+41% QoQ revenue, +91% QoQ EBITDA), 23% FY26 EBITDA margin, 20.4% ROCE at 21x |
 | **13-Aug-2026** | **HELD at Medium-High — Under Watch** | **The momentum-turn thesis broke in one quarter**, but not for the reason the initiation feared. Held because the assets are real, the cause is named and disclosed, and the fix is capitalised and dated. Under Watch because Q2FY27 is pre-announced weaker, the key volume line is 16% achieved, and the capital-allocation story changed shape |
 | 21-Aug-2026 | **HELD — no change** | Official transcript verified against the machine transcription; promoter transmission carries no economic change |
+| **19-Sep-2026** | **HELD — no change** | Filings refresh: **pellet plant resumed 29-Aug after ~46 days**; transmission of promoter shares formalised. Stock ₹229 → ₹233. |
 
 **Downgrade to Medium if ANY of:**
 1. **The beneficiation plant slips past Q3FY27.**
@@ -356,6 +388,10 @@ The deck's own explanation: *"Fall in Iron Ore Mining volumes was primarily due 
 **Upgrade to clean Medium-High** on captive mining back above 0.85 MnT in a quarter, with margin recovering through 22%.
 
 ### (b) Material developments — newest first
+
+**🟢 The 2 MnT pellet plant resumed on 29-Aug after a 46-day suspension** *(Reg 30 filing, 29-Aug-2026)*
+Production resumed 'normally' in view of 'improved market conditions'; the 14-Jul suspension had been caused by GAIL curtailing contracted gas supplies.
+> **Why it matters:** ends the deterioration flagged in the FY27 pellet row. The filing does not say the gas problem was solved, and ~0.25 MnT of Q2 pellet output is gone at nameplate.
 
 **⚪ Promoter-group transmission on a death in the family — 2.95% moved, total holding unchanged at 63.18%** *(Reg 10(6) disclosure filed 19-Aug-2026, for a transmission dated 17-Aug-2026)*
 

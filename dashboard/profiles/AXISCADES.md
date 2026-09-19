@@ -10,6 +10,45 @@
 
 > **🔴 WHAT THIS REFRESH FOUND.** Since 28-Jul the company has: **reported a loss-making record quarter**; **had shareholders approve the ₹2,256cr Akkodis divestment (27-Jul)**; **replaced an Independent Director (11-Aug)**; and **agreed to buy 90% of a Bengaluru precision manufacturer for ₹234cr in cash (28-Aug)**. **Most importantly, it has now published four mutually inconsistent figures for how much cash the divestment actually delivers — ₹2,256cr, ₹1,685cr, ~₹910–920cr and ₹715cr — and no one has asked it to reconcile them.** ⤴ **It also corrects a market-cap error — located precisely, because my first draft of this profile blamed the wrong part of the file.**
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹1,811** · market cap ₹7,704 cr · P/E 235x · ROCE 3.57% · ROE 4.06% · 52-wk high ₹2,211 / low ₹1,061 · **vs ₹1,624 at baseline (+11.5%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Cloud Wave acquisition COMPLETED 10-Sep (₹234cr, funded by up to ₹200cr of 12.5% NCDs); Phase 1 Akkodis close still not filed 18 days past target; promoter releases part of a pledge; stock +11.5%</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM (Under Watch).** The acquisition the profile expected by 30-Sep closed on 10-Sep, three weeks early. **It was financed with up to ₹200cr of unrated, unlisted, secured debentures at 12.50% a year, tenor up to five years**, while the ₹190cr-odd Phase 1 divestment cash the profile was waiting on **has still not been reported as received** (target was 31-Aug; no completion filing through 18-Sep). Those two facts sit side by side and are unreconciled. The stock rose 11.5% to ₹1,811 on a 3.6% ROCE and a reported 235x P/E. No change to the trigger, but the Phase 1 date is now 18 days late.
+
+**10 / 11-Sep-2026 — 🟢 Cloud Wave acquisition completed — ₹234cr for 90%**  
+Reg 30 filing of 11-Sep: share purchase and shareholders' agreements executed 10-Sep and **90% of Cloud Wave Technologies (and its wholly owned subsidiaries Protohubs and Aureate) acquired for ₹234cr cash, subject to post-closing adjustments**; the remaining 10% 'may be subsequently acquired'. **FY26 audited turnover: Cloud Wave ₹107.78cr, Protohubs ₹6.54cr, Aureate ₹6.99cr.** Not a related-party deal. The filing describes it as an *'adjacency'* from services to aerospace manufacturing and 'earnings accretive over the medium term'.
+> *Why it matters:* Closed three weeks ahead of the 30-Sep the profile expected. **₹234cr for 90% implies ~₹260cr for 100%, about 2.1x the three companies' combined FY26 sales** *(my arithmetic; the profile's ~2.4x is on Cloud Wave alone)*. The company itself calls the target 'an adjacency to, rather than a continuation of' its core business.
+
+**5-Sep-2026 — ⚠️ Board approves up to ₹200cr of 12.50% unlisted NCDs to fund it**  
+Up to **20,000 unrated, unlisted, secured, redeemable NCDs of ₹1 lakh each (₹200cr), private placement, coupon 12.50% p.a. payable quarterly, tenor up to 60 months** with company prepayment and investor put options; proceeds for the Cloud Wave acquisition and transaction costs.
+> *Why it matters:* **A 12.5% cost of debt against a reported ROCE of 3.6%.** The profile's Risk 6 already flagged FY26 cash generation (CFO −₹1cr, FCF −₹135cr). Borrowing this way while Phase 1 divestment cash is still to arrive suggests the acquisition was funded ahead of the proceeds *(my inference, not a company statement)*. Whether the NCDs are repaid from divestment cash is not stated.
+
+**31-Aug → 18-Sep-2026 — 🕐 Phase 1 Akkodis divestment: still no completion filing**  
+No completion, extension or closing-condition filing appears on the BSE or NSE feed after 31-Aug. On the 13-Aug call management targeted 31-Aug.
+> *Why it matters:* **18 days late as of 18-Sep.** This is the profile's 'single most checkable near-term commitment'. Silence is the fact; the reason is not disclosed. Phase 2 (by 30-Nov) depends on Phase 1.
+
+**16-Sep-2026 — Promoter Jupiter Capital releases a pledge on 1,00,000 shares**  
+Reg 31 disclosure: pledge of **1,00,000 shares (0.23%) released** on 16-Sep in favour of Aditya Birla Capital. Jupiter Capital holds 2,36,82,047 shares (55.68%); **encumbered shares fall from 24,51,000 (5.76%) to 23,51,000 (5.53%)**.
+> *Why it matters:* A small step down, but 5.53% of the company remains pledged, about a tenth of the promoter holding. The profile did not carry the pledge figure; it is added here.
+
+**31-Aug → 18-Sep-2026 — Price ₹1,624 → ₹1,811 (+11.5%)**  
+Screener P/E 235x, ROCE 3.6%, ROE 4.1%; market cap ₹7,704cr; 52-week range ₹1,061–2,211. An investor day and plant visit was scheduled (11-Sep); FY26 annual report and 36th AGM notice (28-Sep) filed 5-Sep.
+> *Why it matters:* The multiple reflects the post-divestment story, not current earnings (Q1FY27 PAT −₹15cr).
+
+**Routine filings, not material:** Analyst-meet schedules, AGM notice and e-voting (AGM 28-Sep), annual report, BRSR, newspaper notices.
+
+**Where this was blended into the profile:** §3.5 delivery scorecard (two rows), §4 Cloud Wave section, §5.5 conviction table, §7 Risks 1 and 6.
+
+*Sweep: BSE + NSE announcements from 31-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
 ---
 
 ## 1. Business in Plain English
@@ -159,6 +198,8 @@
 | **Phase 1 divestment close** | *"targeted by August 31st"* (call, 13-Aug) | **31-Aug-2026 was yesterday. No completion filing on the exchange feed as at 31-Aug** | 🕐 **Due now — the single most checkable near-term commitment** |
 | **Phase 2 divestment close** | *"by November 30th"* | Q3FY27 | 🕐 Open |
 | **Aerospace acquisition** | *"likely to close this quarter"* (13-Aug) | **Cloud Wave announced 28-Aug; 90% to be acquired by 30-Sep-2026** | ✅ **Announced within 15 days of saying so** |
+| **Cloud Wave completion** | *"by 30-Sep-2026"* (28-Aug announcement) | **Completed 10-Sep-2026, ₹234cr cash for 90% (Reg 30, 11-Sep); funded by up to ₹200cr of 12.5% NCDs (Board, 5-Sep)** | ✅ **Delivered three weeks early** |
+| **Phase 1 divestment close — update 19-Sep** | *"targeted by August 31st"* | **No completion filing on BSE or NSE through 18-Sep-2026 — 18 days late** | 🕐 **Overdue, unexplained** |
 | **Recover ₹142cr of deferred revenue** | Q4FY26 / Q1FY27 | **"over 60 crores" recovered; balance across Q2–Q3FY27** | 🕐 **~42% done** |
 | **Exit Add Solutions GmbH** | Q1FY27 call | *"closure targeted by Q4 of FY27"* | 🕐 Open |
 | **FY27 revenue ₹1,377cr / EBITDA ₹270cr** | start of FY27, **reaffirmed 13-Aug** | **Explicitly "on a proforma annualised basis"**, not reported | 🕐 **Open — and see the note below on what that qualifier does** |
@@ -238,6 +279,8 @@
 **What is not in dispute:** the transaction closes in **two phases — Phase 1 targeted 31-Aug-2026, Phase 2 by 30-Nov-2026** — shareholders approved it on **27-Jul-2026** by special resolution as a slump sale under s.180(1)(a), and management have consistently said the proceeds fund the manufacturing build **"without any equity dilution."**
 
 ### 🆕 The Cloud Wave acquisition (announced 28-Aug-2026)
+
+> **⤴ UPDATE 19-Sep-2026 — COMPLETED.** The 90% acquisition closed on **10-Sep-2026** for **₹234cr cash** (subject to post-closing adjustments), with the 10% balance optional. **FY26 audited turnover: Cloud Wave ₹107.78cr, Protohubs ₹6.54cr, Aureate ₹6.99cr.** It was funded by **up to ₹200cr of unrated, unlisted, secured NCDs at 12.50% p.a., tenor up to 60 months** (Board, 5-Sep). The tables below are as announced on 28-Aug.
 
 | Item | Detail |
 |---|---|
@@ -345,6 +388,7 @@
 | **3-Jul-2026** *(v1)* | — | **MEDIUM-HIGH** | Profile initiated from the Q4FY26 concall, ValuePickr and four Substacks. **Written before §3.5 was mandatory — the roster, promoter background and delivery scorecard were absent.** |
 | **28-Jul-2026** *(Tier A)* | **₹1,668** | **MH → MEDIUM (Under Watch)** | **Found the two-phase Akkodis exit and correctly identified it as changing the company.** Established the promoter decline and the DII in-and-out. **Built a partial §3.5** — delivery scorecard and promoter trajectory — and **explicitly flagged the roster and promoter background as still outstanding.** **Found that Power 930 is arithmetically unreachable from the company's own FY27 guidance and that management answered the challenge with belief rather than a bridge.** **Its own valuation table was correct — CMP ₹1,497, market cap ₹6,367cr, P/E 80.6x, P/B 8.77x on 4.25cr shares.** |
 | **31-Aug-2026** *(this profile)* | **₹1,624** | **HELD at MEDIUM (Under Watch)** — no 28-Jul trigger fired | Converted to always-current format; **§3.5 retrofit closed** except the promoter-group entity table. **🟢 Q1FY27 record revenue ₹346.7cr (+42.2%); continuing ops ₹183.4cr (+94.2%); XiDA at a 29.7% margin; defence +111% with ₹4,500cr+ visibility.** **🔴 But a reported loss of ₹14.8cr, and 87% of normalised PAT came from the business being sold.** **🆕 Shareholders approved the divestment 27-Jul.** **🆕 Cloud Wave: 90% for ₹234cr cash, announced 28-Aug, closing by 30-Sep — at ~6.6x FY27E EBITDA on a target that grew 85% then 58%.** **🆕 Board: Mariam Mathew out, Ashmita Sethi in (11-Aug).** **🔴 THE FINDING: four incompatible figures for the divestment proceeds, ₹1,541cr apart, unreconciled and unquestioned.** **🔴 FY27 guidance quietly rebased to "proforma annualised".** ⚠️ **Screener's quarterly series for this stock is now incoherent and must not be used.** ⤴ **Corrected a stale figure in the preserved v1 body: its §6 read *"At CMP ₹1,668, Mcap ~₹8,300 Cr… trailing P/E of ~115x."* Neither number was right — v1's own header CMP was ₹1,593, and on ~4.25cr shares ₹1,668 gives ₹7,100cr and a P/E of ~98x, not ₹8,300cr and 115x. **The 28-Jul refresh table was correct throughout (₹1,497 / ₹6,367cr / 80.6x / 8.77x); the error was confined to the untouched v1 prose, which is a known hazard of the Tier-A "preserve v1 body" model.** |
+| **19-Sep-2026** *(filings refresh)* | **₹1,811** | **HELD at MEDIUM (Under Watch)** — trigger unchanged | **Cloud Wave completed 10-Sep (₹234cr; 12.5% NCDs up to ₹200cr); Phase 1 Akkodis close still not filed, 18 days past target; promoter released 0.23% of pledge (5.53% still pledged); stock +11.5%.** |
 
 **The trajectory in one line.** ***28-Jul called the transformation early and correctly; five weeks later the company has executed more of it than expected and disclosed the funding for it worse than expected, and the share price has gone nowhere.***
 
@@ -437,6 +481,7 @@
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — 🔴 Transaction execution, and there are six live transactions at once.** **Two divestment phases, at least two acquisitions (one unannounced), three facility builds, and one unit exit — all inside four quarters.** *Any single slip is survivable; the correlation between them is the risk, because they share management bandwidth and the same cash pool.*
+> **⚠️ UPDATE 19-Sep-2026** — Cloud Wave closed early (10-Sep). **Phase 1 of the divestment has not been reported complete, 18 days after the 31-Aug target.** The acquisition was financed with 12.5% NCDs rather than divestment cash.
 **⚠️ LIVE NOW: Phase 1 was targeted for 31 August 2026 and no completion filing has appeared.**
 
 **Risk 2 — 🔴 The divestment cash could be materially less than the headline.** **₹2,256cr / ₹1,685cr / ~₹910–920cr / ₹715cr.** **If the realised post-tax figure is at the bottom of that range, the plan funds Cloud Wave (₹234cr) and debt retirement and little else** — and the *"other Acquisitions in progress"* inside FY27 guidance would need either debt or the equity dilution management has promised to avoid.
@@ -449,6 +494,7 @@
 **⚠️ ACCUMULATING — the gap widened this quarter, not narrowed.**
 
 **Risk 6 — 🔴 Cash generation has stopped.** **FY26 CFO −₹1cr and FCF −₹135cr against +₹61cr the year before; borrowings +50% to ₹388cr.** *Management attribute much of it to the ₹142cr deferred revenue, of which "over 60 crores" has been recovered. **Checkable at Q2FY27 — and it should be checked.***
+> **⚠️ ACCUMULATING 19-Sep-2026** — up to ₹200cr of unrated 12.50% NCDs approved (5-Sep) to fund Cloud Wave; a 12.5% coupon against a 3.6% ROCE. Promoter pledge stands at 5.53% of total shares (after a 0.23% release on 16-Sep).
 
 **Risk 7 — 🟡 The sector multiple is the single biggest swing factor and it is exogenous.** **The mid-cap A&D cohort trades at 104–157x on high-single-digit ROEs while Bharat Electronics trades at 48x on 27.4%.** *A cohort de-rating hurts AXISCADES more than most, because its own earnings are the least established in the group.*
 

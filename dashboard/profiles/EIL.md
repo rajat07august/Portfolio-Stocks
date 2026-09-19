@@ -12,6 +12,37 @@
 >
 > **Meanwhile the stock is up 17.5% since that refresh, to within 1.9% of its 52-week high.** ***Better quarter, worse price, weaker pipeline — and that combination is the downgrade.***
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹266** · market cap ₹14,970 cr · P/E 19.1x · ROCE 30.4% · ROE 23.4% · 52-wk high ₹290 / low ₹164 · **vs ₹262 at baseline (+1.5%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Ministry extends the CMD's additional charge as Director (Commercial) by three months from 30-Sep; new statutory auditors for FY27; stock +1.5%</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM.** The profile's governance watch item moved: on 3-Sep the Ministry of Petroleum & Natural Gas extended the Chairman & MD's additional charge of Director (Commercial) **for three months from 30-Sep-2026, or until a regular appointment**, so the post will have been vacant for at least half a year by the end of December. The profile's trigger, 'no regular Director (Commercial) appointed by the December quarter', is therefore live. New statutory auditors for FY27 were appointed. No order, results or balance-sheet filing since 31-Aug.
+
+**3-Sep-2026 — 🟡 Additional charge of Director (Commercial) extended to the CMD for a further three months**  
+Ministry letter of 2-Sep: the competent authority approved extension of the additional charge of Director (Commercial) to **Shri Atul Gupta, C&MD, for three months from 30-Sep-2026, or until a regular incumbent is appointed, or further orders.**
+> *Why it matters:* Confirms the arrangement in place since 30-Jun and pushes the possible resolution to ~30-Dec. The commercial director is the executive responsible for order inflow; the CMD is covering both roles while the company works to win refinery and petrochemical orders.
+
+**8-9-Sep-2026 — Statutory auditors for FY27 appointed**  
+Filings record the appointment of statutory auditors for FY 2026-27 (CAG-driven, as for other public-sector companies).
+> *Why it matters:* Routine rotation; read the new auditors' first report.
+
+**31-Aug → 18-Sep-2026 — Price ₹262 → ₹266 (+1.5%)**  
+Screener P/E 19.1x, ROCE 30.4%, ROE 23.4%; market cap ₹14,970cr; promoter (President of India) 51.32%; 52-week range ₹164–290. June-quarter revenue ₹820cr, PAT ₹158cr.
+> *Why it matters:* No change to the valuation read.
+
+**Routine filings, not material:** Shareholder letters and AGM notices.
+
+**Where this was blended into the profile:** §3.5 leadership row and §5.5 conviction table.
+
+*Sweep: BSE + NSE announcements from 31-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
 ---
 
 ## 1. Business in Plain English
@@ -274,6 +305,7 @@ It also takes **turnkey (LSTK) work**, where it takes responsibility for procure
 | **3-Jul-2026** *(v1)* | — | **HIGH** | Profile initiated on *"19.3x P/E on 30.6% ROCE"* as a value-plus-quality anchor. |
 | **28-Jul-2026** *(Tier A)* | **₹223** · mcap ₹12,520cr | **HIGH → MH (Under Watch)** | **🔴 The finding: the December-2025 quarter alone was ₹347cr — 50.1% of FY26's entire ₹692cr consolidated profit — on 29% OPM against 8%, 13% and 16% in the other three quarters.** Management-confirmed causes: **a liquidated-damages provision reversal on ONE project**, **a change order above ₹200cr** (*"that is why in the previous quarter, profits were so high"*), and a **₹24cr NRL dividend**. Screener flagged ₹242cr of other income = 35% of PAT. **Normalised FY26 PAT ~₹495–540cr → real P/E ~23–25x, not the headline 18.1x.** Also found **FY26 order inflow DOWN 2.9%** and FY27 inflow guided flat. **Set the re-upgrade level at ₹180–190 (17x normalised).** Corrected an earlier in-session error that had reported EIL as having filed Q1FY27 when the rightmost column was Mar-2026. |
 | **31-Aug-2026** *(this profile)* | **₹262** · mcap **₹14,717cr** | **MH (Under Watch) → MEDIUM** | Converted to always-current format on the **Q1FY27 transcript (call 14-Aug, filed 18-Aug)** and a 21-filing NSE sweep. **🟢 THE JULY QUESTION IS ANSWERED: no write-backs, no exceptional change orders, confirmed twice — and standalone operating margin still doubled 7% → 14%.** **🟢 Consultancy revenue +22%, segment margin 17% → 24%, mix ~60%.** **🟢 RFCL JV ₹42.51cr and confirmed recurring.** **🟢 Two Independent Directors appointed 14-Aug.** **🔴 BUT Q1 order inflow was ₹514cr against an ₹8,000cr target; the order book FELL ₹15,109cr → ₹14,424cr; turnover fell 6.5%; and on the Middle East — *"New mega projects are under hold. Yes."*** **🔴 BPCL Andhra, IOCL Paradip Ph-2 and ONGC petchem all slipped on the call.** **🟡 CMD holding additional charge of Director (Commercial) since 30-Jun.** **📈 And the stock is +17.5% since the last refresh, 1.9% below its 52-week high.** |
+| **19-Sep-2026** *(filings refresh)* | **₹266** · mcap ₹14,970cr | **HELD at MEDIUM** | **Director (Commercial) additional charge extended to the CMD by three months from 30-Sep (Ministry letter 2-Sep); the December-quarter appointment trigger is live.** New FY27 statutory auditors. Stock +1.5%. |
 
 **The trajectory in one line.** ***July said the profit was lower-quality than it looked; August proved the profit is now clean but the pipeline is not — and the price has moved 40% away from the level at which the last profile said it would buy more.***
 

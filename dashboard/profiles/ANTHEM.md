@@ -2,13 +2,40 @@
 
 **Ticker:** ANTHEM · **NSE: ANTHEM · BSE: 544449** · **ISIN INE0CZ201020** · **Sector:** Pharma & Excipients (Sector 12)
 **Conviction:** **MEDIUM-LOW** — an unusually good business at a price that has already assumed the next four years
-**Thesis current as of:** 3-Sep-2026 · **Tracking since:** 3-Sep-2026 · **CMP ₹940** (Screener, 3-Sep-2026) · **Market cap ₹52,943 cr**
+**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 3-Sep-2026)* · **Tracking since:** 3-Sep-2026 · **CMP ₹940** (Screener, 3-Sep-2026) · **Market cap ₹52,943 cr**
 
 > **🟢 CONCALL GATE: GREEN — 11 primary documents.** **5 transcripts + 6 investor decks**, covering **every earnings call the company has ever held**: Aug-2025 (Q1FY26, its first post-listing call), Nov-2025, Feb-2026, May-2026 (Q4 & FY26), Jul-2026 (Q1FY27). Below the six-call standard **by structural limit, not fetch failure** — Anthem listed on 21-Jul-2025 and five calls is the complete set. Supplemented by the **FY26 Annual Report (335pp)**, the auditor-certified **KPI disclosure**, the **AGM notice and voting results**, and **eight primary filings** read individually.
 
 > **📌 LISTED 21-JUL-2025 — 100% OFFER FOR SALE.** The ₹3,395cr IPO (5,95,75,319 shares, **67x oversubscribed**) was **entirely a sale by existing shareholders. The company received nothing.** The auditor's CARO report confirms it: *"The Company has not raised any money during the year by way of initial public offer."* **This matters positively — the ₹1,720cr of net cash on the balance sheet is internally generated, not IPO proceeds.**
 
 > **🔴 THE ONE NUMBER TO CARRY.** **Three customers are 56.71% of revenue** (FY26; 61.18% in FY25). Anthem does not name them. Q1FY27 revenue fell **22.6% YoY** and management's explanation was *"timing shifts in deliveries to key customers."* **At 89x earnings, the concentration and the volatility are the same fact seen twice.**
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹928** · market cap ₹52,306 cr · P/E 88.2x · ROCE 30.4% · ROE 22.3% · 52-wk high ₹978 / low ₹579 · **vs ₹940 at baseline (-1.3%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 3-Sep-2026 → 19-Sep-2026</span> <span class="upd-sum">The ₹127.68cr Upside Sharing Arrangement to three founders was settled on 8-Sep, as approved at the July AGM; stock −1.3%</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-LOW.** The governance item the profile called 'the one that matters' has been executed: **₹127.68cr (INR 1,276.83 million) was paid to the three Upside Principal Shareholders, Ajay Bhardwaj, Ganesh Sambasivam and K. Ravindra Chandrappa, on 8-Sep-2026**, after the public shareholders approved it at the 22-Jul AGM. The payment arises from the divestment by Viridity Tone LLP, as the Waiver-cum-Amendment Agreement of 30-Dec-2024 provides. **No cash leaves Anthem's own balance sheet according to the filing text, which describes it as 'settled with' the founders; the source of the ₹127.68cr is not stated in it.** Nothing else since 3-Sep. The stock is 1.3% lower at ₹928.
+
+**8-Sep-2026 — 🟡 Upside Sharing Arrangement settled: ₹127.68cr to the three founders**  
+Reg 30 filing: 'the upside sharing arrangement set out in the Waiver-cum-Amendment Agreement dated December 30, 2024, has been given effect to' under Regulation 26(6), following public-shareholder approval at the 22-Jul-2026 AGM; **'the upside sharing amount of approximately INR 1,276.83 million arising from the divestment by Viridity Tone LLP has been settled with the Upside Principal Shareholders, namely Mr. Ajay Bhardwaj, Mr. Ganesh Sambasivam and Mr. K. Ravindra Chandrappa.'**
+> *Why it matters:* Completes the transaction on which **14.73% of all votes and 21.67% of institutional votes were cast against** (per the profile). The arrangement is a wealth transfer to the founders keyed to a financial investor's exit price; the filing does not say who bore the cost (the investor's proceeds or the company). With it settled, the profile's governance flag is now an executed fact rather than a pending item.
+
+**3 → 18-Sep-2026 — Price ₹940 → ₹928 (−1.3%)**  
+Screener P/E 88.2x, ROCE 30.4%, ROE 22.3%; market cap ₹52,306cr; promoter 71.42%; 52-week range ₹579–978.
+> *Why it matters:* Steady; no other filing since listing on the exchange feed.
+
+**Routine filings, not material:** None.
+
+**Where this was blended into the profile:** §3.5 governance section, §5.5 row.
+
+*Sweep: BSE + NSE announcements from 3-Sep-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 
@@ -106,6 +133,8 @@ Unlike NRBBEARING, this one closes. **Aruna Ganesh, a promoter-group member, sol
 **🟢 ZERO ENCUMBRANCE.** All three founders and the promoter group filed Reg 31(4)/31(5) declarations in June–July 2026 confirming **no encumbrance of any kind over any promoter share during FY26** — *"we have not made any encumbrance over shares held by us, directly or indirectly."* **Against NRB's 39.80% of capital pledged, this is a materially better starting point.** Promoter group of Ajay Bhardwaj: Arti Bhardwaj, Madhavi Jayanti, Ishaan Bhardwaj, Jyotsna Bhardwaj, Aditya Narian Capoor, Archana Mathur, **Anthem Bio Pharma Private Limited**.
 
 ### 🔴 The Upside Sharing Arrangement — the governance item that matters
+
+> **⤴ UPDATE 8-Sep-2026 — SETTLED.** The company filed that the upside sharing amount of approximately ₹127.68cr (INR 1,276.83 million) arising from Viridity Tone LLP's divestment was settled with the three founders (Ajay Bhardwaj, Ganesh Sambasivam, K. Ravindra Chandrappa), following public-shareholder approval at the 22-Jul AGM. The text below describes it as pending.
 
 Disclosed in the DRHP, RHP and Prospectus (page 237), and put to public shareholders at the 20th AGM under Regulation 26(6):
 
@@ -302,6 +331,7 @@ Anthem has sanctioned **up to ₹550cr** of financial assistance to Neoanthem, o
 | Date | CMP | Conviction | What happened |
 |---|---|---|---|
 | **3-Sep-2026** *(added to the watchlist)* | **₹940** · mcap **₹52,943cr** | **MEDIUM-LOW** | Added at Rajat's request into **Sector 12 (Pharma & Excipients)** — a CRDMO fits the existing definition alongside CONCORDBIO and MOREPENLAB, **no sector expansion triggered**. **🟢 Gate GREEN on 11 primary docs — every call since the 21-Jul-2025 listing.** **🟢 The business is the best on returns in its peer set: FY26 post-tax ROCE 30.8%, ROE 21.7%, EBITDA margin 39–43%, CFO 126% of operating profit, net cash ₹1,720cr, borrowings ₹113→₹54cr, zero promoter pledge, ICRA upgraded to AA (Stable)/A1+ on 2-Jul-2026, and the IPO was 100% OFS so none of the cash was raised.** **🔴 But three customers are 56.71% of revenue, Q1FY27 revenue fell 22.6% YoY, and TTM revenue (₹2,002cr) is now BELOW FY26 (₹2,124cr) — the multiple sits on trailing earnings that are shrinking.** **🔴 Guided ~20% revenue for FY26 in Aug-2025, delivered 15.2%, then declined to guide FY27 at all on both subsequent calls.** **🔴 Promoter holding fell 74.68% → 71.42%; cause FOUND and fully reconciled — Aruna Ganesh (promoter group) sold her entire 1.71cr shares / 3.05% on 18-Jun-2026, disclosed under Reg 29(2) on the BSE feed only; but the "Open Market" mode does not reconcile with NSE volume and is logged as an open item.** **🔴 The Upside Sharing Arrangement paid ~₹127.68cr to the three founders out of Viridity Tone's exit — passed at the AGM but with 21.67% of INSTITUTIONAL votes against, against ≤4.8% on every other resolution.** **🟡 Neoanthem/Unit 3 holds ~₹570cr of parent capital against ₹71cr of revenue and a ₹79cr loss.** **At 89x on a −22.6% quarter.** |
+| **19-Sep-2026** *(filings refresh)* | **₹928** · mcap ₹52,306cr | **MEDIUM-LOW** — unchanged | **The ₹127.68cr Upside Sharing Arrangement was settled with the three founders on 8-Sep** (approved at the 22-Jul AGM); no other filing. Stock −1.3%. |
 
 **The starting position in one line.** ***A genuinely excellent business — possibly the best operating economics on this watchlist — bought at a price that requires the three-customer revenue base to compound at 20% for years, in the same quarter that it shrank 23%.***
 

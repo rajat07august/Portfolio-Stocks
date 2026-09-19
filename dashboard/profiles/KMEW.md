@@ -2,14 +2,53 @@
 
 **Ticker:** KMEW · NSE: KMEW · BSE: 543273 · ISIN INE0CJD01029
 **Sector:** 9 — Marine Services · **Conviction:** **Medium-Low (Under Watch)**
-**Thesis current as of:** 18-Aug-2026 · **Tracking since:** 3-Jul-2026
+**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 18-Aug-2026)* · **Tracking since:** 3-Jul-2026
 
 **CMP ₹2,706** · **Market cap ₹6,892 cr** · **P/E 53.2x** · **P/B 11.6x reported / ~8.8x post-issue** (BV ₹233) · **ROCE 16.4%** · **ROE 20.0%** · **Div yield 0.00%** · Face value ₹5 · 2,53,64,317 shares
 *(Screener consolidated, 18-Aug-2026)*
 
 > **How to read this profile.** Sections 1–9 describe what I believe **today**, rewritten at each review rather than annotated. **Section 5.5 is the memory** — how the thesis got here, what changed and when, what I got wrong. **Section 9 is the community read.** Every claim is sourced to a concall (quarter named) or a filing; inferences are labelled as mine.
 >
-> **🔴 A structural disclosure gap you must hold throughout: KMEW has never held a first-quarter earnings call.** Verified across every concall Screener lists (Jun-2023 → Jun-2026) and all 143 NSE filings back to Nov-2024. The cadence is **Jun (Q4/FY), Nov (H1), Feb (Q3)**. **So the largest quarter in company history — Q1FY27, filed 14-Aug-2026 — will not be discussed with shareholders until roughly November.** Management did, however, pre-explain that quarter in detail on the Q4 call. **Five transcripts on disk** (Jun-2023, Nov-2023, Jun-2024, Feb-2026, Jun-2026); Nov-2024, Feb-2025, Jun-2025 and Nov-2025 produced decks but no transcript.
+> **⤴ CORRECTED 19-Sep-2026 — this caveat no longer holds. KMEW held its first Q1 earnings call on 26-Aug-2026 (Systematix; transcript filed 2-Sep; read in full for this refresh).** *Original text, accurate at 18-Aug:* 🔴 A structural disclosure gap you must hold throughout: KMEW has never held a first-quarter earnings call. Verified across every concall Screener lists (Jun-2023 → Jun-2026) and all 143 NSE filings back to Nov-2024. The cadence is **Jun (Q4/FY), Nov (H1), Feb (Q3)**. **So the largest quarter in company history — Q1FY27, filed 14-Aug-2026 — will not be discussed with shareholders until roughly November.** Management did, however, pre-explain that quarter in detail on the Q4 call. **Six transcripts on disk** (Jun-2023, Nov-2023, Jun-2024, Feb-2026, Jun-2026, **Aug-2026 Q1FY27 — added 19-Sep-2026**); Nov-2024, Feb-2025, Jun-2025 and Nov-2025 produced decks but no transcript.
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹2,886** · market cap ₹7,319 cr · P/E 56.5x · ROCE 16.3% · ROE 20.0% · 52-wk high ₹3,222 / low ₹1,084 · **vs ₹2,706 at baseline (+6.7%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">🔴 The profile's 'no Q1 call, ever' caveat is now false: first Q1 call held 26-Aug; FY27 growth potential raised to 'northwards of 60%'; ₹500cr NCD approved 8-Sep; new ₹62cr shipbuilding order; stock +7%</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-LOW (Under Watch), with the evidence base materially improved.** I have now read the 26-Aug Q1FY27 transcript (transcript filed 2-Sep). It **closes the profile's biggest disclosure gap** (Risk 6) and **answers the order-book concern partly**: the bid pipeline is ₹3,500cr+ against ₹2,000cr at June, but the order book itself is ‘more than ₹1,300cr’, still below ₹1,400cr at FY26 exit. **It also opens three tensions:** management said on 26-Aug that the company is *'fully capitalized'* and that promoters are 'comfortable at 50% and above'; on 8-Sep the Board approved up to **₹500cr of NCDs**, and Screener already shows promoter holding at **49.99%**. Guidance moved up (potential 'northwards of 60%' growth against 30-40%) while the near-term dredging order book is ₹240cr, of which ~₹200cr executes this year. The price is +7% to ₹2,886 at 56.5x.
+
+**26-Aug-2026 (transcript filed 2-Sep) — 🟢 First-ever Q1 earnings call — transcript read**  
+Hosted by Systematix; CEO Sujay Kewalramani and CFO Kanak Kewalramani. **Q1FY27: revenue ₹115.41cr (+138%), EBITDA ₹73.41cr (+258%, ~64%), PAT ₹62.75cr (+466%);** dredging the driver (JNPA capital dredge, completed; Pondicherry maintenance). **Order book 'more than ₹1,300cr': dredging ~₹240cr, charter & hire ~₹850cr, shipbuilding ~₹240cr**, across 8, 15 and 4 contracts, excluding a ₹200cr intercompany order to its own shipyard. **Bid pipeline ₹3,500cr+ (dredging ₹1,200cr+, charter ₹1,100cr+, shipbuilding ₹1,400cr+).** Dredging bid results expected 'in the upcoming 30 to 45 days'.
+> *Why it matters:* Closes Risk 6 and puts the record quarter on the record. The 64% margin was called 'not the guidance' — management still guides **35-40% EBITDA** and says the 57% EBITDA / 48% PAT margins over Q4+Q1 are not the guidance. **The order book is a smaller number than the ₹1,400cr in this profile; the pipeline is a much larger one.** *Dredging, the segment that produced the profit, has only ~₹240cr in hand, of which ~₹200cr is due this year* (CEO, in answer to Axis Capital).
+
+**26-Aug-2026 — ⚠️ FY27 growth 'potential northwards of 60%' against the original 30-40%**  
+Asked for FY27 guidance including the ₹60cr shifted from Q4FY26: *'the guidance initially given was 30% to 40% year-on-year. We believe the order book is streaming up well, and there is a potential in northwards of 60%'.* FY29 target ₹1,000cr revenue; capex ~₹1,000cr in the next 1.5 years (~₹250cr green tugs/vessels, ~₹450cr dredging, balance shipyard); revenue mix in 2-3 years dredging 45-50%, shipbuilding 40-45%, charter ~5%.
+> *Why it matters:* A raise on a 'potential' basis, conditional on converting the post-monsoon dredging tenders. On FY26 revenue of ~₹256cr, 60% is ~₹410cr, meaning ~₹295cr still needed after Q1 against ~₹200cr of dredging in hand plus charter and shipbuilding. *The mix plan is the important part: shipbuilding, which management itself says earns 15-20% before subsidy, goes from ~9% to 40-45% of revenue.* Management's answer is that a shipbuilding subsidy of 15-20%, paid on delivery, lifts it above 35% — a margin dependent on a government scheme paying out.
+
+**8-Sep-2026 — ⚠️ Board approves up to ₹500cr of non-convertible debentures**  
+Board outcome: raise **up to ₹500cr through NCDs** (private placement or public issue), within the ₹1,200cr borrowing limit approved 15-Mar-2026, subject to shareholder approval at the 30-Sep AGM; alteration of the memorandum for the 1:5 share split approved 14-Aug; Board's Report and the notice of the 11th AGM. A 3-Sep intimation had also listed 'convertible / non-convertible' securities, 'private placement or preferential allotment'.
+> *Why it matters:* **Two weeks after telling analysts the company is 'fully capitalized' and needs no loans to fund shipbuilding working capital, the Board approved a ₹500cr debt issue.** Both can be true (capex of ~₹1,000cr is being financed) but the message on the call and the filing differ. It is the third funding step in ten months after the ₹150cr preferential and a ₹100cr secondary block deal with SBI Funds, and the profile's Risk 5 (three years of negative free cash flow) is the one this bears on.
+
+**26-Aug-2026 — 🟢 New shipbuilding order: 10 hybrid-electric passenger ferries for IWAI, ₹62.40cr**  
+Contract from the Inland Waterways Authority of India for design, construction and supply of 10 hybrid-electric ferries (20 passengers each), ~10 months, to be built at the new Saphale yard. Yard Phase 1 due by end-FY27 (14 vessels a year, 18 at full build); shipbuilding to 'scale significantly from Q4 FY27'. 42 third-party vessels and 5 captive are in build.
+> *Why it matters:* First named use of the new yard by a third party. The call also says promoters are 'very comfortable' at 'a percentage of 50% above'; **Screener shows 49.99% at 4-Aug-2026**, after the ₹150cr preferential — i.e. marginally below the stated comfort line.
+
+**18-Aug → 18-Sep-2026 — Price ₹2,706 → ₹2,886 (+7%); P/E 56.5x**  
+52-week range ₹1,084–3,222; FII 12.64%, DII 3.90% at Aug-2026; shareholders 23,571.
+> *Why it matters:* At 56.5x TTM the stock is priced on the assumption that the 'northwards of 60%' potential is delivered.
+
+**Routine filings, not material:** Analyst-meet notices, earnings-call schedule and recording link, non-email shareholder letter, trading-window closure and reopening, AGM notice (30-Sep) and FY26 annual report.
+
+**Where this was blended into the profile:** Header disclosure-gap box, §3.5 gate line, §5.5(a) row and (b) entry, §7 Risks 1, 2, 5 and 6.
+
+*Sweep: BSE + NSE announcements from 18-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 
@@ -298,6 +337,7 @@ An analyst opened the Q4 call on exactly this:
 |---|---|---|---|---|
 | 3-Jul-2026 | Medium | ₹2,375 | ~0–5% | Initiated. *"Priced for perfection"* at 74x |
 | **18-Aug-2026** | **Medium-Low (Under Watch)** | **₹2,706** | **~−23%** | **Order book went backwards; promoter below 50% incl. a real sale; capex/depreciation. Conviction reconciled — the profile header said M while PORTFOLIO_STATE said ML since 3-Jul; ML is correct** |
+| **19-Sep-2026** *(filings refresh)* | **HELD at Medium-Low (Under Watch)** | **₹2,886** | *(not re-derived)* | **First Q1 call read (26-Aug): FY27 growth 'potential northwards of 60%' (from 30-40%), order book '>₹1,300cr' (dredging ~₹240cr), pipeline ₹3,500cr+ (from ₹2,000cr); ₹62.4cr IWAI ferry order; ₹500cr NCD approved 8-Sep despite 'fully capitalized'; promoter 49.99%.** |
 
 **Valuation, then and now:**
 
@@ -314,6 +354,13 @@ An analyst opened the Q4 call on exactly this:
 **The multiple compressed 74x → 53x while the stock rose 14% — earnings outran price.** But ~₹60cr of those earnings is borrowed from Q4FY26 and ₹6.66cr is a one-off tax write-back.
 
 ### (b) Material developments
+
+**26-Aug-2026 · `CALL` — the first-ever Q1 earnings call, and what it changed** *(transcript filed 2-Sep)*
+Management raised FY27 growth from 30-40% to a 'potential northwards of 60%'; put the order book at 'more than ₹1,300cr' (dredging ~₹240cr, of which ~₹200cr executes this year) against a pipeline of ₹3,500cr+ (was ₹2,000cr); announced a ₹62.4cr IWAI ferry contract for the new Saphale yard; set a ₹1,000cr revenue target for FY29 on ~₹1,000cr of capex; and said the EBITDA guide remains 35-40%, not the Q1 64%.
+**Why it matters:** answers the disclosure gap and the shrinking-order-book concern with numbers, but on dredging, which produced the profit, the cover is thin and depends on tenders decided after the monsoon. The pipeline is the number to track.
+
+**8-Sep-2026 · `CAPITAL` — Board approves up to ₹500cr of NCDs** (AGM 30-Sep for shareholder approval), two weeks after the call's 'fully capitalized'.
+**Why it matters:** third funding step in ten months (₹150cr preferential, a ₹100cr secondary block, now NCDs); funds the ~₹1,000cr capex but sits awkwardly with the call's message and with three years of negative free cash flow.
 
 **14-Aug-2026 · `RESULT` — the largest quarter in company history, with no exceptional item.**
 Revenue **₹115.41cr (+138%)**, PBT **₹65.33cr (+387%)**, PAT **₹62.75cr (+466%)**, EPS ₹25.67, blended EBITDA margin **63.6%**. Dredging alone went ₹27cr/35.4% → **₹104cr/71.6%**.
@@ -417,8 +464,10 @@ Note 7 of the FY26 results: **s.115VP(3) approval effective ten years from AY202
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — 🔴 The order book is shrinking while growth is guided at 30%.** ₹1,500cr → ₹1,400cr, pipeline ₹3,000cr → ₹2,000cr, ₹77.5cr converted in ten weeks. **Watch:** the ~5-Sep-2026 window management themselves set.
+> **⚠️ UPDATED 19-Sep-2026** — order book 'more than ₹1,300cr' (was ₹1,400cr), dredging ~₹240cr; pipeline ₹3,500cr+ (was ₹2,000cr); FY27 growth raised to a 'potential northwards of 60%'. The order book is still shrinking; the pipeline is the offset, with dredging results due 'in 30 to 45 days'.
 
 **Risk 2 — 🔴 Promoter holding below 50%, after a sale that contradicts a 2024 "No".** **Watch:** any further Form C filings; whether the sub-50% position is addressed on the Q2 call.
+> **⚠️ UPDATED 19-Sep-2026** — on the 26-Aug call the CEO said promoters are *'very comfortable where we are with a percentage of 50% above'* and that the company is *'fully capitalized'*. Screener shows 49.99% at 4-Aug-2026, below the stated line, and the Board approved up to ₹500cr of NCDs on 8-Sep.
 
 **Risk 3 — 🔴 Valuation leaves no room.** 53x trailing (~55x normalised), ~8.8x post-issue book, 0% yield, after a 27x increase in shareholder count since Mar-2023. **Momentum unwinds when narratives break.**
 
@@ -426,7 +475,7 @@ Note 7 of the FY26 results: **s.115VP(3) approval effective ten years from AY202
 
 **Risk 5 — 🟡 Three straight years of negative free cash flow**, and equity used twice in ten months. A third raise inside FY27 would confirm the capital treadmill.
 
-**Risk 6 — 🟡 No Q1 concall, ever.** The biggest quarter in company history goes undiscussed until ~Nov-2026, and there is **no Q1FY27 investor presentation either.**
+**Risk 6 — ✅ RESOLVED 26-Aug-2026 (was 🟡 No Q1 concall, ever).** *The first Q1 call was held and the transcript filed on 2-Sep. Original text:* The biggest quarter in company history goes undiscussed until ~Nov-2026, and there is **no Q1FY27 investor presentation either.**
 
 **Risk 7 — 🟡 Debtor days 109 against a 45–60 guidance**, ~96 even excluding the ₹16cr Mangrol claim.
 

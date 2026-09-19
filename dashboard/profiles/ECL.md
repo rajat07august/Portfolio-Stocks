@@ -2,7 +2,7 @@
 
 **Ticker:** ECL · NSE/BSE: **ELECTCAST** · BSE: 500128
 **Sector:** 16 — Water Infrastructure (Ductile Iron Pipes + Fittings + Valve Castings) · **Conviction:** **Medium-High (Cycle-Turn Play)**
-**Thesis current as of:** 17-Aug-2026 · **Tracking since:** 3-Jul-2026
+**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 17-Aug-2026)* · **Tracking since:** 3-Jul-2026
 
 **CMP ₹72.0** · **Market cap ₹4,448 cr** · **P/E 27.9x** *(on a trough TTM PAT of ₹121cr — a meaningless multiple at a cycle bottom)* · **P/B 0.75x** (book ₹95.8) · **ROCE 5.00%** · **ROE 3.04%** · **Div yield 1.27%** · 52-week range **₹60.1–₹109**
 *(Screener consolidated, 17-Aug-2026)*
@@ -10,6 +10,33 @@
 > **How to read this profile.** Sections 1–9 describe what I believe **today**, rewritten at each review rather than annotated. **Section 5.5 is the memory** — how the thesis got here, what changed and when, what I got wrong. **Section 9 is the community read.**
 >
 > **This is a cyclical at a trough, and the profile is written that way.** Earnings-based multiples are close to meaningless here; **book value is the informative anchor.** Management files a transcript every quarter and answers directly — which, across this refresh batch, is not the norm.
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹73.4** · market cap ₹4,536 cr · P/E 28.5x · ROCE 5.0% · ROE 3.04% · 52-wk high ₹102 / low ₹60.1 · **vs ₹72 at baseline (+1.9%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 17-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Omani water-technology subsidiary acquisition completed (70% of Arabian Water Tech LLC, OMR 21,000 paid); nothing else material; stock +2%</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-HIGH (Cycle-Turn Play).** One small item: a 70% stake in Arabian Water Tech LLC (Oman), approved by the Board on 10-Nov-2025, was completed on 19-Sep-2026. The amount paid was OMR 21,000. **This acquisition was not carried in the profile.** Nothing else since 17-Aug changes the cycle-turn thesis, which still waits for the Q2FY27 print.
+
+**19-Sep-2026 — Arabian Water Tech LLC (Oman) becomes a subsidiary**  
+Reg 30 filing: ECL paid **OMR 21,000 for 14,000 equity shares of OMR 1 each, a 70% holding in Arabian Water Tech LLC**, bought from two DIFC vehicles; the share certificate was received and the company is now a subsidiary. The Board had approved the purchase on 10-Nov-2025.
+> *Why it matters:* Tiny in rupee terms, and an overseas water-technology target for a ductile-iron-pipe maker whose growth thesis is Indian water spending. **Nothing is disclosed about the target's business, revenue or purpose**; the profile does not mention it. Treat as optionality until a disclosure follows.
+
+**17 → 18-Sep-2026 — Price ₹72.0 → ₹73.4 (+2%)**  
+Screener P/E 28.5x on trough earnings, ROCE 5.0%, ROE 3.0%; market cap ₹4,536cr; promoter 50.14%; 52-week range ₹60–102.
+> *Why it matters:* No change to the cycle-turn read.
+
+**Routine filings, not material:** Analyst-meet notices, AGM logistics.
+
+**Where this was blended into the profile:** §5.5 row and (b) entry.
+
+*Sweep: BSE + NSE announcements from 17-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 
@@ -232,6 +259,7 @@ From the call: *"gross debt and net debt as on 30th June 2026 stood at **Rs. 1,6
 |---|---|---|---|---|
 | 3-Jul-2026 | Medium-High *(Cycle-Turn Play)* | ~₹78 | ~+30–40% | Initiated. 0.81x book, JJM 2.0 approved as the catalyst |
 | **17-Aug-2026** | **Medium-High — HELD** | **₹72.0** | **~+30% + 1.27% yield** | **Catalyst confirmed AND funding; realisations turned +8.9%. But volumes −27%, FY27 guide cut ~7 → ~5.5 lakh t, recovery pushed to H2FY27. Low end of the v1 band** |
+| **19-Sep-2026** *(filings refresh)* | **Medium-High — HELD** | **₹73.4** | *(unchanged)* | Arabian Water Tech LLC (Oman), 70%, completed as a subsidiary (OMR 21,000); no other material filing. |
 
 **Valuation, then and now:**
 
@@ -245,6 +273,9 @@ From the call: *"gross debt and net debt as on 30th June 2026 stood at **Rs. 1,6
 | Div yield | 1.80% | **1.27%** *(dividend cut 140% → 90%)* |
 
 ### (b) Material developments
+
+**19-Sep-2026 · `M&A` — 70% of Arabian Water Tech LLC (Oman) acquired** (approved 10-Nov-2025; OMR 21,000 paid; now a subsidiary).
+**Why it matters:** an Oman-based water-technology target, but the filing discloses nothing about the target's business or size, and it was not in this profile before.
 
 **13-Aug-2026 · `FUNDING` — the JJM tap reopened, and this is the single most important disclosure of the cycle.**
 **₹67,670cr allocated centrally this year; ~₹6,000cr of a ₹10,000cr sanction already released — against *"meagre Rs. 1,560 crore released under JJM in previous financial year."*** Kejriwal expects *"the speed of order booking is going to pick up substantially"* within *"the next month or two."* **JJM 2.0 itself is confirmed at ₹8.69 lakh crore with central support raised ₹2.08 → ₹3.59 lakh crore.**

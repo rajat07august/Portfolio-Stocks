@@ -10,7 +10,46 @@
 
 > **🟢 WHAT CHANGED SINCE 28-JULY, AND IT IS THE CLEANEST TRIGGER RESOLUTION IN THIS FILE.** The July refresh downgraded MH → M on a **₹400cr fundraise with no disclosed use of proceeds**, and set an explicit upgrade trigger: *"windmill machining revenue visibly lands in the Industrial Components segment (EBIT turning up sharply on flat-ish revenue is the signature to look for) **and** the raise is deployed into a disclosed, returns-accretive asset."*
 > **Both halves have been met.** **Industrial Components EBIT went ₹2.18cr → ₹7.76cr, +256% YoY** (Q1FY27 deck). And the use of proceeds is now disclosed: **FY27 capex of ₹400–450cr against FY26's ₹261.84cr.**
-> **And the thing the downgrade actually feared — dilution with promoters standing aside — has happened in reverse.** On **19-Aug-2026** the board approved a **₹180cr preferential issue in which every single allottee is a promoter**, taking promoter holding **UP from 58.31% to ~60.4%**.
+> **And the thing the downgrade actually feared — dilution with promoters standing aside — has happened in reverse.** On **19-Aug-2026** the board approved a **₹180cr preferential issue in which every single allottee is a promoter**, taking promoter holding **UP from 58.31% to ~60.4%**. ⤴ **UPDATE 31-Aug/17-Sep-2026: the price was raised to ₹1,461 on NSE's valuation observations (same ₹180cr, 12,32,031 shares), and the EGM approved it with 99.99% of votes. The stock has since run to ₹2,176, so the issue is now ~33% below market. See the refresh block.**
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹2,176** · market cap ₹5,316 cr · P/E 32.5x · ROCE 18.8% · ROE 15.8% · 52-wk high ₹2,500 / low ₹705 · **vs ₹1,513 at baseline (+43.8%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Stock +44% in four weeks to ₹2,176 with an NSE price query and no disclosed cause; promoter preferential issue repriced to ₹1,461 and approved at the EGM</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-HIGH (Under Watch) on the business — but the profile's own return arithmetic no longer supports the price.** The 22-Aug upgrade was made at ₹1,513 with a base-case value of ₹1,653 and a bull case of ₹2,574. **At ₹2,176 the stock sits 32% above the base case and 15% below the bull case.** On the profile's unchanged scenarios and probabilities the weighted two-year return moves from +17% to roughly **−19%** *(my arithmetic on the profile's scenario values, not a re-derivation)*. Nothing filed explains the move: the company told NSE on 10-Sep there is no undisclosed price-sensitive information. **New Under-Watch trigger: price above the base-case value with no change in the earnings path.**
+
+**17-Sep-2026 (results 18-Sep) — ✅ EGM approves the ₹180cr promoter preferential issue**  
+Both special resolutions passed. **The preferential issue got 99.99% of votes polled in favour** (promoter group 100%, public 99.95%; 71.6% turnout of 2.44cr shares). The second special resolution, enhancing the fund-raising limit, also passed.
+> *Why it matters:* The promoter-funded raise is now shareholder-approved. Still outstanding on the filed record: NSE's in-principle approval, which the company was seeking when NSE raised valuation observations.
+
+**31-Aug-2026 — ⚠️ Issue price raised from ₹1,418 to ₹1,461 after NSE valuation observations**  
+NSE's letter of 27-Aug queried the valuation of the shares; the Board on 31-Aug **raised the price to ₹1,461 and kept the total at ₹180cr, so the share count falls from 12,69,391 to 12,32,031** (TSF Investments ₹150cr; Srivats Ram ₹15cr; Nivedita Ram ₹7.5cr; Gita Ram ₹7.5cr). A corrigendum to the EGM notice followed.
+> *Why it matters:* A regulator's price challenge on a related-party issue is worth recording, and it cost the promoters ~3% more per share. **The profile's '6.3% discount to market' (₹1,418 vs ₹1,513) is now a ~33% discount to today's ₹2,176**, because the price was set off an earlier volume-weighted formula and the stock ran afterwards. That is legal and formulaic, but it means the promoters are subscribing far below the market price.
+
+**9 → 10-Sep-2026 — 🔴 NSE and BSE ask about the price spurt; company says nothing undisclosed**  
+NSE (9-Sep, ref. surveillance letter) and BSE sought clarification on the significant price movement. **The company replied on 10-Sep: it has made all necessary disclosures and there is 'no undisclosed / potentially price sensitive information or any impending announcement'.**
+> *Why it matters:* The stock rose about 44% in four weeks without a company disclosure to explain it; the reply rules out undisclosed news, not speculation. The June-quarter shareholder count had already jumped 29% to 29,271 while DIIs fell to 6.39%.
+
+**6-9-Sep-2026 — Investor conference-call series and a new investor presentation**  
+Wheels held group and one-on-one meetings with fund managers and analysts from 7 to 9-Sep and posted an investor presentation. FY26 revenue split: automotive components ₹4,526cr (~83%, segment ROCE 25.3%) and industrial components ₹939cr (~17%, ROCE 6.8%).
+> *Why it matters:* The deck restates existing figures. **The price spurt began during the roadshow window; the timing is a coincidence I cannot rule out or confirm.** The segment ROCE gap (25.3% vs 6.8%) is the mix-shift argument of §3 in numbers.
+
+**22-Aug → 18-Sep-2026 — Price ₹1,513 → ₹2,176 (+44%)**  
+Market cap ₹5,316cr; Screener P/E 32.5x (was 22.6x); ROCE 18.8%, ROE 15.8%; 52-week range ₹705–2,500.
+> *Why it matters:* Multiple expansion from 22.6x to 32.5x on unchanged earnings is the whole of the move. SSWL, the peer this profile compares against, trades at 27.6x.
+
+**Routine filings, not material:** Newspaper notices, EGM corrigendum, proceedings and scrutinizer report, analyst-meet notices.
+
+**Where this was blended into the profile:** Header trigger box, §1 and §3 promoter lines, §3.5 preferential-issue section, §5.5 conviction table, §7 Risks 9 and 10.
+
+*Sweep: BSE + NSE announcements from 22-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 
@@ -67,7 +106,7 @@ The original business is steel and aluminium wheels for trucks, buses, tractors 
 
 **Moat 5 — Deleveraging while investing.** Standalone debt ₹755cr (FY23) → **₹675cr (FY26)**, D/E **1.26 → 0.72**, debt/EBITDA 1.55x. **Capex went up every year through that.**
 
-**Moat 6 — 🆕 Promoters buying, not selling.** 58.31% unmoved for twelve quarters, and now a **₹180cr preferential issue subscribed entirely by the promoter group** at ₹1,418/share, lifting them to ~60.4%.
+**Moat 6 — 🆕 Promoters buying, not selling.** 58.31% unmoved for twelve quarters, and now a **₹180cr preferential issue subscribed entirely by the promoter group** at ₹1,418/share (**repriced to ₹1,461 on 31-Aug-2026**), lifting them to ~60.4%.
 
 **Moat 7 — Genuine product breadth into one customer set.** Wheels, wind components, hydraulic cylinders, air suspension, lift axles, fabrication — sold largely to the same OEMs.
 
@@ -116,6 +155,8 @@ The original business is steel and aluminium wheels for trucks, buses, tractors 
 
 ### 🟢 The ₹180cr promoter preferential issue — the July worry, answered in reverse
 
+> **⤴ UPDATE 19-Sep-2026.** NSE's letter of 27-Aug raised observations on the issue valuation; on 31-Aug the Board **raised the price from ₹1,418 to ₹1,461 (total unchanged at ₹180cr; shares 12,69,391 → 12,32,031)** and issued an EGM corrigendum. The EGM on 17-Sep passed the special resolution with **99.99% in favour**. Numbers below are the 19-Aug terms.
+
 **Board approved 19-Aug-2026.** 12,69,391 equity shares at **₹1,418** (FV ₹10 + ₹1,408 premium), **₹180 crore total**, to:
 
 | Allottee | Shares | % of post-issue capital | ₹ cr |
@@ -134,7 +175,7 @@ The original business is steel and aluminium wheels for trucks, buses, tractors 
 
 > **⚖️ Adjudicating the July trigger honestly, because it half-fired.**
 > The 28-Jul downgrade trigger to ML read: *"(a) the raise **prices at a discount to market** **or** promoters do not participate pro-rata."*
-> **On its letter, half of (a) is met: ₹1,418 is a 6.3% discount to today's ₹1,513.** **On its intent, it failed completely.** That discount is the **SEBI ICDR formula floor** (a VWAP calculation, not a negotiated price), and the outcome the trigger was designed to catch — **outside investors buying cheap stock while promoters diluted** — is the precise opposite of what happened. **Promoters did not merely participate pro-rata; they took 100% of the tranche and increased their holding.**
+> **⤴ At the 22-Aug price. By 18-Sep the stock was ₹2,176, so the ₹1,461 issue price is a ~33% discount to market.** On its letter, half of (a) is met: ₹1,418 is a 6.3% discount to today's ₹1,513. **On its intent, it failed completely.** That discount is the **SEBI ICDR formula floor** (a VWAP calculation, not a negotiated price), and the outcome the trigger was designed to catch — **outside investors buying cheap stock while promoters diluted** — is the precise opposite of what happened. **Promoters did not merely participate pro-rata; they took 100% of the tranche and increased their holding.**
 > ***Recording it this way rather than quietly dropping it:*** **the trigger was worded imprecisely, the event it feared did not occur, and the correct response is to note both.** A better-worded version — *"the raise prices at a discount to the ICDR floor, or promoters take less than their pro-rata share"* — is what should have been written, and is what replaces it in §6.
 
 ### 📋 Delivery scorecard
@@ -382,6 +423,7 @@ Deck, verbatim: ***"Capex of FY27 is estimated to be in the region of Rs 400 to 
 | **3-Jul-2026** *(v1)* | ₹1,490 | **MEDIUM-HIGH** | Profile initiated at 23.6x on FY26: revenue ₹5,465cr (+15%), PAT ₹158cr (+41%), ROCE 18.8%. **Initiated on a name that had already re-rated +95% over the prior year.** |
 | **28-Jul-2026** *(refresh)* | **₹1,390** *(−7.04% on the day)* | **MH → MEDIUM (Under Watch)** | Q1FY27 print: **PAT −33.9% QoQ** off a GST-flattered Q4. **A ₹400cr enabling fundraise appeared with no disclosed use of proceeds**, apparently reversing a six-month-old commitment to fund capex from accruals. **DII −3.25pp in one quarter into a +29% jump in retail holders.** **The conversion model was documented for the first time — a v1 omission — and correctly identified as an FY27–FY28 call option, not a current driver.** Explicit upgrade and downgrade triggers set. |
 | **22-Aug-2026** *(this profile)* | **₹1,513** | **MEDIUM → MEDIUM-HIGH** — **upgraded; both halves of the trigger met** | Converted to always-current format. **🟢 Industrial Components EBIT ₹2.18cr → ₹7.76cr, +256% YoY — the exact "single cleanest signal" the July refresh said had not happened.** **🟢 Use of proceeds disclosed: FY27 capex ₹400–450cr vs FY26's ₹261.84cr.** **🟢 ₹180cr preferential issue, 100% promoter, taking holding 58.31% → ~60.4%.** Fund-raise limit ₹400cr → ₹450cr; EGM 17-Sep. **🔴 New concern replaces the old one: FY27 capex guidance moved ₹280–300cr → ₹400–450cr in one quarter, unexplained, and ₹270cr of authorisation is still unused.** |
+| **19-Sep-2026** *(filings refresh)* | **₹2,176** | **HELD at MH (Under Watch)** — return arithmetic stale | **Stock +44% since 22-Aug with an exchange price query and no disclosed cause (company: nothing undisclosed).** Preferential issue repriced ₹1,418 → ₹1,461 (NSE observations) and approved at the EGM. On the profile's unchanged scenarios (base ₹1,653 / bull ₹2,574 / bear ₹816) the weighted return at ₹2,176 is roughly −19%. Trigger added: price above base-case value with unchanged earnings path. |
 
 **The trajectory in one line.** **The July refresh asked three precise questions, wrote down what an answer would look like, and within four weeks got all three — in the direction that upgrades rather than downgrades.**
 
@@ -474,9 +516,11 @@ Deck, verbatim: ***"Capex of FY27 is estimated to be in the region of Rs 400 to 
 > **🟡 BEING MANAGED.** Plants consolidated (air suspension two → one, out of rented facilities); management explicitly rejects new sites: *"No new plant… no new site."* Hydraulic cylinders and fabrication turned positive in Q4FY26. **Counter-signal: the double-digit EBITDA target depends on exactly these sub-scale verticals continuing to fix themselves.**
 
 **Risk 9 — Dilution.** *(Reframed from July's "dilution with undisclosed use of proceeds.")*
+> **⚠️ UPDATE 19-Sep-2026.** The ₹180cr issue was repriced to ₹1,461 after NSE valuation observations and approved by shareholders on 17-Sep (99.99%). The ₹270cr of unused headroom is unchanged and the EGM's second resolution approved the enhancement of the fund-raising limit first approved on 12-Aug (the ₹450cr the Board proposed on 19-Aug, per this profile); I did not read the amount in the notice itself.
 > **✅ LARGELY RESOLVED for the first ₹180cr, 🕐 OPEN for the remaining ₹270cr (22-Aug-2026).** The July version of this risk assumed ~11.8% dilution to outside investors for an unstated purpose, taking ROE from 16.0% to ~11.6%. **What happened instead: 4.95% dilution, 100% to promoters, at the ICDR floor price, into a disclosed ₹400–450cr capex programme, with promoter holding rising to ~60.4%.** **The authorisation was simultaneously raised to ₹450cr, so ₹270cr of unspecified issuance remains live and is now the whole of this risk.**
 
 **Risk 10 — Institutional distribution into retail.**
+> **🔴 ESCALATED 19-Sep-2026.** The stock has risen 44% in four weeks, drawing an NSE/BSE price-movement query (9-Sep) that the company answered with 'no undisclosed information' (10-Sep). A retail-heavy register (29,271 holders, DII 6.39%) plus a sharp unexplained run is the setup this risk describes.
 > **⚠️ UNCHANGED AND STILL THE MOST UNCOMFORTABLE FACT HERE (22-Aug-2026).** **DII 18.81% (Sep-23) → 6.39% (Jun-26)**, including −3.25pp in the June quarter, while shareholder count rose **+29% in that same quarter** to 29,271. **Professionals have been selling this name for three years.** The mitigating facts are that promoter holding is untouched and now rising, and that the DII exit predates every good thing in this refresh. **Signal to watch: the DII line in the Sep-2026 pattern — below 5% would confirm a full institutional exit.**
 
 **Risk 11 — The conversion ramp is a call option that may not pay in time.**

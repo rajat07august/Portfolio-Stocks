@@ -6,6 +6,49 @@
 
 > **Note on sourcing:** Sunita Tools is a very small SME with limited concall history. Only ONE full concall transcript (H1FY25) is available. Financial data extrapolated from investor deck + BSE filings + Screener. Confidence in numbers is moderate; management-tone reading is based on very limited data points. **This profile carries more uncertainty than others in the watchlist.**
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹1,066** · market cap ₹670 cr · P/E 106x · ROCE 10.1% · ROE 10.8% · 52-wk high ₹1,150 / low ₹553 · **vs ₹741 at baseline (+43.9%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 19-Sep-2026</span> <span class="upd-sum">₹576cr order book (₹552cr defence) against ₹32cr of four-month sales, all from undisclosed counterparties; three defence MoUs; unnamed 90% acquisition; equity raise approved; stock +44%</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at SPECULATIVE. This profile was written on 3-Jul from one concall and a deck; nine weeks of company disclosures have since added claims that are large relative to the company and thin on verifiable detail.** The consolidated order book is **₹576cr as of 31-Jul, of which ₹552cr is defence, against FY26 revenue of ~₹47cr** *(Screener half-years)*. **Not one of the following is disclosed: the customer for the 155mm shell agreement, its value, the size of the 'advance tranches', the identity of the Indian OEM in the MoU, or the name and price of the 90% acquisition.** The Board also approved raising equity on 14-Aug, and the stock is **+44% to ₹1,066 at 106x**. Nothing here is shown to be false; it is unverified, and the pattern is the one a small-cap SME investor should hold to a higher evidence bar. **New Under-Watch trigger: disclosure of the shell customer and agreement value, or an equity raise priced off the run-up.**
+
+**17-Sep-2026 — 🟡 Another tranche of advance payment on the 155mm NATO-spec shell 'Interim Sales Agreement'**  
+Press release: Sunita Tools has received **another tranche of advance payment** against an Interim Sales Agreement for **NATO-spec and standard 155mm M107 empty shells**; the Chairman says 'we are production ready'. The first tranche was announced 20-Jul ('sizeable'; 2nd and 3rd 'expected to follow shortly').
+> *Why it matters:* **No amount, customer, quantity or total contract value is stated in either release.** An 'interim' sales agreement with advance payments is a preliminary arrangement, not a final supply contract. The company is a ~₹47cr-revenue mould-base maker moving into artillery-shell manufacture; production readiness at scale is asserted, not evidenced.
+
+**28-Aug-2026 — 🟡 Business update: ₹31.95cr sales in four months; order book ₹576cr; 90% of an unnamed capital-goods company acquired**  
+Consolidated net sales **₹31.95cr for the four months to 31-Jul-2026** (Q1FY27: ₹18.64cr vs ₹4.14cr, +350%). **Consolidated order book ₹576cr — defence ₹552cr, legacy ₹14cr, others ₹10cr.** Two CNC turning machines added to the Ahmedabad subsidiary; **90% of an unnamed 'capital goods manufacturing company' acquired.**
+> *Why it matters:* **Defence is 96% of the book and roughly 12x FY26 revenue.** The legacy business the profile analysed has a ₹14cr order book. The acquisition's name, price and financials are not disclosed. The growth the company cites (+350%) is off a base of ₹4cr in Q1FY26.
+
+**25-Aug-2026 (MoU signed 30-Jul) — 🟡 Framework MoU with an undisclosed '135-year-old' Indian defence OEM for 155mm shell tenders**  
+The counterparty is not named ('contractual confidentiality'). Sunita would act as **manufacturing partner** while the OEM bids as prime; the filing states the MoU **'does not create a legal consortium … nor constitute an order or tender award or specify any committed quantity, contract value, assured revenue'.**
+> *Why it matters:* The company's own wording is the correct reading: a framework, not business. Sunita offers to disclose the counterparty to BSE or SEBI on request.
+
+**30-Jul-2026 — MoU with a Polish defence manufacturer (ISR drones, loitering and smart ammunition)**  
+Intent to collaborate on research, design, development, manufacturing, marketing and sale of drones and loitering ammunition.
+> *Why it matters:* Non-binding, counterparty unnamed.
+
+**14-Aug-2026 — ⚠️ Board approves raising equity capital**  
+Board outcome: 'raising of equity capital through permissible modes, subject to approval of shareholders', with the draft board report and notice of the 39th AGM.
+> *Why it matters:* The mode, size and price are not specified. **A raise timed after a 44% run-up on undisclosed-counterparty announcements is the specific risk to watch;** compare Oriana, OBSC and Wheels, where issues were priced by SEBI formula off lower averages.
+
+**3-Jul → 18-Sep-2026 — Price ₹741 → ₹1,066 (+44%); market cap ₹670cr**  
+Screener P/E 106x, ROCE 10.1%, ROE 10.8%; promoter 62.75% (Mar-2026; was 72.98% in Mar-2024); 52-week range ₹553–1,150.
+> *Why it matters:* The multiple has moved from 74x to 106x on a profile that was already flagged for thin disclosure.
+
+**Routine filings, not material:** Investor presentation (July), book closure and AGM notices, trading-window closures, newspaper notices.
+
+**Where this was blended into the profile:** Dropdown only: the profile is in the original pre-methodology format (single concall, deck) and needs a full rewrite before any of the above can be blended into its sections.
+
+*Sweep: BSE + NSE announcements from 3-Jul-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
 ---
 
 ## 1. Business in Plain English

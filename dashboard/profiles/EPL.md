@@ -8,7 +8,42 @@
 
 > **🔴 THE MOST IMPORTANT THING IN THIS PROFILE IS NEW AND IT IS NOT ABOUT THE QUARTER.** The full structure of the Indovida merger — **who the counterparty is, the swap valuation, who ends up controlling the company, and the fact that there will be no open offer** — has been on the record since the **30-Mar-2026 announcement call**, and **no prior version of this profile carried any of it.** It is now §5.5 and §6. A holder needs these facts more than they need another quarter's margin.
 
-> **🕐 WATCH ITEM #1 FROM THE 12-AUG REFRESH IS ANSWERED, AND THE ANSWER IS "NOT YET."** That refresh said: *"Re-verify this machine transcript against the official one when EPL files it — it has filed every prior quarter."* **As of 22-Aug-2026 it has not filed.** Verified on both NSE and BSE feeds. **Historical lag is 6 days** (Q4FY26: call 14-May, transcript 20-May); this one is at **11 days and counting**, past SEBI's five-working-day window. Not an accusation — EPL's filing record is otherwise clean — but it is recorded rather than assumed away, and **the Q1FY27 quotes in this profile therefore still rest on a machine transcript.**
+> **🕐 WATCH ITEM #1 FROM THE 12-AUG REFRESH IS ANSWERED, AND THE ANSWER IS "NOT YET."** That refresh said: *"Re-verify this machine transcript against the official one when EPL files it — it has filed every prior quarter."* **As of 22-Aug-2026 it has not filed.** Verified on both NSE and BSE feeds. **Historical lag is 6 days** (Q4FY26: call 14-May, transcript 20-May); this one is at **11 days and counting**, past SEBI's five-working-day window. Not an accusation — EPL's filing record is otherwise clean — but it is recorded rather than assumed away, and **the Q1FY27 quotes in this profile therefore still rest on a machine transcript.** ⤴ **UPDATE 28-Aug-2026 — CLOSED: the official transcript was filed on 28-Aug (17 days after the call). Every numeric token in the machine version appears in the official one; nothing changed.**
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹239** · market cap ₹7,667 cr · P/E 18.7x · ROCE 17.8% · ROE 15.7% · 52-wk high ₹274 / low ₹176 · **vs ₹266 at baseline (-10.2%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">🔴 Blackstone sold its ENTIRE 26.37% stake on 1-Sep; India Ratings put AA+ on Rating Watch (Developing); official Q1FY27 transcript filed and machine version verified; stock −10%</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at HIGH (Under Watch) — a held position, and the profile's central ownership assumption changed.** Blackstone no longer owns any EPL shares; the profile said it would stay as a 16.6% joint promoter after the Indovida merger. **No EPL, Blackstone or Indorama statement in the exchange feeds says whether the scheme terms or the joint-promoter arrangement have changed.** The overhang is cleared, the operating story (Q1FY27 record growth, raised guidance) is untouched, and the 1.59x post-merger share-count arithmetic in §6 does not depend on who holds EPL shares today, so the scenario set stands *(my reading, not company guidance)*. **New Under-Watch trigger: any amendment to the scheme, or a promoter-classification statement that departs from the 30-Mar-2026 terms, forces a re-underwrite.**
+
+**1-Sep-2026 — 🔴 Blackstone (Epsilon Bidco) sells its entire stake in the open market**  
+EPL's promoter **Epsilon Bidco Pte. Ltd. filed a SEBI SAST Reg 29(2) disclosure: 8,44,79,781 shares (26.37%) held before, 0 after, mode 'open-market', date 1-Sep-2026.** Press reports (HDFC Sky, Sustainability MEA) put the average price at **₹240.57 per share, ~₹2,032cr**, with Quant Mutual Fund the largest buyer (~4.48%) and ICICI Prudential, Edelweiss, Bandhan, 360 One, Aditya Birla Sun Life, Canada's PSP and ADIA among the others. **The stock fell 8.5% to ₹239.90 on the day** *(press)*. Bandhan MF also filed a Reg 29(1) disclosure on 3-Sep.
+> *Why it matters:* (1) **This retires the 'Blackstone overhang' completely, and it contradicts two lines of the profile**: that Blackstone 'remains a joint promoter at 16.6%' post-merger, and the §5A note that a ValuePickr claim 'Blackstone will move out' was wrong. Both were correct on management's 30-Mar-2026 statement and are not correct on the 1-Sep filing. (2) **Blackstone sold at ~₹240.57, against the ₹339 per share at which the swap values EPL.** Those are the facts. *Inference, mine:* a seller that expects ₹339 in a scheme does not normally sell at ₹241 unless it wanted out on its own timetable or does not expect the scheme to deliver ₹339 to it. Neither reading is confirmed. (3) The buyers are domestic long-only funds, which is the better outcome for float quality than a strategic block.
+
+**10-Sep-2026 — ⚠️ India Ratings places EPL's AA+ Issuer Rating on 'Rating Watch with Developing Implications'**  
+Ind-Ra (action dated 10-Sep, filed 11-Sep): **Issuer Rating IND AA+ placed on Rating Watch with Developing Implications; Commercial Paper IND A1+ affirmed.** The filing gives no rationale.
+> *Why it matters:* A 'developing' watch means the agency sees the outcome as open in either direction. It arrived nine days after the ownership change and while the merger awaits SEBI, NCLT and shareholder approvals. *The reason is not stated in the filing; linking it to the merger or the exit is my inference.* It is a first negative-leaning marker on a rating that has been a support for the balance-sheet argument (net debt rose 49% in Q1FY27).
+
+**28-Aug-2026 — ✅ Official Q1FY27 transcript filed — the machine transcript is verified**  
+The transcript of the 11-Aug call was filed on 28-Aug, **17 days after the call**, against a 6-day historical lag. I compared it with the machine transcript held on file: **every numeric token in the machine version appears in the official transcript; none differs.** The only figures unique to the official file are letterhead items (ISIN, pin codes, dates).
+> *Why it matters:* **Watch item #1 (and Risk 14) is closed: the Q1FY27 quotes in this profile rest on a verified transcript.** The 17-day lag is recorded, not explained.
+
+**22-Aug → 18-Sep-2026 — 📉 Price ₹266 → ₹239 (−10%)**  
+The stock gave back its post-results run and now trades at the Blackstone block price. 52-week range ₹176–274; Screener P/E 18.7x.
+> *Why it matters:* The move is the exit, not operations. Nothing in the filings since 22-Aug contradicts the Q1FY27 record growth or the raised high-teens guidance.
+
+**Routine filings, not material:** Newspaper notices, AGM (held 16-Sep) proceedings and voting results, integrated annual report FY26 (25-Aug), shareholder dispatch letters.
+
+**Where this was blended into the profile:** Header watch-item block, §1 snapshot and ownership table, §3.5 shareholder note, §5A point 3, §5.5 conviction table, §7 Risks 1, 12 and 14.
+
+*Sweep: BSE + NSE announcements from 22-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 
@@ -20,11 +55,11 @@ The useful analogy is not a packaging company at all — **it is a co-located co
 
 **The 30-second snapshot:**
 - **HQ Mumbai**, founded 1982 · **MD & Global CEO:** Hemant Bakshi (Unilever alumnus) · **COO:** M. R. Ramasamy · **CFO:** Deepak Goyal
-- **Largest shareholder: Blackstone (Epsilon Bidco) at 26.38%** — reduced from 51.31% in the June-2025 quarter and **flat for five quarters since**. *Not the "owner" — the largest shareholder.*
+- **🔴 UPDATE 1-Sep-2026 — Blackstone (Epsilon Bidco) SOLD ITS ENTIRE 26.37% in the open market** (SAST Reg 29(2): 8,44,79,781 shares → 0; press: ~₹240.57 a share, ~₹2,032cr). *Until 30-Jun-2026 it was the* **largest shareholder at 26.38%** — reduced from 51.31% in the June-2025 quarter and **flat for five quarters since**. *Not the "owner" — the largest shareholder.*
 - **FY26 revenue ₹4,763 cr (+13%)** · EBITDA margin **20.4%** · **seven consecutive quarters above 20%**
 - **Q1FY27 revenue ₹1,388 cr (+25.3%) — the highest growth in company history** · but **EBITDA margin 18.8% reported / 19.6% underlying — the 20% streak ended at seven**
 - **Guidance RAISED** at Q1FY27: revenue *and* EBITDA growth from *"early double digits"* to **high teens**; underlying margin held at **20%**
-- **🔴 Merging with Indovida, a subsidiary of Indorama Ventures.** Share swap, no cash, EPL stays listed. **Post-merger IVL holds 51.8% and becomes promoter; Blackstone dilutes to 16.6% and stays a joint promoter.**
+- **🔴 Merging with Indovida, a subsidiary of Indorama Ventures.** Share swap, no cash, EPL stays listed. **Post-merger IVL holds 51.8% and becomes promoter; Blackstone dilutes to 16.6% and stays a joint promoter.** ⚠️ *Overtaken in part by the 1-Sep-2026 sale: Blackstone holds no EPL shares any more. No exchange filing I read says whether the scheme terms or the joint-promoter arrangement have changed.*
 - **Dividend suspended** until the merger completes. Screener's 0.94% yield is trailing; **forward yield is zero.**
 
 **Big picture in one sentence.** EPL is the world's number-one laminated tube maker, **currently growing faster than at any point in its history**, that is simultaneously **handing control to a US$13.6bn Thai polymer group through a share swap that will roughly double its scale and that triggers no open offer** — so the investable question is no longer just how the tubes business performs, but whether the terms of that swap are good for the shares you already own.
@@ -87,7 +122,7 @@ The useful analogy is not a packaging company at all — **it is a co-located co
 | 1982–2019 | **Ashok Goel family (Essel Group)** | Founder era, as Essel Propack |
 | 2019–2025 | **Blackstone via Epsilon Bidco, ~51%** | Professionalised management, Bakshi hired |
 | Jun-2025 → now | **Blackstone 26.38%**, largest shareholder | Stake reduced 51.31% → 26.42% in a single quarter |
-| **Post-merger** | **🔴 Indorama Ventures (IVL) 51.8%, promoter** | Blackstone diluted to **16.6%**, remains a **joint promoter** |
+| **Post-merger** | **🔴 Indorama Ventures (IVL) 51.8%, promoter** | Blackstone diluted to **16.6%**, remains a **joint promoter** — ⚠️ *as stated on 30-Mar-2026; Blackstone sold all its shares on 1-Sep-2026 (open market, ~₹240.57), so this row needs the company's own confirmation* |
 
 **Promoter holding — cross-checked against NSE's filed shareholding master (§4A standard), not Screener alone:**
 
@@ -105,7 +140,7 @@ The useful analogy is not a packaging company at all — **it is a co-located co
 
 **Screener carries the sell-down as two flagged cons — *"Promoter stake declined 25.2% over 3 years"* and *"Low promoter holding: 26.4%"* — alongside *"Company has delivered a poor sales growth of 9.03% over past five years."* **All three are true and all three are backward-looking:** the sell-down is a completed 2025 event, and the five-year sales figure spans the COVID trough and predates the 16%→20% margin rebuild.
 
-**Screener and NSE's filed master agree at every point checked.** The 24.93pp reduction happened entirely in the June-2025 quarter and **nothing has moved since — five flat quarters.** The Blackstone overhang is a finished event.
+**Screener and NSE's filed master agree at every point checked.** The 24.93pp reduction happened entirely in the June-2025 quarter and **nothing has moved since — five flat quarters.** The Blackstone overhang is a finished event. ⤴ **UPDATE 1-Sep-2026: it is now finished in the literal sense — Epsilon Bidco sold the whole 26.37% (SAST Reg 29(2)).**
 
 **⚠️ But note the June-2026 institutional rotation: FII 17.22% → 14.07% (−315bps), DII 10.20% → 13.80% (+360bps).** A near one-for-one handoff from foreign to domestic institutions. On a 45.75% float that is absorbable — **and note the direction: domestic institutions are BUYING, at 13.80%. That is the opposite of the pattern flagged elsewhere in the watchlist, where AXISCADES sits at 1.96% DII and AURIONPRO at 1.47%.** **Whether the FII exit continues is the live watch item** — particularly with a Thai controlling shareholder arriving.
 
@@ -333,7 +368,7 @@ Last quarter an analyst had to raise it (*"I noticed no dividend this time"*), p
 
 **2. 🔴 Control changes hands with no open offer, and that is a real structural cost to minorities.** A group that ends up with **51.8%** and the promoter designation does so via a scheme, which does not trigger the takeover-code open offer that an equivalent market acquisition would. **This is legal and routine — and it also means minority holders never get the chance to exit at a control premium.** The point has been raised on ValuePickr in exactly these terms (§9) and, on the mechanics, the forum is right.
 
-**3. ⚠️ One forum claim is wrong and worth correcting: Blackstone does not exit.** The thread states *"Indorama will become the new promoter and **Blackstone will move out**."* Management said the opposite on the record — **Blackstone dilutes to 16.6% and remains a joint promoter with board representation.** *"In the next 12 months nothing changes till the approvals come through."*
+**3. ⤴ SUPERSEDED 1-Sep-2026 — this correction no longer holds: Blackstone has sold its entire stake (SAST Reg 29(2), 1-Sep-2026).** *Original text, correct on management's 30-Mar-2026 statement:* ⚠️ One forum claim is wrong and worth correcting: Blackstone does not exit. The thread states *"Indorama will become the new promoter and **Blackstone will move out**."* Management said the opposite on the record — **Blackstone dilutes to 16.6% and remains a joint promoter with board representation.** *"In the next 12 months nothing changes till the approvals come through."*
 
 **4. The accretion claim is checkable, and it holds.** *This arithmetic is mine, built from disclosed inputs — it is not company guidance.* Blackstone going 26.38% → 16.6% implies share count rises ~**1.59x**. Combining EPL's TTM PAT of ₹393cr with a reasonable estimate for Indovida (₹809cr EBITDA at 21.3% on ₹3,800cr, net cash so minimal interest → PAT plausibly ₹365-405cr) gives combined PAT of roughly **₹760-800cr on ~50.8cr shares ≈ EPS ₹15-16, against ₹12.10 today — around +30% accretive.** **That is consistent with "hugely accretive." It is not proof of it**, because Indovida's PAT is an estimate and no combined statement exists.
 
@@ -349,6 +384,7 @@ Last quarter an analyst had to raise it (*"I noticed no dividend this time"*), p
 | **28-Jul-2026** *(refresh)* | ~₹230 | **HELD at HIGH (Under Watch)** — the only non-downgrade of that batch | FY26 print grounded. **EBIT +18% grew faster than EBITDA +15.8%**, rebutting the sharpest analyst challenge. Net debt/EBITDA 0.52x, CFO ₹723cr. **But: the dividend is SUSPENDED pending the merger** — payout 66% → 44% → 21% — and **no merger filing since May**. Watch set on merger progress. |
 | **12-Aug-2026** *(refresh)* | **₹243** | **HELD at HIGH (Under Watch)** — trigger changed | Q1FY27, machine-transcribed from audio the same week (**EPL confirmed as a held position and moved to Tier 1 of the audio policy**). **Record +25.3% growth; guidance raised to high teens; CCI + eight-country antitrust cleared** — the exact thing the prior refresh flagged as stalled. **But the seven-quarter 20% streak ended** and net debt rose 49%. Watch moved from *merger progress* to *margin and balance sheet*. |
 | **22-Aug-2026** *(this profile)* | **₹266** | **HELD at HIGH (Under Watch)** — trigger unchanged, one item resolved and one added | **+9.5% in ten days; the stock now sits 2.9% below its 52-week high of ₹274**, having been at ₹176 within the year. Converted to always-current format. **🔴 The full merger structure — Indorama Ventures as counterparty, ₹339 swap valuation, IVL at 51.8% as promoter, Blackstone diluted to 16.6%, and NO OPEN OFFER — is incorporated for the first time** (§5A). Promoter holding cross-verified against NSE's filed master. **Watch item #1 answered: the official Q1FY27 transcript has still not filed at 11 days, against a 6-day historical lag.** |
+| **19-Sep-2026** *(filings refresh)* | **₹239** | **HELD at HIGH (Under Watch)** — trigger added | **🔴 Blackstone sold its entire 26.37% on 1-Sep (~₹240.57, ~₹2,032cr); India Ratings put AA+ on Rating Watch Developing (10-Sep); official transcript filed 28-Aug and the machine transcript verified.** Stock −10% since 22-Aug. New trigger: any scheme amendment or promoter-classification statement departing from the 30-Mar-2026 terms. |
 
 **The trajectory in one line.** In three weeks the operating story got better and the price got much better — **and the largest single fact about this investment turned out to have been sitting unread in a transcript on disk since March.**
 
@@ -392,6 +428,7 @@ Last quarter an analyst had to raise it (*"I noticed no dividend this time"*), p
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — Merger execution: delay, renegotiation, or failure at a regulatory gate.**
+> **⚠️ ACCUMULATING (19-Sep-2026)** — Blackstone sold its entire stake on 1-Sep and India Ratings placed the AA+ Issuer Rating on Rating Watch with Developing Implications on 10-Sep. Neither is a statement about the scheme, but both arrived while approvals are pending and no filing addresses the joint-promoter arrangement.
 > **✅ MATERIALLY DE-RISKED (22-Aug-2026)** — **CCI approval plus antitrust clearance across eight countries** landed during Q1FY27, which is the hard part of a cross-border scheme. **🕐 But SEBI, NCLT and shareholder approvals remain, no completion date has ever been stated, and no NCLT filing has been disclosed.** The 12-month guide dates from Mar-2026. **Signal to watch: an NCLT filing, and any statement of a completion date.**
 
 **🆕 Risk 2 — Control passes to Indorama Ventures with no open offer to minorities (NEW — 22-Aug-2026).** IVL ends at **51.8%** and becomes promoter; the scheme-of-amalgamation route means **no takeover-code open offer**, confirmed on the record by the CFO. Minorities never get an exit at a control premium. **Beyond the mechanics, this is a governance change in kind:** a financial sponsor with a fixed horizon is replaced by a **US$13.6bn strategic operator in the polymer value chain** — which brings integration, capital and emerging-market reach, and also brings related-party surface area between a listed subsidiary and its parent's polymer supply chain that does not exist today. **Signal to watch: the scheme document's related-party and raw-material-sourcing provisions; board composition post-merger.**
@@ -420,11 +457,11 @@ Last quarter an analyst had to raise it (*"I noticed no dividend this time"*), p
 
 **Risk 11 — Retail-heavy float.** 91,469 shareholders; public 45.75%. Down from the 1,12,227 peak right after the Blackstone sell-down, which is a healthier direction than it looks.
 
-**Risk 12 — No strategic-parent buffer today.** Blackstone is a financial holder. **This risk is being retired by the merger and replaced by Risk 2** — the question changes from "who backs this company" to "whose interests does the controlling shareholder serve."
+**Risk 12 — No strategic-parent buffer today.** ⚠️ *(19-Sep-2026: now more literal — the financial holder has left entirely, so until the merger completes no shareholder holds a controlling block.)* Blackstone is a financial holder. **This risk is being retired by the merger and replaced by Risk 2** — the question changes from "who backs this company" to "whose interests does the controlling shareholder serve."
 
 **🆕 Risk 13 — Indovida's disclosed economics are unverified, and management has declined to explain the best number (NEW — 22-Aug-2026).** EPL relayed Indovida Q1 figures of **+25% revenue, +62% EBITDA, 27% margin (+614bps), ~₹383cr EBITDA in the quarter** — which would make it comparable in size to EPL and materially more profitable. **Asked directly whether it contained a one-off, management said: *"We are not able to comment on the underlying reasons for the results because we are in a period where we are still seeking approval on the merger."*** **A 614bps single-quarter move is exactly the shape a one-off makes.** This may be a genuine legal constraint rather than evasion — but the holder carries the uncertainty either way. **Signal to watch: the first combined statement, or the scheme document's financials.**
 
-**🆕 Risk 14 — The official Q1FY27 transcript has not been filed (NEW — 22-Aug-2026).** Call held 11-Aug; **nothing filed at 11 days on either the NSE or BSE feed**, against a 6-day historical lag and SEBI's five-working-day window. **This profile's Q1FY27 quotes therefore rest on a machine transcription that has been figure-checked against the deck and press release but not against an official text.** Small, and recorded rather than glossed. **Signal to watch: the filing itself — and re-verify the machine transcript against it when it lands.**
+**🆕 Risk 14 — The official Q1FY27 transcript has not been filed (NEW — 22-Aug-2026).** ✅ *RESOLVED 28-Aug-2026: filed and verified against the machine transcript (see refresh block).* Call held 11-Aug; **nothing filed at 11 days on either the NSE or BSE feed**, against a 6-day historical lag and SEBI's five-working-day window. **This profile's Q1FY27 quotes therefore rest on a machine transcription that has been figure-checked against the deck and press release but not against an official text.** Small, and recorded rather than glossed. **Signal to watch: the filing itself — and re-verify the machine transcript against it when it lands.**
 
 ---
 

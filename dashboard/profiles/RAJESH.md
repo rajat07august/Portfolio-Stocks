@@ -13,6 +13,41 @@
 
 > **📋 WHAT THIS REFRESH FOUND.** Since the 16-Jul Tier-A refresh: **₹1,165.94cr of new orders in four weeks**; **a first entry into Odisha and a deepened Rajasthan position**; **a CRISIL outlook upgrade**; **a New Zealand subsidiary**; **an Independent Director resigning off four committees**; **two Regulation 29(2) share sales from the promoter side**; and **a share price that has fallen 47% in a year and now trades at 9.90x earnings on a 48.6% return on capital.**
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹757** · market cap ₹1,364 cr · P/E 9.50x · ROCE 48.6% · ROE 42.9% · 52-wk high ₹1,625 / low ₹750 · **vs ₹791 at baseline (-4.3%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">New independent director and MD made Chairman; AGM (24-Sep) seeks Section 185 power to lend to group entities and a ₹500cr Section 186 limit; FY26 annual report: debtor turnover −27%; stock −4%</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at HIGH (Under Watch), no trigger change.** The 3-Sep Board partly answers the profile's 'governance layer is thin': a new independent director (Chetash Mehta) and reconstituted committees. It also **combines the Chairman and MD roles in the promoter MD** and puts to the 24-Sep AGM **special resolutions that would let the company lend to, and guarantee loans of, group entities and entities in which directors are interested (Section 185), and lift the investment/loan/guarantee limit (Section 186) to ₹500cr.** The FY26 annual report confirms the working-capital picture the profile already carries: debtor turnover fell from 8.39x to 6.14x (−26.9%). The stock is 4% lower at ₹757 (9.5x).
+
+**3-Sep-2026 (annual report 3 and 10-Sep) — 🟡 AGM asks shareholders for power to lend to group entities**  
+The AGM notice (24-Sep, VC) carries special resolutions: **(6) borrowing powers up to ₹1,500cr under s.180(1)(c)** *('to execute the order book on time, the company may require additional fund limits / liquidity')*; **(7) approval under Section 185 to give loans, guarantees or security for loans of group entities and entities in which directors are interested, for their principal business activities**; **(8) investments, loans, guarantees and security up to ₹500cr under Section 186**; **(9) re-designation of MD Kurang Panchal as Chairman and Managing Director for five years from 24-Sep, remuneration unchanged.** Final dividend ₹1 per share (face value ₹10).
+> *Why it matters:* **The Section 185 resolution is the new governance item.** The company says the Board 'would carefully evaluate' proposals and fund them from internal accruals. The profile records related-party structure and promoter-family selling; a standing permission to lend to entities in which directors are interested is a real widening of what management may do without a further vote. No amount is stated for Section 185. A ₹500cr ceiling under Section 186 compares with a ~₹1,364cr market cap.
+
+**3-Sep-2026 — Independent director appointed; MD becomes Chairman & MD; committees reconstituted**  
+Board (3-Sep): appointed **Mr. Chetash Mehta** as Additional Non-Executive Independent Director (five-year first term, subject to the AGM) and re-designated **Kurang Ramchandra Panchal from Managing Director to Chairman and Managing Director**; committees reconstituted.
+> *Why it matters:* Partly repairs the 11-Aug resignation of the independent director who sat on all four committees. **The offsetting point is concentration: Chair and MD in the same promoter.** Mr. Mehta's background is not in the filing text I read.
+
+**Annual report FY26 (Reg 34) — Working-capital ratios confirm the profile**  
+Debtors' turnover 6.14x vs 8.39x (−26.89%); return on net worth 42.68% vs 55.45%; debt-equity 0.31 vs 0.29; operating margin 12.39% vs 12.37%; unexecuted order book + L1 ₹3,326cr at 31-Mar-2026.
+> *Why it matters:* Consistent with the profile's WC-stress watch (debtor days 62 → 78). The AR does not add a Q2 data point; the next hard evidence is the H1FY27 result (Oct-Nov).
+
+**31-Aug → 18-Sep-2026 — Price ₹791 → ₹757 (−4%)**  
+Screener P/E 9.5x, ROCE 48.6%, ROE 42.9%; market cap ₹1,364cr; promoter 72.70%; 52-week range ₹750–1,625, i.e. ₹757 is at the bottom of its range.
+> *Why it matters:* Trading at the 52-week low on unchanged fundamentals; no order announcements since the profile date (the last cluster was July-August).
+
+**Routine filings, not material:** Dividend record-date intimation (15-Sep), revised annual report re-filing (10-Sep).
+
+**Where this was blended into the profile:** §3.5 governance thread, §5.5 conviction table.
+
+*Sweep: BSE + NSE announcements from 31-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
 ---
 
 ## 1. Business in Plain English
@@ -242,7 +277,7 @@ When a state distribution utility decides that its overhead 11kV network in a co
 
 **Thread E — 🟢 And a rating agency looked at the same balance sheet and raised the outlook.** **CRISIL A-/Stable → A-/Positive on 15-Jul, six weeks into a share-price collapse.** ***CRISIL sees the audited accounts, the order book and the bank facilities. It is not a guarantee of anything, but it is a considered third-party view that disagrees with the price.***
 
-**Thread F — 🔴 The governance layer is thin and just got thinner.** **One Independent Director sat on all four board committees and resigned on 11-Aug; no replacement in twenty days.** **Institutions are down to 4.20% combined.** **A New Zealand subsidiary was announced without a rupee figure.**
+**Thread F — 🔴 The governance layer is thin and just got thinner.** ⤴ **UPDATE 3-Sep-2026: a new independent director (Chetash Mehta) was appointed and committees reconstituted; the MD was made Chairman & MD; and the 24-Sep AGM seeks a Section 185 approval to lend to/guarantee group and director-interested entities and a ₹500cr Section 186 limit.** *Text below was written before these:* **One Independent Director sat on all four board committees and resigned on 11-Aug; no replacement in twenty days.** **Institutions are down to 4.20% combined.** **A New Zealand subsidiary was announced without a rupee figure.**
 
 **Thread G — 🟡 The price has decoupled from the operations.** **Down 47% in a year and 51% off the high, while revenue grew 47%, PAT grew 54%, the order book grew, and the credit outlook was raised.** ***I cannot find an operating fact in the filings that explains a halving. The candidates are the working-capital deterioration, the November order-book miss, and BSE-SME illiquidity in a weak small-cap tape — and the first of those is genuine.***
 
@@ -257,6 +292,7 @@ When a state distribution utility decides that its overhead 11kV network in a co
 | **3-Jul-2026** *(v1)* | **₹854** · mcap ₹1,538cr | **HIGH** · ~170% | Profile initiated. **48.6% ROCE, order book ₹3,326cr (2.7x revenue), bid book ₹6,000cr, 10.7x P/E — "cheapest quality Power T&D EPC name in the watchlist."** Moved from Sector 13 into the newly created Sector 19 on 23-Jul. |
 | **16/18-Jul-2026** *(Tier A)* | **₹871** · mcap ₹1,568cr | **HELD at HIGH** · ~170% | FY26 print grounded. **🟢 Revenue +47%, PAT +54%, BESS project signed (a new adjacency).** **🔴 First-ever delivery miss recorded: FY26 exit order book ₹3,326cr against a Nov-2025 guide of ₹4,500cr.** **🔴 Working-capital blow-up materialised: CFO −₹41cr vs −₹16cr, debtor days 62 → 78, CFO/OP 11% → 4%.** ***Set the explicit trigger: "the base case now REQUIRES CFO to turn positive H1FY27 — if it doesn't, this is a conviction downgrade trigger to MH."*** Also flagged a data-quality issue — the Apr-2026 transcript on disk had an md5 identical to the Jan-2026 file. |
 | **31-Aug-2026** *(this profile)* | **₹791** · mcap **₹1,424cr** | **HELD at HIGH (Under Watch)** — *the tag is new; the trigger is unchanged and not yet testable* | Converted to always-current format on a **28-filing BSE sweep**. **🔴 QUEUE CORRECTION: RAJESH REPORTS HALF-YEARLY — last results 23-Apr-2026, none since. There is no Q1FY27. Moved to the C2 bucket.** **🟢 But it publishes voluntary quarterly business updates: Q1FY27 revenue ₹436.62cr, order book ₹3,741.79cr at 30-Jun.** **🟢 ₹1,165.94cr of orders won 9-Jul → 4-Aug — the best four weeks on record — including a first entry into Odisha (OPTCL ₹211.68cr, 17-Jun) and a deepened Rajasthan position (RVPNL ₹75.05cr).** **🟢 CRISIL outlook raised A-/Stable → A-/Positive.** **🟢 Execution independently confirmed by DIACABS's ₹195.48cr order *from* Rajesh on 11-Aug.** **🔴 Independent Director Viral Ranpura resigned 11-Aug off all four committees, no replacement.** **🟡 Two Reg 29(2) sales from the promoter side totalling under 1%.** **🆕 New Zealand subsidiary, investment undisclosed.** **📉 And the stock is down 47% in a year at 9.90x.** |
+| **19-Sep-2026** *(filings refresh)* | **₹757** · mcap ₹1,364cr | **HELD at HIGH (Under Watch)** — no change | New independent director and MD made Chairman & MD (3-Sep); AGM special resolutions seek Section 185 power to lend to group/director-interested entities and a ₹500cr Section 186 limit; annual report: debtor turnover 8.39x → 6.14x. Stock at its 52-week low. |
 
 **The trajectory in one line.** ***Every operating number the last profile asked for has come in better, the one financial number it made a trigger of will not be visible until November, and the share price has fallen by half in the meantime.***
 

@@ -14,10 +14,53 @@
 > **And v1's central judgement has been vindicated.** It recorded management's **26–28% EBITDA guidance as a ❌ MISS** (FY26 delivered 22.8%), split the cause *"60% transitory, 40% structural"*, and predicted **"Base-case FY27 EBITDA margin: 23–24.5%."** **Management has now formally reset guidance to standalone 24–26% and consolidated 22–24%.** ***v1 called the reset a year before it happened.***
 
 > **🆕 WHAT IS GENUINELY NEW SINCE v1 (3-Jul-2026, re-rated 10-Jul).**
-> **1. 🟢 The Bliss open offer has COMPLETED — on schedule.** v1 had it *"pending."* Deputy CFO Vishal Thakkar: *"We've got the **SEBI approval**, also the open offer that was to be coming in has come in, and **August 10 was the last date** for any shareholder to offer their shares, **which has been successfully concluded**, and now we are in the process of closing."* **A mechanism v1 did not have: Anupam acquired 100% of Mates Visa Consultancy Private Limited (17-Jul) purely to act as the PAC for the offer.**
+> **1. 🟢 The Bliss open offer has COMPLETED — on schedule.** ⤴ **UPDATE 17-Sep-2026: the financing is now visible — Mates issues up to ₹300cr of secured NCDs guaranteed and pledged by Anupam (signing pending), a further ₹160cr of NCDs went to the 19-Sep Board, and CRISIL's A+ remained on Watch Developing on 31-Aug.** v1 had it *"pending."* Deputy CFO Vishal Thakkar: *"We've got the **SEBI approval**, also the open offer that was to be coming in has come in, and **August 10 was the last date** for any shareholder to offer their shares, **which has been successfully concluded**, and now we are in the process of closing."* **A mechanism v1 did not have: Anupam acquired 100% of Mates Visa Consultancy Private Limited (17-Jul) purely to act as the PAC for the offer.**
 > **2. 🆕 ETFA — a world first, and absent from v1 entirely** *(zero mentions)*. Announced 11-Jun-2026, three weeks before v1: *"Anupam Rasayan India Limited becomes the **first company in the world** to commercialise **ETFA (Ethyl trifluoroacetate) using flow chemistry**."*
 > **3. 🆕 BASQUEVOLT — also absent from v1** *(zero mentions; announced 15-Jul, after v1)*. A Letter of Intent for **~USD 300 million spread over ten years**, with **commercialisation beginning in FY27** and the technology *"fairly with us"* already.
 > **4. A COO was appointed on 14-Aug-2026 — Mr. Ravi Desai.**
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹1,208** · market cap ₹13,750 cr · P/E 78.7x · ROCE 7.38% · ROE 5.55% · 52-wk high ₹1,415 / low ₹1,045 · **vs ₹1,258 at baseline (-4.0%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Bliss GVS acquisition financing approved: ₹300cr of secured NCDs at the Mates vehicle, guaranteed and pledged by Anupam; ₹160cr more NCDs on the 19-Sep agenda; CRISIL A+ still on Watch; new six-year US supply contract; stock −4%</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-LOW.** The debt behind the Bliss GVS pharma acquisition is now visible, and it sits on Anupam's own balance sheet: the Board on 17-Sep approved a **₹300cr senior secured NCD issue by wholly owned Mates Visa Consultancy, backed by an unconditional, irrevocable Anupam corporate guarantee, a pledge of 100% of Mates, and a call option over Mates for Purebliss Pharma**, plus a pledge of Anupam's 15% stake in Purebliss. **A further ₹160cr of NCDs was on the 19-Sep Board agenda.** CRISIL, on 31-Aug, kept the A+ rating on **Watch with Developing Implications** pending funding clarity. Against this, the company announced a **six-year supply contract with a US specialty-metal manufacturer in a new end-market** and topped up its Tanfac stake by ₹61cr. The stock fell 4% to ₹1,208 (78.7x) and is only 14% below its 52-week high. Net: financing risk rose, and an order arrived whose value is not disclosed.
+
+**17-Sep-2026 — ⚠️ ₹300cr NCDs at Mates, guaranteed and pledged by Anupam, with a call option to Purebliss**  
+Board outcome: **Mates Visa Consultancy Pvt Ltd (100% subsidiary) proposes up to 30,000 senior secured unrated unlisted NCDs of ₹1 lakh each, up to ₹300cr, on private placement.** Anupam approved (a) a **pledge over 100% of Mates**, (b) an **unconditional and irrevocable corporate guarantee** of the NCDs, and (c) a **call option** granting **Purebliss Pharma Solutions** the right to buy all of Mates. Separately it approved a **pledge of its 15% stake in Purebliss** for Purebliss's own financing. **Signing is still pending.**
+> *Why it matters:* The profile records Mates as the vehicle acquired on 17-Jul to act as the acquirer's PAC for Bliss GVS. **CRISIL's 31-Aug rationale says ARIL 'will undertake debt of Rs 300 crore' for the deal, so this is very probably that debt** *(my inference; the filing does not name Bliss GVS)*. It converts an acquisition funded through a subsidiary into a parent guarantee: ₹300cr is ~18% of the ₹1,620cr of bank facilities CRISIL rates. The call option gives a third party a path to take Mates, which is where the shares would sit.
+
+**16-Sep-2026 (Board 19-Sep) — ⚠️ Further ₹160cr of secured rated unlisted NCDs on the Board agenda**  
+Prior intimation: Board to consider on 19-Sep raising **up to ₹160cr via secured, rated, unlisted redeemable NCDs on private placement.** The outcome is not on the feed as of 18-Sep.
+> *Why it matters:* Matches the ₹160cr of rated NCDs already listed under CRISIL's rating; whether it is a refinancing or new debt is not stated. Combined with Mates, up to ₹460cr of new secured debt in one week.
+
+**31-Aug-2026 — ⚠️ CRISIL keeps the A+ / A1 ratings on Watch with Developing Implications**  
+On ₹1,620cr of bank facilities and ₹160cr of NCDs. Reason: **the acquisition of a 43.3-48.2% stake in Bliss GVS Pharma**, funding through debt, equity or accruals; CRISIL expects **₹300cr of debt with the balance funded by a global investment fund as non-controlling, non-voting equity**, and does not expect the rating to move more than one notch. FY26: revenue ₹2,365cr (from ₹1,439cr), **operating margin 22.19% (27.67%)**, inventory 324 days (510), receivables 148 days (190).
+> *Why it matters:* A watch that has continued is unresolved risk, not comfort. The rationale confirms the profile's point that FY26's +64% revenue is consolidation. CRISIL's own words: the acquisition is 'expected to be completed during September 2026'.
+
+**5-Sep-2026 — 🟢 Six-year supply contract with a US specialty-metal manufacturer, in a new segment**  
+Press release and Reg 30 filing: **supply contract for a specialty chemical product to 'a major speciality metal manufacturer headquartered in the United States'**, arrangement to continue over **six years**, dispatches from the **latter half of Q3FY27**; described as a 'new segment' in the 'geological resource sector'. **Consideration is 'linked to quantities and deliveries'; no value is disclosed.** No promoter interest; not a related-party transaction.
+> *Why it matters:* A genuine diversification step with a named category of customer, but **without a value it cannot be sized against the ₹2,365cr revenue base**. The profile's watch on what is organic versus consolidated is unchanged.
+
+**7 / 9-Sep-2026 — Tanfac stake topped up by ₹60.88cr; new Deputy CFO**  
+Anupam subscribed to **2,60,065 Tanfac shares at ₹2,341 (₹60.88cr, ~0.73% of Tanfac's post-issue capital)** to offset passive dilution from Tanfac's own QIP. **Ms. Hetvi Vyas appointed Deputy CFO and KMP from 8-Sep.**
+> *Why it matters:* Cash out of the parent (₹61cr) to hold its position in a listed subsidiary that just raised its own capital. The deputy CFO addition is administrative.
+
+**24-Aug → 18-Sep-2026 — Price ₹1,258 → ₹1,208 (−4%)**  
+Screener P/E 78.7x, ROCE 7.4%, ROE 5.6%; market cap ₹13,750cr; promoter 59.07%; 52-week range ₹1,045–1,415. FY26 annual report filed 8-Sep (not read for this refresh).
+> *Why it matters:* Multiple stays elevated on low returns on capital.
+
+**Routine filings, not material:** AGM notices, record date, BRSR, newspaper notices.
+
+**Where this was blended into the profile:** §1 Bliss bullet, §5.5 conviction table.
+
+*Sweep: BSE + NSE announcements from 24-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 
@@ -306,6 +349,7 @@ This is **custom synthesis and CDMO** — a customer (a global agrochemical, pha
 | **3-Jul-2026** *(v1)* | ₹1,272 | **HIGH** *(header)* | Profile initiated at **85.1x on 7.36% ROCE and 5.50% ROE**. Covered the Tanfac and Jayhawk consolidations and the **Bliss GVS definitive agreement with the open offer pending**. Recorded the **26–28% EBITDA guidance as a ❌ MISS** (FY26: 22.8%) and predicted **FY27 of 23–24.5%.** Called three acquisitions in four years *"a lot."* |
 | **10-Jul-2026** *(re-rate)* | — | **HIGH → MEDIUM** | Formal downgrade, recorded only as a footnote at the bottom of §3.5: *"~9-12% CAGR + 85x P/E on 7.4% ROCE + missed 26-28% margin guide + Bliss GVS integration risk. **H rating not supportable on this return + ROCE combination.**"* **🔴 The profile header was never updated and still said "High" seven weeks later.** |
 | **24-Aug-2026** *(this profile)* | **₹1,258** | **MEDIUM → MEDIUM-LOW** — and all three sources reconciled | Converted to always-current format; **the concall folder created for the first time.** **🟢 The Bliss open offer concluded on 10-Aug, inside the guided window** — SEBI approval obtained, closing in progress. **🆕 Two things v1 had zero mentions of: the ETFA world-first in flow chemistry (11-Jun) and the BASQUEVOLT $300m/10-year LoI (15-Jul).** **🔴 And the margin guidance has been formally cut from 26–28% to a consolidated 22–24% — exactly the reset v1 predicted.** **🔴 DII holding has collapsed 2.24% → 0.38%**, unremarked in any prior version. |
+| **19-Sep-2026** *(filings refresh)* | **₹1,208** | **HELD at MEDIUM-LOW** | **Bliss financing: ₹300cr Mates NCDs with an Anupam guarantee and pledges (17-Sep); ₹160cr more NCDs on the 19-Sep agenda; CRISIL A+ on Watch Developing (31-Aug). Six-year US supply contract (value undisclosed); Tanfac stake topped up by ₹61cr.** |
 
 **The trajectory in one line.** **v1 diagnosed this correctly and downgraded within a week; the intervening seven weeks have delivered good strategic news, a formal margin cut, and a balance sheet that keeps growing** — *and the header stayed stale the entire time.*
 

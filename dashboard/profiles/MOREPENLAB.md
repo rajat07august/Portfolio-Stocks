@@ -9,6 +9,33 @@
 > **Seven transcripts are on disk (Nov-2023 → May-2025), and every one is at least fifteen months old.** For the last five quarters — **Q1FY26 through Q1FY27** — there are **investor presentations, press releases and results filings but no management Q&A.**
 > ***The consequence: the entire CDMO transformation this profile describes happened in the window during which the company stopped taking analyst questions. The word "CDMO" appears zero times in the May-2025 transcript.*** **Everything about the new strategy in §4 is management's own written framing, unchallenged. It is labelled as such throughout.**
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹121** · market cap ₹6,625 cr · P/E 56.4x · ROCE 8.05% · ROE 5.33% · 52-wk high ₹124 / low ₹33.0 · **vs ₹104 at baseline (+16.3%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 1-Sep-2026 → 19-Sep-2026</span> <span class="upd-sum">First phase of the capacity expansion completed ahead of schedule (API/CDMO reactors 535 KL → 614 KL); stock +16% to ₹121; still no earnings call</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM (Under Watch — the disclosure gap).** The company reported completion of the first expansion phase early: installed API and CDMO reactor capacity rose from **535 KL to 614 KL, +14.8%**. It adds no revenue, customer or margin information and is not a substitute for the earnings call the profile's single trigger asks for. **No call has been announced** in the exchange feed since 1-Sep. The stock is +16% to ₹121, within 3% of its ₹124 52-week high, at 56x.
+
+**7-Sep-2026 — 🟢 First phase of manufacturing capacity expansion completed ahead of schedule**  
+Reg 30 filing: the first phase of the expansion programme is complete 'ahead of the previously indicated timeline'; **installed reactor capacity for API and CDMO rises from 535 KL to 614 KL (+79 KL).** The company says it 'strengthens manufacturing readiness for the ongoing scale-up of commercial CDMO supplies'.
+> *Why it matters:* Delivers a milestone on time (early). **The filing does not state the ultimate target capacity, the capex, the customer supplied or the timing of later phases**, and it uses 'commercial CDMO supplies' without naming the ₹825cr mandate the profile questions (CDMO vs CMO). It does not resolve that question.
+
+**1 → 18-Sep-2026 — 📈 Price ₹104 → ₹121 (+16%)**  
+Screener P/E 56.4x, ROCE 8.1%, ROE 5.3%; market cap ₹6,625cr; promoter 35.66% unchanged; 52-week range ₹33–124. FY26 annual report and AGM notice filed 2-Sep (not read for this refresh).
+> *Why it matters:* A 16% rise in two and a half weeks on a capacity press note, with no transcript since 17-May-2025, leaves the stock relying on management statements the market cannot test. The profile's single trigger is unchanged: whether a call is held at the Q2FY27 results (~Nov-2026).
+
+**Routine filings, not material:** AGM notice, BRSR, letters to non-email shareholders, newspaper notices.
+
+**Where this was blended into the profile:** §5.5 conviction table.
+
+*Sweep: BSE + NSE announcements from 1-Sep-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
 ---
 
 ## 1. Business in Plain English
@@ -253,6 +280,7 @@
 | Date | CMP | Conviction | What happened |
 |---|---|---|---|
 | **1-Sep-2026** *(v1 — added to the watchlist)* | **₹104** · mcap **₹5,682cr** | **MEDIUM (Under Watch)** | Added at Rajat's request. **Concall gate 🟡 AMBER and the reason is the finding: no earnings-call transcript since 17-May-2025, verified independently on both NSE and BSE feeds.** Seven transcripts on disk (Nov-2023 → May-2025), all 15+ months old; the last five quarters have decks and press releases only. **🟢 Q1FY27 is the best quarter in company history — revenue ₹575.31cr (+34%), EBITDA ₹87.72cr (+207%) at 15.25% against 6.65%, PAT ₹56.35cr (+394%) — on an ₹825cr CDMO mandate entering full commercialisation with ₹58cr dispatched, and a fourth consecutive USFDA inspection with Nil Form 483.** **🔴 Against that: FY26 revenue was flat and PAT fell 19%; free cash flow has been negative in five of six years (−₹127cr in FY26); working-capital days have gone 17 → 122 over six years; borrowings are up 617% in two years to ₹208cr; promoter holding is 35.66% and institutions hold 2.74%.** **🟡 And the medical devices business — the glucometer annuity — is being slump-sold into a subsidiary as a material related-party transaction whose timeline has already needed extending.** **Stock +123% in a year, 5.5% below its high.** |
+| **19-Sep-2026** *(filings refresh)* | **₹121** · mcap ₹6,625cr | **HELD at MEDIUM (Under Watch)** | **First phase of capacity expansion completed early (API/CDMO reactors 535 → 614 KL, +14.8%; 7-Sep).** No call, customer or margin disclosure; stock +16% in 17 days. |
 
 **The starting position in one line.** ***A real transformation, on a real regulatory moat, at a demanding price, disclosed entirely one-way.***
 

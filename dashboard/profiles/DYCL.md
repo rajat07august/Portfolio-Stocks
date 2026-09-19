@@ -2,7 +2,7 @@
 
 **Ticker:** DYCL · NSE: DYCL · BSE: 540795
 **Sector:** 14 — Power T&D Components · **Conviction:** **Medium**
-**Thesis current as of:** 18-Aug-2026 · **Tracking since:** 18-Aug-2026
+**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 18-Aug-2026)* · **Tracking since:** 18-Aug-2026
 
 **CMP ₹465** · **Market cap ₹2,254 cr** · **P/E 24.7x** · **P/B 4.93x** (book ₹94.4) · **ROCE 26.2%** · **ROE 19.9%** · **Div yield 0.11%** · Jaipur, Rajasthan
 *(Screener standalone — see the basis note below — 18-Aug-2026)*
@@ -16,6 +16,41 @@
 > **DYCL's Screener *consolidated* page serves blank ratios.** Every ratio above is therefore **standalone**, via the documented plain-URL fallback (`/company/DYCL/`) — the same pattern flagged in PORTFOLIO_STATE for ACCENT, NETWEB, OBSC, SATHLOKHAR and SYSTEMATIC. DYCL has no material subsidiaries, so standalone ≈ consolidated here, but the basis is stated rather than assumed (§0A, MPS lesson).
 >
 > **Concall gate: 🟢 GREEN.** Eight transcripts on disk (Oct-2024 → Jul-2026) plus four decks — above the six-concall standard. Every management quote below is verbatim from those transcripts. Where a figure is mine rather than management's, it is labelled.
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹457** · market cap ₹2,216 cr · P/E 24.3x · ROCE 26.2% · ROE 19.9% · 52-wk high ₹560 / low ₹237 · **vs ₹465 at baseline (-1.7%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">FY26 annual report read: the ₹344.75cr related-party guarantee claim finds no support (related-party collateral fell from ₹5cr to nil; total contingent liabilities ₹207.5cr); senior QA manager resigns; stock −1.7%</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM.** The profile's open question, whether DYCL had ~₹344.75cr of corporate guarantees to entities linked to the Chairman's family, can now be answered from the audited FY26 accounts (filed 22-Jun-2026 and not read at the profile date). **I found no such guarantee.** The FY26 contingent-liability note totals **₹207.52cr, of which ₹174.36cr is ordinary bank guarantees and ₹25.11cr bills discounted under LCs; 'collateral security of company property against borrowing by related party' was ₹5.00cr at March 2025 and is nil at March 2026.** The related-party tables show only small rent, sales (₹1.96cr to Mangal Electrical) and loan movements, and a ₹11cr property purchase from Shiv Kripa Pipes in FY25. **The second-hand ₹344.75cr figure is not supported by the FY26 statements or their FY25 comparatives.** *Remaining caution:* the September-2026 greenfield plant timing is not updated in any filing since 18-Aug, and the promoter-director loan flow persists.
+
+**Annual report FY26 (filed 22-Jun-2026; read 19-Sep-2026) — ✅ The ₹344.75cr related-party guarantee is not in the audited accounts; the ₹5cr collateral is released**  
+**Notes to accounts (₹ lakh): contingent liabilities 20,751.97 in total — bank guarantees 17,436.11 (14,137.31), bills discounted under LCs 2,511.31 (1,207.97), income-tax demands 265.31 (755.11), disputed indirect taxes 194.06 (208.11), export obligation 345.19 (399.24), and 'collateral security of company property against borrowing by related party' nil (500.00).** 'Investment in related party (financial guarantee)' 23.64 in FY25, nil in FY26. Related parties: Shiv Kripa Pipes LLP, Indokrates Pvt Ltd, Mangal Electrical Industries, Dynamic Metal, Tech Mangal; **Ashish Mangal remuneration ₹534.81 lakh (500.00); directors' loans taken 1,327.23 and repaid 1,287.24 (Ashish) and 342.41/312.92 (Rahul); loans payable 132.84 and 88.27.** CRISIL A/Stable and A1 reaffirmed 20-Mar-2026.
+> *Why it matters:* **Closes the profile's second open question in the direction of no evidence for the claim,** though I did not have the FY25 report itself, only its comparatives in the FY26 report. The one related-party contingent item that existed (₹5cr collateral for Mangal Electrical, matching the ₹5cr in the FY25 auditor's report) has been released. Bank guarantees rose 23% to ₹174cr, which is ordinary for a cable maker bidding for tenders.
+
+**10-Sep-2026 — Senior QA manager resigns**  
+Mr. Awadh Kumar Ojha, Deputy General Manager (Quality), a senior management personnel, resigned for personal reasons with effect from the close of 10-Sep.
+> *Why it matters:* A quality lead leaving during a greenfield ramp is worth noting; no successor is named.
+
+**2-3-Sep-2026 — Exchange price-movement query; company reply**  
+NSE and BSE sought clarification on a significant price movement (2-3 Sep); the company replied that it has disclosed everything with a bearing on price and 'has not withheld any material information'.
+> *Why it matters:* Standard reply; no undisclosed event stated.
+
+**18 → 18-Sep-2026 — Price ₹465 → ₹457 (−1.7%)**  
+Screener P/E 24.3x, ROCE 26.2%, ROE 19.9%; market cap ₹2,216cr; promoter 68.18%; 52-week range ₹237–560. Investor meet notices 18-Sep.
+> *Why it matters:* No change to the valuation read; the greenfield plant's commissioning was guided for September 2026 and no filing confirms it.
+
+**Routine filings, not material:** Investor-meet notices.
+
+**Where this was blended into the profile:** §3.5 related-party section and §5.5 rows; open-question item resolved.
+
+*Sweep: BSE + NSE announcements from 18-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 
@@ -327,6 +362,7 @@ The threads reinforce each other **only if the plant lands.**
 | Date | Conviction | CMP | Weighted 2yr | What set it |
 |---|---|---|---|---|
 | **18-Aug-2026** | **Medium** | **₹465** | **~+30%** *(base +26% / bull +103% / bear −48%)* | **Initiated.** Elite capital efficiency (26% ROCE, 20% ROE, near-debt-free) and the cheapest listed cable multiple at 24.7x — **against volume growth of 5-6%, a flat order book, and a greenfield plant 15-18 months late** |
+| **19-Sep-2026** *(filings refresh)* | **HELD at Medium** | **₹457** | *(~+30% at ₹465; not re-derived)* | **FY26 annual report read: the ₹344.75cr related-party guarantee claim has no support in the audited notes; the ₹5cr related-party collateral is released; total contingent liabilities ₹207.52cr.** Senior QA manager resigned (10-Sep). Stock −1.7%. |
 
 ### (b) The dated baseline
 
@@ -368,7 +404,7 @@ Oct-2024 said Q1FY26; the current guidance is **September 2026** — a slip of r
 
 **🟡 All ratios are standalone, stated not assumed.** DYCL's Screener *consolidated* page serves blank ratios, so the plain-URL fallback was used. **DYCL has no material subsidiaries so standalone ≈ consolidated — but the basis is declared** (§0A, the MPS lesson).
 
-**🔴 One open item is carried forward as the highest-priority question, unresolved rather than answered.** The **₹344.75cr of related-party corporate guarantees** raised on ValuePickr (post #42, 5-Aug-2026) against **₹457cr of net worth**. The FY25 AR's auditor's report discloses a **₹5cr** guarantee to **Mangal Electrical Industries** — whose MD is DYCL's own Chairman, Rahul Mangal — while the RPT note reportedly shows ~₹344.75cr against **Shiv Kripa Pipes** and **Indokrates**. Management's Q4FY26 answer described an Indo Krates guarantee flowing **to DYCL's bank** as collateral, now withdrawn — **which may be the same transaction from the other end, or something different.** **The ₹344.75cr figure is second-hand from a forum reader and has not been verified against the AR itself. This is not an allegation; it is an open item, and it must be reconciled before conviction rises.**
+**⤴ UPDATE 19-Sep-2026 — ANSWERED IN THE DIRECTION OF NO SUPPORT.** The FY26 annual report (filed 22-Jun-2026) shows total contingent liabilities of ₹207.52cr, of which the only related-party item, ₹5.00cr of collateral security for a related party's borrowing, is nil at 31-Mar-2026; no ₹344.75cr guarantee appears in the notes or their FY25 comparatives. *Original text below:* 🔴 One open item is carried forward as the highest-priority question, unresolved rather than answered. The **₹344.75cr of related-party corporate guarantees** raised on ValuePickr (post #42, 5-Aug-2026) against **₹457cr of net worth**. The FY25 AR's auditor's report discloses a **₹5cr** guarantee to **Mangal Electrical Industries** — whose MD is DYCL's own Chairman, Rahul Mangal — while the RPT note reportedly shows ~₹344.75cr against **Shiv Kripa Pipes** and **Indokrates**. Management's Q4FY26 answer described an Indo Krates guarantee flowing **to DYCL's bank** as collateral, now withdrawn — **which may be the same transaction from the other end, or something different.** **The ₹344.75cr figure is second-hand from a forum reader and has not been verified against the AR itself. This is not an allegation; it is an open item, and it must be reconciled before conviction rises.**
 
 ---
 
@@ -436,7 +472,7 @@ FY28 revenue ~₹1,300cr, PAT margin 6.0% → **PAT ~₹78cr** at **15x** → **
 1. **🔴 Volume growth never recovers.** The single biggest risk. If 5-6% is the real run-rate rather than a base/deferral artefact, then the 18-20% guidance is an aluminium illusion and the stock is not cheap at 24.7x — it is fairly priced for a 6% grower.
 2. **🔴 Aluminium reverses.** Revenue falls mechanically. Management have already noted *"we have already seen a reversal in raw material prices."* Margin is protected; the optics are not.
 3. **🔴 The plant slips a ninth time.** Eight consecutive misses is a pattern, not bad luck. Every quarter of delay is a quarter of capacity rationing with the order book already flat.
-4. **🔴 The ₹344.75cr related-party guarantee question is unresolved.** Against ₹457cr of net worth. Until the FY26 AR is read, this is an unquantified governance exposure. **Not an allegation — an open item.**
+4. **⤴ 19-Sep-2026: the ₹344.75cr related-party guarantee question is answered — no support in the FY26 audited notes (contingent liabilities ₹207.52cr; related-party collateral ₹5cr → nil).** *Original:* 🔴 The ₹344.75cr related-party guarantee question is unresolved. Against ₹457cr of net worth. Until the FY26 AR is read, this is an unquantified governance exposure. **Not an allegation — an open item.**
 5. **🟡 Adani and Birla enter B2B power cables in earnest.** Management's answer amounted to *"we'll wait and watch."* Approval cycles protect DYCL for perhaps 2-3 years, not forever.
 6. **🟡 Working capital keeps absorbing the cash.** WC days 56→74→82; FY26 FCF ₹4cr. Growth from here needs either working capital release or fresh borrowing.
 7. **🟡 Key-man and family-governance concentration.** One MD carries the operating story; five family members in senior roles; two independent directors.

@@ -17,6 +17,33 @@
 > **The allottees are the story:** **Malabar India Fund** (all 8,32,177 warrants, ₹15.0cr), **ValueQuest** (₹29.0cr), **Motilal Oswal Financial Services** (₹15.0cr), **WhiteOak Capital** (₹5.5cr), **Calliope Capital Advisors** (₹5.0cr), an AIF Category II fund, **Ashika Global Finance** (₹2.0cr), **Anantroop Financial Advisory** (₹1.0cr) and one individual (₹5.0cr).
 > **📌 And note the anchor: those institutions paid ₹721 on 6 August. The stock is ₹900 today — a 24.8% premium to informed money, in under three weeks.**
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹1,059** · market cap ₹3,166 cr · P/E 81.3x · ROCE 28.6% · ROE 23.5% · 52-wk high ₹1,100 / low ₹366 · **vs ₹900 at baseline (+17.7%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">US subsidiary signs a 36-month sales-representation and utility-approvals agreement covering 19 states (no order, no value); stock +17.7% to ₹1,059 at 81x</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at HIGH (Under Watch — valuation and cash conversion).** One commercial item and it is a channel, not an order: a sales-representation and utility-homologation agreement in the US. **The price is the larger news: +17.7% in three weeks to ₹1,059, 81x trailing earnings**, which makes the profile's valuation watch-item harder to justify holding at HIGH without a matching earnings or order event. The agreement is the second US-channel step after the Widemann/Electrolink partnerships and the US subsidiary already in the profile (Thread C: 'the international channel was built before the product').
+
+**11 / 14-Sep-2026 — 🟡 US representation agreement: Ensales Electrical Associates covers 19 states for 36 months**  
+Press release: YASH HV USA Inc. appointed **Ensales Electrical Associates (North Carolina) as sales representative** for 36 months from 11-Sep, covering **sales representation plus utility homologation and approvals across 19 US states**. Portfolio: LV high-current bushings up to 25,000 A, OIP condenser bushings up to 245 kV, and **RIP/RIS condenser bushings up to 230 kV 'available from 2027 onwards'.** Additional products can be added by mutual consent.
+> *Why it matters:* **No order, volume, revenue or minimum-purchase commitment is stated.** The value is homologation: US utilities qualify suppliers slowly, and a representative with approvals experience shortens that. The RIP/RIS range that carries the higher margin is not available until 2027, so revenue from this channel is at least a year away.
+
+**24-Aug → 18-Sep-2026 — 📈 Price ₹900 → ₹1,059 (+17.7%)**  
+Screener P/E 81.3x, ROCE 28.6%, ROE 23.5%; market cap ₹3,166cr; promoter 54.79% (after the preferential issue; the profile records dilution, not selling); 52-week range ₹366–1,100.
+> *Why it matters:* Near the 52-week high with no earnings or order event since 24-Aug; the H1FY27 print (~Nov) is the next test of the 'cash conversion' half of the watch flag.
+
+**Routine filings, not material:** Analyst-meet and AGM notices.
+
+**Where this was blended into the profile:** §5.5(a) row.
+
+*Sweep: BSE + NSE announcements from 24-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
 ---
 
 ## 1. Business in Plain English
@@ -289,6 +316,7 @@ They look like ribbed ceramic cones on top of a substation transformer. **They a
 | **3-Jul-2026** *(v1)* | ₹831 | **HIGH** | Profile initiated at **61.1x on 28.6% ROCE / 23.5% ROE**. Built on four cited concall reads — **though the folder was empty.** Correctly identified the **RIP core import-substitution** thesis and the greenfield as the central lever. |
 | **12-Aug-2026** *(correction)* | — | — | **Header corrected: the profile had read "NSE: YASHHIGHV". Verified against NSE's `EQUITY_L.csv` — no such symbol exists. BSE 544310 is the only feed.** |
 | **24-Aug-2026** *(this profile)* | **₹900** | **HELD at HIGH (Under Watch — valuation and cash conversion)** | Converted to always-current format; **first full refresh; concall folder created (11 PDFs).** **🔴 QUEUE CORRECTION: YASH does not report quarterly. There is no Q1FY27 — Screener's columns run Sep/Mar only, and the 3-Aug board meeting was the FY26 Board's Report, a ₹1.40 dividend and an ESOP, not results.** **🆕 A ₹106cr preferential issue allotted 6-Aug to Malabar, ValueQuest, Motilal Oswal and WhiteOak at ₹721 — delivered inside a stated ₹100–110cr range.** **🆕 FY26 was a record year: revenue +57%, EBITDA +75%, margin 25.7%, order book ₹400cr+.** **⚠️ And two promoter-holding series that do not agree, resolved in favour of Screener's.** |
+| **19-Sep-2026** *(filings refresh)* | **₹1,059** | **HELD at HIGH (Under Watch)** — valuation flag sharper | US subsidiary signs a 36-month representation and homologation agreement (Ensales, 19 states; no value stated; RIP/RIS from 2027). Stock +17.7% to 81x with no earnings or order event. |
 
 **The trajectory in one line.** **v1 got the thesis right and the reporting cadence wrong** — *and the seven weeks since have delivered a record year, a well-priced institutional raise, and a greenfield still four months from its decisive test.*
 

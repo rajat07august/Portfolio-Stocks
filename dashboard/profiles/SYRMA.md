@@ -2,7 +2,7 @@
 
 **Ticker:** SYRMA · NSE: SYRMA · BSE: 543573
 **Sector:** 5 — EMS / Electronics · **Conviction:** **Medium-High**
-**Thesis current as of:** 15-Aug-2026 · **Tracking since:** 3-Jul-2026
+**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 15-Aug-2026)* · **Tracking since:** 3-Jul-2026
 
 **CMP ₹1,465** · **Market cap ₹28,254 cr** · **P/E 76.1x** · **P/B 9.9x** (book ₹148) · **ROCE 16.8%** · **ROE 14.0%** · **Div yield 0.10%** · 52-week range **₹634–₹1,543**, **+112% over one year**, 3-year price CAGR **48%**
 *(Screener consolidated, 15-Aug-2026)*
@@ -10,6 +10,41 @@
 > **How to read this profile.** Sections 1–9 describe what I believe **today**, rewritten at each review rather than annotated. **Section 5.5 is the memory** — how the thesis got here, what changed and when, what I got wrong. **Section 9 is the community read.**
 >
 > **Concall gate: ✅ CLEARED.** Q1FY27 call held **30-Jul-2026**, transcript filed **4-Aug-2026** (90,971 chars), on disk with five earlier transcripts (May-2025 → Jun-2026), the deck and the press release. Management: **J.S. Gujral (MD)**, **Jayesh Doshi (WTD)**, **Jaidit Singh Brar (CEO — new)**, **Bijay Agrawal (CFO)**, **Nikhil Gupta (Head IR)**. Analysts included **ICICI Securities, Motilal Oswal, JP Morgan**.
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹1,729** · market cap ₹33,338 cr · P/E 89.8x · ROCE 16.8% · ROE 14.0% · 52-wk high ₹1,765 / low ₹634 · **vs ₹1,465 at baseline (+18.0%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Elemaster JV plant inaugurated in Bengaluru; Kaga JV company incorporated; Executive Chairman re-appointed; stock +18% to ₹1,729 at 90x</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-HIGH.** Two JV milestones landed on schedule: the **Syrma SGS Elemaster (60/40) high-reliability facility in Bengaluru was inaugurated on 2-Sep**, and the **Syrma Kaga Electronics (60/40) company was incorporated on 18-Aug**. Neither states capex, capacity or revenue. The Board re-appointed Sandeep Tandon as Executive Chairman and named Jayesh Doshi Whole-Time Director. The stock rose 18% to a 52-week high at 90x trailing earnings; the profile's ~+15% weighted return at ₹1,465 is thin at ₹1,729 *(my scaling, scenarios not re-derived)*.
+
+**2-Sep-2026 — 🟢 Syrma SGS Elemaster high-reliability manufacturing facility inaugurated (Bengaluru)**  
+Press release: the JV **Syrma SGS Elemaster Private Limited (Syrma 60% / Elemaster of Italy 40%; completed 14-Apr-2026)** inaugurated its new manufacturing facility in Bengaluru, aimed at sectors where quality and reliability standards are stringent.
+> *Why it matters:* The first physical output of the Elemaster JV. **No capex, capacity, customer or revenue figure** is given, so the contribution to Syrma's ~₹6,350cr annualised June-quarter revenue *(₹1,589cr × 4, my arithmetic)* cannot be sized yet.
+
+**18-Aug-2026 — 🟢 Syrma Kaga Electronics Private Limited incorporated (60/40 with Kaga)**  
+MCA certificate of incorporation issued 18-Aug for the JV with Kaga Electronics India (Syrma 60% / Kaga 40%); authorised capital ₹1 lakh at incorporation. The profile records a combined initial investment of ~₹24-25cr.
+> *Why it matters:* A paper milestone; operations and orders follow.
+
+**25-Aug-2026 — Executive Chairman re-appointed; Whole-Time Director appointed**  
+Board (25-Aug): **re-appointed Sandeep Tandon as Executive Chairman** and **appointed Jayesh Nagindas Doshi as Whole-Time Director**.
+> *Why it matters:* Continuity of the promoter-chairman. The filing does not state Mr. Doshi's function; the profile's management roster should be updated at the next full review.
+
+**15 → 18-Sep-2026 — 📈 Price ₹1,465 → ₹1,729 (+18%)**  
+Screener P/E 89.8x (was 76.1x), ROCE 16.8%, ROE 14.0%; market cap ₹33,338cr; promoter 42.28%; 52-week high ₹1,765.
+> *Why it matters:* Multiple expansion of 18% with no new earnings; investor meets scheduled 3-Sep and 14-Aug.
+
+**Routine filings, not material:** Analyst-meet schedules, AGM notices, name-change update for a group entity (10-Sep).
+
+**Where this was blended into the profile:** §5.5 conviction table.
+
+*Sweep: BSE + NSE announcements from 15-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 
@@ -260,6 +295,7 @@ And Gujral on the backdrop:
 |---|---|---|---|---|
 | 3-Jul-2026 | **Medium** | ~₹1,010 | ~+10% | Initiated at **82.8x** on the view that the multiple priced growth that had yet to appear |
 | **15-Aug-2026** | **Medium → Medium-High** | **₹1,465** | **~+15%** | **The growth appeared — revenue +67%, PAT +112%, guidance to be exceeded, order book quantified, cash flow positive — and the multiple came DOWN to 76.1x anyway. The only upgrade in the batch** |
+| **19-Sep-2026** *(filings refresh)* | **HELD at Medium-High** | **₹1,729** | *(~+15% at ₹1,465; thinner at ₹1,729)* | **Elemaster JV plant inaugurated (2-Sep); Syrma Kaga incorporated (18-Aug); Executive Chairman re-appointed. Stock +18% to 90x.** |
 
 **🎯 Downgrade back to Medium if:** working capital days rise above 71 again in Q2FY27 without a stated reason, **or** FY27 revenue growth falls below the 35% guide, **or** PCB commissioning slips beyond April 2027.
 **🎯 Upgrade to High if:** the *"giants"* convert to series supply with disclosed volumes, **and** operating cash flow holds above 65% conversion through a year of 30%+ growth.

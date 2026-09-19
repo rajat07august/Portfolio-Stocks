@@ -14,6 +14,33 @@
 
 > **🆕 AND THE TRANSCRIPT CONTAINS THE ONE THING THAT MOST CHANGES HOW Q2FY27 SHOULD BE READ.** **A US tariff refund of *"anywhere around ₹50 crores plus"* net lands in Q2FY27 and is NOT in guidance.** CFO Deepak Joshi: *"the quarter 1… **there was no impact of tariff. We didn't receive anything in the quarter 1.** However, we have received roughly **30% to 40%** of what we are expecting in quarter 2… **we will get full in Q2. That is my expectation.**"* **The refresh's own downgrade trigger is *"operating margin falls back below 24%"* at Q2 — and a Q2 flattered by a ₹50cr one-off could hide exactly the deterioration that trigger is designed to catch.** *That is now flagged explicitly in §6.*
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹6,724** · market cap ₹15,623 cr · P/E 40.3x · ROCE 18.1% · ROE 13.5% · 52-wk high ₹7,990 / low ₹2,691 · **vs ₹7,124 at baseline (-5.6%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">No company event beyond FY26 annual report and dividend-tax notice; stock −5.6% to ₹6,724</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-HIGH (Under Watch) — a held position; nothing filed that changes the thesis.** The FY26 annual report (31-Aug) and the dividend tax-deduction letter (26-Aug) are the only substantive filings. The annual report has been filed but **not read for this refresh**, so any disclosure inside it (related parties, contingent liabilities, capex status) is not reflected. The stock is 5.6% lower at 40.3x reported earnings, still priced for the Q1FY27 margin peak of 27%.
+
+**31-Aug-2026 — FY26 annual report filed**  
+Annual report for FY2025-26 filed with the exchanges; dividend record date and AGM notice were filed earlier in the month.
+> *Why it matters:* **Not read for this refresh.** It is the source for the related-party note and the FY26 capex and tariff-refund disclosures the profile flags as open; read it before relying on either.
+
+**22-Aug → 18-Sep-2026 — Price ₹7,124 → ₹6,724 (−5.6%)**  
+Screener P/E 40.3x, ROCE 18.1%, ROE 13.5%; 52-week range ₹2,691–7,990. Jun-2026 quarter: revenue ₹633cr, operating margin 27%, PAT ₹133cr (from Screener). DII holding 6.35%, FII 4.22%.
+> *Why it matters:* The multiple is still that of a business printing peak-margin quarters. The profile's Under-Watch item about the Q2FY27 tariff refund (~8 points of margin) is untouched by anything filed since.
+
+**Routine filings, not material:** AGM notice and proceedings, record date, newspaper notices, BRSR, dividend-tax communication (26-Aug).
+
+**Where this was blended into the profile:** No body-text edits; §5.5 carries one new line.
+
+*Sweep: BSE + NSE announcements from 22-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
 ---
 
 ## 1. Business in Plain English
@@ -277,6 +304,7 @@ Two product families do most of the work:
 | **v1** | — | **MH** | Profile initiated. Speciality films, PPF+SCF, premium multiple. Framed at *"47.2x — premium valuation"*, *"priced for perfection"*, weighted ~15-20%. |
 | **12-Aug-2026** *(refresh)* | **₹7,338** | **HELD at MH (Under Watch)** — the tag was new | **Q1FY27: best quarter in company history** — revenue ₹633cr (+28%), PAT ₹133cr (+60%), operating margin 22.2% → **27.2%**. **⚠️ Corrected the company's "EBITDA Margin Crosses 30%" headline** — the definition includes other income; the clean number is 27.2%. **🔴 Found a four-event management-change cluster v1 missed entirely**, including the **death of Joint MD Sarita Garware Ramsay** and a **CFO vacancy filled only on an interim basis**. Gate recorded as **🟡 PARTIAL** — *"no Q1FY27 transcript existed."* |
 | **22-Aug-2026** *(this profile)* | **₹7,124** | **HELD at MH (Under Watch)** — no trigger fired; one trigger reworded | Converted to always-current format. **🔴 The transcript had in fact been filed on 11-Aug — a day BEFORE the refresh** (audio on 7-Aug). Gate upgraded **PARTIAL → GREEN, 7 transcripts.** **🆕 A ₹50cr+ US tariff refund lands in Q2FY27 and is NOT in guidance** — which could mask the refresh's own Q2 margin trigger, now rewritten to specify ex-refund. **✅ The 27.2% adjustment was vindicated three ways** — Screener's OPM, management's *"27%, 28% seems a very logical number"*, and a direct on-call denial that anything exceptional sat in the gross margin. **⤴ Seasonality corrected: management says Q2 ≈ Q1 and Q3 dips, not "Q2 is the strongest quarter."** **🔴 "CFO" appears zero times in a 65,000-character transcript.** |
+| **19-Sep-2026** *(filings refresh)* | **₹6,724** | **HELD at MH (Under Watch)** — no trigger fired | No material event; FY26 annual report filed 31-Aug (not read for this refresh). Stock −5.6%. |
 
 **The trajectory in one line.** **The refresh was right about the numbers and one day early on the source** — and the transcript it could not read contains a ₹50cr one-off that changes how the very next quarter must be read.
 

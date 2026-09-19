@@ -2,7 +2,7 @@
 
 **Ticker:** CONCORDBIO · BSE: 543960 · NSE: CONCORDBIO · **Sector:** 12 — Pharma & Excipients
 **Conviction:** **Medium** · **Weighted 2-yr return:** ~+9% (≈4.5% CAGR) + 0.48% dividend
-**Thesis current as of:** 21-Aug-2026 · **Tracking since:** 2-Aug-2026
+**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 21-Aug-2026)* · **Tracking since:** 2-Aug-2026
 **CMP:** ₹1,571 · **Market Cap:** ₹16,446 cr · **P/E (consolidated TTM):** 59.2x · **P/B:** 8.1x (BV ₹193) · **ROCE:** 17.1% · **ROE:** 12.5% · **Div yield:** 0.48% · **52-wk range ₹987–₹1,802** · **Listing:** Mainboard (IPO Aug-2023) *(Screener consolidated, 21-Aug-2026)*
 
 > **⚠️ NOT to be confused with CONCORDCS (Concord Control Systems Ltd, BSE 543619)**, also in this watchlist under Sector 5. Different company, different business, no relationship. A mis-fetch caused by this collision is documented in CLAUDE.md; the older holding was renamed **CONCORDCS** on 2-Aug-2026 to prevent recurrence.
@@ -10,6 +10,37 @@
 > **📌 Sourcing note.** The initiation was written on **2-Aug-2026 — one day before the Q1FY27 earnings call was held (3-Aug)**, so its Q1FY27 analysis rested on the investor deck alone. **The official transcript was filed 7-Aug-2026 and has now been read in full.** It carried substantial new disclosure — a broken-down ₹3,000cr roadmap with a timeline, unit-by-unit capacity utilisation, a margin path to FY28, and the injectables commercialisation status. **All of it is incorporated below and flagged 🆕.**
 >
 > **Data note:** consolidated basis throughout. Standalone and consolidated are close for this company (unlike MPS), but consolidated is used everywhere.
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹1,494** · market cap ₹15,634 cr · P/E 56.3x · ROCE 17.1% · ROE 12.5% · 52-wk high ₹1,695 / low ₹987 · **vs ₹1,571 at baseline (-4.9%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">USFDA inspection of the Valthera formulation unit closes with one minor, non-GMP observation; Board to consider a bonus share issue on 23-Sep; stock −4.9%</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM.** A clean regulatory result and a corporate-action agenda. **The USFDA inspected Unit II, the Valthera formulation facility, and closed with a single minor procedural observation 'not related to GMP'**; the company will respond in the stipulated time. The Board meets on 23-Sep 'to consider the proposal for declaration of bonus equity shares', subject to shareholders; the ratio is not yet stated. A bonus issue is cosmetic (no change in value per holder) but is a liquidity and retail-appeal signal. Nothing changes the moat, valuation or the Gujarat Themis / MicroBiopharm competitive risk in the profile. The stock is 4.9% lower at ₹1,494 (56x).
+
+**18-Sep-2026 — 🟢 USFDA inspection at Unit II (Valthera formulation facility) concluded with one minor procedural observation**  
+Reg 30 filing: the USFDA inspected the formulation facility at Valthera, Dholka; it ended 'successfully with one minor procedural observation which is not related to GMP'; a comprehensive response will follow within the stipulated timeline.
+> *Why it matters:* The formulation unit supports the profile's regulated-market barrier. A non-GMP observation is the lowest-severity outcome; the specific observation is not described, and the FDA's classification (form 483 or otherwise) is not stated.
+
+**19-Sep-2026 (Board 23-Sep) — Board to consider a bonus share issue**  
+Prior intimation: Board meeting on 23-Sep to consider the proposal for declaration of bonus equity shares to existing shareholders, subject to shareholder approval. The bonus ratio is not stated.
+> *Why it matters:* No economic change to a holder's stake; expect a share-price adjustment. It follows the profile's high multiple (56x) and a stock that has drifted lower.
+
+**21 → 18-Sep-2026 — Price ₹1,571 → ₹1,494 (−4.9%)**  
+Screener P/E 56.3x, ROCE 17.1%, ROE 12.5%; market cap ₹15,634cr; promoter 44.08%; 52-week range ₹987–1,695. June-quarter revenue ₹257cr, operating margin 32%.
+> *Why it matters:* No change to the valuation read.
+
+**Routine filings, not material:** Investor-conference and meet notices (26-Aug, 17-Sep).
+
+**Where this was blended into the profile:** §5.5 conviction table.
+
+*Sweep: BSE + NSE announcements from 21-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 
@@ -258,6 +289,7 @@ The plain-English version: **Concord runs the brewery that the world's transplan
 |---|---|---|
 | 2-Aug-2026 | **Medium** | Initiation. Fermentation moat that killed an entire generation of Indian entrants, ₹3,000cr of paid-for capacity against ₹1,055cr delivered, debt-free with ₹414cr cash — **held at Medium purely on a 53.1x multiple against 12.5% ROE and a 3-year profit CAGR of zero** |
 | 21-Aug-2026 | **HELD at Medium** | **The Q1FY27 call, filed 7-Aug, materially strengthens the operating case** — a dated ₹3,000cr roadmap, a confirmed margin path, injectables commercialised, growth broad-based across geographies and segments. **But the stock is +11.5% in nineteen days to 59.2x, and the margin payoff moved out to FY28.** Net: unchanged |
+| **19-Sep-2026** | **HELD at Medium** | Filings refresh: **USFDA inspection of the Valthera formulation unit closed with one minor non-GMP observation (18-Sep)**; Board to consider a bonus issue on 23-Sep. Stock −4.9%. |
 
 **Upgrade to MH if:** FY27 full-year growth clears the ">18%" guide **and** injectables or Stellon reach breakeven **and** either frozen tender resumes.
 

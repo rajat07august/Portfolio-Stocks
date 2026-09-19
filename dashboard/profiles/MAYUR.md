@@ -2,10 +2,45 @@
 
 **Ticker:** MAYURUNIQ · BSE: 522249 · NSE: MAYURUNIQ · **Sector:** 11 — Packaging & Materials (Synthetic Leather / Coated Fabrics)
 **Conviction:** **HIGH** · **Weighted 2-yr return:** ~+27% (≈12.7% CAGR) + 0.79% dividend
-**Thesis current as of:** 21-Aug-2026 · **Tracking since:** 3-Jul-2026
+**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 21-Aug-2026)* · **Tracking since:** 3-Jul-2026
 **CMP:** ₹757 · **Market Cap:** ₹3,283 cr · **P/E (trailing):** 15.8x · **P/B:** 2.90x (BV ₹261) · **ROCE:** 24.5% · **ROE:** 18.0% · **Div yield:** 0.79% · **52-wk range ₹471–₹907** *(Screener consolidated, 21-Aug-2026)*
 
 > **🎧 Sourcing note. Mayur is a HELD POSITION and falls under the §4A "transcribe immediately" tier.** It also **files no investor decks — it is transcript-only.** The Q1FY27 call (6-Aug-2026) was machine-transcribed the same day from company audio; **the official transcript was filed on 10-Aug-2026 and the machine version has now been verified against it.** **All quotes in this profile are from the official transcript** — which turned out to contain **three material disclosures the machine version had lost entirely**, including multi-year revenue guidance. See §9 data-quality note 1.
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹743** · market cap ₹3,230 cr · P/E 15.6x · ROCE 24.5% · ROE 18.0% · 52-wk high ₹907 / low ₹471 · **vs ₹757 at baseline (-1.8%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Shareholders voted DOWN the promoter-family related-party remuneration (62.9% against); founder-CMD could not speak at the 18-Sep AGM; stock −2%</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at HIGH — a held position; no operating news, two governance data points.** (1) The related-party resolution the profile called 'the opposite of a governance flag' **failed at the ballot box**, because institutions voted against it. (2) The AGM record states the Chairman could not speak, which extends the key-man item first raised on the Q1FY27 call. Neither touches earnings, and the ₹60 lakh-a-year amount remains 0.3% of PAT. **What changed is tone, not thesis: minorities used their veto, and the key-man question is now in a filed document.**
+
+**18-Sep-2026 — 🔴 AGM record: the Chairman & MD could not address the meeting**  
+The filed proceedings of the 33rd AGM say: *'due to throat choking of Mr. Suresh Kumar Poddar, Chairman and Managing Director & CEO … is not able to speak currently'*; **Whole Time Director Arun Bagaria called the meeting to order, addressed shareholders and answered their questions on the Chairman's behalf.** 124 members attended (5 promoter, 119 public). Agenda: final dividend ₹6 per share, Bagaria's retirement by rotation and re-appointment as Whole Time Director, appointment of Mr. Vinod Kumar Haritwal as Independent Director, cost-auditor remuneration. **Voting results were not yet on the exchange feed at 18-Sep.**
+> *Why it matters:* This is the company's own wording, quoted verbatim; **nothing is inferred about the cause or its duration.** It follows the Q1FY27 call, where management said the CMD had 'a slight infection' and 'a little difficulty in talking'. Two consecutive public occasions on which the 51-year founder did not speak is a fact a holder should track. Bagaria has now led the calls and the AGM, and his re-appointment resolution is on the ballot.
+
+**7-Sep-2026 — 🟡 Shareholders reject the related-party remuneration for the CMD's daughter-in-law**  
+Postal-ballot result: the ordinary resolution to pay **Mrs. Puja Poddar (President — HR & Administration, the CMD's daughter-in-law) up to ₹5 lakh a month 'has not been passed'.** **37.07% of votes polled were in favour, 62.93% against.** By class: public institutions 77.31% against (turnout 60.4% of their shares); public non-institutions 98.32% in favour (turnout 3.5%); the promoter group, being interested, did not vote. Total turnout 6.0% of shares.
+> *Why it matters:* The profile treated this as a properly run process with no governance concern. **The process did work, and minority institutions defeated the item, which is the mechanism doing its job.** It also shows that the institutional holders (4.78% FII, 3.13% DII) are willing to vote against the promoter family on pay. **What happens to the remuneration next is not disclosed in the filing.** Financial size is unchanged: ₹60 lakh a year is about 0.3% of PAT.
+
+**3-Sep-2026 — Deputy General Manager — Finance & Accounts superannuates**  
+Mr. Prahalad Sahai Jangid, a senior management personnel, retired at close of 2-Sep-2026 after 21 years and ceased to be SMP.
+> *Why it matters:* Routine retirement. The filing names no successor and does not touch the CFO.
+
+**21 → 18-Sep-2026 — Price ₹757 → ₹743 (−1.8%)**  
+Screener P/E 15.6x, ROCE 24.5%, ROE 18.0%; 52-week range ₹471–907. FII holding rose to 4.78% at Jun-2026.
+> *Why it matters:* No price reaction to the governance items. Q1FY27 numbers and the 10–12% three-year revenue guidance stand.
+
+**Routine filings, not material:** Weblink letters to shareholders and AGM newspaper notices (20-Aug), AGM proceedings filed 18-Sep.
+
+**Where this was blended into the profile:** §3.5 key-man note and postal-ballot entry, §5.5(a) conviction table and (b), §7 Risk 10 upgraded from ⚪ to 🟡.
+
+*Sweep: BSE + NSE announcements from 21-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 
@@ -303,6 +338,7 @@ The clearest exchange on the call, and it did not survive the machine transcript
 | 3-Jul-2026 | **High** | Initiation. 51-year founder-run compounder, FY26 PAT +43% on export mix shift, 20x on 24.7% ROCE, promoter rock-stable |
 | **6-Aug-2026** | **HELD at High** | Q1FY27: revenue **+24.5%** and TTM through ₹1,000cr for the first time; **margin normalised to 22% after an anomalous 31% quarter**; 86% cash conversion; promoter accumulating; **multiple fell to 16.3x while earnings rose** |
 | 21-Aug-2026 | **HELD at High** | **Official Q1FY27 transcript verified against the machine transcription** — and it carried **three material disclosures the machine version had lost**, all of which strengthen the operating case. **Offset by a concrete key-man disclosure.** Net: no change |
+| **19-Sep-2026** | **HELD at High** | Filings refresh: **shareholders defeated the related-party pay resolution (7-Sep, 62.9% against)**; AGM record (18-Sep) states the Chairman could not speak and the WTD answered for him. No operating news; Q1FY27 print and guidance intact. Stock ₹757 → ₹743. |
 
 **Downgrade to MH if:** OPM falls below 20% for two consecutive quarters · **or** export share falls below 38% · **or** US tariff action specifically targets synthetic leather / auto-interior imports · **or** the succession question raised on the Q1FY27 call is still unanswered at the FY27 annual call.
 
@@ -312,11 +348,11 @@ The clearest exchange on the call, and it did not survive the machine transcript
 
 **🔴 A named key-man disclosure — the founder-CMD is not able to take calls** *(Q1FY27 official transcript, filed 10-Aug-2026)*
 Asked directly about Suresh Poddar's health and whether he is managing everything well, management answered: *"**He had a slight infection.** So obviously he's managing everything well. But **he is having a little difficulty in talking on con-call.**"* The follow-up — *"And any MD -- full time MD..."* — **was cut off by the moderator for time and never answered.**
-> **Why it matters, stated narrowly.** **The 6-Aug review flagged this exact passage as too garbled in the machine transcript to characterise, and declined to state anything.** That was the right call and the official transcript now resolves it. **The company's own characterisation is a slight infection and that he is managing everything well; that is the only characterisation used here.** The business facts are: **the 51-year founder is not speaking on earnings calls**, the transcript attributes answers to "Management" rather than named speakers, **Arun Bagaria has led the last two calls and has a five-year re-appointment from Aug-2027**, and **a shareholder's question about a full-time MD went unanswered.** **For a company that is one man's 51-year record, that is worth tracking. No inference is drawn beyond the words above.**
+> **Why it matters, stated narrowly.** **The 6-Aug review flagged this exact passage as too garbled in the machine transcript to characterise, and declined to state anything.** That was the right call and the official transcript now resolves it. **The company's own characterisation is a slight infection and that he is managing everything well; that is the only characterisation used here.** The business facts are: **the 51-year founder is not speaking on earnings calls**, the transcript attributes answers to "Management" rather than named speakers, **Arun Bagaria has led the last two calls and has a five-year re-appointment from Aug-2027**, and **a shareholder's question about a full-time MD went unanswered.** **For a company that is one man's 51-year record, that is worth tracking. No inference is drawn beyond the words above.** ⤴ **UPDATE 18-Sep-2026: the filed AGM proceedings record that the Chairman *'is not able to speak currently'* (*'throat choking'*), and Whole Time Director Arun Bagaria chaired the questions on his behalf. Company wording, no inference on cause or duration.**
 
-**⚪ Postal ballot: related-party remuneration to the CMD's daughter-in-law** *(notice dated 23-Jul-2026, filed 7-Aug-2026; e-voting 8-Aug to 6-Sep-2026, result by 8-Sep)*
+**🟡 Postal ballot: related-party remuneration to the CMD's daughter-in-law — ⤴ RESULT 7-Sep-2026: NOT PASSED (37.07% for, 62.93% against; institutions 77.31% against)** *(notice dated 23-Jul-2026, filed 7-Aug-2026; e-voting 8-Aug to 6-Sep-2026, result by 8-Sep)*
 A single ordinary resolution under **Section 188(1)(f)**: remuneration of **up to ₹5 lakh per month** (inclusive of salary, perquisites and allowances) to **Mrs. Puja Poddar, President — HR & Administration**, a senior management personnel and a related party. **The explanatory statement discloses plainly that she is the daughter-in-law of Suresh Kumar Poddar**, is a B.Com from Sydenham College, and **previously worked at the company as a colour technologist.**
-> **Why it matters — and mostly why it doesn't.** **₹60 lakh a year against ~₹200cr of TTM PAT is 0.3%. Financially immaterial.** **What is worth recording is that it was handled correctly**: recommended by the Nomination and Remuneration Committee **and** the Audit Committee **and** the Board, put to shareholders by postal ballot, with the relationship disclosed in terms and the interested directors named. **A family appointment run through the full process and voted on is the opposite of a governance flag.** *Recorded for completeness because related-party remuneration in a promoter-controlled company is exactly the sort of item that should be visible in a profile, not because anything about it is untoward.*
+> **Why it matters — and mostly why it doesn't.** **₹60 lakh a year against ~₹200cr of TTM PAT is 0.3%. Financially immaterial.** **What is worth recording is that it was handled correctly**: recommended by the Nomination and Remuneration Committee **and** the Audit Committee **and** the Board, put to shareholders by postal ballot, with the relationship disclosed in terms and the interested directors named. **A family appointment run through the full process and voted on is the opposite of a governance flag.** ⤴ **UPDATE 7-Sep-2026: the vote FAILED — 62.93% of votes polled were against, driven by public institutions (77.31% against), while non-institutional holders were 98.32% in favour on a 3.5% turnout. The promoter group did not vote. The process worked as designed; the qualifier is that institutional holders rejected the item. The filing does not say what happens to the payment. Amount unchanged: 0.3% of PAT.** *Recorded for completeness because related-party remuneration in a promoter-controlled company is exactly the sort of item that should be visible in a profile, not because anything about it is untoward.*
 
 **🟢 First multi-year revenue guidance: 10–12% for three years** *(Q1FY27 call)*
 Asked how long the major capex decision would take, management answered on growth instead: *"we have already said that you can expect a **top line growth of between 10% to 12% for the next 3 years.** This is what we can say currently right now."*
@@ -445,7 +481,7 @@ Analysts and management discuss a **"25% plus"** margin on the Q1FY27 call while
 
 **Risk 9 — 🟡 Auto OEM cyclicality**, both domestic and export. **Footwear already showed the mechanism this quarter** — muted because sole prices *"went up to almost like two times, three times"* at the customer end.
 
-**Risk 10 — ⚪ Related-party remuneration in a promoter-controlled company.** The ₹5 lakh/month approval for the CMD's daughter-in-law is **financially immaterial (0.3% of PAT) and was run through NRC, Audit Committee, Board and a shareholder vote with the relationship disclosed.** **No concern is raised — it is listed so that the category is visibly tracked.**
+**Risk 10 — 🟡 Related-party remuneration in a promoter-controlled company.** ⚠️ *ESCALATED 7-Sep-2026: shareholders voted the ₹5 lakh/month resolution down (62.93% against). Financially still immaterial; the signal is that institutions are prepared to vote against the family.* The ₹5 lakh/month approval for the CMD's daughter-in-law is **financially immaterial (0.3% of PAT) and was run through NRC, Audit Committee, Board and a shareholder vote with the relationship disclosed.** **No concern is raised — it is listed so that the category is visibly tracked.**
 
 **Risk 11 — ⚪ Nobody is watching.** ValuePickr topic 226 — one of the oldest threads in this library, running since 2010 — **has been dormant since 20-May-2026 with no reaction to either the Q4FY26 margin spike or the Q1FY27 print.** **No independent challenge to this thesis exists.**
 

@@ -2,7 +2,7 @@
 
 **Ticker:** SSWL · NSE: SSWL · BSE: 513262 · ISIN INE802C01033
 **Sector:** 3 — Auto Components & Forgings · **Conviction:** **High**
-**Thesis current as of:** 21-Aug-2026 · **Tracking since:** 3-Jul-2026
+**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 21-Aug-2026)* · **Tracking since:** 3-Jul-2026
 
 **CMP ₹305** · **Market cap ₹4,793 cr** · **P/E 22.6x** · **P/B 2.65x** (BV ₹115) · **ROCE 14.8%** · **ROE 11.1%** · **Div yield 0.41%** · Face value ₹1 · ~15.7 cr shares
 *(Screener consolidated, 21-Aug-2026)*
@@ -10,6 +10,41 @@
 > **How to read this profile.** Sections 1–9 describe what I believe **today**, rewritten at each review rather than annotated. **Section 5.5 is the memory** — how the thesis got here, what changed and when, what I got wrong. **Section 9 is the community read**, refreshed each cycle. Every claim is sourced to a concall (quarter named) or a filing; inferences are labelled as mine.
 >
 > **Disclosure cadence:** SSWL files **monthly turnover** to the exchanges — rare at this size — so the trajectory in 5.5 carries monthly resolution. **Seven concall transcripts on disk** (Jan-2025 → Jul-2026), plus the Q1FY27 deck read page by page.
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹372** · market cap ₹5,857 cr · P/E 27.6x · ROCE 14.8% · ROE 11.0% · 52-wk high ₹384 / low ₹169 · **vs ₹305 at baseline (+22.0%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">August a second record month (+53.6% YoY); borrowing limit to be raised ₹2,000cr → ₹3,500cr; promoter buying in the open market; stock +22%</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at HIGH.** The watch item the profile named — August turnover — came in at +53.6%, ahead of July's +50.7%, so the monthly acceleration continues. Two things temper it: the volume growth is +24% against value +54%, so roughly half or more of the value growth is price and mix *(my arithmetic; the company does not split it)*, and the Board asked for a **75% larger borrowing limit** on the same day it posted the numbers. **The stock is +22% to ₹372, so the ~+37% weighted return set at ₹305 has compressed to roughly +12%** *(my scaling of the profile's return to the new price; scenarios not re-derived)*.
+
+**1-Sep-2026 — 🟢 August 2026: highest-ever monthly turnover, a second consecutive record**  
+**Net turnover ₹592.92cr, +53.62% YoY** (₹385.98cr); gross ₹687.51cr, +44.72%. **Overall volume +24%.** Growth by value: aluminium products +73%, exports +63%, 2 & 3 wheelers +61%, trucks +53%, passenger-car steel +21%, tractor +16%. July was ₹571.05cr (+50.72%).
+> *Why it matters:* Answers the profile's watch item. **The gap between +24% volume and +54% value is price and mix, not just demand:** steel and aluminium cost pass-through plus a weaker rupee lift the rupee value. *That decomposition is my arithmetic; the company reports value and volume separately and does not attribute the difference.* The trend is accelerating (+18% May → +37% June → +51% July → +54% August).
+
+**3-Sep-2026 — ⚠️ Board proposes lifting the borrowing limit from ₹2,000cr to ₹3,500cr**  
+Board outcome: enhance the Section 180(1)(c) borrowing limit **₹2,000cr → ₹3,500cr** and the corresponding security-creation limit, both subject to the AGM on **30-Sep-2026**; re-appointment of MD Dheeraj Garg and director Sanjay Garg by rotation; **Vineet Aggarwal named Executive Director (Operations) and Amit Kumar Sharma Vice-President (Personnel & Administration)** in senior management. Dividend record date 23-Sep; annual report filed the same day.
+> *Why it matters:* A limit is headroom, not drawn debt: consolidated borrowings were ₹828cr at FY26 against a management plan of ~₹1,000cr. **But the new ceiling is ~4.2x the FY26 borrowings of ₹828cr, set while the capex year (₹600cr) already exceeds FY26 CFO of ₹332cr.** The filing gives no purpose; the profile's Risk 2 is the place to watch H1FY27 debt and cash flow.
+
+**7 and 15-Sep-2026 — Promoter Sunena Garg buys shares in the open market**  
+SAST disclosures: **48,000 shares on 7-Sep and 16,600 shares on 15-Sep**, open market. Promoter group moved from 61.11% → 61.14% → 61.15% of 15.73cr shares; her own holding rose from 3.56% to 3.60%.
+> *Why it matters:* Small (0.04% of equity) but in the right direction. *One oddity, flagged rather than explained:* the 61.11% starting point on 7-Sep is below the 61.15% Screener shows for the June-2026 quarter, which implies a ~0.04% reduction that I found no filing for.
+
+**21 → 18-Sep-2026 — Price ₹305 → ₹372 (+22%), just under the ₹384 52-week high**  
+Screener P/E 27.6x (was 22.6x); ROCE 14.8%, ROE 11.0%; DII holding fell to 3.15% in June from 5.08% while FII rose to 8.60%.
+> *Why it matters:* Trailing earnings are unchanged since 21-Aug, so all of the rise is multiple expansion (22.6x → 27.6x). The Wheels India peer in §6 has re-rated in the same direction.
+
+**Routine filings, not material:** AGM notice and e-voting details, book closure, newspaper notices, shareholder letters, analyst-meet notices, BRSR.
+
+**Where this was blended into the profile:** §5.5(a) row and (b) entry, §7 Risk 2, watch list.
+
+*Sweep: BSE + NSE announcements from 21-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 
@@ -304,10 +339,15 @@ Four threads reinforce each other, and Q1FY27 is the first quarter where you can
 | 16-Jul-2026 | High | ₹268 | ~+55% | Q1FY27 print; **Hyundai 74% surfaced** |
 | 28-Jul-2026 | High | ₹295 | ~+55% | Peer re-strike — Wheels India de-rated, SSWL re-rated |
 | **21-Aug-2026** | **High** | **₹305** | **~+37%** | **Pass-through landed; July highest-ever month; exports turned; capex to ₹600cr. Return cut on a rebuilt bear case — see (c)** |
+| **19-Sep-2026** | **High** | **₹372** | **~+12% at the new price** *(scaled from +37% at ₹305)* | **August a second record month (+53.6%); Board seeks ₹3,500cr borrowing limit (from ₹2,000cr); promoter open-market buying; stock +22%.** |
 
 ### (b) Material developments
 
 *Developments that moved — or should move — the thesis. Regulatory, administrative and ownership filings are below the fold.*
+
+**3-Sep-2026 · `BALANCE SHEET` — Board proposes a borrowing limit of ₹3,500cr (from ₹2,000cr), and August is a second record month (+53.6%).**
+August net turnover **₹592.92cr, +53.62% YoY**, volume +24%. On 3-Sep the Board proposed lifting the borrowing and security limits from ₹2,000cr to ₹3,500cr for the 30-Sep AGM, named Vineet Aggarwal Executive Director (Operations), and the promoter bought 64,600 shares in the open market across 7 and 15-Sep.
+**Why it matters:** the monthly trend the profile told you to watch is intact, but value is growing twice as fast as volume and the debt ceiling is moving up ahead of a capex year that already outruns cash flow. The stock's +22% since 21-Aug has cut the return at ₹372 to roughly +12%.
 
 **1-Aug-2026 · `OPERATING` — July was the highest-turnover month in company history, and the monthly series is accelerating.**
 Net turnover **₹571.05cr, +50.72% YoY** (vs ₹378.87cr); gross ₹659.87cr, +43.77%. **Volume +26% YoY** — the company's framing: *"confirming this growth is demand-led, not merely price-driven."* **Aluminium hit highest-ever monthly volumes, +38% YoY**; tractor wheels also highest-ever, +10%; **exports +39% YoY by value.**
@@ -422,6 +462,7 @@ Wheels India is independently managed, with an end-market mix (Q4FY26: CV 22%, c
 **Risk 1 — 🔴 Hyundai is 74% of business.** Disclosed in the Q1FY27 deck. Loss of allocation on even two platforms would be thesis-breaking. **Watch:** Hyundai's launch pipeline, any localisation or supplier-consolidation commentary. *The largest single risk here, and larger than initiation assumed.*
 
 **Risk 2 — 🟡 The ₹600cr capex year against ₹332cr of CFO.** Borrowings flat at ₹828cr, FY26 payout zero, and management's own plan takes debt to ~₹1,000cr. If CFO/OP stays at 73% rather than recovering, the gap widens. **Watch:** H1FY27 CFO and borrowings at Sep-2026.
+> **⚠️ ACCUMULATING (19-Sep-2026)** — the Board proposed raising the borrowing limit from ₹2,000cr to ₹3,500cr (AGM 30-Sep). Headroom, not drawn debt, but the profile's own plan already takes borrowings to ~₹1,000cr.
 
 **Risk 3 — 🟡 Bhuj commissioning slips.** Aluminium wheel plants are complex — casting, machining, painting, testing, OEM approval. Trial production is guided **Q4FY27**; every quarter of slippage pushes the knuckle revenue underwriting the bull case. *No slippage yet; guidance has been consistent.*
 
@@ -457,7 +498,7 @@ Wheels India is independently managed, with an end-market mix (Q4FY26: CV 22%, c
 
 **What you're risking:** **Hyundai is 74% of the business.** A ₹600cr capex year against ₹332cr of operating cash flow, funded by taking debt to ₹1,000cr, with zero dividend. A margin gain that came from negotiation and can be negotiated back. And a management "95% utilisation" claim that its own deck puts at 76%.
 
-**What to watch, in order:** whether **EBITDA/wheel holds ≥₹314** in Q2FY27 · **August and September monthly turnover** (July was +50.7%) · **H1FY27 CFO and borrowings** · the **Bhuj Q4FY27 date** · whether the **steel re-acceleration** survives a second quarter and reconciles with the utilisation table.
+**What to watch, in order:** whether **EBITDA/wheel holds ≥₹314** in Q2FY27 · **August and September monthly turnover** (July was +50.7%; **August came in at +53.6%**, September due ~1-Oct) · **H1FY27 CFO and borrowings** · the **Bhuj Q4FY27 date** · whether the **steel re-acceleration** survives a second quarter and reconciles with the utilisation table.
 
 ---
 

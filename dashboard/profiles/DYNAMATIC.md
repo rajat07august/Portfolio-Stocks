@@ -2,7 +2,7 @@
 
 **Ticker:** DYNAMATIC · **NSE: DYNAMATECH** · BSE: 505242
 **Sector:** 1 — Aerospace & Defence *(also Hydraulics + Metallurgy)* · **Conviction:** **Medium**
-**Thesis current as of:** 15-Aug-2026 · **Tracking since:** 3-Jul-2026
+**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 15-Aug-2026)* · **Tracking since:** 3-Jul-2026
 
 **CMP ₹11,188** · **Market cap ₹7,598 cr** · **P/E 130x** · **P/B 8.9x** (book ₹1,251) · **ROCE 9.98%** · **ROE 6.62%** · **Div yield 0.09%** · 52-week range **₹6,320–₹12,875**, **+74% over one year**, 3-year price CAGR **42%**
 *(Screener consolidated, 15-Aug-2026)*
@@ -12,6 +12,33 @@
 > **⚠️ NSE symbol note.** The exchange symbol is **`DYNAMATECH`**, not `DYNAMATIC`. The profile carried the shortened name for months and it produced a 404 and a stale header. *This is the error that hardened the §1 ticker rule: use the exact NSE symbol, verified against `EQUITY_L.csv` at creation.*
 >
 > **🔴 Dynamatic has not held an earnings call since February 2024** — verified across 672 NSE filings. **Yet it publishes the best earnings presentation in this refresh cycle**, including a full constant-currency reconciliation of its own headline growth. **That combination — excellent disclosure, no forum to question it — governs how this profile is written.**
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹12,061** · market cap ₹8,191 cr · P/E 140x · ROCE 10.2% · ROE 6.67% · 52-wk high ₹12,875 / low ₹6,716 · **vs ₹11,188 at baseline (+7.8%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">No company event beyond the FY26 annual report; stock +7.8% to ₹12,061 at 140x</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM.** The exchange feed carries only the FY26 annual report (20-Aug) and shareholder letters since 15-Aug. The annual report has **not been read for this refresh**; it is where the profile's open constant-currency and unallocated-cost items would be checked. The stock rose 7.8% to ₹12,061 on a trailing P/E of 140x, near its ₹12,875 high.
+
+**20-Aug-2026 — FY26 annual report and shareholder letters**  
+Integrated annual report FY26 filed 20-Aug; letters to non-email shareholders 21-Aug; AGM notices.
+> *Why it matters:* **Not read for this refresh.**
+
+**15 → 18-Sep-2026 — Price ₹11,188 → ₹12,061 (+7.8%)**  
+Screener P/E 140x, ROCE 10.2%, ROE 6.7%; market cap ₹8,191cr; promoter 41.50%; 52-week range ₹6,716–12,875. Jun-2026 quarter: revenue ₹425cr, operating margin 13%, PAT ₹21cr.
+> *Why it matters:* A widening multiple on unchanged earnings.
+
+**Routine filings, not material:** AGM notices, newspaper notices.
+
+**Where this was blended into the profile:** No body-text edits.
+
+*Sweep: BSE + NSE announcements from 15-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 

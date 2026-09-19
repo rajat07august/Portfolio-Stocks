@@ -12,6 +12,37 @@
 
 > **📋 WHAT THIS REFRESH FOUND.** The prior profile (4-Jul-2026, v2) was thorough and got most of the business right — it correctly identified the FY25 other-income distortion, the FY25 revenue decline, the ₹96.88cr warrant issue, the Amic Engg Tech subsidiary and the 30-Jun BSE notice. **What has changed is the weight of what sits around the numbers.** Since v2 I have established: **an arithmetic error in the audited consolidated results that survived a BSE discrepancy notice and a re-filing**; that the subsidiary is consolidated on **unaudited** figures; **three CFOs in seven months with the chair empty since 1-Apr-2026**; **a second BSE query, on a disclosure-timeliness breach the company admitted**; **a working-capital cycle that has more than doubled to 184 days**; **three consecutive and worsening years of negative free cash flow**; and **a serial preferential-issue programme that has raised ~₹151cr and diluted the share count 10.4%.** **The multiple has gone from 72x to 79.9x while FY26 earnings fell 20%.**
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹2,289** · market cap ₹2,643 cr · P/E 86.7x · ROCE 25.2% · ROE 18.1% · 52-wk high ₹2,408 / low ₹1,065 · **vs ₹1,957 at baseline (+17.0%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">FY26 annual report read: the related-party note the profile called its top queue item is now answered (Dakor ₹4.65cr unchanged, Mackeil ₹2.04cr, family pay up five-fold); still no CFO; stock +17% to 87x</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-LOW.** The FY26 annual report (filed 8-Sep, dated 31-Aug) closes the item the profile ranked first on its queue. **The related-party note shows: Dakor Logistics LLP balance ₹465 lakh (₹4.65cr), identical to the year before, with no profit share; Mackeil Ispat & Forging balance ₹203.58 lakh (₹2.04cr) against a ₹1.5cr sanction, with interest income on the loan down from ₹13.50 lakh to ₹3.00 lakh; and directors' remuneration to the two Chamaria promoters at ₹180 lakh each, five times the ₹36 lakh of FY25.** The report also confirms the CFO chair is empty ('in the process of appointing'). None of it is new evidence of misconduct; it is evidence that the two exposures did not move, that one loan is earning much less, and that promoter pay stepped up as the company raised equity. **The stock is +17% to ₹2,289 at 87x.** The OCL/Samriddhi exposure (~₹9.8cr, marked 'Others') is not in the related-party note and is not addressed in the sections read.
+
+**8-Sep-2026 (report dated 31-Aug) — 🟡 FY26 annual report: related-party note and director remuneration read**  
+**Related-party note (₹ lakh): Dakor Logistics LLP balance 465.00 (465.00 a year earlier), share of profit nil; Mackeil Ispat & Forging: balance 203.58 (202.23), interest income on loan 3.00 (13.50), sales 43.22 (30.58), purchases 272.60 (386.81), forging/job-work charges paid 117.28 (80.40); investment in equity of Amic Engg & Tech Pvt Ltd 70.00 (new); rent to Associated Manufacture & Industries Corporation 9.00 (4.50). Remuneration: Anshul Chamaria 180.00 (36.00), Girdharilal Chamaria 180.00 (36.00), Rashmi Chamaria professional fee 24.00 (12.00), Manju Chamaria salary 24.00 (nil).** Advances to directors of ₹23.66 lakh and ₹6.68 lakh were refunded. Form AOC-2 reports only Mackeil at arm's length. Total family pay rose from ₹84 lakh to ₹408 lakh (₹0.84cr to ₹4.08cr, my sum).
+> *Why it matters:* **Resolves the profile's 'FY26 related-party note not read' item.** Dakor's balance is unchanged and earns nothing; Mackeil's loan balance still exceeds its ₹1.5cr sanction and earns 78% less interest. **The five-fold jump in promoter remuneration is the new fact** and should be set against the CFO vacancy and the profile's cash-conversion concerns (CFO/OP 49%, FCF −₹54cr). Amounts are small against a ₹2,643cr market cap; the governance pattern is the point.
+
+**8-Sep-2026 — 🔴 Still no CFO**  
+The Board's report states the company 'is in the process of appointing a suitable person to the position of Chief Financial Officer': Anshul Chamaria resigned as CFO on 1-Nov-2025, Priyankar Ghosh served from 20-Dec-2025 to 31-Mar-2026.
+> *Why it matters:* Confirms the vacancy through the report date (31-Aug). Audited results and the exchange queries the profile cites both occurred with no CFO in place.
+
+**31-Aug → 18-Sep-2026 — 📈 Price ₹1,957 → ₹2,289 (+17%)**  
+Screener P/E 86.7x, ROCE 25.2%, ROE 18.1%; market cap ₹2,643cr; promoter 57.96%; 52-week range ₹1,065–2,408; AGM notice filed (AGM in late September).
+> *Why it matters:* A 17% rise in three weeks with no result, order or governance improvement; the profile's ML downgrade was on valuation and governance.
+
+**Routine filings, not material:** Board-meeting outcome of 31-Aug (already in the profile), AGM notice.
+
+**Where this was blended into the profile:** §3.5 related-party table, §5.5 conviction table.
+
+*Sweep: BSE + NSE announcements from 31-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
 ---
 
 ## 1. Business in Plain English
@@ -220,7 +251,7 @@ From the notes to the consolidated results and the revised auditor's report:
 | **OCL Iron & Steel Ltd / Samriddhi Metals Pvt Ltd** | Marked *"Others"* in the AR — **not a related party, but a material exposure** | Loan **₹7.71 cr**, outstanding **₹9.79 cr** |
 
 **v2's summary of the residual — *"₹6.4 Cr to Mackeil + Dakor is small but a governance yellow flag"* — holds for those two; adding the OCL/Samriddhi exposure takes it to ~₹16.5cr of outstanding exposure to counterparties that are not the operating business**, at a company that has raised ₹151cr of preferential equity to fund plant and generated ₹9.85cr of operating cash flow.
-> ⚠️ **Note the two Mackeil and Dakor figures exceed their sanctioned/invested amounts** — ₹2.02cr outstanding on ₹1.5cr sanctioned, ₹4.65cr outstanding on a ₹4.4cr investment. **The FY26 related-party note has not been read and these are FY25 figures.** ***This is the top item on this stock's queue.*** *v2's read was "Eastern-India family-firm norm but worth monitoring" — I would put it higher than that now, not because the amounts have grown but because there is no CFO and no call at which to ask.*
+> ⚠️ **Note the two Mackeil and Dakor figures exceed their sanctioned/invested amounts** — ₹2.02cr outstanding on ₹1.5cr sanctioned, ₹4.65cr outstanding on a ₹4.4cr investment. **⤴ UPDATE 19-Sep-2026 — THE FY26 NOTE IS NOW READ (annual report filed 8-Sep): Dakor balance ₹4.65cr (unchanged, no profit share); Mackeil balance ₹2.04cr with interest income on the loan down to ₹3.00 lakh from ₹13.50 lakh; directors' remuneration for Anshul Chamaria and Girdharilal Chamaria ₹180 lakh each (FY25: ₹36 lakh each). Original text:** The FY26 related-party note has not been read and these are FY25 figures. ***This is the top item on this stock's queue.*** *v2's read was "Eastern-India family-firm norm but worth monitoring" — I would put it higher than that now, not because the amounts have grown but because there is no CFO and no call at which to ask.*
 
 ### Delivery scorecard
 
@@ -383,6 +414,7 @@ From the notes to the consolidated results and the revised auditor's report:
 | **4-Jul-2026** *(v2 rewrite)* | **₹1,771** | **MEDIUM** · ~+22% / 2yr | Rebuilt from **7 primary documents** via the pdf.js-in-Chrome route — RHP (329pp), AR FY25, AR FY24 and four half-yearly filings. **Correctly identified the FY25 other-income distortion, the FY25 revenue decline, the Amic Engg Tech subsidiary, Dakor Logistics, and the 30-Jun BSE notice.** Base +10% / bull +91% / bear −57% at **72x**. **Characterised the BSE notice as *"minor friction"* and the FY26 sales growth as +18%.** |
 | **26-Aug-2026** *(explainer)* | — | MEDIUM | **AMIC industry explainer built and shipped**, then rebuilt after a scoping error: the first version's centrepiece was a five-station map placing all eight Sector-3 names, which is Shared Sector Analysis content inside a single-stock page. **Rajat's correction — *"We spoke about just analyzing AMIC itself altogether"* — is now a standing rule in CLAUDE.md §1.** Replaced with four AMIC-specific figures. |
 | **31-Aug-2026** *(this profile)* | **₹1,957** | **MEDIUM → MEDIUM-LOW** | Converted to always-current format on a **57-filing BSE sweep, 20 documents read in full.** **🟢 Phase 1 commissioned on the promised day, 15-Jun-2026 — ingot 0→48,000 MTPA, forging 18,000→40,000, machining 8,400→33,000.** **🟢 FY26 EBITDA +53%, margin +900bps to 30%, H2 at 33%, all while employee cost rose 197%.** **🔴 But reported PAT fell 20% and PBT 13% on the FY25 other-income base.** **🔴 THREE CFOs IN SEVEN MONTHS AND NO CFO SINCE 1-APR-2026.** **🔴 TWO BSE QUERIES IN THREE MONTHS — a conceded late-disclosure breach, and discrepancies in the consolidated audit report.** **🔴 THE REVISED AUDITED RESULTS STILL CONTAIN AN ARITHMETIC ERROR** on the half-year PAT and EPS lines, verified by rendering both filings. **🔴 Cash conversion cycle 88 → 184 days; FCF −₹54cr, third negative year.** **🟡 ~₹151cr raised across four preferential tranches; share count +10.4%.** **🟡 Phase 2 quantified at ₹165cr — a 5,000-tonne press.** ⤴ **Corrected v2's "+18%" FY26 growth to +17%, upgraded "minor friction" to a two-query compliance finding, and corrected the dashboard card's "Ranchi plant" — the word "Ranchi" appears zero times in the RHP or the FY25 annual report, while "Baidyabati" appears 12 and 6 times. The factory is at Mahavir Complex, Baidyabati, Hooghly, West Bengal.** |
+| **19-Sep-2026** *(filings refresh)* | **₹2,289** | **HELD at MEDIUM-LOW** | **FY26 annual report read: related-party balances unchanged (Dakor ₹4.65cr; Mackeil ₹2.04cr, interest down 78%); promoter remuneration ₹180 lakh each vs ₹36 lakh; CFO still vacant. Stock +17% to 87x.** |
 
 **The trajectory in one line.** ***v2 got the business right and the governance benefit-of-the-doubt wrong; ten weeks later the plant has been delivered exactly as promised and the back office has fallen apart, and the share price has gone up 10.5% while earnings fell 20%.***
 

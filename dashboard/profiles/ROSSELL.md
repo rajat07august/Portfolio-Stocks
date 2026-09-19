@@ -7,6 +7,37 @@
 
 > **How to read this profile:** Every meaningful claim is either sourced from a concall (quarter noted) or a filing. Where I've made a judgment I've flagged it. Not a buy/sell recommendation.
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹1,374** · market cap ₹5,181 cr · P/E 196x · ROCE 11.5% · ROE 15.7% · 52-wk high ₹1,465 / low ₹552 · **vs ₹1,067 at baseline (+28.8%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">₹300cr preferential issue to SBI Mutual Fund at ₹1,166 (6.39%) approved by the Board — the QIP the profile expected, as a preferential; stock +29% to ₹1,374 at ~196x</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM (Under Watch).** The dilution the profile listed as pending arrived on 18-Sep, and in a friendlier form than feared: **25,72,898 shares at ₹1,166 (₹299.99cr) to SBI Mutual Fund and SBI Optimal Equity Fund, both QIBs, 6.39% of the post-issue capital**, subject to shareholders (EGM 15-Oct) and exchange approvals. Promoters do not participate, so their 74.80% falls to roughly 70% *(my arithmetic)*. **The issue price is 9% above the ₹1,067 the profile used and 15% below today's ₹1,374, because the stock has run 29% in five weeks.** At a Screener P/E of ~196x the raise is priced richly for the company and the buyer is a domestic long-only institution, which is a quality-of-investor positive. Use of proceeds is in the filing annexure and was not extracted.
+
+**18-Sep-2026 — 🟡 Board approves ₹300cr preferential issue at ₹1,166 to SBI Mutual Fund**  
+Board outcome: issue **25,72,898 equity shares (face value ₹2) at ₹1,166 (premium ₹1,164), aggregate ₹299,99,99,068**, on a private-placement preferential basis to **SBI Mutual Fund (23,15,609 shares, ₹270cr, 5.75%) and SBI Optimal Equity Fund (2,57,289 shares, ₹30cr, 0.64%)**, both non-promoter QIBs; **EGM on 15-Oct-2026** for shareholder approval, plus regulatory approvals. A prior 15-Sep intimation had flagged the meeting.
+> *Why it matters:* Fulfils the profile's 'QIP planned, dilution risk incoming' item, but as a single-investor preferential rather than a QIP. **Dilution 6.39% is at the low end of the 65-68% promoter scenario in the profile.** The stock's run-up means the raise is 15% below the market price; the formula price was set off earlier, lower averages. The profile's 'QIP dilutes promoter to sub-65%' trigger is not hit.
+
+**1-Sep-2026 — FY26 annual report filed**  
+Annual report for the year ended 31-Mar-2026 filed 1-Sep.
+> *Why it matters:* **Not read for this refresh.**
+
+**12 → 18-Sep-2026 — 📈 Price ₹1,067 → ₹1,374 (+29%)**  
+Screener P/E 196x (was 152x), ROCE 11.5%, ROE 15.7%; market cap ₹5,181cr; promoter 74.80%; 52-week range ₹552–1,465. Jun-2026 quarter: revenue ₹154cr, operating margin 14.4%, PAT ₹7.1cr.
+> *Why it matters:* P/E has moved from 152x to 196x on unchanged trailing earnings. The SBI MF price of ₹1,166 is the best available evidence of an institutional valuation, and it is below the market.
+
+**Routine filings, not material:** Board-meeting notice (15-Sep), AGM notice, newspaper notices.
+
+**Where this was blended into the profile:** §3.5 scorecard (QIP row).
+
+*Sweep: BSE + NSE announcements from 12-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
 ---
 
 ## 🔄 Refresh Log — 12-Aug-2026 (Q1FY27 + the first promoter sell-down since demerger)
@@ -323,6 +354,7 @@ The **demerger structure matters here.** In December 2024, Rossell India (the te
 | Q4FY26: Boeing T-7 US$ 200M strategic agreement — ramp Q2FY27+ | Q4FY26 | To be verified | 🕐 Pending |
 | Q4FY26: Inventory 10 months → 7.67 months (target 4 months) | Q4FY26 | Delivered directional improvement; long way to 4 months | 🟡 On track but slow |
 | Q4FY26: QIP planned for balance sheet strengthening | Q4FY26 | To be executed FY27 | 🕐 Pending — dilution watch |
+| **↳ Update 18-Sep-2026** | Board, 18-Sep | **₹300cr preferential issue to SBI Mutual Fund / SBI Optimal Equity Fund at ₹1,166 (25.73 lakh shares, 6.39%); EGM 15-Oct** | 🕐 **Executing as a preferential rather than a QIP; needs EGM and exchange approvals** |
 
 **How to read the scorecard.** Management has been **strong on volume + segment expansion + customer wins**. **Materially weak on margin delivery** — the EBITDA and PAT margin guidance were both missed by 400+ bps. Rishab attributes this to qualification investment for new customers (semi + space) which he expects to reverse in FY27. Whether he's right will be visible by Q2FY27 numbers.
 

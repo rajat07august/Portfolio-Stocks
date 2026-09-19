@@ -2,12 +2,43 @@
 
 **Ticker:** DCMSHRIRAM · BSE: 523367 · NSE: DCMSHRIRAM · **Sector:** 4 — Chemicals (Diversified & Specialty)
 **Conviction:** **MEDIUM (Under Watch)** · **Weighted 2-yr return:** ~+9.7% · **Div yield:** 1.04%
-**Thesis current as of:** 21-Aug-2026 · **Tracking since:** 3-Jul-2026
+**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 21-Aug-2026)* · **Tracking since:** 3-Jul-2026
 **CMP:** ₹1,082 · **Market Cap:** ₹16,901 cr · **P/E (reported):** 12.3x · **P/B:** 2.19x (BV ₹495) · **ROCE:** 11.5% · **ROE:** 11.5% · **52-wk range ₹945–₹1,414** *(Screener consolidated, 21-Aug-2026)*
 
 > **🔴 THE SINGLE MOST IMPORTANT THING ON THIS PAGE: the reported P/E of 12.3x is not investable.** Two consecutive quarters have carried enormous prior-period tax credits — a **−46% effective tax rate in Q4FY26** and **−152% in Q1FY27** — putting roughly **₹600cr of prior-year tax credits into a TTM P&L**. **Normalised on the company's own forward tax basis the multiple is ~21.5x, and on a cash-tax basis ~19.9x.** The screen will keep lying until Q4FY27. **Full derivation in §4.**
 
 > **✅ Concall gate CLOSED and verified.** The Q1FY27 call (30-Jul-2026) was machine-transcribed from the company's official audio on 1-Aug under §4A, and **verified line-by-line against the official transcript published 6-Aug-2026.** Every load-bearing figure checked out verbatim — the ECU level, the chlorine price, the ₹376cr MAT credit, the 19% cash-tax rate, the demerger commitment, the 85% chlorine tie-up and the Bioseed quote. **All quotes below are from the official transcript.**
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹995** · market cap ₹15,516 cr · P/E 11.3x · ROCE 11.5% · ROE 11.5% · 52-wk high ₹1,409 / low ₹945 · **vs ₹1,082 at baseline (-8.0%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Kota aluminium-extrusion plant commissioned; ICRA AA+/Stable reaffirmed with higher limits; stock −8% toward its 52-week low</span></summary>
+<div class="upd-body">
+
+**Net read:** **Operationally benign, market unkind. Conviction HELD at MEDIUM (Under Watch), no trigger changed.** The only company-specific events are the commissioning of the first of four Q2FY27 projects and a clean ICRA reaffirmation. The stock fell ~8% with no adverse filing behind it, so the move is market, not news. The reported P/E of 11.3x is still flattered by ~₹600cr of prior-year tax credits (§4).
+
+**1-Sep-2026 — 🆕 Main aluminium-extrusion plant at Kota commissioned**  
+Reg 30 filing: the **main aluminium extrusion plant was commissioned at 10:30 a.m. on 1-Sep-2026**; the **surface-finish plants are still being installed and commissioned.** This is the Fenesta backward-integration approved by the Board on 30-Oct-2024.
+> *Why it matters:* First of the four Q2FY27 commissionings in the profile's execution-density risk, landed inside the quarter as guided. **The surface-finish leg is not yet done, so Fenesta's extrusion-to-finished-profile chain is not complete.** No capex, cost or capacity figure was disclosed in the filing.
+
+**31-Aug / 1-Sep-2026 — ✅ ICRA reaffirms AA+ (Stable) and assigns enhanced limits**  
+ICRA (letter of 31-Aug, disclosed 1-Sep) **re-affirmed [ICRA]AA+ (Stable) / A1+** across the term loan (₹1,019.82cr), cash credit (₹1,349cr, *re-affirmed and assigned for enhanced amount*), non-fund limits (₹1,500cr, likewise enhanced), fixed deposits (₹40cr). The commercial-paper programme was rated at ₹700cr, of which **₹580cr was withdrawn by the company, leaving ₹120cr.**
+> *Why it matters:* The rating held through a net-debt rise (₹1,481cr → ₹1,649cr YoY) and a ~₹1,000cr capex year, which supports management's stated 1.5x debt/EBITDA ceiling. The filing does not state the size of the prior limits, so the *scale* of the enhancement is not knowable from it.
+
+**21 → 18-Sep-2026 — 📉 Price: ₹1,082 → ₹995 (−8%), now 5% above the 52-week low of ₹945**  
+No company filing explains the fall. Reported P/E 11.3x on TTM; on the profile's own normalisation (~21.5x at ₹1,082) the multiple scales to roughly **19.8x at ₹995** *(my arithmetic, not a fresh derivation)*.
+> *Why it matters:* A lower price improves the entry multiple but does not remove the two things that made this an Under-Watch name: ~₹600cr of non-operating tax credits in TTM earnings and a −1% three-year profit CAGR.
+
+**Routine filings, not material:** CRISIL ESG rating 64 (core 70) for FY26 on 25-Aug; newspaper notice on IEPF share transfers 27-Aug.
+
+**Where this was blended into the profile:** Header and §3 Moat 5 (extrusion status), §3 ICRA lines, §4 commissioning table (row status), §5.5(b) new entry, §7 Risk 8 annotation.
+
+*Sweep: BSE + NSE announcements from 22-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 
@@ -22,7 +53,7 @@ DCM Shriram is a **diversified Indian industrial group** running six substantial
 The 30-second snapshot:
 
 - **Founded on the DCM lineage; run by the Shriram family** — Ajay Shriram (Chairman & Senior MD), Vikram Shriram (Vice Chairman & MD), Ajit Shriram (Joint MD), Aditya Shriram (Deputy MD)
-- **12 locations · 6,609 employees · ICRA AA+/Stable · net worth ₹7,660cr**
+- **12 locations · 6,609 employees · ICRA AA+/Stable *(reaffirmed 31-Aug-2026 with enhanced limits)* · net worth ₹7,660cr**
 - **FY26 revenue mix: Agri-Rural 56% · Chemicals & Vinyl 34% · Building Material Products 8%** — *Agri-Rural is the largest block, which is why an erratic monsoon hurts this much*
 - **Q1FY27:** net revenue **₹3,564cr (+9%)** · **PBT before exceptional ₹194.7cr (+14.4%)** · **normalised PAT ₹147cr (+29%)** against a **reported ₹693.4cr (+509%)**
 - **ROCE 13.6%** on the company's own TTM PBIT calculation — *the first uptick since FY24*
@@ -62,7 +93,7 @@ The 30-second snapshot:
 
 **Moat 4 — Advanced materials, built and ramping.** The **Glycerine → Epichlorohydrin → Epoxy** chain is complete: ECH at 52,000 TPA (35,000 in Oct-2025, the balance 17,000 in April-2026), HSCL 100% acquired Aug-2025, DNV Global 53% acquired May-2025. **ECH and epoxy are running at ~70% utilisation** — *"around 70% capacity utilisation each"* — with real headroom.
 
-**Moat 5 — Fenesta's distribution.** 430 dealers, 273 cities, 976 cities served, 9 COCO showrooms. **Total order book ~₹1,000cr.** Backward-integrating into aluminium extrusion (Kota Phase 1, Q2FY27), DNV hardware and a new wooden-doors facility.
+**Moat 5 — Fenesta's distribution.** 430 dealers, 273 cities, 976 cities served, 9 COCO showrooms. **Total order book ~₹1,000cr.** Backward-integrating into aluminium extrusion (**Kota main plant commissioned 1-Sep-2026 — surface-finish plants still being installed**), DNV hardware and a new wooden-doors facility.
 
 **Moat 6 — A conservative balance sheet through a heavy capex cycle.** Net debt ₹1,649cr with **debt/EBITDA ~1.1x** and a stated hard ceiling of **1.5x**; **ICRA AA+/Stable.** ~₹1,000cr of annual capex is being funded without stressing the rating.
 
@@ -340,7 +371,7 @@ Asked where caustic prices are heading, **Aditya Shriram (Deputy MD)**:
 
 | Project | Expected |
 |---|---|
-| Fenesta Aluminium Extrusion, Kota (Phase 1) | **Q2FY27** |
+| Fenesta Aluminium Extrusion, Kota (Phase 1) | **Q2FY27** — ✅ *main plant commissioned 1-Sep-2026; surface-finish plants still in installation* |
 | 68 MW peak captive RE, Kota (JSW Renewables JV) | **Q2FY27** |
 | 100 TPD Aluminium Chloride, Bharuch | **Q2FY27** *— pre-commissioning trials* |
 | 225 TPD Calcium Chloride, Bharuch | **Q2FY27** *— pre-commissioning trials* |
@@ -412,6 +443,10 @@ Asked where caustic prices are heading, **Aditya Shriram (Deputy MD)**:
 **Downgrade to ML if:** ECU holds below ₹30,000 through Q2FY27 **or** the demerger stalls again as it has once already **or** debt/EBITDA approaches the 1.5x ceiling.
 
 ### (b) Material developments — newest first
+
+**✅ Kota aluminium-extrusion plant commissioned; ICRA AA+ reaffirmed with enhanced limits** *(Reg 30 filings 1-Sep-2026; ICRA letter 31-Aug)*
+The main extrusion plant started on 1-Sep-2026; surface-finish plants remain in installation. ICRA reaffirmed AA+/Stable and A1+ and assigned enhanced cash-credit (₹1,349cr) and non-fund (₹1,500cr) limits; the commercial-paper programme was cut from ₹700cr to ₹120cr rated.
+> **Why it matters:** one of the four Q2FY27 commissionings landed on time, and the rating held through a ~₹1,000cr capex year. The surface-finish half is still open, and no cost or capacity figures were disclosed.
 
 **✅ Board refresh completed at the AGM — two out, two in, same day** *(cessations 8-Aug filing / effective 9-Aug; appointments approved 18-Aug AGM, filed 19-Aug)*
 **Mr. Pravesh Sharma** and **Justice (Retd.) Vikramajit Sen** ceased **on completion of their second terms**; **Justice (Retd.) Sanjay Kishan Kaul** and **Ms. Rumjhum Chatterjee** appointed for five-year terms.
@@ -567,7 +602,7 @@ The 16-Jul refresh set watch item #1 as *"Q1FY27 tax rate normalization — must
 
 **Risk 7 — 🟡 Chemicals growth is mix-dilutive.** Caustic volumes dead flat; all the growth is lower-margin advanced materials; segment PBDIT margin **24.5% → 22.8%.**
 
-**Risk 8 — 🟡 Execution density in Q2FY27.** Four commissionings land in one quarter — Fenesta extrusion, 68 MW Kota RE, AlCl₃ and CaCl₂ — with a salt-works acquisition in Q3 behind them. **Two are already in pre-commissioning trials, but slippage in any of them defers the chlorine economics.**
+**Risk 8 — 🟡 Execution density in Q2FY27.** Four commissionings land in one quarter — Fenesta extrusion, 68 MW Kota RE, AlCl₃ and CaCl₂ — with a salt-works acquisition in Q3 behind them. **Two are already in pre-commissioning trials, but slippage in any of them defers the chlorine economics.** ⚠️ *Update 1-Sep-2026: the Fenesta extrusion main plant is commissioned (surface-finish still pending) — one of four done; 68 MW Kota RE, AlCl₃ and CaCl₂ remain.*
 
 **Risk 9 — 🟡 Net debt is rising into the capex wave.** **₹1,649cr, +11.3% YoY**, guided to ~₹1,450cr by FY27 exit. **Debt/EBITDA 1.1x against a stated 1.5x ceiling** — comfortable, but the direction is up while ROCE is 11.5%.
 

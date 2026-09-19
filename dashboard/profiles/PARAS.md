@@ -2,7 +2,7 @@
 
 **Ticker:** PARAS · NSE: PARAS · BSE: 543367
 **Sector:** 1 — Aerospace & Defence · **Conviction:** **Medium-Low**
-**Thesis current as of:** 13-Aug-2026 · **Tracking since:** 3-Jul-2026
+**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 13-Aug-2026)* · **Tracking since:** 3-Jul-2026
 
 **CMP ₹1,281** · **Market cap ₹10,325 cr** · **P/E 112x trailing** *(~85x FY27E)* · **P/B 14.2x** (book ₹90.0) · **ROCE 16.9%** · **ROE 12.6%** · **Div yield 0.08%** · 52-week range **₹580–₹1,445**, **+95% over one year**, 3-year CAGR **59%**
 *(Screener consolidated, 13-Aug-2026)*
@@ -10,6 +10,33 @@
 > **How to read this profile.** Sections 1–9 describe what I believe **today**, rewritten at each review rather than annotated. **Section 5.5 is the memory** — how the thesis got here, what changed and when, what I got wrong. **Section 9 is the community read.**
 >
 > **🔴 Concall gate: NOT APPLICABLE — PARAS holds no earnings calls.** Across **424 NSE filings**, the only transcript-type disclosure is from **7-Oct-2022**. **There is no Q1FY27 earnings call, no investor presentation, and no order-book disclosure** — the results filing was checked directly (`order book`: **0 mentions**). `Fetched Concalls/PARAS/` contains **only investor decks**, the most recent from **Feb-2026**. *This is a source limit, not a fetch failure — and it shapes every judgement below.*
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹1,373** · market cap ₹11,062 cr · P/E 120x · ROCE 17.2% · ROE 12.4% · 52-wk high ₹1,585 / low ₹580 · **vs ₹1,281 at baseline (+7.2%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">No company event beyond investor-conference meetings and the FY26 annual report; stock +7% to ₹1,373 at ~120x</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-LOW.** No order, guidance, management or balance-sheet filing since 13-Aug. Management met investors at the Motilal Oswal and Kotak conferences (14 and 17-Aug). The stock rose 7% on no disclosed news; at ₹1,373 the trailing P/E is 120x (Screener) against the profile's 112x. FY26 annual report filed and **not read for this refresh**.
+
+**14-Aug → 22-Aug-2026 — Investor-conference meetings; dividend tax letter**  
+Management scheduled meetings at Motilal Oswal's 22nd Annual Global Investor Conference and Kotak's Manufacturing Forum 2026; a shareholder letter on dividend tax deduction followed (22-Aug).
+> *Why it matters:* No content disclosed. A rising stock plus an investor roadshow is the pattern behind the profile's valuation caution.
+
+**13 → 18-Sep-2026 — Price ₹1,281 → ₹1,373 (+7%)**  
+Screener P/E 120x, ROCE 17.2%, ROE 12.4%; market cap ₹11,062cr; promoter 53.20% unchanged; 52-week range ₹580–1,585. Jun-2026 quarter: revenue ₹128cr (−25% QoQ), PAT ₹21cr.
+> *Why it matters:* The multiple has widened on unchanged earnings. Nothing filed supports it.
+
+**Routine filings, not material:** AGM notice and logistics, annual report, BRSR, trading-window notices, newspaper notices.
+
+**Where this was blended into the profile:** No body-text edits.
+
+*Sweep: BSE + NSE announcements from 13-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 

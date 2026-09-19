@@ -2,12 +2,47 @@
 
 **Ticker:** MPSLTD · BSE: 532440 · NSE: MPSLTD · **Sector:** 8 — IT / Software & Platforms *(sector definition broadened 2-Aug-2026 to admit non-BFSI enterprise software & platform businesses)*
 **Conviction:** **Medium-High** · **Weighted 2-yr return:** ~+32% (≈15% CAGR) · dividend currently suspended
-**Thesis current as of:** 21-Aug-2026 · **Tracking since:** 2-Aug-2026
+**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 21-Aug-2026)* · **Tracking since:** 2-Aug-2026
 **CMP:** ₹2,898 · **Market Cap:** ₹4,948 cr · **P/E (consolidated TTM):** 27.0x · **P/B:** 8.3x (BV ₹349) · **ROCE:** 38.7% · **ROE:** 29.7% · **52-wk range ₹1,336–₹2,980** · **Listing:** Mainboard *(Screener consolidated, 21-Aug-2026)*
 
 > **⚠️ Data note — use CONSOLIDATED only.** MPS's standalone figures understate the business by roughly half (Q1FY27 standalone revenue ₹124cr vs **consolidated ₹224cr**), because AJE, HighWire, Liberate Global and Unbound Medicine sit in subsidiaries. **Screener's default page for this ticker serves standalone.** Every number in this profile is consolidated and reconciles to the transcript (Q1FY27: ₹224.24cr revenue, ₹50.39cr PAT — matches Screener consolidated exactly).
 
 > **📌 A structural event is in progress and shareholders vote on it tomorrow.** The **promoter holding company, ADI BPO Services Limited, is being amalgamated into MPS Limited** under Sections 230–232, with NCLT-convened meetings of equity shareholders and unsecured creditors on **22-August-2026**. **The swap ratio is calibrated to leave public shareholders untouched** — the arithmetic is checked in §5.5(b). **None of this was in the initiation.**
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹2,667** · market cap ₹4,563 cr · P/E 24.9x · ROCE 38.7% · ROE 29.7% · 52-wk high ₹2,980 / low ₹1,336 · **vs ₹2,898 at baseline (-8.0%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Promoter-holdco merger: shareholders and creditors approved the scheme (22-Aug), NCLT second-motion order taken on record (16-Sep); new company secretary; stock −8%</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-HIGH.** The one structural item the profile was tracking moved forward cleanly. **On 22-Aug the equity shareholders approved the amalgamation of ADI BPO Services (the Arora-family holding company) into MPS with 12,394,155 votes for and 50 against**, and the unsecured creditors also approved; the **NCLT Chennai bench's order of 16-Sep took those approvals on record and directed notice to the statutory and regulatory authorities.** No final sanction yet. Nothing changes the operating story (June-quarter revenue ₹224cr, operating margin 34%). The stock is 8% lower at ₹2,667.
+
+**19-Sep-2026 (order 16-Sep) — 🟢 NCLT records the shareholder and creditor approvals; notices to regulators directed**  
+Reg 30 filing: the **NCLT Chennai Bench (Division Bench, Court-I) order of 16-Sep-2026 in the second-motion petition CP(CAA)/76(CHE)/2026 took on record the Chairman's reports of the 22-Aug approvals** by equity shareholders and unsecured creditors, and **directed service of notices on statutory and regulatory authorities** to invite representations. The certified copy was received on 18-Sep.
+> *Why it matters:* The scheme is at the last procedural stage before the final order. The next step is the regulators' representations and a sanction hearing; a date is not stated. Public shareholders' holding is unaffected by the scheme, per the profile's arithmetic (1,16,90,615 shares issued vs 68.34% of the base).
+
+**22-Aug-2026 — ✅ Shareholders approve the scheme with the requisite majority**  
+NCLT-convened equity-shareholder meeting: **12,394,155 votes for, 50 against on 72.46% of shares polled**; promoter group 100% for (11,690,615 shares); public institutions 91.08% turnout, all for; public non-institutions 3.26% turnout, 99.97% for. Unsecured creditors also approved.
+> *Why it matters:* The profile's 'vote tomorrow' item is resolved. Non-promoter retail turnout was 3.3%, so the outcome rested on institutions and the promoter group.
+
+**25-Aug / 4-Sep-2026 — Company Secretary appointed; AGM held; unsolicited ESG rating**  
+Mr. Piyush Jain named Company Secretary & Compliance Officer from 29-Aug; the 56th AGM was held on 4-Sep; the company disclosed an unsolicited ESG rating (4-Sep).
+> *Why it matters:* Administrative.
+
+**21 → 18-Sep-2026 — 📉 Price ₹2,898 → ₹2,667 (−8%)**  
+Screener P/E 24.9x (was 27.0x), ROCE 38.7%, ROE 29.7%; market cap ₹4,563cr; promoter 68.34%; 52-week range ₹1,336–2,980.
+> *Why it matters:* The fall follows the scheme progress; no company disclosure explains it.
+
+**Routine filings, not material:** AGM proceedings and voting results, unclaimed-dividend notices, newspaper notices.
+
+**Where this was blended into the profile:** §3.5 amalgamation section, §5.5 conviction table.
+
+*Sweep: BSE + NSE announcements from 21-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 
@@ -223,12 +258,17 @@ As of 30-Jun-2026: **cash ₹138.02cr against borrowings of ₹37.63cr** (the fa
 |---|---|---|
 | 2-Aug-2026 | **Medium-High** | Initiation, fully concall-grounded from **seven transcripts**. Elite returns (39.3% ROCE, 31.2% ROE), a seven-year capital-allocation record, and Q1FY27 operating leverage (revenue +20%, EBITDA +53%, headcount +<3%) — **held back from High by the AI question, single-digit organic growth ex-acquisitions, a suspended dividend and an FY28 target that needs M&A** |
 | 21-Aug-2026 | **HELD at Medium-High** | **A promoter-holdco amalgamation surfaced that the initiation did not have** — structurally clean on the arithmetic, and shareholders vote 22-Aug. Two subsidiary restructurings completed. **Nothing operational has changed; the stock is +6.5%** |
+| **19-Sep-2026** | **HELD at Medium-High** | Filings refresh: **scheme approved by shareholders (12,394,155 for / 50 against) and creditors on 22-Aug; NCLT records approvals 16-Sep and directs notices to regulators.** Stock −8% to ₹2,667. |
 
 **Upgrade to High if:** FY27 EBITDA clears ₹300cr comfortably **and** organic growth moves out of the early teens **and** the dividend resumes.
 
 **Downgrade to Medium if:** organic growth stalls in single digits **or** the FY28 ₹1,500cr target is quietly dropped **or** a large acquisition disappoints.
 
 ### (b) Material developments — newest first
+
+**🟢 Amalgamation approved by shareholders and creditors; NCLT records it** *(votes 22-Aug-2026; NCLT order 16-Sep, filed 19-Sep)*
+Equity shareholders approved ADI BPO's merger into MPS with 12,394,155 votes for and 50 against (72.46% of shares polled); unsecured creditors approved; the NCLT Chennai bench took the approvals on record on 16-Sep and directed notices to the authorities.
+> **Why it matters:** the promoter-holdco merger has cleared its shareholder votes and is at the last procedural stage; final sanction, timing and the regulators' representations remain.
 
 **🟢 The promoter holding company is being merged into the listed entity — and the arithmetic is clean** *(NCLT Chennai order 2-Jul-2026; notice 22-Jul; addendum 5-Aug; **meetings 22-Aug-2026**)*
 

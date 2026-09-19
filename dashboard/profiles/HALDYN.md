@@ -11,6 +11,27 @@
 
 > **📋 WHAT THIS REFRESH FOUND.** v1 was **8.6 KB — the thinnest profile on the watchlist** — written 3-Jul-2026 from Screener and public information. Since then: **a strong Q1FY27 (revenue +21%, consolidated PAT +90%)**, **the FY26 annual report**, **a captive renewable-power investment**, and **a significant accounting judgement that v1 did not carry: Haldyn owns 56.80% of its principal joint venture and accounts for it as an associate rather than a subsidiary.**
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹143** · market cap ₹766 cr · P/E 24.7x · ROCE 13.5% · ROE 11.4% · 52-wk high ₹150 / low ₹70.4 · **vs ₹142 at baseline (+0.7%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 2-Sep-2026 → 19-Sep-2026</span> <span class="upd-sum">No company filing since the 2-Sep profile beyond AGM logistics; stock ₹142 → ₹143</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM.** The exchange feed carries only AGM-related filings since 2-Sep (BSE 515147; NSE's announcements API remains empty for HALDYNGL). Nothing to blend. Q1FY27 numbers already in the profile: revenue ₹139cr, operating profit ₹22cr, PAT ₹10cr (Screener).
+
+**2 → 18-Sep-2026 — No material filing**  
+Two AGM-related filings only. Price ₹142 → ₹143; Screener P/E 24.7x, ROCE 13.5%, ROE 11.4%; promoter 59.14% (rising each quarter from 58.14% in Jun-2025); 52-week range ₹70–150.
+> *Why it matters:* The stock is within 5% of its 52-week high while the standing data gap (no concalls, thin disclosure) is unchanged.
+
+**Where this was blended into the profile:** No body-text edits.
+
+*Sweep: BSE + NSE announcements from 2-Sep-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
 ---
 
 ## 1. Business in Plain English

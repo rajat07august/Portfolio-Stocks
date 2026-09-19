@@ -18,6 +18,33 @@
 
 > **⚠️ Reporting basis, stated up front.** Macpower has no subsidiaries, no joint ventures and no associates. Every figure in this profile is standalone and audited, reconciled between the FY26 Annual Report (filed 20-Aug-2026), the quarterly filings and Screener. Where the three disagree, the disagreement is stated.
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹2,104** · market cap ₹2,105 cr · P/E 54.1x · ROCE 29.1% · ROE 21.3% · 52-wk high ₹2,149 / low ₹761 · **vs ₹1,843 at baseline (+14.2%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 11-Sep-2026 → 19-Sep-2026</span> <span class="upd-sum">Investor-meeting flurry (DII management meet 21-Sep; CMD in a promoter-interview series); nothing on the three unreconciled figures; stock +14% to ₹2,104 at 54x</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM.** Three routine filings since 11-Sep: investor-meet schedules (15 and 17-Sep, including a management meeting with domestic institutions on 21-Sep) and a notice that the Chairman & MD took part in a promoters-interview series run by a content agency (18-Sep). **None of the three figures the profile could not reconcile (receivables, cash, market share) has been addressed**; the H1FY27 balance sheet (~Nov-2026) is still the only test. The stock is +14% in a week to ₹2,104, at its ₹2,149 52-week high and 54x, so the profile's 'comfortable at ₹1,400-1,500' zone now sits about 30% below the price.
+
+**15 → 18-Sep-2026 — Investor meets and a promoter-interview appearance**  
+NSE filings: schedule of meetings (15-Sep), a management meeting with domestic institutions on 21-Sep (17-Sep), and participation of the Chairman & MD in a promoters-interview series by a content and digital-strategy agency (18-Sep).
+> *Why it matters:* **Rising investor-relations activity while the stock runs to a high.** The CMD is the sole operating voice (profile Risk); an interview series with a marketing firm is a promotion channel, not a disclosure. Nothing addresses the ₹33-34cr vs ₹46.27cr receivables, ₹20-25cr vs ₹6.62cr cash or 4%/2% vs 2.08%/0.95% market-share differences.
+
+**11 → 18-Sep-2026 — 📈 Price ₹1,843 → ₹2,104 (+14%)**  
+Screener P/E 54.1x (was ~47x), ROCE 29.1%, ROE 21.3%; market cap ₹2,105cr; promoter 73.22%; 52-week range ₹761–2,149. NSE-only listing.
+> *Why it matters:* Multiple expansion of ~15% in a week with no new numbers.
+
+**Routine filings, not material:** None.
+
+**Where this was blended into the profile:** No body-text edits.
+
+*Sweep: BSE + NSE announcements from 11-Sep-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
 ---
 
 ## 1. Business in Plain English

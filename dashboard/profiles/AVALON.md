@@ -2,10 +2,41 @@
 
 **Ticker:** AVALON · BSE: 543896 · NSE: AVALON · **Sector:** 5 — EMS (Electronics Manufacturing Services)
 **Conviction:** **Medium (Under Watch — valuation)** · **Weighted 2-yr return:** ~+15%, on a multiple that leaves no room
-**Thesis current as of:** 21-Aug-2026 · **Tracking since:** 3-Jul-2026
+**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 21-Aug-2026)* · **Tracking since:** 3-Jul-2026
 **CMP:** ₹2,184 · **Market Cap:** ₹14,609 cr · **P/E (trailing):** 109x · **P/B:** 20.2x (BV ₹108) · **ROCE:** 19.5% · **ROE:** 16.9% · **Div yield:** 0.00% · **52-wk range ₹777–₹2,351** *(Screener consolidated, 21-Aug-2026)*
 
 > **📌 Fetch note worth carrying: Avalon hosts its transcripts on its own IR site, not on BSE or NSE.** The exchange filing is a **cover letter with a link** — the 11-Aug-2026 Q1FY27 filing extracts to 1,466 characters of letterhead pointing at `avalontec.com`. **An exchange-feed-only scan would conclude Avalon files no transcripts.** `curl` reaches the IR site directly. Screener's concall links point to `avalontec.com` for transcripts and to BSE only for decks. **Don't assume the BSE UUID pattern covers every stock.**
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹2,538** · market cap ₹16,973 cr · P/E 127x · ROCE 19.3% · ROE 16.5% · 52-wk high ₹2,620 / low ₹777 · **vs ₹2,184 at baseline (+16.2%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Joint venture with Zollner Elektronik AG (Zollner 51% / Avalon 49%); Chairman-MD re-appointed for five years from Jul-2027 and a new independent director; stock +16% to 127x</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM (Under Watch — valuation).** The Board on 3-Sep approved a JV with the German EMS company Zollner Elektronik that opens two new verticals (healthcare and test & measurement) but starts small and is Zollner-led. No capital amount beyond initial subscription is stated. **The stock rose 16% to ₹2,538, 127x trailing earnings, against the profile's 'no room' valuation warning; the JV is a real strategic step and is already in the price.** No financial commitment, revenue or margin guidance accompanied it.
+
+**3-Sep-2026 — 🟢 Joint venture with Zollner Elektronik AG for PCBA, box-build and system integration in India**  
+Board approved the Joint Venture Agreement for a new company ('Zollner Avalon Private Limited' or another name): **Zollner 51%, Avalon 49%**, with an **option for Avalon, three years after commercial production starts and subject to conditions, to buy a further 2% and reach 51%**. The JV will initially serve **Indian operations of Zollner's established customers** in healthcare and life sciences, test and measurement, rail and industrial. **Avalon will also supply the JV** with cable harness, magnetics, plastics, sheet metal and machining. Set-up is via a wholly owned Avalon subsidiary with a ₹2 lakh authorised capital, to which Zollner then subscribes; **approvals are pending and no investment amount is stated.**
+> *Why it matters:* Zollner (60+ years, a strong European EMS name) brings customers and process; Avalon brings its India base and adds a recurring supply relationship. **Two facts temper it: Avalon holds the minority for at least three years after production starts, and there are no revenue, capex or timeline figures**, so the JV cannot yet be sized against Avalon's ~₹1,760cr TTM revenue *(Screener's last four quarters, my sum)*. Test & measurement and healthcare EMS are also less price-sensitive verticals than Avalon's current mix.
+
+**3-Sep-2026 — Board changes**  
+Mr. CG Balaji appointed Additional Director (Independent) for five years from 3-Sep; **Chairman & Managing Director Kunhamed Bicha re-appointed for five more years from 12-Jul-2027**, with two other second terms from Jul-2027; all subject to the AGM.
+> *Why it matters:* Long-dated re-appointment gives continuity of the promoter-CMD through mid-2032. Annual report FY26 and the 27th AGM notice were filed 4-5 Sep.
+
+**21 → 18-Sep-2026 — 📈 Price ₹2,184 → ₹2,538 (+16%)**  
+Screener P/E 127x (was 109x), ROCE 19.3%, ROE 16.5%; market cap ₹16,973cr; promoter 44.39%; 52-week range ₹777–2,620.
+> *Why it matters:* The multiple expanded 17% on the JV and unchanged earnings; the stock is 3% below its high.
+
+**Routine filings, not material:** ESOP allotments, AGM notice and newspaper notices, shareholder letters, BRSR.
+
+**Where this was blended into the profile:** §5.5 conviction table and (b).
+
+*Sweep: BSE + NSE announcements from 21-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 
@@ -277,12 +308,17 @@ The deck describes this as the *"eighth consecutive quarter of sequential"* grow
 | 3-Jul-2026 | **Medium** | Initiation. Hybrid India+US EMS, 46% FY26 growth, box build shift — held at Medium purely on a 107x multiple |
 | **6-Aug-2026** | **HELD at Medium — "Under Watch (valuation)" tag added** | Q1FY27 print: revenue +49.8% YoY but **+0.9% QoQ** and PAT **−15.3% QoQ**. Order book +23.4%, NWC −25 days, box build past 60%. **Not upgraded: flat sequential, poor cash conversion, 88.9x earnings** |
 | 21-Aug-2026 | **HELD at Medium (Under Watch — valuation)** | **The Q1FY27 call transcript, unavailable at the 6-Aug review, materially improves the operating read** — guidance raised, tariff-adjusted margin higher, CFO positive, US model clarified. **But the stock is +23% in fifteen days to a fresh high and back to 109x. The operating case got better and the price got worse by more** |
+| **19-Sep-2026** | **HELD at Medium (Under Watch — valuation)** | Filings refresh: **JV with Zollner Elektronik AG (Zollner 51% / Avalon 49%; 3-Sep)** adds healthcare and test & measurement verticals, no amounts stated; CMD re-appointed to 2032. Stock +16% to 127x, near its high. |
 
 **Downgrade to ML if:** Q2FY27 revenue fails to exceed ₹500cr (a second flat quarter would confirm a plateau) · **or** US manufacturing EBITDA breakeven slips beyond FY27 · **or** NWC days rise back above 130 · **or** CFO/OP stays below 50% in FY27.
 
 **Upgrade to MH if:** box build share continues past 65% with gross margin holding above 35% · **and** CFO/OP clears 70% · **and** FY27 revenue lands at or above the top of the raised 26–30% guide with margin intact.
 
 ### (b) Material developments — newest first
+
+**🟢 Joint venture with Zollner Elektronik AG** *(Board and press release, 3-Sep-2026)*
+A JV for PCBA, box-build and system integration in India: Zollner 51% / Avalon 49% with an option for Avalon to reach 51% three years after production starts; it will initially serve Indian operations of Zollner's customers in healthcare, test & measurement, rail and industrial, with Avalon supplying harness, magnetics, plastics, sheet metal and machining.
+> **Why it matters:** two new verticals and a recurring supply relationship, but Avalon starts as the minority partner, approvals are pending, and no capital, revenue or timeline is stated. The stock rose 16% within two weeks.
 
 **🟡 India Ratings affirmed at IND A-/Positive/IND A1 — and then withdrew the rating at the company's request** *(filing 19-Aug-2026)*
 ₹1,415 million (₹141.5cr) of bank loan facilities. **Affirmed at 'IND A-'/Positive/'IND A1' before being withdrawn.**

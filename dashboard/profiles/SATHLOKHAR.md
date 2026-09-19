@@ -2,7 +2,7 @@
 
 **Ticker:** SATHLOKHAR · **NSE-SME: SSEGL** · ISIN INE0RFP01011 · *no BSE listing*
 **Sector:** 6 — Engineering / EPC *(Integrated Industrial Construction — Civil + PEB + MEP + Solar)* · **Conviction:** **Medium-High**
-**Thesis current as of:** 13-Aug-2026 · **Tracking since:** 3-Jul-2026
+**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 13-Aug-2026)* · **Tracking since:** 3-Jul-2026
 
 **CMP ₹313** · **Market cap ₹814 cr** · **P/E 7.93x trailing** *(~6x on FY27 guided)* · **P/B 2.27x** (book ₹138) · **ROCE 37.1%** · **ROE 31.0%** · **Div yield 0.00%** · 52-week range **₹283–₹580**
 *(Screener standalone, 13-Aug-2026)*
@@ -10,6 +10,37 @@
 > **How to read this profile.** Sections 1–9 describe what I believe **today**, rewritten at each review rather than annotated. **Section 5.5 is the memory** — how the thesis got here, what changed and when, what I got wrong. **Section 9 is the community read.**
 >
 > **⚠️ Screener ticker note.** The company is **`SSEGL` on Screener** (`screener.in/company/SSEGL/`); **`SATHLOKHAR` returns HTTP 404.** The initiation profile twice recorded *"Screener data limited for SME"* and wrote its Numbers and Valuation sections without a balance sheet, cash flow or peer set. **The data was always there.** *Same class of error as OBSC and DYNAMATIC.* **SSEGL reports standalone only** — there is no consolidated page.
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹413** · market cap ₹1,073 cr · P/E 10.5x · ROCE 36.3% · ROE 30.3% · 52-wk high ₹580 / low ₹283 · **vs ₹313 at baseline (+31.9%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">PEB plant inaugurated on schedule; confirmed FY27 orders ₹1,139cr (from ₹1,102cr), ₹22,654cr bid pipeline, ~70% growth guidance reaffirmed; new Godrej order ₹44cr; stock +32%</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-HIGH.** Both operational commitments the profile tracked landed: the new PEB facility was inaugurated on the fixed date (30-Aug) and the order book rose. Coverage of the ~₹1,399cr revenue implied by 70% growth is now **81%** (₹1,139cr, up from ₹1,102cr on 11-Aug), against ~₹300cr left to win. **The stock, however, is up 32% to ₹413 in five weeks, so the profile's ~+68.5% weighted return at ₹313 compresses to roughly +28% at this price** *(my scaling of the profile's figure, scenarios not re-derived)*. P/E is 10.5x, from 7.9x.
+
+**7-Sep-2026 — 🟢 Confirmed FY27 orders ₹1,139.10cr; bid pipeline ₹22,654cr; ~70% growth guidance reaffirmed; new Godrej Consumer order**  
+Company statement: confirmed orders of **₹1,139.10cr (ex-GST) for execution in FY27**, of which **₹204.81cr was billed in Q1**; bids submitted for projects aggregating **~₹22,654cr** (profile: ₹22,155cr on 11-Aug), which management says even at a 10% conversion supports the **~70% FY27 revenue growth guidance on FY26 revenue of ~₹823cr**. New order from **Godrej Consumer Products** for civil and PEB work at its One Hub Chennai park (Old Mahabalipuram Road): **₹44.26cr including GST, due before February 2027.**
+> *Why it matters:* Order book +₹37cr in four weeks against ₹300cr still to win for the guide. The Godrej order is a named blue-chip customer for the new plant's product. **Guidance was reaffirmed in a written disclosure, which is the more accountable form.** Unchanged: bank lines ~72% drawn and the SME liquidity constraint.
+
+**30-Aug-2026 — 🟢 New PEB manufacturing plant inaugurated on schedule**  
+Press release: the **1,65,000 sq ft pre-engineered-building facility at Pulivalam, Tamil Nadu** (near the Chennai–Bangalore highway) was inaugurated on 30-Aug, 'marking the successful completion of the factory development'. A separate filing records commencement of trial production and capacity addition.
+> *Why it matters:* Ticks the profile's 'PEB facility inauguration Aug-2026, fixed for 30-Aug' scorecard row (🟢). Commercial production was guided ~60 working days after; the ramp is the next test.
+
+**13 → 18-Sep-2026 — 📈 Price ₹313 → ₹413 (+32%); P/E 7.9x → 10.5x**  
+Market cap ₹1,073cr; ROCE 36.3%, ROE 30.3%; promoter 58.27% (after the Dec-2025 fall from 62.71%); 52-week range ₹283–580; analyst meet scheduled 18-Sep.
+> *Why it matters:* The rise is entirely multiple expansion on trailing earnings; the valuation cushion in the profile is roughly a third smaller.
+
+**Routine filings, not material:** Analyst-meet schedule and newspaper notices.
+
+**Where this was blended into the profile:** §3.5 scorecard rows, §5.5(a) row and (b) entry.
+
+*Sweep: BSE + NSE announcements from 13-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 
@@ -286,11 +317,16 @@ Thiyagu: *"The improvement of profitability was supported by better operating ef
 | 3-Jul-2026 | Medium-High | — | ~80-120% | Initiated |
 | 10-Jul-2026 | **High** | — | ~80-120% | Upgraded on *"PEB inauguration + Class 1A PWD + 8✅/3🕐 scorecard"*; concluded *"One-person management is the singular caveat; upside far exceeds risk"* |
 | **13-Aug-2026** | **High → Medium-High** | **₹313** | **~+68.5%** *(base +58% / bull +227% / bear −48%)* | **Every operational item in the upgrade was delivered or is on schedule. But the ~80-120% rested on a 30-35x exit multiple no EPC peer commands, and "the singular caveat" now has an NCLT insolvency order attached — disclosed 13-Jun-2026, three weeks before initiation, and missed** |
+| **19-Sep-2026** *(filings refresh)* | **HELD at Medium-High** | **₹413** | **~+28% at the new price** *(scaled from +68.5% at ₹313)* | **PEB plant inaugurated on schedule (30-Aug); confirmed FY27 orders ₹1,139cr (81% of the ~₹1,399cr guide); ₹22,654cr bid pipeline; 70% guidance reaffirmed in writing; Godrej ₹44cr order. Stock +32%.** |
 
 **🎯 Trigger to move back to High:** **NCLAT resolves in the promoter's favour AND H1FY27 shows operating cash flow materially improved** (or unbilled revenue down as a share of revenue).
 **🎯 Trigger to move to Medium:** **NCLAT upholds the NCLT order; or a dilutive equity raise to fund working capital; or FY27 revenue tracking below ₹1,150cr at the half-year.**
 
 ### (b) Material developments
+
+**7-Sep-2026 · `ORDERS` — confirmed FY27 orders ₹1,139cr, ~70% guidance reaffirmed, and the new plant opens** *(company statement 7-Sep; press release 30-Aug)*
+Orders in hand for FY27 rose from ₹1,102cr to **₹1,139.10cr** (₹204.81cr billed in Q1); bids submitted total ~₹22,654cr; a ₹44.26cr Godrej Consumer Products order (civil + PEB, Chennai) was added. The 1,65,000 sq ft PEB plant at Pulivalam was inaugurated on the fixed date of 30-Aug.
+**Why it matters:** two commitments delivered on time; order coverage of the ~70% guide is 81%. The stock's 32% rise since 13-Aug has taken most of the valuation cushion.
 
 **29-Jul / 1-Aug-2026 · `RESULT` — an outstanding quarter with margin held at 15% for a fourth consecutive period.**
 Total income **₹206.19cr (+67.76%)**, EBITDA **₹31.35cr (+131.4%)** at **15.2% (+418bps)**, PAT **₹21.41cr (+132.59%)**.

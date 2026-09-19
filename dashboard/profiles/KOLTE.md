@@ -2,12 +2,43 @@
 
 **Ticker:** KOLTEPATIL · BSE: 532924 · NSE: KOLTEPATIL · **Sector:** 15 — Real Estate (Residential Developer — Pune + Mumbai + Bangalore)
 **Conviction:** **Medium-High (Under Watch)** · **Weighted 2-yr return:** ~+21% (≈10% CAGR) · no dividend
-**Thesis current as of:** 21-Aug-2026 · **Tracking since:** 3-Jul-2026
+**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 21-Aug-2026)* · **Tracking since:** 3-Jul-2026
 **CMP:** ₹469 · **Market Cap:** ₹4,152 cr · **P/B:** 3.45x (BV ₹136) · **52-wk range ₹292–₹557** · **Div yield:** 0.00% *(Screener consolidated, 21-Aug-2026)*
 
 > **⚠️ Every headline ratio on this name is currently misleading, in both directions.** Screener shows **P/E 33.4x, ROCE −0.32%, ROE −4.36%** — all computed on a trailing twelve months that contains **three loss quarters**. Annualising Q1FY27's ₹147cr instead would give ~7x, which is equally meaningless. **This is a completion-accounting developer: the honest anchors are pre-sales, collections, GDV pipeline and book value, not trailing earnings.** See §6.
 
 > **📌 THE DEFINING FACT OF THIS PROFILE: Kolte-Patil has held no earnings call since August 2025 — four consecutive quarters.** It is not a gap in this repository; **the company formally notified the exchanges each time that it would not host one.** Every judgement below rests on filings and investor decks **without any management Q&A**, and no analyst has been able to ask about the ₹150cr GST matter, the volume decline, or the Mumbai economics. **On 19-Aug-2026 the reason it gave for the latest blackout — *"leadership transition"* — resolved itself into a named CEO.** See §5.5(b).
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹432** · market cap ₹3,829 cr · P/E 30.8x · ROCE 0.32% · ROE 4.36% · 52-wk high ₹557 / low ₹292 · **vs ₹469 at baseline (-7.9%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Strongest-ever launch: 600+ apartments and over ₹600cr of sales in 60 hours at 'Vyana at The Reserve', Pune; stock nonetheless −8%</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-HIGH (Under Watch).** One item, and it is the right kind: a company-reported launch that answers the profile's 'volume is declining and price is doing the work' worry. **Sales of over ₹600cr in 60 hours on one Pune phase equal a whole quarter of pre-sales (Q1FY27 was ₹617cr).** It is a company press release on bookings, not audited sales or collections, and it sits inside a project with ~₹4,000cr of potential GDV. The stock fell 8% to ₹432 regardless, so the market did not treat it as a re-rating event. No earnings call has been held; the blackout risk stands.
+
+**10-Sep-2026 — 🟢 'Vyana at The Reserve', Vadgaon, Pune: over ₹600cr of sales in 60 hours — the company's strongest launch ever**  
+Press release: **over 600 apartments booked, sales of over ₹600cr in 60 hours.** The Reserve is a ~20-acre riverside development on the Sinhgad Road corridor with **~5 million sq ft of saleable area and an expected GDV of ~₹4,000cr**, to be launched in multiple phases; Vyana is the first phase (2- and 3-bedroom homes). The release also restates the ₹6,000cr of MMR society-redevelopment GDV added in August.
+> *Why it matters:* Directly tests Risk 'volume declining': Q1FY27 pre-sales were flat at ₹617cr with realisation +29%, implying area sold down ~22%. **A single launch of ~₹600cr suggests Q2FY27 pre-sales can be sharply higher than Q1, subject to how much of it is converted into agreements.** *Bookings are not collections; the release gives no booking-amount percentage, and it is management's own figure.* Average ticket implied is ~₹1cr per apartment *(my arithmetic)*.
+
+**24-Aug-2026 — Stock options granted**  
+Grant of stock options to employees, filed 24-Aug.
+> *Why it matters:* Routine. New CEO Rajesh Patil's appointment (effective 24-Aug) is already in the profile.
+
+**21 → 18-Sep-2026 — Price ₹469 → ₹432 (−8%)**  
+Screener P/E 30.8x (distorted by earnings timing), ROCE −0.3%, ROE −4.4%; promoter 73.81% unchanged; FII 10.61%; 52-week range ₹292–557.
+> *Why it matters:* The stock fell after the launch news; no filing explains it.
+
+**Routine filings, not material:** Nothing else on the exchange feed.
+
+**Where this was blended into the profile:** §1 volume-decline bullet, §3.5 scorecard, §5.5(a) and (b).
+
+*Sweep: BSE + NSE announcements from 21-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 
@@ -71,7 +102,7 @@ The 30-second snapshot:
 - **🔴 No earnings call in four quarters.** Last call: Q1FY26, August 2025. Formal notices declining calls for **Q3FY26 (5-Feb-2026), Q4FY26 (22-May-2026) and Q1FY27 (10-Aug-2026)**. **No guidance can be verified and no management claim can be tested.**
 - **🔴 GST Section 74 notices, ~₹150cr, unmentioned anywhere in the Q1FY27 disclosures.** Section 74 is the **fraud / wilful-misstatement / suppression-of-facts** provision, not the routine Section 73 dispute. Claim **₹103.82cr** plus penalty **₹46.36cr**, covering **1-Apr-2020 to 31-Mar-2026**. The company calls it *"wholly erroneous"* and is contesting. **~3.6% of market cap.**
 - **🔴 The P&L is violently lumpy and any single quarter misleads.** FY25 revenue ₹1,717cr → FY26 ₹735cr → **Q1FY27 alone ₹920cr.** **Nothing about that pattern is a run-rate in either direction.**
-- **🔴 Volume is declining and price is doing the work.** Flat pre-sales value with +29% realisation implies **area sold fell ~22%** — and the company describes it as *"broadly stable."*
+- **🟢 ⤴ UPDATE 10-Sep-2026: the company reported over ₹600cr of sales from 600+ apartments in 60 hours at one Pune launch (Vyana at The Reserve).** Bookings, company-reported. *Original 21-Aug text:* 🔴 Volume is declining and price is doing the work. Flat pre-sales value with +29% realisation implies **area sold fell ~22%** — and the company describes it as *"broadly stable."*
 - **🔴 The float is 12.28% and shrinking.** Public float **20.81% (Mar-25) → 12.28% (Jun-26)**; DII **5.59% → 3.30%**; shareholder count **−25% to 40,601**. **A thin float plus a disclosure blackout weakens both price discovery and accountability.**
 - **🟡 Bangalore has never scaled.** Present for years; still not a material contributor.
 - **🟡 MMR redevelopment carries approval, tenant-consent and rehab-obligation risk** that greenfield land does not — and the ₹6,000cr of new GDV is *"subject to requisite approvals."*
@@ -134,6 +165,7 @@ The 30-second snapshot:
 | **Recognition-trough hypothesis** | *Inferred, 2-Aug-2026* | **VERIFIED by Q1FY27** — ₹937cr record total income on 1.27 Mn sq ft of completions, FY26's loss reversed to ₹147cr of quarterly PAT | ✅ **Verified by outcome** |
 | **FY26 P&L** | — | **Revenue −57% to ₹735cr; operating profit −₹61cr; PAT −₹38cr. Three loss quarters out of four** | 🔴 **Loss year** |
 | **Pre-sales volume** | Q1FY27 | Value flat at ₹617cr with realisation **+29%** ⇒ **area sold down ~22%.** Company: *"remaining broadly stable"* | 🔴 **Volume declining** |
+| **🆕 Strongest-ever launch — Vyana at The Reserve, Pune** | **7–10-Sep-2026** | **600+ apartments, over ₹600cr in 60 hours** (company release); project GDV ~₹4,000cr in phases | 🟢 **Company-reported; bookings, not collections** |
 | **Earnings calls** | — | **None since Aug-2025 — four consecutive quarters, each formally declined** | 🔴 **Blackout** |
 | **GST Section 74, ~₹150cr** | 4-Jun / 20-Jun-2026 | **Contested. Unmentioned in any Q1FY27 document** | 🔴 **Unresolved and undiscussed** |
 
@@ -275,6 +307,7 @@ The 30-second snapshot:
 | **2-Aug-2026** | **H → MEDIUM (Under Watch)** | **Two-notch reversal.** The scorecard had been built with **no P&L in view.** FY26 was a **loss year** (revenue −57%, PAT −₹38cr); the company had held **no earnings call since Aug-2025**; a **~₹150cr Section 74 GST claim** was outstanding; Q1FY27 area sold fell ~22%; and the Blackstone deal was **substantially a promoter sell-down.** Weighted return re-cut from ~85% to **≈−2%** |
 | **12-Aug-2026** | **M → MH (Under Watch)** | **Upgrade, on verification.** The one thing the downgrade could not verify — the recognition-trough explanation — **verified itself**: ₹937cr record total income on 1.27 Mn sq ft of completions, and FY26's loss reversed into **₹147cr of quarterly PAT** |
 | 21-Aug-2026 | **HELD at MH (Under Watch)** | **The "leadership transition" cited for the blackout resolved into a named CEO** (19-Aug). Positive, and it makes the blackout look transitional — **but it is not a call, and the stock has given back 5.6% since** |
+| **19-Sep-2026** | **HELD at MH (Under Watch)** | Filings refresh: **strongest-ever launch — over ₹600cr of sales in 60 hours at Vyana at The Reserve, Pune** (company release, 10-Sep) — cuts against the 'volume declining' worry; stock −8% regardless. Blackout risk unchanged. |
 
 **Upgrade triggers back to High:**
 1. **Calls resume** — that single event removes most of the discount in this profile.
@@ -288,6 +321,10 @@ The 30-second snapshot:
 3. **A fifth quarter with no call and no further explanation.**
 
 ### (b) Material developments — newest first
+
+**🟢 Strongest-ever launch: over ₹600cr of sales in 60 hours at 'Vyana at The Reserve', Pune** *(company press release, 10-Sep-2026)*
+Over 600 apartments booked in the first phase of a ~₹4,000cr GDV riverside project (20 acres, ~5 million sq ft). 
+> **Why it matters:** one launch roughly equals the whole of Q1FY27 pre-sales (₹617cr) and cuts against the 'volume declining' reading. It is management's own bookings figure, and the stock fell 8% afterwards.
 
 **🟢 A professional CEO has been appointed — and it resolves the reason given for the blackout** *(board approval 19-Aug-2026; effective 24-Aug-2026)*
 

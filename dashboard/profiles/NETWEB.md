@@ -12,6 +12,33 @@
 
 > **📌 And the stock is up 28% since that refresh** — ₹4,364 on 28-Jul to **₹5,601** today, **1.3% below its 52-week high and 156% above its low.** Every one of the four watch items the refresh set has resolved *favourably on operations*. The expected return has still gone from **+21% to roughly zero**, because the price moved further than the news did.
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹4,664** · market cap ₹27,729 cr · P/E 106x · ROCE 37.5% · ROE 32.8% · 52-wk high ₹5,813 / low ₹2,920 · **vs ₹5,601 at baseline (-16.7%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Stock −17% to ₹4,664, now below the ₹4,790 QIP price; QIP press release confirms the proceeds are for working capital, not capex; nothing else filed</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-HIGH (Under Watch — valuation).** No company event is behind the fall: the only filings are the QIP press release (25-Aug), the FY26 annual report (28-Aug) and an investor-meet notice. **The stock has fallen 17% since 22-Aug to ₹4,664, 2.6% below the ₹4,790 at which institutions bought ₹1,200cr of new shares on 20-Aug.** The profile downgraded on price alone at ₹5,601; at ₹4,664 the same earnings are 17% cheaper (106x trailing against ~127x), which is the direction the Under-Watch flag was asking for. The QIP release states the proceeds are for **working capital 'to support the execution of its anticipated growth in the order book' and general corporate purposes**, not capacity.
+
+**25-Aug-2026 — QIP press release: ₹1,200cr raised at ₹4,790 from global and domestic institutions**  
+Netweb 'successfully raised approximately ₹1,200 crore' through a QIP, allotted by the Fund-Raising Committee on 20-Aug: **25,05,219 shares of ₹2 at ₹4,790 (premium ₹4,788)**, its first equity raise since the July-2023 listing. Investors named include Goldman Sachs AM, Nomura AM, Amundi, Think Investments and eleven Indian mutual funds. Proceeds: **working capital and general corporate purposes.**
+> *Why it matters:* Already in the profile (QIP closed 20-Aug, 4.4% dilution). The new information is the stated use of proceeds: working capital, which matches the profile's point that the QIP 'removes the working-capital constraint on growth'.
+
+**22 → 18-Sep-2026 — 📉 Price ₹5,601 → ₹4,664 (−17%); below the QIP price**  
+Screener P/E 106x (was ~127x on the same earnings), ROCE 37.5%, ROE 32.8%; market cap ₹27,729cr; 52-week range ₹2,920–5,813; promoter 66.98%.
+> *Why it matters:* The QIP anchors trading sit at a small loss; the profile's valuation flag is being repaired by price, not by earnings. Investor meets were scheduled 18-Sep. FY26 annual report filed 28-Aug (not read for this refresh).
+
+**Routine filings, not material:** ESOP allotments, AGM notices, BRSR, book closure.
+
+**Where this was blended into the profile:** §5.5 conviction table.
+
+*Sweep: BSE + NSE announcements from 22-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
 ---
 
 ## 1. Business in Plain English
@@ -338,6 +365,7 @@ An analyst (Jayalaxmi Gupta) asked why *"certain balance sheet numbers for your 
 | **3-Jul-2026** *(v1)* | ~₹2,900 *(estimated)* | **HIGH** | Profile initiated on FY26: revenue +90%, PAT +81%, AI Systems 43.4% of revenue, order book ₹2,400cr. **The v1 header carried estimated CMP and P/E ("~80x est") rather than exact figures.** |
 | **28-Jul-2026** *(refresh)* | **₹4,364** | **HELD at HIGH (Under Watch — valuation)** — the tag was new | Q1FY27 deck read on results day. **Revenue +172%, PAT +180%, AI at 62% growing 484%, order book +19% and L1 +183%, margin beating guidance by 120-170bps.** *"On execution alone this is the best quarter printed by any name in the watchlist this cycle."* **Corrected v1's estimates — the stock was ~50% higher than v1 assumed.** Flagged three worsening items: interest 12x in four quarters, zero-net-debt status gone, and no cash-flow data in the deck. **Trim-on-strength called a legitimate response.** |
 | **22-Aug-2026** *(this profile)* | **₹5,601** | **HIGH → MEDIUM-HIGH (Under Watch — valuation)** | Converted to always-current format. **All four watch items resolved, all favourably on operations:** the transcript filed 1-Aug; **working capital IMPROVED** (receivables 86→78 days, CFO/OP 84%); net debt ₹200cr and now more than covered; margin guide restated 13-14% and beaten. **🆕 A ₹1,200cr QIP closed 20-Aug at ₹4,790 with ICICI, Nomura and Goldman in the book — P/B falls 44x → 17.3x.** **🔴 And on the 29-Jul call, three analysts asking about that ₹1,200cr were told *"I haven't seen anything like that"* — of a figure in the company's own 1-July board filing** (§3.5). **Stock +28% in 25 days; expected return +21% → ~zero.** |
+| **19-Sep-2026** *(filings refresh)* | **₹4,664** | **HELD at MEDIUM-HIGH (Under Watch — valuation)** — flag easing | No company event; stock −17% to below the ₹4,790 QIP price (106x trailing from ~127x). QIP release confirms proceeds are for working capital and general corporate purposes. |
 
 **The trajectory in one line.** **Everything that was worrying got better, everything that was good got better, and the stock still outran all of it** — which is why this is a downgrade on price with the operating verdict left completely intact.
 

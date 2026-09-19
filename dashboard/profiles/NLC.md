@@ -2,7 +2,7 @@
 
 **Ticker:** NLC · NSE: **NLCINDIA** · BSE: 513683
 **Sector:** 13 — Power & Renewables *(lignite mining + thermal + renewables + critical minerals)* · **Conviction:** **Medium-High**
-**Thesis current as of:** 15-Aug-2026 · **Tracking since:** 3-Jul-2026
+**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 15-Aug-2026)* · **Tracking since:** 3-Jul-2026
 
 **CMP ₹275** · **Market cap ₹38,188 cr** · **P/E 11.9x reported / ≈12.9x normalised for tax** *(TTM PBT ₹3,933cr at 25%)* · **P/B 1.77x** (book ₹155) · **ROCE 10.4%** · **ROE 17.5%** · **Div yield 1.31%** · 52-week range **₹222–₹388**
 *(Screener consolidated, 15-Aug-2026)*
@@ -10,6 +10,49 @@
 > **How to read this profile.** Sections 1–9 describe what I believe **today**, rewritten at each review rather than annotated. **Section 5.5 is the memory** — how the thesis got here, what changed and when, what I got wrong. **Section 9 is the community read.**
 >
 > **🔴 The single rule for this company: tax-normalise every profit comparison.** FY26's effective tax rate was **2.7%**; FY25's was 26.6%; Q1FY27's was 33%. **Reported PAT is not comparable across any two periods here without adjustment**, and the headline records that justified a High conviction at initiation were substantially an accounting event. **Read the PBT line first.**
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹269** · market cap ₹37,273 cr · P/E 11.6x · ROCE 8.42% · ROE 11.9% · 52-wk high ₹388 / low ₹230 · **vs ₹275 at baseline (-2.2%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Permanent CMD appointed (the CFO, who vacates his seat); US$100m ECB approved; CRISIL AAA reaffirmed; 110 MW solar PPA signed; new joint auditors</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-HIGH.** The biggest open governance item in the profile, 'no permanent CMD', is closed: the Ministry of Coal appointed Dr. Prasanna Kumar Acharya, until now Director (Finance) & CFO, as CMD for five years from 17-Sep-2026. **The same appointment leaves the CFO seat vacant, and no filing names a successor.** The Board also approved a US$100m unsecured ECB for capex. The stock is ~2% lower at ₹269. The risks that drove the 15-Aug downgrade (government divestment, negative free cash flow, tax line) are untouched by anything filed since.
+
+**17-Sep-2026 — 🟢 Permanent Chairman & Managing Director appointed — from inside the board**  
+The Ministry of Coal conveyed (16-Sep) the President's approval for **Dr. Prasanna Kumar Acharya, Director (Finance), as CMD for five years** (or until further orders); he took charge on 17-Sep and **relinquished the Director (Finance) & CFO position the same day.** Shri Sanoj Kumar Jha, who held the CMD role in additional charge, handed over.
+> *Why it matters:* Ends the additional-charge arrangement that the profile flagged as Risk 5, and gives a five-year tenure. **It also moves the finance head into the top job and opens a Director (Finance) & CFO vacancy that the filing does not address**, at a time of a ~₹7,500cr capex programme and a new ECB. Continuity of the finance function is the thing to watch.
+
+**5-Sep-2026 — US$100m unsecured external commercial borrowing from Punjab National Bank**  
+Board outcome: borrow an **unsecured ECB of US$100 million from PNB for capex on thermal, mining and diversification projects.** Final dividend record date 22-Sep; 70th AGM on 29-Sep.
+> *Why it matters:* Adds foreign-currency debt; the filing does not state a hedging arrangement. Consistent with the profile's negative-FCF build phase (FY26 FCF −₹2,474cr).
+
+**3-Sep-2026 — ✅ CRISIL reaffirms AAA/Stable**  
+CRISIL reaffirmed **AAA/Stable** on **₹9,140.44cr of bank facilities (reduced from ₹10,334.7cr)** and on **₹2,500cr of non-convertible debentures.**
+> *Why it matters:* The top rating held. The facility reduction reflects repayment or restructuring of lines; the filing does not say which.
+
+**29-Aug-2026 — 🟢 110 MW solar power purchase agreement with NCRTC signed**  
+NLC India Renewables' JV with the National Capital Region Transport Corporation (**NIRL 74% / NCRTC 26%**) signed a **25-year captive PPA** for a **110 MW solar project in Uttar Pradesh**, 180 MU a year, scheduled commissioning within 24 months.
+> *Why it matters:* Converts the NCRTC JV named in the profile's Moat 6 into a signed offtake. Captive, single-customer, government counterparty; tariff not disclosed.
+
+**8-9-Sep-2026 — New joint statutory auditors for FY27**  
+CAG appointed **R V K S & Associates and G Natesan & Co, both Chennai**, as joint statutory auditors for 2026-27. FY26 annual report and the AGM notice were filed 7-8 Sep.
+> *Why it matters:* A CAG-driven rotation, routine for a PSU. Read the new auditors' first report.
+
+**15 → 18-Sep-2026 — Price ₹275 → ₹269 (−2%)**  
+Screener P/E 11.6x, ROCE 8.4%, ROE 11.9%; promoter (President of India) 69.47%; 52-week range ₹230–388.
+> *Why it matters:* No reaction to the CMD news. The June-quarter divestment overhang (72.20% → 69.47%) is unresolved.
+
+**Routine filings, not material:** Analyst-meet notices, AGM logistics, newspaper notices, BRSR, dividend record date.
+
+**Where this was blended into the profile:** §2 leadership bullets, §3.5 CMD note, §5.5(a) row and (b) entry, §7 Risk 5.
+
+*Sweep: BSE + NSE announcements from 15-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 
@@ -78,7 +121,7 @@
 - **🔴 The Government of India has resumed selling** — 72.20% → **69.47%** in Q1FY27, with a 75% ceiling still far above.
 - **ROCE is 10.4%** — modest for the asset base, and the gap to a 17.5% ROE is leverage.
 - **🔴 Free cash flow is negative.** FY26 CFO ₹5,166cr (108% of operating profit) against **₹7,549cr of investing outflow → FCF −₹2,474cr**, funded by ₹2,907cr of financing inflow. **Appropriate for a AAA-rated PSU in a build phase, but this is not a self-funding business today.**
-- **🟡 No permanent CMD** — the role is held in additional charge by a serving Ministry of Coal official.
+- **✅ Permanent CMD appointed 17-Sep-2026** — Dr. Prasanna Kumar Acharya (previously Director Finance & CFO) for five years. *⤴ Was: 🟡 no permanent CMD, held in additional charge by a Ministry of Coal official.* **The Director (Finance) & CFO seat he left has no named successor in any filing.**
 - **🟡 No Q1FY27 earnings call**, against a quarterly cadence.
 - **Lignite and coal pricing volatility**, environmental compliance costs, and a **retail-heavy register** of 3,33,052 shareholders.
 
@@ -86,7 +129,7 @@
 
 ## 3.5. Management Track Record & Promoter Background
 
-**🟡 Chairman & Managing Director — held in additional charge.** The NALCO JV release lists *"Shri Sanoj Kumar Jha, Additional Secretary, Ministry of Coal & **Chairman and Managing Director (Additional Charge)**, NLC India Limited."* **The CMD's chair is being filled by a serving Ministry official**, alongside a run of board changes in the quarter — appointments of **Shri Gopal Singh (10-Jul)** and another director **(17-Jul)**, and the **cessation of a director (30-Jun)**. **Common in CPSEs and not a governance failure — but leadership held in additional charge is not the same as leadership**, particularly for a company simultaneously signing a 1,080 MW JV and running a ₹7,500cr capex programme.
+**✅ UPDATE 17-Sep-2026 — a permanent CMD is now in place: Dr. Prasanna Kumar Acharya, previously Director (Finance) & CFO, for five years; Shri Sanoj Kumar Jha handed over.** *Text below was correct at 15-Aug.* 🟡 Chairman & Managing Director — held in additional charge. The NALCO JV release lists *"Shri Sanoj Kumar Jha, Additional Secretary, Ministry of Coal & **Chairman and Managing Director (Additional Charge)**, NLC India Limited."* **The CMD's chair is being filled by a serving Ministry official**, alongside a run of board changes in the quarter — appointments of **Shri Gopal Singh (10-Jul)** and another director **(17-Jul)**, and the **cessation of a director (30-Jun)**. **Common in CPSEs and not a governance failure — but leadership held in additional charge is not the same as leadership**, particularly for a company simultaneously signing a 1,080 MW JV and running a ₹7,500cr capex programme.
 
 **Company Secretary — Sushanta Kumar Panda.**
 
@@ -237,6 +280,7 @@
 |---|---|---|---|---|
 | 3-Jul-2026 | **High** | — | ~+45% | Initiated. *"All-time-high FY26 across every metric"* + *"rock-stable 72.20% GoI"* |
 | **15-Aug-2026** | **High → Medium-High** | **₹275** | **~+8.75% + 1.31% yield ≈ 10% p.a.** | **Both pillars of the High partly falsified: FY26's PAT record was ~30% tax, and GoI cut its stake to 69.47%. Downgraded on evidence quality, not on the business** |
+| **19-Sep-2026** *(filings refresh)* | **HELD at Medium-High** | **₹269** | *(not re-derived)* | **Permanent CMD appointed (the CFO, leaving the finance seat open); US$100m ECB approved; CRISIL AAA reaffirmed; 110 MW NCRTC solar PPA signed.** The downgrade drivers (GoI selling, negative FCF, tax line) are unchanged. |
 
 **Valuation, then and now:**
 
@@ -250,6 +294,12 @@
 | GoI holding | 72.20% | **69.47%** |
 
 ### (b) Material developments
+
+**17-Sep-2026 · `GOVERNANCE` — a permanent CMD is appointed, and the finance seat opens.**
+Dr. Prasanna Kumar Acharya, Director (Finance) & CFO, becomes CMD for five years (Ministry of Coal approval of 16-Sep); the additional-charge arrangement under Shri Sanoj Kumar Jha ends. He relinquished the Director (Finance) & CFO role the same day.
+**Why it matters:** closes Risk 5 and reduces key-post uncertainty, but no filing names the new finance head, in a year of heavy capex and a new US$100m ECB (approved 5-Sep).
+
+**29-Aug-2026 · `OPERATING` — 110 MW solar PPA with NCRTC signed** (NIRL 74% / NCRTC 26%, 25-year captive, 180 MU/yr, commissioning within 24 months). **3-Sep · `CREDIT` — CRISIL AAA/Stable reaffirmed** on ₹9,140cr of bank loans (from ₹10,335cr) and ₹2,500cr NCDs.
 
 **7-Aug-2026 · `RESULT` — a strong operating quarter whose reported profit fell 48%.**
 Generation **+25.00%**, revenue **+23.29%**, **operating profit +57.3%** and **operating margin 24.4% → 31.2%**. But **PAT ₹436cr against ₹839cr**, because **Q1FY26 carried a tax credit (−41% effective rate) and Q1FY27 paid 33%** — a ₹460cr swing — while **other income halved from ₹497cr to ₹228cr.**
@@ -342,7 +392,8 @@ FY26's effective rate was **2.7%** (₹106cr on ₹3,875cr of PBT) against 26.6%
 
 **Risk 4 — 🟡 Other income is normalising down** — ₹497cr → ₹228cr in a single quarter, and it drove most of the reported EBITDA shortfall. **A large and unexplained swing factor.**
 
-**Risk 5 — 🟡 No permanent CMD**, with the role in additional charge by a Ministry official, during a 1,080 MW JV and a ₹7,500cr programme.
+**Risk 5 — ✅ RESOLVED 17-Sep-2026 (was 🟡 No permanent CMD)**, with the role in additional charge by a Ministry official, during a 1,080 MW JV and a ₹7,500cr programme.
+> **⚠️ NEW SUB-RISK (19-Sep-2026): the CFO seat.** The new CMD was the Director (Finance) & CFO and relinquished it on appointment. No successor is named in the exchange filings; a PSU's Director (Finance) is appointed by the Ministry, so the gap can last. Watch for the appointment before the Q2FY27 results (~Nov-2026).
 
 **Risk 6 — 🟡 No Q1FY27 earnings call** against a quarterly cadence. **A skipped call is how a 2.7% tax rate goes unexamined for a year.**
 

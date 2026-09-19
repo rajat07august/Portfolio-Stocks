@@ -6,6 +6,37 @@
 
 > **How to read this profile:** Every meaningful claim is either sourced from a concall (period noted) or a filing. Accent reports H1/H2 (SME cadence). Screener valuation data limited. This is personal thesis-building, not a buy/sell recommendation.
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹682** · market cap ₹1,635 cr · P/E 37.3x · ROCE 24.9% · ROE 18.6% · 52-wk high ₹732 / low ₹238 · **vs ₹500 at baseline (+36.4%)** *(the profile's ~₹500 was an approximation — 'SME data limited' — and its ~₹800cr market cap an estimate; Screener now gives the figures above)*
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 19-Sep-2026</span> <span class="upd-sum">4.45 MW Inox Wind turbine ordered (turnkey, value not stated) to cut power cost for Plant III; managerial remuneration limits raised; AGM held 31-Jul; stock ~₹682, market cap ₹1,635cr</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-HIGH.** The profile was written on 3-Jul from SME data with an approximate price and an estimated market cap; **Screener now shows ₹682, ₹1,635cr and 37x, roughly double the profile's estimated market cap.** Since then: an AGM on 31-Jul, a Board decision to raise the managerial remuneration limits for the Chairman, the MD & CFO and others (subject to shareholders), a new independent director from 3-Jul, and a **4.45 MW wind turbine purchase order to Inox Wind (12-Aug) to lower the electricity bill of Plants I and II and the expected Plant III.** No capex value is disclosed. The March-2026 half-year print (revenue ₹210cr, PAT ₹26cr) is on Screener, and the profile predates it *(not re-derived)*.
+
+**13-Aug-2026 — 🟢 Purchase order for a 4.45 MW wind turbine on a turnkey basis from Inox Wind**  
+Reg 30 filing: capex approved and a purchase order placed on 12-Aug with **Inox Wind Limited for a 4.45 MW turnkey wind turbine generator**, funded from internal accruals/borrowings, to supply **captive power to Plant I, Plant II and Phase I of Plant III on commissioning**; the company expects a 'substantial reduction' in its monthly electricity bill and a favourable margin impact. **The rupee value is not disclosed.**
+> *Why it matters:* A power-cost move for an MCC (microcrystalline cellulose) maker; ties to the Plant III expansion the profile tracks. The absence of a value means the return cannot be tested.
+
+**6-Jul-2026 — ⚠️ Board raises managerial remuneration limits**  
+Board (6-Jul) approved increases in the overall managerial-remuneration limits for **Chairman & Whole-time Director Vasant Patel, Managing Director & CFO Ghanshyam Patel and others**, subject to the AGM; took on record the cost audit report; approved the Directors' report; appointed Ms. Pooja Shah as a director from 3-Jul; and called the 14th AGM (held 31-Jul; scrutinizer's report filed 1-Aug). Dividend record date 17-Jul.
+> *Why it matters:* In a promoter-run SME, higher pay ceilings are a governance item; the filing does not state the new limits, and the AGM vote outcome was not read.
+
+**3-Jul → 18-Sep-2026 — Price and valuation update**  
+Screener: ₹682, market cap ₹1,635cr, P/E 37.3x, ROCE 24.9%, ROE 18.6%; promoter 53.02% at Mar-2026 (55.47% at Mar-2025); 52-week range ₹238–732; SME half-yearly reporter (next print ~Nov-2026).
+> *Why it matters:* The profile's valuation section rests on an ~₹800cr estimate and needs re-derivation at ₹1,635cr; the promoter percentage also fell 2.45 pp in the March half without a reason in the filings read.
+
+**Routine filings, not material:** AGM proceedings and voting, record date, book closure, newspaper notices, DP certificate.
+
+**Where this was blended into the profile:** Dropdown only: the profile is in the original pre-methodology format, and its valuation and market-cap figures need a full rewrite before they can be edited in place.
+
+*Sweep: BSE + NSE announcements from 3-Jul-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
 ---
 
 ## 1. Business in Plain English

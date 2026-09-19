@@ -16,6 +16,49 @@
 > - **🟢 Order book ₹3,688cr at 11-Aug — about 2x last year's revenue** — and **FY27 revenue guidance of ₹4,300–4,500cr**, the first hard guidance this company has ever given.
 > - **🟡 But the share price has doubled in seven weeks, from ₹196 to ₹341. *The market capitalisation has already passed the ₹20,000cr that v2's two-year BULL case projected.***
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹367** · market cap ₹21,937 cr · P/E 112x · ROCE 26.5% · 52-wk high ₹407 / low ₹116 · **vs ₹341 at baseline (+7.6%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">₹519cr of new orders in 15 days (MSEDCL ₹263cr, Adani Electricity Mumbai ₹179cr, 66 kV EHV ₹76cr); NCLT framework fully exited a year early (₹501cr cash prepaid); MPS penalty formalised; stock +7.6% to 112x</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-LOW.** Three fast, positive operating and balance-sheet items: **new orders of about ₹519cr including GST between 3 and 17 September**, roughly three-quarters of a June-quarter's revenue (₹690cr); **full exit from the IBC resolution framework on 11-Sep**, with the ₹501cr cash component prepaid a year early and the company saying it is now eligible for credit ratings and has its whole gross block free for bank finance; and the formal penalty letters for the July minimum-public-shareholding breach. The profile's central point does not change: the stock is at ₹367 and **112x trailing earnings**, ₹21,937cr, on ₹690cr of quarterly revenue, so these events are being paid for in advance. **The first credit rating, now possible, is the next verifiable event.**
+
+**17-Sep-2026 — 🟢 ₹263.25cr purchase order for MSEDCL urban power infrastructure**  
+Purchase order dated 16-Sep for **~₹263.25cr (incl. GST) from a domestic EPC contractor for power cables and conductors for a Maharashtra State Electricity Distribution Co. urban power project**, in the ordinary course; no promoter interest.
+> *Why it matters:* The largest of the three; the end-customer is a state discom via an EPC contractor, so payment terms depend on the contractor. Delivery schedule not extracted.
+
+**15-Sep-2026 (LoA 3-Sep) — 🟢 ₹179.43cr Letter of Award from Adani Electricity Mumbai for specialised MV cables**  
+LoA (incl. GST) for **~871 km of water-tree-retardant (TR-XLPE) medium-voltage cables** for Mumbai's coastal and monsoon conditions.
+> *Why it matters:* A named private-utility customer and a higher-spec product; a reference win for the MV segment.
+
+**3-Sep-2026 — 🟢 ₹76.06cr acceptance for 66 kV EHV cables**  
+Letter of acceptance from a domestic EPC contractor for 66 kV extra-high-voltage power cable, **₹76,05,89,060**.
+> *Why it matters:* Adds to the EHV line the profile flags as the growth segment.
+
+**11-Sep-2026 — 🟢 Company completes full exit from the NCLT resolution framework, one year early**  
+Press release: the company **prepaid in full the ₹501cr cash consideration** payable to erstwhile lenders under the resolution plan (final instalment had been due 30-Sep-2027, and pre-payment discounts were used), leaving the plan fully implemented; the **₹1,900cr 30-year 0.001% bonds** are the other component of the ₹2,401cr total. All CBI and ED matters are stated to be cleared; the company **is 'now eligible to obtain credit ratings'** and its entire gross block is free of resolution-era charges for bank funding. The promoters are Rakesh Shah, GSEC and the Monarch Group.
+> *Why it matters:* Removes a lender-oversight layer and opens bank and debt-market financing, which the ₹2,400cr+ working-capital appetite of a fast-growing cable maker needs. **It also means new debt is coming**: freed gross block plus a first rating invites borrowing, on a stock at 112x. The press release is the company's; the ₹1,900cr bond terms (0.001% coupon, redeemable at 16% NPV) were not independently checked.
+
+**7-Sep-2026 — Penalty letters for the July minimum-public-shareholding breach**  
+NSE and BSE each imposed **₹1,65,200** (₹3.3 lakh in total) for the period 1–28 July 2026, when public shareholding was below 25%; the QIP (7.11 crore shares, closed 28-Jul) took it from 15.98% to 25.97% and promoters from 84.02% to 74.03%.
+> *Why it matters:* Already in the profile as cured under compulsion. The formal penalty is small; the compliance record (two exchange notices in four months) is the point.
+
+**31-Aug → 18-Sep-2026 — Price ₹341 → ₹367 (+7.6%)**  
+Screener P/E 112x, ROCE 26.5%; market cap ₹21,937cr; promoter 74.04%; 52-week range ₹116–407; shareholders 74,023 at Jul-2026; a plant visit by mutual fund analysts (3-Sep).
+> *Why it matters:* Near the high after the order flurry.
+
+**Routine filings, not material:** Analyst plant-visit notice, annual report and AGM logistics, BRSR, newspaper notices.
+
+**Where this was blended into the profile:** §3.5 scorecard, §5.5 conviction table.
+
+*Sweep: BSE + NSE announcements from 31-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
 ---
 
 ## 1. Business in Plain English
@@ -335,6 +378,7 @@
 | **14-Jul-2026** *(v1)* | — | **SPECULATIVE** | Data-limited: FY23–24 investor PPT, Screener and BSE announcement text only. Weighted return ~+9%. |
 | **15-Jul-2026** *(v2)* | **₹196** · mcap **₹10,321cr** | **SPECULATIVE** · ~+22% | Rebuilt with the **Q3FY26 investor PPT**, fetched via a new method (`web_fetch` on an api.cors.lol URL) later codified in CLAUDE.md §4A. Added the ECHO Conductor order, Vision 2030, the capex plan and the retail LV mix shift 4% → 23%. **Carried the standing caveat that DIACABS files no concall transcripts, and flagged 105x P/E, negative book value ₹−13.6 and the MPS fine as the reasons for a speculative rating.** **Base case put FY28 mcap at ~₹11,200cr (+9%); bull at ~₹20,000cr (+94%).** |
 | **31-Aug-2026** *(this profile)* | **₹341** · mcap **₹20,394cr** | **SPECULATIVE → MEDIUM-LOW** | Converted to always-current format on the **first earnings-call transcript this company has ever filed** plus a 58-filing NSE sweep. **🟢🟢 THE CONCALL CAVEAT IS RETIRED.** **🟢 Q1FY27 ₹690cr (+129%), PAT ₹58.5cr (+191%), 12.3% margin — earned before any QIP money was deployed.** **🟢 ₹1,613.97cr QIP at ₹227 closed 28-Jul: net worth −₹922cr → +₹691cr, MPS compliance achieved, DII 0.23% → 10.94%.** **🟢 CBI/ED/PMLA discharge 8-May released a 2018 embargo on ~₹1,000cr+ of assets.** **🟢 Audit qualification resolved.** **🟢 Copper line commissioned 20-Aug — a new capability.** **🎯 First-ever guidance: FY27 ₹4,300–4,500cr at 11–13%.** **🔴 But Q4FY26 → Q1FY27 was FLAT (₹696cr → ₹690cr); ₹350cr of the QIP repaid a promoter loan; FY26 FCF −₹162cr; and the stock has doubled.** **⚠️ Found the exchange correspondence showing the MPS breach was fined and "still continuing" — context the call did not give.** |
+| **19-Sep-2026** *(filings refresh)* | **₹367** · mcap ₹21,937cr | **HELD at MEDIUM-LOW** | **₹519cr of new orders (MSEDCL ₹263cr, Adani Electricity Mumbai ₹179cr, 66 kV EHV ₹76cr); full exit from the NCLT framework a year early with ₹501cr prepaid (11-Sep); MPS penalty ₹1.65 lakh per exchange (7-Sep).** Stock +7.6% at 112x. First credit rating now possible. |
 
 **The trajectory in one line.** ***v2 was right that this was a real turnaround and wrong about how fast it would be recognised: its two-year bull case market cap arrived in seven weeks, which means the next two years now have to deliver the bull case just to stand still.***
 

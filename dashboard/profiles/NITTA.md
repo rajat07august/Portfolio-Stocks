@@ -14,6 +14,33 @@
 
 > **📋 AND A PLAIN STATEMENT ABOUT THIS PASS: the filing sweep found nothing new.** The last BSE filing is **7-Aug-2026** — five days before the previous refresh. **No new results, no new Reg-30 items, no corporate actions.** ***This conversion therefore restructures and re-verifies rather than discovers, and the metrics have moved in the company's favour without any news to explain it.***
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹1,711** · market cap ₹1,554 cr · P/E 15.0x · ROCE 27.7% · ROE 21.0% · 52-wk high ₹2,088 / low ₹765 · **vs ₹1,573 at baseline (+8.8%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Kerala-government nominee director appointed via postal ballot; nothing else filed; stock +8.8% to ₹1,711</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-HIGH (Under Watch).** The one filing is the result of a postal ballot on 8-Sep approving **Mr. Arun K. Vijayan, IAS, as Nominee Director** (an ordinary resolution). Every trigger in the profile is dated to the Q2FY27 print. The stock is up 8.8% to ₹1,711 with no company disclosure, at 15x trailing earnings against a ₹2,088 52-week high. The company holds no earnings calls, so the next evidence is the half-year result.
+
+**8-9-Sep-2026 — Postal ballot: nominee director appointed**  
+Scrutinizer's report: the ordinary resolution to appoint **Mr. Arun K. Vijayan IAS (DIN 09580742) as Nominee Director** was passed by postal ballot on 8-Sep, per filing of 9-Sep.
+> *Why it matters:* A state-nominated IAS director is the government partner's representative; the profile's board and promoter-family read is unchanged.
+
+**24 → 18-Sep-2026 — Price ₹1,573 → ₹1,711 (+8.8%)**  
+Screener P/E 15.0x, ROCE 27.7%, ROE 21.0%; market cap ₹1,554cr; promoter 74.49% unchanged; 52-week range ₹765–2,088. June-quarter revenue ₹141cr, operating margin 24%.
+> *Why it matters:* No new disclosure explains the rise.
+
+**Routine filings, not material:** Postal ballot scrutinizer's report (the item above).
+
+**Where this was blended into the profile:** §5.5 note only.
+
+*Sweep: BSE + NSE announcements from 24-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
 ---
 
 ## 1. Business in Plain English

@@ -2,10 +2,49 @@
 
 **Ticker:** ASTEC · BSE: 533138 · NSE: ASTEC · **Sector:** 4 — Chemicals / Agrochemicals (Triazole Fungicides + Herbicides + CDMO)
 **Conviction:** **Medium-Low (Turnaround Play)** · **Weighted 2-yr return:** ~+14%, on an extremely wide distribution (bear −49%)
-**Thesis current as of:** 21-Aug-2026 · **Tracking since:** 3-Jul-2026
+**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 21-Aug-2026)* · **Tracking since:** 3-Jul-2026
 **CMP:** ₹604 · **Market Cap:** ₹1,348 cr · **P/E:** N/A (losses) · **P/B:** 3.45x (BV ₹175) · **ROCE:** −5.44% · **ROE:** −25.2% · **Div yield:** 0.00% · **52-wk range ₹512–₹942** *(Screener consolidated, 21-Aug-2026)*
 
 > **📌 Sourcing note, stated up front because it governs everything below. Astec has not held an earnings call since November 2022** — nearly four years of silence. Screener's concall list ends there and the repo holds five transcripts, all from 2021–22. **A direct concall gate is impossible for this name.** The documented §6 fallback is used instead: **Astec is a Godrej Agrovet subsidiary and the parent discusses it on its own calls.** This profile is grounded in Astec's own press releases and filings, **Godrej Agrovet's Q4FY26 transcript and Q1FY27 deck**, NSE's filed shareholding master, and the ValuePickr thread. **Gate: 🟡 AMBER — management commentary here is second-hand, via the parent.**
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹727** · market cap ₹1,619 cr · ROCE 5.44% · ROE 25.2% · 52-wk high ₹942 / low ₹512 · **vs ₹604 at baseline (+20.4%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Stock +20% amid nine exchange price/volume notices (all answered 'no undisclosed information'); newly verified from filings: ₹41.1cr GST demand, ICRA AA- (Negative), CFO resigned in March; six body errors corrected</span></summary>
+<div class="upd-body">
+
+**Net read:** **HELD at MEDIUM-LOW (Turnaround Play).** No company news explains the price: the stock rose **20% to ₹727 (52-week high ₹942)** while the exchanges sent **nine price-movement or volume-spurt notices between 8 and 18 September** (six from NSE, three BSE clarification requests), answered three times with the standard reply that there are no undisclosed developments. **This refresh also adds three items from the filings that the profile never carried** and I verified at source on the BSE feed: a **₹41.12cr GST show-cause notice** (31-Jul-2025), **ICRA AA- (Negative)** on the long-term ratings (24-Mar-2026), and the **CFO's resignation effective 6-Mar-2026.** Six factual errors flagged during the 19-Sep explainer build are corrected in place. None of it changes the core reading: EBITDA breakeven is not profit, operating cash is −₹81cr and the parent supports it.
+
+**8 → 18-Sep-2026 — 🔴 Nine exchange notices in eleven days on price and volume; company reply: nothing undisclosed**  
+NSE volume-spurt notices on 8, 9, 17 and 18-Sep and price-movement notices on 10 and 11-Sep (six); **BSE clarification requests on 9, 10 and 18-Sep (three).** The company replied to BSE on 9, 11 and 18-Sep: it has complied with Reg 30 and *'there are no developments that have taken place requiring mandatory disclosure under Listing Regulations or the … PIT Regulations'*. Earlier BSE queries were on 6-Feb, 17-Apr and 1-Jun-2026.
+> *Why it matters:* The stock moved from ₹604 to ₹727 on rising volume with **no company disclosure and no new results since 21-Aug.** That is the fourth cluster of exchange queries in eight months (Feb, Apr, Jun, Sep). The company's answer rules out undisclosed news, not speculation. Any holder should treat the level as unsupported by fundamentals: the quarter ended Jun-2026 was a ₹19cr loss on ₹84cr of revenue.
+
+**31-Jul-2025 (filed 1-Aug-2025) — **added to the profile now** — 🔴 ₹41.12cr GST show-cause cum demand notice on export refunds**  
+Reg 30 filing: a show-cause cum demand notice dated 28-Jul-2025 from the Joint Commissioner (Adjudication), CGST Navi Mumbai, alleging that **refunds of ₹4,111.55 lakh (₹41.12cr) for April 2019 – March 2022 were erroneously sanctioned** because the company availed duty-free imports under **Advance Authorization**; recovery with interest and penalty is sought. The company says the tax 'has been erroneously levied … not maintainable' and will challenge it.
+> *Why it matters:* **₹41.12cr is 2.5% of the current ₹1,619cr market cap** *(my arithmetic)*. It is a contingent liability the profile did not mention; the outcome is unknown and interest and penalty would add to it.
+
+**24-Mar-2026 (filed 25-Mar-2026) — **added to the profile now** — 🟡 ICRA reaffirms AA- with a NEGATIVE outlook on long-term debt**  
+ICRA reaffirmed **[ICRA]AA- (Negative)** on ₹283cr of fund-based cash credit, ₹100cr of term loans and ₹50cr of NCDs, and **A1+** on ₹335cr of non-fund facilities and a ₹300cr commercial-paper programme.
+> *Why it matters:* The profile said only that the 'short-term rating [was] maintained'. **The long-term outlook is Negative**, the agency's warning that losses and negative cash flow could cost the rating. Rating strength here rests on Godrej group parentage.
+
+**30-Jan-2026 (effective 6-Mar-2026) — **added to the profile now** — 🟡 Chief Financial Officer resigned**  
+Board outcome of 30-Jan-2026 noted the resignation of **Ms. Mugdha Amol Khare as Chief Financial Officer effective 6-Mar-2026.**
+> *Why it matters:* The profile does not record the change or who replaced her. She left before the FY26 results were filed, in a company with negative operating cash flow; a successor's name is not verified in the filings read.
+
+**19-Sep-2026 explainer build — corrections — ⤴ Six factual items in the profile body corrected in place**  
+(1) The herbicide plant went on stream in **Aug-2021** (Oct-2021 call), not Q2FY25. (2) The R&D centre was **inaugurated Apr-2023** (FY26 annual report), not FY25. (3) The last earnings call was **31-Oct-2022** (the transcript was filed in Nov-2022). (4) Management's own CDMO margin premium on the May-2022 call was **'enterprise plus 5% to 7%'**; the 8–10% in the profile came from AGM notes posted on ValuePickr. (5) Two facts from the explainer: **Q1FY27's EBITDA breakeven coincided with a ₹33.7cr finished-goods and WIP build**, and **FY26 receivables rose from ₹147cr to ₹248cr (202 days)**, explaining most of the −₹81cr CFO. (6) Export share is **62% in the FY26 AR but ~53% on the parent's call**, which cannot be the same measure.
+> *Why it matters:* Sources for items 1-6 are the FY26 AR, the Oct-2021 and May-2022 transcripts and the parent's Q4FY26 call, held on the PC and used in the published ASTEC industry explainer; **they were not re-verified on this machine.** The GST, ICRA and CFO items above were verified directly on the BSE feed today.
+
+**Routine filings, not material:** AGM and postal-ballot notices, unclaimed-dividend notice, DP certificates.
+
+**Where this was blended into the profile:** §1 bullets (herbicide plant, rating), §3 Moat 3 and 4, §3.5 scorecard and timeline rows, §5.5(a), §7 three new risks.
+
+*Sweep: BSE + NSE announcements from 21-Aug-2026 to 19-Sep-2026; market data Screener 18-Sep-2026 close. Items above are facts from the filings named; anything marked as inference is mine, not the company's.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 ---
 
@@ -21,8 +60,8 @@ The 30-second snapshot:
 
 - **HQ Mumbai** (Godrej Group offices) · **71.97% owned by Godrej Agrovet Ltd**
 - **Four manufacturing plants at Mahad, Maharashtra**, plus the **"Adi Godrej Center for Chemical Research and Development"** at Rabale
-- **New herbicide facility commissioned Q2FY25**, built for CDMO work
-- **~554 employees** · **ICRA short-term rating maintained through the crisis**
+- **New herbicide facility, built for CDMO work — ⤴ CORRECTED 19-Sep-2026: on stream in Aug-2021 (Oct-2021 call), not Q2FY25**
+- **~554 employees** · **ICRA short-term rating maintained through the crisis** *(⤴ 19-Sep-2026: long-term ICRA AA- carries a NEGATIVE outlook, reaffirmed 24-Mar-2026)*
 - **FY26:** revenue **₹448cr** · operating profit **−₹4cr** · **PAT −₹81cr**
 - **TTM:** revenue ₹441cr · **operating profit +₹6cr — positive for the first time since FY23** · PAT −₹67cr
 - **Q1FY27 (31-Jul-2026):** total income **₹84.3cr (−8.0%)** · **EBITDA ₹0.1cr — breakeven, from −₹10.5cr** · loss after tax **₹18.7cr, from ₹33.0cr**
@@ -55,9 +94,9 @@ The 30-second snapshot:
 
 **Moat 2 — Godrej Group ownership, and the capital that came with it.** 71.97%, up from 66.75%. **The composition of that increase matters and is set out in §5.5(b) — it is not the single unbroken vote of confidence earlier versions of this profile described.** But a **₹150cr-scale rights issue in July 2025 explicitly to improve capital structure** is real money going in during the worst of it.
 
-**Moat 3 — Four plants at Mahad plus a dedicated R&D centre.** The Adi Godrej Center was built *"ahead of time"* per the FY25 AR — i.e. during the crisis, not after it.
+**Moat 3 — Four plants at Mahad plus a dedicated R&D centre.** The Adi Godrej Center was built *"ahead of time"* per the FY25 AR. *⤴ CORRECTED 19-Sep-2026: the FY26 annual report dates its inauguration to Apr-2023; the profile had FY25.*
 
-**Moat 4 — A herbicide facility built for CDMO**, commissioned Q2FY25 and diversifying beyond the triazole base.
+**Moat 4 — A herbicide facility built for CDMO**, on stream in Aug-2021 *(⤴ CORRECTED 19-Sep-2026; the profile said Q2FY25)* and diversifying beyond the triazole base.
 
 **Moat 5 — CDMO relationships with global innovators**, and a reputation *"for its ability to undertake complex chemical reactions."* The AGM disclosed **8 commercialised CDMO products with 2 more in line**, at **8–10% higher margins than Enterprise**.
 
@@ -137,7 +176,7 @@ The 30-second snapshot:
 |---|---|---|---|
 | Q2FY23 growth +97% (pre-crisis peak) | Q2FY23 | Delivered strongly | ✅ *Historical* |
 | R&D Center commissioning (Adi Godrej Center) | FY25 | **Delivered**, and built during the crisis | ✅ |
-| Herbicide facility, Q2FY25 | FY25 | **Commissioned as planned** | ✅ |
+| Herbicide facility | FY25 | **Commissioned as planned** — *⤴ CORRECTED 19-Sep-2026: on stream Aug-2021, not Q2FY25* | ✅ |
 | Capital support through the crisis | FY25–FY26 | **66.75% → 71.97%** — open offer (+4.12pp) and rights issue (+1.55pp) | ✅ *but see the composition above* |
 | **EBITDA breakeven** | — | **Achieved Q1FY27** (₹0.1cr vs −₹10.5cr), and independently confirmed in the parent's deck | ✅ **Delivered** |
 | Loss narrowing | FY26–Q1FY27 | FY25 −₹135cr → FY26 −₹81cr → Q1FY27 **−₹18.7cr vs −₹33.0cr** | ✅ |
@@ -147,7 +186,7 @@ The 30-second snapshot:
 | **FY25 total income −16.5%; PAT −₹134.71cr** | FY25 | **The deepest year on record.** Gross margin collapsed 30.3% → 22.1%; D/E 1.34 → 2.36 | 🔴 |
 | **"Clear focus on CDMO-led growth"** *(parent, Q4FY26 call)* | Q4FY26 | **The opposite happened one quarter later: CDMO −42%, Enterprise +42%.** Management calls it a base effect | 🔴 **Reversed** |
 | **Cash flow turning positive** | — | **FY26 CFO −₹81cr, FCF −₹86cr.** Still funded externally | 🔴 **Not delivered** |
-| **Resuming earnings calls** | — | **Silent since Nov-2022 — nearly four years** | 🔴 |
+| **Resuming earnings calls** | — | **Silent since 31-Oct-2022 (transcript filed Nov-2022) — nearly four years** | 🔴 |
 | Backward integration for margin expansion | Multi-year | In progress | 🕐 |
 | Own product registrations replacing source-based | Q3FY26 | Reported by a community reader; **not confirmed in a filing I have read** | 🕐 **Unverified** |
 
@@ -262,6 +301,7 @@ Chairperson **Mr. Vishal Sharma**: *"The Company achieved EBITDA breakeven in th
 | 10-Jul-2026 | **M → Medium-Low** | Re-rate: FY25 loss ₹135cr, Q4FY26 still a ₹7.76cr loss, delivery scorecard 2 green / 3 red, turnaround unproven |
 | **6-Aug-2026** | **HELD at Medium-Low** | **Q1FY27 is the best quarter of the turnaround** — EBITDA breakeven, loss nearly halved. **Not upgraded:** PAT breakeven is ~₹75–80cr of EBITDA away from a ₹6cr base; CFO is −₹81cr; and at 3.5x book the equity already prices success |
 | 21-Aug-2026 | **HELD at Medium-Low** | No new filings. Format conversion surfaced two corrections (§5.5(d)) that **weaken the central bull argument without changing the rating** |
+| **19-Sep-2026** | **HELD at Medium-Low** | Filings refresh: stock +20% to ₹727 with nine exchange price/volume notices (8-18 Sep), all answered 'no undisclosed information'. **Added from filings: ₹41.12cr GST demand (Jul-2025), ICRA AA- Negative (Mar-2026), CFO resignation (Mar-2026).** Six body errors corrected. |
 
 **Upgrade to Medium if:** two consecutive quarters of positive operating profit **and** CFO turns positive **and** CDMO recovers alongside Enterprise rather than instead of it.
 
@@ -291,9 +331,9 @@ Promoter holding **70.87% → 72.42%**, and reserves rose ₹215cr → ₹368cr 
 |---|---|---|
 | Dec-2024 → Jan-2025 | **SEBI takeover-code OPEN OFFER settles** — Letter of Offer 3-Dec-2024, post-offer advertisement 8-Jan-2025, Kotak Mahindra Capital. **Floor ₹1,069.75; ~5% tendered at ~₹1,094.** Promoter 66.74% → 70.87% | 🟡 **A takeover-code consequence of the Godrej family reorganisation, not a discretionary purchase.** And an exit at ₹1,070 that ~95% of holders declined; **the stock is now ₹604** |
 | ~Oct-2024 | **MD Anurag Roy** (ex-Manchester Organics / Navin Fluorine) appears to have departed | 🟡 Community-sourced (ValuePickr #156), not confirmed in a filing |
-| Q2FY25 | **Herbicide facility commissioned** for CDMO | 🟢 Delivered on time, during the crisis |
+| Aug-2021 *(⤴ was shown as Q2FY25)* | **Herbicide facility on stream** for CDMO | 🟢 Delivered |
 | FY25 | **Adi Godrej Center for Chemical Research and Development** commissioned at Rabale, *"ahead of time"* | 🟢 |
-| **Nov-2022** | **Last earnings call.** Nearly four years of silence | 🔴 A choice, not a constraint |
+| **31-Oct-2022** | **Last earnings call** *(transcript filed Nov-2022)*. Nearly four years of silence | 🔴 A choice, not a constraint |
 
 ### (c) Superseded views
 
@@ -381,6 +421,12 @@ The initiation listed *"Chairman: Nadir Godrej"* and *"Astec CEO (historical, as
 ---
 
 ## 7. What Could Prove Us Wrong
+
+**🆕 Risk A — 🔴 A ₹41.12cr GST demand is outstanding (added 19-Sep-2026).** Show-cause cum demand notice of 28-Jul-2025 (filed 1-Aug-2025): export refunds for Apr-2019 – Mar-2022 alleged wrongly paid because inputs were imported duty-free under Advance Authorization; interest and penalty sought; the company will contest.
+
+**🆕 Risk B — 🟡 ICRA long-term outlook is Negative (added 19-Sep-2026).** [ICRA]AA- (Negative) reaffirmed 24-Mar-2026 on ₹433cr of long-term facilities and NCDs. A downgrade would raise funding costs for a company that does not fund itself.
+
+**🆕 Risk C — 🟡 Finance leadership and price behaviour (added 19-Sep-2026).** The CFO resigned effective 6-Mar-2026, and the stock drew nine exchange notices between 8 and 18-Sep-2026 on a +20% run with no company disclosure.
 
 **Risk 1 — 🔴 EBITDA breakeven is not profitability, and the gap is enormous.** Interest ~₹31cr plus depreciation ~₹44cr means **~₹75–80cr of EBITDA is needed for PAT breakeven, against ~₹6cr today.** Every optimistic reading of this company has to cross that number.
 
