@@ -393,6 +393,7 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
 // Source: systematic scan of each profile's Section 2 (Industry), Section 7 (Risks), Source Appendix (concall commentary).
 // Each entry: stock_id -> 1-line reason grounded in the profile evidence.
 const GEO_EXPOSED = {
+  "wabag":        "ORDER EXECUTION + FOREX. ~35-40% of the ₹19,394 Cr order book is Middle East (Yanbu, Al Haer, Hadda-preferred in Saudi; Doha SWRO in Kuwait; Ajman UAE; Bahrain/Oman/Qatar O&M). Q1FY27 call: force-majeure letters issued to customers for price increases and delays arising from the Gulf conflict; mgmt reports 'no material impact' on projects. Forex gains from a weaker rupee (~31% of Q1FY27 PAT) are the positive side of the same macro.",
   // ─── DIRECT ORDER-EXECUTION / DELIVERY IMPACT (concall commentary on delays or disruption) ───
   "deep":         "ORDER EXECUTION + REVENUE. Q4FY26 concall (Paras Savla, CEO): 'shock of Strait of Hormuz closure' was the FY26 disruption. Mgmt framing: 'crisis management to structural rebalancing' — expects FY27 demand normalization. Mori-5 gas leak Jan 2026 (contained 5 days) is separate but adds to ME operational fragility. Direct O&G services exposure.",
   "aurion":       "REVENUE. FY26 revenue INR 1,411 cr (+20.2% YoY) MISSED 30% growth plan — attributed in profile Big Picture to 'Middle East war impact + hyperscaler execution delay'. Section 2 Force 4: 'Middle East BFSI capex cyclically challenging — ME banks were a growth engine for Aurionpro; currently disrupted by geopolitics.' Direct revenue drag.",
@@ -2326,11 +2327,105 @@ const stocks = [
         "body": "[NEW — v1 card + full deep-dive profile, stock #65] Added at Rajat's request. SECTOR 1 (Aerospace & Defence) — naval platform systems, within the definition widened for SHREEREFR on 1-Sep-2026; no new sector. IDENTITY: BSE 543920 / BSE ID CFF, ISIN INE0NJ001013, confirmed from BSE's own header API; NOT NSE-listed (absent from EQUITY_L.csv and SME_EQUITY_L.csv). Listed BSE SME June 2023 (IPO ₹165); MIGRATED TO BSE MAIN BOARD w.e.f. 16-Sep-2026, two days before initiation. GATE 🟡 AMBER: SME document standard met (6 half-yearly results, 3 decks, 3 annual reports, IPO + FPO prospectuses, 65 filings read) but ZERO transcripts — verified across all 152 BSE announcements since listing (queried in sub-12-month windows because a wider window silently returned nothing after May-2025), the company's investor page and Screener, whose three 'concalls' are decks only. THE CENTRAL FINDING IS CASH: operating cash flow negative in each of FY23-FY26 (−₹65 Cr cumulative vs ₹90 Cr PAT; FCF −₹116 Cr), with the gap filled by ₹173.6 Cr of equity (IPO ₹85.8 Cr + FPO ₹87.75 Cr); FY26 receivables ₹104.6 Cr (183 days) and advances to suppliers ₹44.0 Cr (+76%, counterparties undisclosed). The P&L is excellent — revenue +43.4% to ₹208.7 Cr, PAT +64.3% to ₹39.2 Cr, OPM ~28%, unmodified audit. RELATED PARTY: Flash Forge Pvt Ltd, the promoters' 1991 company, has the same business objects and no non-compete (the FPO prospectus itself calls it a potential conflict of interest), receives ₹4.9 Cr/yr of undisclosed-purpose reimbursements, and sold CFF its factory land. PROMOTER 73.30% → 68.06% is pure FPO dilution (arithmetic matches exactly); no pledge. DELIVERY vs DECK TARGETS: FY25 PAT/EBITDA missed; FY26 revenue/EBITDA/PAT targets met. Order book ₹600 Cr+ (Dec-24) → ₹551 Cr (Jul-26). One correction made in drafting: the Flash Forge FY23 loan row initially misread the prospectus's three-year column table; fixed before publication. MEDIUM-LOW, weighted 2yr ≈ +28%."
       }
     ]
+  },
+  {
+    "id": "wabag",
+    "num": 66,
+    "name": "VA Tech Wabag Ltd",
+    "listing": "mainboard",
+    "batch": 7,
+    "sector": "Water / Civil / Marine Infra",
+    "conviction": "med-low",
+    "mcap": 13186,
+    "mcapDisp": "13,186",
+    "mcapSource": "Screener consolidated, 18-Sep-26",
+    "thesis": "India's leading pure-play water-technology company — a 4.9x order book, ₹965 Cr net cash, AA- rating, zero pledge and three years of guidance met — priced at 33x reported and ~41x ex-forex earnings just as the underlying margin dips and cash conversion halves.",
+    "tagline": "Desal + sewage + industrial water EPC and O&M | 52% international (Saudi, Kuwait, UAE, Africa) | ₹19,394 Cr order book | 🔴 margins met with forex",
+    "metrics": [
+      {
+        "label": "Market Cap / P/E",
+        "value": "₹13,186 Cr / 33.1x TTM EPS ₹63.38 · ~41x TTM ex-forex (my calc.) · 5.1x book · EV/EBITDA ex-forex ~27x",
+        "source": "Screener 18-Sep-26"
+      },
+      {
+        "label": "FY26 (consolidated)",
+        "value": "Revenue ₹3,944 Cr (+19.7%), EBITDA ₹524 Cr (13.3%) incl. ₹46.7 Cr forex gain → ex-forex ₹477 Cr (12.1%, FY25 12.8%), PAT ₹370 Cr (+25.5%)",
+        "source": "Q4FY26 deck"
+      },
+      {
+        "label": "🔴 Q1FY27 — record only with forex",
+        "value": "Revenue ₹887 Cr (+20.8%), PAT ₹90 Cr (+37%) — but forex swung −₹13.6 → +₹36.8 Cr; ex-forex EBITDA ₹79.5 Cr (9.0%) vs ₹109.2 Cr (14.9%) = −27%; PAT ex-forex ~−18%. Gross margin −490bps",
+        "source": "Q1FY27 deck (my arithmetic)"
+      },
+      {
+        "label": "🔴 Cash conversion halved",
+        "value": "CFO ₹207 Cr on PAT ₹370 Cr (0.56x) vs 1.20x in FY25; receivables +25%. Mgmt 'FCF to firm' ₹296 Cr adds ₹61.5 Cr forex & others + ₹46.6 Cr interest",
+        "source": "Screener + Investor Meet deck cash bridge"
+      },
+      {
+        "label": "Order book",
+        "value": "₹19,394 Cr at Jun-26 (4.9x FY26 revenue) — 66% EPC / 34% O&M, 51% India / 49% overseas, 88% municipal. FY26 intake ₹7,471 Cr; Q1FY27 ₹3,431 Cr. Libya ₹611 Cr framework removed",
+        "source": "Q1FY27 deck"
+      },
+      {
+        "label": "Net cash / rating",
+        "value": "₹965 Cr net cash ex-HAM (14 consecutive quarters net cash positive); IND AA-/Stable, A1+",
+        "source": "Q1FY27 deck + rating letter Feb-26"
+      },
+      {
+        "label": "Promoter 19.08%, zero pledge",
+        "value": "Rajiv Mittal 15.61% + S. Varadarajan 3.51% — share counts unchanged since 2022; 21.70 → 19.13% (Sep-22) was a RECLASSIFICATION of S.N. Saraf (2.57%), not a sale. Rekha Jhunjhunwala 8.02%",
+        "source": "NSE XBRL shareholding"
+      },
+      {
+        "label": "🎯 Guidance",
+        "value": "Revenue 15-20% CAGR ✅ (FY26 +19.7%) · EBITDA 13-15% 🟡 (only incl. forex) · FY27: 15-20% growth, 13-14% EBITDA · Norfund platform 🔴 18 months unsigned",
+        "source": "Calls May-24 → Aug-26"
+      }
+    ],
+    "business": "Designs, builds and operates water and wastewater treatment plants — seawater and brackish desalination, municipal sewage and drinking water, refinery effluent/ZLD, tertiary reuse, ultra-pure water for solar-cell fabs — then runs them on 5-20 year O&M contracts. A technology system integrator: owns the process (125+ IPRs, R&D in Vienna and Chennai), procures the equipment, and passes much of the civil work to partners. Founded in Germany in 1924; Indian arm set up 1996; management buyout 2005; bought the global parent business from Siemens 2007; listed 2010. ~52% of revenue international (Saudi Arabia, Kuwait, UAE, Bahrain, Oman, Qatar, Senegal, Zambia, Nepal, Bangladesh, Austria, Georgia). Promoters: CMD Rajiv Mittal (15.61%) and WTD S. Varadarajan (3.51%); Deputy MD Bhupesh Chowdary Nagineni (from May-26); CMD's son Rohan Mittal is Chief Commercial & Development Officer MEA. Group CFO Skandaprasad Seetharaman. Consolidated basis.",
+    "thesisPoints": [
+      "PAYMENT-SECURITY FILTER THAT TURNED THE BUSINESS: only multilateral-funded (World Bank, ADB, JICA, KfW), sovereign or LC-backed jobs — net cash went from ~₹44 Cr (Mar-21) to ₹965 Cr, and the rating to AA-.",
+      "4.9x ORDER BOOK WITH A THIRD IN O&M: ₹19,394 Cr at Jun-26, including Yanbu (300 MLD), Doha Kuwait (272 MLD), Perur Chennai (400 MLD) desal and ₹6,666 Cr of multi-year O&M.",
+      "GUIDANCE MET THREE YEARS RUNNING ON THE HEADLINE: revenue +15.3% / +19.7% / +20.8% (FY25 / FY26 / Q1FY27) against a 15-20% band; order book ≥3x; net cash every quarter since FY23.",
+      "INTERNATIONAL FRANCHISE: Kuwait and UAE entries in Q1FY27 on top of Saudi Arabia; competes on technology against European firms with an India/Turkey/Egypt cost base — 'European quality at Indian prices'.",
+      "ASSET-LIGHT: ₹66 Cr of fixed assets on ₹3,944 Cr of revenue; 18.6-21% ROCE; 15.7% ROE while holding ~₹1,000 Cr of cash.",
+      "CLEAN PROMOTER RECORD: zero pledge, no sales in six years (verified on NSE XBRL); succession being staged with a professional Deputy MD.",
+      "NEW DEMAND: ultra-pure water (RenewSys), CBG from sludge (Ghaziabad, with PEAK), data-centre and hydrogen water — a decadal option, not yet in the numbers."
+    ],
+    "risks": [
+      "🔴 FOREX IS CARRYING THE MARGIN: ex-forex EBITDA 12.8% (FY25) → 12.1% (FY26) → 9.0% (Q1FY27). Q1FY27 forex gain ₹36.8 Cr ≈ 31% of PAT. A flat or rising rupee removes it; management declines to report margins ex-forex.",
+      "🔴 CASH CONVERSION: FY26 CFO/PAT 0.56x vs 1.20x in FY25; trade receivables +25% vs revenue +20%; receivables + retentions + unbilled ≈ 110% of annual revenue.",
+      "🔴 TIMELINES SLIP: Norfund $100m platform non-binding since Mar-25 ('next few months' → 'very soon' → 'another quarter'); Hadda preferred since Dec-25; Indosol ₹1,000 Cr desal stalled ~2 years; Senegal handover ~4 quarters late; FY25 order-intake guide ₹8,000 Cr → ₹5,700 Cr.",
+      "🔴 THIN BID MARGINS ON MEGA JOBS: Yanbu re-won by 0.27% at $272m vs ₹2,700 Cr originally; the CMD prices 'sometimes just less than 1% lower than the next bidder'.",
+      "🟡 GULF CONCENTRATION: ~35-40% of the book is Middle East; force-majeure letters issued during the Gulf conflict ('no material impact' so far).",
+      "🟡 INDIA STALLED: India cluster revenue roughly flat in FY26; industrial only 12% of the book vs a 20-25% goal.",
+      "🟡 LEGAL/TAX: ₹87.2 Cr customs drawback order (Bombay HC); indirect-tax disputes doubled to ₹228 Cr; TSGENCO ~₹140 Cr retention written off (upside if recovered).",
+      "🟡 SUCCESSION + LOW STAKE: CMD stepping back; the growth region is run by his son (KMP from May-26); promoters own only 19.08%."
+    ],
+    "catalysts": [
+      "⭐ Q2FY27 results (~Nov-2026) — EBITDA EXCLUDING forex vs 12.5%, and H1 operating cash flow",
+      "Norfund municipal platform definitive agreements and the GNN HAM transfer",
+      "Hadda ISTP EPC award (developer financial close) and the NWC long-term O&M tenders",
+      "Perur 400 MLD desal commissioning (~May-2027) moving into 20-year O&M",
+      "Yanbu and Doha SWRO ramp — the first read on margins of the mega international jobs",
+      "Wriddhi 2.0 five-year strategy and new guardrails at the May-2027 investor meet",
+      "Customs appeal outcome; any TSGENCO recovery"
+    ],
+    "valuation": "33.1x TTM EPS of ₹63.38 (35.5x FY26), ~41x TTM excluding ~₹73 Cr post-tax forex gains (my calc.), 5.1x book on 18.6-21% ROCE / 15.7% ROE, ~27x EV/EBITDA ex-forex, 0.24% yield. Against Indian water peers it is the quality name at a middling multiple (Ion Exchange 57.2x/14.2% ROCE with margins collapsing; Enviro Infra 18.8x/20.2%; EMS 29.8x/12.8%; Concord Enviro loss-making). Base FY28 PAT ~₹500 Cr (rev ~₹5,400 Cr, forex neutral) @ 28x → ~₹2,240 = +6%; bull ~₹570 Cr (Hadda + platform, ex-forex margin toward 14%) @ 35x → ~₹3,190 = +51%; bear ~₹370 Cr flat (rupee recovers, 10-11% ex-forex margin, Gulf slowdown) @ 20x → ~₹1,190 = −44%. Weighted 2yr ≈ +7%, about +3.6% CAGR plus ~0.25% dividend.",
+    "mos": "NONE at ₹2,110 — 9% below the ₹2,320 high and 104% above the ₹1,033 low printed within the last twelve months, which makes the −44% bear concrete. The franchise is genuinely high quality — payment-secured order book, net cash, AA-, clean promoters — and would rate MEDIUM-HIGH at the right price. What holds it at MEDIUM-LOW is paying 33x (41x ex-forex) when the latest quarter's operating profit fell 27% ex-forex, FY26 cash conversion halved, and platform/Hadda/Indosol timelines keep slipping. Upgrade to MEDIUM on two quarters of ≥12.5% EBITDA excluding forex plus FY27 CFO/PAT ≥ 0.8x, or at ~₹1,650 (~28x FY26), where the base case returns ~+35%.",
+    "changes": [
+      {
+        "date": "18 Sep 2026",
+        "body": "[NEW — v1 card + full deep-dive profile, stock #66] Added at Rajat's request. SECTOR 16 (Water Infrastructure) — fits the existing definition ('water treatment'); dashboard label 'Water / Civil / Marine Infra' reused from ECL to avoid label drift. No new sector. IDENTITY: verified against NSE EQUITY_L.csv — WABAG, EQ, listed 13-Oct-2010, ISIN INE956G01038; BSE 533269 confirmed on the company's own filing letterheads. GATE 🟢 GREEN: 9 transcripts (6 quarterly Q4FY25→Q1FY27 read in full + Mar-25 Norfund call + two older for context), 7 decks, FY26 Annual Report, 46 NSE filings. THE CENTRAL FINDING IS THE FOREX LINE: management EBITDA includes forex gains/losses and the CFO rejects ex-forex margins as a concept. Ex-forex EBITDA margin 12.8% FY25 → 12.1% FY26 → 9.0% Q1FY27; Q1FY27's 'record' (PAT +37%) is ~−18% ex-forex (EBITDA −27%) after a ₹50 Cr forex swing and a 490bp gross-margin drop on EPC-heavy execution. Offsetting nuance: FY26 also absorbed ~₹75 Cr of new ECL provisions after FY25 releases, so the full-year underlying margin looks ~steady; Q1 is the weak data point. CASH: FY26 CFO ₹207 Cr on ₹370 Cr PAT (0.56x vs 1.20x in FY25); mgmt's ₹296 Cr 'FCF to firm' adds forex and interest. DELIVERY: revenue/order book/net-cash guidance met; FY25 intake guide missed (₹5,700 vs ₹8,000 Cr); Norfund platform 18 months unsigned; Hadda, Indosol, Senegal slipping; Kuwait LoA ~10 months after L1. PROMOTERS VERIFIED: the 21.70 → 19.13% drop (Sep-22) was S.N. Saraf's 2.57% reclassified to public with the share count unchanged; CMD/WTD holdings identical since 2022; zero pledge — the CFO's 'not sold a share' holds. SUCCESSION: Deputy MD appointed May-26; Rohan Mittal (CMD's son) KMP and CCDO-MEA. CONTINGENT: ₹87.2 Cr customs order; indirect-tax disputes ₹101 → ₹228 Cr. MEDIUM-LOW, weighted 2yr ≈ +7%."
+      }
+    ]
   }
 ];
 
 // ---------- CMP Data (bulk-refreshed 16-Sep-2026 from Screener; pe/roce/roe/bv/dy/hi/lo = Screener top ratios) ----------
 const CMP_DATA = {
+  "wabag":       { cmp: "₹2,110", date: "18-Sep-26", source: "Screener consolidated, 18-Sep-26", pe: "33.1", roce: "21.3", roe: "15.9", bv: "412", dy: "0.24", hi: "2,320", lo: "1,033" },
   "cff":         { cmp: "₹1,094", date: "17-Sep-26", source: "Screener standalone, 17-Sep-26", pe: "58.5", roce: "23.5", roe: "19.0", bv: "127", dy: "0.11", hi: "1,143", lo: "445" },
   "jgchem":      { cmp: "₹583", date: "16-Sep-26", source: "Screener consolidated, 16-Sep-26", pe: "30.4", roce: "18.1", roe: "13.3", bv: "135", dy: "0.19", hi: "675", lo: "298" },
   "shreepushk":  { cmp: "₹507", date: "16-Sep-26", source: "Screener consolidated, 16-Sep-26", pe: "22.7", roce: "12.9", roe: "12.1", bv: "189", dy: "0.41", hi: "545", lo: "272" },
@@ -2408,6 +2503,7 @@ function ratioLine(c) {
 // Maps stock id → profile symbol (used in profile.html?stock=SYMBOL).
 // Only listed IDs are "ready"; all others render the "in progress" state.
 const PROFILE_STATUS = {
+  "wabag": { ready: true, symbol: "WABAG", date: "18-Sep-2026", note: "v1 — new addition; gate 🟢 GREEN (9 transcripts + 7 decks + FY26 AR). Key finding: margins meet the 13-15% band only with forex — ex-forex EBITDA 9.0% in Q1FY27, PAT ~−18% ex-forex under a +37% headline; FY26 CFO/PAT 0.56x" },
   "cff": { ready: true, symbol: "CFF", date: "18-Sep-2026", note: "v1 — new addition; BSE-only (main board from 16-Sep-26). Gate 🟡 AMBER: SME documents complete but ZERO transcripts ever filed. Key finding: operating cash negative four years running, funded by IPO + FPO" },
   "jgchem": { ready: true, symbol: "JGCHEM", date: "17-Sep-2026", note: "v1 — new addition; gate 🟡 AMBER by count but complete: 5 transcripts = every call ever held (first Aug-2025) + 7 decks + FY26 AR. Key finding: management EBITDA includes other income; FY26 operating profit ex-OI fell 6%" },
   "shreepushk": { ready: true, symbol: "SHREEPUSHK", date: "16-Sep-2026", note: "v1 — new addition; gate 🟢 GREEN (8 transcripts + 6 decks + FY26 AR). Key finding: standalone dyes volume fell 4.1% under a +27.9% consolidated chemical headline" },
@@ -2519,6 +2615,7 @@ function renderExplainerChip() {
 // 40 stocks: Yahoo v8/chart period1..period2 API (backfilled 1-Jul-2026)
 // 5 SMEs (oriana, sathlokhar, obsc, accent, aimtron): Yahoo has no hist for -SM.NS tickers → mixed sources
 const CMP_HISTORY = {
+  "wabag":      [{date:"18-Sep-26",cmp:2110.00,source:"Screener (from CMP_DATA)"}],
   "cff":        [{date:"17-Sep-26",cmp:1094.00,source:"Screener (from CMP_DATA)"}],
   "jgchem":     [{date:"16-Sep-26",cmp:583.00,source:"Screener (from CMP_DATA)"}],
   "shreepushk": [{date:"16-Sep-26",cmp:507.00,source:"Screener (from CMP_DATA)"}],

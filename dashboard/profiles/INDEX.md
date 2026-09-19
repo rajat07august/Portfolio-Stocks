@@ -1,6 +1,6 @@
 # Company Profiles — Master Index
 
-62 stocks · organised by sector (alphabetical) · each follows the 8-section framework.
+63 stocks · organised by sector (alphabetical) · each follows the 8-section framework.
 
 **Structure per profile:**
 1. Business in Plain English
@@ -109,8 +109,9 @@ Status legend: `⏳ pending` · `🔨 in progress` · `✅ complete`
 ### 15. Real Estate (1) ✅ Complete
 - ✅ [Kolte-Patil Developers](./KOLTE.md) *(tracking since 3-Jul-2026 · **thesis current 21-Aug-2026** · 🆕 **new format** — **MH (Under Watch)**. Q1FY27 **verified the recognition-trough thesis**: ₹937cr record total income and ₹147cr PAT on 1.27 Mn sq ft of completions — **one quarter out-earned all of FY26** (₹735cr revenue, −₹38cr loss). 🆕 **A professional CEO arrives 24-Aug** — Hrishikesh Parandekar, a capital-markets CV installed with visible Blackstone sponsorship — **resolving the *"leadership transition"* the company cited nine days earlier for declining a call.** 🔴 **But it is a fourth consecutive quarter with no earnings call**, a **₹150cr Section 74 GST claim goes unmentioned**, area sold fell **~22%** behind a +29% price, and the float is **12.28%**)*
 
-### 16. Water Infrastructure (1) ✅ Complete
+### 16. Water Infrastructure (2) ✅ Complete
 - ✅ [Electrosteel Castings (ECL)](./ECL.md) *(tracking since 3-Jul-2026 · **thesis current 17-Aug-2026** · 🆕 **new format** — MH Cycle-Turn; JJM money now flowing, volume recovery slipped to H2FY27)*
+- ✅ [VA Tech Wabag (WABAG)](./WABAG.md) *(tracking since 18-Sep-2026 · 🆕 **new format, v1** — **MEDIUM-LOW**, weighted ≈ +7%. Gate 🟢 GREEN (9 transcripts + 7 decks + FY26 AR). Water-tech EPC + O&M, 52% international, **₹19,394cr book (4.9x), ₹965cr net cash, AA-, zero pledge**. **🔴 Margins meet the 13-15% band only with forex — ex-forex EBITDA 9.0% in Q1FY27 and PAT ~−18% under a +37% headline; FY26 CFO/PAT 0.56x; Norfund platform unsigned 18 months.** 33x reported, ~41x ex-forex)*
 
 ### 17. Oil & Gas Services (1) ✅ Complete *[new sector, added 4-Jul-2026]*
 - ✅ [Deep Industries](./DEEP.md) *(tracking since 4-Jul-2026 · **thesis current 22-Aug-2026** · 🆕 **new format** — **HIGH**. Paid to raise output from wells that already exist — *"we do not carry any success risk"*. **~85% of the outsourced gas-compression market, 43.6% EBITDA margins, net-debt-free at 0.48x**, guiding **FY28 PAT of ₹500cr**. 🔴 But **standalone has been flat at ~₹175cr for five quarters** while subsidiaries carried all the growth, and **management's write-off assurance has been broken once already**. ⚠️ **Stock +27% in three weeks to within 5% of its high — the same scenarios now return ~+16%, down from ~+49%.** Three P/E bases exist on this name and an earlier version blended two of them)*
