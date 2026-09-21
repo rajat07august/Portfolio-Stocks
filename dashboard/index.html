@@ -26,10 +26,9 @@ header.page-header .meta-row {
 header.page-header .meta-item strong { font-weight: 600; opacity: 0.85; }
 
 .viz-grid {
-  display: grid; grid-template-columns: 1.5fr 1fr; gap: 16px; margin-bottom: 24px; align-items: start;
+  display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 16px; margin-bottom: 24px;
 }
 .viz-card {
-  min-width: 0;
   background: white; border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);
   border: 1px solid #eaeef2;
 }
@@ -37,10 +36,6 @@ header.page-header .meta-item strong { font-weight: 600; opacity: 0.85; }
   text-transform: uppercase; letter-spacing: 0.4px; }
 .viz-card .chart-wrapper { position: relative; height: 280px; }
 .viz-card .chart-wrapper canvas { max-height: 280px; }
-.viz-card #sector-wrapper canvas, .viz-card #qvp-wrapper canvas, .viz-card #mcap-wrapper canvas { max-height: none; }
-.viz-card.viz-wide { grid-column: 1 / -1; }
-.viz-card #qvp-wrapper, .viz-card #mcap-wrapper { height: 360px; }
-.viz-card .viz-note { font-size: 11px; color: #777; margin-top: 8px; }
 
 .toolbar {
   background: white; padding: 16px; border-radius: 8px; margin-bottom: 24px;
@@ -304,17 +299,16 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
 <!-- Visualizations -->
 <div class="viz-grid">
   <div class="viz-card">
-    <h3>⚖️ Quality vs Price</h3>
-    <div class="chart-wrapper" id="qvp-wrapper"><canvas id="qvpScatter"></canvas></div>
-    <div class="viz-note" id="qvp-note"></div>
+    <h3>📊 Sector Distribution</h3>
+    <div class="chart-wrapper"><canvas id="sectorPie"></canvas></div>
+  </div>
+  <div class="viz-card">
+    <h3>🎯 AI Conviction Breakdown</h3>
+    <div class="chart-wrapper"><canvas id="convictionDoughnut"></canvas></div>
   </div>
   <div class="viz-card">
     <h3>💰 Market Cap Buckets</h3>
-    <div class="chart-wrapper" id="mcap-wrapper"><canvas id="mcapBar"></canvas></div>
-  </div>
-  <div class="viz-card viz-wide">
-    <h3>📊 Sector Distribution</h3>
-    <div class="chart-wrapper" id="sector-wrapper"><canvas id="sectorPie"></canvas></div>
+    <div class="chart-wrapper"><canvas id="mcapBar"></canvas></div>
   </div>
 </div>
 
@@ -2957,15 +2951,18 @@ const SECTOR_COLORS = [
   "#FFC000", "#7030A0", "#264478", "#636363"
 ];
 
-let sectorChart, mcapChart, qvpChart;
+let sectorChart, convictionChart, mcapChart;
 
 function buildCharts(filteredStocks) {
-  // Sector bar data — sorted by count; a doughnut could not hold 25+ sectors (colours repeated, legend clipped)
+  // Sector pie data
   const sectorCounts = {};
   filteredStocks.forEach(s => { sectorCounts[s.sector] = (sectorCounts[s.sector] || 0) + 1; });
-  const sectorLabels = Object.keys(sectorCounts).sort((a, b) => sectorCounts[b] - sectorCounts[a] || a.localeCompare(b));
+  const sectorLabels = Object.keys(sectorCounts).sort((a, b) => sectorCounts[b] - sectorCounts[a]);
   const sectorData = sectorLabels.map(l => sectorCounts[l]);
-  document.getElementById('sector-wrapper').style.height = Math.max(160, sectorLabels.length * 20 + 30) + 'px';
+
+  // Conviction doughnut (5-tier)
+  const conv = { high: 0, 'med-high': 0, med: 0, 'med-low': 0, spec: 0 };
+  filteredStocks.forEach(s => { if (conv.hasOwnProperty(s.conviction)) conv[s.conviction]++; });
 
   // Market cap buckets
   const buckets = { "<₹1K Cr": 0, "₹1-3K Cr": 0, "₹3-10K Cr": 0, "₹10-25K Cr": 0, ">₹25K Cr": 0 };
@@ -2978,117 +2975,102 @@ function buildCharts(filteredStocks) {
   });
 
   if (sectorChart) sectorChart.destroy();
+  if (convictionChart) convictionChart.destroy();
   if (mcapChart) mcapChart.destroy();
-  if (qvpChart) qvpChart.destroy();
 
-  // Quality vs Price: ROCE (x) against P/E (y, log scale — P/E runs from ~5 to 200+).
-  // Dashed lines mark the medians of the stocks shown, splitting the plot into quadrants.
-  const QVP_TIERS = [
-    ['high', 'High', '#2d6e2d'], ['med-high', 'Med-High', '#70AD47'], ['med', 'Medium', '#FFC000'],
-    ['med-low', 'Med-Low', '#E97132'], ['spec', 'Speculative', '#888888']
-  ];
-  const qvpPoints = [];
-  const qvpMissing = [];
-  filteredStocks.forEach(s => {
-    const c = getCmp(s.id);
-    const pe = parseFloat(String(c.pe || '').replace(/,/g, ''));
-    const roce = parseFloat(String(c.roce || '').replace(/,/g, ''));
-    if (pe > 0 && !isNaN(roce)) qvpPoints.push({ x: roce, y: pe, id: s.id, name: s.name, conviction: s.conviction });
-    else qvpMissing.push(s.name);
-  });
-  const median = (arr) => { const a = [...arr].sort((m, n) => m - n); const k = Math.floor(a.length / 2); return a.length % 2 ? a[k] : (a[k - 1] + a[k]) / 2; };
-  const medRoce = qvpPoints.length ? median(qvpPoints.map(p => p.x)) : null;
-  const medPe = qvpPoints.length ? median(qvpPoints.map(p => p.y)) : null;
-  document.getElementById('qvp-note').textContent =
-    (medPe !== null ? `Dashed lines: median ROCE ${medRoce.toFixed(1)}% · median P/E ${medPe.toFixed(1)}. Bottom-right = higher quality at a lower price. Click a dot to open the stock.` : '') +
-    (qvpMissing.length ? ` Not plotted (no P/E — loss-making or missing): ${qvpMissing.join(', ')}.` : '');
-
-  const qvpMedianLines = {
-    id: 'qvpMedianLines',
-    afterDatasetsDraw(chart) {
-      if (medPe === null) return;
-      const { ctx, chartArea: a, scales: { x, y } } = chart;
-      const px = x.getPixelForValue(medRoce), py = y.getPixelForValue(medPe);
-      ctx.save();
-      ctx.strokeStyle = '#9aa5b1'; ctx.lineWidth = 1; ctx.setLineDash([4, 4]);
-      ctx.beginPath(); ctx.moveTo(px, a.top); ctx.lineTo(px, a.bottom); ctx.moveTo(a.left, py); ctx.lineTo(a.right, py); ctx.stroke();
-      ctx.setLineDash([]); ctx.font = '600 10.5px sans-serif'; ctx.fillStyle = '#8a949e';
-      ctx.textAlign = 'right'; ctx.textBaseline = 'bottom'; ctx.fillText('Higher quality, cheaper', a.right - 6, a.bottom - 4);
-      ctx.textAlign = 'left'; ctx.textBaseline = 'top'; ctx.fillText('Lower quality, pricier', a.left + 6, a.top + 4);
-      ctx.restore();
-    }
-  };
-
-  qvpChart = new Chart(document.getElementById('qvpScatter'), {
-    type: 'scatter',
+  sectorChart = new Chart(document.getElementById('sectorPie'), {
+    type: 'doughnut',
     data: {
-      datasets: QVP_TIERS.map(([key, label, color]) => ({
-        label,
-        data: qvpPoints.filter(p => p.conviction === key),
-        backgroundColor: color, borderColor: '#fff', borderWidth: 1,
-        pointRadius: 6, pointHoverRadius: 8
-      })).filter(d => d.data.length)
+      labels: sectorLabels,
+      datasets: [{
+        data: sectorData,
+        backgroundColor: sectorLabels.map((_, i) => SECTOR_COLORS[i % SECTOR_COLORS.length]),
+        borderWidth: 2, borderColor: '#fff'
+      }]
     },
     options: {
       responsive: true, maintainAspectRatio: false,
       plugins: {
-        legend: { position: 'bottom', labels: { font: { size: 11 }, boxWidth: 10, usePointStyle: true } },
-        tooltip: {
-          callbacks: {
-            title: (items) => items[0].raw.name,
-            label: (ctx) => `ROCE ${ctx.raw.x}% · P/E ${ctx.raw.y} · AI Conviction: ${ctx.dataset.label}`
+        legend: {
+          position: 'right',
+          labels: { font: { size: 10.5 }, padding: 6, boxWidth: 12 },
+          // Override default click behavior: filter cards to selected sector
+          // instead of toggling slice visibility (which used to strike through the label)
+          onClick: (e, legendItem) => {
+            const label = legendItem.text;
+            const searchBox = document.getElementById('search-box');
+            // Toggle: if already filtering to this sector, clear; else set to it
+            if (searchBox.value === label) {
+              searchBox.value = '';
+            } else {
+              searchBox.value = label;
+            }
+            applyFilter();
           }
+        },
+        tooltip: {
+          callbacks: { label: (ctx) => `${ctx.label}: ${ctx.parsed} stocks (${((ctx.parsed/filteredStocks.length)*100).toFixed(0)}%)` }
         }
       },
-      scales: {
-        x: { title: { display: true, text: 'ROCE % (quality →)', font: { size: 11 } }, beginAtZero: true },
-        y: { type: 'logarithmic', min: 4, title: { display: true, text: 'P/E (log scale, pricier ↑)', font: { size: 11 } },
-             afterBuildTicks: (axis) => { axis.ticks = [5, 10, 20, 50, 100, 200, 500].filter(v => v >= axis.min && v <= axis.max).map(v => ({ value: v })); },
-             ticks: { callback: (v) => v } }
-      },
-      onHover: (evt, items) => { evt.native.target.style.cursor = items.length ? 'pointer' : 'default'; },
       onClick: (evt, items) => {
-        if (!items.length) return;
-        const p = qvpChart.data.datasets[items[0].datasetIndex].data[items[0].index];
-        location.hash = p.id;
+        if (items.length) {
+          const label = sectorLabels[items[0].index];
+          const searchBox = document.getElementById('search-box');
+          if (searchBox.value === label) {
+            searchBox.value = '';
+          } else {
+            searchBox.value = label;
+          }
+          applyFilter();
+        }
       }
-    },
-    plugins: [qvpMedianLines]
+    }
   });
 
-  // Click a bar to filter cards to that sector; click again to clear
-  const toggleSector = (label) => {
-    const searchBox = document.getElementById('search-box');
-    searchBox.value = searchBox.value === label ? '' : label;
-    applyFilter();
-  };
-
-  sectorChart = new Chart(document.getElementById('sectorPie'), {
-    type: 'bar',
+  convictionChart = new Chart(document.getElementById('convictionDoughnut'), {
+    type: 'doughnut',
     data: {
-      labels: sectorLabels,
+      labels: ['High', 'Med-High', 'Medium', 'Med-Low', 'Speculative'],
       datasets: [{
-        label: '# Stocks',
-        data: sectorData,
-        backgroundColor: '#2E75B6',
-        borderRadius: 3,
-        maxBarThickness: 14
+        data: [conv.high, conv['med-high'], conv.med, conv['med-low'], conv.spec],
+        backgroundColor: ['#2d6e2d', '#70AD47', '#FFC000', '#E97132', '#888888'],
+        borderWidth: 2, borderColor: '#fff'
       }]
     },
     options: {
-      responsive: true, maintainAspectRatio: false, indexAxis: 'y',
+      responsive: true, maintainAspectRatio: false,
       plugins: {
-        legend: { display: false },
-        tooltip: {
-          callbacks: { label: (ctx) => `${ctx.parsed.x} stocks (${((ctx.parsed.x/filteredStocks.length)*100).toFixed(0)}%)` }
+        legend: {
+          position: 'right',
+          labels: { font: { size: 11 }, padding: 8 },
+          // Same fix as sector pie: override default click (toggle visibility with strikethrough)
+          // to instead filter cards by that conviction tier. Toggle behavior: click same tier twice = clear.
+          onClick: (e, legendItem) => {
+            const tierMap = { 'High':'high', 'Med-High':'med-high', 'Medium':'med', 'Med-Low':'med-low', 'Speculative':'spec' };
+            const val = tierMap[legendItem.text];
+            if (!val) return;
+            const dd = document.getElementById('filter-conviction');
+            if (dd.value === val) {
+              dd.value = 'all';
+            } else {
+              dd.value = val;
+            }
+            applyFilter();
+          }
         }
       },
-      scales: {
-        x: { beginAtZero: true, ticks: { stepSize: 1 } },
-        y: { ticks: { font: { size: 11 }, autoSkip: false } }
-      },
-      onHover: (evt, items) => { evt.native.target.style.cursor = items.length ? 'pointer' : 'default'; },
-      onClick: (evt, items) => { if (items.length) toggleSector(sectorLabels[items[0].index]); }
+      onClick: (evt, items) => {
+        if (items.length) {
+          const m = ['high', 'med-high', 'med', 'med-low', 'spec'][items[0].index];
+          const dd = document.getElementById('filter-conviction');
+          if (dd.value === m) {
+            dd.value = 'all';
+          } else {
+            dd.value = m;
+          }
+          applyFilter();
+        }
+      }
     }
   });
 
