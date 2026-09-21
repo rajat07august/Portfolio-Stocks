@@ -170,7 +170,7 @@ The Rayani family, a Mumbai-based Khoja/Ismaili business family *(community is m
 | Guidance / milestone | When | Actual delivered | Verdict |
 |---|---|---|---|
 | Revenue growth **15–20% a year**, *"we are quite confident to maintain our margins"* | May-2022, Aug-2022 | FY23 **+5.5%**, FY24 **+4.8%**, FY25 +18.5%, FY26 +9.7% | 🔴 |
-| EBITDA margin **13–16%** (Aug-22) → **12–15%** (Nov-22) → **12–14%** (Feb-23, May-23) → **11–13%** (Nov-23) | 2022–23 | FY23 14% · FY24 **11%** · FY25 **9%** · FY26 **9%** | 🔴 **Cut on four consecutive calls, then missed anyway** |
+| EBITDA margin **13–16%** (Aug-22) → **12–15%** (Nov-22) → **12–14%** (Feb-23, May-23) → **11–13%** (Nov-23) | 2022–23 | FY23 14% · FY24 **11%** · FY25 **9%** · FY26 **9%** | 🔴 **Cut three times (Nov-22, Feb-23, Nov-23), held once (May-23), then missed anyway.** ⤴ *CORRECTED 21-Sep-2026: this row and five other passages said “four consecutive” cuts. The guidance sequence in this very row shows three cuts and one hold.* |
 | H2FY23 volume **+15–20%**; FY23 volume **+10–15%** | Nov-22, Feb-23 | FY23 quarterly volumes as disclosed: 57.2 + 63.8 + 59 + 57 = **~237kt vs 260kt in FY22 (−9%)** *(my sum of management's quarterly figures)* | 🔴 |
 | +30,000 t commissioned in **H2FY23** | Aug-2022 | 50% commercialised Q4FY23, balance Q1FY24 | 🟡 one quarter late |
 | **+30,000 t a year for each of the next 2–3 years**, ₹100cr from internal accruals | Aug-22, Nov-22 | Nov-2023: capacity 270kt, next 30kt (15kt UAE + 15kt Taloja EOU) *"in the coming year"* | 🔴 |
@@ -185,7 +185,7 @@ The Rayani family, a Mumbai-based Khoja/Ismaili business family *(community is m
 
 ### One-line verdict on management
 
-**Owner-operators who have compounded book value without leverage and bought their own stock, but whose forecasts have been unreliable in both directions, who stopped taking questions after four consecutive margin downgrades, and who pay themselves a ₹16cr "additional salary" that rose ~50% in a year when profit rose 14%.** Trust the balance sheet; do not trust the guidance; read the remuneration note every year.
+**Owner-operators who have compounded book value without leverage and bought their own stock, but whose forecasts have been unreliable in both directions, who stopped holding calls after three margin-guidance cuts, and who pay themselves a ₹16cr "additional salary" that rose ~50% in a year when profit rose 14%.** Trust the balance sheet; do not trust the guidance; read the remuneration note every year.
 
 ---
 
@@ -330,7 +330,7 @@ The Rayani family, a Mumbai-based Khoja/Ismaili business family *(community is m
 
 | Date | Conviction | Rationale |
 |---|---|---|
-| **19-Sep-2026** | **MEDIUM-LOW** *(initiation)* | A clean-balance-sheet, family-run base-oil processor with a port-side Gulf plant and promoter buying through 2023–24, against a windfall-driven Q1FY27 (22% OPM against 8–9% normal, mirrored exactly at peer Savita), five years of flat volume, four consecutive margin-guidance cuts followed by 34 months without an earnings call, an unexplained 4.6x jump in Q1 employee cost, ~50% raises to a ₹16cr family "additional salary", and a stock already up 87% from its March low |
+| **19-Sep-2026** | **MEDIUM-LOW** *(initiation)* | A clean-balance-sheet, family-run base-oil processor with a port-side Gulf plant and promoter buying through 2023–24, against a windfall-driven Q1FY27 (22% OPM against 8–9% normal, mirrored exactly at peer Savita), five years of flat volume, three margin-guidance cuts (Nov-22, Feb-23, Nov-23) followed by 34 months without an earnings call, an unexplained 4.6x jump in Q1 employee cost, ~50% raises to a ₹16cr family "additional salary", and a stock already up 87% from its March low |
 
 ### Material developments at initiation: the last twelve months
 
@@ -420,11 +420,11 @@ The Rayani family, a Mumbai-based Khoja/Ismaili business family *(community is m
 
 **2. 🔴 Earnings are mistaken for earning power.** At 5.9x TTM the stock *looks* like a deep-value screen hit. **Anyone who buys it on that basis is buying one quarter's weather.** On FY26 earnings it is 13x, which is fair for a flat-volume processor, not cheap.
 
-**3. 🔴 No calls, no volumes, no mix.** Thirty-four months without an earnings call; volume, value-added share, end-market split and capacity all undisclosed since 2023. **Every judgement in this profile about Q1 is inference from P&L lines.** A company that held quarterly calls through 2021–23, then stopped after four margin downgrades, is choosing when to speak.
+**3. 🔴 No calls, no volumes, no mix.** Thirty-four months without an earnings call; volume, value-added share, end-market split and capacity all undisclosed since 2023. **Every judgement in this profile about Q1 is inference from P&L lines.** A company that held quarterly calls through 2021–23, then stopped after three margin-guidance cuts, is choosing when to speak.
 
 **4. 🔴 Promoter pay is rising faster than profit, and may absorb the windfall.** ₹16cr "additional salary" on top of fixed pay, +39–53% raises in FY26, 141–155x the median employee, and an unexplained ₹25cr jump in Q1 employee cost. **If a meaningful share of the windfall is paid out as family pay rather than to shareholders, the retained-cash leg of the thesis shrinks.**
 
-**5. 🔴 Guidance has been unreliable.** 15–20% growth (actual 5%); 13–16% margin, cut four times (actual 9%); +30kt a year (actual ~15kt in three years); 20% payout policy (actual 9–13%); FY27 "softness" (actual 22% OPM). **Nothing management says forward should carry weight in a model.**
+**5. 🔴 Guidance has been unreliable.** 15–20% growth (actual 5%); 13–16% margin, cut three times (actual 9%); +30kt a year (actual ~15kt in three years); 20% payout policy (actual 9–13%); FY27 "softness" (actual 22% OPM). **Nothing management says forward should carry weight in a model.**
 
 **6. 🟡 Volume is flat.** No net growth FY18–FY22, FY23 down ~9% on management's own quarterly figures, and new capacity adding ~5%. **This is a spread business with no volume engine.**
 
@@ -440,7 +440,7 @@ The Rayani family, a Mumbai-based Khoja/Ismaili business family *(community is m
 
 ## 8. 30-Second Memory Hook
 
-**Panama Petrochem is a Mumbai family's base-oil refinery-to-formulator business.** It turns imported base oil into ~80 grades of white oil, petroleum jelly, transformer, rubber, ink and textile oils for FMCG, pharma, power and tyre makers, from five Indian plants and a port-side plant in Ras Al Khaimah. For three years it earned a steady 9% margin on flat volume, cut its margin guidance on four calls in a row, and then stopped holding calls. Then the Hormuz shock hit while it was sitting on three months of inventory and a Gulf plant next to the supply, and **one quarter delivered ₹309cr of profit, more than any year in its history.** Its closest peer did exactly the same thing.
+**Panama Petrochem is a Mumbai family's base-oil refinery-to-formulator business.** It turns imported base oil into ~80 grades of white oil, petroleum jelly, transformer, rubber, ink and textile oils for FMCG, pharma, power and tyre makers, from five Indian plants and a port-side plant in Ras Al Khaimah. For three years it earned a steady 9% margin on flat volume, cut its margin guidance three times between Nov-2022 and Nov-2023, and then stopped holding calls. Then the Hormuz shock hit while it was sitting on three months of inventory and a Gulf plant next to the supply, and **one quarter delivered ₹309cr of profit, more than any year in its history.** Its closest peer did exactly the same thing.
 
 **The cricketer is Ajit Agarkar at Lord's, 2002.** A dependable, workmanlike bowler, the man you pick for honest overs, who one summer walked out and made a Test century at the home of cricket. It is a real hundred and it is in the record books forever. **Nobody picked him as a batsman afterwards.** Panama's Q1FY27 is the Lord's hundred: genuine, bankable, and not the job description. **Value the bowling.**
 
