@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Selling a Lifecycle, Not a Plant — VA Tech Wabag Industry Primer</title>
+<meta name="robots" content="noindex,nofollow">
+<style>
+:root{
+  --navy:#1F4E79; --blue:#2E75B6; --ink:#16202b; --mut:#5a6a78; --bg:#fafbfc;
+  --card:#ffffff; --line:#e3e8ee; --amber:#a2650a; --amberbg:#fff8e6;
+  --red:#b3261e; --redbg:#fdeceb; --green:#1a6f4a; --greenbg:#ecf7f1;
+  color-scheme: light;
+}
+*{box-sizing:border-box}
+body{
+  max-width:1040px; margin:0 auto; padding:22px 20px 80px;
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+  line-height:1.62; color:var(--ink); background:var(--bg); font-size:15px;
+}
+.nav{display:flex; gap:18px; flex-wrap:wrap; margin-bottom:12px; font-size:13.5px}
+.nav a{color:var(--navy); font-weight:600; text-decoration:none}
+.nav a:hover{text-decoration:underline; color:var(--blue)}
+.topbar{background:linear-gradient(135deg,#1F4E79 0%,#2E75B6 100%); color:#fff; padding:20px 24px; border-radius:10px; margin-bottom:22px}
+.topbar h1{margin:0 0 6px; font-size:25px; line-height:1.25; color:#fff; border:0; padding:0}
+.topbar .sub{font-size:14.5px; opacity:.92}
+.topbar .meta{font-size:12.5px; opacity:.8; margin-top:10px}
+h2{color:var(--navy); font-size:20px; margin:44px 0 6px; border-left:4px solid var(--navy); padding-left:12px}
+h2 .n{color:var(--blue); font-weight:700}
+h3{color:var(--blue); font-size:16px; margin:26px 0 8px}
+p{margin:11px 0}
+ul{margin:10px 0; padding-left:22px} li{margin:6px 0}
+.lede{font-size:15.5px; color:#2c3b49}
+.box{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 18px; margin:18px 0}
+.box.warn{background:var(--amberbg); border-color:#f0dcae}
+.box.red{background:var(--redbg); border-color:#f3cfcb}
+.box.good{background:var(--greenbg); border-color:#c7e4d5}
+.box h4{margin:0 0 6px; font-size:14px; color:var(--navy); text-transform:uppercase; letter-spacing:.04em}
+.src{color:var(--mut); font-size:12.5px}
+code.src{background:transparent; padding:0}
+figure.dg{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px 16px 12px; margin:22px 0}
+figure.dg svg{width:100%; height:auto; display:block; color:#3d4b5c}
+figure.dg svg.narrow{max-width:580px; margin:0 auto}
+figure.dg figcaption{font-size:13px; color:var(--mut); margin-top:12px; padding-top:10px; border-top:1px dashed var(--line)}
+svg text:not([fill]){fill:currentColor}
+.t-lg{font-size:15px; font-weight:700}
+.t-md{font-size:13.5px; font-weight:700}
+.t{font-size:12.5px}
+.t-sm{font-size:11px}
+.t-mut{opacity:.7}
+.tw{overflow-x:auto; margin:16px 0}
+table{border-collapse:collapse; width:100%; min-width:620px; font-size:13.5px; background:var(--card)}
+th,td{border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top}
+th{background:#eef3f8; color:var(--navy); font-weight:700}
+td.r,th.r{text-align:right}
+.toc{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 20px; font-size:14px}
+.toc ol{margin:6px 0; padding-left:22px} .toc li{margin:4px 0}
+.toc a{color:var(--navy); text-decoration:none} .toc a:hover{text-decoration:underline}
+.glos{display:grid; grid-template-columns:186px 1fr; gap:6px 14px; font-size:13.5px}
+.glos dt{font-weight:700; color:var(--navy)} .glos dd{margin:0}
+@media (max-width:640px){ .glos{grid-template-columns:1fr} .glos dt{margin-top:8px} }
+.tag{display:inline-block; font-size:11px; font-weight:700; letter-spacing:.03em; padding:2px 7px; border-radius:20px; vertical-align:middle}
+.tag.fact{background:#e8f0f8; color:var(--navy)}
+.tag.inf{background:var(--amberbg); color:var(--amber); border:1px solid #ecd9a8}
+blockquote{border-left:4px solid #2E75B6; background:#f4f8fc; margin:16px 0; padding:12px 18px; font-size:14px}
+hr{border:0; border-top:1px solid var(--line); margin:38px 0}
+</style>
+</head>
+<body>
+
+<div class="nav">
+  <a href="https://portfolio-stocks-chi.vercel.app/index.html">&larr; Dashboard</a>
+  <a href="https://portfolio-stocks-chi.vercel.app/profile.html?stock=WABAG">Full profile — WABAG &rarr;</a>
+</div>
+
+<div class="topbar">
+  <h1>Selling a lifecycle, not a plant</h1>
+  <div class="sub">An industry primer for VA Tech Wabag: what a water-treatment plant physically is, why the company that builds it is usually not the company that sells the water, how a bid is won on the cost of electricity twenty years from now — and why three of the numbers in its results (the margin percentage, the EBITDA, and the order book) each mislead in a different direction</div>
+  <div class="meta">Built 23-Sep-2026 · Sourced from WABAG's FY26 Annual Report (consolidated statements and notes read by coordinate extraction), nine earnings-call transcripts (Nov-2024 → Aug-2026), seven investor presentations, and NSE filings · Companion to <strong>Company Profiles/WABAG.md</strong></div>
+</div>
+
+<p class="lede">This page explains the <strong>industry</strong>, not the investment case. It carries no valuation, no conviction and no target; those live in the profile. What follows is the mechanism: what the product physically is, who pays for it and on what terms, which part of the work actually earns money, and <strong>how to read the three numbers in WABAG's recent results that are easiest to misread.</strong></p>
+
+<div class="box warn">
+<h4>How to read this</h4>
+<p style="margin:6px 0"><span class="tag fact">FACT</span> Everything unmarked comes from WABAG's own filings, calls and decks, with the source in grey after the claim. Every computed figure is derived from a filed statement and the arithmetic is shown. Figures are <strong>consolidated</strong> unless stated; WABAG's standalone entity is roughly 83% of group revenue and excludes the international subsidiaries where half the business now sits.</p>
+<p style="margin:6px 0"><span class="tag inf">MY INFERENCE</span> Where the framing or the derivation is mine rather than management's, it is marked.</p>
+<p style="margin:6px 0; color:#5a6a78; font-size:13.5px"><strong>A note on one live disagreement.</strong> WABAG's management includes foreign-exchange gains and losses inside EBITDA and argues, with some force, that they are operational. Two analysts have challenged this on calls. §8 sets out both positions and shows the numbers on both bases rather than picking one.</p>
+</div>
+
+<div class="toc">
+<strong>Contents</strong>
+<ol>
+<li><a href="#s1">The product, physically: a train of stages, not a building</a></li>
+<li><a href="#s2">Who does what between the sea and the tap</a></li>
+<li><a href="#s3">The mechanism: what is sold is a lifecycle cost</a></li>
+<li><a href="#s4">The filter that comes before the engineering</a></li>
+<li><a href="#s5">The ₹100 cost stack: a buyer of equipment, not a maker of it</a></li>
+<li><a href="#s6">How an order becomes revenue — and why that takes years</a></li>
+<li><a href="#s7">🔴 Reading the numbers (I): the margin percentage is partly a mix artefact</a></li>
+<li><a href="#s8">🔴 Reading the numbers (II): the forex line sits inside EBITDA</a></li>
+<li><a href="#s9">🔴 Reading the numbers (III): the order book is not years of revenue</a></li>
+<li><a href="#s10">The counterweight: the balance sheet <em>is</em> the business</a></li>
+<li><a href="#s11">Mechanism &rarr; metric</a></li>
+<li><a href="#s12">What is not disclosed</a></li>
+<li><a href="#s13">Glossary · Sources</a></li>
+</ol>
+</div>
+
+<!-- ============================ §1 ============================ -->
+<h2 id="s1"><span class="n">1.</span> The product, physically: a train of stages, not a building</h2>
+
+<p>Almost everyone pictures a water project as concrete: tanks, pipes, a pumping station. That picture is the part WABAG increasingly does <em>not</em> do. What it sells is the <strong>treatment scheme</strong> — the decision about which physical and biological stages the water passes through, in what order, at what pressure, and at what energy cost per cubic metre.</p>
+
+<p>A plant is a <strong>train</strong>: a sequence of stages, each removing something the next stage cannot handle. Get the order or the sizing wrong and the expensive stage at the end clogs, which is the whole engineering problem in one sentence.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 358" role="img" aria-label="Two process trains drawn as sequences of boxes. Seawater desalination runs intake, pre-treatment with a lamella clarifier, high-pressure pump, reverse osmosis skids, energy recovery device and post-treatment. Sewage treatment runs screening, primary settling, a biological activated-sludge or SBR stage, secondary settling, tertiary treatment and sludge digestion to biogas.">
+  <text x="20" y="26" class="t-md" fill="#1F4E79">What the plant physically is: a train of stages, each one removing something different</text>
+  <text x="20" y="46" class="t" fill="#5a6a78">Equipment named below is taken from the FY26 annual report's own progress descriptions of these two projects.</text>
+  <text x="20" y="84" class="t-md" fill="#1F4E79">Seawater desalination</text>
+  <text x="190" y="84" class="t-sm" fill="#5a6a78">  — Perur, 400 MLD, Chennai</text>
+  <rect x="20.0" y="98" width="142.5" height="74" rx="6" fill="#f4f8fc" stroke="#1F4E79"/>
+  <text x="91.2" y="117" class="t-sm" text-anchor="middle" fill="#1F4E79">Intake</text>
+  <text x="91.2" y="136" class="t-sm" text-anchor="middle" fill="#5a6a78">draw seawater in</text>
+  <text x="91.2" y="150" class="t-sm" text-anchor="middle" fill="#5a6a78">travelling band</text>
+  <text x="91.2" y="164" class="t-sm" text-anchor="middle" fill="#5a6a78">screen</text>
+  <polygon points="164.5,129 173.5,135 164.5,141" fill="#1F4E79"/>
+  <rect x="175.5" y="98" width="142.5" height="74" rx="6" fill="#f4f8fc" stroke="#1F4E79"/>
+  <text x="246.8" y="117" class="t-sm" text-anchor="middle" fill="#1F4E79">Pre-treatment</text>
+  <text x="246.8" y="136" class="t-sm" text-anchor="middle" fill="#5a6a78">lamella clarifier</text>
+  <text x="246.8" y="150" class="t-sm" text-anchor="middle" fill="#5a6a78">removes silt</text>
+  <text x="246.8" y="164" class="t-sm" text-anchor="middle" fill="#5a6a78">and solids</text>
+  <polygon points="320.0,129 329.0,135 320.0,141" fill="#1F4E79"/>
+  <rect x="331.0" y="98" width="142.5" height="74" rx="6" fill="#f4f8fc" stroke="#1F4E79"/>
+  <text x="402.2" y="117" class="t-sm" text-anchor="middle" fill="#1F4E79">High-pressure pump</text>
+  <text x="402.2" y="136" class="t-sm" text-anchor="middle" fill="#5a6a78">raises pressure to</text>
+  <text x="402.2" y="150" class="t-sm" text-anchor="middle" fill="#5a6a78">force water through</text>
+  <text x="402.2" y="164" class="t-sm" text-anchor="middle" fill="#5a6a78">the membrane</text>
+  <polygon points="475.5,129 484.5,135 475.5,141" fill="#1F4E79"/>
+  <rect x="486.5" y="98" width="142.5" height="74" rx="6" fill="#f4f8fc" stroke="#1F4E79"/>
+  <text x="557.8" y="117" class="t-sm" text-anchor="middle" fill="#1F4E79">Reverse osmosis</text>
+  <text x="557.8" y="136" class="t-sm" text-anchor="middle" fill="#5a6a78">RO skids and</text>
+  <text x="557.8" y="150" class="t-sm" text-anchor="middle" fill="#5a6a78">pressure vessels:</text>
+  <text x="557.8" y="164" class="t-sm" text-anchor="middle" fill="#5a6a78">salt stays behind</text>
+  <polygon points="631.0,129 640.0,135 631.0,141" fill="#1F4E79"/>
+  <rect x="642.0" y="98" width="142.5" height="74" rx="6" fill="#f4f8fc" stroke="#1F4E79"/>
+  <text x="713.2" y="117" class="t-sm" text-anchor="middle" fill="#1F4E79">Energy recovery</text>
+  <text x="713.2" y="136" class="t-sm" text-anchor="middle" fill="#5a6a78">ERD booster pump</text>
+  <text x="713.2" y="150" class="t-sm" text-anchor="middle" fill="#5a6a78">reclaims pressure</text>
+  <text x="713.2" y="164" class="t-sm" text-anchor="middle" fill="#5a6a78">from the brine</text>
+  <polygon points="786.5,129 795.5,135 786.5,141" fill="#1F4E79"/>
+  <rect x="797.5" y="98" width="142.5" height="74" rx="6" fill="#f4f8fc" stroke="#1F4E79"/>
+  <text x="868.8" y="117" class="t-sm" text-anchor="middle" fill="#1F4E79">Post-treatment</text>
+  <text x="868.8" y="136" class="t-sm" text-anchor="middle" fill="#5a6a78">add minerals back,</text>
+  <text x="868.8" y="150" class="t-sm" text-anchor="middle" fill="#5a6a78">disinfect, store in</text>
+  <text x="868.8" y="164" class="t-sm" text-anchor="middle" fill="#5a6a78">product water tank</text>
+  <text x="20" y="190" class="t-sm" fill="#a2650a">Waste stream: gravity thickener and sludge balancing tank. Brine returns to the sea. Energy is the running cost that decides the bid (see §3).</text>
+  <text x="20" y="236" class="t-md" fill="#1a6f4a">Sewage treatment</text>
+  <text x="150" y="236" class="t-sm" fill="#5a6a78">  — Pagla, 200 MLD, Dhaka, and BWSSB, Bengaluru</text>
+  <rect x="20.0" y="250" width="142.5" height="74" rx="6" fill="#f1f9f5" stroke="#1a6f4a"/>
+  <text x="91.2" y="269" class="t-sm" text-anchor="middle" fill="#1a6f4a">Screening</text>
+  <text x="91.2" y="288" class="t-sm" text-anchor="middle" fill="#5a6a78">rags, grit and</text>
+  <text x="91.2" y="302" class="t-sm" text-anchor="middle" fill="#5a6a78">plastics taken out</text>
+  <text x="91.2" y="316" class="t-sm" text-anchor="middle" fill="#5a6a78">mechanically</text>
+  <polygon points="164.5,281 173.5,287 164.5,293" fill="#1a6f4a"/>
+  <rect x="175.5" y="250" width="142.5" height="74" rx="6" fill="#f1f9f5" stroke="#1a6f4a"/>
+  <text x="246.8" y="269" class="t-sm" text-anchor="middle" fill="#1a6f4a">Primary settling</text>
+  <text x="246.8" y="288" class="t-sm" text-anchor="middle" fill="#5a6a78">heavy solids sink,</text>
+  <text x="246.8" y="302" class="t-sm" text-anchor="middle" fill="#5a6a78">grease floats</text>
+  <text x="246.8" y="316" class="t-sm" text-anchor="middle" fill="#5a6a78">and is skimmed</text>
+  <polygon points="320.0,281 329.0,287 320.0,293" fill="#1a6f4a"/>
+  <rect x="331.0" y="250" width="142.5" height="74" rx="6" fill="#f1f9f5" stroke="#1a6f4a"/>
+  <text x="402.2" y="269" class="t-sm" text-anchor="middle" fill="#1a6f4a">Biological stage</text>
+  <text x="402.2" y="288" class="t-sm" text-anchor="middle" fill="#5a6a78">activated sludge or</text>
+  <text x="402.2" y="302" class="t-sm" text-anchor="middle" fill="#5a6a78">SBR: bacteria eat</text>
+  <text x="402.2" y="316" class="t-sm" text-anchor="middle" fill="#5a6a78">the dissolved waste</text>
+  <polygon points="475.5,281 484.5,287 475.5,293" fill="#1a6f4a"/>
+  <rect x="486.5" y="250" width="142.5" height="74" rx="6" fill="#f1f9f5" stroke="#1a6f4a"/>
+  <text x="557.8" y="269" class="t-sm" text-anchor="middle" fill="#1a6f4a">Secondary settling</text>
+  <text x="557.8" y="288" class="t-sm" text-anchor="middle" fill="#5a6a78">lamella clarifiers</text>
+  <text x="557.8" y="302" class="t-sm" text-anchor="middle" fill="#5a6a78">separate bacteria</text>
+  <text x="557.8" y="316" class="t-sm" text-anchor="middle" fill="#5a6a78">from clean water</text>
+  <polygon points="631.0,281 640.0,287 631.0,293" fill="#1a6f4a"/>
+  <rect x="642.0" y="250" width="142.5" height="74" rx="6" fill="#f1f9f5" stroke="#1a6f4a"/>
+  <text x="713.2" y="269" class="t-sm" text-anchor="middle" fill="#1a6f4a">Tertiary treatment</text>
+  <text x="713.2" y="288" class="t-sm" text-anchor="middle" fill="#5a6a78">filtration and</text>
+  <text x="713.2" y="302" class="t-sm" text-anchor="middle" fill="#5a6a78">disinfection to</text>
+  <text x="713.2" y="316" class="t-sm" text-anchor="middle" fill="#5a6a78">reuse standard</text>
+  <polygon points="786.5,281 795.5,287 786.5,293" fill="#1a6f4a"/>
+  <rect x="797.5" y="250" width="142.5" height="74" rx="6" fill="#f1f9f5" stroke="#1a6f4a"/>
+  <text x="868.8" y="269" class="t-sm" text-anchor="middle" fill="#1a6f4a">Sludge to energy</text>
+  <text x="868.8" y="288" class="t-sm" text-anchor="middle" fill="#5a6a78">digestion makes</text>
+  <text x="868.8" y="302" class="t-sm" text-anchor="middle" fill="#5a6a78">biogas — up to 40%</text>
+  <text x="868.8" y="316" class="t-sm" text-anchor="middle" fill="#5a6a78">of Pagla's power</text>
+  <text x="20" y="342" class="t-sm" fill="#a2650a">The solids are not a waste problem but a second product: biogas, captive power and dried sludge. WABAG calls this resource recovery.</text>
+</svg>
+<figcaption>Figure 1 — The two process trains. Equipment names are taken from the FY26 Annual Report's own progress descriptions of the Perur 400 MLD desalination plant and the Pagla 200 MLD and BWSSB sewage plants. Stage order is the engineering; getting it wrong clogs the expensive stage at the end.</figcaption>
+</figure>
+
+<p>The two trains above are the company's two main product families, and they are genuinely different businesses wearing the same word.</p>
+<ul>
+<li><strong>Desalination</strong> separates salt from seawater by forcing it through a membrane at high pressure. The dominant running cost is <strong>electricity</strong>, which is why an energy-recovery device — a pump that reclaims pressure from the reject brine — is a core part of the train rather than an accessory.</li>
+<li><strong>Sewage treatment</strong> uses bacteria to eat dissolved organic waste, then separates the bacteria out again. The dominant engineering problem is biological stability, not pressure. Its by-product, sludge, is turned into biogas: at the Pagla plant in Dhaka, digestion is designed to supply <em>"up to 40% of its energy demand."</em> <span class="src">FY26 AR, project review.</span></li>
+</ul>
+
+<p><span class="tag inf">MY INFERENCE</span> The reason to hold both in one company is that they are sold to the same buyer under the same contract structures, not because the technology overlaps. A desalination engineer and a sewage-process engineer do not do the same job.</p>
+
+<div class="box">
+<h4>The number that makes the market exist</h4>
+<p style="margin:6px 0">Management's framing is that treated water is cheap relative to what people already pay. The CMD's figures: desalinated water at <em>"8 paise a litre"</em> and recycled water at <em>"maybe 5 paise to 6 paise a litre"</em>, against ₹20 for a litre of bottled water. <span class="src">Annual Investor Meet, 25-May-2026.</span></p>
+<p style="margin:6px 0"><span class="tag inf">MY INFERENCE</span> These are management's cost assertions and are not reconciled to any tariff in the filings. The useful part is not the precision but the <strong>structure</strong> they describe: seawater and sewage are the only two water sources that do not fail in a drought, because neither depends on rainfall. WABAG calls this <em>"manufactured water."</em> That is the demand case for the whole industry, and it is why coastal cities and the Gulf build desalination capacity rather than more reservoirs.</p>
+</div>
+
+<!-- ============================ §2 ============================ -->
+<h2 id="s2"><span class="n">2.</span> Who does what between the sea and the tap</h2>
+
+<p>The single most useful thing to understand about WABAG is <strong>how narrow its slice of the chain is</strong>, and how deliberately it was narrowed. The CFO's own description: <em>"We are a technology system integrator, not a EPC organization."</em> <span class="src">Q1FY27 call, 13-Aug-2026.</span></p>
+
+<figure class="dg">
+<svg
+ viewBox="0.00 0.00 1099.00 236.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 232.15)">
+<title>chain</title>
+<g id="clust1" class="cluster">
+<title>cluster_wabag</title>
+<path fill="none" stroke="#1f4e79" stroke-width="1.4" d="M282.41,-68.58C282.41,-68.58 898.66,-68.58 898.66,-68.58 904.66,-68.58 910.66,-74.58 910.66,-80.58 910.66,-80.58 910.66,-136.57 910.66,-136.57 910.66,-142.57 904.66,-148.57 898.66,-148.57 898.66,-148.57 282.41,-148.57 282.41,-148.57 276.41,-148.57 270.41,-142.57 270.41,-136.57 270.41,-136.57 270.41,-80.58 270.41,-80.58 270.41,-74.58 276.41,-68.58 282.41,-68.58"/>
+<text xml:space="preserve" text-anchor="middle" x="590.54" y="-134.12" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#1f4e79">WHAT WABAG ITSELF DOES</text>
+</g>
+
+<g id="node1" class="node">
+<title>src</title>
+<path fill="#f2f4f7" stroke="#c3d7ea" d="M111.54,-140.28C111.54,-140.28 12,-140.28 12,-140.28 6,-140.28 0,-134.28 0,-128.28 0,-128.28 0,-66.88 0,-66.88 0,-60.88 6,-54.88 12,-54.88 12,-54.88 111.54,-54.88 111.54,-54.88 117.54,-54.88 123.54,-60.88 123.54,-66.88 123.54,-66.88 123.54,-128.28 123.54,-128.28 123.54,-134.28 117.54,-140.28 111.54,-140.28"/>
+<text xml:space="preserve" text-anchor="middle" x="61.77" y="-121.67" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#16202b">A source nobody</text>
+<text xml:space="preserve" text-anchor="middle" x="61.77" y="-107.42" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#16202b">wants to drink</text>
+<text xml:space="preserve" text-anchor="middle" x="61.77" y="-79.17" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#16202b">seawater · sewage</text>
+<text xml:space="preserve" text-anchor="middle" x="61.77" y="-64.92" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#16202b">refinery effluent</text>
+</g>
+
+<g id="node2" class="node">
+<title>des</title>
+<path fill="#1f4e79" stroke="#c3d7ea" d="M383.95,-119.03C383.95,-119.03 290.41,-119.03 290.41,-119.03 284.41,-119.03 278.41,-113.03 278.41,-107.03 278.41,-107.03 278.41,-88.12 278.41,-88.12 278.41,-82.12 284.41,-76.12 290.41,-76.12 290.41,-76.12 383.95,-76.12 383.95,-76.12 389.95,-76.12 395.95,-82.12 395.95,-88.12 395.95,-88.12 395.95,-107.03 395.95,-107.03 395.95,-113.03 389.95,-119.03 383.95,-119.03"/>
+<text xml:space="preserve" text-anchor="middle" x="337.18" y="-100.42" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#ffffff">1 · Design the</text>
+<text xml:space="preserve" text-anchor="middle" x="337.18" y="-86.17" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#ffffff">treatment scheme</text>
+</g>
+
+<g id="edge4" class="edge">
+<title>src&#45;&gt;des</title>
+<path fill="none" stroke="#5a6a78" d="M123.79,-97.58C167.11,-97.58 225.24,-97.58 269.74,-97.58"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" points="269.65,-100.03 276.65,-97.58 269.65,-95.13 269.65,-100.03"/>
+<text xml:space="preserve" text-anchor="middle" x="186.91" y="-112.08" font-family="Helvetica,sans-Serif" font-size="10.00"> a specification:</text>
+<text xml:space="preserve" text-anchor="middle" x="186.91" y="-100.08" font-family="Helvetica,sans-Serif" font-size="10.00"> this much, this clean </text>
+</g>
+
+<g id="node3" class="node">
+<title>proc</title>
+<path fill="#1f4e79" stroke="#c3d7ea" d="M628.72,-119.03C628.72,-119.03 550.18,-119.03 550.18,-119.03 544.18,-119.03 538.18,-113.03 538.18,-107.03 538.18,-107.03 538.18,-88.12 538.18,-88.12 538.18,-82.12 544.18,-76.12 550.18,-76.12 550.18,-76.12 628.72,-76.12 628.72,-76.12 634.72,-76.12 640.72,-82.12 640.72,-88.12 640.72,-88.12 640.72,-107.03 640.72,-107.03 640.72,-113.03 634.72,-119.03 628.72,-119.03"/>
+<text xml:space="preserve" text-anchor="middle" x="589.45" y="-100.42" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#ffffff">2 · Specify and</text>
+<text xml:space="preserve" text-anchor="middle" x="589.45" y="-86.17" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#ffffff">buy the kit</text>
+</g>
+
+<g id="edge1" class="edge">
+<title>des&#45;&gt;proc</title>
+<path fill="none" stroke="#1f4e79" stroke-width="1.4" d="M396.23,-97.58C436.1,-97.58 488.87,-97.58 529.04,-97.58"/>
+<polygon fill="#1f4e79" stroke="#1f4e79" stroke-width="1.4" points="528.8,-100.03 535.8,-97.58 528.8,-95.13 528.8,-100.03"/>
+</g>
+
+<g id="node4" class="node">
+<title>com</title>
+<path fill="#1f4e79" stroke="#c3d7ea" d="M751.87,-119.03C751.87,-119.03 685.33,-119.03 685.33,-119.03 679.33,-119.03 673.33,-113.03 673.33,-107.03 673.33,-107.03 673.33,-88.12 673.33,-88.12 673.33,-82.12 679.33,-76.12 685.33,-76.12 685.33,-76.12 751.87,-76.12 751.87,-76.12 757.87,-76.12 763.87,-82.12 763.87,-88.12 763.87,-88.12 763.87,-107.03 763.87,-107.03 763.87,-113.03 757.87,-119.03 751.87,-119.03"/>
+<text xml:space="preserve" text-anchor="middle" x="718.6" y="-100.42" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#ffffff">3 · Erect and</text>
+<text xml:space="preserve" text-anchor="middle" x="718.6" y="-86.17" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#ffffff">commission</text>
+</g>
+
+<g id="edge2" class="edge">
+<title>proc&#45;&gt;com</title>
+<path fill="none" stroke="#1f4e79" stroke-width="1.4" d="M641.07,-97.58C648.64,-97.58 656.46,-97.58 664.08,-97.58"/>
+<polygon fill="#1f4e79" stroke="#1f4e79" stroke-width="1.4" points="663.79,-100.03 670.79,-97.58 663.79,-95.13 663.79,-100.03"/>
+</g>
+
+<g id="node5" class="node">
+<title>om</title>
+<path fill="#2e75b6" stroke="#c3d7ea" d="M890.66,-119.03C890.66,-119.03 806.87,-119.03 806.87,-119.03 800.87,-119.03 794.87,-113.03 794.87,-107.03 794.87,-107.03 794.87,-88.12 794.87,-88.12 794.87,-82.12 800.87,-76.12 806.87,-76.12 806.87,-76.12 890.66,-76.12 890.66,-76.12 896.66,-76.12 902.66,-82.12 902.66,-88.12 902.66,-88.12 902.66,-107.03 902.66,-107.03 902.66,-113.03 896.66,-119.03 890.66,-119.03"/>
+<text xml:space="preserve" text-anchor="middle" x="848.76" y="-100.42" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#ffffff">4 · Operate it for</text>
+<text xml:space="preserve" text-anchor="middle" x="848.76" y="-86.17" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#ffffff">1 to 20 years</text>
+</g>
+
+<g id="edge3" class="edge">
+<title>com&#45;&gt;om</title>
+<path fill="none" stroke="#1f4e79" stroke-width="1.4" d="M764.07,-97.58C770.98,-97.58 778.23,-97.58 785.45,-97.58"/>
+<polygon fill="#1f4e79" stroke="#1f4e79" stroke-width="1.4" points="785.43,-100.03 792.43,-97.58 785.43,-95.13 785.43,-100.03"/>
+</g>
+
+<g id="node8" class="node">
+<title>out</title>
+<path fill="#ecf7f1" stroke="#c7e4d5" d="M1079.2,-140.28C1079.2,-140.28 946.66,-140.28 946.66,-140.28 940.66,-140.28 934.66,-134.28 934.66,-128.28 934.66,-128.28 934.66,-66.88 934.66,-66.88 934.66,-60.88 940.66,-54.88 946.66,-54.88 946.66,-54.88 1079.2,-54.88 1079.2,-54.88 1085.2,-54.88 1091.2,-60.88 1091.2,-66.88 1091.2,-66.88 1091.2,-128.28 1091.2,-128.28 1091.2,-134.28 1085.2,-140.28 1079.2,-140.28"/>
+<text xml:space="preserve" text-anchor="middle" x="1012.93" y="-121.67" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#16202b">Water fit for the</text>
+<text xml:space="preserve" text-anchor="middle" x="1012.93" y="-107.42" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#16202b">purpose it was bought for</text>
+<text xml:space="preserve" text-anchor="middle" x="1012.93" y="-79.17" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#16202b">drinking · irrigation</text>
+<text xml:space="preserve" text-anchor="middle" x="1012.93" y="-64.92" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#16202b">boiler feed · chip fabs</text>
+</g>
+
+<g id="edge7" class="edge">
+<title>om&#45;&gt;out</title>
+<path fill="none" stroke="#5a6a78" d="M902.86,-97.58C910.26,-97.58 918.01,-97.58 925.82,-97.58"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" points="925.79,-100.03 932.79,-97.58 925.79,-95.13 925.79,-100.03"/>
+</g>
+
+<g id="node6" class="node">
+<title>oem</title>
+<path fill="#eef3f8" stroke="#c3d7ea" d="M391.08,-228.15C391.08,-228.15 283.29,-228.15 283.29,-228.15 277.29,-228.15 271.29,-222.15 271.29,-216.15 271.29,-216.15 271.29,-169 271.29,-169 271.29,-163 277.29,-157 283.29,-157 283.29,-157 391.08,-157 391.08,-157 397.08,-157 403.08,-163 403.08,-169 403.08,-169 403.08,-216.15 403.08,-216.15 403.08,-222.15 397.08,-228.15 391.08,-228.15"/>
+<text xml:space="preserve" text-anchor="middle" x="337.18" y="-209.55" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#16202b">Equipment makers</text>
+<text xml:space="preserve" text-anchor="middle" x="337.18" y="-181.3" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#16202b">membranes · pumps</text>
+<text xml:space="preserve" text-anchor="middle" x="337.18" y="-167.05" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#16202b">motors · vessels</text>
+</g>
+
+<g id="edge5" class="edge">
+<title>oem&#45;&gt;proc</title>
+<path fill="none" stroke="#b3261e" d="M403.29,-167.86C442.5,-152.98 492.02,-134.18 529.98,-119.77"/>
+<polygon fill="#b3261e" stroke="#b3261e" points="530.81,-122.08 536.48,-117.3 529.07,-117.5 530.81,-122.08"/>
+<text xml:space="preserve" text-anchor="middle" x="480.33" y="-156.08" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#b3261e"> 44.5% of revenue </text>
+</g>
+
+<g id="node7" class="node">
+<title>civ</title>
+<path fill="#f2f4f7" stroke="#c3d7ea" d="M412.08,-57.15C412.08,-57.15 262.29,-57.15 262.29,-57.15 256.29,-57.15 250.29,-51.15 250.29,-45.15 250.29,-45.15 250.29,-12 250.29,-12 250.29,-6 256.29,0 262.29,0 262.29,0 412.08,0 412.08,0 418.08,0 424.08,-6 424.08,-12 424.08,-12 424.08,-45.15 424.08,-45.15 424.08,-51.15 418.08,-57.15 412.08,-57.15"/>
+<text xml:space="preserve" text-anchor="middle" x="337.18" y="-38.55" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#16202b">Civil contractor</text>
+<text xml:space="preserve" text-anchor="middle" x="337.18" y="-24.3" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#16202b">— a partner, not WABAG —</text>
+<text xml:space="preserve" text-anchor="middle" x="337.18" y="-10.05" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#16202b">concrete · pipelines · marine</text>
+</g>
+
+<g id="edge6" class="edge">
+<title>civ&#45;&gt;com</title>
+<path fill="none" stroke="#a2650a" d="M424.28,-19.55C486.6,-16.08 571.9,-17.78 642.33,-42.58 659.39,-48.58 675.89,-59.82 689.08,-70.58"/>
+<polygon fill="#a2650a" stroke="#a2650a" points="687.18,-72.19 694.11,-74.82 690.34,-68.44 687.18,-72.19"/>
+<text xml:space="preserve" text-anchor="middle" x="589.45" y="-57.08" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#a2650a"> 14.6% of revenue,</text>
+<text xml:space="preserve" text-anchor="middle" x="589.45" y="-45.08" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#a2650a"> passed through at cost </text>
+</g>
+</g>
+</svg>
+<figcaption>Figure 2 — WABAG's slice of the chain. It designs the scheme, buys the equipment, commissions the plant and often operates it. It does not make the equipment and it does not pour the concrete. The two percentages are FY26 consolidated cost lines as a share of revenue (AR Note 25).</figcaption>
+</figure>
+
+<p>Read the two side arrows, because they are where the money goes. <strong>WABAG buys the equipment and it hands the concrete to a partner.</strong> It designs the scheme, specifies and procures the kit, supervises erection and commissioning, proves the performance guarantee, and then — on a growing share of contracts — operates the plant for between one and twenty years.</p>
+
+<p>Civil construction passes through its accounts at cost. This is stated plainly and repeatedly:</p>
+
+<blockquote>"Construction for us is a pass-through. Our idea would remain that to see if we can have more design build orders. But of course, even when we take design build, operate orders, since construction is a pass-through, effectively, <strong>our margins are made only from design and build.</strong>"<br><span class="src">CFO, Q1FY27 call, 13-Aug-2026.</span></blockquote>
+
+<p>That sentence is the key to §7, and it is worth holding on to: <strong>a large part of WABAG's reported revenue is work on which it does not intend to earn a margin at all.</strong></p>
+
+<div class="tw">
+<table>
+<caption class="src" style="text-align:left; padding-bottom:6px">The contract types, and what they include — the abbreviations appear constantly in the decks</caption>
+<tr><th>Form</th><th>What WABAG's scope covers</th><th>Where the margin is made</th></tr>
+<tr><td><strong>EP</strong> — Engineering &amp; Procurement</td><td>Design the scheme, buy and deliver the equipment. No construction.</td><td>All of it. <em>"generally be better in margin because there is no construction"</em> (CFO)</td></tr>
+<tr><td><strong>EPC</strong> — Engineering, Procurement &amp; Construction</td><td>The above, plus responsibility for the civil work, which is subcontracted to a partner.</td><td>Only on the E and P. The C is passed through.</td></tr>
+<tr><td><strong>DB / DBO</strong> — Design-Build (Operate)</td><td>Design and build, then run the plant for a fixed term.</td><td>Design and build, then the O&amp;M annuity.</td></tr>
+<tr><td><strong>O&amp;M</strong></td><td>Operate and maintain a plant, usually one WABAG built. Invoiced monthly.</td><td>A service margin over a long term.</td></tr>
+<tr><td><strong>RFOMT / HAM / PPP</strong></td><td>Refurbish or build, finance, operate, transfer — WABAG or a partner puts in capital.</td><td>Construction plus a return on the capital, over 15–25 years.</td></tr>
+</table>
+</div>
+
+<p><span class="tag inf">MY INFERENCE</span> The direction of travel is from EPC toward EP and O&amp;M, but the CFO is careful not to make it a rule: <em>"it is not that we have a very strict policy that we will go only for EP projects… even in case of EPC projects because you have partners, you are practically offloading your construction risk."</em> The risk profile is managed by subcontracting regardless of what the contract is called; only the <em>accounting</em> differs, which is precisely why the margin percentage moves around.</p>
+
+<!-- ============================ §3 ============================ -->
+<h2 id="s3"><span class="n">3.</span> The mechanism: what is sold is a lifecycle cost</h2>
+
+<p>This is the section that, once understood, makes the rest of the business obvious.</p>
+
+<p>In the Gulf — now roughly half the order book — <strong>the water utility does not buy a plant.</strong> It buys water, under a twenty-to-twenty-five-year concession, from a <em>developer</em> who finds the capital, builds the plant, runs it, and sells the output at an agreed price per cubic metre. WABAG is usually not the developer. It is the technology and construction contract <em>inside</em> the developer's bid.</p>
+
+<figure class="dg">
+<svg class="narrow"
+ viewBox="0.00 0.00 424.00 464.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 460)">
+<title>developer</title>
+<g id="clust1" class="cluster">
+<title>cluster_bid</title>
+<path fill="none" stroke="#d5dce4" d="M20,-241.5C20,-241.5 396,-241.5 396,-241.5 402,-241.5 408,-247.5 408,-253.5 408,-253.5 408,-301.5 408,-301.5 408,-307.5 402,-313.5 396,-313.5 396,-313.5 20,-313.5 20,-313.5 14,-313.5 8,-307.5 8,-301.5 8,-301.5 8,-253.5 8,-253.5 8,-247.5 14,-241.5 20,-241.5"/>
+<text xml:space="preserve" text-anchor="middle" x="101.5" y="-300" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#5a6a78"> &#160;THREE OR FOUR CONSORTIA BID</text>
+</g>
+
+<g id="node1" class="node">
+<title>util</title>
+<path fill="#1f4e79" stroke="#1f4e79" d="M371.25,-456C371.25,-456 44.75,-456 44.75,-456 38.75,-456 32.75,-450 32.75,-444 32.75,-444 32.75,-419.5 32.75,-419.5 32.75,-413.5 38.75,-407.5 44.75,-407.5 44.75,-407.5 371.25,-407.5 371.25,-407.5 377.25,-407.5 383.25,-413.5 383.25,-419.5 383.25,-419.5 383.25,-444 383.25,-444 383.25,-450 377.25,-456 371.25,-456"/>
+<text xml:space="preserve" text-anchor="middle" x="208" y="-441.55" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">A Gulf water utility</text>
+<text xml:space="preserve" text-anchor="middle" x="208" y="-428.05" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">(Saudi Water Authority, MEWRE Kuwait)</text>
+<text xml:space="preserve" text-anchor="middle" x="208" y="-414.55" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">wants 300 MLD of drinking water — and does not want to own a plant</text>
+</g>
+
+<g id="node2" class="node">
+<title>tender</title>
+<path fill="#eef3f8" stroke="#c3d7ea" d="M375,-364.5C375,-364.5 41,-364.5 41,-364.5 35,-364.5 29,-358.5 29,-352.5 29,-352.5 29,-340.5 29,-340.5 29,-334.5 35,-328.5 41,-328.5 41,-328.5 375,-328.5 375,-328.5 381,-328.5 387,-334.5 387,-340.5 387,-340.5 387,-352.5 387,-352.5 387,-358.5 381,-364.5 375,-364.5"/>
+<text xml:space="preserve" text-anchor="middle" x="208" y="-349.55" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#16202b">It tenders a 20–25 year concession:</text>
+<text xml:space="preserve" text-anchor="middle" x="208" y="-336.05" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#16202b">&quot;bring capital, build it, run it, sell us the water at X rupees a cubic metre&quot;</text>
+</g>
+
+<g id="edge1" class="edge">
+<title>util&#45;&gt;tender</title>
+<path fill="none" stroke="#5a6a78" d="M208,-407.12C208,-396.5 208,-383.94 208,-373.1"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" points="210.45,-373.35 208,-366.35 205.55,-373.35 210.45,-373.35"/>
+</g>
+
+<g id="node3" class="node">
+<title>d1</title>
+<path fill="#f2f4f7" stroke="#c3d7ea" d="M132.25,-285.5C132.25,-285.5 27.75,-285.5 27.75,-285.5 21.75,-285.5 15.75,-279.5 15.75,-273.5 15.75,-273.5 15.75,-261.5 15.75,-261.5 15.75,-255.5 21.75,-249.5 27.75,-249.5 27.75,-249.5 132.25,-249.5 132.25,-249.5 138.25,-249.5 144.25,-255.5 144.25,-261.5 144.25,-261.5 144.25,-273.5 144.25,-273.5 144.25,-279.5 138.25,-285.5 132.25,-285.5"/>
+<text xml:space="preserve" text-anchor="middle" x="80" y="-270.55" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#5a6a78">Developer A</text>
+<text xml:space="preserve" text-anchor="middle" x="80" y="-257.05" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#5a6a78">+ its technology partner</text>
+</g>
+
+<g id="edge2" class="edge">
+<title>tender&#45;&gt;d1</title>
+<path fill="none" stroke="#5a6a78" d="M178.95,-328.03C160.3,-316.8 135.92,-302.14 116.04,-290.18"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" points="117.49,-288.19 110.23,-286.68 114.96,-292.39 117.49,-288.19"/>
+</g>
+
+<g id="node4" class="node">
+<title>d2</title>
+<path fill="#ffffff" stroke="#2e75b6" stroke-width="2" d="M234,-285.5C234,-285.5 182,-285.5 182,-285.5 176,-285.5 170,-279.5 170,-273.5 170,-273.5 170,-261.5 170,-261.5 170,-255.5 176,-249.5 182,-249.5 182,-249.5 234,-249.5 234,-249.5 240,-249.5 246,-255.5 246,-261.5 246,-261.5 246,-273.5 246,-273.5 246,-279.5 240,-285.5 234,-285.5"/>
+<text xml:space="preserve" text-anchor="middle" x="208" y="-270.55" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#1f4e79">Developer B</text>
+<text xml:space="preserve" text-anchor="middle" x="208" y="-257.05" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#1f4e79">+ WABAG</text>
+</g>
+
+<g id="edge3" class="edge">
+<title>tender&#45;&gt;d2</title>
+<path fill="none" stroke="#5a6a78" d="M208,-328.03C208,-318.22 208,-305.8 208,-294.84"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" points="210.45,-294.95 208,-287.95 205.55,-294.95 210.45,-294.95"/>
+</g>
+
+<g id="node5" class="node">
+<title>d3</title>
+<path fill="#f2f4f7" stroke="#c3d7ea" d="M388.25,-285.5C388.25,-285.5 283.75,-285.5 283.75,-285.5 277.75,-285.5 271.75,-279.5 271.75,-273.5 271.75,-273.5 271.75,-261.5 271.75,-261.5 271.75,-255.5 277.75,-249.5 283.75,-249.5 283.75,-249.5 388.25,-249.5 388.25,-249.5 394.25,-249.5 400.25,-255.5 400.25,-261.5 400.25,-261.5 400.25,-273.5 400.25,-273.5 400.25,-279.5 394.25,-285.5 388.25,-285.5"/>
+<text xml:space="preserve" text-anchor="middle" x="336" y="-270.55" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#5a6a78">Developer C</text>
+<text xml:space="preserve" text-anchor="middle" x="336" y="-257.05" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#5a6a78">+ its technology partner</text>
+</g>
+
+<g id="edge4" class="edge">
+<title>tender&#45;&gt;d3</title>
+<path fill="none" stroke="#5a6a78" d="M237.05,-328.03C255.7,-316.8 280.08,-302.14 299.96,-290.18"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" points="301.04,-292.39 305.77,-286.68 298.51,-288.19 301.04,-292.39"/>
+</g>
+
+<g id="node6" class="node">
+<title>calc</title>
+<path fill="#fff8e6" stroke="#ecd9a8" d="M375,-206.5C375,-206.5 41,-206.5 41,-206.5 35,-206.5 29,-200.5 29,-194.5 29,-194.5 29,-182.5 29,-182.5 29,-176.5 35,-170.5 41,-170.5 41,-170.5 375,-170.5 375,-170.5 381,-170.5 387,-176.5 387,-182.5 387,-182.5 387,-194.5 387,-194.5 387,-200.5 381,-206.5 375,-206.5"/>
+<text xml:space="preserve" text-anchor="middle" x="208" y="-191.55" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#a2650a">Each bid is scored on LIFECYCLE COST, not on the price of the plant</text>
+<text xml:space="preserve" text-anchor="middle" x="208" y="-178.05" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#a2650a">capital cost &#160;+ &#160;25 years of electricity, membranes, chemicals and labour</text>
+</g>
+
+<g id="edge5" class="edge">
+<title>d1&#45;&gt;calc</title>
+<path fill="none" stroke="#5a6a78" stroke-dasharray="5,2" d="M109.05,-249.03C127.7,-237.8 152.08,-223.14 171.96,-211.18"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" points="173.04,-213.39 177.77,-207.68 170.51,-209.19 173.04,-213.39"/>
+</g>
+
+<g id="edge6" class="edge">
+<title>d2&#45;&gt;calc</title>
+<path fill="none" stroke="#2e75b6" stroke-width="1.6" d="M208,-248.64C208,-239.05 208,-227.03 208,-216.34"/>
+<polygon fill="#2e75b6" stroke="#2e75b6" stroke-width="1.6" points="210.45,-216.42 208,-209.42 205.55,-216.42 210.45,-216.42"/>
+</g>
+
+<g id="edge7" class="edge">
+<title>d3&#45;&gt;calc</title>
+<path fill="none" stroke="#5a6a78" stroke-dasharray="5,2" d="M306.95,-249.03C288.3,-237.8 263.92,-223.14 244.04,-211.18"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" points="245.49,-209.19 238.23,-207.68 242.96,-213.39 245.49,-209.19"/>
+</g>
+
+<g id="node7" class="node">
+<title>win</title>
+<path fill="#ecf7f1" stroke="#c7e4d5" d="M283.5,-127.5C283.5,-127.5 132.5,-127.5 132.5,-127.5 126.5,-127.5 120.5,-121.5 120.5,-115.5 120.5,-115.5 120.5,-103.5 120.5,-103.5 120.5,-97.5 126.5,-91.5 132.5,-91.5 132.5,-91.5 283.5,-91.5 283.5,-91.5 289.5,-91.5 295.5,-97.5 295.5,-103.5 295.5,-103.5 295.5,-115.5 295.5,-115.5 295.5,-121.5 289.5,-127.5 283.5,-127.5"/>
+<text xml:space="preserve" text-anchor="middle" x="208" y="-105.8" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#1a6f4a">Developer B wins the concession</text>
+</g>
+
+<g id="edge8" class="edge">
+<title>calc&#45;&gt;win</title>
+<path fill="none" stroke="#2e75b6" stroke-width="1.6" d="M208,-170.03C208,-160.28 208,-147.94 208,-137.03"/>
+<polygon fill="#2e75b6" stroke="#2e75b6" stroke-width="1.6" points="210.45,-137.32 208,-130.33 205.55,-137.33 210.45,-137.32"/>
+</g>
+
+<g id="node8" class="node">
+<title>wab</title>
+<path fill="#2e75b6" stroke="#2e75b6" d="M395.62,-48.5C395.62,-48.5 20.38,-48.5 20.38,-48.5 14.38,-48.5 8.37,-42.5 8.37,-36.5 8.37,-36.5 8.37,-12 8.37,-12 8.37,-6 14.37,0 20.37,0 20.37,0 395.62,0 395.62,0 401.62,0 407.62,-6 407.62,-12 407.62,-12 407.62,-36.5 407.62,-36.5 407.62,-42.5 401.62,-48.5 395.62,-48.5"/>
+<text xml:space="preserve" text-anchor="middle" x="208" y="-34.05" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">…and only then does WABAG have an order.</text>
+<text xml:space="preserve" text-anchor="middle" x="208" y="-20.55" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">It is the design, equipment and commissioning contract inside</text>
+<text xml:space="preserve" text-anchor="middle" x="208" y="-7.05" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">someone else&#39;s 25&#45;year promise — held under exclusivity agreed before the bid.</text>
+</g>
+
+<g id="edge9" class="edge">
+<title>win&#45;&gt;wab</title>
+<path fill="none" stroke="#2e75b6" stroke-width="1.6" d="M208,-91.25C208,-81.65 208,-69.38 208,-58.03"/>
+<polygon fill="#2e75b6" stroke="#2e75b6" stroke-width="1.6" points="210.45,-58.21 208,-51.21 205.55,-58.21 210.45,-58.21"/>
+</g>
+</g>
+</svg>
+<figcaption>Figure 3 — The developer-led bid, as it works in the Gulf. WABAG's order does not exist until a developer has won a 20–25 year concession, and the concession is scored on lifecycle cost. Structure described by the MEA cluster head at the Annual Investor Meet, 25-May-2026.</figcaption>
+</figure>
+
+<p>The consequence is unusual and worth stating precisely: <strong>WABAG's commercial problem is not to win a tender, but to make somebody else win theirs.</strong> Rohan Mittal, who runs the Middle East and Africa region, put the sequence in one sentence:</p>
+
+<blockquote>"So basically it's a life cycle cost. It's not your capex, it's not your opex, it is a life cycle cost which makes the developer competitive when they take concession contracts which are 20 years and 25 years. Only when they are competitive, we will win the jobs. <strong>First they have to win the job, so we ensure that they win the job so that after they win, we have an exclusivity with them, we win the job.</strong>"<br><span class="src">Annual Investor Meet, 25-May-2026.</span></blockquote>
+
+<p>Because the scoring is lifecycle cost, the competitive lever is <strong>the electricity bill twenty years out</strong>, not the price of the steel. This is why an engineering choice that looks trivial is treated as commercially decisive:</p>
+
+<blockquote>"We have to find that thin line, you know, how much whether we should go for IE3, whether we should go for IE4, whether we should go IE5 motors. <strong>We go to that details on motor efficiencies, 0.5% to 1%</strong>, and we add that value because one big advantage that we have… we have 500 engineers sitting and engineering plants at house."<br><span class="src">Annual Investor Meet, 25-May-2026. IE3/IE4/IE5 are international motor-efficiency classes; see glossary.</span></blockquote>
+
+<p>And it is why management is explicit that it will accept a <em>worse</em> capital cost to win on the total: <em>"Maybe the capex might be little higher than others, but on a whole, our power, our opex, and capex has to be minimum."</em></p>
+
+<div class="box good">
+<h4>Why owning the operating business feeds the bidding business</h4>
+<p style="margin:6px 0">WABAG claims to be the world's third-largest private water operator, and management's argument is that running plants is what makes its bids credible: <em>"there are only people who build plants or only people who operate plants… there are not many companies or EPC contractors who have operated the plants who understand what will help my developer to be competitive in opex."</em></p>
+<p style="margin:6px 0">The stated result in one market: <em>"In the last six STPs, we've won three."</em> <span class="src">Annual Investor Meet, 25-May-2026. Win-rate and ranking claims are management's and are not independently verified.</span></p>
+<p style="margin:6px 0"><span class="tag inf">MY INFERENCE</span> This is a real feedback loop and it is the strongest structural argument in the business: <strong>operating data is an input to pricing, and only operators have it.</strong> It is also slow to build and cannot be bought, which is what distinguishes it from the technology claim — patents expire, and management says so.</p>
+</div>
+
+<p>One more structural feature of the technology: <strong>WABAG does not license any of it.</strong> <em>"We use our technologies for our captive use, we don't sell our technologies, we don't license out our technologies."</em> The stated holding is <em>"more than 125 patents and trademarks"</em>, with R&amp;D in Vienna and Chennai. The practical effect management gives is a cost one — a component competitors must buy in, WABAG makes — rather than an exclusivity one.</p>
+
+<!-- ============================ §4 ============================ -->
+<h2 id="s4"><span class="n">4.</span> The filter that comes before the engineering</h2>
+
+<p>Before WABAG evaluates whether it can build something, it asks who is paying. This is the most consequential policy in the company, and it is stated as an absolute:</p>
+
+<blockquote>"As you know, payment security is a biggest factor when we select our projects… <strong>We don't take projects which are funded by state government or municipalities because we consider that as a big risk.</strong>"<br><span class="src">CMD, Annual Investor Meet, 25-May-2026.</span></blockquote>
+
+<figure class="dg">
+<svg viewBox="0 0 960 470" role="img" aria-label="A filter diagram. Every tendered water project splits into four rejected categories - state-government funded, municipality funded, no advance or letter of credit, and no advanced technology - and four accepted categories: multilateral lenders, central schemes, sovereign budgets and large industrials against a letter of credit. Only the accepted categories feed the outcome: net cash of 965 crore, an AA- rating, fourteen straight net-cash quarters and working capital down from 130 to 100 days.">
+  <text x="20" y="26" class="t-md" fill="#1F4E79">The filter that comes before any bid</text>
+  <text x="20" y="46" class="t" fill="#5a6a78">WABAG disqualifies work by who is paying for it, before it ever looks at the engineering.</text>
+  <rect x="20" y="150" width="150" height="96" rx="8" fill="#f2f4f7" stroke="#d5dce4"/>
+  <text x="95" y="184" class="t-md" text-anchor="middle">Every water</text>
+  <text x="95" y="204" class="t-md" text-anchor="middle">project being</text>
+  <text x="95" y="224" class="t-md" text-anchor="middle">tendered</text>
+  <rect x="250" y="74" width="390" height="166" rx="8" fill="none" stroke="#f3cfcb" stroke-dasharray="4 3"/>
+  <text x="264" y="94" class="t-sm" fill="#b3261e">NOT BID FOR, ON PRINCIPLE</text>
+  <rect x="264" y="108" width="362" height="26" rx="5" fill="#fdeceb" stroke="#f3cfcb"/>
+  <text x="276" y="126" class="t" fill="#b3261e">Funded by a state government</text>
+  <rect x="264" y="140" width="362" height="26" rx="5" fill="#fdeceb" stroke="#f3cfcb"/>
+  <text x="276" y="158" class="t" fill="#b3261e">Funded by a municipality</text>
+  <rect x="264" y="172" width="362" height="26" rx="5" fill="#fdeceb" stroke="#f3cfcb"/>
+  <text x="276" y="190" class="t" fill="#b3261e">No advance and no letter of credit</text>
+  <rect x="264" y="204" width="362" height="26" rx="5" fill="#fdeceb" stroke="#f3cfcb"/>
+  <text x="276" y="222" class="t" fill="#b3261e">No advanced technology content</text>
+  <rect x="250" y="266" width="390" height="166" rx="8" fill="none" stroke="#c7e4d5"/>
+  <text x="264" y="286" class="t-sm" fill="#1a6f4a">WHAT IS LEFT — THE ONLY JOBS THAT REACH THE BID TABLE</text>
+  <rect x="264" y="300" width="362" height="26" rx="5" fill="#ecf7f1" stroke="#c7e4d5"/>
+  <text x="276" y="318" class="t" fill="#1a6f4a">World Bank / ADB / JICA / KfW / AIIB</text>
+  <rect x="264" y="332" width="362" height="26" rx="5" fill="#ecf7f1" stroke="#c7e4d5"/>
+  <text x="276" y="350" class="t" fill="#1a6f4a">Central schemes: Namami Gange, AMRUT</text>
+  <rect x="264" y="364" width="362" height="26" rx="5" fill="#ecf7f1" stroke="#c7e4d5"/>
+  <text x="276" y="382" class="t" fill="#1a6f4a">Sovereign budgets: Saudi, Kuwait</text>
+  <rect x="264" y="396" width="362" height="26" rx="5" fill="#ecf7f1" stroke="#c7e4d5"/>
+  <text x="276" y="414" class="t" fill="#1a6f4a">Large industrials, against a letter of credit</text>
+  <path d="M170 198.0 C 204 198.0, 216 121.0, 260 121.0" fill="none" stroke="#b3261e" stroke-dasharray="4 3"/>
+  <path d="M170 198.0 C 204 198.0, 216 153.0, 260 153.0" fill="none" stroke="#b3261e" stroke-dasharray="4 3"/>
+  <path d="M170 198.0 C 204 198.0, 216 185.0, 260 185.0" fill="none" stroke="#b3261e" stroke-dasharray="4 3"/>
+  <path d="M170 198.0 C 204 198.0, 216 217.0, 260 217.0" fill="none" stroke="#b3261e" stroke-dasharray="4 3"/>
+  <path d="M170 198.0 C 204 198.0, 216 313.0, 260 313.0" fill="none" stroke="#1a6f4a"/>
+  <path d="M170 198.0 C 204 198.0, 216 345.0, 260 345.0" fill="none" stroke="#1a6f4a"/>
+  <path d="M170 198.0 C 204 198.0, 216 377.0, 260 377.0" fill="none" stroke="#1a6f4a"/>
+  <path d="M170 198.0 C 204 198.0, 216 409.0, 260 409.0" fill="none" stroke="#1a6f4a"/>
+  <rect x="700" y="284" width="240" height="130" rx="8" fill="#1F4E79" stroke="#1F4E79"/>
+  <text x="716" y="312" class="t-md" fill="#ffffff">The consequence, five years on</text>
+  <text x="716" y="338" class="t" fill="#ffffff">net cash ₹965 cr</text>
+  <text x="716" y="359" class="t" fill="#ffffff">AA- rating, A1+ short term</text>
+  <text x="716" y="380" class="t" fill="#ffffff">14 straight net-cash quarters</text>
+  <text x="716" y="401" class="t" fill="#ffffff">working capital 130 to 100 days</text>
+  <path d="M626 313.0 C 650 313.0, 676 349.0, 696 349.0" fill="none" stroke="#1a6f4a"/>
+  <path d="M626 345.0 C 650 345.0, 676 349.0, 696 349.0" fill="none" stroke="#1a6f4a"/>
+  <path d="M626 377.0 C 650 377.0, 676 349.0, 696 349.0" fill="none" stroke="#1a6f4a"/>
+  <path d="M626 409.0 C 650 409.0, 676 349.0, 696 349.0" fill="none" stroke="#1a6f4a"/>
+  <polygon points="696,344.0 706,349.0 696,354.0" fill="#1a6f4a"/>
+  <text x="20" y="456" class="t-sm" fill="#5a6a78">Quoted rule, CMD, May-2026: "we don't take projects which are funded by state government or municipalities because we consider that as a big risk."</text>
+</svg>
+<figcaption>Figure 4 — The payment-security filter. WABAG disqualifies work by who is funding it before it assesses the engineering. Exclusions quoted from the CMD, 25-May-2026; the framework-contract carve-out is disclosed in FY26 AR Note 23B.</figcaption>
+</figure>
+
+<p>Two things follow from this that are easy to miss.</p>
+
+<p><strong>First, it disqualifies most of the Indian market by construction.</strong> Water is a state subject in India. A rule that excludes state and municipal funding excludes the majority of domestic tenders, leaving only multilateral-funded work (World Bank, ADB, JICA, KfW, AIIB) and central schemes such as Namami Gange and AMRUT. That is a deliberate trade of volume for collection.</p>
+
+<p><strong>Second, the discipline extends to what counts as an order at all.</strong> Contracts signed but not yet backed by an advance payment or a letter of credit are held outside the order book as <em>"framework contracts"</em> — ₹611 cr of them at 31-Mar-2026, disclosed as such in the annual report. <span class="src">FY26 AR, Note 23B.</span> In Q1FY27 the Libya framework contract was removed entirely, which the CFO described as done <em>"prudently."</em> Both the carve-out and the removal make the headline backlog smaller than it could legitimately have been.</p>
+
+<div class="box">
+<h4>The chain this filter produced</h4>
+<p style="margin:6px 0">Filter for payment security &rarr; get paid &rarr; go net cash &rarr; get rated AA- &rarr; obtain bank guarantees more cheaply and in larger size &rarr; qualify to bid for larger international jobs. <span class="tag inf">MY FRAMING</span></p>
+<p style="margin:6px 0">The guarantee step is not incidental. An EPC contractor must post performance and advance-payment guarantees to be allowed to bid at all, so <strong>the credit rating is a bidding input, not just a financing cost.</strong> WABAG's bank charges — mostly guarantee commission, not interest — ran <strong>₹499 Mn in FY26</strong> against interest on borrowings of only ₹230 Mn. <span class="src">FY26 AR, Note 28.</span> <em>Reading bank charges as interest expense, and therefore as leverage, would be a mistake; this point was raised and correctly resolved on the ValuePickr thread.</em></p>
+</div>
+
+<!-- ============================ §5 ============================ -->
+<h2 id="s5"><span class="n">5.</span> The ₹100 cost stack: a buyer of equipment, not a maker of it</h2>
+
+<p>Every line below is a disclosed line in the FY26 consolidated accounts, and they sum exactly to revenue.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 470" role="img" aria-label="Stacked bar of FY26 revenue per 100 rupees: bought-in equipment and materials 44.5, civil construction 14.6, erection and commissioning 2.4, other project costs 14.6, people 7.6, other expenses 4.1, change in inventories 0.1, leaving EBITDA excluding forex of 12.1, to which forex gains add 1.2 to give reported EBITDA of 13.3.">
+  <text x="20" y="26" class="t-md" fill="#1F4E79">Where ₹100 of FY26 revenue went</text>
+  <text x="20" y="46" class="t" fill="#5a6a78">Consolidated and audited. Every segment below is a line in the annual report; they sum to revenue.</text>
+  <rect x="78.0" y="72" width="365.7" height="46" fill="#1F4E79"/>
+  <text x="260.8" y="101" class="t-md" text-anchor="middle" fill="#ffffff">44.5</text>
+  <rect x="443.7" y="72" width="120.1" height="46" fill="#4a7ba7"/>
+  <text x="503.7" y="101" class="t-md" text-anchor="middle" fill="#ffffff">14.6</text>
+  <rect x="563.8" y="72" width="19.5" height="46" fill="#7aa3c8"/>
+  <rect x="583.2" y="72" width="120.1" height="46" fill="#a8c4dd"/>
+  <text x="643.3" y="101" class="t-md" text-anchor="middle" fill="#ffffff">14.6</text>
+  <rect x="703.3" y="72" width="62.6" height="46" fill="#6b7f91"/>
+  <text x="734.6" y="101" class="t-md" text-anchor="middle" fill="#ffffff">7.6</text>
+  <rect x="766.0" y="72" width="33.9" height="46" fill="#b0bac4"/>
+  <rect x="799.8" y="72" width="0.7" height="46" fill="#d0d6dc"/>
+  <rect x="800.5" y="72" width="99.5" height="46" fill="#1a6f4a"/>
+  <text x="850.3" y="101" class="t-md" text-anchor="middle" fill="#ffffff">12.1</text>
+  <text x="70" y="101" class="t" text-anchor="end" fill="#5a6a78">₹0</text>
+  <text x="900.0" y="135" class="t-sm" text-anchor="end" fill="#1a6f4a">EBITDA ex-forex</text>
+  <text x="20" y="176" class="t-md" fill="#1F4E79">The same thing as a list</text>
+  <text x="600" y="176" class="t-sm" text-anchor="end" fill="#5a6a78">₹ Mn</text>
+  <text x="700" y="176" class="t-sm" text-anchor="end" fill="#5a6a78">per ₹100</text>
+  <rect x="20" y="192" width="12" height="12" rx="2" fill="#1F4E79"/>
+  <text x="40" y="202" class="t">Bought-in equipment and materials</text>
+  <text x="600" y="202" class="t" text-anchor="end">17,546</text>
+  <text x="700" y="202" class="t" text-anchor="end">44.5</text>
+  <rect x="20" y="217" width="12" height="12" rx="2" fill="#4a7ba7"/>
+  <text x="40" y="227" class="t">Civil construction</text>
+  <text x="600" y="227" class="t" text-anchor="end">5,763</text>
+  <text x="700" y="227" class="t" text-anchor="end">14.6</text>
+  <rect x="20" y="242" width="12" height="12" rx="2" fill="#7aa3c8"/>
+  <text x="40" y="252" class="t">Erection and commissioning</text>
+  <text x="600" y="252" class="t" text-anchor="end">934</text>
+  <text x="700" y="252" class="t" text-anchor="end">2.4</text>
+  <rect x="20" y="267" width="12" height="12" rx="2" fill="#a8c4dd"/>
+  <text x="40" y="277" class="t">Other project costs</text>
+  <text x="600" y="277" class="t" text-anchor="end">5,763</text>
+  <text x="700" y="277" class="t" text-anchor="end">14.6</text>
+  <rect x="20" y="292" width="12" height="12" rx="2" fill="#6b7f91"/>
+  <text x="40" y="302" class="t">People (engineers and staff)</text>
+  <text x="600" y="302" class="t" text-anchor="end">3,004</text>
+  <text x="700" y="302" class="t" text-anchor="end">7.6</text>
+  <rect x="20" y="317" width="12" height="12" rx="2" fill="#b0bac4"/>
+  <text x="40" y="327" class="t">Other expenses (incl. ECL 884)</text>
+  <text x="600" y="327" class="t" text-anchor="end">1,626</text>
+  <text x="700" y="327" class="t" text-anchor="end">4.1</text>
+  <rect x="20" y="342" width="12" height="12" rx="2" fill="#d0d6dc"/>
+  <text x="40" y="352" class="t">Change in inventories</text>
+  <text x="600" y="352" class="t" text-anchor="end">32</text>
+  <text x="700" y="352" class="t" text-anchor="end">0.1</text>
+  <rect x="20" y="367" width="12" height="12" rx="2" fill="#1a6f4a"/>
+  <text x="40" y="377" class="t-md">EBITDA excluding forex</text>
+  <text x="600" y="377" class="t-md" text-anchor="end">4,774</text>
+  <text x="700" y="377" class="t-md" text-anchor="end">12.1</text>
+  <line x1="20" y1="386" x2="700" y2="386" stroke="#d5dce4"/>
+  <rect x="20" y="398" width="12" height="12" rx="2" fill="#a2650a"/>
+  <text x="40" y="408" class="t" fill="#a2650a">plus foreign exchange gains (a separate line on the audited P and L)</text>
+  <text x="600" y="408" class="t" text-anchor="end" fill="#a2650a">467</text>
+  <text x="700" y="408" class="t" text-anchor="end" fill="#a2650a">1.2</text>
+  <text x="40" y="434" class="t-md" fill="#1F4E79">= EBITDA as management reports it</text>
+  <text x="600" y="434" class="t-md" text-anchor="end" fill="#1F4E79">5,241</text>
+  <text x="700" y="434" class="t-md" text-anchor="end" fill="#1F4E79">13.3</text>
+  <rect x="736" y="192" width="204" height="150" rx="8" fill="#eef3f8" stroke="#c3d7ea"/>
+  <text x="752" y="224" class="t-lg" fill="#1F4E79">₹44.48</text>
+  <text x="752" y="248" class="t-sm">of every ₹100 is equipment</text>
+  <text x="752" y="266" class="t-sm">bought from someone else:</text>
+  <text x="752" y="284" class="t-sm">membranes, high-pressure</text>
+  <text x="752" y="302" class="t-sm">pumps, motors, vessels.</text>
+  <text x="752" y="326" class="t-sm" fill="#b3261e">Engineering cost: ₹0.15.</text>
+</svg>
+<figcaption>Figure 5 — Where ₹100 of FY26 revenue went. Every component is a disclosed line in the consolidated accounts (AR Notes 25, 26, 27, 30) and they sum to revenue of ₹39,442 Mn. The forex line is shown separately because the audited P&amp;L shows it separately.</figcaption>
+</figure>
+
+<p>Three readings matter.</p>
+
+<p><strong>The largest single cost is equipment WABAG does not make.</strong> ₹44.48 of every ₹100 is bought-in material: membranes, high-pressure pumps, motors, pressure vessels, energy-recovery devices. Add civil at ₹14.61 and erection at ₹2.37 and roughly <strong>₹61 of every ₹100 is bought from somebody else.</strong> This is what "asset-light" actually means here — not that the business is small, but that the capital equipment sits in the customer's plant and the manufacturing sits in the supply chain.</p>
+
+<p><strong>The engineering that is supposedly the product costs ₹0.15.</strong> The "engineering costs" line is ₹58 Mn on ₹39,442 Mn of revenue. <span class="tag inf">MY INFERENCE</span> This is not evidence that engineering is unimportant — it is evidence that the engineers are employees, so their cost sits in the ₹3,004 Mn employee line (₹7.62 per ₹100), and the project-level "engineering costs" line captures only bought-in design work. The ~2,000 engineers management describes are a fixed cost carried between projects, not a project input.</p>
+
+<p><strong>Provisioning moves the answer by more than a point.</strong> Inside "other expenses" sits <em>bad and doubtful debts</em> of <strong>₹884 Mn in FY26 against a ₹197 Mn release in FY25</strong> — a swing of over ₹1,080 Mn, or 2.7 points of margin, between two consecutive years. <span class="src">FY26 AR, Note 30.</span> Any comparison of FY25 and FY26 margins that does not account for this is comparing two different things.</p>
+
+<!-- ============================ §6 ============================ -->
+<h2 id="s6"><span class="n">6.</span> How an order becomes revenue — and why that takes years</h2>
+
+<p>Revenue is recognised on <strong>percentage of completion</strong>: as costs are incurred against a contract, a proportionate share of the contract price is booked as revenue, whether or not anything has been invoiced. This is the reason the balance sheet in §10 looks the way it does, and it is flagged as a Key Audit Matter by the auditors.</p>
+
+<p>The annual report states the two clocks directly, and this single sentence does more work than any chart:</p>
+
+<blockquote><strong>"Construction contracts are progressively executed over a period of upto 3.5 years</strong> and based on specific project schedules. <strong>Operation and maintenance contracts are expected to be executed over a period of 1 to 20 years</strong>, primarily invoiced on a monthly basis."<br><span class="src">FY26 AR, Note 23B — transaction price allocated to remaining performance obligations.</span></blockquote>
+
+<p>The elapsed time from a bid to the first rupee of revenue is long and has several gates, each of which has visibly slipped on real projects:</p>
+
+<div class="tw">
+<table>
+<tr><th>Stage</th><th>What has to happen</th><th>Observed duration on named projects</th></tr>
+<tr><td>Bid and technical evaluation</td><td>Priced against the developer's or utility's lifecycle model</td><td>Bid camps run <em>"for weeks or two weeks or months"</em></td></tr>
+<tr><td>Lowest evaluated bidder (L1)</td><td>Publicly announced in Gulf tenders, but is not an award</td><td>Kuwait Doha: L1 on 6-Aug-2025</td></tr>
+<tr><td>Letter of Award</td><td>Client-side approvals, budget release</td><td>Kuwait Doha: LoA <strong>19-Jun-2026</strong> — about ten months after L1</td></tr>
+<tr><td>Contract signature and effectiveness</td><td>Advance payment or letter of credit received</td><td>Kuwait Doha: signed 25-Aug-2026</td></tr>
+<tr><td>Engineering, procurement, construction</td><td>The execution window</td><td>GAIL Pata 24 months · IOCL Panipat 12 months · Pagla 40 months · CIDCO 42 months</td></tr>
+<tr><td>Commissioning and <strong>PGTR</strong></td><td>The plant must hit its guaranteed performance before handover</td><td>IOCL Panipat allows 1 month; Senegal has been in pre-commissioning for roughly four quarters</td></tr>
+<tr><td>O&amp;M period</td><td>Monthly invoicing begins</td><td>GAIL 6 months · Pagla 5 years · BWSSB 10 years · CIDCO 15 years · Kodungaiyur 20 years</td></tr>
+</table>
+<p class="src">Durations from the FY26 Annual Report project reviews and NSE order intimations; L1 and LoA dates from NSE filings and the Q4FY26 and Q1FY27 calls.</p>
+</div>
+
+<p>The Kodungaiyur contract is a useful illustration of the whole shape: a 45 MLD tertiary-treatment plant in Chennai taken on a <strong>refurbish-finance-operate-maintain-transfer basis for twenty years</strong>, of which the annual report elsewhere describes <em>"an 18.5-year O&amp;M contract"</em> — roughly eighteen months of refurbishment followed by eighteen and a half years of monthly invoices. <span class="src">FY26 AR, Board's Report and MD&amp;A. LoA 11-Mar-2026.</span></p>
+
+<div class="box warn">
+<h4>Why the order book grows even when nothing is won</h4>
+<p style="margin:6px 0">The annual report reconciles the backlog for the year, and one line in it is easy to miss:</p>
+<p style="margin:6px 0; font-family:monospace; font-size:13px; line-height:1.9">
+opening 124,837 &nbsp;+&nbsp; orders received 74,708 &nbsp;&minus;&nbsp; revenue recognised 39,084 &nbsp;<strong>+&nbsp; FX movements &amp; order variations 5,773</strong> &nbsp;=&nbsp; closing 166,234 &nbsp;<span class="src">(₹ Mn)</span></p>
+<p style="margin:6px 0"><strong>₹577 cr of FY26's backlog growth came from currency movement and scope variation, not from winning work.</strong> With about half the book denominated in foreign currency, a falling rupee mechanically inflates the order book in rupee terms. <span class="tag inf">MY INFERENCE</span> The same force is at work in §8, and it means the backlog and the forex gain are not independent facts — they have a common cause.</p>
+</div>
+
+<!-- ============================ §7 ============================ -->
+<h2 id="s7"><span class="n">7.</span> 🔴 Reading the numbers (I): the margin percentage is partly a mix artefact</h2>
+
+<p>Nearly every business has one metric that misleads. WABAG has three, and this is the first — the one that is structural rather than circumstantial.</p>
+
+<p>Because construction is passed through at cost, <strong>an EPC-heavy quarter adds revenue and cost in equal measure and no margin at all.</strong> The margin percentage therefore falls when the mix shifts toward construction, even if every project is performing exactly as bid.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 492" role="img" aria-label="Two panels. The upper illustrative panel shows the same design-and-build job with a margin of 15 on revenue of 115, a 13 per cent margin, and the same job taken as EPC with 40 of pass-through civil work added, giving the same margin of 15 on revenue of 155, a 9.7 per cent margin. The lower panel shows the real quarters: Q1FY26 revenue 7,340 less cost of sales 5,230 leaves gross profit 2,110; Q1FY27 revenue 8,868 less cost of sales 6,758 leaves the same gross profit 2,110.">
+  <text x="20" y="26" class="t-md" fill="#1F4E79">Why the margin percentage falls when nothing has gone wrong</text>
+  <text x="20" y="46" class="t" fill="#5a6a78">Construction is passed through at cost. It adds revenue and cost in equal measure, and no margin at all.</text>
+  <rect x="20" y="62" width="920" height="210" rx="8" fill="#fff8e6" stroke="#ecd9a8"/>
+  <text x="36" y="84" class="t-sm" fill="#a2650a">ILLUSTRATIVE — the design-and-build margin is not separately disclosed. The shape is the point, not the numbers.</text>
+  <text x="286" y="126" class="t" text-anchor="end">Design-and-build order</text>
+  <rect x="300" y="100" width="330.0" height="36" fill="#1F4E79"/>
+  <text x="465.0" y="123" class="t" text-anchor="middle" fill="#ffffff">design, equipment, commissioning — 100</text>
+  <rect x="630.0" y="100" width="49.5" height="36" fill="#1a6f4a"/>
+  <text x="687.5" y="123" class="t" fill="#1a6f4a">margin 15</text>
+  <text x="300.0" y="154" class="t-sm" fill="#5a6a78">revenue 115</text>
+  <text x="420.0" y="154" class="t-md" fill="#1F4E79">margin = 13.0%</text>
+  <text x="286" y="202" class="t" text-anchor="end">Same job, taken as EPC</text>
+  <rect x="300" y="176" width="330.0" height="36" fill="#1F4E79"/>
+  <text x="465.0" y="199" class="t" text-anchor="middle" fill="#ffffff">design, equipment, commissioning — 100</text>
+  <rect x="630.0" y="176" width="132.0" height="36" fill="#d0d6dc"/>
+  <text x="696.0" y="199" class="t" text-anchor="middle" fill="#5a6a78">civil, at cost — 40</text>
+  <rect x="762.0" y="176" width="49.5" height="36" fill="#1a6f4a"/>
+  <text x="819.5" y="199" class="t" fill="#1a6f4a">margin 15</text>
+  <text x="300.0" y="230" class="t-sm" fill="#5a6a78">revenue 155</text>
+  <text x="420.0" y="230" class="t-md" fill="#b3261e">margin = 9.7%</text>
+  <text x="36" y="258" class="t" fill="#a2650a">Same work, same profit in rupees, same risk — and a margin percentage more than three points lower.</text>
+  <rect x="20" y="288" width="920" height="188" rx="8" fill="#ffffff" stroke="#d5dce4"/>
+  <text x="36" y="312" class="t-md" fill="#1F4E79">And here is that shape in the actual numbers: Q1FY27 against Q1FY26</text>
+  <text x="36" y="332" class="t-sm" fill="#5a6a78">Consolidated, from the Q1FY27 investor deck. ₹ Mn.</text>
+  <text x="136" y="373" class="t" text-anchor="end">Q1FY26</text>
+  <rect x="150" y="348" width="377.4" height="36" fill="#7aa3c8"/>
+  <text x="338.7" y="371" class="t" text-anchor="middle" fill="#ffffff">cost of sales 5,230</text>
+  <rect x="527.4" y="348" width="152.3" height="36" fill="#1a6f4a"/>
+  <text x="603.6" y="371" class="t" text-anchor="middle" fill="#ffffff">2,110</text>
+  <text x="689.7" y="371" class="t" fill="#5a6a78">rev 7,340</text>
+  <text x="689.7" y="386" class="t-sm" fill="#5a6a78">gross margin 28.7%</text>
+  <text x="136" y="427" class="t" text-anchor="end">Q1FY27</text>
+  <rect x="150" y="402" width="487.7" height="36" fill="#1F4E79"/>
+  <text x="393.9" y="425" class="t" text-anchor="middle" fill="#ffffff">cost of sales 6,758</text>
+  <rect x="637.7" y="402" width="152.3" height="36" fill="#1a6f4a"/>
+  <text x="713.9" y="425" class="t" text-anchor="middle" fill="#ffffff">2,110</text>
+  <text x="800.0" y="425" class="t" fill="#5a6a78">rev 8,868</text>
+  <text x="800.0" y="440" class="t-sm" fill="#5a6a78">gross margin 23.8%</text>
+  <line x1="527.4" y1="348" x2="637.7" y2="456" stroke="#1a6f4a" stroke-dasharray="3 3"/>
+  <text x="36" y="460" class="t-md" fill="#b3261e">Revenue rose 1,528. Cost of sales rose 1,528. Gross profit was 2,110 in both quarters — identical to the million.</text>
+</svg>
+<figcaption>Figure 6 — Why the margin percentage falls when nothing has gone wrong. The upper panel is illustrative and labelled as such: the design-and-build margin is not disclosed, so the widths are chosen to show the shape, not measured. The lower panel is the reported consolidated numbers for Q1FY26 and Q1FY27 from the Q1FY27 deck, drawn to one scale.</figcaption>
+</figure>
+
+<p>The lower panel is not a model. It is the reported consolidated numbers for two quarters:</p>
+
+<ul>
+<li>Revenue rose from ₹7,340 Mn to ₹8,868 Mn — <strong>up ₹1,528 Mn, or 20.8%.</strong></li>
+<li>Cost of sales rose from ₹5,230 Mn to ₹6,758 Mn — <strong>up ₹1,528 Mn.</strong></li>
+<li>Gross profit was <strong>₹2,110 Mn in both quarters</strong>, identical to the million.</li>
+<li>Gross margin therefore fell from 28.75% to 23.79% — <strong>down 495 basis points</strong> — without a single rupee of gross profit being lost.</li>
+</ul>
+
+<p>Management's stated explanation is project mix, and it is specific about which projects: <em>"a majority of the revenues would be EPC. <strong>Our top 5 projects would be largely EPC.</strong>"</em> The named execution-phase jobs are Perur, Pagla and Al Haer — all construction-heavy, all mid-build. <span class="src">Q1FY27 call, 13-Aug-2026.</span></p>
+
+<div class="box red">
+<h4>What this does and does not establish</h4>
+<p style="margin:6px 0"><span class="tag inf">MY INFERENCE</span> The identical gross profit is consistent with the entire revenue increase being zero-margin pass-through work. <strong>It does not prove it</strong>, and I want to be exact about the limit: WABAG does not publish an EP-versus-EPC revenue split, so the increment cannot be decomposed. The CFO said so directly when asked for the quarter's split — <em>"as a project company, it's very difficult to measure every quarter what would be the EP, EPC… even if I give you metrics, it may not be the right representation."</em></p>
+<p style="margin:6px 0">What it does establish is the <strong>direction of the error</strong>: reading a 495bp gross-margin fall as deteriorating project economics assumes the denominator is comparable between the two quarters, and on management's own description of the contract structure, it is not.</p>
+<p style="margin:6px 0">The same logic runs in reverse, and is the part most likely to be forgotten: <strong>a shift toward EP work will raise the margin percentage while adding less revenue.</strong> Growth and margin are partly substitutes in this business, by design.</p>
+</div>
+
+<!-- ============================ §8 ============================ -->
+<h2 id="s8"><span class="n">8.</span> 🔴 Reading the numbers (II): the forex line sits inside EBITDA</h2>
+
+<p>WABAG bills roughly half its revenue in foreign currency. Management includes exchange gains and losses inside the EBITDA it reports and guides to. The audited P&amp;L, by contrast, shows <strong>"Foreign Exchange Gains" as its own line</strong>, above other income — so the two presentations are genuinely different, and the annual report gives the number needed to move between them. <span class="src">FY26 AR, Consolidated Statement of Profit and Loss.</span></p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 436" role="img" aria-label="Paired bars for five quarters showing EBITDA margin as reported against EBITDA margin excluding forex. Reported stays between 12.5 and 14.4 per cent while the ex-forex margin falls from 14.9 per cent in Q1FY26 to 9.0 per cent in Q1FY27.">
+  <text x="20" y="26" class="t-md" fill="#1F4E79">The reported margin, and the same margin without the forex line</text>
+  <text x="20" y="46" class="t" fill="#5a6a78">Both bars are EBITDA over the same revenue. Only the treatment of forex differs. Axis from zero.</text>
+  <rect x="96" y="101.8" width="812" height="13.9" fill="#1a6f4a" opacity="0.12"/>
+  <line x1="96" y1="296.0" x2="908" y2="296.0" stroke="#d5dce4" stroke-dasharray="3 3"/>
+  <text x="88" y="300.0" class="t-sm" text-anchor="end" fill="#5a6a78">0%</text>
+  <line x1="96" y1="240.5" x2="908" y2="240.5" stroke="#d5dce4" stroke-dasharray="3 3"/>
+  <text x="88" y="244.5" class="t-sm" text-anchor="end" fill="#5a6a78">4%</text>
+  <line x1="96" y1="185.0" x2="908" y2="185.0" stroke="#d5dce4" stroke-dasharray="3 3"/>
+  <text x="88" y="189.0" class="t-sm" text-anchor="end" fill="#5a6a78">8%</text>
+  <line x1="96" y1="129.5" x2="908" y2="129.5" stroke="#d5dce4" stroke-dasharray="3 3"/>
+  <text x="88" y="133.5" class="t-sm" text-anchor="end" fill="#5a6a78">12%</text>
+  <line x1="96" y1="74.0" x2="908" y2="74.0" stroke="#d5dce4" stroke-dasharray="3 3"/>
+  <text x="88" y="78.0" class="t-sm" text-anchor="end" fill="#5a6a78">16%</text>
+  <line x1="96" y1="296" x2="908" y2="296" stroke="#8a98a6"/>
+  <rect x="122.2" y="115.3" width="50" height="180.7" fill="#2E75B6"/>
+  <text x="147.2" y="108.3" class="t" text-anchor="middle" fill="#2E75B6">13.0</text>
+  <rect x="182.2" y="89.6" width="50" height="206.4" fill="#1a6f4a"/>
+  <text x="207.2" y="82.6" class="t" text-anchor="middle" fill="#1a6f4a">14.9</text>
+  <text x="177.2" y="317" class="t" text-anchor="middle">Q1FY26</text>
+  <text x="177.2" y="335" class="t-sm" text-anchor="middle" fill="#a2650a">forex -1.9 pt</text>
+  <rect x="284.6" y="95.6" width="50" height="200.4" fill="#2E75B6"/>
+  <text x="309.6" y="88.6" class="t" text-anchor="middle" fill="#2E75B6">14.4</text>
+  <rect x="344.6" y="147.5" width="50" height="148.5" fill="#b3261e"/>
+  <text x="369.6" y="140.5" class="t" text-anchor="middle" fill="#b3261e">10.7</text>
+  <text x="339.6" y="317" class="t" text-anchor="middle">Q2FY26</text>
+  <text x="339.6" y="335" class="t-sm" text-anchor="middle" fill="#a2650a">forex +3.7 pt</text>
+  <rect x="447.0" y="106.9" width="50" height="189.1" fill="#2E75B6"/>
+  <text x="472.0" y="99.9" class="t" text-anchor="middle" fill="#2E75B6">13.6</text>
+  <rect x="507.0" y="120.6" width="50" height="175.4" fill="#b3261e"/>
+  <text x="532.0" y="113.6" class="t" text-anchor="middle" fill="#b3261e">12.6</text>
+  <text x="502.0" y="317" class="t" text-anchor="middle">Q3FY26</text>
+  <text x="502.0" y="335" class="t-sm" text-anchor="middle" fill="#a2650a">forex +1.0 pt</text>
+  <rect x="609.4" y="122.3" width="50" height="173.7" fill="#2E75B6"/>
+  <text x="634.4" y="115.3" class="t" text-anchor="middle" fill="#2E75B6">12.5</text>
+  <rect x="669.4" y="141.6" width="50" height="154.4" fill="#b3261e"/>
+  <text x="694.4" y="134.6" class="t" text-anchor="middle" fill="#b3261e">11.1</text>
+  <text x="664.4" y="317" class="t" text-anchor="middle">Q4FY26</text>
+  <text x="664.4" y="335" class="t-sm" text-anchor="middle" fill="#a2650a">forex +1.4 pt</text>
+  <rect x="771.8" y="114.0" width="50" height="182.0" fill="#2E75B6"/>
+  <text x="796.8" y="107.0" class="t" text-anchor="middle" fill="#2E75B6">13.1</text>
+  <rect x="831.8" y="171.6" width="50" height="124.4" fill="#b3261e"/>
+  <text x="856.8" y="164.6" class="t" text-anchor="middle" fill="#b3261e">9.0</text>
+  <text x="826.8" y="317" class="t" text-anchor="middle">Q1FY27</text>
+  <text x="826.8" y="335" class="t-sm" text-anchor="middle" fill="#a2650a">forex +4.1 pt</text>
+  <rect x="96" y="364" width="12" height="12" rx="2" fill="#2E75B6"/>
+  <text x="114" y="374" class="t">EBITDA margin as reported, forex inside</text>
+  <rect x="452" y="364" width="12" height="12" rx="2" fill="#b3261e"/>
+  <text x="470" y="374" class="t">the same margin with the forex line removed</text>
+  <rect x="96" y="392" width="12" height="12" rx="2" fill="#1a6f4a" opacity="0.30"/>
+  <text x="114" y="402" class="t" fill="#1a6f4a">shaded band = the 13 to 14 per cent FY27 guidance, which is given on the reported basis</text>
+</svg>
+<figcaption>Figure 7 — The reported EBITDA margin and the same margin with the forex line removed, five quarters, both bars over the same revenue and both axes from zero. Computed from the quarterly investor decks; the shaded band is management's FY27 guidance, which is given on the reported basis.</figcaption>
+</figure>
+
+<p>The gap between the blue and red bars is the whole of the disagreement, and it has widened every quarter but one.</p>
+
+<div class="box">
+<h4>Management's case, stated fairly</h4>
+<blockquote style="margin-top:4px">"We don't understand the vocab of margins, excluding forex, if we have more than 52% of the revenues coming from international geographies, the forex gains are going to be there… <strong>we don't have forex loans.</strong> … These are all absolutely transactional. You raise an invoice, you collect the money, you get forex gains. You book a cost, you pay the money, you get forex gains or loss. So these are part and parcel of the business."<br><span class="src">CFO, Q1FY27 call, 13-Aug-2026, replying to Mihir Vyas.</span></blockquote>
+<p style="margin:10px 0 6px"><strong>This argument has real merit and should not be dismissed.</strong> The gains arise from invoices and payments in the ordinary course, not from treasury positions or borrowing in foreign currency. A company earning half its revenue abroad will always have a transaction-exchange line, and excluding it entirely would understate a genuine part of operations.</p>
+<p style="margin:6px 0">The CFO also makes a fair consistency point: <em>"I don't remember that in the last year first quarter somebody adjusted for the forex loss when there was one."</em> Q1FY26 did carry a ₹136 Mn forex <em>loss</em>, and stripping it out <strong>raises</strong> that quarter's margin to 14.9%. The chart above shows both years on both bases for exactly this reason.</p>
+</div>
+
+<p><span class="tag inf">MY INFERENCE</span> Three observations that follow, none of which requires taking a side:</p>
+<ul>
+<li><strong>The line is large relative to profit.</strong> Q1FY27's ₹368 Mn gain compares with ₹901 Mn of PAT. Taxed at the group's ~25% rate, it is roughly 31% of the quarter's profit.</li>
+<li><strong>It is a directional bet on a currency, not a spread.</strong> A transaction gain arises when the rupee falls between invoicing and collection. It is real cash — and it is also <em>not repeatable at a stable exchange rate</em>, which is a different property from the rest of EBITDA. A flat rupee removes it; a rising rupee reverses it, as Q1FY26 shows.</li>
+<li><strong>The guidance is given on the basis that includes it.</strong> FY27 EBITDA guidance is <em>"13% to 14%"</em> reported. On the ex-forex basis the last four quarters have printed 10.7%, 12.6%, 11.1% and 9.0%. <strong>Both statements are true at once</strong>, which is the entire reason this section exists.</li>
+</ul>
+
+<p class="src">Ex-forex EBITDA = management's EBITDA less the forex gain, or plus the loss, shown on the same deck line. The percentages use the same revenue denominator in both cases, so only the numerator changes. Every figure in the chart is computed from the quarterly decks; none is read off a chart image.</p>
+
+<!-- ============================ §9 ============================ -->
+<h2 id="s9"><span class="n">9.</span> 🔴 Reading the numbers (III): the order book is not years of revenue</h2>
+
+<p>The backlog at 30-Jun-2026 was <strong>₹19,394 cr, about 4.9 times FY26 revenue</strong>, and it is the number most often quoted about this company. The trap is arithmetic: <strong>4.9 times revenue is not 4.9 years of revenue</strong>, because the book contains two populations with completely different conversion speeds.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 410" role="img" aria-label="Two horizontal bars on one scale. The EPC backlog of 12,728 crore is 4.4 times the annualised EPC run-rate and its contracts run up to 3.5 years. The O and M backlog of 6,666 crore is 10.5 times the annualised O and M run-rate and its contracts run one to twenty years.">
+  <text x="20" y="26" class="t-md" fill="#1F4E79">One order book, two clocks</text>
+  <text x="20" y="46" class="t" fill="#5a6a78">Backlog at 30-Jun-2026 against the run-rate of that same line of business, annualised from Q1FY27. One scale.</text>
+  <text x="20" y="112" class="t-md" fill="#1F4E79">EPC / Design-Build</text>
+  <text x="20" y="132" class="t-sm" fill="#5a6a78">contracts run up to 3.5 years</text>
+  <rect x="210" y="92" width="646.0" height="34" fill="#c3d7ea" opacity="0.45"/>
+  <rect x="210" y="92" width="646.0" height="34" fill="none" stroke="#1F4E79"/>
+  <rect x="210" y="92" width="147.3" height="34" fill="#1F4E79"/>
+  <text x="283.7" y="114" class="t-sm" fill="#ffffff" text-anchor="middle">1 yr</text>
+  <line x1="357.3" y1="92" x2="357.3" y2="126" stroke="#1F4E79"/>
+  <line x1="504.6" y1="92" x2="504.6" y2="126" stroke="#1F4E79"/>
+  <line x1="651.9" y1="92" x2="651.9" y2="126" stroke="#1F4E79"/>
+  <line x1="799.2" y1="92" x2="799.2" y2="126" stroke="#1F4E79"/>
+  <text x="866.0" y="107" class="t-md" fill="#1F4E79">₹12,728 cr</text>
+  <text x="866.0" y="124" class="t-sm" fill="#1F4E79">4.4 yrs of run-rate</text>
+  <text x="20" y="234" class="t-md" fill="#1F4E79">O&amp;M</text>
+  <text x="20" y="254" class="t-sm" fill="#5a6a78">contracts run 1 to 20 years</text>
+  <rect x="210" y="214" width="338.3" height="34" fill="#c7e4d5" opacity="0.45"/>
+  <rect x="210" y="214" width="338.3" height="34" fill="none" stroke="#1a6f4a"/>
+  <rect x="210" y="214" width="32.3" height="34" fill="#1a6f4a"/>
+  <text x="226.2" y="236" class="t-sm" fill="#ffffff" text-anchor="middle">1 yr</text>
+  <line x1="242.3" y1="214" x2="242.3" y2="248" stroke="#1a6f4a"/>
+  <line x1="274.7" y1="214" x2="274.7" y2="248" stroke="#1a6f4a"/>
+  <line x1="307.0" y1="214" x2="307.0" y2="248" stroke="#1a6f4a"/>
+  <line x1="339.4" y1="214" x2="339.4" y2="248" stroke="#1a6f4a"/>
+  <line x1="371.7" y1="214" x2="371.7" y2="248" stroke="#1a6f4a"/>
+  <line x1="404.0" y1="214" x2="404.0" y2="248" stroke="#1a6f4a"/>
+  <line x1="436.4" y1="214" x2="436.4" y2="248" stroke="#1a6f4a"/>
+  <line x1="468.7" y1="214" x2="468.7" y2="248" stroke="#1a6f4a"/>
+  <line x1="501.1" y1="214" x2="501.1" y2="248" stroke="#1a6f4a"/>
+  <line x1="533.4" y1="214" x2="533.4" y2="248" stroke="#1a6f4a"/>
+  <text x="558.3" y="229" class="t-md" fill="#1a6f4a">₹6,666 cr</text>
+  <text x="558.3" y="246" class="t-sm" fill="#1a6f4a">10.5 yrs of run-rate</text>
+  <line x1="20" y1="330" x2="908" y2="330" stroke="#d5dce4"/>
+  <text x="20" y="356" class="t-md" fill="#1F4E79">Headline: ₹19,394 cr of backlog = 4.9 times FY26 revenue</text>
+  <text x="20" y="378" class="t" fill="#b3261e">But 34 per cent of it is an O and M annuity invoiced monthly for up to twenty years.</text>
+  <text x="20" y="398" class="t" fill="#b3261e">"4.9x revenue" is not "4.9 years of revenue" - and the company has never said it is.</text>
+</svg>
+<figcaption>Figure 8 — The order book against the run-rate of each line of business, drawn to one scale. Backlog from the Q1FY27 deck; contract durations quoted from FY26 AR Note 23B. Annualising a single quarter is crude and is used only to compare the two halves with each other.</figcaption>
+</figure>
+
+<p>Set each half against its own run-rate rather than against total revenue:</p>
+
+<div class="tw">
+<table>
+<tr><th></th><th class="r">Backlog, 30-Jun-2026</th><th class="r">Q1FY27 revenue</th><th class="r">Annualised</th><th class="r">Backlog ÷ run-rate</th><th>Contract length (company's own)</th></tr>
+<tr><td><strong>EPC / Design-Build</strong></td><td class="r">₹12,728 cr</td><td class="r">₹726 cr</td><td class="r">₹2,902 cr</td><td class="r"><strong>4.4×</strong></td><td>up to 3.5 years</td></tr>
+<tr><td><strong>O&amp;M</strong></td><td class="r">₹6,666 cr</td><td class="r">₹159 cr</td><td class="r">₹637 cr</td><td class="r"><strong>10.5×</strong></td><td>1 to 20 years</td></tr>
+<tr><td><strong>Total</strong></td><td class="r">₹19,394 cr</td><td class="r">₹885 cr</td><td class="r">₹3,540 cr</td><td class="r">5.5×</td><td></td></tr>
+</table>
+<p class="src">Backlog from the Q1FY27 deck (EPC ₹127,280 Mn, O&amp;M ₹66,662 Mn). Revenue split from the same deck's segment table (EPC ₹7,256 Mn, O&amp;M ₹1,593 Mn). Contract lengths from FY26 AR Note 23B. Annualising one quarter is crude — Q4 is seasonally the largest — and is used here only to compare the two halves with each other.</p>
+</div>
+
+<p>The two halves behave in opposite ways, and each is misread in its own direction.</p>
+
+<p><strong>The O&amp;M book cannot be accelerated.</strong> A twenty-year contract invoiced monthly converts at one-twentieth a year no matter how well the company executes. This is why O&amp;M revenue grew only 7% year on year while the O&amp;M backlog grew 26% — and the CFO's explanation is structural rather than apologetic: <em>"O&amp;M by structure will grow at this pace because <strong>projects have to be completed for it to move into the O&amp;M phase.</strong>"</em> Ghaziabad and Digha-Kankarbagh moved into O&amp;M during the year; Perur follows next year.</p>
+
+<p><strong>The EPC book, by contrast, implies growth.</strong> At 4.4 times the current EPC run-rate but with contracts that run at most 3.5 years, the EPC backlog cannot be delivered at today's execution rate — <span class="tag inf">MY INFERENCE</span> the arithmetic requires EPC revenue to rise, or the book to age. That is a genuine constraint on the business and it points the opposite way from the O&amp;M reading.</p>
+
+<div class="box warn">
+<h4>The honest summary of the order book</h4>
+<p style="margin:6px 0">A third of the backlog is an <strong>annuity</strong>: long, predictable, low-risk, and slow. Two-thirds is <strong>project work</strong> that must be executed within three and a half years and that carries the construction pass-through of §7. They are different assets with different conversion clocks, and the single 4.9× multiple averages them into a number that describes neither.</p>
+<p style="margin:6px 0">To be fair to the company: <strong>WABAG has never claimed the book equals years of revenue.</strong> It discloses the split, the contract durations and the segment revenue, all of which are used above. The misreading is the reader's to avoid.</p>
+</div>
+
+<!-- ============================ §10 ============================ -->
+<h2 id="s10"><span class="n">10.</span> The counterweight: the balance sheet <em>is</em> the business</h2>
+
+<p>"Asset-light" is said often enough about WABAG that it is worth looking at what the balance sheet actually contains. The CMD's version: <em>"we don't invest in real assets, real estate, buildings, offices. We don't invest in equipment; we don't invest in manufacturing. We are a design technology company, which is all brain here."</em> That is accurate. It is also only half the sentence.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 380" role="img" aria-label="Horizontal bars of balance sheet items. Property, plant and equipment of 632 million is almost invisible beside current trade receivables of 25,236 million, non-current receivables of 6,481 million and unbilled dues of 11,836 million.">
+  <text x="20" y="26" class="t-md" fill="#1F4E79">What is actually on the balance sheet, 31-Mar-2026</text>
+  <text x="20" y="46" class="t" fill="#5a6a78">₹ Mn, consolidated. One scale, from zero.</text>
+  <text x="340" y="95" class="t" text-anchor="end">Property, plant and equipment</text>
+  <rect x="352" y="78" width="11.72" height="24" fill="#8a98a6"/>
+  <text x="371.7" y="95" class="t" fill="#8a98a6">632</text>
+  <text x="340" y="133" class="t" text-anchor="end">Intangible assets</text>
+  <rect x="352" y="116" width="1.20" height="24" fill="#8a98a6"/>
+  <text x="361.2" y="133" class="t" fill="#8a98a6">29</text>
+  <text x="340" y="171" class="t" text-anchor="end">Trade receivables, current</text>
+  <rect x="352" y="154" width="468.00" height="24" fill="#1F4E79"/>
+  <text x="828.0" y="171" class="t" fill="#1F4E79">25,236</text>
+  <text x="340" y="209" class="t" text-anchor="end">Trade receivables, non-current (retentions)</text>
+  <rect x="352" y="192" width="120.19" height="24" fill="#4a7ba7"/>
+  <text x="480.2" y="209" class="t" fill="#4a7ba7">6,481</text>
+  <text x="340" y="247" class="t" text-anchor="end">Unbilled dues from customers</text>
+  <rect x="352" y="230" width="219.50" height="24" fill="#7aa3c8"/>
+  <text x="579.5" y="247" class="t" fill="#7aa3c8">11,836</text>
+  <text x="340" y="285" class="t" text-anchor="end">Cash and bank</text>
+  <rect x="352" y="268" width="196.43" height="24" fill="#1a6f4a"/>
+  <text x="556.4" y="285" class="t" fill="#1a6f4a">10,592</text>
+  <rect x="20" y="316" width="888" height="72" rx="8" fill="#fdeceb" stroke="#f3cfcb"/>
+  <text x="38" y="342" class="t-md" fill="#b3261e">The plant-and-equipment bar is 2.5 per cent of the receivables bar - the sliver at the top.</text>
+  <text x="38" y="362" class="t" fill="#b3261e">Money owed to WABAG - receivables, retentions and unbilled work - totals ₹43,553 Mn:</text>
+  <text x="644" y="362" class="t-md" fill="#b3261e">110% of a year of revenue.</text>
+</svg>
+<figcaption>Figure 9 — The consolidated balance sheet at 31-Mar-2026, one scale, from zero. The plant-and-equipment bar is almost invisible, which is the point: the asset base changed form rather than disappearing.</figcaption>
+</figure>
+
+<p>The CFO completes it, and this is the more useful formulation:</p>
+
+<blockquote>"…as you know we are an asset-light organization, <strong>our only asset is working capital.</strong> And if we do not even invest three months of working capital into the business, how do we even grow?"<br><span class="src">CFO, Q1FY27 call, 13-Aug-2026.</span></blockquote>
+
+<p>The plant and equipment is genuinely negligible — ₹632 Mn, against depreciation of just ₹62 Mn a year and <strong>capital commitments of nil</strong> at both year-ends. <span class="src">FY26 AR, Note 46(b).</span> But receivables, retentions and unbilled work together come to <strong>₹43,553 Mn — 110% of a full year's revenue.</strong> The asset base was not eliminated; it changed form, from plant into money owed.</p>
+
+<p>Four structural exposures follow from the model described in this page. None of them is a forecast; each is a mechanism with a disclosed measurement.</p>
+
+<div class="tw">
+<table>
+<tr><th>Exposure</th><th>Why the mechanism creates it</th><th>Where it is measured</th></tr>
+<tr><td><strong>Percentage-of-completion outruns cash</strong></td><td>Revenue is booked as cost is incurred; invoicing and collection follow later, and retentions are released only at the end</td><td>Unbilled dues ₹11,836 Mn; non-current retentions ₹6,481 Mn. FY26 operating cash flow ₹207 cr against PAT ₹370 cr</td></tr>
+<tr><td><strong>Thin winning margins on fixed-price mega jobs</strong></td><td>Lifecycle-cost bidding is decided on fractions of a per cent, and the jobs are large and long</td><td>Yanbu won by <em>"just 0.27%"</em> (CMD, Aug-2025); Yanbu $272m and Doha are multi-year fixed-price contracts</td></tr>
+<tr><td><strong>Input cost is not fully passed through</strong></td><td>Escalation clauses exist only on long Indian contracts — and are partial</td><td><em>"In international, generally we don't have those clauses… it only covers 70% of our costs, not 100%"</em> (CMD, May-2026)</td></tr>
+<tr><td><strong>The margin band has not been tested at a flat rupee</strong></td><td>Half of revenue is foreign-currency; the forex line is inside the guided margin (§8)</td><td>Ex-forex EBITDA 12.8% (FY25) → 12.1% (FY26) → 9.0% (Q1FY27)</td></tr>
+</table>
+</div>
+
+<p><span class="tag inf">MY INFERENCE</span> The third row is the one least discussed and is a direct consequence of §3. If bids are won on a lifecycle cost computed years before commissioning, and international contracts carry no price-variation clause, then <strong>the estimate of future input costs is itself a competitive variable</strong> — being right about the price of membranes and motors is part of the product.</p>
+
+<p>Against those, the model's genuine defences are equally structural, and the filter in §4 is the source of all of them: net cash of ₹965 cr excluding HAM investments, an AA- rating, fourteen consecutive net-cash quarters, and net working capital that management reports falling from about 130 days to near 100 over three years. <span class="src">Q1FY27 deck and call.</span></p>
+
+<!-- ============================ §11 ============================ -->
+<h2 id="s11"><span class="n">11.</span> Mechanism &rarr; metric</h2>
+
+<p>Each row connects something in this page to a number that can be tracked, and says where that number is published.</p>
+
+<div class="tw">
+<table>
+<tr><th>Mechanism</th><th>Where it shows up</th><th>Latest reading</th><th>Source</th></tr>
+<tr><td>Construction passed through at cost (§2, §7)</td><td>Gross margin, and its gap to revenue growth</td><td>Gross profit ₹2,110 Mn in Q1FY27 and Q1FY26 alike; margin 23.79% vs 28.75%</td><td>Q1FY27 deck, consolidated P&amp;L</td></tr>
+<tr><td>Buyer of equipment, not a maker (§5)</td><td>Material cost as a share of revenue</td><td>₹17,546 Mn = 44.5% of revenue (FY26)</td><td>FY26 AR, Note 25</td></tr>
+<tr><td>Engineers are a fixed cost between projects (§5)</td><td>Employee benefits expense</td><td>₹3,004 Mn = 7.6% of revenue (FY26)</td><td>FY26 AR, Note 27</td></tr>
+<tr><td>Half of revenue billed in foreign currency (§8)</td><td>Forex line, shown separately on the audited P&amp;L</td><td>₹467 Mn (FY26); ₹368 Mn in Q1FY27 alone</td><td>FY26 AR, P&amp;L and Note 24</td></tr>
+<tr><td>Rating is a bidding input, not just a cost (§4)</td><td>Bank charges, distinct from interest</td><td>Bank charges ₹499 Mn vs interest ₹230 Mn (FY26)</td><td>FY26 AR, Note 28</td></tr>
+<tr><td>O&amp;M converts over up to 20 years (§6, §9)</td><td>O&amp;M revenue growth vs O&amp;M backlog growth</td><td>Revenue +7% YoY against backlog +26% YoY</td><td>Q1FY27 deck and call</td></tr>
+<tr><td>EPC must be delivered within 3.5 years (§9)</td><td>EPC backlog ÷ annualised EPC revenue</td><td>4.4× against a ≤3.5-year contract life</td><td>Q1FY27 deck; FY26 AR Note 23B</td></tr>
+<tr><td>Revenue recognised before it is invoiced (§6, §10)</td><td>Unbilled dues from customers</td><td>₹11,836 Mn (from ₹10,330 Mn)</td><td>FY26 AR, Note 11</td></tr>
+<tr><td>Payment-security filter (§4)</td><td>Net cash, and framework contracts held outside backlog</td><td>Net cash ₹965 cr (ex-HAM); framework ₹611 cr carved out</td><td>Q1FY27 deck; FY26 AR Note 23B</td></tr>
+<tr><td>Credit judgement on a long receivable (§5, §10)</td><td>Expected-credit-loss charge inside other expenses</td><td>₹884 Mn charge (FY26) against a ₹197 Mn release (FY25)</td><td>FY26 AR, Notes 7 and 30</td></tr>
+<tr><td>Currency inflates the rupee order book (§6)</td><td>"Effects of FX movements &amp; order variations" in the backlog reconciliation</td><td>+₹5,773 Mn in FY26</td><td>FY26 AR, Note 23B</td></tr>
+</table>
+</div>
+
+<!-- ============================ §12 ============================ -->
+<h2 id="s12"><span class="n">12.</span> What is not disclosed</h2>
+
+<ul>
+<li><strong>🔴 The EP versus EPC revenue split.</strong> The single most useful number for reading §7, and it is not published in any period. Asked directly for the quarter's split, the CFO declined on the grounds that it would not be representative. Without it, the pass-through effect on margin can be described but not sized.</li>
+<li><strong>🔴 Margin by contract type.</strong> The statement that design-build is <em>"better in margin"</em> than EPC is never quantified, in any filing or call.</li>
+<li><strong>Volumes.</strong> Nothing is published in cubic metres or MLD delivered, so there is no revenue-per-unit series and no way to separate price from volume in any segment.</li>
+<li><strong>The O&amp;M margin</strong>, and whether it differs from project margin. O&amp;M is 18% of revenue and 34% of the backlog, and its profitability is not separately reported.</li>
+<li><strong>Project-level profitability of the mega jobs.</strong> Yanbu was won by 0.27% and Doha is of comparable size; neither has a disclosed margin, and segment reporting is by geography rather than by project.</li>
+<li><strong>The split of forex between the two effects.</strong> Transaction gains on receivables and translation of foreign subsidiaries are different things; only the combined P&amp;L line is given. Translation differences of ₹688 Mn sit separately in other comprehensive income, but no reconciliation between them is published.</li>
+<li><strong>How much of the ECL movement is a write-off rather than a P&amp;L reversal.</strong> The FY25 utilisation of ₹864 Mn is not decomposed in the AR, so the extent to which FY25's margin was helped by releases cannot be computed exactly.</li>
+<li><strong>India cluster revenue as a series.</strong> The claim that India was roughly flat in FY26 originated with a questioner at the May-2026 meet and was not disputed by management; it is not re-derivable from the published segment note.</li>
+<li><strong>Win rates and global rankings.</strong> <em>"Top three globally"</em> in desalination and private operation, <em>"more than 1,500 plants since 1995"</em> and <em>"125+ patents and trademarks"</em> are management statements, not independently verified, and the patent count is not itemised anywhere.</li>
+<li><strong>The Norfund municipal platform.</strong> Announced as a non-binding agreement in March 2025 and referred to as close on five subsequent calls. No definitive agreement had been filed as of 23-Sep-2026, and it was not raised on the Q1FY27 call.</li>
+</ul>
+
+<!-- ============================ §13 ============================ -->
+<h2 id="s13"><span class="n">13.</span> Glossary · Sources</h2>
+
+<h3>Glossary</h3>
+<dl class="glos">
+<dt>MLD</dt><dd>Million litres per day — the capacity unit for a water or sewage plant. Perur is 400 MLD; a 45 MLD plant serves a large district.</dd>
+<dt>Desalination / SWRO</dt><dd>Making fresh water from seawater. SWRO is sea-water reverse osmosis: pushing seawater through a membrane at high pressure so that water passes and salt does not.</dd>
+<dt>Membrane</dt><dd>The filter that does the separating. Polymer membranes are standard and are replaced every three to four years; ceramic ones cost more but can be cleaned by firing in a furnace.</dd>
+<dt>Energy recovery device (ERD)</dt><dd>A pump that captures pressure from the reject brine and returns it to the incoming feed. It exists because electricity is the dominant running cost of desalination.</dd>
+<dt>Brine</dt><dd>The concentrated salt stream left over after desalination, returned to the sea.</dd>
+<dt>STP / WTP / ETP</dt><dd>Sewage, water and effluent treatment plant respectively — municipal sewage, drinking water, and industrial waste streams.</dd>
+<dt>TTRO</dt><dd>Tertiary treatment reverse osmosis: polishing already-treated sewage to a standard fit for industrial reuse.</dd>
+<dt>ZLD</dt><dd>Zero liquid discharge — treating an industrial effluent so completely that nothing is released, usually by evaporating the last of it.</dd>
+<dt>UPW</dt><dd>Ultrapure water, with essentially all dissolved salts removed. Required by semiconductor and solar-cell fabrication.</dd>
+<dt>Activated sludge / SBR / MBR</dt><dd>Biological treatment methods in which bacteria consume dissolved organic waste, distinguished by how the bacteria are held and separated afterwards.</dd>
+<dt>Lamella clarifier</dt><dd>A settling tank with stacked inclined plates, used where there is not enough land for a conventional one.</dd>
+<dt>EP · EPC · DB · DBO</dt><dd>Contract scopes — Engineering and Procurement; the same plus Construction; Design-Build; Design-Build-Operate. The presence or absence of the C is what §7 turns on.</dd>
+<dt>RFOMT</dt><dd>Refurbish, finance, operate, maintain and transfer — a concession over an existing plant, as at Kodungaiyur for twenty years.</dd>
+<dt>HAM</dt><dd>Hybrid annuity model: the contractor funds part of the capital and is repaid in instalments over the concession.</dd>
+<dt>Developer</dt><dd>The party that wins a concession, raises the capital and sells the output. In the Gulf, WABAG's customer is often the developer rather than the utility.</dd>
+<dt>Lifecycle cost</dt><dd>Capital cost plus the whole operating cost of a concession period. The basis on which developer-led bids are scored, and therefore the thing WABAG is really competing on.</dd>
+<dt>IE3 / IE4 / IE5</dt><dd>International efficiency classes for electric motors; a higher number means less electricity for the same work, at a higher purchase price. Choosing between them is a lifecycle-cost decision.</dd>
+<dt>L1 / lowest evaluated bidder</dt><dd>The bidder ranked first after technical and commercial evaluation. Publicly announced in Gulf tenders, but not yet an award — the gap has run as long as ten months.</dd>
+<dt>LoA</dt><dd>Letter of Award — the client's formal award, which still precedes contract signature and effectiveness.</dd>
+<dt>PGTR</dt><dd>Performance Guarantee Test Run: the period in which a finished plant must demonstrate its contracted output and quality before handover.</dd>
+<dt>Percentage of completion</dt><dd>Recognising revenue as costs are incurred against a contract, rather than when invoices are raised. The reason unbilled dues exist.</dd>
+<dt>Unbilled dues</dt><dd>Revenue recognised under percentage of completion that has not yet been invoiced to the customer.</dd>
+<dt>Retention</dt><dd>A share of each invoice the customer withholds until the plant has performed for a contracted period. It appears as a non-current receivable.</dd>
+<dt>Framework contract</dt><dd>A signed contract not yet backed by an advance payment or letter of credit. WABAG holds these outside the reported order book.</dd>
+<dt>Performance / advance-payment guarantee</dt><dd>A bank's undertaking to pay the client if the contractor fails. Required to bid; its cost appears as bank charges, not interest.</dd>
+<dt>ECL</dt><dd>Expected credit loss — the provision carried against receivables that may not be collected.</dd>
+<dt>Multilateral funding</dt><dd>Money from the World Bank, ADB, JICA, KfW or AIIB. The payment-security test in §4.</dd>
+</dl>
+
+<h3>Sources</h3>
+<ul>
+<li><strong>Annual Report FY2025-26</strong> (filed with NSE 20-Jul-2026): Consolidated Statement of Profit and Loss and Balance Sheet; Notes 5, 7, 8, 11, 23 (revenue, backlog reconciliation and contract durations), 24, 25 (cost of sales), 27, 28, 30, 46 (contingent liabilities, commitments and guarantees); Board's Report and MD&amp;A project reviews for Perur, Pagla, BWSSB Bommanahalli, CIDCO, GAIL Pata, IOCL Panipat, CPCL and RenewSys; Kodungaiyur RFOMT terms. <strong>Financial notes were extracted by text coordinate, not by layout parsing</strong>, because the standard extraction mis-aligned the label and value columns.</li>
+<li><strong>Earnings-call transcripts (9):</strong> Q1FY27 (13-Aug-2026) · Annual Investor Meet 2026 and Q4FY26 (25-May-2026) · Q3FY26 (6-Feb-2026) · Q2FY26 (10-Nov-2025) · Q1FY26 (13-Aug-2025) · Annual Investor Meet 2025 and Q4FY25 (23-May-2025) · Norfund platform call (21-Mar-2025) · Q3FY25 (11-Feb-2025) · Q2FY25 (8-Nov-2024). The May-2026 investor meet is the source for the lifecycle-cost, developer-market and payment-filter material.</li>
+<li><strong>Investor presentations (7):</strong> Q1FY27, Investor Meet 2026, Q4FY26, Q3FY26, Q2FY26, Q1FY26, Q4FY25. The quarterly consolidated P&amp;L (including the separate forex line), the segment revenue tables and the closing-backlog tables are taken from these. <strong>No figure on this page is read off a chart image.</strong></li>
+<li><strong>NSE filings:</strong> order intimations and award announcements (Yanbu, Kuwait Doha L1 and LoA, Hadda, Al Jouf, Ajman, Vienna, BWSSB, DJB, Reliance Jamnagar), the Kodungaiyur LoA of 11-Mar-2026, and the credit-rating intimation of 4-Feb-2026.</li>
+<li><strong>Screener</strong> consolidated tables, used only to cross-check revenue, PAT and cash flow against the filings.</li>
+<li><strong>ValuePickr</strong> thread #1243, referenced once in §4 on the treatment of bank charges, and labelled as community-sourced.</li>
+</ul>
+
+<hr>
+
+<p class="src"><strong>This page makes no investment judgement.</strong> Valuation, conviction, the weighted-return framework, the delivery scorecard and the risk register live in <a href="https://portfolio-stocks-chi.vercel.app/profile.html?stock=WABAG">Company Profiles/WABAG.md</a>. Built 23-Sep-2026.</p>
+
+</body>
+</html>
