@@ -12,11 +12,22 @@
 > **⤴ CORRECTED 19-Sep-2026 — this caveat no longer holds. KMEW held its first Q1 earnings call on 26-Aug-2026 (Systematix; transcript filed 2-Sep; read in full for this refresh).** *Original text, accurate at 18-Aug:* 🔴 A structural disclosure gap you must hold throughout: KMEW has never held a first-quarter earnings call. Verified across every concall Screener lists (Jun-2023 → Jun-2026) and all 143 NSE filings back to Nov-2024. The cadence is **Jun (Q4/FY), Nov (H1), Feb (Q3)**. **So the largest quarter in company history — Q1FY27, filed 14-Aug-2026 — will not be discussed with shareholders until roughly November.** Management did, however, pre-explain that quarter in detail on the Q4 call. **Six transcripts on disk** (Jun-2023, Nov-2023, Jun-2024, Feb-2026, Jun-2026, **Aug-2026 Q1FY27 — added 19-Sep-2026**); Nov-2024, Feb-2025, Jun-2025 and Nov-2025 produced decks but no transcript.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹2,886** · market cap ₹7,319 cr · P/E 56.5x · ROCE 16.3% · ROE 20.0% · 52-wk high ₹3,222 / low ₹1,084 · **vs ₹2,706 at baseline (+6.7%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 2,997** · market cap ₹ 7,601 Cr. · P/E 58.7x · ROCE 16.3 % · ROE 20.0 % · 52-wk ₹ 3,222 / 1,084 · **vs ₹2,706 at baseline (+10.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">🔴 The profile's 'no Q1 call, ever' caveat is now false: first Q1 call held 26-Aug; FY27 growth potential raised to 'northwards of 60%'; ₹500cr NCD approved 8-Sep; new ₹62cr shipbuilding order; stock +7%</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 🟢 ₹279.33cr 15-year Mumbai Port green-tug charter, and CARE raises the long-term outlook to BBB+/Positive · (earlier in window: 🔴 The profile's 'no Q1 call, ever' caveat is now false: first Q1 call held 26-Aug; FY27 growth potential raised to 'northwards of 60%'; ₹500cr NCD approved 8-Sep; new ₹62cr shipbuilding order; stock +7%)</span></summary>
 <div class="upd-body">
+
+**🟢 19-Sep-2026 — ₹279.33cr work order from Mumbai Port Authority: a 15-year electric green-tug charter**
+KMEW received a Work Order from **Mumbai Port Authority (MbPA)** for *"Chartering of 01 No. 60 Ton Bollard Pull Capacity New Battery Operated Electric Green Tug along with Manning, Operations, Maintenance and Complete Technical Management."* **Term 15 years, value ₹279.33cr including GST.**
+> **Why it matters.** This is the **green-tug thesis converting into a contracted annuity** — roughly ₹18.6cr a year of revenue with operations and technical management bundled in, from a major-port counterparty, on a term long enough to finance against. It extends the chartering model that already underpins the order book.
+> *Not disclosed: the capital cost of the vessel, the delivery date, or whether the tug is already under construction — all of which determine when revenue starts.*
+
+**🟢 21-Sep-2026 — CARE revises the long-term outlook to Positive**
+CARE Ratings **reaffirmed CARE BBB+ and revised the outlook from Stable to Positive** on ₹502.25cr of long-term bank facilities, and reaffirmed **CARE A2** for short-term facilities.
+> **Why it matters.** An outlook change is not an upgrade, but it is the agency signalling the direction of travel, and it comes alongside order wins. **Set against the 19-Sep item** — management calling the company *"fully capitalized"* with promoters *"comfortable at 50% and above"*, then the Board approving **up to ₹500cr of NCDs** on 8-Sep — **a Positive outlook on a ₹502cr facility stack is the agency's view of that same leverage plan.** *Signal: whether the NCDs are drawn, and at what cost.*
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM-LOW (Under Watch), with the evidence base materially improved.** I have now read the 26-Aug Q1FY27 transcript (transcript filed 2-Sep). It **closes the profile's biggest disclosure gap** (Risk 6) and **answers the order-book concern partly**: the bid pipeline is ₹3,500cr+ against ₹2,000cr at June, but the order book itself is ‘more than ₹1,300cr’, still below ₹1,400cr at FY26 exit. **It also opens three tensions:** management said on 26-Aug that the company is *'fully capitalized'* and that promoters are 'comfortable at 50% and above'; on 8-Sep the Board approved up to **₹500cr of NCDs**, and Screener already shows promoter holding at **49.99%**. Guidance moved up (potential 'northwards of 60%' growth against 30-40%) while the near-term dredging order book is ₹240cr, of which ~₹200cr executes this year. The price is +7% to ₹2,886 at 56.5x.
 

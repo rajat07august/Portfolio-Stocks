@@ -10,11 +10,18 @@
 > **📌 A structural event is in progress and shareholders vote on it tomorrow.** The **promoter holding company, ADI BPO Services Limited, is being amalgamated into MPS Limited** under Sections 230–232, with NCLT-convened meetings of equity shareholders and unsecured creditors on **22-August-2026**. **The swap ratio is calibrated to leave public shareholders untouched** — the arithmetic is checked in §5.5(b). **None of this was in the initiation.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹2,667** · market cap ₹4,563 cr · P/E 24.9x · ROCE 38.7% · ROE 29.7% · 52-wk high ₹2,980 / low ₹1,336 · **vs ₹2,898 at baseline (-8.0%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 2,691** · market cap ₹ 4,613 Cr. · P/E 25.2x · ROCE 38.7 % · ROE 29.7 % · 52-wk ₹ 2,980 / 1,336 · **vs ₹2,898 at baseline (-7.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Promoter-holdco merger: shareholders and creditors approved the scheme (22-Aug), NCLT second-motion order taken on record (16-Sep); new company secretary; stock −8%</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 NCLT Chennai passed the Second Motion order (16-Sep) in the ADI BPO amalgamation — shareholder and creditor approvals taken on record · (earlier in window: Promoter-holdco merger: shareholders and creditors approved the scheme (22-Aug), NCLT second-motion order taken on record (16-Sep); new company secretary; stock −8%)</span></summary>
 <div class="upd-body">
+
+**🟢 16-Sep-2026 (filed 19-Sep) — NCLT Chennai passes the Second Motion order in the ADI BPO amalgamation**
+The **NCLT, Division Bench (Court-I), Chennai** passed an order dated **16-Sep-2026** in CP(CAA)/76(CHE)/2026 on the Second Motion Petition for the **Scheme of Amalgamation between ADI BPO Services Limited (Transferor) and MPS Limited (Transferee)**. The Tribunal **took on record the Chairman's reports evidencing approval of the Scheme by the equity shareholders and unsecured creditors** at meetings held on 22-Aug-2026, and **directed service of notices on the statutory and regulatory authorities** for their representations.
+> **Why it matters.** The promoter-entity amalgamation moves to its final procedural stage: shareholder and creditor approval is now judicially recorded, and what remains is the statutory authorities' response before a sanction order. **This is the step that determines the eventual promoter-holding and share-count structure**, so §3.5 and per-share figures depend on it.
+> **🔎 Not yet done:** the Scheme is **not sanctioned** — regulatory representations (RoC, Regional Director, Income Tax, SEBI/exchanges) come first, and the appointed date and share-exchange mechanics take effect only on the final order. *Signal: the sanction order and the effective date.*
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM-HIGH.** The one structural item the profile was tracking moved forward cleanly. **On 22-Aug the equity shareholders approved the amalgamation of ADI BPO Services (the Arora-family holding company) into MPS with 12,394,155 votes for and 50 against**, and the unsecured creditors also approved; the **NCLT Chennai bench's order of 16-Sep took those approvals on record and directed notice to the statutory and regulatory authorities.** No final sanction yet. Nothing changes the operating story (June-quarter revenue ₹224cr, operating margin 34%). The stock is 8% lower at ₹2,667.
 

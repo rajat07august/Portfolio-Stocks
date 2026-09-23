@@ -3,6 +3,24 @@
 **Sector 4 — Chemicals (Diversified & Specialty)** *(dashboard label: "Diversified Chemicals", beside DCM Shriram)*
 **Thesis current as of: 16-Sep-2026 · Tracking since: 16-Sep-2026**
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 496** · market cap ₹ 1,607 Cr. · P/E 22.3x · ROCE 12.9 % · ROE 12.1 % · 52-wk ₹ 545 / 272 · **vs ₹507 at baseline (−2.2%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 16-Sep-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No filings since the profile was written</span></summary>
+<div class="upd-body">
+
+**⚪ 16 → 23-Sep-2026 — No filings on either exchange**
+Swept both feeds: zero announcements.
+> **Why it matters:** nothing yet on the open items — **the ₹30cr of pending warrants, and Units 5/6, already ~18 and ~12 months late across seven timetables.**
+
+*Sweep: NSE + BSE announcements from baseline to 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
+
 | | |
 |---|---|
 | **Codes** | **NSE `SHREEPUSHK`** · **BSE 539334** · ISIN INE712K01011 · CIN L24100MH1993PLC071376 |

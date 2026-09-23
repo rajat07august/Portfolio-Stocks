@@ -7,11 +7,17 @@
 > **How to read this profile:** Every meaningful claim is either sourced from a concall (period noted) or a filing. Aimtron reports H1/H2 not Q1/Q2/Q3/Q4 as it's on the SME platform. This is personal thesis-building, not a buy/sell recommendation.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹1,662** · market cap ₹3,536 cr · P/E 76.9x · ROCE 28.2% · ROE 23.6% · 52-wk high ₹1,800 / low ₹675 · **vs ₹1,313 at baseline (+26.6%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 1,814** · market cap ₹ 3,858 Cr. · P/E 83.9x · ROCE 28.2 % · ROE 23.6 % · 52-wk ₹ 1,865 / 675 · **vs ₹1,313 at baseline (+38.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 19-Sep-2026</span> <span class="upd-sum">Q1FY27 update: revenue +94%, order book ₹604cr; US arm books US$11.8m in Q2 to date; pilot orders from Curtiss-Wright and a test-solutions major; warrants converted; stock +27% to 77x</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 An investor meet was scheduled on 21-Sep and cancelled on 23-Sep, with no reason given · (earlier in window: Q1FY27 update: revenue +94%, order book ₹604cr; US arm books US$11.8m in Q2 to date; pilot orders from Curtiss-Wright and a test-solutions major; warrants converted; stock +27% to 77x)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — Nothing material filed**
+Two filings, both about the same event: an investor meet **scheduled on 21-Sep and then CANCELLED on 23-Sep.** No reason is given in the filing.
+> **Why it matters:** no change to the thesis, the numbers or the open questions in this profile. Recorded so that the gap in the record is a *checked* gap rather than an unchecked one (§0A rule 6).
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at HIGH (data-limited, SME half-yearly reporter).** Since the 3-Jul profile the company has issued a voluntary Q1FY27 business update and four order announcements, all on the constructive side. Two cautions: **the pilot orders are qualification steps with no value (Curtiss-Wright) or a stated *potential* of US$2.6–3.4m (a global test-solutions company)**, and **the stock is +27% to ₹1,662 at 77x**, from ₹1,313 at 59x, so the growth is being paid for in advance. Promoter holding on Screener is 68.63%, down from 70.90%, which fits the warrant-conversion allotments but is not explained in the filings I read.
 

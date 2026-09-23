@@ -18,11 +18,17 @@
 > **📌 And note the anchor: those institutions paid ₹721 on 6 August. The stock is ₹900 today — a 24.8% premium to informed money, in under three weeks.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹1,059** · market cap ₹3,166 cr · P/E 81.3x · ROCE 28.6% · ROE 23.5% · 52-wk high ₹1,100 / low ₹366 · **vs ₹900 at baseline (+17.7%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 1,123** · market cap ₹ 3,356 Cr. · P/E 86.2x · ROCE 28.6 % · ROE 23.5 % · 52-wk ₹ 1,159 / 366 · **vs ₹900 at baseline (+24.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">US subsidiary signs a 36-month sales-representation and utility-approvals agreement covering 19 states (no order, no value); stock +17.7% to ₹1,059 at 81x</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No material filings in the window — zero announcements on the feeds swept · (earlier in window: US subsidiary signs a 36-month sales-representation and utility-approvals agreement covering 19 states (no order, no value); stock +17.7% to ₹1,059 at 81x)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — Nothing material filed**
+Swept **BSE** (544310 — BSE-only): **zero announcements.** Half-yearly reporter; next print ~Nov-2026.
+> **Why it matters:** no change to the thesis, the numbers or the open questions in this profile. Recorded so that the gap in the record is a *checked* gap rather than an unchecked one (§0A rule 6).
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at HIGH (Under Watch — valuation and cash conversion).** One commercial item and it is a channel, not an order: a sales-representation and utility-homologation agreement in the US. **The price is the larger news: +17.7% in three weeks to ₹1,059, 81x trailing earnings**, which makes the profile's valuation watch-item harder to justify holding at HIGH without a matching earnings or order event. The agreement is the second US-channel step after the Widemann/Electrolink partnerships and the US subsidiary already in the profile (Thread C: 'the international channel was built before the product').
 

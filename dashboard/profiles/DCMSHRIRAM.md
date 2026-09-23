@@ -10,11 +10,17 @@
 > **✅ Concall gate CLOSED and verified.** The Q1FY27 call (30-Jul-2026) was machine-transcribed from the company's official audio on 1-Aug under §4A, and **verified line-by-line against the official transcript published 6-Aug-2026.** Every load-bearing figure checked out verbatim — the ECU level, the chlorine price, the ₹376cr MAT credit, the 19% cash-tax rate, the demerger commitment, the 85% chlorine tie-up and the Bioseed quote. **All quotes below are from the official transcript.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹995** · market cap ₹15,516 cr · P/E 11.3x · ROCE 11.5% · ROE 11.5% · 52-wk high ₹1,409 / low ₹945 · **vs ₹1,082 at baseline (-8.0%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 980** · market cap ₹ 15,266 Cr. · P/E 11.1x · ROCE 11.5 % · ROE 11.5 % · 52-wk ₹ 1,409 / 945 · **vs ₹1,082 at baseline (-9.4%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Kota aluminium-extrusion plant commissioned; ICRA AA+/Stable reaffirmed with higher limits; stock −8% toward its 52-week low</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No filings at all on either exchange in the window — verified. The caustic price contradiction stays open to Q2FY27 · (earlier in window: Kota aluminium-extrusion plant commissioned; ICRA AA+/Stable reaffirmed with higher limits; stock −8% toward its 52-week low)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — No filings on either exchange**
+Swept **both NSE and BSE**: zero announcements. A verified negative rather than an unsearched gap.
+> **Why it matters:** **the open caustic-soda contradiction is unresolved and can only be settled by the Q2FY27 disclosure (~Nov-2026)** — management's 30-Jul statement that realisation was *"just below ₹30,000"* (~16% under the Q1 average of ₹35,761) against a market series showing caustic lye up sharply. Nothing filed since bears on it. Price ₹995 → ₹980.
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **Operationally benign, market unkind. Conviction HELD at MEDIUM (Under Watch), no trigger changed.** The only company-specific events are the commissioning of the first of four Q2FY27 projects and a clean ICRA reaffirmation. The stock fell ~8% with no adverse filing behind it, so the move is market, not news. The reported P/E of 11.3x is still flattered by ~₹600cr of prior-year tax credits (§4).
 

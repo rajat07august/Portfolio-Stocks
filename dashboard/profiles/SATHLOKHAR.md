@@ -12,11 +12,18 @@
 > **⚠️ Screener ticker note.** The company is **`SSEGL` on Screener** (`screener.in/company/SSEGL/`); **`SATHLOKHAR` returns HTTP 404.** The initiation profile twice recorded *"Screener data limited for SME"* and wrote its Numbers and Valuation sections without a balance sheet, cash flow or peer set. **The data was always there.** *Same class of error as OBSC and DYNAMATIC.* **SSEGL reports standalone only** — there is no consolidated page.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹413** · market cap ₹1,073 cr · P/E 10.5x · ROCE 36.3% · ROE 30.3% · 52-wk high ₹580 / low ₹283 · **vs ₹313 at baseline (+31.9%)**
+**📍 Live market check — 23-Sep-2026 (Screener, standalone — the consolidated page carries no data):** CMP **₹ 386** · market cap ₹ 1,003 Cr. · P/E 9.77x · ROCE 36.3 % · ROE 30.3 % · 52-wk ₹ 580 / 283
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">PEB plant inaugurated on schedule; confirmed FY27 orders ₹1,139cr (from ₹1,102cr), ₹22,654cr bid pipeline, ~70% growth guidance reaffirmed; new Godrej order ₹44cr; stock +32%</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Business update advertised in Business Standard; 1.7 lakh sq ft PEB factory inaugurated 30-Aug, PEB now ~35% of the order book · (earlier in window: PEB plant inaugurated on schedule; confirmed FY27 orders ₹1,139cr (from ₹1,102cr), ₹22,654cr bid pipeline, ~70% growth guidance reaffirmed; new Godrej order ₹44cr; stock +32%)</span></summary>
 <div class="upd-body">
+
+**🟢 21-Sep-2026 — Business update published in Business Standard**
+The Company published a business update (Business Standard, English edition, 21-Sep-2026) and filed it under Reg 30. It sets out the **order book by business segment, with PEB at ~35%**, describes a diverse base across **industrial, commercial, healthcare, institutional and solar** work, and names as a strategic priority *"Advancing backward integration: Strengthened its backward integration with the successful inauguration of its 1.7 lakh sq. ft. PEB factory on August 30, 2026"* and *"Building a PEB platform."*
+> **Why it matters.** The **PEB factory is commissioned**, which converts a stated capex plan into operating capacity, and PEB is now about a third of the order book — the clearest evidence yet of the shift from pure EPC contracting toward a manufactured-product platform with better margin control.
+> **🔎 Caveat on sourcing: this is a newspaper advertisement, extracted from a scanned page, and some figures did not extract cleanly.** Only the items quoted above are relied on here; **no growth or margin number is taken from it.** The company also filed a **trading-window closure on 23-Sep**, so the H1FY27 print is approaching, and an **analyst meet was scheduled on 18-Sep**.
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM-HIGH.** Both operational commitments the profile tracked landed: the new PEB facility was inaugurated on the fixed date (30-Aug) and the order book rose. Coverage of the ~₹1,399cr revenue implied by 70% growth is now **81%** (₹1,139cr, up from ₹1,102cr on 11-Aug), against ~₹300cr left to win. **The stock, however, is up 32% to ₹413 in five weeks, so the profile's ~+68.5% weighted return at ₹313 compresses to roughly +28% at this price** *(my scaling of the profile's figure, scenarios not re-derived)*. P/E is 10.5x, from 7.9x.
 

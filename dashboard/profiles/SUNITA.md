@@ -7,11 +7,17 @@
 > **Note on sourcing:** Sunita Tools is a very small SME with limited concall history. Only ONE full concall transcript (H1FY25) is available. Financial data extrapolated from investor deck + BSE filings + Screener. Confidence in numbers is moderate; management-tone reading is based on very limited data points. **This profile carries more uncertainty than others in the watchlist.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹1,066** · market cap ₹670 cr · P/E 106x · ROCE 10.1% · ROE 10.8% · 52-wk high ₹1,150 / low ₹553 · **vs ₹741 at baseline (+43.9%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 1,201** · market cap ₹ 754 Cr. · P/E 119x · ROCE 10.1 % · ROE 10.8 % · 52-wk ₹ 1,222 / 553 · **vs ₹741 at baseline (+62.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 19-Sep-2026</span> <span class="upd-sum">₹576cr order book (₹552cr defence) against ₹32cr of four-month sales, all from undisclosed counterparties; three defence MoUs; unnamed 90% acquisition; equity raise approved; stock +44%</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Nothing filed; ₹576cr order book vs ~₹47cr revenue from undisclosed counterparties still stands · (earlier in window: ₹576cr order book (₹552cr defence) against ₹32cr of four-month sales, all from undisclosed counterparties; three defence MoUs; unnamed 90% acquisition; equity raise approved; stock +44%)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — Nothing material filed**
+Swept **BSE** (544001 — BSE-only): **zero announcements.** The 19-Sep flag stands: **a ₹576cr order book against ~₹47cr of FY26 revenue, all from undisclosed counterparties.**
+> **Why it matters:** no change to the thesis, the numbers or the open questions in this profile. Recorded so that the gap in the record is a *checked* gap rather than an unchecked one (§0A rule 6).
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at SPECULATIVE. This profile was written on 3-Jul from one concall and a deck; nine weeks of company disclosures have since added claims that are large relative to the company and thin on verifiable detail.** The consolidated order book is **₹576cr as of 31-Jul, of which ₹552cr is defence, against FY26 revenue of ~₹47cr** *(Screener half-years)*. **Not one of the following is disclosed: the customer for the 155mm shell agreement, its value, the size of the 'advance tranches', the identity of the Indian OEM in the MoU, or the name and price of the 90% acquisition.** The Board also approved raising equity on 14-Aug, and the stock is **+44% to ₹1,066 at 106x**. Nothing here is shown to be false; it is unverified, and the pattern is the one a small-cap SME investor should hold to a higher evidence bar. **New Under-Watch trigger: disclosure of the shell customer and agreement value, or an equity raise priced off the run-up.**
 

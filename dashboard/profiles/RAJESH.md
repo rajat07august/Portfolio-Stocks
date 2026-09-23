@@ -14,11 +14,17 @@
 > **📋 WHAT THIS REFRESH FOUND.** Since the 16-Jul Tier-A refresh: **₹1,165.94cr of new orders in four weeks**; **a first entry into Odisha and a deepened Rajasthan position**; **a CRISIL outlook upgrade**; **a New Zealand subsidiary**; **an Independent Director resigning off four committees**; **two Regulation 29(2) share sales from the promoter side**; and **a share price that has fallen 47% in a year and now trades at 9.90x earnings on a 48.6% return on capital.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹757** · market cap ₹1,364 cr · P/E 9.50x · ROCE 48.6% · ROE 42.9% · 52-wk high ₹1,625 / low ₹750 · **vs ₹791 at baseline (-4.3%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 762** · market cap ₹ 1,373 Cr. · P/E 9.56x · ROCE 48.6 % · ROE 42.9 % · 52-wk ₹ 1,625 / 750 · **vs ₹791 at baseline (-3.7%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">New independent director and MD made Chairman; AGM (24-Sep) seeks Section 185 power to lend to group entities and a ₹500cr Section 186 limit; FY26 annual report: debtor turnover −27%; stock −4%</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No material filings in the window — zero announcements on the feeds swept · (earlier in window: New independent director and MD made Chairman; AGM (24-Sep) seeks Section 185 power to lend to group entities and a ₹500cr Section 186 limit; FY26 annual report: debtor turnover −27%; stock −4%)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — Nothing material filed**
+Swept **BSE** (the only feed — Rajesh is BSE-only): **zero announcements.** A half-yearly reporter, so no print is due; per the §4B inverse rule the filings feed was still swept for orders and news, and there were none.
+> **Why it matters:** no change to the thesis, the numbers or the open questions in this profile. Recorded so that the gap in the record is a *checked* gap rather than an unchecked one (§0A rule 6).
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at HIGH (Under Watch), no trigger change.** The 3-Sep Board partly answers the profile's 'governance layer is thin': a new independent director (Chetash Mehta) and reconstituted committees. It also **combines the Chairman and MD roles in the promoter MD** and puts to the 24-Sep AGM **special resolutions that would let the company lend to, and guarantee loans of, group entities and entities in which directors are interested (Section 185), and lift the investment/loan/guarantee limit (Section 186) to ₹500cr.** The FY26 annual report confirms the working-capital picture the profile already carries: debtor turnover fell from 8.39x to 6.14x (−26.9%). The stock is 4% lower at ₹757 (9.5x).
 

@@ -27,11 +27,17 @@
 > **3. The recapitalisation is now visible in the register.** A Reg 29(2) filing on 11-Aug confirms **59,76,096 equity shares issued by preferential allotment**, with **Chairman & MD Krishan Lalit Bansal's holding falling by more than 2%**; listing and trading approvals came 23-Jul and 28-Jul. **Screener now carries a July-2026 shareholding column: promoter 70.18% → 65.13%, FII 2.17% → 4.67%, DII 10.79% → 14.16%.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹669** · market cap ₹5,032 cr · P/E 61.4x · ROCE 10.7% · ROE 9.31% · 52-wk high ₹760 / low ₹183 · **vs ₹646 at baseline (+3.6%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 711** · market cap ₹ 5,355 Cr. · P/E 65.3x · ROCE 10.7 % · ROE 9.31 % · 52-wk ₹ 760 / 183 · **vs ₹646 at baseline (+10.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">August order update: inflow ₹94cr, executed ₹87cr, book ₹2,436cr (flat); FY27 inflow so far ~₹955–973cr vs ₹2,000cr guide; stock +3.6%</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 AGM held 23-Sep; analyst meet and an Anjar plant visit, no numbers disclosed · (earlier in window: August order update: inflow ₹94cr, executed ₹87cr, book ₹2,436cr (flat); FY27 inflow so far ~₹955–973cr vs ₹2,000cr guide; stock +3.6%)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — Nothing material filed**
+Three filings, all routine: **AGM proceedings (23-Sep)**, an analyst/institutional investor meet, and a **plant visit at Anjar, Gujarat**. No outcome or numbers disclosed.
+> **Why it matters:** no change to the thesis, the numbers or the open questions in this profile. Recorded so that the gap in the record is a *checked* gap rather than an unchecked one (§0A rule 6).
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM-HIGH (Under Watch).** The monthly filing the profile tells you to track came in flat: **closing order book ₹2,435.61cr against ₹2,428.20cr at 1-Aug** (₹2,428.80cr at 31-Jul per the profile), with August inflow of ₹94.18cr against ₹87.37cr executed, roughly 1.08x book-to-bill. **Cumulative FY27 inflow to 31-Aug is ₹955.46cr including amendments (₹972.62cr excluding), about 48% of the ₹2,000cr guide after five of twelve months,** which is on pace. Cumulative execution is ₹461.55cr. Q2FY27 is still the test the profile set. No new governance or balance-sheet filing.
 

@@ -12,11 +12,21 @@
 > **Data note:** consolidated basis throughout. Standalone and consolidated are close for this company (unlike MPS), but consolidated is used everywhere.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹1,494** · market cap ₹15,634 cr · P/E 56.3x · ROCE 17.1% · ROE 12.5% · 52-wk high ₹1,695 / low ₹987 · **vs ₹1,571 at baseline (-4.9%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 1,560** · market cap ₹ 16,342 Cr. · P/E 58.8x · ROCE 17.1 % · ROE 12.5 % · 52-wk ₹ 1,675 / 987 · **vs ₹1,571 at baseline (-0.7%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">USFDA inspection of the Valthera formulation unit closes with one minor, non-GMP observation; Board to consider a bonus share issue on 23-Sep; stock −4.9%</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 🟢 1:1 bonus approved and authorised capital doubled; USFDA closed the Valthera formulation inspection with one minor non-GMP observation · (earlier in window: USFDA inspection of the Valthera formulation unit closes with one minor, non-GMP observation; Board to consider a bonus share issue on 23-Sep; stock −4.9%)</span></summary>
 <div class="upd-body">
+
+**🟢 23-Sep-2026 — Board approves a 1:1 bonus issue and doubles authorised capital**
+The Board approved **bonus shares in the proportion 1:1** — one bonus equity share of ₹1 for every one share held on a record date to be fixed — **by capitalisation of the share premium account**, subject to shareholder approval. Authorised share capital is being raised from **₹11cr (11cr shares of ₹1) to ₹22cr (22cr shares of ₹1)**, with a consequential amendment to the capital clause of the MoA.
+> **Why it matters.** A bonus is **economically neutral** — it changes the share count, not the value of the business, and per-share figures in §4 and §6 will halve on the record date. **What it signals is management's confidence and an intent to improve liquidity**, and it is funded from share premium rather than free reserves. **No record date has been set yet**, and shareholder approval is still pending.
+
+**🟢 18-Sep-2026 — USFDA inspection at the Valthera formulation facility closes with one minor observation**
+The USFDA inspected **Unit II, the Valthera formulation facility (Dholka, Ahmedabad)**. In the company's words the inspection *"has been successfully concluded with one minor procedural observation which is not related to GMP."* A comprehensive response will be filed within the stipulated timeline.
+> **Why it matters.** For a company selling regulated fermentation-derived APIs and formulations into the US, **a clean-ish close on a formulation unit removes a live regulatory tail-risk**. Note the qualifier is the company's own characterisation — the Form 483, if one was issued, is not disclosed, and **an EIR is the actual confirmation**. *Signal: receipt of the Establishment Inspection Report.*
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM.** A clean regulatory result and a corporate-action agenda. **The USFDA inspected Unit II, the Valthera formulation facility, and closed with a single minor procedural observation 'not related to GMP'**; the company will respond in the stipulated time. The Board meets on 23-Sep 'to consider the proposal for declaration of bonus equity shares', subject to shareholders; the ratio is not yet stated. A bonus issue is cosmetic (no change in value per holder) but is a liquidity and retail-appeal signal. Nothing changes the moat, valuation or the Gujarat Themis / MicroBiopharm competitive risk in the profile. The stock is 4.9% lower at ₹1,494 (56x).
 

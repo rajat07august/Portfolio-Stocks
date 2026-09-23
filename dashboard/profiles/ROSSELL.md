@@ -8,11 +8,18 @@
 > **How to read this profile:** Every meaningful claim is either sourced from a concall (quarter noted) or a filing. Where I've made a judgment I've flagged it. Not a buy/sell recommendation.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹1,374** · market cap ₹5,181 cr · P/E 196x · ROCE 11.5% · ROE 15.7% · 52-wk high ₹1,465 / low ₹552 · **vs ₹1,067 at baseline (+28.8%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 1,450** · market cap ₹ 5,462 Cr. · P/E 206x · ROCE 11.5 % · ROE 15.7 % · 52-wk ₹ 1,530 / 552 · **vs ₹1,067 at baseline (+35.9%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">₹300cr preferential issue to SBI Mutual Fund at ₹1,166 (6.39%) approved by the Board — the QIP the profile expected, as a preferential; stock +29% to ₹1,374 at ~196x</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 ₹300cr preferential to SBI Mutual Fund confirmed at ₹1,166 (25,72,898 shares); EGM to approve it on 15-Oct · (earlier in window: ₹300cr preferential issue to SBI Mutual Fund at ₹1,166 (6.39%) approved by the Board — the QIP the profile expected, as a preferential; stock +29% to ₹1,374 at ~196x)</span></summary>
 <div class="upd-body">
+
+**🟡 18-Sep-2026 (EGM notice 22-Sep) — The ₹300cr preferential is to SBI Mutual Fund, at ₹1,166, with an EGM on 15-Oct**
+The Board approved issuing **25,72,898 equity shares of ₹2 at ₹1,166 each (premium ₹1,164), aggregating ₹299,99,99,068**, on a preferential private-placement basis to **SBI Mutual Fund and SBI Optimal Equity Fund** (non-promoter category), under Sections 42 and 62(1)(c) and ICDR Chapter V. An **Extraordinary General Meeting is convened for 15-Oct-2026** to approve it; the notice was advertised 23-Sep.
+> **Why it matters.** Naming the allottee matters: **a large domestic mutual fund taking a ₹300cr block is an institutional validation** of a name whose institutional ownership has been thin, and it is primary capital into the company rather than a secondary sale. It is **non-promoter**, so the promoter stake dilutes.
+> **🔎 Against valuation, stay honest:** the 19-Sep entry recorded the stock **+29% in five weeks at roughly 196x earnings**, and ₹1,166 is **below the market price** — so the fund is buying at a discount to where minorities trade, and existing holders are diluted at that level. **The use of proceeds is not disclosed in the outcome filing.** *Signals: EGM approval, allotment, use of funds, and whether a lock-in is disclosed.*
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM (Under Watch).** The dilution the profile listed as pending arrived on 18-Sep, and in a friendlier form than feared: **25,72,898 shares at ₹1,166 (₹299.99cr) to SBI Mutual Fund and SBI Optimal Equity Fund, both QIBs, 6.39% of the post-issue capital**, subject to shareholders (EGM 15-Oct) and exchange approvals. Promoters do not participate, so their 74.80% falls to roughly 70% *(my arithmetic)*. **The issue price is 9% above the ₹1,067 the profile used and 15% below today's ₹1,374, because the stock has run 29% in five weeks.** At a Screener P/E of ~196x the raise is priced richly for the company and the buyer is a domestic long-only institution, which is a quality-of-investor positive. Use of proceeds is in the filing annexure and was not extracted.
 

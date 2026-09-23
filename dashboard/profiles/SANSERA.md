@@ -11,11 +11,17 @@
 > **📋 WHAT THIS REFRESH FOUND, IN ONE BOX.** v1 was written 3-Jul-2026 and is 9.7 KB. It predates the Q1FY27 print, the ADS order-book step-up, and **a four-event management and board reconstruction that ran from 27-Jul to 24-Aug-2026.** It also carried four factual errors that are corrected in place below: a wrong FY25 revenue base (and therefore a wrong growth rate), a wrong FY26 EBITDA level, **an assertion that Sansera manufactures in the United States — it does not and never has**, and a dashboard claim of a **₹160cr Airbus Defence & Space contract that appears in no filing and no transcript.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹4,260** · market cap ₹26,583 cr · P/E 71.4x · ROCE 14.5% · ROE 11.8% · 52-wk high ₹4,300 / low ₹1,364 · **vs ₹3,815 at baseline (+11.7%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 4,621** · market cap ₹ 28,764 Cr. · P/E 77.2x · ROCE 14.5 % · ROE 11.8 % · 52-wk ₹ 4,744 / 1,364 · **vs ₹3,815 at baseline (+21.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 26-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">No company event beyond the FY26 annual report; the Jun-2026 promoter decline is still unexplained; stock +11.7% to ₹4,260 at 71x</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 26-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Routine ESOP allotment and meet schedules; June's 0.89pp promoter-holding fall still unexplained · (earlier in window: No company event beyond the FY26 annual report; the Jun-2026 promoter decline is still unexplained; stock +11.7% to ₹4,260 at 71x)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — Nothing material filed**
+Three routine filings: **allotment of 14,189 shares under ESOP**, a trading-window closure, and an investor-meet schedule. **The 0.89pp of promoter holding that vanished in the June quarter with no filing to explain it is still unexplained.**
+> **Why it matters:** no change to the thesis, the numbers or the open questions in this profile. Recorded so that the gap in the record is a *checked* gap rather than an unchecked one (§0A rule 6).
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM (Under Watch).** The Under-Watch trigger is the unexplained Jun-2026 fall in promoter holding (30.10% → 29.21%). **No Reg 29(2) or other disclosure explaining it appears on the BSE or NSE feed since 26-Aug.** The FY26 annual report (2-Sep) is filed and **not read for this refresh**; it may shed light. The stock is up 11.7% to ₹4,260, right at its ₹4,300 52-week high, at 71x.
 

@@ -12,11 +12,18 @@
 > **🎯 This name carries a live Under Watch trigger with four named conditions, set at the Q1FY27 review and testable at Q2FY27 (~Nov-2026). It is in §5.5(a).**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹409** · market cap ₹5,488 cr · P/E 13.1x · ROCE 33.6% · ROE 20.0% · 52-wk high ₹801 / low ₹401 · **vs ₹467 at baseline (-12.4%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 489** · market cap ₹ 6,565 Cr. · P/E 15.7x · ROCE 33.6 % · ROE 20.0 % · 52-wk ₹ 772 / 401 · **vs ₹467 at baseline (+4.7%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Quiet interval: no order or governance filing beyond the FY26 annual report and investor meets; stock −12% to ₹409, at its 52-week low</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 🟢 Conductor capacity +70%, 24,000 → 40,800 km/annum, Silvassa Phase 1 complete — delivering on the Jan/May-2025 intimations · (earlier in window: Quiet interval: no order or governance filing beyond the FY26 annual report and investor meets; stock −12% to ₹409, at its 52-week low)</span></summary>
 <div class="upd-body">
+
+**🟢 21-Sep-2026 — Conductor capacity raised 70%: 24,000 → 40,800 km per annum**
+**Phase 1 of the brownfield expansion at Silvassa is complete**, taking installed conductor manufacturing capacity from **24,000 km/annum to 40,800 km/annum (+70%)**. The company frames it as strengthening *"execution efficiencies and capacity to cater to growing markets."* The filing is explicitly *"in continuation of the earlier intimations … dated January 15, 2025 and May 23, 2025."*
+> **Why it matters.** Backward integration into towers and conductors is the structural argument for Transrail over a pure T&D contractor — it protects margin and delivery dates when conductor supply tightens. **Raising that capacity 70% directly supports the order book** and reduces dependence on third-party conductor supply at exactly the point where Indian T&D ordering is heavy.
+> **🟢 And it is a delivery item, not just news:** a capacity commitment made in **January 2025** has been completed and reported. **Add it to the §3.5 scorecard as delivered.** *What is not disclosed: the capex spent, Phase 2 timing, or the revenue the extra 16,800 km is expected to carry.*
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM-HIGH (Under Watch).** No new order, results, QIP or management filing since 13-Aug; only the FY26 annual report (2-Sep), a dividend tax notice and investor-meet schedules (18 and 21-Sep). The stock fell 12% to ₹409, within 2% of its ₹401 52-week low, at 13.1x trailing earnings. **On the profile's own arithmetic the weighted return rises from +29.5% at ₹467 to roughly +48% at ₹409** *(my scaling; scenarios not re-derived)*. The Under-Watch items (order inflow against the ₹10,000cr guide, the QIP and the Burberry loan repayment due Sep-2026) remain open; none resolved in the exchange feed.
 

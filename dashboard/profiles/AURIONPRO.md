@@ -9,11 +9,17 @@
 > **📌 What this update is.** The 28-Jul-2026 refresh downgraded the stock on the Q1FY27 *numbers* alone, and left one instruction in the file: *"Q1FY27 transcript — read as soon as it files. Highest-value pending input."* It filed on 3-Aug-2026. This profile is built on it. **The single most consequential thing on that call is not a number — it is that management has withdrawn guidance entirely** (§3.5, §5.5). The 28-Jul watch item asked whether the FY27 bands would be *revised down*; the answer is that they no longer exist.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹686** · market cap ₹3,789 cr · P/E 18.1x · ROCE 16.3% · ROE 13.4% · 52-wk high ₹1,247 / low ₹663 · **vs ₹696 at baseline (-1.4%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 689** · market cap ₹ 3,811 Cr. · P/E 18.2x · ROCE 16.3 % · ROE 13.4 % · 52-wk ₹ 1,247 / 663 · **vs ₹696 at baseline (-1.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Integro Lending named category leader in five Chartis 2026 quadrants; FY26 annual report filed; no order or governance event; stock −1.4% at 18x</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Nothing filed; the SEBI PIT show-cause notice remains open · (earlier in window: Integro Lending named category leader in five Chartis 2026 quadrants; FY26 annual report filed; no order or governance event; stock −1.4% at 18x)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — Nothing material filed**
+Swept both NSE and BSE: **zero announcements.** The **SEBI PIT show-cause notice** disclosed in May-2026 remains the open governance item, with no further filing on it.
+> **Why it matters:** no change to the thesis, the numbers or the open questions in this profile. Recorded so that the gap in the record is a *checked* gap rather than an unchecked one (§0A rule 6).
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM (Under Watch).** The only content item is an analyst-recognition press release: **Integro Lending was named a category leader across five lending-technology quadrants in the Chartis 2026 report** (28-Aug). It is marketing evidence of product standing rather than orders or revenue. The FY26 annual report (5-Sep) is filed and **not read for this refresh**, which matters because the profile's Under-Watch items (the SEBI PIT show-cause notice, cash conversion) may be updated there. The stock is 1.4% lower at ₹686 (18x).
 

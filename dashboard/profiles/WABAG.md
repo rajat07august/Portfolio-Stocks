@@ -3,6 +3,24 @@
 **Sector 16 — Water Infrastructure** *(dashboard label: "Water / Civil / Marine Infra", shared with ECL)*
 **Thesis current as of: 18-Sep-2026 · Tracking since: 18-Sep-2026**
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 2,049** · market cap ₹ 12,801 Cr. · P/E 32.1x · ROCE 21.3 % · ROE 15.9 % · 52-wk ₹ 2,320 / 1,033 · **vs ₹2,110 at baseline (-2.9%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Sep-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No filings since the profile was written</span></summary>
+<div class="upd-body">
+
+**⚪ 18 → 23-Sep-2026 — No filings on either exchange**
+Swept both NSE and BSE: zero announcements.
+> **Why it matters:** nothing bears on the open questions — **Q2FY27 EBITDA excluding forex against the 12.5% mark, H1 cash flow, the Norfund platform still unsigned after 18 months, and the Hadda award.**
+
+*Sweep: NSE + BSE announcements from baseline to 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
+
 | | |
 |---|---|
 | **Codes** | **NSE `WABAG`** · **BSE 533269** · ISIN INE956G01038 · CIN L45205TN1995PLC030231 |

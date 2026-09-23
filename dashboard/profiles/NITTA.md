@@ -15,11 +15,17 @@
 > **📋 AND A PLAIN STATEMENT ABOUT THIS PASS: the filing sweep found nothing new.** The last BSE filing is **7-Aug-2026** — five days before the previous refresh. **No new results, no new Reg-30 items, no corporate actions.** ***This conversion therefore restructures and re-verifies rather than discovers, and the metrics have moved in the company's favour without any news to explain it.***
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹1,711** · market cap ₹1,554 cr · P/E 15.0x · ROCE 27.7% · ROE 21.0% · 52-wk high ₹2,088 / low ₹765 · **vs ₹1,573 at baseline (+8.8%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 1,730** · market cap ₹ 1,569 Cr. · P/E 15.1x · ROCE 27.7 % · ROE 21.0 % · 52-wk ₹ 2,088 / 765 · **vs ₹1,573 at baseline (+10.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Kerala-government nominee director appointed via postal ballot; nothing else filed; stock +8.8% to ₹1,711</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Routine newspaper notice on dematerialisation of physical shares · (earlier in window: Kerala-government nominee director appointed via postal ballot; nothing else filed; stock +8.8% to ₹1,711)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — Nothing material filed**
+Swept **BSE** (506532 — NSE's feed carries nothing for NITTAGELA): one filing, a **newspaper advertisement about a special window for transfer and dematerialisation of physical shares.** Routine. Nitta holds no earnings calls, so the filings feed is the only channel.
+> **Why it matters:** no change to the thesis, the numbers or the open questions in this profile. Recorded so that the gap in the record is a *checked* gap rather than an unchecked one (§0A rule 6).
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM-HIGH (Under Watch).** The one filing is the result of a postal ballot on 8-Sep approving **Mr. Arun K. Vijayan, IAS, as Nominee Director** (an ordinary resolution). Every trigger in the profile is dated to the Q2FY27 print. The stock is up 8.8% to ₹1,711 with no company disclosure, at 15x trailing earnings against a ₹2,088 52-week high. The company holds no earnings calls, so the next evidence is the half-year result.
 

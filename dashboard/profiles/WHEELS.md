@@ -13,11 +13,27 @@
 > **And the thing the downgrade actually feared — dilution with promoters standing aside — has happened in reverse.** On **19-Aug-2026** the board approved a **₹180cr preferential issue in which every single allottee is a promoter**, taking promoter holding **UP from 58.31% to ~60.4%**. ⤴ **UPDATE 31-Aug/17-Sep-2026: the price was raised to ₹1,461 on NSE's valuation observations (same ₹180cr, 12,32,031 shares), and the EGM approved it with 99.99% of votes. The stock has since run to ₹2,176, so the issue is now ~33% below market. See the refresh block.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹2,176** · market cap ₹5,316 cr · P/E 32.5x · ROCE 18.8% · ROE 15.8% · 52-wk high ₹2,500 / low ₹705 · **vs ₹1,513 at baseline (+43.8%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 2,240** · market cap ₹ 5,465 Cr. · P/E 33.4x · ROCE 18.8 % · ROE 15.8 % · 52-wk ₹ 2,500 / 705 · **vs ₹1,513 at baseline (+48.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Stock +44% in four weeks to ₹2,176 with an NSE price query and no disclosed cause; promoter preferential issue repriced to ₹1,461 and approved at the EGM</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Promoter preferential COMPLETED — 12,32,031 shares at ₹1,461 for ₹180cr; TSF Investments 25.01% → 27.81%, priced ~33% below market · (earlier in window: Stock +44% in four weeks to ₹2,176 with an NSE price query and no disclosed cause; promoter preferential issue repriced to ₹1,461 and approved at the EGM)</span></summary>
 <div class="upd-body">
+
+**🟡 21-Sep-2026 — The promoter preferential allotment is done: ₹180cr at ₹1,461, promoter stake up ~2.8pp**
+The Board allotted **12,32,031 equity shares of ₹10 at ₹1,461 each (premium ₹1,451), aggregating ₹179,99,97,291**, completing the issue first intimated on 19-Aug and 31-Aug-2026:
+
+| Allottee | Shares | Consideration | Holding: pre → post |
+|---|---|---|---|
+| **TSF Investments Limited** | 10,26,694 | ₹150.00cr | **25.01% → 27.81%** |
+| Mr. Srivats Ram | 1,02,669 | ₹15.00cr | 0.87% → 1.23% |
+| Ms. Nivedita Ram | 51,334 | ₹7.50cr | 1.14% → 1.28% |
+| Ms. Gita Ram | 51,334 | ₹7.50cr | 0.13% → 0.32% |
+
+> **Why it matters.** ₹180cr of **promoter money into the balance sheet** at a time when the conversion business is absorbing capex — unambiguously a commitment of the family's own capital, and the stake rises rather than dilutes.
+> **🔴 But read the price against the market.** The issue price of **₹1,461 is the level repriced after NSE's observations**, and it is **roughly 33% below the ~₹2,176 the stock reached** during the unexplained +44% run flagged on 19-Sep. The price was fixed by the SEBI ICDR formula off an earlier reference period, so **this is mechanical rather than improper** — but the economic result is that **insiders have subscribed well below the prevailing market price**, and minority holders are diluted at that level. **No filing has yet explained the +44% move itself.**
+> *Signals: whether the stock holds these levels, and whether any explanation of the run is ever given.*
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM-HIGH (Under Watch) on the business — but the profile's own return arithmetic no longer supports the price.** The 22-Aug upgrade was made at ₹1,513 with a base-case value of ₹1,653 and a bull case of ₹2,574. **At ₹2,176 the stock sits 32% above the base case and 15% below the bull case.** On the profile's unchanged scenarios and probabilities the weighted two-year return moves from +17% to roughly **−19%** *(my arithmetic on the profile's scenario values, not a re-derivation)*. Nothing filed explains the move: the company told NSE on 10-Sep there is no undisclosed price-sensitive information. **New Under-Watch trigger: price above the base-case value with no change in the earnings path.**
 

@@ -11,11 +11,18 @@
 > **🔴 WHAT THIS REFRESH FOUND.** Since 28-Jul the company has: **reported a loss-making record quarter**; **had shareholders approve the ₹2,256cr Akkodis divestment (27-Jul)**; **replaced an Independent Director (11-Aug)**; and **agreed to buy 90% of a Bengaluru precision manufacturer for ₹234cr in cash (28-Aug)**. **Most importantly, it has now published four mutually inconsistent figures for how much cash the divestment actually delivers — ₹2,256cr, ₹1,685cr, ~₹910–920cr and ₹715cr — and no one has asked it to reconcile them.** ⤴ **It also corrects a market-cap error — located precisely, because my first draft of this profile blamed the wrong part of the file.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹1,811** · market cap ₹7,704 cr · P/E 235x · ROCE 3.57% · ROE 4.06% · 52-wk high ₹2,211 / low ₹1,061 · **vs ₹1,624 at baseline (+11.5%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 1,940** · market cap ₹ 8,252 Cr. · P/E 252x · ROCE 3.57 % · ROE 4.06 % · 52-wk ₹ 2,211 / 1,061 · **vs ₹1,624 at baseline (+19.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Cloud Wave acquisition COMPLETED 10-Sep (₹234cr, funded by up to ₹200cr of 12.5% NCDs); Phase 1 Akkodis close still not filed 18 days past target; promoter releases part of a pledge; stock +11.5%</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Akkodis AXISCADES Aerospace Engineering incorporated 22-Sep — while the Phase 1 divestment cash is now 3 weeks overdue with no completion filing · (earlier in window: Cloud Wave acquisition COMPLETED 10-Sep (₹234cr, funded by up to ₹200cr of 12.5% NCDs); Phase 1 Akkodis close still not filed 18 days past target; promoter releases part of a pledge; stock +11.5%)</span></summary>
 <div class="upd-body">
+
+**🟡 22-Sep-2026 — "Akkodis AXISCADES Aerospace Engineering Private Limited" incorporated in India**
+In continuation of a 12-Jun-2026 intimation, the Company has **incorporated a subsidiary named AKKODIS AXISCADES AEROSPACE ENGINEERING PRIVATE LIMITED** on 22-Sep-2026.
+> **Why it matters — and why it sharpens rather than settles the open question.** The §9 open item is that **the Akkodis divestment proceeds have never been bridged** across four incompatible figures, and that **Phase 1 was due to close 31-Aug-2026 with no completion filing.** That is now **more than three weeks overdue and still unfiled.** Meanwhile the company has incorporated a **new India entity carrying the Akkodis name jointly with its own**, which implies an ongoing commercial relationship with the buyer rather than a clean exit.
+> **🔎 Stated as unknown, because it is:** the filing gives **no shareholding split, no capital, no indication whether Akkodis is a co-shareholder or this is merely a brand-linked wholly-owned entity**, and no connection is drawn to the divestment. **Whether this is part of the transaction consideration, a services arrangement, or unrelated, cannot be determined from what has been filed.** *Signals: the Phase 1 completion filing, the subsidiary's shareholding pattern in the H1FY27 accounts, and any related-party disclosure.*
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM (Under Watch).** The acquisition the profile expected by 30-Sep closed on 10-Sep, three weeks early. **It was financed with up to ₹200cr of unrated, unlisted, secured debentures at 12.50% a year, tenor up to five years**, while the ₹190cr-odd Phase 1 divestment cash the profile was waiting on **has still not been reported as received** (target was 31-Aug; no completion filing through 18-Sep). Those two facts sit side by side and are unreconciled. The stock rose 11.5% to ₹1,811 on a 3.6% ROCE and a reported 235x P/E. No change to the trigger, but the Phase 1 date is now 18 days late.
 

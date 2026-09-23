@@ -14,11 +14,17 @@
 > **Concall gate: 🟡 ONE CALL A YEAR.** OBSC holds a single earnings call, after the annual results. The most recent is **Q4FY26, 21-May-2026** (57,585 characters). **There is no Q1FY27 call.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹930** · market cap ₹2,404 cr · P/E 76.4x · ROCE 19.5% · ROE 19.6% · 52-wk high ₹1,030 / low ₹270 · **vs ₹790 at baseline (+17.7%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 953** · market cap ₹ 2,462 Cr. · P/E 78.3x · ROCE 19.5 % · ROE 19.6 % · 52-wk ₹ 1,030 / 270 · **vs ₹790 at baseline (+20.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">₹86.5cr preferential issue allotted at ₹601 (35% below the new ₹930 price); AS9100D aerospace certification recommended; non-binding New Mexico MoU; ₹31.4cr five-year order; stock +18%</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Nothing filed; the 50% → 71% raw-material jump remains unexplained · (earlier in window: ₹86.5cr preferential issue allotted at ₹601 (35% below the new ₹930 price); AS9100D aerospace certification recommended; non-binding New Mexico MoU; ₹31.4cr five-year order; stock +18%)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — Nothing material filed**
+Swept **NSE-SME (OBSCP)**: **zero announcements.** The open question from 19-Sep is untouched — **raw materials jumped from 50% to 71% of sales in FY26 and remain unexplained.**
+> **Why it matters:** no change to the thesis, the numbers or the open questions in this profile. Recorded so that the gap in the record is a *checked* gap rather than an unchecked one (§0A rule 6).
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM.** The dilution the profile flagged on 5-Aug has now been executed: the EGM approved it on 2-Sep and **14,39,600 shares were allotted at ₹601 on 11-Sep (₹86.52cr, post-issue 2,72,85,200 shares).** With the stock at ₹930 the issue price is **35% below market**, against the 24% discount the profile cited at ₹790. On the operating side the AS9100D recommendation opens the aerospace door the thesis needs, and a ₹31.4cr five-year machined-parts order was won; the New Mexico MoU is non-binding. **The stock's +18% since 13-Aug at 76x P/E means the price is running ahead of the operating milestones.**
 

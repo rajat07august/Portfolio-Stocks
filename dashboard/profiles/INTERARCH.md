@@ -10,11 +10,17 @@
 > **📌 Basis note: Interarch reports STANDALONE only.** Screener's consolidated page is empty and the board resolution reads *"Standalone Unaudited Financial Results"*. **Every figure in this profile is standalone.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹1,706** · market cap ₹2,869 cr · P/E 21.0x · ROCE 23.7% · ROE 16.8% · 52-wk high ₹2,763 / low ₹1,600 · **vs ₹1,690 at baseline (+0.9%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 1,693** · market cap ₹ 2,847 Cr. · P/E 20.8x · ROCE 23.7 % · ROE 16.8 % · 52-wk ₹ 2,763 / 1,600 · **vs ₹1,690 at baseline (+0.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">🔴 OMISSION CORRECTED: the profile never carried the August-2025 income-tax search; a block-assessment notice for 2019-2025 was received 15-Sep with documents due 29-Sep; conviction moved to Under Watch</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Nothing filed — but the 29-Sep income-tax document deadline is live and undisclosed · (earlier in window: 🔴 OMISSION CORRECTED: the profile never carried the August-2025 income-tax search; a block-assessment notice for 2019-2025 was received 15-Sep with documents due 29-Sep; conviction moved to Under Watch)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — Nothing material filed**
+Swept both NSE and BSE: **zero announcements.** ⚠️ **The live item is a deadline, not a filing: documents under the Section 142(1) notice in the income-tax block assessment were due 29-Sep-2026.** Nothing has been filed about it, and the outcome has never been disclosed.
+> **Why it matters:** no change to the thesis, the numbers or the open questions in this profile. Recorded so that the gap in the record is a *checked* gap rather than an unchecked one (§0A rule 6).
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM-HIGH, now UNDER WATCH — because of a fact the profile should have carried from the start.** The Income Tax Department **searched the company's offices and factories on 18-Aug-2025 (completed 22-Aug-2025)**; on 29-Jan-2026 the company, **together with certain Key Managerial Personnel and Senior Management Personnel, received a Section 158BC notice** requiring a return of undisclosed income for the **block period 1-Apr-2019 to 17-Oct-2025**; and on **15-Sep-2026 it received a Section 142(1) notice, dated 14-Sep, calling for accounts, documents and issue-wise explanations by 29-Sep-2026 for Assessment Years 2020-21 to 2025-26.** **None of this appears in the profile, which was initiated on 12-Aug-2026, a year after the search.** The company states that the notices are procedural, that **no tax demand, penalty or adverse order has been passed**, and that it is fully compliant. The 15-Sep notice 'does not determine any undisclosed income and does not raise any demand'. **New Under-Watch trigger: any assessment order that determines undisclosed income, or any action against a KMP or SMP.** Operating story and price (₹1,690 → ₹1,706, 21.0x) are unchanged.
 

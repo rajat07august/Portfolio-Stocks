@@ -13,11 +13,17 @@
 > **📌 And the stock is up 28% since that refresh** — ₹4,364 on 28-Jul to **₹5,601** today, **1.3% below its 52-week high and 156% above its low.** Every one of the four watch items the refresh set has resolved *favourably on operations*. The expected return has still gone from **+21% to roughly zero**, because the price moved further than the news did.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹4,664** · market cap ₹27,729 cr · P/E 106x · ROCE 37.5% · ROE 32.8% · 52-wk high ₹5,813 / low ₹2,920 · **vs ₹5,601 at baseline (-16.7%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 4,736** · market cap ₹ 28,168 Cr. · P/E 108x · ROCE 37.5 % · ROE 32.8 % · 52-wk ₹ 5,813 / 2,920 · **vs ₹5,601 at baseline (-15.4%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Stock −17% to ₹4,664, now below the ₹4,790 QIP price; QIP press release confirms the proceeds are for working capital, not capex; nothing else filed</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 AGM passed cleanly; ESG rating and meet schedule · (earlier in window: Stock −17% to ₹4,664, now below the ₹4,790 QIP price; QIP press release confirms the proceeds are for working capital, not capex; nothing else filed)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — Nothing material filed**
+Four filings, none price-sensitive: **AGM proceedings and voting results (19/20-Sep — all resolutions passed)**, an investor-meet schedule, and an **ESG rating** intimation.
+> **Why it matters:** no change to the thesis, the numbers or the open questions in this profile. Recorded so that the gap in the record is a *checked* gap rather than an unchecked one (§0A rule 6).
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM-HIGH (Under Watch — valuation).** No company event is behind the fall: the only filings are the QIP press release (25-Aug), the FY26 annual report (28-Aug) and an investor-meet notice. **The stock has fallen 17% since 22-Aug to ₹4,664, 2.6% below the ₹4,790 at which institutions bought ₹1,200cr of new shares on 20-Aug.** The profile downgraded on price alone at ₹5,601; at ₹4,664 the same earnings are 17% cheaper (106x trailing against ~127x), which is the direction the Under-Watch flag was asking for. The QIP release states the proceeds are for **working capital 'to support the execution of its anticipated growth in the order book' and general corporate purposes**, not capacity.
 

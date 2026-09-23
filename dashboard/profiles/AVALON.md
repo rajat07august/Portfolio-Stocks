@@ -8,11 +8,17 @@
 > **📌 Fetch note worth carrying: Avalon hosts its transcripts on its own IR site, not on BSE or NSE.** The exchange filing is a **cover letter with a link** — the 11-Aug-2026 Q1FY27 filing extracts to 1,466 characters of letterhead pointing at `avalontec.com`. **An exchange-feed-only scan would conclude Avalon files no transcripts.** `curl` reaches the IR site directly. Screener's concall links point to `avalontec.com` for transcripts and to BSE only for decks. **Don't assume the BSE UUID pattern covers every stock.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹2,538** · market cap ₹16,973 cr · P/E 127x · ROCE 19.3% · ROE 16.5% · 52-wk high ₹2,620 / low ₹777 · **vs ₹2,184 at baseline (+16.2%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 2,446** · market cap ₹ 16,343 Cr. · P/E 122x · ROCE 19.3 % · ROE 16.5 % · 52-wk ₹ 2,620 / 777 · **vs ₹2,184 at baseline (+12.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Joint venture with Zollner Elektronik AG (Zollner 51% / Avalon 49%); Chairman-MD re-appointed for five years from Jul-2027 and a new independent director; stock +16% to 127x</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No material filings in the window — zero announcements on the feeds swept · (earlier in window: Joint venture with Zollner Elektronik AG (Zollner 51% / Avalon 49%); Chairman-MD re-appointed for five years from Jul-2027 and a new independent director; stock +16% to 127x)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — Nothing material filed**
+Swept both NSE and BSE: **zero announcements.**
+> **Why it matters:** no change to the thesis, the numbers or the open questions in this profile. Recorded so that the gap in the record is a *checked* gap rather than an unchecked one (§0A rule 6).
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM (Under Watch — valuation).** The Board on 3-Sep approved a JV with the German EMS company Zollner Elektronik that opens two new verticals (healthcare and test & measurement) but starts small and is Zollner-led. No capital amount beyond initial subscription is stated. **The stock rose 16% to ₹2,538, 127x trailing earnings, against the profile's 'no room' valuation warning; the JV is a real strategic step and is already in the price.** No financial commitment, revenue or margin guidance accompanied it.
 

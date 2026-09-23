@@ -12,11 +12,17 @@
 > **✅ Concall gate: CLEARED and current.** The Q1FY27 call was held **29-Jul-2026** (InCred Equities-hosted; **Paras Savla, CMD** and **Rohan Shah, CFO**), transcript filed 3-Aug and in the repo — 26pp. **Reading it changed three conclusions** and is the source of the explicit FY27/FY28 PAT guidance below.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹743** · market cap ₹4,757 cr · P/E 11.5x · ROCE 16.5% · ROE 19.2% · 52-wk high ₹827 / low ₹327 · **vs ₹688 at baseline (+8.0%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 773** · market cap ₹ 4,938 Cr. · P/E 11.9x · ROCE 16.5 % · ROE 19.2 % · 52-wk ₹ 827 / 327 · **vs ₹688 at baseline (+12.4%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">New ONGC gas-compression award (₹88.15cr, 3 years); new corporate deck adds 'defence-grade re-rating' framing and two government-scheme read-acrosses (not orders); stock +8%</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Nothing new beyond a trading-window closure; Q2FY27 results season approaching. Stock ₹743 → ₹773 · (earlier in window: New ONGC gas-compression award (₹88.15cr, 3 years); new corporate deck adds 'defence-grade re-rating' framing and two government-scheme read-acrosses (not orders); stock +8%)</span></summary>
 <div class="upd-body">
+
+**⚪ 22-Sep-2026 — Trading window closed; no other filing in the window**
+The only filing between 19 and 23-Sep was the SEBI PIT trading-window closure, which signals the **Q2FY27 results cycle is approaching**. NSE and BSE feeds both swept; nothing else.
+> **Why it matters:** no change. The 8-Sep ₹88.15cr ONGC award and the 31-Aug corporate deck remain the latest substantive items, and the standalone-stagnation question in §7 is still open and still unaddressed. **Next checkpoint is the Q2FY27 print.**
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at HIGH — a held position; one small order win, one promotional deck.** The ₹88.15cr ONGC award is ~2.9% of the ₹3,047cr order book and does not move the standalone-stagnation question (Risk 1). The 31-Aug corporate presentation restates the Q1FY27 numbers already in the profile and adds a marketing thesis that the deck itself disclaims as not a confirmed order. **The stock is +8% since 22-Aug to ₹743, about 10% above the ₹688 the return arithmetic was set at, so the profile's ~+16% two-year weighted return is now lower at this price** *(my scaling; scenarios not re-derived)*.
 

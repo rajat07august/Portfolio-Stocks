@@ -12,11 +12,17 @@
 > ***Applying the refresh's own logic consistently: if 55x with +12% justified MH, then 63.8x with −4% justifies MEDIUM.*** **Nothing in the business caused this, and nothing in §3.5 or §4 has deteriorated.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹2,148** · market cap ₹20,280 cr · P/E 61.9x · ROCE 18.0% · ROE 15.0% · 52-wk high ₹2,484 / low ₹889 · **vs ₹2,212 at baseline (-2.9%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 2,100** · market cap ₹ 19,802 Cr. · P/E 60.5x · ROCE 18.0 % · ROE 15.0 % · 52-wk ₹ 2,484 / 889 · **vs ₹2,212 at baseline (-5.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">No company event beyond an ESOP allotment; stock −3% to ₹2,148</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No material filings in the window; 1 routine item(s) · (earlier in window: No company event beyond an ESOP allotment; stock −3% to ₹2,148)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — Nothing material filed**
+One filing: a **trading-window closure** on 21-Sep.
+> **Why it matters:** no change to the thesis, the numbers or the open questions in this profile. Recorded so that the gap in the record is a *checked* gap rather than an unchecked one (§0A rule 6).
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM (valuation downgrade of 22-Aug stands).** Two ESOP filings are the only items since 22-Aug. The stock fell 3% to ₹2,148 at 61.9x, closer to but not at a level that changes the valuation-driven downgrade. Operating quality (31% operating margin, revenue ₹449cr in the June quarter) is unchanged.
 

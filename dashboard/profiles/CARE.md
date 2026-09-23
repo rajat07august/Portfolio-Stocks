@@ -8,11 +8,17 @@
 > **Structural note that governs how this profile should be read: CARE holds ONE earnings call a year, after Q4 only.** Its transcript filings run May-2026, May-2025, May-2024 — nothing in between. There is no Q1FY27 concall and there never will be. Three transcripts is therefore **the complete available universe, not a fetch gap** — but it is also the thinnest investor-communication cadence of any high-conviction name in this library, and that is a choice rather than a constraint. This profile is grounded in the **full Q4FY26 annual call (14-May-2026, 87,518 chars)**, the **Q1FY27 investor deck + press release (7-Aug-2026)**, the **audited FY26 results filing (13-May-2026)**, and **17 NSE/BSE filings read individually**.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹1,669** · market cap ₹5,026 cr · P/E 28.3x · ROCE 26.3% · ROE 19.7% · 52-wk high ₹1,838 / low ₹1,393 · **vs ₹1,687 at baseline (-1.1%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 1,640** · market cap ₹ 4,935 Cr. · P/E 27.8x · ROCE 26.3 % · ROE 19.7 % · 52-wk ₹ 1,838 / 1,393 · **vs ₹1,687 at baseline (-2.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">No material company event: investor-meet schedule and ESOP allotments only; stock −1%</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No material filings in the window; 1 routine item(s) · (earlier in window: No material company event: investor-meet schedule and ESOP allotments only; stock −1%)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — Nothing material filed**
+One filing: an **investor-meet schedule** on 21-Sep. No outcome filing yet.
+> **Why it matters:** no change to the thesis, the numbers or the open questions in this profile. Recorded so that the gap in the record is a *checked* gap rather than an unchecked one (§0A rule 6).
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM-HIGH.** The exchange feed since 12-Aug holds investor-meet schedules (ten in five weeks) and a small ESOP allotment. Nothing to blend into the profile. Ratings-industry context (regulator, competitor pricing) is outside the exchange feed and was not re-checked.
 

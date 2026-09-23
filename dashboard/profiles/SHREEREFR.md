@@ -13,11 +13,17 @@
 > **📌 SECTOR NOTE.** Placed in **Sector 1 (Aerospace & Defence)** at Rajat's instruction, 1-Sep-2026, **with the sector definition widened from *"Defence electronics, aerospace forging, avionics, drones"* to include defence platform systems and equipment.** ***Its customer, its qualification barrier and its margin structure are naval-platform economics — the same thing that groups PARAS, AZAD, AXISCADES, DYNAMATIC, ROSSELL and UNIMECH — even though it makes none of the four things the old definition listed.***
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹395** · market cap ₹1,415 cr · P/E 65.7x · ROCE 13.8% · ROE 13.0% · 52-wk high ₹439 / low ₹161 · **vs ₹410 at baseline (-3.7%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 379** · market cap ₹ 1,358 Cr. · P/E 63.1x · ROCE 13.8 % · ROE 13.0 % · 52-wk ₹ 439 / 161 · **vs ₹410 at baseline (-7.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 1-Sep-2026 → 19-Sep-2026</span> <span class="upd-sum">CARE upgrades the bank rating to BBB-/Stable (from BB+) and cites a ₹279.67cr order book; AGM approves the new Whole-Time Director; stock −3.7%</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 1-Sep-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Participation in an Arihant virtual conference; nothing else · (earlier in window: CARE upgrades the bank rating to BBB-/Stable (from BB+) and cites a ₹279.67cr order book; AGM approves the new Whole-Time Director; stock −3.7%)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — Nothing material filed**
+Swept **BSE** (544458 — BSE-only): one filing, **participation in a virtual conference hosted by Arihant** on 22-Sep. Nothing else.
+> **Why it matters:** no change to the thesis, the numbers or the open questions in this profile. Recorded so that the gap in the record is a *checked* gap rather than an unchecked one (§0A rule 6).
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM-LOW.** The rating upgrade is a genuine outside data point on a name the profile could only source to management. It also supplies the first agency-stated order book (₹279.67cr at 30-Jun-2026, 1.82x FY26 income) and repeats the concentration and working-capital cautions the profile already carries. The Aquilon Deep Chill subsidiary approved on 31-Aug is unchanged. The stock is 3.7% lower at ₹395 on 65.7x.
 

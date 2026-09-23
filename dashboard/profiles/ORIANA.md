@@ -3,11 +3,27 @@
 **Ticker:** ORIANA · NSE-SME: ORIANA · **Sector:** Power & Renewables (Solar EPC + Rooftop + Captive + Open Access + BESS + Green Ammonia) · **Conviction:** Medium-High (HELD 16-Jul-2026)
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹272** · market cap ₹2,761 cr · P/E 10.9x · ROCE 39.6% · ROE 39.6% · 52-wk high ₹613 / low ₹235 · **vs ₹294 at baseline (-7.4%)** *(baseline ₹1,468 pre-split ÷ 5 = ₹293.6, the 1:5 split having taken effect since)*
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 308** · market cap ₹ 3,132 Cr. · P/E 12.4x · ROCE 39.6 % · ROE 39.6 % · 52-wk ₹ 613 / 235 · **vs ₹294 at baseline (+4.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 16-Jul-2026 → 19-Sep-2026</span> <span class="upd-sum">₹309cr of new EPC orders; ₹4,500cr green-hydrogen MoU; ~₹540cr of corporate guarantees approved (₹340cr on the ₹460cr SBI facility for the 234 MW floating-solar JV); 1:5 split effective; stock ₹272</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 16-Jul-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 🟢🟢 Two MSEDCL LOAs for 900 MW / 1800 MWh of BESS — ~₹3,870cr over 15 years, about 1.4x market cap; funding is now the whole question. Stock +13% to ₹308 · (earlier in window: ₹309cr of new EPC orders; ₹4,500cr green-hydrogen MoU; ~₹540cr of corporate guarantees approved (₹340cr on the ₹460cr SBI facility for the 234 MW floating-solar JV); 1:5 split effective; stock ₹272)</span></summary>
 <div class="upd-body">
+
+**🟢🟢 / 🔴 18-Sep-2026 (filed 21-Sep) — Two MSEDCL Letters of Award: 900 MW / 1800 MWh of battery storage, ~₹3,870cr over 15 years**
+Oriana received **two LOAs from Maharashtra State Electricity Distribution Co. Ltd (MSEDCL)** under tariff-based global competitive bidding with **Viability Gap Funding** through e-reverse auction:
+
+| Award | Capacity | Tariff (ex-GST) | Location |
+|---|---|---|---|
+| LOA 1 | **400 MW / 800 MWh** | ₹2,40,000 / MW / month | MSEDCL sub-station |
+| LOA 2 | **500 MW / 1000 MWh** | ₹2,38,000 / MW / month | MSETCL sub-station |
+
+**Aggregate consideration over the 15-year Battery Energy Storage Purchase Agreements is estimated at ~₹3,870cr**, with **expected VGF of ₹324cr** on the current estimated project cost. Oriana took 900 MW of the 2,000 MW / 4,000 MWh tendered.
+> **Why it matters — both ways, and the second way is the important one.** This is **roughly 1.4x the entire market capitalisation** and dwarfs anything in the order book. It confirms the BESS pivot the profile identified as the growth engine and follows the 1,000+ MWh executed in FY26 against a 3 GWh pipeline.
+> **🔴 But it lands on a balance sheet the 19-Sep sweep had just flagged as stretched:** borrowings 8x YoY to ₹261cr, and **~₹540cr of corporate guarantees approved in six weeks — about 70% of March-2026 net worth**, including ₹340cr on a facility repayable on demand. **An 1800 MWh build is a capital commitment of a completely different order**, and the filing discloses **no project cost, no debt:equity plan, no financing tie-up, no construction timeline and no counterparty credit terms.** Revenue is spread across **fifteen years**, so this is an annuity, not a near-term earnings event.
+> **🔎 MY INFERENCE, not disclosed:** at the awarded tariffs the two LOAs imply roughly **₹258cr a year of gross capacity payments** (900 MW × ~₹2.39 lakh/MW/month × 12), which is consistent with the ₹3,870cr/15-year figure — so the ₹3,870cr should be read as **~₹258cr of annual revenue from 15 years of operation, not as an EPC order book.** **How Oriana funds, builds and retains these assets is now the central question of the thesis, ahead of order intake.**
+> *Signals: financing announcement, whether these are BOO/IPP (balance-sheet) or EPC-and-sell, equity dilution, and the VGF disbursement schedule.*
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM-HIGH (Under Watch), with a new trigger.** Six weeks of filings add about ₹309cr of orders, a captive-power structure with JK Lakshmi Cement, a headline ₹4,500cr green-hydrogen MoU and a new subsidiary layer. **The other side is contingent liabilities: the Board has approved corporate guarantees totalling roughly ₹540cr in six weeks, about 70% of the March-2026 consolidated net worth of ~₹763cr** *(my sum of the four filings against Screener's balance sheet)*. The largest is 74% of a ₹460cr SBI working-capital facility, repayable on demand, for the 234 MW DVC floating-solar JV. The 1:5 split has taken effect (Screener price ₹272; the ₹1,251 on the dashboard was pre-split). **New trigger: guarantees above ~₹700cr, or any invocation.**
 

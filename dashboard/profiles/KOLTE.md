@@ -10,11 +10,17 @@
 > **📌 THE DEFINING FACT OF THIS PROFILE: Kolte-Patil has held no earnings call since August 2025 — four consecutive quarters.** It is not a gap in this repository; **the company formally notified the exchanges each time that it would not host one.** Every judgement below rests on filings and investor decks **without any management Q&A**, and no analyst has been able to ask about the ₹150cr GST matter, the volume decline, or the Mumbai economics. **On 19-Aug-2026 the reason it gave for the latest blackout — *"leadership transition"* — resolved itself into a named CEO.** See §5.5(b).
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹432** · market cap ₹3,829 cr · P/E 30.8x · ROCE 0.32% · ROE 4.36% · 52-wk high ₹557 / low ₹292 · **vs ₹469 at baseline (-7.9%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 440** · market cap ₹ 3,891 Cr. · P/E 31.3x · ROCE -0.32 % · ROE -4.36 % · 52-wk ₹ 557 / 292 · **vs ₹469 at baseline (-6.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Strongest-ever launch: 600+ apartments and over ₹600cr of sales in 60 hours at 'Vyana at The Reserve', Pune; stock nonetheless −8%</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No material filings in the window — zero announcements on the feeds swept · (earlier in window: Strongest-ever launch: 600+ apartments and over ₹600cr of sales in 60 hours at 'Vyana at The Reserve', Pune; stock nonetheless −8%)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — Nothing material filed**
+Swept both NSE and BSE: **zero announcements.**
+> **Why it matters:** no change to the thesis, the numbers or the open questions in this profile. Recorded so that the gap in the record is a *checked* gap rather than an unchecked one (§0A rule 6).
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM-HIGH (Under Watch).** One item, and it is the right kind: a company-reported launch that answers the profile's 'volume is declining and price is doing the work' worry. **Sales of over ₹600cr in 60 hours on one Pune phase equal a whole quarter of pre-sales (Q1FY27 was ₹617cr).** It is a company press release on bookings, not audited sales or collections, and it sits inside a project with ~₹4,000cr of potential GDV. The stock fell 8% to ₹432 regardless, so the market did not treat it as a re-rating event. No earnings call has been held; the blackout risk stands.
 

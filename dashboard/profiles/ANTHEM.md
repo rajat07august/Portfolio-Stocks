@@ -11,11 +11,17 @@
 > **🔴 THE ONE NUMBER TO CARRY.** **Three customers are 56.71% of revenue** (FY26; 61.18% in FY25). Anthem does not name them. Q1FY27 revenue fell **22.6% YoY** and management's explanation was *"timing shifts in deliveries to key customers."* **At 89x earnings, the concentration and the volatility are the same fact seen twice.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹928** · market cap ₹52,306 cr · P/E 88.2x · ROCE 30.4% · ROE 22.3% · 52-wk high ₹978 / low ₹579 · **vs ₹940 at baseline (-1.3%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 882** · market cap ₹ 49,678 Cr. · P/E 83.7x · ROCE 30.4 % · ROE 22.3 % · 52-wk ₹ 978 / 579 · **vs ₹940 at baseline (-6.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 3-Sep-2026 → 19-Sep-2026</span> <span class="upd-sum">The ₹127.68cr Upside Sharing Arrangement to three founders was settled on 8-Sep, as approved at the July AGM; stock −1.3%</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 3-Sep-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No material filings in the window — zero announcements on the feeds swept · (earlier in window: The ₹127.68cr Upside Sharing Arrangement to three founders was settled on 8-Sep, as approved at the July AGM; stock −1.3%)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — Nothing material filed**
+Swept both NSE and BSE: **zero announcements.**
+> **Why it matters:** no change to the thesis, the numbers or the open questions in this profile. Recorded so that the gap in the record is a *checked* gap rather than an unchecked one (§0A rule 6).
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM-LOW.** The governance item the profile called 'the one that matters' has been executed: **₹127.68cr (INR 1,276.83 million) was paid to the three Upside Principal Shareholders, Ajay Bhardwaj, Ganesh Sambasivam and K. Ravindra Chandrappa, on 8-Sep-2026**, after the public shareholders approved it at the 22-Jul AGM. The payment arises from the divestment by Viridity Tone LLP, as the Waiver-cum-Amendment Agreement of 30-Dec-2024 provides. **No cash leaves Anthem's own balance sheet according to the filing text, which describes it as 'settled with' the founders; the source of the ₹127.68cr is not stated in it.** Nothing else since 3-Sep. The stock is 1.3% lower at ₹928.
 

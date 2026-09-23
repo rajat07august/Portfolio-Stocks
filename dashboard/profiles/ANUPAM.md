@@ -20,11 +20,18 @@
 > **4. A COO was appointed on 14-Aug-2026 — Mr. Ravi Desai.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹1,208** · market cap ₹13,750 cr · P/E 78.7x · ROCE 7.38% · ROE 5.55% · 52-wk high ₹1,415 / low ₹1,045 · **vs ₹1,258 at baseline (-4.0%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 1,193** · market cap ₹ 13,617 Cr. · P/E 77.9x · ROCE 7.38 % · ROE 5.55 % · 52-wk ₹ 1,415 / 1,045 · **vs ₹1,258 at baseline (-5.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Bliss GVS acquisition financing approved: ₹300cr of secured NCDs at the Mates vehicle, guaranteed and pledged by Anupam; ₹160cr more NCDs on the 19-Sep agenda; CRISIL A+ still on Watch; new six-year US supply contract; stock −4%</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 ₹160cr more unlisted NCDs approved (Aditya Birla Capital) with ₹145cr allotted on 21-Sep — the debt build flagged on 19-Sep continues · (earlier in window: Bliss GVS acquisition financing approved: ₹300cr of secured NCDs at the Mates vehicle, guaranteed and pledged by Anupam; ₹160cr more NCDs on the 19-Sep agenda; CRISIL A+ still on Watch; new six-year US supply contract; stock −4%)</span></summary>
 <div class="upd-body">
+
+**🔴 19-Sep-2026 (allotment 21-Sep) — A further ₹160cr of secured unlisted NCDs, to Aditya Birla Capital; ₹145cr drawn immediately**
+The Board approved issuing **up to 16,000 INR-denominated, secured, rated, unlisted and redeemable non-convertible debentures of ₹1,00,000 each — up to ₹160cr — in a single tranche on a private placement basis to Aditya Birla Capital Limited**, with CTL Trusteeship as debenture trustee. **On 21-Sep the Company allotted 14,500 such securities — ₹145cr.**
+> **Why it matters, and why it is the same story as 19-Sep rather than a new one.** The baseline block recorded **₹300cr of secured NCDs at the Mates vehicle guaranteed and pledged by Anupam**, with **₹160cr more on the 19-Sep Board agenda** and **CRISIL A+ still on Watch Developing.** That ₹160cr has now been approved and **₹145cr of it drawn within two days.** **The pattern is unlisted, privately placed, secured debt being added quickly while the rating is on watch** — the single most important thing to track on this name.
+> **🔎 Not disclosed in the outcome filing:** the coupon, the tenor, the security package, or the end use of the ₹145cr. **Without those the cost of this capital cannot be assessed**, and the profile does not guess at it. *Signals: the coupon and security terms whenever they surface (rating rationale or annual report), CRISIL's resolution of the Watch, and total consolidated borrowings at the H1FY27 balance sheet.*
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM-LOW.** The debt behind the Bliss GVS pharma acquisition is now visible, and it sits on Anupam's own balance sheet: the Board on 17-Sep approved a **₹300cr senior secured NCD issue by wholly owned Mates Visa Consultancy, backed by an unconditional, irrevocable Anupam corporate guarantee, a pledge of 100% of Mates, and a call option over Mates for Purebliss Pharma**, plus a pledge of Anupam's 15% stake in Purebliss. **A further ₹160cr of NCDs was on the 19-Sep Board agenda.** CRISIL, on 31-Aug, kept the A+ rating on **Watch with Developing Implications** pending funding clarity. Against this, the company announced a **six-year supply contract with a US specialty-metal manufacturer in a new end-market** and topped up its Tanfac stake by ₹61cr. The stock fell 4% to ₹1,208 (78.7x) and is only 14% below its 52-week high. Net: financing risk rose, and an order arrived whose value is not disclosed.
 

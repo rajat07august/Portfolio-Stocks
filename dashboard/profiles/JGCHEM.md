@@ -3,6 +3,24 @@
 **Sector 4 — Chemicals (Diversified & Specialty)** *(dashboard label: "Specialty Chem & Pharma")*
 **Thesis current as of: 17-Sep-2026 · Tracking since: 17-Sep-2026**
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 622** · market cap ₹ 2,437 Cr. · P/E 32.4x · ROCE 18.1 % · ROE 13.3 % · 52-wk ₹ 675 / 298 · **vs ₹583 at baseline (+6.7%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 17-Sep-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No filings since the profile was written</span></summary>
+<div class="upd-body">
+
+**⚪ 17 → 23-Sep-2026 — No filings on either exchange**
+Swept both feeds: zero announcements.
+> **Why it matters:** the finding stands untested until Q2FY27 — **management's "EBITDA" includes other income, and FY26 operating profit excluding it fell 6%.** Read alongside TVS Srichakra each quarter, as the profile directs.
+
+*Sweep: NSE + BSE announcements from baseline to 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
+
 | | |
 |---|---|
 | **Codes** | **NSE `JGCHEM`** · **BSE 544138** · ISIN INE0MB501011 · CIN U24100WB2001PLC093380 |

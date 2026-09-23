@@ -17,11 +17,18 @@
 > - **🟡 But the share price has doubled in seven weeks, from ₹196 to ₹341. *The market capitalisation has already passed the ₹20,000cr that v2's two-year BULL case projected.***
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹367** · market cap ₹21,937 cr · P/E 112x · ROCE 26.5% · 52-wk high ₹407 / low ₹116 · **vs ₹341 at baseline (+7.6%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 378** · market cap ₹ 22,795 Cr. · P/E 116x · ROCE 26.5 % · ROE % · 52-wk ₹ 407 / 116 · **vs ₹341 at baseline (+10.9%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">₹519cr of new orders in 15 days (MSEDCL ₹263cr, Adani Electricity Mumbai ₹179cr, 66 kV EHV ₹76cr); NCLT framework fully exited a year early (₹501cr cash prepaid); MPS penalty formalised; stock +7.6% to 112x</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 A further ₹116.49cr of cable orders — but from a private counterparty, Polite Powertech, not a utility · (earlier in window: ₹519cr of new orders in 15 days (MSEDCL ₹263cr, Adani Electricity Mumbai ₹179cr, 66 kV EHV ₹76cr); NCLT framework fully exited a year early (₹501cr cash prepaid); MPS penalty formalised; stock +7.6% to 112x)</span></summary>
 <div class="upd-body">
+
+**🟡 21-Sep-2026 — ₹116.49cr of orders for 11 kV XLPE cables, from Polite Powertech Limited**
+Orders **aggregating ₹116.49cr including GST (₹98.72cr excluding GST)** from **Polite Powertech Limited**, for supply of **11 kV XLPE power cables for underground distribution projects in Gujarat**.
+> **Why it matters.** It continues a heavy run of intake — the 19-Sep entry recorded **₹519cr of new orders in fifteen days**. Underground 11 kV distribution work is core product, in the home state.
+> **🔎 The qualifier is the counterparty, and it is a change of type.** The orders that built this book were largely from **state utilities and discoms**; **Polite Powertech is a private company, and the filing discloses nothing about it** — no relationship, no credit standing, no delivery schedule. The filing does confirm it is **not a related-party transaction**. **On a stock the 19-Sep sweep put at ~112x trailing earnings, order quality matters more than order quantity**, and receivable behaviour on private counterparties is the thing to watch. *Signal: debtor days at the H1FY27 balance sheet.*
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM-LOW.** Three fast, positive operating and balance-sheet items: **new orders of about ₹519cr including GST between 3 and 17 September**, roughly three-quarters of a June-quarter's revenue (₹690cr); **full exit from the IBC resolution framework on 11-Sep**, with the ₹501cr cash component prepaid a year early and the company saying it is now eligible for credit ratings and has its whole gross block free for bank finance; and the formal penalty letters for the July minimum-public-shareholding breach. The profile's central point does not change: the stock is at ₹367 and **112x trailing earnings**, ₹21,937cr, on ₹690cr of quarterly revenue, so these events are being paid for in advance. **The first credit rating, now possible, is the next verifiable event.**
 

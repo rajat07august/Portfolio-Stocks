@@ -12,11 +12,17 @@
 > **Disclosure cadence:** SSWL files **monthly turnover** to the exchanges — rare at this size — so the trajectory in 5.5 carries monthly resolution. **Seven concall transcripts on disk** (Jan-2025 → Jul-2026), plus the Q1FY27 deck read page by page.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹372** · market cap ₹5,857 cr · P/E 27.6x · ROCE 14.8% · ROE 11.0% · 52-wk high ₹384 / low ₹169 · **vs ₹305 at baseline (+22.0%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 372** · market cap ₹ 5,862 Cr. · P/E 27.6x · ROCE 14.8 % · ROE 11.0 % · 52-wk ₹ 390 / 169 · **vs ₹305 at baseline (+22.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">August a second record month (+53.6% YoY); borrowing limit to be raised ₹2,000cr → ₹3,500cr; promoter buying in the open market; stock +22%</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No material filings in the window — zero announcements on the feeds swept · (earlier in window: August a second record month (+53.6% YoY); borrowing limit to be raised ₹2,000cr → ₹3,500cr; promoter buying in the open market; stock +22%)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — Nothing material filed**
+Swept both NSE and BSE: **zero announcements.**
+> **Why it matters:** no change to the thesis, the numbers or the open questions in this profile. Recorded so that the gap in the record is a *checked* gap rather than an unchecked one (§0A rule 6).
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at HIGH.** The watch item the profile named — August turnover — came in at +53.6%, ahead of July's +50.7%, so the monthly acceleration continues. Two things temper it: the volume growth is +24% against value +54%, so roughly half or more of the value growth is price and mix *(my arithmetic; the company does not split it)*, and the Board asked for a **75% larger borrowing limit** on the same day it posted the numbers. **The stock is +22% to ₹372, so the ~+37% weighted return set at ₹305 has compressed to roughly +12%** *(my scaling of the profile's return to the new price; scenarios not re-derived)*.
 

@@ -5,11 +5,17 @@
 **⚠️ Monarch holds no earnings calls, files no investor presentations, and its FY26 Annual Report is still unfiled — every judgement below is inferred from statutory filings.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹366** · market cap ₹2,904 cr · P/E 16.0x · ROCE 27.7% · ROE 20.5% · 52-wk high ₹407 / low ₹235 · **vs ₹379 at baseline (-3.4%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 363** · market cap ₹ 2,873 Cr. · P/E 15.9x · ROCE 27.7 % · ROE 20.5 % · 52-wk ₹ 407 / 235 · **vs ₹379 at baseline (-4.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">No company event beyond the FY26 annual report; stock −3.4% to ₹366</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No material filings in the window — zero announcements on the feeds swept · (earlier in window: No company event beyond the FY26 annual report; stock −3.4% to ₹366)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — Nothing material filed**
+Swept both NSE and BSE: **zero announcements.** Monarch holds no concalls, so the filings feed is the only channel — and it was empty.
+> **Why it matters:** no change to the thesis, the numbers or the open questions in this profile. Recorded so that the gap in the record is a *checked* gap rather than an unchecked one (§0A rule 6).
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM-HIGH (Under Watch).** Nothing filed since 12-Aug changes the profile. The FY26 annual report (2-Sep) was filed and has **not been read for this refresh**; the profile's open items (debtor days, board-composition penalties) would be settled there. Monarch does not hold earnings calls, so the next evidence is the H1FY27 result.
 

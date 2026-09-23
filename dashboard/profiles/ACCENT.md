@@ -7,11 +7,17 @@
 > **How to read this profile:** Every meaningful claim is either sourced from a concall (period noted) or a filing. Accent reports H1/H2 (SME cadence). Screener valuation data limited. This is personal thesis-building, not a buy/sell recommendation.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹682** · market cap ₹1,635 cr · P/E 37.3x · ROCE 24.9% · ROE 18.6% · 52-wk high ₹732 / low ₹238 · **vs ₹500 at baseline (+36.4%)** *(the profile's ~₹500 was an approximation — 'SME data limited' — and its ~₹800cr market cap an estimate; Screener now gives the figures above)*
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 670** · market cap ₹ 1,608 Cr. · P/E 36.7x · ROCE 24.9 % · ROE 18.6 % · 52-wk ₹ 732 / 238 · **vs ₹500 at baseline (+34.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 19-Sep-2026</span> <span class="upd-sum">4.45 MW Inox Wind turbine ordered (turnkey, value not stated) to cut power cost for Plant III; managerial remuneration limits raised; AGM held 31-Jul; stock ~₹682, market cap ₹1,635cr</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No material filings in the window — zero announcements on the feeds swept · (earlier in window: 4.45 MW Inox Wind turbine ordered (turnkey, value not stated) to cut power cost for Plant III; managerial remuneration limits raised; AGM held 31-Jul; stock ~₹682, market cap ₹1,635cr)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — Nothing material filed**
+Swept **NSE-SME (ACCENTMIC)**: **zero announcements.** Half-yearly reporter; next print ~Nov-2026.
+> **Why it matters:** no change to the thesis, the numbers or the open questions in this profile. Recorded so that the gap in the record is a *checked* gap rather than an unchecked one (§0A rule 6).
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM-HIGH.** The profile was written on 3-Jul from SME data with an approximate price and an estimated market cap; **Screener now shows ₹682, ₹1,635cr and 37x, roughly double the profile's estimated market cap.** Since then: an AGM on 31-Jul, a Board decision to raise the managerial remuneration limits for the Chairman, the MD & CFO and others (subject to shareholders), a new independent director from 3-Jul, and a **4.45 MW wind turbine purchase order to Inox Wind (12-Aug) to lower the electricity bill of Plants I and II and the expected Plant III.** No capex value is disclosed. The March-2026 half-year print (revenue ₹210cr, PAT ₹26cr) is on Screener, and the profile predates it *(not re-derived)*.
 

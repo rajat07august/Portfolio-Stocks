@@ -16,11 +16,17 @@
 > **🗂️ Housekeeping:** duplicate `Fetched Concalls/INSECTICID/` and `INSECTICIDES/` folders **consolidated into `INSECTICIDES/`** (38 files); the six older transcripts had no text extracts and now do.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹606** · market cap ₹1,762 cr · P/E 14.1x · ROCE 15.8% · ROE 12.0% · 52-wk high ₹789 / low ₹519 · **vs ₹610 at baseline (-0.7%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 609** · market cap ₹ 1,771 Cr. · P/E 14.2x · ROCE 15.8 % · ROE 12.0 % · 52-wk ₹ 778 / 519 · **vs ₹610 at baseline (-0.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">No filing at all since 24-Aug on either exchange; stock ₹610 → ₹606</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No material filings in the window; 1 routine item(s) · (earlier in window: No filing at all since 24-Aug on either exchange; stock ₹610 → ₹606)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — Nothing material filed**
+One filing: an **investor-meet schedule** on 22-Sep.
+> **Why it matters:** no change to the thesis, the numbers or the open questions in this profile. Recorded so that the gap in the record is a *checked* gap rather than an unchecked one (§0A rule 6).
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM-HIGH (Under Watch).** The BSE feed (scrip 532851) and NSE feed (INSECTICID) both carry **zero announcements between 24-Aug and 18-Sep**; the last filings were the Q1 earnings-call transcript (17-Aug) and AGM items. Every trigger in the profile is set at Q2FY27 (~Nov-2026). Nothing to blend. Screener still shows P/E 14.1x, ROCE 15.8% and promoter 72.30%.
 

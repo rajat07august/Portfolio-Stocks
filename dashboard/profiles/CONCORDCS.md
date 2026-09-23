@@ -11,11 +11,21 @@
 > **⚠️ TICKER RENAMED 2-Aug-2026: CONCORD → CONCORDCS.** This is **Concord Control Systems Ltd (BSE 543619)** — railway/metro electronics, Sector 5. It is **not** Concord Biotech Ltd (BSE 543960, ticker `CONCORDBIO`, Sector 12), which was added to the watchlist on 2-Aug-2026, and **not** Concord Enviro Systems. The old `CONCORD` ticker caused a real mis-fetch during a bulk CMP refresh (logged in CLAUDE.md, 18-Jul-2026); the rename removes the ambiguity at source. Concall folder also renamed `Fetched Concalls/543619` → `Fetched Concalls/CONCORDCS`.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹2,229** · market cap ₹2,315 cr · P/E 54.6x · ROCE 30.6% · ROE 25.8% · 52-wk high ₹3,070 / low ₹1,469 · **vs ₹2,860 at baseline (-22.1%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 2,259** · market cap ₹ 2,345 Cr. · P/E 55.7x · ROCE 31.2 % · ROE 25.6 % · 52-wk ₹ 3,070 / 1,469 · **vs ₹2,860 at baseline (-21.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 2-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Board approves migration to the BSE Main Board and a direct NSE Main Board listing (postal ballot); FY26 annual report and new auditors; stock −22% to ₹2,229</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 2-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 🟢 Shareholders approved BSE SME → BSE Main Board migration AND a direct NSE main-board listing (both special resolutions, passed 19-Sep) · (earlier in window: Board approves migration to the BSE Main Board and a direct NSE Main Board listing (postal ballot); FY26 annual report and new auditors; stock −22% to ₹2,229)</span></summary>
 <div class="upd-body">
+
+**🟢 19-Sep-2026 (result filed 21-Sep) — Postal ballot passes BOTH the main-board migration and a direct NSE listing**
+Two **special resolutions**, put to postal ballot on 17-Aug-2026, were **passed with the requisite majority** on 19-Sep-2026:
+1. **Migration of listing/trading of equity shares from the SME Platform of BSE to the Main Board of BSE.**
+2. **Application for direct listing/trading of the equity shares on the Main Board of the National Stock Exchange.**
+
+> **Why it matters.** Concord Control Systems has been a **BSE-SME company with no NSE line at all** — which is why this profile's filings have had to be sourced from BSE alone and why the §4A notes list it among the BSE-only names. Main-board migration plus an NSE listing would **widen the eligible investor base (many institutions cannot buy SME lines), improve liquidity and tighten the disclosure regime** the company is held to.
+> **🔎 What has NOT happened yet.** This is **shareholder authorisation, not approval by the exchanges.** BSE main-board migration requires meeting the eligibility criteria (track record, net worth, public shareholders) and **NSE must accept the direct-listing application separately.** No timeline is disclosed for either, and **neither exchange has confirmed anything.** *Signals: the migration application, exchange in-principle approvals, and the date NSE trading actually begins — at which point this profile's NSE-feed gap closes.*
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at HIGH (data-limited, SME half-yearly reporter).** The migration the profile listed as a possible catalyst has been formally started: the Board on 17-Aug approved moving from the BSE SME platform to the BSE Main Board and a direct listing on the NSE Main Board, subject to a postal ballot and exchange eligibility. Yet **the stock has fallen 22% since 3-Jul (₹2,860 → ₹2,229)**, so the market is not treating it as a re-rating event. FY26 annual report and new secretarial, internal and cost auditors are administrative. The Mar-2026 half-year on Screener shows revenue ₹129cr (H2FY26) and PAT ₹25cr; promoter holding 65.57%.
 

@@ -12,11 +12,18 @@
 > **This is a cyclical at a trough, and the profile is written that way.** Earnings-based multiples are close to meaningless here; **book value is the informative anchor.** Management files a transcript every quarter and answers directly — which, across this refresh batch, is not the norm.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹73.4** · market cap ₹4,536 cr · P/E 28.5x · ROCE 5.0% · ROE 3.04% · 52-wk high ₹102 / low ₹60.1 · **vs ₹72 at baseline (+1.9%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 74.2** · market cap ₹ 4,592 Cr. · P/E 28.9x · ROCE 5.00 % · ROE 3.04 % · 52-wk ₹ 99.7 / 60.1 · **vs ₹72 at baseline (+3.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 17-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Omani water-technology subsidiary acquisition completed (70% of Arabian Water Tech LLC, OMR 21,000 paid); nothing else material; stock +2%</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 17-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Completed the 70% buy of Arabian Water Tech LLC (Oman) — for OMR 21,000, a nominal sum · (earlier in window: Omani water-technology subsidiary acquisition completed (70% of Arabian Water Tech LLC, OMR 21,000 paid); nothing else material; stock +2%)</span></summary>
 <div class="upd-body">
+
+**🟢 19-Sep-2026 — The Oman acquisition closes: 70% of Arabian Water Tech LLC, for OMR 21,000**
+Following the Board's 10-Nov-2025 approval, the Company has **paid OMR 21,000 for 14,000 equity shares of OMR 1 each, representing 70% of Arabian Water Tech LLC (Oman)**, from Arabian (DIFC) SPC1 and SPC2, and has **received the share certificates**.
+> **Why it matters — and how much.** It gives Electrosteel a **majority-owned operating vehicle in Oman**, extending the Gulf water-infrastructure footprint beyond pipe supply into local execution.
+> **🔎 Keep the number in proportion: OMR 21,000 is roughly ₹5 lakh.** This is a **nominal-consideration acquisition** — the value, if any, is in the entity's licences, order book or local standing, **none of which is disclosed**, along with its revenue, net worth and any assumed liabilities. **Treat it as an inexpensive option on Gulf market access, not as an earnings event**, until the H1FY27 accounts consolidate it.
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM-HIGH (Cycle-Turn Play).** One small item: a 70% stake in Arabian Water Tech LLC (Oman), approved by the Board on 10-Nov-2025, was completed on 19-Sep-2026. The amount paid was OMR 21,000. **This acquisition was not carried in the profile.** Nothing else since 17-Aug changes the cycle-turn thesis, which still waits for the Q2FY27 print.
 

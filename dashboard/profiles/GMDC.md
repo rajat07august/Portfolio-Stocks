@@ -12,11 +12,17 @@
 > **🔴 The disclosure gap that governs everything below: GMDC has not held an earnings call since 29-May-2025.** Across **472 NSE filings**, the last earnings-call filing is that date; before it, August 2024. **No call was held after FY26 results (14-May-2026) or after Q1FY27 (31-Jul-2026), and no investor presentation appears anywhere in the recent record.** This profile is therefore built from **statutory filings and press releases only**. The standing §9 data-gap queue item — *"FY26 concalls needed"* — has been **closed as uncloseable: the calls were never held.** *A ₹18,261cr company that no longer speaks to shareholders, in a year containing a ₹522.65cr exceptional item and a 30% fall in operating profit.*
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹556** · market cap ₹17,695 cr · P/E 31.0x · ROCE 10.8% · ROE 4.22% · 52-wk high ₹772 / low ₹464 · **vs ₹574 at baseline (-3.1%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 557** · market cap ₹ 17,708 Cr. · P/E 31.0x · ROCE 10.8 % · ROE 4.22 % · 52-wk ₹ 772 / 464 · **vs ₹574 at baseline (-3.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">CARE AA+/Stable reaffirmed; CERT-In 'probable data breach' on the corporate website disclosed (operations unaffected); FY26 annual report out; stock −3%</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 CARE reaffirms AA+/Stable and A1+; short-term facilities enhanced ₹5cr → ₹25cr · (earlier in window: CARE AA+/Stable reaffirmed; CERT-In 'probable data breach' on the corporate website disclosed (operations unaffected); FY26 annual report out; stock −3%)</span></summary>
 <div class="upd-body">
+
+**🟢 18-Sep-2026 — CARE reaffirms AA+ (Stable) / A1+**
+CARE Edge **reaffirmed CARE AA+; Stable / CARE A1+** on long-term/short-term bank facilities of **₹3,975cr** (reduced from ₹3,995cr), and **reaffirmed CARE A1+** on short-term facilities of **₹25cr (enhanced from ₹5cr)**.
+> **Why it matters:** a reaffirmation at the second-highest long-term band, with no outlook change — **confirmation that the credit profile is unchanged**, which for a state-owned miner with large capex plans is the relevant signal. The facility movements are housekeeping, not a change in leverage.
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM-LOW.** Nothing filed changes the thesis. The rating is reaffirmed at AA+ with slightly lower long-term facilities. The only item with a risk flavour is a CERT-In intimation of a *probable* data breach on the company's website, which the company says has not touched core operations. The FY26 annual report was filed 5-Sep and has **not been read for this refresh**.
 

@@ -13,11 +13,23 @@
 > **Meanwhile the stock is up 17.5% since that refresh, to within 1.9% of its 52-week high.** ***Better quarter, worse price, weaker pipeline — and that combination is the downgrade.***
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹266** · market cap ₹14,970 cr · P/E 19.1x · ROCE 30.4% · ROE 23.4% · 52-wk high ₹290 / low ₹164 · **vs ₹262 at baseline (+1.5%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 306** · market cap ₹ 17,190 Cr. · P/E 21.9x · ROCE 30.4 % · ROE 23.4 % · 52-wk ₹ 310 / 164 · **vs ₹262 at baseline (+16.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Ministry extends the CMD's additional charge as Director (Commercial) by three months from 30-Sep; new statutory auditors for FY27; stock +1.5%</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 🟢🟢 US$450m+ Dangote contract for a 700,000 BPD greenfield refinery in KENYA — bigger than annual revenue; stock +15% to ₹306. Also ₹5.31 lakh fines from each exchange for board-composition non-compliance · (earlier in window: Ministry extends the CMD's additional charge as Director (Commercial) by three months from 30-Sep; new statutory auditors for FY27; stock +1.5%)</span></summary>
 <div class="upd-body">
+
+**🟢🟢 22-Sep-2026 — Dangote again: a contract *"in excess of US$ 450 Million"* for a 700,000 BPD greenfield refinery and petrochemical plant in KENYA**
+EIL has **signed a Contract Agreement valued at more than US$450 million to act as PMC and EPCM Consultant** for Dangote's new **700,000 barrels-per-day greenfield refinery and petrochemical complex in Kenya**. The award follows EIL's role as PMC/EPCM on Dangote's commissioned **650,000 BPD Lekki complex in Nigeria** — the world's largest single-train refinery — and its ongoing expansion to 1.4 million BPD.
+> **Why it matters, sized.** At roughly ₹95/USD this is **on the order of ₹4,200-4,300cr — larger than EIL's annual consolidated revenue**, and it is consultancy revenue, which is where EIL's margins are highest. **It is the single largest international award in the profile's record** and it materially changes the order-book picture that drove the 31-Aug MH → M downgrade.
+> **🔎 What the filing does NOT say, and it matters for phasing:** no execution period, no year-wise breakdown, no payment or milestone terms, and **no statement of when revenue recognition begins.** A PMC/EPCM mandate on a greenfield refinery typically runs many years, so **this is not ₹4,300cr of near-term revenue** and should not be annualised. **The scenarios in §6 are NOT re-derived here** — that needs the execution schedule, and the right moment is the Q2FY27 call.
+> **Conviction is left at MEDIUM pending that schedule**, but this is the most positive development since the downgrade and the stock has moved **₹266 → ₹306 (+15%)** on it.
+
+**🟡 23-Sep-2026 — Board comments on exchange fines for board-composition non-compliance**
+NSE and BSE each levied **₹5,31,000 (incl. GST) for non-compliance with Regulation 17(1) for the quarter ended 31-Mar-2026** — caused by *"non-availability of requisite number of Independent Directors including woman Independent Director on the Board."* The matter went to the Board on 13-Aug-2026, which noted that **as a PSU the power to appoint directors rests with the Government of India**, that MoPNG has been asked to fill the vacancies, and that the exchanges will consider a waiver **only after full compliance is achieved.**
+> **Why it matters.** The money is trivial; **the governance fact is not, and it compounds the CMD's additional-charge item already in this block** — EIL is running with an incomplete board and a CMD holding extra portfolios, and the remedy is outside the company's control. *Signal: whether MoPNG makes the appointments before the FY27 close, or the fines recur quarter after quarter.*
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM.** The profile's governance watch item moved: on 3-Sep the Ministry of Petroleum & Natural Gas extended the Chairman & MD's additional charge of Director (Commercial) **for three months from 30-Sep-2026, or until a regular appointment**, so the post will have been vacant for at least half a year by the end of December. The profile's trigger, 'no regular Director (Commercial) appointed by the December quarter', is therefore live. New statutory auditors for FY27 were appointed. No order, results or balance-sheet filing since 31-Aug.
 

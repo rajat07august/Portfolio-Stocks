@@ -11,11 +11,17 @@
 > **🕐 WATCH ITEM #1 FROM THE 12-AUG REFRESH IS ANSWERED, AND THE ANSWER IS "NOT YET."** That refresh said: *"Re-verify this machine transcript against the official one when EPL files it — it has filed every prior quarter."* **As of 22-Aug-2026 it has not filed.** Verified on both NSE and BSE feeds. **Historical lag is 6 days** (Q4FY26: call 14-May, transcript 20-May); this one is at **11 days and counting**, past SEBI's five-working-day window. Not an accusation — EPL's filing record is otherwise clean — but it is recorded rather than assumed away, and **the Q1FY27 quotes in this profile therefore still rest on a machine transcript.** ⤴ **UPDATE 28-Aug-2026 — CLOSED: the official transcript was filed on 28-Aug (17 days after the call). Every numeric token in the machine version appears in the official one; nothing changed.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹239** · market cap ₹7,667 cr · P/E 18.7x · ROCE 17.8% · ROE 15.7% · 52-wk high ₹274 / low ₹176 · **vs ₹266 at baseline (-10.2%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 239** · market cap ₹ 7,655 Cr. · P/E 18.6x · ROCE 17.8 % · ROE 15.7 % · 52-wk ₹ 274 / 176 · **vs ₹266 at baseline (-10.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">🔴 Blackstone sold its ENTIRE 26.37% stake on 1-Sep; India Ratings put AA+ on Rating Watch (Developing); official Q1FY27 transcript filed and machine version verified; stock −10%</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No filings at all on either exchange in the window — verified, not assumed. Blackstone exit and the Rating Watch remain the live items · (earlier in window: 🔴 Blackstone sold its ENTIRE 26.37% stake on 1-Sep; India Ratings put AA+ on Rating Watch (Developing); official Q1FY27 transcript filed and machine version verified; stock −10%)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — No filings on either exchange**
+Swept **both NSE and BSE**: zero announcements in the window. **This is a verified negative, not an absence of searching** (§0A rule 6).
+> **Why it matters:** the two live items from the 19-Sep baseline are unchanged and unexplained — **Blackstone's sale of its entire 26.37% on 1-Sep** (~₹240.57, ~₹2,032cr), with no filing stating whether the merger scheme terms change as a result, and **India Ratings' AA+ on Rating Watch (Developing) from 10-Sep**. Neither has been followed up by the company. Price flat at ₹239.
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at HIGH (Under Watch) — a held position, and the profile's central ownership assumption changed.** Blackstone no longer owns any EPL shares; the profile said it would stay as a 16.6% joint promoter after the Indovida merger. **No EPL, Blackstone or Indorama statement in the exchange feeds says whether the scheme terms or the joint-promoter arrangement have changed.** The overhang is cleared, the operating story (Q1FY27 record growth, raised guidance) is untouched, and the 1.59x post-merger share-count arithmetic in §6 does not depend on who holds EPL shares today, so the scenario set stands *(my reading, not company guidance)*. **New Under-Watch trigger: any amendment to the scheme, or a promoter-classification statement that departs from the 30-Mar-2026 terms, forces a re-underwrite.**
 

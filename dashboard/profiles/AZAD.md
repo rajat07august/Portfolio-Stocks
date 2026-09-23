@@ -12,11 +12,17 @@
 > **The tension to hold throughout: this is an elite manufacturing franchise attached to a valuation and a cash-flow record that do not match it.** The engineering is world-class and got better this quarter. **Operating cash flow has been positive in one of the last five years.** Both statements are true, and the profile is written to keep them side by side rather than resolve them.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹2,790** · market cap ₹18,020 cr · P/E 130x · ROCE 11.9% · ROE 9.09% · 52-wk high ₹2,987 / low ₹1,359 · **vs ₹2,718 at baseline (+2.6%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 2,713** · market cap ₹ 17,531 Cr. · P/E 126x · ROCE 11.9 % · ROE 9.09 % · 52-wk ₹ 2,987 / 1,359 · **vs ₹2,718 at baseline (-0.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">No company event beyond the FY26 annual report; stock +2.6% to ₹2,790 at ~130x</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No material filings in the window — zero announcements on the feeds swept · (earlier in window: No company event beyond the FY26 annual report; stock +2.6% to ₹2,790 at ~130x)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — Nothing material filed**
+Swept both NSE and BSE: **zero announcements.**
+> **Why it matters:** no change to the thesis, the numbers or the open questions in this profile. Recorded so that the gap in the record is a *checked* gap rather than an unchecked one (§0A rule 6).
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM.** The only substantive filing since 15-Aug is the FY26 annual report (7-Sep), **not read for this refresh**. The 8-Aug earnings-call transcript was filed 14-Aug, before the profile date. The stock is at an all-time-high zone (₹2,987 52-week high) on a 130x trailing multiple, which is the profile's central valuation caution.
 

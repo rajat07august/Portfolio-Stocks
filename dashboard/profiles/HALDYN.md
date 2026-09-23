@@ -12,11 +12,17 @@
 > **📋 WHAT THIS REFRESH FOUND.** v1 was **8.6 KB — the thinnest profile on the watchlist** — written 3-Jul-2026 from Screener and public information. Since then: **a strong Q1FY27 (revenue +21%, consolidated PAT +90%)**, **the FY26 annual report**, **a captive renewable-power investment**, and **a significant accounting judgement that v1 did not carry: Haldyn owns 56.80% of its principal joint venture and accounts for it as an associate rather than a subsidiary.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹143** · market cap ₹766 cr · P/E 24.7x · ROCE 13.5% · ROE 11.4% · 52-wk high ₹150 / low ₹70.4 · **vs ₹142 at baseline (+0.7%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 148** · market cap ₹ 789 Cr. · P/E 25.4x · ROCE 13.5 % · ROE 11.4 % · 52-wk ₹ 150 / 70.4 · **vs ₹142 at baseline (+4.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 2-Sep-2026 → 19-Sep-2026</span> <span class="upd-sum">No company filing since the 2-Sep profile beyond AGM logistics; stock ₹142 → ₹143</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 2-Sep-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Trading window closed — results cycle approaching; still the last outstanding C1 refresh · (earlier in window: No company filing since the 2-Sep profile beyond AGM logistics; stock ₹142 → ₹143)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — Nothing material filed**
+Swept **BSE** (515147 — NSE's feed carries nothing for HALDYNGL): a single **trading-window closure** on 22-Sep, signalling the results cycle. Nothing else. **This name remains the last outstanding C1 refresh and still has no concalls in existence.**
+> **Why it matters:** no change to the thesis, the numbers or the open questions in this profile. Recorded so that the gap in the record is a *checked* gap rather than an unchecked one (§0A rule 6).
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM.** The exchange feed carries only AGM-related filings since 2-Sep (BSE 515147; NSE's announcements API remains empty for HALDYNGL). Nothing to blend. Q1FY27 numbers already in the profile: revenue ₹139cr, operating profit ₹22cr, PAT ₹10cr (Screener).
 

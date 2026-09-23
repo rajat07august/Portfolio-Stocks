@@ -14,11 +14,18 @@
 > **🆕 What the official transcript adds, and it is substantial:** **FY27 capex of ₹80–90 crore**, 80% of it into core kitchen sinks · **the factory is running seven days a week and management calls it *"a serious stress"*** · **the US tariff discount rollback is ~90% complete and is a price restoration, not a one-off credit** · **a Lowe's display-cost share of USD 3–4 million that "will not happen now"** · and Q1's soft quartz growth explained by **container delays, not demand**.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹1,131** · market cap ₹3,218 cr · P/E 29.9x · ROCE 18.0% · ROE 17.4% · 52-wk high ₹1,281 / low ₹732 · **vs ₹1,155 at baseline (-2.1%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 1,085** · market cap ₹ 3,089 Cr. · P/E 28.7x · ROCE 18.0 % · ROE 17.4 % · 52-wk ₹ 1,281 / 732 · **vs ₹1,155 at baseline (-6.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">New Chief Technology Officer; FY26 annual report and dividend payment date; nothing else filed; stock −2%</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Prayasvin B. Patel appointed additional independent director; AGM held 22-Sep with all resolutions passed; postal ballot notice to follow · (earlier in window: New Chief Technology Officer; FY26 annual report and dividend payment date; nothing else filed; stock −2%)</span></summary>
 <div class="upd-body">
+
+**🟢 22-Sep-2026 — Prayasvin B. Patel joins the board as an Additional (Independent) Director; AGM held**
+On the Nomination and Remuneration Committee's recommendation the Board appointed **Mr. Prayasvin B. Patel (DIN 00037394) as an Additional Director designated Independent Director with effect from 22-Sep-2026**, subject to members' approval and compliance with Reg 17(1C) and 25(2A). The Board also **approved a draft postal ballot notice**, with a cut-off date of **25-Sep-2026** for the members entitled to receive it. The 2026 AGM was held the same day; the scrutinizer's report and voting results were filed 23-Sep, alongside an **AGM presentation**.
+> **Why it matters.** Board strengthening with an experienced industrialist, run through the proper committee process. **The AGM resolutions passed** — checked explicitly this cycle because a peer holding had a special resolution defeated the same week.
+> **🔎 Worth watching, not concluding:** the postal ballot's subject matter is **not stated in the outcome filing**, and a ballot convened immediately after an AGM usually carries something that could not wait for the next one. *Signal: the postal ballot notice itself, due to members after 25-Sep.*
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at HIGH (Under Watch — commissioning concentration).** The only substantive item is a senior appointment: **Mr. Sumit Kumar as Chief Technology Officer from 3-Sep-2026.** The FY26 annual report (25-Aug, re-filed 3-Sep) and the dividend payment date were filed. No order, capacity or balance-sheet event since 22-Aug. The FY27 capex of ₹80-90cr and the commissioning timeline the Under-Watch flag tracks are unchanged; the next evidence is the Q2FY27 print (~Nov-2026).
 

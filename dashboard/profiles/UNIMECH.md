@@ -11,11 +11,17 @@
 > **🔴 THE ONE-PARAGRAPH VERSION.** Unimech makes the **tools that build and maintain jet engines** — a genuinely differentiated, 65%-gross-margin business with AS9100 certification, multi-year qualification cycles and real switching costs. It listed in December 2024, guided **+40% revenue growth for FY26, and delivered −1%** when US tariffs hit 50% and its customers stopped restocking. It has since spent **₹450cr — essentially its entire IPO treasury — buying Hobel Bellows**, a 50%-EBITDA-margin business, at 7x EBITDA. The stock trades at **105x earnings and 10.3x book on an 11.2% ROCE**, and **roughly half of reported pre-tax profit is interest income, not operations.** **The ₹1,000cr-by-FY29 target that would justify the multiple has not been mentioned on any of the last three calls.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹1,591** · market cap ₹8,100 cr · P/E 112x · ROCE 11.2% · ROE 7.96% · 52-wk high ₹1,653 / low ₹695 · **vs ₹1,491 at baseline (+6.7%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 1,716** · market cap ₹ 8,738 Cr. · P/E 121x · ROCE 11.2 % · ROE 7.96 % · 52-wk ₹ 1,868 / 695 · **vs ₹1,491 at baseline (+15.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">🔴 Five senior managers' exits disclosed up to 13 months late ('inadvertent error'); CARE assigns Issuer Rating A/Stable; ₹3cr more into Dheya, on whose board the CMD and a WTD sit; stock +6.7%</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Nothing filed; the five late-disclosed SMP departures remain the open item · (earlier in window: 🔴 Five senior managers' exits disclosed up to 13 months late ('inadvertent error'); CARE assigns Issuer Rating A/Stable; ₹3cr more into Dheya, on whose board the CMD and a WTD sit; stock +6.7%)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — Nothing material filed**
+Swept both NSE and BSE: **zero announcements.** The 19-Sep item stands: **five senior-management departures disclosed 7-14 months late**, each attributed to *"an inadvertent error"*.
+> **Why it matters:** no change to the thesis, the numbers or the open questions in this profile. Recorded so that the gap in the record is a *checked* gap rather than an unchecked one (§0A rule 6).
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM-LOW.** On 7-Sep the company filed one notice reporting that **five Senior Management Personnel have left, four of them with cessation dates between 7-Jul-2025 and 29-Jan-2026, disclosed 7 to 14 months late**, each attributed to 'an inadvertent error, which has since been identified and rectified'. Among them: the **Head and VP (Technology & IT)**, an **AGM for Business Development, Projects and Customer Accounts**, an **AVP heading a strategic business unit**, and a **Business Unit Head**. A fifth, the SCM Head, ceased to be an SMP on 7-Sep under an internal restructuring. **This is a Regulation 30 timeliness failure inside a business the profile already flags for a thin disclosure record**, and it names departures of technology and business-development leaders during the period the profile records the December-2025 revenue collapse. In the same week CARE **assigned an Issuer Rating of CARE A; Stable**, and the company **invested ₹2.998cr more in Dheya Engineering Technologies, on whose board the Chairman & MD and a Whole-Time Director sit**. The stock is +6.7% to ₹1,591 at 112x.
 

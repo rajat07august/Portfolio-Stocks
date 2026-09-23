@@ -3,6 +3,24 @@
 **Sector 1 — Aerospace & Defence** *(naval platform systems; fits the definition widened for SHREEREFR on 1-Sep-2026 — no new sector)*
 **Thesis current as of: 18-Sep-2026 · Tracking since: 18-Sep-2026**
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 1,104** · market cap ₹ 2,315 Cr. · P/E 59.0x · ROCE 23.5 % · ROE 19.0 % · 52-wk ₹ 1,145 / 445 · **vs ₹1,094 at baseline (+0.9%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Sep-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No filings since the profile was written</span></summary>
+<div class="upd-body">
+
+**⚪ 18 → 23-Sep-2026 — No filings**
+Swept **BSE** (543920 — CFF is not NSE-listed): zero announcements.
+> **Why it matters:** the open items are unchanged — **operating cash flow negative four years running**, and the H1FY27 print (~Nov-2026) is the first test of receivable days since the main-board move on 16-Sep. **No earnings call has ever been filed.**
+
+*Sweep: NSE + BSE announcements from baseline to 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
+
 | | |
 |---|---|
 | **Codes** | **BSE 543920 · BSE ID `CFF`** · ISIN INE0NJ001013 · CIN L28990MH2012PLC227023 · **not listed on NSE** (absent from both `EQUITY_L.csv` and `SME_EQUITY_L.csv`, checked 18-Sep-2026) |

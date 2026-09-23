@@ -12,11 +12,21 @@
 > **🔴 The single rule for this company: tax-normalise every profit comparison.** FY26's effective tax rate was **2.7%**; FY25's was 26.6%; Q1FY27's was 33%. **Reported PAT is not comparable across any two periods here without adjustment**, and the headline records that justified a High conviction at initiation were substantially an accounting event. **Read the PBT line first.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹269** · market cap ₹37,273 cr · P/E 11.6x · ROCE 8.42% · ROE 11.9% · 52-wk high ₹388 / low ₹230 · **vs ₹275 at baseline (-2.2%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 267** · market cap ₹ 37,016 Cr. · P/E 11.5x · ROCE 8.42 % · ROE 11.9 % · 52-wk ₹ 388 / 230 · **vs ₹275 at baseline (-2.9%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Permanent CMD appointed (the CFO, who vacates his seat); US$100m ECB approved; CRISIL AAA reaffirmed; 110 MW solar PPA signed; new joint auditors</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 ₹500cr commercial paper issued; the CMD is given additional charge of Director (Finance) for three months — a second portfolio on one office · (earlier in window: Permanent CMD appointed (the CFO, who vacates his seat); US$100m ECB approved; CRISIL AAA reaffirmed; 110 MW solar PPA signed; new joint auditors)</span></summary>
 <div class="upd-body">
+
+**🟡 22-Sep-2026 — CMD given additional charge of Director (Finance) for three months**
+The Ministry of Coal has **entrusted the additional charge of Director (Finance) to Dr. Prasanna Kumar Acharya, Chairman-cum-Managing Director, for an initial period of three months** with effect from the date stated, in continuation of an intimation of 17-Sep-2026.
+> **Why it matters.** The **finance function of a Navratna PSU is now held in additional charge by the CMD** rather than by a dedicated whole-time Director (Finance). It is the standard government stop-gap and explicitly time-boxed, **but combining the chief executive and chief financial roles in one office weakens the internal check** for as long as it lasts, and "initial period" is language that often extends. *Signal: whether a regular Director (Finance) is appointed inside the three months.*
+
+**23-Sep-2026 — ₹500cr of commercial paper issued**
+**10,000 commercial papers of ₹5,00,000 face value each, aggregating ₹500cr, were issued and allotted on 22-Sep-2026.**
+> *Routine short-term funding for a company of this size; disclosed under Reg 30 and 51. No rate or tenor is given in the intimation.*
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM-HIGH.** The biggest open governance item in the profile, 'no permanent CMD', is closed: the Ministry of Coal appointed Dr. Prasanna Kumar Acharya, until now Director (Finance) & CFO, as CMD for five years from 17-Sep-2026. **The same appointment leaves the CFO seat vacant, and no filing names a successor.** The Board also approved a US$100m unsecured ECB for capex. The stock is ~2% lower at ₹269. The risks that drove the 15-Aug downgrade (government divestment, negative free cash flow, tax line) are untouched by anything filed since.
 

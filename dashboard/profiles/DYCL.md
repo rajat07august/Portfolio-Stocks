@@ -18,11 +18,17 @@
 > **Concall gate: 🟢 GREEN.** Eight transcripts on disk (Oct-2024 → Jul-2026) plus four decks — above the six-concall standard. Every management quote below is verbatim from those transcripts. Where a figure is mine rather than management's, it is labelled.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹457** · market cap ₹2,216 cr · P/E 24.3x · ROCE 26.2% · ROE 19.9% · 52-wk high ₹560 / low ₹237 · **vs ₹465 at baseline (-1.7%)**
+**📍 Live market check — 23-Sep-2026 (Screener, standalone — the consolidated page carries no data):** CMP **₹ 477** · market cap ₹ 2,310 Cr. · P/E 25.3x · ROCE 26.2 % · ROE 19.9 % · 52-wk ₹ 560 / 237
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">FY26 annual report read: the ₹344.75cr related-party guarantee claim finds no support (related-party collateral fell from ₹5cr to nil; total contingent liabilities ₹207.5cr); senior QA manager resigns; stock −1.7%</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Head of HR & Corporate Communication resigned (SMP), effective 23-Sep · (earlier in window: FY26 annual report read: the ₹344.75cr related-party guarantee claim finds no support (related-party collateral fell from ₹5cr to nil; total contingent liabilities ₹207.5cr); senior QA manager resigns; stock −1.7%)</span></summary>
 <div class="upd-body">
+
+**🟡 23-Sep-2026 — Senior management departure: Head of HR & Corporate Communication**
+**Ms. Aditi Mangal, Head of Human Resource & Corporate Communication**, designated Senior Management Personnel, **resigned "due to personal reasons"** and was relieved at the close of business on 23-Sep-2026. A companion structured filing under "Resignation of Director/KMP/SMP" was made six minutes later — **the same event, not two.**
+> **Why it matters:** an SMP, not a KMP — **the CFO, MD and board are unaffected**, and the stated reason is personal. Recorded for completeness and because senior-management churn is worth tracking cumulatively rather than singly. **No successor is named.**
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM.** The profile's open question, whether DYCL had ~₹344.75cr of corporate guarantees to entities linked to the Chairman's family, can now be answered from the audited FY26 accounts (filed 22-Jun-2026 and not read at the profile date). **I found no such guarantee.** The FY26 contingent-liability note totals **₹207.52cr, of which ₹174.36cr is ordinary bank guarantees and ₹25.11cr bills discounted under LCs; 'collateral security of company property against borrowing by related party' was ₹5.00cr at March 2025 and is nil at March 2026.** The related-party tables show only small rent, sales (₹1.96cr to Mangal Electrical) and loan movements, and a ₹11cr property purchase from Shiv Kripa Pipes in FY25. **The second-hand ₹344.75cr figure is not supported by the FY26 statements or their FY25 comparatives.** *Remaining caution:* the September-2026 greenfield plant timing is not updated in any filing since 18-Aug, and the promoter-director loan flow persists.
 

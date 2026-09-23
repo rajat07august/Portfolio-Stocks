@@ -14,11 +14,17 @@
 > **🔴 Dynamatic has not held an earnings call since February 2024** — verified across 672 NSE filings. **Yet it publishes the best earnings presentation in this refresh cycle**, including a full constant-currency reconciliation of its own headline growth. **That combination — excellent disclosure, no forum to question it — governs how this profile is written.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹12,061** · market cap ₹8,191 cr · P/E 140x · ROCE 10.2% · ROE 6.67% · 52-wk high ₹12,875 / low ₹6,716 · **vs ₹11,188 at baseline (+7.8%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 12,561** · market cap ₹ 8,527 Cr. · P/E 146x · ROCE 10.2 % · ROE 6.67 % · 52-wk ₹ 12,966 / 6,716 · **vs ₹11,188 at baseline (+12.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">No company event beyond the FY26 annual report; stock +7.8% to ₹12,061 at 140x</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No material filings in the window — zero announcements on the feeds swept · (earlier in window: No company event beyond the FY26 annual report; stock +7.8% to ₹12,061 at 140x)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — Nothing material filed**
+Swept both feeds (NSE symbol DYNAMATECH): **zero announcements.**
+> **Why it matters:** no change to the thesis, the numbers or the open questions in this profile. Recorded so that the gap in the record is a *checked* gap rather than an unchecked one (§0A rule 6).
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM.** The exchange feed carries only the FY26 annual report (20-Aug) and shareholder letters since 15-Aug. The annual report has **not been read for this refresh**; it is where the profile's open constant-currency and unallocated-cost items would be checked. The stock rose 7.8% to ₹12,061 on a trailing P/E of 140x, near its ₹12,875 high.
 

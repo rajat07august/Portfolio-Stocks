@@ -3,6 +3,24 @@
 **Sector 4 — Chemicals (Diversified & Specialty)** *(dashboard label: "Specialty Chem & Pharma")*
 **Thesis current as of: 19-Sep-2026 · Tracking since: 19-Sep-2026**
 
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 481** · market cap ₹ 2,909 Cr. · P/E 6.08x · ROCE 19.2 % · ROE 15.6 % · 52-wk ₹ 600 / 229 · **vs ₹470 at baseline (+2.3%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 19-Sep-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Trading window closed ahead of Q2FY27 — the quarter that tests how much of the crude windfall held</span></summary>
+<div class="upd-body">
+
+**⚪ 23-Sep-2026 — Trading window closed; nothing else filed**
+The only filing since the profile was written is the SEBI PIT trading-window closure, which puts **Q2FY27 results within reach**.
+> **Why it matters:** this is the quarter the profile was built to test — **whether OPM holds at ≥12% with no inventory write-down, or gives back below 7%.** Also still open: whether an earnings call is held (none since 9-Nov-2023), and the FY27 AR remuneration note explaining the ₹7.3cr → ₹32.3cr jump in Q1 standalone employee cost.
+
+*Sweep: NSE + BSE announcements from baseline to 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
+
+
 | | |
 |---|---|
 | **Codes** | **NSE `PANAMAPET`** · **BSE 524820** · ISIN INE305C01029 · CIN L23209GJ1982PLC005062 |

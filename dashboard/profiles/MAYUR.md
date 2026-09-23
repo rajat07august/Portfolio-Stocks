@@ -2,16 +2,16 @@
 
 **Ticker:** MAYURUNIQ · BSE: 522249 · NSE: MAYURUNIQ · **Sector:** 11 — Packaging & Materials (Synthetic Leather / Coated Fabrics)
 **Conviction:** **HIGH** · **Weighted 2-yr return:** ~+27% (≈12.7% CAGR) + 0.79% dividend
-**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 21-Aug-2026)* · **Tracking since:** 3-Jul-2026
+**Thesis current as of:** 23-Sep-2026 *(filings refresh; last full rewrite 21-Aug-2026)* · **Tracking since:** 3-Jul-2026
 **CMP:** ₹757 · **Market Cap:** ₹3,283 cr · **P/E (trailing):** 15.8x · **P/B:** 2.90x (BV ₹261) · **ROCE:** 24.5% · **ROE:** 18.0% · **Div yield:** 0.79% · **52-wk range ₹471–₹907** *(Screener consolidated, 21-Aug-2026)*
 
 > **🎧 Sourcing note. Mayur is a HELD POSITION and falls under the §4A "transcribe immediately" tier.** It also **files no investor decks — it is transcript-only.** The Q1FY27 call (6-Aug-2026) was machine-transcribed the same day from company audio; **the official transcript was filed on 10-Aug-2026 and the machine version has now been verified against it.** **All quotes in this profile are from the official transcript** — which turned out to contain **three material disclosures the machine version had lost entirely**, including multi-year revenue guidance. See §9 data-quality note 1.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹743** · market cap ₹3,230 cr · P/E 15.6x · ROCE 24.5% · ROE 18.0% · 52-wk high ₹907 / low ₹471 · **vs ₹757 at baseline (-1.8%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 723** · market cap ₹ 3,146 Cr. · P/E 15.2x · ROCE 24.5 % · ROE 18.0 % · 52-wk ₹ 907 / 471 · **vs ₹757 at baseline (-4.5%)** — *the AGM defeat was filed 21-Sep; the stock is −2.7% since 18-Sep*
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Shareholders voted DOWN the promoter-family related-party remuneration (62.9% against); founder-CMD could not speak at the 18-Sep AGM; stock −2%</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 🔴 The WTD's re-appointment was DEFEATED at the AGM (70.44% for, needed 75%) and the promoter block split 70/30 against itself; earlier, shareholders voted down the family pay resolution and the founder-CMD could not speak · (earlier in window: Shareholders voted DOWN the promoter-family related-party remuneration (62.9% against); founder-CMD could not speak at the 18-Sep AGM; stock −2%)</span></summary>
 <div class="upd-body">
 
 **Net read:** **HELD at HIGH — a held position; no operating news, two governance data points.** (1) The related-party resolution the profile called 'the opposite of a governance flag' **failed at the ballot box**, because institutions voted against it. (2) The AGM record states the Chairman could not speak, which extends the key-man item first raised on the Q1FY27 call. Neither touches earnings, and the ₹60 lakh-a-year amount remains 0.3% of PAT. **What changed is tone, not thesis: minorities used their veto, and the key-man question is now in a filed document.**
@@ -205,7 +205,7 @@ The 30-second snapshot:
 | **🆕 New line: +5 lakh metres, Feb–Mar 2027** | Q1FY27 | Line already ordered for the existing premises | 🕐 **On order** |
 | **Overseas plant decision** | Multi-year | **STILL UNDECIDED after ~2 years** — *"because of all this Trump tariffs, the West Asia war… we have not taken a final call"* | 🔴 **Open** |
 | PU business ramp | Q1FY26 | **FY26 PU revenue only ₹27cr.** US customer audit passed; no commercial deal | 🟡 **Slow — the visible gap** |
-| Board succession | FY26 | Bagaria re-appointed 5 years from Aug-2027; Roongta's ID term expires on schedule 27-Sep-2026; Haritwal appointed 6-Aug-2026 | ✅ **Orderly** |
+| Board succession | FY26 | Bagaria re-appointed 5 years from Aug-2027; Roongta's ID term expires on schedule 27-Sep-2026; Haritwal appointed 6-Aug-2026 | 🔴 ⤴ **CORRECTED 23-Sep-2026 — was ✅ Orderly.** **Shareholders DEFEATED Bagaria's re-appointment at the 18-Sep AGM** (70.44% in favour, 75% needed), **with 29.51% of the promoter block voting against.** Haritwal's appointment did pass |
 
 **Verdict on management.**
 
@@ -360,7 +360,7 @@ The clearest exchange on the call, and it did not survive the machine transcript
 
 > **So the honest structure of this investment is: a very good compounder, priced reasonably, with one large binary sitting outside management's control and one large decision sitting inside it that has not been taken.** **The ₹250cr figure is what the decision costs. The 10–12% three-year guidance is what happens if they never take it.**
 
-**And a second, quieter dependency.** Threads A and B rest on relationships and judgement built over 51 years by one man — **who, on the company's own account, is now having difficulty speaking on calls.** Arun Bagaria has led the last two and been re-appointed for five years from Aug-2027. **The transition appears to be happening in an orderly way. It is happening.**
+**And a second, quieter dependency.** Threads A and B rest on relationships and judgement built over 51 years by one man — **who, on the company's own account, is now having difficulty speaking on calls.** Arun Bagaria has led the last two and was re-appointed by the board for five years from Aug-2027. ⤴ **CORRECTED 23-Sep-2026 — this paragraph previously read *"The transition appears to be happening in an orderly way. It is happening."* That is no longer supportable: on 18-Sep shareholders DEFEATED Bagaria's re-appointment (70.44% for, 75% needed), and 29.51% of the promoter block voted against it.** **The transition is now contested, and the profile says so.** See §5.5(b).
 
 ---
 
@@ -376,12 +376,20 @@ The clearest exchange on the call, and it did not survive the machine transcript
 | **6-Aug-2026** | **HELD at High** | Q1FY27: revenue **+24.5%** and TTM through ₹1,000cr for the first time; **margin normalised to 22% after an anomalous 31% quarter**; 86% cash conversion; promoter accumulating; **multiple fell to 16.3x while earnings rose** |
 | 21-Aug-2026 | **HELD at High** | **Official Q1FY27 transcript verified against the machine transcription** — and it carried **three material disclosures the machine version had lost**, all of which strengthen the operating case. **Offset by a concrete key-man disclosure.** Net: no change |
 | **19-Sep-2026** | **HELD at High** | Filings refresh: **shareholders defeated the related-party pay resolution (7-Sep, 62.9% against)**; AGM record (18-Sep) states the Chairman could not speak and the WTD answered for him. No operating news; Q1FY27 print and guidance intact. Stock ₹757 → ₹743. |
+| **23-Sep-2026** | **HELD at HIGH (Under Watch)** | 🔴 **The AGM voting results (21-Sep) show Arun Bagaria's re-appointment as Whole Time Director was DEFEATED** — 70.44% in favour against a 75% special-resolution threshold — **and the promoter block split 70.49/29.51 against itself.** Second family-linked defeat in eleven days. **Operating thesis untouched: no new numbers, guidance intact.** Conviction held because the business is unchanged; **Under Watch because the succession is now contested rather than orderly.** |
 
-**Downgrade to MH if:** OPM falls below 20% for two consecutive quarters · **or** export share falls below 38% · **or** US tariff action specifically targets synthetic leather / auto-interior imports · **or** the succession question raised on the Q1FY27 call is still unanswered at the FY27 annual call.
+**Downgrade to MH if:** OPM falls below 20% for two consecutive quarters · **or** export share falls below 38% · **or** US tariff action specifically targets synthetic leather / auto-interior imports · **or** the succession question raised on the Q1FY27 call is still unanswered at the FY27 annual call · **🆕 or** the contested succession produces an executive departure, a board split disclosed under Reg 30, or a change in the promoter register *(trigger set 23-Sep-2026)*.
 
 **Upgrade case:** export share past 45% with OPM holding 24%+ **and** a committed overseas plant location would make the bull case the base case.
 
 ### (b) Material developments — newest first
+
+**🔴 The Whole Time Director's re-appointment was DEFEATED at the AGM — and the promoter family split its own vote** *(scrutinizer's report and voting results, filed 21-Sep-2026)*
+The 19-Sep baseline recorded that Arun Bagaria's re-appointment *"is on the ballot."* **It failed.** Items 1–5 passed; **Item 6 — the special resolution to re-appoint Mr. Arun Bagaria (DIN 00373862) as Whole Time Director designated as Executive Director — received 70.4406% in favour and, needing 75% as a special resolution, is recorded by the scrutinizer as *"has not been passed."***
+**The promoter and promoter group voted 70.49% in favour and 29.51% against** — 18,001,112 shares for, **7,537,321 against**, out of a block of 25,538,433. Public institutions were 64.08% in favour (35.92% against, on a 60.4% turnout of their shares); public non-institutions 99.94% in favour on a 2.87% turnout. Total turnout 64.57% of equity.
+> **Why it matters.** **The profile's "orderly succession" reading does not survive this vote, and is corrected in §3.5, §5 and §5.5(d).** The man who has chaired the last two earnings calls and the AGM on behalf of a founder who — in the company's own filed words — *"is not able to speak currently"*, **has just been refused a fresh term by shareholders.** It is the second promoter-family-linked resolution defeated in eleven days, after the 7-Sep pay vote.
+> **🔎 MY INFERENCE, not the company's — the filing reports category aggregates only and does not say who voted which way, or why.** Matching the vote counts against **NSE's filed shareholding XBRL for 30-Jun-2026** partitions the promoter register **exactly, with no remainder**: the against-bloc of **7,537,321 = Manav Poddar (6,859,158) + Puja Poddar (678,163)**; the in-favour bloc of **18,001,112 = Suresh Kumar Poddar (17,582,126) + Arun Bagaria (332,645) + Kiran Poddar (83,727) + Dolly Bagaria (2,614)**. The six holders sum to 25,538,433, which **equals the promoter block in the voting record** — confirming no promoter holding changed before the record date. On that arithmetic **the founder's son and daughter-in-law voted against the executive director standing in for his father**, eleven days after institutions rejected her remuneration. **The company has disclosed no reason, and none is inferred here beyond the arithmetic.**
+> **What is NOT known:** what happens to Bagaria's position now (his current term runs to 1-Aug-2027, and the defeated resolution concerned the five-year term beginning then); whether the board will re-propose it; and whether this reflects a wider family disagreement. **No filing addresses any of these.**
 
 **🔴 A named key-man disclosure — the founder-CMD is not able to take calls** *(Q1FY27 official transcript, filed 10-Aug-2026)*
 Asked directly about Suresh Poddar's health and whether he is managing everything well, management answered: *"**He had a slight infection.** So obviously he's managing everything well. But **he is having a little difficulty in talking on con-call.**"* The follow-up — *"And any MD -- full time MD..."* — **was cut off by the moderator for time and never answered.**
@@ -504,7 +512,7 @@ Analysts and management discuss a **"25% plus"** margin on the Q1FY27 call while
 
 **Risk 2 — 🔴 The overseas plant decision remains open after ~2 years.** *"we have not taken a final call."* **The answer to Risk 1 exists, costs ₹250cr, and has not been taken.** Every quarter of delay leaves the exposure intact. *Signal: any announcement of a committed location.*
 
-**Risk 3 — 🔴 Key-man concentration.** The 51-year founder-CMD **is not currently able to take earnings calls** (management's own words). Arun Bagaria has led the last two and is re-appointed to 2032, **but a shareholder's question about a full-time MD was asked on the Q1FY27 call and went unanswered.** *Signal: whether the succession question is addressed at the FY27 annual call.*
+**Risk 3 — 🔴 Key-man concentration — ⚠️ ESCALATED 23-Sep-2026, and now a succession-contest risk rather than only a key-man one.** The 51-year founder-CMD **is not currently able to take earnings calls** (management's own words) and the filed AGM proceedings say he *"is not able to speak currently."* **Arun Bagaria, who has chaired the last two calls and the AGM in his place, had his five-year re-appointment DEFEATED by shareholders on 18-Sep** (70.44% in favour against a 75% threshold) — **with 29.51% of the promoter block voting against**, which on the share-count arithmetic in §5.5(b) is the founder's son and daughter-in-law. **A shareholder's question about a full-time MD, asked on the Q1FY27 call, remains unanswered.** *Signals: whether the board re-proposes the resolution; who leads the Q2FY27 call; any Reg 30 filing on Bagaria's position; and whether the promoter register moves.*
 
 **Risk 4 — 🟡 Raw material and freight volatility.** Petrochemical inputs *"went up very sharply… then a fall… then again up"*, and **shipping costs rose 4x** in Q1FY27 on the war situation. Management will not call the freight increase permanent, but nor can they call it temporary.
 

@@ -12,11 +12,17 @@
 > **🔴 Concall gate: NOT APPLICABLE — PARAS holds no earnings calls.** Across **424 NSE filings**, the only transcript-type disclosure is from **7-Oct-2022**. **There is no Q1FY27 earnings call, no investor presentation, and no order-book disclosure** — the results filing was checked directly (`order book`: **0 mentions**). `Fetched Concalls/PARAS/` contains **only investor decks**, the most recent from **Feb-2026**. *This is a source limit, not a fetch failure — and it shapes every judgement below.*
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹1,373** · market cap ₹11,062 cr · P/E 120x · ROCE 17.2% · ROE 12.4% · 52-wk high ₹1,585 / low ₹580 · **vs ₹1,281 at baseline (+7.2%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 1,381** · market cap ₹ 11,111 Cr. · P/E 120x · ROCE 17.2 % · ROE 12.4 % · 52-wk ₹ 1,585 / 580 · **vs ₹1,281 at baseline (+7.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">No company event beyond investor-conference meetings and the FY26 annual report; stock +7% to ₹1,373 at ~120x</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No material filings in the window; 1 routine item(s) · (earlier in window: No company event beyond investor-conference meetings and the FY26 annual report; stock +7% to ₹1,373 at ~120x)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — Nothing material filed**
+One filing: a **trading-window closure** on 19-Sep.
+> **Why it matters:** no change to the thesis, the numbers or the open questions in this profile. Recorded so that the gap in the record is a *checked* gap rather than an unchecked one (§0A rule 6).
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM-LOW.** No order, guidance, management or balance-sheet filing since 13-Aug. Management met investors at the Motilal Oswal and Kotak conferences (14 and 17-Aug). The stock rose 7% on no disclosed news; at ₹1,373 the trailing P/E is 120x (Screener) against the profile's 112x. FY26 annual report filed and **not read for this refresh**.
 

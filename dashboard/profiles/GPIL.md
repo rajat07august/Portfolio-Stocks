@@ -8,11 +8,17 @@
 > **The operating thesis is current as of the Q1FY27 print (7-Aug) and the earnings call (10-Aug).** Two things have been added since: the **official transcript was filed 13-Aug and the machine transcription has now been verified against it** (§9 data-quality note 1 — one figure was wrong and is corrected below), and a **promoter-group transmission on 17-Aug** following a death in the family (§5.5(b)). Neither changes the thesis.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹233** · market cap ₹15,718 cr · P/E 19.2x · ROCE 20.5% · ROE 15.3% · 52-wk high ₹320 / low ₹221 · **vs ₹229 at baseline (+1.7%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 235** · market cap ₹ 15,806 Cr. · P/E 19.3x · ROCE 20.5 % · ROE 15.3 % · 52-wk ₹ 320 / 221 · **vs ₹229 at baseline (+2.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">2 MnT pellet plant back in operation on 29-Aug after ~46 days down; promoter transmission (17-Aug) formalised; stock +1.7%</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 AGM passed cleanly; Anand Rathi G200 Summit meetings disclosed no new information · (earlier in window: 2 MnT pellet plant back in operation on 29-Aug after ~46 days down; promoter transmission (17-Aug) formalised; stock +1.7%)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — Nothing material filed**
+Six filings, none price-sensitive: AGM proceedings, scrutinizer's report and **voting results (all resolutions passed)** for the 19-Sep AGM, and participation in the **Anand Rathi G200 Summit on 21-Sep**, whose outcome filing records only that one-on-one and group meetings were held — **no new information was disclosed at them.**
+> **Why it matters:** no change to the thesis, the numbers or the open questions in this profile. Recorded so that the gap in the record is a *checked* gap rather than an unchecked one (§0A rule 6).
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM-HIGH (Under Watch).** The one operating fact the profile was waiting on arrived: the 2.0 MnT phase-II pellet plant, suspended on 14-Jul after GAIL curtailed contracted gas, resumed 'normally' on 29-Aug. **The filing gives 'improved market conditions' as the reason and does not restate whether the gas supply was restored.** About 46 days of a 2 MnT-a-year plant (~0.25 MnT, *my arithmetic at nameplate*) were lost in Q2FY27, so the profile's FY27 pellet target of 4.0 MnT (0.90 MnT achieved in Q1) stays 'at risk' but is no longer worsening. Nothing else changes the thesis.
 

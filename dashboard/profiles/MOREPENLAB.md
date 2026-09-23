@@ -10,11 +10,18 @@
 > ***The consequence: the entire CDMO transformation this profile describes happened in the window during which the company stopped taking analyst questions. The word "CDMO" appears zero times in the May-2025 transcript.*** **Everything about the new strategy in §4 is management's own written framing, unchallenged. It is labelled as such throughout.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹121** · market cap ₹6,625 cr · P/E 56.4x · ROCE 8.05% · ROE 5.33% · 52-wk high ₹124 / low ₹33.0 · **vs ₹104 at baseline (+16.3%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 122** · market cap ₹ 6,709 Cr. · P/E 57.1x · ROCE 8.05 % · ROE 5.33 % · 52-wk ₹ 127 / 33.0 · **vs ₹104 at baseline (+17.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 1-Sep-2026 → 19-Sep-2026</span> <span class="upd-sum">First phase of the capacity expansion completed ahead of schedule (API/CDMO reactors 535 KL → 614 KL); stock +16% to ₹121; still no earnings call</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 1-Sep-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 CRISIL assigned an unsolicited ESG rating of 60 ('Adequate'); still no earnings call · (earlier in window: First phase of the capacity expansion completed ahead of schedule (API/CDMO reactors 535 KL → 614 KL); stock +16% to ₹121; still no earnings call)</span></summary>
 <div class="upd-body">
+
+**⚪ 21-Sep-2026 — CRISIL assigns an unsolicited ESG rating of 60, 'Adequate'**
+CRISIL ESG Ratings & Analytics assigned an **overall ESG rating of 'CRISIL ESG 60'**, an *"Adequate"* category. The company states explicitly: *"The company has not engaged CRISIL for ESG Ratings. CRISIL has independently assigned the ESG Rating based on publicly disclosed information for the fiscal 2026."*
+> **Why it matters: barely, and the reason is worth saying.** An unsolicited rating built only from public disclosure is **as much a measure of how much a company discloses as of how it behaves** — and Morepen's disclosure is precisely the problem this profile keeps returning to.
+> **The open item is untouched: there has still been no earnings-call transcript since 17-May-2025**, and the entire CDMO transformation — including the ₹825cr mandate whose customer, duration and firmness are undisclosed — has happened inside that silence. **⭐ The single trigger remains whether a call is held at the Q2FY27 results (~Nov-2026).**
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM (Under Watch — the disclosure gap).** The company reported completion of the first expansion phase early: installed API and CDMO reactor capacity rose from **535 KL to 614 KL, +14.8%**. It adds no revenue, customer or margin information and is not a substitute for the earnings call the profile's single trigger asks for. **No call has been announced** in the exchange feed since 1-Sep. The stock is +16% to ₹121, within 3% of its ₹124 52-week high, at 56x.
 

@@ -19,11 +19,17 @@
 > **⚠️ Reporting basis, stated up front.** Macpower has no subsidiaries, no joint ventures and no associates. Every figure in this profile is standalone and audited, reconciled between the FY26 Annual Report (filed 20-Aug-2026), the quarterly filings and Screener. Where the three disagree, the disagreement is stated.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹2,104** · market cap ₹2,105 cr · P/E 54.1x · ROCE 29.1% · ROE 21.3% · 52-wk high ₹2,149 / low ₹761 · **vs ₹1,843 at baseline (+14.2%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 2,060** · market cap ₹ 2,060 Cr. · P/E x · ROCE % · ROE % · 52-wk ₹ 2,175 / 761 · **vs ₹1,843 at baseline (+11.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 11-Sep-2026 → 19-Sep-2026</span> <span class="upd-sum">Investor-meeting flurry (DII management meet 21-Sep; CMD in a promoter-interview series); nothing on the three unreconciled figures; stock +14% to ₹2,104 at 54x</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 11-Sep-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 AGM held 23-Sep; CMD took part in a promoter-interview series. H1FY27 remains the checkpoint for the three unreconciled Q1 figures · (earlier in window: Investor-meeting flurry (DII management meet 21-Sep; CMD in a promoter-interview series); nothing on the three unreconciled figures; stock +14% to ₹2,104 at 54x)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — Nothing material filed**
+Three filings, all routine: **AGM proceedings on 23-Sep (filed twice, twenty minutes apart — the same meeting, not two)**, and an intimation that the **Chairman & MD took part in a promoter-interview series run by a content and digital strategy agency.** ⚠️ **The three Q1FY27 call figures that do not reconcile to the audited accounts are still open and can only be settled at the H1FY27 balance sheet (~Nov-2026)**, since no quarterly balance sheet is published.
+> **Why it matters:** no change to the thesis, the numbers or the open questions in this profile. Recorded so that the gap in the record is a *checked* gap rather than an unchecked one (§0A rule 6).
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM.** Three routine filings since 11-Sep: investor-meet schedules (15 and 17-Sep, including a management meeting with domestic institutions on 21-Sep) and a notice that the Chairman & MD took part in a promoters-interview series run by a content agency (18-Sep). **None of the three figures the profile could not reconcile (receivables, cash, market share) has been addressed**; the H1FY27 balance sheet (~Nov-2026) is still the only test. The stock is +14% in a week to ₹2,104, at its ₹2,149 52-week high and 54x, so the profile's 'comfortable at ₹1,400-1,500' zone now sits about 30% below the price.
 

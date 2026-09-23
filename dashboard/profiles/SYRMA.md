@@ -12,11 +12,22 @@
 > **Concall gate: ✅ CLEARED.** Q1FY27 call held **30-Jul-2026**, transcript filed **4-Aug-2026** (90,971 chars), on disk with five earlier transcripts (May-2025 → Jun-2026), the deck and the press release. Management: **J.S. Gujral (MD)**, **Jayesh Doshi (WTD)**, **Jaidit Singh Brar (CEO — new)**, **Bijay Agrawal (CFO)**, **Nikhil Gupta (Head IR)**. Analysts included **ICICI Securities, Motilal Oswal, JP Morgan**.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹1,729** · market cap ₹33,338 cr · P/E 89.8x · ROCE 16.8% · ROE 14.0% · 52-wk high ₹1,765 / low ₹634 · **vs ₹1,465 at baseline (+18.0%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 1,719** · market cap ₹ 33,110 Cr. · P/E 89.2x · ROCE 16.8 % · ROE 14.0 % · 52-wk ₹ 1,804 / 634 · **vs ₹1,465 at baseline (+17.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Elemaster JV plant inaugurated in Bengaluru; Kaga JV company incorporated; Executive Chairman re-appointed; stock +18% to ₹1,729 at 90x</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Subsidiary Syrma Johari MedTech opened a medical plastics and precision moulding plant in Jodhpur; WTD appointment clarification filed · (earlier in window: Elemaster JV plant inaugurated in Bengaluru; Kaga JV company incorporated; Executive Chairman re-appointed; stock +18% to ₹1,729 at 90x)</span></summary>
 <div class="upd-body">
+
+**🟢 22-Sep-2026 — Syrma Johari MedTech inaugurates a medical plastics and precision moulding facility in Jodhpur**
+Subsidiary **Syrma Johari MedTech Limited** inaugurated a new **Medical Plastics and Precision Molding Facility in Jodhpur**, disclosed by press release under Reg 30.
+> **Why it matters.** Medical devices are the higher-margin, higher-regulatory-barrier end of the EMS mix and the least commoditised part of Syrma's portfolio. A dedicated precision-moulding plant is **vertical integration beyond board assembly** into the plastics content of a device.
+> *Not disclosed: capex, capacity, customers or revenue contribution — so this is a capability milestone, not yet a numbers event.*
+
+**21-Sep-2026 — Clarification on the appointment of Mr. Jayesh Nagindas Doshi as Whole-time Director**
+A Reg 30 clarification/intimation regarding the Whole-time Director appointment.
+> *Routine follow-up to an earlier disclosure; no change to the operating picture.*
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM-HIGH.** Two JV milestones landed on schedule: the **Syrma SGS Elemaster (60/40) high-reliability facility in Bengaluru was inaugurated on 2-Sep**, and the **Syrma Kaga Electronics (60/40) company was incorporated on 18-Aug**. Neither states capex, capacity or revenue. The Board re-appointed Sandeep Tandon as Executive Chairman and named Jayesh Doshi Whole-Time Director. The stock rose 18% to a 52-week high at 90x trailing earnings; the profile's ~+15% weighted return at ₹1,465 is thin at ₹1,729 *(my scaling, scenarios not re-derived)*.
 

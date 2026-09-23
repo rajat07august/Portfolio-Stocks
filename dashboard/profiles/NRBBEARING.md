@@ -20,11 +20,18 @@
 > **⚠️ Two versions of the Q1FY27 transcript exist.** NRB filed one at 13:04 on 13-Aug-2026 and a **"Revised Earnings Call Transcript" at 18:19 the same day**, citing *"a typographical error."* All quotes below are from the **revised** file, which is authoritative. See §3.5 for what the correction actually changed — it is not nothing.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹526** · market cap ₹5,093 cr · P/E 34.1x · ROCE 18.4% · ROE 15.6% · 52-wk high ₹535 / low ₹213 · **vs ₹484 at baseline (+8.7%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 541** · market cap ₹ 5,239 Cr. · P/E 35.1x · ROCE 18.4 % · ROE 15.6 % · 52-wk ₹ 549 / 213 · **vs ₹484 at baseline (+11.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 19-Sep-2026</span> <span class="upd-sum">Promoter pledge falls again (Tata Capital release of 23 lakh shares; 3.10% of capital still pledged vs 39.80% in March), but two promoter-group holders also SOLD 5.1 lakh shares on 11-Sep; NSE volume spurt; stock +8.7%</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Second NSE volume-spurt query in five days, answered with the standard 'normal market forces' reply; June's 6.47pp promoter drop still unexplained · (earlier in window: Promoter pledge falls again (Tata Capital release of 23 lakh shares; 3.10% of capital still pledged vs 39.80% in March), but two promoter-group holders also SOLD 5.1 lakh shares on 11-Sep; NSE volume spurt; stock +8.7%)</span></summary>
 <div class="upd-body">
+
+**🟡 18 and 22-Sep-2026 — Two NSE volume-spurt notices; the company's reply is the standard formula**
+NSE flagged a **significant increase in volume** on 18-Sep and again on 22-Sep. The Company replied that the movement *"may be a result of normal market forces, trading/investment decisions of investors, and general market sentiment, over which the Company has no control and for which it cannot be held responsible,"* and affirmed it is in compliance with Reg 30 and will disclose any price-sensitive information as it arises.
+> **Why it matters.** The reply is boilerplate and is **not evidence of anything either way**. What makes it worth recording is the context this profile already carries: the **6.47pp fall in promoter holding in the June quarter that no filing has ever explained**, and the **promoter-group sale of 5.1 lakh shares on 11-Sep** (properly disclosed). **Unusual volume in a scrip with an unexplained promoter-holding movement is a combination to keep under watch, not to draw a conclusion from.**
+> **The §9 open question stands unchanged**, and its trigger is unchanged: **if the June fall proves to be an inadequately disclosed promoter sale, downgrade M → ML regardless of operating performance.** *Target: FY26 Annual Report or the Q2FY27 call.*
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM (Under Watch), trigger not fired.** The profile's two promoter items both moved on 16-Sep filings. **Good: Harshbeena Sahney Zaveri released the pledge on 23,00,000 shares (2.37% of the company) to Tata Capital after pre-paying a loan, leaving 30,00,254 shares (3.10%) pledged**, against 39.80% of the company at 31-Mar-2026. **Less good: two promoter-group holders sold shares on 11-Sep — 10,000 by Harshbeena Zaveri and 5,00,000 (0.52%) by Trilochan Singh Sahney Trust 1, leaving that trust 11,175 shares — and disclosed the sales on 16-Sep.** Roughly 5.1 lakh shares is ~₹27cr at ₹526 *(my arithmetic)*. Both filings are timely and adequate, so this is not the 'inadequately disclosed promoter sale' the trigger names. **They do not explain the 6.47 percentage-point fall in promoter holding in the June-2026 quarter, which remains unexplained.** The stock is +8.7% to ₹526 (34x), NSE flagged a volume spurt on 18-Sep, and it sits at its ₹535 52-week high.
 

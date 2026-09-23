@@ -11,11 +11,17 @@
 > **🔴 THE ONE THING TO CARRY.** Q1FY27 revenue grew **48%** and the CFO's prepared remarks called it *"primarily volume-driven,"* with *"no material changes in pricing or product mix."* **The company's own volume disclosure, given in Q&A twenty minutes later, shows volumes up 21.5% and realisation per MVA up 21.8% — i.e. 45% of the growth was price.** The CMD had explained that exact mechanism himself one quarter earlier. **The growth is real; the characterisation of it is not.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 18-Sep-2026 close (Screener):** CMP **₹1,666** · market cap ₹12,812 cr · P/E 58.7x · ROCE 45.3% · ROE 31.7% · 52-wk high ₹2,200 / low ₹708 · **vs ₹1,902 at baseline (-12.4%)**
+**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 1,656** · market cap ₹ 12,687 Cr. · P/E 58.1x · ROCE 45.3 % · ROE 31.7 % · 52-wk ₹ 2,200 / 708 · **vs ₹1,902 at baseline (-12.9%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 3-Sep-2026 → 19-Sep-2026</span> <span class="upd-sum">No company event beyond an investor-meet notice; stock −12.4% to ₹1,666, now 24% below its ₹2,200 52-week high</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 3-Sep-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 AGM proceedings and voting results — all resolutions passed · (earlier in window: No company event beyond an investor-meet notice; stock −12.4% to ₹1,666, now 24% below its ₹2,200 52-week high)</span></summary>
 <div class="upd-body">
+
+**⚪ 19 → 23-Sep-2026 — Nothing material filed**
+Two filings: **AGM proceedings (21-Sep) and the scrutinizer's report with voting results (23-Sep) — all resolutions passed.** Checked explicitly this cycle because a peer had a special resolution defeated the same week.
+> **Why it matters:** no change to the thesis, the numbers or the open questions in this profile. Recorded so that the gap in the record is a *checked* gap rather than an unchecked one (§0A rule 6).
+
+*Sweep: NSE + BSE announcements 19-Sep → 23-Sep-2026; market data Screener 23-Sep-2026. BSE's JSON announcements API is currently Akamai-blocked from this machine — the BSE leg was run through Chrome.*
 
 **Net read:** **HELD at MEDIUM-LOW.** The exchange feed carries only one investor-meet schedule since 3-Sep. The stock fell 12.4% to ₹1,666 (58.7x), on no disclosure. That moves it toward the profile's own peer-group view that its multiple is roughly double what its returns fetch, without changing any operating fact. The profile's unresolved items (400 kV first revenue, the 765 kV approval, the ~60,000 MVA of new competitor capacity) have no filing behind them.
 
