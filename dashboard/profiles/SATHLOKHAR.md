@@ -15,13 +15,26 @@
 **📍 Live market check — 6-Oct-2026 (Screener, standalone — the consolidated page carries no data):** CMP **₹ 384** · market cap ₹ 998 Cr. · P/E 9.72x · ROCE 36.3 % · ROE 30.3 % · 52-wk ₹ 580 / 283
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 New order win (1-Oct) and an investor-meet outcome; H1FY27 print approaching · (earlier: Business update advertised in Business Standard; 1.7 lakh sq ft PEB factory inaugurated 30-Aug, PEB now ~35% of the order book · (earlier in window: PEB plant inaugurated on schedule; confirmed FY27 orders ₹1,139cr (from ₹1,102cr), ₹22,654cr bid pipeline, ~70% growth guidance reaffirmed; new Godrej order ₹44cr; stock +32%))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟢 ₹117.6cr of new orders AND the company discloses a ₹1,239cr confirmed FY27 order book with a ₹23,505cr bid pipeline · (earlier: Business update advertised in Business Standard; 1.7 lakh sq ft PEB factory inaugurated 30-Aug, PEB now ~35% of the order book · (earlier in window: PEB plant inaugurated on schedule; confirmed FY27 orders ₹1,139cr (from ₹1,102cr), ₹22,654cr bid pipeline, ~70% growth guidance reaffirmed; new Godrej order ₹44cr; stock +32%))</span></summary>
 <div class="upd-body">
 
-**🟢 25-Sep / 1-Oct-2026 — A further order win, and an investor-meet outcome**
-**Bagging/receiving of orders/contracts** disclosed 1-Oct, and an **outcome of the investor meet** filed 25-Sep. Trading window closed 23-Sep; a depository certificate filed 3-Oct.
-> **🔎 The order value is not stated in the filing index and the PDF has not been parsed here, so no figure is attached.** Recorded as a confirmed order win of undisclosed size, to be quantified at the next refresh.
-> **Why it matters in context:** the 23-Sep entry recorded the **1.7 lakh sq ft PEB factory commissioned on 30-Aug** and PEB at ~35% of the order book. **Continued intake against newly commissioned capacity is the combination the thesis needs.** The counterweight in this profile is unchanged — FY26 operating cash flow of −₹163cr, and the MD under stayed NCLT insolvency proceedings. *Half-yearly reporter: H1FY27 print due ~Nov-2026 and it is the one that matters.*
+**🟢 1-Oct-2026 — Three new orders totalling ₹117.6cr, and — more importantly — the company sizes its order book and pipeline**
+⤴ **CORRECTED 6-Oct-2026.** *An earlier version said the order value was "not stated in the filing index" and attached no figure. The filing does state it, in detail, and it carries considerably more than the orders.*
+
+**The disclosure the profile should lead on:** *"As on date, the Company has **confirmed orders aggregating to ₹1,239 crores (Excluding GST) for execution during FY 2026/2027**, providing strong revenue visibility for the current financial year. Of these confirmed orders, **₹204.81 crores (in Q1) have already been billed and recognised as revenue during Q1.**"* The company adds that it **"has submitted bids for projects aggregating to approximately ₹23,505 crores"**, and argues that *"even considering a conservative conversion assumption of 10%, which is lower than the Company's historical win rate,"* the pipeline supports further inflows.
+
+**The three new orders:**
+
+| Customer | Scope | Value (incl. GST) | Completion |
+|---|---|---|---|
+| **Grand Atlantia Panapakkam SEZ Developers** — part of Taiwan's **Hong Fu Industrial Group**, investing **₹1,500cr** in a mega non-leather footwear factory at Ranipet | Civil work for the proposed building | **₹101.19cr** | Before **Aug-2027** |
+| **Soken India Pvt Ltd**, Chennai (Japanese) | Civil, PEB and MEP works for a factory building | **₹9.34cr** | Before **Jun-2027** |
+| **Kemin Industries South Asia** (US-based), Tamil Nadu | Electrical works | **₹7.08cr** | Before **Feb-2027** |
+| | | **₹117.61cr total** | |
+
+> **Why it matters.** **₹1,239cr of confirmed FY27 orders against ₹204.81cr billed in Q1 implies roughly ₹1,034cr still to execute in nine months** — that is the revenue-visibility statement this profile has wanted, made by the company in writing. The customer list is also the point: **Taiwanese, Japanese and American manufacturers building in Tamil Nadu**, which is the China+1 industrial-capex theme expressed as an order book, and it fits the PEB platform commissioned on 30-Aug.
+> **🔎 Read the pipeline figure with care — it is the company's own framing, not a fact.** **₹23,505cr of bids submitted is not an order book**, and the *"conservative 10% conversion"* is management's assumption with the historical win rate asserted but **not disclosed**. The orders themselves are firm and quantified; the pipeline arithmetic is marketing until a win rate is published.
+> **The counterweight is unchanged: FY26 operating cash flow of −₹163cr, and the MD under stayed NCLT insolvency proceedings.** For a contractor, an order book this size against that cash record raises working-capital intensity, not just revenue. *H1FY27 print ~Nov-2026 is the test.*
 
 *Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 

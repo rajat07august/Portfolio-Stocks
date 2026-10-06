@@ -7,12 +7,21 @@
 **📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 628** · market cap ₹ 2,462 Cr. · P/E 32.8x · ROCE 17.7 % · ROE 13.2 % · 52-wk ₹ 688 / 298 · **vs ₹583 at baseline (+7.7%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 17-Sep-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 A newly assigned credit rating (unread) and a clean AGM · (earlier: No filings since the profile was written)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 17-Sep-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 CARE Edge ASSIGNS CARE A+ (Stable) / A1+ on ₹19.75cr of bank facilities — a notch above the existing CRISIL A · (earlier: No filings since the profile was written)</span></summary>
 <div class="upd-body">
 
-**⚪ 23-Sep → 6-Oct-2026 — A NEW credit rating assigned; AGM passed**
-A **"Credit Rating- New"** intimation (24-Sep) — a newly assigned rating rather than a review — plus AGM proceedings (30-Sep), scrutinizer's report (1-Oct) with **all resolutions passed**, and a trading-window closure.
-> **Why it matters:** **a newly assigned rating usually accompanies a new facility**, which for a company with ₹6cr of borrowings against ₹136cr of investments would be a change worth understanding. **🔎 The agency, rating and facility are not in the filing index and the PDF has not been parsed here — stated as unread, not as nothing.** *Read at the next refresh.* The core finding is unchanged: **management's "EBITDA" includes other income, and FY26 operating profit excluding it fell 6%.**
+**🟢 24-Sep-2026 — CARE Edge assigns CARE A+ (Stable) and A1+ on ₹19.75cr of bank facilities**
+⤴ **CORRECTED 6-Oct-2026.** *An earlier version recorded this as "unread". It has now been read.*
+
+CARE Edge Ratings **assigned** (not reviewed) ratings on 23-Sep-2026 on total bank loan facilities of **₹19.75 crore**:
+
+| Facility | Amount | Rating | Action |
+|---|---|---|---|
+| Long Term Bank Facilities | ₹17.75cr | **CARE A+; Stable** | Assigned |
+| Long Term / Short Term Bank Facilities | ₹2.00cr | **CARE A+; Stable / CARE A1+** | Assigned |
+
+> **Why it matters.** **This is a notch above the CRISIL A/Stable already in this profile**, and it is a *first-time* assignment by a second agency rather than a review — which usually accompanies a new or newly-rated facility. For a company with **₹6cr of borrowings against ₹136cr of investments**, A+ is consistent with the balance sheet: the rating is effectively being assigned to a company that barely borrows.
+> **🔎 Keep the size in view: ₹19.75cr of facilities is small**, so this is a credit opinion on a nearly debt-free balance sheet rather than evidence about the operating business. **It says nothing about the finding that matters here — that management's "EBITDA" includes other income, and FY26 operating profit excluding it fell 6% on revenue +15%.** *AGM held 30-Sep, scrutinizer's report 1-Oct, all resolutions passed.*
 
 *Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 

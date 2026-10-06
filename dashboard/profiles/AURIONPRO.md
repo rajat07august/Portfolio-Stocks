@@ -12,13 +12,18 @@
 **📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 608** · market cap ₹ 3,360 Cr. · P/E 16.1x · ROCE 16.3 % · ROE 13.2 % · 52-wk ₹ 1,247 / 593 · **vs ₹696 at baseline (-12.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 Data-centre press release (5-Oct); AGM passed; SEBI PIT show-cause notice still open · (earlier: Nothing filed; the SEBI PIT show-cause notice remains open · (earlier in window: Integro Lending named category leader in five Chartis 2026 quadrants; FY26 annual report filed; no order or governance event; stock −1.4% at 18x))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟢🟢 ₹150cr follow-on data-centre order from a global hyperscaler — the third in under a year, taking the relationship close to ₹300cr · (earlier: Nothing filed; the SEBI PIT show-cause notice remains open · (earlier in window: Integro Lending named category leader in five Chartis 2026 quadrants; FY26 annual report filed; no order or governance event; stock −1.4% at 18x))</span></summary>
 <div class="upd-body">
 
-**🟡 5-Oct-2026 — "Aurionpro Strengthens Data Centre Growth Momentum"**
-A press release on data-centre momentum. The AGM was held 29-Sep with proceedings and scrutinizer's report filed; **all resolutions passed.** Trading window closed 28-Sep.
-> **🔎 Flagged as read-at-headline, not read in full:** the press release was identified from the filing index and **its contents have not been parsed here**, so no claim, contract or number from it is relied on. **Data-centre infrastructure is an adjacency the profile has not previously scored**, and a growth claim without a disclosed order value is not evidence. *Read it at the next refresh.*
-> **The governance item is unchanged and still open: the SEBI PIT show-cause notice disclosed 29-May-2026 has had no further filing.** Q1FY27's withdrawn guidance also remains the central operating question.
+**🟢🟢 5-Oct-2026 — ₹150cr follow-on order from a global hyperscaler for an AI-ready data centre**
+⤴ **CORRECTED 6-Oct-2026.** *An earlier version of this entry recorded this filing as "read-at-headline, not read in full" and declined to rely on it. That was wrong to leave — it is a material order, and it is set out below from the press release itself.*
+
+Aurionpro has secured **a new order valued at ₹150 crore** from *"a leading global hyperscaler"* for the **supply, installation, testing and commissioning of an AI-ready data centre in Navi Mumbai.** The company states it **"marks the third significant project awarded by the hyperscaler to Aurionpro in less than a year"**, and that the latest win takes **"the value of projects close to ₹300 crores."**
+
+A second element is strategic rather than commercial: the project includes **Aurionpro's first deployment of skid-based modular systems**, which the company calls *"an important step in the Company's backward-integration strategy, strengthening its manufacturing capabilities while enabling greater control over quality, execution and deployment timelines."* Bhaskar Bhattacharya, EVP & Head – Enterprise Business, frames the opportunity around *"India's rapidly expanding AI ecosystem… driving unprecedented demand for advanced, AI-ready data centre infrastructure"* and flags *"the planned addition of in-house manufacturing capabilities for critical components."*
+> **Why it matters, and why it matters especially here.** **This profile's central open problem is that guidance was withdrawn at Q1FY27 and there is no stated growth path.** A ₹150cr order, as the third from the same customer inside a year and taking one relationship to ~₹300cr, **is the first concrete, quantified growth evidence since then** — and it is in data centres, an adjacency this profile has not previously scored at all.
+> **🔎 What to hold back on.** **The execution period is not legible in the filed copy and no margin profile is given**, so the revenue phasing cannot be placed. The hyperscaler is **not named**, so customer concentration cannot be assessed — three projects from one customer is also a dependency, not only a validation. And **backward integration into manufacturing is capital the company has not yet sized.**
+> **The governance item is unchanged and still open: the SEBI PIT show-cause notice disclosed 29-May-2026 has had no further filing.** AGM held 29-Sep, all resolutions passed.
 
 *Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 

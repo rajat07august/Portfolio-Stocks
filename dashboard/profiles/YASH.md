@@ -21,7 +21,7 @@
 **📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 1,189** · market cap ₹ 3,553 Cr. · P/E 91.3x · ROCE 28.6 % · ROE 23.5 % · 52-wk ₹ 1,191 / 366 · **vs ₹900 at baseline (+32.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟢🟢 Commercial production COMMENCED at the new Savli bushing plant, and the US subsidiary signed a 3-year sales-representation agreement for the Mid-west · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: US subsidiary signs a 36-month sales-representation and utility-approvals agreement covering 19 states (no order, no value); stock +17.7% to ₹1,059 at 81x))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟢🟢 Commercial production COMMENCED at the new Savli bushing plant, and the US subsidiary signed a 3-year sales-representation agreement for the Mid-west; FY26 AR now read — CMD remuneration +107% to ₹289.34 lakh, and the Rule 5 comparison with employee increases is left BLANK · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: US subsidiary signs a 36-month sales-representation and utility-approvals agreement covering 19 states (no order, no value); stock +17.7% to ₹1,059 at 81x))</span></summary>
 <div class="upd-body">
 
 **🟢🟢 30-Sep-2026 — Commercial production begins at the new manufacturing facility**
@@ -32,6 +32,19 @@ Yash has **commenced commercial production at its new plant and raised the first
 **YASH HV USA INC.** has entered a **Representation Agreement with GATEWAY POWER SALES**, effective **29-Sep-2026 for 36 months**, appointing it sales representative to promote and represent Yash products, including stakeholder mapping, product evangelism and **utility approvals and product homologation**, across **three Mid-west US states.** Products covered: **LV high-current bushings up to 25,000 A; OIP condenser bushings up to 245 kV** (oil-air, oil-oil, air-air); and **RIP/RIS condenser bushings up to 230 kV, "available from 2027 onwards"**.
 > **Why it matters.** Utility approval and homologation are the real barrier in the US market, and that is explicitly what this agreement is for — **it is a market-access and qualification arrangement, not an order.** Note the tie to the first item: **the RIP/RIS products it will represent are stated as available from 2027**, which is the output of the plant just commissioned.
 > **🔎 No revenue, minimum volume or exclusivity is disclosed**, and three Mid-west states is a narrow beachhead. Treat it as the start of a qualification cycle that typically runs years. *Half-yearly reporter — next print ~Nov-2026.*
+
+**🟡 6-Oct-2026 — FY26 Annual Report read (it had been flagged "not yet read in full" since 24-Aug): the CMD's pay doubled**
+The Source Appendix had carried the FY26 Annual Report as **downloaded but unread**. It has now been read. The Section 197 / Rule 5 disclosure (Annexure D):
+
+| | Ratio to median remuneration | % increase in FY26 |
+|---|---|---|
+| **Mr. Keyur Girishchandra Shah** — Chairman & Managing Director | **53.45x** | **+107%** |
+| Sumit J Poddar — Chief Financial Officer | 6.95x | +24.37% |
+| Tushar J Lakhmapurkar — Company Secretary | 2.46x | +93.31% |
+
+The CMD's remuneration for FY26 is stated at **₹289.34 lakh (₹2.89cr)** under the Rule 5(2) statement — the only employee above the ₹1.02cr annual threshold. **208 permanent employees** on the rolls; median employee remuneration stated as ₹49,543 *(the unit is ambiguous in the extracted text and does not reconcile against the 53.45x ratio, so it is quoted as filed and not relied on)*.
+> **Why it matters.** **The Chairman & Managing Director's pay more than doubled in a single year**, and the Company Secretary's rose 93%. The company affirms remuneration is in line with its policy, and ₹2.89cr is not large in absolute terms for a company of this market capitalisation — **but a 107% increase is the kind of item that shareholders have been voting down elsewhere in this watchlist this very month** (MAYUR twice, DEE once, all on promoter-family pay).
+> **🔎 The disclosure gap is the sharper point.** **Rule 5(1)(iv) requires the company to state the average percentile increase in employee salaries other than managerial personnel, compare it with the managerial increase, and justify any exceptional circumstances. In this Annual Report that item is printed with the heading and left BLANK** — there is no figure and no justification. **That is precisely the comparison that would contextualise a 107% managerial raise, and it is the one thing not provided.** *Signal: whether the FY27 AR completes it, and whether remuneration is put to shareholders at the next AGM.*
 
 *Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
@@ -530,7 +543,7 @@ They look like ribbed ceramic cones on top of a substation transformer. **They a
 ## Source Appendix
 
 - **Concalls read (4 transcripts + 2 decks) — 🔴 the `Fetched Concalls/YASH/` folder did not exist before this pass**, despite v1 citing four concall reads. **Now on disk:** **H2FY26/FY26 (call 14-May-2026 — the primary source for this version)**, H1FY26 (Oct-2025), Jun-2025, Jan-2025; decks May-2026 and Oct-2025.
-- **FY26 Annual Report** (filed 11-Aug-2026, 17.6 MB) — downloaded, **not yet read in full**; flagged.
+- **FY26 Annual Report** (filed 11-Aug-2026, 17.6 MB) — ⤴ **READ 6-Oct-2026** (the earlier "not yet read in full" flag is retired). Section 197 / Rule 5 remuneration disclosure extracted into §5.5; **the Rule 5(1)(iv) employee-vs-managerial increase comparison is blank in the report.**
 - **🆕 Exchange filings read directly** (BSE `AnnSubCategoryGetData`, scrip **544310**, 1-Jul → 24-Aug-2026, 13 records; **`SLONGNAME` echoed back as "Yash Highvoltage Ltd"** per the §4A verification rule):
   - **🔴 3-Aug-2026 — Board Meeting Outcome:** FY26 Board's Report, AGM scrutineer, **final dividend ₹1.40 (28%) per ₹5 share**, **record date 27-Aug-2026**, corporate-office relocation, **15,500-share ESOP allotment.** ***Not a results filing — this is the item the C1 queue misread.***
   - **15-Jul-2026 — EGM outcome:** special resolution *"to offer and issue Equity Shares and Equity Warrants on a Preferential Basis to certain non-promoter persons."* **17-Jul — scrutineer's report.**

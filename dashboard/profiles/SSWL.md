@@ -15,13 +15,34 @@
 **📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 421** · market cap ₹ 6,623 Cr. · P/E 31.2x · ROCE 14.8 % · ROE 11.0 % · 52-wk ₹ 425 / 169 · **vs ₹305 at baseline (+38.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 AGM passed; a director ceased and board committees were recomposed; September monthly business update published · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: August a second record month (+53.6% YoY); borrowing limit to be raised ₹2,000cr → ₹3,500cr; promoter buying in the open market; stock +22%))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟢🟢 HIGHEST-EVER MONTHLY REVENUE — September net turnover ₹625.81cr, +52.41% YoY, on record volume +22%; anchors the highest-ever Q2FY27 and H1FY27 · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: August a second record month (+53.6% YoY); borrowing limit to be raised ₹2,000cr → ₹3,500cr; promoter buying in the open market; stock +22%))</span></summary>
 <div class="upd-body">
 
-**🟡 30-Sep / 1-Oct-2026 — AGM, a board cessation, committee recomposition, and the September monthly update**
-The 40th AGM was held 30-Sep; proceedings and scrutinizer's report filed, **all resolutions passed.** The same day the company disclosed the **cessation of Mr Virander Kumar** and a **change in the composition of board committees**. On 1-Oct it published its **monthly business update for September 2026**, which it notes also covers **quarterly (Q2FY27) and half-yearly (H1FY27) sales.**
-> **🔎 A sourcing caveat I am stating rather than working around: the monthly-update PDF is a poor scan and the figures did not extract reliably** — the growth percentages for exports and the truck category came through garbled. **No number from it is used here.** Per the §4A rule, a garbled extraction is a gap to declare, not to interpret. *The update is the most useful monthly disclosure of any name in this sector — read it directly at the next refresh, or from the company's website.*
-> *Why the rest matters: routine board housekeeping. SSWL remains the only watchlist name publishing monthly volumes, which makes it the best near-real-time read on the auto-component cycle.*
+**🟢🟢 1-Oct-2026 — September 2026 is SSWL's highest-ever month, by value AND volume**
+⤴ **CORRECTED 6-Oct-2026.** *An earlier version of this entry said the monthly-update PDF was a poor scan whose figures "did not extract reliably" and that no number from it was used. That was a failure to read it properly rather than a limit of the document — **rendering the page as an image (`pdftoppm -r 150 -png`) produced a perfectly legible filing**, exactly as §4A part C prescribes for scanned PDFs. The contents are below, and they are the most important operating datapoint in this sweep.*
+
+The company's own headline: *"September 2026 Marks Highest-Ever Monthly Revenue for SSWL as Net Turnover Hits Rs. 625.81 Cr."*
+- **Net turnover ₹625.81cr, up 52.41% YoY** from ₹410.60cr in September 2025 — **the highest-ever monthly sales turnover by both value and volume**
+- **Gross turnover ₹728.18cr, +46.90% YoY**
+- **Record total volume, +22% YoY**
+- It **anchors the company's highest-ever quarterly (Q2FY27) and half-yearly (H1FY27) sales**
+- *"Value growth significantly outpaced volume growth, reflecting an improved, higher-margin product mix"*
+
+**Segment growth, September 2026 YoY (domestic + exports):**
+
+| Segment | Growth by value | Growth by volume |
+|---|---|---|
+| **Exports (overall)** | **154%** | **33%** |
+| Aluminium | 82% | 32% |
+| 2&3 Wheeler | 61% | 34% |
+| Truck | 54% | 37% |
+| Passenger Car — Steel | 20% | 12% |
+| **Overall** | **52%** | **22%** |
+
+Management's stated drivers: **global demand** — *"Export expansion was led by increased international procurement of both steel and aluminium wheels"*; **EV transition** — *"Growth in the 2&3 Wheeler category was primarily supported by rising electric vehicle demand"*; and **forward pipeline** — *"A steady domestic OEM order book and early festive demand support stable momentum into the next quarter."*
+> **Why it matters, and it is a lot.** This is a **record month, record quarter and record half-year disclosed in advance of results**, on **real volume (+22%)** rather than price alone — which is the distinction this profile has repeatedly had to draw on other names. The mix shift is doing the rest: **value +52% against volume +22%** means roughly 25% higher realisation per unit, and management attributes it to a higher-margin mix.
+> **🔎 The one line to interrogate at the Q2FY27 print: exports at +154% value against +33% volume.** That is a realisation gain far beyond the overall average, and the filing does not decompose it — **price, product mix, customer mix and currency are all candidates and none is disclosed.** Treat the export surge as real in volume terms (+33%) and **unexplained in value terms** until the quarterly disclosure.
+> *Also: the 40th AGM was held 30-Sep with all resolutions passed; **Mr Virander Kumar ceased** as a director and board committees were recomposed the same day.*
 
 *Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 

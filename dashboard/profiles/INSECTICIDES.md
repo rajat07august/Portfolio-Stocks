@@ -19,12 +19,15 @@
 **📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 582** · market cap ₹ 1,694 Cr. · P/E 13.5x · ROCE 15.8 % · ROE 12.0 % · 52-wk ₹ 776 / 519 · **vs ₹610 at baseline (-4.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 A credit-rating intimation, direction not yet read · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No filing at all since 24-Aug on either exchange; stock ₹610 → ₹606))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 CRISIL reaffirms both long- and short-term ratings — no change from the previous review · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No filing at all since 24-Aug on either exchange; stock ₹610 → ₹606))</span></summary>
 <div class="upd-body">
 
-**⚪ 23-Sep → 6-Oct-2026 — A credit-rating intimation**
-A **credit rating** intimation (5-Oct) and a trading-window closure (25-Sep).
-> **Why it matters:** **🔎 the rating action itself is not stated in the filing index and the PDF has not been parsed here — no direction is claimed.** Read it at the next refresh. The factor-check gap on this name is unchanged: **no price source exists for technical agrochemicals**, so its main input cost is untracked.
+**🟢 5-Oct-2026 — CRISIL reaffirms both ratings; no change**
+⤴ **CORRECTED 6-Oct-2026.** *An earlier version recorded this as a rating intimation whose direction was "not yet read". It has now been read.*
+
+The company's disclosure under Regulation 30(6): *"CRISIL Ratings Limited has **reaffirmed** the Company's Long-Term and Short-Term Credit Ratings. Accordingly, there has been **no change** in the credit ratings assigned to the Company as compared to the previous review."*
+> **Why it matters: as a non-event, which is itself the information.** A reaffirmation with no change, after a period in which the whole agrochemical input complex has been volatile, says the agency sees no deterioration in the credit profile. **The specific rating levels are not restated in the intimation**, only that they are unchanged.
+> *The factor-check gap on this name is unchanged and is the real exposure: **no price source exists for technical agrochemicals**, so the main input cost cannot be tracked. Trading window closed 25-Sep.*
 
 *Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 

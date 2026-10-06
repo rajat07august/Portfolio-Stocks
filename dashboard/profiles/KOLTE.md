@@ -13,12 +13,17 @@
 **📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 434** · market cap ₹ 3,849 Cr. · P/E 31.0x · ROCE -0.32 % · ROE -4.36 % · 52-wk ₹ 557 / 292 · **vs ₹469 at baseline (-7.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 A credit-rating intimation, direction not yet read · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: Strongest-ever launch: 600+ apartments and over ₹600cr of sales in 60 hours at 'Vyana at The Reserve', Pune; stock nonetheless −8%))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 CARE REAFFIRMS CARE AA- on the ₹250cr listed NCDs after reviewing FY26 and Q1FY27 · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: Strongest-ever launch: 600+ apartments and over ₹600cr of sales in 60 hours at 'Vyana at The Reserve', Pune; stock nonetheless −8%))</span></summary>
 <div class="upd-body">
 
-**⚪ 23-Sep → 6-Oct-2026 — A credit-rating intimation**
-A **credit rating** intimation (1-Oct) and a trading-window closure (24-Sep).
-> **Why it matters:** **🔎 the rating action is not stated in the index and the PDF has not been parsed — no direction is claimed here.** For a residential developer the rating is a direct read on project leverage, so it is worth opening at the next refresh. The profile's recognition-trough thesis is intact and **there is still no earnings call.**
+**🟢 30-Sep / 1-Oct-2026 — CARE reaffirms CARE AA- on the ₹250cr listed NCDs**
+⤴ **CORRECTED 6-Oct-2026.** *An earlier version recorded this as a rating intimation whose direction was "not yet read". It has now been read.*
+
+CARE Ratings, by letter dated **30-Sep-2026**, has **reaffirmed CARE AA-** on **₹250.00 crore of listed Non-Convertible Debentures.** The agency states the review was *"On the basis of recent developments including operational and financial performance of your Company for FY26 (Audited) and Q1FY27 (Unaudited), and the possible impact of the same on the credit profile."*
+
+The NCD structure, from the same letter: **two tranches — 13,996 debentures issued 16-Oct-2025 maturing 15-Oct-2035, and 10,994 issued 5-Dec-2025 maturing 30-Oct-2035**, face value **₹1,00,000 each**, **ten-year tenure "unless redeemed earlier through linked collections."**
+> **Why it matters.** For a residential developer the credit rating is the most direct external read on project leverage, and **a reaffirmation at AA- after the agency has explicitly looked at FY26 audited and Q1FY27 numbers is a third-party confirmation that the recognition-trough thesis has not damaged the credit.** The *"redeemed earlier through linked collections"* mechanism is worth noting: **these NCDs amortise against project cash collections**, so they self-liquidate as sales are realised rather than sitting as a bullet maturity to 2035.
+> *There is still no earnings call on this name, so rating rationales and filings are the only external commentary available.*
 
 *Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
