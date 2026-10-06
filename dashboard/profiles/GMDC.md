@@ -12,11 +12,17 @@
 > **🔴 The disclosure gap that governs everything below: GMDC has not held an earnings call since 29-May-2025.** Across **472 NSE filings**, the last earnings-call filing is that date; before it, August 2024. **No call was held after FY26 results (14-May-2026) or after Q1FY27 (31-Jul-2026), and no investor presentation appears anywhere in the recent record.** This profile is therefore built from **statutory filings and press releases only**. The standing §9 data-gap queue item — *"FY26 concalls needed"* — has been **closed as uncloseable: the calls were never held.** *A ₹18,261cr company that no longer speaks to shareholders, in a year containing a ₹522.65cr exceptional item and a 30% fall in operating profit.*
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 557** · market cap ₹ 17,708 Cr. · P/E 31.0x · ROCE 10.8 % · ROE 4.22 % · 52-wk ₹ 772 / 464 · **vs ₹574 at baseline (-3.0%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 492** · market cap ₹ 15,630 Cr. · P/E 27.4x · ROCE 10.8 % · ROE 4.22 % · 52-wk ₹ 772 / 464 · **vs ₹574 at baseline (-14.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 CARE reaffirms AA+/Stable and A1+; short-term facilities enhanced ₹5cr → ₹25cr · (earlier in window: CARE AA+/Stable reaffirmed; CERT-In 'probable data breach' on the corporate website disclosed (operations unaffected); FY26 annual report out; stock −3%)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 New Managing Director — Mr Ajay Bhadoo, IAS — appointed from 29-Sep; AGM passed · (earlier: CARE reaffirms AA+/Stable and A1+; short-term facilities enhanced ₹5cr → ₹25cr · (earlier in window: CARE AA+/Stable reaffirmed; CERT-In 'probable data breach' on the corporate website disclosed (operations unaffected); FY26 annual report out; stock −3%))</span></summary>
 <div class="upd-body">
+
+**🟡 29-30 Sep-2026 — A new Managing Director, and the AGM**
+**Mr Ajay Bhadoo, IAS, appointed Managing Director** with effect from 29-Sep-2026. The AGM was held 30-Sep; proceedings and scrutinizer's report filed, **all resolutions passed.** Trading window closed 29-Sep.
+> **Why it matters.** GMDC is a **Gujarat state public-sector undertaking**, so the MD is a government appointment and turnover is a structural feature rather than an event — but it is still the single most consequential variable for a PSU miner's execution, because capex approvals, mine development and land acquisition all move at the pace the MD sets. **The §9 gap on this name is unchanged — the profile is still built on Q4FY25 (May-2025) concall data and needs FY26 calls.** A new MD is a reason to prioritise that refresh, not to defer it.
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **🟢 18-Sep-2026 — CARE reaffirms AA+ (Stable) / A1+**
 CARE Edge **reaffirmed CARE AA+; Stable / CARE A1+** on long-term/short-term bank facilities of **₹3,975cr** (reduced from ₹3,995cr), and **reaffirmed CARE A1+** on short-term facilities of **₹25cr (enhanced from ₹5cr)**.

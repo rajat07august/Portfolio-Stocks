@@ -8,11 +8,17 @@
 > **How to read this profile:** Every meaningful claim is either sourced from a concall (quarter noted) or a filing. Where I've made a judgment I've flagged it. Not a buy/sell recommendation.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 1,450** · market cap ₹ 5,462 Cr. · P/E 206x · ROCE 11.5 % · ROE 15.7 % · 52-wk ₹ 1,530 / 552 · **vs ₹1,067 at baseline (+35.9%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 1,676** · market cap ₹ 6,317 Cr. · P/E 239x · ROCE 11.5 % · ROE 15.7 % · 52-wk ₹ 1,697 / 552 · **vs ₹1,067 at baseline (+57.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 ₹300cr preferential to SBI Mutual Fund confirmed at ₹1,166 (25,72,898 shares); EGM to approve it on 15-Oct · (earlier in window: ₹300cr preferential issue to SBI Mutual Fund at ₹1,166 (6.39%) approved by the Board — the QIP the profile expected, as a preferential; stock +29% to ₹1,374 at ~196x)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 AGM passed; the ₹300cr SBI MF preferential goes to EGM on 15-Oct · (earlier: ₹300cr preferential to SBI Mutual Fund confirmed at ₹1,166 (25,72,898 shares); EGM to approve it on 15-Oct · (earlier in window: ₹300cr preferential issue to SBI Mutual Fund at ₹1,166 (6.39%) approved by the Board — the QIP the profile expected, as a preferential; stock +29% to ₹1,374 at ~196x))</span></summary>
 <div class="upd-body">
+
+**⚪ 23-Sep → 6-Oct-2026 — AGM held 24-Sep; all resolutions passed. The SBI MF preferential goes to the EGM on 15-Oct**
+AGM proceedings (24-Sep), scrutinizer's report (26-Sep) — **no resolution defeated** — a newspaper publication of the EGM notice (23-Sep) and a trading-window closure.
+> **Why it matters:** the substantive item is still ahead: **the ₹300cr preferential issue of 25,72,898 shares at ₹1,166 to SBI Mutual Fund and SBI Optimal Equity Fund goes to the EGM on 15-Oct-2026.** Institutional primary capital into a thinly-held name, **but priced below market after a sharp run, and the use of proceeds is still not disclosed.** *Signal: the EGM result, then allotment and use of funds.*
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **🟡 18-Sep-2026 (EGM notice 22-Sep) — The ₹300cr preferential is to SBI Mutual Fund, at ₹1,166, with an EGM on 15-Oct**
 The Board approved issuing **25,72,898 equity shares of ₹2 at ₹1,166 each (premium ₹1,164), aggregating ₹299,99,99,068**, on a preferential private-placement basis to **SBI Mutual Fund and SBI Optimal Equity Fund** (non-promoter category), under Sections 42 and 62(1)(c) and ICDR Chapter V. An **Extraordinary General Meeting is convened for 15-Oct-2026** to approve it; the notice was advertised 23-Sep.

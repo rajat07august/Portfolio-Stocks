@@ -15,11 +15,17 @@
 > **📋 AND A PLAIN STATEMENT ABOUT THIS PASS: the filing sweep found nothing new.** The last BSE filing is **7-Aug-2026** — five days before the previous refresh. **No new results, no new Reg-30 items, no corporate actions.** ***This conversion therefore restructures and re-verifies rather than discovers, and the metrics have moved in the company's favour without any news to explain it.***
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 1,730** · market cap ₹ 1,569 Cr. · P/E 15.1x · ROCE 27.7 % · ROE 21.0 % · 52-wk ₹ 2,088 / 765 · **vs ₹1,573 at baseline (+10.0%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 1,703** · market cap ₹ 1,546 Cr. · P/E 14.9x · ROCE 27.7 % · ROE 21.0 % · 52-wk ₹ 2,088 / 765 · **vs ₹1,573 at baseline (+8.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Routine newspaper notice on dematerialisation of physical shares · (earlier in window: Kerala-government nominee director appointed via postal ballot; nothing else filed; stock +8.8% to ₹1,711)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 A KSIDC board-nominee change; no calls exist · (earlier: Routine newspaper notice on dematerialisation of physical shares · (earlier in window: Kerala-government nominee director appointed via postal ballot; nothing else filed; stock +8.8% to ₹1,711))</span></summary>
 <div class="upd-body">
+
+**⚪ 23-Sep → 6-Oct-2026 — A state-nominee director change**
+Swept **BSE** (506532 — NSE's feed carries nothing for NITTAGELA, via Chrome): a **change in nomination by Kerala State Industrial Development Corporation Ltd** (29-Sep), a trading-window closure and a newspaper advertisement.
+> **Why it matters:** KSIDC is a **state-government shareholder with a board nomination right**, so this is an institutional rotation rather than a governance event. **Nitta holds no earnings calls**, which makes the filings feed and the Annual Report's Directors' Report the only sources — the structural limitation recorded in §9.
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 19 → 23-Sep-2026 — Nothing material filed**
 Swept **BSE** (506532 — NSE's feed carries nothing for NITTAGELA): one filing, a **newspaper advertisement about a special window for transfer and dematerialisation of physical shares.** Routine. Nitta holds no earnings calls, so the filings feed is the only channel.

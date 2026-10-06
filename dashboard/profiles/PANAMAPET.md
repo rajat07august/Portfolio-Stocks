@@ -4,11 +4,17 @@
 **Thesis current as of: 19-Sep-2026 · Tracking since: 19-Sep-2026**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 481** · market cap ₹ 2,909 Cr. · P/E 6.08x · ROCE 19.2 % · ROE 15.6 % · 52-wk ₹ 600 / 229 · **vs ₹470 at baseline (+2.3%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 491** · market cap ₹ 2,973 Cr. · P/E 6.18x · ROCE 19.2 % · ROE 15.6 % · 52-wk ₹ 600 / 229 · **vs ₹470 at baseline (+4.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 19-Sep-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Trading window closed ahead of Q2FY27 — the quarter that tests how much of the crude windfall held</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 19-Sep-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 Trading window closed; Q2FY27 is the windfall test · (earlier: Trading window closed ahead of Q2FY27 — the quarter that tests how much of the crude windfall held)</span></summary>
 <div class="upd-body">
+
+**⚪ 23-Sep → 6-Oct-2026 — Nothing material**
+A single trading-window closure (23-Sep). Both feeds swept.
+> **Why it matters:** ⭐ **Q2FY27 is the entire question for this name: how much of the Q1 crude windfall held — OPM at or above 12% with no inventory write-down, or a give-back below 7%.** Also watch whether an earnings call is finally held; there has been none since 9-Nov-2023.
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 23-Sep-2026 — Trading window closed; nothing else filed**
 The only filing since the profile was written is the SEBI PIT trading-window closure, which puts **Q2FY27 results within reach**.

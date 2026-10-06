@@ -8,11 +8,21 @@
 > **The operating thesis is current as of the Q1FY27 print (7-Aug) and the earnings call (10-Aug).** Two things have been added since: the **official transcript was filed 13-Aug and the machine transcription has now been verified against it** (§9 data-quality note 1 — one figure was wrong and is corrected below), and a **promoter-group transmission on 17-Aug** following a death in the family (§5.5(b)). Neither changes the thesis.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 235** · market cap ₹ 15,806 Cr. · P/E 19.3x · ROCE 20.5 % · ROE 15.3 % · 52-wk ₹ 320 / 221 · **vs ₹229 at baseline (+2.6%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 213** · market cap ₹ 14,364 Cr. · P/E 17.5x · ROCE 20.5 % · ROE 15.3 % · 52-wk ₹ 320 / 210 · **vs ₹229 at baseline (-7.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 AGM passed cleanly; Anand Rathi G200 Summit meetings disclosed no new information · (earlier in window: 2 MnT pellet plant back in operation on 29-Aug after ~46 days down; promoter transmission (17-Aug) formalised; stock +1.7%)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟡 Moving into battery storage: a new BESS/renewables EPC subsidiary and ₹50cr more into the BESS plant vehicle — diversification away from the iron-ore core · (earlier: AGM passed cleanly; Anand Rathi G200 Summit meetings disclosed no new information · (earlier in window: 2 MnT pellet plant back in operation on 29-Aug after ~46 days down; promoter transmission (17-Aug) formalised; stock +1.7%))</span></summary>
 <div class="upd-body">
+
+**🟡 29-Sep / 1-Oct-2026 — Two steps into battery storage, away from the ore-and-steel core**
+1. **₹50cr further investment in Godawari New Energy Private Limited (GNEPL)**, a wholly owned subsidiary, for *"capex and working capital requirements of GNEPL for setting up Battery Energy Storage System Plant."* GNEPL allotted GPIL **5,00,00,000 0.1% Non-Cumulative Participating Optionally Convertible Redeemable Preference Shares of ₹10 each at par, ₹50.00 crore, on a rights basis** on 28-Sep. This continues an intimation of 19-May-2026.
+2. **Incorporation of "Godawari Energy Solutions Private Limited"**, a new wholly owned subsidiary in Maharashtra, *"for the purpose of undertaking turnkey, engineering, procurement, construction, erection, installation, testing, commissioning, operation and maintenance activities relating to Battery Energy Storage Systems, renewable energy, power, electrical etc. and allied infrastructure projects."*
+
+> **Why it matters.** GPIL's entire investment case is **captive iron ore** — a low-cost, hard-to-replicate mining advantage feeding integrated steel. **BESS manufacturing and BESS EPC share none of that advantage**: different customers, different competitors, different capital cycle, and an EPC arm is a working-capital business rather than a margin-protected one. This is a **genuine diversification of the capital allocation**, and it is being funded from the cash the ore business generates.
+> **🔎 Keep it in proportion and state what is unknown.** ₹50cr is small against GPIL's balance sheet, and the EPC entity is newly incorporated with no disclosed capital or order book. **No total planned investment, plant capacity, timeline or target market is disclosed for either.** This is an option being taken, not a pivot executed. *Signal: how much more capital follows, and whether management frames it as a second business on the Q2FY27 call.*
+> *Also: an offer letter for allotment of industrial land at AURIC Bidkin (25-Sep); AGM voting results — all passed; analyst meetings at the Anand Rathi G200 Summit, whose outcome filing discloses no new information.*
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 19 → 23-Sep-2026 — Nothing material filed**
 Six filings, none price-sensitive: AGM proceedings, scrutinizer's report and **voting results (all resolutions passed)** for the 19-Sep AGM, and participation in the **Anand Rathi G200 Summit on 21-Sep**, whose outcome filing records only that one-on-one and group meetings were held — **no new information was disclosed at them.**

@@ -13,11 +13,17 @@
 > **📌 And the stock is up 28% since that refresh** — ₹4,364 on 28-Jul to **₹5,601** today, **1.3% below its 52-week high and 156% above its low.** Every one of the four watch items the refresh set has resolved *favourably on operations*. The expected return has still gone from **+21% to roughly zero**, because the price moved further than the news did.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 4,736** · market cap ₹ 28,168 Cr. · P/E 108x · ROCE 37.5 % · ROE 32.8 % · 52-wk ₹ 5,813 / 2,920 · **vs ₹5,601 at baseline (-15.4%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 4,781** · market cap ₹ 28,419 Cr. · P/E 109x · ROCE 37.5 % · ROE 32.8 % · 52-wk ₹ 5,813 / 2,920 · **vs ₹5,601 at baseline (-14.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 AGM passed cleanly; ESG rating and meet schedule · (earlier in window: Stock −17% to ₹4,664, now below the ₹4,790 QIP price; QIP press release confirms the proceeds are for working capital, not capex; nothing else filed)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 ESG rating and trading-window closure only · (earlier: AGM passed cleanly; ESG rating and meet schedule · (earlier in window: Stock −17% to ₹4,664, now below the ₹4,790 QIP price; QIP press release confirms the proceeds are for working capital, not capex; nothing else filed))</span></summary>
 <div class="upd-body">
+
+**⚪ 23-Sep → 6-Oct-2026 — An ESG rating; nothing material**
+An **ESG rating** intimation (23-Sep) and a trading-window closure (28-Sep).
+> **Why it matters:** no change. Q2FY27 is the next datapoint for a name trading on high expectations.
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 19 → 23-Sep-2026 — Nothing material filed**
 Four filings, none price-sensitive: **AGM proceedings and voting results (19/20-Sep — all resolutions passed)**, an investor-meet schedule, and an **ESG rating** intimation.

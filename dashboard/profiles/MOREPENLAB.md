@@ -10,11 +10,19 @@
 > ***The consequence: the entire CDMO transformation this profile describes happened in the window during which the company stopped taking analyst questions. The word "CDMO" appears zero times in the May-2025 transcript.*** **Everything about the new strategy in §4 is management's own written framing, unchallenged. It is labelled as such throughout.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 122** · market cap ₹ 6,709 Cr. · P/E 57.1x · ROCE 8.05 % · ROE 5.33 % · 52-wk ₹ 127 / 33.0 · **vs ₹104 at baseline (+17.3%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 140** · market cap ₹ 7,699 Cr. · P/E 65.6x · ROCE 8.05 % · ROE 5.33 % · 52-wk ₹ 142 / 33.0 · **vs ₹104 at baseline (+34.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 1-Sep-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 CRISIL assigned an unsolicited ESG rating of 60 ('Adequate'); still no earnings call · (earlier in window: First phase of the capacity expansion completed ahead of schedule (API/CDMO reactors 535 KL → 614 KL); stock +16% to ₹121; still no earnings call)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 1-Sep-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟢 First-ever US ANDA filed (Sitagliptin, 3 strengths) — concrete CDMO progress, though still no earnings call · (earlier: CRISIL assigned an unsolicited ESG rating of 60 ('Adequate'); still no earnings call · (earlier in window: First phase of the capacity expansion completed ahead of schedule (API/CDMO reactors 535 KL → 614 KL); stock +16% to ₹121; still no earnings call))</span></summary>
 <div class="upd-body">
+
+**🟢 28-Sep-2026 — First US ANDA submission: Sitagliptin Tablets USP**
+Morepen has **submitted its first Abbreviated New Drug Application to the USFDA**, for **Sitagliptin Tablets USP in 25 mg, 50 mg and 100 mg strengths.** The company frames it as extending *"the Company's established API and CDMO expertise into integrated finished dosage development and regulatory filing"*, strengthening **formulation, bioequivalence and regulatory dossier capabilities** and supporting *"specialized CDMO opportunities across regulated markets."*
+> **Why it matters.** This is the first **verifiable, externally-validated** step in the CDMO transformation rather than a management claim — an ANDA is filed with a regulator and either exists or does not. It moves Morepen from API supplier toward **integrated API-to-finished-dosage**, which is the capability that justifies CDMO economics, and Sitagliptin is a large off-patent diabetes molecule where Morepen already makes the API.
+> **🔎 Keep the scale honest: a submission is not an approval**, no PDUFA or expected approval date is given, and no revenue is attached. **And the central problem is untouched — there has still been no earnings-call transcript since 17-May-2025**, so the ₹825cr mandate remains unexplained as to customer, duration and firmness, and whether it is CDMO or CMO is still contested. **⭐ Single trigger unchanged: whether a call is held at the Q2FY27 results (~Nov-2026).**
+> *Also: an unsolicited CRISIL ESG rating of 60 ("Adequate"), and AGM voting results — all resolutions passed.*
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 21-Sep-2026 — CRISIL assigns an unsolicited ESG rating of 60, 'Adequate'**
 CRISIL ESG Ratings & Analytics assigned an **overall ESG rating of 'CRISIL ESG 60'**, an *"Adequate"* category. The company states explicitly: *"The company has not engaged CRISIL for ESG Ratings. CRISIL has independently assigned the ESG Rating based on publicly disclosed information for the fiscal 2026."*

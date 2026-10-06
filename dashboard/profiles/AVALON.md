@@ -8,11 +8,30 @@
 > **📌 Fetch note worth carrying: Avalon hosts its transcripts on its own IR site, not on BSE or NSE.** The exchange filing is a **cover letter with a link** — the 11-Aug-2026 Q1FY27 filing extracts to 1,466 characters of letterhead pointing at `avalontec.com`. **An exchange-feed-only scan would conclude Avalon files no transcripts.** `curl` reaches the IR site directly. Screener's concall links point to `avalontec.com` for transcripts and to BSE only for decks. **Don't assume the BSE UUID pattern covers every stock.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 2,446** · market cap ₹ 16,343 Cr. · P/E 122x · ROCE 19.3 % · ROE 16.5 % · 52-wk ₹ 2,620 / 777 · **vs ₹2,184 at baseline (+12.0%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 2,311** · market cap ₹ 15,457 Cr. · P/E 116x · ROCE 19.3 % · ROE 16.5 % · 52-wk ₹ 2,620 / 777 · **vs ₹2,184 at baseline (+5.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No material filings in the window — zero announcements on the feeds swept · (earlier in window: Joint venture with Zollner Elektronik AG (Zollner 51% / Avalon 49%); Chairman-MD re-appointed for five years from Jul-2027 and a new independent director; stock +16% to 127x)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🔴 A promoter group is selling ~6% via block deal — Bhaskar Srinivasan and two family trusts sold 2.00% EACH; Kunhamed Bicha's group is NOT selling · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: Joint venture with Zollner Elektronik AG (Zollner 51% / Avalon 49%); Chairman-MD re-appointed for five years from Jul-2027 and a new independent director; stock +16% to 127x))</span></summary>
 <div class="upd-body">
+
+**🔴 30-Sep / 1-Oct-2026 — One promoter group sells ~6% by block deal**
+Media reports of a proposed stake sale prompted a company clarification (30-Sep), followed by a **Reg 29(2) SAST disclosure (1-Oct)** from **Mr. Bhaskar Srinivasan**, filed on behalf of himself and as trustee of the **BBS Family Trust** and **KBS Family Trust**.
+
+Holding **before** the sale (as at 29-Sep):
+
+| Holder | Shares | % |
+|---|---|---|
+| Bhaskar Srinivasan | 62,70,355 | 9.38% |
+| BBS Family Trust | 20,20,710 | 3.02% |
+| KBS Family Trust | 20,20,710 | 3.02% |
+| Dolphin Family Trust | 1,000 | 0.00% |
+| **Total** | **1,03,12,775** | **15.42%** |
+
+**Each of the three selling entities disposed of 13,36,235 shares — exactly 2.00% apiece, about 6.0% in aggregate.**
+> **Why it matters.** This is a **co-promoter selling down roughly a third of his group's holding** in a single block, and the company confirms it followed media reports rather than preceding them. **The company's clarification is specifically that "Mr. Kunhamed Bicha and his promoter group are not selling any shares"** — so this is one of two promoter families reducing, not a joint exit. It also notes that *"KBS Family Trust"* is **Kavya Bhaskar Srinivasan Family Trust**, part of Bhaskar Srinivasan's group, and not a reference to Kunhamed Bicha.
+> **🔎 Not disclosed: the price, the buyer, and the reason.** **Whether the trusts' sales are estate planning or a view on value cannot be determined from the filing**, and the identical 2.00% from each entity suggests a structured, pre-planned block rather than opportunistic selling *(my reading of the symmetry, not a company statement)*. *Signal: the Sep-2026 shareholding pattern, and whether further tranches follow.*
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 19 → 23-Sep-2026 — Nothing material filed**
 Swept both NSE and BSE: **zero announcements.**

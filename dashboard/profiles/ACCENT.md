@@ -7,11 +7,17 @@
 > **How to read this profile:** Every meaningful claim is either sourced from a concall (period noted) or a filing. Accent reports H1/H2 (SME cadence). Screener valuation data limited. This is personal thesis-building, not a buy/sell recommendation.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 670** · market cap ₹ 1,608 Cr. · P/E 36.7x · ROCE 24.9 % · ROE 18.6 % · 52-wk ₹ 732 / 238 · **vs ₹500 at baseline (+34.0%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 661** · market cap ₹ 1,586 Cr. · P/E 36.2x · ROCE 24.9 % · ROE 18.6 % · 52-wk ₹ 732 / 249 · **vs ₹500 at baseline (+32.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No material filings in the window — zero announcements on the feeds swept · (earlier in window: 4.45 MW Inox Wind turbine ordered (turnkey, value not stated) to cut power cost for Plant III; managerial remuneration limits raised; AGM held 31-Jul; stock ~₹682, market cap ₹1,635cr)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 Trading window closed; nothing material · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: 4.45 MW Inox Wind turbine ordered (turnkey, value not stated) to cut power cost for Plant III; managerial remuneration limits raised; AGM held 31-Jul; stock ~₹682, market cap ₹1,635cr))</span></summary>
 <div class="upd-body">
+
+**⚪ 23-Sep → 6-Oct-2026 — Nothing material**
+Swept **NSE-SME (ACCENTMIC)**: a trading-window closure (25-Sep) and a depository certificate (5-Oct). Nothing else.
+> **Why it matters:** no change. Half-yearly reporter — the H1FY27 print (~Nov-2026) is the next real datapoint.
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 19 → 23-Sep-2026 — Nothing material filed**
 Swept **NSE-SME (ACCENTMIC)**: **zero announcements.** Half-yearly reporter; next print ~Nov-2026.

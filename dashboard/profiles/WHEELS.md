@@ -13,11 +13,19 @@
 > **And the thing the downgrade actually feared — dilution with promoters standing aside — has happened in reverse.** On **19-Aug-2026** the board approved a **₹180cr preferential issue in which every single allottee is a promoter**, taking promoter holding **UP from 58.31% to ~60.4%**. ⤴ **UPDATE 31-Aug/17-Sep-2026: the price was raised to ₹1,461 on NSE's valuation observations (same ₹180cr, 12,32,031 shares), and the EGM approved it with 99.99% of votes. The stock has since run to ₹2,176, so the issue is now ~33% below market. See the refresh block.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 2,240** · market cap ₹ 5,465 Cr. · P/E 33.4x · ROCE 18.8 % · ROE 15.8 % · 52-wk ₹ 2,500 / 705 · **vs ₹1,513 at baseline (+48.1%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 2,230** · market cap ₹ 5,991 Cr. · P/E 36.6x · ROCE 18.8 % · ROE 15.8 % · 52-wk ₹ 2,500 / 705 · **vs ₹1,513 at baseline (+47.4%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Promoter preferential COMPLETED — 12,32,031 shares at ₹1,461 for ₹180cr; TSF Investments 25.01% → 27.81%, priced ~33% below market · (earlier in window: Stock +44% in four weeks to ₹2,176 with an NSE price query and no disclosed cause; promoter preferential issue repriced to ₹1,461 and approved at the EGM)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟢🟢 ₹250cr QIP allotted at ₹2,088 on 25-Sep — four days after promoters subscribed their preferential at ₹1,461. ₹430cr raised in a week · (earlier: Promoter preferential COMPLETED — 12,32,031 shares at ₹1,461 for ₹180cr; TSF Investments 25.01% → 27.81%, priced ~33% below market · (earlier in window: Stock +44% in four weeks to ₹2,176 with an NSE price query and no disclosed cause; promoter preferential issue repriced to ₹1,461 and approved at the EGM))</span></summary>
 <div class="upd-body">
+
+**🟢🟢 24-26 Sep-2026 — A ₹250cr QIP at ₹2,088, four days after the promoter preferential at ₹1,461**
+A **Qualified Institutions Placement** opened 24-Sep and the Fundraise Committee **allotted 11,97,318 equity shares of ₹10 at ₹2,088 per share** (premium ₹2,078) on 25-Sep, **aggregating ₹249,99,99,984 — ₹250cr.** The price carried a **discount of ₹109.10, i.e. 4.97%, to the floor price of ₹2,197.10.**
+> **Why it matters.** Together with the **₹180cr promoter preferential allotted 21-Sep**, Wheels has raised **₹430cr of equity inside a week** — a serious recapitalisation for a company whose conversion-model capex has been the constraint on the thesis, and QIB participation at a 4.97% discount is a genuine market validation.
+> **🔎 But put the two prices side by side, because the gap is the story.** Promoters and the family subscribed at **₹1,461** on 21-Sep; institutions paid **₹2,088** four days later — **43% more for the same security.** **This is mechanically explicable, not improper**: the preferential price was fixed by the SEBI ICDR formula off an earlier reference period, and the QIP floor is set off a recent two-week VWAP, so the two rules simply looked at different windows during a period when the stock had run +44%. **Stating it plainly is still right, because the economic effect is that insiders were issued stock 43% below what institutions paid days later**, and the +44% run that created the gap has never been explained by the company.
+> Trading window closed 28-Sep.
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **🟡 21-Sep-2026 — The promoter preferential allotment is done: ₹180cr at ₹1,461, promoter stake up ~2.8pp**
 The Board allotted **12,32,031 equity shares of ₹10 at ₹1,461 each (premium ₹1,451), aggregating ₹179,99,97,291**, completing the issue first intimated on 19-Aug and 31-Aug-2026:

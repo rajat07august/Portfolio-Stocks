@@ -20,11 +20,17 @@
 > **⚠️ Two versions of the Q1FY27 transcript exist.** NRB filed one at 13:04 on 13-Aug-2026 and a **"Revised Earnings Call Transcript" at 18:19 the same day**, citing *"a typographical error."* All quotes below are from the **revised** file, which is authoritative. See §3.5 for what the correction actually changed — it is not nothing.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 541** · market cap ₹ 5,239 Cr. · P/E 35.1x · ROCE 18.4 % · ROE 15.6 % · 52-wk ₹ 549 / 213 · **vs ₹484 at baseline (+11.8%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 537** · market cap ₹ 5,206 Cr. · P/E 34.8x · ROCE 18.4 % · ROE 15.6 % · 52-wk ₹ 560 / 213 · **vs ₹484 at baseline (+11.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Second NSE volume-spurt query in five days, answered with the standard 'normal market forces' reply; June's 6.47pp promoter drop still unexplained · (earlier in window: Promoter pledge falls again (Tata Capital release of 23 lakh shares; 3.10% of capital still pledged vs 39.80% in March), but two promoter-group holders also SOLD 5.1 lakh shares on 11-Sep; NSE volume spurt; stock +8.7%)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 Nothing filed; June's 6.47pp promoter drop still unexplained · (earlier: Second NSE volume-spurt query in five days, answered with the standard 'normal market forces' reply; June's 6.47pp promoter drop still unexplained · (earlier in window: Promoter pledge falls again (Tata Capital release of 23 lakh shares; 3.10% of capital still pledged vs 39.80% in March), but two promoter-group holders also SOLD 5.1 lakh shares on 11-Sep; NSE volume spurt; stock +8.7%))</span></summary>
 <div class="upd-body">
+
+**⚪ 23-Sep → 6-Oct-2026 — Nothing material; the June promoter-holding fall is still unexplained**
+A single trading-window closure (28-Sep).
+> **Why it matters:** **the open question is untouched and is now more than three months old: the 6.47pp fall in promoter holding in the June quarter has never been explained by any filing.** The two volume-spurt queries of 18 and 22-Sep were answered with the standard "normal market forces" reply. **Trigger unchanged: if it proves to be an inadequately disclosed promoter sale, downgrade M → ML regardless of operating performance.** ⭐ *Target: the FY26 Annual Report or the Q2FY27 call.*
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **🟡 18 and 22-Sep-2026 — Two NSE volume-spurt notices; the company's reply is the standard formula**
 NSE flagged a **significant increase in volume** on 18-Sep and again on 22-Sep. The Company replied that the movement *"may be a result of normal market forces, trading/investment decisions of investors, and general market sentiment, over which the Company has no control and for which it cannot be held responsible,"* and affirmed it is in compliance with Reg 30 and will disclose any price-sensitive information as it arises.

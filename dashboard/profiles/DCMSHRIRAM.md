@@ -10,11 +10,23 @@
 > **✅ Concall gate CLOSED and verified.** The Q1FY27 call (30-Jul-2026) was machine-transcribed from the company's official audio on 1-Aug under §4A, and **verified line-by-line against the official transcript published 6-Aug-2026.** Every load-bearing figure checked out verbatim — the ECU level, the chlorine price, the ₹376cr MAT credit, the 19% cash-tax rate, the demerger commitment, the 85% chlorine tie-up and the Bioseed quote. **All quotes below are from the official transcript.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 980** · market cap ₹ 15,266 Cr. · P/E 11.1x · ROCE 11.5 % · ROE 11.5 % · 52-wk ₹ 1,409 / 945 · **vs ₹1,082 at baseline (-9.4%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 998** · market cap ₹ 15,558 Cr. · P/E 11.4x · ROCE 11.5 % · ROE 11.5 % · 52-wk ₹ 1,409 / 886 · **vs ₹1,082 at baseline (-7.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No filings at all on either exchange in the window — verified. The caustic price contradiction stays open to Q2FY27 · (earlier in window: Kota aluminium-extrusion plant commissioned; ICRA AA+/Stable reaffirmed with higher limits; stock −8% toward its 52-week low)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟢 Two chlorine-downstream plants commissioned at Jhagadia (30-Sep) — aluminium chloride and calcium chloride, which is the company acting on the weak leg of the ECU · (earlier: No filings at all on either exchange in the window — verified. The caustic price contradiction stays open to Q2FY27 · (earlier in window: Kota aluminium-extrusion plant commissioned; ICRA AA+/Stable reaffirmed with higher limits; stock −8% toward its 52-week low))</span></summary>
 <div class="upd-body">
+
+**🟢 30-Sep-2026 — Aluminium Chloride and Calcium Chloride plants commissioned at Jhagadia**
+Two plants were commissioned next to the existing caustic soda facilities:
+- **Aluminium Chloride, 100 TPD**, ramping up to market requirement — taking **total AlCl₃ capacity to 250 TPD**;
+- **Calcium Chloride, one of two lines at 133 TPD**, with the quality *"well accepted in the market"*; **the second line of similar capacity is expected in October 2026.**
+
+The company's own framing is the important part: *"Aluminium chloride uses chlorine directly as a raw material, while calcium chloride uses hydrochloric acid, which is itself produced from chlorine. Together, these plants represent strategic downstream integration of chlorine, enhancing the flexibility and resilience of the overall Chemical business."*
+> **Why it matters, and it bears directly on the open question in this profile.** **Chlorine is the weak leg of the ECU** — the caustic-chlorine economics that drive this segment — and the unresolved contradiction here is precisely about ECU realisation. **Converting chlorine into higher-value derivatives in-house is the structural answer to a weak chlorine price**, reducing dependence on merchant chlorine sales.
+> **🔎 What is NOT disclosed: the capex, the expected revenue or margin contribution, and how much captive chlorine these plants absorb.** Without the absorbed-tonnage figure the ECU impact cannot be quantified, so **no number is attached to this here.** *Signal: the Q2FY27 call, where the ECU disclosure and this absorption should be read together.*
+> Trading window closed 25-Sep.
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 19 → 23-Sep-2026 — No filings on either exchange**
 Swept **both NSE and BSE**: zero announcements. A verified negative rather than an unsearched gap.

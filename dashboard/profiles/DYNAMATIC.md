@@ -14,11 +14,17 @@
 > **🔴 Dynamatic has not held an earnings call since February 2024** — verified across 672 NSE filings. **Yet it publishes the best earnings presentation in this refresh cycle**, including a full constant-currency reconciliation of its own headline growth. **That combination — excellent disclosure, no forum to question it — governs how this profile is written.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 12,561** · market cap ₹ 8,527 Cr. · P/E 146x · ROCE 10.2 % · ROE 6.67 % · 52-wk ₹ 12,966 / 6,716 · **vs ₹11,188 at baseline (+12.3%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 14,240** · market cap ₹ 9,671 Cr. · P/E 165x · ROCE 10.2 % · ROE 6.67 % · 52-wk ₹ 14,387 / 6,760 · **vs ₹11,188 at baseline (+27.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No material filings in the window — zero announcements on the feeds swept · (earlier in window: No company event beyond the FY26 annual report; stock +7.8% to ₹12,061 at 140x)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 Trading window closed; nothing material · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: No company event beyond the FY26 annual report; stock +7.8% to ₹12,061 at 140x))</span></summary>
 <div class="upd-body">
+
+**⚪ 23-Sep → 6-Oct-2026 — Nothing material**
+A single trading-window closure (28-Sep). Both feeds swept (NSE symbol DYNAMATECH).
+> **Why it matters:** no change; Q2FY27 is the next datapoint.
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 19 → 23-Sep-2026 — Nothing material filed**
 Swept both feeds (NSE symbol DYNAMATECH): **zero announcements.**

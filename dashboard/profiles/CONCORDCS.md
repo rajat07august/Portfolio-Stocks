@@ -11,11 +11,17 @@
 > **⚠️ TICKER RENAMED 2-Aug-2026: CONCORD → CONCORDCS.** This is **Concord Control Systems Ltd (BSE 543619)** — railway/metro electronics, Sector 5. It is **not** Concord Biotech Ltd (BSE 543960, ticker `CONCORDBIO`, Sector 12), which was added to the watchlist on 2-Aug-2026, and **not** Concord Enviro Systems. The old `CONCORD` ticker caused a real mis-fetch during a bulk CMP refresh (logged in CLAUDE.md, 18-Jul-2026); the rename removes the ambiguity at source. Concall folder also renamed `Fetched Concalls/543619` → `Fetched Concalls/CONCORDCS`.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 2,259** · market cap ₹ 2,345 Cr. · P/E 55.7x · ROCE 31.2 % · ROE 25.6 % · 52-wk ₹ 3,070 / 1,469 · **vs ₹2,860 at baseline (-21.0%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 2,285** · market cap ₹ 2,373 Cr. · P/E 56.3x · ROCE 31.2 % · ROE 25.6 % · 52-wk ₹ 3,070 / 1,645 · **vs ₹2,860 at baseline (-20.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 2-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 🟢 Shareholders approved BSE SME → BSE Main Board migration AND a direct NSE main-board listing (both special resolutions, passed 19-Sep) · (earlier in window: Board approves migration to the BSE Main Board and a direct NSE Main Board listing (postal ballot); FY26 annual report and new auditors; stock −22% to ₹2,229)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 2-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 AGM passed; main-board migration still awaiting exchange approval · (earlier: 🟢 Shareholders approved BSE SME → BSE Main Board migration AND a direct NSE main-board listing (both special resolutions, passed 19-Sep) · (earlier in window: Board approves migration to the BSE Main Board and a direct NSE Main Board listing (postal ballot); FY26 annual report and new auditors; stock −22% to ₹2,229))</span></summary>
 <div class="upd-body">
+
+**⚪ 23-Sep → 6-Oct-2026 — AGM held 30-Sep, voting results filed 1-Oct**
+Swept **BSE** (543619, via Chrome): **outcome of AGM (30-Sep) and voting results (1-Oct) — no resolution defeated** — plus a trading-window closure.
+> **Why it matters:** clean. **The material item remains the 19-Sep postal ballot approving migration from the BSE SME platform to the BSE Main Board and a direct NSE listing.** Those are shareholder authorisations only — **neither exchange has approved anything, and no timeline is disclosed.** *Signal: the migration application and exchange in-principle approvals.*
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **🟢 19-Sep-2026 (result filed 21-Sep) — Postal ballot passes BOTH the main-board migration and a direct NSE listing**
 Two **special resolutions**, put to postal ballot on 17-Aug-2026, were **passed with the requisite majority** on 19-Sep-2026:

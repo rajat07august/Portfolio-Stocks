@@ -12,11 +12,18 @@
 > **🔴 Concall gate: NOT APPLICABLE — PARAS holds no earnings calls.** Across **424 NSE filings**, the only transcript-type disclosure is from **7-Oct-2022**. **There is no Q1FY27 earnings call, no investor presentation, and no order-book disclosure** — the results filing was checked directly (`order book`: **0 mentions**). `Fetched Concalls/PARAS/` contains **only investor decks**, the most recent from **Feb-2026**. *This is a source limit, not a fetch failure — and it shapes every judgement below.*
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 1,381** · market cap ₹ 11,111 Cr. · P/E 120x · ROCE 17.2 % · ROE 12.4 % · 52-wk ₹ 1,585 / 580 · **vs ₹1,281 at baseline (+7.8%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 1,284** · market cap ₹ 10,349 Cr. · P/E 112x · ROCE 17.2 % · ROE 12.4 % · 52-wk ₹ 1,585 / 580 · **vs ₹1,281 at baseline (+0.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No material filings in the window; 1 routine item(s) · (earlier in window: No company event beyond investor-conference meetings and the FY26 annual report; stock +7% to ₹1,373 at ~120x)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟢 ₹26.59cr DRDO order — Lead System Integrator for the optics unit of a hyperspectral Earth-observation payload · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No company event beyond investor-conference meetings and the FY26 annual report; stock +7% to ₹1,373 at ~120x))</span></summary>
 <div class="upd-body">
+
+**🟢 28-Sep-2026 — DRDO order worth ~₹26.59cr for a hyperspectral space payload**
+Paras has received an order from the **Defence Research and Development Organisation (DRDO), Ministry of Defence, valued at approximately ₹26.59 crore (including taxes)**, under which the company **will be the Lead System Integrator** and will provide *"the complete design, analysis, fabrication, manufacturing and assembly of the Optics and Opto-Mechanical Unit for a Hyperspectral Mission."* The payload *"shall qualify as a Space-Borne System having potential utilisation for Earth Observation."*
+> **Why it matters more than ₹26.59cr suggests.** The value is small, but **the role is Lead System Integrator rather than component supplier** — Paras owns the whole optics unit, not a part of it. Space-borne qualification is a credential that is hard to acquire and transfers to subsequent missions, which is the real asset here. **Optics and opto-mechanics is the company's core defensible capability**, so this is on-thesis rather than adjacent.
+> *Also in the window: a credit-rating intimation (30-Sep) and a trading-window closure.*
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 19 → 23-Sep-2026 — Nothing material filed**
 One filing: a **trading-window closure** on 19-Sep.

@@ -3,11 +3,26 @@
 **Ticker:** ORIANA · NSE-SME: ORIANA · **Sector:** Power & Renewables (Solar EPC + Rooftop + Captive + Open Access + BESS + Green Ammonia) · **Conviction:** Medium-High (HELD 16-Jul-2026)
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 308** · market cap ₹ 3,132 Cr. · P/E 12.4x · ROCE 39.6 % · ROE 39.6 % · 52-wk ₹ 613 / 235 · **vs ₹294 at baseline (+4.8%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 303** · market cap ₹ 3,078 Cr. · P/E 12.2x · ROCE 39.7 % · ROE 39.6 % · 52-wk ₹ 613 / 235 · **vs ₹294 at baseline (+3.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 16-Jul-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 🟢🟢 Two MSEDCL LOAs for 900 MW / 1800 MWh of BESS — ~₹3,870cr over 15 years, about 1.4x market cap; funding is now the whole question. Stock +13% to ₹308 · (earlier in window: ₹309cr of new EPC orders; ₹4,500cr green-hydrogen MoU; ~₹540cr of corporate guarantees approved (₹340cr on the ₹460cr SBI facility for the 234 MW floating-solar JV); 1:5 split effective; stock ₹272)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 16-Jul-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟢🟢 THE FUNDING QUESTION IS BEING ANSWERED — the Actis divestment is executing: two first tranches received on subsidiaries with ~₹501cr of combined enterprise value, plus a promoter pledge release · (earlier: 🟢🟢 Two MSEDCL LOAs for 900 MW / 1800 MWh of BESS — ~₹3,870cr over 15 years, about 1.4x market cap; funding is now the whole question. Stock +13% to ₹308 · (earlier in window: ₹309cr of new EPC orders; ₹4,500cr green-hydrogen MoU; ~₹540cr of corporate guarantees approved (₹340cr on the ₹460cr SBI facility for the 234 MW floating-solar JV); 1:5 split effective; stock ₹272))</span></summary>
 <div class="upd-body">
+
+**🟢🟢 25 and 30-Sep-2026 — The Actis sale is finally executing: two first tranches received, ~₹501cr of combined enterprise value**
+In continuation of disclosures dated **19-Oct-2025, 29-May-2026 and 30-Jun-2026**, Oriana has **received the consideration for the first tranche** of its divestment of its **entire 74% equity stake** in two subsidiaries to **Leo Energies Private Limited (formerly Helioact Power India 1 Private Limited), a group entity of Actis GP LLP**:
+
+| Subsidiary | Asset | Enterprise value |
+|---|---|---|
+| **Truere Guj SPV Private Limited** *(25-Sep)* | ~70 MWp solar + **30 MWh BESS** | **~₹325cr** |
+| **Truere Current Private Limited** *(30-Sep)* | ~40 MWp solar + **20 MWh BESS** | **~₹176cr** |
+
+Both are *"subject to closing adjustments as per the SPA"*, and **balance tranches follow subject to approvals**. The company frames it as *"validating the Company's asset-recycling and monetization strategy, strengthening its balance sheet and liquidity,"* with proceeds supporting *"redeployment of capital into its growing solar, open access and BESS project pipeline."*
+> **Why this is the most important development on this name.** The §9 question after the 900 MW / 1800 MWh MSEDCL awards was blunt: **how does a company with a ~₹3,100cr market cap, ~₹540cr of guarantees (≈70% of net worth) and borrowings up 8x fund ~₹3,870cr of battery storage?** This is the mechanism — **build, then sell the operating asset to an infrastructure fund and recycle the capital.** It also **retires a long-standing delivery concern**: the Actis transaction was flagged as *delayed* in the 18-Jul-2026 refresh and by the ValuePickr community, and it is now producing cash.
+> **🔎 Read the limits precisely.** These are **enterprise values, not cash received** — the consideration is EV adjusted for debt and closing items, and **the actual rupee proceeds are not disclosed in either filing.** They are **first tranches**, with the balance conditional. ₹501cr of EV against a ₹3,870cr BESS commitment is a demonstration of the model, **not full funding of it.** No project cost, debt:equity plan or construction timeline for the MSEDCL awards has still been disclosed.
+> **Also 29-Sep: release of pledge on promoter-held equity shares** — a further de-risking of the balance sheet, consistent with the cash coming in.
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **🟢🟢 / 🔴 18-Sep-2026 (filed 21-Sep) — Two MSEDCL Letters of Award: 900 MW / 1800 MWh of battery storage, ~₹3,870cr over 15 years**
 Oriana received **two LOAs from Maharashtra State Electricity Distribution Co. Ltd (MSEDCL)** under tariff-based global competitive bidding with **Viability Gap Funding** through e-reverse auction:

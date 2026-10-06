@@ -11,11 +11,17 @@
 > **🕐 WATCH ITEM #1 FROM THE 12-AUG REFRESH IS ANSWERED, AND THE ANSWER IS "NOT YET."** That refresh said: *"Re-verify this machine transcript against the official one when EPL files it — it has filed every prior quarter."* **As of 22-Aug-2026 it has not filed.** Verified on both NSE and BSE feeds. **Historical lag is 6 days** (Q4FY26: call 14-May, transcript 20-May); this one is at **11 days and counting**, past SEBI's five-working-day window. Not an accusation — EPL's filing record is otherwise clean — but it is recorded rather than assumed away, and **the Q1FY27 quotes in this profile therefore still rest on a machine transcript.** ⤴ **UPDATE 28-Aug-2026 — CLOSED: the official transcript was filed on 28-Aug (17 days after the call). Every numeric token in the machine version appears in the official one; nothing changed.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 239** · market cap ₹ 7,655 Cr. · P/E 18.6x · ROCE 17.8 % · ROE 15.7 % · 52-wk ₹ 274 / 176 · **vs ₹266 at baseline (-10.2%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 238** · market cap ₹ 7,621 Cr. · P/E 18.6x · ROCE 17.8 % · ROE 15.7 % · 52-wk ₹ 274 / 176 · **vs ₹266 at baseline (-10.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No filings at all on either exchange in the window — verified, not assumed. Blackstone exit and the Rating Watch remain the live items · (earlier in window: 🔴 Blackstone sold its ENTIRE 26.37% stake on 1-Sep; India Ratings put AA+ on Rating Watch (Developing); official Q1FY27 transcript filed and machine version verified; stock −10%)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 Only an ESOP allotment of 507,014 shares; Blackstone exit and the Rating Watch remain unaddressed · (earlier: No filings at all on either exchange in the window — verified, not assumed. Blackstone exit and the Rating Watch remain the live items · (earlier in window: 🔴 Blackstone sold its ENTIRE 26.37% stake on 1-Sep; India Ratings put AA+ on Rating Watch (Developing); official Q1FY27 transcript filed and machine version verified; stock −10%))</span></summary>
 <div class="upd-body">
+
+**⚪ 23-Sep → 6-Oct-2026 — One ESOP allotment, nothing else**
+**507,014 shares allotted under ESOP** (23-Sep); trading window closed 28-Sep. Swept on **both** NSE and BSE.
+> **Why it matters:** the two live items are untouched and still unexplained by the company — **Blackstone's sale of its entire 26.37%** on 1-Sep, with no filing saying whether the merger scheme terms change as a result, and **India Ratings' AA+ on Rating Watch (Developing)**. More than a month has now passed on both. **Q2FY27 is the next opportunity for management to address either.**
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 19 → 23-Sep-2026 — No filings on either exchange**
 Swept **both NSE and BSE**: zero announcements in the window. **This is a verified negative, not an absence of searching** (§0A rule 6).

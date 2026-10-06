@@ -13,11 +13,17 @@
 > **Meanwhile the stock is up 17.5% since that refresh, to within 1.9% of its 52-week high.** ***Better quarter, worse price, weaker pipeline — and that combination is the downgrade.***
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 306** · market cap ₹ 17,190 Cr. · P/E 21.9x · ROCE 30.4 % · ROE 23.4 % · 52-wk ₹ 310 / 164 · **vs ₹262 at baseline (+16.8%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 309** · market cap ₹ 17,353 Cr. · P/E 22.1x · ROCE 30.4 % · ROE 23.4 % · 52-wk ₹ 321 / 164 · **vs ₹262 at baseline (+17.9%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 🟢🟢 US$450m+ Dangote contract for a 700,000 BPD greenfield refinery in KENYA — bigger than annual revenue; stock +15% to ₹306. Also ₹5.31 lakh fines from each exchange for board-composition non-compliance · (earlier in window: Ministry extends the CMD's additional charge as Director (Commercial) by three months from 30-Sep; new statutory auditors for FY27; stock +1.5%)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 Nothing new; the Dangote execution schedule is still undisclosed · (earlier: 🟢🟢 US$450m+ Dangote contract for a 700,000 BPD greenfield refinery in KENYA — bigger than annual revenue; stock +15% to ₹306. Also ₹5.31 lakh fines from each exchange for board-composition non-compliance · (earlier in window: Ministry extends the CMD's additional charge as Director (Commercial) by three months from 30-Sep; new statutory auditors for FY27; stock +1.5%))</span></summary>
 <div class="upd-body">
+
+**⚪ 23-Sep → 6-Oct-2026 — Nothing new after the Dangote award**
+Only a trading-window closure (24-Sep) and the board-comments filing on the exchange fines already recorded on 23-Sep.
+> **Why it matters:** **the US$450m+ Dangote Kenya contract remains unquantified in time.** No execution period, phasing, milestones or revenue-recognition start has been disclosed in the two weeks since, so **it still cannot be annualised and §6 is still deliberately not re-derived.** ⭐ **The Q2FY27 call is the trigger.** The Reg 17(1) board-composition fines are unresolved — appointments rest with MoPNG.
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **🟢🟢 22-Sep-2026 — Dangote again: a contract *"in excess of US$ 450 Million"* for a 700,000 BPD greenfield refinery and petrochemical plant in KENYA**
 EIL has **signed a Contract Agreement valued at more than US$450 million to act as PMC and EPCM Consultant** for Dangote's new **700,000 barrels-per-day greenfield refinery and petrochemical complex in Kenya**. The award follows EIL's role as PMC/EPCM on Dangote's commissioned **650,000 BPD Lekki complex in Nigeria** — the world's largest single-train refinery — and its ongoing expansion to 1.4 million BPD.

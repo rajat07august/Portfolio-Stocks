@@ -10,11 +10,21 @@
 > **📌 Basis note: Interarch reports STANDALONE only.** Screener's consolidated page is empty and the board resolution reads *"Standalone Unaudited Financial Results"*. **Every figure in this profile is standalone.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 1,693** · market cap ₹ 2,847 Cr. · P/E 20.8x · ROCE 23.7 % · ROE 16.8 % · 52-wk ₹ 2,763 / 1,600 · **vs ₹1,690 at baseline (+0.2%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 1,668** · market cap ₹ 2,804 Cr. · P/E 20.5x · ROCE 23.7 % · ROE 16.8 % · 52-wk ₹ 2,763 / 1,600 · **vs ₹1,690 at baseline (-1.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Nothing filed — but the 29-Sep income-tax document deadline is live and undisclosed · (earlier in window: 🔴 OMISSION CORRECTED: the profile never carried the August-2025 income-tax search; a block-assessment notice for 2019-2025 was received 15-Sep with documents due 29-Sep; conviction moved to Under Watch)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟡 ₹8.30cr GST demand for FY2022-23 (1-Oct) — NOT the income-tax matter, which is still unaddressed; heavy-structures plant commissioned and new orders · (earlier: Nothing filed — but the 29-Sep income-tax document deadline is live and undisclosed · (earlier in window: 🔴 OMISSION CORRECTED: the profile never carried the August-2025 income-tax search; a block-assessment notice for 2019-2025 was received 15-Sep with documents due 29-Sep; conviction moved to Under Watch))</span></summary>
 <div class="upd-body">
+
+**🟡 1-Oct-2026 — A ₹8.30cr GST demand under Section 73(1), for FY2022-23**
+A **DRC-01 notice under Section 73(1) of the CGST/Punjab GST Act 2017**, received on the GST portal on 1-Oct-2026 from the **Assistant Commissioner, Mohali-1, Ropar, Punjab**. Alleged: **mismatch between sales declared in GSTR-1 and e-way bills issued, and ITC claimed on supplies blocked under Section 17(5).** Quantified impact **₹8,29,76,414** — basic **₹4,55,91,436** + interest **₹3,28,25,834** + penalty **₹45,59,144**.
+> **Why it matters, and what it is not.** It is a show-cause demand, not an order, and the basic tax is ₹4.56cr. **Crucially it is NOT the income-tax matter** — and that is the point worth holding on to: **the Section 142(1) block-assessment documents were due 29-Sep-2026 and nothing whatsoever has been filed about them.** The income-tax search of 18-Aug-2025 and its block assessment remain entirely undisclosed as to outcome, now past their own deadline. **Two separate tax exposures, one disclosed and small, one undisclosed and unquantified.**
+
+**🟢 24 → 30-Sep-2026 — Heavy-structures plant inaugurated, commercial production begun, capacity added, new orders**
+A linked set of filings: an **advanced heavy-structures facility inaugurated** (press release, 24-Sep), **commencement of commercial production** and a **capacity addition** disclosed the same day, followed by **new order wins (30-Sep)**.
+> **Why it matters:** capex converted into operating capacity, with orders arriving alongside. *The filings do not quantify the capacity added or the order value in the announcement text, so no figure is attached here.*
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 19 → 23-Sep-2026 — Nothing material filed**
 Swept both NSE and BSE: **zero announcements.** ⚠️ **The live item is a deadline, not a filing: documents under the Section 142(1) notice in the income-tax block assessment were due 29-Sep-2026.** Nothing has been filed about it, and the outcome has never been disclosed.

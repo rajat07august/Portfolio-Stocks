@@ -13,11 +13,17 @@
 > **📌 SECTOR NOTE.** Placed in **Sector 1 (Aerospace & Defence)** at Rajat's instruction, 1-Sep-2026, **with the sector definition widened from *"Defence electronics, aerospace forging, avionics, drones"* to include defence platform systems and equipment.** ***Its customer, its qualification barrier and its margin structure are naval-platform economics — the same thing that groups PARAS, AZAD, AXISCADES, DYNAMATIC, ROSSELL and UNIMECH — even though it makes none of the four things the old definition listed.***
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 379** · market cap ₹ 1,358 Cr. · P/E 63.1x · ROCE 13.8 % · ROE 13.0 % · 52-wk ₹ 439 / 161 · **vs ₹410 at baseline (-7.6%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 391** · market cap ₹ 1,399 Cr. · P/E 65.0x · ROCE 13.8 % · ROE 13.0 % · 52-wk ₹ 439 / 161 · **vs ₹410 at baseline (-4.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 1-Sep-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Participation in an Arihant virtual conference; nothing else · (earlier in window: CARE upgrades the bank rating to BBB-/Stable (from BB+) and cites a ₹279.67cr order book; AGM approves the new Whole-Time Director; stock −3.7%)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 1-Sep-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 A trading-window closure only · (earlier: Participation in an Arihant virtual conference; nothing else · (earlier in window: CARE upgrades the bank rating to BBB-/Stable (from BB+) and cites a ₹279.67cr order book; AGM approves the new Whole-Time Director; stock −3.7%))</span></summary>
 <div class="upd-body">
+
+**⚪ 23-Sep → 6-Oct-2026 — Nothing material**
+Swept **BSE** (544458 — BSE-only, via Chrome): **a single trading-window closure.** Nothing else.
+> **Why it matters:** no change. Half-yearly reporter — **the H1FY27 print (~Nov-2026) is the first test of whether the margin decline from ~27% to 21.4% on 55% revenue growth continues.** *Compare receivable days with CFF each half-year — same shipyard customers.*
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 19 → 23-Sep-2026 — Nothing material filed**
 Swept **BSE** (544458 — BSE-only): one filing, **participation in a virtual conference hosted by Arihant** on 22-Sep. Nothing else.

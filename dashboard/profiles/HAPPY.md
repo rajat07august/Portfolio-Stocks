@@ -12,11 +12,17 @@
 > ***Applying the refresh's own logic consistently: if 55x with +12% justified MH, then 63.8x with −4% justifies MEDIUM.*** **Nothing in the business caused this, and nothing in §3.5 or §4 has deteriorated.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 2,100** · market cap ₹ 19,802 Cr. · P/E 60.5x · ROCE 18.0 % · ROE 15.0 % · 52-wk ₹ 2,484 / 889 · **vs ₹2,212 at baseline (-5.1%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 1,973** · market cap ₹ 18,628 Cr. · P/E 56.9x · ROCE 18.0 % · ROE 15.0 % · 52-wk ₹ 2,484 / 889 · **vs ₹2,212 at baseline (-10.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No material filings in the window; 1 routine item(s) · (earlier in window: No company event beyond an ESOP allotment; stock −3% to ₹2,148)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 No filings on either exchange · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No company event beyond an ESOP allotment; stock −3% to ₹2,148))</span></summary>
 <div class="upd-body">
+
+**⚪ 23-Sep → 6-Oct-2026 — No filings at all**
+**Zero announcements on either feed** in the window.
+> **Why it matters:** a verified negative, not an unsearched gap. Q2FY27 is the next datapoint.
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 19 → 23-Sep-2026 — Nothing material filed**
 One filing: a **trading-window closure** on 21-Sep.

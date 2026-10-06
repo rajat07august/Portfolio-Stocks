@@ -12,11 +12,19 @@
 > **🔴 The single rule for this company: tax-normalise every profit comparison.** FY26's effective tax rate was **2.7%**; FY25's was 26.6%; Q1FY27's was 33%. **Reported PAT is not comparable across any two periods here without adjustment**, and the headline records that justified a High conviction at initiation were substantially an accounting event. **Read the PBT line first.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 267** · market cap ₹ 37,016 Cr. · P/E 11.5x · ROCE 8.42 % · ROE 11.9 % · 52-wk ₹ 388 / 230 · **vs ₹275 at baseline (-2.9%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 259** · market cap ₹ 35,858 Cr. · P/E 11.2x · ROCE 8.42 % · ROE 11.9 % · 52-wk ₹ 388 / 230 · **vs ₹275 at baseline (-5.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 ₹500cr commercial paper issued; the CMD is given additional charge of Director (Finance) for three months — a second portfolio on one office · (earlier in window: Permanent CMD appointed (the CFO, who vacates his seat); US$100m ECB approved; CRISIL AAA reaffirmed; 110 MW solar PPA signed; new joint auditors)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟢 50:50 JV with NALCO approved for a 1080 MW captive thermal plant; ₹500cr CP; a new Executive Director · (earlier: ₹500cr commercial paper issued; the CMD is given additional charge of Director (Finance) for three months — a second portfolio on one office · (earlier in window: Permanent CMD appointed (the CFO, who vacates his seat); US$100m ECB approved; CRISIL AAA reaffirmed; 110 MW solar PPA signed; new joint auditors))</span></summary>
 <div class="upd-body">
+
+**🟢 29-Sep-2026 — Board approves a 50:50 JV with NALCO for a 1,080 MW captive thermal plant**
+The Board approved **incorporation of a joint venture company with National Aluminium Company Limited (NALCO)**, equity **50:50**, for development of a **1,080 MW (4 × 270 MW) thermal captive power plant in phases** to meet NALCO's captive power requirements, **and exploring options of a long-term PPA for NALCO's renewable energy requirements** — subject to statutory and administrative approvals and DIPAM guidelines.
+> **Why it matters.** A **captive plant with a single named industrial offtaker** is a different risk profile from merchant generation: demand is contracted to an aluminium smelter, which is among the most power-intensive industrial loads there is. The renewable PPA option attached to it extends the relationship beyond thermal. For a Navratna PSU whose growth has leaned on lignite and renewables, this is a sizeable new leg.
+> **🔎 Early stage, and the caveats are the company's own: "subject to various statutory and administrative approvals" and DIPAM compliance.** No project cost, equity commitment, financial close or timeline is disclosed, and *"in phases"* implies a long build. **Nothing should be put in forecasts yet.**
+> *Also: **₹500cr of commercial paper** issued 22-Sep (10,000 CPs of ₹5 lakh); **Mr. P L S S Chaitanya Prakash appointed Executive Director** w.e.f. 5-Oct. **The CMD continues to hold additional charge of Director (Finance)** from the 22-Sep intimation — the three-month clock is running.*
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **🟡 22-Sep-2026 — CMD given additional charge of Director (Finance) for three months**
 The Ministry of Coal has **entrusted the additional charge of Director (Finance) to Dr. Prasanna Kumar Acharya, Chairman-cum-Managing Director, for an initial period of three months** with effect from the date stated, in continuation of an intimation of 17-Sep-2026.

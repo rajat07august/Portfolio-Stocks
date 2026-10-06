@@ -12,11 +12,18 @@
 > **The tension to hold throughout: this is an elite manufacturing franchise attached to a valuation and a cash-flow record that do not match it.** The engineering is world-class and got better this quarter. **Operating cash flow has been positive in one of the last five years.** Both statements are true, and the profile is written to keep them side by side rather than resolve them.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 2,713** · market cap ₹ 17,531 Cr. · P/E 126x · ROCE 11.9 % · ROE 9.09 % · 52-wk ₹ 2,987 / 1,359 · **vs ₹2,718 at baseline (-0.2%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 2,977** · market cap ₹ 19,226 Cr. · P/E 138x · ROCE 11.9 % · ROE 9.09 % · 52-wk ₹ 3,128 / 1,359 · **vs ₹2,718 at baseline (+9.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No material filings in the window — zero announcements on the feeds swept · (earlier in window: No company event beyond the FY26 annual report; stock +2.6% to ₹2,790 at ~130x)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟢 AGM re-appointed the Chairman-CEO and two whole-time directors for five years, all passed cleanly — notable against two promoter-pay defeats elsewhere this month · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: No company event beyond the FY26 annual report; stock +2.6% to ₹2,790 at ~130x))</span></summary>
 <div class="upd-body">
+
+**🟢 29-30 Sep-2026 — Promoter executive re-appointments pass cleanly at the AGM**
+Members approved, **with requisite majority**: **re-appointment of Mr. Rakesh Chopdar (DIN 01795599) as Whole-Time Director, Executive Chairman and Chief Executive Officer for five years w.e.f. 13-Sep-2026**; **Mrs. Jyoti Chopdar (DIN 03732757) as Whole-Time Director for five years** from the same date; and **Mr. Vishnu Malpani (DIN 10307319) as Whole-Time Director.** All AGM resolutions passed.
+> **Why this is worth recording rather than filing as routine.** **Two other watchlist companies put promoter-family executive resolutions to shareholders in the same four weeks and lost** — MAYUR's Whole Time Director re-appointment (70.44% against a 75% bar) and DEE's Whole-time Director pay revision (71.08%), both sunk by institutional votes. **Azad put the founder-CEO and a family whole-time director up for five-year terms and carried them without difficulty.** In a month when institutions have been demonstrably willing to vote down promoter-family resolutions at Indian small and mid-caps, **passing cleanly is a positive signal about how this register views the management**, not a non-event.
+> *The §3.5 retrofit remains the last one outstanding in the watchlist.*
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 19 → 23-Sep-2026 — Nothing material filed**
 Swept both NSE and BSE: **zero announcements.**

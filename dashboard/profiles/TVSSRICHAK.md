@@ -4,11 +4,18 @@
 **Conviction: MEDIUM-LOW** · CMP ₹5,146 · Mcap ₹3,942 Cr · Trailing P/E **42.7x** · ROCE 7.85% · ROE 5.75%
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 4,651** · market cap ₹ 3,563 Cr. · P/E 34.8x · ROCE 7.85 % · ROE 5.75 % · 52-wk ₹ 5,760 / 3,013 · **vs ₹5,146 at baseline (-9.6%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 4,339** · market cap ₹ 3,324 Cr. · P/E 32.4x · ROCE 7.85 % · ROE 5.75 % · 52-wk ₹ 5,760 / 3,184 · **vs ₹5,146 at baseline (-15.7%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 15-Sep-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No filings since the profile was written; stock −9.6%</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 15-Sep-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟡 ₹17.53cr state-tax show-cause notice for AY2022-23 (tax ₹8.05cr); AGM passed · (earlier: No filings since the profile was written; stock −9.6%)</span></summary>
 <div class="upd-body">
+
+**🟡 28-29 Sep-2026 — ₹17.53cr show-cause / demand notice from the Maharashtra state tax authority**
+A **Show Cause Notice / Demand Notice dated 28-Sep-2026 from the Deputy Commissioner of State Tax, Bhiwandi, Mumbai, for Assessment Year 2022-23.** The company's own disclosure of expected financial implications: *"The notice proposes a demand aggregating to approximately **Rs.17.53 crore**, comprising **tax of Rs. 8.05 crore**"* plus interest and penalty.
+> **Why it matters.** A proposed demand, not an order — the company will contest it in the ordinary course, and ₹17.53cr is not balance-sheet threatening. **It is recorded because this is a name whose concall gate is 🔴 RED and unclosable — TVS Srichakra has never held an earnings call** — so the filings feed is the *only* channel through which anything about this company becomes known, and tax exposure is exactly the sort of item that otherwise surfaces a year later in a contingent-liability note.
+> *Also in the window: AGM proceedings and scrutinizer's report (24-25 Sep) — all resolutions passed; a press release (25-Sep); trading window closed 28-Sep.*
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 15 → 23-Sep-2026 — No filings on either exchange**
 Swept both NSE and BSE: zero announcements.

@@ -4,11 +4,17 @@
 **Thesis current as of: 17-Sep-2026 · Tracking since: 17-Sep-2026**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 622** · market cap ₹ 2,437 Cr. · P/E 32.4x · ROCE 18.1 % · ROE 13.3 % · 52-wk ₹ 675 / 298 · **vs ₹583 at baseline (+6.7%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 628** · market cap ₹ 2,462 Cr. · P/E 32.8x · ROCE 17.7 % · ROE 13.2 % · 52-wk ₹ 688 / 298 · **vs ₹583 at baseline (+7.7%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 17-Sep-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No filings since the profile was written</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 17-Sep-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 A newly assigned credit rating (unread) and a clean AGM · (earlier: No filings since the profile was written)</span></summary>
 <div class="upd-body">
+
+**⚪ 23-Sep → 6-Oct-2026 — A NEW credit rating assigned; AGM passed**
+A **"Credit Rating- New"** intimation (24-Sep) — a newly assigned rating rather than a review — plus AGM proceedings (30-Sep), scrutinizer's report (1-Oct) with **all resolutions passed**, and a trading-window closure.
+> **Why it matters:** **a newly assigned rating usually accompanies a new facility**, which for a company with ₹6cr of borrowings against ₹136cr of investments would be a change worth understanding. **🔎 The agency, rating and facility are not in the filing index and the PDF has not been parsed here — stated as unread, not as nothing.** *Read at the next refresh.* The core finding is unchanged: **management's "EBITDA" includes other income, and FY26 operating profit excluding it fell 6%.**
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 17 → 23-Sep-2026 — No filings on either exchange**
 Swept both feeds: zero announcements.

@@ -10,11 +10,18 @@
 > **📌 A structural event is in progress and shareholders vote on it tomorrow.** The **promoter holding company, ADI BPO Services Limited, is being amalgamated into MPS Limited** under Sections 230–232, with NCLT-convened meetings of equity shareholders and unsecured creditors on **22-August-2026**. **The swap ratio is calibrated to leave public shareholders untouched** — the arithmetic is checked in §5.5(b). **None of this was in the initiation.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 2,691** · market cap ₹ 4,613 Cr. · P/E 25.2x · ROCE 38.7 % · ROE 29.7 % · 52-wk ₹ 2,980 / 1,336 · **vs ₹2,898 at baseline (-7.1%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 2,645** · market cap ₹ 4,525 Cr. · P/E 24.7x · ROCE 38.7 % · ROE 29.7 % · 52-wk ₹ 2,980 / 1,336 · **vs ₹2,898 at baseline (-8.7%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 NCLT Chennai passed the Second Motion order (16-Sep) in the ADI BPO amalgamation — shareholder and creditor approvals taken on record · (earlier in window: Promoter-holdco merger: shareholders and creditors approved the scheme (22-Aug), NCLT second-motion order taken on record (16-Sep); new company secretary; stock −8%)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 ISO/IEC 42001 AI-management certification; amalgamation notice advertised · (earlier: NCLT Chennai passed the Second Motion order (16-Sep) in the ADI BPO amalgamation — shareholder and creditor approvals taken on record · (earlier in window: Promoter-holdco merger: shareholders and creditors approved the scheme (22-Aug), NCLT second-motion order taken on record (16-Sep); new company secretary; stock −8%))</span></summary>
 <div class="upd-body">
+
+**🟢 29-30 Sep-2026 — ISO/IEC 42001:2023 certification, and the scheme notice advertised**
+A press release: *"MPS Earns ISO/IEC 42001:2023 Certification, Independent Proof of Ho[nest/responsible AI]…"* — **ISO/IEC 42001 is the AI management-system standard**, the first of its kind. Separately, a **newspaper publication of the notice** relating to the scheme (29-Sep). Trading window closed 25-Sep.
+> **Why the certification is worth more than a line.** MPS sells content and data services into publishing, where customers are **acutely sensitive to how AI is used on their intellectual property.** A third-party-audited AI management system is a **procurement credential** in exactly the conversations where MPS is competing, and it is the kind of differentiator that is hard for smaller vendors to match. *It is a certification, not a contract — no revenue attaches to it.*
+> **The NCLT second-motion order of 16-Sep in the ADI BPO amalgamation is progressing**; the newspaper notice is part of that process. The scheme is **still not sanctioned.**
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **🟢 16-Sep-2026 (filed 19-Sep) — NCLT Chennai passes the Second Motion order in the ADI BPO amalgamation**
 The **NCLT, Division Bench (Court-I), Chennai** passed an order dated **16-Sep-2026** in CP(CAA)/76(CHE)/2026 on the Second Motion Petition for the **Scheme of Amalgamation between ADI BPO Services Limited (Transferor) and MPS Limited (Transferee)**. The Tribunal **took on record the Chairman's reports evidencing approval of the Scheme by the equity shareholders and unsecured creditors** at meetings held on 22-Aug-2026, and **directed service of notices on the statutory and regulatory authorities** for their representations.

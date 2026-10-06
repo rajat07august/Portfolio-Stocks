@@ -12,11 +12,17 @@
 > **⤴ CORRECTED 19-Sep-2026 — this caveat no longer holds. KMEW held its first Q1 earnings call on 26-Aug-2026 (Systematix; transcript filed 2-Sep; read in full for this refresh).** *Original text, accurate at 18-Aug:* 🔴 A structural disclosure gap you must hold throughout: KMEW has never held a first-quarter earnings call. Verified across every concall Screener lists (Jun-2023 → Jun-2026) and all 143 NSE filings back to Nov-2024. The cadence is **Jun (Q4/FY), Nov (H1), Feb (Q3)**. **So the largest quarter in company history — Q1FY27, filed 14-Aug-2026 — will not be discussed with shareholders until roughly November.** Management did, however, pre-explain that quarter in detail on the Q4 call. **Six transcripts on disk** (Jun-2023, Nov-2023, Jun-2024, Feb-2026, Jun-2026, **Aug-2026 Q1FY27 — added 19-Sep-2026**); Nov-2024, Feb-2025, Jun-2025 and Nov-2025 produced decks but no transcript.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 2,997** · market cap ₹ 7,601 Cr. · P/E 58.7x · ROCE 16.3 % · ROE 20.0 % · 52-wk ₹ 3,222 / 1,084 · **vs ₹2,706 at baseline (+10.8%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 3,025** · market cap ₹ 7,673 Cr. · P/E 59.2x · ROCE 16.3 % · ROE 20.0 % · 52-wk ₹ 3,222 / 1,084 · **vs ₹2,706 at baseline (+11.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 🟢 ₹279.33cr 15-year Mumbai Port green-tug charter, and CARE raises the long-term outlook to BBB+/Positive · (earlier in window: 🔴 The profile's 'no Q1 call, ever' caveat is now false: first Q1 call held 26-Aug; FY27 growth potential raised to 'northwards of 60%'; ₹500cr NCD approved 8-Sep; new ₹62cr shipbuilding order; stock +7%)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 AGM passed; green-tug order and ratings outlook unchanged · (earlier: 🟢 ₹279.33cr 15-year Mumbai Port green-tug charter, and CARE raises the long-term outlook to BBB+/Positive · (earlier in window: 🔴 The profile's 'no Q1 call, ever' caveat is now false: first Q1 call held 26-Aug; FY27 growth potential raised to 'northwards of 60%'; ₹500cr NCD approved 8-Sep; new ₹62cr shipbuilding order; stock +7%))</span></summary>
 <div class="upd-body">
+
+**⚪ 23-Sep → 6-Oct-2026 — AGM held 30-Sep; all resolutions passed**
+AGM proceedings (30-Sep), scrutinizer's report and voting results (5-Oct) — **no resolution defeated** — and a trading-window closure.
+> **Why it matters:** clean. The two substantive items from 23-Sep stand: the **₹279.33cr 15-year Mumbai Port electric green-tug charter** and **CARE's outlook revision to BBB+/Positive**. **The tension in this name is unchanged — management called the company "fully capitalized" and the Board then approved up to ₹500cr of NCDs.** *Signal: whether those NCDs are drawn, and at what cost.*
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **🟢 19-Sep-2026 — ₹279.33cr work order from Mumbai Port Authority: a 15-year electric green-tug charter**
 KMEW received a Work Order from **Mumbai Port Authority (MbPA)** for *"Chartering of 01 No. 60 Ton Bollard Pull Capacity New Battery Operated Electric Green Tug along with Manning, Operations, Maintenance and Complete Technical Management."* **Term 15 years, value ₹279.33cr including GST.**

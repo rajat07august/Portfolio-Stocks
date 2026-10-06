@@ -12,11 +12,17 @@
 > **This is a cyclical at a trough, and the profile is written that way.** Earnings-based multiples are close to meaningless here; **book value is the informative anchor.** Management files a transcript every quarter and answers directly — which, across this refresh batch, is not the norm.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 74.2** · market cap ₹ 4,592 Cr. · P/E 28.9x · ROCE 5.00 % · ROE 3.04 % · 52-wk ₹ 99.7 / 60.1 · **vs ₹72 at baseline (+3.1%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 78.8** · market cap ₹ 4,874 Cr. · P/E 30.6x · ROCE 5.00 % · ROE 3.04 % · 52-wk ₹ 99.0 / 60.1 · **vs ₹72 at baseline (+9.4%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 17-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Completed the 70% buy of Arabian Water Tech LLC (Oman) — for OMR 21,000, a nominal sum · (earlier in window: Omani water-technology subsidiary acquisition completed (70% of Arabian Water Tech LLC, OMR 21,000 paid); nothing else material; stock +2%)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 17-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 Routine PIT disclosure; the Oman acquisition still to consolidate · (earlier: Completed the 70% buy of Arabian Water Tech LLC (Oman) — for OMR 21,000, a nominal sum · (earlier in window: Omani water-technology subsidiary acquisition completed (70% of Arabian Water Tech LLC, OMR 21,000 paid); nothing else material; stock +2%))</span></summary>
 <div class="upd-body">
+
+**⚪ 23-Sep → 6-Oct-2026 — A Reg 7(2) insider-trading disclosure; nothing material**
+A routine **Regulation 7(2) SEBI (PIT) disclosure** (1-Oct), an analyst-meet schedule and a trading-window closure.
+> **Why it matters:** no change. **The 70% acquisition of Arabian Water Tech LLC (Oman) completed on 19-Sep for OMR 21,000** — roughly ₹5 lakh — remains an inexpensive option on Gulf market access rather than an earnings event, and will first appear in the H1FY27 consolidation.
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **🟢 19-Sep-2026 — The Oman acquisition closes: 70% of Arabian Water Tech LLC, for OMR 21,000**
 Following the Board's 10-Nov-2025 approval, the Company has **paid OMR 21,000 for 14,000 equity shares of OMR 1 each, representing 70% of Arabian Water Tech LLC (Oman)**, from Arabian (DIFC) SPC1 and SPC2, and has **received the share certificates**.

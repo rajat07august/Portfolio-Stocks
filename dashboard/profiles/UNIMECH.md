@@ -11,11 +11,19 @@
 > **🔴 THE ONE-PARAGRAPH VERSION.** Unimech makes the **tools that build and maintain jet engines** — a genuinely differentiated, 65%-gross-margin business with AS9100 certification, multi-year qualification cycles and real switching costs. It listed in December 2024, guided **+40% revenue growth for FY26, and delivered −1%** when US tariffs hit 50% and its customers stopped restocking. It has since spent **₹450cr — essentially its entire IPO treasury — buying Hobel Bellows**, a 50%-EBITDA-margin business, at 7x EBITDA. The stock trades at **105x earnings and 10.3x book on an 11.2% ROCE**, and **roughly half of reported pre-tax profit is interest income, not operations.** **The ₹1,000cr-by-FY29 target that would justify the multiple has not been mentioned on any of the last three calls.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 1,716** · market cap ₹ 8,738 Cr. · P/E 121x · ROCE 11.2 % · ROE 7.96 % · 52-wk ₹ 1,868 / 695 · **vs ₹1,491 at baseline (+15.1%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 1,858** · market cap ₹ 9,458 Cr. · P/E 131x · ROCE 11.2 % · ROE 7.96 % · 52-wk ₹ 1,875 / 695 · **vs ₹1,491 at baseline (+24.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Nothing filed; the five late-disclosed SMP departures remain the open item · (earlier in window: 🔴 Five senior managers' exits disclosed up to 13 months late ('inadvertent error'); CARE assigns Issuer Rating A/Stable; ₹3cr more into Dheya, on whose board the CMD and a WTD sit; stock +6.7%)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟢🟢 Saudi JV funded and controlled — SAR 15.30m (~₹39.4cr) infused for 51% of Kanoo Unimech, with a second equal tranche to follow · (earlier: Nothing filed; the five late-disclosed SMP departures remain the open item · (earlier in window: 🔴 Five senior managers' exits disclosed up to 13 months late ('inadvertent error'); CARE assigns Issuer Rating A/Stable; ₹3cr more into Dheya, on whose board the CMD and a WTD sit; stock +6.7%))</span></summary>
 <div class="upd-body">
+
+**🟢🟢 1-Oct-2026 — First tranche into the Saudi joint venture; Unimech holds a controlling 51%**
+In continuation of the Joint Venture Agreement of **20-Jan-2026** with **Yusuf Bin Ahmed Kanoo Company Limited**, Unimech has **completed its first tranche of capital infusion into Kanoo Unimech Advanced Manufacturing Solutions.** Unimech infused **SAR 15.30 million (approximately ₹39,35,54,250)**, its **51% share of a first funding tranche of SAR 30 million**, with Kanoo contributing SAR 14.70 million for 49%. **Unimech holds a controlling 51% stake.** A **second tranche of SAR 30 million** — SAR 15.30m from Unimech, SAR 14.70m from Kanoo — *"will be infused subsequently in accordance with the agreed investment schedule."*
+> **Why it matters.** The JV moves from agreement to funded entity, and **Unimech controls it** rather than holding a minority interest. Total committed on these numbers is roughly **SAR 30.6 million (~₹79cr)** from Unimech across both tranches. A Gulf manufacturing base is also a partial structural answer to the **US tariff exposure** that destroyed the December-2025 quarter, by putting capacity outside the India-to-US lane.
+> **🔎 Not disclosed: what the JV will make, its capacity, its customers, the commissioning timeline, or when it is expected to contribute.** ~₹79cr is material against Unimech's balance sheet, and **it is capital committed ahead of any disclosed revenue.** *Signals: the second tranche, and the first disclosure of what the JV actually builds.*
+> *Also: the §9 FTWZ characterisation item remains open and is still to be reconciled at the next full refresh.*
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 19 → 23-Sep-2026 — Nothing material filed**
 Swept both NSE and BSE: **zero announcements.** The 19-Sep item stands: **five senior-management departures disclosed 7-14 months late**, each attributed to *"an inadvertent error"*.

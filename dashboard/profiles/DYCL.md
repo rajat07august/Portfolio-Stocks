@@ -18,11 +18,17 @@
 > **Concall gate: 🟢 GREEN.** Eight transcripts on disk (Oct-2024 → Jul-2026) plus four decks — above the six-concall standard. Every management quote below is verbatim from those transcripts. Where a figure is mine rather than management's, it is labelled.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener, standalone — the consolidated page carries no data):** CMP **₹ 477** · market cap ₹ 2,310 Cr. · P/E 25.3x · ROCE 26.2 % · ROE 19.9 % · 52-wk ₹ 560 / 237
+**📍 Live market check — 6-Oct-2026 (Screener, standalone — the consolidated page carries no data):** CMP **₹ 438** · market cap ₹ 2,123 Cr. · P/E 23.3x · ROCE 26.2 % · ROE 19.9 % · 52-wk ₹ 560 / 237
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Head of HR & Corporate Communication resigned (SMP), effective 23-Sep · (earlier in window: FY26 annual report read: the ₹344.75cr related-party guarantee claim finds no support (related-party collateral fell from ₹5cr to nil; total contingent liabilities ₹207.5cr); senior QA manager resigns; stock −1.7%)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 Self-reported 100-share contra trade by a non-promoter AVP — immaterial · (earlier: Head of HR & Corporate Communication resigned (SMP), effective 23-Sep · (earlier in window: FY26 annual report read: the ₹344.75cr related-party guarantee claim finds no support (related-party collateral fell from ₹5cr to nil; total contingent liabilities ₹207.5cr); senior QA manager resigns; stock −1.7%))</span></summary>
 <div class="upd-body">
+
+**⚪ 23-Sep → 6-Oct-2026 — A self-reported insider-trading code violation — 100 shares, by a non-promoter AVP**
+On 28-Sep the company reported, in SEBI's prescribed format, a **violation of its Code of Conduct under the SEBI (PIT) Regulations by Mr. Manoj Chaturvedi, Assistant Vice-President (Design)** — **not a promoter or promoter-group member**. The trades: **buy 100 shares at ₹462.70 on 12-Aug, sell 50 at ₹455 on 27-Aug and 50 at ₹455.55 on 11-Sep** — a **contra trade** in breach of the code. The company records that the value was **below ₹10 lakh in the calendar quarter**, so no Regulation 7 intimation was triggered.
+> **Why it matters:** **almost nothing financially, and that is worth saying plainly rather than letting the words "insider trading violation" do unearned work.** Roughly ₹46,000 of stock, a mid-level design manager, no promoter involvement, and the company **self-reported it to the exchanges in the prescribed format.** If anything it evidences a functioning compliance process. Recorded for completeness. *Also: the 23-Sep resignation of the Head of HR & Corporate Communication (SMP) and a trading-window closure.*
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **🟡 23-Sep-2026 — Senior management departure: Head of HR & Corporate Communication**
 **Ms. Aditi Mangal, Head of Human Resource & Corporate Communication**, designated Senior Management Personnel, **resigned "due to personal reasons"** and was relieved at the close of business on 23-Sep-2026. A companion structured filing under "Resignation of Director/KMP/SMP" was made six minutes later — **the same event, not two.**

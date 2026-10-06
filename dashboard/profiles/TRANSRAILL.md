@@ -12,11 +12,21 @@
 > **🎯 This name carries a live Under Watch trigger with four named conditions, set at the Q1FY27 review and testable at Q2FY27 (~Nov-2026). It is in §5.5(a).**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 489** · market cap ₹ 6,565 Cr. · P/E 15.7x · ROCE 33.6 % · ROE 20.0 % · 52-wk ₹ 772 / 401 · **vs ₹467 at baseline (+4.7%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 477** · market cap ₹ 6,405 Cr. · P/E 15.4x · ROCE 33.6 % · ROE 20.0 % · 52-wk ₹ 767 / 401 · **vs ₹467 at baseline (+2.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 🟢 Conductor capacity +70%, 24,000 → 40,800 km/annum, Silvassa Phase 1 complete — delivering on the Jan/May-2025 intimations · (earlier in window: Quiet interval: no order or governance filing beyond the FY26 annual report and investor meets; stock −12% to ₹409, at its 52-week low)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟢 Tower capacity +12,000 MTPA (172,400 → 184,400) and ₹574cr of new orders — a second delivery item in two weeks · (earlier: 🟢 Conductor capacity +70%, 24,000 → 40,800 km/annum, Silvassa Phase 1 complete — delivering on the Jan/May-2025 intimations · (earlier in window: Quiet interval: no order or governance filing beyond the FY26 annual report and investor meets; stock −12% to ₹409, at its 52-week low))</span></summary>
 <div class="upd-body">
+
+**🟢 30-Sep-2026 — Tower capacity raised again, and ₹574cr of new orders**
+Two filings the same day:
+1. **Tower manufacturing capacity up 12,000 MTPA, from 172,400 to 184,400 MTPA** — a partial completion of the Silvassa brownfield expansion, *"in continuation of the earlier intimations made on the subject dated May 23, 2025 and April 21, 2026."* Press release: *"Transrail increases its Tower manufacturing capacity by another 12,000 MTPA."*
+2. **New orders worth ₹574 crore**, all stated to be *"received in the normal course of business."*
+
+> **Why it matters.** This is the **second delivered capacity commitment in eight days**, after conductor capacity went 24,000 → 40,800 km/annum (+70%) on 21-Sep. **Both were promised in intimations dating back to 2025 and both have now been completed and reported** — add to the §3.5 scorecard as delivered. Backward integration into towers and conductors is the structural argument for Transrail over a pure T&D contractor, and it is now measurably larger.
+> **🔎 Proportion matters: +12,000 MTPA on a 172,400 MTPA base is ~7%**, a far smaller step than the conductor expansion, and it is explicitly *"partial"* completion. *Capex and the remaining phase are not disclosed.*
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **🟢 21-Sep-2026 — Conductor capacity raised 70%: 24,000 → 40,800 km per annum**
 **Phase 1 of the brownfield expansion at Silvassa is complete**, taking installed conductor manufacturing capacity from **24,000 km/annum to 40,800 km/annum (+70%)**. The company frames it as strengthening *"execution efficiencies and capacity to cater to growing markets."* The filing is explicitly *"in continuation of the earlier intimations … dated January 15, 2025 and May 23, 2025."*

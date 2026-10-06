@@ -7,11 +7,22 @@
 > **Note on sourcing:** Sunita Tools is a very small SME with limited concall history. Only ONE full concall transcript (H1FY25) is available. Financial data extrapolated from investor deck + BSE filings + Screener. Confidence in numbers is moderate; management-tone reading is based on very limited data points. **This profile carries more uncertainty than others in the watchlist.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 1,201** · market cap ₹ 754 Cr. · P/E 119x · ROCE 10.1 % · ROE 10.8 % · 52-wk ₹ 1,222 / 553 · **vs ₹741 at baseline (+62.1%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 1,080** · market cap ₹ 678 Cr. · P/E 107x · ROCE 10.5 % · ROE 10.8 % · 52-wk ₹ 1,222 / 553 · **vs ₹741 at baseline (+45.7%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Nothing filed; ₹576cr order book vs ~₹47cr revenue from undisclosed counterparties still stands · (earlier in window: ₹576cr order book (₹552cr defence) against ₹32cr of four-month sales, all from undisclosed counterparties; three defence MoUs; unnamed 90% acquisition; equity raise approved; stock +44%)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟡 Managing Director re-appointed after his term had been EXPIRED since 25-May; three Pandey-family remuneration approvals now go to shareholders · (earlier: Nothing filed; ₹576cr order book vs ~₹47cr revenue from undisclosed counterparties still stands · (earlier in window: ₹576cr order book (₹552cr defence) against ₹32cr of four-month sales, all from undisclosed counterparties; three defence MoUs; unnamed 90% acquisition; equity raise approved; stock +44%))</span></summary>
 <div class="upd-body">
+
+**🟡 30-Sep-2026 — MD re-appointed four months after his term expired; three family pay approvals pending**
+The Board approved:
+1. **Appointment of Mr. Satish Kumar Pandey (DIN 00158327) as Managing Director w.e.f. 30-Sep-2026, "consequent upon the expiry of his earlier term of office on May 25, 2026"**, and approval of his remuneration, **subject to shareholders' approval**;
+2. remuneration of **Mr. Sanjay Kumar Pandey**, Whole Time Director, subject to shareholders' approval;
+3. remuneration of **Ms. Ragini Pandey**, Whole Time Director, subject to shareholders' approval.
+
+> **Why it matters.** The company's own wording establishes that **the Managing Director's term expired on 25-May-2026 and was not renewed until 30-Sep — a gap of more than four months.** For a company this profile already rates **Speculative**, carrying a **₹576cr order book (₹552cr of it defence) against roughly ₹47cr of FY26 revenue, all from counterparties it has not named**, a lapsed MD appointment left unaddressed for four months is a governance observation worth recording plainly.
+> **🔎 Three promoter-family remuneration items now go to shareholders at once** — and two comparable resolutions elsewhere in this watchlist were defeated by institutions this month. **Sunita's register is far more concentrated, so the arithmetic is different**; the point is simply that the amounts will become visible when the notice is published. *Not disclosed: the remuneration amounts. Signal: the notice, and the vote. Half-yearly reporter; trading window closed 25-Sep.*
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 19 → 23-Sep-2026 — Nothing material filed**
 Swept **BSE** (544001 — BSE-only): **zero announcements.** The 19-Sep flag stands: **a ₹576cr order book against ~₹47cr of FY26 revenue, all from undisclosed counterparties.**

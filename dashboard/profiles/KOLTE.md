@@ -10,11 +10,17 @@
 > **📌 THE DEFINING FACT OF THIS PROFILE: Kolte-Patil has held no earnings call since August 2025 — four consecutive quarters.** It is not a gap in this repository; **the company formally notified the exchanges each time that it would not host one.** Every judgement below rests on filings and investor decks **without any management Q&A**, and no analyst has been able to ask about the ₹150cr GST matter, the volume decline, or the Mumbai economics. **On 19-Aug-2026 the reason it gave for the latest blackout — *"leadership transition"* — resolved itself into a named CEO.** See §5.5(b).
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 440** · market cap ₹ 3,891 Cr. · P/E 31.3x · ROCE -0.32 % · ROE -4.36 % · 52-wk ₹ 557 / 292 · **vs ₹469 at baseline (-6.2%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 434** · market cap ₹ 3,849 Cr. · P/E 31.0x · ROCE -0.32 % · ROE -4.36 % · 52-wk ₹ 557 / 292 · **vs ₹469 at baseline (-7.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No material filings in the window — zero announcements on the feeds swept · (earlier in window: Strongest-ever launch: 600+ apartments and over ₹600cr of sales in 60 hours at 'Vyana at The Reserve', Pune; stock nonetheless −8%)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 A credit-rating intimation, direction not yet read · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: Strongest-ever launch: 600+ apartments and over ₹600cr of sales in 60 hours at 'Vyana at The Reserve', Pune; stock nonetheless −8%))</span></summary>
 <div class="upd-body">
+
+**⚪ 23-Sep → 6-Oct-2026 — A credit-rating intimation**
+A **credit rating** intimation (1-Oct) and a trading-window closure (24-Sep).
+> **Why it matters:** **🔎 the rating action is not stated in the index and the PDF has not been parsed — no direction is claimed here.** For a residential developer the rating is a direct read on project leverage, so it is worth opening at the next refresh. The profile's recognition-trough thesis is intact and **there is still no earnings call.**
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 19 → 23-Sep-2026 — Nothing material filed**
 Swept both NSE and BSE: **zero announcements.**

@@ -19,11 +19,17 @@
 > **⚠️ Reporting basis, stated up front.** Macpower has no subsidiaries, no joint ventures and no associates. Every figure in this profile is standalone and audited, reconciled between the FY26 Annual Report (filed 20-Aug-2026), the quarterly filings and Screener. Where the three disagree, the disagreement is stated.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 2,060** · market cap ₹ 2,060 Cr. · P/E x · ROCE % · ROE % · 52-wk ₹ 2,175 / 761 · **vs ₹1,843 at baseline (+11.8%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 2,168** · market cap ₹ 2,169 Cr. · P/E x · ROCE % · ROE % · 52-wk ₹ 2,251 / 761 · **vs ₹1,843 at baseline (+17.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 11-Sep-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 AGM held 23-Sep; CMD took part in a promoter-interview series. H1FY27 remains the checkpoint for the three unreconciled Q1 figures · (earlier in window: Investor-meeting flurry (DII management meet 21-Sep; CMD in a promoter-interview series); nothing on the three unreconciled figures; stock +14% to ₹2,104 at 54x)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 11-Sep-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 AGM passed; H1FY27 balance sheet remains the checkpoint · (earlier: AGM held 23-Sep; CMD took part in a promoter-interview series. H1FY27 remains the checkpoint for the three unreconciled Q1 figures · (earlier in window: Investor-meeting flurry (DII management meet 21-Sep; CMD in a promoter-interview series); nothing on the three unreconciled figures; stock +14% to ₹2,104 at 54x))</span></summary>
 <div class="upd-body">
+
+**⚪ 23-Sep → 6-Oct-2026 — AGM held 23-Sep; voting results filed, all passed**
+AGM proceedings (filed twice on 23-Sep, twenty minutes apart — **the same meeting, not two**), scrutinizer's report with voting results (24-Sep) showing **no resolution defeated**, an investor-meet schedule and a trading-window closure.
+> **Why it matters:** clean. ⭐ **The checkpoint is unchanged and specific: the H1FY27 balance sheet (~Nov-2026) is the only way to resolve the three Q1FY27 call figures that do not reconcile to the audited accounts** — receivables stated as "₹33-34cr" against ₹46.27cr audited, cash "₹20-25cr" against ₹6.62cr, and market share "4%/2%" against 2.08%/0.95%. **No quarterly balance sheet is published**, so nothing before November can settle it.
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 19 → 23-Sep-2026 — Nothing material filed**
 Three filings, all routine: **AGM proceedings on 23-Sep (filed twice, twenty minutes apart — the same meeting, not two)**, and an intimation that the **Chairman & MD took part in a promoter-interview series run by a content and digital strategy agency.** ⚠️ **The three Q1FY27 call figures that do not reconcile to the audited accounts are still open and can only be settled at the H1FY27 balance sheet (~Nov-2026)**, since no quarterly balance sheet is published.

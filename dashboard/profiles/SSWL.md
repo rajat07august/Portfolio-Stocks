@@ -12,11 +12,18 @@
 > **Disclosure cadence:** SSWL files **monthly turnover** to the exchanges — rare at this size — so the trajectory in 5.5 carries monthly resolution. **Seven concall transcripts on disk** (Jan-2025 → Jul-2026), plus the Q1FY27 deck read page by page.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 372** · market cap ₹ 5,862 Cr. · P/E 27.6x · ROCE 14.8 % · ROE 11.0 % · 52-wk ₹ 390 / 169 · **vs ₹305 at baseline (+22.0%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 421** · market cap ₹ 6,623 Cr. · P/E 31.2x · ROCE 14.8 % · ROE 11.0 % · 52-wk ₹ 425 / 169 · **vs ₹305 at baseline (+38.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No material filings in the window — zero announcements on the feeds swept · (earlier in window: August a second record month (+53.6% YoY); borrowing limit to be raised ₹2,000cr → ₹3,500cr; promoter buying in the open market; stock +22%)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 AGM passed; a director ceased and board committees were recomposed; September monthly business update published · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: August a second record month (+53.6% YoY); borrowing limit to be raised ₹2,000cr → ₹3,500cr; promoter buying in the open market; stock +22%))</span></summary>
 <div class="upd-body">
+
+**🟡 30-Sep / 1-Oct-2026 — AGM, a board cessation, committee recomposition, and the September monthly update**
+The 40th AGM was held 30-Sep; proceedings and scrutinizer's report filed, **all resolutions passed.** The same day the company disclosed the **cessation of Mr Virander Kumar** and a **change in the composition of board committees**. On 1-Oct it published its **monthly business update for September 2026**, which it notes also covers **quarterly (Q2FY27) and half-yearly (H1FY27) sales.**
+> **🔎 A sourcing caveat I am stating rather than working around: the monthly-update PDF is a poor scan and the figures did not extract reliably** — the growth percentages for exports and the truck category came through garbled. **No number from it is used here.** Per the §4A rule, a garbled extraction is a gap to declare, not to interpret. *The update is the most useful monthly disclosure of any name in this sector — read it directly at the next refresh, or from the company's website.*
+> *Why the rest matters: routine board housekeeping. SSWL remains the only watchlist name publishing monthly volumes, which makes it the best near-real-time read on the auto-component cycle.*
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 19 → 23-Sep-2026 — Nothing material filed**
 Swept both NSE and BSE: **zero announcements.**

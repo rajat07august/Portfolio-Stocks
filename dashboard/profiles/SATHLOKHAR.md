@@ -12,11 +12,18 @@
 > **⚠️ Screener ticker note.** The company is **`SSEGL` on Screener** (`screener.in/company/SSEGL/`); **`SATHLOKHAR` returns HTTP 404.** The initiation profile twice recorded *"Screener data limited for SME"* and wrote its Numbers and Valuation sections without a balance sheet, cash flow or peer set. **The data was always there.** *Same class of error as OBSC and DYNAMATIC.* **SSEGL reports standalone only** — there is no consolidated page.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener, standalone — the consolidated page carries no data):** CMP **₹ 386** · market cap ₹ 1,003 Cr. · P/E 9.77x · ROCE 36.3 % · ROE 30.3 % · 52-wk ₹ 580 / 283
+**📍 Live market check — 6-Oct-2026 (Screener, standalone — the consolidated page carries no data):** CMP **₹ 384** · market cap ₹ 998 Cr. · P/E 9.72x · ROCE 36.3 % · ROE 30.3 % · 52-wk ₹ 580 / 283
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Business update advertised in Business Standard; 1.7 lakh sq ft PEB factory inaugurated 30-Aug, PEB now ~35% of the order book · (earlier in window: PEB plant inaugurated on schedule; confirmed FY27 orders ₹1,139cr (from ₹1,102cr), ₹22,654cr bid pipeline, ~70% growth guidance reaffirmed; new Godrej order ₹44cr; stock +32%)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 New order win (1-Oct) and an investor-meet outcome; H1FY27 print approaching · (earlier: Business update advertised in Business Standard; 1.7 lakh sq ft PEB factory inaugurated 30-Aug, PEB now ~35% of the order book · (earlier in window: PEB plant inaugurated on schedule; confirmed FY27 orders ₹1,139cr (from ₹1,102cr), ₹22,654cr bid pipeline, ~70% growth guidance reaffirmed; new Godrej order ₹44cr; stock +32%))</span></summary>
 <div class="upd-body">
+
+**🟢 25-Sep / 1-Oct-2026 — A further order win, and an investor-meet outcome**
+**Bagging/receiving of orders/contracts** disclosed 1-Oct, and an **outcome of the investor meet** filed 25-Sep. Trading window closed 23-Sep; a depository certificate filed 3-Oct.
+> **🔎 The order value is not stated in the filing index and the PDF has not been parsed here, so no figure is attached.** Recorded as a confirmed order win of undisclosed size, to be quantified at the next refresh.
+> **Why it matters in context:** the 23-Sep entry recorded the **1.7 lakh sq ft PEB factory commissioned on 30-Aug** and PEB at ~35% of the order book. **Continued intake against newly commissioned capacity is the combination the thesis needs.** The counterweight in this profile is unchanged — FY26 operating cash flow of −₹163cr, and the MD under stayed NCLT insolvency proceedings. *Half-yearly reporter: H1FY27 print due ~Nov-2026 and it is the one that matters.*
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **🟢 21-Sep-2026 — Business update published in Business Standard**
 The Company published a business update (Business Standard, English edition, 21-Sep-2026) and filed it under Reg 30. It sets out the **order book by business segment, with PEB at ~35%**, describes a diverse base across **industrial, commercial, healthcare, institutional and solar** work, and names as a strategic priority *"Advancing backward integration: Strengthened its backward integration with the successful inauguration of its 1.7 lakh sq. ft. PEB factory on August 30, 2026"* and *"Building a PEB platform."*

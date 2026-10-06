@@ -18,11 +18,22 @@
 > **📌 And note the anchor: those institutions paid ₹721 on 6 August. The stock is ₹900 today — a 24.8% premium to informed money, in under three weeks.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 1,123** · market cap ₹ 3,356 Cr. · P/E 86.2x · ROCE 28.6 % · ROE 23.5 % · 52-wk ₹ 1,159 / 366 · **vs ₹900 at baseline (+24.8%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 1,189** · market cap ₹ 3,553 Cr. · P/E 91.3x · ROCE 28.6 % · ROE 23.5 % · 52-wk ₹ 1,191 / 366 · **vs ₹900 at baseline (+32.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No material filings in the window — zero announcements on the feeds swept · (earlier in window: US subsidiary signs a 36-month sales-representation and utility-approvals agreement covering 19 states (no order, no value); stock +17.7% to ₹1,059 at 81x)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟢🟢 Commercial production COMMENCED at the new Savli bushing plant, and the US subsidiary signed a 3-year sales-representation agreement for the Mid-west · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: US subsidiary signs a 36-month sales-representation and utility-approvals agreement covering 19 states (no order, no value); stock +17.7% to ₹1,059 at 81x))</span></summary>
 <div class="upd-body">
+
+**🟢🟢 30-Sep-2026 — Commercial production begins at the new manufacturing facility**
+Yash has **commenced commercial production at its new plant and raised the first commercial invoice from it.** The facility is at **Plot No. 32-A, Suncity Industrial Park, Village Haripura, Taluka Savli, District Vadodara, Gujarat**, built for production of **Resin Impregnated Paper (RIP) / Resin Impregnated Synthetic (RIS) transformer condenser graded bushings and their parts and accessories.**
+> **Why it matters.** RIP/RIS is the higher-specification, dry-type end of the bushing range, and this is the capacity the growth case rests on. **A first commercial invoice is the hardest possible evidence that a plant is real** — better than a commissioning announcement. *Not disclosed: the capacity added, the capex, or the ramp schedule, so no revenue figure is attached here.*
+
+**🟢 30-Sep-2026 — US subsidiary signs a 3-year sales-representation agreement**
+**YASH HV USA INC.** has entered a **Representation Agreement with GATEWAY POWER SALES**, effective **29-Sep-2026 for 36 months**, appointing it sales representative to promote and represent Yash products, including stakeholder mapping, product evangelism and **utility approvals and product homologation**, across **three Mid-west US states.** Products covered: **LV high-current bushings up to 25,000 A; OIP condenser bushings up to 245 kV** (oil-air, oil-oil, air-air); and **RIP/RIS condenser bushings up to 230 kV, "available from 2027 onwards"**.
+> **Why it matters.** Utility approval and homologation are the real barrier in the US market, and that is explicitly what this agreement is for — **it is a market-access and qualification arrangement, not an order.** Note the tie to the first item: **the RIP/RIS products it will represent are stated as available from 2027**, which is the output of the plant just commissioned.
+> **🔎 No revenue, minimum volume or exclusivity is disclosed**, and three Mid-west states is a narrow beachhead. Treat it as the start of a qualification cycle that typically runs years. *Half-yearly reporter — next print ~Nov-2026.*
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 19 → 23-Sep-2026 — Nothing material filed**
 Swept **BSE** (544310 — BSE-only): **zero announcements.** Half-yearly reporter; next print ~Nov-2026.

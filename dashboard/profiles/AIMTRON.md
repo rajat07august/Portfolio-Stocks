@@ -7,11 +7,18 @@
 > **How to read this profile:** Every meaningful claim is either sourced from a concall (period noted) or a filing. Aimtron reports H1/H2 not Q1/Q2/Q3/Q4 as it's on the SME platform. This is personal thesis-building, not a buy/sell recommendation.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 1,814** · market cap ₹ 3,858 Cr. · P/E 83.9x · ROCE 28.2 % · ROE 23.6 % · 52-wk ₹ 1,865 / 675 · **vs ₹1,313 at baseline (+38.2%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 1,900** · market cap ₹ 4,042 Cr. · P/E 87.9x · ROCE 28.2 % · ROE 23.6 % · 52-wk ₹ 2,010 / 675 · **vs ₹1,313 at baseline (+44.7%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 An investor meet was scheduled on 21-Sep and cancelled on 23-Sep, with no reason given · (earlier in window: Q1FY27 update: revenue +94%, order book ₹604cr; US arm books US$11.8m in Q2 to date; pilot orders from Curtiss-Wright and a test-solutions major; warrants converted; stock +27% to 77x)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟡 ~₹205cr preferential issue to non-promoter investors including AIFs, to fund 'strategic acquisitions'; warrants converted · (earlier: An investor meet was scheduled on 21-Sep and cancelled on 23-Sep, with no reason given · (earlier in window: Q1FY27 update: revenue +94%, order book ₹604cr; US arm books US$11.8m in Q2 to date; pilot orders from Curtiss-Wright and a test-solutions major; warrants converted; stock +27% to 77x))</span></summary>
 <div class="upd-body">
+
+**🟡 25-Sep-2026 — Preferential issue of ~₹205cr to non-promoter investors, for acquisitions**
+The Board approved a **preferential issue of up to 12,24,265 equity shares of ₹10 face value at ₹1,674.47 per share** (premium ₹1,664.47) **to Non-Promoter Investors, including Alternative Investment Funds** — *"for Funding Strategic Acquisitions, Working Capital and General Corporate Purposes."* **That is approximately ₹205cr.** Separately, **1,77,800 warrants were converted** into an equal number of equity shares.
+> **Why it matters.** For an SME-platform EMS company this is a large raise, and the stated purpose leads with **acquisitions** rather than organic capex — a change in how the company intends to grow. Bringing in AIFs also broadens a register that has been thin.
+> **🔎 What is not disclosed, and it is the important part: no target, sector or size is named for the "strategic acquisitions."** An equity raise justified by unnamed acquisitions is a commitment to spend without a disclosed plan. **Promoters are not subscribing**, so their stake dilutes on both the preferential issue and the warrant conversion. *Signals: the EGM/postal ballot notice with the allottee list, the identity of any acquisition, and the post-issue promoter holding. Half-yearly reporter — next print ~Nov-2026; an investor meet scheduled 21-Sep was cancelled on 23-Sep with no reason given.*
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 19 → 23-Sep-2026 — Nothing material filed**
 Two filings, both about the same event: an investor meet **scheduled on 21-Sep and then CANCELLED on 23-Sep.** No reason is given in the filing.

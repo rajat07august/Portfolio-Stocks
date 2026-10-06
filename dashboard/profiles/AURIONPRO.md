@@ -9,11 +9,18 @@
 > **📌 What this update is.** The 28-Jul-2026 refresh downgraded the stock on the Q1FY27 *numbers* alone, and left one instruction in the file: *"Q1FY27 transcript — read as soon as it files. Highest-value pending input."* It filed on 3-Aug-2026. This profile is built on it. **The single most consequential thing on that call is not a number — it is that management has withdrawn guidance entirely** (§3.5, §5.5). The 28-Jul watch item asked whether the FY27 bands would be *revised down*; the answer is that they no longer exist.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 689** · market cap ₹ 3,811 Cr. · P/E 18.2x · ROCE 16.3 % · ROE 13.4 % · 52-wk ₹ 1,247 / 663 · **vs ₹696 at baseline (-1.0%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 608** · market cap ₹ 3,360 Cr. · P/E 16.1x · ROCE 16.3 % · ROE 13.2 % · 52-wk ₹ 1,247 / 593 · **vs ₹696 at baseline (-12.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Nothing filed; the SEBI PIT show-cause notice remains open · (earlier in window: Integro Lending named category leader in five Chartis 2026 quadrants; FY26 annual report filed; no order or governance event; stock −1.4% at 18x)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 Data-centre press release (5-Oct); AGM passed; SEBI PIT show-cause notice still open · (earlier: Nothing filed; the SEBI PIT show-cause notice remains open · (earlier in window: Integro Lending named category leader in five Chartis 2026 quadrants; FY26 annual report filed; no order or governance event; stock −1.4% at 18x))</span></summary>
 <div class="upd-body">
+
+**🟡 5-Oct-2026 — "Aurionpro Strengthens Data Centre Growth Momentum"**
+A press release on data-centre momentum. The AGM was held 29-Sep with proceedings and scrutinizer's report filed; **all resolutions passed.** Trading window closed 28-Sep.
+> **🔎 Flagged as read-at-headline, not read in full:** the press release was identified from the filing index and **its contents have not been parsed here**, so no claim, contract or number from it is relied on. **Data-centre infrastructure is an adjacency the profile has not previously scored**, and a growth claim without a disclosed order value is not evidence. *Read it at the next refresh.*
+> **The governance item is unchanged and still open: the SEBI PIT show-cause notice disclosed 29-May-2026 has had no further filing.** Q1FY27's withdrawn guidance also remains the central operating question.
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 19 → 23-Sep-2026 — Nothing material filed**
 Swept both NSE and BSE: **zero announcements.** The **SEBI PIT show-cause notice** disclosed in May-2026 remains the open governance item, with no further filing on it.

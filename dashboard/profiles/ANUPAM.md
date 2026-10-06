@@ -20,11 +20,25 @@
 > **4. A COO was appointed on 14-Aug-2026 — Mr. Ravi Desai.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 1,193** · market cap ₹ 13,617 Cr. · P/E 77.9x · ROCE 7.38 % · ROE 5.55 % · 52-wk ₹ 1,415 / 1,045 · **vs ₹1,258 at baseline (-5.2%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 1,164** · market cap ₹ 13,258 Cr. · P/E 75.9x · ROCE 7.38 % · ROE 5.55 % · 52-wk ₹ 1,415 / 1,047 · **vs ₹1,258 at baseline (-7.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 ₹160cr more unlisted NCDs approved (Aditya Birla Capital) with ₹145cr allotted on 21-Sep — the debt build flagged on 19-Sep continues · (earlier in window: Bliss GVS acquisition financing approved: ₹300cr of secured NCDs at the Mates vehicle, guaranteed and pledged by Anupam; ₹160cr more NCDs on the 19-Sep agenda; CRISIL A+ still on Watch; new six-year US supply contract; stock −4%)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🔴 The Bliss GVS acquisition CONSUMMATED 28-Sep — but 47.95% sits with the Mates PAC, not with Anupam, while Anupam carries the guarantee and the pledge · (earlier: ₹160cr more unlisted NCDs approved (Aditya Birla Capital) with ₹145cr allotted on 21-Sep — the debt build flagged on 19-Sep continues · (earlier in window: Bliss GVS acquisition financing approved: ₹300cr of secured NCDs at the Mates vehicle, guaranteed and pledged by Anupam; ₹160cr more NCDs on the 19-Sep agenda; CRISIL A+ still on Watch; new six-year US supply contract; stock −4%))</span></summary>
 <div class="upd-body">
+
+**🔴 28-Sep-2026 — Bliss GVS acquisition consummated, and the structure is the finding**
+Anupam and its PAC have **consummated the transaction under the 23-May-2026 SPA** with the Bliss GVS Pharma sellers, read with the **17-Jul-2026 deed of adherence executed between Anupam and Mates Visa Consultancy Private Limited (the PAC)**, pursuant to the open offer. A 30-Sep clarification corrected typographical errors in the 28-Sep disclosure. The final split:
+
+| Party | Bliss shares acquired | Stake |
+|---|---|---|
+| **Mates Visa Consultancy Pvt Ltd (the PAC)** | **5,09,84,595** | **47.95%** |
+| **Anupam Rasayan (the listed Acquirer)** | 22,51,669 *(22,50,000 + 1,669)* | small |
+
+> **Why the structure matters more than the deal.** The 19-Sep and 23-Sep entries recorded that **Anupam guaranteed and pledged against ₹300cr of secured NCDs raised at the Mates vehicle**, then approved **₹160cr more** of unlisted NCDs (₹145cr drawn 21-Sep from Aditya Birla Capital), with **CRISIL A+ on Watch Developing** throughout. That borrowing has now been resolved into its purpose: **it financed the acquisition of Bliss.**
+> **🔴 But on these numbers the listed company carries the obligations while the asset sits in the PAC.** Anupam holds a small direct stake; **Mates holds 47.95%.** Anupam also executed **security documents (23-Sep)** and gave a further **guarantee (24-Sep)**.
+> **🔎 Stated as unresolved, because it is.** The filings do not disclose **what economic interest Anupam has in Mates**, whether Mates is consolidated, whether any put/call or profit-sharing arrangement exists, or the terms on which the guarantee could be called. **Without that, whether this is an off-balance-sheet acquisition by the listed company or a promoter-vehicle purchase that Anupam merely underwrites cannot be determined from what has been filed.** That is the question for the H1FY27 accounts and the next CRISIL rationale. *No inference is drawn here beyond the share counts, which are the company's own.*
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **🔴 19-Sep-2026 (allotment 21-Sep) — A further ₹160cr of secured unlisted NCDs, to Aditya Birla Capital; ₹145cr drawn immediately**
 The Board approved issuing **up to 16,000 INR-denominated, secured, rated, unlisted and redeemable non-convertible debentures of ₹1,00,000 each — up to ₹160cr — in a single tranche on a private placement basis to Aditya Birla Capital Limited**, with CTL Trusteeship as debenture trustee. **On 21-Sep the Company allotted 14,500 such securities — ₹145cr.**

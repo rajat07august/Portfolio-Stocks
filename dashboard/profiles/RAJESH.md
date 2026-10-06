@@ -14,11 +14,18 @@
 > **📋 WHAT THIS REFRESH FOUND.** Since the 16-Jul Tier-A refresh: **₹1,165.94cr of new orders in four weeks**; **a first entry into Odisha and a deepened Rajasthan position**; **a CRISIL outlook upgrade**; **a New Zealand subsidiary**; **an Independent Director resigning off four committees**; **two Regulation 29(2) share sales from the promoter side**; and **a share price that has fallen 47% in a year and now trades at 9.90x earnings on a 48.6% return on capital.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 762** · market cap ₹ 1,373 Cr. · P/E 9.56x · ROCE 48.6 % · ROE 42.9 % · 52-wk ₹ 1,625 / 750 · **vs ₹791 at baseline (-3.7%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 742** · market cap ₹ 1,336 Cr. · P/E 9.30x · ROCE 47.3 % · ROE 42.8 % · 52-wk ₹ 1,625 / 705 · **vs ₹791 at baseline (-6.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No material filings in the window — zero announcements on the feeds swept · (earlier in window: New independent director and MD made Chairman; AGM (24-Sep) seeks Section 185 power to lend to group entities and a ₹500cr Section 186 limit; FY26 annual report: debtor turnover −27%; stock −4%)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🔴 Company is VARYING THE OBJECTS of its IPO proceeds and extending the utilisation timeline; all AGM resolutions passed · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: New independent director and MD made Chairman; AGM (24-Sep) seeks Section 185 power to lend to group entities and a ₹500cr Section 186 limit; FY26 annual report: debtor turnover −27%; stock −4%))</span></summary>
 <div class="upd-body">
+
+**🔴 24-25 Sep-2026 — Variation in the objects of the IPO proceeds, and an extension of the utilisation timeline**
+PAS-1 newspaper advertisements were published on **25-Sep-2026** (Financial Express, English and Gujarati) *"in connection with the proposed variation in the Objects of the Initial Public Offer ("IPO") Proceeds and extension of the timeline for utilization of IPO Proceeds"*, in compliance with the Companies Act 2013 and SEBI ICDR. This follows the **17th AGM held 24-Sep-2026**, where the **scrutinizer's report confirms all resolutions — including four special resolutions — passed with the requisite majority.**
+> **Why it matters, and it matters more here than it would elsewhere.** A company changes what it does with IPO money when the original plan has not worked as scheduled, and it extends the timeline when the money has not been spent. **This profile already records two consecutive years of negative operating cash flow and a working-capital blow-up (CFO −₹41cr in FY26, debtor days 62 → 78).** A variation of objects plus a deadline extension, taken together with that, is **a deployment problem being formalised** rather than a routine housekeeping item.
+> **🔎 What the newspaper notice does NOT tell us, and I have not inferred it: which objects are being changed, from what to what, how much money is involved, or how long the extension runs.** Those are in the AGM notice / explanatory statement. **This is flagged as material and incompletely sourced — read the resolution text before scoring it.** ⚠️ *Target: the AGM notice explanatory statement, and the H1FY27 results (half-yearly reporter, print due ~Nov-2026 — trading window closed 1-Oct).*
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 19 → 23-Sep-2026 — Nothing material filed**
 Swept **BSE** (the only feed — Rajesh is BSE-only): **zero announcements.** A half-yearly reporter, so no print is due; per the §4B inverse rule the filings feed was still swept for orders and news, and there were none.

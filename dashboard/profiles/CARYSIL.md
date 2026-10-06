@@ -14,11 +14,17 @@
 > **🆕 What the official transcript adds, and it is substantial:** **FY27 capex of ₹80–90 crore**, 80% of it into core kitchen sinks · **the factory is running seven days a week and management calls it *"a serious stress"*** · **the US tariff discount rollback is ~90% complete and is a price restoration, not a one-off credit** · **a Lowe's display-cost share of USD 3–4 million that "will not happen now"** · and Q1's soft quartz growth explained by **container delays, not demand**.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 1,085** · market cap ₹ 3,089 Cr. · P/E 28.7x · ROCE 18.0 % · ROE 17.4 % · 52-wk ₹ 1,281 / 732 · **vs ₹1,155 at baseline (-6.1%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 1,030** · market cap ₹ 2,930 Cr. · P/E 27.2x · ROCE 18.0 % · ROE 17.4 % · 52-wk ₹ 1,281 / 732 · **vs ₹1,155 at baseline (-10.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Prayasvin B. Patel appointed additional independent director; AGM held 22-Sep with all resolutions passed; postal ballot notice to follow · (earlier in window: New Chief Technology Officer; FY26 annual report and dividend payment date; nothing else filed; stock −2%)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 ✅ The undisclosed postal ballot resolves to something benign — a special resolution for Prayasvin Patel's ID appointment; result due 2-Nov · (earlier: Prayasvin B. Patel appointed additional independent director; AGM held 22-Sep with all resolutions passed; postal ballot notice to follow · (earlier in window: New Chief Technology Officer; FY26 annual report and dividend payment date; nothing else filed; stock −2%))</span></summary>
 <div class="upd-body">
+
+**✅ 30-Sep-2026 — The postal ballot's subject is now known, and it is routine**
+The 23-Sep entry flagged that a postal ballot had been called with its subject matter **not stated** in the board-outcome filing, and noted that a ballot convened straight after an AGM usually carries something that could not wait. **The notice resolves that benignly.** It contains a **single special resolution: the appointment of Mr. Prayasvin B. Patel (DIN 00037394) as an Independent Director**, under Sections 149/150/152 and Schedule IV. Remote e-voting runs **2-Oct to 31-Oct-2026**; **results on or before 2-Nov-2026**; cut-off 25-Sep.
+> **Why it matters: because it closes an open question rather than opens one.** Appointing an independent director sometimes requires a special resolution, so a separate ballot rather than waiting a year is **procedurally correct, not evasive.** The §9 item can be closed on the result. *Worth noting only that it is a special resolution, and two such resolutions in this watchlist have been defeated in the last month — the result is on 2-Nov.*
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **🟢 22-Sep-2026 — Prayasvin B. Patel joins the board as an Additional (Independent) Director; AGM held**
 On the Nomination and Remuneration Committee's recommendation the Board appointed **Mr. Prayasvin B. Patel (DIN 00037394) as an Additional Director designated Independent Director with effect from 22-Sep-2026**, subject to members' approval and compliance with Reg 17(1C) and 25(2A). The Board also **approved a draft postal ballot notice**, with a cut-off date of **25-Sep-2026** for the members entitled to receive it. The 2026 AGM was held the same day; the scrutinizer's report and voting results were filed 23-Sep, alongside an **AGM presentation**.

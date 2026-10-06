@@ -5,11 +5,17 @@
 **⚠️ Monarch holds no earnings calls, files no investor presentations, and its FY26 Annual Report is still unfiled — every judgement below is inferred from statutory filings.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 363** · market cap ₹ 2,873 Cr. · P/E 15.9x · ROCE 27.7 % · ROE 20.5 % · 52-wk ₹ 407 / 235 · **vs ₹379 at baseline (-4.2%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 354** · market cap ₹ 2,805 Cr. · P/E 15.5x · ROCE 27.6 % · ROE 20.5 % · 52-wk ₹ 407 / 235 · **vs ₹379 at baseline (-6.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No material filings in the window — zero announcements on the feeds swept · (earlier in window: No company event beyond the FY26 annual report; stock −3.4% to ₹366)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 AGM passed; no concalls, so filings are the only channel · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: No company event beyond the FY26 annual report; stock −3.4% to ₹366))</span></summary>
 <div class="upd-body">
+
+**⚪ 23-Sep → 6-Oct-2026 — AGM held 25-Sep; all resolutions passed**
+AGM proceedings (25-Sep), scrutinizer's report (28-Sep) — **no resolution defeated** — and a trading-window closure.
+> **Why it matters:** clean. **Monarch holds no concalls**, so the filings feed is the only channel. The open operating questions are unchanged: the **PAT plateau at ₹45-46cr** and **debtor days at 210**, both of which only the H1FY27 print can address.
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 19 → 23-Sep-2026 — Nothing material filed**
 Swept both NSE and BSE: **zero announcements.** Monarch holds no concalls, so the filings feed is the only channel — and it was empty.

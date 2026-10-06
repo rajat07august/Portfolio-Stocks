@@ -14,11 +14,17 @@
 > **Concall gate: 🟡 ONE CALL A YEAR.** OBSC holds a single earnings call, after the annual results. The most recent is **Q4FY26, 21-May-2026** (57,585 characters). **There is no Q1FY27 call.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 953** · market cap ₹ 2,462 Cr. · P/E 78.3x · ROCE 19.5 % · ROE 19.6 % · 52-wk ₹ 1,030 / 270 · **vs ₹790 at baseline (+20.6%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 880** · market cap ₹ 2,274 Cr. · P/E 72.3x · ROCE 19.5 % · ROE 19.6 % · 52-wk ₹ 1,030 / 270 · **vs ₹790 at baseline (+11.4%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Nothing filed; the 50% → 71% raw-material jump remains unexplained · (earlier in window: ₹86.5cr preferential issue allotted at ₹601 (35% below the new ₹930 price); AS9100D aerospace certification recommended; non-binding New Mexico MoU; ₹31.4cr five-year order; stock +18%)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 AGM passed; the 50% → 71% raw-material jump still unexplained · (earlier: Nothing filed; the 50% → 71% raw-material jump remains unexplained · (earlier in window: ₹86.5cr preferential issue allotted at ₹601 (35% below the new ₹930 price); AS9100D aerospace certification recommended; non-binding New Mexico MoU; ₹31.4cr five-year order; stock +18%))</span></summary>
 <div class="upd-body">
+
+**⚪ 23-Sep → 6-Oct-2026 — AGM held 29-Sep; all resolutions passed**
+AGM proceedings (29-Sep), scrutinizer's report (1-Oct) — **no resolution defeated** — and a trading-window closure.
+> **Why it matters:** clean. **The open question is unchanged: raw materials jumped from 50% to 71% of sales in FY26 and nothing has explained it.** The 11-Sep ₹86.52cr preferential allotted at ₹601 also remains well below the market price. *Target: the next refresh or the FY26 AR.*
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 19 → 23-Sep-2026 — Nothing material filed**
 Swept **NSE-SME (OBSCP)**: **zero announcements.** The open question from 19-Sep is untouched — **raw materials jumped from 50% to 71% of sales in FY26 and remain unexplained.**

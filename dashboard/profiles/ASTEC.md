@@ -8,11 +8,18 @@
 > **📌 Sourcing note, stated up front because it governs everything below. Astec has not held an earnings call since November 2022** — nearly four years of silence. Screener's concall list ends there and the repo holds five transcripts, all from 2021–22. **A direct concall gate is impossible for this name.** The documented §6 fallback is used instead: **Astec is a Godrej Agrovet subsidiary and the parent discusses it on its own calls.** This profile is grounded in Astec's own press releases and filings, **Godrej Agrovet's Q4FY26 transcript and Q1FY27 deck**, NSE's filed shareholding master, and the ValuePickr thread. **Gate: 🟡 AMBER — management commentary here is second-hand, via the parent.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 757** · market cap ₹ 1,689 Cr. · P/E x · ROCE -5.44 % · ROE -25.2 % · 52-wk ₹ 942 / 512 · **vs ₹604 at baseline (+25.3%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 690** · market cap ₹ 1,538 Cr. · P/E x · ROCE -5.44 % · ROE -25.2 % · 52-wk ₹ 942 / 512 · **vs ₹604 at baseline (+14.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Another NSE volume-spurt notice, still with no company explanation for the run · (earlier in window: Stock +20% amid nine exchange price/volume notices (all answered 'no undisclosed information'); newly verified from filings: ₹41.1cr GST demand, ICRA AA- (Negative), CFO resigned in March; six body errors corrected)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 Two further exchange volume notices (30-Sep, 1-Oct) — eleven since early September, still no company explanation · (earlier: Another NSE volume-spurt notice, still with no company explanation for the run · (earlier in window: Stock +20% amid nine exchange price/volume notices (all answered 'no undisclosed information'); newly verified from filings: ₹41.1cr GST demand, ICRA AA- (Negative), CFO resigned in March; six body errors corrected))</span></summary>
 <div class="upd-body">
+
+**🟡 30-Sep and 1-Oct-2026 — Two more exchange volume notices**
+Two further **"Spurt in Volume"** notices from the exchange, continuing the run recorded on 19-Sep (nine in September) and 23-Sep. Trading window closed 28-Sep.
+> **Why it matters.** On the count in this profile that is now **roughly eleven exchange price/volume queries in under five weeks, and the company has disclosed nothing to explain any of them** beyond the standard *"no undisclosed information"* reply. **An exchange notice is not evidence of anything by itself** — it is an automated trigger — but a sustained run of them on a stock that has moved sharply, with no corresponding disclosure, is a pattern worth holding in view rather than dismissing.
+> **The substantive items are unchanged and all negative: the ₹41.12cr GST show-cause demand, ICRA's AA- on a NEGATIVE outlook, the CFO's resignation effective 6-Mar-2026, and FY26 operating cash flow of −₹81cr driven by a ₹100cr receivables build.**
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 19 → 23-Sep-2026 — Nothing material filed**
 One filing, and it is a continuation of the 19-Sep item: **another NSE volume-spurt notice on 18-Sep.** That makes the run of exchange price/volume queries longer still, **with no company disclosure explaining the move.** The ₹41.12cr GST demand, the ICRA AA- **Negative** outlook and the CFO resignation added last cycle are unchanged.

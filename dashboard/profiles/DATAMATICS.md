@@ -8,11 +8,19 @@
 > **🎧 Sourcing note. Datamatics is a HELD POSITION and falls under the §4A "transcribe immediately" tier.** The Q1FY27 call (6-Aug-2026) was machine-transcribed the same day because the company had published audio only. **The official transcript was filed on 12-Aug-2026 and the machine version has now been verified against it** — see §9 data-quality note 1. **All quotes in this profile are from the official transcript.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 790** · market cap ₹ 4,661 Cr. · P/E 18.4x · ROCE 20.4 % · ROE 16.0 % · 52-wk ₹ 1,015 / 632 · **vs ₹819 at baseline (-3.5%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 773** · market cap ₹ 4,570 Cr. · P/E 18.0x · ROCE 20.4 % · ROE 16.0 % · 52-wk ₹ 1,015 / 632 · **vs ₹819 at baseline (-5.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Independent director Kanika Mittal ceased on completion of her two-year term; all AGM resolutions passed with requisite majority · (earlier in window: No material company event; AI voice-agent expansion with a US client, Gartner mention; FY26 annual report out; stock −6.5%)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟢 Prometric selects Datamatics for global remote-examination operations — a named marquee client, but unsized · (earlier: Independent director Kanika Mittal ceased on completion of her two-year term; all AGM resolutions passed with requisite majority · (earlier in window: No material company event; AI voice-agent expansion with a US client, Gartner mention; FY26 annual report out; stock −6.5%))</span></summary>
 <div class="upd-body">
+
+**🟢 29-Sep-2026 — Prometric selects Datamatics to support its global remote examination operations**
+**Prometric**, a global credentialing and skills-development company, has selected Datamatics to support its **remote examination operations globally**. Datamatics will provide **24/7/365 multilingual support in English, Spanish and French** from delivery centres in **India, the Philippines and Peru**, covering candidate technical readiness, remote proctoring, candidate support, security monitoring, quality checks, workforce planning and performance reporting.
+> **Why it matters.** A named, marquee client in a vertical adjacent to the Publishing/BPM base, and it uses the multi-geography delivery footprint rather than Indian capacity alone. It is also the kind of multi-year annuity work that counters the CEO's own stated risk that *"outsourcing budgets will shrink."*
+> **🔎 But it is unsized, and I read the full release to check: no contract value, no duration, no revenue contribution and no start date are disclosed.** Against a reaffirmed ~8% FY27 revenue guide, **this cannot yet be scored** — it is a logo, not a number. *Signal: whether management quantifies it on the Q2FY27 call.*
+> Also in the window: the trading window closed 30-Sep.
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **🟡 21-Sep-2026 — Independent director Kanika Mittal ceases on term completion**
 Mrs. Kanika Mittal (DIN 10859952) **completed her first term of two consecutive years** as Independent Director and ceased with effect from close of business on 21-Sep-2026. The company recorded *"deep appreciation and gratitude"*; **no successor is named in the filing**, and no reason beyond term completion is given.

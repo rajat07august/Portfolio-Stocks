@@ -4,11 +4,17 @@
 **Thesis current as of: 18-Sep-2026 · Tracking since: 18-Sep-2026**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 1,104** · market cap ₹ 2,315 Cr. · P/E 59.0x · ROCE 23.5 % · ROE 19.0 % · 52-wk ₹ 1,145 / 445 · **vs ₹1,094 at baseline (+0.9%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 1,100** · market cap ₹ 2,307 Cr. · P/E 58.8x · ROCE 23.5 % · ROE 19.0 % · 52-wk ₹ 1,148 / 445 · **vs ₹1,094 at baseline (+0.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 18-Sep-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No filings since the profile was written</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Sep-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 Two trading-window closures only · (earlier: No filings since the profile was written)</span></summary>
 <div class="upd-body">
+
+**⚪ 23-Sep → 6-Oct-2026 — Nothing material**
+Swept **BSE** (543920 — CFF is not NSE-listed, via Chrome): **two trading-window closures and nothing else.**
+> **Why it matters:** no change. **Operating cash flow has been negative four years running** and the H1FY27 print (~Nov-2026) is the first test of receivable days since the main-board move on 16-Sep. **No earnings call has ever been filed.**
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 18 → 23-Sep-2026 — No filings**
 Swept **BSE** (543920 — CFF is not NSE-listed): zero announcements.

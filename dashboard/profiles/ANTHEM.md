@@ -11,11 +11,17 @@
 > **🔴 THE ONE NUMBER TO CARRY.** **Three customers are 56.71% of revenue** (FY26; 61.18% in FY25). Anthem does not name them. Q1FY27 revenue fell **22.6% YoY** and management's explanation was *"timing shifts in deliveries to key customers."* **At 89x earnings, the concentration and the volatility are the same fact seen twice.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 882** · market cap ₹ 49,678 Cr. · P/E 83.7x · ROCE 30.4 % · ROE 22.3 % · 52-wk ₹ 978 / 579 · **vs ₹940 at baseline (-6.2%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 846** · market cap ₹ 47,661 Cr. · P/E 80.3x · ROCE 30.4 % · ROE 22.3 % · 52-wk ₹ 978 / 579 · **vs ₹940 at baseline (-10.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 3-Sep-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No material filings in the window — zero announcements on the feeds swept · (earlier in window: The ₹127.68cr Upside Sharing Arrangement to three founders was settled on 8-Sep, as approved at the July AGM; stock −1.3%)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 3-Sep-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 Trading window closed; nothing material · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: The ₹127.68cr Upside Sharing Arrangement to three founders was settled on 8-Sep, as approved at the July AGM; stock −1.3%))</span></summary>
 <div class="upd-body">
+
+**⚪ 23-Sep → 6-Oct-2026 — Nothing material**
+A single trading-window closure (24-Sep). Both feeds swept.
+> **Why it matters:** no change; Q2FY27 is the next datapoint.
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 19 → 23-Sep-2026 — Nothing material filed**
 Swept both NSE and BSE: **zero announcements.**

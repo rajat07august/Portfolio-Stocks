@@ -11,11 +11,17 @@
 > **📋 WHAT THIS REFRESH FOUND, IN ONE BOX.** v1 was written 3-Jul-2026 and is 9.7 KB. It predates the Q1FY27 print, the ADS order-book step-up, and **a four-event management and board reconstruction that ran from 27-Jul to 24-Aug-2026.** It also carried four factual errors that are corrected in place below: a wrong FY25 revenue base (and therefore a wrong growth rate), a wrong FY26 EBITDA level, **an assertion that Sansera manufactures in the United States — it does not and never has**, and a dashboard claim of a **₹160cr Airbus Defence & Space contract that appears in no filing and no transcript.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 4,621** · market cap ₹ 28,764 Cr. · P/E 77.2x · ROCE 14.5 % · ROE 11.8 % · 52-wk ₹ 4,744 / 1,364 · **vs ₹3,815 at baseline (+21.1%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 4,220** · market cap ₹ 26,343 Cr. · P/E 70.7x · ROCE 14.5 % · ROE 11.8 % · 52-wk ₹ 4,744 / 1,383 · **vs ₹3,815 at baseline (+10.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 26-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Routine ESOP allotment and meet schedules; June's 0.89pp promoter-holding fall still unexplained · (earlier in window: No company event beyond the FY26 annual report; the Jun-2026 promoter decline is still unexplained; stock +11.7% to ₹4,260 at 71x)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 26-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 Routine ESOP grant and a clean AGM; June's 0.89pp promoter fall still unexplained · (earlier: Routine ESOP allotment and meet schedules; June's 0.89pp promoter-holding fall still unexplained · (earlier in window: No company event beyond the FY26 annual report; the Jun-2026 promoter decline is still unexplained; stock +11.7% to ₹4,260 at 71x))</span></summary>
 <div class="upd-body">
+
+**⚪ 23-Sep → 6-Oct-2026 — ESOP grant of 27,500 options; AGM passed**
+**Grant of 27,500 options** (1-Oct), AGM proceedings and scrutinizer's report (24-Sep) with **no resolution defeated**.
+> **Why it matters:** routine. **The open item is unchanged: 0.89pp of promoter holding disappeared in the June quarter with no filing to explain it** — the same shape of unexplained movement as NRBBEARING, and still outstanding. *Target: the Q2FY27 call.*
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 19 → 23-Sep-2026 — Nothing material filed**
 Three routine filings: **allotment of 14,189 shares under ESOP**, a trading-window closure, and an investor-meet schedule. **The 0.89pp of promoter holding that vanished in the June quarter with no filing to explain it is still unexplained.**

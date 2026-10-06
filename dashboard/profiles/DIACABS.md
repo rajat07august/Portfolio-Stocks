@@ -17,11 +17,17 @@
 > - **🟡 But the share price has doubled in seven weeks, from ₹196 to ₹341. *The market capitalisation has already passed the ₹20,000cr that v2's two-year BULL case projected.***
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 378** · market cap ₹ 22,795 Cr. · P/E 116x · ROCE 26.5 % · ROE % · 52-wk ₹ 407 / 116 · **vs ₹341 at baseline (+10.9%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 361** · market cap ₹ 21,590 Cr. · P/E 110x · ROCE 26.5 % · ROE % · 52-wk ₹ 407 / 116 · **vs ₹341 at baseline (+5.9%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 A further ₹116.49cr of cable orders — but from a private counterparty, Polite Powertech, not a utility · (earlier in window: ₹519cr of new orders in 15 days (MSEDCL ₹263cr, Adani Electricity Mumbai ₹179cr, 66 kV EHV ₹76cr); NCLT framework fully exited a year early (₹501cr cash prepaid); MPS penalty formalised; stock +7.6% to 112x)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 New Chief Operating Officer appointed (3-Oct); AGM passed · (earlier: A further ₹116.49cr of cable orders — but from a private counterparty, Polite Powertech, not a utility · (earlier in window: ₹519cr of new orders in 15 days (MSEDCL ₹263cr, Adani Electricity Mumbai ₹179cr, 66 kV EHV ₹76cr); NCLT framework fully exited a year early (₹501cr cash prepaid); MPS penalty formalised; stock +7.6% to 112x))</span></summary>
 <div class="upd-body">
+
+**🟢 3-Oct-2026 — Chief Operating Officer appointed**
+**Mr Ashwani Saraf appointed Chief Operating Officer** with effect from 3-Oct-2026. The 34th AGM was held 25-Sep with proceedings and scrutinizer's report filed (28-Sep); **all resolutions passed.**
+> **Why it matters.** Senior operating bandwidth is exactly what this company now needs: the 19-Sep and 23-Sep entries recorded **₹519cr of orders in fifteen days and a further ₹116.49cr on 21-Sep**, against a business that has only recently exited NCLT. **Order intake has been running ahead of the organisation**, and a dedicated COO is the right response. *Not disclosed: his background or prior role — worth checking at the next refresh, because the quality of this hire matters more than the fact of it on a stock at roughly 112x trailing earnings.*
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **🟡 21-Sep-2026 — ₹116.49cr of orders for 11 kV XLPE cables, from Polite Powertech Limited**
 Orders **aggregating ₹116.49cr including GST (₹98.72cr excluding GST)** from **Polite Powertech Limited**, for supply of **11 kV XLPE power cables for underground distribution projects in Gujarat**.

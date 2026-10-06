@@ -27,11 +27,30 @@
 > **3. The recapitalisation is now visible in the register.** A Reg 29(2) filing on 11-Aug confirms **59,76,096 equity shares issued by preferential allotment**, with **Chairman & MD Krishan Lalit Bansal's holding falling by more than 2%**; listing and trading approvals came 23-Jul and 28-Jul. **Screener now carries a July-2026 shareholding column: promoter 70.18% → 65.13%, FII 2.17% → 4.67%, DII 10.79% → 14.16%.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 711** · market cap ₹ 5,355 Cr. · P/E 65.3x · ROCE 10.7 % · ROE 9.31 % · 52-wk ₹ 760 / 183 · **vs ₹646 at baseline (+10.1%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 647** · market cap ₹ 4,869 Cr. · P/E 59.4x · ROCE 10.7 % · ROE 9.31 % · 52-wk ₹ 760 / 183 · **vs ₹646 at baseline (+0.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 AGM held 23-Sep; analyst meet and an Anjar plant visit, no numbers disclosed · (earlier in window: August order update: inflow ₹94cr, executed ₹87cr, book ₹2,436cr (flat); FY27 inflow so far ~₹955–973cr vs ₹2,000cr guide; stock +3.6%)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🔴 AGM DEFEATED the Whole-time Director's pay revision — institutions voted 50.29% against; separately, lenders can convert debt to equity on an event of default · (earlier: AGM held 23-Sep; analyst meet and an Anjar plant visit, no numbers disclosed · (earlier in window: August order update: inflow ₹94cr, executed ₹87cr, book ₹2,436cr (flat); FY27 inflow so far ~₹955–973cr vs ₹2,000cr guide; stock +3.6%))</span></summary>
 <div class="upd-body">
+
+**🔴 24-Sep-2026 — Shareholders DEFEAT the Whole-time Director's remuneration revision**
+At the AGM, **Resolution 7 — a special resolution for the "Revision in remuneration of Ms. Shikha Bansal, Whole-time Director, with effect from 1st April 2026" — was NOT passed**, receiving **71.0833% in favour against the 75% a special resolution requires.** The promoter group was recorded as **interested**, so most of its block did not vote (7,532,275 of 49,004,787 shares voted, all in favour). The decisive bloc:
+
+| Category | Votes polled | In favour | Against | % against |
+|---|---|---|---|---|
+| Promoter & promoter group | 75,32,275 *(15.4% of its holding)* | 75,32,275 | 0 | 0.00% |
+| **Public — institutions** | **1,03,33,947** *(74.2% turnout)* | 51,37,136 | **51,96,811** | **50.29%** |
+| Public — non-institutions | 1,08,942 *(0.9% turnout)* | 1,07,928 | 1,014 | 0.93% |
+| **Total** | **1,79,75,164** | 1,27,77,339 | 51,97,825 | **28.92%** |
+
+**Institutional holders split almost exactly in half and that was enough to sink it.** Every other resolution at the AGM passed.
+> **Why it matters, and the pattern it belongs to.** **This is the second promoter-family remuneration defeat in this watchlist inside a month** — MAYUR's related-party pay resolution fell on 7-Sep with institutions 77% against, and its Whole Time Director's re-appointment fell on 18-Sep. **Institutional investors are now actively voting down promoter-family pay at Indian small and mid-caps, and this profile should expect it to recur.** The amount is not disclosed in the voting record, so **no figure is attached**; what changed is that shareholder consent for the increase does not exist, and the filing does not say what happens to her remuneration next.
+
+**🟡 24-Sep-2026 — Lenders may convert debt to equity on an event of default**
+Also at the AGM, and this one **passed** (99.999% in favour): *"Approval for conversion of whole or part of outstanding loan availed from Bank of India (Lead Bank) and the consortium of lenders into equity shares of the Company, upon occurrence of an event of default."*
+> **Why it matters:** a standard lender-protection covenant, approved as a matter of course — **but it is a disclosed, shareholder-sanctioned dilution mechanism contingent on default**, and it belongs in the risk section of a leveraged project business. Authorised share capital was also raised **₹85cr → ₹95cr**. Also in the window: an **analyst meet and a plant visit at Anjar, Gujarat (22-Sep)** and **AGM proceedings (23-Sep)**.
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 19 → 23-Sep-2026 — Nothing material filed**
 Three filings, all routine: **AGM proceedings (23-Sep)**, an analyst/institutional investor meet, and a **plant visit at Anjar, Gujarat**. No outcome or numbers disclosed.

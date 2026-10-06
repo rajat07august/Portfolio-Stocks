@@ -12,11 +12,18 @@
 > **Data note:** consolidated basis throughout. Standalone and consolidated are close for this company (unlike MPS), but consolidated is used everywhere.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 1,560** · market cap ₹ 16,342 Cr. · P/E 58.8x · ROCE 17.1 % · ROE 12.5 % · 52-wk ₹ 1,675 / 987 · **vs ₹1,571 at baseline (-0.7%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 1,354** · market cap ₹ 14,161 Cr. · P/E 51.0x · ROCE 17.1 % · ROE 12.5 % · 52-wk ₹ 1,648 / 987 · **vs ₹1,571 at baseline (-13.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 🟢 1:1 bonus approved and authorised capital doubled; USFDA closed the Valthera formulation inspection with one minor non-GMP observation · (earlier in window: USFDA inspection of the Valthera formulation unit closes with one minor, non-GMP observation; Board to consider a bonus share issue on 23-Sep; stock −4.9%)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 Postal ballot notice issued for the 1:1 bonus and the authorised-capital increase · (earlier: 🟢 1:1 bonus approved and authorised capital doubled; USFDA closed the Valthera formulation inspection with one minor non-GMP observation · (earlier in window: USFDA inspection of the Valthera formulation unit closes with one minor, non-GMP observation; Board to consider a bonus share issue on 23-Sep; stock −4.9%))</span></summary>
 <div class="upd-body">
+
+**🟢 24-Sep-2026 — Postal ballot notice for the bonus issue**
+Following the Board's approval on 23-Sep, the company has issued a **Notice of Postal Ballot** (24-Sep) seeking shareholder approval, with a newspaper publication on 25-Sep. Trading window closed 28-Sep.
+> **Why it matters:** this is the procedural step the 23-Sep entry said was outstanding — the **1:1 bonus and the increase in authorised capital from ₹11cr to ₹22cr** now go to members. **The record date still has not been set**, and per-share figures throughout §4 and §6 will halve once it is. *Signal: the ballot result and then the record date.*
+> *The clean USFDA outcome at the Valthera formulation unit (18-Sep) is unchanged; the EIR remains the actual confirmation.*
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **🟢 23-Sep-2026 — Board approves a 1:1 bonus issue and doubles authorised capital**
 The Board approved **bonus shares in the proportion 1:1** — one bonus equity share of ₹1 for every one share held on a record date to be fixed — **by capitalisation of the share premium account**, subject to shareholder approval. Authorised share capital is being raised from **₹11cr (11cr shares of ₹1) to ₹22cr (22cr shares of ₹1)**, with a consequential amendment to the capital clause of the MoA.

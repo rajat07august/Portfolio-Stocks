@@ -12,11 +12,17 @@
 > **📋 WHAT THIS REFRESH FOUND.** v1 was **8.6 KB — the thinnest profile on the watchlist** — written 3-Jul-2026 from Screener and public information. Since then: **a strong Q1FY27 (revenue +21%, consolidated PAT +90%)**, **the FY26 annual report**, **a captive renewable-power investment**, and **a significant accounting judgement that v1 did not carry: Haldyn owns 56.80% of its principal joint venture and accounts for it as an associate rather than a subsidiary.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 148** · market cap ₹ 789 Cr. · P/E 25.4x · ROCE 13.5 % · ROE 11.4 % · 52-wk ₹ 150 / 70.4 · **vs ₹142 at baseline (+4.2%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 144** · market cap ₹ 775 Cr. · P/E 25.0x · ROCE 13.5 % · ROE 11.4 % · 52-wk ₹ 164 / 70.4 · **vs ₹142 at baseline (+1.4%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 2-Sep-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 Trading window closed — results cycle approaching; still the last outstanding C1 refresh · (earlier in window: No company filing since the 2-Sep profile beyond AGM logistics; stock ₹142 → ₹143)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 2-Sep-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 A depository certificate only · (earlier: Trading window closed — results cycle approaching; still the last outstanding C1 refresh · (earlier in window: No company filing since the 2-Sep profile beyond AGM logistics; stock ₹142 → ₹143))</span></summary>
 <div class="upd-body">
+
+**⚪ 23-Sep → 6-Oct-2026 — Nothing material**
+Swept **BSE** (515147 — NSE's feed carries nothing for HALDYNGL, via Chrome): **a single Reg 74(5) depository certificate.** Nothing else.
+> **Why it matters:** no change. **This remains the last outstanding C1 refresh and a standing §9 data-gap name — no concalls exist at all**, so the filings feed is the only channel and it was empty.
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 19 → 23-Sep-2026 — Nothing material filed**
 Swept **BSE** (515147 — NSE's feed carries nothing for HALDYNGL): a single **trading-window closure** on 22-Sep, signalling the results cycle. Nothing else. **This name remains the last outstanding C1 refresh and still has no concalls in existence.**

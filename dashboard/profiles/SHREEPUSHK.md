@@ -4,11 +4,18 @@
 **Thesis current as of: 16-Sep-2026 · Tracking since: 16-Sep-2026**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 496** · market cap ₹ 1,607 Cr. · P/E 22.3x · ROCE 12.9 % · ROE 12.1 % · 52-wk ₹ 545 / 272 · **vs ₹507 at baseline (−2.2%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 492** · market cap ₹ 1,591 Cr. · P/E 22.1x · ROCE 12.9 % · ROE 12.1 % · 52-wk ₹ 545 / 272 · **vs ₹507 at baseline (-3.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 16-Sep-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No filings since the profile was written</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 16-Sep-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🔴 NCLT ALLOWED WITHDRAWAL of the subsidiary amalgamation scheme approved back in Dec-2024 — another timetable abandoned · (earlier: No filings since the profile was written)</span></summary>
 <div class="upd-body">
+
+**🔴 1-Oct-2026 — The subsidiary amalgamation scheme is withdrawn and dismissed by the NCLT**
+The **NCLT Mumbai Bench has allowed the withdrawal of, and dismissed, the Scheme of Amalgamation** between **Madhya Bharat Phosphate Private Limited** (Transferor) and **Kisan Phosphates Private Limited** (Transferee), both wholly owned subsidiaries. The scheme had been approved by the boards of both subsidiaries and intimated to the exchanges on **20-Dec-2024.**
+> **Why it matters, and it fits a pattern this profile already documents.** A scheme filed with a tribunal and then withdrawn **22 months later** is a plan abandoned, not a plan delayed. **This profile's delivery record is already the weak point** — Units 5 and 6 running roughly 18 and 12 months late across seven separate timetables, and PAT-margin guidance missed four times out of four in FY26. **A withdrawn restructuring adds a fourth instance of announced-then-unwound.**
+> **🔎 The filing gives the fact and not the reason — no explanation for the withdrawal is disclosed, and no replacement structure is announced.** Whether this reflects a changed commercial plan, a tax or regulatory obstacle, or simply inertia **cannot be determined from what has been filed.** *Signal: whether a revised scheme is refiled, and whether the fertiliser subsidiaries' structure is addressed at the H1FY27 results.*
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 16 → 23-Sep-2026 — No filings on either exchange**
 Swept both feeds: zero announcements.

@@ -16,11 +16,17 @@
 > **🗂️ Housekeeping:** duplicate `Fetched Concalls/INSECTICID/` and `INSECTICIDES/` folders **consolidated into `INSECTICIDES/`** (38 files); the six older transcripts had no text extracts and now do.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Sep-2026 (Screener):** CMP **₹ 609** · market cap ₹ 1,771 Cr. · P/E 14.2x · ROCE 15.8 % · ROE 12.0 % · 52-wk ₹ 778 / 519 · **vs ₹610 at baseline (-0.2%)**
+**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 582** · market cap ₹ 1,694 Cr. · P/E 13.5x · ROCE 15.8 % · ROE 12.0 % · 52-wk ₹ 776 / 519 · **vs ₹610 at baseline (-4.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 23-Sep-2026</span> <span class="upd-sum">🆕 No material filings in the window; 1 routine item(s) · (earlier in window: No filing at all since 24-Aug on either exchange; stock ₹610 → ₹606)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 A credit-rating intimation, direction not yet read · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No filing at all since 24-Aug on either exchange; stock ₹610 → ₹606))</span></summary>
 <div class="upd-body">
+
+**⚪ 23-Sep → 6-Oct-2026 — A credit-rating intimation**
+A **credit rating** intimation (5-Oct) and a trading-window closure (25-Sep).
+> **Why it matters:** **🔎 the rating action itself is not stated in the filing index and the PDF has not been parsed here — no direction is claimed.** Read it at the next refresh. The factor-check gap on this name is unchanged: **no price source exists for technical agrochemicals**, so its main input cost is untracked.
+
+*Sweep: NSE + BSE announcements 23-Sep → 6-Oct-2026; market data Screener 6-Oct-2026. BSE's JSON announcements API is still Akamai-blocked from this machine (re-tested 6-Oct) — the BSE leg was run through Chrome.*
 
 **⚪ 19 → 23-Sep-2026 — Nothing material filed**
 One filing: an **investor-meet schedule** on 22-Sep.
