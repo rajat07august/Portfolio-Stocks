@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fisher Screen</title>
+<style>
+:root{--navy:#1F4E79;--blue:#2E75B6;--bg:#fafbfc;--card:#fff;--ink:#1a1d21;--mut:#5b6670;--line:#e3e8ee;
+--good:#1a7f4b;--warn:#b8860b;--bad:#b3261e;--gate:#7b3fa0;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+svg text:not([fill]){fill:currentColor}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px 80px}
+header{background:linear-gradient(135deg,var(--navy),#2b6091);color:#fff;padding:34px 0 30px;margin-bottom:26px}
+header .wrap{padding-bottom:0}
+h1{margin:0 0 6px;font-size:29px;letter-spacing:-.4px}
+.sub{opacity:.9;font-size:14.5px;margin:0}
+.frozen{display:inline-block;margin-top:14px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
+padding:5px 11px;border-radius:5px;font-size:12.5px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+h2{font-size:19px;margin:34px 0 4px;color:var(--navy);letter-spacing:-.2px}
+h2 .n{color:var(--mut);font-weight:400;font-size:15px}
+.lede{color:var(--mut);margin:0 0 16px;font-size:14.5px;max-width:80ch}
+.card{background:var(--card);border:1px solid var(--line);border-radius:9px;padding:18px 20px;margin-bottom:14px}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:14px}
+.surv{border-left:4px solid var(--good)}
+.near{border-left:4px solid var(--warn)}
+.rank{font-size:11px;font-weight:700;letter-spacing:.9px;text-transform:uppercase;color:var(--good)}
+.near .rank{color:var(--warn)}
+.tick{font-size:20px;font-weight:650;margin:3px 0 1px;color:var(--navy)}
+.rung{display:inline-block;background:#eef4fa;color:var(--navy);border:1px solid #d3e2f0;padding:2px 8px;
+border-radius:4px;font-size:12px;font-weight:600;margin-bottom:9px}
+.mx{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:12px 0 10px}
+.mx div{background:#f6f8fa;border-radius:6px;padding:7px 8px}
+.mx b{display:block;font-size:15px;color:var(--navy)}
+.mx span{font-size:10.5px;color:var(--mut);text-transform:uppercase;letter-spacing:.5px}
+.why{font-size:13.5px;color:#33393f;margin:0}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+th{text-align:left;background:#f2f5f8;color:var(--navy);font-size:11.5px;text-transform:uppercase;
+letter-spacing:.6px;padding:9px 10px;border-bottom:2px solid var(--line);position:sticky;top:0;white-space:nowrap}
+td{padding:9px 10px;border-bottom:1px solid #eef1f5;vertical-align:top}
+tr:hover td{background:#f8fafc}
+td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.pill{display:inline-block;padding:2px 7px;border-radius:4px;font-size:11px;font-weight:650;white-space:nowrap}
+.p-survivor{background:#e6f4ec;color:var(--good)} .p-near{background:#fdf4e0;color:var(--warn)}
+.p-gate{background:#f2e9f8;color:var(--gate)} .p-d1{background:#fdeceb;color:var(--bad)}
+.p-d3{background:#fdeceb;color:var(--bad)} .p-d2{background:#fdeceb;color:var(--bad)} .p-d4{background:#fdeceb;color:var(--bad)}
+.held{display:inline-block;background:#fff4d6;border:1px solid #e8cf8a;color:#7a5a00;font-size:10px;
+font-weight:700;padding:1px 5px;border-radius:3px;margin-left:5px;vertical-align:1px}
+.filters{display:flex;flex-wrap:wrap;gap:7px;align-items:center;margin:14px 0}
+.fbtn{background:#fff;border:1px solid var(--line);border-radius:16px;padding:5px 13px;font-size:12.5px;
+cursor:pointer;color:var(--mut);font-weight:600}
+.fbtn:hover{border-color:var(--blue);color:var(--blue)}
+.fbtn[aria-pressed=true]{background:var(--navy);border-color:var(--navy);color:#fff}
+#q{flex:1;min-width:170px;padding:6px 11px;border:1px solid var(--line);border-radius:16px;font-size:13px}
+.note{background:#fff9e8;border:1px solid #f0e0b0;border-left:4px solid #d9a520;border-radius:7px;padding:14px 17px;margin:14px 0;font-size:14px}
+.note b{color:#8a6200}
+.corr{background:#fdeff0;border:1px solid #f3c9cc;border-left:4px solid var(--bad)}
+.corr b{color:var(--bad)}
+ul.tight{margin:8px 0 0;padding-left:19px}
+ul.tight li{margin-bottom:6px;font-size:14px}
+.foot{color:var(--mut);font-size:12.5px;margin-top:34px;border-top:1px solid var(--line);padding-top:14px}
+.cnt{color:var(--mut);font-size:12.5px;margin:8px 0 0}
+
+.step{display:flex;gap:15px;align-items:flex-start;margin-bottom:16px}
+.stepn{flex:0 0 34px;height:34px;border-radius:50%;background:var(--navy);color:#fff;display:flex;
+align-items:center;justify-content:center;font-weight:700;font-size:15px;margin-top:2px}
+.stepb{flex:1;background:var(--card);border:1px solid var(--line);border-radius:9px;padding:15px 18px;min-width:0}
+.stepb h3{margin:0 0 7px;font-size:16px;color:var(--navy)}
+.stepb h3 .out{float:right;background:#fdeceb;color:var(--bad);font-size:11.5px;font-weight:700;
+padding:2px 9px;border-radius:11px;margin-left:10px}
+.stepb p{margin:0 0 10px;font-size:14px}
+table.mini{width:100%;border-collapse:collapse;margin:9px 0}
+table.mini td{padding:6px 8px;border-bottom:1px solid #eef1f5;font-size:13.5px;vertical-align:top}
+table.mini td.c{width:44px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;
+font-weight:700;color:var(--blue);white-space:nowrap}
+.ex{background:#f6f8fa;border-left:3px solid var(--blue);border-radius:0 5px 5px 0;padding:9px 12px;
+font-size:13.5px;margin:10px 0 0 !important}
+table.rung-t{width:100%;border-collapse:collapse;font-size:13.5px}
+table.rung-t th{background:#f2f5f8;color:var(--navy);font-size:11px;text-transform:uppercase;
+letter-spacing:.5px;padding:7px 9px;text-align:left;border-bottom:2px solid var(--line)}
+table.rung-t td{padding:7px 9px;border-bottom:1px solid #eef1f5}
+tr.ok td{background:#f0f8f3} tr.mid td{background:#fdf8ec} tr.no td{background:#fdf1f0;color:#6b7076}
+@media(max-width:640px){.stepb h3 .out{float:none;display:inline-block;margin:4px 0 0}}
+@media(max-width:640px){.mx{grid-template-columns:repeat(2,1fr)}h1{font-size:23px}}
+</style>
+</head>
+<body>
+
+<header><div class="wrap">
+<h1>The Fisher Screen</h1>
+<p class="sub">Philip A. Fisher's framework &mdash; Quality &times; Price &times; Discipline &mdash; applied to 64 watchlist names.</p>
+<div class="frozen">Criteria frozen 15-Aug-2026 &middot; never amended &middot; run closed 2-Sep-2026 &middot; refreshed 6-Oct-2026 (close)</div>
+</div></header>
+
+<div class="wrap">
+
+
+<div class="note"><b>Refresh, 6-Oct-2026.</b> The frozen criteria were <b>not amended</b> and no verdict moved. Market data (P/E, ROCE, ROE, P/B, yield, market cap) was re-read from Screener after the 6-Oct close for all 64 names, and filings from the 23-Sep and 6-Oct sweeps were recorded against the rule each touches. <b>The survivors are unchanged: MPS, EPL (still under review) and TRANSRAILL.</b> Two governance items are worth reading in full: <b>MAYUR</b>, where shareholders defeated the Whole Time Director&rsquo;s re-appointment and nothing has been filed about his position since, and <b>DEE</b>, where a second promoter-family pay resolution was defeated and lenders were given the right to convert debt to equity on default. <b>Neither is an enumerated G3 disqualifier</b> — G3 lists SEBI action, auditor resignation or qualified going-concern opinion, pledge above 10%, MPS non-compliance, undisclosed related-party transactions above 5% of revenue, and Section 197 breaches — so both are recorded as flags against names that were already excluded or near-missed, not as new exclusions. <b>YASH</b> is the one disclosure failure: its FY26 annual report leaves the Rule 5(1)(iv) comparison blank, which is the exact disclosure D2.1 is measured from. A refresh records evidence; re-scoring a name takes a full re-screen against the frozen sheet, which this was not.</div><div class="note"><b>Refresh, 19-Sep-2026.</b> The frozen criteria were <b>not amended</b>. Market data (P/E, ROCE, ROE, P/B, yield, market cap) was re-read from Screener at the 18-Sep close for every name. <b>Survivors are unchanged: MPS (rung 1), EPL and TRANSRAIL (rung 2).</b> EPL is <b>under review</b>, not demoted: its largest holder Blackstone sold its entire stake on 1-Sep and India Ratings put its issuer rating on watch. MAYUR stays a near-miss with a firmer key-man point. <b>NRBBEARING&rsquo;s gate exclusion has lost its cause</b> (pledge cut from 39.80% to 3.10%) but it has <b>not</b> been re-run through the later stages, so it stays excluded until it is. <b>Eight names not previously screened were added</b> (ANTHEM, MACPOWER, TVSSRICHAK, CFF, PANAMAPET, SHREEPUSHK, JGCHEM, WABAG), all excluded; I applied gates and the first triggering rule from each name&rsquo;s profile and did <b>not</b> score all 33 criteria for them. New integrity facts on INTERARCH and UNIMECH are recorded as flags because they are not among G3&rsquo;s enumerated disqualifiers, and applying them would have been amending the criteria.</div><h2>Start here &mdash; how to read this screen</h2>
+<p class="lede">Philip Fisher was an American investor (1907&ndash;2004) whose method was <b>qualitative before it was numerical</b>: judge the business and the people first, the price second, and hold only while you keep checking. His framework has three layers &mdash; <b>Quality &times; Price &times; Discipline</b> &mdash; and this screen turns them into 6 pass/fail gates and 33 scored criteria, applied to all 64 names.</p>
+
+<div class="step">
+<div class="stepn">1</div><div class="stepb">
+<h3>The Gates &mdash; six pass/fail tests, applied before any scoring <span class="out">20 excluded</span></h3>
+<p>A gate is a veto. Fail one and the name is out, no matter how good everything else looks. These are cheap to check, so they run first.</p>
+<table class="mini"><tbody>
+<tr><td class="c">G1</td><td><b>Operating history</b> &mdash; at least 3 years actually trading and 1 full year of operating profit. <i>Excluded nobody.</i></td></tr>
+<tr><td class="c">G2</td><td><b>Circle of competence</b> &mdash; can this business be judged from documents? Fisher refused property development and anything driven by consumer fashion, because he was repeatedly wrong there. <i>Excluded KOLTE.</i></td></tr>
+<tr><td class="c">G3</td><td><b>Integrity veto</b> &mdash; any serious question over trusteeship: a SEBI action, an auditor resignation, promoter shares pledged above 10%, an undisclosed related-party deal. <i>Excluded 7, including CARE and NRBBEARING.</i></td></tr>
+<tr><td class="c">G4</td><td><b>Disclosure symmetry</b> &mdash; <b>can you see how management talks in a <i>bad</i> quarter?</b> Needs two consecutive periods covering an adverse event. No transcript record means you cannot know, and Fisher's rule is that unknowable means drop it. <i>Excluded 12 &mdash; the single most destructive gate.</i></td></tr>
+<tr><td class="c">G5</td><td><b>Employee treatment</b> &mdash; no adverse labour finding. <i>Found nothing, which is not the same as verifying good treatment.</i></td></tr>
+<tr><td class="c">G6</td><td><b>Evidence sufficiency</b> &mdash; at least two independent sources on management quality. Company self-report counts as one, however many transcripts it fills. <i>Not applied &mdash; see the limitations panel.</i></td></tr>
+</tbody></table>
+<p class="ex"><b>What this looked like in practice:</b> ASTEC ran an active investor-call programme through its profitable years and has published nothing in the 46 months since its losses began. HALDYN, MONARCH, AMIC and NITTA hold no calls at all. PARAS holds calls but publishes no transcripts.</p>
+</div></div>
+
+<div class="step">
+<div class="stepn">2</div><div class="stepb">
+<h3>The two mandatory business questions <span class="out">11 excluded</span></h3>
+<p>Fisher held that two questions disqualify a company on their own, <b>however cheap the stock is</b>.</p>
+<table class="mini"><tbody>
+<tr><td class="c">D3.1</td><td><b>The summary question</b> &mdash; <i>"What can this company do that others could not do about as well?"</i> A specific, evidenced answer is required. "Scale", "quality" or "relationships" with no mechanism is a fail.</td></tr>
+<tr><td class="c">D3.2</td><td><b>Entry barriers</b> &mdash; can newcomers start up and displace the leaders? Free entry is a fail.</td></tr>
+</tbody></table>
+<p class="ex"><b>Several names answered against themselves.</b> WHEELS claims a "conversion model" as its moat while its own risk section says the business is <i>"raw-material pass-through, not conversion."</i> DYCL's profile says <i>"no brand, no pricing power."</i> DCMSHRIRAM's says <i>"the businesses do not reinforce each other"</i> &mdash; which is a negative answer to D3.1 by construction.</p>
+</div></div>
+
+<div class="step">
+<div class="stepn">3</div><div class="stepb">
+<h3>Dimension One &mdash; Operations <span class="out">13 excluded</span></h3>
+<p>Seven criteria on whether the business is <b>efficient and self-funding</b>. This is where most of the universe died, and it died on cash rather than on price.</p>
+<table class="mini"><tbody>
+<tr><td class="c">D1.1</td><td><b>Cost position</b> &mdash; operating margin at or above the median of named competitors, over 5+ years.</td></tr>
+<tr><td class="c">D1.2</td><td><b>Shakeout test</b> &mdash; did it stay profitable in the worst year of the <i>cycle</i>? Tests survival in a downturn, <b>not</b> whether a loss ever appeared.</td></tr>
+<tr><td class="c">D1.3</td><td><b>Internally funded growth</b> &mdash; three-year cash from operations covers capex plus working capital. Repeatedly issuing equity to fund operations is a fail.</td></tr>
+<tr><td class="c">D1.4</td><td><b>Margin defence</b> &mdash; margin held by cost engineering or mix (pass), or by price rises, duties and commodity luck (partial at best).</td></tr>
+<tr><td class="c">D1.5</td><td><b>Technical effort</b> &mdash; measured by <i>output</i> (revenue from products launched in the last 5 years), never by R&amp;D spend.</td></tr>
+<tr><td class="c">D1.6</td><td><b>Financial control</b> &mdash; companies with real control <i>do not surprise their shareholders</i>. At most one unflagged negative surprise or restatement in 12 quarters.</td></tr>
+<tr><td class="c">D1.7</td><td><b>Capital conservation</b> &mdash; working-capital days stable or improving. Debtor days rising more than 30% is a fail.</td></tr>
+</tbody></table>
+<p class="ex"><b>The pattern:</b> AZAD consumed <b>₹1,009cr</b> of cash over three years while converting only 7% of operating profit into cash. CONCORDCS let debtor days go from <b>67 to 210</b>. GARWARE's working-capital days went from <b>7 to 146 in a single year</b>. None of these is visible in a P/E.</p>
+</div></div>
+
+<div class="step">
+<div class="stepn">4</div><div class="stepb">
+<h3>People, Business and Price <span class="out">17 excluded</span></h3>
+<table class="mini"><tbody>
+<tr><td class="c">D2</td><td><b>People</b> (8 criteria) &mdash; the salary gradient between the top executive and the next three; whether the company depends on one person; succession from within; <b>D2.4 the delivery scorecard</b>, guidance promised against actual delivered; whether management admits specific mistakes; and whether it can name its most important <i>internal</i> long-range problem.</td></tr>
+<tr><td class="c">D3</td><td><b>Business characteristics</b> (10) &mdash; which moat route it uses, margin versus the closest competitor, whether it leads on <i>profitability</i> rather than size, recurring revenue, and <b>D3.9 growth duration</b>: how many years of runway are actually visible. Under 3 years is a fail.</td></tr>
+<tr><td class="c">D4</td><td><b>Price</b> (8) &mdash; not "is it cheap" but <b>is there a specific belief the market holds that the evidence contradicts?</b> If you cannot name one, the stock can never rate better than rung 2.</td></tr>
+</tbody></table>
+<p class="ex"><b>Note what is deliberately excluded from D4:</b> the 52-week range, the distance from a peak, and the size of a drawdown are <b>not inputs in either direction</b>. Fisher: <i>"if the fundamentals are bad enough, it may still be very high at 24."</i></p>
+</div></div>
+
+<div class="step">
+<div class="stepn">5</div><div class="stepb">
+<h3>The rung ladder &mdash; how a survivor is graded</h3>
+<p>Quality and price are crossed on a five-rung ladder. <b>Quality is "HIGH" only if the company has at most ONE fail across all 25 quality criteria.</b></p>
+<div class="scroll"><table class="rung-t"><thead><tr><th>Rung</th><th>Quality</th><th>What the market is paying</th><th>Action</th></tr></thead><tbody>
+<tr class="ok"><td><b>1</b></td><td>HIGH</td><td>Below what it merits &mdash; a specific gap you can name</td><td><b>Buy</b></td></tr>
+<tr class="ok"><td><b>2</b></td><td>HIGH</td><td>Roughly in line</td><td><b>Buy</b></td></tr>
+<tr class="mid"><td><b>3</b></td><td>HIGH</td><td>Above merit</td><td>Hold only &mdash; no new money</td></tr>
+<tr class="no"><td><b>4</b></td><td>Not high</td><td>At or below merit</td><td>Excluded</td></tr>
+<tr class="no"><td><b>5</b></td><td>Any</td><td><b>Far</b> above merit</td><td>Excluded &mdash; <i>"most dangerous group of all"</i></td></tr>
+</tbody></table></div>
+<p class="ex"><b>This is why two fails is fatal.</b> Two fails means quality is not HIGH; not-HIGH can only land on rung 4 or 5; and both are excluded. A cheap price cannot rescue it, and that is the entire point of the ladder. <b>Tier A / B / C</b> on the survivor cards is only about position sizing &mdash; A is the most financially robust (cap 20%), B established (8&ndash;10%), C small or one-man (5%).</p>
+</div></div>
+
+<div class="note"><b>So when the table says "D1.7" or "Rung 5", it means:</b> D1.7 &rarr; working capital or receivables deteriorated past the threshold. Rung 5 &rarr; priced far above what the evidence merits. <b>Every code in the table is defined above</b>, and the full reasoning for each name sits in <code>GATE_PASS.md</code>, <code>D3_MANDATORY_PASS.md</code> and <code>PORTFOLIO_8.md</code>.</div>
+
+<h2>The funnel</h2>
+<p class="lede">Three survivors. The criteria pre-committed to this outcome: <em>"fewer than 8 is allowed and expected."</em> Fisher's own funnel ran ~250 considered to 1 bought.</p>
+<div class="card"><div class="scroll">
+<svg viewBox="0 0 1000 210" width="100%" height="210" role="img" aria-label="Funnel: 64 to 44 to 33 to 20 to 3">
+<defs><linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#2E75B6"/><stop offset="1" stop-color="#1F4E79"/></linearGradient></defs>
+<rect x="18" y="68" width="186" height="100" rx="6" fill="url(#g1)" opacity="0.55"/><text x="111" y="125" text-anchor="middle" font-size="30" font-weight="700" fill="#fff">64</text><text x="111" y="59" text-anchor="middle" font-size="12.5" fill="#5b6670">Universe</text><path d="M211 118 l13 0 m-5 -5 l5 5 l-5 5" stroke="#9aa7b4" stroke-width="1.6" fill="none" stroke-linecap="round"/><rect x="231" y="80" width="186" height="77" rx="6" fill="url(#g1)" opacity="0.66"/><text x="324" y="125" text-anchor="middle" font-size="30" font-weight="700" fill="#fff">44</text><text x="324" y="70" text-anchor="middle" font-size="12.5" fill="#5b6670">after Gates</text><text x="324" y="176" text-anchor="middle" font-size="12.5" font-weight="700" fill="#b3261e">−20</text><path d="M424 118 l13 0 m-5 -5 l5 5 l-5 5" stroke="#9aa7b4" stroke-width="1.6" fill="none" stroke-linecap="round"/><rect x="444" y="86" width="186" height="65" rx="6" fill="url(#g1)" opacity="0.77"/><text x="537" y="125" text-anchor="middle" font-size="30" font-weight="700" fill="#fff">33</text><text x="537" y="76" text-anchor="middle" font-size="12.5" fill="#5b6670">after D3.1/D3.2</text><text x="537" y="170" text-anchor="middle" font-size="12.5" font-weight="700" fill="#b3261e">−11</text><path d="M637 118 l13 0 m-5 -5 l5 5 l-5 5" stroke="#9aa7b4" stroke-width="1.6" fill="none" stroke-linecap="round"/><rect x="657" y="94" width="186" height="48" rx="6" fill="url(#g1)" opacity="0.88"/><text x="750" y="125" text-anchor="middle" font-size="30" font-weight="700" fill="#fff">20</text><text x="750" y="85" text-anchor="middle" font-size="12.5" fill="#5b6670">after Dimension One</text><text x="750" y="161" text-anchor="middle" font-size="12.5" font-weight="700" fill="#b3261e">−13</text><path d="M850 118 l13 0 m-5 -5 l5 5 l-5 5" stroke="#9aa7b4" stroke-width="1.6" fill="none" stroke-linecap="round"/><rect x="870" y="103" width="186" height="30" rx="6" fill="#1a7f4b" opacity="0.99"/><text x="963" y="125" text-anchor="middle" font-size="30" font-weight="700" fill="#fff">3</text><text x="963" y="94" text-anchor="middle" font-size="12.5" fill="#5b6670">Survivors</text><text x="963" y="152" text-anchor="middle" font-size="12.5" font-weight="700" fill="#b3261e">−17</text>
+</svg></div></div>
+
+<div class="note"><b>The rule that did the killing is arithmetic, not opinion.</b> Quality HIGH requires <b>&le;1 FAIL across the 25 criteria of D1&ndash;D3</b>. The rung table then awards rungs 1&ndash;3 <em>only</em> to HIGH quality, and only rungs 1&ndash;2 enter a portfolio. <b>So two FAILs anywhere is fatal regardless of price.</b> Thirteen names died in Dimension One alone, before price was ever considered. I did not appreciate how harsh that was when writing it on 15-Aug &mdash; it stands unamended, which is the point of freezing criteria.</div>
+
+<h2>Survivors <span class="n">&middot; 3</span></h2>
+<div class="grid3" id="survivors"></div>
+
+<h2>Near-misses <span class="n">&middot; failed on exactly one more criterion</span></h2>
+<div class="grid3" id="near"></div>
+
+<h2>Where the money actually went <span class="n">&middot; 3-year cumulative free cash flow</span></h2>
+<p class="lede">The screen's sharpest finding is not the survivor list. It is that most of this universe fails on <b>cash conversion, not multiples</b>. The 28 names with a published three-year cash-flow series, of the 29 that reached financial scoring &mdash; Yash Highvoltage has none, and was scored IE on D1.3. <b>Bar colour is the final verdict, not the cash figure</b> &mdash; several names with strong cash were excluded for other reasons.</p>
+<div class="card"><div class="scroll"><svg id="fcf" width="100%" role="img" aria-label="Three-year cumulative free cash flow by company"></svg></div>
+<p class="cnt">Source: Screener consolidated cash-flow statements, FY24&ndash;FY26. Green = survivor, amber = near-miss, red = excluded. CARE is absent: the 2-Sep correction moved it to a gate exclusion, so it never reached this stage.</p></div>
+
+<h2>Every name <span class="n">&middot; 64</span></h2>
+<div class="filters">
+<button class="fbtn" data-f="all" aria-pressed="true">All 64</button>
+<button class="fbtn" data-f="survivor" aria-pressed="false">Survivors</button>
+<button class="fbtn" data-f="near" aria-pressed="false">Near-miss</button>
+<button class="fbtn" data-f="gate" aria-pressed="false">Gate (20)</button>
+<button class="fbtn" data-f="d3" aria-pressed="false">Business (13)</button>
+<button class="fbtn" data-f="d1" aria-pressed="false">Operations (13)</button>
+<button class="fbtn" data-f="d2" aria-pressed="false">People (3)</button>
+<button class="fbtn" data-f="d4" aria-pressed="false">Price (10)</button>
+<button class="fbtn" data-f="held" aria-pressed="false">&#9733; Held</button>
+<input id="q" type="search" placeholder="Search name or reason&hellip;" aria-label="Search">
+</div>
+<div class="card" style="padding:0;overflow:hidden"><div class="scroll" style="max-height:620px;overflow-y:auto">
+<table><thead><tr>
+<th>Company</th><th>Verdict</th><th>First triggering rule</th>
+<th class="num">P/E</th><th class="num">ROCE</th><th class="num">P/B</th><th class="num">Yield</th>
+</tr></thead><tbody id="tb"></tbody></table>
+</div></div>
+<p class="cnt" id="count"></p>
+
+<h2>Disagreement report</h2>
+<p class="lede">Un-blinded only after all scoring was complete, exactly as the blinding protocol requires.</p>
+<div class="note corr"><b>The screen contradicts 4 of the 6 disclosed holdings.</b> EPL survives. MAYUR is the closest near-miss in the whole screen. DCMSHRIRAM and DATAMATICS die at D3.1; DEEP at D1.6; GARWARE at D1.7/D2.2.
+<ul class="tight">
+<li><b>This is not a sell recommendation.</b> It is one investor's framework disagreeing, and it carries no information the profiles did not already contain &mdash; every exclusion is quoted from your own research.</li>
+<li>Fisher's sell discipline has <b>six triggers, and "a screen said no" is not among them.</b></li>
+<li>The narrower question worth asking: <b>DEEP's second write-off and GARWARE's CFO vacancy are exactly the monitoring lapses Fisher named as his own worst error.</b> Are they being watched?</li>
+</ul></div>
+<div class="card">
+<b style="color:var(--navy)">Other disagreements</b>
+<ul class="tight">
+<li><b>The screen's top pick is MPS</b>, which sits mid-table in the existing book.</li>
+<li><b>The growth names all die</b> &mdash; AZAD, NETWEB, HAPPY, UNIMECH, SANSERA &mdash; mostly on cash conversion rather than price. Fisher's Dimension One is unusually hostile to Indian capex-cycle mid-caps, and that is the biggest systematic gap between the two frameworks.</li>
+<li><b>ASTEC and CARE were excluded on conduct, not numbers.</b> Both ran investor programmes in good years and went quiet or selective when things turned. Neither is flagged that way in the existing book.</li>
+<li><b>KOLTE was upgraded M &rarr; MH on 12-Aug</b>; the screen excludes it at the first gate. That disagreement is about the framework's boundary, not the company.</li>
+</ul></div>
+
+<h2>What this screen does not claim</h2>
+<div class="card"><ul class="tight" style="margin-top:0">
+<li><b>Promoter pledge was verified for 1 of 55 names.</b> Screener does not publish it. The largest unclosed hole, and it sits inside an integrity gate.</li>
+<li><b>D2.1, the salary gradient, was computable for only 6 of 18 finalists &mdash; and for neither surviving name.</b> This contradicts my own pre-registration, which listed it as expected-scorable. Indian annual reports disclose ratio-to-median rather than absolute pay, and where one executive director exists the "next three" are non-executives on sitting fees. Recorded because the pre-registration exists to make this admission mandatory.</li>
+<li><b>G6 was never applied.</b> The obvious proxy &mdash; counting community citations &mdash; is invalid: the profile template itself scores 2, so a count of 2 measures boilerplate.</li>
+<li><b>G5 found nothing rather than verified something.</b></li>
+<li><b>Scuttlebutt does not exist here.</b> Every management judgement rests on self-report plus documents &mdash; the exact failure Fisher named as his own largest avoidable loss.</li>
+<li><b>Three names is a shortlist, not a portfolio.</b> The frozen constraints need &ge;5 names for tier A and &ge;10 for tier B. Neither is satisfiable.</li>
+</ul></div>
+
+<div class="note corr"><b>Three data traps were caught mid-run, each of which would have corrupted the result.</b>
+<ul class="tight">
+<li>Screener's <code>DEEP</code> is <b>Deep Polymers</b>, not Deep Industries &mdash; ten years of the wrong company's P&amp;L were parsed before the name-echo check caught it.</li>
+<li>Screener prints "Transcript" in every concall row; where none exists it is an <b>inert div with no link</b>. Counting the text counts documents that do not exist.</li>
+<li>My integrity scan <b>had no vocabulary for the word "warning"</b>, which let CARE through the gate until a wider re-scan caught it.</li>
+<li><b>⤴ 8-Sep: I scored DEEP's D1.2 shakeout test by machine and got it wrong.</b> The rule <code>min(PAT)&lt;0</code> flagged its FY25 loss &mdash; but <b>revenue GREW 35% that year</b>, so it was a write-off during growth, never a cyclical trough. D1.2 asks whether a company survives a <i>downturn</i>. Re-checked against the other D1.2 exclusion: <b>GPIL's is correct</b> &mdash; its loss years carried revenue of &minus;17% and &minus;9%, a real steel trough. <b>DEEP stays excluded on D1.6 + D2.4</b> (two Q4 write-offs, the second after an explicit "nothing else left" assurance), so the verdict is unchanged and the reasoning is now right.</li>
+</ul>
+All three are the same failure: a plausible-looking scan pointing the wrong way.</div>
+
+<p class="foot">Sources: <code>SCREEN_CRITERIA.md</code> (frozen 15-Aug-2026) &middot; <code>GATE_PASS.md</code> &middot; <code>D3_MANDATORY_PASS.md</code> &middot; <code>PORTFOLIO_8.md</code> &middot; <code>PHILOSOPHY.md</code> and the 23-file chapter chain in <code>01_chapters/</code>.<br>
+Financials pulled from Screener consolidated pages, 2-Sep-2026, each verified by company-name echo. Standalone artefact &mdash; not wired to the main dashboard or the deploy repo.</p>
+</div>
+
+<script>
+const D=[{"id":"mps","name":"MPS Ltd","verdict":"SURVIVOR","rule":"Rung 1 \u00b7 Tier B","why":"Verification control point in scholarly publishing \u2014 ~52% manuscript acceptance vs ~32% industry baseline. Zero D1 fails, 38.7% ROCE, 3.13% yield at 24.7x. \u2934 19-Sep: NCLT recorded the scheme approvals (16-Sep); stock \u22128% (24.9x). \u2934 6-Oct-2026: FY26 dividend payout was 0% (108% FY24, 95% FY25), suspended to fund the Unbound Medicine acquisition, so Screener's yield now reads 0.00% and the name dropped out of the Lynch WATCH band. No Fisher rule is triggered: payout policy is not a gate or a disqualifier. NCLT passed the second-motion order in the ADI BPO amalgamation (16-Sep) and ISO/IEC 42001 was certified.","stage":"D4","cls":"survivor","held":false,"mcap":4556.0,"pe":24.9,"roce":38.7,"roe":29.7,"pb":7.6,"dy":0.0,"cfoop":89.33333333333333,"fcf3":391.0},{"id":"epl","name":"EPL Ltd","verdict":"SURVIVOR","rule":"Rung 2 \u00b7 Tier A","why":"Global scale in a category nobody else specialises in, plants co-located inside customer sites. Zero D1 fails, FCF +\u20b9904cr. \u2934 19-Sep: Blackstone, the largest holder, sold its entire 26.37% on 1-Sep and India Ratings put the AA+ issuer rating on Rating Watch (Developing); control after the Indovida merger is unconfirmed. Under review, rung unchanged. \u2934 6-Oct-2026: still under review and still unresolved: only an ESOP allotment filed since, with the Blackstone exit and the India Ratings Rating Watch untouched. Control after the Indovida merger remains unconfirmed.","stage":"D4","cls":"survivor","held":true,"mcap":7607.0,"pe":18.5,"roce":17.8,"roe":15.7,"pb":2.7,"dy":1.05,"cfoop":94.33333333333333,"fcf3":904.0},{"id":"transraill","name":"Transrail Lighting Ltd","verdict":"SURVIVOR","rule":"Rung 2 \u00b7 Tier B","why":"Backward integration with 1200 kV tower testing. Best delivery record in the screen \u2014 FY26 guidance raised twice, then beaten. \u2934 19-Sep: stock \u221212% to its 52-week low; no new order filings; FY26 annual report not read. \u2934 6-Oct-2026: the delivery record that earned its rung extended again \u2014 conductor capacity +70% (24,000 to 40,800 km/annum, Silvassa Phase 1 complete) and tower capacity +12,000 MTPA, plus Rs 574cr of new orders. The FY26 annual report is still not read.","stage":"D4","cls":"survivor","held":false,"mcap":6467.0,"pe":15.5,"roce":33.6,"roe":20.0,"pb":2.8,"dy":0.6,"cfoop":60.0,"fcf3":690.0},{"id":"mayur","name":"Mayur Uniquoters Ltd","verdict":"NEAR-MISS","rule":"D2","why":"Zero D1 fails and a real 5\u20137yr OEM-approval moat. Died on concrete key-man risk plus a two-year unresolved overseas-plant decision. \u2934 19-Sep: shareholders voted down the promoter-family pay resolution (62.9% against) and the AGM record says the CMD 'is not able to speak currently' \u2014 key-man risk firmer; still a near-miss. \u2934 6-Oct-2026: the 18-Sep AGM DEFEATED Arun Bagaria's re-appointment as Whole Time Director (70.44% in favour against the 75% a special resolution needs), with the promoter block splitting 29.51% against; eighteen days on, no filing has addressed his position, and the same AGM record has the CMD 'not able to speak currently' while Bagaria chaired the meeting. The D2 key-man finding is firmer, not weaker. Verdict unchanged on the frozen evidence.","stage":"D2","cls":"near","held":true,"mcap":3290.0,"pe":15.9,"roce":24.5,"roe":18.0,"pb":2.9,"dy":0.79,"cfoop":93.0,"fcf3":332.0},{"id":"insecticides","name":"Insecticides India Ltd","verdict":"NEAR-MISS","rule":"D1.7 + D3.9","why":"Debtor days +38%, and weather-dependent earnings with reverse operating leverage make runway unassessable. \u2934 6-Oct-2026: CRISIL reaffirmed its ratings unchanged. Nothing bears on the D1.7 or D3.9 findings that made it a near-miss.","stage":"D1","cls":"near","held":false,"mcap":1709.0,"pe":13.6,"roce":15.8,"roe":12.0,"pb":1.4,"dy":0.34,"cfoop":84.66666666666667,"fcf3":210.0},{"id":"kolte","name":"Kolte Patil Developers Ltd","verdict":"EXCLUDED","rule":"G2","why":"Property development \u2014 outside the circle by Fisher's own practice.","stage":"GATE","cls":"gate","held":false,"mcap":3867.0,"pe":31.1,"roce":0.32,"roe":4.36,"pb":3.2,"dy":0.0,"cfoop":null,"fcf3":null},{"id":"aurion","name":"Aurionpro Solutions Ltd","verdict":"EXCLUDED","rule":"G3","why":"SEBI PIT show-cause notice, 29-May-2026.","stage":"GATE","cls":"gate","held":false,"mcap":3402.0,"pe":16.2,"roce":16.3,"roe":13.2,"pb":2.0,"dy":0.65,"cfoop":null,"fcf3":null},{"id":"care","name":"CARE Ratings Ltd","verdict":"EXCLUDED","rule":"G3","why":"SEBI administrative warning + inspection + court injunction; three material filings unmentioned at its single annual forum. \u2934 Added by correction.","stage":"GATE","cls":"gate","held":false,"mcap":4763.0,"pe":26.8,"roce":26.3,"roe":19.7,"pb":5.1,"dy":1.39,"cfoop":112.66666666666667,"fcf3":330.0},{"id":"monarch","name":"Monarch Networth Capital Ltd","verdict":"EXCLUDED","rule":"G3","why":"Prior SEBI settlement + board-composition penalties. Also zero concalls.","stage":"GATE","cls":"gate","held":false,"mcap":2731.0,"pe":15.1,"roce":27.6,"roe":20.5,"pb":2.8,"dy":0.29,"cfoop":null,"fcf3":null},{"id":"sathlokhar","name":"Sathlokhar Synergys E&C Global Ltd","verdict":"EXCLUDED","rule":"G3","why":"Promoter/Chairman/MD personal insolvency proceeding.","stage":"GATE","cls":"gate","held":false,"mcap":998.0,"pe":9.72,"roce":36.3,"roe":30.3,"pb":2.8,"dy":0.0,"cfoop":null,"fcf3":null},{"id":"nrbbearing","name":"NRB Bearings Ltd","verdict":"EXCLUDED","rule":"G3 (cause cured 16-Sep)","why":"Was: 39.80% of capital pledged at 31-Mar vs a 10% threshold. Pledge is now 3.10% (Tata Capital release 16-Sep), below the gate. NOT re-run through G4 and D1\u2013D4 in this refresh \u2014 stays excluded on the frozen evidence until re-screened. Two promoter-group holders also sold 5.1 lakh shares on 11-Sep.","stage":"GATE","cls":"gate","held":false,"mcap":5210.0,"pe":34.9,"roce":18.4,"roe":15.6,"pb":5.4,"dy":1.48,"cfoop":null,"fcf3":null},{"id":"morepen","name":"Morepen Laboratories Ltd","verdict":"EXCLUDED","rule":"G3","why":"Material RPT with undisclosed consideration. Also 16-month transcript blackout.","stage":"GATE","cls":"gate","held":false,"mcap":7876.0,"pe":67.1,"roce":8.05,"roe":5.33,"pb":6.3,"dy":0.14,"cfoop":null,"fcf3":null},{"id":"diacabs","name":"Diamond Power Infrastructure Ltd","verdict":"EXCLUDED","rule":"G3","why":"MPS non-compliance + audit qualification in window. Contestable \u2014 all cured 2026. Also 1 transcript. \u2934 19-Sep: exited the NCLT framework early and MPS penalty formalised (7-Sep); exclusion stands.","stage":"GATE","cls":"gate","held":false,"mcap":22027.0,"pe":112.0,"roce":26.5,"roe":null,"pb":32.3,"dy":0.0,"cfoop":null,"fcf3":null},{"id":"haldyn","name":"Haldyn Glass Ltd","verdict":"EXCLUDED","rule":"G4","why":"No concall record of any kind.","stage":"GATE","cls":"gate","held":false,"mcap":771.0,"pe":24.8,"roce":13.5,"roe":11.4,"pb":3.3,"dy":0.49,"cfoop":null,"fcf3":null},{"id":"amic","name":"Amic Forging Ltd","verdict":"EXCLUDED","rule":"G4","why":"No concall record; FY26 arithmetic error survived a BSE-mandated re-filing. \u2934 19-Sep: FY26 annual report read \u2014 promoter pay 5x, CFO still vacant.","stage":"GATE","cls":"gate","held":false,"mcap":2945.0,"pe":96.6,"roce":25.2,"roe":18.1,"pb":12.9,"dy":0.0,"cfoop":null,"fcf3":null},{"id":"nitta","name":"Nitta Gelatin India Ltd","verdict":"EXCLUDED","rule":"G4","why":"No concall record across 150 BSE filings.","stage":"GATE","cls":"gate","held":false,"mcap":1530.0,"pe":14.7,"roce":27.7,"roe":21.0,"pb":3.0,"dy":0.42,"cfoop":null,"fcf3":null},{"id":"paras","name":"Paras Defence and Space Technologies Ltd","verdict":"EXCLUDED","rule":"G4","why":"Holds calls, publishes no transcripts.","stage":"GATE","cls":"gate","held":false,"mcap":10671.0,"pe":115.0,"roce":17.2,"roe":12.4,"pb":14.7,"dy":0.08,"cfoop":null,"fcf3":null},{"id":"sunita","name":"Sunita Tools Ltd","verdict":"EXCLUDED","rule":"G4","why":"One transcript, 22 months stale. \u2934 19-Sep: \u20b9576cr order book from undisclosed counterparties; still one transcript.","stage":"GATE","cls":"gate","held":false,"mcap":674.0,"pe":106.0,"roce":10.5,"roe":10.8,"pb":9.6,"dy":0.0,"cfoop":null,"fcf3":null},{"id":"obsc","name":"OBSC Perfection Ltd","verdict":"EXCLUDED","rule":"G4","why":"Two transcripts, twelve months apart \u2014 not consecutive periods.","stage":"GATE","cls":"gate","held":false,"mcap":2274.0,"pe":72.3,"roce":19.5,"roe":19.6,"pb":12.5,"dy":0.0,"cfoop":null,"fcf3":null},{"id":"astec","name":"Astec Lifesciences Ltd","verdict":"EXCLUDED","rule":"G4","why":"Silent 46 months. Operating profit went +\u20b977cr \u2192 \u2212\u20b96cr \u2192 \u2212\u20b966cr across the blackout. \u2934 19-Sep: also verified \u2014 \u20b941.12cr GST demand, ICRA AA- Negative, CFO resigned Mar-2026; nine exchange price/volume notices 8\u201318 Sep.","stage":"GATE","cls":"gate","held":false,"mcap":1570.0,"pe":null,"roce":5.44,"roe":25.2,"pb":4.0,"dy":0.0,"cfoop":null,"fcf3":null},{"id":"dynamatic","name":"Dynamatic Technologies Ltd","verdict":"EXCLUDED","rule":"G4","why":"Silent 31 months \u2014 23 calls listed, 3 transcripts.","stage":"GATE","cls":"gate","held":false,"mcap":9712.0,"pe":166.0,"roce":10.2,"roe":6.67,"pb":11.4,"dy":0.07,"cfoop":null,"fcf3":null},{"id":"gmdc","name":"Gujarat Mineral Development Corporation Ltd","verdict":"EXCLUDED","rule":"G4","why":"Silent 16 months.","stage":"GATE","cls":"gate","held":false,"mcap":15687.0,"pe":27.5,"roce":10.8,"roe":4.22,"pb":2.2,"dy":1.92,"cfoop":null,"fcf3":null},{"id":"oriana","name":"Oriana Power Ltd","verdict":"EXCLUDED","rule":"D3.1 + D3.2","why":"ROCE, revenue growth and a P/E are results, not moats. Solar EPC has free entry.","stage":"D3","cls":"d3","held":false,"mcap":3081.0,"pe":12.2,"roce":39.7,"roe":39.6,"pb":4.0,"dy":0.0,"cfoop":null,"fcf3":null},{"id":"aimtron","name":"Aimtron Electronics Ltd","verdict":"EXCLUDED","rule":"D3.1 + D3.2","why":"Every claim describes the EMS category, not the company. 'Mainboard eligibility' is not a moat.","stage":"D3","cls":"d3","held":false,"mcap":4044.0,"pe":88.0,"roce":28.2,"roe":23.6,"pb":16.7,"dy":0.0,"cfoop":null,"fcf3":null},{"id":"rajesh","name":"Rajesh Power Services Ltd","verdict":"EXCLUDED","rule":"D3.1","why":"Discom pre-qualification is held by every serious T&D contractor.","stage":"D3","cls":"d3","held":false,"mcap":1360.0,"pe":9.47,"roce":47.3,"roe":42.8,"pb":3.3,"dy":0.14,"cfoop":null,"fcf3":null},{"id":"ecl","name":"Electrosteel Castings Ltd","verdict":"EXCLUDED","rule":"D3.1","why":"'Largest independent' is scale without profitability leadership. OP \u20b91,204cr \u2192 \u20b9289cr.","stage":"D3","cls":"d3","held":false,"mcap":4916.0,"pe":30.9,"roce":5.0,"roe":3.04,"pb":0.8,"dy":1.13,"cfoop":null,"fcf3":null},{"id":"axiscades","name":"AXISCADES Technologies Ltd","verdict":"EXCLUDED","rule":"D3.1","why":"A conversion mechanic is a claim about the future. 10yr sales CAGR 4%, 3yr \u221214%.","stage":"D3","cls":"d3","held":false,"mcap":9751.0,"pe":297.0,"roce":15.4,"roe":11.5,"pb":13.4,"dy":0.0,"cfoop":null,"fcf3":null},{"id":"wheels","name":"Wheels India Ltd","verdict":"EXCLUDED","rule":"D3.1","why":"Profile contradicts its own moat \u2014 'raw-material pass-through, not conversion'. 7.8% blended margin.","stage":"D3","cls":"d3","held":false,"mcap":6144.0,"pe":37.6,"roce":18.8,"roe":15.8,"pb":5.4,"dy":0.63,"cfoop":null,"fcf3":null},{"id":"datamatics","name":"Datamatics Global Services Ltd","verdict":"EXCLUDED","rule":"D3.1","why":"Proprietary products that have not shown up in the growth rate.","stage":"D3","cls":"d3","held":true,"mcap":4554.0,"pe":17.9,"roce":20.4,"roe":16.0,"pb":3.0,"dy":0.65,"cfoop":null,"fcf3":null},{"id":"dcmshriram","name":"DCM Shriram Ltd","verdict":"EXCLUDED","rule":"D3.1","why":"'The businesses do not reinforce each other' is a negative answer by construction.","stage":"D3","cls":"d3","held":true,"mcap":15303.0,"pe":11.2,"roce":11.5,"roe":11.5,"pb":2.0,"dy":1.13,"cfoop":null,"fcf3":null},{"id":"dycl","name":"Dynamic Cables Ltd","verdict":"EXCLUDED","rule":"D3.1","why":"'No brand, no pricing power.' Management's own '80-10-10' is a commodity converter. \u2934 19-Sep: the \u20b9344.75cr guarantee claim found no support in FY26 accounts; D3.1 exclusion unchanged.","stage":"D3","cls":"d3","held":false,"mcap":2123.0,"pe":23.3,"roce":26.2,"roe":19.9,"pb":4.6,"dy":0.11,"cfoop":null,"fcf3":null},{"id":"azad","name":"Azad Engineering Ltd","verdict":"EXCLUDED","rule":"D1.3 + D1.7","why":"3yr FCF \u2212\u20b91,009cr on 7% CFO/OP; WC days 120\u2192304.","stage":"D1","cls":"d1","held":false,"mcap":19767.0,"pe":142.0,"roce":11.9,"roe":9.09,"pb":12.9,"dy":0.0,"cfoop":6.666666666666667,"fcf3":-1009.0},{"id":"anupam","name":"Anupam Rasayan India Ltd","verdict":"EXCLUDED","rule":"D1.3 + D1.7 + D1.4","why":"FCF \u2212\u20b91,304cr; debtor +56%; margin fell 28%\u219222% as the platform grew. \u2934 6-Oct-2026: the Bliss GVS acquisition consummated 28-Sep with 47.95% held by the Mates PAC rather than the listed company, while Anupam provides the guarantee, the pledge and the security behind the Rs 300cr + Rs 145cr of NCDs. Consolidation treatment and Anupam's economic interest are undisclosed.","stage":"D1","cls":"d1","held":false,"mcap":13179.0,"pe":75.4,"roce":7.38,"roe":5.55,"pb":4.0,"dy":0.13,"cfoop":34.333333333333336,"fcf3":-1304.0},{"id":"concordcs","name":"Concord Control Systems Ltd","verdict":"EXCLUDED","rule":"D1.3 + D1.7","why":"CFO/OP \u22122%; debtor days 67\u2192210 (+213%).","stage":"D1","cls":"d1","held":false,"mcap":2528.0,"pe":60.0,"roce":31.2,"roe":25.6,"pb":12.1,"dy":0.0,"cfoop":-1.6666666666666667,"fcf3":-67.0},{"id":"avalon","name":"Avalon Technologies Ltd","verdict":"EXCLUDED","rule":"D1.3 + D1.7 + D1.4","why":"WC days 18\u2192102; gross margin falling. \u2934 6-Oct-2026: a promoter group began selling about 6% by block deal (Bhaskar Srinivasan and two family trusts, 2.00% each); the Kunhamed Bicha group is not selling.","stage":"D1","cls":"d1","held":false,"mcap":16062.0,"pe":120.0,"roce":19.3,"roe":16.5,"pb":22.2,"dy":0.0,"cfoop":48.666666666666664,"fcf3":-35.0},{"id":"syrma","name":"Syrma SGS Technology Ltd","verdict":"EXCLUDED","rule":"D1.3 + D1.7","why":"FCF \u2212\u20b9328cr; debtor +93%.","stage":"D1","cls":"d1","held":false,"mcap":32495.0,"pe":87.5,"roce":16.8,"roe":14.0,"pb":11.4,"dy":0.09,"cfoop":38.333333333333336,"fcf3":-328.0},{"id":"accent","name":"Accent Microcell Ltd","verdict":"EXCLUDED","rule":"D1.3 + D1.7","why":"Debtor +70%, WC days +132%.","stage":"D1","cls":"d1","held":false,"mcap":1586.0,"pe":36.2,"roce":24.9,"roe":18.6,"pb":5.7,"dy":0.15,"cfoop":61.666666666666664,"fcf3":-82.0},{"id":"carysil","name":"Carysil Ltd","verdict":"EXCLUDED","rule":"D1.3 + D1.7","why":"WC days +111%.","stage":"D1","cls":"d1","held":false,"mcap":2944.0,"pe":27.4,"roce":18.0,"roe":17.4,"pb":4.8,"dy":0.29,"cfoop":64.33333333333333,"fcf3":-27.0},{"id":"interarch","name":"Interarch Building Solutions Ltd","verdict":"EXCLUDED","rule":"D1.3 + D1.7 + D1.4","why":"WC +93%; 'margins are thin and have not expanded'. \u2934 19-Sep: income-tax search (Aug-2025) and a block-assessment notice (15-Sep) found \u2014 not an enumerated G3 disqualifier, recorded as an integrity flag.","stage":"D1","cls":"d1","held":false,"mcap":2804.0,"pe":20.5,"roce":23.7,"roe":16.8,"pb":3.2,"dy":0.74,"cfoop":55.666666666666664,"fcf3":-104.0},{"id":"rossell","name":"Rossell Techsys Ltd","verdict":"EXCLUDED","rule":"D1.1 + D1.3 + D1.4","why":"13.6% margin vs peer median ~24%; CFO/OP \u221274%.","stage":"D1","cls":"d1","held":false,"mcap":6086.0,"pe":230.0,"roce":11.5,"roe":15.7,"pb":39.3,"dy":0.02,"cfoop":-74.33333333333333,"fcf3":-172.0},{"id":"ssw","name":"Steel Strips Wheels Ltd","verdict":"EXCLUDED","rule":"D1.1 + D1.7","why":"10% margin vs peer median ~15%; debtor +34%.","stage":"D1","cls":"d1","held":false,"mcap":6681.0,"pe":31.4,"roce":14.8,"roe":11.0,"pb":3.7,"dy":0.35,"cfoop":82.66666666666667,"fcf3":281.0},{"id":"shreerefr","name":"Shree Refrigerations Ltd","verdict":"EXCLUDED","rule":"D1.3 + D1.6","why":"CFO/OP \u22129%; two internal inconsistencies in one call \u2014 growth stated as 150% when it was 55.5%.","stage":"D1","cls":"d1","held":false,"mcap":1383.0,"pe":64.3,"roce":13.8,"roe":13.0,"pb":6.4,"dy":0.0,"cfoop":-9.0,"fcf3":-51.0},{"id":"deep","name":"Deep Industries Ltd","verdict":"EXCLUDED","rule":"D1.6 + D2.4","why":"Two consecutive Q4 write-offs \u2014 \u20b9208cr (FY25) then \u20b9183cr (Q4FY26) \u2014 the second after management's explicit \"nothing else left\" assurance. That broken assurance is the D2.4 failure; the surprise itself is D1.6. \u2934 CORRECTED 8-Sep: originally excluded on D1.2 (loss year). That was wrong \u2014 revenue GREW 35% in the loss year, so it was never a shakeout. P/E shown is Screener's adjusted basis; reported is ~2x higher.","stage":"D1","cls":"d1","held":true,"mcap":4801.0,"pe":11.6,"roce":16.5,"roe":19.2,"pb":2.4,"dy":0.33,"cfoop":110.0,"fcf3":98.0},{"id":"netweb","name":"Netweb Technologies India Ltd","verdict":"EXCLUDED","rule":"Rung 5","why":"117x earnings, 40.4x book \u2014 far above merit.","stage":"D4","cls":"d4","held":false,"mcap":28419.0,"pe":109.0,"roce":37.5,"roe":32.8,"pb":37.6,"dy":0.06,"cfoop":122.33333333333333,"fcf3":743.0},{"id":"unimech","name":"Unimech Aerospace and Manufacturing Ltd","verdict":"EXCLUDED","rule":"Rung 5","why":"104x on 11.2% ROCE; ~half of pre-tax profit is treasury income; a guidance figure repeated 9 times has simply stopped being said. \u2934 19-Sep: five senior-management departures disclosed 7\u201314 months late \u2014 recorded as an integrity/disclosure flag.","stage":"D4","cls":"d4","held":false,"mcap":9478.0,"pe":132.0,"roce":11.2,"roe":7.96,"pb":12.8,"dy":0.0,"cfoop":100.33333333333333,"fcf3":-15.0},{"id":"yash","name":"Yash Highvoltage Ltd","verdict":"EXCLUDED","rule":"Rung 5","why":"74.6x, 15.1x book; 'everything hinges on one type test'. \u2934 6-Oct-2026: FY26 annual report read: CMD remuneration rose 107% to Rs 289.34 lakh and the Rule 5(1)(iv) comparison against non-managerial increases is left BLANK. D2.1 (salary gradient) is measured from exactly that disclosure, so the test is unmeasurable as filed - recorded as a disclosure flag.","stage":"D4","cls":"d4","held":false,"mcap":3616.0,"pe":93.0,"roce":28.6,"roe":23.5,"pb":18.8,"dy":0.12,"cfoop":null,"fcf3":null},{"id":"happy","name":"Happy Forgings Ltd","verdict":"EXCLUDED","rule":"Rung 3","why":"69.8x, 10.7x book; ROCE fallen 23%\u219218% through the capex cycle; float 4.12%.","stage":"D4","cls":"d4","held":false,"mcap":18880.0,"pe":57.7,"roce":18.0,"roe":15.0,"pb":8.8,"dy":0.2,"cfoop":92.33333333333333,"fcf3":-9.0},{"id":"sansera","name":"Sansera Engineering Ltd","verdict":"EXCLUDED","rule":"D1.7 + Rung 3","why":"WC days 6\u219239; 65.3x on 14.1% ROCE.","stage":"D4","cls":"d4","held":false,"mcap":26393.0,"pe":70.9,"roce":14.5,"roe":11.8,"pb":8.5,"dy":0.09,"cfoop":84.33333333333333,"fcf3":-306.0},{"id":"dee","name":"DEE Development Engineers Ltd","verdict":"EXCLUDED","rule":"D1.3 + D2.4","why":"FCF \u2212\u20b9478cr; Q1 margin 16.9% against a '>19%, without any doubt' commitment. \u2934 6-Oct-2026: AGM Resolution 7, a special resolution revising the Whole-time Director's remuneration, was DEFEATED at 71.08% against a 75% bar, with public institutions voting 50.29% against; members separately approved conversion of Bank of India consortium debt into equity on an event of default. Neither is an enumerated G3 disqualifier (no Section 197 breach is alleged), so the exclusion rule is unchanged; both are recorded as integrity and capital-structure flags.","stage":"D2","cls":"d2","held":false,"mcap":4903.0,"pe":59.8,"roce":10.7,"roe":9.31,"pb":5.1,"dy":0.16,"cfoop":13.0,"fcf3":-478.0},{"id":"concordbio","name":"Concord Biotech Ltd","verdict":"EXCLUDED","rule":"D1.7 + Rung 3","why":"Debtor +36%, WC +51%; 55.8x.","stage":"D4","cls":"d4","held":false,"mcap":14345.0,"pe":51.7,"roce":17.1,"roe":12.5,"pb":7.1,"dy":0.56,"cfoop":85.0,"fcf3":486.0},{"id":"kmew","name":"Knowledge Marine & Engineering Works Ltd","verdict":"EXCLUDED","rule":"Rung 3","why":"57.3x and 12.6x book with the order book going backwards. \u2934 19-Sep: first Q1 call held 26-Aug; \u20b9500cr NCD approved 8-Sep.","stage":"D4","cls":"d4","held":false,"mcap":8112.0,"pe":62.6,"roce":16.3,"roe":20.0,"pb":13.7,"dy":0.0,"cfoop":90.33333333333333,"fcf3":-108.0},{"id":"garware","name":"Garware Hi Tech Films Ltd","verdict":"EXCLUDED","rule":"D1.7 + D2.2","why":"WC days 7\u2192146 in one year; no permanent CFO and the question was not asked.","stage":"D2","cls":"d2","held":true,"mcap":16468.0,"pe":42.5,"roce":18.1,"roe":13.5,"pb":6.2,"dy":0.17,"cfoop":89.0,"fcf3":546.0},{"id":"gpil","name":"Godawari Power & Ispat Ltd","verdict":"EXCLUDED","rule":"D1.2 + D3.5","why":"Loss year; Sarda Energy earned 41% operating margin in the same quarter GPIL earned 19%.","stage":"D3","cls":"d3","held":false,"mcap":14776.0,"pe":18.0,"roce":20.5,"roe":15.3,"pb":2.5,"dy":0.46,"cfoop":102.66666666666667,"fcf3":1066.0},{"id":"eil","name":"Engineers India Ltd","verdict":"EXCLUDED","rule":"D3.9","why":"Order intake stalled, order book shrinking, revenue going backwards.","stage":"D3","cls":"d3","held":false,"mcap":17606.0,"pe":22.4,"roce":30.4,"roe":23.4,"pb":5.6,"dy":1.6,"cfoop":70.33333333333333,"fcf3":516.0},{"id":"nlc","name":"NLC India Ltd","verdict":"EXCLUDED","rule":"D2.3 + D3.6","why":"No permanent CMD; largest but 10.4% ROCE is not profitability leadership.","stage":"D2","cls":"d2","held":false,"mcap":35332.0,"pe":11.0,"roce":8.42,"roe":11.9,"pb":1.6,"dy":1.51,"cfoop":162.66666666666666,"fcf3":1592.0},{"id":"atlantaele","name":"Atlanta Electricals Ltd","verdict":"EXCLUDED","rule":"Rung 5","why":"67.7x earnings and 15.9x book against Shilchar at 33.3x on a HIGHER 50.7% ROCE \u2014 roughly twice a direct peer's multiple on lower returns. The 400 kV/765 kV thesis is unbuilt while ~60,000 MVA of new industry capacity arrives in 3\u20134 months. Also D1.7 (WC days 29\u219255) and an unresolved G3 flag: 6.2% of revenue purchased from promoter-owned Amod Stampings, two-way trade. Added 3-Sep, screened 8-Sep as a single-name addendum.","stage":"D4","cls":"d4","held":false,"mcap":14398.0,"pe":65.9,"roce":45.3,"roe":31.7,"pb":15.5,"dy":0.0,"cfoop":79,"fcf3":94},{"id":"anthem","name":"Anthem Biosciences Ltd","verdict":"EXCLUDED","rule":"Rung 5","why":"88x earnings for an operationally top-three business (30% ROCE, no debt, no pledge; top-3 customers 56.7%). Far above merit. First covered in this refresh.","stage":"D4","cls":"d4","held":false,"cfoop":null,"fcf3":null,"mcap":50112.0,"pe":84.5,"roce":30.4,"roe":22.3,"pb":16.4,"dy":0.23},{"id":"macpower","name":"Macpower CNC Machines Ltd","verdict":"EXCLUDED","rule":"D1.3 + D1.7","why":"FY26 CFO \u20b914cr vs \u20b927.9cr of working capital absorbed (FCF \u20b93.06cr on \u20b933.9cr PAT); cash-conversion cycle 134\u2192182 days.","stage":"D1","cls":"d1","held":false,"cfoop":null,"fcf3":null,"mcap":2091.0,"pe":54.1,"roce":29.1,"roe":21.3,"pb":12.0,"dy":0.07},{"id":"tvssrichak","name":"TVS Srichakra Ltd","verdict":"EXCLUDED","rule":"G4","why":"Never held an earnings call: Screener lists one 2022 presentation and no transcript; 155 BSE filings checked.","stage":"GATE","cls":"gate","held":false,"cfoop":null,"fcf3":null,"mcap":3373.0,"pe":32.9,"roce":7.85,"roe":5.75,"pb":2.8,"dy":0.86},{"id":"cff","name":"CFF Fluid Control Ltd","verdict":"EXCLUDED","rule":"G4","why":"Zero transcripts ever filed; SME-era documents only.","stage":"GATE","cls":"gate","held":false,"cfoop":null,"fcf3":null,"mcap":2268.0,"pe":57.8,"roce":23.5,"roe":19.0,"pb":8.5,"dy":0.12},{"id":"panamapet","name":"Panama Petrochem Ltd","verdict":"EXCLUDED","rule":"G4","why":"No earnings call for 34 months (last 9-Nov-2023) \u2014 the same rule that excluded ASTEC, DYNAMATIC and GMDC.","stage":"GATE","cls":"gate","held":false,"cfoop":null,"fcf3":null,"mcap":3048.0,"pe":6.37,"roce":19.2,"roe":15.6,"pb":2.1,"dy":0.6},{"id":"shreepushk","name":"Shree Pushkar Chemicals & Fertilizers Ltd","verdict":"EXCLUDED","rule":"D3.1 (+ D2.4, D1.3)","why":"Commodity intermediates and fertiliser with no mechanism others could not match; FY26 PAT-margin guidance missed 4 of 4; five-year FCF \u2212\u20b945cr.","stage":"D3","cls":"d3","held":false,"cfoop":null,"fcf3":null,"mcap":1635.0,"pe":22.7,"roce":12.9,"roe":12.1,"pb":2.7,"dy":0.41},{"id":"jgchem","name":"J.G. Chemicals Ltd","verdict":"EXCLUDED","rule":"D3.1","why":"The profile's own words: 'a conversion business on a commodity', EBITDA ex-other-income 7\u201310% for four years; management's EBITDA includes other income.","stage":"D3","cls":"d3","held":false,"cfoop":null,"fcf3":null,"mcap":2604.0,"pe":34.6,"roce":17.7,"roe":13.2,"pb":4.9,"dy":0.18},{"id":"wabag","name":"VA Tech Wabag Ltd","verdict":"EXCLUDED","rule":"Rung 4","why":"Not HIGH quality: ex-forex EBITDA margin 12.8%\u21929.0%, FY26 CFO/PAT 0.56x, forex counted inside EBITDA; 33x on 21% ROCE.","stage":"D4","cls":"d4","held":false,"cfoop":null,"fcf3":null,"mcap":12542.0,"pe":31.5,"roce":21.3,"roe":15.9,"pb":4.9,"dy":0.25}], FCF=[{"id":"anupam","n":"Anupam Rasayan India Ltd","v":-1304.0,"c":"d1"},{"id":"azad","n":"Azad Engineering Ltd","v":-1009.0,"c":"d1"},{"id":"dee","n":"DEE Development Engineers Ltd","v":-478.0,"c":"d2"},{"id":"syrma","n":"Syrma SGS Technology Ltd","v":-328.0,"c":"d1"},{"id":"sansera","n":"Sansera Engineering Ltd","v":-306.0,"c":"d4"},{"id":"rossell","n":"Rossell Techsys Ltd","v":-172.0,"c":"d1"},{"id":"kmew","n":"Knowledge Marine & Engineering Works Ltd","v":-108.0,"c":"d4"},{"id":"interarch","n":"Interarch Building Solutions Ltd","v":-104.0,"c":"d1"},{"id":"accent","n":"Accent Microcell Ltd","v":-82.0,"c":"d1"},{"id":"concordcs","n":"Concord Control Systems Ltd","v":-67.0,"c":"d1"},{"id":"shreerefr","n":"Shree Refrigerations Ltd","v":-51.0,"c":"d1"},{"id":"avalon","n":"Avalon Technologies Ltd","v":-35.0,"c":"d1"},{"id":"carysil","n":"Carysil Ltd","v":-27.0,"c":"d1"},{"id":"unimech","n":"Unimech Aerospace and Manufacturing Ltd","v":-15.0,"c":"d4"},{"id":"happy","n":"Happy Forgings Ltd","v":-9.0,"c":"d4"},{"id":"deep","n":"Deep Industries Ltd","v":98.0,"c":"d1"},{"id":"insecticides","n":"Insecticides India Ltd","v":210.0,"c":"near"},{"id":"ssw","n":"Steel Strips Wheels Ltd","v":281.0,"c":"d1"},{"id":"mayur","n":"Mayur Uniquoters Ltd","v":332.0,"c":"near"},{"id":"mps","n":"MPS Ltd","v":391.0,"c":"survivor"},{"id":"concordbio","n":"Concord Biotech Ltd","v":486.0,"c":"d4"},{"id":"eil","n":"Engineers India Ltd","v":516.0,"c":"d3"},{"id":"garware","n":"Garware Hi Tech Films Ltd","v":546.0,"c":"d2"},{"id":"transraill","n":"Transrail Lighting Ltd","v":690.0,"c":"survivor"},{"id":"netweb","n":"Netweb Technologies India Ltd","v":743.0,"c":"d4"},{"id":"epl","n":"EPL Ltd","v":904.0,"c":"survivor"},{"id":"gpil","n":"Godawari Power & Ispat Ltd","v":1066.0,"c":"d3"},{"id":"nlc","n":"NLC India Ltd","v":1592.0,"c":"d2"}];
+const f=n=>n==null?'&mdash;':(typeof n==='number'?(Math.abs(n)>=100?n.toFixed(0):n.toFixed(1)):n);
+function card(r,cls){return `<div class="card ${cls}">
+<div class="rank">${r.verdict}</div><div class="tick">${r.name}${r.held?'<span class="held">&#9733; HELD</span>':''}</div>
+<div class="rung">${r.rule}</div>
+<div class="mx"><div><b>${f(r.pe)}</b><span>P/E</span></div><div><b>${f(r.roce)}%</b><span>ROCE</span></div>
+<div><b>${f(r.pb)}</b><span>P/B</span></div><div><b>${r.dy==null?'&mdash;':r.dy.toFixed(2)+'%'}</b><span>Yield</span></div></div>
+<p class="why">${r.why}</p></div>`}
+document.getElementById('survivors').innerHTML=D.filter(r=>r.verdict==='SURVIVOR').map(r=>card(r,'surv')).join('');
+document.getElementById('near').innerHTML=D.filter(r=>r.verdict==='NEAR-MISS').map(r=>card(r,'near')).join('');
+
+let F='all',Q='';
+function draw(){
+ const rs=D.filter(r=>(F==='all'||(F==='held'?r.held:r.cls===F))&&
+  (!Q||(r.name+' '+r.rule+' '+r.why).toLowerCase().includes(Q)));
+ const order={survivor:0,near:1,gate:2,d3:3,d1:4,d2:5,d4:6};
+ rs.sort((a,b)=>order[a.cls]-order[b.cls]||a.name.localeCompare(b.name));
+ document.getElementById('tb').innerHTML=rs.map(r=>`<tr>
+ <td><b>${r.name}</b>${r.held?'<span class="held">&#9733;</span>':''}</td>
+ <td><span class="pill p-${r.cls}">${r.verdict}</span></td>
+ <td><b>${r.rule}</b><br><span style="color:var(--mut);font-size:12.5px">${r.why}</span></td>
+ <td class="num">${f(r.pe)}</td><td class="num">${f(r.roce)}${r.roce==null?'':'%'}</td>
+ <td class="num">${f(r.pb)}</td><td class="num">${r.dy==null?'&mdash;':r.dy.toFixed(2)+'%'}</td></tr>`).join('');
+ document.getElementById('count').textContent=`Showing ${rs.length} of ${D.length}. ★ marks a disclosed holding.`;
+}
+document.querySelectorAll('.fbtn').forEach(b=>b.onclick=()=>{
+ F=b.dataset.f;document.querySelectorAll('.fbtn').forEach(x=>x.setAttribute('aria-pressed',x===b));draw()});
+document.getElementById('q').oninput=e=>{Q=e.target.value.toLowerCase().trim();draw()};
+draw();
+
+// FCF chart
+(function(){
+ const W=980,rowH=19,pad={t:14,b:26,l:172,r:16},H=pad.t+FCF.length*rowH+pad.b;
+ const vals=FCF.map(d=>d.v),mn=Math.min(0,...vals),mx=Math.max(0,...vals);
+ const iw=W-pad.l-pad.r,x=v=>pad.l+(v-mn)/(mx-mn)*iw,zero=x(0);
+ const col={survivor:'#1a7f4b',near:'#b8860b',gate:'#7b3fa0',d1:'#b3261e',d2:'#b3261e',d3:'#b3261e',d4:'#b3261e'};
+ let s=`<svg viewBox="0 0 ${W} ${H}" width="100%" height="${H}">`;
+ s+=`<line x1="${zero}" y1="${pad.t-4}" x2="${zero}" y2="${H-pad.b+2}" stroke="#c9d2dc" stroke-width="1"/>`;
+ FCF.forEach((d,i)=>{const y=pad.t+i*rowH,bw=Math.abs(x(d.v)-zero),bx=d.v<0?zero-bw:zero;
+  s+=`<rect x="${bx}" y="${y+3}" width="${Math.max(bw,1)}" height="${rowH-7}" fill="${col[d.c]}" opacity=".85" rx="2"/>`;
+  s+=`<text x="${pad.l-7}" y="${y+13}" text-anchor="end" font-size="11" fill="#33393f">${(function(n){n=n.replace(/\s*(Pvt\.?\s*)?(Ltd|Limited)\.?\s*$/i,'').trim();
+if(n.length<=23)return n;var c=n.slice(0,23);var k=c.lastIndexOf(' ');return (k>12?c.slice(0,k):c)+'…';})(d.n)}</text>`;
+  const lbl=`${d.v>=0?'+':'−'}₹${Math.abs(d.v).toFixed(0)}cr`, inside=bw>62;
+  const lx=inside?(d.v<0?bx+5:bx+bw-5):(d.v<0?bx-5:bx+bw+5);
+  const anc=inside?(d.v<0?'start':'end'):(d.v<0?'end':'start');
+  s+=`<text x="${lx}" y="${y+13}" text-anchor="${anc}" font-size="10.5" font-weight="${inside?600:400}" fill="${inside?'#fff':'#5b6670'}">${lbl}</text>`});
+ s+=`<text x="${pad.l}" y="${H-7}" font-size="11" fill="#5b6670">3-year cumulative free cash flow (₹ crore) — left of the line is cash consumed</text></svg>`;
+ document.getElementById('fcf').outerHTML=s;
+})();
+</script>
+</body>
+</html>

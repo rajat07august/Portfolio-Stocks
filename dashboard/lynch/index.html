@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Lynch Screen</title>
+<style>
+:root{--navy:#1F4E79;--blue:#2E75B6;--bg:#fafbfc;--card:#fff;--ink:#1a1d21;--mut:#5b6670;--line:#e3e8ee;
+--good:#1a7f4b;--warn:#b8860b;--bad:#b3261e;--ab:#6b7280;--c1:#8b6f47;--c2:#2E75B6;--c3:#1a7f4b;--c4:#b3261e;--c5:#7b3fa0;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+svg text:not([fill]){fill:currentColor}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px 80px}
+header{background:linear-gradient(135deg,#14532d,#1a7f4b);color:#fff;padding:34px 0 30px;margin-bottom:26px}
+header .wrap{padding-bottom:0}
+h1{margin:0 0 6px;font-size:29px;letter-spacing:-.4px}
+.sub{opacity:.92;font-size:14.5px;margin:0;max-width:80ch}
+.frozen{display:inline-block;margin-top:14px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3);
+padding:5px 11px;border-radius:5px;font-size:12.5px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+h2{font-size:19px;margin:34px 0 4px;color:var(--navy);letter-spacing:-.2px}
+h2 .n{color:var(--mut);font-weight:400;font-size:15px}
+.lede{color:var(--mut);margin:0 0 16px;font-size:14.5px;max-width:82ch}
+.card{background:var(--card);border:1px solid var(--line);border-radius:9px;padding:18px 20px;margin-bottom:14px}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+.surv{border-left:4px solid var(--warn)}
+.rank{font-size:11px;font-weight:700;letter-spacing:.9px;text-transform:uppercase;color:var(--warn)}
+.tick{font-size:20px;font-weight:650;margin:3px 0 1px;color:var(--navy)}
+.rung{display:inline-block;background:#fdf8ec;color:#8a6200;border:1px solid #eadcbb;padding:2px 8px;
+border-radius:4px;font-size:12px;font-weight:600;margin-bottom:9px}
+.mx{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:12px 0 10px}
+.mx div{background:#f6f8fa;border-radius:6px;padding:7px 8px}
+.mx b{display:block;font-size:15px;color:var(--navy)}
+.mx span{font-size:10.5px;color:var(--mut);text-transform:uppercase;letter-spacing:.5px}
+.why{font-size:13.5px;color:#33393f;margin:0}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+th{text-align:left;background:#f2f5f8;color:var(--navy);font-size:11.5px;text-transform:uppercase;
+letter-spacing:.6px;padding:9px 10px;border-bottom:2px solid var(--line);position:sticky;top:0;white-space:nowrap}
+td{padding:9px 10px;border-bottom:1px solid #eef1f5;vertical-align:top}
+tr:hover td{background:#f8fafc}
+td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.pill{display:inline-block;padding:2px 7px;border-radius:4px;font-size:11px;font-weight:650;white-space:nowrap}
+.p-WATCH{background:#fdf4e0;color:var(--warn)} .p-EXCLUDED{background:#fdeceb;color:var(--bad)}
+.p-ABSTAIN{background:#eef0f2;color:var(--ab)}
+.cat{display:inline-block;padding:1px 6px;border-radius:3px;font-size:10.5px;font-weight:700;color:#fff}
+.cat.C1{background:var(--c1)}.cat.C2{background:var(--c2)}.cat.C3{background:var(--c3)}.cat.C4{background:var(--c4)}.cat.C5{background:var(--c5)}
+.held{display:inline-block;background:#fff4d6;border:1px solid #e8cf8a;color:#7a5a00;font-size:10px;
+font-weight:700;padding:1px 5px;border-radius:3px;margin-left:5px;vertical-align:1px}
+.filters{display:flex;flex-wrap:wrap;gap:7px;align-items:center;margin:14px 0}
+.fbtn{background:#fff;border:1px solid var(--line);border-radius:16px;padding:5px 13px;font-size:12.5px;
+cursor:pointer;color:var(--mut);font-weight:600}
+.fbtn:hover{border-color:var(--good);color:var(--good)}
+.fbtn[aria-pressed=true]{background:#14532d;border-color:#14532d;color:#fff}
+#q{flex:1;min-width:170px;padding:6px 11px;border:1px solid var(--line);border-radius:16px;font-size:13px}
+.note{background:#fff9e8;border:1px solid #f0e0b0;border-left:4px solid #d9a520;border-radius:7px;padding:14px 17px;margin:14px 0;font-size:14px}
+.note b{color:#8a6200}
+.corr{background:#fdeff0;border:1px solid #f3c9cc;border-left:4px solid var(--bad)}
+.corr b{color:var(--bad)}
+.step{display:flex;gap:15px;align-items:flex-start;margin-bottom:14px}
+.stepn{flex:0 0 32px;height:32px;border-radius:50%;background:#14532d;color:#fff;display:flex;
+align-items:center;justify-content:center;font-weight:700;font-size:14px;margin-top:2px}
+.stepb{flex:1;background:var(--card);border:1px solid var(--line);border-radius:9px;padding:15px 18px;min-width:0}
+.stepb h3{margin:0 0 7px;font-size:16px;color:var(--navy)}
+.stepb h3 .out{float:right;background:#fdeceb;color:var(--bad);font-size:11.5px;font-weight:700;padding:2px 9px;border-radius:11px;margin-left:10px}
+.stepb p{margin:0 0 9px;font-size:14px}
+table.mini{width:100%;border-collapse:collapse;margin:8px 0}
+table.mini td{padding:6px 8px;border-bottom:1px solid #eef1f5;font-size:13.5px;vertical-align:top}
+table.mini td.c{width:42px;font-family:ui-monospace,Menlo,monospace;font-size:12px;font-weight:700;color:var(--good);white-space:nowrap}
+.ex{background:#f6f8fa;border-left:3px solid var(--good);border-radius:0 5px 5px 0;padding:9px 12px;font-size:13.5px;margin:9px 0 0 !important}
+ul.tight{margin:8px 0 0;padding-left:19px}ul.tight li{margin-bottom:6px;font-size:14px}
+.foot{color:var(--mut);font-size:12.5px;margin-top:34px;border-top:1px solid var(--line);padding-top:14px}
+.cnt{color:var(--mut);font-size:12.5px;margin:8px 0 0}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:12.5px;color:var(--mut);margin-top:10px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:0}
+@media(max-width:640px){.mx{grid-template-columns:repeat(2,1fr)}h1{font-size:23px}.stepb h3 .out{float:none;display:inline-block;margin:4px 0 0}}
+</style>
+
+</head>
+<body><header><div class="wrap">
+<h1>The Lynch Screen</h1>
+<p class="sub">Peter Lynch's framework &mdash; six categories, each with its own tests &mdash; applied to 64 watchlist names. He is explicit that a single set of rules cannot work: <em>&ldquo;it's simply impossible to find a generic formula that sensibly applies to all the different kinds of stocks.&rdquo;</em></p>
+<div class="frozen">Criteria frozen 9-Sep-2026 02:15 IST &middot; one logged amendment &middot; <b>BUY 0 &middot; WATCH 2 &middot; ABSTAIN 6</b> &middot; prices refreshed 6-Oct-2026 (close)</div>
+</div></header>
+
+<div class="wrap">
+
+<div class="note"><b>Refresh, 19-Sep-2026.</b> The frozen criteria were <b>not amended</b>. What changed: (1) P/E, yield and market cap re-read from Screener at the 18-Sep close for all 57 original names and the price ratio recomputed &mdash; <b>no verdict flipped</b> (EIL 1.29, MAYUR 1.10, MPS 1.09 remain WATCH; every Stage-3 exclusion is still below 1.0). (2) <b>Seven names added</b>, all excluded: MACPOWER, TVSSRICHAK, CFF and PANAMAPET at Stage 2; SHREEPUSHK, JGCHEM and WABAG on price. For these seven the callable-debt share (U3) was <b>not extracted</b> this run; under Lynch's rule an unmeasured test is recorded as IE and does not exclude. Categories are my classification from each name&rsquo;s profile. (3) Company events since 9-Sep that touch a test but do not change a verdict: KMEW (first Q1 call; promoter 49.99%), NRB (pledge cut to 3.10%), INTERARCH (income-tax block assessment), UNIMECH (late senior-management disclosures), EPL (Blackstone exit), ORIANA (~&#8377;540cr of guarantees) &mdash; see each profile&rsquo;s &ldquo;Changes since baseline&rdquo; dropdown.</div><div class="note"><b>Refresh, 6-Oct-2026.</b> The frozen criteria were <b>not amended</b>; only the price inputs were re-read (Screener consolidated, re-read after the 6-Oct close for all 64 names). Growth rates are unchanged — no company has filed annual results since the last run. <b>One verdict flipped: MPS, WATCH &rarr; EXCLUDED, on a price ratio of 0.96 against the 1.0 gate.</b> Its P/E barely moved (24.9 &rarr; 24.9); the change is the dividend yield, which Screener now reports as <b>0.00% against 3.11% before</b>. That is a correction, not a cut: the 3.11% was a trailing figure, and <b>MPS paid nothing in FY26</b> after the board suspended the dividend to fund the Unbound Medicine acquisition (payout 108% FY24 &rarr; 95% FY25 &rarr; 0% FY26), which the MPS profile flagged on 2-Sep. Verified at Screener and against the profile; no other name&rsquo;s yield moved more than 0.3pp. <b>EIL and MAYUR are now the only names on WATCH</b> (1.08 and 1.08). ATLANTAELE&rsquo;s ratio fell 1.63 &rarr; 1.46, but the price gate is not its live test — it is excluded at Stage 2 on the growth ceiling, and a price move cannot rescue a Stage-1 or Stage-2 exclusion. Company events since 19-Sep that touch a test without changing a verdict: <b>DEE</b> shareholders approved conversion of consortium debt into equity on an event of default (debt test), <b>WHEELS</b> raised &#8377;250cr by QIP, <b>ANUPAM</b> carries the guarantee and pledge behind the Bliss GVS financing, and <b>ORIANA</b> is divesting to Actis in tranches. U3 (callable-debt share) is still unextracted for the seven names added on 19-Sep and remains recorded as IE.</div><h2>Start here &mdash; how this screen works</h2>
+<p class="lede">Lynch classifies a company <b>before</b> testing it, because what counts as good news depends entirely on what kind of company it is. A low P/E is a bargain in a stalwart and a warning in a cyclical. A missing dividend is fatal in a slow grower and a positive in a fast one.</p>
+
+<div class="step"><div class="stepn">1</div><div class="stepb">
+<h3>Classify into six categories <span class="out">the first real judgement</span></h3>
+<table class="mini"><tbody>
+<tr><td class="c">C1</td><td><b>Slow grower</b> &mdash; 2&ndash;4% growth. You own it for the dividend. <i>&ldquo;Why else would you own them?&rdquo;</i></td></tr>
+<tr><td class="c">C2</td><td><b>Stalwart</b> &mdash; 10&ndash;12%. Bought for a <b>30&ndash;50% gain, then rotated</b>. Recession ballast.</td></tr>
+<tr><td class="c">C3</td><td><b>Fast grower</b> &mdash; 20&ndash;25%. <i>&ldquo;the land of the 10- to 40-baggers.&rdquo;</i> Where the tenbaggers live, and where the money is lost.</td></tr>
+<tr><td class="c">C4</td><td><b>Cyclical</b> &mdash; earnings that fall as well as rise. <i>&ldquo;It is here that the unwary stockpicker is most easily parted from his money, <b>and in stocks that he considers safe</b>.&rdquo;</i></td></tr>
+<tr><td class="c">C5</td><td><b>Turnaround</b> &mdash; <i>&ldquo;no growers&rdquo;</i>, in crisis. Largest absolute gains; least correlated with the market.</td></tr>
+<tr><td class="c">C6</td><td><b>Asset play</b> &mdash; something valuable the market has overlooked. Low risk, high gain.</td></tr>
+</tbody></table>
+<p class="ex"><b>What this watchlist turned out to be:</b> 36 fast growers, 18 cyclicals, 7 stalwarts, 1 slow grower, 2 turnarounds &mdash; and <b>zero asset plays</b>. The category Lynch rates low-risk and high-gain is entirely absent. Every name here is an earnings-growth bet, which is a concentration of <i>method</i>, invisible on a sector chart.</p>
+</div></div>
+
+<div class="step"><div class="stepn">2</div><div class="stepb">
+<h3>Six universal tests <span class="out">19 excluded</span></h3>
+<table class="mini"><tbody>
+<tr><td class="c">U1</td><td><b>Neglect</b> &mdash; <i>&ldquo;the percentage of institutional ownership. The lower the better.&rdquo;</i></td></tr>
+<tr><td class="c">U2</td><td><b>Debt quantum</b> &mdash; <i>&ldquo;companies that have no debt can't go bankrupt.&rdquo;</i></td></tr>
+<tr><td class="c">U3</td><td><b>&#128308; Debt structure</b> &mdash; is the debt <b>callable on demand</b>? <i>&ldquo;It's the kind of debt, as much as the actual amount, that separates the winners from the losers in a crisis.&rdquo;</i></td></tr>
+<tr><td class="c">U4</td><td><b>Customer concentration</b> &mdash; <i>&ldquo;25 to 50 percent of its wares to a single customer is a precarious situation.&rdquo;</i></td></tr>
+<tr><td class="c">U5</td><td><b>Diworseification</b> &mdash; acquisitions proven one at a time, or a spree?</td></tr>
+<tr><td class="c">U6</td><td><b>Capital allocation</b> &mdash; buybacks and dividends, or cash dissipated?</td></tr>
+</tbody></table>
+<p class="ex"><b>Every one of the 19 exclusions came from U3 alone.</b> See the chart below &mdash; it is the single most destructive test in this screen.</p>
+</div></div>
+
+<div class="step"><div class="stepn">3</div><div class="stepb">
+<h3>Category-specific tests <span class="out">23 excluded &middot; 6 abstained</span></h3>
+<p>Each category is judged on its own terms. The two that did the work here:</p>
+<table class="mini"><tbody>
+<tr><td class="c">C3</td><td><b>The 25% ceiling.</b> <i>&ldquo;I'm wary of companies that seem to be growing faster than 25 percent. <b>Those 50 percenters usually are found in hot industries, and you know what that means.</b>&rdquo;</i> &mdash; six names excluded on this alone, and MACPOWER and CFF now join them</td></tr>
+<tr><td class="c">C4</td><td><b>&#128308; The inverted P/E.</b> <i>&ldquo;Anticipate a shrinking p/e multiple as business recovers, when peak earnings are achieved.&rdquo;</i> &mdash; <b>a low multiple on peak earnings is a sell signal, not a bargain</b></td></tr>
+</tbody></table>
+<p class="ex"><b>ABSTAIN is not a failure.</b> Six names lack the published history to be judged at all. Lynch permits deciding on incomplete information &mdash; <i>&ldquo;the scientific mind that needs to know all the data will be thwarted here&rdquo;</i> &mdash; so these are recorded as <b>my</b> failure to establish the facts, not as a defect of the company.</p>
+</div></div>
+
+<div class="step"><div class="stepn">4</div><div class="stepb">
+<h3>Price <span class="out">13 excluded</span></h3>
+<p>One formula, and it is the book's central one:</p>
+<p class="ex" style="font-size:15px"><b>(earnings growth rate + dividend yield) &divide; P/E</b><br>
+<i>&ldquo;Less than a 1 is poor, and 1.5 is okay, but what you're really looking for is a <b>2 or better</b>.&rdquo;</i></p>
+<p style="margin-top:10px">With two refusals attached, so the test cannot be misused: <i>&ldquo;<b>buying a company with mediocre prospects just because the stock is cheap is a losing technique</b>&rdquo;</i> and <i>&ldquo;<b>selling an outstanding fast grower because its stock seems slightly overpriced is a losing technique</b>.&rdquo;</i></p>
+</div></div>
+
+<h2>The funnel</h2>
+<div class="card"><div class="scroll">
+<svg viewBox="0 0 1000 200" width="100%" height="200" role="img" aria-label="Funnel: 64 to 45 to 16 to 2">
+<defs><linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#1a7f4b"/><stop offset="1" stop-color="#14532d"/></linearGradient></defs>
+<rect x="22" y="63" width="196" height="98" rx="6" fill="url(#g1)" opacity="0.58"/><text x="120" y="120" text-anchor="middle" font-size="29" font-weight="700" fill="#fff">64</text><text x="120" y="54" text-anchor="middle" font-size="12.5" fill="#5b6670">Universe</text><path d="M224 112 l13 0 m-5 -5 l5 5 l-5 5" stroke="#9aa7b4" stroke-width="1.6" fill="none" stroke-linecap="round"/><rect x="246" y="75" width="196" height="74" rx="6" fill="url(#g1)" opacity="0.72"/><text x="344" y="120" text-anchor="middle" font-size="29" font-weight="700" fill="#fff">45</text><text x="344" y="66" text-anchor="middle" font-size="12.5" fill="#5b6670">after 6 universal tests</text><text x="344" y="168" text-anchor="middle" font-size="12" font-weight="700" fill="#b3261e">−19</text><path d="M448 112 l13 0 m-5 -5 l5 5 l-5 5" stroke="#9aa7b4" stroke-width="1.6" fill="none" stroke-linecap="round"/><rect x="470" y="91" width="196" height="42" rx="6" fill="url(#g1)" opacity="0.86"/><text x="568" y="120" text-anchor="middle" font-size="29" font-weight="700" fill="#fff">16</text><text x="568" y="82" text-anchor="middle" font-size="12.5" fill="#5b6670">after category tests</text><text x="568" y="152" text-anchor="middle" font-size="12" font-weight="700" fill="#b3261e">−23 · 6 abstain</text><path d="M672 112 l13 0 m-5 -5 l5 5 l-5 5" stroke="#9aa7b4" stroke-width="1.6" fill="none" stroke-linecap="round"/><rect x="694" y="98" width="196" height="29" rx="6" fill="#b8860b" opacity="1.00"/><text x="792" y="120" text-anchor="middle" font-size="29" font-weight="700" fill="#fff">2</text><text x="792" y="88" text-anchor="middle" font-size="12.5" fill="#5b6670">on WATCH</text><text x="792" y="146" text-anchor="middle" font-size="12" font-weight="700" fill="#b3261e">−14</text>
+</svg></div></div>
+
+<h2>&#128308; The result, in one chart</h2>
+<p class="lede">Every name with both a growth rate and a price ratio. <b>The shaded box is what Lynch actually wants</b> &mdash; earnings growing 15&ndash;25% at a price below the growth rate. Note where the names are, and are not.</p>
+<div class="card"><div class="scroll"><svg id="scat" width="100%" role="img" aria-label="Growth rate versus price ratio"></svg></div>
+<div class="legend">
+<span><i style="background:#8b6f47"></i>Slow grower</span><span><i style="background:#2E75B6"></i>Stalwart</span>
+<span><i style="background:#1a7f4b"></i>Fast grower</span><span><i style="background:#b3261e"></i>Cyclical</span>
+<span><i style="background:#7b3fa0"></i>Turnaround</span><span>&#9711; hollow = <b>cyclical at peak earnings</b></span></div>
+<p class="cnt">Growth is the 5-year earnings CAGR (10-year where 5 is unavailable). Price ratio is (growth + yield) &divide; P/E. 40 of 64 names have both.</p></div>
+
+<div class="note"><b>The two halves of the finding.</b>
+<ul class="tight">
+<li><b>The well-behaved growers are too expensive.</b> Six names sit in Lynch's 15&ndash;25% band &mdash; <b>ANTHEM, CARYSIL, GARWARE, SANSERA, SHREEPUSHK and JGCHEM</b> &mdash; and all six fail the price gate, at 0.19, 0.69, 0.55, 0.34, 0.88 and 0.76.</li>
+<li><b>The cheap names are cyclicals at the top.</b> Seven of the nine names clearing the gate are cyclicals whose latest earnings are <b>within 10% of their all-time peak</b> (the other two, ATLANTAELE and CFF, are fast growers past the 35% ceiling; PANAMAPET is the new one, at a 5.9x P/E on windfall earnings). Their ratios look wonderful <b>because the E is temporarily high</b>. A conventional low-P/E screen buys every one of them.</li>
+<li><b>The ideal box is not empty &mdash; it holds exactly two names, and both are disqualified by what kind of company they are.</b> <b>DEEP</b> is a cyclical at its peak; <b>NLC</b> carries a D/E of 130%. Neither fails on growth or on price.</li>
+</ul></div>
+
+<h2>&#128308; Why 19 names died on one test</h2>
+<p class="lede">U3 asks a single question: <b>if a lender got nervous tomorrow, could it demand its money back?</b> Lynch's controlled pair &mdash; GCA, carrying $114m of <i>bank</i> debt, <i>&ldquo;went kaput and was bought out at about 10 cents a share&rdquo;</i>, while Applied Materials with $17m of debt and $36m of cash went $8 to $36. <i>&ldquo;The debt burden was the difference.&rdquo;</i></p>
+<div class="card"><div class="scroll"><svg id="callbar" width="100%" role="img" aria-label="Share of borrowings repayable on demand"></svg></div>
+<p class="cnt">Share of total borrowings sitting in <b>current</b> (callable) liabilities, read from each company's FY26 balance sheet. 25 annual reports downloaded and parsed; two hand-verified against the source statements before anything was built on the numbers.</p></div>
+
+<div class="note"><b>But read this as a finding about India, not about any one company.</b> Indian mid-caps finance themselves on cash credit, packing credit and working-capital demand loans &mdash; renewed annually, and in law repayable on demand. Lynch's test is not calibrated for that market, and applying it honestly fails four-fifths of the names that carry debt. <b>The counter-argument deserves stating: in practice these limits are sticky and are rarely pulled from a going concern.</b> But his point is precisely about what happens when a company stops being a comfortable credit &mdash; and the frozen criterion excludes on this test alone. It was applied as written rather than softened after the damage was visible.</div>
+
+<h2>The two survivors <span class="n">&middot; both WATCH, neither a BUY</span></h2>
+<div class="grid3" id="survivors"></div>
+<div class="note"><b>Both are stalwarts, both are effectively debt-free, and both are growing faster over three years than over ten.</b> <i>(MPS was the third until 6-Oct-2026, when its price ratio fell to 0.96 as the dividend yield corrected to zero &mdash; see the refresh note above.)</i> None is cheap enough. They become buys at a price ratio of 1.5 &mdash; <b>MAYUR at a P/E of 11.5 (-24%)</b>; <b>EIL at a P/E of 16.2 (-28%)</b>; <b>MAYUR at a P/E of 11.4 (-28%)</b> &mdash; recomputed on 6-Oct-2026 (close) prices<i>&ldquo;If you have a list of companies that you'd like to own if only the stock price were reduced, the end of the year is a likely time to find the deals you've been waiting for.&rdquo;</i></div>
+
+<h2>Every name <span class="n">&middot; 64</span></h2>
+<div class="filters">
+<button class="fbtn" data-f="all" aria-pressed="true">All 64</button>
+<button class="fbtn" data-f="WATCH" aria-pressed="false">Watch (2)</button>
+<button class="fbtn" data-f="ABSTAIN" aria-pressed="false">Abstain (6)</button>
+<button class="fbtn" data-f="S1" aria-pressed="false">Debt structure (19)</button>
+<button class="fbtn" data-f="S2" aria-pressed="false">Category (23)</button>
+<button class="fbtn" data-f="S3" aria-pressed="false">Price (13)</button>
+<button class="fbtn" data-f="C3" aria-pressed="false">Fast growers</button>
+<button class="fbtn" data-f="C4" aria-pressed="false">Cyclicals</button>
+<button class="fbtn" data-f="held" aria-pressed="false">&#9733; Held</button>
+<input id="q" type="search" placeholder="Search name or reason&hellip;" aria-label="Search">
+</div>
+<div class="card" style="padding:0;overflow:hidden"><div class="scroll" style="max-height:620px;overflow-y:auto">
+<table><thead><tr>
+<th>Company</th><th>Cat</th><th>Verdict</th><th>Where it stopped</th>
+<th class="num">Growth</th><th class="num">P/E</th><th class="num">Price ratio</th><th class="num">Callable</th>
+</tr></thead><tbody id="tb"></tbody></table></div></div>
+<p class="cnt" id="count"></p>
+
+<h2>Disagreement report</h2>
+<div class="note"><b>The prediction held.</b> Before this screen ran I recorded: <i>&ldquo;Lynch should resurrect names Fisher killed and reject names Fisher liked. If both screens return the same shortlist, one of the two implementations is wrong.&rdquo;</i>
+<ul class="tight">
+<li><b>The two frameworks agree on exactly one name out of 57 &mdash; MPS.</b></li>
+<li><b>EPL</b> and <b>TRANSRAILL</b> were Fisher survivors. Lynch excludes both &mdash; EPL on price, Transrail because <b>&#8377;571 of every &#8377;659 it borrows is repayable on demand.</b></li>
+<li><b>EIL</b> was excluded by Fisher for a shrinking order book. Lynch puts it on WATCH.</li>
+<li>Neither is wrong. They are asking different questions of the same companies.</li>
+</ul></div>
+<div class="note corr"><b>Against the book &mdash; 4 of 6 disclosed holdings excluded, but mostly on price.</b>
+<ul class="tight">
+<li><b>MAYUR</b> is one of the three survivors. <b>DCMSHRIRAM</b> is the only holding correctly positioned in its cycle &mdash; a cyclical trading off-peak.</li>
+<li><b>GARWARE (0.53) and EPL (0.57) are excluded on price alone</b>, on businesses the framework otherwise likes. Lynch's own instruction cuts both ways here: <i>&ldquo;<b>selling an outstanding fast grower because its stock seems slightly overpriced is a losing technique</b>.&rdquo;</i> <b>This is not a sell signal</b> &mdash; only a statement about where he would add.</li>
+<li><b>DATAMATICS</b> &mdash; growth stalled: <b>1.8% over three years against 13.4% over ten</b>, which is one of his named sell signs.</li>
+<li><b>DEEP is the one worth pausing on.</b> Both frameworks reject it by unrelated routes &mdash; Fisher on two consecutive Q4 write-offs, Lynch because <b>an oil-services company at peak earnings on 12.6&times; is a cyclical at the top, not a cheap stock.</b></li>
+</ul></div>
+
+<h2>What this screen does not claim</h2>
+<div class="card"><ul class="tight" style="margin-top:0">
+<li><b>U4, U5 and U6 are incomplete.</b> Three customer-concentration failures were established on evidence &mdash; SSWL's Hyundai at <b>74%</b>, Concord's Indian Railways, Rajesh's Gujarat utilities &mdash; and one pass. The rest is IE, so <b>no survivor has been cleared on customer concentration.</b></li>
+<li><b>The rollout test and the one-shot fragility test were never reached</b> for most fast growers, because the growth band or the price gate excluded them first. Those names are excluded on what <i>was</i> tested.</li>
+<li><b>Insider buying is IE throughout</b>, as pre-registered &mdash; Indian disclosure gives aggregate promoter holding, not the <i>&ldquo;seven vice presidents buying 1,000 shares apiece&rdquo;</i> granularity Lynch wants.</li>
+<li><b>&#128308; Blinding was imperfect, and more so than in the Fisher run</b> &mdash; the holdings list was already in context, <b>and the Fisher result was known before this screen ran</b>, a contamination Fisher did not carry. The mitigation is that the criteria were frozen first and the decisive tests are arithmetic. It is a real limitation.</li>
+<li><b>&#128308; Three parse failures were caught mid-run and two changed a verdict.</b> A first extractor returned KMEW at &minus;24,444,108. A second <b>captured note references as values and wrongly excluded DCMSHRIRAM</b>. Plotting the data for this page exposed a third: <b>NLC was in the wrong category</b>, sitting inside the ideal zone where no slow grower can be. <i>A parse that looks right is not a parse that has been checked &mdash; and a chart catches what a table hides.</i></li>
+</ul></div>
+
+<p class="foot">Sources: <code>SCREEN_CRITERIA.md</code> (frozen 9-Sep-2026) &middot; <code>CHAIN_STATE.md</code> (20-chapter chain read) &middot; <code>PHILOSOPHY.md</code> &middot; <code>CLASSIFICATION.md</code> &middot; <code>STAGE1.md</code> &middot; <code>PORTFOLIO_LYNCH.md</code>.<br>
+Financials from Screener consolidated pages, 9-Sep-2026, every page verified by company-name echo. Debt structure from 25 FY26 annual reports. Standalone artefact &mdash; not wired to the main dashboard or the deploy repo.</p>
+</div>
+
+<script>
+const D=[{"id":"oriana","name":"Oriana Power Ltd","cat":"C3","verdict":"EXCLUDED","stage":"S1","why":"Debt structure \u2014 60% of borrowings repayable on demand","pe":12.2,"dy":0.0,"g5":202.19001355856352,"g10":null,"peg":16.5729519310298,"peak":false,"inst":1,"de":67,"call":60,"held":false,"fisher":null,"mcap":3081.0,"maxdd":0},{"id":"rajesh","name":"Rajesh Power Services Ltd","cat":"C3","verdict":"EXCLUDED","stage":"S1","why":"Debt structure \u2014 64% of borrowings repayable on demand","pe":9.47,"dy":0.14,"g5":null,"g10":null,"peg":null,"peak":false,"inst":4,"de":31,"call":64,"held":false,"fisher":null,"mcap":1360.0,"maxdd":0},{"id":"kmew","name":"Knowledge Marine & Engineering Works Ltd","cat":"C3","verdict":"EXCLUDED","stage":"S1","why":"Debt structure \u2014 51% of borrowings repayable on demand","pe":62.6,"dy":0.0,"g5":62.370007318245,"g10":72.66463162157244,"peg":0.9963259954991214,"peak":false,"inst":17,"de":39,"call":51,"held":false,"fisher":null,"mcap":8112.0,"maxdd":35},{"id":"sathlokhar","name":"Sathlokhar Synergys E&C Global Ltd","cat":"C3","verdict":"EXCLUDED","stage":"S1","why":"Debt structure \u2014 99% of borrowings repayable on demand","pe":9.72,"dy":0.0,"g5":141.4141770603736,"g10":null,"peg":14.548783648186582,"peak":false,"inst":2,"de":25,"call":99,"held":false,"fisher":null,"mcap":998.0,"maxdd":50},{"id":"nlc","name":"NLC India Ltd","cat":"C2","verdict":"EXCLUDED","stage":"S2","why":"Balance sheet \u2014 D/E 130%. Passes the price gate at 2.05 and the stalwart growth test, but fails on debt quantum. \u2934 Reclassified C1\u2192C2 (10-yr growth 8.2% is the stalwart band).","pe":11.0,"dy":1.51,"g5":22.885536708613287,"g10":8.224218682336804,"peg":2.21777606441939,"peak":true,"inst":18,"de":130,"call":null,"held":false,"fisher":null,"mcap":35332.0,"maxdd":96,"g":22.885536708613287},{"id":"gmdc","name":"Gujarat Mineral Development Corporation Ltd","cat":"C4","verdict":"EXCLUDED","stage":"S2","why":"Cyclical, off-peak but not cheap at 31.7x","pe":27.5,"dy":1.92,"g5":null,"g10":6.060141228030669,"peg":0.2519354838709677,"peak":false,"inst":4,"de":4,"call":null,"held":false,"fisher":null,"mcap":15687.0,"maxdd":107,"g":6.060141228030669},{"id":"gpil","name":"Godawari Power & Ispat Ltd","cat":"C4","verdict":"EXCLUDED","stage":"S3","why":"Price gate \u2014 (growth + yield) / P/E below 1.0","pe":18.0,"dy":0.46,"g5":4.132576405142552,"g10":24.65785169047465,"peg":0.2551431336190306,"peak":false,"inst":9,"de":8,"call":null,"held":false,"fisher":null,"mcap":14776.0,"maxdd":241,"g":4.132576405142552},{"id":"ecl","name":"Electrosteel Castings Ltd","cat":"C4","verdict":"EXCLUDED","stage":"S1","why":"Debt structure \u2014 83% of borrowings repayable on demand","pe":30.9,"dy":1.13,"g5":null,"g10":null,"peg":null,"peak":false,"inst":13,"de":26,"call":83,"held":false,"fisher":null,"mcap":4916.0,"maxdd":157},{"id":"kolte","name":"Kolte Patil Developers Ltd","cat":"C4","verdict":"EXCLUDED","stage":"S1","why":"Debt structure \u2014 100% of borrowings repayable on demand","pe":31.1,"dy":0.0,"g5":null,"g10":null,"peg":null,"peak":false,"inst":14,"de":98,"call":100,"held":false,"fisher":null,"mcap":3867.0,"maxdd":144},{"id":"garware","name":"Garware Hi Tech Films Ltd","cat":"C3","verdict":"EXCLUDED","stage":"S3","why":"Price gate \u2014 (growth + yield) / P/E below 1.0","pe":42.5,"dy":0.17,"g5":21.817373380325257,"g10":30.552693355690643,"peg":0.5173499618900061,"peak":true,"inst":11,"de":0,"call":null,"held":true,"fisher":null,"mcap":16468.0,"maxdd":11,"g":21.817373380325257},{"id":"haldyn","name":"Haldyn Glass Ltd","cat":"C4","verdict":"EXCLUDED","stage":"S2","why":"Cyclical at peak earnings","pe":24.8,"dy":0.49,"g5":28.993668421168973,"g10":13.575379559642652,"peg":1.188857597627781,"peak":true,"inst":2,"de":50,"call":43,"held":false,"fisher":null,"mcap":771.0,"maxdd":100,"g":28.993668421168973},{"id":"care","name":"CARE Ratings Ltd","cat":"C2","verdict":"EXCLUDED","stage":"S3","why":"Price gate \u2014 (growth + yield) / P/E below 1.0","pe":26.8,"dy":1.39,"g5":13.841752096011085,"g10":2.129647489036901,"peg":0.5683489588063838,"peak":true,"inst":55,"de":3,"call":null,"held":false,"fisher":null,"mcap":4763.0,"maxdd":52,"g":13.841752096011085},{"id":"monarch","name":"Monarch Networth Capital Ltd","cat":"C4","verdict":"EXCLUDED","stage":"S2","why":"Cyclical at peak earnings \u2014 PEG 3.00 is measuring the peak","pe":15.1,"dy":0.29,"g5":49.79367184593164,"g10":41.41998287632616,"peg":3.316799459995473,"peak":true,"inst":3,"de":4,"call":null,"held":false,"fisher":null,"mcap":2731.0,"maxdd":100,"g":49.79367184593164},{"id":"obsc","name":"OBSC Perfection Ltd","cat":"C3","verdict":"EXCLUDED","stage":"S1","why":"Debt structure \u2014 58% of borrowings repayable on demand","pe":72.3,"dy":0.0,"g5":null,"g10":null,"peg":null,"peak":false,"inst":2,"de":40,"call":58,"held":false,"fisher":null,"mcap":2274.0,"maxdd":0},{"id":"sunita","name":"Sunita Tools Ltd","cat":"C3","verdict":"EXCLUDED","stage":"S1","why":"Debt structure \u2014 74% of borrowings repayable on demand","pe":106.0,"dy":0.0,"g5":null,"g10":null,"peg":null,"peak":false,"inst":1,"de":61,"call":74,"held":false,"fisher":null,"mcap":674.0,"maxdd":0},{"id":"yash","name":"Yash Highvoltage Ltd","cat":"C3","verdict":"ABSTAIN","stage":"S2","why":"Insufficient published history to test (2 years) \u2014 recorded as my failure to establish the facts, not as a defect of the company","pe":93.0,"dy":0.12,"g5":null,"g10":null,"peg":null,"peak":true,"inst":11,"de":21,"call":null,"held":false,"fisher":null,"mcap":3616.0,"maxdd":0},{"id":"paras","name":"Paras Defence and Space Technologies Ltd","cat":"C3","verdict":"EXCLUDED","stage":"S2","why":"Growing 40.9% \u2014 past the 25% ceiling","pe":115.0,"dy":0.08,"g5":40.946405528565364,"g10":24.682413617779964,"peg":0.3567513524223075,"peak":true,"inst":11,"de":4,"call":null,"held":false,"fisher":null,"mcap":10671.0,"maxdd":20,"g":40.946405528565364},{"id":"azad","name":"Azad Engineering Ltd","cat":"C3","verdict":"EXCLUDED","stage":"S2","why":"Growing 62.0% \u2014 far past the 25% ceiling","pe":142.0,"dy":0.0,"g5":62.02599997389526,"g10":null,"peg":0.43680281671757226,"peak":true,"inst":24,"de":31,"call":38,"held":false,"fisher":null,"mcap":19767.0,"maxdd":72,"g":62.02599997389526},{"id":"axiscades","name":"AXISCADES Technologies Ltd","cat":"C5","verdict":"EXCLUDED","stage":"S1","why":"Debt structure \u2014 73% of borrowings repayable on demand","pe":297.0,"dy":0.0,"g5":null,"g10":12.349968402959565,"peg":null,"peak":false,"inst":3,"de":53,"call":73,"held":false,"fisher":null,"mcap":9751.0,"maxdd":170},{"id":"dynamatic","name":"Dynamatic Technologies Ltd","cat":"C4","verdict":"EXCLUDED","stage":"S1","why":"Debt structure \u2014 50.2% of borrowings repayable on demand","pe":166.0,"dy":0.07,"g5":null,"g10":0.8989260419574041,"peg":null,"peak":false,"inst":26,"de":80,"call":50.2,"held":false,"fisher":null,"mcap":9712.0,"maxdd":156},{"id":"dee","name":"DEE Development Engineers Ltd","cat":"C3","verdict":"EXCLUDED","stage":"S1","why":"Debt structure \u2014 81% of borrowings repayable on demand","pe":59.8,"dy":0.16,"g5":40.62823883876352,"g10":null,"peg":0.6820775725545739,"peak":false,"inst":19,"de":87,"call":81,"held":false,"fisher":null,"mcap":4903.0,"maxdd":43},{"id":"happy","name":"Happy Forgings Ltd","cat":"C3","verdict":"EXCLUDED","stage":"S3","why":"Price gate \u2014 (growth + yield) / P/E below 1.0","pe":57.7,"dy":0.2,"g5":28.55876695906938,"g10":null,"peg":0.49841883811212095,"peak":true,"inst":17,"de":16,"call":null,"held":false,"fisher":null,"mcap":18880.0,"maxdd":0,"g":28.55876695906938},{"id":"sansera","name":"Sansera Engineering Ltd","cat":"C3","verdict":"EXCLUDED","stage":"S3","why":"Price gate \u2014 (growth + yield) / P/E below 1.0","pe":70.9,"dy":0.09,"g5":24.345769282033647,"g10":18.78462735218416,"peg":0.3446511887451854,"peak":true,"inst":53,"de":19,"call":null,"held":false,"fisher":null,"mcap":26393.0,"maxdd":18,"g":24.345769282033647},{"id":"morepen","name":"Morepen Laboratories Ltd","cat":"C3","verdict":"EXCLUDED","stage":"S3","why":"Price gate \u2014 (growth + yield) / P/E below 1.0","pe":67.1,"dy":0.14,"g5":-0.20704111430143168,"g10":42.18052466148239,"peg":-0.0009991224187992798,"peak":false,"inst":3,"de":17,"call":null,"held":false,"fisher":null,"mcap":7876.0,"maxdd":62,"g":-0.20704111430143168},{"id":"shreerefr","name":"Shree Refrigerations Ltd","cat":"C3","verdict":"ABSTAIN","stage":"S2","why":"Insufficient published history \u2014 recorded as my failure to establish the facts, not as a defect of the company","pe":64.3,"dy":0.0,"g5":null,"g10":null,"peg":null,"peak":true,"inst":9,"de":17,"call":null,"held":false,"fisher":null,"mcap":1383.0,"maxdd":0},{"id":"rossell","name":"Rossell Techsys Ltd","cat":"C3","verdict":"EXCLUDED","stage":"S1","why":"Debt structure \u2014 95% of borrowings repayable on demand","pe":230.0,"dy":0.02,"g5":null,"g10":null,"peg":null,"peak":false,"inst":2,"de":264,"call":95,"held":false,"fisher":null,"mcap":6086.0,"maxdd":27},{"id":"ssw","name":"Steel Strips Wheels Ltd","cat":"C4","verdict":"EXCLUDED","stage":"S1","why":"Debt structure \u2014 67% of borrowings repayable on demand","pe":31.4,"dy":0.35,"g5":null,"g10":null,"peg":null,"peak":false,"inst":12,"de":46,"call":67,"held":false,"fisher":null,"mcap":6681.0,"maxdd":72},{"id":"wheels","name":"Wheels India Ltd","cat":"C4","verdict":"EXCLUDED","stage":"S2","why":"Cyclical at peak earnings","pe":37.6,"dy":0.63,"g5":null,"g10":14.442496471565436,"peg":0.4633846153846154,"peak":true,"inst":8,"de":74,"call":null,"held":false,"fisher":null,"mcap":6144.0,"maxdd":100,"g":14.442496471565436},{"id":"accent","name":"Accent Microcell Ltd","cat":"C3","verdict":"EXCLUDED","stage":"S2","why":"Growing 54.5% \u2014 \"those 50 percenters usually are found in hot industries\"","pe":36.2,"dy":0.15,"g5":54.48863446289454,"g10":40.85438884286994,"peg":1.5093545431738822,"peak":true,"inst":4,"de":0,"call":null,"held":false,"fisher":null,"mcap":1586.0,"maxdd":0,"g":54.48863446289454},{"id":"anupam","name":"Anupam Rasayan India Ltd","cat":"C3","verdict":"EXCLUDED","stage":"S1","why":"Debt structure \u2014 72% of borrowings repayable on demand","pe":75.4,"dy":0.13,"g5":25.965317856245605,"g10":24.08997561051345,"peg":0.34609174875657295,"peak":false,"inst":8,"de":56,"call":72,"held":false,"fisher":null,"mcap":13179.0,"maxdd":26},{"id":"astec","name":"Astec Lifesciences Ltd","cat":"C5","verdict":"EXCLUDED","stage":"S1","why":"Debt structure \u2014 89% of borrowings repayable on demand","pe":null,"dy":0.0,"g5":null,"g10":null,"peg":null,"peak":false,"inst":3,"de":115,"call":89,"held":false,"fisher":null,"mcap":1570.0,"maxdd":250},{"id":"epl","name":"EPL Ltd","cat":"C2","verdict":"EXCLUDED","stage":"S3","why":"Price gate \u2014 (growth + yield) / P/E below 1.0","pe":18.5,"dy":1.05,"g5":10.05791451014506,"g10":9.513132534369229,"peg":0.6004278113591925,"peak":true,"inst":28,"de":34,"call":46,"held":true,"fisher":"survivor rung 2","mcap":7607.0,"maxdd":14,"g":10.05791451014506},{"id":"aimtron","name":"Aimtron Electronics Ltd","cat":"C3","verdict":"ABSTAIN","stage":"S2","why":"Insufficient published history (3 years) \u2014 recorded as my failure to establish the facts, not as a defect of the company","pe":88.0,"dy":0.0,"g5":null,"g10":null,"peg":null,"peak":true,"inst":3,"de":23,"call":null,"held":false,"fisher":null,"mcap":4044.0,"maxdd":0},{"id":"concordcs","name":"Concord Control Systems Ltd","cat":"C3","verdict":"EXCLUDED","stage":"S1","why":"Debt structure \u2014 75% of borrowings repayable on demand","pe":60.0,"dy":0.0,"g5":110.16324782757847,"g10":null,"peg":1.8360541304596412,"peak":false,"inst":1,"de":26,"call":75,"held":false,"fisher":null,"mcap":2528.0,"maxdd":0},{"id":"avalon","name":"Avalon Technologies Ltd","cat":"C3","verdict":"EXCLUDED","stage":"S1","why":"Debt structure \u2014 94% of borrowings repayable on demand","pe":120.0,"dy":0.0,"g5":37.489686434557235,"g10":null,"peg":0.3124140536213103,"peak":false,"inst":33,"de":30,"call":94,"held":false,"fisher":null,"mcap":16062.0,"maxdd":58},{"id":"syrma","name":"Syrma SGS Technology Ltd","cat":"C3","verdict":"EXCLUDED","stage":"S2","why":"Growing 38.1% \u2014 past the 25% ceiling","pe":87.5,"dy":0.09,"g5":38.05285789982169,"g10":null,"peg":0.4359183759979622,"peak":true,"inst":23,"de":14,"call":null,"held":false,"fisher":null,"mcap":32495.0,"maxdd":25,"g":38.05285789982169},{"id":"netweb","name":"Netweb Technologies India Ltd","cat":"C3","verdict":"EXCLUDED","stage":"S1","why":"Debt structure \u2014 100% of borrowings repayable on demand","pe":109.0,"dy":0.06,"g5":91.49412157438465,"g10":82.97522118102141,"peg":0.8399460694897675,"peak":false,"inst":15,"de":39,"call":100,"held":false,"fisher":null,"mcap":28419.0,"maxdd":0},{"id":"aurion","name":"Aurionpro Solutions Ltd","cat":"C3","verdict":"ABSTAIN","stage":"S2","why":"Insufficient published history post-recovery \u2014 recorded as my failure to establish the facts, not as a defect of the company","pe":16.2,"dy":0.65,"g5":null,"g10":null,"peg":null,"peak":true,"inst":17,"de":4,"call":null,"held":false,"fisher":null,"mcap":3402.0,"maxdd":268},{"id":"mps","name":"MPS Ltd","cat":"C2","verdict":"EXCLUDED","stage":"S3","why":"Price gate \u2014 (growth + yield) / P/E is 0.97, below the 1.0 floor","pe":24.9,"dy":0.0,"g5":24.00489195867632,"g10":9.940073854076935,"peg":0.9640518858906154,"peak":true,"inst":4,"de":10,"call":null,"held":false,"fisher":"survivor rung 1","mcap":4556.0,"maxdd":22,"g":24.00489195867632},{"id":"datamatics","name":"Datamatics Global Services Ltd","cat":"C2","verdict":"EXCLUDED","stage":"S2","why":"Stalwart whose growth stalled \u2014 1.8% over three years vs 13.4% over ten","pe":17.9,"dy":0.65,"g5":18.345313666193498,"g10":13.37851791111353,"peg":1.0611907076085754,"peak":true,"inst":1,"de":14,"call":null,"held":true,"fisher":null,"mcap":4554.0,"maxdd":26,"g":18.345313666193498},{"id":"dcmshriram","name":"DCM Shriram Ltd","cat":"C4","verdict":"EXCLUDED","stage":"S3","why":"Price gate \u2014 (growth + yield) / P/E below 1.0","pe":11.2,"dy":1.13,"g5":4.896928953922908,"g10":13.576928317856328,"peg":0.5381186566002596,"peak":false,"inst":12,"de":38,"call":43,"held":true,"fisher":null,"mcap":15303.0,"maxdd":58,"g":4.896928953922908},{"id":"mayur","name":"Mayur Uniquoters Ltd","cat":"C2","verdict":"WATCH","stage":"S3","why":"Good business, fair price \u2014 not the bargain Lynch requires","pe":15.9,"dy":0.79,"g5":16.36215183053762,"g10":9.567322863774908,"peg":1.0787516874551961,"peak":true,"inst":8,"de":1,"call":null,"held":true,"fisher":"near-miss","mcap":3290.0,"maxdd":18,"g":16.36215183053762},{"id":"insecticides","name":"Insecticides India Ltd","cat":"C4","verdict":"EXCLUDED","stage":"S2","why":"Cyclical at peak earnings","pe":13.6,"dy":0.34,"g5":8.137765007893115,"g10":8.793948070670222,"peg":0.6233650741097879,"peak":true,"inst":14,"de":13,"call":null,"held":false,"fisher":"near-miss","mcap":1709.0,"maxdd":49,"g":8.137765007893115},{"id":"eil","name":"Engineers India Ltd","cat":"C2","verdict":"WATCH","stage":"S3","why":"Good business, fair price \u2014 not the bargain Lynch requires","pe":22.4,"dy":1.6,"g5":22.68214183638726,"g10":7.479044308956717,"peg":1.0840241891244313,"peak":true,"inst":23,"de":1,"call":null,"held":false,"fisher":"excluded (D3.9)","mcap":17606.0,"maxdd":67,"g":22.68214183638726},{"id":"diacabs","name":"Diamond Power Infrastructure Ltd","cat":"C3","verdict":"ABSTAIN","stage":"S2","why":"Post-insolvency restart \u2014 no comparable record to test \u2014 recorded as my failure to establish the facts, not as a defect of the company","pe":112.0,"dy":0.0,"g5":null,"g10":8.896383155114052,"peg":0.07946428571428572,"peak":true,"inst":16,"de":null,"call":null,"held":false,"fisher":null,"mcap":22027.0,"maxdd":739,"g":8.896383155114052},{"id":"carysil","name":"Carysil Ltd","cat":"C3","verdict":"EXCLUDED","stage":"S3","why":"Price gate \u2014 (growth + yield) / P/E below 1.0","pe":27.4,"dy":0.29,"g5":20.479766598839678,"g10":24.357522791237084,"peg":0.7580206787897693,"peak":true,"inst":14,"de":46,"call":8,"held":false,"fisher":null,"mcap":2944.0,"maxdd":33,"g":20.479766598839678},{"id":"transraill","name":"Transrail Lighting Ltd","cat":"C3","verdict":"EXCLUDED","stage":"S1","why":"Debt structure \u2014 87% of borrowings repayable on demand","pe":15.5,"dy":0.6,"g5":32.74893876412399,"g10":null,"peg":2.1515444363950964,"peak":false,"inst":9,"de":30,"call":87,"held":false,"fisher":"survivor rung 2","mcap":6467.0,"maxdd":36},{"id":"amic","name":"Amic Forging Ltd","cat":"C3","verdict":"EXCLUDED","stage":"S2","why":"Growing 94.7% \u2014 far past the 25% ceiling","pe":96.6,"dy":0.0,"g5":94.72943612303364,"g10":null,"peg":0.9806359847104932,"peak":false,"inst":1,"de":3,"call":null,"held":false,"fisher":null,"mcap":2945.0,"maxdd":22,"g":94.72943612303364},{"id":"deep","name":"Deep Industries Ltd","cat":"C4","verdict":"EXCLUDED","stage":"S2","why":"Cyclical at peak earnings on 12.6x \u2014 the exact trap Lynch names","pe":11.6,"dy":0.33,"g5":24.827586571794914,"g10":77.49230475990304,"peg":2.1687574630857682,"peak":true,"inst":3,"de":10,"call":null,"held":true,"fisher":null,"mcap":4801.0,"maxdd":163,"g":24.827586571794914},{"id":"concordbio","name":"Concord Biotech Ltd","cat":"C1","verdict":"EXCLUDED","stage":"S2","why":"Slow grower: 2.0% five-year earnings growth, priced at 55x","pe":51.7,"dy":0.56,"g5":1.963886380534241,"g10":null,"peg":0.04881791838557526,"peak":false,"inst":17,"de":0,"call":null,"held":false,"fisher":null,"mcap":14345.0,"maxdd":30,"g":1.963886380534241},{"id":"interarch","name":"Interarch Building Solutions Ltd","cat":"C4","verdict":"EXCLUDED","stage":"S2","why":"Cyclical at peak earnings \u2014 the PEG of 4.03 is measuring the peak","pe":20.5,"dy":0.74,"g5":86.39596365956757,"g10":52.617770200355785,"peg":4.250534812661832,"peak":true,"inst":11,"de":2,"call":null,"held":false,"fisher":null,"mcap":2804.0,"maxdd":85,"g":86.39596365956757},{"id":"nitta","name":"Nitta Gelatin India Ltd","cat":"C4","verdict":"EXCLUDED","stage":"S2","why":"Cyclical at peak earnings \u2014 PEG 2.77 is measuring the peak","pe":14.7,"dy":0.42,"g5":40.05539600684771,"g10":null,"peg":2.7534282997855586,"peak":true,"inst":1,"de":1,"call":null,"held":false,"fisher":null,"mcap":1530.0,"maxdd":58,"g":40.05539600684771},{"id":"dycl","name":"Dynamic Cables Ltd","cat":"C4","verdict":"EXCLUDED","stage":"S2","why":"Cyclical at peak earnings \u2014 PEG 2.17 is measuring the peak","pe":23.3,"dy":0.11,"g5":53.05793764919488,"g10":35.38165566025344,"peg":2.2818857360169478,"peak":true,"inst":2,"de":9,"call":null,"held":false,"fisher":null,"mcap":2123.0,"maxdd":52,"g":53.05793764919488},{"id":"nrbbearing","name":"NRB Bearings Ltd","cat":"C4","verdict":"EXCLUDED","stage":"S2","why":"Cyclical, off-peak but not cheap at 31.8x","pe":34.9,"dy":1.48,"g5":21.124770101552272,"g10":9.463418968226911,"peg":0.6477011490416125,"peak":false,"inst":33,"de":16,"call":null,"held":false,"fisher":null,"mcap":5210.0,"maxdd":70,"g":21.124770101552272},{"id":"unimech","name":"Unimech Aerospace and Manufacturing Ltd","cat":"C3","verdict":"ABSTAIN","stage":"S2","why":"Insufficient published history (5 years) \u2014 recorded as my failure to establish the facts, not as a defect of the company","pe":132.0,"dy":0.0,"g5":null,"g10":null,"peg":null,"peak":false,"inst":6,"de":17,"call":null,"held":false,"fisher":null,"mcap":9478.0,"maxdd":24},{"id":"anthem","name":"Anthem Biosciences Ltd","cat":"C3","verdict":"EXCLUDED","stage":"S3","why":"Price gate \u2014 (growth + yield) / P/E below 1.0","pe":84.5,"dy":0.23,"g5":16.915067079251745,"g10":null,"peg":0.20290020212132243,"peak":true,"inst":16,"de":2,"call":null,"held":false,"fisher":null,"mcap":50112.0,"maxdd":10,"g":16.915067079251745},{"id":"atlantaele","name":"Atlanta Electricals Ltd","cat":"C3","verdict":"EXCLUDED","stage":"S2","why":"Growing 95.9% \u2014 far past the 25% ceiling","pe":65.9,"dy":0.0,"g5":95.90732105825286,"g10":null,"peg":1.4553462983042922,"peak":true,"inst":7,"de":5,"call":null,"held":false,"fisher":null,"mcap":14398.0,"maxdd":26,"g":95.90732105825286},{"id":"macpower","name":"Macpower CNC Machines Ltd","cat":"C3","verdict":"EXCLUDED","stage":"S2","why":"Growing 42% \u2014 past the 35% fail line; also unproven rollout (one market segment) and one-shot machine sales, not repeat revenue","pe":54.1,"dy":0.07,"g5":42.0,"g10":null,"peg":0.777634011090573,"peak":true,"inst":1,"de":0,"call":null,"held":false,"fisher":null,"mcap":2091.0,"maxdd":0},{"id":"tvssrichak","name":"TVS Srichakra Ltd","cat":"C4","verdict":"EXCLUDED","stage":"S2","why":"Cyclical on the rubber-cost cycle \u2014 a 36x P/E on recovering earnings is not the low multiple on normalised earnings the test requires","pe":32.9,"dy":0.86,"g5":-2.0,"g10":null,"peg":-0.034650455927051675,"peak":false,"inst":7,"de":64,"call":null,"held":false,"fisher":null,"mcap":3373.0,"maxdd":0},{"id":"shreepushk","name":"Shree Pushkar Chemicals & Fertilizers Ltd","cat":"C3","verdict":"EXCLUDED","stage":"S3","why":"Price gate \u2014 (growth + yield) / P/E below 1.0","pe":22.7,"dy":0.41,"g5":20.0,"g10":null,"peg":0.8991189427312776,"peak":true,"inst":0,"de":21,"call":null,"held":false,"fisher":null,"mcap":1635.0,"maxdd":0},{"id":"jgchem","name":"J.G. Chemicals Ltd","cat":"C3","verdict":"EXCLUDED","stage":"S3","why":"Price gate \u2014 (growth + yield) / P/E below 1.0","pe":34.6,"dy":0.18,"g5":24.0,"g10":null,"peg":0.6988439306358382,"peak":true,"inst":6,"de":1,"call":null,"held":false,"fisher":null,"mcap":2604.0,"maxdd":0},{"id":"cff","name":"CFF Fluid Control Ltd","cat":"C3","verdict":"EXCLUDED","stage":"S2","why":"Growing 175% \u2014 far past the 25% ceiling, on essentially one customer","pe":57.8,"dy":0.12,"g5":175.0,"g10":null,"peg":3.0297577854671283,"peak":true,"inst":1,"de":8,"call":null,"held":false,"fisher":null,"mcap":2268.0,"maxdd":0},{"id":"wabag","name":"VA Tech Wabag Ltd","cat":"C3","verdict":"EXCLUDED","stage":"S3","why":"Price gate \u2014 (growth + yield) / P/E below 1.0","pe":31.5,"dy":0.25,"g5":28.0,"g10":null,"peg":0.8968253968253969,"peak":true,"inst":25,"de":9,"call":null,"held":false,"fisher":null,"mcap":12542.0,"maxdd":0},{"id":"panamapet","name":"Panama Petrochem Ltd","cat":"C4","verdict":"EXCLUDED","stage":"S2","why":"Inverted P/E \u2014 5.9x is measured on windfall earnings (Q1FY27 PAT exceeded any full year); a low multiple on peak earnings is a warning, not a bargain","pe":6.37,"dy":0.6,"g5":9.0,"g10":null,"peg":1.5070643642072212,"peak":true,"inst":12,"de":8,"call":null,"held":false,"fisher":null,"mcap":3048.0,"maxdd":0}];
+const SC=[{"id":"nlc","n":"NLC India Ltd","g":22.9,"p":2.22,"c":"C2","pk":true,"v":"EXCLUDED","h":false},{"id":"gmdc","n":"Gujarat Mineral Development Corporation Ltd","g":6.1,"p":0.25,"c":"C4","pk":false,"v":"EXCLUDED","h":false},{"id":"gpil","n":"Godawari Power & Ispat Ltd","g":4.1,"p":0.26,"c":"C4","pk":false,"v":"EXCLUDED","h":false},{"id":"garware","n":"Garware Hi Tech Films Ltd","g":21.8,"p":0.52,"c":"C3","pk":true,"v":"EXCLUDED","h":true},{"id":"haldyn","n":"Haldyn Glass Ltd","g":29.0,"p":1.19,"c":"C4","pk":true,"v":"EXCLUDED","h":false},{"id":"care","n":"CARE Ratings Ltd","g":13.8,"p":0.57,"c":"C2","pk":true,"v":"EXCLUDED","h":false},{"id":"monarch","n":"Monarch Networth Capital Ltd","g":49.8,"p":3.32,"c":"C4","pk":true,"v":"EXCLUDED","h":false},{"id":"paras","n":"Paras Defence and Space Technologies Ltd","g":40.9,"p":0.36,"c":"C3","pk":true,"v":"EXCLUDED","h":false},{"id":"azad","n":"Azad Engineering Ltd","g":62.0,"p":0.44,"c":"C3","pk":true,"v":"EXCLUDED","h":false},{"id":"happy","n":"Happy Forgings Ltd","g":28.6,"p":0.5,"c":"C3","pk":true,"v":"EXCLUDED","h":false},{"id":"sansera","n":"Sansera Engineering Ltd","g":24.3,"p":0.34,"c":"C3","pk":true,"v":"EXCLUDED","h":false},{"id":"morepen","n":"Morepen Laboratories Ltd","g":-0.2,"p":-0.0,"c":"C3","pk":false,"v":"EXCLUDED","h":false},{"id":"wheels","n":"Wheels India Ltd","g":14.4,"p":0.46,"c":"C4","pk":true,"v":"EXCLUDED","h":false},{"id":"accent","n":"Accent Microcell Ltd","g":54.5,"p":1.51,"c":"C3","pk":true,"v":"EXCLUDED","h":false},{"id":"epl","n":"EPL Ltd","g":10.1,"p":0.6,"c":"C2","pk":true,"v":"EXCLUDED","h":true},{"id":"syrma","n":"Syrma SGS Technology Ltd","g":38.1,"p":0.44,"c":"C3","pk":true,"v":"EXCLUDED","h":false},{"id":"mps","n":"MPS Ltd","g":24.0,"p":0.96,"c":"C2","pk":true,"v":"WATCH","h":false},{"id":"datamatics","n":"Datamatics Global Services Ltd","g":18.3,"p":1.06,"c":"C2","pk":true,"v":"EXCLUDED","h":true},{"id":"dcmshriram","n":"DCM Shriram Ltd","g":4.9,"p":0.54,"c":"C4","pk":false,"v":"EXCLUDED","h":true},{"id":"mayur","n":"Mayur Uniquoters Ltd","g":16.4,"p":1.08,"c":"C2","pk":true,"v":"WATCH","h":true},{"id":"insecticides","n":"Insecticides India Ltd","g":8.1,"p":0.62,"c":"C4","pk":true,"v":"EXCLUDED","h":false},{"id":"eil","n":"Engineers India Ltd","g":22.7,"p":1.08,"c":"C2","pk":true,"v":"WATCH","h":false},{"id":"diacabs","n":"Diamond Power Infrastructure Ltd","g":8.9,"p":0.08,"c":"C3","pk":true,"v":"ABSTAIN","h":false},{"id":"carysil","n":"Carysil Ltd","g":20.5,"p":0.76,"c":"C3","pk":true,"v":"EXCLUDED","h":false},{"id":"amic","n":"Amic Forging Ltd","g":94.7,"p":0.98,"c":"C3","pk":false,"v":"EXCLUDED","h":false},{"id":"deep","n":"Deep Industries Ltd","g":24.8,"p":2.17,"c":"C4","pk":true,"v":"EXCLUDED","h":true},{"id":"concordbio","n":"Concord Biotech Ltd","g":2.0,"p":0.05,"c":"C1","pk":false,"v":"EXCLUDED","h":false},{"id":"interarch","n":"Interarch Building Solutions Ltd","g":86.4,"p":4.25,"c":"C4","pk":true,"v":"EXCLUDED","h":false},{"id":"nitta","n":"Nitta Gelatin India Ltd","g":40.1,"p":2.75,"c":"C4","pk":true,"v":"EXCLUDED","h":false},{"id":"dycl","n":"Dynamic Cables Ltd","g":53.1,"p":2.28,"c":"C4","pk":true,"v":"EXCLUDED","h":false},{"id":"nrbbearing","n":"NRB Bearings Ltd","g":21.1,"p":0.65,"c":"C4","pk":false,"v":"EXCLUDED","h":false},{"id":"anthem","n":"Anthem Biosciences Ltd","g":16.9,"p":0.2,"c":"C3","pk":true,"v":"EXCLUDED","h":false},{"id":"atlantaele","n":"Atlanta Electricals Ltd","g":95.9,"p":1.46,"c":"C3","pk":true,"v":"EXCLUDED","h":false},{"id":"macpower","n":"Macpower CNC Machines Ltd","g":42.0,"p":0.78,"c":"C3","pk":true,"v":"EXCLUDED","h":false},{"id":"tvssrichak","n":"TVS Srichakra Ltd","g":-2.0,"p":-0.03,"c":"C4","pk":false,"v":"EXCLUDED","h":false},{"id":"shreepushk","n":"Shree Pushkar Chemicals & Fertilizers Ltd","g":20.0,"p":0.9,"c":"C3","pk":true,"v":"EXCLUDED","h":false},{"id":"jgchem","n":"J.G. Chemicals Ltd","g":24.0,"p":0.7,"c":"C3","pk":true,"v":"EXCLUDED","h":false},{"id":"cff","n":"CFF Fluid Control Ltd","g":100.0,"p":3.03,"c":"C3","pk":true,"v":"EXCLUDED","h":false},{"id":"wabag","n":"VA Tech Wabag Ltd","g":28.0,"p":0.9,"c":"C3","pk":true,"v":"EXCLUDED","h":false},{"id":"panamapet","n":"Panama Petrochem Ltd","g":9.0,"p":1.51,"c":"C4","pk":true,"v":"EXCLUDED","h":false}];
+const CB=[{"id":"kolte","n":"Kolte Patil Developers Ltd","v":100,"x":"EXCLUDED"},{"id":"netweb","n":"Netweb Technologies India Ltd","v":100,"x":"EXCLUDED"},{"id":"sathlokhar","n":"Sathlokhar Synergys E&C Global Ltd","v":99,"x":"EXCLUDED"},{"id":"rossell","n":"Rossell Techsys Ltd","v":95,"x":"EXCLUDED"},{"id":"avalon","n":"Avalon Technologies Ltd","v":94,"x":"EXCLUDED"},{"id":"astec","n":"Astec Lifesciences Ltd","v":89,"x":"EXCLUDED"},{"id":"transraill","n":"Transrail Lighting Ltd","v":87,"x":"EXCLUDED"},{"id":"ecl","n":"Electrosteel Castings Ltd","v":83,"x":"EXCLUDED"},{"id":"dee","n":"DEE Development Engineers Ltd","v":81,"x":"EXCLUDED"},{"id":"concordcs","n":"Concord Control Systems Ltd","v":75,"x":"EXCLUDED"},{"id":"sunita","n":"Sunita Tools Ltd","v":74,"x":"EXCLUDED"},{"id":"axiscades","n":"AXISCADES Technologies Ltd","v":73,"x":"EXCLUDED"},{"id":"anupam","n":"Anupam Rasayan India Ltd","v":72,"x":"EXCLUDED"},{"id":"ssw","n":"Steel Strips Wheels Ltd","v":67,"x":"EXCLUDED"},{"id":"rajesh","n":"Rajesh Power Services Ltd","v":64,"x":"EXCLUDED"},{"id":"oriana","n":"Oriana Power Ltd","v":60,"x":"EXCLUDED"},{"id":"obsc","n":"OBSC Perfection Ltd","v":58,"x":"EXCLUDED"},{"id":"kmew","n":"Knowledge Marine & Engineering Works Ltd","v":51,"x":"EXCLUDED"},{"id":"dynamatic","n":"Dynamatic Technologies Ltd","v":50.2,"x":"EXCLUDED"},{"id":"epl","n":"EPL Ltd","v":46,"x":"EXCLUDED"},{"id":"haldyn","n":"Haldyn Glass Ltd","v":43,"x":"EXCLUDED"},{"id":"dcmshriram","n":"DCM Shriram Ltd","v":43,"x":"EXCLUDED"},{"id":"azad","n":"Azad Engineering Ltd","v":38,"x":"EXCLUDED"},{"id":"carysil","n":"Carysil Ltd","v":8,"x":"EXCLUDED"}];
+
+const f=n=>n==null?'&mdash;':(Math.abs(n)>=100?n.toFixed(0):n.toFixed(1));
+const CATN={C1:'Slow',C2:'Stalwart',C3:'Fast',C4:'Cyclical',C5:'Turnaround'};
+// survivor cards
+document.getElementById('survivors').innerHTML=D.filter(r=>r.verdict==='WATCH').map(r=>`<div class="card surv">
+<div class="rank">WATCH</div><div class="tick">${r.name}${r.held?'<span class="held">&#9733; HELD</span>':''}</div>
+<div class="rung">Stalwart &middot; price ratio ${r.peg.toFixed(2)}</div>
+<div class="mx"><div><b>${f(r.pe)}</b><span>P/E</span></div><div><b>${f(r.g5)}%</b><span>5y growth</span></div>
+<div><b>${r.dy==null?'&mdash;':r.dy.toFixed(2)+'%'}</b><span>Yield</span></div><div><b>${r.de==null?'&mdash;':r.de+'%'}</b><span>D/E</span></div></div>
+<p class="why">${r.why}</p></div>`).join('');
+// table
+let F='all',Q='';
+function draw(){
+ const rs=D.filter(r=>(F==='all'||(F==='held'?r.held:(F==='WATCH'||F==='ABSTAIN')?r.verdict===F:F.startsWith('C')?r.cat===F:r.stage===F&&r.verdict==='EXCLUDED'))
+  &&(!Q||(r.name+' '+r.why+' '+r.cat).toLowerCase().includes(Q)));
+ const ord={WATCH:0,ABSTAIN:1,EXCLUDED:2};
+ rs.sort((a,b)=>ord[a.verdict]-ord[b.verdict]||(b.peg??-99)-(a.peg??-99)||a.name.localeCompare(b.name));
+ document.getElementById('tb').innerHTML=rs.map(r=>`<tr>
+ <td><b>${r.name}</b>${r.held?'<span class="held">&#9733;</span>':''}</td>
+ <td><span class="cat ${r.cat}">${CATN[r.cat]||r.cat}</span></td>
+ <td><span class="pill p-${r.verdict}">${r.verdict}</span></td>
+ <td style="max-width:400px"><span style="color:var(--mut);font-size:12.5px">${r.why}</span></td>
+ <td class="num">${r.g5==null?(r.g10==null?'&mdash;':f(r.g10)+'%*'):f(r.g5)+'%'}</td>
+ <td class="num">${f(r.pe)}</td>
+ <td class="num">${r.peg==null?'&mdash;':'<b>'+r.peg.toFixed(2)+'</b>'}</td>
+ <td class="num">${r.call==null?'&mdash;':r.call+'%'}</td></tr>`).join('');
+ document.getElementById('count').textContent=`Showing ${rs.length} of ${D.length}. ★ marks a disclosed holding. * = 10-year growth where 5-year is unavailable.`;
+}
+document.querySelectorAll('.fbtn').forEach(b=>b.onclick=()=>{F=b.dataset.f;
+ document.querySelectorAll('.fbtn').forEach(x=>x.setAttribute('aria-pressed',x===b));draw()});
+document.getElementById('q').oninput=e=>{Q=e.target.value.toLowerCase().trim();draw()};
+draw();
+// scatter
+(function(){
+ const W=980,H=560,pad={t:22,r:24,b:52,l:64};
+ const gmin=-5,gmax=100,pmin=0,pmax=4.3;
+ const x=v=>pad.l+(Math.min(v,pmax)-pmin)/(pmax-pmin)*(W-pad.l-pad.r);
+ const y=v=>H-pad.b-(Math.min(Math.max(v,gmin),gmax)-gmin)/(gmax-gmin)*(H-pad.t-pad.b);
+ const col={C1:'#8b6f47',C2:'#2E75B6',C3:'#1a7f4b',C4:'#b3261e',C5:'#7b3fa0'};
+ let s=`<svg viewBox="0 0 ${W} ${H}" width="100%" height="${H}">`;
+ // ideal box: growth 15-25, peg>=1.5
+ s+=`<rect x="${x(1.5)}" y="${y(25)}" width="${x(pmax)-x(1.5)}" height="${y(15)-y(25)}" fill="#1a7f4b" opacity=".10"/>`;
+ s+=`<rect x="${x(1.5)}" y="${y(25)}" width="${x(pmax)-x(1.5)}" height="${y(15)-y(25)}" fill="none" stroke="#1a7f4b" stroke-dasharray="5 4" stroke-width="1.4"/>`;
+ s+=`<text x="${x(pmax)-10}" y="${y(25)+16}" text-anchor="end" font-size="12" font-weight="700" fill="#1a7f4b">What Lynch actually wants</text>`;
+ s+=`<text x="${x(pmax)-10}" y="${y(25)+31}" text-anchor="end" font-size="11" fill="#1a7f4b">growth 15–25% · price ratio ≥ 1.5</text>`;
+ // axes
+ s+=`<line x1="${pad.l}" y1="${H-pad.b}" x2="${W-pad.r}" y2="${H-pad.b}" stroke="#c9d2dc"/>`;
+ s+=`<line x1="${pad.l}" y1="${pad.t}" x2="${pad.l}" y2="${H-pad.b}" stroke="#c9d2dc"/>`;
+ [0,1,1.5,2,3,4].forEach(v=>{s+=`<line x1="${x(v)}" y1="${pad.t}" x2="${x(v)}" y2="${H-pad.b}" stroke="#eef1f5"/>`;
+  s+=`<text x="${x(v)}" y="${H-pad.b+17}" text-anchor="middle" font-size="11" fill="#5b6670">${v}</text>`});
+ [0,25,50,75,100].forEach(v=>{s+=`<line x1="${pad.l}" y1="${y(v)}" x2="${W-pad.r}" y2="${y(v)}" stroke="#eef1f5"/>`;
+  s+=`<text x="${pad.l-9}" y="${y(v)+4}" text-anchor="end" font-size="11" fill="#5b6670">${v}%</text>`});
+ s+=`<line x1="${x(1.0)}" y1="${pad.t}" x2="${x(1.0)}" y2="${H-pad.b}" stroke="#b3261e" stroke-dasharray="4 3" stroke-width="1.2"/>`;
+ s+=`<text x="${x(1.0)-6}" y="${pad.t+13}" text-anchor="end" font-size="11" fill="#b3261e">below 1.0 = "poor"</text>`;
+ s+=`<line x1="${pad.l}" y1="${y(25)}" x2="${W-pad.r}" y2="${y(25)}" stroke="#b8860b" stroke-dasharray="4 3" stroke-width="1.2"/>`;
+ s+=`<text x="${W-pad.r-4}" y="${y(25)-7}" text-anchor="end" font-size="11" fill="#b8860b">above 25% = "wary" — the hot-industry warning</text>`;
+ s+=`<text x="${W/2}" y="${H-10}" text-anchor="middle" font-size="12" fill="#33393f">price ratio  (earnings growth + dividend yield) ÷ P/E  →  cheaper</text>`;
+ s+=`<text x="16" y="${H/2}" text-anchor="middle" font-size="12" fill="#33393f" transform="rotate(-90 16 ${H/2})">5-year earnings growth</text>`;
+ const placed=[];
+ SC.slice().sort((a,b)=>(b.v==='WATCH')-(a.v==='WATCH')||b.p-a.p).forEach(d=>{
+  const cx=x(d.p),cy=y(d.g),c=col[d.c]||'#5b6670';
+  const hollow=(d.c==='C4'&&d.pk);
+  s+=`<circle cx="${cx}" cy="${cy}" r="${d.v==='WATCH'?7:5.5}" fill="${hollow?'#fff':c}" stroke="${c}" stroke-width="${hollow?2.2:1}" opacity=".95"/>`;
+  const worth = d.v==='WATCH'||d.p>=1.5||(d.g>=15&&d.g<=25);
+  if(!worth) return;
+  const nm=d.n.replace(/\s*(Ltd|Limited)\.?\s*$/i,'').slice(0,16);
+  const right = cx < W-pad.r-120;
+  let ly=cy+4, tries=0;
+  while(placed.some(q=>Math.abs(q.y-ly)<11 && Math.abs(q.x-cx)<118) && tries<9){ ly += (tries%2?-1:1)*(12+2*tries); tries++; }
+  placed.push({x:cx,y:ly});
+  s+=`<text x="${right?cx+9:cx-9}" y="${ly}" text-anchor="${right?'start':'end'}" font-size="10.5" font-weight="${d.v==='WATCH'?700:400}" fill="#33393f">${nm}</text>`;
+  if(Math.abs(ly-(cy+4))>6) s+=`<line x1="${right?cx+4:cx-4}" y1="${cy}" x2="${right?cx+7:cx-7}" y2="${ly-3}" stroke="#b9c2cc" stroke-width=".8"/>`;});
+ s+=`</svg>`;document.getElementById('scat').outerHTML=s;
+})();
+// callable bar
+(function(){
+ const W=980,rowH=20,pad={t:12,b:26,l:150,r:60},H=pad.t+CB.length*rowH+pad.b;
+ const x=v=>pad.l+v/100*(W-pad.l-pad.r);
+ let s=`<svg viewBox="0 0 ${W} ${H}" width="100%" height="${H}">`;
+ s+=`<rect x="${x(50)}" y="${pad.t-4}" width="${x(100)-x(50)}" height="${H-pad.b-pad.t+6}" fill="#b3261e" opacity=".055"/>`;
+ s+=`<line x1="${x(50)}" y1="${pad.t-4}" x2="${x(50)}" y2="${H-pad.b+2}" stroke="#b3261e" stroke-dasharray="4 3" stroke-width="1.4"/>`;
+ s+=`<text x="${x(50)+7}" y="${pad.t+9}" font-size="11" font-weight="700" fill="#b3261e">above 50% = fails</text>`;
+ CB.forEach((d,i)=>{const yy=pad.t+i*rowH,w=x(d.v)-pad.l,fail=d.v>50;
+  s+=`<rect x="${pad.l}" y="${yy+3}" width="${Math.max(w,1)}" height="${rowH-7}" rx="2" fill="${fail?'#b3261e':'#1a7f4b'}" opacity=".85"/>`;
+  s+=`<text x="${pad.l-7}" y="${yy+13}" text-anchor="end" font-size="11" fill="#33393f">${d.n.replace(/\s*(Ltd|Limited)\.?\s*$/i,'').slice(0,21)}</text>`;
+  s+=`<text x="${pad.l+w+6}" y="${yy+13}" font-size="10.5" font-weight="600" fill="${fail?'#b3261e':'#1a7f4b'}">${d.v}%</text>`});
+ s+=`<text x="${pad.l}" y="${H-7}" font-size="11" fill="#5b6670">share of total borrowings repayable on demand — FY26 balance sheets</text></svg>`;
+ document.getElementById('callbar').outerHTML=s;
+})();
+
+</script>
+</body>
+</html>

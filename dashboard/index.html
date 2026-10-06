@@ -25,6 +25,17 @@ header.page-header .meta-row {
 }
 header.page-header .meta-item strong { font-weight: 600; opacity: 0.85; }
 
+/* the three investor-framework dashboards, linked from the header ribbon */
+header.page-header .fw-links { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+header.page-header .fw-link {
+  color: #fff; text-decoration: none; font-weight: 600; font-size: 12px;
+  background: rgba(255,255,255,0.14); border: 1px solid rgba(255,255,255,0.40);
+  border-radius: 999px; padding: 3px 11px; white-space: nowrap;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+header.page-header .fw-link:hover,
+header.page-header .fw-link:focus { background: rgba(255,255,255,0.30); border-color: #fff; }
+
 .viz-grid {
   display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 16px; margin-bottom: 24px;
 }
@@ -284,6 +295,14 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
     <div class="meta-item"><strong>Last Refreshed:</strong> <span id="meta-last-refreshed">—</span></div>
     <div class="meta-item"><strong>Refresh Mode:</strong> On-demand only (no schedule)</div>
     <div class="meta-item"><strong>Prepared for:</strong> Rajat</div>
+    <div class="meta-item fw-links"><strong>Through their eyes:</strong>
+      <a class="fw-link" href="fisher/index.html" target="_blank" rel="noopener"
+         title="Philip Fisher — the 15 points, scuttlebutt and the quality screen">Fisher's Eye</a>
+      <a class="fw-link" href="lynch/index.html" target="_blank" rel="noopener"
+         title="Peter Lynch — category, (growth + yield) / P-E and the price gate">Lynch's Eye</a>
+      <a class="fw-link" href="weinstein/index.html" target="_blank" rel="noopener"
+         title="Stan Weinstein — stage analysis, the market gate and the sell-stops">Weinstein's Eye</a>
+    </div>
   </div>
 </header>
 
