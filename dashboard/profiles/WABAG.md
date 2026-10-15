@@ -50,17 +50,17 @@ Swept both NSE and BSE: zero announcements.
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (19-Sep-2026, mine, not management's):** The rupee is nearly flat over three months (+1.6%), and the profile's top risk is exactly this: Q1FY27's forex gain was ~31% of PAT, and 'a flat rupee removes it'. Expect less forex support in Q2FY27.
+**Read (15-Oct-2026, mine, not management's):** The profile's top risk is materialising: the rupee is 1.5% stronger against the dollar and 3.3% stronger against the euro over three months. Q1FY27's forex gain was ~31% of PAT; a stronger rupee can turn it into a loss. Expect the forex line to drag on Q2FY27.
 
 **How cost moves reach profit:** Management counts forex gains inside EBITDA; the rupee's slide to ~₹95/$ has been carrying reported margin (profile §4).
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (95.88 ₹ per $) | FX (export revenue) | +0.4% | +1.6% | +8.7% | -1.0% | ⚪ flat | Yahoo Finance · 19-Sep-2026 |
-| EUR/INR (110.1182 ₹ per €) | FX (export revenue) | -1.4% | +2.0% | +6.0% | -2.1% | ⚪ flat | Yahoo Finance · 19-Sep-2026 |
+| USD/INR (95.037 ₹ per $) | FX (export revenue) | -0.8% | -1.5% | +7.0% | -1.9% | ⚪ flat | Yahoo Finance · 15-Oct-2026 |
+| EUR/INR (106.7031 ₹ per €) | FX (export revenue) | -3.3% | -3.3% | +3.7% | -5.1% | 🔴 headwind | Yahoo Finance · 15-Oct-2026 |
 
 **Why each factor is here:**
 
@@ -68,7 +68,7 @@ Swept both NSE and BSE: zero announcements.
 - **EUR/INR**: European contracts (my inference; the profile gives no currency split).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -411,7 +411,7 @@ The Wriddhi strategy is a chain, and every link has held: **filter for payment s
 
 **1. 🔴 Forex reverses.** Q1FY27's ₹36.8cr gain was ~31% of PAT. **A flat rupee removes it; a rising rupee turns it into a loss** — as in Q1FY26 (−₹13.6cr). The natural hedge covers much of the exposure, but the size of the gains shows it does not cover all of it.
 
-> 📈 **Factor check 19-Sep-2026:** The rupee is nearly flat over three months (+1.6%), the condition this risk describes. Expect a much smaller forex line in Q2FY27. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 15-Oct-2026:** It is happening: the rupee is 1.5% stronger against the dollar and 3.3% stronger against the euro over three months. Expect the forex line to drag on Q2FY27. *(Numbers and sources: Input & factor check, at the top.)*
 
 **2. 🔴 The margin is weaker than it is presented.** Ex-forex EBITDA: FY25 12.8% → FY26 12.1% → Q1FY27 9.0%. **Management's guidance is being met on a reported basis while the underlying margin has trended down for five quarters.**
 

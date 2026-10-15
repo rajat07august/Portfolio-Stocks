@@ -74,30 +74,30 @@ Screener P/E 112x, ROCE 26.5%; market cap ₹21,937cr; promoter 74.04%; 52-week 
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (19-Sep-2026, mine, not management's):** Metal moves are small this quarter: aluminium −6.7% and copper +3.8% over three months, after large one-year rises (+33.6% and +45.7%). Electricity demand is growing 9.0% YoY. Pass-through terms are not stated in the profile.
+**Read (15-Oct-2026, mine, not management's):** Metals split over three months: aluminium −12.1%, copper +4.4%. Its conductors and most cables are aluminium, so revenue per tonne should soften. Electricity output +11.6% YoY (August). Pass-through terms are not stated in the profile.
 
 **How cost moves reach profit:** Not stated in the profile.
 
-**Sensitivity:** raw materials were **80.0% of sales in FY26** (FY25: 83.0%, Screener). A 10% move across the whole raw-material bill is worth about **800 bps of margin before any pass-through**. The tracked inputs averaged **-1.5% over three months**, which would be roughly **120 bps of relief** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **79.0% of sales in FY26** (FY25: 83.0%, Screener). A 10% move across the whole raw-material bill is worth about **790 bps of margin before any pass-through**. The tracked inputs averaged **-3.8% over three months**, which would be roughly **300 bps of relief** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Aluminium (COMEX) (3,446.75 $/t) | Input cost | +2.9% | -6.7% | +33.6% | -17.8% | 🟢 tailwind | Yahoo Finance · 18-Sep-2026 |
-| Copper (COMEX) (6.615 $/lb) | Input cost | +2.0% | +3.8% | +45.7% | -2.8% | 🔴 headwind | Yahoo Finance · 18-Sep-2026 |
-| Production - Electricity (YoY, Jul 26) | Demand driver | — | +9.2% | +9.0% | — | 🟢 tailwind | Tijori macro (India) · Jul 26 |
+| Aluminium (COMEX) (3,064.5 $/t) | Input cost | -9.2% | -12.1% | +15.9% | -26.9% | 🟢 tailwind | Yahoo Finance · 15-Oct-2026 |
+| Copper (COMEX) (6.57 $/lb) | Input cost | +3.2% | +4.4% | +32.1% | -3.4% | 🔴 headwind | Yahoo Finance · 15-Oct-2026 |
+| Production - Electricity (YoY, Aug 26) | Demand driver | — | +10.1% | +11.6% | — | 🟢 tailwind | Tijori macro (India) · Aug 26 |
 
 **Why each factor is here:**
 
 - **Aluminium (COMEX)**: Conductors and most cables are aluminium (profile §1).
 - **Copper (COMEX)**: A dedicated copper line was commissioned 20-Aug-2026 for a ₹435cr data-centre order (profile Moat 3).
-- **Production - Electricity (YoY, Jul 26)**: Grid build-out drives cable and conductor demand (profile §2).
+- **Production - Electricity (YoY, Aug 26)**: Grid build-out drives cable and conductor demand (profile §2).
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
 
 </div>
 </details>

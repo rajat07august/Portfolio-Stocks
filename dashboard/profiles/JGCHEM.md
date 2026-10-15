@@ -59,18 +59,18 @@ Swept both feeds: zero announcements.
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (19-Sep-2026, mine, not management's):** Zinc is +11.3% over three months and at a 52-week high. Its zinc oxide is priced off zinc, so a rise carries an inventory gain, and the profile's top risk is the reverse when zinc falls.
+**Read (15-Oct-2026, mine, not management's):** Zinc is +13.6% over three months, with the September average ($4,021/t) at a 52-week high. Its zinc oxide is priced off zinc, so a rise carries an inventory gain, and the profile's top risk is the reverse when zinc falls.
 
 **How cost moves reach profit:** Zinc oxide is priced off zinc, so the metal moves both cost and price; the spread over dross is the margin (my inference).
 
-**Sensitivity:** raw materials were **82.0% of sales in FY26** (FY25: 80.0%, Screener). A 10% move across the whole raw-material bill is worth about **820 bps of margin before any pass-through**. The tracked inputs averaged **+11.3% over three months**, which would be roughly **927 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **82.0% of sales in FY26** (FY25: 80.0%, Screener). A 10% move across the whole raw-material bill is worth about **820 bps of margin before any pass-through**. The tracked inputs averaged **+13.6% over three months**, which would be roughly **1115 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Zinc (monthly avg) (3,875.0 $/mt) | Input cost | +7.7% | +11.3% | +38.9% | +0.0% | 🔴 headwind | World Bank Pink Sheet · 2026M08 |
+| Zinc (monthly avg) (4,021.0 $/mt) | Input cost | +3.8% | +13.6% | +37.1% | +0.0% | 🔴 headwind | World Bank Pink Sheet · 2026M09 |
 
 **Why each factor is here:**
 
@@ -78,7 +78,7 @@ Swept both feeds: zero announcements.
 
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -423,7 +423,7 @@ Management: *"ours is a business which requires about 100 days of working capita
 
 **1. 🔴 The zinc cycle turns.** The pass-through model protects the spread, not the inventory. **A fast LME fall converts ~2 months of stock into losses** — Jun-2023 quarter OPM 3.2%, FY24 PAT −44%. Q1FY27 was helped by rising zinc; that tailwind reverses mechanically.
 
-> 📈 **Factor check 19-Sep-2026:** Not yet: zinc is +11.3% over three months and at a 52-week high (World Bank, August). The risk grows the longer the rise runs. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 15-Oct-2026:** Not yet: zinc is +13.6% over three months, with the September average at a 52-week high (World Bank). The risk grows the longer the rise runs. *(Numbers and sources: Input & factor check, at the top.)*
 
 **2. 🔴 The margin is weaker than it is presented.** FY26 ex-OI margin 8.4% vs "10.1%"; operating profit −6% in a revenue +15% year; a Q4 margin spoken at 10.26% that computes to 9.36% from the same call's figures. **An investor using management's framing overstates operating margin by ~1.5-2 points.**
 

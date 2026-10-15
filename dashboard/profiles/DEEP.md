@@ -56,31 +56,31 @@ Screener P/E 11.5x, which is the profile's write-off-adjusted basis (on reported
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (19-Sep-2026, mine, not management's):** Supportive. Brent is +30% over three months (~$104). Asian LNG, the nearest benchmark for its market-priced gas contract, averaged $13.94/MMBTU in August, up 8.2% over three months: the upper half of the US$8–15 range in the profile. Most revenue is fixed-rate services, so the direct earnings effect is limited to the gas-sales contract.
+**Read (15-Oct-2026, mine, not management's):** Supportive, with a first sign of easing. Brent is ~$104, +23.4% over three months but −4.4% in the last month. Asian LNG, the nearest benchmark for its market-priced gas contract, averaged $14.25/MMBTU in September (+20.9% over three months, −6.7% in the month), in the upper half of the profile's US$8–15 range. Most revenue is fixed-rate services. India's gas output is −4.9% YoY (August).
 
 **How cost moves reach profit:** Service contracts with ONGC and others at fixed day-rates, so commodity prices act on demand and on the gas-sales contract, not on costs.
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Brent crude (103.87 $/bbl) | Demand driver | +13.4% | +30.1% | +54.0% | -12.2% | 🟢 tailwind | Yahoo Finance · 18-Sep-2026 |
-| Liquefied natural gas, Japan (monthly avg) (13.94 $/mmbtu) | Selling price | +0.6% | +8.2% | +18.2% | -10.9% | 🟢 tailwind | World Bank Pink Sheet · 2026M08 |
-| Natural gas (Henry Hub) (2.912 $/mmbtu) | Proxy / context | +3.5% | -9.9% | -0.9% | -61.0% | ⚪ context | Yahoo Finance · 18-Sep-2026 |
-| Production - Natural Gas (YoY, Jul 26) | Demand driver | — | -5.3% | -3.7% | — | 🔴 headwind | Tijori macro (India) · Jul 26 |
+| Brent crude (103.92 $/bbl) | Demand driver | -4.4% | +23.4% | +67.9% | -12.2% | 🟢 tailwind | Yahoo Finance · 15-Oct-2026 |
+| Liquefied natural gas, Japan (monthly avg) (14.25 $/mmbtu) | Selling price | -6.7% | +20.9% | +24.2% | -8.9% | 🟢 tailwind | World Bank Pink Sheet · 2026M09 |
+| Natural gas (Henry Hub) (3.267 $/mmbtu) | Proxy / context | +11.9% | +14.3% | +8.3% | -56.2% | ⚪ context | Yahoo Finance · 15-Oct-2026 |
+| Production - Natural Gas (YoY, Aug 26) | Demand driver | — | -5.3% | -4.9% | — | 🔴 headwind | Tijori macro (India) · Aug 26 |
 
 **Why each factor is here:**
 
 - **Brent crude**: Upstream customers' activity and budgets track crude (my inference; the profile lists crude-long names as S4 beneficiaries).
 - **Liquefied natural gas, Japan (monthly avg)**: The production-enhancement contract sells gas at market prices of US$8–15/MMBTU; Deep carries full price risk (profile Risk 5). Asian LNG is the nearest benchmark; the contract's exact index is not disclosed.
 - **Natural gas (Henry Hub)**: US Henry Hub gas: context only, not the contract's price.
-- **Production - Natural Gas (YoY, Jul 26)**: India's gas output is what its compression and production-enhancement work serves (my inference).
+- **Production - Natural Gas (YoY, Aug 26)**: India's gas output is what its compression and production-enhancement work serves (my inference).
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -485,7 +485,7 @@ Called *"the single most important number on DEEP"* on 28-Jul; **it is a composi
 
 **Risk 5 — 🟡 Free-market gas price exposure.** The PEC is priced at market (**US$8–15/MMBTU**). Deep carries **no exploration risk but full price risk**, and FY28's ₹150cr+ from this field assumes prices hold.
 
-> 📈 **Factor check 19-Sep-2026:** Currently favourable. Asian LNG, the nearest benchmark, averaged $13.94/MMBTU in August (+8.2% over three months), in the upper half of the US$8–15 band. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 15-Oct-2026:** Currently favourable. Asian LNG, the nearest benchmark, averaged $14.25/MMBTU in September (+20.9% over three months, −6.7% in the month), in the upper half of the US$8–15 band. *(Numbers and sources: Input & factor check, at the top.)*
 
 **Risk 6 — 🟡 ONGC concentration.** ONGC dominates the customer base and the order book. **Contract timing moves earnings**, and the two transformational tenders (Gamij, Geleki) are also ONGC.
 

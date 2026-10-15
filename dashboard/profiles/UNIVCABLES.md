@@ -29,23 +29,23 @@
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 13-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (13-Oct-2026, mine, not management's):** Snapshot dated 19-Sep-2026. Raw materials were 75% of FY26 sales (Screener). Over the year to mid-September, copper rose 45.7% and aluminium 33.6%, which accounts for part of Q1FY27's 57.5% revenue growth. Over three months the metals split: copper +3.8%, aluminium −6.7%, while PVC rose 13.3% and polyethylene 3.6%. Escalation clauses cover EPC contracts but not every product order, so the exposure is fixed-price supply bid before the rise. The flat 10% Q1 margin suggests pass-through mostly worked. The rupee is 8.7% weaker over the year, which helps exports (~13% of sales). Electricity output is up 9% YoY. Test in Q2FY27: does the margin hold near 10%? (My read, not management's.)
+**Read (15-Oct-2026, mine, not management's):** Raw materials were 75% of FY26 sales (Screener). The metals split over three months: copper +4.4% (near its high, +32.1% over the year), aluminium −12.1%. Polymer inputs rose: PVC +25.9%, and polyethylene (a proxy for XLPE) +31.8%. Escalation clauses cover EPC contracts but not every product order, so the exposure is fixed-price supply bid before the rise. The rupee is 1.5% stronger over three months, a small drag on exports (~13% of sales). Electricity output +11.6% YoY (August). Test in Q2FY27: does the margin hold near 10%? (My read, not management's.)
 
 **How cost moves reach profit:** Partial. EPC contracts carry price-escalation clauses, key inputs are tied up when large orders are bid, and a hedging desk has run since Jan-2022 (CARE, Feb-2026). The share of the bill that is passed through is not disclosed.
 
-**Sensitivity:** raw materials were **75.0% of sales in FY26** (FY25: 76.0%, Screener). A 10% move across the whole raw-material bill is worth about **750 bps of margin before any pass-through**. The tracked inputs averaged **+3.5% over three months**, which would be roughly **262 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **75.0% of sales in FY26** (FY25: 76.0%, Screener). A 10% move across the whole raw-material bill is worth about **750 bps of margin before any pass-through**. The tracked inputs averaged **+6.1% over three months**, which would be roughly **458 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Copper (COMEX) (6.615 $/lb) | Input cost | +2.0% | +3.8% | +45.7% | -2.8% | 🔴 headwind | Yahoo Finance · 18-Sep-2026 |
-| Aluminium (COMEX) (3,446.75 $/t) | Input cost | +2.9% | -6.7% | +33.6% | -17.8% | 🟢 tailwind | Yahoo Finance · 18-Sep-2026 |
-| LDPE | Proxy / context | +3.6% | +3.6% | +29.6% | -0.9% | ⚪ context | Tijori (indianpetrochem.com) · 19 Sep, 09:00 am IST |
-| PVC | Input cost | +9.0% | +13.3% | +37.2% | -11.5% | 🔴 headwind | Tijori (indianpetrochem.com) · 19 Sep, 09:00 am IST |
-| USD/INR (95.88 ₹ per $) | FX (export revenue) | +0.4% | +1.6% | +8.7% | -1.0% | ⚪ flat | Yahoo Finance · 19-Sep-2026 |
-| Production - Electricity (YoY, Jul 26) | Demand driver | — | +9.2% | +9.0% | — | 🟢 tailwind | Tijori macro (India) · Jul 26 |
+| Copper (COMEX) (6.57 $/lb) | Input cost | +3.2% | +4.4% | +32.1% | -3.4% | 🔴 headwind | Yahoo Finance · 15-Oct-2026 |
+| Aluminium (COMEX) (3,064.5 $/t) | Input cost | -9.2% | -12.1% | +15.9% | -26.9% | 🟢 tailwind | Yahoo Finance · 15-Oct-2026 |
+| LDPE | Proxy / context | +25.4% | +31.8% | +62.7% | +0.0% | ⚪ context | Tijori (indianpetrochem.com) · 15 Oct, 09:00 am IST |
+| PVC | Input cost | +4.3% | +25.9% | +40.4% | -10.6% | 🔴 headwind | Tijori (indianpetrochem.com) · 15 Oct, 09:00 am IST |
+| USD/INR (95.037 ₹ per $) | FX (export revenue) | -0.8% | -1.5% | +7.0% | -1.9% | ⚪ flat | Yahoo Finance · 15-Oct-2026 |
+| Production - Electricity (YoY, Aug 26) | Demand driver | — | +10.1% | +11.6% | — | 🟢 tailwind | Tijori macro (India) · Aug 26 |
 
 **Why each factor is here:**
 
@@ -54,11 +54,11 @@
 - **LDPE**: XLPE insulation is cross-linked polyethylene (CARE names polyethylene). Tijori's LDPE is a commodity grade, not cable-grade XLPE compound, so treat it as context (my inference).
 - **PVC**: PVC is used for sheaths and LV insulation; Satna makes 9,000 MT/yr of its own PVC compound (Reg 30 capacity filing, Aug-2026).
 - **USD/INR**: Exports were 12.7% of Q1FY27 revenue, mostly USD (CARE); some working-capital debt is in foreign currency and imported machinery raised the capex (Feb-2026 filing).
-- **Production - Electricity (YoY, Jul 26)**: Over 75% of orders come from the power sector (CARE, Feb-2026).
+- **Production - Electricity (YoY, Aug 26)**: Over 75% of orders come from the power sector (CARE, Feb-2026).
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
 
 </div>
 </details>

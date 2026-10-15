@@ -59,23 +59,23 @@ The stock gave back its post-results run and now trades at the Blackstone block 
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (19-Sep-2026, mine, not management's):** The polymers EPL buys were flat to lower over three months (LLDPE −1.5%, LDPE +3.6%, HDPE −5.8%) after rising 30–36% over the year. Because contracts pass landed cost through, last year's rise has been showing up as revenue inflation and margin dilution (Q1FY27: 18.8% reported against 19.6% underlying). A flat quarter for polymers means that dilution should stop widening in Q2. Crude is up 30% in three months; that has not reached Indian polyethylene yet, and it is the thing to watch.
+**Read (15-Oct-2026, mine, not management's):** Polymers have jumped again. LDPE is +31.8% over three months (+25.4% in the last month alone), LLDPE +15.1% and HDPE +9.6%, all at or within 2% of a 52-week high. Landed-cost contracts pass this through, so it shows up as revenue inflation and margin dilution rather than lost profit, and that dilution should widen again in Q2–Q3 after looking flat in September. The rupee is slightly stronger over three months (−1.5%). FMCG volume growth is +6.6% YoY (August).
 
 **How cost moves reach profit:** Contractual landed-cost pricing: raw material, freight and currency are recovered from customers, with a lag (CEO, Q1FY27 call). The cost shows up as revenue inflation and margin dilution, not as lost rupees of profit.
 
-**Sensitivity:** raw materials were **40.2% of sales in FY26** (FY25: 41.2%, Screener). A 10% move across the whole raw-material bill is worth about **402 bps of margin before any pass-through**. The tracked inputs averaged **-1.2% over three months**, which would be roughly **48 bps of relief** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **40.2% of sales in FY26** (FY25: 41.2%, Screener). A 10% move across the whole raw-material bill is worth about **402 bps of margin before any pass-through**. The tracked inputs averaged **+18.8% over three months**, which would be roughly **756 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| LLDPE | Input cost | +2.6% | -1.5% | +32.4% | -7.1% | ⚪ flat | Tijori (indianpetrochem.com) · 19 Sep, 09:00 am IST |
-| LDPE | Input cost | +3.6% | +3.6% | +29.6% | -0.9% | 🔴 headwind | Tijori (indianpetrochem.com) · 19 Sep, 09:00 am IST |
-| HDPE | Input cost | +0.9% | -5.8% | +35.8% | -10.2% | 🟢 tailwind | Tijori (indianpetrochem.com) · 19 Sep, 09:00 am IST |
-| USD/INR (95.88 ₹ per $) | Input cost | +0.4% | +1.6% | +8.7% | -1.0% | ⚪ flat | Yahoo Finance · 19-Sep-2026 |
-| Brent crude (103.87 $/bbl) | Proxy / context | +13.4% | +30.1% | +54.0% | -12.2% | ⚪ context | Yahoo Finance · 18-Sep-2026 |
-| Volume Growth - FMCG (YoY, Jul 26) | Demand driver | — | +3.5% | +5.3% | — | 🟢 tailwind | Tijori macro (India) · Jul 26 |
+| LLDPE | Input cost | +11.3% | +15.1% | +46.4% | +0.0% | 🔴 headwind | Tijori (indianpetrochem.com) · 15 Oct, 09:00 am IST |
+| LDPE | Input cost | +25.4% | +31.8% | +62.7% | +0.0% | 🔴 headwind | Tijori (indianpetrochem.com) · 15 Oct, 09:00 am IST |
+| HDPE | Input cost | +10.3% | +9.6% | +49.4% | -1.7% | 🔴 headwind | Tijori (indianpetrochem.com) · 15 Oct, 09:00 am IST |
+| USD/INR (95.037 ₹ per $) | Input cost | -0.8% | -1.5% | +7.0% | -1.9% | ⚪ flat | Yahoo Finance · 15-Oct-2026 |
+| Brent crude (103.92 $/bbl) | Proxy / context | -4.4% | +23.4% | +67.9% | -12.2% | ⚪ context | Yahoo Finance · 15-Oct-2026 |
+| Volume Growth - FMCG (YoY, Aug 26) | Demand driver | — | +5.5% | +6.6% | — | 🟢 tailwind | Tijori macro (India) · Aug 26 |
 
 **Why each factor is here:**
 
@@ -84,11 +84,11 @@ The stock gave back its post-results run and now trades at the Blackstone block 
 - **HDPE**: As above: used in tube shoulders and caps (my inference).
 - **USD/INR**: Imported resin priced in dollars; recovered under landed-cost contracts (Q1FY27 call).
 - **Brent crude**: Context, not a direct purchase: crude is the root of the polymer chain; Q4FY26/Q1FY27 'Middle East cost inflation' was passed through (profile §3.5).
-- **Volume Growth - FMCG (YoY, Jul 26)**: Oral-care and beauty tubes follow FMCG volumes (profile §1; India only, while EPL is global).
+- **Volume Growth - FMCG (YoY, Aug 26)**: Oral-care and beauty tubes follow FMCG volumes (profile §1; India only, while EPL is global).
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -139,7 +139,7 @@ The useful analogy is not a packaging company at all — **it is a co-located co
 
 **Moat 3 — Contractual landed-cost pricing across the book.** Bakshi, Q1FY27: *"all our customer contracts are on a landed cost basis. So currency depreciation also gets recovered. Freight also saw sharp increase and we have been able to recover that from the customers."* **Q1FY27 is one quarter of hard evidence for this** — full cost inflation recovered, per the press release.
 
-> 📈 **Factor check 19-Sep-2026:** Polyethylene grades were flat to lower over three months after rising 30–36% over the year, so the pass-through that diluted Q1FY27's margin should stop widening in Q2. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 15-Oct-2026:** Polyethylene has jumped again: LDPE +31.8%, LLDPE +15.1% and HDPE +9.6% over three months to 15-Oct, mostly at 52-week highs. Under landed-cost pricing that means wider revenue inflation and margin dilution in Q2–Q3, not lost rupees of profit. *(Numbers and sources: Input & factor check, at the top.)*
 
 **Moat 4 — A margin record that was, until this quarter, best-in-class.** Seven straight quarters above 20% EBITDA, every region inside the guided band.
 

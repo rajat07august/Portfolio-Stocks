@@ -63,30 +63,30 @@ Screener P/E 9.5x, ROCE 48.6%, ROE 42.9%; market cap ₹1,364cr; promoter 72.70%
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (19-Sep-2026, mine, not management's):** Copper +3.8% and aluminium −6.7% over three months: small net moves this quarter, after large one-year rises. The profile says input inflation lands on the contractor, so the one-year rise matters more than this quarter's.
+**Read (15-Oct-2026, mine, not management's):** Copper +4.4% and aluminium −12.1% over three months: a net easing this quarter after large one-year rises. The profile says input inflation lands on the contractor, so the one-year rise still matters.
 
 **How cost moves reach profit:** Profile: copper, aluminium and civil-works inflation 'lands entirely on the contractor'.
 
-**Sensitivity:** raw materials were **82.0% of sales in FY26** (FY25: 81.0%, Screener). A 10% move across the whole raw-material bill is worth about **820 bps of margin before any pass-through**. The tracked inputs averaged **-1.5% over three months**, which would be roughly **123 bps of relief** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **82.0% of sales in FY26** (FY25: 82.0%, Screener). A 10% move across the whole raw-material bill is worth about **820 bps of margin before any pass-through**. The tracked inputs averaged **-3.8% over three months**, which would be roughly **312 bps of relief** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Copper (COMEX) (6.615 $/lb) | Input cost | +2.0% | +3.8% | +45.7% | -2.8% | 🔴 headwind | Yahoo Finance · 18-Sep-2026 |
-| Aluminium (COMEX) (3,446.75 $/t) | Input cost | +2.9% | -6.7% | +33.6% | -17.8% | 🟢 tailwind | Yahoo Finance · 18-Sep-2026 |
-| Production - Electricity (YoY, Jul 26) | Demand driver | — | +9.2% | +9.0% | — | 🟢 tailwind | Tijori macro (India) · Jul 26 |
+| Copper (COMEX) (6.57 $/lb) | Input cost | +3.2% | +4.4% | +32.1% | -3.4% | 🔴 headwind | Yahoo Finance · 15-Oct-2026 |
+| Aluminium (COMEX) (3,064.5 $/t) | Input cost | -9.2% | -12.1% | +15.9% | -26.9% | 🟢 tailwind | Yahoo Finance · 15-Oct-2026 |
+| Production - Electricity (YoY, Aug 26) | Demand driver | — | +10.1% | +11.6% | — | 🟢 tailwind | Tijori macro (India) · Aug 26 |
 
 **Why each factor is here:**
 
 - **Copper (COMEX)**: Cables and substation equipment (profile).
 - **Aluminium (COMEX)**: Same (profile).
-- **Production - Electricity (YoY, Jul 26)**: Distribution-network build-out (profile §2).
+- **Production - Electricity (YoY, Aug 26)**: Distribution-network build-out (profile §2).
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
 
 </div>
 </details>

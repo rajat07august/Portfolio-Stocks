@@ -82,36 +82,36 @@ Screener P/E 27.6x (was 22.6x); ROCE 14.8%, ROE 11.0%; DII holding fell to 3.15%
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (19-Sep-2026, mine, not management's):** Steel is at a 52-week high (+10.0% over three months); aluminium eased (−6.7%). Both pass through to OEMs, so the effect is revenue inflation with a lag. Demand is very strong across the board: passenger cars +26.8%, two-wheelers +34.1%, trucks +30.4% YoY in July.
+**Read (15-Oct-2026, mine, not management's):** Steel is near its 52-week high (+10.5% over three months) while aluminium fell 12.1%. Both pass through to OEMs, so steel wheels see revenue inflation and alloy wheels deflation. September retail was very strong: cars +42.7%, two-wheelers +39.0%, trucks +43.6% YoY, partly festive timing (my inference).
 
 **How cost moves reach profit:** Steel and aluminium cost is passed through to OEMs, which is why value growth (+54%) ran ahead of volume (+24%) (profile §4).
 
-**Sensitivity:** raw materials were **66.0% of sales in FY26** (FY25: 65.0%, Screener). A 10% move across the whole raw-material bill is worth about **660 bps of margin before any pass-through**. The tracked inputs averaged **+1.6% over three months**, which would be roughly **106 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **66.0% of sales in FY26** (FY25: 65.0%, Screener). A 10% move across the whole raw-material bill is worth about **660 bps of margin before any pass-through**. The tracked inputs averaged **-0.8% over three months**, which would be roughly **53 bps of relief** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Steel Flat | Input cost | +9.3% | +10.0% | +29.5% | +0.0% | 🔴 headwind | Tijori (indianpetrochem.com) · 19 Sep, 09:30 am IST |
-| Aluminium (COMEX) (3,446.75 $/t) | Input cost | +2.9% | -6.7% | +33.6% | -17.8% | 🟢 tailwind | Yahoo Finance · 18-Sep-2026 |
-| Passenger Car - Retail Sales (YoY, Jul 26) | Demand driver | — | +32.7% | +26.8% | — | 🟢 tailwind | Tijori macro (India) · Jul 26 |
-| Two Wheeler - Retail Sales (YoY, Jul 26) | Demand driver | — | +24.0% | +34.1% | — | 🟢 tailwind | Tijori macro (India) · Jul 26 |
-| Commercial Vehicles - Retail Sales (YoY, Jul 26) | Demand driver | — | +21.7% | +30.4% | — | 🟢 tailwind | Tijori macro (India) · Jul 26 |
-| USD/INR (95.88 ₹ per $) | FX (export revenue) | +0.4% | +1.6% | +8.7% | -1.0% | ⚪ flat | Yahoo Finance · 19-Sep-2026 |
+| Steel Flat | Input cost | +2.1% | +10.5% | +33.3% | -1.1% | 🔴 headwind | Tijori (indianpetrochem.com) · 15 Oct, 09:30 am IST |
+| Aluminium (COMEX) (3,064.5 $/t) | Input cost | -9.2% | -12.1% | +15.9% | -26.9% | 🟢 tailwind | Yahoo Finance · 15-Oct-2026 |
+| Passenger Car - Retail Sales (YoY, Sep 26) | Demand driver | — | +26.0% | +42.7% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
+| Two Wheeler - Retail Sales (YoY, Sep 26) | Demand driver | — | +29.0% | +39.0% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
+| Commercial Vehicles - Retail Sales (YoY, Sep 26) | Demand driver | — | +27.3% | +43.6% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
+| USD/INR (95.037 ₹ per $) | FX (export revenue) | -0.8% | -1.5% | +7.0% | -1.9% | ⚪ flat | Yahoo Finance · 15-Oct-2026 |
 
 **Why each factor is here:**
 
 - **Steel Flat**: ~207 lakh steel wheels of capacity; 63% of revenue is steel (profile §1).
 - **Aluminium (COMEX)**: Alloy wheels are the growth line: aluminium products +73% (profile §4).
-- **Passenger Car - Retail Sales (YoY, Jul 26)**: Passenger-car steel and alloy wheels (profile §4).
-- **Two Wheeler - Retail Sales (YoY, Jul 26)**: 2- and 3-wheelers +61% (profile §4).
-- **Commercial Vehicles - Retail Sales (YoY, Jul 26)**: Trucks +53% (profile §4).
+- **Passenger Car - Retail Sales (YoY, Sep 26)**: Passenger-car steel and alloy wheels (profile §4).
+- **Two Wheeler - Retail Sales (YoY, Sep 26)**: 2- and 3-wheelers +61% (profile §4).
+- **Commercial Vehicles - Retail Sales (YoY, Sep 26)**: Trucks +53% (profile §4).
 - **USD/INR**: Exports +63%; a weaker rupee lifts rupee value (profile §4).
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
 
 </div>
 </details>

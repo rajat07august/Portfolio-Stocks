@@ -51,10 +51,10 @@ Screener: ₹682, market cap ₹1,635cr, P/E 37.3x, ROCE 24.9%, ROE 18.6%; promo
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (19-Sep-2026, mine, not management's):** With 63% exports, the rupee's 8.7% fall over the year helps; over three months it is flat. Wood pulp is not tracked.
+**Read (15-Oct-2026, mine, not management's):** With 63% exports, the rupee's 7.0% fall over the year helps; over three months it is 1.5% stronger, a small headwind. Wood pulp is not tracked.
 
 **How cost moves reach profit:** Wood-pulp cost is not tracked.
 
@@ -62,14 +62,14 @@ Screener: ₹682, market cap ₹1,635cr, P/E 37.3x, ROCE 24.9%, ROE 18.6%; promo
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (95.88 ₹ per $) | FX (export revenue) | +0.4% | +1.6% | +8.7% | -1.0% | ⚪ flat | Yahoo Finance · 19-Sep-2026 |
+| USD/INR (95.037 ₹ per $) | FX (export revenue) | -0.8% | -1.5% | +7.0% | -1.9% | ⚪ flat | Yahoo Finance · 15-Oct-2026 |
 
 **Why each factor is here:**
 
 - **USD/INR**: Exports are 63% of revenue (profile Moat 3).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
 
 </div>
 </details>

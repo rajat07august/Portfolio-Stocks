@@ -56,10 +56,10 @@ Screener P/E 19.2x, ROCE 20.5%, ROE 15.3%; market cap ₹15,718cr; 52-week range
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (19-Sep-2026, mine, not management's):** Mixed. Its finished products are rising (sponge iron +14.8%, billet +8.9% over three months) while iron ore fell 11.3%. As a captive miner it is long ore, so cheaper ore narrows its integration edge (profile Risk 7). The gas-fed pellet plant restarted on 29-Aug.
+**Read (15-Oct-2026, mine, not management's):** The integrated spread widened: its products rose over three months (sponge iron +20.6%, billet +17.4%, long steel +33.1% at a 52-week high) while iron ore slipped 3.1% (September average $97.7/dmtu). As a captive miner, softer ore narrows its integration edge slightly (profile Risk 7). Coal is +6.2%.
 
 **How cost moves reach profit:** A price-taker on its products; iron ore comes from its own captive mine (profile §1).
 
@@ -67,12 +67,12 @@ Screener P/E 19.2x, ROCE 20.5%, ROE 15.3%; market cap ₹15,718cr; 52-week range
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Iron ore, cfr spot (monthly avg) (96.3 $/dmtu) | Selling price | -1.9% | -11.3% | -3.4% | -11.3% | 🔴 headwind | World Bank Pink Sheet · 2026M08 |
-| Sponge Iron | Selling price | +8.9% | +14.8% | +20.5% | -1.0% | 🟢 tailwind | Tijori (indianpetrochem.com) · 19 Sep, 09:30 am IST |
-| Billet | Selling price | +12.8% | +8.9% | +20.8% | +0.0% | 🟢 tailwind | Tijori (indianpetrochem.com) · 19 Sep, 09:30 am IST |
-| Steel Long | Selling price | +12.0% | -0.2% | +26.9% | -0.2% | ⚪ flat | Tijori (indianpetrochem.com) · 19 Sep, 09:30 am IST |
-| Coal, Australian (monthly avg) (135.2 $/mt) | Input cost | +2.5% | -1.2% | +20.5% | -2.5% | ⚪ flat | World Bank Pink Sheet · 2026M08 |
-| Liquefied natural gas, Japan (monthly avg) (13.94 $/mmbtu) | Proxy / context | +0.6% | +8.2% | +18.2% | -10.9% | ⚪ context | World Bank Pink Sheet · 2026M08 |
+| Iron ore, cfr spot (monthly avg) (97.7 $/dmtu) | Selling price | +1.5% | -3.1% | -5.4% | -10.0% | 🔴 headwind | World Bank Pink Sheet · 2026M09 |
+| Sponge Iron | Selling price | -5.1% | +20.6% | +22.2% | -5.4% | 🟢 tailwind | Tijori (indianpetrochem.com) · 15 Oct, 09:30 am IST |
+| Billet | Selling price | +1.3% | +17.4% | +26.5% | -3.6% | 🟢 tailwind | Tijori (indianpetrochem.com) · 15 Oct, 09:30 am IST |
+| Steel Long | Selling price | +8.3% | +33.1% | +35.7% | +0.0% | 🟢 tailwind | Tijori (indianpetrochem.com) · 15 Oct, 09:30 am IST |
+| Coal, Australian (monthly avg) (147.1 $/mt) | Input cost | +8.8% | +6.2% | +38.4% | +0.0% | 🔴 headwind | World Bank Pink Sheet · 2026M09 |
+| Liquefied natural gas, Japan (monthly avg) (14.25 $/mmbtu) | Proxy / context | -6.7% | +20.9% | +24.2% | -8.9% | ⚪ context | World Bank Pink Sheet · 2026M09 |
 
 **Why each factor is here:**
 
@@ -85,7 +85,7 @@ Screener P/E 19.2x, ROCE 20.5%, ROE 15.3%; market cap ₹15,718cr; 52-week range
 
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -590,7 +590,7 @@ CMP **₹229** · Mcap **₹15,419cr** · **P/E 18.8x** · **P/B 2.65x** (book �
 
 **Risk 7 — 🟡 Iron ore price collapse.** GPIL is long its own ore at ~₹2,900/t. A sustained fall in market ore prices compresses the integration advantage that is most of the moat.
 
-> 📈 **Factor check 19-Sep-2026:** Iron ore is −11.3% over three months (World Bank, August), while sponge iron (+14.8%) and billet (+8.9%) rose: the integration edge narrowed a little. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 15-Oct-2026:** Iron ore slipped 3.1% over three months (September average $97.7/dmtu) while sponge iron (+20.6%) and billet (+17.4%) rose: the integration edge narrowed slightly, but the product spread widened. *(Numbers and sources: Input & factor check, at the top.)*
 
 **Risk 8 — 🟡 Coking coal inflation.** Management named **higher coal prices "amid the West Asia crisis"** as the second cause of the Q1FY27 cost gap.
 

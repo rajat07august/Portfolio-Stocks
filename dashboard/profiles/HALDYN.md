@@ -46,10 +46,10 @@ Two AGM-related filings only. Price ₹142 → ₹143; Screener P/E 24.7x, ROCE 
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (19-Sep-2026, mine, not management's):** Neither soda ash nor Indian furnace gas is tracked, and the profile says those two set the margin. Asian LNG (+8.2% over three months) is context only.
+**Read (15-Oct-2026, mine, not management's):** Neither soda ash nor Indian furnace gas is tracked, and the profile says those two set the margin. Asian LNG (+20.9% over three months, September average $14.25) is context only.
 
 **How cost moves reach profit:** Profile: 'Energy and soda ash set the margin, and neither is controllable' (Risk 2). Neither soda ash nor Indian furnace gas is tracked.
 
@@ -57,7 +57,7 @@ Two AGM-related filings only. Price ₹142 → ₹143; Screener P/E 24.7x, ROCE 
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Liquefied natural gas, Japan (monthly avg) (13.94 $/mmbtu) | Proxy / context | +0.6% | +8.2% | +18.2% | -10.9% | ⚪ context | World Bank Pink Sheet · 2026M08 |
+| Liquefied natural gas, Japan (monthly avg) (14.25 $/mmbtu) | Proxy / context | -6.7% | +20.9% | +24.2% | -8.9% | ⚪ context | World Bank Pink Sheet · 2026M09 |
 
 **Why each factor is here:**
 
@@ -65,7 +65,7 @@ Two AGM-related filings only. Price ₹142 → ₹143; Screener P/E 24.7x, ROCE 
 
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
 
 </div>
 </details>

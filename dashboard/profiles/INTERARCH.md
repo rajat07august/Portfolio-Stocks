@@ -66,28 +66,28 @@ Screener P/E 21.0x, ROCE 23.7%, ROE 16.8%; market cap ₹2,869cr; promoter 59.44
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (19-Sep-2026, mine, not management's):** Steel, its main input, is +10.0% over three months and at a 52-week high. Pass-through terms are not in the profile, so projects bid before the rise carry margin risk (my inference). Industrial credit is growing 19.6% YoY.
+**Read (15-Oct-2026, mine, not management's):** Steel, its main input, is +10.5% over three months and near its 52-week high. Pass-through terms are not in the profile, so projects bid before the rise carry margin risk (my inference). Credit to large industry is growing 16.6% YoY (August).
 
 **How cost moves reach profit:** Not disclosed in the profile. Pre-engineered buildings are quoted per project, so steel moves between bid and purchase hit margin (my inference).
 
-**Sensitivity:** raw materials were **60.0% of sales in FY26** (FY25: 61.0%, Screener). A 10% move across the whole raw-material bill is worth about **600 bps of margin before any pass-through**. The tracked inputs averaged **+10.0% over three months**, which would be roughly **600 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **60.0% of sales in FY26** (FY25: 61.0%, Screener). A 10% move across the whole raw-material bill is worth about **600 bps of margin before any pass-through**. The tracked inputs averaged **+10.5% over three months**, which would be roughly **630 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Steel Flat | Input cost | +9.3% | +10.0% | +29.5% | +0.0% | 🔴 headwind | Tijori (indianpetrochem.com) · 19 Sep, 09:30 am IST |
-| Credit to Large Industry - Outstanding (YoY, Jul 26) | Demand driver | — | +18.3% | +19.6% | — | 🟢 tailwind | Tijori macro (India) · Jul 26 |
+| Steel Flat | Input cost | +2.1% | +10.5% | +33.3% | -1.1% | 🔴 headwind | Tijori (indianpetrochem.com) · 15 Oct, 09:30 am IST |
+| Credit to Large Industry - Outstanding (YoY, Aug 26) | Demand driver | — | +18.4% | +16.6% | — | 🟢 tailwind | Tijori macro (India) · Aug 26 |
 
 **Why each factor is here:**
 
 - **Steel Flat**: Pre-engineered buildings are made from steel plate and coil (profile §1).
-- **Credit to Large Industry - Outstanding (YoY, Jul 26)**: PEB demand follows industrial capex (my inference).
+- **Credit to Large Industry - Outstanding (YoY, Aug 26)**: PEB demand follows industrial capex (my inference).
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
 
 </div>
 </details>

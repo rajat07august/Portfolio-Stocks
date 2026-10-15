@@ -53,10 +53,10 @@ Verified on both feeds: no announcements. Price ₹610 → ₹606; market cap �
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (19-Sep-2026, mine, not management's):** Its inputs (technical-grade actives) and drivers (monsoon, crop prices) are not tracked here. Tractor sales (+19.1% YoY in May) are shown only as a rough rural-demand signal.
+**Read (15-Oct-2026, mine, not management's):** Its inputs (technical-grade actives) and drivers (monsoon, crop prices) are not tracked here. Tractor sales (+19.1% YoY in May) are shown only as a rough rural-demand signal.
 
 **How cost moves reach profit:** Profile Risk 3: raw-material inflation not fully passed through. Agrochemical technicals are not tracked here.
 
@@ -64,7 +64,7 @@ Verified on both feeds: no announcements. Price ₹610 → ₹606; market cap �
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Tractor Sales (YoY, May 26) | Proxy / context | — | +23.1% | +19.1% | — | ⚪ context | Tijori macro (India) · May 26 |
+| Tractor Sales (YoY, May 26) | Proxy / context | — | +19.1% | +19.1% | — | ⚪ context | Tijori macro (India) · May 26 |
 
 **Why each factor is here:**
 
@@ -72,7 +72,7 @@ Verified on both feeds: no announcements. Price ₹610 → ₹606; market cap �
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
 
 </div>
 </details>

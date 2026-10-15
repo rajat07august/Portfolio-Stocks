@@ -54,10 +54,10 @@ Screener P/E 140x, ROCE 10.2%, ROE 6.7%; market cap ₹8,191cr; promoter 41.50%;
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (19-Sep-2026, mine, not management's):** Translation matters here: the pound is +3.1% and the euro +2.0% against the rupee over three months, so reported growth will again run ahead of constant currency (Q1FY27: +14.5% reported vs +3.9%).
+**Read (15-Oct-2026, mine, not management's):** Translation has turned against it: the pound and the euro are each 3.3% weaker against the rupee over three months, so reported growth will run behind constant currency in Q2, the reverse of Q1FY27 (+14.5% reported vs +3.9%).
 
 **How cost moves reach profit:** Reports constant-currency growth: Q1FY27 reported +14.5% vs +3.9% constant currency (profile).
 
@@ -65,9 +65,9 @@ Screener P/E 140x, ROCE 10.2%, ROE 6.7%; market cap ₹8,191cr; promoter 41.50%;
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| EUR/INR (110.1182 ₹ per €) | FX (export revenue) | -1.4% | +2.0% | +6.0% | -2.1% | ⚪ flat | Yahoo Finance · 19-Sep-2026 |
-| GBP/INR (128.4121 ₹ per £) | FX (export revenue) | -0.8% | +3.1% | +7.4% | -1.7% | 🟢 tailwind | Yahoo Finance · 19-Sep-2026 |
-| USD/INR (95.88 ₹ per $) | FX (export revenue) | +0.4% | +1.6% | +8.7% | -1.0% | ⚪ flat | Yahoo Finance · 19-Sep-2026 |
+| EUR/INR (106.7031 ₹ per €) | FX (export revenue) | -3.3% | -3.3% | +3.7% | -5.1% | 🔴 headwind | Yahoo Finance · 15-Oct-2026 |
+| GBP/INR (126.1028 ₹ per £) | FX (export revenue) | -2.5% | -3.3% | +6.6% | -3.4% | 🔴 headwind | Yahoo Finance · 15-Oct-2026 |
+| USD/INR (95.037 ₹ per $) | FX (export revenue) | -0.8% | -1.5% | +7.0% | -1.9% | ⚪ flat | Yahoo Finance · 15-Oct-2026 |
 
 **Why each factor is here:**
 
@@ -76,7 +76,7 @@ Screener P/E 140x, ROCE 10.2%, ROE 6.7%; market cap ₹8,191cr; promoter 41.50%;
 - **USD/INR**: Aerospace exports (profile).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
 
 </div>
 </details>

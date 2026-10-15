@@ -60,17 +60,17 @@ Screener P/E 24.9x (was 27.0x), ROCE 38.7%, ROE 29.7%; market cap ₹4,563cr; pr
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (19-Sep-2026, mine, not management's):** About two-thirds of revenue is in dollars and much of the rest in pounds. The pound is +3.1% over three months, the dollar +1.6%: a small tailwind.
+**Read (15-Oct-2026, mine, not management's):** About two-thirds of revenue is in dollars and much of the rest in pounds. Over three months the pound is 3.3% and the dollar 1.5% weaker against the rupee: a small headwind, reversing September's tailwind.
 
 **How cost moves reach profit:** No commodity inputs.
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (95.88 ₹ per $) | FX (export revenue) | +0.4% | +1.6% | +8.7% | -1.0% | ⚪ flat | Yahoo Finance · 19-Sep-2026 |
-| GBP/INR (128.4121 ₹ per £) | FX (export revenue) | -0.8% | +3.1% | +7.4% | -1.7% | 🟢 tailwind | Yahoo Finance · 19-Sep-2026 |
+| USD/INR (95.037 ₹ per $) | FX (export revenue) | -0.8% | -1.5% | +7.0% | -1.9% | ⚪ flat | Yahoo Finance · 15-Oct-2026 |
+| GBP/INR (126.1028 ₹ per £) | FX (export revenue) | -2.5% | -3.3% | +6.6% | -3.4% | 🔴 headwind | Yahoo Finance · 15-Oct-2026 |
 
 **Why each factor is here:**
 
@@ -78,7 +78,7 @@ Screener P/E 24.9x (was 27.0x), ROCE 38.7%, ROE 29.7%; market cap ₹4,563cr; pr
 - **GBP/INR**: Much of the rest is GBP (profile Risk 10).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
 
 </div>
 </details>

@@ -80,10 +80,10 @@ Screener P/E 61.4x, ROCE 10.7%, ROE 9.3%; market cap ₹5,032cr; promoter 65.13%
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 19-Sep-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (19-Sep-2026, mine, not management's):** Steel is up (+10.0% over three months), but the profile's own conclusion is that job-work mix, not steel, drives its margin. Refinery output is roughly flat (+2.7% YoY).
+**Read (15-Oct-2026, mine, not management's):** Steel is up (+10.5% over three months), but the profile's own conclusion is that job-work mix, not steel, drives its margin. Refinery output is roughly flat (+2.6% YoY, August).
 
 **How cost moves reach profit:** Reframed in the profile: 'the live margin variable is job-work mix, not steel price'. The alloy pipe is often the customer's (profile Risk 8).
 
@@ -91,17 +91,17 @@ Screener P/E 61.4x, ROCE 10.7%, ROE 9.3%; market cap ₹5,032cr; promoter 65.13%
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Steel Flat | Proxy / context | +9.3% | +10.0% | +29.5% | +0.0% | ⚪ context | Tijori (indianpetrochem.com) · 19 Sep, 09:30 am IST |
-| Production - Petroleum Refinery (YoY, Jul 26) | Demand driver | — | -3.6% | +2.7% | — | ⚪ flat | Tijori macro (India) · Jul 26 |
+| Steel Flat | Proxy / context | +2.1% | +10.5% | +33.3% | -1.1% | ⚪ context | Tijori (indianpetrochem.com) · 15 Oct, 09:30 am IST |
+| Production - Petroleum Refinery (YoY, Aug 26) | Demand driver | — | +0.2% | +2.6% | — | ⚪ flat | Tijori macro (India) · Aug 26 |
 
 **Why each factor is here:**
 
 - **Steel Flat**: Context only: the profile says steel is not the margin driver (Risk 8).
-- **Production - Petroleum Refinery (YoY, Jul 26)**: Process piping for refineries and petrochemicals (profile §1).
+- **Production - Petroleum Refinery (YoY, Aug 26)**: Process piping for refineries and petrochemicals (profile §1).
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 19-Sep-2026 22:59 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
 
 </div>
 </details>
