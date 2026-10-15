@@ -1,6 +1,6 @@
 # Company Profiles — Master Index
 
-64 stocks · organised by sector (alphabetical) · each follows the 8-section framework.
+65 stocks · organised by sector (alphabetical) · each follows the 8-section framework.
 
 **Structure per profile:**
 1. Business in Plain English
@@ -100,10 +100,11 @@ Status legend: `⏳ pending` · `🔨 in progress` · `✅ complete`
 - ✅ [Oriana Power](./ORIANA.md) *(3-Jul-2026)*
 - *(Rajesh Power Services → moved to Sector 19, Power T&D EPC / Turnkey, 23-Jul-2026)*
 
-### 14. Power T&D Components (4) ✅ Complete
+### 14. Power T&D Components (5) ✅ Complete
 - ✅ [Atlanta Electricals](./ATLANTAELE.md) *(tracking since 3-Sep-2026 · **thesis current 3-Sep-2026** · 🆕 **new addition** — **MEDIUM-LOW**. Power transformers up to 220 kV; **the sector definition was widened for it** (Option A, as for SHREEREFR). Gate GREEN on 10 primary docs — every call since the 29-Sep-2025 listing. 🟢 **Execution is genuinely excellent: FY26 revenue +48.8% against a 40% target it set at IPO, EBITDA +77.9% at 18.6%, PAT +70.1%, ROCE 45.3%, ROE 31.7%, all ₹340cr of term debt repaid ahead of schedule, capacity ~16,000 → 63,060 MVA, PGCIL 400 kV approval in two years from groundbreaking, record order book ₹3,117cr, and promoter holding 87.28% flat to two decimals with zero selling.** 🔴 **But 45% of Q1FY27's 48% growth was PRICE not volume (4,381 vs 3,605 MVA) while the CFO called it "primarily volume-driven" with "no material changes in pricing"** — and the CMD had explained the commodity mechanism himself a quarter earlier. 🔴 **At 67x it trades at roughly DOUBLE Shilchar (33.3x on a HIGHER 50.7% ROCE) and Indo Tech (38.6x on 40.4%)** — the mirror image of ANTHEM, whose 89x was in line with its sector. 🔴 ₹114.56cr of core-input purchases from promoter-owned Amod Stampings, and the **entire ₹1,320cr working-capital facility guaranteed free of charge by a promoter LLP**. 🔴 ~12.3% of the company (~₹1,800cr) must reach the market by ~Sep-2028 on MPS. A two-year SBPDCL debarment ran Apr–Aug 2026 and was raised on **zero** earnings calls. 📢 **YASH supplies bushings INTO Atlanta.** Weighted 2yr ≈ +6.3%; reasonable again at ₹1,400-1,600)*
 - ✅ [Diamond Power Infrastructure (DIACABS)](./DIACABS.md) *(thesis current 31-Aug-2026 · 🆕 **new format** — **SPEC → Med-Low**; first-ever concall transcript, ₹1,614cr QIP took net worth −₹922cr → +₹691cr, CBI/ED discharged, MPS cured — but the stock doubled in seven weeks)*
 - ✅ [Dynamic Cables (DYCL)](./DYCL.md) *(tracking since 18-Aug-2026 · **thesis current 18-Aug-2026** · 🆕 **new format** — Medium; headline is aluminium not activity, plant 15-18 months late)*
+- ✅ [Universal Cables (UNIVCABLES)](./UNIVCABLES.md) *(tracking since 13-Oct-2026 · **thesis current 13-Oct-2026** · 🆕 **new addition · 🔵 HELD** — **MEDIUM-LOW**. LV-to-400 kV power cables, turnkey EHV EPC and capacitors (MP Birla group). **🔴 Gate STRUCTURAL: the company has never held an earnings call** (244 BSE + 196 NSE filings checked); written on a data-limited basis at Rajat's instruction. ~40% of consolidated PAT is equity-accounted Vindhya Telelinks + the Furukawa fibre JV, and Vindhya owns 23.85% of Universal. A fixed 27% promoter-group bloc votes against the board's director appointments. Capex 2.2x original; FY26 CFO 22% of EBITDA. Weighted 2yr ≈ +16% · 📖 industry explainer built 13-Oct-2026)*
 - ⏸️ [Systematic Industries](./SYSTEMATIC.md) — **REMOVED FROM DASHBOARD 1-Sep-2026 at Rajat's instruction. Profile retained here; not deployed.** *Prior status: 3-Jul-2026*
 - ✅ [Yash Highvoltage](./YASH.md) *(tracking since 3-Jul-2026 · **thesis current 24-Aug-2026** · 🆕 **new format + first full refresh** — **HELD at HIGH (Under Watch)**. 🔴 **REPORTS HALF-YEARLY — there is no Q1FY27**; the 3-Aug "filing" was the FY26 Board's Report and a maiden ₹1.40 dividend. **Belongs in the C2 bucket.** FY26 a record: rev **+57%**, EBITDA +75% at 25.7%, order book ₹400cr+. 🆕 **₹106cr preferential at ₹721 to Malabar, ValueQuest, Motilal Oswal, WhiteOak** — stock is 24.8% above that. A ₹153cr greenfield **removes an export restriction**, but turns on one **type test in H2FY27**. 69x, **14x book**, CFO/OP 42%)*
 
