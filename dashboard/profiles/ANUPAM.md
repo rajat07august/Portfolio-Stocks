@@ -20,11 +20,17 @@
 > **4. A COO was appointed on 14-Aug-2026 — Mr. Ravi Desai.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 1,164** · market cap ₹ 13,258 Cr. · P/E 75.9x · ROCE 7.38 % · ROE 5.55 % · 52-wk ₹ 1,415 / 1,047 · **vs ₹1,258 at baseline (-7.5%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 1,091** · market cap ₹ 12,397 Cr. · P/E 71.0x · ROCE 7.38 % · ROE 5.55 % · 52-wk ₹ 1,415 / 1,053 · **vs ₹1,258 at baseline (-13.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🔴 The Bliss GVS acquisition CONSUMMATED 28-Sep — but 47.95% sits with the Mates PAC, not with Anupam, while Anupam carries the guarantee and the pledge · (earlier: ₹160cr more unlisted NCDs approved (Aditya Birla Capital) with ₹145cr allotted on 21-Sep — the debt build flagged on 19-Sep continues · (earlier in window: Bliss GVS acquisition financing approved: ₹300cr of secured NCDs at the Mates vehicle, guaranteed and pledged by Anupam; ₹160cr more NCDs on the 19-Sep agenda; CRISIL A+ still on Watch; new six-year US supply contract; stock −4%))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ ESG rating; no Q2 board date yet · (earlier: 🔴 The Bliss GVS acquisition CONSUMMATED 28-Sep — but 47.95% sits with the Mates PAC, not with Anupam, while Anupam carries the guarantee and the pledge · (earlier: ₹160cr more unlisted NCDs approved (Aditya Birla Capital) with ₹145cr allotted on 21-Sep — the debt build flagged on 19-Sep continues · (earlier in window: Bliss GVS acquisition financing approved: ₹300cr of secured NCDs at the Mates vehicle, guaranteed and pledged by Anupam; ₹160cr more NCDs on the 19-Sep agenda; CRISIL A+ still on Watch; new six-year US supply contract; stock −4%)))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — ESG rating; no Q2 date yet**
+CRISIL ESG 62 (unsolicited). **No board-meeting intimation for Q2 in the window** (last year's results came 16-Oct).
+> **Why it matters:** The Bliss GVS structure question is unchanged.
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🔴 28-Sep-2026 — Bliss GVS acquisition consummated, and the structure is the finding**
 Anupam and its PAC have **consummated the transaction under the 23-May-2026 SPA** with the Bliss GVS Pharma sellers, read with the **17-Jul-2026 deed of adherence executed between Anupam and Mates Visa Consultancy Private Limited (the PAC)**, pursuant to the open offer. A 30-Sep clarification corrected typographical errors in the 28-Sep disclosure. The final split:

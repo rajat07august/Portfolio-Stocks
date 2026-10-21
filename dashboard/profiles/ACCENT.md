@@ -24,11 +24,17 @@
 ---
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 15-Oct-2026 (Screener):** CMP **₹688** · market cap ₹1,649cr · P/E 29.0x · ROCE 24.9% · ROE 18.6% · 52-wk high ₹732 / low ₹253 · **vs ₹500 at baseline (+37.6%)** *(the 3-Jul profile's ~₹500 was an approximation — 'SME data limited' — and its ~₹800cr market cap an estimate)*
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 635** · market cap ₹ 1,524 Cr. · P/E 26.8x · ROCE 24.9 % · ROE 18.6 % · 52-wk ₹ 732 / 253 · **vs ₹500 at baseline (+27.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 15-Oct-2026</span> <span class="upd-sum">🆕 H1FY27: revenue +25%, PAT +72%, EBITDA 23.6% with Unit III still not producing; MD & CFO sold 4.07% of the company in Jun–Jul; conviction MH → M (Under Watch) · (earlier in window: 4.45 MW Inox Wind turbine ordered; directors' pay ceilings raised from ₹15 to ₹25 lakh/month each; AGM 31-Jul)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Nothing since the 15-Oct H1FY27 rewrite · (earlier: H1FY27: revenue +25%, PAT +72%, EBITDA 23.6% with Unit III still not producing; MD & CFO sold 4.07% of the company in Jun–Jul; conviction MH → M (Under Watch) · (earlier in window: 4.45 MW Inox Wind turbine ordered; directors' pay ceilings raised from ₹15 to ₹25 lakh/month each; AGM 31-Jul))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — H1FY27 results and deck — already incorporated on 15-Oct**
+The H1FY27 results (14-Oct), the investor presentation and newspaper publication (15-Oct) are the filings the **15-Oct full rewrite** was built on. Screener's September promoter figure (53.02% → 51.40%) is the MD & CFO's June–July market sales already recorded.
+> **Why it matters:** Nothing new since the rewrite.
+
+*Sweep: NSE announcements; NSE SAST/insider feeds checked because September-quarter promoter holding moved ≥0.5pp, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🔴 15-Oct-2026 — H1FY27 results (filed 14-Oct) and a full rewrite**
 - **Print:** revenue **₹174.8cr (+25.4% YoY, −16.6% vs H2FY26)**, PAT **₹31.1cr (+72.2% YoY)**, EBITDA ex-OI **₹41.3cr / 23.6%** (H1FY26 17.2%). Gross margin **48.1%** vs 40.0% a year earlier and 36.8% in H2FY26.

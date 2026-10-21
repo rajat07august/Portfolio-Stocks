@@ -8,11 +8,17 @@
 > **🎧 Sourcing note. Datamatics is a HELD POSITION and falls under the §4A "transcribe immediately" tier.** The Q1FY27 call (6-Aug-2026) was machine-transcribed the same day because the company had published audio only. **The official transcript was filed on 12-Aug-2026 and the machine version has now been verified against it** — see §9 data-quality note 1. **All quotes in this profile are from the official transcript.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 773** · market cap ₹ 4,570 Cr. · P/E 18.0x · ROCE 20.4 % · ROE 16.0 % · 52-wk ₹ 1,015 / 632 · **vs ₹819 at baseline (-5.6%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 759** · market cap ₹ 4,493 Cr. · P/E 17.7x · ROCE 20.4 % · ROE 16.0 % · 52-wk ₹ 1,015 / 632 · **vs ₹819 at baseline (-7.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟢 Prometric selects Datamatics for global remote-examination operations — a named marquee client, but unsized · (earlier: Independent director Kanika Mittal ceased on completion of her two-year term; all AGM resolutions passed with requisite majority · (earlier in window: No material company event; AI voice-agent expansion with a US client, Gartner mention; FY26 annual report out; stock −6.5%))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟢 Dr. Rajesh Gharpure appointed President & COO (15-Oct) · (earlier: 🟢 Prometric selects Datamatics for global remote-examination operations — a named marquee client, but unsized · (earlier: Independent director Kanika Mittal ceased on completion of her two-year term; all AGM resolutions passed with requisite majority · (earlier in window: No material company event; AI voice-agent expansion with a US client, Gartner mention; FY26 annual report out; stock −6.5%)))</span></summary>
 <div class="upd-body">
+
+**🟢 6 → 21-Oct-2026 — A President & COO appointed**
+**Dr. Rajesh Gharpure appointed President & Chief Operating Officer (SMP) from 15-Oct**, reporting to Vice Chairman & CEO Rahul Kanodia, to lead key business units and corporate functions with a focus on *"AI-led services, profitable growth, and operational excellence"* (press release 16-Oct).
+> **Why it matters:** A COO between the CEO and the business units is an organisational change worth noting for a company whose growth has been debated against no stated guidance. **The Q2 results are the first opportunity to hear what changes** — no date filed yet in the window.
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟢 29-Sep-2026 — Prometric selects Datamatics to support its global remote examination operations**
 **Prometric**, a global credentialing and skills-development company, has selected Datamatics to support its **remote examination operations globally**. Datamatics will provide **24/7/365 multilingual support in English, Spanish and French** from delivery centres in **India, the Philippines and Peru**, covering candidate technical readiness, remote proctoring, candidate support, security monitoring, quality checks, workforce planning and performance reporting.

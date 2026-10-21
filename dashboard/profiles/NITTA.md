@@ -15,11 +15,17 @@
 > **📋 AND A PLAIN STATEMENT ABOUT THIS PASS: the filing sweep found nothing new.** The last BSE filing is **7-Aug-2026** — five days before the previous refresh. **No new results, no new Reg-30 items, no corporate actions.** ***This conversion therefore restructures and re-verifies rather than discovers, and the metrics have moved in the company's favour without any news to explain it.***
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 1,703** · market cap ₹ 1,546 Cr. · P/E 14.9x · ROCE 27.7 % · ROE 21.0 % · 52-wk ₹ 2,088 / 765 · **vs ₹1,573 at baseline (+8.3%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 1,530** · market cap ₹ 1,387 Cr. · P/E 13.4x · ROCE 27.7 % · ROE 21.0 % · 52-wk ₹ 2,088 / 765 · **vs ₹1,573 at baseline (-2.7%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 A KSIDC board-nominee change; no calls exist · (earlier: Routine newspaper notice on dematerialisation of physical shares · (earlier in window: Kerala-government nominee director appointed via postal ballot; nothing else filed; stock +8.8% to ₹1,711))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Q2 board 30-Oct · (earlier: A KSIDC board-nominee change; no calls exist · (earlier: Routine newspaper notice on dematerialisation of physical shares · (earlier in window: Kerala-government nominee director appointed via postal ballot; nothing else filed; stock +8.8% to ₹1,711)))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — Q2 board 30-Oct**
+Board meets **30-Oct** for Q2/H1FY27 (BSE, via Chrome).
+> **Why it matters:** Nothing new.
+
+*Sweep: BSE announcements (via Chrome — BSE's JSON API is still Akamai-blocked from curl, re-tested 21-Oct), 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 23-Sep → 6-Oct-2026 — A state-nominee director change**
 Swept **BSE** (506532 — NSE's feed carries nothing for NITTAGELA, via Chrome): a **change in nomination by Kerala State Industrial Development Corporation Ltd** (29-Sep), a trading-window closure and a newspaper advertisement.

@@ -19,11 +19,17 @@
 > **⚠️ Reporting basis, stated up front.** Macpower has no subsidiaries, no joint ventures and no associates. Every figure in this profile is standalone and audited, reconciled between the FY26 Annual Report (filed 20-Aug-2026), the quarterly filings and Screener. Where the three disagree, the disagreement is stated.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 2,168** · market cap ₹ 2,169 Cr. · P/E x · ROCE % · ROE % · 52-wk ₹ 2,251 / 761 · **vs ₹1,843 at baseline (+17.6%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 1,732** · market cap ₹ 1,733 Cr. · 52-wk ₹ 2,251 / 761 · **vs ₹1,843 at baseline (-6.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 11-Sep-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 AGM passed; H1FY27 balance sheet remains the checkpoint · (earlier: AGM held 23-Sep; CMD took part in a promoter-interview series. H1FY27 remains the checkpoint for the three unreconciled Q1 figures · (earlier in window: Investor-meeting flurry (DII management meet 21-Sep; CMD in a promoter-interview series); nothing on the three unreconciled figures; stock +14% to ₹2,104 at 54x))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 11-Sep-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Q2 results 26-Oct, call 27-Oct · (earlier: AGM passed; H1FY27 balance sheet remains the checkpoint · (earlier: AGM held 23-Sep; CMD took part in a promoter-interview series. H1FY27 remains the checkpoint for the three unreconciled Q1 figures · (earlier in window: Investor-meeting flurry (DII management meet 21-Sep; CMD in a promoter-interview series); nothing on the three unreconciled figures; stock +14% to ₹2,104 at 54x)))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — Q2 board 26-Oct, call 27-Oct**
+Board meets **26-Oct** for Q2/H1FY27; earnings call **27-Oct, 3pm**.
+> **Why it matters:** **H1 is the first balance sheet since the three Q1 call figures that did not reconcile to the audited accounts.**
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 23-Sep → 6-Oct-2026 — AGM held 23-Sep; voting results filed, all passed**
 AGM proceedings (filed twice on 23-Sep, twenty minutes apart — **the same meeting, not two**), scrutinizer's report with voting results (24-Sep) showing **no resolution defeated**, an investor-meet schedule and a trading-window closure.

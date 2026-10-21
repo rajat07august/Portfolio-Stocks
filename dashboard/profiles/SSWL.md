@@ -12,11 +12,17 @@
 > **Disclosure cadence:** SSWL files **monthly turnover** to the exchanges — rare at this size — so the trajectory in 5.5 carries monthly resolution. **Seven concall transcripts on disk** (Jan-2025 → Jul-2026), plus the Q1FY27 deck read page by page.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 421** · market cap ₹ 6,623 Cr. · P/E 31.2x · ROCE 14.8 % · ROE 11.0 % · 52-wk ₹ 425 / 169 · **vs ₹305 at baseline (+38.0%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 390** · market cap ₹ 6,144 Cr. · P/E 28.9x · ROCE 14.8 % · ROE 11.0 % · 52-wk ₹ 434 / 169 · **vs ₹305 at baseline (+27.9%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟢🟢 HIGHEST-EVER MONTHLY REVENUE — September net turnover ₹625.81cr, +52.41% YoY, on record volume +22%; anchors the highest-ever Q2FY27 and H1FY27 · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: August a second record month (+53.6% YoY); borrowing limit to be raised ₹2,000cr → ₹3,500cr; promoter buying in the open market; stock +22%))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Q2 results 23-Oct, call 26-Oct · (earlier: 🟢🟢 HIGHEST-EVER MONTHLY REVENUE — September net turnover ₹625.81cr, +52.41% YoY, on record volume +22%; anchors the highest-ever Q2FY27 and H1FY27 · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: August a second record month (+53.6% YoY); borrowing limit to be raised ₹2,000cr → ₹3,500cr; promoter buying in the open market; stock +22%)))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — Q2 call 26-Oct**
+Q2 earnings call **26-Oct**; CRISIL ESG 64 (unsolicited).
+> **Why it matters:** Results 23-Oct; September was already disclosed as a record month.
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟢🟢 1-Oct-2026 — September 2026 is SSWL's highest-ever month, by value AND volume**
 ⤴ **CORRECTED 6-Oct-2026.** *An earlier version of this entry said the monthly-update PDF was a poor scan whose figures "did not extract reliably" and that no number from it was used. That was a failure to read it properly rather than a limit of the document — **rendering the page as an image (`pdftoppm -r 150 -png`) produced a perfectly legible filing**, exactly as §4A part C prescribes for scanned PDFs. The contents are below, and they are the most important operating datapoint in this sweep.*

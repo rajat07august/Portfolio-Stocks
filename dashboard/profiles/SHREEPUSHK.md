@@ -4,11 +4,17 @@
 **Thesis current as of: 16-Sep-2026 · Tracking since: 16-Sep-2026**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 492** · market cap ₹ 1,591 Cr. · P/E 22.1x · ROCE 12.9 % · ROE 12.1 % · 52-wk ₹ 545 / 272 · **vs ₹507 at baseline (-3.0%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 480** · market cap ₹ 1,557 Cr. · P/E 21.6x · ROCE 12.9 % · ROE 12.1 % · 52-wk ₹ 545 / 272 · **vs ₹507 at baseline (-5.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 16-Sep-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🔴 NCLT ALLOWED WITHDRAWAL of the subsidiary amalgamation scheme approved back in Dec-2024 — another timetable abandoned · (earlier: No filings since the profile was written)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 16-Sep-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Routine filings only · (earlier: 🔴 NCLT ALLOWED WITHDRAWAL of the subsidiary amalgamation scheme approved back in Dec-2024 — another timetable abandoned · (earlier: No filings since the profile was written))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — Verified quiet — routine filings only**
+Only the quarterly Reg 74(5) depository certificate (or equivalent routine items) on NSE. **Nothing material.**
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🔴 1-Oct-2026 — The subsidiary amalgamation scheme is withdrawn and dismissed by the NCLT**
 The **NCLT Mumbai Bench has allowed the withdrawal of, and dismissed, the Scheme of Amalgamation** between **Madhya Bharat Phosphate Private Limited** (Transferor) and **Kisan Phosphates Private Limited** (Transferee), both wholly owned subsidiaries. The scheme had been approved by the boards of both subsidiaries and intimated to the exchanges on **20-Dec-2024.**

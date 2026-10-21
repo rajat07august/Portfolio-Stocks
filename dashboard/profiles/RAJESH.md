@@ -14,11 +14,17 @@
 > **📋 WHAT THIS REFRESH FOUND.** Since the 16-Jul Tier-A refresh: **₹1,165.94cr of new orders in four weeks**; **a first entry into Odisha and a deepened Rajasthan position**; **a CRISIL outlook upgrade**; **a New Zealand subsidiary**; **an Independent Director resigning off four committees**; **two Regulation 29(2) share sales from the promoter side**; and **a share price that has fallen 47% in a year and now trades at 9.90x earnings on a 48.6% return on capital.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 742** · market cap ₹ 1,336 Cr. · P/E 9.30x · ROCE 47.3 % · ROE 42.8 % · 52-wk ₹ 1,625 / 705 · **vs ₹791 at baseline (-6.2%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 785** · market cap ₹ 1,414 Cr. · P/E 9.85x · ROCE 47.3 % · ROE 42.8 % · 52-wk ₹ 1,545 / 705 · **vs ₹791 at baseline (-0.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🔴 Company is VARYING THE OBJECTS of its IPO proceeds and extending the utilisation timeline; all AGM resolutions passed · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: New independent director and MD made Chairman; AGM (24-Sep) seeks Section 185 power to lend to group entities and a ₹500cr Section 186 limit; FY26 annual report: debtor turnover −27%; stock −4%))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟢 ₹540.92cr of orders from MGVCL and UGVCL in a week; order book "nearing ₹4,000cr" · (earlier: 🔴 Company is VARYING THE OBJECTS of its IPO proceeds and extending the utilisation timeline; all AGM resolutions passed · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: New independent director and MD made Chairman; AGM (24-Sep) seeks Section 185 power to lend to group entities and a ₹500cr Section 186 limit; FY26 annual report: debtor turnover −27%; stock −4%)))</span></summary>
 <div class="upd-body">
+
+**🟢 6 → 21-Oct-2026 — ₹540.92cr of Gujarat distribution orders in one week**
+**MGVCL ₹471.92cr** (LoA 12-Oct; conversion of 11 kV overhead lines to medium-voltage covered conductor and underground network, SI Scheme Robust-III) and **UGVCL ₹69.00cr** (LoA 13-Oct; network shifting with GIS mapping) — **₹540.92cr including taxes**. The company says the order book is **"nearing ₹4,000 crore"**, with 18 months of visibility on the MGVCL work. Swept via BSE (Chrome; NSE has no feed for this name).
+> **Why it matters:** Order wins keep coming on schedule; **the open questions are cash, not orders** — two years of negative operating cash flow and the undisclosed **variation of IPO objects** approved at the AGM. **H1FY27 (~mid-Nov) is the first look at receivables since.**
+
+*Sweep: BSE announcements (via Chrome — BSE's JSON API is still Akamai-blocked from curl, re-tested 21-Oct); NSE SAST/insider feeds checked because September-quarter promoter holding moved ≥0.5pp, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🔴 24-25 Sep-2026 — Variation in the objects of the IPO proceeds, and an extension of the utilisation timeline**
 PAS-1 newspaper advertisements were published on **25-Sep-2026** (Financial Express, English and Gujarati) *"in connection with the proposed variation in the Objects of the Initial Public Offer ("IPO") Proceeds and extension of the timeline for utilization of IPO Proceeds"*, in compliance with the Companies Act 2013 and SEBI ICDR. This follows the **17th AGM held 24-Sep-2026**, where the **scrutinizer's report confirms all resolutions — including four special resolutions — passed with the requisite majority.**

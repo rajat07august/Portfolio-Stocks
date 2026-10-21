@@ -13,11 +13,17 @@
 > **📌 SECTOR NOTE.** Placed in **Sector 1 (Aerospace & Defence)** at Rajat's instruction, 1-Sep-2026, **with the sector definition widened from *"Defence electronics, aerospace forging, avionics, drones"* to include defence platform systems and equipment.** ***Its customer, its qualification barrier and its margin structure are naval-platform economics — the same thing that groups PARAS, AZAD, AXISCADES, DYNAMATIC, ROSSELL and UNIMECH — even though it makes none of the four things the old definition listed.***
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 391** · market cap ₹ 1,399 Cr. · P/E 65.0x · ROCE 13.8 % · ROE 13.0 % · 52-wk ₹ 439 / 161 · **vs ₹410 at baseline (-4.6%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 344** · market cap ₹ 1,231 Cr. · P/E 57.2x · ROCE 13.8 % · ROE 13.0 % · 52-wk ₹ 439 / 161 · **vs ₹410 at baseline (-16.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 1-Sep-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 A trading-window closure only · (earlier: Participation in an Arihant virtual conference; nothing else · (earlier in window: CARE upgrades the bank rating to BBB-/Stable (from BB+) and cites a ₹279.67cr order book; AGM approves the new Whole-Time Director; stock −3.7%))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 1-Sep-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟢 ₹7.86cr Indian Navy order; Aquilon Ltd subsidiary incorporated · (earlier: A trading-window closure only · (earlier: Participation in an Arihant virtual conference; nothing else · (earlier in window: CARE upgrades the bank rating to BBB-/Stable (from BB+) and cites a ₹279.67cr order book; AGM approves the new Whole-Time Director; stock −3.7%)))</span></summary>
 <div class="upd-body">
+
+**🟢 6 → 21-Oct-2026 — A ₹7.86cr Indian Navy order; a new subsidiary**
+**₹7.86cr (ex-GST) order from the Indian Navy (CPRO Mumbai) for two magnetic-bearing-compressor AC plants** (8-Oct). **Wholly-owned subsidiary 'Aquilon Limited' incorporated** (15-Oct). Swept via BSE (Chrome).
+> **Why it matters:** Routine order flow; the subsidiary's purpose should be in its annexure.
+
+*Sweep: BSE announcements (via Chrome — BSE's JSON API is still Akamai-blocked from curl, re-tested 21-Oct), 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 23-Sep → 6-Oct-2026 — Nothing material**
 Swept **BSE** (544458 — BSE-only, via Chrome): **a single trading-window closure.** Nothing else.

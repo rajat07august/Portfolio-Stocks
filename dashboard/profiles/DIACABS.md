@@ -17,11 +17,17 @@
 > - **🟡 But the share price has doubled in seven weeks, from ₹196 to ₹341. *The market capitalisation has already passed the ₹20,000cr that v2's two-year BULL case projected.***
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 361** · market cap ₹ 21,590 Cr. · P/E 110x · ROCE 26.5 % · ROE % · 52-wk ₹ 407 / 116 · **vs ₹341 at baseline (+5.9%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 337** · market cap ₹ 20,135 Cr. · P/E 103x · ROCE 11.8 % · 52-wk ₹ 407 / 116 · **vs ₹341 at baseline (-1.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 New Chief Operating Officer appointed (3-Oct); AGM passed · (earlier: A further ₹116.49cr of cable orders — but from a private counterparty, Polite Powertech, not a utility · (earlier in window: ₹519cr of new orders in 15 days (MSEDCL ₹263cr, Adani Electricity Mumbai ₹179cr, 66 kV EHV ₹76cr); NCLT framework fully exited a year early (₹501cr cash prepaid); MPS penalty formalised; stock +7.6% to 112x))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟡 New CFO (Kundip Thakker); predecessor becomes Deputy CFO · (earlier: New Chief Operating Officer appointed (3-Oct); AGM passed · (earlier: A further ₹116.49cr of cable orders — but from a private counterparty, Polite Powertech, not a utility · (earlier in window: ₹519cr of new orders in 15 days (MSEDCL ₹263cr, Adani Electricity Mumbai ₹179cr, 66 kV EHV ₹76cr); NCLT framework fully exited a year early (₹501cr cash prepaid); MPS penalty formalised; stock +7.6% to 112x)))</span></summary>
 <div class="upd-body">
+
+**🟡 6 → 21-Oct-2026 — A new CFO**
+**Kundip S. Thakker appointed CFO and KMP from 20-Oct; Pawan Lohiya ceases as CFO and becomes Deputy CFO** (19-Oct). BSE asked for the meeting times of the 3-Oct board meeting, which the company supplied (6-Oct).
+> **Why it matters:** A CFO change with the predecessor staying on as deputy reads as orderly. Promoter holding 84.02% → 74.04% on Screener reflects the public-shareholding compliance already in the profile.
+
+*Sweep: NSE announcements; NSE SAST/insider feeds checked because September-quarter promoter holding moved ≥0.5pp, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟢 3-Oct-2026 — Chief Operating Officer appointed**
 **Mr Ashwani Saraf appointed Chief Operating Officer** with effect from 3-Oct-2026. The 34th AGM was held 25-Sep with proceedings and scrutinizer's report filed (28-Sep); **all resolutions passed.**

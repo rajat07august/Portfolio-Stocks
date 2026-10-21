@@ -8,11 +8,17 @@
 > **How to read this profile:** Every meaningful claim is either sourced from a concall (quarter noted) or a filing. Where I've made a judgment I've flagged it. Not a buy/sell recommendation.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 1,676** · market cap ₹ 6,317 Cr. · P/E 239x · ROCE 11.5 % · ROE 15.7 % · 52-wk ₹ 1,697 / 552 · **vs ₹1,067 at baseline (+57.1%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 1,407** · market cap ₹ 5,313 Cr. · P/E 201x · ROCE 11.5 % · ROE 15.7 % · 52-wk ₹ 1,699 / 552 · **vs ₹1,067 at baseline (+31.9%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 AGM passed; the ₹300cr SBI MF preferential goes to EGM on 15-Oct · (earlier: ₹300cr preferential to SBI Mutual Fund confirmed at ₹1,166 (25,72,898 shares); EGM to approve it on 15-Oct · (earlier in window: ₹300cr preferential issue to SBI Mutual Fund at ₹1,166 (6.39%) approved by the Board — the QIP the profile expected, as a preferential; stock +29% to ₹1,374 at ~196x))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟢 EGM approved the SBI MF preferential (25.7 lakh shares) · (earlier: AGM passed; the ₹300cr SBI MF preferential goes to EGM on 15-Oct · (earlier: ₹300cr preferential to SBI Mutual Fund confirmed at ₹1,166 (25,72,898 shares); EGM to approve it on 15-Oct · (earlier in window: ₹300cr preferential issue to SBI Mutual Fund at ₹1,166 (6.39%) approved by the Board — the QIP the profile expected, as a preferential; stock +29% to ₹1,374 at ~196x)))</span></summary>
 <div class="upd-body">
+
+**🟢 6 → 21-Oct-2026 — The SBI MF preferential passes at the EGM**
+**The 15-Oct EGM passed the preferential issue of 25,72,898 shares** (to SBI Mutual Fund schemes, per the corrigendum the exchanges asked for). The September-quarter promoter fall (74.8% → 69.9%) is the **31-Jul block to Kotak MF already in the profile.**
+> **Why it matters:** The proceedings file NSE serves is truncated at 32KB and could not be read; **the scrutinizer's report confirms the result.**
+
+*Sweep: NSE announcements; NSE SAST/insider feeds checked because September-quarter promoter holding moved ≥0.5pp, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 23-Sep → 6-Oct-2026 — AGM held 24-Sep; all resolutions passed. The SBI MF preferential goes to the EGM on 15-Oct**
 AGM proceedings (24-Sep), scrutinizer's report (26-Sep) — **no resolution defeated** — a newspaper publication of the EGM notice (23-Sep) and a trading-window closure.

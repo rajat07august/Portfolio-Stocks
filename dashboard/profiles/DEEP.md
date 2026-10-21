@@ -12,11 +12,17 @@
 > **✅ Concall gate: CLEARED and current.** The Q1FY27 call was held **29-Jul-2026** (InCred Equities-hosted; **Paras Savla, CMD** and **Rohan Shah, CFO**), transcript filed 3-Aug and in the repo — 26pp. **Reading it changed three conclusions** and is the source of the explicit FY27/FY28 PAT guidance below.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 750** · market cap ₹ 4,800 Cr. · P/E 11.6x · ROCE 16.5 % · ROE 19.2 % · 52-wk ₹ 827 / 327 · **vs ₹688 at baseline (+9.0%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 704** · market cap ₹ 4,497 Cr. · P/E 10.8x · ROCE 16.5 % · ROE 19.2 % · 52-wk ₹ 827 / 327 · **vs ₹688 at baseline (+2.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 Only an analyst-meet schedule; Q2FY27 is the next real checkpoint · (earlier: Nothing new beyond a trading-window closure; Q2FY27 results season approaching. Stock ₹743 → ₹773 · (earlier in window: New ONGC gas-compression award (₹88.15cr, 3 years); new corporate deck adds 'defence-grade re-rating' framing and two government-scheme read-acrosses (not orders); stock +8%))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Routine filings only · (earlier: Only an analyst-meet schedule; Q2FY27 is the next real checkpoint · (earlier: Nothing new beyond a trading-window closure; Q2FY27 results season approaching. Stock ₹743 → ₹773 · (earlier in window: New ONGC gas-compression award (₹88.15cr, 3 years); new corporate deck adds 'defence-grade re-rating' framing and two government-scheme read-acrosses (not orders); stock +8%)))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — Verified quiet — routine filings only**
+Only the quarterly Reg 74(5) depository certificate (or equivalent routine items) on NSE. **Nothing material.**
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 23-Sep → 6-Oct-2026 — One analyst-meet schedule**
 A single filing: schedule of an analyst/institutional investor meet (25-Sep). Swept on both feeds.

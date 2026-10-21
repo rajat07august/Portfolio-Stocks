@@ -11,11 +11,17 @@
 > **⚠️ TICKER RENAMED 2-Aug-2026: CONCORD → CONCORDCS.** This is **Concord Control Systems Ltd (BSE 543619)** — railway/metro electronics, Sector 5. It is **not** Concord Biotech Ltd (BSE 543960, ticker `CONCORDBIO`, Sector 12), which was added to the watchlist on 2-Aug-2026, and **not** Concord Enviro Systems. The old `CONCORD` ticker caused a real mis-fetch during a bulk CMP refresh (logged in CLAUDE.md, 18-Jul-2026); the rename removes the ambiguity at source. Concall folder also renamed `Fetched Concalls/543619` → `Fetched Concalls/CONCORDCS`.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 2,285** · market cap ₹ 2,373 Cr. · P/E 56.3x · ROCE 31.2 % · ROE 25.6 % · 52-wk ₹ 3,070 / 1,645 · **vs ₹2,860 at baseline (-20.1%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 2,450** · market cap ₹ 2,544 Cr. · P/E 60.4x · ROCE 31.2 % · ROE 25.6 % · 52-wk ₹ 3,070 / 1,645 · **vs ₹2,860 at baseline (-14.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 2-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 AGM passed; main-board migration still awaiting exchange approval · (earlier: 🟢 Shareholders approved BSE SME → BSE Main Board migration AND a direct NSE main-board listing (both special resolutions, passed 19-Sep) · (earlier in window: Board approves migration to the BSE Main Board and a direct NSE Main Board listing (postal ballot); FY26 annual report and new auditors; stock −22% to ₹2,229))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 2-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Routine; promoter −1.66pp over the half, cause not established · (earlier: AGM passed; main-board migration still awaiting exchange approval · (earlier: 🟢 Shareholders approved BSE SME → BSE Main Board migration AND a direct NSE main-board listing (both special resolutions, passed 19-Sep) · (earlier in window: Board approves migration to the BSE Main Board and a direct NSE Main Board listing (postal ballot); FY26 annual report and new auditors; stock −22% to ₹2,229)))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — Routine**
+Only the Reg 74(5) certificate (BSE, via Chrome). Screener promoter **65.57% (Mar) → 63.91% (Sep)**; cause not established (BSE-only; NSE SAST feed does not cover it).
+> **Why it matters:** Small, stated as an open fact.
+
+*Sweep: BSE announcements (via Chrome — BSE's JSON API is still Akamai-blocked from curl, re-tested 21-Oct); NSE SAST/insider feeds checked because September-quarter promoter holding moved ≥0.5pp, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 23-Sep → 6-Oct-2026 — AGM held 30-Sep, voting results filed 1-Oct**
 Swept **BSE** (543619, via Chrome): **outcome of AGM (30-Sep) and voting results (1-Oct) — no resolution defeated** — plus a trading-window closure.

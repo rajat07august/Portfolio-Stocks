@@ -12,11 +12,17 @@
 > **⚠️ Screener ticker note.** The company is **`SSEGL` on Screener** (`screener.in/company/SSEGL/`); **`SATHLOKHAR` returns HTTP 404.** The initiation profile twice recorded *"Screener data limited for SME"* and wrote its Numbers and Valuation sections without a balance sheet, cash flow or peer set. **The data was always there.** *Same class of error as OBSC and DYNAMATIC.* **SSEGL reports standalone only** — there is no consolidated page.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener, standalone — the consolidated page carries no data):** CMP **₹ 384** · market cap ₹ 998 Cr. · P/E 9.72x · ROCE 36.3 % · ROE 30.3 % · 52-wk ₹ 580 / 283
+**📍 Live market check — 21-Oct-2026 close (Screener, standalone — the consolidated page carries no data):** CMP **₹ 368** · market cap ₹ 957 Cr. · P/E 9.32x · ROCE 36.3 % · ROE 30.3 % · 52-wk ₹ 580 / 283
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟢 ₹117.6cr of new orders AND the company discloses a ₹1,239cr confirmed FY27 order book with a ₹23,505cr bid pipeline · (earlier: Business update advertised in Business Standard; 1.7 lakh sq ft PEB factory inaugurated 30-Aug, PEB now ~35% of the order book · (earlier in window: PEB plant inaugurated on schedule; confirmed FY27 orders ₹1,139cr (from ₹1,102cr), ₹22,654cr bid pipeline, ~70% growth guidance reaffirmed; new Godrej order ₹44cr; stock +32%))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 ₹117.6cr of new orders AND the company discloses a ₹1,239cr confirmed FY27 order book with a ₹23,505cr bid pipeline · (earlier: Business update advertised in Business Standard; 1.7 lakh sq ft PEB factory inaugurated 30-Aug, PEB now ~35% of the order book · (earlier in window: PEB plant inaugurated on schedule; confirmed FY27 orders ₹1,139cr (from ₹1,102cr), ₹22,654cr bid pipeline, ~70% growth guidance reaffirmed; new Godrej order ₹44cr; stock +32%)))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — Verified quiet — no filings**
+**No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟢 1-Oct-2026 — Three new orders totalling ₹117.6cr, and — more importantly — the company sizes its order book and pipeline**
 ⤴ **CORRECTED 6-Oct-2026.** *An earlier version said the order value was "not stated in the filing index" and attached no figure. The filing does state it, in detail, and it carries considerably more than the orders.*

@@ -3,11 +3,17 @@
 **Ticker:** ORIANA · NSE-SME: ORIANA · **Sector:** Power & Renewables (Solar EPC + Rooftop + Captive + Open Access + BESS + Green Ammonia) · **Conviction:** Medium-High (HELD 16-Jul-2026)
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 303** · market cap ₹ 3,078 Cr. · P/E 12.2x · ROCE 39.7 % · ROE 39.6 % · 52-wk ₹ 613 / 235 · **vs ₹294 at baseline (+3.1%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 249** · market cap ₹ 2,526 Cr. · P/E 10.0x · ROCE 39.7 % · ROE 39.6 % · 52-wk ₹ 613 / 235 · **vs ₹294 at baseline (-15.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 16-Jul-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟢🟢 THE FUNDING QUESTION IS BEING ANSWERED — the Actis divestment is executing: two first tranches received on subsidiaries with ~₹501cr of combined enterprise value, plus a promoter pledge release · (earlier: 🟢🟢 Two MSEDCL LOAs for 900 MW / 1800 MWh of BESS — ~₹3,870cr over 15 years, about 1.4x market cap; funding is now the whole question. Stock +13% to ₹308 · (earlier in window: ₹309cr of new EPC orders; ₹4,500cr green-hydrogen MoU; ~₹540cr of corporate guarantees approved (₹340cr on the ₹460cr SBI facility for the 234 MW floating-solar JV); 1:5 split effective; stock ₹272))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 16-Jul-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚠️ Guarantee on the JV's ₹460cr facility raised from 74% to 100% (→ ~₹660cr of guarantees vs ~₹763cr net worth); RPT postal ballot · (earlier: 🟢🟢 THE FUNDING QUESTION IS BEING ANSWERED — the Actis divestment is executing: two first tranches received on subsidiaries with ~₹501cr of combined enterprise value, plus a promoter pledge release · (earlier: 🟢🟢 Two MSEDCL LOAs for 900 MW / 1800 MWh of BESS — ~₹3,870cr over 15 years, about 1.4x market cap; funding is now the whole question. Stock +13% to ₹308 · (earlier in window: ₹309cr of new EPC orders; ₹4,500cr green-hydrogen MoU; ~₹540cr of corporate guarantees approved (₹340cr on the ₹460cr SBI facility for the 234 MW floating-solar JV); 1:5 split effective; stock ₹272)))</span></summary>
 <div class="upd-body">
+
+**⚠️ 6 → 21-Oct-2026 — The guarantee on the ₹460cr floating-solar facility widened from 74% to 100%**
+**The Board (6-Oct) revised the corporate guarantee for Oriana Usolar Joint Venture Pvt Ltd's ₹460cr SBI working-capital facility from 74% (~₹340cr) to the entire facility (₹460cr)**, subject to shareholder approval. A **postal ballot** (notice 6-Oct, dispatched 9-Oct) seeks approval for **material related-party transactions with Oriana Usolar JV**.
+> **Why it matters:** **Risk 11 (contingent liabilities) grows by ~₹120cr**: guarantees go from ~₹540cr to **~₹660cr** against ~₹763cr of March-2026 net worth *(arithmetic mine, on the figures recorded at the 19-Sep sweep)*. **Guaranteeing 100% of a facility for a 74%-owned JV means Oriana carries the partner's share of the risk.** The funding of the ₹3,870cr MSEDCL BESS awards is still undisclosed.
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟢🟢 25 and 30-Sep-2026 — The Actis sale is finally executing: two first tranches received, ~₹501cr of combined enterprise value**
 In continuation of disclosures dated **19-Oct-2025, 29-May-2026 and 30-Jun-2026**, Oriana has **received the consideration for the first tranche** of its divestment of its **entire 74% equity stake** in two subsidiaries to **Leo Energies Private Limited (formerly Helioact Power India 1 Private Limited), a group entity of Actis GP LLP**:
@@ -435,6 +441,8 @@ Weighted return: **~85% over 2 years** — very attractive.
 **Risk 10 — Recent retail interest surge (15k shareholders) = momentum risk.**
 
 **🆕 Risk 11 — Contingent liabilities from subsidiary financing (NEW — 19-Sep-2026).** Between 1-Aug and 14-Sep the Board approved guarantees of ~₹45cr, ₹148cr, ₹6cr and up to 74% of a ₹460cr SBI working-capital facility (~₹340cr, repayable on demand) for the 234 MW DVC floating-solar JV — about ₹540cr, or ~70% of March-2026 net worth, plus up to ₹118cr of new equity into three subsidiaries. **Watch:** total guarantees above ~₹700cr, any invocation, and shareholder approval of the SBI guarantee.
+
+> **⚠️ ACCUMULATING (21-Oct-2026)** — the Board raised the Oriana Usolar JV guarantee from 74% to **100% of the ₹460cr facility** (6-Oct), taking guarantees to **~₹660cr** against ~₹763cr of net worth *(my arithmetic)*, subject to shareholder approval.
 
 ---
 

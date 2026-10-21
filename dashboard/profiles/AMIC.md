@@ -13,11 +13,17 @@
 > **📋 WHAT THIS REFRESH FOUND.** The prior profile (4-Jul-2026, v2) was thorough and got most of the business right — it correctly identified the FY25 other-income distortion, the FY25 revenue decline, the ₹96.88cr warrant issue, the Amic Engg Tech subsidiary and the 30-Jun BSE notice. **What has changed is the weight of what sits around the numbers.** Since v2 I have established: **an arithmetic error in the audited consolidated results that survived a BSE discrepancy notice and a re-filing**; that the subsidiary is consolidated on **unaudited** figures; **three CFOs in seven months with the chair empty since 1-Apr-2026**; **a second BSE query, on a disclosure-timeliness breach the company admitted**; **a working-capital cycle that has more than doubled to 184 days**; **three consecutive and worsening years of negative free cash flow**; and **a serial preferential-issue programme that has raised ~₹151cr and diluted the share count 10.4%.** **The multiple has gone from 72x to 79.9x while FY26 earnings fell 20%.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 2,605** · market cap ₹ 3,008 Cr. · P/E 98.7x · ROCE 25.2 % · ROE 18.1 % · 52-wk ₹ 2,605 / 1,065 · **vs ₹1,957 at baseline (+33.1%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 2,118** · market cap ₹ 2,446 Cr. · P/E 80.2x · ROCE 25.2 % · ROE 18.1 % · 52-wk ₹ 2,605 / 1,065 · **vs ₹1,957 at baseline (+8.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 AGM passed; FY26 results error and the CFO vacancy still open · (earlier: Nothing filed; the FY26 results arithmetic error and the CFO vacancy remain open · (earlier in window: FY26 annual report read: the related-party note the profile called its top queue item is now answered (Dakor ₹4.65cr unchanged, Mackeil ₹2.04cr, family pay up five-fold); still no CFO; stock +17% to 87x))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: AGM passed; FY26 results error and the CFO vacancy still open · (earlier: Nothing filed; the FY26 results arithmetic error and the CFO vacancy remain open · (earlier in window: FY26 annual report read: the related-party note the profile called its top queue item is now answered (Dakor ₹4.65cr unchanged, Mackeil ₹2.04cr, family pay up five-fold); still no CFO; stock +17% to 87x)))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — Verified quiet — no filings**
+**No filings at all in the window on BSE (via Chrome)** — a verified negative, not an absence of searching (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: BSE announcements (via Chrome — BSE's JSON API is still Akamai-blocked from curl, re-tested 21-Oct), 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 23-Sep → 6-Oct-2026 — AGM held 30-Sep; all resolutions passed**
 Swept **BSE** (544037 — BSE-only, via Chrome): AGM proceedings (30-Sep), **scrutinizer's report and voting results filed 5-Oct with no resolution defeated**, and a trading-window closure. Nothing else.

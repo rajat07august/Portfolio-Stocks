@@ -14,11 +14,17 @@
 > **🆕 What the official transcript adds, and it is substantial:** **FY27 capex of ₹80–90 crore**, 80% of it into core kitchen sinks · **the factory is running seven days a week and management calls it *"a serious stress"*** · **the US tariff discount rollback is ~90% complete and is a price restoration, not a one-off credit** · **a Lowe's display-cost share of USD 3–4 million that "will not happen now"** · and Q1's soft quartz growth explained by **container delays, not demand**.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 1,030** · market cap ₹ 2,930 Cr. · P/E 27.2x · ROCE 18.0 % · ROE 17.4 % · 52-wk ₹ 1,281 / 732 · **vs ₹1,155 at baseline (-10.8%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 981** · market cap ₹ 2,796 Cr. · P/E 26.0x · ROCE 18.0 % · ROE 17.4 % · 52-wk ₹ 1,281 / 732 · **vs ₹1,155 at baseline (-15.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 ✅ The undisclosed postal ballot resolves to something benign — a special resolution for Prayasvin Patel's ID appointment; result due 2-Nov · (earlier: Prayasvin B. Patel appointed additional independent director; AGM held 22-Sep with all resolutions passed; postal ballot notice to follow · (earlier in window: New Chief Technology Officer; FY26 annual report and dividend payment date; nothing else filed; stock −2%))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Bobby Deol brand endorsement; Q2 call 5-Nov · (earlier: ✅ The undisclosed postal ballot resolves to something benign — a special resolution for Prayasvin Patel's ID appointment; result due 2-Nov · (earlier: Prayasvin B. Patel appointed additional independent director; AGM held 22-Sep with all resolutions passed; postal ballot notice to follow · (earlier in window: New Chief Technology Officer; FY26 annual report and dividend payment date; nothing else filed; stock −2%)))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — A celebrity endorsement; Q2 call 5-Nov**
+**Bobby Deol signed as brand endorser** (8-Oct). **Q2 call 5-Nov.**
+> **Why it matters:** Marketing spend, not a business change.
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **✅ 30-Sep-2026 — The postal ballot's subject is now known, and it is routine**
 The 23-Sep entry flagged that a postal ballot had been called with its subject matter **not stated** in the board-outcome filing, and noted that a ballot convened straight after an AGM usually carries something that could not wait. **The notice resolves that benignly.** It contains a **single special resolution: the appointment of Mr. Prayasvin B. Patel (DIN 00037394) as an Independent Director**, under Sections 149/150/152 and Schedule IV. Remote e-voting runs **2-Oct to 31-Oct-2026**; **results on or before 2-Nov-2026**; cut-off 25-Sep.

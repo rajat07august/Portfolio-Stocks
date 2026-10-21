@@ -10,11 +10,17 @@
 > ***The consequence: the entire CDMO transformation this profile describes happened in the window during which the company stopped taking analyst questions. The word "CDMO" appears zero times in the May-2025 transcript.*** **Everything about the new strategy in §4 is management's own written framing, unchallenged. It is labelled as such throughout.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 140** · market cap ₹ 7,699 Cr. · P/E 65.6x · ROCE 8.05 % · ROE 5.33 % · 52-wk ₹ 142 / 33.0 · **vs ₹104 at baseline (+34.6%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 116** · market cap ₹ 6,327 Cr. · P/E 53.9x · ROCE 8.05 % · ROE 5.33 % · 52-wk ₹ 151 / 33.0 · **vs ₹104 at baseline (+11.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 1-Sep-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟢 First-ever US ANDA filed (Sitagliptin, 3 strengths) — concrete CDMO progress, though still no earnings call · (earlier: CRISIL assigned an unsolicited ESG rating of 60 ('Adequate'); still no earnings call · (earlier in window: First phase of the capacity expansion completed ahead of schedule (API/CDMO reactors 535 KL → 614 KL); stock +16% to ₹121; still no earnings call))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 1-Sep-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟢 HP High Court quashed a ₹117.94cr GST show-cause notice (12-Oct) — the profile had never carried it · (earlier: 🟢 First-ever US ANDA filed (Sitagliptin, 3 strengths) — concrete CDMO progress, though still no earnings call · (earlier: CRISIL assigned an unsolicited ESG rating of 60 ('Adequate'); still no earnings call · (earlier in window: First phase of the capacity expansion completed ahead of schedule (API/CDMO reactors 535 KL → 614 KL); stock +16% to ₹121; still no earnings call)))</span></summary>
 <div class="upd-body">
+
+**🟢 6 → 21-Oct-2026 — High Court quashes a ₹117.94cr GST show-cause notice — one this profile never carried**
+**The Himachal Pradesh High Court (12-Oct) quashed the show-cause notice** from the CGST Commissionerate, Shimla, that sought recovery of **₹117,94,03,452 of 'excess' GST refund** plus interest and penalty, and disposed of the writ in the company's favour (filed 14-Oct). The SCN had been intimated on 4-Dec-2025 and the stay on 8-Jan-2026.
+> **Why it matters:** **⤴ CORRECTION of omission: this profile never recorded the ₹117.94cr SCN** — a demand larger than the company's FY26 reported PAT (₹96cr), on the record since December 2025. It is now quashed, which removes a contingent liability the profile should have carried. *The department may appeal; the filing does not say.*
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟢 28-Sep-2026 — First US ANDA submission: Sitagliptin Tablets USP**
 Morepen has **submitted its first Abbreviated New Drug Application to the USFDA**, for **Sitagliptin Tablets USP in 25 mg, 50 mg and 100 mg strengths.** The company frames it as extending *"the Company's established API and CDMO expertise into integrated finished dosage development and regulatory filing"*, strengthening **formulation, bioequivalence and regulatory dossier capabilities** and supporting *"specialized CDMO opportunities across regulated markets."*

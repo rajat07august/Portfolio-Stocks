@@ -15,11 +15,17 @@
 > **🆕 AND THE TRANSCRIPT CONTAINS THE ONE THING THAT MOST CHANGES HOW Q2FY27 SHOULD BE READ.** **A US tariff refund of *"anywhere around ₹50 crores plus"* net lands in Q2FY27 and is NOT in guidance.** CFO Deepak Joshi: *"the quarter 1… **there was no impact of tariff. We didn't receive anything in the quarter 1.** However, we have received roughly **30% to 40%** of what we are expecting in quarter 2… **we will get full in Q2. That is my expectation.**"* **The refresh's own downgrade trigger is *"operating margin falls back below 24%"* at Q2 — and a Q2 flattered by a ₹50cr one-off could hide exactly the deterioration that trigger is designed to catch.** *That is now flagged explicitly in §6.*
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 6,871** · market cap ₹ 15,964 Cr. · P/E 41.2x · ROCE 18.1 % · ROE 13.5 % · 52-wk ₹ 7,990 / 2,691 · **vs ₹7,124 at baseline (-3.6%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 6,663** · market cap ₹ 15,467 Cr. · P/E 39.9x · ROCE 18.1 % · ROE 13.5 % · 52-wk ₹ 7,990 / 2,691 · **vs ₹7,124 at baseline (-6.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 AGM passed cleanly; no further detail on the Lubrizol TPU MoU, whose first test is December commissioning · (earlier: 🟢 MoU with Lubrizol (Berkshire Hathaway) to build India's first dedicated TPU extrusion platform — ₹118cr, live by Dec-2026, management expects 150-200bps of consolidated EBITDA; AGM held 23-Sep · (earlier in window: No company event beyond FY26 annual report and dividend-tax notice; stock −5.6% to ₹6,724))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Q2 call 23-Oct; immaterial insider-code breach (₹5,000 penalty) · (earlier: AGM passed cleanly; no further detail on the Lubrizol TPU MoU, whose first test is December commissioning · (earlier: 🟢 MoU with Lubrizol (Berkshire Hathaway) to build India's first dedicated TPU extrusion platform — ₹118cr, live by Dec-2026, management expects 150-200bps of consolidated EBITDA; AGM held 23-Sep · (earlier in window: No company event beyond FY26 annual report and dividend-tax notice; stock −5.6% to ₹6,724)))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — Q2 call 23-Oct; a trivial insider-code breach**
+**Q2/H1FY27 earnings call on 23-Oct (11:30 IST)**; a one-on-one with Manulife MF on 22-Oct. **Insider-code report (10-Oct):** a General Manager made contra trades (16 shares bought, 26 sold between Dec-2025 and May-2026); the Audit Committee imposed a **₹5,000 penalty**. Also a lost-share-certificate notice.
+> **Why it matters:** The breach is immaterial. **Q2 is the quarter with the ₹50cr+ tariff refund that is not in guidance — report it both including and excluding the refund** (standing instruction).
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 23-Sep → 6-Oct-2026 — Nothing new on the TPU platform**
 The AGM (23-Sep) scrutinizer's report confirms **all resolutions passed**. Otherwise: two analyst-meet schedules, a trading-window closure (28-Sep) and a demat notice.

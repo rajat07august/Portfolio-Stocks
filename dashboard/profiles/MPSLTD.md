@@ -10,11 +10,17 @@
 > **📌 A structural event is in progress and shareholders vote on it tomorrow.** The **promoter holding company, ADI BPO Services Limited, is being amalgamated into MPS Limited** under Sections 230–232, with NCLT-convened meetings of equity shareholders and unsecured creditors on **22-August-2026**. **The swap ratio is calibrated to leave public shareholders untouched** — the arithmetic is checked in §5.5(b). **None of this was in the initiation.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 2,645** · market cap ₹ 4,525 Cr. · P/E 24.7x · ROCE 38.7 % · ROE 29.7 % · 52-wk ₹ 2,980 / 1,336 · **vs ₹2,898 at baseline (-8.7%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 2,326** · market cap ₹ 3,986 Cr. · P/E 21.8x · ROCE 38.7 % · ROE 29.7 % · 52-wk ₹ 2,980 / 1,336 · **vs ₹2,898 at baseline (-19.7%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 ISO/IEC 42001 AI-management certification; amalgamation notice advertised · (earlier: NCLT Chennai passed the Second Motion order (16-Sep) in the ADI BPO amalgamation — shareholder and creditor approvals taken on record · (earlier in window: Promoter-holdco merger: shareholders and creditors approved the scheme (22-Aug), NCLT second-motion order taken on record (16-Sep); new company secretary; stock −8%))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Routine notice only · (earlier: ISO/IEC 42001 AI-management certification; amalgamation notice advertised · (earlier: NCLT Chennai passed the Second Motion order (16-Sep) in the ADI BPO amalgamation — shareholder and creditor approvals taken on record · (earlier in window: Promoter-holdco merger: shareholders and creditors approved the scheme (22-Aug), NCLT second-motion order taken on record (16-Sep); new company secretary; stock −8%)))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — Routine**
+Newspaper notice on the special window for physical share transfers.
+> **Why it matters:** Nothing new.
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟢 29-30 Sep-2026 — ISO/IEC 42001:2023 certification, and the scheme notice advertised**
 A press release: *"MPS Earns ISO/IEC 42001:2023 Certification, Independent Proof of Ho[nest/responsible AI]…"* — **ISO/IEC 42001 is the AI management-system standard**, the first of its kind. Separately, a **newspaper publication of the notice** relating to the scheme (29-Sep). Trading window closed 25-Sep.

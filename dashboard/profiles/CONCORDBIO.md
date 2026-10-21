@@ -12,11 +12,17 @@
 > **Data note:** consolidated basis throughout. Standalone and consolidated are close for this company (unlike MPS), but consolidated is used everywhere.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 1,354** · market cap ₹ 14,161 Cr. · P/E 51.0x · ROCE 17.1 % · ROE 12.5 % · 52-wk ₹ 1,648 / 987 · **vs ₹1,571 at baseline (-13.8%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 1,269** · market cap ₹ 13,302 Cr. · P/E 47.9x · ROCE 17.1 % · ROE 12.5 % · 52-wk ₹ 1,615 / 987 · **vs ₹1,571 at baseline (-19.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 Postal ballot notice issued for the 1:1 bonus and the authorised-capital increase · (earlier: 🟢 1:1 bonus approved and authorised capital doubled; USFDA closed the Valthera formulation inspection with one minor non-GMP observation · (earlier in window: USFDA inspection of the Valthera formulation unit closes with one minor, non-GMP observation; Board to consider a bonus share issue on 23-Sep; stock −4.9%))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Routine filings only · (earlier: Postal ballot notice issued for the 1:1 bonus and the authorised-capital increase · (earlier: 🟢 1:1 bonus approved and authorised capital doubled; USFDA closed the Valthera formulation inspection with one minor non-GMP observation · (earlier in window: USFDA inspection of the Valthera formulation unit closes with one minor, non-GMP observation; Board to consider a bonus share issue on 23-Sep; stock −4.9%)))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — Verified quiet — routine filings only**
+Only the quarterly Reg 74(5) depository certificate (or equivalent routine items) on NSE. **Nothing material.**
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟢 24-Sep-2026 — Postal ballot notice for the bonus issue**
 Following the Board's approval on 23-Sep, the company has issued a **Notice of Postal Ballot** (24-Sep) seeking shareholder approval, with a newspaper publication on 25-Sep. Trading window closed 28-Sep.

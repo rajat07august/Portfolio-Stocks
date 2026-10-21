@@ -18,11 +18,28 @@
 > **📌 And note the anchor: those institutions paid ₹721 on 6 August. The stock is ₹900 today — a 24.8% premium to informed money, in under three weeks.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 1,189** · market cap ₹ 3,553 Cr. · P/E 91.3x · ROCE 28.6 % · ROE 23.5 % · 52-wk ₹ 1,191 / 366 · **vs ₹900 at baseline (+32.1%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 1,160** · market cap ₹ 3,467 Cr. · P/E 89.1x · ROCE 28.6 % · ROE 23.5 % · 52-wk ₹ 1,264 / 366 · **vs ₹900 at baseline (+28.9%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟢🟢 Commercial production COMMENCED at the new Savli bushing plant, and the US subsidiary signed a 3-year sales-representation agreement for the Mid-west; FY26 AR now read — CMD remuneration +107% to ₹289.34 lakh, and the Rule 5 comparison with employee increases is left BLANK · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: US subsidiary signs a 36-month sales-representation and utility-approvals agreement covering 19 states (no order, no value); stock +17.7% to ₹1,059 at 81x))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟢 H1FY27: revenue +95%, PAT +166%, ex-OI EBITDA margin 27.5%; order book ₹760cr+ (FY27 target ₹500cr+ already passed); CFO ₹45cr vs ₹9cr in all FY26 — but carried by liabilities, not collections · (earlier: 🟢🟢 Commercial production COMMENCED at the new Savli bushing plant, and the US subsidiary signed a 3-year sales-representation agreement for the Mid-west; FY26 AR now read — CMD remuneration +107% to ₹289.34 lakh, and the Rule 5 comparison with employee increases is left BLANK · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: US subsidiary signs a 36-month sales-representation and utility-approvals agreement covering 19 states (no order, no value); stock +17.7% to ₹1,059 at 81x)))</span></summary>
 <div class="upd-body">
+
+**🟢 6 → 21-Oct-2026 — H1FY27 results: revenue +95%, EBITDA margin 27.5% ex-other income, operating cash finally positive — order book ₹760cr+**
+Board approved H1FY27 results on 21-Oct (call held the same evening; transcript not yet filed). **Verified against the scanned consolidated statements**, rendered and read page by page:
+
+| ₹ cr | H1FY26 *(restated, Ind AS)* | **H1FY27** | YoY |
+|---|---|---|---|
+| Revenue from operations | 99.6 | **194.5** | **+95%** |
+| EBITDA ex-other income | 21.2 | **53.6** | **+152%** |
+| EBITDA margin ex-OI | 21.3% | **27.5%** | +6.2pp |
+| Gross margin *(materials incl. stock change)* | 44.9% | **52.0%** | +7.1pp |
+| PAT *(after JV share)* | 13.7 | **36.4** | **+166%** |
+| EPS (basic) | ₹4.77 | **₹12.55** | |
+
+**H1FY27 revenue is 83% of all of FY26 (₹235.2cr).** **Order book ₹760cr+ at 30-Sep** (₹400cr at Mar-26, ₹150cr at Mar-25), already past the FY27 target of ₹500cr+. **Operating cash flow ₹45.3cr in the half, against ₹8.8cr for the whole of FY26.** Balance sheet: equity ₹320cr (₹184cr at March, after the ₹106cr preferential), borrowings down to ₹10.3cr from ₹31.1cr, cash and bank ₹95.7cr. **Jarod:** first RIP-bushing invoice raised in H1; end-to-end commissioning guided for Q3FY27, adding ~6,000 units a year. Also: seismic qualification of 138 kV and 230 kV IEEE bushings; first 245 kV wall-through bushing supplied to a PSU; US representation agreements covering 22 states.
+> **Why it matters:** **This answers the profile's sharpest open thread — cash conversion — but only partly.** CFO turned strongly positive, yet **it did not come from collections**: receivables rose ₹39.2cr and other current assets ₹29.5cr, offset by other current liabilities **+₹37.1cr** (likely customer advances — *my inference*), payables +₹25.9cr, and a **₹7.2cr non-cash 'provision for expenses'** (₹0.97cr in all of FY26). **Two labelling points:** the company's 28.1%/23.3% EBITDA margins **include other income** although the deck footnote says they exclude it; on the true ex-OI basis growth is *higher* (+152%, not +136%). And Screener's Sep-2026 promoter holding is **53.79%**, one point below the 54.79% the preferential issue alone implies — **cause not established** (BSE-only name; NSE's SAST feed does not cover it). **Conviction held pending the call transcript.**
+
+*Sweep: BSE announcements (via Chrome — BSE's JSON API is still Akamai-blocked from curl, re-tested 21-Oct); NSE SAST/insider feeds checked because September-quarter promoter holding moved ≥0.5pp, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟢🟢 30-Sep-2026 — Commercial production begins at the new manufacturing facility**
 Yash has **commenced commercial production at its new plant and raised the first commercial invoice from it.** The facility is at **Plot No. 32-A, Suncity Industrial Park, Village Haripura, Taluka Savli, District Vadodara, Gujarat**, built for production of **Resin Impregnated Paper (RIP) / Resin Impregnated Synthetic (RIS) transformer condenser graded bushings and their parts and accessories.**
@@ -262,6 +279,41 @@ They look like ribbed ceramic cones on top of a substation transformer. **They a
 
 > **⚠️ Basis note: YASH reports HALF-YEARLY.** There is no quarterly series. All periods below are **six-month or full-year**, and the most recent print is **FY26 (year to 31-Mar-2026)**, discussed on the **14-May-2026** call. **The next print is H1FY27, around Nov-2026.**
 
+### 📊 H1FY27 Refresh — Full Numbers Print (21-Oct-2026)
+
+*Source: consolidated H1FY27 results (scanned; pages rendered and read), press release and investor deck, all filed on BSE 21-Oct-2026. The H1FY26 comparative is restated to Ind AS (the company moved from IGAAP in FY26).*
+
+| ₹ cr | H1FY26 | **H1FY27** | YoY |
+|---|---|---|---|
+| Revenue from operations | 99.59 | **194.51** | **+95.3%** |
+| Other income | 2.04 | 1.07 | |
+| Materials (incl. stock change) | 54.86 | 93.39 | |
+| **Gross margin** | 44.9% | **52.0%** | **+7.1pp** |
+| Employee cost | 10.84 | 20.99 | 10.8% of revenue (10.9%) |
+| Other expenses | 12.65 | 26.54 | 13.6% (12.7%) |
+| **EBITDA ex-other income** | **21.24** | **53.58** | **+152%** |
+| **EBITDA margin ex-OI** | 21.3% | **27.5%** | +6.2pp |
+| *Company-stated EBITDA (includes other income)* | *23.27 (23.4%)* | *54.66 (28.1%)* | *+135%* |
+| Finance cost · Depreciation | 2.15 · 2.63 | 2.45 · 4.40 | |
+| PBT | 18.50 | **47.81** | +158% |
+| **PAT (after JV share)** | **13.68** | **36.37** | **+166%** |
+
+> **⚠️ Basis note:** the deck footnotes EBITDA as *"excluding Other Income"*, but its 28.1% and 23.3% only reconcile **with** other income included. Rebuilt from the filed P&L, the ex-OI margins are 27.5% and 21.3% — growth is **higher** on the honest basis.
+
+| Balance sheet (₹ cr) | 31-Mar-2026 | **30-Sep-2026** |
+|---|---|---|
+| Equity | 183.98 | **319.78** *(₹106cr preferential + H1 profit)* |
+| Borrowings (total) | 31.09 | **10.27** |
+| Cash + other bank balances | 20.07 | **95.65** |
+| Trade receivables | 30.57 | **69.51** |
+| Inventory | 66.65 | 71.83 |
+| PP&E · CWIP | 45.52 · 43.03 | **112.30 · 17.17** *(Jarod capitalised)* |
+| Other current liabilities | 14.77 | **51.84** |
+
+**Cash flow H1FY27: CFO ₹45.27cr (FY26 full year ₹8.82cr).** Working-capital lines: receivables −₹39.20cr, other current assets −₹29.50cr, payables +₹25.88cr, other liabilities +₹37.07cr; plus a **₹7.20cr non-cash 'provision for expenses' add-back** (FY26: ₹0.97cr). Capex ₹44.42cr. *My reading: the cash came from the liability side, not from collections — the conversion question is answered in amount but not yet in quality.*
+
+**Order book ₹760cr+ at 30-Sep-2026** (₹400cr Mar-26, ₹150cr Mar-25) — **the FY27 target of ₹500cr+ was passed at the half-year.** Jarod: first RIP invoice in H1; end-to-end commissioning guided for **Q3FY27**.
+
 ### 📊 FY26 — the landmark year, in management's own numbers
 
 > *"Financial year '26 has been a **landmark year**… we achieved our **highest ever revenue, EBITDA, and profit after tax**, while also closing the year with an **all-time high order book**."*
@@ -376,6 +428,8 @@ They look like ribbed ceramic cones on top of a substation transformer. **They a
 | **12-Aug-2026** *(correction)* | — | — | **Header corrected: the profile had read "NSE: YASHHIGHV". Verified against NSE's `EQUITY_L.csv` — no such symbol exists. BSE 544310 is the only feed.** |
 | **24-Aug-2026** *(this profile)* | **₹900** | **HELD at HIGH (Under Watch — valuation and cash conversion)** | Converted to always-current format; **first full refresh; concall folder created (11 PDFs).** **🔴 QUEUE CORRECTION: YASH does not report quarterly. There is no Q1FY27 — Screener's columns run Sep/Mar only, and the 3-Aug board meeting was the FY26 Board's Report, a ₹1.40 dividend and an ESOP, not results.** **🆕 A ₹106cr preferential issue allotted 6-Aug to Malabar, ValueQuest, Motilal Oswal and WhiteOak at ₹721 — delivered inside a stated ₹100–110cr range.** **🆕 FY26 was a record year: revenue +57%, EBITDA +75%, margin 25.7%, order book ₹400cr+.** **⚠️ And two promoter-holding series that do not agree, resolved in favour of Screener's.** |
 | **19-Sep-2026** *(filings refresh)* | **₹1,059** | **HELD at HIGH (Under Watch)** — valuation flag sharper | US subsidiary signs a 36-month representation and homologation agreement (Ensales, 19 states; no value stated; RIP/RIS from 2027). Stock +17.7% to 81x with no earnings or order event. |
+
+| **21-Oct-2026** *(H1FY27 results)* | **₹1,160** | **HELD at HIGH (Under Watch)** — pending the call transcript | **Revenue +95%, PAT +166%, ex-OI EBITDA margin 27.5%; order book ₹760cr+ (target ₹500cr+ passed); CFO ₹45cr vs ₹9cr for all FY26 but carried by liabilities and a ₹7.2cr provision add-back, while receivables more than doubled.** Promoter 53.79% on Screener, 1pp below the preferential-issue arithmetic, cause not established. |
 
 **The trajectory in one line.** **v1 got the thesis right and the reporting cadence wrong** — *and the seven weeks since have delivered a record year, a well-priced institutional raise, and a greenfield still four months from its decisive test.*
 

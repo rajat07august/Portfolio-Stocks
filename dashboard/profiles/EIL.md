@@ -13,11 +13,17 @@
 > **Meanwhile the stock is up 17.5% since that refresh, to within 1.9% of its 52-week high.** ***Better quarter, worse price, weaker pipeline — and that combination is the downgrade.***
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 309** · market cap ₹ 17,353 Cr. · P/E 22.1x · ROCE 30.4 % · ROE 23.4 % · 52-wk ₹ 321 / 164 · **vs ₹262 at baseline (+17.9%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 261** · market cap ₹ 14,755 Cr. · P/E 18.8x · ROCE 30.4 % · ROE 23.4 % · 52-wk ₹ 321 / 164 · **vs ₹262 at baseline (-0.4%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 Nothing new; the Dangote execution schedule is still undisclosed · (earlier: 🟢🟢 US$450m+ Dangote contract for a 700,000 BPD greenfield refinery in KENYA — bigger than annual revenue; stock +15% to ₹306. Also ₹5.31 lakh fines from each exchange for board-composition non-compliance · (earlier in window: Ministry extends the CMD's additional charge as Director (Commercial) by three months from 30-Sep; new statutory auditors for FY27; stock +1.5%))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Routine filings only · (earlier: Nothing new; the Dangote execution schedule is still undisclosed · (earlier: 🟢🟢 US$450m+ Dangote contract for a 700,000 BPD greenfield refinery in KENYA — bigger than annual revenue; stock +15% to ₹306. Also ₹5.31 lakh fines from each exchange for board-composition non-compliance · (earlier in window: Ministry extends the CMD's additional charge as Director (Commercial) by three months from 30-Sep; new statutory auditors for FY27; stock +1.5%)))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — Verified quiet — routine filings only**
+Only the quarterly Reg 74(5) depository certificate (or equivalent routine items) on NSE. **Nothing material.**
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 23-Sep → 6-Oct-2026 — Nothing new after the Dangote award**
 Only a trading-window closure (24-Sep) and the board-comments filing on the exchange fines already recorded on 23-Sep.

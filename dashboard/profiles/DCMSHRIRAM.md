@@ -10,11 +10,17 @@
 > **✅ Concall gate CLOSED and verified.** The Q1FY27 call (30-Jul-2026) was machine-transcribed from the company's official audio on 1-Aug under §4A, and **verified line-by-line against the official transcript published 6-Aug-2026.** Every load-bearing figure checked out verbatim — the ECU level, the chlorine price, the ₹376cr MAT credit, the 19% cash-tax rate, the demerger commitment, the 85% chlorine tie-up and the Bioseed quote. **All quotes below are from the official transcript.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 998** · market cap ₹ 15,558 Cr. · P/E 11.4x · ROCE 11.5 % · ROE 11.5 % · 52-wk ₹ 1,409 / 886 · **vs ₹1,082 at baseline (-7.8%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 993** · market cap ₹ 15,509 Cr. · P/E 11.3x · ROCE 11.5 % · ROE 11.5 % · 52-wk ₹ 1,409 / 886 · **vs ₹1,082 at baseline (-8.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟢 Two chlorine-downstream plants commissioned at Jhagadia (30-Sep) — aluminium chloride and calcium chloride, which is the company acting on the weak leg of the ECU · (earlier: No filings at all on either exchange in the window — verified. The caustic price contradiction stays open to Q2FY27 · (earlier in window: Kota aluminium-extrusion plant commissioned; ICRA AA+/Stable reaffirmed with higher limits; stock −8% toward its 52-week low))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Q2 results 26-Oct; interim dividend record date 30-Oct · (earlier: 🟢 Two chlorine-downstream plants commissioned at Jhagadia (30-Sep) — aluminium chloride and calcium chloride, which is the company acting on the weak leg of the ECU · (earlier: No filings at all on either exchange in the window — verified. The caustic price contradiction stays open to Q2FY27 · (earlier in window: Kota aluminium-extrusion plant commissioned; ICRA AA+/Stable reaffirmed with higher limits; stock −8% toward its 52-week low)))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — Q2 board meeting 26-Oct, interim dividend record date 30-Oct**
+Board meets **26-Oct** for Q2/H1FY27 results and may declare an **interim dividend (record date 30-Oct)**. Also a newspaper notice on the special window for re-lodging physical share transfers.
+> **Why it matters:** Nothing new on the business. **Q2 is where the caustic question gets answered** (management's July ECU ~₹30,000 vs Tijori's series) — and where the tax-credit distortion in reported PAT is either repeated or not.
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟢 30-Sep-2026 — Aluminium Chloride and Calcium Chloride plants commissioned at Jhagadia**
 Two plants were commissioned next to the existing caustic soda facilities:

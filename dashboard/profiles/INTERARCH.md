@@ -10,11 +10,17 @@
 > **📌 Basis note: Interarch reports STANDALONE only.** Screener's consolidated page is empty and the board resolution reads *"Standalone Unaudited Financial Results"*. **Every figure in this profile is standalone.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 1,668** · market cap ₹ 2,804 Cr. · P/E 20.5x · ROCE 23.7 % · ROE 16.8 % · 52-wk ₹ 2,763 / 1,600 · **vs ₹1,690 at baseline (-1.3%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 1,557** · market cap ₹ 2,620 Cr. · P/E 19.2x · ROCE 23.7 % · ROE 16.8 % · 52-wk ₹ 2,763 / 1,539 · **vs ₹1,690 at baseline (-7.9%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟡 ₹8.30cr GST demand for FY2022-23 (1-Oct) — NOT the income-tax matter, which is still unaddressed; heavy-structures plant commissioned and new orders · (earlier: Nothing filed — but the 29-Sep income-tax document deadline is live and undisclosed · (earlier in window: 🔴 OMISSION CORRECTED: the profile never carried the August-2025 income-tax search; a block-assessment notice for 2019-2025 was received 15-Sep with documents due 29-Sep; conviction moved to Under Watch))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟡 Two orders; President-Corporate Finance retired; income-tax matter still undisclosed · (earlier: 🟡 ₹8.30cr GST demand for FY2022-23 (1-Oct) — NOT the income-tax matter, which is still unaddressed; heavy-structures plant commissioned and new orders · (earlier: Nothing filed — but the 29-Sep income-tax document deadline is live and undisclosed · (earlier in window: 🔴 OMISSION CORRECTED: the profile never carried the August-2025 income-tax search; a block-assessment notice for 2019-2025 was received 15-Sep with documents due 29-Sep; conviction moved to Under Watch)))</span></summary>
 <div class="upd-body">
+
+**🟡 6 → 21-Oct-2026 — Two orders; the income-tax matter still undisclosed**
+**Two orders from undisclosed customers** (6 and 8-Oct). **Anil Kumar Chandani, President – Corporate Finance & Strategy, retired** (14-Oct).
+> **Why it matters:** **Still nothing on the Section 142(1) income-tax notice whose document deadline passed on 29-Sep.** A finance-head retirement in that window is worth noting, without implying a link.
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟡 1-Oct-2026 — A ₹8.30cr GST demand under Section 73(1), for FY2022-23**
 A **DRC-01 notice under Section 73(1) of the CGST/Punjab GST Act 2017**, received on the GST portal on 1-Oct-2026 from the **Assistant Commissioner, Mohali-1, Ropar, Punjab**. Alleged: **mismatch between sales declared in GSTR-1 and e-way bills issued, and ITC claimed on supplies blocked under Section 17(5).** Quantified impact **₹8,29,76,414** — basic **₹4,55,91,436** + interest **₹3,28,25,834** + penalty **₹45,59,144**.

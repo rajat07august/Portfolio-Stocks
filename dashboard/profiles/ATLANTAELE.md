@@ -11,11 +11,17 @@
 > **🔴 THE ONE THING TO CARRY.** Q1FY27 revenue grew **48%** and the CFO's prepared remarks called it *"primarily volume-driven,"* with *"no material changes in pricing or product mix."* **The company's own volume disclosure, given in Q&A twenty minutes later, shows volumes up 21.5% and realisation per MVA up 21.8% — i.e. 45% of the growth was price.** The CMD had explained that exact mechanism himself one quarter earlier. **The growth is real; the characterisation of it is not.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 1,894** · market cap ₹ 14,565 Cr. · P/E 66.7x · ROCE 45.3 % · ROE 31.7 % · 52-wk ₹ 2,200 / 708 · **vs ₹1,902 at baseline (-0.4%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 1,687** · market cap ₹ 12,961 Cr. · P/E 59.4x · ROCE 45.3 % · ROE 31.7 % · 52-wk ₹ 2,200 / 708 · **vs ₹1,902 at baseline (-11.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 3-Sep-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 AGM passed; 400 kV revenue still zero · (earlier: AGM proceedings and voting results — all resolutions passed · (earlier in window: No company event beyond an investor-meet notice; stock −12.4% to ₹1,666, now 24% below its ₹2,200 52-week high))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 3-Sep-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Routine filings only · (earlier: AGM passed; 400 kV revenue still zero · (earlier: AGM proceedings and voting results — all resolutions passed · (earlier in window: No company event beyond an investor-meet notice; stock −12.4% to ₹1,666, now 24% below its ₹2,200 52-week high)))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — Verified quiet — routine filings only**
+Only the quarterly Reg 74(5) depository certificate (or equivalent routine items) on NSE. **Nothing material.**
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 23-Sep → 6-Oct-2026 — AGM scrutinizer's report filed; all resolutions passed**
 AGM scrutinizer's report (23-Sep) and a trading-window closure (25-Sep).

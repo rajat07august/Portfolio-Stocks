@@ -12,11 +12,17 @@
 > ***Applying the refresh's own logic consistently: if 55x with +12% justified MH, then 63.8x with −4% justifies MEDIUM.*** **Nothing in the business caused this, and nothing in §3.5 or §4 has deteriorated.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 1,973** · market cap ₹ 18,628 Cr. · P/E 56.9x · ROCE 18.0 % · ROE 15.0 % · 52-wk ₹ 2,484 / 889 · **vs ₹2,212 at baseline (-10.8%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 1,822** · market cap ₹ 17,193 Cr. · P/E 52.5x · ROCE 18.0 % · ROE 15.0 % · 52-wk ₹ 2,484 / 970 · **vs ₹2,212 at baseline (-17.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 No filings on either exchange · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No company event beyond an ESOP allotment; stock −3% to ₹2,148))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Routine filings only · (earlier: No filings on either exchange · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No company event beyond an ESOP allotment; stock −3% to ₹2,148)))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — Verified quiet — routine filings only**
+Only the quarterly Reg 74(5) depository certificate (or equivalent routine items) on NSE. **Nothing material.**
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 23-Sep → 6-Oct-2026 — No filings at all**
 **Zero announcements on either feed** in the window.

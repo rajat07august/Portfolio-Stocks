@@ -5,11 +5,17 @@
 **⚠️ Monarch holds no earnings calls, files no investor presentations, and its FY26 Annual Report is still unfiled — every judgement below is inferred from statutory filings.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 354** · market cap ₹ 2,805 Cr. · P/E 15.5x · ROCE 27.6 % · ROE 20.5 % · 52-wk ₹ 407 / 235 · **vs ₹379 at baseline (-6.6%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 339** · market cap ₹ 2,694 Cr. · P/E 14.9x · ROCE 27.6 % · ROE 20.5 % · 52-wk ₹ 407 / 235 · **vs ₹379 at baseline (-10.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 AGM passed; no concalls, so filings are the only channel · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: No company event beyond the FY26 annual report; stock −3.4% to ₹366))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Routine filings only · (earlier: AGM passed; no concalls, so filings are the only channel · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: No company event beyond the FY26 annual report; stock −3.4% to ₹366)))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — Verified quiet — routine filings only**
+Only the quarterly Reg 74(5) depository certificate (or equivalent routine items) on NSE. **Nothing material.**
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 23-Sep → 6-Oct-2026 — AGM held 25-Sep; all resolutions passed**
 AGM proceedings (25-Sep), scrutinizer's report (28-Sep) — **no resolution defeated** — and a trading-window closure.

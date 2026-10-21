@@ -17,7 +17,7 @@
 | **Weighted 2-yr return** | **≈ +16%** · base +12% / bull +76% / **bear −47%** · plus ~0.3% yield |
 | **Dividend** | ₹4.50/share for FY26 (approved at 3-Aug-2026 AGM) · yield **0.29%** |
 | **Concall gate** | 🔴 **STRUCTURAL — no calls exist.** Not a fetch failure. Proceeding on Rajat's explicit data-limited instruction. |
-| **Credit rating** | **CARE A (Stable) / CARE A1**, reaffirmed 23-Feb-2026 — on ₹3,070cr of facilities (LT ₹1,205cr, ST ₹1,800cr, LT/ST ₹65cr). **CARE rates on a consolidated approach and explicitly factors in MP Birla group support.** |
+| **Credit rating** | **CARE A (Stable) / CARE A1**, reaffirmed 23-Feb-2026 — on ₹3,070cr of facilities (LT ₹1,205cr, ST ₹1,800cr, LT/ST ₹65cr). ⤴ **Reaffirmed again 12-Oct-2026 on ₹3,979cr (+30%): LT ₹1,509cr, ST ₹2,375cr, LT/ST ₹95cr.** **CARE rates on a consolidated approach and explicitly factors in MP Birla group support.** |
 | **Basis** | Standalone has **no subsidiaries**; consolidated = standalone + equity-accounted **Vindhya Telelinks (29.15%, associate)** + **Birla Furukawa Fibre Optics (26.14%, JV)**. **Revenue, EBITDA, interest and debt are identical on both bases; only PAT, book value and ROE differ.** |
 
 > **⚠️ Three things to know before reading any number in this profile.**
@@ -26,6 +26,23 @@
 > **(3) The promoter group is split.** At three consecutive shareholder votes (Oct-2024, Sep-2025, Aug-2026) **the same 93,57,737 promoter-group shares — 27.0% of the company — voted against the board's director (re-)appointments, including Chairman Harsh V. Lodha's.** The board's side has won each vote. Background: the **probate suit over the Priyamvada Devi Birla estate (T.S. No. 6 of 2004)** is still open, with Special Leave Petitions pending in the Supreme Court (AR FY26). **Which bloc is which, and why, is not stated in any filing** — the attribution below is my arithmetic (§3.5).
 
 ---
+
+<!-- SINCE-BASELINE:START -->
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 1,377** · market cap ₹ 4,784 Cr. · P/E 23.9x · ROCE 11.7 % · ROE 8.90 % · 52-wk ₹ 1,775 / 576 · **vs ₹1,551 at baseline (-11.2%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Oct-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟢 CARE A/Stable reaffirmed on facilities up 30% to ₹3,979cr; Q2 results board meeting 4-Nov</span></summary>
+<div class="upd-body">
+
+**🟢 6 → 21-Oct-2026 — CARE A reaffirmed on 30% more bank lines; Q2 board meeting fixed for 4-Nov**
+**CARE (12-Oct) reaffirmed CARE A (Stable) / CARE A1** and the facilities rated rose from ₹3,070cr to **₹3,979cr (+30%)**: long-term **₹1,509cr** (from ₹1,205cr), short-term **₹2,375cr** (from ₹1,800cr), LT/ST **₹95cr** (from ₹65cr). **Board meeting for Q2/H1FY27 results: 4-Nov-2026** (BSE 21-Oct); trading window closed to 6-Nov.
+> **Why it matters:** The rating holding while bank lines grow 30% matters for a company whose capex has gone ₹277cr → ₹617cr and whose receivables are the main unknown. **The larger lines are capacity for that build-out and working capital, not money drawn** — the drawn figure comes with the H1 balance sheet on 4-Nov. **That is the fold-in Rajat asked for: revenue vs the ≥25% guide, margin ex-other income, and the first H1 balance sheet.**
+
+*Sweep: NSE announcements + BSE announcements (via Chrome — BSE's JSON API is still Akamai-blocked from curl, re-tested 21-Oct), 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
+
+</div>
+</details>
+<!-- SINCE-BASELINE:END -->
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">

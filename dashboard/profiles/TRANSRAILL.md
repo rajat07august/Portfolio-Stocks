@@ -12,11 +12,17 @@
 > **🎯 This name carries a live Under Watch trigger with four named conditions, set at the Q1FY27 review and testable at Q2FY27 (~Nov-2026). It is in §5.5(a).**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 477** · market cap ₹ 6,405 Cr. · P/E 15.4x · ROCE 33.6 % · ROE 20.0 % · 52-wk ₹ 767 / 401 · **vs ₹467 at baseline (+2.1%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 469** · market cap ₹ 6,311 Cr. · P/E 15.1x · ROCE 33.6 % · ROE 20.0 % · 52-wk ₹ 759 / 401 · **vs ₹467 at baseline (+0.4%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟢 Tower capacity +12,000 MTPA (172,400 → 184,400) and ₹574cr of new orders — a second delivery item in two weeks · (earlier: 🟢 Conductor capacity +70%, 24,000 → 40,800 km/annum, Silvassa Phase 1 complete — delivering on the Jan/May-2025 intimations · (earlier in window: Quiet interval: no order or governance filing beyond the FY26 annual report and investor meets; stock −12% to ₹409, at its 52-week low))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟢 ₹1,747cr of orders (FY27 intake now ₹3,356cr); 🆕 49% of a 990 MW MSEDCL solar portfolio for ₹20cr — project cost ~₹3,900cr, structured for "financial control" · (earlier: 🟢 Tower capacity +12,000 MTPA (172,400 → 184,400) and ₹574cr of new orders — a second delivery item in two weeks · (earlier: 🟢 Conductor capacity +70%, 24,000 → 40,800 km/annum, Silvassa Phase 1 complete — delivering on the Jan/May-2025 intimations · (earlier in window: Quiet interval: no order or governance filing beyond the FY26 annual report and investor meets; stock −12% to ₹409, at its 52-week low)))</span></summary>
 <div class="upd-body">
+
+**🟢 6 → 21-Oct-2026 — ₹1,747cr of orders in the window, and a ₹20cr entry into owning a 990 MW solar portfolio**
+**Orders:** ₹412cr (6-Oct; mainly HTLS reconductoring using its own conductors), ₹408cr (14-Oct; mainly a MENA substation), **₹927cr (21-Oct; anchored by domestic 765 kV and 400 kV transmission lines)**. The company says **FY27 order intake is now ₹3,356cr**, with more than ₹2,300cr declared in the last three weeks. **Solar:** the Board (19-Oct) approved buying **49% of NOPL Pace Green Energy Pvt Ltd for up to ₹20cr cash**. NOPL is developing **~990 MW (AC) of solar in Maharashtra**, backed by a **25-year PPA with MSEDCL at ₹3.10/unit**; the **indicative project cost is ~₹3,900cr** with debt sanctioned. The press release says the structure gives Transrail **"financial and project management control"** under arrangements with **Onix Renewable Ltd**, with an option to go **up to 100%**. Not a related-party transaction. Also: 2,58,800 ESOP shares allotted (9-Oct).
+> **Why it matters:** **Order intake was Risk 1.** ₹3,356cr by 21-Oct is about **34% of the maintained ₹10,000cr+ guidance at ~56% of the year** — still behind, but the run-rate has clearly turned. **The solar move is new and is the bigger question.** ₹20cr of equity is small, but **"financial control" of a ₹3,900cr project could mean consolidating its debt**, and it moves an EPC contractor into owning a generation asset *(my inference: the filings do not say how NOPL will be accounted for, how much equity Transrail must fund to build it, or whether Transrail is the EPC contractor)*. **New watch items: the accounting treatment, the total equity commitment, and who builds it.**
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟢 30-Sep-2026 — Tower capacity raised again, and ₹574cr of new orders**
 Two filings the same day:
@@ -441,6 +447,8 @@ CFO Khandelwal, pressed by Kartikay Agrawal: *"It is **INR80 crores** loan, and 
 
 **Risk 1 — 🔴 Order inflow.** *Ranked fifth at initiation; it is now first.* **Q1FY27 intake ₹1,034cr + ~₹400cr L1 against a maintained ₹10,000cr+ guide, implying ~₹9,000cr across nine months. The order book FELL, ₹16,361cr → ₹16,035cr.** Management's answer is the **₹20,000cr of bids quoted in Q1 converting at 10-15% in Q2–Q3**, credible for EPC lead times (*"there is a lag between the bidding and the order award… 3 to 5 months"*) — **but this is now two consecutive periods of intake below the guided pace, after FY26 missed at ₹8,520cr against ₹10,000cr.**
 
+> **✅ IMPROVING (21-Oct-2026)** — ₹1,747cr announced 6–21 Oct; FY27 intake **₹3,356cr** per the company, ~34% of the ₹10,000cr+ guidance at ~56% of the year.
+
 **Risk 2 — 🔴 Working capital and net debt reversal.** **₹174cr → ₹466cr; net debt/EBITDA 0.33x → 0.67x; WC days 81 → 85; ROCE 25.76% → 23.58%.** **Dated, falsifiable commitments: 0.33x by March, sub-81 days.** *This is precisely the category trap named at initiation, with RAJESH's FY26 CFO blow-up as the watchlist parallel.*
 
 **Risk 3 — 🔴 The revenue plateau.** **Range-bound ₹1,561cr–₹1,863cr for five consecutive quarters** after FY26's +30%. **TTM growth 15% on sales, 10% on profit, against 3-year CAGRs of 30% and 56%.** **Either H2 breaks the range, or FY26 was the peak growth rate.**
@@ -464,6 +472,8 @@ CFO Khandelwal, pressed by Kartikay Agrawal: *"It is **INR80 crores** loan, and 
 **Risk 11 — 🟡 Competition intensity.** Road-EPC and Chinese firms entering T&D. **Management insists it will not chase revenue over margin — bid discipline will be tested.**
 
 **Risk 12 — ⚪ Related-party and governance items.** **Burberry ₹80cr (repayment contracted before Sep-2026)** and a **₹67cr contingent liability.** *The ValuePickr thread also raised RHP legal disclosures — "criminal litigations, tax proceedings, history of non-compliance" — which tie to that contingent liability and warrant a closer RHP read at a future review.*
+
+**🆕 Risk 13 — From building power assets to owning them (NEW — 21-Oct-2026).** The Board approved buying 49% of NOPL Pace Green Energy (~990 MW solar, MSEDCL 25-year PPA at ₹3.10/unit) for up to ₹20cr, **structured for "financial and project management control"** with an option to 100%. **Indicative project cost ~₹3,900cr.** *Not disclosed: accounting treatment (equity-accounted or consolidated), Transrail's total equity commitment, or who holds the EPC contract.* A consolidated ₹3,900cr asset would change the balance sheet that Risk 2 already flags *(my inference)*.
 
 ---
 

@@ -27,11 +27,17 @@
 > **3. The recapitalisation is now visible in the register.** A Reg 29(2) filing on 11-Aug confirms **59,76,096 equity shares issued by preferential allotment**, with **Chairman & MD Krishan Lalit Bansal's holding falling by more than 2%**; listing and trading approvals came 23-Jul and 28-Jul. **Screener now carries a July-2026 shareholding column: promoter 70.18% → 65.13%, FII 2.17% → 4.67%, DII 10.79% → 14.16%.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 647** · market cap ₹ 4,869 Cr. · P/E 59.4x · ROCE 10.7 % · ROE 9.31 % · 52-wk ₹ 760 / 183 · **vs ₹646 at baseline (+0.2%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 530** · market cap ₹ 3,990 Cr. · P/E 48.7x · ROCE 10.7 % · ROE 9.31 % · 52-wk ₹ 760 / 183 · **vs ₹646 at baseline (-18.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🔴 AGM DEFEATED the Whole-time Director's pay revision — institutions voted 50.29% against; separately, lenders can convert debt to equity on an event of default · (earlier: AGM held 23-Sep; analyst meet and an Anjar plant visit, no numbers disclosed · (earlier in window: August order update: inflow ₹94cr, executed ₹87cr, book ₹2,436cr (flat); FY27 inflow so far ~₹955–973cr vs ₹2,000cr guide; stock +3.6%))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟢 India piping order book ₹2,158cr at 30-Sep; ₹46cr new contracts; nuclear framework agreement (counterparty unnamed) · (earlier: 🔴 AGM DEFEATED the Whole-time Director's pay revision — institutions voted 50.29% against; separately, lenders can convert debt to equity on an event of default · (earlier: AGM held 23-Sep; analyst meet and an Anjar plant visit, no numbers disclosed · (earlier in window: August order update: inflow ₹94cr, executed ₹87cr, book ₹2,436cr (flat); FY27 inflow so far ~₹955–973cr vs ₹2,000cr guide; stock +3.6%)))</span></summary>
 <div class="upd-body">
+
+**🟢 6 → 21-Oct-2026 — September order position, ₹46cr of contracts and a nuclear framework agreement**
+**Monthly order position (9-Oct), India piping:** power **₹1,287.9cr** closing (inflow ₹125.0cr, executed ₹42.2cr in September) and oil & gas **₹870.4cr** (inflow ₹69.9cr, executed ₹40.8cr); FY27 inflow to 30-Sep ₹439.6cr power and ₹525.2cr oil & gas. **₹46cr of contracts** secured (15-Oct). The windmill-tower subsidiary DEE Fabricom received an email of intent (8-Oct; value not in the extracted text). **Framework agreement (16-Oct) with an unnamed domestic EPC contractor to pursue nuclear power piping** jointly — DEE as strategic partner for pre-bid, design, manufacturing and supply.
+> **Why it matters:** Order inflow continues; **the nuclear framework names no counterparty and carries no value**, so it is an option, not an order. Promoter holding at 65.13% reflects the ₹300cr preferential already in the profile.
+
+*Sweep: NSE announcements; NSE SAST/insider feeds checked because September-quarter promoter holding moved ≥0.5pp, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🔴 24-Sep-2026 — Shareholders DEFEAT the Whole-time Director's remuneration revision**
 At the AGM, **Resolution 7 — a special resolution for the "Revision in remuneration of Ms. Shikha Bansal, Whole-time Director, with effect from 1st April 2026" — was NOT passed**, receiving **71.0833% in favour against the 75% a special resolution requires.** The promoter group was recorded as **interested**, so most of its block did not vote (7,532,275 of 49,004,787 shares voted, all in favour). The decisive bloc:

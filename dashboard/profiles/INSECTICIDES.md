@@ -16,11 +16,17 @@
 > **🗂️ Housekeeping:** duplicate `Fetched Concalls/INSECTICID/` and `INSECTICIDES/` folders **consolidated into `INSECTICIDES/`** (38 files); the six older transcripts had no text extracts and now do.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 582** · market cap ₹ 1,694 Cr. · P/E 13.5x · ROCE 15.8 % · ROE 12.0 % · 52-wk ₹ 776 / 519 · **vs ₹610 at baseline (-4.6%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 558** · market cap ₹ 1,625 Cr. · P/E 13.0x · ROCE 15.8 % · ROE 12.0 % · 52-wk ₹ 776 / 519 · **vs ₹610 at baseline (-8.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 CRISIL reaffirms both long- and short-term ratings — no change from the previous review · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No filing at all since 24-Aug on either exchange; stock ₹610 → ₹606))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Q2 results/call 5-Nov · (earlier: CRISIL reaffirms both long- and short-term ratings — no change from the previous review · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No filing at all since 24-Aug on either exchange; stock ₹610 → ₹606)))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — Q2 results and call 5-Nov**
+Results and call **5-Nov, 5pm**.
+> **Why it matters:** Nothing new.
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟢 5-Oct-2026 — CRISIL reaffirms both ratings; no change**
 ⤴ **CORRECTED 6-Oct-2026.** *An earlier version recorded this as a rating intimation whose direction was "not yet read". It has now been read.*

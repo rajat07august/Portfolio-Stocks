@@ -13,11 +13,17 @@
 > **And the thing the downgrade actually feared — dilution with promoters standing aside — has happened in reverse.** On **19-Aug-2026** the board approved a **₹180cr preferential issue in which every single allottee is a promoter**, taking promoter holding **UP from 58.31% to ~60.4%**. ⤴ **UPDATE 31-Aug/17-Sep-2026: the price was raised to ₹1,461 on NSE's valuation observations (same ₹180cr, 12,32,031 shares), and the EGM approved it with 99.99% of votes. The stock has since run to ₹2,176, so the issue is now ~33% below market. See the refresh block.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 2,230** · market cap ₹ 5,991 Cr. · P/E 36.6x · ROCE 18.8 % · ROE 15.8 % · 52-wk ₹ 2,500 / 705 · **vs ₹1,513 at baseline (+47.4%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 2,194** · market cap ₹ 5,898 Cr. · P/E 36.1x · ROCE 18.8 % · ROE 15.8 % · 52-wk ₹ 2,516 / 705 · **vs ₹1,513 at baseline (+45.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟢🟢 ₹250cr QIP allotted at ₹2,088 on 25-Sep — four days after promoters subscribed their preferential at ₹1,461. ₹430cr raised in a week · (earlier: Promoter preferential COMPLETED — 12,32,031 shares at ₹1,461 for ₹180cr; TSF Investments 25.01% → 27.81%, priced ~33% below market · (earlier in window: Stock +44% in four weeks to ₹2,176 with an NSE price query and no disclosed cause; promoter preferential issue repriced to ₹1,461 and approved at the EGM))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Routine; promoter move = QIP/preferential already recorded · (earlier: 🟢🟢 ₹250cr QIP allotted at ₹2,088 on 25-Sep — four days after promoters subscribed their preferential at ₹1,461. ₹430cr raised in a week · (earlier: Promoter preferential COMPLETED — 12,32,031 shares at ₹1,461 for ₹180cr; TSF Investments 25.01% → 27.81%, priced ~33% below market · (earlier in window: Stock +44% in four weeks to ₹2,176 with an NSE price query and no disclosed cause; promoter preferential issue repriced to ₹1,461 and approved at the EGM)))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — Routine**
+Only the Reg 74(5) certificate. Screener promoter **58.31% → 56.86%** reflects the ₹250cr QIP net of the promoter preferential (TSF Investments SAST filing 29-Sep), both already in the profile.
+> **Why it matters:** Nothing new.
+
+*Sweep: NSE announcements; NSE SAST/insider feeds checked because September-quarter promoter holding moved ≥0.5pp, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟢🟢 24-26 Sep-2026 — A ₹250cr QIP at ₹2,088, four days after the promoter preferential at ₹1,461**
 A **Qualified Institutions Placement** opened 24-Sep and the Fundraise Committee **allotted 11,97,318 equity shares of ₹10 at ₹2,088 per share** (premium ₹2,078) on 25-Sep, **aggregating ₹249,99,99,984 — ₹250cr.** The price carried a **discount of ₹109.10, i.e. 4.97%, to the floor price of ₹2,197.10.**

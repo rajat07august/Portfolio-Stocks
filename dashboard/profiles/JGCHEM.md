@@ -4,11 +4,17 @@
 **Thesis current as of: 17-Sep-2026 · Tracking since: 17-Sep-2026**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 628** · market cap ₹ 2,462 Cr. · P/E 32.8x · ROCE 17.7 % · ROE 13.2 % · 52-wk ₹ 688 / 298 · **vs ₹583 at baseline (+7.7%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 586** · market cap ₹ 2,293 Cr. · P/E 30.5x · ROCE 17.7 % · ROE 13.2 % · 52-wk ₹ 695 / 298 · **vs ₹583 at baseline (+0.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 17-Sep-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 CARE Edge ASSIGNS CARE A+ (Stable) / A1+ on ₹19.75cr of bank facilities — a notch above the existing CRISIL A · (earlier: No filings since the profile was written)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 17-Sep-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Investor meetings only · (earlier: CARE Edge ASSIGNS CARE A+ (Stable) / A1+ on ₹19.75cr of bank facilities — a notch above the existing CRISIL A · (earlier: No filings since the profile was written))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — Investor meetings**
+Investor meetings 12, 15 and 16-Oct (Nuvama Alternatives and others); share-capital audit report.
+> **Why it matters:** Nothing new.
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟢 24-Sep-2026 — CARE Edge assigns CARE A+ (Stable) and A1+ on ₹19.75cr of bank facilities**
 ⤴ **CORRECTED 6-Oct-2026.** *An earlier version recorded this as "unread". It has now been read.*

@@ -12,11 +12,17 @@
 > **🔴 The disclosure gap that governs everything below: GMDC has not held an earnings call since 29-May-2025.** Across **472 NSE filings**, the last earnings-call filing is that date; before it, August 2024. **No call was held after FY26 results (14-May-2026) or after Q1FY27 (31-Jul-2026), and no investor presentation appears anywhere in the recent record.** This profile is therefore built from **statutory filings and press releases only**. The standing §9 data-gap queue item — *"FY26 concalls needed"* — has been **closed as uncloseable: the calls were never held.** *A ₹18,261cr company that no longer speaks to shareholders, in a year containing a ₹522.65cr exceptional item and a 30% fall in operating profit.*
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 492** · market cap ₹ 15,630 Cr. · P/E 27.4x · ROCE 10.8 % · ROE 4.22 % · 52-wk ₹ 772 / 464 · **vs ₹574 at baseline (-14.3%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 443** · market cap ₹ 14,078 Cr. · P/E 24.7x · ROCE 10.8 % · ROE 4.22 % · 52-wk ₹ 772 / 441 · **vs ₹574 at baseline (-22.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 New Managing Director — Mr Ajay Bhadoo, IAS — appointed from 29-Sep; AGM passed · (earlier: CARE reaffirms AA+/Stable and A1+; short-term facilities enhanced ₹5cr → ₹25cr · (earlier in window: CARE AA+/Stable reaffirmed; CERT-In 'probable data breach' on the corporate website disclosed (operations unaffected); FY26 annual report out; stock −3%))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ ESG rating; Q2 board 30-Oct · (earlier: New Managing Director — Mr Ajay Bhadoo, IAS — appointed from 29-Sep; AGM passed · (earlier: CARE reaffirms AA+/Stable and A1+; short-term facilities enhanced ₹5cr → ₹25cr · (earlier in window: CARE AA+/Stable reaffirmed; CERT-In 'probable data breach' on the corporate website disclosed (operations unaffected); FY26 annual report out; stock −3%)))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — ESG rating**
+CRISIL ESG 58 (unsolicited, 19-Oct). Board **30-Oct** for Q2.
+> **Why it matters:** Nothing new.
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟡 29-30 Sep-2026 — A new Managing Director, and the AGM**
 **Mr Ajay Bhadoo, IAS, appointed Managing Director** with effect from 29-Sep-2026. The AGM was held 30-Sep; proceedings and scrutinizer's report filed, **all resolutions passed.** Trading window closed 29-Sep.

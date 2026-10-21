@@ -12,11 +12,17 @@
 > **🔴 The single rule for this company: tax-normalise every profit comparison.** FY26's effective tax rate was **2.7%**; FY25's was 26.6%; Q1FY27's was 33%. **Reported PAT is not comparable across any two periods here without adjustment**, and the headline records that justified a High conviction at initiation were substantially an accounting event. **Read the PBT line first.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 259** · market cap ₹ 35,858 Cr. · P/E 11.2x · ROCE 8.42 % · ROE 11.9 % · 52-wk ₹ 388 / 230 · **vs ₹275 at baseline (-5.8%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 237** · market cap ₹ 32,878 Cr. · P/E 10.2x · ROCE 8.42 % · ROE 11.9 % · 52-wk ₹ 388 / 230 · **vs ₹275 at baseline (-13.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟢 50:50 JV with NALCO approved for a 1080 MW captive thermal plant; ₹500cr CP; a new Executive Director · (earlier: ₹500cr commercial paper issued; the CMD is given additional charge of Director (Finance) for three months — a second portfolio on one office · (earlier in window: Permanent CMD appointed (the CFO, who vacates his seat); US$100m ECB approved; CRISIL AAA reaffirmed; 110 MW solar PPA signed; new joint auditors))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟢 50 MW/200 MWh BESS award (WBSEDCL); ₹1,000cr CP; Board asks the Ministry of Coal to fill board seats · (earlier: 🟢 50:50 JV with NALCO approved for a 1080 MW captive thermal plant; ₹500cr CP; a new Executive Director · (earlier: ₹500cr commercial paper issued; the CMD is given additional charge of Director (Finance) for three months — a second portfolio on one office · (earlier in window: Permanent CMD appointed (the CFO, who vacates his seat); US$100m ECB approved; CRISIL AAA reaffirmed; 110 MW solar PPA signed; new joint auditors)))</span></summary>
 <div class="upd-body">
+
+**🟢 6 → 21-Oct-2026 — A 50 MW / 200 MWh battery-storage award, and the board on its own governance fines**
+**NLC India Renewables won 50 MW / 200 MWh of standalone BESS at Arambag, West Bengal (WBSEDCL LoA, 14-Oct).** ₹1,000cr of commercial paper issued (12-Oct). **The Board noted the exchanges' fines** for non-compliant committee composition and no woman director in the June quarter, and asked for a communication to the **Ministry of Coal to appoint the directors** (6-Oct). CRISIL ESG 57 (unsolicited).
+> **Why it matters:** A small storage award; the governance note is the more telling item — **the board composition that draws the fines is in the Ministry's hands, not the company's.**
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟢 29-Sep-2026 — Board approves a 50:50 JV with NALCO for a 1,080 MW captive thermal plant**
 The Board approved **incorporation of a joint venture company with National Aluminium Company Limited (NALCO)**, equity **50:50**, for development of a **1,080 MW (4 × 270 MW) thermal captive power plant in phases** to meet NALCO's captive power requirements, **and exploring options of a long-term PPA for NALCO's renewable energy requirements** — subject to statutory and administrative approvals and DIPAM guidelines.

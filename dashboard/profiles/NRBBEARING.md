@@ -20,11 +20,17 @@
 > **⚠️ Two versions of the Q1FY27 transcript exist.** NRB filed one at 13:04 on 13-Aug-2026 and a **"Revised Earnings Call Transcript" at 18:19 the same day**, citing *"a typographical error."* All quotes below are from the **revised** file, which is authoritative. See §3.5 for what the correction actually changed — it is not nothing.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 537** · market cap ₹ 5,206 Cr. · P/E 34.8x · ROCE 18.4 % · ROE 15.6 % · 52-wk ₹ 560 / 213 · **vs ₹484 at baseline (+11.0%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 454** · market cap ₹ 4,404 Cr. · P/E 29.5x · ROCE 18.4 % · ROE 15.6 % · 52-wk ₹ 560 / 213 · **vs ₹484 at baseline (-6.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 Nothing filed; June's 6.47pp promoter drop still unexplained · (earlier: Second NSE volume-spurt query in five days, answered with the standard 'normal market forces' reply; June's 6.47pp promoter drop still unexplained · (earlier in window: Promoter pledge falls again (Tata Capital release of 23 lakh shares; 3.10% of capital still pledged vs 39.80% in March), but two promoter-group holders also SOLD 5.1 lakh shares on 11-Sep; NSE volume spurt; stock +8.7%))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚠️ MD Harshbeena Zaveri sold 3,10,677 shares (0.32%) on market 18–30 Sep (disclosed on the SAST feed); June-quarter 6.47pp fall still unexplained · (earlier: Nothing filed; June's 6.47pp promoter drop still unexplained · (earlier: Second NSE volume-spurt query in five days, answered with the standard 'normal market forces' reply; June's 6.47pp promoter drop still unexplained · (earlier in window: Promoter pledge falls again (Tata Capital release of 23 lakh shares; 3.10% of capital still pledged vs 39.80% in March), but two promoter-group holders also SOLD 5.1 lakh shares on 11-Sep; NSE volume spurt; stock +8.7%)))</span></summary>
 <div class="upd-body">
+
+**⚠️ 6 → 21-Oct-2026 — The MD sold 3.1 lakh shares on the market in late September**
+NSE's **SAST feed** (not the announcements feed, which is why the 6-Oct sweep did not see these) carries three Reg 29(2) filings by **MD Harshbeena Sahney Zaveri**: a **market sale of 2,47,630 shares on 18 and 21-Sep** (0.26%, filed 29-Sep), **18,450 shares on 23–24 Sep** (filed 1-Oct) and **44,597 shares on 29–30 Sep** (filed 8-Oct) — **3,10,677 shares, 0.32% of the company, in all.** Her holding including encumbered shares is now **41.14%** (3,00,254-share pledge unchanged at 3.10%). The only announcement-feed filing in the window was a routine Reg 74(5) certificate. **Read alongside:** the 17-Jun Reg 29(2) filings on the same feed are **pledge releases** (1.96cr shares, 20.22%) — the MD's total stake was 41.48% before and after — so they do **not** explain the June-quarter fall from 51.20% to 44.73%.
+> **Why it matters:** **These sales are disclosed, so they do not trip the Under-Watch trigger as written** (an *inadequately disclosed* sale). **But they change the character of the promoter story:** with the 11-Sep trust sale already on record, **the promoter group has now sold ~0.84% on the market in three weeks** while the June-quarter 6.47pp fall is still unexplained. **Sep-2026 shareholding is not yet on Screener; it will show whether anything else moved.** *(Sources: NSE SAST Reg 29(2) forms read at source.)*
+
+*Sweep: NSE announcements; NSE SAST/insider feeds checked because September-quarter promoter holding moved ≥0.5pp, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 23-Sep → 6-Oct-2026 — Nothing material; the June promoter-holding fall is still unexplained**
 A single trading-window closure (28-Sep).
@@ -434,6 +440,8 @@ Three things held it down:
 | **19-Sep-2026** *(filings refresh)* | **HELD at Medium (Under Watch)** — trigger not fired | **₹526** | *(~+20% at ₹484; lower at ₹526)* | **Pledge cut a further 2.37% (30,00,254 shares, 3.10% still pledged vs 39.80% in March); two promoter-group holders sold 5.1 lakh shares on 11-Sep, adequately disclosed; June-quarter holding fall still unexplained; NSE volume spurt 18-Sep; stock +8.7%.** |
 
 **🎯 The Under Watch trigger, specified:** **if the 6.47pp promoter decline proves to be an inadequately disclosed sale, downgrade M → ML regardless of operating performance.** Resolution expected at the **FY26 Annual Report** or the **Q2FY27 call (~Nov-2026)**.
+
+> **⤴ UPDATE 21-Oct-2026:** the MD sold **3,10,677 shares (0.32%) on the market between 18 and 30-Sep**, disclosed under Reg 29(2) on NSE's SAST feed (29-Sep, 1-Oct, 8-Oct). Disclosed, so the trigger as written is not met — **but with the trust's 11-Sep sale the promoter group has sold ~0.84% in three weeks, and the June-quarter fall is still unexplained.** The 17-Jun Reg 29(2) filings are pledge releases and do not explain it either.
 
 ### (b) The dated baseline
 

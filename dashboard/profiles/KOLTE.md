@@ -10,11 +10,17 @@
 > **📌 THE DEFINING FACT OF THIS PROFILE: Kolte-Patil has held no earnings call since August 2025 — four consecutive quarters.** It is not a gap in this repository; **the company formally notified the exchanges each time that it would not host one.** Every judgement below rests on filings and investor decks **without any management Q&A**, and no analyst has been able to ask about the ₹150cr GST matter, the volume decline, or the Mumbai economics. **On 19-Aug-2026 the reason it gave for the latest blackout — *"leadership transition"* — resolved itself into a named CEO.** See §5.5(b).
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 434** · market cap ₹ 3,849 Cr. · P/E 31.0x · ROCE -0.32 % · ROE -4.36 % · 52-wk ₹ 557 / 292 · **vs ₹469 at baseline (-7.5%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 418** · market cap ₹ 3,716 Cr. · P/E 29.9x · ROCE -0.32 % · ROE -4.36 % · 52-wk ₹ 557 / 292 · **vs ₹469 at baseline (-10.9%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 CARE REAFFIRMS CARE AA- on the ₹250cr listed NCDs after reviewing FY26 and Q1FY27 · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: Strongest-ever launch: 600+ apartments and over ₹600cr of sales in 60 hours at 'Vyana at The Reserve', Pune; stock nonetheless −8%))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟢 Record Q2 pre-sales ₹1,019cr (+52%); collections +33%; ₹6,000cr GDV signed in Mumbai · (earlier: CARE REAFFIRMS CARE AA- on the ₹250cr listed NCDs after reviewing FY26 and Q1FY27 · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: Strongest-ever launch: 600+ apartments and over ₹600cr of sales in 60 hours at 'Vyana at The Reserve', Pune; stock nonetheless −8%)))</span></summary>
 <div class="upd-body">
+
+**🟢 6 → 21-Oct-2026 — Record quarterly pre-sales: ₹1,019cr, +52%**
+**Q2FY27 operational update (13-Oct): sales value ₹1,019cr (+52% YoY), H1 ₹1,636cr (+27%); collections ₹795cr (+33%), H1 ₹1,509cr (+32%)**; Q2 realisation flat at ₹7,829/sq ft, H1 ₹8,368 (+10%). The 'Vyana at The Reserve' launch in Pune sold ₹616cr; **six Mumbai projects signed, ₹6,000cr of GDV.**
+> **Why it matters:** Collections growing roughly with sales is the part that matters for a developer. **Realisation was flat in the quarter, so the growth is volume and launch-led.**
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟢 30-Sep / 1-Oct-2026 — CARE reaffirms CARE AA- on the ₹250cr listed NCDs**
 ⤴ **CORRECTED 6-Oct-2026.** *An earlier version recorded this as a rating intimation whose direction was "not yet read". It has now been read.*

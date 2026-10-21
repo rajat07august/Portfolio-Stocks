@@ -4,11 +4,17 @@
 **Thesis current as of: 19-Sep-2026 · Tracking since: 19-Sep-2026**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 491** · market cap ₹ 2,973 Cr. · P/E 6.18x · ROCE 19.2 % · ROE 15.6 % · 52-wk ₹ 600 / 229 · **vs ₹470 at baseline (+4.5%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 464** · market cap ₹ 2,805 Cr. · P/E 5.86x · ROCE 19.2 % · ROE 15.6 % · 52-wk ₹ 600 / 229 · **vs ₹470 at baseline (-1.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 19-Sep-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 Trading window closed; Q2FY27 is the windfall test · (earlier: Trading window closed ahead of Q2FY27 — the quarter that tests how much of the crude windfall held)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 19-Sep-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟢 CARE A+ outlook Stable → Positive (12-Oct) · (earlier: Trading window closed; Q2FY27 is the windfall test · (earlier: Trading window closed ahead of Q2FY27 — the quarter that tests how much of the crude windfall held))</span></summary>
 <div class="upd-body">
+
+**🟢 6 → 21-Oct-2026 — CARE revises the outlook to Positive**
+**CARE (12-Oct) reaffirmed CARE A+ / A1+ and revised the long-term outlook from Stable to Positive** (₹64cr long-term facilities). The press release was filed with the intimation.
+> **Why it matters:** A second agency view to set beside ICRA's A+ (Stable) of May-2026. **A Positive outlook arriving after the Q1 windfall quarter is the agency underwriting that some of it stays on the balance sheet** *(my reading; CARE's rationale should be read in full before the Q2 fold-in)*. The open question is unchanged: how much of the crude windfall held in Q2 (~Nov).
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 23-Sep → 6-Oct-2026 — Nothing material**
 A single trading-window closure (23-Sep). Both feeds swept.
@@ -38,7 +44,7 @@ The only filing since the profile was written is the SEBI PIT trading-window clo
 | **Weighted 2-yr return** | **≈ +8%** · base +6% / bull +51% / **bear −41%** · plus ~0.6% yield |
 | **Dividend yield** | **0.64%** (₹3/share recommended for FY26) |
 | **Concall gate** | 🟡 **AMBER, and the date is the finding: 6 transcripts read, but the latest is Q2FY24 (9-Nov-2023). There has been NO earnings call for 34 months.** Verified on both feeds: 161 BSE filings and 165 NSE filings since Sep-2023 contain no transcript after 13-Nov-2023. The only investor communication since is a generic deck (15-Nov-2024). Current-period evidence comes from the FY24/FY25/FY26 Annual Reports, six quarterly results filings, three ICRA rationales and the Reg 30/SAST feed |
-| **Credit rating** | **[ICRA]A+ (Stable) / A1+**, reaffirmed 15-May-2026 (₹124cr bank facilities) |
+| **Credit rating** | **[ICRA]A+ (Stable) / A1+**, reaffirmed 15-May-2026 (₹124cr bank facilities) · ⤴ **CARE A+ / A1+, outlook revised Stable → Positive, 12-Oct-2026** |
 | **Basis** | **Consolidated.** One subsidiary: **Panol Industries RMC FZE**, Ras Al Khaimah (UAE), 100% owned, roughly a third of revenue. Standalone + subsidiary revenue and PAT sum *exactly* to consolidated in Q1FY27 (₹1,247.86 + ₹487.29 = ₹1,735.15cr; ₹217.52 + ₹91.39 = ₹308.91cr), so there are no inter-company eliminations to adjust for |
 
 > **⚠️ Three things to know before reading any number in this profile.**

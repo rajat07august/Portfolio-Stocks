@@ -8,11 +8,17 @@
 > **The operating thesis is current as of the Q1FY27 print (7-Aug) and the earnings call (10-Aug).** Two things have been added since: the **official transcript was filed 13-Aug and the machine transcription has now been verified against it** (§9 data-quality note 1 — one figure was wrong and is corrected below), and a **promoter-group transmission on 17-Aug** following a death in the family (§5.5(b)). Neither changes the thesis.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 213** · market cap ₹ 14,364 Cr. · P/E 17.5x · ROCE 20.5 % · ROE 15.3 % · 52-wk ₹ 320 / 210 · **vs ₹229 at baseline (-7.0%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 201** · market cap ₹ 13,545 Cr. · P/E 16.5x · ROCE 20.5 % · ROE 15.3 % · 52-wk ₹ 320 / 199 · **vs ₹229 at baseline (-12.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟡 Moving into battery storage: a new BESS/renewables EPC subsidiary and ₹50cr more into the BESS plant vehicle — diversification away from the iron-ore core · (earlier: AGM passed cleanly; Anand Rathi G200 Summit meetings disclosed no new information · (earlier in window: 2 MnT pellet plant back in operation on 29-Aug after ~46 days down; promoter transmission (17-Aug) formalised; stock +1.7%))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟢 EC for the 20 GWh BESS plant; Godawari Energy Solutions incorporated; JPL stake sale tranche 2 (₹10cr) · (earlier: 🟡 Moving into battery storage: a new BESS/renewables EPC subsidiary and ₹50cr more into the BESS plant vehicle — diversification away from the iron-ore core · (earlier: AGM passed cleanly; Anand Rathi G200 Summit meetings disclosed no new information · (earlier in window: 2 MnT pellet plant back in operation on 29-Aug after ~46 days down; promoter transmission (17-Aug) formalised; stock +1.7%)))</span></summary>
 <div class="upd-body">
+
+**🟢 6 → 21-Oct-2026 — Environmental clearance for the 20 GWh battery plant; a new subsidiary**
+**Godawari New Energy received environmental clearance (5-Oct) for the industrial building of a 20 GWh battery energy storage system plant at AURIC Bidkin, Maharashtra.** A new wholly-owned subsidiary, **Godawari Energy Solutions Pvt Ltd**, incorporated 17-Oct. Second tranche of the Jammu Pigments sale: 3,35,100 shares for ₹10cr (13-Oct), stake 39.99% → 38.27%. 2,72,000 shares allotted on warrant conversion (8-Oct).
+> **Why it matters:** The BESS project is moving through approvals; **capex size and funding are what to watch.**
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟡 29-Sep / 1-Oct-2026 — Two steps into battery storage, away from the ore-and-steel core**
 1. **₹50cr further investment in Godawari New Energy Private Limited (GNEPL)**, a wholly owned subsidiary, for *"capex and working capital requirements of GNEPL for setting up Battery Energy Storage System Plant."* GNEPL allotted GPIL **5,00,00,000 0.1% Non-Cumulative Participating Optionally Convertible Redeemable Preference Shares of ₹10 each at par, ₹50.00 crore, on a rights basis** on 28-Sep. This continues an intimation of 19-May-2026.

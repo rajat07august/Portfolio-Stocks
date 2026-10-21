@@ -8,11 +8,17 @@
 > **🎧 Sourcing note. Mayur is a HELD POSITION and falls under the §4A "transcribe immediately" tier.** It also **files no investor decks — it is transcript-only.** The Q1FY27 call (6-Aug-2026) was machine-transcribed the same day from company audio; **the official transcript was filed on 10-Aug-2026 and the machine version has now been verified against it.** **All quotes in this profile are from the official transcript** — which turned out to contain **three material disclosures the machine version had lost entirely**, including multi-year revenue guidance. See §9 data-quality note 1.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 717** · market cap ₹ 3,116 Cr. · P/E 15.0x · ROCE 24.5 % · ROE 18.0 % · 52-wk ₹ 907 / 471 · **vs ₹757 at baseline (-5.3%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 721** · market cap ₹ 3,139 Cr. · P/E 15.2x · ROCE 24.5 % · ROE 18.0 % · 52-wk ₹ 907 / 471 · **vs ₹757 at baseline (-4.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 Fifteen days on, STILL NOTHING FILED about Bagaria's position; the 28-Sep board change is Roongta's scheduled retirement, not him · (earlier: 🔴 The WTD's re-appointment was DEFEATED at the AGM (70.44% for, needed 75%) and the promoter block split 70/30 against itself; earlier, shareholders voted down the family pay resolution and the founder-CMD could not speak · (earlier in window: Shareholders voted DOWN the promoter-family related-party remuneration (62.9% against); founder-CMD could not speak at the 18-Sep AGM; stock −2%))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ GM-Marketing (SMP) resigned 9-Oct; still no filing on the defeated WTD resolution · (earlier: Fifteen days on, STILL NOTHING FILED about Bagaria's position; the 28-Sep board change is Roongta's scheduled retirement, not him · (earlier: 🔴 The WTD's re-appointment was DEFEATED at the AGM (70.44% for, needed 75%) and the promoter block split 70/30 against itself; earlier, shareholders voted down the family pay resolution and the founder-CMD could not speak · (earlier in window: Shareholders voted DOWN the promoter-family related-party remuneration (62.9% against); founder-CMD could not speak at the 18-Sep AGM; stock −2%)))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — GM-Marketing resigns; still nothing on Bagaria**
+**Ashutosh Pandey, General Manager – Marketing (Senior Management Personnel), resigned on 9-Oct** for personal reasons and to pursue opportunities outside, relieved the same day. Also an IEPF share-transfer notice (10-Oct).
+> **Why it matters:** One SMP exit is not material on its own. **What still matters is what has not been filed: thirty-three days after the AGM defeat, nothing addresses Arun Bagaria's position.** The trigger stands — who chairs the Q2FY27 call.
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🔴 23-Sep → 6-Oct-2026 — The succession question is unanswered, and the silence is the finding**
 **No filing of any kind has addressed Arun Bagaria's position** since shareholders defeated his re-appointment on 18-Sep. The one board change in the window is **Mr. Ratan Kumar Roongta ceasing as Independent Director on 27-Sep upon completion of his second term** — the scheduled expiry this profile already had on record from the 5-Aug board meeting, **not a consequence of the vote.** Otherwise: a trading-window closure (28-Sep, so Q2FY27 results are near), a CRISIL ESG rating, and a physical-share re-lodgement notice.

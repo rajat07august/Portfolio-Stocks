@@ -4,11 +4,17 @@
 **Thesis current as of: 18-Sep-2026 · Tracking since: 18-Sep-2026**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 1,100** · market cap ₹ 2,307 Cr. · P/E 58.8x · ROCE 23.5 % · ROE 19.0 % · 52-wk ₹ 1,148 / 445 · **vs ₹1,094 at baseline (+0.5%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 968** · market cap ₹ 2,030 Cr. · P/E 51.8x · ROCE 23.5 % · ROE 19.0 % · 52-wk ₹ 1,148 / 445 · **vs ₹1,094 at baseline (-11.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 18-Sep-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 Two trading-window closures only · (earlier: No filings since the profile was written)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Sep-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: Two trading-window closures only · (earlier: No filings since the profile was written))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — Verified quiet — no filings**
+**No filings at all in the window on BSE (via Chrome)** — a verified negative, not an absence of searching (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: BSE announcements (via Chrome — BSE's JSON API is still Akamai-blocked from curl, re-tested 21-Oct), 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 23-Sep → 6-Oct-2026 — Nothing material**
 Swept **BSE** (543920 — CFF is not NSE-listed, via Chrome): **two trading-window closures and nothing else.**

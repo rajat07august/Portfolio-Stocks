@@ -12,11 +12,17 @@
 > **This is a cyclical at a trough, and the profile is written that way.** Earnings-based multiples are close to meaningless here; **book value is the informative anchor.** Management files a transcript every quarter and answers directly — which, across this refresh batch, is not the norm.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 78.8** · market cap ₹ 4,874 Cr. · P/E 30.6x · ROCE 5.00 % · ROE 3.04 % · 52-wk ₹ 99.0 / 60.1 · **vs ₹72 at baseline (+9.4%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 70.8** · market cap ₹ 4,385 Cr. · P/E 27.6x · ROCE 5.00 % · ROE 3.04 % · 52-wk ₹ 97.5 / 60.1 · **vs ₹72 at baseline (-1.7%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 17-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 Routine PIT disclosure; the Oman acquisition still to consolidate · (earlier: Completed the 70% buy of Arabian Water Tech LLC (Oman) — for OMR 21,000, a nominal sum · (earlier in window: Omani water-technology subsidiary acquisition completed (70% of Arabian Water Tech LLC, OMR 21,000 paid); nothing else material; stock +2%))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 17-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟢 Promoter group bought 3.09cr shares on market (28–29 Sep) → 54.53%; Belgrave sold 2.89cr the same day · (earlier: Routine PIT disclosure; the Oman acquisition still to consolidate · (earlier: Completed the 70% buy of Arabian Water Tech LLC (Oman) — for OMR 21,000, a nominal sum · (earlier in window: Omani water-technology subsidiary acquisition completed (70% of Arabian Water Tech LLC, OMR 21,000 paid); nothing else material; stock +2%)))</span></summary>
 <div class="upd-body">
+
+**🟢 6 → 21-Oct-2026 — Promoters buy 3.09cr shares on the market, taking the group to 54.53%**
+SAST Reg 29(2): **Wilcox Merchants Pvt Ltd with PACs (promoter group) bought 3,08,88,721 shares on the market on 28–29 Sep**, taking the group to **54.53%** (filed 15-Oct). On **28-Sep, Belgrave Investment Fund (non-promoter) sold 2,89,10,695 shares**, leaving it at 0.79% (filed 8 and 12-Oct). Screener shows promoters **50.14% → 54.52%** for the September quarter.
+> **Why it matters:** The matching size and date read as **a block from Belgrave to the promoter group** *(my inference — the filings do not name counterparties)*. It extends the pattern the profile already credits — **the family buying through the trough** (44.08% → 50.14% before this) — and is the clearest insider signal on the name this year.
+
+*Sweep: NSE announcements; NSE SAST/insider feeds checked because September-quarter promoter holding moved ≥0.5pp, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 23-Sep → 6-Oct-2026 — A Reg 7(2) insider-trading disclosure; nothing material**
 A routine **Regulation 7(2) SEBI (PIT) disclosure** (1-Oct), an analyst-meet schedule and a trading-window closure.
@@ -99,6 +105,8 @@ Every time India lays new water pipeline — for the **Jal Jeevan Mission** (tap
 - **🟢 But the two leading indicators turned:** net realisations **₹50,500/t → ~₹55,000/t (+8.9% sequentially)**, and **JJM money started moving — ~₹6,000cr released this year against ₹1,560cr in all of FY26.**
 - **Net debt ₹876cr** after a **~₹1,100cr reduction in FY26**; FY26 operating cash flow **₹1,147cr**.
 - **Promoters at 50.14%**, up from 44.08% — the family bought through the trough.
+
+  - ⤴ **UPDATE 21-Oct-2026: 54.53%.** Wilcox Merchants with PACs bought 3,08,88,721 shares on the market on 28–29 Sep (SAST Reg 29(2)); Belgrave Investment Fund sold 2,89,10,695 on 28-Sep. *Reading it as one block is my inference.*
 
 **Big picture in one sentence:** ECL is India's largest independent DI pipe maker at **0.75x book** after a −25% volume year, **deleveraged by ₹1,100cr into the trough**, with its single catalyst — **JJM 2.0 at ₹8.69 lakh crore** — now not merely approved but **visibly disbursing**, while the volume recovery has slipped two to three quarters to H2FY27.
 

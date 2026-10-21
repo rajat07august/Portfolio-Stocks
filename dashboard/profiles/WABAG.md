@@ -4,11 +4,17 @@
 **Thesis current as of: 18-Sep-2026 · Tracking since: 18-Sep-2026**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 2,015** · market cap ₹ 12,593 Cr. · P/E 31.6x · ROCE 21.3 % · ROE 15.9 % · 52-wk ₹ 2,320 / 1,033 · **vs ₹2,110 at baseline (-4.5%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 1,782** · market cap ₹ 11,137 Cr. · P/E 28.0x · ROCE 21.3 % · ROE 15.9 % · 52-wk ₹ 2,320 / 1,033 · **vs ₹2,110 at baseline (-15.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 18-Sep-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 Trading window closed; Q2FY27 ex-forex margin is the test · (earlier: No filings since the profile was written)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Sep-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ ESOP allotment only · (earlier: Trading window closed; Q2FY27 ex-forex margin is the test · (earlier: No filings since the profile was written))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — ESOP allotment**
+23,261 ESOP shares allotted (6-Oct).
+> **Why it matters:** Nothing new.
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 23-Sep → 6-Oct-2026 — Nothing material**
 A single trading-window closure (28-Sep). Both feeds swept.

@@ -14,11 +14,17 @@
 > **🔴 Dynamatic has not held an earnings call since February 2024** — verified across 672 NSE filings. **Yet it publishes the best earnings presentation in this refresh cycle**, including a full constant-currency reconciliation of its own headline growth. **That combination — excellent disclosure, no forum to question it — governs how this profile is written.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 14,240** · market cap ₹ 9,671 Cr. · P/E 165x · ROCE 10.2 % · ROE 6.67 % · 52-wk ₹ 14,387 / 6,760 · **vs ₹11,188 at baseline (+27.3%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 12,812** · market cap ₹ 8,721 Cr. · P/E 149x · ROCE 10.2 % · ROE 6.67 % · 52-wk ₹ 14,500 / 7,630 · **vs ₹11,188 at baseline (+14.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 Trading window closed; nothing material · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: No company event beyond the FY26 annual report; stock +7.8% to ₹12,061 at 140x))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ IND A/Stable affirmed · (earlier: Trading window closed; nothing material · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: No company event beyond the FY26 annual report; stock +7.8% to ₹12,061 at 140x)))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — India Ratings affirms IND A / Stable**
+**Ind-Ra affirmed the bank loan facilities at IND A, Outlook Stable** (letter 14-Oct).
+> **Why it matters:** No change.
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 23-Sep → 6-Oct-2026 — Nothing material**
 A single trading-window closure (28-Sep). Both feeds swept (NSE symbol DYNAMATECH).

@@ -12,11 +12,17 @@
 > **🔴 Concall gate: NOT APPLICABLE — PARAS holds no earnings calls.** Across **424 NSE filings**, the only transcript-type disclosure is from **7-Oct-2022**. **There is no Q1FY27 earnings call, no investor presentation, and no order-book disclosure** — the results filing was checked directly (`order book`: **0 mentions**). `Fetched Concalls/PARAS/` contains **only investor decks**, the most recent from **Feb-2026**. *This is a source limit, not a fetch failure — and it shapes every judgement below.*
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 1,284** · market cap ₹ 10,349 Cr. · P/E 112x · ROCE 17.2 % · ROE 12.4 % · 52-wk ₹ 1,585 / 580 · **vs ₹1,281 at baseline (+0.2%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 1,222** · market cap ₹ 9,846 Cr. · P/E 106x · ROCE 17.2 % · ROE 12.4 % · 52-wk ₹ 1,585 / 580 · **vs ₹1,281 at baseline (-4.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟢 ₹26.59cr DRDO order — Lead System Integrator for the optics unit of a hyperspectral Earth-observation payload · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No company event beyond investor-conference meetings and the FY26 annual report; stock +7% to ₹1,373 at ~120x))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Routine filings only · (earlier: 🟢 ₹26.59cr DRDO order — Lead System Integrator for the optics unit of a hyperspectral Earth-observation payload · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No company event beyond investor-conference meetings and the FY26 annual report; stock +7% to ₹1,373 at ~120x)))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — Verified quiet — routine filings only**
+Only the quarterly Reg 74(5) depository certificate (or equivalent routine items) on NSE. **Nothing material.**
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟢 28-Sep-2026 — DRDO order worth ~₹26.59cr for a hyperspectral space payload**
 Paras has received an order from the **Defence Research and Development Organisation (DRDO), Ministry of Defence, valued at approximately ₹26.59 crore (including taxes)**, under which the company **will be the Lead System Integrator** and will provide *"the complete design, analysis, fabrication, manufacturing and assembly of the Optics and Opto-Mechanical Unit for a Hyperspectral Mission."* The payload *"shall qualify as a Space-Borne System having potential utilisation for Earth Observation."*

@@ -7,11 +7,17 @@
 > **Note on sourcing:** Sunita Tools is a very small SME with limited concall history. Only ONE full concall transcript (H1FY25) is available. Financial data extrapolated from investor deck + BSE filings + Screener. Confidence in numbers is moderate; management-tone reading is based on very limited data points. **This profile carries more uncertainty than others in the watchlist.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 1,080** · market cap ₹ 678 Cr. · P/E 107x · ROCE 10.5 % · ROE 10.8 % · 52-wk ₹ 1,222 / 553 · **vs ₹741 at baseline (+45.7%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 1,172** · market cap ₹ 736 Cr. · P/E 116x · ROCE 10.5 % · ROE 10.8 % · 52-wk ₹ 1,331 / 553 · **vs ₹741 at baseline (+58.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟡 Managing Director re-appointed after his term had been EXPIRED since 25-May; three Pandey-family remuneration approvals now go to shareholders · (earlier: Nothing filed; ₹576cr order book vs ~₹47cr revenue from undisclosed counterparties still stands · (earlier in window: ₹576cr order book (₹552cr defence) against ₹32cr of four-month sales, all from undisclosed counterparties; three defence MoUs; unnamed 90% acquisition; equity raise approved; stock +44%))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🟡 Managing Director re-appointed after his term had been EXPIRED since 25-May; three Pandey-family remuneration approvals now go to shareholders · (earlier: Nothing filed; ₹576cr order book vs ~₹47cr revenue from undisclosed counterparties still stands · (earlier in window: ₹576cr order book (₹552cr defence) against ₹32cr of four-month sales, all from undisclosed counterparties; three defence MoUs; unnamed 90% acquisition; equity raise approved; stock +44%)))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — Verified quiet — no filings**
+**No filings at all in the window on BSE (via Chrome)** — a verified negative, not an absence of searching (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: BSE announcements (via Chrome — BSE's JSON API is still Akamai-blocked from curl, re-tested 21-Oct), 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟡 30-Sep-2026 — MD re-appointed four months after his term expired; three family pay approvals pending**
 The Board approved:

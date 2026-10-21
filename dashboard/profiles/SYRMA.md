@@ -12,11 +12,17 @@
 > **Concall gate: ✅ CLEARED.** Q1FY27 call held **30-Jul-2026**, transcript filed **4-Aug-2026** (90,971 chars), on disk with five earlier transcripts (May-2025 → Jun-2026), the deck and the press release. Management: **J.S. Gujral (MD)**, **Jayesh Doshi (WTD)**, **Jaidit Singh Brar (CEO — new)**, **Bijay Agrawal (CFO)**, **Nikhil Gupta (Head IR)**. Analysts included **ICICI Securities, Motilal Oswal, JP Morgan**.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 1,695** · market cap ₹ 32,692 Cr. · P/E 88.0x · ROCE 16.8 % · ROE 14.0 % · 52-wk ₹ 1,823 / 634 · **vs ₹1,465 at baseline (+15.7%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 1,469** · market cap ₹ 28,336 Cr. · P/E 76.3x · ROCE 16.8 % · ROE 14.0 % · 52-wk ₹ 1,823 / 634 · **vs ₹1,465 at baseline (+0.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 Trading window closed; the Jodhpur medtech plant still unquantified · (earlier: Subsidiary Syrma Johari MedTech opened a medical plastics and precision moulding plant in Jodhpur; WTD appointment clarification filed · (earlier in window: Elemaster JV plant inaugurated in Bengaluru; Kaga JV company incorporated; Executive Chairman re-appointed; stock +18% to ₹1,729 at 90x))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Routine; promoter −0.66pp unexplained · (earlier: Trading window closed; the Jodhpur medtech plant still unquantified · (earlier: Subsidiary Syrma Johari MedTech opened a medical plastics and precision moulding plant in Jodhpur; WTD appointment clarification filed · (earlier in window: Elemaster JV plant inaugurated in Bengaluru; Kaga JV company incorporated; Executive Chairman re-appointed; stock +18% to ₹1,729 at 90x)))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — Routine; a small promoter fall unexplained**
+Only the Reg 74(5) certificate and share-capital reconciliation. Screener promoter **42.28% → 41.62%**; **no promoter SAST filing on NSE explains it** (the only SAST filing is Franklin Templeton MF selling 1.1 lakh shares).
+> **Why it matters:** Small, stated as an open fact.
+
+*Sweep: NSE announcements; NSE SAST/insider feeds checked because September-quarter promoter holding moved ≥0.5pp, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 23-Sep → 6-Oct-2026 — Nothing material**
 A single trading-window closure (28-Sep).

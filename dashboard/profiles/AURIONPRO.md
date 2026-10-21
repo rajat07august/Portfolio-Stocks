@@ -9,11 +9,17 @@
 > **📌 What this update is.** The 28-Jul-2026 refresh downgraded the stock on the Q1FY27 *numbers* alone, and left one instruction in the file: *"Q1FY27 transcript — read as soon as it files. Highest-value pending input."* It filed on 3-Aug-2026. This profile is built on it. **The single most consequential thing on that call is not a number — it is that management has withdrawn guidance entirely** (§3.5, §5.5). The 28-Jul watch item asked whether the FY27 bands would be *revised down*; the answer is that they no longer exist.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 608** · market cap ₹ 3,360 Cr. · P/E 16.1x · ROCE 16.3 % · ROE 13.2 % · 52-wk ₹ 1,247 / 593 · **vs ₹696 at baseline (-12.6%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 570** · market cap ₹ 3,147 Cr. · P/E 15.0x · ROCE 16.3 % · ROE 13.2 % · 52-wk ₹ 1,247 / 568 · **vs ₹696 at baseline (-18.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟢🟢 ₹150cr follow-on data-centre order from a global hyperscaler — the third in under a year, taking the relationship close to ₹300cr · (earlier: Nothing filed; the SEBI PIT show-cause notice remains open · (earlier in window: Integro Lending named category leader in five Chartis 2026 quadrants; FY26 annual report filed; no order or governance event; stock −1.4% at 18x))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟢 Matkahuolto (Finland) cEMV device win; Q2 call 2-Nov · (earlier: 🟢🟢 ₹150cr follow-on data-centre order from a global hyperscaler — the third in under a year, taking the relationship close to ₹300cr · (earlier: Nothing filed; the SEBI PIT show-cause notice remains open · (earlier in window: Integro Lending named category leader in five Chartis 2026 quadrants; FY26 annual report filed; no order or governance event; stock −1.4% at 18x)))</span></summary>
 <div class="upd-body">
+
+**🟢 6 → 21-Oct-2026 — A Finnish transit-payments win; Q2 call 2-Nov**
+**Matkahuolto (Finland) selected Aurionpro as device vendor for its contactless EMV project** under a master service agreement, after an RFP (14-Oct); value not stated. **Q2 call 2-Nov.**
+> **Why it matters:** Another European transit reference; the value is undisclosed. **Results due 31-Oct.**
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟢🟢 5-Oct-2026 — ₹150cr follow-on order from a global hyperscaler for an AI-ready data centre**
 ⤴ **CORRECTED 6-Oct-2026.** *An earlier version of this entry recorded this filing as "read-at-headline, not read in full" and declined to rely on it. That was wrong to leave — it is a material order, and it is set out below from the press release itself.*

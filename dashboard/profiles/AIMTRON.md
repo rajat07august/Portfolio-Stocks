@@ -7,11 +7,17 @@
 > **How to read this profile:** Every meaningful claim is either sourced from a concall (period noted) or a filing. Aimtron reports H1/H2 not Q1/Q2/Q3/Q4 as it's on the SME platform. This is personal thesis-building, not a buy/sell recommendation.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 1,900** · market cap ₹ 4,042 Cr. · P/E 87.9x · ROCE 28.2 % · ROE 23.6 % · 52-wk ₹ 2,010 / 675 · **vs ₹1,313 at baseline (+44.7%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 1,644** · market cap ₹ 3,496 Cr. · P/E 76.1x · ROCE 28.2 % · ROE 23.6 % · 52-wk ₹ 2,010 / 696 · **vs ₹1,313 at baseline (+25.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟡 ~₹205cr preferential issue to non-promoter investors including AIFs, to fund 'strategic acquisitions'; warrants converted · (earlier: An investor meet was scheduled on 21-Sep and cancelled on 23-Sep, with no reason given · (earlier in window: Q1FY27 update: revenue +94%, order book ₹604cr; US arm books US$11.8m in Q2 to date; pilot orders from Curtiss-Wright and a test-solutions major; warrants converted; stock +27% to 77x))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Warrant-issue EGM 22-Oct after an NSE-directed corrigendum · (earlier: 🟡 ~₹205cr preferential issue to non-promoter investors including AIFs, to fund 'strategic acquisitions'; warrants converted · (earlier: An investor meet was scheduled on 21-Sep and cancelled on 23-Sep, with no reason given · (earlier in window: Q1FY27 update: revenue +94%, order book ₹604cr; US arm books US$11.8m in Q2 to date; pilot orders from Curtiss-Wright and a test-solutions major; warrants converted; stock +27% to 77x)))</span></summary>
 <div class="upd-body">
+
+**⚪ 6 → 21-Oct-2026 — EGM on a warrant issue 22-Oct, with an NSE-ordered corrigendum**
+EGM on **22-Oct** for a **preferential issue of convertible warrants**; **NSE directed a corrigendum** adding details to the explanatory statement (13-Oct).
+> **Why it matters:** Another dilution step for an SME name; the corrigendum shows the exchange wanted more disclosure.
+
+*Sweep: NSE announcements; NSE SAST/insider feeds checked because September-quarter promoter holding moved ≥0.5pp, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟡 25-Sep-2026 — Preferential issue of ~₹205cr to non-promoter investors, for acquisitions**
 The Board approved a **preferential issue of up to 12,24,265 equity shares of ₹10 face value at ₹1,674.47 per share** (premium ₹1,664.47) **to Non-Promoter Investors, including Alternative Investment Funds** — *"for Funding Strategic Acquisitions, Working Capital and General Corporate Purposes."* **That is approximately ₹205cr.** Separately, **1,77,800 warrants were converted** into an equal number of equity shares.

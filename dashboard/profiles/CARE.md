@@ -8,11 +8,17 @@
 > **Structural note that governs how this profile should be read: CARE holds ONE earnings call a year, after Q4 only.** Its transcript filings run May-2026, May-2025, May-2024 — nothing in between. There is no Q1FY27 concall and there never will be. Three transcripts is therefore **the complete available universe, not a fetch gap** — but it is also the thinnest investor-communication cadence of any high-conviction name in this library, and that is a choice rather than a constraint. This profile is grounded in the **full Q4FY26 annual call (14-May-2026, 87,518 chars)**, the **Q1FY27 investor deck + press release (7-Aug-2026)**, the **audited FY26 results filing (13-May-2026)**, and **17 NSE/BSE filings read individually**.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 1,619** · market cap ₹ 4,875 Cr. · P/E 27.4x · ROCE 26.3 % · ROE 19.7 % · 52-wk ₹ 1,838 / 1,393 · **vs ₹1,687 at baseline (-4.0%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 1,593** · market cap ₹ 4,795 Cr. · P/E 27.0x · ROCE 26.3 % · ROE 19.7 % · 52-wk ₹ 1,838 / 1,393 · **vs ₹1,687 at baseline (-5.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 Routine ESOP allotment and meet schedule · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No material company event: investor-meet schedule and ESOP allotments only; stock −1%))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟢 SBI and NSEIX each to take 9.9% of CareEdge Global IFSC; CARE keeps 80.2% · (earlier: Routine ESOP allotment and meet schedule · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No material company event: investor-meet schedule and ESOP allotments only; stock −1%)))</span></summary>
 <div class="upd-body">
+
+**🟢 6 → 21-Oct-2026 — SPAs signed to sell 9.9% each of the IFSC subsidiary to SBI and NSEIX**
+**CARE executed share purchase agreements and a shareholders' agreement (19-Oct) with State Bank of India and NSE IFSC Ltd for 9.90% each of CareEdge Global IFSC Ltd**; CARE will hold **80.20%**, with closing expected within two months. Board meets **29-Oct** for Q2.
+> **Why it matters:** Bringing in SBI and the exchange as minority partners is a credibility marker for the IFSC rating business *(my reading)*. Consideration is not stated in this filing.
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 23-Sep → 6-Oct-2026 — ESOP allotment of 14,200 shares**
 Allotment of **14,200 equity shares on ESOP exercise** (5-Oct), a depository certificate, an investor-meet schedule (24-Sep) and a trading-window closure.

@@ -12,11 +12,17 @@
 > **⤴ CORRECTED 19-Sep-2026 — this caveat no longer holds. KMEW held its first Q1 earnings call on 26-Aug-2026 (Systematix; transcript filed 2-Sep; read in full for this refresh).** *Original text, accurate at 18-Aug:* 🔴 A structural disclosure gap you must hold throughout: KMEW has never held a first-quarter earnings call. Verified across every concall Screener lists (Jun-2023 → Jun-2026) and all 143 NSE filings back to Nov-2024. The cadence is **Jun (Q4/FY), Nov (H1), Feb (Q3)**. **So the largest quarter in company history — Q1FY27, filed 14-Aug-2026 — will not be discussed with shareholders until roughly November.** Management did, however, pre-explain that quarter in detail on the Q4 call. **Six transcripts on disk** (Jun-2023, Nov-2023, Jun-2024, Feb-2026, Jun-2026, **Aug-2026 Q1FY27 — added 19-Sep-2026**); Nov-2024, Feb-2025, Jun-2025 and Nov-2025 produced decks but no transcript.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 3,025** · market cap ₹ 7,673 Cr. · P/E 59.2x · ROCE 16.3 % · ROE 20.0 % · 52-wk ₹ 3,222 / 1,084 · **vs ₹2,706 at baseline (+11.8%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 3,111** · market cap ₹ 7,890 Cr. · P/E 60.9x · ROCE 16.3 % · ROE 20.0 % · 52-wk ₹ 3,392 / 1,092 · **vs ₹2,706 at baseline (+15.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 AGM passed; green-tug order and ratings outlook unchanged · (earlier: 🟢 ₹279.33cr 15-year Mumbai Port green-tug charter, and CARE raises the long-term outlook to BBB+/Positive · (earlier in window: 🔴 The profile's 'no Q1 call, ever' caveat is now false: first Q1 call held 26-Aug; FY27 growth potential raised to 'northwards of 60%'; ₹500cr NCD approved 8-Sep; new ₹62cr shipbuilding order; stock +7%))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟡 Split record date 6-Nov; promoter-group reclassification requests; Sep-qtr promoter −1.26pp unexplained · (earlier: AGM passed; green-tug order and ratings outlook unchanged · (earlier: 🟢 ₹279.33cr 15-year Mumbai Port green-tug charter, and CARE raises the long-term outlook to BBB+/Positive · (earlier in window: 🔴 The profile's 'no Q1 call, ever' caveat is now false: first Q1 call held 26-Aug; FY27 growth potential raised to 'northwards of 60%'; ₹500cr NCD approved 8-Sep; new ₹62cr shipbuilding order; stock +7%)))</span></summary>
 <div class="upd-body">
+
+**🟡 6 → 21-Oct-2026 — 1:5 split record date; nine promoter-group members ask to be reclassified**
+**Record date for the 1:5 split: 6-Nov** (12-Oct). **Requests from promoter-group members to be reclassified as public** (19-Oct) — each holds nil or a negligible number of shares. Screener promoter holding **51.56% → 50.30%** in the September quarter; **no promoter SAST filing on NSE in the quarter explains it**.
+> **Why it matters:** The reclassification requests are housekeeping. **The 1.26pp fall is not explained by any filing found** — stated as an open fact, not inferred as a sale (§0A rule 6).
+
+*Sweep: NSE announcements; NSE SAST/insider feeds checked because September-quarter promoter holding moved ≥0.5pp, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 23-Sep → 6-Oct-2026 — AGM held 30-Sep; all resolutions passed**
 AGM proceedings (30-Sep), scrutinizer's report and voting results (5-Oct) — **no resolution defeated** — and a trading-window closure.

@@ -8,11 +8,17 @@
 > **📌 Fetch note worth carrying: Avalon hosts its transcripts on its own IR site, not on BSE or NSE.** The exchange filing is a **cover letter with a link** — the 11-Aug-2026 Q1FY27 filing extracts to 1,466 characters of letterhead pointing at `avalontec.com`. **An exchange-feed-only scan would conclude Avalon files no transcripts.** `curl` reaches the IR site directly. Screener's concall links point to `avalontec.com` for transcripts and to BSE only for decks. **Don't assume the BSE UUID pattern covers every stock.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 2,311** · market cap ₹ 15,457 Cr. · P/E 116x · ROCE 19.3 % · ROE 16.5 % · 52-wk ₹ 2,620 / 777 · **vs ₹2,184 at baseline (+5.8%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 2,000** · market cap ₹ 13,372 Cr. · P/E 100x · ROCE 19.3 % · ROE 16.5 % · 52-wk ₹ 2,620 / 777 · **vs ₹2,184 at baseline (-8.4%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🔴 A promoter group is selling ~6% via block deal — Bhaskar Srinivasan and two family trusts sold 2.00% EACH; Kunhamed Bicha's group is NOT selling · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: Joint venture with Zollner Elektronik AG (Zollner 51% / Avalon 49%); Chairman-MD re-appointed for five years from Jul-2027 and a new independent director; stock +16% to 127x))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟡 Zollner Avalon JV company incorporated; promoter block sale formally disclosed (44.4% → 40.4%) · (earlier: 🔴 A promoter group is selling ~6% via block deal — Bhaskar Srinivasan and two family trusts sold 2.00% EACH; Kunhamed Bicha's group is NOT selling · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: Joint venture with Zollner Elektronik AG (Zollner 51% / Avalon 49%); Chairman-MD re-appointed for five years from Jul-2027 and a new independent director; stock +16% to 127x)))</span></summary>
 <div class="upd-body">
+
+**🟡 6 → 21-Oct-2026 — The Zollner JV company formed; the promoter sale formally disclosed**
+**Zollner Avalon Pvt Ltd incorporated 19-Oct** as a wholly-owned subsidiary, to become 51% Zollner per the 3-Sep disclosure. **SIPCOT land leased** at Oragadam for a new unit (8-Oct). **SAST Reg 29(2) (15-Oct): Bhaskar Srinivasan, KBS Family Trust and BBS Family Trust each disclosed a sale of 13,36,235 shares on 30-Sep** — the block already recorded on 6-Oct. Screener promoter holding **44.39% → 40.35%**. CRISIL ESG 58.
+> **Why it matters:** The promoter-holding fall is the block the profile already carries, now formally disclosed — **not a new sale.** The Zollner JV gives Avalon a minority position in its own new company.
+
+*Sweep: NSE announcements; NSE SAST/insider feeds checked because September-quarter promoter holding moved ≥0.5pp, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🔴 30-Sep / 1-Oct-2026 — One promoter group sells ~6% by block deal**
 Media reports of a proposed stake sale prompted a company clarification (30-Sep), followed by a **Reg 29(2) SAST disclosure (1-Oct)** from **Mr. Bhaskar Srinivasan**, filed on behalf of himself and as trustee of the **BBS Family Trust** and **KBS Family Trust**.

@@ -14,11 +14,17 @@
 > **Concall gate: 🟡 ONE CALL A YEAR.** OBSC holds a single earnings call, after the annual results. The most recent is **Q4FY26, 21-May-2026** (57,585 characters). **There is no Q1FY27 call.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 880** · market cap ₹ 2,274 Cr. · P/E 72.3x · ROCE 19.5 % · ROE 19.6 % · 52-wk ₹ 1,030 / 270 · **vs ₹790 at baseline (+11.4%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 769** · market cap ₹ 1,987 Cr. · P/E 63.2x · ROCE 19.5 % · ROE 19.6 % · 52-wk ₹ 1,030 / 270 · **vs ₹790 at baseline (-2.7%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 AGM passed; the 50% → 71% raw-material jump still unexplained · (earlier: Nothing filed; the 50% → 71% raw-material jump remains unexplained · (earlier in window: ₹86.5cr preferential issue allotted at ₹601 (35% below the new ₹930 price); AS9100D aerospace certification recommended; non-binding New Mexico MoU; ₹31.4cr five-year order; stock +18%))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟢 First defence PO (Elbit, ~₹8.9cr); Tenneco +₹80cr nomination; ₹17cr LoI · (earlier: AGM passed; the 50% → 71% raw-material jump still unexplained · (earlier: Nothing filed; the 50% → 71% raw-material jump remains unexplained · (earlier in window: ₹86.5cr preferential issue allotted at ₹601 (35% below the new ₹930 price); AS9100D aerospace certification recommended; non-binding New Mexico MoU; ₹31.4cr five-year order; stock +18%)))</span></summary>
 <div class="upd-body">
+
+**🟢 6 → 21-Oct-2026 — A first defence order (Elbit) and an ₹80cr addition from Tenneco**
+**First purchase order for fuze components from an entity of Elbit Systems, ~₹8.9cr** (8-Oct). **Tenneco: an additional export nomination of ₹80cr over five years** (13-Oct), on top of the ₹160cr disclosed in June-2025. **A ₹17cr five-year LoI** from a domestic components maker (17-Oct). NSE listing approval for the 14,39,600 preferential shares (13-Oct).
+> **Why it matters:** **The defence entry is the new thread** — small, but a named global prime. The ₹80cr is a lifetime nomination over five years, not an order. **The open question is unchanged: raw materials jumped from 50% to 71% of sales in FY26 and nothing has explained it.**
+
+*Sweep: NSE announcements; NSE SAST/insider feeds checked because September-quarter promoter holding moved ≥0.5pp, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 23-Sep → 6-Oct-2026 — AGM held 29-Sep; all resolutions passed**
 AGM proceedings (29-Sep), scrutinizer's report (1-Oct) — **no resolution defeated** — and a trading-window closure.

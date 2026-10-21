@@ -12,11 +12,17 @@
 > **The tension to hold throughout: this is an elite manufacturing franchise attached to a valuation and a cash-flow record that do not match it.** The engineering is world-class and got better this quarter. **Operating cash flow has been positive in one of the last five years.** Both statements are true, and the profile is written to keep them side by side rather than resolve them.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 6-Oct-2026 (Screener):** CMP **₹ 2,977** · market cap ₹ 19,226 Cr. · P/E 138x · ROCE 11.9 % · ROE 9.09 % · 52-wk ₹ 3,128 / 1,359 · **vs ₹2,718 at baseline (+9.5%)**
+**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 2,541** · market cap ₹ 16,381 Cr. · P/E 118x · ROCE 11.9 % · ROE 9.09 % · 52-wk ₹ 3,128 / 1,359 · **vs ₹2,718 at baseline (-6.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 6-Oct-2026</span> <span class="upd-sum">🆕 🟢 AGM re-appointed the Chairman-CEO and two whole-time directors for five years, all passed cleanly — notable against two promoter-pay defeats elsewhere this month · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: No company event beyond the FY26 annual report; stock +2.6% to ₹2,790 at ~130x))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟢 BHEL two-year rate contract (~₹52.68cr) for gas-turbine blades · (earlier: 🟢 AGM re-appointed the Chairman-CEO and two whole-time directors for five years, all passed cleanly — notable against two promoter-pay defeats elsewhere this month · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: No company event beyond the FY26 annual report; stock +2.6% to ₹2,790 at ~130x)))</span></summary>
 <div class="upd-body">
+
+**🟢 6 → 21-Oct-2026 — A ₹52.68cr two-year BHEL rate contract for gas-turbine blades**
+**BHEL appointed AZAD a long-term source and awarded a two-year Long Term Rate Contract** for critical stationary and rotating airfoils for heavy-duty gas turbines, **estimated at ~₹52.68cr** (12-Oct). A similar contract from May was not disclosed at the time as immaterial; **the two together are now considered material.**
+> **Why it matters:** A domestic heavy-duty gas-turbine qualification adds a second energy customer alongside the global OEMs. **The disclosure note is also worth recording: an earlier contract was held back as immaterial and is now disclosed in aggregate.**
+
+*Sweep: NSE announcements, 6 → 21-Oct-2026; market data Screener 21-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟢 29-30 Sep-2026 — Promoter executive re-appointments pass cleanly at the AGM**
 Members approved, **with requisite majority**: **re-appointment of Mr. Rakesh Chopdar (DIN 01795599) as Whole-Time Director, Executive Chairman and Chief Executive Officer for five years w.e.f. 13-Sep-2026**; **Mrs. Jyoti Chopdar (DIN 03732757) as Whole-Time Director for five years** from the same date; and **Mr. Vishnu Malpani (DIN 10307319) as Whole-Time Director.** All AGM resolutions passed.
