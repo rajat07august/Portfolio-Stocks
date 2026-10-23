@@ -12,11 +12,17 @@
 > **✅ Concall gate: CLEARED and current.** The Q1FY27 call was held **29-Jul-2026** (InCred Equities-hosted; **Paras Savla, CMD** and **Rohan Shah, CFO**), transcript filed 3-Aug and in the repo — 26pp. **Reading it changed three conclusions** and is the source of the explicit FY27/FY28 PAT guidance below.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 704** · market cap ₹ 4,497 Cr. · P/E 10.8x · ROCE 16.5 % · ROE 19.2 % · 52-wk ₹ 827 / 327 · **vs ₹688 at baseline (+2.3%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 674** · market cap ₹ 4,312 Cr. · P/E 10.4x · ROCE 16.5 % · ROE 19.2 % · 52-wk ₹ 827 / 327 · **vs ₹688 at baseline (-2.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Routine filings only · (earlier: Only an analyst-meet schedule; Q2FY27 is the next real checkpoint · (earlier: Nothing new beyond a trading-window closure; Q2FY27 results season approaching. Stock ₹743 → ₹773 · (earlier in window: New ONGC gas-compression award (₹88.15cr, 3 years); new corporate deck adds 'defence-grade re-rating' framing and two government-scheme read-acrosses (not orders); stock +8%)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: Only an analyst-meet schedule; Q2FY27 is the next real checkpoint · (earlier: Nothing new beyond a trading-window closure; Q2FY27 results season approaching. Stock ₹743 → ₹773 · (earlier in window: New ONGC gas-compression award (₹88.15cr, 3 years); new corporate deck adds 'defence-grade re-rating' framing and two government-scheme read-acrosses (not orders); stock +8%))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
+**No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 6 → 21-Oct-2026 — Verified quiet — routine filings only**
 Only the quarterly Reg 74(5) depository certificate (or equivalent routine items) on NSE. **Nothing material.**
@@ -62,18 +68,18 @@ Screener P/E 11.5x, which is the profile's write-off-adjusted basis (on reported
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** Supportive, with a first sign of easing. Brent is ~$104, +23.4% over three months but −4.4% in the last month. Asian LNG, the nearest benchmark for its market-priced gas contract, averaged $14.25/MMBTU in September (+20.9% over three months, −6.7% in the month), in the upper half of the profile's US$8–15 range. Most revenue is fixed-rate services. India's gas output is −4.9% YoY (August).
+**Read (23-Oct-2026, mine, not management's):** Supportive. Brent is ~$111, +15.1% over three months and +8.1% in the last month. Asian LNG, the nearest benchmark for its market-priced gas contract, averaged $14.25/MMBTU in September (+20.9% over three months; no newer month published), in the upper half of the profile's US$8–15 range. Most revenue is fixed-rate services. India's gas output is −4.9% YoY (August).
 
 **How cost moves reach profit:** Service contracts with ONGC and others at fixed day-rates, so commodity prices act on demand and on the gas-sales contract, not on costs.
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Brent crude (103.92 $/bbl) | Demand driver | -4.4% | +23.4% | +67.9% | -12.2% | 🟢 tailwind | Yahoo Finance · 15-Oct-2026 |
+| Brent crude (111.42 $/bbl) | Demand driver | +8.1% | +15.1% | +68.8% | -5.9% | 🟢 tailwind | Yahoo Finance · 23-Oct-2026 |
 | Liquefied natural gas, Japan (monthly avg) (14.25 $/mmbtu) | Selling price | -6.7% | +20.9% | +24.2% | -8.9% | 🟢 tailwind | World Bank Pink Sheet · 2026M09 |
-| Natural gas (Henry Hub) (3.267 $/mmbtu) | Proxy / context | +11.9% | +14.3% | +8.3% | -56.2% | ⚪ context | Yahoo Finance · 15-Oct-2026 |
+| Natural gas (Henry Hub) (3.065 $/mmbtu) | Proxy / context | +1.4% | +6.8% | -8.3% | -58.9% | ⚪ context | Yahoo Finance · 23-Oct-2026 |
 | Production - Natural Gas (YoY, Aug 26) | Demand driver | — | -5.3% | -4.9% | — | 🔴 headwind | Tijori macro (India) · Aug 26 |
 
 **Why each factor is here:**
@@ -86,7 +92,7 @@ Screener P/E 11.5x, which is the profile's write-off-adjusted basis (on reported
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -491,7 +497,7 @@ Called *"the single most important number on DEEP"* on 28-Jul; **it is a composi
 
 **Risk 5 — 🟡 Free-market gas price exposure.** The PEC is priced at market (**US$8–15/MMBTU**). Deep carries **no exploration risk but full price risk**, and FY28's ₹150cr+ from this field assumes prices hold.
 
-> 📈 **Factor check 15-Oct-2026:** Currently favourable. Asian LNG, the nearest benchmark, averaged $14.25/MMBTU in September (+20.9% over three months, −6.7% in the month), in the upper half of the US$8–15 band. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 23-Oct-2026:** Currently favourable. Asian LNG, the nearest benchmark, averaged $14.25/MMBTU in September (+20.9% over three months), in the upper half of the US$8–15 band; Brent is back to ~$111. *(Numbers and sources: Input & factor check, at the top.)*
 
 **Risk 6 — 🟡 ONGC concentration.** ONGC dominates the customer base and the order book. **Contract timing moves earnings**, and the two transformational tenders (Gamij, Geleki) are also ONGC.
 

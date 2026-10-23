@@ -12,11 +12,17 @@
 > **🔴 The disclosure gap that governs everything below: GMDC has not held an earnings call since 29-May-2025.** Across **472 NSE filings**, the last earnings-call filing is that date; before it, August 2024. **No call was held after FY26 results (14-May-2026) or after Q1FY27 (31-Jul-2026), and no investor presentation appears anywhere in the recent record.** This profile is therefore built from **statutory filings and press releases only**. The standing §9 data-gap queue item — *"FY26 concalls needed"* — has been **closed as uncloseable: the calls were never held.** *A ₹18,261cr company that no longer speaks to shareholders, in a year containing a ₹522.65cr exceptional item and a 30% fall in operating profit.*
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 443** · market cap ₹ 14,078 Cr. · P/E 24.7x · ROCE 10.8 % · ROE 4.22 % · 52-wk ₹ 772 / 441 · **vs ₹574 at baseline (-22.8%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 425** · market cap ₹ 13,499 Cr. · P/E 23.7x · ROCE 10.8 % · ROE 4.22 % · 52-wk ₹ 772 / 416 · **vs ₹574 at baseline (-26.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ ESG rating; Q2 board 30-Oct · (earlier: New Managing Director — Mr Ajay Bhadoo, IAS — appointed from 29-Sep; AGM passed · (earlier: CARE reaffirms AA+/Stable and A1+; short-term facilities enhanced ₹5cr → ₹25cr · (earlier in window: CARE AA+/Stable reaffirmed; CERT-In 'probable data breach' on the corporate website disclosed (operations unaffected); FY26 annual report out; stock −3%)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Independent director added; dividend paid; Q2 board 30-Oct · (earlier: ⚪ ESG rating; Q2 board 30-Oct · (earlier: New Managing Director — Mr Ajay Bhadoo, IAS — appointed from 29-Sep; AGM passed · (earlier: CARE reaffirms AA+/Stable and A1+; short-term facilities enhanced ₹5cr → ₹25cr · (earlier in window: CARE AA+/Stable reaffirmed; CERT-In 'probable data breach' on the corporate website disclosed (operations unaffected); FY26 annual report out; stock −3%))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — An IIM-A independent director; FY26 dividend paid**
+**Prof. Amit Karna (IIM Ahmedabad)** appointed Additional Independent Director from 21-Oct. Press release on the **₹9.50/share FY26 final dividend** (₹302.10cr in total, ₹223.55cr to the Government of Gujarat). Q2 board **30-Oct**.
+> **Why it matters:** Board strengthening; nothing on operations.
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 6 → 21-Oct-2026 — ESG rating**
 CRISIL ESG 58 (unsolicited, 19-Oct). Board **30-Oct** for Q2.
@@ -66,10 +72,10 @@ Screener P/E 31.0x on reported earnings, ROCE 10.8%, ROE 4.2%; promoter (Governm
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** Demand for lignite is supported: electricity output +11.6% and cement +12.5% YoY (August). Imported coal, the substitute fuel, is +6.2% over three months and at a 52-week high.
+**Read (23-Oct-2026, mine, not management's):** Demand for lignite is supported: electricity output +11.6% and cement +12.5% YoY (August). Imported coal, the substitute fuel, is +6.2% over three months and at a 52-week high.
 
 **How cost moves reach profit:** Lignite is sold to Gujarat's power, cement and industrial users near the mine; pricing is not market-linked day to day (profile §1).
 
@@ -88,7 +94,7 @@ Screener P/E 31.0x on reported earnings, ROCE 10.8%, ROE 4.2%; promoter (Governm
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>

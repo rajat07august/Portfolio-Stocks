@@ -11,11 +11,17 @@
 > **🔴 WHAT THIS REFRESH FOUND.** Since 28-Jul the company has: **reported a loss-making record quarter**; **had shareholders approve the ₹2,256cr Akkodis divestment (27-Jul)**; **replaced an Independent Director (11-Aug)**; and **agreed to buy 90% of a Bengaluru precision manufacturer for ₹234cr in cash (28-Aug)**. **Most importantly, it has now published four mutually inconsistent figures for how much cash the divestment actually delivers — ₹2,256cr, ₹1,685cr, ~₹910–920cr and ₹715cr — and no one has asked it to reconcile them.** ⤴ **It also corrects a market-cap error — located precisely, because my first draft of this profile blamed the wrong part of the file.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 1,972** · market cap ₹ 8,382 Cr. · P/E 256x · ROCE 15.4 % · ROE 11.5 % · 52-wk ₹ 2,360 / 1,061 · **vs ₹1,624 at baseline (+21.4%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 1,917** · market cap ₹ 8,153 Cr. · P/E 249x · ROCE 15.4 % · ROE 11.5 % · 52-wk ₹ 2,360 / 1,061 · **vs ₹1,624 at baseline (+18.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟡 XIDA to buy ITSJ (US AI-hardware supplier) for ≤US$7m; Swiss Ulosia acquisition completed; CFO handover 1-Jan; Akkodis Phase 1 completion still not filed · (earlier: German subsidiary add-solution GmbH put into voluntary solvent liquidation, completing the automotive exit; Phase 1 Akkodis cash now 5 weeks overdue · (earlier: Akkodis AXISCADES Aerospace Engineering incorporated 22-Sep — while the Phase 1 divestment cash is now 3 weeks overdue with no completion filing · (earlier in window: Cloud Wave acquisition COMPLETED 10-Sep (₹234cr, funded by up to ₹200cr of 12.5% NCDs); Phase 1 Akkodis close still not filed 18 days past target; promoter releases part of a pledge; stock +11.5%)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🟡 XIDA to buy ITSJ (US AI-hardware supplier) for ≤US$7m; Swiss Ulosia acquisition completed; CFO handover 1-Jan; Akkodis Phase 1 completion still not filed · (earlier: German subsidiary add-solution GmbH put into voluntary solvent liquidation, completing the automotive exit; Phase 1 Akkodis cash now 5 weeks overdue · (earlier: Akkodis AXISCADES Aerospace Engineering incorporated 22-Sep — while the Phase 1 divestment cash is now 3 weeks overdue with no completion filing · (earlier in window: Cloud Wave acquisition COMPLETED 10-Sep (₹234cr, funded by up to ₹200cr of 12.5% NCDs); Phase 1 Akkodis close still not filed 18 days past target; promoter releases part of a pledge; stock +11.5%))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
+**No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟡 6 → 21-Oct-2026 — A US AI-hardware acquisition, a Swiss acquisition completed, and a CFO succession**
 **(1) ITSJ (14/15-Oct):** step-down subsidiary **XIDA Inc. will buy substantially all business assets of ITSJ Group, Inc. (San Jose)** — described as a qualified supplier to semiconductor-equipment makers and a hyperscaler — for **not more than US$7.0m** (cash US$2.5m at completion, of which US$0.55m already paid, plus restricted XIDA shares and an earn-out); completion by 31-Mar-2027. **(2) Ulosia Holding AG (Switzerland)** became a wholly-owned subsidiary on **14-Oct** (100% acquisition completed, first intimated 12-Jun). **(3) Two new subsidiaries:** XIDA Deeptech Pvt Ltd (5-Oct) and Xponential Space Pvt Ltd (16-Oct). **(4) CFO:** Group CFO **Shashidhar SK superannuates 31-Dec**; **Uttam Kumar Bhageria is CFO-Designate from 21-Oct**, taking over 1-Jan-2027.
@@ -71,10 +77,10 @@ Screener P/E 235x, ROCE 3.6%, ROE 4.1%; market cap ₹7,704cr; 52-week range ₹
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** No tracked series applies after the engineering-services divestment; defence orders drive it.
+**Read (23-Oct-2026, mine, not management's):** No tracked series applies after the engineering-services divestment; defence orders drive it.
 
 **How cost moves reach profit:** No tracked price or macro series drives this business directly. After the engineering-services divestment the driver is defence orders.
 
@@ -82,7 +88,7 @@ Screener P/E 235x, ROCE 3.6%, ROE 4.1%; market cap ₹7,704cr; 52-week range ₹
 
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>

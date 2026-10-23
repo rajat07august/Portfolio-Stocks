@@ -14,11 +14,17 @@
 > **📋 WHAT THIS REFRESH FOUND.** Since the 16-Jul Tier-A refresh: **₹1,165.94cr of new orders in four weeks**; **a first entry into Odisha and a deepened Rajasthan position**; **a CRISIL outlook upgrade**; **a New Zealand subsidiary**; **an Independent Director resigning off four committees**; **two Regulation 29(2) share sales from the promoter side**; and **a share price that has fallen 47% in a year and now trades at 9.90x earnings on a 48.6% return on capital.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 785** · market cap ₹ 1,414 Cr. · P/E 9.85x · ROCE 47.3 % · ROE 42.8 % · 52-wk ₹ 1,545 / 705 · **vs ₹791 at baseline (-0.8%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 731** · market cap ₹ 1,316 Cr. · P/E 9.16x · ROCE 47.3 % · ROE 42.8 % · 52-wk ₹ 1,540 / 705 · **vs ₹791 at baseline (-7.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟢 ₹540.92cr of orders from MGVCL and UGVCL in a week; order book "nearing ₹4,000cr" · (earlier: 🔴 Company is VARYING THE OBJECTS of its IPO proceeds and extending the utilisation timeline; all AGM resolutions passed · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: New independent director and MD made Chairman; AGM (24-Sep) seeks Section 185 power to lend to group entities and a ₹500cr Section 186 limit; FY26 annual report: debtor turnover −27%; stock −4%)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 ₹540.92cr of orders from MGVCL and UGVCL in a week; order book "nearing ₹4,000cr" · (earlier: 🔴 Company is VARYING THE OBJECTS of its IPO proceeds and extending the utilisation timeline; all AGM resolutions passed · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: New independent director and MD made Chairman; AGM (24-Sep) seeks Section 185 power to lend to group entities and a ₹500cr Section 186 limit; FY26 annual report: debtor turnover −27%; stock −4%))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
+**No filings at all in the window on BSE (via Chrome)** — a verified negative, not an absence of searching (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: BSE announcements (via Chrome — BSE's JSON API is still Akamai-blocked from curl, re-tested 23-Oct), 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟢 6 → 21-Oct-2026 — ₹540.92cr of Gujarat distribution orders in one week**
 **MGVCL ₹471.92cr** (LoA 12-Oct; conversion of 11 kV overhead lines to medium-voltage covered conductor and underground network, SI Scheme Robust-III) and **UGVCL ₹69.00cr** (LoA 13-Oct; network shifting with GIS mapping) — **₹540.92cr including taxes**. The company says the order book is **"nearing ₹4,000 crore"**, with 18 months of visibility on the MGVCL work. Swept via BSE (Chrome; NSE has no feed for this name).
@@ -69,19 +75,19 @@ Screener P/E 9.5x, ROCE 48.6%, ROE 42.9%; market cap ₹1,364cr; promoter 72.70%
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** Copper +4.4% and aluminium −12.1% over three months: a net easing this quarter after large one-year rises. The profile says input inflation lands on the contractor, so the one-year rise still matters.
+**Read (23-Oct-2026, mine, not management's):** Copper +2.7% and aluminium −11.9% over three months: a net easing after large one-year rises. The profile says input inflation lands on the contractor, so the one-year rise still matters.
 
 **How cost moves reach profit:** Profile: copper, aluminium and civil-works inflation 'lands entirely on the contractor'.
 
-**Sensitivity:** raw materials were **82.0% of sales in FY26** (FY25: 82.0%, Screener). A 10% move across the whole raw-material bill is worth about **820 bps of margin before any pass-through**. The tracked inputs averaged **-3.8% over three months**, which would be roughly **312 bps of relief** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **82.0% of sales in FY26** (FY25: 82.0%, Screener). A 10% move across the whole raw-material bill is worth about **820 bps of margin before any pass-through**. The tracked inputs averaged **-4.6% over three months**, which would be roughly **377 bps of relief** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Copper (COMEX) (6.57 $/lb) | Input cost | +3.2% | +4.4% | +32.1% | -3.4% | 🔴 headwind | Yahoo Finance · 15-Oct-2026 |
-| Aluminium (COMEX) (3,064.5 $/t) | Input cost | -9.2% | -12.1% | +15.9% | -26.9% | 🟢 tailwind | Yahoo Finance · 15-Oct-2026 |
+| Copper (COMEX) (6.49 $/lb) | Input cost | -2.8% | +2.7% | +27.7% | -4.6% | ⚪ flat | Yahoo Finance · 23-Oct-2026 |
+| Aluminium (COMEX) (3,108.0 $/t) | Input cost | -9.5% | -11.9% | +12.3% | -25.9% | 🟢 tailwind | Yahoo Finance · 23-Oct-2026 |
 | Production - Electricity (YoY, Aug 26) | Demand driver | — | +10.1% | +11.6% | — | 🟢 tailwind | Tijori macro (India) · Aug 26 |
 
 **Why each factor is here:**
@@ -92,7 +98,7 @@ Screener P/E 9.5x, ROCE 48.6%, ROE 42.9%; market cap ₹1,364cr; promoter 72.70%
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>

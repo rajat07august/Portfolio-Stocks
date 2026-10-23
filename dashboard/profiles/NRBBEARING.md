@@ -20,11 +20,17 @@
 > **⚠️ Two versions of the Q1FY27 transcript exist.** NRB filed one at 13:04 on 13-Aug-2026 and a **"Revised Earnings Call Transcript" at 18:19 the same day**, citing *"a typographical error."* All quotes below are from the **revised** file, which is authoritative. See §3.5 for what the correction actually changed — it is not nothing.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 454** · market cap ₹ 4,404 Cr. · P/E 29.5x · ROCE 18.4 % · ROE 15.6 % · 52-wk ₹ 560 / 213 · **vs ₹484 at baseline (-6.2%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 439** · market cap ₹ 4,259 Cr. · P/E 28.5x · ROCE 18.4 % · ROE 15.6 % · 52-wk ₹ 560 / 213 · **vs ₹484 at baseline (-9.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚠️ MD Harshbeena Zaveri sold 3,10,677 shares (0.32%) on market 18–30 Sep (disclosed on the SAST feed); June-quarter 6.47pp fall still unexplained · (earlier: Nothing filed; June's 6.47pp promoter drop still unexplained · (earlier: Second NSE volume-spurt query in five days, answered with the standard 'normal market forces' reply; June's 6.47pp promoter drop still unexplained · (earlier in window: Promoter pledge falls again (Tata Capital release of 23 lakh shares; 3.10% of capital still pledged vs 39.80% in March), but two promoter-group holders also SOLD 5.1 lakh shares on 11-Sep; NSE volume spurt; stock +8.7%)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Sells ~2.6% of Amplus Ampere for ₹1.46cr (likely captive-power structure) · (earlier: ⚠️ MD Harshbeena Zaveri sold 3,10,677 shares (0.32%) on market 18–30 Sep (disclosed on the SAST feed); June-quarter 6.47pp fall still unexplained · (earlier: Nothing filed; June's 6.47pp promoter drop still unexplained · (earlier: Second NSE volume-spurt query in five days, answered with the standard 'normal market forces' reply; June's 6.47pp promoter drop still unexplained · (earlier in window: Promoter pledge falls again (Tata Capital release of 23 lakh shares; 3.10% of capital still pledged vs 39.80% in March), but two promoter-group holders also SOLD 5.1 lakh shares on 11-Sep; NSE volume spurt; stock +8.7%))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Selling part of its Amplus Ampere stake to two other companies**
+Board (22-Oct, circular resolution) approved selling **7.20 lakh shares (1.27%) of Amplus Ampere Pvt Ltd to Apcotex Industries for ₹72 lakh** and **7.36 lakh shares (1.30%) to Deepak Novochem Technologies for ₹73.6 lakh**, out of the 48 lakh shares NRB holds.
+> **Why it matters:** Small (₹1.46cr). The structure — a stake in a renewable-power company being split with other industrial buyers — looks like a **group-captive power arrangement** *(my inference; the filing does not say so)*. **Nothing here addresses the open promoter-holding question.**
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚠️ 6 → 21-Oct-2026 — The MD sold 3.1 lakh shares on the market in late September**
 NSE's **SAST feed** (not the announcements feed, which is why the 6-Oct sweep did not see these) carries three Reg 29(2) filings by **MD Harshbeena Sahney Zaveri**: a **market sale of 2,47,630 shares on 18 and 21-Sep** (0.26%, filed 29-Sep), **18,450 shares on 23–24 Sep** (filed 1-Oct) and **44,597 shares on 29–30 Sep** (filed 8-Oct) — **3,10,677 shares, 0.32% of the company, in all.** Her holding including encumbered shares is now **41.14%** (3,00,254-share pledge unchanged at 3.10%). The only announcement-feed filing in the window was a routine Reg 74(5) certificate. **Read alongside:** the 17-Jun Reg 29(2) filings on the same feed are **pledge releases** (1.96cr shares, 20.22%) — the MD's total stake was 41.48% before and after — so they do **not** explain the June-quarter fall from 51.20% to 44.73%.
@@ -75,21 +81,21 @@ Screener P/E 34.1x, ROCE 18.4%, ROE 15.6%; market cap ₹5,093cr; promoter 44.73
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** New cost pressure: long steel is +33.1% over three months and at a 52-week high, after being flat a month ago. Pass-through terms are not quantified. Vehicle demand is strong in every segment it supplies (two-wheelers +39.0%, cars +42.7%, trucks +43.6% YoY in September).
+**Read (23-Oct-2026, mine, not management's):** Long steel is +35.5% over three months and at a 52-week high. Pass-through terms are not quantified. Vehicle demand is strong in every segment it supplies (two-wheelers +33.1%, cars +32.1%, trucks +37.6% YoY in September).
 
 **How cost moves reach profit:** Management: 'We do not work on commodity pricing' (profile §1). Pass-through terms are not disclosed.
 
-**Sensitivity:** raw materials were **39.3% of sales in FY26** (FY25: 38.2%, Screener). A 10% move across the whole raw-material bill is worth about **393 bps of margin before any pass-through**. The tracked inputs averaged **+33.1% over three months**, which would be roughly **1300 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **39.3% of sales in FY26** (FY25: 38.2%, Screener). A 10% move across the whole raw-material bill is worth about **393 bps of margin before any pass-through**. The tracked inputs averaged **+35.5% over three months**, which would be roughly **1395 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Steel Long | Input cost | +8.3% | +33.1% | +35.7% | +0.0% | 🔴 headwind | Tijori (indianpetrochem.com) · 15 Oct, 09:30 am IST |
-| Two Wheeler - Retail Sales (YoY, Sep 26) | Demand driver | — | +29.0% | +39.0% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
-| Passenger Car - Retail Sales (YoY, Sep 26) | Demand driver | — | +26.0% | +42.7% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
-| Commercial Vehicles - Retail Sales (YoY, Sep 26) | Demand driver | — | +27.3% | +43.6% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
+| Steel Long | Input cost | +4.5% | +35.5% | +38.4% | +0.0% | 🔴 headwind | Tijori (indianpetrochem.com) · 23 Oct, 09:30 am IST |
+| Two Wheeler - Retail Sales (YoY, Sep 26) | Demand driver | — | +27.0% | +33.1% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
+| Passenger Car - Retail Sales (YoY, Sep 26) | Demand driver | — | +22.4% | +32.1% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
+| Commercial Vehicles - Retail Sales (YoY, Sep 26) | Demand driver | — | +25.3% | +37.6% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
 
 **Why each factor is here:**
 
@@ -100,7 +106,7 @@ Screener P/E 34.1x, ROCE 18.4%, ROE 15.6%; market cap ₹5,093cr; promoter 44.73
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>

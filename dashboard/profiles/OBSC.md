@@ -14,11 +14,17 @@
 > **Concall gate: 🟡 ONE CALL A YEAR.** OBSC holds a single earnings call, after the annual results. The most recent is **Q4FY26, 21-May-2026** (57,585 characters). **There is no Q1FY27 call.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 769** · market cap ₹ 1,987 Cr. · P/E 63.2x · ROCE 19.5 % · ROE 19.6 % · 52-wk ₹ 1,030 / 270 · **vs ₹790 at baseline (-2.7%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 714** · market cap ₹ 1,847 Cr. · P/E 58.7x · ROCE 19.5 % · ROE 19.6 % · 52-wk ₹ 1,030 / 270 · **vs ₹790 at baseline (-9.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟢 First defence PO (Elbit, ~₹8.9cr); Tenneco +₹80cr nomination; ₹17cr LoI · (earlier: AGM passed; the 50% → 71% raw-material jump still unexplained · (earlier: Nothing filed; the 50% → 71% raw-material jump remains unexplained · (earlier in window: ₹86.5cr preferential issue allotted at ₹601 (35% below the new ₹930 price); AS9100D aerospace certification recommended; non-binding New Mexico MoU; ₹31.4cr five-year order; stock +18%)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 First defence PO (Elbit, ~₹8.9cr); Tenneco +₹80cr nomination; ₹17cr LoI · (earlier: AGM passed; the 50% → 71% raw-material jump still unexplained · (earlier: Nothing filed; the 50% → 71% raw-material jump remains unexplained · (earlier in window: ₹86.5cr preferential issue allotted at ₹601 (35% below the new ₹930 price); AS9100D aerospace certification recommended; non-binding New Mexico MoU; ₹31.4cr five-year order; stock +18%))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
+**No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟢 6 → 21-Oct-2026 — A first defence order (Elbit) and an ₹80cr addition from Tenneco**
 **First purchase order for fuze components from an entity of Elbit Systems, ~₹8.9cr** (8-Oct). **Tenneco: an additional export nomination of ₹80cr over five years** (13-Oct), on top of the ₹160cr disclosed in June-2025. **A ₹17cr five-year LoI** from a domestic components maker (17-Oct). NSE listing approval for the 14,39,600 preferential shares (13-Oct).
@@ -72,10 +78,10 @@ Screener P/E 76.4x, ROCE 19.5%, ROE 19.6%; market cap ₹2,404cr; 52-week range 
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** Not trackable yet: the profile does not identify its raw-material mix, and raw materials jumped from 50% to 71% of sales in FY26 (Screener). That jump is worth explaining at the next refresh.
+**Read (23-Oct-2026, mine, not management's):** Not trackable yet: the profile does not identify its raw-material mix, and raw materials jumped from 50% to 71% of sales in FY26 (Screener). That jump is worth explaining at the next refresh.
 
 **How cost moves reach profit:** The profile does not identify the raw-material mix or pass-through terms.
 
@@ -83,7 +89,7 @@ Screener P/E 76.4x, ROCE 19.5%, ROE 19.6%; market cap ₹2,404cr; 52-week range 
 
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>

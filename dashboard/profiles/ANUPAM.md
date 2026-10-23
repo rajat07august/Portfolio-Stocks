@@ -20,11 +20,17 @@
 > **4. A COO was appointed on 14-Aug-2026 — Mr. Ravi Desai.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 1,091** · market cap ₹ 12,397 Cr. · P/E 71.0x · ROCE 7.38 % · ROE 5.55 % · 52-wk ₹ 1,415 / 1,053 · **vs ₹1,258 at baseline (-13.3%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 1,102** · market cap ₹ 12,551 Cr. · P/E 71.8x · ROCE 7.38 % · ROE 5.55 % · 52-wk ₹ 1,415 / 1,053 · **vs ₹1,258 at baseline (-12.4%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ ESG rating; no Q2 board date yet · (earlier: 🔴 The Bliss GVS acquisition CONSUMMATED 28-Sep — but 47.95% sits with the Mates PAC, not with Anupam, while Anupam carries the guarantee and the pledge · (earlier: ₹160cr more unlisted NCDs approved (Aditya Birla Capital) with ₹145cr allotted on 21-Sep — the debt build flagged on 19-Sep continues · (earlier in window: Bliss GVS acquisition financing approved: ₹300cr of secured NCDs at the Mates vehicle, guaranteed and pledged by Anupam; ₹160cr more NCDs on the 19-Sep agenda; CRISIL A+ still on Watch; new six-year US supply contract; stock −4%)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ ESG rating; no Q2 board date yet · (earlier: 🔴 The Bliss GVS acquisition CONSUMMATED 28-Sep — but 47.95% sits with the Mates PAC, not with Anupam, while Anupam carries the guarantee and the pledge · (earlier: ₹160cr more unlisted NCDs approved (Aditya Birla Capital) with ₹145cr allotted on 21-Sep — the debt build flagged on 19-Sep continues · (earlier in window: Bliss GVS acquisition financing approved: ₹300cr of secured NCDs at the Mates vehicle, guaranteed and pledged by Anupam; ₹160cr more NCDs on the 19-Sep agenda; CRISIL A+ still on Watch; new six-year US supply contract; stock −4%))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
+**No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 6 → 21-Oct-2026 — ESG rating; no Q2 date yet**
 CRISIL ESG 62 (unsolicited). **No board-meeting intimation for Q2 in the window** (last year's results came 16-Oct).
@@ -91,10 +97,10 @@ Screener P/E 78.7x, ROCE 7.4%, ROE 5.6%; market cap ₹13,750cr; promoter 59.07%
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** Only currency is tracked: 1.5% stronger over three months, 7.0% weaker over a year, so the year-on-year export help is intact but fading.
+**Read (23-Oct-2026, mine, not management's):** Only currency is tracked: 2.0% stronger over three months, 8.2% weaker over a year, so the year-on-year export help is intact but fading.
 
 **How cost moves reach profit:** Custom synthesis priced per contract (profile).
 
@@ -102,14 +108,14 @@ Screener P/E 78.7x, ROCE 7.4%, ROE 5.6%; market cap ₹13,750cr; promoter 59.07%
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (95.037 ₹ per $) | FX (export revenue) | -0.8% | -1.5% | +7.0% | -1.9% | ⚪ flat | Yahoo Finance · 15-Oct-2026 |
+| USD/INR (94.93 ₹ per $) | FX (export revenue) | -0.8% | -2.0% | +8.2% | -2.0% | ⚪ flat | Yahoo Finance · 23-Oct-2026 |
 
 **Why each factor is here:**
 
 - **USD/INR**: Export-led custom synthesis (profile).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>

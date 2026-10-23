@@ -8,11 +8,17 @@
 > **The operating thesis is current as of the Q1FY27 print (7-Aug) and the earnings call (10-Aug).** Two things have been added since: the **official transcript was filed 13-Aug and the machine transcription has now been verified against it** (§9 data-quality note 1 — one figure was wrong and is corrected below), and a **promoter-group transmission on 17-Aug** following a death in the family (§5.5(b)). Neither changes the thesis.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 201** · market cap ₹ 13,545 Cr. · P/E 16.5x · ROCE 20.5 % · ROE 15.3 % · 52-wk ₹ 320 / 199 · **vs ₹229 at baseline (-12.2%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 192** · market cap ₹ 12,944 Cr. · P/E 15.8x · ROCE 20.5 % · ROE 15.3 % · 52-wk ₹ 320 / 189 · **vs ₹229 at baseline (-16.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟢 EC for the 20 GWh BESS plant; Godawari Energy Solutions incorporated; JPL stake sale tranche 2 (₹10cr) · (earlier: 🟡 Moving into battery storage: a new BESS/renewables EPC subsidiary and ₹50cr more into the BESS plant vehicle — diversification away from the iron-ore core · (earlier: AGM passed cleanly; Anand Rathi G200 Summit meetings disclosed no new information · (earlier in window: 2 MnT pellet plant back in operation on 29-Aug after ~46 days down; promoter transmission (17-Aug) formalised; stock +1.7%)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 EC for the 20 GWh BESS plant; Godawari Energy Solutions incorporated; JPL stake sale tranche 2 (₹10cr) · (earlier: 🟡 Moving into battery storage: a new BESS/renewables EPC subsidiary and ₹50cr more into the BESS plant vehicle — diversification away from the iron-ore core · (earlier: AGM passed cleanly; Anand Rathi G200 Summit meetings disclosed no new information · (earlier in window: 2 MnT pellet plant back in operation on 29-Aug after ~46 days down; promoter transmission (17-Aug) formalised; stock +1.7%))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
+**No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟢 6 → 21-Oct-2026 — Environmental clearance for the 20 GWh battery plant; a new subsidiary**
 **Godawari New Energy received environmental clearance (5-Oct) for the industrial building of a 20 GWh battery energy storage system plant at AURIC Bidkin, Maharashtra.** A new wholly-owned subsidiary, **Godawari Energy Solutions Pvt Ltd**, incorporated 17-Oct. Second tranche of the Jammu Pigments sale: 3,35,100 shares for ₹10cr (13-Oct), stake 39.99% → 38.27%. 2,72,000 shares allotted on warrant conversion (8-Oct).
@@ -62,10 +68,10 @@ Screener P/E 19.2x, ROCE 20.5%, ROE 15.3%; market cap ₹15,718cr; 52-week range
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** The integrated spread widened: its products rose over three months (sponge iron +20.6%, billet +17.4%, long steel +33.1% at a 52-week high) while iron ore slipped 3.1% (September average $97.7/dmtu). As a captive miner, softer ore narrows its integration edge slightly (profile Risk 7). Coal is +6.2%.
+**Read (23-Oct-2026, mine, not management's):** The integrated spread is wide: its products rose over three months (sponge iron +16.7%, billet +17.5%, long steel +35.5% at a 52-week high) while iron ore slipped 3.1% (September average $97.7/dmtu). As a captive miner, softer ore narrows its integration edge slightly (profile Risk 7). Coal is +6.2%.
 
 **How cost moves reach profit:** A price-taker on its products; iron ore comes from its own captive mine (profile §1).
 
@@ -74,9 +80,9 @@ Screener P/E 19.2x, ROCE 20.5%, ROE 15.3%; market cap ₹15,718cr; 52-week range
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
 | Iron ore, cfr spot (monthly avg) (97.7 $/dmtu) | Selling price | +1.5% | -3.1% | -5.4% | -10.0% | 🔴 headwind | World Bank Pink Sheet · 2026M09 |
-| Sponge Iron | Selling price | -5.1% | +20.6% | +22.2% | -5.4% | 🟢 tailwind | Tijori (indianpetrochem.com) · 15 Oct, 09:30 am IST |
-| Billet | Selling price | +1.3% | +17.4% | +26.5% | -3.6% | 🟢 tailwind | Tijori (indianpetrochem.com) · 15 Oct, 09:30 am IST |
-| Steel Long | Selling price | +8.3% | +33.1% | +35.7% | +0.0% | 🟢 tailwind | Tijori (indianpetrochem.com) · 15 Oct, 09:30 am IST |
+| Sponge Iron | Selling price | -0.4% | +16.7% | +25.6% | -5.7% | 🟢 tailwind | Tijori (indianpetrochem.com) · 23 Oct, 09:30 am IST |
+| Billet | Selling price | +0.9% | +17.5% | +27.6% | -3.1% | 🟢 tailwind | Tijori (indianpetrochem.com) · 23 Oct, 09:30 am IST |
+| Steel Long | Selling price | +4.5% | +35.5% | +38.4% | +0.0% | 🟢 tailwind | Tijori (indianpetrochem.com) · 23 Oct, 09:30 am IST |
 | Coal, Australian (monthly avg) (147.1 $/mt) | Input cost | +8.8% | +6.2% | +38.4% | +0.0% | 🔴 headwind | World Bank Pink Sheet · 2026M09 |
 | Liquefied natural gas, Japan (monthly avg) (14.25 $/mmbtu) | Proxy / context | -6.7% | +20.9% | +24.2% | -8.9% | ⚪ context | World Bank Pink Sheet · 2026M09 |
 
@@ -91,7 +97,7 @@ Screener P/E 19.2x, ROCE 20.5%, ROE 15.3%; market cap ₹15,718cr; 52-week range
 
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -596,7 +602,7 @@ CMP **₹229** · Mcap **₹15,419cr** · **P/E 18.8x** · **P/B 2.65x** (book �
 
 **Risk 7 — 🟡 Iron ore price collapse.** GPIL is long its own ore at ~₹2,900/t. A sustained fall in market ore prices compresses the integration advantage that is most of the moat.
 
-> 📈 **Factor check 15-Oct-2026:** Iron ore slipped 3.1% over three months (September average $97.7/dmtu) while sponge iron (+20.6%) and billet (+17.4%) rose: the integration edge narrowed slightly, but the product spread widened. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 23-Oct-2026:** Iron ore slipped 3.1% over three months (September average $97.7/dmtu) while sponge iron (+16.7%) and billet (+17.5%) rose: the integration edge narrowed slightly, but the product spread widened. *(Numbers and sources: Input & factor check, at the top.)*
 
 **Risk 8 — 🟡 Coking coal inflation.** Management named **higher coal prices "amid the West Asia crisis"** as the second cause of the Q1FY27 cost gap.
 

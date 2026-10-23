@@ -14,11 +14,17 @@
 > **🔴 Dynamatic has not held an earnings call since February 2024** — verified across 672 NSE filings. **Yet it publishes the best earnings presentation in this refresh cycle**, including a full constant-currency reconciliation of its own headline growth. **That combination — excellent disclosure, no forum to question it — governs how this profile is written.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 12,812** · market cap ₹ 8,721 Cr. · P/E 149x · ROCE 10.2 % · ROE 6.67 % · 52-wk ₹ 14,500 / 7,630 · **vs ₹11,188 at baseline (+14.5%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 12,296** · market cap ₹ 8,329 Cr. · P/E 142x · ROCE 10.2 % · ROE 6.67 % · 52-wk ₹ 14,500 / 7,630 · **vs ₹11,188 at baseline (+9.9%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ IND A/Stable affirmed · (earlier: Trading window closed; nothing material · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: No company event beyond the FY26 annual report; stock +7.8% to ₹12,061 at 140x)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ IND A/Stable affirmed · (earlier: Trading window closed; nothing material · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: No company event beyond the FY26 annual report; stock +7.8% to ₹12,061 at 140x))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
+**No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 6 → 21-Oct-2026 — India Ratings affirms IND A / Stable**
 **Ind-Ra affirmed the bank loan facilities at IND A, Outlook Stable** (letter 14-Oct).
@@ -60,10 +66,10 @@ Screener P/E 140x, ROCE 10.2%, ROE 6.7%; market cap ₹8,191cr; promoter 41.50%;
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** Translation has turned against it: the pound and the euro are each 3.3% weaker against the rupee over three months, so reported growth will run behind constant currency in Q2, the reverse of Q1FY27 (+14.5% reported vs +3.9%).
+**Read (23-Oct-2026, mine, not management's):** Translation is against it: the euro is 3.1% and the pound 1.6% weaker against the rupee over three months, so reported growth will run behind constant currency in Q2, the reverse of Q1FY27 (+14.5% reported vs +3.9%).
 
 **How cost moves reach profit:** Reports constant-currency growth: Q1FY27 reported +14.5% vs +3.9% constant currency (profile).
 
@@ -71,9 +77,9 @@ Screener P/E 140x, ROCE 10.2%, ROE 6.7%; market cap ₹8,191cr; promoter 41.50%;
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| EUR/INR (106.7031 ₹ per €) | FX (export revenue) | -3.3% | -3.3% | +3.7% | -5.1% | 🔴 headwind | Yahoo Finance · 15-Oct-2026 |
-| GBP/INR (126.1028 ₹ per £) | FX (export revenue) | -2.5% | -3.3% | +6.6% | -3.4% | 🔴 headwind | Yahoo Finance · 15-Oct-2026 |
-| USD/INR (95.037 ₹ per $) | FX (export revenue) | -0.8% | -1.5% | +7.0% | -1.9% | ⚪ flat | Yahoo Finance · 15-Oct-2026 |
+| EUR/INR (106.3436 ₹ per €) | FX (export revenue) | -2.8% | -3.1% | +4.5% | -5.5% | 🔴 headwind | Yahoo Finance · 23-Oct-2026 |
+| GBP/INR (126.9447 ₹ per £) | FX (export revenue) | -0.6% | -1.6% | +8.3% | -2.8% | ⚪ flat | Yahoo Finance · 23-Oct-2026 |
+| USD/INR (94.93 ₹ per $) | FX (export revenue) | -0.8% | -2.0% | +8.2% | -2.0% | ⚪ flat | Yahoo Finance · 23-Oct-2026 |
 
 **Why each factor is here:**
 
@@ -82,7 +88,7 @@ Screener P/E 140x, ROCE 10.2%, ROE 6.7%; market cap ₹8,191cr; promoter 41.50%;
 - **USD/INR**: Aerospace exports (profile).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>

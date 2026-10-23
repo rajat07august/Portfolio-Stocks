@@ -12,11 +12,17 @@
 > ***Applying the refresh's own logic consistently: if 55x with +12% justified MH, then 63.8x with −4% justifies MEDIUM.*** **Nothing in the business caused this, and nothing in §3.5 or §4 has deteriorated.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 1,822** · market cap ₹ 17,193 Cr. · P/E 52.5x · ROCE 18.0 % · ROE 15.0 % · 52-wk ₹ 2,484 / 970 · **vs ₹2,212 at baseline (-17.6%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 1,762** · market cap ₹ 16,611 Cr. · P/E 50.7x · ROCE 18.0 % · ROE 15.0 % · 52-wk ₹ 2,484 / 970 · **vs ₹2,212 at baseline (-20.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Routine filings only · (earlier: No filings on either exchange · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No company event beyond an ESOP allotment; stock −3% to ₹2,148)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: No filings on either exchange · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No company event beyond an ESOP allotment; stock −3% to ₹2,148))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
+**No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 6 → 21-Oct-2026 — Verified quiet — routine filings only**
 Only the quarterly Reg 74(5) depository certificate (or equivalent routine items) on NSE. **Nothing material.**
@@ -52,30 +58,30 @@ ESOP allotment filings only. Price ₹2,212 → ₹2,148; Screener P/E 61.9x, RO
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** Billet, its main input, is +17.4% over three months. Contracts are about 75% pass-through, so roughly a quarter of that lands on margin. Truck demand is strong (+43.6% YoY in September); management has called overseas tractor demand subdued, while Indian tractor sales were +19.1% in May.
+**Read (23-Oct-2026, mine, not management's):** Billet, its main input, is +17.5% over three months. Contracts are about 75% pass-through, so roughly a quarter of that lands on margin. Truck demand is strong (+37.6% YoY in September); Indian tractor sales turned negative (−15.5% YoY in September), and management already called overseas tractor demand subdued.
 
 **How cost moves reach profit:** Management: contracts are 'around 75% pass-through', with the rest absorbed (profile Risk 4).
 
-**Sensitivity:** raw materials were **40.9% of sales in FY26** (FY25: 42.0%, Screener). A 10% move across the whole raw-material bill is worth about **409 bps of margin before any pass-through**. The tracked inputs averaged **+17.4% over three months**, which would be roughly **711 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **40.9% of sales in FY26** (FY25: 42.0%, Screener). A 10% move across the whole raw-material bill is worth about **409 bps of margin before any pass-through**. The tracked inputs averaged **+17.5% over three months**, which would be roughly **715 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Billet | Input cost | +1.3% | +17.4% | +26.5% | -3.6% | 🔴 headwind | Tijori (indianpetrochem.com) · 15 Oct, 09:30 am IST |
-| Commercial Vehicles - Retail Sales (YoY, Sep 26) | Demand driver | — | +27.3% | +43.6% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
-| Tractor Sales (YoY, May 26) | Demand driver | — | +19.1% | +19.1% | — | 🟢 tailwind | Tijori macro (India) · May 26 |
+| Billet | Input cost | +0.9% | +17.5% | +27.6% | -3.1% | 🔴 headwind | Tijori (indianpetrochem.com) · 23 Oct, 09:30 am IST |
+| Commercial Vehicles - Retail Sales (YoY, Sep 26) | Demand driver | — | +25.3% | +37.6% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
+| Tractor Sales (YoY, Sep 26) | Demand driver | — | +3.8% | -15.5% | — | 🔴 headwind | Tijori macro (India) · Sep 26 |
 
 **Why each factor is here:**
 
 - **Billet**: It hammers steel billets into crankshafts, axle beams and knuckles (profile §1).
 - **Commercial Vehicles - Retail Sales (YoY, Sep 26)**: Truck crankshafts and axle beams (profile §1).
-- **Tractor Sales (YoY, May 26)**: Tractor components; management called overseas tractor demand 'subdued' (profile §3.5).
+- **Tractor Sales (YoY, Sep 26)**: Tractor components; management called overseas tractor demand 'subdued' (profile §3.5).
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>

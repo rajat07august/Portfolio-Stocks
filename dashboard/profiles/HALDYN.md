@@ -12,11 +12,17 @@
 > **📋 WHAT THIS REFRESH FOUND.** v1 was **8.6 KB — the thinnest profile on the watchlist** — written 3-Jul-2026 from Screener and public information. Since then: **a strong Q1FY27 (revenue +21%, consolidated PAT +90%)**, **the FY26 annual report**, **a captive renewable-power investment**, and **a significant accounting judgement that v1 did not carry: Haldyn owns 56.80% of its principal joint venture and accounts for it as an associate rather than a subsidiary.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 146** · market cap ₹ 784 Cr. · P/E 25.3x · ROCE 13.5 % · ROE 11.4 % · 52-wk ₹ 166 / 70.4 · **vs ₹142 at baseline (+2.8%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 132** · market cap ₹ 709 Cr. · P/E 22.8x · ROCE 13.5 % · ROE 11.4 % · 52-wk ₹ 166 / 70.4 · **vs ₹142 at baseline (-7.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 2-Sep-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: A depository certificate only · (earlier: Trading window closed — results cycle approaching; still the last outstanding C1 refresh · (earlier in window: No company filing since the 2-Sep profile beyond AGM logistics; stock ₹142 → ₹143)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 2-Sep-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Q2 board 5-Nov · (earlier: ⚪ No filings in the window (verified) · (earlier: A depository certificate only · (earlier: Trading window closed — results cycle approaching; still the last outstanding C1 refresh · (earlier in window: No company filing since the 2-Sep profile beyond AGM logistics; stock ₹142 → ₹143))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Q2 board meeting fixed for 5-Nov**
+Board meets **5-Nov** for the Q2/H1FY27 results (BSE, via Chrome).
+> **Why it matters:** Nothing new.
+
+*Sweep: BSE announcements (via Chrome — BSE's JSON API is still Akamai-blocked from curl, re-tested 23-Oct), 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 6 → 21-Oct-2026 — Verified quiet — no filings**
 No filings at all in the window on BSE (via Chrome). **A control query over 1-Aug → 21-Oct returned 14 Haldyn filings with the right company name**, so this is a verified zero, not a broken query. NSE's feed carries nothing for HALDYNGL.
@@ -52,10 +58,10 @@ Two AGM-related filings only. Price ₹142 → ₹143; Screener P/E 24.7x, ROCE 
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** Neither soda ash nor Indian furnace gas is tracked, and the profile says those two set the margin. Asian LNG (+20.9% over three months, September average $14.25) is context only.
+**Read (23-Oct-2026, mine, not management's):** Neither soda ash nor Indian furnace gas is tracked, and the profile says those two set the margin. Asian LNG (+20.9% over three months, September average $14.25) is context only.
 
 **How cost moves reach profit:** Profile: 'Energy and soda ash set the margin, and neither is controllable' (Risk 2). Neither soda ash nor Indian furnace gas is tracked.
 
@@ -71,7 +77,7 @@ Two AGM-related filings only. Price ₹142 → ₹143; Screener P/E 24.7x, ROCE 
 
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>

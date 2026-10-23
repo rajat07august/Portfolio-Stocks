@@ -5,11 +5,17 @@
 **⚠️ Monarch holds no earnings calls, files no investor presentations, and its FY26 Annual Report is still unfiled — every judgement below is inferred from statutory filings.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 339** · market cap ₹ 2,694 Cr. · P/E 14.9x · ROCE 27.6 % · ROE 20.5 % · 52-wk ₹ 407 / 235 · **vs ₹379 at baseline (-10.6%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 329** · market cap ₹ 2,606 Cr. · P/E 14.4x · ROCE 27.6 % · ROE 20.5 % · 52-wk ₹ 407 / 235 · **vs ₹379 at baseline (-13.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Routine filings only · (earlier: AGM passed; no concalls, so filings are the only channel · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: No company event beyond the FY26 annual report; stock −3.4% to ₹366)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: AGM passed; no concalls, so filings are the only channel · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: No company event beyond the FY26 annual report; stock −3.4% to ₹366))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
+**No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 6 → 21-Oct-2026 — Verified quiet — routine filings only**
 Only the quarterly Reg 74(5) depository certificate (or equivalent routine items) on NSE. **Nothing material.**
@@ -51,16 +57,16 @@ Screener P/E 16.0x, ROCE 27.7%, ROE 20.5%; promoter 53.83% (stable); 52-week ran
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** No tracked series applies; capital-market activity drives it.
+**Read (23-Oct-2026, mine, not management's):** No tracked series applies; capital-market activity drives it.
 
 **How cost moves reach profit:** No tracked price or macro series drives this business directly. The driver is capital-market activity (profile Risk 1).
 
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>

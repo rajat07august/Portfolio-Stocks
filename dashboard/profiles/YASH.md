@@ -18,11 +18,17 @@
 > **📌 And note the anchor: those institutions paid ₹721 on 6 August. The stock is ₹900 today — a 24.8% premium to informed money, in under three weeks.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 1,160** · market cap ₹ 3,467 Cr. · P/E 89.1x · ROCE 28.6 % · ROE 23.5 % · 52-wk ₹ 1,264 / 366 · **vs ₹900 at baseline (+28.9%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 1,164** · market cap ₹ 3,480 Cr. · P/E 56.5x · ROCE 28.6 % · ROE 23.5 % · 52-wk ₹ 1,310 / 366 · **vs ₹900 at baseline (+29.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟢 H1FY27: revenue +95%, PAT +166%, ex-OI EBITDA margin 27.5%; order book ₹760cr+ (FY27 target ₹500cr+ already passed); CFO ₹45cr vs ₹9cr in all FY26 — but carried by liabilities, not collections · (earlier: 🟢🟢 Commercial production COMMENCED at the new Savli bushing plant, and the US subsidiary signed a 3-year sales-representation agreement for the Mid-west; FY26 AR now read — CMD remuneration +107% to ₹289.34 lakh, and the Rule 5 comparison with employee increases is left BLANK · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: US subsidiary signs a 36-month sales-representation and utility-approvals agreement covering 19 states (no order, no value); stock +17.7% to ₹1,059 at 81x)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ H1 call recording posted; transcribe-or-wait asked · (earlier: 🟢 H1FY27: revenue +95%, PAT +166%, ex-OI EBITDA margin 27.5%; order book ₹760cr+ (FY27 target ₹500cr+ already passed); CFO ₹45cr vs ₹9cr in all FY26 — but carried by liabilities, not collections · (earlier: 🟢🟢 Commercial production COMMENCED at the new Savli bushing plant, and the US subsidiary signed a 3-year sales-representation agreement for the Mid-west; FY26 AR now read — CMD remuneration +107% to ₹289.34 lakh, and the Rule 5 comparison with employee increases is left BLANK · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: US subsidiary signs a 36-month sales-representation and utility-approvals agreement covering 19 states (no order, no value); stock +17.7% to ₹1,059 at 81x))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Earnings-call recording posted**
+The recording of the **21-Oct H1FY27 earnings call** was posted (BSE, 21-Oct late evening). All other 21-Oct filings — results, deck, press release, ESOP allotment and the two deviation statements — were already incorporated in the 21-Oct refresh.
+> **Why it matters:** The call is the place to test the cash-flow question (CFO carried by liabilities, not collections). **Not transcribed**: YASH is not a holding, so per §4A the choice is Rajat's each quarter (question asked).
+
+*Sweep: BSE announcements (via Chrome — BSE's JSON API is still Akamai-blocked from curl, re-tested 23-Oct), 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟢 6 → 21-Oct-2026 — H1FY27 results: revenue +95%, EBITDA margin 27.5% ex-other income, operating cash finally positive — order book ₹760cr+**
 Board approved H1FY27 results on 21-Oct (call held the same evening; transcript not yet filed). **Verified against the scanned consolidated statements**, rendered and read page by page:
@@ -93,10 +99,10 @@ Screener P/E 81.3x, ROCE 28.6%, ROE 23.5%; market cap ₹3,166cr; promoter 54.79
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** Copper is +4.4% over three months and +32.1% over a year; epoxy and paper are not tracked. Pass-through is not disclosed. Electricity output +11.6% YoY.
+**Read (23-Oct-2026, mine, not management's):** Copper is +2.7% over three months and +27.7% over a year; epoxy and paper are not tracked. Pass-through is not disclosed. Electricity output +11.6% YoY. H1FY27 gross margin rose to 52.0% regardless.
 
 **How cost moves reach profit:** Not disclosed; the profile lists raw-material inflation as a risk (Risk 8).
 
@@ -104,7 +110,7 @@ Screener P/E 81.3x, ROCE 28.6%, ROE 23.5%; market cap ₹3,166cr; promoter 54.79
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Copper (COMEX) (6.57 $/lb) | Input cost | +3.2% | +4.4% | +32.1% | -3.4% | 🔴 headwind | Yahoo Finance · 15-Oct-2026 |
+| Copper (COMEX) (6.49 $/lb) | Input cost | -2.8% | +2.7% | +27.7% | -4.6% | ⚪ flat | Yahoo Finance · 23-Oct-2026 |
 | Production - Electricity (YoY, Aug 26) | Demand driver | — | +10.1% | +11.6% | — | 🟢 tailwind | Tijori macro (India) · Aug 26 |
 
 **Why each factor is here:**
@@ -114,7 +120,7 @@ Screener P/E 81.3x, ROCE 28.6%, ROE 23.5%; market cap ₹3,166cr; promoter 54.79
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>

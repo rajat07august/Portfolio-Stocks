@@ -12,11 +12,17 @@
 > **Concall gate: ✅ CLEARED.** Q1FY27 call held **30-Jul-2026**, transcript filed **4-Aug-2026** (90,971 chars), on disk with five earlier transcripts (May-2025 → Jun-2026), the deck and the press release. Management: **J.S. Gujral (MD)**, **Jayesh Doshi (WTD)**, **Jaidit Singh Brar (CEO — new)**, **Bijay Agrawal (CFO)**, **Nikhil Gupta (Head IR)**. Analysts included **ICICI Securities, Motilal Oswal, JP Morgan**.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 1,469** · market cap ₹ 28,336 Cr. · P/E 76.3x · ROCE 16.8 % · ROE 14.0 % · 52-wk ₹ 1,823 / 634 · **vs ₹1,465 at baseline (+0.3%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 1,433** · market cap ₹ 27,623 Cr. · P/E 74.4x · ROCE 16.8 % · ROE 14.0 % · 52-wk ₹ 1,823 / 634 · **vs ₹1,465 at baseline (-2.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Routine; promoter −0.66pp unexplained · (earlier: Trading window closed; the Jodhpur medtech plant still unquantified · (earlier: Subsidiary Syrma Johari MedTech opened a medical plastics and precision moulding plant in Jodhpur; WTD appointment clarification filed · (earlier in window: Elemaster JV plant inaugurated in Bengaluru; Kaga JV company incorporated; Executive Chairman re-appointed; stock +18% to ₹1,729 at 90x)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine; promoter −0.66pp unexplained · (earlier: Trading window closed; the Jodhpur medtech plant still unquantified · (earlier: Subsidiary Syrma Johari MedTech opened a medical plastics and precision moulding plant in Jodhpur; WTD appointment clarification filed · (earlier in window: Elemaster JV plant inaugurated in Bengaluru; Kaga JV company incorporated; Executive Chairman re-appointed; stock +18% to ₹1,729 at 90x))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
+**No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 6 → 21-Oct-2026 — Routine; a small promoter fall unexplained**
 Only the Reg 74(5) certificate and share-capital reconciliation. Screener promoter **42.28% → 41.62%**; **no promoter SAST filing on NSE explains it** (the only SAST filing is Franklin Templeton MF selling 1.1 lakh shares).
@@ -71,10 +77,10 @@ Screener P/E 89.8x (was 76.1x), ROCE 16.8%, ROE 14.0%; market cap ₹33,338cr; p
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** Component and memory prices are not tracked; the rupee cuts both ways here (imported parts, 24% exports) and is 1.5% stronger over three months.
+**Read (23-Oct-2026, mine, not management's):** Component and memory prices are not tracked; the rupee cuts both ways here (imported parts, 24% exports) and is 2.0% stronger over three months.
 
 **How cost moves reach profit:** Management was asked whether rising memory prices are a pass-through (profile); components are mostly imported.
 
@@ -82,14 +88,14 @@ Screener P/E 89.8x (was 76.1x), ROCE 16.8%, ROE 14.0%; market cap ₹33,338cr; p
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (95.037 ₹ per $) | Proxy / context | -0.8% | -1.5% | +7.0% | -1.9% | ⚪ context | Yahoo Finance · 15-Oct-2026 |
+| USD/INR (94.93 ₹ per $) | Proxy / context | -0.8% | -2.0% | +8.2% | -2.0% | ⚪ context | Yahoo Finance · 23-Oct-2026 |
 
 **Why each factor is here:**
 
 - **USD/INR**: Imports components in dollars and exports 24% of revenue; the net effect is not disclosed.
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>

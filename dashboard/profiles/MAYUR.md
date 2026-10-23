@@ -8,11 +8,17 @@
 > **🎧 Sourcing note. Mayur is a HELD POSITION and falls under the §4A "transcribe immediately" tier.** It also **files no investor decks — it is transcript-only.** The Q1FY27 call (6-Aug-2026) was machine-transcribed the same day from company audio; **the official transcript was filed on 10-Aug-2026 and the machine version has now been verified against it.** **All quotes in this profile are from the official transcript** — which turned out to contain **three material disclosures the machine version had lost entirely**, including multi-year revenue guidance. See §9 data-quality note 1.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 721** · market cap ₹ 3,139 Cr. · P/E 15.2x · ROCE 24.5 % · ROE 18.0 % · 52-wk ₹ 907 / 471 · **vs ₹757 at baseline (-4.8%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 704** · market cap ₹ 3,059 Cr. · P/E 14.8x · ROCE 24.5 % · ROE 18.0 % · 52-wk ₹ 907 / 471 · **vs ₹757 at baseline (-7.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ GM-Marketing (SMP) resigned 9-Oct; still no filing on the defeated WTD resolution · (earlier: Fifteen days on, STILL NOTHING FILED about Bagaria's position; the 28-Sep board change is Roongta's scheduled retirement, not him · (earlier: 🔴 The WTD's re-appointment was DEFEATED at the AGM (70.44% for, needed 75%) and the promoter block split 70/30 against itself; earlier, shareholders voted down the family pay resolution and the founder-CMD could not speak · (earlier in window: Shareholders voted DOWN the promoter-family related-party remuneration (62.9% against); founder-CMD could not speak at the 18-Sep AGM; stock −2%)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ GM-Marketing (SMP) resigned 9-Oct; still no filing on the defeated WTD resolution · (earlier: Fifteen days on, STILL NOTHING FILED about Bagaria's position; the 28-Sep board change is Roongta's scheduled retirement, not him · (earlier: 🔴 The WTD's re-appointment was DEFEATED at the AGM (70.44% for, needed 75%) and the promoter block split 70/30 against itself; earlier, shareholders voted down the family pay resolution and the founder-CMD could not speak · (earlier in window: Shareholders voted DOWN the promoter-family related-party remuneration (62.9% against); founder-CMD could not speak at the 18-Sep AGM; stock −2%))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
+**No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 6 → 21-Oct-2026 — GM-Marketing resigns; still nothing on Bagaria**
 **Ashutosh Pandey, General Manager – Marketing (Senior Management Personnel), resigned on 9-Oct** for personal reasons and to pursue opportunities outside, relieved the same day. Also an IEPF share-transfer notice (10-Oct).
@@ -56,23 +62,23 @@ Screener P/E 15.6x, ROCE 24.5%, ROE 18.0%; 52-week range ₹471–907. FII holdi
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** Still the holding most exposed. Raw materials were 55% of FY26 sales, and its tracked inputs rose sharply over three months: PVC +25.9%, DOP plasticiser +23.2%, polyurethane +9.8%. There is no contractual pass-through. If its whole bill moved like that 19.6% average, it would be about 1,080 bps of margin before price increases: an upper bound, not a forecast. The rupee strengthened 1.5% over three months, so exports are not cushioning it. Crude eased 4.4% in the last month, the first relief. Test: Q2FY27 gross margin against Q1.
+**Read (23-Oct-2026, mine, not management's):** Still the holding most exposed. Raw materials were 55% of FY26 sales, and its tracked inputs rose over three months: PVC +24.3%, DOP plasticiser +18.5%, polyurethane +13.0%. There is no contractual pass-through. If its whole bill moved like that 18.6% average, it would be about 1,020 bps of margin before price increases: an upper bound, not a forecast. Crude is back up (+8.1% in the month, ~$111), and the rupee is 2.0% stronger, so exports do not cushion it. Test: Q2FY27 gross margin against Q1.
 
 **How cost moves reach profit:** Partial and lagged. Management described raw materials going 'up very sharply… then a fall… then again up' since March 2026, with shipping costs up 4x (profile Risk 4). No contractual pass-through is disclosed.
 
-**Sensitivity:** raw materials were **55.0% of sales in FY26** (FY25: 57.0%, Screener). A 10% move across the whole raw-material bill is worth about **550 bps of margin before any pass-through**. The tracked inputs averaged **+19.6% over three months**, which would be roughly **1078 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **55.0% of sales in FY26** (FY25: 57.0%, Screener). A 10% move across the whole raw-material bill is worth about **550 bps of margin before any pass-through**. The tracked inputs averaged **+18.6% over three months**, which would be roughly **1023 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| PVC | Input cost | +4.3% | +25.9% | +40.4% | -10.6% | 🔴 headwind | Tijori (indianpetrochem.com) · 15 Oct, 09:00 am IST |
-| DOP ( Dioctyl Phthalate ) | Input cost | -0.7% | +23.2% | +67.9% | -8.2% | 🔴 headwind | Tijori (indianpetrochem.com) · 15 Oct, 09:00 am IST |
-| Polyurethane | Input cost | +5.7% | +9.8% | +38.8% | -7.9% | 🔴 headwind | Tijori (indianpetrochem.com) · 15 Oct, 09:00 am IST |
-| Brent crude (103.92 $/bbl) | Proxy / context | -4.4% | +23.4% | +67.9% | -12.2% | ⚪ context | Yahoo Finance · 15-Oct-2026 |
-| USD/INR (95.037 ₹ per $) | FX (export revenue) | -0.8% | -1.5% | +7.0% | -1.9% | ⚪ flat | Yahoo Finance · 15-Oct-2026 |
-| Passenger Car - Retail Sales (YoY, Sep 26) | Demand driver | — | +26.0% | +42.7% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
+| PVC | Input cost | +2.2% | +24.3% | +41.9% | -9.6% | 🔴 headwind | Tijori (indianpetrochem.com) · 23 Oct, 09:00 am IST |
+| DOP ( Dioctyl Phthalate ) | Input cost | -3.1% | +18.5% | +64.8% | -8.7% | 🔴 headwind | Tijori (indianpetrochem.com) · 23 Oct, 09:00 am IST |
+| Polyurethane | Input cost | +5.7% | +13.0% | +41.1% | -6.3% | 🔴 headwind | Tijori (indianpetrochem.com) · 23 Oct, 09:00 am IST |
+| Brent crude (111.42 $/bbl) | Proxy / context | +8.1% | +15.1% | +68.8% | -5.9% | ⚪ context | Yahoo Finance · 23-Oct-2026 |
+| USD/INR (94.93 ₹ per $) | FX (export revenue) | -0.8% | -2.0% | +8.2% | -2.0% | ⚪ flat | Yahoo Finance · 23-Oct-2026 |
+| Passenger Car - Retail Sales (YoY, Sep 26) | Demand driver | — | +22.4% | +32.1% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
 
 **Why each factor is here:**
 
@@ -85,7 +91,7 @@ Screener P/E 15.6x, ROCE 24.5%, ROE 18.0%; 52-week range ₹471–907. FII holdi
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -528,7 +534,7 @@ Analysts and management discuss a **"25% plus"** margin on the Q1FY27 call while
 
 **Risk 4 — 🟡 Raw material and freight volatility.** Petrochemical inputs *"went up very sharply… then a fall… then again up"*, and **shipping costs rose 4x** in Q1FY27 on the war situation. Management will not call the freight increase permanent, but nor can they call it temporary.
 
-> 📈 **Factor check 15-Oct-2026:** The risk is live and growing. PVC +25.9%, DOP plasticiser +23.2% and polyurethane +9.8% over three months, raw materials are 55% of sales, and there is no contractual pass-through. Watch Q2FY27 gross margin against Q1. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 23-Oct-2026:** The risk is live. PVC +24.3%, DOP plasticiser +18.5% and polyurethane +13.0% over three months, raw materials are 55% of sales, and there is no contractual pass-through. Crude is back up 8.1% in the month. Watch Q2FY27 gross margin against Q1. *(Numbers and sources: Input & factor check, at the top.)*
 
 **Risk 5 — 🟡 Volume growth is ~2%.** The +24.5% revenue came almost entirely from price and mix. **The value/volume gap is deliberate and management says so — but a mix shift is finite, and at some point volume has to do the work.** *This is what the capacity additions are for; it is also why they matter.*
 

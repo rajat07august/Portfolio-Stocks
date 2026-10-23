@@ -8,11 +8,17 @@
 > **🎧 Sourcing note. Datamatics is a HELD POSITION and falls under the §4A "transcribe immediately" tier.** The Q1FY27 call (6-Aug-2026) was machine-transcribed the same day because the company had published audio only. **The official transcript was filed on 12-Aug-2026 and the machine version has now been verified against it** — see §9 data-quality note 1. **All quotes in this profile are from the official transcript.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 759** · market cap ₹ 4,493 Cr. · P/E 17.7x · ROCE 20.4 % · ROE 16.0 % · 52-wk ₹ 1,015 / 632 · **vs ₹819 at baseline (-7.3%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 711** · market cap ₹ 4,183 Cr. · P/E 16.5x · ROCE 20.4 % · ROE 16.0 % · 52-wk ₹ 1,015 / 632 · **vs ₹819 at baseline (-13.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟢 Dr. Rajesh Gharpure appointed President & COO (15-Oct) · (earlier: 🟢 Prometric selects Datamatics for global remote-examination operations — a named marquee client, but unsized · (earlier: Independent director Kanika Mittal ceased on completion of her two-year term; all AGM resolutions passed with requisite majority · (earlier in window: No material company event; AI voice-agent expansion with a US client, Gartner mention; FY26 annual report out; stock −6.5%)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 Dr. Rajesh Gharpure appointed President & COO (15-Oct) · (earlier: 🟢 Prometric selects Datamatics for global remote-examination operations — a named marquee client, but unsized · (earlier: Independent director Kanika Mittal ceased on completion of her two-year term; all AGM resolutions passed with requisite majority · (earlier in window: No material company event; AI voice-agent expansion with a US client, Gartner mention; FY26 annual report out; stock −6.5%))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
+**No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟢 6 → 21-Oct-2026 — A President & COO appointed**
 **Dr. Rajesh Gharpure appointed President & Chief Operating Officer (SMP) from 15-Oct**, reporting to Vice Chairman & CEO Rahul Kanodia, to lead key business units and corporate functions with a focus on *"AI-led services, profitable growth, and operational excellence"* (press release 16-Oct).
@@ -68,17 +74,17 @@ Screener P/E 17.8x (was 19.1x), ROCE 20.4%, ROE 16.0%; 52-week range ₹632–1,
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** Currency is the only market factor. The rupee is ₹95.0/$, 7.0% weaker than a year ago (a tailwind to reported growth against last year) but 1.5% stronger over three months, a small headwind quarter on quarter. The euro is −3.3% over three months.
+**Read (23-Oct-2026, mine, not management's):** Currency is the only market factor. The rupee is ₹94.9/$, 8.2% weaker than a year ago (a tailwind against last year) but 2.0% stronger over three months, a small headwind quarter on quarter. The euro is −3.1% over three months.
 
 **How cost moves reach profit:** No commodity inputs. The only market factor is currency: ~60–70% of revenue is USD-denominated (profile Risk 11).
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (95.037 ₹ per $) | FX (export revenue) | -0.8% | -1.5% | +7.0% | -1.9% | ⚪ flat | Yahoo Finance · 15-Oct-2026 |
-| EUR/INR (106.7031 ₹ per €) | FX (export revenue) | -3.3% | -3.3% | +3.7% | -5.1% | 🔴 headwind | Yahoo Finance · 15-Oct-2026 |
+| USD/INR (94.93 ₹ per $) | FX (export revenue) | -0.8% | -2.0% | +8.2% | -2.0% | ⚪ flat | Yahoo Finance · 23-Oct-2026 |
+| EUR/INR (106.3436 ₹ per €) | FX (export revenue) | -2.8% | -3.1% | +4.5% | -5.5% | 🔴 headwind | Yahoo Finance · 23-Oct-2026 |
 
 **Why each factor is here:**
 
@@ -86,7 +92,7 @@ Screener P/E 17.8x (was 19.1x), ROCE 20.4%, ROE 16.0%; 52-week range ₹632–1,
 - **EUR/INR**: Some European revenue (my inference; the profile gives no currency split beyond USD).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -554,7 +560,7 @@ It recorded *"FY27 outlook (implicit from concalls): continued 15% revenue growt
 
 **Risk 11 — ⚪ Currency.** **~60–70% of revenue is USD-denominated**; INR appreciation compresses reported growth and is already visible in the other-income swings.
 
-> 📈 **Factor check 15-Oct-2026:** The rupee is ₹95.0/$, 7.0% weaker than a year ago (a tailwind to reported growth against last year) but 1.5% stronger over three months. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 23-Oct-2026:** The rupee is ₹94.9/$, 8.2% weaker than a year ago (a tailwind to reported growth against last year) but 2.0% stronger over three months. *(Numbers and sources: Input & factor check, at the top.)*
 
 **Risk 12 — ⚪ Second-generation transition.** Rahul and Sameer Kanodia are in their 50s; no Gen-3 or professional-CEO plan is on record.
 

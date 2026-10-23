@@ -11,11 +11,17 @@
 > **🔴 THE ONE NUMBER TO CARRY.** **Three customers are 56.71% of revenue** (FY26; 61.18% in FY25). Anthem does not name them. Q1FY27 revenue fell **22.6% YoY** and management's explanation was *"timing shifts in deliveries to key customers."* **At 89x earnings, the concentration and the volatility are the same fact seen twice.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 804** · market cap ₹ 45,270 Cr. · P/E 76.3x · ROCE 30.4 % · ROE 22.3 % · 52-wk ₹ 978 / 579 · **vs ₹940 at baseline (-14.5%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 813** · market cap ₹ 45,728 Cr. · P/E 77.1x · ROCE 30.4 % · ROE 22.3 % · 52-wk ₹ 978 / 579 · **vs ₹940 at baseline (-13.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 3-Sep-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: Trading window closed; nothing material · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: The ₹127.68cr Upside Sharing Arrangement to three founders was settled on 8-Sep, as approved at the July AGM; stock −1.3%)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 3-Sep-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ No filings in the window (verified) · (earlier: Trading window closed; nothing material · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: The ₹127.68cr Upside Sharing Arrangement to three founders was settled on 8-Sep, as approved at the July AGM; stock −1.3%))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
+**No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 6 → 21-Oct-2026 — Verified quiet — no filings**
 **No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
@@ -57,10 +63,10 @@ Screener P/E 88.2x, ROCE 30.4%, ROE 22.3%; market cap ₹52,306cr; promoter 71.4
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** Only currency is tracked; 1.5% stronger over three months. Forex gains sit in its other income, not operations (profile).
+**Read (23-Oct-2026, mine, not management's):** Only currency is tracked; 2.0% stronger over three months. Forex gains sit in its other income, not operations (profile).
 
 **How cost moves reach profit:** CRDMO contracts are priced per molecule; forex gains sit in other income (profile).
 
@@ -68,14 +74,14 @@ Screener P/E 88.2x, ROCE 30.4%, ROE 22.3%; market cap ₹52,306cr; promoter 71.4
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (95.037 ₹ per $) | FX (export revenue) | -0.8% | -1.5% | +7.0% | -1.9% | ⚪ flat | Yahoo Finance · 15-Oct-2026 |
+| USD/INR (94.93 ₹ per $) | FX (export revenue) | -0.8% | -2.0% | +8.2% | -2.0% | ⚪ flat | Yahoo Finance · 23-Oct-2026 |
 
 **Why each factor is here:**
 
 - **USD/INR**: Export CRDMO (profile).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>

@@ -18,11 +18,17 @@
 > **Concall gate: 🟢 GREEN.** Eight transcripts on disk (Oct-2024 → Jul-2026) plus four decks — above the six-concall standard. Every management quote below is verbatim from those transcripts. Where a figure is mine rather than management's, it is labelled.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener, standalone — the consolidated page carries no data):** CMP **₹ 378** · market cap ₹ 1,830 Cr. · P/E 20.1x · ROCE 26.2 % · ROE 19.9 % · 52-wk ₹ 560 / 237
+**📍 Live market check — 23-Oct-2026 close (Screener, standalone — the consolidated page carries no data):** CMP **₹ 350** · market cap ₹ 1,690 Cr. · P/E 18.5x · ROCE 26.2 % · ROE 19.9 % · 52-wk ₹ 560 / 237
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Routine filings only · (earlier: Self-reported 100-share contra trade by a non-promoter AVP — immaterial · (earlier: Head of HR & Corporate Communication resigned (SMP), effective 23-Sep · (earlier in window: FY26 annual report read: the ₹344.75cr related-party guarantee claim finds no support (related-party collateral fell from ₹5cr to nil; total contingent liabilities ₹207.5cr); senior QA manager resigns; stock −1.7%)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Q2 call 27-Oct · (earlier: ⚪ Routine filings only · (earlier: Self-reported 100-share contra trade by a non-promoter AVP — immaterial · (earlier: Head of HR & Corporate Communication resigned (SMP), effective 23-Sep · (earlier in window: FY26 annual report read: the ₹344.75cr related-party guarantee claim finds no support (related-party collateral fell from ₹5cr to nil; total contingent liabilities ₹207.5cr); senior QA manager resigns; stock −1.7%))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Q2 call 27-Oct**
+Earnings call **27-Oct** (Phillip Capital).
+> **Why it matters:** Watch whether the greenfield's September commissioning held.
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 6 → 21-Oct-2026 — Verified quiet — routine filings only**
 Only the quarterly Reg 74(5) depository certificate (or equivalent routine items) on NSE. **Nothing material.**
@@ -72,19 +78,19 @@ Screener P/E 24.3x, ROCE 26.2%, ROE 19.9%; market cap ₹2,216cr; promoter 68.18
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** Pass-through is 'total and real-time', so aluminium's −12.1% over three months will show up as slower revenue growth, not lower margin. Its one-year rise has shrunk to +15.9% (from +33.6% a month ago), so the aluminium inflation in reported revenue (the profile's central finding) is fading.
+**Read (23-Oct-2026, mine, not management's):** Pass-through is 'total and real-time', so aluminium's −11.9% over three months will show up as slower revenue growth, not lower margin. Its one-year rise is down to +12.3% (from +15.9% at the 15-Oct read and +33.6% in September), so the aluminium inflation in reported revenue (the profile's central finding) keeps fading. Call 27-Oct.
 
 **How cost moves reach profit:** Management: pass-through is 'total and real-time', so metal prices move revenue, not margin (profile §1).
 
-**Sensitivity:** raw materials were **80.0% of sales in FY26** (FY25: 81.0%, Screener). A 10% move across the whole raw-material bill is worth about **800 bps of margin before any pass-through**. The tracked inputs averaged **-3.8% over three months**, which would be roughly **304 bps of relief** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **80.0% of sales in FY26** (FY25: 81.0%, Screener). A 10% move across the whole raw-material bill is worth about **800 bps of margin before any pass-through**. The tracked inputs averaged **-4.6% over three months**, which would be roughly **368 bps of relief** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Aluminium (COMEX) (3,064.5 $/t) | Input cost | -9.2% | -12.1% | +15.9% | -26.9% | 🟢 tailwind | Yahoo Finance · 15-Oct-2026 |
-| Copper (COMEX) (6.57 $/lb) | Input cost | +3.2% | +4.4% | +32.1% | -3.4% | 🔴 headwind | Yahoo Finance · 15-Oct-2026 |
+| Aluminium (COMEX) (3,108.0 $/t) | Input cost | -9.5% | -11.9% | +12.3% | -25.9% | 🟢 tailwind | Yahoo Finance · 23-Oct-2026 |
+| Copper (COMEX) (6.49 $/lb) | Input cost | -2.8% | +2.7% | +27.7% | -4.6% | ⚪ flat | Yahoo Finance · 23-Oct-2026 |
 | Production - Electricity (YoY, Aug 26) | Demand driver | — | +10.1% | +11.6% | — | 🟢 tailwind | Tijori macro (India) · Aug 26 |
 
 **Why each factor is here:**
@@ -95,7 +101,7 @@ Screener P/E 24.3x, ROCE 26.2%, ROE 19.9%; market cap ₹2,216cr; promoter 68.18
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>

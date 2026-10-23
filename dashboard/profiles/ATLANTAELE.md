@@ -11,11 +11,17 @@
 > **🔴 THE ONE THING TO CARRY.** Q1FY27 revenue grew **48%** and the CFO's prepared remarks called it *"primarily volume-driven,"* with *"no material changes in pricing or product mix."* **The company's own volume disclosure, given in Q&A twenty minutes later, shows volumes up 21.5% and realisation per MVA up 21.8% — i.e. 45% of the growth was price.** The CMD had explained that exact mechanism himself one quarter earlier. **The growth is real; the characterisation of it is not.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 1,687** · market cap ₹ 12,961 Cr. · P/E 59.4x · ROCE 45.3 % · ROE 31.7 % · 52-wk ₹ 2,200 / 708 · **vs ₹1,902 at baseline (-11.3%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 1,620** · market cap ₹ 12,443 Cr. · P/E 57.0x · ROCE 45.3 % · ROE 31.7 % · 52-wk ₹ 2,200 / 708 · **vs ₹1,902 at baseline (-14.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 3-Sep-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Routine filings only · (earlier: AGM passed; 400 kV revenue still zero · (earlier: AGM proceedings and voting results — all resolutions passed · (earlier in window: No company event beyond an investor-meet notice; stock −12.4% to ₹1,666, now 24% below its ₹2,200 52-week high)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 3-Sep-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: AGM passed; 400 kV revenue still zero · (earlier: AGM proceedings and voting results — all resolutions passed · (earlier in window: No company event beyond an investor-meet notice; stock −12.4% to ₹1,666, now 24% below its ₹2,200 52-week high))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
+**No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 6 → 21-Oct-2026 — Verified quiet — routine filings only**
 Only the quarterly Reg 74(5) depository certificate (or equivalent routine items) on NSE. **Nothing material.**
@@ -53,10 +59,10 @@ Only a 15-Sep investor-meet notice. Price ₹1,902 → ₹1,666; Screener P/E 58
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** Copper is +4.4% over three months and +32.1% over the year, near its high; electrical steel is not tracked, and crude (transformer oil) is +23.4%. Management says revenue per MVA follows commodity prices, so this inflates revenue; the risk is orders priced before the rise. Electricity output +11.6% YoY.
+**Read (23-Oct-2026, mine, not management's):** Copper is +2.7% over three months and +27.7% over the year; electrical steel is not tracked, and crude (transformer oil) is +15.1%. Management says revenue per MVA follows commodity prices, so this inflates revenue; the risk is orders priced before the rise. Electricity output +11.6% YoY.
 
 **How cost moves reach profit:** CMD: 'Revenue per MVA is directly related to the commodity pricing… steel, copper, oil' (profile §4). Orders are priced at bid, so the lag matters.
 
@@ -64,9 +70,9 @@ Only a 15-Sep investor-meet notice. Price ₹1,902 → ₹1,666; Screener P/E 58
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Copper (COMEX) (6.57 $/lb) | Input cost | +3.2% | +4.4% | +32.1% | -3.4% | 🔴 headwind | Yahoo Finance · 15-Oct-2026 |
-| Steel Flat | Proxy / context | +2.1% | +10.5% | +33.3% | -1.1% | ⚪ context | Tijori (indianpetrochem.com) · 15 Oct, 09:30 am IST |
-| Brent crude (103.92 $/bbl) | Proxy / context | -4.4% | +23.4% | +67.9% | -12.2% | ⚪ context | Yahoo Finance · 15-Oct-2026 |
+| Copper (COMEX) (6.49 $/lb) | Input cost | -2.8% | +2.7% | +27.7% | -4.6% | ⚪ flat | Yahoo Finance · 23-Oct-2026 |
+| Steel Flat | Proxy / context | -0.3% | +10.2% | +33.5% | -1.5% | ⚪ context | Tijori (indianpetrochem.com) · 23 Oct, 09:30 am IST |
+| Brent crude (111.42 $/bbl) | Proxy / context | +8.1% | +15.1% | +68.8% | -5.9% | ⚪ context | Yahoo Finance · 23-Oct-2026 |
 | Production - Electricity (YoY, Aug 26) | Demand driver | — | +10.1% | +11.6% | — | 🟢 tailwind | Tijori macro (India) · Aug 26 |
 
 **Why each factor is here:**
@@ -78,7 +84,7 @@ Only a 15-Sep investor-meet notice. Price ₹1,902 → ₹1,666; Screener P/E 58
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>

@@ -9,11 +9,17 @@
 > **📌 What this update is.** The 28-Jul-2026 refresh downgraded the stock on the Q1FY27 *numbers* alone, and left one instruction in the file: *"Q1FY27 transcript — read as soon as it files. Highest-value pending input."* It filed on 3-Aug-2026. This profile is built on it. **The single most consequential thing on that call is not a number — it is that management has withdrawn guidance entirely** (§3.5, §5.5). The 28-Jul watch item asked whether the FY27 bands would be *revised down*; the answer is that they no longer exist.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 570** · market cap ₹ 3,147 Cr. · P/E 15.0x · ROCE 16.3 % · ROE 13.2 % · 52-wk ₹ 1,247 / 568 · **vs ₹696 at baseline (-18.1%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 550** · market cap ₹ 3,036 Cr. · P/E 14.5x · ROCE 16.3 % · ROE 13.2 % · 52-wk ₹ 1,247 / 541 · **vs ₹696 at baseline (-21.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟢 Matkahuolto (Finland) cEMV device win; Q2 call 2-Nov · (earlier: 🟢🟢 ₹150cr follow-on data-centre order from a global hyperscaler — the third in under a year, taking the relationship close to ₹300cr · (earlier: Nothing filed; the SEBI PIT show-cause notice remains open · (earlier in window: Integro Lending named category leader in five Chartis 2026 quadrants; FY26 annual report filed; no order or governance event; stock −1.4% at 18x)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Mastercard transit-payments partnership (no value); results 31-Oct · (earlier: 🟢 Matkahuolto (Finland) cEMV device win; Q2 call 2-Nov · (earlier: 🟢🟢 ₹150cr follow-on data-centre order from a global hyperscaler — the third in under a year, taking the relationship close to ₹300cr · (earlier: Nothing filed; the SEBI PIT show-cause notice remains open · (earlier in window: Integro Lending named category leader in five Chartis 2026 quadrants; FY26 annual report filed; no order or governance event; stock −1.4% at 18x))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — A Mastercard partnership for North American transit payments**
+Press release (22-Oct): **Aurionpro Transit and Mastercard** will work together on contactless payments for transit agencies in North America — procurement and deployment support. **No contract value, customer or revenue commitment is disclosed.**
+> **Why it matters:** A partnership, not an order. Results due **31-Oct**, call **2-Nov**.
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟢 6 → 21-Oct-2026 — A Finnish transit-payments win; Q2 call 2-Nov**
 **Matkahuolto (Finland) selected Aurionpro as device vendor for its contactless EMV project** under a master service agreement, after an RFP (14-Oct); value not stated. **Q2 call 2-Nov.**
@@ -61,16 +67,16 @@ Screener P/E 18.1x, ROCE 16.3%, ROE 13.4%; market cap ₹3,789cr; promoter 26.86
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** No tracked series applies, and the profile does not give a currency split.
+**Read (23-Oct-2026, mine, not management's):** No tracked series applies, and the profile does not give a currency split.
 
 **How cost moves reach profit:** No tracked price or macro series drives this business directly. Currency split is not disclosed in the profile.
 
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>

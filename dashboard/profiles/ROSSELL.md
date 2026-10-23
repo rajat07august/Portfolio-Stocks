@@ -8,11 +8,17 @@
 > **How to read this profile:** Every meaningful claim is either sourced from a concall (quarter noted) or a filing. Where I've made a judgment I've flagged it. Not a buy/sell recommendation.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 1,407** · market cap ₹ 5,313 Cr. · P/E 201x · ROCE 11.5 % · ROE 15.7 % · 52-wk ₹ 1,699 / 552 · **vs ₹1,067 at baseline (+31.9%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 1,403** · market cap ₹ 5,271 Cr. · P/E 199x · ROCE 11.5 % · ROE 15.7 % · 52-wk ₹ 1,699 / 552 · **vs ₹1,067 at baseline (+31.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟢 EGM approved the SBI MF preferential (25.7 lakh shares) · (earlier: AGM passed; the ₹300cr SBI MF preferential goes to EGM on 15-Oct · (earlier: ₹300cr preferential to SBI Mutual Fund confirmed at ₹1,166 (25,72,898 shares); EGM to approve it on 15-Oct · (earlier in window: ₹300cr preferential issue to SBI Mutual Fund at ₹1,166 (6.39%) approved by the Board — the QIP the profile expected, as a preferential; stock +29% to ₹1,374 at ~196x)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 EGM approved the SBI MF preferential (25.7 lakh shares) · (earlier: AGM passed; the ₹300cr SBI MF preferential goes to EGM on 15-Oct · (earlier: ₹300cr preferential to SBI Mutual Fund confirmed at ₹1,166 (25,72,898 shares); EGM to approve it on 15-Oct · (earlier in window: ₹300cr preferential issue to SBI Mutual Fund at ₹1,166 (6.39%) approved by the Board — the QIP the profile expected, as a preferential; stock +29% to ₹1,374 at ~196x))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
+**No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟢 6 → 21-Oct-2026 — The SBI MF preferential passes at the EGM**
 **The 15-Oct EGM passed the preferential issue of 25,72,898 shares** (to SBI Mutual Fund schemes, per the corrigendum the exchanges asked for). The September-quarter promoter fall (74.8% → 69.9%) is the **31-Jul block to Kotak MF already in the profile.**
@@ -59,10 +65,10 @@ Screener P/E 196x (was 152x), ROCE 11.5%, ROE 15.7%; market cap ₹5,181cr; prom
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** No tracked series applies; aerospace and defence orders drive it.
+**Read (23-Oct-2026, mine, not management's):** No tracked series applies; aerospace and defence orders drive it.
 
 **How cost moves reach profit:** No tracked price or macro series drives this business directly. The driver is aerospace and defence orders.
 
@@ -70,7 +76,7 @@ Screener P/E 196x (was 152x), ROCE 11.5%, ROE 15.7%; market cap ₹5,181cr; prom
 
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>

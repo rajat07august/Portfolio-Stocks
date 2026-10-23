@@ -4,11 +4,17 @@
 **Thesis current as of: 17-Sep-2026 · Tracking since: 17-Sep-2026**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 586** · market cap ₹ 2,293 Cr. · P/E 30.5x · ROCE 17.7 % · ROE 13.2 % · 52-wk ₹ 695 / 298 · **vs ₹583 at baseline (+0.5%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 574** · market cap ₹ 2,248 Cr. · P/E 29.9x · ROCE 17.7 % · ROE 13.2 % · 52-wk ₹ 695 / 298 · **vs ₹583 at baseline (-1.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 17-Sep-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Investor meetings only · (earlier: CARE Edge ASSIGNS CARE A+ (Stable) / A1+ on ₹19.75cr of bank facilities — a notch above the existing CRISIL A · (earlier: No filings since the profile was written))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 17-Sep-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Investor meetings only · (earlier: CARE Edge ASSIGNS CARE A+ (Stable) / A1+ on ₹19.75cr of bank facilities — a notch above the existing CRISIL A · (earlier: No filings since the profile was written)))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
+**No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 6 → 21-Oct-2026 — Investor meetings**
 Investor meetings 12, 15 and 16-Oct (Nuvama Alternatives and others); share-capital audit report.
@@ -65,10 +71,10 @@ Swept both feeds: zero announcements.
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** Zinc is +13.6% over three months, with the September average ($4,021/t) at a 52-week high. Its zinc oxide is priced off zinc, so a rise carries an inventory gain, and the profile's top risk is the reverse when zinc falls.
+**Read (23-Oct-2026, mine, not management's):** Zinc is +13.6% over three months, with the September average ($4,021/t) at a 52-week high (no newer World Bank month). Its zinc oxide is priced off zinc, so a rise carries an inventory gain, and the profile's top risk is the reverse when zinc falls.
 
 **How cost moves reach profit:** Zinc oxide is priced off zinc, so the metal moves both cost and price; the spread over dross is the margin (my inference).
 
@@ -84,7 +90,7 @@ Swept both feeds: zero announcements.
 
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -429,7 +435,7 @@ Management: *"ours is a business which requires about 100 days of working capita
 
 **1. 🔴 The zinc cycle turns.** The pass-through model protects the spread, not the inventory. **A fast LME fall converts ~2 months of stock into losses** — Jun-2023 quarter OPM 3.2%, FY24 PAT −44%. Q1FY27 was helped by rising zinc; that tailwind reverses mechanically.
 
-> 📈 **Factor check 15-Oct-2026:** Not yet: zinc is +13.6% over three months, with the September average at a 52-week high (World Bank). The risk grows the longer the rise runs. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 23-Oct-2026:** Not yet: zinc is +13.6% over three months, with the September average at a 52-week high (World Bank). The risk grows the longer the rise runs. *(Numbers and sources: Input & factor check, at the top.)*
 
 **2. 🔴 The margin is weaker than it is presented.** FY26 ex-OI margin 8.4% vs "10.1%"; operating profit −6% in a revenue +15% year; a Q4 margin spoken at 10.26% that computes to 9.36% from the same call's figures. **An investor using management's framing overstates operating margin by ~1.5-2 points.**
 

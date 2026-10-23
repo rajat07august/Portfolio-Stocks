@@ -10,11 +10,17 @@
 > **✅ Concall gate CLOSED and verified.** The Q1FY27 call (30-Jul-2026) was machine-transcribed from the company's official audio on 1-Aug under §4A, and **verified line-by-line against the official transcript published 6-Aug-2026.** Every load-bearing figure checked out verbatim — the ECU level, the chlorine price, the ₹376cr MAT credit, the 19% cash-tax rate, the demerger commitment, the 85% chlorine tie-up and the Bioseed quote. **All quotes below are from the official transcript.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 993** · market cap ₹ 15,509 Cr. · P/E 11.3x · ROCE 11.5 % · ROE 11.5 % · 52-wk ₹ 1,409 / 886 · **vs ₹1,082 at baseline (-8.2%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 964** · market cap ₹ 15,054 Cr. · P/E 11.0x · ROCE 11.5 % · ROE 11.5 % · 52-wk ₹ 1,409 / 886 · **vs ₹1,082 at baseline (-10.9%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Q2 results 26-Oct; interim dividend record date 30-Oct · (earlier: 🟢 Two chlorine-downstream plants commissioned at Jhagadia (30-Sep) — aluminium chloride and calcium chloride, which is the company acting on the weak leg of the ECU · (earlier: No filings at all on either exchange in the window — verified. The caustic price contradiction stays open to Q2FY27 · (earlier in window: Kota aluminium-extrusion plant commissioned; ICRA AA+/Stable reaffirmed with higher limits; stock −8% toward its 52-week low)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Q2 call 28-Oct · (earlier: ⚪ Q2 results 26-Oct; interim dividend record date 30-Oct · (earlier: 🟢 Two chlorine-downstream plants commissioned at Jhagadia (30-Sep) — aluminium chloride and calcium chloride, which is the company acting on the weak leg of the ECU · (earlier: No filings at all on either exchange in the window — verified. The caustic price contradiction stays open to Q2FY27 · (earlier in window: Kota aluminium-extrusion plant commissioned; ICRA AA+/Stable reaffirmed with higher limits; stock −8% toward its 52-week low))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Q2 call 28-Oct**
+Q2FY27 earnings call **28-Oct, 4pm** (results 26-Oct).
+> **Why it matters:** **The caustic test resolves here:** Tijori's caustic soda lye fell another 33.4% in the month, now consistent with management's July comment.
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 6 → 21-Oct-2026 — Q2 board meeting 26-Oct, interim dividend record date 30-Oct**
 Board meets **26-Oct** for Q2/H1FY27 results and may declare an **interim dividend (record date 30-Oct)**. Also a newspaper notice on the special window for re-lodging physical share transfers.
@@ -66,10 +72,10 @@ No company filing explains the fall. Reported P/E 11.3x on TTM; on the profile's
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** The caustic contradiction is narrowing. Tijori's caustic soda lye fell 25.2% in the last month and is now 26% below its 52-week high (still +12.3% over three months); flakes are −8.8% in the month. That fits management's 30-Jul comment that realisation was 'just below ₹30,000'. Vinyl is the strong leg: PVC +25.9% and the PVC-over-EDC spread +42.8% over three months. Imported coal, a power-plant input, is +6.2%. National fertiliser output is −12.4% YoY (August). Resolve with the Q2FY27 realisation.
+**Read (23-Oct-2026, mine, not management's):** The caustic contradiction has resolved toward management. Tijori's caustic soda lye fell another 33.4% in the month and is 33.4% below its 52-week high; flakes −6.3%. That is consistent with the 30-Jul comment that realisation was 'just below ₹30,000'. Vinyl stays the strong leg: PVC +24.3% and the PVC-over-EDC spread +42.8% over three months. Imported coal, a power-plant input, is +6.2%. Fertiliser output is −12.4% YoY (August). Results 26-Oct, call 28-Oct.
 
 **How cost moves reach profit:** Mostly a price-taker on both sides: caustic is priced off chlor-alkali spreads, sugar off a government-set cane price, urea is regulated (profile §2).
 
@@ -77,12 +83,12 @@ No company filing explains the fall. Reported P/E 11.3x on TTM; on the profile's
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Caustic Soda Lye | Selling price | -25.2% | +12.3% | +19.2% | -26.1% | 🟢 tailwind | Tijori (indianpetrochem.com) · 15 Oct, 09:00 am IST |
-| Caustic Soda Flakes | Selling price | -8.8% | -1.3% | +7.0% | -21.8% | ⚪ flat | Tijori (indianpetrochem.com) · 15 Oct, 09:00 am IST |
-| PVC | Selling price | +4.3% | +25.9% | +40.4% | -10.6% | 🟢 tailwind | Tijori (indianpetrochem.com) · 15 Oct, 09:00 am IST |
-| PVC - Ethylene Dichloride | Margin spread | +17.7% | +42.8% | +38.9% | -10.7% | 🟢 tailwind | Tijori (indianpetrochem.com) · 15 Oct, 09:30 am IST |
+| Caustic Soda Lye | Selling price | -33.4% | +5.9% | +4.4% | -33.4% | 🟢 tailwind | Tijori (indianpetrochem.com) · 23 Oct, 09:00 am IST |
+| Caustic Soda Flakes | Selling price | -6.3% | -4.5% | +4.9% | -23.3% | 🔴 headwind | Tijori (indianpetrochem.com) · 23 Oct, 09:00 am IST |
+| PVC | Selling price | +2.2% | +24.3% | +41.9% | -9.6% | 🟢 tailwind | Tijori (indianpetrochem.com) · 23 Oct, 09:00 am IST |
+| PVC - Ethylene Dichloride | Margin spread | +9.8% | +42.8% | +42.9% | -9.2% | 🟢 tailwind | Tijori (indianpetrochem.com) · 23 Oct, 09:30 am IST |
 | Coal, Australian (monthly avg) (147.1 $/mt) | Input cost | +8.8% | +6.2% | +38.4% | +0.0% | 🔴 headwind | World Bank Pink Sheet · 2026M09 |
-| Ethanol | Selling price | +0.0% | +1.3% | +3.8% | -6.9% | ⚪ flat | Tijori (indianpetrochem.com) · 15 Oct, 09:00 am IST |
+| Ethanol | Selling price | +0.6% | +1.3% | +0.0% | -6.9% | ⚪ flat | Tijori (indianpetrochem.com) · 23 Oct, 09:00 am IST |
 | Sugar, world (monthly avg) (0.41 $/kg) | Proxy / context | +7.9% | +28.1% | +17.1% | +0.0% | ⚪ context | World Bank Pink Sheet · 2026M09 |
 | Production - Fertilizers (YoY, Aug 26) | Demand driver | — | -7.9% | -12.4% | — | 🔴 headwind | Tijori macro (India) · Aug 26 |
 
@@ -101,7 +107,7 @@ No company filing explains the fall. Reported P/E 11.3x on TTM; on the profile's
 *Monthly average; lags spot by up to a month.*
 *Spread between two prices: % moves on a spread are huge and flip sign; read the direction, not the size.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -421,7 +427,7 @@ The 30-second snapshot:
 
 ### 🔴 The disclosure that appears nowhere in writing: ECU may be down ~16%
 
-> 📈 **Factor check 15-Oct-2026:** The market series now point the same way. Tijori's caustic soda lye fell 25.2% in the month to 15-Oct and is 26% below its 52-week high; flakes are −8.8%. That fits management's July comment of realisation 'just below ₹30,000'. Confirm against the Q2FY27 realisation. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 23-Oct-2026:** The market series agree with management now. Tijori's caustic soda lye fell another 33.4% in the month to 23-Oct and is 33.4% below its 52-week high; flakes −6.3%. That fits the July comment of realisation 'just below ₹30,000'. Confirm against the Q2FY27 realisation (results 26-Oct). *(Numbers and sources: Input & factor check, at the top.)*
 
 Asked where caustic prices are heading, **Aditya Shriram (Deputy MD)**:
 > *"We normally don't make forward-looking statements, but… **current ECU is in the range of just below INR30,000.** So, we expect it to be in this range or higher. As for the **chlorine price, currently it is in the minus INR7,000 to minus INR8,000 range.**"*

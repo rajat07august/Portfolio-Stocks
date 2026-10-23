@@ -7,11 +7,17 @@
 > **How to read this profile:** Every meaningful claim is either sourced from a concall (period noted) or a filing. Aimtron reports H1/H2 not Q1/Q2/Q3/Q4 as it's on the SME platform. This is personal thesis-building, not a buy/sell recommendation.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 1,644** · market cap ₹ 3,496 Cr. · P/E 76.1x · ROCE 28.2 % · ROE 23.6 % · 52-wk ₹ 2,010 / 696 · **vs ₹1,313 at baseline (+25.2%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 1,603** · market cap ₹ 3,409 Cr. · P/E 74.2x · ROCE 28.2 % · ROE 23.6 % · 52-wk ₹ 2,010 / 696 · **vs ₹1,313 at baseline (+22.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Warrant-issue EGM 22-Oct after an NSE-directed corrigendum · (earlier: 🟡 ~₹205cr preferential issue to non-promoter investors including AIFs, to fund 'strategic acquisitions'; warrants converted · (earlier: An investor meet was scheduled on 21-Sep and cancelled on 23-Sep, with no reason given · (earlier in window: Q1FY27 update: revenue +94%, order book ₹604cr; US arm books US$11.8m in Q2 to date; pilot orders from Curtiss-Wright and a test-solutions major; warrants converted; stock +27% to 77x)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ ₹205cr preferential EGM held 22-Oct; result pending; use now "strategic expansion" · (earlier: ⚪ Warrant-issue EGM 22-Oct after an NSE-directed corrigendum · (earlier: 🟡 ~₹205cr preferential issue to non-promoter investors including AIFs, to fund 'strategic acquisitions'; warrants converted · (earlier: An investor meet was scheduled on 21-Sep and cancelled on 23-Sep, with no reason given · (earlier in window: Q1FY27 update: revenue +94%, order book ₹604cr; US arm books US$11.8m in Q2 to date; pilot orders from Curtiss-Wright and a test-solutions major; warrants converted; stock +27% to 77x))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — EGM held on the ~₹205cr preferential; result not yet filed**
+EGM held **22-Oct** (21 minutes, 52 members) on one item: **"Issue of Equity Shares on a Preferential Basis through Private Placement"** (~₹205cr). The Chairman described the use as **"strategic expansion, working capital requirements and general corporate purposes"**. Voting results and the scrutinizer's report are still to be filed.
+> **Why it matters:** **Two wording points, stated rather than resolved:** the item is styled as equity shares, where the 21-Oct profile entry described convertible warrants; and the stated use has moved from **"strategic acquisitions"** (25-Sep Board) to **"strategic expansion"**. No acquisition target has been named. **Watch: the voting result and the post-issue promoter holding.**
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 6 → 21-Oct-2026 — EGM on a warrant issue 22-Oct, with an NSE-ordered corrigendum**
 EGM on **22-Oct** for a **preferential issue of convertible warrants**; **NSE directed a corrigendum** adding details to the explanatory statement (13-Oct).
@@ -70,10 +76,10 @@ Screener: market cap ₹3,536cr, ROCE 28.2%, ROE 23.6%; 52-week range ₹675–1
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** Component prices are not tracked; the rupee is 1.5% stronger over three months and its net effect is not disclosed.
+**Read (23-Oct-2026, mine, not management's):** Component prices are not tracked; the rupee is 2.0% stronger over three months and its net effect is not disclosed.
 
 **How cost moves reach profit:** No tracked price or macro series drives this business directly. Component prices are not tracked.
 
@@ -81,14 +87,14 @@ Screener: market cap ₹3,536cr, ROCE 28.2%, ROE 23.6%; 52-week range ₹675–1
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (95.037 ₹ per $) | Proxy / context | -0.8% | -1.5% | +7.0% | -1.9% | ⚪ context | Yahoo Finance · 15-Oct-2026 |
+| USD/INR (94.93 ₹ per $) | Proxy / context | -0.8% | -2.0% | +8.2% | -2.0% | ⚪ context | Yahoo Finance · 23-Oct-2026 |
 
 **Why each factor is here:**
 
 - **USD/INR**: ~20–25% exports and imported components; net effect not disclosed (profile).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>

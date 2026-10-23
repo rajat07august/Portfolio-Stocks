@@ -11,11 +11,17 @@
 > **📋 WHAT THIS REFRESH FOUND, IN ONE BOX.** v1 was written 3-Jul-2026 and is 9.7 KB. It predates the Q1FY27 print, the ADS order-book step-up, and **a four-event management and board reconstruction that ran from 27-Jul to 24-Aug-2026.** It also carried four factual errors that are corrected in place below: a wrong FY25 revenue base (and therefore a wrong growth rate), a wrong FY26 EBITDA level, **an assertion that Sansera manufactures in the United States — it does not and never has**, and a dashboard claim of a **₹160cr Airbus Defence & Space contract that appears in no filing and no transcript.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 3,950** · market cap ₹ 24,573 Cr. · P/E 66.0x · ROCE 14.5 % · ROE 11.8 % · 52-wk ₹ 4,744 / 1,441 · **vs ₹3,815 at baseline (+3.5%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 3,978** · market cap ₹ 24,849 Cr. · P/E 66.7x · ROCE 14.5 % · ROE 11.8 % · 52-wk ₹ 4,744 / 1,441 · **vs ₹3,815 at baseline (+4.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 26-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Routine filings only · (earlier: Routine ESOP grant and a clean AGM; June's 0.89pp promoter fall still unexplained · (earlier: Routine ESOP allotment and meet schedules; June's 0.89pp promoter-holding fall still unexplained · (earlier in window: No company event beyond the FY26 annual report; the Jun-2026 promoter decline is still unexplained; stock +11.7% to ₹4,260 at 71x)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 26-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: Routine ESOP grant and a clean AGM; June's 0.89pp promoter fall still unexplained · (earlier: Routine ESOP allotment and meet schedules; June's 0.89pp promoter-holding fall still unexplained · (earlier in window: No company event beyond the FY26 annual report; the Jun-2026 promoter decline is still unexplained; stock +11.7% to ₹4,260 at 71x))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
+**No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 6 → 21-Oct-2026 — Verified quiet — routine filings only**
 Only the quarterly Reg 74(5) depository certificate (or equivalent routine items) on NSE. **Nothing material.**
@@ -53,22 +59,22 @@ Filings: annual report (2-Sep), AGM notice, analyst-meet notice (9-Sep). Price �
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** Mixed: aluminium −12.1% over three months helps, long steel +33.1% (at a 52-week high) hurts; management said earlier pass-throughs were 'in process'. Two-wheeler (+39.0%) and car (+42.7%) retail were strong in September.
+**Read (23-Oct-2026, mine, not management's):** Mixed: aluminium −11.9% over three months helps, long steel +35.5% (at a 52-week high) hurts; management said earlier pass-throughs were 'in process'. Two-wheeler (+33.1%) and car (+32.1%) retail were strong in September.
 
 **How cost moves reach profit:** Steel and aluminium pass-throughs are 'currently in process, not yet translated', with forex giving 'some cushion' (profile §4).
 
-**Sensitivity:** raw materials were **41.5% of sales in FY26** (FY25: 41.1%, Screener). A 10% move across the whole raw-material bill is worth about **416 bps of margin before any pass-through**. The tracked inputs averaged **+10.5% over three months**, which would be roughly **436 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **41.5% of sales in FY26** (FY25: 41.1%, Screener). A 10% move across the whole raw-material bill is worth about **416 bps of margin before any pass-through**. The tracked inputs averaged **+11.8% over three months**, which would be roughly **490 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Aluminium (COMEX) (3,064.5 $/t) | Input cost | -9.2% | -12.1% | +15.9% | -26.9% | 🟢 tailwind | Yahoo Finance · 15-Oct-2026 |
-| Steel Long | Input cost | +8.3% | +33.1% | +35.7% | +0.0% | 🔴 headwind | Tijori (indianpetrochem.com) · 15 Oct, 09:30 am IST |
-| Two Wheeler - Retail Sales (YoY, Sep 26) | Demand driver | — | +29.0% | +39.0% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
-| Passenger Car - Retail Sales (YoY, Sep 26) | Demand driver | — | +26.0% | +42.7% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
-| USD/INR (95.037 ₹ per $) | FX (export revenue) | -0.8% | -1.5% | +7.0% | -1.9% | ⚪ flat | Yahoo Finance · 15-Oct-2026 |
+| Aluminium (COMEX) (3,108.0 $/t) | Input cost | -9.5% | -11.9% | +12.3% | -25.9% | 🟢 tailwind | Yahoo Finance · 23-Oct-2026 |
+| Steel Long | Input cost | +4.5% | +35.5% | +38.4% | +0.0% | 🔴 headwind | Tijori (indianpetrochem.com) · 23 Oct, 09:30 am IST |
+| Two Wheeler - Retail Sales (YoY, Sep 26) | Demand driver | — | +27.0% | +33.1% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
+| Passenger Car - Retail Sales (YoY, Sep 26) | Demand driver | — | +22.4% | +32.1% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
+| USD/INR (94.93 ₹ per $) | FX (export revenue) | -0.8% | -2.0% | +8.2% | -2.0% | ⚪ flat | Yahoo Finance · 23-Oct-2026 |
 
 **Why each factor is here:**
 
@@ -80,7 +86,7 @@ Filings: annual report (2-Sep), AGM notice, analyst-meet notice (9-Sep). Price �
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>

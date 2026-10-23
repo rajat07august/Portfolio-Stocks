@@ -13,11 +13,17 @@
 > **Meanwhile the stock is up 17.5% since that refresh, to within 1.9% of its 52-week high.** ***Better quarter, worse price, weaker pipeline — and that combination is the downgrade.***
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 261** · market cap ₹ 14,755 Cr. · P/E 18.8x · ROCE 30.4 % · ROE 23.4 % · 52-wk ₹ 321 / 164 · **vs ₹262 at baseline (-0.4%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 242** · market cap ₹ 13,613 Cr. · P/E 17.4x · ROCE 30.4 % · ROE 23.4 % · 52-wk ₹ 321 / 164 · **vs ₹262 at baseline (-7.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Routine filings only · (earlier: Nothing new; the Dangote execution schedule is still undisclosed · (earlier: 🟢🟢 US$450m+ Dangote contract for a 700,000 BPD greenfield refinery in KENYA — bigger than annual revenue; stock +15% to ₹306. Also ₹5.31 lakh fines from each exchange for board-composition non-compliance · (earlier in window: Ministry extends the CMD's additional charge as Director (Commercial) by three months from 30-Sep; new statutory auditors for FY27; stock +1.5%)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Q2 results + interim dividend 30-Oct · (earlier: ⚪ Routine filings only · (earlier: Nothing new; the Dangote execution schedule is still undisclosed · (earlier: 🟢🟢 US$450m+ Dangote contract for a 700,000 BPD greenfield refinery in KENYA — bigger than annual revenue; stock +15% to ₹306. Also ₹5.31 lakh fines from each exchange for board-composition non-compliance · (earlier in window: Ministry extends the CMD's additional charge as Director (Commercial) by three months from 30-Sep; new statutory auditors for FY27; stock +1.5%))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Results, interim dividend and call on 30-Oct**
+Board **30-Oct** will also consider a **first interim dividend** (record date **5-Nov**); earnings call **30-Oct, 4:30pm**.
+> **Why it matters:** The call is where the Dangote Kenya contract's schedule could finally be disclosed.
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 6 → 21-Oct-2026 — Verified quiet — routine filings only**
 Only the quarterly Reg 74(5) depository certificate (or equivalent routine items) on NSE. **Nothing material.**
@@ -69,16 +75,16 @@ Screener P/E 19.1x, ROCE 30.4%, ROE 23.4%; market cap ₹14,970cr; promoter (Pre
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** Crude is +23.4% over three months but −4.4% in the last month. High crude supports upstream budgets but squeezes refiners, its main clients, so the net effect on its order flow is unclear (my inference). Refinery output +2.6% YoY (August).
+**Read (23-Oct-2026, mine, not management's):** Crude is ~$111, +15.1% over three months and +8.1% in the last month. High crude supports upstream budgets but squeezes refiners, its main clients, so the net effect on order flow is unclear (my inference). Refinery output +2.6% YoY (August). Results and call 30-Oct.
 
 **How cost moves reach profit:** Fee-based consultancy plus turnkey projects; commodity prices act on customers' capex, not its costs (my inference).
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Brent crude (103.92 $/bbl) | Proxy / context | -4.4% | +23.4% | +67.9% | -12.2% | ⚪ context | Yahoo Finance · 15-Oct-2026 |
+| Brent crude (111.42 $/bbl) | Proxy / context | +8.1% | +15.1% | +68.8% | -5.9% | ⚪ context | Yahoo Finance · 23-Oct-2026 |
 | Production - Petroleum Refinery (YoY, Aug 26) | Proxy / context | — | +0.2% | +2.6% | — | ⚪ context | Tijori macro (India) · Aug 26 |
 
 **Why each factor is here:**
@@ -88,7 +94,7 @@ Screener P/E 19.1x, ROCE 30.4%, ROE 23.4%; market cap ₹14,970cr; promoter (Pre
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>

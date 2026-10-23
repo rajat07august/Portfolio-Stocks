@@ -14,11 +14,17 @@
 > **🆕 What the official transcript adds, and it is substantial:** **FY27 capex of ₹80–90 crore**, 80% of it into core kitchen sinks · **the factory is running seven days a week and management calls it *"a serious stress"*** · **the US tariff discount rollback is ~90% complete and is a price restoration, not a one-off credit** · **a Lowe's display-cost share of USD 3–4 million that "will not happen now"** · and Q1's soft quartz growth explained by **container delays, not demand**.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 981** · market cap ₹ 2,796 Cr. · P/E 26.0x · ROCE 18.0 % · ROE 17.4 % · 52-wk ₹ 1,281 / 732 · **vs ₹1,155 at baseline (-15.1%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 966** · market cap ₹ 2,745 Cr. · P/E 25.5x · ROCE 18.0 % · ROE 17.4 % · 52-wk ₹ 1,281 / 732 · **vs ₹1,155 at baseline (-16.4%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Bobby Deol brand endorsement; Q2 call 5-Nov · (earlier: ✅ The undisclosed postal ballot resolves to something benign — a special resolution for Prayasvin Patel's ID appointment; result due 2-Nov · (earlier: Prayasvin B. Patel appointed additional independent director; AGM held 22-Sep with all resolutions passed; postal ballot notice to follow · (earlier in window: New Chief Technology Officer; FY26 annual report and dividend payment date; nothing else filed; stock −2%)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Bobby Deol brand endorsement; Q2 call 5-Nov · (earlier: ✅ The undisclosed postal ballot resolves to something benign — a special resolution for Prayasvin Patel's ID appointment; result due 2-Nov · (earlier: Prayasvin B. Patel appointed additional independent director; AGM held 22-Sep with all resolutions passed; postal ballot notice to follow · (earlier in window: New Chief Technology Officer; FY26 annual report and dividend payment date; nothing else filed; stock −2%))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
+**No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 6 → 21-Oct-2026 — A celebrity endorsement; Q2 call 5-Nov**
 **Bobby Deol signed as brand endorser** (8-Oct). **Q2 call 5-Nov.**
@@ -61,10 +67,10 @@ Screener P/E 29.9x, ROCE 18.0%, ROE 17.4%; market cap ₹3,218cr; promoter 41.34
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** Methyl methacrylate, the acrylic binder in its quartz sinks, has turned back up: +5.8% over three months (+7.2% in the last month) after the earlier fall, and +82% over the year. Quartz, the main material, is not tracked. The rupee is 1.5% stronger over three months, a small export headwind.
+**Read (23-Oct-2026, mine, not management's):** Methyl methacrylate, the acrylic binder in its quartz sinks, is rising again: +10.4% in the last month, +3.1% over three months and +76.1% over the year. Quartz, the main material, is not tracked. The rupee is 2.0% stronger over three months, a small export headwind.
 
 **How cost moves reach profit:** Not disclosed. Pricing to IKEA and Lowe's is contractual (my inference).
 
@@ -72,8 +78,8 @@ Screener P/E 29.9x, ROCE 18.0%, ROE 17.4%; market cap ₹3,218cr; promoter 41.34
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Methyl-Methacrylate | Input cost | +7.2% | +5.8% | +82.0% | -20.8% | 🔴 headwind | Tijori (indianpetrochem.com) · 15 Oct, 09:00 am IST |
-| USD/INR (95.037 ₹ per $) | FX (export revenue) | -0.8% | -1.5% | +7.0% | -1.9% | ⚪ flat | Yahoo Finance · 15-Oct-2026 |
+| Methyl-Methacrylate | Input cost | +10.4% | +3.1% | +76.1% | -20.8% | 🔴 headwind | Tijori (indianpetrochem.com) · 23 Oct, 09:00 am IST |
+| USD/INR (94.93 ₹ per $) | FX (export revenue) | -0.8% | -2.0% | +8.2% | -2.0% | ⚪ flat | Yahoo Finance · 23-Oct-2026 |
 
 **Why each factor is here:**
 
@@ -81,7 +87,7 @@ Screener P/E 29.9x, ROCE 18.0%, ROE 17.4%; market cap ₹3,218cr; promoter 41.34
 - **USD/INR**: Export-led: IKEA, Lowe's and other global retailers (profile §1).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>

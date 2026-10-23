@@ -13,11 +13,17 @@
 > **📋 WHAT THIS REFRESH FOUND.** The prior profile (4-Jul-2026, v2) was thorough and got most of the business right — it correctly identified the FY25 other-income distortion, the FY25 revenue decline, the ₹96.88cr warrant issue, the Amic Engg Tech subsidiary and the 30-Jun BSE notice. **What has changed is the weight of what sits around the numbers.** Since v2 I have established: **an arithmetic error in the audited consolidated results that survived a BSE discrepancy notice and a re-filing**; that the subsidiary is consolidated on **unaudited** figures; **three CFOs in seven months with the chair empty since 1-Apr-2026**; **a second BSE query, on a disclosure-timeliness breach the company admitted**; **a working-capital cycle that has more than doubled to 184 days**; **three consecutive and worsening years of negative free cash flow**; and **a serial preferential-issue programme that has raised ~₹151cr and diluted the share count 10.4%.** **The multiple has gone from 72x to 79.9x while FY26 earnings fell 20%.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 2,118** · market cap ₹ 2,446 Cr. · P/E 80.2x · ROCE 25.2 % · ROE 18.1 % · 52-wk ₹ 2,605 / 1,065 · **vs ₹1,957 at baseline (+8.2%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 2,012** · market cap ₹ 2,323 Cr. · P/E 76.2x · ROCE 25.2 % · ROE 18.1 % · 52-wk ₹ 2,605 / 1,065 · **vs ₹1,957 at baseline (+2.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: AGM passed; FY26 results error and the CFO vacancy still open · (earlier: Nothing filed; the FY26 results arithmetic error and the CFO vacancy remain open · (earlier in window: FY26 annual report read: the related-party note the profile called its top queue item is now answered (Dakor ₹4.65cr unchanged, Mackeil ₹2.04cr, family pay up five-fold); still no CFO; stock +17% to 87x)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ No filings in the window (verified) · (earlier: AGM passed; FY26 results error and the CFO vacancy still open · (earlier: Nothing filed; the FY26 results arithmetic error and the CFO vacancy remain open · (earlier in window: FY26 annual report read: the related-party note the profile called its top queue item is now answered (Dakor ₹4.65cr unchanged, Mackeil ₹2.04cr, family pay up five-fold); still no CFO; stock +17% to 87x))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
+**No filings at all in the window on BSE (via Chrome)** — a verified negative, not an absence of searching (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: BSE announcements (via Chrome — BSE's JSON API is still Akamai-blocked from curl, re-tested 23-Oct), 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 6 → 21-Oct-2026 — Verified quiet — no filings**
 **No filings at all in the window on BSE (via Chrome)** — a verified negative, not an absence of searching (§0A rule 6).
@@ -63,19 +69,19 @@ Screener P/E 86.7x, ROCE 25.2%, ROE 18.1%; market cap ₹2,643cr; promoter 57.96
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** The steel it forges and the scrap its new melt shop uses are both rising: billet +17.4% and scrap +9.1% over three months. Pass-through terms are not disclosed. End markets look healthy: cement output +12.5% YoY (August), steel output +3.4%.
+**Read (23-Oct-2026, mine, not management's):** The steel it forges and the scrap its melt shop uses are both up over three months: billet +17.5%, scrap +7.7% (−3.6% in the month). Pass-through terms are not disclosed. End markets look healthy: cement output +12.5% YoY (August), steel output +3.4%.
 
 **How cost moves reach profit:** Not disclosed. Bespoke forgings are quoted per order (my inference); Phase 1 adds 48,000 MTPA of in-house ingot, so from FY27 it buys scrap and melts its own steel (profile §3).
 
-**Sensitivity:** raw materials were **51.0% of sales in FY26** (FY25: 64.0%, Screener). A 10% move across the whole raw-material bill is worth about **510 bps of margin before any pass-through**. The tracked inputs averaged **+13.2% over three months**, which would be roughly **673 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **51.0% of sales in FY26** (FY25: 64.0%, Screener). A 10% move across the whole raw-material bill is worth about **510 bps of margin before any pass-through**. The tracked inputs averaged **+12.6% over three months**, which would be roughly **643 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Billet | Input cost | +1.3% | +17.4% | +26.5% | -3.6% | 🔴 headwind | Tijori (indianpetrochem.com) · 15 Oct, 09:30 am IST |
-| Scrap | Input cost | -5.6% | +9.1% | +21.8% | -6.0% | 🔴 headwind | Tijori (indianpetrochem.com) · 15 Oct, 09:30 am IST |
+| Billet | Input cost | +0.9% | +17.5% | +27.6% | -3.1% | 🔴 headwind | Tijori (indianpetrochem.com) · 23 Oct, 09:30 am IST |
+| Scrap | Input cost | -3.6% | +7.7% | +20.2% | -6.9% | 🔴 headwind | Tijori (indianpetrochem.com) · 23 Oct, 09:30 am IST |
 | Production - Cement (YoY, Aug 26) | Demand driver | — | +11.8% | +12.5% | — | 🟢 tailwind | Tijori macro (India) · Aug 26 |
 | Production - Steel (YoY, Aug 26) | Demand driver | — | +3.6% | +3.4% | — | ⚪ flat | Tijori macro (India) · Aug 26 |
 
@@ -88,7 +94,7 @@ Screener P/E 86.7x, ROCE 25.2%, ROE 18.1%; market cap ₹2,643cr; promoter 57.96
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>

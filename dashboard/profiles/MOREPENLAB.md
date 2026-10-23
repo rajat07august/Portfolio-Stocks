@@ -10,11 +10,17 @@
 > ***The consequence: the entire CDMO transformation this profile describes happened in the window during which the company stopped taking analyst questions. The word "CDMO" appears zero times in the May-2025 transcript.*** **Everything about the new strategy in §4 is management's own written framing, unchallenged. It is labelled as such throughout.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 116** · market cap ₹ 6,327 Cr. · P/E 53.9x · ROCE 8.05 % · ROE 5.33 % · 52-wk ₹ 151 / 33.0 · **vs ₹104 at baseline (+11.5%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 124** · market cap ₹ 6,753 Cr. · P/E 57.5x · ROCE 8.05 % · ROE 5.33 % · 52-wk ₹ 151 / 33.0 · **vs ₹104 at baseline (+19.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 1-Sep-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟢 HP High Court quashed a ₹117.94cr GST show-cause notice (12-Oct) — the profile had never carried it · (earlier: 🟢 First-ever US ANDA filed (Sitagliptin, 3 strengths) — concrete CDMO progress, though still no earnings call · (earlier: CRISIL assigned an unsolicited ESG rating of 60 ('Adequate'); still no earnings call · (earlier in window: First phase of the capacity expansion completed ahead of schedule (API/CDMO reactors 535 KL → 614 KL); stock +16% to ₹121; still no earnings call)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 1-Sep-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 HP High Court quashed a ₹117.94cr GST show-cause notice (12-Oct) — the profile had never carried it · (earlier: 🟢 First-ever US ANDA filed (Sitagliptin, 3 strengths) — concrete CDMO progress, though still no earnings call · (earlier: CRISIL assigned an unsolicited ESG rating of 60 ('Adequate'); still no earnings call · (earlier in window: First phase of the capacity expansion completed ahead of schedule (API/CDMO reactors 535 KL → 614 KL); stock +16% to ₹121; still no earnings call))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
+**No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟢 6 → 21-Oct-2026 — High Court quashes a ₹117.94cr GST show-cause notice — one this profile never carried**
 **The Himachal Pradesh High Court (12-Oct) quashed the show-cause notice** from the CGST Commissionerate, Shimla, that sought recovery of **₹117,94,03,452 of 'excess' GST refund** plus interest and penalty, and disposed of the writ in the company's favour (filed 14-Oct). The SCN had been intimated on 4-Dec-2025 and the stay on 8-Jan-2026.
@@ -59,10 +65,10 @@ Screener P/E 56.4x, ROCE 8.1%, ROE 5.3%; market cap ₹6,625cr; promoter 35.66% 
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** Only currency is tracked; 1.5% stronger over three months. API intermediates are not tracked.
+**Read (23-Oct-2026, mine, not management's):** Only currency is tracked; 2.0% stronger over three months. API intermediates are not tracked.
 
 **How cost moves reach profit:** API intermediates are not tracked.
 
@@ -70,14 +76,14 @@ Screener P/E 56.4x, ROCE 8.1%, ROE 5.3%; market cap ₹6,625cr; promoter 35.66% 
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (95.037 ₹ per $) | FX (export revenue) | -0.8% | -1.5% | +7.0% | -1.9% | ⚪ flat | Yahoo Finance · 15-Oct-2026 |
+| USD/INR (94.93 ₹ per $) | FX (export revenue) | -0.8% | -2.0% | +8.2% | -2.0% | ⚪ flat | Yahoo Finance · 23-Oct-2026 |
 
 **Why each factor is here:**
 
 - **USD/INR**: Export APIs and the CDMO mandate (profile).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>

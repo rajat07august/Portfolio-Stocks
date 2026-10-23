@@ -1,7 +1,7 @@
 # Garware Hi-Tech Films — Company Profile
 
 **Ticker:** GARWARE · **NSE:** GRWRHITECH · **BSE:** 500655 · **CIN:** L10889MH1957PLC010889 · **Sector:** Packaging & Materials (Sector 11)
-**Conviction:** **MEDIUM-HIGH (Under Watch)** — held; no trigger fired, and one of them now needs rewording
+**Conviction:** **MEDIUM (Under Watch)** — ⤴ **downgraded from MEDIUM-HIGH on 23-Oct-2026**: three of the profile's four downgrade triggers fired at Q2FY27 (see §6, *"23-Oct-2026 — Q2FY27 scored against the triggers"*) · *was: MEDIUM-HIGH (Under Watch) — held; no trigger fired, and one of them now needs rewording*
 **Thesis date:** 22-Aug-2026 · **CMP ₹7,124** (Screener, 22-Aug-2026) · **Market cap ₹16,550 cr**
 
 > **📌 Two housekeeping notes.** **The NSE symbol is `GRWRHITECH`, and there is a *different* listed Garware — `GARFIBRES` (Garware Technical Fibres).** An API query on the wrong one returns another company's filings entirely, which is the §4A KMEW/MONARCH failure mode; **the symbol was verified against `EQUITY_L.csv` before any filing was pulled.** **The concall folder is `Fetched Concalls/GRWRHITECH/` (36 files), not `GARWARE/`.**
@@ -15,11 +15,17 @@
 > **🆕 AND THE TRANSCRIPT CONTAINS THE ONE THING THAT MOST CHANGES HOW Q2FY27 SHOULD BE READ.** **A US tariff refund of *"anywhere around ₹50 crores plus"* net lands in Q2FY27 and is NOT in guidance.** CFO Deepak Joshi: *"the quarter 1… **there was no impact of tariff. We didn't receive anything in the quarter 1.** However, we have received roughly **30% to 40%** of what we are expecting in quarter 2… **we will get full in Q2. That is my expectation.**"* **The refresh's own downgrade trigger is *"operating margin falls back below 24%"* at Q2 — and a Q2 flattered by a ₹50cr one-off could hide exactly the deterioration that trigger is designed to catch.** *That is now flagged explicitly in §6.*
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 6,663** · market cap ₹ 15,467 Cr. · P/E 39.9x · ROCE 18.1 % · ROE 13.5 % · 52-wk ₹ 7,990 / 2,691 · **vs ₹7,124 at baseline (-6.5%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 7,034** · market cap ₹ 16,345 Cr. · P/E 38.4x · ROCE 18.1 % · ROE 13.5 % · 52-wk ₹ 7,990 / 2,691 · **vs ₹7,124 at baseline (-1.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Q2 call 23-Oct; immaterial insider-code breach (₹5,000 penalty) · (earlier: AGM passed cleanly; no further detail on the Lubrizol TPU MoU, whose first test is December commissioning · (earlier: 🟢 MoU with Lubrizol (Berkshire Hathaway) to build India's first dedicated TPU extrusion platform — ₹118cr, live by Dec-2026, management expects 150-200bps of consolidated EBITDA; AGM held 23-Sep · (earlier in window: No company event beyond FY26 annual report and dividend-tax notice; stock −5.6% to ₹6,724)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 🔴 Q2FY27: revenue +22%, PAT +42%, but ex-OI margin 27.2% → 24.4% QoQ, ~22.8% ex-refund; refund ~₹27cr net vs "₹50cr+"; H1 CFO 57% of EBITDA; duty "not applied" per mgmt → MH → M (Under Watch) · (earlier: ⚪ Q2 call 23-Oct; immaterial insider-code breach (₹5,000 penalty) · (earlier: AGM passed cleanly; no further detail on the Lubrizol TPU MoU, whose first test is December commissioning · (earlier: 🟢 MoU with Lubrizol (Berkshire Hathaway) to build India's first dedicated TPU extrusion platform — ₹118cr, live by Dec-2026, management expects 150-200bps of consolidated EBITDA; AGM held 23-Sep · (earlier in window: No company event beyond FY26 annual report and dividend-tax notice; stock −5.6% to ₹6,724))))</span></summary>
 <div class="upd-body">
+
+**🔴 21 → 23-Oct-2026 — Q2FY27: record revenue and PAT +42% — but three of the profile's four downgrade triggers fired, so MH → M (Under Watch)**
+**Results (22-Oct) and call (23-Oct, machine-transcribed from the company's audio — Garware is a holding, so per §4A it was transcribed immediately).** Consolidated revenue **₹695.5cr (+22.1%)**, PAT **₹129.4cr (+41.9%)**, company EBITDA 27.2% **including other income**; FY27 margin guidance raised to **27% ±2%** on that basis. **Rebuilt from the filed P&L lines: EBITDA ex-other income 24.4%, down from 27.2% in Q1; gross margin 59.9% → 54.7%.** **The tariff refund guided at "₹50 crores plus" net, "full in Q2", came in at ~₹11cr net in Q2 with ~₹16cr more expected in Q3 — ~₹27cr in total** (call; not disclosed in the filing). **Ex-refund, ex-OI margin ~22.8%.** H1 operating cash flow ₹195cr against ₹341cr of operating profit (57%) after a deliberate ₹72cr inventory build. On the call: the anti-dumping duty was *"approved by the Ministry of Commerce. However, Finance Ministry did not apply it."* Also: MPCB forfeited a **₹25 lakh** bank guarantee for alleged consent non-compliance (21-Oct; company says it has complied).
+> **Why it matters:** **Three of the four triggers the 22-Aug profile wrote fired on this print** — the ex-refund margin (<24%), H1 cash conversion (<85% with inventory days >140), and, per management, the duty not being applied — **and the fourth (a named CFO) is still open.** The profile was built to catch exactly this: a record headline sitting on a softer quarter. **Conviction MEDIUM-HIGH → MEDIUM (Under Watch).** *Two cautions on my own reading: the refund and duty figures come from a machine transcript, and the margin rows are my rebuild — both are labelled in §4. Management's reasons (feedstock +4%, freight +₹9cr, deliberate stocking) are recorded beside the numbers.* **Also: the 22-Aug profile attributes its Aug-2026 quotes to "CFO Deepak Joshi"; on this call Joshi is introduced as Director of Sales and Marketing — the earlier attribution needs checking.**
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 6 → 21-Oct-2026 — Q2 call 23-Oct; a trivial insider-code breach**
 **Q2/H1FY27 earnings call on 23-Oct (11:30 IST)**; a one-on-one with Manulife MF on 22-Oct. **Insider-code report (10-Oct):** a General Manager made contra trades (16 shares bought, 26 sold between Dec-2025 and May-2026); the Audit Committee imposed a **₹5,000 penalty**. Also a lost-share-certificate notice.
@@ -63,21 +69,21 @@ Screener P/E 40.3x, ROCE 18.1%, ROE 13.5%; 52-week range ₹2,691–7,990. Jun-2
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** Polyester feedstocks are surging: PTA +45.6% over three months and at a 52-week high, MEG +25.0%; both up 66–82% over the year. Garware makes its own chips, so this reaches its cost base directly. Branded, premium-priced films should absorb it better than a commodity film maker (my inference). Q2FY27 also carries a ~₹50cr tariff refund not in guidance, so judge gross margin excluding the refund.
+**Read (23-Oct-2026, mine, not management's):** Feedstock pressure has now shown up in the print. PTA is +37.9% over three months and at a 52-week high, MEG +9.7% (−6.1% in the last month). Q2FY27 confirmed it: consolidated gross margin fell from 59.9% in Q1 to 54.7% (my calculation from the filed P&L), and management put raw material +4% and logistics +₹9cr at ₹37cr of headwind. The rupee is 2.0% stronger over three months, a small drag with ~75% exports.
 
 **How cost moves reach profit:** Not disclosed. It sells branded films (window, paint-protection, sun-control) at premium prices, so polyester feedstock is a smaller lever than for a commodity film maker (my inference).
 
-**Sensitivity:** raw materials were **45.1% of sales in FY26** (FY25: 46.2%, Screener). A 10% move across the whole raw-material bill is worth about **451 bps of margin before any pass-through**. The tracked inputs averaged **+35.3% over three months**, which would be roughly **1592 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **45.1% of sales in FY26** (FY25: 46.2%, Screener). A 10% move across the whole raw-material bill is worth about **451 bps of margin before any pass-through**. The tracked inputs averaged **+23.8% over three months**, which would be roughly **1073 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Purified terephthalic acid (PTA) | Input cost | +8.3% | +45.6% | +81.9% | +0.0% | 🔴 headwind | Tijori (indianpetrochem.com) · 15 Oct, 09:00 am IST |
-| Monoethylene glycol(MEG) | Input cost | -2.5% | +25.0% | +65.8% | -5.3% | 🔴 headwind | Tijori (indianpetrochem.com) · 15 Oct, 09:00 am IST |
-| Polyurethane | Proxy / context | +5.7% | +9.8% | +38.8% | -7.9% | ⚪ context | Tijori (indianpetrochem.com) · 15 Oct, 09:00 am IST |
-| USD/INR (95.037 ₹ per $) | FX (export revenue) | -0.8% | -1.5% | +7.0% | -1.9% | ⚪ flat | Yahoo Finance · 15-Oct-2026 |
+| Purified terephthalic acid (PTA) | Input cost | +0.8% | +37.9% | +81.9% | +0.0% | 🔴 headwind | Tijori (indianpetrochem.com) · 23 Oct, 09:00 am IST |
+| Monoethylene glycol(MEG) | Input cost | -6.1% | +9.7% | +58.7% | -8.8% | 🔴 headwind | Tijori (indianpetrochem.com) · 23 Oct, 09:00 am IST |
+| Polyurethane | Proxy / context | +5.7% | +13.0% | +41.1% | -6.3% | ⚪ context | Tijori (indianpetrochem.com) · 23 Oct, 09:00 am IST |
+| USD/INR (94.93 ₹ per $) | FX (export revenue) | -0.8% | -2.0% | +8.2% | -2.0% | ⚪ flat | Yahoo Finance · 23-Oct-2026 |
 
 **Why each factor is here:**
 
@@ -87,7 +93,7 @@ Screener P/E 40.3x, ROCE 18.1%, ROE 13.5%; 52-week range ₹2,691–7,990. Jun-2
 - **USD/INR**: ~75% of revenue is exports (profile Risk 3).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -357,6 +363,7 @@ Two product families do most of the work:
 | **12-Aug-2026** *(refresh)* | **₹7,338** | **HELD at MH (Under Watch)** — the tag was new | **Q1FY27: best quarter in company history** — revenue ₹633cr (+28%), PAT ₹133cr (+60%), operating margin 22.2% → **27.2%**. **⚠️ Corrected the company's "EBITDA Margin Crosses 30%" headline** — the definition includes other income; the clean number is 27.2%. **🔴 Found a four-event management-change cluster v1 missed entirely**, including the **death of Joint MD Sarita Garware Ramsay** and a **CFO vacancy filled only on an interim basis**. Gate recorded as **🟡 PARTIAL** — *"no Q1FY27 transcript existed."* |
 | **22-Aug-2026** *(this profile)* | **₹7,124** | **HELD at MH (Under Watch)** — no trigger fired; one trigger reworded | Converted to always-current format. **🔴 The transcript had in fact been filed on 11-Aug — a day BEFORE the refresh** (audio on 7-Aug). Gate upgraded **PARTIAL → GREEN, 7 transcripts.** **🆕 A ₹50cr+ US tariff refund lands in Q2FY27 and is NOT in guidance** — which could mask the refresh's own Q2 margin trigger, now rewritten to specify ex-refund. **✅ The 27.2% adjustment was vindicated three ways** — Screener's OPM, management's *"27%, 28% seems a very logical number"*, and a direct on-call denial that anything exceptional sat in the gross margin. **⤴ Seasonality corrected: management says Q2 ≈ Q1 and Q3 dips, not "Q2 is the strongest quarter."** **🔴 "CFO" appears zero times in a 65,000-character transcript.** |
 | **19-Sep-2026** *(filings refresh)* | **₹6,724** | **HELD at MH (Under Watch)** — no trigger fired | No material event; FY26 annual report filed 31-Aug (not read for this refresh). Stock −5.6%. |
+| **23-Oct-2026** *(Q2FY27 + call)* | **₹7,034** | **⤴ MH → M (Under Watch)** | Record revenue and PAT, but ex-OI margin 27.2% → 24.4% QoQ and ~22.8% ex-refund; refund ~₹27cr net vs ₹50cr+ guided; H1 CFO 57% of EBITDA; duty not applied per management. **Three of four triggers fired.** |
 
 **The trajectory in one line.** **The refresh was right about the numbers and one day early on the source** — and the transcript it could not read contains a ₹50cr one-off that changes how the very next quarter must be read.
 
@@ -380,6 +387,36 @@ Two product families do most of the work:
 
 **The bridge from here, on management's own numbers:** FY27 revenue >₹2,500cr with EBITDA at 25%±2% (company basis). **Q1 annualises to ₹2,532cr already**, and management says Q2 ≈ Q1 with a Q3 dip. **On a clean-margin basis, FY27 PAT of roughly ₹470–500cr against a ₹16,550cr market cap is ~33–35x forward** — *before* the TPU margin uplift lands in FY28.
 
+### 📊 Q2FY27 Refresh — Full Numbers Print (23-Oct-2026)
+
+*Sources: consolidated results, press release and deck filed 22-Oct-2026; the call of 23-Oct-2026 **machine-transcribed from the company's own audio** (`Fetched Concalls/GRWRHITECH/GARWARE_Transcript_Q2FY27_2026-10-23_MACHINE.txt`, mlx-whisper, no speaker labels). Every call figure below carries ASR risk and is flagged where it cannot be checked against the filing; re-verify against the official transcript when filed. EBITDA rows are rebuilt by me from the filed P&L lines.*
+
+| ₹ cr, consolidated | Q2FY26 | Q1FY27 | **Q2FY27** | YoY |
+|---|---|---|---|---|
+| Revenue from operations | 569.69 | 633.08 | **695.53** | **+22.1%** |
+| Materials (incl. stock change) | 270.15 | 254.06 | 315.14 | |
+| **Gross margin** | 52.6% | **59.9%** | **54.7%** | **−5.2pp QoQ** |
+| Power & fuel · Employees · Other exp. | 33.8 · 46.9 · 99.4 | 39.4 · 52.8 · 114.8 | 42.9 · 51.1 · 117.0 | |
+| **EBITDA ex-other income** | **119.44 (21.0%)** | **172.00 (27.2%)** | **169.47 (24.4%)** | +41.9% |
+| *Company EBITDA (includes other income)* | *133.3 (23.4%)* | *191.7 (30.3%)* | *189.0 (27.2%)* | |
+| Other income | 13.86 | 19.72 | 19.53 | |
+| PBT | 120.39 | 176.46 | 173.06 | +43.7% |
+| **PAT** | **91.23** | **132.65** | **129.44** | **+41.9%** |
+
+**H1FY27:** revenue ₹1,328.6cr (+24.8%) · EBITDA ex-OI ₹341.5cr (25.7%) · **operating cash flow ₹195.3cr after inventory +₹71.7cr** (₹389cr → ₹461cr) · capex ₹27.1cr · cash and equivalents ₹933cr (press release). **FY27 EBITDA guidance raised to 27% ±2% — on the company basis, which includes other income.**
+
+**The tariff refund — the number this profile told itself to watch.** In August management guided *"anywhere around ₹50 crores plus"* net, *"we will get full in Q2."* **On the 23-Oct call (machine transcript):** *"till date, we have received around 31 crore… the refund to customer has been around 20 crore and 11 crore has been in our book. And we expect in Q3 another refund of around 30 crore. That is the last one… roughly 16 crore will come to our books and 14 crore will be refunded to the customers."* It is booked against cost of goods (*"we are reducing it from COGS"*). **So the total net to Garware is ~₹27cr, about half the guided figure, and only ~₹11cr of it landed in Q2.** *The filing does not disclose the refund at all; these figures exist only in the audio.*
+
+| Basis (Q2FY27) | Operating margin |
+|---|---|
+| Company-reported EBITDA (includes other income) | 27.2% |
+| Ex-other income, as filed | 24.4% |
+| **Ex-other income, ex-refund (₹11cr, call figure)** | **~22.8%** |
+
+**What management said moved the margin:** raw material +4% and logistics +₹9cr, *"total 37 crore… headwind"* (call); Middle East slowdown; and Q3 *"will be seasonally low."* **Inventory was built deliberately** — *"so that we do not get affected even there is two months no supply, three months no supply"* — and management quotes inventory at *"58 to 60 days"* (a sales basis); on Screener's basis (FY26: 149 days) H1 sits ~148 days *(my calculation)*.
+
+**Other call items:** Sun Control utilisation 75%, PPF 73% in Q2, PPF expected near full within six months; TPU line still Q3FY27; **anti-dumping duty: *"approved by the Ministry of Commerce. However, Finance Ministry did not apply it. So, we are taking some necessary steps"*.** The call was led by **Deepak Joshi, introduced as Director of Sales and Marketing**; no CFO spoke.
+
 ### Weighted return framework (2-year, to FY28)
 
 **Base case — 55%.** FY27 revenue ~₹2,650cr (guidance beaten modestly); operating margin mean-reverts from 27.2% toward ~25% as Q3 dips; **FY27 PAT ~₹490cr**. FY28 adds a full year of TPU (guided +150–200bps) and a partial year of the new SCF line: **revenue ~₹3,100cr, PAT ~₹560cr.** Multiple de-rates to **35x** as growth normalises → **₹19,600cr. ≈ +18%.**
@@ -391,6 +428,21 @@ Two product families do most of the work:
 **Weighted 2-year expected return ≈ +26%** *(0.55 × 18 + 0.28 × 77 + 0.17 × −27)* — roughly **12% CAGR**, plus a negligible dividend.
 
 **Against 12-Aug's ~+23%: the improvement is the price falling 2.9%, not the case strengthening.**
+
+### 🔴 23-Oct-2026 — Q2FY27 scored against the triggers: **three of four have fired, so MEDIUM-HIGH → MEDIUM (Under Watch)**
+
+| Trigger (as written 22-Aug) | Q2FY27 reading | Status |
+|---|---|---|
+| Operating margin **excluding the tariff refund** below 24% | **~22.8%** ex-OI ex-refund; 24.4% even with the refund in. *For this not to fire, the refund retained in Q2 would have to be under ₹2.8cr; the call says ₹11cr.* | 🔴 **FIRED** |
+| No permanent CFO by the Q2FY27 results date | **No CFO appointment found in any sweep since 22-Aug**; the Q2 call was led by the Director of Sales and Marketing | 🔴 **FIRED** |
+| DGTR recommendation lapses without MoF notification by the Q3FY27 call | Management, on the call: *"Finance Ministry did not apply it"* — formally the deadline is the Q3 call, but the company itself says the duty was not applied | 🔴 **Effectively fired** *(on a machine transcript; confirm in the official one)* |
+| H1FY27 CFO below 85% of operating profit with inventory days above 140 | **CFO ₹195.3cr / EBITDA ex-OI ₹341.5cr = 57%**; inventory ~148 days on Screener's basis | 🔴 **FIRED** — with management's stated reason (deliberate raw-material stocking) |
+
+**Why this is a downgrade and not a hold:** the profile set these triggers precisely so a strong headline could not hide a softer quarter, and the headline is strong — record revenue, PAT +42%, guidance raised. **Underneath it, the gross margin fell 5.2 points in a quarter, the refund that was to flatter Q2 came in at roughly half the size, the bull case's duty lever has gone, and the cash did not follow the profit.** *Management's explanations — feedstock and freight shocks, deliberate inventory — are plausible and are recorded; they explain the miss, they do not reverse it.*
+
+**What would reverse it:** Q3 (seasonally weak) ex-OI margin ≥24% with inventory released, **or** a notified duty, **or** a CFO named. **What would cut it again (M → ML):** Q3 ex-OI margin below 21% and H2 CFO conversion below 70%.
+
+**Valuation note:** the 22-Aug weighted return of ≈ +26% is not re-derived here, but it is now overstated — its bull case (28%) is built on *"the antidumping duty is actually notified."* *My judgement, not a recalculation; re-underwrite after the official transcript.*
 
 ### Conviction: **HELD at MEDIUM-HIGH (Under Watch)** — and one trigger reworded
 
@@ -422,7 +474,7 @@ Two product families do most of the work:
 
 **⚠️ Risk 2 — Commodity BOPET price volatility.** *(No update. Speciality mix insulates but does not eliminate.)*
 
-> 📈 **Factor check 15-Oct-2026:** Polyester feedstocks are surging: PTA +45.6% (at a 52-week high) and MEG +25.0% over three months. Garware makes its own chips, so this reaches its costs directly. Read Q2FY27 margin excluding the ~₹50cr tariff refund. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 23-Oct-2026:** It reached the P&L in Q2FY27: consolidated gross margin fell from 59.9% (Q1) to 54.7% (my calculation from the filing) as PTA rose 37.9% over three months to a 52-week high. Management put raw material +4% and logistics +₹9cr at ₹37cr of headwind. *(Numbers and sources: Input & factor check, at the top.)*
 
 **⚠️ Risk 3 — Currency exposure.** ~75% export revenue.
 
@@ -455,6 +507,8 @@ Two product families do most of the work:
 > **⚠️ REAFFIRMED WITHOUT A REVISED PATH (22-Aug-2026)** — asked directly, management reconfirmed **50 GHS stores in FY27** against **9 at the last count.** **Internationally the picture is better — 14 application studios across the Middle East and US.** **The D2C build-out is the stated next leg of growth and it is the one guided metric visibly missing.** **Signal to watch: a studio count at Q2.**
 
 **🆕 Risk 14 — The Q2FY27 refund could mask a margin deterioration (NEW — 22-Aug-2026).** **A ₹50cr+ one-off lands in Q2 and is not in guidance.** Against a ₹172cr quarterly operating profit that is **~8 percentage points of margin**. **A Q2 printing 28% could be a 20% quarter plus a refund.** **This is why trigger 1 has been rewritten to specify *excluding the refund*, and why any Q2 figure must be stated on both bases.**
+
+> **⚠️ MATERIALIZED (23-Oct-2026), in a smaller form than feared.** The refund was ~₹11cr net in Q2, not ₹50cr+ (call, machine-transcribed), so it masked less — but the margin underneath did deteriorate: ex-OI 27.2% → 24.4% QoQ, ~22.8% ex-refund. Trigger 1 fired.
 
 **🟢 Risk 15 — the risk of being too cautious (NEW — 22-Aug-2026).** **The beat was interrogated on the call and survived** — an analyst pressed specifically on whether the *gross* margin contained anything exceptional and got a direct, specific denial naming tariff refunds as the thing it was not. **Three independent readings agree the clean margin is 27%.** **TPU commissions in one quarter with a quantified +150–200bps; the antidumping duty is a free option; PPF's new line is only 60% full; a further 1,200 lakh sq ft arrives in H1FY28; and the whole programme is funded from internal cash on a debt-free balance sheet.** **If 27% is the floor rather than the peak, FY28 PAT clears ₹650cr and 42.7x trailing will look like the wrong denominator.**
 

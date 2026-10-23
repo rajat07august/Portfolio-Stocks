@@ -12,11 +12,17 @@
 > **🎯 This name carries a live Under Watch trigger with four named conditions, set at the Q1FY27 review and testable at Q2FY27 (~Nov-2026). It is in §5.5(a).**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 469** · market cap ₹ 6,311 Cr. · P/E 15.1x · ROCE 33.6 % · ROE 20.0 % · 52-wk ₹ 759 / 401 · **vs ₹467 at baseline (+0.4%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 429** · market cap ₹ 5,748 Cr. · P/E 13.8x · ROCE 33.6 % · ROE 20.0 % · 52-wk ₹ 752 / 401 · **vs ₹467 at baseline (-8.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟢 ₹1,747cr of orders (FY27 intake now ₹3,356cr); 🆕 49% of a 990 MW MSEDCL solar portfolio for ₹20cr — project cost ~₹3,900cr, structured for "financial control" · (earlier: 🟢 Tower capacity +12,000 MTPA (172,400 → 184,400) and ₹574cr of new orders — a second delivery item in two weeks · (earlier: 🟢 Conductor capacity +70%, 24,000 → 40,800 km/annum, Silvassa Phase 1 complete — delivering on the Jan/May-2025 intimations · (earlier in window: Quiet interval: no order or governance filing beyond the FY26 annual report and investor meets; stock −12% to ₹409, at its 52-week low)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 ₹1,747cr of orders (FY27 intake now ₹3,356cr); 🆕 49% of a 990 MW MSEDCL solar portfolio for ₹20cr — project cost ~₹3,900cr, structured for "financial control" · (earlier: 🟢 Tower capacity +12,000 MTPA (172,400 → 184,400) and ₹574cr of new orders — a second delivery item in two weeks · (earlier: 🟢 Conductor capacity +70%, 24,000 → 40,800 km/annum, Silvassa Phase 1 complete — delivering on the Jan/May-2025 intimations · (earlier in window: Quiet interval: no order or governance filing beyond the FY26 annual report and investor meets; stock −12% to ₹409, at its 52-week low))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
+**No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟢 6 → 21-Oct-2026 — ₹1,747cr of orders in the window, and a ₹20cr entry into owning a 990 MW solar portfolio**
 **Orders:** ₹412cr (6-Oct; mainly HTLS reconductoring using its own conductors), ₹408cr (14-Oct; mainly a MENA substation), **₹927cr (21-Oct; anchored by domestic 765 kV and 400 kV transmission lines)**. The company says **FY27 order intake is now ₹3,356cr**, with more than ₹2,300cr declared in the last three weeks. **Solar:** the Board (19-Oct) approved buying **49% of NOPL Pace Green Energy Pvt Ltd for up to ₹20cr cash**. NOPL is developing **~990 MW (AC) of solar in Maharashtra**, backed by a **25-year PPA with MSEDCL at ₹3.10/unit**; the **indicative project cost is ~₹3,900cr** with debt sanctioned. The press release says the structure gives Transrail **"financial and project management control"** under arrangements with **Onix Renewable Ltd**, with an option to go **up to 100%**. Not a related-party transaction. Also: 2,58,800 ESOP shares allotted (9-Oct).
@@ -59,20 +65,20 @@ Filings: FY26 annual report (2-Sep), final-dividend tax notice, Ms. Ranjana Mait
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** Input pressure has broadened. Long steel for towers is +33.1% over three months and at a 52-week high (it was flat in September), and zinc for galvanising +13.6%, also at a high; aluminium fell 12.1%. With 65% of contracts carrying fixed-price input risk, this is the quarter where the gap could show (profile Risk 7).
+**Read (23-Oct-2026, mine, not management's):** Input pressure persists. Long steel for towers is +35.5% over three months and at a 52-week high, and zinc for galvanising +13.6% (September average, at a high); aluminium fell 11.9%. With 65% of contracts carrying fixed-price input risk, Q2 is where the gap could show (profile Risk 7).
 
 **How cost moves reach profit:** About 65% of contracts carry input risk on fixed prices (profile).
 
-**Sensitivity:** raw materials were **44.7% of sales in FY26** (FY25: 48.4%, Screener). A 10% move across the whole raw-material bill is worth about **447 bps of margin before any pass-through**. The tracked inputs averaged **+11.5% over three months**, which would be roughly **514 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **44.7% of sales in FY26** (FY25: 48.4%, Screener). A 10% move across the whole raw-material bill is worth about **447 bps of margin before any pass-through**. The tracked inputs averaged **+12.4% over three months**, which would be roughly **554 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Steel Long | Input cost | +8.3% | +33.1% | +35.7% | +0.0% | 🔴 headwind | Tijori (indianpetrochem.com) · 15 Oct, 09:30 am IST |
+| Steel Long | Input cost | +4.5% | +35.5% | +38.4% | +0.0% | 🔴 headwind | Tijori (indianpetrochem.com) · 23 Oct, 09:30 am IST |
 | Zinc (monthly avg) (4,021.0 $/mt) | Input cost | +3.8% | +13.6% | +37.1% | +0.0% | 🔴 headwind | World Bank Pink Sheet · 2026M09 |
-| Aluminium (COMEX) (3,064.5 $/t) | Input cost | -9.2% | -12.1% | +15.9% | -26.9% | 🟢 tailwind | Yahoo Finance · 15-Oct-2026 |
+| Aluminium (COMEX) (3,108.0 $/t) | Input cost | -9.5% | -11.9% | +12.3% | -25.9% | 🟢 tailwind | Yahoo Finance · 23-Oct-2026 |
 
 **Why each factor is here:**
 
@@ -82,7 +88,7 @@ Filings: FY26 annual report (2-Sep), final-dividend tax notice, Ms. Ranjana Mait
 
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -461,7 +467,7 @@ CFO Khandelwal, pressed by Kartikay Agrawal: *"It is **INR80 crores** loan, and 
 
 **Risk 7 — 🟡 Commodity pass-through gap.** Only **~35% price-variation**; **65% fixed-price input risk** on steel, zinc and aluminium.
 
-> 📈 **Factor check 15-Oct-2026:** Live: long steel +33.1% and zinc +13.6% over three months, both at 52-week highs; aluminium −12.1%. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 23-Oct-2026:** Live: long steel +35.5% and zinc +13.6% over three months, both at 52-week highs; aluminium −11.9%. *(Numbers and sources: Input & factor check, at the top.)*
 
 **Risk 8 — 🟡 International and country risk.** **Africa ~20% across 28 countries** — security (Mali kidnappings were raised by an analyst), currency and payment. **Mitigated by multilateral funding, not eliminated.**
 

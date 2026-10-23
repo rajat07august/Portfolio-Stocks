@@ -28,11 +28,17 @@
 ---
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 1,377** · market cap ₹ 4,784 Cr. · P/E 23.9x · ROCE 11.7 % · ROE 8.90 % · 52-wk ₹ 1,775 / 576 · **vs ₹1,551 at baseline (-11.2%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 1,320** · market cap ₹ 4,575 Cr. · P/E 22.9x · ROCE 11.7 % · ROE 8.90 % · 52-wk ₹ 1,775 / 576 · **vs ₹1,551 at baseline (-14.9%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 13-Oct-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟢 CARE A/Stable reaffirmed on facilities up 30% to ₹3,979cr; Q2 results board meeting 4-Nov</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Oct-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 CARE A/Stable reaffirmed on facilities up 30% to ₹3,979cr; Q2 results board meeting 4-Nov)</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
+**No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟢 6 → 21-Oct-2026 — CARE A reaffirmed on 30% more bank lines; Q2 board meeting fixed for 4-Nov**
 **CARE (12-Oct) reaffirmed CARE A (Stable) / CARE A1** and the facilities rated rose from ₹3,070cr to **₹3,979cr (+30%)**: long-term **₹1,509cr** (from ₹1,205cr), short-term **₹2,375cr** (from ₹1,800cr), LT/ST **₹95cr** (from ₹65cr). **Board meeting for Q2/H1FY27 results: 4-Nov-2026** (BSE 21-Oct); trading window closed to 6-Nov.
@@ -46,22 +52,22 @@
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** Raw materials were 75% of FY26 sales (Screener). The metals split over three months: copper +4.4% (near its high, +32.1% over the year), aluminium −12.1%. Polymer inputs rose: PVC +25.9%, and polyethylene (a proxy for XLPE) +31.8%. Escalation clauses cover EPC contracts but not every product order, so the exposure is fixed-price supply bid before the rise. The rupee is 1.5% stronger over three months, a small drag on exports (~13% of sales). Electricity output +11.6% YoY (August). Test in Q2FY27: does the margin hold near 10%? (My read, not management's.)
+**Read (23-Oct-2026, mine, not management's):** Raw materials were 75% of FY26 sales (Screener). Over three months copper is +2.7% (−2.8% in the month, +27.7% over the year) and aluminium −11.9%. Polymer inputs rose: PVC +24.3%, and polyethylene (a proxy for XLPE) +34.6%. Escalation clauses cover EPC contracts but not every product order, so the exposure is fixed-price supply bid before the rise. The rupee is 2.0% stronger over three months, a small drag on exports (~13% of sales). Electricity output +11.6% YoY (August). Test in Q2FY27 (board 4-Nov): does the margin hold near 10%? (My read, not management's.)
 
 **How cost moves reach profit:** Partial. EPC contracts carry price-escalation clauses, key inputs are tied up when large orders are bid, and a hedging desk has run since Jan-2022 (CARE, Feb-2026). The share of the bill that is passed through is not disclosed.
 
-**Sensitivity:** raw materials were **75.0% of sales in FY26** (FY25: 76.0%, Screener). A 10% move across the whole raw-material bill is worth about **750 bps of margin before any pass-through**. The tracked inputs averaged **+6.1% over three months**, which would be roughly **458 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **75.0% of sales in FY26** (FY25: 76.0%, Screener). A 10% move across the whole raw-material bill is worth about **750 bps of margin before any pass-through**. The tracked inputs averaged **+5.0% over three months**, which would be roughly **375 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Copper (COMEX) (6.57 $/lb) | Input cost | +3.2% | +4.4% | +32.1% | -3.4% | 🔴 headwind | Yahoo Finance · 15-Oct-2026 |
-| Aluminium (COMEX) (3,064.5 $/t) | Input cost | -9.2% | -12.1% | +15.9% | -26.9% | 🟢 tailwind | Yahoo Finance · 15-Oct-2026 |
-| LDPE | Proxy / context | +25.4% | +31.8% | +62.7% | +0.0% | ⚪ context | Tijori (indianpetrochem.com) · 15 Oct, 09:00 am IST |
-| PVC | Input cost | +4.3% | +25.9% | +40.4% | -10.6% | 🔴 headwind | Tijori (indianpetrochem.com) · 15 Oct, 09:00 am IST |
-| USD/INR (95.037 ₹ per $) | FX (export revenue) | -0.8% | -1.5% | +7.0% | -1.9% | ⚪ flat | Yahoo Finance · 15-Oct-2026 |
+| Copper (COMEX) (6.49 $/lb) | Input cost | -2.8% | +2.7% | +27.7% | -4.6% | ⚪ flat | Yahoo Finance · 23-Oct-2026 |
+| Aluminium (COMEX) (3,108.0 $/t) | Input cost | -9.5% | -11.9% | +12.3% | -25.9% | 🟢 tailwind | Yahoo Finance · 23-Oct-2026 |
+| LDPE | Proxy / context | +22.1% | +34.6% | +64.3% | +0.0% | ⚪ context | Tijori (indianpetrochem.com) · 23 Oct, 09:00 am IST |
+| PVC | Input cost | +2.2% | +24.3% | +41.9% | -9.6% | 🔴 headwind | Tijori (indianpetrochem.com) · 23 Oct, 09:00 am IST |
+| USD/INR (94.93 ₹ per $) | FX (export revenue) | -0.8% | -2.0% | +8.2% | -2.0% | ⚪ flat | Yahoo Finance · 23-Oct-2026 |
 | Production - Electricity (YoY, Aug 26) | Demand driver | — | +10.1% | +11.6% | — | 🟢 tailwind | Tijori macro (India) · Aug 26 |
 
 **Why each factor is here:**
@@ -75,7 +81,7 @@
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>

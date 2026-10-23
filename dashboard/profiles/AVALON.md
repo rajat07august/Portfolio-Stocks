@@ -8,11 +8,17 @@
 > **📌 Fetch note worth carrying: Avalon hosts its transcripts on its own IR site, not on BSE or NSE.** The exchange filing is a **cover letter with a link** — the 11-Aug-2026 Q1FY27 filing extracts to 1,466 characters of letterhead pointing at `avalontec.com`. **An exchange-feed-only scan would conclude Avalon files no transcripts.** `curl` reaches the IR site directly. Screener's concall links point to `avalontec.com` for transcripts and to BSE only for decks. **Don't assume the BSE UUID pattern covers every stock.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 2,000** · market cap ₹ 13,372 Cr. · P/E 100x · ROCE 19.3 % · ROE 16.5 % · 52-wk ₹ 2,620 / 777 · **vs ₹2,184 at baseline (-8.4%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 1,857** · market cap ₹ 12,410 Cr. · P/E 92.9x · ROCE 19.3 % · ROE 16.5 % · 52-wk ₹ 2,620 / 777 · **vs ₹2,184 at baseline (-15.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟡 Zollner Avalon JV company incorporated; promoter block sale formally disclosed (44.4% → 40.4%) · (earlier: 🔴 A promoter group is selling ~6% via block deal — Bhaskar Srinivasan and two family trusts sold 2.00% EACH; Kunhamed Bicha's group is NOT selling · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: Joint venture with Zollner Elektronik AG (Zollner 51% / Avalon 49%); Chairman-MD re-appointed for five years from Jul-2027 and a new independent director; stock +16% to 127x)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🟡 Zollner Avalon JV company incorporated; promoter block sale formally disclosed (44.4% → 40.4%) · (earlier: 🔴 A promoter group is selling ~6% via block deal — Bhaskar Srinivasan and two family trusts sold 2.00% EACH; Kunhamed Bicha's group is NOT selling · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: Joint venture with Zollner Elektronik AG (Zollner 51% / Avalon 49%); Chairman-MD re-appointed for five years from Jul-2027 and a new independent director; stock +16% to 127x))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
+**No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟡 6 → 21-Oct-2026 — The Zollner JV company formed; the promoter sale formally disclosed**
 **Zollner Avalon Pvt Ltd incorporated 19-Oct** as a wholly-owned subsidiary, to become 51% Zollner per the 3-Sep disclosure. **SIPCOT land leased** at Oragadam for a new unit (8-Oct). **SAST Reg 29(2) (15-Oct): Bhaskar Srinivasan, KBS Family Trust and BBS Family Trust each disclosed a sale of 13,36,235 shares on 30-Sep** — the block already recorded on 6-Oct. Screener promoter holding **44.39% → 40.35%**. CRISIL ESG 58.
@@ -71,10 +77,10 @@ Screener P/E 127x (was 109x), ROCE 19.3%, ROE 16.5%; market cap ₹16,973cr; pro
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** With 59% exports, the rupee's 7.0% fall over the year helps reported revenue; over three months it is 1.5% stronger, a small headwind.
+**Read (23-Oct-2026, mine, not management's):** With 59% exports, the rupee's 8.2% fall over the year helps reported revenue; over three months it is 2.0% stronger, a small headwind.
 
 **How cost moves reach profit:** Component prices are not tracked.
 
@@ -82,14 +88,14 @@ Screener P/E 127x (was 109x), ROCE 19.3%, ROE 16.5%; market cap ₹16,973cr; pro
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (95.037 ₹ per $) | FX (export revenue) | -0.8% | -1.5% | +7.0% | -1.9% | ⚪ flat | Yahoo Finance · 15-Oct-2026 |
+| USD/INR (94.93 ₹ per $) | FX (export revenue) | -0.8% | -2.0% | +8.2% | -2.0% | ⚪ flat | Yahoo Finance · 23-Oct-2026 |
 
 **Why each factor is here:**
 
 - **USD/INR**: 59% exports, with US manufacturing (profile).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>

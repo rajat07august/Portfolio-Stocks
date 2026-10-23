@@ -10,11 +10,17 @@
 > **📌 Basis note: Interarch reports STANDALONE only.** Screener's consolidated page is empty and the board resolution reads *"Standalone Unaudited Financial Results"*. **Every figure in this profile is standalone.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 1,557** · market cap ₹ 2,620 Cr. · P/E 19.2x · ROCE 23.7 % · ROE 16.8 % · 52-wk ₹ 2,763 / 1,539 · **vs ₹1,690 at baseline (-7.9%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 1,489** · market cap ₹ 2,511 Cr. · P/E 18.4x · ROCE 23.7 % · ROE 16.8 % · 52-wk ₹ 2,763 / 1,460 · **vs ₹1,690 at baseline (-11.9%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟡 Two orders; President-Corporate Finance retired; income-tax matter still undisclosed · (earlier: 🟡 ₹8.30cr GST demand for FY2022-23 (1-Oct) — NOT the income-tax matter, which is still unaddressed; heavy-structures plant commissioned and new orders · (earlier: Nothing filed — but the 29-Sep income-tax document deadline is live and undisclosed · (earlier in window: 🔴 OMISSION CORRECTED: the profile never carried the August-2025 income-tax search; a block-assessment notice for 2019-2025 was received 15-Sep with documents due 29-Sep; conviction moved to Under Watch)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Split record date 30-Nov; income-tax matter still dark · (earlier: 🟡 Two orders; President-Corporate Finance retired; income-tax matter still undisclosed · (earlier: 🟡 ₹8.30cr GST demand for FY2022-23 (1-Oct) — NOT the income-tax matter, which is still unaddressed; heavy-structures plant commissioned and new orders · (earlier: Nothing filed — but the 29-Sep income-tax document deadline is live and undisclosed · (earlier in window: 🔴 OMISSION CORRECTED: the profile never carried the August-2025 income-tax search; a block-assessment notice for 2019-2025 was received 15-Sep with documents due 29-Sep; conviction moved to Under Watch))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Record date for the 1:5 split: 30-Nov**
+Record date **30-Nov-2026** for the 1:5 sub-division (₹10 → ₹2 face value) approved at the 10-Sep AGM.
+> **Why it matters:** Mechanical. **The income-tax matter remains undisclosed** — no filing on the block assessment since the 29-Sep document deadline.
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟡 6 → 21-Oct-2026 — Two orders; the income-tax matter still undisclosed**
 **Two orders from undisclosed customers** (6 and 8-Oct). **Anil Kumar Chandani, President – Corporate Finance & Strategy, retired** (14-Oct).
@@ -72,18 +78,18 @@ Screener P/E 21.0x, ROCE 23.7%, ROE 16.8%; market cap ₹2,869cr; promoter 59.44
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** Steel, its main input, is +10.5% over three months and near its 52-week high. Pass-through terms are not in the profile, so projects bid before the rise carry margin risk (my inference). Credit to large industry is growing 16.6% YoY (August).
+**Read (23-Oct-2026, mine, not management's):** Steel, its main input, is +10.2% over three months and near its 52-week high. Pass-through terms are not in the profile, so projects bid before the rise carry margin risk (my inference). Credit to large industry is growing 16.6% YoY (August).
 
 **How cost moves reach profit:** Not disclosed in the profile. Pre-engineered buildings are quoted per project, so steel moves between bid and purchase hit margin (my inference).
 
-**Sensitivity:** raw materials were **60.0% of sales in FY26** (FY25: 61.0%, Screener). A 10% move across the whole raw-material bill is worth about **600 bps of margin before any pass-through**. The tracked inputs averaged **+10.5% over three months**, which would be roughly **630 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **60.0% of sales in FY26** (FY25: 61.0%, Screener). A 10% move across the whole raw-material bill is worth about **600 bps of margin before any pass-through**. The tracked inputs averaged **+10.2% over three months**, which would be roughly **612 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Steel Flat | Input cost | +2.1% | +10.5% | +33.3% | -1.1% | 🔴 headwind | Tijori (indianpetrochem.com) · 15 Oct, 09:30 am IST |
+| Steel Flat | Input cost | -0.3% | +10.2% | +33.5% | -1.5% | 🔴 headwind | Tijori (indianpetrochem.com) · 23 Oct, 09:30 am IST |
 | Credit to Large Industry - Outstanding (YoY, Aug 26) | Demand driver | — | +18.4% | +16.6% | — | 🟢 tailwind | Tijori macro (India) · Aug 26 |
 
 **Why each factor is here:**
@@ -93,7 +99,7 @@ Screener P/E 21.0x, ROCE 23.7%, ROE 16.8%; market cap ₹2,869cr; promoter 59.44
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>

@@ -12,11 +12,17 @@
 > **Data note:** consolidated basis throughout. Standalone and consolidated are close for this company (unlike MPS), but consolidated is used everywhere.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 1,269** · market cap ₹ 13,302 Cr. · P/E 47.9x · ROCE 17.1 % · ROE 12.5 % · 52-wk ₹ 1,615 / 987 · **vs ₹1,571 at baseline (-19.2%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 1,229** · market cap ₹ 12,856 Cr. · P/E 46.3x · ROCE 17.1 % · ROE 12.5 % · 52-wk ₹ 1,615 / 987 · **vs ₹1,571 at baseline (-21.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Routine filings only · (earlier: Postal ballot notice issued for the 1:1 bonus and the authorised-capital increase · (earlier: 🟢 1:1 bonus approved and authorised capital doubled; USFDA closed the Valthera formulation inspection with one minor non-GMP observation · (earlier in window: USFDA inspection of the Valthera formulation unit closes with one minor, non-GMP observation; Board to consider a bonus share issue on 23-Sep; stock −4.9%)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Q2 call 28-Oct · (earlier: ⚪ Routine filings only · (earlier: Postal ballot notice issued for the 1:1 bonus and the authorised-capital increase · (earlier: 🟢 1:1 bonus approved and authorised capital doubled; USFDA closed the Valthera formulation inspection with one minor non-GMP observation · (earlier in window: USFDA inspection of the Valthera formulation unit closes with one minor, non-GMP observation; Board to consider a bonus share issue on 23-Sep; stock −4.9%))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Q2 call 28-Oct**
+Earnings call **28-Oct, 3:30pm**.
+> **Why it matters:** Nothing new.
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 6 → 21-Oct-2026 — Verified quiet — routine filings only**
 Only the quarterly Reg 74(5) depository certificate (or equivalent routine items) on NSE. **Nothing material.**
@@ -67,10 +73,10 @@ Screener P/E 56.3x, ROCE 17.1%, ROE 12.5%; market cap ₹15,634cr; promoter 44.0
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** Only currency is tracked; 1.5% stronger over three months. Fermentation inputs are not tracked.
+**Read (23-Oct-2026, mine, not management's):** Only currency is tracked; 2.0% stronger over three months. Fermentation inputs are not tracked.
 
 **How cost moves reach profit:** Fermentation inputs are not tracked.
 
@@ -78,14 +84,14 @@ Screener P/E 56.3x, ROCE 17.1%, ROE 12.5%; market cap ₹15,634cr; promoter 44.0
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (95.037 ₹ per $) | FX (export revenue) | -0.8% | -1.5% | +7.0% | -1.9% | ⚪ flat | Yahoo Finance · 15-Oct-2026 |
+| USD/INR (94.93 ₹ per $) | FX (export revenue) | -0.8% | -2.0% | +8.2% | -2.0% | ⚪ flat | Yahoo Finance · 23-Oct-2026 |
 
 **Why each factor is here:**
 
 - **USD/INR**: Exports ~47% of revenue (profile).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>

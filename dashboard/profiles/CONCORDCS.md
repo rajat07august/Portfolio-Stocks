@@ -11,11 +11,17 @@
 > **⚠️ TICKER RENAMED 2-Aug-2026: CONCORD → CONCORDCS.** This is **Concord Control Systems Ltd (BSE 543619)** — railway/metro electronics, Sector 5. It is **not** Concord Biotech Ltd (BSE 543960, ticker `CONCORDBIO`, Sector 12), which was added to the watchlist on 2-Aug-2026, and **not** Concord Enviro Systems. The old `CONCORD` ticker caused a real mis-fetch during a bulk CMP refresh (logged in CLAUDE.md, 18-Jul-2026); the rename removes the ambiguity at source. Concall folder also renamed `Fetched Concalls/543619` → `Fetched Concalls/CONCORDCS`.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 2,450** · market cap ₹ 2,544 Cr. · P/E 60.4x · ROCE 31.2 % · ROE 25.6 % · 52-wk ₹ 3,070 / 1,645 · **vs ₹2,860 at baseline (-14.3%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 2,385** · market cap ₹ 2,476 Cr. · P/E 58.8x · ROCE 31.2 % · ROE 25.6 % · 52-wk ₹ 3,070 / 1,645 · **vs ₹2,860 at baseline (-16.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 2-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Routine; promoter −1.66pp over the half, cause not established · (earlier: AGM passed; main-board migration still awaiting exchange approval · (earlier: 🟢 Shareholders approved BSE SME → BSE Main Board migration AND a direct NSE main-board listing (both special resolutions, passed 19-Sep) · (earlier in window: Board approves migration to the BSE Main Board and a direct NSE Main Board listing (postal ballot); FY26 annual report and new auditors; stock −22% to ₹2,229)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 2-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine; promoter −1.66pp over the half, cause not established · (earlier: AGM passed; main-board migration still awaiting exchange approval · (earlier: 🟢 Shareholders approved BSE SME → BSE Main Board migration AND a direct NSE main-board listing (both special resolutions, passed 19-Sep) · (earlier in window: Board approves migration to the BSE Main Board and a direct NSE Main Board listing (postal ballot); FY26 annual report and new auditors; stock −22% to ₹2,229))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
+**No filings at all in the window on BSE (via Chrome)** — a verified negative, not an absence of searching (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: BSE announcements (via Chrome — BSE's JSON API is still Akamai-blocked from curl, re-tested 23-Oct), 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 6 → 21-Oct-2026 — Routine**
 Only the Reg 74(5) certificate (BSE, via Chrome). Screener promoter **65.57% (Mar) → 63.91% (Sep)**; cause not established (BSE-only; NSE SAST feed does not cover it).
@@ -65,10 +71,10 @@ Screener P/E 54.6x (was 70x), ROCE 30.6%, ROE 25.8%; market cap ₹2,315cr; 52-w
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** No tracked series applies; railway capex and Kavach orders drive it.
+**Read (23-Oct-2026, mine, not management's):** No tracked series applies; railway capex and Kavach orders drive it.
 
 **How cost moves reach profit:** No tracked price or macro series drives this business directly. The driver is railway capex and Kavach orders.
 
@@ -76,7 +82,7 @@ Screener P/E 54.6x (was 70x), ROCE 30.6%, ROE 25.8%; market cap ₹2,315cr; 52-w
 
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>

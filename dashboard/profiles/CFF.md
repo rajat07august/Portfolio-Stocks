@@ -4,11 +4,17 @@
 **Thesis current as of: 18-Sep-2026 · Tracking since: 18-Sep-2026**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 968** · market cap ₹ 2,030 Cr. · P/E 51.8x · ROCE 23.5 % · ROE 19.0 % · 52-wk ₹ 1,148 / 445 · **vs ₹1,094 at baseline (-11.5%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 975** · market cap ₹ 2,045 Cr. · P/E 52.2x · ROCE 23.5 % · ROE 19.0 % · 52-wk ₹ 1,148 / 445 · **vs ₹1,094 at baseline (-10.9%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 18-Sep-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: Two trading-window closures only · (earlier: No filings since the profile was written))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Sep-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ No filings in the window (verified) · (earlier: Two trading-window closures only · (earlier: No filings since the profile was written)))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
+**No filings at all in the window on BSE (via Chrome)** — a verified negative, not an absence of searching (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: BSE announcements (via Chrome — BSE's JSON API is still Akamai-blocked from curl, re-tested 23-Oct), 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **⚪ 6 → 21-Oct-2026 — Verified quiet — no filings**
 **No filings at all in the window on BSE (via Chrome)** — a verified negative, not an absence of searching (§0A rule 6).
@@ -54,10 +60,10 @@ Swept **BSE** (543920 — CFF is not NSE-listed): zero announcements.
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** Its foreign-currency exposure is unhedged (profile), but the direction is not disclosed; the rupee is 1.5% stronger over three months.
+**Read (23-Oct-2026, mine, not management's):** Its foreign-currency exposure is unhedged (profile), but the direction is not disclosed; the rupee is 2.0% stronger over three months.
 
 **How cost moves reach profit:** 'The foreign currency exposure of the company is not hedged' (profile); the direction is not disclosed.
 
@@ -65,14 +71,14 @@ Swept **BSE** (543920 — CFF is not NSE-listed): zero announcements.
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (95.037 ₹ per $) | Proxy / context | -0.8% | -1.5% | +7.0% | -1.9% | ⚪ context | Yahoo Finance · 15-Oct-2026 |
+| USD/INR (94.93 ₹ per $) | Proxy / context | -0.8% | -2.0% | +8.2% | -2.0% | ⚪ context | Yahoo Finance · 23-Oct-2026 |
 
 **Why each factor is here:**
 
 - **USD/INR**: Unhedged foreign-currency exposure (profile).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>

@@ -8,11 +8,17 @@
 > **Structural note that governs how this profile should be read: CARE holds ONE earnings call a year, after Q4 only.** Its transcript filings run May-2026, May-2025, May-2024 — nothing in between. There is no Q1FY27 concall and there never will be. Three transcripts is therefore **the complete available universe, not a fetch gap** — but it is also the thinnest investor-communication cadence of any high-conviction name in this library, and that is a choice rather than a constraint. This profile is grounded in the **full Q4FY26 annual call (14-May-2026, 87,518 chars)**, the **Q1FY27 investor deck + press release (7-Aug-2026)**, the **audited FY26 results filing (13-May-2026)**, and **17 NSE/BSE filings read individually**.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 21-Oct-2026 close (Screener):** CMP **₹ 1,593** · market cap ₹ 4,795 Cr. · P/E 27.0x · ROCE 26.3 % · ROE 19.7 % · 52-wk ₹ 1,838 / 1,393 · **vs ₹1,687 at baseline (-5.6%)**
+**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 1,586** · market cap ₹ 4,786 Cr. · P/E 26.9x · ROCE 26.3 % · ROE 19.7 % · 52-wk ₹ 1,838 / 1,393 · **vs ₹1,687 at baseline (-6.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 21-Oct-2026</span> <span class="upd-sum">🆕 🟢 SBI and NSEIX each to take 9.9% of CareEdge Global IFSC; CARE keeps 80.2% · (earlier: Routine ESOP allotment and meet schedule · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No material company event: investor-meet schedule and ESOP allotments only; stock −1%)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 SBI and NSEIX each to take 9.9% of CareEdge Global IFSC; CARE keeps 80.2% · (earlier: Routine ESOP allotment and meet schedule · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No material company event: investor-meet schedule and ESOP allotments only; stock −1%))))</span></summary>
 <div class="upd-body">
+
+**⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
+**No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
 **🟢 6 → 21-Oct-2026 — SPAs signed to sell 9.9% each of the IFSC subsidiary to SBI and NSEIX**
 **CARE executed share purchase agreements and a shareholders' agreement (19-Oct) with State Bank of India and NSE IFSC Ltd for 9.90% each of CareEdge Global IFSC Ltd**; CARE will hold **80.20%**, with closing expected within two months. Board meets **29-Oct** for Q2.
@@ -52,10 +58,10 @@ Screener P/E 28.3x, ROCE 26.3%, ROE 19.7%; 52-week range ₹1,393–1,838.
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 15-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (15-Oct-2026, mine, not management's):** Credit to large industry is growing 16.6% YoY (August), a supportive backdrop for rating volumes, though the profile tracks bond issuance, which fell 29%.
+**Read (23-Oct-2026, mine, not management's):** Credit to large industry is growing 16.6% YoY (August), a supportive backdrop for rating volumes, though the profile tracks bond issuance, which fell 29%.
 
 **How cost moves reach profit:** No commodity inputs.
 
@@ -69,7 +75,7 @@ Screener P/E 28.3x, ROCE 26.3%, ROE 19.7%; 52-week range ₹1,393–1,838.
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 15-Oct-2026 15:02 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
 
 </div>
 </details>
