@@ -159,6 +159,7 @@ ul.tight{margin:8px 0 0;padding-left:19px}ul.tight li{margin-bottom:6px;font-siz
 .cnt{color:var(--mut);font-size:12.4px;margin:8px 0 0}
 code{background:#eef1f5;padding:1px 5px;border-radius:3px;font-size:12.5px}
 @media(max-width:640px){h1{font-size:22px}.chg{grid-template-columns:1fr}}
+th.sk{cursor:pointer;user-select:none}th.sk:hover{background:#dde7f1}th.sk .ar{margin-left:3px}
 </style>
 
 </head>
@@ -269,8 +270,8 @@ code{background:#eef1f5;padding:1px 5px;border-radius:3px;font-size:12.5px}
 </div>
 <div class="card" style="padding:0;overflow:hidden"><div class="scroll" style="max-height:660px;overflow-y:auto">
 <table><thead><tr>
-<th>Company</th><th>Stage</th><th>Verdict</th><th class="num">Price</th><th class="num">30w MA</th>
-<th class="num">Slope</th><th class="num">Ext</th><th class="num">Supply</th><th class="num">RS vs Nifty</th><th class="num">Vol&times;</th><th class="num">Stop</th><th class="num">Risk</th>
+<th class="sk" data-k="name" title="Click to sort">Company<span class="ar"></span></th><th class="sk" data-k="stage" title="Click to sort">Stage<span class="ar"></span></th><th class="sk" data-k="verdict" title="Click to sort">Verdict<span class="ar"></span></th><th class="sk num" data-k="close" title="Click to sort">Price<span class="ar"></span></th><th class="sk num" data-k="ma" title="Click to sort">30w MA<span class="ar"></span></th>
+<th class="sk num" data-k="slope" title="Click to sort">Slope<span class="ar"></span></th><th class="sk num" data-k="ext" title="Click to sort">Ext<span class="ar"></span></th><th class="sk num" data-k="supply" title="Click to sort">Supply<span class="ar"></span></th><th class="sk num" data-k="rs" title="Click to sort">RS vs Nifty<span class="ar"></span></th><th class="sk num" data-k="vol" title="Click to sort">Vol&times;<span class="ar"></span></th><th class="sk num" data-k="stop" title="Click to sort">Stop<span class="ar"></span></th><th class="sk num" data-k="risk" title="Click to sort">Risk<span class="ar"></span></th>
 </tr></thead><tbody id="tb"></tbody></table></div></div>
 <p class="cnt" id="count"></p>
 
@@ -695,6 +696,36 @@ document.getElementById('rules').innerHTML=RULES.map(r=>
 // ── table
 const SUPT={virgin:'A+ — never traded above this price in ten years',clear:'nothing above this price in the last two years',light:'little overhead supply',moderate:'some overhead supply',heavy:'a real zone of trapped supply overhead'};
 let F='all',Q='';
+// 🆕 23-Oct-2026: click a column header to sort (tools/patch_sort_headers.py).
+// 1st click = natural order, 2nd = reverse, 3rd = back to the default (verdict, then slope). Blanks always last.
+let SK=null,SD=1;
+const STGR={S1:1,S2:2,S3:3,S4:4,TRANS:5};
+const SORTK={
+ name:r=>r.name.toLowerCase(),
+ stage:r=>r.stage==null?null:(STGR[r.stage]??9)*10+(/early/i.test(r.sub||'')?0:/late/i.test(r.sub||'')?2:1),
+ verdict:r=>ordv[r.verdict]??99,
+ close:r=>r.close, ma:r=>r.ma, slope:r=>r.slope10, ext:r=>r.ext,
+ supply:r=>r.res?(r.res.tier==='virgin'?0:r.res.pct_above_2y):null,
+ rs:r=>r.rs_mansfield, vol:r=>r.vol_max12, stop:r=>r.stop,
+ risk:r=>(r.risk==null||r.risk<=0)?null:r.risk};  // "broken" (stop above price) is not a small risk: it sorts with the blanks, last
+const SKASC={name:1,stage:1,verdict:1,supply:1,risk:1};
+function sortRows(rs){
+ if(!SK) return rs;
+ const g=SORTK[SK];
+ return rs.sort((a,b)=>{const x=g(a),y=g(b);
+  if(x==null&&y==null) return 0; if(x==null) return 1; if(y==null) return -1;
+  return (typeof x==='string'?x.localeCompare(y):x-y)*SD;});
+}
+function sortMarks(){
+ document.querySelectorAll('th.sk').forEach(th=>{const on=th.dataset.k===SK;
+  th.classList.toggle('on',on); th.querySelector('.ar').textContent=on?(SD===1?'▲':'▼'):'';
+  th.setAttribute('aria-sort',on?(SD===1?'ascending':'descending'):'none');});
+}
+document.querySelectorAll('th.sk').forEach(th=>th.addEventListener('click',()=>{
+ const k=th.dataset.k, nat=SKASC[k]?1:-1;
+ if(SK!==k){SK=k;SD=nat;} else if(SD===nat){SD=-nat;} else {SK=null;}
+ sortMarks(); draw();
+}));
 function draw(){
  const rs=rows.filter(r=>{
   const mf=F==='all'||(F==='held'?r.held:F==='chart'?r.chart:
@@ -703,6 +734,7 @@ function draw(){
     F==='resheavy'?(r.res&&r.res.tier==='heavy'):
     F==='triple'?!!(r.triple&&r.triple.all3):r.verdict===F);
   return mf&&(!Q||(r.name+' '+r.t).toLowerCase().includes(Q));});
+ sortRows(rs);
  document.getElementById('tb').innerHTML=rs.map(r=>{
   const rsv=r.rs_mansfield, rsCol=rsv==null?'#aaa':rsv>0?'#1a7f4b':'#b3261e';
   return `<tr class="row" data-t="${r.t}">
