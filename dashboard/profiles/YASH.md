@@ -21,12 +21,12 @@
 **📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 1,164** · market cap ₹ 3,480 Cr. · P/E 56.5x · ROCE 28.6 % · ROE 23.5 % · 52-wk ₹ 1,310 / 366 · **vs ₹900 at baseline (+29.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ H1 call recording posted; transcribe-or-wait asked · (earlier: 🟢 H1FY27: revenue +95%, PAT +166%, ex-OI EBITDA margin 27.5%; order book ₹760cr+ (FY27 target ₹500cr+ already passed); CFO ₹45cr vs ₹9cr in all FY26 — but carried by liabilities, not collections · (earlier: 🟢🟢 Commercial production COMMENCED at the new Savli bushing plant, and the US subsidiary signed a 3-year sales-representation agreement for the Mid-west; FY26 AR now read — CMD remuneration +107% to ₹289.34 lakh, and the Rule 5 comparison with employee increases is left BLANK · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: US subsidiary signs a 36-month sales-representation and utility-approvals agreement covering 19 states (no order, no value); stock +17.7% to ₹1,059 at 81x))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 🟡 H1 call machine-transcribed: receivable days flat (47), vendor advances explain other current assets, +₹37cr liabilities unexplained; ₹220cr greenfield, depreciation 2.5–3x in H2, no margin commitment · (earlier: 🟢 H1FY27: revenue +95%, PAT +166%, ex-OI EBITDA margin 27.5%; order book ₹760cr+ (FY27 target ₹500cr+ already passed); CFO ₹45cr vs ₹9cr in all FY26 — but carried by liabilities, not collections · (earlier: 🟢🟢 Commercial production COMMENCED at the new Savli bushing plant, and the US subsidiary signed a 3-year sales-representation agreement for the Mid-west; FY26 AR now read — CMD remuneration +107% to ₹289.34 lakh, and the Rule 5 comparison with employee increases is left BLANK · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: US subsidiary signs a 36-month sales-representation and utility-approvals agreement covering 19 states (no order, no value); stock +17.7% to ₹1,059 at 81x))))</span></summary>
 <div class="upd-body">
 
-**⚪ 21 → 23-Oct-2026 — Earnings-call recording posted**
+**🟡 21 → 23-Oct-2026 — H1FY27 call recording posted, and machine-transcribed on Rajat's instruction**
 The recording of the **21-Oct H1FY27 earnings call** was posted (BSE, 21-Oct late evening). All other 21-Oct filings — results, deck, press release, ESOP allotment and the two deviation statements — were already incorporated in the 21-Oct refresh.
-> **Why it matters:** The call is the place to test the cash-flow question (CFO carried by liabilities, not collections). **Not transcribed**: YASH is not a holding, so per §4A the choice is Rajat's each quarter (question asked).
+> **Why it matters:** The call is the place to test the cash-flow question (CFO carried by liabilities, not collections). ⤴ *First written as "not transcribed — question asked"; Rajat said transcribe (23-Oct), so it was.* **No official transcript exists yet** — checked on BSE, the company's investor page (recording listed, transcript not), Screener (transcript slot unlinked) and X (third-party summaries only); SEBI's five-working-day window runs to ~28-Oct. **The machine-transcript read is in §4, *"H1FY27 call — machine transcript"*: the cash question is partly answered (receivable days flat at 47; the ₹29cr rise in other current assets is vendor advances for imported cores), but the +₹37cr in other current liabilities was neither asked about nor explained.**
 
 *Sweep: BSE announcements (via Chrome — BSE's JSON API is still Akamai-blocked from curl, re-tested 23-Oct), 21 → 23-Oct-2026; market data Screener 23-Oct-2026 close. Facts are from the filings named; anything marked as inference is mine.*
 
@@ -284,6 +284,32 @@ They look like ribbed ceramic cones on top of a substation transformer. **They a
 ## 4. Numbers Decoded
 
 > **⚠️ Basis note: YASH reports HALF-YEARLY.** There is no quarterly series. All periods below are **six-month or full-year**, and the most recent print is **FY26 (year to 31-Mar-2026)**, discussed on the **14-May-2026** call. **The next print is H1FY27, around Nov-2026.**
+
+### 🎧 H1FY27 call — machine transcript (21-Oct call, transcribed 23-Oct-2026)
+
+*Source: `Fetched Concalls/YASH/YASH_Transcript_H1FY27_2026-10-21_MACHINE.txt` — mlx-whisper on the company's own recording (BSE filing 21-Oct). **No speaker labels; every figure carries ASR risk.** Cross-checked against the results/deck where possible and against an independent third-party summary posted on X (@2orderequity, 22-Oct), which agrees on every guidance figure below. Re-verify against the official transcript when filed (none yet, 23-Oct).*
+
+| Topic | What management said | Check |
+|---|---|---|
+| **Receivables** | Collection days *"47 days in H1 of last year… 47 days even in H1 of this year. Last year full year number was 45 days"* — the absolute rise is *"in line with… the increase in the revenue"* | Consistent with the filed ₹39.2cr rise on doubled revenue. An analyst put it at 66 days; management disputed it |
+| **Other current assets ₹11cr → ₹40cr** | *"advanced to the vendors"* — paid to *"secure the slots"* with international core suppliers | Matches the +₹29.5cr in the filed cash flow |
+| **Other current liabilities (+₹37.1cr)** | **Not asked, not explained** | 🔴 Still the open part of the cash question |
+| Cash conversion cycle | 63 days at 30-Sep vs 81 days for FY26 | Management figure |
+| Net cash | ~₹95cr at 30-Sep | The filing shows cash + bank **₹95.7cr** and borrowings ₹10.3cr, so net cash is **~₹85cr**; management's ₹95cr is the gross figure *(my reading)* |
+| **Greenfield capex** | Total **₹220cr**, **₹106cr** spent to 30-Sep, balance over 12 months; no material capex beyond it for the ₹900–1,000cr revenue potential | 🆕 Not in the filings read on 21-Oct |
+| **Depreciation** | Plant capitalised mostly in September; H2 depreciation **2.5–3x** last year's; aim to *"maintain the PAT margin"* (FY26 ~16.5%) | 🆕 |
+| **Margin** | No commitment to 32–35%: *"I would not want to make any tall commitments"*; import duty + freight ~**18–20%** of the imported-core cost goes away with localisation, but how much is passed to customers depends on competition | 🆕 |
+| **Volume vs value** | Bushing volume **~+40%** against revenue +95%; RIP **86% of value**; *"more number of higher voltage bushings are going"* | ⚠️ Two unit counts on the call do not reconcile: *"2950 in H1 27"* and *"close to 1500 OIP and close to 2200 RIP"* (3,700). Treat unit numbers as unverified |
+| Gross margin | Management: **48.3%** (H1FY26 42.4%) | My figure from the filed P&L is 52.0% (materials incl. stock change); management's basis evidently includes other direct costs — basis not stated |
+| **Localised RIP** | Type test *"in next couple of weeks"*; plant and product approvals in Q3; **commercial production up to 245 kV in Q4FY27**; 420/550 kV *"Q4 of 28 or mid 28 max"* | 🆕 dates |
+| Capacity | Halol ~90% utilised, three shifts; brownfield completes in Q3, adds capacity in Q4 | |
+| Order book | ₹760cr, 15–18 (*"maybe 18 to 20"*) months; exports ~5–7% (₹40–50cr) | Order book matches the deck |
+| H2 vs H1 | H2 expected roughly in line with H1, unlike the usual H2 skew | 🆕 |
+| US | Representation footprint *"close to 27 states"*; agents in ~30 countries | ⚠️ The deck/press release said 22 states; the call and the X summary both say ~27 |
+| Long term | Units 1 + 2 ~**₹900–1,000cr** revenue at full use **by FY31**; global share ~1–1.2% → **5% in 4–5 years** | 🆕 |
+| Competition | *"a couple of bushing companies… have announced"* investments, besides Hitachi/CG captive | 🆕 named risk |
+
+**My read:** the receivables half of the cash question is answered and benign; the liabilities half is not. **The two numbers that matter for the bull case — the margin gain from localisation and the 420/550 kV date — were deliberately left uncommitted.** **Conviction unchanged: HELD at HIGH (Under Watch — valuation and cash conversion).** *The promoter-holding gap (53.79% vs 54.79% expected) was not raised on the call.*
 
 ### 📊 H1FY27 Refresh — Full Numbers Print (21-Oct-2026)
 
