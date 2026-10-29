@@ -1,6 +1,6 @@
 # Company Profiles — Master Index
 
-66 stocks · organised by sector (alphabetical) · each follows the 8-section framework.
+67 stocks · organised by sector (alphabetical) · each follows the 8-section framework.
 
 **Structure per profile:**
 1. Business in Plain English
@@ -88,7 +88,8 @@ Status legend: `⏳ pending` · `🔨 in progress` · `✅ complete`
 - ✅ [Haldyn Glass](./HALDYN.md) *(2-Sep-2026 — v2 full rewrite; no earnings calls exist)*
 - ✅ [Mayur Uniquoters](./MAYUR.md) *(tracking since 3-Jul-2026 · **thesis current 21-Aug-2026** · 🆕 **new format** — **HIGH**. Management under-claimed a 31% windfall quarter, named it as forex, was vindicated when it reverted — then **endorsed 22% as the FLOOR** in a quarter with high RM, 4x freight and no export price hike. **First multi-year guidance: 10-12% for three years**, backed by an ordered line worth ~₹150cr/yr. **15.8x on 24.5% ROCE, 86% cash conversion, promoter buying.** 🔴 But **42.5% of revenue is dollar-priced US exports** and the plant that would answer the tariff risk is **still undecided after ~2 years (₹250cr if committed)** — and the 51-year founder-CMD is *"having a little difficulty in talking on con-call"*)*
 
-### 12. Pharma & Excipients (5) ✅ Complete
+### 12. Pharma & Excipients (6) ✅ Complete
+- ✅ [Syncom Formulations (India)](./SYNCOMF.md) *(tracking since 29-Oct-2026 · **thesis current 29-Oct-2026** · 🆕 **new addition** — **MEDIUM-LOW**, weighted ≈ −4% / 2yr. 🔴 **Data-limited: the company holds no earnings calls.** A generic formulator that is really an exporter (83% of sales, markets never named); sales flat nine years, then +79% in FY25; OPM 12% → 16% → 21% (Q1FY27) on a gross-margin jump no filing explains. ~54% of net worth is treasury and investment property (incl. a ₹57cr Mumbai floor). 🔴 **The 2026 CFO pay resolution would have failed without promoter-group votes the notice excluded.**)*
 - ✅ [Anthem Biosciences](./ANTHEM.md) *(tracking since 3-Sep-2026 · **thesis current 3-Sep-2026** · 🆕 **new addition** — **MEDIUM-LOW**. CRDMO; gate GREEN on 11 primary docs — every call since the 21-Jul-2025 listing. 🟢 **The best returns profile in the listed Indian CRDMO set: FY26 post-tax ROCE 30.8%, ROE 21.7%, CFO at 126% of operating profit, net cash ₹1,720cr, zero promoter pledge, ICRA upgraded to AA (Stable)/A1+, and the IPO was 100% OFS so none of the cash was raised.** 🔴 **But three customers are 56.71% of revenue, Q1FY27 revenue fell 22.6% YoY, and TTM revenue is now BELOW the FY26 full year — 89x sits on trailing earnings that are shrinking.** 🔴 Guided ~20% FY26 revenue, delivered 15.2%, then declined to guide FY27 at all. 🔴 Promoter holding 74.68% → 71.42% — **cause FOUND and reconciled** (Aruna Ganesh's full 3.05% exit, Reg 29(2), **on the BSE feed only**), though the "Open Market" mode does not reconcile with NSE volume. 🔴 The Upside Sharing Arrangement paid ~₹127.68cr to the three founders out of Viridity Tone's exit — **21.67% of INSTITUTIONAL votes against, vs ≤4.8% on every other resolution**. Weighted 2yr ≈ −7.7%; interesting again at ₹680-720)*
 - ✅ [Morepen Laboratories](./MOREPENLAB.md) *(thesis current 1-Sep-2026 · 🆕 **new addition** — **Medium (Under Watch)**; best quarter ever on an ₹825cr CDMO mandate, but no earnings call in 15 months)*
 - ✅ [Accent Microcell](./ACCENT.md) *(3-Jul-2026; full rewrite 15-Oct-2026 — 🆕 new format)*
