@@ -242,6 +242,10 @@ Two, both tiny, both disclosed:
 | 60-acre government land for 10,000-machine capacity | Guided since ~FY25; token amount already paid | **Still not received.** Delayed by Gujarat local elections, then a policy revision, then "three to four months" (May-2026), then "15 days or a month" (Jul-2026) | 🔴 **~2 years late and still open** |
 | 13-acre land secured | Q4FY26 call, 28-May-2026 — *"final stage"* | **Registered 30-year lease announced 21-Jul-2026** under Reg 30 | ✅ **MET, and fast** |
 | FY27 revenue growth 28-30% | Q4FY26 call, 28-May-2026 | **RAISED to "30-plus" on the Q1FY27 call.** Q1 delivered +56.1% | 🕐 **Tracking ahead** |
+| *(4-Nov)* FY27 growth "30-plus" | Q1FY27 call (raised) | **H1 revenue ₹215.56cr, +46.9%** — yet on the Q2 call: *"FY27 and FY28, I think we will continue our growth journey like 25% to 30%"* and *"the guidance for the entire year is nearly 30%"* | 🟡 **Beat, then softened** |
+| *(4-Nov)* 13-acre plant mid-2027 | Jul-2026 | **Construction started; *"expected to come into operation by end of quarter 2 2027-2028"*** — 25% capital and 7% interest subsidy | 🟡 **Slipping toward the edge** |
+| *(4-Nov)* Order book | standing | **₹476cr pending at Q2, +36% YoY** (₹350cr Nov-25) | ✅ |
+| *(4-Nov)* Machines | FY27 | *"easily able to deliver 2,300 to 2,400 machines in this financial year"*; average order-book value ₹20.55 lakh/machine | 🕐 |
 
 > **🔴 The margin guidance walk-down deserves its own line, because an analyst had to force it into the open.** On the Q4FY26 call Piyush Jain put it directly: *"In our current PPT we are showing 3x to 4x revenue potential and even after that operating leverage will EBITDA is 18%... in past what we have thought of backward integration with margin of 22% to 25% and now our guidance is around 18% only?"* The answer moved the 25% target onto land the company does not yet own. **The 25% number is not a forecast; it is a conditional tied to an asset that is two years late.**
 
@@ -409,8 +413,11 @@ The threads reinforce each other, and one of them is load-bearing.
 | Date | Conviction | Rationale |
 |---|---|---|
 | **11-Sep-2026** | **MEDIUM** *(initiation)* | 30%+ growth on real volume, 29% ROCE, zero debt, twenty quarters of unbroken promoter accumulation and the cheapest multiple in a credible peer set — against a hard FY25 delivery miss, a margin target walked down twice, an FY28 capacity plan resting on government land two years late, and three call figures that do not reconcile to the audited accounts |
+| **4-Nov-2026** | **HELD at MEDIUM** | Record Q2 (revenue +40%, PAT +44%), order book ₹476cr — but guidance walked back to *"nearly 30%"*, the plant dated to end-Q2FY28 (the 'Down' line is *"slippage past Q2FY28"*), margin 16.6% (below the 17% 'Up' bar). **₹2,204, +20% since initiation.** |
 
 ### Material developments at initiation — the last twelve months
+
+**🆕 0. Q2FY27 — record quarter, softer words (results 26-Oct; call 27-Oct, transcript filed 30-Oct and read).** Revenue **₹120.33cr (+40%)**, EBITDA **₹19.94cr (+40.8%, ~16.6%)**, PAT **₹13.47cr (+43.7%)**; H1 revenue ₹215.56cr (+46.9%), H1 EPS ₹23.05 (+65.5%). Order book ₹476cr. **Guidance language moved from "30-plus" back to "nearly 30%" / "25–30%" despite the beat.** 13-acre plant now dated end-Q2FY28. **Reg 10(5) intimation: 13.38% to move from Riyaben Mehta to Reyan Mehta (on or after 5-Nov; a second mother-to-son transfer after August's 4.75%).**
 
 **1. Order book inflected after four flat quarters (Feb-2026 onward).** ₹331cr (Jun-25) → ₹350cr (Nov-25) → **₹375cr → ₹406cr → ₹456cr**. Q1FY27 book-to-bill ~1.5x.
 > *Why it matters:* this is the leading indicator, it turned two quarters before the revenue did, and it is the reason the FY27 guidance was raised rather than defended.
@@ -499,9 +506,21 @@ The threads reinforce each other, and one of them is load-bearing.
 
 ---
 
+### 📊 4-Nov-2026 — Q2FY27 scored
+
+**Where it trades (Screener, 4-Nov-2026):** CMP **₹2,204** · market cap ₹2,205cr · **+19.6% since the 11-Sep initiation (₹1,843).** *Screener's quarterly table for this name did not parse cleanly in this pass; figures above are from the company's results and call.*
+
+**Re-rate signals:** **Up** — two quarters of 30%+ volume growth with margin above 17% — ❌ *growth yes, margin 16.6%* · 13-acre on time — 🟡 · 60-acre granted — ❌ (*"we will not start this 60 acres development"* until 13 acres is built) · tech JV — ❌ · defence conversion — ❌ · institutions >3% — ❌. **Down** — order book flat two quarters — ❌ (+36%) · **13-acre slippage past Q2FY28 — 🟡 now dated exactly Q2FY28** · FG inventory >₹15cr — *not disclosed on the call* · margin <15% — ❌ · FY27 30%+ missed — *at risk only in management's words, not in the H1 numbers*.
+
+**Re-priced on the unchanged 11-Sep cases (from ₹2,205cr):** base ₹2,331cr → **+6%** · bull ₹4,000cr → **+81%** · bear ₹924cr → **−58%**. **Weighted ≈ +12%** *(0.55 × 6 + 0.25 × 81 − 0.20 × 58)*, against +34% at initiation. ***The business did better than the base case in H1; the price moved more.***
+
+**Conviction: HELD at MEDIUM.** *Next test: whether the plant date holds, and whether H2 margin reaches 17%.*
+
 ## 7. What Could Prove Us Wrong
 
 **1. 🔴 The FY28 capacity cliff.** The existing plant is good for ~₹500cr on management's own arithmetic and FY27 guidance takes it to ~₹450cr. **There is no room for FY28 without the new plant.** The company's record on delivering land-based capacity on time is the 60-acre plan: ~two years late, four separate timetables, still pending.
+
+> ⚠️ **SHARPENED (27-Oct-2026):** 2,300–2,400 machines this year against ~2,500 capacity; the new plant is now dated end-Q2FY28. ValuePickr holders put the ceiling at ~₹500–525cr of revenue.
 
 **2. 🔴 Capital goods is a cycle, and this customer base is its most fragile segment.** Tier-3 and tier-4 job shops buying ₹20 lakh machines on sub-₹1cr bank loans with subsidy support are the first to stop. The FY25 revenue print — **+8.7% in a year guided at 20-25%** — is what that looks like. It happened twenty-four months ago.
 
@@ -510,6 +529,8 @@ The threads reinforce each other, and one of them is load-bearing.
 **4. 🔴 The gap between what is said on calls and what is filed.** Receivables understated by ₹12cr and a year, cash overstated by roughly 3-4x, market share doubled. **If an investor cannot rely on spoken figures, the only usable data arrives twice a year with the audited accounts — and Macpower publishes no quarterly balance sheet.**
 
 **5. 🔴 The margin thesis rests on assets that do not exist.** 25% was conditional on the 60-acre land; 20-21% is conditional on the 13-acre plant's backward-integration machinery. Today's 16.2% is a volume-leverage number. If volume stalls, margin goes backwards fast — Q1FY26 at 12.98% shows exactly how fast.
+
+> ⚠️ **UNCHANGED (Q2FY27):** margin ~16.6%; the 60-acre site will not be developed until the 13 acres is built.
 
 **6. 🟡 Single-source import dependency.** Ball screws and LM guideways come from **one company in Taiwan**. Mitigated by a year of inventory — which is itself the reason inventory days are 259. A tariff, an export control, or a Taiwan Strait event converts a working-capital choice into an existential one.
 
@@ -538,6 +559,8 @@ The threads reinforce each other, and one of them is load-bearing.
 ---
 
 ## 9. 📢 Community Pulse
+
+**⤴ 4-Nov-2026 — ValuePickr topic 68440 (165 posts, last 28-Oct-2026):** #163 (DarshanG, 27-Oct): *"we can see FY27 revenue of ~450 Cr… peak revenue of 500-525 Cr"* at current capacity — 🟡 · #164 (Ruchit_Shah): the Nexa mix shift lifts realisations and margins — 🟢 · #165 (Nitin_Nimkar, 28-Oct): *"some doubts about the statements regarding 13 acres, 30 acres, and 60 acres"* — 🔴. **Sentiment: 🟡 MIXED — growth accepted, capacity and land statements doubted.**
 
 **Coverage is thin, and that is itself a finding.**
 
@@ -570,6 +593,8 @@ No sell-side coverage identified. **Institutional ownership is 0.96% and falling
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (4-Nov-2026 refresh):** results 26-Oct, deck 27-Oct; **official transcript of the 27-Oct call (filed 30-Oct), read**; Reg 10(5) intimation 29-Oct (scan, rendered); ValuePickr topic 68440 #163–165.
 
 - **Concalls read (9 transcripts — GREEN gate, above the 6-call standard):** **Q1FY27 (30-Jul-2026, read in full, primary)** · **Q4FY26 (28-May-2026, read in full)** · Q3FY26 (11-Feb-2026) · Q2FY26 (14-Nov-2025) · Q1FY26 (7-Aug-2025) · Q4FY25 (2-Jun-2025) · Q3FY25 (20-Feb-2025) · Q2FY25 (14-Nov-2024) · Q1FY25 (14-Aug-2024). All downloaded from `nsearchives.nseindia.com`, verified `%PDF`, extracted with `pdftotext -layout`. Stored in `Fetched Concalls/MACPOWER/`.
 - **Investor presentations (6):** Q1FY27, Q4FY26, Q3FY26, Q2FY26, Q1FY26, Q4FY25. *Per §4A rule B, no figure in this profile is taken from a deck chart.*

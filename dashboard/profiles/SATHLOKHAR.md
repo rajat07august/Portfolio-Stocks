@@ -242,6 +242,11 @@ When a pharma company wants a new factory, a warehouse operator needs a distribu
 | **First large government win under Class 1A** | — | **None announced** | 🕐 **Nothing yet** |
 | **Positive operating cash flow** | *never guided* | **FY26 −₹163cr, FY25 −₹96cr** | 🔴 |
 | **The unbilled-revenue balance at 30-Jun-2026** | asked on the call | **Deferred to email** | 🔴 **Not answered** |
+| *(4-Nov)* FY27 revenue ~+70% over FY26 (≈₹1,394cr) | Q4FY26 | **Reaffirmed on the Q2 call.** H1 ₹502cr (release and Screener; the call said ₹509cr) = 36% of it; H2 needs ~₹892cr against **₹738cr left to execute in the assigned book plus ~₹150cr of add-on packages expected** (call) | 🕐 **Possible only with no slack** |
+| *(4-Nov)* PEB facility | Q1FY27 | **Inaugurated in Q2** — 165,000 sq ft, ~1,200 MT/month design capacity; commercial ramp ahead | ✅ **Delivered** |
+| *(4-Nov)* Order inflow | FY27 | **H1 inflow ₹624.7cr** (Q2 ₹352.7cr); order book ₹1,139cr at 30-Sep; bid pipeline ₹23,505cr | ✅ |
+| *(4-Nov)* Cash conversion | repeated | **H1 operating cash flow −₹102.1cr** on PBT ₹67.7cr; *"other current assets"* +₹117cr; management blames 3–4 weeks of bill certification by clients' PMCs | 🔴 **Not improving** |
+| *(4-Nov)* Equity raise | Q2 call | *"At this juncture, we do not have such plans"* — NCDs and bank lines considered instead | 🕐 |
 
 **Verdict on management:** *Operationally exceptional and, on most axes, unusually open for an NSE-SME name — explicit written revenue guidance, a named order book updated within weeks, prompt and detailed disclosure of a personal legal matter that reflected badly on the promoter, and a call that drew substantive institutional questioning.* **Two things stand against that.** *The single most important working-capital number in the company — the current unbilled-revenue balance — was asked for on the call and deferred to email, from an airport. And the concentration of all four senior roles in one person now has a live legal proceeding attached to it. **Back the operator; watch the cash and the courtroom.***
 
@@ -365,6 +370,25 @@ Thiyagu: *"The improvement of profitability was supported by better operating ef
 
 ---
 
+### 📊 Q2FY27 Refresh — Full Numbers Print (4-Nov-2026)
+
+*Sources: results, press release and deck (30-Oct-2026; the cash-flow page rendered and read); official transcript of the Q2 call (filed 2-Nov, read; `Fetched Concalls/SATHLOKHAR/SATHLOKHAR_Transcript_2026-10.pdf`); monitoring-agency report and Reg 32 statement (30-Oct); Screener (standalone).*
+
+| ₹cr | Q2FY27 | Q2FY26 | YoY | H1FY27 | H1FY26 | YoY |
+|---|---|---|---|---|---|---|
+| Revenue from operations | **297** | 148 | **+100%** | 502 | 271 | +85% |
+| EBITDA | **44** | 19 | +137% | 74 | 32 | +131% |
+| EBITDA margin | **14.9%** | 12.6% | +229 bps | 14.8% | 11.8% | +302 bps |
+| PAT | **29** | 14 | +111% | 51 | 23 | +120% |
+
+**H1 cash flow (rendered):** operating profit before working capital ₹74.5cr → change in other current assets **−₹117.2cr**, receivables −₹20.3cr, other current liabilities −₹50.8cr, inventories +₹13.2cr → cash from operations −₹85.4cr, tax −₹16.7cr → **net operating cash flow −₹102.1cr** (FY26: −₹163.0cr). Financing +₹164.5cr (short-term bank borrowing +₹113.8cr, long-term +₹30.6cr).
+
+**IPO proceeds (Reg 32 / CARE):** working capital tranche fully used; ₹19.4cr of the ₹23.4cr land allocation still unutilised (in FDs).
+
+**Five quarters (Screener):** sales 148 / 272 / 277 / 205 / **297**; OPM 13% / 15% / 15% / 15% / **15%**; PAT 14 / 29 / 30 / 21 / **29**.
+
+> **Read:** **the P&L is doing everything promised; the cash flow is doing none of it.** Profit doubled, margin held at 15%, and each rupee of growth was funded by borrowing because the unbilled balance keeps rising. *Management's explanation — client PMCs take 3–4 weeks to certify bills — describes a delay, not a reason the balance should grow every half.*
+
 ## 5. Connecting the Dots
 
 **Six threads, and they are genuinely connected rather than listed:**
@@ -391,6 +415,7 @@ Thiyagu: *"The improvement of profitability was supported by better operating ef
 | 10-Jul-2026 | **High** | — | ~80-120% | Upgraded on *"PEB inauguration + Class 1A PWD + 8✅/3🕐 scorecard"*; concluded *"One-person management is the singular caveat; upside far exceeds risk"* |
 | **13-Aug-2026** | **High → Medium-High** | **₹313** | **~+68.5%** *(base +58% / bull +227% / bear −48%)* | **Every operational item in the upgrade was delivered or is on schedule. But the ~80-120% rested on a 30-35x exit multiple no EPC peer commands, and "the singular caveat" now has an NCLT insolvency order attached — disclosed 13-Jun-2026, three weeks before initiation, and missed** |
 | **19-Sep-2026** *(filings refresh)* | **HELD at Medium-High** | **₹413** | **~+28% at the new price** *(scaled from +68.5% at ₹313)* | **PEB plant inaugurated on schedule (30-Aug); confirmed FY27 orders ₹1,139cr (81% of the ~₹1,399cr guide); ₹22,654cr bid pipeline; 70% guidance reaffirmed in writing; Godrej ₹44cr order. Stock +32%.** |
+| **4-Nov-2026** *(Q2FY27 + call)* | **HELD at Medium-High** | **₹348** | **~+51%** *(re-priced)* | Revenue doubled, margin 14.9%, PEB live, order book ₹1,139cr — **but H1 operating cash −₹102cr and borrowing +₹145cr.** FY27 guide reaffirmed but needs H2 to execute the whole remaining book. No NCLAT update. |
 
 **🎯 Trigger to move back to High:** **NCLAT resolves in the promoter's favour AND H1FY27 shows operating cash flow materially improved** (or unbilled revenue down as a share of revenue).
 **🎯 Trigger to move to Medium:** **NCLAT upholds the NCLT order; or a dilutive equity raise to fund working capital; or FY27 revenue tracking below ₹1,150cr at the half-year.**
@@ -489,15 +514,29 @@ Total income **₹206.19cr (+67.76%)**, EBITDA **₹31.35cr (+131.4%)** at **15.
 
 ---
 
+### 📊 4-Nov-2026 — Q2FY27 re-priced
+
+**Where it trades (Screener, 4-Nov-2026):** CMP **₹348** · market cap ₹904cr · P/E 8.2x · ROCE / ROE 36.3% / 30.3% · **−16% since the 19-Sep refresh.**
+
+**Scenarios — kept, re-priced from ₹904cr** *(the 13-Aug set above; nothing in Q2 moves the base or bull assumptions, and the bear branch "working capital forces a heavily dilutive raise" is no further away)*: base ₹1,287cr → **+42%**; bull ₹2,660cr → **+194%**; bear ₹420cr → **−54%**. **Weighted ≈ +51%** *(0.45 × 42 + 0.25 × 194 − 0.30 × 54)*.
+
+**Conviction: HELD at MEDIUM-HIGH.** The operating case is intact and the price has fallen. **What would change it:** **H2 operating cash flow negative again** (it would make the cash cycle structural, not seasonal) — I add that as a **downgrade trigger to MEDIUM**; and the NCLAT outcome, which remains the binary.
+
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — 🔴 The promoter's legal status, at a company where one person holds all four senior roles.** NCLT admitted personal insolvency 9-Jun-2026; **NCLAT stayed it 8-Jul-2026; the appeal is undecided.** *No judgement is offered on Mr. Thiyagu's conduct — a twelve-year-old third-party guarantee contested on limitation is a long way from a finding.* **But the order is stayed, not vacated, and commencement carries director-disqualification consequences. Watch:** the next NCLAT hearing date and outcome, **and whether the company discloses a succession or delegation arrangement.**
 
 **Risk 2 — 🔴 Working capital.** **FY26 CFO −₹163cr; FY25 −₹96cr.** *"Other current assets"* consumed **₹290.6cr in a year — 3.5x reported profit.** **₹234cr of unbilled revenue (28.5% of revenue), current level undisclosed.** **Until it converts, reported PAT is an accounting fact rather than an economic one.**
 
+> ⚠️ **MATERIALIZED again (H1FY27):** operating cash **−₹102.1cr** on ₹67.7cr PBT; other current assets +₹117cr. ***New downgrade trigger: H2FY27 operating cash flow negative.***
+
 **Risk 3 — 🔴 Funding the guided growth.** Bank lines **~72% drawn**; 70% growth guided on an operating cash outflow. **Funding it requires the unbilled balance to convert, an enhanced sanction, or fresh equity. A dilutive raise is a live possibility, not a generic risk** — and the person who would have to raise it is subject to stayed insolvency proceedings.
 
+> ⚠️ **ACCUMULATING (H1FY27):** short-term bank borrowing +₹113.8cr, long-term +₹30.6cr; management rules out equity *"at this juncture"* and mentions NCDs.
+
 **Risk 4 — 🟡 The guidance gap.** **₹1,102cr confirmed against ₹1,399cr implied — ~₹300cr to be won *and* executed in eight months.**
+
+> ⚠️ **NARROWER BUT TIGHTER (4-Nov-2026):** H2 needs ~₹892cr; the call identified ₹738cr of book plus ~₹150cr of add-ons — no slack.
 
 **Risk 5 — 🟡 The margin gain is partly input-cost driven.** Q1FY27's +418bps came with steel *"moderated from the elevated levels."* **Escalation clauses cut both ways.** *My inference, not management's position.*
 
@@ -519,6 +558,8 @@ Total income **₹206.19cr (+67.76%)**, EBITDA **₹31.35cr (+131.4%)** at **15.
 
 **Risk 13 — ⚪ PEB facility commissioning slips** past the 60-working-day window.
 
+> ✅ **RESOLVED (Q2FY27):** PEB facility inaugurated; commercial ramp still to show in the P&L.
+
 ---
 
 ## 8. 30-Second Memory Hook
@@ -538,6 +579,8 @@ Total income **₹206.19cr (+67.76%)**, EBITDA **₹31.35cr (+131.4%)** at **15.
 ## 9. 📢 Community Pulse
 
 *Refreshed each review cycle. **Last scan: 13-Aug-2026.***
+
+**⤴ 4-Nov-2026:** still no ValuePickr thread. The Q2 call's sharpest question was on cash: *"the operating cash flow further remains negative while borrowing has increased"* — **the market's concern is the same as this profile's.**
 
 ### ValuePickr
 
@@ -562,6 +605,8 @@ Total income **₹206.19cr (+67.76%)**, EBITDA **₹31.35cr (+131.4%)** at **15.
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (4-Nov-2026 refresh):** results, press release and deck 30-Oct (cash-flow page 8 rendered); **official Q2 transcript filed 2-Nov, read**; CARE monitoring report and Reg 32 statement 30-Oct; H1 performance update 2-Nov.
 
 **Primary documents:**
 - **Q1FY27 results filing, 29-Jul-2026** and **earnings call, 1-Aug-2026** — the central documents. Source for the print, the ~70% FY27 guidance, the *"net profit 10-plus"* margin, the unbilled-revenue exchange, the bank-line utilisation, the PEB commissioning sequence and the order-book bridge. Participants included **PinpointX Capital, StepTrade Capital** and **Kirin Advisors** (host).

@@ -232,6 +232,11 @@ Three businesses, in order of size:
 | Nuclear order wins | Multi-quarter | **₹87cr cumulative**, execution guided H2FY27 | ✅ Won, 🕐 unexecuted |
 | **🆕 First long-term flying-parts agreement** | Q1FY27 | **FACC Austria, USD 7.5m / 5 years** | ✅ **Delivered — strategically the best news in the file** |
 | FY27 guidance | Q4FY26 and Q1FY27 | **None given.** *"though we are not giving a guidance… we are targeting to surpass what we achieved in Q4"* | 🕐 **No forward number on record** |
+| *(4-Nov)* "Q2 will be a very strong quarter" | Q1FY27 call | **Q2 revenue ₹123cr (+98% YoY, +14% QoQ), EBITDA margin ~40%, PAT ₹32cr (+103%)** | ✅ **Delivered** |
+| *(4-Nov)* H1 margins held in H2 | Q2 call | *"We believe this is our sustainable margin range"* (H1 EBITDA margin 38%) | 🕐 |
+| *(4-Nov)* ₹1,000cr revenue | *dropped by Q1* | **Back, undated: *"we are working towards an aspiration of achieving INR1,000 crore revenue"*; ~20% of it from Hobel** | 🟡 **An aspiration, not guidance** |
+| *(4-Nov)* Working capital | Q1 call | **Guided to 150–160 days by end-FY27** (130 days earlier) | 🔴 **Deteriorating, as guided** |
+| *(4-Nov)* Parts qualification | FY27 | 320+ parts targeted in FY27; **>590 qualified by year-end** expected | 🕐 |
 
 > **🔴 The single most important line in eight transcripts, and it is an accounting-basis line.**
 >
@@ -355,6 +360,25 @@ Three businesses, in order of size:
 **Working capital: ~120–125 days at FY26-end, ~130 days at Q1FY27, and guided by management to ~160+ days by FY27-end** as long-cycle aerospace programmes and nuclear tenders require inventory ahead of billing. **Management is telling you cash conversion will get worse. Take them at their word.**
 
 ---
+### 📊 Q2FY27 Refresh — Full Numbers Print (4-Nov-2026)
+
+*Sources: results, press release and deck (27-Oct-2026); official transcript of the 28-Oct call (filed 31-Oct, read; `Fetched Concalls/UNIMECH/UNIMECH_Transcript_2026-10.pdf`); Reg 30 filings 26-Oct (Honeywell) and 27/29-Oct (Hobel, SMP); CARE monitoring report; Screener (consolidated).*
+
+| ₹cr, consolidated | Q2FY27 | Q1FY27 | Q2FY26 | YoY |
+|---|---|---|---|---|
+| Revenue from operations | **123.0** | 108 | 62 | **+98%** |
+| EBITDA | **49.0** (~40%) | 39 | 19 | **+164%** |
+| Other income | ~7 | ~7 | — | |
+| PAT | **31.8** (24%) | 28 | 16 | **+103%** |
+
+**H1FY27:** revenue ₹231cr (+85%), EBITDA margin 38%; **Hobel contributed 30% of H1 consolidated revenue.** **Order book ₹855cr at 30-Sep, up more than 700% YoY** (₹280cr at the Q1 profile date). Utilisation ~65% (15–20% of capacity on new-product introduction). Employees 1,332.
+
+**Contracts:** **Honeywell Aerospace — a 10-year (+2) long-term supply agreement** through Innomech for engine components and control systems (26-Oct); an existing agreement of ~US$7.5m mentioned on the call. Semiconductors: first revenue in H1, *"step-up expected in H2"*. Dheya UAV engines (20–100 kg thrust) targeted for availability by Mar-2027; commercial revenue *"FY28 or maybe FY29"*.
+
+**Five quarters (Screener):** sales 62 / 34 / 82 / 108 / **123**; OPM 30% / 4.6% / 43% / 36% / **40%**; PAT 16 / 2 / 26 / 28 / **32**.
+
+> **Read:** **the recovery the base case assumed has arrived and the order book has gone from the profile's top risk to its strongest number.** Other income fell to ~₹7cr a quarter, so profit is now mostly operations. The cost is working capital, guided to 150–160 days.
+
 ## 5. Connecting the Dots
 
 **Thread A — the qualification flywheel is the whole business model.** 165 FAIs in one quarter, 6 new prospective customers, *"targeting to meaningfully increase our qualification rates over the previous year."* Each qualification is a cost today and an annuity later. **Management is explicit that this is why precision margins lag: *"these qualification programs naturally carry higher initial cost before transitioning into serial production."*** The thread works only if conversion rates are decent — and management concedes *"not all qualifications will necessarily convert into production orders."*
@@ -424,6 +448,7 @@ Management's reply: *"Kamlesh, I do understand your concern. So this has been on
 | **Q1FY27 (Jun-26)** | **₹108cr / ₹28cr** | **+71% headline, ~+35% organic.** OPM 36%, gross margin 65%. **FACC Austria LTA signed (USD 7.5m / 5 yrs) — first recurring flying-parts contract.** FTWZ fully operational. **Order book ₹280cr, DOWN from ₹314cr.** Working capital guided to 160+ days. Gross block guided to double. **₹1,000cr FY29: not mentioned.** |
 | **22-Aug-2026 — tracking starts** | CMP **₹1,491**, mcap **₹7,592cr** | Stock has more than doubled off its ₹695 low and sits **4.1% below its ₹1,555 high**. **105x earnings, 10.3x book, 11.2% ROCE.** |
 | **19-Sep-2026 — filings refresh** | CMP **₹1,591**, mcap **₹8,100cr** | **🔴 Five SMP departures (Head of Technology & IT, BD/Projects AGM, SBU 2 head, two BU heads) disclosed 7-14 months late ('inadvertent error'); CARE Issuer Rating A/Stable assigned 15-Sep; ₹3cr more into Dheya (CMD and a WTD on its board). Stock +6.7% at 112x.** |
+| **4-Nov-2026 — Q2FY27 + call** | CMP **₹1,772**, mcap **₹9,056cr** | **HELD at MEDIUM-LOW.** Revenue +98%, PAT +103%, **order book ₹855cr (8x)**, Honeywell 10-year LTA — the operating case improved sharply. **But the price is +19% since 22-Aug and the re-derived base case is still −20%.** Another SMP exit (Prathap B. Naidu, 1-Nov). |
 
 **The trajectory in one line.** **A good business had one genuinely bad quarter caused by something outside its control, recovered from it convincingly, made a large and defensible acquisition — and the share price behaved throughout as though none of it mattered.**
 
@@ -485,11 +510,29 @@ Management's reply: *"Kamlesh, I do understand your concern. So this has been on
 **At ~45x FY28 EPS of ₹27.6 — roughly ₹1,240 — the base case is flat rather than negative.** **At ₹950–1,000 (≈35x FY28), the weighted return turns clearly positive and the bear case stops being the dominant term.** The stock traded at **₹695 within the last twelve months.** *This is a name to hold on a watchlist with a price alert, not a name to buy at the high.*
 
 ---
+### 📊 4-Nov-2026 — Q2FY27 scored, and the scenarios re-derived
+
+**Where it trades (Screener, 4-Nov-2026):** CMP **₹1,772** · market cap ₹9,056cr · P/E 103x · **+19% since the 22-Aug baseline (₹1,491).**
+
+**What changed:** FY27 PAT is tracking **above** the old base (H1 ₹60cr against a full-year ₹102cr); the order book is 8x; other income has shrunk to a sixth of PBT.
+
+| Scenario | Prob. | FY28 | EPS (5.08cr sh) | Multiple | Value | From ₹1,772 |
+|---|---|---|---|---|---|---|
+| **Base** | 55% | Revenue ~₹600cr, margin ~37%, PAT ~₹160cr *(was ₹140cr)* | ~₹31.5 | 45x | **~₹1,420** | **−20%** |
+| **Bull** | 25% | Honeywell/FACC ramp + semis + nuclear; PAT ~₹195cr | ~₹38 | 60x | **~₹2,280** | **+29%** |
+| **Bear** | 20% | Restocking pause or tariffs; margin to ~28%, PAT ~₹100cr | ~₹20 | 30x | **~₹600** | **−66%** |
+
+**Weighted 2-year return ≈ −17%** *(0.55 × −20 + 0.25 × 29 − 0.20 × 66)* — **unchanged in sign from 22-Aug (−15%).** *My estimates.* ***The business improved by roughly as much as the price did.***
+
+**Conviction: HELD at MEDIUM-LOW.** **Upgrade to MEDIUM** if the price reaches the ~₹1,240–1,420 zone where the base case is flat, or if two more quarters of ~₹120cr+ revenue lift FY28 PAT toward ₹200cr. **Downgrade** on another undisclosed senior departure or the working-capital guide breaching 160 days.
+
 ## 7. What Could Prove Us Wrong
 
 *Written from a starting position of scepticism about the price. Risks 1-9 are what could make the bear case real; Risks 10-12 are what could make me wrong about the price.*
 
 **🆕 🔴 Risk A — Late disclosure of senior-management departures (added 19-Sep-2026).** On 7-Sep-2026 the company disclosed the exits of five SMPs (cessations 7-Jul-2025, 25-Jul-2025, 6-Nov-2025, 29-Jan-2026 and 7-Sep-2026), blaming 'an inadvertent error'. *Watch:* SEBI or exchange action for Reg 30 non-compliance, further unreported changes, and the successors to the technology and business-development heads.
+
+> ⚠️ **ACCUMULATING (27-Oct-2026):** another SMP exit — Prathap B. Naidu, effective 1-Nov (disclosed on time this quarter).
 
 **🔴 Risk 1 — Customer restocking behaviour, not demand, sets the revenue line.** Unimech sells tools to OEMs and MROs who decide when to buy them. **In Q3FY26 they decided not to, and revenue halved in a single quarter with operating margin going to 4.6%.** Management is right that this was not structural — but it was also not forecastable, and it can recur for reasons unrelated to tariffs. **Signal to watch: sequential revenue, and any language about customers moving to "drop-shipment-only."**
 
@@ -497,13 +540,21 @@ Management's reply: *"Kamlesh, I do understand your concern. So this has been on
 
 **🔴 Risk 3 — Roughly half of reported pre-tax profit has been interest income.** FY26 PBT ₹80cr on ₹46cr of other income; TTM ₹93cr on ₹43cr. **The screen has been showing an earnings base that operations did not produce.** ✅ **This is now resolving in the right direction** — the treasury has been deployed into Hobel and other income halved to ₹7cr in Q1FY27 — **but it means FY27's reported growth will be flattered by the swap and FY26's base was flattered by the treasury.** **Signal to watch: PBT excluding other income, quarter by quarter.**
 
+> ✅ **EASING (Q2FY27):** other income ~₹7cr of ~₹43cr PBT — operating profit now carries the P&L.
+
 **🔴 Risk 4 — The ₹450cr Hobel price implies a seller's motive nobody has explained.** A debt-free, asset-light business at >50% EBITDA margin and >50% ROCE sold at ~7x EBITDA. **Asked directly why, management did not answer** (§5A). Most of the consideration becomes goodwill, so a disappointment surfaces as an impairment rather than gradually. **Compounding it: two OEM groups are ~93% of Hobel's revenue.** **Signal to watch: the FY27 annual report's related-party note and the subsidiary's filed accounts; Hobel's revenue and margin once three full quarters are consolidated.**
 
 **🔴 Risk 5 — The order book is thin and going the wrong way.** **₹280cr consolidated at 30-Jun-2026, down from ₹314cr in May.** Against TTM revenue of ₹285cr that is roughly 1.0x coverage — in a business with multi-quarter production cycles and, on management's own account, long customer acceptance before billing. Management attributes the decline to strong execution and customer pull-ins, which is plausible. **It is still a declining number.** **Signal to watch: order book at Q2FY27 — a second consecutive decline would be a genuine problem.**
 
+> ✅ **RESOLVED (30-Sep-2026):** order book **₹855cr**, up 700%+ YoY; Honeywell 10-year LTA signed 26-Oct.
+
 **🔴 Risk 6 — The ₹1,000cr FY29 target has silently disappeared, and it is what the multiple is paying for.** Nine mentions in Nov-2025; **zero across the last three calls.** Never withdrawn, never restated. **Signal to watch: whether it is reinstated, formally revised, or explicitly abandoned. Any of the three would be more useful than the current silence — and a reinstatement with a number attached would be a real positive.**
 
+> 🟡 **PARTLY RESTORED (28-Oct-2026):** now an undated *"aspiration of achieving INR1,000 crore revenue"*, ~20% from Hobel — *still not guidance.*
+
 **⚠️ Risk 7 — Working capital is guided to deteriorate materially.** **130 days now, "160 days plus by end of this year"** on management's own guidance, as long-cycle aerospace and nuclear work requires inventory ahead of billing. Cash conversion has been the best thing on this balance sheet (CFO/OP 102%). **Management is telling you it gets worse.** **Signal to watch: CFO and CFO/OP at H1FY27.**
+
+> ⚠️ **ON TRACK TO MATERIALISE:** *"working capital days to gradually move towards the 150 to 160-day range by end of FY27."*
 
 **⚠️ Risk 8 — Gross block is guided to roughly double in FY27, largely on a JV with no revenue.** The Saudi Kanoo JV takes a **USD 10m infusion** and is not yet operational. Meanwhile depreciation is already +136% YoY in FY26 and ROCE is 11.2%. **Doubling the asset base before the last expansion has been filled — utilisation is 58% — is how a good margin becomes a mediocre return.** **Signal to watch: ROCE trajectory; whether the JV produces revenue in FY27 as implied.**
 
@@ -535,6 +586,8 @@ Management's reply: *"Kamlesh, I do understand your concern. So this has been on
 
 ## 9. Community Pulse — 22-Aug-2026
 
+**⤴ 4-Nov-2026:** still no ValuePickr thread found. The Q2 call (hosted by Anand Rathi) drew Genuity Capital's questions on FY28–29 margins and the UAV-engine timeline — **tone constructive; the ₹1,000cr figure was offered only when pressed.**
+
 **ValuePickr: 🔴 there is no dedicated Unimech thread.** Searched the Discourse API for both *"Unimech"* and *"Unimech Aerospace"*. **Four topics reference it in passing and none is about the company:** *"Nuclear Energy — A new kid in the block"* (73 posts, last 31-Jul-2026), *"SmallCap Hunter"* (801 posts, last 6-Aug-2026), *"My portfolio updates and investment journey"* (268 posts, last 18-Aug-2026), and the AXISCADES thread. **No dedicated discussion exists.**
 
 ***That is itself a finding, and worth stating rather than glossing.*** **A ₹7,592cr listed company trading at 105x earnings, twenty months after a mainboard IPO, has attracted no sustained retail-analyst scrutiny on India's most active fundamental forum.** *This is my inference, not an established fact:* the combination of a **~20% free float**, an institutional base that is leaving, and no independent community means **there is very little external challenge to management's framing** — which is precisely the environment in which the guidance-basis issues in §3.5 go unremarked. **Every one of the four findings in this profile came from reading the transcripts directly, because there was no one else's work to cross-check against.**
@@ -548,6 +601,8 @@ Management's reply: *"Kamlesh, I do understand your concern. So this has been on
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (4-Nov-2026 refresh):** results, press release, deck 27-Oct; **official transcript of the 28-Oct call (filed 31-Oct), read**; Honeywell LTA (26-Oct), Hobel share transfer (27/29-Oct), SMP cessation (27-Oct), CARE monitoring report, Reg 32 statement.
 
 - **Concalls read (8 transcripts, all raw PDFs from BSE, all text-extracted with `pdftotext -layout`, all md5-checked as distinct):**
   - **Q1FY27** — call 04-Aug-2026, filed 08-Aug-2026 *(primary)*

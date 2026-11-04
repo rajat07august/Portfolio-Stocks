@@ -228,6 +228,10 @@ It also takes **turnkey (LSTK) work**, where it takes responsibility for procure
 | **RFCL contribution sustainable?** | asked directly | *"RFCL project is running well. And now we are expecting this kind of profit on a regular basis."* **₹42.51cr in Q1** | ✅ **Confirmed recurring** |
 | **Nuclear / SMR entry** | FY26 | **SMR projects secured from NPCIL last year; 4 environmental studies running; NPCIL engineering consultancy engagement** | ✅ **In progress** |
 | **Big pending awards** — BPCL Andhra, IOCL Paradip Ph-2, ONGC petchem | tracked | **Andhra: execution tender *"towards the end of this financial year"*, possibly slipping to Q1FY28. Paradip Ph-2: *"under their approval… there were certain land issues."* ONGC: *"it is going to take time."*** | 🔴 **All three slipping** |
+| *(4-Nov)* **FY27 order inflow ₹8,000cr** | 14-Aug-2026 | **"Around ₹7,400cr as we speak" (30-Oct); order book ₹14,424cr → ₹20,421cr in Q2** — *"Definitely, sir, we will cross the figure of INR8,000 crores… I hope next time, we will revise the guidance"* | ✅ **All but met in seven months** |
+| *(4-Nov)* FY27 turnover ~₹4,200cr | 14-Aug-2026 | **Reaffirmed** (*"around INR4,200 crores"*); FY28 *"further growth of around 10%"* | 🕐 **On track** |
+| *(4-Nov)* Consultancy margin 24–25% | 14-Aug-2026 | **30% in Q2, "without any one-time"**; will commit only to *"higher than the 25%"* | ✅ **Beat** |
+| *(4-Nov)* Board composition (Reg 17(1)) | ongoing | **NSE and BSE fined ₹5,36,900 each again for Q1FY27**; appointments rest with MoPNG | 🔴 **Repeat** |
 
 **Verdict on management.** ***On the question the last refresh actually asked, this management passed cleanly and volunteered the answer before being pushed on it.*** **The 14% operating margin is operational, the consultancy mix shift is real and ahead of guidance, and the segment margin has moved from 17% to 24% with a commitment to hold it.** **Disclosure on the call was direct — no evasion on write-backs, no evasion on the Middle East.**
 
@@ -340,6 +344,27 @@ It also takes **turnkey (LSTK) work**, where it takes responsibility for procure
 | **Turnkey recovery** | *"expected to increase during third quarter and fourth quarter"* as newly won projects reach planned execution |
 
 ---
+### 📊 Q2FY27 Refresh — Full Numbers Print (4-Nov-2026)
+
+*Sources: results and deck (30-Oct-2026); official transcript of the 30-Oct call (filed 4-Nov, read; `Fetched Concalls/EIL/EIL_Transcript_2026-10.pdf`); Screener (consolidated); exchange-fine letter of 28-Oct (rendered).*
+
+| ₹cr | Q2FY27 | Q1FY27 | Q2FY26 |
+|---|---|---|---|
+| Revenue (consolidated, Screener) | **824** | 820 | 921 |
+| PAT (consolidated, Screener) | **197** | 158 | 83 |
+| PBT (standalone, call) | **229** | 145 | — |
+| PAT (standalone, call) | **180** | 109 | — |
+| Operating margin (standalone, call) | **19%** (₹152cr) | 14% (₹108cr) | — |
+| EBITDA incl. other income (standalone, call) | ₹240cr, **27%** | ₹155cr, 19% | — |
+
+**H1FY27 standalone:** PBT ₹375cr (₹243cr), PAT ₹288cr (₹185cr); operating margin 16% (9%); **revenue mix 68% consultancy / 32% turnkey** (47% / 53% a year ago). Consultancy margin **30%** in Q2 (*"there is no onetime item"*); turnkey ~4.3%; the depository (strategic crude storage) work runs at ~7%.
+
+**Order book ₹20,421cr at 30-Sep against ₹14,424cr at 30-Jun — an all-time high.** *My arithmetic: Q2 inflow ≈ ₹20,421 − ₹14,424 + ~₹824 of revenue ≈ ₹6,800cr; H1 ≈ ₹7,300cr*, consistent with management's *"around INR7,400 crores as we speak"*. Dangote (Kenya) execution is expected to peak around H1FY28.
+
+**Five quarters (Screener, consolidated):** sales 921 / 1,210 / 926 / 820 / **824**; OPM 10% / 29% / 16% / 15% / **21%**; PAT 83 / 347 / 196 / 158 / **197** *(the Dec-25 quarter carries the windfall recorded in §4 above).*
+
+> **Read:** **revenue is flat-to-down while profit doubles, because the mix moved to consultancy and the order book finally refilled.** The revenue that the new book represents arrives from H2FY27 into FY28.
+
 ## 5. Connecting the Dots
 
 **Thread A — 🟢 The earnings-quality question from July has been answered, and answered well.** **No write-backs, no exceptional change orders, confirmed twice on the record — and the standalone operating margin doubled anyway, 7% → 14%.** ***That is the single most important thing in this refresh and it is a genuine positive.***
@@ -370,6 +395,7 @@ It also takes **turnkey (LSTK) work**, where it takes responsibility for procure
 | **28-Jul-2026** *(Tier A)* | **₹223** · mcap ₹12,520cr | **HIGH → MH (Under Watch)** | **🔴 The finding: the December-2025 quarter alone was ₹347cr — 50.1% of FY26's entire ₹692cr consolidated profit — on 29% OPM against 8%, 13% and 16% in the other three quarters.** Management-confirmed causes: **a liquidated-damages provision reversal on ONE project**, **a change order above ₹200cr** (*"that is why in the previous quarter, profits were so high"*), and a **₹24cr NRL dividend**. Screener flagged ₹242cr of other income = 35% of PAT. **Normalised FY26 PAT ~₹495–540cr → real P/E ~23–25x, not the headline 18.1x.** Also found **FY26 order inflow DOWN 2.9%** and FY27 inflow guided flat. **Set the re-upgrade level at ₹180–190 (17x normalised).** Corrected an earlier in-session error that had reported EIL as having filed Q1FY27 when the rightmost column was Mar-2026. |
 | **31-Aug-2026** *(this profile)* | **₹262** · mcap **₹14,717cr** | **MH (Under Watch) → MEDIUM** | Converted to always-current format on the **Q1FY27 transcript (call 14-Aug, filed 18-Aug)** and a 21-filing NSE sweep. **🟢 THE JULY QUESTION IS ANSWERED: no write-backs, no exceptional change orders, confirmed twice — and standalone operating margin still doubled 7% → 14%.** **🟢 Consultancy revenue +22%, segment margin 17% → 24%, mix ~60%.** **🟢 RFCL JV ₹42.51cr and confirmed recurring.** **🟢 Two Independent Directors appointed 14-Aug.** **🔴 BUT Q1 order inflow was ₹514cr against an ₹8,000cr target; the order book FELL ₹15,109cr → ₹14,424cr; turnover fell 6.5%; and on the Middle East — *"New mega projects are under hold. Yes."*** **🔴 BPCL Andhra, IOCL Paradip Ph-2 and ONGC petchem all slipped on the call.** **🟡 CMD holding additional charge of Director (Commercial) since 30-Jun.** **📈 And the stock is +17.5% since the last refresh, 1.9% below its 52-week high.** |
 | **19-Sep-2026** *(filings refresh)* | **₹266** · mcap ₹14,970cr | **HELD at MEDIUM** | **Director (Commercial) additional charge extended to the CMD by three months from 30-Sep (Ministry letter 2-Sep); the December-quarter appointment trigger is live.** New FY27 statutory auditors. Stock +1.5%. |
+| **4-Nov-2026** *(Q2FY27 + call)* | **₹301** · mcap ₹16,918cr | **HELD at MEDIUM** | **Order book ₹20,421cr (₹14,424cr in June); H1 inflow ~₹7,300cr against the ₹8,000cr target; consultancy margin 30%.** None of the seven downgrade triggers is near; **one of the three upgrade legs met** (order book >₹16,000cr) — the others need a second ₹2,000cr+ inflow quarter and sustained consultancy growth. **The stock is +15% since 31-Aug.** |
 
 **The trajectory in one line.** ***July said the profit was lower-quality than it looked; August proved the profit is now clean but the pipeline is not — and the price has moved 40% away from the level at which the last profile said it would buy more.***
 
@@ -444,9 +470,29 @@ It also takes **turnkey (LSTK) work**, where it takes responsibility for procure
 **🟢 Upgrade back to MEDIUM-HIGH on:** **two consecutive quarters of order inflow above ₹2,000cr, an order book back above ₹16,000cr, and consultancy revenue growth sustained above 20%** — ***or, failing all of that, simply a price back toward ₹190–200, where the normalised multiple is ~17x and the arithmetic works again.***
 
 ---
+### 📊 4-Nov-2026 — Q2FY27 scored, and the scenarios re-derived
+
+**Downgrade triggers (any two):** H1 inflow <₹2,000cr — ❌ (~₹7,300cr) · FY27 inflow <₹7,000cr — ❌ on track · order book <₹13,500cr — ❌ (₹20,421cr) · guidance cut below ₹6,500cr — ❌ (reaffirmed, may be raised) · consultancy margin <22% — ❌ (30%) · write-backs return — ❌ (*"no onetime item"*) · no regular Director (Commercial) by December — 🟡 *pending: additional charge extended to the CMD to end-December (19-Sep); no regular appointment yet*. **None fired.**
+
+**Upgrade to MH:** two consecutive quarters of inflow >₹2,000cr — 🟡 *one so far* · order book >₹16,000cr — ✅ · consultancy growth >20% sustained — 🟡 *mix shift visible, growth rate not disclosed in the call* · or a price near ₹190–200 — ❌ (₹301).
+
+**Scenarios — re-derived** *(my estimates, from ₹16,918cr; 31-Aug set kept above):*
+
+| Scenario | Prob. | FY28 | PAT × multiple | Mcap | Return incl. ~4% dividends |
+|---|---|---|---|---|---|
+| **Base** | **50%** *(was 55%)* | Revenue ~₹4,700cr (FY27 ₹4,200cr + ~10%); consultancy margin ≥25% | **₹850cr** × 18x | ₹15,300cr | **≈ −6%** |
+| **Bull** | **35%** *(was 25%)* | Inflow guidance raised past ₹8,000cr; nuclear / coal gasification mandates | ₹1,000cr × 22x | ₹22,000cr | **≈ +34%** |
+| **Bear** | **15%** *(was 20%)* | Execution slips, Middle East stays frozen, margin back to 22% | ₹650cr × 14x | ₹9,100cr | **≈ −42%** |
+
+**Weighted 2-year return ≈ +3%** *(0.50 × −6 + 0.35 × 34 − 0.15 × 42)*. ***The business case improved materially — the bear case's "order book below ₹12,000cr" is now far away — but the price has moved +15% to meet it.***
+
+**Conviction: HELD at MEDIUM.** **The 31-Aug downgrade was "on price and pipeline, not on quality"; the pipeline half has now reversed.** If Q3 brings a second ₹2,000cr+ inflow quarter, the upgrade test is met on fundamentals at any price.
+
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — 🔴 Order inflow, which is now the whole question.** **₹514cr in Q1 against an ₹8,000cr full-year target — 6.4% of the target in 25% of the year.** *And the ₹8,000cr was already flat on FY26's ₹7,979cr, which was itself down 2.9% on FY25. **This is a third consecutive year of no growth in intake, and the first in which the order book has actually fallen.***
+
+> ✅ **RESOLVED for FY27 (4-Nov-2026):** H1 inflow ~₹7,300cr; order book ₹20,421cr; management expects to cross ₹8,000cr and *"revise the guidance"*.
 **⚠️ MATERIALISED.**
 
 **Risk 2 — 🔴 The Middle East is frozen at exactly the level that matters.** ***"New mega projects are under hold. Yes."*** Existing PMC work under long-term agreements continues (~₹400–500cr this quarter), but **Saudi/Aramco is *"still in the initial stages of discussion"* and *"new inquiries are a little bit slow."*** *The Middle East was the designated growth market in every prior version of this thesis.*
@@ -461,11 +507,17 @@ It also takes **turnkey (LSTK) work**, where it takes responsibility for procure
 
 **Risk 7 — 🟡 Revenue is shrinking while margin improves.** **Turnover −6.5%, turnkey −33%.** *The margin gain is partly composition — the low-margin half got smaller. **If turnkey does not recover in Q3–Q4 as guided, the 10% revenue growth target fails outright.***
 
+> ⚠️ **STILL TRUE (4-Nov-2026):** consolidated revenue ₹824cr, −11% YoY; the new book converts from H2.
+
 **Risk 8 — 🟡 It is a PSU, and the board is the ministry's to fill.** **The C&MD has held additional charge of Director (Commercial) since 30 June on a three-month authorisation.** *At a company whose problem is order intake, that is the seat you would least want vacant.*
+
+> ⚠️ **MATERIALIZED again (28-Oct-2026):** ₹5,36,900 fines from each exchange for Q1FY27 under Reg 17(1); waiver sought, Board says appointments are MoPNG's.
 
 **Risk 9 — 🟢 RESOLVED, and it was the reason for the last downgrade.** v1's thesis rested on *"19.3x P/E on 30.6% ROCE"*; 28-Jul showed the P/E was optical because of provision reversals. ***Q1FY27 was clean of write-backs, confirmed twice on the record, and the operating margin doubled without them. The mechanism that caused the July downgrade did not repeat.***
 
 **Risk 10 — 🟢 TRACKING WELL.** **Consultancy segment margin 17% → 24% with a commitment to hold 24–25%; mix at 60% against a 55% floor.** *The one part of the plan that is fully working.*
+
+> ✅ **TRACKING BETTER (4-Nov-2026):** consultancy margin **30%** in Q2, *"without any one-time"*; guided only to *"higher than the 25%"*.
 
 **Risk 11 — 🆕 Concentration in a single JV.** **RFCL contributed ₹42.51cr of ₹157.94cr consolidated profit — 27% — from one fertiliser plant.** *Management says it is recurring and running at capacity, and the annual shutdown is absorbed in the normal 30–35 day window. **But a 27% profit contribution from a single non-core asset is a dependency, and it did not exist a year ago.***
 
@@ -497,6 +549,8 @@ It also takes **turnkey (LSTK) work**, where it takes responsibility for procure
 
 ## 9. Community Pulse
 
+**⤴ 4-Nov-2026:** still no ValuePickr thread or Substack coverage. The Q2 call drew questions on margin sustainability (Mohit Kumar), inflow (Vivek Midha), FY28 growth and nuclear scope (Deep Sanghavi, Dalal & Broacha), RoboCapital — **tone: constructive; the 30% margin was probed twice and defended twice.**
+
 **⤴ Carried forward and updated. There is still no ValuePickr thread and no Substack coverage for EIL** — normal for a large-cap PSU where the sell-side is the entire commentary channel.
 
 **The Q1FY27 call (14-Aug-2026) was hosted by DAM Capital and drew ICICI Securities, Dalal & Broacha, DAM Capital, Lark and Harshad Gandhi Securities.** ***The questioning was better than adequate and produced most of the findings in this profile:***
@@ -514,6 +568,8 @@ It also takes **turnkey (LSTK) work**, where it takes responsibility for procure
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (4-Nov-2026 refresh):** results + deck 30-Oct; **official transcript of the 30-Oct call, filed 4-Nov, read**; Reg 17(1) fine letter 28-Oct (rendered); maritime-sector press release 4-Nov; ED retirement notice 31-Oct.
 
 - **Concalls read (7, all primary transcripts):** **Q1FY27 (call 14-Aug-2026, transcript filed 18-Aug — primary, read in full)**, Q4FY26/FY26 annual (22-May-2026), Q3FY26 (Feb-2026), Q2FY26 (Nov-2025), Q1FY26 (Aug-2025), Jun-2025, Feb-2025. Stored in `Fetched Concalls/ENGINERSIN/`.
 - **NSE exchange filings pulled fresh for this refresh** (`corporate-announcements`, `index=equities&symbol=ENGINERSIN`; **21 records 1-Jul → 31-Aug-2026**), of which 16 downloaded and read:

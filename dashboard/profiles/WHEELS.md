@@ -24,7 +24,7 @@
 **Operating margin, computed from the filed P&L (PBT + finance + D&A − other income):** consolidated **7.49%** (Q1 7.50%, Q2FY26 7.33%); standalone 7.46%. **Industrial Components EBIT ₹7.34cr** (Q1 ₹7.76cr, Q2FY26 ₹11.17cr) — above the ₹5cr trigger but down 34% YoY.
 **₹430cr raised in the quarter** (₹180cr promoter preferential + ₹250cr QIP) and the debt reduction it was for was "completed by end September". **ICRA upgraded the long-term rating to A+ (Stable) from A** (23-Oct). CMD on H2: *"inflation is a concern"* and growth will face *"a higher base effect arising out of GST 2.0"*.
 **Q2 transcript (filed 4-Nov as a link to the company site; read):** a raw-material cost advantage was secured *"the second last day of the quarter. So as a result of which none of that cost advantage has actually come through"* — *"we ended up with an EBITDA of 8% and a PBT of 4%"* (company rounding); alloy wheels are not yet at breakeven and are guided PBT-positive *"from December onwards"*; industrial remains the lowest-margin segment at ~3%.
-> **Why it matters:** **Two of the four triggers are clear (Industrial EBIT, use of the ₹270cr) and one needs the Sep shareholding (DII).** **"Q2FY27 OPM <7.5%" fires by 0.01pp** on the consolidated basis and 0.04pp standalone — inside the rounding of the measure, and margins have sat at 6.8–8.1% for nine quarters. **Recorded as fired; conviction left at MH for Rajat's call** rather than moved on a basis point. The rating upgrade and the deleveraging are the good half of this quarter.
+> **Why it matters:** ~~Two of the four triggers are clear (Industrial EBIT, use of the ₹270cr) and one needs the Sep shareholding (DII).~~ **⤴ CORRECTED later on 4-Nov-2026:** the DII trigger is clear (7.23% in Sep), **but the ₹270cr trigger is not** — the ₹250cr QIP went to non-promoters at a 4.97% discount to the ICDR floor and its stated objective was debt reduction, not the capex programme. See §6. **"Q2FY27 OPM <7.5%" fires by 0.01pp** on the consolidated basis and 0.04pp standalone — inside the rounding of the measure, and margins have sat at 6.8–8.1% for nine quarters. **Recorded as fired; conviction left at MH for Rajat's call** rather than moved on a basis point. The rating upgrade and the deleveraging are the good half of this quarter.
 
 *Sweep: NSE announcements, 23-Oct → 4-Nov-2026 (4-Nov evening filings re-checked at 18:04 IST); market data Screener 4-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
@@ -293,6 +293,19 @@ The original business is steel and aluminium wheels for trucks, buses, tractors 
 
 > **⤴ CORRECTION to the 28-Jul verdict.** That refresh recorded the January *"fund capex through accruals"* commitment as **🔴 Reversed**, and rated management *"conditional pending disclosure of use of proceeds."* **The disclosure has arrived and it is better than the refresh assumed:** the money funds a ₹400–450cr capex programme, the promoters are subscribing the first ₹180cr themselves, and debt is being held flat. **The "reversed commitment" reading is downgraded to 🟡 — a stale slide, not a broken promise.** **What replaces it as the open concern is narrower and more specific: FY27 capex guidance moved from ₹280–300cr to ₹400–450cr in a single quarter, and no document explains what changed.**
 
+**🆕 4-Nov-2026 additions (Q2FY27 results 29-Oct; call transcript filed 4-Nov and read):**
+
+| Guidance / commitment | Set | Q2FY27 actual | Verdict |
+|---|---|---|---|
+| FY27 capex ₹400–450cr | Q1FY27 deck | **Reaffirmed on the call: *"we are looking at INR400 crores to INR450 crores"*** — steel wheels, cast aluminium wheels, windmill | ✅ **Held** |
+| Use of the fund-raise | 19-Aug / QIP placement | **₹430cr raised (₹180cr promoter preferential + ₹250cr QIP), "with the objective of debt reduction", completed by end-September**; capex *"predominantly"* through accruals | 🟡 **Debt, not capex — disclosed** |
+| Industrial Components conversion | 22-Aug upgrade | **Segment EBIT ₹7.34cr** (Q1 ₹7.76cr, Q2FY26 ₹11.17cr); windmill *"profitable even today"*, fabrication slow on construction equipment, hiring ahead of ramp | 🟡 **Stalled, not reversed** |
+| Double-digit consolidated EBITDA | long-standing ambition | **7.49%** (my calculation from the filing); management: *"EBITDA of 8%"*; no date given on the call | 🕐 **No date** |
+| Cast aluminium wheels breakeven | earlier calls | *"from December onwards, we should be PBT positive, even on EBITDA"* | 🕐 **New date: Dec-2026** |
+| DII holding | 22-Aug trigger | **7.23% at 30-Sep** (6.39% at Jun-26) — MF 4.41%, AIF 2.37% | ✅ **Above 5%** |
+
+**⤴ Q2FY27 verdict on management:** **candid and on plan for capex** — the CMD volunteered that the cost benefit landed too late to show, and gave a dated breakeven for alloy wheels. **What is still missing is the margin path**: asked directly how margins get to double digits, the answer was a list of businesses to scale, not a timeline.
+
 **Verdict on management (22-Aug-2026).** **The July refresh withheld trust pending disclosure. The disclosure came, and it was good.** Promoters funding a capex step-up with their own cash, at a formula price, while raising their stake, is close to the strongest signal a controlling family can send — and it lands in the same quarter the conversion thesis finally showed up in segment EBIT.
 
 **Two qualifications keep this at conditional rather than unreserved.** First, **a 50% capex revision in one quarter went unexplained**, and Q1 has no Q&A in which to ask. Second, **₹270cr of the authorisation is still unused and unspecified** — the next tranche may look nothing like this one. **The Q2FY27 call in October is the year's second and last real Q&A, and both questions belong there.**
@@ -476,6 +489,31 @@ Deck, verbatim: ***"Capex of FY27 is estimated to be in the region of Rs 400 to 
 
 ---
 
+### 📊 Q2FY27 Refresh — Full Numbers Print (4-Nov-2026)
+
+*Sources: results filing 29-Oct-2026 (page 3 rendered and read — the text layer scrambles the columns), press release, call transcript (company-site link filed 4-Nov; `Fetched Concalls/WHEELS/WHEELS_Transcript_2026-10.pdf`), NSE shareholding XBRL for 30-Sep-2026.*
+
+| ₹cr, consolidated | Q2FY27 | Q1FY27 | Q2FY26 | YoY |
+|---|---|---|---|---|
+| Revenue from operations | **1,710.95** | 1,491.00 | 1,263.97 | **+35%** |
+| EBITDA ex other income *(PBT + finance + D&A − OI, my calculation)* | **128.2** | 111.8 | 92.6 | +38% |
+| **EBITDA margin** | **7.49%** | 7.50% | 7.33% | +16 bps |
+| PBT | 79.31 | 54.79 | 42.21 | +88% |
+| PAT | **60.16** | 38.95 | 31.69 | **+90%** |
+| EPS (₹) | 24.21 | 15.68 | 12.65 | |
+
+*Standalone: revenue ₹1,585.03cr (+35%), PAT ₹53.41cr (₹27.77cr), margin 7.46%; exports ₹388cr (₹299cr).*
+
+**Segments (consolidated):** Automotive revenue **₹1,446.0cr** (₹1,031.6cr), EBIT **₹102.8cr** (₹60.6cr) · **Industrial Components revenue ₹264.9cr (₹232.4cr), EBIT ₹7.34cr (₹11.17cr)** — revenue +14% but EBIT −34%.
+
+**Shareholding, 30-Sep-2026 (NSE XBRL):** promoter **56.86%** (58.31% Jun; 59.51% after the preferential, then diluted by the QIP) · domestic institutions **7.23%** (MF 4.41%, AIF 2.37%, insurers 0.45%) · foreign portfolio 2.57%.
+
+**Credit:** ICRA upgraded the long-term rating to **A+ (Stable) from A** and the short-term to A1 (23-Oct). Management: *"our key ratios are coming down and debt-to-EBITDA is coming to reasonable levels."*
+
+**Outlook (CMD, release and call):** *"In the second half, inflation is a concern. Growth will also be affected by a higher base effect arising out of GST 2.0"*; demand strongest in cast aluminium wheels and air suspension *"this year itself"*; the windmill business is *"winning new orders"*.
+
+> **Trajectory read:** the fifth straight quarter of record revenue, with the margin pinned at 7–8% (Screener OPM 7% / 7% / 8% / 8% / 7% over five quarters). **The thesis is margin mix, and the mix has not moved yet: the Industrial segment, which carried the 22-Aug upgrade, earned less in Q2 than a year ago.**
+
 ## 5. Connecting the Dots
 
 **Thread A — Wheels are the revenue; conversion is the profit.** Automotive components is 84% of revenue at a 6.0% EBIT margin; Industrial components is 16% at 3.3% and rising fast off a depressed base. **The mix shift is the entire investment case.**
@@ -502,6 +540,7 @@ Deck, verbatim: ***"Capex of FY27 is estimated to be in the region of Rs 400 to 
 | **28-Jul-2026** *(refresh)* | **₹1,390** *(−7.04% on the day)* | **MH → MEDIUM (Under Watch)** | Q1FY27 print: **PAT −33.9% QoQ** off a GST-flattered Q4. **A ₹400cr enabling fundraise appeared with no disclosed use of proceeds**, apparently reversing a six-month-old commitment to fund capex from accruals. **DII −3.25pp in one quarter into a +29% jump in retail holders.** **The conversion model was documented for the first time — a v1 omission — and correctly identified as an FY27–FY28 call option, not a current driver.** Explicit upgrade and downgrade triggers set. |
 | **22-Aug-2026** *(this profile)* | **₹1,513** | **MEDIUM → MEDIUM-HIGH** — **upgraded; both halves of the trigger met** | Converted to always-current format. **🟢 Industrial Components EBIT ₹2.18cr → ₹7.76cr, +256% YoY — the exact "single cleanest signal" the July refresh said had not happened.** **🟢 Use of proceeds disclosed: FY27 capex ₹400–450cr vs FY26's ₹261.84cr.** **🟢 ₹180cr preferential issue, 100% promoter, taking holding 58.31% → ~60.4%.** Fund-raise limit ₹400cr → ₹450cr; EGM 17-Sep. **🔴 New concern replaces the old one: FY27 capex guidance moved ₹280–300cr → ₹400–450cr in one quarter, unexplained, and ₹270cr of authorisation is still unused.** |
 | **19-Sep-2026** *(filings refresh)* | **₹2,176** | **HELD at MH (Under Watch)** — return arithmetic stale | **Stock +44% since 22-Aug with an exchange price query and no disclosed cause (company: nothing undisclosed).** Preferential issue repriced ₹1,418 → ₹1,461 (NSE observations) and approved at the EGM. On the profile's unchanged scenarios (base ₹1,653 / bull ₹2,574 / bear ₹816) the weighted return at ₹2,176 is roughly −19%. Trigger added: price above base-case value with unchanged earnings path. |
+| **4-Nov-2026** *(Q2FY27 + call)* | **₹2,375** | **HELD at MH (Under Watch) — two triggers fired on their wording; conviction left for Rajat** | Revenue +35%, PAT +90%, ICRA → A+; **OPM 7.49% vs the 7.5% trigger; the ₹250cr QIP went to non-promoters at a 4.97% discount to the floor and into debt reduction — the ₹270cr trigger's wording.** Industrial EBIT ₹7.34cr (>₹5cr). DII 7.23% (>5%). |
 
 **The trajectory in one line.** **The July refresh asked three precise questions, wrote down what an answer would look like, and within four weeks got all three — in the direction that upgrades rather than downgrades.**
 
@@ -567,6 +606,21 @@ Deck, verbatim: ***"Capex of FY27 is estimated to be in the region of Rs 400 to 
 
 ---
 
+### 📊 4-Nov-2026 — Q2FY27 scored against the triggers
+
+**Trading metrics (Screener, 4-Nov-2026 close):** CMP **₹2,375** · market cap ₹6,409cr · P/E 33.4x · ROCE/ROE (Screener) as reported · **+57% since the 22-Aug baseline (₹1,513).**
+
+| Trigger (22-Aug) | Q2FY27 | Fired? |
+|---|---|---|
+| Industrial Components EBIT below ~₹5cr, or margin under 2% | **₹7.34cr, 2.8%** | ❌ No — but down 34% YoY |
+| Remaining ₹270cr raised from non-promoters at a discount to the ICDR floor, **or** into anything other than the disclosed capex | **₹250cr QIP to institutions at a 4.97% discount to the ₹2,197.10 floor; objective "debt reduction"** | 🔴 **Yes, on its wording** — *in substance benign: institutions paid ₹2,088 against the promoters' ₹1,461, and debt reduction frees accruals for the capex* |
+| Q2FY27 consolidated OPM below 7.5% | **7.49%** (standalone 7.46%) | 🔴 **Yes, by 1 bp** |
+| DII below 5% in the Sep pattern | **7.23%** | ❌ No |
+
+**Re-priced scenarios.** *The 22-Aug set (above) modelled ~2.75cr shares and a ₹1,513 entry. Shares are now ~2.69cr (2.4426cr + 12.69 lakh preferential + 11.97 lakh QIP), and the price is ₹2,375.* At ₹2,375 the 22-Aug base case (+9% from ₹1,513, i.e. ≈₹1,650) is **below today's price**; the bull case (+70%, ≈₹2,570) is **+8% from here**. **The stock has already run through the base case and most of the bull case without the margin moving** *(my arithmetic on the 22-Aug per-share targets)*. **Weighted 2-year return from ₹2,375 on the unchanged 22-Aug cases: ≈ −26%** *(0.55 × −31% + 0.28 × +8% + 0.17 × −66%)*. ***Those cases were set before ₹430cr of equity and a debt cut, which lift FY28 EPS through lower interest, so this overstates the downside; the point stands that the price now needs the double-digit margin to arrive.***
+
+**Conviction: HELD at MEDIUM-HIGH (Under Watch) — for Rajat's decision.** **My recommendation is MH → M (Under Watch):** two triggers have fired on their wording, the segment the upgrade rested on went backwards, and the price has outrun every case the upgrade was written against. Against that: ICRA's upgrade, a candid call, and a quarter that was strong on everything except margin. **Replacement trigger worth writing whichever way it goes:** *Q3FY27 consolidated OPM below 8% after the cost benefit management says lands in Q3.*
+
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — The CV/tractor cycle turns.** Management names it as *the* FY27 swing factor. Q4FY26: *"Now with this **West Asia crisis**, how much growth will actually happen this year in India and how will it be next year, will actually determine how we grow, because **we are very much a derived demand**."* And on customers: *"if you look at Tata's or Mahindra's… they've been **very guarded** about the growth in the coming year."*
@@ -576,6 +630,8 @@ Deck, verbatim: ***"Capex of FY27 is estimated to be in the region of Rs 400 to 
 > **⚠️ RISING EXPOSURE, IMPROVING RETURNS (22-Aug-2026)** — ~₹90–100cr already in windmill machining, and the deck now guides *"Step up the capacity and volumes of the fabricated, structural parts for windmills, **including off-shore WEGs**."* **Concentration into a single cyclical end-market is increasing exactly as the capex lands** — and warranty provisions for the European windmill business already appeared in Q4FY26 other expenses. **The +256% EBIT is the reward for that concentration; a wind capex pause is the price.**
 
 **Risk 3 — Aluminium and steel price volatility.**
+
+> ⚠️ **LIVE (4-Nov-2026):** the CMD said a raw-material cost advantage arrived on the quarter's second-last day — *"none of that cost advantage has actually come through"* — and named inflation the H2 concern.
 > **✅ PARTLY MITIGATED, AND THE CONVERSION MODEL IS WHY.** On the wheel book metal is pass-through, imperfectly: *"we don't think that over the longer term, we are able to get a complete pass-through on material cost."* **On the conversion book there is no raw material at all**, so that revenue is structurally immune. **Growing the conversion share directly reduces this risk.**
 
 **Risk 4 — Currency and CBAM.**
@@ -594,14 +650,20 @@ Deck, verbatim: ***"Capex of FY27 is estimated to be in the region of Rs 400 to 
 > **🟡 BEING MANAGED.** Plants consolidated (air suspension two → one, out of rented facilities); management explicitly rejects new sites: *"No new plant… no new site."* Hydraulic cylinders and fabrication turned positive in Q4FY26. **Counter-signal: the double-digit EBITDA target depends on exactly these sub-scale verticals continuing to fix themselves.**
 
 **Risk 9 — Dilution.** *(Reframed from July's "dilution with undisclosed use of proceeds.")*
+
+> ⚠️ **MATERIALIZED (Sep-2026), in its benign form:** ₹250cr QIP to institutions at ₹2,088 (4.97% under the floor), promoter 59.51% → 56.86%; proceeds to debt reduction.
 > **⚠️ UPDATE 19-Sep-2026.** The ₹180cr issue was repriced to ₹1,461 after NSE valuation observations and approved by shareholders on 17-Sep (99.99%). The ₹270cr of unused headroom is unchanged and the EGM's second resolution approved the enhancement of the fund-raising limit first approved on 12-Aug (the ₹450cr the Board proposed on 19-Aug, per this profile); I did not read the amount in the notice itself.
 > **✅ LARGELY RESOLVED for the first ₹180cr, 🕐 OPEN for the remaining ₹270cr (22-Aug-2026).** The July version of this risk assumed ~11.8% dilution to outside investors for an unstated purpose, taking ROE from 16.0% to ~11.6%. **What happened instead: 4.95% dilution, 100% to promoters, at the ICDR floor price, into a disclosed ₹400–450cr capex programme, with promoter holding rising to ~60.4%.** **The authorisation was simultaneously raised to ₹450cr, so ₹270cr of unspecified issuance remains live and is now the whole of this risk.**
 
 **Risk 10 — Institutional distribution into retail.**
+
+> ✅ **TRACKING BETTER (4-Nov-2026):** DII 6.39% → 7.23% (QIP); FPI 2.57%.
 > **🔴 ESCALATED 19-Sep-2026.** The stock has risen 44% in four weeks, drawing an NSE/BSE price-movement query (9-Sep) that the company answered with 'no undisclosed information' (10-Sep). A retail-heavy register (29,271 holders, DII 6.39%) plus a sharp unexplained run is the setup this risk describes.
 > **⚠️ UNCHANGED AND STILL THE MOST UNCOMFORTABLE FACT HERE (22-Aug-2026).** **DII 18.81% (Sep-23) → 6.39% (Jun-26)**, including −3.25pp in the June quarter, while shareholder count rose **+29% in that same quarter** to 29,271. **Professionals have been selling this name for three years.** The mitigating facts are that promoter holding is untouched and now rising, and that the DII exit predates every good thing in this refresh. **Signal to watch: the DII line in the Sep-2026 pattern — below 5% would confirm a full institutional exit.**
 
 **Risk 11 — The conversion ramp is a call option that may not pay in time.**
+
+> ⚠️ **ACCUMULATING (4-Nov-2026):** Industrial EBIT ₹7.34cr vs ₹11.17cr a year ago; no date for double-digit EBITDA; alloy-wheel breakeven re-dated to December.
 > **🟢 SUBSTANTIALLY DE-RISKED — this is the risk that resolved (22-Aug-2026).** July: *"Industrial Components EBIT fell 30% YoY in Q3FY26 and 18% YTD-Dec25 while carrying the new depreciation… if the ramp slips a year, the double-digit EBITDA target moves to FY29."* **Q1FY27: segment EBIT +256% to ₹7.76cr on revenue +26%.** **The ramp did not slip.** *It remains one quarter and ₹7.76cr — the option is now in the money, not exercised.*
 
 **Risk 12 — The Q4 spike mistaken for a run-rate.**
@@ -633,6 +695,8 @@ Deck, verbatim: ***"Capex of FY27 is estimated to be in the region of Rs 400 to 
 
 ## 9. Community Pulse — 22-Aug-2026
 
+**⤴ 4-Nov-2026 check:** still no active Wheels India thread on ValuePickr (topic 53 last posted 5-Aug-2025; search shows only the TSF Investments and SSWL threads active). Substack not re-searched. **Verdict unchanged: no community coverage.**
+
 **ValuePickr — there is no active Wheels India thread. That is itself the finding.**
 
 | Thread | Topic ID | Posts | Last active |
@@ -656,6 +720,8 @@ The most relevant surviving post is a direct SSWL-versus-Wheels comparison, **@R
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (4-Nov-2026 refresh):** results filing 29-Oct (rendered), press release, deck, **call transcript of 29-Oct** (filed 4-Nov as a link to wheelsindia.com; downloaded and read), ICRA rating letter 23-Oct, NSE shareholding XBRL 30-Sep-2026 (`SHP_1736046`).
 
 - **Concalls read (3 transcripts + 4 decks — the complete set this company produces):** Transcripts **May-2026 (Q4FY26)**, **Oct-2025 (Q2FY26)**, **May-2025 (Q4FY25)**. Decks **🆕 Jul-2026 (Q1FY27, 23 pages — the primary source for this version)**, Jan-2026 (Q3FY26), Aug-2025 (Q1FY26), Jan-2025 (Q3FY25).
 - **🆕 Q1FY27 deck source:** downloaded directly from the company's own site (`wheelsindia.com/wp-content/uploads/2026/07/Investor-presentation-Q1FY27-2.pdf`) — Screener links to the company site rather than a BSE `Pname` for this issuer.

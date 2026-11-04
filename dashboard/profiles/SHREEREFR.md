@@ -1,7 +1,7 @@
 # Shree Refrigerations Limited — Company Profile
 
 **Ticker:** SHREEREFR · **BSE-SME: 544458** · **ISIN INE0FMZ01045** · **Sector:** Aerospace & Defence (Sector 1)
-**Conviction:** **MEDIUM-LOW** — the moat is genuinely rare; the price and the margin trend are not
+**Conviction:** **MEDIUM-LOW (Under Watch)** — the moat is genuinely rare; the price and the margin trend are not · *⤴ 4-Nov-2026: one of the 'any two → SPECULATIVE' triggers fired (H1 margin 13.5% < 18%) and a second is half-way (H1 operating cash −₹42.5cr)*
 **Thesis date:** 1-Sep-2026 · **CMP ₹410** (Screener, 1-Sep-2026) · **Market cap ₹1,469 cr** · **v1, new addition**
 
 > **⚠️ BSE-ONLY.** Absent from NSE's `EQUITY_L.csv` and from the NSE SME list. **BSE 544458 is the only feed; `SLONGNAME` echoes as "Shree Refrigerations Ltd", per §4A.** **Listed on BSE in 2025.**
@@ -220,6 +220,11 @@ A naval vessel is a sealed steel box full of people, electronics and machinery, 
 | **Data centre revenue** | FY26 call | *"there will not be any revenue which we have considered from our data centre in FY27. So, our guidance for FY27 is without data centre"* — expected **FY28** | 🕐 **Open, and explicitly excluded from guidance** |
 | **🆕 Data-centre vehicle** | 31-Aug-2026 | **Board approved incorporation of a wholly-owned subsidiary, *"Aquilon Deep Chill Limited"*** | ✅ **Structure being put in place** |
 | **Resubmission of FY26 audited results** | 29-May-2026 | **A presentational reclassification of *"Increase/(Decrease) in Provisions"* within Changes in Working Capital, to align with AS 3.** *Standalone: −₹744.86 lakh → +₹360.02 lakh.* **Net cash from operations UNCHANGED at ₹1,385.38 lakh; closing cash UNCHANGED at ₹5,751.38 lakh** | 🟢 **Benign — checked, not assumed** |
+| *(4-Nov)* 40% revenue CAGR | standing | **H1FY27 revenue ₹93cr, +86%** (₹50cr) — *"we have beaten our own estimate of about 40%"* | ✅ |
+| *(4-Nov)* EBITDA margin 20–24% (FY27 ~22%) | Q4FY26 call | **H1 13.5%** (11% a year ago); management still expects *"in and around 22% for FY27"* — so H2 must run above 28% | 🔴 **H1 missed badly** |
+| *(4-Nov)* Working capital | Q4FY26 call | **252 days trailing** (CFO) against ~370 at the last profile | ✅ **Improved — but see the cash flow** |
+| *(4-Nov)* Data-centre (Aquilon Deep Chill) | FY28 revenue | *"currently, let me tell you that we do not have an order… We missed out a few orders."* Guidance excludes it | 🕐 **No order** |
+| *(4-Nov)* Order book | Q2 call | ~₹200cr (*"INR 200 odd crores"*); *"healthy order position by the end of this year"* | 🕐 |
 
 **Verdict on management.** ***The operating record, on the little there is of it, is good: 55% revenue growth, operating cash flow turned positive, the working-capital cycle cut by 200 days, and Phase 1 capex delivered on time.*** **The moat they have built — the only complete-scope naval HVAC registration in India, and the only indigenised submarine system — is a genuine achievement and not one that can be quickly copied.**
 
@@ -302,6 +307,21 @@ A naval vessel is a sealed steel box full of people, electronics and machinery, 
 **On 31-Aug-2026 — the day before this profile — the board approved incorporation of a wholly-owned subsidiary, *"Aquilon Deep Chill Limited"* (name subject to MCA approval).** ***No purpose, capital or timeline was disclosed in the filing.*** *Given the name and the FY28 data-centre timeline, the obvious inference is that this is the data-centre cooling vehicle — **but that is my inference and the company has not said so.***
 
 ---
+### 📊 H1FY27 Refresh — Full Numbers Print (4-Nov-2026)
+
+*Sources: H1 results (28-Oct-2026; consolidated cash-flow page 15 rendered and read), press release (29-Oct), deck (30-Oct); official transcript of the 30-Oct call (filed 4-Nov, read; `Fetched Concalls/SHREEREFR/SHREEREFR_Transcript_2026-10.pdf`); Screener (half-yearly).*
+
+| ₹cr | H1FY27 | H2FY26 | H1FY26 | YoY |
+|---|---|---|---|---|
+| Revenue | **93** | 103 | 50 | **+86%** |
+| EBITDA | **13.6** | 27 | 6 | |
+| EBITDA margin | **~14%** (company: 13.5%) | 26% | 11% | |
+| PAT | **7** | 20 | 2 | 3.5x |
+
+**H1 cash flow (rendered, consolidated):** PBT ₹9.7cr → operating profit before WC ₹13.6cr → **inventories +₹25.0cr, receivables +₹23.1cr**, other current assets +₹6.0cr → cash from operations −₹37.3cr, tax −₹5.2cr → **net operating cash flow −₹42.5cr** (H1FY26 +₹7.4cr). Capex ₹11.9cr. Short-term borrowing +₹9.6cr. **Cash ₹57.7cr → ₹7.0cr.** *(The statement's title reads "half year ended 30th September, 2025"; the columns are H1FY27 / H1FY26 / FY26 — a typo in the filing.)*
+
+> **Read:** **revenue is ahead of guidance; margin and cash are far behind it.** The half consumed most of the post-IPO cash in inventory and receivables. Management's FY27 margin of ~22% needs an H2 margin near 28%, which the business last printed in FY25.
+
 ## 5. Connecting the Dots
 
 **Thread A — 🟢 The moat is narrow, deep and genuinely rare.** **The only Indian company allowed to supply the complete naval cooling package including its own control panel; the only one to have indigenised a submarine's HVAC.** *In a market with one customer and multi-year qualification cycles, that is close to structural.*
@@ -330,6 +350,7 @@ A naval vessel is a sealed steel box full of people, electronics and machinery, 
 |---|---|---|---|
 | **1-Sep-2026** *(v1 — added to the watchlist)* | **₹410** · mcap **₹1,469cr** | **MEDIUM-LOW** | Added at Rajat's request, into **Sector 1 with the sector definition widened** to cover defence platform systems. **🔴 Established that it reports HALF-YEARLY — no Q1FY27 exists; straight into the C2 bucket.** **🟡 Concall gate AMBER: ~3 calls since listing, but it does hold them and does file transcripts — creditable for a BSE-SME.** **🟢 The moat is real and rare: the only Indian firm with all three naval registrations (HVAC + AC/Ref plant + own control panel), the only one to have indigenised the Scorpene submarine HVAC system, and the first to bring oil-free magnetic-bearing chillers to the Indian Navy.** **🟢 FY26: revenue ₹153.5cr (+55.5%), PAT ₹21.4cr (+64.7%), operating cash flow turned positive, working capital ~570 → ~370 days, Phase 1 capex delivered.** **🔴 But EBITDA grew only 21.8% — margin fell ~27% → 21.4% — and guidance of 20–24% accepts the lower level.** **🔴 Two internal inconsistencies on the FY26 call: revenue growth stated as "150%" when it was 55%, and forward guidance given as both 20% and 40% CAGR within one answer.** **🟢 The 29-May resubmission of FY26 results was checked and is benign — a cash-flow presentation reclassification with net CFO and closing cash unchanged.** **🆕 31-Aug-2026: wholly-owned subsidiary "Aquilon Deep Chill Limited" approved, almost certainly the data-centre vehicle — though the filing does not say so.** **At 68.2x and 4.9% below the 52-week high.** |
 | **19-Sep-2026** *(filings refresh)* | **₹395** · mcap ₹1,415cr | **HELD at MEDIUM-LOW** | **CARE upgraded the bank facilities BB+ → BBB-/Stable (15-Sep) and stated an order book of ₹279.67cr at 30-Jun-2026; margin decline (−500 bps), 69% top-three concentration and a >250-day operating-cycle weakness repeated.** WTD regularised at the AGM. |
+| **4-Nov-2026** *(H1FY27 + call)* | **₹308** · mcap ₹1,101cr | **HELD at MEDIUM-LOW (Under Watch)** | **Revenue +86% but EBITDA margin 13.5% — the <18% trigger fired**; H1 operating cash −₹42.5cr, half-way to a second trigger; working capital 252 days by the company's count; no data-centre order. **−22% since 19-Sep.** |
 
 **The starting position in one line.** ***A genuine defence monopoly in a very small niche, executing well, priced for a data-centre business that management has explicitly said will not contribute until FY28.***
 
@@ -401,18 +422,41 @@ A naval vessel is a sealed steel box full of people, electronics and machinery, 
 **🟢 Upgrade to MEDIUM on:** **H1FY27 revenue above ₹75cr at a 22%+ margin, working capital below 300 days, and a first disclosed data-centre order.** ***To MEDIUM-HIGH would additionally need the margin back toward the 27% of FY25, which would mean the naval scope monopoly is being converted into pricing power rather than just volume.***
 
 ---
+### 📊 4-Nov-2026 — H1FY27 scored
+
+| Trigger ("any two" → SPECULATIVE) | H1FY27 | Fired? |
+|---|---|---|
+| H1FY27 EBITDA margin below 18% | **13.5%** | 🔴 **Yes** |
+| H1FY27 revenue below ~₹65cr | ₹93cr | ❌ |
+| Working capital above 450 days | 252 days (company) | ❌ |
+| Operating cash flow negative in FY27 | **H1 −₹42.5cr** | ⚠️ **Half-way — fires if H2 does not recover it** |
+| No data-centre order by the FY27 results | none yet | 🕐 May-2027 |
+| DII holding below 6% | *not checked — BSE-SME, no NSE XBRL; Sep pattern to be read from BSE* | — |
+
+**Upgrade to MEDIUM:** H1 revenue >₹75cr ✅ · 22%+ margin ❌ · WC <300 days ✅ *(company figure)* · a data-centre order ❌.
+
+**Re-priced (from ₹1,101cr), probabilities moved toward the bear case because H1's margin undercuts the base case's 22%:** base ₹1,480cr → **+34%** *(45%, was 50%)* · bull ₹3,300cr → **+200%** *(20%, was 25%)* · bear ₹450cr → **−59%** *(35%, was 25%)*. **Weighted ≈ +35%**, almost all of it in the bull tail. *My estimates.*
+
+**Conviction: HELD at MEDIUM-LOW, now Under Watch.** **One more trigger — most likely FY27 operating cash — moves it to SPECULATIVE.**
+
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — 🔴 The margin trend is the wrong way and it has been for two years.** **OPM 31% (FY24) → 27% (FY25) → 21.4% (FY26)**, with FY26 growing revenue 55% and EBITDA only 22%. **Guidance of 20–24% accepts the compressed level.** *If winning larger naval orders means bidding harder, the mix shift that drove growth is also what is killing the margin — and that trade continues.*
+
+> ⚠️ **MATERIALIZED (H1FY27):** EBITDA margin **13.5%** — the <18% trigger fired; management still guides ~22% for FY27.
 **⚠️ MATERIALISED, twice.**
 
 **Risk 2 — 🔴 68.2x earnings, 6.8x book, on ₹21.4cr of profit.** *A de-rate to 40x on unchanged FY26 earnings is **₹856cr, −42%, with nothing going wrong.***
 
 **Risk 3 — 🔴 Working capital at ~370 days.** *Even after a 200-day improvement, more than a year of revenue is tied up. **Government shipyard receivables do not shorten because you would like them to**, and the FY25 position of ~570 days shows how bad it can get.*
 
+> 🟡 **MIXED (H1FY27):** the company reports 252 days, yet H1 operating cash was **−₹42.5cr** as inventory and receivables each rose ~₹24cr.
+
 **Risk 4 — 🔴 One customer, effectively.** **The Indian Navy, its shipyards (Mazagon Dock) and its primes (Kongsberg) are the business.** *There is no commercial diversification to fall back on if a procurement cycle pauses — and the entire ₹2.35 lakh crore of naval approvals sits with one buyer whose timetable is political.*
 
 **Risk 5 — 🔴 The data-centre business is entirely prospective.** **Management explicitly excluded it from FY27 guidance; revenue is expected in FY28; the subsidiary was incorporated on 31 August 2026 and no purpose was even stated in the filing.** ***A large part of a 68x multiple is being paid for a business with no customer, no order and no disclosed plan.***
+
+> ⚠️ **CONFIRMED (30-Oct-2026):** *"we do not have an order… We missed out a few orders."*
 
 **Risk 6 — 🟡 Half-yearly reporting, three calls, one full listed year.** *There is no base rate. The H1FY27 print in November will be the first datapoint against which any guidance can be scored — and it will look weak against H2FY26 for structural seasonal reasons.*
 
@@ -448,6 +492,8 @@ A naval vessel is a sealed steel box full of people, electronics and machinery, 
 
 ## 9. Community Pulse
 
+**⤴ 4-Nov-2026:** ValuePickr topic 206635 (24 posts) last active 30-Aug-2026 — no discussion of H1FY27. The H1 call (Kaptify) drew questions on margins (Priyanshu Jain — answer: *"Good margins"*, no number) and receivables (NAFA Asset Managers).
+
 **ValuePickr — "Shree Refrigerations - SME", topic 206635. 24 posts, last activity 30-Aug-2026 — an active thread on a stock listed barely a year.**
 
 - **🟢 #22, Ankit_Bahuguna, 29-May-2026** — on the FY26 result: *"Latest result has been superb. I think **50% guidance they will surpass and sky is the limit once Data centre vertical gets kicked in.** How do you see the future after latest concall?"*
@@ -464,6 +510,8 @@ A naval vessel is a sealed steel box full of people, electronics and machinery, 
 ---
 
 ## Source Appendix
+
+- **🆕 H1FY27 (4-Nov-2026 refresh):** results 28-Oct (cash-flow page rendered), press release 29-Oct, deck 30-Oct; **official transcript of the 30-Oct call (filed 4-Nov), read**.
 
 - **🟡 Concall gate AMBER by source limit.** **Transcripts on file: 1-Jun-2026 (H2 & FY26, call held 26-May-2026 — read in full) and Nov-2025.** *Only about three calls exist since the 2025 listing.* **The company holds calls and files transcripts — unusual for a BSE-SME and creditable.**
 - **BSE announcements feed (544458), enumerated 1-Jan → 1-Sep-2026: 50 rows.** **`SLONGNAME` echoed as "Shree Refrigerations Ltd" on every query, per §4A.** **16 documents downloaded, `%PDF`-verified, deduplicated by md5 and text-extracted:**

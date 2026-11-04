@@ -256,6 +256,10 @@ That answer describes a guarantee **flowing to DYCL's bank** (Indo Krates pledgi
 | Enter the US market | Q3FY26 ("delayed by tariffs") | **First shipments dispatched Q1FY27**; US = 15% of exports | ✅ **Delivered, ~18 months late** |
 | Exports to reach 10% → 15% of revenue | Q4FY26 | FY26 exports **7%** and *declined* YoY; Q1FY27 13% | 🕐 In progress |
 | **New greenfield plant commissioning** | **See below** | **Still not commissioned** | 🔴 **MISSED — eight consecutive calls** |
+| *(4-Nov)* Value growth ~20% long-term | standing | **H1 revenue +31%, Q2 +29%** | ✅ |
+| *(4-Nov)* EBITDA margin ~10.5–11% | standing | **Q2 10.0%** (Q1 10.9%, Q2FY26 11.0%); gross margin *"from 20% plus to 16%–17%"* (analyst, unrefuted); management: judge on EBITDA, pass-through is normal | 🟡 **Slipping** |
+| *(4-Nov)* Volume growth | Q1 call | **~6% in Q2** (management) | 🔴 **Still mid-single-digit** |
+| *(4-Nov)* Receivables | Q1 call | **"Record low, less than 60 days"** on cum-GST sales | ✅ |
 
 ### 🔴🔴 The one serious blemish: the plant that keeps moving
 
@@ -271,6 +275,7 @@ This deserves its own table, because it is the clearest test of management's wor
 | Q3FY26 (Jan-2026) | *"expected to be commissioned by the **end of FY26**"* |
 | Q4FY26 (May-2026) | *"**September '26**"* |
 | Q1FY27 (Jul-2026) | *"commissioning to commence from **September '26**"* |
+| **Q2FY27 (Oct-2026)** | **Plant and machinery installed at Reengus (Reg 30, 26-Oct)**; *"with the commencement of production… installed production capacity will increase by approximately 20%"*; call: expected to *"start contributing from second half"*. *A ValuePickr note of an 8-Oct broker conference says management held back the start during Pitru Paksha.* **Production not yet announced as commenced.** |
 
 **A slip of roughly 15-18 months, acknowledged by an analyst on the Q4FY26 call and conceded by management:** *"there has been a delay in the capex, so there is no two doubts about it."*
 
@@ -395,6 +400,25 @@ H1FY27 must come off existing capacity; H2 gets the new plant into the seasonall
 
 ---
 
+### 📊 Q2FY27 Refresh — Full Numbers Print (4-Nov-2026)
+
+*Sources: results and press release (27-Oct-2026); official transcript of the 27-Oct call (filed 29-Oct, read; `Fetched Concalls/DYCL/DYCL_Transcript_2026-10.pdf`); Reg 30 filings 26/27-Oct; Screener (standalone — the consolidated page carries no data).*
+
+| ₹cr | Q2FY27 | Q1FY27 | Q2FY26 | YoY | H1FY27 | H1FY26 | YoY |
+|---|---|---|---|---|---|---|---|
+| Revenue | **363.2** | 349.1 | 281.6 | **+29%** | 712.3 | 543.6 | +31% |
+| Operating profit | **36.3** | 38.0 | 30.8 | +18% | 74.3 | 57.8 | +29% |
+| Operating margin | **10.0%** | 10.9% | 11.0% | −100 bps | 10.4% | 10.6% | |
+| PAT | **22.1** | 25.0 | 19.6 | +13% | 47.1 | 37.9 | +24% |
+
+**Order book ~₹829cr** (call). **H1 revenue mix:** private 69%, government 23%, export 8%. **Volume growth ~6% in Q2**; the rest is price. Receivable days *"record low, less than 60 days"*. Finance cost up on working-capital borrowing — *"nothing to do with the new facility"*, which has no specific debt.
+
+**Five quarters (Screener):** sales 282 / 299 / 355 / 349 / **363**; OPM 11% / 11% / 11% / 11% / **10%**; PAT 20 / 22 / 24 / 25 / **22**.
+
+**🔴 BSE fine:** for not filing the Jun-26 shareholding pattern within 21 days (Reg 31); the Board's comments were filed 27-Oct. *A routine lapse, but the profile's shareholding table depends on that filing.*
+
+> **Read:** **revenue keeps growing at ~30% while volume grows ~6%** — the profile's central finding (price, not volume) is unchanged. The margin slipped 100 bps, and the plant, now installed, has not yet started.
+
 ## 5. Connecting the Dots
 
 The threads reinforce each other **only if the plant lands.**
@@ -424,6 +448,7 @@ The threads reinforce each other **only if the plant lands.**
 |---|---|---|---|---|
 | **18-Aug-2026** | **Medium** | **₹465** | **~+30%** *(base +26% / bull +103% / bear −48%)* | **Initiated.** Elite capital efficiency (26% ROCE, 20% ROE, near-debt-free) and the cheapest listed cable multiple at 24.7x — **against volume growth of 5-6%, a flat order book, and a greenfield plant 15-18 months late** |
 | **19-Sep-2026** *(filings refresh)* | **HELD at Medium** | **₹457** | *(~+30% at ₹465; not re-derived)* | **FY26 annual report read: the ₹344.75cr related-party guarantee claim has no support in the audited notes; the ₹5cr related-party collateral is released; total contingent liabilities ₹207.52cr.** Senior QA manager resigned (10-Sep). Stock −1.7%. |
+| **4-Nov-2026** *(Q2FY27 + call)* | **HELD at Medium** | **₹352** | **~+72%** *(re-priced; assumptions unchanged)* | Revenue +29%, **volume ~6%**, margin 10.0% (11.0%), order book ₹829cr; plant installed, production not yet commenced. **No downgrade trigger fired; volume is sitting on one.** BSE fine for a late shareholding filing. |
 
 ### (b) The dated baseline
 
@@ -528,14 +553,27 @@ FY28 revenue ~₹1,300cr, PAT margin 6.0% → **PAT ~₹78cr** at **15x** → **
 
 ---
 
+### 📊 4-Nov-2026 — Q2FY27 scored
+
+**Where it trades (Screener, 4-Nov-2026):** CMP **₹352** · market cap ₹1,709cr · P/E 18.2x (24.7x at initiation) · **−24% since 18-Aug.**
+
+**Triggers:** plant slips beyond December 2026 — 🕐 *installed 26-Oct; not yet commenced* · order book below ₹750cr — ❌ (₹829cr) · **FY27 volume growth stays mid-single-digit — ⚠️ Q2 ~6%; one more quarter like it fires this.** **Upgrade:** plant commissioned and ramping — ❌ not yet · double-digit volume for two quarters — ❌ · the ₹344.75cr guarantee question — ✅ answered 19-Sep.
+
+**Re-priced on the unchanged 18-Aug cases (from ₹1,709cr):** base ₹2,832cr → **+66%** · bull ₹4,576cr → **+168%** · bear ₹1,170cr → **−32%**. **Weighted ≈ +72%** *(0.55 × 66 + 0.25 × 168 − 0.20 × 32)*. ***Almost all of the move from +30% is the 24% price fall; nothing in Q2 makes the base case more likely — the Q2 net margin (6.1%) is below the base case's 7.0%.***
+
+**Conviction: HELD at MEDIUM.** **Watch:** whether production starts before December, and Q3 volume.
+
 ## 7. What Could Prove Us Wrong
 
 1. **🔴 Volume growth never recovers.** The single biggest risk. If 5-6% is the real run-rate rather than a base/deferral artefact, then the 18-20% guidance is an aluminium illusion and the stock is not cheap at 24.7x — it is fairly priced for a 6% grower.
+   > ⚠️ **ACCUMULATING (Q2FY27):** volume ~6% while revenue +29%.
 2. **🔴 Aluminium reverses.** Revenue falls mechanically. Management have already noted *"we have already seen a reversal in raw material prices."* Margin is protected; the optics are not.
 3. **🔴 The plant slips a ninth time.** Eight consecutive misses is a pattern, not bad luck. Every quarter of delay is a quarter of capacity rationing with the order book already flat.
+   > 🕐 **4-Nov-2026:** machinery installed (26-Oct), production not yet announced; the December trigger is live.
 4. **⤴ 19-Sep-2026: the ₹344.75cr related-party guarantee question is answered — no support in the FY26 audited notes (contingent liabilities ₹207.52cr; related-party collateral ₹5cr → nil).** *Original:* 🔴 The ₹344.75cr related-party guarantee question is unresolved. Against ₹457cr of net worth. Until the FY26 AR is read, this is an unquantified governance exposure. **Not an allegation — an open item.**
 5. **🟡 Adani and Birla enter B2B power cables in earnest.** Management's answer amounted to *"we'll wait and watch."* Approval cycles protect DYCL for perhaps 2-3 years, not forever.
 6. **🟡 Working capital keeps absorbing the cash.** WC days 56→74→82; FY26 FCF ₹4cr. Growth from here needs either working capital release or fresh borrowing.
+   > ✅ **EASING (30-Sep-2026):** receivable days *"less than 60"*, a record low; finance cost rose on working-capital borrowing.
 7. **🟡 Key-man and family-governance concentration.** One MD carries the operating story; five family members in senior roles; two independent directors.
 8. **🟡 Customer concentration is undisclosed.** Cannot be assessed. That is itself a finding.
 9. **🟡 Institutional ownership of 1.65% means no external scrutiny** and severe liquidity risk on any exit.
@@ -561,6 +599,8 @@ But the scoreboard right now is moving faster than he is batting. **Revenue up 3
 
 ## 9. 📢 Community Pulse
 
+**⤴ 4-Nov-2026 — ValuePickr topic 94031 (50 posts, last 27-Oct-2026):** #47 (SahilPatani, 8-Oct): management told the Arihant Bharat Connect conference *"while the plant is ready, they do not want to commence operations in the ongoing lunar period"*, expecting *"an announcement soon after October 10"* — 🟡 *no announcement had come by 4-Nov.* #49 (shyamutty, 27-Oct): results summary — 🟢. #50 (hirakroy123, 27-Oct): *"margin dropped… US export orderbook also impacted due to high shipping cost… don't think margin will improve this year"* — 🔴. **Sentiment: 🟡 MIXED.**
+
 *Refreshed each review cycle. **Partial scan at initiation, 18-Aug-2026.***
 
 **ValuePickr — the one substantive third-party contribution, and it is the most important open item in this profile.**
@@ -577,6 +617,8 @@ But the scoreboard right now is moving faster than he is batting. **Revenue up 3
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (4-Nov-2026 refresh):** results and press release 27-Oct; **official transcript of the 27-Oct call (filed 29-Oct), read**; Reg 30 plant-installation notice 26-Oct; BSE fine and Board comments 27-Oct; ValuePickr topic 94031 posts #47–50.
 
 - **Concalls read (8 transcripts — gate 🟢 GREEN, exceeds the 6-call standard):** Q1FY27 (20-Jul-2026, read in full), Q4FY26 (12-May-2026, read in full), Q3FY26 (27-Jan-2026, read in full), Q2FY26 (Oct-2025), Q1FY26 (Jul-2025), Q4FY25 (May-2025), Q3FY25 (Feb-2025), Q2FY25 (Oct-2024). All hosted by **PhillipCapital India**. All fetched to `Fetched Concalls/DYCL/` on 18-Aug-2026 via `curl` → Screener-parsed BSE UUIDs → BSE `AttachLive`/`AttachHis`, extracted with `pdftotext -layout`.
 - **Investor decks:** Q4FY26 (2 files), Q3FY26, Q1FY26.

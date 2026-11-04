@@ -1,7 +1,7 @@
 # Shree Pushkar Chemicals & Fertilisers Limited (SHREEPUSHK)
 
 **Sector 4 — Chemicals (Diversified & Specialty)** *(dashboard label: "Diversified Chemicals", beside DCM Shriram)*
-**Thesis current as of: 16-Sep-2026 · Tracking since: 16-Sep-2026**
+**Thesis current as of: 16-Sep-2026 · Tracking since: 16-Sep-2026** · **🔵 HELD POSITION** *(disclosed 4-Nov-2026)*
 
 <!-- SINCE-BASELINE:START -->
 **📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 595** · market cap ₹ 1,927 Cr. · P/E 21.5x · ROCE 12.9 % · ROE 12.1 % · 52-wk ₹ 653 / 272 · **vs ₹507 at baseline (+17.4%)**

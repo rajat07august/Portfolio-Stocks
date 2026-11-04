@@ -226,8 +226,12 @@ The Rayani family, a Mumbai-based Khoja/Ismaili business family *(community is m
 | "Completely debt-free company" | 2022–23 | Borrowings ₹111cr at Mar-26 (ICRA: largely lease liabilities); cash & bank ₹144cr at Sep-25 | 🟡 |
 | Near-term *"demand softness"*, *"more pronounced impact"* on Q4FY26 and FY27 (via ICRA) | 15-May-2026 | Q4FY26 OPM **11.1%**; Q1FY27 OPM **22.4%**, PAT +625% | 🔴 *wrong, in the favourable direction* |
 | Hold earnings calls (quarterly practice 2021–23) | — | **Last call 9-Nov-2023.** One meet cancelled (22-Feb-2024); no call through the best quarter in company history | 🔴 |
+| *(4-Nov-2026)* Q2FY27 disclosure | Q2FY27 | **Results only — no call, no press release, no deck, no explanatory notes beyond the five boilerplate ones; the filing is a scan** (rendered to read) | 🔴 **Still dark** |
+| *(4-Nov-2026)* ICRA's FY27 "softness" | FY27 | **H1 PAT ₹552cr against ₹212.5cr for all of FY26** | 🔴 **Wrong direction, again — upward** |
 
 ### One-line verdict on management
+
+**⤴ 4-Nov-2026:** **a second windfall quarter, reported with no commentary at all.** Nothing in the Q2 filing explains the margin, the ₹427cr receivables build or a third quarter of employee cost at ~3–4x last year's level. *The verdict below stands.*
 
 **Owner-operators who have compounded book value without leverage and bought their own stock, but whose forecasts have been unreliable in both directions, who stopped holding calls after three margin-guidance cuts, and who pay themselves a ₹16cr "additional salary" that rose ~50% in a year when profit rose 14%.** Trust the balance sheet; do not trust the guidance; read the remuneration note every year.
 
@@ -352,6 +356,36 @@ The Rayani family, a Mumbai-based Khoja/Ismaili business family *(community is m
 
 ---
 
+### 📊 Q2FY27 Refresh — Full Numbers Print (4-Nov-2026)
+
+*Source: results filing 4-Nov-2026 — a scan with a garbled OCR layer; the consolidated P&L, balance sheet and cash flow pages were rendered and read (§4A part C). There is no call, release or deck. Ratios are my arithmetic from the filed lines.*
+
+| ₹cr, consolidated | Q2FY27 | Q1FY27 | Q2FY26 | YoY |
+|---|---|---|---|---|
+| Revenue from operations | **1,722.3** | 1,735.2 | 773.2 | **+123%** |
+| Materials + traded goods + inventory change | 1,251.7 | 1,194.1 | 646.2 | |
+| **Gross margin** | **27.3%** | 31.2% | 16.4% | |
+| Employee benefits | **32.3** | 40.3 | 10.4 | **3.1x** |
+| Other expenses | 142.7 | 112.9 | 48.0 | 3.0x |
+| **EBITDA ex other income** | **295.7 (17.2%)** | 387.9 (22.4%) | 68.7 (8.9%) | |
+| PBT | 294.5 | 382.6 | 64.7 | |
+| **PAT** | **243.3** | 308.9 | 53.0 | **+359%** |
+| EPS (₹) | 40.22 | 51.06 | 8.76 | |
+
+**H1FY27:** revenue ₹3,457.5cr (₹1,466.4cr), **PAT ₹552.3cr against ₹95.6cr in H1FY26 and ₹212.5cr for all of FY26**; EPS ₹91.28.
+
+**H1 cash flow:** operating profit before working capital ₹688.7cr → **trade receivables +₹427.0cr**, inventories −₹103.2cr, loans and advances +₹49.3cr → **operating cash flow ₹342.7cr** after ₹65.1cr of tax. Investing: capex ₹40.8cr, investments ₹37.3cr, **₹98.8cr into bank deposits**. Dividend ₹18.0cr. Cash and equivalents ₹71.4cr → ₹188.5cr.
+
+**Five quarters (Screener, consolidated):**
+
+| | Sep-25 | Dec-25 | Mar-26 | Jun-26 | **Sep-26** |
+|---|---|---|---|---|---|
+| Revenue | 773 | 775 | 823 | 1,735 | **1,722** |
+| OPM | 9% | 8% | 11% | 22% | **17%** |
+| PAT | 53 | 46 | 71 | 309 | **243** |
+
+> **Trajectory read:** **the margin has started to come down (31% → 27% gross) but is still roughly double a normal quarter.** Revenue held flat QoQ at twice last year's level, so prices have not yet fallen back; Brent front-month has eased to ~$102 since. **Half the windfall's cash is sitting in receivables.**
+
 ## 5. Connecting the Dots
 
 **The chain is: crude and base-oil price → inventory value → gross margin → PAT, with volume and mix a distant second.**
@@ -375,6 +409,7 @@ The Rayani family, a Mumbai-based Khoja/Ismaili business family *(community is m
 | Date | Conviction | Rationale |
 |---|---|---|
 | **19-Sep-2026** | **MEDIUM-LOW** *(initiation)* | A clean-balance-sheet, family-run base-oil processor with a port-side Gulf plant and promoter buying through 2023–24, against a windfall-driven Q1FY27 (22% OPM against 8–9% normal, mirrored exactly at peer Savita), five years of flat volume, three margin-guidance cuts (Nov-22, Feb-23, Nov-23) followed by 34 months without an earnings call, an unexplained 4.6x jump in Q1 employee cost, ~50% raises to a ₹16cr family "additional salary", and a stock already up 87% from its March low |
+| **4-Nov-2026** | **HELD at MEDIUM-LOW** | Q2FY27: PAT ₹243cr, H1 ₹552cr (2.6x FY26). One 'up' signal met (Q2 OPM ≥12%, no write-down visible) but **calls have not resumed**, which the upgrade needs; no 'down' signal met. Receivables +₹427cr is the new watch item. |
 
 ### Material developments at initiation: the last twelve months
 
@@ -456,9 +491,29 @@ The Rayani family, a Mumbai-based Khoja/Ismaili business family *(community is m
 
 ---
 
+### 📊 4-Nov-2026 — Q2FY27 scored, and the scenarios re-derived
+
+**Where it trades (Screener, 4-Nov-2026 close):** CMP **₹458** · market cap ₹2,777cr · **P/E 4.15x** TTM (windfall) · **−2.6% since the 19-Sep baseline.**
+
+**Re-rate signals (above):** **Up** — Q2 OPM ≥12% with no inventory write-down: ✅ *met* (17.2%; no write-down disclosed) · calls resumed: ❌ · special dividend/buyback: ❌ · UAE expansion with a cost: ❌ · ICRA upgrade: ❌. **Down** — Q2/Q3 OPM below 7%: ❌ · higher family pay: 🟡 *unconfirmed — employee cost ₹32.3cr vs ₹10.4cr, H1 ₹72.6cr vs ₹19.1cr, unexplained* · windfall into property/non-core: ❌ not visible · CFO negative: ❌ (H1 +₹343cr).
+
+**Scenarios — re-derived** *(my estimates; per share on 6.05cr shares; the 19-Sep set is above).* **What changed: H1 PAT (₹552cr) is already above the old base case's full-year FY27 (₹450cr), so FY27 is now running near the old bull case.**
+
+| Scenario | Prob. | FY27 PAT | FY28 PAT × multiple | Surplus cash retained | Value / share | From ₹458 |
+|---|---|---|---|---|---|---|
+| **Base** | 55% | ~₹650cr (H2 gives back most of the spread) | ₹250cr × 11x = ₹2,750cr | ~₹350cr | **~₹512** | **+12%** |
+| **Bull** | 25% | ~₹800cr | ₹320cr × 12x = ₹3,840cr | ~₹550cr | **~₹726** | **+58%** |
+| **Bear** | 20% | ~₹480cr (H2 near loss) | ₹170cr × 9x = ₹1,530cr | ~₹250cr | **~₹294** | **−36%** |
+
+**Weighted 2-year return ≈ +14%** *(0.55 × 12 + 0.25 × 58 − 0.20 × 36)*, plus ~0.6% yield. ***The retained-cash column assumes the ₹427cr of H1 receivables is collected; if it is not, every case loses ~₹70/share.***
+
+**Conviction: HELD at MEDIUM-LOW.** The windfall is larger and longer than modelled, but **the things that would make it a business rather than a weather report — calls, volumes, a stated use of the cash — are still absent.** *Next test: Q3 gross margin as crude eases, and whether receivables come back.*
+
 ## 7. What Could Prove Us Wrong
 
 **1. 🔴 The windfall reverses.** Three months of inventory is a double-edged sword. **A fast crude fall marks down stock just as the fixed-price half of the contract book lags.** The FY22 cycle faded over three years; a sharp Hormuz resolution could reverse this one within a quarter. The ~₹95cr of stock Panol built in Q1 is the immediate exposure.
+
+> ⚠️ **BEGINNING? (4-Nov-2026):** gross margin 31.2% → 27.3% QoQ; Brent front-month ~$102 from ~$111.
 
 > 📈 **Factor check 4-Nov-2026:** Possibly beginning: Brent front-month is ~$102, down from ~$111 on 23-Oct and 13.5% below its 52-week high (World Bank October average ~$125 — sources disagree on level); Q2FY27 gross margin stepped down from 31% to 27% (my arithmetic). *(Numbers and sources: Input & factor check, at the top.)*
 
@@ -466,7 +521,11 @@ The Rayani family, a Mumbai-based Khoja/Ismaili business family *(community is m
 
 **3. 🔴 No calls, no volumes, no mix.** Thirty-four months without an earnings call; volume, value-added share, end-market split and capacity all undisclosed since 2023. **Every judgement in this profile about Q1 is inference from P&L lines.** A company that held quarterly calls through 2021–23, then stopped after three margin-guidance cuts, is choosing when to speak.
 
+> ⚠️ **ACCUMULATING (4-Nov-2026):** thirty-six months without a call; the Q2 filing is a scan with five boilerplate notes.
+
 **4. 🔴 Promoter pay is rising faster than profit, and may absorb the windfall.** ₹16cr "additional salary" on top of fixed pay, +39–53% raises in FY26, 141–155x the median employee, and an unexplained ₹25cr jump in Q1 employee cost. **If a meaningful share of the windfall is paid out as family pay rather than to shareholders, the retained-cash leg of the thesis shrinks.**
+
+> ⚠️ **ACCUMULATING (4-Nov-2026):** consolidated employee cost ₹32.3cr in Q2 (₹10.4cr a year ago), **H1 ₹72.6cr vs ₹19.1cr** — still unexplained.
 
 **5. 🔴 Guidance has been unreliable.** 15–20% growth (actual 5%); 13–16% margin, cut three times (actual 9%); +30kt a year (actual ~15kt in three years); 20% payout policy (actual 9–13%); FY27 "softness" (actual 22% OPM). **Nothing management says forward should carry weight in a model.**
 
@@ -474,11 +533,15 @@ The Rayani family, a Mumbai-based Khoja/Ismaili business family *(community is m
 
 **7. 🟡 Working capital consumes cash at high prices.** FY26 CFO −₹69cr before the price spike; ICRA warns suppliers now want advance payments. At twice the price per tonne, the same three months of inventory ties up twice the money.
 
+> ⚠️ **MATERIALIZED (H1FY27):** trade receivables **+₹427cr** in six months; operating cash ₹343cr on ₹677cr of PBT.
+
 **8. 🟡 Competition and low entry barriers**, in ICRA's words: *"Companies mostly focus on volume, which leads to competitive pricing."* When scarcity ends, the price competition returns.
 
 **9. 🟡 Gulf concentration cuts both ways.** Panol is ~36% of revenue and was the biggest windfall winner. **A prolonged regional conflict that shuts rather than merely disrupts the Ras Al Khaimah plant or its shipping** would convert the advantage into a stranded asset, and the ₹160cr parent guarantee sits behind it.
 
 **10. 🟡 Capital allocation after a windfall.** The first visible use of FY27-scale cash was a ₹41.6cr Bandra office. **Watch the next ₹100cr.**
+
+> 🟡 **4-Nov-2026:** H1 uses visible in the cash flow — ₹98.8cr into bank deposits, ₹37.3cr of investments (unnamed), ₹40.8cr capex, loans and advances +₹49.3cr. **Nothing non-core identified, but the investments and loans are not itemised.**
 
 ---
 
@@ -497,6 +560,8 @@ The Rayani family, a Mumbai-based Khoja/Ismaili business family *(community is m
 **Coverage is almost nil, and it stops before the most important quarter in the company's history.**
 
 ### ValuePickr: thread #74530, *"Panama Petrochem - Bulk to Specialty with Capex & Maiden Con Call"*
+
+**⤴ 4-Nov-2026 check:** still 15 posts, the last on 18-Nov-2023 — **no community discussion of either windfall quarter.** Substack not re-searched.
 **15 posts · opened 27-Dec-2021 · last post 18-Nov-2023.** The thread went silent at the same time as the earnings calls.
 
 | # | Date | Author | Content | Sentiment |
@@ -530,6 +595,8 @@ No published broker initiation identified. The 2022–23 calls drew mostly indiv
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (4-Nov-2026 refresh):** results filing 4-Nov-2026 (scan; pages 10–13 rendered and read). No call, press release or deck exists.
 
 - **Concalls read (6 distinct calls, all read in full; AMBER gate because the most recent is 34 months old):** **Q2FY24 (9-Nov-2023, latest)** · **Q4FY23 (31-May-2023)** · **Q3FY23 (10-Feb-2023)** · **Q2FY23 (15-Nov-2022; the Revised Transcript of 18-Nov-2022 is quoted)** · **Q1FY23 (Aug-2022)** · **Q4FY22 (31-May-2022)**. Downloaded from BSE via Screener-listed UUIDs, verified `%PDF`, extracted with `pdftotext -layout`. Stored in `Fetched Concalls/PANAMAPET/`.
   - **Revised transcript, per §4A:** the Q2FY23 call was filed twice (17-Nov and 18-Nov-2022). Saved as `_SUPERSEDED` and `_REVISED`; bodies diffed. **The revision re-attributes several analyst questions from "Amirali Rayani" to "Hussein Rayani" and fixes typos ("tail" → "tame" inflation; "2 months data" → "2 months debtors"). No substantive change.**

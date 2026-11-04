@@ -1,7 +1,7 @@
 # DCM Shriram — Company Profile
 
 **Ticker:** DCMSHRIRAM · BSE: 523367 · NSE: DCMSHRIRAM · **Sector:** 4 — Chemicals (Diversified & Specialty)
-**Conviction:** **⤴ MEDIUM-LOW (Under Watch)** *(M → ML, 4-Nov-2026: Bioseed still loss-making in Q2FY27 — PBDIT −₹41cr — the profile's own downgrade trigger)* · was **MEDIUM (Under Watch)** · **Weighted 2-yr return:** ~+9.7% · **Div yield:** 1.04%
+**Conviction:** **HELD at MEDIUM (Under Watch)** *(Q2FY27 scored 4-Nov-2026 — ⤴ CORRECTED the same day: an ML downgrade was first applied on the Bioseed trigger in PORTFOLIO_STATE; this profile's own §5.5(a) triggers did not fire and its base case already writes Bioseed off for FY27 — §5.5(d))* · **Weighted 2-yr return:** ~+9.7% · **Div yield:** 1.04%
 **Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 21-Aug-2026)* · **Tracking since:** 3-Jul-2026
 **CMP:** ₹1,082 · **Market Cap:** ₹16,901 cr · **P/E (reported):** 12.3x · **P/B:** 2.19x (BV ₹495) · **ROCE:** 11.5% · **ROE:** 11.5% · **52-wk range ₹945–₹1,414** *(Screener consolidated, 21-Aug-2026)*
 
@@ -13,7 +13,7 @@
 **📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 904** · market cap ₹ 14,082 Cr. · P/E 10.7x · ROCE 11.5 % · ROE 11.5 % · 52-wk ₹ 1,328 / 867 · **vs ₹1,082 at baseline (-16.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🔴 M → ML: Bioseed PBDIT −₹41cr fires the profile's trigger; Q2 PBDIT flat ex last year's one-offs; ₹325cr of new capex; caustic contradiction resolved · (earlier: 🆕 ⚪ Q2 call 28-Oct · (earlier: ⚪ Q2 results 26-Oct; interim dividend record date 30-Oct · (earlier: 🟢 Two chlorine-downstream plants commissioned at Jhagadia (30-Sep) — aluminium chloride and calcium chloride, which is the company acting on the weak leg of the ECU · (earlier: No filings at all on either exchange in the window — verified. The caustic price contradiction stays open to Q2FY27 · (earlier in window: Kota aluminium-extrusion plant commissioned; ICRA AA+/Stable reaffirmed with higher limits; stock −8% toward its 52-week low)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🔴 HELD at M (Under Watch) — ⤴ an ML downgrade applied earlier on 4-Nov was reversed (see the Q2FY27 refresh in §4/§6); Bioseed PBDIT −₹41cr; Q2 PBDIT flat ex last year's one-offs; ₹325cr of new capex; caustic contradiction resolved · (earlier: 🆕 ⚪ Q2 call 28-Oct · (earlier: ⚪ Q2 results 26-Oct; interim dividend record date 30-Oct · (earlier: 🟢 Two chlorine-downstream plants commissioned at Jhagadia (30-Sep) — aluminium chloride and calcium chloride, which is the company acting on the weak leg of the ECU · (earlier: No filings at all on either exchange in the window — verified. The caustic price contradiction stays open to Q2FY27 · (earlier in window: Kota aluminium-extrusion plant commissioned; ICRA AA+/Stable reaffirmed with higher limits; stock −8% toward its 52-week low)))))</span></summary>
 <div class="upd-body">
 
 **🔴 23-Oct → 4-Nov-2026 — Q2FY27: revenue +22%, PAT −33%; Bioseed loss widens and the downgrade trigger fires**
@@ -22,6 +22,8 @@
 **Board, 26-Oct:** capex of up to **₹145cr** (solar for the Kota vinyl plant), **₹120cr** (one extra electrolyser each at Kota and Bharuch — caustic debottlenecking), **₹60cr** (cement-plant filter presses); up to **₹50cr equity into the Shriram Teknor JV** (₹133cr project: speciality PVC, medical and halogen-free compounds). Interim dividend ₹4. LIC nominee changed (Salil Vishwanath from 1-Nov). ICRA reaffirmed AA+ (Stable) on 30-Oct. The ~68 MW JSW wind-solar hybrid SPV is fully commissioned (29-Oct). **Net debt ₹917cr vs ₹773cr a year ago.**
 **The caustic question in §4B rule 4 is answered.** On the call management said caustic prices *"corrected in line with global markets"* while *"chlorine prices have moved up"* — the gain is in ECU, not caustic. Tijori's caustic soda lye is now **−10.9% over three months and −22.8% in the last month**. The September spike in the market series never reached DCM's realisations.
 > **Why it matters:** **The profile's own trigger did the work: "downgrade to ML if Bioseed still loss-making in Q2FY27" — it lost ₹41cr.** The core is steadier than the headline (PBDIT flat ex one-offs), but the screen still carries ~₹550cr of non-operating H1 profit. CMP ₹904 is above the ₹790–800 re-upgrade level.
+
+> **⤴ CORRECTED later on 4-Nov-2026 — the downgrade above is reversed.** The trigger quoted is the one in PORTFOLIO_STATE (set 29-Jul). **This profile's own downgrade list (§5.5(a), 1/21-Aug) is ECU below ₹30,000, the demerger stalling, or leverage near 1.5x — none fired:** Q2 ECU was **₹32,774/MT**, management says the demerger is at *"a pretty advanced stage"*, net debt is ₹917cr. And the base case already assumed *"Bioseed written off in FY27"*, so a Q2 loss is not new. **HELD at MEDIUM (Under Watch).** Full scoring in §6.
 
 *Sweep: NSE announcements, 23-Oct → 4-Nov-2026 (4-Nov evening filings re-checked at 18:04 IST); market data Screener 4-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
@@ -267,12 +269,21 @@ The 30-second snapshot:
 | **Demerger** | *"announced a few quarters back"* | **Reaffirmed on the Q1FY27 call with a target: *"our objective is yes, we make the application to the government in this financial year."*** Still no completion timeline | 🕐 **Live, unproven** |
 | **Chlorine integration** | Q1FY27 | **50% captive after current projects; ~85% tied up including Bharuch pipeline partnerships** | 🕐 **Quantified** |
 | Board renewal | 3-Jul → 18-Aug-2026 | **Two IDs out on scheduled term completion, two in, shareholder-approved.** Orderly | ✅ |
+| **AlCl₃ / CaCl₂ commissioning** | Q2FY27 | **Aluminium chloride commissioned; calcium chloride partially commissioned** at Bharuch (Q2 press release) | 🟡 **One and a half of two** |
+| **68 MW Kota wind-solar hybrid** | *ramping in Q1* | **Fully commissioned** (Reg 30, 29-Oct-2026) | ✅ |
+| **Fenesta aluminium extrusion** | Q2FY27 | **Phase I commissioned at Kota** (press release, 26-Oct) | ✅ |
+| **Net debt ~₹1,450cr by FY27 exit** | *set on the Q1 call* | **₹917cr at 30-Sep-2026** (₹773cr a year ago) — helped by the ₹474cr tax refund | ✅ **Ahead** |
+| **Demerger application "in this financial year"** | FY27 | Q2 call: *"now we are in a pretty advanced stage. So, we hope to, you know, get it to the Board very soon."* **Not yet at the Board** | 🕐 **Still live** |
+| **ECU (the 1-Aug open question)** | Q2FY27 | **₹32,774/MT, +5.7% YoY, −8% QoQ** (deck; series now includes flakes). The feared ~16% fall did not happen | ✅ **Above ₹30,000** |
+| **Bioseed** | FY27 | **Q2 PBDIT −₹41cr vs −₹7cr** — El Niño, doubtful-debt provisions, Philippine seed discards | 🔴 **As the base case assumed** |
 
 **Verdict on management.**
 
 **Capital allocation and disclosure are both good, and the promoter record is exceptional** — twelve quarters without a basis point of dilution, a 137-year family business, AA+ maintained through a ₹1,000cr-a-year capex programme with debt/EBITDA held at 1.1x against a self-imposed 1.5x ceiling. **They answer hard questions directly:** the CFO explained the tax mechanics in detail unprompted, conceded the Fenesta order-intake flag, and said of Bioseed *"the large part of it is lost"* rather than hedging.
 
 **What holds the verdict back is that the aggregate has not compounded.** **ROCE 11.5%, three-year profit CAGR −1%.** Two consecutive quarters of headline profit driven by prior-period tax credits make the reported numbers actively misleading, and **the most important structural fix — the demerger — was announced several quarters ago and still has no completion timeline.** *Management is clearly aware of the problem. Awareness has not yet become an event.*
+
+**⤴ Q2FY27 verdict (4-Nov-2026):** **the execution promises are being kept** — Kota RE fully commissioned, extrusion and aluminium chloride live, net debt well under guidance — **but the core segment's profit fell hard** (Chemicals PBDIT −38%) and **the demerger is still "very soon".** Management answered the caustic question directly on the call, which is to its credit.
 
 ---
 
@@ -480,6 +491,47 @@ Asked where caustic prices are heading, **Aditya Shriram (Deputy MD)**:
 
 ---
 
+### 📊 Q2FY27 Refresh — Full Numbers Print (4-Nov-2026)
+
+*Sources: consolidated results, press release and deck (26-Oct-2026); official call transcript filed 3-Nov-2026 and read (`Fetched Concalls/DCMSHRIRAM/DCMSHRIRAM_Transcript_2026-10.pdf`); Screener quarterly table.*
+
+| ₹cr | Q2FY27 | Q2FY26 | YoY |
+|---|---|---|---|
+| Revenue (net of excise) | **3,977** | 3,272 | **+22%** |
+| PBDIT | **319** | 408 | **−22%** |
+| PBDIT ex last year's one-offs *(my arithmetic: Q2FY26 less ₹76cr Gujarat incentive and ₹15.5cr sugar power-rate revision)* | **319** | ~317 | **≈ flat** |
+| PAT | **106** | 159 | −33% |
+| Net debt (30-Sep) | **917** | 773 | +19% |
+
+**H1FY27:** revenue ₹7,541cr (+15%), PBDIT ₹683cr (₹734cr); reported PAT ₹799cr **includes a ₹474.3cr tax adjustment and ₹79.4cr of exceptional gains — the company's own "effective normal PAT" is ₹253cr.**
+
+**Segments, Q2FY27 (press release and deck):**
+
+| Segment | Revenue | YoY | PBDIT | Note |
+|---|---|---|---|---|
+| **Chemicals** | **₹1,342.9cr** | +47% | **₹157.7cr vs ₹254.5cr (−38%)**, margin **11.7% vs 27.9%** | Caustic volume +2.4%, **ECU ₹32,774 vs ₹31,020 (+5.7%)**; new products (H₂O₂, AlCl₃, epoxy chain) add revenue at lower margin; gas-linked costs up. Even ex the ₹76cr incentive in the base, PBDIT is −12% |
+| Vinyl | ₹234cr | +20% | — | Volumes and realisations up |
+| Sugar & Ethanol | ₹1,023cr | +10% | **₹62cr (+85%)** | Higher domestic sugar prices; ethanol volumes +24% (timing) |
+| Fenesta | ₹344cr | +22% | ₹49cr (+15%) | Projects-led; Kota extrusion phase I live |
+| Shriram Farm Solutions | ₹423cr | −10% | — | *"one of the weakest monsoons in a decade"* |
+| Fertiliser | ₹502cr | +40% | ₹25cr (+25%) | Gas-linked realisations |
+| **Bioseed** | ₹73cr | −15% | **−₹41cr vs −₹7cr** | El Niño in India and the Philippines; provisions; seed discards |
+
+**ECU by month (deck, ₹/MT, now including flakes):** Apr 36,889 · May 36,211 · Jun 34,358 · **Jul 32,742 · Aug 32,511 · Sep 33,056.** Import caustic (CFR) $390/t in September against $538 in April. ***The July comment of "just below ₹30,000" does not match this series — the deck says the series was "reinstated to include Flakes", so the two are on different bases. Recorded in §5.5(d).***
+
+**Five quarters (Screener, consolidated):**
+
+| | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 | **Sep-26** |
+|---|---|---|---|---|---|---|
+| Sales | 3,262 | 3,272 | 3,811 | 3,193 | 3,564 | **3,977** |
+| Operating profit | 304 | 309 | 532 | 353 | 337 | **291** |
+| OPM | 9% | 9% | 14% | 11% | 9% | **7%** |
+| Net profit | 114 | 159 | 213 | 371 | 693 | **106** |
+
+> **Trajectory read:** **revenue is at a record and operating profit is at a five-quarter low.** The Q1 and Q4 profit lines are tax credits, not operations. *(Screener's operating profit excludes other income and differs from the company's PBDIT.)*
+
+**Capex approved 26-Oct (Board outcome):** ₹145cr solar for the Kota vinyl plant (~8 MW of grid power replaced) · **₹120cr for one extra electrolyser each at Kota and Bharuch** (caustic debottlenecking) · ₹60cr cement-plant filter presses · up to ₹50cr equity into the **Shriram Teknor JV** (₹133cr project: speciality PVC, medical and halogen-free compounds). **ICRA reaffirmed AA+ (Stable) on 30-Oct.**
+
 ## 5. Connecting the Dots
 
 **Thread A — Chlorine is being converted from a liability into feedstock.** Chlorine realises **minus ₹7,000–8,000/tonne** today. The AlCl₃ and CaCl₂ plants commissioning in Q2FY27 take captive consumption to **~50%**, and Bharuch pipeline partnerships take total tie-up to **~85%.** **This is margin created out of a negative-value by-product.**
@@ -519,6 +571,7 @@ Asked where caustic prices are heading, **Aditya Shriram (Deputy MD)**:
 | **29-Jul-2026** | **MH → MEDIUM (Under Watch)** | Q1FY27 print. **The ₹850cr assumption was wrong — normalised FY26 PAT is ₹655–680cr, so real FY26 earnings growth was ~+9-12%, not +49%.** *"That correction — more than the quarter itself — is what drives the downgrade."* Plus: second consecutive tax-distorted quarter, Bioseed failure, net debt +11.3% |
 | 1-Aug-2026 | **HELD at MEDIUM (Under Watch)** | Q1FY27 concall read. **Two of the downgrade's five legs turned out weaker than written** (the tax normalisation was too harsh; ₹376cr of the credit is recoverable cash). **Offset by two genuinely new positives — the demerger target and chlorine integration — and one new negative: ECU possibly down ~16%** |
 | 21-Aug-2026 | **HELD at MEDIUM (Under Watch)** | Board refresh completed cleanly at the AGM. **No operational news. The ECU question remains open until Q2FY27** |
+| **4-Nov-2026** | **HELD at MEDIUM (Under Watch)** *(⤴ an ML downgrade applied and reversed the same day)* | Q2FY27 + call. **None of this profile's downgrade triggers fired** (ECU ₹32,774 > ₹30,000; demerger *"pretty advanced"*; net debt ₹917cr). **Upgrade (b) narrowly missed — ECU ₹32,774 against ₹33,000** (September alone ₹33,056). New negative: Chemicals PBDIT −38%. |
 
 **Upgrade to MH on either:** **(a)** the demerger application actually being filed, **or** **(b)** ECU confirmed stable at **≥₹33,000** with the Q2FY27 commissionings on time.
 
@@ -527,6 +580,9 @@ Asked where caustic prices are heading, **Aditya Shriram (Deputy MD)**:
 **Downgrade to ML if:** ECU holds below ₹30,000 through Q2FY27 **or** the demerger stalls again as it has once already **or** debt/EBITDA approaches the 1.5x ceiling.
 
 ### (b) Material developments — newest first
+
+**🔴 4-Nov-2026 — Q2FY27: revenue +22%, PBDIT flat ex one-offs, Chemicals PBDIT −38%, Bioseed −₹41cr; ₹325cr of capex; demerger "very soon"**
+Full print in §4; triggers scored in §6. Net debt ₹917cr; ICRA AA+ reaffirmed; Kota RE fully commissioned; LIC nominee changed (Salil Vishwanath from 1-Nov).
 
 **✅ Kota aluminium-extrusion plant commissioned; ICRA AA+ reaffirmed with enhanced limits** *(Reg 30 filings 1-Sep-2026; ICRA letter 31-Aug)*
 The main extrusion plant started on 1-Sep-2026; surface-finish plants remain in installation. ICRA reaffirmed AA+/Stable and A1+ and assigned enhanced cash-credit (₹1,349cr) and non-fund (₹1,500cr) limits; the commercial-paper programme was cut from ₹700cr to ₹120cr rated.
@@ -594,6 +650,10 @@ It assumed *"underlying PAT ex-tax-anomaly ~₹850cr FY26"* and built an 18x bas
 > ***Three rebuilds in a month is worth stating plainly.*** **Two were corrections to my own errors** — the ₹850cr FY26 assumption and then the 33% normalisation — **and only the third responded to new information.** *A reader should weight this file's forward numbers accordingly.*
 
 ### (d) Corrections
+
+**⤴ CORRECTED 4-Nov-2026 — two items.**
+**(1) I applied the wrong downgrade trigger, then reversed it.** The 4-Nov sweep moved this name M → ML on *"downgrade to ML if Bioseed still loss-making in Q2FY27"*, a line in PORTFOLIO_STATE dated 29-Jul. **The profile's own list (§5.5(a), maintained through 21-Aug) is different and none of it fired**, and the base case had already assumed a full-year Bioseed write-off. ***Two documents carried two trigger lists for one holding; the profile's is the later and the more specific. When they conflict, score both and say so.***
+**(2) The "~16% ECU fall" (Risk 2) was partly a basis difference.** The Q1 call's *"just below ₹30,000"* compared with a Q1 average of ₹35,761. **The Q2 deck reinstates flakes into the series and shows July at ₹32,742**; the Q2 average was ₹32,774, **−8% QoQ, not −16%.** The 1-Aug reading was faithful to what was said; the series it was compared with has since changed basis.
 
 **⤴ CORRECTED 1-Aug-2026 — the normalised P/E was overstated, and the error was avoidable.**
 The 29-Jul block normalised TTM earnings at a **33%** tax rate, giving **~24x**. **The company elected Section 115BAA with effect from FY26-27, so the forward P&L rate is 25% and cash tax is 19%.** Correct figures: **~22x on the P&L basis, ~20.5x on cash.**
@@ -670,15 +730,44 @@ The 16-Jul refresh set watch item #1 as *"Q1FY27 tax rate normalization — must
 
 ---
 
+### 📊 4-Nov-2026 — Q2FY27 scored, and the scenarios re-derived
+
+**Trading metrics (Screener, 4-Nov-2026 close):** CMP **₹904** · market cap ₹14,082cr · reported P/E 10.7x *(still carrying ~₹550cr of non-operating H1 profit)* · ROCE / ROE 11.5% / 11.5% · 52-week ₹867–1,328 · **−16.5% since the 21-Aug baseline.**
+
+**Triggers (§5.5(a)):**
+- **Downgrade to ML if ECU holds below ₹30,000 through Q2FY27** — ❌ not fired: Q2 ECU **₹32,774**, September ₹33,056.
+- **…or the demerger stalls again** — ❌ not fired: *"pretty advanced stage… get it to the Board very soon"* — but no date, again.
+- **…or debt/EBITDA approaches 1.5x** — ❌ not fired: net debt ₹917cr.
+- **Upgrade to MH on (b) ECU ≥₹33,000 with the Q2 commissionings on time** — 🟡 **narrowly missed** (₹32,774; one of two chloride plants only partly commissioned).
+- **Upgrade on price: ~₹790–800 (≈18x normalised)** — not reached (₹904).
+
+**Scenarios — re-derived.** *The 21-Aug set is kept above. What changed: Chemicals PBDIT fell 38% in Q2 and H1 "effective normal PAT" is ₹253cr, so FY27 normalised PAT is tracking roughly ₹550–600cr against FY26's ₹655–680cr (my estimate; H2 is seasonally heavier for sugar). The FY28 base now needs ~45% growth from a lower FY27, so I cut it.*
+
+| Scenario | Prob. | What has to happen | FY28E PAT | Multiple | Mcap | Return from ₹904 |
+|---|---|---|---|---|---|---|
+| **Base** | **55%** | Chemicals margin recovers part-way as AlCl₃/CaCl₂ and the new electrolysers absorb chlorine; Bioseed normalises in FY28; sugar holds | **₹850cr** *(was ₹950cr)* | 18x | ₹15,300cr | **+9%** |
+| **Bull** | **25%** | Demerger filed and progressing; chemicals margin back above 20%; vinyl MIP extended | **₹1,100cr** | 22x | ₹24,200cr | **+72%** |
+| **Bear** | **20%** | Chemicals stays near 12% margin; second weak monsoon; MIP lapses Jan-2027; demerger stalls | **₹650cr** | 15x | ₹9,750cr | **−31%** |
+
+**Weighted 2-year return ≈ +16%** *(0.55 × 9 + 0.25 × 72 − 0.20 × 31)*, plus a ~1.2% dividend. ***It rose from +9.7% because the price fell 16%, not because the business improved — the base case was cut.***
+
+**Conviction: HELD at MEDIUM (Under Watch).** The triggers did not fire and the balance sheet is better than guided. **What keeps it from MH is the chemicals margin**: the segment that carried the thesis earned 11.7% in Q2. **Triggers unchanged.** *Next test: Q3FY27 Chemicals margin, and whether the demerger reaches the Board.*
+
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — 🔴 The reported earnings are not the earnings.** Two consecutive quarters of prior-period tax credits — **−46% then −152%** — put ~₹600cr into a TTM P&L. **Any screen, any broker note, any decision anchored on 12.3x is anchored on fiction.** *The distortion persists until Q4FY27.*
 
+> ⚠️ **ACCUMULATING (4-Nov-2026):** H1 reported PAT ₹799cr includes ₹474.3cr of tax adjustment and ₹79.4cr of exceptional gains; normal PAT ₹253cr. Reported P/E 10.7x.
+
 **Risk 2 — 🔴 ECU down ~16% since the quarter closed.** Q1 average **₹35,761/MT** against *"just below INR30,000"* now, for the segment that delivered +33% revenue and carried the quarter. **Disclosed nowhere in writing.** *⭐ The swing factor for Q2FY27.*
+
+> ✅ **RESOLVED (4-Nov-2026), mostly:** Q2 ECU ₹32,774, **−8% QoQ, +5.7% YoY** — caustic fell, chlorine rose (call). The 16% figure compared two different series (§5.5(d)).
 
 **Risk 3 — 🔴 The conglomerate structure itself.** Six unrelated cycles, one balance sheet, **ROCE 11.5%, three-year profit CAGR −1%.** *The demerger is the fix; it has been announced once already without progressing.*
 
 **Risk 4 — 🔴 Bioseed is a full-year FY27 write-off**, with an inventory glut pressuring margins independently of monsoon recovery. **Agri-Rural is 56% of revenue.**
+
+> ⚠️ **MATERIALIZED (4-Nov-2026), as expected:** Q2 PBDIT −₹41cr vs −₹7cr.
 
 **Risk 5 — 🔴 The ethanol runway is closed.** Blending has hit 20% and **OMC requirement has fallen 13% YoY.** DCM's installed capacity is roughly double its allocation. **Nothing grows here without an E27/E30 mandate.**
 
@@ -686,9 +775,15 @@ The 16-Jul refresh set watch item #1 as *"Q1FY27 tax rate normalization — must
 
 **Risk 7 — 🟡 Chemicals growth is mix-dilutive.** Caustic volumes dead flat; all the growth is lower-margin advanced materials; segment PBDIT margin **24.5% → 22.8%.**
 
+> ⚠️ **MATERIALIZED (4-Nov-2026), and worse than written:** revenue +47% but **PBDIT −38%, margin 27.9% → 11.7%** (−12% even ex last year's ₹76cr incentive). *This is now the swing factor for the thesis.*
+
 **Risk 8 — 🟡 Execution density in Q2FY27.** Four commissionings land in one quarter — Fenesta extrusion, 68 MW Kota RE, AlCl₃ and CaCl₂ — with a salt-works acquisition in Q3 behind them. **Two are already in pre-commissioning trials, but slippage in any of them defers the chlorine economics.** ⚠️ *Update 1-Sep-2026: the Fenesta extrusion main plant is commissioned (surface-finish still pending) — one of four done; 68 MW Kota RE, AlCl₃ and CaCl₂ remain.*
 
+> ✅ **TRACKING WELL (4-Nov-2026):** Kota 68 MW fully commissioned, Fenesta extrusion phase I and aluminium chloride live; calcium chloride partly commissioned.
+
 **Risk 9 — 🟡 Net debt is rising into the capex wave.** **₹1,649cr, +11.3% YoY**, guided to ~₹1,450cr by FY27 exit. **Debt/EBITDA 1.1x against a stated 1.5x ceiling** — comfortable, but the direction is up while ROCE is 11.5%.
+
+> ✅ **RESOLVED for now (4-Nov-2026):** net debt **₹917cr**, well under the ~₹1,450cr guided for FY27 exit (the tax refund helped); ₹325cr of new capex approved.
 
 **Risk 10 — 🟡 Fenesta order intake is lagging revenue.** +4% intake against +22% revenue, with **capital employed doubled.** *Management conceded the flag and attributed it to deferred project decisions on the West Asia crisis, not lost share.*
 
@@ -697,6 +792,8 @@ The 16-Jul refresh set watch item #1 as *"Q1FY27 tax rate normalization — must
 **Risk 12 — ⚪ Senior-management churn.** The **CHRO resigned 24-Jul** with no successor announced, and the **Vice Chairman & MD was absent from the Q1FY27 call.** *Neither is a signal alone. Both are logged.*
 
 **Risk 13 — ⚪ Monsoon dependence.** Sowing acreage down **15–20% all-India** and *"much higher in some of its markets."* **56% of revenue is Agri-Rural.**
+
+> ⚠️ **MATERIALIZED (4-Nov-2026):** *"one of the weakest monsoons in a decade"* (CMD); Farm Solutions revenue −10%, Bioseed −15%.
 
 **✅ TRACKING WELL — the balance sheet and the promoter.** Twelve quarters without a basis point of dilution, ICRA AA+ maintained, leverage held at 1.1x through a heavy capex cycle, and **ROCE up 40bps to 13.6% on the company's own calculation — the first uptick since FY24.**
 
@@ -725,6 +822,8 @@ The 16-Jul refresh set watch item #1 as *"Q1FY27 tax rate normalization — must
 *Refreshed 29-Jul-2026.*
 
 ### ValuePickr — topic 252, "DCM Shriram Ltd"
+
+**⤴ 4-Nov-2026 check:** still **92 posts, last on 14-Jan-2022** — no discussion of the Q2 print. Substack's search API returned no results for "DCM Shriram" (not re-searched in a browser). **Sentiment verdict unchanged: 🟡 MIXED — and thin.**
 
 **92 posts · dormant since 14-January-2022 — more than four years.**
 
@@ -757,6 +856,7 @@ The 16-Jul refresh set watch item #1 as *"Q1FY27 tax rate normalization — must
 ## Source Appendix
 
 **✅ Concall gate: CLOSED and verified.**
+- **🆕 Q2FY27 (call 28-Oct-2026)** — official transcript filed 3-Nov-2026 and read for the 4-Nov refresh; results, press release and deck of 26-Oct (deck slide 17 rendered for the ECU series); Board outcome of 26-Oct (capex, JV, dividend); ICRA letter 30-Oct; Reg 30 commissioning notice 29-Oct.
 
 - **Q1FY27 (call 30-Jul-2026)** — **machine-transcribed 1-Aug** from the company's official BSE audio (46m48s, mlx-whisper / whisper-large-v3-turbo), then **verified line-by-line against the official transcript published 6-Aug-2026.** Panel: **Ajay Shriram (Chairman & Sr MD), Ajit Shriram (Joint MD), Aditya Shriram (Deputy MD), Amit Agarwal (Group CFO).** *Vikram S. Shriram was named in the 23-Jul intimation but did not appear.*
 - **Q4FY26 call** — re-read in full on 16-Jul-2026.

@@ -1,7 +1,7 @@
 # Concord Biotech Limited — Company Profile
 
 **Ticker:** CONCORDBIO · BSE: 543960 · NSE: CONCORDBIO · **Sector:** 12 — Pharma & Excipients
-**Conviction:** **Medium** · **Weighted 2-yr return:** ~+9% (≈4.5% CAGR) + 0.48% dividend
+**Conviction:** **⤴ Medium-Low** *(M → ML, 4-Nov-2026: the profile's trigger "gross margin (78.9%) starts eroding" fired — Q2FY27 76.2%, H1 77.4% vs 79.1%, on raw materials and mix)* · was **Medium** · **Weighted 2-yr return:** ~+19% re-priced (was ~+9%) + ~0.5% dividend
 **Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 21-Aug-2026)* · **Tracking since:** 2-Aug-2026
 **CMP:** ₹1,571 · **Market Cap:** ₹16,446 cr · **P/E (consolidated TTM):** 59.2x · **P/B:** 8.1x (BV ₹193) · **ROCE:** 17.1% · **ROE:** 12.5% · **Div yield:** 0.48% · **52-wk range ₹987–₹1,802** · **Listing:** Mainboard (IPO Aug-2023) *(Screener consolidated, 21-Aug-2026)*
 
@@ -220,6 +220,10 @@ The plain-English version: **Concord runs the brewery that the world's transplan
 | **🆕 Injectable facility — commercialisation** | **Q1FY27** | ***"The plant is already commercialized."*** Exhibit batches taken, batches on stability, filings under way. **Emerging-market approvals are a 12–15 month process → export sales *"by next year"*.** Meanwhile the focus is the domestic market | 🕐 **Commercialised; export revenue FY28** |
 | **🆕 CDMO scale-up** | **Q1FY27** | **Currently 1–2% of sales.** One opportunity commercialised, *"a couple… at advanced stage"*, and *"at least one of them should happen in this year."* Stated intent: **bring it to *"a double-digit contributor"*** | 🕐 **Named target** |
 | **🆕 Segment breadth** | **Q1FY27** | **All segments grew double-digit by value**; **anti-infectives and oncology grew *"much, much more"* than immunosuppressants.** Nystatin named as gaining traction | ✅ **Diversifying** |
+| *(4-Nov)* FY27 growth ">18%" | Q4FY26 | **H1FY27 revenue ₹566cr, +25%** (Screener: 257 + 309 vs 204 + 247) | ✅ **Ahead** |
+| *(4-Nov)* Gross margin holds | Q1FY27 (78.9%, "rising") | **Q2 76.2%, −~400 bps YoY; H1 77.4% vs 79.1%** — *"primarily due to higher raw material prices and changes in the product mix"* | 🔴 **Eroding** |
+| *(4-Nov)* Injectables / Stellon breakeven | FY28 | **Unit-IV injectables ~5% utilised, Unit-II formulations ~21%**; injectables contracts *"expect to finalize… in the near term"*; Tofacitinib supplied to Stellon, MMF oral suspension next quarter | 🕐 **Not yet** |
+| *(4-Nov)* EBITDA margin back toward ~38% | FY28 | **Q2 33.8%; ~37–38% ex injectables and Stellon** (deck); management: *"we should reach closer to our historical EBITDA margins"* as they ramp | 🕐 |
 
 **Verdict on management:** **Operationally credible and unusually candid.** Every strategic milestone set for FY26 — injectables, Stellon, soft-gel, Fusidic Acid, Celliimune, regulatory clearances — was delivered. The one thing missed was the revenue line, and the explanation is specific, itemised and externally verifiable rather than vague. **Two reservations.** First, FY26's problems were disclosed as they emerged rather than pre-warned, so the *forecasting* is weaker than the *reporting*. Second, several claimed-temporary items — the Middle East tender, the US VA tender — remain unresolved a year on, and a headwind that persists long enough stops being temporary. **Trust in disclosure: high. Trust in demand forecasting: moderate.**
 
@@ -320,6 +324,25 @@ The plain-English version: **Concord runs the brewery that the world's transplan
 
 ---
 
+### 📊 Q2FY27 Refresh — Full Numbers Print (4-Nov-2026)
+
+*Sources: results and deck (27-Oct-2026); official transcript of the 28-Oct call (filed 3-Nov, read; `Fetched Concalls/CONCORDBIO/CONCORDBIO_Transcript_2026-10.pdf`); postal-ballot result (26-Oct); Screener (consolidated). **All per-share and price figures from 4-Nov are after the 1:1 bonus.***
+
+| ₹cr | Q2FY27 | Q2FY26 | YoY | H1FY27 | H1FY26 | YoY |
+|---|---|---|---|---|---|---|
+| Revenue | **309** | 247 | **+25%** | 566 | 451 | +25% |
+| EBITDA | **104** (33.8%) | 88 | +18% | — (33.0%) | — (33.2%) | |
+| Gross margin | **76.2%** | ~80% | **−~400 bps** | 77.4% | 79.1% | −170 bps |
+| PAT | **69.6** (22.5%) | 63 | **+10.3%** | 127.3 | 107 | +19% |
+
+**EBITDA ex injectables and Stellon ~37–38%** (deck, Q2 37.1%, H1 37.8%). Export revenue +8%; domestic grew faster (procurement patterns shift the mix quarter to quarter). New oncology launches added customers; a dermatology API launched. **ANDA approvals: Tofacitinib and Mofetil (MMF) oral suspension.**
+
+**Five quarters (Screener):** sales 247 / 278 / 326 / 257 / **309**; OPM 36% / 35% / 36% / 32% / **34%**; PAT 63 / 64 / 88 / 58 / **70**.
+
+**Bonus:** 1:1, record date 4-Nov (authorised capital raised by postal ballot, passed 24-Oct).
+
+> **Read:** **volume and revenue are doing what the upgrade case needs (+25%); the margin is doing what the downgrade case warned of.** Two new units still dilute EBITDA by ~4 points, and the base gross margin now fell too.
+
 ## 5. Connecting the Dots
 
 **Thread A — Recovery of deferred volume.** Management's core claim is that FY26's shortfall was timing, not demand: *"This should therefore be viewed as a timing spillover into subsequent periods rather than a permanent loss of revenue."* Q1FY27's +26% supports it.
@@ -351,6 +374,7 @@ The plain-English version: **Concord runs the brewery that the world's transplan
 | 2-Aug-2026 | **Medium** | Initiation. Fermentation moat that killed an entire generation of Indian entrants, ₹3,000cr of paid-for capacity against ₹1,055cr delivered, debt-free with ₹414cr cash — **held at Medium purely on a 53.1x multiple against 12.5% ROE and a 3-year profit CAGR of zero** |
 | 21-Aug-2026 | **HELD at Medium** | **The Q1FY27 call, filed 7-Aug, materially strengthens the operating case** — a dated ₹3,000cr roadmap, a confirmed margin path, injectables commercialised, growth broad-based across geographies and segments. **But the stock is +11.5% in nineteen days to 59.2x, and the margin payoff moved out to FY28.** Net: unchanged |
 | **19-Sep-2026** | **HELD at Medium** | Filings refresh: **USFDA inspection of the Valthera formulation unit closed with one minor non-GMP observation (18-Sep)**; Board to consider a bonus issue on 23-Sep. Stock −4.9%. |
+| **4-Nov-2026** | **⤴ Medium → Medium-Low** | **Q2FY27 + call: the gross-margin trigger fired** — 76.2% against the 78.9% reference (H1 77.4% vs 79.1%), raw materials and mix. Revenue +25% clears the >18% guide; PAT +10%; injectables still ~5% utilised. **Price −17% since 21-Aug (bonus-adjusted), so the arithmetic improved while the business signal worsened.** |
 
 **Upgrade to MH if:** FY27 full-year growth clears the ">18%" guide **and** injectables or Stellon reach breakeven **and** either frozen tender resumes.
 
@@ -460,6 +484,16 @@ The initiation recorded topic 123381 as *"13 posts and dormant since 22-Dec-2025
 
 ---
 
+### 📊 4-Nov-2026 — Q2FY27 scored
+
+**Where it trades (Screener, 4-Nov-2026, ex-bonus):** CMP **₹656** · market cap ₹13,693cr · P/E 48.1x · ROCE / ROE 17.1% / 12.5%.
+
+**Triggers.** Downgrade to ML if **(a)** the volume recovery stalls — ❌ (revenue +25%) · **(b) gross margin (78.9%) starts eroding — 🔴 FIRED (76.2%)** · **(c)** GTBL/MicroBiopharm proves a qualified competitor — 🕐 *ValuePickr doubts its capacity to do so (§9)*. Upgrade to MH: >18% growth ✅ · injectables or Stellon breakeven ❌ · a frozen tender resumes — *not addressed on the call*.
+
+**Re-priced on the unchanged 21-Aug cases (from ₹13,693cr):** base ₹16,800cr → **+23%** · bull ₹24,500cr → **+79%** · bear ₹8,400cr → **−39%**. **Weighted ≈ +19%** *(0.55 × 23 + 0.20 × 79 − 0.25 × 39)*.
+
+**Conviction: ⤴ MEDIUM → MEDIUM-LOW, on the profile's own trigger.** ***Stated plainly because it cuts the other way on price:*** **the weighted return rose because the stock fell, but the trigger measures the moat — a fermentation business's gross margin — and it moved the wrong way for a stated, non-transient-sounding reason (raw materials and mix).** **Re-upgrade to MEDIUM on:** gross margin back above 78% for a quarter with revenue growth still >18%.
+
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — Chinese scale and pricing.** The permanent structural threat. *"For every product of Concord, there are 2-3 Chinese manufacturers"* who are *"extremely aggressive when it comes to pricing and they have huge scale."* An entire generation of Indian fermentation companies died of exactly this. *Signal: gross margin, currently 78.9% and rising — the first place erosion would appear.*
@@ -470,11 +504,15 @@ The initiation recorded topic 123381 as *"13 posts and dormant since 22-Dec-2025
 
 **Risk 4 — Valuation leaves no room.** 53.1x trailing on 12.5% ROE, 7.3x book. Even the bull case requires both a full volume recovery *and* multiple maintenance. **The bear case is −43% and does not require anything catastrophic — only that recovery stalls.**
 
+> ✅ **EASED (4-Nov-2026):** 48.1x trailing (59.2x at the 21-Aug read); market cap ₹13,693cr vs ₹16,446cr.
+
 **Risk 5 — Profit has gone nowhere for three years.** 3-year profit CAGR of 0%, 5-year of 1%. FY21's 53% margin was a COVID anomaly, but even from FY24's ₹308cr, FY26's ₹259cr is a decline. *The company must demonstrate that FY25's ₹372cr was the trend and FY26 the exception, not vice versa.*
 
 **Risk 6 — Business lumpiness makes any single quarter unreliable.** Mar-2025 ₹430cr vs Jun-2025 ₹204cr. Tender-driven, geographically concentrated revenue. **Q1FY27's +26% is one quarter against a soft base — it is encouraging, not conclusive.**
 
 **Risk 7 — Two loss-making units are still bleeding.** Injectables ₹10–12cr/quarter and Stellon ₹5–10cr/quarter, together ₹60–88cr annually. Management says costs are fully booked and breakeven timing is *"a little too early for me to say."* Injectable filings target Southeast Asia and Africa first — **emerging markets, not the high-value regulated ones.**
+
+> ⚠️ **ACCUMULATING (Q2FY27):** injectables ~5% utilised, formulations ~21%; the two dilute EBITDA by ~4 points (33.8% reported vs ~37–38% ex).
 
 **Risk 8 — Regulatory dependency is absolute.** The **CDSCO written-confirmation delay cost roughly three months of European supply — a third of the year.** A single administrative approval halted a whole region. That vulnerability has not been removed, only resolved for now.
 
@@ -485,6 +523,8 @@ The initiation recorded topic 123381 as *"13 posts and dormant since 22-Dec-2025
 **Risk 11 — No pricing power on mature molecules,** conceded by management. Growth must come from volume and new products, permanently.
 
 **Risk 12 — 🆕 A domestic peer may be buying its way into the fermentation moat.** **Gujarat Themis Biosyn has reportedly agreed to acquire MicroBiopharm Japan for ~₹1,300cr** — three Japanese facilities with USFDA and PMDA compliance, in immunosuppressants, oncology and anti-infectives. **Community-sourced and unverified in a filing I have read**, though GTBL's own 31-Jul EGM notice confirms it is raising related-party debt for an overseas acquisition on a deadline. **If real, it is the most direct challenge yet to the "only company in India with this capability" framing.** ⭐ *Verify — see §5.5(b).*
+
+> 🕐 **4-Nov-2026:** ValuePickr #18 (25-Oct) questions whether the acquirer can integrate it on a ₹150–175cr TTM top line; unresolved.
 
 **Risk 13 — 🟡 A 100% US tariff on generics is now being discussed for two years out.** Tariff uncertainty was one of the five named causes of FY26's decline. Asked about it on the Q1FY27 call, management said only: *"We have not heard anything from our customers on any of the concerns on this."* **An honest answer, not a reassuring one.**
 
@@ -509,6 +549,8 @@ The initiation recorded topic 123381 as *"13 posts and dormant since 22-Dec-2025
 ## 9. 📢 Community Pulse
 
 *Refreshed 21-Aug-2026.*
+
+**⤴ 4-Nov-2026 — topic 123381 (18 posts, last 25-Oct-2026):** #17 (subodhs, 29-Sep): *"with Limbasi facility being underutilized and inter unit sales being part of reported numbers, it is questionable if management has embraced complacency"* — 🔴 · #18 (sayak_paul, 25-Oct): doubts the competitor's ability to integrate the fermentation deal on its size — 🟢 for Concord. **Sentiment: 🟡 MIXED-BEARISH on management, neutral on the moat.**
 
 ### ValuePickr — topic 123381, "Concord Biotech"
 
@@ -546,6 +588,8 @@ The initiation recorded topic 123381 as *"13 posts and dormant since 22-Dec-2025
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (4-Nov-2026 refresh):** results and deck 27-Oct; **official transcript of the 28-Oct call (filed 3-Nov), read**; postal-ballot scrutinizer report 26-Oct; bonus record-date notice 27-Oct; ValuePickr topic 123381 #17–18.
 
 - **Concalls read (6 transcripts, all downloaded from BSE via `curl` and text-extracted):**
   - **Q4FY26 & FY26 — 1-Jun-2026 call** (17pp, hosted by Ambit Capital; primary source). Management: Mr. Ankur Vaid (Joint MD & CEO), Mr. Raviraj Karia (CFO). Source for the five FY26 headwinds, FY27 growth guidance, capacity utilisation, injectable/Stellon cost drag, Middle East quantification.

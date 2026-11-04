@@ -1,7 +1,7 @@
 # Netweb Technologies India — Company Profile
 
 **Ticker:** NETWEB · **NSE:** NETWEB · **BSE:** 543945 · **Sector:** IT / Software & Platforms (Sector 8) — AI & high-performance computing infrastructure
-**Conviction:** **MEDIUM-HIGH (Under Watch — valuation)** — **downgraded from HIGH on 22-Aug-2026.** *The business got better and the price got worse; this is a downgrade on price alone.*
+**Conviction:** **MEDIUM-HIGH** — ⤴ *valuation watch lifted 4-Nov-2026: the price (₹4,062) reached the ~₹4,000 the 22-Aug profile named as attractive, while Q2FY27 beat; upgrade to HIGH held back on working capital (§6).* **Downgraded from HIGH on 22-Aug-2026.** *The business got better and the price got worse; this is a downgrade on price alone.*
 **Thesis date:** 22-Aug-2026 · **CMP ₹5,601** (Screener, 22-Aug-2026) · **Market cap ₹33,295 cr post-QIP**
 
 **Concall Fetch Gate: ✅ GREEN — 6 transcripts + 2 decks.** **Q1FY27 (call 29-Jul-2026, transcript filed 1-Aug-2026 — the document the 28-Jul refresh flagged as missing)**, Q4FY26 (May-2026), Q3FY26 (Jan-2026), Q2FY26 (Nov-2025), Sep-2025, May-2025; decks Jul-2026 and Aug-2025. All read.
@@ -243,6 +243,10 @@ The 28-Jul refresh set the 29-Jul call as its highest-priority watch item. Three
 | **🆕 Strategic order execution** | Q4FY26 flagged a ₹1,600cr strategic order | *"close to **INR430 crores** was executed in this June quarter"* | ✅ **Specific and verifiable** |
 | **🔴 Capital raising communication** | 29-Jul-2026 call | **₹1,200cr QIP closed 22 days later at ₹4,790** — see the timeline above | 🔴 **Wording issue, not a substance issue** |
 | FY27 revenue guidance 60–70% | Q4FY26 | Q1FY27 delivered +172% | ✅ **Tracking far ahead** |
+| *(4-Nov)* FY27 revenue guidance 60–70% | Q4FY26 | **H1FY27 revenue ₹2,143cr, +254% YoY** — FY26 was ₹2,184cr (Screener), so H1 alone is ~98% of last year | ✅ **Far ahead** |
+| *(4-Nov)* EBITDA margin 13–14% | Q4FY26 | **14.9%** in Q2 on a 4x revenue base | ✅ **Beat** |
+| *(4-Nov)* QIP use | 20-Aug-2026 | **₹767cr of ₹1,200cr used by 30-Sep**; net cash ₹14cr after funding growth | 🟡 **Fast** |
+| *(4-Nov)* Working capital | Q1 call | Cash conversion cycle **94 days at Sep**; guided *"90 to 110 days"* — against ~14 days of net working capital a year ago (analyst's figure on the call) | 🔴 **Structurally higher** |
 
 **Verdict on management.** **On operations this is the strongest delivery record on the watchlist and it is not close.** Every revenue and margin guide of the last two years has been met or beaten, usually by a wide margin: a 50% guide met with 90%, a 60% guide met with 87%, a 13–13.5% margin guide met with 14.70%. **They also disclose against themselves** — the execution cycle lengthening from 8-12 to 16-20 weeks was volunteered, not extracted, and the ₹430cr execution figure was given precisely when asked.
 
@@ -396,6 +400,24 @@ An analyst (Jayalaxmi Gupta) asked why *"certain balance sheet numbers for your 
 
 ---
 
+### 📊 Q2FY27 Refresh — Full Numbers Print (4-Nov-2026)
+
+*Sources: results, press release and deck (24-Oct-2026); official transcript of the 26-Oct call (filed 29-Oct, read; `Fetched Concalls/NETWEB/NETWEB_Transcript_2026-10.pdf`); Screener (standalone — the consolidated page is blank).*
+
+| ₹cr | Q2FY27 | Q1FY27 | Q2FY26 | YoY |
+|---|---|---|---|---|
+| Revenue from operations | **1,323** | 820 | 304 | **+336%** |
+| Operating EBITDA | **197** (14.9%) | 121 | 45 | +334% |
+| PAT | **137** (10.2%) | 85 | 31 | +335% |
+
+**H1FY27:** revenue ₹2,143cr (+254%), **PAT ₹222cr against ₹205.8cr for all of FY26.** **AI Systems ₹773cr = 58.4% of Q2 revenue, +1,068% YoY.** 449 new customers added in H1.
+
+**Order book ₹2,629cr + L1 ₹652.5cr; pipeline ₹11,152cr** with a stated ~60% conversion rate (*"we are sitting on the pipeline of more than INR10,000 crores"*). **Inventory ~₹1,900cr**, which management says supports the order book and will churn in H2. **Net cash ₹14cr**; ROE 31.4%, ROCE 38.6% (diluted by the QIP capital).
+
+**Five quarters (Screener):** sales 304 / 805 / 774 / 820 / **1,323**; OPM 15% / 12% / 12% / 15% / **15%**; PAT 31 / 73 / 71 / 85 / **137**.
+
+> **Read:** **a second step-change quarter at an unchanged margin.** The cost of it is on the balance sheet: a ~94-day cash cycle and ₹1,900cr of inventory, funded by the QIP. **The order book is ~2x quarterly revenue, so H2 depends on pipeline conversion inside the year** — management declined to guide H2 (*"if you see the order book, that will itself give you an indication"*).
+
 ## 5. Connecting the Dots
 
 **Thread A — AI Systems is the whole story now, and it arrived faster than anyone modelled.** 12% of FY25 → 43.4% of FY26 → **62.29% of Q1FY27**, growing 484%. Everything else is context.
@@ -422,6 +444,7 @@ An analyst (Jayalaxmi Gupta) asked why *"certain balance sheet numbers for your 
 | **28-Jul-2026** *(refresh)* | **₹4,364** | **HELD at HIGH (Under Watch — valuation)** — the tag was new | Q1FY27 deck read on results day. **Revenue +172%, PAT +180%, AI at 62% growing 484%, order book +19% and L1 +183%, margin beating guidance by 120-170bps.** *"On execution alone this is the best quarter printed by any name in the watchlist this cycle."* **Corrected v1's estimates — the stock was ~50% higher than v1 assumed.** Flagged three worsening items: interest 12x in four quarters, zero-net-debt status gone, and no cash-flow data in the deck. **Trim-on-strength called a legitimate response.** |
 | **22-Aug-2026** *(this profile)* | **₹5,601** | **HIGH → MEDIUM-HIGH (Under Watch — valuation)** | Converted to always-current format. **All four watch items resolved, all favourably on operations:** the transcript filed 1-Aug; **working capital IMPROVED** (receivables 86→78 days, CFO/OP 84%); net debt ₹200cr and now more than covered; margin guide restated 13-14% and beaten. **🆕 A ₹1,200cr QIP closed 20-Aug at ₹4,790 with ICICI, Nomura and Goldman in the book — P/B falls 44x → 17.3x.** **🔴 And on the 29-Jul call, three analysts asking about that ₹1,200cr were told *"I haven't seen anything like that"* — of a figure in the company's own 1-July board filing** (§3.5). **Stock +28% in 25 days; expected return +21% → ~zero.** |
 | **19-Sep-2026** *(filings refresh)* | **₹4,664** | **HELD at MEDIUM-HIGH (Under Watch — valuation)** — flag easing | No company event; stock −17% to below the ₹4,790 QIP price (106x trailing from ~127x). QIP release confirms proceeds are for working capital and general corporate purposes. |
+| **4-Nov-2026** *(Q2FY27 + call)* | **₹4,062** | **MH — valuation watch lifted** | Revenue +336%, PAT +335%, margin 14.9%; H1 PAT > FY26. **The price fell 27.5% since 22-Aug to the ~₹4,000 named as attractive.** Upgrade to HIGH held back: cash cycle 94 days, inventory ₹1,900cr, order book ~2x quarterly revenue. |
 
 **The trajectory in one line.** **Everything that was worrying got better, everything that was good got better, and the stock still outran all of it** — which is why this is a downgrade on price with the operating verdict left completely intact.
 
@@ -475,13 +498,33 @@ An analyst (Jayalaxmi Gupta) asked why *"certain balance sheet numbers for your 
 
 ---
 
+### 📊 4-Nov-2026 — Q2FY27 scored, and the scenarios re-derived
+
+**Where it trades (Screener, 4-Nov-2026):** CMP **₹4,062** · market cap ₹24,143cr · P/E 66.0x trailing (122x at the 22-Aug baseline) · **−27.5% since 22-Aug**, now **15% below the ₹4,790 QIP price**.
+
+**Scenarios — re-derived** *(my estimates; per share on 5.9446cr shares; the 22-Aug set is above). What changed: FY27 revenue is tracking ~₹4,500–5,000cr (H1 ₹2,143cr, inventory staged for H2), so the old base case's FY28 revenue of ₹4,500cr is already an FY27 number.*
+
+| Scenario | Prob. | FY28 revenue | PAT | EPS | Multiple | Value | From ₹4,062 |
+|---|---|---|---|---|---|---|---|
+| **Base** | 50% | ~₹6,000cr (~30% growth) | ~₹600cr (10%) | ~₹101 | 55x | **~₹5,550** | **+37%** |
+| **Bull** | 30% | ~₹7,500cr | ~₹780cr | ~₹131 | 65x | **~₹8,500** | **+110%** |
+| **Bear** | 20% | ~₹4,800cr (growth stalls on GPU allocation or budget timing) | ~₹430cr | ~₹72 | 30x | **~₹2,170** | **−47%** |
+
+**Weighted 2-year return ≈ +42%** *(0.50 × 37 + 0.30 × 110 − 0.20 × 47)*, against ≈ −2.5% on 22-Aug. ***Both the business and the price moved in the investor's favour; the bear case is still a near-halving, which is what a 30x-for-hardware reset does.***
+
+**Conviction: MEDIUM-HIGH, valuation watch lifted.** **Upgrade to HIGH on:** the cash conversion cycle back under 90 days for two quarters, **and** an order book above ~3x quarterly revenue (≈₹4,000cr+). **Downgrade on:** a quarter with revenue down QoQ and inventory up, or margin below 13%.
+
 ## 7. What Could Prove Us Wrong
 
 **🔴 Risk 1 — Valuation is the dominant risk, and it is not the same as business risk.** 122x trailing, 127x on the post-QIP count, ~54x on the *fully-converted* visible pipeline. **The bear case requires nothing to go wrong operationally — only for growth to normalise.** **Signal to watch: nothing. This one is a decision, not an observation.**
 
+> ✅ **EASED (4-Nov-2026):** 66x trailing from 122x; price 15% below the QIP. *Still rich for hardware — the bear case is −47%.*
+
 **🔴 Risk 2 — GPU supply and allocation sit upstream and outside the company's control.** Nvidia determines availability, allocation and cost. The 86 → 110 day inventory build is an explicit hedge against exactly this — management cited *"surging global demand for AI compute infrastructure."* **Netweb's margin is an integration margin, so a GPU *price* move passes through; a GPU *availability* problem does not.** **Signal to watch: inventory days, and any commentary on allocation.**
 
 **🔴 Risk 3 — Contract lumpiness, now with a longer cycle.** ₹430cr of a single ₹1,600cr order executed in one quarter. **Management has itself lengthened the execution guide from "8 to 12 weeks" to "16 to 20 weeks."** **A single large slip moves a quarter materially, and quarters at 122x are not forgiven.** **Signal to watch: sequential revenue against the ₹3,355cr book.**
+
+> ⚠️ **LIVE (4-Nov-2026):** order book ₹2,629cr against ₹1,323cr of quarterly revenue; H2 rests on converting the ₹11,152cr pipeline at ~60%.
 
 **⚠️ Risk 4 — IndiaAI and PSU budget timing.** The demand is policy-driven, which cuts both ways: it is durable and it is also subject to fiscal decisions and tender timelines nobody outside government controls. **Signal to watch: IndiaAI Mission allocations; order inflow from government versus enterprise.**
 
@@ -496,6 +539,8 @@ An analyst (Jayalaxmi Gupta) asked why *"certain balance sheet numbers for your 
 **🆕 Risk 9 — Capital-markets communication (NEW — 22-Aug-2026).** Three analysts were told on 29-Jul that a ₹1,200cr figure was something management *"hadn't seen anything like"*, when it was in the company's own board filing of 1-Jul; a ₹1,200cr all-equity QIP closed 22 days later (§3.5). **The substance was compliant and the wording was not.** **This is a narrow risk and should be held narrowly: it says read the filings for capital-structure news, not that the operating disclosure is unreliable — that has been exemplary.** **Signal to watch: how the next capital event is communicated.**
 
 **🆕 Risk 10 — The inventory-accounting restatement (NEW — 22-Aug-2026).** Prior-period balance sheet restated on a shift to moving-weighted-average inventory valuation. Routine and plausibly correct. **Unverified against the annual report.** **Signal to watch: the FY27 accounting-policy note, and whether gross margin behaves consistently across the change.**
+
+> ⚠️ **ACCUMULATING (4-Nov-2026):** inventory ~₹1,900cr; cash cycle 94 days, guided 90–110 — working capital, not accounting, is now the balance-sheet question.
 
 **🟢 Risk 11 — the risk that this profile is too cautious, and it deserves stating.** **Every single watch item set in July resolved favourably.** Working capital improved in the fastest-growing quarter a company has ever had. The order book grew while revenue tripled. Margin beat guidance during a 19-point mix shift. ICICI, Nomura and Goldman committed ₹1,200cr at a 1.96% discount. **If India's sovereign-AI build-out is a decade-long capex cycle rather than a two-year one, then FY28 earnings are the wrong denominator entirely and 122x on trailing will look like a rounding error.** **Being right about the price and wrong about the duration of the cycle is a real way to lose money in this name.**
 
@@ -521,6 +566,8 @@ An analyst (Jayalaxmi Gupta) asked why *"certain balance sheet numbers for your 
 
 ## 9. Community Pulse — 22-Aug-2026
 
+**⤴ 4-Nov-2026 check:** ValuePickr topic 108083 still last active 18-Jun-2026 — no discussion of either step-change quarter. The Q2 call was hosted by ICICI Securities; questions centred on Vera Rubin timing, gross-margin volatility, working capital and FY28 growth.
+
 **ValuePickr — "Netweb Technologies India Ltd (Supercomputing?)" (topic 108083, 66 posts since Jul-2023, last active 18-Jun-2026).**
 
 > **⤴ CORRECTION TO THE SOURCE APPENDIX.** Every prior version described this thread as *"Active discussion covering AI systems ramp + order book conversion + dilution."* **It is dormant — last post 18-Jun-2026, more than two months ago, with no discussion of Q1FY27, the record quarter, or the QIP.** *(Seventh profile in this conversion cycle where an "active discussion" claim did not survive checking.)*
@@ -541,6 +588,8 @@ An analyst (Jayalaxmi Gupta) asked why *"certain balance sheet numbers for your 
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (4-Nov-2026 refresh):** results, press release and deck 24-Oct; **official transcript of the 26-Oct call (filed 29-Oct), read**; CRISIL monitoring-agency report 27-Oct.
 
 - **Concalls read (6 transcripts):** **Q1FY27 (call 29-Jul-2026, transcript filed 1-Aug-2026 — primary source for this version, and the document the 28-Jul refresh flagged as not yet existing)**, Q4FY26 (May-2026), Q3FY26 (Jan-2026), Q2FY26 (Nov-2025), Sep-2025, Q4FY25 (May-2025).
 - **Investor decks:** Q1FY27 (Jul-2026, 36 pages), Aug-2025.
