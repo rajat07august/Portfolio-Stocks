@@ -4,11 +4,17 @@
 **Thesis current as of: 18-Sep-2026 · Tracking since: 18-Sep-2026**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 1,710** · market cap ₹ 10,704 Cr. · P/E 26.9x · ROCE 21.3 % · ROE 15.9 % · 52-wk ₹ 2,320 / 1,033 · **vs ₹2,110 at baseline (-19.0%)**
+**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 1,855** · market cap ₹ 11,594 Cr. · P/E 29.1x · ROCE 21.3 % · ROE 15.9 % · 52-wk ₹ 2,320 / 1,033 · **vs ₹2,110 at baseline (-12.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 18-Sep-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ ESOP allotment only · (earlier: Trading window closed; Q2FY27 ex-forex margin is the test · (earlier: No filings since the profile was written)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Sep-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟢 'Mega' (>₹1,000cr) RIL Jamnagar 302 MLD desalination order · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ ESOP allotment only · (earlier: Trading window closed; Q2FY27 ex-forex margin is the test · (earlier: No filings since the profile was written))))</span></summary>
 <div class="upd-body">
+
+**🟢 23-Oct → 4-Nov-2026 — A 'Mega' (>₹1,000cr) RIL desalination order at Jamnagar**
+**27-Oct: order from Reliance Industries for design-to-PGTR of a desalination plant of 8,400 m³/hr, expandable to 12,600 m³/hr (302 MLD), plus a 3,000 m³/hr remineralisation plant at Jamnagar** — classified 'Mega', which the company defines as a domestic order above ₹1,000cr (value not otherwise stated). Q2 results due 5-Nov.
+> **Why it matters:** A private-sector desal order of this size diversifies the book away from municipal clients; the exact value and margin come with the results.
+
+*Sweep: NSE announcements, 23-Oct → 4-Nov-2026 (4-Nov evening filings re-checked at 18:04 IST); market data Screener 4-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
 **No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
@@ -62,17 +68,17 @@ Swept both NSE and BSE: zero announcements.
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (23-Oct-2026, mine, not management's):** The profile's top risk is live: the rupee is 2.0% stronger against the dollar and 3.1% stronger against the euro over three months. Q1FY27's forex gain was ~31% of PAT; a stronger rupee can turn it into a loss. Expect the forex line to drag on Q2FY27.
+**Read (4-Nov-2026, mine, not management's):** Currency, the profile's top risk, has turned mixed: the rupee is roughly flat against the dollar over three months (−0.5%, but 1.7% stronger in the month) and 3.1% stronger against the euro. Q1FY27's forex gain was ~31% of PAT; Q2 (5-Nov) will show how much reversed.
 
 **How cost moves reach profit:** Management counts forex gains inside EBITDA; the rupee's slide to ~₹95/$ has been carrying reported margin (profile §4).
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (94.93 ₹ per $) | FX (export revenue) | -0.8% | -2.0% | +8.2% | -2.0% | ⚪ flat | Yahoo Finance · 23-Oct-2026 |
-| EUR/INR (106.3436 ₹ per €) | FX (export revenue) | -2.8% | -3.1% | +4.5% | -5.5% | 🔴 headwind | Yahoo Finance · 23-Oct-2026 |
+| USD/INR (94.64 ₹ per $) | FX (export revenue) | -1.7% | -0.5% | +6.7% | -2.3% | ⚪ flat | Yahoo Finance · 04-Nov-2026 |
+| EUR/INR (106.5127 ₹ per €) | FX (export revenue) | -1.5% | -3.1% | +4.3% | -5.3% | 🔴 headwind | Yahoo Finance · 04-Nov-2026 |
 
 **Why each factor is here:**
 
@@ -80,7 +86,7 @@ Swept both NSE and BSE: zero announcements.
 - **EUR/INR**: European contracts (my inference; the profile gives no currency split).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -423,7 +429,7 @@ The Wriddhi strategy is a chain, and every link has held: **filter for payment s
 
 **1. 🔴 Forex reverses.** Q1FY27's ₹36.8cr gain was ~31% of PAT. **A flat rupee removes it; a rising rupee turns it into a loss** — as in Q1FY26 (−₹13.6cr). The natural hedge covers much of the exposure, but the size of the gains shows it does not cover all of it.
 
-> 📈 **Factor check 23-Oct-2026:** It is happening: the rupee is 2.0% stronger against the dollar and 3.1% stronger against the euro over three months. Expect the forex line to drag on Q2FY27. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 4-Nov-2026:** Mixed now: over three months the rupee is roughly flat against the dollar (−0.5%) and 3.1% stronger against the euro. Q2FY27 (5-Nov) will show how much of Q1's forex gain reversed. *(Numbers and sources: Input & factor check, at the top.)*
 
 **2. 🔴 The margin is weaker than it is presented.** Ex-forex EBITDA: FY25 12.8% → FY26 12.1% → Q1FY27 9.0%. **Management's guidance is being met on a reported basis while the underlying margin has trended down for five quarters.**
 

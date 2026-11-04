@@ -10,11 +10,19 @@
 > **📌 Basis note: Interarch reports STANDALONE only.** Screener's consolidated page is empty and the board resolution reads *"Standalone Unaudited Financial Results"*. **Every figure in this profile is standalone.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 1,489** · market cap ₹ 2,511 Cr. · P/E 18.4x · ROCE 23.7 % · ROE 16.8 % · 52-wk ₹ 2,763 / 1,460 · **vs ₹1,690 at baseline (-11.9%)**
+**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 1,535** · market cap ₹ 2,582 Cr. · P/E 18.9x · ROCE 23.7 % · ROE 16.8 % · 52-wk ₹ 2,763 / 1,450 · **vs ₹1,690 at baseline (-9.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Split record date 30-Nov; income-tax matter still dark · (earlier: 🟡 Two orders; President-Corporate Finance retired; income-tax matter still undisclosed · (earlier: 🟡 ₹8.30cr GST demand for FY2022-23 (1-Oct) — NOT the income-tax matter, which is still unaddressed; heavy-structures plant commissioned and new orders · (earlier: Nothing filed — but the 29-Sep income-tax document deadline is live and undisclosed · (earlier in window: 🔴 OMISSION CORRECTED: the profile never carried the August-2025 income-tax search; a block-assessment notice for 2019-2025 was received 15-Sep with documents due 29-Sep; conviction moved to Under Watch))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🔴 Q2: revenue +2.9%, PAT −4.9%; independent chair out, MD → Executive Chairperson; tax-search EoM continues · (earlier: 🆕 ⚪ Split record date 30-Nov; income-tax matter still dark · (earlier: 🟡 Two orders; President-Corporate Finance retired; income-tax matter still undisclosed · (earlier: 🟡 ₹8.30cr GST demand for FY2022-23 (1-Oct) — NOT the income-tax matter, which is still unaddressed; heavy-structures plant commissioned and new orders · (earlier: Nothing filed — but the 29-Sep income-tax document deadline is live and undisclosed · (earlier in window: 🔴 OMISSION CORRECTED: the profile never carried the August-2025 income-tax search; a block-assessment notice for 2019-2025 was received 15-Sep with documents due 29-Sep; conviction moved to Under Watch)))))</span></summary>
 <div class="upd-body">
+
+**🔴 23-Oct → 4-Nov-2026 — Q2FY27: revenue +2.9%, PAT −4.9%; the independent chair steps down and the MD becomes Executive Chairperson**
+**Q2FY27 (4-Nov; the results pages are images — rendered and read).** Revenue **₹505.4cr vs ₹491.1cr, +2.9%**; PBT ₹40.9cr vs ₹43.5cr; PAT **₹30.7cr vs ₹32.3cr, −4.9%**; EPS ₹18.27 vs ₹19.25. H1 revenue ₹965.0cr (+10.7%), H1 PAT ₹58.9cr (−2.9%).
+**The auditor (S.R. Batliboi) again draws an Emphasis of Matter to Note 8 — the Income Tax search and survey of 18–22 Aug 2025** covering offices, plants and the residences of certain employees/KMP; conclusion not modified.
+**Board, 4-Nov:** **Sonali Bhagwati Dalal resigns as Chairperson** (stays an independent director); **Arvind Nanda, MD, becomes Whole-Time Director and "Executive Chairperson" for five years**; **Manish Kumar Garg, ED & CEO, becomes MD & CEO with revised remuneration** — both subject to shareholders. Split record date 30-Nov (announced 6-Aug).
+> **Why it matters:** **A flat quarter, and the board moves from an independent chair to an executive promoter chair** — with the tax search still unresolved fourteen months on and now in its fifth review report. The pay revision's size is not in the outcome; read the notice.
+
+*Sweep: NSE announcements, 23-Oct → 4-Nov-2026 (4-Nov evening filings re-checked at 18:04 IST); market data Screener 4-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 21 → 23-Oct-2026 — Record date for the 1:5 split: 30-Nov**
 Record date **30-Nov-2026** for the 1:5 sub-division (₹10 → ₹2 face value) approved at the 10-Sep AGM.
@@ -78,10 +86,10 @@ Screener P/E 21.0x, ROCE 23.7%, ROE 16.8%; market cap ₹2,869cr; promoter 59.44
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (23-Oct-2026, mine, not management's):** Steel, its main input, is +10.2% over three months and near its 52-week high. Pass-through terms are not in the profile, so projects bid before the rise carry margin risk (my inference). Credit to large industry is growing 16.6% YoY (August).
+**Read (4-Nov-2026, mine, not management's):** Steel, its main input, is +10.2% over three months and near its 52-week high. Pass-through terms are not in the profile; Q2FY27 PAT fell 4.9% on revenue +2.9%, consistent with projects bid before the rise carrying margin risk (my inference). Credit to large industry slowed to +11.6% YoY in September (16.6% in August).
 
 **How cost moves reach profit:** Not disclosed in the profile. Pre-engineered buildings are quoted per project, so steel moves between bid and purchase hit margin (my inference).
 
@@ -89,17 +97,17 @@ Screener P/E 21.0x, ROCE 23.7%, ROE 16.8%; market cap ₹2,869cr; promoter 59.44
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Steel Flat | Input cost | -0.3% | +10.2% | +33.5% | -1.5% | 🔴 headwind | Tijori (indianpetrochem.com) · 23 Oct, 09:30 am IST |
-| Credit to Large Industry - Outstanding (YoY, Aug 26) | Demand driver | — | +18.4% | +16.6% | — | 🟢 tailwind | Tijori macro (India) · Aug 26 |
+| Steel Flat | Input cost | -0.8% | +10.2% | +35.3% | -1.7% | 🔴 headwind | Tijori (indianpetrochem.com) · 04 Nov, 09:30 am IST |
+| Credit to Large Industry - Outstanding (YoY, Sep 26) | Demand driver | — | +15.9% | +11.6% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
 
 **Why each factor is here:**
 
 - **Steel Flat**: Pre-engineered buildings are made from steel plate and coil (profile §1).
-- **Credit to Large Industry - Outstanding (YoY, Aug 26)**: PEB demand follows industrial capex (my inference).
+- **Credit to Large Industry - Outstanding (YoY, Sep 26)**: PEB demand follows industrial capex (my inference).
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
 
 </div>
 </details>

@@ -1,7 +1,7 @@
 # Transrail Lighting — Company Profile
 
 **Ticker:** TRANSRAILL · NSE: TRANSRAILL · BSE: 544317
-**Sector:** 19 — Power T&D EPC / Turnkey · **Conviction:** **Medium-High (Under Watch)**
+**Sector:** 19 — Power T&D EPC / Turnkey · **Conviction:** **⤴ Medium (Under Watch)** *(MH → M, 4-Nov-2026: H1FY27 order intake ₹1,638cr against the ₹3,500cr trigger)* · was **Medium-High (Under Watch)**
 **Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 13-Aug-2026)* · **Tracking since:** 23-Jul-2026
 
 **CMP ₹467** · **Market cap ₹6,272 cr** · **P/E 15.0x** *(~12.7x FY27E pre-dilution)* · **P/B 2.75x** (book ₹170) · **ROCE 29.2%** · **ROE 20.0%** · **Div yield 0.64%** · 52-week range **₹450–₹856**, **−41% over one year**
@@ -12,11 +12,19 @@
 > **🎯 This name carries a live Under Watch trigger with four named conditions, set at the Q1FY27 review and testable at Q2FY27 (~Nov-2026). It is in §5.5(a).**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 429** · market cap ₹ 5,748 Cr. · P/E 13.8x · ROCE 33.6 % · ROE 20.0 % · 52-wk ₹ 752 / 401 · **vs ₹467 at baseline (-8.1%)**
+**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 454** · market cap ₹ 6,111 Cr. · P/E 14.2x · ROCE 33.6 % · ROE 20.0 % · 52-wk ₹ 714 / 401 · **vs ₹467 at baseline (-2.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 ₹1,747cr of orders (FY27 intake now ₹3,356cr); 🆕 49% of a 990 MW MSEDCL solar portfolio for ₹20cr — project cost ~₹3,900cr, structured for "financial control" · (earlier: 🟢 Tower capacity +12,000 MTPA (172,400 → 184,400) and ₹574cr of new orders — a second delivery item in two weeks · (earlier: 🟢 Conductor capacity +70%, 24,000 → 40,800 km/annum, Silvassa Phase 1 complete — delivering on the Jan/May-2025 intimations · (earlier in window: Quiet interval: no order or governance filing beyond the FY26 annual report and investor meets; stock −12% to ₹409, at its 52-week low))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🔴 MH → M: H1 intake ₹1,638cr vs the ₹3,500cr trigger; record Q2 revenue, net debt down to ₹143cr (0.2x); Burberry not addressed · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 ₹1,747cr of orders (FY27 intake now ₹3,356cr); 🆕 49% of a 990 MW MSEDCL solar portfolio for ₹20cr — project cost ~₹3,900cr, structured for "financial control" · (earlier: 🟢 Tower capacity +12,000 MTPA (172,400 → 184,400) and ₹574cr of new orders — a second delivery item in two weeks · (earlier: 🟢 Conductor capacity +70%, 24,000 → 40,800 km/annum, Silvassa Phase 1 complete — delivering on the Jan/May-2025 intimations · (earlier in window: Quiet interval: no order or governance filing beyond the FY26 annual report and investor meets; stock −12% to ₹409, at its 52-week low)))))</span></summary>
 <div class="upd-body">
+
+**🔴 23-Oct → 4-Nov-2026 — Q2FY27: record revenue and net debt cut to ₹143cr — but H1 order intake ₹1,638cr fires the downgrade trigger**
+**Q2FY27 (3-Nov, press release + deck).** Revenue **₹2,056cr, +32% YoY, +18% QoQ** (highest ever); EBITDA **₹238cr, +28%**, margin 11.6% (11.9%); PAT **₹104cr vs ₹92cr, +13%**. H1 revenue ₹3,792cr (+18%). **H1 operating cash flow ₹435cr.** **Net debt ₹143cr, 0.2x EBITDA** (deck slide, rendered and read) against ₹466cr at Q1 — receivables collected into cash; WC days 82 (81 at Mar-26). ROCE 25.1%.
+**🔴 Order intake H1FY27 ₹1,638cr; unexecuted order book ₹14,218cr** (₹16,035cr at Q1, ₹16,361cr before that). ₹1,747cr of orders came in October, after the half (recorded 21-Oct). Management: *"confident of achieving our FY27 guidance"* (₹10,000cr+ intake) on the tender pipeline. Tower capacity 184,400 MTPA; conductor capacity +70% to 40,800 KMPA; Bangladesh 400 kV river crossing completed. CARE monitoring report: no deviation in IPO proceeds.
+**Board, 3-Nov:** three appointments (Harsh Narang, Prashant Thorat, Unmesh Nerkar) and two SMP exits (Anant Kadiwal, President Civil, on retirement; Ashok Rawat, VP Poles & Lighting). Earnings call 4-Nov 12:30; transcript not yet filed.
+> **Why it matters:** **The Under-Watch trigger was four conditions; one has fired and one has reversed.** H1 intake <₹3,500cr — **fired at ₹1,638cr** (₹3,385cr even counting October). Net debt/EBITDA >0.67x — **reversed, 0.2x**. Q2 revenue <₹2,000cr — clear. Burberry loan repaid by Sep-26 — **not addressed in the release or deck; open for the call.** To reach ₹10,000cr the second half must book ~₹8,400cr. **MH (Under Watch) → M on the profile's own rule.**
+
+*Sweep: NSE announcements, 23-Oct → 4-Nov-2026 (4-Nov evening filings re-checked at 18:04 IST); market data Screener 4-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
 **No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
@@ -65,20 +73,20 @@ Filings: FY26 annual report (2-Sep), final-dividend tax notice, Ms. Ranjana Mait
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (23-Oct-2026, mine, not management's):** Input pressure persists. Long steel for towers is +35.5% over three months and at a 52-week high, and zinc for galvanising +13.6% (September average, at a high); aluminium fell 11.9%. With 65% of contracts carrying fixed-price input risk, Q2 is where the gap could show (profile Risk 7).
+**Read (4-Nov-2026, mine, not management's):** Input pressure is easing from the peak: long steel +26.9% over three months (−0.6% from its 52-week high, +2.4% in the month), zinc for galvanising +6.1% (October average −5.0% in the month), aluminium −4.4%. With 65% of contracts carrying fixed-price input risk, Q2's 11.6% margin (11.9% a year ago) shows the pressure was absorbed, not avoided.
 
 **How cost moves reach profit:** About 65% of contracts carry input risk on fixed prices (profile).
 
-**Sensitivity:** raw materials were **44.7% of sales in FY26** (FY25: 48.4%, Screener). A 10% move across the whole raw-material bill is worth about **447 bps of margin before any pass-through**. The tracked inputs averaged **+12.4% over three months**, which would be roughly **554 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **44.7% of sales in FY26** (FY25: 48.4%, Screener). A 10% move across the whole raw-material bill is worth about **447 bps of margin before any pass-through**. The tracked inputs averaged **+9.5% over three months**, which would be roughly **425 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Steel Long | Input cost | +4.5% | +35.5% | +38.4% | +0.0% | 🔴 headwind | Tijori (indianpetrochem.com) · 23 Oct, 09:30 am IST |
-| Zinc (monthly avg) (4,021.0 $/mt) | Input cost | +3.8% | +13.6% | +37.1% | +0.0% | 🔴 headwind | World Bank Pink Sheet · 2026M09 |
-| Aluminium (COMEX) (3,108.0 $/t) | Input cost | -9.5% | -11.9% | +12.3% | -25.9% | 🟢 tailwind | Yahoo Finance · 23-Oct-2026 |
+| Steel Long | Input cost | +2.4% | +26.9% | +36.6% | -0.6% | 🔴 headwind | Tijori (indianpetrochem.com) · 04 Nov, 09:30 am IST |
+| Zinc (monthly avg) (3,818.0 $/mt) | Input cost | -5.0% | +6.1% | +21.1% | -5.0% | 🔴 headwind | World Bank Pink Sheet · 2026M10 |
+| Aluminium (COMEX) (3,217.5 $/t) | Input cost | -0.6% | -4.4% | +15.8% | -23.3% | 🟢 tailwind | Yahoo Finance · 04-Nov-2026 |
 
 **Why each factor is here:**
 
@@ -88,7 +96,7 @@ Filings: FY26 annual report (2-Sep), final-dividend tax notice, Ms. Ranjana Mait
 
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -467,7 +475,7 @@ CFO Khandelwal, pressed by Kartikay Agrawal: *"It is **INR80 crores** loan, and 
 
 **Risk 7 — 🟡 Commodity pass-through gap.** Only **~35% price-variation**; **65% fixed-price input risk** on steel, zinc and aluminium.
 
-> 📈 **Factor check 23-Oct-2026:** Live: long steel +35.5% and zinc +13.6% over three months, both at 52-week highs; aluminium −11.9%. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 4-Nov-2026:** Easing from the peak: long steel +26.9% and zinc +6.1% over three months (zinc −5.0% in October), aluminium −4.4%; Q2FY27 margin held at 11.6%. *(Numbers and sources: Input & factor check, at the top.)*
 
 **Risk 8 — 🟡 International and country risk.** **Africa ~20% across 28 countries** — security (Mali kidnappings were raised by an analyst), currency and payment. **Mitigated by multilateral funding, not eliminated.**
 

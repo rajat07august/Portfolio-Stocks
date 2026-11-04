@@ -13,11 +13,17 @@
 > **📌 SECTOR NOTE.** Placed in **Sector 1 (Aerospace & Defence)** at Rajat's instruction, 1-Sep-2026, **with the sector definition widened from *"Defence electronics, aerospace forging, avionics, drones"* to include defence platform systems and equipment.** ***Its customer, its qualification barrier and its margin structure are naval-platform economics — the same thing that groups PARAS, AZAD, AXISCADES, DYNAMATIC, ROSSELL and UNIMECH — even though it makes none of the four things the old definition listed.***
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 331** · market cap ₹ 1,183 Cr. · P/E 55.0x · ROCE 13.8 % · ROE 13.0 % · 52-wk ₹ 439 / 161 · **vs ₹410 at baseline (-19.3%)**
+**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 308** · market cap ₹ 1,101 Cr. · P/E 41.0x · ROCE 13.8 % · ROE 13.0 % · 52-wk ₹ 439 / 161 · **vs ₹410 at baseline (-24.9%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 1-Sep-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ H1 board 28-Oct · (earlier: 🟢 ₹7.86cr Indian Navy order; Aquilon Ltd subsidiary incorporated · (earlier: A trading-window closure only · (earlier: Participation in an Arihant virtual conference; nothing else · (earlier in window: CARE upgrades the bank rating to BBB-/Stable (from BB+) and cites a ₹279.67cr order book; AGM approves the new Whole-Time Director; stock −3.7%))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 1-Sep-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟢 H1: revenue +86%, PAT 3.5x; data-centre cooling push; transcript filed · (earlier: 🆕 ⚪ H1 board 28-Oct · (earlier: 🟢 ₹7.86cr Indian Navy order; Aquilon Ltd subsidiary incorporated · (earlier: A trading-window closure only · (earlier: Participation in an Arihant virtual conference; nothing else · (earlier in window: CARE upgrades the bank rating to BBB-/Stable (from BB+) and cites a ₹279.67cr order book; AGM approves the new Whole-Time Director; stock −3.7%)))))</span></summary>
 <div class="upd-body">
+
+**🟢 23-Oct → 4-Nov-2026 — H1FY27: revenue +86%, PAT 3.5x; transcript filed; data-centre cooling push**
+**H1FY27 (28-Oct, half-yearly SME; call 30-Oct, transcript filed 4-Nov).** Revenue **₹93cr, +86%**; EBITDA ₹13.6cr; PAT **₹7cr, +250%** (Screener); OPM 14% (11%). The deck targets data-centre cooling (technology cooperation with Smardt, Canada) and a second unit for capacity.
+> **Why it matters:** A small company scaling fast; first transcript in the window means the guidance can now be checked against the call.
+
+*Sweep: BSE announcements via Chrome (the BSE JSON API is still blocked from curl), 23-Oct → 4-Nov-2026 (4-Nov evening filings re-checked at 18:04 IST); market data Screener 4-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 21 → 23-Oct-2026 — H1 board meeting fixed for 28-Oct**
 Board meets **28-Oct** for H1FY27 results (BSE, via Chrome).
@@ -69,10 +75,10 @@ Screener P/E 65.7x, ROCE 13.8%, ROE 13.0%; market cap ₹1,415cr; promoter 44.60
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (23-Oct-2026, mine, not management's):** No tracked series applies; naval shipbuilding orders drive it. H1 board 28-Oct.
+**Read (4-Nov-2026, mine, not management's):** No tracked series applies; naval shipbuilding and data-centre cooling orders drive it.
 
 **How cost moves reach profit:** No tracked price or macro series drives this business directly. The driver is naval shipbuilding orders.
 
@@ -80,7 +86,7 @@ Screener P/E 65.7x, ROCE 13.8%, ROE 13.0%; market cap ₹1,415cr; promoter 44.60
 
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
 
 </div>
 </details>

@@ -10,11 +10,17 @@
 > **📌 THE DEFINING FACT OF THIS PROFILE: Kolte-Patil has held no earnings call since August 2025 — four consecutive quarters.** It is not a gap in this repository; **the company formally notified the exchanges each time that it would not host one.** Every judgement below rests on filings and investor decks **without any management Q&A**, and no analyst has been able to ask about the ₹150cr GST matter, the volume decline, or the Mumbai economics. **On 19-Aug-2026 the reason it gave for the latest blackout — *"leadership transition"* — resolved itself into a named CEO.** See §5.5(b).
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 458** · market cap ₹ 4,067 Cr. · P/E 32.7x · ROCE -0.32 % · ROE -4.36 % · 52-wk ₹ 557 / 292 · **vs ₹469 at baseline (-2.3%)**
+**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 470** · market cap ₹ 4,167 Cr. · P/E 29.8x · ROCE -0.32 % · ROE -4.36 % · 52-wk ₹ 557 / 292 · **vs ₹469 at baseline (+0.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ NSE volume-spurt query 23-Oct (stock +9.6%); reply pending · (earlier: 🟢 Record Q2 pre-sales ₹1,019cr (+52%); collections +33%; ₹6,000cr GDV signed in Mumbai · (earlier: CARE REAFFIRMS CARE AA- on the ₹250cr listed NCDs after reviewing FY26 and Q1FY27 · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: Strongest-ever launch: 600+ apartments and over ₹600cr of sales in 60 hours at 'Vyana at The Reserve', Pune; stock nonetheless −8%))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟢 Q2: record pre-sales ₹1,019cr (+52%), collections +33%; six Mumbai projects ~₹6,000cr GDV · (earlier: 🆕 ⚪ NSE volume-spurt query 23-Oct (stock +9.6%); reply pending · (earlier: 🟢 Record Q2 pre-sales ₹1,019cr (+52%); collections +33%; ₹6,000cr GDV signed in Mumbai · (earlier: CARE REAFFIRMS CARE AA- on the ₹250cr listed NCDs after reviewing FY26 and Q1FY27 · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: Strongest-ever launch: 600+ apartments and over ₹600cr of sales in 60 hours at 'Vyana at The Reserve', Pune; stock nonetheless −8%)))))</span></summary>
 <div class="upd-body">
+
+**🟢 23-Oct → 4-Nov-2026 — Q2FY27: record pre-sales ₹1,019cr (+52%), collections +33%; six Mumbai projects worth ₹6,000cr GDV**
+**Q2FY27 (3-Nov).** **Pre-sales ₹1,019cr, +52% YoY (record); collections ₹795cr, +33%**; H1 pre-sales ₹1,636cr (+27%), H1 collections ₹1,509cr (+32%); H1 realisation ₹8,368/sq ft (+10%). Q2 total income ₹352cr; **H1 total income a record ₹1,288cr**, H1 EBITDA margin 17%. 'Vyana at The Reserve', Pune — the best launch yet (₹616cr pre-sales). **Six Mumbai projects signed, ~₹6,000cr GDV.** NSE asked for clarification on volume spurts (23–24 Oct). Monitoring agency report on the preferential issue filed.
+> **Why it matters:** Pre-sales and collections are the leading indicators for a developer and both are at records; reported P&L stays lumpy (Q2 PAT ₹5.7cr) because revenue follows completion.
+
+*Sweep: NSE announcements, 23-Oct → 4-Nov-2026 (4-Nov evening filings re-checked at 18:04 IST); market data Screener 4-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 21 → 23-Oct-2026 — NSE seeks clarification on a volume spurt**
 On **23-Oct NSE** asked Kolte-Patil to clarify a **significant increase in trading volume**; the company's reply is not yet filed. The stock closed **+9.6%** over the two sessions (₹418 → ₹458, Screener).
@@ -71,16 +77,16 @@ Screener P/E 30.8x (distorted by earnings timing), ROCE −0.3%, ROE −4.4%; pr
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (23-Oct-2026, mine, not management's):** No tracked series applies; launches, pre-sales and home-loan rates drive it.
+**Read (4-Nov-2026, mine, not management's):** No tracked series applies; launches, pre-sales and home-loan rates drive it.
 
 **How cost moves reach profit:** No tracked price or macro series drives this business directly. The drivers are launches, pre-sales and home-loan rates.
 
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
 
 </div>
 </details>

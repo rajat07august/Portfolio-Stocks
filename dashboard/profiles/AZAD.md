@@ -12,11 +12,17 @@
 > **The tension to hold throughout: this is an elite manufacturing franchise attached to a valuation and a cash-flow record that do not match it.** The engineering is world-class and got better this quarter. **Operating cash flow has been positive in one of the last five years.** Both statements are true, and the profile is written to keep them side by side rather than resolve them.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 2,479** · market cap ₹ 16,008 Cr. · P/E 115x · ROCE 11.9 % · ROE 9.09 % · 52-wk ₹ 3,128 / 1,359 · **vs ₹2,718 at baseline (-8.8%)**
+**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 2,581** · market cap ₹ 16,682 Cr. · P/E 120x · ROCE 11.9 % · ROE 9.09 % · 52-wk ₹ 3,128 / 1,359 · **vs ₹2,718 at baseline (-5.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 BHEL two-year rate contract (~₹52.68cr) for gas-turbine blades · (earlier: 🟢 AGM re-appointed the Chairman-CEO and two whole-time directors for five years, all passed cleanly — notable against two promoter-pay defeats elsewhere this month · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: No company event beyond the FY26 annual report; stock +2.6% to ₹2,790 at ~130x))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Quiet; Q2 due 6-Nov · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 BHEL two-year rate contract (~₹52.68cr) for gas-turbine blades · (earlier: 🟢 AGM re-appointed the Chairman-CEO and two whole-time directors for five years, all passed cleanly — notable against two promoter-pay defeats elsewhere this month · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: No company event beyond the FY26 annual report; stock +2.6% to ₹2,790 at ~130x)))))</span></summary>
 <div class="upd-body">
+
+**⚪ 23-Oct → 4-Nov-2026 — Quiet — only the Q2 call notice**
+**Only the earnings-call intimation was filed in the window; results due 6-Nov (Screener).**
+> **Why it matters:** A checked negative.
+
+*Sweep: NSE announcements, 23-Oct → 4-Nov-2026 (4-Nov evening filings re-checked at 18:04 IST); market data Screener 4-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
 **No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
@@ -65,10 +71,10 @@ Screener P/E 130x, ROCE 11.9%, ROE 9.1%; market cap ₹18,020cr; promoter 55.84%
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (23-Oct-2026, mine, not management's):** Sales are in dollars, but the CFO says currency moves sit below EBITDA. The rupee is 2.0% stronger over three months.
+**Read (4-Nov-2026, mine, not management's):** Sales are in dollars, but the CFO says currency moves sit below EBITDA. The rupee is 1.7% stronger in the month.
 
 **How cost moves reach profit:** Sales are largely dollar-denominated, but the CFO says rupee moves flow below EBITDA and declined to claim a benefit (profile).
 
@@ -76,14 +82,14 @@ Screener P/E 130x, ROCE 11.9%, ROE 9.1%; market cap ₹18,020cr; promoter 55.84%
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (94.93 ₹ per $) | FX (export revenue) | -0.8% | -2.0% | +8.2% | -2.0% | ⚪ flat | Yahoo Finance · 23-Oct-2026 |
+| USD/INR (94.64 ₹ per $) | FX (export revenue) | -1.7% | -0.5% | +6.7% | -2.3% | ⚪ flat | Yahoo Finance · 04-Nov-2026 |
 
 **Why each factor is here:**
 
 - **USD/INR**: Dollar-denominated turbine and aero sales (profile).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
 
 </div>
 </details>

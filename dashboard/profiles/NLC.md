@@ -12,11 +12,18 @@
 > **🔴 The single rule for this company: tax-normalise every profit comparison.** FY26's effective tax rate was **2.7%**; FY25's was 26.6%; Q1FY27's was 33%. **Reported PAT is not comparable across any two periods here without adjustment**, and the headline records that justified a High conviction at initiation were substantially an accounting event. **Read the PBT line first.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 228** · market cap ₹ 31,691 Cr. · P/E 9.88x · ROCE 8.42 % · ROE 11.9 % · 52-wk ₹ 388 / 222 · **vs ₹275 at baseline (-17.1%)**
+**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 248** · market cap ₹ 34,368 Cr. · P/E 10.7x · ROCE 8.42 % · ROE 11.9 % · 52-wk ₹ 388 / 222 · **vs ₹275 at baseline (-9.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Non-binding Odisha MoUs (3,200 MW thermal, ~₹35,000cr potential); ESG upgrade · (earlier: 🟢 50 MW/200 MWh BESS award (WBSEDCL); ₹1,000cr CP; Board asks the Ministry of Coal to fill board seats · (earlier: 🟢 50:50 JV with NALCO approved for a 1080 MW captive thermal plant; ₹500cr CP; a new Executive Director · (earlier: ₹500cr commercial paper issued; the CMD is given additional charge of Director (Finance) for three months — a second portfolio on one office · (earlier in window: Permanent CMD appointed (the CFO, who vacates his seat); US$100m ECB approved; CRISIL AAA reaffirmed; 110 MW solar PPA signed; new joint auditors))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🔴 Q2: PBT −50%; PAT +83% only via a ₹988cr deferred-tax credit; NIRL IPO with 10cr-share OFS; +660 MW at Ghatampur · (earlier: 🆕 ⚪ Non-binding Odisha MoUs (3,200 MW thermal, ~₹35,000cr potential); ESG upgrade · (earlier: 🟢 50 MW/200 MWh BESS award (WBSEDCL); ₹1,000cr CP; Board asks the Ministry of Coal to fill board seats · (earlier: 🟢 50:50 JV with NALCO approved for a 1080 MW captive thermal plant; ₹500cr CP; a new Executive Director · (earlier: ₹500cr commercial paper issued; the CMD is given additional charge of Director (Finance) for three months — a second portfolio on one office · (earlier in window: Permanent CMD appointed (the CFO, who vacates his seat); US$100m ECB approved; CRISIL AAA reaffirmed; 110 MW solar PPA signed; new joint auditors)))))</span></summary>
 <div class="upd-body">
+
+**🔴 23-Oct → 4-Nov-2026 — Q2FY27: PAT +83% is a ₹988cr deferred-tax credit — PBT fell 50%; NIRL IPO with a 10-crore-share OFS**
+**Q2FY27 (4-Nov; consolidated P&L rendered and read).** Revenue **₹4,732cr, +13.3%**. Profit before regulatory deferral **₹296.0cr vs ₹731.0cr**; **PBT ₹464.7cr vs ₹921.3cr (−50%)** — depreciation ₹728.5cr (₹547.9cr), finance cost ₹437.6cr (₹289.2cr), other income ₹94.3cr (₹168.3cr). **A deferred-tax credit of ₹987.7cr** makes total tax −₹863.3cr, so **PAT is ₹1,328.0cr vs ₹724.8cr**. EPS before regulatory deferral ₹8.96 (₹3.84).
+**Board, 4-Nov:** **OFS of up to 10 crore shares of NLC India Renewables (NIRL, wholly owned) as part of NIRL's IPO**; bonds of up to ₹2,500cr in phases; **an additional 660 MW unit at Ghatampur (NUPPL)**; interim dividend ₹1.50 (record 12-Nov).
+> **Why it matters:** **The headline PAT is a tax entry; the operating quarter halved** on new-capacity depreciation and interest. The NIRL IPO is the value-unlock the renewables thesis waits for — its pricing and the OFS share will matter more than this quarter.
+
+*Sweep: NSE announcements, 23-Oct → 4-Nov-2026 (4-Nov evening filings re-checked at 18:04 IST); market data Screener 4-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 21 → 23-Oct-2026 — Odisha MoUs (3,200 MW thermal, coal gasification, beach sand); ICRA ESG upgrade**
 MoUs with **IPICOL (Odisha)** on 22-Oct for a **3,200 MW (4×800 MW) ultra-supercritical coal plant** (potential investment ~₹35,000cr), exploring **coal-gasification-to-fertiliser** linkages, and a **beach-sand mineral processing** facility (~₹2,000cr). ICRA ESG combined rating upgraded 59 → 60 ('Strong').
@@ -86,10 +93,10 @@ Screener P/E 11.6x, ROCE 8.4%, ROE 11.9%; promoter (President of India) 69.47%; 
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (23-Oct-2026, mine, not management's):** Electricity output is growing 11.6% YoY (August). Regulated, cost-plus tariffs mean fuel prices largely pass through (my inference). India's coal output is −3.8% YoY.
+**Read (4-Nov-2026, mine, not management's):** Electricity output +11.6% YoY (August); India's coal output −3.8%. Regulated, cost-plus tariffs largely pass fuel through (my inference); Q2FY27's PBT fall came from depreciation and interest on new capacity, not fuel.
 
 **How cost moves reach profit:** Power is sold under regulated, cost-plus tariffs, so fuel prices pass through (my inference).
 
@@ -105,7 +112,7 @@ Screener P/E 11.6x, ROCE 8.4%, ROE 11.9%; promoter (President of India) 69.47%; 
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
 
 </div>
 </details>

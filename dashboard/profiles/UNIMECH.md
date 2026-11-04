@@ -11,11 +11,17 @@
 > **🔴 THE ONE-PARAGRAPH VERSION.** Unimech makes the **tools that build and maintain jet engines** — a genuinely differentiated, 65%-gross-margin business with AS9100 certification, multi-year qualification cycles and real switching costs. It listed in December 2024, guided **+40% revenue growth for FY26, and delivered −1%** when US tariffs hit 50% and its customers stopped restocking. It has since spent **₹450cr — essentially its entire IPO treasury — buying Hobel Bellows**, a 50%-EBITDA-margin business, at 7x EBITDA. The stock trades at **105x earnings and 10.3x book on an 11.2% ROCE**, and **roughly half of reported pre-tax profit is interest income, not operations.** **The ₹1,000cr-by-FY29 target that would justify the multiple has not been mentioned on any of the last three calls.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 1,560** · market cap ₹ 7,938 Cr. · P/E 110x · ROCE 11.2 % · ROE 7.96 % · 52-wk ₹ 1,901 / 695 · **vs ₹1,491 at baseline (+4.6%)**
+**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 1,772** · market cap ₹ 9,056 Cr. · P/E 103x · ROCE 11.2 % · ROE 7.96 % · 52-wk ₹ 1,901 / 695 · **vs ₹1,491 at baseline (+18.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Q2 call 28-Oct · (earlier: ⚪ Routine filings only · (earlier: 🟢🟢 Saudi JV funded and controlled — SAR 15.30m (~₹39.4cr) infused for 51% of Kanoo Unimech, with a second equal tranche to follow · (earlier: Nothing filed; the five late-disclosed SMP departures remain the open item · (earlier in window: 🔴 Five senior managers' exits disclosed up to 13 months late ('inadvertent error'); CARE assigns Issuer Rating A/Stable; ₹3cr more into Dheya, on whose board the CMD and a WTD sit; stock +6.7%))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟢 Q2: revenue +98%, PAT +103%; order book ₹855cr (8x); Honeywell LTA · (earlier: 🆕 ⚪ Q2 call 28-Oct · (earlier: ⚪ Routine filings only · (earlier: 🟢🟢 Saudi JV funded and controlled — SAR 15.30m (~₹39.4cr) infused for 51% of Kanoo Unimech, with a second equal tranche to follow · (earlier: Nothing filed; the five late-disclosed SMP departures remain the open item · (earlier in window: 🔴 Five senior managers' exits disclosed up to 13 months late ('inadvertent error'); CARE assigns Issuer Rating A/Stable; ₹3cr more into Dheya, on whose board the CMD and a WTD sit; stock +6.7%)))))</span></summary>
 <div class="upd-body">
+
+**🟢 23-Oct → 4-Nov-2026 — Q2FY27: revenue +98%, PAT +103%; order book 8x to ₹855cr; Honeywell long-term agreement**
+**Q2FY27 (27-Oct; transcript filed 31-Oct).** Revenue **₹123.0cr, +98%**; EBITDA **₹49.0cr, +164%**; PAT **₹31.8cr, +103%**. **Consolidated order book ₹854.6cr, up 8x YoY.** **26-Oct: subsidiary Innomech signed a Long-Term Agreement with Honeywell Aerospace US LLC.** 29-Oct: Hobel Bellows (bellows/expansion joints) to become a direct WOS — shares bought from Innomech, intra-group. Prathap B. Naidu (SMP) leaves 1-Nov. IPO proceeds: CARE reports no deviation (objects varied in Dec-2025).
+> **Why it matters:** The order book and the Honeywell LTA answer the profile's customer-concentration worry in part; the margin step-up is large and worth checking against the call.
+
+*Sweep: NSE announcements, 23-Oct → 4-Nov-2026 (4-Nov evening filings re-checked at 18:04 IST); market data Screener 4-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 21 → 23-Oct-2026 — Q2 call 28-Oct**
 Earnings call **28-Oct, 11am**, with the WTD & CFO.
@@ -73,10 +79,10 @@ Screener P/E 112x, ROCE 11.2%, ROE 8.0%; market cap ₹8,100cr; promoter 79.82%;
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (23-Oct-2026, mine, not management's):** Export tooling is priced in dollars; the rupee is 2.0% stronger over three months and 8.2% weaker over the year. Call 28-Oct.
+**Read (4-Nov-2026, mine, not management's):** Export tooling is priced in dollars; the rupee is 1.7% stronger in the month and 6.7% weaker over the year.
 
 **How cost moves reach profit:** Export tooling priced in dollars (profile).
 
@@ -84,14 +90,14 @@ Screener P/E 112x, ROCE 11.2%, ROE 8.0%; market cap ₹8,100cr; promoter 79.82%;
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (94.93 ₹ per $) | FX (export revenue) | -0.8% | -2.0% | +8.2% | -2.0% | ⚪ flat | Yahoo Finance · 23-Oct-2026 |
+| USD/INR (94.64 ₹ per $) | FX (export revenue) | -1.7% | -0.5% | +6.7% | -2.3% | ⚪ flat | Yahoo Finance · 04-Nov-2026 |
 
 **Why each factor is here:**
 
 - **USD/INR**: Export-led aerospace tooling (profile).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
 
 </div>
 </details>

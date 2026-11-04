@@ -4,11 +4,17 @@
 **Conviction: MEDIUM-LOW** · CMP ₹5,146 · Mcap ₹3,942 Cr · Trailing P/E **42.7x** · ROCE 7.85% · ROE 5.75%
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 4,070** · market cap ₹ 3,118 Cr. · P/E 30.4x · ROCE 7.85 % · ROE 5.75 % · 52-wk ₹ 5,760 / 3,184 · **vs ₹5,146 at baseline (-20.9%)**
+**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 4,235** · market cap ₹ 3,236 Cr. · P/E 31.6x · ROCE 7.85 % · ROE 5.87 % · 52-wk ₹ 5,760 / 3,184 · **vs ₹5,146 at baseline (-17.7%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 15-Sep-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 ₹49.2cr debottlenecking capex; ₹34.44cr received from TASL capital reduction · (earlier: 🟡 ₹17.53cr state-tax show-cause notice for AY2022-23 (tax ₹8.05cr); AGM passed · (earlier: No filings since the profile was written; stock −9.6%)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 15-Sep-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Quiet — verified · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 ₹49.2cr debottlenecking capex; ₹34.44cr received from TASL capital reduction · (earlier: 🟡 ₹17.53cr state-tax show-cause notice for AY2022-23 (tax ₹8.05cr); AGM passed · (earlier: No filings since the profile was written; stock −9.6%))))</span></summary>
 <div class="upd-body">
+
+**⚪ 23-Oct → 4-Nov-2026 — Quiet window — verified**
+**Only a Eurogrip marketing press release (student case-study contest) and a newspaper ad; Q2 pending.**
+> **Why it matters:** A checked negative, not an assumed one (§0A rule 6).
+
+*Sweep: NSE announcements, 23-Oct → 4-Nov-2026 (4-Nov evening filings re-checked at 18:04 IST); market data Screener 4-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
 **No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
@@ -58,20 +64,20 @@ Swept both NSE and BSE: zero announcements.
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (23-Oct-2026, mine, not management's):** Natural rubber has split: RSS3 −3.8% over three months, TSR20 +7.1% and at a 52-week high (+38.5% over the year). Crude is back up (+8.1% in the month, +15.1% over three months), which reaches synthetic rubber and carbon black. Two-wheeler retail +33.1% YoY in September; tractors −15.5%.
+**Read (4-Nov-2026, mine, not management's):** Natural rubber is diverging: TSR20 +19.2% over three months (October average, +5.8% in the month), RSS3 +1.8%. Brent front-month (~$102) has eased from ~$111, which helps synthetic rubber and carbon black at the margin. Two-wheeler retail +33.1% YoY in September; tractors −15.5%.
 
 **How cost moves reach profit:** No contractual pass-through; replacement prices are raised after the fact. The FY26 MD&A says FY27 opened with an 'unprecedented increase in raw material prices' (profile).
 
-**Sensitivity:** raw materials were **58.0% of sales in FY26** (FY25: 58.0%, Screener). A 10% move across the whole raw-material bill is worth about **580 bps of margin before any pass-through**. The tracked inputs averaged **+1.6% over three months**, which would be roughly **93 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **58.0% of sales in FY26** (FY25: 58.0%, Screener). A 10% move across the whole raw-material bill is worth about **580 bps of margin before any pass-through**. The tracked inputs averaged **+10.5% over three months**, which would be roughly **609 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Rubber, RSS3 (monthly avg) (2.75 $/kg) | Input cost | +0.7% | -3.8% | +30.3% | -3.8% | 🟢 tailwind | World Bank Pink Sheet · 2026M09 |
-| Rubber, TSR20 (monthly avg) (2.41 $/kg) | Input cost | +7.6% | +7.1% | +38.5% | +0.0% | 🔴 headwind | World Bank Pink Sheet · 2026M09 |
-| Brent crude (111.42 $/bbl) | Proxy / context | +8.1% | +15.1% | +68.8% | -5.9% | ⚪ context | Yahoo Finance · 23-Oct-2026 |
+| Rubber, RSS3 (monthly avg) (2.83 $/kg) | Input cost | +2.9% | +1.8% | +41.5% | -1.0% | ⚪ flat | World Bank Pink Sheet · 2026M10 |
+| Rubber, TSR20 (monthly avg) (2.55 $/kg) | Input cost | +5.8% | +19.2% | +49.1% | +0.0% | 🔴 headwind | World Bank Pink Sheet · 2026M10 |
+| Brent crude (102.33 $/bbl) | Proxy / context | +2.0% | +28.8% | +58.8% | -13.5% | ⚪ context | Yahoo Finance · 04-Nov-2026 |
 | Two Wheeler - Retail Sales (YoY, Sep 26) | Demand driver | — | +27.0% | +33.1% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
 | Tractor Sales (YoY, Sep 26) | Demand driver | — | +3.8% | -15.5% | — | 🔴 headwind | Tijori macro (India) · Sep 26 |
 
@@ -86,7 +92,7 @@ Swept both NSE and BSE: zero announcements.
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -398,7 +404,7 @@ FY26 actual capex was **₹106.09 Cr**; the approved pipeline is **₹430 Cr**.
 
 1. **🔴 Raw materials, flagged by management as "unprecedented."** Two-thirds of the selling price. This is the dominant near-term variable and it is entirely exogenous.
 
-   > 📈 **Factor check 23-Oct-2026:** Natural rubber has split (TSR20 +7.1% over three months and at a 52-week high, RSS3 −3.8%), while crude is +15.1% (+8.1% in the month), which feeds synthetic rubber and carbon black. *(Numbers and sources: Input & factor check, at the top.)*
+   > 📈 **Factor check 4-Nov-2026:** Natural rubber has split further (TSR20 +19.2% over three months to the October average, RSS3 +1.8%); Brent front-month has eased to ~$102 from ~$111 on 23-Oct. *(Numbers and sources: Input & factor check, at the top.)*
 
 2. **🔴 The multiple.** 42.7x trailing on a 7.85% ROCE, against a peer group at 12-30x on 11-19% ROCE. Multiple compression alone can produce the bear case without a single operational miss.
 3. **🔴 A decade of margin erosion that has not yet been explained.** PBDIT/sales 14.5% → 8.0%, RONW 28.5% → 7.3%. Two good quarters do not reverse a ten-year trend, and no management commentary exists to say what changed or what will change it.

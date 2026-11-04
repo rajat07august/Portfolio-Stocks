@@ -5,11 +5,17 @@
 **⚠️ Monarch holds no earnings calls, files no investor presentations, and its FY26 Annual Report is still unfiled — every judgement below is inferred from statutory filings.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 329** · market cap ₹ 2,606 Cr. · P/E 14.4x · ROCE 27.6 % · ROE 20.5 % · 52-wk ₹ 407 / 235 · **vs ₹379 at baseline (-13.2%)**
+**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 351** · market cap ₹ 2,791 Cr. · P/E 14.5x · ROCE 27.6 % · ROE 20.5 % · 52-wk ₹ 407 / 235 · **vs ₹379 at baseline (-7.4%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: AGM passed; no concalls, so filings are the only channel · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: No company event beyond the FY26 annual report; stock −3.4% to ₹366))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟢 Q2: revenue +48%, PAT +27%; 1:5 split approved (record date pending) · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: AGM passed; no concalls, so filings are the only channel · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: No company event beyond the FY26 annual report; stock −3.4% to ₹366)))))</span></summary>
 <div class="upd-body">
+
+**🟢 23-Oct → 4-Nov-2026 — Q2FY27: revenue +48%, PAT +27%; 1:5 stock split approved**
+**Q2FY27 (29-Oct).** Revenue **₹123cr, +48%**; PAT **₹57cr, +27%** (Screener). **Board approved a split of each ₹10 share into five ₹2 shares** ("to enhance affordability"); the MoA/AoA capital clause amended accordingly. Record date to be fixed.
+> **Why it matters:** Strong broking quarter; the split is cosmetic but the price history will need adjusting when it goes ex.
+
+*Sweep: NSE announcements, 23-Oct → 4-Nov-2026 (4-Nov evening filings re-checked at 18:04 IST); market data Screener 4-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
 **No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
@@ -57,16 +63,16 @@ Screener P/E 16.0x, ROCE 27.7%, ROE 20.5%; promoter 53.83% (stable); 52-week ran
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (23-Oct-2026, mine, not management's):** No tracked series applies; capital-market activity drives it.
+**Read (4-Nov-2026, mine, not management's):** No tracked series applies; capital-market activity drives it.
 
 **How cost moves reach profit:** No tracked price or macro series drives this business directly. The driver is capital-market activity (profile Risk 1).
 
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
 
 </div>
 </details>

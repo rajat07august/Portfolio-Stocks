@@ -4,11 +4,17 @@
 **Thesis current as of: 16-Sep-2026 · Tracking since: 16-Sep-2026**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 470** · market cap ₹ 1,520 Cr. · P/E 21.1x · ROCE 12.9 % · ROE 12.1 % · 52-wk ₹ 545 / 272 · **vs ₹507 at baseline (-7.3%)**
+**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 595** · market cap ₹ 1,927 Cr. · P/E 21.5x · ROCE 12.9 % · ROE 12.1 % · 52-wk ₹ 653 / 272 · **vs ₹507 at baseline (+17.4%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 16-Sep-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: 🔴 NCLT ALLOWED WITHDRAWAL of the subsidiary amalgamation scheme approved back in Dec-2024 — another timetable abandoned · (earlier: No filings since the profile was written)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 16-Sep-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟢 Q2: revenue +58%, PAT +96% (gross margin 30% vs 33%); new Unit-5 chemical plant · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: 🔴 NCLT ALLOWED WITHDRAWAL of the subsidiary amalgamation scheme approved back in Dec-2024 — another timetable abandoned · (earlier: No filings since the profile was written))))</span></summary>
 <div class="upd-body">
+
+**🟢 23-Oct → 4-Nov-2026 — Q2FY27: revenue +58%, PAT +96%; a new chemical plant at Unit-5**
+**Q2FY27 (2-Nov).** Consolidated revenue **₹403.5cr, +58.2% YoY, +44.1% QoQ**; gross profit ₹120.7cr, gross margin **30.0% (33.2%)**; PAT **₹35.7cr, +96.1%**; EPS ₹11.05. H1 revenue ₹683.6cr (+34.1%). **Board: expansion at Unit-5 — a new chemical plant at D-10, MIDC Lote Parshuram**; authorised capital raised ₹33.5cr → ₹34.0cr (5 lakh shares) "in view of the aforementioned expansion". Reg 32 statement filed; call recording 3-Nov.
+> **Why it matters:** Volume-led growth at a lower gross margin; the small authorised-capital headroom hints at a modest equity component in funding the plant *(my inference)*.
+
+*Sweep: NSE announcements, 23-Oct → 4-Nov-2026 (4-Nov evening filings re-checked at 18:04 IST); market data Screener 4-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
 **No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
@@ -61,10 +67,10 @@ Swept both feeds: zero announcements.
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (23-Oct-2026, mine, not management's):** Its biggest input, sulphur, is not tracked by any source here; crude (+15.1% over three months, +8.1% in the month) is the nearest proxy. Rock phosphate for fertiliser is +8.3%, and national fertiliser output is −12.4% YoY (August). Both work against it.
+**Read (4-Nov-2026, mine, not management's):** Sulphur, its biggest input, is not tracked; Brent (~$102 front-month) is the nearest proxy and eased since 23-Oct. Rock phosphate is flat over three months. National fertiliser output −12.4% YoY (August). Q2FY27 gross margin fell to 30.0% from 33.2%.
 
 **How cost moves reach profit:** Sulphur went from ~$250–300/t to ~$1,100/t in March 2026 (CMD, Q1FY27); pass-through is partial. Sulphur itself is not tracked by any source here.
 
@@ -72,8 +78,8 @@ Swept both feeds: zero announcements.
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Brent crude (111.42 $/bbl) | Proxy / context | +8.1% | +15.1% | +68.8% | -5.9% | ⚪ context | Yahoo Finance · 23-Oct-2026 |
-| Phosphate rock (monthly avg) (170.0 $/mt) | Input cost | +0.0% | +8.3% | +11.5% | +0.0% | 🔴 headwind | World Bank Pink Sheet · 2026M09 |
+| Brent crude (102.33 $/bbl) | Proxy / context | +2.0% | +28.8% | +58.8% | -13.5% | ⚪ context | Yahoo Finance · 04-Nov-2026 |
+| Phosphate rock (monthly avg) (170.0 $/mt) | Input cost | +0.0% | +0.0% | +11.5% | +0.0% | ⚪ flat | World Bank Pink Sheet · 2026M10 |
 | Production - Fertilizers (YoY, Aug 26) | Demand driver | — | -7.9% | -12.4% | — | 🔴 headwind | Tijori macro (India) · Aug 26 |
 
 **Why each factor is here:**
@@ -85,7 +91,7 @@ Swept both feeds: zero announcements.
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -450,7 +456,7 @@ Plus ₹9.33cr for 30,000 m² of adjoining land at Lote Parshuram, bought at auc
 
 **2. 🔴 Sulphur and ammonia stay at crisis prices and the finished-product market does not reprice.** Both segments are hit simultaneously. The integration does not hedge; it concentrates.
 
-> 📈 **Factor check 23-Oct-2026:** Sulphur is not tracked by any available source; crude, its driver, is back up (+8.1% in the month, +15.1% over three months), and rock phosphate is +8.3%. National fertiliser output is −12.4% YoY. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 4-Nov-2026:** Sulphur is not tracked by any available source; Brent, its driver, eased to ~$102 (front-month) from ~$111 on 23-Oct, and rock phosphate is flat. Q2FY27 gross margin fell to 30.0% from 33.2%. *(Numbers and sources: Input & factor check, at the top.)*
 
 **3. 🔴 Profit-margin guidance is not reliable.** FY26 was guided at 8.25%, 8.5-9%, 7.5-8% and 8% across four calls and delivered 7.1%. **FY27's 8.5-9% should be read through that record.**
 

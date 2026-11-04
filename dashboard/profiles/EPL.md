@@ -11,11 +11,18 @@
 > **🕐 WATCH ITEM #1 FROM THE 12-AUG REFRESH IS ANSWERED, AND THE ANSWER IS "NOT YET."** That refresh said: *"Re-verify this machine transcript against the official one when EPL files it — it has filed every prior quarter."* **As of 22-Aug-2026 it has not filed.** Verified on both NSE and BSE feeds. **Historical lag is 6 days** (Q4FY26: call 14-May, transcript 20-May); this one is at **11 days and counting**, past SEBI's five-working-day window. Not an accusation — EPL's filing record is otherwise clean — but it is recorded rather than assumed away, and **the Q1FY27 quotes in this profile therefore still rest on a machine transcript.** ⤴ **UPDATE 28-Aug-2026 — CLOSED: the official transcript was filed on 28-Aug (17 days after the call). Every numeric token in the machine version appears in the official one; nothing changed.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 222** · market cap ₹ 7,116 Cr. · P/E 17.3x · ROCE 17.8 % · ROE 16.1 % · 52-wk ₹ 274 / 176 · **vs ₹266 at baseline (-16.5%)**
+**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 224** · market cap ₹ 7,187 Cr. · P/E 17.5x · ROCE 17.8 % · ROE 16.1 % · 52-wk ₹ 274 / 176 · **vs ₹266 at baseline (-15.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 🟡 Blackstone reclassification application filed with BSE and NSE (23-Oct) · (earlier: 🔴 Blackstone reclassification to public approved by the Board (21-Oct); its 3 nominee directors resigned; BSE/NSE no-adverse letters on the Indovida merger (19-Oct); CARE AA+ still on watch; one insider-code breach · (earlier: Only an ESOP allotment of 507,014 shares; Blackstone exit and the Rating Watch remain unaddressed · (earlier: No filings at all on either exchange in the window — verified, not assumed. Blackstone exit and the Rating Watch remain the live items · (earlier in window: 🔴 Blackstone sold its ENTIRE 26.37% stake on 1-Sep; India Ratings put AA+ on Rating Watch (Developing); official Q1FY27 transcript filed and machine version verified; stock −10%))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🔴 Q2: revenue +30%, underlying margin 20.4% — net debt ₹656cr fires the >₹650cr trigger; conviction call held for the Q2 call · (earlier: 🆕 🟡 Blackstone reclassification application filed with BSE and NSE (23-Oct) · (earlier: 🔴 Blackstone reclassification to public approved by the Board (21-Oct); its 3 nominee directors resigned; BSE/NSE no-adverse letters on the Indovida merger (19-Oct); CARE AA+ still on watch; one insider-code breach · (earlier: Only an ESOP allotment of 507,014 shares; Blackstone exit and the Rating Watch remain unaddressed · (earlier: No filings at all on either exchange in the window — verified, not assumed. Blackstone exit and the Rating Watch remain the live items · (earlier in window: 🔴 Blackstone sold its ENTIRE 26.37% stake on 1-Sep; India Ratings put AA+ on Rating Watch (Developing); official Q1FY27 transcript filed and machine version verified; stock −10%)))))</span></summary>
 <div class="upd-body">
+
+**🔴 23-Oct → 4-Nov-2026 — Q2FY27: revenue +30%, underlying margin 20.4% — but net debt ₹656cr fires a downgrade trigger**
+**Q2FY27 (4-Nov, deck + results filing).** Revenue **₹1,567cr vs ₹1,206cr, +30.0%** (+12.9% QoQ; every region: EAP +40.2%, AMESA +28%, Europe +30%, Americas +25.3%); EBITDA **₹296cr vs ₹252cr, +17.6%**; **underlying EBITDA margin 20.4%**, reported 18.9% because commodity pass-through inflates revenue; PAT **₹110cr vs ₹104cr, +5.6%** (higher depreciation, higher tax rate on lower Europe profit, FX losses); EPS ₹3.44 vs ₹3.26. **🔴 Net debt ₹656cr vs ₹464cr a year ago** (Q1: ₹581cr); the deck blames "ahead of the curve" capex (YTD ₹315cr vs ₹168cr) and **working capital raised by the Middle East crisis**. ROCE 18.2% (18.7%).
+**Merger:** all 10 foreign antitrust approvals received; BSE/NSE observation letters 19-Oct; **the NCLT Mumbai application was filed on 23-Oct** and the company is *"confident of completing the merger within the expected timelines"* (press release, 4-Nov evening). **Guidance retained: high-teens revenue growth for the next few quarters and a ~20% underlying EBITDA margin.** ₹60cr of commercial paper issued 27-Oct. The 23-Oct reclassification application was recorded last sweep.
+> **Why it matters:** **The trigger reads "net debt >₹650cr with no working-capital reversal" — it is ₹656cr and the WC is not reversing.** It fires by ₹6cr, on capex the company chose to bring forward. The margin trigger (19.5%) is clear at 20.4%. **Conviction change held until the Q2 call is read** (§ Zero-tolerance rule): the call is where the WC reversal and the merger timetable will be addressed. Flagged for Rajat.
+
+*Sweep: NSE announcements, 23-Oct → 4-Nov-2026 (4-Nov evening filings re-checked at 18:04 IST); market data Screener 4-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟡 21 → 23-Oct-2026 — Reclassification application filed with both exchanges**
 On **23-Oct** EPL submitted its application to **BSE and NSE for no-objection to reclassify Epsilon Bidco Pte. Ltd. (Blackstone) from 'promoter' to 'public'**, under Reg 31A(8)(c). The filing records Epsilon's holding as **0 shares, 0%**.
@@ -71,22 +78,22 @@ The stock gave back its post-results run and now trades at the Blackstone block 
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (23-Oct-2026, mine, not management's):** Polymers are still climbing. LDPE is +34.6% over three months (+22.1% in the last month alone), LLDPE +17.3% and HDPE +13.6%, with LDPE and LLDPE at 52-week highs. Landed-cost contracts pass this through, so expect wider revenue inflation and margin dilution in Q2–Q3 rather than lost profit. The rupee is 2.0% stronger over three months. FMCG volume growth is +6.6% YoY (August).
+**Read (4-Nov-2026, mine, not management's):** Polyethylene is still rising and faster: LDPE +40.0% over three months (+25.2% in the last month), LLDPE +16.3%, HDPE +8.8%. Q2FY27 showed the landed-cost mechanism at work — reported EBITDA margin 18.9% against 20.4% underlying, the gap being pass-through inflating revenue. Expect the same in Q3. The rupee is 1.7% stronger in the month, roughly flat over three. FMCG volume growth +6.6% YoY (August).
 
 **How cost moves reach profit:** Contractual landed-cost pricing: raw material, freight and currency are recovered from customers, with a lag (CEO, Q1FY27 call). The cost shows up as revenue inflation and margin dilution, not as lost rupees of profit.
 
-**Sensitivity:** raw materials were **40.2% of sales in FY26** (FY25: 41.2%, Screener). A 10% move across the whole raw-material bill is worth about **402 bps of margin before any pass-through**. The tracked inputs averaged **+21.8% over three months**, which would be roughly **876 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **40.2% of sales in FY26** (FY25: 41.2%, Screener). A 10% move across the whole raw-material bill is worth about **402 bps of margin before any pass-through**. The tracked inputs averaged **+21.7% over three months**, which would be roughly **872 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| LLDPE | Input cost | +10.2% | +17.3% | +46.8% | +0.0% | 🔴 headwind | Tijori (indianpetrochem.com) · 23 Oct, 09:00 am IST |
-| LDPE | Input cost | +22.1% | +34.6% | +64.3% | +0.0% | 🔴 headwind | Tijori (indianpetrochem.com) · 23 Oct, 09:00 am IST |
-| HDPE | Input cost | +9.3% | +13.6% | +49.5% | -1.8% | 🔴 headwind | Tijori (indianpetrochem.com) · 23 Oct, 09:00 am IST |
-| USD/INR (94.93 ₹ per $) | Input cost | -0.8% | -2.0% | +8.2% | -2.0% | ⚪ flat | Yahoo Finance · 23-Oct-2026 |
-| Brent crude (111.42 $/bbl) | Proxy / context | +8.1% | +15.1% | +68.8% | -5.9% | ⚪ context | Yahoo Finance · 23-Oct-2026 |
+| LLDPE | Input cost | +8.6% | +16.3% | +50.0% | +0.0% | 🔴 headwind | Tijori (indianpetrochem.com) · 04 Nov, 09:00 am IST |
+| LDPE | Input cost | +25.2% | +40.0% | +76.4% | +0.0% | 🔴 headwind | Tijori (indianpetrochem.com) · 04 Nov, 09:00 am IST |
+| HDPE | Input cost | +3.9% | +8.8% | +48.5% | -3.2% | 🔴 headwind | Tijori (indianpetrochem.com) · 04 Nov, 09:00 am IST |
+| USD/INR (94.64 ₹ per $) | Input cost | -1.7% | -0.5% | +6.7% | -2.3% | ⚪ flat | Yahoo Finance · 04-Nov-2026 |
+| Brent crude (102.33 $/bbl) | Proxy / context | +2.0% | +28.8% | +58.8% | -13.5% | ⚪ context | Yahoo Finance · 04-Nov-2026 |
 | Volume Growth - FMCG (YoY, Aug 26) | Demand driver | — | +5.5% | +6.6% | — | 🟢 tailwind | Tijori macro (India) · Aug 26 |
 
 **Why each factor is here:**
@@ -100,7 +107,7 @@ The stock gave back its post-results run and now trades at the Blackstone block 
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -151,7 +158,7 @@ The useful analogy is not a packaging company at all — **it is a co-located co
 
 **Moat 3 — Contractual landed-cost pricing across the book.** Bakshi, Q1FY27: *"all our customer contracts are on a landed cost basis. So currency depreciation also gets recovered. Freight also saw sharp increase and we have been able to recover that from the customers."* **Q1FY27 is one quarter of hard evidence for this** — full cost inflation recovered, per the press release.
 
-> 📈 **Factor check 23-Oct-2026:** Polyethylene is still climbing: LDPE +34.6% (+22.1% in the month), LLDPE +17.3% and HDPE +13.6% over three months to 23-Oct, LDPE and LLDPE at 52-week highs. Under landed-cost pricing that means wider revenue inflation and margin dilution in Q2–Q3, not lost rupees of profit. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 4-Nov-2026:** Polyethylene is still climbing: LDPE +40.0% (+25.2% in the month), LLDPE +16.3% and HDPE +8.8% over three months to 4-Nov. Q2FY27 showed the mechanism: reported EBITDA margin 18.9% against 20.4% underlying, the difference being pass-through in revenue. *(Numbers and sources: Input & factor check, at the top.)*
 
 **Moat 4 — A margin record that was, until this quarter, best-in-class.** Seven straight quarters above 20% EBITDA, every region inside the guided band.
 

@@ -9,11 +9,18 @@
 > **📌 What this update is.** The 28-Jul-2026 refresh downgraded the stock on the Q1FY27 *numbers* alone, and left one instruction in the file: *"Q1FY27 transcript — read as soon as it files. Highest-value pending input."* It filed on 3-Aug-2026. This profile is built on it. **The single most consequential thing on that call is not a number — it is that management has withdrawn guidance entirely** (§3.5, §5.5). The 28-Jul watch item asked whether the FY27 bands would be *revised down*; the answer is that they no longer exist.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 550** · market cap ₹ 3,036 Cr. · P/E 14.5x · ROCE 16.3 % · ROE 13.2 % · 52-wk ₹ 1,247 / 541 · **vs ₹696 at baseline (-21.0%)**
+**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 576** · market cap ₹ 3,182 Cr. · P/E 15.6x · ROCE 16.3 % · ROE 13.2 % · 52-wk ₹ 1,200 / 514 · **vs ₹696 at baseline (-17.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Mastercard transit-payments partnership (no value); results 31-Oct · (earlier: 🟢 Matkahuolto (Finland) cEMV device win; Q2 call 2-Nov · (earlier: 🟢🟢 ₹150cr follow-on data-centre order from a global hyperscaler — the third in under a year, taking the relationship close to ₹300cr · (earlier: Nothing filed; the SEBI PIT show-cause notice remains open · (earlier in window: Integro Lending named category leader in five Chartis 2026 quadrants; FY26 annual report filed; no order or governance event; stock −1.4% at 18x))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟡 Q2: revenue +16% to a record ₹415cr, EBITDA flat, PAT −11%; order book ₹2,050cr; 3 dormant WOS merging in · (earlier: 🆕 ⚪ Mastercard transit-payments partnership (no value); results 31-Oct · (earlier: 🟢 Matkahuolto (Finland) cEMV device win; Q2 call 2-Nov · (earlier: 🟢🟢 ₹150cr follow-on data-centre order from a global hyperscaler — the third in under a year, taking the relationship close to ₹300cr · (earlier: Nothing filed; the SEBI PIT show-cause notice remains open · (earlier in window: Integro Lending named category leader in five Chartis 2026 quadrants; FY26 annual report filed; no order or governance event; stock −1.4% at 18x)))))</span></summary>
 <div class="upd-body">
+
+**🟡 23-Oct → 4-Nov-2026 — Q2FY27: record revenue ₹415cr (+16%) but EBITDA flat and PAT −11%; three subsidiaries to merge in**
+**Q2FY27 (31-Oct, press release + deck).** Revenue **₹415cr, +16.0% YoY** (Banking & Fintech ₹201cr, TIG ₹214cr); EBITDA **₹71cr vs ₹72cr**, margin 17.2%; PAT **₹50cr** (12.1%), −11% YoY on Screener. H1 revenue ₹751cr. **Order book ₹2,050cr**; 28 new logos in the quarter (incl. a six-year iCashpro+ licence with Ujjivan SFB).
+**31-Oct: scheme of amalgamation** of three wholly owned subsidiaries (Aurofidel Outsourcing, Intellvisions Solutions, Skanan Hardware) into the company — per the filing they have no significant operations beyond immovable property held by two of them.
+> **Why it matters:** Growth continues but has stopped reaching profit — EBITDA has been flat for a year. The merger is housekeeping on the filing's own description.
+
+*Sweep: NSE announcements, 23-Oct → 4-Nov-2026 (4-Nov evening filings re-checked at 18:04 IST); market data Screener 4-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 21 → 23-Oct-2026 — A Mastercard partnership for North American transit payments**
 Press release (22-Oct): **Aurionpro Transit and Mastercard** will work together on contactless payments for transit agencies in North America — procurement and deployment support. **No contract value, customer or revenue commitment is disclosed.**
@@ -67,16 +74,16 @@ Screener P/E 18.1x, ROCE 16.3%, ROE 13.4%; market cap ₹3,789cr; promoter 26.86
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (23-Oct-2026, mine, not management's):** No tracked series applies, and the profile does not give a currency split.
+**Read (4-Nov-2026, mine, not management's):** No tracked series applies, and the profile does not give a currency split.
 
 **How cost moves reach profit:** No tracked price or macro series drives this business directly. Currency split is not disclosed in the profile.
 
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
 
 </div>
 </details>

@@ -4,11 +4,17 @@
 **Thesis current as of: 17-Sep-2026 · Tracking since: 17-Sep-2026**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 574** · market cap ₹ 2,248 Cr. · P/E 29.9x · ROCE 17.7 % · ROE 13.2 % · 52-wk ₹ 695 / 298 · **vs ₹583 at baseline (-1.5%)**
+**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 574** · market cap ₹ 2,248 Cr. · P/E 25.7x · ROCE 17.7 % · ROE 13.2 % · 52-wk ₹ 695 / 298 · **vs ₹583 at baseline (-1.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 17-Sep-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Investor meetings only · (earlier: CARE Edge ASSIGNS CARE A+ (Stable) / A1+ on ₹19.75cr of bank facilities — a notch above the existing CRISIL A · (earlier: No filings since the profile was written)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 17-Sep-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟢 Q2: revenue +64%, PAT +87%, OPM 11%; two IDs added; Dahej commissioning Q3FY27 · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Investor meetings only · (earlier: CARE Edge ASSIGNS CARE A+ (Stable) / A1+ on ₹19.75cr of bank facilities — a notch above the existing CRISIL A · (earlier: No filings since the profile was written))))</span></summary>
 <div class="upd-body">
+
+**🟢 23-Oct → 4-Nov-2026 — Q2FY27: revenue +64%, PAT +87%; two independent directors; Dahej on track for Q3FY27**
+**Q2FY27 (3-Nov).** Revenue **₹361cr, +64%**; PAT **₹28cr, +87%**; OPM 11% (8%) (Screener). **Sunil Duggal and Kaushik Roy appointed independent directors** (3-Nov). Deck: Dahej project (~₹100cr investment, 40,000+ MTPA, up to ~₹900cr revenue potential) **commissioning Q3FY27**; subsidiary BDJ Oxides' 10,080 MTPA Nadupetta plant to start in 12–15 months. ICRA: no deviation in IPO proceeds.
+> **Why it matters:** Volume and margin both up, and the board adds independence; Dahej commissioning next quarter is the test.
+
+*Sweep: NSE announcements, 23-Oct → 4-Nov-2026 (4-Nov evening filings re-checked at 18:04 IST); market data Screener 4-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
 **No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
@@ -71,18 +77,18 @@ Swept both feeds: zero announcements.
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (23-Oct-2026, mine, not management's):** Zinc is +13.6% over three months, with the September average ($4,021/t) at a 52-week high (no newer World Bank month). Its zinc oxide is priced off zinc, so a rise carries an inventory gain, and the profile's top risk is the reverse when zinc falls.
+**Read (4-Nov-2026, mine, not management's):** The zinc cycle has started to turn: the October average was $3,818/t, −5.0% in the month though still +6.1% over three months (World Bank). Its zinc oxide is priced off zinc, so a fall unwinds the inventory gain — the profile's top risk. Q2FY27 margin rose to 11%, the gain still showing.
 
 **How cost moves reach profit:** Zinc oxide is priced off zinc, so the metal moves both cost and price; the spread over dross is the margin (my inference).
 
-**Sensitivity:** raw materials were **82.0% of sales in FY26** (FY25: 80.0%, Screener). A 10% move across the whole raw-material bill is worth about **820 bps of margin before any pass-through**. The tracked inputs averaged **+13.6% over three months**, which would be roughly **1115 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **82.0% of sales in FY26** (FY25: 80.0%, Screener). A 10% move across the whole raw-material bill is worth about **820 bps of margin before any pass-through**. The tracked inputs averaged **+6.1% over three months**, which would be roughly **500 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Zinc (monthly avg) (4,021.0 $/mt) | Input cost | +3.8% | +13.6% | +37.1% | +0.0% | 🔴 headwind | World Bank Pink Sheet · 2026M09 |
+| Zinc (monthly avg) (3,818.0 $/mt) | Input cost | -5.0% | +6.1% | +21.1% | -5.0% | 🔴 headwind | World Bank Pink Sheet · 2026M10 |
 
 **Why each factor is here:**
 
@@ -90,7 +96,7 @@ Swept both feeds: zero announcements.
 
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -435,7 +441,7 @@ Management: *"ours is a business which requires about 100 days of working capita
 
 **1. 🔴 The zinc cycle turns.** The pass-through model protects the spread, not the inventory. **A fast LME fall converts ~2 months of stock into losses** — Jun-2023 quarter OPM 3.2%, FY24 PAT −44%. Q1FY27 was helped by rising zinc; that tailwind reverses mechanically.
 
-> 📈 **Factor check 23-Oct-2026:** Not yet: zinc is +13.6% over three months, with the September average at a 52-week high (World Bank). The risk grows the longer the rise runs. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 4-Nov-2026:** Starting to: zinc's October average was $3,818/t, −5.0% in the month though still +6.1% over three months (World Bank). *(Numbers and sources: Input & factor check, at the top.)*
 
 **2. 🔴 The margin is weaker than it is presented.** FY26 ex-OI margin 8.4% vs "10.1%"; operating profit −6% in a revenue +15% year; a Q4 margin spoken at 10.26% that computes to 9.36% from the same call's figures. **An investor using management's framing overstates operating margin by ~1.5-2 points.**
 

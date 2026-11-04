@@ -15,11 +15,17 @@
 > **📋 AND A PLAIN STATEMENT ABOUT THIS PASS: the filing sweep found nothing new.** The last BSE filing is **7-Aug-2026** — five days before the previous refresh. **No new results, no new Reg-30 items, no corporate actions.** ***This conversion therefore restructures and re-verifies rather than discovers, and the metrics have moved in the company's favour without any news to explain it.***
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 1,466** · market cap ₹ 1,337 Cr. · P/E 12.9x · ROCE 27.7 % · ROE 21.0 % · 52-wk ₹ 2,088 / 765 · **vs ₹1,573 at baseline (-6.8%)**
+**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 1,760** · market cap ₹ 1,603 Cr. · P/E 13.2x · ROCE 27.7 % · ROE 21.0 % · 52-wk ₹ 2,088 / 765 · **vs ₹1,573 at baseline (+11.9%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Q2 board 30-Oct · (earlier: A KSIDC board-nominee change; no calls exist · (earlier: Routine newspaper notice on dematerialisation of physical shares · (earlier in window: Kerala-government nominee director appointed via postal ballot; nothing else filed; stock +8.8% to ₹1,711))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟢 Q2: revenue +22%, PAT +100%, OPM 28% · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Q2 board 30-Oct · (earlier: A KSIDC board-nominee change; no calls exist · (earlier: Routine newspaper notice on dematerialisation of physical shares · (earlier in window: Kerala-government nominee director appointed via postal ballot; nothing else filed; stock +8.8% to ₹1,711)))))</span></summary>
 <div class="upd-body">
+
+**🟢 23-Oct → 4-Nov-2026 — Q2FY27: revenue +22%, PAT doubles, OPM 28%**
+**Q2FY27 (30-Oct, BSE).** Revenue **₹169cr, +22%**; PAT **₹36cr, +100%**; OPM **28% (19%)** (Screener). Results newspaper publication 31-Oct. NSE's feed carries nothing for the company (listed there only since Apr-2026); the BSE leg was read through Chrome.
+> **Why it matters:** A strong margin quarter; the profile's gelatin-pricing and collagen-mix drivers are where the explanation will sit.
+
+*Sweep: BSE announcements via Chrome (the BSE JSON API is still blocked from curl), 23-Oct → 4-Nov-2026 (4-Nov evening filings re-checked at 18:04 IST); market data Screener 4-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
 **No filings at all in the window on BSE (via Chrome)** — a verified negative, not an absence of searching (§0A rule 6).
@@ -67,10 +73,10 @@ Screener P/E 15.0x, ROCE 27.7%, ROE 21.0%; market cap ₹1,554cr; promoter 74.49
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (23-Oct-2026, mine, not management's):** Only currency is tracked; bone and hide prices, its real inputs, are not. The rupee is 2.0% stronger over three months.
+**Read (4-Nov-2026, mine, not management's):** Only currency is tracked; bone and hide prices, its real inputs, are not. The rupee is 1.7% stronger in the month. Q2FY27 OPM rose to 28% from 19%, driven by something these series do not see.
 
 **How cost moves reach profit:** Bone and hide prices are not tracked; gelbone prices fell as hide became a competing raw material (profile).
 
@@ -78,14 +84,14 @@ Screener P/E 15.0x, ROCE 27.7%, ROE 21.0%; market cap ₹1,554cr; promoter 74.49
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (94.93 ₹ per $) | FX (export revenue) | -0.8% | -2.0% | +8.2% | -2.0% | ⚪ flat | Yahoo Finance · 23-Oct-2026 |
+| USD/INR (94.64 ₹ per $) | FX (export revenue) | -1.7% | -0.5% | +6.7% | -2.3% | ⚪ flat | Yahoo Finance · 04-Nov-2026 |
 
 **Why each factor is here:**
 
 - **USD/INR**: Meaningful export share (profile).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
 
 </div>
 </details>

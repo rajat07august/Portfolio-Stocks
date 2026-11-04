@@ -14,11 +14,17 @@
 > **🆕 What the official transcript adds, and it is substantial:** **FY27 capex of ₹80–90 crore**, 80% of it into core kitchen sinks · **the factory is running seven days a week and management calls it *"a serious stress"*** · **the US tariff discount rollback is ~90% complete and is a price restoration, not a one-off credit** · **a Lowe's display-cost share of USD 3–4 million that "will not happen now"** · and Q1's soft quartz growth explained by **container delays, not demand**.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 966** · market cap ₹ 2,745 Cr. · P/E 25.5x · ROCE 18.0 % · ROE 17.4 % · 52-wk ₹ 1,281 / 732 · **vs ₹1,155 at baseline (-16.4%)**
+**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 960** · market cap ₹ 2,721 Cr. · P/E 25.0x · ROCE 18.0 % · ROE 17.4 % · 52-wk ₹ 1,281 / 732 · **vs ₹1,155 at baseline (-16.9%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Bobby Deol brand endorsement; Q2 call 5-Nov · (earlier: ✅ The undisclosed postal ballot resolves to something benign — a special resolution for Prayasvin Patel's ID appointment; result due 2-Nov · (earlier: Prayasvin B. Patel appointed additional independent director; AGM held 22-Sep with all resolutions passed; postal ballot notice to follow · (earlier in window: New Chief Technology Officer; FY26 annual report and dividend payment date; nothing else filed; stock −2%))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🔴 Executive Director & Group CFO resigned (effective 16-Nov); Q2 revenue +15%, PAT +7%; postal ballot passed · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Bobby Deol brand endorsement; Q2 call 5-Nov · (earlier: ✅ The undisclosed postal ballot resolves to something benign — a special resolution for Prayasvin Patel's ID appointment; result due 2-Nov · (earlier: Prayasvin B. Patel appointed additional independent director; AGM held 22-Sep with all resolutions passed; postal ballot notice to follow · (earlier in window: New Chief Technology Officer; FY26 annual report and dividend payment date; nothing else filed; stock −2%)))))</span></summary>
 <div class="upd-body">
+
+**🔴 23-Oct → 4-Nov-2026 — Group CFO resigns; Q2 revenue +15%, PAT +7%**
+**4-Nov: Anand H. Sharma, Executive Director and Group CFO, resigned** (email of 4-Nov, effective close of 16-Nov); the company states there are *"no other material reasons"* beyond those in his email. Q2FY27 (4-Nov): revenue **₹276cr, +15%**; PAT **₹29cr, +7%**; OPM 19% (Screener). ICRA monitoring report: no material deviation. **Postal ballot (2-Nov) passed** — the independent-director appointment flagged on 6-Oct.
+> **Why it matters:** An executive-director CFO leaving with two weeks' notice is a governance item; the successor and the resignation email itself are the things to read next.
+
+*Sweep: NSE announcements, 23-Oct → 4-Nov-2026 (4-Nov evening filings re-checked at 18:04 IST); market data Screener 4-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
 **No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
@@ -67,10 +73,10 @@ Screener P/E 29.9x, ROCE 18.0%, ROE 17.4%; market cap ₹3,218cr; promoter 41.34
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (23-Oct-2026, mine, not management's):** Methyl methacrylate, the acrylic binder in its quartz sinks, is rising again: +10.4% in the last month, +3.1% over three months and +76.1% over the year. Quartz, the main material, is not tracked. The rupee is 2.0% stronger over three months, a small export headwind.
+**Read (4-Nov-2026, mine, not management's):** Methyl methacrylate, the acrylic binder in its quartz sinks, is flat: −0.3% over three months, +1.1% in the month. Quartz is not tracked. The rupee is 1.7% stronger in the month, a small export headwind.
 
 **How cost moves reach profit:** Not disclosed. Pricing to IKEA and Lowe's is contractual (my inference).
 
@@ -78,8 +84,8 @@ Screener P/E 29.9x, ROCE 18.0%, ROE 17.4%; market cap ₹3,218cr; promoter 41.34
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Methyl-Methacrylate | Input cost | +10.4% | +3.1% | +76.1% | -20.8% | 🔴 headwind | Tijori (indianpetrochem.com) · 23 Oct, 09:00 am IST |
-| USD/INR (94.93 ₹ per $) | FX (export revenue) | -0.8% | -2.0% | +8.2% | -2.0% | ⚪ flat | Yahoo Finance · 23-Oct-2026 |
+| Methyl-Methacrylate | Input cost | +1.1% | -0.3% | +69.8% | -22.7% | ⚪ flat | Tijori (indianpetrochem.com) · 04 Nov, 09:00 am IST |
+| USD/INR (94.64 ₹ per $) | FX (export revenue) | -1.7% | -0.5% | +6.7% | -2.3% | ⚪ flat | Yahoo Finance · 04-Nov-2026 |
 
 **Why each factor is here:**
 
@@ -87,7 +93,7 @@ Screener P/E 29.9x, ROCE 18.0%, ROE 17.4%; market cap ₹3,218cr; promoter 41.34
 - **USD/INR**: Export-led: IKEA, Lowe's and other global retailers (profile §1).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
 
 </div>
 </details>

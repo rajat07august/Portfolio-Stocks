@@ -30,6 +30,21 @@
 ---
 
 <!-- SINCE-BASELINE:START -->
+**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 926** · market cap ₹ 4,275 Cr. · P/E — · ROCE -3.70 % · ROE -1.98 % · 52-wk ₹ 982 / 466 · **vs ₹923 at baseline (+0.3%)**
+
+<details class="upd" id="since-baseline">
+<summary><span class="upd-date">🆕 Changes since baseline · 27-Oct-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟡 Q2 loss ₹28.7cr; SC upholds AT-1 order vs Yes Bank/RBI (write-off not yet reversed); audit qualified; receivables 3x</span></summary>
+<div class="upd-body">
+
+**🟡 23-Oct → 4-Nov-2026 — Q2FY27: loss continues; Supreme Court upholds the AT-1 order against Yes Bank and RBI; audit still qualified**
+**Q2FY27 (4-Nov, BSE; consolidated statement and notes rendered and read).** Revenue **₹153.2cr** (Q1 ₹136.3cr; Q2FY26 ₹20.4cr) with cost of goods ₹96.2cr — mostly 63SATS resale, as recorded on 27-Oct; other income ₹56.5cr. **Loss before tax ₹41.2cr; loss attributable ₹28.7cr**, EPS −₹6.24. H1 trade receivables ₹66.2cr → **₹207.0cr**; cash ₹66.6cr → ₹572.3cr, other bank balances ₹1,610cr → ₹1,289cr.
+**Note 3: the Supreme Court (15-Oct-2026) dismissed the appeals of Yes Bank and RBI and upheld the Bombay High Court** on the AT-1 bond write-off; Yes Bank says it is "assessing all available options" and retains coupon discretion, so **the company has not reversed the write-off or booked interest.** Note 4: ₹252.6cr of attached fixed deposits realised into the NSEL settlement account (₹15.4cr of interest booked). Note 5: ₹102.3cr of approved final dividends (2014-15 to 2025-26) still undistributed; the restraining civil suit is withdrawn. Note 8: a further **₹15cr invested in NSEL and written off** in the quarter. **The auditor's review conclusion is qualified again** (litigation and investigations). 63SATS signed a BCCL advertising agreement and a warrant subscription agreement (BCCL to pay 10% upfront).
+> **Why it matters:** **The ₹1,950cr settlement is still not provided in the accounts.** The AT-1 ruling is a possible recovery not yet booked — its value is not stated in the filing. Receivables tripled in a half on a resale business.
+
+*Sweep: BSE announcements via Chrome (the BSE JSON API is still blocked from curl), 23-Oct → 4-Nov-2026 (4-Nov evening filings re-checked at 18:04 IST); market data Screener 4-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
+
+</div>
+</details>
 <!-- SINCE-BASELINE:END -->
 
 ## 1. Business in Plain English

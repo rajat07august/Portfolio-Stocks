@@ -12,11 +12,17 @@
 > **Disclosure cadence:** SSWL files **monthly turnover** to the exchanges — rare at this size — so the trajectory in 5.5 carries monthly resolution. **Seven concall transcripts on disk** (Jan-2025 → Jul-2026), plus the Q1FY27 deck read page by page.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 469** · market cap ₹ 7,357 Cr. · P/E 25.0x · ROCE 14.8 % · ROE 11.0 % · 52-wk ₹ 470 / 169 · **vs ₹305 at baseline (+53.8%)**
+**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 537** · market cap ₹ 8,421 Cr. · P/E 28.7x · ROCE 14.8 % · ROE 11.0 % · 52-wk ₹ 559 / 169 · **vs ₹305 at baseline (+76.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 🟢 Q2FY27: revenue +61% (~+49% ex ₹140cr supplementary billing), PAT +229%, volume +23.5%, EBITDA/wheel ~₹398; receivables +50% in H1; ₹1,400cr greenfield; stock +20% · (earlier: ⚪ Q2 results 23-Oct, call 26-Oct · (earlier: 🟢🟢 HIGHEST-EVER MONTHLY REVENUE — September net turnover ₹625.81cr, +52.41% YoY, on record volume +22%; anchors the highest-ever Q2FY27 and H1FY27 · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: August a second record month (+53.6% YoY); borrowing limit to be raised ₹2,000cr → ₹3,500cr; promoter buying in the open market; stock +22%))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟢 October net turnover ₹647cr (+55.6%), fourth record month; exports +179%; Q2 transcript filed · (earlier: 🆕 🟢 Q2FY27: revenue +61% (~+49% ex ₹140cr supplementary billing), PAT +229%, volume +23.5%, EBITDA/wheel ~₹398; receivables +50% in H1; ₹1,400cr greenfield; stock +20% · (earlier: ⚪ Q2 results 23-Oct, call 26-Oct · (earlier: 🟢🟢 HIGHEST-EVER MONTHLY REVENUE — September net turnover ₹625.81cr, +52.41% YoY, on record volume +22%; anchors the highest-ever Q2FY27 and H1FY27 · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: August a second record month (+53.6% YoY); borrowing limit to be raised ₹2,000cr → ₹3,500cr; promoter buying in the open market; stock +22%)))))</span></summary>
 <div class="upd-body">
+
+**🟢 23-Oct → 4-Nov-2026 — October: a fourth straight record month — net turnover ₹647cr, +55.6%; Q2 transcript filed**
+**2-Nov (rendered — the text layer is garbled):** October net turnover **₹647.05cr, +55.58% YoY** (gross ₹753.65cr, +56.69%) — above September's record ₹625.81cr. Exports **+179% by value, +106% by volume**; CVs +41% volume; aluminium wheels +26% volume / +66% value; 2/3-wheelers +54% volume. **Q2FY27 transcript filed 30-Oct** (results, the ~₹1,400cr greenfield plant and the hot-stamping launch were recorded on 23-Oct).
+> **Why it matters:** Momentum continued into Q3. Value growth well above volume growth again suggests raw-material-linked pricing is still in the number, as the 23-Oct note on supplementary billing warned.
+
+*Sweep: NSE announcements, 23-Oct → 4-Nov-2026 (4-Nov evening filings re-checked at 18:04 IST); market data Screener 4-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟢 21 → 23-Oct-2026 — Q2FY27: PAT +229% on volume +23.5% — with ₹140cr of supplementary billing in the revenue, and a ₹1,400cr greenfield announced**
 Consolidated Q2FY27 (results 23-Oct, scanned — pages rendered and read): **revenue ₹1,929.9cr (+60.8%), PAT ₹116.9cr (+229%)**; standalone EBITDA ₹234.8cr, **margin 12.2% (9.3%)**. **~₹140cr of revenue is supplementary billing on raw-material-linked price revisions** (₹183cr in H1); ex that, revenue is ~₹1,790cr, **~+49%** *(my arithmetic)*. **Volume 48 → 59 lakh units (+23.5%)**, alloy 9 → 12 lakh, alloy share of revenue 37% → 45% (deck chart, rendered and read). Gross margin fell 35.5% → 33.0%. H1 CFO ₹121.6cr after receivables rose ₹307cr (to ₹916cr, +50% in six months) and inventory ₹237cr, nearly all funded by payables (+₹351cr); **H1 capex ₹132cr against a ₹600cr year**; borrowings ₹826cr → ₹911cr. Board approved a **~₹1,400cr greenfield at Chhatrapati Sambhajinagar** over 60 months (alloy 2.5m, steel PV/OTR 1.6m, and a new **hot-stamping** line), debt plus accruals. Interim dividend ₹1.50.
@@ -94,23 +100,23 @@ Screener P/E 27.6x (was 22.6x); ROCE 14.8%, ROE 11.0%; DII holding fell to 3.15%
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (23-Oct-2026, mine, not management's):** Steel is near its 52-week high (+10.2% over three months) while aluminium fell 11.9%. Both pass through to OEMs, and Q2FY27 shows the mechanism: ~₹140cr of the quarter's revenue was supplementary billing on raw-material-linked price revisions. Vehicle retail was strong in September (cars +32.1%, two-wheelers +33.1%, trucks +37.6% YoY, all restated down by Tijori; partly festive timing, my inference).
+**Read (4-Nov-2026, mine, not management's):** Steel is near its 52-week high (flat +10.2% over three months) while aluminium is −4.4%; both pass through to OEMs with a lag, which is why value growth (October net turnover +55.6%) keeps running ahead of volume. Vehicle retail was strong in September (cars +32.1%, two-wheelers +33.1%, trucks +37.6% YoY).
 
 **How cost moves reach profit:** Steel and aluminium cost is passed through to OEMs, which is why value growth (+54%) ran ahead of volume (+24%) (profile §4).
 
-**Sensitivity:** raw materials were **66.0% of sales in FY26** (FY25: 65.0%, Screener). A 10% move across the whole raw-material bill is worth about **660 bps of margin before any pass-through**. The tracked inputs averaged **-0.9% over three months**, which would be roughly **59 bps of relief** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **66.0% of sales in FY26** (FY25: 65.0%, Screener). A 10% move across the whole raw-material bill is worth about **660 bps of margin before any pass-through**. The tracked inputs averaged **+2.9% over three months**, which would be roughly **191 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Steel Flat | Input cost | -0.3% | +10.2% | +33.5% | -1.5% | 🔴 headwind | Tijori (indianpetrochem.com) · 23 Oct, 09:30 am IST |
-| Aluminium (COMEX) (3,108.0 $/t) | Input cost | -9.5% | -11.9% | +12.3% | -25.9% | 🟢 tailwind | Yahoo Finance · 23-Oct-2026 |
+| Steel Flat | Input cost | -0.8% | +10.2% | +35.3% | -1.7% | 🔴 headwind | Tijori (indianpetrochem.com) · 04 Nov, 09:30 am IST |
+| Aluminium (COMEX) (3,217.5 $/t) | Input cost | -0.6% | -4.4% | +15.8% | -23.3% | 🟢 tailwind | Yahoo Finance · 04-Nov-2026 |
 | Passenger Car - Retail Sales (YoY, Sep 26) | Demand driver | — | +22.4% | +32.1% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
 | Two Wheeler - Retail Sales (YoY, Sep 26) | Demand driver | — | +27.0% | +33.1% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
 | Commercial Vehicles - Retail Sales (YoY, Sep 26) | Demand driver | — | +25.3% | +37.6% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
-| USD/INR (94.93 ₹ per $) | FX (export revenue) | -0.8% | -2.0% | +8.2% | -2.0% | ⚪ flat | Yahoo Finance · 23-Oct-2026 |
+| USD/INR (94.64 ₹ per $) | FX (export revenue) | -1.7% | -0.5% | +6.7% | -2.3% | ⚪ flat | Yahoo Finance · 04-Nov-2026 |
 
 **Why each factor is here:**
 
@@ -123,7 +129,7 @@ Screener P/E 27.6x (was 22.6x); ROCE 14.8%, ROE 11.0%; DII holding fell to 3.15%
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
 
 </div>
 </details>

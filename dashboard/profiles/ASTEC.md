@@ -8,11 +8,17 @@
 > **📌 Sourcing note, stated up front because it governs everything below. Astec has not held an earnings call since November 2022** — nearly four years of silence. Screener's concall list ends there and the repo holds five transcripts, all from 2021–22. **A direct concall gate is impossible for this name.** The documented §6 fallback is used instead: **Astec is a Godrej Agrovet subsidiary and the parent discusses it on its own calls.** This profile is grounded in Astec's own press releases and filings, **Godrej Agrovet's Q4FY26 transcript and Q1FY27 deck**, NSE's filed shareholding master, and the ValuePickr thread. **Gate: 🟡 AMBER — management commentary here is second-hand, via the parent.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 664** · market cap ₹ 1,471 Cr. · ROCE -5.44 % · ROE -25.2 % · 52-wk ₹ 942 / 512 · **vs ₹604 at baseline (+9.9%)**
+**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 567** · market cap ₹ 1,262 Cr. · P/E — · ROCE -5.44 % · ROE -25.2 % · 52-wk ₹ 942 / 512 · **vs ₹604 at baseline (-6.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: Two further exchange volume notices (30-Sep, 1-Oct) — eleven since early September, still no company explanation · (earlier: Another NSE volume-spurt notice, still with no company explanation for the run · (earlier in window: Stock +20% amid nine exchange price/volume notices (all answered 'no undisclosed information'); newly verified from filings: ₹41.1cr GST demand, ICRA AA- (Negative), CFO resigned in March; six body errors corrected))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🔴 Q2: EBITDA −₹19.2cr (−₹5.6cr), loss −₹37.4cr; income −3% · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: Two further exchange volume notices (30-Sep, 1-Oct) — eleven since early September, still no company explanation · (earlier: Another NSE volume-spurt notice, still with no company explanation for the run · (earlier in window: Stock +20% amid nine exchange price/volume notices (all answered 'no undisclosed information'); newly verified from filings: ₹41.1cr GST demand, ICRA AA- (Negative), CFO resigned in March; six body errors corrected)))))</span></summary>
 <div class="upd-body">
+
+**🔴 23-Oct → 4-Nov-2026 — Q2FY27: loss widens — EBITDA −₹19.2cr, PAT −₹37.4cr**
+**Q2FY27 (26-Oct, press release).** Total income **₹72.6cr vs ₹74.8cr (−3%)**; EBITDA **−₹19.2cr vs −₹5.6cr**; loss after tax **−₹37.4cr vs −₹24.4cr**. H1 total income ₹156.9cr (−6%), H1 EBITDA −₹19.1cr, H1 loss −₹56.1cr (−₹57.4cr).
+> **Why it matters:** The operating loss tripled year on year in the quarter; there is still no sign of the turnaround the profile waits for.
+
+*Sweep: NSE announcements, 23-Oct → 4-Nov-2026 (4-Nov evening filings re-checked at 18:04 IST); market data Screener 4-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
 **No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
@@ -73,10 +79,10 @@ Board outcome of 30-Jan-2026 noted the resignation of **Ms. Mugdha Amol Khare as
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (23-Oct-2026, mine, not management's):** Only currency is tracked. The rupee is 8.2% weaker than a year ago but 2.0% stronger over three months. Triazole intermediates and China prices, which set its enterprise pricing, are not tracked.
+**Read (4-Nov-2026, mine, not management's):** Only currency is tracked: 6.7% weaker than a year ago, 1.7% stronger in the month. Triazole intermediates and China prices, which set its pricing, are not tracked — and Q2FY27 EBITDA was −₹19.2cr.
 
 **How cost moves reach profit:** Enterprise products sell at a China-set price; CDMO is cost-plus (ASTEC explainer).
 
@@ -84,14 +90,14 @@ Board outcome of 30-Jan-2026 noted the resignation of **Ms. Mugdha Amol Khare as
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (94.93 ₹ per $) | FX (export revenue) | -0.8% | -2.0% | +8.2% | -2.0% | ⚪ flat | Yahoo Finance · 23-Oct-2026 |
+| USD/INR (94.64 ₹ per $) | FX (export revenue) | -1.7% | -0.5% | +6.7% | -2.3% | ⚪ flat | Yahoo Finance · 04-Nov-2026 |
 
 **Why each factor is here:**
 
 - **USD/INR**: Exports are 62–68% of revenue (profile).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
 
 </div>
 </details>

@@ -27,11 +27,17 @@
 > **3. The recapitalisation is now visible in the register.** A Reg 29(2) filing on 11-Aug confirms **59,76,096 equity shares issued by preferential allotment**, with **Chairman & MD Krishan Lalit Bansal's holding falling by more than 2%**; listing and trading approvals came 23-Jul and 28-Jul. **Screener now carries a July-2026 shareholding column: promoter 70.18% → 65.13%, FII 2.17% → 4.67%, DII 10.79% → 14.16%.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 535** · market cap ₹ 4,008 Cr. · P/E 48.9x · ROCE 10.7 % · ROE 9.31 % · 52-wk ₹ 760 / 183 · **vs ₹646 at baseline (-17.2%)**
+**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 571** · market cap ₹ 4,310 Cr. · P/E 52.6x · ROCE 10.7 % · ROE 9.31 % · 52-wk ₹ 760 / 183 · **vs ₹646 at baseline (-11.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 India piping order book ₹2,158cr at 30-Sep; ₹46cr new contracts; nuclear framework agreement (counterparty unnamed) · (earlier: 🔴 AGM DEFEATED the Whole-time Director's pay revision — institutions voted 50.29% against; separately, lenders can convert debt to equity on an event of default · (earlier: AGM held 23-Sep; analyst meet and an Anjar plant visit, no numbers disclosed · (earlier in window: August order update: inflow ₹94cr, executed ₹87cr, book ₹2,436cr (flat); FY27 inflow so far ~₹955–973cr vs ₹2,000cr guide; stock +3.6%))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟢 CARE upgraded to A (Stable) from A−; Q2 results pending · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 India piping order book ₹2,158cr at 30-Sep; ₹46cr new contracts; nuclear framework agreement (counterparty unnamed) · (earlier: 🔴 AGM DEFEATED the Whole-time Director's pay revision — institutions voted 50.29% against; separately, lenders can convert debt to equity on an event of default · (earlier: AGM held 23-Sep; analyst meet and an Anjar plant visit, no numbers disclosed · (earlier in window: August order update: inflow ₹94cr, executed ₹87cr, book ₹2,436cr (flat); FY27 inflow so far ~₹955–973cr vs ₹2,000cr guide; stock +3.6%)))))</span></summary>
 <div class="upd-body">
+
+**🟢 23-Oct → 4-Nov-2026 — CARE upgrades the bank-facility rating to A (Stable) from A−**
+**4-Nov: CARE upgraded the long-term bank facilities (₹169.19cr) to CARE A; Stable from CARE A−, and the ₹825cr long/short-term facilities to CARE A1** (draft for the company's comments by 5-Nov). Q2 results not yet filed (Screener shows Jun-26 as the last quarter).
+> **Why it matters:** An external read of the balance sheet improving, a month after the AGM pay defeat; the debt-to-equity conversion clause for lenders stays on record.
+
+*Sweep: NSE announcements, 23-Oct → 4-Nov-2026 (4-Nov evening filings re-checked at 18:04 IST); market data Screener 4-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
 **No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
@@ -92,10 +98,10 @@ Screener P/E 61.4x, ROCE 10.7%, ROE 9.3%; market cap ₹5,032cr; promoter 65.13%
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (23-Oct-2026, mine, not management's):** Steel is up (+10.2% over three months), but the profile's own conclusion is that job-work mix, not steel, drives its margin. Refinery output is roughly flat (+2.6% YoY, August).
+**Read (4-Nov-2026, mine, not management's):** Steel is up (+10.2% over three months), but the profile's conclusion is that job-work mix, not steel, drives its margin. Refinery output is roughly flat (+2.6% YoY, August).
 
 **How cost moves reach profit:** Reframed in the profile: 'the live margin variable is job-work mix, not steel price'. The alloy pipe is often the customer's (profile Risk 8).
 
@@ -103,7 +109,7 @@ Screener P/E 61.4x, ROCE 10.7%, ROE 9.3%; market cap ₹5,032cr; promoter 65.13%
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Steel Flat | Proxy / context | -0.3% | +10.2% | +33.5% | -1.5% | ⚪ context | Tijori (indianpetrochem.com) · 23 Oct, 09:30 am IST |
+| Steel Flat | Proxy / context | -0.8% | +10.2% | +35.3% | -1.7% | ⚪ context | Tijori (indianpetrochem.com) · 04 Nov, 09:30 am IST |
 | Production - Petroleum Refinery (YoY, Aug 26) | Demand driver | — | +0.2% | +2.6% | — | ⚪ flat | Tijori macro (India) · Aug 26 |
 
 **Why each factor is here:**
@@ -113,7 +119,7 @@ Screener P/E 61.4x, ROCE 10.7%, ROE 9.3%; market cap ₹5,032cr; promoter 65.13%
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
 
 </div>
 </details>

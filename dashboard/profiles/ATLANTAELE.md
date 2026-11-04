@@ -11,11 +11,18 @@
 > **🔴 THE ONE THING TO CARRY.** Q1FY27 revenue grew **48%** and the CFO's prepared remarks called it *"primarily volume-driven,"* with *"no material changes in pricing or product mix."* **The company's own volume disclosure, given in Q&A twenty minutes later, shows volumes up 21.5% and realisation per MVA up 21.8% — i.e. 45% of the growth was price.** The CMD had explained that exact mechanism himself one quarter earlier. **The growth is real; the characterisation of it is not.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 1,620** · market cap ₹ 12,443 Cr. · P/E 57.0x · ROCE 45.3 % · ROE 31.7 % · 52-wk ₹ 2,200 / 708 · **vs ₹1,902 at baseline (-14.8%)**
+**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 1,515** · market cap ₹ 11,644 Cr. · P/E 51.7x · ROCE 45.3 % · ROE 31.7 % · 52-wk ₹ 2,200 / 708 · **vs ₹1,902 at baseline (-20.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 3-Sep-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: AGM passed; 400 kV revenue still zero · (earlier: AGM proceedings and voting results — all resolutions passed · (earlier in window: No company event beyond an investor-meet notice; stock −12.4% to ₹1,666, now 24% below its ₹2,200 52-week high))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 3-Sep-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟡 Q2: revenue +23%, PAT +28%, margin −200bps (cause undisclosed); ₹194cr tanks/radiators capex in a subsidiary · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: AGM passed; 400 kV revenue still zero · (earlier: AGM proceedings and voting results — all resolutions passed · (earlier in window: No company event beyond an investor-meet notice; stock −12.4% to ₹1,666, now 24% below its ₹2,200 52-week high)))))</span></summary>
 <div class="upd-body">
+
+**🟡 23-Oct → 4-Nov-2026 — Q2FY27: revenue +23%, PAT +28%, margin down ~200bps; ₹194cr backward-integration capex**
+**Q2FY27 (31-Oct).** Revenue **₹390.1cr vs ₹317.0cr, +23.1%**; EBITDA **₹59.6cr, +8.8%**, margin down ~201bps; PAT **~₹32cr, +28%** (Screener ₹32cr). H1 revenue ₹856.4cr (+35.5%), H1 PAT ₹79.0cr (+40.4%). **Order backlog ₹3,196.97cr.** The headline cites *"near-term operational headwinds"* without saying what they are.
+**31-Oct: wholly owned subsidiary AE Components approved ~₹193.58cr of capex** for a transformer tanks, frames and radiators plant (backward integration), funded by accruals, term loans and parent support. CARE monitoring report: no deviation.
+> **Why it matters:** Growth is intact but the margin slipped and the cause is undisclosed — a question for the call. The subsidiary capex is ~1.7% of market cap.
+
+*Sweep: NSE announcements, 23-Oct → 4-Nov-2026 (4-Nov evening filings re-checked at 18:04 IST); market data Screener 4-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
 **No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
@@ -59,10 +66,10 @@ Only a 15-Sep investor-meet notice. Price ₹1,902 → ₹1,666; Screener P/E 58
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (23-Oct-2026, mine, not management's):** Copper is +2.7% over three months and +27.7% over the year; electrical steel is not tracked, and crude (transformer oil) is +15.1%. Management says revenue per MVA follows commodity prices, so this inflates revenue; the risk is orders priced before the rise. Electricity output +11.6% YoY.
+**Read (4-Nov-2026, mine, not management's):** Copper is −3.8% over three months (+30.9% over the year); electrical steel is not tracked; Brent (transformer-oil proxy) ~$102. Revenue per MVA follows commodity prices, so softer copper slows revenue; the ~200 bps Q2 margin slip is not explained by these series.
 
 **How cost moves reach profit:** CMD: 'Revenue per MVA is directly related to the commodity pricing… steel, copper, oil' (profile §4). Orders are priced at bid, so the lag matters.
 
@@ -70,9 +77,9 @@ Only a 15-Sep investor-meet notice. Price ₹1,902 → ₹1,666; Screener P/E 58
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Copper (COMEX) (6.49 $/lb) | Input cost | -2.8% | +2.7% | +27.7% | -4.6% | ⚪ flat | Yahoo Finance · 23-Oct-2026 |
-| Steel Flat | Proxy / context | -0.3% | +10.2% | +33.5% | -1.5% | ⚪ context | Tijori (indianpetrochem.com) · 23 Oct, 09:30 am IST |
-| Brent crude (111.42 $/bbl) | Proxy / context | +8.1% | +15.1% | +68.8% | -5.9% | ⚪ context | Yahoo Finance · 23-Oct-2026 |
+| Copper (COMEX) (6.4475 $/lb) | Input cost | -2.1% | -3.8% | +30.9% | -5.2% | 🟢 tailwind | Yahoo Finance · 04-Nov-2026 |
+| Steel Flat | Proxy / context | -0.8% | +10.2% | +35.3% | -1.7% | ⚪ context | Tijori (indianpetrochem.com) · 04 Nov, 09:30 am IST |
+| Brent crude (102.33 $/bbl) | Proxy / context | +2.0% | +28.8% | +58.8% | -13.5% | ⚪ context | Yahoo Finance · 04-Nov-2026 |
 | Production - Electricity (YoY, Aug 26) | Demand driver | — | +10.1% | +11.6% | — | 🟢 tailwind | Tijori macro (India) · Aug 26 |
 
 **Why each factor is here:**
@@ -84,7 +91,7 @@ Only a 15-Sep investor-meet notice. Price ₹1,902 → ₹1,666; Screener P/E 58
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
 
 </div>
 </details>

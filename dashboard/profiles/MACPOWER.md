@@ -19,11 +19,17 @@
 > **⚠️ Reporting basis, stated up front.** Macpower has no subsidiaries, no joint ventures and no associates. Every figure in this profile is standalone and audited, reconciled between the FY26 Annual Report (filed 20-Aug-2026), the quarterly filings and Screener. Where the three disagree, the disagreement is stated.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 1,773** · market cap ₹ 1,774 Cr. · 52-wk ₹ 2,251 / 761 · **vs ₹1,843 at baseline (-3.8%)**
+**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 2,204** · market cap ₹ 2,205 Cr. · P/E — · ROCE % % · ROE % % · 52-wk ₹ 2,251 / 761 · **vs ₹1,843 at baseline (+19.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 11-Sep-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Q2 results 26-Oct, call 27-Oct · (earlier: AGM passed; H1FY27 balance sheet remains the checkpoint · (earlier: AGM held 23-Sep; CMD took part in a promoter-interview series. H1FY27 remains the checkpoint for the three unreconciled Q1 figures · (earlier in window: Investor-meeting flurry (DII management meet 21-Sep; CMD in a promoter-interview series); nothing on the three unreconciled figures; stock +14% to ₹2,104 at 54x))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 11-Sep-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟢 Q2 record: revenue +40%, PAT +44%; 13.38% mother-to-son transfer inside the promoter group · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Q2 results 26-Oct, call 27-Oct · (earlier: AGM passed; H1FY27 balance sheet remains the checkpoint · (earlier: AGM held 23-Sep; CMD took part in a promoter-interview series. H1FY27 remains the checkpoint for the three unreconciled Q1 figures · (earlier in window: Investor-meeting flurry (DII management meet 21-Sep; CMD in a promoter-interview series); nothing on the three unreconciled figures; stock +14% to ₹2,104 at 54x)))))</span></summary>
 <div class="upd-body">
+
+**🟢 23-Oct → 4-Nov-2026 — Q2FY27: record quarter — revenue +40%, PAT +44%; a 13.38% family transfer within the promoters**
+**Q2FY27 (26-Oct; transcript filed 30-Oct and read for the figures).** Revenue **₹120.33cr, +40% YoY**; EBITDA **₹19.94cr, +40.8%**, margin ~16.6%; PAT **₹13.47cr, +43.7%** — the highest quarter in the company's history. H1 revenue ₹215.56cr (+46.9%). **29-Oct (scan, rendered and read):** Reg 10(5) prior intimation — **13,39,000 shares (13.38%) to move from Riyaben Rupeshbhai Mehta to her son Reyan Rupeshbhai Mehta on or after 5-Nov**; total promoter holding unchanged.
+> **Why it matters:** Growth with margins held. The transfer is an inter-se family move, not a sale — but it is large enough to note.
+
+*Sweep: NSE announcements, 23-Oct → 4-Nov-2026 (4-Nov evening filings re-checked at 18:04 IST); market data Screener 4-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 21 → 23-Oct-2026 — Verified quiet — no filings**
 **No filings at all in the window on NSE** — a verified negative, not an absence of searching (§0A rule 6).
@@ -71,10 +77,10 @@ Screener P/E 54.1x (was ~47x), ROCE 29.1%, ROE 21.3%; market cap ₹2,105cr; pro
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (23-Oct-2026, mine, not management's):** No commodity series fits a CNC builder. The rupee, 2.0% stronger over three months, slightly cheapens imported ball screws and guideways; MSME credit, which funds its job-shop buyers, is growing 26.7% YoY (August). Both supportive. Results 26-Oct.
+**Read (4-Nov-2026, mine, not management's):** No commodity series fits a CNC builder. The rupee is 1.7% stronger in the month, slightly cheapening imported ball screws and guideways; MSME credit, which funds its job-shop buyers, grew 27.0% YoY in September. Q2FY27 was a record quarter.
 
 **How cost moves reach profit:** Machine prices were raised 4–6% from 1-Jun-2026 (profile §4); a 19,000-SKU component shelf with a one-year buffer on imported ball screws delays cost moves (profile §4).
 
@@ -82,17 +88,17 @@ Screener P/E 54.1x (was ~47x), ROCE 29.1%, ROE 21.3%; market cap ₹2,105cr; pro
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (94.93 ₹ per $) | Input cost | -0.8% | -2.0% | +8.2% | -2.0% | ⚪ flat | Yahoo Finance · 23-Oct-2026 |
-| Credit to MSME - Outstanding (YoY, Aug 26) | Demand driver | — | +26.4% | +26.7% | — | 🟢 tailwind | Tijori macro (India) · Aug 26 |
+| USD/INR (94.64 ₹ per $) | Input cost | -1.7% | -0.5% | +6.7% | -2.3% | ⚪ flat | Yahoo Finance · 04-Nov-2026 |
+| Credit to MSME - Outstanding (YoY, Sep 26) | Demand driver | — | +26.6% | +27.0% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
 
 **Why each factor is here:**
 
 - **USD/INR**: Ball screws and guideways are imported from Taiwan (profile §4).
-- **Credit to MSME - Outstanding (YoY, Aug 26)**: Buyers are tier-3/tier-4 job shops, i.e. MSMEs (profile §1).
+- **Credit to MSME - Outstanding (YoY, Sep 26)**: Buyers are tier-3/tier-4 job shops, i.e. MSMEs (profile §1).
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
 
 </div>
 </details>

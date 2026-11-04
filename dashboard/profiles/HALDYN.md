@@ -12,11 +12,17 @@
 > **📋 WHAT THIS REFRESH FOUND.** v1 was **8.6 KB — the thinnest profile on the watchlist** — written 3-Jul-2026 from Screener and public information. Since then: **a strong Q1FY27 (revenue +21%, consolidated PAT +90%)**, **the FY26 annual report**, **a captive renewable-power investment**, and **a significant accounting judgement that v1 did not carry: Haldyn owns 56.80% of its principal joint venture and accounts for it as an associate rather than a subsidiary.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 132** · market cap ₹ 709 Cr. · P/E 22.8x · ROCE 13.5 % · ROE 11.4 % · 52-wk ₹ 166 / 70.4 · **vs ₹142 at baseline (-7.0%)**
+**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 132** · market cap ₹ 706 Cr. · P/E 22.7x · ROCE 13.5 % · ROE 11.4 % · 52-wk ₹ 166 / 70.4 · **vs ₹142 at baseline (-7.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 2-Sep-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Q2 board 5-Nov · (earlier: ⚪ No filings in the window (verified) · (earlier: A depository certificate only · (earlier: Trading window closed — results cycle approaching; still the last outstanding C1 refresh · (earlier in window: No company filing since the 2-Sep profile beyond AGM logistics; stock ₹142 → ₹143))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 2-Sep-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Quiet; Q2 due 5-Nov · (earlier: 🆕 ⚪ Q2 board 5-Nov · (earlier: ⚪ No filings in the window (verified) · (earlier: A depository certificate only · (earlier: Trading window closed — results cycle approaching; still the last outstanding C1 refresh · (earlier in window: No company filing since the 2-Sep profile beyond AGM logistics; stock ₹142 → ₹143)))))</span></summary>
 <div class="upd-body">
+
+**⚪ 23-Oct → 4-Nov-2026 — Quiet — results pending**
+**Only the q2 board-meeting intimation (bse, 23-oct); results due 5-nov.**
+> **Why it matters:** A checked negative.
+
+*Sweep: BSE announcements via Chrome (the BSE JSON API is still blocked from curl), 23-Oct → 4-Nov-2026 (4-Nov evening filings re-checked at 18:04 IST); market data Screener 4-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 21 → 23-Oct-2026 — Q2 board meeting fixed for 5-Nov**
 Board meets **5-Nov** for the Q2/H1FY27 results (BSE, via Chrome).
@@ -58,10 +64,10 @@ Two AGM-related filings only. Price ₹142 → ₹143; Screener P/E 24.7x, ROCE 
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (23-Oct-2026, mine, not management's):** Neither soda ash nor Indian furnace gas is tracked, and the profile says those two set the margin. Asian LNG (+20.9% over three months, September average $14.25) is context only.
+**Read (4-Nov-2026, mine, not management's):** Neither soda ash nor Indian furnace gas is tracked, and those two set the margin. Asian LNG (October average $16.59, +19.8% over three months) is context only. Q2 due 5-Nov.
 
 **How cost moves reach profit:** Profile: 'Energy and soda ash set the margin, and neither is controllable' (Risk 2). Neither soda ash nor Indian furnace gas is tracked.
 
@@ -69,7 +75,7 @@ Two AGM-related filings only. Price ₹142 → ₹143; Screener P/E 24.7x, ROCE 
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Liquefied natural gas, Japan (monthly avg) (14.25 $/mmbtu) | Proxy / context | -6.7% | +20.9% | +24.2% | -8.9% | ⚪ context | World Bank Pink Sheet · 2026M09 |
+| Liquefied natural gas, Japan (monthly avg) (16.59 $/mmbtu) | Proxy / context | +2.0% | +19.8% | +49.5% | +0.0% | ⚪ context | World Bank Pink Sheet · 2026M10 |
 
 **Why each factor is here:**
 
@@ -77,7 +83,7 @@ Two AGM-related filings only. Price ₹142 → ₹143; Screener P/E 24.7x, ROCE 
 
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
 
 </div>
 </details>

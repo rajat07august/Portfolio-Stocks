@@ -15,11 +15,18 @@
 > **🆕 AND THE TRANSCRIPT CONTAINS THE ONE THING THAT MOST CHANGES HOW Q2FY27 SHOULD BE READ.** **A US tariff refund of *"anywhere around ₹50 crores plus"* net lands in Q2FY27 and is NOT in guidance.** CFO Deepak Joshi: *"the quarter 1… **there was no impact of tariff. We didn't receive anything in the quarter 1.** However, we have received roughly **30% to 40%** of what we are expecting in quarter 2… **we will get full in Q2. That is my expectation.**"* **The refresh's own downgrade trigger is *"operating margin falls back below 24%"* at Q2 — and a Q2 flattered by a ₹50cr one-off could hide exactly the deterioration that trigger is designed to catch.** *That is now flagged explicitly in §6.*
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 7,034** · market cap ₹ 16,345 Cr. · P/E 38.4x · ROCE 18.1 % · ROE 13.5 % · 52-wk ₹ 7,990 / 2,691 · **vs ₹7,124 at baseline (-1.3%)**
+**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 7,544** · market cap ₹ 17,525 Cr. · P/E 41.1x · ROCE 18.1 % · ROE 13.5 % · 52-wk ₹ 7,990 / 2,691 · **vs ₹7,124 at baseline (+5.9%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 🔴 Q2FY27: revenue +22%, PAT +42%, but ex-OI margin 27.2% → 24.4% QoQ, ~22.8% ex-refund; refund ~₹27cr net vs "₹50cr+"; H1 CFO 57% of EBITDA; duty "not applied" per mgmt → MH → M (Under Watch) · (earlier: ⚪ Q2 call 23-Oct; immaterial insider-code breach (₹5,000 penalty) · (earlier: AGM passed cleanly; no further detail on the Lubrizol TPU MoU, whose first test is December commissioning · (earlier: 🟢 MoU with Lubrizol (Berkshire Hathaway) to build India's first dedicated TPU extrusion platform — ₹118cr, live by Dec-2026, management expects 150-200bps of consolidated EBITDA; AGM held 23-Sep · (earlier in window: No company event beyond FY26 annual report and dividend-tax notice; stock −5.6% to ₹6,724))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟢 Official Q2 transcript filed and checked — refund ~₹27cr net confirmed; Finance Ministry did not approve the anti-dumping duty · (earlier: 🆕 🔴 Q2FY27: revenue +22%, PAT +42%, but ex-OI margin 27.2% → 24.4% QoQ, ~22.8% ex-refund; refund ~₹27cr net vs "₹50cr+"; H1 CFO 57% of EBITDA; duty "not applied" per mgmt → MH → M (Under Watch) · (earlier: ⚪ Q2 call 23-Oct; immaterial insider-code breach (₹5,000 penalty) · (earlier: AGM passed cleanly; no further detail on the Lubrizol TPU MoU, whose first test is December commissioning · (earlier: 🟢 MoU with Lubrizol (Berkshire Hathaway) to build India's first dedicated TPU extrusion platform — ₹118cr, live by Dec-2026, management expects 150-200bps of consolidated EBITDA; AGM held 23-Sep · (earlier in window: No company event beyond FY26 annual report and dividend-tax notice; stock −5.6% to ₹6,724)))))</span></summary>
 <div class="upd-body">
+
+**🟢 23-Oct → 4-Nov-2026 — Official Q2 transcript filed — it confirms every refund figure the machine transcript gave**
+**The official Q2FY27 transcript was filed on 26-Oct and read.** The 23-Oct downgrade rested on a machine transcript of the call audio for the tariff-refund numbers. The official text matches: *"Till date, we have received around INR31 crores... the refund to customer has been around INR20 crores, and INR11 crores has been in our books. And we expect in Q3 another refund of around INR30 crores, that is the last one... roughly INR16 crores will come to our books"* — **~₹27cr net in total, against the ₹50cr+ guided in August.**
+**⤴ The duty point is sharper than the 23-Oct reading ("not applied"):** *"approved by Ministry of Commerce. However, Finance Ministry did not approve it. So, we are taking some necessary steps."* TPU line on track for Q3FY27; GHS studios 9 → 14, 12 more planned in Q3; Q3 "seasonally low". A plant visit was scheduled (2-Nov).
+> **Why it matters:** **Nothing in the official text changes the 23-Oct downgrade to M (Under Watch).** The anti-dumping duty — one of the four upgrade conditions — has been turned down by the Finance Ministry, not merely delayed, so that condition is further away.
+
+*Sweep: NSE announcements, 23-Oct → 4-Nov-2026 (4-Nov evening filings re-checked at 18:04 IST); market data Screener 4-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🔴 21 → 23-Oct-2026 — Q2FY27: record revenue and PAT +42% — but three of the profile's four downgrade triggers fired, so MH → M (Under Watch)**
 **Results (22-Oct) and call (23-Oct, machine-transcribed from the company's audio — Garware is a holding, so per §4A it was transcribed immediately).** Consolidated revenue **₹695.5cr (+22.1%)**, PAT **₹129.4cr (+41.9%)**, company EBITDA 27.2% **including other income**; FY27 margin guidance raised to **27% ±2%** on that basis. **Rebuilt from the filed P&L lines: EBITDA ex-other income 24.4%, down from 27.2% in Q1; gross margin 59.9% → 54.7%.** **The tariff refund guided at "₹50 crores plus" net, "full in Q2", came in at ~₹11cr net in Q2 with ~₹16cr more expected in Q3 — ~₹27cr in total** (call; not disclosed in the filing). **Ex-refund, ex-OI margin ~22.8%.** H1 operating cash flow ₹195cr against ₹341cr of operating profit (57%) after a deliberate ₹72cr inventory build. On the call: the anti-dumping duty was *"approved by the Ministry of Commerce. However, Finance Ministry did not apply it."* Also: MPCB forfeited a **₹25 lakh** bank guarantee for alleged consent non-compliance (21-Oct; company says it has complied).
@@ -69,21 +76,21 @@ Screener P/E 40.3x, ROCE 18.1%, ROE 13.5%; 52-week range ₹2,691–7,990. Jun-2
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (23-Oct-2026, mine, not management's):** Feedstock pressure has now shown up in the print. PTA is +37.9% over three months and at a 52-week high, MEG +9.7% (−6.1% in the last month). Q2FY27 confirmed it: consolidated gross margin fell from 59.9% in Q1 to 54.7% (my calculation from the filed P&L), and management put raw material +4% and logistics +₹9cr at ₹37cr of headwind. The rupee is 2.0% stronger over three months, a small drag with ~75% exports.
+**Read (4-Nov-2026, mine, not management's):** The feedstock squeeze has started to turn: PTA is +18.1% over three months but −5.3% in the last month, MEG +4.9% and −9.5% in the month. Q2FY27 carried the peak (gross margin 59.9% → 54.7%, my calculation); if October's declines hold, Q3 input costs ease. The rupee is 1.7% stronger in the month, a small drag with ~75% exports.
 
 **How cost moves reach profit:** Not disclosed. It sells branded films (window, paint-protection, sun-control) at premium prices, so polyester feedstock is a smaller lever than for a commodity film maker (my inference).
 
-**Sensitivity:** raw materials were **45.1% of sales in FY26** (FY25: 46.2%, Screener). A 10% move across the whole raw-material bill is worth about **451 bps of margin before any pass-through**. The tracked inputs averaged **+23.8% over three months**, which would be roughly **1073 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **45.1% of sales in FY26** (FY25: 46.2%, Screener). A 10% move across the whole raw-material bill is worth about **451 bps of margin before any pass-through**. The tracked inputs averaged **+11.5% over three months**, which would be roughly **519 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Purified terephthalic acid (PTA) | Input cost | +0.8% | +37.9% | +81.9% | +0.0% | 🔴 headwind | Tijori (indianpetrochem.com) · 23 Oct, 09:00 am IST |
-| Monoethylene glycol(MEG) | Input cost | -6.1% | +9.7% | +58.7% | -8.8% | 🔴 headwind | Tijori (indianpetrochem.com) · 23 Oct, 09:00 am IST |
-| Polyurethane | Proxy / context | +5.7% | +13.0% | +41.1% | -6.3% | ⚪ context | Tijori (indianpetrochem.com) · 23 Oct, 09:00 am IST |
-| USD/INR (94.93 ₹ per $) | FX (export revenue) | -0.8% | -2.0% | +8.2% | -2.0% | ⚪ flat | Yahoo Finance · 23-Oct-2026 |
+| Purified terephthalic acid (PTA) | Input cost | -5.3% | +18.1% | +67.6% | -5.3% | 🔴 headwind | Tijori (indianpetrochem.com) · 04 Nov, 09:00 am IST |
+| Monoethylene glycol(MEG) | Input cost | -9.5% | +4.9% | +52.8% | -13.6% | 🔴 headwind | Tijori (indianpetrochem.com) · 04 Nov, 09:00 am IST |
+| Polyurethane | Proxy / context | +4.5% | +10.9% | +44.7% | -5.3% | ⚪ context | Tijori (indianpetrochem.com) · 04 Nov, 09:00 am IST |
+| USD/INR (94.64 ₹ per $) | FX (export revenue) | -1.7% | -0.5% | +6.7% | -2.3% | ⚪ flat | Yahoo Finance · 04-Nov-2026 |
 
 **Why each factor is here:**
 
@@ -93,7 +100,7 @@ Screener P/E 40.3x, ROCE 18.1%, ROE 13.5%; 52-week range ₹2,691–7,990. Jun-2
 - **USD/INR**: ~75% of revenue is exports (profile Risk 3).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -474,7 +481,7 @@ Two product families do most of the work:
 
 **⚠️ Risk 2 — Commodity BOPET price volatility.** *(No update. Speciality mix insulates but does not eliminate.)*
 
-> 📈 **Factor check 23-Oct-2026:** It reached the P&L in Q2FY27: consolidated gross margin fell from 59.9% (Q1) to 54.7% (my calculation from the filing) as PTA rose 37.9% over three months to a 52-week high. Management put raw material +4% and logistics +₹9cr at ₹37cr of headwind. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 4-Nov-2026:** It reached the P&L in Q2FY27 (gross margin 59.9% → 54.7%, my calculation). Since then feedstocks have turned: PTA −5.3% and MEG −9.5% in the month to 4-Nov, though still +18.1% and +4.9% over three months. *(Numbers and sources: Input & factor check, at the top.)*
 
 **⚠️ Risk 3 — Currency exposure.** ~75% export revenue.
 

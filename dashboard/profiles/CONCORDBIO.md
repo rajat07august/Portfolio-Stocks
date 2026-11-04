@@ -12,11 +12,17 @@
 > **Data note:** consolidated basis throughout. Standalone and consolidated are close for this company (unlike MPS), but consolidated is used everywhere.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 23-Oct-2026 close (Screener):** CMP **₹ 1,229** · market cap ₹ 12,856 Cr. · P/E 46.3x · ROCE 17.1 % · ROE 12.5 % · 52-wk ₹ 1,615 / 987 · **vs ₹1,571 at baseline (-21.8%)**
+**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 656** · market cap ₹ 13,693 Cr. · P/E 48.1x · ROCE 17.1 % · ROE 12.5 % · 52-wk ₹ 808 / 494 · **vs ₹786 at baseline, bonus-adjusted (1:1, ex 4-Nov) (-16.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 23-Oct-2026</span> <span class="upd-sum">🆕 ⚪ Q2 call 28-Oct · (earlier: ⚪ Routine filings only · (earlier: Postal ballot notice issued for the 1:1 bonus and the authorised-capital increase · (earlier: 🟢 1:1 bonus approved and authorised capital doubled; USFDA closed the Valthera formulation inspection with one minor non-GMP observation · (earlier in window: USFDA inspection of the Valthera formulation unit closes with one minor, non-GMP observation; Board to consider a bonus share issue on 23-Sep; stock −4.9%))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟡 Q2: revenue +25%, PAT +11%, margin 34% (37% ex new plant); 1:1 bonus ex 4-Nov (history adjusted) · (earlier: 🆕 ⚪ Q2 call 28-Oct · (earlier: ⚪ Routine filings only · (earlier: Postal ballot notice issued for the 1:1 bonus and the authorised-capital increase · (earlier: 🟢 1:1 bonus approved and authorised capital doubled; USFDA closed the Valthera formulation inspection with one minor non-GMP observation · (earlier in window: USFDA inspection of the Valthera formulation unit closes with one minor, non-GMP observation; Board to consider a bonus share issue on 23-Sep; stock −4.9%)))))</span></summary>
 <div class="upd-body">
+
+**🟡 23-Oct → 4-Nov-2026 — Q2FY27: revenue +25%, PAT +11% as margins dip; 1:1 bonus went ex on 4-Nov**
+**Q2FY27 (27-Oct; transcript filed 3-Nov).** Revenue **₹309cr, +25%**; PAT **₹70cr, +11%**; OPM 34% (36%) on Screener. The deck attributes lower margins to higher input costs and mix; **ex the injectable facility and Stellon Biotech costs, EBITDA margin 37.1%** (H1 37.8%). ANDA approvals for Tofacitinib and MMF oral suspension. **Postal ballot passed (24-Oct)** — authorised capital raised for the bonus. **1:1 bonus, record date 4-Nov** — prices from 4-Nov are ex-bonus.
+> **Why it matters:** Growth is solid; the margin give-back is explained by the company as new-plant costs. **Every price comparison across 4-Nov must halve the earlier price** — the dashboard history is bonus-adjusted in this refresh.
+
+*Sweep: NSE announcements, 23-Oct → 4-Nov-2026 (4-Nov evening filings re-checked at 18:04 IST); market data Screener 4-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 21 → 23-Oct-2026 — Q2 call 28-Oct**
 Earnings call **28-Oct, 3:30pm**.
@@ -73,10 +79,10 @@ Screener P/E 56.3x, ROCE 17.1%, ROE 12.5%; market cap ₹15,634cr; promoter 44.0
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 23-Oct-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (23-Oct-2026, mine, not management's):** Only currency is tracked; 2.0% stronger over three months. Fermentation inputs are not tracked.
+**Read (4-Nov-2026, mine, not management's):** Only currency is tracked; 1.7% stronger in the month. Fermentation inputs are not tracked; management attributed the Q2 margin dip to input costs and the new injectable plant.
 
 **How cost moves reach profit:** Fermentation inputs are not tracked.
 
@@ -84,14 +90,14 @@ Screener P/E 56.3x, ROCE 17.1%, ROE 12.5%; market cap ₹15,634cr; promoter 44.0
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (94.93 ₹ per $) | FX (export revenue) | -0.8% | -2.0% | +8.2% | -2.0% | ⚪ flat | Yahoo Finance · 23-Oct-2026 |
+| USD/INR (94.64 ₹ per $) | FX (export revenue) | -1.7% | -0.5% | +6.7% | -2.3% | ⚪ flat | Yahoo Finance · 04-Nov-2026 |
 
 **Why each factor is here:**
 
 - **USD/INR**: Exports ~47% of revenue (profile).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 23-Oct-2026 19:31 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
 
 </div>
 </details>
