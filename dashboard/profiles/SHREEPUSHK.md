@@ -1,14 +1,20 @@
 # Shree Pushkar Chemicals & Fertilisers Limited (SHREEPUSHK)
 
 **Sector 4 — Chemicals (Diversified & Specialty)** *(dashboard label: "Diversified Chemicals", beside DCM Shriram)*
-**Thesis current as of: 16-Sep-2026 · Tracking since: 16-Sep-2026** · **🔵 HELD POSITION** *(disclosed 4-Nov-2026)*
+**Thesis current as of: 5-Nov-2026 · Tracking since: 16-Sep-2026** · **🔵 HELD POSITION** *(disclosed 4-Nov-2026)*
 
 <!-- SINCE-BASELINE:START -->
 **📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 595** · market cap ₹ 1,927 Cr. · P/E 21.5x · ROCE 12.9 % · ROE 12.1 % · 52-wk ₹ 653 / 272 · **vs ₹507 at baseline (+17.4%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 16-Sep-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟢 Q2: revenue +58%, PAT +96% (gross margin 30% vs 33%); new Unit-5 chemical plant · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: 🔴 NCLT ALLOWED WITHDRAWAL of the subsidiary amalgamation scheme approved back in Dec-2024 — another timetable abandoned · (earlier: No filings since the profile was written))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 16-Sep-2026 → 5-Nov-2026</span> <span class="upd-sum">🆕 🔴 Q2 call read: chemical revenue +86% on tonnage −17% (H-acid windfall, peer-confirmed); H1 cash flow −₹53cr, receivables +₹153cr; FY27 guide cut to ₹1,250–1,300cr · (earlier: 🆕 🟢 Q2: revenue +58%, PAT +96% (gross margin 30% vs 33%); new Unit-5 chemical plant · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: 🔴 NCLT ALLOWED WITHDRAWAL of the subsidiary amalgamation scheme approved back in Dec-2024 — another timetable abandoned · (earlier: No filings since the profile was written)))))</span></summary>
 <div class="upd-body">
+
+**🔴 5-Nov-2026 — Q2FY27 call read (transcript filed this evening): the record quarter is a price event, and the cash went the other way**
+**Chemical revenue +85.6% on tonnage −16.8%**; realisation more than doubled, ~₹76,000/t → ~₹1,70,000/t *(my arithmetic)*. The CMD: H-acid prices are *"practically non-sustainable… very short-lived"*. **Bodal Chemicals printed the same quarter** (revenue +80%, OPM 4.8% → 12%). **H1 operating cash flow −₹53.3cr; receivables ₹179cr → ₹332cr; borrowings ₹127cr → ₹230cr.** FY27 revenue guide back to **₹1,250–1,300cr** from ₹1,350–1,400cr in August. Unit 5 dyes commercial; Unit 6 trial now end-Nov/Dec. ₹45cr of new warrants to the CMD at ₹526.90 (EGM 2-Dec) for a ₹70cr plant whose product he will not name.
+> **Why it matters:** This profile's §2 check applies directly: value normal earnings, not this quarter. The cash statement is the opposite of what the P&L suggests, and on the call the CMD said *"the company is already cash surplus"* of a balance sheet with ~₹97cr of net debt *(my arithmetic)*.
+
+*Sources: official transcript (filed 5-Nov 20:45), results (scanned; P&L, balance sheet and cash flow rendered and read), press release, EGM notice, Reg 32 statement; Screener 5-Nov-2026 close.*
 
 **🟢 23-Oct → 4-Nov-2026 — Q2FY27: revenue +58%, PAT +96%; a new chemical plant at Unit-5**
 **Q2FY27 (2-Nov).** Consolidated revenue **₹403.5cr, +58.2% YoY, +44.1% QoQ**; gross profit ₹120.7cr, gross margin **30.0% (33.2%)**; PAT **₹35.7cr, +96.1%**; EPS ₹11.05. H1 revenue ₹683.6cr (+34.1%). **Board: expansion at Unit-5 — a new chemical plant at D-10, MIDC Lote Parshuram**; authorised capital raised ₹33.5cr → ₹34.0cr (5 lakh shares) "in view of the aforementioned expansion". Reg 32 statement filed; call recording 3-Nov.
@@ -184,6 +190,7 @@ The Makharia family controls the company through Punit and Gautam, their mother 
 | **22-Jul-2024** *(event filing)* | **69.29%** | — |
 | **Sep-2024** | **69.36%** | **69.36%** |
 | Dec-2024 → Jun-2026 (8 quarters) | **69.36%** | **69.36%** |
+| **Sep-2026** *(Screener; NSE master not re-pulled)* | — | **69.45%** |
 
 **The two sources agree exactly.** The step-up in July 2024 is the conversion of the previous warrant issue (7,11,811 shares; ₹15.14cr per the AR). **The new 7,36,196 warrants are unconverted** — ₹7.50cr received, ₹22.50cr due at conversion, which must happen within 18 months of the 27-Dec-2025 allotment (i.e. by ~Jun-2027) under SEBI ICDR. **On full conversion promoter holding rises to ~70.0%** *(my calculation, ~3.23cr → ~3.30cr shares)*.
 
@@ -222,6 +229,13 @@ The CMD's claim on the Q2FY26 call — *"in 10 years, not even a single share, e
 | "FY29 revenue ₹2,500cr — 100% correct" / "minimum ₹2,500cr in 2029" | Q2FY26, Q3FY26 | — | 🕐 on FY26 ₹977cr, implies ~37% CAGR |
 | Caustic soda plant | Earlier calls | **Dropped** (confirmed Q4FY25) | 🟡 reviewed and abandoned — disclosed |
 | Bring institutions onto the register | Q1FY26 (Aug-25), after a 16% post-results fall | FII 0.50%, DII **0.00%** at Jun-26 | 🔴 |
+| *(5-Nov)* **FY27 revenue** — fifth version: **₹1,250–1,300cr** ("at least ₹1,250cr"), down from ₹1,350–1,400cr three months earlier | Q2FY27 (Nov-26) | H1 ₹683.6cr. The CMD called ₹1,250cr what *"we have always given"*; the record above shows ₹1,400cr, ₹1,500cr, ₹1,250–1,300cr, ₹1,350–1,400cr | 🕐 **Reachable; the narration is not accurate** |
+| *(5-Nov)* FY27 PAT 8.5–9% → *"profitability should be in three digits"* | Q1FY27, Q2FY27 | H1 8.6%. ₹100cr on ₹1,250cr = 8% | 🟡 **Softer wording** |
+| *(5-Nov)* Q2 *"even better than Q1"* | Q1FY27 | Revenue +44% QoQ, PAT +56% QoQ | ✅ |
+| *(5-Nov)* **Unit 5 dyes** | Seven calls | **Commercial production in Q2FY27**; PP&E ₹300.5cr → ₹356.5cr. CMD not *"that much optimistic"* on loading: *"global demand is still a bit weak"* | ✅ **Delivered, ~20 months late** |
+| *(5-Nov)* **Unit 6 NPK** — **eighth date**: trial *"end of this month"* or *"latest by next month"* | Q2FY27 | Aug-26 said end-Aug/Sep. CMD now assumes **no Q4 revenue**; subsidy needs NBS induction and PDIL inspection | 🔴 **Late again** |
+| *(5-Nov)* Unit 8 Meghnagar | Q2FY26 | ₹92cr invested by 30-Sep (₹60cr at June), *"totally funded by the internal accruals"*. H1 CFO was negative and borrowings rose ₹103cr | 🟡 **On schedule; the funding description does not match the cash flow** *(my reading)* |
+| *(5-Nov)* FY28 revenue ₹1,700–1,750cr → *"near around ₹2,000 crores"*, then *"in your books 2,000, hold 1,800"* | Q1FY27, Q2FY27 | — | 🕐 **Raised in one answer, trimmed in another** |
 
 ### One-line verdict on management
 
@@ -338,6 +352,54 @@ Plus ₹9.33cr for 30,000 m² of adjoining land at Lote Parshuram, bought at auc
 
 ---
 
+### 📊 Q2FY27 Refresh — Full Numbers Print (5-Nov-2026)
+
+*Sources: consolidated results filed 2-Nov (scanned; rendered and read, §4A part C), press release, official transcript of the 3-Nov call (filed 5-Nov, read in full). EBITDA here excludes other income; it rebuilds exactly from the filed lines.*
+
+| ₹ cr, consolidated | Q2FY26 | Q1FY27 | **Q2FY27** | YoY |
+|---|---|---|---|---|
+| Revenue | 255.1 | 280.1 | **403.5** | **+58.2%** |
+| Materials + stock change | 170.5 | 190.8 | 282.8 | |
+| **Gross margin** | 33.2% | 31.9% | **30.0%** | **−3.2pp** |
+| Employees · other expenses | 13.3 · 45.1 | 12.7 · 44.6 | 15.0 · 56.5 | |
+| **EBITDA** | 26.2 (10.3%) | 31.9 (11.4%) | **49.2 (12.2%)** | **+87.7%** |
+| Other income · depreciation · finance | 3.3 · 5.9 · 1.7 | 4.9 · 6.3 · 2.6 | 3.2 · 6.8 · 2.6 | |
+| PBT | 21.9 | 27.8 | **43.0** | +96.3% |
+| **PAT** | **18.2** | **22.9** | **35.7** | **+96.1%** |
+
+**H1FY27:** revenue ₹683.6cr (+34.1%), EBITDA ₹81.2cr (11.9%), PAT ₹58.6cr (+49.7%).
+
+| Segment (press release) | Q2FY26 | Q1FY27 | **Q2FY27** | YoY |
+|---|---|---|---|---|
+| Chemicals revenue, ₹cr | 132 | 138 | **245** | **+85.6%** |
+| Chemicals tonnes | 17,266 | 9,113 | **14,368** | **−16.8%** |
+| **Chemicals ₹ per tonne** *(my arithmetic)* | ~76,500 | ~1,51,400 | **~1,70,500** | **+123%** |
+| Fertiliser revenue, ₹cr | 124 | 142 | **158** | +27.5% |
+| Fertiliser tonnes | 72,527 | 66,527 | **79,277** | +9.3% |
+| Fertiliser ₹ per tonne *(my arithmetic)* | ~17,100 | ~21,300 | **~19,900** | +17% |
+
+> **🔴 The misleading metric: "chemical revenue +86%".** Tonnage fell in both Q2 (−16.8%) and H1 (−26.9%). At last year's realisation Q2's tonnes were worth ~₹110cr; the other ~₹135cr is price and mix. **Mix matters here:** the acid complex is still run low, so less cheap acid inflates the average *(my inference)*. The company does not split price from mix, and the CMD says the quantum is *"difficult to calculate"*.
+
+**The commodity-windfall check (§2 of the brief).** Peer's same quarter: **Bodal Chemicals revenue ₹480cr → ₹863cr, OPM 4.8% → 12%, PAT ₹6cr → ₹81cr.** Bhageria moved less (revenue +21%, OPM 10.8% → 13.4%). Management's mechanism: China's dye-intermediate shortage on environmental and safety enforcement, H-acid and vinyl sulphone. **So this is the industry, not the company.** The CMD agrees: *"Sir, I hope that Diwali goes on daily. And if I hope, then Diwali is not going to go on daily."*
+
+**🔴 An unexplained point:** gross margin **fell** 3.2 points in a quarter when the main product's price more than doubled. The CFO attributed it to inventory levels. Pressed twice on the driver, the CMD closed it: *"you can talk to Mr. Deepak separately."* **Unresolved.**
+
+**The cash went the other way:**
+
+| ₹ cr, consolidated | 31-Mar-26 | **30-Sep-26** |
+|---|---|---|
+| Trade receivables | 179.2 | **332.1** (+85%) |
+| Inventories | 136.2 | 93.9 |
+| Borrowings (current + non-current) | 127.0 | **230.2** |
+| Current investments + cash | 131.8 | 133.3 |
+| **Net cash / (debt)** *(my arithmetic)* | **+4.8** | **(96.9)** |
+
+**H1 operating cash flow −₹53.3cr (H1FY26 +₹32.9cr)**, after −₹152.9cr of receivables; capex ₹46.3cr; **free cash ≈ −₹100cr**; net borrowings +₹100.3cr. Asked about receivables, the CMD: *"We have reviewed this receivable. Everything is perfectly well and safe."* **No split is given between dye customers and subsidy due from government**, and he noted Rabi subsidy rates were not yet declared. *The CFO's liquidity sentence is garbled in the transcript (*"non-limited budget of INR142 crores"*); the balance sheet shows ₹133cr of investments and cash against ₹230cr of debt.*
+
+**New on the board outcome:** a **₹70cr chemical plant at Unit 5, 3,000 MTPA, commissioning Mar-2028, ~₹250cr revenue at 75% utilisation** — about ₹11 lakh a tonne, ~6.5x today's chemical realisation *(my arithmetic)*. **The product is not disclosed**: *"Sir, if you do not ask me, it will be better."* Funded by accruals and **8,54,060 warrants to the CMD at ₹526.90 (₹45cr; 8% below ₹575; EGM 2-Dec-2026)**. The 2025 warrants (₹30cr at ₹407.50, ₹7.5cr received) are to convert by Mar-2027: *"now we are in need of money."* **Both issues dilute ~4.9% combined.** The subsidiaries' merger was withdrawn because NCLT delay defeated its purpose. 10 MW DC Nanded solar is live.
+
+**Latest outlook (3-Nov):** FY27 revenue ₹1,250–1,300cr, *"without the production of Unit 6"*; PAT in three digits; Q3 fertiliser *"a little subdued"* (poor rains), chemicals volume *"a little better"*. **The guide implies H2 of ₹566–616cr, ~₹283–308cr a quarter against Q2's ₹403cr** *(my arithmetic)*, though the CMD also said he hoped to beat ₹300cr. Peak potential after all capex 2.5–3x today's level, given as *"personal opinion"*.
+
 ## 5. Connecting the Dots
 
 **The integration thesis is sound, and the current environment is its stress test.** A sulphur shock is exactly the event a captive-acid producer should navigate better than peers who buy acid — and Q1FY27's 11.4% EBITDA margin on lower volumes suggests it did. **The model is protecting margin by shrinking volume.** That works for a quarter or two. It does not grow a company.
@@ -359,6 +421,7 @@ Plus ₹9.33cr for 30,000 m² of adjoining land at Lote Parshuram, bought at auc
 | Date | Conviction | Rationale |
 |---|---|---|
 | **16-Sep-2026** | **MEDIUM-LOW** *(initiation)* | Reliable revenue guidance, A+ net-cash balance sheet and a promoter family adding capital — against PAT-margin guidance missed four times in a year, both Ratnagiri units 12-18 months late, five years of negative free cash, a dyes business shrinking in volume beneath a headline of chemical growth, and 22.7x for a 13% ROCE |
+| **5-Nov-2026** | **MEDIUM-LOW (Under Watch)** — held | **Best quarter in company history, on a price windfall the CMD himself calls short-lived, and peer-confirmed. Unit 5 delivered. But H1 CFO −₹53cr, net debt ~₹97cr from net cash, FY27 guide cut, an eighth Unit 6 date, undisclosed ₹70cr product. Weighted ≈ +8.5% at ₹575.** |
 
 ### Material developments at initiation — the last twelve months
 
@@ -450,19 +513,45 @@ Plus ₹9.33cr for 30,000 m² of adjoining land at Lote Parshuram, bought at auc
 
 ---
 
+### 📊 5-Nov-2026 — Q2FY27 scored, and the scenarios re-derived
+
+**The re-rating tests from §6:** *Up:* Unit 5 capitalised ✅ · Unit 6 capitalised ❌ · two quarters of PAT ≥8.5% ❌ (8.2%, 8.9%; one so far) · standalone chemical volume growth ❌ (tonnage fell) · FCF positive ❌ (≈ −₹100cr) · institution above 1% ❌ (FII 0.58%, DII 0.28%). *Down:* **an eighth Unit 6 date ✅ fired** · FY27 cut below ₹1,250cr ❌ (at the floor) · PAT below 6% ❌ · **debt beyond plan 🟡** (short-term borrowings +₹107cr; not term debt) · warrants not converted 🕐 (promised by Mar-27).
+
+**Scenarios — re-derived on normal earnings, per the windfall rule** *(my estimates, from **₹575 / ₹1,855cr**, Screener 5-Nov close; ~3.39cr shares after both warrant issues; 16-Sep set kept above):*
+
+| Scenario | Prob. | FY28 | PAT × multiple | Value/share | Return |
+|---|---|---|---|---|---|
+| **Base** | **50%** | H-acid reverts; Unit 6 ramps; revenue ~₹1,600cr at 7.5% PAT | **₹120cr** (EPS ~₹35.4) × 17x | ~₹601 | **≈ +5%** |
+| **Bull** | **25%** | China shortage lasts; Unit 6 at 70%; ₹1,900cr at 9% | ₹171cr (EPS ~₹50.4) × 20x | ~₹1,008 | **≈ +75%** |
+| **Bear** | **25%** | Prices revert with receivables stuck; ₹1,350cr at 5.5% | ₹74cr (EPS ~₹21.8) × 13x | ~₹284 | **≈ −51%** |
+
+**Weighted 2-year return ≈ +8.5%** *(0.50 × 5 + 0.25 × 75 − 0.25 × 51)*, plus ~0.4% yield. **20.7x trailing on windfall-inflated earnings; ~16x my base FY28.** The bear weight rises from 20% to 25% because a price reversal now meets a stretched balance sheet, not net cash.
+
+**Conviction: HELD at MEDIUM-LOW, now Under Watch.** The quarter is a genuine positive and the stock is held, but the print raises the question the profile cared about most: **does cash follow?** **Cut to SPECULATIVE if:** FY27 CFO is negative, or net debt exceeds ₹150cr at Mar-27, or receivables stay above ₹300cr while revenue falls in H2. **Upgrade to MEDIUM if:** receivables are collected in H2 and net debt falls below ₹50cr, Unit 6 is capitalised by Mar-27, and the warrants convert on schedule.
+
 ## 7. What Could Prove Us Wrong
 
 **1. 🔴 Units 5 and 6 do not start — or start and run at low load.** Seven timetables in 21 months, three different stated causes. At ₹100/kg sulphur and ₹100/kg ammonia, **a new NPK plant is a working-capital sink** — the CMD's own words: *"once it's started, if I stop later this will involve lot of working capital… at the three times price."*
 
+> ⚠️ **HALF RESOLVED (5-Nov-2026):** Unit 5 commercial; **Unit 6 on an eighth date**, trial end-Nov/Dec, no Q4 revenue assumed.
+
 **2. 🔴 Sulphur and ammonia stay at crisis prices and the finished-product market does not reprice.** Both segments are hit simultaneously. The integration does not hedge; it concentrates.
+
+> 🟡 **EASING (5-Nov-2026):** CMD: *"Sulfur is starting to come down."* The acid complex still runs low. *"There was no inventory gain"*, he says.
 
 > 📈 **Factor check 4-Nov-2026:** Sulphur is not tracked by any available source; Brent, its driver, eased to ~$102 (front-month) from ~$111 on 23-Oct, and rock phosphate is flat. Q2FY27 gross margin fell to 30.0% from 33.2%. *(Numbers and sources: Input & factor check, at the top.)*
 
 **3. 🔴 Profit-margin guidance is not reliable.** FY26 was guided at 8.25%, 8.5-9%, 7.5-8% and 8% across four calls and delivered 7.1%. **FY27's 8.5-9% should be read through that record.**
 
+> ✅ **H1 8.6% IS IN BAND (5-Nov-2026), on a windfall.** Guidance now reads *"three digits"* of PAT. The CMD denied implying margin expansion this year: *"I do not say this year."*
+
 **4. 🔴 Negative free cash through FY28.** ₹303cr of capex outstanding on top of five years of cumulative −₹45cr FCF. Funding is stated to be deposits + warrants + accruals, with term debt undecided. **A delay in Unit 6 revenue arriving collides directly with the Unit 8 spend.**
 
+> ⚠️ **MATERIALIZED FASTER THAN EXPECTED (5-Nov-2026):** H1 free cash ≈ −₹100cr; net cash +₹5cr → net debt ~₹97cr in six months; new ₹70cr project added to ~₹300cr outstanding.
+
 **5. 🔴 The dyes business is not growing in volume.** Standalone chemical tonnage fell 4.1% in FY26 while the consolidated headline said +27.9%. **If Unit 5 does not change that, the "chemical company" half of the thesis is a price story, not a growth story.**
+
+> ⚠️ **CONFIRMED (5-Nov-2026):** consolidated chemical tonnage −16.8% in Q2, −26.9% in H1. **It is a price story for now, which is what this risk warned of.**
 
 **6. 🟡 Policy risk in fertilisers.** NBS subsidy rates, the 10% cap the CMD cited, and any change in the government's DAP-vs-SSP stance directly set realisations. **Central-India SSP/NPK capacity is being added simultaneously by Coromandel, Madhya Bharat Agro and Krishna Phoschem.**
 
@@ -472,9 +561,17 @@ Plus ₹9.33cr for 30,000 m² of adjoining land at Lote Parshuram, bought at auc
 
 **9. 🟡 Spoken figures drift from printed ones.** ROCE 15.3% (call) vs 13.2% (AR); "higher sales volume across both businesses" in a quarter where both fell. Not accounting issues — **a pattern in how results are narrated.**
 
+> ⚠️ **AGAIN (5-Nov-2026):** *"we have always given a visibility of around ₹1,250 crores"*, against ₹1,500cr and ₹1,350–1,400cr on earlier calls; *"the company is already cash surplus"*, against ~₹97cr of net debt; capex *"totally funded by the internal accruals"* in a half with negative CFO.
+
 **10. 🟡 Key-man risk and communication style.** The CMD answers essentially every question, often from the plant without data, and responds to hard questions with challenge (*"Then why are you asking me this question when you aren't confident yourself?"*, Q1FY27). **Institutions have not come; the register is 99.5% retail and promoter.**
 
 **11. 🟡 Family related-party flows** — ₹2.2cr annual rent to the CMD's mother, family salaries, interest-free promoter loans. Individually small and disclosed; collectively a reason to watch the RPT note each year.
+
+**🆕 12. 🔴 The windfall reverses (5-Nov-2026).** 61% of Q2 revenue is chemicals at a price the CMD calls *"non-sustainable"*. He also expects entrants: *"many other people also enter into that"*. **The template is Panama Petrochem's FY22 spike**, whose margin faded within a year.
+
+**🆕 13. 🟡 Receivables doubled, with no breakdown (5-Nov-2026).** ₹332cr, 75 days of Q2 sales *(my arithmetic)*, in a business the CMD describes as moving to credit: *"if there is a market for loans, then goods will be sold in loans"* *(the transcript's wording)*. The split between customers and government subsidy is undisclosed. **Watch:** the March balance sheet.
+
+**🆕 14. 🟡 Capital allocation is getting less transparent (5-Nov-2026).** ₹70cr for an unnamed product at ~₹11 lakh a tonne, questions refused on the call, the CFO's gross-margin answer taken offline. **It sits beside a second promoter warrant issue at a discount to market.** The warrants themselves are a positive signal of skin in the game.
 
 ---
 
@@ -489,6 +586,8 @@ Plus ₹9.33cr for 30,000 m² of adjoining land at Lote Parshuram, bought at auc
 ---
 
 ## 9. 📢 Community Pulse
+
+**⤴ 5-Nov-2026:** ValuePickr thread #8385 re-checked: 249 posts, **no post since 30-Nov-2025**, so nothing on this print. **On the call**, five of the seven questioners pressed H-acid sustainability, gross margin or receivables. **Sentiment: BULLISH on the headline among call participants, sceptical on durability; the forum is silent.**
 
 **Coverage is thin, and the thread that exists has gone quiet.**
 
@@ -523,6 +622,8 @@ No sell-side coverage identified. **FII 0.50%, DII 0.00%** at Jun-2026 (FII peak
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (5-Nov-2026 rewrite):** **official transcript of the 3-Nov call (filed 5-Nov, read in full; the Q2 audio was not transcribed, per Rajat's pause)**; results 2-Nov (scanned; consolidated P&L, balance sheet and cash flow rendered and read); press release; EGM notice for 2-Dec; Reg 32 statement; Bodal Chemicals and Bhageria Industries quarters (Screener); Screener 5-Nov-2026. All in `Fetched Concalls/SHREEPUSHK/` on the Mac.
 
 - **Concalls read (8 transcripts — GREEN gate, above the 6-call standard):** **Q1FY27 (13-Aug-2026, read in full, primary)** · **Q4FY26 (19-May-2026, read in full)** · **Q3FY26 (12-Feb-2026, read in full)** · **Q2FY26 (10-Nov-2025, read in full)** · Q1FY26 (13-Aug-2025, read in full) · Q4FY25 (19-May-2025, read in full) · Q3FY25 (Feb-2025, guidance and project-timeline passages) · Q2FY25 (Nov-2024, guidance and project-timeline passages). All downloaded from BSE via the Screener-listed UUIDs, verified `%PDF`, extracted with `pdftotext -layout`. Stored in `Fetched Concalls/SHREEPUSHK/`. Company also posts audio (not needed — transcripts complete).
 - **Investor presentations (6):** Q1FY27, Q4FY26, Q3FY26, Q2FY26, Q1FY26, Q4FY25. *Capacity and capex tables taken from table text; per §4A rule B, no figure is taken from a deck chart.*

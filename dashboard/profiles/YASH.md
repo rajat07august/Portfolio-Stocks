@@ -1,7 +1,7 @@
 # Yash Highvoltage — Company Profile
 
 **Ticker:** YASH · **BSE: 544310** · **ISIN:** INE00GK01023 · **⚠️ NOT NSE-listed** · **Sector:** Power T&D Components (Sector 14)
-**Conviction:** **HIGH (Under Watch — valuation and cash conversion)** · **Thesis date:** 24-Aug-2026
+**Conviction:** **HIGH (Under Watch — valuation, cash conversion and 🆕 promoter selling)** · **Thesis date:** 5-Nov-2026 *(H1FY27 call, official transcript; last full rewrite 24-Aug-2026)*
 **CMP ₹900** (Screener, 24-Aug-2026) · **Market cap ₹2,690 cr**
 
 > **🔴 FIRST, A QUEUE CORRECTION THAT MATTERS MORE THAN THE REFRESH.**
@@ -21,8 +21,14 @@
 **📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 1,241** · market cap ₹ 3,710 Cr. · P/E 60.2x · ROCE 28.6 % · ROE 23.5 % · 52-wk ₹ 1,310 / 366 · **vs ₹900 at baseline (+37.9%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟢 Official H1 transcript filed and checked — matches · (earlier: 🆕 🟡 H1 call machine-transcribed: receivable days flat (47), vendor advances explain other current assets, +₹37cr liabilities unexplained; ₹220cr greenfield, depreciation 2.5–3x in H2, no margin commitment · (earlier: 🟢 H1FY27: revenue +95%, PAT +166%, ex-OI EBITDA margin 27.5%; order book ₹760cr+ (FY27 target ₹500cr+ already passed); CFO ₹45cr vs ₹9cr in all FY26 — but carried by liabilities, not collections · (earlier: 🟢🟢 Commercial production COMMENCED at the new Savli bushing plant, and the US subsidiary signed a 3-year sales-representation agreement for the Mid-west; FY26 AR now read — CMD remuneration +107% to ₹289.34 lakh, and the Rule 5 comparison with employee increases is left BLANK · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: US subsidiary signs a 36-month sales-representation and utility-approvals agreement covering 19 states (no order, no value); stock +17.7% to ₹1,059 at 81x)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 5-Nov-2026</span> <span class="upd-sum">🆕 🔴 Promoters SOLD 4.8 lakh shares on the market (₹42cr, May + Sep) — this is the unexplained 1pp holding gap; official transcript read, machine figures held · (earlier: 🆕 🟢 Official H1 transcript filed and checked — matches · (earlier: 🆕 🟡 H1 call machine-transcribed: receivable days flat (47), vendor advances explain other current assets, +₹37cr liabilities unexplained; ₹220cr greenfield, depreciation 2.5–3x in H2, no margin commitment · (earlier: 🟢 H1FY27: revenue +95%, PAT +166%, ex-OI EBITDA margin 27.5%; order book ₹760cr+ (FY27 target ₹500cr+ already passed); CFO ₹45cr vs ₹9cr in all FY26 — but carried by liabilities, not collections · (earlier: 🟢🟢 Commercial production COMMENCED at the new Savli bushing plant, and the US subsidiary signed a 3-year sales-representation agreement for the Mid-west; FY26 AR now read — CMD remuneration +107% to ₹289.34 lakh, and the Rule 5 comparison with employee increases is left BLANK · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: US subsidiary signs a 36-month sales-representation and utility-approvals agreement covering 19 states (no order, no value); stock +17.7% to ₹1,059 at 81x))))))</span></summary>
 <div class="upd-body">
+
+**🔴 5-Nov-2026 — the promoter-holding gap is answered: market sales, not arithmetic**
+**BSE's insider-trading register (read in Chrome) shows promoters sold 3,00,000 shares on the market on 7-Sep-2026 for ₹28.43cr (~₹948 each):** Twinkle Keyur Shah 2,48,000, Keyur Shah 52,000. **That is exactly the 1pp between the expected 54.79% and the reported 53.79%.** An earlier round on 21–25 May sold 1,81,500 shares for ₹13.65cr (~₹752). **Total 4,81,500 shares, ₹42.08cr.**
+> **Why it matters:** The profile said the fall was *"dilution by issuance, not by selling"*. True of the August step, wrong for May and September. The 7-Sep sale came a month after institutions paid ₹721, at a 31% premium to them. The filings give no reason, and the CMD still holds the bulk of the stake.
+
+*Sources: BSE PIT register (Reg 7(2)), read 5-Nov-2026; ValuePickr #48–56 raised it on 9-Sep. The 21-Oct sweep checked NSE's PIT feed, which cannot show a BSE-only name; that is why this was missed.*
 
 **🟢 23-Oct → 4-Nov-2026 — Official H1 transcript filed — it confirms the machine transcript's figures**
 **The official H1FY27 call transcript (call 21-Oct) was filed 26-Oct and read.** The 23-Oct profile rested on a machine transcript. The official text matches its load-bearing numbers: **order book ₹760cr at 30-Sep, up from ₹400cr at the start of the year**; PAT margin 13.7% → 18.6%; EBITDA margin "over 28%" against the ~25% FY27 target. Analyst-meet intimation 30-Oct.
@@ -206,6 +212,8 @@ They look like ribbed ceramic cones on top of a substation transformer. **They a
 - **🔴 CWIP has gone ₹8cr → ₹52cr** — the greenfield is on the balance sheet and not yet earning.
 - **⚠️ Everything hinges on one type test.** Commercial RIP production needs *"internal trials and then… the type test"*, and the export unlock needs it to pass.
 - **⚠️ Promoter holding has fallen 57.94% → 54.79%** across two quarters on the preferential issue.
+
+  - **⤴ CORRECTED 5-Nov-2026:** not all of this is the preferential issue. The 57.94% → 57.24% step in the June quarter coincides with **market sales of 1,81,500 shares on 21–25 May** (₹13.65cr), and a further 3,00,000 shares were sold on 7-Sep, taking holding to **53.79%** at Sep-2026.
 - **⚠️ Only four transcripts exist** — two years of half-yearly coverage.
 - **⚠️ Half-yearly reporting means six-month information gaps.** *There is no quarterly check on execution.*
 
@@ -240,9 +248,10 @@ They look like ribbed ceramic cones on top of a substation transformer. **They a
 | Mar 2026 | 57.94% | 0.05% | 11.06% | 30.96% | 3,741 |
 | Jun 2026 | 57.24% | 0.62% | 9.50% | 32.64% | 5,190 |
 | **🆕 Aug 2026** | **54.79%** | **2.17%** | **8.99%** | **34.06%** | **6,341** |
+| **🆕 Sep 2026** | **53.79%** | **2.26%** | **9.68%** | **34.27%** | **6,362** |
 
 **Three things this shows.**
-1. **The preferential issue took promoter holding 57.24% → 54.79%** — a 2.45pp dilution, and **it is dilution by issuance, not by selling.**
+1. **The preferential issue took promoter holding 57.24% → 54.79%** — a 2.45pp dilution, and **it is dilution by issuance, not by selling.** **⤴ That sentence holds for this step only: promoters also sold on the market in May and September (see the 5-Nov entry above).**
 2. **🟢 FII went 0.05% (Mar-26) → 2.17% (Aug-26)** — that is **Malabar India Fund arriving.** *FII holding had been essentially zero for a year.*
 3. **⚠️ Shareholder count has gone 2,501 → 6,341 in four quarters — a 2.5x increase**, while **DII drifted 11.06% → 8.99%.** *Retail is arriving as domestic institutions trim.*
 
@@ -276,6 +285,11 @@ They look like ribbed ceramic cones on top of a substation transformer. **They a
 | **🆕 Sukrut ramp** | H2FY26 | Currently **₹25–26cr**; target ***"at least ₹150 to ₹160 crores"* in 4–5 years (5–6x)**. **EBITDA guidance declined** — *"too early for me to comment"* | 🕐 **Long-dated** |
 | **🆕 Export restriction** | H2FY26, asked directly | *"**Yes, there's no restriction.** Once we have our own bushing, we can…"* and *"**Clean. No restrictive clause.**"* | ✅ **Confirmed — the key unlock** |
 | **🆕 FY26 dividend** | 3-Aug-2026 board | **₹1.40 per ₹5 share (28%)**, record date 27-Aug-2026 | ✅ Declared |
+| *(5-Nov)* **FY27 revenue growth 40–45%** | H2FY26 | H1 **+95%**; H2 guided about level with H1, implying FY27 near ₹400cr, ~+70% *(my arithmetic)* | ✅ **Well ahead** |
+| *(5-Nov)* **FY27 EBITDA margin ~25%** | H2FY26 | H1 **28.1%** company basis, 27.5% ex-OI | ✅ **Beat** |
+| *(5-Nov)* **FY27 order booking ₹500cr+** | H2FY26 | Order book ₹400cr → **₹760cr** at 30-Sep, on H1 revenue of ₹194.5cr, so H1 intake ≈ ₹555cr *(my arithmetic)* | ✅ **Met at the half** |
+| *(5-Nov)* Greenfield commercial production | H2FY26 | Assembly and testing began 30-Sep; **localised core type test still ahead** (*"next couple of weeks"* on 21-Oct) | 🟡 **On track, the decisive step is still to come** |
+| *(5-Nov)* Post-expansion potential | H2FY26: ~₹700cr | **Now ₹900–1,000cr by FY31**, no further material capex | 🕐 **Raised** |
 
 **Verdict on management.** **The delivery record is one of the cleanest in this conversion cycle.** **Every FY26 milestone was met or beaten** — revenue +57% against a guide, margin 25.7% against ~24%, Sukrut closed, the US subsidiary live, European distribution active, greenfield on schedule. **And the fundraise landed at ₹106cr inside a stated ₹100–110cr range, for a use of proceeds specified in advance.** *That is guidance being honoured at a level of precision most companies do not attempt.*
 
@@ -295,6 +309,8 @@ They look like ribbed ceramic cones on top of a substation transformer. **They a
 
 *Source: `Fetched Concalls/YASH/YASH_Transcript_H1FY27_2026-10-21_MACHINE.txt` — mlx-whisper on the company's own recording (BSE filing 21-Oct). **No speaker labels; every figure carries ASR risk.** Cross-checked against the results/deck where possible and against an independent third-party summary posted on X (@2orderequity, 22-Oct), which agrees on every guidance figure below. Re-verify against the official transcript when filed (none yet, 23-Oct).*
 
+> **⤴ VERIFIED 5-Nov-2026 against the official transcript** (`YASH_Transcript_2026-10.pdf`, filed 26-Oct, read in full). **Every load-bearing figure below held**: order book, receivable days, capex, depreciation, gross margin, US states, FY31 potential. **One ASR error found and fixed: the unit counts (row below).**
+
 | Topic | What management said | Check |
 |---|---|---|
 | **Receivables** | Collection days *"47 days in H1 of last year… 47 days even in H1 of this year. Last year full year number was 45 days"* — the absolute rise is *"in line with… the increase in the revenue"* | Consistent with the filed ₹39.2cr rise on doubled revenue. An analyst put it at 66 days; management disputed it |
@@ -305,7 +321,7 @@ They look like ribbed ceramic cones on top of a substation transformer. **They a
 | **Greenfield capex** | Total **₹220cr**, **₹106cr** spent to 30-Sep, balance over 12 months; no material capex beyond it for the ₹900–1,000cr revenue potential | 🆕 Not in the filings read on 21-Oct |
 | **Depreciation** | Plant capitalised mostly in September; H2 depreciation **2.5–3x** last year's; aim to *"maintain the PAT margin"* (FY26 ~16.5%) | 🆕 |
 | **Margin** | No commitment to 32–35%: *"I would not want to make any tall commitments"*; import duty + freight ~**18–20%** of the imported-core cost goes away with localisation, but how much is passed to customers depends on competition | 🆕 |
-| **Volume vs value** | Bushing volume **~+40%** against revenue +95%; RIP **86% of value**; *"more number of higher voltage bushings are going"* | ⚠️ Two unit counts on the call do not reconcile: *"2950 in H1 27"* and *"close to 1500 OIP and close to 2200 RIP"* (3,700). Treat unit numbers as unverified |
+| **Volume vs value** | Bushing volume **~+40%** against revenue +95%; RIP **86% of value**; *"more number of higher voltage bushings are going"* | ~~⚠️ Two unit counts on the call do not reconcile: *"2950 in H1 27"* and *"close to 1500 OIP and close to 2200 RIP"* (3,700). Treat unit numbers as unverified~~ **⤴ RESOLVED by the official text:** *"4,000-odd bushings in H1 of '27 versus 2,950 in H1 of last year"*. The machine transcript had the year wrong. 1,500 OIP + 2,200 RIP leaves ~300 of high-current and others. **Revenue per bushing ~₹4.9 lakh vs ~₹3.4 lakh, +44%** *(my arithmetic)* |
 | Gross margin | Management: **48.3%** (H1FY26 42.4%) | My figure from the filed P&L is 52.0% (materials incl. stock change); management's basis evidently includes other direct costs — basis not stated |
 | **Localised RIP** | Type test *"in next couple of weeks"*; plant and product approvals in Q3; **commercial production up to 245 kV in Q4FY27**; 420/550 kV *"Q4 of 28 or mid 28 max"* | 🆕 dates |
 | Capacity | Halol ~90% utilised, three shifts; brownfield completes in Q3, adds capacity in Q4 | |
@@ -315,7 +331,7 @@ They look like ribbed ceramic cones on top of a substation transformer. **They a
 | Long term | Units 1 + 2 ~**₹900–1,000cr** revenue at full use **by FY31**; global share ~1–1.2% → **5% in 4–5 years** | 🆕 |
 | Competition | *"a couple of bushing companies… have announced"* investments, besides Hitachi/CG captive | 🆕 named risk |
 
-**My read:** the receivables half of the cash question is answered and benign; the liabilities half is not. **The two numbers that matter for the bull case — the margin gain from localisation and the 420/550 kV date — were deliberately left uncommitted.** **Conviction unchanged: HELD at HIGH (Under Watch — valuation and cash conversion).** *The promoter-holding gap (53.79% vs 54.79% expected) was not raised on the call.*
+**My read:** the receivables half of the cash question is answered and benign; the liabilities half is not. **The two numbers that matter for the bull case — the margin gain from localisation and the 420/550 kV date — were deliberately left uncommitted.** **Conviction unchanged: HELD at HIGH (Under Watch — valuation and cash conversion).** *The promoter-holding gap (53.79% vs 54.79% expected) was not raised on the call.* **⤴ Answered 5-Nov-2026 from BSE's insider register: a 3,00,000-share market sale on 7-Sep.**
 
 ### 📊 H1FY27 Refresh — Full Numbers Print (21-Oct-2026)
 
@@ -468,6 +484,7 @@ They look like ribbed ceramic cones on top of a substation transformer. **They a
 | **19-Sep-2026** *(filings refresh)* | **₹1,059** | **HELD at HIGH (Under Watch)** — valuation flag sharper | US subsidiary signs a 36-month representation and homologation agreement (Ensales, 19 states; no value stated; RIP/RIS from 2027). Stock +17.7% to 81x with no earnings or order event. |
 
 | **21-Oct-2026** *(H1FY27 results)* | **₹1,160** | **HELD at HIGH (Under Watch)** — pending the call transcript | **Revenue +95%, PAT +166%, ex-OI EBITDA margin 27.5%; order book ₹760cr+ (target ₹500cr+ passed); CFO ₹45cr vs ₹9cr for all FY26 but carried by liabilities and a ₹7.2cr provision add-back, while receivables more than doubled.** Promoter 53.79% on Screener, 1pp below the preferential-issue arithmetic, cause not established. |
+| **5-Nov-2026** *(official transcript + insider register)* | **₹1,270** | **HELD at HIGH (Under Watch)** — promoter selling added | **Machine transcript verified. 🔴 Promoter market sales of ₹42.08cr found (May + 7-Sep), closing the 1pp holding gap and correcting "not by selling". No downgrade trigger fired. Scenarios re-derived: ≈ +16%.** |
 
 **The trajectory in one line.** **v1 got the thesis right and the reporting cadence wrong** — *and the seven weeks since have delivered a record year, a well-priced institutional raise, and a greenfield still four months from its decisive test.*
 
@@ -543,24 +560,55 @@ They look like ribbed ceramic cones on top of a substation transformer. **They a
 **🟢 Upgrade case:** **a successful type test with the first export RIP order booked**, and **CFO/OP recovering above 60%.** *That combination would confirm both unlocks and remove the only two live objections.*
 
 ---
+### 📊 5-Nov-2026 — H1FY27 scored, and the scenarios re-derived
+
+| Trigger set 24-Aug | Reading | Status |
+|---|---|---|
+| Greenfield trial not complete by end-Q2FY27, or type test past H2FY27 | Commercial assembly began 30-Sep; localised core trials *"very, very, very encouraging"*; type test was weeks away on 21-Oct; **no filing yet that it was passed** | ❌ **Not fired, not yet cleared** |
+| H1FY27 revenue below ₹130cr | ₹194.5cr | ❌ |
+| CFO/OP below 40%, or third negative FCF year | CFO ₹45.3cr on EBITDA ex-OI ₹53.6cr, **84%**; H1 FCF ~₹1cr | ❌ *(but ₹37cr came from other liabilities, still unexplained)* |
+| EBITDA margin below 24% | 27.5% ex-OI | ❌ |
+
+**New trigger, on the finding above:** a further promoter market sale of 0.5% or more before the type test result, or any sale by the CMD above his 52,000-share September lot, moves this to a formal review of HIGH.
+
+**Scenarios — re-derived** *(my estimates, from **₹1,270 / ₹3,796cr**, Screener 5-Nov close; ~3.07cr diluted shares; 24-Aug set kept above):*
+
+| Scenario | Prob. | FY28 | PAT × multiple | Value/share | Return |
+|---|---|---|---|---|---|
+| **Base** | **55%** | Revenue ~₹560cr, EBITDA 27%; depreciation ~₹22cr | **₹97cr** (EPS ~₹31.6) × 45x | ~₹1,422 | **≈ +12%** |
+| **Bull** | **25%** | ₹680cr at 29%; localised core passes, RIP exports booked | ₹131cr (EPS ~₹42.7) × 55x | ~₹2,349 | **≈ +85%** |
+| **Bear** | **20%** | Type test slips, new entrants press price; ₹430cr at 23% | ₹58cr (EPS ~₹18.9) × 28x | ~₹529 | **≈ −58%** |
+
+**Weighted 2-year return ≈ +16%** *(0.55 × 12 + 0.25 × 85 − 0.20 × 58)*. **The business numbers went up sharply; the price went up further.** Base FY28 PAT rises ~24% from ₹78cr, while the stock is +41% since 24-Aug.
+
+**Conviction: HELD at HIGH (Under Watch).** The operating record is the best in the sector and every scorecard item was met or beaten. **The watch now has three legs: ~62x trailing, a type test not yet passed, and a promoter family that has sold ₹42cr into the rise.** *That last point is a fact about what they did, not a conclusion about why.*
+
 ## 7. What Could Prove Us Wrong
 
 **🔴 Risk 1 — The greenfield type test.** *This is the single point of failure in the thesis and it deserves the top slot.* Commercial RIP core production requires *"internal trials and then… **the type test**"*, roughly **three to four months after trial production ends at Q2FY27.** **The margin uplift from localisation, the 550 kV range and the export unlock all depend on it.**
+
+> 🕐 **IMMINENT (5-Nov-2026):** bushings were to go for type test within *"next couple of weeks"* of 21-Oct; plant and product approvals guided for Q3. CMD: no localised core ships until type tested. 420/550 kV localised: *"Q4 of '28 or mid-28 max"*.
 > **🕐 ON SCHEDULE, UNTESTED (24-Aug-2026).** *"Key equipment have been received, and installation is in progress, and **on schedule**. Trial production remains on track, with **commercial production targeted in H2** of this ongoing year."* **And the demand is queued behind it:** *"everybody is waiting for the factory to get ready and a successful type test."* **Signal to watch: trial production completing by end-Q2FY27, then the type-test result.**
 
 **🔴 Risk 2 — Cash conversion, which has been deteriorating for four years.** **CFO/OP: 112% → 76% → 75% → 87% → 49% → 42%.** **CFO has been flat at ₹7–14cr for six years while operating profit went from ₹7cr to ₹57cr.** **Free cash flow −₹29cr (FY25) and −₹50cr (FY26).**
+
+> 🟡 **IMPROVED, QUALITY OPEN (5-Nov-2026):** cash cycle 63 days vs 81; receivable days 47, confirmed in the official text; vendor advances explain other current assets. **The ₹37cr rise in other current liabilities was never asked about.**
 > **⚠️ NOT ADDRESSED ON THE CALL.** *No analyst raised it and management did not volunteer it.* **The ₹106cr preferential issue bridges it, and ~₹28–30cr of that was explicitly earmarked for working capital.** ***A 58%-CAGR business absorbing working capital is normal; a six-year trend of falling conversion is the thing to watch if growth ever slows.*** **Signal to watch: CFO/OP at H1FY27.**
 
 **⚠️ Risk 3 — RIP core import-substitution economics don't hold.** If imported core prices fall on Chinese oversupply, or in-house cost runs above plan, the margin capture is smaller than assumed.
 > **🟢 MANAGEMENT'S COUNTER IS SPECIFIC (24-Aug-2026):** *"since we will be **localizing the product in India versus our imported component**, so as such we are seeing **margin expansion at the input stage** also. And also **RIP once we start exports, we'll definitely see some better prices on the export side**. So overall we should be able to **improve our EBITDA going forward irrespective of what happens with the transformer companies' margins.**"* *That last clause — margin independence from customers' own margin cycle — is the claim to test.*
 
 **⚠️ Risk 4 — Growth undershoots.** FY27 is guided at **40–45%**. Even 30% would be strong but would compress a 69x multiple materially.
+
+> ✅ **NOT FOR FY27 (5-Nov-2026).** But H2 is guided level with H1, unlike the usual skew, and depreciation steps up 2.5–3x on the year.
 > **Signal to watch: H1FY27 revenue against ₹100cr last year — ₹130cr+ keeps the guide alive.**
 
 **⚠️ Risk 5 — International expansion is slower than relationships suggest.** **USA subsidiary operational; Widemann and Electrolink partnerships active** — *but these are distribution relationships, not booked orders*, and utility approvals abroad typically run years.
 > ***And note the sequencing: none of this channel could carry RIP product while the import restriction stood.*** **The test is the first export RIP order, not the partnership announcements.**
 
 **⚠️ Risk 6 — Further dilution.** **The preferential issue took promoter holding 57.24% → 54.79%**, and **8,32,177 warrants remain convertible within 18 months** at ₹721 on payment of the 75% balance.
+
+> 🔴 **WIDER THAN DILUTION (5-Nov-2026):** promoters sold on the market as well: 4,81,500 shares for ₹42.08cr across May and 7-Sep. Holding 53.79%; Twinkle Keyur Shah's stake fell 6,48,000 → 3,00,000.
 > **🟢 Mitigating: this was issuance at a premium to a quality institutional book, not promoter selling** — and management guided the size in advance (*"around ₹100 to ₹110 is what we are eyeing"*) and landed at ₹106cr. **Signal to watch: warrant conversion, and any further raise beyond the ₹150cr approval.**
 
 **⚠️ Risk 7 — Customer concentration.** v1 estimated **top 10 customers at 55–65% of revenue**; *no current disclosure exists to confirm or update this.* **Recorded as an unverified carry-forward.**
@@ -573,6 +621,8 @@ They look like ribbed ceramic cones on top of a substation transformer. **They a
 **🆕 Risk 10 — Sukrut is a long fuse with no numbers yet (NEW — 24-Aug-2026).** **₹25–26cr of revenue today against a ₹150–160cr target in four to five years.** Management **explicitly declined to guide on its EBITDA** — *"too early for me to comment. Let me just go through one or two more quarters."* ***Credit the refusal to guess; treat the 5–6x as an ambition rather than a plan.***
 
 **🟢 Risk 11 — the risk of being too cautious (NEW — 24-Aug-2026).** **Every FY26 milestone was met or beaten.** **Revenue has compounded ~58% for five years with margin up 400bps.** **ROCE 28.6% on 0.17x D/E.** **Order book at an all-time high with OIP demand being turned away for want of capacity.** **The greenfield is ~₹80cr spent of ₹153cr, on schedule, with its design range expanded from 220 kV to 550 kV.** **And Malabar, ValueQuest, Motilal Oswal and WhiteOak paid ₹721 three weeks ago after diligence this profile cannot replicate.** ***If the type test passes and the export channel converts, the ₹700cr revenue potential on a ₹235cr base makes 69x trailing the wrong denominator entirely.***
+
+**🆕 Risk 12 — New bushing entrants (5-Nov-2026).** CMD: *"a couple of companies who have announced that they would also come into bushings, apart from the Hitachi and CG type of customers."* He expects a seller's market for *"next 2, 3, 4 years"*. **And he concedes localisation savings (duty plus freight, 18–20%) may be shared with customers if competitors offer Indian product.** **Watch:** the first price cut on an Indian-core bushing.
 
 ---
 
@@ -597,6 +647,8 @@ They look like ribbed ceramic cones on top of a substation transformer. **They a
 ---
 
 ## 9. Community Pulse — 24-Aug-2026
+
+**⤴ 5-Nov-2026 — ValuePickr thread found and read: "Yash High Voltage Ltd : Transformer Guardians" (topic 213822, 57 posts, last active 21-Oct).** *This closes the gap stated below.* 🟡 **#48–56 (9-Sep):** the promoter sale, raised two months before this profile caught it; **@sameernics** pointed at the BSE register, **@Debojit_Kangsa_Banik** guessed profit-booking. 🟡 **#59 @hnk_so (30-Sep):** *"if sentiments changes, overcapacity/over supply scenario"* could de-rate the multiple. 🟢 **#61 @Sudarsan93 (21-Oct):** *"out of park nos"*. **Sentiment: BULLISH on the business, MIXED on price and promoter selling.**
 
 **ValuePickr:** v1 cited a *"Yash Highvoltage thread (last 18 months)"*. **This pass did not re-scan it**, and no post-FY26 community read was located. *Stated as a gap rather than carried forward as though checked.* **Flagged for the next refresh.**
 
@@ -633,6 +685,8 @@ They look like ribbed ceramic cones on top of a substation transformer. **They a
 ---
 
 ## Source Appendix
+
+- **🆕 H1FY27 (5-Nov-2026 rewrite):** **official transcript of the 21-Oct call (filed 26-Oct, read in full)**; BSE insider-trading register, Reg 7(2), read in Chrome 5-Nov; ValuePickr topic 213822; Screener 5-Nov-2026.
 
 - **Concalls read (4 transcripts + 2 decks) — 🔴 the `Fetched Concalls/YASH/` folder did not exist before this pass**, despite v1 citing four concall reads. **Now on disk:** **H2FY26/FY26 (call 14-May-2026 — the primary source for this version)**, H1FY26 (Oct-2025), Jun-2025, Jan-2025; decks May-2026 and Oct-2025.
 - **FY26 Annual Report** (filed 11-Aug-2026, 17.6 MB) — ⤴ **READ 6-Oct-2026** (the earlier "not yet read in full" flag is retired). Section 197 / Rule 5 remuneration disclosure extracted into §5.5; **the Rule 5(1)(iv) employee-vs-managerial increase comparison is blank in the report.**

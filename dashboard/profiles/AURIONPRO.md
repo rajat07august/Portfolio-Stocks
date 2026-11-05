@@ -1,7 +1,7 @@
 # Aurionpro Solutions — Company Profile
 
 **Ticker:** AURIONPRO · **BSE:** 532668 · **NSE:** AURIONPRO · **Sector:** IT / Software & Platforms (Sector 8) — banking software + transit tech + data-centre infrastructure + enterprise AI
-**Conviction:** **MEDIUM (Under Watch)** — downgraded from Medium-High on 28-Jul-2026 when a pre-set trigger fired; **held at Medium on 22-Aug-2026** after reading the Q1FY27 transcript, with the watch trigger tightened (§6).
+**Conviction:** **MEDIUM (Under Watch)** — downgraded from Medium-High on 28-Jul-2026 when a pre-set trigger fired; **held at Medium on 22-Aug-2026** after reading the Q1FY27 transcript, with the watch trigger tightened (§6). **⤴ Held at MEDIUM (Under Watch) again on 5-Nov-2026 on the Q2FY27 transcript, with a first cash target to test.**
 **Thesis date:** 22-Aug-2026 · **CMP ₹696** (Screener, 22-Aug-2026) · **Market cap ₹3,844 cr**
 
 **Concall Fetch Gate: ✅ GREEN — 7 transcripts + 2 decks.** Q1FY27 (Jul-2026, filed 3-Aug-2026 — *the document the 28-Jul refresh flagged as missing*), Q4FY26 (Jun-2026), Q3FY26 (Feb-2026), Q2FY26 (Nov-2025), Q1FY26 (Jul-2025), Q4FY25 (Jun-2025), plus the **48-page Investor Day deck (10-Jun-2026)** and the Q4FY26 PPT (May-2026). All text-extracted and read.
@@ -12,8 +12,14 @@
 **📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 576** · market cap ₹ 3,182 Cr. · P/E 15.6x · ROCE 16.3 % · ROE 13.2 % · 52-wk ₹ 1,200 / 514 · **vs ₹696 at baseline (-17.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟡 Q2: revenue +16% to a record ₹415cr, EBITDA flat, PAT −11%; order book ₹2,050cr; 3 dormant WOS merging in · (earlier: 🆕 ⚪ Mastercard transit-payments partnership (no value); results 31-Oct · (earlier: 🟢 Matkahuolto (Finland) cEMV device win; Q2 call 2-Nov · (earlier: 🟢🟢 ₹150cr follow-on data-centre order from a global hyperscaler — the third in under a year, taking the relationship close to ₹300cr · (earlier: Nothing filed; the SEBI PIT show-cause notice remains open · (earlier in window: Integro Lending named category leader in five Chartis 2026 quadrants; FY26 annual report filed; no order or governance event; stock −1.4% at 18x)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 5-Nov-2026</span> <span class="upd-sum">🆕 🟡 Q2 call read: record ₹415cr is all hardware (equipment +₹103cr QoQ, software −₹46cr); H1 CFO −₹80cr, debt tripled; margin band back at 17–18%, first cash target 60–70% · (earlier: 🆕 🟡 Q2: revenue +16% to a record ₹415cr, EBITDA flat, PAT −11%; order book ₹2,050cr; 3 dormant WOS merging in · (earlier: 🆕 ⚪ Mastercard transit-payments partnership (no value); results 31-Oct · (earlier: 🟢 Matkahuolto (Finland) cEMV device win; Q2 call 2-Nov · (earlier: 🟢🟢 ₹150cr follow-on data-centre order from a global hyperscaler — the third in under a year, taking the relationship close to ₹300cr · (earlier: Nothing filed; the SEBI PIT show-cause notice remains open · (earlier in window: Integro Lending named category leader in five Chartis 2026 quadrants; FY26 annual report filed; no order or governance event; stock −1.4% at 18x))))))</span></summary>
 <div class="upd-body">
+
+**🟡 5-Nov-2026 — Q2FY27 call read (transcript filed today): a record quarter that is mostly data-centre hardware, with cash trailing**
+**Revenue ₹415cr (+16%), EBITDA 17.2% (20.1%), PAT ₹50cr (−11.4%).** The filed split shows equipment and licences ₹85cr → ₹189cr QoQ while software services fell ₹273cr → ₹226cr. **H1 CFO −₹79.6cr; short-term borrowings ₹50cr → ₹151cr.** Rai admits *"a bit of struggle in terms of controlling the cash and unbilled side"* on the large data-centre orders. **Guidance half-returns:** 17–18% margin for FY27–28 and OCF/EBITDA of 60–70% for FY27 are now on record; revenue guidance stays withheld.
+> **Why it matters:** Disclosure moved forward, but the numbers do not yet confirm the mix defence of the margin: equipment nearly doubled its share and margin did not move. The 60–70% target is the first thing in months that can be scored: it needs ~₹260–290cr of H2 operating cash *(my arithmetic)*.
+
+*Sources: official transcript (filed 5-Nov), results, deck, press release; Screener 5-Nov-2026 close.*
 
 **🟡 23-Oct → 4-Nov-2026 — Q2FY27: record revenue ₹415cr (+16%) but EBITDA flat and PAT −11%; three subsidiaries to merge in**
 **Q2FY27 (31-Oct, press release + deck).** Revenue **₹415cr, +16.0% YoY** (Banking & Fintech ₹201cr, TIG ₹214cr); EBITDA **₹71cr vs ₹72cr**, margin 17.2%; PAT **₹50cr** (12.1%), −11% YoY on Screener. H1 revenue ₹751cr. **Order book ₹2,050cr**; 28 new logos in the quarter (incl. a six-year iCashpro+ licence with Ujjivan SFB).
@@ -232,6 +238,14 @@ The four legs, as management now groups them:
 | **New wins post-quarter** | 30-Jul / 13-Aug-2026 | **MMRDA Mumbai Metro Line 5 AFC ~₹50cr**; **hyperscale DC operator, Navi Mumbai, ~₹100cr** | ✅ **Demand confirmed** |
 | Promoter encumbrance | FY26 declaration | **No encumbrance created** (Reg 31(4), 07-Apr-2026) | ✅ Clean |
 | **SEBI PIT show-cause raised on the call?** | 28-Jul-2026 | **Not once.** The only occurrence of "SEBI" in the transcript is the LODR boilerplate in the cover letter | 🔴 **Unexamined** |
+| *(5-Nov)* **H2 acceleration** *(from Jul-26)* | 28-Jul-2026 | Q2 +16% QoQ, ahead of H2. *"H2 would be a lot stronger than H1"* | 🕐 **On course; the test is Q3/Q4** |
+| *(5-Nov)* **Margin range** *(declined in Jul-26)* | Q2FY27 | Asked *"17%-18% margin band for 2027 and 2028"*: *"Yes, I think that is what I would expect"*; *"don't plan any meaningful expansion"* | 🟢 **Informal floor restored, at a lower level than the 20–21% band it replaces** |
+| *(5-Nov)* **Revenue guidance** | Q2FY27 | *"No, I don't think so… we don't think a player of our size should be giving guidance"* | 🔴 **Still none** |
+| *(5-Nov)* **🆕 FY27 OCF/EBITDA 60–70%** | Q2FY27 | *"something between 60% and 70% is doable"*. H1 is −₹79.6cr | 🕐 **New and scoreable** |
+| *(5-Nov)* R&D intensity peaked in H1 | Q2FY27 | Trade finance launched; intangibles under development ₹76cr → ₹18cr | 🕐 **Early evidence** |
+| *(5-Nov)* DC growth *"above the recent 40–50%"* | 28-Jul-2026 | Now *"70%-80%, if not more"*; DC 40–50% of TIG this year | ✅ **Raised** |
+| *(5-Nov)* MEA significant wins | Q2FY27 | *"before the year is out"* | 🕐 |
+| *(5-Nov)* **SEBI PIT show-cause raised on the call?** | 2-Nov-2026 | **Not once, third call running** ("SEBI" appears only in the cover letter) | 🔴 **Unexamined** |
 
 **🟡 The most important quote in the file, and it is management's own.** Rai, in his opening remarks, on the H2-acceleration promise he was about to make:
 
@@ -334,6 +348,8 @@ And again, later, unprompted:
 
 ### Segment shape (from the Q1FY27 call — management does not report segment revenue)
 
+> **⤴ UPDATED 5-Nov-2026:** the Q2 press release gives **Banking & Fintech ₹201cr (48%), TIG ₹214cr (52%)**. *The heading's "does not report" is no longer fully true at this level; segment margins are still not published, so Risk 14 stays open.* Data centre stays unsized in rupees: *"we do not declare sub-segment revenues"*.
+
 Rai gave the only sizing on record, and it is approximate by his choice:
 
 > *"Data center roughly is a third of the TIG business, which itself is like 45% of the enterprise business."*
@@ -341,6 +357,8 @@ Rai gave the only sizing on record, and it is approximate by his choice:
 That implies **DC ≈ 15% of group revenue (~₹54cr in Q1FY27)**, **TIG ≈ 45% (~₹161cr)**, banking + AI ≈ 55%. He declined to be more precise: *"we don't really declare numbers at that level."* **🔴 Flagged as a disclosure gap: a four-legged company with four very different margin structures does not publish segment revenue or segment margin.** This is the reason the margin compression cannot be independently attributed by an outside reader.
 
 ### FY27 outlook
+
+> **⤴ UPDATED 5-Nov-2026:** revenue guidance is still absent, but a margin band and a cash target now exist. See the Q2 print below.
 
 **There is none, and that is the finding.** Verbatim:
 
@@ -354,6 +372,49 @@ That implies **DC ≈ 15% of group revenue (~₹54cr in Q1FY27)**, **TIG ≈ 45%
 **What management will say directionally:** H2 > H1 (with his own caveat attached); data-centre growth *"above the recent 40–50% trajectory"*; R&D held at **10.5–11%**; software margins improve *"over time"* as build-out capacity shifts to implementation; the $33M US fintech engagement carries **no pass-through revenue** (i.e. it is all Aurionpro revenue, not hardware resale).
 
 ---
+### 📊 Q2FY27 Refresh — Full Numbers Print (5-Nov-2026)
+
+*Sources: results and press release (31-Oct), deck (1-Nov), official transcript of the 2-Nov call (filed 5-Nov, read in full). Equipment revenue for Q2 derived as total less software because the scan garbled that cell; it reconciles to the filed H1 figure.*
+
+| ₹ cr, consolidated | Q2FY26 | Q1FY27 | **Q2FY27** | YoY |
+|---|---|---|---|---|
+| Revenue | 358 | 358 | **415** | **+16.0%** |
+| EBITDA | 72 (20.1%) | 61 (17.2%) | **71 (17.2%)** | −1.0% |
+| D&A · finance cost | 10 · 1 | 11 · 4 | 14 · 5 | |
+| Other income | 10 | 7 | 9 *(₹6cr is forex)* | |
+| PBT | 70 | 52 | **61** | −13.1% |
+| **PAT** | **57** | **45** | **50** | **−11.4%** |
+
+**H1FY27:** revenue ₹773cr (+11.3%), EBITDA ₹133cr (−5.3%, 17.2% vs 20.2%), PAT ₹95cr (−11.9%). **Order book ₹2,050cr**, about two-thirds TIG, data centre *"north of 30%"*; 70–75% executable over 4–6 quarters, down from ~80%. AMCs are outside it.
+
+> **🔴 The misleading metric: "highest-ever quarterly revenue".** The filed revenue split:
+
+| ₹ cr | Q2FY26 | Q1FY27 | **Q2FY27** |
+|---|---|---|---|
+| Software services | 207.0 | 272.7 | **226.2** |
+| Equipment and product licences | 150.6 | 85.4 | **188.8** |
+| Equipment share | 42% | 24% | **45%** |
+
+**Sequentially, equipment added ₹103cr and software lost ₹46cr.** So the record is a project-mix event. Rai: *"I would not see this as a trend"*, and he expects banking licences and software to rise in H2. *The line mixes trading equipment with product licences, so it cannot be read purely as hardware; management attributes the shift to data centre.*
+
+**The cash:**
+
+| ₹ cr | 31-Mar-26 | **30-Sep-26** |
+|---|---|---|
+| Borrowings | 51 | **153** |
+| Cash + other bank balances | 205 | 173 |
+| Inventories | 33 | **89** |
+| Trade receivables | 376 | 418 |
+| Other financial assets (current) | 310 | **416** |
+| Other current assets | 305 | **389** |
+| Trade payables | 104 | 202 |
+
+**H1 CFO −₹79.6cr (H1FY26 −₹87.3cr)**, working capital −₹196.7cr. **So H1 is usually negative: it was −₹87cr a year ago and FY26 still closed at +₹56cr.** The H1 test this profile set (CFO/OP above 60%) failed, but it was the wrong test for this business's seasonality *(my judgement)*. The unbilled figure was requested and refused: *"if you have not declared the number, I think it's hard for me to… mention that"*.
+
+**What management said about the strain:** *"one or two very, very specific deals"* on data centre, *"contractual issues in terms of being able to bill"*, cost *"ahead of the revenue"*, and *"we have not delivered contracts of this scale before"*. Rai says it is *"well under control in Q3"*. *My arithmetic on the 60–70% target: on FY27 EBITDA near ₹300cr it means FY27 OCF of ₹180–210cr, so **H2 must deliver ₹260–290cr**, against ₹143cr in H2FY26.*
+
+**R&D and amortisation:** intangibles under development ₹76cr → ₹18cr as products were capitalised into other intangibles (₹137cr → ₹217cr), D&A +36% YoY. Rai: capitalisation has *"tapered off"*, not gone to zero. **Expect more of the R&D run-rate to hit the P&L or be diverted to billable work.** Three wholly-owned subsidiaries are being merged into the parent (no cash effect).
+
 ## 5. Connecting the Dots
 
 **Thread A — the R&D build is the margin.** Aurionpro is expensing 10.5–11% of revenue rebuilding its banking stack for agentic AI. Rai will not cut it to rescue a quarter. That single decision explains the 300bp OPM compression, the −₹114cr FCF, and the withdrawn guidance, all at once. **Everything else in this profile is downstream of it.**
@@ -378,6 +439,7 @@ That implies **DC ≈ 15% of group revenue (~₹54cr in Q1FY27)**, **TIG ≈ 45%
 | **16-Jul-2026** *(refresh)* | ₹743 | **MH — under review** | Q4FY26 re-read. Weakest quarter in 13. **US$33M three-year fintech engagement (21-May)** validated the US pivot; **SEBI PIT show-cause notice (29-May)** landed as the first governance signal in the file. FY26 CFO −64%. A downgrade trigger was set for the Q1FY27 print. |
 | **28-Jul-2026** *(refresh)* | ₹748 *(−10.4% on the day)* | **MH → MEDIUM (Under Watch)** | Q1FY27 numbers: revenue +6.2%, **OPM 17.0% — below the 20% floor restated one quarter earlier**, PAT −11.8%. Trigger fired. The refresh named the pattern: *"candour is high; calibration is not."* Left one instruction: read the transcript when it files. |
 | **22-Aug-2026** *(this profile)* | **₹696** | **MEDIUM (Under Watch) — held, trigger tightened** | Transcript filed 3-Aug and read. **Guidance withdrawn on both revenue and margin** — the 28-Jul watch item asked whether the bands would be revised down; they were abolished. Two post-quarter wins (**MMRDA ₹50cr**, **hyperscale DC ₹100cr**) confirm demand is intact. The **10-Jun-2026 Investor Day** — a 48-page filed deck absent from every prior version of this profile — is incorporated (§6). Retail shareholder count **+75% in five quarters** while the stock halved. |
+| **5-Nov-2026** *(Q2FY27 + call)* | **₹590** | **MEDIUM (Under Watch) — held** | **Q2 +16% QoQ to a record, but all from equipment; margin 17.2%, PAT −11%. H1 CFO −₹80cr and debt tripled, on admitted data-centre billing strain. 17–18% band and a 60–70% OCF target now on record. FII −1.1pp. Weighted ≈ +19%.** |
 
 **The trajectory in one line.** In seven weeks the stock fell 21% and the *thesis* did not change — what changed is that **the instrument used to test the thesis was withdrawn by the company being tested.**
 
@@ -441,6 +503,22 @@ The **10-Jun-2026 Investor Day** (48-page deck, filed with both exchanges; video
 **Why this is still a Medium and not a downgrade.** Conviction here measures **confidence in the estimate, not the size of it**. The expected return is high mainly because the stock has halved. What has *not* deteriorated: order intake (two wins in three weeks), the balance sheet (₹61cr debt against ₹1,738cr net worth), FII conviction (no selling through a 49% drawdown), promoter encumbrance (nil), and disclosure honesty (unusually high). What has deteriorated: the ability to test any of it against a stated plan. **A cheap, wide, honestly-described but now-unscoreable distribution is a Medium.**
 
 ---
+### 📊 5-Nov-2026 — Q2FY27 scored, and the scenarios re-derived
+
+**The §8 watch list:** H1 CFO/OP above 60% — ❌ (negative; seasonal, see §4) · segment disclosure — 🟡 (business-line revenue yes, margin no) · guidance reinstated — 🟡 (margin and cash yes, revenue no) · H2 acceleration — 🕐 · SEBI PIT show-cause — 🔴 (still unasked).
+
+**Scenarios — re-derived** *(my estimates, from **₹590 / ₹3,264cr**, Screener 5-Nov close; 22-Aug set kept above):*
+
+| Scenario | Prob. | FY28 | PAT × multiple | Mcap | Return |
+|---|---|---|---|---|---|
+| **Base** | **50%** *(was 55%)* | FY27 revenue ~₹1,720cr; FY28 ~₹2,100cr at 17.5% EBITDA | **₹257cr** × 15x | ₹3,855cr | **≈ +18%** |
+| **Bull** | **22%** | AI-native banking wins land, DC products lift margin; ₹2,400cr at 18.5% | ₹319cr × 20x | ₹6,380cr | **≈ +95%** |
+| **Bear** | **28%** *(was 23%)* | DC billing strain persists, margin 15% on ₹1,800cr, cash stays negative | ₹164cr × 12x | ₹1,968cr | **≈ −40%** |
+
+**Weighted 2-year return ≈ +19%** *(0.50 × 18 + 0.22 × 95 − 0.28 × 40)*, against +31% on 22-Aug. The base multiple falls from 19x to 15x: a mix tilting to low-margin project revenue does not earn a product multiple until the cash shows.
+
+**Conviction: HELD at MEDIUM (Under Watch).** Revenue is moving and the plan is scoreable again. Cash has not turned. **M → ML if:** FY27 OCF/EBITDA is below 40%, borrowings are above ₹150cr at Mar-27, or Q3 margin is below 16%. **Watch lifts if:** FY27 OCF/EBITDA reaches 60%, borrowings fall back toward ₹50cr and the first AI-native banking win is announced.
+
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — Middle East disruption prolongs into FY27.**
@@ -451,13 +529,19 @@ The **10-Jun-2026 Investor Day** (48-page deck, filed with both exchanges; video
 > **⚠️ ACCUMULATING (22-Aug-2026)** — Still pre-revenue and still consuming the capacity that would otherwise convert the order book: *"We are completing key build outs across our AI native banking portfolio, beginning with trade finance… This absorbs capacity today but creates a reusable platform over time."* Trade finance is launched; the rest is not. **The risk is no longer that it fails technically — it is that the payback arrives a year later than the P&L needs it to.**
 
 **Risk 3 — Data-centre execution issues persist.**
+
+> ⚠️ **NOW ACCUMULATING (5-Nov-2026), REVERSING THE 22-AUG ✅:** demand is strong, but delivery strain is admitted: *"a bit of struggle in terms of controlling the cash and unbilled side"*, *"contractual issues"*, and capacity to execute is *"the variable"*.
 > **✅ TRACKING WELL (22-Aug-2026)** — Execution *started* on the largest-ever DC project in Q1FY27, and a further **~₹100cr hyperscale-operator mandate (Navi Mumbai) landed 13-Aug-2026**. Management expects growth *"above the recent 40–50% trajectory."* This leg is the one working.
 
 **Risk 4 — Margin compression from investment intensity.**
+
+> 🟡 **A FLOOR IS BACK, LOWER (5-Nov-2026):** 17–18% for FY27–28, *"don't plan any meaningful expansion"*. A faster data-centre ramp could press it further, which Rai calls *"optical"*.
 > **⚠️ MATERIALIZED (28-Jul-2026)** — Q1FY27 OPM **17.0%** against a 20–21% band restated one quarter earlier.
 > **⚠️ NOW UNBOUNDED (22-Aug-2026)** — the band no longer exists. Asked directly for any range — *"mid-teens 17% or what would you clarify? A range will also do"* — management gave none. **There is now no stated floor under the margin.**
 
 **Risk 5 — Working-capital / cash-conversion blow-up from large projects.**
+
+> ⚠️ **STILL THE KEY TEST (5-Nov-2026):** H1 CFO −₹79.6cr, borrowings ₹51cr → ₹153cr, inventories 2.7x. **Now scoreable against management's own 60–70%.**
 > **⚠️ MATERIALIZED (22-Aug-2026)** — FY26 **CFO ₹56cr vs ₹157cr (−64%)**, **CFO/OP 38%** against a five-year average near 70%, **FCF −₹114cr**, net cash flow −₹102cr. The 16-Jul refresh set the test as *"Q1FY27 CFO must show sequential improvement"*; **quarterly cash flow is not disclosed, so the test cannot be run until the H1FY27 or FY27 statement.** Stated as a gap, not resolved by inference. **This remains the single cleanest validation of the thesis and the primary trigger below.**
 
 **Risk 6 — Foundation-model providers undercut the BFSI positioning.** *(No update — thesis unchanged. Management's counter is that domain depth, data trust and accountability become more valuable, not less, as models commoditise.)*
@@ -474,6 +558,8 @@ The **10-Jun-2026 Investor Day** (48-page deck, filed with both exchanges; video
 > **⚠️ ACCUMULATING, AND WORSE THAN WHEN FIRST WRITTEN (22-Aug-2026)** — shareholder count **31,827 → 55,618 in five quarters (+75%)** while the stock fell ~49%. Public holding 55.65%. **The retail base did not exit the drawdown; it doubled into it.** CMP ₹696 sits 2.4% above the 52-week low of ₹680.
 
 **Risk 11 — SEBI PIT show-cause notice.** Annual Secretarial Compliance filing 29-May-2026 discloses one PIT show-cause notice, LODR delay fines (₹11,800 — trivial), and a past board-composition lapse. A show-cause is not an adverse order.
+
+> 🔴 **STILL UNEXAMINED (5-Nov-2026):** the third call since disclosure; no mention by anyone, no filing on an outcome.
 > **🔴 UNEXAMINED — AND THAT IS ITSELF THE FINDING (22-Aug-2026)** — I term-swept the full Q1FY27 transcript: **the only occurrence of "SEBI" is the LODR boilerplate in the covering letter, and "show cause" appears zero times.** Not one analyst on either of the two calls since the disclosure has asked about it, and the company has volunteered nothing further. **Unresolved for nearly three months, with no disclosure and no scrutiny.** Signal to watch: any SEBI order; any further PIT disclosure.
 
 **Risk 12 — De-rating / value-trap dynamics.**
@@ -484,12 +570,18 @@ The **10-Jun-2026 Investor Day** (48-page deck, filed with both exchanges; video
 > **🔴 SUPERSEDED BY SOMETHING WORSE (22-Aug-2026)** — the 28-Jul question was *"will the Q1FY27 call formally revise the bands, or restate them and miss again?"* **Neither. The bands were withdrawn.** *"We are not getting into a guidance for the full year on either the revenue or the margin."*
 
 **Risk 14 — Structural margin erosion, not cyclical.** Annual OPM: FY22 22% → FY23 22% → FY24 22% → FY25 21% → FY26 20% → **Q1FY27 17%**. Four years of compression *before* the MEA war — the geopolitical explanation covers the acceleration, not the trend.
+
+> 🔴 **THE MIX DEFENCE IS NOT CONFIRMED (5-Nov-2026):** if low-margin equipment explains the compression, margin should have fallen as equipment went from 24% to 45% of revenue, and a low-equipment Q1 should have been richer. **Both quarters printed 17.2%.** Something else moved (R&D capitalisation, project mix within software) or mix is not the whole story *(my inference)*. Segment margins would settle it; they are still not published.
 > **🟡 A COMPETING EXPLANATION IS NOW ON RECORD (22-Aug-2026)** — Rai's account is mix, not erosion: *"different businesses have very different economic profiles"*; the data-centre leg is deliberately lower-margin but **near-zero-capital**, so it dilutes OPM while lifting return on capital. **This is a coherent and testable defence — and it cannot be tested, because the company publishes no segment revenue or segment margin.** Both readings remain live. Signal to watch: **any segment-level disclosure would resolve this risk in one filing.**
 
 **Risk 15 — Indian institutions won't own it.** DII **1.47%** against FII 16.02%, public 55.65%, promoter 26.86%. Flagged independently on ValuePickr in Feb-2026, *before* the PIT show-cause surfaced.
+
+> ⚠️ **FIIs NOW SELLING (5-Nov-2026):** FII 16.02% → **14.95%** in the September quarter (Screener), the first real move; DII 1.63%. The 22-Aug reassurance that FIIs *"did not sell"* no longer holds. Shareholders 57,407.
 > **⚠️ UNCHANGED (22-Aug-2026)** — DII ticked 1.25% → 1.47%, statistically nothing. FII did **not** sell through the drawdown (16.29% → 16.02%), which is the encouraging half.
 
 **🆕 Risk 16 — There is no longer a scoreable plan (NEW — 22-Aug-2026).** With revenue and margin guidance both withdrawn, the delivery scorecard in §3.5 — the instrument this framework relies on most — has nothing forward-looking to score for FY27. The only stated expectation is qualitative H2 acceleration, and **management has pre-emptively discounted it themselves**: *"I have made that statement every single year for the last five years… it's been proven true four years out of five, but last year that was not true."* Signal to watch: whether guidance is reinstated at Q2 or Q3FY27. **Reinstating a range would be a genuine positive signal in its own right, independent of the number.**
+
+> 🟡 **PARTLY RESOLVED (5-Nov-2026):** a margin band and a cash target exist; revenue has none.
 
 **🆕 Risk 17 — Growth has been substantially inorganic, and the acquisition engine has stopped (NEW — 22-Aug-2026).** The ~32-33% historical CAGR that underwrites the long-range framing was built on a run of acquisitions across FY21-FY25, funded by the ₹265cr and ₹283cr financing inflows visible in FY24 and FY25. **FY26 financing was −₹5cr.** *This is my inference, not a management statement:* organic growth has not yet been demonstrated at anything like the acquired rate, and FY27's flat top line is the first clean look at the underlying business without an acquisition contributing. Signal to watch: whether any FY27 growth is organic, and whether the company returns to the acquisition market.
 
@@ -511,6 +603,8 @@ The **10-Jun-2026 Investor Day** (48-page deck, filed with both exchanges; video
 
 ## 9. Community Pulse — 22-Aug-2026
 
+**⤴ 5-Nov-2026:** ValuePickr topic 103941 now 99 posts; one new post, **#108 @vikasbargale (19-Oct):** *"how come the market is punishing this business?"* Nothing yet on Q2. The call was busy and pointed: cash, borrowings, unbilled, receivables and capitalisation were all raised by named analysts. **Sentiment: MIXED**, shifting from the margin to the cash.
+
 **ValuePickr — "Aurion Pro: Yet another IP product company?" (topic 103941, 98 posts, last active 12-Aug-2026).** ✅ **Genuinely live** — six posts since the 28-Jul refresh, the thread's most active stretch in months.
 
 - 🟡 **#106 @Rocky_Chow (12-Aug-2026)** — the most substantive post in the thread. Works the FY30 arithmetic: *"To get from that ₹358 Cr quarterly run-rate to a ₹1,250 Cr quarterly run-rate (₹5,000 Cr annualized) by Q4 FY30 — roughly 15 quarters out — you need close to 8.5-9% sequential quarterly growth, compounded, for nearly four straight years… That's not a small gap — it's the difference between 'aggressive but plausible' and 'requires everything to go right, immediately.'"* Correctly separates the TAM/SOM language from a revenue commitment. **See §6 — I could not source the ₹5,000cr target to the filed deck at all.**
@@ -527,6 +621,8 @@ The **10-Jun-2026 Investor Day** (48-page deck, filed with both exchanges; video
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (5-Nov-2026 rewrite):** **official transcript of the 2-Nov call (filed 5-Nov, read in full)**; results and press release 31-Oct; deck 1-Nov; amalgamation filing 31-Oct; Mastercard press release 22-Oct noted; ValuePickr topic 103941; Screener 5-Nov-2026.
 
 - **Concalls read (7 transcripts, all raw, all text-extracted):** **Q1FY27 (call 28-Jul-2026, transcript filed 3-Aug-2026 — primary source for this version)**, Q4FY26 (12-May-2026), Q3FY26 (Feb-2026), Q2FY26 (Nov-2025), Q1FY26 (Jul-2025), Q4FY25 (Jun-2025).
 - **Investor decks:** **Investor Day deck, 10-Jun-2026 (48 pages)** — filed with BSE and NSE; incorporated for the first time in this version. Video recording of the Investor Day filed 11-Jun-2026 (`youtu.be/rCZHClH2Ff0`) — **not watched; noted as a gap** relevant to the ₹5,000cr question in §6. Q4FY26 investor presentation (May-2026).

@@ -2,7 +2,7 @@
 
 **Ticker:** SSWL · NSE: SSWL · BSE: 513262 · ISIN INE802C01033
 **Sector:** 3 — Auto Components & Forgings · **Conviction:** **High**
-**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 21-Aug-2026)* · **Tracking since:** 3-Jul-2026
+**Thesis current as of:** 5-Nov-2026 *(Q2FY27 call read; last full rewrite 21-Aug-2026)* · **Tracking since:** 3-Jul-2026
 
 **CMP ₹305** · **Market cap ₹4,793 cr** · **P/E 22.6x** · **P/B 2.65x** (BV ₹115) · **ROCE 14.8%** · **ROE 11.1%** · **Div yield 0.41%** · Face value ₹1 · ~15.7 cr shares
 *(Screener consolidated, 21-Aug-2026)*
@@ -15,8 +15,15 @@
 **📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 537** · market cap ₹ 8,421 Cr. · P/E 28.7x · ROCE 14.8 % · ROE 11.0 % · 52-wk ₹ 559 / 169 · **vs ₹305 at baseline (+76.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟢 October net turnover ₹647cr (+55.6%), fourth record month; exports +179%; Q2 transcript filed · (earlier: 🆕 🟢 Q2FY27: revenue +61% (~+49% ex ₹140cr supplementary billing), PAT +229%, volume +23.5%, EBITDA/wheel ~₹398; receivables +50% in H1; ₹1,400cr greenfield; stock +20% · (earlier: ⚪ Q2 results 23-Oct, call 26-Oct · (earlier: 🟢🟢 HIGHEST-EVER MONTHLY REVENUE — September net turnover ₹625.81cr, +52.41% YoY, on record volume +22%; anchors the highest-ever Q2FY27 and H1FY27 · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: August a second record month (+53.6% YoY); borrowing limit to be raised ₹2,000cr → ₹3,500cr; promoter buying in the open market; stock +22%)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 5-Nov-2026</span> <span class="upd-sum">🆕 🔴 CORRECTED: "Hyundai 74% of business" was a misread — it is SSWL's share of Hyundai's alloy-wheel buying; Q2 call read, EBITDA/wheel ₹404, scenarios re-derived · (earlier: 🆕 🟢 October net turnover ₹647cr (+55.6%), fourth record month; exports +179%; Q2 transcript filed · (earlier: 🆕 🟢 Q2FY27: revenue +61% (~+49% ex ₹140cr supplementary billing), PAT +229%, volume +23.5%, EBITDA/wheel ~₹398; receivables +50% in H1; ₹1,400cr greenfield; stock +20% · (earlier: ⚪ Q2 results 23-Oct, call 26-Oct · (earlier: 🟢🟢 HIGHEST-EVER MONTHLY REVENUE — September net turnover ₹625.81cr, +52.41% YoY, on record volume +22%; anchors the highest-ever Q2FY27 and H1FY27 · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: August a second record month (+53.6% YoY); borrowing limit to be raised ₹2,000cr → ₹3,500cr; promoter buying in the open market; stock +22%))))))</span></summary>
 <div class="upd-body">
+
+**🔴 5-Nov-2026 — Q2FY27 call read; a four-month-old error in this profile corrected**
+**The profile's top risk was wrong.** *"Hyundai is 74% of business"* (16-Jul onward) misread a deck slide: the customer boxes show **SSWL's share of each customer's wheel purchases**, not each customer's share of SSWL. The seven alloy boxes sum to 399%. **SSWL's real customer concentration is not disclosed in anything read.** Corrected inline, original kept, logged in 5.5(d).
+**Call (26-Oct, transcript filed 30-Oct, read):** EBITDA/wheel **₹404** against a ₹310 guide, called sustainable; ₹183cr of supplementary billing is April–September only and has *"no bearing"* on EBITDA (MD's statement); alloy capacity debottlenecked +10% to 5.4m; the ₹1,400cr greenfield may include *"strategic investments from strategic partners"*.
+> **Why it matters:** The risk that shaped the valuation discount was not real, but neither is it replaced by a known number. **Scenarios re-derived at ₹531: weighted ≈ +9% over two years** — the business has run far ahead of the 21-Aug targets and the price has run with it.
+
+*Sources: official Q2FY27 transcript, deck (page 24 rendered), results, October monthly update; Screener 5-Nov-2026 close.*
 
 **🟢 23-Oct → 4-Nov-2026 — October: a fourth straight record month — net turnover ₹647cr, +55.6%; Q2 transcript filed**
 **2-Nov (rendered — the text layer is garbled):** October net turnover **₹647.05cr, +55.58% YoY** (gross ₹753.65cr, +56.69%) — above September's record ₹625.81cr. Exports **+179% by value, +106% by volume**; CVs +41% volume; aluminium wheels +26% volume / +66% value; 2/3-wheelers +54% volume. **Q2FY27 transcript filed 30-Oct** (results, the ~₹1,400cr greenfield plant and the hot-stamping launch were recorded on 23-Oct).
@@ -175,7 +182,7 @@ The useful analogy is a **tyre-maker's quieter twin**. Tyres are a consumer bran
 
 **Where SSWL sits.** The closest listed comparable is **Wheels India**; the wider precision-components cohort is **Bharat Forge, Sundram Fasteners, Endurance Technologies and Sansera Engineering** (Section 6).
 
-> **On the peer framing — a correction that matters.** SSWL's genuine advantage over Wheels India is **scale and aluminium lead**, not customer diversification. Wheels India sells across seven end markets with none above 22% and runs part of its book as **no-raw-material conversion work** (customer-supplied material, billed on machining value-add), an economic model SSWL does not have. **SSWL is the concentrated one — Hyundai at 74% of business.** See Risk 9 and 5.5(d).
+> **On the peer framing — a correction that matters.** SSWL's genuine advantage over Wheels India is **scale and aluminium lead**, not customer diversification. Wheels India sells across seven end markets with none above 22% and runs part of its book as **no-raw-material conversion work** (customer-supplied material, billed on machining value-add), an economic model SSWL does not have. ~~**SSWL is the concentrated one — Hyundai at 74% of business.**~~ **⤴ CORRECTED 5-Nov-2026: that figure was a misread (see 5.5(d)).** SSWL's revenue concentration is undisclosed, so whether it is more concentrated than Wheels India cannot be said from the filings read. See Risk 9 and 5.5(d).
 
 ---
 
@@ -197,7 +204,7 @@ The useful analogy is a **tyre-maker's quieter twin**. Tyres are a consumer bran
 
 **Where the moat is weaker — stated plainly:**
 - **Not a pricing moat in the usual sense.** OEMs hold the whip hand; the FY27 pass-through took two years to win and can be ground back.
-- **Customer concentration is severe** — Hyundai 74%.
+- ~~**Customer concentration is severe** — Hyundai 74%.~~ **⤴ CORRECTED 5-Nov-2026:** 73–74% is SSWL's share of Hyundai's alloy-wheel purchases, not Hyundai's share of SSWL. Concentration is undisclosed.
 - **Capital intensity is high and permanent.** ₹828cr of borrowings (consolidated), ~₹600cr of capex this year, ROE 11.1%, **Debt/EBITDA ~1.5x**.
 - **🔴 Steel wheels are 63% of revenue and their utilisation is drifting down** — 82% (FY23) → 72% → 78% → 77% → **76% (Q1FY27)** — on flat capacity. The premium mix shift is real but it is diluting a base that is not itself tightening.
 
@@ -264,6 +271,13 @@ The useful analogy is a **tyre-maker's quieter twin**. Tyres are a consumer bran
 | Alloy capacity **62 lakh FY27E** | Q4FY26 | Q1FY27 deck confirms 62 lakh; utilisation 80% | ✅ On track |
 | Knuckle capacity **11 lakh FY27E** (2.2x from 5 lakh) | Q4FY26 | Deck confirms; Q1FY27 revenue ₹23cr | ✅ On track |
 | Bhuj commissioning | Q4FY26 | Guided **trial production Q4FY27**; *"progressing as planned"*, no slip disclosed | 🕐 **Live milestone** |
+| *(5-Nov)* **FY27 revenue growth >20%, EBITDA/wheel >₹310** *(as the MD restated them on the Q2 call)* | Start of FY27 | **H1 revenue +44%; EBITDA/wheel ₹362 for H1, ₹404 in Q2** | ✅ **Beat by a distance** |
+| *(5-Nov)* Non-raw-material cost recovery from OEMs *"as mentioned on the last call"* | Q1FY27 (Jul-2026) | **Received** — *"you have to cover our costs… otherwise, I won't invest"* | ✅ **Delivered, and it is the margin story** |
+| *(5-Nov)* FY27 exports ~₹600cr | Q4FY26 | H1 ₹314cr (+16%), Q2 ₹187cr (+69%); now *"might go to ₹700cr, ₹750cr"* depending on a US trade deal | ✅ **Back on pace** *(was 🟡)* |
+| *(5-Nov)* FY27 capex ₹600cr+ | Q4FY26, repeated Q2 | H1 ₹132cr, **22%**; ₹420cr Bhuj + ₹120cr tractor + ~₹70cr automation still guided | 🟡 **H2-loaded** |
+| *(5-Nov)* Bhuj: knuckles commercial Q4FY27, alloy wheels *"early April"* | Q2FY27 | 🕐 **Unchanged in substance** — trial Q4FY27 has become commercial Q4FY27 for knuckles | 🕐 |
+| *(5-Nov)* EBITDA/wheel ₹404 *"should be sustainable"*; ₹450–500 *"why not"*, eventually | Q2FY27 | Testable from Q3. October was a record month | 🕐 **New, and a much bigger claim than ₹310** |
+| *(5-Nov)* Greenfield ROCE above 24% | Q2FY27 | An analyst's arithmetic gave 12–13%; the MD rejected it without giving numbers. The 24% itself is H1 annualised (deck); FY26 was 16% | 🕐 **Asserted, not shown** |
 
 **Verdict on management:** *The most credible operator in this watchlist's auto-components cohort. They set a specific, checkable per-unit number and beat it, the margin gain came from a pass-through they flagged two years in advance rather than a commodity windfall, and they quantify their own failures — the ₹80cr of manpower-related lost sales was volunteered, not extracted. Three reservations: the one real miss (2025 export guidance) was on the variable they control least; the monthly releases are written in marketing language; and **the Deputy MD's operations bandwidth has not been visibly replaced** heading into the largest capex year in company history.*
 
@@ -430,8 +444,13 @@ Four threads reinforce each other, and Q1FY27 is the first quarter where you can
 | **21-Aug-2026** | **High** | **₹305** | **~+37%** | **Pass-through landed; July highest-ever month; exports turned; capex to ₹600cr. Return cut on a rebuilt bear case — see (c)** |
 | **19-Sep-2026** | **High** | **₹372** | **~+12% at the new price** *(scaled from +37% at ₹305)* | **August a second record month (+53.6%); Board seeks ₹3,500cr borrowing limit (from ₹2,000cr); promoter open-market buying; stock +22%.** |
 | **23-Oct-2026** | **High** | **₹469** | **≈ −12% on the 21-Aug targets — stale; re-underwrite after the 26-Oct call** | **Q2FY27: PAT +229%, volume +23.5%, EBITDA/wheel ~₹398; ₹140cr supplementary billing; receivables +50% in H1; ₹1,400cr greenfield; stock +20% on the print.** |
+| **5-Nov-2026** | **High (Under Watch — valuation)** | **₹531** | **≈ +9%, re-derived** | **Q2 call read. ₹140cr billing answered; EBITDA/wheel ₹404 called sustainable. 🔴 "Hyundai 74%" corrected as a misread. No operating trigger fired; the Under Watch tag is for price: ₹531 is above the 21-Aug base target of ₹414.** |
 
 ### (b) Material developments
+
+**🟡 5-Nov-2026 · `CALL` — Q2FY27 call: ₹404 per wheel is management's new floor, and the ₹1,400cr plant's funding widened.**
+The ₹140cr supplementary billing is April–September only and the MD says it does not touch EBITDA. Alloy capacity was debottlenecked +10% for almost no money. The new plant may bring in *"strategic partners"*, described as long-standing commodity players.
+**Why it matters:** The open catch-up question is answered, on management's word. The bigger shift is that the MD has replaced a ₹310 guide with a ₹404 floor, while conceding it falls if CV or tractor volumes fall.
 
 *Developments that moved — or should move — the thesis. Regulatory, administrative and ownership filings are below the fold.*
 
@@ -450,6 +469,8 @@ Q1FY27: revenue **₹1,509.8cr (+27.2%)**, PAT **₹71.5cr (+43.3%)**, **EBITDA/
 **16-Jul-2026 · `CUSTOMER` — Hyundai disclosed at 74% of business.**
 The Q1FY27 deck quantified customer concentration for the first time. **Initiation assumed top-five at ~60%; the reality is one customer at 74%**, with Renault-Nissan, Kia, Tata and Skoda making up most of the balance.
 **Why it matters:** **the largest single risk in the profile, and larger than the thesis was built on.** Loss of allocation on even two Hyundai platforms would be thesis-breaking. It also invalidated the Wheels India peer framing — see (c) and (d).
+
+> **⤴ CORRECTED 5-Nov-2026 — this entry misread the slide.** The figure is SSWL's share of Hyundai's alloy-wheel business. See (d).
 
 **16-Jul-2026 · `CAPEX` — FY27 capex stepped up to ~₹600cr, including a line not previously disclosed.**
 Bhuj alloy (1.2m wheels) + knuckles (0.6m) = **₹420cr**; replacement and other **₹80cr**; and **a new ₹150cr brownfield agricultural-wheel line**, fungible to passenger-car steel wheels, taking steel capacity **24m → 26m** and commercialising *"before the end of this calendar year."*
@@ -482,10 +503,12 @@ June **+7% YoY** — *"after a long 2 years, I think it is the first time we hav
 - **On the peer contrast.** Until 28-Jul-2026 this profile argued SSWL's edge over Wheels India included *customer diversification*. **Backwards.** It rests on scale and aluminium lead alone.
 - **On Wheels India's premium.** The 3-Jul view was *"a higher-ROCE peer at a premium"* (24x vs 20.4x). By 28-Jul Wheels India had **de-rated to ~20.5x** while SSWL **re-rated to 21.8x** — SSWL at a premium P/E for the first time, though cheaper on book (2.56x vs 3.26x).
 - **On steel wheels as a declining business.** Carried from initiation, taken from management's own repeated statements. **Retracted by management 16-Jul-2026.** Superseded, not yet underwritten.
-- **On customer concentration.** The 3-Jul profile estimated *"top-5 ~60%."* Reality: **Hyundai alone at 74%.**
+- **On customer concentration.** The 3-Jul profile estimated *"top-5 ~60%."* ~~Reality: **Hyundai alone at 74%.**~~ **⤴ 5-Nov-2026: the 74% was a misread; the 3-Jul estimate was never actually tested.**
 - **Share count.** The 3-Jul profile computed book value from **"73M shares."** **Actual is ~15.7 cr (157M) shares** — mcap ₹4,793cr / ₹305. The ₹1,806cr book-value total it produced was coincidentally right; the share count was not.
 
 ### (d) Corrections
+
+**⤴ 5-Nov-2026 — "Hyundai is 74% of business" was wrong, from 16-Jul-2026 until today.** The Q1FY27 deck (p.17) and Q2FY27 deck (PDF p.24, rendered) show *"Share of Business"* beside each customer: Hyundai 73%, Mahindra 64%, Renault-Nissan 64%, Kia 57%, VW-Skoda 56%, Tata 53%, MG 32%. **They sum to 399%, so they cannot be shares of SSWL's revenue.** They are SSWL's share of each customer's alloy-wheel buying; the steel-wheel slide (Honda 86%, MG 100%) reads the same way, and an analyst used it that way on the Q2 call. **What followed from the error, all corrected inline:** Risk 1, the 5.5(b) entry, the multiple-gap paragraph, the peer contrast and the memory hook. **What replaces it:** nothing quantified. SSWL's revenue by customer is not disclosed in anything read. *The lesson: a percentage beside a customer logo has a denominator; add them up before writing a sentence.*
 
 **⤴ 21-Aug-2026 — the 16-Jul review stated SSWL's Q1FY27 was "PPT-only, not a Q&A call." Wrong.**
 It was a full analyst call held 16-Jul-2026, hosted by **ICICI Securities** (Smit Shah), with four management participants; transcript filed **21-Jul-2026** (55,635 characters). **Cause:** the review was written the same day results dropped, before the transcript was filed, relying on a Screener AI Summary because the CORS proxy was down — then stated the absence of a call as fact rather than "not yet filed."
@@ -509,7 +532,7 @@ Wheels India is independently managed, with an end-market mix (Q4FY26: CV 22%, c
 **Why the multiple has historically been low — four reasons, all still partly valid:**
 1. **Steel wheel legacy.** 63% of revenue is lower-margin, slower-growing. The market discounts it.
 2. **Export volatility.** FY26's 19% export decline reminded investors that ~10% of revenue is tariff-exposed.
-3. **Customer concentration.** Now quantified at **Hyundai 74%** — worse than the market assumed when the discount was set.
+3. **Customer concentration.** ~~Now quantified at **Hyundai 74%** — worse than the market assumed when the discount was set.~~ **⤴ 5-Nov-2026: misread, see 5.5(d). Concentration is undisclosed; this leg of the discount is an unknown, not a known negative.**
 4. **Indian Acrylics overhang.** A loss-making group entity with negative book value drags the SSWL multiple modestly.
 
 **Where the multiple can expand:** FY27 EBITDA/wheel ₹300 delivered (**already done in Q1 at ₹314**) · Bhuj commissioned on time, removing FY28 execution overhang · knuckles beating guide toward **₹300cr+ by FY28**, which would earn a specialty-component multiple · **Europe exports crossing ₹400cr**, validating diversification.
@@ -531,7 +554,7 @@ Wheels India is independently managed, with an end-market mix (Q4FY26: CV 22%, c
 
 **On Wheels India specifically (28-Jul-2026):** it de-rated to ~20.5x, P/B 3.26x, OPM 7.5%, and board-approved a **₹400cr equity/equity-linked raise on 10-Jul-2026 (~11.8% dilution, no use of proceeds disclosed)**; the stock fell 7.04% on 28-Jul to **₹1,390, −6.7% since 3-Jul, while SSWL rose +19% to ₹295**. **SSWL now trades at a premium P/E to Wheels India for the first time** — justified by ~2x the growth at ~1.5x the margin — **and remains cheaper on book.** Wheels India still wins on ROCE, ROE, dividend, cash conversion (FY26 CFO +19% vs SSWL −36%) and end-market diversification. *See `WHEELS.md`.*
 
-**Multiple gap analysis.** Against a precision-peer average near 40x, SSWL at 22.6x is a ~45% discount. Adjusting honestly for the steel weight, the Indian Acrylics overhang, mid-tier ROCE **and Hyundai at 74%**, a defensible range is **20–25x** — not the 25–30x the 16-Jul review argued, because that argument was made before the concentration number was known and before the bear case was rebuilt.
+**Multiple gap analysis.** Against a precision-peer average near 40x, SSWL at 22.6x is a ~45% discount. Adjusting honestly for the steel weight, the Indian Acrylics overhang, mid-tier ROCE ~~**and Hyundai at 74%**~~ *(⤴ misread, see 5.5(d))*, a defensible range is **20–25x** — not the 25–30x the 16-Jul review argued, because that argument was made before the concentration number was known and before the bear case was rebuilt.
 
 ### 📊 Q2FY27 Refresh — Full Numbers Print (23-Oct-2026)
 
@@ -561,6 +584,28 @@ Wheels India is independently managed, with an end-market mix (Q4FY26: CV 22%, c
 
 **New on the board outcome:** a **~₹1,400cr greenfield at Chhatrapati Sambhajinagar (Aurangabad)** over 60 months, subject to clearances — alloy wheels 2.5m/yr (₹815cr), steel wheels for PV and OTR 1.6m/yr (₹410cr) and a **hot-stamping line for structural body parts** 1.3m strokes/yr (₹175cr, a new product), funded by debt and internal accruals. Interim dividend ₹1.50; Pranav Jain named senior management; a lease renewal.
 
+### 🎧 Q2FY27 call — official transcript (26-Oct, filed 30-Oct, read)
+
+**The two questions this profile set for the call:**
+
+| Question | Answer | Status |
+|---|---|---|
+| Is the ₹140cr supplementary billing a catch-up for earlier quarters? | *"It is only for April through September… Everything gets settled within the financial year."* It reflects steel price changes on both sides: *"this has no role to play in the EBITDA per wheel"* | ✅ **Answered on management's word.** A Q1-to-Q2 shift inside the half is still possible, so **H1's ₹362 per wheel is the safer figure than Q2's ₹404** *(my inference)* |
+| Why did receivables rise 50% in H1? | **Not asked** | 🔴 **Open.** ₹183cr of supplementary invoices raised late in the half plus a record September would explain much of it *(my inference, not stated)* |
+
+| Topic | What management said |
+|---|---|
+| **EBITDA per wheel** | Q2 **₹404**, H1 **₹362**, on standalone EBITDA *including* other income (₹237cr). *"This EBITDA level of ₹404 should be sustainable and perhaps we will exceed that"*; ₹450–500 *"why not… eventually"* |
+| **Where it came from** | Richer mix, cost work, exports, and OEM price rises for non-steel costs. MD: *"If you want me to build a factory… you have to increase my prices on the existing business, otherwise, I won't invest"*; steel wheel pricing had been *"abysmally low"* |
+| **The admission** | If CV and tractor volumes taper: *"Obviously, this will impact our EBITDA per wheel if the volumes go down. That is very clear."* |
+| **Segments** | Alloy 45% of Q2 revenue, ~12 lakh units; CV the fastest (+28% in H1); tractor share 43% → 45%; >64% alloy share ex-Maruti. Aluminium segment EBITDA/wheel is **~40% above steel** across all categories; passenger car to passenger car *"definitely twice"* |
+| **Capacity** | Alloy debottlenecked +10% to ~5.4m (October crosses 5m run-rate); Bhuj +1.2m → 6.6m; Sambhajinagar +2.5m → 9.1m. Bhuj expected >80% for FY28 |
+| **Greenfield (Sambhajinagar)** | ~₹1,400cr over 60 months, alloy + steel + hot stamping. **Funding: *"debt, internal accruals and also likely strategic investments from strategic partners"*** — the board outcome said only debt and accruals. Partners are *"commodity players… partners with us since we started our factory"*, unnamed |
+| **Hot stamping** | ~₹170cr for ~₹400cr turnover, built *"for a specific customer"* in Maharashtra, two more in talks; competes with Gestamp and JBM. Start given twice on the call: *"next year around this time"* and *"the first quarter of next calendar year"* |
+| **Exports** | Q2 ₹187cr, H1 ₹314cr; ₹1,500cr *"visible in 3 years"*; European truck OEM approvals (MAN, Scania, Daimler named) *"took us 12 years"*, playing out from Q4FY27. No alloy supply to the US (Chinese competition); Turkey is the rival in Europe |
+
+> **Read:** the Q2 print holds up. Two cautions. **₹404 rests on OEM price rises plus peak CV and tractor demand, and the MD says so.** **The tone on the call hardened:** two analysts were told they were *"absolutely mistaken"* or that they were *"trying to put numbers in my mouth"* for asking whether the number is sustainable and what the new plant earns. The return question on ₹1,400cr has an arithmetic answer on the table and a verbal one from management.
+
 ### Scenarios (2-year, to FY28)
 
 - **Base — 55%.** FY27 revenue ~₹6,300cr (+22%), EBITDA ~₹650cr as guided. FY28 revenue ~₹7,400cr with Bhuj partial; EBITDA ~₹790cr, interest ~₹150cr, depreciation ~₹205cr → **PAT ~₹325cr, EPS ~₹20.7**. At **20x → ₹414 → +36%.**
@@ -575,22 +620,46 @@ Wheels India is independently managed, with an end-market mix (Q4FY26: CV 22%, c
 
 ---
 
+### 📊 5-Nov-2026 — scenarios re-derived after the Q2 call
+
+*My estimates, from **₹531 / ₹8,366cr** (Screener, 5-Nov close), ~15.75cr shares. The 21-Aug set above is kept as history; its ₹414 base target has been passed.*
+
+**Run-rate:** H1 consolidated PAT ₹186cr. If H2 only repeats Q2, FY27 PAT is ~₹420cr and standalone EBITDA ~₹870cr, against a ₹650cr guide *(my arithmetic)*.
+
+| Scenario | Prob. | FY28 | PAT × multiple | Value/share | Return |
+|---|---|---|---|---|---|
+| **Base** | **50%** | ~270 lakh wheels × ₹400 = EBITDA ~₹1,080cr; depreciation ~₹230cr, interest ~₹170cr | **₹510cr** (EPS ~₹32) × 18x | ~₹583 | **≈ +10%** |
+| **Bull** | **25%** | ~285 lakh × ₹450; Bhuj full, export OEM wins land | ₹655cr (EPS ~₹42) × 22x | ~₹915 | **≈ +72%** |
+| **Bear** | **25%** | CV or tractor turns, OEMs push back; ~245 lakh × ₹320, debt higher | ₹277cr (EPS ~₹18) × 13x | ~₹229 | **≈ −57%** |
+
+**Weighted 2-year return ≈ +9%** *(0.50 × 10 + 0.25 × 72 − 0.25 × 57)*, plus a ~0.3% yield. The bear weight is up from 20% because the base now capitalises peak-cycle EBITDA per wheel; the stock was ₹169 inside the last year.
+
+**Conviction: HELD at HIGH, now Under Watch on valuation.** No operating test has failed, and the largest stated risk turned out to be a misreading of mine. **But conviction here reflects business confidence, and the return on offer has shrunk to single digits a year** at 28.5x trailing. **Would cut it:** EBITDA/wheel below ₹350 for a full quarter with volumes holding, H2 CFO below 50% of EBITDA, or borrowings above ₹1,300cr by Mar-27. **Would lift the watch:** FY27 CFO above 60% of EBITDA with ₹400+ per wheel held through Q4.
+
 ## 7. What Could Prove Us Wrong
 
-**Risk 1 — 🔴 Hyundai is 74% of business.** Disclosed in the Q1FY27 deck. Loss of allocation on even two platforms would be thesis-breaking. **Watch:** Hyundai's launch pipeline, any localisation or supplier-consolidation commentary. *The largest single risk here, and larger than initiation assumed.*
+**Risk 1 — 🟡 Customer concentration is undisclosed.** **⤴ CORRECTED 5-Nov-2026** *(was: 🔴 Hyundai is 74% of business, "the largest single risk here" — a misread of the deck; see 5.5(d))*. SSWL supplies **73% of Hyundai's alloy-wheel buying**, 64% of Mahindra's and 57% of Kia's. That is depth at each customer, and a lost platform at any of them would still hurt, but **no filing read gives revenue by customer**. **Watch:** Hyundai's launch pipeline, any supplier-consolidation commentary, and the annual report's customer-concentration note if one exists.
 
 **Risk 2 — 🟡 The ₹600cr capex year against ₹332cr of CFO.** Borrowings flat at ₹828cr, FY26 payout zero, and management's own plan takes debt to ~₹1,000cr. If CFO/OP stays at 73% rather than recovering, the gap widens. **Watch:** H1FY27 CFO and borrowings at Sep-2026.
+
+> ⚠️ **ACCUMULATING (5-Nov-2026):** H2 must absorb ~₹470cr of capex, and the ₹1,400cr plant comes after it. Standalone borrowings stand at ₹911cr (deck balance sheet). The MD added possible partner equity, so the funding mix is no longer settled.
 
 > **⚠️ ACCUMULATING (23-Oct-2026)** — H1 CFO ₹121.6cr and borrowings ₹826cr → ₹911cr, but H1 capex was only ₹131.7cr (22% of the year), and the Board has now approved a further **~₹1,400cr greenfield over 60 months**. Receivables rose ₹307cr in the half.
 > **⚠️ ACCUMULATING (19-Sep-2026)** — the Board proposed raising the borrowing limit from ₹2,000cr to ₹3,500cr (AGM 30-Sep). Headroom, not drawn debt, but the profile's own plan already takes borrowings to ~₹1,000cr.
 
 **Risk 3 — 🟡 Bhuj commissioning slips.** Aluminium wheel plants are complex — casting, machining, painting, testing, OEM approval. Trial production is guided **Q4FY27**; every quarter of slippage pushes the knuckle revenue underwriting the bull case. *No slippage yet; guidance has been consistent.*
 
+> ✅ **TRACKING (5-Nov-2026):** knuckles commercial in Q4FY27, alloy wheels early April 2027; *"progressing as planned"*.
+
 **Risk 4 — 🟡 The pass-through can be reversed.** >1% of margin came from negotiation, not structure, and OEMs negotiate annually. **Watch:** whether EBITDA/wheel holds ≥₹314 in a quarter with less favourable mix.
+
+> ⚠️ **NOW THE CENTRAL RISK (5-Nov-2026):** ₹404 per wheel is built partly on OEM price rises won in a capacity shortage. The MD's own words: *"there's a shortage of capacity in the market."* Capacity is being added by SSWL and others.
 
 **Risk 5 — 🟡 Aluminium penetration stalls.** The single biggest thread. If PV alloy mix stalls near **45% against projections of 65–70% by 2030**, the premium mix engine slows materially.
 
 **Risk 6 — 🟡 Export recovery is two months old** and against a weak base, with Q1FY27 exports (₹127cr) annualising **below** the ~₹600cr FY27 guide. **Watch:** whether Q2FY27 exports hold *sequentially*, not just YoY.
+
+> ✅ **TRACKING WELL (5-Nov-2026):** Q2 ₹187cr, sequentially up from ₹127cr; October exports +179% by value (monthly update).
 
 **Risk 7 — 🟡 CV cycle downturn.** Q2FY26 showed how fast this hits — the CV segment collapsed on the AC-cabin regulation change. Another shock breaks the growth narrative.
 
@@ -604,7 +673,13 @@ Wheels India is independently managed, with an end-market mix (Q4FY26: CV 22%, c
 
 **Risk 12 — ⚪ Domestic institutions sold 1.93pp in the June quarter** into a rising stock, with no stated reason.
 
+> ⚠️ **CONTINUED (5-Nov-2026):** DII 3.15% → **1.37%** in the September quarter (5.08% in March), FII 8.60% → 8.37%, retail up; shareholders 59,133 → 67,858 (Screener). **Institutions have been selling into the rally for two quarters; no reason is stated.**
+
 **Risk 13 — ⚪ Peer re-rating leaves SSWL behind.** The cohort re-rated 30–140% while SSWL stayed flat. If the market simply does not re-rate steel-heavy wheel makers, the multiple gap persists regardless of delivery — the base case's 20x becomes a ceiling, not a floor.
+
+> ✅ **REVERSED (5-Nov-2026):** the stock is +74% since 21-Aug at ₹531.
+
+**🆕 Risk 15 — 🟡 The ₹1,400cr plant's return is asserted, not shown (5-Nov-2026).** An ICICI Securities analyst estimated 12–13% incremental ROCE at ₹400 per wheel; the MD rejected it, claimed *"plus 24%"* and declined to give numbers. The comparison base is one strong half annualised. **Watch:** the project report, partner terms and debt.
 
 **Risk 14 — ⚪ Deputy MD's operations bandwidth unreplaced** heading into the largest capex year in company history.
 
@@ -616,13 +691,15 @@ Wheels India is independently managed, with an end-market mix (Q4FY26: CV 22%, c
 
 **What you're buying:** India's largest independent wheel maker at 22.6x trailing — **~17x on the Q1 run-rate** — with alloy at 35% of revenue growing volumes 38% a month, a pre-sold knuckle business coming up at a plant bought out of insolvency, exports turning after two lost years, and a promoter family that has not sold a share in five quarters.
 
-**What you're risking:** **Hyundai is 74% of the business.** A ₹600cr capex year against ₹332cr of operating cash flow, funded by taking debt to ₹1,000cr, with zero dividend. A margin gain that came from negotiation and can be negotiated back. And a management "95% utilisation" claim that its own deck puts at 76%.
+**What you're risking:** ~~**Hyundai is 74% of the business.**~~ *(⤴ misread, 5.5(d))* **A ₹404 EBITDA per wheel that the MD admits depends on volume.** A ₹600cr capex year against ₹332cr of operating cash flow, funded by taking debt to ₹1,000cr, with zero dividend. A margin gain that came from negotiation and can be negotiated back. And a management "95% utilisation" claim that its own deck puts at 76%.
 
 **What to watch, in order:** whether **EBITDA/wheel holds ≥₹314** in Q2FY27 · **August and September monthly turnover** (July was +50.7%; **August came in at +53.6%**, September due ~1-Oct) · **H1FY27 CFO and borrowings** · the **Bhuj Q4FY27 date** · whether the **steel re-acceleration** survives a second quarter and reconciles with the utilisation table.
 
 ---
 
 ## 9. 📢 Community Pulse
+
+**⤴ 5-Nov-2026 — ValuePickr topic 3891 re-scanned (307 posts, last active 26-Oct).** 🟢 **#315 @Prabhat_Mohanty (23-Oct):** *"Wow! Astounding results"*. 🟢 **#314 @tankerooooo (23-Oct)** was surprised by the greenfield and reads the 60-month timeline as long-term planning; **#316 (26-Oct)** call notes: *"Very bullish call."* **Sentiment: BULLISH**, with the first post-rally question marks left to the sell-side analysts on the call. *The scan below predates this.*
 
 *Refreshed each review cycle. **Last scan: 16-Jul-2026** — pre-dates the Q1FY27 print's absorption by the community and is due a re-scan.*
 
@@ -647,6 +724,8 @@ Wheels India is independently managed, with an end-market mix (Q4FY26: CV 22%, c
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (5-Nov-2026 rewrite):** official transcript of the 26-Oct call (filed 30-Oct, read); Q2FY27 deck (p.24 rendered for the share-of-business correction; `Fetched Concalls/SSWL/SSWL_PPT_2026-10.pdf`); results; October update (2-Nov); Q1FY27 deck p.17 re-read; ValuePickr topic 3891; Screener 5-Nov-2026.
 
 **Primary documents** — `Fetched Concalls/SSWL/`:
 - **Q1FY27 earnings call transcript** — call **16-Jul-2026**, hosted by **ICICI Securities (Smit Shah)**, filed 21-Jul-2026. Management: **Dheeraj Garg (MD), Rahul Kumar (CFO), Aditya Dixit (ED, International Marketing & Operations), Pranav Jain (VP Finance).**
