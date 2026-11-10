@@ -1,7 +1,7 @@
 # Carysil Limited — Company Profile
 
 **Ticker:** CARYSIL · **NSE:** CARYSIL · **BSE:** 524091 *(filings still carry the old `ACRYSIL_` prefix)* · **Sector:** Home Building Products — Kitchen & Bath (Sector 18)
-**Conviction:** **HIGH (Under Watch — commissioning concentration)** · **Thesis date:** 22-Aug-2026
+**Conviction:** **⤴ MEDIUM-HIGH (Under Watch — commissioning concentration)** *(HIGH → MH, 10-Nov-2026: the H1 volume trigger fired — quartz sink volume ~+8% in H1 against a 15% volume guide; see §5.5)* · was **HIGH (Under Watch)** · **Thesis date:** 22-Aug-2026, Q2FY27 rewrite 10-Nov-2026
 **CMP ₹1,155** (Screener, 22-Aug-2026) · **Market cap ₹3,286 cr**
 
 **Concall Fetch Gate: ✅ GREEN — 7 official transcripts.** **Q1FY27 (call 11-Aug-2026, transcript filed 14-Aug-2026 — 🆕 downloaded for this version)**, Q4FY26 (May-2026), Q3FY26 (Feb-2026), Q2FY26 (Nov-2025), plus Feb-2025 and May-2025 (fetched at the last refresh, closing v1's stated gap). Q1FY27 deck also read.
@@ -233,6 +233,10 @@ Its core product is the **quartz composite sink**: crushed quartz bound in acryl
 | **🆕 Commissioning timeline reaffirmed** | Q1FY27 | *"we have said **March quarter 4 2027**… As of now it says March 2027."* Stainless +150,000 and granite **+250,000 by March 2027** | ✅ **Not slipped** |
 | **🆕 US tariff discount rollback** | Q1FY27 | *"**90% of the rollback is already done**"*, landed in **June**. CFO clarified the mechanism (§4) | ✅ **Recovered** |
 | **🆕 Long-range framing** | Q1FY27 | *"our guidance is 15%. We have always given this **15% revenue guidance for the next 5 years**… because now we are focusing on **the next 1000 crores**"* | 🕐 **Now has a horizon: five years** |
+| *(10-Nov)* **FY27 revenue +15%, EBITDA margin 18–20% (upper end)** | Reaffirmed on the Q2 call (5-Nov) | **H1 revenue ₹537.9cr, +15.0%; Q2 +14.6%.** EBITDA margin Q2 **19.4%** (Q1 21.2%), H1 20.3% | 🟡 **On the line, not above it** |
+| *(10-Nov)* **15% value AND 15% volume** | Q1FY27 | **Quartz sink volume Q2 +10% (217K units), Q1 +6% → H1 ~+8%**; stainless steel +8% (47K) | 🔴 **Volume half the guide** |
+| *(10-Nov)* Commissioning by March 2027 | Q1FY27 | Quartz +250,000 and steel +150,000 *"due by the end of FY27"*; faucets/appliances doubling *"on track for end of FY27"* | ✅ **Not slipped** |
+| *(10-Nov)* Domestic ₹500cr in three years | Q2 call | India **+30% in H1, 21% of revenue (19%)** | 🕐 |
 
 > **⤴ CORRECTION to the 12-Aug refresh — the revenue guidance is 15%, not 15–20%.**
 > That refresh reported the FY27 guide as *"revenue 15–20% and margin 18–20% both held"* and scored Q1's **+16.5%** as *"inside the band."* **The official transcript states it as a point number: *"we continue to maintain our revenue guidance of 15%."*** Management repeated **15%** four separate times, including when pressed on whether it was value or volume.
@@ -401,6 +405,19 @@ International subsidiaries — **Carysil Products Ltd (UK), Carysil Surfaces Ltd
 
 ---
 
+### 🆕 Q2FY27 Refresh — Full Numbers Print *(10-Nov-2026; results 4-Nov, call 5-Nov, official transcript filed 9-Nov and read in full)*
+
+| | Q2FY27 | YoY | H1FY27 | YoY |
+|---|---|---|---|---|
+| Revenue from operations | **₹275.7cr** | **+14.6%** (+5.2% QoQ) | ₹537.9cr | +15.0% |
+| Gross profit | ₹149.7cr (53.9%, +133bps) | +16.8% | ₹294.9cr (54.3%) | +19% |
+| EBITDA | ₹54.1cr (**19.4%**; Q2FY26 20.3%, Q1 21.2%) | +9.3% | ₹110.1cr (20.3%) | +17.6% |
+| PAT | ~₹29cr | **+5.8%** | ₹61.1cr | +21.3% |
+
+**Volumes:** quartz sinks **217K units (+10%)**, 54% of revenue; stainless steel 47K (+8%); faucets +8%, appliances +12%, surfaces +23% *(but the UK surfaces subsidiary −25%)*. Utilisation: quartz 92%, steel 91%.
+
+**What the call added.** (1) **Margin cost 1.5 points to raw materials and sea freight** (CMD: *"the impact is about 1.5%"*); a price increase took effect in October — full impact in Q3; exports are FOB to the large customers. (2) **Employee and other costs are running ahead of the new capacity** (hiring and training before March-2027 commissioning) — the CMD expects dilution once volumes arrive. (3) **The Group CFO's exit, explained:** *"Carysil is looking for Carysil 2.0… I would like to have the all the CXO level people as close to me… there are also personal challenges with him"*; candidates shortlisted. (4) UK *"passing through a bit of rough time"*; a new Surfaces head joins next month. (5) A nanotechnology sink launch in 2027 (Europe and US first); Bobby Deol signed as brand ambassador for FY27–28; ~₹25–30cr of brand-store investment planned. (6) The CMD expects the US election outcome to ease the tariff threat — a view, not a fact.
+
 ## 5. Connecting the Dots
 
 **Thread A — Capacity is the binding constraint, not demand.** Order booking has the factory on seven-day weeks and management calls it *"a serious stress."* Stainless steel filled to 94% the moment it was added. **Everything else in this profile is downstream of getting capacity in on time.**
@@ -427,6 +444,7 @@ International subsidiaries — **Carysil Products Ltd (UK), Carysil Surfaces Ltd
 | **12-Aug-2026** *(refresh)* | **₹1,190** | **HELD at HIGH — "Under Watch (commissioning concentration)" added** | Q1FY27: **best quarter on every line in 13 quarters**, growth inside guidance and **margin above it**. **v1's transcript gap closed** — six official transcripts on file for the first time. **Stainless steel filled to 94% on arrival**; domestic mix 28% → 33%; CFO +82%. **Written from a machine transcription of a WhatsApp audio export**, with the ASR risk flagged and re-verification set as watch item #1. |
 | **22-Aug-2026** *(this profile)* | **₹1,155** | **HELD at HIGH (Under Watch)** — no trigger fired | Converted to always-current format. **🎧 The official transcript filed 14-Aug and the re-verification was done: every figure the machine transcript carried checks out — volumes, +43% faucets, exports +10.6% / domestic +39.8%, the ₹1,000cr framing, 180 stores, 3x e-commerce — but `capex` appears 10 times in the official and ZERO in the machine version.** **🆕 FY27 capex ₹80–90cr disclosed, 80% into core sinks, plus a "bare minimum ₹50–60cr every year" floor.** **🆕 *"My factory has to literally run now 7 days a week. So we are in a serious stress."*** **⤴ And the revenue guidance is 15%, not the 15–20% band the refresh reported.** **🆕 18-Aug Reg 30 clarification: the US quartz TRQ does not cover Carysil's sinks.** |
 | **19-Sep-2026** *(filings refresh)* | **₹1,131** | **HELD at HIGH (Under Watch)** — no trigger fired | New CTO (Sumit Kumar, 3-Sep); annual report and dividend date filed. Stock −2%. |
+| **10-Nov-2026** *(Q2FY27 Tier-A, transcript read)* | **₹957** | **⤴ HIGH → MEDIUM-HIGH (Under Watch)** — one trigger fired, one flagged | **The H1 volume trigger fired:** quartz volume ~+8% in H1 (6% Q1, 10% Q2) against the 15% volume guide management gave on the Q1 call — revenue held at 15% on price and mix, not on volume. **Flagged, not applied: revenue growth 14.6% in Q2 vs the 15% line — inside rounding (H1 15.0%).** Margin 19.4% (line 19%) and export growth (~+11% in H1, my arithmetic) clear; commissioning on track. CFO left ("Carysil 2.0"). **Re-priced: ≈ +67% at ₹957** — the price fell 17% since August. |
 
 **The trajectory in one line.** **Nothing about the business changed in ten days — but the official transcript turned a good refresh into a complete one, and the thing it added (capex, capacity stress, and a 15% volume guide against a 6% quartz quarter) is the part that actually decides FY27.**
 
@@ -479,11 +497,21 @@ International subsidiaries — **Carysil Products Ltd (UK), Carysil Surfaces Ltd
 **🆕 One trigger is added, and it is the tension this version uncovered:**
 - **🔴 If H1FY27 volume growth is not tracking toward 15%** — Q1 quartz volume was **+6%** against a full-year **15% volume** guide, and the shortfall is attributed to container delays rather than demand. **If Q2 does not show the deferred dispatches arriving, the guide is at risk and the multiple has no room for it.**
 
+> **10-Nov-2026 status:** volume trigger — 🔴 **fired** (quartz H1 ~+8%) → **HIGH → MH applied** · expansions past FY27 — ❌ on track · EBITDA margin <19% — ❌ (19.4%, close) · exports declining in absolute terms — ❌ (~+11% H1, my arithmetic) · **revenue growth <15% — 🟡 Q2 14.6%, H1 15.0%: inside rounding, flagged, not applied.**
+
 **Why High is retained.** Guidance beaten on both lines; the best quarter in the 13-quarter series; **stainless steel filled to 94% on arrival**, which is the cleanest possible evidence the capacity thesis is demand-led; **CFO +82% with a ₹68cr capex year funded without new debt**; domestic mix 28% → 33% and growing four times faster than exports; the US tariff issue recovered and the TRQ clarified away; and **a management team whose candour — *"a serious stress"*, and a CFO correcting an analyst's flattering premise — is better than most of this watchlist.**
 
 **Why Under Watch stays.** **Three of four expansions land in one window; ~67% of revenue is export into a geopolitical environment management will not forecast; free cash flow has been ~nil for five years with a capex floor now guided; promoter holding is 41.34%; and 30.5x with 5.4x book leaves no room for a slip.**
 
 ---
+
+### 📊 10-Nov-2026 — Q2FY27 scored
+
+**Where it trades (Screener, 10-Nov-2026 close):** CMP **₹957** · market cap ₹2,722cr · P/E 25.0x · **−17.1% since the 22-Aug write (₹1,155).**
+
+**Re-priced on the unchanged scenarios (from ₹2,722cr):** base ₹4,480cr → **+65%** · bull ~₹6,440cr → **+137%** · bear ~₹2,300cr → **−16%**. **Weighted ≈ +67%**, against +38% in August. ***Almost all of that is the price.*** The base case needs FY27 revenue ~₹1,065cr and all four expansions contributing in FY28; H1 is on the revenue line but **the volume behind it is half the guide**, and the base case's FY28 jump depends on volume. *I do not read the arithmetic as a reason to keep HIGH — the business stopped beating its guidance this quarter, which is what HIGH rested on.*
+
+**Conviction: HIGH → MEDIUM-HIGH (Under Watch — commissioning concentration).** *Re-upgrade test: Q3 quartz volume growth in the mid-teens with margin back above 20% after the October price increase.*
 
 ## 7. What Could Prove Us Wrong
 
@@ -491,15 +519,21 @@ International subsidiaries — **Carysil Products Ltd (UK), Carysil Surfaces Ltd
 
 **🔴 Risk 2 — The 15% volume guide against a 6% Q1.** Management guides **15% value and 15% volume** for FY27; Q1 quartz volume grew **6%**. The explanation is container delays, not demand — *"we had a very strong order booking… we could not dispatch a lot of things."* **An analyst began to press exactly this and was cut off by the moderator for time.** **Signal to watch: Q2 volumes. This single number decides FY27.**
 
+> ⚠️ **FIRED (Q2FY27):** Q2 quartz volume +10%, H1 ~+8% — the guide was not reaffirmed on volume; revenue held at 15% on price and mix.
+
 **🔴 Risk 3 — ~67% of revenue is export, into an environment management will not forecast.** Q4FY26, on why guidance would not be raised: *"The **geopolitical adversities are very, very strong. I cannot even say the future what it is.** But we stick to our guidance."* **Freight and container disruption already cost a quarter of quartz volume.** **Signal to watch: export growth in absolute terms; container/freight commentary.**
 
 **🔴 Risk 4 — Free cash flow has been ~nil for five years and a capex floor is now guided.** FCF: **−21, +13, −38, +13, −2**. FY27 capex **₹80–90cr**, and *"bare minimum ₹50 to ₹60 crores every year"* thereafter on a ₹109cr CFO base. **At 5.4x book with a 0.21% yield, nothing is being returned and nothing is scheduled to be.** **Signal to watch: CFO/OP holding at 80%+, and whether FY27 FCF turns positive.**
 
 **⚠️ Risk 5 — MMA (methyl methacrylate) input cost.** Q4FY26: *"MMA prices are on the rise… **increased by about 30%, 35%… in the last 2 months**."* Pass-through happens with a lag. **A sustained spike compresses margin.** **Signal to watch: gross margin against the 18–20% band.**
 
+> ⤴ **UPDATE (Q2 call):** raw materials and sea freight cost ~1.5 points of margin; a price increase took effect in October. Tijori MMA −5.0% in the month to 10-Nov.
+
 **⚠️ Risk 6 — Customer concentration in global retail.** **IKEA, Lowe's, Howdens, Home Depot, Amazon.** These wins are the growth engine and **no concentration percentage is disclosed.** A US home-improvement downcycle would hit directly. **Signal to watch: any customer-concentration disclosure; US retail comps.**
 
 **⚠️ Risk 7 — The UK is the soft spot.** Management's own read: *"The U.K. market expects to remain **modest**, we remain cautiously optimistic and see strong opportunities to gain market share through distribution channels."* Growth is being sought through share gain, not market growth. Discussions in flight with **wren, Farrell, Huws Grey, ROK and Landmark**; new **Manchester showroom**. **Signal to watch: UK subsidiary growth turning.**
+
+> ⚠️ **SHARPENED (Q2FY27):** the UK surfaces subsidiary −25% YoY; a new head joins next month.
 
 **⚠️ Risk 8 — India ramp disappointing.** Parekh has admitted India is *"the first time we are shifting our gears"* after historic underperformance. The build-out is real — **~180 stores over two years, funded 90-day festive plans September–November, an eight-city celebrity roadshow, e-commerce guided 3x** — and it carries an ad-spend drag if revenue does not scale. **Signal to watch: domestic growth holding near 39.8%.**
 
@@ -510,6 +544,8 @@ International subsidiaries — **Carysil Products Ltd (UK), Carysil Surfaces Ltd
 **⚠️ Risk 11 — Rupee appreciation.** ~67% exports; a reverse currency move hurts.
 
 **🆕 Risk 12 — Machine-transcript dependence (NEW — 22-Aug-2026).** Carysil published its Q1FY27 call as a **WhatsApp audio export**, which is the worst-quality source in this repo. **The 12-Aug refresh built on it and lost the entire capex topic** — accurate on everything it contained, materially incomplete. **This will recur every quarter Carysil does not file promptly.** **Rule for this stock: do not finalise a refresh on the audio. The official transcript filed three days after the call.**
+
+> ⤴ **EASED (10-Nov-2026):** the Q2 call has an official filed transcript (9-Nov), read for this rewrite.
 
 **🟢 Risk 13 — the risk this is too cautious.** **Every operational signal in this quarter was positive**, and two separate US risks were removed within a fortnight — the tariff discount rolled back as a *sustained price restoration*, and the quartz TRQ clarified not to apply. **The Lowe's USD 3–4m cost-share avoided is an unbooked tailwind not modelled in §6.** **If the March-2027 capacity lands on time into an order book already forcing seven-day weeks, FY28 earnings are materially above the base case and 30.5x on trailing will look cheap in hindsight.**
 
@@ -533,6 +569,8 @@ International subsidiaries — **Carysil Products Ltd (UK), Carysil Surfaces Ltd
 
 ## 9. Community Pulse — 22-Aug-2026
 
+**⤴ 10-Nov-2026:** still no dedicated ValuePickr thread found. From the Q2 call queue: Bastion Research (Sanjay Ladha) pressed on employee and other costs rising faster than gross profit — the sharpest question on the call, and the one the margin slip turns on.
+
 **ValuePickr:** searched for *"Carysil"* and *"Acrysil"*. **No sustained dedicated thread was located this pass.** *Stated as a gap rather than presented as an absence of interest — the earlier name change (Acrysil → Carysil) splits any historical discussion across two names, and this pass did not resolve it.* **Flagged for a proper scan under both names at the next refresh.**
 
 **Substack:** searched; **no dedicated Carysil coverage found.**
@@ -549,6 +587,8 @@ International subsidiaries — **Carysil Products Ltd (UK), Carysil Surfaces Ltd
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (10-Nov-2026 refresh):** results and deck 4-Nov; CFO resignation (4-Nov); **official transcript of the 5-Nov call (filed 9-Nov), read in full**; Screener 10-Nov-2026 close.
 
 - **Concalls read (7 official transcripts):** **Q1FY27 (call 11-Aug-2026, transcript filed 14-Aug-2026 — primary source for this version)**, Q4FY26 (call 21-May-2026, filed 27-May-2026), Q3FY26 (Feb-2026), Q2FY26 (Nov-2025), Q1FY26 (Aug-2025), plus **Feb-2025 and May-2025** — the two that v1 flagged as missing (*"hit cors.lol rate limit"*) and that were fetched by direct `curl` from BSE at the 12-Aug refresh.
 - **🎧 Machine transcript retained for comparison:** `CARYSIL_Transcript_Q1FY27_2026-08-11_MACHINE.txt`, transcribed from Carysil's published **WhatsApp audio export**. **Re-verified against the official on 22-Aug-2026 — see the data-quality note below.**

@@ -241,6 +241,10 @@ Disclosed in the DRHP, RHP and Prospectus (page 237), and put to public sharehol
 | **FY27 capex ~₹700cr** | Jul-2026 | 🕐 Pending | 🕐 |
 | **Tax rate to normalise to ~25–25.5% in FY27** | Jul-2026 | Q1FY27 actual **17%** | 🕐 Pending |
 | Four new molecules commercialised; 14 commercial + 10 late-stage | Nov-2025, confirmed Jul-2026 | Confirmed in the Q1FY27 deck | ✅ |
+| *(10-Nov)* **FY27: "double-digit growth definitely we will try to deliver"** | Q2FY27 call (4-Nov) | **H1 revenue ₹1,012cr, −7.2%.** Double-digit for the year needs H2 ≈ +28% YoY *(my arithmetic: +10% on FY26's ₹2,129cr = ₹2,342cr; H2FY26 was ~₹1,038cr)* | 🕐 **Soft guide, steep H2** |
+| *(10-Nov)* EBITDA margin (incl. other income) | Q2FY27 call | Q2 50.6%, H1 46.2%; CFO: FY26's ~43% *"is definitely sustainable"*, *"I do not want to say that about a 50% number"* | ✅ / 🕐 |
+| *(10-Nov)* Unit 4 Phase 1 capex ~₹1,200cr over two years | May-2026, reaffirmed 4-Nov | *"we continue to have that guidance"*; Phase 2 (equal size) only after board approval | 🕐 |
+| *(10-Nov)* Catch-up after a weak Q1 | Q1FY27 | Q2 revenue +7.9% YoY, +42% QoQ; *"Quarter three, there will be catch-up. Quarter four also"* | 🟡 **One quarter of two** |
 
 **🟡 On the refusal to guide — it cuts both ways, and I will not pretend otherwise.** The CFO's own account of FY26 is unusually straight: *"when we started last year, we said that we'll be delivering about 20%, but then course-corrected and then we delivered about 15% revenue growth. While we had said 20% on revenues… whatever was the shortfall on revenues, we more than made up with respect to our EBITDA and PAT."* **A management that misses a number and says so in those words is being honest.** But the consequence is that **there is now no FY27 revenue number on record to hold anyone to** — and when an analyst asked directly on the Q1FY27 call whether the 20% target still stood, the answer was *"We are not giving a guidance of any particular percentage."* **Per §0A: with no guidance on record, I will not substitute a judgement for one. What can be said is that the company declines to be measured on the line that has disappointed.**
 
@@ -374,6 +378,23 @@ Anthem has sanctioned **up to ₹550cr** of financial assistance to Neoanthem, o
 
 ---
 
+### 🆕 Q2FY27 Refresh — Full Numbers Print *(10-Nov-2026; results and deck 3-Nov, call 4-Nov, official transcript filed 6-Nov and read in full)*
+
+| | Q2FY27 | Q2FY26 | YoY | H1FY27 | YoY |
+|---|---|---|---|---|---|
+| Revenue from operations | **₹594.0cr** | ₹550.5cr | **+7.9%** | ₹1,012.3cr | **−7.2%** |
+| — CRDMO | ₹509.3cr | | | ₹850.1cr | −7.6% |
+| — Specialty Ingredients | ₹84.8cr | | | ₹162.2cr | −5.6% |
+| EBITDA (company basis, **incl. other income**) | ₹330.4cr (50.6%) | ₹266.1cr (44.5%) | +24.1% | ₹505.9cr (46.2%) | +5.3% |
+| — of which other income | ₹58.9cr | ₹48cr | | ₹83.8cr | |
+| PAT | **₹211.5cr** | ₹173.4cr | +22% | ₹331.4cr | +7.2% |
+
+**Cash (rendered consolidated cash-flow statement):** H1 operating cash flow **₹318.2cr** (₹408.0cr in H1FY26); capex ₹110.5cr; dividend paid ₹112.7cr. **Net cash ₹1,538cr at 30-Sep, down from ₹1,720cr at 30-Jun** (deck; the CFO said ₹1,534cr). *The quarter carried the FY26 dividend and, on 8-Sep, the ₹127.68cr Upside Sharing settlement — my reading of why net cash fell; the filing does not bridge it.*
+
+**What the call added.** (1) **The first FY27 number, softly given: "double-digit growth definitely we will try to deliver"** — after declining guidance twice; H1 is −7.2%, so it requires a ~+28% second half. (2) **Customer concentration, a new cut: top 5 "about 50-odd percent", top 10 "about 80-odd percent"** — not comparable with the profile's top-3 of 56.71% (a different period and cut; not reconciled). (3) Mix: ~65% of revenue is commercial manufacturing of approved molecules, ~20% R&D and development supplies, ~15% Specialty Ingredients; ~84% international. (4) Unit 4 Phase 1 ~₹1,200cr intact; ~30–35% of future capex to biology. (5) **Not discussed: Neoanthem, GLP-1/CDSCO approval, the tax rate** — none asked, none volunteered.
+
+> **⤴ Correction (10-Nov-2026):** the 4-Nov dated note gave net cash as *"₹1,720cr (₹1,538cr)"*, which reads as a rise. The deck's figures are **₹1,720cr at 30-Jun → ₹1,538cr at 30-Sep — a fall of ₹182cr.** Original kept in the dropdown.
+
 ## 5. Connecting the Dots
 
 **The threads reinforce each other on the way up, and they will reinforce each other on the way down. That symmetry is the whole investment question.**
@@ -394,6 +415,7 @@ Anthem has sanctioned **up to ₹550cr** of financial assistance to Neoanthem, o
 |---|---|---|---|
 | **3-Sep-2026** *(added to the watchlist)* | **₹940** · mcap **₹52,943cr** | **MEDIUM-LOW** | Added at Rajat's request into **Sector 12 (Pharma & Excipients)** — a CRDMO fits the existing definition alongside CONCORDBIO and MOREPENLAB, **no sector expansion triggered**. **🟢 Gate GREEN on 11 primary docs — every call since the 21-Jul-2025 listing.** **🟢 The business is the best on returns in its peer set: FY26 post-tax ROCE 30.8%, ROE 21.7%, EBITDA margin 39–43%, CFO 126% of operating profit, net cash ₹1,720cr, borrowings ₹113→₹54cr, zero promoter pledge, ICRA upgraded to AA (Stable)/A1+ on 2-Jul-2026, and the IPO was 100% OFS so none of the cash was raised.** **🔴 But three customers are 56.71% of revenue, Q1FY27 revenue fell 22.6% YoY, and TTM revenue (₹2,002cr) is now BELOW FY26 (₹2,124cr) — the multiple sits on trailing earnings that are shrinking.** **🔴 Guided ~20% revenue for FY26 in Aug-2025, delivered 15.2%, then declined to guide FY27 at all on both subsequent calls.** **🔴 Promoter holding fell 74.68% → 71.42%; cause FOUND and fully reconciled — Aruna Ganesh (promoter group) sold her entire 1.71cr shares / 3.05% on 18-Jun-2026, disclosed under Reg 29(2) on the BSE feed only; but the "Open Market" mode does not reconcile with NSE volume and is logged as an open item.** **🔴 The Upside Sharing Arrangement paid ~₹127.68cr to the three founders out of Viridity Tone's exit — passed at the AGM but with 21.67% of INSTITUTIONAL votes against, against ≤4.8% on every other resolution.** **🟡 Neoanthem/Unit 3 holds ~₹570cr of parent capital against ₹71cr of revenue and a ₹79cr loss.** **At 89x on a −22.6% quarter.** |
 | **19-Sep-2026** *(filings refresh)* | **₹928** · mcap ₹52,306cr | **MEDIUM-LOW** — unchanged | **The ₹127.68cr Upside Sharing Arrangement was settled with the three founders on 8-Sep** (approved at the 22-Jul AGM); no other filing. Stock −1.3%. |
+| **10-Nov-2026** *(Q2FY27 Tier-A, transcript read)* | **₹958** · mcap ₹53,989cr | **MEDIUM-LOW** — held | **Q2 recovered (+7.9% YoY, +42% QoQ) — the downgrade trigger did not fire.** First soft FY27 guide ("double-digit") needs a ~+28% H2. Net cash fell ₹182cr in the quarter. Re-priced on unchanged cases: **≈ −10%** (−7.7% at initiation). |
 
 **The starting position in one line.** ***A genuinely excellent business — possibly the best operating economics on this watchlist — bought at a price that requires the three-customer revenue base to compound at 20% for years, in the same quarter that it shrank 23%.***
 
@@ -451,17 +473,35 @@ Anthem has sanctioned **up to ₹550cr** of financial assistance to Neoanthem, o
 
 **Upgrade trigger:** two consecutive quarters of YoY CRDMO growth **plus** Neoanthem at or above break-even. **Downgrade trigger:** Q2FY27 fails to recover, or top-3 concentration rises again, or any disclosure that a top-3 customer is reducing scope.
 
+> **10-Nov-2026 status.** Downgrade: Q2 recovered ✅ (no fire) · top-3 concentration — not re-disclosed (the call gave top-5/top-10, a different cut) · no top-3 scope reduction disclosed. Upgrade: CRDMO grew YoY in Q2 (₹509cr; H1 still −7.6%) — one quarter, not two; Neoanthem not discussed.
+
 ---
+
+### 📊 10-Nov-2026 — Q2FY27 scored
+
+**Where it trades (Screener, 10-Nov-2026 close):** CMP **₹958** · market cap ₹53,989cr · P/E 85.5x · +1.9% since the 3-Sep initiation (₹940).
+
+**Re-priced on the unchanged scenarios (from ₹53,989cr):** base ₹48,100cr → **−11%** · bull ₹74,800cr → **+39%** · bear ₹18,400cr → **−66%**. **Weighted ≈ −10%** *(0.55 × −11 + 0.25 × 39 − 0.20 × 66)*. The base case already assumed FY27 ~+11% — management's "double-digit" now matches it, so the case is not changed; the price has risen slightly.
+
+**Conviction: HELD at MEDIUM-LOW.** *Still a price judgement, not a business one. Next test: Q3 has to deliver most of a ~+28% H2.*
 
 ## 7. What Could Prove Us Wrong
 
 1. **🔴 Customer concentration — the risk that contains all the others.** Top 3 = 56.71%. Anthem does not name them, does not disclose molecule-level concentration, and does not publish a rupee order book. **A single account moving to dual-source could take 10–20% off revenue in a year.** Falling from 61.18% is genuine progress and does not change the order of magnitude.
+
+> ⤴ **UPDATE (Q2 call, 4-Nov-2026):** top 5 *"about 50-odd percentage"*, top 10 *"about 80-odd percentage"* — a new cut, not comparable with the top-3 figure.
 2. **🔴 The multiple is the position.** 89x with TTM revenue below the last full year. Any quarter that disappoints costs twice — earnings and rating.
 3. **🔴 Two of the last three quarters shrank.** Q3FY26 −15.1%, Q1FY27 −22.6%. Management's "lumpiness" explanation is coherent and consistent, and FY26 as a whole supports it. **But the same evidence is consistent with a growth base that has plateaued, and there is no guidance on record to distinguish them.**
+
+> ⤴ **EASED (Q2FY27):** revenue +7.9% YoY, +42% QoQ — but H1 is still −7.2%.
 4. **🔴 No FY27 guidance exists.** After missing FY26's revenue number, management declined to give one twice. **There is nothing to hold them to.**
+
+> ⤴ **UPDATE (Q2 call):** *"Double-digit growth definitely we will try to deliver"* — a soft target, not guidance, needing ~+28% in H2.
 5. **🔴 Neoanthem must turn.** ~₹570cr of parent capital, ₹71cr of revenue, −₹79cr PAT, −₹141.7cr accumulated reserves, ₹49cr of parent guarantees. **Break-even was promised for FY27.**
 6. **🟡 Capacity is running ahead of demand.** Gross fixed asset turnover 1.51x → 1.10x. Unit 2's custom-synthesis utilisation *fell* 65% → 50% after its expansion. ₹1,200cr more is going into Unit 4, ₹700cr of it in FY27 — with FY28 depreciation arriving regardless of volumes.
 7. **🟡 GLP-1 has been a story for four calls and zero rupees.** Flagged from Aug-2025; still awaiting CDSCO. **Nothing in the current numbers depends on it — which also means nothing in the current numbers would be hurt if it never arrives. Do not underwrite it.**
+
+> ⤴ **UPDATE (Q2 call):** GLP-1/Semaglutide and CDSCO were not raised — now five calls.
 8. **🟡 The Upside Sharing Arrangement, and what the institutions did about it.** ₹127.68cr to three founders keyed to a shareholder's exit price. Disclosed impeccably; **21.67% of institutional votes against, versus ≤4.8% on every other resolution.** The arrangement is now discharged, but it establishes what this board will recommend.
 9. **🟡 The promoter-group exit's mode is unreconciled.** 1.71cr shares recorded as an "Open Market" sale on a day NSE traded 12.53 lakh. **Stated as an open question, not a finding.**
 10. **🟡 Three EBITDA bases and a thin quarterly deck.** The Q1FY27 deck runs four substantive slides — no pipeline detail, no geography, no order book, no customer split. Peers publish 30–40 pages. **Disclosure is compliant; it is not generous.**
@@ -484,6 +524,8 @@ Technically the most gifted player in the room — a touch nobody else in the In
 ---
 
 ## 9. Community Pulse
+
+**⤴ 10-Nov-2026:** still no dedicated ValuePickr thread; no forum mention of the Q2 print found (search since 30-Oct, and Phreak's topic 180929 read to 9-Nov).
 
 **🔴 There is no dedicated ValuePickr thread for Anthem Biosciences.** Fourteen months after a ₹3,395cr IPO, at a ₹53,000cr market cap, the name appears only as scattered mentions inside other threads — 14 hits across the whole forum. **For comparison, most names on this watchlist a fraction of the size have their own thread. That absence is itself information: this is an institutionally-held stock (DIIs 7.21% → 13.48% in four quarters) that the retail research community has not engaged with.**
 
@@ -516,6 +558,8 @@ A separate post (#233, 16-May-2026) claims Anthem also supplies into **Rinvoq** 
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (10-Nov-2026 refresh):** press release and deck 3-Nov; consolidated results 3-Nov (cash-flow statement rendered and read); **official transcript of the 4-Nov call (filed 6-Nov), read in full**; ValuePickr search; Screener 10-Nov-2026 close.
 
 - **Concalls read (5 — the complete set since listing):** Q1FY27 (22-Jul-2026, transcript filed 27-Jul-2026, **primary**) · Q4 & FY26 (20-May-2026) · Q3 & 9MFY26 (5-Feb-2026) · Q2 & H1FY26 (10-Nov-2025) · Q1FY26 (14-Aug-2025, the company's first post-listing call). All read in full from `pdftotext -layout` extractions.
 - **Investor decks (6):** same five periods, plus a revised Q1FY27 deck. **⚠️ REVISED/SUPERSEDED (§4A): the Q1FY27 deck was filed twice on 21-Jul-2026 — 16:20 IST original, 19:09 IST "revised… supersedes and replaces". Bodies diffed in full; the sole change is a column-header date typo (`June 30, 2026 / June 30, 2027` → `June 30, 2025 / June 30, 2026`). No figure changed. Quoted only from `_REVISED`; `_SUPERSEDED` retained as evidence.**

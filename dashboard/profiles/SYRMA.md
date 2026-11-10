@@ -220,6 +220,13 @@ Every electronic product you buy — a smart meter, a car dashboard, a hearing a
 | **Working capital** | Q1FY27 | **63 → 71 days on a deliberate inventory build**, framed as *"a strategic asset… for a quarter or so"* | 🕐 **Time-boxed — check at Q2** |
 | Supply chain | Q1FY27 | *"War room"* formed; specialty chemicals and component lead times flagged; **normalisation expected by end CY2026** | 🕐 |
 | **Order book growth vs revenue growth** | — | Book **+17% since Sep-2025** against revenue growing far faster; **coverage ~1.9x → ~1.1x** | 🔴 **Thinning** |
+| *(10-Nov)* **FY27 revenue growth 35% → raised to 40–45% (~₹7,000cr)** | Q2FY27 call (2-Nov) | H1 revenue ₹3,578cr (+71%); *"$1 billion next year"* (FY28) | ✅ **Raised on delivery** |
+| *(10-Nov)* EBITDA margin | Q2 call | H1 9.9% (10.1%); FY27 *"10% to 10.5%"*; FY28–29 *"10.5% to 11% or maybe marginally better"* as PCB and magnets arrive | 🕐 |
+| *(10-Nov)* **Working capital back to ~63 days** | Q1FY27 ("a quarter or so") | **63 days at Sep-26** (71 in Jun, 73 a year ago) | ✅ **Reversed on time** |
+| *(10-Nov)* Operating cash | Q1: negative, "see from the prism of 1 year" | **H1 OCF ~₹120cr, ~34% of EBITDA**; net cash ₹258cr, treasury ~₹1,000cr | 🟡 **Positive, low conversion** |
+| *(10-Nov)* PCB plant | Commercial production April 2027 | ~₹200cr spent, ~₹200cr more this year; power-on by March, trials, **"by about September of '27, we should start the volume production"** — while the CFO still says *"commercial production start… by April '27"* | 🟡 **Two dates on one call** |
+| *(10-Nov)* Exports | FY27 ₹1,500–1,600cr | Now **₹1,700cr+ FY27, ~₹2,000cr FY28**; H1 ₹901cr | ✅ |
+| *(10-Nov)* ODM | — | H1 ₹591cr (+117%); FY27 ₹1,000–1,100cr | ✅ |
 
 **Verdict on management:** ***This is the most credible management communication in the current batch, and the contrast is instructive.*** *They quantify the order book when several peers refuse to; they publish explicit multi-year guidance and say plainly when they expect to beat it; they raised the supply-chain risk and the inventory decision **before being asked**, with a stated reversal point; and when an analyst probed whether the quarter contained one-offs, Gujral answered directly — **"there has been no one-time transaction… these are normal run-of-the-mill numbers"** — and had the CFO confirm it. **The explanation of percentage-margin dilution under component-cost pass-through was volunteered, not extracted.*** **The open questions are ordinary ones:** *whether working capital reverses after the strategic build, how the new CEO's remit divides against a continuing founder-MD, and — the sharpest of the three — **whether the order book can keep pace.*** *One presentational note: the Q4FY26 transcript records the March order book as "about ₹600 crores" where the series and the vertical split both imply ~₹6,000cr. Small, but it propagated into the initiation profile unchallenged.*
 
@@ -332,6 +339,19 @@ And Gujral on the backdrop:
 
 ---
 
+### 🆕 Q2FY27 Refresh — Full Numbers Print *(10-Nov-2026; results 30-Oct, call 2-Nov, official transcript filed 6-Nov and read in full)*
+
+| | Q2FY27 | YoY | H1FY27 | YoY |
+|---|---|---|---|---|
+| Revenue | **~₹2,000cr** | **+73%** | ₹3,578cr | +71% |
+| Operating EBITDA | ₹193cr | +68% | ₹355cr (9.9%) | +68% |
+| PBT | ₹165cr | | ₹306cr | +95% |
+| PAT | **₹124cr** | **+87%** | ₹230cr | +98% |
+
+**H1 already exceeds all of FY25** on revenue, EBITDA, PAT, exports (₹901cr vs ₹854cr) and ODM (₹591cr vs ₹453cr) — the CFO's framing. Automotive revenue +91%. **Open order book ₹7,420cr** (auto ~30%, consumer and industrial ~25% each, healthcare 8%, IT/railways 12%+); top 10 customers ~50% of revenue, top 20 ~66%.
+
+**What the call added.** (1) **Guidance raised to 40–45% (~₹7,000cr)** and ~$1bn revenue in FY28; 30–35% growth for three to five years after. (2) **Working capital reversed to 63 days, as promised** — but H1 operating cash conversion is ~34% of EBITDA. (3) Supply-chain constraints expected to ease only in April–June 2027; cost push is passed through, diluting the percentage margin. (4) PCB: power-on by March, volume production ~September 2027 (commercial start still "April '27"). (5) Semiconductor (ISM): interested only with a credible partner, *"something concrete in the next 6 months"* — no commitment.
+
 ## 5. Connecting the Dots
 
 **Five threads, and what matters is that they are orthogonal rather than sequential.**
@@ -363,9 +383,12 @@ And Gujral on the backdrop:
 | 3-Jul-2026 | **Medium** | ~₹1,010 | ~+10% | Initiated at **82.8x** on the view that the multiple priced growth that had yet to appear |
 | **15-Aug-2026** | **Medium → Medium-High** | **₹1,465** | **~+15%** | **The growth appeared — revenue +67%, PAT +112%, guidance to be exceeded, order book quantified, cash flow positive — and the multiple came DOWN to 76.1x anyway. The only upgrade in the batch** |
 | **19-Sep-2026** *(filings refresh)* | **HELD at Medium-High** | **₹1,729** | *(~+15% at ₹1,465; thinner at ₹1,729)* | **Elemaster JV plant inaugurated (2-Sep); Syrma Kaga incorporated (18-Aug); Executive Chairman re-appointed. Stock +18% to 90x.** |
+| **10-Nov-2026** *(Q2FY27 Tier-A, transcript read)* | **HELD at Medium-High** | **₹1,462** | **≈ +15%** *(re-priced, unchanged cases)* | **No trigger fired:** working capital back to 63 days; guidance raised to 40–45%; PCB commercial start still April 2027 (volume production ~Sep-27). **Upgrade not met:** H1 OCF/EBITDA ~34% (needs 65%). |
 
 **🎯 Downgrade back to Medium if:** working capital days rise above 71 again in Q2FY27 without a stated reason, **or** FY27 revenue growth falls below the 35% guide, **or** PCB commissioning slips beyond April 2027.
 **🎯 Upgrade to High if:** the *"giants"* convert to series supply with disclosed volumes, **and** operating cash flow holds above 65% conversion through a year of 30%+ growth.
+
+> **10-Nov-2026 status.** Downgrade: working capital >71 days — ❌ (63) · FY27 growth below 35% — ❌ (guide raised to 40–45%) · PCB beyond April 2027 — ❌ on the commercial-start date, 🟡 volume production now ~Sep-27. Upgrade: giants in series supply with volumes — not disclosed · **OCF conversion >65% — ❌ (~34% in H1).**
 
 **Valuation, then and now:**
 
@@ -472,19 +495,35 @@ CFO: *"**every year we take this QIP resolution from the AGM**… an **enabling 
 
 ---
 
+### 📊 10-Nov-2026 — Q2FY27 scored
+
+**Where it trades (Screener, 10-Nov-2026 close):** CMP **₹1,462** · market cap ₹28,192cr · P/E 66.4x · flat against the 15-Aug write (₹1,465).
+
+**Re-priced on the unchanged scenarios (from ₹28,192cr):** base ₹32,500cr → **+15%** · bull ₹48,360cr → **+72%** · bear ₹16,640cr → **−41%**. **Weighted ≈ +15%**, unchanged. **The base case assumed FY27 ~₹6,700cr; management now guides ~₹7,000cr.** The bear case's "working capital does not reverse" did not happen. The case is stronger on revenue; the multiple (66x) still leaves the return modest.
+
+**Conviction: HELD at MEDIUM-HIGH.** *Upgrade path unchanged: a year of 30%+ growth with OCF conversion above 65%.*
+
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — 🔴 The starting multiple.** 76.1x on a 14.0% ROE, 9.9x book, after +112% in a year and 5% off an all-time high. **The base case requires a de-rating to 50x and still returns only 15% over two years.**
 
 **Risk 2 — 🔴 Order book coverage is thinning.** ₹6,770cr growing ~17% since Sep-2025 against revenue growing far faster — **coverage ~1.9x → ~1.1x annualised.** *EMS books are rolling rather than backlog-like, but this cannot continue indefinitely.* **The single most important number to watch.**
 
+> ⤴ **UPDATE (Q2 call):** open order book ₹7,420cr (₹6,770cr earlier); management: orders are firm POs, not the frame contracts that drive revenue — coverage ~1.1x of FY27 guide.
+
 **Risk 3 — 🟡 Percentage margins face a mechanical headwind** while component prices rise. **Judge on absolute EBITDA growth, not OPM** — but the market will judge on OPM.
 
 **Risk 4 — 🟡 Working capital may not reverse.** 63 → 71 days, framed as time-boxed to *"a quarter or so."* **If it keeps climbing past Q2, the "strategic asset" framing becomes a symptom.** *And the ODM shift structurally carries more inventory and longer receivables, so some of this is permanent.*
 
+> ⤴ **RESOLVED FOR NOW (Q2FY27):** 63 days at September, as promised — but H1 OCF is only ~34% of EBITDA.
+
 **Risk 5 — 🟡 Supply chain.** Specialty chemicals for PCB manufacture and component lead times, with a **"war room"** in place and normalisation expected only by **end CY2026.**
 
+> ⤴ **UPDATE (Q2 call):** constraints expected to ease only in April–June 2027.
+
 **Risk 6 — 🟡 PCB commissioning slips** beyond April 2027, or the ECMS incentive does not land as assumed.
+
+> ⚠️ **WATCH (Q2 call):** commercial start still "April '27", but volume production "by about September of '27".
 
 **Risk 7 — 🟡 Retail concentration.** **+25,163 shareholders (+14%) in a single quarter near a high.** *Institutions are holding rather than selling — better than the AZAD picture — but this reverses badly if growth stumbles.*
 
@@ -512,6 +551,8 @@ CFO: *"**every year we take this QIP resolution from the AGM**… an **enabling 
 
 ## 9. 📢 Community Pulse
 
+**⤴ 10-Nov-2026 — first scan: ValuePickr topic 131748, "Syrma SGS an Export Substitution opportunity in EMS sector" (44 posts, last 4-Aug-2026).** The last substantive post is a Q3FY26 summary (#53, Krishna_Kumar, March); since then, price-chart chatter (#55–57). **No reaction to Q1 or Q2. Sentiment: ⚪ DORMANT.** Substack and X not run — still a gap.
+
 *Refreshed each review cycle. **Not yet scanned in this cycle.***
 
 **🔴 No community scan has been run on SYRMA** — no ValuePickr thread read, no Substack search, **no X panel run.** Stated as a gap.
@@ -527,6 +568,8 @@ CFO: *"**every year we take this QIP resolution from the AGM**… an **enabling 
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (10-Nov-2026 refresh):** results 30-Oct; ESOP grant 30-Oct; **official transcript of the 2-Nov call (filed 6-Nov), read in full**; ValuePickr topic 131748; Screener 10-Nov-2026 close.
 
 **Primary documents:**
 - **Q1FY27 earnings call transcript** — call **30-Jul-2026**, filed 4-Aug-2026 (90,971 characters). **The central document.** Source for the guidance and the *"we should exceed"* language, the margin-dilution explanation, the working-capital and *"strategic asset"* framing, the supply-chain *"war room"*, the QIP resolution, the order-book figure and vertical split, customer concentration, the PCB timeline and the one-off question. Management: **J.S. Gujral (MD), Jayesh Doshi (WTD), Jaidit Singh Brar (CEO), Bijay Agrawal (CFO), Nikhil Gupta (Head IR)**. Analysts: **ICICI Securities, Motilal Oswal, JP Morgan**, among others.

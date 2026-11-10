@@ -279,6 +279,12 @@ Screener P/E 112x, ROCE 26.5%; market cap ₹21,937cr; promoter 74.04%; 52-week 
 | **6th CCV line** | — | Order to be placed within Aug-2026; delivery Aug-2027; **commissioned by Dec-2027** | 🕐 Open — **⤴ 22-Oct-2026: formally disclosed (₹25cr, internal accruals), machinery Aug-2027, commissioning 31-Dec-2027 — on schedule** |
 | **4th rod mill** | — | *"should start by 15th of October"* | 🕐 Open |
 | **Additional MV silane line** | — | *"somewhere by 15th of September"* | 🕐 **Due now** |
+| *(10-Nov)* **FY27 revenue ₹4,300–4,500cr at 11–13%** | Reaffirmed on the Q2 call (4-Nov) | **Q2 ₹1,031.9cr (+135%), EBITDA 12.9% incl. other income (11.2% ex).** H1 ₹1,721.8cr — H2 must deliver ~₹2,580cr (*"most of the cable companies do… 60% come in quarter 3 and 4"*) | ✅ **Step-up began** |
+| *(10-Nov)* EBITDA band | Q2 call | *"EBITDA margins will always remain between 11% to 13%"* until the polymer plant; then *"a band of 14% to 16%"* | 🕐 |
+| *(10-Nov)* Legacy receivable recovery | Aug-2026 call (no estimate in the profile) | *"We are positive on recovering INR300 crores, out of which around INR116 crores is now quantified"* with customer confirmation — **and, asked about FY27: *"We did not say that in FY27"*** | 🕐 **First number; no date** |
+| *(10-Nov)* Export order book ₹500cr before year-end | Q1FY27 call | A Middle-East distributor appointed; *"in financial year 2027-28, a large contribution shall come from export"* — **no export order disclosed** | 🔴 **Pushed to FY28** |
+| *(10-Nov)* 6th CCV line; polymer complex | Q1FY27 / 22-Oct | 6th CCV **ordered**; polymer complex ₹170cr (Phase 1 ₹78cr, 66,500 t, all captive) on stream by Dec-2027; ~₹366cr across six or seven margin projects | 🕐 |
+| *(10-Nov)* Adani share of revenue to ~20% | Q2 call | Adani <30% of Q2 revenue; **43% of the order book** | 🟡 |
 
 **Verdict on management.** ***On the things that were broken, this team has fixed a remarkable amount in one quarter: a criminal case, an audit qualification, a listing breach, and a negative net worth — four separate existential-category problems, all resolved between May and July 2026.*** **They have also commissioned three production lines on schedule and started an investor-communication programme where none existed.**
 
@@ -417,6 +423,21 @@ Screener P/E 112x, ROCE 26.5%; market cap ₹21,937cr; promoter 74.04%; 52-week 
 **Capacity coming:** 4th rod mill **~15-Oct-2026** · additional MV silane line **~15-Sep-2026** · 5th CCV line **March 2027** · two aluminium corrugation lines (₹17cr, converting 33kV → 66/132kV) · 6th CCV line **by Dec-2027** · **LV/copper project, commercial production FY28**, ~42,000 km and revenue potential ~₹1,880cr.
 
 ---
+### 🆕 Q2FY27 Refresh — Full Numbers Print *(10-Nov-2026; deck and results 3-Nov — the deck is image-only and was rendered; call 4-Nov, official transcript filed 7-Nov and read in full)*
+
+| | Q2FY27 | Q2FY26 | YoY | Q1FY27 | H1FY27 | H1 YoY |
+|---|---|---|---|---|---|---|
+| Revenue from operations | **₹1,031.9cr** | ₹438.3cr | **+135%** | ₹689.9cr | ₹1,721.8cr | +133% |
+| Operating EBITDA (ex other income) | ₹115.1cr (**11.2%**) | ₹45.9cr | +151% | ₹77.0cr | ₹192.0cr (11.2%) | +150% |
+| EBITDA incl. other income | ₹133.2cr (12.9%) | ₹46.0cr | +189% | ₹84.6cr | ₹217.9cr (12.7%) | |
+| PAT | **₹107.9cr** | ₹27.7cr | 3.9x | ₹58.4cr | ₹166.3cr | 2.4x |
+
+Contribution margin fell to **16.9% from 18.7%** — higher LME aluminium inflating the revenue base under price-variation clauses (management manages on ₹/tonne). Mix: cables 40%, conductors 31%, **data-centre cables ₹242cr (23%)** from a copper line that did not exist in Q1 (1,500 t/month, going to 2,500). H1 inflow ₹2,217cr, book-to-bill 1.29x; firm book ₹3,735cr (~₹4,300cr at current metal prices); ~670 customers in H1.
+
+**Cash and balance sheet (deck pp. 11–12, rendered).** Net worth **₹764cr** (−₹604cr in March) after the ₹1,614cr QIP; **net cash ₹572cr** (net debt ₹527cr in March); promoter and inter-corporate deposits of ₹391cr repaid; the Resolution Plan's ₹501cr pre-paid a year early. **But the H1 bridge shows a ₹683cr working-capital build against ₹193cr of operating profit before working capital** — net receivables ₹374cr → ₹850cr, inventory ₹369cr → ₹575cr. ***H1 operating cash flow ≈ −₹426cr (my arithmetic from the deck's bridge: 193 + 64 − 683); the QIP paid for the growth.*** The CMD's *"a balance sheet that has gone from negative net worth to a positive cash flow"* does not match his own deck's bridge.
+
+**What the call added.** (1) A new CFO (Kundip Thakker). (2) **Margin band fixed at 11–13% until the polymer plant (Dec-2027), then 14–16%.** (3) First recovery number on the legacy ₹957cr: ₹300cr hoped, ₹116cr customer-confirmed — not dated to FY27. (4) Exports deferred to FY28. (5) Deck targets ₹7,500cr FY28 and ₹10,000cr FY29 — the CMD says capex and infrastructure are *"already… in place"*.
+
 ## 5. Connecting the Dots
 
 **Thread A — 🟢 Four existential problems were closed in one quarter, and that is not a small thing.** **A criminal case dating to 2018, an audit qualification, a listing breach carrying a fine, and a negative net worth of ₹922cr — all resolved between 8 May and 28 July 2026.** *Whatever else is true, this is no longer the same risk object the v2 profile described.*
@@ -447,6 +468,7 @@ Screener P/E 112x, ROCE 26.5%; market cap ₹21,937cr; promoter 74.04%; 52-week 
 | **15-Jul-2026** *(v2)* | **₹196** · mcap **₹10,321cr** | **SPECULATIVE** · ~+22% | Rebuilt with the **Q3FY26 investor PPT**, fetched via a new method (`web_fetch` on an api.cors.lol URL) later codified in CLAUDE.md §4A. Added the ECHO Conductor order, Vision 2030, the capex plan and the retail LV mix shift 4% → 23%. **Carried the standing caveat that DIACABS files no concall transcripts, and flagged 105x P/E, negative book value ₹−13.6 and the MPS fine as the reasons for a speculative rating.** **Base case put FY28 mcap at ~₹11,200cr (+9%); bull at ~₹20,000cr (+94%).** |
 | **31-Aug-2026** *(this profile)* | **₹341** · mcap **₹20,394cr** | **SPECULATIVE → MEDIUM-LOW** | Converted to always-current format on the **first earnings-call transcript this company has ever filed** plus a 58-filing NSE sweep. **🟢🟢 THE CONCALL CAVEAT IS RETIRED.** **🟢 Q1FY27 ₹690cr (+129%), PAT ₹58.5cr (+191%), 12.3% margin — earned before any QIP money was deployed.** **🟢 ₹1,613.97cr QIP at ₹227 closed 28-Jul: net worth −₹922cr → +₹691cr, MPS compliance achieved, DII 0.23% → 10.94%.** **🟢 CBI/ED/PMLA discharge 8-May released a 2018 embargo on ~₹1,000cr+ of assets.** **🟢 Audit qualification resolved.** **🟢 Copper line commissioned 20-Aug — a new capability.** **🎯 First-ever guidance: FY27 ₹4,300–4,500cr at 11–13%.** **🔴 But Q4FY26 → Q1FY27 was FLAT (₹696cr → ₹690cr); ₹350cr of the QIP repaid a promoter loan; FY26 FCF −₹162cr; and the stock has doubled.** **⚠️ Found the exchange correspondence showing the MPS breach was fined and "still continuing" — context the call did not give.** |
 | **19-Sep-2026** *(filings refresh)* | **₹367** · mcap ₹21,937cr | **HELD at MEDIUM-LOW** | **₹519cr of new orders (MSEDCL ₹263cr, Adani Electricity Mumbai ₹179cr, 66 kV EHV ₹76cr); full exit from the NCLT framework a year early with ₹501cr prepaid (11-Sep); MPS penalty ₹1.65 lakh per exchange (7-Sep).** Stock +7.6% at 112x. First credit rating now possible. |
+| **10-Nov-2026** *(Q2FY27 Tier-A, transcript read)* | **₹372** · mcap ₹22,227cr | **HELD at MEDIUM-LOW** | **The step-up began: Q2 ₹1,032cr (line ₹1,000cr) at 12.9% (line 11%). No downgrade trigger fired.** Upgrade test not met: one quarter, below ₹1,100cr; **H1 operating cash ≈ −₹426cr** (deck bridge, my arithmetic); no export order. Re-priced on unchanged cases: **≈ −1%**. |
 
 **The trajectory in one line.** ***v2 was right that this was a real turnaround and wrong about how fast it would be recognised: its two-year bull case market cap arrived in seven weeks, which means the next two years now have to deliver the bull case just to stand still.***
 
@@ -521,17 +543,33 @@ Screener P/E 112x, ROCE 26.5%; market cap ₹21,937cr; promoter 74.04%; 52-week 
 
 **🟢 Upgrade to MEDIUM on:** **two consecutive quarters above ₹1,100cr of revenue at an 11%+ margin, positive operating cash flow for FY27, and the first disclosed export order.** ***That would convert the guidance from an assertion into a demonstrated run-rate, which is the only thing this valuation is missing.***
 
+> **10-Nov-2026 status — none of the six downgrade triggers fired:** Q2 revenue ₹1,031.9cr (≥₹1,000cr) · EBITDA 12.9% incl. other income, 11.2% ex (≥11% — close on the ex basis) · FY27 guide reaffirmed ₹4,300–4,500cr · no write-off on the legacy receivable · no equity raise; promoter not re-tested this half · no regulatory action. **Upgrade: not met** — Q2 below ₹1,100cr, **H1 operating cash ≈ −₹426cr**, no export order.
+
 ---
+### 📊 10-Nov-2026 — Q2FY27 scored
+
+**Where it trades (Screener, 10-Nov-2026 close):** CMP **₹372** · market cap ₹22,227cr · P/E 80.4x · +9.1% since the 31-Aug write (₹341).
+
+**Re-priced on the unchanged scenarios (from ₹22,227cr):** base ~₹21,770cr → **−2%** · bull ₹38,250cr → **+72%** · bear ~₹6,530cr → **−71%**. **Weighted ≈ −1%** *(0.50 × −2 + 0.25 × 72 − 0.25 × 71)*. ***The business did what the bull case needed in Q2 — and the price already carries it.*** The bear case's "working capital keeps consuming cash" is the part H1 confirmed.
+
+**Conviction: HELD at MEDIUM-LOW.** *Next test: Q3 revenue above ₹1,100cr and the H2 working-capital release management implies.*
+
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — 🔴 The guidance step-up may not happen.** **₹690cr in Q1 against ₹1,203–1,270cr a quarter needed.** *The whole valuation rests on this. The monsoon explanation is specific and quantified, and the seasonality claim is checkable against history — but the last two quarters were flat, and Q2FY27 in November is the first honest test.*
+
+> ⤴ **EASED (Q2FY27):** ₹1,032cr, +50% QoQ — the step-up began; H2 still needs ~₹2,580cr.
 **⚠️ ACCUMULATING:** Q4FY26 ₹696cr → Q1FY27 ₹690cr.
 
 **Risk 2 — 🔴 The multiple.** **104x trailing, ~10.7x sales, on a company whose peer set trades at 24–61x.** ***Tax-adjusted the premium is much smaller (~54x vs 47x for Polycab) — but the tax shield expires in about two years, and when it does, reported earnings fall ~25% with no change in the business.***
 
 **Risk 3 — 🔴 Working capital and cash conversion.** **FY26 CFO −₹80cr, FCF −₹162cr, CFO/OP −36%.** *₹735cr of the QIP is earmarked for working capital, which funds the problem rather than fixing it. At 2x revenue growth, receivables and inventory grow faster than profit.*
 
+> ⚠️ **SHARPENED (H1FY27):** the deck's own bridge shows a ₹683cr working-capital build against ₹193cr of operating profit — H1 operating cash ≈ −₹426cr (my arithmetic). Net receivables ₹374cr → ₹850cr.
+
 **Risk 4 — 🔴 The ₹957cr of legacy receivables.** *Pre-NCLT trade receivables that survived an insolvency and an eight-year criminal embargo. **Management gave no recovery estimate when asked directly.** A material write-off is a live possibility and would land straight in the P&L.*
+
+> ⤴ **UPDATE (Q2 call):** ₹300cr expected to be recovered, ₹116cr confirmed by customers; *"We did not say that in FY27"* — no date.
 
 **Risk 5 — 🔴 Metal price transmission.** *"aluminum was $3,800 [in May]. And by the end of June, it came down to $3,000."* **Management says contracts are *"completely back-to-back"* on metal and polymer pass-through — but also that *"a portion of our order book is executed at prices agreed before this input moved, so the pass-through… reaches us with a lag."*** *Both are true; the lag is the risk, and it cuts both ways.*
 
@@ -540,7 +578,11 @@ Screener P/E 112x, ROCE 26.5%; market cap ₹21,937cr; promoter 74.04%; 52-week 
 
 **Risk 7 — 🟡 Order-book concentration, improving but historically the central concern.** **The sharpest post on the ValuePickr thread, written when the thesis was first formed, was exactly this:** *"concentration of orderbook towards a single entity which can lead to lower negotiation power for Diamond. It almost operates as a proxy player for that client."* ***The Q1FY27 disclosure partly answers it — 670 active customers, 200+ in the order book, 12 product lines, and named orders from four different counterparties. But no customer-concentration percentage was disclosed and none was asked for.***
 
+> ⤴ **UPDATE (Q2 call):** Adani 43% of the order book, under 30% of Q2 revenue; target ~20% over time.
+
 **Risk 8 — 🟡 Key-management instability.** **CFO/WTD resigned May-2026, Company Secretary stepped down June-2026, WTD chair empty eleven weeks, and the FY25 audit-qualification statement went unsigned because no one held the office.** *Three of the four senior roles named in this profile have been held for less than four months.*
+
+> ⤴ **UPDATE (4-Nov-2026):** a new CFO, Kundip Thakker, was on the Q2 call.
 
 **Risk 9 — 🟡 Liquidity and listing structure.** **NSE series BE** — the trade-for-trade segment. **74,023 shareholders and a 74% promoter means a small genuine float**, which amplifies moves in both directions and has plainly contributed to a 74% gain in seven weeks.
 
@@ -572,6 +614,8 @@ Screener P/E 112x, ROCE 26.5%; market cap ₹21,937cr; promoter 74.04%; 52-week 
 
 ## 9. Community Pulse
 
+**⤴ 10-Nov-2026:** ValuePickr topic 360 — still 22 posts, last 3-Aug-2026; **no reaction to the step-up quarter.**
+
 **ValuePickr — "Diamond Power Infrastructure Ltd", topic 360. 22 posts, last activity 3-Aug-2026.** *A thin thread, and it thinned further just as the stock doubled.*
 
 - **#22, the_solo_investor, 3-Aug-2026 🟡 — much the most useful post, and it is a candid post-mortem of a missed call.** *"When I started studying this company, it was coming out of bankruptcy… **My major concerns during that time were — concentration of orderbook towards a single entity which can lead to lower negotiation power for Diamond. It almost operates as a proxy player for that client.**"* On the QIP: *"Now that they have raised close to ~₹1,000 cr from mutual funds, it presents more credibility."* And on his own decision: *"I did not buy it, couldn't get myself to buy it… Risk reward for small position in the overall portfolio looked attractive, but **seemed pure speculative**… coming out of bankruptcy itself is a difficult task. It is very easy for me to study and write about it but 1000x more difficult to execute on the ground for the management team."*
@@ -589,6 +633,8 @@ Screener P/E 112x, ROCE 26.5%; market cap ₹21,937cr; promoter 74.04%; 52-week 
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (10-Nov-2026 refresh):** results and image-only investor deck 3-Nov (P&L, balance sheet and funds-flow slides rendered and read); **official transcript of the 4-Nov call (filed 7-Nov), read in full**; ValuePickr topic 360; Screener 10-Nov-2026 close.
 
 - **🟢🟢 Q1FY27 earnings call transcript — the first this company has ever filed.** Call held **14-Aug-2026**, hosted by Monarch Networth Capital, transcript filed **21-Aug-2026** (18 pages, read in full). Management on the call: **Amit Bhatnagar (Head Corporate Strategy), Pawan Lohiya (CFO), Umesh Chhaya (Whole-time Director).**
 - **NSE exchange filings pulled fresh for this refresh** (`corporate-announcements`, `index=equities&symbol=DIACABS`; **58 records 1-May → 31-Aug-2026**), of which **~30 downloaded and read**:

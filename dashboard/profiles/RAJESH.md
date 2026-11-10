@@ -1,7 +1,7 @@
 # Rajesh Power Services — Company Profile
 
 **Ticker:** RAJESH · **BSE: 544291** · **ISIN INE0VN801010** · **Sector:** Power T&D EPC / Turnkey (Sector 19)
-**Conviction:** **HELD at HIGH (Under Watch)** — *the Under Watch tag is new; the trigger is unchanged and not yet testable*
+**Conviction:** **HELD at HIGH (Under Watch)** — *⤴ 10-Nov-2026: the standing trigger was tested — H1FY27 operating cash flow was **positive, by ₹8.7cr** (rendered statement); none of the six downgrade triggers fired*
 **Thesis date:** 31-Aug-2026 · **CMP ₹791** (Screener, 31-Aug-2026) · **Market cap ₹1,424 cr**
 
 > **⚠️ BSE-ONLY.** **Absent from NSE's `EQUITY_L.csv`** *(the only "Rajesh" there is Rajesh Exports, a different company)* **and NSE's SME announcements feed returns `[]`.** **BSE 544291 is the only feed.** `SLONGNAME` echoed back as **"Rajesh Power Services Ltd"** on every query, per §4A.
@@ -245,6 +245,10 @@ When a state distribution utility decides that its overhead 11kV network in a co
 | **🆕 Quarterly business updates** | voluntary | **Q1FY27 published 16-Jul despite half-yearly reporting** | ✅ **Better disclosure than the reporting regime requires** |
 | **IPO proceeds utilisation** | Reg 32, 28-Apr-2026 | *"Is there a Deviation / Variation? **No**"* on the ₹160.47cr issue | ✅ Clean |
 | **CFO to turn positive in H1FY27** | **the standing downgrade trigger, set 16-Jul-2026** | **H1FY27 does not report until ~Oct–Nov 2026** | 🕐 **NOT YET TESTABLE — and this is why the conviction has not moved** |
+| *(10-Nov)* **CFO positive in H1FY27** — the standing trigger | 16-Jul-2026 | **+₹8.69cr** consolidated (−₹22.41cr in H1FY26) — on ₹124.2cr of operating profit before working capital: **~7% conversion** | ✅ **Positive — barely** |
+| *(10-Nov)* FY27 growth 35–40%, EBITDA 11–12% | Reaffirmed on the H1 call (2-Nov) | H1 revenue ₹929cr **(+46%)**, EBITDA ₹112cr (12%) | ✅ |
+| *(10-Nov)* Order book | — | H1 inflow ₹1,250cr; unexecuted ₹3,647cr at 30-Sep; ~₹450cr more in October; **plus the ₹1,628.74cr DGVCL order (4-Nov) — ~₹5,400cr** per the 5-Nov release. Bid pipeline ₹3,500–4,000cr, L1 ~₹100cr | ✅ |
+| *(10-Nov)* New Zealand subsidiary | Aug-2026 | *"currently, we are evaluating opportunities… there is no specific number"* | 🟡 **Still no number** |
 
 **Verdict on management.** ***The operating scorecard since July is close to unblemished: ₹1,166cr of orders in four weeks, a first entry into Odisha, a rating-outlook upgrade, and voluntary quarterly disclosure a half-yearly reporter did not have to give.*** **Set against that: one order-book miss on record, a working-capital cycle that has not turned, an Independent Director gone from all four committees with no replacement, and a foreign subsidiary announced without a number.** ***Trust in execution: high and rising. Trust in the balance sheet: unresolved until November. Governance depth: thinner than it was three weeks ago.***
 
@@ -333,6 +337,21 @@ When a state distribution utility decides that its overhead 11kV network in a co
 **Q1FY27 revenue of ₹436.62cr** compares with **H1FY26's ₹638cr** — *if H1FY27 runs at roughly twice Q1, that is about ₹870cr, or +37% year on year, with the seasonally stronger half still ahead.*
 
 ---
+### 🆕 H1FY27 Refresh — Full Numbers Print *(10-Nov-2026; half-yearly results 2-Nov — balance sheet and cash flow rendered and read; call 2-Nov, official transcript filed 8-Nov on BSE and read in full)*
+
+| | H1FY27 | H1FY26 | YoY |
+|---|---|---|---|
+| Revenue | **₹929cr** | ₹638cr | **+46%** |
+| EBITDA | ₹112cr (12%) | ₹84cr | +33% |
+| PAT | ₹79cr (8.5%) | ₹59cr | +35% |
+| **Operating cash flow** | **+₹8.7cr** | −₹22.4cr | |
+
+**Balance sheet (30-Sep vs 31-Mar-2026, ₹cr):** trade receivables **324.1** (348.8) · **current 'other financial assets' 58.1 (0.9) — unbilled revenue** · other current assets 71.1 (39.0) · non-current other financial assets 310.3 (305.2) · inventories 122.7 (124.9) · trade payables 334.3 (328.3) · **borrowings 151.4 (127.2)** · equity 483.6 (406.2).
+
+**How the cash turned positive.** Operating profit before working capital ₹124.2cr; receivables released ₹20.2cr and payables ₹6.0cr, but other financial assets absorbed ₹60.9cr and other assets ₹32.0cr; taxes ₹33.4cr. **Cash from operations ₹42.1cr before tax, ₹8.7cr after.** *The headline is accurate; the margin of it is thin, and unbilled revenue did much of the absorbing.*
+
+**What the call added.** (1) Guidance kept: 35–40% growth, 11–12% EBITDA. (2) **An analyst's challenge, not answered with a number: receivables plus unbilled revenue up more than 100% YoY on revenue +45%** (₹174cr → ₹324cr, plus ₹58cr unbilled). Management: *"the working capital cycle is becoming more prudent, and we are establishing the higher control on collections."* (3) HKRP JV profit is H2-heavy; HKRP has no orders in the parent's book. (4) BESS is IRR-driven and marginal to revenue. (5) Bid pipeline ₹3,500–4,000cr.
+
 ## 5. Connecting the Dots
 
 **Thread A — 🟢 The returns are real and they are not a peer-group artefact.** **48.6% ROCE and 42.9% ROE against a Sector 19 comparison set running 16–29%.** *It comes from being asset-light: ₹18cr of fixed assets carrying ₹1,628cr of revenue.*
@@ -361,6 +380,7 @@ When a state distribution utility decides that its overhead 11kV network in a co
 | **16/18-Jul-2026** *(Tier A)* | **₹871** · mcap ₹1,568cr | **HELD at HIGH** · ~170% | FY26 print grounded. **🟢 Revenue +47%, PAT +54%, BESS project signed (a new adjacency).** **🔴 First-ever delivery miss recorded: FY26 exit order book ₹3,326cr against a Nov-2025 guide of ₹4,500cr.** **🔴 Working-capital blow-up materialised: CFO −₹41cr vs −₹16cr, debtor days 62 → 78, CFO/OP 11% → 4%.** ***Set the explicit trigger: "the base case now REQUIRES CFO to turn positive H1FY27 — if it doesn't, this is a conviction downgrade trigger to MH."*** Also flagged a data-quality issue — the Apr-2026 transcript on disk had an md5 identical to the Jan-2026 file. |
 | **31-Aug-2026** *(this profile)* | **₹791** · mcap **₹1,424cr** | **HELD at HIGH (Under Watch)** — *the tag is new; the trigger is unchanged and not yet testable* | Converted to always-current format on a **28-filing BSE sweep**. **🔴 QUEUE CORRECTION: RAJESH REPORTS HALF-YEARLY — last results 23-Apr-2026, none since. There is no Q1FY27. Moved to the C2 bucket.** **🟢 But it publishes voluntary quarterly business updates: Q1FY27 revenue ₹436.62cr, order book ₹3,741.79cr at 30-Jun.** **🟢 ₹1,165.94cr of orders won 9-Jul → 4-Aug — the best four weeks on record — including a first entry into Odisha (OPTCL ₹211.68cr, 17-Jun) and a deepened Rajasthan position (RVPNL ₹75.05cr).** **🟢 CRISIL outlook raised A-/Stable → A-/Positive.** **🟢 Execution independently confirmed by DIACABS's ₹195.48cr order *from* Rajesh on 11-Aug.** **🔴 Independent Director Viral Ranpura resigned 11-Aug off all four committees, no replacement.** **🟡 Two Reg 29(2) sales from the promoter side totalling under 1%.** **🆕 New Zealand subsidiary, investment undisclosed.** **📉 And the stock is down 47% in a year at 9.90x.** |
 | **19-Sep-2026** *(filings refresh)* | **₹757** · mcap ₹1,364cr | **HELD at HIGH (Under Watch)** — no change | New independent director and MD made Chairman & MD (3-Sep); AGM special resolutions seek Section 185 power to lend to group/director-interested entities and a ₹500cr Section 186 limit; annual report: debtor turnover 8.39x → 6.14x. Stock at its 52-week low. |
+| **10-Nov-2026** *(H1FY27 Tier-A, transcript read)* | **₹824** · mcap ₹1,484cr | **HELD at HIGH (Under Watch)** | **The standing trigger was tested and did not fire: H1 operating cash +₹8.7cr** (rendered). Revenue +46%; borrowings ₹151cr (<₹200cr); payables flat in rupees as revenue grew. **The Under Watch stays** — conversion ~7%, unbilled revenue +₹57cr, the NZ subsidiary still unsized. Re-priced: **≈ +115%** on unchanged cases. |
 
 **The trajectory in one line.** ***Every operating number the last profile asked for has come in better, the one financial number it made a trigger of will not be visible until November, and the share price has fallen by half in the meantime.***
 
@@ -437,15 +457,31 @@ When a state distribution utility decides that its overhead 11kV network in a co
 
 **🟢 Upgrade conviction is already at the top of the scale; what would convert HIGH into a larger position:** **positive H1FY27 operating cash flow, days payable back below 75, and a first disclosed revenue contribution from Odisha or Rajasthan.** ***That combination would mean the returns are finally cash returns, which is the one thing this thesis has never demonstrated.***
 
+> **10-Nov-2026 status — none of the six fired:** ⭐ H1 CFO **+₹8.7cr** (not negative) · receivables ~64 days of H1 sales, payables flat in rupees (debtor/payable-day lines not crossed on my arithmetic) · H1 revenue ₹929cr (≥₹800cr) · independent director appointed 3-Sep · promoter holding not re-tested this half · borrowings ₹151cr (<₹200cr). **Larger-position test:** positive CFO ✅ (thin) · payable days below 75 — not shown · Odisha/Rajasthan revenue — not disclosed.
+
 ---
+### 📊 10-Nov-2026 — H1FY27 scored
+
+**Where it trades (Screener, 10-Nov-2026 close):** CMP **₹824** · market cap ₹1,484cr · P/E 9.0x · +4.2% since the 31-Aug write (₹791).
+
+**Re-priced on the unchanged scenarios (from ₹1,484cr):** base ~₹3,130cr → **+111%** · bull ₹5,120cr → **+245%** · bear ~₹910cr → **−39%**. **Weighted ≈ +115%** *(0.55 × 111 + 0.25 × 245 − 0.20 × 39)*. The August caveat — *"if H1FY27 CFO is positive, the base case is conservative; if it is another −₹40cr, the bear case is the base case"* — resolved on the right side, **but by ₹8.7cr, not by a margin that proves the cash model.** The DGVCL order (~1.1x market cap) is not in the base case's FY28 revenue explicitly.
+
+**Conviction: HELD at HIGH (Under Watch).** *Next test: FY27 operating cash flow, and whether unbilled revenue converts.*
+
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — 🔴 The cash never comes, and this is the whole thesis.** **CFO −₹16cr then −₹41cr; CFO/OP 11% → 4%; FCF −₹43cr.** *A 48.6% return on capital that does not produce distributable cash is an accounting return.*
+
+> ⤴ **EASED, NOT RETIRED (H1FY27):** operating cash +₹8.7cr against −₹22.4cr a year ago — positive, at ~7% of operating profit.
 **⚠️ MATERIALISED, two years running, and the ratio is deteriorating.**
 
 **Risk 2 — 🔴 Payables are the funding source and they have a ceiling.** **49 → 90 days in one year.** *It cannot go to 180. **After this lever is exhausted, growth needs debt or equity** — and equity at 9.9x, 51% below the high, would be badly dilutive.*
 
+> ⤴ **EASED (30-Sep-2026):** trade payables ₹334cr vs ₹328cr in March while H1 revenue grew 46% — payable days fell (my arithmetic).
+
 **Risk 3 — 🔴 State discom receivables.** Debtor days 62 → 78. **PGVCL, OPTCL and RVPNL are all state utilities.** *Their payment cycles are policy-dependent and can lengthen without warning or recourse.*
+
+> ⚠️ **SHIFTED, NOT SOLVED (H1FY27):** trade receivables fell to ₹324cr, but unbilled revenue rose to ₹58cr from under ₹1cr; an analyst on the call put receivables plus unbilled up >100% YoY.
 
 **Risk 4 — 🔴 Fixed-price EPC on 24-month contracts.** **₹362.82cr and ₹211.68cr of orders won in July are priced today and executed through 2028.** *Copper, aluminium and civil-works inflation over two years lands entirely on the contractor.*
 
@@ -456,6 +492,8 @@ When a state distribution utility decides that its overhead 11kV network in a co
 **Risk 7 — 🟡 Governance depth.** **One Independent Director sat on all four committees and resigned on 11-Aug with no replacement in twenty days.** **Institutional ownership is 4.20% and falling.** *There is very little independent scrutiny on this file.*
 
 **Risk 8 — 🟡 Undisclosed amounts.** **The New Zealand subsidiary's subscription is *"as per incorporation documents"*.** *Probably trivial. But a disclosure that declines to state a number is a habit worth watching, not excusing.*
+
+> ⤴ **UNCHANGED (H1 call):** New Zealand — *"there is no specific number"*.
 
 **Risk 9 — 🟡 BSE-only liquidity.** **6,172 shareholders, no NSE listing, no index membership.** *The 47% fall happened without a disclosed operating cause; the same mechanism works in reverse and in both cases the price is not a signal about the business.*
 
@@ -489,6 +527,8 @@ When a state distribution utility decides that its overhead 11kV network in a co
 
 ## 9. Community Pulse
 
+**⤴ 10-Nov-2026:** still no dedicated ValuePickr thread. The sharpest public scrutiny is on the H1 call itself — Bijal Shah's receivables-plus-unbilled question (above).
+
 **⤴ v2 recorded *"ValuePickr Rajesh Power thread scan pending Chrome. Skipped for this refresh."* That deferral is now closed, and the answer is that there is nothing to find.**
 
 **There is no dedicated ValuePickr thread for Rajesh Power Services.** A search returns only unrelated topics — Green Hydrogen, Jubilant Ingrevia, CESC. ***For a company that grew revenue 47%, won ₹1,166cr of orders in four weeks and entered a new state, that is a complete absence of retail analytical coverage.***
@@ -502,6 +542,8 @@ When a state distribution utility decides that its overhead 11kV network in a co
 ---
 
 ## Source Appendix
+
+- **🆕 H1FY27 (10-Nov-2026 refresh):** half-yearly results 2-Nov (consolidated balance sheet and cash flow rendered and read); **official transcript of the 2-Nov call (filed 8-Nov on BSE), read in full**; Reg 32 statement and DGVCL press release 5-Nov; Screener 10-Nov-2026 close.
 
 - **🔴 No concall transcripts exist.** **RAJESH holds analyst and investor meets but files no transcripts, and reports half-yearly.** **Gate: 🟡 PARTIAL by structural limitation.** *Same category as MONARCH, NITTA and AMIC.*
 - **🗂️ `Fetched Concalls/RAJESH/` did not exist before this refresh.** *v2's source appendix referenced an "Apr 2026 raw transcript in repo" with a duplicate md5 — no such folder was on disk.* **Created and populated with 24 primary filings.**

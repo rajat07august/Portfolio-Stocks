@@ -233,6 +233,12 @@ Per standalone note 44 and CARO clause (x): of the IPO fresh issue, **₹33.1-33
 | Zinc sulphate ">20% growth" in H1FY26 | Nov-25 | FY26 **"largely flat"** (analyst, uncontested) | 🟡 |
 | Naidupeta debottlenecking complete by Dec-2026, +4-5k t | May-26 | — | 🕐 |
 | Inorganic opportunities — announce "as and when the timing is right" | Nov-25; referenced again Feb-26 | None announced | 🕐 |
+| *(10-Nov)* **FY27 revenue "much higher than ₹1,200cr"** | Q2FY27 call (4-Nov) | H1 ₹676.7cr (+54%) — the run-rate already exceeds ₹1,300cr | ✅ **On track** |
+| *(10-Nov)* Dahej Phase 1 (~15,000 t of 40,000+ t) | Deck: Q3FY27 | *"nearing completion now with trial runs scheduled for next month"* (December); then customer qualification and ramp | 🕐 **Trials in Q3; revenue later** |
+| *(10-Nov)* Naidupeta debottlenecking +~5,000 t | May-26: by Dec-2026 | *"on track for commissioning in the Q4 of '27"* | 🟡 **~One quarter later** |
+| *(10-Nov)* EBITDA margin 14–15% in ~3 years | Aug-26 (raised) | Reaffirmed; Q2 **10.71%** (Q1 11.5%), the CFO blaming the lag between low-LME material arriving late and higher-cost domestic scrap | 🕐 |
+| *(10-Nov)* Volume disclosure | Never given | **"Mid-teens" volume growth in Q2**; zinc-oxide utilisation >80%; non-rubber >18% of H1 sales | ✅ **First volume number** |
+| *(10-Nov)* Recycled-rubber project | "Commercial in 12 months" (2026) | Pilot trials *"successful"*; capacity, investment and timeline *"at an appropriate time"* | 🟡 **Still undated** |
 
 ### One-line verdict on management
 
@@ -332,6 +338,19 @@ Management: *"ours is a business which requires about 100 days of working capita
 
 ---
 
+### 🆕 Q2FY27 Refresh — Full Numbers Print *(10-Nov-2026; results and deck 3-Nov, call 4-Nov, official transcript filed 6-Nov and read in full)*
+
+| | Q2FY27 | YoY | QoQ | H1FY27 | YoY |
+|---|---|---|---|---|---|
+| Revenue from operations | **₹361cr** | **+64%** | +14% | ₹676.7cr | +54% |
+| EBITDA (company) | ₹38.65cr (**10.71%**) | +77% | +7% | ₹74.9cr (11.07%) | +66% |
+| Operating margin ex other income (Screener) | ~10.5% | | Q1 ~10.8% | | |
+| PAT | ₹27.95cr (7.74%) | +86% | +7% | | |
+
+**Volume: "mid-teens" growth in Q2** — so roughly three-quarters of the +64% revenue is zinc price, passed through on the LME-lag model. Utilisation >80%; non-rubber >18% of H1 sales.
+
+**What the call added.** (1) **The first volume number this company has given.** (2) **FY27 revenue "much higher than ₹1,200cr"** against FY26's ₹973cr; *"our internal target has always been to double our revenues every 3 years."* (3) **Margin dipped 80bps QoQ**, explained as a timing lag — lower-cost imported material delayed by West Asia disruption while higher-cost domestic scrap arrived first. (4) **Cash:** working capital 90–100 days; *"the cash flow from operations after working capital changes could be negative"* in a high-growth phase, but *"even if we were to double our revenue… I don't think we would be needing any borrowing"*. (5) Capacity to ~79,900 t after Dahej Phase 1 and Naidupeta; 16.74 acres bought at Naidupeta; a Dubai trading subsidiary (BDJ Materials and Metals Trading FZCO) for sourcing and sales. (6) **Zinc price: "we are agnostic"** — they price November sales on October's LME average; the profile's view is that the spread is protected but the inventory is not.
+
 ## 5. Connecting the Dots
 
 **The core franchise is real and the growth path is logical.** Tyre makers are building capacity in India; they are consolidating suppliers; JG is the largest certified supplier; Dahej puts it next to the Gujarat tyre plants whose wallet share it currently holds at **"almost zero"** and next to the Morbi ceramics cluster, where it holds **"less than 1%"** of a 25-30,000 t market. **Every one of those statements is internally consistent, and the ₹100cr ask is small relative to the prize.**
@@ -353,6 +372,7 @@ Management: *"ours is a business which requires about 100 days of working capita
 | Date | Conviction | Rationale |
 |---|---|---|
 | **17-Sep-2026** | **MEDIUM** *(initiation)* | India's largest zinc-oxide maker and certified supplier to 9 of the world's top 10 tyre companies, 18% ROCE, near-zero debt, capital-light Dahej expansion and a flat, un-pledged 70.99% promoter holding — against a 30x multiple on a zinc-flattered quarter, FY26 operating profit that fell 6% beneath a "record year", EBITDA reported inclusive of other income, withdrawn volume disclosure, slipping Dahej and recycled-rubber timelines, and FIIs halving their stake |
+| **10-Nov-2026** | **HELD at MEDIUM** | Q2 revenue +64% (volume "mid-teens"), margin 10.7% — no Down signal fired; the Up list advanced on one item (first volume disclosure) and missed another (ex-OI margin ~10.5% vs ≥11%). Dahej trials in December, Naidupeta slipped to Q4FY27. Re-priced: **≈ +17% at ₹598** (+20% at initiation). |
 
 ### Material developments at initiation — the last twelve months
 
@@ -440,12 +460,23 @@ Management: *"ours is a business which requires about 100 days of working capita
 
 **Up:** Dahej Phase 1 commissioned by December 2026 · volume data disclosed · two further quarters of ≥11% OPM **excluding** other income · non-rubber share above 20% · a recycled-rubber project announcement with capex and capacity · IPO deposits deployed.
 **Down:** any quarter below 8% ex-OI OPM on a falling zinc price · Dahej slipping into Q4FY27 · a further cut to FY28 utilisation guidance · FII holding below 2% · further capital placed in promoter-group entities.
+> **10-Nov-2026 status.** Down — ex-OI margin ~10.5% (line 8%) ❌ · Dahej into Q4FY27 ❌ (trials December) · FY28 utilisation guide not cut ❌ · FII holding not re-tested this half · no new capital to promoter-group entities ❌. Up — Dahej by December: pending (trials, not commercial) · **volume data: first disclosed ✅** · ≥11% ex-OI: **missed in Q2 (~10.5%)** · non-rubber >20%: 18% · recycled-rubber capex: not announced · IPO deposits: Dahej spend under way.
 
 ---
+
+### 📊 10-Nov-2026 — Q2FY27 scored
+
+**Where it trades (Screener, 10-Nov-2026 close):** CMP **₹598** · market cap ₹2,343cr · P/E 26.8x · +2.6% since the 17-Sep initiation (₹583).
+
+**Re-priced on the unchanged per-share scenarios:** base ~₹676 → **+13%** · bull ~₹1,070 → **+79%** · bear ~₹304 → **−49%**. **Weighted ≈ +17%** *(0.55 × 13 + 0.25 × 79 − 0.20 × 49)*. **H1 revenue is running ahead of the base case's FY28 path, mostly on zinc price.** Tijori's zinc averaged −5.0% in October — the exact mechanism the bear case starts from.
+
+**Conviction: HELD at MEDIUM.**
 
 ## 7. What Could Prove Us Wrong
 
 **1. 🔴 The zinc cycle turns.** The pass-through model protects the spread, not the inventory. **A fast LME fall converts ~2 months of stock into losses** — Jun-2023 quarter OPM 3.2%, FY24 PAT −44%. Q1FY27 was helped by rising zinc; that tailwind reverses mechanically.
+
+> ⚠️ **LIVE (10-Nov-2026):** the October LME zinc average fell 5.0% (World Bank); Q2 volume grew mid-teens while revenue grew 64%, so most of the growth is price — the part that reverses.
 
 > 📈 **Factor check 10-Nov-2026:** Starting to: zinc's October average was $3,818/t, −5.0% in the month though still +6.1% over three months (World Bank). *(Numbers and sources: Input & factor check, at the top.)*
 
@@ -453,11 +484,17 @@ Management: *"ours is a business which requires about 100 days of working capita
 
 **3. 🔴 Promises arrive late.** Recycled rubber: "10% of revenue next year" → "commercial in 12 months". Dahej: H1 → November. Non-rubber mix: flat for a year while the target was brought forward. **The 14-15% margin target has been raised before any of its drivers have arrived.**
 
+> ⚠️ **ONE MORE (Q2 call):** Naidupeta's debottlenecking moved from December 2026 to Q4FY27; recycled rubber still has no capacity, capex or date.
+
 **4. 🔴 Customer concentration in a squeezed industry.** ~85% of revenue goes to rubber and tyres. The watchlist's own tyre name (TVSSRICHAK) calls FY27 raw-material inflation *"unprecedented."* **Tyre makers under margin pressure are the most aggressive procurement negotiators in India.**
 
 **5. 🟡 Growth consumes cash.** ~100 days of working capital; FY25-26 free cash −₹11cr on ₹136cr of PAT. Dahej plus its working capital is fundable from the balance sheet — **but not if zinc stays high and growth stays fast at the same time for long.**
 
+> ⤴ **CONFIRMED BY MANAGEMENT (Q2 call):** *"the cash flow from operations after working capital changes could be negative"* in this phase; no borrowing needed.
+
 **6. 🟡 Disclosure is restrictive and narrowing.** Volumes, realisations, segment margins and export geography withheld; one volume figure given and then withdrawn. **The company has held only five calls.**
+
+> ⤴ **EASED (Q2 call):** the first volume figure ("mid-teens") and a utilisation level (>80%).
 
 **7. 🟡 Governance details.** A ₹12.2cr investment in a promoter vehicle that owns ~10% of the company; ₹33cr of IPO money still undeployed after 30 months; an unidentified 5.87% minority in the main operating subsidiary; ~30x director pay ratios; an independent-director vacancy after a death in August 2026. **None is alarming alone; together they are a reason to read the RPT note every year.**
 
@@ -480,6 +517,8 @@ Management: *"ours is a business which requires about 100 days of working capita
 ---
 
 ## 9. 📢 Community Pulse
+
+**⤴ 10-Nov-2026:** ValuePickr thread #197388 — still 5 posts, last 4-Dec-2025; **no reaction to a +64% quarter.**
 
 **Coverage is very thin — which is unusual for a stock that has more than doubled in a year.**
 
@@ -514,6 +553,8 @@ Calls hosted by **PhillipCapital PCG** (Aug-25 → Feb-26) and **SKP Securities*
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (10-Nov-2026 refresh):** results and deck 3-Nov; independent-director appointments 3-Nov; **official transcript of the 4-Nov call (filed 6-Nov), read in full**; ValuePickr #197388; Screener 10-Nov-2026 close.
 
 - **Concalls read (5 transcripts — every call in company history; AMBER gate by count, complete by coverage):** **Q1FY27 (10-Aug-2026, read in full, primary)** · **Q4FY26 (15-May-2026, read in full)** · **Q3FY26 (16-Feb-2026, read in full)** · **Q2FY26 (17-Nov-2025, read in full)** · **Q1FY26 (12-Aug-2025, the maiden call, read in full)**. Downloaded from BSE via Screener-listed UUIDs, verified `%PDF`, extracted with `pdftotext -layout`. Stored in `Fetched Concalls/JGCHEM/`. **Company IR page (`jgchem.com/investor-presentation-recordings-updates-conference-schedules-and-transcripts/`) checked for older transcripts: none exist.**
 - **Investor presentations (7):** Q1FY27, Q4FY26, Q3FY26, Q2FY26, Q1FY26, Q4FY25, Q3FY25. *Plant capacities taken from table text. The FY26 revenue-mix pie did not bind values to labels in the text layer and is **not used** (per §4A rule B); the FY25 mix is cited from the ValuePickr thread, labelled as such.*

@@ -1,7 +1,7 @@
 # Atlanta Electricals Limited — Company Profile
 
 **Ticker:** ATLANTAELE · **NSE: ATLANTAELE · BSE: 544527** · **ISIN INE0Z4F01028** · **Sector:** Power T&D Components (Sector 14)
-**Conviction:** **MEDIUM-LOW** — an excellent business, a real order book, and a multiple its own peer group says is double what these returns fetch
+**Conviction:** **MEDIUM-LOW (Under Watch)** *(10-Nov-2026: the order-inflow downgrade trigger fired on its wording — Q2 inflow ₹421cr vs ₹600cr — flagged for Rajat, not applied; see §5.5)* — an excellent business, a real order book, and a multiple its own peer group says is double what these returns fetch
 **Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 3-Sep-2026)* · **Tracking since:** 3-Sep-2026 · **CMP ₹1,902** (Screener, 3-Sep-2026) · **Market cap ₹14,624 cr**
 
 > **⚠️ IDENTITY — TWO "ATLANTA"s ON THE NSE MASTER.** `ATLANTAA` is **Atlanta Ltd**, an infrastructure company listed in 2006 (INE285H01022). **This company is `ATLANTAELE`, listed 29-Sep-2025 (INE0Z4F01028).** Screener's `<h1>` and BSE's `SLONGNAME` on scrip **544527** both echo **"Atlanta Electricals Ltd"** — verified on both feeds per §4A. *A single-letter-prefix mismatch here would have pulled a road-BOT company's filings.*
@@ -249,6 +249,11 @@ From the FY26 Annual Report, Note 48 (₹ crore):
 | **Inverter Duty Transformer facility (Unit 6), +5,000 MVA** | Jul-2026: "by December end" | Open | 🕐 |
 | **Tank & radiator backward integration, ₹180cr** | Jul-2026 | **Only ₹15–20cr spent** as of the call | 🕐 |
 | **Exports to ~15% of revenue** | Medium term, Jul-2026 | Not currently quantified in reporting | 🕐 |
+| *(10-Nov)* **40% revenue CAGR to FY28, EBITDA margin 16–18%** | Restated on the Q2 call (2-Nov) | *"we still stand by it"* — for FY27 and FY28 (*"Yes, 100%"*); margin *"16% to 18%… in current year"*. **H1 revenue ₹856.4cr (+35.5%); Q2 EBITDA margin 15.3%** | 🟡 **Q2 below the band** |
+| *(10-Nov)* 765 kV technology tie-up | May-2026 → "this Q2" | **Dead:** *"the proposed international technology partnership could not be progressed due to international sanctioned related constraints"* — in-house design of a 765 kV reactor; production targeted Q4FY27 | 🔴 **Abandoned** |
+| *(10-Nov)* 400 kV first prototype | Jul-2026: "this quarter end" | Manufacturing of the first 315 MVA / 400 kV unit **began 26-Oct** after component delays; short-circuit test Q3FY27, commercial contribution Q4FY27 | 🟡 **Slipped ~a quarter; inside FY27** |
+| *(10-Nov)* Tank & radiator backward integration | Jul-2026 (₹180cr) | Now **₹193.6cr**, ground broken, commissioning **Oct-2027**; internal accruals, term loans tied up but undrawn | 🕐 |
+| *(10-Nov)* Exports ~15% within two years | Q2 call | **First US order** (a specialty transformer) | 🕐 |
 
 **🔴 An internal inconsistency on 765 kV, recorded rather than smoothed.** Asked whether PGCIL approval would come by end-Q2FY27, the CMD answered **"Certainly."** Later on the *same call* he explained that Power Grid **revalidation of the Ankhi facility will only be *initiated* once the technology tie-up closes** — and that the tie-up itself is targeted at Q2, with production in Q3 and orders opening *"in the last quarter of this financial year."* **Those two answers cannot both be right.** *The likely explanation is that "Certainly" was answering a differently-scoped question than the one the analyst asked. It is recorded because a dated commitment given that flatly is exactly what a delivery scorecard exists to track.*
 
@@ -372,6 +377,26 @@ From the FY26 Annual Report, Note 48 (₹ crore):
 
 ---
 
+### 🆕 Q2FY27 Refresh — Full Numbers Print *(10-Nov-2026; results 31-Oct, call 2-Nov, official transcript filed 6-Nov and read in full)*
+
+| | Q2FY27 | Q2FY26 | YoY |
+|---|---|---|---|
+| Revenue from operations | **₹390.1cr** | ₹317.0cr | **+23.1%** |
+| Gross profit | ₹103.6cr (**26.6%**) | ₹97.8cr (30.9%) | +6.1% |
+| EBITDA | ₹59.6cr (**15.3%**) | ₹54.8cr (17.3%) | +8.8% |
+| PAT | ~₹32cr | ~₹25cr | +28% |
+| **Order inflow** | **₹421cr** | | **~55% below Q1** |
+| Order book | ₹3,197cr | | |
+| Inventory | ₹632.9cr | ₹364.1cr (Mar-26) | |
+
+H1: revenue ₹856.4cr (+35.5%), PAT ₹79.0cr (+40.4%). Inquiry pipeline ~₹19,464cr. Utilisation: Anand Unit 1 60%, Unit 2 40%, Bangalore ~90%, Vadod (220/400 kV) ~30%, Jambusar (765 kV) ~7–8%.
+
+**Why the margin fell (management):** fixed-price orders from last year, ~15% of Q2 revenue, carried higher transformer-oil, copper and steel costs; *"expected to be substantially completed during Q3"*. Firm-price share of today's book: the CFO first said *"10% to 12%"*, then *"3% to 4%"* — **not reconciled on the call.**
+
+**Why revenue missed its potential:** heavy rain in Gujarat left **~₹180cr of finished transformers undelivered** at 30-Sep; ~70% dispatched in October.
+
+**Why order inflow fell — two different answers on the same call.** Prepared remarks: *"Commodity price volatility delayed certain order finalization, including tenders where we emerged as L1."* Q&A, to the same question: *"This is a management decision. It is not something, anything related to the markets… cautiously do order intake because these orders are predominantly 220 kV and below."* **Both may be partly true; they are not the same explanation.**
+
 ## 5. Connecting the Dots
 
 **The virtuous loop is real and it is currently running.** Grid capex and renewable evacuation create transformer demand → demand exceeds industry supply → Atlanta builds capacity ahead of it and pre-books orders so the plant never idles → volumes rise against a fixed cost base → margin expands 300bps → cash funds the next plant without debt → higher capacity wins bigger orders → **record order book, record inflow, 45% ROCE.**
@@ -391,6 +416,7 @@ From the FY26 Annual Report, Note 48 (₹ crore):
 | Date | CMP | Conviction | What happened |
 |---|---|---|---|
 | **3-Sep-2026** *(added to the watchlist)* | **₹1,902** · mcap **₹14,624cr** | **MEDIUM-LOW** | Added at Rajat's request into **Sector 14, with the sector definition widened** to name power and distribution transformers explicitly — the Option A route, as chosen for SHREEREFR in Sector 1. **Still 19 sectors; no new sector created.** **🟢 Gate GREEN on 10 primary docs — every call since the 29-Sep-2025 listing.** **🟢 Operationally excellent: FY26 revenue +48.8% against a 40% target, EBITDA +77.9% at 18.6% (+300bps), PAT +70.1%, ROCE 45.3%, ROE 31.7%, all ₹340cr of term debt repaid ahead of schedule, capacity 16,000 → 63,060 MVA, PGCIL 400 kV approval in two years from groundbreaking, Vadod paying back in 3-4 years against an industry norm of 5-7, record order book ₹3,117cr with ₹2,400cr executable in FY27, and promoter holding 87.28% flat to two decimals across all four quarters with zero selling.** **🔴 But 45% of Q1FY27's 48% growth was realisation, not volume — 4,381 vs 3,605 MVA — while the CFO's prepared remarks called it "primarily volume-driven" with "no material changes in pricing"; the CMD had explained the commodity mechanism himself one quarter earlier.** **🔴 At 67x it trades at roughly double the multiple of Shilchar (33.3x on a HIGHER 50.7% ROCE) and Indo Tech (38.6x on 40.4%).** **🔴 ₹114.56cr of purchases from promoter-owned Amod Stampings (6.2% of revenue, the core input) with two-way trade, and the entire ₹1,320cr working-capital facility guaranteed free of charge by a promoter LLP.** **🔴 A two-year SBPDCL debarment ran 24-Apr to 13-Aug-2026 — disclosed impeccably, financially trivial (<₹3cr), withdrawn in full, and raised on zero earnings calls including the one held while it was live.** **🔴 ~12.3% of the company (~₹1,800cr) must reach the market by ~Sep-2028 on the MPS rule — my inference, not a company statement.** **🟡 765 kV tech tie-up slipped a quarter and the CMD's "Certainly" on end-Q2 PGCIL approval contradicts his own sequencing later on the same call.** **At 67x, 15.7x book, zero dividend, 13.5% below the 52-week high.** |
+| **10-Nov-2026** *(Q2FY27 Tier-A, transcript read)* | **₹1,461** · mcap ₹11,235cr | **MEDIUM-LOW (Under Watch) — one trigger fired on its wording, flagged for Rajat, not applied** | **Order inflow ₹421cr against the ₹600cr trigger.** Not applied because the conviction it would cut was set mainly on **price** (67x at initiation) and the price has fallen 23% since — re-priced, the unchanged cases now return ≈ +38%; and management calls the low intake deliberate (while its own prepared remarks blamed commodity-led delays). **Recommendation: hold at ML (Under Watch); treat as fired if Q3 inflow is again below ₹600cr without 400 kV orders.** Also: **the 765 kV partnership is dead (sanctions)** — one leg of the bull case and one upgrade trigger gone. |
 
 **The starting position in one line.** ***One of the best-executing businesses on the watchlist, in a genuine multi-year upcycle, priced at twice what its own peer group pays for the same returns — with the growth rate flattered by commodity pass-through and the entire bull case resting on two products it has never built.***
 
@@ -448,21 +474,39 @@ From the FY26 Annual Report, Note 48 (₹ crore):
 **Upgrade triggers (any two):** 400 kV short-circuit test passed and first commercial 400 kV revenue recognised · 765 kV technology agreement **signed** · two consecutive quarters where **volume** growth alone exceeds 25% · the MPS sell-down completed and absorbed.
 **Downgrade triggers:** 220 kV pricing visibly corrects as new industry capacity lands · the 400 kV prototype slips beyond FY27 · related-party purchases from Amod Stampings grow as a share of revenue · order inflow falls below ₹600cr in a quarter.
 
+> **10-Nov-2026 status:** 220 kV pricing correction — ❌ not seen (*"we have not seen any pressure… on the margins at which we were booking orders"*) · 400 kV prototype beyond FY27 — ❌ (test Q3, revenue Q4FY27) · Amod Stampings share — not disclosed this half · **order inflow below ₹600cr — 🔴 fired on its wording (₹421cr); flagged, not applied.** Upgrade: 765 kV agreement — ❌ **now impossible as framed (partnership abandoned)**; 400 kV test — pending.
+
 ---
+
+### 📊 10-Nov-2026 — Q2FY27 scored
+
+**Where it trades (Screener, 10-Nov-2026 close):** CMP **₹1,461** · market cap ₹11,235cr · P/E 49.9x · **−23.2% since the 3-Sep initiation (₹1,902).**
+
+**Re-priced on the unchanged scenarios (from ₹11,235cr):** base ₹15,480cr → **+38%** · bull ₹23,980cr → **+113%** · bear ₹5,100cr → **−55%**. **Weighted ≈ +38%** *(0.55 × 38 + 0.25 × 113 − 0.20 × 55)*, against +6% at initiation. ***Read with care: the bull case assumed the 765 kV partner signs — it will not — and the bear case's "softening tender pipeline" is exactly what a ₹421cr quarter could be the start of.*** The price has fallen into the ₹1,400–1,600 range the initiation called "interesting"; the business evidence has moved the other way on two counts (inflow, 765 kV) and held on two (growth, 400 kV timing).
+
+**Conviction: MEDIUM-LOW (Under Watch); one trigger flagged for Rajat.**
 
 ## 7. What Could Prove Us Wrong
 
 1. **🔴 The multiple is the position.** 67x and 15.7x book, with Shilchar at 33.3x on a *higher* ROCE and Indo Tech at 38.6x on 40.4%. **A de-rate to peer multiples alone, with earnings intact, is roughly −45%.**
+
+> ⤴ **EASED (10-Nov-2026):** 49.9x after a 23% fall — still above Voltamp/TARIL/Shilchar's 33–39x at initiation.
 2. **🔴 The growth rate is not what the headline says.** 21.5% volume, 21.8% realisation, described as *"primarily volume-driven"* with *"no material changes in pricing."* **If the commodity cycle turns, the reported growth rate halves before a single order is lost.**
 3. **🔴 And the mix shift works against realisation from here.** The CMD: *"per MVA realizations [will get] dropped in coming times… 400 and 765, which are typically 500 MVA products."* **The 40% CAGR now needs volume it has never delivered.**
 4. **🔴 Related-party purchase of the core input.** ₹114.56cr from promoter-owned Amod Stampings (6.2% of revenue), plus ₹39.52cr sold back to it, **pricing basis undisclosed**, in a year gross margin expanded. *Disclosed, board-approved, audited — and still the single largest unanswered question in the file.*
 5. **🔴 The entire ₹1,320cr working-capital facility is guaranteed by a promoter LLP, free of charge.** Alignment on one reading; an off-balance-sheet dependency on another.
 6. **🔴 Minimum public shareholding.** Promoters at 87.28%, public at 12.72%. **On SCRR Rule 19A, ~12.3% of the company — ~₹1,800cr — must reach the market by roughly September 2028.** *My inference; the AR does not discuss it.*
 7. **🔴 ~60,000 MVA of industry capacity arriving in three to four months** from CG Power and TARIL — approximately Atlanta's entire installed base, added by two competitors in one quarter, into the 220 kV class that is Atlanta's whole order book.
+
+> ⚠️ **WATCH (Q2FY27):** inflow fell to ₹421cr while peers *"such as TARIL"* booked aggressively (an analyst's framing); management denies any pricing pressure.
 8. **🔴 400 kV and 765 kV are the thesis and neither has produced a rupee.** Commercial 400 kV contribution guided to **FY28**. The 765 kV technology tie-up **has already slipped one quarter** and remains unsigned; the CMD's *"Certainly"* on end-Q2 PGCIL approval contradicts his own sequencing on the same call. Terms disclosed: **USD 3–5m one-time plus 2–4% royalty for three to four years.**
+
+> ⚠️ **SHARPENED (Q2 call, 2-Nov-2026):** the 765 kV technology partnership *"could not be progressed due to international sanctioned related constraints"*; 765 kV is now an in-house design. 400 kV: first unit in manufacture from 26-Oct, test Q3, revenue Q4FY27.
 9. **🟡 Chinese manufacturers have been permitted into PSU tenders** through Indian manufacturing facilities. Management sees no impact yet and argues the one transformer maker among them is fully loaded — *"we do not see any logic"* in it chasing lower-margin PSU work. **Reasonable, and untested.**
 10. **🟡 CRGO steel anti-dumping investigation.** DGTR verdict expected by end-March 2027 on the core raw material. Management will not speculate. **A duty would raise input cost; the price-variation clause passes it on with a lag, but not costlessly.**
 11. **🟡 Cash conversion is the weakest number here.** CFO/OP above 100% once in six years; 5% in FY22; 77% in FY26. Cash conversion cycle ~83 days and lengthening with scale.
+
+> ⚠️ **UPDATE (30-Sep-2026):** inventory ₹632.9cr vs ₹364.1cr in March — ~₹180cr of it rain-delayed finished goods, 70% shipped in October.
 12. **🟡 Extreme seasonality invites misreading.** Q4FY26 was 40% of the year. **Any single quarter — good or bad — will overstate the trend.**
 13. **🟡 Concentration in state discoms.** RVPNL, PSTCL, GETCO, APTRANSCO. State utilities are slow payers and, as SBPDCL demonstrated, capable of a two-year debarment over a sub-₹3cr order.
 14. **🟡 Zero dividend, and a local Vadodara auditor** (PSCA & Co.) for a ₹14,624cr company carrying three Key Audit Matters — revenue cut-off, warranty/liquidated-damages provisions, and CWIP capitalisation. ***All three were tested and cleared with a clean opinion; they are named because they are precisely the three levers a newly-listed company under growth pressure would use, not because anything was found.***
@@ -483,6 +527,8 @@ Obvious class, elite numbers from the very first series, promoted faster than an
 ---
 
 ## 9. Community Pulse
+
+**⤴ 10-Nov-2026:** still no dedicated ValuePickr thread; no forum mention of the Q2 print found. Insider filings this week: three promoter-group members bought 150 shares each (Form C, 6-Nov) — token, not a signal.
 
 **🔴 There is no dedicated ValuePickr thread for Atlanta Electricals** — ten scattered mentions across other threads, eleven months after a ₹687cr IPO at a ₹14,624cr market cap. **The same absence found at ANTHEM, and it means there is very little external challenge to management's framing.** *With a 12.72% float and 1.92% FII holding, that is not surprising, and it is exactly the condition under which the growth-characterisation issue in §4 goes unremarked.*
 
@@ -505,6 +551,8 @@ Obvious class, elite numbers from the very first series, promoted faster than an
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (10-Nov-2026 refresh):** results 31-Oct; AE Components capex and CARE monitoring report (31-Oct); **official transcript of the 2-Nov call (filed 6-Nov), read in full**; Form C disclosures 6-Nov; Screener 10-Nov-2026 close.
 
 - **Concalls read (5 — the complete set since listing):** Q1FY27 (22-Jul-2026, transcript filed 25-Jul-2026, **primary**) · Q4 & FY26 (11-May-2026) · Q3FY26 (19-Jan-2026) · Nov-2025 · Oct-2025 (first post-listing call). All read in full from `pdftotext -layout` extractions.
 - **Investor decks (5):** same five periods, 30–33pp each. No revised/superseded pairs; no duplicate md5s.
