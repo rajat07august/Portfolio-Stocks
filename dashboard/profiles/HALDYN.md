@@ -12,11 +12,17 @@
 > **📋 WHAT THIS REFRESH FOUND.** v1 was **8.6 KB — the thinnest profile on the watchlist** — written 3-Jul-2026 from Screener and public information. Since then: **a strong Q1FY27 (revenue +21%, consolidated PAT +90%)**, **the FY26 annual report**, **a captive renewable-power investment**, and **a significant accounting judgement that v1 did not carry: Haldyn owns 56.80% of its principal joint venture and accounts for it as an associate rather than a subsidiary.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 132** · market cap ₹ 706 Cr. · P/E 22.7x · ROCE 13.5 % · ROE 11.4 % · 52-wk ₹ 166 / 70.4 · **vs ₹142 at baseline (-7.0%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 137** · market cap ₹ 737 Cr. · P/E 19.9x · ROCE 13.5 % · ROE 11.4 % · 52-wk ₹ 166 / 70.4 · **vs ₹142 at baseline (-3.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 2-Sep-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Quiet; Q2 due 5-Nov · (earlier: 🆕 ⚪ Q2 board 5-Nov · (earlier: ⚪ No filings in the window (verified) · (earlier: A depository certificate only · (earlier: Trading window closed — results cycle approaching; still the last outstanding C1 refresh · (earlier in window: No company filing since the 2-Sep profile beyond AGM logistics; stock ₹142 → ₹143)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 2-Sep-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 🟢 Q2: revenue +21%, margin 16%; H1 CFO > operating profit; all four triggers clear · (earlier: 🆕 ⚪ Quiet; Q2 due 5-Nov · (earlier: 🆕 ⚪ Q2 board 5-Nov · (earlier: ⚪ No filings in the window (verified) · (earlier: A depository certificate only · (earlier: Trading window closed — results cycle approaching; still the last outstanding C1 refresh · (earlier in window: No company filing since the 2-Sep profile beyond AGM logistics; stock ₹142 → ₹143))))))</span></summary>
 <div class="upd-body">
+
+**🟢 4 → 10-Nov-2026 — Q2: revenue +21%, margin 16%; H1 operating cash above operating profit — no trigger fired**
+**Q2FY27 (BSE, 5-Nov).** Revenue **₹140cr (+21%)**, operating margin 16%, PAT ₹13cr (₹7cr a year ago). **H1 cash (rendered statement): operating cash flow ₹51.9cr vs ₹48.2cr of operating profit before working capital; capex ₹46.4cr.** Borrowings ₹119.8cr (₹113.2cr in March); receivables ₹102.7cr (₹78.9cr).
+> **Why it matters:** All four downgrade triggers are clear: margin 16% (vs 12%), CFO/OP above 100% (vs 60%), borrowings ₹120cr (vs ₹140cr), cash cycle well under 150 days.
+
+*Sweep: BSE announcements via Chrome (the BSE JSON API is still blocked from curl), 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 23-Oct → 4-Nov-2026 — Quiet — results pending**
 **Only the q2 board-meeting intimation (bse, 23-oct); results due 5-nov.**
@@ -64,10 +70,10 @@ Two AGM-related filings only. Price ₹142 → ₹143; Screener P/E 24.7x, ROCE 
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** Neither soda ash nor Indian furnace gas is tracked, and those two set the margin. Asian LNG (October average $16.59, +19.8% over three months) is context only. Q2 due 5-Nov.
+**Read (10-Nov-2026, mine, not management's):** Neither soda ash nor Indian furnace gas is tracked, and those two set the margin. Asian LNG (October average $16.59, +19.8% over three months) is context only. Q2 margin held at 16%.
 
 **How cost moves reach profit:** Profile: 'Energy and soda ash set the margin, and neither is controllable' (Risk 2). Neither soda ash nor Indian furnace gas is tracked.
 
@@ -83,7 +89,7 @@ Two AGM-related filings only. Price ₹142 → ₹143; Screener P/E 24.7x, ROCE 
 
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>

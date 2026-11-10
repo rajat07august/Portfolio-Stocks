@@ -1,6 +1,6 @@
 # Rossell Techsys — Company Profile
 
-**Ticker:** ROSSTECH · BSE: 544294 · NSE: ROSSTECH · **Sector:** Aerospace & Defence (Wire Harness / Interconnect / EMS) · **Conviction:** M (Under Watch)
+**Ticker:** ROSSTECH · BSE: 544294 · NSE: ROSSTECH · **Sector:** Aerospace & Defence (Wire Harness / Interconnect / EMS) · **Conviction:** **⤴ ML** *(M (Under Watch) → ML, 10-Nov-2026: Q2FY27 revenue ₹185.7cr below the ₹200cr trigger and EBITDA margin 13.8% below the 15% trigger — two of the four explicit Q2 triggers)* · was **M (Under Watch)**
 **Date written:** 3-Jul-2026 · **Tier A refreshed:** 12-Aug-2026
 **CMP (12-Aug-2026):** ₹1,067 · **Market Cap:** ₹4,027 cr · **P/E (TTM):** 152x · **P/B:** 26x (BV ₹41.1) · **ROCE (FY26):** 11.5% · **ROE:** 15.7% · **Div yield:** 0.02%
 **Sources:** 4 concall transcripts (Aug-2025 → May-2026, all read) + 6 investor decks incl. Q1FY27 · Q1FY27 results + 8 BSE Reg-30 filings · Screener consolidated · ValuePickr topic 217695
@@ -8,11 +8,17 @@
 > **How to read this profile:** Every meaningful claim is either sourced from a concall (quarter noted) or a filing. Where I've made a judgment I've flagged it. Not a buy/sell recommendation.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 1,457** · market cap ₹ 5,502 Cr. · P/E 208x · ROCE 11.5 % · ROE 15.7 % · 52-wk ₹ 1,699 / 552 · **vs ₹1,067 at baseline (+36.6%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 1,381** · market cap ₹ 5,562 Cr. · P/E 183x · ROCE 11.5 % · ROE 15.7 % · 52-wk ₹ 1,699 / 552 · **vs ₹1,067 at baseline (+29.4%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 ⚪ NSE-directed clarifications to the preferential notice; Q2 due 6-Nov · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 EGM approved the SBI MF preferential (25.7 lakh shares) · (earlier: AGM passed; the ₹300cr SBI MF preferential goes to EGM on 15-Oct · (earlier: ₹300cr preferential to SBI Mutual Fund confirmed at ₹1,166 (25,72,898 shares); EGM to approve it on 15-Oct · (earlier in window: ₹300cr preferential issue to SBI Mutual Fund at ₹1,166 (6.39%) approved by the Board — the QIP the profile expected, as a preferential; stock +29% to ₹1,374 at ~196x)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 🔴 M → ML: Q2 ₹185.7cr (<₹200cr) at a 13.8% margin (<15%) — two explicit triggers; ₹300cr preferential done · (earlier: 🆕 ⚪ NSE-directed clarifications to the preferential notice; Q2 due 6-Nov · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 EGM approved the SBI MF preferential (25.7 lakh shares) · (earlier: AGM passed; the ₹300cr SBI MF preferential goes to EGM on 15-Oct · (earlier: ₹300cr preferential to SBI Mutual Fund confirmed at ₹1,166 (25,72,898 shares); EGM to approve it on 15-Oct · (earlier in window: ₹300cr preferential issue to SBI Mutual Fund at ₹1,166 (6.39%) approved by the Board — the QIP the profile expected, as a preferential; stock +29% to ₹1,374 at ~196x))))))</span></summary>
 <div class="upd-body">
+
+**🔴 4 → 10-Nov-2026 — Q2: record ₹185.7cr — but below the ₹200cr and 15%-margin triggers; downgraded M → ML**
+**Q2FY27 (6-Nov).** Revenue **₹185.7cr (+47.5%)**, a record; operating margin **13.8%** (Q1 14.4%); PBT ₹12.7cr; PAT ₹9.7cr. **₹300cr preferential issue completed** (25,72,898 shares at ₹1,166, SBI MF among allottees) — the deck says it went to debt reduction. Orders ~₹190cr in Q2, ~₹430cr in H1; bids ~₹1,350cr. New Aerospace Park facility for semiconductor and non-defence work. Call recording 7-Nov; no transcript yet.
+> **Why it matters:** **Two of the profile's four explicit Q2 triggers fired: revenue below ₹200cr (₹185.7cr) and EBITDA margin still below 15% (13.8%).** Both are unambiguous misses on the stated measure, so the downgrade is applied mechanically. The QIP trigger is overtaken (₹300cr raised by preferential issue instead); no further promoter sale (the Kotak block was 31-Jul). The upgrade test (₹230cr with a 17% margin) is far off.
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 23-Oct → 4-Nov-2026 — NSE-directed clarifications to the preferential-issue notice**
 **26-Oct:** at NSE's direction (letter of 21-Oct, in-principle approval stage), the company clarified the EGM notice for its preferential issue of up to 25,72,898 shares (approved 15-Oct): idle proceeds to be held in money-market instruments, plus undertakings on wilful-defaulter status. Results due 6-Nov.
@@ -71,10 +77,10 @@ Screener P/E 196x (was 152x), ROCE 11.5%, ROE 15.7%; market cap ₹5,181cr; prom
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** No tracked series applies; aerospace and defence orders drive it.
+**Read (10-Nov-2026, mine, not management's):** No tracked series applies; aerospace and defence orders drive it.
 
 **How cost moves reach profit:** No tracked price or macro series drives this business directly. The driver is aerospace and defence orders.
 
@@ -82,7 +88,7 @@ Screener P/E 196x (was 152x), ROCE 11.5%, ROE 15.7%; market cap ₹5,181cr; prom
 
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>

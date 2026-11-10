@@ -12,11 +12,17 @@
 > **🔴 Concall gate: NOT APPLICABLE — PARAS holds no earnings calls.** Across **424 NSE filings**, the only transcript-type disclosure is from **7-Oct-2022**. **There is no Q1FY27 earnings call, no investor presentation, and no order-book disclosure** — the results filing was checked directly (`order book`: **0 mentions**). `Fetched Concalls/PARAS/` contains **only investor decks**, the most recent from **Feb-2026**. *This is a source limit, not a fetch failure — and it shapes every judgement below.*
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 1,266** · market cap ₹ 10,201 Cr. · P/E 99.9x · ROCE 17.2 % · ROE 12.4 % · 52-wk ₹ 1,585 / 580 · **vs ₹1,281 at baseline (-1.2%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 1,256** · market cap ₹ 10,124 Cr. · P/E 99.1x · ROCE 17.2 % · ROE 12.4 % · 52-wk ₹ 1,585 / 580 · **vs ₹1,281 at baseline (-2.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟡 Q2: revenue +42%, PAT +63%; postal ballot on material RPTs with Paras Anti-Drone · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: 🟢 ₹26.59cr DRDO order — Lead System Integrator for the optics unit of a hyperspectral Earth-observation payload · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No company event beyond investor-conference meetings and the FY26 annual report; stock +7% to ₹1,373 at ~120x)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Nothing new since 4-Nov (verified) · (earlier: 🆕 🟡 Q2: revenue +42%, PAT +63%; postal ballot on material RPTs with Paras Anti-Drone · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: 🟢 ₹26.59cr DRDO order — Lead System Integrator for the optics unit of a hyperspectral Earth-observation payload · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No company event beyond investor-conference meetings and the FY26 annual report; stock +7% to ₹1,373 at ~120x))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 4 → 10-Nov-2026 — Nothing new since the 4-Nov sweep**
+**The only filing in the window was already read in the 4-Nov sweep** (filed the evening of 4-Nov); nothing else on the exchange feed.
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟡 23-Oct → 4-Nov-2026 — Q2FY27: revenue +42%, PAT +63%; postal ballot on material related-party deals with the anti-drone subsidiary**
 **Q2FY27 (29-Oct).** Revenue **₹151cr, +42%**; PAT **₹31cr, +63%**; OPM 29% (28%) (Screener). **Postal ballot (notice 29-Oct, corrigendum 3-Nov; e-voting 5-Nov → 4-Dec): approval of material related-party transactions between the company and its subsidiary Paras Anti-Drone Technologies Pvt Ltd.** Call held after results.
@@ -71,10 +77,10 @@ Screener P/E 120x, ROCE 17.2%, ROE 12.4%; market cap ₹11,062cr; promoter 53.20
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** No tracked series applies; defence orders drive it.
+**Read (10-Nov-2026, mine, not management's):** No tracked series applies; defence orders drive it.
 
 **How cost moves reach profit:** No tracked price or macro series drives this business directly. The driver is defence orders.
 
@@ -82,7 +88,7 @@ Screener P/E 120x, ROCE 17.2%, ROE 12.4%; market cap ₹11,062cr; promoter 53.20
 
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>

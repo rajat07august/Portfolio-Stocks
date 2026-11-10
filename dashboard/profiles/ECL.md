@@ -12,11 +12,17 @@
 > **This is a cyclical at a trough, and the profile is written that way.** Earnings-based multiples are close to meaningless here; **book value is the informative anchor.** Management files a transcript every quarter and answers directly — which, across this refresh batch, is not the norm.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 68.7** · market cap ₹ 4,249 Cr. · P/E 26.7x · ROCE 5.00 % · ROE 3.04 % · 52-wk ₹ 95.9 / 60.1 · **vs ₹72 at baseline (-4.6%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 69.3** · market cap ₹ 4,282 Cr. · P/E 26.9x · ROCE 5.00 % · ROE 3.04 % · 52-wk ₹ 95.9 / 60.1 · **vs ₹72 at baseline (-3.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 17-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Quiet — verified · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 Promoter group bought 3.09cr shares on market (28–29 Sep) → 54.53%; Belgrave sold 2.89cr the same day · (earlier: Routine PIT disclosure; the Oman acquisition still to consolidate · (earlier: Completed the 70% buy of Arabian Water Tech LLC (Oman) — for OMR 21,000, a nominal sum · (earlier in window: Omani water-technology subsidiary acquisition completed (70% of Arabian Water Tech LLC, OMR 21,000 paid); nothing else material; stock +2%)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 17-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Analyst-meet schedule only · (earlier: 🆕 ⚪ Quiet — verified · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 Promoter group bought 3.09cr shares on market (28–29 Sep) → 54.53%; Belgrave sold 2.89cr the same day · (earlier: Routine PIT disclosure; the Oman acquisition still to consolidate · (earlier: Completed the 70% buy of Arabian Water Tech LLC (Oman) — for OMR 21,000, a nominal sum · (earlier in window: Omani water-technology subsidiary acquisition completed (70% of Arabian Water Tech LLC, OMR 21,000 paid); nothing else material; stock +2%))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 4 → 10-Nov-2026 — Analyst-meet schedule**
+An analyst-meet schedule (7-Nov). Q2 results are still to come.
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 23-Oct → 4-Nov-2026 — Quiet window — verified**
 **No NSE filings in the window (control query returned Electrosteel's 8-Oct filing).**
@@ -71,19 +77,19 @@ Screener P/E 28.5x on trough earnings, ROCE 5.0%, ROE 3.0%; market cap ₹4,536c
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** Mixed inputs: iron ore averaged $90.8 in October (−7.5% over three months), met coke +15.2% and coal +15.5%. Coke is made in-house, so the market price is an opportunity cost (my inference). DI pipe prices are not tracked.
+**Read (10-Nov-2026, mine, not management's):** Mixed inputs: iron ore averaged $90.8 in October (−7.5% over three months), met coke +16.1% and coal +15.5%. Coke is made in-house, so the market price is an opportunity cost (my inference). DI pipe prices are not tracked. Q2 results still to come.
 
 **How cost moves reach profit:** DI pipe is a commodity-linked product; management describes price turning before volume (profile §4).
 
-**Sensitivity:** raw materials were **54.0% of sales in FY26** (FY25: 49.0%, Screener). A 10% move across the whole raw-material bill is worth about **540 bps of margin before any pass-through**. The tracked inputs averaged **+7.7% over three months**, which would be roughly **416 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **54.0% of sales in FY26** (FY25: 49.0%, Screener). A 10% move across the whole raw-material bill is worth about **540 bps of margin before any pass-through**. The tracked inputs averaged **+8.0% over three months**, which would be roughly **432 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
 | Iron ore, cfr spot (monthly avg) (90.8 $/dmtu) | Input cost | -7.1% | -7.5% | -12.3% | -16.4% | 🟢 tailwind | World Bank Pink Sheet · 2026M10 |
-| Met Coke | Input cost | -3.6% | +15.2% | +32.8% | -3.6% | 🔴 headwind | Tijori (indianpetrochem.com) · 04 Nov, 09:30 am IST |
+| Met Coke | Input cost | -0.7% | +16.1% | +32.3% | -2.4% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:30 am IST |
 | Coal, Australian (monthly avg) (152.3 $/mt) | Input cost | +3.5% | +15.5% | +41.7% | +0.0% | 🔴 headwind | World Bank Pink Sheet · 2026M10 |
 
 **Why each factor is here:**
@@ -94,7 +100,7 @@ Screener P/E 28.5x on trough earnings, ROCE 5.0%, ROE 3.0%; market cap ₹4,536c
 
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>

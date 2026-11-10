@@ -11,11 +11,17 @@
 > **🔴 WHAT THIS REFRESH FOUND.** Since 28-Jul the company has: **reported a loss-making record quarter**; **had shareholders approve the ₹2,256cr Akkodis divestment (27-Jul)**; **replaced an Independent Director (11-Aug)**; and **agreed to buy 90% of a Bengaluru precision manufacturer for ₹234cr in cash (28-Aug)**. **Most importantly, it has now published four mutually inconsistent figures for how much cash the divestment actually delivers — ₹2,256cr, ₹1,685cr, ~₹910–920cr and ₹715cr — and no one has asked it to reconcile them.** ⤴ **It also corrects a market-cap error — located precisely, because my first draft of this profile blamed the wrong part of the file.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 1,910** · market cap ₹ 8,190 Cr. · P/E 250x · ROCE 15.4 % · ROE 11.5 % · 52-wk ₹ 2,360 / 1,061 · **vs ₹1,624 at baseline (+17.6%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 1,787** · market cap ₹ 7,643 Cr. · P/E 233x · ROCE 15.4 % · ROE 11.5 % · 52-wk ₹ 2,360 / 1,061 · **vs ₹1,624 at baseline (+10.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 ⚪ ESOPs; Canadian aerospace subsidiary incorporated; Q2 pending · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟡 XIDA to buy ITSJ (US AI-hardware supplier) for ≤US$7m; Swiss Ulosia acquisition completed; CFO handover 1-Jan; Akkodis Phase 1 completion still not filed · (earlier: German subsidiary add-solution GmbH put into voluntary solvent liquidation, completing the automotive exit; Phase 1 Akkodis cash now 5 weeks overdue · (earlier: Akkodis AXISCADES Aerospace Engineering incorporated 22-Sep — while the Phase 1 divestment cash is now 3 weeks overdue with no completion filing · (earlier in window: Cloud Wave acquisition COMPLETED 10-Sep (₹234cr, funded by up to ₹200cr of 12.5% NCDs); Phase 1 Akkodis close still not filed 18 days past target; promoter releases part of a pledge; stock +11.5%)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 ⚪ ESOPs; Canadian aerospace subsidiary incorporated; Q2 pending · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟡 XIDA to buy ITSJ (US AI-hardware supplier) for ≤US$7m; Swiss Ulosia acquisition completed; CFO handover 1-Jan; Akkodis Phase 1 completion still not filed · (earlier: German subsidiary add-solution GmbH put into voluntary solvent liquidation, completing the automotive exit; Phase 1 Akkodis cash now 5 weeks overdue · (earlier: Akkodis AXISCADES Aerospace Engineering incorporated 22-Sep — while the Phase 1 divestment cash is now 3 weeks overdue with no completion filing · (earlier in window: Cloud Wave acquisition COMPLETED 10-Sep (₹234cr, funded by up to ₹200cr of 12.5% NCDs); Phase 1 Akkodis close still not filed 18 days past target; promoter releases part of a pledge; stock +11.5%))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 4 → 10-Nov-2026 — No filings in the window — verified**
+**No filings on the exchange feed in the window** — a verified negative: a control query for the same name returned the right company (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 23-Oct → 4-Nov-2026 — Routine: ESOPs and a Canadian aerospace subsidiary**
 Grant of 2,46,340 options (27-Oct) and allotment of 2,41,750 ESOP shares (2-Nov). **Ulosia Holding AG (wholly owned) incorporated AKKODIS AXISCADES AEROSPACE CANADA INC. on 30-Oct**, following the 12-Jun intimation. Q2 results not yet filed.
@@ -83,10 +89,10 @@ Screener P/E 235x, ROCE 3.6%, ROE 4.1%; market cap ₹7,704cr; 52-week range ₹
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** No tracked series applies after the engineering-services divestment; defence orders drive it.
+**Read (10-Nov-2026, mine, not management's):** No tracked series applies after the engineering-services divestment; defence orders drive it.
 
 **How cost moves reach profit:** No tracked price or macro series drives this business directly. After the engineering-services divestment the driver is defence orders.
 
@@ -94,7 +100,7 @@ Screener P/E 235x, ROCE 3.6%, ROE 4.1%; market cap ₹7,704cr; 52-week range ₹
 
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>

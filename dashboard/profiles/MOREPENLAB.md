@@ -10,11 +10,17 @@
 > ***The consequence: the entire CDMO transformation this profile describes happened in the window during which the company stopped taking analyst questions. The word "CDMO" appears zero times in the May-2025 transcript.*** **Everything about the new strategy in §4 is management's own written framing, unchallenged. It is labelled as such throughout.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 101** · market cap ₹ 5,534 Cr. · P/E 29.4x · ROCE 8.05 % · ROE 5.33 % · 52-wk ₹ 151 / 33.0 · **vs ₹104 at baseline (-2.9%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 99.2** · market cap ₹ 5,433 Cr. · P/E 28.8x · ROCE 8.05 % · ROE 5.33 % · 52-wk ₹ 151 / 33.0 · **vs ₹104 at baseline (-4.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 1-Sep-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟢 Q2 record: revenue +81%, EBITDA +273% (17.45%), PAT +117% on CDMO; VP Finance & IR resigned · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 HP High Court quashed a ₹117.94cr GST show-cause notice (12-Oct) — the profile had never carried it · (earlier: 🟢 First-ever US ANDA filed (Sitagliptin, 3 strengths) — concrete CDMO progress, though still no earnings call · (earlier: CRISIL assigned an unsolicited ESG rating of 60 ('Adequate'); still no earnings call · (earlier in window: First phase of the capacity expansion completed ahead of schedule (API/CDMO reactors 535 KL → 614 KL); stock +16% to ₹121; still no earnings call)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 1-Sep-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 🟢 First US Rx generic launched (Desloratadine) · (earlier: 🆕 🟢 Q2 record: revenue +81%, EBITDA +273% (17.45%), PAT +117% on CDMO; VP Finance & IR resigned · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 HP High Court quashed a ₹117.94cr GST show-cause notice (12-Oct) — the profile had never carried it · (earlier: 🟢 First-ever US ANDA filed (Sitagliptin, 3 strengths) — concrete CDMO progress, though still no earnings call · (earlier: CRISIL assigned an unsolicited ESG rating of 60 ('Adequate'); still no earnings call · (earlier in window: First phase of the capacity expansion completed ahead of schedule (API/CDMO reactors 535 KL → 614 KL); stock +16% to ₹121; still no earnings call))))))</span></summary>
 <div class="upd-body">
+
+**🟢 4 → 10-Nov-2026 — First US prescription generic launched — Desloratadine 5 mg**
+**First Rx generic in the US: Desloratadine Tablets USP 5 mg**, distributed through the US subsidiary Morepen Bio Inc. (press release 9-Nov). Morepen has supplied the API to the US for years.
+> **Why it matters:** The first step from API into US finished dosage — small for now, but a new business line.
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟢 23-Oct → 4-Nov-2026 — Q2FY27: record — revenue +81%, EBITDA +273% (17.45% margin), PAT +117% on CDMO scale-up**
 **Q2FY27 (27-Oct).** Revenue **₹755cr, +81%**; EBITDA **₹132cr, +273%**, margin **17.45%**; PAT **₹89cr, +117%** — the second consecutive record quarter, credited to commercial CDMO supplies and mix. H1 EBITDA ₹220cr. ~76% of API revenue is exported. **Nishant Jayesh Doshi, VP Corporate Finance & Investor Relations (SMP), resigned** (31-Oct); two promotions (27-Oct). CARE monitoring report: no deviation.
@@ -71,10 +77,10 @@ Screener P/E 56.4x, ROCE 8.1%, ROE 5.3%; market cap ₹6,625cr; promoter 35.66% 
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** Only currency is tracked; 1.7% stronger in the month. API intermediates are not tracked.
+**Read (10-Nov-2026, mine, not management's):** Only currency is tracked; 3.0% stronger in the month. API intermediates are not tracked.
 
 **How cost moves reach profit:** API intermediates are not tracked.
 
@@ -82,14 +88,14 @@ Screener P/E 56.4x, ROCE 8.1%, ROE 5.3%; market cap ₹6,625cr; promoter 35.66% 
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (94.64 ₹ per $) | FX (export revenue) | -1.7% | -0.5% | +6.7% | -2.3% | ⚪ flat | Yahoo Finance · 04-Nov-2026 |
+| USD/INR (93.918 ₹ per $) | FX (export revenue) | -3.0% | -1.6% | +5.9% | -3.1% | ⚪ flat | Yahoo Finance · 10-Nov-2026 |
 
 **Why each factor is here:**
 
 - **USD/INR**: Export APIs and the CDMO mandate (profile).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>

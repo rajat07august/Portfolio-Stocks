@@ -30,11 +30,17 @@
 ---
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 926** · market cap ₹ 4,275 Cr. · P/E — · ROCE -3.70 % · ROE -1.98 % · 52-wk ₹ 982 / 466 · **vs ₹923 at baseline (+0.3%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 899** · market cap ₹ 4,141 Cr. · P/E — · ROCE -3.70 % · ROE -1.98 % · 52-wk ₹ 982 / 466 · **vs ₹923 at baseline (-2.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 27-Oct-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟡 Q2 loss ₹28.7cr; SC upholds AT-1 order vs Yes Bank/RBI (write-off not yet reversed); audit qualified; receivables 3x</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 27-Oct-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Nothing new since 4-Nov (verified) · (earlier: 🆕 🟡 Q2 loss ₹28.7cr; SC upholds AT-1 order vs Yes Bank/RBI (write-off not yet reversed); audit qualified; receivables 3x)</span></summary>
 <div class="upd-body">
+
+**⚪ 4 → 10-Nov-2026 — Nothing new since the 4-Nov sweep**
+**The only filing in the window was already read in the 4-Nov sweep** (filed the evening of 4-Nov); nothing else on the exchange feed.
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: BSE announcements via Chrome (the BSE JSON API is still blocked from curl), 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟡 23-Oct → 4-Nov-2026 — Q2FY27: loss continues; Supreme Court upholds the AT-1 order against Yes Bank and RBI; audit still qualified**
 **Q2FY27 (4-Nov, BSE; consolidated statement and notes rendered and read).** Revenue **₹153.2cr** (Q1 ₹136.3cr; Q2FY26 ₹20.4cr) with cost of goods ₹96.2cr — mostly 63SATS resale, as recorded on 27-Oct; other income ₹56.5cr. **Loss before tax ₹41.2cr; loss attributable ₹28.7cr**, EPS −₹6.24. H1 trade receivables ₹66.2cr → **₹207.0cr**; cash ₹66.6cr → ₹572.3cr, other bank balances ₹1,610cr → ₹1,289cr.

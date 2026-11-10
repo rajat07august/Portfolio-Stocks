@@ -30,11 +30,17 @@
 ---
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 20.6** · market cap ₹ 1,931 Cr. · P/E 22.6x · ROCE 24.7 % · ROE 17.6 % · 52-wk ₹ 27.5 / 10.2 · **vs ₹20.40 at baseline (+1.0%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 20.1** · market cap ₹ 1,889 Cr. · P/E 22.1x · ROCE 24.7 % · ROE 17.6 % · 52-wk ₹ 27.5 / 10.2 · **vs ₹20.40 at baseline (-1.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 29-Oct-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Quiet — verified</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 29-Oct-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 ⚪ Quiet — verified)</span></summary>
 <div class="upd-body">
+
+**⚪ 4 → 10-Nov-2026 — No filings in the window — verified**
+**No filings on the exchange feed in the window** — a verified negative: a control query for the same name returned the right company (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 23-Oct → 4-Nov-2026 — Quiet window — verified**
 **No NSE filings in the window (control query returned Syncom's 8-Oct filing).**
@@ -48,10 +54,10 @@
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** Only currency is tracked, and it matters here: exports are 83% of sales. The rupee is 1.7% stronger in the month (a small headwind) and 6.7% weaker than a year ago. APIs, its main input, are not tracked.
+**Read (10-Nov-2026, mine, not management's):** Only currency is tracked, and it matters here: exports are 83% of sales. The rupee is 3.0% stronger in the month (a headwind) and 5.9% weaker than a year ago. APIs, its main input, are not tracked.
 
 **How cost moves reach profit:** Generic formulations; APIs are bought in India (forex outgo ₹1cr in FY26) and are not tracked. Pass-through terms on export contracts are not disclosed.
 
@@ -59,14 +65,14 @@
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (94.64 ₹ per $) | FX (export revenue) | -1.7% | -0.5% | +6.7% | -2.3% | ⚪ flat | Yahoo Finance · 04-Nov-2026 |
+| USD/INR (93.918 ₹ per $) | FX (export revenue) | -3.0% | -1.6% | +5.9% | -3.1% | ⚪ flat | Yahoo Finance · 10-Nov-2026 |
 
 **Why each factor is here:**
 
 - **USD/INR**: Exports were 83% of FY26 sales, to markets the company does not name (profile §4).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>

@@ -24,11 +24,17 @@
 ---
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 603** · market cap ₹ 1,447 Cr. · P/E 25.4x · ROCE 24.9 % · ROE 18.6 % · 52-wk ₹ 732 / 280 · **vs ₹500 at baseline (+20.6%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 603** · market cap ₹ 1,446 Cr. · P/E 25.4x · ROCE 24.9 % · ROE 18.6 % · 52-wk ₹ 732 / 295 · **vs ₹500 at baseline (+20.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Quiet — verified on the exchange feed · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Nothing since the 15-Oct H1FY27 rewrite · (earlier: H1FY27: revenue +25%, PAT +72%, EBITDA 23.6% with Unit III still not producing; MD & CFO sold 4.07% of the company in Jun–Jul; conviction MH → M (Under Watch) · (earlier in window: 4.45 MW Inox Wind turbine ordered; directors' pay ceilings raised from ₹15 to ₹25 lakh/month each; AGM 31-Jul))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 ⚪ Quiet — verified on the exchange feed · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Nothing since the 15-Oct H1FY27 rewrite · (earlier: H1FY27: revenue +25%, PAT +72%, EBITDA 23.6% with Unit III still not producing; MD & CFO sold 4.07% of the company in Jun–Jul; conviction MH → M (Under Watch) · (earlier in window: 4.45 MW Inox Wind turbine ordered; directors' pay ceilings raised from ₹15 to ₹25 lakh/month each; AGM 31-Jul)))))</span></summary>
 <div class="upd-body">
+
+**⚪ 4 → 10-Nov-2026 — No filings in the window — verified**
+**No filings on the exchange feed in the window** — a verified negative: a control query for the same name returned the right company (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 23-Oct → 4-Nov-2026 — Quiet window — verified**
 **no filings at all on NSE-SME in the window (control query returned the company's 15-Oct filings).**
@@ -88,10 +94,10 @@ Screener 18-Sep: ₹682, market cap ₹1,635cr, P/E 37.3x (the 19-Sep note round
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** With 63% exports, the rupee's 6.7% fall over the year still helps; it is 1.7% stronger in the month, a small headwind. Wood pulp is not tracked.
+**Read (10-Nov-2026, mine, not management's):** With 63% exports, the rupee's 3.0% gain in the month is a small headwind; it is still 5.9% weaker than a year ago. Wood pulp is not tracked.
 
 **How cost moves reach profit:** Wood-pulp cost is not tracked.
 
@@ -99,14 +105,14 @@ Screener 18-Sep: ₹682, market cap ₹1,635cr, P/E 37.3x (the 19-Sep note round
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (94.64 ₹ per $) | FX (export revenue) | -1.7% | -0.5% | +6.7% | -2.3% | ⚪ flat | Yahoo Finance · 04-Nov-2026 |
+| USD/INR (93.918 ₹ per $) | FX (export revenue) | -3.0% | -1.6% | +5.9% | -3.1% | ⚪ flat | Yahoo Finance · 10-Nov-2026 |
 
 **Why each factor is here:**
 
 - **USD/INR**: Exports are 63% of revenue (profile Moat 3).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>

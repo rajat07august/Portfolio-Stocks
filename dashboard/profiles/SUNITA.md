@@ -7,11 +7,17 @@
 > **Note on sourcing:** Sunita Tools is a very small SME with limited concall history. Only ONE full concall transcript (H1FY25) is available. Financial data extrapolated from investor deck + BSE filings + Screener. Confidence in numbers is moderate; management-tone reading is based on very limited data points. **This profile carries more uncertainty than others in the watchlist.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 1,085** · market cap ₹ 681 Cr. · P/E 108x · ROCE 10.5 % · ROE 10.8 % · 52-wk ₹ 1,331 / 553 · **vs ₹741 at baseline (+46.4%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 1,026** · market cap ₹ 644 Cr. · P/E 102x · ROCE 10.5 % · ROE 10.8 % · 52-wk ₹ 1,331 / 553 · **vs ₹741 at baseline (+38.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟢 50:50 Bulgarian defence JV signed; M1 shell-forging order (6,000 sets) — values undisclosed · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ No filings in the window (verified) · (earlier: 🟡 Managing Director re-appointed after his term had been EXPIRED since 25-May; three Pandey-family remuneration approvals now go to shareholders · (earlier: Nothing filed; ₹576cr order book vs ~₹47cr revenue from undisclosed counterparties still stands · (earlier in window: ₹576cr order book (₹552cr defence) against ₹32cr of four-month sales, all from undisclosed counterparties; three defence MoUs; unnamed 90% acquisition; equity raise approved; stock +44%)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Nothing new since 4-Nov (verified) · (earlier: 🆕 🟢 50:50 Bulgarian defence JV signed; M1 shell-forging order (6,000 sets) — values undisclosed · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ No filings in the window (verified) · (earlier: 🟡 Managing Director re-appointed after his term had been EXPIRED since 25-May; three Pandey-family remuneration approvals now go to shareholders · (earlier: Nothing filed; ₹576cr order book vs ~₹47cr revenue from undisclosed counterparties still stands · (earlier in window: ₹576cr order book (₹552cr defence) against ₹32cr of four-month sales, all from undisclosed counterparties; three defence MoUs; unnamed 90% acquisition; equity raise approved; stock +44%))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 4 → 10-Nov-2026 — Nothing new since the 4-Nov sweep**
+**The only filing in the window was already read in the 4-Nov sweep** (filed the evening of 4-Nov); nothing else on the exchange feed.
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: BSE announcements via Chrome (the BSE JSON API is still blocked from curl), 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟢 23-Oct → 4-Nov-2026 — A 50:50 defence JV in Bulgaria and an M1 shell-forging order (6,000 sets)**
 **24-Oct (filed 26-Oct): share acquisition and strategic cooperation agreement to take 50% of a Bulgarian defence company** (20 years in the industry; name withheld as commercially sensitive; paid-up capital EUR 25,500); consideration to be set at arm's length on an independent valuation. **2-Nov: supply order for M1 shell forgings, 6,000 sets** — customer and value not disclosed "due to confidentiality". Board on 13-Nov (H1 results).
@@ -86,10 +92,10 @@ Screener P/E 106x, ROCE 10.1%, ROE 10.8%; promoter 62.75% (Mar-2026; was 72.98% 
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** Flat steel is +10.2% over three months and near its 52-week high. Steel is billed through (revenue fell when steel fell 45%), so this lifts revenue more than it hurts margin.
+**Read (10-Nov-2026, mine, not management's):** Flat steel is +10.2% over three months and near its 52-week high. Steel is billed through, so this lifts revenue more than it hurts margin.
 
 **How cost moves reach profit:** Steel is billed through: when steel fell 45%, H1FY25 revenue fell even as volume rose 38–40% (profile §4).
 
@@ -97,14 +103,14 @@ Screener P/E 106x, ROCE 10.1%, ROE 10.8%; promoter 62.75% (Mar-2026; was 72.98% 
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Steel Flat | Input cost | -0.8% | +10.2% | +35.3% | -1.7% | 🔴 headwind | Tijori (indianpetrochem.com) · 04 Nov, 09:30 am IST |
+| Steel Flat | Input cost | -1.2% | +10.2% | +35.1% | -1.2% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:30 am IST |
 
 **Why each factor is here:**
 
 - **Steel Flat**: Steel plate machining and mould bases, bought direct from mills (profile Moat 6).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>

@@ -20,11 +20,17 @@
 > **4. A COO was appointed on 14-Aug-2026 — Mr. Ravi Desai.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 1,145** · market cap ₹ 13,036 Cr. · P/E 74.6x · ROCE 7.38 % · ROE 5.55 % · 52-wk ₹ 1,415 / 1,053 · **vs ₹1,258 at baseline (-9.0%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 1,198** · market cap ₹ 13,643 Cr. · P/E 75.6x · ROCE 7.38 % · ROE 5.55 % · 52-wk ₹ 1,415 / 1,059 · **vs ₹1,258 at baseline (-4.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Quiet — verified · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ ESG rating; no Q2 board date yet · (earlier: 🔴 The Bliss GVS acquisition CONSUMMATED 28-Sep — but 47.95% sits with the Mates PAC, not with Anupam, while Anupam carries the guarantee and the pledge · (earlier: ₹160cr more unlisted NCDs approved (Aditya Birla Capital) with ₹145cr allotted on 21-Sep — the debt build flagged on 19-Sep continues · (earlier in window: Bliss GVS acquisition financing approved: ₹300cr of secured NCDs at the Mates vehicle, guaranteed and pledged by Anupam; ₹160cr more NCDs on the 19-Sep agenda; CRISIL A+ still on Watch; new six-year US supply contract; stock −4%)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 🟡 Q2: revenue +11%, margin 25% (above the 22% floor); receivables ₹1,582cr; consolidated EPS corrected · (earlier: 🆕 ⚪ Quiet — verified · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ ESG rating; no Q2 board date yet · (earlier: 🔴 The Bliss GVS acquisition CONSUMMATED 28-Sep — but 47.95% sits with the Mates PAC, not with Anupam, while Anupam carries the guarantee and the pledge · (earlier: ₹160cr more unlisted NCDs approved (Aditya Birla Capital) with ₹145cr allotted on 21-Sep — the debt build flagged on 19-Sep continues · (earlier in window: Bliss GVS acquisition financing approved: ₹300cr of secured NCDs at the Mates vehicle, guaranteed and pledged by Anupam; ₹160cr more NCDs on the 19-Sep agenda; CRISIL A+ still on Watch; new six-year US supply contract; stock −4%))))))</span></summary>
 <div class="upd-body">
+
+**🟡 4 → 10-Nov-2026 — Q2: revenue +11%, EBITDA margin 25%; receivables ₹1,582cr; EPS restated the same day**
+**Q2FY27 (6-Nov).** Total revenue **₹821cr (+11%)**, EBITDA ₹202cr (+41%, **25% including other income**), PAT ₹65cr (+14%); H1 revenue ₹1,489cr (+21%). Deck balance sheet: **trade receivables ₹1,582cr vs ₹959cr**. **Revised results filed the same day:** an *"arithmetic error arising out of excel formula"* used total profit instead of profit attributable to owners in consolidated EPS (corrected to ₹4.39 for Q2, ₹7.79 for H1). Call recording 6-Nov; no transcript yet.
+> **Why it matters:** **No downgrade-to-Speculative trigger fired:** consolidated EBITDA margin 25% is above the 22% floor; no new acquisition or dilution. The receivables build and a second results correction are the things to read on the call.
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 23-Oct → 4-Nov-2026 — Quiet window — verified**
 **AGM minutes (30-Sep meeting) and the earnings-call notice; Q2 results due 6-Nov.**
@@ -103,10 +109,10 @@ Screener P/E 78.7x, ROCE 7.4%, ROE 5.6%; market cap ₹13,750cr; promoter 59.07%
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** Only currency is tracked: 1.7% stronger in the month, 6.7% weaker over a year, so the year-on-year export help is intact but fading.
+**Read (10-Nov-2026, mine, not management's):** Only currency is tracked: 3.0% stronger in the month, 5.9% weaker over a year — the year-on-year export help is fading.
 
 **How cost moves reach profit:** Custom synthesis priced per contract (profile).
 
@@ -114,14 +120,14 @@ Screener P/E 78.7x, ROCE 7.4%, ROE 5.6%; market cap ₹13,750cr; promoter 59.07%
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (94.64 ₹ per $) | FX (export revenue) | -1.7% | -0.5% | +6.7% | -2.3% | ⚪ flat | Yahoo Finance · 04-Nov-2026 |
+| USD/INR (93.918 ₹ per $) | FX (export revenue) | -3.0% | -1.6% | +5.9% | -3.1% | ⚪ flat | Yahoo Finance · 10-Nov-2026 |
 
 **Why each factor is here:**
 
 - **USD/INR**: Export-led custom synthesis (profile).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>

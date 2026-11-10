@@ -12,11 +12,17 @@
 > **🔴 The disclosure gap that governs everything below: GMDC has not held an earnings call since 29-May-2025.** Across **472 NSE filings**, the last earnings-call filing is that date; before it, August 2024. **No call was held after FY26 results (14-May-2026) or after Q1FY27 (31-Jul-2026), and no investor presentation appears anywhere in the recent record.** This profile is therefore built from **statutory filings and press releases only**. The standing §9 data-gap queue item — *"FY26 concalls needed"* — has been **closed as uncloseable: the calls were never held.** *A ₹18,261cr company that no longer speaks to shareholders, in a year containing a ₹522.65cr exceptional item and a 30% fall in operating profit.*
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 469** · market cap ₹ 14,921 Cr. · P/E 23.9x · ROCE 10.8 % · ROE 4.22 % · 52-wk ₹ 772 / 395 · **vs ₹574 at baseline (-18.3%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 478** · market cap ₹ 15,208 Cr. · P/E 24.4x · ROCE 10.8 % · ROE 8.62 % · 52-wk ₹ 772 / 395 · **vs ₹574 at baseline (-16.7%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟢 Q2: revenue +71%, PBT +47% ex last year's ₹474cr one-off (reported PAT −63% is a base effect); mining profit +79% · (earlier: 🆕 ⚪ Independent director added; dividend paid; Q2 board 30-Oct · (earlier: ⚪ ESG rating; Q2 board 30-Oct · (earlier: New Managing Director — Mr Ajay Bhadoo, IAS — appointed from 29-Sep; AGM passed · (earlier: CARE reaffirms AA+/Stable and A1+; short-term facilities enhanced ₹5cr → ₹25cr · (earlier in window: CARE AA+/Stable reaffirmed; CERT-In 'probable data breach' on the corporate website disclosed (operations unaffected); FY26 annual report out; stock −3%)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Nothing new since 4-Nov (verified) · (earlier: 🆕 🟢 Q2: revenue +71%, PBT +47% ex last year's ₹474cr one-off (reported PAT −63% is a base effect); mining profit +79% · (earlier: 🆕 ⚪ Independent director added; dividend paid; Q2 board 30-Oct · (earlier: ⚪ ESG rating; Q2 board 30-Oct · (earlier: New Managing Director — Mr Ajay Bhadoo, IAS — appointed from 29-Sep; AGM passed · (earlier: CARE reaffirms AA+/Stable and A1+; short-term facilities enhanced ₹5cr → ₹25cr · (earlier in window: CARE AA+/Stable reaffirmed; CERT-In 'probable data breach' on the corporate website disclosed (operations unaffected); FY26 annual report out; stock −3%))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 4 → 10-Nov-2026 — Nothing new since the 4-Nov sweep**
+**The only filing in the window was already read in the 4-Nov sweep** (filed the evening of 4-Nov); nothing else on the exchange feed.
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟢 23-Oct → 4-Nov-2026 — Q2FY27: revenue +71% and PBT +47% ex last year's one-off — the −63% PAT is a base effect**
 **Q2FY27 (30-Oct; segment page rendered and read).** Consolidated revenue **₹903cr, +71%**; reported PAT **₹171cr, −63%** (Screener). **Q2FY26 PBT of ₹634cr included a ₹474.43cr exceptional credit** (GST input-tax credit on lignite recognised after the 22-Sep-2025 rate change, note 3). Standalone PBT **₹234.6cr vs ₹159.5cr ex that item (+47%)** *(my arithmetic)*. Mining revenue ₹809.9cr vs ₹494.8cr (+64%), mining operating result ₹194.3cr vs ₹108.6cr (+79%); power segment ₹8.7cr profit vs a ₹14.4cr loss. Note 2: the GSPC investment was extinguished under the composite scheme; GMDC received GEL and GTL shares.
@@ -78,10 +84,10 @@ Screener P/E 31.0x on reported earnings, ROCE 10.8%, ROE 4.2%; promoter (Governm
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** Lignite demand is supported: electricity output +11.6% and cement +12.5% YoY (August). Imported coal, the substitute fuel, averaged +15.5% over three months to October. Q2FY27 mining revenue +64%.
+**Read (10-Nov-2026, mine, not management's):** Lignite demand is supported: electricity output +11.6% and cement +12.5% YoY (August). Imported coal, the substitute fuel, averaged +15.5% over three months to October.
 
 **How cost moves reach profit:** Lignite is sold to Gujarat's power, cement and industrial users near the mine; pricing is not market-linked day to day (profile §1).
 
@@ -100,7 +106,7 @@ Screener P/E 31.0x on reported earnings, ROCE 10.8%, ROE 4.2%; promoter (Governm
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>

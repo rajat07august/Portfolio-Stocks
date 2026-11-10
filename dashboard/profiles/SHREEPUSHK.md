@@ -4,11 +4,17 @@
 **Thesis current as of: 5-Nov-2026 · Tracking since: 16-Sep-2026** · **🔵 HELD POSITION** *(disclosed 4-Nov-2026)*
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 595** · market cap ₹ 1,927 Cr. · P/E 21.5x · ROCE 12.9 % · ROE 12.1 % · 52-wk ₹ 653 / 272 · **vs ₹507 at baseline (+17.4%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 570** · market cap ₹ 1,844 Cr. · P/E 20.6x · ROCE 12.9 % · ROE 12.1 % · 52-wk ₹ 653 / 272 · **vs ₹507 at baseline (+12.4%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 16-Sep-2026 → 5-Nov-2026</span> <span class="upd-sum">🆕 🔴 Q2 call read: chemical revenue +86% on tonnage −17% (H-acid windfall, peer-confirmed); H1 cash flow −₹53cr, receivables +₹153cr; FY27 guide cut to ₹1,250–1,300cr · (earlier: 🆕 🟢 Q2: revenue +58%, PAT +96% (gross margin 30% vs 33%); new Unit-5 chemical plant · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: 🔴 NCLT ALLOWED WITHDRAWAL of the subsidiary amalgamation scheme approved back in Dec-2024 — another timetable abandoned · (earlier: No filings since the profile was written)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 16-Sep-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Nothing beyond the 5-Nov rewrite; EGM 2-Dec · (earlier: 🆕 🔴 Q2 call read: chemical revenue +86% on tonnage −17% (H-acid windfall, peer-confirmed); H1 cash flow −₹53cr, receivables +₹153cr; FY27 guide cut to ₹1,250–1,300cr · (earlier: 🆕 🟢 Q2: revenue +58%, PAT +96% (gross margin 30% vs 33%); new Unit-5 chemical plant · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: 🔴 NCLT ALLOWED WITHDRAWAL of the subsidiary amalgamation scheme approved back in Dec-2024 — another timetable abandoned · (earlier: No filings since the profile was written))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 4 → 10-Nov-2026 — Transcript and EGM notice — both already folded into the 5-Nov rewrite**
+The official Q2 transcript (5-Nov) and the EGM notice for 2-Dec (8,54,060 warrants to the CMD at ₹526.90, ~₹45cr, for a chemical plant on vacant land at Unit 5; his stake 5.04% → 7.32% fully diluted) were read in the 5-Nov Tier-A rewrite. Newspaper publications only otherwise.
+> **Why it matters:** Nothing new beyond the 5-Nov rewrite. EGM 2-Dec.
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🔴 5-Nov-2026 — Q2FY27 call read (transcript filed this evening): the record quarter is a price event, and the cash went the other way**
 **Chemical revenue +85.6% on tonnage −16.8%**; realisation more than doubled, ~₹76,000/t → ~₹1,70,000/t *(my arithmetic)*. The CMD: H-acid prices are *"practically non-sustainable… very short-lived"*. **Bodal Chemicals printed the same quarter** (revenue +80%, OPM 4.8% → 12%). **H1 operating cash flow −₹53.3cr; receivables ₹179cr → ₹332cr; borrowings ₹127cr → ₹230cr.** FY27 revenue guide back to **₹1,250–1,300cr** from ₹1,350–1,400cr in August. Unit 5 dyes commercial; Unit 6 trial now end-Nov/Dec. ₹45cr of new warrants to the CMD at ₹526.90 (EGM 2-Dec) for a ₹70cr plant whose product he will not name.
@@ -73,10 +79,10 @@ Swept both feeds: zero announcements.
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** Sulphur, its biggest input, is not tracked; Brent (~$102 front-month) is the nearest proxy and eased since 23-Oct. Rock phosphate is flat over three months. National fertiliser output −12.4% YoY (August). Q2FY27 gross margin fell to 30.0% from 33.2%.
+**Read (10-Nov-2026, mine, not management's):** Sulphur, its biggest input, is not tracked; Brent, the nearest proxy, fell 13.5% in the month to ~$91. Rock phosphate is flat. National fertiliser output −12.4% YoY (August).
 
 **How cost moves reach profit:** Sulphur went from ~$250–300/t to ~$1,100/t in March 2026 (CMD, Q1FY27); pass-through is partial. Sulphur itself is not tracked by any source here.
 
@@ -84,7 +90,7 @@ Swept both feeds: zero announcements.
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Brent crude (102.33 $/bbl) | Proxy / context | +2.0% | +28.8% | +58.8% | -13.5% | ⚪ context | Yahoo Finance · 04-Nov-2026 |
+| Brent crude (90.61 $/bbl) | Proxy / context | -13.5% | +1.9% | +41.4% | -23.4% | ⚪ context | Yahoo Finance · 10-Nov-2026 |
 | Phosphate rock (monthly avg) (170.0 $/mt) | Input cost | +0.0% | +0.0% | +11.5% | +0.0% | ⚪ flat | World Bank Pink Sheet · 2026M10 |
 | Production - Fertilizers (YoY, Aug 26) | Demand driver | — | -7.9% | -12.4% | — | 🔴 headwind | Tijori macro (India) · Aug 26 |
 
@@ -97,7 +103,7 @@ Swept both feeds: zero announcements.
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -536,6 +542,8 @@ Plus ₹9.33cr for 30,000 m² of adjoining land at Lote Parshuram, bought at auc
 > ⚠️ **HALF RESOLVED (5-Nov-2026):** Unit 5 commercial; **Unit 6 on an eighth date**, trial end-Nov/Dec, no Q4 revenue assumed.
 
 **2. 🔴 Sulphur and ammonia stay at crisis prices and the finished-product market does not reprice.** Both segments are hit simultaneously. The integration does not hedge; it concentrates.
+
+> 📈 **Factor check 10-Nov-2026:** Sulphur is not tracked by any available source; Brent, its driver, fell 13.5% in the month to ~$91 (10-Nov); rock phosphate is flat. *(Numbers and sources: Input & factor check, at the top.)*
 
 > 🟡 **EASING (5-Nov-2026):** CMD: *"Sulfur is starting to come down."* The acid complex still runs low. *"There was no inventory gain"*, he says.
 

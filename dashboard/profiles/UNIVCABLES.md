@@ -19,6 +19,7 @@
 | **Concall gate** | 🔴 **STRUCTURAL — no calls exist.** Not a fetch failure. Proceeding on Rajat's explicit data-limited instruction. |
 | **Credit rating** | **CARE A (Stable) / CARE A1**, reaffirmed 23-Feb-2026 — on ₹3,070cr of facilities (LT ₹1,205cr, ST ₹1,800cr, LT/ST ₹65cr). ⤴ **Reaffirmed again 12-Oct-2026 on ₹3,979cr (+30%): LT ₹1,509cr, ST ₹2,375cr, LT/ST ₹95cr.** **CARE rates on a consolidated approach and explicitly factors in MP Birla group support.** |
 | **Basis** | Standalone has **no subsidiaries**; consolidated = standalone + equity-accounted **Vindhya Telelinks (29.15%, associate)** + **Birla Furukawa Fibre Optics (26.14%, JV)**. **Revenue, EBITDA, interest and debt are identical on both bases; only PAT, book value and ROE differ.** |
+| **⤴ Re-priced 10-Nov-2026** | **≈ +60% arithmetic at ₹1,130** on the unchanged cases (base +54% / bull +142% / bear −27%) — **the price fell 27% since initiation; H1's margin (9.6%) and cash (−₹88cr) sit nearer the bear case's assumptions. Not a better case — see §6.** |
 
 > **⚠️ Three things to know before reading any number in this profile.**
 > **(1) Two different companies share one ticker.** The cable business earned **₹96.5cr** in FY26; the consolidated figure of **₹164.7cr** adds **~₹66cr of equity-accounted profit** from Vindhya Telelinks (₹46.6cr) and the optical-fibre JV (₹19.9cr). **Consolidated net worth of ₹1,891cr is 46% Universal and 54% associates** (AR FY26, note 53). Screener's headline P/E of 27x prices both; **the cable business alone trades at roughly 36–47x** depending on what the holdings are worth (§6).
@@ -28,11 +29,19 @@
 ---
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 1,304** · market cap ₹ 4,525 Cr. · P/E 22.6x · ROCE 11.7 % · ROE 8.90 % · 52-wk ₹ 1,775 / 576 · **vs ₹1,551 at baseline (-15.9%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 1,130** · market cap ₹ 3,920 Cr. · P/E 18.1x · ROCE 11.7 % · ROE 8.90 % · 52-wk ₹ 1,775 / 576 · **vs ₹1,551 at baseline (-27.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 13-Oct-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Quiet — verified on the exchange feed · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 CARE A/Stable reaffirmed on facilities up 30% to ₹3,979cr; Q2 results board meeting 4-Nov))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Oct-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 🟡 Q2: revenue +25%, margin 9.3%, standalone PAT −9%; H1 CFO −₹88cr, borrowings +₹296cr; LatAm order confirmed · (earlier: 🆕 ⚪ Quiet — verified on the exchange feed · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 CARE A/Stable reaffirmed on facilities up 30% to ₹3,979cr; Q2 results board meeting 4-Nov)))</span></summary>
 <div class="upd-body">
+
+**🟡 4 → 10-Nov-2026 — Q2: revenue +25%, but margin 9.3% and H1 operating cash −₹88cr; borrowings +₹296cr in six months**
+**Q2FY27 (results 4-Nov evening; no call — the company has never held one).** Standalone revenue **₹1,018.6cr (+25%)**, a record; exports **₹137.7cr (+139%)**, H1 exports ₹258.1cr (+154%). Company EBITDA **₹94.3cr (+12.7%), 9.3% of revenue** *(company basis; Screener's ex-other-income margin is ~8%)*. **Standalone PAT ₹33.1cr vs ₹36.6cr (−9%)**; consolidated PAT ₹63.9cr (+32%) on associates. Finance cost ₹40.7cr (+50%). Order book ~₹2,890cr incl. ₹637cr export; the **~US$25m Latin America EHV turnkey order is now confirmed**. FY27 guide: revenue growth *"about 25%(+)"*.
+**H1 cash and balance sheet (rendered pages read):** operating cash flow **−₹87.7cr** (−₹3.7cr a year ago) on +₹246.7cr receivables and +₹134.9cr inventory; trade receivables ₹1,469cr (₹1,216cr in March); **borrowings ₹1,472cr (₹1,176cr)**; capex ₹131.9cr, CWIP still rising (₹199cr). Current 'other financial liabilities' jumped ₹53cr → ₹332cr while trade payables fell ₹149cr — **not explained in the filing**.
+**Board:** Kishore Kumar Mehrotra's independent-director term ends 10-Nov; **Sutirtha Bhattacharya** appointed additional independent director.
+> **Why it matters:** Growth is on guidance; **margin and cash are not on the base case** (base: ~10–10.5% margin; H1 is 9.3% on the company's basis, ~8% ex other income — the bear case's 8.5%). Profile Risk 1 ("cash never catches up with growth") is the live one. **No 'Down' signal fired** (no capex revision disclosed; receivables ~136 days on H1 sales vs the 160-day line). The stock fell 13% in the week (₹1,304 → ₹1,130). Tier-A rewrite done in this refresh.
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 23-Oct → 4-Nov-2026 — Quiet window — verified**
 **no NSE filings in the window (control returned Universal Cables' 13-Oct filing); results due 4-Nov.**
@@ -58,22 +67,22 @@
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** Raw materials were 75% of FY26 sales (Screener). Copper is −3.8% over three months (+30.9% over the year), aluminium −4.4%; polymer inputs keep rising — PVC +12.9%, polyethylene (an XLPE proxy) +40.0%. Escalation clauses cover EPC contracts but not every product order. Electricity output +11.6% YoY (August). Q2FY27 is due 4-Nov evening; test whether the margin holds near 10%.
+**Read (10-Nov-2026, mine, not management's):** Metals are easing — copper −5.3% and aluminium −10.3% over three months — while polymers keep rising (PVC +12.9%, polyethylene as an XLPE proxy +38.9%). Raw materials were 75% of FY26 sales. Q2's 9.3% margin (below the ~10% guide) came with metals already softening, so inputs are not the explanation (my inference). Electricity output +11.6% YoY (August).
 
 **How cost moves reach profit:** Partial. EPC contracts carry price-escalation clauses, key inputs are tied up when large orders are bid, and a hedging desk has run since Jan-2022 (CARE, Feb-2026). The share of the bill that is passed through is not disclosed.
 
-**Sensitivity:** raw materials were **75.0% of sales in FY26** (FY25: 76.0%, Screener). A 10% move across the whole raw-material bill is worth about **750 bps of margin before any pass-through**. The tracked inputs averaged **+1.6% over three months**, which would be roughly **120 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **75.0% of sales in FY26** (FY25: 76.0%, Screener). A 10% move across the whole raw-material bill is worth about **750 bps of margin before any pass-through**. The tracked inputs averaged **-0.9% over three months**, which would be roughly **68 bps of relief** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Copper (COMEX) (6.4475 $/lb) | Input cost | -2.1% | -3.8% | +30.9% | -5.2% | 🟢 tailwind | Yahoo Finance · 04-Nov-2026 |
-| Aluminium (COMEX) (3,217.5 $/t) | Input cost | -0.6% | -4.4% | +15.8% | -23.3% | 🟢 tailwind | Yahoo Finance · 04-Nov-2026 |
-| LDPE | Proxy / context | +25.2% | +40.0% | +76.4% | +0.0% | ⚪ context | Tijori (indianpetrochem.com) · 04 Nov, 09:00 am IST |
-| PVC | Input cost | +1.1% | +12.9% | +44.5% | -9.6% | 🔴 headwind | Tijori (indianpetrochem.com) · 04 Nov, 09:00 am IST |
-| USD/INR (94.64 ₹ per $) | FX (export revenue) | -1.7% | -0.5% | +6.7% | -2.3% | ⚪ flat | Yahoo Finance · 04-Nov-2026 |
+| Copper (COMEX) (6.2645 $/lb) | Input cost | -5.7% | -5.3% | +23.1% | -7.9% | 🟢 tailwind | Yahoo Finance · 10-Nov-2026 |
+| Aluminium (COMEX) (3,114.25 $/t) | Input cost | -2.1% | -10.3% | +11.1% | -25.8% | 🟢 tailwind | Yahoo Finance · 10-Nov-2026 |
+| LDPE | Proxy / context | +8.0% | +38.9% | +77.4% | +0.0% | ⚪ context | Tijori (indianpetrochem.com) · 10 Nov, 09:00 am IST |
+| PVC | Input cost | +1.1% | +12.9% | +44.5% | -9.6% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:00 am IST |
+| USD/INR (93.918 ₹ per $) | FX (export revenue) | -3.0% | -1.6% | +5.9% | -3.1% | ⚪ flat | Yahoo Finance · 10-Nov-2026 |
 | Production - Electricity (YoY, Aug 26) | Demand driver | — | +10.1% | +11.6% | — | 🟢 tailwind | Tijori macro (India) · Aug 26 |
 
 **Why each factor is here:**
@@ -87,7 +96,7 @@
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -220,6 +229,10 @@ Universal is one of the **MP Birla Group** companies. The promoter group holds *
 | FY27 EBITDA margin **~10%** | 23-May-2026 | Q1FY27 **10.01%** | 🕐 On track (one quarter) |
 | Exports **>15% of FY27 revenue** | 23-May-2026 | Q1FY27 **12.7%** | 🕐 |
 | CARE: PBILDT to *"expand to ~₹300 crore"* with the new plant | 23-Feb-2026 | FY26 ₹289cr (company EBITDA) | 🕐 |
+| *(10-Nov)* FY27 revenue growth *"about 25%(+)"* | Aug-2026 / Q2 release | **H1 ₹1,964cr, +38.8%; Q2 ₹1,018.6cr, +25%** — guide restated in the Q2 release | ✅ **Ahead** |
+| *(10-Nov)* FY27 EBITDA margin ~10% | 23-May-2026 | **Q2 9.30%; H1 ~9.6%** (company basis, incl. other income; Screener ex-other-income Q2 ~8%) | 🟡 **Below** |
+| *(10-Nov)* Exports >15% of FY27 revenue | 23-May-2026 | Q2 13.5%, H1 13.1% (₹258.1cr, +154%) | 🟡 **Below, rising** |
+| *(10-Nov)* Latin America US$25m+ EHV turnkey | Nov-2025 (L1) | **Secured in Q2** (Q2 press release) | ✅ **Delivered** |
 
 **One-line verdict on management:** **The revenue promises are being kept; the capex promises are not** — budget up 2.2x and the timetable 6–15 months late across four filings — and the company has been through three CFOs and two company secretaries in thirteen months while running the largest expansion in its history, without a single investor call to explain any of it. **Competent operators, poor disclosers, inside a contested promoter structure.**
 
@@ -330,6 +343,22 @@ Universal is one of the **MP Birla Group** companies. The promoter group holds *
 
 ---
 
+### 🆕 Q2FY27 Refresh — Full Numbers Print *(10-Nov-2026; results and press release 4-Nov; no call exists; balance sheet and cash flow read from rendered pages)*
+
+| | Q2FY27 | Q2FY26 | YoY | H1FY27 | YoY |
+|---|---|---|---|---|---|
+| Standalone revenue from operations | **₹1,018.6cr** | ₹814.3cr | **+25%** | ₹1,964cr | +38.8% |
+| Company EBITDA (incl. other income) | ₹94.3cr | ₹83.7cr | +12.7% | ~₹189cr | |
+| EBITDA margin (company basis) | **9.30%** | 10.3% | | ~9.6% | |
+| Finance cost | **₹40.7cr** | ₹27.1cr | **+50%** | ₹77.2cr | |
+| Standalone PAT | **₹33.1cr** | ₹36.6cr | **−9%** | ₹70.3cr | +25% |
+| Consolidated PAT | ₹63.9cr | ₹48.3cr | +32% | ₹134.0cr | +63.7% |
+| Exports | ₹137.7cr | | +139% | ₹258.1cr | +154% |
+
+**H1 cash flow and balance sheet (standalone, rendered):** operating profit before working capital ₹169.8cr → **operating cash flow −₹87.7cr** (−₹3.7cr in H1FY26) after receivables +₹246.7cr and inventory +₹134.9cr; taxes ₹14.5cr. Capex ₹131.9cr; CWIP ₹136.8cr → ₹199.4cr. **Borrowings ₹1,175.6cr → ₹1,471.6cr (+₹296cr).** Trade receivables (current + non-current) ₹1,215.8cr → ₹1,468.8cr (~136 days of H1 sales). Inventory ₹607.5cr → ₹742.4cr. **Current 'other financial liabilities' ₹53.4cr → ₹331.8cr while trade payables fell ₹149cr — the filing does not say why** *(acceptances reclassified from payables would fit; that is a guess, not a finding)*.
+
+**Order book ~₹2,890cr** (incl. ₹637cr export; ~₹100cr more export in the pipeline). Interest took **43% of company EBITDA** in Q2.
+
 ## 5. Connecting the Dots
 
 The cable story and the holding-company story pull in different directions.
@@ -351,6 +380,7 @@ The cable story and the holding-company story pull in different directions.
 | Date | Conviction | Weighted 2-yr | Trigger |
 |---|---|---|---|
 | 13-Oct-2026 | **MEDIUM-LOW** (initiation; held position) | **≈ +16%** | Data-limited initiation; no calls exist |
+| 10-Nov-2026 | **HELD at MEDIUM-LOW** | ≈ +60% arithmetic *(re-priced; see §6 — not read as an improvement)* | Q2: revenue +25%, but margin 9.3%, standalone PAT −9%, **H1 operating cash −₹88cr, borrowings +₹296cr**. No 'Down' signal fired. |
 
 ### Material developments at initiation — the last twelve months
 
@@ -442,13 +472,28 @@ The same 93,57,737 promoter-group shares voted against, as in Sep-2025 and Oct-2
 ### What would re-rate it
 - **Up:** a first-ever earnings call or investor presentation; CFO ≥ 70% of EBITDA for a full year; capex finished on the Aug-2026 timetable; a disclosed BFFO funding plan with limited Universal equity; the Latin America award confirmed; EHV share of revenue disclosed.
 - **Down:** another capex revision or slippage; receivables >160 days; a special resolution for capital-raising failing; a Universal equity commitment to BFFO; CARE outlook to Negative.
+- **10-Nov-2026 status:** Up — none (still no call; H1 CFO negative; capex not finished; LatAm award ✅ confirmed) · Down — none fired (no capex revision disclosed; receivables ~136 days vs 160; no special resolution failed; no BFFO equity call disclosed; CARE unchanged).
 
 ---
+
+### 📊 10-Nov-2026 — Q2FY27 scored
+
+**Where it trades (Screener, 10-Nov-2026 close):** CMP **₹1,130** · market cap ₹3,920cr · P/E 18.1x · **−27.1% since the 13-Oct initiation (₹1,551); −13% in the last week alone.**
+
+**Re-priced on the unchanged scenarios (from ₹3,920cr):** base ₹6,050cr → **+54%** · bull ₹9,500cr → **+142%** · bear ₹2,880cr → **−27%**. **Weighted ≈ +60%** *(0.55 × 54 + 0.25 × 142 − 0.20 × 27)*.
+
+***Read that number with care.*** It rose because the price fell, not because H1 supported the base case. **The base case needs a ~10–10.5% margin and capex finished mid-2027 with interest flattening; H1 delivered ~9.6% (≈8% ex other income), finance cost +50%, and operating cash −₹88cr.** On margin and cash, H1 sits closer to the bear case (8.5% margin, receivables and interest squeezing PAT). **Growth is the only base-case input running ahead.** The cases are not rebuilt here because this is a no-call company and one half-year is a thin basis; they should be rebuilt at FY27 or earlier if H2 cash is negative too.
+
+**Conviction: HELD at MEDIUM-LOW.**
 
 ## 7. What Could Prove Us Wrong
 
 1. **🔴 Cash never catches up with growth.** CFO was 36% of operating profit in FY26 and free cash flow −₹206cr. EPC is funded with bank debt by design. If receivables keep pace with revenue, every year of 25% growth adds ~₹150–200cr of borrowings.
+
+> ⚠️ **SHARPENED (H1FY27):** operating cash flow **−₹87.7cr** on +25–39% growth; receivables +₹253cr and borrowings +₹296cr in six months.
 2. **🔴 Interest eats the operating leverage.** Finance cost +51% YoY in Q1FY27. Debt/EBITDA ~4.1x on simple arithmetic — at CARE's negative-sensitivity level, though not on CARE's definition.
+
+> ⚠️ **SHARPENED (Q2FY27):** finance cost ₹40.7cr (+50%) — 43% of company EBITDA; standalone PAT fell 9% on revenue +25%.
 3. **🔴 The BFFO bill arrives.** ~₹4,800cr of JV capex on a ₹237cr net-worth JV, funding split undisclosed. A pro-rata equity call or further guarantees could exceed Universal's annual EBITDA.
 4. **🔴 Capex keeps slipping and growing.** Four revisions in 27 months (₹277cr → ₹617cr + ₹73cr); two timetable slips. A fifth would make it a pattern, not a scope change.
 5. **🔴 The promoter dispute escalates.** A standing 27% bloc against the board; the estate probate unresolved after 22 years; SLPs in the Supreme Court. A court outcome could change who controls ~a quarter of the votes, or the board.
@@ -457,6 +502,8 @@ The same 93,57,737 promoter-group shares voted against, as in Sep-2025 and Oct-2
 8. **🟡 Associate quality.** Vindhya: revenue −11% in FY26, CARE A+ **Negative**, JJM receivable delays. Its profit is ~28% of Universal's consolidated PAT.
 9. **🟡 Commodity and trade exposure.** Copper, aluminium and polyethylene dominate input cost (CARE); mitigated by escalation clauses on EPC and a hedging desk since Jan-2022 (*the cost-pass-through share is not disclosed*). Exports face trade measures (EU anti-dumping on optical-fibre cable, Jun-2024).
 10. **🟡 Order-book coverage is thinning.** ₹3,025cr (Mar-26) → ₹2,860cr (Jul-26) against a revenue run-rate approaching ₹3,800cr.
+
+> ⤴ **UPDATE (30-Sep-2026):** ~₹2,890cr (₹2,860cr in July) against a run-rate now above ₹4,000cr a year.
 11. **🟡 The 400 kV licence has an end date.** The NKT technical-collaboration agreement runs to **8-Aug-2028** (extended once, May-2023). Whether it is renewed, or whether the company can stand alone at 400 kV, is not addressed in any filing.
 
 ---
@@ -468,6 +515,8 @@ The same 93,57,737 promoter-group shares voted against, as in Sep-2025 and Oct-2
 ---
 
 ## 9. 📢 Community Pulse
+
+**⤴ 10-Nov-2026:** ValuePickr thread #93865 — still one post (6-Nov-2022). **No public discussion of the Q2 print or the 27% fall.**
 
 ### ValuePickr
 - **Thread #93865, *"Universal Cables - A deep value play to ride the Renewables, EV charging infra, Smart City & Urbanisation trends"*** — **one post, 6-Nov-2022, never replied to.** There is no active discussion of the stock.
@@ -491,6 +540,8 @@ The same 93,57,737 promoter-group shares voted against, as in Sep-2025 and Oct-2
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (10-Nov-2026 refresh):** results, press release and Reg 30 board outcome 4-Nov (standalone balance sheet and cash flow rendered and read); director change (Mehrotra term ends 10-Nov; Sutirtha Bhattacharya appointed); ValuePickr #93865 checked; Screener 10-Nov-2026 close.
 
 - **Concalls read:** **None exist.** Verified: BSE 244 filings 30-Oct-2023 → 6-Oct-2026 (via Chrome, `SLONGNAME` = "Universal Cables Ltd"); NSE 196 filings Jan-2024 → Oct-2026; Screener has no Concalls section.
 - **Annual reports:** FY26 (Directors' Report, MD&A, Corporate Governance Report, BRSR, standalone + consolidated notes incl. 41, 42, 47, 52–54, AOC-1) read closely; FY22–FY25 downloaded for reference.

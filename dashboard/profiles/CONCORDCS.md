@@ -11,11 +11,17 @@
 > **⚠️ TICKER RENAMED 2-Aug-2026: CONCORD → CONCORDCS.** This is **Concord Control Systems Ltd (BSE 543619)** — railway/metro electronics, Sector 5. It is **not** Concord Biotech Ltd (BSE 543960, ticker `CONCORDBIO`, Sector 12), which was added to the watchlist on 2-Aug-2026, and **not** Concord Enviro Systems. The old `CONCORD` ticker caused a real mis-fetch during a bulk CMP refresh (logged in CLAUDE.md, 18-Jul-2026); the rename removes the ambiguity at source. Concall folder also renamed `Fetched Concalls/543619` → `Fetched Concalls/CONCORDCS`.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 2,784** · market cap ₹ 2,891 Cr. · P/E 51.5x · ROCE 31.2 % · ROE 25.6 % · 52-wk ₹ 3,070 / 1,837 · **vs ₹2,860 at baseline (-2.7%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 2,711** · market cap ₹ 2,815 Cr. · P/E 50.2x · ROCE 31.2 % · ROE 25.6 % · 52-wk ₹ 3,070 / 1,837 · **vs ₹2,860 at baseline (-5.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 2-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟢 H1: revenue & PAT +94%, order book ~₹846cr; receivables +59% since March · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine; promoter −1.66pp over the half, cause not established · (earlier: AGM passed; main-board migration still awaiting exchange approval · (earlier: 🟢 Shareholders approved BSE SME → BSE Main Board migration AND a direct NSE main-board listing (both special resolutions, passed 19-Sep) · (earlier in window: Board approves migration to the BSE Main Board and a direct NSE Main Board listing (postal ballot); FY26 annual report and new auditors; stock −22% to ₹2,229)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 2-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Newspaper publication only · (earlier: 🆕 🟢 H1: revenue & PAT +94%, order book ~₹846cr; receivables +59% since March · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine; promoter −1.66pp over the half, cause not established · (earlier: AGM passed; main-board migration still awaiting exchange approval · (earlier: 🟢 Shareholders approved BSE SME → BSE Main Board migration AND a direct NSE main-board listing (both special resolutions, passed 19-Sep) · (earlier in window: Board approves migration to the BSE Main Board and a direct NSE Main Board listing (postal ballot); FY26 annual report and new auditors; stock −22% to ₹2,229))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 4 → 10-Nov-2026 — Newspaper publication only**
+**BSE (5-Nov): a newspaper publication.** Nothing else.
+> **Why it matters:** Nothing new; the official Q2 transcript is still awaited.
+
+*Sweep: BSE announcements via Chrome (the BSE JSON API is still blocked from curl), 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟢 23-Oct → 4-Nov-2026 — H1FY27: revenue and PAT +94%; order book ~₹846cr; receivables up 59% in six months**
 **H1FY27 (2-Nov, half-yearly).** Revenue **₹159cr, +94%**; PAT **₹31cr, +94.9%**; EBITDA ₹40.3cr (H2FY26 ₹21.7cr). **Unexecuted order book ~₹846cr.** Balance sheet: **trade receivables ₹140.8cr vs ₹88.6cr at Mar-26 (+59%)**; short-term provisions ₹71.0cr vs ₹42.0cr. Earnings call held 3-Nov (BSE outcome filed).
@@ -77,10 +83,10 @@ Screener P/E 54.6x (was 70x), ROCE 30.6%, ROE 25.8%; market cap ₹2,315cr; 52-w
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** No tracked series applies; railway capex and Kavach orders drive it.
+**Read (10-Nov-2026, mine, not management's):** No tracked series applies; railway capex and Kavach orders drive it.
 
 **How cost moves reach profit:** No tracked price or macro series drives this business directly. The driver is railway capex and Kavach orders.
 
@@ -88,7 +94,7 @@ Screener P/E 54.6x (was 70x), ROCE 30.6%, ROE 25.8%; market cap ₹2,315cr; 52-w
 
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>

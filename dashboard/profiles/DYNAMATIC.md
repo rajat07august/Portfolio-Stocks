@@ -14,11 +14,17 @@
 > **🔴 Dynamatic has not held an earnings call since February 2024** — verified across 672 NSE filings. **Yet it publishes the best earnings presentation in this refresh cycle**, including a full constant-currency reconciliation of its own headline growth. **That combination — excellent disclosure, no forum to question it — governs how this profile is written.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 12,648** · market cap ₹ 8,587 Cr. · P/E 147x · ROCE 10.2 % · ROE 6.67 % · 52-wk ₹ 14,500 / 7,673 · **vs ₹11,188 at baseline (+13.0%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 12,937** · market cap ₹ 8,786 Cr. · P/E 116x · ROCE 10.2 % · ROE 6.67 % · 52-wk ₹ 14,500 / 7,673 · **vs ₹11,188 at baseline (+15.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🔴 UAV vertical moved into Dynauton; promoter-MD subscribes personally for 5.56% at NAV; company stake → 83.33% · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ IND A/Stable affirmed · (earlier: Trading window closed; nothing material · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: No company event beyond the FY26 annual report; stock +7.8% to ₹12,061 at 140x)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 🟢 Q2: revenue +15%, EBITDA +20%, PAT ₹22.5cr vs ₹10.2cr · (earlier: 🆕 🔴 UAV vertical moved into Dynauton; promoter-MD subscribes personally for 5.56% at NAV; company stake → 83.33% · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ IND A/Stable affirmed · (earlier: Trading window closed; nothing material · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: No company event beyond the FY26 annual report; stock +7.8% to ₹12,061 at 140x))))))</span></summary>
 <div class="upd-body">
+
+**🟢 4 → 10-Nov-2026 — Q2: revenue +15%, EBITDA +20%, PAT more than doubles ex last year's exceptional**
+**Q2FY27 (6-Nov).** Revenue **₹452.7cr (+15.4%)** — aerospace ₹210.8cr (+18.1%), hydraulics ₹140.4cr (+11.2%), metallurgy ₹101.4cr (+15.8%); EBITDA ₹55.6cr (+20.3%, 12.3%); PAT **₹22.5cr vs ₹10.2cr** (last year ex a ₹6.9cr exceptional). H1 revenue ₹877.5cr (+15%), EBITDA margin 12.6%. Analyst-meet schedule 7-Nov.
+> **Why it matters:** No downgrade trigger is visible in the deck (constant-currency growth positive; segment margins and net debt/EBITDA to be checked on the call).
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🔴 23-Oct → 4-Nov-2026 — UAV vertical moved into Dynauton — the promoter-MD subscribes personally for 5.56%**
 **Board, 24-Oct.** Wholly owned subsidiary **Dynauton Limited** will issue **89,90,000 shares** to identified subscribers; the company's stake falls **100% → ~83.33%**. **Dr Udayant Malhoutra (promoter, CEO & MD of Dynamatic; Founder Chairman of Dynauton) subscribes 5,00,000 shares (~5.56%) at ₹50** — the same NAV-method valuation price as the company — the filing says he forgoes compensation, sweat equity or a founder allocation. A **Dynauton ESOP Trust (to be formed)** subscribes at a lower price. Purpose: R&D in autonomous systems and **acquisition of the UAV vertical** (incl. its R&D work-in-progress and inventory) from the company.
@@ -72,10 +78,10 @@ Screener P/E 140x, ROCE 10.2%, ROE 6.7%; market cap ₹8,191cr; promoter 41.50%;
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** Translation is still against it: the euro is 3.1% weaker against the rupee over three months, the pound flat (−0.2%), the dollar −0.5%. Reported growth should run a little behind constant currency. Q2 due 6-Nov.
+**Read (10-Nov-2026, mine, not management's):** Translation is against it: the euro is 4.1% weaker against the rupee over three months, the pound −2.0%, the dollar −1.6%. Q2 revenue still grew 15.4%.
 
 **How cost moves reach profit:** Reports constant-currency growth: Q1FY27 reported +14.5% vs +3.9% constant currency (profile).
 
@@ -83,9 +89,9 @@ Screener P/E 140x, ROCE 10.2%, ROE 6.7%; market cap ₹8,191cr; promoter 41.50%;
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| EUR/INR (106.5127 ₹ per €) | FX (export revenue) | -1.5% | -3.1% | +4.3% | -5.3% | 🔴 headwind | Yahoo Finance · 04-Nov-2026 |
-| GBP/INR (127.6261 ₹ per £) | FX (export revenue) | +0.1% | -0.2% | +9.5% | -2.3% | ⚪ flat | Yahoo Finance · 04-Nov-2026 |
-| USD/INR (94.64 ₹ per $) | FX (export revenue) | -1.7% | -0.5% | +6.7% | -2.3% | ⚪ flat | Yahoo Finance · 04-Nov-2026 |
+| EUR/INR (105.4116 ₹ per €) | FX (export revenue) | -2.8% | -4.1% | +3.7% | -6.3% | 🔴 headwind | Yahoo Finance · 10-Nov-2026 |
+| GBP/INR (126.2486 ₹ per £) | FX (export revenue) | -1.3% | -2.0% | +8.2% | -3.3% | ⚪ flat | Yahoo Finance · 10-Nov-2026 |
+| USD/INR (93.918 ₹ per $) | FX (export revenue) | -3.0% | -1.6% | +5.9% | -3.1% | ⚪ flat | Yahoo Finance · 10-Nov-2026 |
 
 **Why each factor is here:**
 
@@ -94,7 +100,7 @@ Screener P/E 140x, ROCE 10.2%, ROE 6.7%; market cap ₹8,191cr; promoter 41.50%;
 - **USD/INR**: Aerospace exports (profile).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>

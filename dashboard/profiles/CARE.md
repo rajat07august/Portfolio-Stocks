@@ -8,11 +8,17 @@
 > **Structural note that governs how this profile should be read: CARE holds ONE earnings call a year, after Q4 only.** Its transcript filings run May-2026, May-2025, May-2024 — nothing in between. There is no Q1FY27 concall and there never will be. Three transcripts is therefore **the complete available universe, not a fetch gap** — but it is also the thinnest investor-communication cadence of any high-conviction name in this library, and that is a choice rather than a constraint. This profile is grounded in the **full Q4FY26 annual call (14-May-2026, 87,518 chars)**, the **Q1FY27 investor deck + press release (7-Aug-2026)**, the **audited FY26 results filing (13-May-2026)**, and **17 NSE/BSE filings read individually**.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 1,628** · market cap ₹ 4,911 Cr. · P/E 25.5x · ROCE 26.3 % · ROE 19.7 % · 52-wk ₹ 1,838 / 1,393 · **vs ₹1,687 at baseline (-3.5%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 1,556** · market cap ₹ 4,691 Cr. · P/E 24.3x · ROCE 26.3 % · ROE 19.7 % · 52-wk ₹ 1,838 / 1,393 · **vs ₹1,687 at baseline (-7.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟢 Q2: income +20%, EBITDA +23% (52% margin), PAT +26%; ₹10 interim dividend · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 SBI and NSEIX each to take 9.9% of CareEdge Global IFSC; CARE keeps 80.2% · (earlier: Routine ESOP allotment and meet schedule · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No material company event: investor-meet schedule and ESOP allotments only; stock −1%)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 🟢 Q2: income +20%, EBITDA +23% (52% margin), PAT +26%; ₹10 interim dividend · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 SBI and NSEIX each to take 9.9% of CareEdge Global IFSC; CARE keeps 80.2% · (earlier: Routine ESOP allotment and meet schedule · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No material company event: investor-meet schedule and ESOP allotments only; stock −1%))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 4 → 10-Nov-2026 — No filings in the window — verified**
+**No filings on the exchange feed in the window** — a verified negative: a control query for the same name returned the right company (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟢 23-Oct → 4-Nov-2026 — Q2FY27: operating income +20%, EBITDA margin 52%; ₹10 interim dividend**
 **Q2FY27 (29-Oct).** Consolidated operating income **₹164.13cr, +20%**; EBITDA **₹84.61cr, +23%**, margin 52%; PAT **₹72cr, +26%** (Screener). Standalone operating income ₹134.21cr (+17%), EBITDA ₹77.99cr, margin 58%. **Interim dividend ₹10** (record 6-Nov). **Jatindar Pal Singh Bajaj appointed Non-Executive Non-Independent Director** (29-Oct). 16,133 ESOP shares allotted.
@@ -64,10 +70,10 @@ Screener P/E 28.3x, ROCE 26.3%, ROE 19.7%; 52-week range ₹1,393–1,838.
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** Credit to large industry slowed to +11.6% YoY in September from 16.6% in August — a softer backdrop for rating volumes; Q2FY27 income still grew 20%.
+**Read (10-Nov-2026, mine, not management's):** Credit to large industry grew 11.6% YoY in September (16.6% in August) — a softer backdrop for rating volumes.
 
 **How cost moves reach profit:** No commodity inputs.
 
@@ -81,7 +87,7 @@ Screener P/E 28.3x, ROCE 26.3%, ROE 19.7%; 52-week range ₹1,393–1,838.
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>

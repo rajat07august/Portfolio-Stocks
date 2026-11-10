@@ -4,11 +4,17 @@
 **Thesis current as of: 19-Sep-2026 · Tracking since: 19-Sep-2026**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 458** · market cap ₹ 2,777 Cr. · P/E 4.15x · ROCE 19.2 % · ROE 15.6 % · 52-wk ₹ 600 / 229 · **vs ₹470 at baseline (-2.6%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 443** · market cap ₹ 2,680 Cr. · P/E 4.01x · ROCE 19.2 % · ROE 15.6 % · 52-wk ₹ 600 / 229 · **vs ₹470 at baseline (-5.7%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 19-Sep-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟡 Q2: PAT ₹243cr (H1 ₹552cr vs ₹212cr in FY26), gross margin 31% → 27%; receivables +₹427cr in H1; no call · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 CARE A+ outlook Stable → Positive (12-Oct) · (earlier: Trading window closed; Q2FY27 is the windfall test · (earlier: Trading window closed ahead of Q2FY27 — the quarter that tests how much of the crude windfall held))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 19-Sep-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Nothing new since 4-Nov (verified) · (earlier: 🆕 🟡 Q2: PAT ₹243cr (H1 ₹552cr vs ₹212cr in FY26), gross margin 31% → 27%; receivables +₹427cr in H1; no call · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 CARE A+ outlook Stable → Positive (12-Oct) · (earlier: Trading window closed; Q2FY27 is the windfall test · (earlier: Trading window closed ahead of Q2FY27 — the quarter that tests how much of the crude windfall held)))))</span></summary>
 <div class="upd-body">
+
+**⚪ 4 → 10-Nov-2026 — Nothing new since the 4-Nov sweep**
+**The only filing in the window was already read in the 4-Nov sweep** (filed the evening of 4-Nov); nothing else on the exchange feed.
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟡 23-Oct → 4-Nov-2026 — Q2FY27: a second windfall quarter — PAT ₹243cr, H1 PAT 2.6x FY26 — and receivables up ₹427cr**
 **Q2FY27 (4-Nov). The filing is a scan with a garbled text layer — the consolidated P&L, balance sheet and cash flow were rendered and read (§4A C).** Revenue **₹1,722cr** (Q1 ₹1,735cr, Q2FY26 ₹773cr); PBT ₹294.5cr; **PAT ₹243.3cr** (Q1 ₹308.9cr, Q2FY26 ₹53.0cr). **H1 PAT ₹552cr against ₹212.5cr for all of FY26.** EPS ₹40.22.
@@ -71,10 +77,10 @@ The only filing since the profile was written is the SEBI PIT trading-window clo
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** The turn may have begun at the spot end. Brent front-month is ~$102, down from ~$111 at the 23-Oct read and 13.5% below its 52-week high, though still +28.8% over three months; the World Bank October average was ~$125 (sources disagree on level). Q2FY27 gross margin stepped down from 31% to 27% (my arithmetic). Base oil is not tracked; this business gains on rising prices through its stock and gives it back when they fall. The rupee is 1.7% stronger in the month.
+**Read (10-Nov-2026, mine, not management's):** The spot price has turned: Brent front-month is ~$91, −13.5% in the month and 23.4% below its 52-week high (World Bank October average ~$125 — sources disagree on level). This business gains on rising crude through its inventory and gives it back when crude falls; Q2 gross margin already stepped down from 31% to 27% (my arithmetic). Base oil is not tracked.
 
 **How cost moves reach profit:** A spread business on imported base oil held for about three months: rising crude first lifts margins (inventory gains), then compresses them on the way down (profile, explainer).
 
@@ -82,8 +88,8 @@ The only filing since the profile was written is the SEBI PIT trading-window clo
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Brent crude (102.33 $/bbl) | Proxy / context | +2.0% | +28.8% | +58.8% | -13.5% | ⚪ context | Yahoo Finance · 04-Nov-2026 |
-| USD/INR (94.64 ₹ per $) | Input cost | -1.7% | -0.5% | +6.7% | -2.3% | ⚪ flat | Yahoo Finance · 04-Nov-2026 |
+| Brent crude (90.61 $/bbl) | Proxy / context | -13.5% | +1.9% | +41.4% | -23.4% | ⚪ context | Yahoo Finance · 10-Nov-2026 |
+| USD/INR (93.918 ₹ per $) | Input cost | -3.0% | -1.6% | +5.9% | -3.1% | ⚪ flat | Yahoo Finance · 10-Nov-2026 |
 
 **Why each factor is here:**
 
@@ -91,7 +97,7 @@ The only filing since the profile was written is the SEBI PIT trading-window clo
 - **USD/INR**: Most base oil is imported (profile §1).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -512,6 +518,8 @@ The Rayani family, a Mumbai-based Khoja/Ismaili business family *(community is m
 ## 7. What Could Prove Us Wrong
 
 **1. 🔴 The windfall reverses.** Three months of inventory is a double-edged sword. **A fast crude fall marks down stock just as the fixed-price half of the contract book lags.** The FY22 cycle faded over three years; a sharp Hormuz resolution could reverse this one within a quarter. The ~₹95cr of stock Panol built in Q1 is the immediate exposure.
+
+> 📈 **Factor check 10-Nov-2026:** Under way at the spot end: Brent front-month ~$91 on 10-Nov, −13.5% in the month and 23.4% below its 52-week high (World Bank October average ~$125); Q2FY27 gross margin already stepped down from 31% to 27% (my arithmetic). *(Numbers and sources: Input & factor check, at the top.)*
 
 > ⚠️ **BEGINNING? (4-Nov-2026):** gross margin 31.2% → 27.3% QoQ; Brent front-month ~$102 from ~$111.
 

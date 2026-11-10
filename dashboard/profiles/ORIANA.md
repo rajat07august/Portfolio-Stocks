@@ -3,11 +3,17 @@
 **Ticker:** ORIANA · NSE-SME: ORIANA · **Sector:** Power & Renewables (Solar EPC + Rooftop + Captive + Open Access + BESS + Green Ammonia) · **Conviction:** Medium-High (HELD 16-Jul-2026)
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 233** · market cap ₹ 2,367 Cr. · P/E 9.38x · ROCE 39.7 % · ROE 39.6 % · 52-wk ₹ 613 / 222 · **vs ₹294 at baseline (-20.7%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 242** · market cap ₹ 2,459 Cr. · P/E 9.75x · ROCE 39.7 % · ROE 39.6 % · 52-wk ₹ 613 / 222 · **vs ₹294 at baseline (-17.7%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 16-Jul-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 ⚪ CRISIL A−/Stable reaffirmed; new SPV Truere OPL New Energies · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚠️ Guarantee on the JV's ₹460cr facility raised from 74% to 100% (→ ~₹660cr of guarantees vs ~₹763cr net worth); RPT postal ballot · (earlier: 🟢🟢 THE FUNDING QUESTION IS BEING ANSWERED — the Actis divestment is executing: two first tranches received on subsidiaries with ~₹501cr of combined enterprise value, plus a promoter pledge release · (earlier: 🟢🟢 Two MSEDCL LOAs for 900 MW / 1800 MWh of BESS — ~₹3,870cr over 15 years, about 1.4x market cap; funding is now the whole question. Stock +13% to ₹308 · (earlier in window: ₹309cr of new EPC orders; ₹4,500cr green-hydrogen MoU; ~₹540cr of corporate guarantees approved (₹340cr on the ₹460cr SBI facility for the 234 MW floating-solar JV); 1:5 split effective; stock ₹272)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 16-Jul-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Four step-down SPVs incorporated · (earlier: 🆕 ⚪ CRISIL A−/Stable reaffirmed; new SPV Truere OPL New Energies · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚠️ Guarantee on the JV's ₹460cr facility raised from 74% to 100% (→ ~₹660cr of guarantees vs ~₹763cr net worth); RPT postal ballot · (earlier: 🟢🟢 THE FUNDING QUESTION IS BEING ANSWERED — the Actis divestment is executing: two first tranches received on subsidiaries with ~₹501cr of combined enterprise value, plus a promoter pledge release · (earlier: 🟢🟢 Two MSEDCL LOAs for 900 MW / 1800 MWh of BESS — ~₹3,870cr over 15 years, about 1.4x market cap; funding is now the whole question. Stock +13% to ₹308 · (earlier in window: ₹309cr of new EPC orders; ₹4,500cr green-hydrogen MoU; ~₹540cr of corporate guarantees approved (₹340cr on the ₹460cr SBI facility for the 234 MW floating-solar JV); 1:5 split effective; stock ₹272))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 4 → 10-Nov-2026 — Four step-down subsidiaries incorporated**
+**Four step-down subsidiaries incorporated (5–6 Nov):** TRUERE Solar Renew, TRUERE BESS Green Energy, TRUERE BESS Green Fuels and TRUERE Hydrogen Power (all Pvt Ltd).
+> **Why it matters:** Project vehicles — the pattern of a developer adding SPVs ahead of awards; no capital disclosed.
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 23-Oct → 4-Nov-2026 — CRISIL reaffirms A−/Stable; a new wholly owned subsidiary**
 **30-Oct: CRISIL reaffirmed A−/Stable** on the bank facilities (review letter filed 31-Oct). **27-Oct: Truere OPL New Energies Pvt Ltd incorporated** as a wholly owned subsidiary (power generation, storage, green hydrogen). H1FY27 results not yet filed.
@@ -92,16 +98,16 @@ Memorandum recording the company's **intent** to invest ~₹4,500cr in an integr
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** Its key inputs, solar modules and battery cells, are not tracked. The rupee is 1.7% stronger in the month, slightly cheapening imported equipment; electricity output +11.6% YoY.
+**Read (10-Nov-2026, mine, not management's):** Its key inputs, solar modules and battery cells, are not tracked. The rupee's 3.0% gain in the month slightly cheapens imported equipment; electricity output +11.6% YoY.
 
 **How cost moves reach profit:** Solar modules and battery cells are not tracked. EPC contracts are fixed-price (my inference).
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (94.64 ₹ per $) | Input cost | -1.7% | -0.5% | +6.7% | -2.3% | ⚪ flat | Yahoo Finance · 04-Nov-2026 |
+| USD/INR (93.918 ₹ per $) | Input cost | -3.0% | -1.6% | +5.9% | -3.1% | ⚪ flat | Yahoo Finance · 10-Nov-2026 |
 | Production - Electricity (YoY, Aug 26) | Demand driver | — | +10.1% | +11.6% | — | 🟢 tailwind | Tijori macro (India) · Aug 26 |
 
 **Why each factor is here:**
@@ -111,7 +117,7 @@ Memorandum recording the company's **intent** to invest ~₹4,500cr in an integr
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>

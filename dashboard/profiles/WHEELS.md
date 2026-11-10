@@ -13,11 +13,17 @@
 > **And the thing the downgrade actually feared — dilution with promoters standing aside — has happened in reverse.** On **19-Aug-2026** the board approved a **₹180cr preferential issue in which every single allottee is a promoter**, taking promoter holding **UP from 58.31% to ~60.4%**. ⤴ **UPDATE 31-Aug/17-Sep-2026: the price was raised to ₹1,461 on NSE's valuation observations (same ₹180cr, 12,32,031 shares), and the EGM approved it with 99.99% of votes. The stock has since run to ₹2,176, so the issue is now ~33% below market. See the refresh block.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 2,375** · market cap ₹ 6,409 Cr. · P/E 33.4x · ROCE 18.8 % · ROE 15.8 % · 52-wk ₹ 2,516 / 705 · **vs ₹1,513 at baseline (+57.0%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 2,388** · market cap ₹ 6,413 Cr. · P/E 33.4x · ROCE 18.8 % · ROE 15.8 % · 52-wk ₹ 2,516 / 705 · **vs ₹1,513 at baseline (+57.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟡 Q2: revenue +35%, PAT +88%, ICRA A+; OPM 7.49% vs the 7.5% trigger — fired by 1bp, conviction left for Rajat · (earlier: 🆕 ⚪ Q2 call 29-Oct · (earlier: ⚪ Routine; promoter move = QIP/preferential already recorded · (earlier: 🟢🟢 ₹250cr QIP allotted at ₹2,088 on 25-Sep — four days after promoters subscribed their preferential at ₹1,461. ₹430cr raised in a week · (earlier: Promoter preferential COMPLETED — 12,32,031 shares at ₹1,461 for ₹180cr; TSF Investments 25.01% → 27.81%, priced ~33% below market · (earlier in window: Stock +44% in four weeks to ₹2,176 with an NSE price query and no disclosed cause; promoter preferential issue repriced to ₹1,461 and approved at the EGM)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Nothing new since 4-Nov (verified) · (earlier: 🆕 🟡 Q2: revenue +35%, PAT +88%, ICRA A+; OPM 7.49% vs the 7.5% trigger — fired by 1bp, conviction left for Rajat · (earlier: 🆕 ⚪ Q2 call 29-Oct · (earlier: ⚪ Routine; promoter move = QIP/preferential already recorded · (earlier: 🟢🟢 ₹250cr QIP allotted at ₹2,088 on 25-Sep — four days after promoters subscribed their preferential at ₹1,461. ₹430cr raised in a week · (earlier: Promoter preferential COMPLETED — 12,32,031 shares at ₹1,461 for ₹180cr; TSF Investments 25.01% → 27.81%, priced ~33% below market · (earlier in window: Stock +44% in four weeks to ₹2,176 with an NSE price query and no disclosed cause; promoter preferential issue repriced to ₹1,461 and approved at the EGM))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 4 → 10-Nov-2026 — Nothing new since the 4-Nov sweep**
+**The only filing in the window was already read in the 4-Nov sweep** (filed the evening of 4-Nov); nothing else on the exchange feed.
+> **Why it matters:** Nothing new. The MH → M recommendation (two triggers fired on their wording) remains with Rajat.
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟡 23-Oct → 4-Nov-2026 — Q2FY27: revenue +35%, PAT +88% — operating margin 7.49%, one basis point under the 7.5% trigger**
 **Q2FY27 (29-Oct; results page rendered and read).** Consolidated revenue **₹1,711cr, +35%**; PAT **₹60.2cr vs ₹31.7cr**. Standalone revenue ₹1,585cr (+35%), PAT ₹53.4cr vs ₹27.8cr; exports ₹388cr vs ₹299cr. H1 standalone PAT ₹90.5cr (+67%).
@@ -98,32 +104,32 @@ Market cap ₹5,316cr; Screener P/E 32.5x (was 22.6x); ROCE 18.8%, ROE 15.8%; 52
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** Steel and aluminium have converged: flat steel +10.2% over three months (near its 52-week high, −0.8% in the month), aluminium −4.4%. On the Q2 call management said a raw-material cost advantage arrived on the second-last day of the quarter, so none of it reached Q2's 7.5% margin — Q3 is where it should show (management's claim, to test). Tractor sales −15.5% YoY in September.
+**Read (10-Nov-2026, mine, not management's):** Steel and aluminium have diverged: flat steel +10.2% over three months (−1.2% in the month, near its high), aluminium −10.3%. Management said a raw-material cost advantage arrived at the very end of Q2 — Q3 is where it should show (their claim, to test). Tractor sales −15.5% YoY (September); October truck retail +2.3%.
 
 **How cost moves reach profit:** Steel and aluminium are passed through to OEMs with a lag, and in windmill machining the customer supplies the metal, so metal moves show up in revenue more than margin (profile §1, §4).
 
-**Sensitivity:** raw materials were **68.0% of sales in FY26** (FY25: 70.0%, Screener). A 10% move across the whole raw-material bill is worth about **680 bps of margin before any pass-through**. The tracked inputs averaged **+2.9% over three months**, which would be roughly **197 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **68.0% of sales in FY26** (FY25: 70.0%, Screener). A 10% move across the whole raw-material bill is worth about **680 bps of margin before any pass-through**. The tracked inputs averaged **-0.1% over three months**, which would be roughly **7 bps of relief** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Steel Flat | Input cost | -0.8% | +10.2% | +35.3% | -1.7% | 🔴 headwind | Tijori (indianpetrochem.com) · 04 Nov, 09:30 am IST |
-| Aluminium (COMEX) (3,217.5 $/t) | Input cost | -0.6% | -4.4% | +15.8% | -23.3% | 🟢 tailwind | Yahoo Finance · 04-Nov-2026 |
-| Commercial Vehicles - Retail Sales (YoY, Sep 26) | Demand driver | — | +25.3% | +37.6% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
+| Steel Flat | Input cost | -1.2% | +10.2% | +35.1% | -1.2% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:30 am IST |
+| Aluminium (COMEX) (3,114.25 $/t) | Input cost | -2.1% | -10.3% | +11.1% | -25.8% | 🟢 tailwind | Yahoo Finance · 10-Nov-2026 |
+| Commercial Vehicles - Retail Sales (YoY, Oct 26) | Demand driver | — | +18.1% | +2.3% | — | ⚪ flat | Tijori macro (India) · Oct 26 |
 | Tractor Sales (YoY, Sep 26) | Demand driver | — | +3.8% | -15.5% | — | 🔴 headwind | Tijori macro (India) · Sep 26 |
 
 **Why each factor is here:**
 
 - **Steel Flat**: Steel wheels for trucks, tractors and earthmovers: 'buy steel, form it, sell it, and try to pass the metal price through' (profile §1).
 - **Aluminium (COMEX)**: Cast aluminium wheels are the growing, better-margin line (profile §3).
-- **Commercial Vehicles - Retail Sales (YoY, Sep 26)**: Truck and bus wheels are the core OEM book (profile §1).
+- **Commercial Vehicles - Retail Sales (YoY, Oct 26)**: Truck and bus wheels are the core OEM book (profile §1).
 - **Tractor Sales (YoY, Sep 26)**: Tractor wheels (profile §1).
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>

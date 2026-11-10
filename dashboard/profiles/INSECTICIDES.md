@@ -16,11 +16,17 @@
 > **🗂️ Housekeeping:** duplicate `Fetched Concalls/INSECTICID/` and `INSECTICIDES/` folders **consolidated into `INSECTICIDES/`** (38 files); the six older transcripts had no text extracts and now do.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 555** · market cap ₹ 1,639 Cr. · P/E 13.1x · ROCE 15.8 % · ROE 12.0 % · 52-wk ₹ 776 / 500 · **vs ₹610 at baseline (-9.0%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 541** · market cap ₹ 1,575 Cr. · P/E 12.9x · ROCE 15.8 % · ROE 12.0 % · 52-wk ₹ 776 / 500 · **vs ₹610 at baseline (-11.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Q2 + possible interim dividend on 5-Nov · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Q2 results/call 5-Nov · (earlier: CRISIL reaffirms both long- and short-term ratings — no change from the previous review · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No filing at all since 24-Aug on either exchange; stock ₹610 → ₹606)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 🟡 Q2: revenue +8%, GM 33.7%, PAT −5%; two of three triggers clear, debtor days not yet scored · (earlier: 🆕 ⚪ Q2 + possible interim dividend on 5-Nov · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Q2 results/call 5-Nov · (earlier: CRISIL reaffirms both long- and short-term ratings — no change from the previous review · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No filing at all since 24-Aug on either exchange; stock ₹610 → ₹606))))))</span></summary>
 <div class="upd-body">
+
+**🟡 4 → 10-Nov-2026 — Q2: revenue +8%, PAT −5%; ₹5 interim dividend; new independent director**
+**Q2FY27 (5-Nov).** Revenue **₹686.3cr (+8%)**, gross margin **33.7%** (34.5%), EBITDA ₹92.4cr (13.5%), PAT ₹56.2cr (−5%, higher interest); H1 revenue ₹1,297.8cr (−2%), H1 PAT ₹100cr (−15%). **Interim dividend ₹5 (record date 12-Nov).** Veera Bhadram Garimella appointed independent director (postal ballot to follow); Kapil Sharma appointed senior management. Call recording 5-Nov.
+> **Why it matters:** **Two of the three Q2 triggers are clear: revenue ₹686cr vs the ₹560cr line; gross margin 33.7% vs 30%.** The third (debtor days above 90 at H1) needs the balance sheet — not yet scored.
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 23-Oct → 4-Nov-2026 — Board on 5-Nov will consider Q2 and an interim dividend (record date 12-Nov)**
 **24-Oct:** the 5-Nov board meeting will also consider an interim dividend for FY27, **record date 12-Nov if declared**.
@@ -71,10 +77,10 @@ Verified on both feeds: no announcements. Price ₹610 → ₹606; market cap �
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** Its inputs (technical-grade actives) and drivers (monsoon, crop prices) are not tracked. Tractor sales were −15.5% YoY in September, shown only as a rough rural-demand signal. Q2 due 5-Nov.
+**Read (10-Nov-2026, mine, not management's):** Its inputs (technical-grade actives) and drivers (monsoon, crop prices) are not tracked. Tractor sales −15.5% YoY in September, a rough rural-demand signal only. Q2 gross margin was 33.7%.
 
 **How cost moves reach profit:** Profile Risk 3: raw-material inflation not fully passed through. Agrochemical technicals are not tracked here.
 
@@ -90,7 +96,7 @@ Verified on both feeds: no announcements. Price ₹610 → ₹606; market cap �
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>

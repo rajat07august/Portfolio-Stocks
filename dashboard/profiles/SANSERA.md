@@ -11,11 +11,17 @@
 > **📋 WHAT THIS REFRESH FOUND, IN ONE BOX.** v1 was written 3-Jul-2026 and is 9.7 KB. It predates the Q1FY27 print, the ADS order-book step-up, and **a four-event management and board reconstruction that ran from 27-Jul to 24-Aug-2026.** It also carried four factual errors that are corrected in place below: a wrong FY25 revenue base (and therefore a wrong growth rate), a wrong FY26 EBITDA level, **an assertion that Sansera manufactures in the United States — it does not and never has**, and a dashboard claim of a **₹160cr Airbus Defence & Space contract that appears in no filing and no transcript.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 4,431** · market cap ₹ 27,643 Cr. · P/E 74.2x · ROCE 14.5 % · ROE 11.8 % · 52-wk ₹ 4,744 / 1,488 · **vs ₹3,815 at baseline (+16.1%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 4,653** · market cap ₹ 29,045 Cr. · P/E 71.0x · ROCE 14.5 % · ROE 11.8 % · 52-wk ₹ 4,744 / 1,517 · **vs ₹3,815 at baseline (+22.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 26-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Quiet; Q2 due 5-Nov · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: Routine ESOP grant and a clean AGM; June's 0.89pp promoter fall still unexplained · (earlier: Routine ESOP allotment and meet schedules; June's 0.89pp promoter-holding fall still unexplained · (earlier in window: No company event beyond the FY26 annual report; the Jun-2026 promoter decline is still unexplained; stock +11.7% to ₹4,260 at 71x)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 26-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 🟢 Q2: revenue +32%, margin 19.4%, PAT +52%; promoter-decline trigger still open · (earlier: 🆕 ⚪ Quiet; Q2 due 5-Nov · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: Routine ESOP grant and a clean AGM; June's 0.89pp promoter fall still unexplained · (earlier: Routine ESOP allotment and meet schedules; June's 0.89pp promoter-holding fall still unexplained · (earlier in window: No company event beyond the FY26 annual report; the Jun-2026 promoter decline is still unexplained; stock +11.7% to ₹4,260 at 71x))))))</span></summary>
 <div class="upd-body">
+
+**🟢 4 → 10-Nov-2026 — Q2: record revenue +32%, EBITDA margin 19.4%, PAT +52%**
+**Q2FY27 (5-Nov).** Revenue **₹1,091.5cr (+32%)**, EBITDA ₹211.2cr (+48%, **19.4%**), PAT ₹108.6cr (+52%). Auto ICE down to 65.7% of sales; non-auto 20.9% (13.2%). New-business peak annual revenue ₹2,241cr (ex-ADS); ADS backlog ~₹5,870cr; FY27 capex ~₹800cr. Q1's ₹16.9cr US litigation settlement expected to be largely insured. Call recording 6-Nov; meet schedule 9-Nov.
+> **Why it matters:** The Under-Watch trigger is the unexplained Q1 promoter decline, not operations — still unresolved; the operating print is strong.
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 23-Oct → 4-Nov-2026 — Quiet — monitoring report and call notice; results due 5-Nov**
 **ICRA monitoring report (27-Oct): no deviation in QIP proceeds; call scheduled. Results due 5-Nov (Screener: "tomorrow").**
@@ -65,34 +71,34 @@ Filings: annual report (2-Sep), AGM notice, analyst-meet notice (9-Sep). Price �
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** Mixed: aluminium −4.4% over three months helps, long steel +26.9% hurts. Two-wheeler (+33.1%) and car (+32.1%) retail were strong in September. Q2 due 5-Nov.
+**Read (10-Nov-2026, mine, not management's):** Mixed: aluminium −10.3% over three months helps, long steel +24.2% hurts. Q2 margin rose to 19.4% anyway. October vehicle retail fell YoY (cars −14.2%, two-wheelers −28.4%, trucks +2.3%) — most likely festive timing, with Diwali in October last year and November this year (my inference).
 
 **How cost moves reach profit:** Steel and aluminium pass-throughs are 'currently in process, not yet translated', with forex giving 'some cushion' (profile §4).
 
-**Sensitivity:** raw materials were **41.5% of sales in FY26** (FY25: 41.1%, Screener). A 10% move across the whole raw-material bill is worth about **416 bps of margin before any pass-through**. The tracked inputs averaged **+11.2% over three months**, which would be roughly **465 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **41.5% of sales in FY26** (FY25: 41.1%, Screener). A 10% move across the whole raw-material bill is worth about **416 bps of margin before any pass-through**. The tracked inputs averaged **+6.9% over three months**, which would be roughly **287 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Aluminium (COMEX) (3,217.5 $/t) | Input cost | -0.6% | -4.4% | +15.8% | -23.3% | 🟢 tailwind | Yahoo Finance · 04-Nov-2026 |
-| Steel Long | Input cost | +2.4% | +26.9% | +36.6% | -0.6% | 🔴 headwind | Tijori (indianpetrochem.com) · 04 Nov, 09:30 am IST |
-| Two Wheeler - Retail Sales (YoY, Sep 26) | Demand driver | — | +27.0% | +33.1% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
-| Passenger Car - Retail Sales (YoY, Sep 26) | Demand driver | — | +22.4% | +32.1% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
-| USD/INR (94.64 ₹ per $) | FX (export revenue) | -1.7% | -0.5% | +6.7% | -2.3% | ⚪ flat | Yahoo Finance · 04-Nov-2026 |
+| Aluminium (COMEX) (3,114.25 $/t) | Input cost | -2.1% | -10.3% | +11.1% | -25.8% | 🟢 tailwind | Yahoo Finance · 10-Nov-2026 |
+| Steel Long | Input cost | +1.1% | +24.2% | +35.1% | -0.6% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:30 am IST |
+| Two Wheeler - Retail Sales (YoY, Oct 26) | Demand driver | — | +8.1% | -28.4% | — | 🔴 headwind | Tijori macro (India) · Oct 26 |
+| Passenger Car - Retail Sales (YoY, Oct 26) | Demand driver | — | +11.3% | -14.2% | — | 🔴 headwind | Tijori macro (India) · Oct 26 |
+| USD/INR (93.918 ₹ per $) | FX (export revenue) | -3.0% | -1.6% | +5.9% | -3.1% | ⚪ flat | Yahoo Finance · 10-Nov-2026 |
 
 **Why each factor is here:**
 
 - **Aluminium (COMEX)**: Aluminium inflation named on the Q1FY27 call (profile §4).
 - **Steel Long**: Forged steel components; steel inflation 'limited' per management (profile §4).
-- **Two Wheeler - Retail Sales (YoY, Sep 26)**: Auto-ICE two-wheeler components (profile §1).
-- **Passenger Car - Retail Sales (YoY, Sep 26)**: Passenger-vehicle components (profile §1).
+- **Two Wheeler - Retail Sales (YoY, Oct 26)**: Auto-ICE two-wheeler components (profile §1).
+- **Passenger Car - Retail Sales (YoY, Oct 26)**: Passenger-vehicle components (profile §1).
 - **USD/INR**: ~40% international revenue (profile §4).
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>

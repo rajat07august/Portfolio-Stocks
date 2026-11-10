@@ -14,11 +14,17 @@
 > **Concall gate: 🟡 ONE CALL A YEAR.** OBSC holds a single earnings call, after the annual results. The most recent is **Q4FY26, 21-May-2026** (57,585 characters). **There is no Q1FY27 call.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 830** · market cap ₹ 2,264 Cr. · P/E 59.1x · ROCE 19.5 % · ROE 19.6 % · 52-wk ₹ 1,030 / 270 · **vs ₹790 at baseline (+5.1%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 845** · market cap ₹ 2,305 Cr. · P/E 60.1x · ROCE 19.5 % · ROE 19.6 % · 52-wk ₹ 1,030 / 270 · **vs ₹790 at baseline (+7.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟢 Q2: revenue +97%, PAT +125%; order book ₹1,200cr+; exports nearly 3x · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 First defence PO (Elbit, ~₹8.9cr); Tenneco +₹80cr nomination; ₹17cr LoI · (earlier: AGM passed; the 50% → 71% raw-material jump still unexplained · (earlier: Nothing filed; the 50% → 71% raw-material jump remains unexplained · (earlier in window: ₹86.5cr preferential issue allotted at ₹601 (35% below the new ₹930 price); AS9100D aerospace certification recommended; non-binding New Mexico MoU; ₹31.4cr five-year order; stock +18%)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 🟢 Q2: revenue +97%, PAT +125%; order book ₹1,200cr+; exports nearly 3x · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 First defence PO (Elbit, ~₹8.9cr); Tenneco +₹80cr nomination; ₹17cr LoI · (earlier: AGM passed; the 50% → 71% raw-material jump still unexplained · (earlier: Nothing filed; the 50% → 71% raw-material jump remains unexplained · (earlier in window: ₹86.5cr preferential issue allotted at ₹601 (35% below the new ₹930 price); AS9100D aerospace certification recommended; non-binding New Mexico MoU; ₹31.4cr five-year order; stock +18%))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 4 → 10-Nov-2026 — No filings in the window — verified**
+**No filings on the exchange feed in the window** — a verified negative: a control query for the same name returned the right company (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟢 23-Oct → 4-Nov-2026 — Q2FY27: revenue +97%, PAT +125%; order book ₹1,200cr+; margin 16.9% (18.1%)**
 **Q2FY27 (31-Oct).** Revenue **~₹92cr, +97%**; operating EBITDA **₹15.6cr, +83.6%**, margin **16.9% (18.1%)**; PAT **+125%**. H1 revenue ₹169.4cr (+91%), H1 PAT ₹21.8cr (+107%). Non-automotive revenue ₹35.2cr in H1 (2x); exports ₹49.0cr (₹17.9cr). **Order book ₹1,200cr+.** H1 capex ₹20.4cr; new facilities in Maharashtra and Gujarat; forging to enable assemblies.
@@ -84,10 +90,10 @@ Screener P/E 76.4x, ROCE 19.5%, ROE 19.6%; market cap ₹2,404cr; 52-week range 
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** Not trackable yet: the profile does not identify its raw-material mix, and raw materials jumped from 50% to 71% of sales in FY26 (Screener). Q2FY27 margin slipped 120 bps to 16.9% while revenue nearly doubled; the mix question stands.
+**Read (10-Nov-2026, mine, not management's):** Not trackable yet: the profile does not identify its raw-material mix, and raw materials jumped from 50% to 71% of sales in FY26 (Screener). The mix question stands.
 
 **How cost moves reach profit:** The profile does not identify the raw-material mix or pass-through terms.
 
@@ -95,7 +101,7 @@ Screener P/E 76.4x, ROCE 19.5%, ROE 19.6%; market cap ₹2,404cr; 52-week range 
 
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>

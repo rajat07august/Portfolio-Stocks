@@ -13,11 +13,17 @@
 > **📌 And the stock is up 28% since that refresh** — ₹4,364 on 28-Jul to **₹5,601** today, **1.3% below its 52-week high and 156% above its low.** Every one of the four watch items the refresh set has resolved *favourably on operations*. The expected return has still gone from **+21% to roughly zero**, because the price moved further than the news did.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 4,062** · market cap ₹ 24,143 Cr. · P/E 66.0x · ROCE 37.5 % · ROE 32.8 % · 52-wk ₹ 5,813 / 2,920 · **vs ₹5,601 at baseline (-27.5%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 3,839** · market cap ₹ 22,822 Cr. · P/E 62.4x · ROCE 37.5 % · ROE 32.8 % · 52-wk ₹ 5,813 / 2,920 · **vs ₹5,601 at baseline (-31.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟢 Q2: revenue +336%, PAT +335% (14.9% EBITDA margin); H1 PAT > FY26; order book ₹2,629cr + L1 ₹653cr · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Q2 call 26-Oct · (earlier: ESG rating and trading-window closure only · (earlier: AGM passed cleanly; ESG rating and meet schedule · (earlier in window: Stock −17% to ₹4,664, now below the ₹4,790 QIP price; QIP press release confirms the proceeds are for working capital, not capex; nothing else filed)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 🟢 Q2: revenue +336%, PAT +335% (14.9% EBITDA margin); H1 PAT > FY26; order book ₹2,629cr + L1 ₹653cr · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Q2 call 26-Oct · (earlier: ESG rating and trading-window closure only · (earlier: AGM passed cleanly; ESG rating and meet schedule · (earlier in window: Stock −17% to ₹4,664, now below the ₹4,790 QIP price; QIP press release confirms the proceeds are for working capital, not capex; nothing else filed))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 4 → 10-Nov-2026 — No filings in the window — verified**
+**No filings on the exchange feed in the window** — a verified negative: a control query for the same name returned the right company (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟢 23-Oct → 4-Nov-2026 — Q2FY27: revenue +336%, PAT +335%; H1 PAT already above all of FY26**
 **Q2FY27 (24-Oct; transcript filed 29-Oct).** Revenue **₹1,323.3cr, +335.7%**; operating EBITDA **₹197.3cr, +334.0%**, margin 14.9%; PAT **₹136.7cr, +334.8%**. **H1 PAT ₹222.0cr vs ₹205.8cr for all of FY26.** Order book **₹2,629cr + L1 ₹652.5cr**; active pipeline ₹11,152cr. Proposed new wholly owned subsidiary (24-Oct). CRISIL monitoring report filed.
@@ -71,10 +77,10 @@ Screener P/E 106x (was ~127x on the same earnings), ROCE 37.5%, ROE 32.8%; marke
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** GPU prices and supply, the real driver, are not tracked. The rupee is 1.7% stronger in the month, slightly cheapening imported components.
+**Read (10-Nov-2026, mine, not management's):** GPU prices and supply, the real driver, are not tracked. The rupee's 3.0% gain in the month slightly cheapens imported components.
 
 **How cost moves reach profit:** GPU prices and allocation are not tracked; inventory days rose 86 → 110 to secure GPU supply (profile).
 
@@ -82,14 +88,14 @@ Screener P/E 106x (was ~127x on the same earnings), ROCE 37.5%, ROE 32.8%; marke
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (94.64 ₹ per $) | Input cost | -1.7% | -0.5% | +6.7% | -2.3% | ⚪ flat | Yahoo Finance · 04-Nov-2026 |
+| USD/INR (93.918 ₹ per $) | Input cost | -3.0% | -1.6% | +5.9% | -3.1% | ⚪ flat | Yahoo Finance · 10-Nov-2026 |
 
 **Why each factor is here:**
 
 - **USD/INR**: GPUs and servers are imported (my inference).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>

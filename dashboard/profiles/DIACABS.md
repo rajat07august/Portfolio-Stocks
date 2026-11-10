@@ -17,11 +17,17 @@
 > - **🟡 But the share price has doubled in seven weeks, from ₹196 to ₹341. *The market capitalisation has already passed the ₹20,000cr that v2's two-year BULL case projected.***
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 386** · market cap ₹ 23,133 Cr. · P/E 83.6x · ROCE 11.8 % · ROE % % · 52-wk ₹ 407 / 116 · **vs ₹341 at baseline (+13.2%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 372** · market cap ₹ 22,227 Cr. · P/E 80.4x · ROCE 11.8 % · ROE % % · 52-wk ₹ 407 / 116 · **vs ₹341 at baseline (+9.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟢 Q2: revenue +135%, PAT 3.9x; data-centre cables ₹242cr (23%) from nil; order book ₹3,735cr; FY29 target ₹10,000cr · (earlier: 🆕 🟢 6th CCV line (132 kV, ₹25cr) disclosed, commissioning Dec-2027 as guided; EHV utilisation 60%; filing and press release disagree on the line count · (earlier: 🟡 New CFO (Kundip Thakker); predecessor becomes Deputy CFO · (earlier: New Chief Operating Officer appointed (3-Oct); AGM passed · (earlier: A further ₹116.49cr of cable orders — but from a private counterparty, Polite Powertech, not a utility · (earlier in window: ₹519cr of new orders in 15 days (MSEDCL ₹263cr, Adani Electricity Mumbai ₹179cr, 66 kV EHV ₹76cr); NCLT framework fully exited a year early (₹501cr cash prepaid); MPS penalty formalised; stock +7.6% to 112x)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Official Q2 transcript filed 7-Nov · (earlier: 🆕 🟢 Q2: revenue +135%, PAT 3.9x; data-centre cables ₹242cr (23%) from nil; order book ₹3,735cr; FY29 target ₹10,000cr · (earlier: 🆕 🟢 6th CCV line (132 kV, ₹25cr) disclosed, commissioning Dec-2027 as guided; EHV utilisation 60%; filing and press release disagree on the line count · (earlier: 🟡 New CFO (Kundip Thakker); predecessor becomes Deputy CFO · (earlier: New Chief Operating Officer appointed (3-Oct); AGM passed · (earlier: A further ₹116.49cr of cable orders — but from a private counterparty, Polite Powertech, not a utility · (earlier in window: ₹519cr of new orders in 15 days (MSEDCL ₹263cr, Adani Electricity Mumbai ₹179cr, 66 kV EHV ₹76cr); NCLT framework fully exited a year early (₹501cr cash prepaid); MPS penalty formalised; stock +7.6% to 112x))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 4 → 10-Nov-2026 — Official Q2 transcript filed (7-Nov)**
+**The official transcript of the Q2 call was filed 7-Nov.** The results were read in the 4-Nov sweep.
+> **Why it matters:** A Tier-A rewrite is now possible (Rajat: non-held names wait for the official transcript).
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟢 23-Oct → 4-Nov-2026 — Q2FY27: revenue +135%, PAT 3.9x; a new data-centre cable line is 23% of revenue**
 **Q2FY27 (3-Nov, deck).** Revenue **₹1,032cr, +135%**; EBITDA **₹133cr, +189%**, margin 12.9%; PAT **₹108cr, 3.9x**. H1 revenue ₹1,722cr, H1 PAT ₹166cr — **more than all of FY26**. **Data-centre cables ₹242cr (23% of Q2), nil in Q1** — orders ₹485cr basic (~₹620cr with the 28% price-variation clause) from L&T, Sterling & Wilson, Blue Star EPC and **Aurionpro (₹50cr — also on this watchlist)**. Firm order book **₹3,735cr** (Mar-26 ₹3,240cr); live orders ₹4,829cr incl. ₹974cr of AL-59 for the HVDC programme. **Deck targets: revenue ₹4,300cr FY27, ₹7,500cr FY28, ₹10,000cr FY29.** A polymer project is under Board capex-subcommittee evaluation (Phase I machinery price finalised 12-Oct). QIP proceeds: no deviation (CARE).
@@ -92,19 +98,19 @@ Screener P/E 112x, ROCE 26.5%; market cap ₹21,937cr; promoter 74.04%; 52-week 
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** Metals over three months: aluminium −4.4%, copper −3.8% (+30.9% over the year). Its conductors and most cables are aluminium, so revenue per tonne softens; its orders carry price-variation clauses. Electricity output +11.6% YoY (August).
+**Read (10-Nov-2026, mine, not management's):** Metals over three months: aluminium −10.3%, copper −5.3% (+23.1% over the year). Its conductors and most cables are aluminium, so revenue per tonne softens; orders carry price-variation clauses. Electricity output +11.6% YoY (August).
 
 **How cost moves reach profit:** Not stated in the profile.
 
-**Sensitivity:** raw materials were **79.0% of sales in FY26** (FY25: 83.0%, Screener). A 10% move across the whole raw-material bill is worth about **790 bps of margin before any pass-through**. The tracked inputs averaged **-4.1% over three months**, which would be roughly **324 bps of relief** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **79.0% of sales in FY26** (FY25: 83.0%, Screener). A 10% move across the whole raw-material bill is worth about **790 bps of margin before any pass-through**. The tracked inputs averaged **-7.8% over three months**, which would be roughly **616 bps of relief** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Aluminium (COMEX) (3,217.5 $/t) | Input cost | -0.6% | -4.4% | +15.8% | -23.3% | 🟢 tailwind | Yahoo Finance · 04-Nov-2026 |
-| Copper (COMEX) (6.4475 $/lb) | Input cost | -2.1% | -3.8% | +30.9% | -5.2% | 🟢 tailwind | Yahoo Finance · 04-Nov-2026 |
+| Aluminium (COMEX) (3,114.25 $/t) | Input cost | -2.1% | -10.3% | +11.1% | -25.8% | 🟢 tailwind | Yahoo Finance · 10-Nov-2026 |
+| Copper (COMEX) (6.2645 $/lb) | Input cost | -5.7% | -5.3% | +23.1% | -7.9% | 🟢 tailwind | Yahoo Finance · 10-Nov-2026 |
 | Production - Electricity (YoY, Aug 26) | Demand driver | — | +10.1% | +11.6% | — | 🟢 tailwind | Tijori macro (India) · Aug 26 |
 
 **Why each factor is here:**
@@ -115,7 +121,7 @@ Screener P/E 112x, ROCE 26.5%; market cap ₹21,937cr; promoter 74.04%; 52-week 
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>

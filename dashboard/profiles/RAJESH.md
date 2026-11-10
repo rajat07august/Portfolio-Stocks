@@ -14,11 +14,17 @@
 > **📋 WHAT THIS REFRESH FOUND.** Since the 16-Jul Tier-A refresh: **₹1,165.94cr of new orders in four weeks**; **a first entry into Odisha and a deepened Rajasthan position**; **a CRISIL outlook upgrade**; **a New Zealand subsidiary**; **an Independent Director resigning off four committees**; **two Regulation 29(2) share sales from the promoter side**; and **a share price that has fallen 47% in a year and now trades at 9.90x earnings on a 48.6% return on capital.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 823** · market cap ₹ 1,482 Cr. · P/E 9.03x · ROCE 47.3 % · ROE 42.8 % · 52-wk ₹ 1,465 / 705 · **vs ₹791 at baseline (+4.0%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 824** · market cap ₹ 1,484 Cr. · P/E 9.04x · ROCE 47.3 % · ROE 42.8 % · 52-wk ₹ 1,460 / 705 · **vs ₹791 at baseline (+4.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟢 H1: revenue +46%, PAT +35%, OCF positive; ₹1,629cr DGVCL UG-cabling orders (~1.1x mcap) · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 ₹540.92cr of orders from MGVCL and UGVCL in a week; order book "nearing ₹4,000cr" · (earlier: 🔴 Company is VARYING THE OBJECTS of its IPO proceeds and extending the utilisation timeline; all AGM resolutions passed · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: New independent director and MD made Chairman; AGM (24-Sep) seeks Section 185 power to lend to group entities and a ₹500cr Section 186 limit; FY26 annual report: debtor turnover −27%; stock −4%)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 🟢 Official H1 transcript filed (8-Nov); IPO-object change disclosed · (earlier: 🆕 🟢 H1: revenue +46%, PAT +35%, OCF positive; ₹1,629cr DGVCL UG-cabling orders (~1.1x mcap) · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 ₹540.92cr of orders from MGVCL and UGVCL in a week; order book "nearing ₹4,000cr" · (earlier: 🔴 Company is VARYING THE OBJECTS of its IPO proceeds and extending the utilisation timeline; all AGM resolutions passed · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: New independent director and MD made Chairman; AGM (24-Sep) seeks Section 185 power to lend to group entities and a ₹500cr Section 186 limit; FY26 annual report: debtor turnover −27%; stock −4%))))))</span></summary>
 <div class="upd-body">
+
+**🟢 4 → 10-Nov-2026 — Official H1 transcript filed; IPO-object change disclosed**
+**Official transcript of the 2-Nov H1 call filed 8-Nov (BSE)** — a Tier-A rewrite is now possible. Reg 32 statement (5-Nov): the IPO objects were modified with shareholder approval at the 24-Sep AGM; **₹8.57cr of IPO-expense savings moved to working capital**. The 5-Nov press release restates the ₹1,628.74cr DGVCL order (order book ~₹5,400cr) already recorded on 4-Nov.
+> **Why it matters:** Nothing changes the 4-Nov read; the transcript makes the full rewrite possible.
+
+*Sweep: BSE announcements via Chrome (the BSE JSON API is still blocked from curl), 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟢 23-Oct → 4-Nov-2026 — H1FY27: revenue +46%, PAT +35%, operating cash positive — and ₹1,629cr of DGVCL orders, ~1.1x market cap**
 **H1FY27 (2-Nov, half-yearly; call 2-Nov, recording filed 3-Nov).** Consolidated revenue **₹929cr, +46%**; EBITDA **₹112cr, +33%**; PAT **₹79cr, +35%**; **operating cash flow turned positive** (press release). Aggregate order book **~₹4,000cr**. **4-Nov: orders from Dakshin Gujarat Vij Co. (DGVCL) for turnkey conversion of 11/22 kV overhead networks to underground cable with SCADA-compatible equipment — ₹1,628.74cr incl. taxes, 24 months.**
@@ -81,19 +87,19 @@ Screener P/E 9.5x, ROCE 48.6%, ROE 42.9%; market cap ₹1,364cr; promoter 72.70%
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** Copper −3.8% and aluminium −4.4% over three months: a net easing after large one-year rises. The profile says input inflation lands on the contractor, which matters more now that a ₹1,629cr 24-month DGVCL order is on the book.
+**Read (10-Nov-2026, mine, not management's):** Copper −5.3% and aluminium −10.3% over three months: a net easing after large one-year rises. Input inflation lands on the contractor per the profile — which matters with a ₹1,629cr 24-month DGVCL order on the book.
 
 **How cost moves reach profit:** Profile: copper, aluminium and civil-works inflation 'lands entirely on the contractor'.
 
-**Sensitivity:** raw materials were **82.0% of sales in FY26** (FY25: 82.0%, Screener). A 10% move across the whole raw-material bill is worth about **820 bps of margin before any pass-through**. The tracked inputs averaged **-4.1% over three months**, which would be roughly **336 bps of relief** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **82.0% of sales in FY26** (FY25: 82.0%, Screener). A 10% move across the whole raw-material bill is worth about **820 bps of margin before any pass-through**. The tracked inputs averaged **-7.8% over three months**, which would be roughly **640 bps of relief** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Copper (COMEX) (6.4475 $/lb) | Input cost | -2.1% | -3.8% | +30.9% | -5.2% | 🟢 tailwind | Yahoo Finance · 04-Nov-2026 |
-| Aluminium (COMEX) (3,217.5 $/t) | Input cost | -0.6% | -4.4% | +15.8% | -23.3% | 🟢 tailwind | Yahoo Finance · 04-Nov-2026 |
+| Copper (COMEX) (6.2645 $/lb) | Input cost | -5.7% | -5.3% | +23.1% | -7.9% | 🟢 tailwind | Yahoo Finance · 10-Nov-2026 |
+| Aluminium (COMEX) (3,114.25 $/t) | Input cost | -2.1% | -10.3% | +11.1% | -25.8% | 🟢 tailwind | Yahoo Finance · 10-Nov-2026 |
 | Production - Electricity (YoY, Aug 26) | Demand driver | — | +10.1% | +11.6% | — | 🟢 tailwind | Tijori macro (India) · Aug 26 |
 
 **Why each factor is here:**
@@ -104,7 +110,7 @@ Screener P/E 9.5x, ROCE 48.6%, ROE 42.9%; market cap ₹1,364cr; promoter 72.70%
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>

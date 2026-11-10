@@ -1,18 +1,26 @@
 # Datamatics Global Services — Company Profile
 
 **Ticker:** DATAMATICS · BSE: 532528 · NSE: DATAMATICS · **Sector:** 8 — IT / Software & Platforms
-**Conviction:** **Medium-High (Under Watch)** · **Weighted 2-yr return:** ~+18% (≈8.6% CAGR) + 0.61% dividend
+**Conviction:** **Medium-High** *(Under Watch lifted 10-Nov-2026 — the three triggers it was waiting on were tested at Q2FY27 and none fired)* · **Weighted 2-yr return:** ~+39% at ₹728 (10-Nov-2026 — the unchanged cases re-priced, see §6) + 0.69% dividend · *(~+18% at the 21-Aug write)*
 **Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 21-Aug-2026)* · **Tracking since:** 3-Jul-2026
 **CMP:** ₹819 · **Market Cap:** ₹4,842 cr · **P/E (trailing):** 19.1x · **P/B:** 3.14x (BV ₹261) · **ROCE:** 20.8% · **ROE:** 16.4% · **Div yield:** 0.61% · **52-wk range ₹632–₹1,054** *(Screener consolidated, 21-Aug-2026)*
 
 > **🎧 Sourcing note. Datamatics is a HELD POSITION and falls under the §4A "transcribe immediately" tier.** The Q1FY27 call (6-Aug-2026) was machine-transcribed the same day because the company had published audio only. **The official transcript was filed on 12-Aug-2026 and the machine version has now been verified against it** — see §9 data-quality note 1. **All quotes in this profile are from the official transcript.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 731** · market cap ₹ 4,326 Cr. · P/E 16.4x · ROCE 20.4 % · ROE 16.0 % · 52-wk ₹ 946 / 632 · **vs ₹819 at baseline (-10.7%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 728** · market cap ₹ 4,304 Cr. · P/E 16.3x · ROCE 20.4 % · ROE 16.0 % · 52-wk ₹ 933 / 632 · **vs ₹819 at baseline (-11.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟢 Q2: revenue +11.5%, EBITDA margin 21.1% (+301bps), PAT +16%; no trigger fired · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 Dr. Rajesh Gharpure appointed President & COO (15-Oct) · (earlier: 🟢 Prometric selects Datamatics for global remote-examination operations — a named marquee client, but unsized · (earlier: Independent director Kanika Mittal ceased on completion of her two-year term; all AGM resolutions passed with requisite majority · (earlier in window: No material company event; AI voice-agent expansion with a US client, Gartner mention; FY26 annual report out; stock −6.5%)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 🟢 Q2 call read: ₹3,000cr target now split 10–12% organic + 3–4% inorganic; no trigger fired; net cash ₹557cr after the last TNQTech tranche · (earlier: 🆕 🟢 Q2: revenue +11.5%, EBITDA margin 21.1% (+301bps), PAT +16%; no trigger fired · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 Dr. Rajesh Gharpure appointed President & COO (15-Oct) · (earlier: 🟢 Prometric selects Datamatics for global remote-examination operations — a named marquee client, but unsized · (earlier: Independent director Kanika Mittal ceased on completion of her two-year term; all AGM resolutions passed with requisite majority · (earlier in window: No material company event; AI voice-agent expansion with a US client, Gartner mention; FY26 annual report out; stock −6.5%))))))</span></summary>
 <div class="upd-body">
+
+**🟢 4 → 10-Nov-2026 — Q2 call read: the ₹3,000cr three-year target now split — 10–12% organic; net cash fell on the last TNQTech payment**
+**Official transcript of the 4-Nov Q2 call (filed 9-Nov) read in full.** Q2 revenue **₹546.6cr (+11.5%)**, EBITDA **₹115.5cr (+30%)**; H1 EBITDA ₹216.6cr (+31.4%), H1 PAT after minorities ₹145.8cr (+28.3%). Segments: Digital Operations **₹314.9cr (+15.6%)**; Digital Experiences ₹65.1cr (+0.8%) at a 12% EBIT margin; Digital Technologies at a 9.5% EBIT margin. Adjusted EBIT excludes the amortisation of TNQTech intangibles, which runs for 12 quarters (to Q3FY28). DSO 66 days.
+**Net cash ₹557cr vs ₹710.2cr in June** — management: *"payment towards the final tranche of the TNQTech acquisition"*.
+**The ₹3,000cr three-year revenue target (first stated on the Q1 call as "a mixture of organic and inorganic") is now split:** *"15% CAGR, out of which about 10% to 12% would be organic, maybe 3% or 4% could come through inorganic"*. The standing FY27 guide was ~8%.
+> **Why it matters:** **None of the three Under-Watch triggers fired** (revenue growth 11.5% vs the ~8% floor; EBITDA margin 21.1% vs 18.7%; FII 0.56% vs 0.30%). The split puts the organic algorithm at 10–12% over three years against ~8% for FY27 — the base case assumed low-teens including bolt-ons, so it is now guided rather than assumed. The cash fall is the deal completing, not the business consuming cash. Tier-A rewrite done in this refresh.
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟢 23-Oct → 4-Nov-2026 — Q2FY27: revenue +11.5%, EBITDA margin 21.1% (+301bps), PAT +16%**
 **Q2FY27 (3-Nov).** Revenue **₹546.6cr, +11.5% YoY**; EBITDA **₹115.5cr, +30%**, margin **21.1%** (18.1%); EBIT margin 16.9%; PAT after NCI **₹73.4cr, +16.1%**. H1 revenue ₹1,060.6cr; H1 EBITDA margin 16.1% → 21.1% on the quarter. Management credits strategic-account expansion and AI-led services; no quantified guidance in the release or deck. Call held; transcript not yet filed in the window.
@@ -80,17 +88,17 @@ Screener P/E 17.8x (was 19.1x), ROCE 20.4%, ROE 16.0%; 52-week range ₹632–1,
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** Currency is the only market factor. The rupee is ₹94.6/$: 6.7% weaker than a year ago (a tailwind against last year), 0.5% stronger over three months and 1.7% stronger in the month. The euro is 3.1% weaker over three months. Q2FY27 margin expanded 301 bps regardless.
+**Read (10-Nov-2026, mine, not management's):** The rupee is ₹93.9/$ — 3.0% stronger in the month, 1.6% stronger over three months, 5.9% weaker than a year ago. The euro is 4.1% weaker over three months. Q2 EBITDA margin was 21.1% regardless.
 
 **How cost moves reach profit:** No commodity inputs. The only market factor is currency: ~60–70% of revenue is USD-denominated (profile Risk 11).
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (94.64 ₹ per $) | FX (export revenue) | -1.7% | -0.5% | +6.7% | -2.3% | ⚪ flat | Yahoo Finance · 04-Nov-2026 |
-| EUR/INR (106.5127 ₹ per €) | FX (export revenue) | -1.5% | -3.1% | +4.3% | -5.3% | 🔴 headwind | Yahoo Finance · 04-Nov-2026 |
+| USD/INR (93.918 ₹ per $) | FX (export revenue) | -3.0% | -1.6% | +5.9% | -3.1% | ⚪ flat | Yahoo Finance · 10-Nov-2026 |
+| EUR/INR (105.4116 ₹ per €) | FX (export revenue) | -2.8% | -4.1% | +3.7% | -6.3% | 🔴 headwind | Yahoo Finance · 10-Nov-2026 |
 
 **Why each factor is here:**
 
@@ -98,7 +106,7 @@ Screener P/E 17.8x (was 19.1x), ROCE 20.4%, ROE 16.0%; 52-week range ₹632–1,
 - **EUR/INR**: Some European revenue (my inference; the profile gives no currency split beyond USD).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -237,6 +245,10 @@ The 30-second snapshot:
 | Acquisition contingent-consideration crystallisation | FY26 | **₹40.85cr exceptional (non-cash)** | 🟡 Cosmetically dragged reported PAT |
 | One subsidiary at negative net worth (~₹26cr) | Q4FY26 | *"We continue to see now profitable growth in that particular subsidiary"*; recovery *"probably in the next 2 years or so"* | 🕐 Small but real |
 | **🆕 Written transcript disclosure** | — | **Audio-only for Q4FY26 and Q1FY27 — then the Q1FY27 transcript WAS filed, 12-Aug-2026** | ✅ **Resolved** |
+| *(10-Nov)* FY27 revenue growth ~8% | Q4FY26 (22-May-26) | **H1 revenue ₹1,061cr, +10.8%; Q2 +11.5%** | ✅ **Ahead, second quarter running** |
+| *(10-Nov)* ₹3,000cr in three years | Q1FY27 → **split on the Q2 call** | *"15% CAGR, out of which about 10% to 12% would be organic, maybe 3% or 4% could come through inorganic"* | 🕐 **Quantified** |
+| *(10-Nov)* EBITDA margin 19–20% | Q1FY27 | **Q2 21.1%** (EBITDA ₹115.5cr, +30%) | ✅ |
+| *(10-Nov)* TNQTech final tranche | FY27 | **Paid in Q2** — net cash ₹710.2cr (June) → ₹557cr | ✅ **Done** |
 
 **Verdict on management.**
 
@@ -358,6 +370,21 @@ Filed 31-Jul-2026: **Lumina Datamatics Limited**, a material wholly-owned subsid
 
 ---
 
+### 🆕 Q2FY27 Refresh — Full Numbers Print *(10-Nov-2026; call 4-Nov, official transcript filed 9-Nov and read in full)*
+
+| | Q2FY27 | YoY | H1FY27 | YoY |
+|---|---|---|---|---|
+| Revenue | **₹546.6cr** | **+11.5%** | ₹1,061cr *(Screener)* | +10.8% |
+| EBITDA | **₹115.5cr (21.1%)** | **+30%** | ₹216.6cr | +31.4% |
+| PAT after minorities | ₹74cr *(Screener)* | | ₹145.8cr | +28.3% |
+| Digital Operations revenue | ₹314.9cr | +15.6% | | |
+| Digital Experiences revenue | ₹65.1cr (EBIT 12%) | +0.8% | | |
+| Digital Technologies | EBIT margin 9.5% | | | |
+
+**Balance sheet:** net cash **₹557cr** (₹710.2cr in June) after *"payment towards the final tranche of the TNQTech acquisition"*; DSO 66 days. **Adjusted EBIT** now excludes the amortisation of TNQTech intangibles, which runs for 12 quarters (to Q3FY28).
+
+**What the call added.** (1) **The ₹3,000cr three-year target is now split — 10–12% organic, 3–4% inorganic, ~15% CAGR** — against an ~8% FY27 guide. (2) **Digital Experiences has stopped shrinking** (+0.8%, EBIT 12% — it was −15.8% at a 4.4% EBIT margin when Risk 5 was written). (3) The cash pile is now ₹557cr, not ₹710cr — Risk 9's temptation is smaller.
+
 ## 5. Connecting the Dots
 
 **Thread A — Digital Operations margin expansion is the delivered part of the story.** ~15% → 23.2% EBIT margin on 58% of revenue. Management attributes it to TNQ consolidation *and* its own operational efficiency — an honest split.
@@ -390,8 +417,11 @@ Filed 31-Jul-2026: **Lumina Datamatics Limited**, a material wholly-owned subsid
 | **6-Aug-2026** | **MH (Under Watch)** — *discrepancy reconciled at MH, both files now agree* | Q1FY27 refresh. **First pass called 9.9% "a deceleration"; the Q4FY26 transcript reversed that — it is a BEAT against a ~8% guide.** Held back by a modest forward algorithm, 0.60% institutional ownership, and no external scrutiny |
 | 21-Aug-2026 | **HELD at MH (Under Watch)** | **Official Q1FY27 transcript filed 12-Aug and verified against the machine transcription.** One risk **resolved** (disclosure), one risk **halved** (deal duration). No change to the rating |
 | **19-Sep-2026** | **HELD at MH (Under Watch)** | Filings refresh: no material event. AI voice-agent extension with an existing US client (no value disclosed), Gartner Niche Player mention, AGM. Stock ₹819 → ₹766. |
+| **10-Nov-2026** | **HELD at MH — Under Watch lifted** | Q2: revenue +11.5%, EBITDA margin 21.1%, FII 0.56% — **all three triggers tested and clear.** The three-year target split 10–12% organic. **Re-priced: ≈ +39% at ₹728** on unchanged cases (price −11% since the 21-Aug write). |
 
 **Downgrade to M if:** revenue growth falls **below the ~8% guided floor** · **or** EBITDA margin falls below **18.7%** (the FY26 base management said it would build on) · **or** FII holding goes below 0.30%.
+
+> **10-Nov-2026 status — none fired:** revenue growth **11.5%** (floor ~8%) · EBITDA margin **21.1%** (floor 18.7%) · FII **0.56%** (floor 0.30%).
 
 **Upgrade to H if:** revenue reaccelerates above 15% with margin holding 19%+ · **and** any institution initiates a visible position.
 
@@ -538,6 +568,14 @@ It recorded *"FY27 outlook (implicit from concalls): continued 15% revenue growt
 
 ---
 
+### 📊 10-Nov-2026 — Q2FY27 scored
+
+**Where it trades (Screener, 10-Nov-2026 close):** CMP **₹728** · market cap ₹4,304cr · P/E 16.3x · −11.1% since the 21-Aug baseline (₹819).
+
+**Re-priced on the unchanged scenarios (from ₹4,304cr):** base ₹5,800cr → **+35%** · bull ₹8,750cr → **+103%** · bear ₹3,000cr → **−30%**. **Weighted ≈ +39%** *(0.55 × 35 + 0.25 × 103 − 0.20 × 30)*, against ~+18% at the 21-Aug write. ***Most of that is the price falling 11% while the business beat its guide — the base case's low-teens growth is now management's own number.***
+
+**Conviction: HELD at MEDIUM-HIGH; Under Watch lifted.** *Not upgraded: the H trigger needs growth above 15% with margin held, and the 15% is a three-year target that leans on acquisitions for a fifth of it. Next test: whether Q3 holds 10%+ organic as the TNQ base laps.*
+
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — 🔴 The CEO's own two named risks: in-house automation and captives.** Asked what could go wrong in FY27, Kanodia named two, unprompted:
@@ -548,11 +586,15 @@ It recorded *"FY27 outlook (implicit from concalls): continued 15% revenue growt
 
 **Risk 2 — 🔴 The growth algorithm is modest and capped at both ends.** ~8% guided revenue and *"I don't see that [margin] moving substantially higher"* is a 10–12% earnings algorithm. **A quality business growing at 10–12% is worth roughly what this one costs — there is no large gap to close.**
 
+> ⤴ **EASED (Q2 call, 4-Nov-2026):** the three-year target is now split — *"about 10% to 12% would be organic"* — and H1 ran at +10.8%.
+
 **Risk 3 — 🔴 Nothing external is testing this thesis.** **Combined institutional ownership 0.60%**, FII halved in two years, **both ValuePickr threads dormant for 2+ years, no Substack coverage.** *Whatever else is true, no independent party is checking management's account of its own results.*
 
 **Risk 4 — 🟡 Digital Operations margin reversion.** 540bps of expansion in one year is unusual. Some is structural (automation, process re-engineering); some may be transitory (cost cuts, deal pricing, TNQ mix). **If Digital Ops falls back to 18–19%, the margin story cracks.** *Signal: quarterly Digital Ops EBIT margin must stay above 20%.*
 
 **Risk 5 — 🟡 Digital Experiences accelerating decline.** −15.8% YoY, 4.4% EBIT margin, clients moving to captives. **It is the live demonstration of Risk 1 inside the company's own P&L.**
+
+> ⤴ **EASED (Q2FY27):** ₹65.1cr, +0.8% YoY at a 12% EBIT margin — the decline has stopped, for one quarter.
 
 **Risk 6 — 🟡 Reported PAT is unreliable.** Other income swings **±₹28cr a quarter** and swung ₹87cr between FY25 and FY26; depreciation nearly doubled; two exceptionals totalled ~₹65cr in FY26. **Any valuation anchored on reported PAT will be wrong in one direction or the other.**
 
@@ -562,11 +604,13 @@ It recorded *"FY27 outlook (implicit from concalls): continued 15% revenue growt
 
 **Risk 9 — 🟡 Cash pile mis-deployment.** ₹710cr creates temptation. Management sounds disciplined — *"we are cautious because you don't acquire a company and then get stuck"* — but the ₹3,000cr target explicitly requires *"some degree of bolt-on acquisitions."* *Signal: any acquisition above ₹300cr.*
 
+> ⤴ **UPDATE (Q2FY27):** net cash ₹557cr after the final TNQTech tranche; 3–4% a year of inorganic growth is now planned.
+
 **Risk 10 — 🟡 Client concentration in Digital Ops.** Top customers are likely 30%+ of segment revenue, typical for BPM. Loss of one large insurance or publishing client would move the year.
 
 **Risk 11 — ⚪ Currency.** **~60–70% of revenue is USD-denominated**; INR appreciation compresses reported growth and is already visible in the other-income swings.
 
-> 📈 **Factor check 4-Nov-2026:** The rupee is ₹94.6/$, 6.7% weaker than a year ago (a tailwind against last year), 0.5% stronger over three months and 1.7% stronger in the month to 4-Nov. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 10-Nov-2026:** ₹93.9/$ on 10-Nov: 3.0% stronger in the month, 5.9% weaker than a year ago. *(Numbers and sources: Input & factor check, at the top.)*
 
 **Risk 12 — ⚪ Second-generation transition.** Rahul and Sameer Kanodia are in their 50s; no Gen-3 or professional-CEO plan is on record.
 
@@ -591,6 +635,8 @@ It recorded *"FY27 outlook (implicit from concalls): continued 15% revenue growt
 ---
 
 ## 9. 📢 Community Pulse
+
+**⤴ 10-Nov-2026:** ValuePickr topic 1070 (24 posts) — **last post 2-Dec-2023; no reaction to Q1 or Q2.** Risk 3 (nothing external testing the thesis) stands.
 
 *Refreshed 21-Aug-2026.*
 
@@ -620,6 +666,8 @@ It recorded *"FY27 outlook (implicit from concalls): continued 15% revenue growt
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (10-Nov-2026 refresh):** results and press release 4-Nov; **official transcript of the 4-Nov call (filed 9-Nov), read in full**; ValuePickr topic 1070 (checked, dormant); Screener 10-Nov-2026 close.
 
 **Concall gate: ✅ CLEARED — 7 official transcripts.**
 

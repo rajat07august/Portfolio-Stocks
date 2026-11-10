@@ -18,11 +18,17 @@
 > **Concall gate: 🟢 GREEN.** Eight transcripts on disk (Oct-2024 → Jul-2026) plus four decks — above the six-concall standard. Every management quote below is verbatim from those transcripts. Where a figure is mine rather than management's, it is labelled.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener, standalone — the consolidated page carries no data):** CMP **₹ 352** · market cap ₹ 1,709 Cr. · P/E 18.2x · ROCE 26.2 % · ROE 19.9 % · 52-wk ₹ 560 / 237
+**📍 Live market check — 10-Nov-2026 close (Screener, standalone — the consolidated page carries no data):** CMP **₹ 375** · market cap ₹ 1,817 Cr. · P/E 19.4x · ROCE 26.2 % · ROE 19.9 % · 52-wk ₹ 560 / 237
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟡 Q2: revenue +29%, PAT +13%, margin 10.0% (11.0%); Reengus plant installed; BSE fine for late shareholding filing · (earlier: 🆕 ⚪ Q2 call 27-Oct · (earlier: ⚪ Routine filings only · (earlier: Self-reported 100-share contra trade by a non-promoter AVP — immaterial · (earlier: Head of HR & Corporate Communication resigned (SMP), effective 23-Sep · (earlier in window: FY26 annual report read: the ₹344.75cr related-party guarantee claim finds no support (related-party collateral fell from ₹5cr to nil; total contingent liabilities ₹207.5cr); senior QA manager resigns; stock −1.7%)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 🟡 Q2: revenue +29%, PAT +13%, margin 10.0% (11.0%); Reengus plant installed; BSE fine for late shareholding filing · (earlier: 🆕 ⚪ Q2 call 27-Oct · (earlier: ⚪ Routine filings only · (earlier: Self-reported 100-share contra trade by a non-promoter AVP — immaterial · (earlier: Head of HR & Corporate Communication resigned (SMP), effective 23-Sep · (earlier in window: FY26 annual report read: the ₹344.75cr related-party guarantee claim finds no support (related-party collateral fell from ₹5cr to nil; total contingent liabilities ₹207.5cr); senior QA manager resigns; stock −1.7%))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 4 → 10-Nov-2026 — No filings in the window — verified**
+**No filings on the exchange feed in the window** — a verified negative: a control query for the same name returned the right company (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟡 23-Oct → 4-Nov-2026 — Q2FY27: revenue +29%, margin 10.0%; new Reengus plant installed; BSE fine for a late filing**
 **Q2FY27 (27-Oct; transcript filed 29-Oct).** Revenue **₹363.2cr, +29%**; operating profit ₹36.3cr (+18%), **margin 10.0%** (11.0%); PAT **₹22.1cr, +13%**. H1 revenue ₹712.3cr (+31%), H1 PAT ₹47.1cr (+24%). **Plant and machinery installed at the new Reengus (Sikar) facility** (26-Oct). **BSE levied a fine for not filing the Jun-26 shareholding pattern within 21 days**; the Board's comments were filed 27-Oct.
@@ -84,19 +90,19 @@ Screener P/E 24.3x, ROCE 26.2%, ROE 19.9%; market cap ₹2,216cr; promoter 68.18
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** Pass-through is 'total and real-time', so aluminium (−4.4% over three months) and copper (−3.8%) show up as slower revenue growth, not lower margin — yet Q2FY27 margin did slip to 10.0% from 11.0%, so something other than metal moved (a question for the transcript).
+**Read (10-Nov-2026, mine, not management's):** Pass-through is 'total and real-time', so aluminium (−10.3% over three months) and copper (−5.3%) show up as slower revenue growth, not lower margin.
 
 **How cost moves reach profit:** Management: pass-through is 'total and real-time', so metal prices move revenue, not margin (profile §1).
 
-**Sensitivity:** raw materials were **80.0% of sales in FY26** (FY25: 81.0%, Screener). A 10% move across the whole raw-material bill is worth about **800 bps of margin before any pass-through**. The tracked inputs averaged **-4.1% over three months**, which would be roughly **328 bps of relief** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **80.0% of sales in FY26** (FY25: 81.0%, Screener). A 10% move across the whole raw-material bill is worth about **800 bps of margin before any pass-through**. The tracked inputs averaged **-7.8% over three months**, which would be roughly **624 bps of relief** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Aluminium (COMEX) (3,217.5 $/t) | Input cost | -0.6% | -4.4% | +15.8% | -23.3% | 🟢 tailwind | Yahoo Finance · 04-Nov-2026 |
-| Copper (COMEX) (6.4475 $/lb) | Input cost | -2.1% | -3.8% | +30.9% | -5.2% | 🟢 tailwind | Yahoo Finance · 04-Nov-2026 |
+| Aluminium (COMEX) (3,114.25 $/t) | Input cost | -2.1% | -10.3% | +11.1% | -25.8% | 🟢 tailwind | Yahoo Finance · 10-Nov-2026 |
+| Copper (COMEX) (6.2645 $/lb) | Input cost | -5.7% | -5.3% | +23.1% | -7.9% | 🟢 tailwind | Yahoo Finance · 10-Nov-2026 |
 | Production - Electricity (YoY, Aug 26) | Demand driver | — | +10.1% | +11.6% | — | 🟢 tailwind | Tijori macro (India) · Aug 26 |
 
 **Why each factor is here:**
@@ -107,7 +113,7 @@ Screener P/E 24.3x, ROCE 26.2%, ROE 19.9%; market cap ₹2,216cr; promoter 68.18
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>

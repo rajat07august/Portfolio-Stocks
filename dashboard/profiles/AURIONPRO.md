@@ -9,11 +9,17 @@
 > **📌 What this update is.** The 28-Jul-2026 refresh downgraded the stock on the Q1FY27 *numbers* alone, and left one instruction in the file: *"Q1FY27 transcript — read as soon as it files. Highest-value pending input."* It filed on 3-Aug-2026. This profile is built on it. **The single most consequential thing on that call is not a number — it is that management has withdrawn guidance entirely** (§3.5, §5.5). The 28-Jul watch item asked whether the FY27 bands would be *revised down*; the answer is that they no longer exist.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 576** · market cap ₹ 3,182 Cr. · P/E 15.6x · ROCE 16.3 % · ROE 13.2 % · 52-wk ₹ 1,200 / 514 · **vs ₹696 at baseline (-17.2%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 586** · market cap ₹ 3,237 Cr. · P/E 15.8x · ROCE 16.3 % · ROE 13.2 % · 52-wk ₹ 1,194 / 514 · **vs ₹696 at baseline (-15.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 5-Nov-2026</span> <span class="upd-sum">🆕 🟡 Q2 call read: record ₹415cr is all hardware (equipment +₹103cr QoQ, software −₹46cr); H1 CFO −₹80cr, debt tripled; margin band back at 17–18%, first cash target 60–70% · (earlier: 🆕 🟡 Q2: revenue +16% to a record ₹415cr, EBITDA flat, PAT −11%; order book ₹2,050cr; 3 dormant WOS merging in · (earlier: 🆕 ⚪ Mastercard transit-payments partnership (no value); results 31-Oct · (earlier: 🟢 Matkahuolto (Finland) cEMV device win; Q2 call 2-Nov · (earlier: 🟢🟢 ₹150cr follow-on data-centre order from a global hyperscaler — the third in under a year, taking the relationship close to ₹300cr · (earlier: Nothing filed; the SEBI PIT show-cause notice remains open · (earlier in window: Integro Lending named category leader in five Chartis 2026 quadrants; FY26 annual report filed; no order or governance event; stock −1.4% at 18x))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Nothing beyond the 5-Nov rewrite · (earlier: 🆕 🟡 Q2 call read: record ₹415cr is all hardware (equipment +₹103cr QoQ, software −₹46cr); H1 CFO −₹80cr, debt tripled; margin band back at 17–18%, first cash target 60–70% · (earlier: 🆕 🟡 Q2: revenue +16% to a record ₹415cr, EBITDA flat, PAT −11%; order book ₹2,050cr; 3 dormant WOS merging in · (earlier: 🆕 ⚪ Mastercard transit-payments partnership (no value); results 31-Oct · (earlier: 🟢 Matkahuolto (Finland) cEMV device win; Q2 call 2-Nov · (earlier: 🟢🟢 ₹150cr follow-on data-centre order from a global hyperscaler — the third in under a year, taking the relationship close to ₹300cr · (earlier: Nothing filed; the SEBI PIT show-cause notice remains open · (earlier in window: Integro Lending named category leader in five Chartis 2026 quadrants; FY26 annual report filed; no order or governance event; stock −1.4% at 18x)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 4 → 10-Nov-2026 — Official transcript — already read in the 5-Nov rewrite**
+The official transcript of the 2-Nov call (filed 5-Nov) was read in the 5-Nov Tier-A rewrite. Nothing else.
+> **Why it matters:** Nothing new.
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟡 5-Nov-2026 — Q2FY27 call read (transcript filed today): a record quarter that is mostly data-centre hardware, with cash trailing**
 **Revenue ₹415cr (+16%), EBITDA 17.2% (20.1%), PAT ₹50cr (−11.4%).** The filed split shows equipment and licences ₹85cr → ₹189cr QoQ while software services fell ₹273cr → ₹226cr. **H1 CFO −₹79.6cr; short-term borrowings ₹50cr → ₹151cr.** Rai admits *"a bit of struggle in terms of controlling the cash and unbilled side"* on the large data-centre orders. **Guidance half-returns:** 17–18% margin for FY27–28 and OCF/EBITDA of 60–70% for FY27 are now on record; revenue guidance stays withheld.
@@ -80,16 +86,16 @@ Screener P/E 18.1x, ROCE 16.3%, ROE 13.4%; market cap ₹3,789cr; promoter 26.86
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** No tracked series applies, and the profile does not give a currency split.
+**Read (10-Nov-2026, mine, not management's):** No tracked series applies, and the profile does not give a currency split.
 
 **How cost moves reach profit:** No tracked price or macro series drives this business directly. Currency split is not disclosed in the profile.
 
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>

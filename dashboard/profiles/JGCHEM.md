@@ -4,11 +4,17 @@
 **Thesis current as of: 17-Sep-2026 · Tracking since: 17-Sep-2026**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 574** · market cap ₹ 2,248 Cr. · P/E 25.7x · ROCE 17.7 % · ROE 13.2 % · 52-wk ₹ 695 / 298 · **vs ₹583 at baseline (-1.5%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 598** · market cap ₹ 2,343 Cr. · P/E 26.8x · ROCE 17.7 % · ROE 13.2 % · 52-wk ₹ 695 / 298 · **vs ₹583 at baseline (+2.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 17-Sep-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟢 Q2: revenue +64%, PAT +87%, OPM 11%; two IDs added; Dahej commissioning Q3FY27 · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Investor meetings only · (earlier: CARE Edge ASSIGNS CARE A+ (Stable) / A1+ on ₹19.75cr of bank facilities — a notch above the existing CRISIL A · (earlier: No filings since the profile was written))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 17-Sep-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Official Q2 transcript filed 6-Nov · (earlier: 🆕 🟢 Q2: revenue +64%, PAT +87%, OPM 11%; two IDs added; Dahej commissioning Q3FY27 · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Investor meetings only · (earlier: CARE Edge ASSIGNS CARE A+ (Stable) / A1+ on ₹19.75cr of bank facilities — a notch above the existing CRISIL A · (earlier: No filings since the profile was written)))))</span></summary>
 <div class="upd-body">
+
+**⚪ 4 → 10-Nov-2026 — Official Q2 transcript filed (6-Nov)**
+**The official transcript of the Q2 call was filed 6-Nov.** The results were read in the 4-Nov sweep.
+> **Why it matters:** A Tier-A rewrite is now possible (Rajat: non-held names wait for the official transcript).
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟢 23-Oct → 4-Nov-2026 — Q2FY27: revenue +64%, PAT +87%; two independent directors; Dahej on track for Q3FY27**
 **Q2FY27 (3-Nov).** Revenue **₹361cr, +64%**; PAT **₹28cr, +87%**; OPM 11% (8%) (Screener). **Sunil Duggal and Kaushik Roy appointed independent directors** (3-Nov). Deck: Dahej project (~₹100cr investment, 40,000+ MTPA, up to ~₹900cr revenue potential) **commissioning Q3FY27**; subsidiary BDJ Oxides' 10,080 MTPA Nadupetta plant to start in 12–15 months. ICRA: no deviation in IPO proceeds.
@@ -77,10 +83,10 @@ Swept both feeds: zero announcements.
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** The zinc cycle has started to turn: the October average was $3,818/t, −5.0% in the month though still +6.1% over three months (World Bank). Its zinc oxide is priced off zinc, so a fall unwinds the inventory gain — the profile's top risk. Q2FY27 margin rose to 11%, the gain still showing.
+**Read (10-Nov-2026, mine, not management's):** The zinc cycle is turning: the October average was $3,818/t, −5.0% in the month though still +6.1% over three months (World Bank). Its zinc oxide is priced off zinc, so a fall unwinds the inventory gain — the profile's top risk.
 
 **How cost moves reach profit:** Zinc oxide is priced off zinc, so the metal moves both cost and price; the spread over dross is the margin (my inference).
 
@@ -96,7 +102,7 @@ Swept both feeds: zero announcements.
 
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -441,7 +447,7 @@ Management: *"ours is a business which requires about 100 days of working capita
 
 **1. 🔴 The zinc cycle turns.** The pass-through model protects the spread, not the inventory. **A fast LME fall converts ~2 months of stock into losses** — Jun-2023 quarter OPM 3.2%, FY24 PAT −44%. Q1FY27 was helped by rising zinc; that tailwind reverses mechanically.
 
-> 📈 **Factor check 4-Nov-2026:** Starting to: zinc's October average was $3,818/t, −5.0% in the month though still +6.1% over three months (World Bank). *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 10-Nov-2026:** Starting to: zinc's October average was $3,818/t, −5.0% in the month though still +6.1% over three months (World Bank). *(Numbers and sources: Input & factor check, at the top.)*
 
 **2. 🔴 The margin is weaker than it is presented.** FY26 ex-OI margin 8.4% vs "10.1%"; operating profit −6% in a revenue +15% year; a Q4 margin spoken at 10.26% that computes to 9.36% from the same call's figures. **An investor using management's framing overstates operating margin by ~1.5-2 points.**
 

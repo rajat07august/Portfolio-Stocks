@@ -4,11 +4,17 @@
 **Conviction: MEDIUM-LOW** · CMP ₹5,146 · Mcap ₹3,942 Cr · Trailing P/E **42.7x** · ROCE 7.85% · ROE 5.75%
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 4,235** · market cap ₹ 3,236 Cr. · P/E 31.6x · ROCE 7.85 % · ROE 5.87 % · 52-wk ₹ 5,760 / 3,184 · **vs ₹5,146 at baseline (-17.7%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 4,264** · market cap ₹ 3,266 Cr. · P/E 31.9x · ROCE 7.85 % · ROE 5.87 % · 52-wk ₹ 5,760 / 3,184 · **vs ₹5,146 at baseline (-17.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 15-Sep-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Quiet — verified · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 ₹49.2cr debottlenecking capex; ₹34.44cr received from TASL capital reduction · (earlier: 🟡 ₹17.53cr state-tax show-cause notice for AY2022-23 (tax ₹8.05cr); AGM passed · (earlier: No filings since the profile was written; stock −9.6%))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 15-Sep-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Brand press releases only · (earlier: 🆕 ⚪ Quiet — verified · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 ₹49.2cr debottlenecking capex; ₹34.44cr received from TASL capital reduction · (earlier: 🟡 ₹17.53cr state-tax show-cause notice for AY2022-23 (tax ₹8.05cr); AGM passed · (earlier: No filings since the profile was written; stock −9.6%)))))</span></summary>
 <div class="upd-body">
+
+**⚪ 4 → 10-Nov-2026 — Two brand press releases**
+Two Eurogrip brand releases (5-Nov EICMA/SEMA product showcase; 10-Nov a Diwali film). No financial content.
+> **Why it matters:** Nothing on the business.
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 23-Oct → 4-Nov-2026 — Quiet window — verified**
 **Only a Eurogrip marketing press release (student case-study contest) and a newspaper ad; Q2 pending.**
@@ -64,10 +70,10 @@ Swept both NSE and BSE: zero announcements.
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** Natural rubber is diverging: TSR20 +19.2% over three months (October average, +5.8% in the month), RSS3 +1.8%. Brent front-month (~$102) has eased from ~$111, which helps synthetic rubber and carbon black at the margin. Two-wheeler retail +33.1% YoY in September; tractors −15.5%.
+**Read (10-Nov-2026, mine, not management's):** Natural rubber keeps diverging: TSR20 +19.2% over three months (October average, +5.8% in the month), RSS3 +1.8%. Brent front-month's 13.5% fall in the month helps synthetic rubber and carbon black at the margin. Two-wheeler retail −28.4% YoY in October (festive timing, my inference); tractors −15.5% (September).
 
 **How cost moves reach profit:** No contractual pass-through; replacement prices are raised after the fact. The FY26 MD&A says FY27 opened with an 'unprecedented increase in raw material prices' (profile).
 
@@ -77,8 +83,8 @@ Swept both NSE and BSE: zero announcements.
 |---|---|---|---|---|---|---|---|
 | Rubber, RSS3 (monthly avg) (2.83 $/kg) | Input cost | +2.9% | +1.8% | +41.5% | -1.0% | ⚪ flat | World Bank Pink Sheet · 2026M10 |
 | Rubber, TSR20 (monthly avg) (2.55 $/kg) | Input cost | +5.8% | +19.2% | +49.1% | +0.0% | 🔴 headwind | World Bank Pink Sheet · 2026M10 |
-| Brent crude (102.33 $/bbl) | Proxy / context | +2.0% | +28.8% | +58.8% | -13.5% | ⚪ context | Yahoo Finance · 04-Nov-2026 |
-| Two Wheeler - Retail Sales (YoY, Sep 26) | Demand driver | — | +27.0% | +33.1% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
+| Brent crude (90.61 $/bbl) | Proxy / context | -13.5% | +1.9% | +41.4% | -23.4% | ⚪ context | Yahoo Finance · 10-Nov-2026 |
+| Two Wheeler - Retail Sales (YoY, Oct 26) | Demand driver | — | +8.1% | -28.4% | — | 🔴 headwind | Tijori macro (India) · Oct 26 |
 | Tractor Sales (YoY, Sep 26) | Demand driver | — | +3.8% | -15.5% | — | 🔴 headwind | Tijori macro (India) · Sep 26 |
 
 **Why each factor is here:**
@@ -86,13 +92,13 @@ Swept both NSE and BSE: zero announcements.
 - **Rubber, RSS3 (monthly avg)**: Natural rubber; roughly two-thirds of the selling price is raw material (profile).
 - **Rubber, TSR20 (monthly avg)**: Second natural-rubber grade (same).
 - **Brent crude**: Synthetic rubber, carbon black and process oils are crude-derived (profile).
-- **Two Wheeler - Retail Sales (YoY, Sep 26)**: 2W/3W tyres are the core OEM and replacement book (profile).
+- **Two Wheeler - Retail Sales (YoY, Oct 26)**: 2W/3W tyres are the core OEM and replacement book (profile).
 - **Tractor Sales (YoY, Sep 26)**: Off-highway and farm tyres (profile).
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -404,7 +410,7 @@ FY26 actual capex was **₹106.09 Cr**; the approved pipeline is **₹430 Cr**.
 
 1. **🔴 Raw materials, flagged by management as "unprecedented."** Two-thirds of the selling price. This is the dominant near-term variable and it is entirely exogenous.
 
-   > 📈 **Factor check 4-Nov-2026:** Natural rubber has split further (TSR20 +19.2% over three months to the October average, RSS3 +1.8%); Brent front-month has eased to ~$102 from ~$111 on 23-Oct. *(Numbers and sources: Input & factor check, at the top.)*
+   > 📈 **Factor check 10-Nov-2026:** Natural rubber has split further (TSR20 +19.2% over three months to the October average, RSS3 +1.8%); Brent front-month fell 13.5% in the month to ~$91. *(Numbers and sources: Input & factor check, at the top.)*
 
 2. **🔴 The multiple.** 42.7x trailing on a 7.85% ROCE, against a peer group at 12-30x on 11-19% ROCE. Multiple compression alone can produce the bear case without a single operational miss.
 3. **🔴 A decade of margin erosion that has not yet been explained.** PBDIT/sales 14.5% → 8.0%, RONW 28.5% → 7.3%. Two good quarters do not reverse a ten-year trend, and no management commentary exists to say what changed or what will change it.

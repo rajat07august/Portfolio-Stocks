@@ -12,11 +12,17 @@
 > **🎯 This name carries a live Under Watch trigger with four named conditions, set at the Q1FY27 review and testable at Q2FY27 (~Nov-2026). It is in §5.5(a).**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 454** · market cap ₹ 6,111 Cr. · P/E 14.2x · ROCE 33.6 % · ROE 20.0 % · 52-wk ₹ 714 / 401 · **vs ₹467 at baseline (-2.8%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 440** · market cap ₹ 5,912 Cr. · P/E 13.7x · ROCE 33.6 % · ROE 20.0 % · 52-wk ₹ 677 / 401 · **vs ₹467 at baseline (-5.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🔴 MH → M: H1 intake ₹1,638cr vs the ₹3,500cr trigger; record Q2 revenue, net debt down to ₹143cr (0.2x); Burberry not addressed · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 ₹1,747cr of orders (FY27 intake now ₹3,356cr); 🆕 49% of a 990 MW MSEDCL solar portfolio for ₹20cr — project cost ~₹3,900cr, structured for "financial control" · (earlier: 🟢 Tower capacity +12,000 MTPA (172,400 → 184,400) and ₹574cr of new orders — a second delivery item in two weeks · (earlier: 🟢 Conductor capacity +70%, 24,000 → 40,800 km/annum, Silvassa Phase 1 complete — delivering on the Jan/May-2025 intimations · (earlier in window: Quiet interval: no order or governance filing beyond the FY26 annual report and investor meets; stock −12% to ₹409, at its 52-week low)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Results ad only · (earlier: 🆕 🔴 MH → M: H1 intake ₹1,638cr vs the ₹3,500cr trigger; record Q2 revenue, net debt down to ₹143cr (0.2x); Burberry not addressed · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 ₹1,747cr of orders (FY27 intake now ₹3,356cr); 🆕 49% of a 990 MW MSEDCL solar portfolio for ₹20cr — project cost ~₹3,900cr, structured for "financial control" · (earlier: 🟢 Tower capacity +12,000 MTPA (172,400 → 184,400) and ₹574cr of new orders — a second delivery item in two weeks · (earlier: 🟢 Conductor capacity +70%, 24,000 → 40,800 km/annum, Silvassa Phase 1 complete — delivering on the Jan/May-2025 intimations · (earlier in window: Quiet interval: no order or governance filing beyond the FY26 annual report and investor meets; stock −12% to ₹409, at its 52-week low))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 4 → 10-Nov-2026 — Results advertisement only**
+Only the newspaper extract of the Q2 results (5-Nov). No official transcript of the Q2 call has been filed.
+> **Why it matters:** Nothing new on the business; the Q2 rewrite waits on the official transcript (audio paused).
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🔴 23-Oct → 4-Nov-2026 — Q2FY27: record revenue and net debt cut to ₹143cr — but H1 order intake ₹1,638cr fires the downgrade trigger**
 **Q2FY27 (3-Nov, press release + deck).** Revenue **₹2,056cr, +32% YoY, +18% QoQ** (highest ever); EBITDA **₹238cr, +28%**, margin 11.6% (11.9%); PAT **₹104cr vs ₹92cr, +13%**. H1 revenue ₹3,792cr (+18%). **H1 operating cash flow ₹435cr.** **Net debt ₹143cr, 0.2x EBITDA** (deck slide, rendered and read) against ₹466cr at Q1 — receivables collected into cash; WC days 82 (81 at Mar-26). ROCE 25.1%.
@@ -73,20 +79,20 @@ Filings: FY26 annual report (2-Sep), final-dividend tax notice, Ms. Ranjana Mait
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** Input pressure is easing from the peak: long steel +26.9% over three months (−0.6% from its 52-week high, +2.4% in the month), zinc for galvanising +6.1% (October average −5.0% in the month), aluminium −4.4%. With 65% of contracts carrying fixed-price input risk, Q2's 11.6% margin (11.9% a year ago) shows the pressure was absorbed, not avoided.
+**Read (10-Nov-2026, mine, not management's):** Long steel is +24.2% over three months and near its high; zinc for galvanising averaged −5.0% in October (+6.1% over three months); aluminium −10.3%. With ~65% of contracts carrying fixed-price input risk, Q2's 11.6% margin shows the pressure was absorbed.
 
 **How cost moves reach profit:** About 65% of contracts carry input risk on fixed prices (profile).
 
-**Sensitivity:** raw materials were **44.7% of sales in FY26** (FY25: 48.4%, Screener). A 10% move across the whole raw-material bill is worth about **447 bps of margin before any pass-through**. The tracked inputs averaged **+9.5% over three months**, which would be roughly **425 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **44.7% of sales in FY26** (FY25: 48.4%, Screener). A 10% move across the whole raw-material bill is worth about **447 bps of margin before any pass-through**. The tracked inputs averaged **+6.7% over three months**, which would be roughly **300 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Steel Long | Input cost | +2.4% | +26.9% | +36.6% | -0.6% | 🔴 headwind | Tijori (indianpetrochem.com) · 04 Nov, 09:30 am IST |
+| Steel Long | Input cost | +1.1% | +24.2% | +35.1% | -0.6% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:30 am IST |
 | Zinc (monthly avg) (3,818.0 $/mt) | Input cost | -5.0% | +6.1% | +21.1% | -5.0% | 🔴 headwind | World Bank Pink Sheet · 2026M10 |
-| Aluminium (COMEX) (3,217.5 $/t) | Input cost | -0.6% | -4.4% | +15.8% | -23.3% | 🟢 tailwind | Yahoo Finance · 04-Nov-2026 |
+| Aluminium (COMEX) (3,114.25 $/t) | Input cost | -2.1% | -10.3% | +11.1% | -25.8% | 🟢 tailwind | Yahoo Finance · 10-Nov-2026 |
 
 **Why each factor is here:**
 
@@ -96,7 +102,7 @@ Filings: FY26 annual report (2-Sep), final-dividend tax notice, Ms. Ranjana Mait
 
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -475,7 +481,7 @@ CFO Khandelwal, pressed by Kartikay Agrawal: *"It is **INR80 crores** loan, and 
 
 **Risk 7 — 🟡 Commodity pass-through gap.** Only **~35% price-variation**; **65% fixed-price input risk** on steel, zinc and aluminium.
 
-> 📈 **Factor check 4-Nov-2026:** Easing from the peak: long steel +26.9% and zinc +6.1% over three months (zinc −5.0% in October), aluminium −4.4%; Q2FY27 margin held at 11.6%. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 10-Nov-2026:** Long steel +24.2% and zinc +6.1% over three months to 10-Nov (zinc −5.0% in October), aluminium −10.3%; Q2FY27 margin held at 11.6%. *(Numbers and sources: Input & factor check, at the top.)*
 
 **Risk 8 — 🟡 International and country risk.** **Africa ~20% across 28 countries** — security (Mali kidnappings were raised by an analyst), currency and payment. **Mitigated by multilateral funding, not eliminated.**
 

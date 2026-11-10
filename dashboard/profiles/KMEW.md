@@ -12,11 +12,18 @@
 > **⤴ CORRECTED 19-Sep-2026 — this caveat no longer holds. KMEW held its first Q1 earnings call on 26-Aug-2026 (Systematix; transcript filed 2-Sep; read in full for this refresh).** *Original text, accurate at 18-Aug:* 🔴 A structural disclosure gap you must hold throughout: KMEW has never held a first-quarter earnings call. Verified across every concall Screener lists (Jun-2023 → Jun-2026) and all 143 NSE filings back to Nov-2024. The cadence is **Jun (Q4/FY), Nov (H1), Feb (Q3)**. **So the largest quarter in company history — Q1FY27, filed 14-Aug-2026 — will not be discussed with shareholders until roughly November.** Management did, however, pre-explain that quarter in detail on the Q4 call. **Six transcripts on disk** (Jun-2023, Nov-2023, Jun-2024, Feb-2026, Jun-2026, **Aug-2026 Q1FY27 — added 19-Sep-2026**); Nov-2024, Feb-2025, Jun-2025 and Nov-2025 produced decks but no transcript.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 3,330** · market cap ₹ 8,487 Cr. · P/E 65.5x · ROCE 16.3 % · ROE 20.0 % · 52-wk ₹ 3,409 / 1,243 · **vs ₹2,706 at baseline (+23.1%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 664** · market cap ₹ 8,417 Cr. · P/E 61.2x · ROCE 16.3 % · ROE 20.0 % · 52-wk ₹ 684 / 249 · **vs ₹541 at baseline, adjusted (1:5 split, record date 6-Nov-26) (+22.7%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟢 Largest-ever dredging order ₹303.17cr (NMPA, 3 yrs); promoter-group reclassification filed · (earlier: 🆕 ⚪ 16 nil-holding promoter-group members to be reclassified; Sep-qtr −1.26pp still unexplained · (earlier: 🟡 Split record date 6-Nov; promoter-group reclassification requests; Sep-qtr promoter −1.26pp unexplained · (earlier: AGM passed; green-tug order and ratings outlook unchanged · (earlier: 🟢 ₹279.33cr 15-year Mumbai Port green-tug charter, and CARE raises the long-term outlook to BBB+/Positive · (earlier in window: 🔴 The profile's 'no Q1 call, ever' caveat is now false: first Q1 call held 26-Aug; FY27 growth potential raised to 'northwards of 60%'; ₹500cr NCD approved 8-Sep; new ₹62cr shipbuilding order; stock +7%)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 🟢 H1 revenue +89%; River Pearl 48 acquired (~₹250cr); order book ₹1,733cr · (earlier: 🆕 🟢 Largest-ever dredging order ₹303.17cr (NMPA, 3 yrs); promoter-group reclassification filed · (earlier: 🆕 ⚪ 16 nil-holding promoter-group members to be reclassified; Sep-qtr −1.26pp still unexplained · (earlier: 🟡 Split record date 6-Nov; promoter-group reclassification requests; Sep-qtr promoter −1.26pp unexplained · (earlier: AGM passed; green-tug order and ratings outlook unchanged · (earlier: 🟢 ₹279.33cr 15-year Mumbai Port green-tug charter, and CARE raises the long-term outlook to BBB+/Positive · (earlier in window: 🔴 The profile's 'no Q1 call, ever' caveat is now false: first Q1 call held 26-Aug; FY27 growth potential raised to 'northwards of 60%'; ₹500cr NCD approved 8-Sep; new ₹62cr shipbuilding order; stock +7%))))))</span></summary>
 <div class="upd-body">
+
+**🟢 4 → 10-Nov-2026 — H1 revenue +89%; River Pearl 48 dredger acquired; order book ₹1,733cr**
+**Q2FY27 (6-Nov).** Q2 revenue ₹71cr (+41%), PAT ₹22cr; **H1 revenue ₹186.2cr (+89%)** at a 55% EBITDA and 45% PAT margin. **Completed the acquisition of the trailing-suction hopper dredger River Pearl 48 (~₹250cr; ~4x hopper capacity)** (press release 5-Nov). Balance order book **₹1,732.55cr**; bids over ₹3,500cr; shipyard Phase 1 by February 2027. CARE monitoring report: no deviation. Call recording 6-Nov.
+**The 1:5 share split took effect (record date 6-Nov)** — ₹664 today is ~₹3,320 on the old basis, against ₹3,330 on 4-Nov; price history on the card is divided by 5.
+> **Why it matters:** Growth and margin hold; the ₹250cr dredger is the asset the large maintenance-dredging contracts need.
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟢 23-Oct → 4-Nov-2026 — Largest-ever dredging order — ₹303.17cr at New Mangalore Port; promoter reclassification filed**
 **30-Oct: Letter of Acceptance from New Mangalore Port Authority for a three-year maintenance dredging contract worth ~₹303.17cr** — the company's largest dredging order. **26-Oct:** the application to reclassify certain promoter-group members as public (Board-approved 19/21-Oct) was submitted to BSE and NSE. Q2 results due 6-Nov.
@@ -87,23 +94,23 @@ Contract from the Inland Waterways Authority of India for design, construction a
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** Only a proxy is tracked: Brent front-month ~$102 (+28.8% over three months, +2.0% in the month) moves diesel for dredgers and tugs; the profile does not say who bears fuel cost on its contracts.
+**Read (10-Nov-2026, mine, not management's):** Only a proxy is tracked: Brent front-month ~$91 (−13.5% in the month) moves diesel for dredgers and tugs; the profile does not say who bears fuel cost on its contracts.
 
 **How cost moves reach profit:** Not disclosed; who bears fuel cost on dredging contracts is not stated in the profile.
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Brent crude (102.33 $/bbl) | Proxy / context | +2.0% | +28.8% | +58.8% | -13.5% | ⚪ context | Yahoo Finance · 04-Nov-2026 |
+| Brent crude (90.61 $/bbl) | Proxy / context | -13.5% | +1.9% | +41.4% | -23.4% | ⚪ context | Yahoo Finance · 10-Nov-2026 |
 
 **Why each factor is here:**
 
 - **Brent crude**: Diesel for dredgers and tugs (my inference).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>

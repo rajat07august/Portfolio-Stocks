@@ -12,11 +12,17 @@
 > **⚠️ Screener ticker note.** The company is **`SSEGL` on Screener** (`screener.in/company/SSEGL/`); **`SATHLOKHAR` returns HTTP 404.** The initiation profile twice recorded *"Screener data limited for SME"* and wrote its Numbers and Valuation sections without a balance sheet, cash flow or peer set. **The data was always there.** *Same class of error as OBSC and DYNAMATIC.* **SSEGL reports standalone only** — there is no consolidated page.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener, standalone — the consolidated page carries no data):** CMP **₹ 348** · market cap ₹ 904 Cr. · P/E 8.21x · ROCE 36.3 % · ROE 30.3 % · 52-wk ₹ 580 / 283
+**📍 Live market check — 10-Nov-2026 close (Screener, standalone — the consolidated page carries no data):** CMP **₹ 364** · market cap ₹ 946 Cr. · P/E 8.60x · ROCE 36.3 % · ROE 30.3 % · 52-wk ₹ 565 / 283
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟢 Q2: revenue +100%, EBITDA margin 14.9%, PAT +111%; order book ₹1,139cr; PEB plant live · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ No filings in the window (verified) · (earlier: 🟢 ₹117.6cr of new orders AND the company discloses a ₹1,239cr confirmed FY27 order book with a ₹23,505cr bid pipeline · (earlier: Business update advertised in Business Standard; 1.7 lakh sq ft PEB factory inaugurated 30-Aug, PEB now ~35% of the order book · (earlier in window: PEB plant inaugurated on schedule; confirmed FY27 orders ₹1,139cr (from ₹1,102cr), ₹22,654cr bid pipeline, ~70% growth guidance reaffirmed; new Godrej order ₹44cr; stock +32%)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 🟢 Q2: revenue +100%, EBITDA margin 14.9%, PAT +111%; order book ₹1,139cr; PEB plant live · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ No filings in the window (verified) · (earlier: 🟢 ₹117.6cr of new orders AND the company discloses a ₹1,239cr confirmed FY27 order book with a ₹23,505cr bid pipeline · (earlier: Business update advertised in Business Standard; 1.7 lakh sq ft PEB factory inaugurated 30-Aug, PEB now ~35% of the order book · (earlier in window: PEB plant inaugurated on schedule; confirmed FY27 orders ₹1,139cr (from ₹1,102cr), ₹22,654cr bid pipeline, ~70% growth guidance reaffirmed; new Godrej order ₹44cr; stock +32%))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 4 → 10-Nov-2026 — No filings in the window — verified**
+**No filings on the exchange feed in the window** — a verified negative: a control query for the same name returned the right company (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟢 23-Oct → 4-Nov-2026 — Q2FY27: revenue doubles, EBITDA +137% (14.9% margin); order book ₹1,139cr; PEB plant inaugurated**
 **Q2FY27 (30-Oct; transcript filed 2-Nov).** Revenue **₹297cr vs ₹148cr, +100%**; EBITDA **₹44cr, +137%**, margin **14.9% (12.6%)**; PAT **₹29cr, +111%**. H1 revenue ₹502cr (+85%), H1 PAT ₹51cr (+120%). **H1 order inflow ₹625cr; order book ₹1,139cr at 30-Sep; bid pipeline ₹23,505cr.** New PEB facility inaugurated (1,200 MT/month design capacity). IPO proceeds: ₹19.4cr of the ₹23.4cr land allocation still unutilised (in FDs); working capital fully used; CARE: no deviation.
@@ -89,19 +95,19 @@ Market cap ₹1,073cr; ROCE 36.3%, ROE 30.3%; promoter 58.27% (after the Dec-202
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** Steel inputs are high but stopped rising in the month: flat +10.2% and long +26.9% over three months, −0.8% and +2.4% in the month. Q2FY27 margin still expanded 229 bps to 14.9% despite them, so the steel give-back the 23-Oct read expected did not show.
+**Read (10-Nov-2026, mine, not management's):** Steel inputs are high but stopped rising: flat +10.2% and long +24.2% over three months, −1.2% and +1.1% in the month. Q2 margin still expanded to 14.9%, so the give-back has not shown.
 
 **How cost moves reach profit:** Management said steel 'moderated from the elevated levels' and part of Q1FY27's +418 bps margin came from that (profile §4).
 
-**Sensitivity:** raw materials were **47.2% of sales in FY26** (FY25: 48.8%, Screener). A 10% move across the whole raw-material bill is worth about **472 bps of margin before any pass-through**. The tracked inputs averaged **+18.5% over three months**, which would be roughly **872 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **47.2% of sales in FY26** (FY25: 48.8%, Screener). A 10% move across the whole raw-material bill is worth about **472 bps of margin before any pass-through**. The tracked inputs averaged **+17.2% over three months**, which would be roughly **811 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Steel Flat | Input cost | -0.8% | +10.2% | +35.3% | -1.7% | 🔴 headwind | Tijori (indianpetrochem.com) · 04 Nov, 09:30 am IST |
-| Steel Long | Input cost | +2.4% | +26.9% | +36.6% | -0.6% | 🔴 headwind | Tijori (indianpetrochem.com) · 04 Nov, 09:30 am IST |
+| Steel Flat | Input cost | -1.2% | +10.2% | +35.1% | -1.2% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:30 am IST |
+| Steel Long | Input cost | +1.1% | +24.2% | +35.1% | -0.6% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:30 am IST |
 
 **Why each factor is here:**
 
@@ -109,7 +115,7 @@ Market cap ₹1,073cr; ROCE 36.3%, ROE 30.3%; promoter 58.27% (after the Dec-202
 - **Steel Long**: Same (profile §4).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -540,7 +546,7 @@ Total income **₹206.19cr (+67.76%)**, EBITDA **₹31.35cr (+131.4%)** at **15.
 
 **Risk 5 — 🟡 The margin gain is partly input-cost driven.** Q1FY27's +418bps came with steel *"moderated from the elevated levels."* **Escalation clauses cut both ways.** *My inference, not management's position.*
 
-> 📈 **Factor check 4-Nov-2026:** Steel stayed high (flat +10.2%, long +26.9% over three months to 4-Nov) yet Q2FY27 margin expanded 229 bps to 14.9%, so the expected give-back did not show this quarter. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 10-Nov-2026:** Steel stayed high (flat +10.2%, long +24.2% over three months to 10-Nov) yet Q2FY27 margin expanded to 14.9%; the expected give-back has not shown. *(Numbers and sources: Input & factor check, at the top.)*
 
 **Risk 6 — 🟡 PEB margin is not yet in the P&L.** **No owned capacity today**; production outsourced under job-work. Inauguration 30-Aug-2026, commercial production realistically **Nov–Dec 2026**, benefit *"1%-plus or 1.5%."* **Third-party PEB revenue should not be modelled at all.**
 

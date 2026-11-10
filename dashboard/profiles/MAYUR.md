@@ -1,18 +1,27 @@
 # Mayur Uniquoters — Company Profile
 
 **Ticker:** MAYURUNIQ · BSE: 522249 · NSE: MAYURUNIQ · **Sector:** 11 — Packaging & Materials (Synthetic Leather / Coated Fabrics)
-**Conviction:** **HIGH** · **Weighted 2-yr return:** ~+27% (≈12.7% CAGR) + 0.79% dividend
+**Conviction:** **HIGH (Under Watch)** *(the header now matches §5.5, Under Watch since 23-Sep-2026)* · **⚠️ 10-Nov-2026: the export-share trigger fired on its wording (standalone 35.8% vs 38%) — flagged for Rajat, not applied (see §5.5)** · **Weighted 2-yr return:** ~+32% at ₹746 (10-Nov-2026 — the unchanged cases re-priced, see §6) + 0.80% dividend · *(~+27% at the 21-Aug write)*
 **Thesis current as of:** 23-Sep-2026 *(filings refresh; last full rewrite 21-Aug-2026)* · **Tracking since:** 3-Jul-2026
 **CMP:** ₹757 · **Market Cap:** ₹3,283 cr · **P/E (trailing):** 15.8x · **P/B:** 2.90x (BV ₹261) · **ROCE:** 24.5% · **ROE:** 18.0% · **Div yield:** 0.79% · **52-wk range ₹471–₹907** *(Screener consolidated, 21-Aug-2026)*
 
 > **🎧 Sourcing note. Mayur is a HELD POSITION and falls under the §4A "transcribe immediately" tier.** It also **files no investor decks — it is transcript-only.** The Q1FY27 call (6-Aug-2026) was machine-transcribed the same day from company audio; **the official transcript was filed on 10-Aug-2026 and the machine version has now been verified against it.** **All quotes in this profile are from the official transcript** — which turned out to contain **three material disclosures the machine version had lost entirely**, including multi-year revenue guidance. See §9 data-quality note 1.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 788** · market cap ₹ 3,418 Cr. · P/E 16.5x · ROCE 24.5 % · ROE 18.0 % · 52-wk ₹ 907 / 471 · **vs ₹757 at baseline (+4.1%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 746** · market cap ₹ 3,243 Cr. · P/E 14.5x · ROCE 24.5 % · ROE 18.2 % · 52-wk ₹ 907 / 471 · **vs ₹757 at baseline (-1.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Quiet — verified on the exchange feed · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ GM-Marketing (SMP) resigned 9-Oct; still no filing on the defeated WTD resolution · (earlier: Fifteen days on, STILL NOTHING FILED about Bagaria's position; the 28-Sep board change is Roongta's scheduled retirement, not him · (earlier: 🔴 The WTD's re-appointment was DEFEATED at the AGM (70.44% for, needed 75%) and the promoter block split 70/30 against itself; earlier, shareholders voted down the family pay resolution and the founder-CMD could not speak · (earlier in window: Shareholders voted DOWN the promoter-family related-party remuneration (62.9% against); founder-CMD could not speak at the 18-Sep AGM; stock −2%)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 🟡 Q2: cons PAT +42%, OPM 28%; standalone export share 35.8% (<38% trigger) from a US-warehouse sell-down — flagged for Rajat, not applied · (earlier: 🆕 ⚪ Quiet — verified on the exchange feed · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ GM-Marketing (SMP) resigned 9-Oct; still no filing on the defeated WTD resolution · (earlier: Fifteen days on, STILL NOTHING FILED about Bagaria's position; the 28-Sep board change is Roongta's scheduled retirement, not him · (earlier: 🔴 The WTD's re-appointment was DEFEATED at the AGM (70.44% for, needed 75%) and the promoter block split 70/30 against itself; earlier, shareholders voted down the family pay resolution and the founder-CMD could not speak · (earlier in window: Shareholders voted DOWN the promoter-family related-party remuneration (62.9% against); founder-CMD could not speak at the 18-Sep AGM; stock −2%))))))</span></summary>
 <div class="upd-body">
+
+**🟡 4 → 10-Nov-2026 — Q2: consolidated PAT +42%, but standalone exports fell to 35.8% of sales — the export-share trigger fires on its wording**
+**Q2FY27 (results 4-Nov evening; call 5-Nov, official transcript filed 7-Nov and read).** Consolidated revenue **₹282.95cr (+18%)**, PAT **₹57.99cr (+42%)**; standalone revenue **₹252.99cr (+6%)**, PAT ₹51.27cr (+7%). Operating margin 28% (Q1 22%); gross margin ~57% (Q1 52%) — the CFO: *"You can take it around 55%, 56%"*.
+**Standalone segments:** export general ₹33cr, **export OEM ₹57.46cr** (run-rate was ₹75–80cr), total export **₹90.46cr**; domestic ₹162.53cr; volume 77.51 lakh metres. The reason given: US car demand is weak and *"we tried to reduce our dispatches to U.S. and forced our warehouse to clear their own stock"* — consolidated sales rose because the US warehouse sold down. Export OEM to return to ₹75–80cr *"from next quarter"*; FY27 consolidated export OEM ₹250–300cr. *(The CFO first gave FY26 export OEM as ₹200cr, then accepted an analyst's ~₹280cr.)*
+**Other call points:** new line — machinery Nov–Dec, start Q1FY28; a South India plant or Mexico "in pipeline and not yet concluded"; the defeated WTD resolution will be re-proposed *"with the revised structure"*; PU at 25% utilisation (break-even 40%). Arun Bagaria absent (a bereavement).
+**Filings:** two senior-management resignations on 6-Nov — **AGM Export OEM** ("new opportunities") and AGM Project (Civil) (personal reasons); up to **₹1.914cr for 26% of Bhadla Minigrid Solar 6** (captive solar; "payback period is 2 years").
+> **Why it matters:** **Trigger check.** *Export share below 38%* — the profile measures it on standalone revenue, and Q2 was **35.8%: it fires on its wording.** But the call says the drop is where goods shipped from, not lost business: on the call's ~₹90cr consolidated export OEM, consolidated export share is ~43% *(my arithmetic; the company does not publish it)*. **Because the reading turns on the basis, it is flagged for Rajat, not applied — recommendation: hold HIGH (Under Watch) and re-test at Q3 on both bases.** OPM trigger: no (28%). Succession trigger: the two resignations are senior managers, not executives or directors — not fired, but the Export OEM head leaving in the quarter export OEM fell is noted. Tier-A rewrite done in this refresh.
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 23-Oct → 4-Nov-2026 — Quiet window — verified**
 **results are due 4-Nov (Screener: "today"); call scheduled — only the call notice was in the window.**
@@ -68,23 +77,23 @@ Screener P/E 15.6x, ROCE 24.5%, ROE 18.0%; 52-week range ₹471–907. FII holdi
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** Still the holding most exposed, but the pressure is easing at the margin: over three months PVC +12.9%, DOP +12.6%, polyurethane +10.9% (DOP −1.8% in the month). Raw materials were 55% of FY26 sales with no contractual pass-through; if the whole bill moved like these inputs it would be several hundred bps of gross margin, an upper bound, not a forecast. Brent front-month is ~$102, down from ~$111 at the 23-Oct read. Test: the Q2FY27 gross margin (results due 4-Nov evening) against Q1.
+**Read (10-Nov-2026, mine, not management's):** Inputs have stopped accelerating but sit high: PVC +12.9%, DOP +15.7% and polyurethane +9.5% over three months; in the month PVC +1.1%, DOP −1.6%. Q2 still printed a ~57% gross margin and a 28% operating margin, helped by US-warehouse sales — so the input squeeze has not yet reached the P&L. Brent front-month fell 13.5% in the month to ~$91, and the CFO says freight is 20–25% off its peak. October vehicle retail fell YoY (cars −14.2%, two-wheelers −28.4%, trucks +2.3%) — most likely festive timing, with Diwali in October last year and November this year (my inference).
 
 **How cost moves reach profit:** Partial and lagged. Management described raw materials going 'up very sharply… then a fall… then again up' since March 2026, with shipping costs up 4x (profile Risk 4). No contractual pass-through is disclosed.
 
-**Sensitivity:** raw materials were **55.0% of sales in FY26** (FY25: 57.0%, Screener). A 10% move across the whole raw-material bill is worth about **550 bps of margin before any pass-through**. The tracked inputs averaged **+12.1% over three months**, which would be roughly **666 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **55.0% of sales in FY26** (FY25: 57.0%, Screener). A 10% move across the whole raw-material bill is worth about **550 bps of margin before any pass-through**. The tracked inputs averaged **+12.7% over three months**, which would be roughly **698 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| PVC | Input cost | +1.1% | +12.9% | +44.5% | -9.6% | 🔴 headwind | Tijori (indianpetrochem.com) · 04 Nov, 09:00 am IST |
-| DOP ( Dioctyl Phthalate ) | Input cost | -1.8% | +12.6% | +67.6% | -7.7% | 🔴 headwind | Tijori (indianpetrochem.com) · 04 Nov, 09:00 am IST |
-| Polyurethane | Input cost | +4.5% | +10.9% | +44.7% | -5.3% | 🔴 headwind | Tijori (indianpetrochem.com) · 04 Nov, 09:00 am IST |
-| Brent crude (102.33 $/bbl) | Proxy / context | +2.0% | +28.8% | +58.8% | -13.5% | ⚪ context | Yahoo Finance · 04-Nov-2026 |
-| USD/INR (94.64 ₹ per $) | FX (export revenue) | -1.7% | -0.5% | +6.7% | -2.3% | ⚪ flat | Yahoo Finance · 04-Nov-2026 |
-| Passenger Car - Retail Sales (YoY, Sep 26) | Demand driver | — | +22.4% | +32.1% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
+| PVC | Input cost | +1.1% | +12.9% | +44.5% | -9.6% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:00 am IST |
+| DOP ( Dioctyl Phthalate ) | Input cost | -1.6% | +15.7% | +70.8% | -8.2% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:00 am IST |
+| Polyurethane | Input cost | +4.0% | +9.5% | +46.3% | -4.2% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:00 am IST |
+| Brent crude (90.61 $/bbl) | Proxy / context | -13.5% | +1.9% | +41.4% | -23.4% | ⚪ context | Yahoo Finance · 10-Nov-2026 |
+| USD/INR (93.918 ₹ per $) | FX (export revenue) | -3.0% | -1.6% | +5.9% | -3.1% | ⚪ flat | Yahoo Finance · 10-Nov-2026 |
+| Passenger Car - Retail Sales (YoY, Oct 26) | Demand driver | — | +11.3% | -14.2% | — | 🔴 headwind | Tijori macro (India) · Oct 26 |
 
 **Why each factor is here:**
 
@@ -93,11 +102,11 @@ Screener P/E 15.6x, ROCE 24.5%, ROE 18.0%; 52-week range ₹471–907. FII holdi
 - **Polyurethane**: PU and semi-PU coatings (profile Moat 2); Tijori's PU series is a general grade, so treat as a proxy.
 - **Brent crude**: Context, not a direct purchase: petrochemical inputs track crude (profile Risk 4).
 - **USD/INR**: ~42.5% of standalone revenue is USD-invoiced exports; FY26 carried a ₹30cr forex gain (profile Moat 5).
-- **Passenger Car - Retail Sales (YoY, Sep 26)**: Domestic auto OEM is one of its six verticals (profile §1).
+- **Passenger Car - Retail Sales (YoY, Oct 26)**: Domestic auto OEM is one of its six verticals (profile §1).
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -230,6 +239,12 @@ The 30-second snapshot:
 | **Overseas plant decision** | Multi-year | **STILL UNDECIDED after ~2 years** — *"because of all this Trump tariffs, the West Asia war… we have not taken a final call"* | 🔴 **Open** |
 | PU business ramp | Q1FY26 | **FY26 PU revenue only ₹27cr.** US customer audit passed; no commercial deal | 🟡 **Slow — the visible gap** |
 | Board succession | FY26 | Bagaria re-appointed 5 years from Aug-2027; Roongta's ID term expires on schedule 27-Sep-2026; Haritwal appointed 6-Aug-2026 | 🔴 ⤴ **CORRECTED 23-Sep-2026 — was ✅ Orderly.** **Shareholders DEFEATED Bagaria's re-appointment at the 18-Sep AGM** (70.44% in favour, 75% needed), **with 29.51% of the promoter block voting against.** Haritwal's appointment did pass |
+| *(10-Nov)* Export mix 40–45% in FY27 | Q4FY26 | **Q2 standalone 35.8%** (₹90.46cr of ₹252.99cr) — *consolidated ~43% on the call's ~₹90cr consolidated export OEM (my arithmetic)* | 🔴 **Standalone below; consolidated inside** |
+| *(10-Nov)* Export OEM back to ₹75–80cr a quarter | Q2FY27 call | Q2 standalone ₹57.46cr — dispatches cut while the US warehouse cleared stock; *"from next quarter… Definitely. It will improve"* | 🕐 **Q3 test** |
+| *(10-Nov)* FY27 consolidated export OEM ₹250–300cr | Q2FY27 call | *(FY26 first given as ₹200cr, corrected to ~₹280cr under questioning)* | 🕐 |
+| *(10-Nov)* Margin floor ~22% (*"take this margin… for granted"*) | Q1FY27 | **Q2 OPM 28%; gross margin ~57%** (CFO: *"take it around 55%, 56%"*) | ✅ |
+| *(10-Nov)* New line commissioning Feb–Mar 2027 | Q4FY26 | Machinery Nov–Dec, installation in the March quarter, *"hopefully, it will start in Q1"* (FY28) | 🟡 **~one quarter later** |
+| *(10-Nov)* Succession answer | Q1FY27 | The defeated WTD resolution will be re-proposed *"with the revised structure"*; *"third generation also joined 6 months back"* | 🕐 **Partly answered** |
 
 **Verdict on management.**
 
@@ -364,6 +379,23 @@ The clearest exchange on the call, and it did not survive the machine transcript
 
 ---
 
+### 🆕 Q2FY27 Refresh — Full Numbers Print *(10-Nov-2026; results 4-Nov evening, call 5-Nov, official transcript filed 7-Nov and read in full)*
+
+| | Q2FY27 | Q2FY26 | YoY |
+|---|---|---|---|
+| **Consolidated revenue** | **₹282.95cr** | ₹240cr | **+18%** |
+| Consolidated PBT / PAT | ₹79.31cr / **₹57.99cr** | ₹56cr / ₹41cr | +43% / **+42%** |
+| Consolidated operating margin (Screener) | **28%** | 21% | Q1FY27 22% |
+| Other income (Screener) | ₹9cr | ₹13cr | 11% of PBT (Q1: 31%) |
+| **Standalone revenue** | **₹252.99cr** | ~₹239cr | **+6%** |
+| Standalone PBT / PAT | ₹70.46cr / ₹51.27cr | | +9% / +7% |
+
+**Standalone segments (call):** export general ₹33cr · **export OEM ₹57.46cr** · **total export ₹90.46cr (35.8%)** · OEM (domestic) ₹62.80cr · replacement ₹45.02cr · footwear ₹45.34cr · furnishing ₹7.19cr · others ₹2.18cr · domestic ₹162.53cr. Volume 77.51 lakh metres; PU revenue ₹6.28cr.
+
+**Why consolidated grew three times faster than standalone.** *"Market is not responding well in U.S. for last 2 quarters… this quarter, we tried to reduce our dispatches to U.S. and forced our warehouse to clear their own stock."* The US subsidiary keeps ~2 points of a ~10-point margin, so **when warehouse sales exceed India dispatches, consolidated margin rises** — the CFO's own explanation of the 28%.
+
+**What the call added.** (1) **The export-share fall is a dispatch-location shift, not lost customers** — orders for Ford and Chrysler now cover *"5 models"* vs 2; BMW and Mercedes at *"almost full projections"*; VW in sampling, *"it takes 2, 3 years"*. (2) Freight *"20%, 25%… come down from the peak"*; no price increase sought until costs stabilise. (3) South-India plant or Mexico *"in pipeline and not yet concluded"* — the overseas decision is still open. (4) PU at 25% utilisation; break-even needs 40%. (5) Arun Bagaria absent (a family bereavement); the CFO took the call alone. **Filings:** AGM Export OEM and AGM Project (Civil) resigned 6-Nov; ₹1.914cr for 26% of a captive-solar SPV (Bhadla Minigrid Solar 6; *"payback period is 2 years"*).
+
 ## 5. Connecting the Dots
 
 **Thread A — The export mix shift is the engine, and it is dollar-priced.** ~42% of standalone revenue from ~35% two years ago, earning 5–8 percentage points more than domestic. **This is why FY26 profit grew three times faster than revenue.**
@@ -401,8 +433,11 @@ The clearest exchange on the call, and it did not survive the machine transcript
 | 21-Aug-2026 | **HELD at High** | **Official Q1FY27 transcript verified against the machine transcription** — and it carried **three material disclosures the machine version had lost**, all of which strengthen the operating case. **Offset by a concrete key-man disclosure.** Net: no change |
 | **19-Sep-2026** | **HELD at High** | Filings refresh: **shareholders defeated the related-party pay resolution (7-Sep, 62.9% against)**; AGM record (18-Sep) states the Chairman could not speak and the WTD answered for him. No operating news; Q1FY27 print and guidance intact. Stock ₹757 → ₹743. |
 | **23-Sep-2026** | **HELD at HIGH (Under Watch)** | 🔴 **The AGM voting results (21-Sep) show Arun Bagaria's re-appointment as Whole Time Director was DEFEATED** — 70.44% in favour against a 75% special-resolution threshold — **and the promoter block split 70.49/29.51 against itself.** Second family-linked defeat in eleven days. **Operating thesis untouched: no new numbers, guidance intact.** Conviction held because the business is unchanged; **Under Watch because the succession is now contested rather than orderly.** |
+| **10-Nov-2026** | **HELD at HIGH (Under Watch) — one trigger fired on its wording, flagged for Rajat** | **Export share below 38%: standalone Q2 was 35.8%.** The call attributes it to cutting India dispatches while the US warehouse sold down — consolidated export share ~43% *(my arithmetic)*. The trigger never named a basis; the profile has always measured it on standalone. **Not applied because it turns on the basis — recommendation: hold, and re-test at Q3 on both bases** (a second standalone quarter below 38% with export OEM not back near ₹75cr should be taken as fired). Everything else is better: OPM 28%, PAT +42%. **Re-priced: ≈ +32% at ₹746.** |
 
 **Downgrade to MH if:** OPM falls below 20% for two consecutive quarters · **or** export share falls below 38% · **or** US tariff action specifically targets synthetic leather / auto-interior imports · **or** the succession question raised on the Q1FY27 call is still unanswered at the FY27 annual call · **🆕 or** the contested succession produces an executive departure, a board split disclosed under Reg 30, or a change in the promoter register *(trigger set 23-Sep-2026)*.
+
+> **10-Nov-2026 status:** OPM <20% — ❌ (28%) · **export share <38% — 🔴 fired on the standalone measure (35.8%); flagged, not applied** · US tariff action on synthetic leather — ❌ none · succession — partly answered (resolution to be re-proposed) · executive departure / board split / promoter-register change — ❌ (two senior-manager resignations, not executives or directors; the Export OEM head left in the quarter export OEM fell — noted).
 
 **Upgrade case:** export share past 45% with OPM holding 24%+ **and** a committed overseas plant location would make the bull case the base case.
 
@@ -530,23 +565,39 @@ Analysts and management discuss a **"25% plus"** margin on the Q1FY27 call while
 
 ---
 
+### 📊 10-Nov-2026 — Q2FY27 scored
+
+**Where it trades (Screener, 10-Nov-2026 close):** CMP **₹746** · market cap ₹3,243cr · P/E 14.5x · −1.5% since the 21-Aug baseline (₹757).
+
+**Re-priced on the unchanged scenarios (from ₹3,243cr):** base ₹4,250cr → **+31%** · bull ₹6,000cr → **+85%** · bear ₹2,210cr → **−32%**. **Weighted ≈ +32%** *(0.55 × 31 + 0.25 × 85 − 0.20 × 32)*. ***The base case assumes the export mix holds near 45%; Q2's standalone 35.8% is the first print that does not, for a stated and reversible reason.*** *If Q3 standalone exports do not recover, the base case's mix assumption is the thing to cut.*
+
+**Conviction: HELD at HIGH (Under Watch); one trigger flagged for Rajat.**
+
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — 🔴 US tariffs on the export book.** ~42% of standalone revenue is dollar-priced exports into the US auto chain; **top five export OEMs are likely 60%+ of it.** This is simultaneously the source of the margin expansion and the entire target surface. **The most concentrated risk in the profile, and it is outside management's control.**
+
+> ⚠️ **SHARPENED, by demand rather than tariffs (Q2 call):** *"Market is not responding well in U.S. for last 2 quarters"*; standalone export OEM ₹57.46cr vs a ₹75–80cr run-rate.
 
 **Risk 2 — 🔴 The overseas plant decision remains open after ~2 years.** *"we have not taken a final call."* **The answer to Risk 1 exists, costs ₹250cr, and has not been taken.** Every quarter of delay leaves the exposure intact. *Signal: any announcement of a committed location.*
 
 **Risk 3 — 🔴 Key-man concentration — ⚠️ ESCALATED 23-Sep-2026, and now a succession-contest risk rather than only a key-man one.** The 51-year founder-CMD **is not currently able to take earnings calls** (management's own words) and the filed AGM proceedings say he *"is not able to speak currently."* **Arun Bagaria, who has chaired the last two calls and the AGM in his place, had his five-year re-appointment DEFEATED by shareholders on 18-Sep** (70.44% in favour against a 75% threshold) — **with 29.51% of the promoter block voting against**, which on the share-count arithmetic in §5.5(b) is the founder's son and daughter-in-law. **A shareholder's question about a full-time MD, asked on the Q1FY27 call, remains unanswered.** *Signals: whether the board re-proposes the resolution; who leads the Q2FY27 call; any Reg 30 filing on Bagaria's position; and whether the promoter register moves.*
 
+> ⤴ **UPDATE (5–6 Nov-2026):** the defeated WTD resolution will be re-proposed *"with the revised structure"*; Arun Bagaria absent from the Q2 call (bereavement); the AGM Export OEM resigned 6-Nov *"to pursue new opportunities"*.
+
 **Risk 4 — 🟡 Raw material and freight volatility.** Petrochemical inputs *"went up very sharply… then a fall… then again up"*, and **shipping costs rose 4x** in Q1FY27 on the war situation. Management will not call the freight increase permanent, but nor can they call it temporary.
 
-> 📈 **Factor check 4-Nov-2026:** The risk is live but easing: PVC +12.9%, DOP +12.6% and polyurethane +10.9% over three months to 4-Nov (DOP −1.8% in the month); raw materials are 55% of sales with no contractual pass-through. Watch Q2FY27 gross margin against Q1. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 10-Nov-2026:** High but no longer accelerating: PVC +12.9%, DOP +15.7%, polyurethane +9.5% over three months to 10-Nov (DOP −1.6% in the month). Q2FY27 gross margin was ~57% and freight is easing (CFO: 20–25% off peak) — the squeeze has not reached the P&L yet. *(Numbers and sources: Input & factor check, at the top.)*
 
 **Risk 5 — 🟡 Volume growth is ~2%.** The +24.5% revenue came almost entirely from price and mix. **The value/volume gap is deliberate and management says so — but a mix shift is finite, and at some point volume has to do the work.** *This is what the capacity additions are for; it is also why they matter.*
 
 **Risk 6 — 🟡 Roughly a fifth of PBT is other income.** ₹23cr of Q1FY27's ₹74cr (31%); ~21% on an annual basis. **The operating business is smaller than headline PAT implies, and on an operating basis the stock is at ~20x rather than 15.8x.**
 
+> ⤴ **EASED (Q2FY27):** ₹9cr of ₹79cr PBT (11%) — treasury fair-value losses cut it, by the CFO's account.
+
 **Risk 7 — 🟡 PU is the unfilled adjacency.** ₹27cr of FY26 revenue in the fastest-growing global chemistry. A US customer audit passed with no commercial deal following. **Several years of "about to ramp."**
+
+> ⤴ **UPDATE (Q2 call):** *"we are operating at 25% capacity utilization. And to get the breakeven, we need to operate at 40%."*
 
 **Risk 8 — 🟡 Chinese and Vietnamese import competition**, persistent and only partly offset by customs duty.
 
@@ -578,6 +629,8 @@ Analysts and management discuss a **"25% plus"** margin on the Q1FY27 call while
 
 ## 9. 📢 Community Pulse
 
+**⤴ 10-Nov-2026 — ValuePickr topic 226 (843 posts):** one post on Q2 — #877 (Gaurav_Shivhare, 4-Nov): *"Nearly 40% jump in net profits"*. **No discussion of the standalone export fall or the warehouse explanation. Sentiment: ⚪ DORMANT.**
+
 *Refreshed 21-Aug-2026.*
 
 ### ValuePickr — topic 226, "Mayur Uniquoters — Market Leader in Indian Synthetic Leather Market"
@@ -603,6 +656,8 @@ Analysts and management discuss a **"25% plus"** margin on the Q1FY27 call while
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (10-Nov-2026 refresh):** results 4-Nov (consolidated and standalone; Bhadla Minigrid Solar 6 investment); **official transcript of the 5-Nov call (filed 7-Nov), read in full**; SMP resignations 6-Nov; ValuePickr topic 226 #877; Screener 10-Nov-2026 close.
 
 **Concall gate: ✅ CLEARED — 7 official transcripts. Mayur is transcript-only and files no investor decks.**
 

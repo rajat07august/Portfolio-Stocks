@@ -7,11 +7,17 @@
 > **How to read this profile:** Every meaningful claim is either sourced from a concall (period noted) or a filing. Aimtron reports H1/H2 not Q1/Q2/Q3/Q4 as it's on the SME platform. This is personal thesis-building, not a buy/sell recommendation.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 1,920** · market cap ₹ 4,086 Cr. · P/E 88.9x · ROCE 28.2 % · ROE 23.6 % · 52-wk ₹ 2,010 / 696 · **vs ₹1,313 at baseline (+46.2%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 1,972** · market cap ₹ 4,194 Cr. · P/E 69.4x · ROCE 28.2 % · ROE 23.6 % · 52-wk ₹ 2,019 / 696 · **vs ₹1,313 at baseline (+50.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟡 H1: revenue +83%, PAT +71%, order book ₹733cr — margins fell while the release says they rose; ₹205cr preferential passed · (earlier: 🆕 ⚪ ₹205cr preferential EGM held 22-Oct; result pending; use now "strategic expansion" · (earlier: ⚪ Warrant-issue EGM 22-Oct after an NSE-directed corrigendum · (earlier: 🟡 ~₹205cr preferential issue to non-promoter investors including AIFs, to fund 'strategic acquisitions'; warrants converted · (earlier: An investor meet was scheduled on 21-Sep and cancelled on 23-Sep, with no reason given · (earlier in window: Q1FY27 update: revenue +94%, order book ₹604cr; US arm books US$11.8m in Q2 to date; pilot orders from Curtiss-Wright and a test-solutions major; warrants converted; stock +27% to 77x)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 🟡 Revised release now shows margins down (21.6% vs 24.6%); 44,000 warrants converted · (earlier: 🆕 🟡 H1: revenue +83%, PAT +71%, order book ₹733cr — margins fell while the release says they rose; ₹205cr preferential passed · (earlier: 🆕 ⚪ ₹205cr preferential EGM held 22-Oct; result pending; use now "strategic expansion" · (earlier: ⚪ Warrant-issue EGM 22-Oct after an NSE-directed corrigendum · (earlier: 🟡 ~₹205cr preferential issue to non-promoter investors including AIFs, to fund 'strategic acquisitions'; warrants converted · (earlier: An investor meet was scheduled on 21-Sep and cancelled on 23-Sep, with no reason given · (earlier in window: Q1FY27 update: revenue +94%, order book ₹604cr; US arm books US$11.8m in Q2 to date; pilot orders from Curtiss-Wright and a test-solutions major; warrants converted; stock +27% to 77x))))))</span></summary>
 <div class="upd-body">
+
+**🟡 4 → 10-Nov-2026 — Revised release now shows the margin fall; 44,000 warrants converted**
+**A revised H1 press release (4-Nov, 21:49 — after the last sweep) now prints EBITDA margin 21.6% vs 24.6% and PAT margin 15.5% vs 16.5%** on revenue ₹224.7cr (+83%) and PAT ₹34.8cr (+72%); consolidated order book ₹730cr (2.4x FY26 revenue). Investor presentation 6-Nov; call recording 7-Nov. **44,000 warrants converted** into equity (5-Nov).
+> **Why it matters:** The 4-Nov note flagged that the release claimed margin expansion while margins fell — the revised release corrects that.
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟡 23-Oct → 4-Nov-2026 — H1FY27: revenue +83%, PAT +71% — but margins fell while the release says they expanded**
 **H1FY27 (4-Nov, half-yearly SME).** Consolidated revenue **₹224.7cr vs ₹122.6cr, +83.3%**; EBITDA **₹54.3cr, +80.4%**; EBITDA margin **24.17% vs 24.60%**; PAT **₹34.8cr, +71.5%**; PAT margin **15.48% vs 16.55%** (press release table). **Unexecuted order book ₹733.3cr** (78% domestic; IoT/robotics/drone 20%, power 24%, telecom/network security 26%); US arm AIC's order book +161% to US$18.8m. Call on 6-Nov.
@@ -84,10 +90,10 @@ Screener: market cap ₹3,536cr, ROCE 28.2%, ROE 23.6%; 52-week range ₹675–1
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** Component prices are not tracked; the rupee is 1.7% stronger in the month and its net effect is not disclosed.
+**Read (10-Nov-2026, mine, not management's):** Component prices are not tracked; the rupee is 3.0% stronger in the month and its net effect is not disclosed.
 
 **How cost moves reach profit:** No tracked price or macro series drives this business directly. Component prices are not tracked.
 
@@ -95,14 +101,14 @@ Screener: market cap ₹3,536cr, ROCE 28.2%, ROE 23.6%; 52-week range ₹675–1
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (94.64 ₹ per $) | Proxy / context | -1.7% | -0.5% | +6.7% | -2.3% | ⚪ context | Yahoo Finance · 04-Nov-2026 |
+| USD/INR (93.918 ₹ per $) | Proxy / context | -3.0% | -1.6% | +5.9% | -3.1% | ⚪ context | Yahoo Finance · 10-Nov-2026 |
 
 **Why each factor is here:**
 
 - **USD/INR**: ~20–25% exports and imported components; net effect not disclosed (profile).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>

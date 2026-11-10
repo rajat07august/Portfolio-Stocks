@@ -10,11 +10,17 @@
 > **✅ Concall gate CLOSED and verified.** The Q1FY27 call (30-Jul-2026) was machine-transcribed from the company's official audio on 1-Aug under §4A, and **verified line-by-line against the official transcript published 6-Aug-2026.** Every load-bearing figure checked out verbatim — the ECU level, the chlorine price, the ₹376cr MAT credit, the 19% cash-tax rate, the demerger commitment, the 85% chlorine tie-up and the Bioseed quote. **All quotes below are from the official transcript.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 904** · market cap ₹ 14,082 Cr. · P/E 10.7x · ROCE 11.5 % · ROE 11.5 % · 52-wk ₹ 1,328 / 867 · **vs ₹1,082 at baseline (-16.5%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 903** · market cap ₹ 14,084 Cr. · P/E 10.7x · ROCE 11.5 % · ROE 11.5 % · 52-wk ₹ 1,328 / 867 · **vs ₹1,082 at baseline (-16.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🔴 HELD at M (Under Watch) — ⤴ an ML downgrade applied earlier on 4-Nov was reversed (see the Q2FY27 refresh in §4/§6); Bioseed PBDIT −₹41cr; Q2 PBDIT flat ex last year's one-offs; ₹325cr of new capex; caustic contradiction resolved · (earlier: 🆕 ⚪ Q2 call 28-Oct · (earlier: ⚪ Q2 results 26-Oct; interim dividend record date 30-Oct · (earlier: 🟢 Two chlorine-downstream plants commissioned at Jhagadia (30-Sep) — aluminium chloride and calcium chloride, which is the company acting on the weak leg of the ECU · (earlier: No filings at all on either exchange in the window — verified. The caustic price contradiction stays open to Q2FY27 · (earlier in window: Kota aluminium-extrusion plant commissioned; ICRA AA+/Stable reaffirmed with higher limits; stock −8% toward its 52-week low)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 🔴 HELD at M (Under Watch) — ⤴ an ML downgrade applied earlier on 4-Nov was reversed (see the Q2FY27 refresh in §4/§6); Bioseed PBDIT −₹41cr; Q2 PBDIT flat ex last year's one-offs; ₹325cr of new capex; caustic contradiction resolved · (earlier: 🆕 ⚪ Q2 call 28-Oct · (earlier: ⚪ Q2 results 26-Oct; interim dividend record date 30-Oct · (earlier: 🟢 Two chlorine-downstream plants commissioned at Jhagadia (30-Sep) — aluminium chloride and calcium chloride, which is the company acting on the weak leg of the ECU · (earlier: No filings at all on either exchange in the window — verified. The caustic price contradiction stays open to Q2FY27 · (earlier in window: Kota aluminium-extrusion plant commissioned; ICRA AA+/Stable reaffirmed with higher limits; stock −8% toward its 52-week low))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 4 → 10-Nov-2026 — No filings in the window — verified**
+**No filings on the exchange feed in the window** — a verified negative: a control query for the same name returned the right company (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🔴 23-Oct → 4-Nov-2026 — Q2FY27: revenue +22%, PAT −33%; Bioseed loss widens and the downgrade trigger fires**
 **Q2FY27 (26-Oct, transcript filed 3-Nov and read).** Revenue **₹3,977cr, +22%**; PBDIT **₹319cr vs ₹408cr (−22%)**; PAT **₹106cr vs ₹159cr**. Last year's quarter carried **₹76cr of Gujarat incentive and ₹15.5cr of sugar power-rate revision**; strip both and PBDIT is **flat (₹319cr vs ~₹317cr)** *(my arithmetic from the press release)*. H1 reported PAT ₹799cr includes a **₹474.3cr tax adjustment and ₹79.4cr of exceptional gains; the company's own 'effective normal PAT' is ₹253cr.**
@@ -83,10 +89,10 @@ No company filing explains the fall. Reported P/E 11.3x on TTM; on the profile's
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** Resolved, and now confirmed by the company: caustic soda lye is −22.8% in the month and −10.9% over three months (flakes −8.8%), and on the Q2 call management said caustic 'corrected in line with global markets' while chlorine rose, putting ECU +6% YoY. Vinyl stays the strong leg: PVC +12.9% and the PVC-over-EDC spread +37.4% over three months. Imported coal (power-plant input) +15.5% (October average). Sugar (world, October average) +26.5% over three months.
+**Read (10-Nov-2026, mine, not management's):** Caustic is soft (lye −9.7% in the month, +3.5% over three months; flakes −5.2% over three months), while vinyl stays the strong leg: PVC +12.9% and the PVC-over-EDC spread +29.7% over three months. Imported coal (power-plant input) +15.5% (October average). The company's own Q2 ECU was ₹32,774/MT (+6% YoY), set by chlorine, not caustic.
 
 **How cost moves reach profit:** Mostly a price-taker on both sides: caustic is priced off chlor-alkali spreads, sugar off a government-set cane price, urea is regulated (profile §2).
 
@@ -94,12 +100,12 @@ No company filing explains the fall. Reported P/E 11.3x on TTM; on the profile's
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Caustic Soda Lye | Selling price | -22.8% | -10.9% | -14.0% | -44.5% | 🔴 headwind | Tijori (indianpetrochem.com) · 04 Nov, 09:00 am IST |
-| Caustic Soda Flakes | Selling price | -2.3% | -8.8% | +3.8% | -22.5% | 🔴 headwind | Tijori (indianpetrochem.com) · 04 Nov, 09:00 am IST |
-| PVC | Selling price | +1.1% | +12.9% | +44.5% | -9.6% | 🟢 tailwind | Tijori (indianpetrochem.com) · 04 Nov, 09:00 am IST |
-| PVC - Ethylene Dichloride | Margin spread | -2.7% | +37.4% | +41.3% | -14.5% | 🟢 tailwind | Tijori (indianpetrochem.com) · 04 Nov, 09:30 am IST |
+| Caustic Soda Lye | Selling price | -9.7% | +3.5% | +2.6% | -33.7% | 🟢 tailwind | Tijori (indianpetrochem.com) · 10 Nov, 09:00 am IST |
+| Caustic Soda Flakes | Selling price | +7.1% | -5.2% | +7.3% | -19.9% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:00 am IST |
+| PVC | Selling price | +1.1% | +12.9% | +44.5% | -9.6% | 🟢 tailwind | Tijori (indianpetrochem.com) · 10 Nov, 09:00 am IST |
+| PVC - Ethylene Dichloride | Margin spread | -4.2% | +29.7% | +47.1% | -14.5% | 🟢 tailwind | Tijori (indianpetrochem.com) · 10 Nov, 09:30 am IST |
 | Coal, Australian (monthly avg) (152.3 $/mt) | Input cost | +3.5% | +15.5% | +41.7% | +0.0% | 🔴 headwind | World Bank Pink Sheet · 2026M10 |
-| Ethanol | Selling price | +0.0% | -0.6% | -1.2% | -8.0% | ⚪ flat | Tijori (indianpetrochem.com) · 04 Nov, 09:00 am IST |
+| Ethanol | Selling price | -1.8% | -5.3% | -0.6% | -7.5% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:00 am IST |
 | Sugar, world (monthly avg) (0.43 $/kg) | Proxy / context | +4.9% | +26.5% | +26.5% | +0.0% | ⚪ context | World Bank Pink Sheet · 2026M10 |
 | Production - Fertilizers (YoY, Aug 26) | Demand driver | — | -7.9% | -12.4% | — | 🔴 headwind | Tijori macro (India) · Aug 26 |
 
@@ -118,7 +124,7 @@ No company filing explains the fall. Reported P/E 11.3x on TTM; on the profile's
 *Monthly average; lags spot by up to a month.*
 *Spread between two prices: % moves on a spread are huge and flip sign; read the direction, not the size.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -447,7 +453,7 @@ The 30-second snapshot:
 
 ### 🔴 The disclosure that appears nowhere in writing: ECU may be down ~16%
 
-> 📈 **Factor check 4-Nov-2026:** Resolved on the Q2FY27 call: caustic 'corrected in line with global markets' and chlorine rose, ECU +6% YoY. Tijori's caustic soda lye is −22.8% in the month to 4-Nov and −10.9% over three months. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 10-Nov-2026:** Resolved on the Q2FY27 call: ECU +6% YoY on chlorine, caustic 'corrected in line with global markets'. Tijori's caustic lye is −9.7% in the month to 10-Nov, +3.5% over three months. *(Numbers and sources: Input & factor check, at the top.)*
 
 Asked where caustic prices are heading, **Aditya Shriram (Deputy MD)**:
 > *"We normally don't make forward-looking statements, but… **current ECU is in the range of just below INR30,000.** So, we expect it to be in this range or higher. As for the **chlorine price, currently it is in the minus INR7,000 to minus INR8,000 range.**"*

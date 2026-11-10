@@ -1,7 +1,7 @@
 # Deep Industries Ltd — Company Profile
 
 **Ticker:** DEEP *(profile)* · **NSE: DEEPINDS** · BSE: 543288 · **Sector:** 17 — Oil & Gas Services
-**Conviction:** **HIGH** · **Weighted 2-yr return:** ~+16% (≈7.7% CAGR) + 0.36% dividend · *(was ~+49% before a 27% price move — see §6)*
+**Conviction:** **HIGH** · **Weighted 2-yr return:** ~+22% at ₹650 (10-Nov-2026 — the unchanged cases re-priced, see §6) + 0.38% dividend · *(~+16% at ₹688 on 22-Aug; ~+49% in July before a 27% price move)*
 **Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 22-Aug-2026)* · **Tracking since:** 4-Jul-2026
 **CMP:** ₹688 · **Market Cap:** ₹4,395 cr · **P/B:** 2.20x (BV ₹312) · **ROCE:** 16.5% · **ROE:** 19.2% · **Div yield:** 0.36% · **52-wk range ₹327–₹721** *(Screener consolidated, 22-Aug-2026)*
 
@@ -12,11 +12,19 @@
 > **✅ Concall gate: CLEARED and current.** The Q1FY27 call was held **29-Jul-2026** (InCred Equities-hosted; **Paras Savla, CMD** and **Rohan Shah, CFO**), transcript filed 3-Aug and in the repo — 26pp. **Reading it changed three conclusions** and is the source of the explicit FY27/FY28 PAT guidance below.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 4-Nov-2026 close (Screener):** CMP **₹ 652** · market cap ₹ 4,164 Cr. · P/E 9.83x · ROCE 16.5 % · ROE 19.2 % · 52-wk ₹ 827 / 327 · **vs ₹688 at baseline (-5.2%)**
+**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 650** · market cap ₹ 4,160 Cr. · P/E 9.82x · ROCE 16.5 % · ROE 19.2 % · 52-wk ₹ 827 / 327 · **vs ₹688 at baseline (-5.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 4-Nov-2026</span> <span class="upd-sum">🆕 🟢 Q2: standalone ₹213cr (plateau broken), H1 PAT ₹170cr = 49% of the FY27 guide; Prabha repayment not addressed · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: Only an analyst-meet schedule; Q2FY27 is the next real checkpoint · (earlier: Nothing new beyond a trading-window closure; Q2FY27 results season approaching. Stock ₹743 → ₹773 · (earlier in window: New ONGC gas-compression award (₹88.15cr, 3 years); new corporate deck adds 'defence-grade re-rating' framing and two government-scheme read-acrosses (not orders); stock +8%)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 🟢 Q2 call read: FY28 PAT ₹470–500cr guided; standalone +18.7% clears the trigger; Dolphin receivables now under ECL; Prabha loan still unaddressed · (earlier: 🆕 🟢 Q2: standalone ₹213cr (plateau broken), H1 PAT ₹170cr = 49% of the FY27 guide; Prabha repayment not addressed · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: Only an analyst-meet schedule; Q2FY27 is the next real checkpoint · (earlier: Nothing new beyond a trading-window closure; Q2FY27 results season approaching. Stock ₹743 → ₹773 · (earlier in window: New ONGC gas-compression award (₹88.15cr, 3 years); new corporate deck adds 'defence-grade re-rating' framing and two government-scheme read-acrosses (not orders); stock +8%))))))</span></summary>
 <div class="upd-body">
+
+**🟢 4 → 10-Nov-2026 — Q2 call read: FY28 PAT guided ₹470–500cr; standalone +18.7% clears the bar; ECL provisioning begun on Dolphin receivables**
+**Official transcript of the 4-Nov Q2 call (filed 6-Nov) read in full.** Guidance: **operating revenue +30–35% in FY27 and again +30–35% in FY28; PAT ₹350–370cr in FY27 and ₹470–500cr in FY28**; EBITDA margin 42–43% on a yearly basis, with *"300 bps to 400 bps"* quarterly swings as equipment moves between contracts. Order book **₹3,089cr**; bidding pipeline ₹700–800cr. Q2 consolidated EBITDA ₹124cr (39.6%), PAT ₹81.2cr (+14%); H1 free cash flow from operations ₹155cr (+35%); ROCE 21.6% (from 19.3%).
+**Production-enhancement contract (ONGC, ₹1,402cr over 15 years):** rig deployed, workovers resumed, new wells *"soon"*; incremental production *"from quarter 3 FY27"* on ~₹150cr of capex over 12 months. ONGC's next PEC tender extended to end-November. **Dolphin:** the DP2 barge Prabha is operating; ₹100–200cr of further capex depends on contracts; equity in Dolphin *"if required… as of now, no such idea"*. **On Dolphin's receivables: *"we have already started providing under ECL, but write-offs as of now, we have not considered"*.** Kandla chemical plant: revival under way, *"some flavor in probably Q4"*.
+**Not asked and not answered: the Prabha Energy related-party loan** that management said on the Q1 call would be fully repaid by end-Q2.
+> **Why it matters:** **No trigger fired.** Standalone revenue ₹213.0cr vs ₹179.4cr is **+18.7%**, inside the 18–20% recovery the profile required; PEC output is now dated Q3FY27 (it was "September-end/October" on the Q1 call — not a further slip on the trigger's wording); the year-end-charge test is Q4FY27, and the new ECL provisioning on Dolphin receivables is exactly the line to watch for it. FY28 guidance of ₹470–500cr sits above the base case's ₹440cr. Tier-A rewrite done in this refresh.
+
+*Sweep: NSE announcements, 4 → 10-Nov-2026 (sweep run 10-Nov 20:33 IST); market data Screener 10-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟢 23-Oct → 4-Nov-2026 — Q2FY27: standalone breaks its five-quarter plateau; H1 PAT is half the FY27 guide**
 **Q2FY27 (3-Nov).** Consolidated operating revenue **₹295.4cr, +29.2%**; EBITDA (company basis, **includes other income**) ₹124.0cr vs ₹112.9cr (+9.9%); PAT **₹81.2cr, +14.0%**. H1 revenue ₹574.3cr (+36.6%), H1 PAT **₹170.4cr (+28.2%)**, H1 operating cash flow ₹154.7cr (+35.4%). Debt ₹232.9cr.
@@ -75,18 +83,18 @@ Screener P/E 11.5x, which is the profile's write-off-adjusted basis (on reported
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 4-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (4-Nov-2026, mine, not management's):** Supportive but softer at the spot end. Brent front-month is ~$102 (+28.8% over three months, +2.0% in the month, 13.5% below its 52-week high), while the World Bank's October Brent average is ~$125 — the two sources disagree on level and I leave that open. Asian LNG, the benchmark for its market-priced gas contract, averaged $16.59/MMBTU in October (+19.8% over three months), above the profile's US$8–15 band. Most revenue is fixed-rate services.
+**Read (10-Nov-2026, mine, not management's):** Brent front-month fell to ~$91 (−13.5% in the month, 23.4% below its 52-week high), while the World Bank's October average was ~$125 — the gap between the two sources has widened, and I leave the level open. Asian LNG, the benchmark for its market-priced gas, averaged $16.59/MMBTU in October (+19.8% over three months). Most revenue is fixed-rate services; the PEC's market-priced gas is where this lands, from Q3.
 
 **How cost moves reach profit:** Service contracts with ONGC and others at fixed day-rates, so commodity prices act on demand and on the gas-sales contract, not on costs.
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Brent crude (102.33 $/bbl) | Demand driver | +2.0% | +28.8% | +58.8% | -13.5% | 🟢 tailwind | Yahoo Finance · 04-Nov-2026 |
+| Brent crude (90.61 $/bbl) | Demand driver | -13.5% | +1.9% | +41.4% | -23.4% | ⚪ flat | Yahoo Finance · 10-Nov-2026 |
 | Liquefied natural gas, Japan (monthly avg) (16.59 $/mmbtu) | Selling price | +2.0% | +19.8% | +49.5% | +0.0% | 🟢 tailwind | World Bank Pink Sheet · 2026M10 |
-| Natural gas (Henry Hub) (2.891 $/mmbtu) | Proxy / context | -5.7% | +7.6% | -33.4% | -61.2% | ⚪ context | Yahoo Finance · 04-Nov-2026 |
+| Natural gas (Henry Hub) (3.253 $/mmbtu) | Proxy / context | +1.0% | +17.6% | -25.0% | -56.4% | ⚪ context | Yahoo Finance · 10-Nov-2026 |
 | Production - Natural Gas (YoY, Aug 26) | Demand driver | — | -5.3% | -4.9% | — | 🔴 headwind | Tijori macro (India) · Aug 26 |
 
 **Why each factor is here:**
@@ -99,7 +107,7 @@ Screener P/E 11.5x, which is the profile's write-off-adjusted basis (on reported
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 04-Nov-2026 17:41 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -215,6 +223,12 @@ The 30-second snapshot:
 | **✅ Prabha Energy related-party loan** | Q1FY27 | *"we have received back almost **86 crores**… probably **by end of second quarter we are expecting to clear the entire loan** repaid"* | 🕐 **Verify at Q2FY27** |
 | FY27 capex ~₹250–300cr | Q4FY26 / Q1FY27 | Funded by debt and internal accruals; **no equity raise** | 🕐 |
 | *"The company could double"* over 3–5 years | Q4FY26 | Measurable through FY31 | 🕐 |
+| *(10-Nov)* **FY27 PAT ₹350–370cr; FY28 ₹470–500cr; revenue +30–35% in both years** | Q2FY27 call (4-Nov) | **H1 PAT ₹170.4cr — 46–49% of the FY27 range at the halfway mark** | 🕐 **On track** |
+| *(10-Nov)* Standalone 18–20% growth from Q2 | Q1FY27 | **Q2 standalone ₹213.0cr vs ₹179.4cr = +18.7%** (first quarter off the ~₹175cr plateau) | ✅ **Delivered** |
+| *(10-Nov)* PEC incremental production *"September-end/October"* | Q1FY27 | Q2 call: rig deployed, workovers resumed, new wells *"soon"*; production *"from quarter 3 FY27"* on ~₹150cr capex | 🟡 **Inside the window; not yet in the numbers** |
+| *(10-Nov)* Prabha Energy loan fully repaid by end-Q2 | Q1FY27 | **Not addressed in the Q2 release, deck or call — and not asked** | 🟡 **Unverified** |
+| *(10-Nov)* "No further write-offs" | Q4FY26 | Q2 call on Dolphin receivables: *"we have already started providing under ECL, but write-offs as of now, we have not considered"* | 🟡 **Provisioning has begun** |
+| *(10-Nov)* Yearly EBITDA margin 42–43% | Q2FY27 call | Q2 39.6%, H1 41.6% (company basis); *"some quarters can see 300 bps to 400 bps"* of variance | 🕐 |
 
 **Verdict on management.**
 
@@ -338,6 +352,21 @@ Deck, verbatim: *"Achieved **all-time high quarterly revenue and profitability**
 
 ---
 
+### 🆕 Q2FY27 Refresh — Full Numbers Print *(10-Nov-2026; results 3-Nov, call 4-Nov, official transcript filed 6-Nov and read)*
+
+| | Q2FY27 | Q2FY26 | YoY | H1FY27 | YoY |
+|---|---|---|---|---|---|
+| Consolidated operating revenue | **₹295.4cr** | ₹228.6cr | **+29.2%** | ₹574.3cr | +36.6% |
+| EBITDA (company basis, incl. other income) | ₹124.0cr | ₹112.9cr | +9.9% | ₹255.8cr | +23% |
+| EBITDA margin (company basis) | 39.6% | — | | 41.6% | |
+| PAT | **₹81.2cr** | ₹71.2cr | +14.0% | **₹170.4cr** | +28.2% |
+| Cash profit | ₹106.5cr | | | ₹219.9cr | |
+| Standalone revenue | **₹213.0cr** | ₹179.4cr | **+18.7%** | | |
+
+**Cash and returns (call):** H1 free cash flow from operations **₹155cr (+35%)**; ROCE **21.6%** (19.3%); debt ₹232.9cr (results). **Order book ₹3,089cr; bidding pipeline ₹700–800cr.** Capex: ~₹150cr on the PEC over 12 months, plus ₹100–200cr at Dolphin *"depending on the contract awarded"* — funded by accruals and debt; equity at Dolphin *"if required… as of now, no such idea"*.
+
+**What the call added.** (1) **FY28 guidance made explicit: PAT ₹470–500cr** (Q1: *"almost 500"*), revenue +30–35% in FY27 and again in FY28. (2) **ECL provisioning has begun on Dolphin's old receivables** — no write-off *"as of now"*. (3) ONGC's next PEC tender extended to end-November. (4) Kandla's chemical plant restarting, *"some flavor in probably Q4"*. (5) **Silence on the Prabha Energy loan** — the one Q1 commitment with a date on it.
+
 ## 5. Connecting the Dots
 
 **Thread A — Post-exploration is structurally the right place to sit.** Deep is paid to raise output from wells that already exist, and *"we do not carry any success risk."* **An explorer's upside without an explorer's risk.**
@@ -378,8 +407,11 @@ Deck, verbatim: *"Achieved **all-time high quarterly revenue and profitability**
 | **29-Jul-2026** | **HELD at HIGH** | **The transcript changed three conclusions.** The order-book concern was substantially explained; management gave PAT guidance far above the prior base case; **and the real operational issue turned out to be somewhere else entirely — standalone stagnation.** Weighted return rebuilt to **~+49%** |
 | **22-Aug-2026** | **HELD at HIGH** | **No new filings of substance.** But **the stock is +26.7% in three weeks to a near-all-time high**, and re-anchoring the same scenarios to the new market cap takes the weighted return from **~+49% to ~+16%** |
 | **19-Sep-2026** | **HELD at HIGH** | Filings refresh: ONGC gas-compression award ₹88.15cr / 3 years (8-Sep); corporate deck with 'defence-grade re-rating' framing (31-Aug). Stock ₹688 → ₹743 (+8%), so the ~+16% return at ₹688 is lower at ₹743. |
+| **10-Nov-2026** | **HELD at HIGH** | **Q2 cleared the #1 watch item** — standalone +18.7%, inside the 18–20% bar — and FY28 PAT is now guided at ₹470–500cr. **No trigger fired.** New watch: ECL provisioning on Dolphin receivables (the Q4 year-end-charge test) and the unaddressed Prabha loan. **Re-priced: ≈ +22% at ₹650** (unchanged cases). |
 
 **Downgrade to MH if:** standalone does **not** recover toward 18–20% growth from Q2FY27 · **or** a third year-end charge appears in Q4FY27 · **or** the PEC incremental production slips again past October.
+
+> **10-Nov-2026 status — none fired.** Standalone **+18.7%** (₹213.0cr vs ₹179.4cr) is inside the 18–20% recovery band · year-end charge: tested only at Q4FY27, **but ECL provisioning on Dolphin's receivables has started** — that is the line to watch · PEC: now *"from quarter 3 FY27"*; the Q1 date was "September-end/October", so not a further slip on the trigger's wording.
 
 **Upgrade case is external:** **winning either the Gamij or Geleki PEC tender** would re-base the company.
 
@@ -492,19 +524,33 @@ Called *"the single most important number on DEEP"* on 28-Jul; **it is a composi
 
 ---
 
+### 📊 10-Nov-2026 — Q2FY27 scored
+
+**Where it trades (Screener, 10-Nov-2026 close):** CMP **₹650** · market cap ₹4,160cr · P/E 9.8x · −5.5% since the 22-Aug baseline (₹688).
+
+**Re-priced on the unchanged scenarios (from ₹4,160cr):** base ₹4,840cr → **+16%** · bull ₹7,800cr → **+88%** · bear ₹2,400cr → **−42%**. **Weighted ≈ +22%** *(0.55 × 16 + 0.25 × 88 − 0.20 × 42)*, against ~+16% at ₹688 in August. ***Only the price moved the return; the business moved toward the bull case on standalone and toward the bear case on nothing yet.*** *The base case's FY28 PAT of ₹440cr is now ~7–12% below management's ₹470–500cr guide — kept as the haircut it was designed to be.*
+
+**Conviction: HELD at HIGH.** *Next tests: Q3's PEC contribution, any further ECL on Dolphin, and the Prabha loan in the H1 balance sheet notes or the Q3 call.*
+
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — 🔴 Standalone stagnation.** The core onshore business has been **flat at ~₹175cr for five quarters** while subsidiaries carried all the growth. **Management guides recovery to 18–20% from Q2FY27.** *⭐ If it does not arrive, the thesis is materially different from the one written here — the moat and the growth would be in different places.*
 
+> ⤴ **EASED (Q2FY27):** standalone ₹213.0cr, +18.7% YoY — the plateau broke in the quarter management said it would.
+
 **Risk 2 — 🔴 Write-off credibility.** **Two consecutive Q4 charges — −₹245cr (Mar-25) and −₹183cr (Mar-26) — with the "no more" assurance given after the first and broken.** The question, per the community, is *"the ability of the management to make **accurate judgements**."* **Q4FY27 is not de-risked on management's word.**
+
+> ⚠️ **SHARPENED (4-Nov-2026 call):** on Dolphin's receivables, *"we have already started providing under ECL, but write-offs as of now, we have not considered."* Provisioning has begun; Q4FY27 is the test.
 
 **Risk 3 — 🔴 The price.** **+26.7% in three weeks to within 5% of an all-time high.** The base case now returns **+10% over two years** and the bear **−45%.** *The business has not changed; the entry price has.*
 
 **Risk 4 — 🟡 PEC execution.** The Mori-5 gas leak cost **5–6 months**. Incremental production is now dated to **September-end/October 2026** — **it has slipped once already.**
 
+> ⤴ **UPDATE (Q2 call):** rig deployed, workovers resumed; incremental production *"from quarter 3 FY27"* on ~₹150cr of capex over 12 months.
+
 **Risk 5 — 🟡 Free-market gas price exposure.** The PEC is priced at market (**US$8–15/MMBTU**). Deep carries **no exploration risk but full price risk**, and FY28's ₹150cr+ from this field assumes prices hold.
 
-> 📈 **Factor check 4-Nov-2026:** Favourable: Asian LNG averaged $16.59/MMBTU in October (+19.8% over three months), above the US$8–15 band; Brent front-month ~$102 (World Bank October average ~$125 — sources disagree on level). *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 10-Nov-2026:** Asian LNG averaged $16.59/MMBTU in October (+19.8% over three months), above the US$8–15 band; Brent front-month fell to ~$91 by 10-Nov (World Bank October average ~$125 — sources disagree on level). *(Numbers and sources: Input & factor check, at the top.)*
 
 **Risk 6 — 🟡 ONGC concentration.** ONGC dominates the customer base and the order book. **Contract timing moves earnings**, and the two transformational tenders (Gamij, Geleki) are also ONGC.
 
@@ -513,6 +559,8 @@ Called *"the single most important number on DEEP"* on 28-Jul; **it is a composi
 **Risk 8 — 🔴 The forensic accounting critique is live, serious, and now read in full.** **Bastion Research (20-June-2026) raises six specific concerns with standards cited** — most materially **₹384.88cr of goodwill still on the balance sheet (≈19% of net worth) from a 2020 same-promoter reorganisation**, plus the Kandla inventory recognition, ₹405–406cr of unprovided receivables, a ~₹96cr tax exposure, dividends from capital, and an auditor-independence question. **⭐ FOUR of the six have never been raised on any concall in six quarters — including the call held five weeks after publication.** ***See the full treatment and management's actual answers in §10.***
 
 **Risk 9 — 🟡 The related-party loan is being repaid but is not yet repaid.** ₹86cr of it back, with full clearance guided *"by end of second quarter."* **Verify, do not assume.**
+
+> ⚠️ **UNVERIFIED (10-Nov-2026):** the end-Q2 full-repayment date passed without a word in the release, deck or call.
 
 **Risk 10 — ⚪ Thin institutional ownership.** FII 1.81% + DII 1.13% = **under 3% combined**, with DIIs only entering in December 2024. **Recently discovered, and thinly held.**
 
@@ -539,6 +587,8 @@ Called *"the single most important number on DEEP"* on 28-Jul; **it is a composi
 ---
 
 ## 9. 📢 Community Pulse
+
+**⤴ 10-Nov-2026 — ValuePickr topic 1011 (525 posts, last post 8-Sep-2026):** **no reaction to the Q2 print or call.** The last substantive posts are #577 (pranavpallod12, 5-Aug — *"The Prabha loan is going to repaid fully"*, taking the Q1 promise at face value) and #579 (8-Sep, the ₹88cr ONGC order). **Sentiment: ⚪ DORMANT — the thread that found the standalone issue in July has not checked the Prabha promise it relied on.**
 
 *Refreshed 29-Jul-2026.*
 
@@ -730,6 +780,8 @@ Management's framing in the opening remarks, three times over: *"to ensure a **t
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (10-Nov-2026 refresh):** results and deck 3-Nov; **official transcript of the 4-Nov call (filed 6-Nov), read in full**; ValuePickr topic 1011 (#576–579); Screener 10-Nov-2026 close.
 
 **✅ Concall gate: CLEARED — 5 transcripts, all read in full.**
 - **Q1FY27 (call 29-Jul-2026, transcript filed 3-Aug)** — 26pp, InCred Equities-hosted. **Paras Savla (CMD)** and **Rohan Shah (CFO)**. Analysts and investors include **Pankaj Motwani (Equirus)**, Manan (Wallfort PMS), Raman KB (Sequent Investments) and Srikar Sai. **Source for the FY27/FY28 PAT guidance, the order-book composition, the standalone-stagnation exchange, the Kandla margin plan, the Prabha loan repayment and the Gamij/Geleki tender discussion.**
