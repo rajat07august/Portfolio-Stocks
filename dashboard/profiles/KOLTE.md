@@ -2,7 +2,7 @@
 
 **Ticker:** KOLTEPATIL · BSE: 532924 · NSE: KOLTEPATIL · **Sector:** 15 — Real Estate (Residential Developer — Pune + Mumbai + Bangalore)
 **Conviction:** **Medium-High (Under Watch)** · **Weighted 2-yr return:** ~+21% (≈10% CAGR) · no dividend
-**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 21-Aug-2026)* · **Tracking since:** 3-Jul-2026
+**Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 21-Aug-2026)* · **§4 numbers current to Q2FY27** *(results filed 3-Nov-2026, folded in 11-Nov-2026 — no call held; §6 scenarios not re-derived)* · **Tracking since:** 3-Jul-2026
 **CMP:** ₹469 · **Market Cap:** ₹4,152 cr · **P/B:** 3.45x (BV ₹136) · **52-wk range ₹292–₹557** · **Div yield:** 0.00% *(Screener consolidated, 21-Aug-2026)*
 
 > **⚠️ Every headline ratio on this name is currently misleading, in both directions.** Screener shows **P/E 33.4x, ROCE −0.32%, ROE −4.36%** — all computed on a trailing twelve months that contains **three loss quarters**. Annualising Q1FY27's ₹147cr instead would give ~7x, which is equally meaningless. **This is a completion-accounting developer: the honest anchors are pre-sales, collections, GDV pipeline and book value, not trailing earnings.** See §6.
@@ -13,8 +13,16 @@
 **📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 444** · market cap ₹ 3,935 Cr. · P/E 28.1x · ROCE -0.32 % · ROE -4.36 % · 52-wk ₹ 557 / 292 · **vs ₹469 at baseline (-5.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Analyst meetings 12–13 Nov · (earlier: 🆕 🟢 Q2: record pre-sales ₹1,019cr (+52%), collections +33%; six Mumbai projects ~₹6,000cr GDV · (earlier: 🆕 ⚪ NSE volume-spurt query 23-Oct (stock +9.6%); reply pending · (earlier: 🟢 Record Q2 pre-sales ₹1,019cr (+52%); collections +33%; ₹6,000cr GDV signed in Mumbai · (earlier: CARE REAFFIRMS CARE AA- on the ₹250cr listed NCDs after reviewing FY26 and Q1FY27 · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: Strongest-ever launch: 600+ apartments and over ₹600cr of sales in 60 hours at 'Vyana at The Reserve', Pune; stock nonetheless −8%))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 11-Nov-2026</span> <span class="upd-sum">🆕 🔴 ⤴ Q2 had NO earnings call — the fifth in a row (missed by the 4-Nov note); Q2 numbers now in §4; Group CEO had resigned Nov-2025 (profile corrected) · (earlier: 🆕 ⚪ Analyst meetings 12–13 Nov · (earlier: 🆕 🟢 Q2: record pre-sales ₹1,019cr (+52%), collections +33%; six Mumbai projects ~₹6,000cr GDV · (earlier: 🆕 ⚪ NSE volume-spurt query 23-Oct (stock +9.6%); reply pending · (earlier: 🟢 Record Q2 pre-sales ₹1,019cr (+52%); collections +33%; ₹6,000cr GDV signed in Mumbai · (earlier: CARE REAFFIRMS CARE AA- on the ₹250cr listed NCDs after reviewing FY26 and Q1FY27 · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: Strongest-ever launch: 600+ apartments and over ₹600cr of sales in 60 hours at 'Vyana at The Reserve', Pune; stock nonetheless −8%)))))))</span></summary>
 <div class="upd-body">
+
+**🔴 11-Nov-2026 — ⤴ CORRECTION: Q2FY27 had NO earnings call — the fifth consecutive quarter — and the 4-Nov entry below did not say so**
+At **21:29 IST on 3-Nov-2026**, the same evening as the results, the company filed an *"Update on Post-Results Conference Call"*: it *"will not host a conference call post announcement of the Q2 & H1 FY27 results."* **The reason is the 10-Aug wording repeated word for word** — *"a phase of integration and leadership transition… internal restructuring measures to further strengthen governance, enhance operational efficiency, and align with long-term strategic priorities"* (compared mechanically; only the period name differs). **And it is older than that: the Q2FY26 notice of 11-Nov-2025 already gave it** (*"integration and leadership transition… internal restructuring measures and Board-level realignments…"*), so this profile's statement that 10-Aug-2026 was the first time a reason was given is also corrected. **The 4-Nov entry summarised that evening's results filings and missed this notice — the observation this profile names as its single highest-value signal.** The two meetings on 12–13 Nov are one-on-ones (Axis Capital on 12-Nov), and the intimation says only *"publicly available information will only be shared."*
+> **Why it matters:** §5.5(a) downgrade trigger 3 — *"a fifth quarter with no call and no further explanation"* — **is met on its wording.** ⚠️ **FLAGGED FOR RAJAT, NOT APPLIED** (see §5.5(a)). Separately: **the Q2 numbers were only ever in this dropdown; they are now in §4**, and three things in them change earlier readings — Q2 made money only through other income, Q1's "price did the work" was mostly Mumbai mix, and Mumbai's portfolio lost ₹1,500cr of GDV without explanation.
+
+**⤴ 11-Nov-2026 — also corrected from NSE filings read today:** **Atul Bohra resigned as Group CEO effective 11-Nov-2025** (the evening of the Q2FY26 results, the first quarter with no call), so Parandekar is not "the first professional CEO". **Milind Kolte (Executive Director) and Yashvardhan Patil (Joint MD) resigned from the board on 11-Aug-2025.** Details in §3.5.
+
+*Sources: NSE filings of 3-Nov-2026 (results, press release, deck, call notice, Reg 32), 7-Nov-2026 (analyst meets), and 11-Aug / 11-Nov / 25-Nov / 29-Dec-2025 (board and management changes). Consolidated statements in the results PDF are images and were read from rendered pages. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — Analyst meetings 12–13 Nov**
 Analyst/investor meetings on 12 and 13 Nov; Q2 results newspaper extract (5-Nov).
@@ -25,6 +33,7 @@ Analyst/investor meetings on 12 and 13 Nov; Q2 results newspaper extract (5-Nov)
 **🟢 23-Oct → 4-Nov-2026 — Q2FY27: record pre-sales ₹1,019cr (+52%), collections +33%; six Mumbai projects worth ₹6,000cr GDV**
 **Q2FY27 (3-Nov).** **Pre-sales ₹1,019cr, +52% YoY (record); collections ₹795cr, +33%**; H1 pre-sales ₹1,636cr (+27%), H1 collections ₹1,509cr (+32%); H1 realisation ₹8,368/sq ft (+10%). Q2 total income ₹352cr; **H1 total income a record ₹1,288cr**, H1 EBITDA margin 17%. 'Vyana at The Reserve', Pune — the best launch yet (₹616cr pre-sales). **Six Mumbai projects signed, ~₹6,000cr GDV.** NSE asked for clarification on volume spurts (23–24 Oct). Monitoring agency report on the preferential issue filed.
 > **Why it matters:** Pre-sales and collections are the leading indicators for a developer and both are at records; reported P&L stays lumpy (Q2 PAT ₹5.7cr) because revenue follows completion.
+> ⤴ **CORRECTED 11-Nov-2026:** this entry omitted the same evening's notice that **no Q2 call would be held** (filed 21:29 IST, 3-Nov) — see the 11-Nov entry above. *Original text kept as written.*
 
 *Sweep: NSE announcements, 23-Oct → 4-Nov-2026 (4-Nov evening filings re-checked at 18:04 IST); market data Screener 4-Nov-2026 close. Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
@@ -109,8 +118,8 @@ Every family buying a mid-premium apartment in Pune or Mumbai faces one question
 The 30-second snapshot:
 
 - **HQ Pune**, with offices in Bangalore and a Mumbai redevelopment business begun 2013
-- **Promoters:** the Kolte and Patil families — **Rajesh Patil (Managing Director)**, Milind Kolte, Naresh Patil
-- **🆕 CEO: Mr. Hrishikesh Parandekar, effective 24-Aug-2026** — the first professional CEO, and an outside hire
+- **Promoters:** the Kolte and Patil families — **Rajesh Patil (Managing Director)**, Milind Kolte, Naresh Patil *(⤴ 11-Nov-2026: Milind Kolte and Yashvardhan Patil left the board on 11-Aug-2025; **Rajesh Patil is the only founding-family director** on the six-person board in the Q1 and Q2FY27 decks — see §3.5)*
+- **🆕 CEO: Mr. Hrishikesh Parandekar, effective 24-Aug-2026** — the first professional CEO, and an outside hire *(⤴ CORRECTED 11-Nov-2026: **not the first** — Atul Bohra was Group CEO until he resigned effective 11-Nov-2025; the post was vacant for nine months)*
 - **🔴 Blackstone owns 40%**, acquired FY26 at **₹329/share** in two tranches. **Together with the founding families, "promoter" holding is 73.81% and the public float is 12.28%**
 - **FY26 was a loss year:** revenue **₹735cr (−57%)**, operating profit **−₹61cr**, **PAT −₹38cr**
 - **Q1FY27 reversed it in a single quarter:** revenue **₹920cr**, total income **₹937cr (record)**, **PAT ₹147cr**, EPS ₹16.49 — on the **completion of ~1.27 Mn sq ft**
@@ -180,6 +189,10 @@ The 30-second snapshot:
 | Independent Director | **Mr. Girish Vanvari** | Re-appointed for a second five-year term, 29-Jul-2026 → 28-Jul-2031 |
 | Company Secretary & Compliance Officer | **Mr. Vinod Patil** | Membership No. A13258 |
 
+> **⤴ CORRECTED 11-Nov-2026 — the roster above was stale, and "first professional CEO" was wrong.** From NSE filings read today: **11-Aug-2025** — Milind Kolte (Whole Time Director, Executive Director) and Yashvardhan Patil (Whole Time Director, Joint MD) resigned; Tuhin Parikh, **Asheesh Mohta** and **Mohit Arora** joined as non-executive, non-independent directors. **11-Nov-2025** — **Atul Bohra resigned as Group CEO** (he had led the Feb, May and Jul-2025 calls); Avani Davda joined as an independent director and Sudha Navandar resigned. **25-Nov-2025** — Dalip Sehgal joined; Tuhin Parikh left. **The Q1 and Q2FY27 decks show a six-person board: Girish Vanvari (Chairman, independent), Avani Davda (independent), Rajesh Patil (MD), Asheesh Mohta, Mohit Arora and Dalip Sehgal (non-executive).** The Q2 deck's leadership slide names **Ravi Porwal as CFO** and an interim national sales head; *I found no NSE appointment filing for a CFO between Jun-2025 and Nov-2026 and did not search earlier.* *Not established: when, or whether, Naresh Patil left the board.*
+>
+> **Two dates that sit together (facts; no inference drawn):** the last earnings call was **30-Jul-2025**. The Group CEO's resignation was accepted on **11-Nov-2025, the evening of the Q2FY26 results** — which was also the first quarter whose call was declined. That evening's notice (21:34 IST) gave **the reason that recurs in 2026**: *"a phase of integration and leadership transition, it is undertaking internal restructuring measures and Board-level realignments to further strengthen governance…"* **So the 10-Aug-2026 notice was not, as §3.5's verdict and §5.5(b) say, the first to give a reason, and Q2FY26 — not Q3FY26 — was the first declined call.** The same reason has now been given for Q2FY26, Q1FY27 and Q2FY27, across the departure of one CEO and the arrival of the next. *(The Q3FY26 and Q4FY26 notices are recorded in this profile as giving no reason; not re-read today.)*
+
 **Senior team build-out, disclosed 22-May-2026:** Anil Dwivedi (Chief Development Officer), Vishal Mariya (CHRO), Pranav Mehta (Chief Business Officer – Pune), Mahendra Kumar Chauhan (Business Head – Mumbai). **Consistent with a Blackstone-backed professionalisation push, and in hindsight the first visible stage of the "leadership transition" the company later cited.**
 
 ### 🆕 The new CEO — and what his CV says about the mandate
@@ -226,6 +239,11 @@ The 30-second snapshot:
 | **🆕 Strongest-ever launch — Vyana at The Reserve, Pune** | **7–10-Sep-2026** | **600+ apartments, over ₹600cr in 60 hours** (company release); project GDV ~₹4,000cr in phases | 🟢 **Company-reported; bookings, not collections** |
 | **Earnings calls** | — | **None since Aug-2025 — four consecutive quarters, each formally declined** | 🔴 **Blackout** |
 | **GST Section 74, ~₹150cr** | 4-Jun / 20-Jun-2026 | **Contested. Unmentioned in any Q1FY27 document** | 🔴 **Unresolved and undiscussed** |
+| **🆕 Q2FY27 earnings call** | 3-Nov-2026 | **Declined — fifth consecutive quarter (Q2FY26 onward); reason repeated word for word from 10-Aug, ten weeks after the CEO it referred to took office** | 🔴 **Blackout extended** |
+| **🆕 Q2FY27 pre-sales** | Q2FY27 | **₹1,019cr (+52%) on 1.30 Mn sq ft (+52%) — records.** ₹616cr (60%) from one launch, Vyana at The Reserve; **Life Republic ₹171cr vs ₹365cr (−53%)** | 🟢 **Record, launch-led** |
+| **🆕 "Healthy EBITDA margin 17%"** | 3-Nov-2026 release | H1, on total income, and includes Q1. **Q2 operating margin before other income −0.09%** (the company's own Reg 52(4) table) | 🟡 **True, and incomplete** |
+| **🆕 Six MMR launches, 6–12 months from Aug-2026** | Q2FY27 | **No MMR launch in Q2**; MMR pre-sales ₹48cr. **Mumbai portfolio GDV fell ₹8,900cr → ₹7,400cr, unexplained** | 🕐 **Window open to ~Aug-2027** |
+| **🆕 GST Section 74** | Q2FY27 | **Not mentioned in the Q2 results, press release or deck** (searched all three) | 🔴 **Still undiscussed** |
 
 **Verdict on management.**
 
@@ -235,9 +253,93 @@ The 30-second snapshot:
 
 **But four quarters is four quarters.** *No analyst has questioned this management since August 2025, across the most eventful eighteen months in the company's history.* **The single event that would most improve this profile is a Q2FY27 earnings call.**
 
+**⤴ Refresh verdict, 11-Nov-2026:** **operations delivered a record selling quarter; disclosure did not move.** The Q2 call was declined with the August reason copied, two months after the new CEO — whose own quote leads the Q2 press release — took office. *And the "leadership transition" now has a longer history than this profile knew: the previous Group CEO left on the evening the blackout began.*
+
 ---
 
 ## 4. Numbers Decoded
+
+### 📊 Q2FY27 Refresh — Full Numbers Print *(results 3-Nov-2026 · no call · folded in 11-Nov-2026)*
+
+*Consolidated throughout, from the filed results (whose statements are **images** in the PDF and were read from rendered pages, not the text layer), the press release and the Q2 investor deck. Screener's Sep-2026 revenue (₹334.37cr) matches the filing. Anything computed is labelled as my arithmetic. The Q1FY27 print below is kept as written.*
+
+**(a) The P&L — the completion calendar swung back, and Q2 made money only through other income**
+
+| ₹cr, consolidated | **Q2FY27** | Q1FY27 | Q2FY26 | **H1FY27** | H1FY26 | FY26 |
+|---|---|---|---|---|---|---|
+| Revenue from operations | **334.4** | 919.5 | 138.7 | **1,253.9** | 221.0 | 735.0 |
+| Other income | 17.1 | 17.1 | 23.1 | 34.2 | 37.5 | 67.5 |
+| Total income | **351.5** | 936.6 | 161.8 | **1,288.1** | 258.6 | 802.5 |
+| **Operating profit before other income** *(my arithmetic)* | **−0.3** | 189.5 | −37.2 | 189.2 | −63.2 | −61.1 |
+| **Operating margin, Reg 52(4) table** *(company's, excludes other income)* | **−0.09%** | 20.61% | −26.85% | 15.09% | −28.59% | −8.32% |
+| Company "Adj. EBITDA" *(includes other income)* | 17 (4.9%) | 206 (22.0%) | −7 (−4.0%) | **223 (17.3%)** | −18 (−6.9%) | 15 (1.8%) |
+| PBT | 9.0 | 199.5 | −14.0 | 208.5 | −36.2 | −28.0 |
+| **PAT** | **5.7** | 146.7 | −11.1 | **152.4** | −28.0 | −38.1 |
+| PAT to owners | 5.3 | 146.3 | −10.4 | 151.5 | −27.4 | −38.7 |
+| EPS (₹) | 0.59 | 16.49 | −1.18 | 17.09 | −3.31 | −4.51 |
+
+> **Read the release's "Healthy EBITDA margin 17%" with three qualifiers, all from the company's own pages.** It is **H1**, it is measured on **total income** (so it includes ₹34cr of other income), and **it is an average of a 22% Q1 and a 4.9% Q2.** **On the company's Reg 52(4) definition, which excludes other income, Q2's operating margin was −0.09%** — revenue of ₹334.4cr against ₹334.7cr of operating cost. **Q2's ₹9.0cr of PBT is essentially other income (₹17.1cr) less interest (₹3.3cr) and depreciation (₹4.8cr).** *This is the completion mechanism, not deterioration:* completions fell from ~1.27 Mn sq ft in Q1 to **~0.36 Mn sq ft in Q2** (H1 1.63 less Q1 1.27 — my arithmetic), while employee cost (₹34.9cr, +27% YoY) and other expenses (₹50.9cr) run through the P&L every quarter regardless.
+>
+> *FY26 EPS is −₹4.51 on the filing (to owners) against the −₹4.36 Screener figure used in §4 below; the filing governs.*
+
+**The quarterly series, extended:** Jun-25 ₹82cr / −₹17cr → Sep-25 ₹139cr / −₹11cr → Dec-25 ₹265cr / +₹4cr → Mar-26 ₹249cr / −₹15cr → Jun-26 ₹920cr / ₹147cr → **Sep-26 ₹334cr / +₹6cr.** **Downgrade trigger 1 (revenue below ₹300cr *with a loss*) did not fire — by ₹34cr of revenue and ₹5.7cr of profit, and the profit came from other income.**
+
+**(b) Operations — a record, built on one launch**
+
+| | **Q2FY27** | Q2FY26 | YoY | **H1FY27** | H1FY26 | YoY |
+|---|---|---|---|---|---|---|
+| Pre-sales value (₹cr) | **1,019** | 670 | **+52%** | **1,636** | 1,286 | +27% |
+| Pre-sales volume (Mn sq ft, saleable) | **1.30** | 0.86 | **+52%** | 1.95 | 1.70 | +15% |
+| Average realisation (₹/sq ft) | 7,829 | 7,823 | flat | 8,368 | 7,582 | +10% |
+| Collections (₹cr) | **795** | 596 | +33% | **1,509** | 1,146 | +32% |
+| Deck "operating cash flow" (₹cr) | 225 | 191 | +18% | 437 | 355 | +23% |
+| Launches (Mn sq ft) | 1.01 | – | – | 1.80 | 1.52 | +18% |
+
+| Region (deck) | Q2FY27: Mn sq ft / ₹cr / ₹ per sq ft | Q1FY27 | Q2FY26 *(from the Q2FY26 deck)* |
+|---|---|---|---|
+| Life Republic, Pune | 0.23 / **171** / 7,530 | 0.29 / 212 / 7,280 | 0.49 / **365** |
+| Pune excl. LR | 1.04 / **801** / 7,629 | 0.26 / 220 / 8,324 | 0.34 / 257 |
+| MMR | 0.03 / 48 / **18,848** | 0.10 / **183** / **19,123** | 0.02 / 38 |
+| Bengaluru | (0.00) / (1) | 0.00 / 2 | 0.01 / 10 |
+| **Total** | **1.30 / 1,019 / 7,829** | 0.65 / 617 / 9,442 | 0.86 / 670 / 7,823 |
+
+> **Two things the record hides (company figures; arithmetic mine).** **First, ₹616cr of the ₹1,019cr — 60% — is one launch**, Vyana at The Reserve, which the Feb-2025 call described as a *"revenue share"* joint development with a refundable deposit to the landowner. **Excluding it, Q2 pre-sales were ~₹403cr against ₹670cr a year earlier.** **Second, Life Republic fell to ₹171cr from ₹365cr (−53%)**, after ₹212cr against ~₹354cr in Q1 (−40%). The township was **51% of FY26 pre-sales and 17% of Q2's.** *No call at which to ask whether that is phasing, inventory or demand.*
+
+> **⤴ CORRECTED 11-Nov-2026 — Q1's "price is doing the work, area sold down ~22%" was mostly a geography-mix effect.** The deck's regional table shows **MMR selling at ~₹19,000 per sq ft against ~₹7,300–8,300 in Pune.** In Q1FY27 MMR was **30% of pre-sales value; in Q1FY26 about 3%** (H1FY26 less Q2FY26, deck figures — my arithmetic). **Pune-only realisation moved ~₹7,170 → ~₹7,780 (≈+9%)**; the rest of the blended +29% was Mumbai's larger share. The same arithmetic says **Pune area sold fell ~33% in Q1** (0.83 → ~0.55 Mn sq ft) — *deeper* than the −22% total, which Mumbai cushioned. **In Q2 Pune area rose ~54%** (0.83 → ~1.28) on the Vyana launch, while MMR fell back to 5% of value and the blended realisation went flat. ***Average realisation on this company is a map of where it sold, not a price.*** *The original §4 text below is kept as written.* Downgrade trigger 2 (pre-sales below ₹550cr) did not fire.
+
+**(c) Balance sheet — 30-Sep-2026 vs 31-Mar-2026 (consolidated, ₹cr)**
+
+| | **Sep-26** | Mar-26 | Change |
+|---|---|---|---|
+| Inventories | **5,798.5** | 5,275.0 | **+523.5** |
+| Cash + other bank balances + current investments | 943.3 | 976.3 | −33.0 |
+| Borrowings (current + non-current) | **908.8** | 1,142.2 | **−233.4** |
+| **Trade payables** | **1,177.9** | 659.6 | **+518.3** |
+| Other current liabilities *(customer advances sit here; not split)* | 4,518.6 | 4,341.2 | +177.4 |
+| Equity attributable to owners | 1,359.3 | 1,206.9 | +152.4 |
+| Book value per share *(₹1,359.3cr ÷ 8.868cr shares)* | **₹153** | ₹136 | |
+
+> **The company's "net debt of −₹466cr" excludes ₹432cr of zero-coupon NCDs from debt.** Gross debt ₹909cr − ZCNs ₹432cr − cash and current investments ₹943cr = −₹466cr. **Counting the ZCNs as debt, net cash is ~₹34cr** (my arithmetic). They are not costless: the results note says the four listed series *"shall be redeemed at premium which is linked to collections made from sale of the earmarked units."* **Outstanding principal on those four is ₹351.1cr; ₹239.0cr has been redeemed with ₹94.1cr of premium paid (39%) — 51% on the oldest series, 27–29% on the other three** (note 5, my division). **Interest paid in cash in H1 was ₹60.6cr against ₹5.6cr of finance cost in the P&L** — the rest is capitalised into inventory (Reg 52(4) footnote) and reaches the P&L through cost of sales at completion. *₹336cr of the ₹943cr is "other balances with banks", which includes escrow; the restricted portion is not split.*
+>
+> **Debt fell ₹233cr and inventory rose ₹524cr in six months, and trade payables rose ₹518cr — almost exactly the inventory build.** The filing does not say what the payables are (contractors, land or JDA dues, approval premia). Ind AS operating cash flow for H1 was **₹322cr (₹164cr a year ago), of which the payables increase contributed ₹518cr**. The deck's ₹437cr "operating cash flow" is a different measure — collections less construction, other costs and taxes, including associates, with land, TDR and approval payments (₹118cr) shown under investing.
+
+**(d) Portfolio — and an unexplained Mumbai shrink**
+
+| Region | GDV ₹cr, Q1 deck → Q2 deck | Saleable Mn sq ft, Q1 → Q2 | Sold in Q2 |
+|---|---|---|---|
+| Life Republic | 11,100 → 11,000 | 16.13 → 15.90 | 0.23 |
+| Pune excl. LR | 14,200 → 13,500 | 18.17 → 16.34 | 1.04 |
+| **Mumbai** | **8,900 → 7,400** | **3.49 → 2.89** | **0.03** |
+| Bengaluru | 200 → 200 | 0.23 → 0.23 | – |
+| **Total** | **34,400 → 32,100** | **38.02 → 35.36** | 1.30 |
+
+> **🔴 Mumbai's portfolio lost ₹1,500cr of GDV and 0.60 Mn sq ft in a quarter in which Mumbai sold ₹48cr and 0.03 Mn sq ft.** The boilerplate moved from *"nineteen projects (six completed, four on-going, nine future)"* in the Q1 deck to *"seventeen projects (seven completed, three on-going, seven future)"* in the Q2 deck and release — **two future Mumbai projects appear to have left the count.** **The deck does not say which, why, or whether the ₹6,000cr six-project addition is affected** (it still shows the six at ~₹6,000cr). Pune excl. LR also fell 1.83 Mn sq ft against 1.04 sold. *The deck changed its project-counting method this quarter (68 → 82 delivered, Life Republic now counted by sub-project), so counts may be re-based — but GDV is not a count.* **Open question; target: any filing, or the FY27 annual report.**
+
+**(e) Holding, 30-Sep-2026:** promoters 73.81% (Indian 33.8%, Blackstone 40.0%) — unchanged, confirmed on NSE's shareholding master (filed 16-Oct). From the deck's rounded split: FII 11.3% (10.6%), DII 3.4% (3.3%), **"Others" 11.5% (12.3%) — the float this profile tracks has fallen below 12%**, the §8 watch line.
+
+**(f) Not in any Q2 document read:** the **GST Section 74 matter** (results, release and deck all searched — no mention), a launch date for any of the six MMR projects, completion or revenue guidance, and any explanation of the Mumbai portfolio change.
+
+---
 
 ### Q1FY27 — one quarter that reversed a year
 
@@ -366,6 +468,7 @@ The 30-second snapshot:
 | **12-Aug-2026** | **M → MH (Under Watch)** | **Upgrade, on verification.** The one thing the downgrade could not verify — the recognition-trough explanation — **verified itself**: ₹937cr record total income on 1.27 Mn sq ft of completions, and FY26's loss reversed into **₹147cr of quarterly PAT** |
 | 21-Aug-2026 | **HELD at MH (Under Watch)** | **The "leadership transition" cited for the blackout resolved into a named CEO** (19-Aug). Positive, and it makes the blackout look transitional — **but it is not a call, and the stock has given back 5.6% since** |
 | **19-Sep-2026** | **HELD at MH (Under Watch)** | Filings refresh: **strongest-ever launch — over ₹600cr of sales in 60 hours at Vyana at The Reserve, Pune** (company release, 10-Sep) — cuts against the 'volume declining' worry; stock −8% regardless. Blackout risk unchanged. |
+| **11-Nov-2026** | **HELD at MH (Under Watch) — ⚠️ downgrade trigger 3 FLAGGED, NOT APPLIED** | **Q2FY27: no call, the fifth; reason repeated word for word.** Trigger 3 is met on its wording; the decision is Rajat's. Triggers 1 and 2 did not fire (revenue ₹334cr with PAT +₹5.7cr; pre-sales ₹1,019cr). Q2 also showed Life Republic −53%, an operating margin of −0.09% before other income, and an unexplained ₹1,500cr fall in Mumbai GDV. |
 
 **Upgrade triggers back to High:**
 1. **Calls resume** — that single event removes most of the discount in this profile.
@@ -377,6 +480,8 @@ The 30-second snapshot:
 1. **Q2FY27 revenue below ₹300cr with a loss** — indicating Q1 was a completion spike rather than a normalised cycle.
 2. **Pre-sales falling below ₹550cr** — volume decline outrunning price.
 3. **A fifth quarter with no call and no further explanation.**
+
+**Trigger status at Q2FY27 (11-Nov-2026):** Downgrade **1 — not fired** (₹334cr, PAT +₹5.7cr; operating line −₹0.3cr before other income) · **2 — not fired** (₹1,019cr) · **3 — ⚠️ met on its wording, FLAGGED, NOT APPLIED** (fifth declined call; the stated reason is the 10-Aug text unchanged). Upgrade **1 — no** · **2 — half met**: two consecutive positive-PAT quarters (₹147cr, ₹6cr), FY27 revenue above ₹1,500cr not yet (H1 ₹1,254cr) · **3 — no** (GST unmentioned) · **4 — no MMR launch yet** (window runs to ~Aug-2027).
 
 ### (b) Material developments — newest first
 
@@ -516,14 +621,18 @@ v1's Source Appendix claimed *"ValuePickr — Kolte-Patil thread: **Active discu
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — 🔴 The disclosure blackout.** **Four consecutive quarters with no earnings call**, each formally declined — Q3FY26 (5-Feb-2026), Q4FY26 (22-May-2026), Q1FY27 (10-Aug-2026). **Last call: August 2025.** In that period the company reported a loss year, received fraud-provision tax notices, changed control, and saw its float halve. **No guidance can be verified and no management claim can be tested.** *⭐ Signal: whether a Q2FY27 call is held. It is the single highest-value observation available on this name.*
+> ⚠️ **MATERIALIZED at Q2FY27 (3-Nov-2026):** the call was declined — **the fifth consecutive quarter, counting from Q2FY26 (11-Nov-2025), not Q3FY26 as written above** — with the 10-Aug reason repeated word for word, ten weeks after the CEO it referred to took office.
 
 **Risk 2 — 🔴 GST Section 74, ~₹150cr.** Claim ₹103.82cr plus penalty ₹46.36cr under the **fraud / suppression** provision, covering FY21–FY26, from the Mumbai State Tax authority. **~3.6% of market cap, contested, unresolved — and unmentioned in any Q1FY27 document.**
 
 **Risk 3 — 🔴 Completion lumpiness cuts both ways.** FY24 loss, FY25 profit, FY26 loss, Q1FY27 a record. **Two loss years in three, both with revenue roughly halving.** **Q1FY27's ₹920cr is not a run-rate any more than FY26's ₹735cr was.** *Signal: Q2FY27 revenue below ₹300cr would say Q1 was a spike.*
+> ✅ **Not triggered at Q2FY27, narrowly:** revenue ₹334cr, PAT ₹5.7cr — but the operating line before other income was −₹0.3cr (Reg 52(4) margin −0.09%). Completions fell to ~0.36 Mn sq ft from ~1.27. *The mechanism working as described, not a new risk.*
 
 **Risk 4 — 🔴 Volume is declining behind the price.** Q1FY27 area sold **−22%** with value flat. **If the price-led offset stalls, the decline becomes visible in value terms**, and there is no forward guidance to test it against.
+> ⤴ **Q2FY27 cuts against this, with qualifiers:** volume +52% to a record 1.30 Mn sq ft. **But 60% of Q2's value came from one launch, Life Republic fell 53%, and Q1's −22% was partly Mumbai mix** — Pune area alone fell ~33% in Q1 and rose ~54% in Q2 (§4, my arithmetic). *Volume is launch-driven, not trending.*
 
 **Risk 5 — 🔴 A 12.28% float with FIIs as the only buyer.** Float **20.81% → 12.28%**, DII **5.59% → 3.30%**, shareholder count **−25%**. **Thin float plus disclosure blackout weakens both price discovery and accountability** — and thin floats fall as fast as they rise.
+> ⚠️ **ACCUMULATING:** "Others" **11.5% at 30-Sep-2026** (Q2 deck, rounded) — below the 12% watch line; FII 11.3%, DII 3.4%.
 
 **Risk 6 — 🟡 MMR execution.** ₹6,000cr of GDV *"subject to requisite approvals"*, with society redevelopment carrying tenant-consent and rehab-obligation risk. **MMR approvals are notoriously slow, and the 6–12 month launch guidance has no call at which to be updated.**
 
@@ -595,13 +704,16 @@ v1's Source Appendix claimed *"ValuePickr — Kolte-Patil thread: **Active discu
 
 ## Source Appendix
 
-**🔴 Concall gate: FAILED, structurally. No earnings call since Q1FY26 (August 2025) — four consecutive quarters, each formally declined.**
+**🔴 Concall gate: FAILED, structurally. No earnings call since Q1FY26 (August 2025) — four consecutive quarters, each formally declined.** *⤴ 11-Nov-2026: five — Q2FY26 through Q2FY27.*
 
 - **Concalls read (the last three that exist):** **Q1FY26 (Aug-2025)**, Q4FY25 (May-2025), Q3FY25 (Feb-2025).
 - **Formal notices declining calls**, all read: **5-Feb-2026** (Q3FY26), **22-May-2026** (Q4FY26), **10-Aug-2026** (Q1FY27 — the first to give a reason: *"a phase of integration and leadership transition… internal restructuring measures"*).
 - **Investor presentations in place of calls:** Q2FY26 (Nov-2025), Q3FY26 (Feb-2026), Q4FY26 (May-2026), **Q1FY27 (10-Aug-2026)**.
 
 **Filings read individually** (NSE KOLTEPATIL / BSE 532924), in `Fetched Concalls/KOLTE/` and `Fetched Concalls/KOLTEPATIL/`:
+- **🆕 3-Nov-2026** — **Q2FY27 results** (`KOLTE_Results_Q2FY27_2026-11-03.pdf`; the consolidated P&L, balance sheet and Reg 52(4) pages are images — **read from rendered pages**), **press release**, **investor presentation** (`KOLTE_PPT_2026-11.pdf`), Reg 32 statement, **and the notice declining a Q2 call** (`KOLTE_ConcallUpdate_2026-11-03.pdf`)
+- **🆕 7-Nov-2026** — analyst/investor meet intimations (12 and 13 Nov; one-on-one, public information only); 28-Oct monitoring agency report; 24-Oct reply to NSE's volume query (*"no material event"*)
+- **🆕 11-Aug, 11-Nov, 25-Nov and 29-Dec-2025** — board and management changes, **including the Group CEO's resignation (11-Nov-2025)**; read 11-Nov-2026 from NSE and saved to `Fetched Concalls/KOLTEPATIL/`
 - **19-Aug-2026** — **Board outcome and press release: appointment of Mr. Hrishikesh Parandekar as CEO effective 24-Aug-2026**, with Annexure A carrying his full profile
 - **12-Aug-2026** — Monitoring Agency Report on utilisation of preferential-issue proceeds
 - **10-Aug-2026** — Q1FY27 results, press release, investor presentation, Reg 32 fund-utilisation statement, ESOP grant, **and the "will not host a conference call" notice**

@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Three Clocks and a Map — Kolte-Patil Developers Industry Primer</title>
+<meta name="robots" content="noindex,nofollow">
+<style>
+:root{
+  --navy:#1F4E79; --blue:#2E75B6; --ink:#16202b; --mut:#5a6a78; --bg:#fafbfc;
+  --card:#ffffff; --line:#e3e8ee; --amber:#a2650a; --amberbg:#fff8e6;
+  --red:#b3261e; --redbg:#fdeceb; --green:#1a6f4a; --greenbg:#ecf7f1;
+  color-scheme: light;
+}
+*{box-sizing:border-box}
+body{
+  max-width:1040px; margin:0 auto; padding:22px 20px 80px;
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+  line-height:1.62; color:var(--ink); background:var(--bg); font-size:15px;
+}
+.nav{display:flex; gap:18px; flex-wrap:wrap; margin-bottom:12px; font-size:13.5px}
+.nav a{color:var(--navy); font-weight:600; text-decoration:none}
+.nav a:hover{text-decoration:underline; color:var(--blue)}
+.topbar{background:linear-gradient(135deg,#1F4E79 0%,#2E75B6 100%); color:#fff; padding:20px 24px; border-radius:10px; margin-bottom:22px}
+.topbar h1{margin:0 0 6px; font-size:25px; line-height:1.25; color:#fff; border:0; padding:0}
+.topbar .sub{font-size:14.5px; opacity:.92}
+.topbar .meta{font-size:12.5px; opacity:.8; margin-top:10px}
+h2{color:var(--navy); font-size:20px; margin:44px 0 6px; border-left:4px solid var(--navy); padding-left:12px}
+h2 .n{color:var(--blue); font-weight:700}
+h3{color:var(--blue); font-size:16px; margin:26px 0 8px}
+p{margin:11px 0}
+ul{margin:10px 0; padding-left:22px} li{margin:6px 0}
+.lede{font-size:15.5px; color:#2c3b49}
+.box{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 18px; margin:18px 0}
+.box.warn{background:var(--amberbg); border-color:#f0dcae}
+.box.red{background:var(--redbg); border-color:#f3cfcb}
+.box.good{background:var(--greenbg); border-color:#c7e4d5}
+.box h4{margin:0 0 6px; font-size:14px; color:var(--navy); text-transform:uppercase; letter-spacing:.04em}
+.src{color:var(--mut); font-size:12.5px}
+code.src{background:transparent; padding:0}
+figure.dg{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px 16px 12px; margin:22px 0}
+figure.dg svg{width:100%; height:auto; display:block; color:#3d4b5c}
+figure.dg svg.narrow{max-width:580px; margin:0 auto}
+figure.dg figcaption{font-size:13px; color:var(--mut); margin-top:12px; padding-top:10px; border-top:1px dashed var(--line)}
+svg text:not([fill]){fill:currentColor}
+.t-lg{font-size:15px; font-weight:700}
+.t-md{font-size:13.5px; font-weight:700}
+.t{font-size:12.5px}
+.t-sm{font-size:11px}
+.t-mut{opacity:.7}
+.tw{overflow-x:auto; margin:16px 0}
+table{border-collapse:collapse; width:100%; min-width:620px; font-size:13.5px; background:var(--card)}
+th,td{border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top}
+th{background:#eef3f8; color:var(--navy); font-weight:700}
+td.r,th.r{text-align:right}
+.toc{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 20px; font-size:14px}
+.toc ol{margin:6px 0; padding-left:22px} .toc li{margin:4px 0}
+.toc a{color:var(--navy); text-decoration:none} .toc a:hover{text-decoration:underline}
+.glos{display:grid; grid-template-columns:186px 1fr; gap:6px 14px; font-size:13.5px}
+.glos dt{font-weight:700; color:var(--navy)} .glos dd{margin:0}
+@media (max-width:640px){ .glos{grid-template-columns:1fr} .glos dt{margin-top:8px} }
+.tag{display:inline-block; font-size:11px; font-weight:700; letter-spacing:.03em; padding:2px 7px; border-radius:20px; vertical-align:middle}
+.tag.fact{background:#e8f0f8; color:var(--navy)}
+.tag.inf{background:var(--amberbg); color:var(--amber); border:1px solid #ecd9a8}
+blockquote{border-left:4px solid #2E75B6; background:#f4f8fc; margin:16px 0; padding:12px 18px; font-size:14px}
+hr{border:0; border-top:1px solid var(--line); margin:38px 0}
+</style>
+</head>
+<body>
+
+<div class="nav">
+  <a href="https://portfolio-stocks-chi.vercel.app/index.html">&larr; Dashboard</a>
+  <a href="https://portfolio-stocks-chi.vercel.app/profile.html?stock=KOLTE">Full profile — KOLTE &rarr;</a>
+</div>
+
+<div class="topbar">
+  <h1>Three clocks and a map</h1>
+  <div class="sub">An industry primer for Kolte-Patil Developers: what a residential developer actually sells, why the same apartment appears in three different numbers years apart, how land is obtained without buying it — and why the price per square foot, the EBITDA margin and "net cash" in its results each mislead</div>
+  <div class="meta">Built 11-Nov-2026 · Sourced from Kolte-Patil's Q2FY27 results (3-Nov-2026), its Q2FY26 → Q2FY27 investor presentations and press releases, the last three earnings-call transcripts that exist (Feb, May and Jul-2025), and NSE filings · Companion to <strong>Company Profiles/KOLTE.md</strong></div>
+</div>
+
+<p class="lede">This page explains the <strong>business</strong>, not the investment case. It carries no valuation, no conviction and no target; those live in the profile. What follows is the mechanism: what a home-builder physically sells, when each part of a sale reaches each line of the accounts, where the land comes from, and <strong>how to read the three numbers in Kolte-Patil's recent results that are easiest to misread.</strong></p>
+
+<div class="box warn">
+<h4>How to read this</h4>
+<p style="margin:6px 0"><span class="tag fact">FACT</span> Everything unmarked comes from Kolte-Patil's own filings, decks and calls, with the source in each figure's caption. Figures are <strong>consolidated</strong> unless stated. The Q2FY27 financial statements are <strong>images</strong> inside the results PDF; they were read from rendered pages, not from the text layer, which scrambles their columns. No figure here is read off a chart.</p>
+<p style="margin:6px 0"><span class="tag inf">MY INFERENCE</span> Where the framing or the derivation is mine rather than the company's, it is marked.</p>
+<p style="margin:6px 0; color:#5a6a78; font-size:13.5px"><strong>One limitation shapes the whole page.</strong> Kolte-Patil has held <strong>no earnings call since 30-Jul-2025</strong>; the calls for Q2FY26 through Q2FY27 were each declined. Every quotation from management below is therefore from 2025, and nothing said since can be checked against a question.</p>
+</div>
+
+<div class="toc">
+<strong>Contents</strong>
+<ol>
+<li><a href="#s1">The product, physically: a phase of a project, sold by the square foot</a></li>
+<li><a href="#s2">The mechanism: one home, three clocks</a></li>
+<li><a href="#s3">What the three clocks look like in Kolte-Patil's own numbers</a></li>
+<li><a href="#s4">Three places, three economics: Life Republic, Pune and Mumbai</a></li>
+<li><a href="#s5">Three ways to get land</a></li>
+<li><a href="#s6">Mumbai society redevelopment, step by step</a></li>
+<li><a href="#s7">🔴 Reading the numbers (I): the P&amp;L follows completions, not sales</a></li>
+<li><a href="#s8">🔴 Reading the numbers (II): average realisation is a map</a></li>
+<li><a href="#s9">🔴 Reading the numbers (III): what counts as debt</a></li>
+<li><a href="#s10">The counterweight: approvals, concentration and the cash that leaves</a></li>
+<li><a href="#s11">Mechanism &rarr; metric</a></li>
+<li><a href="#s12">What is not disclosed</a></li>
+<li><a href="#s13">Glossary · Sources</a></li>
+</ol>
+</div>
+
+<!-- ============================ §1 ============================ -->
+<h2 id="s1"><span class="n">1.</span> The product, physically: a phase of a project, sold by the square foot</h2>
+
+<p>A residential developer does not sell buildings. It sells <strong>promises of homes</strong> in buildings that mostly do not exist yet. The unit of business is the <strong>project</strong> — a parcel of land with permission to build a certain floor area on it — and a large project is released to the market in <strong>phases</strong>, each registered separately under RERA (the Real Estate Regulation Act) and sold separately.</p>
+
+<p>Kolte-Patil is a Pune developer, founded 1991, with a smaller business in Mumbai and a token one in Bengaluru. It sells under two brands — <strong>Kolte-Patil</strong> (mid-premium and premium) and <strong>24K</strong> (premium luxury) — and its single largest asset is <strong>Life Republic</strong>, a 400-plus-acre township near Pune's Hinjewadi IT hub with more than 15 Mn sq ft already sold and about 16 Mn sq ft still to develop.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 310" role="img" aria-label="A project of about 5 million square feet drawn as a box with Phase 1, Vyana, about one fifth of it, launched in Q2FY27; beside it, a home&#x27;s saleable area enclosing its smaller carpet area.">
+<text x="20.0" y="26.0" class="t-md" fill="#1F4E79">What a developer sells: one project, sliced into phases, sliced into towers and homes</text>
+<text x="20.0" y="46.0" class="t" fill="#5a6a78">The Reserve, Vadgaon (Pune) — the company's largest launch to date, drawn to its disclosed scale</text>
+<rect x="20.0" y="62.0" width="600.0" height="176.0" rx="10" fill="#f4f8fc" stroke="#2E75B6" />
+<text x="36.0" y="86.0" class="t-md" fill="#1F4E79">THE RESERVE · Vadgaon, Pune</text>
+<text x="36.0" y="104.0" class="t-sm" fill="#5a6a78">~20 acres · ~5 Mn sq ft saleable · GDV ~₹4,000 Cr (company estimate) · a revenue-share joint development</text>
+<rect x="36.0" y="118.0" width="114.7" height="70.0" rx="6" fill="#1F4E79" />
+<text x="44.0" y="138.0" class="t-md" fill="#ffffff">Phase 1</text>
+<text x="44.0" y="155.0" class="t" fill="#ffffff">'Vyana'</text>
+<text x="44.0" y="172.0" class="t-sm" fill="#ffffff">~1.01 Mn sq ft</text>
+<text x="44.0" y="184.0" class="t-sm" fill="#ffffff">launched Q2FY27</text>
+<rect x="156.7" y="118.0" width="447.3" height="70.0" rx="6" fill="#ffffff" stroke="#2E75B6" stroke-dasharray="5 4"/>
+<text x="170.7" y="144.0" class="t" fill="#1F4E79">Later phases · ~4 Mn sq ft · not yet launched</text>
+<text x="170.7" y="162.0" class="t-sm" fill="#5a6a78">Each phase is registered with RERA separately and sold separately.</text>
+<text x="170.7" y="177.0" class="t-sm" fill="#5a6a78">How the ~4 Mn sq ft divides into phases is not disclosed (drawn as one block).</text>
+<text x="36.0" y="210.0" class="t" fill="#1F4E79" font-weight="700">Vyana sold ₹616 Cr in Q2FY27 — 60% of the company's ₹1,019 Cr quarter.</text>
+<text x="36.0" y="227.0" class="t-sm" fill="#5a6a78">600+ homes and over ₹600 Cr in the first 60 hours (release, 10-Sep-2026): an average ticket of roughly ₹1 Cr.</text>
+<text x="650.0" y="80.0" class="t-md" fill="#1F4E79">One home, two areas</text>
+<rect x="650.0" y="92.0" width="290.0" height="146.0" rx="6" fill="#eef3f8" stroke="#2E75B6" />
+<text x="662.0" y="110.0" class="t-sm" fill="#1F4E79" font-weight="700">SALEABLE ('super built-up') area</text>
+<text x="662.0" y="124.0" class="t-sm" fill="#5a6a78">adds walls, balconies and a share of lobbies,</text>
+<text x="662.0" y="136.0" class="t-sm" fill="#5a6a78">lifts and amenities</text>
+<rect x="690.0" y="148.0" width="210.0" height="80.0" rx="4" fill="#ffffff" stroke="#1F4E79" />
+<text x="702.0" y="168.0" class="t-sm" fill="#1F4E79" font-weight="700">CARPET area</text>
+<text x="702.0" y="182.0" class="t-sm" fill="#5a6a78">usable floor inside the walls —</text>
+<text x="702.0" y="194.0" class="t-sm" fill="#5a6a78">the figure RERA requires a sale</text>
+<text x="702.0" y="206.0" class="t-sm" fill="#5a6a78">agreement to state</text>
+<text x="650.0" y="260.0" class="t" fill="#1F4E79" font-weight="700">Kolte-Patil reports volume and ₹ per sq ft</text>
+<text x="650.0" y="276.0" class="t" fill="#1F4E79" font-weight="700">on SALEABLE area.</text>
+<text x="650.0" y="292.0" class="t-sm" fill="#5a6a78">The loading between the two is not disclosed.</text>
+<text x="20.0" y="278.0" class="t" fill="#5a6a78">Inside a phase: towers → floors → 2- and 3-bedroom homes.</text>
+<text x="20.0" y="296.0" class="t" fill="#5a6a78">Each booking adds one home's full price to 'pre-sales' on the day the agreement is signed.</text>
+</svg>
+<figcaption><strong>Figure 1.</strong> Project and phase sizes from the Q2FY27 investor presentation (slide 11) and the 10-Sep-2026 launch release; the joint-development structure from the 12-Feb-2025 earnings call. The phase split of the remaining ~4 Mn sq ft is <strong>not disclosed</strong> and is drawn as one block. Carpet vs saleable area is the RERA definition, not a Kolte-Patil disclosure.</figcaption>
+</figure>
+
+<p>Two details on Figure 1 matter for everything later. First, <strong>the volume unit is the saleable square foot</strong>, a measure that includes a share of common areas; its relationship to the usable "carpet" area the buyer actually lives in is not disclosed, so ₹ per square foot cannot be compared to a competitor that reports on carpet area. Second, <strong>one launch can dominate a quarter</strong>: Vyana was 60% of Q2FY27's pre-sales.</p>
+
+<!-- ============================ §2 ============================ -->
+<h2 id="s2"><span class="n">2.</span> The mechanism: one home, three clocks</h2>
+
+<p>This is the one fact that makes the rest of Kolte-Patil's numbers intelligible. <strong>Every home it sells passes through three different lines of its reports at three different times</strong>, and the times can be years apart:</p>
+<ul>
+<li><strong>Pre-sales</strong> (also "sales value" or "bookings") counts the home's full price on the day the buyer signs. It is an operating number the company reports; it is not in the audited accounts.</li>
+<li><strong>Collections</strong> is the cash the buyer actually pays — a booking amount, then instalments linked to construction progress, then the balance at possession.</li>
+<li><strong>Revenue and profit</strong> are recognised only when the home is <strong>complete and handed over</strong>. The company calls this the completed-contract method: <em>"revenue recognition is based on completion and possession"</em> (30-Jul-2025 call).</li>
+</ul>
+
+<figure class="dg">
+<svg viewBox="0 0 960 360" role="img" aria-label="A timeline across land and approvals, launch, construction and completion. Pre-sales is a single marker at launch; collections are small instalments across construction with a larger one at possession; revenue and profit are a single block at completion; cash paid out is land early and construction throughout.">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5a6a78"/></marker></defs>
+<text x="20.0" y="26.0" class="t-md" fill="#1F4E79">One home, three numbers, years apart</text>
+<text x="20.0" y="46.0" class="t" fill="#5a6a78">When the same apartment shows up in pre-sales, in collections and in revenue</text>
+<rect x="150.0" y="62.0" width="177.0" height="34.0" rx="4" fill="#eef3f8" stroke="#9cc1e3" />
+<text x="240.0" y="84.0" class="t-sm" fill="#1F4E79" text-anchor="middle" font-weight="700">Land / JDA and approvals</text>
+<rect x="330.0" y="62.0" width="67.0" height="34.0" rx="4" fill="#dbe8f5" stroke="#9cc1e3" />
+<text x="365.0" y="84.0" class="t-sm" fill="#1F4E79" text-anchor="middle" font-weight="700">Launch</text>
+<rect x="400.0" y="62.0" width="397.0" height="34.0" rx="4" fill="#eef3f8" stroke="#9cc1e3" />
+<text x="600.0" y="84.0" class="t-sm" fill="#1F4E79" text-anchor="middle" font-weight="700">Construction — floors go up</text>
+<rect x="800.0" y="62.0" width="137.0" height="34.0" rx="4" fill="#dbe8f5" stroke="#9cc1e3" />
+<text x="870.0" y="84.0" class="t-sm" fill="#1F4E79" text-anchor="middle" font-weight="700">Completion + possession</text>
+<line x1="20.0" y1="152.0" x2="940.0" y2="152.0" stroke="#d5dde6" stroke-width="1"/>
+<text x="20.0" y="144.0" class="t-sm" fill="#1F4E79" font-weight="700">PRE-SALES</text>
+<line x1="20.0" y1="212.0" x2="940.0" y2="212.0" stroke="#d5dde6" stroke-width="1"/>
+<text x="20.0" y="204.0" class="t-sm" fill="#1F4E79" font-weight="700">COLLECTIONS</text>
+<line x1="20.0" y1="272.0" x2="940.0" y2="272.0" stroke="#d5dde6" stroke-width="1"/>
+<text x="20.0" y="264.0" class="t-sm" fill="#1F4E79" font-weight="700">REVENUE + PROFIT</text>
+<line x1="20.0" y1="332.0" x2="940.0" y2="332.0" stroke="#d5dde6" stroke-width="1"/>
+<text x="20.0" y="324.0" class="t-sm" fill="#1F4E79" font-weight="700">CASH PAID OUT</text>
+<polygon points="365,130 377,142 365,154 353,142" fill="#1F4E79"/>
+<text x="386.0" y="140.0" class="t" fill="#1F4E79">the home's full price is counted once, when the agreement is signed</text>
+<text x="386.0" y="154.0" class="t-sm" fill="#5a6a78">→ a leading indicator: tells you what will be built and paid for</text>
+<rect x="359.0" y="202.4" width="12.0" height="9.6" rx="0" fill="#2E75B6" />
+<rect x="414.0" y="204.8" width="12.0" height="7.2" rx="0" fill="#2E75B6" />
+<rect x="464.0" y="204.8" width="12.0" height="7.2" rx="0" fill="#2E75B6" />
+<rect x="514.0" y="204.8" width="12.0" height="7.2" rx="0" fill="#2E75B6" />
+<rect x="564.0" y="204.8" width="12.0" height="7.2" rx="0" fill="#2E75B6" />
+<rect x="614.0" y="204.8" width="12.0" height="7.2" rx="0" fill="#2E75B6" />
+<rect x="664.0" y="204.8" width="12.0" height="7.2" rx="0" fill="#2E75B6" />
+<rect x="714.0" y="204.8" width="12.0" height="7.2" rx="0" fill="#2E75B6" />
+<rect x="764.0" y="204.8" width="12.0" height="7.2" rx="0" fill="#2E75B6" />
+<rect x="854.0" y="195.2" width="12.0" height="16.8" rx="0" fill="#2E75B6" />
+<text x="150.0" y="200.0" class="t-sm" fill="#5a6a78">booking amount, then</text>
+<text x="150.0" y="211.0" class="t-sm" fill="#5a6a78">instalments as floors rise</text>
+<text x="876.0" y="196.0" class="t-sm" fill="#5a6a78">balance at</text>
+<text x="876.0" y="207.0" class="t-sm" fill="#5a6a78">possession</text>
+<rect x="806.0" y="236.0" width="128.0" height="30.0" rx="4" fill="#c9821b" />
+<text x="870.0" y="256.0" class="t-sm" fill="#ffffff" text-anchor="middle" font-weight="700">ALL recognised here</text>
+<text x="150.0" y="260.0" class="t" fill="#1F4E79">nothing reaches the P&L until the home is complete and handed over</text>
+<text x="150.0" y="274.0" class="t-sm" fill="#5a6a78">(the company: "CCM based accounting… revenue recognition is based on completion and possession")</text>
+<rect x="170.0" y="315.2" width="30.0" height="16.8" rx="2" fill="#b3261e" opacity=".75"/>
+<rect x="220.0" y="320.0" width="30.0" height="12.0" rx="2" fill="#b3261e" opacity=".75"/>
+<rect x="270.0" y="317.6" width="30.0" height="14.4" rx="2" fill="#b3261e" opacity=".75"/>
+<rect x="410.0" y="323.0" width="26.0" height="9.0" rx="2" fill="#b3261e" opacity=".55"/>
+<rect x="450.0" y="323.0" width="26.0" height="9.0" rx="2" fill="#b3261e" opacity=".55"/>
+<rect x="490.0" y="323.0" width="26.0" height="9.0" rx="2" fill="#b3261e" opacity=".55"/>
+<rect x="530.0" y="323.0" width="26.0" height="9.0" rx="2" fill="#b3261e" opacity=".55"/>
+<rect x="570.0" y="323.0" width="26.0" height="9.0" rx="2" fill="#b3261e" opacity=".55"/>
+<rect x="610.0" y="323.0" width="26.0" height="9.0" rx="2" fill="#b3261e" opacity=".55"/>
+<rect x="650.0" y="323.0" width="26.0" height="9.0" rx="2" fill="#b3261e" opacity=".55"/>
+<rect x="690.0" y="323.0" width="26.0" height="9.0" rx="2" fill="#b3261e" opacity=".55"/>
+<rect x="730.0" y="323.0" width="26.0" height="9.0" rx="2" fill="#b3261e" opacity=".55"/>
+<rect x="770.0" y="323.0" width="26.0" height="9.0" rx="2" fill="#b3261e" opacity=".55"/>
+<text x="160.0" y="350.0" class="t-sm" fill="#5a6a78">land, deposits, approval premia</text>
+<text x="470.0" y="350.0" class="t-sm" fill="#5a6a78">construction cost, paid as it is incurred</text>
+</svg>
+<figcaption><strong>Figure 2.</strong> <span class="tag inf">MY INFERENCE</span> for the shape; the recognition rule is the company's (Q1FY26 call, 30-Jul-2025: <em>"we follow the CCM based accounting method where the revenue recognition is based on completion and possession"</em>; Q2FY27 deck: <em>"in line with the CCM"</em>). <strong>Durations and bar heights are illustrative</strong> — Kolte-Patil publishes no standard cycle length or payment schedule. On the May-2025 call an analyst put the lag as <em>"what we are recognizing today in FY25 is what we sold in FY22 or FY23"</em>; management did not dispute it.</figcaption>
+</figure>
+
+<p>The consequence is that <strong>the profit-and-loss statement is the slowest and least informative of the three</strong>. A year of record sales can arrive with a loss, because the homes sold are years from completion; a quarter in which several towers finish can show more revenue than the whole previous year. The company's own results notes say it plainly: <em>"results of a quarter may not be representative of profits/(losses) for the year."</em></p>
+
+<div class="box">
+<h4>Why the buyer's money matters more than the P&amp;L</h4>
+<p style="margin:6px 0">Because buyers pay as the building rises, <strong>a developer that sells well is largely funded by its customers</strong>. That money sits on the balance sheet as a liability — an advance for a home not yet delivered — until the home is handed over. At 30-Sep-2026 Kolte-Patil's "other current liabilities", where customer advances are carried, stood at <strong>₹4,519 Cr against ₹1,359 Cr of shareholders' equity</strong> (the filing does not split the line). <span class="tag inf">MY INFERENCE</span> For a business like this the cash and the advances say more about health than the profit line does.</p>
+</div>
+
+<!-- ============================ §3 ============================ -->
+<h2 id="s3"><span class="n">3.</span> What the three clocks look like in Kolte-Patil's own numbers</h2>
+
+<p>Figure 3 puts the three series for the last six quarters on one axis. Pre-sales and collections move like a business; revenue moves like a calendar of building completions.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 402" role="img" aria-label="Grouped bars for six quarters. Pre-sales run 605 to 714 crore for five quarters then jump to 1,019 in Q2FY27. Collections rise steadily from 550 to 834 then 715 and 795. Revenue is 82, 139, 265, 249, then 920 in Q1FY27 and 334 in Q2FY27.">
+<text x="20.0" y="26.0" class="t-md" fill="#1F4E79">Kolte-Patil's last six quarters: three series that do not move together</text>
+<text x="20.0" y="46.0" class="t" fill="#5a6a78">₹ Cr, consolidated. Pre-sales and collections from the investor presentations; revenue from the filed results</text>
+<line x1="70.0" y1="268.8" x2="945.0" y2="268.8" stroke="#eef1f5" stroke-width="1"/>
+<text x="62.0" y="272.8" class="t-sm" fill="#5a6a78" text-anchor="end">250</text>
+<line x1="70.0" y1="207.5" x2="945.0" y2="207.5" stroke="#eef1f5" stroke-width="1"/>
+<text x="62.0" y="211.5" class="t-sm" fill="#5a6a78" text-anchor="end">500</text>
+<line x1="70.0" y1="146.2" x2="945.0" y2="146.2" stroke="#eef1f5" stroke-width="1"/>
+<text x="62.0" y="150.2" class="t-sm" fill="#5a6a78" text-anchor="end">750</text>
+<line x1="70.0" y1="85.0" x2="945.0" y2="85.0" stroke="#eef1f5" stroke-width="1"/>
+<text x="62.0" y="89.0" class="t-sm" fill="#5a6a78" text-anchor="end">1,000</text>
+<line x1="70.0" y1="330.0" x2="945.0" y2="330.0" stroke="#8a99a8" stroke-width="1.2"/>
+<rect x="98.0" y="179.1" width="34.0" height="150.9" rx="0" fill="#1F4E79" />
+<text x="115.0" y="174.1" class="t-sm" text-anchor="middle" font-weight="700">616</text>
+<rect x="138.0" y="195.2" width="34.0" height="134.8" rx="0" fill="#2E75B6" />
+<text x="155.0" y="190.2" class="t-sm" text-anchor="middle" font-weight="700">550</text>
+<rect x="178.0" y="309.9" width="34.0" height="20.1" rx="0" fill="#c9821b" />
+<text x="195.0" y="304.9" class="t-sm" text-anchor="middle" font-weight="700">82</text>
+<text x="155.0" y="348.0" class="t" fill="#1F4E79" text-anchor="middle" font-weight="700">Q1FY26</text>
+<rect x="243.0" y="165.8" width="34.0" height="164.2" rx="0" fill="#1F4E79" />
+<text x="260.0" y="160.8" class="t-sm" text-anchor="middle" font-weight="700">670</text>
+<rect x="283.0" y="184.0" width="34.0" height="146.0" rx="0" fill="#2E75B6" />
+<text x="300.0" y="179.0" class="t-sm" text-anchor="middle" font-weight="700">596</text>
+<rect x="323.0" y="295.9" width="34.0" height="34.1" rx="0" fill="#c9821b" />
+<text x="340.0" y="290.9" class="t-sm" text-anchor="middle" font-weight="700">139</text>
+<text x="300.0" y="348.0" class="t" fill="#1F4E79" text-anchor="middle" font-weight="700">Q2FY26</text>
+<rect x="388.0" y="181.8" width="34.0" height="148.2" rx="0" fill="#1F4E79" />
+<text x="405.0" y="176.8" class="t-sm" text-anchor="middle" font-weight="700">605</text>
+<rect x="428.0" y="156.3" width="34.0" height="173.7" rx="0" fill="#2E75B6" />
+<text x="445.0" y="151.3" class="t-sm" text-anchor="middle" font-weight="700">709</text>
+<rect x="468.0" y="265.1" width="34.0" height="64.9" rx="0" fill="#c9821b" />
+<text x="485.0" y="260.1" class="t-sm" text-anchor="middle" font-weight="700">265</text>
+<text x="445.0" y="348.0" class="t" fill="#1F4E79" text-anchor="middle" font-weight="700">Q3FY26</text>
+<rect x="533.0" y="155.1" width="34.0" height="174.9" rx="0" fill="#1F4E79" />
+<text x="550.0" y="150.1" class="t-sm" text-anchor="middle" font-weight="700">714</text>
+<rect x="573.0" y="125.7" width="34.0" height="204.3" rx="0" fill="#2E75B6" />
+<text x="590.0" y="120.7" class="t-sm" text-anchor="middle" font-weight="700">834</text>
+<rect x="613.0" y="269.0" width="34.0" height="61.0" rx="0" fill="#c9821b" />
+<text x="630.0" y="264.0" class="t-sm" text-anchor="middle" font-weight="700">249</text>
+<text x="590.0" y="348.0" class="t" fill="#1F4E79" text-anchor="middle" font-weight="700">Q4FY26</text>
+<rect x="678.0" y="178.8" width="34.0" height="151.2" rx="0" fill="#1F4E79" />
+<text x="695.0" y="173.8" class="t-sm" text-anchor="middle" font-weight="700">617</text>
+<rect x="718.0" y="154.8" width="34.0" height="175.2" rx="0" fill="#2E75B6" />
+<text x="735.0" y="149.8" class="t-sm" text-anchor="middle" font-weight="700">715</text>
+<rect x="758.0" y="104.6" width="34.0" height="225.4" rx="0" fill="#c9821b" />
+<text x="775.0" y="99.6" class="t-sm" text-anchor="middle" font-weight="700">920</text>
+<text x="735.0" y="348.0" class="t" fill="#1F4E79" text-anchor="middle" font-weight="700">Q1FY27</text>
+<rect x="823.0" y="80.3" width="34.0" height="249.7" rx="0" fill="#1F4E79" />
+<text x="840.0" y="75.3" class="t-sm" text-anchor="middle" font-weight="700">1,019</text>
+<rect x="863.0" y="135.2" width="34.0" height="194.8" rx="0" fill="#2E75B6" />
+<text x="880.0" y="130.2" class="t-sm" text-anchor="middle" font-weight="700">795</text>
+<rect x="903.0" y="248.2" width="34.0" height="81.8" rx="0" fill="#c9821b" />
+<text x="920.0" y="243.2" class="t-sm" text-anchor="middle" font-weight="700">334</text>
+<text x="880.0" y="348.0" class="t" fill="#1F4E79" text-anchor="middle" font-weight="700">Q2FY27</text>
+<rect x="90.0" y="58.0" width="12.0" height="12.0" rx="0" fill="#1F4E79" />
+<text x="108.0" y="68.0" class="t-sm">Pre-sales (bookings)</text>
+<rect x="240.0" y="58.0" width="12.0" height="12.0" rx="0" fill="#2E75B6" />
+<text x="258.0" y="68.0" class="t-sm">Collections (cash in)</text>
+<rect x="390.0" y="58.0" width="12.0" height="12.0" rx="0" fill="#c9821b" />
+<text x="408.0" y="68.0" class="t-sm">Revenue (P&amp;L)</text>
+<text x="20.0" y="374.0" class="t" fill="#1F4E79" font-weight="700">FY26: ₹2,605 Cr booked, ₹2,689 Cr collected, ₹735 Cr recognised as revenue — and a loss.</text>
+<text x="20.0" y="392.0" class="t" fill="#1F4E79" font-weight="700">Then Q1FY27 recognised ₹920 Cr in one quarter, on ~1.27 Mn sq ft of completions.</text>
+</svg>
+<figcaption><strong>Figure 3.</strong> Pre-sales and collections: Q2FY26, Q3FY26, Q4FY26, Q1FY27 and Q2FY27 investor presentations (Q1FY26 from the comparatives in the Q1FY27 deck; Q1FY26 collections include a DMA collection, per the deck's footnote). Revenue from operations: filed consolidated results, matched to Screener. All bars on one axis from zero.</figcaption>
+</figure>
+
+<p>Read across a year rather than a quarter and the gap is stark. <strong>In FY26 the company booked ₹2,605 Cr of homes and collected ₹2,689 Cr of cash, but recognised only ₹735 Cr of revenue and reported a ₹38 Cr loss.</strong> In the next quarter alone it recognised ₹920 Cr, because about 1.27 Mn sq ft of homes reached completion. Nothing about the business changed between those two periods; the completion calendar did.</p>
+
+<!-- ============================ §4 ============================ -->
+<h2 id="s4"><span class="n">4.</span> Three places, three economics: Life Republic, Pune and Mumbai</h2>
+
+<p>The company's land bank — the homes it can build over the next decade — sits in three very different markets. Life Republic is a township on land the company has held for years; the rest of Pune is a mix of owned and joint-development land; Mumbai is almost entirely <strong>society redevelopment</strong>, where an old building is torn down and replaced (see §6).</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 380" role="img" aria-label="Horizontal stacked bars of saleable area by region. Life Republic 15.90 million square feet, mostly land bank; Pune excluding Life Republic 16.34, with 4.17 under approval; Mumbai 2.89; Bengaluru 0.23. Mumbai&#x27;s GDV per square foot is about 25,600 rupees against about 6,900 to 8,300 for Pune.">
+<text x="20.0" y="26.0" class="t-md" fill="#1F4E79">Where the next ten years of homes sit: 35.4 Mn sq ft, three very different places</text>
+<text x="20.0" y="46.0" class="t" fill="#5a6a78">Saleable area, Mn sq ft, at 30-Sep-2026 — split by how far each piece is from being sold</text>
+<text x="20.0" y="92.0" class="t" fill="#1F4E79" font-weight="700">Life Republic (Pune township)</text>
+<text x="20.0" y="107.0" class="t-sm" fill="#5a6a78">GDV ~₹11,000 Cr · ~₹6,918 per sq ft</text>
+<rect x="250.0" y="76.0" width="112.5" height="30.0" rx="0" fill="#1F4E79" />
+<rect x="362.5" y="76.0" width="22.4" height="30.0" rx="0" fill="#2E75B6" />
+<rect x="385.0" y="76.0" width="389.7" height="30.0" rx="0" fill="#9cc1e3" />
+<text x="782.7" y="96.0" class="t" fill="#1F4E79" font-weight="700">15.90</text>
+<text x="20.0" y="154.0" class="t" fill="#1F4E79" font-weight="700">Pune, excl. Life Republic</text>
+<text x="20.0" y="169.0" class="t-sm" fill="#5a6a78">GDV ~₹13,500 Cr · ~₹8,262 per sq ft</text>
+<rect x="250.0" y="138.0" width="54.4" height="30.0" rx="0" fill="#1F4E79" />
+<rect x="304.4" y="138.0" width="137.6" height="30.0" rx="0" fill="#2E75B6" />
+<rect x="442.1" y="138.0" width="347.2" height="30.0" rx="0" fill="#9cc1e3" />
+<text x="797.2" y="158.0" class="t" fill="#1F4E79" font-weight="700">16.34</text>
+<text x="20.0" y="216.0" class="t" fill="#1F4E79" font-weight="700">Mumbai Metropolitan Region</text>
+<text x="20.0" y="231.0" class="t-sm" fill="#5a6a78">GDV ~₹7,400 Cr · ~₹25,606 per sq ft</text>
+<rect x="250.0" y="200.0" width="6.9" height="30.0" rx="0" fill="#1F4E79" />
+<rect x="256.9" y="200.0" width="20.1" height="30.0" rx="0" fill="#2E75B6" />
+<rect x="277.1" y="200.0" width="68.3" height="30.0" rx="0" fill="#9cc1e3" />
+<text x="353.4" y="220.0" class="t" fill="#1F4E79" font-weight="700">2.89</text>
+<text x="20.0" y="278.0" class="t" fill="#1F4E79" font-weight="700">Bengaluru</text>
+<text x="20.0" y="293.0" class="t-sm" fill="#5a6a78">GDV ~₹200 Cr · ~₹8,696 per sq ft</text>
+<rect x="250.0" y="262.0" width="0.7" height="30.0" rx="0" fill="#1F4E79" />
+<rect x="250.7" y="262.0" width="6.9" height="30.0" rx="0" fill="#2E75B6" />
+<text x="265.6" y="282.0" class="t" fill="#1F4E79" font-weight="700">0.23</text>
+<rect x="250.0" y="330.0" width="12.0" height="12.0" rx="0" fill="#1F4E79" />
+<text x="268.0" y="340.0" class="t-sm">Ongoing & unsold (can be sold now)</text>
+<rect x="480.0" y="330.0" width="12.0" height="12.0" rx="0" fill="#2E75B6" />
+<text x="498.0" y="340.0" class="t-sm">Under approval</text>
+<rect x="610.0" y="330.0" width="12.0" height="12.0" rx="0" fill="#9cc1e3" />
+<text x="628.0" y="340.0" class="t-sm">Land bank (years away)</text>
+<text x="20.0" y="368.0" class="t" fill="#1F4E79" font-weight="700">Mumbai is 8% of the area and 23% of the value: a square foot there is worth about three to four of Pune's.</text>
+</svg>
+<figcaption><strong>Figure 4.</strong> Q2FY27 investor presentation, slide 19 (<em>Projects Portfolio – 30.09.2026</em>; saleable area at current FSI norms, GDV a company estimate). GDV per sq ft is <strong>my division</strong> of the two columns. Bars on one axis from zero. <strong>Between the Q1 and Q2 decks Mumbai fell from ₹8,900 Cr / 3.49 Mn sq ft to ₹7,400 Cr / 2.89 Mn sq ft</strong> while selling only 0.03 Mn sq ft there — see §10.</figcaption>
+</figure>
+
+<p>The three places differ in price per square foot by a factor of three to four, and they differ in how much of their land is ready to sell. <strong>Life Republic's 15.9 Mn sq ft is three-quarters land bank</strong>; Pune outside it has 4.2 Mn sq ft waiting on approvals; Mumbai is small in area and large in value. <strong>Which of these sells in a given quarter changes almost every reported ratio</strong> — the subject of §8.</p>
+
+<!-- ============================ §5 ============================ -->
+<h2 id="s5"><span class="n">5.</span> Three ways to get land</h2>
+
+<p>A developer's most important decision is how it gets land, because that sets how much money goes in before the first home is sold, and therefore both the margin and the return. Kolte-Patil uses all three of the models common in Indian residential development; its 2026 decks list <em>"outright, redevelopment, JDA &amp; JV."</em></p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 322" role="img" aria-label="Three cards. Outright: the company buys land, keeps the whole price, margin about 25 to 28 percent, highest cash up front. Joint development: landowner keeps the land and takes a revenue share, around 15 percent EBITDA. Society redevelopment: members get new flats, the developer sells extra floors, margins 14 to 15 percent but better IRR, lowest cash up front.">
+<text x="20.0" y="26.0" class="t-md" fill="#1F4E79">Three ways to get land — and why their margins are not comparable</text>
+<text x="20.0" y="46.0" class="t" fill="#5a6a78">Less land paid for up front means a thinner margin on each sale, but a better return on the money tied up</text>
+<rect x="20.0" y="62.0" width="296.0" height="250.0" rx="8" fill="#ffffff" stroke="#9cc1e3" />
+<rect x="20.0" y="62.0" width="296.0" height="34.0" rx="8" fill="#1F4E79" />
+<rect x="20.0" y="84.0" width="296.0" height="12.0" rx="0" fill="#1F4E79" />
+<text x="34.0" y="84.0" class="t-md" fill="#ffffff">OUTRIGHT</text>
+<text x="34.0" y="118.0" class="t" fill="#1F4E79" font-weight="700">Kolte-Patil buys the land</text>
+<text x="34.0" y="140.0" class="t-sm">Capital goes in first — before</text>
+<text x="34.0" y="156.0" class="t-sm">approvals, before any sale</text>
+<text x="34.0" y="172.0" class="t-sm">Keeps the whole sale price</text>
+<line x1="34.0" y1="196.0" x2="302.0" y2="196.0" stroke="#d5dde6" stroke-width="1"/>
+<text x="34.0" y="214.0" class="t-sm" fill="#5a6a78">Management, 12-Feb-2025 call:</text>
+<text x="34.0" y="232.0" class="t-sm" fill="#1F4E79" font-weight="700">"on the outright basis and where we</text>
+<text x="34.0" y="247.0" class="t-sm" fill="#1F4E79" font-weight="700">invest on the land… around 25% to 28%"</text>
+<line x1="34.0" y1="262.0" x2="302.0" y2="262.0" stroke="#d5dde6" stroke-width="1"/>
+<text x="34.0" y="282.0" class="t-sm" fill="#5a6a78">Example: Life Republic, much of Pune</text>
+<text x="34.0" y="302.0" class="t-sm" fill="#5a6a78">Cash up front</text>
+<rect x="130.0" y="293.0" width="22.0" height="10.0" rx="2" fill="#b3261e" opacity=".75"/>
+<rect x="156.0" y="293.0" width="22.0" height="10.0" rx="2" fill="#b3261e" opacity=".75"/>
+<rect x="182.0" y="293.0" width="22.0" height="10.0" rx="2" fill="#b3261e" opacity=".75"/>
+<rect x="332.0" y="62.0" width="296.0" height="250.0" rx="8" fill="#ffffff" stroke="#9cc1e3" />
+<rect x="332.0" y="62.0" width="296.0" height="34.0" rx="8" fill="#1F4E79" />
+<rect x="332.0" y="84.0" width="296.0" height="12.0" rx="0" fill="#1F4E79" />
+<text x="346.0" y="84.0" class="t-md" fill="#ffffff">JOINT DEVELOPMENT</text>
+<text x="346.0" y="118.0" class="t" fill="#1F4E79" font-weight="700">The landowner keeps the land</text>
+<text x="346.0" y="140.0" class="t-sm">KPDL pays a refundable deposit</text>
+<text x="346.0" y="156.0" class="t-sm">and gives the owner a share of</text>
+<text x="346.0" y="172.0" class="t-sm">each sale's revenue</text>
+<line x1="346.0" y1="196.0" x2="614.0" y2="196.0" stroke="#d5dde6" stroke-width="1"/>
+<text x="346.0" y="214.0" class="t-sm" fill="#5a6a78">Management, 12-Feb-2025 call:</text>
+<text x="346.0" y="232.0" class="t-sm" fill="#1F4E79" font-weight="700">"roughly around 15%" EBITDA planned —</text>
+<text x="346.0" y="247.0" class="t-sm" fill="#1F4E79" font-weight="700">"an IRR-based business model"</text>
+<line x1="346.0" y1="262.0" x2="614.0" y2="262.0" stroke="#d5dde6" stroke-width="1"/>
+<text x="346.0" y="282.0" class="t-sm" fill="#5a6a78">Example: The Reserve, Vadgaon</text>
+<text x="346.0" y="302.0" class="t-sm" fill="#5a6a78">Cash up front</text>
+<rect x="442.0" y="293.0" width="22.0" height="10.0" rx="2" fill="#b3261e" opacity=".75"/>
+<rect x="468.0" y="293.0" width="22.0" height="10.0" rx="2" fill="#b3261e" opacity=".75"/>
+<rect x="494.0" y="293.0" width="22.0" height="10.0" rx="2" fill="#eef1f5" opacity=".75"/>
+<rect x="468.0" y="293.0" width="11.0" height="10.0" rx="2" fill="#b3261e" opacity=".75"/>
+<rect x="644.0" y="62.0" width="296.0" height="250.0" rx="8" fill="#ffffff" stroke="#9cc1e3" />
+<rect x="644.0" y="62.0" width="296.0" height="34.0" rx="8" fill="#1F4E79" />
+<rect x="644.0" y="84.0" width="296.0" height="12.0" rx="0" fill="#1F4E79" />
+<text x="658.0" y="84.0" class="t-md" fill="#ffffff">SOCIETY REDEVELOPMENT</text>
+<text x="658.0" y="118.0" class="t" fill="#1F4E79" font-weight="700">An old Mumbai building's members</text>
+<text x="658.0" y="140.0" class="t-sm">Members get new, larger flats free;</text>
+<text x="658.0" y="156.0" class="t-sm">KPDL builds taller and sells the</text>
+<text x="658.0" y="172.0" class="t-sm">extra floors to new buyers</text>
+<line x1="658.0" y1="196.0" x2="926.0" y2="196.0" stroke="#d5dde6" stroke-width="1"/>
+<text x="658.0" y="214.0" class="t-sm" fill="#5a6a78">Management, 12-Feb-2025 call:</text>
+<text x="658.0" y="232.0" class="t-sm" fill="#1F4E79" font-weight="700">"margins looks around 14%, 15%, but</text>
+<text x="658.0" y="247.0" class="t-sm" fill="#1F4E79" font-weight="700">the IRRs are better" (target 20–25%)</text>
+<line x1="658.0" y1="262.0" x2="926.0" y2="262.0" stroke="#d5dde6" stroke-width="1"/>
+<text x="658.0" y="282.0" class="t-sm" fill="#5a6a78">Example: All Mumbai projects</text>
+<text x="658.0" y="302.0" class="t-sm" fill="#5a6a78">Cash up front</text>
+<rect x="754.0" y="293.0" width="22.0" height="10.0" rx="2" fill="#b3261e" opacity=".75"/>
+<rect x="780.0" y="293.0" width="22.0" height="10.0" rx="2" fill="#eef1f5" opacity=".75"/>
+<rect x="806.0" y="293.0" width="22.0" height="10.0" rx="2" fill="#eef1f5" opacity=".75"/>
+</svg>
+<figcaption><strong>Figure 5.</strong> Quotes are Atul Bohra, then Group CEO, on the 12-Feb-2025 earnings call (the Joint Development EBITDA figure refers to the Vadgaon deal that became The Reserve; <em>"It's a revenue share deal with payment on a refundable deposit with the landowner"</em>). The "cash up front" gauge is <span class="tag inf">MY INFERENCE</span>, an ordering not a measurement. These margin ranges are <strong>guidance from 2025</strong>; no call has been held since July 2025 to update them.</figcaption>
+</figure>
+
+<p>The arithmetic behind the trade-off is simple. <span class="tag inf">MY INFERENCE</span> In an outright purchase the developer pays for land years before it sells anything, so it needs a high margin to earn a return on that money. In a joint development or a redevelopment the landowner is paid out of the sales themselves — a share of revenue, or new flats — so the margin per square foot is lower but far less money is tied up. <strong>A mix shift toward joint developments and Mumbai redevelopment therefore lowers the reported margin even if every project is doing what it was meant to.</strong> Kolte-Patil's then Group CEO said exactly this in February 2025: <em>"In redevelopment, joint developments it's not just margin, it is more of an IRR-based business model."</em></p>
+
+<!-- ============================ §6 ============================ -->
+<h2 id="s6"><span class="n">6.</span> Mumbai society redevelopment, step by step</h2>
+
+<p>Mumbai is full of residential buildings put up in the 1960s–80s by housing <strong>societies</strong> — co-operatives that own the land and the building. As the buildings age, and as city rules allow more floor area on the same plot, a society can hand its plot to a developer: the developer demolishes the old building, rebuilds it taller, gives the existing members new and usually larger flats at no cost, and sells the additional flats on the open market. <strong>The developer never buys the land</strong>, which is why the company calls this model one of <em>"lower capital intensity."</em></p>
+
+<figure class="dg">
+<svg role="img" aria-label="Society redevelopment steps: society votes and picks a developer; agreement on new flat sizes and rent; approvals; vacation with members moving out and rent paid; demolish and build one taller building, which splits into rehab flats handed free to members and free-sale flats sold to new buyers, whose instalments fund construction."
+ viewBox="0.00 0.00 973.00 158.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(7.2 150.37)">
+
+
+<g id="node1" class="node">
+
+<path fill="#ffffff" stroke="#9fb6cc" d="M93.03,-107.17C93.03,-107.17 12,-107.17 12,-107.17 6,-107.17 0,-101.17 0,-95.17 0,-95.17 0,-68.59 0,-68.59 0,-62.59 6,-56.59 12,-56.59 12,-56.59 93.03,-56.59 93.03,-56.59 99.03,-56.59 105.03,-62.59 105.03,-68.59 105.03,-68.59 105.03,-95.17 105.03,-95.17 105.03,-101.17 99.03,-107.17 93.03,-107.17"/>
+<text xml:space="preserve" text-anchor="middle" x="52.51" y="-91.68" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#16202b">1. Society votes to</text>
+<text xml:space="preserve" text-anchor="middle" x="52.51" y="-78.18" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#16202b">redevelop, picks a</text>
+<text xml:space="preserve" text-anchor="middle" x="52.51" y="-64.68" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#16202b">developer</text>
+</g>
+
+<g id="node2" class="node">
+
+<path fill="#ffffff" stroke="#9fb6cc" d="M252.81,-107.17C252.81,-107.17 147.03,-107.17 147.03,-107.17 141.03,-107.17 135.03,-101.17 135.03,-95.17 135.03,-95.17 135.03,-68.59 135.03,-68.59 135.03,-62.59 141.03,-56.59 147.03,-56.59 147.03,-56.59 252.81,-56.59 252.81,-56.59 258.81,-56.59 264.81,-62.59 264.81,-68.59 264.81,-68.59 264.81,-95.17 264.81,-95.17 264.81,-101.17 258.81,-107.17 252.81,-107.17"/>
+<text xml:space="preserve" text-anchor="middle" x="199.92" y="-91.68" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#16202b">2. Agreement: new flat</text>
+<text xml:space="preserve" text-anchor="middle" x="199.92" y="-78.18" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#16202b">sizes for members, rent</text>
+<text xml:space="preserve" text-anchor="middle" x="199.92" y="-64.68" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#16202b">while they are out</text>
+</g>
+
+<g id="edge1" class="edge">
+
+<path fill="none" stroke="#5a6a78" d="M105.19,-81.88C112.05,-81.88 119.19,-81.88 126.33,-81.88"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" points="126.18,-84.33 133.18,-81.88 126.17,-79.43 126.18,-84.33"/>
+</g>
+
+<g id="node3" class="node">
+
+<path fill="#ffffff" stroke="#9fb6cc" d="M388.59,-107.17C388.59,-107.17 306.81,-107.17 306.81,-107.17 300.81,-107.17 294.81,-101.17 294.81,-95.17 294.81,-95.17 294.81,-68.59 294.81,-68.59 294.81,-62.59 300.81,-56.59 306.81,-56.59 306.81,-56.59 388.59,-56.59 388.59,-56.59 394.59,-56.59 400.59,-62.59 400.59,-68.59 400.59,-68.59 400.59,-95.17 400.59,-95.17 400.59,-101.17 394.59,-107.17 388.59,-107.17"/>
+<text xml:space="preserve" text-anchor="middle" x="347.7" y="-91.68" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#16202b">3. Approvals —</text>
+<text xml:space="preserve" text-anchor="middle" x="347.7" y="-78.18" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#16202b">plan, environment,</text>
+<text xml:space="preserve" text-anchor="middle" x="347.7" y="-64.68" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#16202b">height, FSI</text>
+</g>
+
+<g id="edge2" class="edge">
+
+<path fill="none" stroke="#5a6a78" d="M265.29,-81.88C272.3,-81.88 279.43,-81.88 286.39,-81.88"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" points="285.97,-84.33 292.97,-81.88 285.97,-79.43 285.97,-84.33"/>
+</g>
+
+<g id="node4" class="node">
+
+<path fill="#fff8e6" stroke="#e0c27a" d="M531.12,-107.17C531.12,-107.17 442.59,-107.17 442.59,-107.17 436.59,-107.17 430.59,-101.17 430.59,-95.17 430.59,-95.17 430.59,-68.59 430.59,-68.59 430.59,-62.59 436.59,-56.59 442.59,-56.59 442.59,-56.59 531.12,-56.59 531.12,-56.59 537.12,-56.59 543.12,-62.59 543.12,-68.59 543.12,-68.59 543.12,-95.17 543.12,-95.17 543.12,-101.17 537.12,-107.17 531.12,-107.17"/>
+<text xml:space="preserve" text-anchor="middle" x="486.85" y="-91.68" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#16202b">4. VACATION</text>
+<text xml:space="preserve" text-anchor="middle" x="486.85" y="-78.18" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#16202b">members move out;</text>
+<text xml:space="preserve" text-anchor="middle" x="486.85" y="-64.68" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#16202b">developer pays rent</text>
+</g>
+
+<g id="edge3" class="edge">
+
+<path fill="none" stroke="#5a6a78" d="M400.94,-81.88C407.8,-81.88 414.89,-81.88 421.91,-81.88"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" points="421.59,-84.33 428.59,-81.88 421.59,-79.43 421.59,-84.33"/>
+</g>
+
+<g id="node5" class="node">
+
+<path fill="#ffffff" stroke="#9fb6cc" d="M656.4,-107.17C656.4,-107.17 585.12,-107.17 585.12,-107.17 579.12,-107.17 573.12,-101.17 573.12,-95.17 573.12,-95.17 573.12,-68.59 573.12,-68.59 573.12,-62.59 579.12,-56.59 585.12,-56.59 585.12,-56.59 656.4,-56.59 656.4,-56.59 662.4,-56.59 668.4,-62.59 668.4,-68.59 668.4,-68.59 668.4,-95.17 668.4,-95.17 668.4,-101.17 662.4,-107.17 656.4,-107.17"/>
+<text xml:space="preserve" text-anchor="middle" x="620.76" y="-91.68" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#16202b">5. Demolish and</text>
+<text xml:space="preserve" text-anchor="middle" x="620.76" y="-78.18" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#16202b">build one taller</text>
+<text xml:space="preserve" text-anchor="middle" x="620.76" y="-64.68" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#16202b">building</text>
+</g>
+
+<g id="edge4" class="edge">
+
+<path fill="none" stroke="#5a6a78" d="M543.41,-81.88C550.5,-81.88 557.75,-81.88 564.82,-81.88"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" points="564.51,-84.33 571.51,-81.88 564.51,-79.43 564.51,-84.33"/>
+</g>
+
+<g id="node6" class="node">
+
+<path fill="#eef3f8" stroke="#2e75b6" d="M797.8,-143.17C797.8,-143.17 720.52,-143.17 720.52,-143.17 714.52,-143.17 708.52,-137.17 708.52,-131.17 708.52,-131.17 708.52,-104.59 708.52,-104.59 708.52,-98.59 714.52,-92.59 720.52,-92.59 720.52,-92.59 797.8,-92.59 797.8,-92.59 803.8,-92.59 809.8,-98.59 809.8,-104.59 809.8,-104.59 809.8,-131.17 809.8,-131.17 809.8,-137.17 803.8,-143.17 797.8,-143.17"/>
+<text xml:space="preserve" text-anchor="middle" x="759.16" y="-127.68" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#16202b">REHAB FLATS</text>
+<text xml:space="preserve" text-anchor="middle" x="759.16" y="-114.18" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#16202b">handed free to</text>
+<text xml:space="preserve" text-anchor="middle" x="759.16" y="-100.68" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#16202b">existing members</text>
+</g>
+
+<g id="edge5" class="edge">
+
+<path fill="none" stroke="#5a6a78" d="M668.7,-94.27C678.9,-96.96 689.8,-99.83 700.35,-102.62"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" points="699.49,-104.93 706.88,-104.34 700.74,-100.19 699.49,-104.93"/>
+</g>
+
+<g id="node7" class="node">
+
+<path fill="#1f4e79" stroke="#1f4e79" d="M807.93,-72.17C807.93,-72.17 710.4,-72.17 710.4,-72.17 704.4,-72.17 698.4,-66.17 698.4,-60.17 698.4,-60.17 698.4,-33.59 698.4,-33.59 698.4,-27.59 704.4,-21.59 710.4,-21.59 710.4,-21.59 807.93,-21.59 807.93,-21.59 813.93,-21.59 819.93,-27.59 819.93,-33.59 819.93,-33.59 819.93,-60.17 819.93,-60.17 819.93,-66.17 813.93,-72.17 807.93,-72.17"/>
+<text xml:space="preserve" text-anchor="middle" x="759.16" y="-56.68" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">FREE&#45;SALE FLATS</text>
+<text xml:space="preserve" text-anchor="middle" x="759.16" y="-43.18" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">sold to new buyers —</text>
+<text xml:space="preserve" text-anchor="middle" x="759.16" y="-29.68" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">KPDL&#39;s revenue</text>
+</g>
+
+<g id="edge6" class="edge">
+
+<path fill="none" stroke="#5a6a78" d="M668.7,-69.83C675.72,-68.03 683.07,-66.15 690.42,-64.26"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" points="690.73,-66.71 696.9,-62.6 689.51,-61.97 690.73,-66.71"/>
+</g>
+
+<g id="node8" class="node">
+
+<path fill="none" stroke="#9fb6cc" stroke-dasharray="5,2" d="M946.71,-64.88C946.71,-64.88 861.93,-64.88 861.93,-64.88 855.93,-64.88 849.93,-58.88 849.93,-52.88 849.93,-52.88 849.93,-40.88 849.93,-40.88 849.93,-34.88 855.93,-28.88 861.93,-28.88 861.93,-28.88 946.71,-28.88 946.71,-28.88 952.71,-28.88 958.71,-34.88 958.71,-40.88 958.71,-40.88 958.71,-52.88 958.71,-52.88 958.71,-58.88 952.71,-64.88 946.71,-64.88"/>
+<text xml:space="preserve" text-anchor="middle" x="904.32" y="-49.38" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#16202b">Buyers&#39; instalments</text>
+<text xml:space="preserve" text-anchor="middle" x="904.32" y="-37.38" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#16202b">fund the construction</text>
+</g>
+
+<g id="edge7" class="edge">
+
+<path fill="none" stroke="#5a6a78" stroke-dasharray="5,2" d="M820.05,-46.88C827.09,-46.88 834.3,-46.88 841.38,-46.88"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" points="841.09,-49.33 848.09,-46.88 841.09,-44.43 841.09,-49.33"/>
+</g>
+
+<g id="edge8" class="edge">
+
+<path fill="none" stroke="#5a6a78" stroke-dasharray="5,2" d="M868.19,-28.48C853.67,-21.85 836.4,-15.19 819.93,-11.88 766.98,-1.22 748.76,7.66 698.4,-11.88 678.26,-19.69 660.18,-35.54 646.64,-50.18"/>
+<polygon fill="#5a6a78" stroke="#5a6a78" points="644.97,-48.37 642.13,-55.22 648.62,-51.64 644.97,-48.37"/>
+</g>
+</g>
+</svg>
+<figcaption><strong>Figure 6.</strong> Laid out with Graphviz. <span class="tag inf">MY INFERENCE</span> for the sequence, which is how Mumbai society redevelopment generally works; <strong>Kolte-Patil discloses none of its agreement terms</strong> (members' area entitlement, rent, corpus). Two pieces are the company's own: the vacation step (12-Feb-2025: <em>"in redevelopment, the process is a little longer. It is not just securing the sanction, but there are vacation process and post that also, there are a few sanctions required"</em>) and the model's <em>"lower capital intensity"</em> (Q2FY27 press release).</figcaption>
+</figure>
+
+<p>The model's strength is also its slowness. Nothing can be built until every family in the old building has moved out — the <strong>vacation</strong> step — and that requires the society's consent, the approvals and the developer's commitment to pay the members' rent while they are away. <strong>In August 2026 Kolte-Patil signed six such projects, ~₹6,000 Cr of GDV across ~2 Mn sq ft in Santacruz, Andheri, Oshiwara, Versova, Ghatkopar and Vashi, guided for launch "over the next 6 to 12 months, subject to requisite approvals."</strong> At ~₹30,000 of GDV per saleable square foot (my division of ~₹6,000 Cr by ~2 Mn sq ft), they are valued at roughly four times Life Republic's ~₹6,900 — which is why a small amount of Mumbai area can move the company-wide averages in §8.</p>
+
+<!-- ============================ §7 ============================ -->
+<h2 id="s7"><span class="n">7.</span> 🔴 Reading the numbers (I): the P&amp;L follows completions, not sales</h2>
+
+<p>Q2FY27 is a clean demonstration of §2. It was the <strong>best selling quarter in the company's history</strong> — ₹1,019 Cr of pre-sales, 1.30 Mn sq ft, both records — and one of its thinnest for profit.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 384" role="img" aria-label="A slope chart from Q1FY27 to Q2FY27. Pre-sales rise from 617 to 1,019 crore; revenue falls from 920 to 334; operating profit before other income falls from 189.5 to minus 0.3. A side table lists completions, margins and PAT for both quarters.">
+<text x="20.0" y="26.0" class="t-md" fill="#1F4E79">Reading the numbers (I): the record quarter for sales was a thin one for profit</text>
+<text x="20.0" y="46.0" class="t" fill="#5a6a78">Q1FY27 → Q2FY27, ₹ Cr, consolidated</text>
+<line x1="90.0" y1="330.0" x2="470.0" y2="330.0" stroke="#eef1f5" stroke-width="1"/>
+<text x="82.0" y="334.0" class="t-sm" fill="#5a6a78" text-anchor="end">0</text>
+<line x1="90.0" y1="265.0" x2="470.0" y2="265.0" stroke="#eef1f5" stroke-width="1"/>
+<text x="82.0" y="269.0" class="t-sm" fill="#5a6a78" text-anchor="end">250</text>
+<line x1="90.0" y1="200.0" x2="470.0" y2="200.0" stroke="#eef1f5" stroke-width="1"/>
+<text x="82.0" y="204.0" class="t-sm" fill="#5a6a78" text-anchor="end">500</text>
+<line x1="90.0" y1="135.0" x2="470.0" y2="135.0" stroke="#eef1f5" stroke-width="1"/>
+<text x="82.0" y="139.0" class="t-sm" fill="#5a6a78" text-anchor="end">750</text>
+<line x1="90.0" y1="70.0" x2="470.0" y2="70.0" stroke="#eef1f5" stroke-width="1"/>
+<text x="82.0" y="74.0" class="t-sm" fill="#5a6a78" text-anchor="end">1,000</text>
+<line x1="150.0" y1="169.6" x2="410.0" y2="65.1" stroke="#1F4E79" stroke-width="3"/>
+<circle cx="150" cy="169.6" r="5" fill="#1F4E79"/>
+<circle cx="410" cy="65.1" r="5" fill="#1F4E79"/>
+<text x="140.0" y="173.6" class="t-sm" fill="#1F4E79" text-anchor="end" font-weight="700">617</text>
+<text x="420.0" y="69.1" class="t-sm" fill="#1F4E79" font-weight="700">1,019</text>
+<line x1="150.0" y1="90.8" x2="410.0" y2="243.2" stroke="#c9821b" stroke-width="3"/>
+<circle cx="150" cy="90.8" r="5" fill="#c9821b"/>
+<circle cx="410" cy="243.2" r="5" fill="#c9821b"/>
+<text x="140.0" y="94.8" class="t-sm" fill="#c9821b" text-anchor="end" font-weight="700">920</text>
+<text x="420.0" y="247.2" class="t-sm" fill="#c9821b" font-weight="700">334</text>
+<line x1="150.0" y1="280.7" x2="410.0" y2="330.1" stroke="#b3261e" stroke-width="3"/>
+<circle cx="150" cy="280.7" r="5" fill="#b3261e"/>
+<circle cx="410" cy="330.1" r="5" fill="#b3261e"/>
+<text x="140.0" y="284.7" class="t-sm" fill="#b3261e" text-anchor="end" font-weight="700">189.5</text>
+<text x="420.0" y="334.1" class="t-sm" fill="#b3261e" font-weight="700">-0.3</text>
+<text x="150.0" y="352.0" class="t" fill="#1F4E79" text-anchor="middle" font-weight="700">Q1FY27</text>
+<text x="410.0" y="352.0" class="t" fill="#1F4E79" text-anchor="middle" font-weight="700">Q2FY27</text>
+<text x="460.0" y="69.1" class="t-sm" fill="#1F4E79">Pre-sales</text>
+<text x="460.0" y="247.2" class="t-sm" fill="#c9821b">Revenue</text>
+<text x="460.0" y="326.0" class="t-sm" fill="#b3261e">Operating profit</text>
+<text x="460.0" y="339.0" class="t-sm" fill="#b3261e">(ex other income)</text>
+<rect x="600.0" y="64.0" width="345.0" height="26.0" rx="0" fill="#eef3f8" />
+<text x="608.0" y="82.0" class="t-sm" fill="#1F4E79" font-weight="700"></text>
+<text x="830.0" y="82.0" class="t-sm" fill="#1F4E79" text-anchor="end" font-weight="700">Q1FY27</text>
+<text x="935.0" y="82.0" class="t-sm" fill="#1F4E79" text-anchor="end" font-weight="700">Q2FY27</text>
+<line x1="600.0" y1="91.0" x2="945.0" y2="91.0" stroke="#d5dde6" stroke-width="1"/>
+<text x="608.0" y="110.0" class="t-sm" fill="#1F4E79">Area completed (Mn sq ft)</text>
+<text x="830.0" y="110.0" class="t-sm" fill="#1F4E79" text-anchor="end" font-weight="700">~1.27</text>
+<text x="935.0" y="110.0" class="t-sm" fill="#1F4E79" text-anchor="end" font-weight="700">~0.36</text>
+<line x1="600.0" y1="119.0" x2="945.0" y2="119.0" stroke="#d5dde6" stroke-width="1"/>
+<text x="608.0" y="138.0" class="t-sm" fill="#1F4E79">Revenue</text>
+<text x="830.0" y="138.0" class="t-sm" fill="#1F4E79" text-anchor="end" font-weight="700">₹920</text>
+<text x="935.0" y="138.0" class="t-sm" fill="#1F4E79" text-anchor="end" font-weight="700">₹334</text>
+<line x1="600.0" y1="147.0" x2="945.0" y2="147.0" stroke="#d5dde6" stroke-width="1"/>
+<text x="608.0" y="166.0" class="t-sm" fill="#1F4E79">Operating profit before other income</text>
+<text x="830.0" y="166.0" class="t-sm" fill="#1F4E79" text-anchor="end" font-weight="700">₹189.5</text>
+<text x="935.0" y="166.0" class="t-sm" fill="#b3261e" text-anchor="end" font-weight="700">−₹0.3</text>
+<line x1="600.0" y1="175.0" x2="945.0" y2="175.0" stroke="#d5dde6" stroke-width="1"/>
+<text x="608.0" y="194.0" class="t-sm" fill="#1F4E79">Reg 52(4) operating margin</text>
+<text x="830.0" y="194.0" class="t-sm" fill="#1F4E79" text-anchor="end" font-weight="700">20.61%</text>
+<text x="935.0" y="194.0" class="t-sm" fill="#b3261e" text-anchor="end" font-weight="700">−0.09%</text>
+<line x1="600.0" y1="203.0" x2="945.0" y2="203.0" stroke="#d5dde6" stroke-width="1"/>
+<text x="608.0" y="222.0" class="t-sm" fill="#1F4E79">Other income</text>
+<text x="830.0" y="222.0" class="t-sm" fill="#1F4E79" text-anchor="end" font-weight="700">₹17.1</text>
+<text x="935.0" y="222.0" class="t-sm" fill="#1F4E79" text-anchor="end" font-weight="700">₹17.1</text>
+<line x1="600.0" y1="231.0" x2="945.0" y2="231.0" stroke="#d5dde6" stroke-width="1"/>
+<text x="608.0" y="250.0" class="t-sm" fill="#1F4E79">PAT</text>
+<text x="830.0" y="250.0" class="t-sm" fill="#1F4E79" text-anchor="end" font-weight="700">₹146.7</text>
+<text x="935.0" y="250.0" class="t-sm" fill="#1F4E79" text-anchor="end" font-weight="700">₹5.7</text>
+<line x1="600.0" y1="259.0" x2="945.0" y2="259.0" stroke="#d5dde6" stroke-width="1"/>
+<text x="608.0" y="278.0" class="t-sm" fill="#1F4E79">Release's "EBITDA margin"</text>
+<text x="830.0" y="278.0" class="t-sm" fill="#1F4E79" text-anchor="end" font-weight="700">22.0%</text>
+<text x="935.0" y="278.0" class="t-sm" fill="#1F4E79" text-anchor="end" font-weight="700">4.9%</text>
+<line x1="600.0" y1="287.0" x2="945.0" y2="287.0" stroke="#d5dde6" stroke-width="1"/>
+<text x="608.0" y="306.0" class="t-sm" fill="#1F4E79">Pre-sales (a record)</text>
+<text x="830.0" y="306.0" class="t-sm" fill="#1F4E79" text-anchor="end" font-weight="700">₹617</text>
+<text x="935.0" y="306.0" class="t-sm" fill="#1F4E79" text-anchor="end" font-weight="700">₹1,019</text>
+<line x1="600.0" y1="315.0" x2="945.0" y2="315.0" stroke="#d5dde6" stroke-width="1"/>
+<text x="600.0" y="344.0" class="t-sm" fill="#5a6a78">Fixed costs — staff ₹34.9 Cr and other expenses</text>
+<text x="600.0" y="358.0" class="t-sm" fill="#5a6a78">₹50.9 Cr in Q2 — run every quarter; revenue arrives</text>
+<text x="600.0" y="372.0" class="t-sm" fill="#5a6a78">only when buildings finish. Q2's profit is its other income.</text>
+</svg>
+<figcaption><strong>Figure 7.</strong> Filed consolidated results for the quarter ended 30-Sep-2026 (statements read from the rendered pages — they are images in the PDF) and the Reg 52(4) ratio table on the same filing. Completions: ~1.27 Mn sq ft in Q1 (Q1FY27 release) and ~1.63 Mn sq ft for H1 (Q2FY27 release); Q2's ~0.36 is <strong>my subtraction</strong>. Operating profit before other income is revenue less expenses excluding finance cost and depreciation — <strong>my arithmetic, and it reconciles to the company's own −0.09% margin</strong>. Lines on one axis from zero.</figcaption>
+</figure>
+
+<p>The press release's headline, <em>"Healthy EBITDA Margins in H1 FY27: 17%"</em>, is correct and needs three qualifiers, all from the company's own filing. It is a <strong>half-year</strong> figure, so it includes Q1. It is measured on <strong>total income</strong>, so it includes other income. And it is an <strong>average</strong> of a 22.0% first quarter and a 4.9% second. On the narrower definition the company uses in its Reg 52(4) ratio table — operating profit excluding other income, over revenue — <strong>Q2's margin was −0.09%</strong>: ₹334.4 Cr of revenue against ₹334.7 Cr of operating cost. Q2's ₹9 Cr of profit before tax is essentially its ₹17 Cr of other income, less interest and depreciation.</p>
+
+<div class="box good">
+<h4>What this is not</h4>
+<p style="margin:6px 0">It is not deterioration. Completed area fell from ~1.27 Mn sq ft in Q1 to ~0.36 Mn sq ft in Q2, while staff and overhead costs — which a developer expenses every quarter — kept running. The company said as much in July 2025: <em>"margins look impaired on account of lower revenue recognition coupled with fixed cost recognition which is charged to PnL."</em> <strong>The way to read any single quarter's margin here is alongside that quarter's completed area</strong>, which the company discloses only in its press releases and only approximately.</p>
+</div>
+
+<!-- ============================ §8 ============================ -->
+<h2 id="s8"><span class="n">8.</span> 🔴 Reading the numbers (II): average realisation is a map</h2>
+
+<p>"Average realisation" — pre-sales value divided by area sold — looks like a price. On this company it is mostly a measure of <strong>where</strong> the quarter's sales happened, because a square foot in Mumbai sells for about ₹19,000 and a square foot in Pune for ₹7,300–8,300 (Q1 and Q2FY27 regional tables).</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 422" role="img" aria-label="Four rows, Q1FY26 to Q2FY27. Mumbai&#x27;s share of pre-sales value is 3, 6, 30 and 5 percent. The blended realisation is 7,337, 7,823, 9,442 and 7,829 rupees per square foot, while Pune alone stays between about 7,170 and 7,780.">
+<text x="20.0" y="26.0" class="t-md" fill="#1F4E79">Reading the numbers (II): 'average realisation' is a map of where the company sold, not a price</text>
+<text x="20.0" y="46.0" class="t" fill="#5a6a78">Left: share of each quarter's pre-sales value by region. Right: blended ₹ per sq ft vs Pune alone</text>
+<text x="20.0" y="98.0" class="t" fill="#1F4E79" font-weight="700">Q1FY26</text>
+<rect x="90.0" y="82.0" width="347.7" height="26.0" rx="0" fill="#2E75B6" />
+<rect x="437.7" y="82.0" width="11.7" height="26.0" rx="0" fill="#1F4E79" />
+<rect x="449.4" y="82.0" width="0.6" height="26.0" rx="0" fill="#9cc1e3" />
+<text x="96.0" y="100.0" class="t-sm" fill="#ffffff" font-weight="700">Pune 97%</text>
+<text x="458.0" y="100.0" class="t-sm" fill="#1F4E79" font-weight="700">Mumbai 3%</text>
+<line x1="560.0" y1="95.0" x2="930.0" y2="95.0" stroke="#eef1f5" stroke-width="6"/>
+<circle cx="630.7" cy="95" r="7" fill="#2E75B6"/>
+<circle cx="648.5" cy="95" r="7" fill="#1F4E79" stroke="#ffffff" stroke-width="2"/>
+<text x="648.5" y="82.0" class="t-sm" fill="#1F4E79" text-anchor="middle" font-weight="700">₹7,337</text>
+<text x="630.7" y="118.0" class="t-sm" fill="#2E75B6" text-anchor="middle">~₹7,169</text>
+<text x="20.0" y="164.0" class="t" fill="#1F4E79" font-weight="700">Q2FY26</text>
+<rect x="90.0" y="148.0" width="334.2" height="26.0" rx="0" fill="#2E75B6" />
+<rect x="424.2" y="148.0" width="20.4" height="26.0" rx="0" fill="#1F4E79" />
+<rect x="444.6" y="148.0" width="5.4" height="26.0" rx="0" fill="#9cc1e3" />
+<text x="96.0" y="166.0" class="t-sm" fill="#ffffff" font-weight="700">Pune 93%</text>
+<text x="458.0" y="166.0" class="t-sm" fill="#1F4E79" font-weight="700">Mumbai 6%</text>
+<line x1="560.0" y1="161.0" x2="930.0" y2="161.0" stroke="#eef1f5" stroke-width="6"/>
+<circle cx="665.1" cy="161" r="7" fill="#2E75B6"/>
+<circle cx="699.9" cy="161" r="7" fill="#1F4E79" stroke="#ffffff" stroke-width="2"/>
+<text x="699.9" y="148.0" class="t-sm" fill="#1F4E79" text-anchor="middle" font-weight="700">₹7,823</text>
+<text x="665.1" y="184.0" class="t-sm" fill="#2E75B6" text-anchor="middle">~₹7,494</text>
+<text x="20.0" y="230.0" class="t" fill="#1F4E79" font-weight="700">Q1FY27</text>
+<rect x="90.0" y="214.0" width="252.1" height="26.0" rx="0" fill="#2E75B6" />
+<rect x="342.1" y="214.0" width="106.8" height="26.0" rx="0" fill="#1F4E79" />
+<rect x="448.8" y="214.0" width="1.2" height="26.0" rx="0" fill="#9cc1e3" />
+<text x="96.0" y="232.0" class="t-sm" fill="#ffffff" font-weight="700">Pune 70%</text>
+<text x="458.0" y="232.0" class="t-sm" fill="#1F4E79" font-weight="700">Mumbai 30%</text>
+<line x1="560.0" y1="227.0" x2="930.0" y2="227.0" stroke="#eef1f5" stroke-width="6"/>
+<circle cx="695.4" cy="227" r="7" fill="#2E75B6"/>
+<circle cx="871.0" cy="227" r="7" fill="#1F4E79" stroke="#ffffff" stroke-width="2"/>
+<text x="871.0" y="214.0" class="t-sm" fill="#1F4E79" text-anchor="middle" font-weight="700">₹9,442</text>
+<text x="695.4" y="250.0" class="t-sm" fill="#2E75B6" text-anchor="middle">~₹7,781</text>
+<text x="20.0" y="296.0" class="t" fill="#1F4E79" font-weight="700">Q2FY27</text>
+<rect x="90.0" y="280.0" width="343.1" height="26.0" rx="0" fill="#2E75B6" />
+<rect x="433.1" y="280.0" width="16.9" height="26.0" rx="0" fill="#1F4E79" />
+<text x="96.0" y="298.0" class="t-sm" fill="#ffffff" font-weight="700">Pune 95%</text>
+<text x="458.0" y="298.0" class="t-sm" fill="#1F4E79" font-weight="700">Mumbai 5%</text>
+<line x1="560.0" y1="293.0" x2="930.0" y2="293.0" stroke="#eef1f5" stroke-width="6"/>
+<circle cx="677.4" cy="293" r="7" fill="#2E75B6"/>
+<circle cx="700.5" cy="293" r="7" fill="#1F4E79" stroke="#ffffff" stroke-width="2"/>
+<text x="700.5" y="280.0" class="t-sm" fill="#1F4E79" text-anchor="middle" font-weight="700">₹7,829</text>
+<text x="677.4" y="316.0" class="t-sm" fill="#2E75B6" text-anchor="middle">~₹7,611</text>
+<line x1="612.9" y1="70.0" x2="612.9" y2="330.0" stroke="#eef1f5" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="612.9" y="344.0" class="t-sm" fill="#5a6a78" text-anchor="middle">₹7,000</text>
+<line x1="718.6" y1="70.0" x2="718.6" y2="330.0" stroke="#eef1f5" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="718.6" y="344.0" class="t-sm" fill="#5a6a78" text-anchor="middle">₹8,000</text>
+<line x1="824.3" y1="70.0" x2="824.3" y2="330.0" stroke="#eef1f5" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="824.3" y="344.0" class="t-sm" fill="#5a6a78" text-anchor="middle">₹9,000</text>
+<line x1="930.0" y1="70.0" x2="930.0" y2="330.0" stroke="#eef1f5" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="930.0" y="344.0" class="t-sm" fill="#5a6a78" text-anchor="middle">₹10,000</text>
+<rect x="90.0" y="352.0" width="12.0" height="12.0" rx="0" fill="#2E75B6" />
+<text x="108.0" y="362.0" class="t-sm">Pune incl. Life Republic</text>
+<rect x="270.0" y="352.0" width="12.0" height="12.0" rx="0" fill="#1F4E79" />
+<text x="288.0" y="362.0" class="t-sm">Mumbai (MMR) — sells at ~₹19,000/sq ft</text>
+<circle cx="566" cy="358" r="6" fill="#1F4E79"/>
+<text x="578.0" y="362.0" class="t-sm">blended (reported)</text>
+<circle cx="716" cy="358" r="6" fill="#2E75B6"/>
+<text x="728.0" y="362.0" class="t-sm">Pune alone (derived)</text>
+<text x="20.0" y="394.0" class="t" fill="#1F4E79" font-weight="700">Q1FY27's '+29% realisation' was ~+9% in Pune; the rest was Mumbai's share jumping from 3% to 30%.</text>
+<text x="20.0" y="412.0" class="t" fill="#1F4E79" font-weight="700">In Q2 Mumbai fell back to 5% of sales, and the blended figure went 'flat'.</text>
+</svg>
+<figcaption><strong>Figure 8.</strong> Regional pre-sales tables in the Q2FY26 (slides 13–14), Q1FY27 (slide 13) and Q2FY27 (slides 12–13) decks; Q1FY26 is H1FY26 less Q2FY26. Pune-alone ₹/sq ft is <strong>my division</strong> of Pune value by Pune area; the Q1FY26 and Q2FY26 areas are given to two decimals (0.83 Mn sq ft each), so those two points carry roughly ±1% rounding. Blended figures are the company's. The right-hand axis does not start at zero — it is a dot plot of price levels, not a bar.</figcaption>
+</figure>
+
+<p>Two headline readings both mislead in the same way. In Q1FY27 the company reported realisation <strong>up 29%</strong> with sales value flat, which reads as "price is doing the work while volume falls 22%". Split by region, Pune's own price rose about 9%; the rest was Mumbai going from 3% of sales to 30%, and <strong>Pune's area sold actually fell about a third</strong>, cushioned by Mumbai. In Q2FY27 the company reported realisation <strong>flat</strong> with volume up 52%, which reads as "growth is all volume". Pune's own price rose about 2% year on year, Mumbai fell back to 5% of sales, and <strong>60% of the quarter's value came from a single launch.</strong> <span class="tag inf">MY INFERENCE</span> on the reading; the arithmetic uses only deck figures.</p>
+
+<div class="box warn">
+<h4>The same effect, one level down</h4>
+<p style="margin:6px 0">Inside Pune the mix matters too. <strong>Life Republic sold ₹171 Cr in Q2FY27 against ₹365 Cr a year earlier (−53%)</strong>, and ₹212 Cr against ~₹354 Cr in Q1 (−40%). The township was 51% of FY26 pre-sales and 17% of Q2FY27's. The record quarter therefore combined a new project's launch with the established township selling at half its year-earlier pace — two movements a single total cannot show. The company has not explained the Life Republic decline, and there has been no call at which to ask.</p>
+</div>
+
+<!-- ============================ §9 ============================ -->
+<h2 id="s9"><span class="n">9.</span> 🔴 Reading the numbers (III): what counts as debt</h2>
+
+<p>The Q2FY27 deck reports <strong>"Net Debt ₹(466) Cr"</strong> — a net cash position. The figure is arithmetically right on the company's definition, which subtracts <strong>zero-coupon NCDs</strong> (non-convertible debentures that pay no interest along the way) from debt before netting cash.</p>
+
+<figure class="dg">
+<svg viewBox="0 0 960 412" role="img" aria-label="Two bars: borrowings of 909 crore, of which 432 are zero-coupon NCDs, against cash and investments of 943 crore. Company net debt minus 466; counting the NCDs, net cash of about 34. Below, four NCD series show redemption premiums of 51, 27, 29 and 27 percent of principal redeemed.">
+<text x="20.0" y="26.0" class="t-md" fill="#1F4E79">Reading the numbers (III): 'net cash ₹466 Cr' depends on what you call debt</text>
+<text x="20.0" y="46.0" class="t" fill="#5a6a78">₹ Cr, consolidated, 30-Sep-2026</text>
+<text x="20.0" y="92.0" class="t" fill="#1F4E79" font-weight="700">Borrowings (all)</text>
+<rect x="260.0" y="74.0" width="155.5" height="30.0" rx="0" fill="#c9821b" />
+<text x="266.0" y="94.0" class="t-sm" fill="#ffffff" font-weight="700">zero-coupon NCDs 432</text>
+<rect x="415.5" y="74.0" width="171.7" height="30.0" rx="0" fill="#1F4E79" />
+<text x="421.5" y="94.0" class="t-sm" fill="#ffffff" font-weight="700">other borrowings 477</text>
+<text x="595.2" y="94.0" class="t" fill="#1F4E79" font-weight="700">909</text>
+<text x="20.0" y="148.0" class="t" fill="#1F4E79" font-weight="700">Cash + current investments</text>
+<rect x="260.0" y="130.0" width="67.0" height="30.0" rx="0" fill="#1a6f4a" />
+<text x="266.0" y="150.0" class="t-sm" fill="#ffffff" font-weight="700">cash 186</text>
+<rect x="327.0" y="130.0" width="121.0" height="30.0" rx="0" fill="#5aa37f" />
+<text x="333.0" y="150.0" class="t-sm" fill="#ffffff" font-weight="700">other bank bal. 336</text>
+<rect x="447.9" y="130.0" width="151.6" height="30.0" rx="0" fill="#9fd0b5" />
+<text x="453.9" y="150.0" class="t-sm" fill="#ffffff" font-weight="700">current inv. 421</text>
+<text x="607.5" y="150.0" class="t" fill="#1F4E79" font-weight="700">943</text>
+<line x1="260.0" y1="64.0" x2="260.0" y2="186.0" stroke="#8a99a8" stroke-width="1.2"/>
+<rect x="20.0" y="196.0" width="440.0" height="72.0" rx="6" fill="#f4f8fc" stroke="#9cc1e3" />
+<text x="34.0" y="218.0" class="t-sm" fill="#1F4E79" font-weight="700">Company's definition: borrowings − ZCNs − cash</text>
+<text x="34.0" y="238.0" class="t" fill="#1F4E79">(909 − 432) − 943 = −466  →  'net cash ₹466 Cr'</text>
+<text x="34.0" y="256.0" class="t-sm" fill="#5a6a78">Q2FY27 investor presentation, slide 16</text>
+<rect x="480.0" y="196.0" width="460.0" height="72.0" rx="6" fill="#fff8e6" stroke="#ecd9a8" />
+<text x="494.0" y="218.0" class="t-sm" fill="#1F4E79" font-weight="700">Counting the zero-coupon NCDs as debt</text>
+<text x="494.0" y="238.0" class="t" fill="#1F4E79">909 − 943 = −34  →  net cash of about ₹34 Cr</text>
+<text x="494.0" y="256.0" class="t-sm" fill="#5a6a78">my arithmetic, same figures</text>
+<text x="20.0" y="300.0" class="t-sm" fill="#1F4E79" font-weight="700">And 'zero coupon' is not 'zero cost' — the four listed series, cost paid so far as a premium on principal redeemed:</text>
+<text x="20.0" y="329.0" class="t-sm" fill="#5a6a78">INE094I07049</text>
+<rect x="130.0" y="317.0" width="169.7" height="16.0" rx="0" fill="#1F4E79" />
+<rect x="299.7" y="317.0" width="86.5" height="16.0" rx="0" fill="#c9821b" />
+<text x="392.2" y="329.0" class="t-sm" fill="#1F4E79" font-weight="700">₹121.2 Cr redeemed + ₹61.8 Cr premium = 51%</text>
+<text x="20.0" y="355.0" class="t-sm" fill="#5a6a78">INE094I07072</text>
+<rect x="130.0" y="343.0" width="121.9" height="16.0" rx="0" fill="#1F4E79" />
+<rect x="251.9" y="343.0" width="33.3" height="16.0" rx="0" fill="#c9821b" />
+<text x="291.3" y="355.0" class="t-sm" fill="#1F4E79" font-weight="700">₹87.1 Cr redeemed + ₹23.8 Cr premium = 27%</text>
+<text x="20.0" y="381.0" class="t-sm" fill="#5a6a78">INE094I07080</text>
+<rect x="130.0" y="369.0" width="21.1" height="16.0" rx="0" fill="#1F4E79" />
+<rect x="151.1" y="369.0" width="6.1" height="16.0" rx="0" fill="#c9821b" />
+<text x="163.2" y="381.0" class="t-sm" fill="#1F4E79" font-weight="700">₹15.1 Cr redeemed + ₹4.3 Cr premium = 29%</text>
+<text x="20.0" y="407.0" class="t-sm" fill="#5a6a78">INE094I07098</text>
+<rect x="130.0" y="395.0" width="21.9" height="16.0" rx="0" fill="#1F4E79" />
+<rect x="151.9" y="395.0" width="5.9" height="16.0" rx="0" fill="#c9821b" />
+<text x="163.8" y="407.0" class="t-sm" fill="#1F4E79" font-weight="700">₹15.6 Cr redeemed + ₹4.2 Cr premium = 27%</text>
+<rect x="690.0" y="318.0" width="12.0" height="12.0" rx="0" fill="#1F4E79" />
+<text x="708.0" y="328.0" class="t-sm">principal redeemed</text>
+<rect x="690.0" y="338.0" width="12.0" height="12.0" rx="0" fill="#c9821b" />
+<text x="708.0" y="348.0" class="t-sm">redemption premium paid</text>
+<text x="690.0" y="372.0" class="t-sm" fill="#1F4E79" font-weight="700">Interest paid in cash, H1: ₹60.6 Cr.</text>
+<text x="690.0" y="386.0" class="t-sm" fill="#1F4E79" font-weight="700">Finance cost in the P&L: ₹5.6 Cr.</text>
+<text x="690.0" y="400.0" class="t-sm" fill="#5a6a78">The rest is capitalised into inventory.</text>
+</svg>
+<figcaption><strong>Figure 9.</strong> Borrowings, cash, other bank balances and current investments: the filed consolidated balance sheet at 30-Sep-2026. The ₹432 Cr of zero-coupon NCDs is the deck's figure; the split of the remaining ₹477 Cr is my subtraction. NCD principal and premium: note 5 to the results; percentages are <strong>my division</strong>. <em>"The NCDs shall be redeemed at premium which is linked to collections made from sale of the earmarked units."</em> Interest paid: the H1 cash-flow statement; capitalisation: the Reg 52(4) footnote (<em>"Finance cost charged to P&amp;L and finance cost capitalised"</em>). <strong>How much of the ₹336 Cr of other bank balances is restricted escrow is not disclosed.</strong> Bars on one axis from zero within each panel.</figcaption>
+</figure>
+
+<p>The zero-coupon NCDs are real borrowings: they are inside the ₹909 Cr on the balance sheet, rated by CARE and CRISIL, and secured on project land and receivables. What makes them different is <strong>how they are repaid</strong> — out of collections from specific "earmarked" units as those units are sold, together with a premium that is also linked to those collections. <span class="tag inf">MY INFERENCE</span> That makes them closer to project-level financing that shares in sales than to a bank loan, which is presumably why the company nets them out; it is also why <strong>"zero coupon" does not mean "zero cost"</strong> — on the oldest listed series the premium paid so far equals 51% of the principal redeemed.</p>
+
+<p>A related effect hides the cost of borrowing from the P&amp;L. <strong>Interest is capitalised</strong> — added to the cost of the homes under construction — and reaches the income statement only when those homes complete, inside cost of sales. In H1FY27 the company paid ₹60.6 Cr of interest in cash and showed ₹5.6 Cr as finance cost. <strong>So the P&amp;L's interest line understates the cost of debt in every quarter, and the gross margin at completion absorbs it.</strong></p>
+
+<!-- ============================ §10 ============================ -->
+<h2 id="s10"><span class="n">10.</span> The counterweight: approvals, concentration and the cash that leaves</h2>
+
+<h3>Customer money funds the build — but only half of it reaches the site</h3>
+
+<figure class="dg">
+<svg viewBox="0 0 960 384" role="img" aria-label="A waterfall from 100 rupees of collections: construction takes 49.7, other expenses 11.5, taxes 9.3, leaving 29.5 of operating cash flow; TDR, premia and approvals take 9.8 and partner and land payouts 9.6, leaving about 10.">
+<text x="20.0" y="26.0" class="t-md" fill="#1F4E79">Where ₹100 of customer money went in FY26</text>
+<text x="20.0" y="46.0" class="t" fill="#5a6a78">Company's abridged cash flow, FY26 (unaudited, includes associates). FY26 collections ₹2,683 Cr = 100</text>
+<text x="20.0" y="83.0" class="t" fill="#1F4E79" font-weight="700">Collections</text>
+<rect x="300.0" y="68.0" width="560.0" height="24.0" rx="0" fill="#1F4E79" />
+<text x="868.0" y="85.0" class="t" fill="#1F4E79" font-weight="700">100</text>
+<text x="20.0" y="119.0" class="t" fill="#1F4E79">Construction cost</text>
+<rect x="581.7" y="104.0" width="278.3" height="24.0" rx="0" fill="#b3261e" opacity=".8"/>
+<text x="868.0" y="121.0" class="t" fill="#b3261e" font-weight="700">-49.7</text>
+<text x="20.0" y="155.0" class="t" fill="#1F4E79">Other expenses</text>
+<rect x="517.3" y="140.0" width="64.4" height="24.0" rx="0" fill="#b3261e" opacity=".8"/>
+<text x="589.7" y="157.0" class="t" fill="#b3261e" font-weight="700">-11.5</text>
+<text x="20.0" y="191.0" class="t" fill="#1F4E79">Direct + indirect taxes</text>
+<rect x="465.2" y="176.0" width="52.1" height="24.0" rx="0" fill="#b3261e" opacity=".8"/>
+<text x="525.3" y="193.0" class="t" fill="#b3261e" font-weight="700">-9.3</text>
+<text x="20.0" y="227.0" class="t" fill="#1F4E79" font-weight="700">= 'Operating cash flow'</text>
+<rect x="300.0" y="212.0" width="165.2" height="24.0" rx="0" fill="#2E75B6" />
+<text x="473.2" y="229.0" class="t" fill="#1F4E79" font-weight="700">29.5</text>
+<text x="20.0" y="263.0" class="t" fill="#1F4E79">TDR, premia, approvals, new projects</text>
+<rect x="410.3" y="248.0" width="54.9" height="24.0" rx="0" fill="#c9821b" opacity=".8"/>
+<text x="473.2" y="265.0" class="t" fill="#c9821b" font-weight="700">-9.8</text>
+<text x="20.0" y="299.0" class="t" fill="#1F4E79">JV partners, land, PE payouts</text>
+<rect x="356.6" y="284.0" width="53.8" height="24.0" rx="0" fill="#c9821b" opacity=".8"/>
+<text x="418.3" y="301.0" class="t" fill="#c9821b" font-weight="700">-9.6</text>
+<text x="20.0" y="335.0" class="t" fill="#1F4E79" font-weight="700">= left before financing</text>
+<rect x="300.0" y="320.0" width="56.6" height="24.0" rx="0" fill="#2E75B6" />
+<text x="364.6" y="337.0" class="t" fill="#1F4E79" font-weight="700">10.1</text>
+<line x1="300.0" y1="58.0" x2="300.0" y2="352.0" stroke="#8a99a8" stroke-width="1.2"/>
+<text x="20.0" y="372.0" class="t-sm" fill="#1F4E79" font-weight="700">H1FY27 for comparison (₹1,509 Cr = 100): construction 51.9 · other 8.4 · taxes 10.8 → operating cash flow 29.0 · land, approvals, partners 7.8 → 21.1 left.</text>
+</svg>
+<figcaption><strong>Figure 10.</strong> Abridged cash flows in the Q4FY26 investor presentation (FY26 column) and the Q2FY27 presentation (H1FY27); shares are <strong>my division</strong>. This is the company's own presentation, <strong>not the Ind AS cash-flow statement</strong>: it includes associates that are not consolidated (~₹78 Cr of the closing balance at 30-Sep-2026) and classes land, TDR and approval payments as investing. On the Ind AS statement, H1FY27 operating cash flow was ₹322 Cr against this view's ₹437 Cr. Bars on one axis from zero.</figcaption>
+</figure>
+
+<p>Of every ₹100 a buyer paid in FY26, about ₹50 went into construction and another ₹21 into overheads and taxes; land, approval premia, TDR (transferable development rights) and payouts to joint-venture partners took a further ₹19. <strong>About ₹10 was left before any borrowing or repayment.</strong> Customer funding is real, but it is not free cash: most of it is committed to building the homes it paid for.</p>
+
+<h3>The approvals clock, and an unexplained change in Mumbai</h3>
+<p>Land banked is not land sellable. Pune outside Life Republic has 4.2 Mn sq ft "under approval"; the six new Mumbai projects are guided "subject to requisite approvals". <strong>And between the Q1 and Q2FY27 decks, Mumbai's portfolio fell from ₹8,900 Cr of GDV and 3.49 Mn sq ft to ₹7,400 Cr and 2.89 Mn sq ft</strong>, in a quarter in which Mumbai sold ₹48 Cr and 0.03 Mn sq ft. The boilerplate count of Mumbai projects moved from nineteen (nine future) to seventeen (seven future). <strong>The deck does not say which projects left or why.</strong> The deck also changed its project-counting method this quarter, so counts may be re-based — GDV is not a count.</p>
+
+<h3>Concentration and inputs</h3>
+<p>Life Republic was more than half of FY26's sales and is the largest block of land; Pune as a whole was 95% of Q2FY27's. Construction cost — roughly half of every rupee collected — is steel, cement, labour and contractors, <strong>none of which the company breaks out</strong>; no commodity series tracked for this watchlist maps onto it with any precision.</p>
+
+<!-- ============================ §11 ============================ -->
+<h2 id="s11"><span class="n">11.</span> Mechanism &rarr; metric</h2>
+<div class="tw"><table>
+<tr><th>Mechanism</th><th>Where it shows up</th><th>Latest reading</th><th>Source</th></tr>
+<tr><td>Homes are sold years before they are complete</td><td>Pre-sales (value, area)</td><td>Q2FY27 ₹1,019 Cr on 1.30 Mn sq ft (records); H1 ₹1,636 Cr</td><td>Q2FY27 deck, slide 11</td></tr>
+<tr><td>Buyers pay as construction progresses</td><td>Collections; customer advances in other current liabilities</td><td>Q2 ₹795 Cr (+33%); other current liabilities ₹4,519 Cr at 30-Sep</td><td>Deck slide 11; balance sheet</td></tr>
+<tr><td>Revenue and profit on completion (CCM)</td><td>Revenue, PAT, margins swing with completed area</td><td>Q1 ₹920 Cr on ~1.27 Mn sq ft; Q2 ₹334 Cr on ~0.36</td><td>Results; Q1 and Q2 releases</td></tr>
+<tr><td>Fixed costs expensed every quarter</td><td>Operating margin in low-completion quarters</td><td>Q2 Reg 52(4) operating margin −0.09%; release EBITDA 4.9% incl. other income</td><td>Results, Reg 52(4) table</td></tr>
+<tr><td>Price differs ~2.5x between Mumbai and Pune</td><td>Blended realisation</td><td>Q1 ₹9,442 (Mumbai 30%) → Q2 ₹7,829 (Mumbai 5%); Pune alone ~₹7,780 → ~₹7,610</td><td>Regional tables; Pune figures my division</td></tr>
+<tr><td>Launch-driven selling</td><td>Pre-sales concentration</td><td>Vyana ₹616 Cr = 60% of Q2</td><td>Deck slide 11</td></tr>
+<tr><td>Land model sets margin vs return</td><td>Blended project margin</td><td>Outright 25–28%; JDA/redevelopment ~14–15% (2025 guidance)</td><td>12-Feb-2025 call</td></tr>
+<tr><td>Zero-coupon NCDs repaid from earmarked sales</td><td>"Net debt" definition; redemption premium</td><td>Net debt −₹466 Cr (ex-ZCN ₹432 Cr); premium 27–51% of principal redeemed</td><td>Deck slide 16; results note 5</td></tr>
+<tr><td>Interest capitalised into inventory</td><td>P&amp;L finance cost vs cash interest</td><td>H1 ₹5.6 Cr vs ₹60.6 Cr</td><td>Results; cash-flow statement</td></tr>
+<tr><td>Approvals gate the land bank</td><td>Portfolio "under approval"; GDV changes</td><td>Pune ex-LR 4.17 Mn sq ft under approval; Mumbai GDV ₹8,900 → ₹7,400 Cr</td><td>Q1 and Q2 decks</td></tr>
+</table></div>
+
+<!-- ============================ §12 ============================ -->
+<h2 id="s12"><span class="n">12.</span> What is not disclosed</h2>
+<ul>
+<li><strong>Any management Q&amp;A since 30-Jul-2025.</strong> The calls for Q2FY26, Q3FY26, Q4FY26, Q1FY27 and Q2FY27 were each declined. Every mechanism quote on this page predates them.</li>
+<li><strong>The loading between saleable and carpet area</strong>, so ₹ per sq ft cannot be compared with developers that report on carpet area.</li>
+<li><strong>Completed area by quarter</strong> is given only approximately ("~1.27", "~1.63 Mn sq ft") in press releases, and not by project.</li>
+<li><strong>Project-level or model-level margins</strong> beyond the 2025 call ranges.</li>
+<li><strong>Society redevelopment terms</strong> — members' area entitlement, rent, corpus — for any Mumbai project.</li>
+<li><strong>What the ₹1,178 Cr of trade payables are</strong>: the line rose ₹518 Cr in six months, almost exactly the ₹524 Cr inventory build, with no split between contractors, landowners and approval dues.</li>
+<li><strong>How much of the ₹336 Cr of "other balances with banks" is restricted escrow</strong>, and the holders and terms of any zero-coupon NCDs beyond the four listed series (the deck's ₹432 Cr total is ₹81 Cr more than those four's outstanding principal).</li>
+<li><strong>Why Mumbai's portfolio fell ₹1,500 Cr of GDV in Q2FY27</strong>, and why Life Republic's pre-sales halved year on year.</li>
+<li><strong>The ~₹150 Cr GST Section 74 matter</strong> disclosed in June 2026 is not mentioned in the Q2FY27 results, release or deck.</li>
+</ul>
+
+<!-- ============================ §13 ============================ -->
+<h2 id="s13"><span class="n">13.</span> Glossary · Sources</h2>
+<dl class="glos">
+<dt>Pre-sales / sales value</dt><dd>The full price of homes for which sale agreements were signed in the period. An operating figure, not revenue.</dd>
+<dt>Collections</dt><dd>Cash actually received from buyers in the period.</dd>
+<dt>CCM</dt><dd>Completed-contract method: revenue and profit on a home are recognised only when it is complete and possession is given.</dd>
+<dt>Saleable area</dt><dd>The area a home is priced on, including a share of walls, balconies and common areas. Also "super built-up".</dd>
+<dt>Carpet area</dt><dd>The usable floor area inside a home's walls; the figure RERA requires sale agreements to state.</dd>
+<dt>Realisation</dt><dd>Pre-sales value divided by saleable area sold — a blended ₹ per sq ft.</dd>
+<dt>GDV</dt><dd>Gross development value: the company's estimate of total sale value if a project is fully built and sold at current prices. Not revenue, and not profit.</dd>
+<dt>RERA</dt><dd>Real Estate (Regulation and Development) Act, 2016. Requires project registration and that most buyer money for a project be kept in a separate bank account for that project.</dd>
+<dt>OC</dt><dd>Occupancy certificate — the municipal permission to occupy a finished building; in practice the trigger for possession.</dd>
+<dt>JDA</dt><dd>Joint development agreement: the landowner contributes land and receives a share of revenue or of the built area.</dd>
+<dt>Society redevelopment</dt><dd>Rebuilding an old co-operative housing society's building: members get new flats, the developer sells the extra floor area.</dd>
+<dt>FSI / TDR</dt><dd>Floor space index — the floor area allowed on a plot. Transferable development rights — extra floor area bought from elsewhere and loaded onto a plot.</dd>
+<dt>Zero-coupon NCD</dt><dd>A debenture paying no periodic interest; Kolte-Patil's are redeemed with a premium linked to sales of earmarked units.</dd>
+<dt>Capitalised interest</dt><dd>Interest added to the cost of inventory under construction instead of being expensed; it reaches the P&amp;L through cost of sales at completion.</dd>
+<dt>Reg 52(4)</dt><dd>The SEBI rule requiring companies with listed debt to publish a set of ratios with their results, including an operating margin that excludes other income.</dd>
+</dl>
+
+<h3>Sources</h3>
+<ul>
+<li><strong>Q2FY27 results</strong> (filed 3-Nov-2026): consolidated statement of profit and loss, balance sheet at 30-Sep-2026, H1 cash-flow statement, note 5 (listed NCDs) and the Reg 52(4) ratio table. <strong>These pages are images in the PDF and were read from rendered pages</strong>; revenue cross-checked with Screener (₹334.37 Cr).</li>
+<li><strong>Investor presentations:</strong> Q2FY27 (3-Nov-2026), Q1FY27 (10-Aug-2026), Q4FY26 (May-2026), Q3FY26 (Feb-2026), Q2FY26 (Nov-2025) — operating tables, regional pre-sales, portfolio, abridged cash flows and net-debt tables. <strong>Press releases</strong> for Q2FY27 and Q1FY27 and the Vyana launch (10-Sep-2026).</li>
+<li><strong>Earnings-call transcripts (the last three that exist):</strong> Q3FY25 (12-Feb-2025), Q4FY25 (May-2025), Q1FY26 (30-Jul-2025), all led by Atul Bohra, then Group CEO, who resigned effective 11-Nov-2025.</li>
+<li><strong>NSE filings:</strong> notices declining post-results calls (11-Nov-2025, 3-Nov-2026 and the profile's record of the others); board and management changes (Aug–Dec 2025); the six-project MMR announcement (6-Aug-2026).</li>
+</ul>
+
+<hr>
+
+<p class="src"><strong>This page makes no investment judgement.</strong> Valuation, conviction, the weighted-return framework, the delivery scorecard and the risk register live in <a href="https://portfolio-stocks-chi.vercel.app/profile.html?stock=KOLTE">Company Profiles/KOLTE.md</a>. Built 11-Nov-2026.</p>
+
+</body>
+</html>
