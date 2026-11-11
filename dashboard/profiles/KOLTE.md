@@ -1,7 +1,7 @@
 # Kolte-Patil Developers (KPDL) — Company Profile
 
 **Ticker:** KOLTEPATIL · BSE: 532924 · NSE: KOLTEPATIL · **Sector:** 15 — Real Estate (Residential Developer — Pune + Mumbai + Bangalore)
-**Conviction:** **Medium-High (Under Watch)** · **Weighted 2-yr return:** ~+21% (≈10% CAGR) · no dividend
+**Conviction:** **Medium (Under Watch)** *(⤴ MH → M on 11-Nov-2026, Rajat's decision — downgrade trigger 3, a fifth quarter with no call, applied; see §5.5(a))* · **Weighted 2-yr return:** ~+21% (≈10% CAGR) · no dividend
 **Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 21-Aug-2026)* · **§4 numbers current to Q2FY27** *(results filed 3-Nov-2026, folded in 11-Nov-2026 — no call held; §6 scenarios not re-derived)* · **Tracking since:** 3-Jul-2026
 **CMP:** ₹469 · **Market Cap:** ₹4,152 cr · **P/B:** 3.45x (BV ₹136) · **52-wk range ₹292–₹557** · **Div yield:** 0.00% *(Screener consolidated, 21-Aug-2026)*
 
@@ -13,12 +13,12 @@
 **📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 444** · market cap ₹ 3,935 Cr. · P/E 28.1x · ROCE -0.32 % · ROE -4.36 % · 52-wk ₹ 557 / 292 · **vs ₹469 at baseline (-5.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 11-Nov-2026</span> <span class="upd-sum">🆕 🔴 ⤴ Q2 had NO earnings call — the fifth in a row (missed by the 4-Nov note); Q2 numbers now in §4; Group CEO had resigned Nov-2025 (profile corrected) · (earlier: 🆕 ⚪ Analyst meetings 12–13 Nov · (earlier: 🆕 🟢 Q2: record pre-sales ₹1,019cr (+52%), collections +33%; six Mumbai projects ~₹6,000cr GDV · (earlier: 🆕 ⚪ NSE volume-spurt query 23-Oct (stock +9.6%); reply pending · (earlier: 🟢 Record Q2 pre-sales ₹1,019cr (+52%); collections +33%; ₹6,000cr GDV signed in Mumbai · (earlier: CARE REAFFIRMS CARE AA- on the ₹250cr listed NCDs after reviewing FY26 and Q1FY27 · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: Strongest-ever launch: 600+ apartments and over ₹600cr of sales in 60 hours at 'Vyana at The Reserve', Pune; stock nonetheless −8%)))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 11-Nov-2026</span> <span class="upd-sum">🆕 🔴 MH → M (Under Watch): Q2 had NO earnings call — the fifth in a row (missed by the 4-Nov note); Q2 numbers now in §4; Group CEO had resigned Nov-2025 (profile corrected) · (earlier: 🆕 ⚪ Analyst meetings 12–13 Nov · (earlier: 🆕 🟢 Q2: record pre-sales ₹1,019cr (+52%), collections +33%; six Mumbai projects ~₹6,000cr GDV · (earlier: 🆕 ⚪ NSE volume-spurt query 23-Oct (stock +9.6%); reply pending · (earlier: 🟢 Record Q2 pre-sales ₹1,019cr (+52%); collections +33%; ₹6,000cr GDV signed in Mumbai · (earlier: CARE REAFFIRMS CARE AA- on the ₹250cr listed NCDs after reviewing FY26 and Q1FY27 · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: Strongest-ever launch: 600+ apartments and over ₹600cr of sales in 60 hours at 'Vyana at The Reserve', Pune; stock nonetheless −8%)))))))</span></summary>
 <div class="upd-body">
 
 **🔴 11-Nov-2026 — ⤴ CORRECTION: Q2FY27 had NO earnings call — the fifth consecutive quarter — and the 4-Nov entry below did not say so**
 At **21:29 IST on 3-Nov-2026**, the same evening as the results, the company filed an *"Update on Post-Results Conference Call"*: it *"will not host a conference call post announcement of the Q2 & H1 FY27 results."* **The reason is the 10-Aug wording repeated word for word** — *"a phase of integration and leadership transition… internal restructuring measures to further strengthen governance, enhance operational efficiency, and align with long-term strategic priorities"* (compared mechanically; only the period name differs). **And it is older than that: the Q2FY26 notice of 11-Nov-2025 already gave it** (*"integration and leadership transition… internal restructuring measures and Board-level realignments…"*), so this profile's statement that 10-Aug-2026 was the first time a reason was given is also corrected. **The 4-Nov entry summarised that evening's results filings and missed this notice — the observation this profile names as its single highest-value signal.** The two meetings on 12–13 Nov are one-on-ones (Axis Capital on 12-Nov), and the intimation says only *"publicly available information will only be shared."*
-> **Why it matters:** §5.5(a) downgrade trigger 3 — *"a fifth quarter with no call and no further explanation"* — **is met on its wording.** ⚠️ **FLAGGED FOR RAJAT, NOT APPLIED** (see §5.5(a)). Separately: **the Q2 numbers were only ever in this dropdown; they are now in §4**, and three things in them change earlier readings — Q2 made money only through other income, Q1's "price did the work" was mostly Mumbai mix, and Mumbai's portfolio lost ₹1,500cr of GDV without explanation.
+> **Why it matters:** §5.5(a) downgrade trigger 3 — *"a fifth quarter with no call and no further explanation"* — **is met on its wording.** ⚠️ **FLAGGED FOR RAJAT, NOT APPLIED** (see §5.5(a)). **⤴ APPLIED later the same day at Rajat's instruction: MH → MEDIUM (Under Watch).** Separately: **the Q2 numbers were only ever in this dropdown; they are now in §4**, and three things in them change earlier readings — Q2 made money only through other income, Q1's "price did the work" was mostly Mumbai mix, and Mumbai's portfolio lost ₹1,500cr of GDV without explanation.
 
 **⤴ 11-Nov-2026 — also corrected from NSE filings read today:** **Atul Bohra resigned as Group CEO effective 11-Nov-2025** (the evening of the Q2FY26 results, the first quarter with no call), so Parandekar is not "the first professional CEO". **Milind Kolte (Executive Director) and Yashvardhan Patil (Joint MD) resigned from the board on 11-Aug-2025.** Details in §3.5.
 
@@ -469,6 +469,7 @@ The 30-second snapshot:
 | 21-Aug-2026 | **HELD at MH (Under Watch)** | **The "leadership transition" cited for the blackout resolved into a named CEO** (19-Aug). Positive, and it makes the blackout look transitional — **but it is not a call, and the stock has given back 5.6% since** |
 | **19-Sep-2026** | **HELD at MH (Under Watch)** | Filings refresh: **strongest-ever launch — over ₹600cr of sales in 60 hours at Vyana at The Reserve, Pune** (company release, 10-Sep) — cuts against the 'volume declining' worry; stock −8% regardless. Blackout risk unchanged. |
 | **11-Nov-2026** | **HELD at MH (Under Watch) — ⚠️ downgrade trigger 3 FLAGGED, NOT APPLIED** | **Q2FY27: no call, the fifth; reason repeated word for word.** Trigger 3 is met on its wording; the decision is Rajat's. Triggers 1 and 2 did not fire (revenue ₹334cr with PAT +₹5.7cr; pre-sales ₹1,019cr). Q2 also showed Life Republic −53%, an operating margin of −0.09% before other income, and an unexplained ₹1,500cr fall in Mumbai GDV. |
+| **11-Nov-2026 (later)** | **MH → MEDIUM (Under Watch)** | **Rajat: "apply".** Downgrade trigger 3 applied — the fifth declined call, with the August reason copied two months after the CEO it referred to took office. Weighted return not re-derived. New watch triggers below. |
 
 **Upgrade triggers back to High:**
 1. **Calls resume** — that single event removes most of the discount in this profile.
@@ -482,6 +483,12 @@ The 30-second snapshot:
 3. **A fifth quarter with no call and no further explanation.**
 
 **Trigger status at Q2FY27 (11-Nov-2026):** Downgrade **1 — not fired** (₹334cr, PAT +₹5.7cr; operating line −₹0.3cr before other income) · **2 — not fired** (₹1,019cr) · **3 — ⚠️ met on its wording, FLAGGED, NOT APPLIED** (fifth declined call; the stated reason is the 10-Aug text unchanged). Upgrade **1 — no** · **2 — half met**: two consecutive positive-PAT quarters (₹147cr, ₹6cr), FY27 revenue above ₹1,500cr not yet (H1 ₹1,254cr) · **3 — no** (GST unmentioned) · **4 — no MMR launch yet** (window runs to ~Aug-2027).
+
+**⤴ 11-Nov-2026 — APPLIED at Rajat's instruction ("apply"): MH → MEDIUM (Under Watch).** Trigger 3 fired on its wording, and the profile's own §5 said a fifth silent quarter *"stops being transitional"*. **The weighted return is not re-derived** — this is a disclosure downgrade, not a change in the scenario arithmetic.
+
+**Back to Medium-High:** **a call is held** (the single event this profile has always named), **or** a filing that explains both the Mumbai GDV fall and the Life Republic decline.
+
+**Under Watch → Medium-Low** *(set 11-Nov-2026 by me, for Rajat to amend)*: **(1)** a sixth quarter without a call (Q3FY27 results, ~Feb-2027) with no new reason; **(2)** Q3FY27 pre-sales below ₹550cr; **(3)** no explanation of the ₹1,500cr Mumbai GDV fall by the FY27 annual report.
 
 ### (b) Material developments — newest first
 
@@ -660,7 +667,7 @@ v1's Source Appendix claimed *"ValuePickr — Kolte-Patil thread: **Active discu
 
 **What you're risking is concentrated in governance, not construction.** **Four consecutive quarters with no earnings call**, each formally declined. A **₹150cr GST claim under the fraud provision**, contested, and **absent from every Q1FY27 document.** Pre-sales *"broadly stable"* while **area sold fell ~22%.** A **12.28% float** where foreign institutions have been the only consistent buyer. **And a control change in which roughly two-thirds of Blackstone's 40% was bought from the founders rather than injected into the company.**
 
-**Weighted 2-year return ≈ +30% (≈14% CAGR), no dividend; bear case −60%. Conviction: Medium-High (Under Watch).** *A good business with an unusually large discount attached to a single fixable thing.*
+**Weighted 2-year return ≈ +30% (≈14% CAGR), no dividend; bear case −60%. Conviction: Medium (Under Watch)** *(Medium-High until 11-Nov-2026; cut when the fifth call was declined)*. *A good business with an unusually large discount attached to a single fixable thing.*
 
 **What to watch:** **⭐ whether Q2FY27 has an earnings call** — that one event removes most of the discount in this profile, and the *"leadership transition"* reason given for the last blackout has now visibly resolved. Then **Q2FY27 revenue and PAT** (cycle or spike?); **pre-sales volume against realisation**; the **six MMR launches** against the 6–12 month guidance; **any disclosure at all on the GST matter**; **how authority divides between the new CEO and the founding MD**; and **whether the float falls below 12%.**
 
