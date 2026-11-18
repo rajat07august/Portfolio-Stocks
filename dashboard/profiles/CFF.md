@@ -287,6 +287,18 @@ The company was incorporated on 16-Feb-2012 as **Flash Forge Fluid Control Pvt L
 
 ---
 
+### 🆕 H1FY27 fold-in — filings only *(18-Nov-2026; results 13-Nov (BSE 543920); TKMS joint venture 6–7 Nov; no call held; **cash-flow statement rendered**)*
+
+| ₹cr (standalone) | H1FY27 | H1FY26 | YoY |
+|---|---|---|---|
+| Revenue (Screener) | **118** | 96 | **+23%** |
+| Operating profit (OPM) | 43 (36%) | 32 (33%) | +34% |
+| PBT | **35.2** | 25.2 | +40% |
+| PAT (Screener) | **30** | 22 | +36% |
+| **Operating cash flow (rendered)** | **+50.6** | **−57.3** | **turned** |
+
+**The cash question that held conviction down has a first good answer:** H1 operating cash **+₹50.6cr** against −₹57.3cr a year ago — a ₹10.3cr release from other assets and ₹5.0cr more payables, with receivables up only ₹3.4cr. Cash ₹88.0cr at 30-Sep; dividend ₹1.6cr paid; no equity raised. **TKMS joint venture signed (6-Nov): "TKMS CFF Defence Systems Pvt Ltd", 51% CFF / 49% TKMS ATLAS ELEKTRONIK**, for local manufacture, integration and through-life support of anti-submarine-warfare systems, from a new facility at Chakan, Pune. *JV capital commitment and order pipeline not stated.*
+
 ## 5. Connecting the Dots
 
 **The business case is real.** India is building submarines and warships at home; foreign OEMs must source from qualified Indian suppliers; CFF is qualified on the two platforms (Scorpene and LFVDS) that matter now, and on the OEM relationships (Naval Group, TKMS/Atlas) that lead the next ones. Revenue has compounded 43% with a stable 28% margin. **On the P&L, this is one of the best small defence manufacturers in the country.**
@@ -308,6 +320,7 @@ The company was incorporated on 16-Feb-2012 as **Flash Forge Fluid Control Pvt L
 | Date | Conviction | Rationale |
 |---|---|---|
 | **18-Sep-2026** | **MEDIUM-LOW** *(initiation)* | Naval Group- and Atlas-qualified submarine/sonar supplier, 43% revenue growth, 28% OPM, 2.6x order cover, near debt-free, no pledge — against four straight years of negative operating cash (−₹65cr on ₹90cr PAT) funded by two equity raises, 183 receivable days, ₹44cr of undisclosed supplier advances, an undisclosed-purpose ₹4.9cr/yr to a same-business promoter company, no earnings call ever held, and 57x earnings |
+| **18-Nov-2026** *(H1FY27, filings)* | **HELD at MEDIUM-LOW — upgrade candidate** | Revenue +23%, PBT +40%; **H1 operating cash +₹50.6cr (−₹57.3cr a year ago)** — the cash-quality objection weakened; TKMS 51:49 ASW joint venture signed. No stated trigger, so held; **a second half with positive operating cash and no equity raise would justify MEDIUM.** Re-priced ≈ +38% at ₹1,017. |
 
 ### Material developments at initiation — the last twelve months
 
@@ -385,6 +398,7 @@ The company was incorporated on 16-Feb-2012 as **Flash Forge Fluid Control Pvt L
 **Weighted expected return over two years:**
 `(0.55 × +25%) + (0.25 × +96%) + (0.20 × −51%) = +13.8% + 24.0% − 10.2% =` **≈ +27.6%**
 **≈ +13% CAGR.** Dividend ~0.1% a year. **The number is respectable; the conviction is held down by cash quality and disclosure, not by the arithmetic.**
+> ⤴ **18-Nov-2026 re-price (Screener, intraday ₹1,017; market cap ₹2,133cr; P/E 46.2x):** base ~₹1,368 → **+35%** · bull ~₹2,145 → **+111%** · bear ~₹536 → **−47%** → **weighted ≈ +38%**.
 
 ### What would re-rate it
 
@@ -449,6 +463,8 @@ The company was incorporated on 16-Feb-2012 as **Flash Forge Fluid Control Pvt L
 ---
 
 ## Source Appendix
+
+- **🆕 H1FY27 (18-Nov-2026 fold-in, filings only — BSE leg via Chrome):** results and statements 13-Nov (**cash-flow page rendered and read**); TKMS JV board outcome and press release 6–7 Nov; newspaper extract 15-Nov; Screener 18-Nov-2026 (intraday).
 
 - **Earnings calls: NONE EXIST.** Verified three ways: (a) all **152 BSE announcements** from listing (Jun-2023) to 18-Sep-2026, enumerated via `api.bseindia.com/.../AnnSubCategoryGetData` in sub-12-month windows (a single wider window silently returned nothing after May-2025 — the API caps range); (b) the company's investor page (`cffdefensys.com/investors/`); (c) Screener's concall list, where the three entries carry decks only.
 - **Earnings decks (3):** H1FY26 (Dec-2025), H1FY25 (Dec-2024), H1FY24 (Nov-2023). *Tables scrambled in text extraction; financial figures taken from the results filings instead. Deck targets ("26+ Cr", "200+ Cr") are chart annotations — used only as stated targets, labelled as such.*

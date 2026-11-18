@@ -230,6 +230,8 @@ Screener P/E 16.0x, ROCE 27.7%, ROE 20.5%; promoter 53.83% (stable); 52-week ran
 
 **Upgrade case back to High:** two quarters of PAT breaking above ₹50cr *on fee-income growth* rather than on tax or fair-value swings, plus an AR that explains the debtor position benignly.
 
+> **📊 18-Nov-2026 — Q2FY27 scored (results 29-Oct; no earnings call — Monarch holds none):** Q2 revenue **₹123cr (+48% YoY, +35% QoQ)**, operating margin 62%, **PAT ₹57cr (+27%)** — the first quarter above the ₹45cr plateau. **Downgrade triggers:** (1) fee growth <20% — **not fired on the evidence** (total revenue +48%; *the fee/commission split is not in the filings read*) · (2) PAT <₹42cr — **clear** · (3) FY26 AR on debtor days — not read this pass · (4) promoter fall — **clear** (53.87%, flat — NSE master). **Upgrade to High:** two quarters of PAT >₹50cr on fee growth — **one of two** (Q1 ₹45cr). **🆕 Board approved a 1:5 split (face value ₹10 → ₹2), postal ballot under way; record date to follow — prices will divide by 5.** **Where it trades (Screener, 18-Nov-2026, intraday):** CMP **₹343** · market cap ₹2,718cr · P/E 14.1x. **Re-priced on the 12-Aug market-cap scenarios** (base ₹3,680cr, bull ₹6,000cr, bear ~₹1,440cr): base **+35%** · bull **+121%** · bear **−47%** → **weighted ≈ +40%**. **Held at MH (Under Watch); one more quarter above ₹50cr on fee growth restores High.**
+
 ### 👁️ Watch items for next refresh
 1. **The FY26 Annual Report** — still not filed; it holds the answer to the debtor-days question v1 raised in July.
 2. **Fee and commission income growth** — the cleanest read on franchise health, now that prop gains have been stripped out.
@@ -743,6 +745,8 @@ Debt/Equity: ₹37cr / ₹971cr = **0.04x** — essentially debt-free.
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (18-Nov-2026 fold-in, filings only — no call):** results and split approval 29-Oct; postal-ballot notice 5-Nov; NSE shareholding master (Sep-2026); Screener consolidated 18-Nov-2026 (intraday).
 
 - **BSE filings (v1):** FY26 audited results announcement (15-May-2026), Monarch Capital Venture subsidiary incorporation (13-May-2026), dividend disclosures.
 - **Screener (refreshed 16-Jul-2026):** Full P&L, Balance Sheet, Cash Flow, Ratios, Shareholding tables captured via server-side fetch. Monarch Networth Capital Ltd (BSE: 511551, NSE: MONARCH).

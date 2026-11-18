@@ -346,6 +346,16 @@ FY26 actual capex was **₹106.09 Cr**; the approved pipeline is **₹430 Cr**.
 
 ---
 
+### 🆕 Q2FY27 fold-in — filings only *(18-Nov-2026; results 14-Nov; **no earnings call** — the company has never held one)*
+
+| ₹cr (consolidated) | Q2FY27 | Q2FY26 | YoY | Q1FY27 | H1FY27 |
+|---|---|---|---|---|---|
+| Revenue | **1,273** | 926 | **+37%** | 1,068 | 2,341 |
+| Operating profit (OPM) | **105 (8.2%)** | 66 (7.1%) | +59% | 81 (7.6%) | 186 |
+| PAT | **44** | 11 | 4x | 34 | 78 |
+
+**The single test the profile named — Q2 OPM above 7.5% despite the raw-material shock — was passed (8.2%).** Revenue +37% is the fastest in the visible series; **the filings read give no split between volume, price and mix**, so how much is rubber/crude pass-through is unknown *(the results notes record a ₹7.21cr customer receivable, net of an estimated customer claim)*. Interest steady at ~₹11–12cr; depreciation ₹38cr a quarter.
+
 ## 5. Connecting the Dots
 
 **Four threads, and they do not all pull the same way.**
@@ -431,6 +441,7 @@ FY26 actual capex was **₹106.09 Cr**; the approved pipeline is **₹430 Cr**.
 - **The company holds its first-ever earnings call.** *This would be a genuine re-rating event in its own right, independent of the numbers — it would change the information asymmetry the current price embeds.*
 
 **Explicit downgrade trigger:** to **Speculative** if Q2FY27 OPM falls below 6.0%, or if the ₹430 Cr capex is revised upward without an accompanying explanation.
+> **📊 18-Nov-2026 — Q2FY27 scored (filings; no call):** Speculative triggers — OPM <6.0% ✅ **clear** (8.2%) · capex revised up without explanation ✅ none filed. **Upgrade triggers:** Q2 OPM >7.5% ✅ **met** · Rudrapur on schedule 🕐 · Super Grip breakeven 🕐 · sensing + Weber >₹300cr 🕐 · first earnings call ❌. **One of five — held at MEDIUM-LOW.** **Where it trades (Screener, 18-Nov-2026, intraday):** CMP **₹4,480** · market cap ₹3,432cr · P/E 25.4x · yield 0.85%. **Re-priced on the unchanged per-share scenarios** (base ~₹4,170, bull ~₹7,670, bear ~₹2,830): base **−7%** · bull **+71%** · bear **−37%** → **weighted ≈ +7%**, plus ~0.9% yield.
 
 ---
 
@@ -447,6 +458,8 @@ FY26 actual capex was **₹106.09 Cr**; the approved pipeline is **₹430 Cr**.
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (18-Nov-2026 fold-in, filings only — no call):** results with notes 14-Nov; Screener consolidated 18-Nov-2026 (intraday).
 
 - **Concalls read:** 🔴 **NONE — none exist.** Screener lists one concall document in the company's history (**Aug-2022 PPT, no transcript**), downloaded and read. A sweep of the complete BSE announcement feed via `api.bseindia.com` (**155 filings, Sep-2024 → Sep-2026**) confirmed **zero transcripts, zero investor presentations, zero earnings-call intimations**. Profile written under explicit *"proceed on data-limited basis"* authorisation, 15-Sep-2026.
 - **Annual reports:** FY2025-26 (43rd AR) and FY2024-25 — Board's Report, full MD&A, ten-year performance table, subsidiary highlights, corporate governance report, standalone + consolidated statements.

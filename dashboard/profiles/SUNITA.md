@@ -1,6 +1,6 @@
 # Sunita Tools — Company Profile
 
-**Ticker:** SUNITA · BSE-SME: 544001 · **Sector:** Precision Machining + Mould Bases (CNC / Grinding / Aerospace) · **Conviction:** Medium (with SME caveats)
+**Ticker:** SUNITA · BSE-SME: 544001 · **Sector:** Precision Machining + Mould Bases (CNC / Grinding / Aerospace) · **Conviction:** ⤴ **Speculative** *(header corrected 18-Nov-2026: the 23-Sep net read and the dashboard both carry Speculative; this line still read "Medium (with SME caveats)" from the 3-Jul write)*
 **Date written:** 3-Jul-2026 · **CMP:** ₹741 · **Market Cap:** ₹465 cr · **P/E (trailing):** 73.5x · **ROCE:** 10.1% · **ROE:** 10.8%
 **Sources:** Concall H1FY25 (Nov 2024, only concall available) + Investor deck Sep 2025 · Screener SME view · ValuePickr Sunita Tools thread (last 18 months) · BSE filings
 
@@ -228,6 +228,16 @@ Precision machining rides same forces as bigger peers but at smaller scale:
 
 ---
 
+### 🆕 H1FY27 fold-in — filings only *(18-Nov-2026; results and investor release 13-Nov (BSE-SME 544001); ordnance-factory qualification and PO 2-Nov; Bulgarian defence JV 26-Oct; no call held)*
+
+| ₹cr (consolidated) | H1FY27 | H1FY26 | YoY | H2FY26 |
+|---|---|---|---|---|
+| Operating revenue | **36.6** | 15.7 | **+133%** | 31.6 |
+| Operating profit (OPM) | **7.3 (20%)** | 4.3 (28%) | +70% | 4.8 (15%) |
+| PAT | **5.9** | 2.9 | **+103%** | 3.3 |
+
+**Defence milestones (company release):** DPIIT licence fee paid (certificate awaited, *"yet to reflect in financial statements"*); defence facility *"production-ready"*; **an order from the DPSU at Ambajhari, initial supplies "in November"**; deliveries to a NATO-country customer awaiting the customer's logistics; **qualification and a purchase order as OEM for forging empty shells for an Ordnance Factory** (2-Nov, value not stated); a **50:50 share-acquisition and cooperation agreement for a Bulgarian defence company** (26-Oct). **Receivable days 161 → 89** (company's own measure, H2FY26 → H1FY27). **The order book claimed in September (₹552cr of defence) is still not tied to any filed contract value** — the profile's central disclosure question stands.
+
 ## 5. Connecting the Dots
 
 **Thread A — Ahmedabad (Sunita Leo) acquisition scaling.**
@@ -279,6 +289,8 @@ Weighted return: ~10-15% over 2 years — but with very wide error bars given SM
 ---
 
 ## Source Appendix
+
+- **🆕 H1FY27 (18-Nov-2026 fold-in, filings only — BSE leg via Chrome):** results and investor release 13-Nov; Ordnance Factory qualification/PO release 2-Nov; Bulgarian JV filing 26-Oct; Screener consolidated 18-Nov-2026 (intraday: CMP ₹956, market cap ₹601cr, P/E 64.6x).
 
 - **Concalls read:** H1FY25 (Nov 2024, only detailed concall available); investor deck Sep 2025.
 - **Screener:** Sunita Tools Ltd (BSE: 544001).

@@ -273,6 +273,17 @@ Three things sit behind the headline:
 
 ---
 
+### 🆕 Q2FY27 fold-in — filings only *(18-Nov-2026; results 4-Nov with a **qualified** auditor's conclusion; no calls exist)*
+
+| ₹cr (consolidated) | Q2FY27 | Q2FY26 | Q1FY27 | H1FY27 |
+|---|---|---|---|---|
+| Revenue | **153** | 21 | 137 | 290 |
+| Operating profit | **−88** | −87 | −72 | −160 |
+| Other income | 57 | 55 | 35 | 92 |
+| PAT | **−40** | −45 | −48 | −88 |
+
+**Revenue now includes 63SATS** (consolidated since Q4FY26); **the operating burn widened to ₹88cr a quarter.** **NSEL settlement (Note):** the ₹1,950cr Scheme stands (NCLT 28-Nov-25; appeals dismissed through the Supreme Court); **₹252.6cr of attached fixed deposits has been realised into the Settlement Account**, with ₹15.4cr of interest on them taken to income this quarter. **The settlement is still not provided for in the P&L, and the auditor's conclusion remains qualified** on the NSEL civil suits and the EOW/CBI/ED/SFIO proceedings. 63SATS signed a **warrant-subscription and an advertisement agreement with Bennett, Coleman & Co.** (29–30 Oct) — a media-for-equity arrangement *(my reading; terms in the filing)*; an H1 investor update from 63SATS (11-Oct).
+
 ## 5. Connecting the Dots
 
 The threads do not yet reinforce each other; they compete for the same cash.
@@ -293,6 +304,7 @@ The threads do not yet reinforce each other; they compete for the same cash.
 | Date | Conviction | Weighted 2-yr | Trigger |
 |---|---|---|---|
 | 27-Oct-2026 | **SPECULATIVE** (initiation) | **≈ −17%** | Data-limited initiation; no calls exist; qualified audit; ₹1,950cr settlement unprovided |
+| **18-Nov-2026** *(Q2FY27, filings)* | **HELD at SPECULATIVE** | **≈ −15%** *(re-priced)* | Burn ₹88cr in Q2; settlement unprovided; ₹252.6cr of deposits moved to the settlement account; qualified review again; 63SATS–BCCL warrants and advertising deal. CMP ₹899 (Screener, 18-Nov intraday; market cap ₹4,141cr): base ₹670 → −25% · bull ₹1,362 → +52% · bear ₹270 → −70%. |
 
 ### Material developments at initiation — the last twelve months
 
@@ -425,6 +437,8 @@ Retail-facing coverage (Angel One, Business Standard, HDFC Sky, Bajaj Broking) r
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (18-Nov-2026 fold-in, filings only):** results with notes and the qualified review conclusion 4-Nov (BSE); 63SATS–Bennett Coleman warrant and advertisement agreements 29–30 Oct; 63SATS H1 investor update 11-Oct; RTA address change 17-Nov; Screener consolidated 18-Nov-2026 (intraday).
 
 - **Concalls read:** **none — none exist.** Verified on 143 NSE filings (Jan-2024 → Oct-2026) and Screener (no Concalls section).
 - **Annual reports:** FY26 (filed 27-Aug-2026 — directors' report, auditor's report, consolidated notes 32, 35, 47–57; related-party pages 206–207 **rendered**); FY25 (1-Sep-2025) and FY24 (3-Sep-2024) skimmed.

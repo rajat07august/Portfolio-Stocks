@@ -331,6 +331,16 @@ Sales ₹173cr (FY15) → ₹159cr (FY18) → ₹245cr (FY21) → ₹216cr (FY22
 
 ---
 
+### 🆕 Q2FY27 fold-in — filings only *(18-Nov-2026; results 13-Nov; no calls exist)*
+
+| ₹cr (consolidated) | Q2FY27 | Q2FY26 | YoY | Q1FY27 | H1FY27 |
+|---|---|---|---|---|---|
+| Revenue | **142** | 122 | **+16%** | 126 | 268 |
+| Operating profit (OPM ex OI) | **32 (22%)** | 18 (15%) | +78% | 26 (21%) | 58 (22%) |
+| PAT | **27** | 17 | +59% | 25 | 52 |
+
+**The checkpoint question — does ex-OI OPM hold ≥18%? — Yes: 22%, the highest in the visible series**, and still unexplained by any filing (no calls, no segment or market disclosure). **H1 operating cash ≈ ₹39cr** against ₹52cr of PAT *(read from the cash-flow statement's text layer, which is partly garbled — indicative, not rendered)*. The inventory, receivable and other-liability questions from initiation need the H1 balance sheet rendered — **not done this pass; stated as open.**
+
 ## 5. Connecting the Dots
 
 The threads do not reinforce each other the way they would in a compounder:
@@ -349,6 +359,7 @@ The threads do not reinforce each other the way they would in a compounder:
 | Date | Conviction | Weighted 2-yr | CMP | Why |
 |---|---|---|---|---|
 | 29-Oct-2026 | **MEDIUM-LOW** (initiation) | ≈ −4% | ₹20.4 | Real cash earnings and a large treasury, but a price that capitalises an unexplained peak margin; no calls; undisclosed export book; family governance |
+| **18-Nov-2026** *(Q2FY27, filings)* | **HELD at MEDIUM-LOW** | ≈ −13% *(re-priced)* | ₹22.3 | Q2 revenue +16%, **OPM 22% — a new peak, still unexplained**; PAT +59%. H1 operating cash ≈ ₹39cr (indicative). Price +9% since initiation: base ₹19.2 → −14% · bull ₹28.8 → +29% · bear ₹8.1 → −64%. |
 
 ### Material developments at initiation — the last twelve months
 
@@ -477,6 +488,8 @@ Company press release 13-Aug-2026 only (Q1FY27).
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (18-Nov-2026 fold-in, filings only):** results 13-Nov and newspaper extract 14-Nov; Screener consolidated 18-Nov-2026 (intraday). Balance sheet not rendered this pass.
 
 - **Concalls read:** **none exist.** 199 NSE filings 9-Jan-2023 → 8-Oct-2026 checked; Screener carries no Concalls section.
 - **Annual reports:** FY26 (filed 7-Sep-2026, 161 pp; read closely; PDF p.149 (printed p.144, segment and related-party notes) rendered), FY25 (150 pp), FY24 (113 pp), FY23 (113 pp), all from NSE's annual-reports archive.

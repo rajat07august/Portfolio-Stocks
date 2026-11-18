@@ -295,6 +295,18 @@ Plus **Note 6: ₹30.02cr** of input tax credit restored after a litigation with
 
 ---
 
+### 🆕 Q2FY27 fold-in — filings only *(18-Nov-2026; results 30-Oct; **no earnings call** — none held since May-2025, as recorded. The results PDF is a scan whose text layer is garbled; figures are from Screener's quarterly table plus the readable segment line)*
+
+| ₹cr (consolidated) | Q2FY27 | Q2FY26 | YoY | Q1FY27 |
+|---|---|---|---|---|
+| Revenue | **903** | 528 | **+71%** | 907 |
+| Operating profit (OPM) | **190 (21%)** | 69 (13%) | **2.75x** | 191 (21%) |
+| Other income | 84 | 583 | | 77 |
+| Depreciation | 33 | 22 | | 33 |
+| PAT | **171** | 466 | −63% | 163 |
+
+**The operating business turned.** Two quarters at ~₹905cr revenue and a 21% margin, against a 13–17% margin through FY26; **mining segment revenue ~₹946cr in Q2 vs ~₹535cr** (segment table, legible line). **PAT is down only because Q2FY26 carried a ₹583cr other-income line — the GST write-back that made FY26's +39.5% PAT** (recorded at the 18-Aug refresh). On operating profit, this is the best two-quarter run in the visible series.
+
 ## 5. Connecting the Dots
 
 **The threads that were supposed to connect have not.** The 3-Jul thesis was: existing mines grow 10–15%, six new lignite mines add 12 MTPA from FY27, Baitarani West opens a coal leg at 15 MTPA, and a 74% government parent underwrites the land and clearances. **In the fourteen months since that guidance was given, existing-mine revenue fell 6.9%, one of six new mines got a clearance, and the coal leg went silent.**
@@ -317,6 +329,7 @@ Plus **Note 6: ₹30.02cr** of input tax credit restored after a litigation with
 |---|---|---|---|---|
 | 3-Jul-2026 | Medium | ₹603 | ~+15% | Initiated on Q4FY25 (May-2025) data. *"Priced modestly for FY27-28 catalysts"* |
 | **18-Aug-2026** | **Medium-Low** | **₹574** | **~−4% + 1.77% yield** | **FY26 growth guidance missed badly; the +39.5% PAT was a GST write-back; the concall gap resolved as permanent** |
+| **18-Nov-2026** *(Q2FY27, filings — no call)* | **HELD at Medium-Low** | **₹458** | **≈ +21% + 2.1% yield** *(re-priced)* | Revenue +71%, operating profit 2.75x at a 21% margin — **the base case's margin recovery (19–20%) has already happened**; PAT optically −63% against last year's GST write-back. No stated trigger; still no earnings call. **An upgrade candidate on a third quarter at this level** — not applied on two quarters of a mining cycle. |
 
 **Valuation, then and now:**
 
@@ -400,6 +413,7 @@ Across **472 NSE filings**, the last earnings-call filing is 29-May-2025; before
 | **Bear** | **25%** | Operating profit keeps shrinking; depreciation compounds; other income normalises down; the market re-rates a PSU miner on 8% ROE toward book-plus | PAT ₹520 cr<br>EPS ₹16.4 | 18x | **₹295** | **−49%** |
 
 **Weighted 2-year return: (0.50 × −8%) + (0.25 × +49%) + (0.25 × −49%) ≈ −4%, plus a 1.77% yield ≈ −1% a year.**
+> ⤴ **18-Nov-2026 re-price (Screener, intraday ₹458; market cap ₹14,577cr; P/E 23.3x; yield 2.05%):** base ₹530 → **+16%** · bull ₹854 → **+86%** · bear ₹295 → **−36%** → **weighted ≈ +21%**, plus ~2.1% yield. *The base case's margin assumption is now below the run-rate.*
 
 **The distribution is unusually wide** — +49% to −49% — because almost everything depends on mine commissioning dates that are not disclosed and cannot be asked about. **That width is itself the finding.**
 
@@ -456,6 +470,8 @@ Across **472 NSE filings**, the last earnings-call filing is 29-May-2025; before
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (18-Nov-2026 fold-in, filings only):** results 30-Oct (scanned; segment line read where legible); Screener consolidated quarterly table and price 18-Nov-2026 (intraday).
 
 **Primary documents** — `Fetched Concalls/GMDC/` *(folder created at the 18-Aug review; it did not exist before)*:
 - **Q1FY27 results filing, 31-Jul-2026** — the clean quarter, with FY26 comparatives that isolate the exceptional item.

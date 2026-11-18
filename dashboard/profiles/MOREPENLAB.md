@@ -1,7 +1,7 @@
 # Morepen Laboratories — Company Profile
 
 **Ticker:** MOREPENLAB · **NSE: MOREPENLAB** *(EQ, listed 24-Nov-1999, ISIN INE083A01026, face value ₹2 — verified against `EQUITY_L.csv`)* · **BSE: 500288** · **CIN L24231HP1984PLC006028** · **Sector:** Pharma & Excipients (Sector 12)
-**Conviction:** **MEDIUM (Under Watch)** — the watch item is the disclosure gap, not the business
+**Conviction:** **⤴ MEDIUM-LOW** *(M (Under Watch) → ML, 18-Nov-2026: the starred trigger fired — no earnings call at the Q2FY27 results, eighteen months since the last transcript; the quarter itself was a record)* · was **MEDIUM (Under Watch)** — the watch item is the disclosure gap, not the business
 **Thesis date:** 1-Sep-2026 · **CMP ₹104** (Screener, 1-Sep-2026) · **Market cap ₹5,682 cr** · **v1, new addition**
 
 > **🟡 CONCALL GATE: AMBER — and the reason is the single most important thing to know before reading any of this.**
@@ -318,6 +318,21 @@ Screener P/E 56.4x, ROCE 8.1%, ROE 5.3%; market cap ₹6,625cr; promoter 35.66% 
 **🔴 And it is being hived off into Morepen Medipath Limited by slump sale**, as a material related-party transaction, with the timeline extension on the 41st AGM agenda. **The same subsidiary signed a joint venture with Bimedical FZE in September 2025.** ***An investor buying MOREPENLAB today for the glucometer annuity should understand that the annuity is in the process of being moved into a subsidiary that is also taking on a JV partner, on terms that have never been discussed in a public forum.***
 
 ---
+### 🆕 Q2FY27 fold-in — filings only *(18-Nov-2026; results, deck and press release 27-Oct; US Rx launch and first ANDA 9-Nov; **no earnings call held** — none since May-2025)*
+
+| ₹cr (company) | Q2FY27 | YoY | H1FY27 | YoY |
+|---|---|---|---|---|
+| Sales revenue | **755** | **+81%** | 1,330 | +57% |
+| EBITDA (margin) | **132 (17.45%)** | **+273%** | 220 (16.5%) | +243% |
+| PAT | **89** | **+117%** | 145 | +177% |
+| CDMO revenue | **253** (52% of API + CDMO) | | 311 | |
+| Exports | 397 | +131% | 654 (~half of sales) | +122% |
+| Medical devices | 208 | +65% | 399 | +39% |
+
+**Five quarters (Screener):** sales 412 → 484 → 485 → 570 → **746**; OPM 7% → 10% → 5% → 14% → **16%**. **The ₹825cr mandate is now visibly in the P&L** — CDMO ₹253cr in one quarter — but its customer, duration, pricing and whether it is development or manufacturing work remain **undisclosed**, and there is still no call at which to ask.
+
+**Other filings:** **first US prescription generic launched** (Desloratadine 5mg, via Morepen Bio Inc., 9-Nov) and **first ANDA filed** (Sitagliptin, under review); HPAPI/oncology to be *"evaluated"*. Promoter holding 35.65% (flat — NSE master, Sep-2026).
+
 ## 5. Connecting the Dots
 
 **Thread A — 🟢 The CDMO pivot is real, and it has crossed from announcement into dispatch.** **₹58cr shipped against an ₹825cr mandate**, with the USFDA record that made it possible extended to a fourth clean inspection. *This is not a press-release strategy.*
@@ -412,6 +427,9 @@ Screener P/E 56.4x, ROCE 8.1%, ROE 5.3%; market cap ₹6,625cr; promoter 35.66% 
 | **Borrowings above ₹300cr** | ₹208cr, up 617% in two years |
 | **The devices hive-off completing without disclosed consideration and valuation** | Timeline extension on the 41st AGM agenda |
 | **Promoter holding below 35%** | 35.66%, flat since Sep-2024 |
+> **📊 18-Nov-2026 — Q2FY27 scored.** ⭐ **No earnings call by the Q2 results — FIRED** (no call announced or held; Screener lists a deck only) → **applied: M → ML** · Q2 EBITDA margin <11% — **clear** (17.45%) · FY27 FCF — not yet testable · borrowings >₹300cr — **not tested this pass** (the results' balance-sheet text layer is unreadable; not rendered) · devices hive-off consideration — no completion filed · promoter <35% — **clear** (35.65%).
+> **Where it trades (Screener consolidated, 18-Nov-2026, intraday):** CMP **₹91.8** · market cap ₹5,028cr · P/E 26.6x · 52-week ₹33–151 (−24% since 19-Sep). **Re-priced on the unchanged scenarios (market cap; base ₹6,831cr, bull ₹11,520cr, bear ~₹2,330cr):** base **+36%** · bull **+129%** · bear **−54%** → **weighted ≈ +37%**.
+> **⚠️ The honest tension:** the downgrade is applied on the profile's own process trigger while the operating numbers beat every line. *What reverses it:* a call held with the CDMO customer profile and mandate duration disclosed — the profile's stated route back to M, and to MH beyond.
 
 **🟢 Upgrade to MEDIUM-HIGH on:** **an earnings call held with the CDMO customer profile and mandate duration disclosed; two consecutive quarters above 13% EBITDA margin; positive FY27 free cash flow; and a second CDMO mandate announced.** ***The first of those four is the one that unlocks the rest — without a call, everything else is self-reported.***
 
@@ -421,6 +439,8 @@ Screener P/E 56.4x, ROCE 8.1%, ROE 5.3%; market cap ₹6,625cr; promoter 35.66% 
 **Risk 1 — 🔴 It may be a CMO, not a CDMO — and the multiple depends on which.** ***This is the sharpest challenge to the thesis and it comes from ValuePickr, not from any analyst.*** **A CDMO does development *and* manufacturing: process chemistry, route optimisation, scale-up — sticky, high-margin, hard to move. A CMO just manufactures someone else's defined process, and is far more replaceable.** **The peer multiples in §6 — Laurus at 92x, Divi's at 84x, Neuland at 60x — are CDMO multiples.** *If Morepen's ₹825cr mandate is contract manufacturing of a defined molecule, the correct comparison set is cheaper and the re-rating is partly mislabelled. **The company uses "CDMO" throughout; nobody has been able to ask it to define the development content.***
 
 **Risk 2 — 🔴 Fifteen months without an earnings call.** *Every number in §4 is self-reported and unchallenged, at a ₹5,682cr company with 4.35 lakh mostly-retail shareholders and 2.74% institutional ownership.*
+
+> 🔴 **EIGHTEEN MONTHS NOW (Q2FY27) — the downgrade.** A record quarter (revenue +81%, EBITDA +273%) was again reported by press release only.
 **⚠️ This is the Under Watch trigger.**
 
 **Risk 3 — 🔴 Single-mandate concentration.** **₹825cr against ₹1,806cr of annual revenue, with the customer, duration, firmness and margin all undisclosed.** *₹58cr has shipped. The other ₹767cr is a contract nobody outside the company has seen.*
@@ -479,6 +499,8 @@ Screener P/E 56.4x, ROCE 8.1%, ROE 5.3%; market cap ₹6,625cr; promoter 35.66% 
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (18-Nov-2026 fold-in, filings only — no call held):** results, deck and press release 27-Oct; US Rx launch and ANDA press release 9-Nov; resignation of VP Corporate Finance 31-Oct; NSE shareholding master (Sep-2026); Screener consolidated 18-Nov-2026 (intraday).
 
 - **🔴 Concalls read: 7 transcripts, all 15+ months old.** May-2025 *(Q4FY25, held 13-May-2025, hosted by Motilal Oswal — read in full)*, Feb-2025, Nov-2024, Aug-2024, May-2024, Feb-2024, Nov-2023. Stored in `Fetched Concalls/MOREPENLAB/`. *(Nineteen were downloaded from 2018 onward; pre-2023 files were pruned per §4A folder hygiene.)*
 - **🔴 GATE FINDING, verified on two independent feeds:** **no earnings-call transcript since 17-May-2025.** NSE `corporate-announcements` (`index=equities&symbol=MOREPENLAB`, 112 records 1-Apr-2025 → 1-Sep-2026) returns exactly one transcript entry, dated 17-May-2025. **BSE `AnnSubCategoryGetData` for scrip 500288 (SLONGNAME echoed as "Morepen Laboratories Ltd", per §4A) returns zero transcript, concall or analyst-meet filings from 1-Jun-2025 to 1-Sep-2026.**

@@ -311,6 +311,19 @@ Screener P/E 140x, ROCE 10.2%, ROE 6.7%; market cap ₹8,191cr; promoter 41.50%;
 
 ---
 
+### 🆕 Q2FY27 fold-in — filings only *(18-Nov-2026; results and investor presentation 6-Nov; **no earnings call held** — a physical investor/analyst meeting is scheduled for 19-Nov at the Aerotropolis)*
+
+| ₹cr (consolidated) | Q2FY27 | Q2FY26 | YoY | H1FY27 | YoY |
+|---|---|---|---|---|---|
+| Revenue | **452.7** | 392.4 | **+15.4%** | 877.5 | +15.0% |
+| — *constant currency (company)* | **424.3** | | **≈ +8.1%** *(my arithmetic)* | | |
+| Aerospace / Hydraulics / Metallurgy | 210.8 / 140.4 / 101.4 | | +18.1% / +11.2% / +15.8% | 413.0 / 256.4 / 207.7 | +17.5% / +10.3% / +15.8% |
+| EBITDA (margin) | **55.6 (12.3%)** | 46.2 | +20.3% | 110.7 (12.6%) | +31.8% |
+| — *constant currency (company)* | 51.9 | | | | |
+| PAT (Screener) | **22** | 3 | | 43 | |
+
+**The currency effect again (Risk 1):** of the ₹60.4cr revenue increase, **₹28.4cr (47%) is translation** on the company's own constant-currency disclosure. **Underlying growth ≈ 8%** — still better than the base case's *"mid-single-digit"*. Hydraulics had its highest-ever monthly pump sales; Metallurgy saw *"a modest recovery"* at Erla; A220 doors and DML detail parts steady (aerospace growth moderated sequentially).
+
 ## 5. Connecting the Dots
 
 **The Dynamatic mental model is uncomfortable because it does not compound simply. Three parallel value streams:**
@@ -346,6 +359,7 @@ Screener P/E 140x, ROCE 10.2%, ROE 6.7%; market cap ₹8,191cr; promoter 41.50%;
 |---|---|---|---|---|
 | 3-Jul-2026 | **Medium** | ₹10,397 | ~+15% | Initiated at **112x** on adjusted PAT. *"Priced like a high-conviction aerospace pure-play. It is not one."* Two watch items set: **UK Hydraulics restructuring** and **interest coverage at 2.0x** |
 | **15-Aug-2026** | **Medium — HELD** | **₹11,188** | **≈ −8%** | **Both watch items resolved positively — Hydraulics margin 3.4% → 12.5%, coverage 2.0x → 2.4x. But the company disclosed that constant-currency revenue growth was 3.9%, not 14.5%** |
+| **18-Nov-2026** *(Q2FY27, filings — no call held)* | **Medium — HELD** | **₹13,390** | **≈ −23%** *(re-priced)* | Revenue +15.4%, **≈ +8% in constant currency** (company disclosure); EBITDA +20% at 12.3%; PAT ₹22cr. No stated trigger. **The price is the issue:** +20% since 15-Aug at 120x trailing; re-priced weighted ≈ −23%. *A price-only downgrade to ML is the obvious candidate if the 19-Nov meeting adds nothing — not applied here, because the profile set no price line.* |
 
 **🎯 Upgrade to Medium-High if:** **Hydraulics holds a 12%+ EBITDA margin for two more quarters AND constant-currency revenue growth reaches high single digits.**
 **🎯 Downgrade to Medium-Low if:** **the rupee reverses and constant-currency growth turns negative, OR the Hydraulics margin gives back more than half its gain, OR net debt/EBITDA rises back above 2.8x.**
@@ -437,6 +451,7 @@ v1 recorded **"Net Debt ₹4,614 Cr"**; **the deck reports in ₹ million, so th
 | **Bear** | **25%** | **The rupee reverses** and the FX tailwind becomes a headwind on a 3.9% real growth base; European auto stays weak; the Hydraulics margin proves partly mix rather than structure; the leverage ratio backs up | PAT ₹55 cr<br>EPS ₹87 | 45x | **₹3,915** | **−65%** |
 
 **Weighted 2-year return: (0.50 × −12) + (0.25 × 56) + (0.25 × −65) ≈ −8%.**
+> ⤴ **18-Nov-2026 re-price (Screener, intraday ₹13,390; market cap ₹9,094cr; P/E 120x):** base ₹9,880 → **−26%** · bull ₹17,510 → **+31%** · bear ₹3,915 → **−71%** → **weighted ≈ −23%**.
 
 **The bear case is severe precisely because the same currency that added 10.6 points of reported growth this quarter can subtract them.**
 
@@ -445,6 +460,8 @@ v1 recorded **"Net Debt ₹4,614 Cr"**; **the deck reports in ₹ million, so th
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — 🔴 The reported growth is mostly currency.** **14.5% reported, 3.9% constant currency**; ₹39.3cr of a ₹53.9cr increase was FX (EUR +13.9%, GBP +11.8%, USD +10.9%). **With 8 facilities across India, the UK and Germany, a reversing rupee turns this tailwind into a headwind on a business whose ten-year revenue CAGR is 1%.** *EBITDA is far less affected — the margin story survives the adjustment even though the growth story does not.*
+
+> ⚠️ **HALF OF IT, IN Q2FY27:** ₹28.4cr of the ₹60.4cr revenue increase was translation; constant-currency growth ≈ 8%.
 
 **Risk 2 — 🔴 Metallurgy fails to turn around by FY29.** **The number-one business risk.** If the aerospace-casting pivot produces no meaningful revenue in FY27 or FY28, the segment needs a write-down — **a 25-30% de-rating trigger.** *Q1FY27's EBIT crossing zero is encouraging but at a 3.7% EBITDA margin it proves very little.*
 
@@ -503,6 +520,8 @@ v1 recorded **"Net Debt ₹4,614 Cr"**; **the deck reports in ₹ million, so th
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (18-Nov-2026 fold-in, filings only — no call held):** results and investor presentation 6-Nov (constant-currency figures from the deck's table); investor-meet notice 7-Nov (physical meeting 19-Nov); Screener consolidated 18-Nov-2026 (intraday).
 
 **Primary documents:**
 - **Q1FY27 earnings presentation, 8-Aug-2026** — the central document, and an unusually good one. Source for the print, **the constant-currency reconciliation on its own dedicated slide** (per currency, for both revenue and EBITDA), the segment table, the capital-structure slide, the CEO's commentary on the Swindon-to-Bangalore transfer and the A220 doors.

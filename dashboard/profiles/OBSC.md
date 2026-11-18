@@ -393,6 +393,18 @@ Where Happy Forgings and Sansera do precision forging and machining, **OBSC Perf
 
 ---
 
+### 🆕 H1FY27 fold-in — filings only *(18-Nov-2026; results, press release and deck 31-Oct; **no earnings call held**; NSE sought a Regulation 33 clarification on the Q2 results on 16-Nov — response awaited)*
+
+| ₹cr (standalone) | Q2FY27 | Q2FY26 | YoY | Q1FY27 | H1FY27 | H1 YoY |
+|---|---|---|---|---|---|---|
+| Revenue from operations | **92.1** | 46.8 | **+97%** | 77.3 | 169.4 | ~+90% |
+| Operating EBITDA (company, H1) | | | | | 29.4 (17.4%) | +84% |
+| PAT | **12** | 5 | | 9 | 21.8 (12.6%) | **+108%** |
+
+**Mix (Q2):** domestic 68% / exports 32% (exports +173% in H1 to ₹49cr, 16 countries); automotive 79%, marine 15%, defence 6%. **Non-auto ₹35.2cr in H1, more than doubled.** Order book **₹1,200cr+**; an ₹8.9cr Elbit fuze-component order (Oct); 5-year POs for the DaVinci DCx suspension programme; **AS 9100D received** (aerospace). Stamping capacity commissioned; forging 12,000 tpa; Sanand under construction, more land at Supa. Net worth **₹271.9cr** after the ₹86.5cr preferential; debt/equity 0.26x.
+
+**⚠️ Open:** NSE's 16-Nov Regulation 33 query on the Q2 results — *"The response of the Company is awaited"*; the specific point is not stated in the public notice. **Five quarters (Screener):** revenue 47 → 59 → 72 → 77 → **92**; OPM 18% → 19% → 17% → 18% → **17%** — **margin has not moved with scale**.
+
 ## 5. Connecting the Dots
 
 **The strategic logic is coherent and it is working on the top line.** Single-process CNC → **multi-process (casting, forging, stamping, assembly)** → higher value per part → **access to customers who buy finished components rather than machining hours** → Tenneco's DaVinci DCx nomination, DPSU registrations, marine at 14% of revenue, exports at 25.6%. **Every link in that chain has evidence behind it, and the mix shift is the proof.**
@@ -417,8 +429,10 @@ Where Happy Forgings and Sansera do precision forging and machining, **OBSC Perf
 | 10-Jul-2026 | **Medium-High** | — | ~+30-35% | Upgraded citing *"~30-35% weighted return + 54% FY26 growth"* |
 | **13-Aug-2026** | **Medium-High → Medium** | **₹790** | **~+14.3%** *(bear −61%)* | **The Screener ticker fix exposed everything below the operating line: CFO/OP 6%, FCF −₹79cr, a second discounted preferential issue, and three reporting-quality items** |
 | **19-Sep-2026** *(filings refresh)* | **HELD at Medium** | **₹930** | *(return at ₹790 was ~+14.3%; lower at ₹930)* | **Preferential issue allotted 11-Sep at ₹601 (₹86.52cr); AS9100D recommended (7-Sep); non-binding New Mexico MoU (9-Sep); ₹31.4cr five-year order (1-Sep). Stock +18% to 76x.** |
+| **18-Nov-2026** *(H1FY27, filings — no call held)* | **HELD at Medium** | **₹846** | **≈ +7%** *(re-priced)* | Revenue roughly doubled (Q2 +97%), PAT +108% in H1; order book ₹1,200cr+; AS 9100D; net worth ₹272cr after the ₹86.5cr issue. **No ML trigger fired** (no third dilution; order book above ₹1,100cr; no rating action seen; no call held at which the employee-cost question could be put). **Open: NSE's Regulation 33 query (16-Nov).** Margin stuck at 17–18% despite the scale-up. |
 
 **🎯 Downgrade to Medium-Low if:** a third dilution round is announced, **or** a CRISIL outlook revision, **or** the order book declines below **₹1,100cr**, **or** the employee-cost / job-work question is put to management and not answered.
+> **📊 18-Nov-2026 — scored on H1 filings:** third dilution — none · CRISIL outlook revision — none filed · order book <₹1,100cr — **clear** (₹1,200cr+) · employee-cost/job-work question unanswered — **not testable** (no call held). **Where it trades (Screener standalone, 18-Nov-2026, intraday):** CMP **₹846** · market cap ₹2,309cr · P/E 60.2x · 52-week ₹270–1,030. **Re-priced per share:** base ₹950 → **+12%** · bull ₹1,404 → **+66%** · bear ₹305 → **−64%** → **weighted ≈ +7%**. **Held at MEDIUM.** *New watch: the company's answer to NSE's Regulation 33 query.*
 
 **🎯 The upgrade to MH was computed without the cash-flow statement, without the balance sheet, without the peer set and without knowing the P/E — because the Screener ticker was wrong.** *With those in hand the weighted return is ~14% over two years against a −61% bear.*
 
@@ -517,6 +531,8 @@ The initiation recorded *"Screener CMP/valuation data missing (recent listing)"*
 
 **Risk 2 — 🔴 Serial dilution at a discount.** **₹43.3cr then ₹86.5cr, promoters not participating, holding 73.50% → ~66%.** *A third round is the explicit bear-case trigger.*
 
+> 🟢 **NO NEW ROUND (H1FY27):** the Sep-2026 ₹86.5cr issue was the second; net worth ₹271.9cr, D/E 0.26x.
+
 **Risk 3 — 🔴 Working capital.** **Days 5 → 110 in three years; debtor days 69 → 110.** **Receivables + inventories + short-term advances = ₹179.93cr against ₹181.44cr of net worth — essentially the entire equity base.**
 
 **Risk 4 — 🔴 The margin is not moving.** **OPM has oscillated 15.8%-20.1% for two years with no trend**, and **Q1FY27 moved 5bps despite exports and non-auto both hitting records — the exact mechanism management named for a "1% margin" gain.**
@@ -578,6 +594,8 @@ The initiation recorded *"Screener CMP/valuation data missing (recent listing)"*
 ---
 
 ## Source Appendix
+
+- **🆕 H1FY27 (18-Nov-2026 fold-in, filings only — no call held):** results, press release and deck 31-Oct; order filings 8, 13, 17-Oct; licence/approval filing 14-Oct; **NSE clarification notice 16-Nov (Regulation 33, response awaited)**; Screener standalone 18-Nov-2026 (intraday).
 
 **Primary documents:**
 - **Q1FY27 results filing and press release, 12-Aug-2026** — the print, the segment and geography mix, and the balance-sheet movements. **The source of the diluted-versus-basic EPS anomaly.**

@@ -332,6 +332,16 @@ Chairperson **Mr. Vishal Sharma**: *"The Company achieved EBITDA breakeven in th
 
 ---
 
+### 🆕 Q2FY27 fold-in — filings only *(18-Nov-2026; results 26-Oct; **no earnings call** — none since Nov-2022; two NSE volume-spurt queries answered 9 and 11-Nov)*
+
+| ₹cr (consolidated) | Q2FY27 | Q2FY26 | Q1FY27 | H1FY27 | H1FY26 |
+|---|---|---|---|---|---|
+| Revenue | **72** | 74 | 84 | 156 | 165 |
+| Operating profit (OPM) | **−20 (−27%)** | −7 (−9%) | −1 | **−21** | −18 |
+| PAT | **−37** | −24 | −19 | **−56** | −57 |
+
+**The worst operating quarter in the visible series** — on revenue only 3% lower. **H1 EBITDA is −₹21cr**, so FY27 EBITDA needs H2 to earn more than FY26's entire H2 (₹13cr) plus ₹21cr. *The profile has warned that quarterly CDMO revenue is campaign timing; no filing read explains this quarter.* Promoter (Godrej Agrovet) 71.96%, unchanged.
+
 ## 5. Connecting the Dots
 
 **Thread A — The cycle is turning, but slower than anyone forecast.** The FY25 AR called destocking *"nearing an end"*; sixteen months later the Chairperson still describes an imbalance *"expected to even out over the medium term."*
@@ -365,10 +375,12 @@ Chairperson **Mr. Vishal Sharma**: *"The Company achieved EBITDA breakeven in th
 | **6-Aug-2026** | **HELD at Medium-Low** | **Q1FY27 is the best quarter of the turnaround** — EBITDA breakeven, loss nearly halved. **Not upgraded:** PAT breakeven is ~₹75–80cr of EBITDA away from a ₹6cr base; CFO is −₹81cr; and at 3.5x book the equity already prices success |
 | 21-Aug-2026 | **HELD at Medium-Low** | No new filings. Format conversion surfaced two corrections (§5.5(d)) that **weaken the central bull argument without changing the rating** |
 | **19-Sep-2026** | **HELD at Medium-Low** | Filings refresh: stock +20% to ₹727 with nine exchange price/volume notices (8-18 Sep), all answered 'no undisclosed information'. **Added from filings: ₹41.12cr GST demand (Jul-2025), ICRA AA- Negative (Mar-2026), CFO resignation (Mar-2026).** Six body errors corrected. |
+| **18-Nov-2026** *(Q2FY27, filings — no call)* | **HELD at Medium-Low (Turnaround Play) — on notice** | Q2 operating loss ₹20cr (−27%), PAT −₹37cr; H1 EBITDA −₹21cr. **The Speculative trigger "FY27 EBITDA fails to stay positive" is a full-year test and is now likely to fire** unless H2 operating profit exceeds ~₹21cr. No capital raise; parent unchanged at 71.96%. Stock ₹542 (−25% since 19-Sep). |
 
 **Upgrade to Medium if:** two consecutive quarters of positive operating profit **and** CFO turns positive **and** CDMO recovers alongside Enterprise rather than instead of it.
 
 **Downgrade to Speculative if:** another capital raise is required **or** FY27 EBITDA fails to stay positive **or** the parent moves Astec to a "reduce / restrict capex" classification.
+> **📊 18-Nov-2026 — scored on H1:** capital raise — none · **FY27 EBITDA positive — on course to FAIL** (H1 −₹21cr; FY26 H2 was +₹13cr) · parent capex classification — no filing. **Re-test at Q3; if Q3 operating profit is not positive, treat as fired.** **Where it trades (Screener, 18-Nov-2026, intraday):** CMP **₹542** · market cap ₹1,208cr · BV ₹150 (3.6x). **Re-priced on the unchanged market-cap scenarios** (base ₹1,570cr, bull ~₹2,440cr, bear ₹700cr): base **+30%** · bull **+102%** · bear **−42%** → **weighted ≈ +30%** — *a wide, loss-making distribution; the arithmetic improved only because the price fell.*
 
 ### (b) Material developments — newest first
 
@@ -575,6 +587,8 @@ The initiation listed *"Chairman: Nadir Godrej"* and *"Astec CEO (historical, as
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (18-Nov-2026 fold-in, filings only — no call):** results 26-Oct; newspaper publication 27-Oct; NSE volume-spurt replies 9 and 11-Nov; NSE shareholding master (Sep-2026); Screener consolidated 18-Nov-2026 (intraday).
 
 **Concall gate: 🟡 AMBER — no direct concall is possible.**
 **Astec has not held an earnings call since November 2022.** The repo holds five transcripts, all 2021–22 (Q2FY23, Q1FY23, Q3FY22, Q2FY22). **This is a company that does not talk to its own shareholders**, and the §6 parent-disclosure fallback is used instead.

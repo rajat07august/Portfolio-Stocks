@@ -368,6 +368,16 @@ Nitta Gelatin India takes **crushed animal bone** and turns it into three produc
 > **⤴ AND A CORRECTION TO AN INFERENCE I ALMOST PUBLISHED.** *An earlier draft read the FY26 investing outflow as capex on the Gelatin Expansion. **That is wrong, and the 12-Aug refresh had already established why.*** **FY26 investing outflow was ~₹182cr against ~₹9cr in FY25 — a twentyfold jump — while gross fixed assets rose only ₹117cr → ₹148cr and CWIP actually FELL ₹19cr → ₹15cr.** **The money went into deposits with maturity over three months** (Screener's "Other Assets" rose ₹372cr → ₹415cr), **not into plant.** ***The company is accumulating cash, not spending it — which makes the absence of a disclosed capacity and date for the Gelatin Expansion more notable, not less.***
 
 ---
+### 🆕 Q2FY27 fold-in — filings only *(18-Nov-2026; results 30-Oct (BSE 506532); no calls exist; postal ballot 5-Nov)*
+
+| ₹cr (consolidated) | Q2FY27 | Q2FY26 | YoY | Q1FY27 | H1FY27 |
+|---|---|---|---|---|---|
+| Revenue | **169** | 138 | **+22%** | 141 | 310 |
+| Operating profit (OPM) | **48 (28%)** | 26 (19%) | +85% | 34 (24%) | 82 (26%) |
+| PAT | **36** | 18 | **2x** | 25 | 61 |
+
+**The first quarter scored under Duty Drawback printed a 28% margin — the best in the visible series** (the trigger line was 22%). *No filing says what drove it; with no call, mix versus price versus input cost cannot be separated.* **Postal ballot (5-Nov):** appointment of **Mr Snehil Kumar Singh, IAS, as Nominee Director** (ordinary resolution; e-voting to 8-Dec) — the KSIDC seat changes hands again after the September appointment of Mr Arun K. Vijayan, IAS.
+
 ## 5. Connecting the Dots
 
 **Thread A — This is a spread business, and the spread is currently wide.** Cheap gel bone (because hide substitution collapsed bone prices) against gelatin realisation that is falling for the same reason. **Margin went 20% → 24% on that gap, not on volume.**
@@ -395,6 +405,7 @@ Nitta Gelatin India takes **crushed animal bone** and turns it into three produc
 | **3-Jul-2026** *(v1)* | — | **HIGH** | Profile initiated. Identified the 50-year Japanese JV, the collagen-peptide adjacency and elite ROCE. **Described the ownership as a Kerala promoter family, and read 74.49% stability as family control — both wrong.** Basis not stated. |
 | **12-Aug-2026** *(Tier A refresh)* | **₹1,612** | **HIGH → MH (Under Watch)** | **Established that Nitta holds NO earnings calls** — 83 filings enumerated, zero concall intimations — so v1's "concalls not fetched" was a misnomer. **⤴ Corrected the ownership: KSIDC (a Kerala government PSU) and Nitta Gelatin Inc., no promoter family.** **🔴 Found the SION revision — a 47% cut to the duty-free gel-bone entitlement — and the tension between the 31-Jul "no financial impact" claim and the AR's own "has cost advantage as well."** Also found the **₹18.20cr Supreme Court matter**, **Bamni no longer a going concern**, and the **Reva consent pending**. Identified the margin as a **spread trade, not a repricing**. |
 | **24-Aug-2026** *(this profile)* | **₹1,573** | **HELD at MH (Under Watch)** — no trigger fired; all are dated to Q2FY27 | Converted to always-current format. **📋 The filing sweep found NOTHING NEW — the last BSE filing is 7-Aug, five days before the previous refresh.** **✅ The no-concalls finding independently re-verified and widened: 150 filings across three pages, 29-Jan-2024 → 7-Aug-2026, zero concall-related.** **📈 And the metrics have moved in the company's favour with no news to explain it: P/E 14.1x → 12.2x, ROCE 27.7% → 31.4%, ROE 21.0% → 24.9%** *(Screener recalculating on the FY26 audited base and the Q1FY27 print)*. |
+| **18-Nov-2026** *(Q2FY27, filings)* | **₹1,730** | **HELD at MH (Under Watch)** | Q2 revenue +22%, **margin 28% — the margin trigger (22%) cleared with room**; PAT doubled. The customs ruling, Reva consent and expansion details are still not in any filing, so Under Watch stays. New KSIDC nominee director by postal ballot. Re-priced ≈ +10%. |
 
 **The trajectory in one line.** **The 12-Aug refresh did the hard work — it corrected the ownership, killed the phantom concall gap, and found the SION revision.** ***Twelve days later there is nothing new to report, and the honest thing is to say so rather than manufacture novelty.***
 
@@ -465,6 +476,7 @@ Nitta Gelatin India takes **crushed animal bone** and turns it into three produc
 | An adverse Supreme Court ruling on the ₹18.20cr customs matter | **Hearing is September 2026** |
 | Reva consent to operate still pending at Q2FY27 | **Still *"in process"*** |
 | Gelatin Expansion still without a disclosed capacity and date | **Still undisclosed** |
+> **📊 18-Nov-2026 — Q2FY27 scored (filings):** Q2 OPM below 22% — ✅ **clear** (28%) · adverse Supreme Court ruling on the ₹18.20cr customs matter — **no filing in the window** · Reva consent to operate — **no filing** · Gelatin Expansion capacity and date — **still undisclosed**. **Under Watch stays: three of four items cannot be scored from the filings.** **Where it trades (Screener, 18-Nov-2026, intraday):** CMP **₹1,730** · market cap ₹1,571cr · P/E 13.0x · ROCE 27.7%. **Re-priced on the unchanged market-cap scenarios** (base ₹1,650cr, bull ₹2,610cr, bear ₹840cr): base **+5%** · bull **+66%** · bear **−47%** → **weighted ≈ +10%**, plus ~0.4% yield.
 
 **🟢 Upgrade trigger, unchanged:** **DGFT restates the SION, *and* the Gelatin Expansion gets a disclosed capacity and commissioning date, *and* margin holds above 23% under Duty Drawback.** *That combination restores the growth leg the thesis is currently missing.*
 
@@ -545,6 +557,8 @@ The most substantive post on record remains **#66 (4-Jun-2026)**, which:
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (18-Nov-2026 fold-in, filings only):** results 30-Oct (BSE); postal-ballot notice 5-Nov; Screener consolidated 18-Nov-2026 (intraday).
 
 - **🔴 Concalls: NONE EXIST.** **Verified twice, independently.** The 12-Aug refresh enumerated **83 BSE filings (Aug-2024 → Aug-2026)**; this pass widened it to **three pages, 150 filings, 29-Jan-2024 → 7-Aug-2026** — **zero earnings-call intimations, zero transcripts, zero investor presentations, zero analyst-meet notices.** **Screener carries no Concalls section at all.** ***CLAUDE.md §9 still lists NITTA as "mainboard concalls exist but not fetched" — that note should be retired.***
 - **Primary documents read:** **FY26 Annual Report (50th, filed 8-Jul-2026)** — the concall substitute; **Q1FY27 statutory results (31-Jul-2026)**, read as **PDF pages** because the filing is scanned (6.5 MB yielding ~15K chars of garbled text — `pdftotext` useless, per §4A rule C); **Q4FY26 and Q3FY26 results**; and **eleven Reg-30 filings** including the **SION revision (5-Jun-2026)** and the **SION Impact Update (31-Jul-2026)**.

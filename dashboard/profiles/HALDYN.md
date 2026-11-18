@@ -319,6 +319,16 @@ From the FY26 Directors' Report and MD&A — *the closest thing to management co
 - **Depreciation policy, which tells you the asset lives:** **furnaces straight-line over 8 years; moulds over 2–4 years; captive power plant written-down-value over 15 years.**
 
 ---
+### 🆕 Q2FY27 fold-in — filings only *(18-Nov-2026; results 5-Nov (BSE); no calls exist; statements rendered at the 10-Nov sweep)*
+
+| ₹cr (consolidated) | Q2FY27 | Q2FY26 | YoY | Q1FY27 | H1FY27 |
+|---|---|---|---|---|---|
+| Revenue | **140** | 116 | **+21%** | 139 | 279 |
+| Operating profit (OPM) | **22 (16%)** | 14 (12%) | +57% | 22 (16%) | 44 |
+| PAT | **13** | 7 | +86% | 10 | 23 |
+
+**Two quarters at a 16% margin** — inside the base case's 15% and approaching the bull case's 17%. **H1 cash (rendered 10-Nov):** operating cash ₹51.9cr vs ₹48.2cr of operating profit before working capital; capex ₹46.4cr; borrowings ₹119.8cr (₹113.2cr at March); receivables ₹102.7cr (₹78.9cr).
+
 ## 5. Connecting the Dots
 
 **Thread A — 🟢 The furnace cycle has turned, and that is the whole thesis.** **FY24 built it (fixed assets ₹57cr → ₹240cr), FY24–25 paid for it (depreciation +₹21cr, interest +₹14cr, PAT fell ₹27cr → ₹19cr), and FY26–Q1FY27 is harvesting it (revenue +21%, PAT +32% then +90%).** *This is a textbook capital-goods-intensive cycle and it is at the good part.*
@@ -347,6 +357,7 @@ From the FY26 Directors' Report and MD&A — *the closest thing to management co
 |---|---|---|---|
 | **3-Jul-2026** *(v1)* | **₹119** · mcap ₹632cr | **Medium** *(header)* / **spec** *(PORTFOLIO_STATE)* — **conflicted** | Profile initiated at **8.6 KB, the thinnest on the watchlist**, from Screener, ValuePickr and BSE filings. **Sourcing note conceded: *"Haldyn Glass concalls are not in our repository (concalls likely not held or not extracted)."*** *The conditional was never resolved either way.* An earlier note wrongly concluded the company was not NSE-listed; corrected in CLAUDE.md §4A after the `EQUITY_L.csv` check. |
 | **2-Sep-2026** *(this profile)* | **₹142** · mcap **₹772cr** | **MEDIUM** — *conflict resolved* | Full rewrite in always-current format on **11 exchange filings plus the FY26 Annual Report**. **🔴 THE DATA QUESTION IS SETTLED: a full 2026 sweep of BSE 515147 — 35 filings — returns ZERO concall, transcript, analyst-meet or investor-presentation entries. Haldyn Glass holds no earnings calls. The gap is permanent, not pending, and the §9 entry should be read as closed.** **🟢 Q1FY27 revenue ₹138.7cr (+21%), consolidated PAT ₹10.26cr (+90%), OPM 16%.** **🟢 FY26 revenue ₹464cr (+21%), CFO ₹62cr, CFO/OP 102%, FCF +₹33cr after −₹77cr in FY24, cash conversion cycle 184 → 87 days, borrowings ₹128cr → ₹116cr.** **🟢 Promoter buying five quarters running, 58.14% → 59.14%.** **🆕 FOUND, and v1 did not carry it: Haldyn owns 56.80% of Haldyn Heinz Fine Glass and equity-accounts it as an associate on a disclosed substantive-rights argument — ~26% of consolidated profit arrives from an entity contributing no revenue.** **🆕 Captive renewable power via Jamnagar Renewables Two, at both parent and associate; oxyfuel firing installed; green and amber beer bottles added.** **🟢 The 30-Apr BSE clarification was read: a routine price-movement query, answered next day.** **Stock +30% in a year, +19% since v1, 2.1% below the 52-week high.** |
+| **18-Nov-2026** *(Q2FY27, filings)* | **₹133** · mcap ₹713cr | **HELD at MEDIUM** | Revenue +21%, margin 16% for a second quarter, H1 CFO above operating profit — **all four downgrade triggers clear** (margin vs 12%; CFO/OP vs 60%; borrowings ₹120cr vs ₹140cr; cash cycle well under 150 days). Re-priced on the unchanged per-share scenarios (base ₹172, bull ₹304, bear ₹71): base +29% · bull +129% · bear −47% → **weighted ≈ +39%**. *Receivables +30% in six months is the line to watch.* |
 
 **The trajectory in one line.** ***v1 guessed that concalls "likely" did not exist; this pass proves it, and in the process finds a company that has quietly finished a furnace expansion and started generating cash — at a multiple that has run ahead of its returns.***
 
@@ -476,6 +487,8 @@ From the FY26 Directors' Report and MD&A — *the closest thing to management co
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (18-Nov-2026 fold-in, filings only):** results 5-Nov (BSE 515147; balance sheet and cash flow rendered at the 10-Nov sweep); Screener consolidated 18-Nov-2026 (intraday).
 
 - **🔴 NO CONCALLS EXIST — established definitively this pass, not inferred.** A full sweep of the **BSE feed for scrip 515147 across all of 2026 — 35 filings, page 2 empty** — returns **zero** concall intimations, transcripts, investor presentations or analyst-meet notices. **Screener carries no Concalls section.** **`SLONGNAME` echoed as "Haldyn Glass Ltd-$" on every query, per §4A** *(the `-$` is a BSE series marker, as previously noted for NITTA; not investigated further and not read as a signal)*. **Gate: 🟡 PARTIAL by structural limitation.**
 - **⚠️ NSE's corporate-announcements API returns zero records for HALDYNGL** despite the 20-Apr-2026 listing. **BSE 515147 is the only usable feed.** *`EQUITY_L.csv` confirms the listing: `HALDYNGL,Haldyn Glass Limited,BE,20-APR-2026,1,1,INE506D01020,1`.*

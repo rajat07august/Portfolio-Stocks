@@ -345,6 +345,16 @@ The initiation was explicit: *"**⚠️ Key concern: the order book growth rate 
 
 ---
 
+### 🆕 Q2FY27 fold-in — filings only *(18-Nov-2026; results 29-Oct; **no earnings call** — Paras has never held one; two one-on-one investor meetings filed, 2 and 12-Nov)*
+
+| ₹cr (consolidated) | Q2FY27 | Q2FY26 | YoY | Q1FY27 | H1FY27 | H1 YoY |
+|---|---|---|---|---|---|---|
+| Revenue | **151** | 106 | **+42%** | 128 | 279 | +40% |
+| Operating profit (OPM) | **45 (29%)** | 30 (28%) | +50% | 32 (25%) | 77 | |
+| PAT | **31** | 19 | **+63%** | 21 | 52 | +57% |
+
+**Growth ahead of the base case's 35%, at the best margin in the series.** **Postal ballot (29-Oct, corrected by corrigendum):** approval of a **material related-party transaction with Paras Anti-Drone Technologies Pvt Ltd (subsidiary)** — the version uploaded to the exchanges carried wrong resolution wording; per the corrigendum it *"has not been circulated to the shareholders"*, and the corrected notice will be. Promoter 53.20%, flat. **No filing on the semiconductor funding structure** (Risk 2).
+
 ## 5. Connecting the Dots
 
 **Paras is stacking capability layers rather than expanding a single vertical.** Five threads:
@@ -472,6 +482,7 @@ FII **5.06% → 8.29%**, DII **1.24% → 3.04%**, public **40.52% → 35.46%**, 
 | **Bear** | **25%** | Order book fails to accelerate and FY28 growth falls to ~20%; **semiconductor consumes parent equity via a dilutive raise**; cash conversion stays below 50%; the multiple compresses toward defence-peer norms | PAT ₹130 cr<br>EPS ₹14.5 *(on more shares)* | 35x | **₹508** | **−60%** |
 
 **Weighted 2-year return: (0.50 × −12) + (0.25 × 63) + (0.25 × −60) ≈ −5%.**
+> ⤴ **18-Nov-2026 re-price (Screener, intraday ₹1,250; market cap ₹10,070cr; P/E 98.6x):** base ₹1,128 → **−10%** · bull ₹2,083 → **+67%** · bear ~₹513 → **−59%** → **weighted ≈ −3%**. **Held at MEDIUM-LOW** — the quarter beat the base case on growth and margin; the multiple still absorbs it.
 
 > **At 112x trailing and 14.2x book, the base case loses money even on 35% compound growth for two years**, because it requires the multiple to halve — **and 55x on a 35%-growing defence company is not a punitive assumption.** **You only make money here if the multiple substantially holds, which means the bull case is really a bet on the market's willingness to keep paying ~80x. That is a sentiment bet, not an earnings bet.**
 
@@ -482,6 +493,8 @@ FII **5.06% → 8.29%**, DII **1.24% → 3.04%**, public **40.52% → 35.46%**, 
 **Risk 1 — 🔴 Valuation.** **112x trailing, 14.2x book, on a 12.6% ROE**, up 95% in a year. **The base case loses money on 35% compound growth.**
 
 **Risk 2 — 🔴 The semiconductor funding structure.** **₹6,200cr against ₹25cr of operating cash flow.** *Whatever share PARAS carries, the plausible routes are dilution, debt, or a subsidiary raise that cuts the parent's economic interest.* **Any parent-level equity issuance is the downgrade trigger.**
+
+> 🕐 **NO NEW FILING (to 18-Nov-2026):** nothing on the ₹6,200cr structure in the window.
 
 **Risk 3 — 🔴 The order book is unobservable.** **+6% in FY26 against 30.7% revenue growth, and undisclosed since.** *If pipeline conversion is stalling, 30-40% growth is not fundable — and there is no way to check.*
 
@@ -538,6 +551,8 @@ FII **5.06% → 8.29%**, DII **1.24% → 3.04%**, public **40.52% → 35.46%**, 
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (18-Nov-2026 fold-in, filings only — no call):** results 29-Oct; postal-ballot notice and corrigendum 3-Nov (material RPT with Paras Anti-Drone Technologies); investor-meet notices 2 and 12-Nov; NSE shareholding master (Sep-2026); Screener consolidated 18-Nov-2026 (intraday).
 
 **Primary documents:**
 - **Q1FY27 results filing, 7-Aug-2026** — the consolidated print and the standalone segment table. **Checked directly for order-book disclosure: zero mentions.**

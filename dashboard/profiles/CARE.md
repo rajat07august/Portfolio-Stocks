@@ -243,6 +243,10 @@ CARE has **no promoter category at all.** It is wholly professionally and instit
 | Inorganic acquisition — *"pipeline of conversations is live"* | Q4FY25 **and** Q4FY26 | **Nothing closed in 4+ years.** ₹918cr treasury still idle | 🔴 |
 | SBI + NSE IFSC ~9.9% each in CGIL, completion within 6 months | Term sheet 12-Nov-25 | **Not completed.** Q1FY27 deck (7-Aug-26) still shows CGIL at 100%, 9 months on | 🔴 |
 | Bond market recovery | Q4FY26 | **Worse.** Corporate bond issuance **−29.3% YoY in Q1FY27** | 🔴 |
+| *(18-Nov)* **SBI + NSE IFSC ~9.9% each in CGIL** — re-scored | Term sheet 12-Nov-25 | SPAs signed 19-Oct-2026; **transfer approved 13-Nov-2026 — CARE now holds 80.20%** | ✅ **Completed, ~12 months after the term sheet** |
+| *(18-Nov)* Outpace industry growth | Q4FY26 | Q2 consolidated operating income **+20%** (ratings +21%, non-ratings +15%) | 🕐 **Peers not yet compared for Q2** |
+| *(18-Nov)* Capital return | Q4FY25–26 | Interim dividend **₹10** (₹8 a year ago); still no buyback | 🟡 **Higher, not transformative** |
+| *(18-Nov)* Earnings calls | — | **No Q2 earnings call**; only scheduled one-on-one investor meetings (5-Nov and later). Screener lists no transcript for Aug or Oct | 🔴 **Disclosure narrowed** |
 
 **On the 80:20 target specifically**, Priyank Chheda (Vallum Capital) put it to management directly on the Q4FY26 call, and Mehul Pandya's answer was honest and largely fair:
 
@@ -392,6 +396,19 @@ CARE gives **no revenue or margin guidance** — this is stated so its absence i
 
 ---
 
+### 🆕 Q2FY27 fold-in — filings only *(18-Nov-2026; results, press release and deck 29-Oct; **no earnings call was held** — only scheduled one-on-one investor meetings)*
+
+| ₹cr | Q2FY27 consolidated | YoY | Q2FY27 standalone | YoY | H1FY27 consolidated | YoY |
+|---|---|---|---|---|---|---|
+| Operating income | **164.1** | **+20%** | 134.2 | +17% | 275.8 | +20% |
+| EBITDA (margin) | **84.6 (52%)** | +23% | 78.0 (58%) | +20% | 119.3 (43%) | +24% |
+| PAT (margin) | **72.4 (44%)** | +26% | 69.2 (52%) | +24% | 105.4 (38%) | +26% |
+| Ratings / non-ratings revenue | 148.5 / 15.6 | +21% / +15% | | | 247.2 / 28.6 | +20% / +18% |
+
+*Percent margins as printed in the release, which reads its own layout ambiguously; the rupee figures are unambiguous.* **Five quarters (Screener):** revenue 136 → 112 → 131 → 112 → **164**; OPM 50% → 36% → 46% → 31% → **52%**.
+
+**Other filings:** interim dividend **₹10** (record date 6-Nov); **CGIL partial sale closed** — 9.90% each to SBI and NSE IFSC, CARE at 80.20% (13-Nov); Jatindar Pal Singh Bajaj appointed non-executive director; ESOP allotments.
+
 ## 5. Connecting the Dots
 
 **Thread A — The core is a regulatory annuity, and it is compounding again.** 5,200+ rated entities, 24-25% incremental market share, 17% FY26 ratings growth. Surveillance fees recur whether or not new issuance is strong. This thread funds everything else.
@@ -422,10 +439,13 @@ CARE gives **no revenue or margin guidance** — this is stated so its absence i
 |---|---|---|
 | 3-Jul-2026 | **High** | Initiation. FY26 all-time-high print, 39% standalone PAT margin, duopoly-plus position, framed as *"the most attractive value + quality name in Indian financial services professional-owned space"* |
 | **12-Aug-2026** | **High → Medium-High** | Not a thesis break — **a re-pricing of an untested rating.** Quality confirmed and if anything understated. **Value is not there:** the core business trades at ~31x once the ₹892cr of net cash *and* the ₹54.8cr of income it generates are both removed. Compounded by three unspoken governance items, and the slowest Q1FY27 growth of the three listed agencies |
+| **18-Nov-2026** *(Q2FY27, filings — no call held)* | **HELD at Medium-High** | Q2 consolidated revenue **+20%** (ratings +21%), PAT +26%, margin 52%. **Back-to-High trigger not met** (growth below 22%; dividend up to ₹10 but no buyback or in-domain acquisition). **Down triggers clear** (growth above 15%; no new regulatory action; the CGIL stake sale is the long-promised one, not a new off-core commitment). No earnings call this quarter. Re-priced **≈ +34%** at ₹1,586. |
 
 **Trigger to move back to High:** Q2FY27 revenue growth ≥ 22% **and** a credible capital-allocation action — a buyback, a materially higher payout, or a completed acquisition inside the core domain.
 
 **Trigger to move to Medium:** Q2FY27 growth below 15%, **or** a second regulatory action, **or** another off-core capital commitment.
+
+> **📊 18-Nov-2026 — Q2FY27 scored (filings; no call).** Back to High: growth ≥22% ❌ (+20%) · capital-allocation action ❌ (₹10 interim dividend, no buyback). To Medium: growth <15% ✅ clear · second regulatory action ✅ none filed · off-core commitment ✅ none new. **Where it trades (Screener, 18-Nov-2026, intraday):** CMP **₹1,586** · market cap ₹4,782cr · P/E 24.8x · yield 1.39%. **Re-priced on the unchanged scenarios (market cap):** base ₹6,264cr → **+31%** · bull ₹8,640cr → **+81%** · bear ₹4,070cr → **−15%** → **weighted ≈ +34%**, plus ~1.4% yield. **Held at Medium-High.**
 
 ### (b) Material developments — newest first
 
@@ -628,6 +648,8 @@ CMP **₹1,687** · Mcap **₹5,078cr** · trailing P/E **28.6x** · P/B **5.4x*
 
 ## 9. 📢 Community Pulse
 
+**⤴ 18-Nov-2026:** no earnings call this quarter, so no call queue to read; community not re-scanned beyond the existing record. *Gap stated, not filled.*
+
 *Refreshed 12-Aug-2026.*
 
 ### ValuePickr — thread 625, "CARE Ratings Limited"
@@ -662,6 +684,8 @@ Last five posts, verbatim:
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (18-Nov-2026 fold-in, filings only — no call held):** board outcome, press release and deck 29-Oct; dividend record date 29-Oct; CGIL stake-sale updates 19-Oct and 13-Nov; investor-meet schedules 30-Oct, 12-Nov, 13-Nov; Screener consolidated 18-Nov-2026 (intraday).
 
 **Concalls read — 3 of 3 available.** 🟡 **Gate: partial-by-structure, permanently.** CARE holds one earnings call a year, after Q4 only.
 - **Q4FY26 annual earnings call, 14-May-2026** — 87,518 chars, 23 pages, read in full. Management panel: Mehul Pandya (MD & Group CEO), Revati Kasture (ED & Head BD / CEO CareEdge Global), Smita Rajpurkar (Head Criteria, Policy & Regulatory Affairs), Jinesh Shah (Group CFO), Swati Agrawal (CEO CareEdge Advisory), Abhisheik Vishwakarma (CEO CareEdge Analytics), Saurav Chatterjee (Director & CEO CareEdge Africa). Analysts: IIFL Capital, YES Securities, Vallum Capital, IGE India, Bandhan Life, Unifi Capital, Prudent Corporate Advisory, Ardeko.

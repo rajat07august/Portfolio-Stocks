@@ -123,6 +123,38 @@ Memorandum recording the company's **intent** to invest ~₹4,500cr in an integr
 </details>
 <!-- FACTORS:END -->
 
+## 🔄 Refresh Log — 18-Nov-2026 (H1FY27 fold-in — filings only; no earnings call held)
+
+*Results, statements and an earnings-release deck 14-Nov; postal-ballot results 12-Nov; CRISIL reaffirmation 31-Oct. **No H1 earnings call was announced or held.** Cash flow and segment pages rendered and read.*
+
+| ₹cr (consolidated) | H1FY27 | H1FY26 | YoY | H2FY26 |
+|---|---|---|---|---|
+| Revenue | **1,000** | 781 | **+28%** | 1,032 |
+| EBITDA (company) | 249.4 | 188.1 | +33% | |
+| Operating profit ex OI (Screener) | 215 (21%) | 180 (23%) | | 218 (21%) |
+| Interest | **63** | 20 | **3.1x** | 43 |
+| PAT | **134.7 (13.5%)** | 121.6 (15.6%) | **+11%** | 130 |
+
+**The first half that did not grow sequentially** (H2FY26 ₹1,032cr → H1FY27 ₹1,000cr), and **interest has tripled** as the IPP/BESS build is financed. EPC segment profit ₹221.8cr; the Resco (own-generation) segment lost ₹2.9cr after its interest.
+
+**🔴 Cash flow (rendered, consolidated):** operating profit before working capital ₹206.9cr; receivables **−₹263.5cr**, inventory **−₹202.4cr**, other current assets **−₹187.2cr** — offset by **trade payables +₹482.6cr** → operating cash **+₹90.5cr**. **Without the payables stretch, operating cash would have been about −₹390cr** *(my arithmetic)*. Investing −₹181.8cr; financing +₹165.4cr (long-term borrowings +₹172.1cr). **Direct tax paid is shown as ₹0.02 lakh against a ₹42.7cr H1 tax charge** — unexplained in the filing.
+
+**Balance sheet and credit:** debt/equity **0.80x** (deck); **CRISIL A−/Stable reaffirmed, bank facilities enhanced ₹800cr → ₹950cr** (31-Oct). **Corporate guarantees ~₹660cr** after the 6-Oct widening of the USOLAR guarantee to 100% of ₹460cr — **below the ₹700cr trigger**; the postal ballot (closed 8-Nov) passed all resolutions. Several step-down SPVs incorporated in November.
+
+**Where it trades (Screener, 18-Nov-2026, intraday):** CMP **₹185** *(post 1:5 split)* · market cap ₹1,880cr · P/E 7.0x · ROE 39.6% · 52-week ₹184–555. **−24% since 10-Nov (₹242)** — the move came across the results week; the filings give no single cause *(my reading: no sequential growth, tripled interest and a payables-funded cash flow)*.
+
+**🆕 Scenarios rebuilt (my construction, 18-Nov-2026).** *The July scenarios (base ₹5,700cr, bear ₹3,000cr) now imply +60% even in the bear case — they priced an SME growth multiple the market has withdrawn.*
+- **Base — 55%.** FY28 revenue ~₹2,600cr; PAT margin ~12% → ~₹310cr; **9x** for an SME with a stretched working-capital cycle → ₹2,790cr → **+48%**.
+- **Bull — 25%.** BESS annuities and IPP assets start paying; FY28 ~₹3,000cr, PAT ~₹380cr; **12x** → ₹4,560cr → **+143%**.
+- **Bear — 20%.** Working capital unwinds against it (payables normalise), a guarantee is called or equity is raised at the low; PAT ~₹180cr at **5x** → ₹900cr → **−52%**.
+- **Weighted ≈ +52%** *(0.55 × 48 + 0.25 × 143 − 0.20 × 52)*. **The distribution is wide by design (§0A rule 7).**
+
+**🔁 Conviction: HELD at MEDIUM-HIGH (Under Watch).** Trigger — guarantees above ~₹700cr or any invocation — **not fired** (~₹660cr, no invocation). **Added to the watch:** H2 operating cash *without* a further rise in payables; the ₹0.02-lakh tax-paid line.
+
+**📢 Community Pulse:** no H1 call to read; the 16-Jul refresh's ValuePickr scan stands (not re-run this pass — stated as a gap).
+
+---
+
 ## 🔄 Refresh Log — 16-Jul-2026 (Tier A — post-v1 corporate actions + community pulse)
 
 **What's genuinely new since v1 (3-Jul-2026):**
@@ -443,6 +475,8 @@ Very attractive on returns + growth. Priced for SME liquidity + policy risks.
 
 Weighted return: **~85% over 2 years** — very attractive.
 
+> ⤴ **18-Nov-2026:** these July scenarios are superseded by the rebuilt set in the 18-Nov refresh log at the top (≈ +52% at ₹185; the old set re-priced would read +234%, with a +60% bear case — not credible).
+
 ---
 
 ## 7. What Could Prove Us Wrong
@@ -477,6 +511,8 @@ Weighted return: **~85% over 2 years** — very attractive.
 ---
 
 ## Source Appendix
+
+- **🆕 H1FY27 (18-Nov-2026 fold-in, filings only — no call held):** results, statements and earnings-release deck 14-Nov (**cash-flow and segment pages rendered and read**); postal-ballot results 12-Nov; USOLAR guarantee revision 6-Oct; CRISIL reaffirmation 31-Oct; step-down-SPV filings 5–12 Nov; Screener consolidated 18-Nov-2026 (intraday).
 
 - **Concalls read:** Q4FY26 (Jun 2026, primary), Q2FY26 (Dec 2025), Q4FY25 (Jun 2025); plus Q4FY26 investor PPT.
 - **Screener:** Oriana Power Ltd (NSE-SME: ORIANA).
