@@ -205,6 +205,16 @@ None significant.
 | Recurring revenue transition | Multi-quarter | Progressing | 🟡 In progress |
 | **FY27 revenue: significant growth expected** | H2FY26 | To be verified | 🕐 Pending |
 | **FY27 order book conversion** | H2FY26 | To be verified | 🕐 Pending |
+| *(18-Nov)* **FY27 revenue: significant growth** — re-scored | H2FY26 | **H1FY27 ₹159cr, ~+95%**; H2 is usually ~60% of the year (CEO) | ✅ **Delivered for the half** |
+| *(18-Nov)* **EBITDA margin 20–25%** — re-scored | H2FY26 | **H1 29.3%** (EBITDA ₹46.7cr, ~+110%); *"The margins of 29%, 30% are sustainable"* | ✅ **Beaten again** |
+| *(18-Nov)* **Order book conversion** — re-scored | H2FY26 | Opening ₹697cr + H1 intake ₹308cr − executed ₹159cr = **₹846cr** (~4x FY26 revenue) | ✅ **Book still growing** |
+| *(18-Nov)* 🆕 **Revenue CAGR 40–50% for 3–5 years** | H1FY27 call | New, explicit target; ~₹1,000cr by FY30 on an analyst's arithmetic, which the CEO accepted (*"we should be reaching somewhere there"*) | 🆕 **Ambitious; the CEO's word** |
+| *(18-Nov)* Kavach: developer → approved vendor | Q4FY26 call | Trials *"successfully progressing"*; **no date** (*"difficult to give any date"*). Orders carry 12-month delivery while ISA certification is pending | 🕐 **Still open, undated** |
+| *(18-Nov)* MSDAC approval | FY26 | *"waiting for the final approval"* | 🕐 |
+| *(18-Nov)* Fusion (PCB) revenue | FY26 | Plant ready; first revenue *"very hopeful"* in FY27; ~₹400cr at full scale | 🕐 |
+| *(18-Nov)* Hydrogen locomotive (3,100 HP) | FY26 order | In development, *"as per the progress which we expected"*; delivery next year | 🕐 |
+| *(18-Nov)* Mainboard migration | 2026 | Eligibility *"will get completed very soon"*, then application | 🕐 **Undated** |
+| *(18-Nov)* Working capital | H2FY26 | **Debtor days 210 → 178, inventory days 313 → 259** (company figures, Mar → Sep); but **receivables ₹88.6cr → ₹140.8cr** in rupees | 🟡 **Days better, rupees up 59%** |
 
 **Verdict on management:** Delivering. Order book 3.3x revenue is unusual for a niche mid-cap. Kavach + green mobility positioning is real. Bet on Gaurav Lath to execute — track record supports.
 
@@ -253,6 +263,27 @@ None significant.
 
 ---
 
+### 🆕 H1FY27 Refresh — Full Numbers Print *(18-Nov-2026; results 2-Nov, deck and call 3-Nov, official transcript filed on BSE 11-Nov and read in full)*
+
+| ₹cr (consolidated) | H1FY27 | H1FY26 | YoY | H2FY26 |
+|---|---|---|---|---|
+| Revenue | **159** | 82 | **~+95%** | 129 |
+| EBITDA (company) | **46.7 (29.3%)** | ~22 | ~+110% | |
+| Operating profit ex OI (Screener) | 46 (29%) | 20 (25%) | | 39 (30%) |
+| PAT | **31.2** | 16 | **~+95%** | 25 |
+| EPS (₹) | 30.08 | 15.86 | | 23.96 |
+| Order book | **846** | | | 697 (Mar) |
+
+**Six halves (Screener):** revenue 35 → 50 → 75 → 82 → 129 → **159**; OPM 26% → 28% → 20% → 25% → 30% → **29%**. **The margin step-up of H2FY26 held.**
+
+**Where the revenue comes from.** *"More than 80%"* of revenue, and 80% of the order book excluding Kavach, is **locomotive subsystems** (the former Advanced Rail business, merged in) including green mobility and AI/sensing. **Revenue is growing "without Kavach".**
+
+**🔴 Kavach runs through an associate.** **Progota, the Kavach vehicle, is a 46.5% associate** (raised from 26% last year): *"you can only take the profit… You can't do a line-to-line consolidation of the revenues."* An analyst put Kavach at *"INR 400 crore plus"* of orders. **Whether the ₹846cr group order book includes Kavach orders that will never appear as Concord revenue was not answered** — the CEO called it the book *"all put together as a group"*. *This profile has described Progota as an "acquisition"; it is an equity-accounted associate.*
+
+**Working capital.** Company: debtor days 210 → 178 and inventory days 313 → 259 in six months. Filed balance sheet (4-Nov note): **receivables ₹88.6cr → ₹140.8cr (+59%)**, short-term provisions ₹42.0cr → ₹71.0cr. Both are true; days improve because sales grew faster. **No fundraise planned** for working capital; bank lines suffice.
+
+**Guidance:** revenue CAGR **40–50% for 3–5 years**; margin 29–30% sustainable; H2 typically ~60% of the year — **which would put FY27 near ₹400cr** *(my arithmetic, not a guide)*; international revenue *"one-fourth and one-half"* of the total in 3–5 years.
+
 ## 5. Connecting the Dots
 
 **Thread A — Kavach TAM (INR 40,000+ cr).** Multi-year opportunity.
@@ -282,16 +313,38 @@ Weighted return: **~55% over 2 years = ~24% CAGR.** Attractive setup.
 
 ---
 
+### 📊 18-Nov-2026 — H1FY27 scored
+
+**Where it trades (Screener, 18-Nov-2026, intraday):** CMP **₹2,486** · market cap ₹2,581cr · P/E 46.0x (TTM PAT ~₹56cr) · BV ₹232 · ROCE 31.2% · ROE 25.8% · 52-week ₹1,837–3,070. *(13% below the 3-Jul write at ₹2,860.)*
+
+**The 3-Jul scenarios re-priced on market cap:** base ₹4,400cr → **+70%** · bull ₹6,300cr → **+144%** · bear ₹3,025cr → **+17%**. **Weighted ≈ +82%.** **⤴ But that bear case is not a bear case** — it keeps a 55x multiple on slower growth and still returns +17% (§0A rule 7). **It is replaced below.**
+
+**🆕 Refreshed scenarios (18-Nov-2026, my construction):**
+- **Base — 50%.** FY27 ~₹380cr (H1 at ~42% of the year), FY28 ~₹520cr (+37%); margin 28% → EBITDA ~₹146cr; PAT ~₹100cr; **40x → ₹4,000cr → +55%.**
+- **Bull — 25%.** Kavach approval and Fusion revenue arrive; FY28 ~₹620cr, PAT ~₹125cr; **50x → ₹6,250cr → +142%.**
+- **Bear — 25%.** Kavach approval slips again, H2 does not deliver 60%, receivables keep rising; FY28 ~₹380cr, PAT ~₹65cr; **SME de-rating to 25x → ₹1,625cr → −37%.**
+- **Weighted ≈ +54%** *(0.50 × 55 + 0.25 × 142 − 0.25 × 37)*, zero dividend. **Lower than the re-priced +82% because the bear case is now real.**
+
+**Conviction: HELD at HIGH.** The half beat every number the profile was waiting for. **What would cut it to MH** *(set now)*: FY27 revenue below ₹330cr (i.e. H2 not larger than H1), **or** FY27 receivables above ₹180cr, **or** no Kavach approved-vendor status by the H1FY28 results.
+
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — Order book conversion delays.** Government order execution often slow.
+
+> ✅ **TRACKING WELL (H1FY27):** ₹159cr executed, ₹308cr booked; book ₹846cr. **Open:** how much of it is Kavach that consolidates only as associate profit (§4, 18-Nov).
 **Risk 2 — Kavach competition intensifies.** L&T, Kernex ramping.
+
+> ⚠️ **ACCUMULATING (H1FY27):** still a developer vendor in trials, no approval date; an analyst sees a slowdown in Kavach tendering. CEO: *"not only 10% would be completely deployed till now"*.
 **Risk 3 — Green mobility programs delayed.** Retrofit adoption dependent on Railway budget.
 **Risk 4 — Fourth promoter dilution round.** Already 8% down.
 **Risk 5 — Small size = customer concentration on Indian Railways.**
 **Risk 6 — Extreme illiquidity (1,914 shareholders).** Difficult to enter/exit.
 **Risk 7 — Progota integration issues.**
+
+> ⤴ **RE-FRAMED 18-Nov-2026:** Progota is a **46.5% associate**, not an integration — Kavach revenue does not consolidate. The risk is that the headline order book overstates the revenue Concord will report.
 **Risk 8 — Retail-driven price volatility.**
+
+**🆕 Risk 9 — Receivables grow faster than the business can fund (NEW — 18-Nov-2026).** Receivables ₹88.6cr → ₹140.8cr in six months; short-term provisions +₹29cr. Days improved, rupees did not. No fundraise is planned; at 40–50% growth the bank lines carry it.
 
 ---
 
@@ -307,7 +360,13 @@ Weighted return: **~55% over 2 years = ~24% CAGR.** Attractive setup.
 
 ---
 
+## 9. 📢 Community Pulse — 18-Nov-2026
+
+**ValuePickr #148374 "Concord Control Systems - An SME railway stock"** — 144 posts, active. Last post 2-Nov (#156): *"Looks great set of numbers… Revenues and profits grew 95% Y-o-Y."* 🟢 No post engages the associate structure of Kavach or the receivables build. **Sentiment: BULLISH.**
+
 ## Source Appendix
+
+- **🆕 H1FY27 (18-Nov-2026 Tier-A):** results 2-Nov; deck and analyst-meet outcome 3-Nov; **official transcript of the 3-Nov call (filed on BSE 11-Nov), read in full**; Screener consolidated 18-Nov-2026 (intraday); ValuePickr #148374 (the thread ID is now recorded).
 
 - **Concalls read:** H2FY26 (May 2026, primary), H1FY26 (Nov 2025), H2FY25 (May 2025), H1FY25 (Nov 2024).
 - **Screener:** Concord Control Systems Ltd (BSE: 543619).

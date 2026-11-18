@@ -266,6 +266,14 @@ This is **custom synthesis and CDMO** — a customer (a global agrochemical, pha
 | Jayhawk capex burden on Anupam | Q1FY27 | *"they are **fairly well capitalized** in terms of cash and they are **completely unlevered**. We don't see that we would have any requirement that we will need to support Jayhawk"* | ✅ **Self-funding** |
 | Polymer / performance-materials contribution | Q1FY27 | *"on a standalone, we should be able to get a polymer business to be in the range of **20% to 25%**. And on a consolidated basis… **30% to 35%**"* | 🕐 Directional |
 | API plant acquisition | Guided last call | *"we continue to explore… right now, it's just on the **exploratory stage**"* — and will be pursued **with Bliss management** once consummated | 🕐 **A fourth acquisition is being contemplated** |
+| *(18-Nov)* **Bliss GVS completion** | 2026 | **Completed 28-Sep-2026; the group holds ~50.07%** (Mates 47.95% + Anupam directly ~2.1%); Bliss consolidated from 28-Sep (three days of P&L, full balance sheet) | ✅ **Closed** |
+| *(18-Nov)* **Bliss funding — "an equity-linked instrument"** | Q1FY27 | **₹1,450cr of "non-controlling, non-voting" quasi-equity from investors led by Bain Capital (with Trust Group, Investec)**, with a right for Anupam to buy them out *"over a reasonably long period"*; **₹300cr term loan in a wholly owned subsidiary**, single-digit cost; no debt loaded onto Bliss | 🟡 **Disclosed in outline; buy-out price and coupon undisclosed** |
+| *(18-Nov)* **Consolidated margin 22–24%** | Q1FY27 (reset) | Q2 **25%**, H1 25.5%; standalone ~34% — guidance **not raised** (*"I would urge to caution"*) | ✅ **Above the band** |
+| *(18-Nov)* 🆕 H2 revenue ₹2,400–2,500cr consolidated | Q2 call | Implies a ₹4,800–5,000cr annual run-rate with Bliss and Jayhawk; then 20–25% organic for 3–5 years | 🆕 **First numeric revenue guide** |
+| *(18-Nov)* Contract book (LoIs + long-term) | Standing | **₹17,496cr**; ~₹2,500cr a year on average over six to seven years; this year ~1.8–2x last year's ~₹350cr | 🕐 |
+| *(18-Nov)* API acquisition | Q1FY27 ("exploratory") | *"we are actively looking for it"*; nothing to announce | 🕐 **Still live** |
+| *(18-Nov)* 🆕 US specialty-metal contract | Q2FY27 | Six-year agreement; supplying from November; ₹100–150cr this year | 🆕 |
+| *(18-Nov)* Working capital | Standing | Ex-Bliss cycle **276 → 271 days**; H1 operating cash **₹328cr** (FY26 full year ₹334cr) | 🟡 **Better cash, same days** |
 
 **Verdict on management.** **The operating and strategic delivery record is genuinely good.** Volume, geography, product mix, cash flow and the Bliss timetable were all delivered as described. **The ETFA world-first is a real technical credential, and the four-part platform framing is coherent rather than opportunistic.** **Acquisitions are run at arm's length** — *"we will continue to keep them as independent as they can be"* — which is the right structure for a roll-up.
 
@@ -395,6 +403,26 @@ This is **custom synthesis and CDMO** — a customer (a global agrochemical, pha
 ***The agri share falling from 76% to 55% in three years is the diversification thesis in one number.***
 
 ---
+### 🆕 Q2FY27 Refresh — Full Numbers Print *(18-Nov-2026; results 6-Nov (EPS restated the same day), call 6-Nov, official transcript filed 13-Nov and read in full; consolidated)*
+
+| ₹cr | Q2FY27 | Q2FY26 | YoY | Q1FY27 | H1FY27 | H1 YoY |
+|---|---|---|---|---|---|---|
+| Total income | **821** | 739 | **+11%** | 668 | 1,489 | +21% |
+| EBITDA (company, incl. OI) | **202 (~25%)** | 144 (19.4%) | **+41%** | 175 | 377 (25.5%) | +38% |
+| Operating profit ex OI (Screener) | 187 (23%) | 136 (19%) | | 162 (25%) | | |
+| Interest + depreciation (Screener) | 113 | 68 | +66% | 105 | | |
+| PAT | **65** | 57 | **+14%** | 51 | 116 | +10% |
+
+**Mix (Q2):** life-science specialty chemicals 42%, performance materials 28%, other fluorinated 29%. **Standalone revenue fell YoY** because Q2FY26 carried a one-time ~₹180cr sale.
+
+**🔴 Interest + depreciation take ~60% of operating profit** (Q2: ₹113cr of ₹187cr, Screener) — the upgrade line is below 50%. **ROCE 7.4%, ROE 5.6%** (Screener).
+
+**Bliss:** consolidated from 28-Sep (three days of revenue); its whole balance sheet is in the September figures, which is why **consolidated receivables read ₹1,582cr (₹959cr)**. Ex-Bliss working-capital cycle 276 → 271 days. Bliss steady-state margin guided at the group's 22–24% (H1 ~26.2%); utilisation in the 40s; synergies in *"three to four quarters"*. **Bliss holds no earnings calls**; management *"will urge"* it to start.
+
+**The economics of Bliss for Anupam's shareholders** *(my inference)*: the group consolidates 100% of Bliss's revenue, but **~49.9% belongs to Bliss's public shareholders** and the Mates stake is funded mostly by **₹1,450cr of Bain-led quasi-equity** whose return and buy-out terms are undisclosed. **Consolidated revenue (H2 guide ₹2,400–2,500cr) will overstate what accrues to Anupam equity.**
+
+**Cash:** H1 operating cash ₹328cr; cash across entities ~₹750cr, held as per-entity cushions.
+
 ## 5. Connecting the Dots
 
 **Thread A — The platform is the thesis, and it is now four-legged.** Tanfac (fluorine feedstock) → Anupam (custom synthesis) → Jayhawk (US CDMO) → Bliss (regulated formulations). **Management's claim is that the combination lets it *"participate across a much broader part of the value chain"* than any leg alone.**
@@ -421,6 +449,7 @@ This is **custom synthesis and CDMO** — a customer (a global agrochemical, pha
 | **10-Jul-2026** *(re-rate)* | — | **HIGH → MEDIUM** | Formal downgrade, recorded only as a footnote at the bottom of §3.5: *"~9-12% CAGR + 85x P/E on 7.4% ROCE + missed 26-28% margin guide + Bliss GVS integration risk. **H rating not supportable on this return + ROCE combination.**"* **🔴 The profile header was never updated and still said "High" seven weeks later.** |
 | **24-Aug-2026** *(this profile)* | **₹1,258** | **MEDIUM → MEDIUM-LOW** — and all three sources reconciled | Converted to always-current format; **the concall folder created for the first time.** **🟢 The Bliss open offer concluded on 10-Aug, inside the guided window** — SEBI approval obtained, closing in progress. **🆕 Two things v1 had zero mentions of: the ETFA world-first in flow chemistry (11-Jun) and the BASQUEVOLT $300m/10-year LoI (15-Jul).** **🔴 And the margin guidance has been formally cut from 26–28% to a consolidated 22–24% — exactly the reset v1 predicted.** **🔴 DII holding has collapsed 2.24% → 0.38%**, unremarked in any prior version. |
 | **19-Sep-2026** *(filings refresh)* | **₹1,208** | **HELD at MEDIUM-LOW** | **Bliss financing: ₹300cr Mates NCDs with an Anupam guarantee and pledges (17-Sep); ₹160cr more NCDs on the 19-Sep agenda; CRISIL A+ on Watch Developing (31-Aug). Six-year US supply contract (value undisclosed); Tanfac stake topped up by ₹61cr.** |
+| **18-Nov-2026** *(Q2FY27 Tier-A)* | **₹1,315** | **HELD at MEDIUM-LOW** | Q2 income +11%, EBITDA +41% at 25% (above the reset 22–24%); H1 operating cash ₹328cr. **Bliss closed on 28-Sep at ~50.07% through Mates, funded by ₹1,450cr of Bain-led non-voting quasi-equity plus a ₹300cr loan** — the open question about who owns Bliss is answered: the group consolidates it; the quasi-equity's terms are not disclosed. No Speculative trigger fired; no upgrade line met (ROCE 7.4%; interest + depreciation ~60% of operating profit). Re-priced **≈ −13%**. |
 
 **The trajectory in one line.** **v1 diagnosed this correctly and downgraded within a week; the intervening seven weeks have delivered good strategic news, a formal margin cut, and a balance sheet that keeps growing** — *and the header stayed stale the entire time.*
 
@@ -478,10 +507,17 @@ This is **custom synthesis and CDMO** — a customer (a global agrochemical, pha
 
 **🔴 Further downgrade to Speculative if:** the equity-linked instrument dilutes by more than ~10%, **or** a fourth acquisition is announced before Bliss is consolidated and contributing, **or** consolidated EBITDA margin falls below the newly-reset 22% floor.
 
+> **📊 18-Nov-2026 — Q2FY27 scored.** **Speculative triggers:** equity-linked instrument dilutes >10% — **not at the listed level**: it is ₹1,450cr of non-voting quasi-equity in the acquisition vehicle, not Anupam shares *(its economic claim on Bliss is undisclosed)* · fourth acquisition before Bliss contributes — **none announced** (an API target is "actively" sought) · consolidated margin <22% — **clear** (25%). **Upgrade triggers:** ROCE >10% ❌ (7.4%) · interest + depreciation <50% of operating profit ❌ (~60%) · full-year positive FCF — 🕐 H1 operating cash ₹328cr with the capex cycle finished.
+> **Where it trades (Screener consolidated, 18-Nov-2026, intraday):** CMP **₹1,315** · market cap ₹14,970cr · P/E 83.0x · BV ₹443 · ROCE 7.4% · ROE 5.6%.
+> **Re-priced on the unchanged per-share scenarios** (base ~₹1,195, bull ~₹1,736, bear ~₹453): **base −9% · bull +32% · bear −66% → weighted ≈ −13%** *(0.50 × −9 + 0.25 × 32 − 0.25 × 66)*. *The base case's ₹4,000cr FY28 revenue is now below management's ₹4,800–5,000cr run-rate — but much of that increment is Bliss revenue attributable to others (above). I have not re-cut the scenarios until the quasi-equity terms are known.*
+> **Conviction: HELD at MEDIUM-LOW.**
+
 ---
 ## 7. What Could Prove Us Wrong
 
 **🔴 Risk 1 — Bliss GVS integration.** Anupam has never operated a formulations business. **Bliss was at ~30% capacity utilisation**, with a complex product mix across therapy areas and emerging-market presence Anupam does not know. **If integration fails operationally or culturally, ₹300cr of NCD debt sits on the balance sheet with no revenue offset.**
+
+> 🕐 **STARTED (28-Sep-2026):** consolidated; new Bliss CEO (Rahul Adakmol, ex-DRL/Bharat Serums); synergies guided in 3–4 quarters. Bliss holds no calls, so integration will be visible only through Anupam's.
 > **🟡 PROCESS DE-RISKED, SUBSTANCE UNTESTED (24-Aug-2026).** **SEBI approval obtained; the open offer concluded on 10-Aug inside the guided window; closing is procedural.** **Management will keep Bliss independent** — *"we will continue to keep them as independent as they can be… the investment we have done is primarily with a view that they have a strong management team."* **And Bliss brings its own resources:** *"they're sitting on a cash flow of over **INR200-odd crores**, and they have a **very healthy balance sheet, with no debt**."*
 > **🔴 But management explicitly refused to say anything about Bliss's performance or utilisation:** *"we are yet to consummate this transaction… **I would really refrain from making any guidance or any statement there**… **give us a quarter or two**."* **Signal to watch: the first quarter of consolidated Bliss numbers, and utilisation off 30%.**
 
@@ -495,9 +531,12 @@ This is **custom synthesis and CDMO** — a customer (a global agrochemical, pha
 > **🔴 PARTLY MATERIALIZED — GUIDANCE HAS BEEN FORMALLY CUT (24-Aug-2026).** **The 26–28% guide is gone. The new guide is standalone 24–26% and consolidated 22–24%** — *"is what I would really guide at because there are multiple companies, multiple segments, multiple end markets."* ***v1 predicted a reset to 23–24.5% and was right.*** **Q1FY27 printed 25% consolidated, above the new band — but the band itself is now roughly where v1's bear framing said it would settle.** **Signal to watch: whether consolidated margin holds above 24% as Bliss consolidates at a different margin profile.**
 
 **🔴 Risk 5 — Working capital and cash flow.**
+> 🟢 **EASING (H1FY27):** operating cash ₹328cr in H1 against ₹334cr for all of FY26; ex-Bliss cycle 271 days. **Consolidated receivables ₹1,582cr include Bliss's acquired book.**
 > **⚠️ MIXED, WITH ONE GOOD YEAR (24-Aug-2026).** **FY26 CFO of ₹334cr at 150% of PAT was genuinely strong**, and CFO/OP recovered 3% → 72%. **But free cash flow was still −₹220cr, and has been negative in four of five years for ~₹1,390cr cumulative.** **Q1FY27 cash profit was ₹64cr against ₹56cr.** **Signal to watch: a full year of positive FCF — it has happened once since FY22.**
 
 **🔴 Risk 6 — Dilution.** Promoter fell 61.19% → 59.07% on warrant conversion in Sep-2025.
+
+> 🟡 **MOVED, NOT REMOVED (Q2 call):** the Bliss funding avoided listed-level dilution by using ₹1,450cr of non-voting quasi-equity in the acquisition vehicle, with a buy-out right. **The dilution has become a claim on Bliss's cash flows at undisclosed terms.**
 > **🔴 MORE IS COMMITTED, AND UNQUANTIFIED (24-Aug-2026).** Bliss will be funded with **₹300cr of debt** plus *"the balance consideration… raised through an **equity-linked instrument**."* **No terms, no conversion price, no size disclosed.** ***This is the single largest source of error in the §6 framework.*** **Signal to watch: the instrument's terms when filed, and promoter holding at Sep-2026.**
 
 **⚠️ Risk 7 — Founder and succession.** **Anand Desai has run this for 42 years.** No formal succession plan is disclosed. **🆕 A COO was appointed on 14-Aug-2026 (Ravi Desai)** and a professional layer exists — CEO Gopal Agrawal, CFO Amit Khurana, Deputy CFO Vishal Thakkar, **who now fields most of the call.** *That is a deepening bench, though not a disclosed succession plan.*
@@ -507,6 +546,8 @@ This is **custom synthesis and CDMO** — a customer (a global agrochemical, pha
 **⚠️ Risk 9 — Regulatory and environmental.** Specialty chemical plants face rising ESG scrutiny on effluent, emissions and safety. **v1's assessment — disclosures *"adequate but not best-in-class"* — stands unchanged.**
 
 **🆕 Risk 10 — The acquisition cycle has not stopped (NEW — 24-Aug-2026).** **A fourth deal is under active exploration while the third has not closed:** *"we continue to explore [an API plant]… right now, it's just on the **exploratory stage**… once the Bliss acquisition is also consummated, we will be working with the **Bliss management to explore any acquisitions together**."* ***Three acquisitions in four years was already flagged by v1 as "a lot." A fourth, contemplated before the third has consolidated, on a balance sheet where borrowings have doubled, is the pattern to watch.*** **Signal to watch: any announcement before Bliss reports a consolidated quarter.**
+
+> ⚠️ **STILL LIVE (Q2 call):** *"we are actively looking"* for an API asset; nothing to announce.
 
 **🆕 Risk 11 — Domestic institutions have left (NEW — 24-Aug-2026).** **DII holding: 2.24% → 1.37% → 0.41% → 0.35% → 0.38%** across five quarters — **an 83% reduction to effectively nil.** **FII moved the other way, 4.94% → 7.72%.** *No prior version of this profile recorded this.* **Signal to watch: whether any domestic fund re-enters — it would be a genuine signal.**
 
@@ -536,6 +577,8 @@ This is **custom synthesis and CDMO** — a customer (a global agrochemical, pha
 
 ## 9. Community Pulse — 24-Aug-2026
 
+**⤴ 18-Nov-2026:** still no dedicated ValuePickr thread located (searches return only portfolio threads mentioning the name). The Q2 call queue (ChrysCapital, Investec, JM, ICICI Securities) pressed on Bliss funding terms, margin sustainability and the next acquisition. **Sentiment: MIXED.**
+
 **ValuePickr:** v1 cited an *"Anupam Rasayan thread (last 18 months)"* in its sources. **This pass did not re-scan it, and no current post-Q1FY27 community read was located.** *Stated as a gap rather than carried forward as though checked.* **Flagged for the next refresh.**
 
 **Substack:** searched; **no dedicated coverage found.**
@@ -553,6 +596,8 @@ This is **custom synthesis and CDMO** — a customer (a global agrochemical, pha
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (18-Nov-2026 Tier-A):** results and the same-day EPS revision 6-Nov; deck 6-Nov; **official transcript of the 6-Nov call (filed 13-Nov), read in full**; Screener consolidated 18-Nov-2026 (intraday).
 
 - **Concalls read:** **Q1FY27 (call 14-Aug-2026, transcript filed 20-Aug-2026 — the primary source for this version).** **🔴 The `Fetched Concalls/ANURAS/` folder did not exist before this pass** — v1 cited four concall reads with nothing on disk. **Older transcripts (Q4FY25, Q1FY26, Q3FY26, Q4FY26) remain unfetched; v1's quotations from them are carried forward on trust and labelled where used.**
 - **Q1FY27 investor presentation and press release** (14-Aug-2026), plus the **Board Meeting Outcome**.

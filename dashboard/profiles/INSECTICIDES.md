@@ -1,7 +1,7 @@
 # Insecticides (India) — Company Profile
 
 **Ticker:** INSECTICIDES · **NSE:** INSECTICID · **BSE:** 532851 · **ISIN:** INE070I01018 · **Sector:** Agri-Inputs & Seeds (Sector 2)
-**Conviction:** **MEDIUM-HIGH (Under Watch)** — held; no trigger fired, and every one of them is set at Q2FY27
+**Conviction:** **⤴ MEDIUM** *(MH (Under Watch) → M, 18-Nov-2026: the H1 debtor-days trigger fired — ₹719cr of debtors, ~124 days on TTM revenue)* · was **MEDIUM-HIGH (Under Watch)** — held; no trigger fired, and every one of them is set at Q2FY27
 **Thesis date:** 24-Aug-2026 · **CMP ₹610** (Screener, 24-Aug-2026) · **Market cap ₹1,774 cr**
 
 **Concall Fetch Gate: ✅ GREEN — 7 transcripts.** **Q1FY27 (call 11-Aug-2026, transcript filed 17-Aug-2026 — 🆕 downloaded for this version)**, plus Jun-2026, Feb-2026, Nov-2025, Aug-2025, Jun-2025 and Feb-2025. **FY26 Annual Report (17-Jul-2026)** and the Q1FY27 deck also read.
@@ -226,6 +226,14 @@ The business has two halves with very different economics. **B2B (technicals)** 
 | **🆕 Cost programme with a date** | Q1FY27 | ROCE/ROE improvement from *"**renewable initiatives**, lower electricity and fuel consumption and **increasing use of AI**"* — benefits *"**from Q3 onwards, I can say from September-October**"* | 🕐 **Dated, unquantified** |
 | **🆕 The monsoon, as of the call** | Q1FY27 | *"If we talk about **August monsoons, we see good rains across all country**, the reservoir situation is improving and the crops are very healthy. The only gap… is majorly in **South India where the rice sowing is little delayed**… the dam situation is improving now"* | 🟢 **Constructive on the recovery** |
 | **🔴 Numeric guidance** | Q1FY27 | **The word "guidance" appears ZERO times in the transcript.** Management's framing is qualitative: *"we expect stronger execution over the remaining three quarters"* | 🔴 **Nothing to hold them to** |
+| *(18-Nov)* **"Stronger execution over the remaining three quarters"** | Q1FY27 | Q2 revenue **₹686cr, +8%**; H1 −2%. **Volume fell 6–7% in Q2** (MD); growth is price and mix | 🟡 **Value, not volume** |
+| *(18-Nov)* **Sales returns — "1 or 2 herbicides failing"** | Q1FY27 | *"the sales returns are high, but not as high as last year… most of the returns have already come in this Q2"*; *"we have lost a few crores in PAT margins in Q2 and a little more than that in Q1"* — **not quantified** | 🟡 **Material enough to mention; size withheld** |
+| *(18-Nov)* Cost programme, benefits *"from September-October"* | Q1FY27 | Not quantified on the call | 🕐 |
+| *(18-Nov)* **Dahej completion — "first half of the year"** | FY26 | **Now Q3** (December restart after shutdown); utility and power gaps cited | 🟡 **One quarter late** |
+| *(18-Nov)* Sotanala | FY26 | Formulation **May-2027** (*"delay of 1, 2 months"*); technical in FY28 | 🟡 **Slipping** |
+| *(18-Nov)* OAT Agrio new-molecule launch in 2027 | FY26 | Schedule inclusion pending; *"Next fiscal, there is a chance"* | 🟡 **Slipped** |
+| *(18-Nov)* KAEROS 100% CAGR | Q1FY27 | H1 brand gross ₹75cr; total ~₹114cr; FY27 brand ₹125cr+, standalone ~₹200cr; *"next year… doubling"* | 🕐 **On its own numbers** |
+| *(18-Nov)* 🆕 Numbers, for once | — | Gross margin ~33% for FY27, ~1pt a year after; premium mix 60%+ toward 70%; exports ₹500cr in five years | 🆕 **First numeric targets** |
 
 **Verdict on management.** **The long-run record is a genuine transformation, not a narrative:** FY23 → FY26 delivered **gross margin +840bps, EBITDA +380bps, ROCE +570bps, ROE +450bps**, on a strategy — premiumisation through in-licensing — that management has described consistently for years and is now executing on schedule with Corteva and Nissan.
 
@@ -376,6 +384,28 @@ Asked how margins vary by product tier, Rajesh Aggarwal gave the structure on th
 **🟢 The structural relief is dated: the capex cycle ends in FY27, after which management guides maintenance capex of only ₹25–30cr.** *Against ₹86cr of FY26 investing outflow, that is a meaningful free-cash-flow step-up from FY28 — provided working capital does not absorb it.*
 
 ---
+### 🆕 Q2FY27 Refresh — Full Numbers Print *(18-Nov-2026; results 5-Nov, call 5-Nov, official transcript filed 12-Nov and read in full)*
+
+| ₹cr (consolidated) | Q2FY27 | Q2FY26 | YoY | Q1FY27 | H1FY27 | H1 YoY |
+|---|---|---|---|---|---|---|
+| Revenue | **686** | 637 | **+8%** | 612 | 1,298 | **−2%** |
+| Gross margin | **33.7%** | 34.5% | −80bps | 31.6% | 32.7% | +100bps |
+| EBITDA | 92.4 (13.5%) | 89 (14%) | | 68 | 161 (12.3%) | |
+| Interest | 7 | 4 | | 5 | | |
+| PAT | **56.2** | 59 | **−5%** | 44 | ~100 | −15% |
+
+**Volume fell 6–7% in Q2**; the 8% came from premium mix and price (MD: *"this is not a year of volume growth"*). Gold (generic) products lost share to Maharatna lines.
+
+**🔴 Working capital (CFO, 30-Sep):** **debtors ₹719cr (₹643cr)**, inventory ₹814cr (₹744cr), creditors ₹533cr (₹420cr); **net working capital ~₹1,000cr** (₹966cr a year ago, ₹828cr at March); working-capital days 158 (151). **Debtor days ≈ 124 on TTM revenue of ₹2,109cr, ≈ 101 on H1 annualised** *(my arithmetic)*; the same TTM measure a year earlier was ≈ 110 — **worse by ~14 days, with debtors +12% on flat revenue.**
+
+**Sales returns:** *"high, but not as high as last year"*, mostly booked in Q2, revenue shown net; the cost is *"a few crores in PAT"* in Q2 and a little more in Q1. **No rupee figure.**
+
+**Capex:** Dahej complete in Q3; Sotanala formulation May-2027, technical in FY28; then *"major capex cycle will be left behind us"* and interest normalises.
+
+**Guidance (first numeric statements in this file):** FY27 gross margin ~33%; ~1pt a year thereafter; KAEROS ~₹200cr standalone; exports ₹500cr in five years (from ~5% of sales).
+
+> ⚠️ *The deck omits H1FY27 product-vertical data; an analyst asked, and management said it would correct it if wrong.*
+
 ## 5. Connecting the Dots
 
 **Thread A — Premiumisation is the entire investment case, and it now has numbers.** **Focus Maharatna at 35%+ against generics at 10–15%**, with premium mix moving **58% → 64% of B2C**. **Every point of mix is worth roughly 20–25bps of blended gross margin.**
@@ -403,6 +433,7 @@ Asked how margins vary by product tier, Rajesh Aggarwal gave the structure on th
 | **v1** | — | **HIGH** | Profile initiated on the FY23→FY26 transformation: gross margin +840bps, EBITDA +380bps, ROCE +570bps, ROE +450bps. Premiumisation via Corteva and Nissan in-licensing; ~70,000 dealers; promoter 72.30% unmoved. |
 | **12-Aug-2026** *(refresh)* | ~₹640 | **HIGH → MH (Under Watch)** | **Q1FY27 results (filed 11-Aug): revenue −12% on a delayed monsoon, PAT −24%.** **🟢 But gross margin ROSE 240bps in the down quarter** — the premiumisation thesis passing an adverse test. Downgraded on four specific grounds: **TTM revenue and PAT both below FY26**, operating leverage running in reverse, ROE 12.0%, **no numeric guidance to hold management to**, and structurally heavy working capital. Weighted return ~+36%. **Written from the results and deck — the transcript had not yet filed.** |
 | **24-Aug-2026** *(this profile)* | **₹610** | **HELD at MH (Under Watch)** — no trigger fired; every one is set at Q2FY27 | Converted to always-current format. **🆕 The Q1FY27 transcript filed 17-Aug, five days after the refresh, and adds three things:** **🔴 a sales-returns risk conceded on the record against a ₹200cr precedent**; **🟢 the product-tier margin ladder quantified for the first time (35%+ / ~30% / 10–15%)**, turning the premiumisation thesis into something measurable; and **🕐 a buyback that is "usual process" and undecided until after this quarter.** **It also confirms the refresh's point that no guidance exists — "guidance" appears zero times.** **🗂️ Duplicate `INSECTICID/` and `INSECTICIDES/` concall folders consolidated; six older transcripts now text-extracted.** |
+| **18-Nov-2026** *(Q2FY27 Tier-A)* | **₹541** | **⤴ MH (Under Watch) → MEDIUM** | **The debtor-days trigger fired:** debtors ₹719cr — ~124 days on TTM revenue, ~101 on H1 annualised, against 90; and ~14 days worse than a year earlier on the same measure. Revenue (₹686cr vs ₹560cr) and gross margin (33.7% vs 30%) triggers clear. **Upgrade not met:** returns were "high" and unquantified. Volume −6–7%; Dahej and the OAT molecule slipped. Re-priced ≈ +61% at ₹541 (−11% since 24-Aug) — **the cut is on cash conversion, not value.** Applied mechanically (non-held; MH was not set on price). |
 
 **The trajectory in one line.** **The refresh downgraded on the right evidence and the transcript neither rescues nor worsens it** — *it adds one new risk, quantifies the one reason to own the stock, and confirms there is still nothing to hold management to.*
 
@@ -463,10 +494,25 @@ Asked how margins vary by product tier, Rajesh Aggarwal gave the structure on th
 
 **🟢 Upgrade trigger back to HIGH:** **a Q2FY27 revenue print above ₹650cr with gross margin held above 31%** — i.e. the deferral thesis confirmed *and* the mix shift holding through a recovery quarter — **and no material sales return.** *That combination would restore the FY27 base case and validate the premiumisation thesis in both directions.*
 
+> **📊 18-Nov-2026 — Q2FY27 scored.**
+> | Trigger | Result |
+> |---|---|
+> | Q2 revenue below ₹560cr | ✅ **Clear** — ₹686cr |
+> | Gross margin below 30% | ✅ **Clear** — 33.7% (H1 32.7%) |
+> | **Debtor days above 90 at H1** | ⚠️ **FIRED** — ~124 days TTM, ~101 H1-annualised *(my arithmetic on the CFO's ₹719cr)*. *Caveat: September is a seasonal peak — but the same measure was ~110 a year ago, so it also worsened.* **Applied: MH → M.** |
+> | Sales return above ~₹75cr | 🟡 **Unquantified** — "a few crores" of PAT impact implies below, but no figure was given |
+> | **Upgrade** (revenue > ₹650cr, GM > 31%, no material return) | ❌ **Not met** — the third leg fails on management's own "returns are high" |
+>
+> **Where it trades (Screener consolidated, 18-Nov-2026, intraday):** CMP **₹541** · market cap ₹1,574cr · P/E 12.9x · BV ₹454 (1.19x) · ROE 12.0% · yield 0.93% · 52-week ₹500–776.
+> **Re-priced on the unchanged scenarios (market cap):** base ₹2,475cr → **+57%** · bull ₹3,870cr → **+146%** · bear ₹1,045cr → **−34%**. **Weighted ≈ +61%** *(0.55 × 57 + 0.25 × 146 − 0.20 × 34)*, plus ~0.9% yield.
+> **What restores MH:** March-2027 debtors below ₹550cr (≈ the FY26 level of 83 days) with FY27 operating cash above ₹150cr.
+
 ---
 ## 7. What Could Prove Us Wrong
 
 **🔴 Risk 1 — 🆕 Sales returns after a weak kharif (NEW — 24-Aug-2026, and it goes straight to the top).**
+
+> ⚠️ **MATERIALISED, SIZE WITHHELD (Q2FY27):** returns "high, but not as high as last year", mostly booked in Q2, net in revenue; "a few crores" of PAT lost in Q2 and "a little more" in Q1.
 > **CONCEDED ON THE RECORD, WITH A PRECEDENT SUPPLIED BY THE QUESTIONER.** Asked *"are we expecting any sales returns like last time we had **INR200 crores** of sales return?"*, MD Rajesh Aggarwal: ***"Yes, sales return, possibilities are definitely there**, but this year I see only **1 or 2 herbicides failing**, not many… **we were very, very cautious**."*
 > **₹200cr is ~9% of FY26 revenue.** The mitigation offered is real — fewer product failures, cautious channel loading — **but the current exposure was not quantified.** ***This is the mechanism by which "deferred rather than lost" would become "lost", and it lands in Q2 or Q3.*** **Signal to watch: any sales-return provision or revenue reversal in the H1FY27 statement.**
 
@@ -487,13 +533,19 @@ Asked how margins vary by product tier, Rajesh Aggarwal gave the structure on th
 **⚠️ Risk 7 — Distributor consolidation and regulatory change.** *(No update. The ~70,000-dealer network is the moat and the dependency.)*
 
 **🔴 Risk 8 — Working capital is structurally heavy and management says so.**
+
+> ⚠️ **MATERIALISED (H1FY27) — the downgrade:** debtors ₹719cr, NWC ~₹1,000cr, WC days 158 (151).
 > **⚠️ UNCHANGED.** **Debtor days 55 → 83 over two years; inventory ~215 days.** **Cash conversion has swung 103% / 16% / 124% / 61% / 69%.** **Free cash flow was ₹8cr in FY26 on ₹100cr of CFO.** *The capex cycle ending in FY27 (maintenance capex ₹25–30cr) is the mechanical relief — but only if working capital does not absorb it.* **Signal to watch: debtor days above 90 at H1FY27 — an existing trigger.**
 
 **⚠️ Risk 9 — Earnings are violently seasonal and the trailing trend has turned.** Quarterly PAT has ranged **₹10cr to ₹59cr in five quarters**; **TTM revenue (₹2,060cr) and TTM PAT (₹125cr) are both below FY26**, and **FY26's ₹139cr was itself below FY25's ₹142cr.** ***Two consecutive years of flat-to-down profit is the fact the 14.2x multiple is pricing.***
 
 **🆕 Risk 10 — No numeric guidance exists, so nothing can be held to (NEW framing — 24-Aug-2026).** **The word "guidance" appears ZERO times in the Q1FY27 transcript.** Management's forward framing is entirely qualitative: *"we expect stronger execution over the remaining three quarters."* **No revenue target, no margin target, no KAEROS revenue number, no sizing on the potential sales return, and a buyback that is *"usual process"* but undecided.** ***For a weather-exposed business that is defensible — but it means the delivery scorecard can only ever be retrospective, and the one risk management did name in June (El Niño) hit within a quarter.***
 
+> ⤴ **PARTLY ANSWERED (Q2 call):** gross margin ~33% in FY27, ~1pt a year; KAEROS ~₹200cr; exports ₹500cr in five years. Still no revenue or EBITDA guide.
+
 **🆕 Risk 11 — KAEROS is a cost today and a hope tomorrow (NEW — 24-Aug-2026).** Targeting **100% CAGR initially, then 50–60%** — but *"**Margins won't cross IIL at this juncture, because the expenses are too much.** Like, already if I see in the first quarter, **I have hired about 100 people**."* **No revenue figure disclosed.** *Treat as optionality with a current drag, not a contributor.*
+
+> 🕐 **TRACKING (H1FY27):** ~₹114cr of sales (₹75cr brand); national network by H2.
 
 **🟢 Risk 12 — the risk of being too cautious (NEW — 24-Aug-2026).** **At 14.2x and 1.46x book, this is among the cheapest names on the watchlist, and the thesis just passed its hardest test.** **Gross margin expanded 260bps in a quarter revenue fell 12%.** **The margin ladder — 35%+ versus 10–15% — is now quantified, and the mix is provably moving.** **The August monsoon is good, the capex cycle ends in FY27 with maintenance capex dropping to ₹25–30cr, a cost programme lands from Q3, and a buyback is under active consideration.** ***If Q2 confirms deferral rather than loss, a 14.2x multiple on a business compounding gross margin through a downturn will look like the wrong price entirely.***
 
@@ -521,6 +573,8 @@ Asked how margins vary by product tier, Rajesh Aggarwal gave the structure on th
 
 ## 9. Community Pulse — 24-Aug-2026
 
+**⤴ 18-Nov-2026:** ValuePickr still has no dedicated thread located. On the Q2 call, **Fair Value Capital again asked first** — volume (−6–7%), KAEROS, returns. **Sentiment from the call queue: MIXED** (praise for margins, repeated questions on returns and volume).
+
 **ValuePickr:** searched for *"Insecticides India"* and *"IIL"*. **No sustained dedicated thread was located this pass.** *Stated as a gap rather than as evidence of absence — the generic name makes a clean search hard, and this pass did not resolve it.* **Flagged for a proper scan at the next refresh.**
 
 **Substack:** searched; **no dedicated coverage found.**
@@ -535,6 +589,8 @@ Asked how margins vary by product tier, Rajesh Aggarwal gave the structure on th
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (18-Nov-2026 Tier-A):** results and deck 5-Nov; independent-director appointment 5-Nov; **official transcript of the 5-Nov call (filed 12-Nov), read in full**; Screener consolidated 18-Nov-2026 (intraday). Debtor days are my arithmetic on the CFO's balance-sheet figures and Screener's quarterly revenue.
 
 - **Concalls read (7 official transcripts):** **Q1FY27 (call 11-Aug-2026, transcript filed 17-Aug-2026 — primary source for this version)**, Jun-2026 (Q4FY26), Feb-2026 (Q3FY26), Nov-2025 (Q2FY26), Aug-2025 (Q1FY26), Jun-2025, Feb-2025. Folder `Fetched Concalls/INSECTICIDES/` (38 files).
 - **FY26 Annual Report** (filed 17-Jul-2026) and the **Q1FY27 investor presentation** (11-Aug-2026) also read.

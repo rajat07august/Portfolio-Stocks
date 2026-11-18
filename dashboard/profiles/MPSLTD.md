@@ -1,7 +1,7 @@
 # MPS Limited — Company Profile
 
 **Ticker:** MPSLTD · BSE: 532440 · NSE: MPSLTD · **Sector:** 8 — IT / Software & Platforms *(sector definition broadened 2-Aug-2026 to admit non-BFSI enterprise software & platform businesses)*
-**Conviction:** **Medium-High** · **Weighted 2-yr return:** ~+32% (≈15% CAGR) · dividend currently suspended
+**Conviction:** **⤴ Medium** *(MH → M, 18-Nov-2026: the organic-growth trigger fired — H1FY27 organic ≈ +7%, my arithmetic on company figures)* · was **Medium-High** · **Weighted 2-yr return:** ~+32% (≈15% CAGR) · dividend currently suspended
 **Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 21-Aug-2026)* · **Tracking since:** 2-Aug-2026
 **CMP:** ₹2,898 · **Market Cap:** ₹4,948 cr · **P/E (consolidated TTM):** 27.0x · **P/B:** 8.3x (BV ₹349) · **ROCE:** 38.7% · **ROE:** 29.7% · **52-wk range ₹1,336–₹2,980** · **Listing:** Mainboard *(Screener consolidated, 21-Aug-2026)*
 
@@ -213,6 +213,13 @@ It runs three segments:
 | **FY28 ~₹1,500cr revenue / ~₹450cr EBITDA** | Q1FY27 | Requires ~40% revenue CAGR from FY26's ₹768cr — **needs material M&A** | 🕐 Pending, ambitious |
 | Return capital when not deploying | 7-year principle | **₹650cr+ returned FY19–FY25; FY26 payout 0%** — suspended for M&A | 🟡 Principle intact, cycle paused |
 | Organic growth to outpace each market | Ongoing | Research ✅ (15% vs 8–9%), Education ✅ (>15%), **Corporate 🔴 (6–7% vs 12–13%)** | 🟡 Two of three |
+| *(18-Nov)* **FY27 EBITDA "comfortably cross ₹300cr"** | Q4FY26, Q1FY27 | H1 ₹154cr (+39%); **floor raised to "at least INR 310 crores"**, H2 weighted to Q4, planned at a weaker-rupee rate | ✅ **Raised** |
+| *(18-Nov)* **Organic growth** | Q1FY27 ("early teens") | **H1 revenue ₹448.5cr less Unbound ₹41.6cr = ₹406.9cr vs ₹380.7cr → ≈ +7%** *(my arithmetic on company figures)*; Q2 revenue flat QoQ. By segment: Research ex-AJE **+22%** (company); **Education ex-Unbound ≈ −8%** *(my arithmetic from the 30.6% / 27.2% revenue shares)*; Corporate Q2 +17% | 🔴 **Single digits at group level** |
+| *(18-Nov)* **FY28 ₹1,500cr revenue** | Q1FY27 | *"always combined organic growth with acquisitions. That has not changed"*; **next acquisition "expected to close this financial year"**; a tighter FY28 view only after it closes | 🕐 **Not dropped; still unfunded by a deal** |
+| *(18-Nov)* Dividend resumption | Suspended for M&A | *"Once that capital is deployed, distributions resume"* | 🕐 |
+| *(18-Nov)* Unbound margin path | Feb-2026 | 12–13% at purchase → **~18%** now; *"into the 20s"* from growth | ✅ **On track** |
+| *(18-Nov)* Corporate Learning margin | FY26 | H1 margin **25% (from ~16%)**, EBITDA +77% with 19% fewer people; Q2 revenue +17% | ✅ |
+| *(18-Nov)* 🆕 Balance sheet | — | **Unbound borrowing repaid in August; zero debt; cash ₹163cr**; DSO 45 → 38 days | ✅ |
 
 **Verdict on management:** **This is the strongest capital-allocation record in the watchlist.** A family that bought a loss-making ₹125cr business in 2011, compounded it to ₹768cr with 31% ROE, returned ₹650cr+ along the way, and never diluted. They articulate a coherent strategy, quantify it, and — on the evidence of the FY26 restructuring — execute it. **Two reservations:** the FY28 ₹1,500cr target is not reachable organically and therefore embeds unannounced M&A; and management churn was raised on the Q1FY27 call, with Arora conceding *"as the talent machine expands in a quick span of time, sometimes you make mistakes."* Worth watching, not yet worrying.
 
@@ -294,6 +301,27 @@ As of 30-Jun-2026: **cash ₹138.02cr against borrowings of ₹37.63cr** (the fa
 
 ---
 
+### 🆕 Q2FY27 Refresh — Full Numbers Print *(18-Nov-2026; results and deck 3-Nov, call 4-Nov, official transcript filed 11-Nov and read in full; consolidated basis)*
+
+| ₹cr (consolidated) | Q2FY27 | Q2FY26 | YoY | Q1FY27 | H1FY27 | H1 YoY |
+|---|---|---|---|---|---|---|
+| Revenue | **224.2** | 194.4 | **+15.3%** | 224.3 | **448.5** | +17.8% |
+| EBITDA (company) | 77.0 (**34.3%**) | 60.4 | +27.4% | 77.0 | 154.0 (34.3%) | +39% |
+| Other income (Screener) | 2 | 15 | | 3 | | |
+| PAT | **52** | 55 | **−5%** | 50 | 102 | |
+
+**Why PAT fell while EBITDA rose 27%:** Q2FY26 carried **a one-time ~₹12.8cr gain from the Liberate write-back** (CFO). Ex that, **PBT +23.1% in Q2 and +33.9% in H1** (company). *This answers the question the 4-Nov note left open.*
+
+**Five quarters (Screener):** revenue 194 → 182 → 205 → 224 → **224**; OPM 31% → 32% → 33% → 34% → **34%**. **Revenue was flat QoQ** — management: new research mandates bill from November–December; education moves with adoption timing.
+
+**Segments (call):** Research margin **48.2%** (+6pts YoY); Research ex-AJE revenue +22%, organic. Education **30.6% of revenue** (27.2%), H1 revenue +36%, EBITDA +14.5%, **Unbound ₹41.6cr in H1**. Corporate Learning margin 25% (16%), Q2 revenue +17%. **Clients billed 839 (422); top-5 share 46% (51%).**
+
+**🔴 The organic arithmetic** *(mine, on company figures)*: H1 revenue ₹448.5cr − Unbound ₹41.6cr = ₹406.9cr against H1FY26 ₹380.7cr (Screener 186 + 194) → **≈ +7%**, and that is before any help from a weaker rupee. Education ex-Unbound: 30.6% × 448.5 − 41.6 ≈ ₹95.6cr against 27.2% × 380.7 ≈ ₹103.6cr → **≈ −8%**. An analyst raised it (*"organic growth in the education business is not very exciting"*); the answer pointed to Florida and California adoptions in bookings, *"not revenue yet"*.
+
+**Balance sheet:** zero debt after repaying the Unbound loan in August; **cash ₹163cr**; DSO 38 days.
+
+**Guidance:** FY27 EBITDA **≥ ₹310cr** (H1 × 2 = ₹308cr); next acquisition to close in FY27; FY28 ₹1,500cr unchanged in wording.
+
 ## 5. Connecting the Dots
 
 **Thread A — Outcome-based pricing is the margin engine.** Arora: *"Our revenue is steadily shifting from being paid for effort to being paid for outcomes… Outcomes carry better economics than effort, because the value sits in the result rather than the input, and they are far harder for anyone to commoditize. That shift is a large part of why revenue grew 20 percent this quarter while EBITDA grew 53 percent."* Currently 25% of revenue.
@@ -323,10 +351,18 @@ As of 30-Jun-2026: **cash ₹138.02cr against borrowings of ₹37.63cr** (the fa
 | 2-Aug-2026 | **Medium-High** | Initiation, fully concall-grounded from **seven transcripts**. Elite returns (39.3% ROCE, 31.2% ROE), a seven-year capital-allocation record, and Q1FY27 operating leverage (revenue +20%, EBITDA +53%, headcount +<3%) — **held back from High by the AI question, single-digit organic growth ex-acquisitions, a suspended dividend and an FY28 target that needs M&A** |
 | 21-Aug-2026 | **HELD at Medium-High** | **A promoter-holdco amalgamation surfaced that the initiation did not have** — structurally clean on the arithmetic, and shareholders vote 22-Aug. Two subsidiary restructurings completed. **Nothing operational has changed; the stock is +6.5%** |
 | **19-Sep-2026** | **HELD at Medium-High** | Filings refresh: **scheme approved by shareholders (12,394,155 for / 50 against) and creditors on 22-Aug; NCLT records approvals 16-Sep and directs notices to regulators.** Stock −8% to ₹2,667. |
+| **18-Nov-2026** *(Q2FY27 Tier-A)* | **⤴ MEDIUM-HIGH → MEDIUM** | **Trigger fired: "organic growth stalls in single digits."** H1 organic ≈ +7% (revenue less the company's own Unbound figure), Q2 revenue flat QoQ, Education ex-Unbound ≈ −8% *(my arithmetic)*. **The operating story is otherwise strong:** EBITDA +39%, margin 34.3%, floor raised to ≥ ₹310cr, zero debt, ₹163cr cash. **The cut is about the quality of growth, not the price** — re-priced ≈ +72% at ₹2,164 (−25% since 21-Aug). Applied mechanically (non-held name; MH was not set on price). |
 
 **Upgrade to High if:** FY27 EBITDA clears ₹300cr comfortably **and** organic growth moves out of the early teens **and** the dividend resumes.
 
 **Downgrade to Medium if:** organic growth stalls in single digits **or** the FY28 ₹1,500cr target is quietly dropped **or** a large acquisition disappoints.
+
+> **📊 18-Nov-2026 — Q2FY27 scored.**
+> **Downgrade triggers:** organic growth in single digits — **⚠️ FIRED** (≈ +7% H1, my arithmetic; see §4) → **applied: MH → M** · FY28 ₹1,500cr quietly dropped — not dropped (wording restated; acquisition promised in FY27) · large acquisition disappoints — none made.
+> **Upgrade to High:** FY27 EBITDA ≥ ₹300cr comfortably — on track (floor ₹310cr) · organic out of the early teens — **no, it went the other way** · dividend resumed — no.
+> **Where it trades (Screener consolidated, 18-Nov-2026, intraday):** CMP **₹2,164** · market cap ₹3,703cr · P/E 19.5x · BV ₹411 · ROCE 38.7% · ROE 29.7% · 52-week ₹1,336–2,980. **−25% since the 21-Aug write.**
+> **Re-priced on the unchanged scenarios (market cap):** base ₹6,250cr → **+69%** · bull ₹9,600cr → **+159%** · bear ₹2,640cr → **−29%**. **Weighted ≈ +72%** *(0.55 × 69 + 0.25 × 159 − 0.20 × 29)*. **The return arithmetic improved because the price fell; the downgrade is the explicit trigger.** *If Rajat prefers the ATLANTAELE treatment (flag, don't apply), the case is that this conviction was not set on price — so I applied it.*
+> **What restores MH:** H2 organic growth back in double digits (ex-Unbound), or a closed acquisition that meets the stated template.
 
 ### (b) Material developments — newest first
 
@@ -434,7 +470,11 @@ The initiation described **topic 959** as *"693 posts, active"* and *"one of the
 
 **Risk 4 — FY28's ₹1,500cr target requires acquisitions that have not been announced.** From FY26's ₹768cr, that is ~40% annual growth against organic growth in the early-to-mid teens. **Management is explicit that the ₹300cr FY27 EBITDA is organic and acquisitions come "over and above"** — but the FY28 revenue number cannot be reached without deals. *Signal: whether tighter FY28 guidance at Q3/Q4FY27 retains the ₹1,500cr figure.*
 
+> ⚠️ **STILL TRUE (18-Nov-2026):** no deal since Unbound (Feb-2026); *"we expect the next acquisition to close this financial year"*; *"I would rather miss a deal than overpay."*
+
 **Risk 5 — Organic growth is unremarkable ex-acquisitions.** ValuePickr's @Vikas Mhatre put it directly on the Q1FY27 call: *"If you just strip off the Unbound revenue… the growth is in the early teens… The only thing that is missing is the organic growth."* Arora did not dispute the arithmetic.
+
+> ⚠️ **MATERIALISED (H1FY27):** ≈ +7% group organic; Education ex-Unbound ≈ −8% *(my arithmetic)*; Research ex-AJE +22% is the bright spot. **This is the downgrade.**
 
 **Risk 6 — Corporate Learning is losing share.** Growing 6–7% into a market growing 12–13%. Margin recovery has been real; growth recovery has not. It is only 12% of revenue, which limits the damage but also the payoff.
 
@@ -449,6 +489,8 @@ The initiation described **topic 959** as *"693 posts, active"* and *"one of the
 **Risk 11 — Thin institutional ownership and float.** FII 1.38% + DII 2.14% = **3.5% institutional**. Promoter at 68.34% leaves a modest float. Price discovery is thin and the stock can move violently on sentiment — as the 2025–26 AI-fear drawdown and subsequent recovery both demonstrated.
 
 **Risk 12 — Valuation is no longer distressed.** At ₹2,721 the stock is within 3% of its 52-week high, having recovered the entire AI-fear drawdown. **The easy money in this name has been made; from here it requires delivery.**
+
+> ⤴ **REVERSED BY PRICE (18-Nov-2026):** ₹2,164, P/E 19.5x — 25% below the 21-Aug write and 27% below the 52-week high.
 
 ---
 
@@ -467,6 +509,7 @@ The initiation described **topic 959** as *"693 posts, active"* and *"one of the
 ## 9. 📢 Community Pulse
 
 *Refreshed 21-Aug-2026.*
+**⤴ 18-Nov-2026:** ValuePickr #959 — 693 posts, **last 29-Jul-2026**; no reaction to the Q2 print or the 25% fall. On the call, Bastion Research again pressed the acquisition timing and AJE's growth. **Sentiment: MIXED** (the thread's last word was the organic-growth challenge).
 
 ### ValuePickr — topic 959, "MPS Ltd - B2B learning and platform solutions"
 
@@ -501,6 +544,8 @@ The initiation described **topic 959** as *"693 posts, active"* and *"one of the
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (18-Nov-2026 Tier-A):** results and deck 3-Nov; **official transcript of the 4-Nov call (filed 11-Nov), read in full**; Screener consolidated 18-Nov-2026 (intraday); ValuePickr #959. Organic-growth and Education-ex-Unbound figures are my arithmetic on the company's revenue, segment-share and Unbound figures.
 
 - **Concalls read (7 transcripts, all downloaded from BSE via `curl` and text-extracted):**
   - **Q1FY27 — 22-Jul-2026 call, filed 29-Jul-2026** (19pp, primary source). Management: Rahul Arora (Chairman & CEO), Prarthana Agarwal (CFO), Sukhwant Singh (CDO Research Content Solutions), Christine Miranda (SVP Research Solutions), Sanjeev Talwar (SVP & Business Head Education), Soma Bhaduri (SVP & Business Head Liberate Global).

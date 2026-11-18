@@ -1,7 +1,7 @@
 # Knowledge Marine & Engineering Works (KMEW) — Company Profile
 
 **Ticker:** KMEW · NSE: KMEW · BSE: 543273 · ISIN INE0CJD01029
-**Sector:** 9 — Marine Services · **Conviction:** **Medium-Low (Under Watch)**
+**Sector:** 9 — Marine Services · **Conviction:** **Medium-Low** *(Under Watch lifted 18-Nov-2026: the order book grew to ₹1,733cr; held at ML on valuation — rebuilt scenarios ≈ −18%)* · was **Medium-Low (Under Watch)**
 **Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 18-Aug-2026)* · **Tracking since:** 3-Jul-2026
 
 **CMP ₹2,706** · **Market cap ₹6,892 cr** · **P/E 53.2x** · **P/B 11.6x reported / ~8.8x post-issue** (BV ₹233) · **ROCE 16.4%** · **ROE 20.0%** · **Div yield 0.00%** · Face value ₹5 · 2,53,64,317 shares
@@ -242,6 +242,15 @@ So the group **took roughly ₹120–135cr out and put ₹11cr back in the same 
 | Shipbuilding export orders *"in either Q3 or Q4"* FY27 | Q4FY26 | Not yet — marketing in Europe | 🕐 |
 | FY27 + FY28 revenue growth **30% YoY**, EBITDA margin **35–40%** | Q4FY26 | Q1FY27 +138% (flattered by the spillover) | 🕐 |
 | ***"No"* further promoter selling** | Q4FY24 call, 31-May-2024 | **5,12,820 shares sold 21-Jun-2026** | 🔴 **Contradicted** |
+| *(18-Nov)* **FY27 revenue growth** | 30–40% (May) → 60% (Aug) | **Raised again to ~80%** (~₹450cr on an analyst's arithmetic, not disputed); H1 **₹186.2cr, +89%** | ✅ **Raised twice** |
+| *(18-Nov)* **EBITDA margin 35–40%** | Q4FY26 | H1 **55%**, Q2 ~40% (Screener); new guide *"more than 45% going forward"* | ✅ **Raised** |
+| *(18-Nov)* **Order book growth** — re-scored | Q4FY26 | **₹1,732.55cr** (dredging ₹467.75cr, charter ₹1,100cr, shipbuilding ₹164cr + ₹275cr captive) vs ₹1,300–1,400cr | ✅ **Back to growth** |
+| *(18-Nov)* Shipbuilding export orders in Q3/Q4 FY27 | Q4FY26 | *"in discussion with 3 different clients"*; not yet | 🕐 |
+| *(18-Nov)* Saphale Phase 1 | FY27 | **By February 2027**; full commissioning *"post Q4"* | 🕐 |
+| *(18-Nov)* 🆕 Large-volume maintenance dredging | — | **New Mangalore ₹256.92cr ex-GST** (₹303.17cr with GST — the 30-Oct filing), 15.9mn m³ over three years; **River Pearl 48 (TSHD, ~4x hopper capacity)** bought; >₹150cr a year of revenue potential per the CEO | 🆕 **A step change in scale** |
+| *(18-Nov)* 🆕 Green tugs | — | **Third contract (Mumbai, ₹236cr, 15 years)**; three total ~₹928cr | 🆕 |
+| *(18-Nov)* Capex ₹1,000cr over two years | Q1FY27 | ~6–7 months in; asset turns 1–1.5x | 🕐 |
+| *(18-Nov)* Bahrain / Myanmar | Q3FY26 | **Nil revenue**; Bahrain only when insurance and security allow; no vessel to Myanmar | 🔴 **Still zero** |
 
 **Verdict on management:** *Operationally excellent, and unusually precise in forecasting their own quarter — the Q1 call-ahead is better disclosure than most of this watchlist manages, and the tonnage-tax approval was executed exactly as flagged. The questions are all on the capital-markets side: a second stock split in nine months, a ₹120–135cr promoter sale two years after saying there would be none, an order book that shrank while management said there was no slowdown, and no Q1 call at which any of it can be asked. The gap between how well they run the business and how they handle the stock is the whole debate.*
 
@@ -404,6 +413,7 @@ An analyst opened the Q4 call on exactly this:
 | 3-Jul-2026 | Medium | ₹2,375 | ~0–5% | Initiated. *"Priced for perfection"* at 74x |
 | **18-Aug-2026** | **Medium-Low (Under Watch)** | **₹2,706** | **~−23%** | **Order book went backwards; promoter below 50% incl. a real sale; capex/depreciation. Conviction reconciled — the profile header said M while PORTFOLIO_STATE said ML since 3-Jul; ML is correct** |
 | **19-Sep-2026** *(filings refresh)* | **HELD at Medium-Low (Under Watch)** | **₹2,886** | *(not re-derived)* | **First Q1 call read (26-Aug): FY27 growth 'potential northwards of 60%' (from 30-40%), order book '>₹1,300cr' (dredging ~₹240cr), pipeline ₹3,500cr+ (from ₹2,000cr); ₹62.4cr IWAI ferry order; ₹500cr NCD approved 8-Sep despite 'fully capitalized'; promoter 49.99%.** |
+| **18-Nov-2026** *(H1FY27 Tier-A)* | **HELD at Medium-Low — Under Watch lifted** | **₹736** *(post 1:5 split; ≈ ₹3,680 old basis)* | **≈ −18%** *(rebuilt)* | H1 revenue +89%, EBITDA 55%, PAT +267%; **FY27 growth guide raised to ~80%** and margin guide to >45%; **order book ₹1,733cr — the Under-Watch concern (a shrinking book) is reversed**; largest-ever dredging contract and a 4x hopper dredger. **Held at ML because the stock (~66x TTM) is above the old bull case**; rebuilt scenarios ≈ −18%. The "₹100cr secondary sale to SBI Funds" on the call is the June promoter sale already recorded. |
 
 **Valuation, then and now:**
 
@@ -523,6 +533,15 @@ Note 7 of the FY26 results: **s.115VP(3) approval effective ten years from AY202
 
 **Weighted 2-year return ≈ −23%. Dividend yield 0.00%.**
 
+### 🆕 Scenarios rebuilt — 18-Nov-2026 (my construction, on the raised guidance)
+
+*The 18-Aug scenarios assumed FY27 revenue ~₹333cr at a 38% margin. Management now guides ~₹450cr at >45%, and the market cap (₹9,334cr, Screener 18-Nov intraday, CMP ₹736 after the 1:5 split ≈ ₹3,680 on the old basis) is above even the old bull case. Re-pricing those scenarios (≈ −44%) would describe a company that no longer exists, so they are rebuilt. FY28 depreciation reflects the ₹1,000cr capex; tax ~15% per the CFO.*
+
+- **Base — 55%.** FY27 ~₹430cr; **FY28 ~₹600cr** (below the ~₹650–700cr implied by management) at **45% EBITDA ≈ ₹270cr**; depreciation ~₹70cr, interest ~₹30cr, other income ~₹20cr → PBT ~₹190cr → **PAT ~₹160cr**. At **45x → ₹7,200cr → −23%.**
+- **Bull — 25%.** River Pearl 48 runs at ₹150cr+ a year, green-tug annuities start, shipbuilding reaches 40% of revenue: **FY28 ~₹700cr at 50%** → PAT ~₹230cr; **55x → ₹12,650cr → +36%.**
+- **Bear — 20%.** Dredging awards slip after New Mangalore, shipbuilding margins fall as Saphale ramps, depreciation lands before revenue: **FY28 ~₹450cr at 38%** → PAT ~₹77cr; **35x → ₹2,700cr → −71%.**
+- **Weighted ≈ −18%** *(0.55 × −23 + 0.25 × 36 − 0.20 × 71)*, zero dividend. **The operating case improved a great deal; the price improved more.** At ~66x TTM earnings the base case still loses money.
+
 > **⚠️ State the obvious about that number.** A −23% expected return is **not** a forecast that the business will do badly — **the operating case here is one of the better ones in this watchlist.** It is a statement that **53x on borrowed earnings, ~8.8x book, zero dividend, negative FCF and a doubling depreciation charge leave no room for the business merely to do well.** v1 said the same thing more gently — *"priced for perfection"* — and the price has since risen 14%.
 
 ---
@@ -530,12 +549,18 @@ Note 7 of the FY26 results: **s.115VP(3) approval effective ten years from AY202
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — 🔴 The order book is shrinking while growth is guided at 30%.** ₹1,500cr → ₹1,400cr, pipeline ₹3,000cr → ₹2,000cr, ₹77.5cr converted in ten weeks. **Watch:** the ~5-Sep-2026 window management themselves set.
+
+> ✅ **REVERSED (H1FY27):** ₹1,732.55cr, with the largest dredging contract in the company's history and a third green-tug contract; pipeline ₹2,500–3,500cr.
 > **⚠️ UPDATED 19-Sep-2026** — order book 'more than ₹1,300cr' (was ₹1,400cr), dredging ~₹240cr; pipeline ₹3,500cr+ (was ₹2,000cr); FY27 growth raised to a 'potential northwards of 60%'. The order book is still shrinking; the pipeline is the offset, with dredging results due 'in 30 to 45 days'.
 
 **Risk 2 — 🔴 Promoter holding below 50%, after a sale that contradicts a 2024 "No".** **Watch:** any further Form C filings; whether the sub-50% position is addressed on the Q2 call.
+
+> 🟡 **NO NEW SALE (18-Nov-2026):** the call's "secondary market sale of 100 crores with SBI Funds Management" is the 19-Jun sale (Kanak 3,45,620 + Dinesh 1,67,200 = 5,12,820 shares on NSE's SAST feed). A reclassification of nil-holding promoter-group members was filed on 26-Oct.
 > **⚠️ UPDATED 19-Sep-2026** — on the 26-Aug call the CEO said promoters are *'very comfortable where we are with a percentage of 50% above'* and that the company is *'fully capitalized'*. Screener shows 49.99% at 4-Aug-2026, below the stated line, and the Board approved up to ₹500cr of NCDs on 8-Sep.
 
 **Risk 3 — 🔴 Valuation leaves no room.** 53x trailing (~55x normalised), ~8.8x post-issue book, 0% yield, after a 27x increase in shareholder count since Mar-2023. **Momentum unwinds when narratives break.**
+
+> ⚠️ **WORSE, DESPITE BETTER NUMBERS (18-Nov-2026):** ~66x TTM; market cap ₹9,334cr — above the 18-Aug bull case; rebuilt weighted return ≈ −18%.
 
 **Risk 4 — 🟡 Depreciation will roughly double on the ₹400–500cr capex.** Already +82% YoY. Tonnage tax protects the tax line, not this one. **EBITDA growth may not reach PAT.**
 
@@ -546,6 +571,8 @@ Note 7 of the FY26 results: **s.115VP(3) approval effective ten years from AY202
 **Risk 7 — 🟡 Debtor days 109 against a 45–60 guidance**, ~96 even excluding the ₹16cr Mangrol claim.
 
 **Risk 8 — 🟡 Bahrain and Myanmar are both at zero**, and both contributed high-margin revenue in Q1FY26 (₹7.27cr and ₹3.67cr of segment EBITDA respectively). Geopolitics, not execution — but the revenue is gone either way.
+
+> ⚠️ **STILL ZERO (H1FY27);** no plan to resume either soon.
 
 **Risk 9 — 🟡 Execution concentration in one yard.** Green tugs, IWAI ferries and the export ambition all depend on Saphale, which is still being built, and **KMEW owns only 51% of the entity that owns it.**
 
@@ -572,6 +599,7 @@ Note 7 of the FY26 results: **s.115VP(3) approval effective ten years from AY202
 ## 9. 📢 Community Pulse
 
 *Refreshed each review cycle. **Last scan: 18-Aug-2026.***
+**⤴ 18-Nov-2026:** ValuePickr #89605 — 69 posts, **last 26-Aug-2026**; no reaction to the H1 print, the split or the New Mangalore win. On the call, an investor asked that results and the deck be released before the call — management agreed. **Sentiment (call queue): BULLISH.**
 
 **ValuePickr — *"Knowledge Marine - Positioned to Double Revenue with No CapEx"* (topic 89605, 68 posts, last active 17-Aug-2026).**
 
@@ -595,6 +623,8 @@ Note 7 of the FY26 results: **s.115VP(3) approval effective ten years from AY202
 ---
 
 ## Source Appendix
+
+- **🆕 H1FY27 (18-Nov-2026 Tier-A):** results 6-Nov; River Pearl 48 press release 5-Nov; New Mangalore LoA 30-Oct; **official transcript of the 6-Nov call (filed 16-Nov), read in full**; NSE SAST feed (June promoter sale); Screener consolidated 18-Nov-2026 (intraday, post-split); ValuePickr #89605.
 
 **Primary documents** — `Fetched Concalls/KMEW/` *(6 files → 22 this cycle)*:
 - **Q1FY27 results filing, 14-Aug-2026** — consolidated statement **and consolidated segment reporting**, which is where the margin is located. Exceptional-items line confirmed nil in every column.

@@ -1,7 +1,7 @@
 # Sansera Engineering — Company Profile
 
 **Ticker:** SANSERA · **BSE: 543358** · **NSE: SANSERA** *(EQ, listed 24-Sep-2021, ISIN INE953O01021 — verified against NSE's `EQUITY_L.csv`)* · **Sector:** Auto Components & Forgings (Sector 3)
-**Conviction:** **MEDIUM (Under Watch)** — trigger is the unexplained Jun-2026 promoter decline
+**Conviction:** **⤴ MEDIUM-LOW** *(M (Under Watch) → ML, 18-Nov-2026: the June promoter decline was disposals by six promoter-group holders, including the Executive Vice Chairman, with no insider-trading disclosure found on BSE's 2026 register)* · was **MEDIUM (Under Watch)** — trigger is the unexplained Jun-2026 promoter decline
 **Thesis date:** 26-Aug-2026 · **CMP ₹3,815** (Screener, 26-Aug-2026) · **Market cap ₹23,807 cr**
 
 > **⤴ CORRECTED — the v1 header said "Medium-High" while v1's own §3.5 recorded a re-rate to MEDIUM on 10-Jul-2026.** The header was stale for seven weeks. **MEDIUM is and was the conviction.**
@@ -279,6 +279,14 @@ Sansera makes the **small, highly-stressed metal parts that sit inside things th
 | **Long-term: 40% of revenue from non-auto + xEV + tech-agnostic** | Feb-2025 *(then 26%)* | Q1FY27: 20.8% + 13.7% = **34.5%** | 🟡 **On track, not there** |
 | **FY31 revenue ₹8,000–9,000cr; ADS ₹1,300–1,400cr** | Q4FY26, May-2026 — reaffirmed Q1FY27 | Five years out | 🕐 Open |
 | **US connecting-rod facility** | *"talking last couple of years"* | **Not built.** *"we are now waiting for certainty to come back into the system because of all the tariff confusion. While that status quo remains the same…"* | 🔴 **Indefinitely deferred** |
+| *(18-Nov)* **FY27 top line "high-teens to 20%"** | Q1FY27 | H1 **+33%**, Q2 +32% (₹1,091.5cr) | ✅ **Far ahead** |
+| *(18-Nov)* **FY27 ADS ₹550–600cr** | Q4FY26, Q1FY27 | H1 ADS **₹309.7cr** (Q2 ₹164.3cr); new SKUs in H2 | ✅ **On track** |
+| *(18-Nov)* **ADS hangar "in a month or two" (Sep/Oct)** | Q1FY27 | *"The current aerospace facility will be fully operational by the third quarter with the expanded bay"*; defence facility end-Q3/Q4 | 🟡 **Within the window, just** |
+| *(18-Nov)* **ADS backlog** | Q1FY27 ₹4,440cr→ | **₹5,870cr**, incl. a large multi-year semiconductor order; still one semicon customer, *"good progress"* on a second | ✅ |
+| *(18-Nov)* **FY27 capex ~₹500cr** | Q4FY26 | **Raised to ~₹800cr** (~half ADS) | 🟡 **+60%** |
+| *(18-Nov)* Margin ~19% | Q1FY27 | Q2 **19.4%** despite a ₹16.7cr Karnataka minimum-wage provision | ✅ |
+| *(18-Nov)* FY30–31 ₹8,000cr aspiration | Q4FY26 | *"becoming more and more realistic"* | 🕐 |
+| *(18-Nov)* **The Jun-2026 promoter decline** | 26-Aug trigger | **Explained by holder-level XBRL: six promoter-group holders disposed of 5,34,271 shares** (F.R. Singhvi 1,93,684; Unni Rajagopal 1,50,000; D Niveditha 60,311; D Devaraj HUF 58,751; D Namitha 47,300; P Singhvi Charitable Trust 24,225). **BSE's insider register for 1-Jan to 18-Nov-2026 shows only two entries, both Devappa Devaraj (28-Aug, 30-Sep)**; NSE's PIT feed returns nothing for SANSERA. Not raised on the call | 🔴 **No disclosure found** |
 
 **⤴ CORRECTED against v1 — a factual error worth naming.** v1's §1 stated **"Global manufacturing: India + US + Sweden."** **There is no US plant.** It has been discussed for at least two years and is explicitly on hold pending tariff clarity. **Sansera manufactures in India and Sweden.**
 
@@ -446,6 +454,22 @@ Asked directly whether it sits in the margin, he confirmed: *"No, it is included
   > 🟡 **An exchange worth quoting in full, because it is the one place the two speakers diverged.** Asked whether everything would be organic, **CFO Vikas Goel said: *"No, inorganic plans are there."*** **Preetham immediately reframed it:** *"the current projections and business updates that we have given, all that is considering **only organic growth**. But we are quite — we keep our ears and eyes open for the opportunities… especially in non-auto."* ***Read together: an acquisition is not in any guided number, but it is not off the table, and a fundraise is explicitly not ruled out. Given the promoter is already at 29.21%, a further equity raise is not a neutral event.***
 
 ---
+### 🆕 Q2FY27 Refresh — Full Numbers Print *(18-Nov-2026; results 5-Nov, call 6-Nov, official transcript filed 13-Nov — prepared remarks and the Q&A on orders, capex, costs and facilities read in full, the rest scanned by keyword; consolidated)*
+
+| ₹cr | Q2FY27 | Q2FY26 | YoY | Q1FY27 | H1FY27 | H1 YoY |
+|---|---|---|---|---|---|---|
+| Revenue | **1,091.5** | 825 | **+32%** | 1,021 | 2,112.7 | +33% |
+| Gross margin | 43% | | +180bps | | | |
+| EBITDA | **211.2 (19.4%)** | 142 | **+48%** | 196 | 407.3 (19.3%) | +48% |
+| Finance cost | 14.6 | 8.1 | +80% | 12 | | |
+| PAT | **108.6** | 71 | **+52%** | 87 | 196 (norm. 208.7) | +46% |
+
+**Mix:** Auto ICE ₹669.7cr (+18%) — now ~65% of sales, the IPO-era target; tech-agnostic + xEV ₹136.3cr (best ever); **non-auto ₹200cr+ (20.9%)**, of which **ADS ₹164.3cr**. Auto order book (peak annual sales of new business, ex-ADS) **₹2,241cr** (₹1,850cr); ADS backlog **₹5,870cr** over five years (₹4,440cr in June).
+
+**Cash and debt (CFO):** H1 operating cash **₹207cr**; capex **₹326cr** + ₹30cr into the Nichidai JV → **free cash ≈ −₹149cr** *(my arithmetic)*; working capital ₹736cr → ₹854cr; **net debt ₹60cr → ₹261cr**; FY27 capex raised to **~₹800cr**. **A third consecutive negative-FCF year is now the base case** *(my inference from the capex guide)*.
+
+**🔴 The promoter question, answered from the filings.** NSE holder-level XBRL, Mar → Jun → Sep 2026: promoter group 1,87,61,511 → 1,82,27,240 → 1,81,23,240 shares (30.10% → 29.21% → 29.04%). **The June-quarter fall of 5,34,271 shares equals, exactly, the disposals by six promoter-group holders** — F.R. Singhvi (Executive Vice Chairman, founder-promoter) 1,93,684; Unni Kothenath Rajagopal 1,50,000; D Niveditha 60,311; D Devaraj HUF 58,751; D Namitha 47,300; P Singhvi Charitable Trust 24,225. *Roughly ₹200cr at the quarter's prices (my estimate).* **Disclosure check:** individually below the Reg 29(2) threshold, so no SAST entry is expected; but Reg 7(2) insider-trading disclosures apply to promoters above ₹10 lakh a quarter. **BSE's insider register (InsiderTrade15 API, 1-Jan to 18-Nov-2026) returns two entries, both Devappa Devaraj (70,000 by gift on 28-Aug; 10,000 on 30-Sep). NSE's PIT feed returns no rows for SANSERA at all**, so it cannot be used either way. **Stated per §0A rule 6: no disclosure was found on the exchange registers checked; whether one was made elsewhere, or whether these were gifts rather than sales, is not established.** September quarter: a further −1,04,000 (Devaraj 80,000 — disclosed; Namitha and Niveditha 12,000 each — not found).
+
 ## 5. Connecting the Dots
 
 **Thread A — The mix shift is real, verifiable, and the reason the multiple exists.** **ADS: 3.8% of revenue in FY21 → 9.6% in FY26 → 14.2% in Q1FY27**, with a backlog that went **₹3,800cr → ₹5,700cr in two quarters.** *This is not a narrative; it is a table.*
@@ -479,6 +503,7 @@ Asked directly whether it sits in the margin, he confirmed: *"No, it is included
 | **3-Aug-2026** *(bulk CMP)* | **₹3,787** | MEDIUM | Price refresh only. |
 | **26-Aug-2026** *(this profile)* | **₹3,815** | **HELD at MEDIUM (Under Watch)** | Converted to always-current format and fully re-grounded. **Q1FY27 print: revenue +33.3%, EBITDA margin +200bps to 19.2%, normalised PAT +59%.** **🟢 ADS backlog ₹3,800cr → ₹5,700cr; FY27 guidance raised from "high-teens" to "high-teens to 20%."** **🔴 Found the four-event board and management reconstruction of 27-Jul → 24-Aug, including the loss of the Audit Committee chair and the CRO, and today's elevation of the professional Group CEO to Managing Director.** **🔴 Found and cross-verified a 0.89pp promoter decline in the Jun-2026 quarter with no disclosed cause.** **Found the ₹2m Metaldyne settlement and the ₹126mn tariff provision.** **Corrected four v1 errors and two dashboard errors.** |
 | **19-Sep-2026** *(filings refresh)* | **₹4,260** | **HELD at MEDIUM (Under Watch)** — trigger unresolved | No filing explains the Jun-2026 promoter decline (30.10% → 29.21%); stock +11.7% to its 52-week high at 71x. FY26 annual report filed 2-Sep, not read. |
+| **18-Nov-2026** *(Q2FY27 Tier-A)* | **₹4,538** | **⤴ MEDIUM (Under Watch) → MEDIUM-LOW** | **The Under-Watch trigger is resolved against the company.** Holder-level XBRL shows the June fall was disposals by six promoter-group holders, including the Executive Vice Chairman; **no insider-trading disclosure for any of them appears on BSE's 2026 register**, which does carry two later Devaraj disclosures. Operations are excellent (revenue +32%, margin 19.4%, ADS backlog ₹5,870cr) but **free cash is negative again (≈ −₹149cr in H1) with capex raised to ₹800cr**, and the stock trades at 69x. Re-priced **≈ −12%**. *Reverses to M if the company points to Reg 7(2) filings for these transactions.* |
 
 > **🔴 THE AIRBUS CLAIM — stated plainly per §0A rule 6.** The dashboard card records a **₹160cr contract from Airbus Defence & Space for Airborne Intensive Care Transport Modules, first shipment before end-2026.** **I searched NSE's corporate-announcements feed for all of 2025 (86 records) and 1-Jan to 26-Aug-2026 (61 records) and found no order-award filing of any kind. I searched all seven transcripts and both decks: "Airbus" appears five times in total, every one of them describing Airbus as an end-customer of the aerospace industry — never as a Sansera counterparty.** ***I could not find it. That is not the same as saying it did not happen*** — a ₹160cr order may fall below Sansera's materiality threshold for a Reg 30 filing, and it may have been reported in the press. **But it is unverified, it is load-bearing, and it should not sit on the card as established fact. It has been removed from the card and recorded here instead.**
 
@@ -560,6 +585,16 @@ Asked directly whether it sits in the margin, he confirmed: *"No, it is included
 | The Sep/Oct-2026 hangar commissioning | Slipped ~3–4 months already | **A second slip** would move the ADS ramp from "on track" to "at risk" |
 | Free cash flow | **Negative two years running** | **A third consecutive negative FCF year in FY27**, or an equity raise, at this promoter level |
 | Margin | 19.2% Q1, guided ~19% | **Below 18.1% in any quarter of FY27** — i.e. giving back the whole year's gain |
+> **📊 18-Nov-2026 — Q2FY27 scored.**
+> | Trigger | Result |
+> |---|---|
+> | **Promoter decline proves an inadequately disclosed sale → ML** | ⚠️ **FIRED on the evidence available** — disposals by six promoter-group holders (XBRL), none found on BSE's insider register for 2026 (which works: it shows Devaraj's later filings). **Applied: M → ML.** Caveat: gifts are possible and a filing outside the registers checked cannot be ruled out |
+> | Second hangar slip | **Not fired** — *"fully operational by the third quarter"* |
+> | Third negative FCF year, or an equity raise | 🟡 **On course** — H1 FCF ≈ −₹149cr, capex raised to ₹800cr; no equity raise |
+> | Margin below 18.1% | ✅ **Clear** — 19.4% |
+>
+> **Where it trades (Screener consolidated, 18-Nov-2026, intraday):** CMP **₹4,538** · market cap ₹28,325cr · P/E 69.3x · ROE 11.8% · 52-week ₹1,535–4,852. **+19% since 26-Aug.**
+> **Re-priced on the unchanged scenarios (market cap; base ₹24,497cr, bull ₹36,663cr, bear ₹11,904cr):** base **−14%** · bull **+29%** · bear **−58%** → **weighted ≈ −12%** *(0.55 × −14 + 0.25 × 29 − 0.20 × 58)*. *The base case's FY27 revenue (~₹4,160cr) is already being beaten — H1 annualises to ~₹4,225cr — so the base is conservative; the valuation is still the larger problem.*
 
 **🟢 Upgrade trigger.** **ADS annualising above ₹700cr with the hangar and build-to-suit commissioned, FY27 free cash flow positive, and the promoter-holding question answered** — that combination would make the ROE path credible rather than projected, and MH becomes defensible even at this multiple.
 
@@ -569,9 +604,13 @@ Asked directly whether it sits in the margin, he confirmed: *"No, it is included
 
 **Risk 1 — 🔴 The multiple is the risk.** **63.9x on 11.5% ROE.** A de-rate to Sundram/Endurance's 42x on unchanged FY28 earnings of ₹490cr gives **₹20,580cr, −13.5%, with nothing having gone wrong operationally.**
 
+> ⚠️ **WORSE (18-Nov-2026):** 69.3x at ₹4,538; re-priced weighted return ≈ −12%.
+
 **Risk 2 — 🔴 The semiconductor cycle.** Management's visibility runs *"until FY29, FY '30"* on customer feedback about an AI-driven capex boom. **The ₹1,250cr order peaks in calendar 2029.** **If AI capex normalises earlier, the ADS ramp lands into a falling market with the capacity already built.**
 
 **Risk 3 — 🔴 Free cash flow and the funding of the pivot.** Two negative years. **A fundraise is explicitly not ruled out** — *"take an appropriate decision if at all we need to look at a fundraise"* — and the CFO said flatly *"inorganic plans are there."* **At 29.21% promoter holding, further equity issuance changes the control picture.**
+
+> ⚠️ **ACCUMULATING (H1FY27):** operating cash ₹207cr vs ₹356cr of capex and JV investment; net debt ₹60cr → ₹261cr; FY27 capex ₹800cr.
 
 **Risk 4 — 🔴 The auto pull-forward.** Growth visibility is *"at least next one and a half quarters"* through a festive season straddling Q2 and Q3. **Q4FY27 is where a pulled-forward festive shows up as a miss.**
 
@@ -585,6 +624,8 @@ Asked directly whether it sits in the margin, he confirmed: *"No, it is included
 **Risk 8 — 🟡 The governance layer just thinned.** **Audit Committee chair and Stakeholders Relationship chair both retired 27-Jul; CRO superannuated 31-Jul with no announced successor; three of four IDs joined in 2026.** *No allegation attaches to any of this. It is a statement about how much institutional memory sits in the oversight functions right now.*
 
 **Risk 9 — 🟡 The unexplained promoter decline.** See §3.5 and the trigger table. **This is Risk 8's practical test case: an unexplained 0.89pp move went unasked on an hour-long call.**
+
+> 🔴 **EXPLAINED — AND IT IS THE DOWNGRADE (18-Nov-2026):** six promoter-group holders, including F.R. Singhvi (Executive Vice Chairman), disposed of 5.34 lakh shares in the June quarter; **no insider-trading disclosure found on BSE's 2026 register** (see §4 Q2FY27). Not asked on the Q2 call.
 
 **Risk 10 — 🟡 Retail concentration at the top.** **1,04,350 shareholders, up 36% in fifteen months, in a stock 5.6% off its all-time high after +203%.** **A crowded holder base is not a valuation input, but it is a volatility input.**
 
@@ -612,6 +653,8 @@ Asked directly whether it sits in the margin, he confirmed: *"No, it is included
 
 ## 9. Community Pulse
 
+**⤴ 18-Nov-2026:** ValuePickr #107060 still thin (last activity before this refresh: 31-May-2026); no discussion of the promoter disposals. The Q2 call queue (Nomura, Avendus Spark, Anand Rathi) asked about orders, capex and costs — **nobody asked about the promoter group.** Sentiment: **BULLISH** on operations, **silent** on governance.
+
 **ValuePickr — "Sansera Engineering Ltd", topic 107060.** **35 posts, last activity 31-May-2026.** ***A thin thread for a ₹23,800cr company, and that thinness is itself worth noting: the ADS re-rating has happened almost entirely through sell-side and price action rather than retail forum discussion.***
 
 Last substantive posts:
@@ -630,6 +673,8 @@ Last substantive posts:
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (18-Nov-2026 Tier-A):** results and deck 5-Nov; **official transcript of the 6-Nov call (filed 13-Nov) — prepared remarks and the main Q&A read in full, remainder keyword-scanned**; **NSE shareholding XBRL for 31-Mar, 30-Jun, 30-Sep-2026 (holder-level diff)**; NSE SAST and PIT feeds (PIT empty for SANSERA); **BSE insider-trading register via the InsiderTrade15 API, 1-Jan to 18-Nov-2026 (two Devaraj entries)**; Screener consolidated 18-Nov-2026 (intraday).
 
 - **Concalls read (7, all primary transcripts, `pdftotext -layout`):** **Q1FY27 (13-Aug-2026, primary — full read)**, Q4FY26 (21-May-2026), Q3FY26 (10-Feb-2026), Q2FY26 (Nov-2025), Q1FY26 (Aug-2025), Q4FY25 (28-May-2025), Q3FY25 (Feb-2025). Stored in `Fetched Concalls/SANSERA/`.
 - **Q1FY27 investor presentation** (38 slides, 12-Aug-2026) — tables read from extracted text; **slide 10's capex chart read from the rendered page image per §4A**, confirming FY25 ₹5,911mn / FY26 ₹5,097mn / Q1FY27 ₹1,342mn; slide 9's ADS bar chart cross-verified against the stated FY26 total.

@@ -227,6 +227,15 @@ It is a turnkey EPC contractor winning contracts to erect transmission lines up 
 | Buyback | asked on call | *"We have no such intentions as of now"* | ⚪ **Ruled out** |
 | Dividend | — | **Interim ₹3/share (150% of ₹2 face value)**, up from ₹2 in FY26; payout still modest at ~7% | ✅ |
 | ESOPs | — | **1,89,000 granted** under the 2023 plan | ⚪ |
+| *(18-Nov)* **Q2 run-rate ₹2,173–2,300cr, "very much" achievable** | Q1FY27 call | **Q2 ₹2,056cr (+32% YoY, +18% QoQ)** — a record, but below the stated run-rate band | 🟡 **Record, short of the band** |
+| *(18-Nov)* **FY27 revenue +20%** | Standing | H1 ₹3,792cr (+18%); *"H1 performance is back on track to achieve the annual growth guidance"*; **20% a year "for at least next 3 years"** | 🕐 **H2 must do ~+21%** *(my arithmetic)* |
+| *(18-Nov)* **EBITDA margin 11%+** | Standing | Q2 11.6%, H1 11.6%; *"similar EBITDA margins are planned for the following years"* | ✅ |
+| *(18-Nov)* **Net debt normalising "in Q2"** | Q1FY27 call | **Net debt ₹143cr** (₹466cr at Q1); **H1 operating cash ₹435cr** (₹29cr a year ago); WC days 82 | ✅ **Delivered, and then some** |
+| *(18-Nov)* **FY27 order intake ₹10,000cr+** | Standing | H1 ₹1,638cr; with October, *"already INR3,500 crores, INR4,000 crores in the bag"*; ~₹30,000cr more to bid in five months at a *"10% to 12% win ratio"* | 🔴 **The stated arithmetic reaches ~₹7,000–7,600cr on new bids** *(my arithmetic)*; reaching ₹10,000cr depends on the ₹18,000cr already bid |
+| *(18-Nov)* **Burberry ₹80cr repaid before September 2026** | Q1FY27 call | **Not mentioned in the release, the deck or the call** (`Burberry` 0 hits) | 🔴 **Unconfirmed past its own date** |
+| *(18-Nov)* QIP timing | Enabling resolution | *"not finalized… It will take at least 6-odd months more"*, timing tied to need | 🕐 **Deferred** |
+| *(18-Nov)* 🆕 Solar IPP (49% of ~990 MWac SPV) | 21-Oct board | Project ~₹3,900cr, debt *"already closed"*; **Transrail equity ~₹500cr "over the next year or so"**, mostly internal accruals; ~400 MW by Mar/Apr-2027, full by Mar-2028; T&D stays *"85%, 90%"* | 🆕 **First numbers given** |
+| *(18-Nov)* 🆕 Promoter pledge | Not previously disclosed in this profile | An analyst asked; *"a normal 2% to 3% pledge only for some borrowings… for a short-term purpose"*, to be released in *"6 to 9 months"* | 🆕 **Stated on the call; no pledge filing found in the feeds swept** |
 
 **Verdict on management:** *The initiation read — a founder-led, professionally run EPC that beat its maiden-year guidance and repaired its balance sheet while growing — survives this quarter, but with less margin for error.* **What impresses: they did not move the goalposts.** *Faced with a 5% revenue quarter against a 20% annual guide, management reaffirmed all three FY27 numbers, gave a specific quarterly run-rate they are willing to be held to, and supplied a checkable historical precedent. They answered the hostile questions — net debt, QIP, related-party loan, buyback — with figures rather than deflection, and the one thing they declined to detail (the QIP plan) they explicitly deferred to the next call.* **What concerns: three consecutive quarters where order intake has run below the pace implied by guidance, an order book that has stopped growing, and working capital moving the wrong way in the same quarter a ₹600cr raise was approved for "long-term working capital." Those are the same variable seen from three angles.** ***This is now a show-me quarter, and management has told us exactly what to measure.***
 
@@ -349,6 +358,30 @@ It is a turnkey EPC contractor winning contracts to erect transmission lines up 
 
 ---
 
+### 🆕 Q2FY27 Refresh — Full Numbers Print *(18-Nov-2026; results and deck 3-Nov, call 4-Nov, official transcript filed 11-Nov and read in full)*
+
+| ₹cr (consolidated) | Q2FY27 | Q2FY26 | YoY | Q1FY27 | QoQ | H1FY27 |
+|---|---|---|---|---|---|---|
+| Revenue | **2,056** | 1,561 | **+32%** | 1,736 | +18% | 3,792 (+18%) |
+| EBITDA (company) | 238 (11.6%) | 184 | +28% | 202 | | 441 (11.6%) |
+| Interest | 73 | 60 | +22% | 56 | +30% | |
+| PBT | 158 | 125 | +26% | 144 | | |
+| PAT | **104** | 92 | **+13%** | 108 | −4% | 212 |
+| Order book | **14,218** | | | 16,035 | | |
+| Net debt | **143** | | | 466 | | |
+
+**Five quarters (Screener):** revenue 1,561 → 1,796 → 1,863 → 1,736 → **2,056** — **the five-quarter plateau (Risk 3) is broken**; OPM 12% → 13% → 11% → 12% → 12%.
+
+**Why PAT grew 13% on revenue +32%.** Depreciation (capex), interest on working-capital limits, and **a one-off tax provision in September** — *"For the future, we see the tax rate coming back to… around 25%, 26%"*; PAT margin *"between 5.5% and 6% going forward"*.
+
+**Cash.** H1 operating cash ₹435cr against ₹29cr a year ago; receivables fell into cash; net debt ₹143cr (0.2x). **But receivables older than six months are ₹200–300cr** (analyst's figure, not disputed): *"There is some increase… it will be reduced in the ensuing quarter."*
+
+**Orders.** Book ₹14,218cr (down from ₹16,035cr); ₹1,747cr declared since the half, including **five HTLS reconductoring jobs (~₹770cr) on the company's own carbon-core conductor** with Epsilon (France) as core supplier, which is building an Indian plant. Management puts the reconductoring market at *"more than INR10,000-odd crores"* over 12 months and calls these *"better margin jobs"*. Domestic jobs are hedged at bid; *"fully hedged for the year"*.
+
+**Capacity:** towers 1,84,400 MTPA → 2,00,000 by year-end; conductor 40,800 km → 49,500 km. Products sold outside are ~5% of output, target 5–7%. Domestic/international ~60/40.
+
+**Guidance:** revenue +20% a year for three years; EBITDA 11%+; order intake ₹10,000cr+ for FY27; solar IPP revenue from FY28, with guidance to be revised next year.
+
 ## 5. Connecting the Dots
 
 **The threads reinforce cleanly, and the mechanism is specific.** The **₹9.15 lakh crore transmission cycle** feeds a bid pipeline (₹1.3–1.5 lakh crore visible) → **PQ depth plus backward integration** let Transrail win the *right*, higher-margin slices selectively → **doubled tower and conductor capacity** (Butibori commissioned, full 1.96 lakh MT by Q2FY27) removes the execution constraint on a bigger order book → **stronger operating cash flow and the ratings upgrade** cut the cost of the working capital that funds it all. **Growth, quality and balance-sheet repair all pull the same way** — exactly what you want in year one as a listed company, and the five-year record says it is not a fluke.
@@ -368,6 +401,8 @@ It is a turnkey EPC contractor winning contracts to erect transmission lines up 
 | 23-Jul-2026 | **Medium-High** | ₹481 | **~+50%** | Initiated. Four named overhangs: margin guide-down, order-inflow miss, DII/PE exit, pending QIP |
 | **13-Aug-2026** | **Medium-High — HELD, moved to UNDER WATCH** | **₹467** | **~+29.5%** | **Margin overhang resolved favourably; QIP crystallised at ₹600cr; DII exit continues; order inflow unresolved and more acute. Revenue +5% against 20% guided; net debt tripled** |
 | **19-Sep-2026** *(filings refresh)* | **HELD at Medium-High (Under Watch)** | **₹409** | **~+48% at the new price** *(scaled from +29.5% at ₹467)* | No order or governance filing; FY26 annual report (2-Sep) not read; stock −12% to its 52-week low. Burberry loan repayment (due Sep-2026) unconfirmed on the feed. |
+| **4-Nov-2026** *(Q2 filings)* | **MH (Under Watch) → MEDIUM** | — | — | Trigger 2 fired: H1 order intake ₹1,638cr against ₹3,500cr. Net debt trigger reversed (0.2x); revenue trigger clear; Burberry open. |
+| **18-Nov-2026** *(Q2FY27 Tier-A, official transcript)* | **HELD at MEDIUM** | **₹431** | **≈ +40%** *(re-priced)* | Q2 revenue ₹2,056cr (record) at 11.6%; H1 operating cash ₹435cr; ~₹3,500–4,000cr of FY27 orders "in the bag". **Upgrade line not met** (revenue ≥ ₹2,150cr with quarterly intake ≥ ₹3,000cr). Burberry unaddressed; a 2–3% promoter pledge disclosed on the call; ~₹500cr equity going into a 49% solar IPP. |
 
 **🎯 UNDER WATCH TRIGGER — Q2FY27 (results ~Nov-2026). Downgrade to Medium if ANY of:**
 1. **Q2FY27 revenue below ₹2,000cr** — management guided a ₹2,173–2,300cr run-rate and said *"very much"* achievable;
@@ -463,13 +498,29 @@ CFO Khandelwal, pressed by Kartikay Agrawal: *"It is **INR80 crores** loan, and 
 
 ---
 
+### 📊 18-Nov-2026 — Q2FY27 scored
+
+**Where it trades (Screener, 18-Nov-2026, intraday):** CMP **₹431** · market cap ₹5,799cr · P/E 13.5x · BV ₹182 · ROCE 33.6% · ROE 20.0% · 52-week ₹401–671.
+
+**Re-priced on the unchanged per-share scenarios:** base ₹610 → **+42%** · bull ₹898 → **+108%** · bear ₹299 → **−31%**. **Weighted ≈ +40%** *(0.50 × 42 + 0.25 × 108 − 0.25 × 31)*, plus ~0.7% dividend. *The base case assumed FY27 short of guidance at ~₹7,900cr; H1 at ₹3,792cr leaves that intact.*
+
+**The 13-Aug triggers, on the call:** (1) Q2 revenue < ₹2,000cr — **clear** (₹2,056cr). (2) H1 intake < ₹3,500cr — **fired** (₹1,638cr), already applied on 4-Nov. (3) Net debt/EBITDA > 0.67x — **clear** (0.2x). (4) Burberry ₹80cr not repaid by September — **still unconfirmed**: nothing in the release, deck or call.
+
+**Upgrade back to MH (revenue ≥ ₹2,150cr with ≥ ₹3,000cr intake in the quarter): not met.**
+
+**Conviction: HELD at MEDIUM.** **What would cut it to ML at Q3FY27** *(my rule, set now so it can be tested)*: nine-month order intake below ₹6,000cr, **or** operating cash turning negative for the nine months, **or** no Reg 30 confirmation of the Burberry repayment by the Q3 results. **What would restore MH:** nine-month intake ≥ ₹7,500cr with Q3 revenue ≥ ₹2,150cr.
+
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — 🔴 Order inflow.** *Ranked fifth at initiation; it is now first.* **Q1FY27 intake ₹1,034cr + ~₹400cr L1 against a maintained ₹10,000cr+ guide, implying ~₹9,000cr across nine months. The order book FELL, ₹16,361cr → ₹16,035cr.** Management's answer is the **₹20,000cr of bids quoted in Q1 converting at 10-15% in Q2–Q3**, credible for EPC lead times (*"there is a lag between the bidding and the order award… 3 to 5 months"*) — **but this is now two consecutive periods of intake below the guided pace, after FY26 missed at ₹8,520cr against ₹10,000cr.**
 
+> ⚠️ **STILL THE FIRST RISK (18-Nov-2026):** H1 ₹1,638cr; ~₹3,500–4,000cr including October. The CEO's own path is ~₹30,000cr of bids at a 10–12% win rate, which reaches ₹10,000cr only with wins from the ₹18,000cr already bid *(my arithmetic)*.
+
 > **✅ IMPROVING (21-Oct-2026)** — ₹1,747cr announced 6–21 Oct; FY27 intake **₹3,356cr** per the company, ~34% of the ₹10,000cr+ guidance at ~56% of the year.
 
 **Risk 2 — 🔴 Working capital and net debt reversal.** **₹174cr → ₹466cr; net debt/EBITDA 0.33x → 0.67x; WC days 81 → 85; ROCE 25.76% → 23.58%.** **Dated, falsifiable commitments: 0.33x by March, sub-81 days.** *This is precisely the category trap named at initiation, with RAJESH's FY26 CFO blow-up as the watchlist parallel.*
+
+> ✅ **RESOLVED AT Q2FY27 (18-Nov-2026):** net debt ₹466cr → ₹143cr; H1 operating cash ₹435cr; WC days 82. **One sub-item to watch:** receivables older than six months ₹200–300cr, which management says will come down next quarter.
 
 **Risk 3 — 🔴 The revenue plateau.** **Range-bound ₹1,561cr–₹1,863cr for five consecutive quarters** after FY26's +30%. **TTM growth 15% on sales, 10% on profit, against 3-year CAGRs of 30% and 56%.** **Either H2 breaks the range, or FY26 was the peak growth rate.**
 
@@ -493,7 +544,11 @@ CFO Khandelwal, pressed by Kartikay Agrawal: *"It is **INR80 crores** loan, and 
 
 **Risk 12 — ⚪ Related-party and governance items.** **Burberry ₹80cr (repayment contracted before Sep-2026)** and a **₹67cr contingent liability.** *The ValuePickr thread also raised RHP legal disclosures — "criminal litigations, tax proceedings, history of non-compliance" — which tie to that contingent liability and warrant a closer RHP read at a future review.*
 
+> ⚠️ **TWO OPEN ITEMS (18-Nov-2026):** (a) the Burberry ₹80cr repayment, contracted *"before September 2026"*, was not mentioned in the Q2 release, deck or call; (b) **a 2–3% promoter pledge "for some borrowings… for a short-term purpose"**, to be released in 6–9 months, was disclosed only when an analyst asked. No pledge disclosure was found in the NSE announcements or SAST feeds swept; to verify on the next sweep.
+
 **🆕 Risk 13 — From building power assets to owning them (NEW — 21-Oct-2026).** The Board approved buying 49% of NOPL Pace Green Energy (~990 MW solar, MSEDCL 25-year PPA at ₹3.10/unit) for up to ₹20cr, **structured for "financial and project management control"** with an option to 100%. **Indicative project cost ~₹3,900cr.** *Not disclosed: accounting treatment (equity-accounted or consolidated), Transrail's total equity commitment, or who holds the EPC contract.* A consolidated ₹3,900cr asset would change the balance sheet that Risk 2 already flags *(my inference)*.
+
+> ⚠️ **SIZED (18-Nov-2026):** SPV project cost ~₹3,900cr, debt closed with *"a large financial institution"*; **Transrail's equity ~₹500cr over about a year**, mostly from internal accruals, *"and there will be some amount of debt on our balance sheet"*. ~400 MW by Mar/Apr-2027, the rest by Mar-2028. **₹500cr is ~3.5x H1 net debt, so the Q2 balance-sheet gain is partly committed already** *(my arithmetic)*. Still undisclosed: accounting treatment and the EPC role.
 
 ---
 
@@ -512,6 +567,7 @@ CFO Khandelwal, pressed by Kartikay Agrawal: *"It is **INR80 crores** loan, and 
 ## 9. 📢 Community Pulse
 
 *Refreshed each review cycle. **Last scan: 13-Aug-2026.***
+**⤴ 18-Nov-2026:** ValuePickr #180374 — 78 posts, last 10-Oct-2026. The recent posts track the HTLS reconductoring win and **flag order intake as "the major concern"** (30-Sep). No reaction yet to the Q2 print. Sentiment: **MIXED**.
 
 ### The sell side is the community here, and that is the finding
 
@@ -540,6 +596,8 @@ CFO Khandelwal, pressed by Kartikay Agrawal: *"It is **INR80 crores** loan, and 
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (18-Nov-2026 Tier-A):** results, deck and press release 3-Nov; **official transcript of the 4-Nov call (filed 11-Nov), read in full**; Screener consolidated 18-Nov-2026 (intraday); NSE SAST feed (no pledge entry); ValuePickr #180374. The machine transcript started on 4-Nov was not used.
 
 **Primary documents:**
 - **Q1FY27 earnings call, 6-Aug-2026**, hosted by **PhillipCapital** — the central document. Source for the revenue explanation and the Q1FY25 precedent, the ₹2,173–2,300cr run-rate commitment, the net-debt and working-capital exchanges, the ₹600cr QIP, the Burberry loan quantification, the buyback question and the conductor capex slip. Management: **Randeep Narang (MD & CEO)**, **Deepak Khandelwal (CFO)**.

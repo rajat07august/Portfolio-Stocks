@@ -255,6 +255,15 @@ The 30-second snapshot:
 | **🆕 FY28 revenue ₹2,700cr** *(raised from ₹2,500cr)* | **Q1FY27 call** | Raised on the strength of heavy structures plus full Phase 1 and partial Phase 2 | 🆕 **Newly raised** |
 | **🆕 FY28 EBITDA margin 9.5–10%** | **Q1FY27 call** | First explicit margin target the company has given | 🆕 |
 | FY27 margin improvement | **Q1FY27 call** | **Explicitly NOT promised** — *"I'm not very sure whether it will show immediate results this year"* | 🕐 **Honest deferral** |
+| *(18-Nov)* **FY27 revenue ₹2,150–2,200cr** | Q4FY26, Q1FY27 | H1 ₹965cr (+10.7%); **reaffirmed** — *"maybe INR1,200 crores in the next six months"* | 🕐 **H2 must be +25% on H1** *(my arithmetic)* |
+| *(18-Nov)* **FY28 EBITDA 9.5–10%** | Q1FY27 call | H1 **8.4%** (Q2 8.3%). FY27: *"I don't think it will cross… 9%, 9.5%"*. New, looser targets on the same call: **10–12% "next 12 months", "within two years we should reach 11% to 12%", long-term 14–15%** | 🟡 **FY27 deferred again; the longer targets rose without a bridge** |
+| *(18-Nov)* Heavy-structures plant, Q2FY27 | Q1FY27 call | **Commercial 24-Sep-2026** (Phase 1, 25,000 MTPA); to ~75,000–80,000 t *"by the end of next year"* | ✅ **On the promised quarter** |
+| *(18-Nov)* Kheda Phase 2 *"by October"* | Q1FY27 call | Commercial **5-Nov-2026** | 🟡 **~1 week late** |
+| *(18-Nov)* Order book | Q1FY27 | **>₹2,000cr at 31-Oct** (₹1,864cr at 31-Jul); HSS ~₹300–400cr of it; ~9 months to execute | ✅ **Growing with capacity** |
+| *(18-Nov)* **H1 operating cash flow** | 19-Sep trigger | **₹85.3cr** (H1FY26 ₹42.0cr), statement rendered and read | ✅ **Clearly positive** |
+| *(18-Nov)* QIP | Mar/Aug-2026 | *"done all the formalities… we can launch at a 72-hour notice"*; timing left to the banker, *"sooner than later"* | 🕐 **Ready, not launched** |
+| *(18-Nov)* 🆕 Capacity path | First stated | +100,000 t usable by Mar-2028; another +100,000 t by Jun–Jul 2029 → **~400,000 t** | 🆕 |
+| *(18-Nov)* 🆕 Pricing terms | — | **~35–40% of the book variable-price; no fixed-price orders taken in the last 2–3 months** | 🆕 **Steel risk moving to customers** |
 
 **Verdict on management.**
 
@@ -426,6 +435,27 @@ Why the ask went from ₹100cr to ₹250cr: *"we figured that there's a lot of c
 
 ---
 
+### 🆕 Q2FY27 Refresh — Full Numbers Print *(18-Nov-2026; results 4-Nov (image-only; text re-filed 11-Nov), deck and call 6-Nov, official transcript filed 11-Nov and read in full; cash-flow page rendered)*
+
+| ₹cr (standalone) | Q2FY27 | Q2FY26 | YoY | Q1FY27 | H1FY27 | H1 YoY |
+|---|---|---|---|---|---|---|
+| Revenue | **505.4** | 491.1 | **+2.9%** | 459.6 | **965.0** | +10.7% |
+| EBITDA (company) | 41.7 (**8.3%**) | ~41.7 (8.5%) | flat | | 81.1 (8.4%) | +10.7% |
+| PAT | **30.7** | 32.3 | **−4.9%** | 28.2 | 58.9 | −2.9% |
+| Volume (MT) | **41,600** | | **+1%** | | | |
+
+**Five quarters (Screener):** revenue 491 → 523 → 504 → 460 → **505**; OPM 8% → 10% → 10% → 9% → **8%**.
+
+**🔴 The growth is all heavy structures** (deck, H1; the two series sum to reported revenue in both years): **PEB ₹799.9cr → ₹756.0cr (−5.5%)**, **HSS ₹72.0cr → ₹209.0cr (2.9x)**. *First flagged on ValuePickr (#111, 7-Nov); verified against the deck.* Volume +1% in Q2. **The core PEB business shrank in H1.**
+
+**Why PAT fell:** depreciation on two new plants (Kheda, AP heavy structures) and lower interest income as cash went into capex. Management blames the margin on steel at *"a record high"* since 2022, disrupted supply (forcing stock-building and trader purchases) and opex for exports and HSS ahead of revenue.
+
+**Cash (rendered):** **H1 operating cash ₹85.3cr** (₹42.0cr); capex ₹76.8cr; dividend ₹21.0cr; cash ₹60.7cr. Gross working-capital days **66 → 86**; net ~44 days after customer advances (CFO). Inventory +₹21.3cr (steel stocked against supply disruption).
+
+**Income-tax search (Note 8):** further s.142(1) notices of 14-Sep and 23-Oct answered on 27-Oct and 3-Nov; **no assessment or demand order yet**; auditor's Emphasis of Matter repeated. *Not discussed on the call (`tax` 0 hits).*
+
+**Guidance:** FY27 revenue ₹2,150cr (H2 ~₹1,200cr); FY27 margin not above ~9–9.5%; "within two years" 11–12%; capacity ~400,000 t by mid-2029.
+
 ## 5. Connecting the Dots
 
 **Thread A — Capacity is the binding constraint, and it is being released.** Management says repeatedly it turns away work it cannot deliver, and the **88% usable-capacity utilisation figure substantiates it.** Three new phases land between July 2026 and Q4FY27, lifting capacity 31%. **If the demand commentary is honest, revenue follows capacity almost mechanically.**
@@ -459,10 +489,19 @@ Why the ask went from ₹100cr to ₹250cr: *"we figured that there's a lot of c
 | 12-Aug-2026 | **Medium-High** | Initiation as stock #53, fully concall-grounded from six official transcripts plus a machine transcription of the Q1FY27 call. Category leader at 20.8x and 39% below its high, adding 31% capacity — held back from High by a 9% margin that will not expand, FY26's negative operating cash flow, and eight quarters of listed history |
 | **21-Aug-2026** | **HELD at Medium-High** | Official Q1FY27 transcript verified against the machine transcription; ₹211cr of fresh orders disclosed; no change to the thesis |
 | **19-Sep-2026** | **HELD at Medium-High — Under Watch** | Filings refresh: **income-tax search (18-Aug-2025) and block-assessment notices (158BC 29-Jan-2026; 142(1) 15-Sep-2026, documents due 29-Sep) found and added — omitted at initiation.** No demand or adverse order yet. |
+| **18-Nov-2026** *(Q2FY27 Tier-A)* | **HELD at Medium-High — Under Watch (tax assessment)** | Q2 revenue +2.9%, PAT −4.9%, volume +1%; **H1 operating cash ₹85.3cr clears the CFO trigger**; HSS plant commercial on the promised quarter; FY27 ₹2,150cr reaffirmed. **Upgrade not met:** FY27 margin deferred again (≤9–9.5%). **PEB revenue fell 5.5% in H1; all growth is heavy structures.** The independent chair stepped down for an executive promoter chair. Re-priced **≈ +38%** at ₹1,612. |
 
 **Downgrade to Medium if:** H1FY27 operating cash flow is **not** clearly positive, **or** the heavy-structures plant misses its Q2FY27 commercial start, **or** FY27 revenue tracks materially below the ₹2,150cr floor.
 
 **Upgrade to High** on H1FY27 CFO turning solidly positive **and** evidence that the FY28 9.5–10% margin target is being approached rather than deferred again.
+
+> **📊 18-Nov-2026 — Q2FY27 scored.**
+> **Downgrade triggers:** H1 CFO not clearly positive — **CLEAR** (₹85.3cr) · heavy-structures plant misses Q2 — **CLEAR** (24-Sep) · FY27 revenue materially below ₹2,150cr — **not yet testable**; H1 ₹965cr needs H2 ≈ ₹1,185cr, which management says it will do.
+> **Upgrade to High:** CFO ✅ · margin approaching 9.5–10% ❌ (8.4%, FY27 capped near 9–9.5% by the chairman). **Not met.**
+> **Under Watch (tax search): unchanged** — two more s.142(1) notices answered; no demand.
+> **Where it trades (Screener standalone, 18-Nov-2026, intraday):** CMP **₹1,612** · market cap ₹2,711cr · P/E 20.0x · BV ₹549 · ROCE 23.7% · 52-week ₹1,450–2,652. **Record date for the 1:5 split is 30-Nov — prices after that date are one-fifth of these.**
+> **Re-priced on the unchanged scenarios** (values at ₹1,690: base ~₹2,096, bull ~₹3,481, bear ~₹997): **base +30% · bull +116% · bear −38%. Weighted ≈ +38%** *(0.55 × 30 + 0.25 × 116 − 0.20 × 38)*, plus ~0.8% dividend.
+> **Conviction: HELD at MEDIUM-HIGH (Under Watch).** *New watch item:* if H2 PEB revenue also falls YoY, the capacity case rests on heavy structures alone.
 
 ### (b) Material developments — newest first
 
@@ -548,18 +587,28 @@ The initiation carried FY26 volume (1,62,000 t) and Q1FY27 volume (38,499 t) as 
 
 **🆕 Risk 13 — 🔴 Income-tax search assessment (added 19-Sep-2026; omitted at initiation).** Search 18-22 Aug 2025; block-return notice (Section 158BC) 29-Jan-2026 to the company and certain KMPs/SMPs for 1-Apr-2019 to 17-Oct-2025; Section 142(1) notice 15-Sep-2026 with documents due 29-Sep-2026. **The company says no tax demand, penalty or adverse order has been passed. The outcome of the search has never been disclosed.** *Watch:* any assessment order determining undisclosed income; any action against a KMP or SMP; the 29-Sep response. Severity order: this outranks Risk 1 until quantified.
 
+> ⚠️ **STILL OPEN (18-Nov-2026):** further notices under s.142(1) dated 14-Sep and 23-Oct, answered 27-Oct and 3-Nov; no assessment or demand order; Emphasis of Matter repeated in the Q2 review report.
+
 **Risk 1 — 🟡 Operating cash flow.** FY26 CFO was **−₹19cr** on ₹135cr of PAT; CFO/operating profit **15%**; FCF **−₹138cr**; working capital days **21 → 59** in two years.
+
+> ✅ **TRACKING WELL (H1FY27):** operating cash ₹85.3cr vs ₹42.0cr, on payables and customer advances; gross WC days 66 → 86, net ~44.
 > **Put to management directly on the 7-Aug call and answered with three named causes and a claimed reversal** — billed-but-uncollected receivables on large projects, extra steel stocked as prices rose, and advances paid to suppliers to secure supply; *"We are back to positive now."* **All three are self-reversing rather than structural, which is why this is amber and not red.** **But Interarch publishes no quarterly balance sheet, so it is unverifiable until the H1FY27 cash flow statement.** *This remains the number I would check first.* **The 20% advance on the 18-Aug FMCG order is a small piece of evidence in the right direction.**
 
 **Risk 2 — 🔴 Margins are thin and structurally so.** 8.6% EBITDA in Q1FY27, 9.3% in FY26, ~9-10% for three years while revenue nearly doubled. **A 9% margin business has very little room between a good year and a bad one.** Management is candid that it cannot price freely: *"you are not the only company. So it's not that I can demand whatever I want… Sometimes I have to take a very large order at a low margin."*
+
+> ⚠️ **MATERIALISED AGAIN (Q2FY27):** 8.3%; FY27 not expected above ~9–9.5%. The chairman: *"I don't think that is the kind of EBITDA we deserve as a company."*
 
 **Risk 3 — 🔴 QIP dilution, and the size of the revision.** The ask went from **₹100cr (approved 27-Mar-2026) to ₹250cr (6-Aug-2026)** — a 2.5x increase in five months, superseding the earlier approval, citing *"revised funding requirements… and proposed growth initiatives."* On a ₹2,842cr company that is **8–9% dilution**, taking promoters toward ~54–55%. **The revision itself is the signal worth watching: either the opportunity got bigger or the funding need did.**
 
 **Risk 4 — 🟡 Capacity arriving faster than orders.** Order book is ~1x revenue. Adding 31% capacity into a book-and-build business means **utilisation, not tonnage, decides returns. ROCE has already fallen 31% → 23%.**
 
+> ⚠️ **NEW EVIDENCE (H1FY27):** PEB revenue −5.5% and Q2 volume +1% while capacity rose; growth came entirely from heavy structures (₹72cr → ₹209cr). Management says the order book is capped by capacity, not demand.
+
 **Risk 5 — 🟡 Customer concentration in project lumps.** A ₹165cr order is ~9% of annual revenue; the 18-Aug FMCG order is ~7%. Delays or disputes on one large project move the quarter — and appear to have moved FY26's receivables.
 
 **Risk 6 — 🟡 Steel price and pass-through timing.** Management reports no supply disruption thanks to ties with SAIL and JSW, but **the pass-through lags** — and FY26 showed what happens when the company pre-buys inventory to get ahead of it.
+
+> ⚠️ **LIVE (Q2FY27):** steel *"at the all-time high in the last four years"*; ~60% of the ₹2,000cr book is fixed-price, booked at older prices. **Mitigation:** no fixed-price orders taken in the last 2–3 months.
 
 **Risk 7 — 🟡 Execution risk in a genuinely new geography.** The ER Steel JV puts Interarch into North American structural codes, certification and liability. **The 100% offtake is strong protection on volume, not on cost overruns or code compliance.** Production is not due until ~1-Jul-2027, so there is no evidence either way yet.
 
@@ -594,6 +643,7 @@ The initiation carried FY26 volume (1,62,000 t) and Q1FY27 volume (38,499 t) as 
 ## 9. 📢 Community Pulse
 
 *Refreshed 12-Aug-2026.*
+**⤴ 18-Nov-2026:** ValuePickr #181206 — 102 posts, active again. **#111 (Balaji1974, 7-Nov):** *"Growth is all HSS. H1 PEB revenue fell to ₹756 Cr from ₹800 Cr (−5.5%)"* — verified against the deck. #110 (2-Nov) doubts a re-rating above ~35x for a capital-intensive business. **Sentiment: MIXED.**
 
 ### ValuePickr — topic 181206, "Interarch: A Proxy Play on India's Infrastructure and Capex"
 
@@ -619,6 +669,8 @@ The initiation carried FY26 volume (1,62,000 t) and Q1FY27 volume (38,499 t) as 
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (18-Nov-2026 Tier-A):** results 4-Nov (images) and the text re-filing of 11-Nov (**cash-flow page rendered and read**); deck 6-Nov (PEB/HSS split verified by summing to revenue); press release 5-Nov; Kheda Phase 2 commercial production 6-Nov; **official transcript of the 6-Nov call (filed 11-Nov), read in full**; Screener standalone 18-Nov-2026 (intraday); ValuePickr #181206.
 
 **Concall gate: ✅ CLEARED — 7 official transcripts.**
 

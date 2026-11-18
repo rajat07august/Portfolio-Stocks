@@ -218,6 +218,15 @@ Indirect-tax matters under dispute rose to **₹227.9cr (FY25 ₹101.1cr)**; inc
 | **Cash-to-profit "1.2x"** | May-2025 (FY25) | **FY26 operating cash flow ₹207cr on PAT ₹370cr — 0.56x** | 🔴 |
 | **Promoters "have not sold even a share"** | Feb-2026 | Verified on NSE XBRL | ✅ |
 | **Perur 400 MLD desal commissioning ~May-2027** | May-2026 | 75%+ complete, marine works done (Aug-2026) | 🕐 |
+| *(18-Nov)* **Revenue CAGR 15–20%; EBITDA 13–15%** | Standing | H1 revenue **₹1,887cr, +20.3%**; company EBITDA ₹261cr (~14%); **ex-other-income margin Q2 ~12.4%** (Screener) | ✅ **On the guide as reported; just under it ex-OI** |
+| *(18-Nov)* **Cash-to-profit "1.2x"** | May-2025 | **H1 operating cash ₹225cr, ~1.1x PAT**; net working capital 104 → 101 days | ✅ **Recovered** |
+| *(18-Nov)* Net cash positive | Standing | **>₹1,100cr ex-HAM** (₹1,036cr incl. HAM); 15th straight net-cash quarter | ✅ |
+| *(18-Nov)* Order book | Standing | **₹20,207cr** (lifetime high); H1 intake ₹5,200cr+ — Kuwait (~USD 400m, with five-year O&M) and RIL Jamnagar desal ('Mega'), plus RIL ETP, Bangalore, Delhi, Vienna, Ajman (UAE), an Adani O&M contract | ✅ |
+| *(18-Nov)* **Norfund municipal platform** | "very soon" since May-2025 | **Not mentioned on the Q2 call** | 🔴 **20 months, silent** |
+| *(18-Nov)* **Hadda ISTP** | "next quarter" (May-2026) | **Not mentioned** | 🔴 **Silent** |
+| *(18-Nov)* **Indosol ₹1,000cr desal** | Nov-2024 | Land partly reallocated after the change of government in Andhra; *"they have managed… to get 90% of the land"* | 🟡 **A reason, not a restart** |
+| *(18-Nov)* Al Haer STP commissioning | — | **Q4FY27**; civil 80–85% done; Ras Tanura hydro-testing by end-November | 🕐 |
+| *(18-Nov)* 🆕 Wriddhi 2.0 (five-year plan) | — | To be unveiled at the May-2027 investor meet | 🆕 |
 
 ### One-line verdict on management
 
@@ -319,6 +328,26 @@ Indirect-tax matters under dispute rose to **₹227.9cr (FY25 ₹101.1cr)**; inc
 
 ---
 
+### 🆕 Q2FY27 Refresh — Full Numbers Print *(18-Nov-2026; results 5-Nov, call 6-Nov, official transcript filed 16-Nov — prepared remarks read in full, Q&A read on the Middle East, pipeline, order mix and the stalled projects)*
+
+| ₹cr (consolidated) | Q2FY27 | Q2FY26 | YoY | Q1FY27 | H1FY27 | H1 YoY |
+|---|---|---|---|---|---|---|
+| Revenue | **1,000** | 834 | **+20%** | 887 | 1,887 | +20.3% |
+| EBITDA (company) | **145 (~14.5%)** | | | | 261 (~13.8%) | +21% |
+| Operating profit ex OI (Screener) | 124 (**12.4%**) | 89 (11%) | +39% | 80 (9.0%) | | |
+| Other income (Screener) | 31 | 43 | | 58 | | |
+| PAT | **104** | 85 | **+23%** | 90 | 195 | +30% |
+
+**The margin question (Risk 2).** Company EBITDA (~14.5%) includes items Screener puts in other income; on Screener's ex-OI basis Q2 is **12.4%** — a real recovery from Q1's 9.0%, and just short of the 12.5% re-rate line. *Forex was not broken out on the call.*
+
+**Mix (H1):** international 54% / India 46%; EPC 82% / O&M 18%; **O&M backlog ₹6,500cr**. The two largest H1 wins (Kuwait, RIL) are **EP-type** — WABAG does everything but the civil works, which management prefers for risk.
+
+**Middle East:** shipments delayed by the conflict (longer routes, some air freight with client approval); sites unaffected; Saudi awards *"a little slow"*, Kuwait and UAE moving.
+
+**Cash and returns:** H1 operating cash ₹225cr (~1.1x PAT); net working capital 101 days; ROE 16.3%, ROCE 20.5%; net cash >₹1,100cr ex-HAM.
+
+**Guidance (medium-term, restated):** revenue CAGR 15–20%, EBITDA 13–15%, ROCE >20%, ROE >15%, O&M to 20% of revenue, net cash positive; *"next 12–18 months is going to be a bumper order intake"* (CMD).
+
 ## 5. Connecting the Dots
 
 The Wriddhi strategy is a chain, and every link has held: **filter for payment security → collect → go net cash → get upgraded to AA- → cheaper guarantees and bigger bid capacity → win larger international jobs → larger order book → faster growth.** That chain is real, and it explains why WABAG compounded PAT at ~30% for five years while most Indian water EPC names stumbled.
@@ -342,6 +371,7 @@ The Wriddhi strategy is a chain, and every link has held: **filter for payment s
 | Date | Conviction | Rationale |
 |---|---|---|
 | **18-Sep-2026** | **MEDIUM-LOW** *(initiation)* | India's leading pure-play water-technology company: a 4.9x order book, net cash ₹965cr, AA- rating, zero pledge and promoters who have never sold, with revenue guidance met three years running. Against that, the stock is at 33x reported and ~41x ex-forex earnings; Q1FY27 PAT fell ~18% ex-forex beneath a "record" print; FY26 cash conversion halved to 0.56x; and the platform, Hadda, Indosol and Senegal timelines keep slipping. **Weighted +7% over two years is not enough for a bid-driven EPC business at this multiple** |
+| **18-Nov-2026** *(Q2FY27 Tier-A)* | **HELD at MEDIUM-LOW** | Q2 revenue +20%, PAT +23%; **ex-OI margin back to 12.4% (Q1 9.0%)**; **H1 cash 1.1x PAT** — the cash-conversion worry eased; order book ₹20,207cr, net cash >₹1,100cr. Re-rate lines: price ≤ ₹1,650 ❌ (₹1,864) · two quarters ≥ 12.5% ex-forex ❌ (12.4%, then 9.0%) · FY27 CFO/PAT ≥ 0.8x 🟢 (H1 1.1x) · Norfund/Hadda signed ❌ (not mentioned). No down-line hit. Re-priced **≈ +22%**. |
 
 ### Material developments at initiation — the last twelve months
 
@@ -427,6 +457,9 @@ The Wriddhi strategy is a chain, and every link has held: **filter for payment s
 ### What would re-rate it
 
 **Up (conviction to MEDIUM):** a price near **₹1,650** (~28x FY26, where the base case returns ~+35%) · two consecutive quarters of ≥12.5% EBITDA **excluding** forex · FY27 CFO/PAT ≥ 0.8x · a signed Norfund platform or a Hadda award.
+
+> **📊 18-Nov-2026 — Q2FY27 scored.** **Up:** price near ₹1,650 — ❌ (₹1,864, Screener 18-Nov intraday; market cap ₹11,655cr; P/E 27.9x) · two quarters ≥ 12.5% ex-forex — ❌ (Q2 ~12.4% ex-OI, Q1 9.0%) · FY27 CFO/PAT ≥ 0.8x — 🟢 **on track** (H1 1.1x) · Norfund signed or Hadda awarded — ❌ (neither mentioned). **Down:** quarter below 9% ex-forex — ✅ clear · Indosol cancelled — ✅ not cancelled (90% of land secured) · tax/customs order upheld — none seen · receivable days +20 — ✅ NWC days fell · promoter sale/pledge — none.
+> **Re-priced on the unchanged per-share scenarios:** base ₹2,240 → **+20%** · bull ₹3,190 → **+71%** · bear ₹1,190 → **−36%** → **weighted ≈ +22%** *(0.55 × 20 + 0.25 × 71 − 0.20 × 36)*. **Conviction: HELD at MEDIUM-LOW** — one more quarter at ≥12.5% ex-OI with H2 cash holding would meet two of the four up-lines.
 **Down:** a quarter below 9% ex-forex margin · Indosol cancelled or descoped · a customs/tax order upheld on appeal · receivable days rising a further 20 · any promoter sale or pledge.
 
 ---
@@ -439,9 +472,15 @@ The Wriddhi strategy is a chain, and every link has held: **filter for payment s
 
 **2. 🔴 The margin is weaker than it is presented.** Ex-forex EBITDA: FY25 12.8% → FY26 12.1% → Q1FY27 9.0%. **Management's guidance is being met on a reported basis while the underlying margin has trended down for five quarters.**
 
+> 🟢 **RECOVERED IN Q2 (18-Nov-2026):** ex-OI margin 12.4% (Q1 9.0%); company-reported ~14.5% still includes items below operating profit.
+
 **3. 🔴 Cash conversion.** FY26 CFO ₹207cr on PAT ₹370cr; receivables +25%. The "FCF to firm" of ₹296cr adds forex and interest. **A net-cash story needs a CFO/PAT near 1x again in FY27.**
 
+> ✅ **TRACKING WELL (H1FY27):** operating cash ₹225cr, ~1.1x PAT; NWC 104 → 101 days.
+
 **4. 🔴 Promises arrive late.** Norfund platform (18 months), Hadda (9 months preferred), Indosol (stalled ~2 years), Senegal (4 quarters late), Kuwait (10 months L1-to-LoA). **None is fatal; the pattern is the risk.**
+
+> ⚠️ **STILL LATE (Q2 call):** Norfund and Hadda were not mentioned; Indosol's delay is now explained (land reallocation, 90% recovered).
 
 **5. 🟡 Gulf concentration and geopolitics.** ~35-40% of the order book is Middle East, now including Kuwait. Management reports *"no material impact"* from the Gulf conflict and has served force-majeure notices to customers. `MACRO_FACTOR_MAP.md` scenario S4 (crude/Hormuz shock) is live.
 
@@ -470,6 +509,8 @@ The Wriddhi strategy is a chain, and every link has held: **filter for payment s
 ## 9. 📢 Community Pulse
 
 ### ValuePickr — thread #1243, *"VA Tech Wabag"*
+
+**⤴ 18-Nov-2026:** 288 posts, **last 12-Aug-2026** — no reaction to the RIL/Kuwait wins or Q2. On the call, ICICI Securities, JM and 360 ONE probed Middle East delays and the order mix; nobody asked about Norfund or Hadda. **Sentiment: MIXED-BULLISH.**
 **288 posts · last post 12-Aug-2026.** Last 18 months read.
 
 | Date | Author | Content | Sentiment |
@@ -504,6 +545,8 @@ Covered by JM Financial, ICICI Securities, Centrum, B&K, YES Securities, IIFL, S
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (18-Nov-2026 Tier-A):** results 5-Nov; RIL Jamnagar order 27-Oct; **official transcript of the 6-Nov call (filed 16-Nov) — prepared remarks in full, Q&A on Middle East, pipeline, order mix and Indosol**; Screener consolidated 18-Nov-2026 (intraday); ValuePickr #1243.
 
 - **Concalls read (9 transcripts; GREEN gate):** **Q1FY27 (13-Aug-2026, full, primary)** · **Annual Investor Meet 2026 + Q4FY26 (25-May-2026, full)** · **Q3FY26 (6-Feb-2026, full)** · **Q2FY26 (10-Nov-2025, full)** · **Q1FY26 (13-Aug-2025, full)** · **Annual Investor Meet 2025 + Q4FY25 (23-May-2025, full)** · Norfund platform call (21-Mar-2025, full) · Q3FY25 (11-Feb-2025) and Q2FY25 (8-Nov-2024) skimmed for guidance. Downloaded from BSE (AttachLive) via Screener-listed UUIDs, verified `%PDF`, extracted with `pdftotext -layout`. Stored in `Fetched Concalls/WABAG/`. *The Q4FY26 transcript is dated Jun-2026 on Screener because it was filed 1-Jun for a 25-May call.*
 - **Investor presentations (7):** Q1FY27, Investor Meet 2026, Q4FY26, Q3FY26, Q2FY26, Q1FY26, Q4FY25. **Consolidated P&L tables (including the forex line), the balance-sheet table, the cash-flow bridge and backlog tables were re-extracted with `pdftotext -raw`**, because `-layout` scrambled them; values reconcile to Screener (revenue, PAT) and to the FY26 sum of quarters (forex +₹46.8cr vs ₹46.7cr stated). `pdftoppm` is not installed on the PC, so no chart was read from an image; **no chart-derived figure is used.**

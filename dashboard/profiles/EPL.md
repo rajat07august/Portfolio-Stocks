@@ -245,6 +245,14 @@ The useful analogy is not a packaging company at all — **it is a co-located co
 | Europe margins *"improving to our target range of mid-teens"* in *"coming quarters"* | Q1FY27 | Third consecutive quarter flagged; not yet fixed | 🕐 **On the clock** |
 | Dividend resumption | Merger-gated | **Not mentioned once on the Q1FY27 call** — zero hits for *dividend*, *payout* | 🕐 **Unaddressed** |
 | **🆕 Q1FY27 official transcript filing** | SEBI 5-working-day window | **Not filed at 11 days.** Historical lag 6 days | 🔴 **Overdue** |
+| *(18-Nov)* **Underlying EBITDA margin 20%+** | Standing | **Q2FY27 20.4% underlying** / 18.9% reported; *"we've recovered it entirely during this quarter"* | ✅ **Back above the line** |
+| *(18-Nov)* **High-teens revenue growth, next few quarters** | Q1FY27 (raised) | Q2 **+30.0%** (underlying +20.3%); H1 ≈ +27.7%. Retained, with *"we'll come on the high end of the guidance, so high-teens closer to 20%"*; next two quarters *"would be at about 20%"* | ✅ **Exceeded; guide not raised** |
+| *(18-Nov)* Europe *"to our target range of mid-teens"* in *"coming quarters"* | Q1FY27 | Europe grew 30.4% but EBITDA fell; the Poland printing consolidation took *"at least 6 to 9 months longer"* for approvals, raising outsourcing cost. **New date: *"another 2 to 3 quarters to fully stabilize operations"*** | 🔴 **Fourth quarter flagged; target pushed out** |
+| *(18-Nov)* Merger timetable — ~12 months from 30-Mar-2026 | Standing | CCI, foreign antitrust and exchange approvals in; NCLT application filed 23-Oct. **CFO: *"expecting merger to get completed by Q4 of this year"***, Q4 results possibly consolidated, *"dependent on the NCLT approvals"* | 🕐 **On the original clock** |
+| *(18-Nov)* FY27 capex | Not guided before | H1 **₹315cr** (~+90% YoY); H2 *"will remain at this level"* → **FY27 ₹625–700cr**, *"elevated levels compared to what we've done in the past"*; mostly brownfield, B&C-led | 🆕 **First full-year number** |
+| *(18-Nov)* Merger synergies US$35–50m | Mar-2026 | Restated, *"in the 3 years post merger"*, mostly revenue (Vietnam, Nigeria, Ghana, Tanzania, Morocco). Post-merger debt/EBITDA *"about 0.2, 0.25"*; ~51cr shares | 🕐 **Unchanged** |
+| *(18-Nov)* Dividend resumption | Merger-gated | **Not mentioned on the Q2 call either** — `dividend` 0 hits, second call running | 🕐 **Unaddressed** |
+| *(18-Nov)* Official Q2 transcript | 5 working days | Call 4-Nov, **filed 11-Nov** (5 working days with Diwali) | ✅ **On time** |
 
 **Verdict on management.** **Operationally this is among the most consistent teams on the watchlist** — the pass-through machinery works, the growth is broad rather than concentrated, the balance sheet was cleaned up before the merger, and Bakshi names problems (Europe) before analysts raise them. **Two qualifications keep it short of unreserved.** First, the *"EBITDA will grow faster than revenue"* claim was contradicted in the very quarter it was made; the pass-through explanation covers the reported-vs-underlying gap but **not the 40bps between underlying 19.6% and the 20% commitment.** Second, **on the merger — the single largest event in the company's history — management has disclosed the strategic logic fully and the shareholder mechanics thinly.** No completion date, no dividend restart date, no NCLT filing disclosed, and Indovida's standout 27% quarterly margin explicitly withheld: *"We are not able to comment on the underlying reasons for the results because we are in a period where we are still seeking approval."* **That last one may be a genuine legal constraint. It is still an information gap the holder carries.**
 
@@ -386,6 +394,28 @@ Last quarter an analyst had to raise it (*"I noticed no dividend this time"*), p
 **Europe grew revenue 20.2% while running below its mid-teens margin target, for the third consecutive quarter.** Being managed; not yet fixed.
 
 ---
+### 🆕 Q2FY27 Refresh — Full Numbers Print *(18-Nov-2026; results and deck 4-Nov, call 4-Nov, official transcript filed 11-Nov and read in full)*
+
+| ₹cr (consolidated) | Q2FY27 | Q2FY26 | YoY | Q1FY27 | QoQ |
+|---|---|---|---|---|---|
+| Revenue | **1,567** | 1,206 | **+30.0%** | 1,388 | +12.9% |
+| EBITDA (company) | 296 | 252 | +17.6% | | |
+| Reported / underlying EBITDA margin | **18.9% / 20.4%** | | | 18.8% / 19.6% | |
+| Operating profit ex other income (Screener) | 288 (18.4%) | 252 | +14% | 261 | +10% |
+| Depreciation | 113 | 94 | +20% | 109 | |
+| Net profit | **111** | 106 | **+5%** | 101 | +10% |
+| Net debt (deck) | **656** | 464 | +41% | 581 | +₹75cr |
+
+**Five quarters (Screener, consolidated):** revenue 1,206 → 1,149 → 1,300 → 1,388 → **1,567**; OPM 21% → 20% → 20% → 19% → **18%**; net profit 106 → 83 → 103 → 101 → **111**. **Revenue is up 30% and profit 5%** — the gap is pass-through pricing (dilutes the percentage), depreciation from the capex step-up (+20%), a higher tax rate on country mix and FX losses (CEO's list).
+
+**Categories and regions (call):** Beauty & Cosmetics **+42.9%**, Oral Care +19.2%; **in September B&C overtook Oral Care as the largest category** (~44% each). EAP +40%, Europe +30%, AMESA +28%, Americas +25%, India standalone +30%. Sustainable tubes 41% of mix. Management estimates **+130bps of global B&C share** in a year.
+
+**Gross margin (CFO):** reported 56.7%, *"underlying… after excluding the inflationary cost is 60.5%"*. Opex grew faster than revenue by choice: outsourced metallisation and other B&C capabilities, air freight, and **higher inventory *"just to make sure that our OTIFs and customer service remains at a superior level"***.
+
+**Balance sheet — the trigger.** Net debt **₹656cr** (₹581cr at Q1, ₹464cr a year ago). **Nothing on the call points to a working-capital reversal:** inventory was raised on purpose, and H2 capex is guided at the H1 pace. On Screener's TTM operating profit (~₹1,035cr) net debt is ~0.63x *(my arithmetic)* — low in absolute terms. **No analyst asked about net debt or working capital.**
+
+**Guidance:** revenue *"high-teens closer to 20%"* for the next few quarters, revenue not volume; underlying margin 20%+; capex FY27 ₹625–700cr; merger by Q4FY27 subject to NCLT.
+
 ## 5. Connecting the Dots
 
 **Thread A — Beauty & Cosmetics share gain is the growth engine.** 8% share today, 16% targeted. It is higher-margin than oral care, it is where the category growth is, and EPL is under-indexed — the rare combination where the addressable prize is larger than the current business justifies.
@@ -461,6 +491,7 @@ Last quarter an analyst had to raise it (*"I noticed no dividend this time"*), p
 | **12-Aug-2026** *(refresh)* | **₹243** | **HELD at HIGH (Under Watch)** — trigger changed | Q1FY27, machine-transcribed from audio the same week (**EPL confirmed as a held position and moved to Tier 1 of the audio policy**). **Record +25.3% growth; guidance raised to high teens; CCI + eight-country antitrust cleared** — the exact thing the prior refresh flagged as stalled. **But the seven-quarter 20% streak ended** and net debt rose 49%. Watch moved from *merger progress* to *margin and balance sheet*. |
 | **22-Aug-2026** *(this profile)* | **₹266** | **HELD at HIGH (Under Watch)** — trigger unchanged, one item resolved and one added | **+9.5% in ten days; the stock now sits 2.9% below its 52-week high of ₹274**, having been at ₹176 within the year. Converted to always-current format. **🔴 The full merger structure — Indorama Ventures as counterparty, ₹339 swap valuation, IVL at 51.8% as promoter, Blackstone diluted to 16.6%, and NO OPEN OFFER — is incorporated for the first time** (§5A). Promoter holding cross-verified against NSE's filed master. **Watch item #1 answered: the official Q1FY27 transcript has still not filed at 11 days, against a 6-day historical lag.** |
 | **19-Sep-2026** *(filings refresh)* | **₹239** | **HELD at HIGH (Under Watch)** — trigger added | **🔴 Blackstone sold its entire 26.37% on 1-Sep (~₹240.57, ~₹2,032cr); India Ratings put AA+ on Rating Watch Developing (10-Sep); official transcript filed 28-Aug and the machine transcript verified.** Stock −10% since 22-Aug. New trigger: any scheme amendment or promoter-classification statement departing from the 30-Mar-2026 terms. |
+| **18-Nov-2026** *(Q2FY27 Tier-A)* | **₹234** | **HELD at HIGH (Under Watch) — ⚠️ the net-debt trigger fired on its wording; FLAGGED FOR RAJAT, NOT APPLIED** | Q2 revenue +30% (underlying +20%), underlying margin 20.4% (clears the 19.5% trigger), B&C now the largest category. **Net debt ₹656cr against the >₹650cr line, and the call gives no working-capital reversal** — inventory raised on purpose, H2 capex at the H1 pace (FY27 ₹625–700cr). Merger by Q4FY27 subject to NCLT. Europe pushed out 2–3 quarters. Re-priced **≈ +59% at ₹234**, mostly because the price is 12% below the 22-Aug write. |
 
 **The trajectory in one line.** In three weeks the operating story got better and the price got much better — **and the largest single fact about this investment turned out to have been sitting unread in a transcript on disk since March.**
 
@@ -501,9 +532,27 @@ Last quarter an analyst had to raise it (*"I noticed no dividend this time"*), p
 **Why HIGH is retained despite the multiple.** The 12-Aug case still stands: guidance roughly doubled and was extended to EBITDA; the hard regulatory part of the merger cleared; every region grew double digits; full cost inflation was recovered contractually; the promoter overhang is finished and independently verified. **What has changed since is that the price has caught up.** *This is the honest tension in the position:* **conviction in the business is unchanged; the margin of safety is not.** At ₹274 the entry case would be materially weaker than the holding case.
 
 ---
+### 📊 18-Nov-2026 — Q2FY27 scored
+
+**Where it trades (Screener, 18-Nov-2026, intraday):** CMP **₹234** · market cap ₹7,492cr · P/E 18.0x · BV ₹97.8 (P/B 2.4x) · ROCE 17.8% · trailing yield 1.10% (forward zero until the merger). **−12% since the 22-Aug write (₹266).**
+
+**Re-priced on the unchanged per-share scenarios:** base ₹374 → **+60%** · bull ₹504 → **+115%** · bear ₹201 → **−14%**. **Weighted ≈ +59%** *(0.55 × 60 + 0.25 × 115 − 0.20 × 14)*. **The improvement is the price, not the case.**
+
+**Triggers tested:**
+- **Underlying margin below 19.5% at Q2FY27 (Risk 6): NOT FIRED** — 20.4%.
+- **Net debt above ₹650cr with no working-capital reversal at Q2FY27 (Risk 7): ⚠️ FIRED ON ITS WORDING** — ₹656cr, by ₹6cr, and the call offers no reversal.
+- Europe still below mid-teens at Q3FY27 (Risk 8): not yet testable — but management has now said *"another 2 to 3 quarters"*, so it is likely to fire.
+- Scheme amendment or promoter-classification departure from the 30-Mar terms: no such filing; the call reported the process *"advancing as planned"*.
+
+**⚠️ Flagged, not applied — the recommendation for Rajat.** The trigger was written to catch a balance sheet getting worse without explanation. Here the cause is stated, guided and tied to growth: capex at the H1 pace, inventory held for service levels, and pass-through prices inflating receivables, at ~0.63x net debt/EBITDA *(my arithmetic)*. But the trigger asked for a working-capital reversal, and the call gives none; H2 capex points to net debt rising. **Recommendation: hold at HIGH (Under Watch), re-test at Q3FY27, and treat it as fired if Q3 net debt is above ₹750cr or net debt/TTM EBITDA is above 0.8x.** *That number is mine: it allows the guided H2 capex to be roughly funded by operating cash, and no more.* The decision is Rajat's (held position).
+
+**Conviction: HELD at HIGH (Under Watch), pending Rajat's decision on the net-debt trigger.**
+
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — Merger execution: delay, renegotiation, or failure at a regulatory gate.**
+
+> ✅ **TRACKING (18-Nov-2026):** NCLT application filed 23-Oct; CFO expects completion *"by Q4 of this year"*, with Q4 results possibly consolidated, *"dependent on the NCLT approvals"*.
 > **⚠️ ACCUMULATING (19-Sep-2026)** — Blackstone sold its entire stake on 1-Sep and India Ratings placed the AA+ Issuer Rating on Rating Watch with Developing Implications on 10-Sep. Neither is a statement about the scheme, but both arrived while approvals are pending and no filing addresses the joint-promoter arrangement.
 
 > **⤴ UPDATE 21-Oct-2026 — the scheme is moving, not stalled.** BSE and NSE issued observation letters with **no adverse observations** on 19-Oct. Epsilon Bidco asked (16-Oct) to be reclassified from promoter to public and **the Board approved it on 21-Oct**, subject to exchange no-objection; its three nominee directors resigned on 9-Oct. CARE also has the long-term AA+ on Rating Watch (Developing). **Still undisclosed: whether the swap ratio or the post-merger promoter arrangement changed.**
@@ -522,12 +571,18 @@ Last quarter an analyst had to raise it (*"I noticed no dividend this time"*), p
 
 **🆕 Risk 6 — The 20% underlying margin commitment (NEW, replaces the old "margin sustained" assumption — 12-Aug-2026).** Underlying **19.6%** and reported **18.8%** ended a seven-quarter run above 20%, in the same quarter management reaffirmed 20% as the guided level. **The pass-through explanation covers reported-vs-underlying; it does not cover the 40bps below commitment.** **Downgrade trigger: underlying below 19.5% at Q2FY27.**
 
+> ✅ **CLEARED AT Q2FY27 (18-Nov-2026):** underlying 20.4%, reported 18.9%; full cost recovery through price, per the CEO.
+
 **🆕 Risk 7 — Balance sheet and working capital (NEW — 12-Aug-2026).** Net debt **+49% YoY to ₹581cr**; working capital **+₹180cr in one quarter against ~₹170cr for all of FY26**; ROCE −37bps; CWIP doubled; inventory days 151 → 177; FCF ₹439cr → ₹250cr. Explained as deliberate (ahead-of-curve capex, inventory buffering against Middle East disruption, price inflation in receivable values). **Downgrade trigger: net debt above ₹650cr with no working-capital reversal at Q2FY27.**
 
+> ⚠️ **TRIGGER FIRED ON ITS WORDING (18-Nov-2026):** net debt ₹656cr (Q1 ₹581cr); no working-capital reversal on the Q2 call; inventory raised deliberately; H2 capex at the H1 pace (FY27 ₹625–700cr). **Flagged for Rajat, not applied — see §6 (18-Nov) for the Q3 re-test rule recommended.**
+
 **Risk 8 — Europe below its margin target.**
+> ⚠️ **ACCUMULATING — fourth quarter (18-Nov-2026):** Europe +30.4% revenue, EBITDA down. Cause given: Poland printing-site approvals took *"at least 6 to 9 months longer"* than planned, raising outsourcing cost. **New date: *"another 2 to 3 quarters to fully stabilize"*** — past the Q3FY27 trigger date.
 > **⚠️ ACCUMULATING — third consecutive quarter flagged (22-Aug-2026)** — 20.2% revenue growth on a sub-mid-teens margin, with *"identified cost inefficiencies"* and *"very specific cost programs"* in flight. **Management said "coming quarters." Trigger: still below mid-teens at Q3FY27.**
 
 **Risk 9 — The dividend stays suspended, and stops being asked about.**
+> ⚠️ **STILL UNMONITORED (18-Nov-2026):** `dividend` 0 hits on the Q2 call — the second call running with no question on it.
 > **⚠️ MATERIALIZED AND NOW UNMONITORED (22-Aug-2026)** — payout 66% (FY24) → 44% (FY25) → 21% (FY26) → **zero forward until the merger completes.** Term-swept the Q1FY27 transcript: **`dividend` 0 hits, `payout` 0 hits.** Last quarter an analyst had to raise it; this quarter nobody did. **Screener's 0.94% yield describes distributions already made. Any total-return calculation using it is wrong by roughly 2% a year.**
 
 **Risk 10 — Institutional rotation / FII exit.**
@@ -561,6 +616,8 @@ Last quarter an analyst had to raise it (*"I noticed no dividend this time"*), p
 
 ## 9. Community Pulse — 22-Aug-2026
 
+**⤴ 18-Nov-2026:** ValuePickr #35172 — 73 posts, **last 22-Sep-2026**; no reaction to the Q2 print or the NCLT filing. Sentiment unchanged: **MIXED** (operations admired, merger structure distrusted).
+
 **ValuePickr — "EPL - Essential Packaging Company" (topic 35172, 72 posts since 2020, last active 9-Jul-2026).**
 
 > **⤴ CORRECTION TO THE SOURCE APPENDIX.** Every prior version of this profile described the ValuePickr thread as *"Active discussion covering post-Blackstone dynamics + Beauty growth + Indovida rationale."* **It is not active — it has been dormant for six weeks, carries 72 posts in five years, and contains no discussion whatsoever of the Q1FY27 result.** *(This is the sixth profile in this conversion cycle where an "active discussion" claim did not survive checking.)*
@@ -581,6 +638,8 @@ Last quarter an analyst had to raise it (*"I noticed no dividend this time"*), p
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (18-Nov-2026 Tier-A):** results, deck and press release 4-Nov; **official transcript of the 4-Nov call (filed 11-Nov), read in full**; Screener consolidated 18-Nov-2026 (intraday); ValuePickr #35172. Net debt from the deck (4-Nov); net debt/EBITDA is my arithmetic on Screener's TTM operating profit.
 
 - **Concalls read (7):** **Q1FY27 (call 11-Aug-2026 — 🎧 MACHINE TRANSCRIPT, official not yet filed)**, **Q4FY26 merger-announcement call (30-Mar-2026 — the primary source for §5A and the single most informative document in the file)**, Q4FY26 results (14-May-2026), Q3FY26 (Feb-2026), Q2FY26 (Nov-2025), Oct-2025, Q1FY26 (Aug-2025). All in `Fetched Concalls/EPL/`.
 - **Q1FY27 primary documents (all filed 11-Aug-2026, read directly):** Board Meeting Outcome, standalone and consolidated results, press release, investor presentation.

@@ -131,6 +131,8 @@ Amic Forging is a **specialty steel-forgings house serving India's capital-goods
 - **🔴 Reported PBT fell 13% and PAT fell 20%** — because **FY25 carried ₹20.71cr of other income against ₹1.03cr in FY26**
 - **PBT excluding other income — management's own preferred measure — grew 57%** to ₹38.69cr
 - **🟢 Phase 1 (₹150cr) commissioned 15-Jun-2026:** ingot **0 → 48,000 MTPA**, forging **18,000 → 40,000**, machining **8,400 → 33,000**
+
+> ⤴ **CORRECTED 18-Nov-2026 — Phase 1 was NOT commissioned on 15-Jun-2026.** The source was the 30-May-2026 shareholders' letter, which said Phase 1 *"remains on track for commissioning on 15 June 2026"* — a forecast. The 31-Aug write recorded it as delivered on the day; no filing read evidenced that. **The company's own H1FY27 letter (12-Nov) says: *"Phase 1 went live on 18th September, 2026 and after all trial runs and requisite statutory approvals, commercial production has commenced from 12th November, 2026"*** (Reg 30 filed the same day). **So Phase 1 went live ~3 months late and reached commercial production ~5 months late.** The original text is kept above.
 - **🟡 Phase 2 now quantified at ~₹165cr** — a **5,000-tonne open-die hydraulic forging press + 40-tonne manipulator**
 - **🔴 Cash conversion cycle 88 → 184 days · FCF −₹13cr → −₹26cr → −₹54cr · CFO/OP 49%**
 - **🔴 No Chief Financial Officer since 1-Apr-2026**
@@ -339,6 +341,13 @@ From the notes to the consolidated results and the revised auditor's report:
 | **BSE compliance** | ongoing | **🔴 Two exchange queries in three months** — 8-Apr-2026 on a late CFO disclosure the company admitted, and 30-Jun-2026 on discrepancies in the consolidated audit report. **The re-filed report fixed the form; the numbers in it are still wrong** | 🔴 **Downgraded from v2's "minor friction"** |
 | **A permanent CFO** | *"in the process of appointing a suitable candidate"*, 7-Apr-2026 | **No appointment filed in the following five months** | 🔴 **Outstanding** |
 | **Phase 2 — ₹165cr, 5,000-t press** | FY26 shareholders' letter, 30-May-2026 | *"under planning phase"* — no order, no date, no financing plan disclosed | 🕐 Open |
+| *(18-Nov)* ⤴ **Phase 1 on 15-Jun-2026 — re-scored** | 30-May-2026 letter (*"on track for commissioning on 15 June 2026"*) | **Live 18-Sep-2026; commercial production 12-Nov-2026** (H1 letter; Reg 30) | 🔴 **~3 months late to go-live, ~5 to commercial production** — the earlier ✅ was mine, on a forecast |
+| *(18-Nov)* **A permanent CFO** | 7-Apr-2026 | **Ms Nidhi Loharuka appointed CFO, effective 1-Dec-2026** (board, 12-Nov) | ✅ **Filled — eight months after the vacancy** |
+| *(18-Nov)* Phase 1 ramp *"through Q2–Q3 FY27"* | 30-May-2026 | Commercial production only from 12-Nov; now *"more than 80% capacity utilisation by Q4 FY27"* | 🕐 **Re-dated one quarter later** |
+| *(18-Nov)* 🆕 **Phase 1 extension** | First disclosed H1FY27 | 500-t and 800-t presses + CNC, **~₹58cr**; forging 40,000 → **55,000**, machining 33,000 → **43,000** MTPA; *"go live at the start of Q4 FY27"* | 🆕 |
+| *(18-Nov)* **Phase 2 — ₹165cr, 5,000-t press** | 30-May-2026 (*"under planning"*) | Machines **ordered from SMS, Italy (~₹90cr)**, infrastructure ordered, payments from H2FY27; **go-live by Q4 FY28** | 🟢 **Dated and ordered** |
+| *(18-Nov)* "Triple-digit growth over the next few years" | 2026 | **Reiterated** for revenue and profitability; **order book still not disclosed** (*"contractual obligations… strategic business reasons"*) | 🕐 **Undated, unmeasurable** |
+| *(18-Nov)* 🆕 Disclosure format | — | **First written shareholder Q&A** (11 questions) published with the results, in place of a call; it volunteers the debtor and negative-CFO questions | 🟢 **A real improvement** |
 
 **Verdict on management.** ***The operating half of this scorecard is good and the compliance half is not, and the gap between them is the whole story of this refresh.*** **They said the plant would be live on 15 June 2026 and it was; they said margin would re-rate and it did, by 900 basis points; they have never sold a share against a 160–410x paper gain and they put fresh money in at ₹1,211 and ₹1,536.** **Against that: three CFOs in seven months and none now; two exchange queries in three months; a conceded disclosure breach; and an audited financial result that still does not add up after being sent back once.** *A ₹142cr company can run thin on process. A ₹2,260cr market capitalisation building a ₹315cr two-phase plant cannot.*
 
@@ -448,6 +457,8 @@ From the notes to the consolidated results and the revised auditor's report:
 
 **Commissioned 15-Jun-2026**, capex **~₹150cr**. Management: *"With order booking already secured ahead of commissioning, this opens substantial headroom for volume-led growth from FY27."* ⚠️ **No order-book number was disclosed, and there is no call at which to ask for one.**
 
+> ⤴ **CORRECTED 18-Nov-2026:** live 18-Sep-2026, commercial production 12-Nov-2026 (H1 letter; Reg 30). The 15-June date was a forecast — see the correction under §1's capacity bullets.
+
 **Phase 2 — *"under planning phase"*, capex ~₹165cr:** a **5,000-tonne open-die hydraulic forging press with a 40-tonne manipulator**, plus an integrated CNC machining division, heat treatment, material handling, power and utilities, civil foundations and heavy-duty flooring. **Purpose: *"extend our reach into aerospace, nuclear, advanced defence, and heavy oil & gas."*** ⚠️ **No timeline, no board approval, no financing plan on the record. On the pattern of the last two years, the financing is most likely another preferential issue.**
 
 **Management's stated FY27 priorities**, in their order: Phase 1 ramp-up *"through Q2–Q3 FY27"*; product and industry approvals in *"defence, aerospace and export OEMs"*; **building *"a more institutionalised and professionally managed operating structure"***; product-mix improvement; **working-capital discipline**; and Phase 2 readiness.
@@ -455,6 +466,30 @@ From the notes to the consolidated results and the revised auditor's report:
 > 🟡 **Note the third and fifth of those.** **A company that has just lost three CFOs and doubled its cash cycle listing "institutionalising the operating structure" and "working-capital discipline" among six FY27 priorities is, on the most natural reading, acknowledging both problems.** *That is to their credit as disclosure. It is also the clearest confirmation that the problems are real.*
 
 ---
+### 🆕 H1FY27 Refresh — Full Numbers Print *(18-Nov-2026; results, statements, letter to shareholders and Reg 30 filed 12-Nov; monitoring-agency report 14-Nov. **No earnings call — AMIC has never held one.** Statements rendered and read off the page images; the text layer misreads several figures, e.g. H1FY26 revenue as 6,558.04 for 6,658.04)*
+
+| ₹ lakh (standalone) | H1FY27 | H1FY26 | YoY | FY26 |
+|---|---|---|---|---|
+| Revenue from operations | **9,779.38** | 6,658.04 | **+46.9%** | 14,178.48 |
+| Cost of materials (net of inventory change) | 5,611.52 (57.4%) | 3,848.39 (57.8%) | | |
+| Employee cost | 446.25 | 184.53 | **+142%** | 505.18 |
+| EBITDA ex other income (company) | **2,633.53 (26.93%)** | 1,822.85 (27.4%) | **+44.5%** | |
+| Depreciation | 167.75 | 177.84 | −6% | 359.17 |
+| PAT | **1,895.94** | 1,240.10 | **+52.9%** | 2,827.71 |
+| Consolidated PAT (owners) | 1,911.87 | 1,236.80 | +54.6% | 2,827.16 |
+
+**Halves (Screener):** revenue ₹67cr (H1FY26) → ₹75cr (H2FY26) → **₹98cr**; OPM 27% → 33% → **27%**. **The margin gave back the whole H2FY26 gain**, with employee cost up 142% ahead of the plant (company: *"front-loading its investment in talent"*).
+
+**🔴 One more number that does not tie.** The letter to shareholders headlines **PAT ₹1,926.06 lakh, +55.3%**. **The filed results show ₹1,895.94 lakh standalone (+52.9%) and ₹1,911.87 lakh consolidated (+54.6%).** Revenue (₹9,779.38 lakh, +46.9%) and EBITDA (₹2,633.53 lakh, +44.5%) do tie. *I cannot find which line produces ₹1,926.06; it is a ₹0.3cr difference, but this company's audited FY26 results also carried an arithmetic error (§3.5).*
+
+**Balance sheet (30-Sep-2026, rendered):** net worth ₹279.5cr + **₹56.7cr warrant money**; **borrowings nil** (₹5.6cr at March); **cash ₹40.3cr** (₹36.7cr in FDs); **trade receivables ₹87.3cr** (₹53.0cr at March, ₹38.4cr a year ago); inventories ₹32.3cr; CWIP ₹104.7cr (₹62.5cr at March); long-term advances ₹47.3cr (Phase 1 extension). Total assets ₹397cr vs ₹199cr a year ago.
+
+**Cash flow H1 (rendered):** operating profit before WC ₹26.3cr; **receivables −₹34.3cr**, other current assets −₹13.0cr, other non-current −₹8.8cr → **operating cash −₹16.9cr** (H1FY26 −₹2.3cr). Capex ₹50.1cr → **free cash flow ≈ −₹67cr** *(my arithmetic)*. Funded by **₹91.3cr of securities premium and ₹12.8cr of warrant money** from the preferential programme.
+
+**Receivable days ≈ 163** on annualised H1 sales *(my arithmetic; the company notes debtors include GST)*. **The company's explanation:** a 90-day cycle, and machining sales added in the last three months of the half, so *"the current debtors-to-sales ratio is a one-off"*.
+
+**Preferential issue (CRISIL monitoring report, quarter to 30-Sep):** issue size **₹220.99cr** (₹216.99cr warrants at ₹1,525 + ₹4.00cr equity); *"Deviation from the objects: Not applicable"*.
+
 ## 5. Connecting the Dots
 
 **Thread A — 🟢 The margin transformation is real, and it is not an accounting artefact.** **OPM 3.1% → 12% → 13% → 23% → 30%, with H2FY26 at 33%** — achieved while absorbing a **197% increase in employee cost.** *Mix shift into finished, machined parts is doing exactly what management said it would.*
@@ -484,6 +519,7 @@ From the notes to the consolidated results and the revised auditor's report:
 | **26-Aug-2026** *(explainer)* | — | MEDIUM | **AMIC industry explainer built and shipped**, then rebuilt after a scoping error: the first version's centrepiece was a five-station map placing all eight Sector-3 names, which is Shared Sector Analysis content inside a single-stock page. **Rajat's correction — *"We spoke about just analyzing AMIC itself altogether"* — is now a standing rule in CLAUDE.md §1.** Replaced with four AMIC-specific figures. |
 | **31-Aug-2026** *(this profile)* | **₹1,957** | **MEDIUM → MEDIUM-LOW** | Converted to always-current format on a **57-filing BSE sweep, 20 documents read in full.** **🟢 Phase 1 commissioned on the promised day, 15-Jun-2026 — ingot 0→48,000 MTPA, forging 18,000→40,000, machining 8,400→33,000.** **🟢 FY26 EBITDA +53%, margin +900bps to 30%, H2 at 33%, all while employee cost rose 197%.** **🔴 But reported PAT fell 20% and PBT 13% on the FY25 other-income base.** **🔴 THREE CFOs IN SEVEN MONTHS AND NO CFO SINCE 1-APR-2026.** **🔴 TWO BSE QUERIES IN THREE MONTHS — a conceded late-disclosure breach, and discrepancies in the consolidated audit report.** **🔴 THE REVISED AUDITED RESULTS STILL CONTAIN AN ARITHMETIC ERROR** on the half-year PAT and EPS lines, verified by rendering both filings. **🔴 Cash conversion cycle 88 → 184 days; FCF −₹54cr, third negative year.** **🟡 ~₹151cr raised across four preferential tranches; share count +10.4%.** **🟡 Phase 2 quantified at ₹165cr — a 5,000-tonne press.** ⤴ **Corrected v2's "+18%" FY26 growth to +17%, upgraded "minor friction" to a two-query compliance finding, and corrected the dashboard card's "Ranchi plant" — the word "Ranchi" appears zero times in the RHP or the FY25 annual report, while "Baidyabati" appears 12 and 6 times. The factory is at Mahavir Complex, Baidyabati, Hooghly, West Bengal.** |
 | **19-Sep-2026** *(filings refresh)* | **₹2,289** | **HELD at MEDIUM-LOW** | **FY26 annual report read: related-party balances unchanged (Dakor ₹4.65cr; Mackeil ₹2.04cr, interest down 78%); promoter remuneration ₹180 lakh each vs ₹36 lakh; CFO still vacant. Stock +17% to 87x.** |
+| **18-Nov-2026** *(H1FY27 Tier-A, on filings — no call exists)* | **₹2,361** | **HELD at MEDIUM-LOW** | H1 revenue ₹97.8cr (+47%), EBITDA margin 26.9% (27.3%), PAT +53%. **CFO appointed (1-Dec)** — the first downgrade trigger did not fire. H1 revenue cleared the ₹95cr floor by ₹2.8cr. **Operating cash −₹16.9cr and FCF ≈ −₹67cr** on a ₹34cr receivables build. **⤴ Phase 1 was live 18-Sep and commercial 12-Nov, not 15-Jun as this profile said.** Phase 2 ordered (SMS Italy, ~₹90cr), live Q4FY28. Re-priced **≈ −21%** at ₹2,361 (+21% since 31-Aug). |
 
 **The trajectory in one line.** ***v2 got the business right and the governance benefit-of-the-doubt wrong; ten weeks later the plant has been delivered exactly as promised and the back office has fallen apart, and the share price has gone up 10.5% while earnings fell 20%.***
 
@@ -565,6 +601,13 @@ From the notes to the consolidated results and the revised auditor's report:
 | **A further preferential issue priced below the last (₹1,525)** | Four tranches in 21 months |
 
 **🟢 Upgrade triggers back to MEDIUM, and to MH beyond that:**
+
+> **📊 18-Nov-2026 — H1FY27 scored.**
+> **Downgrade triggers (ML → SPECULATIVE):** no CFO by H1 — **NOT FIRED** (Nidhi Loharuka from 1-Dec) · third BSE query — **none seen** · H1 revenue < ~₹95cr — **NOT FIRED, narrowly** (₹97.8cr) · CCC > 184 days or a fourth negative FCF year — **on course to fire**: H1 FCF ≈ −₹67cr with Phase 2 payments starting in H2; receivable days ≈ 163, CCC ≈ 180 *(my arithmetic, approximate)*; the year is not over · preferential issue below ₹1,525 — none.
+> **Upgrade triggers:** CFO ✅ · H1 revenue > ₹110cr ❌ (₹97.8cr) · margin > 28% ❌ (26.9%) · CCC < 120 days ❌ · defence/aerospace qualification ❌. **Not met.**
+> **Where it trades (Screener, 18-Nov-2026, intraday):** CMP **₹2,361** · market cap ₹2,727cr · P/E 78.2x · BV ₹291 (8.1x) · 52-week ₹1,065–2,605.
+> **Re-priced per share on the unchanged scenarios** (base EPS ₹41 × 42 = ₹1,722; bull ₹53 × 60 = ₹3,180; bear ₹21.5 × 25 = ₹537): **base −27% · bull +35% · bear −77%. Weighted ≈ −21%** *(0.55 × −27 + 0.25 × 35 − 0.20 × 77)*. **The price has run 21% since 31-Aug while the plant arrived later than the profile thought.**
+> **Conviction: HELD at MEDIUM-LOW.** For a held position the negative weighted return is the point to note: it comes from the multiple, not from anything new that went wrong in H1.
 **A permanent CFO appointed; H1FY27 revenue above ₹110cr with margin held above 28%; the cash cycle back below 120 days; and a first disclosed defence or aerospace qualification.** ***That combination would mean the plant is working and the back office has caught up — which is precisely the two-part condition this stock now needs to meet.***
 
 ---
@@ -573,15 +616,22 @@ From the notes to the consolidated results and the revised auditor's report:
 **Risk 1 — 🔴 The multiple.** **79.9x on earnings that fell 20%, 9.9x book, zero dividend, on BSE-SME.** A de-rate to Happy Forgings' 66.5x on unchanged FY26 earnings is **−17% with nothing having happened.** **A de-rate to M M Forgings' 27x is −66%.**
 
 **Risk 2 — 🔴 Phase 1 ramp risk, which is the whole thesis.** **Machining capacity is up 3.9x and ingot goes from zero to 48,000 MTPA.** ⚠️ **Melting steel is a different manufacturing discipline from forging it** — new yield curves, new energy management, new quality control, new working capital. **Management has never operated a melt shop.** *No order book, no ramp guidance and no utilisation target has been disclosed, and there is no call at which to ask.*
+
+> ⚠️ **LATER THAN THOUGHT (18-Nov-2026):** commercial production from 12-Nov-2026, not 15-Jun; utilisation guided above 80% by Q4FY27; an extension (+15,000 t forging, +10,000 t machining, ~₹58cr) lands at the start of Q4. **FY27 revenue ₹200cr (the v2 test) needs H2 ≈ ₹102cr against H1 ₹97.8cr** *(my arithmetic)* — reachable, but only if the new plant contributes in its first five months.
 **⚠️ ACCUMULATING:** **~₹15cr of new annual depreciation lands in FY27 whether the revenue arrives or not.**
 **v2 set the test and it still stands: *"If FY27 revenue does not cross ₹200 Cr, the 72x multiple deflates fast."*** *At 79.9x, that threshold has only got more demanding — and utilisation of a greenfield line typically takes 4–6 quarters.*
 
 **Risk 3 — 🔴 Working capital and cash.** **CCC 88 → 184 days; debtor days 136; FCF −₹54cr.** *A capacity doubling normally consumes more working capital, not less — and the cycle was already at 184 days before the new plant shipped a single tonne.*
+> ⚠️ **MATERIALISED AGAIN (H1FY27):** receivables ₹53cr → ₹87cr in six months; operating cash −₹16.9cr; FCF ≈ −₹67cr *(my arithmetic)*. The company calls the debtor ratio a one-off from late-half machining sales.
 **⚠️ MATERIALISED, and worsening each year for three years.**
 
 **Risk 4 — 🔴 The finance function.** **No CFO since 1-Apr-2026. Three in seven months.** **Two BSE queries in three months. An arithmetic error in the audited results that survived a re-filing. A subsidiary consolidated on unaudited numbers.** *This is the risk that has moved most since v2, and it is why the conviction moved.*
 
+> ✅ **PARTLY RESOLVED (12-Nov-2026):** Ms Nidhi Loharuka appointed CFO from 1-Dec-2026. **Still open:** the H1 letter's PAT (₹1,926.06 lakh) does not match either filed PAT figure.
+
 **Risk 5 — 🔴 Further dilution is close to certain.** **Phase 2 is ~₹165cr against ₹9.85cr of annual operating cash flow and ₹6cr of borrowings.** **Four preferential issues in 21 months; authorised capital already lifted ₹12cr → ₹15cr with 30 lakh new shares created — of which only ~8.3 lakh have been used.** ***The headroom for roughly another 21 lakh shares — an 18% dilution — is already approved and sitting there.***
+
+> ⚠️ **FUNDED FOR NOW (H1FY27):** ₹220.99cr preferential programme (warrants at ₹1,525); ₹91.3cr of premium came in during H1; Phase 2 machines (~₹90cr) and the Phase 1 extension (~₹58cr) are being paid for from it. No new issue announced.
 
 **Risk 6 — 🔴 The margin has never been tested at volume.** **30% OPM was earned on 18,000 MT of forging at near-full utilisation, choosing work.** **Filling 40,000 MT of forging and 33,000 MT of machining means accepting orders the smaller book could decline.** *Management's own bull case is a *richer* mix at higher volume; the historical pattern in forging is the opposite.*
 
@@ -594,6 +644,8 @@ From the notes to the consolidated results and the revised auditor's report:
 **Risk 10 — 🟡 Key-man concentration.** Girdhari Lal Chamaria as MD and Anshul Chamaria as WTD are the executive team. **The two directors added since Sep-2025 are both Non-Executive Non-Independent.** *The company's own FY27 priority list includes building "a more institutionalised and professionally managed operating structure" — which is the right answer to the right question, unstarted.*
 
 **Risk 11 — 🟢 TRACKING WELL.** v2's central execution risk was **Phase 1 slipping. It did not — it commissioned on 15 June 2026, the exact date committed to in the FY25 annual report and reiterated in May 2026.** *On the single hardest, most public, most dated commitment this management has made, they delivered. That deserves saying as plainly as the failures.*
+
+> ⤴ **CORRECTED 18-Nov-2026 — this risk was scored on a forecast.** Phase 1 went live 18-Sep-2026 and reached commercial production 12-Nov-2026 (company's H1 letter; Reg 30). The 15-June date was the May letter's *"on track for"*, not a completion. **Downgraded from TRACKING WELL to 🟡 DELIVERED LATE.**
 
 **⚠️ v2 risks re-assessed:** *"FY25 revenue declined −3.8%"* — **resolved: FY26 grew 17% and H2 grew 30%.** *"SME multiple compression"* — **not materialised; it went the other way, 72x → 79.9x.** *"Customer cyclicality"* — **not materialised; margin expanded.** *"72x prices in flawless execution + 75% warrant conversion"* — **the warrants converted in full on 20-Apr-2026; that risk is closed, and the multiple went higher anyway.**
 
@@ -617,6 +669,8 @@ From the notes to the consolidated results and the revised auditor's report:
 
 ## 9. Community Pulse
 
+**⤴ 18-Nov-2026:** ValuePickr #125660 — still 9 posts, last 28-Feb-2025. **No discussion of the H1 print, the CFO appointment or Phase 2.** Sentiment: none to read.
+
 **ValuePickr — "Amic forging limited - sme", topic 125660. Nine posts. Last activity 28-Feb-2025 — eighteen months dormant.** ***For a stock that has doubled its capacity, raised ₹151cr and gone to ₹2,260cr, that silence is itself the finding: nobody is watching this name.***
 
 - **#8, rahul3435, 14-Dec-2024 🟢 — the most substantive post on the thread, sharing Nuvama's initiation.** Key takeaways as posted: *"The company specialises in customised forging products… Given the high level of customisation, **there is no direct competitor to AMIC and no new player is expected to enter in the near term**. Previously, these customised products (~90% of domestic demand) were **met by production in Ukraine and Europe**."* **This is the clearest independent statement of the moat and the import-substitution thesis on the public record.**
@@ -632,6 +686,8 @@ From the notes to the consolidated results and the revised auditor's report:
 ---
 
 ## Source Appendix
+
+- **🆕 H1FY27 (18-Nov-2026 Tier-A, filings only — no call exists):** board outcome with standalone and consolidated results, balance sheet and cash flow (12-Nov; **pages rendered and read off the image**); Letter to Shareholders and Results (12-Nov, 11-question Q&A); Reg 30 commencement of commercial production (12-Nov); CRISIL monitoring-agency report (14-Nov); 30-May-2026 shareholders' letter re-read for the Phase 1 wording; Screener 18-Nov-2026 (intraday); ValuePickr #125660.
 
 - **🔴 No concalls exist.** Amic holds no earnings call and publishes no transcript. It reports **half-yearly** under BSE-SME rules. **Gate: 🟡 PARTIAL by structural limitation, not fetch failure** — the same finding as MONARCH, NITTA and KOLTE.
 - **BSE announcements feed (544037), enumerated in full for this refresh:** **57 filings from 16-Sep-2025 to 16-Jul-2026** across three pages of `AnnSubCategoryGetData` (the third empty). **`SLONGNAME` echoed back as "Amic Forging Ltd" on every row**, per §4A. **20 documents downloaded via `AttachLive`, `%PDF` verified, duplicates removed by md5, and text-extracted**, including:

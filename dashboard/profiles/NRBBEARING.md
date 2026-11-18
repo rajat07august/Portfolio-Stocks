@@ -1,7 +1,7 @@
 # NRB Bearings Limited (NRBBEARING) — Company Profile
 
 **Ticker:** NRBBEARING · NSE: NRBBEARING · BSE: 530367
-**Sector:** 3 — Auto Components & Forgings · **Conviction:** **Medium (Under Watch)**
+**Sector:** 3 — Auto Components & Forgings · **Conviction:** **Medium** *(Under Watch lifted 18-Nov-2026: the June promoter decline was a disclosed sale by the Trilochan Singh Sahney Trust — the trigger required an inadequately disclosed one)* · was **Medium (Under Watch)**
 **Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 18-Aug-2026)* · **Tracking since:** 18-Aug-2026
 
 **CMP ₹484** · **Market cap ₹4,695 cr** · **P/E 31.4x** · **P/B 4.87x** (book ₹99.3) · **ROCE 18.4%** · **ROE 15.6%** · **Div yield 1.64%** · Face value ₹2 · Mumbai
@@ -303,6 +303,13 @@ But the level was extraordinarily high, it went almost entirely undiscussed acro
 | FY31 revenue **₹2,500cr** | Q2FY26, Q3FY26, Q4FY26 | **Raised to ₹2,730cr, aspiration ₹3,000cr** | 🆕 **Raised — see caution below** |
 | Lifetime nominated business | Q2FY26 → Q1FY27 | **₹600cr → ₹800cr → ₹1,100cr** | ✅ **Compounding fast** |
 | Industrial to 20-25% of revenue | Q2FY26 | **11% → 14%**, growing 34% | 🕐 On track |
+| *(18-Nov)* **Revenue growth ~15% a year** | FY26–Q1FY27 | H1 **+19%**, Q2 +18.8%; *"It has already moved to 19%. Will it move beyond 19%? Yes."* | ✅ **Raised by delivery** |
+| *(18-Nov)* EBITDA 17–18% of sales | Q1FY27 | Q2 adjusted EBITDA **₹71cr (18.2%)**; Screener ex-OI 17% | ✅ |
+| *(18-Nov)* Industrial **+34%** | Q1FY27 | **+48%** (MD) | ✅ **Beaten** |
+| *(18-Nov)* Exports back to growth | Q1FY27 | **+16%**, *"euro for euro and dollar for dollar"* | ✅ |
+| *(18-Nov)* Unitec JV, April 2027 | Q1FY27 | *"We are on track"*; no revenue breakup | 🕐 |
+| *(18-Nov)* MTR: ₹300cr by FY31 | Q1FY27 | **Q2 sales ₹55 lakh**; toward ~₹1cr a quarter in 9–12 months; *"The growth will really come in year four and year five"* | 🟡 **Back-ended** |
+| *(18-Nov)* **The June promoter decline — "resolved at the Q2 call"** | 18-Aug profile | **Not raised on the call.** Resolved instead from NSE's SAST feed and holder-level XBRL (§4B rule): **a disclosed sale by the Trilochan Singh Sahney Trust 1** — 4.51% block on 8-Jun (filed 12-Jun) plus open-market sales in May (filed 19-May onward) | ✅ **Answered — and it was a sale** |
 
 ### 🟡 Three disclosure inconsistencies worth recording
 
@@ -419,6 +426,24 @@ Other expenses jumped ~₹10cr QoQ; management attributed it to *"cost escalatio
 
 ---
 
+### 🆕 Q2FY27 Refresh — Full Numbers Print *(18-Nov-2026; results 4-Nov, call 5-Nov, official transcript filed 12-Nov and read in full; consolidated)*
+
+| ₹cr (consolidated) | Q2FY27 | Q2FY26 | YoY | Q1FY27 | H1FY27 |
+|---|---|---|---|---|---|
+| Revenue | **386** | 325 | **+18.8%** | 370 | 756 (+19%) |
+| Adjusted EBITDA (company) | **71 (18.2%)** | | | | |
+| Operating profit ex OI (Screener) | 67 (17%) | 54 (16%) | +24% | 64 | |
+| Depreciation | 20 | 13 | **+54%** | 18 | |
+| PAT | **36** | 41 | **−12%** | 38 | 74 |
+
+**Five quarters (Screener):** revenue 325 → 328 → 372 → 370 → **386**; OPM 16% → 18% → 18% → 17% → **17%**. **PAT falls while revenue rises because depreciation is up 54% on the capex** — the MD: *"Please keep in mind that you should stop looking at our profit after tax."*
+
+**Segments (call):** CV **+47%**; industrial **+48%**; exports **+16%** in constant currency; aftermarket 9–12%. No customer above 10% of sales. Receivables: DSO *"at the same level"*. Other expenses +19% (power, fuel, logistics).
+
+**🔴 The promoter question, answered from the filings rather than the call.** Holder-level shareholding XBRL (NSE), Mar → Jun → Sep 2026: **Trilochan Singh Sahney Trust 1: 67,85,123 → 5,11,175 → 11,175 shares.** The Mar → Jun fall of **62,73,948 shares equals the promoter group's entire 6.47pp decline** (4.96cr → 4.34cr promoter shares). In the same quarter four holders appear above 1%: Arohi Emerging India Master Fund 16.1 lakh, Iroha Emerging India Fund-I 15.7 lakh, Chetan Jayantilal Shah 12.5 lakh, MAP Institutional LLC 11.9 lakh *(that they bought the Trust's shares is my inference — the timing and sizes fit)*. **NSE's SAST feed carries the Trust's Reg 29(2) sale disclosures:** **43,70,000 shares (4.51%) on 8-Jun-2026** (filed 12-Jun), 3,55,208 (21–22 May) and 48,378 (25–27 May) on the market. *About 1.5pp of the June decline does not tie to a single disclosure row — the feed's "shares after" fields are internally inconsistent — so that residue is stated rather than resolved.* September quarter: promoter 43.88% (−0.85pp), matching the disclosed Trust (5 lakh, 11-Sep) and MD (3.2 lakh, 11–30 Sep) sales.
+
+**Guidance:** growth "beyond 19%"; EBITDA held at 17–18%; capacity additions every six months; Unitec JV April 2027.
+
 ## 5. Connecting the Dots
 
 **The core insight: NRB has spent a decade unable to grow, for reasons that were mostly identifiable and are now mostly resolved.**
@@ -456,8 +481,11 @@ Three things held it down:
 |---|---|---|---|---|
 | **18-Aug-2026** | **Medium (Under Watch)** | **₹484** | **~+20%** *(bear −53%)* | **Initiated.** A genuine EV-agnostic franchise with >90% of Indian vehicles on its bearings and a lifetime nominated book compounding ₹600 → ₹1,100cr in nine months — **against a 6.47pp fall in promoter holding that nobody has explained, a pledge that ran to 78% of the promoter stake, and a screen showing +77% PAT growth that is really ~+15%** |
 | **19-Sep-2026** *(filings refresh)* | **HELD at Medium (Under Watch)** — trigger not fired | **₹526** | *(~+20% at ₹484; lower at ₹526)* | **Pledge cut a further 2.37% (30,00,254 shares, 3.10% still pledged vs 39.80% in March); two promoter-group holders sold 5.1 lakh shares on 11-Sep, adequately disclosed; June-quarter holding fall still unexplained; NSE volume spurt 18-Sep; stock +8.7%.** |
+| **18-Nov-2026** *(Q2FY27 Tier-A)* | **HELD at Medium — Under Watch LIFTED** | **₹423** | **≈ +38%** *(re-priced)* | **The promoter question is answered: the June fall was a disclosed sale by the Trilochan Singh Sahney Trust** (4.51% block on 8-Jun, filed 12-Jun; May market sales), visible on NSE's SAST feed since May–June. **⤴ This profile's 18-Aug statement that no Reg 29(2) sale disclosure existed was wrong — the SAST feed was not checked (§4B rule added 15-Oct).** The trigger needed an *inadequately disclosed* sale, so it did not fire. Operations strong: revenue +19%, industrial +48%, exports +16%. **But promoter holding is 43.88%, down 7.3pp in 2026, and Risk 1 said a sale breaks the control narrative.** |
 
 **🎯 The Under Watch trigger, specified:** **if the 6.47pp promoter decline proves to be an inadequately disclosed sale, downgrade M → ML regardless of operating performance.** Resolution expected at the **FY26 Annual Report** or the **Q2FY27 call (~Nov-2026)**.
+
+> **⤴ RESOLVED 18-Nov-2026 — NOT FIRED, BECAUSE THE SALE WAS DISCLOSED.** Holder-level XBRL ties the whole 6.47pp to the Trilochan Singh Sahney Trust 1, and NSE's SAST feed carries its Reg 29(2) sale filings (4.51% on 8-Jun; smaller May sales). **The 18-Aug write said no Reg 29(2) sale disclosure existed; that was wrong — it had looked at the announcements feed, which does not carry SAST filings (the ACCENT lesson, §4B).** Under Watch lifted. **Where it trades (Screener, 18-Nov-2026, intraday):** CMP **₹423** · market cap ₹4,096cr · P/E 28.4x · yield 1.85% · 52-week ₹213–560. **Re-priced on the unchanged scenarios:** base ₹5,400cr → **+32%** · bull ₹8,892cr → **+117%** · bear ₹2,214cr → **−46%** → **weighted ≈ +38%**, plus ~1.9% yield. **Held at MEDIUM** — the operating case improved, the governance case did not: the promoter group sold ~7.3% of the company in 2026 and sits at 43.88%.
 
 > **⤴ UPDATE 21-Oct-2026:** the MD sold **3,10,677 shares (0.32%) on the market between 18 and 30-Sep**, disclosed under Reg 29(2) on NSE's SAST feed (29-Sep, 1-Oct, 8-Oct). Disclosed, so the trigger as written is not met — **but with the trust's 11-Sep sale the promoter group has sold ~0.84% in three weeks, and the June-quarter fall is still unexplained.** The 17-Jun Reg 29(2) filings are pledge releases and do not explain it either.
 
@@ -572,7 +600,9 @@ FY28 revenue ~₹1,450cr, PAT margin 8.5% → **PAT ~₹123cr** at **18x** → *
 ## 7. What Could Prove Us Wrong
 
 1. **🔴 The unexplained 6.47pp promoter holding decline.** Verified against two independent sources; explained by neither the filings nor the earnings call. If it turns out to be a promoter sale, the "total control, over 50%" narrative is broken and the multiple should compress. **The single most important unknown on this stock.**
+   > ⤴ **EXPLAINED 18-Nov-2026 — a disclosed promoter-trust sale** (see §4 Q2FY27 and §5.5). **By this risk's own words, the "total control, over 50%" narrative is now broken:** promoter 51.20% → 44.73% → 43.88%. The Trust holds 11,175 shares — it has effectively exited.
 2. **🔴 Residual pledge.** Down from 39.80% of share capital, but ~35% likely remains. Pledged promoter stakes amplify every other risk.
+   > ✅ **LARGELY RESOLVED (Sep-2026):** pledge cut to 3.10% of capital (16-Sep release); no new pledge seen in the PIT/SAST feeds through November.
 3. **🔴 The 7% decade.** If the fire and the family dispute were excuses rather than causes, NRB reverts to a single-digit grower and 31.4x is far too rich.
 4. **🔴 The screen is flattering.** Headline FY26 PAT +77% is a base effect; the underlying number is ~+15%. Anyone screening on profit growth is being misled until FY27 laps it.
 5. **🟡 Inventory at 302 days.** If it rebuilds, FY26's ₹241cr CFO was a one-off working-capital release, not a new run-rate.
@@ -606,6 +636,7 @@ But two things stop this being a buy at ₹484: **the headline +77% profit growt
 ## 9. 📢 Community Pulse
 
 *Refreshed each review cycle. **Partial scan at initiation, 18-Aug-2026.***
+**⤴ 18-Nov-2026:** on the Q2 call, nobody asked about the promoter sale; questions were on growth, Unitec, MTR and leadership. ValuePickr #106674 — 53 posts, **last 12-Aug-2026**; nothing on the promoter-trust sale, which had been on NSE's SAST feed since June. **Sentiment (call queue): MIXED-BULLISH; the community is silent.**
 
 **ValuePickr — one substantive contribution, and it independently corroborates a disclosure concern found in the filings.**
 
@@ -621,6 +652,8 @@ But two things stop this being a buy at ₹484: **the headline +77% profit growt
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (18-Nov-2026 Tier-A):** results 4-Nov; **official transcript of the 5-Nov call (filed 12-Nov), read in full**; **NSE shareholding-pattern XBRL for 31-Mar, 30-Jun and 30-Sep-2026 (holder-level diff)**; **NSE SAST (Reg 29) and PIT (Reg 7) feeds**; ValuePickr #106674; Screener consolidated 18-Nov-2026 (intraday).
 
 - **Concalls read (4 transcripts — gate 🟡 AMBER against the 6-call standard):** **Q1FY27 (10-Aug-2026, REVISED version, read in full)**, Q4FY26 (11-May-2026, read in full), Q3FY26 (Feb-2026), Q2FY26 (12-Nov-2025, read in full). All moderated by **Diwakar Pingle, Ernst & Young**. **NRB has published transcripts only from Q2FY26 onward** — verified against Screener, BSE announcements and the NSE announcements API; no earlier transcripts exist to fetch. Fetched to `Fetched Concalls/NRBBEARING/` on 18-Aug-2026.
 - **Investor decks:** Nov-2025, Jun-2025, Mar-2025 (3 files, partially offsetting the missing transcripts).

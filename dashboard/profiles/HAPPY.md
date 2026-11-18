@@ -1,7 +1,7 @@
 # Happy Forgings — Company Profile
 
 **Ticker:** HAPPY · **NSE:** HAPPYFORGE · **BSE:** 544057 · **ISIN:** INE330T01021 · **Sector:** Auto Components & Forgings (Sector 3)
-**Conviction:** **MEDIUM-HIGH → MEDIUM** — **downgraded 22-Aug-2026, on valuation alone. The execution remains the best on this watchlist.**
+**Conviction:** **⤴ MEDIUM → MEDIUM-HIGH** *(18-Nov-2026: the upgrade trigger was met — P/E 47.7x, inside the ≤50x line, with no deterioration in delivery)* · was **MEDIUM-HIGH → MEDIUM** — **downgraded 22-Aug-2026, on valuation alone. The execution remains the best on this watchlist.**
 **Thesis date:** 22-Aug-2026 · **CMP ₹2,212** (Screener, 22-Aug-2026) · **Market cap ₹20,875 cr**
 
 **Concall Fetch Gate: ✅ GREEN — 6 transcripts.** Q1FY27 (call 5-Aug-2026, transcript filed 11-Aug-2026), Q4FY26 (May-2026), Q3FY26 (Feb-2026), Q2FY26 (Nov-2025), Q1FY26 (Aug-2025), Q4FY25 (May-2025). Folder: `Fetched Concalls/HAPPYFORGE/`. **Announcement sweep 8-Aug to 22-Aug returned two records — the transcript and an investor-meet schedule. Nothing material missed.**
@@ -246,6 +246,13 @@ The economics turn on two things. **First, tonnage capability:** very few Indian
 | **🆕 Heavy range 250 kg – 3 tonnes** | Q1FY27 | *"the capex is on stream. That will also start contributing from third or fourth quarter of next financial year… meaningfully from **FY29** onwards"* | 🕐 **FY29, confirmed again** |
 | **🆕 Solar timing, pinned down** | Q1FY27 | *"hopeful that the project will be on stream from **January** onwards, and a large part of the capex is already done… all the clearances have been obtained. Just some work on **ROW, right of way**, is going on"* | 🕐 **One dependency named** |
 | **🟢 🆕 M&A discipline** | Q1FY27 | Open to inorganic in **energy and aerospace** where approvals take years — but on the core: *"on the farm, CV, and other areas, we are already there. And plus, **the valuations are very expensive, which would be a drain on the return on capital employed. So we are being little cautious**"* | ✅ **A real signal** |
+| *(18-Nov)* **FY27 volume guidance (high teens)** | FY26 | H1 finished-goods volume **+24%**, Q2 +24.8%; *"well-positioned to meet our full-year volume growth guidance"* | ✅ **Beating** |
+| *(18-Nov)* **Margin ~31% / FY27 similar to FY26** | Q1FY27 | Q2 EBITDA **30.6%**, H1 30.9%; EBITDA per kg up despite cost inflation; FY27 margins *"roughly similar to FY2026"* | ✅ |
+| *(18-Nov)* **Heavy line: contributes from Q3–Q4 FY28** | Q1FY27 | Equipment arrived; cold trials Jan–Feb, hot trials March; revenue from Q3–Q4 FY28 — *"This is the same since beginning"* | ✅ **On the stated clock** |
+| *(18-Nov)* Data-centre / heavy-engine orders | Q1FY27 | **₹300cr a year secured to 2033** (customer co-invested); ~₹1,000cr in discussion, **~₹500cr expected by March** | ✅ **First hard number** |
+| *(18-Nov)* Solar on stream from January | Q1FY27 | Generation in Q4FY27, full from Q1FY28; ~₹30cr a year of power saving (~1.5% of EBITDA) | 🕐 **On time** |
+| *(18-Nov)* 🆕 Capex ₹500cr more | Q2 board | Machining-led (70%), FY28–FY29; up to ₹300cr of debt sanctioned; capacity to ~2,17,000 t forging / 1,16,000 t machining | 🆕 |
+| *(18-Nov)* 🆕 **Minimum public shareholding** | — | Promoter dilution to meet SEBI's floor is pending; an analyst put the deadline ~1–1.5 months away. *"it will comply as per the SEBI requirements… within the time frames"* | 🆕 🔴 **A supply event is close** |
 
 **Verdict on management.** ***This team says a number and then beats it, which is rarer than it sounds and is the whole reason the stock trades where it does.*** Volume growth guided at late-teens came in at **23.1%**; margin guided *"in line with FY26"* came in **80bps above**; the 4,000-ton press guided for H1FY27 was commissioned in Q1; the OEM price revision management said it was negotiating was signed. **The FY21–FY26 record is the same story compounded — volumes 1.8x, revenue 2.6x, EBITDA 3x, PAT 3.5x — funded almost entirely from internal cash, with ICRA AA reaffirmed.**
 
@@ -352,6 +359,27 @@ The economics turn on two things. **First, tonnage capability:** very few Indian
 ***That is the honest shape of this company right now:*** **operations convert beautifully, and every rupee is going back into capacity whose revenue arrives in FY28-FY29.** **It is also why ROCE has fallen from 23% to 18% and has not yet turned** — the denominator is growing ahead of the numerator, by design.
 
 ---
+### 🆕 Q2FY27 Refresh — Full Numbers Print *(18-Nov-2026; results 5-Nov, call 6-Nov, official transcript filed 13-Nov and read in full)*
+
+| ₹cr | Q2FY27 | Q2FY26 | YoY | Q1FY27 | H1FY27 | H1 YoY |
+|---|---|---|---|---|---|---|
+| Revenue | **501** | 377 | **+32.7%** | 449 | 950 | +29.9% |
+| Volume (finished goods) | 18,754 t | | **+24.8%** | | | +24% |
+| Realisation (₹/kg) | **267** | | +6.3% | | 260 | +4.8% |
+| Gross margin | 60.8% | | +52bps | | 60.8% | +161bps |
+| EBITDA | **153 (30.6%)** | 116 | +32.2% | 141 | 294 (30.9%) | +35.5% |
+| PAT | **98** | 73 | **+32.8%** | 91 | 189 | +35.8% |
+
+**Five quarters (Screener):** revenue 377 → 391 → 424 → 449 → **501**; OPM 31% → 31% → 31% → 31% → **31%**.
+
+**Segments, H1 (share / growth):** CV 33% (37%), high-teens growth — domestic mid-20s, **exports subdued on longer shipment times and sales in transit**; farm 30% (34%), +20%+, domestic tractor share **42% → ~46%**; industrial **16% (13%), +50%+**; off-highway 12% (10%), +50%+; **passenger vehicles 9% (5%), ~2x**. Machining 90% of revenue (88%). Utilisation: forging 60%, machining 77% → ~90% by Q4.
+
+**Orders:** book ~₹950cr, ~50% export; ~₹95cr won in Q2 (Asian exports); ~₹80cr for a North American CV engine programme; a North American PV line (4,000-t press) ships on DAP terms — ~₹80–100cr a year, recognised from Q3.
+
+**Cash:** H1 capex ~₹378cr; **operating cash ₹124cr (~66% of PAT)** on receivables and ₹35cr of supplier advances — *"temporary"*; net debt/equity 0.08x; cash ~₹350cr.
+
+**Guidance:** volume guidance met; FY27 margins ~FY26; heavy-line revenue from Q3–Q4 FY28; another ₹500cr capex; *"we will be looking at doubling ourselves"* in three to four years (MD, on the combined programmes).
+
 ## 5. Connecting the Dots
 
 **Thread A — Machining is the margin, and it is nearly maxed as a mix lever.** 73% of revenue in FY21 → **90% in Q1FY27**. It drove the 60.7% gross margin. **There is not much runway left in this particular lever.**
@@ -377,6 +405,7 @@ The economics turn on two things. **First, tonnage capability:** very few Indian
 | **v1** | — | **HIGH**, then **H → MH on 10-Jul-2026** | Profile initiated. Peer-best margins, zero dilution, best-in-class execution. **⚠️ v1's own §6 said *"Weighted return: ~10% over 2 years = ~5% CAGR. Priced-in"* while the header carried HIGH** — an internal inconsistency. The 10-Jul re-rate corrected it to MH. |
 | **12-Aug-2026** *(refresh)* | **₹1,966** | **HIGH → MH (Under Watch)** — **explicitly on valuation, not execution** | **The concall folder was empty despite v1 citing four reads**; six transcripts fetched and read. **Q1FY27 was the best operating quarter in the refresh batch** — volumes +23.1% against late-teen guidance, margin 31.3% against ~30.5% guided, **ahead on both**. CFO at 114% of operating profit. The refresh was blunt: *"Happy Forgings is being marked down for **what the share price did**."* **Weighted return ~+12%. Upgrade trigger: a de-rating to ≤45x.** |
 | **22-Aug-2026** *(this profile)* | **₹2,212** | **MH → MEDIUM** — **again on price alone** | Converted to always-current format. **🔴 The stock is +12.5% in ten days and the multiple has gone 55.0x → 63.8x — the opposite of the upgrade trigger.** On the refresh's own scenario targets **the weighted return has fallen +12% → roughly −4%, with the base case now negative on its own.** **Nothing operational deteriorated:** the announcement sweep returned two routine records, the transcript was already read, and every scorecard row still stands. **🆕 Added from a closer transcript read: the ₹950cr order book is 60% export / 40% domestic; the 14,000-ton line is 65–70% utilised; management declined to raise guidance after beating it; and declined to buy growth because *"the valuations are very expensive, which would be a drain on the return on capital employed."*** |
+| **18-Nov-2026** *(Q2FY27 Tier-A)* | **₹1,777** | **⤴ MEDIUM → MEDIUM-HIGH** — **the upgrade trigger, met on the multiple** | **P/E 47.7x, inside the ≤50x line set on 22-Aug**, with delivery intact: volume +24.8%, margin 30.6%, EBITDA/kg up, ₹300cr a year of data-centre orders secured to 2033. Both downgrade triggers clear (margin 30.6%; CV export weakness still attributed to transit, with new export orders won). **The price is 20% lower than at the downgrade and earnings are ~20% higher.** New watch: promoter dilution to meet minimum public shareholding is close. Re-priced **≈ +20%**. |
 
 **The trajectory in one line.** **Two consecutive downgrades on a company that has beaten every number it has given** — *which is exactly what happens when a business compounds at 30% and a share price compounds at 150%.*
 
@@ -424,6 +453,13 @@ The economics turn on two things. **First, tonnage capability:** very few Indian
 
 **🟢 Upgrade trigger back to MH** *(unchanged in substance, restated against the new price)*: **a de-rating to ≤50x without a deterioration in delivery** — i.e. **roughly ₹1,730 or below**, or the stock flat for a year while earnings compound — **or** confirmation that the **data-centre line contributes in FY28 rather than FY29**, which would pull forward the step-change the multiple is discounting.
 
+> **📊 18-Nov-2026 — Q2FY27 scored: UPGRADE TRIGGER MET → MEDIUM-HIGH.**
+> **Upgrade (≤50x without a deterioration in delivery):** P/E **47.7x** (Screener, 18-Nov, intraday ₹1,777) — ✅; delivery — ✅ (volume +24.8%, margin 30.6%, guidance reiterated). *The ₹1,730 price marker was computed on August's earnings; the line is the multiple.*
+> **Downgrade triggers:** EBITDA margin below 30% — **clear** (30.6%) · CV export weakness persisting as demand — **not fired on the evidence**: still described as *"longer shipment times… sales in transit"*, and ~₹175cr of new CV/engine export orders were disclosed. *Re-test at Q3: if CV exports are still down with transit normalised, treat it as fired.*
+> **Where it trades:** CMP ₹1,777 · market cap ₹16,778cr · P/E 47.7x · BV ₹242 · ROCE 18.0% · 52-week ₹991–2,484.
+> **Re-priced on the unchanged scenarios (market cap):** base ₹19,530cr → **+16%** · bull ₹28,050cr → **+67%** · bear ₹11,900cr → **−29%**. **Weighted ≈ +20%** *(0.55 × 16 + 0.25 × 67 − 0.20 × 29)*, plus ~0.2% yield.
+> **Why only MH and not H:** the minimum-public-shareholding sale is a near-term supply event of unknown size and price, and H1 cash conversion (~66%) is weaker than FY26's.
+
 **🔴 Downgrade triggers for Q2FY27** *(unchanged)*:
 1. **EBITDA margin below 30%** despite the remaining ~70% of the price increase landing.
 2. **CV export weakness persisting** beyond the one-month DDP transit backlog — i.e. it was demand, not logistics.
@@ -453,17 +489,25 @@ The economics turn on two things. **First, tonnage capability:** very few Indian
 > **✅ TRACKING WELL, AND NEARING ITS CEILING.** Machining is **90% of the mix in Q1FY27** — 88% in Q1FY26, **73% in FY21**. Gross margin at **60.7% (+276bps YoY)** is the read-through. **But at 90% there is limited runway left in this lever** — the next leg is the data-centre and heavy-engine line at **₹800–1,000/kg against ₹253/kg blended**.
 
 **🔴 Risk 7 — Capex-heavy expansion timing.**
+
+> ⚠️ **BIGGER (Q2FY27):** a further ₹500cr approved on top of ₹650cr; up to ₹300cr of debt sanctioned. Management: capex intensity *"will be bigger than what we have done in the last three years."*
 > **⚠️ VISIBLE IN ROCE, WHICH IS THE HONEST COST OF THE GROWTH.** **ROCE has fallen 23% (FY24) → 19% (FY25) → 18% (FY26)** while capex ran ~₹460cr in FY26 with **₹450–500cr guided for FY27** and a separate **₹650cr programme** for the new industrial plant. **Investing outflow was −₹497cr in FY26 against ₹445cr of CFO — free cash flow was −₹16cr.** **Mitigating:** borrowings are only ₹330cr against ₹2,128cr of net worth, **CFO is 114% of operating profit**, ICRA AA is reaffirmed, and **forging utilisation is 59%**. ***The question is when ROCE turns, not whether the balance sheet can carry it.***
 
 **Risk 8 — Second-generation transition risk.**
 > **No change.** Ashish Garg (MD) and Pankaj Kumar Goyal (CFO) both present and fluent on the Q1FY27 call. Promoter holding 78.46%, the only movement being ESOP allotment.
 
 **🔴 Risk 9 — The multiple is now the main risk on this name, and it has got worse.**
+
+> ✅ **EASED (18-Nov-2026):** 63.8x → **47.7x** as the price fell ~20% and earnings rose ~20% — the de-rating this profile asked for, without any deterioration in delivery.
 > **⚠️ ESCALATED (22-Aug-2026).** The 12-Aug refresh recorded **55.0x and 8.4x book, 3% off the high, on a ~12% weighted return with a −34% bear case.** **It is now 63.8x and 9.8x book, 5.6% off the high, on a ~−4% weighted return with a −43% bear case.** **The stock rose 27.3% between v1 and the refresh while TTM PAT rose 8%; it has risen a further 12.5% in the ten days since.** ***At this multiple the business has to keep beating its own guidance simply to stand still.***
 
 **🔴 Risk 10 — A 4.12% public float, with domestic institutions selling into it.** Promoter 78.46% + DII 15.54% + FII 1.88% = **95.88% of the register.** **DII holding has fallen every quarter for a year: 17.07% (Mar-2025) → 15.54%, a 153bps reduction**, while retail shareholder count rose 11% to **64,341**. *My inference, not a disclosed fact:* **institutions have been trimming into strength and retail absorbing it.** **On a float this thin both directions are violent — and there is no ValuePickr or Substack coverage at all to provide a second opinion.**
 
+> ⚠️ **NOW TIME-BOUND (Q2 call):** the promoter dilution to meet minimum public shareholding is pending; an analyst put the deadline ~1–1.5 months away; management: *"within the time frames."* **Size, route (OFS/QIP) and price undisclosed.**
+
 **🔴 Risk 11 — The FY29 story is doing work in an FY27 multiple.** The data-centre and heavy-engine line — **₹250cr of the ₹950cr order book, at 3–4x blended realisation** — completes capex end-FY27, trials early FY28, and management is explicit it *"will start contributing meaningfully from **FY29** onwards."* **🆕 The heavy 250 kg–3 tonne range carries the same date:** *"will start contributing from third or fourth quarter of next financial year… meaningfully from FY29 onwards."* **That is two full years away, and 63.8x is discounting it now.** **Any slippage in trials or customer approvals is a direct hit to the rating.**
+
+> 🟢 **PARTLY DE-RISKED (Q2 call):** ₹300cr a year of data-centre machining orders secured to 2033; ~₹500cr more expected by March.
 
 **🆕 Risk 12 — Solar has one named dependency and it is unglamorous (NEW — 22-Aug-2026).** The captive solar plant is worth **1–1.5% of margin**, has all clearances, and *"a large part of the capex is already done"* — but **power-up waits on right-of-way work**: *"Just some work on ROW, right of way, is going on. Once the ROW work is completed, we'll be in a position to power up. So I think January is the time."* **Generation from Q4FY27.** *A small, specific, checkable dependency — and exactly the kind that slips.*
 
@@ -493,6 +537,8 @@ The economics turn on two things. **First, tonnage capability:** very few Indian
 
 ## 9. Community Pulse — 22-Aug-2026
 
+**⤴ 18-Nov-2026:** still no dedicated ValuePickr thread located. The Q2 call queue was institutional (ICICI Securities, IIFL, JM, Kotak MF, Equirus); the only uncomfortable question was the pending promoter dilution. **Sentiment (call queue): BULLISH.**
+
 **🔴 There is no community on this name at all, and that is the finding.**
 
 **ValuePickr:** searched. **No dedicated Happy Forgings thread was located.**
@@ -511,6 +557,8 @@ The economics turn on two things. **First, tonnage capability:** very few Indian
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (18-Nov-2026 Tier-A):** results and deck 5-Nov; capex approval 5-Nov; **official transcript of the 6-Nov call (filed 13-Nov), read in full**; Screener consolidated 18-Nov-2026 (intraday).
 
 - **Concalls read (6 official transcripts):** **Q1FY27 (call 5-Aug-2026, transcript filed 11-Aug-2026 — primary source)**, Q4FY26 (call 22-May-2026), Q3FY26 (Feb-2026), Q2FY26 (Nov-2025), Q1FY26 (Aug-2025), Q4FY25 (May-2025). Folder `Fetched Concalls/HAPPYFORGE/`. **The folder was empty before the 12-Aug refresh despite v1 citing four reads.**
 - **Q1FY27 primary documents:** Board Meeting Outcome, results and press release (4-Aug-2026), investor deck.

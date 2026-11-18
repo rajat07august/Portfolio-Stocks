@@ -225,6 +225,15 @@ None significant. Aimtron is the primary listed entity.
 | **FY27 revenue growth guidance: 40–50% CAGR** | H2FY26 | To be verified | 🕐 Pending |
 | Mainboard migration (3-year timeline) | H2FY26 | 1 year away | 🕐 Pending |
 | **INR 1,000 cr revenue target (next 2 years)** | H2FY26 | To be verified | 🕐 Pending |
+| *(18-Nov)* **FY27 revenue growth 40–50%** — re-scored | H2FY26 | **H1FY27 +83%** (₹224.7cr vs ₹122.6cr), helped by a full half of AIC; India alone +69% | ✅ **Ahead** |
+| *(18-Nov)* **₹1,000cr revenue "next 2 years"** — re-scored | H2FY26 | Now: organically **"within 2 years… After '29? Yeah"** — i.e. ~FY29; FY28 only *"with two acquisitions"* | 🟡 **Organic date slipped ~a year** |
+| *(18-Nov)* Margin band — EBITDA 20% ± 4, PAT 15% ± 2 | Standing | **H1 EBITDA 21.6% (revised release; 24.6% a year ago)**, PAT 15.5% (16.5%) | 🟡 **Inside the band, falling** |
+| *(18-Nov)* AIC turnaround | FY26 | AIC H1 revenue ~$6–6.5m; EBITDA ~11% → **~16% ex other income**; record Q2 bookings ~$12m; order book **$18.8m (+161%)**; five new customers | ✅ |
+| *(18-Nov)* Working capital | H2FY26 | **H1 consolidated operating cash ₹93.0cr** (FY26 −₹40.0cr), on a ₹64.2cr receivables release (statement rendered) | ✅ **Turned** |
+| *(18-Nov)* RDSO approval | H2FY26 (6 months) | *"Like we did RDSO last time"* — referred to as done; no filing seen in the sweeps | 🟡 **Stated, not verified** |
+| *(18-Nov)* Optical transceivers (SFP) | H2FY26 | *"second half of the year, we are expecting some orders"* | 🕐 |
+| *(18-Nov)* 🆕 Acquisitions with the ₹205cr preferential | — | ~₹30cr to working capital, the rest to acquisitions; **two targets "lined up"** (a South-India harness/box-build maker; Mexico) | 🆕 |
+| *(18-Nov)* 🆕 Merging the promoter's other companies | — | *"We are starting merging the business… waiting for the main board entry… once we enter the main board… we'll merge everything together"* — including promoter-held US entities | 🆕 🔴 **A related-party transaction in prospect** |
 
 **Verdict on management:** Founder-family driven, aggressive growth targets, executing well. Multiple certifications delivered, US acquisition closed, greenfield subsidiary setup. Bet on Vasani + Shah family to execute Aimtron 2.0 vision.
 
@@ -280,6 +289,25 @@ None significant. Aimtron is the primary listed entity.
 
 ---
 
+### 🆕 H1FY27 Refresh — Full Numbers Print *(18-Nov-2026; results 4-Nov (re-filed and revised the same day), deck 6-Nov, call 6-Nov, official transcript filed 12-Nov and read in full; cash-flow page rendered)*
+
+| ₹cr (consolidated) | H1FY27 | H1FY26 | YoY | H2FY26 |
+|---|---|---|---|---|
+| Revenue | **224.7** | 122.6 | **+83%** | 179 |
+| EBITDA — **revised release** | **48.6 (21.6%)** | 30.1 (24.6%) | **+61%** | |
+| EBITDA — read on the call | 54.3 (24.17%) | 30.1 | +80% | |
+| Operating profit ex OI (Screener) | 49 (22%) | 30 (25%) | | 36 (20%) |
+| PAT | **34.8 (15.5%)** | 20.3 (16.5%) | **+71%** | 26 |
+| Order book | **733** | | | |
+
+**🔴 The CFO read out the superseded EBITDA.** On 6-Nov she gave *"INR 54.30 crores… margin of approximately 24.17%"* — the figure from the first release, which included other income. **The revised release of 4-Nov evening prints ₹48.6cr at 21.6%.** An analyst on the same call used ~21.8%. **The margin fell 3 points; the call's number hides it.** Management's explanation for the fall: last year's H1 COGS excluded wages (reclassified later), plus AIC's lower margins in the consolidation.
+
+**Cash flow (rendered, consolidated H1):** operating profit before WC ₹54.0cr; **receivables −₹64.2cr (released)**; operating cash **₹93.0cr** (FY26 −₹40.0cr). **Two lines need an explanation:** (1) **long-term loans given ₹46.9cr** (standalone ₹44.9cr), counterparty not disclosed; (2) a consolidated investing line labelled *"Interest income"* shows **(₹59.7cr)** — an outflow, while the standalone line is +₹0.64cr; the label cannot be right. Share capital raised ₹43.6cr (warrant conversions).
+
+**Segments and books:** India revenue ₹161.6cr (+69%); AIC (US) H1 ~$6–6.5m at ~16% EBITDA; AIC order book $18.8m. Group RFQ pipeline ~₹1,800cr, historic conversion *"40% to 60%"*. Vadodara greenfield (plastics, sheet metal, harness): two lines arriving ~March 2027; RFQs ₹163cr.
+
+**Guidance:** organic 40–50% CAGR; ₹1,000cr organically by ~FY29, FY28 with two acquisitions; EBITDA 20% ± 4, PAT 15% ± 2; no capex beyond the greenfield to ₹1,000cr.
+
 ## 5. Connecting the Dots
 
 **Thread A — ESDM shift (higher margin).** Design-led vs pure EMS. Multi-year margin uplift potential.
@@ -310,16 +338,32 @@ Weighted return: **~85% over 2 years = ~36% CAGR.** Very attractive if execution
 
 ---
 
+### 📊 18-Nov-2026 — H1FY27 scored
+
+**Where it trades (Screener consolidated, 18-Nov-2026, intraday):** CMP **₹1,848** · market cap ₹3,932cr · P/E 65.0x · BV ₹148 · ROCE 28.2% · 52-week ₹696–2,021. **+41% since the 3-Jul write.**
+
+**Re-priced on the 3-Jul scenarios (market cap):** base ₹4,750cr → **+21%** · bull ₹6,600cr → **+68%** · bear ₹2,600cr → **−34%**. **Weighted ≈ +27%** *(0.55 × 21 + 0.30 × 68 − 0.15 × 34)*, down from ~+85%: the price has done most of the base case. *The share count will rise with the ₹205cr preferential, which these market-cap scenarios do not adjust for.*
+
+**Conviction: HELD at HIGH — now Under Watch.** The operating half is excellent (revenue +83%, cash flow turned, AIC fixed). **The disclosure half is not:** a release whose text contradicted its table and was revised the same day; a CFO reading the superseded number two days later; ₹46.9cr of loans to an undisclosed party; a mislabelled ₹59.7cr cash-flow line; and a stated plan to merge promoter-owned companies into the listed entity. **Cut to MH at H2FY27 if any of:** the H1 long-term loans prove to be to a promoter-group entity, or remain undisclosed in the H2 accounts · another results release has to be revised · H2 EBITDA (ex other income) falls below 20% — *my rules, set now*.
+
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — AIC integration issues.** 2-month acquisition; execution risk high.
+
+> ✅ **TRACKING WELL (H1FY27):** AIC EBITDA ~11% → ~16%; record bookings; order book $18.8m.
 **Risk 2 — Certification delays (RDSO).** If Railway approval slips beyond FY27.
 **Risk 3 — PLI application rejected or delayed.**
 **Risk 4 — Data centre + AI camera orders don't scale.**
+
+> 🕐 **IN PROGRESS (H1FY27):** the $12m UPS/data-centre programme has 2 of 6 variants in delivery; the other four due in Q3–Q4.
 **Risk 5 — L&T / larger EMS pressures pricing on Aimtron's niches.**
 **Risk 6 — Small size = customer concentration risk.**
 **Risk 7 — SME liquidity risk.**
 **Risk 8 — Mainboard migration delays beyond 12 months.**
+
+**🆕 Risk 9 — Disclosure quality (NEW — 18-Nov-2026).** Release text contradicting its table; a same-day revision; the CFO quoting the superseded EBITDA on the call; ₹46.9cr of long-term loans with no counterparty; a mislabelled ₹59.7cr investing outflow. **Each is small; together they are a pattern for a company about to raise ₹205cr and merge in promoter entities.**
+
+> ⚠️ **AND IT NOW GATES A RELATED-PARTY MERGER (18-Nov-2026):** management will merge the promoter's other companies, including US entities, only after the mainboard move. An analyst put that at ~June 2028; not contradicted.
 
 ---
 
@@ -335,7 +379,13 @@ Weighted return: **~85% over 2 years = ~36% CAGR.** Very attractive if execution
 
 ---
 
+## 9. 📢 Community Pulse — 18-Nov-2026
+
+**ValuePickr #195699 "Aimtron Electronics Ltd (EMS China+1 Global Play)"** — 30 posts, last 14-Sep-2026 (the Curtiss-Wright pilot order). #40 (19-Aug): *"The market has realized the company's potential… sharply rerated."* 🟢 **No discussion of the H1 margin fall, the revised release or the loans.** **Sentiment: BULLISH.**
+
 ## Source Appendix
+
+- **🆕 H1FY27 (18-Nov-2026 Tier-A):** board outcome with results and cash flow 4-Nov (**cash-flow page rendered and read**); press release and two revisions 4-Nov; deck 6-Nov; **official transcript of the 6-Nov call (filed 12-Nov), read in full**; Screener consolidated 18-Nov-2026 (intraday); ValuePickr #195699.
 
 - **Concalls read:** H2FY26 (Apr 2026, primary), H1FY26 (Nov 2025), H2FY25 (Apr 2025), H1FY25 (Nov 2024); plus Q4FY26 investor deck (Apr 2026) + H1FY26 investor deck.
 - **Screener:** Aimtron Electronics Ltd (NSE-SME: AIMTRON).
