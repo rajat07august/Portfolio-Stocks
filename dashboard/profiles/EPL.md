@@ -1,7 +1,7 @@
 # EPL Limited (formerly Essel Propack) — Company Profile
 
 **Ticker:** EPL · **BSE:** 500135 · **NSE:** EPL · **Sector:** Packaging & Materials (Sector 11)
-**Conviction:** **HIGH (Under Watch)** · **🔵 HELD POSITION** *(disclosed 12-Aug-2026 — "Transcribe it now, its my holding")*
+**Conviction:** **HIGH (Under Watch)** *(18-Nov-2026: net-debt trigger fired on its wording; Rajat kept HIGH pending Q3 — fired if Q3 net debt >₹750cr or >0.8x TTM EBITDA)* · **🔵 HELD POSITION** *(disclosed 12-Aug-2026 — "Transcribe it now, its my holding")*
 **Thesis date:** 22-Aug-2026 · **CMP ₹266** (Screener, 22-Aug-2026) · **Market cap ₹8,508 cr**
 
 **Concall Fetch Gate: ✅ GREEN — 7 calls.** Q1FY27 (11-Aug-2026, **machine transcript — official still not filed, see below**), **Q4FY26 merger-announcement call (30-Mar-2026)**, Q4FY26 results (May-2026), Q3FY26 (Feb-2026), Q2FY26 (Nov-2025), Q1FY26 (Aug-2025), plus the Oct-2025 call. Q1FY27 investor deck, press release and results filing all read.
@@ -492,6 +492,7 @@ Last quarter an analyst had to raise it (*"I noticed no dividend this time"*), p
 | **22-Aug-2026** *(this profile)* | **₹266** | **HELD at HIGH (Under Watch)** — trigger unchanged, one item resolved and one added | **+9.5% in ten days; the stock now sits 2.9% below its 52-week high of ₹274**, having been at ₹176 within the year. Converted to always-current format. **🔴 The full merger structure — Indorama Ventures as counterparty, ₹339 swap valuation, IVL at 51.8% as promoter, Blackstone diluted to 16.6%, and NO OPEN OFFER — is incorporated for the first time** (§5A). Promoter holding cross-verified against NSE's filed master. **Watch item #1 answered: the official Q1FY27 transcript has still not filed at 11 days, against a 6-day historical lag.** |
 | **19-Sep-2026** *(filings refresh)* | **₹239** | **HELD at HIGH (Under Watch)** — trigger added | **🔴 Blackstone sold its entire 26.37% on 1-Sep (~₹240.57, ~₹2,032cr); India Ratings put AA+ on Rating Watch Developing (10-Sep); official transcript filed 28-Aug and the machine transcript verified.** Stock −10% since 22-Aug. New trigger: any scheme amendment or promoter-classification statement departing from the 30-Mar-2026 terms. |
 | **18-Nov-2026** *(Q2FY27 Tier-A)* | **₹234** | **HELD at HIGH (Under Watch) — ⚠️ the net-debt trigger fired on its wording; FLAGGED FOR RAJAT, NOT APPLIED** | Q2 revenue +30% (underlying +20%), underlying margin 20.4% (clears the 19.5% trigger), B&C now the largest category. **Net debt ₹656cr against the >₹650cr line, and the call gives no working-capital reversal** — inventory raised on purpose, H2 capex at the H1 pace (FY27 ₹625–700cr). Merger by Q4FY27 subject to NCLT. Europe pushed out 2–3 quarters. Re-priced **≈ +59% at ₹234**, mostly because the price is 12% below the 22-Aug write. |
+| **18-Nov-2026** *(Rajat's decision)* | **₹234** | **HELD at HIGH (Under Watch) — trigger not applied; Q3 re-test** | Rajat: *"Keep EPL and wait for Q3."* Q3FY27 rule: treat the net-debt trigger as fired if Q3 net debt is above ₹750cr or above 0.8x TTM EBITDA. |
 
 **The trajectory in one line.** In three weeks the operating story got better and the price got much better — **and the largest single fact about this investment turned out to have been sitting unread in a transcript on disk since March.**
 
@@ -548,6 +549,8 @@ Last quarter an analyst had to raise it (*"I noticed no dividend this time"*), p
 
 **Conviction: HELD at HIGH (Under Watch), pending Rajat's decision on the net-debt trigger.**
 
+> **⤴ Rajat decided 18-Nov-2026: keep at HIGH and wait for Q3.** Q3FY27 rule: the net-debt trigger is treated as fired if Q3 net debt is above ₹750cr or above 0.8x TTM EBITDA.
+
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — Merger execution: delay, renegotiation, or failure at a regulatory gate.**
@@ -576,6 +579,7 @@ Last quarter an analyst had to raise it (*"I noticed no dividend this time"*), p
 **🆕 Risk 7 — Balance sheet and working capital (NEW — 12-Aug-2026).** Net debt **+49% YoY to ₹581cr**; working capital **+₹180cr in one quarter against ~₹170cr for all of FY26**; ROCE −37bps; CWIP doubled; inventory days 151 → 177; FCF ₹439cr → ₹250cr. Explained as deliberate (ahead-of-curve capex, inventory buffering against Middle East disruption, price inflation in receivable values). **Downgrade trigger: net debt above ₹650cr with no working-capital reversal at Q2FY27.**
 
 > ⚠️ **TRIGGER FIRED ON ITS WORDING (18-Nov-2026):** net debt ₹656cr (Q1 ₹581cr); no working-capital reversal on the Q2 call; inventory raised deliberately; H2 capex at the H1 pace (FY27 ₹625–700cr). **Flagged for Rajat, not applied — see §6 (18-Nov) for the Q3 re-test rule recommended.**
+> **⤴ Rajat decided 18-Nov-2026: keep at HIGH and wait for Q3.** Q3FY27 rule: the net-debt trigger is treated as fired if Q3 net debt is above ₹750cr or above 0.8x TTM EBITDA.
 
 **Risk 8 — Europe below its margin target.**
 > ⚠️ **ACCUMULATING — fourth quarter (18-Nov-2026):** Europe +30.4% revenue, EBITDA down. Cause given: Poland printing-site approvals took *"at least 6 to 9 months longer"* than planned, raising outsourcing cost. **New date: *"another 2 to 3 quarters to fully stabilize"*** — past the Q3FY27 trigger date.
