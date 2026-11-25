@@ -90,29 +90,29 @@ Screener P/E 31.0x on reported earnings, ROCE 10.8%, ROE 4.2%; promoter (Governm
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** Lignite demand is supported: electricity output +11.6% and cement +12.5% YoY (August). Imported coal, the substitute fuel, averaged +15.5% over three months to October.
+**Read (25-Nov-2026, mine, not management's):** Power generation +21.6% and cement +15.4% YoY in October both lift lignite and mineral demand. Australian coal +15.5% over three months is context.
 
 **How cost moves reach profit:** Lignite is sold to Gujarat's power, cement and industrial users near the mine; pricing is not market-linked day to day (profile §1).
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Production - Electricity (YoY, Aug 26) | Demand driver | — | +10.1% | +11.6% | — | 🟢 tailwind | Tijori macro (India) · Aug 26 |
-| Production - Cement (YoY, Aug 26) | Demand driver | — | +11.8% | +12.5% | — | 🟢 tailwind | Tijori macro (India) · Aug 26 |
+| Production - Electricity (YoY, Oct 26) | Demand driver | — | +14.9% | +21.6% | — | 🟢 tailwind | Tijori macro (India) · Oct 26 |
+| Production - Cement (YoY, Oct 26) | Demand driver | — | +12.6% | +15.4% | — | 🟢 tailwind | Tijori macro (India) · Oct 26 |
 | Coal, Australian (monthly avg) (152.3 $/mt) | Proxy / context | +3.5% | +15.5% | +41.7% | +0.0% | ⚪ context | World Bank Pink Sheet · 2026M10 |
 
 **Why each factor is here:**
 
-- **Production - Electricity (YoY, Aug 26)**: Gujarat power plants are the main lignite buyers (profile §1).
-- **Production - Cement (YoY, Aug 26)**: Cement and industrial users are a growing share (profile §1).
+- **Production - Electricity (YoY, Oct 26)**: Gujarat power plants are the main lignite buyers (profile §1).
+- **Production - Cement (YoY, Oct 26)**: Cement and industrial users are a growing share (profile §1).
 - **Coal, Australian (monthly avg)**: Imported coal is the substitute fuel lignite competes with (my inference).
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>

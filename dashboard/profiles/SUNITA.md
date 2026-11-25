@@ -98,25 +98,25 @@ Screener P/E 106x, ROCE 10.1%, ROE 10.8%; promoter 62.75% (Mar-2026; was 72.98% 
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** Flat steel is +10.2% over three months and near its 52-week high. Steel is billed through, so this lifts revenue more than it hurts margin.
+**Read (25-Nov-2026, mine, not management's):** Flat steel +8.8% over three months, near its high. The artillery-shell licence will change the input mix once production starts; not yet tracked.
 
 **How cost moves reach profit:** Steel is billed through: when steel fell 45%, H1FY25 revenue fell even as volume rose 38–40% (profile §4).
 
-**Sensitivity:** raw materials were **65.0% of sales in FY26** (FY25: 52.0%, Screener). A 10% move across the whole raw-material bill is worth about **650 bps of margin before any pass-through**. The tracked inputs averaged **+10.2% over three months**, which would be roughly **663 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **65.0% of sales in FY26** (FY25: 52.0%, Screener). A 10% move across the whole raw-material bill is worth about **650 bps of margin before any pass-through**. The tracked inputs averaged **+8.8% over three months**, which would be roughly **572 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Steel Flat | Input cost | -1.2% | +10.2% | +35.1% | -1.2% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:30 am IST |
+| Steel Flat | Input cost | +0.5% | +8.8% | +37.9% | -1.1% | 🔴 headwind | Tijori (indianpetrochem.com) · 25 Nov, 09:30 am IST |
 
 **Why each factor is here:**
 
 - **Steel Flat**: Steel plate machining and mould bases, bought direct from mills (profile Moat 6).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>

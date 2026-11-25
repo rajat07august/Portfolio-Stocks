@@ -100,23 +100,23 @@ Contract from the Inland Waterways Authority of India for design, construction a
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** Only a proxy is tracked: Brent front-month ~$91 (−13.5% in the month) moves diesel for dredgers and tugs; the profile does not say who bears fuel cost on its contracts.
+**Read (25-Nov-2026, mine, not management's):** Brent front-month ~$88 (−23.7% in the month, 25.3% below its 52-week high; the World Bank's October average was ~$125, so sources still disagree on level); dredging fuel cost is context, not a contract term.
 
 **How cost moves reach profit:** Not disclosed; who bears fuel cost on dredging contracts is not stated in the profile.
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Brent crude (90.61 $/bbl) | Proxy / context | -13.5% | +1.9% | +41.4% | -23.4% | ⚪ context | Yahoo Finance · 10-Nov-2026 |
+| Brent crude (88.38 $/bbl) | Proxy / context | -23.7% | +0.6% | +41.5% | -25.3% | ⚪ context | Yahoo Finance · 25-Nov-2026 |
 
 **Why each factor is here:**
 
 - **Brent crude**: Diesel for dredgers and tugs (my inference).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>

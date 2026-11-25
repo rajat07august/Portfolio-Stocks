@@ -119,23 +119,23 @@ Screener P/E 27.6x (was 22.6x); ROCE 14.8%, ROE 11.0%; DII holding fell to 3.15%
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** Steel is near its 52-week high (flat +10.2% over three months) while aluminium is −10.3%; both pass through to OEMs with a lag. October vehicle retail fell YoY (cars −14.2%, two-wheelers −28.4%, trucks +2.3%) — most likely festive timing, with Diwali in October last year and November this year (my inference).
+**Read (25-Nov-2026, mine, not management's):** Flat steel is near its 52-week high (+8.8% over three months) while aluminium is −16.0%; both pass through to OEMs with a lag. October vehicle retail fell YoY (cars −14.2%, two-wheelers −28.4%; trucks +2.3%).
 
 **How cost moves reach profit:** Steel and aluminium cost is passed through to OEMs, which is why value growth (+54%) ran ahead of volume (+24%) (profile §4).
 
-**Sensitivity:** raw materials were **66.0% of sales in FY26** (FY25: 65.0%, Screener). A 10% move across the whole raw-material bill is worth about **660 bps of margin before any pass-through**. The tracked inputs averaged **-0.1% over three months**, which would be roughly **7 bps of relief** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **66.0% of sales in FY26** (FY25: 65.0%, Screener). A 10% move across the whole raw-material bill is worth about **660 bps of margin before any pass-through**. The tracked inputs averaged **-3.6% over three months**, which would be roughly **238 bps of relief** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Steel Flat | Input cost | -1.2% | +10.2% | +35.1% | -1.2% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:30 am IST |
-| Aluminium (COMEX) (3,114.25 $/t) | Input cost | -2.1% | -10.3% | +11.1% | -25.8% | 🟢 tailwind | Yahoo Finance · 10-Nov-2026 |
+| Steel Flat | Input cost | +0.5% | +8.8% | +37.9% | -1.1% | 🔴 headwind | Tijori (indianpetrochem.com) · 25 Nov, 09:30 am IST |
+| Aluminium (COMEX) (2,872.5 $/t) | Input cost | -12.1% | -16.0% | +4.8% | -31.5% | 🟢 tailwind | Yahoo Finance · 24-Nov-2026 |
 | Passenger Car - Retail Sales (YoY, Oct 26) | Demand driver | — | +11.3% | -14.2% | — | 🔴 headwind | Tijori macro (India) · Oct 26 |
 | Two Wheeler - Retail Sales (YoY, Oct 26) | Demand driver | — | +8.1% | -28.4% | — | 🔴 headwind | Tijori macro (India) · Oct 26 |
 | Commercial Vehicles - Retail Sales (YoY, Oct 26) | Demand driver | — | +18.1% | +2.3% | — | ⚪ flat | Tijori macro (India) · Oct 26 |
-| USD/INR (93.918 ₹ per $) | FX (export revenue) | -3.0% | -1.6% | +5.9% | -3.1% | ⚪ flat | Yahoo Finance · 10-Nov-2026 |
+| USD/INR (92.26 ₹ per $) | FX (export revenue) | -2.8% | -1.4% | +3.5% | -4.8% | ⚪ flat | Yahoo Finance · 25-Nov-2026 |
 
 **Why each factor is here:**
 
@@ -148,7 +148,7 @@ Screener P/E 27.6x (was 22.6x); ROCE 14.8%, ROE 11.0%; DII holding fell to 3.15%
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>

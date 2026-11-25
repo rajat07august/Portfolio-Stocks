@@ -94,21 +94,21 @@ Screener P/E 40.3x, ROCE 18.1%, ROE 13.5%; 52-week range ₹2,691–7,990. Jun-2
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** Feedstocks keep easing: PTA −4.6% and MEG −9.7% in the month (PTA still +17.0% over three months, MEG now −0.5%). Q2 carried the peak (gross margin 59.9% → 54.7%, my calculation); Q3 input costs should be lower if this holds. The rupee is 3.0% stronger in the month — a small drag with ~75% exports.
+**Read (25-Nov-2026, mine, not management's):** Feedstocks fell hard in the month: PTA −13.7% and MEG −7.0% (PTA −0.9%, MEG −6.1% over three months). Q2 carried the peak; on these prices Q3 input costs ease. the rupee is ₹92.3/$, 2.8% stronger in the month and 1.4% over three months, 3.5% weaker than a year ago, a small headwind on exports.
 
 **How cost moves reach profit:** Not disclosed. It sells branded films (window, paint-protection, sun-control) at premium prices, so polyester feedstock is a smaller lever than for a commodity film maker (my inference).
 
-**Sensitivity:** raw materials were **45.1% of sales in FY26** (FY25: 46.2%, Screener). A 10% move across the whole raw-material bill is worth about **451 bps of margin before any pass-through**. The tracked inputs averaged **+8.2% over three months**, which would be roughly **370 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **45.1% of sales in FY26** (FY25: 46.2%, Screener). A 10% move across the whole raw-material bill is worth about **451 bps of margin before any pass-through**. The tracked inputs averaged **-3.5% over three months**, which would be roughly **158 bps of relief** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Purified terephthalic acid (PTA) | Input cost | -4.6% | +17.0% | +65.3% | -5.3% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:00 am IST |
-| Monoethylene glycol(MEG) | Input cost | -9.7% | -0.5% | +54.3% | -14.6% | ⚪ flat | Tijori (indianpetrochem.com) · 10 Nov, 09:00 am IST |
-| Polyurethane | Proxy / context | +4.0% | +9.5% | +46.3% | -4.2% | ⚪ context | Tijori (indianpetrochem.com) · 10 Nov, 09:00 am IST |
-| USD/INR (93.918 ₹ per $) | FX (export revenue) | -3.0% | -1.6% | +5.9% | -3.1% | ⚪ flat | Yahoo Finance · 10-Nov-2026 |
+| Purified terephthalic acid (PTA) | Input cost | -13.7% | -0.9% | +46.6% | -18.3% | ⚪ flat | Tijori (indianpetrochem.com) · 25 Nov, 09:00 am IST |
+| Monoethylene glycol(MEG) | Input cost | -7.0% | -6.1% | +59.9% | -17.0% | 🟢 tailwind | Tijori (indianpetrochem.com) · 25 Nov, 09:00 am IST |
+| Polyurethane | Proxy / context | +4.5% | +13.2% | +51.7% | -2.1% | ⚪ context | Tijori (indianpetrochem.com) · 25 Nov, 09:00 am IST |
+| USD/INR (92.26 ₹ per $) | FX (export revenue) | -2.8% | -1.4% | +3.5% | -4.8% | ⚪ flat | Yahoo Finance · 25-Nov-2026 |
 
 **Why each factor is here:**
 
@@ -118,7 +118,7 @@ Screener P/E 40.3x, ROCE 18.1%, ROE 13.5%; 52-week range ₹2,691–7,990. Jun-2
 - **USD/INR**: ~75% of revenue is exports (profile Risk 3).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -541,7 +541,7 @@ Two product families do most of the work:
 
 **⚠️ Risk 2 — Commodity BOPET price volatility.** *(No update. Speciality mix insulates but does not eliminate.)*
 
-> 📈 **Factor check 10-Nov-2026:** Easing: PTA −4.6% and MEG −9.7% in the month to 10-Nov (PTA still +17.0% over three months). Q2FY27 carried the peak (gross margin 59.9% → 54.7%, my calculation). *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 25-Nov-2026:** Feedstocks fell in the month to 25-Nov: PTA −13.7%, MEG −7.0%. Q3 input costs ease from the Q2 peak. *(Numbers and sources: Input & factor check, at the top.)*
 
 > 🟢 **SIZED (5-Nov-2026):** management puts crude correlation at 10–12% for sun control, 5–7% for PPF; IPD (25% of revenue, 10–12% margin) passes through.
 

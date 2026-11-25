@@ -99,18 +99,18 @@ Screener P/E 34.1x, ROCE 18.4%, ROE 15.6%; market cap ₹5,093cr; promoter 44.73
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** Long steel is +24.2% over three months, close to its high; pass-through terms are not quantified. Q2 normalised EBITDA margin was 18.6% regardless. October vehicle retail fell YoY (cars −14.2%, two-wheelers −28.4%, trucks +2.3%) — most likely festive timing, with Diwali in October last year and November this year (my inference).
+**Read (25-Nov-2026, mine, not management's):** Long steel +16.9% over three months, −3.1% in the month and 3% off its high; pass-through terms are not quantified. October vehicle retail fell YoY (cars −14.2%, two-wheelers −28.4%; trucks +2.3%).
 
 **How cost moves reach profit:** Management: 'We do not work on commodity pricing' (profile §1). Pass-through terms are not disclosed.
 
-**Sensitivity:** raw materials were **39.3% of sales in FY26** (FY25: 38.2%, Screener). A 10% move across the whole raw-material bill is worth about **393 bps of margin before any pass-through**. The tracked inputs averaged **+24.2% over three months**, which would be roughly **951 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **39.3% of sales in FY26** (FY25: 38.2%, Screener). A 10% move across the whole raw-material bill is worth about **393 bps of margin before any pass-through**. The tracked inputs averaged **+16.9% over three months**, which would be roughly **664 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Steel Long | Input cost | +1.1% | +24.2% | +35.1% | -0.6% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:30 am IST |
+| Steel Long | Input cost | -3.1% | +16.9% | +35.2% | -3.1% | 🔴 headwind | Tijori (indianpetrochem.com) · 25 Nov, 09:30 am IST |
 | Two Wheeler - Retail Sales (YoY, Oct 26) | Demand driver | — | +8.1% | -28.4% | — | 🔴 headwind | Tijori macro (India) · Oct 26 |
 | Passenger Car - Retail Sales (YoY, Oct 26) | Demand driver | — | +11.3% | -14.2% | — | 🔴 headwind | Tijori macro (India) · Oct 26 |
 | Commercial Vehicles - Retail Sales (YoY, Oct 26) | Demand driver | — | +18.1% | +2.3% | — | ⚪ flat | Tijori macro (India) · Oct 26 |
@@ -124,7 +124,7 @@ Screener P/E 34.1x, ROCE 18.4%, ROE 15.6%; market cap ₹5,093cr; promoter 44.73
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>

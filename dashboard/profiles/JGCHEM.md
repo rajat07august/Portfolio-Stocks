@@ -89,10 +89,10 @@ Swept both feeds: zero announcements.
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** The zinc cycle is turning: the October average was $3,818/t, −5.0% in the month though still +6.1% over three months (World Bank). Its zinc oxide is priced off zinc, so a fall unwinds the inventory gain — the profile's top risk.
+**Read (25-Nov-2026, mine, not management's):** Zinc averaged −5.0% in October (+6.1% over three months). Zinc is most of the cost of zinc oxide, so the fall helps Q3 spreads if prices pass through with a lag.
 
 **How cost moves reach profit:** Zinc oxide is priced off zinc, so the metal moves both cost and price; the spread over dross is the margin (my inference).
 
@@ -108,7 +108,7 @@ Swept both feeds: zero announcements.
 
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -481,6 +481,8 @@ Management: *"ours is a business which requires about 100 days of working capita
 ## 7. What Could Prove Us Wrong
 
 **1. 🔴 The zinc cycle turns.** The pass-through model protects the spread, not the inventory. **A fast LME fall converts ~2 months of stock into losses** — Jun-2023 quarter OPM 3.2%, FY24 PAT −44%. Q1FY27 was helped by rising zinc; that tailwind reverses mechanically.
+
+> 📈 **Factor check 25-Nov-2026:** Zinc averaged −5.0% in October (+6.1% over three months to 25-Nov), the main input of zinc oxide. *(Numbers and sources: Input & factor check, at the top.)*
 
 > ⚠️ **LIVE (10-Nov-2026):** the October LME zinc average fell 5.0% (World Bank); Q2 volume grew mid-teens while revenue grew 64%, so most of the growth is price — the part that reverses.
 

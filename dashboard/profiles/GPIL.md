@@ -86,10 +86,10 @@ Screener P/E 19.2x, ROCE 20.5%, ROE 15.3%; market cap ₹15,718cr; 52-week range
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** Steel products are holding better than ore: over three months sponge iron +12.1%, billet +11.1%, long steel +24.2%, while iron ore averaged $90.8/dmtu in October (−7.5% over three months, −7.1% in the month). As a captive miner, softer ore narrows its integration edge (profile Risk 7). Coal +15.5%.
+**Read (25-Nov-2026, mine, not management's):** Iron ore averaged −7.1% in October (−7.5% over three months), which helps the market-ore purchases that crushed Q2; sponge iron −1.9%, billet +2.4%, long steel +16.9% over three months. Australian coal +15.5% is the cost headwind management named.
 
 **How cost moves reach profit:** A price-taker on its products; iron ore comes from its own captive mine (profile §1).
 
@@ -98,9 +98,9 @@ Screener P/E 19.2x, ROCE 20.5%, ROE 15.3%; market cap ₹15,718cr; 52-week range
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
 | Iron ore, cfr spot (monthly avg) (90.8 $/dmtu) | Selling price | -7.1% | -7.5% | -12.3% | -16.4% | 🔴 headwind | World Bank Pink Sheet · 2026M10 |
-| Sponge Iron | Selling price | -2.1% | +12.1% | +24.7% | -4.9% | 🟢 tailwind | Tijori (indianpetrochem.com) · 10 Nov, 09:30 am IST |
-| Billet | Selling price | -5.7% | +11.1% | +22.3% | -7.1% | 🟢 tailwind | Tijori (indianpetrochem.com) · 10 Nov, 09:30 am IST |
-| Steel Long | Selling price | +1.1% | +24.2% | +35.1% | -0.6% | 🟢 tailwind | Tijori (indianpetrochem.com) · 10 Nov, 09:30 am IST |
+| Sponge Iron | Selling price | -0.5% | -1.9% | +17.9% | -5.9% | ⚪ flat | Tijori (indianpetrochem.com) · 25 Nov, 09:30 am IST |
+| Billet | Selling price | -4.0% | +2.4% | +17.0% | -8.4% | ⚪ flat | Tijori (indianpetrochem.com) · 25 Nov, 09:30 am IST |
+| Steel Long | Selling price | -3.1% | +16.9% | +35.2% | -3.1% | 🟢 tailwind | Tijori (indianpetrochem.com) · 25 Nov, 09:30 am IST |
 | Coal, Australian (monthly avg) (152.3 $/mt) | Input cost | +3.5% | +15.5% | +41.7% | +0.0% | 🔴 headwind | World Bank Pink Sheet · 2026M10 |
 | Liquefied natural gas, Japan (monthly avg) (16.59 $/mmbtu) | Proxy / context | +2.0% | +19.8% | +49.5% | +0.0% | ⚪ context | World Bank Pink Sheet · 2026M10 |
 
@@ -115,7 +115,7 @@ Screener P/E 19.2x, ROCE 20.5%, ROE 15.3%; market cap ₹15,718cr; 52-week range
 
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -688,7 +688,7 @@ CMP **₹229** · Mcap **₹15,419cr** · **P/E 18.8x** · **P/B 2.65x** (book �
 
 **Risk 7 — 🟡 Iron ore price collapse.** GPIL is long its own ore at ~₹2,900/t. A sustained fall in market ore prices compresses the integration advantage that is most of the moat.
 
-> 📈 **Factor check 10-Nov-2026:** Iron ore averaged $90.8/dmtu in October (−7.5% over three months); sponge iron (+12.1%) and billet (+11.1%) held up over three months to 10-Nov, so the spread widened even as ore fell. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 25-Nov-2026:** Iron ore −7.1% in October and −7.5% over three months; Australian coal +15.5%, the cost management named for Q2. *(Numbers and sources: Input & factor check, at the top.)*
 
 **Risk 8 — 🟡 Coking coal inflation.** Management named **higher coal prices "amid the West Asia crisis"** as the second cause of the Q1FY27 cost gap.
 

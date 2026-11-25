@@ -123,10 +123,10 @@ Screener P/E 81.3x, ROCE 28.6%, ROE 23.5%; market cap ₹3,166cr; promoter 54.79
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** Copper is −5.3% over three months, +23.1% over the year; epoxy and paper are not tracked. Pass-through is not disclosed. Electricity output +11.6% YoY.
+**Read (25-Nov-2026, mine, not management's):** Copper −17.7% over three months; tracked inputs cover only part of the bill (basket off). power generation +21.6% YoY in October.
 
 **How cost moves reach profit:** Not disclosed; the profile lists raw-material inflation as a risk (Risk 8).
 
@@ -134,17 +134,17 @@ Screener P/E 81.3x, ROCE 28.6%, ROE 23.5%; market cap ₹3,166cr; promoter 54.79
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Copper (COMEX) (6.2645 $/lb) | Input cost | -5.7% | -5.3% | +23.1% | -7.9% | 🟢 tailwind | Yahoo Finance · 10-Nov-2026 |
-| Production - Electricity (YoY, Aug 26) | Demand driver | — | +10.1% | +11.6% | — | 🟢 tailwind | Tijori macro (India) · Aug 26 |
+| Copper (COMEX) (5.4275 $/lb) | Input cost | -16.6% | -17.7% | +8.6% | -20.2% | 🟢 tailwind | Yahoo Finance · 25-Nov-2026 |
+| Production - Electricity (YoY, Oct 26) | Demand driver | — | +14.9% | +21.6% | — | 🟢 tailwind | Tijori macro (India) · Oct 26 |
 
 **Why each factor is here:**
 
 - **Copper (COMEX)**: Copper conductor in bushings (profile Risk 8).
-- **Production - Electricity (YoY, Aug 26)**: Bushings go into transformers for grid expansion (profile §2).
+- **Production - Electricity (YoY, Oct 26)**: Bushings go into transformers for grid expansion (profile §2).
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>

@@ -101,19 +101,19 @@ Market cap ₹1,073cr; ROCE 36.3%, ROE 30.3%; promoter 58.27% (after the Dec-202
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** Steel inputs are high but stopped rising: flat +10.2% and long +24.2% over three months, −1.2% and +1.1% in the month. Q2 margin still expanded to 14.9%, so the give-back has not shown.
+**Read (25-Nov-2026, mine, not management's):** Flat steel +8.8% and long steel +16.9% over three months, both near highs: a cost headwind for EPC on fixed-price work.
 
 **How cost moves reach profit:** Management said steel 'moderated from the elevated levels' and part of Q1FY27's +418 bps margin came from that (profile §4).
 
-**Sensitivity:** raw materials were **47.2% of sales in FY26** (FY25: 48.8%, Screener). A 10% move across the whole raw-material bill is worth about **472 bps of margin before any pass-through**. The tracked inputs averaged **+17.2% over three months**, which would be roughly **811 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **47.2% of sales in FY26** (FY25: 48.8%, Screener). A 10% move across the whole raw-material bill is worth about **472 bps of margin before any pass-through**. The tracked inputs averaged **+12.8% over three months**, which would be roughly **604 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Steel Flat | Input cost | -1.2% | +10.2% | +35.1% | -1.2% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:30 am IST |
-| Steel Long | Input cost | +1.1% | +24.2% | +35.1% | -0.6% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:30 am IST |
+| Steel Flat | Input cost | +0.5% | +8.8% | +37.9% | -1.1% | 🔴 headwind | Tijori (indianpetrochem.com) · 25 Nov, 09:30 am IST |
+| Steel Long | Input cost | -3.1% | +16.9% | +35.2% | -3.1% | 🔴 headwind | Tijori (indianpetrochem.com) · 25 Nov, 09:30 am IST |
 
 **Why each factor is here:**
 
@@ -121,7 +121,7 @@ Market cap ₹1,073cr; ROCE 36.3%, ROE 30.3%; promoter 58.27% (after the Dec-202
 - **Steel Long**: Same (profile §4).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -552,7 +552,7 @@ Total income **₹206.19cr (+67.76%)**, EBITDA **₹31.35cr (+131.4%)** at **15.
 
 **Risk 5 — 🟡 The margin gain is partly input-cost driven.** Q1FY27's +418bps came with steel *"moderated from the elevated levels."* **Escalation clauses cut both ways.** *My inference, not management's position.*
 
-> 📈 **Factor check 10-Nov-2026:** Steel stayed high (flat +10.2%, long +24.2% over three months to 10-Nov) yet Q2FY27 margin expanded to 14.9%; the expected give-back has not shown. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 25-Nov-2026:** Flat steel +8.8% and long steel +16.9% over three months to 25-Nov, both near highs: a cost headwind on fixed-price EPC. *(Numbers and sources: Input & factor check, at the top.)*
 
 **Risk 6 — 🟡 PEB margin is not yet in the P&L.** **No owned capacity today**; production outsourced under job-work. Inauguration 30-Aug-2026, commercial production realistically **Nov–Dec 2026**, benefit *"1%-plus or 1.5%."* **Third-party PEB revenue should not be modelled at all.**
 

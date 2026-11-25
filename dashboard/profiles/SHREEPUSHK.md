@@ -85,10 +85,10 @@ Swept both feeds: zero announcements.
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** Sulphur, its biggest input, is not tracked; Brent, the nearest proxy, fell 13.5% in the month to ~$91. Rock phosphate is flat. National fertiliser output −12.4% YoY (August).
+**Read (25-Nov-2026, mine, not management's):** Brent front-month ~$88 (−23.7% in the month, 25.3% below its 52-week high; the World Bank's October average was ~$125, so sources still disagree on level); phosphate rock is flat. Fertiliser output −12.2% YoY in October. Sulphur is not tracked (basket off).
 
 **How cost moves reach profit:** Sulphur went from ~$250–300/t to ~$1,100/t in March 2026 (CMD, Q1FY27); pass-through is partial. Sulphur itself is not tracked by any source here.
 
@@ -96,20 +96,20 @@ Swept both feeds: zero announcements.
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Brent crude (90.61 $/bbl) | Proxy / context | -13.5% | +1.9% | +41.4% | -23.4% | ⚪ context | Yahoo Finance · 10-Nov-2026 |
+| Brent crude (88.38 $/bbl) | Proxy / context | -23.7% | +0.6% | +41.5% | -25.3% | ⚪ context | Yahoo Finance · 25-Nov-2026 |
 | Phosphate rock (monthly avg) (170.0 $/mt) | Input cost | +0.0% | +0.0% | +11.5% | +0.0% | ⚪ flat | World Bank Pink Sheet · 2026M10 |
-| Production - Fertilizers (YoY, Aug 26) | Demand driver | — | -7.9% | -12.4% | — | 🔴 headwind | Tijori macro (India) · Aug 26 |
+| Production - Fertilizers (YoY, Oct 26) | Demand driver | — | -12.1% | -12.2% | — | 🔴 headwind | Tijori macro (India) · Oct 26 |
 
 **Why each factor is here:**
 
 - **Brent crude**: Sulphur is a refinery by-product whose price follows crude and Gulf shipping (profile).
 - **Phosphate rock (monthly avg)**: Single super phosphate is made from rock phosphate and sulphuric acid (profile: SSP fertiliser).
-- **Production - Fertilizers (YoY, Aug 26)**: SSP/NPK fertiliser business (profile).
+- **Production - Fertilizers (YoY, Oct 26)**: SSP/NPK fertiliser business (profile).
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -549,7 +549,7 @@ Plus ₹9.33cr for 30,000 m² of adjoining land at Lote Parshuram, bought at auc
 
 **2. 🔴 Sulphur and ammonia stay at crisis prices and the finished-product market does not reprice.** Both segments are hit simultaneously. The integration does not hedge; it concentrates.
 
-> 📈 **Factor check 10-Nov-2026:** Sulphur is not tracked by any available source; Brent, its driver, fell 13.5% in the month to ~$91 (10-Nov); rock phosphate is flat. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 25-Nov-2026:** Brent fell 23.7% in the month to 25-Nov; phosphate rock flat; fertiliser output −12.2% YoY in October. Sulphur untracked. *(Numbers and sources: Input & factor check, at the top.)*
 
 > 🟡 **EASING (5-Nov-2026):** CMD: *"Sulfur is starting to come down."* The acid complex still runs low. *"There was no inventory gain"*, he says.
 

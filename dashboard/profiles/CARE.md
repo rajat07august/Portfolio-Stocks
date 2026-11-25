@@ -76,16 +76,16 @@ Screener P/E 28.3x, ROCE 26.3%, ROE 19.7%; 52-week range ₹1,393–1,838.
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** Credit to large industry grew 11.6% YoY in September (16.6% in August) — a softer backdrop for rating volumes.
+**Read (25-Nov-2026, mine, not management's):** Credit to large industry +8.8% YoY (Sep), down from 16.6% in August: fewer new bank facilities to rate.
 
 **How cost moves reach profit:** No commodity inputs.
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Credit to Large Industry - Outstanding (YoY, Sep 26) | Demand driver | — | +15.9% | +11.6% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
+| Credit to Large Industry - Outstanding (YoY, Sep 26) | Demand driver | — | +15.0% | +8.8% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
 
 **Why each factor is here:**
 
@@ -93,7 +93,7 @@ Screener P/E 28.3x, ROCE 26.3%, ROE 19.7%; 52-week range ₹1,393–1,838.
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>

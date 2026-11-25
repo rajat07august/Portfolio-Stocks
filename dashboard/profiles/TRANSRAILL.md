@@ -85,20 +85,20 @@ Filings: FY26 annual report (2-Sep), final-dividend tax notice, Ms. Ranjana Mait
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** Long steel is +24.2% over three months and near its high; zinc for galvanising averaged −5.0% in October (+6.1% over three months); aluminium −10.3%. With ~65% of contracts carrying fixed-price input risk, Q2's 11.6% margin shows the pressure was absorbed.
+**Read (25-Nov-2026, mine, not management's):** Long steel +16.9% over three months but −3.1% in the month; zinc averaged −5.0% in October (+6.1% over three months); aluminium −16.0%. With ~65% of contracts fixed-price, steel is the cost to watch, now off its peak.
 
 **How cost moves reach profit:** About 65% of contracts carry input risk on fixed prices (profile).
 
-**Sensitivity:** raw materials were **44.7% of sales in FY26** (FY25: 48.4%, Screener). A 10% move across the whole raw-material bill is worth about **447 bps of margin before any pass-through**. The tracked inputs averaged **+6.7% over three months**, which would be roughly **300 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **44.7% of sales in FY26** (FY25: 48.4%, Screener). A 10% move across the whole raw-material bill is worth about **447 bps of margin before any pass-through**. The tracked inputs averaged **+2.3% over three months**, which would be roughly **103 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Steel Long | Input cost | +1.1% | +24.2% | +35.1% | -0.6% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:30 am IST |
+| Steel Long | Input cost | -3.1% | +16.9% | +35.2% | -3.1% | 🔴 headwind | Tijori (indianpetrochem.com) · 25 Nov, 09:30 am IST |
 | Zinc (monthly avg) (3,818.0 $/mt) | Input cost | -5.0% | +6.1% | +21.1% | -5.0% | 🔴 headwind | World Bank Pink Sheet · 2026M10 |
-| Aluminium (COMEX) (3,114.25 $/t) | Input cost | -2.1% | -10.3% | +11.1% | -25.8% | 🟢 tailwind | Yahoo Finance · 10-Nov-2026 |
+| Aluminium (COMEX) (2,872.5 $/t) | Input cost | -12.1% | -16.0% | +4.8% | -31.5% | 🟢 tailwind | Yahoo Finance · 24-Nov-2026 |
 
 **Why each factor is here:**
 
@@ -108,7 +108,7 @@ Filings: FY26 annual report (2-Sep), final-dividend tax notice, Ms. Ranjana Mait
 
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -538,7 +538,7 @@ CFO Khandelwal, pressed by Kartikay Agrawal: *"It is **INR80 crores** loan, and 
 
 **Risk 7 — 🟡 Commodity pass-through gap.** Only **~35% price-variation**; **65% fixed-price input risk** on steel, zinc and aluminium.
 
-> 📈 **Factor check 10-Nov-2026:** Long steel +24.2% and zinc +6.1% over three months to 10-Nov (zinc −5.0% in October), aluminium −10.3%; Q2FY27 margin held at 11.6%. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 25-Nov-2026:** Long steel +16.9% over three months to 25-Nov but −3.1% in the month; zinc −5.0% in October. *(Numbers and sources: Input & factor check, at the top.)*
 
 **Risk 8 — 🟡 International and country risk.** **Africa ~20% across 28 countries** — security (Mali kidnappings were raised by an analyst), currency and payment. **Mitigated by multilateral funding, not eliminated.**
 

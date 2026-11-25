@@ -90,22 +90,22 @@ The stock gave back its post-results run and now trades at the Blackstone block 
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** Polyethylene is still climbing: LDPE +38.9% over three months (+8.0% in the month), LLDPE +14.6%, HDPE +9.3%. EPL passes landed cost through, so this shows up as revenue inflation and a lower reported margin rather than lost profit — Q2's 18.9% reported vs 20.4% underlying was exactly that. The rupee is 3.0% stronger in the month. FMCG volume growth +6.6% YoY (June quarter).
+**Read (25-Nov-2026, mine, not management's):** Polyethylene is still high but has stopped rising in the month: LDPE +35.8% over three months (+5.5% in the month), LLDPE +12.2% (−0.7%), HDPE +7.9% (−2.1%). EPL passes landed cost through, so this shows up as revenue inflation and a lower reported margin, not lost profit. FMCG volume +6.6% YoY (Sep).
 
 **How cost moves reach profit:** Contractual landed-cost pricing: raw material, freight and currency are recovered from customers, with a lag (CEO, Q1FY27 call). The cost shows up as revenue inflation and margin dilution, not as lost rupees of profit.
 
-**Sensitivity:** raw materials were **40.2% of sales in FY26** (FY25: 41.2%, Screener). A 10% move across the whole raw-material bill is worth about **402 bps of margin before any pass-through**. The tracked inputs averaged **+20.9% over three months**, which would be roughly **840 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **40.2% of sales in FY26** (FY25: 41.2%, Screener). A 10% move across the whole raw-material bill is worth about **402 bps of margin before any pass-through**. The tracked inputs averaged **+18.6% over three months**, which would be roughly **748 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| LLDPE | Input cost | +1.2% | +14.6% | +49.5% | +0.0% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:00 am IST |
-| LDPE | Input cost | +8.0% | +38.9% | +77.4% | +0.0% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:00 am IST |
-| HDPE | Input cost | -0.9% | +9.3% | +51.2% | -2.7% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:00 am IST |
-| USD/INR (93.918 ₹ per $) | Input cost | -3.0% | -1.6% | +5.9% | -3.1% | ⚪ flat | Yahoo Finance · 10-Nov-2026 |
-| Brent crude (90.61 $/bbl) | Proxy / context | -13.5% | +1.9% | +41.4% | -23.4% | ⚪ context | Yahoo Finance · 10-Nov-2026 |
+| LLDPE | Input cost | -0.7% | +12.2% | +21.6% | -1.7% | 🔴 headwind | Tijori (indianpetrochem.com) · 25 Nov, 09:00 am IST |
+| LDPE | Input cost | +5.5% | +35.8% | +75.6% | -1.5% | 🔴 headwind | Tijori (indianpetrochem.com) · 25 Nov, 09:00 am IST |
+| HDPE | Input cost | -2.1% | +7.9% | +49.9% | -3.9% | 🔴 headwind | Tijori (indianpetrochem.com) · 25 Nov, 09:00 am IST |
+| USD/INR (92.26 ₹ per $) | Input cost | -2.8% | -1.4% | +3.5% | -4.8% | ⚪ flat | Yahoo Finance · 25-Nov-2026 |
+| Brent crude (88.38 $/bbl) | Proxy / context | -23.7% | +0.6% | +41.5% | -25.3% | ⚪ context | Yahoo Finance · 25-Nov-2026 |
 | Volume Growth - FMCG (YoY, Jun 26) | Demand driver | — | +5.5% | +6.6% | — | 🟢 tailwind | Tijori macro (India) · Jun 26 |
 
 **Why each factor is here:**
@@ -119,7 +119,7 @@ The stock gave back its post-results run and now trades at the Blackstone block 
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -170,7 +170,7 @@ The useful analogy is not a packaging company at all — **it is a co-located co
 
 **Moat 3 — Contractual landed-cost pricing across the book.** Bakshi, Q1FY27: *"all our customer contracts are on a landed cost basis. So currency depreciation also gets recovered. Freight also saw sharp increase and we have been able to recover that from the customers."* **Q1FY27 is one quarter of hard evidence for this** — full cost inflation recovered, per the press release.
 
-> 📈 **Factor check 10-Nov-2026:** Polyethylene is still climbing: LDPE +38.9% (+8.0% in the month), LLDPE +14.6% and HDPE +9.3% over three months to 10-Nov. Q2FY27 showed the mechanism: reported EBITDA margin 18.9% against 20.4% underlying, the difference being pass-through in revenue. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 25-Nov-2026:** Polyethylene is still high but steadied in the month: LDPE +35.8% (+5.5% in the month), LLDPE +12.2% and HDPE +7.9% over three months to 25-Nov. Pass-through shows up in revenue, not margin. *(Numbers and sources: Input & factor check, at the top.)*
 
 **Moat 4 — A margin record that was, until this quarter, best-in-class.** Seven straight quarters above 20% EBITDA, every region inside the guided band.
 

@@ -89,10 +89,10 @@ Screener P/E 54.1x (was ~47x), ROCE 29.1%, ROE 21.3%; market cap ₹2,105cr; pro
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** No commodity series fits a CNC builder. The rupee's 3.0% gain in the month slightly cheapens imported ball screws and guideways; MSME credit, which funds its job-shop buyers, grew 27.0% YoY in September.
+**Read (25-Nov-2026, mine, not management's):** the rupee is ₹92.3/$, 2.8% stronger in the month and 1.4% over three months, 3.5% weaker than a year ago; imported CNC controls get slightly cheaper. MSME credit +27.0% YoY (Sep): the customer base is still borrowing.
 
 **How cost moves reach profit:** Machine prices were raised 4–6% from 1-Jun-2026 (profile §4); a 19,000-SKU component shelf with a one-year buffer on imported ball screws delays cost moves (profile §4).
 
@@ -100,7 +100,7 @@ Screener P/E 54.1x (was ~47x), ROCE 29.1%, ROE 21.3%; market cap ₹2,105cr; pro
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (93.918 ₹ per $) | Input cost | -3.0% | -1.6% | +5.9% | -3.1% | ⚪ flat | Yahoo Finance · 10-Nov-2026 |
+| USD/INR (92.26 ₹ per $) | Input cost | -2.8% | -1.4% | +3.5% | -4.8% | ⚪ flat | Yahoo Finance · 25-Nov-2026 |
 | Credit to MSME - Outstanding (YoY, Sep 26) | Demand driver | — | +26.6% | +27.0% | — | 🟢 tailwind | Tijori macro (India) · Sep 26 |
 
 **Why each factor is here:**
@@ -110,7 +110,7 @@ Screener P/E 54.1x (was ~47x), ROCE 29.1%, ROE 21.3%; market cap ₹2,105cr; pro
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>

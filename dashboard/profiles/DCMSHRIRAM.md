@@ -95,10 +95,10 @@ No company filing explains the fall. Reported P/E 11.3x on TTM; on the profile's
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** Caustic is soft (lye −9.7% in the month, +3.5% over three months; flakes −5.2% over three months), while vinyl stays the strong leg: PVC +12.9% and the PVC-over-EDC spread +29.7% over three months. Imported coal (power-plant input) +15.5% (October average). The company's own Q2 ECU was ₹32,774/MT (+6% YoY), set by chlorine, not caustic.
+**Read (25-Nov-2026, mine, not management's):** Caustic is weak (lye −6.6% and flakes −11.4% over three months, both well off their highs); vinyl is the strong leg, with PVC +10.9% and the PVC-over-EDC spread +142% over three months. Australian coal +15.5% over three months is a cost headwind; fertiliser output −12.2% YoY in October.
 
 **How cost moves reach profit:** Mostly a price-taker on both sides: caustic is priced off chlor-alkali spreads, sugar off a government-set cane price, urea is regulated (profile §2).
 
@@ -106,14 +106,14 @@ No company filing explains the fall. Reported P/E 11.3x on TTM; on the profile's
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Caustic Soda Lye | Selling price | -9.7% | +3.5% | +2.6% | -33.7% | 🟢 tailwind | Tijori (indianpetrochem.com) · 10 Nov, 09:00 am IST |
-| Caustic Soda Flakes | Selling price | +7.1% | -5.2% | +7.3% | -19.9% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:00 am IST |
-| PVC | Selling price | +1.1% | +12.9% | +44.5% | -9.6% | 🟢 tailwind | Tijori (indianpetrochem.com) · 10 Nov, 09:00 am IST |
-| PVC - Ethylene Dichloride | Margin spread | -4.2% | +29.7% | +47.1% | -14.5% | 🟢 tailwind | Tijori (indianpetrochem.com) · 10 Nov, 09:30 am IST |
+| Caustic Soda Lye | Selling price | -3.0% | -6.6% | +4.1% | -35.4% | 🔴 headwind | Tijori (indianpetrochem.com) · 25 Nov, 09:00 am IST |
+| Caustic Soda Flakes | Selling price | +0.0% | -11.4% | +2.8% | -23.3% | 🔴 headwind | Tijori (indianpetrochem.com) · 25 Nov, 09:00 am IST |
+| PVC | Selling price | +1.2% | +10.9% | +49.0% | -33.8% | 🟢 tailwind | Tijori (indianpetrochem.com) · 25 Nov, 09:00 am IST |
+| PVC - Ethylene Dichloride | Margin spread | +77.8% | +142.3% | +182.6% | +0.0% | 🟢 tailwind | Tijori (indianpetrochem.com) · 25 Nov, 09:30 am IST |
 | Coal, Australian (monthly avg) (152.3 $/mt) | Input cost | +3.5% | +15.5% | +41.7% | +0.0% | 🔴 headwind | World Bank Pink Sheet · 2026M10 |
-| Ethanol | Selling price | -1.8% | -5.3% | -0.6% | -7.5% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:00 am IST |
+| Ethanol | Selling price | +0.0% | +0.0% | +0.0% | -6.9% | ⚪ flat | Tijori (indianpetrochem.com) · 25 Nov, 09:00 am IST |
 | Sugar, world (monthly avg) (0.43 $/kg) | Proxy / context | +4.9% | +26.5% | +26.5% | +0.0% | ⚪ context | World Bank Pink Sheet · 2026M10 |
-| Production - Fertilizers (YoY, Aug 26) | Demand driver | — | -7.9% | -12.4% | — | 🔴 headwind | Tijori macro (India) · Aug 26 |
+| Production - Fertilizers (YoY, Oct 26) | Demand driver | — | -12.1% | -12.2% | — | 🔴 headwind | Tijori macro (India) · Oct 26 |
 
 **Why each factor is here:**
 
@@ -124,13 +124,13 @@ No company filing explains the fall. Reported P/E 11.3x on TTM; on the profile's
 - **Coal, Australian (monthly avg)**: 383 MW of coal-fired captive power (profile Moat 1). Imported-coal grade is a proxy: the profile does not say how much coal is imported.
 - **Ethanol**: Sugar & ethanol segment; ethanol hit the E20 blending ceiling with OMC requirement down 13% (profile).
 - **Sugar, world (monthly avg)**: Context only: Indian sugar prices and cane costs are government-set, so the world price is not the company's realisation.
-- **Production - Fertilizers (YoY, Aug 26)**: Fertiliser business within Agri-Rural (profile Thread F).
+- **Production - Fertilizers (YoY, Oct 26)**: Fertiliser business within Agri-Rural (profile Thread F).
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 *Monthly average; lags spot by up to a month.*
 *Spread between two prices: % moves on a spread are huge and flip sign; read the direction, not the size.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -459,7 +459,7 @@ The 30-second snapshot:
 
 ### 🔴 The disclosure that appears nowhere in writing: ECU may be down ~16%
 
-> 📈 **Factor check 10-Nov-2026:** Resolved on the Q2FY27 call: ECU +6% YoY on chlorine, caustic 'corrected in line with global markets'. Tijori's caustic lye is −9.7% in the month to 10-Nov, +3.5% over three months. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 25-Nov-2026:** Caustic is weak (lye −6.6%, flakes −11.4% over three months to 25-Nov); the PVC-over-EDC spread is +142%. *(Numbers and sources: Input & factor check, at the top.)*
 
 Asked where caustic prices are heading, **Aditya Shriram (Deputy MD)**:
 > *"We normally don't make forward-looking statements, but… **current ECU is in the range of just below INR30,000.** So, we expect it to be in this range or higher. As for the **chlorine price, currently it is in the minus INR7,000 to minus INR8,000 range.**"*

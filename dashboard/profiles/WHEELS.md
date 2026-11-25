@@ -110,19 +110,19 @@ Market cap ₹5,316cr; Screener P/E 32.5x (was 22.6x); ROCE 18.8%, ROE 15.8%; 52
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** Steel and aluminium have diverged: flat steel +10.2% over three months (−1.2% in the month, near its high), aluminium −10.3%. Management said a raw-material cost advantage arrived at the very end of Q2 — Q3 is where it should show (their claim, to test). Tractor sales −15.5% YoY (September); October truck retail +2.3%.
+**Read (25-Nov-2026, mine, not management's):** Steel and aluminium keep diverging: flat steel +8.8% over three months and near its high, aluminium −16.0% (−12.1% in the month). Both pass through to OEMs with a lag. Trucks +2.3% YoY in October; tractors −15.5% (Sep).
 
 **How cost moves reach profit:** Steel and aluminium are passed through to OEMs with a lag, and in windmill machining the customer supplies the metal, so metal moves show up in revenue more than margin (profile §1, §4).
 
-**Sensitivity:** raw materials were **68.0% of sales in FY26** (FY25: 70.0%, Screener). A 10% move across the whole raw-material bill is worth about **680 bps of margin before any pass-through**. The tracked inputs averaged **-0.1% over three months**, which would be roughly **7 bps of relief** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **68.0% of sales in FY26** (FY25: 70.0%, Screener). A 10% move across the whole raw-material bill is worth about **680 bps of margin before any pass-through**. The tracked inputs averaged **-3.6% over three months**, which would be roughly **245 bps of relief** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Steel Flat | Input cost | -1.2% | +10.2% | +35.1% | -1.2% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:30 am IST |
-| Aluminium (COMEX) (3,114.25 $/t) | Input cost | -2.1% | -10.3% | +11.1% | -25.8% | 🟢 tailwind | Yahoo Finance · 10-Nov-2026 |
+| Steel Flat | Input cost | +0.5% | +8.8% | +37.9% | -1.1% | 🔴 headwind | Tijori (indianpetrochem.com) · 25 Nov, 09:30 am IST |
+| Aluminium (COMEX) (2,872.5 $/t) | Input cost | -12.1% | -16.0% | +4.8% | -31.5% | 🟢 tailwind | Yahoo Finance · 24-Nov-2026 |
 | Commercial Vehicles - Retail Sales (YoY, Oct 26) | Demand driver | — | +18.1% | +2.3% | — | ⚪ flat | Tijori macro (India) · Oct 26 |
 | Tractor Sales (YoY, Sep 26) | Demand driver | — | +3.8% | -15.5% | — | 🔴 headwind | Tijori macro (India) · Sep 26 |
 
@@ -135,7 +135,7 @@ Market cap ₹5,316cr; Screener P/E 32.5x (was 22.6x); ROCE 18.8%, ROE 15.8%; 52
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>

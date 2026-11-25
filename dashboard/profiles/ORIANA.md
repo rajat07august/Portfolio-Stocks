@@ -104,26 +104,26 @@ Memorandum recording the company's **intent** to invest ~₹4,500cr in an integr
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** Its key inputs, solar modules and battery cells, are not tracked. The rupee's 3.0% gain in the month slightly cheapens imported equipment; electricity output +11.6% YoY.
+**Read (25-Nov-2026, mine, not management's):** Power generation +21.6% YoY in October. the rupee is ₹92.3/$, 2.8% stronger in the month and 1.4% over three months, 3.5% weaker than a year ago; imported modules and cells get cheaper.
 
 **How cost moves reach profit:** Solar modules and battery cells are not tracked. EPC contracts are fixed-price (my inference).
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (93.918 ₹ per $) | Input cost | -3.0% | -1.6% | +5.9% | -3.1% | ⚪ flat | Yahoo Finance · 10-Nov-2026 |
-| Production - Electricity (YoY, Aug 26) | Demand driver | — | +10.1% | +11.6% | — | 🟢 tailwind | Tijori macro (India) · Aug 26 |
+| USD/INR (92.26 ₹ per $) | Input cost | -2.8% | -1.4% | +3.5% | -4.8% | ⚪ flat | Yahoo Finance · 25-Nov-2026 |
+| Production - Electricity (YoY, Oct 26) | Demand driver | — | +14.9% | +21.6% | — | 🟢 tailwind | Tijori macro (India) · Oct 26 |
 
 **Why each factor is here:**
 
 - **USD/INR**: Imported cells and BESS equipment (profile risk list: 'crude oil + currency fluctuation').
-- **Production - Electricity (YoY, Aug 26)**: Power-demand growth drives renewable and storage tenders (profile §2).
+- **Production - Electricity (YoY, Oct 26)**: Power-demand growth drives renewable and storage tenders (profile §2).
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>

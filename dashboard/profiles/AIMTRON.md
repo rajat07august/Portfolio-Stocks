@@ -96,10 +96,10 @@ Screener: market cap ₹3,536cr, ROCE 28.2%, ROE 23.6%; 52-week range ₹675–1
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** Component prices are not tracked; the rupee is 3.0% stronger in the month and its net effect is not disclosed.
+**Read (25-Nov-2026, mine, not management's):** the rupee is ₹92.3/$, 2.8% stronger in the month and 1.4% over three months, 3.5% weaker than a year ago; components are dollar-priced, so this is context.
 
 **How cost moves reach profit:** No tracked price or macro series drives this business directly. Component prices are not tracked.
 
@@ -107,14 +107,14 @@ Screener: market cap ₹3,536cr, ROCE 28.2%, ROE 23.6%; 52-week range ₹675–1
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (93.918 ₹ per $) | Proxy / context | -3.0% | -1.6% | +5.9% | -3.1% | ⚪ context | Yahoo Finance · 10-Nov-2026 |
+| USD/INR (92.26 ₹ per $) | Proxy / context | -2.8% | -1.4% | +3.5% | -4.8% | ⚪ context | Yahoo Finance · 25-Nov-2026 |
 
 **Why each factor is here:**
 
 - **USD/INR**: ~20–25% exports and imported components; net effect not disclosed (profile).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>

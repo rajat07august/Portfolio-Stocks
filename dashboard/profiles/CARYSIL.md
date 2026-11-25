@@ -85,10 +85,10 @@ Screener P/E 29.9x, ROCE 18.0%, ROE 17.4%; market cap ₹3,218cr; promoter 41.34
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** Methyl methacrylate, the acrylic binder in its quartz sinks, is −5.0% in the month and −1.7% over three months. Quartz is not tracked. The rupee's 3.0% gain in the month is a small export headwind.
+**Read (25-Nov-2026, mine, not management's):** Methyl-methacrylate −10.6% in the month (−4.2% over three months), a tailwind for acrylic sinks; quartz is not tracked. the rupee is ₹92.3/$, 2.8% stronger in the month and 1.4% over three months, 3.5% weaker than a year ago.
 
 **How cost moves reach profit:** Not disclosed. Pricing to IKEA and Lowe's is contractual (my inference).
 
@@ -96,8 +96,8 @@ Screener P/E 29.9x, ROCE 18.0%, ROE 17.4%; market cap ₹3,218cr; promoter 41.34
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Methyl-Methacrylate | Input cost | -5.0% | -1.7% | +66.3% | -23.9% | ⚪ flat | Tijori (indianpetrochem.com) · 10 Nov, 09:00 am IST |
-| USD/INR (93.918 ₹ per $) | FX (export revenue) | -3.0% | -1.6% | +5.9% | -3.1% | ⚪ flat | Yahoo Finance · 10-Nov-2026 |
+| Methyl-Methacrylate | Input cost | -10.6% | -4.2% | +55.3% | -28.9% | 🟢 tailwind | Tijori (indianpetrochem.com) · 25 Nov, 09:00 am IST |
+| USD/INR (92.26 ₹ per $) | FX (export revenue) | -2.8% | -1.4% | +3.5% | -4.8% | ⚪ flat | Yahoo Finance · 25-Nov-2026 |
 
 **Why each factor is here:**
 
@@ -105,7 +105,7 @@ Screener P/E 29.9x, ROCE 18.0%, ROE 17.4%; market cap ₹3,218cr; promoter 41.34
 - **USD/INR**: Export-led: IKEA, Lowe's and other global retailers (profile §1).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>

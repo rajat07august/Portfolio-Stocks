@@ -94,17 +94,17 @@ Screener P/E 17.8x (was 19.1x), ROCE 20.4%, ROE 16.0%; 52-week range ₹632–1,
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** The rupee is ₹93.9/$ — 3.0% stronger in the month, 1.6% stronger over three months, 5.9% weaker than a year ago. The euro is 4.1% weaker over three months. Q2 EBITDA margin was 21.1% regardless.
+**Read (25-Nov-2026, mine, not management's):** the rupee is ₹92.3/$, 2.8% stronger in the month and 1.4% over three months, 3.5% weaker than a year ago; the euro is 9.3% weaker over three months. A stronger rupee trims reported revenue growth; Q2 margin held regardless.
 
 **How cost moves reach profit:** No commodity inputs. The only market factor is currency: ~60–70% of revenue is USD-denominated (profile Risk 11).
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| USD/INR (93.918 ₹ per $) | FX (export revenue) | -3.0% | -1.6% | +5.9% | -3.1% | ⚪ flat | Yahoo Finance · 10-Nov-2026 |
-| EUR/INR (105.4116 ₹ per €) | FX (export revenue) | -2.8% | -4.1% | +3.7% | -6.3% | 🔴 headwind | Yahoo Finance · 10-Nov-2026 |
+| USD/INR (92.26 ₹ per $) | FX (export revenue) | -2.8% | -1.4% | +3.5% | -4.8% | ⚪ flat | Yahoo Finance · 25-Nov-2026 |
+| EUR/INR (100.9601 ₹ per €) | FX (export revenue) | -4.6% | -9.3% | -1.6% | -10.2% | 🔴 headwind | Yahoo Finance · 25-Nov-2026 |
 
 **Why each factor is here:**
 
@@ -112,7 +112,7 @@ Screener P/E 17.8x (was 19.1x), ROCE 20.4%, ROE 16.0%; 52-week range ₹632–1,
 - **EUR/INR**: Some European revenue (my inference; the profile gives no currency split beyond USD).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -616,7 +616,7 @@ It recorded *"FY27 outlook (implicit from concalls): continued 15% revenue growt
 
 **Risk 11 — ⚪ Currency.** **~60–70% of revenue is USD-denominated**; INR appreciation compresses reported growth and is already visible in the other-income swings.
 
-> 📈 **Factor check 10-Nov-2026:** ₹93.9/$ on 10-Nov: 3.0% stronger in the month, 5.9% weaker than a year ago. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 25-Nov-2026:** The rupee is ₹92.3/$ on 25-Nov, 2.8% stronger in the month; the euro 9.3% weaker over three months. *(Numbers and sources: Input & factor check, at the top.)*
 
 **Risk 12 — ⚪ Second-generation transition.** Rahul and Sameer Kanodia are in their 50s; no Gen-3 or professional-CEO plan is on record.
 

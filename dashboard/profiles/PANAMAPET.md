@@ -83,10 +83,10 @@ The only filing since the profile was written is the SEBI PIT trading-window clo
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** The spot price has turned: Brent front-month is ~$91, −13.5% in the month and 23.4% below its 52-week high (World Bank October average ~$125 — sources disagree on level). This business gains on rising crude through its inventory and gives it back when crude falls; Q2 gross margin already stepped down from 31% to 27% (my arithmetic). Base oil is not tracked.
+**Read (25-Nov-2026, mine, not management's):** Brent front-month ~$88 (−23.7% in the month, 25.3% below its 52-week high; the World Bank's October average was ~$125, so sources still disagree on level). The spread business gains on the way up and gives back on the way down; a ~24% monthly fall in crude is the inventory-loss scenario for Q3. the rupee is ₹92.3/$, 2.8% stronger in the month and 1.4% over three months, 3.5% weaker than a year ago.
 
 **How cost moves reach profit:** A spread business on imported base oil held for about three months: rising crude first lifts margins (inventory gains), then compresses them on the way down (profile, explainer).
 
@@ -94,8 +94,8 @@ The only filing since the profile was written is the SEBI PIT trading-window clo
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Brent crude (90.61 $/bbl) | Proxy / context | -13.5% | +1.9% | +41.4% | -23.4% | ⚪ context | Yahoo Finance · 10-Nov-2026 |
-| USD/INR (93.918 ₹ per $) | Input cost | -3.0% | -1.6% | +5.9% | -3.1% | ⚪ flat | Yahoo Finance · 10-Nov-2026 |
+| Brent crude (88.38 $/bbl) | Proxy / context | -23.7% | +0.6% | +41.5% | -25.3% | ⚪ context | Yahoo Finance · 25-Nov-2026 |
+| USD/INR (92.26 ₹ per $) | Input cost | -2.8% | -1.4% | +3.5% | -4.8% | ⚪ flat | Yahoo Finance · 25-Nov-2026 |
 
 **Why each factor is here:**
 
@@ -103,7 +103,7 @@ The only filing since the profile was written is the SEBI PIT trading-window clo
 - **USD/INR**: Most base oil is imported (profile §1).
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -525,7 +525,7 @@ The Rayani family, a Mumbai-based Khoja/Ismaili business family *(community is m
 
 **1. 🔴 The windfall reverses.** Three months of inventory is a double-edged sword. **A fast crude fall marks down stock just as the fixed-price half of the contract book lags.** The FY22 cycle faded over three years; a sharp Hormuz resolution could reverse this one within a quarter. The ~₹95cr of stock Panol built in Q1 is the immediate exposure.
 
-> 📈 **Factor check 10-Nov-2026:** Under way at the spot end: Brent front-month ~$91 on 10-Nov, −13.5% in the month and 23.4% below its 52-week high (World Bank October average ~$125); Q2FY27 gross margin already stepped down from 31% to 27% (my arithmetic). *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 25-Nov-2026:** Brent front-month ~$88 on 25-Nov, −23.7% in the month: the inventory-loss direction for a spread business. *(Numbers and sources: Input & factor check, at the top.)*
 
 > ⚠️ **BEGINNING? (4-Nov-2026):** gross margin 31.2% → 27.3% QoQ; Brent front-month ~$102 from ~$111.
 

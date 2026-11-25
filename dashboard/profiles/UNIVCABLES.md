@@ -73,23 +73,23 @@
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** Metals are easing — copper −5.3% and aluminium −10.3% over three months — while polymers keep rising (PVC +12.9%, polyethylene as an XLPE proxy +38.9%). Raw materials were 75% of FY26 sales. Q2's 9.3% margin (below the ~10% guide) came with metals already softening, so inputs are not the explanation (my inference). Electricity output +11.6% YoY (August).
+**Read (25-Nov-2026, mine, not management's):** Metals fell sharply (copper −17.7% and aluminium −16.0% over three months; copper −16.6% in the month) while polymers stay high (PVC +10.9%; polyethylene, an XLPE proxy, +35.8%). Raw materials were 75% of FY26 sales; power generation +21.6% YoY in October.
 
 **How cost moves reach profit:** Partial. EPC contracts carry price-escalation clauses, key inputs are tied up when large orders are bid, and a hedging desk has run since Jan-2022 (CARE, Feb-2026). The share of the bill that is passed through is not disclosed.
 
-**Sensitivity:** raw materials were **75.0% of sales in FY26** (FY25: 76.0%, Screener). A 10% move across the whole raw-material bill is worth about **750 bps of margin before any pass-through**. The tracked inputs averaged **-0.9% over three months**, which would be roughly **68 bps of relief** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **75.0% of sales in FY26** (FY25: 76.0%, Screener). A 10% move across the whole raw-material bill is worth about **750 bps of margin before any pass-through**. The tracked inputs averaged **-7.6% over three months**, which would be roughly **570 bps of relief** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Copper (COMEX) (6.2645 $/lb) | Input cost | -5.7% | -5.3% | +23.1% | -7.9% | 🟢 tailwind | Yahoo Finance · 10-Nov-2026 |
-| Aluminium (COMEX) (3,114.25 $/t) | Input cost | -2.1% | -10.3% | +11.1% | -25.8% | 🟢 tailwind | Yahoo Finance · 10-Nov-2026 |
-| LDPE | Proxy / context | +8.0% | +38.9% | +77.4% | +0.0% | ⚪ context | Tijori (indianpetrochem.com) · 10 Nov, 09:00 am IST |
-| PVC | Input cost | +1.1% | +12.9% | +44.5% | -9.6% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:00 am IST |
-| USD/INR (93.918 ₹ per $) | FX (export revenue) | -3.0% | -1.6% | +5.9% | -3.1% | ⚪ flat | Yahoo Finance · 10-Nov-2026 |
-| Production - Electricity (YoY, Aug 26) | Demand driver | — | +10.1% | +11.6% | — | 🟢 tailwind | Tijori macro (India) · Aug 26 |
+| Copper (COMEX) (5.4275 $/lb) | Input cost | -16.6% | -17.7% | +8.6% | -20.2% | 🟢 tailwind | Yahoo Finance · 25-Nov-2026 |
+| Aluminium (COMEX) (2,872.5 $/t) | Input cost | -12.1% | -16.0% | +4.8% | -31.5% | 🟢 tailwind | Yahoo Finance · 24-Nov-2026 |
+| LDPE | Proxy / context | +5.5% | +35.8% | +75.6% | -1.5% | ⚪ context | Tijori (indianpetrochem.com) · 25 Nov, 09:00 am IST |
+| PVC | Input cost | +1.2% | +10.9% | +49.0% | -33.8% | 🔴 headwind | Tijori (indianpetrochem.com) · 25 Nov, 09:00 am IST |
+| USD/INR (92.26 ₹ per $) | FX (export revenue) | -2.8% | -1.4% | +3.5% | -4.8% | ⚪ flat | Yahoo Finance · 25-Nov-2026 |
+| Production - Electricity (YoY, Oct 26) | Demand driver | — | +14.9% | +21.6% | — | 🟢 tailwind | Tijori macro (India) · Oct 26 |
 
 **Why each factor is here:**
 
@@ -98,11 +98,11 @@
 - **LDPE**: XLPE insulation is cross-linked polyethylene (CARE names polyethylene). Tijori's LDPE is a commodity grade, not cable-grade XLPE compound, so treat it as context (my inference).
 - **PVC**: PVC is used for sheaths and LV insulation; Satna makes 9,000 MT/yr of its own PVC compound (Reg 30 capacity filing, Aug-2026).
 - **USD/INR**: Exports were 12.7% of Q1FY27 revenue, mostly USD (CARE); some working-capital debt is in foreign currency and imported machinery raised the capex (Feb-2026 filing).
-- **Production - Electricity (YoY, Aug 26)**: Over 75% of orders come from the power sector (CARE, Feb-2026).
+- **Production - Electricity (YoY, Oct 26)**: Over 75% of orders come from the power sector (CARE, Feb-2026).
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>

@@ -83,10 +83,10 @@ Verified on both feeds: no announcements. Price ₹610 → ₹606; market cap �
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** Its inputs (technical-grade actives) and drivers (monsoon, crop prices) are not tracked. Tractor sales −15.5% YoY in September, a rough rural-demand signal only. Q2 gross margin was 33.7%.
+**Read (25-Nov-2026, mine, not management's):** No priced technical-grade input is tracked; tractors −15.5% YoY (Sep) is rural context.
 
 **How cost moves reach profit:** Profile Risk 3: raw-material inflation not fully passed through. Agrochemical technicals are not tracked here.
 
@@ -102,7 +102,7 @@ Verified on both feeds: no announcements. Price ₹610 → ₹606; market cap �
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>

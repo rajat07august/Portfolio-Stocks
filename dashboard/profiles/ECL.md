@@ -83,19 +83,19 @@ Screener P/E 28.5x on trough earnings, ROCE 5.0%, ROE 3.0%; market cap ₹4,536c
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** Mixed inputs: iron ore averaged $90.8 in October (−7.5% over three months), met coke +16.1% and coal +15.5%. Coke is made in-house, so the market price is an opportunity cost (my inference). DI pipe prices are not tracked. Q2 results still to come.
+**Read (25-Nov-2026, mine, not management's):** Inputs moved apart: iron ore −7.5% over three months (a tailwind) but met coke +22.1% (+7.9% in the month) and Australian coal +15.5%, the coking-coal squeeze management said hits Q3 and Q4, 60–70% passed on so far.
 
 **How cost moves reach profit:** DI pipe is a commodity-linked product; management describes price turning before volume (profile §4).
 
-**Sensitivity:** raw materials were **54.0% of sales in FY26** (FY25: 49.0%, Screener). A 10% move across the whole raw-material bill is worth about **540 bps of margin before any pass-through**. The tracked inputs averaged **+8.0% over three months**, which would be roughly **432 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **54.0% of sales in FY26** (FY25: 49.0%, Screener). A 10% move across the whole raw-material bill is worth about **540 bps of margin before any pass-through**. The tracked inputs averaged **+10.0% over three months**, which would be roughly **540 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
 | Iron ore, cfr spot (monthly avg) (90.8 $/dmtu) | Input cost | -7.1% | -7.5% | -12.3% | -16.4% | 🟢 tailwind | World Bank Pink Sheet · 2026M10 |
-| Met Coke | Input cost | -0.7% | +16.1% | +32.3% | -2.4% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:30 am IST |
+| Met Coke | Input cost | +7.9% | +22.1% | +37.4% | +0.0% | 🔴 headwind | Tijori (indianpetrochem.com) · 25 Nov, 09:30 am IST |
 | Coal, Australian (monthly avg) (152.3 $/mt) | Input cost | +3.5% | +15.5% | +41.7% | +0.0% | 🔴 headwind | World Bank Pink Sheet · 2026M10 |
 
 **Why each factor is here:**
@@ -106,7 +106,7 @@ Screener P/E 28.5x on trough earnings, ROCE 5.0%, ROE 3.0%; market cap ₹4,536c
 
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>

@@ -76,10 +76,10 @@ Two AGM-related filings only. Price ₹142 → ₹143; Screener P/E 24.7x, ROCE 
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** Neither soda ash nor Indian furnace gas is tracked, and those two set the margin. Asian LNG (October average $16.59, +19.8% over three months) is context only. Q2 margin held at 16%.
+**Read (25-Nov-2026, mine, not management's):** Asian LNG (a fuel proxy) +19.8% over three months; soda ash is not tracked.
 
 **How cost moves reach profit:** Profile: 'Energy and soda ash set the margin, and neither is controllable' (Risk 2). Neither soda ash nor Indian furnace gas is tracked.
 
@@ -95,7 +95,7 @@ Two AGM-related filings only. Price ₹142 → ₹143; Screener P/E 24.7x, ROCE 
 
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>

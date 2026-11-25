@@ -87,10 +87,10 @@ Screener P/E 65.7x, ROCE 13.8%, ROE 13.0%; market cap ₹1,415cr; promoter 44.60
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** No tracked series applies; naval shipbuilding and data-centre cooling orders drive it.
+**Read (25-Nov-2026, mine, not management's):** No traded input or demand series is tracked; the driver is naval shipbuilding.
 
 **How cost moves reach profit:** No tracked price or macro series drives this business directly. The driver is naval shipbuilding orders.
 
@@ -98,7 +98,7 @@ Screener P/E 65.7x, ROCE 13.8%, ROE 13.0%; market cap ₹1,415cr; promoter 44.60
 
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>

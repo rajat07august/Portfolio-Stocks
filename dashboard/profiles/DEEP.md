@@ -89,31 +89,31 @@ Screener P/E 11.5x, which is the profile's write-off-adjusted basis (on reported
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** Brent front-month fell to ~$91 (−13.5% in the month, 23.4% below its 52-week high), while the World Bank's October average was ~$125 — the gap between the two sources has widened, and I leave the level open. Asian LNG, the benchmark for its market-priced gas, averaged $16.59/MMBTU in October (+19.8% over three months). Most revenue is fixed-rate services; the PEC's market-priced gas is where this lands, from Q3.
+**Read (25-Nov-2026, mine, not management's):** Brent front-month ~$88 (−23.7% in the month, 25.3% below its 52-week high; the World Bank's October average was ~$125, so sources still disagree on level). Asian LNG (Japan) +19.8% over three months; India gas output −7.6% YoY in October. Deep's revenue is contract-driven (dayrates and O&M), so this is context more than a P&L line.
 
 **How cost moves reach profit:** Service contracts with ONGC and others at fixed day-rates, so commodity prices act on demand and on the gas-sales contract, not on costs.
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Brent crude (90.61 $/bbl) | Demand driver | -13.5% | +1.9% | +41.4% | -23.4% | ⚪ flat | Yahoo Finance · 10-Nov-2026 |
+| Brent crude (88.38 $/bbl) | Demand driver | -23.7% | +0.6% | +41.5% | -25.3% | ⚪ flat | Yahoo Finance · 25-Nov-2026 |
 | Liquefied natural gas, Japan (monthly avg) (16.59 $/mmbtu) | Selling price | +2.0% | +19.8% | +49.5% | +0.0% | 🟢 tailwind | World Bank Pink Sheet · 2026M10 |
-| Natural gas (Henry Hub) (3.253 $/mmbtu) | Proxy / context | +1.0% | +17.6% | -25.0% | -56.4% | ⚪ context | Yahoo Finance · 10-Nov-2026 |
-| Production - Natural Gas (YoY, Aug 26) | Demand driver | — | -5.3% | -4.9% | — | 🔴 headwind | Tijori macro (India) · Aug 26 |
+| Natural gas (Henry Hub) (3.613 $/mmbtu) | Proxy / context | +38.9% | +27.1% | -18.3% | -51.6% | ⚪ context | Yahoo Finance · 25-Nov-2026 |
+| Production - Natural Gas (YoY, Oct 26) | Demand driver | — | -5.7% | -7.6% | — | 🔴 headwind | Tijori macro (India) · Oct 26 |
 
 **Why each factor is here:**
 
 - **Brent crude**: Upstream customers' activity and budgets track crude (my inference; the profile lists crude-long names as S4 beneficiaries).
 - **Liquefied natural gas, Japan (monthly avg)**: The production-enhancement contract sells gas at market prices of US$8–15/MMBTU; Deep carries full price risk (profile Risk 5). Asian LNG is the nearest benchmark; the contract's exact index is not disclosed.
 - **Natural gas (Henry Hub)**: US Henry Hub gas: context only, not the contract's price.
-- **Production - Natural Gas (YoY, Aug 26)**: India's gas output is what its compression and production-enhancement work serves (my inference).
+- **Production - Natural Gas (YoY, Oct 26)**: India's gas output is what its compression and production-enhancement work serves (my inference).
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 *Monthly average; lags spot by up to a month.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -556,7 +556,7 @@ Called *"the single most important number on DEEP"* on 28-Jul; **it is a composi
 
 **Risk 5 — 🟡 Free-market gas price exposure.** The PEC is priced at market (**US$8–15/MMBTU**). Deep carries **no exploration risk but full price risk**, and FY28's ₹150cr+ from this field assumes prices hold.
 
-> 📈 **Factor check 10-Nov-2026:** Asian LNG averaged $16.59/MMBTU in October (+19.8% over three months), above the US$8–15 band; Brent front-month fell to ~$91 by 10-Nov (World Bank October average ~$125 — sources disagree on level). *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 25-Nov-2026:** Brent front-month ~$88 on 25-Nov (−23.7% in the month); World Bank October average ~$125. Revenue is contract-driven, so this is context. *(Numbers and sources: Input & factor check, at the top.)*
 
 **Risk 6 — 🟡 ONGC concentration.** ONGC dominates the customer base and the order book. **Contract timing moves earnings**, and the two transformational tenders (Gamij, Geleki) are also ONGC.
 

@@ -83,22 +83,22 @@ Screener P/E 15.6x, ROCE 24.5%, ROE 18.0%; 52-week range ₹471–907. FII holdi
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** Inputs have stopped accelerating but sit high: PVC +12.9%, DOP +15.7% and polyurethane +9.5% over three months; in the month PVC +1.1%, DOP −1.6%. Q2 still printed a ~57% gross margin and a 28% operating margin, helped by US-warehouse sales — so the input squeeze has not yet reached the P&L. Brent front-month fell 13.5% in the month to ~$91, and the CFO says freight is 20–25% off its peak. October vehicle retail fell YoY (cars −14.2%, two-wheelers −28.4%, trucks +2.3%) — most likely festive timing, with Diwali in October last year and November this year (my inference).
+**Read (25-Nov-2026, mine, not management's):** Inputs are high but flat-to-easing in the month: PVC +10.9% over three months (+1.2% in the month), DOP +7.8% (−4.6%), polyurethane +13.2% (+4.5%). Q2 gross margin was ~57%, with 55–56% guided as sustainable. October vehicle retail fell YoY (cars −14.2%, two-wheelers −28.4%; trucks +2.3%).
 
 **How cost moves reach profit:** Partial and lagged. Management described raw materials going 'up very sharply… then a fall… then again up' since March 2026, with shipping costs up 4x (profile Risk 4). No contractual pass-through is disclosed.
 
-**Sensitivity:** raw materials were **55.0% of sales in FY26** (FY25: 57.0%, Screener). A 10% move across the whole raw-material bill is worth about **550 bps of margin before any pass-through**. The tracked inputs averaged **+12.7% over three months**, which would be roughly **698 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
+**Sensitivity:** raw materials were **55.0% of sales in FY26** (FY25: 57.0%, Screener). A 10% move across the whole raw-material bill is worth about **550 bps of margin before any pass-through**. The tracked inputs averaged **+10.6% over three months**, which would be roughly **583 bps of pressure** if the whole bill moved the same way. *That is an upper bound: it is a simple average (weights are not disclosed) and it ignores pass-through.*
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| PVC | Input cost | +1.1% | +12.9% | +44.5% | -9.6% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:00 am IST |
-| DOP ( Dioctyl Phthalate ) | Input cost | -1.6% | +15.7% | +70.8% | -8.2% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:00 am IST |
-| Polyurethane | Input cost | +4.0% | +9.5% | +46.3% | -4.2% | 🔴 headwind | Tijori (indianpetrochem.com) · 10 Nov, 09:00 am IST |
-| Brent crude (90.61 $/bbl) | Proxy / context | -13.5% | +1.9% | +41.4% | -23.4% | ⚪ context | Yahoo Finance · 10-Nov-2026 |
-| USD/INR (93.918 ₹ per $) | FX (export revenue) | -3.0% | -1.6% | +5.9% | -3.1% | ⚪ flat | Yahoo Finance · 10-Nov-2026 |
+| PVC | Input cost | +1.2% | +10.9% | +49.0% | -33.8% | 🔴 headwind | Tijori (indianpetrochem.com) · 25 Nov, 09:00 am IST |
+| DOP ( Dioctyl Phthalate ) | Input cost | -4.6% | +7.8% | +67.0% | -12.6% | 🔴 headwind | Tijori (indianpetrochem.com) · 25 Nov, 09:00 am IST |
+| Polyurethane | Input cost | +4.5% | +13.2% | +51.7% | -2.1% | 🔴 headwind | Tijori (indianpetrochem.com) · 25 Nov, 09:00 am IST |
+| Brent crude (88.38 $/bbl) | Proxy / context | -23.7% | +0.6% | +41.5% | -25.3% | ⚪ context | Yahoo Finance · 25-Nov-2026 |
+| USD/INR (92.26 ₹ per $) | FX (export revenue) | -2.8% | -1.4% | +3.5% | -4.8% | ⚪ flat | Yahoo Finance · 25-Nov-2026 |
 | Passenger Car - Retail Sales (YoY, Oct 26) | Demand driver | — | +11.3% | -14.2% | — | 🔴 headwind | Tijori macro (India) · Oct 26 |
 
 **Why each factor is here:**
@@ -112,7 +112,7 @@ Screener P/E 15.6x, ROCE 24.5%, ROE 18.0%; 52-week range ₹471–907. FII holdi
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>
@@ -594,7 +594,7 @@ Analysts and management discuss a **"25% plus"** margin on the Q1FY27 call while
 
 **Risk 4 — 🟡 Raw material and freight volatility.** Petrochemical inputs *"went up very sharply… then a fall… then again up"*, and **shipping costs rose 4x** in Q1FY27 on the war situation. Management will not call the freight increase permanent, but nor can they call it temporary.
 
-> 📈 **Factor check 10-Nov-2026:** High but no longer accelerating: PVC +12.9%, DOP +15.7%, polyurethane +9.5% over three months to 10-Nov (DOP −1.6% in the month). Q2FY27 gross margin was ~57% and freight is easing (CFO: 20–25% off peak) — the squeeze has not reached the P&L yet. *(Numbers and sources: Input & factor check, at the top.)*
+> 📈 **Factor check 25-Nov-2026:** High but flat-to-easing: PVC +10.9%, DOP +7.8%, polyurethane +13.2% over three months to 25-Nov (DOP −4.6% in the month). Q2 gross margin ~57%; 55–56% guided as sustainable. *(Numbers and sources: Input & factor check, at the top.)*
 
 **Risk 5 — 🟡 Volume growth is ~2%.** The +24.5% revenue came almost entirely from price and mix. **The value/volume gap is deliberate and management says so — but a mix shift is finite, and at some point volume has to do the work.** *This is what the capacity additions are for; it is also why they matter.*
 

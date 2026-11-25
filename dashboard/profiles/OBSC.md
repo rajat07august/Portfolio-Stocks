@@ -96,10 +96,10 @@ Screener P/E 76.4x, ROCE 19.5%, ROE 19.6%; market cap ₹2,404cr; 52-week range 
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** Not trackable yet: the profile does not identify its raw-material mix, and raw materials jumped from 50% to 71% of sales in FY26 (Screener). The mix question stands.
+**Read (25-Nov-2026, mine, not management's):** No tracked input fits this precision-component maker; raw materials rose to 71% of FY26 sales from 50%, the open question in the profile rather than a market signal.
 
 **How cost moves reach profit:** The profile does not identify the raw-material mix or pass-through terms.
 
@@ -107,7 +107,7 @@ Screener P/E 76.4x, ROCE 19.5%, ROE 19.6%; market cap ₹2,404cr; 52-week range 
 
 
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>

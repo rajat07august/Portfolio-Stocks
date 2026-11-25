@@ -78,10 +78,10 @@ Only a 15-Sep investor-meet notice. Price ₹1,902 → ₹1,666; Screener P/E 58
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** Copper is −5.3% over three months (+23.1% over the year); electrical steel is not tracked; Brent (transformer-oil proxy) fell to ~$91. Revenue per MVA follows commodity prices, so softer copper slows revenue.
+**Read (25-Nov-2026, mine, not management's):** Copper −17.7% over three months (−16.6% in the month); CRGO is not tracked, so the basket line stays off. Revenue per MVA tracks copper, as management says. power generation +21.6% YoY in October.
 
 **How cost moves reach profit:** CMD: 'Revenue per MVA is directly related to the commodity pricing… steel, copper, oil' (profile §4). Orders are priced at bid, so the lag matters.
 
@@ -89,21 +89,21 @@ Only a 15-Sep investor-meet notice. Price ₹1,902 → ₹1,666; Screener P/E 58
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Copper (COMEX) (6.2645 $/lb) | Input cost | -5.7% | -5.3% | +23.1% | -7.9% | 🟢 tailwind | Yahoo Finance · 10-Nov-2026 |
-| Steel Flat | Proxy / context | -1.2% | +10.2% | +35.1% | -1.2% | ⚪ context | Tijori (indianpetrochem.com) · 10 Nov, 09:30 am IST |
-| Brent crude (90.61 $/bbl) | Proxy / context | -13.5% | +1.9% | +41.4% | -23.4% | ⚪ context | Yahoo Finance · 10-Nov-2026 |
-| Production - Electricity (YoY, Aug 26) | Demand driver | — | +10.1% | +11.6% | — | 🟢 tailwind | Tijori macro (India) · Aug 26 |
+| Copper (COMEX) (5.4275 $/lb) | Input cost | -16.6% | -17.7% | +8.6% | -20.2% | 🟢 tailwind | Yahoo Finance · 25-Nov-2026 |
+| Steel Flat | Proxy / context | +0.5% | +8.8% | +37.9% | -1.1% | ⚪ context | Tijori (indianpetrochem.com) · 25 Nov, 09:30 am IST |
+| Brent crude (88.38 $/bbl) | Proxy / context | -23.7% | +0.6% | +41.5% | -25.3% | ⚪ context | Yahoo Finance · 25-Nov-2026 |
+| Production - Electricity (YoY, Oct 26) | Demand driver | — | +14.9% | +21.6% | — | 🟢 tailwind | Tijori macro (India) · Oct 26 |
 
 **Why each factor is here:**
 
 - **Copper (COMEX)**: Copper windings (profile §4).
 - **Steel Flat**: Electrical (CRGO) steel is the key core material; no CRGO series exists, so flat steel is context only.
 - **Brent crude**: Transformer oil is a crude derivative (profile §4 'oil').
-- **Production - Electricity (YoY, Aug 26)**: Transformer demand follows grid expansion (profile §2).
+- **Production - Electricity (YoY, Oct 26)**: Transformer demand follows grid expansion (profile §2).
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>

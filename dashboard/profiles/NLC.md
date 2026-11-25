@@ -105,26 +105,26 @@ Screener P/E 11.6x, ROCE 8.4%, ROE 11.9%; promoter (President of India) 69.47%; 
 
 <!-- FACTORS:START -->
 <details class="upd" id="factor-check">
-<summary><span class="upd-date">📈 Input &amp; factor check · 10-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
+<summary><span class="upd-date">📈 Input &amp; factor check · 25-Nov-2026</span> <span class="upd-sum">What the prices this business buys and sells have done lately, and what that means for margins.</span></summary>
 <div class="upd-body">
 
-**Read (10-Nov-2026, mine, not management's):** Electricity output +11.6% YoY (August); India's coal output −3.8%. Regulated, cost-plus tariffs largely pass fuel through (my inference).
+**Read (25-Nov-2026, mine, not management's):** Power generation +21.6% and coal output +23.1% YoY in October: demand is strong for a thermal and lignite generator.
 
 **How cost moves reach profit:** Power is sold under regulated, cost-plus tariffs, so fuel prices pass through (my inference).
 
 | Factor | Role | 1M | 3M | 1Y | vs 52w high | Effect | Source · as of |
 |---|---|---|---|---|---|---|---|
-| Production - Electricity (YoY, Aug 26) | Demand driver | — | +10.1% | +11.6% | — | 🟢 tailwind | Tijori macro (India) · Aug 26 |
-| Production - Coal (YoY, Aug 26) | Proxy / context | — | +1.7% | -3.8% | — | ⚪ context | Tijori macro (India) · Aug 26 |
+| Production - Electricity (YoY, Oct 26) | Demand driver | — | +14.9% | +21.6% | — | 🟢 tailwind | Tijori macro (India) · Oct 26 |
+| Production - Coal (YoY, Oct 26) | Proxy / context | — | +10.0% | +23.1% | — | ⚪ context | Tijori macro (India) · Oct 26 |
 
 **Why each factor is here:**
 
-- **Production - Electricity (YoY, Aug 26)**: Generation volumes (profile).
-- **Production - Coal (YoY, Aug 26)**: India coal output: context for NLC's coal blocks (profile).
+- **Production - Electricity (YoY, Oct 26)**: Generation volumes (profile).
+- **Production - Coal (YoY, Oct 26)**: India coal output: context for NLC's coal blocks (profile).
 
 *India macro rows are growth rates, not prices: 1Y = latest month's YoY growth, 3M = average YoY of the last three readings.*
 
-*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 10-Nov-2026 20:35 by `tools/factors/pull.py`.*
+*Effect is judged on the 3-month move (flat if under 3%); for India macro rows, on the latest YoY growth (tailwind above 5%, headwind below 0). Tijori figures are percentage moves only (no price levels) and come from a single industry source (indianpetrochem.com), so they are indicative until a company's own disclosure confirms them. Snapshot pulled 25-Nov-2026 14:40 by `tools/factors/pull.py`.*
 
 </div>
 </details>
