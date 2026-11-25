@@ -12,11 +12,17 @@
 > **✅ Concall gate: CLEARED and current.** The Q1FY27 call was held **29-Jul-2026** (InCred Equities-hosted; **Paras Savla, CMD** and **Rohan Shah, CFO**), transcript filed 3-Aug and in the repo — 26pp. **Reading it changed three conclusions** and is the source of the explicit FY27/FY28 PAT guidance below.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 650** · market cap ₹ 4,160 Cr. · P/E 9.82x · ROCE 16.5 % · ROE 19.2 % · 52-wk ₹ 827 / 327 · **vs ₹688 at baseline (-5.5%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 635** · market cap ₹ 4,067 Cr. · P/E 18.9x · ROCE (TTM) 8.4 % · ROE (TTM) 10.9 % · 52-wk ₹ 825 / 330 · **vs ₹688 at baseline (-7.7%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 🟢 Q2 call read: FY28 PAT ₹470–500cr guided; standalone +18.7% clears the trigger; Dolphin receivables now under ECL; Prabha loan still unaddressed · (earlier: 🆕 🟢 Q2: standalone ₹213cr (plateau broken), H1 PAT ₹170cr = 49% of the FY27 guide; Prabha repayment not addressed · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: Only an analyst-meet schedule; Q2FY27 is the next real checkpoint · (earlier: Nothing new beyond a trading-window closure; Q2FY27 results season approaching. Stock ₹743 → ₹773 · (earlier in window: New ONGC gas-compression award (₹88.15cr, 3 years); new corporate deck adds 'defence-grade re-rating' framing and two government-scheme read-acrosses (not orders); stock +8%))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 🟢 Q2 call read: FY28 PAT ₹470–500cr guided; standalone +18.7% clears the trigger; Dolphin receivables now under ECL; Prabha loan still unaddressed · (earlier: 🆕 🟢 Q2: standalone ₹213cr (plateau broken), H1 PAT ₹170cr = 49% of the FY27 guide; Prabha repayment not addressed · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: Only an analyst-meet schedule; Q2FY27 is the next real checkpoint · (earlier: Nothing new beyond a trading-window closure; Q2FY27 results season approaching. Stock ₹743 → ₹773 · (earlier in window: New ONGC gas-compression award (₹88.15cr, 3 years); new corporate deck adds 'defence-grade re-rating' framing and two government-scheme read-acrosses (not orders); stock +8%)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — No filings in the window — verified**
+**No filings in the window** on StockScans: two independent queries across all 62 main-board and BSE names ("Limited" and "Ltd", grouped by company) returned nothing for this name, while the same queries found 33 other companies — a verified negative (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟢 4 → 10-Nov-2026 — Q2 call read: FY28 PAT guided ₹470–500cr; standalone +18.7% clears the bar; ECL provisioning begun on Dolphin receivables**
 **Official transcript of the 4-Nov Q2 call (filed 6-Nov) read in full.** Guidance: **operating revenue +30–35% in FY27 and again +30–35% in FY28; PAT ₹350–370cr in FY27 and ₹470–500cr in FY28**; EBITDA margin 42–43% on a yearly basis, with *"300 bps to 400 bps"* quarterly swings as equipment moves between contracts. Order book **₹3,089cr**; bidding pipeline ₹700–800cr. Q2 consolidated EBITDA ₹124cr (39.6%), PAT ₹81.2cr (+14%); H1 free cash flow from operations ₹155cr (+35%); ROCE 21.6% (from 19.3%).

@@ -11,11 +11,17 @@
 > **⚠️ TICKER RENAMED 2-Aug-2026: CONCORD → CONCORDCS.** This is **Concord Control Systems Ltd (BSE 543619)** — railway/metro electronics, Sector 5. It is **not** Concord Biotech Ltd (BSE 543960, ticker `CONCORDBIO`, Sector 12), which was added to the watchlist on 2-Aug-2026, and **not** Concord Enviro Systems. The old `CONCORD` ticker caused a real mis-fetch during a bulk CMP refresh (logged in CLAUDE.md, 18-Jul-2026); the rename removes the ambiguity at source. Concall folder also renamed `Fetched Concalls/543619` → `Fetched Concalls/CONCORDCS`.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 2,711** · market cap ₹ 2,815 Cr. · P/E 50.2x · ROCE 31.2 % · ROE 25.6 % · 52-wk ₹ 3,070 / 1,837 · **vs ₹2,860 at baseline (-5.2%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 2,649** · market cap ₹ 2,751 Cr. · P/E 49.0x · ROCE (TTM) 27.3 % · ROE (TTM) 23.3 % · 52-wk ₹ 3,070 / 1,837 · **vs ₹2,860 at baseline (-7.4%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 2-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Newspaper publication only · (earlier: 🆕 🟢 H1: revenue & PAT +94%, order book ~₹846cr; receivables +59% since March · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine; promoter −1.66pp over the half, cause not established · (earlier: AGM passed; main-board migration still awaiting exchange approval · (earlier: 🟢 Shareholders approved BSE SME → BSE Main Board migration AND a direct NSE main-board listing (both special resolutions, passed 19-Sep) · (earlier in window: Board approves migration to the BSE Main Board and a direct NSE Main Board listing (postal ballot); FY26 annual report and new auditors; stock −22% to ₹2,229))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 2-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 ⚪ Newspaper publication only · (earlier: 🆕 🟢 H1: revenue & PAT +94%, order book ~₹846cr; receivables +59% since March · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine; promoter −1.66pp over the half, cause not established · (earlier: AGM passed; main-board migration still awaiting exchange approval · (earlier: 🟢 Shareholders approved BSE SME → BSE Main Board migration AND a direct NSE main-board listing (both special resolutions, passed 19-Sep) · (earlier in window: Board approves migration to the BSE Main Board and a direct NSE Main Board listing (postal ballot); FY26 annual report and new auditors; stock −22% to ₹2,229)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — No filings in the window — verified**
+**No filings in the window** on StockScans: two independent queries across all 62 main-board and BSE names ("Limited" and "Ltd", grouped by company) returned nothing for this name, while the same queries found 33 other companies — a verified negative (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — Newspaper publication only**
 **BSE (5-Nov): a newspaper publication.** Nothing else.

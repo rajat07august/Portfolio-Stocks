@@ -24,11 +24,17 @@
 ---
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 603** · market cap ₹ 1,446 Cr. · P/E 25.4x · ROCE 24.9 % · ROE 18.6 % · 52-wk ₹ 732 / 295 · **vs ₹500 at baseline (+20.6%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 558** · market cap ₹ 1,338 Cr. · P/E 23.3x · ROCE (TTM) 26.5 % · ROE (TTM) 18.7 % · 52-wk ₹ 732 / 295 · **vs ₹500 at baseline (+11.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 ⚪ Quiet — verified on the exchange feed · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Nothing since the 15-Oct H1FY27 rewrite · (earlier: H1FY27: revenue +25%, PAT +72%, EBITDA 23.6% with Unit III still not producing; MD & CFO sold 4.07% of the company in Jun–Jul; conviction MH → M (Under Watch) · (earlier in window: 4.45 MW Inox Wind turbine ordered; directors' pay ceilings raised from ₹15 to ₹25 lakh/month each; AGM 31-Jul)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified on NSE) · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 ⚪ Quiet — verified on the exchange feed · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Nothing since the 15-Oct H1FY27 rewrite · (earlier: H1FY27: revenue +25%, PAT +72%, EBITDA 23.6% with Unit III still not producing; MD & CFO sold 4.07% of the company in Jun–Jul; conviction MH → M (Under Watch) · (earlier in window: 4.45 MW Inox Wind turbine ordered; directors' pay ceilings raised from ₹15 to ₹25 lakh/month each; AGM 31-Jul))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — No filings in the window — verified on NSE**
+**No announcements on NSE's SME feed in the window** (`index=sme`; StockScans' SME filings lag by about two weeks, so NSE is the source for this name — CLAUDE.md §4B).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements (SME — StockScans lags here, CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — No filings in the window — verified**
 **No filings on the exchange feed in the window** — a verified negative: a control query for the same name returned the right company (§0A rule 6).

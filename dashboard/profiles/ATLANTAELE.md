@@ -11,11 +11,17 @@
 > **🔴 THE ONE THING TO CARRY.** Q1FY27 revenue grew **48%** and the CFO's prepared remarks called it *"primarily volume-driven,"* with *"no material changes in pricing or product mix."* **The company's own volume disclosure, given in Q&A twenty minutes later, shows volumes up 21.5% and realisation per MVA up 21.8% — i.e. 45% of the growth was price.** The CMD had explained that exact mechanism himself one quarter earlier. **The growth is real; the characterisation of it is not.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 1,461** · market cap ₹ 11,235 Cr. · P/E 49.9x · ROCE 45.3 % · ROE 31.7 % · 52-wk ₹ 2,200 / 708 · **vs ₹1,902 at baseline (-23.2%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 1,435** · market cap ₹ 11,035 Cr. · P/E 49.1x · ROCE (TTM) 33.0 % · ROE (TTM) 22.3 % · 52-wk ₹ 2,153 / 708 · **vs ₹1,902 at baseline (-24.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 3-Sep-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Official Q2 transcript filed 6-Nov · (earlier: 🆕 🟡 Q2: revenue +23%, PAT +28%, margin −200bps (cause undisclosed); ₹194cr tanks/radiators capex in a subsidiary · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: AGM passed; 400 kV revenue still zero · (earlier: AGM proceedings and voting results — all resolutions passed · (earlier in window: No company event beyond an investor-meet notice; stock −12.4% to ₹1,666, now 24% below its ₹2,200 52-week high))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 3-Sep-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 ⚪ Official Q2 transcript filed 6-Nov · (earlier: 🆕 🟡 Q2: revenue +23%, PAT +28%, margin −200bps (cause undisclosed); ₹194cr tanks/radiators capex in a subsidiary · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: AGM passed; 400 kV revenue still zero · (earlier: AGM proceedings and voting results — all resolutions passed · (earlier in window: No company event beyond an investor-meet notice; stock −12.4% to ₹1,666, now 24% below its ₹2,200 52-week high)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — No filings in the window — verified**
+**No filings in the window** on StockScans: two independent queries across all 62 main-board and BSE names ("Limited" and "Ltd", grouped by company) returned nothing for this name, while the same queries found 33 other companies — a verified negative (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — Official Q2 transcript filed (6-Nov)**
 **The official transcript of the Q2 call was filed 6-Nov.** Three promoter-group members (Vandana, Raship and Avani Patel) each disclosed token buys (Form C, 150 shares). The results were read in the 4-Nov sweep.

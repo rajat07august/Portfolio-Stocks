@@ -8,11 +8,17 @@
 > **Structural note that governs how this profile should be read: CARE holds ONE earnings call a year, after Q4 only.** Its transcript filings run May-2026, May-2025, May-2024 — nothing in between. There is no Q1FY27 concall and there never will be. Three transcripts is therefore **the complete available universe, not a fetch gap** — but it is also the thinnest investor-communication cadence of any high-conviction name in this library, and that is a choice rather than a constraint. This profile is grounded in the **full Q4FY26 annual call (14-May-2026, 87,518 chars)**, the **Q1FY27 investor deck + press release (7-Aug-2026)**, the **audited FY26 results filing (13-May-2026)**, and **17 NSE/BSE filings read individually**.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 1,556** · market cap ₹ 4,691 Cr. · P/E 24.3x · ROCE 26.3 % · ROE 19.7 % · 52-wk ₹ 1,838 / 1,393 · **vs ₹1,687 at baseline (-7.8%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 1,561** · market cap ₹ 4,707 Cr. · P/E 24.3x · ROCE (TTM) 26.4 % · ROE (TTM) 19.5 % · 52-wk ₹ 1,838 / 1,393 · **vs ₹1,687 at baseline (-7.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 🟢 Q2: income +20%, EBITDA +23% (52% margin), PAT +26%; ₹10 interim dividend · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 SBI and NSEIX each to take 9.9% of CareEdge Global IFSC; CARE keeps 80.2% · (earlier: Routine ESOP allotment and meet schedule · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No material company event: investor-meet schedule and ESOP allotments only; stock −1%))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Operus JV incorporated · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 🟢 Q2: income +20%, EBITDA +23% (52% margin), PAT +26%; ₹10 interim dividend · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 SBI and NSEIX each to take 9.9% of CareEdge Global IFSC; CARE keeps 80.2% · (earlier: Routine ESOP allotment and meet schedule · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No material company event: investor-meet schedule and ESOP allotments only; stock −1%)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — Operus Consulting JV incorporated**
+**20-Nov: Operus Consulting Limited, the 50:50 JV with Vestian approved in March, incorporated.**
+> **Why it matters:** Already known; immaterial.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — No filings in the window — verified**
 **No filings on the exchange feed in the window** — a verified negative: a control query for the same name returned the right company (§0A rule 6).

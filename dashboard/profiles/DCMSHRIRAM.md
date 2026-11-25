@@ -10,11 +10,17 @@
 > **✅ Concall gate CLOSED and verified.** The Q1FY27 call (30-Jul-2026) was machine-transcribed from the company's official audio on 1-Aug under §4A, and **verified line-by-line against the official transcript published 6-Aug-2026.** Every load-bearing figure checked out verbatim — the ECU level, the chlorine price, the ₹376cr MAT credit, the 19% cash-tax rate, the demerger commitment, the 85% chlorine tie-up and the Bioseed quote. **All quotes below are from the official transcript.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 903** · market cap ₹ 14,084 Cr. · P/E 10.7x · ROCE 11.5 % · ROE 11.5 % · 52-wk ₹ 1,328 / 867 · **vs ₹1,082 at baseline (-16.5%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 871** · market cap ₹ 13,578 Cr. · P/E 10.3x · ROCE (TTM) 11.3 % · ROE (TTM) 16.3 % · 52-wk ₹ 1,325 / 867 · **vs ₹1,082 at baseline (-19.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 🔴 HELD at M (Under Watch) — ⤴ an ML downgrade applied earlier on 4-Nov was reversed (see the Q2FY27 refresh in §4/§6); Bioseed PBDIT −₹41cr; Q2 PBDIT flat ex last year's one-offs; ₹325cr of new capex; caustic contradiction resolved · (earlier: 🆕 ⚪ Q2 call 28-Oct · (earlier: ⚪ Q2 results 26-Oct; interim dividend record date 30-Oct · (earlier: 🟢 Two chlorine-downstream plants commissioned at Jhagadia (30-Sep) — aluminium chloride and calcium chloride, which is the company acting on the weak leg of the ECU · (earlier: No filings at all on either exchange in the window — verified. The caustic price contradiction stays open to Q2FY27 · (earlier in window: Kota aluminium-extrusion plant commissioned; ICRA AA+/Stable reaffirmed with higher limits; stock −8% toward its 52-week low))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 🔴 HELD at M (Under Watch) — ⤴ an ML downgrade applied earlier on 4-Nov was reversed (see the Q2FY27 refresh in §4/§6); Bioseed PBDIT −₹41cr; Q2 PBDIT flat ex last year's one-offs; ₹325cr of new capex; caustic contradiction resolved · (earlier: 🆕 ⚪ Q2 call 28-Oct · (earlier: ⚪ Q2 results 26-Oct; interim dividend record date 30-Oct · (earlier: 🟢 Two chlorine-downstream plants commissioned at Jhagadia (30-Sep) — aluminium chloride and calcium chloride, which is the company acting on the weak leg of the ECU · (earlier: No filings at all on either exchange in the window — verified. The caustic price contradiction stays open to Q2FY27 · (earlier in window: Kota aluminium-extrusion plant commissioned; ICRA AA+/Stable reaffirmed with higher limits; stock −8% toward its 52-week low)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — No filings in the window — verified**
+**No filings in the window** on StockScans: two independent queries across all 62 main-board and BSE names ("Limited" and "Ltd", grouped by company) returned nothing for this name, while the same queries found 33 other companies — a verified negative (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — No filings in the window — verified**
 **No filings on the exchange feed in the window** — a verified negative: a control query for the same name returned the right company (§0A rule 6).

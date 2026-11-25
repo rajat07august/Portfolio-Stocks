@@ -20,11 +20,17 @@
 > **⚠️ Two versions of the Q1FY27 transcript exist.** NRB filed one at 13:04 on 13-Aug-2026 and a **"Revised Earnings Call Transcript" at 18:19 the same day**, citing *"a typographical error."* All quotes below are from the **revised** file, which is authoritative. See §3.5 for what the correction actually changed — it is not nothing.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 434** · market cap ₹ 4,202 Cr. · P/E 29.1x · ROCE 18.4 % · ROE 15.6 % · 52-wk ₹ 560 / 213 · **vs ₹484 at baseline (-10.3%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 424** · market cap ₹ 4,107 Cr. · P/E 27.6x · ROCE (TTM) 16.9 % · ROE (TTM) 14.3 % · 52-wk ₹ 560 / 213 · **vs ₹484 at baseline (-12.4%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 🟡 Q2: revenue +19%, normalised EBITDA +23.5%; promoter-decline trigger still open · (earlier: 🆕 ⚪ Quiet; Q2 due 4-Nov · (earlier: 🆕 ⚪ Sells ~2.6% of Amplus Ampere for ₹1.46cr (likely captive-power structure) · (earlier: ⚠️ MD Harshbeena Zaveri sold 3,10,677 shares (0.32%) on market 18–30 Sep (disclosed on the SAST feed); June-quarter 6.47pp fall still unexplained · (earlier: Nothing filed; June's 6.47pp promoter drop still unexplained · (earlier: Second NSE volume-spurt query in five days, answered with the standard 'normal market forces' reply; June's 6.47pp promoter drop still unexplained · (earlier in window: Promoter pledge falls again (Tata Capital release of 23 lakh shares; 3.10% of capital still pledged vs 39.80% in March), but two promoter-group holders also SOLD 5.1 lakh shares on 11-Sep; NSE volume spurt; stock +8.7%))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 🟡 Q2: revenue +19%, normalised EBITDA +23.5%; promoter-decline trigger still open · (earlier: 🆕 ⚪ Quiet; Q2 due 4-Nov · (earlier: 🆕 ⚪ Sells ~2.6% of Amplus Ampere for ₹1.46cr (likely captive-power structure) · (earlier: ⚠️ MD Harshbeena Zaveri sold 3,10,677 shares (0.32%) on market 18–30 Sep (disclosed on the SAST feed); June-quarter 6.47pp fall still unexplained · (earlier: Nothing filed; June's 6.47pp promoter drop still unexplained · (earlier: Second NSE volume-spurt query in five days, answered with the standard 'normal market forces' reply; June's 6.47pp promoter drop still unexplained · (earlier in window: Promoter pledge falls again (Tata Capital release of 23 lakh shares; 3.10% of capital still pledged vs 39.80% in March), but two promoter-group holders also SOLD 5.1 lakh shares on 11-Sep; NSE volume spurt; stock +8.7%)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — No filings in the window — verified**
+**No filings in the window** on StockScans: two independent queries across all 62 main-board and BSE names ("Limited" and "Ltd", grouped by company) returned nothing for this name, while the same queries found 33 other companies — a verified negative (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟡 4 → 10-Nov-2026 — Q2: revenue +19%, normalised EBITDA +23.5%; PAT lower; ₹2.50 interim**
 **Q2FY27 (4-Nov evening).** Consolidated revenue **₹386cr (+19%)**, normalised EBITDA +23.5% (18.6% of sales); PAT ₹36cr vs ₹41cr. H1 revenue ₹756cr (+19%). **Interim dividend ₹2.50 (record date 11-Nov).** Independent director Rustom Desai's tenure ends 22-Jan-2027 (cessation "solely due to completion of his tenure"). Call recording 5-Nov.

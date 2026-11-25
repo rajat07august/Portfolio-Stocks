@@ -12,11 +12,17 @@
 > **Disclosure cadence:** SSWL files **monthly turnover** to the exchanges — rare at this size — so the trajectory in 5.5 carries monthly resolution. **Seven concall transcripts on disk** (Jan-2025 → Jul-2026), plus the Q1FY27 deck read page by page.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 549** · market cap ₹ 8,633 Cr. · P/E 29.4x · ROCE 14.8 % · ROE 11.0 % · 52-wk ₹ 574 / 169 · **vs ₹305 at baseline (+80.0%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 490** · market cap ₹ 7,713 Cr. · P/E 26.2x · ROCE (TTM) 18.1 % · ROE (TTM) 14.8 % · 52-wk ₹ 589 / 169 · **vs ₹305 at baseline (+60.7%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 🔴 CORRECTED: "Hyundai 74% of business" was a misread — it is SSWL's share of Hyundai's alloy-wheel buying; Q2 call read, EBITDA/wheel ₹404, scenarios re-derived · (earlier: 🆕 🟢 October net turnover ₹647cr (+55.6%), fourth record month; exports +179%; Q2 transcript filed · (earlier: 🆕 🟢 Q2FY27: revenue +61% (~+49% ex ₹140cr supplementary billing), PAT +229%, volume +23.5%, EBITDA/wheel ~₹398; receivables +50% in H1; ₹1,400cr greenfield; stock +20% · (earlier: ⚪ Q2 results 23-Oct, call 26-Oct · (earlier: 🟢🟢 HIGHEST-EVER MONTHLY REVENUE — September net turnover ₹625.81cr, +52.41% YoY, on record volume +22%; anchors the highest-ever Q2FY27 and H1FY27 · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: August a second record month (+53.6% YoY); borrowing limit to be raised ₹2,000cr → ₹3,500cr; promoter buying in the open market; stock +22%)))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 🔴 CORRECTED: "Hyundai 74% of business" was a misread — it is SSWL's share of Hyundai's alloy-wheel buying; Q2 call read, EBITDA/wheel ₹404, scenarios re-derived · (earlier: 🆕 🟢 October net turnover ₹647cr (+55.6%), fourth record month; exports +179%; Q2 transcript filed · (earlier: 🆕 🟢 Q2FY27: revenue +61% (~+49% ex ₹140cr supplementary billing), PAT +229%, volume +23.5%, EBITDA/wheel ~₹398; receivables +50% in H1; ₹1,400cr greenfield; stock +20% · (earlier: ⚪ Q2 results 23-Oct, call 26-Oct · (earlier: 🟢🟢 HIGHEST-EVER MONTHLY REVENUE — September net turnover ₹625.81cr, +52.41% YoY, on record volume +22%; anchors the highest-ever Q2FY27 and H1FY27 · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: August a second record month (+53.6% YoY); borrowing limit to be raised ₹2,000cr → ₹3,500cr; promoter buying in the open market; stock +22%))))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — No filings in the window — verified**
+**No filings in the window** on StockScans: two independent queries across all 62 main-board and BSE names ("Limited" and "Ltd", grouped by company) returned nothing for this name, while the same queries found 33 other companies — a verified negative (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — No filings in the window — verified**
 **No filings on the exchange feed in the window** — a verified negative: a control query for the same name returned the right company (§0A rule 6).

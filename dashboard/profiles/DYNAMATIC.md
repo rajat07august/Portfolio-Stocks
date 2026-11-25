@@ -14,11 +14,17 @@
 > **🔴 Dynamatic has not held an earnings call since February 2024** — verified across 672 NSE filings. **Yet it publishes the best earnings presentation in this refresh cycle**, including a full constant-currency reconciliation of its own headline growth. **That combination — excellent disclosure, no forum to question it — governs how this profile is written.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 12,937** · market cap ₹ 8,786 Cr. · P/E 116x · ROCE 10.2 % · ROE 6.67 % · 52-wk ₹ 14,500 / 7,673 · **vs ₹11,188 at baseline (+15.6%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 13,294** · market cap ₹ 9,028 Cr. · P/E 146.6x · ROCE (TTM) 9.3 % · ROE (TTM) 7.3 % · 52-wk ₹ 14,498 / 7,673 · **vs ₹11,188 at baseline (+18.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 🟢 Q2: revenue +15%, EBITDA +20%, PAT ₹22.5cr vs ₹10.2cr · (earlier: 🆕 🔴 UAV vertical moved into Dynauton; promoter-MD subscribes personally for 5.56% at NAV; company stake → 83.33% · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ IND A/Stable affirmed · (earlier: Trading window closed; nothing material · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: No company event beyond the FY26 annual report; stock +7.8% to ₹12,061 at 140x))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 🟡 Promoter took 6.25% of subsidiary Dynauton (₹2.5cr) · (earlier: 🆕 🟢 Q2: revenue +15%, EBITDA +20%, PAT ₹22.5cr vs ₹10.2cr · (earlier: 🆕 🔴 UAV vertical moved into Dynauton; promoter-MD subscribes personally for 5.56% at NAV; company stake → 83.33% · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ IND A/Stable affirmed · (earlier: Trading window closed; nothing material · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: No company event beyond the FY26 annual report; stock +7.8% to ₹12,061 at 140x)))))))</span></summary>
 <div class="upd-body">
+
+**🟡 18 → 25-Nov-2026 — Dynauton raised ₹39.95cr — ₹2.5cr of it from the promoter personally**
+**19-Nov: Dynauton Limited (nil FY26 turnover) completed a ₹39.95cr preferential issue** — Dynamatic ₹37.45cr (74.9 lakh shares) and **Dr Udayant Malhoutra, the promoter, ₹2.50cr (5 lakh shares)** — leaving Dynamatic at **93.75%**. Related-party, at an independent valuer's price. Analyst-meet outcome (19-Nov).
+> **Why it matters:** **A promoter buying directly into a subsidiary of the listed company is a related-party structure worth watching**, however small: value created in Dynauton is now shared 6.25% outside the listed entity.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟢 4 → 10-Nov-2026 — Q2: revenue +15%, EBITDA +20%, PAT more than doubles ex last year's exceptional**
 **Q2FY27 (6-Nov).** Revenue **₹452.7cr (+15.4%)** — aerospace ₹210.8cr (+18.1%), hydraulics ₹140.4cr (+11.2%), metallurgy ₹101.4cr (+15.8%); EBITDA ₹55.6cr (+20.3%, 12.3%); PAT **₹22.5cr vs ₹10.2cr** (last year ex a ₹6.9cr exceptional). H1 revenue ₹877.5cr (+15%), EBITDA margin 12.6%. Analyst-meet schedule 7-Nov.

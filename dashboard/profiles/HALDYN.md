@@ -12,11 +12,17 @@
 > **📋 WHAT THIS REFRESH FOUND.** v1 was **8.6 KB — the thinnest profile on the watchlist** — written 3-Jul-2026 from Screener and public information. Since then: **a strong Q1FY27 (revenue +21%, consolidated PAT +90%)**, **the FY26 annual report**, **a captive renewable-power investment**, and **a significant accounting judgement that v1 did not carry: Haldyn owns 56.80% of its principal joint venture and accounts for it as an associate rather than a subsidiary.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 137** · market cap ₹ 737 Cr. · P/E 19.9x · ROCE 13.5 % · ROE 11.4 % · 52-wk ₹ 166 / 70.4 · **vs ₹142 at baseline (-3.5%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 141** · market cap ₹ 758 Cr. · P/E 21.3x · ROCE (TTM) 15.3 % · ROE (TTM) 13.8 % · 52-wk ₹ 166 / 70.40 · **vs ₹142 at baseline (-0.7%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 2-Sep-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 🟢 Q2: revenue +21%, margin 16%; H1 CFO > operating profit; all four triggers clear · (earlier: 🆕 ⚪ Quiet; Q2 due 5-Nov · (earlier: 🆕 ⚪ Q2 board 5-Nov · (earlier: ⚪ No filings in the window (verified) · (earlier: A depository certificate only · (earlier: Trading window closed — results cycle approaching; still the last outstanding C1 refresh · (earlier in window: No company filing since the 2-Sep profile beyond AGM logistics; stock ₹142 → ₹143))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 2-Sep-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 🟢 Q2: revenue +21%, margin 16%; H1 CFO > operating profit; all four triggers clear · (earlier: 🆕 ⚪ Quiet; Q2 due 5-Nov · (earlier: 🆕 ⚪ Q2 board 5-Nov · (earlier: ⚪ No filings in the window (verified) · (earlier: A depository certificate only · (earlier: Trading window closed — results cycle approaching; still the last outstanding C1 refresh · (earlier in window: No company filing since the 2-Sep profile beyond AGM logistics; stock ₹142 → ₹143)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — No filings in the window — verified**
+**No filings in the window** on StockScans: two independent queries across all 62 main-board and BSE names ("Limited" and "Ltd", grouped by company) returned nothing for this name, while the same queries found 33 other companies — a verified negative (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟢 4 → 10-Nov-2026 — Q2: revenue +21%, margin 16%; H1 operating cash above operating profit — no trigger fired**
 **Q2FY27 (BSE, 5-Nov).** Revenue **₹140cr (+21%)**, operating margin 16%, PAT ₹13cr (₹7cr a year ago). **H1 cash (rendered statement): operating cash flow ₹51.9cr vs ₹48.2cr of operating profit before working capital; capex ₹46.4cr.** Borrowings ₹119.8cr (₹113.2cr in March); receivables ₹102.7cr (₹78.9cr).

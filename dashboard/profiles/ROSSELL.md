@@ -8,11 +8,17 @@
 > **How to read this profile:** Every meaningful claim is either sourced from a concall (quarter noted) or a filing. Where I've made a judgment I've flagged it. Not a buy/sell recommendation.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 1,381** · market cap ₹ 5,562 Cr. · P/E 183x · ROCE 11.5 % · ROE 15.7 % · 52-wk ₹ 1,699 / 552 · **vs ₹1,067 at baseline (+29.4%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 1,528** · market cap ₹ 6,154 Cr. · P/E 193.9x · ROCE (TTM) 12.1 % · ROE (TTM) 17.5 % · 52-wk ₹ 1,699 / 552 · **vs ₹1,067 at baseline (+43.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 🔴 M → ML: Q2 ₹185.7cr (<₹200cr) at a 13.8% margin (<15%) — two explicit triggers; ₹300cr preferential done · (earlier: 🆕 ⚪ NSE-directed clarifications to the preferential notice; Q2 due 6-Nov · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 EGM approved the SBI MF preferential (25.7 lakh shares) · (earlier: AGM passed; the ₹300cr SBI MF preferential goes to EGM on 15-Oct · (earlier: ₹300cr preferential to SBI Mutual Fund confirmed at ₹1,166 (25,72,898 shares); EGM to approve it on 15-Oct · (earlier in window: ₹300cr preferential issue to SBI Mutual Fund at ₹1,166 (6.39%) approved by the Board — the QIP the profile expected, as a preferential; stock +29% to ₹1,374 at ~196x))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 🟢 Repeat space-harness orders (one >₹50cr, 4–6 months) · (earlier: 🆕 🔴 M → ML: Q2 ₹185.7cr (<₹200cr) at a 13.8% margin (<15%) — two explicit triggers; ₹300cr preferential done · (earlier: 🆕 ⚪ NSE-directed clarifications to the preferential notice; Q2 due 6-Nov · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 EGM approved the SBI MF preferential (25.7 lakh shares) · (earlier: AGM passed; the ₹300cr SBI MF preferential goes to EGM on 15-Oct · (earlier: ₹300cr preferential to SBI Mutual Fund confirmed at ₹1,166 (25,72,898 shares); EGM to approve it on 15-Oct · (earlier in window: ₹300cr preferential issue to SBI Mutual Fund at ₹1,166 (6.39%) approved by the Board — the QIP the profile expected, as a preferential; stock +29% to ₹1,374 at ~196x)))))))</span></summary>
 <div class="upd-body">
+
+**🟢 18 → 25-Nov-2026 — Two repeat space-segment harness orders from an overseas customer — one over ₹50cr**
+**20-Nov: two repeat orders from 'one of its major overseas customers from space & satellite segment' for electrical wire harnesses, 4–6 months' execution** — one **'over INR 50 cr'**, the other's value withheld as confidential.
+> **Why it matters:** **₹50cr+ in a 4–6 month order is about a quarter's revenue** (Q2 ₹186cr). Repeat business from the space customer supports the ML read's open question — whether Q2's miss on the ₹200cr trigger was timing.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🔴 4 → 10-Nov-2026 — Q2: record ₹185.7cr — but below the ₹200cr and 15%-margin triggers; downgraded M → ML**
 **Q2FY27 (6-Nov).** Revenue **₹185.7cr (+47.5%)**, a record; operating margin **13.8%** (Q1 14.4%); PBT ₹12.7cr; PAT ₹9.7cr. **₹300cr preferential issue completed** (25,72,898 shares at ₹1,166, SBI MF among allottees) — the deck says it went to debt reduction. Orders ~₹190cr in Q2, ~₹430cr in H1; bids ~₹1,350cr. New Aerospace Park facility for semiconductor and non-defence work. Call recording 7-Nov; no transcript yet.

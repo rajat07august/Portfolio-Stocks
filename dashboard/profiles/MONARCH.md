@@ -5,11 +5,17 @@
 **⚠️ Monarch holds no earnings calls, files no investor presentations, and its FY26 Annual Report is still unfiled — every judgement below is inferred from statutory filings.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 343** · market cap ₹ 2,719 Cr. · P/E 14.1x · ROCE 27.6 % · ROE 20.5 % · 52-wk ₹ 407 / 235 · **vs ₹379 at baseline (-9.5%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 336** · market cap ₹ 2,662 Cr. · P/E 13.8x · ROCE (TTM) 22.6 % · ROE (TTM) 18.1 % · 52-wk ₹ 407 / 235 · **vs ₹379 at baseline (-11.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Share-split postal ballot; AIF first close · (earlier: 🆕 🟢 Q2: revenue +48%, PAT +27%; 1:5 split approved (record date pending) · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: AGM passed; no concalls, so filings are the only channel · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: No company event beyond the FY26 annual report; stock −3.4% to ₹366))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 12-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Promoter entity bought ~0.06% · (earlier: 🆕 ⚪ Share-split postal ballot; AIF first close · (earlier: 🆕 🟢 Q2: revenue +48%, PAT +27%; 1:5 split approved (record date pending) · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: AGM passed; no concalls, so filings are the only channel · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: No company event beyond the FY26 annual report; stock −3.4% to ₹366)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — Promoter entity bought 0.06% in the market**
+**Monarch Infrapark (promoter group) bought shares on 19-Nov; holding 6.17% → 6.23%.** *The form's own numbers do not reconcile: it states 36,593 shares acquired while the before/after figures differ by 50,000.*
+> **Why it matters:** Small promoter buying; the filing's arithmetic is inconsistent.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — Postal ballot for a share split; first close of a Category III AIF**
 **Postal ballot (notice 29-Oct, filed 5-Nov) to sub-divide the equity shares** and amend the capital clause. **First fund raise of MNCL Compounder Fund** (open-ended Category III AIF, Monarch AIF) completed (9-Nov).

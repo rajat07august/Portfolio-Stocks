@@ -12,11 +12,17 @@
 > **🔴 Concall gate: NOT APPLICABLE — PARAS holds no earnings calls.** Across **424 NSE filings**, the only transcript-type disclosure is from **7-Oct-2022**. **There is no Q1FY27 earnings call, no investor presentation, and no order-book disclosure** — the results filing was checked directly (`order book`: **0 mentions**). `Fetched Concalls/PARAS/` contains **only investor decks**, the most recent from **Feb-2026**. *This is a source limit, not a fetch failure — and it shapes every judgement below.*
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 1,256** · market cap ₹ 10,124 Cr. · P/E 99.1x · ROCE 17.2 % · ROE 12.4 % · 52-wk ₹ 1,585 / 580 · **vs ₹1,281 at baseline (-2.0%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 1,258** · market cap ₹ 10,137 Cr. · P/E 97.4x · ROCE (TTM) 18.2 % · ROE (TTM) 13.9 % · 52-wk ₹ 1,585 / 580 · **vs ₹1,281 at baseline (-1.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Nothing new since 4-Nov (verified) · (earlier: 🆕 🟡 Q2: revenue +42%, PAT +63%; postal ballot on material RPTs with Paras Anti-Drone · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: 🟢 ₹26.59cr DRDO order — Lead System Integrator for the optics unit of a hyperspectral Earth-observation payload · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No company event beyond investor-conference meetings and the FY26 annual report; stock +7% to ₹1,373 at ~120x))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Routine filings only · (earlier: 🆕 ⚪ Nothing new since 4-Nov (verified) · (earlier: 🆕 🟡 Q2: revenue +42%, PAT +63%; postal ballot on material RPTs with Paras Anti-Drone · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: 🟢 ₹26.59cr DRDO order — Lead System Integrator for the optics unit of a hyperspectral Earth-observation payload · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No company event beyond investor-conference meetings and the FY26 annual report; stock +7% to ₹1,373 at ~120x)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — Routine filings only**
+**Routine filings only:** analyst / investor-meet intimation only.
+> **Why it matters:** Routine; nothing on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — Nothing new since the 4-Nov sweep**
 **The only filing in the window was already read in the 4-Nov sweep** (filed the evening of 4-Nov); nothing else on the exchange feed.

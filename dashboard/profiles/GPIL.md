@@ -1,18 +1,24 @@
 # Godawari Power & Ispat (GPIL) — Company Profile
 
 **Ticker:** GPIL · BSE: 532734 · NSE: GPIL · **Sector:** 10 — Metals & Mining (Integrated Pellet + Sponge + Billets + Structural Steel)
-**Conviction:** **Medium-High (Under Watch)** · **Weighted 2-yr return:** ~+8.75% (≈4.3% CAGR) + 0.44% dividend
+**Conviction:** **⤴ Medium** *(MH (Under Watch) → M, 25-Nov-2026: two of the four downgrade triggers fired on Q2FY27 — EBITDA margin 12.0% against the 19% line, and H1 mining 0.99 MnT against 1.4)* · was **Medium-High (Under Watch)** · **Weighted 2-yr return:** ≈ −9% *(re-derived 25-Nov-2026 at ₹218; was +8.75%)* + 0.4% dividend
 **Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 21-Aug-2026)* · **Tracking since:** 3-Jul-2026
 **CMP:** ₹229 · **Market Cap:** ₹15,419 cr · **P/E (trailing):** 18.8x · **P/B:** 2.65x · **ROCE:** 20.4% · **ROE:** 15.2% · **Div yield:** 0.44% *(Screener consolidated, 13-Aug-2026)*
 
 > **The operating thesis is current as of the Q1FY27 print (7-Aug) and the earnings call (10-Aug).** Two things have been added since: the **official transcript was filed 13-Aug and the machine transcription has now been verified against it** (§9 data-quality note 1 — one figure was wrong and is corrected below), and a **promoter-group transmission on 17-Aug** following a death in the family (§5.5(b)). Neither changes the thesis.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 209** · market cap ₹ 14,056 Cr. · P/E 17.2x · ROCE 20.5 % · ROE 15.3 % · 52-wk ₹ 320 / 189 · **vs ₹229 at baseline (-8.7%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 218** · market cap ₹ 14,679 Cr. · P/E 18.4x · ROCE (TTM) 16.1 % · ROE (TTM) 12.2 % · 52-wk ₹ 320 / 189 · **vs ₹229 at baseline (-4.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Analyst-meet schedules only · (earlier: 🆕 🟡 ₹20cr Deccan Gold loan extended to Mar-27 instead of repaid; SMS capacity consent; Jammu Pigments tranche 3 · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 EC for the 20 GWh BESS plant; Godawari Energy Solutions incorporated; JPL stake sale tranche 2 (₹10cr) · (earlier: 🟡 Moving into battery storage: a new BESS/renewables EPC subsidiary and ₹50cr more into the BESS plant vehicle — diversification away from the iron-ore core · (earlier: AGM passed cleanly; Anand Rathi G200 Summit meetings disclosed no new information · (earlier in window: 2 MnT pellet plant back in operation on 29-Aug after ~46 days down; promoter transmission (17-Aug) formalised; stock +1.7%))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 🔴 Q2 margin 12%; mining guide cut to 2.5 MnT; permission arrived 19-Nov — MH → M · (earlier: 🆕 ⚪ Analyst-meet schedules only · (earlier: 🆕 🟡 ₹20cr Deccan Gold loan extended to Mar-27 instead of repaid; SMS capacity consent; Jammu Pigments tranche 3 · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 EC for the 20 GWh BESS plant; Godawari Energy Solutions incorporated; JPL stake sale tranche 2 (₹10cr) · (earlier: 🟡 Moving into battery storage: a new BESS/renewables EPC subsidiary and ₹50cr more into the BESS plant vehicle — diversification away from the iron-ore core · (earlier: AGM passed cleanly; Anand Rathi G200 Summit meetings disclosed no new information · (earlier in window: 2 MnT pellet plant back in operation on 29-Aug after ~46 days down; promoter transmission (17-Aug) formalised; stock +1.7%)))))))</span></summary>
 <div class="upd-body">
+
+**🔴 18 → 25-Nov-2026 — Q2FY27 call read — margin 12%, mining guide cut 3.4 → 2.5 MnT; MH → MEDIUM**
+**Q2FY27 (official transcript of the 16-Nov call, read in full):** revenue ₹1,632cr (+25%), **EBITDA margin 12.0%** (19.1% in Q1), PAT ₹85cr. **H1 mining 0.99 MnT; FY27 guidance cut from 3.4 to 2.5 MnT and pellets from 4.0 to 3.5 MnT** (deck slide 18, rendered). High-grade pellet merchant sales are zero; pellet EBITDA ~₹500/t on bought-in ore. **The tree-felling permission promised for 'end of September' arrived 19-Nov**; land use from ~2-Dec, 70–80% of mining capacity guided from Q1FY28. Q3 'similar on Q2' (ED) — the CFO said it would improve. BESS: first container June–July 2027; margin now '5%-7% only' (the AR said 12–13%). ICDs (~₹120cr) being called back.
+> **Why it matters:** **Two of the four downgrade triggers fired — Q2 margin below 19% and H1 mining below 1.4 MnT. MH (Under Watch) → MEDIUM.** The fix is unchanged; its date moved again.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — Analyst-meet schedules**
 Two analyst-meet schedules (5-Nov).
@@ -258,6 +264,13 @@ All three Whole-Time Director re-appointments were approved at the **7-Aug-2026 
 | Beneficiation plant 5.4 MnT | — | **On track Q3FY27**; ₹218cr of ₹325cr spent | 🕐 **On schedule** |
 | 100 MW solar | — | ₹204cr spent, completion **Sep-2026** | 🕐 |
 | 20 GWh BESS | — | ₹501cr spent, cells contracted with EVE Power, land acquired, incentives approved; **Q1FY28** | 🕐 **Progressing** |
+| *(25-Nov)* **Tree-cutting permission "by end of September"** | Q1FY27 call (Aug) | **Received 19-Nov** — seven weeks late | 🔴 **Late** |
+| *(25-Nov)* **FY27 mining 3.4 MnT, "very much on track… not revising"** | Q1FY27 call | **Cut to 2.5 MnT**; H1 0.99 MnT | 🔴 **Missed and revised** |
+| *(25-Nov)* Q2 mining "the same numbers" as Q1 | Q1FY27 call | **~0.45 MnT vs 0.54** *(my arithmetic)* | 🔴 |
+| *(25-Nov)* Pellet plant restart "September possible" | Q1FY27 call | **Restarted 29-Aug** | ✅ **Early** |
+| *(25-Nov)* Beneficiation plant Q3FY27 | ongoing | **Still "targeted for Q3FY27"** | 🕐 |
+| *(25-Nov)* 100 MW solar Sep-2026 | Q1FY27 deck | **Delayed to Dec-2026** | 🔴 **Late** |
+| *(25-Nov)* BESS margin | AR: 12–13% | **"5%-7% only"** — AR figure unexplained | 🔴 **Revised down** |
 
 **Verdict on management.**
 
@@ -423,6 +436,44 @@ The deck's own explanation: *"Fall in Iron Ore Mining volumes was primarily due 
 
 ---
 
+### 📊 Q2FY27 Refresh — Full Numbers Print (25-Nov-2026)
+
+*Sources: results (14-Nov-2026) and deck; **official transcript of the 16-Nov call, filed 19-Nov, read in full** (`Fetched Concalls/GPIL/GPIL_Transcript_2026-11_Q2FY27_OFFICIAL.pdf`); tree-felling permission filing 19-Nov; StockScans for the quarterly table. The StockScans call summary was checked claim by claim against the transcript — three mismatches, recorded below.*
+
+| ₹cr (consolidated) | Q2FY27 | Q1FY27 | Q2FY26 |
+|---|---|---|---|
+| Revenue | **1,632** | 1,750 | 1,308 |
+| EBITDA | **196** | 334 | 260 |
+| EBITDA margin | **12.0%** | 19.1% | 19.9% |
+| PAT | **85** | 222 | 162 |
+
+**H1FY27:** revenue ₹3,382cr (+29%), EBITDA margin 15.7%, PAT margin 9.1%.
+
+**Volumes against FY27 guidance** *(deck slide 18, rendered and read — the slide is headed "Robust FY27 Guidance" while cutting it)*:
+
+| | FY27 guide (was) | H1 achieved | % |
+|---|---|---|---|
+| **Iron ore mining** | **2.50 MnT (3.4)** | **0.99** | 40% |
+| Iron ore pellets | **3.50 MnT (4.0)** | 1.70 | 49% |
+| Sponge iron | 0.65 | 0.35 | 54% |
+| Steel billets | 0.525 | 0.25 | 48% |
+| Rolled products | 0.44 | 0.22 | 50% |
+| Ferro alloys | 95,000 t | 52,001 t | 55% |
+
+*My arithmetic: Q2 mining ≈ 0.45 MnT (0.99 − Q1's 0.54), lower than Q1 — the "same numbers" guided in August was not met either.*
+
+**Why the margin fell (the call):** market iron-ore fines cost *"about INR3,000-INR3,500 minimum"* a tonne more than captive ore on every extra tonne bought; **high-grade pellet merchant sales are zero** (*"earlier we used to be doing about… 50,000 tons to 1 lakh tons of high-grade sale… straightaway you can consider an impact of INR1,000"*); pellet EBITDA now *"hardly… INR500"* a tonne. War-driven costs: coal +₹1,000–1,500/t in DRI (~₹15cr a quarter) and power +₹0.50–0.75/unit (~₹25–30cr a quarter) — **but management says finished prices rose too** (pellet ₹36–38k → ₹43k *as quoted — a figure that does not fit the ₹10,500/t pellet price given elsewhere on the call, so probably a different product or unit*; DRI ₹24k → ₹29k), so only the pellet loss is a straight EBITDA loss. *The rest of the steel chain earns "INR6-INR7 a kilo" and is "doing perfectly fine".*
+
+**The permission, finally:** the 19-Nov filing records the **tree-felling permission for 60.84 ha of overburden-dumping land at Ari Dongri** — the approval management expected "by end of September" in August. **Seven weeks late.** On the call (16-Nov, three days before it arrived) management had said *"I know there has been a substantial delay, but as per my last statement, we are very much on track."* Land use from **~2-Dec**, a *"slight improvement"* in Q4, **70–80% of mining capacity from Q1FY28**, 0.50–0.52 MnT in FY28 (80–85%), 100% captive from FY29; market ore ~0.2 MnT in FY27.
+
+**Outlook in management's words:** *"Q3 will be similar on Q2"* (Abhishek Agrawal, p.15) — **while the CFO said on p.6 that pellet prices "already improved during this quarter, so we will see some profit improvement… in quarter three".** Two directors, two different Q3 calls; *I take the ED's, who runs operations.* Q4 "marginal improvement", Q1FY28 "back on track".
+
+**BESS:** 20 GWh line — first machines dispatched from China, **first container June–July 2027**; financial closure with **₹2,795cr sanctioned (₹700cr term loan, ₹100cr working capital, ~₹1,995cr non-fund-based)**; new **3 GWh C&I line, ₹135cr** (commissioning given as March-2028 in the opening and December-2027 in Q&A); first-year output ~5 GWh; **long-run margin "5%-7% only"** — an analyst pointed out the annual report said 12–13%, and management said *"I will speak to my team on this."* At 15 GWh, ~₹13,000cr turnover and ~₹600cr EBITDA a year (management). **Industry capacity announcements are "alarming" on paper**, per management, which counts on an 18–24-month lead.
+
+**Capital allocation:** CRM moved to Bidkin (31.45 acres, lease executed; Dec-2027, *"might stretch to March '28"*); ₹100cr container line (Mar-2027); ₹100cr for 50 EV dumpers; **₹26cr for 26% of a 50 MW group-captive solar SPV** — *"a diversion from our existing strategy"* because funds are going elsewhere; 100 MW own solar delayed to Dec-2026; steel plant still on hold (water). **Inter-corporate loans ~₹120cr at 12–15% being called back over 9–12 months, no new ones.** Free cash ~₹900cr.
+
+**StockScans summary vs transcript — mismatches:** (1) it gives Q3 as "guided flat" and omits the CFO's contrary statement; (2) it gives first-year BESS utilisation as 10–20%, while management also said *"by March '28… at least 20%, 25%"* and 5 GWh (25%); (3) its two tables date the 3 GWh line differently — the inconsistency is management's own.
+
 ## 5. Connecting the Dots
 
 **Thread A — Vertical integration is the margin engine, and it is currently jammed.** Mine → pellet → sponge → billet → structural, at a ₹3,300/tonne ore advantage when the mine runs. Q1FY27 is the proof of the mechanism in reverse.
@@ -455,6 +506,7 @@ The deck's own explanation: *"Fall in Iron Ore Mining volumes was primarily due 
 | **13-Aug-2026** | **HELD at Medium-High — Under Watch** | **The momentum-turn thesis broke in one quarter**, but not for the reason the initiation feared. Held because the assets are real, the cause is named and disclosed, and the fix is capitalised and dated. Under Watch because Q2FY27 is pre-announced weaker, the key volume line is 16% achieved, and the capital-allocation story changed shape |
 | 21-Aug-2026 | **HELD — no change** | Official transcript verified against the machine transcription; promoter transmission carries no economic change |
 | **19-Sep-2026** | **HELD — no change** | Filings refresh: **pellet plant resumed 29-Aug after ~46 days**; transmission of promoter shares formalised. Stock ₹229 → ₹233. |
+| **25-Nov-2026** | **⤴ MH (Under Watch) → MEDIUM** | **Two of four downgrade triggers fired on Q2FY27:** EBITDA margin **12.0%** (line: 19%) and H1 mining **0.99 MnT** (line: 1.4). The permission behind the thesis arrived 19-Nov, seven weeks late; FY27 mining guidance cut 3.4 → 2.5 MnT after being called 'very much on track'. **Held at Medium, not lower: the assets, the cash and the fix are unchanged — only the date moved again.** |
 
 **Downgrade to Medium if ANY of:**
 1. **The beneficiation plant slips past Q3FY27.**
@@ -463,6 +515,10 @@ The deck's own explanation: *"Fall in Iron Ore Mining volumes was primarily due 
 4. **Consolidated EBITDA margin below 19% again in Q2FY27** — i.e. no sequential recovery at all.
 
 **Upgrade to clean Medium-High** on captive mining back above 0.85 MnT in a quarter, with margin recovering through 22%.
+
+> **📊 Scored 25-Nov-2026 (Q2FY27):** (1) beneficiation past Q3FY27 — **not yet** (still targeted Q3) · (2) pellet plant suspended at results — **CLEAR** (restarted 29-Aug) · (3) H1 mining below 1.4 MnT — **⚠️ FIRED (0.99 MnT)** · (4) Q2 EBITDA margin below 19% — **⚠️ FIRED (12.0%)**. **→ Downgraded to MEDIUM.**
+>
+> **New triggers at Medium.** **Down to ML if:** Q4FY27 shows no sequential mining improvement over Q3 · beneficiation not commissioned by 31-Mar-2027 · FY28 Q1 mining below 1.0 MnT (i.e. well short of the 70–80%-of-capacity guide) · BESS first container slips past Sep-2027. **Back to MH on:** a quarter of captive mining above 0.85 MnT with EBITDA margin through 19%.
 
 ### (b) Material developments — newest first
 
@@ -598,15 +654,33 @@ CMP **₹229** · Mcap **₹15,419cr** · **P/E 18.8x** · **P/B 2.65x** (book �
 
 ---
 
+### 📊 25-Nov-2026 — scenarios re-derived after Q2FY27
+
+*My estimates, from ₹218 / mcap ~₹14,700cr (StockScans, 23-Nov close). The 13-Aug set above is kept as the record.* FY27 now looks like ~₹500–550cr of PAT (H1 ₹307cr; Q3 guided like Q2; Q4 "marginal improvement") — **my estimate**.
+
+| Scenario | Prob. | FY28 | PAT × multiple | Mcap | Return |
+|---|---|---|---|---|---|
+| **Base** | **50%** | Mining 70–80% of capacity from Q1FY28 as guided; pellet merchant premium back; BESS first container mid-2027, little profit in FY28 | ₹850cr × 16x | ₹13,600cr | **≈ −7%** |
+| **Bull** | **20%** *(was 25%)* | Full captive ore by H2FY28; pellet EBITDA >₹4,000/t as guided; BESS ramps on schedule | ₹1,150cr × 20x | ₹23,000cr | **≈ +56%** |
+| **Bear** | **30%** *(was 25%)* | Ramp slips again; pellet prices weak; BESS margins at 5% into an over-built market | ₹550cr × 12x | ₹6,600cr | **≈ −55%** |
+
+**Weighted 2-year return ≈ −9%** *(0.50 × −7 + 0.20 × 56 − 0.30 × 55)*. **At 18x trailing earnings the stock already prices the FY28 recovery that has now been pushed back twice.** Upside needs the ramp to happen on the new dates; the permission arriving is necessary, not sufficient.
+
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — 🔴 Mining permissions, which have already materialised once.** Captive mining fell **16% YoY / 20% QoQ** because overburden-dumping space ran out awaiting **state-government approval for entry and tree cutting on government revenue land**, routed through the forest department. Approval is hoped for **end-September 2026**, dumping from October, ramp from Q3, full capacity Q1FY28. Meanwhile ore is bought at ~₹6,200/t against ~₹2,900/t captive. **This is Risk 1, not Risk 4 — it is the thing that actually happened.**
 
+> ⚠️ **MATERIALIZED AGAIN, then RESOLVED late (25-Nov-2026):** the permission promised by end-September arrived **19-Nov**. FY27 mining guidance cut to 2.5 MnT; H1 0.99 MnT. The remaining risk moves from *getting* the permission to *ramping on it* — land use from ~2-Dec, 70–80% of capacity guided from Q1FY28.
+
 **Risk 2 — 🔴 The gas price shock and the idled pellet plant.** The 2.0 MTPA plant has been **suspended since 14-Jul-2026** and management expects it shut through most of Q2FY27, with a **September restart possible but not committed.** Supply is 100% procured; the **price rose ~40-45% under new PNGRB guidelines**, and pellet prices touched **₹8,700/tonne** in early July against a Q1 realisation of ₹10,340. **There is no visibility on normalisation** — *"he has no guidelines. It's every day situation… we just hope for the best."*
+
+> ✅ **RESOLVED as a plant risk (29-Aug restart); ⚠️ the cost half MATERIALIZED (25-Nov-2026):** Q2 pellet output ~0.80 MnT vs 0.90 in Q1; pellet EBITDA ~₹500/t; FY27 pellet guide cut to 3.5 MnT.
 
 **Risk 3 — 🔴 Capital allocation is being rewritten mid-flight.** ₹2,166cr still to spend, of which **₹1,425cr (₹925cr remaining) is a battery plant that has never produced a cell.** The 1 MnT steel plant and 250 MW solar are **in abeyance**; the CRM has **moved states and slipped six months to Dec-2027**; and **Vision 2030 has been rebased to exclude steel — disclosed only in answer to an analyst question.**
 
 **Risk 4 — 🔴 The FY27 mining guidance looks arithmetically strained.** Management insists 3.4 MnT is *"very much on track"* and *"we're not revising."* Q1 delivered 0.54 MnT and Q2 is guided at *"the same numbers"* — so **H2 must deliver ~2.32 MnT, more than double the H1 run-rate**, with the ramp only starting in October. **My arithmetic, not management's.**
+
+> ⚠️ **MATERIALIZED (14-Nov-2026):** cut from 3.4 to 2.5 MnT — the arithmetic above was right; 'very much on track… not revising' was not.
 
 **Risk 5 — 🔴 The water allocation may never come.** ~9.4 MCM, stuck six to eight months after an LOI was already granted, is the single point of failure for the 1 MnT steel plant. Management: *"till the time we don't get the water approval… we really don't know what is going to happen."*
 
@@ -620,7 +694,11 @@ CMP **₹229** · Mcap **₹15,419cr** · **P/E 18.8x** · **P/B 2.65x** (book �
 
 **Risk 9 — 🟡 BESS execution and offtake.** Cells contracted with EVE Power, equipment from Lead Intelligent, 20% domestic content met, quoting from August 2026 — but **nothing has been sold and nothing has been built.** ₹925cr still to spend into a market with rapidly changing cell economics.
 
+> ⚠️ **ACCUMULATING (25-Nov-2026):** long-run margin now **5–7%** (annual report said 12–13%, unreconciled); industry capacity announcements *'alarming'* on paper (management); financial closure done (₹2,795cr sanctioned); first container June–July 2027.
+
 **Risk 10 — 🟡 Related-party-adjacent items to monitor.** The **JPL sell-down is to JPL's own promoters** at a stated fair value, and **HFAL — a subsidiary that is also part of the promoter group — has lent ₹20cr to Deccan Gold Mines.** **Neither is presented as anything other than arm's length in the filings and I make no allegation;** both simply warrant tracking.
+
+> ✅ **EASING (25-Nov-2026):** management is calling back all ~₹120cr of inter-corporate loans over 9–12 months and will make no new ones.
 
 **Risk 11 — 🟡 No segment disclosure at all.** GPIL reports a **single operating segment** under Ind AS 108. With mining, pellets, sponge, billets, structural, ferroalloys, power and now batteries inside one line, **there is no way to see where profit is actually earned** — which matters more the further the BESS pivot goes.
 
@@ -652,6 +730,8 @@ CMP **₹229** · Mcap **₹15,419cr** · **P/E 18.8x** · **P/B 2.65x** (book �
 
 ## 9. 📢 Community Pulse
 
+**⤴ 25-Nov-2026:** the Q2 call drew pointed questions on the delayed permission (*"we had said earlier also about this permission… and that got postponed"* — Sunil Jain, Nirmal Bang), on BESS margins against the annual report (Varun Mehta) and on whether there had been a mine accident (there was none). **Tone: sceptical but not hostile.**
+
 *Refreshed 13-Aug-2026.*
 
 ### ValuePickr — thread 4815, "Godawari Power - Any Trackers?"
@@ -674,6 +754,8 @@ The stock is **+16% over one year** but **−28% from its ₹320 high** and 16% 
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (25-Nov-2026 refresh):** results + deck 14-Nov (slide 18 rendered and read); **official transcript of the 16-Nov call, filed 19-Nov, read in full**; tree-felling permission filing 19-Nov; StockScans call summary checked against the transcript (three mismatches noted in §4).
 
 **Concalls read — 7 official transcripts + 1 verified machine transcription. Gate: 🟢 GREEN.**
 - **Q1FY27, 10-Aug-2026 — machine-transcribed 10-Aug, OFFICIAL TRANSCRIPT FILED 13-Aug-2026 and now verified against it.** `GPIL_Transcript_2026-08_Q1FY27_OFFICIAL.pdf` (22 pages, 76,118 chars extracted) alongside `GPIL_Transcript_Q1FY27_2026-08-10_MACHINE.txt` (mlx-whisper / whisper-large-v3-turbo, 61m 24s, 53,637 chars). **Verification result in §5.5(b): one figure wrong (pellet price), everything else verbatim.** Call hosted by **Monarch Networth Capital** (Sahil Sanghvi); management: **Abhishek Agrawal (ED), Dinesh Gandhi (ED), Sanjay Bothra (CFO)**. Analysts include Aman Kothari, Sunil Jain, Rohan Mehta.

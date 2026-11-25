@@ -1,7 +1,7 @@
 # DEE Development Engineers — Company Profile
 
 **Ticker:** DEE · **NSE:** DEEDEV · **BSE:** 544198 · **CIN:** L74140HR1988PLC030225 · **Sector:** Engineering / EPC (Sector 6)
-**Conviction:** **MEDIUM-HIGH (Under Watch)** — held; no downgrade trigger has fired, and Q2FY27 is the test
+**Conviction:** **⤴ MEDIUM** *(MH (Under Watch) → M, 25-Nov-2026: the revenue trigger fired — Q2FY27 ₹293cr against the ₹350cr line; the other three Q2 tests passed)* · was **MEDIUM-HIGH (Under Watch)**
 **Thesis date:** 22-Aug-2026 · **CMP ₹646** (Screener, 22-Aug-2026) · **Market cap ₹4,861 cr**
 
 > **📌 Ticker note.** The profile, dashboard and folder use **DEE**; **the NSE symbol is `DEEDEV`** and BSE filings use the `DDEL_` prefix. *Not a §1 violation — DEE predates the exact-symbol rule — but any NSE API query must use `DEEDEV`, and a query on `DEE` returns zero records.* **The `Fetched Concalls/DEE/` and `Fetched Concalls/DEEDEV/` folders have been consolidated into `DEEDEV/` (35 files) as part of this pass.**
@@ -27,11 +27,17 @@
 > **3. The recapitalisation is now visible in the register.** A Reg 29(2) filing on 11-Aug confirms **59,76,096 equity shares issued by preferential allotment**, with **Chairman & MD Krishan Lalit Bansal's holding falling by more than 2%**; listing and trading approvals came 23-Jul and 28-Jul. **Screener now carries a July-2026 shareholding column: promoter 70.18% → 65.13%, FII 2.17% → 4.67%, DII 10.79% → 14.16%.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 525** · market cap ₹ 3,955 Cr. · P/E 48.2x · ROCE 10.7 % · ROE 9.31 % · 52-wk ₹ 760 / 183 · **vs ₹646 at baseline (-18.7%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 514** · market cap ₹ 3,872 Cr. · P/E 42.3x · ROCE (TTM) 9.6 % · ROE (TTM) 7.0 % · 52-wk ₹ 760 / 183 · **vs ₹646 at baseline (-20.4%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ ESOP allotment and grant · (earlier: 🆕 🟢 CARE upgraded to A (Stable) from A−; Q2 results pending · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 India piping order book ₹2,158cr at 30-Sep; ₹46cr new contracts; nuclear framework agreement (counterparty unnamed) · (earlier: 🔴 AGM DEFEATED the Whole-time Director's pay revision — institutions voted 50.29% against; separately, lenders can convert debt to equity on an event of default · (earlier: AGM held 23-Sep; analyst meet and an Anjar plant visit, no numbers disclosed · (earlier in window: August order update: inflow ₹94cr, executed ₹87cr, book ₹2,436cr (flat); FY27 inflow so far ~₹955–973cr vs ₹2,000cr guide; stock +3.6%))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 🟡 Q2 ₹293cr (job work), margin 20.1%, interest down — MH → M on the revenue trigger · (earlier: 🆕 ⚪ ESOP allotment and grant · (earlier: 🆕 🟢 CARE upgraded to A (Stable) from A−; Q2 results pending · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 India piping order book ₹2,158cr at 30-Sep; ₹46cr new contracts; nuclear framework agreement (counterparty unnamed) · (earlier: 🔴 AGM DEFEATED the Whole-time Director's pay revision — institutions voted 50.29% against; separately, lenders can convert debt to equity on an event of default · (earlier: AGM held 23-Sep; analyst meet and an Anjar plant visit, no numbers disclosed · (earlier in window: August order update: inflow ₹94cr, executed ₹87cr, book ₹2,436cr (flat); FY27 inflow so far ~₹955–973cr vs ₹2,000cr guide; stock +3.6%)))))))</span></summary>
 <div class="upd-body">
+
+**🟡 18 → 25-Nov-2026 — Q2FY27 call read — revenue ₹293cr (job-work mix), margin 20.1%; MH → MEDIUM on the revenue trigger**
+**Q2FY27 (official transcript of the 18-Nov call, read in full):** revenue **₹293cr**, flat QoQ, because ~45% of H1 execution was job work on customer-supplied material; **EBITDA margin 20.1%**; PAT ₹23.5cr; finance cost ₹17.2cr → ₹15.3cr after ₹225cr repaid. Order book ₹2,531cr (₹2,586cr at 31-Oct); Adani and JSW 'very, very large orders' expected Dec–Feb; GE LOI still no PO. FY27 ₹1,500cr reiterated ('we are sure') — November–March must average ~₹167cr a month against ~₹80cr in October *(my arithmetic)*.
+> **Why it matters:** **The revenue trigger (Q2 below ₹350cr) fired; the margin, interest and deferral tests passed. MH (Under Watch) → MEDIUM** — a downgrade on the rule, with a stated cause that also explains the margin beat.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — ESOP allotment and fresh grant**
 **1,19,824 shares allotted on ESOP exercise; 93,920 new options granted** (NRC, 6-Nov).
@@ -258,6 +264,12 @@ When a power plant, refinery or LNG terminal is built, someone has to take thous
 | **🆕 GE replacement risk** | Q1FY27 | GE volumes fell, but *"we are getting a lot more traction from other customers like **Nooter Eriksen** for which they have again awarded us **many fresh orders which are yet to be declared**"* | 🟡 **Replaced — but the orders are undeclared** |
 | **🆕 Siemens** | Q1FY27 | *"We have already signed a sort of understanding or an **MOM** with them that from next…"* | 🕐 **Signed, not yet revenue** |
 | **🆕 PPA division** | Q1FY27 | EBIT swung **+₹1cr → −₹1cr**, a ₹2cr negative swing, flagged by an analyst | 🔴 **Small but going the wrong way** |
+| *(25-Nov)* **Q2 revenue "on track" for ₹1,500cr** | Q1FY27 call | **₹293cr, flat QoQ**; H2 needs ~₹913cr | 🔴 **Behind** |
+| *(25-Nov)* Margin ">19%" | Q1FY27 call | **20.1% in Q2**, 18.5% H1 | ✅ |
+| *(25-Nov)* ₹25cr deferral recognised in Q2 | Q1FY27 press release | *"already been done"* (management) | ✅ *on management's word* |
+| *(25-Nov)* Interest falls after ₹224.5cr repayment | Q1FY27 | ₹17.2cr → **₹15.3cr**; ₹225cr repaid | ✅ |
+| *(25-Nov)* GE HRSG PO | Feb-2026 LOI | **Still no PO**; "within a month or two"; no execution in FY27 | 🔴 **Slipping** |
+| *(25-Nov)* Nuclear JV | Q1FY27 | "Advanced"; closure by FY27-end | 🕐 |
 
 **Verdict on management.** **Bansal is direct to the point of exposure — he commits to numbers in language most CEOs avoid** (*"100% without any doubt"*, *"the bare minimum numbers which must be there"*, *"Plan is for that only, sir, to exceed that guidance"*). **That is admirable and it is also the thing to hold him to**, because Q1 sits 210bps below the margin commitment and needs a revenue run-rate the company has never achieved.
 
@@ -408,6 +420,34 @@ CFO Brham Yadav, on the ₹300cr: *"we have **293 crores net amount available** 
 
 ---
 
+### 📊 Q2FY27 Refresh — Full Numbers Print (25-Nov-2026)
+
+*Sources: results (14-Nov-2026) and deck; **official transcript of the 18-Nov call, filed 20-Nov, read in full** (`Fetched Concalls/DEEDEV/DEE_Transcript_2026-11_Q2FY27_OFFICIAL.pdf`). ⚠️ The transcript's cover letter is a copy of Q1's — it names a call "held on Thursday, 6th August, 2026" for "the Quarter… ended 30th June, 2026"; the transcript itself is the 18-Nov Q2 call. StockScans for the table; its call summary was checked against the transcript (mismatches below).*
+
+| ₹cr (consolidated) | Q2FY27 | Q1FY27 | Q2FY26 |
+|---|---|---|---|
+| Revenue | **293** | 294 | 270 |
+| Operating EBITDA | **58.9** | 50 | 44 |
+| EBITDA margin | **20.1%** | 16.9% | 16.3% |
+| PAT | **23.5** | 16 | 18 |
+| Finance cost | **15.3** | 17.2 | — |
+
+**H1FY27:** revenue ₹587.4cr (+19%), EBITDA ₹108.6cr (18.5% vs 16.2%), PAT ₹39.5cr (+27.8%).
+
+**Why revenue did not move:** **~45% of H1 execution was job work, where the customer supplies the material** (historically 25–30%) — BHEL, L&T and Dow orders that *"have told us that, that is their priority… we have to keep some of the with material jobs on the back burner. Of course, that's a loss to us."* Job work carries *"maybe around 5% to 7%, 10%"* more margin — which is the margin story, not a separate one. **The Q1 ₹25cr deferral:** *"In the last quarter, it has already been done. There's nothing pending now"* — *on management's word; it is not separately visible in a flat quarter.*
+
+**Order book ₹2,531cr at 30-Sep (+94% YoY; ₹2,428cr in June), ₹2,586cr at 31-Oct.** H1 inflow ₹1,179cr (+97%), ~59% of the ₹2,000cr FY27 inflow guide; October ₹148cr incl. a ₹46cr US EPC modules order. Piping book: power ₹1,476cr, oil & gas ₹871cr. **BHEL ~₹300cr and L&T ~₹150cr pending; "above ₹400 crores" of the book is still job work. The ~₹400cr GE LOI is still in the book with no PO** — *"Nothing will happen in Q3, Q4"*; a PO for two units is expected *"within a month or two"*, execution next year. **Not in the book:** the Nooter frame agreement (60% of Thailand reserved). **Adani and JSW: "very, very large orders" in "very advanced" finalisation, "by December end or latest by January or February"** — *nothing from Adani is in the book today.* Siemens: two orders in two–three months, *"minimum… 25 to 30 million Euros"* of business, mostly GT piping.
+
+**Guidance, restated hard:** FY27 revenue ₹1,500cr — *"not only confident, we are sure"*; EBITDA margin 19%+ — *"100% again stand by that"*; FY28 ₹1,800cr — *"firmly committed"*; FY30 ₹2,500cr excludes nuclear. **The arithmetic** *(mine)*: H2 must deliver ~₹913cr against H1's ₹587cr; **October did ~₹80cr, so November–March need ~₹167cr a month — about twice October.** Management: *"December onwards, you will see the numbers moving at a much higher pace"*, tonnage +20% but revenue +40–50% as with-material jobs ship (H2 mix >70% with-material). WIP + RFP ~₹125–150cr.
+
+**New engines:** seamless pipe plant (7,000 t) *"fully operational"*; FY28 ~₹300cr (₹150–200cr direct, ₹150–200cr captive), saving 10–15% on pipe bought; two tenders (>8,000 t) submitted. **Nuclear:** framework agreement with a domestic EPC (16-Oct); global JV *"closure expected by end of FY27"*; dedicated plant under construction; FY28 ~₹50–60cr, FY29 *"₹200 crores at the most"* — *"it's just a drawing board sort of a blueprint only."* Data centres: a meeting with *"one of the very big US player"*; nothing booked.
+
+**Balance sheet:** ₹225cr of the preferential proceeds repaid; inventory days 188 (223); debtor days up slightly; working-capital target ~225–240 days by year-end (not the 200 hoped for). ~₹72cr of factoring, *"lower than our CC rate"*. Non-core ~₹80cr revenue this year; Malwa tariff ₹5.44/kWh (under appeal at APTEL).
+
+**Unanswered on the call:** why segment reporting shows ~₹5cr of power revenue against ₹13cr in the deck — *"I will have to check that."*
+
+**StockScans summary vs transcript — mismatches:** (1) it dates the Adani/JSW finalisation to **"Dec 2025–Feb 2026"** — a year early; management said this December to February; (2) it omits the unreconciled segment-vs-deck power revenue; (3) it repeats the analyst's ~₹80cr October figure as management's (management did not dispute it).
+
 ## 5. Connecting the Dots
 
 **Thread A — The order book is the asset and conversion is the question.** ₹2,428cr at 2.1x coverage, +92.5% YoY, disclosed monthly. **Capacity exists (capex cycle complete, Anjar at 62–65%). The gap between a 2.1x-covered book and a ₹1,500cr year is execution, not demand.**
@@ -434,6 +474,7 @@ CFO Brham Yadav, on the ₹300cr: *"we have **293 crores net amount available** 
 | **12-Aug-2026** *(refresh)* | **₹623** | **HIGH → MH (Under Watch)** — **and the header mismatch fixed; all three sources aligned** | **The concall folder was empty despite v1 citing four reads** — five official transcripts plus two decks fetched and read. **🎧 Q1FY27 machine-transcribed from DEE's own 59-minute audio at Rajat's instruction**, producing FY27 guidance that appears in no filing. **🔴 Discovered the ₹300cr preferential issue v1 knew nothing about** — and established by arithmetic and by management's own words that **the promoter's absolute holding ROSE**. Q1: revenue +31.6% YoY but PAT −41.9% QoQ on a 49.8% jump in finance costs. |
 | **22-Aug-2026** *(this profile)* | **₹646** | **HELD at MH (Under Watch)** — no trigger fired; Q2FY27 is the test | Converted to always-current format. **🎧 The official transcript filed 11-Aug and the re-verification PASSES CLEANLY** — near-identical term counts, nothing material lost *(a useful contrast with CARYSIL, whose WhatsApp-export transcript lost an entire topic)*. **🆕 Re. 1 dividend for FY26 declared 21-Aug — the first since FY20, and it directly contradicts the refresh's *"DEE has never paid a dividend"*.** **🆕 ₹36cr of job-work contracts, 20-Aug.** **🆕 Reg 29(2) confirms the allotment mechanics; Screener's July column now shows promoter 65.13%, FII 4.67%, DII 14.16%.** **🆕 From the official transcript: order-book composition, Thailand 100% booked for three years with GE replaced by Nooter/Eriksen, and *"Plan is for that only, sir, to exceed that guidance."*** **🗂️ Duplicate `DEE/` and `DEEDEV/` concall folders consolidated.** |
 | **19-Sep-2026** *(filings refresh)* | **₹669** | **HELD at MH (Under Watch)** — no trigger fired | August update: book flat at ₹2,436cr; FY27 inflow ~₹955-973cr (~48% of ₹2,000cr guide after five months); executed ₹462cr. Malwa/PSPCL tariff disputes restated. |
+| **25-Nov-2026** *(Q2FY27 Tier-A)* | **₹514** *(23-Nov close)* | **⤴ MH (Under Watch) → MEDIUM** | **The revenue trigger fired: ₹293cr against the ₹350cr line**, because 45% of H1 was job work on customer-supplied material. **The other three passed** — margin 20.1%, interest down, the deferral recognised (on management's word). **Downgraded on the rule; the business improved on every line below revenue.** |
 
 **The trajectory in one line.** **Two refreshes have now found something v1 missed — first a ₹300cr recapitalisation, then a maiden dividend — and in both cases the surprise was better than the profile assumed, which is worth noticing about a company whose disclosure is monthly and whose CEO answers directly.**
 
@@ -487,12 +528,37 @@ CFO Brham Yadav, on the ₹300cr: *"we have **293 crores net amount available** 
 **Why not downgraded:** **the balance sheet has been genuinely repaired with a dated mechanical benefit landing in Q2; the order book is 2.1x-covered and disclosed monthly; the promoter added to his holding in cash; institutions replaced retail; and the company just paid its first dividend in six years.**
 
 ---
+### 📊 25-Nov-2026 — Q2FY27 scored
+
+| Trigger set 12-Aug (for Q2FY27) | Result |
+|---|---|
+| Q2FY27 revenue below ₹350cr | **⚠️ FIRED — ₹293cr** |
+| Margin not recovering toward 19% | **CLEAR — 20.1%** |
+| The ₹25cr deferral not appearing in Q2 | **CLEAR on management's word** |
+| Interest cost not falling | **CLEAR — ₹17.2cr → ₹15.3cr** |
+
+**→ MH (Under Watch) → MEDIUM.** *The revenue miss has a stated, checkable cause (job work, which also explains the margin beat), so this is a downgrade on the rule rather than on a broken business.*
+
+**New triggers at Medium.** **Down to ML if:** Q3FY27 revenue below ₹350cr (the with-material shift did not happen) · FY27 revenue below ₹1,250cr · neither Adani nor JSW books by 28-Feb-2027 · EBITDA margin below 18% in Q3. **Back to MH if:** Q3 revenue above ₹380cr with margin ≥19%, **and** one of the Adani/JSW orders booked.
+
+**Scenarios — re-derived** *(my estimates, from ₹514 / mcap ~₹3,870cr at the 23-Nov close; earlier sets kept above)*:
+
+| Scenario | Prob. | FY28 | PAT × multiple | Mcap | Return |
+|---|---|---|---|---|---|
+| **Base** | **50%** | Revenue ~₹1,700cr (short of the ₹1,800cr guide), EBITDA 19% | ~₹160cr × 28x | ₹4,480cr | **≈ +16%** |
+| **Bull** | **25%** | ₹1,900cr, 20%, Adani + JSW booked, nuclear JV signed | ~₹200cr × 32x | ₹6,400cr | **≈ +65%** |
+| **Bear** | **25%** | ₹1,400cr, 17%; job work persists; BHEL slow | ~₹96cr × 22x | ₹2,110cr | **≈ −45%** |
+
+**Weighted ≈ +13% over two years** *(0.50 × 16 + 0.25 × 65 − 0.25 × 45)*. *PAT from EBITDA less ~₹110cr of depreciation + interest net of other income and 25% tax — my construction.* **The miss lowered the conviction; it did not lower the earnings path much, because margin carried it.**
+
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — Non-core power / PPA segment losses persist.**
 > **⚠️ MATERIALIZED in Q1FY27, with a specific and checkable reason.** Power/PPA EBIT swung **+₹1cr → −₹1cr** QoQ, a ₹2cr negative swing, raised by an analyst on the call. Management: the pellet plant was commissioned early and available fuel could run *either* the power plant or the pellet plant, so priority went to pellets — *"from… coming October, we shall be getting the new fuel… then we shall be able to run fully the power plant as well as the pallet plant."* **Offsetting:** the Malwa tariff rose to **₹5.44/kWh for FY27** — *and this reconciles: the PSERC final order (filed 1-Apr-2026) sets **₹5.224/kWh for FY2025-26** as fixed **₹0.97** plus variable **₹4.254**, with 5% annual escalation on the variable component → 0.97 + (4.254 × 1.05) = **₹5.437 ≈ ₹5.44**. v1's "₹3.50 → ₹5.22" was correct for FY26* — and the **non-core FY27 revenue target was raised ₹47.71cr → ₹80cr**. **Test: does non-core EBIT turn positive from Q3FY27 when the new fuel arrives?**
 
 **Risk 2 — Order book execution delays.**
+
+> ⚠️ **MATERIALIZED in reported revenue (25-Nov-2026):** Q2 ₹293cr, flat QoQ, on a 45% job-work mix; the GE LOI (~₹400cr) still has no PO and will not execute in FY27.
 > **⚠️ PARTLY MATERIALIZED — and this is the cleanest falsifiable claim on the record.** **~₹25cr of Q1 dispatches slipped to Q2**, *"primarily on the oil and gas side, where a few of our export customers deferred take-offs given the situation in the Middle East. **The material is ready at our end.**"* **If Q2FY27 does not carry that ₹25cr, the explanation was demand, not logistics.** **🆕 On GE, the official transcript is more reassuring than the July framing:** GE's units are delayed, but *"instead of GE, we are getting a lot more traction from other customers like **Nooter Eriksen** for which they have again awarded us **many fresh orders which are yet to be declared**. With the incoming of those fresh orders, our Thailand facility is now **practically 100% booked for the coming three years**."* **The customer was replaced, not lost — though the replacement orders are undeclared.** BHEL remains *"slightly slower than our expectations."*
 
 **Risk 3 — Seamless pipe utilisation slow.**
@@ -502,6 +568,8 @@ CFO Brham Yadav, on the ₹300cr: *"we have **293 crores net amount available** 
 > **🟡 IMPROVING, NOT RESOLVED.** **Inventory days fell 738 → 439 (−299 days)** and CFO turned back positive at ₹20cr. **But CFO is only 20% of operating profit, debtor days went the wrong way (109 → 123), and free cash flow was −₹224cr and −₹165cr in FY25 and FY26 — ~₹462cr cumulative across four years.** Management guided a further **15–20 day debtor reduction in FY27**, against a trend that worsened in FY26. **Signal to watch: CFO/OP at H1FY27, and whether FY27 FCF turns positive for the first time since FY22.**
 
 **Risk 5 — Debt reduction slower than expected.**
+
+> ✅ **TRACKING WELL (25-Nov-2026):** ₹225cr repaid; finance cost ₹17.2cr → ₹15.3cr in one quarter.
 > **✅ RESOLVED — the single biggest positive change since v1.** ₹300cr preferential issue allotted 8-Jul-2026 at ₹502; net proceeds ₹293cr, **₹224.5cr already applied to working-capital limits**, ₹64cr to general corporate purposes. Net debt **₹733cr (FY26) → ₹718cr (30-Jun-26) → guided ₹400–425cr at FY27 close**, with *"no plan, absolutely no plan for any new debt in this particular year."* Institutional allottee register **and the promoter subscribed alongside them**. **The interest relief lands from Q2FY27** — Q1 still carried ₹17.16cr because the repayment post-dated the balance-sheet date.
 
 **Risk 6 — Middle East slowdown affecting exports.**
@@ -514,7 +582,11 @@ CFO Brham Yadav, on the ₹300cr: *"we have **293 crores net amount available** 
 
 **🔴 Risk 9 — The FY27 guidance requires three consecutive record quarters.** ₹1,500cr less Q1's ₹294.5cr leaves **₹1,205cr over three quarters — ~₹402cr each, against a best-ever ₹361.6cr.** **🆕 Management has hardened the language rather than softened it:** *"the Rs. 1,500 crores which we are saying is the **bare minimum** numbers which must be there on our top-line"*, and asked whether it could be exceeded, *"**Plan is for that only, sir, to exceed that guidance.**"* Bansal also notes *"Q1 is the weakest quarter"*, which is true and supported by history. **But the arithmetic is demanding and Q1 does not yet evidence it.**
 
+> ⚠️ **ACCUMULATING (25-Nov-2026):** ₹1,500cr now needs ~₹913cr in H2 — about ₹167cr a month from November against ~₹80cr in October. Management: *"we are sure"*.
+
 **🔴 Risk 10 — The margin commitment is 210bps above the Q1 print.** Bansal, twice: *">19%… **fully committed, fully committed**… 100% without any doubt in that."* **Q1 delivered 16.9%; FY26 was 16.7%.** A >19% full-year average now needs roughly **20% across Q2–Q4**. **If it lands, FY27 PAT is transformative; if it doesn't, a 59x multiple has no support.**
+
+> ✅ **MET in Q2 (25-Nov-2026):** 20.1%. Part of it is the job-work mix, which reverses as with-material jobs ship in H2 — so the 19% full-year test is still live.
 
 **⚠️ Risk 11 — Contingent dilution and issuance headroom.** From the 4-Aug board meeting: a **Section 62(3) enabling resolution** giving lenders a conversion right **exercisable only on an event of default** (the company is explicit it is a standard financing requirement, not new borrowing), and **authorised capital raised ₹85cr → ₹95cr** with preference shares reclassified to equity. **Neither is a problem today; both are headroom worth tracking after a 7.94% dilution.**
 
@@ -550,6 +622,8 @@ CFO Brham Yadav, on the ₹300cr: *"we have **293 crores net amount available** 
 
 ## 9. Community Pulse — 22-Aug-2026
 
+**⤴ 25-Nov-2026:** the Q2 call was dominated by the H2 arithmetic (Ankit Soni, Mirae; Ankit Gupta, Bamboo Capital), the GE LOI that has not converted since February (Chandresh Malpani, Niveshaay) and why job work rose with a strong book (Prateek Srivastava, Nivesh Wisdom). **Tone: supportive but testing; the guidance was defended with "we are sure" rather than with a monthly path.**
+
 **ValuePickr:** searched for *"DEE Development"* and *"DEEDEV"*. **No sustained dedicated thread was located this pass.** *Stated as a gap rather than as evidence of absence — DEE listed only in June 2024, and the search under both names did not resolve. **Flagged for a proper scan at the next refresh.***
 
 **Substack:** searched; **no dedicated DEE coverage found.**
@@ -567,6 +641,8 @@ CFO Brham Yadav, on the ₹300cr: *"we have **293 crores net amount available** 
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (25-Nov-2026 refresh):** results + deck 14-Nov; **official transcript of the 18-Nov call, filed 20-Nov, read in full** (cover letter mis-dated to the Q1 call); StockScans call summary checked against it (three mismatches noted in §4).
 
 - **Concalls read (6 official transcripts):** **Q1FY27 (call 6-Aug-2026, official transcript filed 11-Aug-2026 — primary source for this version)**, Q4FY26 (May-2026), Q3FY26 (Feb-2026), Q2FY26 (Nov-2025), Q1FY26 (Aug-2025), Q4FY25 (Jun-2025). **The folder was empty before the 12-Aug refresh despite v1 citing four reads.**
 - **🎧 Machine transcript retained for comparison:** `DEEDEV_Transcript_Q1FY27_2026-08-06_MACHINE.txt`, from DEE's own 59-minute MP3 (`deepiping.com/document/investor/audio/Investor_Call_on_06_August_2026.mp3`), transcribed with mlx-whisper / whisper-large-v3-turbo. **Re-verified against the official on 22-Aug-2026 — passed cleanly, see the data-quality note.**

@@ -7,11 +7,17 @@
 > **How to read this profile:** Every meaningful claim is either sourced from a concall (period noted) or a filing. Aimtron reports H1/H2 not Q1/Q2/Q3/Q4 as it's on the SME platform. This is personal thesis-building, not a buy/sell recommendation.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 1,972** · market cap ₹ 4,194 Cr. · P/E 69.4x · ROCE 28.2 % · ROE 23.6 % · 52-wk ₹ 2,019 / 696 · **vs ₹1,313 at baseline (+50.2%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 1,760** · market cap ₹ 3,745 Cr. · P/E 60.1x · ROCE (TTM) 24.5 % · ROE (TTM) 19.2 % · 52-wk ₹ 2,021 / 696 · **vs ₹1,313 at baseline (+34.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 🟡 Revised release now shows margins down (21.6% vs 24.6%); 44,000 warrants converted · (earlier: 🆕 🟡 H1: revenue +83%, PAT +71%, order book ₹733cr — margins fell while the release says they rose; ₹205cr preferential passed · (earlier: 🆕 ⚪ ₹205cr preferential EGM held 22-Oct; result pending; use now "strategic expansion" · (earlier: ⚪ Warrant-issue EGM 22-Oct after an NSE-directed corrigendum · (earlier: 🟡 ~₹205cr preferential issue to non-promoter investors including AIFs, to fund 'strategic acquisitions'; warrants converted · (earlier: An investor meet was scheduled on 21-Sep and cancelled on 23-Sep, with no reason given · (earlier in window: Q1FY27 update: revenue +94%, order book ₹604cr; US arm books US$11.8m in Q2 to date; pilot orders from Curtiss-Wright and a test-solutions major; warrants converted; stock +27% to 77x))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 3-Jul-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ ₹205cr preferential allotted · (earlier: 🆕 🟡 Revised release now shows margins down (21.6% vs 24.6%); 44,000 warrants converted · (earlier: 🆕 🟡 H1: revenue +83%, PAT +71%, order book ₹733cr — margins fell while the release says they rose; ₹205cr preferential passed · (earlier: 🆕 ⚪ ₹205cr preferential EGM held 22-Oct; result pending; use now "strategic expansion" · (earlier: ⚪ Warrant-issue EGM 22-Oct after an NSE-directed corrigendum · (earlier: 🟡 ~₹205cr preferential issue to non-promoter investors including AIFs, to fund 'strategic acquisitions'; warrants converted · (earlier: An investor meet was scheduled on 21-Sep and cancelled on 23-Sep, with no reason given · (earlier in window: Q1FY27 update: revenue +94%, order book ₹604cr; US arm books US$11.8m in Q2 to date; pilot orders from Curtiss-Wright and a test-solutions major; warrants converted; stock +27% to 77x)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — ₹205cr preferential to AIFs allotted; 21,600 warrants converted**
+**18-Nov (NSE): 12,24,265 shares allotted at ₹1,674.47 (₹205.0cr) to non-promoter AIFs**, and 21,600 warrants converted at ₹680.64; 2,85,334 warrants remain. Paid-up capital now 2,27,42,144 shares.
+> **Why it matters:** The allotment completes the issue already on the card.
+
+*Sweep: NSE announcements (SME — StockScans lags here, CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟡 4 → 10-Nov-2026 — Revised release now shows the margin fall; 44,000 warrants converted**
 **A revised H1 press release (4-Nov, 21:49 — after the last sweep) now prints EBITDA margin 21.6% vs 24.6% and PAT margin 15.5% vs 16.5%** on revenue ₹224.7cr (+83%) and PAT ₹34.8cr (+72%); consolidated order book ₹730cr (2.4x FY26 revenue). Investor presentation 6-Nov; call recording 7-Nov. **44,000 warrants converted** into equity (5-Nov).

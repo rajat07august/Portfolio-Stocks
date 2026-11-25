@@ -4,11 +4,17 @@
 **Thesis current as of: 5-Nov-2026 · Tracking since: 16-Sep-2026** · **🔵 HELD POSITION** *(disclosed 4-Nov-2026)*
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 570** · market cap ₹ 1,844 Cr. · P/E 20.6x · ROCE 12.9 % · ROE 12.1 % · 52-wk ₹ 653 / 272 · **vs ₹507 at baseline (+12.4%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 515** · market cap ₹ 1,665 Cr. · P/E 18.6x · ROCE (TTM) 12.9 % · ROE (TTM) 13.5 % · 52-wk ₹ 653 / 272 · **vs ₹507 at baseline (+1.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 16-Sep-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Nothing beyond the 5-Nov rewrite; EGM 2-Dec · (earlier: 🆕 🔴 Q2 call read: chemical revenue +86% on tonnage −17% (H-acid windfall, peer-confirmed); H1 cash flow −₹53cr, receivables +₹153cr; FY27 guide cut to ₹1,250–1,300cr · (earlier: 🆕 🟢 Q2: revenue +58%, PAT +96% (gross margin 30% vs 33%); new Unit-5 chemical plant · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: 🔴 NCLT ALLOWED WITHDRAWAL of the subsidiary amalgamation scheme approved back in Dec-2024 — another timetable abandoned · (earlier: No filings since the profile was written))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 16-Sep-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 ⚪ Nothing beyond the 5-Nov rewrite; EGM 2-Dec · (earlier: 🆕 🔴 Q2 call read: chemical revenue +86% on tonnage −17% (H-acid windfall, peer-confirmed); H1 cash flow −₹53cr, receivables +₹153cr; FY27 guide cut to ₹1,250–1,300cr · (earlier: 🆕 🟢 Q2: revenue +58%, PAT +96% (gross margin 30% vs 33%); new Unit-5 chemical plant · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: 🔴 NCLT ALLOWED WITHDRAWAL of the subsidiary amalgamation scheme approved back in Dec-2024 — another timetable abandoned · (earlier: No filings since the profile was written)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — No filings in the window — verified**
+**No filings in the window** on StockScans: two independent queries across all 62 main-board and BSE names ("Limited" and "Ltd", grouped by company) returned nothing for this name, while the same queries found 33 other companies — a verified negative (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — Transcript and EGM notice — both already folded into the 5-Nov rewrite**
 The official Q2 transcript (5-Nov) and the EGM notice for 2-Dec (8,54,060 warrants to the CMD at ₹526.90, ~₹45cr, for a chemical plant on vacant land at Unit 5; his stake 5.04% → 7.32% fully diluted) were read in the 5-Nov Tier-A rewrite. Newspaper publications only otherwise.

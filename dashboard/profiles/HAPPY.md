@@ -12,11 +12,17 @@
 > ***Applying the refresh's own logic consistently: if 55x with +12% justified MH, then 63.8x with −4% justifies MEDIUM.*** **Nothing in the business caused this, and nothing in §3.5 or §4 has deteriorated.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 1,802** · market cap ₹ 17,011 Cr. · P/E 48.4x · ROCE 18.0 % · ROE 15.0 % · 52-wk ₹ 2,484 / 980 · **vs ₹2,212 at baseline (-18.5%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 1,769** · market cap ₹ 16,700 Cr. · P/E 47.5x · ROCE (TTM) 17.1 % · ROE (TTM) 15.4 % · 52-wk ₹ 2,470 / 991 · **vs ₹2,212 at baseline (-20.0%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 🟢 Q2: revenue +33%, margin 30.6%; ₹500cr capex; P/E ~48x vs the ≤45x upgrade line · (earlier: 🆕 ⚪ Quiet; Q2 due 5-Nov · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: No filings on either exchange · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No company event beyond an ESOP allotment; stock −3% to ₹2,148))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 🟡 Promoters sold 3.44% (~₹598cr) for MPS; holding 78.44% → 75.00% — overhang cleared · (earlier: 🆕 🟢 Q2: revenue +33%, margin 30.6%; ₹500cr capex; P/E ~48x vs the ≤45x upgrade line · (earlier: 🆕 ⚪ Quiet; Q2 due 5-Nov · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: No filings on either exchange · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No company event beyond an ESOP allotment; stock −3% to ₹2,148)))))))</span></summary>
 <div class="upd-body">
+
+**🟡 18 → 25-Nov-2026 — Promoters sold 3.44% to meet minimum public shareholding — 78.44% → 75.00%**
+**On 17-Nov four promoter holders — Paritosh Kumar (11,54,147), Ashish Garg (11,54,148), Paritosh Kumar Garg HUF (6,85,255) and Ashish Garg & Sons HUF (2,54,200) — sold 32,47,750 shares (3.44%)** to meet the 75% minimum-public-shareholding rule (company letter 18-Nov). **Insider disclosures put the price at ₹1,839–1,842; about ₹598cr in total.** Fidelity (India Focus Fund 8.67 lakh, India Fund 0.74 lakh), Axis MF, Edelweiss MF, Ampersand and BNP Paribas bought in the bulk-deal window. *StockScans' bulk-deal table lists larger quantities for two sellers (17.12 lakh and 10.99 lakh) and its insider table shows each trade twice ('Revised'); the company's letter is the figure used here.* Also: ESOP allotment (19-Nov), analyst-meet intimation (19-Nov).
+> **Why it matters:** **Expected and mechanical.** The 18-Nov profile flagged this as a pending supply overhang (§3.5, *'within the time frames'*); it has now cleared, at ₹1,840 against the ₹1,730 upgrade line. No trigger fires: MH stands.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟢 4 → 10-Nov-2026 — Q2: record ₹501cr (+33%) at a 30.6% margin; ₹500cr capex approved**
 **Q2FY27 (5-Nov).** Revenue **₹501cr (+32.7%)** on finished-goods volume +24.8% (18,754 MT) and realisation +6.3%; gross margin 60.8%; EBITDA ₹153cr (30.6%); PAT ₹98cr (+32.8%). **Board approved ~₹500cr capex** — +24,000 MT forging, +14,000 MT machining, phased over FY28–FY29, internal accruals and debt. H1 utilisation: forging 60%, machining 77%. Data-centre and gas-engine heavy-component orders expected by early FY28. Call recording 6-Nov.

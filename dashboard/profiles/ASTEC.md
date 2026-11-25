@@ -8,11 +8,17 @@
 > **📌 Sourcing note, stated up front because it governs everything below. Astec has not held an earnings call since November 2022** — nearly four years of silence. Screener's concall list ends there and the repo holds five transcripts, all from 2021–22. **A direct concall gate is impossible for this name.** The documented §6 fallback is used instead: **Astec is a Godrej Agrovet subsidiary and the parent discusses it on its own calls.** This profile is grounded in Astec's own press releases and filings, **Godrej Agrovet's Q4FY26 transcript and Q1FY27 deck**, NSE's filed shareholding master, and the ValuePickr thread. **Gate: 🟡 AMBER — management commentary here is second-hand, via the parent.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 527** · market cap ₹ 1,175 Cr. · P/E — · ROCE -5.44 % · ROE -25.2 % · 52-wk ₹ 942 / 512 · **vs ₹604 at baseline (-12.7%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 534** · market cap ₹ 1,189 Cr. · P/E — · ROCE (TTM) -7.5 % · ROE (TTM) -23.8 % · 52-wk ₹ 942 / 510 · **vs ₹604 at baseline (-11.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Nothing new since 4-Nov (verified) · (earlier: 🆕 🔴 Q2: EBITDA −₹19.2cr (−₹5.6cr), loss −₹37.4cr; income −3% · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: Two further exchange volume notices (30-Sep, 1-Oct) — eleven since early September, still no company explanation · (earlier: Another NSE volume-spurt notice, still with no company explanation for the run · (earlier in window: Stock +20% amid nine exchange price/volume notices (all answered 'no undisclosed information'); newly verified from filings: ₹41.1cr GST demand, ICRA AA- (Negative), CFO resigned in March; six body errors corrected))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 ⚪ Nothing new since 4-Nov (verified) · (earlier: 🆕 🔴 Q2: EBITDA −₹19.2cr (−₹5.6cr), loss −₹37.4cr; income −3% · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: Two further exchange volume notices (30-Sep, 1-Oct) — eleven since early September, still no company explanation · (earlier: Another NSE volume-spurt notice, still with no company explanation for the run · (earlier in window: Stock +20% amid nine exchange price/volume notices (all answered 'no undisclosed information'); newly verified from filings: ₹41.1cr GST demand, ICRA AA- (Negative), CFO resigned in March; six body errors corrected)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — No filings in the window — verified**
+**No filings in the window** on StockScans: two independent queries across all 62 main-board and BSE names ("Limited" and "Ltd", grouped by company) returned nothing for this name, while the same queries found 33 other companies — a verified negative (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — Nothing new since the 4-Nov sweep**
 **The only filing in the window was already read in the 4-Nov sweep** (filed the evening of 4-Nov); nothing else on the exchange feed.

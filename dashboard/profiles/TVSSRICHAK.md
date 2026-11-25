@@ -4,11 +4,17 @@
 **Conviction: MEDIUM-LOW** · CMP ₹5,146 · Mcap ₹3,942 Cr · Trailing P/E **42.7x** · ROCE 7.85% · ROE 5.75%
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 4,264** · market cap ₹ 3,266 Cr. · P/E 31.9x · ROCE 7.85 % · ROE 5.87 % · 52-wk ₹ 5,760 / 3,184 · **vs ₹5,146 at baseline (-17.1%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 4,523** · market cap ₹ 3,464 Cr. · P/E 27.6x · ROCE (TTM) 10.6 % · ROE (TTM) 10.1 % · 52-wk ₹ 5,760 / 3,185 · **vs ₹5,146 at baseline (-12.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 15-Sep-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Brand press releases only · (earlier: 🆕 ⚪ Quiet — verified · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 ₹49.2cr debottlenecking capex; ₹34.44cr received from TASL capital reduction · (earlier: 🟡 ₹17.53cr state-tax show-cause notice for AY2022-23 (tax ₹8.05cr); AGM passed · (earlier: No filings since the profile was written; stock −9.6%)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 15-Sep-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 ⚪ Brand press releases only · (earlier: 🆕 ⚪ Quiet — verified · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 ₹49.2cr debottlenecking capex; ₹34.44cr received from TASL capital reduction · (earlier: 🟡 ₹17.53cr state-tax show-cause notice for AY2022-23 (tax ₹8.05cr); AGM passed · (earlier: No filings since the profile was written; stock −9.6%))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — No filings in the window — verified**
+**No filings in the window** on StockScans: two independent queries across all 62 main-board and BSE names ("Limited" and "Ltd", grouped by company) returned nothing for this name, while the same queries found 33 other companies — a verified negative (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — Two brand press releases**
 Two Eurogrip brand releases (5-Nov EICMA/SEMA product showcase; 10-Nov a Diwali film). No financial content.

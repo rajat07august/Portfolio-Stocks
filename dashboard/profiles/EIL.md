@@ -13,11 +13,17 @@
 > **Meanwhile the stock is up 17.5% since that refresh, to within 1.9% of its 52-week high.** ***Better quarter, worse price, weaker pipeline — and that combination is the downgrade.***
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 299** · market cap ₹ 16,825 Cr. · P/E 18.8x · ROCE 30.4 % · ROE 23.4 % · 52-wk ₹ 321 / 164 · **vs ₹262 at baseline (+14.1%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 298** · market cap ₹ 16,772 Cr. · P/E 18.7x · ROCE (TTM) 33.9 % · ROE (TTM) 26.9 % · 52-wk ₹ 324 / 164 · **vs ₹262 at baseline (+13.7%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Nothing new since 4-Nov (verified) · (earlier: 🆕 🟢 Order book record ₹20,421cr (₹14,424cr in June); PAT ₹180cr standalone (+65% QoQ); Reg 17(1) fine again · (earlier: 🆕 ⚪ Q2 results + interim dividend 30-Oct · (earlier: ⚪ Routine filings only · (earlier: Nothing new; the Dangote execution schedule is still undisclosed · (earlier: 🟢🟢 US$450m+ Dangote contract for a 700,000 BPD greenfield refinery in KENYA — bigger than annual revenue; stock +15% to ₹306. Also ₹5.31 lakh fines from each exchange for board-composition non-compliance · (earlier in window: Ministry extends the CMD's additional charge as Director (Commercial) by three months from 30-Sep; new statutory auditors for FY27; stock +1.5%))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 ⚪ Nothing new since 4-Nov (verified) · (earlier: 🆕 🟢 Order book record ₹20,421cr (₹14,424cr in June); PAT ₹180cr standalone (+65% QoQ); Reg 17(1) fine again · (earlier: 🆕 ⚪ Q2 results + interim dividend 30-Oct · (earlier: ⚪ Routine filings only · (earlier: Nothing new; the Dangote execution schedule is still undisclosed · (earlier: 🟢🟢 US$450m+ Dangote contract for a 700,000 BPD greenfield refinery in KENYA — bigger than annual revenue; stock +15% to ₹306. Also ₹5.31 lakh fines from each exchange for board-composition non-compliance · (earlier in window: Ministry extends the CMD's additional charge as Director (Commercial) by three months from 30-Sep; new statutory auditors for FY27; stock +1.5%)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — No filings in the window — verified**
+**No filings in the window** on StockScans: two independent queries across all 62 main-board and BSE names ("Limited" and "Ltd", grouped by company) returned nothing for this name, while the same queries found 33 other companies — a verified negative (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — Nothing new since the 4-Nov sweep**
 **The only filing in the window was already read in the 4-Nov sweep** (filed the evening of 4-Nov); nothing else on the exchange feed.

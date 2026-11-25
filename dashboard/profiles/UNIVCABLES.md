@@ -29,11 +29,17 @@
 ---
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 1,130** · market cap ₹ 3,920 Cr. · P/E 18.1x · ROCE 11.7 % · ROE 8.90 % · 52-wk ₹ 1,775 / 576 · **vs ₹1,551 at baseline (-27.1%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 1,126** · market cap ₹ 3,908 Cr. · P/E 18.1x · ROCE (TTM) 11.3 % · ROE (TTM) 9.9 % · 52-wk ₹ 1,775 / 576 · **vs ₹1,551 at baseline (-27.4%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 13-Oct-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 🟡 Q2: revenue +25%, margin 9.3%, standalone PAT −9%; H1 CFO −₹88cr, borrowings +₹296cr; LatAm order confirmed · (earlier: 🆕 ⚪ Quiet — verified on the exchange feed · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 CARE A/Stable reaffirmed on facilities up 30% to ₹3,979cr; Q2 results board meeting 4-Nov)))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Oct-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Routine filings only · (earlier: 🆕 🟡 Q2: revenue +25%, margin 9.3%, standalone PAT −9%; H1 CFO −₹88cr, borrowings +₹296cr; LatAm order confirmed · (earlier: 🆕 ⚪ Quiet — verified on the exchange feed · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 CARE A/Stable reaffirmed on facilities up 30% to ₹3,979cr; Q2 results board meeting 4-Nov))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — Routine filings only**
+**Routine filings only:** postal ballot notice (18-Nov) for the independent-director appointment of Sutirtha Bhattacharya, already on the card; voting 19-Nov to 18-Dec.
+> **Why it matters:** Routine; nothing on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟡 4 → 10-Nov-2026 — Q2: revenue +25%, but margin 9.3% and H1 operating cash −₹88cr; borrowings +₹296cr in six months**
 **Q2FY27 (results 4-Nov evening; no call — the company has never held one).** Standalone revenue **₹1,018.6cr (+25%)**, a record; exports **₹137.7cr (+139%)**, H1 exports ₹258.1cr (+154%). Company EBITDA **₹94.3cr (+12.7%), 9.3% of revenue** *(company basis; Screener's ex-other-income margin is ~8%)*. **Standalone PAT ₹33.1cr vs ₹36.6cr (−9%)**; consolidated PAT ₹63.9cr (+32%) on associates. Finance cost ₹40.7cr (+50%). Order book ~₹2,890cr incl. ₹637cr export; the **~US$25m Latin America EHV turnkey order is now confirmed**. FY27 guide: revenue growth *"about 25%(+)"*.

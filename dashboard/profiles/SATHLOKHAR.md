@@ -12,11 +12,17 @@
 > **⚠️ Screener ticker note.** The company is **`SSEGL` on Screener** (`screener.in/company/SSEGL/`); **`SATHLOKHAR` returns HTTP 404.** The initiation profile twice recorded *"Screener data limited for SME"* and wrote its Numbers and Valuation sections without a balance sheet, cash flow or peer set. **The data was always there.** *Same class of error as OBSC and DYNAMATIC.* **SSEGL reports standalone only** — there is no consolidated page.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener, standalone — the consolidated page carries no data):** CMP **₹ 364** · market cap ₹ 946 Cr. · P/E 8.60x · ROCE 36.3 % · ROE 30.3 % · 52-wk ₹ 565 / 283
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 343** · market cap ₹ 891 Cr. · P/E 7.9x · ROCE (TTM) 24.9 % · ROE (TTM) 26.9 % · 52-wk ₹ 520 / 283
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 🟢 Q2: revenue +100%, EBITDA margin 14.9%, PAT +111%; order book ₹1,139cr; PEB plant live · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ No filings in the window (verified) · (earlier: 🟢 ₹117.6cr of new orders AND the company discloses a ₹1,239cr confirmed FY27 order book with a ₹23,505cr bid pipeline · (earlier: Business update advertised in Business Standard; 1.7 lakh sq ft PEB factory inaugurated 30-Aug, PEB now ~35% of the order book · (earlier in window: PEB plant inaugurated on schedule; confirmed FY27 orders ₹1,139cr (from ₹1,102cr), ₹22,654cr bid pipeline, ~70% growth guidance reaffirmed; new Godrej order ₹44cr; stock +32%))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 🟢 ₹158cr ReNew order; FY27 confirmed ₹1,372cr (₹502cr billed H1); SIPCOT land · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 🟢 Q2: revenue +100%, EBITDA margin 14.9%, PAT +111%; order book ₹1,139cr; PEB plant live · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ No filings in the window (verified) · (earlier: 🟢 ₹117.6cr of new orders AND the company discloses a ₹1,239cr confirmed FY27 order book with a ₹23,505cr bid pipeline · (earlier: Business update advertised in Business Standard; 1.7 lakh sq ft PEB factory inaugurated 30-Aug, PEB now ~35% of the order book · (earlier in window: PEB plant inaugurated on schedule; confirmed FY27 orders ₹1,139cr (from ₹1,102cr), ₹22,654cr bid pipeline, ~70% growth guidance reaffirmed; new Godrej order ₹44cr; stock +32%)))))))</span></summary>
 <div class="upd-body">
+
+**🟢 18 → 25-Nov-2026 — ₹158cr ReNew civil order; FY27 confirmed book ₹1,372cr; 10-acre SIPCOT lease for a 1,200 MT shop**
+**24-Nov (NSE): order from ReNew Photovoltaics for main-plant-building civil works at Rambilli, Anakapalli (AP) — ₹157.68cr incl. GST, due by Feb-2028.** The filing states **confirmed orders of ₹1,372.39cr for FY27 execution, of which ₹501.51cr was billed in H1**, and bids of ~₹26,285cr. Same day: **99-year SIPCOT leasehold of 10.09 acres at Thoothukudi** for a 1,200 MT capacity addition by 31-Mar-2028.
+> **Why it matters:** **H2 needs ~₹870cr of billing to clear the confirmed FY27 book — 1.7x H1.** That is the number to test at the March results. The SIPCOT shop is backward integration into steel structures (*my reading of '1,200 MT'*).
+
+*Sweep: NSE announcements (SME — StockScans lags here, CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — No filings in the window — verified**
 **No filings on the exchange feed in the window** — a verified negative: a control query for the same name returned the right company (§0A rule 6).

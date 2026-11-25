@@ -30,11 +30,17 @@
 ---
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 899** · market cap ₹ 4,141 Cr. · P/E — · ROCE -3.70 % · ROE -1.98 % · 52-wk ₹ 982 / 466 · **vs ₹923 at baseline (-2.6%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 913** · market cap ₹ 4,205 Cr. · P/E — · ROCE (TTM) -2.4 % · ROE (TTM) -2.7 % · 52-wk ₹ 1,005 / 467 · **vs ₹923 at baseline (-1.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 27-Oct-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Nothing new since 4-Nov (verified) · (earlier: 🆕 🟡 Q2 loss ₹28.7cr; SC upholds AT-1 order vs Yes Bank/RBI (write-off not yet reversed); audit qualified; receivables 3x)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 27-Oct-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 🔴 ₹1,950cr NSEL settlement paid 23-Nov (~₹423/share); book value on the card is pre-payout · (earlier: 🆕 ⚪ Nothing new since 4-Nov (verified) · (earlier: 🆕 🟡 Q2 loss ₹28.7cr; SC upholds AT-1 order vs Yes Bank/RBI (write-off not yet reversed); audit qualified; receivables 3x))</span></summary>
 <div class="upd-body">
+
+**🔴 18 → 25-Nov-2026 — The ₹1,950cr NSEL settlement has been PAID — the Settlement Trigger Event has occurred**
+**On 23-Nov the escrow agent began payouts to NSEL's specified creditors and the company told the exchanges that 'the Settlement Trigger Event… has taken place… with no further obligations of the Company remaining pending pursuant to the Scheme'.** NSEL's press release: the ₹1,950cr OTS (NCLT 28-Nov-2025; 92.81% of claimants by number, 91.35% by value) is paid *'out of 63 moons' own money'*; on payment 63 moons takes over the claimants' rights against the 17 defaulter groups. Earlier filings 20–21-Nov set the payout ceremony.
+> **Why it matters:** **The profile's first finding was that the ₹1,950cr was not provided for. It has now left the company.** On 4.61cr shares that is ~₹423 a share (*my arithmetic*) against a dashboard book value of ₹760, which is pre-payout. **What replaces it on the balance sheet — a receivable for the assigned claims (decrees of ₹4,295cr under execution), and at what value — is undisclosed until the December-quarter accounts.** Treat P/B as unreliable until then.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — Nothing new since the 4-Nov sweep**
 **The only filing in the window was already read in the 4-Nov sweep** (filed the evening of 4-Nov); nothing else on the exchange feed.

@@ -4,11 +4,17 @@
 **Thesis current as of: 19-Sep-2026 · Tracking since: 19-Sep-2026**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 443** · market cap ₹ 2,680 Cr. · P/E 4.01x · ROCE 19.2 % · ROE 15.6 % · 52-wk ₹ 600 / 229 · **vs ₹470 at baseline (-5.7%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 412** · market cap ₹ 2,493 Cr. · P/E 3.7x · ROCE (TTM) 40.5 % · ROE (TTM) 33.1 % · 52-wk ₹ 600 / 229 · **vs ₹470 at baseline (-12.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 19-Sep-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Nothing new since 4-Nov (verified) · (earlier: 🆕 🟡 Q2: PAT ₹243cr (H1 ₹552cr vs ₹212cr in FY26), gross margin 31% → 27%; receivables +₹427cr in H1; no call · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 CARE A+ outlook Stable → Positive (12-Oct) · (earlier: Trading window closed; Q2FY27 is the windfall test · (earlier: Trading window closed ahead of Q2FY27 — the quarter that tests how much of the crude windfall held)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 19-Sep-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 ⚪ Nothing new since 4-Nov (verified) · (earlier: 🆕 🟡 Q2: PAT ₹243cr (H1 ₹552cr vs ₹212cr in FY26), gross margin 31% → 27%; receivables +₹427cr in H1; no call · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 CARE A+ outlook Stable → Positive (12-Oct) · (earlier: Trading window closed; Q2FY27 is the windfall test · (earlier: Trading window closed ahead of Q2FY27 — the quarter that tests how much of the crude windfall held))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — No filings in the window — verified**
+**No filings in the window** on StockScans: two independent queries across all 62 main-board and BSE names ("Limited" and "Ltd", grouped by company) returned nothing for this name, while the same queries found 33 other companies — a verified negative (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — Nothing new since the 4-Nov sweep**
 **The only filing in the window was already read in the 4-Nov sweep** (filed the evening of 4-Nov); nothing else on the exchange feed.

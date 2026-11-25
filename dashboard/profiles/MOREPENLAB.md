@@ -10,11 +10,17 @@
 > ***The consequence: the entire CDMO transformation this profile describes happened in the window during which the company stopped taking analyst questions. The word "CDMO" appears zero times in the May-2025 transcript.*** **Everything about the new strategy in §4 is management's own written framing, unchallenged. It is labelled as such throughout.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 99.2** · market cap ₹ 5,433 Cr. · P/E 28.8x · ROCE 8.05 % · ROE 5.33 % · 52-wk ₹ 151 / 33.0 · **vs ₹104 at baseline (-4.6%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 88.23** · market cap ₹ 4,835 Cr. · P/E 25.7x · ROCE (TTM) 15.9 % · ROE (TTM) 13.6 % · 52-wk ₹ 151 / 33.05 · **vs ₹104 at baseline (-15.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 1-Sep-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 🟢 First US Rx generic launched (Desloratadine) · (earlier: 🆕 🟢 Q2 record: revenue +81%, EBITDA +273% (17.45%), PAT +117% on CDMO; VP Finance & IR resigned · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 HP High Court quashed a ₹117.94cr GST show-cause notice (12-Oct) — the profile had never carried it · (earlier: 🟢 First-ever US ANDA filed (Sitagliptin, 3 strengths) — concrete CDMO progress, though still no earnings call · (earlier: CRISIL assigned an unsolicited ESG rating of 60 ('Adequate'); still no earnings call · (earlier in window: First phase of the capacity expansion completed ahead of schedule (API/CDMO reactors 535 KL → 614 KL); stock +16% to ₹121; still no earnings call))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 1-Sep-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Routine filings only · (earlier: 🆕 🟢 First US Rx generic launched (Desloratadine) · (earlier: 🆕 🟢 Q2 record: revenue +81%, EBITDA +273% (17.45%), PAT +117% on CDMO; VP Finance & IR resigned · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 HP High Court quashed a ₹117.94cr GST show-cause notice (12-Oct) — the profile had never carried it · (earlier: 🟢 First-ever US ANDA filed (Sitagliptin, 3 strengths) — concrete CDMO progress, though still no earnings call · (earlier: CRISIL assigned an unsolicited ESG rating of 60 ('Adequate'); still no earnings call · (earlier in window: First phase of the capacity expansion completed ahead of schedule (API/CDMO reactors 535 KL → 614 KL); stock +16% to ₹121; still no earnings call)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — Routine filings only**
+**Routine filings only:** analyst / investor-meet intimation only.
+> **Why it matters:** Routine; nothing on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟢 4 → 10-Nov-2026 — First US prescription generic launched — Desloratadine 5 mg**
 **First Rx generic in the US: Desloratadine Tablets USP 5 mg**, distributed through the US subsidiary Morepen Bio Inc. (press release 9-Nov). Morepen has supplied the API to the US for years.

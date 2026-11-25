@@ -1,7 +1,7 @@
 # AXISCADES Technologies — Company Profile
 
 **Ticker:** AXISCADES · **NSE: AXISCADES** *(EQ, listed 21-Dec-2000, ISIN INE555B01013 — verified against `EQUITY_L.csv`)* · **BSE: 532395** · **CIN L72200KA1990PLC084435** · **Sector:** Aerospace & Defence (Sector 1)
-**Conviction:** **HELD at MEDIUM (Under Watch)** — the 28-Jul downgrade trigger has not fired, but a new one has been set
+**Conviction:** **⤴ MEDIUM-LOW** *(M (Under Watch) → ML, 25-Nov-2026: two of the six 31-Aug triggers fired — the promoter sold ~13.2% and is at 44.82% against the 57% line, and H1 continuing revenue was ₹378.9cr against ~₹380cr)* · was **MEDIUM (Under Watch)**
 **Thesis date:** 31-Aug-2026 · **CMP ₹1,624** (Screener, 31-Aug-2026) · **Market cap ₹6,907 cr**
 
 > **🟢 CONCALL GATE: GREEN.** **Seven transcripts on file**, Q3FY25 (Feb-2025) → **Q1FY27 (webinar 13-Aug-2026, transcript filed 20-Aug)**, plus the Q1FY27 deck and press release and **12 exchange filings pulled fresh for this refresh — including an acquisition announced on 28 August, three days before this was written.**
@@ -11,11 +11,17 @@
 > **🔴 WHAT THIS REFRESH FOUND.** Since 28-Jul the company has: **reported a loss-making record quarter**; **had shareholders approve the ₹2,256cr Akkodis divestment (27-Jul)**; **replaced an Independent Director (11-Aug)**; and **agreed to buy 90% of a Bengaluru precision manufacturer for ₹234cr in cash (28-Aug)**. **Most importantly, it has now published four mutually inconsistent figures for how much cash the divestment actually delivers — ₹2,256cr, ₹1,685cr, ~₹910–920cr and ₹715cr — and no one has asked it to reconcile them.** ⤴ **It also corrects a market-cap error — located precisely, because my first draft of this profile blamed the wrong part of the file.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 1,787** · market cap ₹ 7,643 Cr. · P/E 233x · ROCE 15.4 % · ROE 11.5 % · 52-wk ₹ 2,360 / 1,061 · **vs ₹1,624 at baseline (+10.0%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 1,866** · market cap ₹ 7,983 Cr. · P/E 131.2x · ROCE (TTM) -0.2 % · ROE (TTM) 8.0 % · 52-wk ₹ 2,360 / 1,063 · **vs ₹1,624 at baseline (+14.9%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 ⚪ ESOPs; Canadian aerospace subsidiary incorporated; Q2 pending · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟡 XIDA to buy ITSJ (US AI-hardware supplier) for ≤US$7m; Swiss Ulosia acquisition completed; CFO handover 1-Jan; Akkodis Phase 1 completion still not filed · (earlier: German subsidiary add-solution GmbH put into voluntary solvent liquidation, completing the automotive exit; Phase 1 Akkodis cash now 5 weeks overdue · (earlier: Akkodis AXISCADES Aerospace Engineering incorporated 22-Sep — while the Phase 1 divestment cash is now 3 weeks overdue with no completion filing · (earlier in window: Cloud Wave acquisition COMPLETED 10-Sep (₹234cr, funded by up to ₹200cr of 12.5% NCDs); Phase 1 Akkodis close still not filed 18 days past target; promoter releases part of a pledge; stock +11.5%))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 🔴 Promoter sold ~13.2% (to 44.82%); Phase 2 to Feb; continuing loss — M → ML · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 ⚪ ESOPs; Canadian aerospace subsidiary incorporated; Q2 pending · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟡 XIDA to buy ITSJ (US AI-hardware supplier) for ≤US$7m; Swiss Ulosia acquisition completed; CFO handover 1-Jan; Akkodis Phase 1 completion still not filed · (earlier: German subsidiary add-solution GmbH put into voluntary solvent liquidation, completing the automotive exit; Phase 1 Akkodis cash now 5 weeks overdue · (earlier: Akkodis AXISCADES Aerospace Engineering incorporated 22-Sep — while the Phase 1 divestment cash is now 3 weeks overdue with no completion filing · (earlier in window: Cloud Wave acquisition COMPLETED 10-Sep (₹234cr, funded by up to ₹200cr of 12.5% NCDs); Phase 1 Akkodis close still not filed 18 days past target; promoter releases part of a pledge; stock +11.5%)))))))</span></summary>
 <div class="upd-body">
+
+**🔴 18 → 25-Nov-2026 — Promoter sold ~13.2% (58.03% → 44.82%) — missed by earlier sweeps; Q2 continuing loss; M → MEDIUM-LOW**
+**NSE shareholding master: promoter 58.03% (Jun) → 44.82% (Sep-2026).** Jupiter Capital sold ~56.2 lakh shares on 30-Jun and 28–29-Sep (~₹1,010cr; Kotak MF, Svadha, Abakkus bought at ₹1,824). **Q2FY27 (official transcript of the 16-Nov webinar):** retained revenue ₹195.6cr (+30%); continuing PAT **−₹48.1cr** after a ₹38.4cr ADD Solutions impairment; reported PAT ₹47.3cr on a ₹129.3cr divestment gain. **Phase 2 slipped from 30-Nov to February.** Proceeds reconciled: ₹1,395cr post-tax guaranteed — ₹121cr Oct, ₹32cr Nov, ₹504cr Feb, ₹56cr Jul, **₹682cr Dec-2028**. Group CFO retires in December. New US subsidiary (24-Nov).
+> **Why it matters:** **Two triggers fired — promoter below 57% and H1 continuing revenue ₹378.9cr against ~₹380cr. M (Under Watch) → MEDIUM-LOW.** *Correction: the 10-Nov and 18-Nov sweeps did not catch the September sale — it was on the SAST/PIT feeds.*
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — No filings in the window — verified**
 **No filings on the exchange feed in the window** — a verified negative: a control query for the same name returned the right company (§0A rule 6).
@@ -261,6 +267,11 @@ Screener P/E 235x, ROCE 3.6%, ROE 4.1%; market cap ₹7,704cr; 52-week range ₹
 | **Exit Add Solutions GmbH** | Q1FY27 call | *"closure targeted by Q4 of FY27"* | 🕐 Open |
 | **FY27 revenue ₹1,377cr / EBITDA ₹270cr** | start of FY27, **reaffirmed 13-Aug** | **Explicitly "on a proforma annualised basis"**, not reported | 🕐 **Open — and see the note below on what that qualifier does** |
 | **Power 930 — ₹9,000cr revenue by FY2030**, *"non-negotiable"* | Q3FY26 | **FY27 guided at ₹1,377cr.** Reaching ₹9,000cr by FY2030 requires ~**87% compound growth for three years** | 🔴 **Arithmetically unreachable from the stated FY27 base without transformative acquisitions that have not been announced** |
+| *(25-Nov)* **Phase 1 closed by 31-Aug** | Q1FY27 | **Closed 30-Sep** — a month late | 🟡 **Late, done** |
+| *(25-Nov)* **Phase 2 by 30-Nov** | Q1FY27 | **"On or before February"** | 🔴 **Slipped 3 months** |
+| *(25-Nov)* Cloud Wave by 30-Sep | 28-Aug | **Consolidated from 10-Sep** | ✅ |
+| *(25-Nov)* Proceeds reconciled | Q1FY27 (four figures) | **Bridge given: ₹2,275 gross / ₹1,686 guaranteed / ₹1,395 post-tax, dated** | ✅ **Reconciled** |
+| *(25-Nov)* Q2 "first normal quarter" | — | **Continuing PAT −₹48.1cr; Q3 now named the first normal quarter** | 🔴 **Pushed to Q3** |
 
 **Verdict on management.** ***Credit where it is due, and it is substantial: this team said it would sell the services business and it sold it; said it would do so without dilution and has; said an aerospace acquisition would close this quarter and announced one fifteen days later; and has rebuilt the board with genuine aerospace and defence weight.*** **Execution on transactions has been good.**
 
@@ -416,6 +427,32 @@ Screener P/E 235x, ROCE 3.6%, ROE 4.1%; market cap ₹7,704cr; 52-week range ₹
 **Facilities under construction:** the **Centre for Advanced Manufacturing, Devanahalli — 240,000 sq ft on 20 acres**, *"a few kilometers away from DAC and DAL"*, to serve all four businesses on a common platform; and the **Telangana plot at IP Hardware Park Phase II, Mamidipally — 32,847 sq m, acquisition from TSIIC completed 24-Jul-2026** (first disclosed 12-Nov-2025).
 
 ---
+### 📊 Q2FY27 Refresh — Full Numbers Print (25-Nov-2026)
+
+*Sources: results (13-Nov-2026) and deck; **official transcript of the 16-Nov webinar, filed 20-Nov, read in full** (`Fetched Concalls/AXISCADES/AXISCADES_Transcript_2026-11_Q2FY27_OFFICIAL.pdf`); NSE shareholding master (Sep-2026); SEBI PIT and SAST disclosures (via StockScans); Jupiter Capital Reg 31 filing 23-Nov. StockScans call summary checked against the transcript — mismatches below.*
+
+| ₹cr | Q2FY27 | Q1FY27 | Q2FY26 |
+|---|---|---|---|
+| Group revenue | **359.1** | ~346.6 | ~299 |
+| Retained (continuing) revenue | **195.6** | 183.4 | 150 |
+| — of which Cloud Wave (from 10-Sep) | 16.5 | — | — |
+| Discontinued (Ind AS 105) | 163.5 | — | — |
+| Reported EBITDA (continuing) | **11.4** | — | — |
+| EBITDA before ESOP charge | 23.4 | — | — |
+| Continuing PAT | **−48.1** | — | — |
+| Discontinued PAT (incl. ₹129.3cr pre-tax exceptional gain) | +95.4 | — | — |
+| **Reported PAT** | **47.3** | −14.8 | 23.1 |
+
+**H1FY27:** group revenue ₹705.7cr (+30%), **retained ₹378.9cr (+55%)**, PBT ₹70.8cr, PAT ₹32.5cr. Defence H1 ₹252.7cr (+46%), Q2 EBITDA ₹52.5cr (17.6%); XiDA H1 ₹97.9cr (+55%) at 27.6%; aerospace ₹23.1cr. **One-time, non-cash:** ₹38.4cr ADD Solutions goodwill/intangibles (continuing; ADD to solvent liquidation) + ₹19.9cr Epcogen goodwill (discontinued) = ₹58.3cr. **The drag:** ESOP charge (₹12cr, ~half of pre-ESOP EBITDA) + ~₹15cr of parent corporate cost + ADD's EBITDA loss = ₹31cr, 16% of retained revenue; legal & professional ₹14.5cr. Chairman: *"I would rather show you a clean picture today than a comfortable one."*
+
+**🔴 The promoter sold ~13.2% — and the earlier sweeps missed it.** **NSE's shareholding master: promoter 58.03% (Jun) → 44.82% (Sep-2026)** (filed 21-Oct). PIT/SAST: **Jupiter Capital sold 10,00,000 shares on 30-Jun (₹1,667.75) and 46,20,230 on 28–29-Sep (₹1,824–1,878) — ~56.2 lakh shares, ~₹1,010cr**; Kotak MF, Svadha India Emerging Opportunities, Abakkus funds and Vanaja Sundar bought at ₹1,824. *(StockScans' bulk-deal table shows 90,97,810 shares sold on 29-Sep — about double the disclosures; the PIT/SAST figures reconcile to NSE's 13.21pp and are used here. The SAST form's 'holding after 39.29%' does not reconcile either.)* Jupiter's own Reg 31 filing (23-Nov) gives **1,90,61,817 shares, 44.56%**, with 23,04,000 still pledged to Tata Capital after a 20,000-share release. **This sat on the SAST/PIT feeds, not the announcement feed — the §4B gap.** Asked on the call whether, with management below 50%, a foreign partner would come in, the Chairman said OEM partners *"won't come at the listed entity. But we are looking at setting up joint ventures with them."*
+
+**Divestment — now reconciled.** Phase 1 **closed 30-Sep-2026**; **Phase 2 slipped from 30-Nov to "on or before February"** (new-company formation and MoD clearances), held for sale. **Gross ₹2,275cr = ₹1,686cr guaranteed (74%) + ₹589cr earn-out (26%, proportional to an FY28 EBITDA target of ~US$18m).** **Post-tax guaranteed ₹1,395cr: ₹121cr received (Oct), ₹32cr (Nov), ~₹504cr (Feb-2027), ₹56cr (Jul-2027), ₹682cr (Dec-2028).** *Almost half the guaranteed cash is two years away.* Another ~₹1,100cr exceptional gain is expected on Phase 2 closing in Q4. Transaction costs ~₹35cr so far, ~₹20cr more. **Gross debt ₹624cr, net debt ₹556cr** (also called "around 525" later in the call), ₹200cr of it for Cloud Wave; ₹85cr repaid in October.
+
+**Guidance (management avoids the word):** retained revenue **Q3 ~₹300cr (band given as both "± 15" and "285 to 300"), Q4 ₹375–405cr**; EBITDA post-ESOP **~15–16% in Q3, 20%+ in Q4**; ESOP charge to ~20% of EBITDA in Q3, single digits by Q4; corporate overhead to ~₹12cr a quarter; employee cost ₹48–54cr a quarter. H2 executable ₹600–720cr on top of H1's ₹379cr *(→ ~₹980–1,100cr reported FY27 — the ₹1,377cr "proforma annualised" figure is a different thing, §4)*. Four acquisitions lined up (₹600–750cr of revenue); 2–3 hoped for in Q4, *"could slip by one quarter or two"* (ITAR, CFIUS). Defence assured-forecast visibility **~₹5,000cr** (from ~₹4,500cr) over 3–4 years; >₹80cr of Q2 design wins. XiDA: Humanoid Inc. order; via the ITSJ asset purchase, **Google** (data-centre thermal) and **Applied Materials**; FY27 *"more than double"* FY26's ~₹125cr; a separate XiDA fund-raise under NDA. MAC (missile complex): 8+ acres in Telangana, 12–18 months. **Supply chain** (components, PCBs) is the stated bottleneck, ±2% on margin. **Group CFO Shashidhar S.K. retires in December; CFO-designate Uttam Kumar Bhageria.** PAT: *"I have not calculated the PAT… I honestly have not done any major homework on that."*
+
+**StockScans summary vs transcript — mismatches:** (1) it gives the guaranteed tranches as ₹504 + ₹56 + ₹682cr "totaling ₹1,274 crores" — those add to ₹1,242cr; ₹1,274cr is the balance after the October receipt, including November's ₹32cr; (2) its debt row says tranches run "through December 2027" — the transcript says **December 2028**; (3) it omits the promoter's ~13% sale and the Chairman's answer on it; (4) it omits the Group CFO's retirement.
+
 ## 5. Connecting the Dots
 
 **Thread A — 🟢 The strategic logic is sound, and management's own articulation of it is the best argument for the stock.** *The architect gets 3% of the building; the builder gets 97%.* **Twenty years of designing aerospace and defence parts is a genuine qualification advantage when bidding to make them.** *This is not a conglomerate wandering into a hot sector.*
@@ -446,6 +483,7 @@ Screener P/E 235x, ROCE 3.6%, ROE 4.1%; market cap ₹7,704cr; 52-week range ₹
 | **28-Jul-2026** *(Tier A)* | **₹1,668** | **MH → MEDIUM (Under Watch)** | **Found the two-phase Akkodis exit and correctly identified it as changing the company.** Established the promoter decline and the DII in-and-out. **Built a partial §3.5** — delivery scorecard and promoter trajectory — and **explicitly flagged the roster and promoter background as still outstanding.** **Found that Power 930 is arithmetically unreachable from the company's own FY27 guidance and that management answered the challenge with belief rather than a bridge.** **Its own valuation table was correct — CMP ₹1,497, market cap ₹6,367cr, P/E 80.6x, P/B 8.77x on 4.25cr shares.** |
 | **31-Aug-2026** *(this profile)* | **₹1,624** | **HELD at MEDIUM (Under Watch)** — no 28-Jul trigger fired | Converted to always-current format; **§3.5 retrofit closed** except the promoter-group entity table. **🟢 Q1FY27 record revenue ₹346.7cr (+42.2%); continuing ops ₹183.4cr (+94.2%); XiDA at a 29.7% margin; defence +111% with ₹4,500cr+ visibility.** **🔴 But a reported loss of ₹14.8cr, and 87% of normalised PAT came from the business being sold.** **🆕 Shareholders approved the divestment 27-Jul.** **🆕 Cloud Wave: 90% for ₹234cr cash, announced 28-Aug, closing by 30-Sep — at ~6.6x FY27E EBITDA on a target that grew 85% then 58%.** **🆕 Board: Mariam Mathew out, Ashmita Sethi in (11-Aug).** **🔴 THE FINDING: four incompatible figures for the divestment proceeds, ₹1,541cr apart, unreconciled and unquestioned.** **🔴 FY27 guidance quietly rebased to "proforma annualised".** ⚠️ **Screener's quarterly series for this stock is now incoherent and must not be used.** ⤴ **Corrected a stale figure in the preserved v1 body: its §6 read *"At CMP ₹1,668, Mcap ~₹8,300 Cr… trailing P/E of ~115x."* Neither number was right — v1's own header CMP was ₹1,593, and on ~4.25cr shares ₹1,668 gives ₹7,100cr and a P/E of ~98x, not ₹8,300cr and 115x. **The 28-Jul refresh table was correct throughout (₹1,497 / ₹6,367cr / 80.6x / 8.77x); the error was confined to the untouched v1 prose, which is a known hazard of the Tier-A "preserve v1 body" model.** |
 | **19-Sep-2026** *(filings refresh)* | **₹1,811** | **HELD at MEDIUM (Under Watch)** — trigger unchanged | **Cloud Wave completed 10-Sep (₹234cr; 12.5% NCDs up to ₹200cr); Phase 1 Akkodis close still not filed, 18 days past target; promoter released 0.23% of pledge (5.53% still pledged); stock +11.5%.** |
+| **25-Nov-2026** *(Q2FY27 Tier-A)* | **₹1,866** *(23-Nov close)* | **⤴ MEDIUM (Under Watch) → MEDIUM-LOW** | **Two triggers fired: the promoter sold ~13.2% (58.03% → 44.82%, NSE master; ~₹1,010cr in June–September) and H1 continuing revenue was ₹378.9cr against ~₹380cr.** Phase 2 slipped to February; continuing operations lost ₹48.1cr in Q2 (₹38.4cr of it a one-time impairment); the proceeds bridge is finally reconciled — but ₹682cr of ₹1,395cr is due only in Dec-2028. **The promoter sale was missed by the 10-Nov and 18-Nov sweeps** (SAST/PIT feeds, not announcements). |
 
 **The trajectory in one line.** ***28-Jul called the transformation early and correctly; five weeks later the company has executed more of it than expected and disclosed the funding for it worse than expected, and the share price has gone nowhere.***
 
@@ -534,16 +572,38 @@ Screener P/E 235x, ROCE 3.6%, ROE 4.1%; market cap ₹7,704cr; 52-week range ₹
 
 **🟢 Upgrade to MEDIUM-HIGH on:** **both phases closed with cash received and reconciled; the retained business at a positive reported PAT for two consecutive quarters; Cloud Wave consolidated and performing to the ₹180cr / 22% expectation; and the deferred ₹142cr fully recovered.** ***That combination would mean the transition has actually happened rather than been announced.***
 
+> **📊 Scored 25-Nov-2026 (Q2FY27) — "downgrade to ML if any two fire":** Phase 1 not closed by 30-Sep — **CLEAR (closed 30-Sep)** · proceeds not reconciled at Q2 / realised cash below ~₹700cr — **CLEAR** (₹1,395cr post-tax guaranteed, dated; *only ~₹657cr of it by Feb-2027*) · Cloud Wave not closed by 30-Sep — **CLEAR (10-Sep)** · **H1 continuing revenue below ~₹380cr — ⚠️ FIRED (₹378.9cr, by ₹1.1cr)** · **promoter below 57% — ⚠️ FIRED (44.82%, NSE master)** · aerospace manufacturing EBITDA-negative at Q4FY27 — not yet testable. **→ MEDIUM-LOW.** *The revenue miss alone is a rounding error; the promoter selling 13% of the company in a quarter is not.*
+>
+> **New triggers at ML. Down to Speculative if:** Phase 2 not closed by 31-Mar-2027 · Q3 retained revenue below ₹270cr or Q3 continuing EBITDA margin below 10% · any further promoter sale. **Back to Medium on:** Phase 2 closed with the ₹504cr received, **and** Q3/Q4 continuing EBITDA at the 15%/20% aims.
+
 ---
+### 📊 25-Nov-2026 — scenarios re-derived after Q2FY27
+
+*My estimates, from ₹1,866 / mcap ~₹7,980cr (StockScans, 23-Nov close). FY28 on the retained business at a Q4FY27 exit of ~₹390cr a quarter plus some acquisitions; net cash after the guaranteed proceeds less debt, the Dec-2028 tranche discounted — ~₹600cr. The sector multiple remains the swing factor (Risk 7).*
+
+| Scenario | Prob. | FY28 retained business | PAT × multiple | + net cash | Value | Return |
+|---|---|---|---|---|---|---|
+| **Base** | **50%** | ~₹1,500cr revenue, ~18% EBITDA, PAT ~₹150cr | 45x | ₹600cr | ₹7,350cr | **≈ −8%** |
+| **Bull** | **25%** | ~₹1,800cr incl. acquisitions, 20%, PAT ~₹220cr; earn-out largely earned | 55x | ₹1,200cr | ₹13,300cr | **≈ +67%** |
+| **Bear** | **25%** | Phase 2 slips again; ~₹1,200cr, 12%, PAT ~₹90cr | 30x | ₹500cr | ₹3,200cr | **≈ −60%** |
+
+**Weighted ≈ −2% over two years** *(0.50 × −8 + 0.25 × 67 − 0.25 × 60)*. **Wide by construction: every outcome rests on transactions and a defence multiple, and the promoter has just sold a seventh of the company at ₹1,824.**
+
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — 🔴 Transaction execution, and there are six live transactions at once.** **Two divestment phases, at least two acquisitions (one unannounced), three facility builds, and one unit exit — all inside four quarters.** *Any single slip is survivable; the correlation between them is the risk, because they share management bandwidth and the same cash pool.*
+
+> ⚠️ **PARTLY MATERIALIZED (25-Nov-2026):** Phase 1 closed a month late (30-Sep); Phase 2 slipped from 30-Nov to February; four more acquisitions 'could slip by one quarter or two'.
 > **⚠️ UPDATE 19-Sep-2026** — Cloud Wave closed early (10-Sep). **Phase 1 of the divestment has not been reported complete, 18 days after the 31-Aug target.** The acquisition was financed with 12.5% NCDs rather than divestment cash.
 **⚠️ LIVE NOW: Phase 1 was targeted for 31 August 2026 and no completion filing has appeared.**
 
 **Risk 2 — 🔴 The divestment cash could be materially less than the headline.** **₹2,256cr / ₹1,685cr / ~₹910–920cr / ₹715cr.** **If the realised post-tax figure is at the bottom of that range, the plan funds Cloud Wave (₹234cr) and debt retirement and little else** — and the *"other Acquisitions in progress"* inside FY27 guidance would need either debt or the equity dilution management has promised to avoid.
 
+> 🟡 **RECONCILED, and the timing is the catch (25-Nov-2026):** gross ₹2,275cr; guaranteed ₹1,686cr; **post-tax guaranteed ₹1,395cr, of which ₹682cr arrives only in Dec-2028**; earn-out ₹589cr proportional to an FY28 EBITDA target.
+
 **Risk 3 — 🔴 The retained business does not yet earn anything.** **₹2.6cr of normalised PAT on ₹183.4cr of revenue.** **Aerospace manufacturing is −₹5.4cr of EBITDA and consumes 72% of the group's retained finance cost.** *Everything rests on operating leverage that has been paid for but not yet delivered.*
+
+> ⚠️ **STILL TRUE (25-Nov-2026):** continuing PAT −₹48.1cr in Q2 (−₹9.7cr before the ₹38.4cr impairment, *my arithmetic*); Q3 is now called 'our first normal and profitable quarter'.
 
 **Risk 4 — 🔴 The guidance basis will confuse the reported outcome.** **₹1,377cr "proforma annualised" against a Q1 annualising to ~₹734cr.** *When FY27 reports roughly half the guided number, the market has to decide whether it was told or misled. The company did disclose the basis — but a stock held by 46,002 mostly-retail shareholders is not a stock where footnote-reading can be assumed.*
 
@@ -559,7 +619,11 @@ Screener P/E 235x, ROCE 3.6%, ROE 4.1%; market cap ₹7,704cr; 52-week range ₹
 
 **Risk 9 — 🟡 Register composition.** **Promoter 67.95% → 58.03% over six years; DIIs bought a promoter block in Mar-2024 and exited within eighteen months; retail shareholders tripled to 46,002.** *At 9.5x book with a 4.06% ROE and no dividend, there is no institutional anchor.*
 
+> 🔴 **MATERIALIZED (25-Nov-2026):** **promoter 58.03% → 44.82% in the September quarter (NSE master)** — Jupiter Capital sold ~56.2 lakh shares (~₹1,010cr) on 30-Jun and 28–29-Sep; Kotak MF, Svadha and Abakkus bought. 23,04,000 Jupiter shares remain pledged to Tata Capital.
+
 **Risk 10 — 🟡 Key-man, in both directions.** **Dr. Sampath Ravinarayanan is the Founder-Chairman-MD and part of the multiple is faith in him.** **He did not attend the Q1FY27 call**; his speech was read aloud by the head of IR. *Institutionalising a founder-led company is right; but on the quarter that produced a loss, a ₹2,256cr disposal and a pending ₹234cr purchase, the founder took no questions.*
+
+> 🟡 **ACCUMULATING (25-Nov-2026):** Group CFO Shashidhar S.K. retires in December, mid-transaction; Uttam Kumar Bhageria is CFO-designate.
 
 **Risk 11 — 🟢 TRACKING WELL, and it deserves recording.** The 28-Jul refresh's central worry was that the disposals and acquisitions would prove slower and vaguer than announced. **In five weeks: shareholder approval obtained, Phase 1 scheduled, an acquisition signed at a defensible price, and a board strengthened.** ***Execution has outrun the scepticism so far.***
 
@@ -589,6 +653,8 @@ Screener P/E 235x, ROCE 3.6%, ROE 4.1%; market cap ₹7,704cr; 52-week range ₹
 
 ## 9. Community Pulse
 
+**⤴ 25-Nov-2026:** the Q2 webinar's questions were sharper than before — whether 'assured forecast visibility' was being *"silently"* dropped (Aveek Mitra; answered with ~₹5,000cr), what happens now the promoter is below 50% (Tushar Bhavsar), why the divested business's margin fell before handover (Jatin Raghuwanshi), and whether ~₹500cr at 12% PAT in H2 is achievable (Naman Saraf — *"I have not calculated the PAT"*). **Tone: still supportive, visibly more sceptical.**
+
 **ValuePickr — "Axiscades Engineering — High Potential Defence/Aerospace company", topic 5923. 58 posts; the most recent visible post is 28-May-2026.** *(The search index reports later activity that the topic API does not return; treated as unresolved rather than asserted either way.)* **A companion thread, "Axiscades Mistral Technologies Limited — Hidden Defence Story" (topic 167600, 79 posts), was last active 30-Mar-2026.**
 
 **The most recent exchange is a real debate about the Q4FY26 miss, and it asked the right question:**
@@ -613,6 +679,8 @@ Screener P/E 235x, ROCE 3.6%, ROE 4.1%; market cap ₹7,704cr; 52-week range ₹
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (25-Nov-2026 refresh):** results + deck 13-Nov; **official transcript of the 16-Nov webinar, filed 20-Nov, read in full**; **NSE shareholding master (Sep-2026: promoter 44.82%)**; SEBI PIT and SAST disclosures for 30-Jun and 28–29-Sep (via StockScans); Jupiter Capital Reg 31 filing 23-Nov; subsidiary incorporation 24-Nov; StockScans call summary checked against the transcript (four mismatches noted in §4). **Correction: the 10-Nov and 18-Nov sweeps did not catch the September promoter sale.**
 
 - **Concalls read (7, all primary transcripts):** **Q1FY27 earnings webinar, held 13-Aug-2026, transcript filed 20-Aug-2026 (21 pages, read in full — primary)**, Q4FY26 (18-Jun-2026), Q3FY26 (Feb-2026), Q2FY26 (Nov-2025), Q1FY26 (Aug-2025), Q4FY25 (Jun-2025), Q3FY25 (Feb-2025). Stored in `Fetched Concalls/AXISCADES/`.
 - **Q1FY27 investor presentation** (13-Aug-2026, 17 pages) — slides 7, 9, 10 and 15 used for the P&L split, the stream table and the guidance bridge.

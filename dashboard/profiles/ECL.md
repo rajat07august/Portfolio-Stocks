@@ -1,7 +1,7 @@
 # Electrosteel Castings (ECL) — Company Profile
 
 **Ticker:** ECL · NSE/BSE: **ELECTCAST** · BSE: 500128
-**Sector:** 16 — Water Infrastructure (Ductile Iron Pipes + Fittings + Valve Castings) · **Conviction:** **Medium-High (Cycle-Turn Play)**
+**Sector:** 16 — Water Infrastructure (Ductile Iron Pipes + Fittings + Valve Castings) · **Conviction:** **⤴ Medium (Cycle-Turn Play)** *(MH → M, 25-Nov-2026: 'H2FY27 fails to inflect' fired on management's own guidance — H2 volume 'somewhat similar to the first half', the 12% margin pushed to FY28; reversed if H2 volume actually clears 2.7 lakh t)* · was **Medium-High**
 **Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 17-Aug-2026)* · **Tracking since:** 3-Jul-2026
 
 **CMP ₹72.0** · **Market cap ₹4,448 cr** · **P/E 27.9x** *(on a trough TTM PAT of ₹121cr — a meaningless multiple at a cycle bottom)* · **P/B 0.75x** (book ₹95.8) · **ROCE 5.00%** · **ROE 3.04%** · **Div yield 1.27%** · 52-week range **₹60.1–₹109**
@@ -12,11 +12,17 @@
 > **This is a cyclical at a trough, and the profile is written that way.** Earnings-based multiples are close to meaningless here; **book value is the informative anchor.** Management files a transcript every quarter and answers directly — which, across this refresh batch, is not the norm.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 69.3** · market cap ₹ 4,282 Cr. · P/E 26.9x · ROCE 5.00 % · ROE 3.04 % · 52-wk ₹ 95.9 / 60.1 · **vs ₹72 at baseline (-3.8%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 64.44** · market cap ₹ 3,984 Cr. · P/E 42.7x · ROCE (TTM) 3.3 % · ROE (TTM) 1.6 % · 52-wk ₹ 95.90 / 60.15 · **vs ₹72 at baseline (-10.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 17-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Analyst-meet schedule only · (earlier: 🆕 ⚪ Quiet — verified · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 Promoter group bought 3.09cr shares on market (28–29 Sep) → 54.53%; Belgrave sold 2.89cr the same day · (earlier: Routine PIT disclosure; the Oman acquisition still to consolidate · (earlier: Completed the 70% buy of Arabian Water Tech LLC (Oman) — for OMR 21,000, a nominal sum · (earlier in window: Omani water-technology subsidiary acquisition completed (70% of Arabian Water Tech LLC, OMR 21,000 paid); nothing else material; stock +2%))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 17-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 🔴 H2 guided flat, 12% margin to FY28 — MH → M (on guidance) · (earlier: 🆕 ⚪ Analyst-meet schedule only · (earlier: 🆕 ⚪ Quiet — verified · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 Promoter group bought 3.09cr shares on market (28–29 Sep) → 54.53%; Belgrave sold 2.89cr the same day · (earlier: Routine PIT disclosure; the Oman acquisition still to consolidate · (earlier: Completed the 70% buy of Arabian Water Tech LLC (Oman) — for OMR 21,000, a nominal sum · (earlier in window: Omani water-technology subsidiary acquisition completed (70% of Arabian Water Tech LLC, OMR 21,000 paid); nothing else material; stock +2%)))))))</span></summary>
 <div class="upd-body">
+
+**🔴 18 → 25-Nov-2026 — Q2FY27 call read — volume flat at 1.21 lakh t; H2 guided ≈ H1, 12% margin pushed to FY28; MH → MEDIUM**
+**Q2FY27 (official transcript of the 13-Nov call, read in full):** volume **1.21 lakh t** (1.20 in Q1); revenue ₹1,520cr; EBITDA ₹100cr ex other income (6.6%), ₹139cr incl. (8.9%); PAT ₹51cr; **net debt ₹750cr** (₹876cr). JJM sanctions ₹16,487cr (₹10,344cr) but spent on contractor arrears. **H2 'somewhat similar to the first half'; the 12% margin moves 'four to six months' into FY28**; FY28 7 lakh t. Coking coal: 60–70% passed on. Buyback 'under active consideration'.
+> **Why it matters:** **'H2FY27 fails to inflect' has fired on management's own guidance → MEDIUM.** Reverse if H2 volume actually clears 2.7 lakh t with EBITDA (ex other income) ≥8%. 0.67x book is the floor.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — Analyst-meet schedule**
 An analyst-meet schedule (7-Nov). Q2 results are still to come.
@@ -223,6 +229,10 @@ Every time India lays new water pipeline — for the **Jal Jeevan Mission** (tap
 | Overseas subsidiaries | — | UK, Europe, USA *"doing much better than our expectations"* — carrying the consolidated result | ✅ |
 | **Promoter holding** | — | **50.14%, held two quarters**, up from 44.08% | ✅ |
 | Saudi Arabia import duties | Q1FY27 | Saudi is **2–3% of sales**; *"a quantity that can be diverted to other markets pretty easily"* | 🟢 **Immaterial** |
+| *(25-Nov)* **Recovery "from H2FY27"; 12% margin "from Q3"** | Q1FY27 call | **H2 guided ~flat on H1; 12% pushed to FY28** | 🔴 **Pushed back again** |
+| *(25-Nov)* Net debt down | ongoing | **₹876cr → ₹750cr** | ✅ |
+| *(25-Nov)* Coking-coal pass-through | Q2 | **60–70% passed on**; full by end-Q4 | 🕐 |
+| *(25-Nov)* Valve plant by FY27-end | Q1FY27 | **Under construction, on track** | 🕐 |
 
 **Verdict on management:** *Candid, specific and consistently available — which is more than can be said for half this refresh batch. They file a transcript every quarter, gave a precise per-tonne realisation when asked, conceded the volume cut without spin (**"the first half is substantially slower"**), quantified the JJM release gap between FY26 and FY27 in rupees, and answered the Saudi duty question with the actual exposure percentage. The strategic choices through the trough have been sensible: deleverage ₹1,100cr, run a structural cost programme so operating leverage works on the way back, buy a margin-accretive European business, and add an adjacent paints line brownfield rather than greenfield. **The open question is not honesty or capital discipline — it is whether H2FY27 delivers the volumes, and management has been explicit that everything rests there.***
 
@@ -305,6 +315,30 @@ From the call: *"gross debt and net debt as on 30th June 2026 stood at **Rs. 1,6
 
 ---
 
+### 📊 Q2FY27 Refresh — Full Numbers Print (25-Nov-2026)
+
+*Sources: results (13-Nov-2026) and deck; **official transcript of the 13-Nov call, filed 19-Nov, read in full** (`Fetched Concalls/ECL/ECL_Transcript_2026-11_Q2FY27_OFFICIAL.pdf`); StockScans for the table. The StockScans call summary was checked against the transcript — mismatches below.*
+
+| ₹cr (consolidated) | Q2FY27 | Q1FY27 | Q2FY26 |
+|---|---|---|---|
+| Revenue | **1,520** | 1,426 | 1,396 |
+| EBITDA ex other income (StockScans) | **100** (6.6%) | 100 (7.0%) | 93 (6.7%) |
+| EBITDA incl. other income (company) | **139 (8.9%)** | — | — |
+| PAT | **51** | 48 | 78 |
+| DI pipe + fittings + CI volume | **1.21 lakh t** | 1.20 lakh t | — |
+
+**H1FY27:** total income ₹3,023cr, EBITDA incl. other income ₹278cr (9.2%), PAT ₹99cr; volume ~2.5 lakh t. **Growth in income came from "higher sales of pig iron, sponge iron and coke"** — liquid metal diverted out of pipes, not pipe demand. **Gross debt ₹1,625cr, net debt ₹750cr (₹876cr in June).**
+
+**Why it is late:** JJM money rose (central sanction orders **₹16,487cr vs ₹10,344cr** at the August call; FY27 BE ₹67,670cr) but *"has gone towards the long overdue that have been there at the end of the contractors"*; process changes by the centre delayed the fund flow management expected in Q2 into Q3. **The 12% margin target moves "four to six months… more than what we had committed in Q1" — i.e. into FY28.** Coking coal adds a Q3/Q4 hit (inventory carry); **60–70% of the increase passed on so far**, full effect by end-Q4; 5–7% of the domestic book is fixed-price government work.
+
+**Guidance:** **H2 volume "somewhat similar to the first half", "marginally better"** (~2.5 lakh t); **H2 margin "similar… if not slightly better"**; **FY28 7 lakh t** (*"7 to 8 does sound realistic… 7 lakh tons is something we should be hitting"*) and back to 12% margin. Order book ~3 lakh t (~6–6.5 months of capacity), of which JJM 60–70k t; **~2.5 mn t of JJM orders "either on the books or to be tendered freshly"**, opening from Q4 and playing out over FY28–H1FY29 (JJM extended to Dec-2028). Pricing: the dumping phase *"overspilled a little bit into the first quarter"*; now *"I do not see a kind of bloodbath"*; 75–80% industry utilisation *"very much doable"* in two years. **Only stated risk to the recovery: a war large enough to hit India's balance of payments.**
+
+**Exports:** >20% of revenue; Saudi anti-dumping duty *"a mild pushback"* (ECL's rate smaller than peers'); Europe slowing; **50% of exports to UK/Europe** (management corrected an analyst who recalled 50% Middle East). Arabian Water Tech (Oman) and Singardo (SE Asia) open new markets.
+
+**Diversification:** valve plant in India commissioning by FY27-end; TIS EBITDA 14% (+160bps QoQ); valves ₹800cr target by ~2030 (India ₹250–300cr); **paints** 1,000 KL by Mar-2027 → 4,000 KL by Sep-2027, ₹80–100cr in FY28, ₹250–300cr in FY29, ₹800–1,000cr in five years on ~₹300cr capex from internal accruals. Ambition: DI pipes from 75–80% of revenue to 50%. **Khardah:** workforce rationalisation (VRS) being explored, not finalised. **Buyback:** *"under active consideration"*, to be tabled again — an analyst noted the promoter has used most of its creeping limit (~4%).
+
+**StockScans summary vs transcript — mismatches:** (1) it reports **"EBITDA ₹139 cr, margin 8.9%"** without the CFO's words **"including other income"** — ex other income it is ~₹100cr / 6.6%; (2) it pairs "double valve revenue in four years" with "14–15% CAGR" as one target — doubling in four years needs ~19% a year; management gave the 14–15% for TIS specifically; (3) otherwise faithful.
+
 ## 5. Connecting the Dots
 
 **The whole thesis reduces to one causal chain: scheme approved → money released → orders placed → pipes shipped → margin recovers on operating leverage.** As of Q1FY27, **the first two links are confirmed and the third has not yet visibly happened.**
@@ -330,6 +364,7 @@ From the call: *"gross debt and net debt as on 30th June 2026 stood at **Rs. 1,6
 | 3-Jul-2026 | Medium-High *(Cycle-Turn Play)* | ~₹78 | ~+30–40% | Initiated. 0.81x book, JJM 2.0 approved as the catalyst |
 | **17-Aug-2026** | **Medium-High — HELD** | **₹72.0** | **~+30% + 1.27% yield** | **Catalyst confirmed AND funding; realisations turned +8.9%. But volumes −27%, FY27 guide cut ~7 → ~5.5 lakh t, recovery pushed to H2FY27. Low end of the v1 band** |
 | **19-Sep-2026** *(filings refresh)* | **Medium-High — HELD** | **₹73.4** | *(unchanged)* | Arabian Water Tech LLC (Oman), 70%, completed as a subsidiary (OMR 21,000); no other material filing. |
+| **25-Nov-2026** *(Q2FY27 Tier-A)* | **⤴ MEDIUM** | **₹64.4** *(23-Nov close)* | **≈ +13% + ~1.4% yield** *(re-derived)* | **Q2 volume 1.21 lakh t (flat); management now guides H2 'somewhat similar to the first half' and moves the 12% margin into FY28 — so 'H2FY27 fails to inflect' has fired on its own guidance.** Net debt ₹750cr (better); JJM sanctions up 59% but spent on arrears. **0.67x book.** |
 
 **Valuation, then and now:**
 
@@ -425,17 +460,37 @@ FY26 operating cash flow **₹1,147cr — 337% of operating profit** — with �
 
 ---
 
+### 📊 25-Nov-2026 — scenarios re-derived after Q2FY27
+
+*My estimates, from ₹64.4 / mcap ~₹3,980cr (StockScans, 23-Nov close), book ₹96.5 (0.67x). The earlier set above is kept.* FY27 now looks like ~₹200cr of PAT (H1 ₹99cr; H2 guided similar).
+
+| Scenario | Prob. | FY28 | Value | Mcap | Return |
+|---|---|---|---|---|---|
+| **Base** | **50%** | ~7 lakh t, EBITDA ~11% incl. OI; PAT ~₹300cr | 15x | ₹4,500cr | **≈ +13%** |
+| **Bull** | **20%** | 7.5 lakh t, 12%, paints and valves add ₹150cr+; PAT ~₹420cr | 16x | ₹6,700cr | **≈ +69%** |
+| **Bear** | **30%** | JJM slips into FY29; volume ~5.5 lakh t again; PAT ~₹150cr | 0.5x book | ₹3,000cr | **≈ −25%** |
+
+**Weighted ≈ +13% over two years** *(0.50 × 13 + 0.20 × 69 − 0.30 × 25)*, plus ~1.4% a year in dividends. **The floor is the balance sheet (0.67x book, net debt ₹750cr); the upside is a JJM wave that has now been promised for three consecutive halves.**
+
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — 🔴 H2FY27 does not deliver.** The whole year is staked on it, and **it is the same H2 that failed to arrive last year.** **Watch:** Q2FY27 volumes against Q1's 1.20 lakh tonnes.
 
+> ⚠️ **MATERIALIZING by management's own guidance (25-Nov-2026):** H2 volume guided ~2.5 lakh t (≈ H1); 12% margin moved into FY28; the recovery now rests on JJM orders opening from Q4.
+
 **Risk 2 — 🔴 JJM disbursement stalls again.** ₹6,000cr is released; ₹4,000cr of the sanction is not. FY26 showed that allocation and release are different things. **Demand here is outside management's control entirely.**
 
+> 🟡 **NOT STALLED, but MISDIRECTED for now (25-Nov-2026):** central sanctions rose ₹10,344cr → ₹16,487cr, but the money went to contractors' arrears first.
+
 **Risk 3 — 🔴 The order book has not yet reflected the money.** Kejriwal expected a substantial pick-up *"in the next month or two"* and conceded *"it is difficult to establish exactly what quantity has gone into order book directly to us."* **Until orders appear, the disbursement is a macro fact, not an ECL fact.**
+
+> ⚠️ **STILL TRUE (25-Nov-2026):** order book ~3 lakh t, of which JJM only 60–70k t; ~2.5 mn t of JJM work is 'on the books or to be tendered', from Q4.
 
 **Risk 4 — 🟡 Working capital reverses on the way up.** The 337% cash conversion was a release from a contracting top line. **Recovery will consume cash**, and net debt could climb back.
 
 **Risk 5 — 🟡 The standalone business is barely profitable.** ₹5.9cr of Q1FY27 PAT. **The consolidated result depends on overseas subsidiaries continuing to outperform.**
+
+> ⚠️ **ACCUMULATING (25-Nov-2026):** Q2 income growth came from pig iron, sponge iron and coke, not pipes; ex-other-income EBITDA 6.6%; Khardah workforce rationalisation being explored.
 
 **Risk 6 — 🟡 FIIs have sold 7.26 percentage points over five quarters** and retail has absorbed it. **A register that shifts from institutional to retail at a trough is more fragile if H2 disappoints.**
 
@@ -462,9 +517,15 @@ FY26 operating cash flow **₹1,147cr — 337% of operating profit** — with �
 **Upgrade to High if:** Q2FY27 volumes exceed **1.5 lakh tonnes** *and* the order book visibly reflects the JJM releases.
 **Downgrade to Medium if:** H2FY27 fails to inflect, **or** JJM disbursement slows again, **or** net debt rises back above **₹1,200cr**.
 
+> **📊 Scored 25-Nov-2026 (Q2FY27):** **Upgrade** — Q2 volume above 1.5 lakh t: **no (1.21)**. **Downgrade** — H2FY27 fails to inflect: **⚠️ FIRED on management's own guidance** (H2 ≈ H1; 12% margin to FY28) · JJM disbursement slows again: **CLEAR** (sanctions ₹10,344cr → ₹16,487cr) · net debt above ₹1,200cr: **CLEAR** (₹750cr). **→ MEDIUM.** *Scored on guidance, not on a reported H2 — reverse to MH if H2FY27 volume actually exceeds 2.7 lakh t with EBITDA (ex other income) ≥8%.*
+>
+> **New triggers at Medium. Down to ML if:** Q3FY27 volume below 1.15 lakh t · net debt back above ₹1,000cr · FY28 guidance (7 lakh t) cut at the Q4 call. **Back to MH if:** a quarter above 1.5 lakh t, or the H2 reversal test above.
+
 ---
 
 ## 9. 📢 Community Pulse
+
+**⤴ 25-Nov-2026:** the Q2 call pressed on the repeated slippage of the 12% margin (Saket Kapoor), JJM tendering, pricing discipline and a buyback (Koushik Sekhar, Vermilion — *"we will definitely table this again"*). **Tone: patient, with the patience visibly thinning.**
 
 *Refreshed each review cycle. **Not yet scanned for this name.***
 
@@ -477,6 +538,8 @@ FY26 operating cash flow **₹1,147cr — 337% of operating profit** — with �
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (25-Nov-2026 refresh):** results + deck 13-Nov; **official transcript of the 13-Nov call, filed 19-Nov, read in full**; StockScans call summary checked against it (two mismatches noted in §4).
 
 **Primary documents:**
 - **Q1FY27 earnings call transcript and results, 13-Aug-2026** — the central document. Source for the JJM disbursement figures, the per-tonne realisations, the volume guidance cut, the net-debt position, the industrial paints announcement, the railways registration, the T.I.S. Italy update and the Saudi duty exposure. Management: **Madhav Kejriwal (WTD)**, **Rajesh Daga (CFO)**. Analysts included **ICICI Securities, MNCL and Green Portfolio**.

@@ -11,11 +11,17 @@
 > **🔴 THE ONE-PARAGRAPH VERSION.** Unimech makes the **tools that build and maintain jet engines** — a genuinely differentiated, 65%-gross-margin business with AS9100 certification, multi-year qualification cycles and real switching costs. It listed in December 2024, guided **+40% revenue growth for FY26, and delivered −1%** when US tariffs hit 50% and its customers stopped restocking. It has since spent **₹450cr — essentially its entire IPO treasury — buying Hobel Bellows**, a 50%-EBITDA-margin business, at 7x EBITDA. The stock trades at **105x earnings and 10.3x book on an 11.2% ROCE**, and **roughly half of reported pre-tax profit is interest income, not operations.** **The ₹1,000cr-by-FY29 target that would justify the multiple has not been mentioned on any of the last three calls.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 1,806** · market cap ₹ 9,194 Cr. · P/E 104x · ROCE 11.2 % · ROE 7.96 % · 52-wk ₹ 1,901 / 695 · **vs ₹1,491 at baseline (+21.1%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 1,750** · market cap ₹ 8,909 Cr. · P/E 101.1x · ROCE (TTM) 14.0 % · ROE (TTM) 11.2 % · 52-wk ₹ 2,026 / 695 · **vs ₹1,491 at baseline (+17.4%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 🟢 Q2: revenue +98%, PAT +103%; order book ₹855cr (8x); Honeywell LTA · (earlier: 🆕 ⚪ Q2 call 28-Oct · (earlier: ⚪ Routine filings only · (earlier: 🟢🟢 Saudi JV funded and controlled — SAR 15.30m (~₹39.4cr) infused for 51% of Kanoo Unimech, with a second equal tranche to follow · (earlier: Nothing filed; the five late-disclosed SMP departures remain the open item · (earlier in window: 🔴 Five senior managers' exits disclosed up to 13 months late ('inadvertent error'); CARE assigns Issuer Rating A/Stable; ₹3cr more into Dheya, on whose board the CMD and a WTD sit; stock +6.7%))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 🟢 Q2: revenue +98%, PAT +103%; order book ₹855cr (8x); Honeywell LTA · (earlier: 🆕 ⚪ Q2 call 28-Oct · (earlier: ⚪ Routine filings only · (earlier: 🟢🟢 Saudi JV funded and controlled — SAR 15.30m (~₹39.4cr) infused for 51% of Kanoo Unimech, with a second equal tranche to follow · (earlier: Nothing filed; the five late-disclosed SMP departures remain the open item · (earlier in window: 🔴 Five senior managers' exits disclosed up to 13 months late ('inadvertent error'); CARE assigns Issuer Rating A/Stable; ₹3cr more into Dheya, on whose board the CMD and a WTD sit; stock +6.7%)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — No filings in the window — verified**
+**No filings in the window** on StockScans: two independent queries across all 62 main-board and BSE names ("Limited" and "Ltd", grouped by company) returned nothing for this name, while the same queries found 33 other companies — a verified negative (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — No filings in the window — verified**
 **No filings on the exchange feed in the window** — a verified negative: a control query for the same name returned the right company (§0A rule 6).

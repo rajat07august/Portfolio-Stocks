@@ -15,11 +15,17 @@
 > **📋 AND A PLAIN STATEMENT ABOUT THIS PASS: the filing sweep found nothing new.** The last BSE filing is **7-Aug-2026** — five days before the previous refresh. **No new results, no new Reg-30 items, no corporate actions.** ***This conversion therefore restructures and re-verifies rather than discovers, and the metrics have moved in the company's favour without any news to explain it.***
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 1,832** · market cap ₹ 1,664 Cr. · P/E 13.7x · ROCE 27.7 % · ROE 21.0 % · 52-wk ₹ 2,088 / 765 · **vs ₹1,573 at baseline (+16.5%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 1,679** · market cap ₹ 1,525 Cr. · P/E 12.6x · ROCE (TTM) 28.4 % · ROE (TTM) 21.4 % · 52-wk ₹ 2,088 / 765 · **vs ₹1,573 at baseline (+6.7%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Nominee-director postal ballot · (earlier: 🆕 🟢 Q2: revenue +22%, PAT +100%, OPM 28% · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Q2 board 30-Oct · (earlier: A KSIDC board-nominee change; no calls exist · (earlier: Routine newspaper notice on dematerialisation of physical shares · (earlier in window: Kerala-government nominee director appointed via postal ballot; nothing else filed; stock +8.8% to ₹1,711))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 ⚪ Nominee-director postal ballot · (earlier: 🆕 🟢 Q2: revenue +22%, PAT +100%, OPM 28% · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Q2 board 30-Oct · (earlier: A KSIDC board-nominee change; no calls exist · (earlier: Routine newspaper notice on dematerialisation of physical shares · (earlier in window: Kerala-government nominee director appointed via postal ballot; nothing else filed; stock +8.8% to ₹1,711)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — No filings in the window — verified**
+**No filings in the window** on StockScans: two independent queries across all 62 main-board and BSE names ("Limited" and "Ltd", grouped by company) returned nothing for this name, while the same queries found 33 other companies — a verified negative (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — Postal ballot to appoint a government nominee director**
 **BSE (5-Nov): postal ballot to appoint Snehil Kumar Singh IAS as nominee director.** Newspaper notice 7-Nov.

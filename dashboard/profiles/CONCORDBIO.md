@@ -12,11 +12,17 @@
 > **Data note:** consolidated basis throughout. Standalone and consolidated are close for this company (unlike MPS), but consolidated is used everywhere.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 597** · market cap ₹ 12,487 Cr. · P/E 43.8x · ROCE 17.1 % · ROE 12.5 % · 52-wk ₹ 808 / 494 · **vs ₹786 at baseline (-24.0%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 547** · market cap ₹ 11,445 Cr. · P/E 40.9x · ROCE (TTM) 18.0 % · ROE (TTM) 13.5 % · 52-wk ₹ 808 / 494 · **vs ₹786 at baseline (-30.4%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ 1:1 bonus allotted · (earlier: 🆕 🟡 Q2: revenue +25%, PAT +11%, margin 34% (37% ex new plant); 1:1 bonus ex 4-Nov (history adjusted) · (earlier: 🆕 ⚪ Q2 call 28-Oct · (earlier: ⚪ Routine filings only · (earlier: Postal ballot notice issued for the 1:1 bonus and the authorised-capital increase · (earlier: 🟢 1:1 bonus approved and authorised capital doubled; USFDA closed the Valthera formulation inspection with one minor non-GMP observation · (earlier in window: USFDA inspection of the Valthera formulation unit closes with one minor, non-GMP observation; Board to consider a bonus share issue on 23-Sep; stock −4.9%))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 ⚪ 1:1 bonus allotted · (earlier: 🆕 🟡 Q2: revenue +25%, PAT +11%, margin 34% (37% ex new plant); 1:1 bonus ex 4-Nov (history adjusted) · (earlier: 🆕 ⚪ Q2 call 28-Oct · (earlier: ⚪ Routine filings only · (earlier: Postal ballot notice issued for the 1:1 bonus and the authorised-capital increase · (earlier: 🟢 1:1 bonus approved and authorised capital doubled; USFDA closed the Valthera formulation inspection with one minor non-GMP observation · (earlier in window: USFDA inspection of the Valthera formulation unit closes with one minor, non-GMP observation; Board to consider a bonus share issue on 23-Sep; stock −4.9%)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — No filings in the window — verified**
+**No filings in the window** on StockScans: two independent queries across all 62 main-board and BSE names ("Limited" and "Ltd", grouped by company) returned nothing for this name, while the same queries found 33 other companies — a verified negative (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — 1:1 bonus allotted**
 **10,46,16,204 bonus shares allotted (1:1, record date 4-Nov)**; paid-up capital now ₹20.92cr (20,92,32,408 shares of ₹1).

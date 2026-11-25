@@ -12,11 +12,17 @@
 > **🔴 The disclosure gap that governs everything below: GMDC has not held an earnings call since 29-May-2025.** Across **472 NSE filings**, the last earnings-call filing is that date; before it, August 2024. **No call was held after FY26 results (14-May-2026) or after Q1FY27 (31-Jul-2026), and no investor presentation appears anywhere in the recent record.** This profile is therefore built from **statutory filings and press releases only**. The standing §9 data-gap queue item — *"FY26 concalls needed"* — has been **closed as uncloseable: the calls were never held.** *A ₹18,261cr company that no longer speaks to shareholders, in a year containing a ₹522.65cr exceptional item and a 30% fall in operating profit.*
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 478** · market cap ₹ 15,208 Cr. · P/E 24.4x · ROCE 10.8 % · ROE 8.62 % · 52-wk ₹ 772 / 395 · **vs ₹574 at baseline (-16.7%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 467** · market cap ₹ 14,837 Cr. · P/E 22.4x · ROCE (TTM) 12.1 % · ROE (TTM) 9.3 % · 52-wk ₹ 772 / 395 · **vs ₹574 at baseline (-18.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Nothing new since 4-Nov (verified) · (earlier: 🆕 🟢 Q2: revenue +71%, PBT +47% ex last year's ₹474cr one-off (reported PAT −63% is a base effect); mining profit +79% · (earlier: 🆕 ⚪ Independent director added; dividend paid; Q2 board 30-Oct · (earlier: ⚪ ESG rating; Q2 board 30-Oct · (earlier: New Managing Director — Mr Ajay Bhadoo, IAS — appointed from 29-Sep; AGM passed · (earlier: CARE reaffirms AA+/Stable and A1+; short-term facilities enhanced ₹5cr → ₹25cr · (earlier in window: CARE AA+/Stable reaffirmed; CERT-In 'probable data breach' on the corporate website disclosed (operations unaffected); FY26 annual report out; stock −3%))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 ⚪ Nothing new since 4-Nov (verified) · (earlier: 🆕 🟢 Q2: revenue +71%, PBT +47% ex last year's ₹474cr one-off (reported PAT −63% is a base effect); mining profit +79% · (earlier: 🆕 ⚪ Independent director added; dividend paid; Q2 board 30-Oct · (earlier: ⚪ ESG rating; Q2 board 30-Oct · (earlier: New Managing Director — Mr Ajay Bhadoo, IAS — appointed from 29-Sep; AGM passed · (earlier: CARE reaffirms AA+/Stable and A1+; short-term facilities enhanced ₹5cr → ₹25cr · (earlier in window: CARE AA+/Stable reaffirmed; CERT-In 'probable data breach' on the corporate website disclosed (operations unaffected); FY26 annual report out; stock −3%)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — No filings in the window — verified**
+**No filings in the window** on StockScans: two independent queries across all 62 main-board and BSE names ("Limited" and "Ltd", grouped by company) returned nothing for this name, while the same queries found 33 other companies — a verified negative (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — Nothing new since the 4-Nov sweep**
 **The only filing in the window was already read in the 4-Nov sweep** (filed the evening of 4-Nov); nothing else on the exchange feed.

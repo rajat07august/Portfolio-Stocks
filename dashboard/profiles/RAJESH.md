@@ -14,11 +14,17 @@
 > **📋 WHAT THIS REFRESH FOUND.** Since the 16-Jul Tier-A refresh: **₹1,165.94cr of new orders in four weeks**; **a first entry into Odisha and a deepened Rajasthan position**; **a CRISIL outlook upgrade**; **a New Zealand subsidiary**; **an Independent Director resigning off four committees**; **two Regulation 29(2) share sales from the promoter side**; and **a share price that has fallen 47% in a year and now trades at 9.90x earnings on a 48.6% return on capital.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 824** · market cap ₹ 1,484 Cr. · P/E 9.04x · ROCE 47.3 % · ROE 42.8 % · 52-wk ₹ 1,460 / 705 · **vs ₹791 at baseline (+4.2%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 765** · market cap ₹ 1,377 Cr. · P/E 8.4x · ROCE (TTM) 37.2 % · ROE (TTM) 33.8 % · 52-wk ₹ 1,325 / 705 · **vs ₹791 at baseline (-3.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 🟢 Official H1 transcript filed (8-Nov); IPO-object change disclosed · (earlier: 🆕 🟢 H1: revenue +46%, PAT +35%, OCF positive; ₹1,629cr DGVCL UG-cabling orders (~1.1x mcap) · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 ₹540.92cr of orders from MGVCL and UGVCL in a week; order book "nearing ₹4,000cr" · (earlier: 🔴 Company is VARYING THE OBJECTS of its IPO proceeds and extending the utilisation timeline; all AGM resolutions passed · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: New independent director and MD made Chairman; AGM (24-Sep) seeks Section 185 power to lend to group entities and a ₹500cr Section 186 limit; FY26 annual report: debtor turnover −27%; stock −4%))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 🟢 Official H1 transcript filed (8-Nov); IPO-object change disclosed · (earlier: 🆕 🟢 H1: revenue +46%, PAT +35%, OCF positive; ₹1,629cr DGVCL UG-cabling orders (~1.1x mcap) · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 ₹540.92cr of orders from MGVCL and UGVCL in a week; order book "nearing ₹4,000cr" · (earlier: 🔴 Company is VARYING THE OBJECTS of its IPO proceeds and extending the utilisation timeline; all AGM resolutions passed · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: New independent director and MD made Chairman; AGM (24-Sep) seeks Section 185 power to lend to group entities and a ₹500cr Section 186 limit; FY26 annual report: debtor turnover −27%; stock −4%)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — No filings in the window — verified**
+**No filings in the window** on StockScans: two independent queries across all 62 main-board and BSE names ("Limited" and "Ltd", grouped by company) returned nothing for this name, while the same queries found 33 other companies — a verified negative (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟢 4 → 10-Nov-2026 — Official H1 transcript filed; IPO-object change disclosed**
 **Official transcript of the 2-Nov H1 call filed 8-Nov (BSE)** — a Tier-A rewrite is now possible. Reg 32 statement (5-Nov): the IPO objects were modified with shareholder approval at the 24-Sep AGM; **₹8.57cr of IPO-expense savings moved to working capital**. The 5-Nov press release restates the ₹1,628.74cr DGVCL order (order book ~₹5,400cr) already recorded on 4-Nov.

@@ -20,11 +20,17 @@
 > **4. A COO was appointed on 14-Aug-2026 — Mr. Ravi Desai.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 1,198** · market cap ₹ 13,643 Cr. · P/E 75.6x · ROCE 7.38 % · ROE 5.55 % · 52-wk ₹ 1,415 / 1,059 · **vs ₹1,258 at baseline (-4.8%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 1,314** · market cap ₹ 14,956 Cr. · P/E 71.9x · ROCE (TTM) 6.1 % · ROE (TTM) 4.6 % · 52-wk ₹ 1,415 / 1,068 · **vs ₹1,258 at baseline (+4.5%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 🟡 Q2: revenue +11%, margin 25% (above the 22% floor); receivables ₹1,582cr; consolidated EPS corrected · (earlier: 🆕 ⚪ Quiet — verified · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ ESG rating; no Q2 board date yet · (earlier: 🔴 The Bliss GVS acquisition CONSUMMATED 28-Sep — but 47.95% sits with the Mates PAC, not with Anupam, while Anupam carries the guarantee and the pledge · (earlier: ₹160cr more unlisted NCDs approved (Aditya Birla Capital) with ₹145cr allotted on 21-Sep — the debt build flagged on 19-Sep continues · (earlier in window: Bliss GVS acquisition financing approved: ₹300cr of secured NCDs at the Mates vehicle, guaranteed and pledged by Anupam; ₹160cr more NCDs on the 19-Sep agenda; CRISIL A+ still on Watch; new six-year US supply contract; stock −4%))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Routine filings only · (earlier: 🆕 🟡 Q2: revenue +11%, margin 25% (above the 22% floor); receivables ₹1,582cr; consolidated EPS corrected · (earlier: 🆕 ⚪ Quiet — verified · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ ESG rating; no Q2 board date yet · (earlier: 🔴 The Bliss GVS acquisition CONSUMMATED 28-Sep — but 47.95% sits with the Mates PAC, not with Anupam, while Anupam carries the guarantee and the pledge · (earlier: ₹160cr more unlisted NCDs approved (Aditya Birla Capital) with ₹145cr allotted on 21-Sep — the debt build flagged on 19-Sep continues · (earlier in window: Bliss GVS acquisition financing approved: ₹300cr of secured NCDs at the Mates vehicle, guaranteed and pledged by Anupam; ₹160cr more NCDs on the 19-Sep agenda; CRISIL A+ still on Watch; new six-year US supply contract; stock −4%)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — Routine filings only**
+**Routine filings only:** analyst / investor-meet intimation only.
+> **Why it matters:** Routine; nothing on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟡 4 → 10-Nov-2026 — Q2: revenue +11%, EBITDA margin 25%; receivables ₹1,582cr; EPS restated the same day**
 **Q2FY27 (6-Nov).** Total revenue **₹821cr (+11%)**, EBITDA ₹202cr (+41%, **25% including other income**), PAT ₹65cr (+14%); H1 revenue ₹1,489cr (+21%). Deck balance sheet: **trade receivables ₹1,582cr vs ₹959cr**. **Revised results filed the same day:** an *"arithmetic error arising out of excel formula"* used total profit instead of profit attributable to owners in consolidated EPS (corrected to ₹4.39 for Q2, ₹7.79 for H1). Call recording 6-Nov; no transcript yet.

@@ -13,11 +13,17 @@
 > **📌 SECTOR NOTE.** Placed in **Sector 1 (Aerospace & Defence)** at Rajat's instruction, 1-Sep-2026, **with the sector definition widened from *"Defence electronics, aerospace forging, avionics, drones"* to include defence platform systems and equipment.** ***Its customer, its qualification barrier and its margin structure are naval-platform economics — the same thing that groups PARAS, AZAD, AXISCADES, DYNAMATIC, ROSSELL and UNIMECH — even though it makes none of the four things the old definition listed.***
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 305** · market cap ₹ 1,092 Cr. · P/E 40.7x · ROCE 13.8 % · ROE 13.0 % · 52-wk ₹ 439 / 161 · **vs ₹410 at baseline (-25.6%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 286** · market cap ₹ 1,022 Cr. · P/E 36.1x · ROCE (TTM) 15.6 % · ROE (TTM) 12.0 % · 52-wk ₹ 439 / 161 · **vs ₹410 at baseline (-30.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 1-Sep-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 🟢 ₹26.44cr GRSE order · (earlier: 🆕 🟢 H1: revenue +86%, PAT 3.5x; data-centre cooling push; transcript filed · (earlier: 🆕 ⚪ H1 board 28-Oct · (earlier: 🟢 ₹7.86cr Indian Navy order; Aquilon Ltd subsidiary incorporated · (earlier: A trading-window closure only · (earlier: Participation in an Arihant virtual conference; nothing else · (earlier in window: CARE upgrades the bank rating to BBB-/Stable (from BB+) and cites a ₹279.67cr order book; AGM approves the new Whole-Time Director; stock −3.7%))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 1-Sep-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Routine filings only · (earlier: 🆕 🟢 ₹26.44cr GRSE order · (earlier: 🆕 🟢 H1: revenue +86%, PAT 3.5x; data-centre cooling push; transcript filed · (earlier: 🆕 ⚪ H1 board 28-Oct · (earlier: 🟢 ₹7.86cr Indian Navy order; Aquilon Ltd subsidiary incorporated · (earlier: A trading-window closure only · (earlier: Participation in an Arihant virtual conference; nothing else · (earlier in window: CARE upgrades the bank rating to BBB-/Stable (from BB+) and cites a ₹279.67cr order book; AGM approves the new Whole-Time Director; stock −3.7%)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — Routine filings only**
+**Routine filings only:** analyst / investor-meet intimation only.
+> **Why it matters:** Routine; nothing on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟢 4 → 10-Nov-2026 — ₹26.44cr order from GRSE**
 **₹26.44cr (ex-GST) order from Garden Reach Shipbuilders** (7-Nov) for specialised components — control cards and modules, compressor inverters, pump bearings, impellers, casings and shafts.

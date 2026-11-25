@@ -11,11 +11,17 @@
 > **📋 WHAT THIS REFRESH FOUND, IN ONE BOX.** v1 was written 3-Jul-2026 and is 9.7 KB. It predates the Q1FY27 print, the ADS order-book step-up, and **a four-event management and board reconstruction that ran from 27-Jul to 24-Aug-2026.** It also carried four factual errors that are corrected in place below: a wrong FY25 revenue base (and therefore a wrong growth rate), a wrong FY26 EBITDA level, **an assertion that Sansera manufactures in the United States — it does not and never has**, and a dashboard claim of a **₹160cr Airbus Defence & Space contract that appears in no filing and no transcript.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 4,653** · market cap ₹ 29,045 Cr. · P/E 71.0x · ROCE 14.5 % · ROE 11.8 % · 52-wk ₹ 4,744 / 1,517 · **vs ₹3,815 at baseline (+22.0%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 4,619** · market cap ₹ 28,833 Cr. · P/E 74.8x · ROCE (TTM) 14.4 % · ROE (TTM) 11.9 % · 52-wk ₹ 4,850 / 1,598 · **vs ₹3,815 at baseline (+21.1%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 26-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 🟢 Q2: revenue +32%, margin 19.4%, PAT +52%; promoter-decline trigger still open · (earlier: 🆕 ⚪ Quiet; Q2 due 5-Nov · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: Routine ESOP grant and a clean AGM; June's 0.89pp promoter fall still unexplained · (earlier: Routine ESOP allotment and meet schedules; June's 0.89pp promoter-holding fall still unexplained · (earlier in window: No company event beyond the FY26 annual report; the Jun-2026 promoter decline is still unexplained; stock +11.7% to ₹4,260 at 71x))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 26-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Routine filings only · (earlier: 🆕 🟢 Q2: revenue +32%, margin 19.4%, PAT +52%; promoter-decline trigger still open · (earlier: 🆕 ⚪ Quiet; Q2 due 5-Nov · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine filings only · (earlier: Routine ESOP grant and a clean AGM; June's 0.89pp promoter fall still unexplained · (earlier: Routine ESOP allotment and meet schedules; June's 0.89pp promoter-holding fall still unexplained · (earlier in window: No company event beyond the FY26 annual report; the Jun-2026 promoter decline is still unexplained; stock +11.7% to ₹4,260 at 71x)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — Routine filings only**
+**Routine filings only:** analyst / investor-meet intimation only.
+> **Why it matters:** Routine; nothing on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟢 4 → 10-Nov-2026 — Q2: record revenue +32%, EBITDA margin 19.4%, PAT +52%**
 **Q2FY27 (5-Nov).** Revenue **₹1,091.5cr (+32%)**, EBITDA ₹211.2cr (+48%, **19.4%**), PAT ₹108.6cr (+52%). Auto ICE down to 65.7% of sales; non-auto 20.9% (13.2%). New-business peak annual revenue ₹2,241cr (ex-ADS); ADS backlog ~₹5,870cr; FY27 capex ~₹800cr. Q1's ₹16.9cr US litigation settlement expected to be largely insured. Call recording 6-Nov; meet schedule 9-Nov.

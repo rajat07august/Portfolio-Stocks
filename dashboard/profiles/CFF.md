@@ -4,11 +4,17 @@
 **Thesis current as of: 18-Sep-2026 · Tracking since: 18-Sep-2026**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 1,072** · market cap ₹ 2,248 Cr. · P/E 57.3x · ROCE 23.5 % · ROE 19.0 % · 52-wk ₹ 1,148 / 445 · **vs ₹1,094 at baseline (-2.0%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 978** · market cap ₹ 2,051 Cr. · P/E 52.3x · ROCE (TTM) 18.7 % · ROE (TTM) 14.7 % · 52-wk ₹ 1,148 / 445 · **vs ₹1,094 at baseline (-10.6%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 18-Sep-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 🟢 51:49 ASW JV with TKMS ATLAS ELEKTRONIK; board 13-Nov · (earlier: 🆕 ⚪ Quiet — verified · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ No filings in the window (verified) · (earlier: Two trading-window closures only · (earlier: No filings since the profile was written)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Sep-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Promoter inter-se gift (13.26%), total unchanged · (earlier: 🆕 🟢 51:49 ASW JV with TKMS ATLAS ELEKTRONIK; board 13-Nov · (earlier: 🆕 ⚪ Quiet — verified · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ No filings in the window (verified) · (earlier: Two trading-window closures only · (earlier: No filings since the profile was written))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — Promoter inter-se gift of 13.26% to Gautam Makker, proposed for 2-Dec**
+**24-Nov Reg 10(5) notice: Gautam Makker to receive 27,80,300 shares (13.26%) by gift from his mother Sheeila Makker and father Niranjandev Makker on 2-Dec-2026.** Promoter group total unchanged at 68.10%; his own holding goes 20.77% → 34.03%.
+> **Why it matters:** Succession within the family; no change in promoter holding.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟢 4 → 10-Nov-2026 — Binding JV with TKMS ATLAS ELEKTRONIK for anti-submarine warfare (51:49)**
 **Board approved (6-Nov) a binding JV with TKMS ATLAS ELEKTRONIK GmbH** — local manufacturing, system integration and through-life support for anti-submarine warfare; **CFF 51%, TKMS 49%**. Details to follow on signing. **Board meets 13-Nov** (H1 results).

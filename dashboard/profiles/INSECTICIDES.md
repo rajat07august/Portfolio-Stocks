@@ -16,11 +16,17 @@
 > **🗂️ Housekeeping:** duplicate `Fetched Concalls/INSECTICID/` and `INSECTICIDES/` folders **consolidated into `INSECTICIDES/`** (38 files); the six older transcripts had no text extracts and now do.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 541** · market cap ₹ 1,575 Cr. · P/E 12.9x · ROCE 15.8 % · ROE 12.0 % · 52-wk ₹ 776 / 500 · **vs ₹610 at baseline (-11.3%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 569** · market cap ₹ 1,657 Cr. · P/E 13.6x · ROCE (TTM) 11.9 % · ROE (TTM) 9.3 % · 52-wk ₹ 775 / 500 · **vs ₹610 at baseline (-6.7%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 🟡 Q2: revenue +8%, GM 33.7%, PAT −5%; two of three triggers clear, debtor days not yet scored · (earlier: 🆕 ⚪ Q2 + possible interim dividend on 5-Nov · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Q2 results/call 5-Nov · (earlier: CRISIL reaffirms both long- and short-term ratings — no change from the previous review · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No filing at all since 24-Aug on either exchange; stock ₹610 → ₹606))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 24-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ 26% captive-power SPV (₹3.54cr) · (earlier: 🆕 🟡 Q2: revenue +8%, GM 33.7%, PAT −5%; two of three triggers clear, debtor days not yet scored · (earlier: 🆕 ⚪ Q2 + possible interim dividend on 5-Nov · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Q2 results/call 5-Nov · (earlier: CRISIL reaffirms both long- and short-term ratings — no change from the previous review · (earlier: No material filings in the window; 1 routine item(s) · (earlier in window: No filing at all since 24-Aug on either exchange; stock ₹610 → ₹606)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — 26% of a captive wind-solar SPV for up to ₹3.54cr; analyst meet**
+**18-Nov: subscribed 7,86,745 shares (26%) of FP Alpha Private Limited for up to ₹3.54cr** — a group-captive wind and solar project in Gujarat to meet its own power needs (the 26% is the regulatory minimum for captive status). Not related-party. Analyst-meet intimation 24-Nov.
+> **Why it matters:** Captive power; immaterial in size.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟡 4 → 10-Nov-2026 — Q2: revenue +8%, PAT −5%; ₹5 interim dividend; new independent director**
 **Q2FY27 (5-Nov).** Revenue **₹686.3cr (+8%)**, gross margin **33.7%** (34.5%), EBITDA ₹92.4cr (13.5%), PAT ₹56.2cr (−5%, higher interest); H1 revenue ₹1,297.8cr (−2%), H1 PAT ₹100cr (−15%). **Interim dividend ₹5 (record date 12-Nov).** Veera Bhadram Garimella appointed independent director (postal ballot to follow); Kapil Sharma appointed senior management. Call recording 5-Nov.

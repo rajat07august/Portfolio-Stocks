@@ -13,11 +13,17 @@
 > **📌 And the stock is up 28% since that refresh** — ₹4,364 on 28-Jul to **₹5,601** today, **1.3% below its 52-week high and 156% above its low.** Every one of the four watch items the refresh set has resolved *favourably on operations*. The expected return has still gone from **+21% to roughly zero**, because the price moved further than the news did.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 3,839** · market cap ₹ 22,822 Cr. · P/E 62.4x · ROCE 37.5 % · ROE 32.8 % · 52-wk ₹ 5,813 / 2,920 · **vs ₹5,601 at baseline (-31.5%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 4,011** · market cap ₹ 23,843 Cr. · P/E 62.8x · ROCE (TTM) 22.1 % · ROE (TTM) 17.4 % · 52-wk ₹ 5,813 / 2,920 · **vs ₹5,601 at baseline (-28.4%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 🟢 Q2: revenue +336%, PAT +335% (14.9% EBITDA margin); H1 PAT > FY26; order book ₹2,629cr + L1 ₹653cr · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Q2 call 26-Oct · (earlier: ESG rating and trading-window closure only · (earlier: AGM passed cleanly; ESG rating and meet schedule · (earlier in window: Stock −17% to ₹4,664, now below the ₹4,790 QIP price; QIP press release confirms the proceeds are for working capital, not capex; nothing else filed))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 🟢 Q2: revenue +336%, PAT +335% (14.9% EBITDA margin); H1 PAT > FY26; order book ₹2,629cr + L1 ₹653cr · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Q2 call 26-Oct · (earlier: ESG rating and trading-window closure only · (earlier: AGM passed cleanly; ESG rating and meet schedule · (earlier in window: Stock −17% to ₹4,664, now below the ₹4,790 QIP price; QIP press release confirms the proceeds are for working capital, not capex; nothing else filed)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — No filings in the window — verified**
+**No filings in the window** on StockScans: two independent queries across all 62 main-board and BSE names ("Limited" and "Ltd", grouped by company) returned nothing for this name, while the same queries found 33 other companies — a verified negative (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — No filings in the window — verified**
 **No filings on the exchange feed in the window** — a verified negative: a control query for the same name returned the right company (§0A rule 6).

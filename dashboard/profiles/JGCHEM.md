@@ -4,11 +4,17 @@
 **Thesis current as of: 17-Sep-2026 · Tracking since: 17-Sep-2026**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 598** · market cap ₹ 2,343 Cr. · P/E 26.8x · ROCE 17.7 % · ROE 13.2 % · 52-wk ₹ 695 / 298 · **vs ₹583 at baseline (+2.6%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 509** · market cap ₹ 1,993 Cr. · P/E 22.8x · ROCE (TTM) 20.6 % · ROE (TTM) 15.7 % · 52-wk ₹ 695 / 298 · **vs ₹583 at baseline (-12.7%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 17-Sep-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Official Q2 transcript filed 6-Nov · (earlier: 🆕 🟢 Q2: revenue +64%, PAT +87%, OPM 11%; two IDs added; Dahej commissioning Q3FY27 · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Investor meetings only · (earlier: CARE Edge ASSIGNS CARE A+ (Stable) / A1+ on ₹19.75cr of bank facilities — a notch above the existing CRISIL A · (earlier: No filings since the profile was written)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 17-Sep-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Routine filings only · (earlier: 🆕 ⚪ Official Q2 transcript filed 6-Nov · (earlier: 🆕 🟢 Q2: revenue +64%, PAT +87%, OPM 11%; two IDs added; Dahej commissioning Q3FY27 · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Investor meetings only · (earlier: CARE Edge ASSIGNS CARE A+ (Stable) / A1+ on ₹19.75cr of bank facilities — a notch above the existing CRISIL A · (earlier: No filings since the profile was written))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — Routine filings only**
+**Routine filings only:** analyst / investor-meet intimation only.
+> **Why it matters:** Routine; nothing on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — Official Q2 transcript filed (6-Nov)**
 **The official transcript of the Q2 call was filed 6-Nov.** The results were read in the 4-Nov sweep.

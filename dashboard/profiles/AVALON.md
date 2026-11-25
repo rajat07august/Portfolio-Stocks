@@ -1,18 +1,24 @@
 # Avalon Technologies — Company Profile
 
 **Ticker:** AVALON · BSE: 543896 · NSE: AVALON · **Sector:** 5 — EMS (Electronics Manufacturing Services)
-**Conviction:** **Medium (Under Watch — valuation)** · **Weighted 2-yr return:** ~+15%, on a multiple that leaves no room
+**Conviction:** **Medium (Under Watch — valuation and cash conversion)** *(held 25-Nov-2026 on Q2FY27: no trigger fired; the cash test is now the live one — H1 operating cash ₹10cr on ₹124cr of EBITDA)* · **Weighted 2-yr return:** ≈ −5% *(re-derived 25-Nov-2026 at ₹1,675; was ~+15% at ₹2,184)*
 **Thesis current as of:** 19-Sep-2026 *(filings refresh; last full rewrite 21-Aug-2026)* · **Tracking since:** 3-Jul-2026
 **CMP:** ₹2,184 · **Market Cap:** ₹14,609 cr · **P/E (trailing):** 109x · **P/B:** 20.2x (BV ₹108) · **ROCE:** 19.5% · **ROE:** 16.9% · **Div yield:** 0.00% · **52-wk range ₹777–₹2,351** *(Screener consolidated, 21-Aug-2026)*
 
 > **📌 Fetch note worth carrying: Avalon hosts its transcripts on its own IR site, not on BSE or NSE.** The exchange filing is a **cover letter with a link** — the 11-Aug-2026 Q1FY27 filing extracts to 1,466 characters of letterhead pointing at `avalontec.com`. **An exchange-feed-only scan would conclude Avalon files no transcripts.** `curl` reaches the IR site directly. Screener's concall links point to `avalontec.com` for transcripts and to BSE only for decks. **Don't assume the BSE UUID pattern covers every stock.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 1,856** · market cap ₹ 12,413 Cr. · P/E 92.9x · ROCE 19.3 % · ROE 16.5 % · 52-wk ₹ 2,620 / 777 · **vs ₹2,184 at baseline (-15.0%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 1,674** · market cap ₹ 11,202 Cr. · P/E 75.3x · ROCE (TTM) 19.8 % · ROE (TTM) 18.6 % · 52-wk ₹ 2,618 / 777 · **vs ₹2,184 at baseline (-23.4%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 🟢 ₹425cr warrants to Zollner Elektronik AG at ₹2,193 (above market); promoter trusts holding 9.42% apply to become public · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟡 Zollner Avalon JV company incorporated; promoter block sale formally disclosed (44.4% → 40.4%) · (earlier: 🔴 A promoter group is selling ~6% via block deal — Bhaskar Srinivasan and two family trusts sold 2.00% EACH; Kunhamed Bicha's group is NOT selling · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: Joint venture with Zollner Elektronik AG (Zollner 51% / Avalon 49%); Chairman-MD re-appointed for five years from Jul-2027 and a new independent director; stock +16% to 127x))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 🟡 Q2 ₹525cr, guide raised; H1 operating cash ₹10cr — held M (UW: valuation + cash) · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 🟢 ₹425cr warrants to Zollner Elektronik AG at ₹2,193 (above market); promoter trusts holding 9.42% apply to become public · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟡 Zollner Avalon JV company incorporated; promoter block sale formally disclosed (44.4% → 40.4%) · (earlier: 🔴 A promoter group is selling ~6% via block deal — Bhaskar Srinivasan and two family trusts sold 2.00% EACH; Kunhamed Bicha's group is NOT selling · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: Joint venture with Zollner Elektronik AG (Zollner 51% / Avalon 49%); Chairman-MD re-appointed for five years from Jul-2027 and a new independent director; stock +16% to 127x)))))))</span></summary>
 <div class="upd-body">
+
+**🟡 18 → 25-Nov-2026 — Q2FY27 call read — ₹525cr, guidance raised to ~30%; but H1 operating cash ₹10cr and debt +₹115cr**
+**Q2FY27 (official transcript from avalontec.com — the exchange filing is a cover letter only):** revenue **₹525cr** (+37%, +8.5% QoQ), EBITDA 12.6%, PAT ₹40cr; FY27 guidance **raised to ~30%**; order book ₹2,367cr, Q2 intake ~₹684cr. **Operating cash −₹22cr in Q2, +₹10cr in H1** (~8% of EBITDA); debt ₹196cr → ₹311cr. Zollner JV (49%, option to 51%) and **₹425cr of warrants to Zollner approved at the 21-Nov EGM**. 25 acres at Oragadam (~₹53–54cr).
+> **Why it matters:** **No trigger fired (revenue >₹500cr, NWC 120 days); held at Medium, Under Watch now also for cash** — the FY27 CFO/OP-below-50% trigger is on course to fire unless H2 brings ~₹120cr+ of operating cash.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — No filings in the window — verified**
 **No filings on the exchange feed in the window** — a verified negative: a control query for the same name returned the right company (§0A rule 6).
@@ -242,6 +248,10 @@ The 30-second snapshot:
 | **US manufacturing breakeven** | Q4FY26, reaffirmed Q1FY27 | *"by the end of this fiscal year, we would like to see a **steady-state EBITDA breakeven** and then following that PAT breakeven."* **US loss ₹9cr (Q1FY26) → ₹4cr (Q1FY27)** | 🕐 **On track, not yet done** |
 | FY29 revenue ~₹3,200cr | Q4FY26 | ~26% CAGR from FY26's ₹1,603cr | 🕐 |
 | **Cash conversion** | — | **CFO/operating profit: 5% · 54% · 39% · 53% across FY23–FY26. Never above 54%** | 🔴 **The standing weakness** |
+| *(25-Nov)* **FY27 growth 26–30%** | Q1FY27 call | **Raised to ~30%**; H1 +43% | ✅ **Raised** |
+| *(25-Nov)* No second flat quarter | Q1FY27 (implicit) | **Q2 +8.5% QoQ** | ✅ |
+| *(25-Nov)* **Cash conversion** | ongoing | **H1 CFO ₹10cr on ₹124cr EBITDA (~8%); Q2 −₹22cr** | 🔴 **Worse** |
+| *(25-Nov)* US EBITDA breakeven by FY27-end | Q4FY26 | US loss ₹4.8cr; management now calls the US *"more of a cost centre"* | 🟡 **Reframed** |
 
 **Verdict on management.**
 
@@ -353,6 +363,28 @@ The deck describes this as the *"eighth consecutive quarter of sequential"* grow
 
 ---
 
+### 📊 Q2FY27 Refresh — Full Numbers Print (25-Nov-2026)
+
+*Sources: results (13-Nov-2026) and deck; **official transcript of the 13-Nov call, read in full** — note that the exchange filing (19-Nov) is only a cover letter linking to the company website, so the transcript was downloaded from avalontec.com (`Fetched Concalls/AVALON/AVALON_Transcript_2026-11_Q2FY27_OFFICIAL.pdf`; the cover letter is kept beside it). **StockScans' call summary for Avalon is built on its own automated transcript, not this one** — checked claim by claim, mismatches below. EGM outcome 21-Nov.*
+
+| ₹cr (consolidated) | Q2FY27 | Q1FY27 | Q2FY26 |
+|---|---|---|---|
+| Revenue | **525** | 484 | 382 |
+| EBITDA | **66** | 58 | 39 |
+| EBITDA margin | **12.6%** | 12.0% | 10.1% |
+| PAT | **40** | 35 | 25 |
+| Gross margin | **34.1%** | — | — |
+
+**H1FY27:** revenue ₹1,010cr (+43.1%), gross margin 34.4%, EBITDA ₹124cr (+81%, 12.3%), PAT ₹75cr (+90.6%). **Ninth straight quarter of growth; the plateau worry of August is answered: +8.5% QoQ.** Mix: industrial 35% (+36%), clean energy 29% (more than doubled), mobility 25% (+27%; rail ~17%, aerospace 8%, +40%+). Box build **61%** (44% in FY22). India manufacturing 74% of revenue at **17.1% EBITDA / 11.4% PAT**; **US loss ₹4.8cr**. Employee cost 16.1% of sales (18.3%). Top-10 customers ~64% of H1.
+
+**🔴 Cash went the other way: operating cash flow −₹22cr in Q2 (+₹32cr in Q1), +₹10cr for H1 — about 8% of H1 EBITDA.** Inventory built for programmes ramping in coming quarters; NWC 120 days (117 in June; 131 a year ago — receivables 73, payables 54, inventory 101). **Debt ₹311cr (₹196cr in June); cash ₹189cr; net debt ₹122cr, 0.15x equity (0.03x).** H1 capex ₹90cr incl. ~₹53–54cr for 25 acres at SIPCOT Oragadam; capex *"slightly higher"* for the next two years.
+
+**Guidance raised:** FY27 growth **~30%** (from 26–30%); **double revenue FY26 → FY29**. Order book **₹2,367cr** (+27.1%; 14-month average), long-term contracts ₹1,275cr (15–36 months) and further long-term orders not counted; **Q2 intake ~₹684cr**. Margin: *"Looking at from a three-year perspective, we would like to improve from here also."*
+
+**Strategic moves:** **Zollner Avalon Private Limited** — JV with Zollner Elektronik AG (~US$3bn European EMS), **Zollner 51% / Avalon 49%, with an option to buy 2% (to 51%) three years after commercial production**; box build and PCBA only, Avalon supplies metal, plastics, cables, magnetics; new verticals (medical & life sciences, test & measurement); until its plant is ready, JV customers are made at Avalon. **Warrants to Zollner up to ₹425cr** (25% on allotment, balance within 18 months; capex, debt repayment, GCP) — **approved at the 21-Nov EGM** with an articles amendment. ₹11cr convertible notes into **Revos Auto Tech Pte. Ltd** (EV-charger electronics). **No numbers given for the JV** — *"I really don't want to give a number."* Semiconductor equipment: revenue started, 4–5 customers in the funnel; to be split out *"when it comes to 10%"* — **Bicha first said "in a period of 12 months or so", then rephrased: "It is not like it is 10%."** No ODM, ever.
+
+**StockScans summary vs official transcript — mismatches:** (1) **it omits the negative Q2 operating cash flow (−₹22cr) and the H1 ₹10cr** — the single most important number in the print; (2) it names the EV investment **"Reverse Autotech (Trivox)"** — the official transcript says **Revos Auto Tech Pte. Ltd**; (3) it reports "near-breakeven US EBITDA for a second consecutive quarter" as management's statement — that was the analyst's framing; management gave only the ₹4.8cr loss; (4) it states the semiconductor segment is "anticipated in coming quarters" — management walked that timing back on the call.
+
 ## 5. Connecting the Dots
 
 **Thread A — The US beachhead wins the customer; India earns the margin.** This is now management's stated model, not an inference. It explains the US losses, the 20% cap, and why India manufacturing already runs at 16.7% EBITDA margins while the group runs at 12.0%.
@@ -385,10 +417,13 @@ The deck describes this as the *"eighth consecutive quarter of sequential"* grow
 | **6-Aug-2026** | **HELD at Medium — "Under Watch (valuation)" tag added** | Q1FY27 print: revenue +49.8% YoY but **+0.9% QoQ** and PAT **−15.3% QoQ**. Order book +23.4%, NWC −25 days, box build past 60%. **Not upgraded: flat sequential, poor cash conversion, 88.9x earnings** |
 | 21-Aug-2026 | **HELD at Medium (Under Watch — valuation)** | **The Q1FY27 call transcript, unavailable at the 6-Aug review, materially improves the operating read** — guidance raised, tariff-adjusted margin higher, CFO positive, US model clarified. **But the stock is +23% in fifteen days to a fresh high and back to 109x. The operating case got better and the price got worse by more** |
 | **19-Sep-2026** | **HELD at Medium (Under Watch — valuation)** | Filings refresh: **JV with Zollner Elektronik AG (Zollner 51% / Avalon 49%; 3-Sep)** adds healthcare and test & measurement verticals, no amounts stated; CMD re-appointed to 2032. Stock +16% to 127x, near its high. |
+| **25-Nov-2026** | **HELD at Medium (Under Watch — valuation and cash conversion)** | Q2FY27: revenue ₹525cr (+8.5% QoQ) clears the ₹500cr plateau test; NWC 120 days; margin 12.6%; guidance raised to ~30%. **But H1 operating cash was ₹10cr on ₹124cr of EBITDA, and debt rose ₹115cr in a quarter** — the CFO/OP trigger (below 50% for FY27) is now the live one. Zollner JV + ₹425cr warrants approved. Stock ₹2,184 → ₹1,675 (−23%) since August. |
 
 **Downgrade to ML if:** Q2FY27 revenue fails to exceed ₹500cr (a second flat quarter would confirm a plateau) · **or** US manufacturing EBITDA breakeven slips beyond FY27 · **or** NWC days rise back above 130 · **or** CFO/OP stays below 50% in FY27.
 
 **Upgrade to MH if:** box build share continues past 65% with gross margin holding above 35% · **and** CFO/OP clears 70% · **and** FY27 revenue lands at or above the top of the raised 26–30% guide with margin intact.
+
+> **📊 Scored 25-Nov-2026 (Q2FY27):** Q2 revenue above ₹500cr — **CLEAR (₹525cr)** · US EBITDA breakeven beyond FY27 — **not fired** (loss ₹4.8cr; management now calls the US a cost centre) · NWC above 130 days — **CLEAR (120)** · **CFO/OP below 50% in FY27 — ⚠️ ON COURSE TO FIRE: H1 ~8% (₹10cr / ₹124cr); FY27 needs roughly ₹120cr+ of operating cash in H2** *(my arithmetic on ~₹260cr of FY27 EBITDA)*. **Held at Medium; the cash test decides it at the FY27 results.** Upgrade legs: box build 61% (needs >65%) · CFO/OP >70% — no.
 
 ### (b) Material developments — newest first
 
@@ -499,13 +534,31 @@ The initiation's Source Appendix claimed *"ValuePickr — Avalon thread: **Activ
 
 ---
 
+### 📊 25-Nov-2026 — scenarios re-derived after Q2FY27
+
+*My estimates, from ₹1,675 / mcap ~₹11,200cr (StockScans, 23-Nov close; 75x trailing). The August set above is kept.* FY27 revenue ~₹2,080cr at the raised ~30% guide.
+
+| Scenario | Prob. | FY28 | PAT × multiple | Mcap | Return |
+|---|---|---|---|---|---|
+| **Base** | **50%** | Revenue ~₹2,600cr, EBITDA ~12.5%, PAT ~₹200cr; cash conversion stays weak | ₹200cr × 55x | ₹11,000cr | **≈ −2%** |
+| **Bull** | **25%** | ~₹2,800cr, 13.5%; semicap splits out; Zollner customers start; CFO recovers | ₹235cr × 65x | ₹15,300cr | **≈ +37%** |
+| **Bear** | **25%** | ~₹2,300cr, 11%; inventory build turns into a write-down risk; multiple de-rates toward 35x | ₹150cr × 35x | ₹5,250cr | **≈ −53%** |
+
+**Weighted ≈ −5% over two years** *(0.50 × −2 + 0.25 × 37 − 0.25 × 53)*. **The business is doing what it said; the price already paid for it, and the cash has not followed the profit for four years running.**
+
 ## 7. What Could Prove Us Wrong
 
 **Risk 1 — 🔴 The multiple.** 109x earnings, 20.2x book, a fresh all-time high, and no dividend. **A de-rating to 45x on unchanged earnings loses ~54%.** This is not a tail risk; it is the dominant term in the return distribution.
 
+> 🟡 **PARTLY DEFLATED (25-Nov-2026):** the stock is −23% from ₹2,184 to ₹1,675 since August and trades at ~75x trailing; earnings grew 60% YoY in Q2.
+
 **Risk 2 — 🔴 The plateau.** Two consecutive quarters at ~₹480cr, with Q1FY27 sequential revenue **+0.9%** and PAT **−15.3%**. **Q2FY27 is the clean test.** A second flat quarter converts "pause" into "plateau" and takes operating leverage with it.
 
+> ✅ **RESOLVED for now (25-Nov-2026):** Q2 revenue ₹525cr, +8.5% QoQ; FY27 guidance raised to ~30%.
+
 **Risk 3 — 🔴 Cash conversion.** CFO/operating profit of **5% · 54% · 39% · 53%** across FY23–FY26. **Never above 54%.** Q1FY27's ₹32cr is the first good datapoint, but **net working capital rose five days sequentially in the same quarter.** For a business that must fund inventory and receivables ahead of every new program, **this is the failure mode that would force a capital raise into a 20x book multiple.**
+
+> ⚠️ **MATERIALIZED in H1 (25-Nov-2026):** operating cash −₹22cr in Q2, +₹10cr for H1 against ₹124cr of EBITDA; debt ₹196cr → ₹311cr in a quarter to fund working capital. This is now the trigger that decides the rating.
 
 **Risk 4 — 🔴 Operating leverage is the whole margin story.** EBITDA margin went 9.2% → 12.0% while **gross margin fell 85bps.** There is no pricing improvement underneath. **If revenue growth stops, margin expansion does not just stop — it can reverse.**
 
@@ -516,6 +569,8 @@ The initiation's Source Appendix claimed *"ValuePickr — Avalon thread: **Activ
 **Risk 7 — 🟡 Promoter holding below 45%**, after a 6pp single-quarter sale in Jun-2025. Stable for four quarters, but there is no controlling majority.
 
 **Risk 8 — 🟡 US breakeven slipping.** Guided for *"the end of this fiscal year"* with no revenue threshold given. Losses have narrowed ₹9cr → ₹4cr, but **management has simultaneously said it wants to shrink US manufacturing from ~28% back to ~20%** — which makes breakeven harder, not easier.
+
+> 🟡 **REFRAMED (25-Nov-2026):** US loss ₹4.8cr; management now describes the US plant as *"more of a cost centre"* whose job is to move production to India — so a breakeven date is no longer really promised.
 
 **Risk 9 — 🟡 Execution cost arriving ahead of revenue.** Five or six new VP-level hires, two new geographies, and inventory built for programs that have not yet shipped. **All of it is cost now for revenue later.**
 
@@ -547,6 +602,8 @@ The initiation's Source Appendix claimed *"ValuePickr — Avalon thread: **Activ
 
 ## 9. 📢 Community Pulse
 
+**⤴ 25-Nov-2026:** the Q2 call drew sell-side questions (Avendus, Nomura, DAM, Emkay, Macquarie, JP Morgan, Motilal) mostly on Zollner and semicap sizing, which management declined to quantify. **Nobody asked about the negative operating cash flow.** Tone: positive.
+
 *Refreshed 21-Aug-2026.*
 
 ### ValuePickr — topic 218154, "Avalon Technologies Ltd"
@@ -577,6 +634,8 @@ The initiation's Source Appendix claimed *"ValuePickr — Avalon thread: **Activ
 ---
 
 ## Source Appendix
+
+- **🆕 Q2FY27 (25-Nov-2026 refresh):** results + deck 13-Nov; **official transcript of the 13-Nov call, downloaded from the company website (the 19-Nov exchange filing is a cover letter only), read in full**; EGM outcome 21-Nov (warrants to Zollner, articles); StockScans call summary (built on an automated transcript) checked against the official — four mismatches noted in §4.
 
 **Concall gate: ✅ CLEARED — 7 official transcripts.**
 

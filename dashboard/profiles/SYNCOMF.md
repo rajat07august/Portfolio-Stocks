@@ -30,11 +30,17 @@
 ---
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 20.1** · market cap ₹ 1,889 Cr. · P/E 22.1x · ROCE 24.7 % · ROE 17.6 % · 52-wk ₹ 27.5 / 10.2 · **vs ₹20.40 at baseline (-1.5%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 22.89** · market cap ₹ 2,152 Cr. · P/E 22.7x · ROCE (TTM) 26.4 % · ROE (TTM) 20.3 % · 52-wk ₹ 27.49 / 10.21 · **vs ₹20.40 at baseline (+12.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 29-Oct-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 ⚪ Quiet — verified)</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 29-Oct-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 ⚪ Quiet — verified))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — No filings in the window — verified**
+**No filings in the window** on StockScans: two independent queries across all 62 main-board and BSE names ("Limited" and "Ltd", grouped by company) returned nothing for this name, while the same queries found 33 other companies — a verified negative (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — No filings in the window — verified**
 **No filings on the exchange feed in the window** — a verified negative: a control query for the same name returned the right company (§0A rule 6).

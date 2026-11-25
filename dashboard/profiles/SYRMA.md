@@ -12,11 +12,17 @@
 > **Concall gate: ✅ CLEARED.** Q1FY27 call held **30-Jul-2026**, transcript filed **4-Aug-2026** (90,971 chars), on disk with five earlier transcripts (May-2025 → Jun-2026), the deck and the press release. Management: **J.S. Gujral (MD)**, **Jayesh Doshi (WTD)**, **Jaidit Singh Brar (CEO — new)**, **Bijay Agrawal (CFO)**, **Nikhil Gupta (Head IR)**. Analysts included **ICICI Securities, Motilal Oswal, JP Morgan**.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 1,462** · market cap ₹ 28,192 Cr. · P/E 66.4x · ROCE 16.8 % · ROE 14.0 % · 52-wk ₹ 1,823 / 634 · **vs ₹1,465 at baseline (-0.2%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 1,491** · market cap ₹ 28,753 Cr. · P/E 68.1x · ROCE (TTM) 17.0 % · ROE (TTM) 15.1 % · 52-wk ₹ 1,823 / 634 · **vs ₹1,465 at baseline (+1.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Official Q2 transcript filed 6-Nov · (earlier: 🆕 🟢 Q2: revenue +73% to ₹2,000cr, PAT +87% · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine; promoter −0.66pp unexplained · (earlier: Trading window closed; the Jodhpur medtech plant still unquantified · (earlier: Subsidiary Syrma Johari MedTech opened a medical plastics and precision moulding plant in Jodhpur; WTD appointment clarification filed · (earlier in window: Elemaster JV plant inaugurated in Bengaluru; Kaga JV company incorporated; Executive Chairman re-appointed; stock +18% to ₹1,729 at 90x))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 15-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Syrma Kaga rights issue done · (earlier: 🆕 ⚪ Official Q2 transcript filed 6-Nov · (earlier: 🆕 🟢 Q2: revenue +73% to ₹2,000cr, PAT +87% · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine; promoter −0.66pp unexplained · (earlier: Trading window closed; the Jodhpur medtech plant still unquantified · (earlier: Subsidiary Syrma Johari MedTech opened a medical plastics and precision moulding plant in Jodhpur; WTD appointment clarification filed · (earlier in window: Elemaster JV plant inaugurated in Bengaluru; Kaga JV company incorporated; Executive Chairman re-appointed; stock +18% to ₹1,729 at 90x)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — Syrma Kaga rights issue completed (60:40)**
+**18-Nov: Syrma Kaga Electronics completed a ₹24.99cr rights issue** at ₹496 — Syrma ₹14.99cr, Kaga ₹9.99cr; Syrma stays at 60%.
+> **Why it matters:** Already disclosed in June and August; capital for the JV.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — Official Q2 transcript filed (6-Nov)**
 **The official transcript of the Q2 call was filed 6-Nov.** Analyst-meet schedules 5-Nov. The results were read in the 4-Nov sweep.

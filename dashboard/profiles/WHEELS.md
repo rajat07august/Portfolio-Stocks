@@ -13,11 +13,17 @@
 > **And the thing the downgrade actually feared — dilution with promoters standing aside — has happened in reverse.** On **19-Aug-2026** the board approved a **₹180cr preferential issue in which every single allottee is a promoter**, taking promoter holding **UP from 58.31% to ~60.4%**. ⤴ **UPDATE 31-Aug/17-Sep-2026: the price was raised to ₹1,461 on NSE's valuation observations (same ₹180cr, 12,32,031 shares), and the EGM approved it with 99.99% of votes. The stock has since run to ₹2,176, so the issue is now ~33% below market. See the refresh block.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 2,388** · market cap ₹ 6,413 Cr. · P/E 33.4x · ROCE 18.8 % · ROE 15.8 % · 52-wk ₹ 2,516 / 705 · **vs ₹1,513 at baseline (+57.8%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 2,121** · market cap ₹ 5,696 Cr. · P/E 27.0x · ROCE (TTM) 17.2 % · ROE (TTM) 12.9 % · 52-wk ₹ 2,549 / 706 · **vs ₹1,513 at baseline (+40.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Nothing new since 4-Nov (verified) · (earlier: 🆕 🟡 Q2: revenue +35%, PAT +88%, ICRA A+; OPM 7.49% vs the 7.5% trigger — fired by 1bp, conviction left for Rajat · (earlier: 🆕 ⚪ Q2 call 29-Oct · (earlier: ⚪ Routine; promoter move = QIP/preferential already recorded · (earlier: 🟢🟢 ₹250cr QIP allotted at ₹2,088 on 25-Sep — four days after promoters subscribed their preferential at ₹1,461. ₹430cr raised in a week · (earlier: Promoter preferential COMPLETED — 12,32,031 shares at ₹1,461 for ₹180cr; TSF Investments 25.01% → 27.81%, priced ~33% below market · (earlier in window: Stock +44% in four weeks to ₹2,176 with an NSE price query and no disclosed cause; promoter preferential issue repriced to ₹1,461 and approved at the EGM))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 ⚪ Nothing new since 4-Nov (verified) · (earlier: 🆕 🟡 Q2: revenue +35%, PAT +88%, ICRA A+; OPM 7.49% vs the 7.5% trigger — fired by 1bp, conviction left for Rajat · (earlier: 🆕 ⚪ Q2 call 29-Oct · (earlier: ⚪ Routine; promoter move = QIP/preferential already recorded · (earlier: 🟢🟢 ₹250cr QIP allotted at ₹2,088 on 25-Sep — four days after promoters subscribed their preferential at ₹1,461. ₹430cr raised in a week · (earlier: Promoter preferential COMPLETED — 12,32,031 shares at ₹1,461 for ₹180cr; TSF Investments 25.01% → 27.81%, priced ~33% below market · (earlier in window: Stock +44% in four weeks to ₹2,176 with an NSE price query and no disclosed cause; promoter preferential issue repriced to ₹1,461 and approved at the EGM)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — No filings in the window — verified**
+**No filings in the window** on StockScans: two independent queries across all 62 main-board and BSE names ("Limited" and "Ltd", grouped by company) returned nothing for this name, while the same queries found 33 other companies — a verified negative (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — Nothing new since the 4-Nov sweep**
 **The only filing in the window was already read in the 4-Nov sweep** (filed the evening of 4-Nov); nothing else on the exchange feed.

@@ -4,11 +4,17 @@
 **Thesis current as of: 18-Sep-2026 · Tracking since: 18-Sep-2026**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 2,010** · market cap ₹ 12,569 Cr. · P/E 30.0x · ROCE 21.3 % · ROE 15.9 % · 52-wk ₹ 2,320 / 1,033 · **vs ₹2,110 at baseline (-4.7%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 1,841** · market cap ₹ 11,514 Cr. · P/E 26.2x · ROCE (TTM) 21.0 % · ROE (TTM) 15.1 % · 52-wk ₹ 2,319 / 1,033 · **vs ₹2,110 at baseline (-12.7%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 18-Sep-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 🟢 Q2: revenue +20%, PAT +22%; order book ~₹20,200cr; net cash >₹1,100cr · (earlier: 🆕 🟢 'Mega' (>₹1,000cr) RIL Jamnagar 302 MLD desalination order · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ ESOP allotment only · (earlier: Trading window closed; Q2FY27 ex-forex margin is the test · (earlier: No filings since the profile was written)))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Sep-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 🟢 Q2: revenue +20%, PAT +22%; order book ~₹20,200cr; net cash >₹1,100cr · (earlier: 🆕 🟢 'Mega' (>₹1,000cr) RIL Jamnagar 302 MLD desalination order · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ ESOP allotment only · (earlier: Trading window closed; Q2FY27 ex-forex margin is the test · (earlier: No filings since the profile was written))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — No filings in the window — verified**
+**No filings in the window** on StockScans: two independent queries across all 62 main-board and BSE names ("Limited" and "Ltd", grouped by company) returned nothing for this name, while the same queries found 33 other companies — a verified negative (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **🟢 4 → 10-Nov-2026 — Q2: revenue +20%, PAT +22%; order book crosses ₹20,000cr; net cash over ₹1,100cr**
 **Q2FY27 (5-Nov).** Revenue **₹1,000cr (+20%)**, operating margin 12%, PAT ₹104cr (+22%). **Order book ~₹20,200cr** (over four times revenue); H1 intake ~₹5,200cr including multiple RIL orders. **Net cash over ₹1,100cr ex-HAM** — 15th consecutive net-cash quarter. 22,120 ESOP shares allotted. Call recording 6-Nov.

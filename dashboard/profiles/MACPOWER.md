@@ -19,11 +19,17 @@
 > **⚠️ Reporting basis, stated up front.** Macpower has no subsidiaries, no joint ventures and no associates. Every figure in this profile is standalone and audited, reconciled between the FY26 Annual Report (filed 20-Aug-2026), the quarterly filings and Screener. Where the three disagree, the disagreement is stated.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 2,365** · market cap ₹ 2,366 Cr. · P/E — · ROCE % % · ROE % % · 52-wk ₹ 2,450 / 780 · **vs ₹1,843 at baseline (+28.3%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 2,032** · market cap ₹ 2,033 Cr. · P/E 47.3x · ROCE (TTM) 30.0 % · ROE (TTM) 21.8 % · 52-wk ₹ 2,450 / 790 · **vs ₹1,843 at baseline (+10.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 11-Sep-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ 13.38% intra-family transfer completed · (earlier: 🆕 🟢 Q2 record: revenue +40%, PAT +44%; 13.38% mother-to-son transfer inside the promoter group · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Q2 results 26-Oct, call 27-Oct · (earlier: AGM passed; H1FY27 balance sheet remains the checkpoint · (earlier: AGM held 23-Sep; CMD took part in a promoter-interview series. H1FY27 remains the checkpoint for the three unreconciled Q1 figures · (earlier in window: Investor-meeting flurry (DII management meet 21-Sep; CMD in a promoter-interview series); nothing on the three unreconciled figures; stock +14% to ₹2,104 at 54x))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 11-Sep-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 ⚪ 13.38% intra-family transfer completed · (earlier: 🆕 🟢 Q2 record: revenue +40%, PAT +44%; 13.38% mother-to-son transfer inside the promoter group · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Q2 results 26-Oct, call 27-Oct · (earlier: AGM passed; H1FY27 balance sheet remains the checkpoint · (earlier: AGM held 23-Sep; CMD took part in a promoter-interview series. H1FY27 remains the checkpoint for the three unreconciled Q1 figures · (earlier in window: Investor-meeting flurry (DII management meet 21-Sep; CMD in a promoter-interview series); nothing on the three unreconciled figures; stock +14% to ₹2,104 at 54x)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — No filings in the window — verified**
+**No filings in the window** on StockScans: two independent queries across all 62 main-board and BSE names ("Limited" and "Ltd", grouped by company) returned nothing for this name, while the same queries found 33 other companies — a verified negative (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — 13.38% mother-to-son transfer completed**
 **Reg 10(6) report (scan, rendered):** Reyan Mehta received **13,39,000 shares (13.38%)** from his mother Riyaben Mehta on 5-Nov, off-market and without consideration; promoter-group total unchanged.

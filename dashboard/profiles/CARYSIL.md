@@ -14,11 +14,17 @@
 > **🆕 What the official transcript adds, and it is substantial:** **FY27 capex of ₹80–90 crore**, 80% of it into core kitchen sinks · **the factory is running seven days a week and management calls it *"a serious stress"*** · **the US tariff discount rollback is ~90% complete and is a price restoration, not a one-off credit** · **a Lowe's display-cost share of USD 3–4 million that "will not happen now"** · and Q1's soft quartz growth explained by **container delays, not demand**.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 957** · market cap ₹ 2,722 Cr. · P/E 25.0x · ROCE 18.0 % · ROE 17.4 % · 52-wk ₹ 1,281 / 732 · **vs ₹1,155 at baseline (-17.1%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 916** · market cap ₹ 2,606 Cr. · P/E 24.2x · ROCE (TTM) 18.2 % · ROE (TTM) 16.6 % · 52-wk ₹ 1,281 / 732 · **vs ₹1,155 at baseline (-20.7%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Official Q2 transcript filed 9-Nov · (earlier: 🆕 🔴 Executive Director & Group CFO resigned (effective 16-Nov); Q2 revenue +15%, PAT +7%; postal ballot passed · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Bobby Deol brand endorsement; Q2 call 5-Nov · (earlier: ✅ The undisclosed postal ballot resolves to something benign — a special resolution for Prayasvin Patel's ID appointment; result due 2-Nov · (earlier: Prayasvin B. Patel appointed additional independent director; AGM held 22-Sep with all resolutions passed; postal ballot notice to follow · (earlier in window: New Chief Technology Officer; FY26 annual report and dividend payment date; nothing else filed; stock −2%))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 22-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 🟢 German retailer framework agreement (no value stated) · (earlier: 🆕 ⚪ Official Q2 transcript filed 9-Nov · (earlier: 🆕 🔴 Executive Director & Group CFO resigned (effective 16-Nov); Q2 revenue +15%, PAT +7%; postal ballot passed · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Bobby Deol brand endorsement; Q2 call 5-Nov · (earlier: ✅ The undisclosed postal ballot resolves to something benign — a special resolution for Prayasvin Patel's ID appointment; result due 2-Nov · (earlier: Prayasvin B. Patel appointed additional independent director; AGM held 22-Sep with all resolutions passed; postal ballot notice to follow · (earlier in window: New Chief Technology Officer; FY26 annual report and dividend payment date; nothing else filed; stock −2%)))))))</span></summary>
 <div class="upd-body">
+
+**🟢 18 → 25-Nov-2026 — Framework supply agreement with a German bathroom/kitchen retailer for EU + Switzerland**
+**24-Nov: framework supply agreement (Carysil + Carysilnox) with an unnamed Germany-based specialist retailer** for 11 SKUs of quartz and stainless-steel sinks, sold in the EU and Switzerland under 'a leading international premium kitchen and bathroom brand'; DAP basis against purchase orders; terminable on 12 months' notice. The company says the customer could become a top-ten customer in the medium term and top-five in the long term — *'subject to actual orders'*.
+> **Why it matters:** **No value and no committed volume** — it is a framework. Worth something only when purchase orders flow.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — Official Q2 transcript filed (9-Nov)**
 **The official transcript of the Q2 call was filed 9-Nov.** The results were read in the 4-Nov sweep.

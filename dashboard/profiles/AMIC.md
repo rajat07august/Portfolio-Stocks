@@ -13,11 +13,17 @@
 > **📋 WHAT THIS REFRESH FOUND.** The prior profile (4-Jul-2026, v2) was thorough and got most of the business right — it correctly identified the FY25 other-income distortion, the FY25 revenue decline, the ₹96.88cr warrant issue, the Amic Engg Tech subsidiary and the 30-Jun BSE notice. **What has changed is the weight of what sits around the numbers.** Since v2 I have established: **an arithmetic error in the audited consolidated results that survived a BSE discrepancy notice and a re-filing**; that the subsidiary is consolidated on **unaudited** figures; **three CFOs in seven months with the chair empty since 1-Apr-2026**; **a second BSE query, on a disclosure-timeliness breach the company admitted**; **a working-capital cycle that has more than doubled to 184 days**; **three consecutive and worsening years of negative free cash flow**; and **a serial preferential-issue programme that has raised ~₹151cr and diluted the share count 10.4%.** **The multiple has gone from 72x to 79.9x while FY26 earnings fell 20%.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 2,170** · market cap ₹ 2,506 Cr. · P/E 82.2x · ROCE 25.2 % · ROE 18.1 % · 52-wk ₹ 2,605 / 1,065 · **vs ₹1,957 at baseline (+10.9%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 2,188** · market cap ₹ 2,527 Cr. · P/E 50.9x · ROCE (TTM) 18.8 % · ROE (TTM) 12.4 % · 52-wk ₹ 2,605 / 1,065 · **vs ₹1,957 at baseline (+11.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ H1 board 12-Nov · (earlier: 🆕 ⚪ Quiet — verified on the exchange feed · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ No filings in the window (verified) · (earlier: AGM passed; FY26 results error and the CFO vacancy still open · (earlier: Nothing filed; the FY26 results arithmetic error and the CFO vacancy remain open · (earlier in window: FY26 annual report read: the related-party note the profile called its top queue item is now answered (Dakor ₹4.65cr unchanged, Mackeil ₹2.04cr, family pay up five-fold); still no CFO; stock +17% to 87x))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 31-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 ⚪ H1 board 12-Nov · (earlier: 🆕 ⚪ Quiet — verified on the exchange feed · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ No filings in the window (verified) · (earlier: AGM passed; FY26 results error and the CFO vacancy still open · (earlier: Nothing filed; the FY26 results arithmetic error and the CFO vacancy remain open · (earlier in window: FY26 annual report read: the related-party note the profile called its top queue item is now answered (Dakor ₹4.65cr unchanged, Mackeil ₹2.04cr, family pay up five-fold); still no CFO; stock +17% to 87x)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — No filings in the window — verified**
+**No filings in the window** on StockScans: two independent queries across all 62 main-board and BSE names ("Limited" and "Ltd", grouped by company) returned nothing for this name, while the same queries found 33 other companies — a verified negative (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — H1 results board meeting fixed for 12-Nov**
 **BSE (6-Nov): board meets 12-Nov-2026 to approve H1FY27 results**; trading window closed since 1-Oct.

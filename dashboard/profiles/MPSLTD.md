@@ -10,11 +10,17 @@
 > **📌 A structural event is in progress and shareholders vote on it tomorrow.** The **promoter holding company, ADI BPO Services Limited, is being amalgamated into MPS Limited** under Sections 230–232, with NCLT-convened meetings of equity shareholders and unsecured creditors on **22-August-2026**. **The swap ratio is calibrated to leave public shareholders untouched** — the arithmetic is checked in §5.5(b). **None of this was in the initiation.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 2,247** · market cap ₹ 3,844 Cr. · P/E 20.2x · ROCE 38.7 % · ROE 29.7 % · 52-wk ₹ 2,980 / 1,336 · **vs ₹2,898 at baseline (-22.5%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 2,106** · market cap ₹ 3,601 Cr. · P/E 19.3x · ROCE (TTM) 36.0 % · ROE (TTM) 26.3 % · 52-wk ₹ 2,979 / 1,336 · **vs ₹2,898 at baseline (-27.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ ID re-appointment postal ballot · (earlier: 🆕 🟡 Q2: revenue +15%, EBITDA margin a record 34.3% — PAT −5% (gap not bridged in the deck) · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine notice only · (earlier: ISO/IEC 42001 AI-management certification; amalgamation notice advertised · (earlier: NCLT Chennai passed the Second Motion order (16-Sep) in the ADI BPO amalgamation — shareholder and creditor approvals taken on record · (earlier in window: Promoter-holdco merger: shareholders and creditors approved the scheme (22-Aug), NCLT second-motion order taken on record (16-Sep); new company secretary; stock −8%))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 21-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 ⚪ ID re-appointment postal ballot · (earlier: 🆕 🟡 Q2: revenue +15%, EBITDA margin a record 34.3% — PAT −5% (gap not bridged in the deck) · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ Routine notice only · (earlier: ISO/IEC 42001 AI-management certification; amalgamation notice advertised · (earlier: NCLT Chennai passed the Second Motion order (16-Sep) in the ADI BPO amalgamation — shareholder and creditor approvals taken on record · (earlier in window: Promoter-holdco merger: shareholders and creditors approved the scheme (22-Aug), NCLT second-motion order taken on record (16-Sep); new company secretary; stock −8%)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — No filings in the window — verified**
+**No filings in the window** on StockScans: two independent queries across all 62 main-board and BSE names ("Limited" and "Ltd", grouped by company) returned nothing for this name, while the same queries found 33 other companies — a verified negative (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — Postal ballot to re-appoint an independent director**
 Postal ballot (10-Nov) to re-appoint **Divya Verma** as independent director for a second term from 24-Jan-2027. Results newspaper extract 5-Nov.

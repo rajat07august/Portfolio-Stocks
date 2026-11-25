@@ -18,11 +18,17 @@
 > **Concall gate: 🟢 GREEN.** Eight transcripts on disk (Oct-2024 → Jul-2026) plus four decks — above the six-concall standard. Every management quote below is verbatim from those transcripts. Where a figure is mine rather than management's, it is labelled.
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener, standalone — the consolidated page carries no data):** CMP **₹ 375** · market cap ₹ 1,817 Cr. · P/E 19.4x · ROCE 26.2 % · ROE 19.9 % · 52-wk ₹ 560 / 237
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 338** · market cap ₹ 1,639 Cr. · P/E 17.5x · ROCE (TTM) 25.7 % · ROE (TTM) 18.7 % · 52-wk ₹ 560 / 237
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 🟡 Q2: revenue +29%, PAT +13%, margin 10.0% (11.0%); Reengus plant installed; BSE fine for late shareholding filing · (earlier: 🆕 ⚪ Q2 call 27-Oct · (earlier: ⚪ Routine filings only · (earlier: Self-reported 100-share contra trade by a non-promoter AVP — immaterial · (earlier: Head of HR & Corporate Communication resigned (SMP), effective 23-Sep · (earlier in window: FY26 annual report read: the ₹344.75cr related-party guarantee claim finds no support (related-party collateral fell from ₹5cr to nil; total contingent liabilities ₹207.5cr); senior QA manager resigns; stock −1.7%))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 18-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 🟡 Q2: revenue +29%, PAT +13%, margin 10.0% (11.0%); Reengus plant installed; BSE fine for late shareholding filing · (earlier: 🆕 ⚪ Q2 call 27-Oct · (earlier: ⚪ Routine filings only · (earlier: Self-reported 100-share contra trade by a non-promoter AVP — immaterial · (earlier: Head of HR & Corporate Communication resigned (SMP), effective 23-Sep · (earlier in window: FY26 annual report read: the ₹344.75cr related-party guarantee claim finds no support (related-party collateral fell from ₹5cr to nil; total contingent liabilities ₹207.5cr); senior QA manager resigns; stock −1.7%)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — No filings in the window — verified**
+**No filings in the window** on StockScans: two independent queries across all 62 main-board and BSE names ("Limited" and "Ltd", grouped by company) returned nothing for this name, while the same queries found 33 other companies — a verified negative (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — No filings in the window — verified**
 **No filings on the exchange feed in the window** — a verified negative: a control query for the same name returned the right company (§0A rule 6).

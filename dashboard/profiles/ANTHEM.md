@@ -11,11 +11,17 @@
 > **🔴 THE ONE NUMBER TO CARRY.** **Three customers are 56.71% of revenue** (FY26; 61.18% in FY25). Anthem does not name them. Q1FY27 revenue fell **22.6% YoY** and management's explanation was *"timing shifts in deliveries to key customers."* **At 89x earnings, the concentration and the volatility are the same fact seen twice.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 958** · market cap ₹ 53,989 Cr. · P/E 85.5x · ROCE 30.4 % · ROE 22.3 % · 52-wk ₹ 989 / 579 · **vs ₹940 at baseline (+1.9%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 957** · market cap ₹ 53,945 Cr. · P/E 87.8x · ROCE (TTM) 25.8 % · ROE (TTM) 18.7 % · 52-wk ₹ 989 / 579 · **vs ₹940 at baseline (+1.8%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 3-Sep-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Official Q2 transcript filed 6-Nov · (earlier: 🆕 🟢 Q2: revenue +7.9% (+42% QoQ), EBITDA margin 50.6% incl. ₹59cr other income; H1 revenue −7.2% · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ No filings in the window (verified) · (earlier: Trading window closed; nothing material · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: The ₹127.68cr Upside Sharing Arrangement to three founders was settled on 8-Sep, as approved at the July AGM; stock −1.3%))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 3-Sep-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 ⚪ Official Q2 transcript filed 6-Nov · (earlier: 🆕 🟢 Q2: revenue +7.9% (+42% QoQ), EBITDA margin 50.6% incl. ₹59cr other income; H1 revenue −7.2% · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: ⚪ No filings in the window (verified) · (earlier: Trading window closed; nothing material · (earlier: No material filings in the window — zero announcements on the feeds swept · (earlier in window: The ₹127.68cr Upside Sharing Arrangement to three founders was settled on 8-Sep, as approved at the July AGM; stock −1.3%)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — No filings in the window — verified**
+**No filings in the window** on StockScans: two independent queries across all 62 main-board and BSE names ("Limited" and "Ltd", grouped by company) returned nothing for this name, while the same queries found 33 other companies — a verified negative (§0A rule 6).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — Official Q2 transcript filed (6-Nov)**
 **The official transcript of the Q2 call was filed 6-Nov.** The results were read in the 4-Nov sweep.

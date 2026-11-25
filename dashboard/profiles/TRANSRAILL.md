@@ -12,11 +12,17 @@
 > **🎯 This name carries a live Under Watch trigger with four named conditions, set at the Q1FY27 review and testable at Q2FY27 (~Nov-2026). It is in §5.5(a).**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 440** · market cap ₹ 5,912 Cr. · P/E 13.7x · ROCE 33.6 % · ROE 20.0 % · 52-wk ₹ 677 / 401 · **vs ₹467 at baseline (-5.8%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 424** · market cap ₹ 5,697 Cr. · P/E 13.6x · ROCE (TTM) 26.1 % · ROE (TTM) 17.1 % · 52-wk ₹ 663 / 401 · **vs ₹467 at baseline (-9.2%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Results ad only · (earlier: 🆕 🔴 MH → M: H1 intake ₹1,638cr vs the ₹3,500cr trigger; record Q2 revenue, net debt down to ₹143cr (0.2x); Burberry not addressed · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 ₹1,747cr of orders (FY27 intake now ₹3,356cr); 🆕 49% of a 990 MW MSEDCL solar portfolio for ₹20cr — project cost ~₹3,900cr, structured for "financial control" · (earlier: 🟢 Tower capacity +12,000 MTPA (172,400 → 184,400) and ₹574cr of new orders — a second delivery item in two weeks · (earlier: 🟢 Conductor capacity +70%, 24,000 → 40,800 km/annum, Silvassa Phase 1 complete — delivering on the Jan/May-2025 intimations · (earlier in window: Quiet interval: no order or governance filing beyond the FY26 annual report and investor meets; stock −12% to ₹409, at its 52-week low))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ Routine filings only · (earlier: 🆕 ⚪ Results ad only · (earlier: 🆕 🔴 MH → M: H1 intake ₹1,638cr vs the ₹3,500cr trigger; record Q2 revenue, net debt down to ₹143cr (0.2x); Burberry not addressed · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 ₹1,747cr of orders (FY27 intake now ₹3,356cr); 🆕 49% of a 990 MW MSEDCL solar portfolio for ₹20cr — project cost ~₹3,900cr, structured for "financial control" · (earlier: 🟢 Tower capacity +12,000 MTPA (172,400 → 184,400) and ₹574cr of new orders — a second delivery item in two weeks · (earlier: 🟢 Conductor capacity +70%, 24,000 → 40,800 km/annum, Silvassa Phase 1 complete — delivering on the Jan/May-2025 intimations · (earlier in window: Quiet interval: no order or governance filing beyond the FY26 annual report and investor meets; stock −12% to ₹409, at its 52-week low)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — Routine filings only**
+**Routine filings only:** analyst / investor-meet intimation only.
+> **Why it matters:** Routine; nothing on the business.
+
+*Sweep: StockScans filings (CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — Results advertisement only**
 Only the newspaper extract of the Q2 results (5-Nov). No official transcript of the Q2 call has been filed.

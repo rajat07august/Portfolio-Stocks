@@ -14,11 +14,17 @@
 > **Concall gate: 🟡 ONE CALL A YEAR.** OBSC holds a single earnings call, after the annual results. The most recent is **Q4FY26, 21-May-2026** (57,585 characters). **There is no Q1FY27 call.**
 
 <!-- SINCE-BASELINE:START -->
-**📍 Live market check — 10-Nov-2026 close (Screener):** CMP **₹ 845** · market cap ₹ 2,305 Cr. · P/E 60.1x · ROCE 19.5 % · ROE 19.6 % · 52-wk ₹ 1,030 / 270 · **vs ₹790 at baseline (+7.0%)**
+**📍 Live market check — 23-Nov-2026 close (StockScans):** CMP **₹ 788** · market cap ₹ 2,150 Cr. · P/E 53.4x · ROCE (TTM) 14.6 % · ROE (TTM) 14.1 % · 52-wk ₹ 1,030 / 270 · **vs ₹790 at baseline (-0.3%)**
 
 <details class="upd" id="since-baseline">
-<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 10-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 🟢 Q2: revenue +97%, PAT +125%; order book ₹1,200cr+; exports nearly 3x · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 First defence PO (Elbit, ~₹8.9cr); Tenneco +₹80cr nomination; ₹17cr LoI · (earlier: AGM passed; the 50% → 71% raw-material jump still unexplained · (earlier: Nothing filed; the 50% → 71% raw-material jump remains unexplained · (earlier in window: ₹86.5cr preferential issue allotted at ₹601 (35% below the new ₹930 price); AS9100D aerospace certification recommended; non-binding New Mexico MoU; ₹31.4cr five-year order; stock +18%))))))</span></summary>
+<summary><span class="upd-date">🆕 Changes since baseline · 13-Aug-2026 → 25-Nov-2026</span> <span class="upd-sum">🆕 ⚪ No filings in the window (verified on NSE) · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🆕 🟢 Q2: revenue +97%, PAT +125%; order book ₹1,200cr+; exports nearly 3x · (earlier: 🆕 ⚪ No filings in the window (verified) · (earlier: 🟢 First defence PO (Elbit, ~₹8.9cr); Tenneco +₹80cr nomination; ₹17cr LoI · (earlier: AGM passed; the 50% → 71% raw-material jump still unexplained · (earlier: Nothing filed; the 50% → 71% raw-material jump remains unexplained · (earlier in window: ₹86.5cr preferential issue allotted at ₹601 (35% below the new ₹930 price); AS9100D aerospace certification recommended; non-binding New Mexico MoU; ₹31.4cr five-year order; stock +18%)))))))</span></summary>
 <div class="upd-body">
+
+**⚪ 18 → 25-Nov-2026 — No filings in the window — verified on NSE**
+**No announcements on NSE's SME feed in the window** (`index=sme`; StockScans' SME filings lag by about two weeks, so NSE is the source for this name — CLAUDE.md §4B).
+> **Why it matters:** Nothing new on the business.
+
+*Sweep: NSE announcements (SME — StockScans lags here, CLAUDE.md §4B), 18 → 25-Nov-2026 (sweep run 25-Nov IST); market data StockScans 23-Nov-2026 close (ROCE/ROE trailing-twelve-month). Facts are from the filings named; anything marked as inference is mine. Windows PC session.*
 
 **⚪ 4 → 10-Nov-2026 — No filings in the window — verified**
 **No filings on the exchange feed in the window** — a verified negative: a control query for the same name returned the right company (§0A rule 6).
