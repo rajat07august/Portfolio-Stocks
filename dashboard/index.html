@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Equity Portfolio Analysis</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.js" integrity="sha384-iU8HYtnGQ8Cy4zl7gbNMOhsDTTKX02BTXptVP/vqAWIaTfM7isw76iyZCsjL2eVi" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Patrick+Hand&display=swap" rel="stylesheet">
 <style>
 :root { color-scheme: light; }
 * { box-sizing: border-box; }
@@ -282,6 +285,268 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
   .stock-card-header { flex-direction: column; }
   #back-to-top { right: 14px; bottom: 14px; width: 40px; height: 40px; }
 }
+/* DESIGN-PASS-1 START */
+.viz-grid > * { min-width: 0; }
+
+/* Summary table: compact rows, one column per metric */
+.summary-table table { table-layout: fixed; min-width: 1150px; }
+.summary-table th {
+  padding: 8px; font-size: 11px; line-height: 1.25; vertical-align: bottom;
+  letter-spacing: 0.2px; cursor: default;
+}
+.summary-table th:hover { background: #1F4E79; }
+.summary-table th[data-sort] { cursor: pointer; }
+.summary-table th[data-sort]:hover { background: #2E75B6; }
+.summary-table th[aria-sort="ascending"]::after { content: " \25B2"; font-size: 9px; }
+.summary-table th[aria-sort="descending"]::after { content: " \25BC"; font-size: 9px; }
+.summary-table td { padding: 6px 8px; line-height: 1.35; vertical-align: middle; }
+.summary-table .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.summary-table th.num { white-space: normal; }
+.summary-table .ctr { text-align: center; }
+.summary-table .col-num  { width: 36px; }
+.summary-table .col-name { width: 150px; }
+.summary-table .col-sect { width: 112px; }
+.summary-table .col-mcap { width: 70px; }
+.summary-table .col-cmp  { width: 70px; }
+.summary-table .col-pe   { width: 52px; }
+.summary-table .col-roce { width: 60px; }
+.summary-table .col-roe  { width: 56px; }
+.summary-table .col-off  { width: 60px; }
+.summary-table .col-conv { width: 92px; }
+.summary-table .col-mos  { width: 82px; }
+.summary-table .col-dd   { width: 62px; }
+.summary-table .col-exp  { width: 36px; }
+.summary-table .col-hide { width: 40px; }
+.clamp2 {
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;
+  overflow: hidden; overflow-wrap: anywhere;
+}
+.thesis-cell { cursor: pointer; }
+.thesis-cell.expanded .clamp2 { display: block; overflow: visible; }
+.cmp-old { color: #8a6d00; font-weight: 600; }
+.mos-unsorted { color: #5a6268; font-style: italic; }
+@media (min-width: 1300px) {
+  .summary-table {
+    --table-w: min(1560px, calc(100vw - 56px));
+    width: var(--table-w); margin-left: calc((100% - var(--table-w)) / 2);
+  }
+}
+
+/* Stock cards: collapsed until asked for */
+.card-details > summary { list-style: none; cursor: pointer; }
+.card-details > summary::-webkit-details-marker { display: none; }
+.card-details > summary:hover { background: #eef2f6; }
+.card-details > summary:focus-visible { outline: 2px solid #1F4E79; outline-offset: -2px; }
+.card-details > .stock-card-header { align-items: center; padding: 10px 20px; }
+.card-details:not([open]) > .stock-card-header { border-bottom: none; }
+.card-details:not([open]) .cmp-pill { padding: 4px 12px; }
+.card-details:not([open]) .cmp-pill .cmp-date { display: none; }
+.card-details .name-block h2 { font-size: 16px; margin-bottom: 2px; }
+.card-details .name-block h2::before {
+  content: "\25B8"; display: inline-block; width: 16px; color: #2E75B6;
+  transition: transform .15s ease;
+}
+.card-details[open] .name-block h2::before { transform: rotate(90deg); }
+.earlier-changes { margin-top: 10px; }
+.earlier-changes > summary {
+  cursor: pointer; font-size: 12.5px; font-weight: 600; color: #8a6d00; padding: 4px 0;
+}
+.earlier-changes[open] > summary { margin-bottom: 10px; }
+
+@media (max-width: 768px) {
+  .container { padding: 12px; }
+  header.page-header { padding: 16px; }
+  header.page-header .fw-right { margin-left: 0; }
+  .toolbar input { min-width: 0; flex: 1 1 100%; }
+  .kpi-card .kpi-value { font-size: 20px; }
+  .stock-card-body { padding: 14px; }
+  .card-details > .stock-card-header { align-items: stretch; padding: 10px 14px; }
+  .section { overflow-x: auto; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .card-details .name-block h2::before { transition: none; }
+}
+/* DESIGN-PASS-1 END */
+/* INFOGRAPHIC START */
+.ig-board {
+  --ink: #2b2b2b; --muted: #6b6b6b;
+  --blue: #d6e6fb; --pink: #fbd5db; --green: #d5f0d3; --yellow: #fdf0b0; --purple: #e4dbfa; --orange: #fde0c0;
+  font-family: 'Patrick Hand', 'Segoe Print', 'Bradley Hand', cursive;
+  color: var(--ink); font-size: 15.5px; line-height: 1.3;
+  background: #fffdf7; border: 1px solid #efe9da; border-radius: 10px;
+  padding: 16px; margin-bottom: 14px;
+  display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 14px;
+}
+.ig-c3 { grid-column: span 3; } .ig-c4 { grid-column: span 4; } .ig-c5 { grid-column: span 5; }
+.ig-c7 { grid-column: span 7; } .ig-c8 { grid-column: span 8; } .ig-c12 { grid-column: span 12; }
+.ig-box {
+  background: #fff; border: 2px solid var(--ink); min-width: 0;
+  border-radius: 18px 6px 16px 8px / 8px 16px 6px 18px;
+  padding: 10px 14px 12px;
+}
+.ig-h {
+  font-family: 'Caveat', 'Segoe Print', cursive; font-weight: 700; font-size: 25px; line-height: 1;
+  display: inline-block; margin: 0 0 8px; padding: 0 6px; transform: rotate(-1deg);
+  background: linear-gradient(transparent 42%, var(--hl, var(--yellow)) 42%, var(--hl, var(--yellow)) 90%, transparent 90%);
+}
+.ig-board ul { margin: 0; padding: 0; list-style: none; }
+.ig-board svg { display: block; width: 100%; height: auto; overflow: visible; }
+.ig-board svg text:not([fill]) { fill: var(--ink); }
+.ig-board svg text { font-family: inherit; }
+.ig-src, .ig-foot { font-family: -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 10.5px; color: var(--muted); }
+.ig-src { margin-top: 4px; }
+.ig-foot { padding: 0 4px; }
+.ig-muted { color: var(--muted); }
+.ig-up { color: #2f8a3e; } .ig-down { color: #c0392b; }
+
+/* hook box */
+.ig-title { font-family: 'Caveat', cursive; font-weight: 700; font-size: 40px; line-height: .95; margin-bottom: 6px; }
+.ig-hook {
+  display: inline; font-size: 18px; padding: 1px 4px;
+  background: linear-gradient(transparent 55%, var(--blue) 55%);
+}
+.ig-hook2 { margin: 8px 0 10px; font-size: 16px; color: #444; }
+.ig-thesis { margin: 0 0 10px; font-size: 16.5px; }
+
+/* conviction meter */
+.ig-conv { display: flex; gap: 3px; margin: 6px 0 10px; }
+.ig-conv span {
+  flex: 1; text-align: center; font-size: 12px; padding: 3px 0; border: 1.5px solid #bbb; color: #999;
+  border-radius: 8px 3px 8px 3px;
+}
+.ig-conv span.on { background: var(--green); border-color: var(--ink); color: var(--ink); }
+.ig-conv span.cur { background: #9fd8a1; font-weight: 700; transform: rotate(-2deg); }
+.ig-conv-lbl { font-size: 12px; color: var(--muted); margin-top: -6px; margin-bottom: 8px; }
+
+/* 52-week range */
+.ig-range { margin-top: 8px; }
+.ig-range-track { position: relative; height: 10px; border: 1.5px solid var(--ink); border-radius: 6px;
+  background: linear-gradient(90deg, var(--pink), var(--yellow), var(--green)); }
+.ig-range-dot { position: absolute; top: 50%; width: 16px; height: 16px; margin: -8px 0 0 -8px;
+  border-radius: 50%; background: #1F4E79; border: 2px solid #fff; box-shadow: 0 0 0 1.5px var(--ink); }
+.ig-range-lbl { display: flex; justify-content: space-between; font-size: 12.5px; margin-top: 3px; color: #444; }
+.ig-range-cap { font-size: 13.5px; }
+
+/* journey */
+.ig-journey { display: grid; grid-template-columns: 1fr auto 1fr auto 1fr; gap: 8px; align-items: start; }
+.ig-arrow { font-size: 26px; align-self: center; color: #888; }
+.ig-chip {
+  display: inline-block; padding: 3px 12px; margin-bottom: 6px; border: 1.5px solid var(--ink);
+  border-radius: 14px 6px 14px 6px; font-size: 17px; font-weight: 700;
+}
+.ig-chip small { display: block; font-weight: 400; font-size: 12px; color: #555; }
+.ig-stage.t .ig-chip { background: var(--blue); }
+.ig-stage.n .ig-chip { background: var(--green); }
+.ig-stage.x .ig-chip { background: var(--pink); }
+.ig-stage li { position: relative; padding-left: 14px; margin-bottom: 4px; }
+.ig-stage li::before { content: "•"; position: absolute; left: 2px; }
+
+/* checks */
+.ig-checks li { display: flex; gap: 8px; align-items: flex-start; margin-bottom: 5px; }
+.ig-ck { flex: 0 0 22px; height: 22px; border-radius: 50%; border: 1.5px solid var(--ink);
+  display: inline-flex; align-items: center; justify-content: center; font-weight: 700; font-size: 13px; }
+.ig-ck.g { background: var(--green); } .ig-ck.w { background: var(--yellow); } .ig-ck.b { background: var(--pink); }
+.ig-sub { font-size: 13.5px; color: #444; margin: 8px 0 2px; }
+
+/* capability map */
+.ig-caps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.ig-capcol + .ig-capcol { border-left: 1.5px dashed #bbb; padding-left: 10px; }
+.ig-capchip { display: inline-block; padding: 1px 8px; margin-bottom: 6px; font-weight: 700; font-size: 15px;
+  border-radius: 10px 4px 10px 4px; }
+.ig-capcol.h .ig-capchip { background: var(--blue); }
+.ig-capcol.w .ig-capchip { background: var(--orange); }
+.ig-capcol.a .ig-capchip { background: var(--pink); }
+.ig-caps li { display: flex; gap: 6px; margin-bottom: 7px; font-size: 14.5px; }
+.ig-ic { flex: 0 0 20px; }
+
+/* peers */
+.ig-legend { display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: 13.5px; margin-bottom: 4px; }
+.ig-legend i { display: inline-block; width: 11px; height: 11px; border: 1.5px solid var(--ink); margin-right: 4px; vertical-align: -1px; }
+.ig-peerpanels { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.ig-note { margin-top: 6px; padding: 6px 8px; border: 1.5px dashed #9a86d6; border-radius: 10px; font-size: 14px; }
+
+/* returns */
+.ig-returns { margin-top: 6px; }
+.ig-ret { display: grid; grid-template-columns: 104px 1fr; gap: 8px; align-items: center; margin-bottom: 5px; font-size: 14.5px; }
+.ig-ret.w { font-weight: 700; border-top: 1.5px dashed #bbb; padding-top: 5px; }
+.ig-ret-track { position: relative; height: 20px; }
+.ig-ret-track::before { content: ""; position: absolute; left: 50%; top: -3px; bottom: -3px; border-left: 1.5px solid var(--ink); }
+.ig-ret-bar { position: absolute; top: 3px; height: 14px; border: 1.5px solid var(--ink); border-radius: 3px; }
+.ig-ret-bar.neg { background: var(--pink); } .ig-ret-bar.pos { background: var(--green); }
+.ig-ret-val { position: absolute; top: 0; font-size: 13.5px; white-space: nowrap; }
+.ig-ret-head { font-size: 13.5px; color: #444; margin: 4px 0 6px; }
+
+/* take */
+.ig-take li { display: flex; gap: 8px; align-items: flex-start; margin-bottom: 6px; }
+.ig-n { flex: 0 0 24px; height: 24px; border-radius: 50%; border: 1.5px solid var(--ink);
+  display: inline-flex; align-items: center; justify-content: center; font-weight: 700; }
+.ig-n.n0 { background: var(--green); } .ig-n.n1 { background: var(--pink); }
+.ig-n.n2 { background: var(--blue); } .ig-n.n3 { background: var(--yellow); }
+.ig-watch { margin-top: 8px; padding: 6px 10px; background: #fff7f7; border: 1.5px dashed #d98b8b; border-radius: 10px; font-size: 14.5px; }
+.ig-watch li { padding-left: 12px; position: relative; }
+.ig-watch li::before { content: "▸"; position: absolute; left: 0; }
+.ig-verdict { margin-top: 10px; font-family: 'Caveat', cursive; font-weight: 700; font-size: 24px; line-height: 1.05;
+  transform: rotate(-1.5deg); color: #1F4E79; }
+
+/* through their eyes: Fisher, Lynch, Weinstein */
+.ig-lens-note { font-size: 13.5px; color: var(--muted); margin-left: 8px; }
+.ig-lenses-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1.6fr); gap: 14px; margin: 4px 0 2px; }
+.ig-lens + .ig-lens { border-left: 1.5px dashed #bbb; padding-left: 14px; }
+.ig-lens-h { font-family: 'Caveat', cursive; font-weight: 700; font-size: 23px; color: #1F4E79; text-decoration: none; }
+.ig-lens-h:hover { text-decoration: underline; }
+.ig-lens-q { font-size: 13.5px; color: var(--muted); margin-bottom: 6px; }
+.ig-stamp {
+  display: inline-block; padding: 1px 9px; border: 2px solid; border-radius: 6px; font-weight: 700; font-size: 14.5px;
+  letter-spacing: .5px; transform: rotate(-3deg); margin: 2px 4px 4px 0;
+}
+.ig-stamp.g { color: #2f7a3a; border-color: #2f7a3a; background: #effaef; }
+.ig-stamp.a { color: #946200; border-color: #c98a00; background: #fff8e3; }
+.ig-stamp.r { color: #b3261e; border-color: #b3261e; background: #fdf0ef; }
+.ig-stamp.n { color: #555; border-color: #888; background: #f4f4f4; }
+.ig-lens-cat { display: inline-block; padding: 1px 8px; background: var(--blue); border: 1.5px solid var(--ink);
+  border-radius: 10px 4px 10px 4px; font-size: 14px; }
+.ig-lens-at { font-size: 14.5px; margin: 2px 0; }
+.ig-lens-why { font-size: 14.5px; color: #333; margin: 3px 0; }
+.ig-lens-upd { font-size: 12.5px; color: var(--muted); margin-top: 3px; }
+.ig-wladder { display: flex; gap: 3px; margin-bottom: 6px; }
+.ig-wst { flex: 1; text-align: center; font-size: 13px; padding: 3px 2px; border: 1.5px solid #c8c8c8; color: #999;
+  border-radius: 8px 3px 8px 3px; white-space: nowrap; }
+.ig-wst.cur { color: var(--ink); border-color: var(--ink); font-weight: 700; transform: rotate(-2deg); }
+.ig-wst.s1.cur { background: #e8e3d3; } .ig-wst.s2.cur { background: #cdebd1; }
+.ig-wst.s3.cur { background: #fbe6c2; } .ig-wst.s4.cur { background: #f7cfcf; }
+.ig-wst.trans { background: #e2e4e8; flex: 0 1 auto; padding: 3px 14px; }
+.ig-wst.trans.cur { transform: none; }
+.ig-wbody { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); gap: 10px; align-items: start; }
+.ig-wchart img { width: 100%; height: auto; display: block; border: 1.5px solid var(--ink); border-radius: 6px; background: #fff; }
+.ig-wchart:hover img { box-shadow: 0 2px 10px rgba(0,0,0,.18); }
+@media (max-width: 960px) {
+  .ig-lenses-grid { grid-template-columns: 1fr; }
+  .ig-lens + .ig-lens { border-left: none; padding-left: 0; border-top: 1.5px dashed #bbb; padding-top: 10px; }
+}
+@media (max-width: 620px) { .ig-wbody { grid-template-columns: 1fr; } }
+
+/* the written analysis, kept whole below the picture */
+.ig-full { margin-top: 4px; }
+.ig-full > summary {
+  cursor: pointer; list-style: none; padding: 9px 14px; border-radius: 8px;
+  background: #f6f8fa; border: 1px solid #eaeef2; font-size: 13px; font-weight: 600; color: #1F4E79;
+}
+.ig-full > summary::-webkit-details-marker { display: none; }
+.ig-full > summary::before { content: "\25B8  "; }
+.ig-full[open] > summary::before { content: "\25BE  "; }
+.ig-full > summary span { font-weight: 400; color: #6a737d; }
+.ig-full[open] > summary { margin-bottom: 16px; }
+
+@media (max-width: 960px) {
+  .ig-board > * { grid-column: span 12; }
+}
+@media (max-width: 620px) {
+  .ig-journey { grid-template-columns: 1fr; }
+  .ig-arrow { transform: rotate(90deg); justify-self: center; }
+  .ig-caps { grid-template-columns: 1fr; }
+  .ig-capcol + .ig-capcol { border-left: none; padding-left: 0; border-top: 1.5px dashed #bbb; padding-top: 8px; }
+}
+/* INFOGRAPHIC END */
 </style>
 </head>
 <body>
@@ -359,8 +624,9 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
     <option value="spec">Speculative</option>
   </select>
   <label for="search-box">Search:</label>
-  <input id="search-box" type="text" placeholder="Stock or sector..." />
+  <input id="search-box" type="text" placeholder="Stock or sector..." style="min-width:150px;" />
   <button onclick="resetFilters()">Reset</button>
+  <button id="expand-all" onclick="toggleAllCards()" title="Open or close every stock card below">Expand all</button>
   <button id="hidden-chip" onclick="toggleHiddenPanel()" title="Stocks you have hidden in this browser. Hiding never changes the data or the repo.">🙈 Hidden (0)</button>
   <button id="explainer-chip" onclick="toggleExplainerFilter()" title="Show only stocks that have an Industry Explainer — a diagram-led primer on how the business actually works. Click again to show all.">📖 Explainers (0)</button>
   <span style="margin-left:auto;font-size:11px;color:#888;">Showing <span id="count">—</span> of <span id="count-total">—</span> stocks</span>
@@ -381,16 +647,21 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
   <table id="summary-table">
     <thead>
       <tr>
-        <th data-sort="num">#</th>
-        <th data-sort="name">Stock</th>
-        <th data-sort="sector">Sector</th>
-        <th data-sort="mcap">Mcap (₹Cr)</th>
-        <th>CMP (₹)</th>
-        <th data-sort="conviction">AI Conviction</th>
-        <th title="Personal tracker — check off after you manually deep-dive the company. State auto-saves per browser; use 'Copy state → repo' button to sync across devices.">✓ Deep-dived</th>
-        <th data-sort="explainer" title="Industry Explainer available — a diagram-led primer on how the business works. Click the header to sort; click the icon to open. Derived from the EXPLAINERS map, not stored state.">📖</th>
-        <th title="Hide this stock from the table and cards in THIS browser only. Data and repo are untouched. Restore from the 'Hidden' button in the toolbar.">🙈</th>
+        <th class="col-num" data-sort="num">#</th>
+        <th class="col-name" data-sort="name">Stock</th>
+        <th class="col-sect" data-sort="sector">Sector</th>
+        <th class="col-mcap num" data-sort="mcap" title="Market cap in ₹ Cr. First click: largest first.">Mcap (₹Cr)</th>
+        <th class="col-cmp num" title="Latest price. Hover a price for its date and source; an amber price is older than the latest refresh.">CMP (₹)</th>
+        <th class="col-pe num" data-sort="pe" title="Price / earnings. First click: lowest first. Dash = no meaningful value.">P/E</th>
+        <th class="col-roce num" data-sort="roce" title="Return on capital employed. First click: highest first.">ROCE</th>
+        <th class="col-roe num" data-sort="roe" title="Return on equity. First click: highest first.">ROE</th>
+        <th class="col-off num" data-sort="offhigh" title="CMP against the 52-week high. First click: furthest below the high first. Hover a value for the 52-week high and low.">Off 52w high</th>
+        <th class="col-conv" data-sort="conviction" title="First click: High down to Speculative.">AI Conviction</th>
+        <th class="col-mos" data-sort="mos" title="The opening word of this stock's Margin-of-Safety note, not a new rating. Hover a value for the full note. 'See note' means the opening does not reduce to one word. First click: strongest first.">MoS</th>
         <th>Thesis</th>
+        <th class="col-dd ctr" title="Personal tracker — check off after you manually deep-dive the company. State auto-saves per browser; use 'Copy state → repo' button to sync across devices.">✓ Deep-dived</th>
+        <th class="col-exp ctr" data-sort="explainer" title="Industry Explainer available — a diagram-led primer on how the business works. Click the header to sort; click the icon to open. Derived from the EXPLAINERS map, not stored state.">📖</th>
+        <th class="col-hide ctr" title="Hide this stock from the table and cards in THIS browser only. Data and repo are untouched. Restore from the 'Hidden' button in the toolbar.">🙈</th>
       </tr>
     </thead>
     <tbody id="summary-tbody"></tbody>
@@ -3680,15 +3951,20 @@ function renderSummary(filteredStocks) {
     return `
     <tr>
       <td>${s.num}</td>
-      <td><a class="stock-link" href="#${s.id}">${s.name}</a></td>
-      <td>${s.sector}</td>
-      <td>${s.mcapDisp}<br><span style="font-size:10px;color:#888;">${s.mcapSource}</span></td>
-      <td><strong>${c.cmp}</strong><br><span style="font-size:10px;color:#888;">${c.date}</span>${ratioLine(c) ? `<br><span style="font-size:10px;color:#555;white-space:nowrap;">${ratioLine(c)}</span>` : ''}</td>
+      <td><div class="clamp2" title="${attrText(s.name)}"><a class="stock-link" href="#${s.id}">${s.name}</a></div></td>
+      <td><div class="clamp2" title="${attrText(s.sector)}">${s.sector}</div></td>
+      <td class="num" title="${attrText(s.mcapSource)}">${s.mcapDisp}</td>
+      <td class="num${isOldCmp(c) ? ' cmp-old' : ''}" title="${attrText(c.date + ' · ' + c.source)}"><strong>${c.cmp.replace('₹', '')}</strong></td>
+      <td class="num">${fmtRatio(c.pe, '')}</td>
+      <td class="num">${fmtRatio(c.roce, '%')}</td>
+      <td class="num">${fmtRatio(c.roe, '%')}</td>
+      <td class="num" title="${attrText('52-week high ' + (c.hi || '—') + ' · low ' + (c.lo || '—'))}">${fmtOffHigh(c)}</td>
       <td>${getConvictionTag(s.conviction)}</td>
-      <td style="text-align:center;"><input type="checkbox" class="dd-check" data-id="${s.id}" ${DEEP_DIVED[s.id] ? 'checked' : ''} title="I have manually deep-dived ${s.name}" style="width:18px;height:18px;cursor:pointer;"></td>
-      <td class="exp-cell" style="text-align:center;">${(() => { const x = getExplainer(s.id); return x ? `<a href="explainers/${x.file}.html" target="_blank" rel="noopener" title="${x.label} — ${s.name}">📖</a>` : ''; })()}</td>
-      <td style="text-align:center;"><button class="hide-btn" onclick="hideStock('${s.id}')" title="Hide ${s.name} from this browser's view">✕</button></td>
-      <td>${s.thesis}</td>
+      <td title="${attrText(s.mos)}">${mosCell(s.mos)}</td>
+      <td class="thesis-cell" title="${attrText(s.thesis)}"><div class="clamp2">${s.thesis}</div></td>
+      <td class="ctr"><input type="checkbox" class="dd-check" data-id="${s.id}" ${DEEP_DIVED[s.id] ? 'checked' : ''} title="I have manually deep-dived ${s.name}" style="width:18px;height:18px;cursor:pointer;"></td>
+      <td class="exp-cell ctr">${(() => { const x = getExplainer(s.id); return x ? `<a href="explainers/${x.file}.html" target="_blank" rel="noopener" title="${x.label} — ${s.name}">📖</a>` : ''; })()}</td>
+      <td class="ctr"><button class="hide-btn" onclick="hideStock('${s.id}')" title="Hide ${s.name} from this browser's view">✕</button></td>
     </tr>`;
   }).join('');
   document.getElementById('summary-tbody').innerHTML = html;
@@ -3714,6 +3990,392 @@ function renderFactorSection(id) {
     ${f.rows.length ? `<p class="factor-foot">Sources: Tijori (indianpetrochem.com and India macro), Yahoo Finance, World Bank. Effect judged on the 3-month move (macro rows: latest YoY growth). Full table and reasoning in the Complete Analysis.</p>` : ''}</div>`;
 }
 /* FACTOR-CARD END */
+/* INFOGRAPHIC-DATA START */
+// One entry per stock that has a hand-written board. Every figure comes from the stock's
+// profile (named section) or the source given on the panel. {pe} {pb} {cmp} fill live.
+const INFOGRAPHIC = {
+  "unimech": {
+    asOf: "26-Nov-2026",
+    title: "Unimech Aerospace",
+    hook: "From jet-engine tooling shop to long-term parts partner",
+    sub: "A good business getting better, at a price that already knows it.",
+    journey: {
+      then: { label: "Then", when: "IPO Dec-2024 → FY26", items: [
+        "Bespoke tooling for jet engines and airframes, ~76% of revenue",
+        "Orders follow customer restocking, so revenue swings",
+        "FY26: guided +40%, delivered −1%",
+        "Dec-25 quarter: ₹34cr revenue, 4.6% margin (US tariffs)" ] },
+      now: { label: "Now", when: "Q2 FY27 · Sep-2026", items: [
+        "Tooling + precision parts + Hobel bellows (30% of H1 revenue)",
+        "Long-term agreements: Honeywell (10 yr), FACC (5 yr)",
+        "Order book ₹855cr, 8x a year ago",
+        "Profit now mostly from operations; other income ~₹7cr a quarter" ] },
+      next: { label: "Next", when: "still to prove", items: [
+        "Saudi JV, 51% owned, ~₹79cr committed; what it makes is undisclosed",
+        "Semiconductor parts: step-up guided for H2 FY27",
+        "Dheya UAV engines: revenue FY28 or FY29",
+        "₹1,000cr revenue: now an undated 'aspiration'" ] }
+    },
+    quarter: {
+      title: "Q2 FY27 update",
+      checks: [
+        { s: "good", t: "Revenue ₹123cr, +98% YoY (H1 ₹231cr, +85%)" },
+        { s: "good", t: "EBITDA ₹49cr, ~40% margin" },
+        { s: "good", t: "PAT ₹31.8cr, +103%" },
+        { s: "good", t: "Order book ₹855cr, 8x YoY" },
+        { s: "watch", t: "Working capital guided up to 150–160 days" } ],
+      bars: {
+        label: "Revenue by quarter, ₹cr (operating margin below)",
+        points: [
+          { x: "Q2 FY26", v: 62, note: "30%" }, { x: "Q3", v: 34, note: "4.6%" }, { x: "Q4", v: 82, note: "43%" },
+          { x: "Q1 FY27", v: 108, note: "36%" }, { x: "Q2", v: 123, note: "40%" } ],
+        foot: "Screener consolidated; Q2 FY27 results 27-Oct-2026."
+      }
+    },
+    caps: {
+      have: [
+        { i: "🛠️", t: "AS9100 tooling written into OEM assembly manuals" },
+        { i: "💰", t: "65% gross margin; cash conversion 102% of operating profit (FY26)" },
+        { i: "🔩", t: "Hobel bellows, bought for ₹450cr in 2026" },
+        { i: "👥", t: "Promoters 79.8%, unchanged since listing" } ],
+      wip: [
+        { i: "📝", t: "Honeywell and FACC long-term supply ramp-up" },
+        { i: "🏭", t: "Utilisation ~65%; 15–20% of capacity on new products" },
+        { i: "💾", t: "Semiconductor parts: first revenue in H1" } ],
+      away: [
+        { i: "🌍", t: "Saudi JV output, product and timeline undisclosed" },
+        { i: "✈️", t: "Own UAV engines via Dheya (FY28–29)" },
+        { i: "🎯", t: "₹1,000cr revenue target, now undated" } ]
+    },
+    peers: {
+      names: ["Unimech", "Azad", "MTAR"],
+      colors: ["#9cc3f0", "#f4a7b3", "#f7dc6f"],
+      metrics: [ { label: "P/E (x)", vals: [100.1, 110.3, 131.8] }, { label: "Price/Sales (x)", vals: [25.5, 22.1, 16.3] } ],
+      note: "The whole group is priced for a lot of growth. Market multiples only: no listed peer makes aero tooling.",
+      source: "StockScans, 26-Nov-2026 (intraday)."
+    },
+    scenarios: {
+      asOf: "4-Nov-2026",
+      items: [ { name: "Bear", p: 20, value: 600 }, { name: "Base", p: 55, value: 1420 }, { name: "Bull", p: 25, value: 2280 } ],
+      zone: { lo: 1240, hi: 1420, label: "Upgrade zone" },
+      note: "My estimates: FY28 EPS × multiple (profile §6, 4-Nov re-derivation)."
+    },
+    take: {
+      points: [
+        "A good business, and Q2 proved the recovery.",
+        "The order book went from top worry to strongest number.",
+        "The price already pays for it: ~{pe}x earnings, ~{pb}x book.",
+        "Wait for the ₹1,240–1,420 zone, or FY28 profit tracking to ~₹200cr." ],
+      watchLabel: "Downgrade if",
+      watch: [ "another senior exit is disclosed late (five were, 7–14 months after the fact)", "working capital goes past 160 days" ],
+      verdict: "Held at Medium-Low: good company, full price."
+    },
+    sources: "Q2 FY27 results, deck and 28-Oct call transcript; Reg 30 filings; Screener consolidated; StockScans; UNIMECH profile (Q2 rewrite 4-Nov-2026)."
+  }
+};
+/* INFOGRAPHIC-DATA END */
+
+/* INFOGRAPHIC-JS START */
+// Every card gets a picture. Stocks with an INFOGRAPHIC entry get the full board;
+// the rest get a snapshot drawn only from data the card already carries
+// (thesis, conviction, CMP_DATA, CMP_HISTORY), so it makes no new claims.
+const IG_CONV_STEPS = [["spec", "Spec"], ["med-low", "Med-Low"], ["med", "Medium"], ["med-high", "Med-High"], ["high", "High"]];
+function igNum(v) {
+  if (v === null || v === undefined) return null;
+  const n = parseFloat(String(v).replace(/[^0-9.\-]/g, ''));
+  return isNaN(n) ? null : n;
+}
+function igRs(n) { return '₹' + Math.round(n).toLocaleString('en-IN'); }
+function igPct(x) { return (x >= 0 ? '+' : '−') + Math.abs(x).toFixed(0) + '%'; }
+function igFmt(v) { return v >= 10 ? Math.round(v).toString() : v.toFixed(1); }
+// {pe} {pb} {cmp} in authored text are filled from the live card data.
+function igFill(str, c) {
+  const cmp = igNum(c.cmp), bv = igNum(c.bv), pe = igNum(c.pe);
+  return String(str)
+    .replace(/\{pe\}/g, pe ? Math.round(pe) : '—')
+    .replace(/\{pb\}/g, (cmp && bv) ? (cmp / bv).toFixed(0) : '—')
+    .replace(/\{cmp\}/g, c.cmp);
+}
+function igSafeLabel(t) { return String(t).replace(/<[^>]+>/g, '').replace(/"/g, '&quot;'); }
+
+function igConv(conv) {
+  const i = IG_CONV_STEPS.findIndex(x => x[0] === conv);
+  if (i < 0) return '';
+  return `<div class="ig-conv" role="img" aria-label="Conviction: ${IG_CONV_STEPS[i][1]}">${IG_CONV_STEPS.map((x, k) =>
+    `<span class="${k <= i ? 'on' : ''} ${k === i ? 'cur' : ''}">${x[1]}</span>`).join('')}</div>`;
+}
+
+function igRange(c) {
+  const lo = igNum(c.lo), hi = igNum(c.hi), cmp = igNum(c.cmp);
+  if (!(lo && hi && cmp) || hi <= lo) return '';
+  const pos = Math.max(0, Math.min(100, (cmp - lo) / (hi - lo) * 100));
+  const off = (cmp / hi - 1) * 100;
+  const cap = off >= -0.5 ? `CMP ${c.cmp} is at the 52-week high`
+    : `CMP ${c.cmp} is ${Math.abs(off).toFixed(0)}% below the 52-week high`;
+  return `<div class="ig-range"><div class="ig-range-track"><div class="ig-range-dot" style="left:${pos}%"></div></div>
+    <div class="ig-range-lbl"><span>52w low ${igRs(lo)}</span><span>52w high ${igRs(hi)}</span></div>
+    <div class="ig-range-cap">${cap}</div></div>`;
+}
+
+function igSpark(hist) {
+  const pts = hist.filter(h => h.cmp !== null && h.cmp !== undefined);
+  if (pts.length < 2) return '<p class="ig-muted">Not enough refreshes yet to draw a price path.</p>';
+  const W = 280, H = 78, P = 6, B = 16;
+  const vs = pts.map(p => p.cmp), mn = Math.min(...vs), mx = Math.max(...vs), rng = (mx - mn) || 1;
+  const xy = pts.map((p, i) => [P + i * (W - 2 * P) / (pts.length - 1), P + (H - P - B) * (1 - (p.cmp - mn) / rng)]);
+  const first = pts[0], last = pts[pts.length - 1], chg = (last.cmp / first.cmp - 1) * 100, up = chg >= 0;
+  const col = up ? '#2f8a3e' : '#c0392b', end = xy[xy.length - 1];
+  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Price across ${pts.length} refreshes, ${first.date} to ${last.date}: ${igPct(chg)}">
+    <polyline points="${xy.map(q => q[0].toFixed(1) + ',' + q[1].toFixed(1)).join(' ')}" fill="none" stroke="${col}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="${end[0].toFixed(1)}" cy="${end[1].toFixed(1)}" r="4.5" fill="${col}" stroke="#fff" stroke-width="1.5"/>
+    <text x="${P}" y="${H - 2}" font-size="12">${first.date}</text>
+    <text x="${W - P}" y="${H - 2}" font-size="12" text-anchor="end">${last.date}</text></svg>
+    <div class="ig-range-cap" style="margin-top:4px;">${igRs(first.cmp)} → <b>${igRs(last.cmp)}</b> <span class="${up ? 'ig-up' : 'ig-down'}">${igPct(chg)}</span> since tracking began</div>`;
+}
+
+function igTiles(c) {
+  const cmp = igNum(c.cmp), bv = igNum(c.bv), pe = igNum(c.pe), roce = igNum(c.roce), roe = igNum(c.roe), dy = igNum(c.dy);
+  const rb = c.rr ? ' ' + c.rr : '';
+  const t = [
+    ['P/E', pe ? pe.toFixed(0) + 'x' : null, 'var(--blue)'],
+    ['ROCE' + rb, roce !== null ? roce + '%' : null, 'var(--green)'],
+    ['ROE' + rb, roe !== null ? roe + '%' : null, 'var(--yellow)'],
+    ['Price / book', (cmp && bv) ? (cmp / bv).toFixed(1) + 'x' : null, 'var(--pink)'],
+    ['Dividend yield', dy !== null ? dy + '%' : null, 'var(--purple)'],
+  ].filter(x => x[1]);
+  if (!t.length) return '<p class="ig-muted">No ratios on file.</p>';
+  return `<div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;">${t.map(x =>
+    `<div style="background:${x[2]};border:1.5px solid #2b2b2b;border-radius:12px 4px 12px 4px;padding:4px 8px;">
+      <div style="font-size:21px;font-weight:700;line-height:1.1;">${x[1]}</div><div style="font-size:12.5px;">${x[0]}</div></div>`).join('')}</div>
+    <div class="ig-src">${c.source || ''}</div>`;
+}
+
+function igSnapshot(s, c, hist) {
+  return `<div class="ig-board">
+    <div class="ig-box ig-c5" style="--hl:var(--yellow)"><div class="ig-h">The story in one line</div>
+      <p class="ig-thesis">${s.thesis}</p>${igConv(s.conviction)}</div>
+    <div class="ig-box ig-c4" style="--hl:var(--blue)"><div class="ig-h">Price path</div>${igSpark(hist)}${igRange(c)}</div>
+    <div class="ig-box ig-c3" style="--hl:var(--green)"><div class="ig-h">Vital signs</div>${igTiles(c)}</div>
+    ${igLenses(s.id)}
+  </div>`;
+}
+
+function igJourney(j) {
+  const stage = (k, cls) => `<div class="ig-stage ${cls}"><div class="ig-chip">${j[k].label}<small>${j[k].when || ''}</small></div>
+    <ul>${j[k].items.map(i => `<li>${i}</li>`).join('')}</ul></div>`;
+  return `<div class="ig-journey">${stage('then', 't')}<div class="ig-arrow" aria-hidden="true">➜</div>${stage('now', 'n')}<div class="ig-arrow" aria-hidden="true">➜</div>${stage('next', 'x')}</div>`;
+}
+
+function igChecks(list) {
+  const ic = { good: ['✓', 'g'], watch: ['!', 'w'], bad: ['✗', 'b'] };
+  return `<ul class="ig-checks">${list.map(x => `<li><span class="ig-ck ${ic[x.s][1]}">${ic[x.s][0]}</span><span>${x.t}</span></li>`).join('')}</ul>`;
+}
+
+// Vertical bars, all from zero on one axis.
+function igBars(b) {
+  const n = b.points.length, W = 300, H = 132, P = 6, top = 18, base = H - 32, step = (W - 2 * P) / n, bw = step * 0.6;
+  const mx = Math.max(...b.points.map(p => p.v));
+  const bars = b.points.map((p, i) => {
+    const h = (base - top) * p.v / mx, x = P + i * step + (step - bw) / 2, cx = x + bw / 2, last = i === n - 1;
+    return `<rect x="${x.toFixed(1)}" y="${(base - h).toFixed(1)}" width="${bw.toFixed(1)}" height="${h.toFixed(1)}" rx="3" fill="${last ? '#9cc3f0' : '#e3ecf7'}" stroke="#2b2b2b" stroke-width="1.5"/>
+      <text x="${cx.toFixed(1)}" y="${(base - h - 4).toFixed(1)}" text-anchor="middle" font-size="13" font-weight="${last ? 700 : 400}">${p.v}</text>
+      <text x="${cx.toFixed(1)}" y="${base + 14}" text-anchor="middle" font-size="12">${p.x}</text>
+      ${p.note ? `<text x="${cx.toFixed(1)}" y="${base + 27}" text-anchor="middle" font-size="11.5" fill="#6b6b6b">${p.note}</text>` : ''}`;
+  }).join('');
+  return `<div class="ig-sub">${b.label}</div>
+    <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${igSafeLabel(b.label)}: ${b.points.map(p => p.x + ' ' + p.v).join(', ')}">
+    <line x1="${P}" x2="${W - P}" y1="${base}" y2="${base}" stroke="#2b2b2b" stroke-width="1.5"/>${bars}</svg>
+    ${b.foot ? `<div class="ig-src">${b.foot}</div>` : ''}`;
+}
+
+function igCaps(cp) {
+  const col = (k, lab, cls) => `<div class="ig-capcol ${cls}"><div class="ig-capchip">${lab}</div>
+    <ul>${cp[k].map(x => `<li><span class="ig-ic">${x.i}</span><span>${x.t}</span></li>`).join('')}</ul></div>`;
+  return `<div class="ig-caps">${col('have', 'What it has', 'h')}${col('wip', 'Work in progress', 'w')}${col('away', 'Still some way off', 'a')}</div>`;
+}
+
+function igPeers(p) {
+  const panel = m => {
+    const W = 140, H = 128, base = 98, top = 18, n = m.vals.length, step = (W - 12) / n, bw = step * 0.66;
+    const mx = Math.max(...m.vals);
+    return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${m.label}: ${p.names.map((nm, i) => nm + ' ' + igFmt(m.vals[i])).join(', ')}">
+      <line x1="4" x2="${W - 4}" y1="${base}" y2="${base}" stroke="#2b2b2b" stroke-width="1.5"/>
+      ${m.vals.map((v, i) => {
+        const h = (base - top) * v / mx, x = 6 + i * step + (step - bw) / 2;
+        return `<rect x="${x.toFixed(1)}" y="${(base - h).toFixed(1)}" width="${bw.toFixed(1)}" height="${h.toFixed(1)}" fill="${p.colors[i]}" stroke="#2b2b2b" stroke-width="1.5"/>
+          <text x="${(x + bw / 2).toFixed(1)}" y="${(base - h - 4).toFixed(1)}" text-anchor="middle" font-size="14" font-weight="${i === 0 ? 700 : 400}">${igFmt(v)}</text>`;
+      }).join('')}
+      <text x="${W / 2}" y="${base + 20}" text-anchor="middle" font-size="14" font-weight="700">${m.label}</text></svg>`;
+  };
+  return `<div class="ig-legend">${p.names.map((nm, i) => `<span><i style="background:${p.colors[i]}"></i>${nm}</span>`).join('')}</div>
+    <div class="ig-peerpanels">${p.metrics.map(panel).join('')}</div>
+    ${p.note ? `<div class="ig-note">💡 ${p.note}</div>` : ''}
+    <div class="ig-src">${p.source}</div>`;
+}
+
+// A number line: 52-week range, today's price, the scenario values and the zone where the view changes.
+function igLadder(sc, c) {
+  const cmp = igNum(c.cmp), lo = igNum(c.lo), hi = igNum(c.hi);
+  if (!cmp) return '';
+  const vals = [cmp, lo, hi, ...sc.items.map(i => i.value), sc.zone ? sc.zone.lo : null, sc.zone ? sc.zone.hi : null].filter(v => v);
+  let mn = Math.min(...vals), mx = Math.max(...vals); const pad = (mx - mn) * 0.04; mn -= pad; mx += pad;
+  const W = 560, H = 132, L = 8, R = 8, y = 58, X = v => L + (W - L - R) * (v - mn) / (mx - mn);
+  const anchor = x => x < 70 ? 'start' : (x > W - 70 ? 'end' : 'middle');
+  const sCol = { Bear: '#c0392b', Base: '#c98a00', Bull: '#2f8a3e' };
+  let g = '';
+  if (sc.zone) {
+    const a = X(sc.zone.lo), b = X(sc.zone.hi), m = (a + b) / 2;
+    g += `<rect x="${a.toFixed(1)}" y="${y - 11}" width="${Math.max(3, b - a).toFixed(1)}" height="22" fill="#d5f0d3" stroke="#2f8a3e" stroke-dasharray="4 3"/>
+      <text x="${m.toFixed(1)}" y="${H - 4}" text-anchor="${anchor(m)}" font-size="13" fill="#2f8a3e">${sc.zone.label}: ${igRs(sc.zone.lo)}–${igRs(sc.zone.hi)}</text>`;
+  }
+  g += `<line x1="${L}" x2="${W - R}" y1="${y}" y2="${y}" stroke="#2b2b2b" stroke-width="2"/>`;
+  [[lo, '52w low'], [hi, '52w high']].forEach(([v, t]) => {
+    if (!v) return; const x = X(v);
+    g += `<line x1="${x.toFixed(1)}" x2="${x.toFixed(1)}" y1="${y - 7}" y2="${y + 7}" stroke="#6b6b6b" stroke-width="2"/>
+      <text x="${x.toFixed(1)}" y="${y - 16}" text-anchor="${anchor(x)}" font-size="12.5" fill="#6b6b6b">${t} ${igRs(v)}</text>`;
+  });
+  sc.items.forEach(it => {
+    const x = X(it.value);
+    g += `<circle cx="${x.toFixed(1)}" cy="${y}" r="6" fill="${sCol[it.name] || '#888'}" stroke="#2b2b2b" stroke-width="1.5"/>
+      <text x="${x.toFixed(1)}" y="${y + 24}" text-anchor="${anchor(x)}" font-size="13.5" font-weight="700" fill="${sCol[it.name] || '#888'}">${it.name}</text>
+      <text x="${x.toFixed(1)}" y="${y + 39}" text-anchor="${anchor(x)}" font-size="13">~${igRs(it.value)}</text>`;
+  });
+  const cx = X(cmp);
+  g += `<path d="M${cx.toFixed(1)},${y - 4} l-7,-13 h14 z" fill="#1F4E79" stroke="#2b2b2b" stroke-width="1"/>
+    <text x="${cx.toFixed(1)}" y="${y - 34}" text-anchor="${anchor(cx)}" font-size="15" font-weight="700" fill="#1F4E79">Today ${igRs(cmp)}</text>`;
+  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Price ${igRs(cmp)} against the 52-week range and scenario values">${g}</svg>`;
+}
+
+// Diverging bars: each scenario's return from today's price, plus the probability-weighted total.
+function igReturns(sc, c) {
+  const cmp = igNum(c.cmp);
+  if (!cmp) return '';
+  const rows = sc.items.map(i => ({ ...i, r: (i.value / cmp - 1) * 100 }));
+  const w = rows.reduce((a, i) => a + i.p / 100 * i.r, 0);
+  const mxA = Math.max(...rows.map(r => Math.abs(r.r)), Math.abs(w)) || 1;
+  const row = (lab, r, cls) => {
+    const wd = Math.abs(r) / mxA * 46, neg = r < 0;
+    const bar = `<div class="ig-ret-bar ${neg ? 'neg' : 'pos'}" style="${neg ? 'right' : 'left'}:50%;width:${wd.toFixed(1)}%"></div>`;
+    const val = `<div class="ig-ret-val" style="${neg ? 'right' : 'left'}:calc(50% + ${wd.toFixed(1)}% + 4px)">${igPct(r)}</div>`;
+    return `<div class="ig-ret ${cls || ''}"><div>${lab}</div><div class="ig-ret-track">${bar}${val}</div></div>`;
+  };
+  return `<div class="ig-returns"><div class="ig-ret-head">If bought at today's ${igRs(cmp)}, over 2 years:</div>
+    ${rows.map(r => row(`${r.name} <span class="ig-muted">(${r.p}%)</span>`, r.r)).join('')}
+    ${row('Weighted', w, 'w')}
+    <div class="ig-src">${sc.note} Values re-derived ${sc.asOf}; returns recomputed against the card's latest CMP (${c.date}).</div></div>`;
+}
+
+function igTake(t, c) {
+  return `<ol class="ig-take" style="margin:0;padding:0;list-style:none;">${t.points.map((p, i) =>
+    `<li><span class="ig-n n${i % 4}">${i + 1}</span><span>${igFill(p, c)}</span></li>`).join('')}</ol>
+    ${t.watch ? `<div class="ig-watch"><b>${t.watchLabel || 'What would change the view'}</b><ul>${t.watch.map(w => `<li>${w}</li>`).join('')}</ul></div>` : ''}
+    <div class="ig-verdict">${igFill(t.verdict, c)}</div>`;
+}
+
+// ---------- Through their eyes: Fisher, Lynch, Weinstein ----------
+// Copied from the three framework pages via framework-views.json (tools/frameworks/views_json.py,
+// regenerated by deploy.py on every framework refresh). Nothing here is re-scored.
+let FRAMEWORK_VIEWS = null;
+const IG_FW_BASE = '';
+const IG_W_STAGE = {
+  S1: ['Base', 'MA flat after a decline. Wait — the breakout is the trigger.'],
+  S2: ['Advance', 'Above a rising MA. The only stage you may buy in — and only early in it.'],
+  S3: ['Top', 'MA flattening, price churning through it. Never buy here.'],
+  S4: ['Decline', 'Below a falling MA. Never buy, never hold.'],
+  TRANS: ['Between stages', 'Price and the 30-week MA disagree — a pullback below a rising average, or price above a falling one. Never a buy.'],
+};
+const IG_W_VERDICT = {
+  'WATCH': 'Everything a buy needs except an open market gate — or one named blocker.',
+  'WATCH-base': 'Everything a buy needs except an open market gate — or one named blocker.',
+  'HOLD-ONLY': 'Trend intact but the low-risk entry has gone.',
+};
+const IG_STAMP = { SURVIVOR: 'g', 'NEAR-MISS': 'a', EXCLUDED: 'r', WATCH: 'a', ABSTAIN: 'n',
+  BUY: 'g', 'WATCH-base': 'a', 'HOLD-ONLY': 'n', AVOID: 'r', EXIT: 'r' };
+function igDate(iso) {
+  const m = String(iso || '').match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if (!m) return iso || '';
+  return `${+m[3]}-${'JanFebMarAprMayJunJulAugSepOctNovDec'.substr((+m[2] - 1) * 3, 3)}-${m[1]}`;
+}
+function igStamp(v) { return `<span class="ig-stamp ${IG_STAMP[v] || 'n'}">${v}</span>`; }
+function igUpd(u, page) {
+  return u ? `<div class="ig-lens-upd">Reason as first scored; updated ${u.n}× since${u.last ? ` (last ${u.last})` : ''}. See ${page}.</div>` : '';
+}
+function igLensFisher(f) {
+  if (!f) return '<p class="ig-muted">Not yet run through Fisher’s screen.</p>';
+  const where = f.v === 'SURVIVOR' ? `Passed every step · ${f.rule}` : `Stopped at: ${f.at}${f.rule ? ' · ' + f.rule : ''}`;
+  return `${igStamp(f.v)}<div class="ig-lens-at">${where}</div><div class="ig-lens-why">“${f.why}”</div>${igUpd(f.upd, 'Fisher’s page')}`;
+}
+function igLensLynch(l) {
+  if (!l) return '<p class="ig-muted">Not yet run through Lynch’s screen.</p>';
+  return `<span class="ig-lens-cat">${l.cat}</span> ${igStamp(l.v)}
+    ${l.at ? `<div class="ig-lens-at">Stopped at: ${l.at}</div>` : ''}
+    <div class="ig-lens-why">“${l.why}”</div>${igUpd(l.upd, 'Lynch’s page')}`;
+}
+function igLensWeinstein(id, w, market) {
+  if (!w) return '<p class="ig-muted">Not in the Weinstein run.</p>';
+  const st = IG_W_STAGE[w.stage] || [w.stage, ''];
+  const sub = w.sub === 'S2-early' ? ' · early' : (w.sub === 'S2-late' ? ' · late' : '');
+  const ladder = ['S1', 'S2', 'S3', 'S4'].map((k, i) =>
+    `<span class="ig-wst s${i + 1} ${w.stage === k ? 'cur' : ''}">${i + 1} ${IG_W_STAGE[k][0]}${w.stage === k ? sub : ''}</span>`).join('');
+  const vnote = w.v === 'BUY' ? (w.entry ? `Entry plan near ${igRs(w.entry)}.` : 'Entry conditions met.') : (IG_W_VERDICT[w.v] || '');
+  let stop = '';
+  if (w.stop && w.close) stop = w.risk < 0
+    ? `Closed <b>below</b> its sell-stop ${igRs(w.stop)}.`
+    : `Sell-stop ${igRs(w.stop)}, ${Math.abs(w.risk).toFixed(0)}% under the price.`;
+  const mk = market && IG_W_STAGE[market.stage] ? `Market (Nifty): Stage ${market.stage.replace('S', '')} · ${IG_W_STAGE[market.stage][0]}.` : '';
+  const chart = w.chart ? `<a class="ig-wchart" href="${IG_FW_BASE}weinstein/charts/${id}.jpg" target="_blank" rel="noopener" title="Open the full stage chart">
+      <img loading="lazy" src="${IG_FW_BASE}weinstein/charts/${id}.jpg" alt="Weinstein stage chart: weekly close, 30-week MA, volume and relative strength"></a>` : '';
+  return `<div class="ig-wladder" role="img" aria-label="Stage: ${st[0]}${sub}">${w.stage === 'TRANS' ? '<span class="ig-wst trans cur">Between stages</span>' : ladder}</div>
+    <div class="ig-wbody"><div>${igStamp(w.v)} <span class="ig-lens-at" style="display:inline">${vnote}</span>
+      <div class="ig-lens-why">${st[1]}</div>
+      <div class="ig-lens-at">Price ${igRs(w.close)} · 30-week MA ${igRs(w.ma)}. ${stop}</div>
+      <div class="ig-lens-upd">${mk}</div></div>${chart}</div>`;
+}
+function igLensesInner(id) {
+  const d = FRAMEWORK_VIEWS;
+  if (!d) return `<div class="ig-h">Through their eyes</div><p class="ig-muted">Loading the Fisher, Lynch and Weinstein readings…</p>`;
+  const s = d.stocks[id] || {}, a = d.asof || {};
+  const wAsof = s.w && s.w.asof ? igDate(s.w.asof) + ' close' : igDate(a.weinstein);
+  return `<div class="ig-h">Through their eyes</div>
+    <span class="ig-lens-note">Each framework’s own verdict, copied from its page. Independent of our conviction.</span>
+    <div class="ig-lenses-grid">
+      <div class="ig-lens"><a class="ig-lens-h" href="${IG_FW_BASE}fisher/index.html" target="_blank" rel="noopener">Fisher’s Eye →</a>
+        <div class="ig-lens-q">Is this a business to own for decades?</div>${igLensFisher(s.f)}</div>
+      <div class="ig-lens"><a class="ig-lens-h" href="${IG_FW_BASE}lynch/index.html" target="_blank" rel="noopener">Lynch’s Eye →</a>
+        <div class="ig-lens-q">What kind of stock is it, and is the price right?</div>${igLensLynch(s.l)}</div>
+      <div class="ig-lens"><a class="ig-lens-h" href="${IG_FW_BASE}weinstein/index.html" target="_blank" rel="noopener">Weinstein’s Eye →</a>
+        <div class="ig-lens-q">Where is it in its price cycle?</div>${igLensWeinstein(id, s.w, d.market)}</div>
+    </div>
+    <div class="ig-src">Fisher ${a.fisher || '—'} · Lynch ${a.lynch || '—'} · Weinstein ${wAsof}.</div>`;
+}
+function igLenses(id) { return `<div class="ig-box ig-c12 ig-lenses" data-id="${id}" style="--hl:var(--purple)">${igLensesInner(id)}</div>`; }
+fetch('framework-views.json?ts=' + Date.now())
+  .then(r => r.ok ? r.json() : null)
+  .then(d => {
+    if (!d) return;
+    FRAMEWORK_VIEWS = d;
+    document.querySelectorAll('.ig-lenses[data-id]').forEach(el => { el.innerHTML = igLensesInner(el.dataset.id); });
+  })
+  .catch(() => {});
+
+function renderInfographic(s, c, hist) {
+  const g = (typeof INFOGRAPHIC !== 'undefined') ? INFOGRAPHIC[s.id] : null;
+  if (!g) return igSnapshot(s, c, hist);
+  return `<div class="ig-board">
+    <div class="ig-box ig-c4"><div class="ig-title">${g.title}</div><div class="ig-hook">${g.hook}</div>
+      <div class="ig-hook2">${g.sub}</div>${igConv(s.conviction)}${igRange(c)}</div>
+    <div class="ig-box ig-c8" style="--hl:var(--yellow)"><div class="ig-h">The journey</div>${igJourney(g.journey)}</div>
+    <div class="ig-box ig-c4" style="--hl:var(--green)"><div class="ig-h">${g.quarter.title}</div>${igChecks(g.quarter.checks)}${igBars(g.quarter.bars)}</div>
+    <div class="ig-box ig-c8" style="--hl:var(--orange)"><div class="ig-h">Capability map</div>${igCaps(g.caps)}</div>
+    <div class="ig-box ig-c3" style="--hl:var(--pink)"><div class="ig-h">Peers &amp; valuation</div>${igPeers(g.peers)}</div>
+    <div class="ig-box ig-c5" style="--hl:var(--blue)"><div class="ig-h">Where the price sits</div>${igLadder(g.scenarios, c)}${igReturns(g.scenarios, c)}</div>
+    <div class="ig-box ig-c4" style="--hl:var(--purple)"><div class="ig-h">The take</div>${igTake(g.take, c)}</div>
+    ${igLenses(s.id)}
+    <div class="ig-foot ig-c12">Sources: ${g.sources} Drawn ${g.asOf}.</div>
+  </div>`;
+}
+/* INFOGRAPHIC-JS END */
+
 function renderCards(filteredStocks) {
   const html = filteredStocks.map(s => {
     const c = getCmp(s.id);
@@ -3734,7 +4396,8 @@ function renderCards(filteredStocks) {
     }
     return `
     <article class="stock-card" id="${s.id}">
-      <div class="stock-card-header">
+      <details class="card-details"${OPEN_CARDS.has(s.id) ? ' open' : ''}>
+      <summary class="stock-card-header">
         <div class="name-block">
           <h2>${s.num}. ${s.name}</h2>
           <div class="tagline">${s.tagline}</div>
@@ -3749,9 +4412,9 @@ function renderCards(filteredStocks) {
           </div>
           ${getListingTag(s.listing)}
           ${getConvictionTag(s.conviction)}
-          <button class="hide-btn" onclick="hideStock('${s.id}')" title="Hide ${s.name} from this browser's view">🙈 Hide</button>
+          <button class="hide-btn" onclick="event.preventDefault();event.stopPropagation();hideStock('${s.id}')" title="Hide ${s.name} from this browser's view">🙈 Hide</button>
         </div>
-      </div>
+      </summary>
       <div class="stock-card-body">
         ${(() => {
           const p = getProfile(s.id);
@@ -3770,6 +4433,8 @@ function renderCards(filteredStocks) {
             <span class="meta">Framework-driven profile coming soon</span>
           </div>`;
         })()}
+        ${renderInfographic(s, c, hist)}
+        <details class="ig-full"><summary>📄 Full written analysis <span>· metrics, business, thesis, risks, factor check, catalysts, valuation, price history, changes log</span></summary>
         <div class="metrics-grid">
           ${s.metrics.map(m => `
             <div class="metric">
@@ -3808,12 +4473,117 @@ function renderCards(filteredStocks) {
         ` : ""}
         <div class="changes-log">
           <h3>📋 Changes Since Baseline</h3>
-          ${s.changes.map(ch => `<div class="change-entry"><span class="date">${ch.date}</span><div class="body">${ch.body}</div></div>`).join('')}
+          ${renderChanges(s.changes)}
         </div>
+        </details>
       </div>
+      </details>
     </article>`;
   }).join('');
   document.getElementById('cards-container').innerHTML = html;
+}
+
+// ---------- Table values (design pass) ----------
+function attrText(v) {
+  return String(v == null ? '' : v).replace(/<[^>]+>/g, '')
+    .replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+// Screener values are strings and some are placeholders ("—", "%", "₹"): those become null.
+function numVal(v) {
+  if (v === null || v === undefined) return null;
+  const n = parseFloat(String(v).replace(/[₹,%\s]/g, ''));
+  return Number.isFinite(n) ? n : null;
+}
+function fmtRatio(v, suffix) { return numVal(v) === null ? '—' : `${v}${suffix}`; }
+function offHighPct(c) {
+  const p = numVal(c.cmp), h = numVal(c.hi);
+  return p !== null && h ? (p / h - 1) * 100 : null;
+}
+function fmtOffHigh(c) {
+  const d = offHighPct(c);
+  if (d === null) return '—';
+  const r = Math.round(d);
+  return r === 0 ? '0%' : `${r > 0 ? '+' : ''}${r}%`;
+}
+let LATEST_CMP_TIME = null;
+function isOldCmp(c) {
+  if (LATEST_CMP_TIME === null) {
+    LATEST_CMP_TIME = Math.max(0, ...Object.values(CMP_DATA).map(x => {
+      const d = parseAnyDate(x.date); return d ? d.getTime() : 0;
+    }));
+  }
+  const d = parseAnyDate(c.date);
+  return !d || d.getTime() < LATEST_CMP_TIME;
+}
+// The MoS column repeats the opening word of the stock's own note. Openings that do
+// not reduce to one word stay "See note" rather than being assigned a rating.
+const MOS_LEVELS = [
+  ['Strong', /^strong\b/], ['Real', /^real\b/], ['Decent', /^decent\b/],
+  ['Reasonable', /^reasonable\b/], ['Moderate', /^moderate\b/], ['Modest', /^modest\b/],
+  ['Thin', /^(very )?thin|^mos thin\b/],
+  ['None', /^(none\b|no (mos|margin)\b|effectively no\b)/],
+  ['Negative', /^negative\b/],
+];
+function mosLevel(mos) {
+  const t = String(mos).replace(/<[^>]+>/g, '').replace(/^[^\p{L}\d]+/u, '').toLowerCase();
+  const i = MOS_LEVELS.findIndex(([, re]) => re.test(t));
+  return i < 0 ? null : i;
+}
+function mosCell(mos) {
+  const i = mosLevel(mos);
+  return i === null ? '<span class="mos-unsorted">See note</span>' : MOS_LEVELS[i][0];
+}
+const CONVICTION_RANK = { 'high': 1, 'med-high': 2, 'med': 3, 'med-low': 4, 'spec': 5 };
+const HIGH_FIRST = new Set(['mcap', 'roce', 'roe']);
+function sortValue(s, key) {
+  const c = getCmp(s.id);
+  switch (key) {
+    case 'explainer': return getExplainer(s.id) ? 0 : 1;
+    case 'conviction': return CONVICTION_RANK[s.conviction] || null;
+    case 'pe': case 'roce': case 'roe': return numVal(c[key]);
+    case 'offhigh': return offHighPct(c);
+    case 'mos': return mosLevel(s.mos);
+    default: { const v = s[key]; return typeof v === 'string' ? v.toLowerCase() : v; }
+  }
+}
+function updateSortIndicators() {
+  document.querySelectorAll('#summary-table th[data-sort]').forEach(th => {
+    if (th.dataset.sort === sortKey) th.setAttribute('aria-sort', sortDir > 0 ? 'ascending' : 'descending');
+    else th.removeAttribute('aria-sort');
+  });
+}
+
+// ---------- Collapsed cards (design pass) ----------
+// In-memory on purpose: every sort or filter re-renders the cards, and open ones stay open.
+const OPEN_CARDS = new Set();
+function changesNewestFirst(changes) {
+  const t = c => { const d = parseAnyDate(c.date); return d ? d.getTime() : 0; };
+  return [...changes].sort((a, b) => t(b) - t(a));
+}
+function changeEntry(ch) {
+  return `<div class="change-entry"><span class="date">${ch.date}</span><div class="body">${ch.body}</div></div>`;
+}
+function renderChanges(changes) {
+  const all = changesNewestFirst(changes);
+  const earlier = all.slice(3);
+  return all.slice(0, 3).map(changeEntry).join('') + (earlier.length ? `
+    <details class="earlier-changes"><summary>Show ${earlier.length} earlier change${earlier.length > 1 ? 's' : ''}</summary>${earlier.map(changeEntry).join('')}</details>` : '');
+}
+function syncExpandButton() {
+  const cards = [...document.querySelectorAll('.card-details')];
+  document.getElementById('expand-all').textContent =
+    cards.length && cards.every(d => d.open) ? 'Collapse all' : 'Expand all';
+}
+function toggleAllCards() {
+  const cards = [...document.querySelectorAll('.card-details')];
+  const openThem = cards.some(d => !d.open);
+  cards.forEach(d => { d.open = openThem; });
+}
+function openCard(id) {
+  const article = document.getElementById(id);
+  const d = article && article.querySelector('.card-details');
+  if (d) d.open = true;
+  return article;
 }
 
 let sortKey = 'num', sortDir = 1;
@@ -3832,10 +4602,10 @@ function applyFilter() {
   });
   // sort
   filtered.sort((a, b) => {
-    let av, bv;
-    if (sortKey === 'explainer') { av = getExplainer(a.id) ? 0 : 1; bv = getExplainer(b.id) ? 0 : 1; }
-    else { av = a[sortKey]; bv = b[sortKey]; }
-    if (typeof av === 'string') { av = av.toLowerCase(); bv = bv.toLowerCase(); }
+    const av = sortValue(a, sortKey), bv = sortValue(b, sortKey);
+    // Missing values stay at the bottom in both directions.
+    if (av === null || av === undefined) return (bv === null || bv === undefined) ? 0 : 1;
+    if (bv === null || bv === undefined) return -1;
     if (av < bv) return -1 * sortDir;
     if (av > bv) return 1 * sortDir;
     return 0;
@@ -3851,6 +4621,8 @@ function applyFilter() {
   buildCharts(filtered);
   renderHiddenUI();
   renderExplainerChip();
+  updateSortIndicators();
+  syncExpandButton();
 }
 
 function resetFilters() {
@@ -3873,10 +4645,33 @@ document.querySelectorAll('#summary-table th[data-sort]').forEach(th => {
   th.addEventListener('click', () => {
     const k = th.dataset.sort;
     if (sortKey === k) sortDir *= -1;
-    else { sortKey = k; sortDir = 1; }
+    else { sortKey = k; sortDir = HIGH_FIRST.has(k) ? -1 : 1; }
     applyFilter();
   });
 });
+
+document.getElementById('cards-container').addEventListener('toggle', e => {
+  if (!e.target.classList.contains('card-details')) return;
+  const id = e.target.closest('.stock-card').id;
+  if (e.target.open) OPEN_CARDS.add(id); else OPEN_CARDS.delete(id);
+  syncExpandButton();
+}, true);
+
+document.getElementById('summary-tbody').addEventListener('click', e => {
+  const link = e.target.closest('a.stock-link');
+  if (link) { openCard(link.getAttribute('href').slice(1)); return; }
+  if (e.target.closest('a')) return;
+  const cell = e.target.closest('.thesis-cell');
+  if (cell) cell.classList.toggle('expanded');
+});
+
+function openCardFromHash() {
+  const id = decodeURIComponent(location.hash.slice(1));
+  if (!id) return;
+  const article = openCard(id);
+  if (article) article.scrollIntoView();
+}
+window.addEventListener('hashchange', openCardFromHash);
 
 // ---------- Dynamic header (added 3-Aug-2026) ----------
 // Stock count, sector count and Last Refreshed are all DERIVED from the data below,
@@ -3935,6 +4730,7 @@ window.addEventListener('scroll', () => {
 
 renderHeader();
 applyFilter();
+openCardFromHash();
 </script>
 </body>
 </html>

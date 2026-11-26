@@ -1,0 +1,1954 @@
+{
+ "asof": {
+  "fisher": "23-Nov-2026 (close)",
+  "lynch": "23-Nov-2026 (close)",
+  "weinstein": "2026-11-25"
+ },
+ "market": {
+  "stage": "S1",
+  "sub": null
+ },
+ "stocks": {
+  "63moons": {
+   "w": {
+    "stage": "S2",
+    "sub": "S2-early",
+    "v": "WATCH",
+    "close": 912.6,
+    "ma": 789.92,
+    "stop": 756.2,
+    "risk": 17.1,
+    "entry": 912.6,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "accent": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Operations (D1)",
+    "rule": "D1.3 + D1.7",
+    "why": "Debtor +70%, WC days +132%.",
+    "upd": null
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Fast grower",
+    "at": "Category test",
+    "why": "Growing 54.5% — \"those 50 percenters usually are found in hot industries\".",
+    "upd": null
+   },
+   "w": {
+    "stage": "TRANS",
+    "sub": null,
+    "v": "HOLD-ONLY",
+    "close": 557.6,
+    "ma": 560.27,
+    "stop": 557.2,
+    "risk": 0.1,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "aimtron": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Business (D3)",
+    "rule": "D3.1 + D3.2",
+    "why": "Every claim describes the EMS category, not the company. 'Mainboard eligibility' is not a moat.",
+    "upd": null
+   },
+   "l": {
+    "v": "ABSTAIN",
+    "cat": "Fast grower",
+    "at": null,
+    "why": "Insufficient published history (3 years) — recorded as my failure to establish the facts, not as a defect of the company.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S2",
+    "sub": "S2-early",
+    "v": "WATCH",
+    "close": 1759.9,
+    "ma": 1531.52,
+    "stop": 1492.5,
+    "risk": 15.2,
+    "entry": 1759.9,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "amic": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "a veto gate",
+    "rule": "G4",
+    "why": "No concall record; FY26 arithmetic error survived a BSE-mandated re-filing.",
+    "upd": {
+     "n": 1,
+     "last": "19-Sep"
+    }
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Fast grower",
+    "at": "Category test",
+    "why": "Growing 94.7% — far past the 25% ceiling.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S2",
+    "sub": "S2-early",
+    "v": "BUY",
+    "close": 2187.5,
+    "ma": 1982.98,
+    "stop": 1940.25,
+    "risk": 11.3,
+    "entry": 2187.5,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "anthem": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Price (D4)",
+    "rule": "Rung 5",
+    "why": "88x earnings for an operationally top-three business (30% ROCE, no debt, no pledge; top-3 customers 56.7%). Far above merit. First covered in this refresh.",
+    "upd": null
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Fast grower",
+    "at": "Price",
+    "why": "Price gate — (growth + yield) / P/E below 1.0.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S2",
+    "sub": "S2-early",
+    "v": "WATCH",
+    "close": 957.35,
+    "ma": 841.29,
+    "stop": 796.0,
+    "risk": 16.9,
+    "entry": 957.35,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "anupam": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Operations (D1)",
+    "rule": "D1.3 + D1.7 + D1.4",
+    "why": "FCF −₹1,304cr; debtor +56%; margin fell 28%→22% as the platform grew.",
+    "upd": {
+     "n": 1,
+     "last": "6-Oct-2026"
+    }
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Fast grower",
+    "at": "Debt structure",
+    "why": "Debt structure — 72% of borrowings repayable on demand.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S3",
+    "sub": null,
+    "v": "AVOID",
+    "close": 1313.6,
+    "ma": 1247.82,
+    "stop": 1094.5,
+    "risk": 16.7,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "astec": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "a veto gate",
+    "rule": "G4",
+    "why": "Silent 46 months. Operating profit went +₹77cr → −₹6cr → −₹66cr across the blackout.",
+    "upd": {
+     "n": 1,
+     "last": "19-Sep"
+    }
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Turnaround",
+    "at": "Debt structure",
+    "why": "Debt structure — 89% of borrowings repayable on demand.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S1",
+    "sub": null,
+    "v": "WATCH-base",
+    "close": 533.5,
+    "ma": 668.46,
+    "stop": 537.3,
+    "risk": -0.7,
+    "entry": 799.5,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "atlantaele": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Price (D4)",
+    "rule": "Rung 5",
+    "why": "67.7x earnings and 15.9x book against Shilchar at 33.3x on a HIGHER 50.7% ROCE — roughly twice a direct peer's multiple on lower returns…",
+    "upd": null
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Fast grower",
+    "at": "Category test",
+    "why": "Growing 95.9% — far past the 25% ceiling.",
+    "upd": null
+   },
+   "w": {
+    "stage": "TRANS",
+    "sub": null,
+    "v": "HOLD-ONLY",
+    "close": 1435.1,
+    "ma": 1697.24,
+    "stop": 1393.0,
+    "risk": 2.9,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "aurion": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "a veto gate",
+    "rule": "G3",
+    "why": "SEBI PIT show-cause notice, 29-May-2026.",
+    "upd": null
+   },
+   "l": {
+    "v": "ABSTAIN",
+    "cat": "Fast grower",
+    "at": null,
+    "why": "Insufficient published history post-recovery — recorded as my failure to establish the facts, not as a defect of the company.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S4",
+    "sub": null,
+    "v": "EXIT",
+    "close": 555.4,
+    "ma": 717.92,
+    "stop": 537.3,
+    "risk": 3.3,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "avalon": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Operations (D1)",
+    "rule": "D1.3 + D1.7 + D1.4",
+    "why": "WC days 18→102; gross margin falling.",
+    "upd": {
+     "n": 1,
+     "last": "6-Oct-2026"
+    }
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Fast grower",
+    "at": "Debt structure",
+    "why": "Debt structure — 94% of borrowings repayable on demand.",
+    "upd": null
+   },
+   "w": {
+    "stage": "TRANS",
+    "sub": null,
+    "v": "HOLD-ONLY",
+    "close": 1674.5,
+    "ma": 1894.93,
+    "stop": 1840.75,
+    "risk": -9.9,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "axiscades": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Business (D3)",
+    "rule": "D3.1",
+    "why": "A conversion mechanic is a claim about the future. 10yr sales CAGR 4%, 3yr −14%.",
+    "upd": {
+     "n": 1,
+     "last": "23-Nov-2026"
+    }
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Turnaround",
+    "at": "Debt structure",
+    "why": "Debt structure — 73% of borrowings repayable on demand.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S2",
+    "sub": "S2-early",
+    "v": "BUY",
+    "close": 1866.2,
+    "ma": 1825.54,
+    "stop": 1691.5,
+    "risk": 9.4,
+    "entry": 1866.2,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "azad": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Operations (D1)",
+    "rule": "D1.3 + D1.7",
+    "why": "3yr FCF −₹1,009cr on 7% CFO/OP; WC days 120→304.",
+    "upd": {
+     "n": 1,
+     "last": "23-Nov-2026"
+    }
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Fast grower",
+    "at": "Category test",
+    "why": "Growing 62.0% — far past the 25% ceiling.",
+    "upd": null
+   },
+   "w": {
+    "stage": "TRANS",
+    "sub": null,
+    "v": "HOLD-ONLY",
+    "close": 2289.7,
+    "ma": 2456.57,
+    "stop": 2388.0,
+    "risk": -4.3,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "care": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "a veto gate",
+    "rule": "G3",
+    "why": "SEBI administrative warning + inspection + court injunction; three material filings unmentioned at its single annual forum.",
+    "upd": {
+     "n": 1,
+     "last": null
+    }
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Stalwart",
+    "at": "Price",
+    "why": "Price gate — (growth + yield) / P/E below 1.0.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S3",
+    "sub": null,
+    "v": "AVOID",
+    "close": 1561.3,
+    "ma": 1651.87,
+    "stop": 1492.5,
+    "risk": 4.4,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "carysil": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Operations (D1)",
+    "rule": "D1.3 + D1.7",
+    "why": "WC days +111%.",
+    "upd": null
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Fast grower",
+    "at": "Price",
+    "why": "Price gate — (growth + yield) / P/E below 1.0.",
+    "upd": null
+   },
+   "w": {
+    "stage": "TRANS",
+    "sub": null,
+    "v": "HOLD-ONLY",
+    "close": 916.4,
+    "ma": 1080.33,
+    "stop": 945.25,
+    "risk": -3.1,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "cff": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "a veto gate",
+    "rule": "G4",
+    "why": "Zero transcripts ever filed; SME-era documents only.",
+    "upd": null
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Fast grower",
+    "at": "Category test",
+    "why": "Growing 175% — far past the 25% ceiling, on essentially one customer.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S2",
+    "sub": "S2-early",
+    "v": "BUY",
+    "close": 977.9,
+    "ma": 935.33,
+    "stop": 895.5,
+    "risk": 8.4,
+    "entry": 977.9,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "concordbio": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Price (D4)",
+    "rule": "D1.7 + Rung 3",
+    "why": "Debtor +36%, WC +51%; 55.8x.",
+    "upd": null
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Slow grower",
+    "at": "Category test",
+    "why": "Slow grower: 2.0% five-year earnings growth, priced at 55x.",
+    "upd": null
+   },
+   "w": {
+    "stage": "TRANS",
+    "sub": null,
+    "v": "HOLD-ONLY",
+    "close": 547.0,
+    "ma": 652.7,
+    "stop": 587.05,
+    "risk": -7.3,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "concordcs": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Operations (D1)",
+    "rule": "D1.3 + D1.7",
+    "why": "CFO/OP −2%; debtor days 67→210 (+213%).",
+    "upd": null
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Fast grower",
+    "at": "Debt structure",
+    "why": "Debt structure — 75% of borrowings repayable on demand.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S2",
+    "sub": "S2-early",
+    "v": "WATCH",
+    "close": 2649.1,
+    "ma": 2552.64,
+    "stop": 2089.5,
+    "risk": 21.1,
+    "entry": 2649.1,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "datamatics": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Business (D3)",
+    "rule": "D3.1",
+    "why": "Proprietary products that have not shown up in the growth rate.",
+    "upd": null
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Stalwart",
+    "at": "Category test",
+    "why": "Stalwart whose growth stalled — 1.8% over three years vs 13.4% over ten.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S1",
+    "sub": null,
+    "v": "WATCH-base",
+    "close": 656.9,
+    "ma": 783.34,
+    "stop": 696.5,
+    "risk": -6.0,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "dcmshriram": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Business (D3)",
+    "rule": "D3.1",
+    "why": "'The businesses do not reinforce each other' is a negative answer by construction.",
+    "upd": null
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Cyclical",
+    "at": "Price",
+    "why": "Price gate — (growth + yield) / P/E below 1.0.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S4",
+    "sub": null,
+    "v": "EXIT",
+    "close": 870.7,
+    "ma": 1007.29,
+    "stop": 845.75,
+    "risk": 2.9,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "dee": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "People (D2)",
+    "rule": "D1.3 + D2.4",
+    "why": "FCF −₹478cr; Q1 margin 16.9% against a '>19%, without any doubt' commitment.",
+    "upd": {
+     "n": 2,
+     "last": "23-Nov-2026"
+    }
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Fast grower",
+    "at": "Debt structure",
+    "why": "Debt structure — 81% of borrowings repayable on demand.",
+    "upd": null
+   },
+   "w": {
+    "stage": "TRANS",
+    "sub": null,
+    "v": "HOLD-ONLY",
+    "close": 513.85,
+    "ma": 611.21,
+    "stop": 497.5,
+    "risk": 3.2,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "deep": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Operations (D1)",
+    "rule": "D1.6 + D2.4",
+    "why": "Two consecutive Q4 write-offs — ₹208cr (FY25) then ₹183cr (Q4FY26) — the second after management's explicit \"nothing else left\" assurance. That broken assurance is the D2.4 failure; the surprise itself is D1.6.",
+    "upd": {
+     "n": 1,
+     "last": "8-Sep"
+    }
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Cyclical",
+    "at": "Category test",
+    "why": "Cyclical at peak earnings on 12.6x — the exact trap Lynch names.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S2",
+    "sub": "S2-early",
+    "v": "BUY",
+    "close": 635.4,
+    "ma": 607.62,
+    "stop": 597.0,
+    "risk": 6.0,
+    "entry": 635.4,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "diacabs": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "a veto gate",
+    "rule": "G3",
+    "why": "MPS non-compliance + audit qualification in window. Contestable — all cured 2026. Also 1 transcript.",
+    "upd": {
+     "n": 1,
+     "last": "19-Sep"
+    }
+   },
+   "l": {
+    "v": "ABSTAIN",
+    "cat": "Fast grower",
+    "at": null,
+    "why": "Post-insolvency restart — no comparable record to test — recorded as my failure to establish the facts, not as a defect of the company.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S2",
+    "sub": "S2-late",
+    "v": "HOLD-ONLY",
+    "close": 364.05,
+    "ma": 297.74,
+    "stop": 288.55,
+    "risk": 20.7,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "dycl": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Business (D3)",
+    "rule": "D3.1",
+    "why": "'No brand, no pricing power.' Management's own '80-10-10' is a commodity converter.",
+    "upd": {
+     "n": 1,
+     "last": "19-Sep"
+    }
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Cyclical",
+    "at": "Category test",
+    "why": "Cyclical at peak earnings — PEG 2.17 is measuring the peak.",
+    "upd": null
+   },
+   "w": {
+    "stage": "TRANS",
+    "sub": null,
+    "v": "HOLD-ONLY",
+    "close": 338.05,
+    "ma": 388.4,
+    "stop": 308.45,
+    "risk": 8.8,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "dynamatic": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "a veto gate",
+    "rule": "G4",
+    "why": "Silent 31 months — 23 calls listed, 3 transcripts.",
+    "upd": {
+     "n": 2,
+     "last": "10-Nov-2026"
+    }
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Cyclical",
+    "at": "Debt structure",
+    "why": "Debt structure — 50.2% of borrowings repayable on demand.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S2",
+    "sub": "S2-early",
+    "v": "BUY",
+    "close": 13294.0,
+    "ma": 11732.07,
+    "stop": 11542.0,
+    "risk": 13.2,
+    "entry": 13294.0,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "ecl": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Business (D3)",
+    "rule": "D3.1",
+    "why": "'Largest independent' is scale without profitability leadership. OP ₹1,204cr → ₹289cr.",
+    "upd": null
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Cyclical",
+    "at": "Debt structure",
+    "why": "Debt structure — 83% of borrowings repayable on demand.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S4",
+    "sub": null,
+    "v": "EXIT",
+    "close": 64.44,
+    "ma": 74.6,
+    "stop": 59.7,
+    "risk": 7.4,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "eil": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Business (D3)",
+    "rule": "D3.9",
+    "why": "Order intake stalled, order book shrinking, revenue going backwards.",
+    "upd": null
+   },
+   "l": {
+    "v": "WATCH",
+    "cat": "Stalwart",
+    "at": null,
+    "why": "Good business, fair price — not the bargain Lynch requires.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S2",
+    "sub": "S2-early",
+    "v": "WATCH",
+    "close": 298.4,
+    "ma": 258.91,
+    "stop": 238.8,
+    "risk": 20.0,
+    "entry": 298.4,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "epl": {
+   "f": {
+    "v": "SURVIVOR",
+    "at": "Passed every step",
+    "rule": "Rung 2 · Tier A",
+    "why": "Global scale in a category nobody else specialises in, plants co-located inside customer sites. Zero D1 fails, FCF +₹904cr.",
+    "upd": {
+     "n": 6,
+     "last": "4-Nov-2026"
+    }
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Stalwart",
+    "at": "Price",
+    "why": "Price gate — (growth + yield) / P/E below 1.0.",
+    "upd": null
+   },
+   "w": {
+    "stage": "TRANS",
+    "sub": null,
+    "v": "HOLD-ONLY",
+    "close": 228.57,
+    "ma": 232.24,
+    "stop": 208.95,
+    "risk": 8.6,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "garware": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "People (D2)",
+    "rule": "D1.7 + D2.2",
+    "why": "WC days 7→146 in one year; no permanent CFO and the question was not asked.",
+    "upd": {
+     "n": 2,
+     "last": "23-Oct-2026"
+    }
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Fast grower",
+    "at": "Price",
+    "why": "Price gate — (growth + yield) / P/E below 1.0.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S2",
+    "sub": "S2-early",
+    "v": "WATCH",
+    "close": 7895.0,
+    "ma": 6810.48,
+    "stop": 6567.0,
+    "risk": 16.8,
+    "entry": 7895.0,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "gmdc": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "a veto gate",
+    "rule": "G4",
+    "why": "Silent 16 months.",
+    "upd": null
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Cyclical",
+    "at": "Category test",
+    "why": "Cyclical, off-peak but not cheap at 31.7x.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S4",
+    "sub": null,
+    "v": "EXIT",
+    "close": 466.55,
+    "ma": 556.89,
+    "stop": 407.95,
+    "risk": 12.6,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "gpil": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Business (D3)",
+    "rule": "D1.2 + D3.5",
+    "why": "Loss year; Sarda Energy earned 41% operating margin in the same quarter GPIL earned 19%.",
+    "upd": {
+     "n": 1,
+     "last": "23-Nov-2026"
+    }
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Cyclical",
+    "at": "Price",
+    "why": "Price gate — (growth + yield) / P/E below 1.0.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S4",
+    "sub": null,
+    "v": "EXIT",
+    "close": 217.95,
+    "ma": 243.16,
+    "stop": 189.05,
+    "risk": 13.3,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "haldyn": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "a veto gate",
+    "rule": "G4",
+    "why": "No concall record of any kind.",
+    "upd": null
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Cyclical",
+    "at": "Category test",
+    "why": "Cyclical at peak earnings.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S2",
+    "sub": "S2-early",
+    "v": "BUY",
+    "close": 141.16,
+    "ma": 129.32,
+    "stop": 124.38,
+    "risk": 11.9,
+    "entry": 141.16,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "happy": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Price (D4)",
+    "rule": "Rung 3",
+    "why": "69.8x, 10.7x book; ROCE fallen 23%→18% through the capex cycle; float 4.12%.",
+    "upd": {
+     "n": 1,
+     "last": "23-Nov-2026"
+    }
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Fast grower",
+    "at": "Price",
+    "why": "Price gate — (growth + yield) / P/E below 1.0.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S2",
+    "sub": "S2-early",
+    "v": "BUY",
+    "close": 1769.0,
+    "ma": 1768.72,
+    "stop": 1691.5,
+    "risk": 4.4,
+    "entry": 1769.0,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "insecticides": {
+   "f": {
+    "v": "NEAR-MISS",
+    "at": "Operations (D1)",
+    "rule": "D1.7 + D3.9",
+    "why": "Debtor days +38%, and weather-dependent earnings with reverse operating leverage make runway unassessable.",
+    "upd": {
+     "n": 2,
+     "last": "10-Nov-2026"
+    }
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Cyclical",
+    "at": "Category test",
+    "why": "Cyclical at peak earnings.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S4",
+    "sub": null,
+    "v": "EXIT",
+    "close": 569.45,
+    "ma": 627.83,
+    "stop": 507.45,
+    "risk": 10.9,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "interarch": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Operations (D1)",
+    "rule": "D1.3 + D1.7 + D1.4",
+    "why": "WC +93%; 'margins are thin and have not expanded'.",
+    "upd": {
+     "n": 2,
+     "last": "23-Nov-2026"
+    }
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Cyclical",
+    "at": "Category test",
+    "why": "Cyclical at peak earnings — the PEG of 4.03 is measuring the peak.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S4",
+    "sub": null,
+    "v": "EXIT",
+    "close": 1585.4,
+    "ma": 1736.95,
+    "stop": 1442.75,
+    "risk": 9.0,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "jgchem": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Business (D3)",
+    "rule": "D3.1",
+    "why": "The profile's own words: 'a conversion business on a commodity', EBITDA ex-other-income 7–10% for four years; management's EBITDA includes other income.",
+    "upd": null
+   },
+   "l": {
+    "v": "WATCH",
+    "cat": "Fast grower",
+    "at": null,
+    "why": "Price gate — (growth + yield) / P/E is 1.06, in the 1.0-1.5 band: good business, fair price — not the bargain Lynch requires.",
+    "upd": null
+   },
+   "w": {
+    "stage": "TRANS",
+    "sub": null,
+    "v": "HOLD-ONLY",
+    "close": 508.6,
+    "ma": 525.8,
+    "stop": 517.4,
+    "risk": -1.7,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "kmew": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Price (D4)",
+    "rule": "Rung 3",
+    "why": "57.3x and 12.6x book with the order book going backwards.",
+    "upd": {
+     "n": 1,
+     "last": "19-Sep"
+    }
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Fast grower",
+    "at": "Debt structure",
+    "why": "Debt structure — 51% of borrowings repayable on demand.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S2",
+    "sub": "S2-late",
+    "v": "HOLD-ONLY",
+    "close": 709.4,
+    "ma": 537.65,
+    "stop": 527.35,
+    "risk": 25.7,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "kolte": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "a veto gate",
+    "rule": "G2",
+    "why": "Property development — outside the circle by Fisher's own practice.",
+    "upd": null
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Cyclical",
+    "at": "Debt structure",
+    "why": "Debt structure — 100% of borrowings repayable on demand.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S2",
+    "sub": "S2-early",
+    "v": "BUY",
+    "close": 424.1,
+    "ma": 413.72,
+    "stop": 407.95,
+    "risk": 3.8,
+    "entry": 424.1,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "macpower": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Operations (D1)",
+    "rule": "D1.3 + D1.7",
+    "why": "FY26 CFO ₹14cr vs ₹27.9cr of working capital absorbed (FCF ₹3.06cr on ₹33.9cr PAT); cash-conversion cycle 134→182 days.",
+    "upd": null
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Fast grower",
+    "at": "Category test",
+    "why": "Growing 42% — past the 35% fail line; also unproven rollout (one market segment) and one-shot machine sales, not repeat revenue.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S2",
+    "sub": "S2-late",
+    "v": "HOLD-ONLY",
+    "close": 2032.4,
+    "ma": 1644.13,
+    "stop": 1592.0,
+    "risk": 21.7,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "mayur": {
+   "f": {
+    "v": "NEAR-MISS",
+    "at": "People (D2)",
+    "rule": "D2",
+    "why": "Zero D1 fails and a real 5–7yr OEM-approval moat. Died on concrete key-man risk plus a two-year unresolved overseas-plant decision.",
+    "upd": {
+     "n": 4,
+     "last": "10-Nov-2026"
+    }
+   },
+   "l": {
+    "v": "WATCH",
+    "cat": "Stalwart",
+    "at": null,
+    "why": "Good business, fair price — not the bargain Lynch requires.",
+    "upd": null
+   },
+   "w": {
+    "stage": "TRANS",
+    "sub": null,
+    "v": "HOLD-ONLY",
+    "close": 694.0,
+    "ma": 749.68,
+    "stop": 696.5,
+    "risk": -0.4,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "monarch": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "a veto gate",
+    "rule": "G3",
+    "why": "Prior SEBI settlement + board-composition penalties. Also zero concalls.",
+    "upd": null
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Cyclical",
+    "at": "Category test",
+    "why": "Cyclical at peak earnings — PEG 3.00 is measuring the peak.",
+    "upd": null
+   },
+   "w": {
+    "stage": "TRANS",
+    "sub": null,
+    "v": "HOLD-ONLY",
+    "close": 335.55,
+    "ma": 351.43,
+    "stop": 318.4,
+    "risk": 5.1,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "morepen": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "a veto gate",
+    "rule": "G3",
+    "why": "Material RPT with undisclosed consideration. Also 16-month transcript blackout.",
+    "upd": {
+     "n": 1,
+     "last": "21-Oct-2026"
+    }
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Fast grower",
+    "at": "Price",
+    "why": "Price gate — (growth + yield) / P/E below 1.0.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S2",
+    "sub": "S2-early",
+    "v": "BUY",
+    "close": 88.23,
+    "ma": 83.14,
+    "stop": 79.6,
+    "risk": 9.8,
+    "entry": 88.23,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "mps": {
+   "f": {
+    "v": "SURVIVOR",
+    "at": "Passed every step",
+    "rule": "Rung 1 · Tier B",
+    "why": "Verification control point in scholarly publishing — ~52% manuscript acceptance vs ~32% industry baseline. Zero D1 fails, 38.7% ROCE, 3.13% yield at 24.7x.",
+    "upd": {
+     "n": 4,
+     "last": "4-Nov-2026"
+    }
+   },
+   "l": {
+    "v": "WATCH",
+    "cat": "Stalwart",
+    "at": null,
+    "why": "Price gate — (growth + yield) / P/E is 1.10, in the 1.0-1.5 band: good business, fair price — not the bargain Lynch requires.",
+    "upd": null
+   },
+   "w": {
+    "stage": "TRANS",
+    "sub": null,
+    "v": "HOLD-ONLY",
+    "close": 2105.6,
+    "ma": 2294.68,
+    "stop": 2189.0,
+    "risk": -4.0,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "netweb": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Price (D4)",
+    "rule": "Rung 5",
+    "why": "117x earnings, 40.4x book — far above merit.",
+    "upd": null
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Fast grower",
+    "at": "Debt structure",
+    "why": "Debt structure — 100% of borrowings repayable on demand.",
+    "upd": null
+   },
+   "w": {
+    "stage": "TRANS",
+    "sub": null,
+    "v": "HOLD-ONLY",
+    "close": 4010.6,
+    "ma": 4556.97,
+    "stop": 3880.5,
+    "risk": 3.2,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "nitta": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "a veto gate",
+    "rule": "G4",
+    "why": "No concall record across 150 BSE filings.",
+    "upd": null
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Cyclical",
+    "at": "Category test",
+    "why": "Cyclical at peak earnings — PEG 2.77 is measuring the peak.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S2",
+    "sub": "S2-early",
+    "v": "BUY",
+    "close": 1679.2,
+    "ma": 1659.16,
+    "stop": 1442.75,
+    "risk": 14.1,
+    "entry": 1679.2,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "nlc": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "People (D2)",
+    "rule": "D2.3 + D3.6",
+    "why": "No permanent CMD; largest but 10.4% ROCE is not profitability leadership.",
+    "upd": null
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Stalwart",
+    "at": "Category test",
+    "why": "Balance sheet — D/E 130%. Passes the price gate at 2.05 and the stalwart growth test, but fails on debt quantum.",
+    "upd": {
+     "n": 1,
+     "last": null
+    }
+   },
+   "w": {
+    "stage": "S4",
+    "sub": null,
+    "v": "EXIT",
+    "close": 227.16,
+    "ma": 283.95,
+    "stop": 218.9,
+    "risk": 3.6,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "nrbbearing": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "a veto gate",
+    "rule": "G3 (cause cured 16-Sep)",
+    "why": "Was: 39.80% of capital pledged at 31-Mar vs a 10% threshold. Pledge is now 3.10% (Tata Capital release 16-Sep), below the gate. NOT re-run through G4 and D1–D4 in this refresh…",
+    "upd": {
+     "n": 1,
+     "last": "21-Oct-2026"
+    }
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Cyclical",
+    "at": "Category test",
+    "why": "Cyclical, off-peak but not cheap at 31.8x.",
+    "upd": null
+   },
+   "w": {
+    "stage": "TRANS",
+    "sub": null,
+    "v": "HOLD-ONLY",
+    "close": 423.65,
+    "ma": 440.35,
+    "stop": 417.9,
+    "risk": 1.4,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "obsc": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "a veto gate",
+    "rule": "G4",
+    "why": "Two transcripts, twelve months apart — not consecutive periods.",
+    "upd": null
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Fast grower",
+    "at": "Debt structure",
+    "why": "Debt structure — 58% of borrowings repayable on demand.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S2",
+    "sub": "S2-early",
+    "v": "BUY",
+    "close": 787.95,
+    "ma": 707.02,
+    "stop": 696.5,
+    "risk": 11.6,
+    "entry": 787.95,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "oriana": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Business (D3)",
+    "rule": "D3.1 + D3.2",
+    "why": "ROCE, revenue growth and a P/E are results, not moats. Solar EPC has free entry.",
+    "upd": {
+     "n": 1,
+     "last": "21-Oct-2026"
+    }
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Fast grower",
+    "at": "Debt structure",
+    "why": "Debt structure — 60% of borrowings repayable on demand.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S4",
+    "sub": null,
+    "v": "EXIT",
+    "close": 199.25,
+    "ma": 287.34,
+    "stop": 228.85,
+    "risk": -14.9,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "panamapet": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "a veto gate",
+    "rule": "G4",
+    "why": "No earnings call for 34 months (last 9-Nov-2023) — the same rule that excluded ASTEC, DYNAMATIC and GMDC.",
+    "upd": null
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Cyclical",
+    "at": "Category test",
+    "why": "Inverted P/E — 5.9x is measured on windfall earnings (Q1FY27 PAT exceeded any full year); a low multiple on peak earnings is a warning, not a bargain.",
+    "upd": null
+   },
+   "w": {
+    "stage": "TRANS",
+    "sub": null,
+    "v": "HOLD-ONLY",
+    "close": 412.1,
+    "ma": 434.54,
+    "stop": 427.85,
+    "risk": -3.8,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "paras": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "a veto gate",
+    "rule": "G4",
+    "why": "Holds calls, publishes no transcripts.",
+    "upd": null
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Fast grower",
+    "at": "Category test",
+    "why": "Growing 40.9% — past the 25% ceiling.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S2",
+    "sub": "S2-early",
+    "v": "BUY",
+    "close": 1257.9,
+    "ma": 1219.46,
+    "stop": 1144.25,
+    "risk": 9.0,
+    "entry": 1257.9,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "rajesh": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Business (D3)",
+    "rule": "D3.1",
+    "why": "Discom pre-qualification is held by every serious T&D contractor.",
+    "upd": null
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Fast grower",
+    "at": "Debt structure",
+    "why": "Debt structure — 64% of borrowings repayable on demand.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S4",
+    "sub": null,
+    "v": "EXIT",
+    "close": 764.65,
+    "ma": 816.4,
+    "stop": 726.35,
+    "risk": 5.0,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "rossell": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Operations (D1)",
+    "rule": "D1.1 + D1.3 + D1.4",
+    "why": "13.6% margin vs peer median ~24%; CFO/OP −74%.",
+    "upd": {
+     "n": 1,
+     "last": "10-Nov-2026"
+    }
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Fast grower",
+    "at": "Debt structure",
+    "why": "Debt structure — 95% of borrowings repayable on demand.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S2",
+    "sub": "S2-late",
+    "v": "HOLD-ONLY",
+    "close": 1528.3,
+    "ma": 1186.76,
+    "stop": 1144.25,
+    "risk": 25.1,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "sansera": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Price (D4)",
+    "rule": "D1.7 + Rung 3",
+    "why": "WC days 6→39; 65.3x on 14.1% ROCE.",
+    "upd": null
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Fast grower",
+    "at": "Price",
+    "why": "Price gate — (growth + yield) / P/E below 1.0.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S2",
+    "sub": "S2-late",
+    "v": "HOLD-ONLY",
+    "close": 4619.3,
+    "ma": 3679.6,
+    "stop": 3582.0,
+    "risk": 22.5,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "sathlokhar": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "a veto gate",
+    "rule": "G3",
+    "why": "Promoter/Chairman/MD personal insolvency proceeding.",
+    "upd": null
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Fast grower",
+    "at": "Debt structure",
+    "why": "Debt structure — 99% of borrowings repayable on demand.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S1",
+    "sub": null,
+    "v": "WATCH-base",
+    "close": 342.95,
+    "ma": 357.88,
+    "stop": 348.25,
+    "risk": -1.5,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "shreepushk": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Business (D3)",
+    "rule": "D3.1 (+ D2.4, D1.3)",
+    "why": "Commodity intermediates and fertiliser with no mechanism others could not match; FY26 PAT-margin guidance missed 4 of 4; five-year FCF −₹45cr.",
+    "upd": null
+   },
+   "l": {
+    "v": "WATCH",
+    "cat": "Fast grower",
+    "at": null,
+    "why": "Price gate — (growth + yield) / P/E is 1.10, in the 1.0-1.5 band: good business, fair price — not the bargain Lynch requires.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S2",
+    "sub": "S2-early",
+    "v": "BUY",
+    "close": 514.9,
+    "ma": 446.41,
+    "stop": 437.8,
+    "risk": 15.0,
+    "entry": 514.9,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "shreerefr": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Operations (D1)",
+    "rule": "D1.3 + D1.6",
+    "why": "CFO/OP −9%; two internal inconsistencies in one call — growth stated as 150% when it was 55.5%.",
+    "upd": null
+   },
+   "l": {
+    "v": "ABSTAIN",
+    "cat": "Fast grower",
+    "at": null,
+    "why": "Insufficient published history — recorded as my failure to establish the facts, not as a defect of the company.",
+    "upd": null
+   },
+   "w": {
+    "stage": "TRANS",
+    "sub": null,
+    "v": "HOLD-ONLY",
+    "close": 285.55,
+    "ma": 332.8,
+    "stop": 288.55,
+    "risk": -1.1,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "ssw": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Operations (D1)",
+    "rule": "D1.1 + D1.7",
+    "why": "10% margin vs peer median ~15%; debtor +34%.",
+    "upd": {
+     "n": 2,
+     "last": "23-Oct-2026"
+    }
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Cyclical",
+    "at": "Debt structure",
+    "why": "Debt structure — 67% of borrowings repayable on demand.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S2",
+    "sub": "S2-late",
+    "v": "HOLD-ONLY",
+    "close": 490.45,
+    "ma": 337.31,
+    "stop": 328.35,
+    "risk": 33.1,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "sunita": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "a veto gate",
+    "rule": "G4",
+    "why": "One transcript, 22 months stale.",
+    "upd": {
+     "n": 1,
+     "last": "19-Sep"
+    }
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Fast grower",
+    "at": "Debt structure",
+    "why": "Debt structure — 74% of borrowings repayable on demand.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S2",
+    "sub": "S2-early",
+    "v": "WATCH",
+    "close": 1058.0,
+    "ma": 946.28,
+    "stop": 895.5,
+    "risk": 15.4,
+    "entry": 1058.0,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "syncomf": {
+   "w": {
+    "stage": "S2",
+    "sub": "S2-late",
+    "v": "HOLD-ONLY",
+    "close": 22.89,
+    "ma": 17.41,
+    "stop": 16.91,
+    "risk": 26.1,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "syrma": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Operations (D1)",
+    "rule": "D1.3 + D1.7",
+    "why": "FCF −₹328cr; debtor +93%.",
+    "upd": null
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Fast grower",
+    "at": "Category test",
+    "why": "Growing 38.1% — past the 25% ceiling.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S2",
+    "sub": "S2-early",
+    "v": "BUY",
+    "close": 1491.1,
+    "ma": 1425.97,
+    "stop": 1393.0,
+    "risk": 6.6,
+    "entry": 1491.1,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "transraill": {
+   "f": {
+    "v": "SURVIVOR",
+    "at": "Passed every step",
+    "rule": "Rung 2 · Tier B",
+    "why": "Backward integration with 1200 kV tower testing. Best delivery record in the screen — FY26 guidance raised twice, then beaten.",
+    "upd": {
+     "n": 4,
+     "last": "4-Nov-2026"
+    }
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Fast grower",
+    "at": "Debt structure",
+    "why": "Debt structure — 87% of borrowings repayable on demand.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S4",
+    "sub": null,
+    "v": "EXIT",
+    "close": 423.5,
+    "ma": 471.67,
+    "stop": 398.0,
+    "risk": 6.0,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "tvssrichak": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "a veto gate",
+    "rule": "G4",
+    "why": "Never held an earnings call: Screener lists one 2022 presentation and no transcript; 155 BSE filings checked.",
+    "upd": null
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Cyclical",
+    "at": "Category test",
+    "why": "Cyclical on the rubber-cost cycle — a 36x P/E on recovering earnings is not the low multiple on normalised earnings the test requires.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S2",
+    "sub": "S2-early",
+    "v": "BUY",
+    "close": 4522.9,
+    "ma": 4305.37,
+    "stop": 3980.0,
+    "risk": 12.0,
+    "entry": 4522.9,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "unimech": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Price (D4)",
+    "rule": "Rung 5",
+    "why": "104x on 11.2% ROCE; ~half of pre-tax profit is treasury income; a guidance figure repeated 9 times has simply stopped being said.",
+    "upd": {
+     "n": 1,
+     "last": "19-Sep"
+    }
+   },
+   "l": {
+    "v": "ABSTAIN",
+    "cat": "Fast grower",
+    "at": null,
+    "why": "Insufficient published history (5 years) — recorded as my failure to establish the facts, not as a defect of the company.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S2",
+    "sub": "S2-late",
+    "v": "HOLD-ONLY",
+    "close": 1750.2,
+    "ma": 1419.28,
+    "stop": 1393.0,
+    "risk": 20.4,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "univcables": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "a veto gate",
+    "rule": "G4",
+    "why": "No earnings call has ever been held (244 BSE + 196 NSE filings checked) — excluded on G4 exactly as HALDYN, AMIC, NITTA and MONARCH were…",
+    "upd": null
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Cyclical",
+    "at": "Debt structure",
+    "why": "Debt structure — 60.5% of borrowings are current (₹711.7cr of ₹1,175.7cr, AR FY26) on the balance-sheet split used for all 25 debt-carrying names…",
+    "upd": null
+   },
+   "w": {
+    "stage": "TRANS",
+    "sub": null,
+    "v": "HOLD-ONLY",
+    "close": 1126.3,
+    "ma": 1305.19,
+    "stop": 1144.25,
+    "risk": -1.6,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "wabag": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Price (D4)",
+    "rule": "Rung 4",
+    "why": "Not HIGH quality: ex-forex EBITDA margin 12.8%→9.0%, FY26 CFO/PAT 0.56x, forex counted inside EBITDA; 33x on 21% ROCE.",
+    "upd": null
+   },
+   "l": {
+    "v": "WATCH",
+    "cat": "Fast grower",
+    "at": null,
+    "why": "Price gate — (growth + yield) / P/E is 1.08, in the 1.0-1.5 band: good business, fair price — not the bargain Lynch requires.",
+    "upd": null
+   },
+   "w": {
+    "stage": "TRANS",
+    "sub": null,
+    "v": "HOLD-ONLY",
+    "close": 1841.3,
+    "ma": 1896.26,
+    "stop": 1691.5,
+    "risk": 8.1,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "wheels": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Business (D3)",
+    "rule": "D3.1",
+    "why": "Profile contradicts its own moat — 'raw-material pass-through, not conversion'. 7.8% blended margin.",
+    "upd": null
+   },
+   "l": {
+    "v": "EXCLUDED",
+    "cat": "Cyclical",
+    "at": "Category test",
+    "why": "Cyclical at peak earnings.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S2",
+    "sub": "S2-early",
+    "v": "WATCH",
+    "close": 2120.6,
+    "ma": 1806.47,
+    "stop": 1691.5,
+    "risk": 20.2,
+    "entry": 2120.6,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  },
+  "yash": {
+   "f": {
+    "v": "EXCLUDED",
+    "at": "Price (D4)",
+    "rule": "Rung 5",
+    "why": "74.6x, 15.1x book; 'everything hinges on one type test'.",
+    "upd": {
+     "n": 2,
+     "last": "21-Oct-2026"
+    }
+   },
+   "l": {
+    "v": "ABSTAIN",
+    "cat": "Fast grower",
+    "at": null,
+    "why": "Insufficient published history to test (2 years) — recorded as my failure to establish the facts, not as a defect of the company.",
+    "upd": null
+   },
+   "w": {
+    "stage": "S2",
+    "sub": "S2-late",
+    "v": "HOLD-ONLY",
+    "close": 1225.5,
+    "ma": 975.84,
+    "stop": 895.5,
+    "risk": 26.9,
+    "entry": null,
+    "asof": "2026-11-23",
+    "chart": true
+   }
+  }
+ }
+}
