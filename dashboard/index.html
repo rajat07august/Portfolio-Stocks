@@ -4008,6 +4008,83 @@ function renderFactorSection(id) {
 // One entry per stock that has a hand-written board. Every figure comes from the stock's
 // profile (named section) or the source given on the panel. {pe} {pb} {cmp} fill live.
 const INFOGRAPHIC = {
+  "morepen": {
+    asOf: "26-Nov-2026",
+    title: "Morepen Labs",
+    hook: "From bulk-API maker to contract manufacturer (CDMO)",
+    sub: "Record quarters on one big contract, with no earnings call since May-2025.",
+    journey: {
+      then: { label: "Then", when: "40 years → FY26", items: [
+        "Bulk APIs to 1,000+ customers in 90+ countries",
+        "Dr Morepen glucometers and BP monitors, ~27% of revenue",
+        "FY26: revenue flat at ₹1,806cr, PAT −19%",
+        "Free cash flow negative in 5 of 6 years" ] },
+      now: { label: "Now", when: "Q2 FY27 · Sep-2026", items: [
+        "₹825cr CDMO mandate shipping: ₹253cr in Q2 alone",
+        "Two record quarters; EBITDA margin 15% → 17%",
+        "First US prescription generic launched; first ANDA filed",
+        "4 USFDA inspections in a row with nil Form 483" ] },
+      next: { label: "Next", when: "still to prove", items: [
+        "Who the CDMO customer is, and for how long (undisclosed)",
+        "A second CDMO mandate",
+        "Capacity to 1,200 KL by FY30",
+        "Devices moved into Morepen Medipath; consideration undisclosed" ] }
+    },
+    quarter: {
+      title: "Q2 FY27 update",
+      checks: [
+        { s: "good", t: "Revenue ₹755cr, +81% YoY (H1 ₹1,330cr, +57%)" },
+        { s: "good", t: "EBITDA ₹132cr, 17.45% margin (+273%)" },
+        { s: "good", t: "PAT ₹89cr, +117%" },
+        { s: "good", t: "CDMO ₹253cr; exports ₹397cr, +131%" },
+        { s: "bad", t: "No earnings call held, again (none since May-2025)" } ],
+      bars: {
+        label: "Revenue by quarter, ₹cr (operating margin below)",
+        points: [
+          { x: "Q2 FY26", v: 412, note: "7.5%" }, { x: "Q3", v: 484, note: "9.6%" }, { x: "Q4", v: 485, note: "5.0%" },
+          { x: "Q1 FY27", v: 570, note: "14.5%" }, { x: "Q2", v: 746, note: "16.5%" } ],
+        foot: "Bars: StockScans, revenue from operations and OPM. Checklist: company press release 27-Oct-2026 (its own basis, ₹755cr / 17.45%)."
+      }
+    },
+    caps: {
+      have: [
+        { i: "🧪", t: "USFDA record: 4 inspections, nil Form 483" },
+        { i: "🌍", t: "API exports to 90+ countries; ~76% of API revenue exported" },
+        { i: "🩸", t: "20 million glucometers installed, 500 million strips a year" },
+        { i: "🏭", t: "Baddi plants and 40 years of API chemistry" } ],
+      wip: [
+        { i: "📦", t: "₹825cr CDMO mandate in commercial supply" },
+        { i: "💊", t: "US finished doses: Desloratadine launched, Sitagliptin ANDA under review" },
+        { i: "📈", t: "Capacity roadmap to 1,200 KL by FY30" } ],
+      away: [
+        { i: "🔬", t: "Development work: is it a CDMO or only a CMO? Unanswered" },
+        { i: "🎙️", t: "An earnings call (none since May-2025)" },
+        { i: "💸", t: "Positive free cash flow (−₹127cr in FY26)" } ]
+    },
+    peers: {
+      names: ["Morepen", "Laurus", "Neuland", "Concord"],
+      colors: ["#9cc3f0", "#f4a7b3", "#f7dc6f", "#b9e3b5"],
+      metrics: [ { label: "P/E (x)", vals: [25.4, 101.2, 60.0, 41.0] }, { label: "ROCE (%)", vals: [15.9, 22.5, 28.1, 18.0] } ],
+      note: "The CDMO peers trade at 41–101x. Morepen sits well below them, on lower returns and with no call to test the story.",
+      source: "StockScans, 26-Nov-2026 (intraday); ROCE trailing twelve months. Peer set from the MOREPENLAB profile §6."
+    },
+    scenarios: {
+      asOf: "18-Nov-2026",
+      items: [ { name: "Bear", p: 25, value: 43 }, { name: "Base", p: 50, value: 125 }, { name: "Bull", p: 25, value: 210 } ],
+      note: "My estimates: FY28 market-cap scenarios from the profile (bear ~₹2,330cr, base ₹6,831cr, bull ₹11,520cr) ÷ ~54.8cr shares."
+    },
+    take: {
+      points: [
+        "The CDMO turn is real: it shows in dispatched revenue and two record quarters.",
+        "Nobody can test it: customer, duration and terms are undisclosed, and there is no call.",
+        "At ~{pe}x earnings the price is not demanding next to CDMO peers.",
+        "Cash is the weak spot: negative free cash flow 5 years in 6, borrowings up 7x in two years." ],
+      watchLabel: "Back to Medium (and beyond) if",
+      watch: [ "an earnings call is held with the CDMO customer and duration disclosed", "margins stay above 13% for two quarters and FY27 cash flow turns positive" ],
+      verdict: "Medium-Low: strong numbers that no one is allowed to question."
+    },
+    sources: "Q2 FY27 results, deck and press release (27-Oct-2026); filings 28-Sep and 9-Nov-2026; StockScans; MOREPENLAB profile (Q2 fold-in 18-Nov-2026)."
+  },
   "unimech": {
     asOf: "26-Nov-2026",
     title: "Unimech Aerospace",
@@ -4268,7 +4345,7 @@ function igReturns(sc, c) {
   const w = rows.reduce((a, i) => a + i.p / 100 * i.r, 0);
   const mxA = Math.max(...rows.map(r => Math.abs(r.r)), Math.abs(w)) || 1;
   const row = (lab, r, cls) => {
-    const wd = Math.abs(r) / mxA * 46, neg = r < 0;
+    const wd = Math.abs(r) / mxA * 36, neg = r < 0;
     const bar = `<div class="ig-ret-bar ${neg ? 'neg' : 'pos'}" style="${neg ? 'right' : 'left'}:50%;width:${wd.toFixed(1)}%"></div>`;
     const val = `<div class="ig-ret-val" style="${neg ? 'right' : 'left'}:calc(50% + ${wd.toFixed(1)}% + 4px)">${igPct(r)}</div>`;
     return `<div class="ig-ret ${cls || ''}"><div>${lab}</div><div class="ig-ret-track">${bar}${val}</div></div>`;
