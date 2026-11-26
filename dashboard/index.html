@@ -516,6 +516,20 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
 .ig-wst.s3.cur { background: #fbe6c2; } .ig-wst.s4.cur { background: #f7cfcf; }
 .ig-wst.trans { background: #e2e4e8; flex: 0 1 auto; padding: 3px 14px; }
 .ig-wst.trans.cur { transform: none; }
+.ig-wcode { display: inline-block; padding: 1px 9px; border: 2px solid var(--ink); border-radius: 6px;
+  font-weight: 700; font-size: 16px; font-family: -apple-system, 'Segoe UI', Roboto, sans-serif; letter-spacing: .3px; margin: 2px 4px 4px 0; }
+.ig-wcode.sm { font-size: 11px; padding: 0 5px; border-width: 1.5px; margin: 0 0 0 2px; vertical-align: 1px; }
+.ig-wcode.g-S1 { background: #e8e3d3; } .ig-wcode.g-S2, .ig-wcode.g-S2early, .ig-wcode.g-S2late { background: #cdebd1; }
+.ig-wcode.g-S3 { background: #fbe6c2; } .ig-wcode.g-S4 { background: #f7cfcf; }
+.ig-wcode.g-TRANS { background: #e2e4e8; } .ig-wcode.g-ABSTAIN { background: #f2f2f2; color: #777; border-color: #aaa; }
+.ig-wgroup { margin-top: 8px; padding-top: 6px; border-top: 1.5px dashed #ccc; }
+.ig-wgroup-h { font-weight: 700; font-size: 14.5px; color: #1F4E79; }
+.ig-wgroup-line { font-size: 14px; margin: 2px 0 5px; }
+.ig-wgroup-line.ok { color: #14532d; } .ig-wgroup-line.bad { color: #b3261e; }
+.ig-wgroup-line.mid { color: #8a6200; } .ig-wgroup-line.na { color: #5b6670; }
+.ig-ixchips { display: flex; flex-wrap: wrap; gap: 4px 6px; }
+.ig-ixchip { font-size: 12.5px; padding: 2px 7px; border: 1.5px solid var(--ink); border-radius: 10px 4px 10px 4px; background: #fff; }
+.ig-ixchip.broad { border-color: #bbb; color: #555; }
 .ig-wbody { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); gap: 10px; align-items: start; }
 .ig-wchart img { width: 100%; height: auto; display: block; border: 1.5px solid var(--ink); border-radius: 6px; background: #fff; }
 .ig-wchart:hover img { box-shadow: 0 2px 10px rgba(0,0,0,.18); }
@@ -4311,25 +4325,43 @@ function igLensLynch(l) {
     ${l.at ? `<div class="ig-lens-at">Stopped at: ${l.at}</div>` : ''}
     <div class="ig-lens-why">“${l.why}”</div>${igUpd(l.upd, 'Lynch’s page')}`;
 }
+const IG_STG_CLS = s => 'g-' + String(s || '').replace(/[^A-Za-z0-9]/g, '');
+function igWGroup(ix) {
+  const narrow = ix.filter(i => i.kind === 'group'), broad = ix.filter(i => i.kind !== 'group');
+  const chip = i => `<span class="ig-ixchip ${i.kind}">${i.name} <span class="ig-wcode sm ${IG_STG_CLS(i.stage)}">${i.sub || i.stage}</span></span>`;
+  const up = narrow.filter(i => i.stage === 'S2'), dn = narrow.filter(i => i.stage === 'S3' || i.stage === 'S4');
+  let line, cls;
+  if (up.length) { cls = 'ok'; line = `<b>Step 2 passes.</b> It trades in ${up.length === 1 ? 'a Stage 2 group' : 'Stage 2 groups'}: the group is advancing with it.`; }
+  else if (dn.length) { cls = 'bad'; line = `<b>Step 2 fails.</b> Its own ${dn.length === 1 ? 'group is' : 'groups are'} in Stage ${[...new Set(dn.map(i => i.stage[1]))].join('/')}: “don't try to be a whiz kid and find the one winner in a sick group.”`; }
+  else if (narrow.length) { cls = 'mid'; line = `<b>Step 2 is unresolved.</b> Its ${narrow.length === 1 ? 'group is' : 'groups are'} neither advancing nor topping.`; }
+  else { cls = 'na'; line = `<b>Step 2 cannot be run.</b> No sectoral or thematic index carries this name${broad.length ? ', only broad-market ones, which are the market, not a group' : ' at all'}.`; }
+  return `<div class="ig-wgroup"><div class="ig-wgroup-h">The index it trades in · Weinstein's step 2</div>
+    <div class="ig-wgroup-line ${cls}">${line}</div>
+    ${ix.length ? `<div class="ig-ixchips">${narrow.map(chip).join('')}${broad.map(chip).join('')}</div>` : ''}</div>`;
+}
 function igLensWeinstein(id, w, market) {
   if (!w) return '<p class="ig-muted">Not in the Weinstein run.</p>';
   const st = IG_W_STAGE[w.stage] || [w.stage, ''];
-  const sub = w.sub === 'S2-early' ? ' · early' : (w.sub === 'S2-late' ? ' · late' : '');
-  const ladder = ['S1', 'S2', 'S3', 'S4'].map((k, i) =>
-    `<span class="ig-wst s${i + 1} ${w.stage === k ? 'cur' : ''}">${i + 1} ${IG_W_STAGE[k][0]}${w.stage === k ? sub : ''}</span>`).join('');
+  const code = w.sub || w.stage;
+  const ladder = w.stage === 'TRANS'
+    ? `<span class="ig-wst trans cur">TRANS · Between stages</span>`
+    : ['S1', 'S2', 'S3', 'S4'].map((k, i) =>
+        `<span class="ig-wst s${i + 1} ${w.stage === k ? 'cur' : ''}">${w.stage === k ? code : k} · ${IG_W_STAGE[k][0]}</span>`).join('');
   const vnote = w.v === 'BUY' ? (w.entry ? `Entry plan near ${igRs(w.entry)}.` : 'Entry conditions met.') : (IG_W_VERDICT[w.v] || '');
   let stop = '';
   if (w.stop && w.close) stop = w.risk < 0
     ? `Closed <b>below</b> its sell-stop ${igRs(w.stop)}.`
     : `Sell-stop ${igRs(w.stop)}, ${Math.abs(w.risk).toFixed(0)}% under the price.`;
-  const mk = market && IG_W_STAGE[market.stage] ? `Market (Nifty): Stage ${market.stage.replace('S', '')} · ${IG_W_STAGE[market.stage][0]}.` : '';
+  const mk = market && IG_W_STAGE[market.stage] ? `Market (Nifty): ${market.sub || market.stage} · ${IG_W_STAGE[market.stage][0]}.` : '';
   const chart = w.chart ? `<a class="ig-wchart" href="${IG_FW_BASE}weinstein/charts/${id}.jpg" target="_blank" rel="noopener" title="Open the full stage chart">
       <img loading="lazy" src="${IG_FW_BASE}weinstein/charts/${id}.jpg" alt="Weinstein stage chart: weekly close, 30-week MA, volume and relative strength"></a>` : '';
-  return `<div class="ig-wladder" role="img" aria-label="Stage: ${st[0]}${sub}">${w.stage === 'TRANS' ? '<span class="ig-wst trans cur">Between stages</span>' : ladder}</div>
-    <div class="ig-wbody"><div>${igStamp(w.v)} <span class="ig-lens-at" style="display:inline">${vnote}</span>
+  return `<div class="ig-wladder" role="img" aria-label="Stage ${code}: ${st[0]}">${ladder}</div>
+    <div class="ig-wbody"><div><span class="ig-wcode ${IG_STG_CLS(w.stage)}" title="Weinstein stage">${code}</span> ${igStamp(w.v)}
+      <div class="ig-lens-at">${vnote}</div>
       <div class="ig-lens-why">${st[1]}</div>
       <div class="ig-lens-at">Price ${igRs(w.close)} · 30-week MA ${igRs(w.ma)}. ${stop}</div>
-      <div class="ig-lens-upd">${mk}</div></div>${chart}</div>`;
+      <div class="ig-lens-upd">${mk}</div></div>${chart}</div>
+    ${igWGroup(w.ix || [])}`;
 }
 function igLensesInner(id) {
   const d = FRAMEWORK_VIEWS;
@@ -4346,7 +4378,7 @@ function igLensesInner(id) {
       <div class="ig-lens"><a class="ig-lens-h" href="${IG_FW_BASE}weinstein/index.html" target="_blank" rel="noopener">Weinstein’s Eye →</a>
         <div class="ig-lens-q">Where is it in its price cycle?</div>${igLensWeinstein(id, s.w, d.market)}</div>
     </div>
-    <div class="ig-src">Fisher ${a.fisher || '—'} · Lynch ${a.lynch || '—'} · Weinstein ${wAsof}.</div>`;
+    <div class="ig-src">Fisher ${a.fisher || '—'} · Lynch ${a.lynch || '—'} · Weinstein ${wAsof}${a.indices ? ' · indices ' + igDate(a.indices) + ' close' : ''}.</div>`;
 }
 function igLenses(id) { return `<div class="ig-box ig-c12 ig-lenses" data-id="${id}" style="--hl:var(--purple)">${igLensesInner(id)}</div>`; }
 fetch('framework-views.json?ts=' + Date.now())

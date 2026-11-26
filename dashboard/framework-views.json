@@ -2,7 +2,8 @@
  "asof": {
   "fisher": "23-Nov-2026 (close)",
   "lynch": "23-Nov-2026 (close)",
-  "weinstein": "2026-11-25"
+  "weinstein": "2026-11-25",
+  "indices": "2026-11-23"
  },
  "market": {
   "stage": "S1",
@@ -20,7 +21,8 @@
     "risk": 17.1,
     "entry": 912.6,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "accent": {
@@ -48,7 +50,16 @@
     "risk": 0.1,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": [
+     {
+      "name": "NIFTY SME EMERGE",
+      "kind": "group",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     }
+    ]
    }
   },
   "aimtron": {
@@ -76,7 +87,16 @@
     "risk": 15.2,
     "entry": 1759.9,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": [
+     {
+      "name": "NIFTY SME EMERGE",
+      "kind": "group",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     }
+    ]
    }
   },
   "amic": {
@@ -107,7 +127,8 @@
     "risk": 11.3,
     "entry": 2187.5,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "anthem": {
@@ -135,7 +156,72 @@
     "risk": 16.9,
     "entry": 957.35,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": [
+     {
+      "name": "NIFTY INDIA MANUFACTURING",
+      "kind": "group",
+      "stage": "S3",
+      "sub": null,
+      "verdict": "NO NEW BUYS"
+     },
+     {
+      "name": "NIFTY IPO",
+      "kind": "group",
+      "stage": "S2",
+      "sub": "S2-early",
+      "verdict": "HUNT HERE"
+     },
+     {
+      "name": "NIFTY 500",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     },
+     {
+      "name": "NIFTY LARGEMIDCAP 250",
+      "kind": "broad",
+      "stage": "S3",
+      "sub": null,
+      "verdict": "NO NEW BUYS"
+     },
+     {
+      "name": "NIFTY MIDCAP 150",
+      "kind": "broad",
+      "stage": "S3",
+      "sub": null,
+      "verdict": "NO NEW BUYS"
+     },
+     {
+      "name": "NIFTY MIDSMALLCAP 400",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY MIDSMALLCAP400 50:50",
+      "kind": "broad",
+      "stage": "ABSTAIN",
+      "sub": null,
+      "verdict": "TOO YOUNG"
+     },
+     {
+      "name": "NIFTY TOTAL MARKET",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     },
+     {
+      "name": "NIFTY500 LARGEMIDSMALL EQUAL-CAP WEIGHTED",
+      "kind": "broad",
+      "stage": "S3",
+      "sub": null,
+      "verdict": "NO NEW BUYS"
+     }
+    ]
    }
   },
   "anupam": {
@@ -166,7 +252,51 @@
     "risk": 16.7,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": [
+     {
+      "name": "NIFTY 500",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     },
+     {
+      "name": "NIFTY MIDSMALLCAP 400",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY MIDSMALLCAP400 50:50",
+      "kind": "broad",
+      "stage": "ABSTAIN",
+      "sub": null,
+      "verdict": "TOO YOUNG"
+     },
+     {
+      "name": "NIFTY SMALLCAP 250",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY TOTAL MARKET",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     },
+     {
+      "name": "NIFTY500 LARGEMIDSMALL EQUAL-CAP WEIGHTED",
+      "kind": "broad",
+      "stage": "S3",
+      "sub": null,
+      "verdict": "NO NEW BUYS"
+     }
+    ]
    }
   },
   "astec": {
@@ -197,7 +327,8 @@
     "risk": -0.7,
     "entry": 799.5,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "atlantaele": {
@@ -225,7 +356,30 @@
     "risk": 2.9,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": [
+     {
+      "name": "NIFTY IPO",
+      "kind": "group",
+      "stage": "S2",
+      "sub": "S2-early",
+      "verdict": "HUNT HERE"
+     },
+     {
+      "name": "NIFTY MICROCAP 250",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY TOTAL MARKET",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     }
+    ]
    }
   },
   "aurion": {
@@ -253,7 +407,23 @@
     "risk": 3.3,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": [
+     {
+      "name": "NIFTY MICROCAP 250",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY TOTAL MARKET",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     }
+    ]
    }
   },
   "avalon": {
@@ -284,7 +454,23 @@
     "risk": -9.9,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": [
+     {
+      "name": "NIFTY MICROCAP 250",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY TOTAL MARKET",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     }
+    ]
    }
   },
   "axiscades": {
@@ -315,7 +501,30 @@
     "risk": 9.4,
     "entry": 1866.2,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": [
+     {
+      "name": "NIFTY INDIA DEFENCE",
+      "kind": "group",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY MICROCAP 250",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY TOTAL MARKET",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     }
+    ]
    }
   },
   "azad": {
@@ -346,7 +555,23 @@
     "risk": -4.3,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": [
+     {
+      "name": "NIFTY MICROCAP 250",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY TOTAL MARKET",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     }
+    ]
    }
   },
   "care": {
@@ -377,7 +602,8 @@
     "risk": 4.4,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "carysil": {
@@ -405,7 +631,8 @@
     "risk": -3.1,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "cff": {
@@ -433,7 +660,8 @@
     "risk": 8.4,
     "entry": 977.9,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "concordbio": {
@@ -461,7 +689,58 @@
     "risk": -7.3,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": [
+     {
+      "name": "NIFTY500 HEALTHCARE",
+      "kind": "group",
+      "stage": "ABSTAIN",
+      "sub": null,
+      "verdict": "TOO YOUNG"
+     },
+     {
+      "name": "NIFTY 500",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     },
+     {
+      "name": "NIFTY MIDSMALLCAP 400",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY MIDSMALLCAP400 50:50",
+      "kind": "broad",
+      "stage": "ABSTAIN",
+      "sub": null,
+      "verdict": "TOO YOUNG"
+     },
+     {
+      "name": "NIFTY SMALLCAP 250",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY TOTAL MARKET",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     },
+     {
+      "name": "NIFTY500 LARGEMIDSMALL EQUAL-CAP WEIGHTED",
+      "kind": "broad",
+      "stage": "S3",
+      "sub": null,
+      "verdict": "NO NEW BUYS"
+     }
+    ]
    }
   },
   "concordcs": {
@@ -489,7 +768,8 @@
     "risk": 21.1,
     "entry": 2649.1,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "datamatics": {
@@ -517,7 +797,23 @@
     "risk": -6.0,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": [
+     {
+      "name": "NIFTY MICROCAP 250",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY TOTAL MARKET",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     }
+    ]
    }
   },
   "dcmshriram": {
@@ -545,7 +841,51 @@
     "risk": 2.9,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": [
+     {
+      "name": "NIFTY 500",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     },
+     {
+      "name": "NIFTY MIDSMALLCAP 400",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY MIDSMALLCAP400 50:50",
+      "kind": "broad",
+      "stage": "ABSTAIN",
+      "sub": null,
+      "verdict": "TOO YOUNG"
+     },
+     {
+      "name": "NIFTY SMALLCAP 250",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY TOTAL MARKET",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     },
+     {
+      "name": "NIFTY500 LARGEMIDSMALL EQUAL-CAP WEIGHTED",
+      "kind": "broad",
+      "stage": "S3",
+      "sub": null,
+      "verdict": "NO NEW BUYS"
+     }
+    ]
    }
   },
   "dee": {
@@ -576,7 +916,8 @@
     "risk": 3.2,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "deep": {
@@ -607,7 +948,8 @@
     "risk": 6.0,
     "entry": 635.4,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "diacabs": {
@@ -638,7 +980,23 @@
     "risk": 20.7,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": [
+     {
+      "name": "NIFTY MICROCAP 250",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY TOTAL MARKET",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     }
+    ]
    }
   },
   "dycl": {
@@ -669,7 +1027,8 @@
     "risk": 8.8,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "dynamatic": {
@@ -700,7 +1059,30 @@
     "risk": 13.2,
     "entry": 13294.0,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": [
+     {
+      "name": "NIFTY INDIA DEFENCE",
+      "kind": "group",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY MICROCAP 250",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY TOTAL MARKET",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     }
+    ]
    }
   },
   "ecl": {
@@ -728,7 +1110,23 @@
     "risk": 7.4,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": [
+     {
+      "name": "NIFTY MICROCAP 250",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY TOTAL MARKET",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     }
+    ]
    }
   },
   "eil": {
@@ -756,7 +1154,58 @@
     "risk": 20.0,
     "entry": 298.4,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": [
+     {
+      "name": "NIFTY INDIA INFRASTRUCTURE & LOGISTICS",
+      "kind": "group",
+      "stage": "ABSTAIN",
+      "sub": null,
+      "verdict": "TOO YOUNG"
+     },
+     {
+      "name": "NIFTY 500",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     },
+     {
+      "name": "NIFTY MIDSMALLCAP 400",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY MIDSMALLCAP400 50:50",
+      "kind": "broad",
+      "stage": "ABSTAIN",
+      "sub": null,
+      "verdict": "TOO YOUNG"
+     },
+     {
+      "name": "NIFTY SMALLCAP 250",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY TOTAL MARKET",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     },
+     {
+      "name": "NIFTY500 LARGEMIDSMALL EQUAL-CAP WEIGHTED",
+      "kind": "broad",
+      "stage": "S3",
+      "sub": null,
+      "verdict": "NO NEW BUYS"
+     }
+    ]
    }
   },
   "epl": {
@@ -787,7 +1236,23 @@
     "risk": 8.6,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": [
+     {
+      "name": "NIFTY MICROCAP 250",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY TOTAL MARKET",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     }
+    ]
    }
   },
   "garware": {
@@ -818,7 +1283,23 @@
     "risk": 16.8,
     "entry": 7895.0,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": [
+     {
+      "name": "NIFTY MICROCAP 250",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY TOTAL MARKET",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     }
+    ]
    }
   },
   "gmdc": {
@@ -846,7 +1327,58 @@
     "risk": 12.6,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": [
+     {
+      "name": "NIFTY 500",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     },
+     {
+      "name": "NIFTY MIDSMALLCAP 400",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY MIDSMALLCAP400 50:50",
+      "kind": "broad",
+      "stage": "ABSTAIN",
+      "sub": null,
+      "verdict": "TOO YOUNG"
+     },
+     {
+      "name": "NIFTY SMALLCAP 100",
+      "kind": "broad",
+      "stage": "S2",
+      "sub": "S2-early",
+      "verdict": "HUNT HERE"
+     },
+     {
+      "name": "NIFTY SMALLCAP 250",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY TOTAL MARKET",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     },
+     {
+      "name": "NIFTY500 LARGEMIDSMALL EQUAL-CAP WEIGHTED",
+      "kind": "broad",
+      "stage": "S3",
+      "sub": null,
+      "verdict": "NO NEW BUYS"
+     }
+    ]
    }
   },
   "gpil": {
@@ -877,7 +1409,58 @@
     "risk": 13.3,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": [
+     {
+      "name": "NIFTY 500",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     },
+     {
+      "name": "NIFTY MIDSMALLCAP 400",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY MIDSMALLCAP400 50:50",
+      "kind": "broad",
+      "stage": "ABSTAIN",
+      "sub": null,
+      "verdict": "TOO YOUNG"
+     },
+     {
+      "name": "NIFTY SMALLCAP 100",
+      "kind": "broad",
+      "stage": "S2",
+      "sub": "S2-early",
+      "verdict": "HUNT HERE"
+     },
+     {
+      "name": "NIFTY SMALLCAP 250",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY TOTAL MARKET",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     },
+     {
+      "name": "NIFTY500 LARGEMIDSMALL EQUAL-CAP WEIGHTED",
+      "kind": "broad",
+      "stage": "S3",
+      "sub": null,
+      "verdict": "NO NEW BUYS"
+     }
+    ]
    }
   },
   "haldyn": {
@@ -905,7 +1488,8 @@
     "risk": 11.9,
     "entry": 141.16,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "happy": {
@@ -936,7 +1520,8 @@
     "risk": 4.4,
     "entry": 1769.0,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "insecticides": {
@@ -967,7 +1552,8 @@
     "risk": 10.9,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "interarch": {
@@ -998,7 +1584,8 @@
     "risk": 9.0,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "jgchem": {
@@ -1026,7 +1613,8 @@
     "risk": -1.7,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "kmew": {
@@ -1057,7 +1645,8 @@
     "risk": 25.7,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "kolte": {
@@ -1085,7 +1674,8 @@
     "risk": 3.8,
     "entry": 424.1,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "macpower": {
@@ -1113,7 +1703,8 @@
     "risk": 21.7,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "mayur": {
@@ -1144,7 +1735,8 @@
     "risk": -0.4,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "monarch": {
@@ -1172,7 +1764,8 @@
     "risk": 5.1,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "morepen": {
@@ -1203,7 +1796,8 @@
     "risk": 9.8,
     "entry": 88.23,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "mps": {
@@ -1234,7 +1828,8 @@
     "risk": -4.0,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "netweb": {
@@ -1262,7 +1857,65 @@
     "risk": 3.2,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": [
+     {
+      "name": "NIFTY INDIA DIGITAL",
+      "kind": "group",
+      "stage": "S2",
+      "sub": "S2-early",
+      "verdict": "S2 · LAGGING"
+     },
+     {
+      "name": "NIFTY 500",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     },
+     {
+      "name": "NIFTY MIDSMALLCAP 400",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY MIDSMALLCAP400 50:50",
+      "kind": "broad",
+      "stage": "ABSTAIN",
+      "sub": null,
+      "verdict": "TOO YOUNG"
+     },
+     {
+      "name": "NIFTY SMALLCAP 100",
+      "kind": "broad",
+      "stage": "S2",
+      "sub": "S2-early",
+      "verdict": "HUNT HERE"
+     },
+     {
+      "name": "NIFTY SMALLCAP 250",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY TOTAL MARKET",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     },
+     {
+      "name": "NIFTY500 LARGEMIDSMALL EQUAL-CAP WEIGHTED",
+      "kind": "broad",
+      "stage": "S3",
+      "sub": null,
+      "verdict": "NO NEW BUYS"
+     }
+    ]
    }
   },
   "nitta": {
@@ -1290,7 +1943,8 @@
     "risk": 14.1,
     "entry": 1679.2,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "nlc": {
@@ -1321,7 +1975,79 @@
     "risk": 3.6,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": [
+     {
+      "name": "NIFTY CPSE",
+      "kind": "group",
+      "stage": "S4",
+      "sub": null,
+      "verdict": "SHUN"
+     },
+     {
+      "name": "NIFTY ENERGY",
+      "kind": "group",
+      "stage": "S3",
+      "sub": null,
+      "verdict": "NO NEW BUYS"
+     },
+     {
+      "name": "NIFTY INDIA INFRASTRUCTURE & LOGISTICS",
+      "kind": "group",
+      "stage": "ABSTAIN",
+      "sub": null,
+      "verdict": "TOO YOUNG"
+     },
+     {
+      "name": "NIFTY 500",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     },
+     {
+      "name": "NIFTY LARGEMIDCAP 250",
+      "kind": "broad",
+      "stage": "S3",
+      "sub": null,
+      "verdict": "NO NEW BUYS"
+     },
+     {
+      "name": "NIFTY MIDCAP 150",
+      "kind": "broad",
+      "stage": "S3",
+      "sub": null,
+      "verdict": "NO NEW BUYS"
+     },
+     {
+      "name": "NIFTY MIDSMALLCAP 400",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY MIDSMALLCAP400 50:50",
+      "kind": "broad",
+      "stage": "ABSTAIN",
+      "sub": null,
+      "verdict": "TOO YOUNG"
+     },
+     {
+      "name": "NIFTY TOTAL MARKET",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     },
+     {
+      "name": "NIFTY500 LARGEMIDSMALL EQUAL-CAP WEIGHTED",
+      "kind": "broad",
+      "stage": "S3",
+      "sub": null,
+      "verdict": "NO NEW BUYS"
+     }
+    ]
    }
   },
   "nrbbearing": {
@@ -1352,7 +2078,8 @@
     "risk": 1.4,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "obsc": {
@@ -1380,7 +2107,16 @@
     "risk": 11.6,
     "entry": 787.95,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": [
+     {
+      "name": "NIFTY SME EMERGE",
+      "kind": "group",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     }
+    ]
    }
   },
   "oriana": {
@@ -1411,7 +2147,16 @@
     "risk": -14.9,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": [
+     {
+      "name": "NIFTY SME EMERGE",
+      "kind": "group",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     }
+    ]
    }
   },
   "panamapet": {
@@ -1439,7 +2184,8 @@
     "risk": -3.8,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "paras": {
@@ -1467,7 +2213,30 @@
     "risk": 9.0,
     "entry": 1257.9,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": [
+     {
+      "name": "NIFTY INDIA DEFENCE",
+      "kind": "group",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY MICROCAP 250",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY TOTAL MARKET",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     }
+    ]
    }
   },
   "rajesh": {
@@ -1495,7 +2264,8 @@
     "risk": 5.0,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "rossell": {
@@ -1526,7 +2296,8 @@
     "risk": 25.1,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "sansera": {
@@ -1554,7 +2325,23 @@
     "risk": 22.5,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": [
+     {
+      "name": "NIFTY MICROCAP 250",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY TOTAL MARKET",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     }
+    ]
    }
   },
   "sathlokhar": {
@@ -1582,7 +2369,16 @@
     "risk": -1.5,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": [
+     {
+      "name": "NIFTY SME EMERGE",
+      "kind": "group",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     }
+    ]
    }
   },
   "shreepushk": {
@@ -1610,7 +2406,8 @@
     "risk": 15.0,
     "entry": 514.9,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "shreerefr": {
@@ -1638,7 +2435,8 @@
     "risk": -1.1,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "ssw": {
@@ -1669,7 +2467,8 @@
     "risk": 33.1,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "sunita": {
@@ -1700,7 +2499,8 @@
     "risk": 15.4,
     "entry": 1058.0,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "syncomf": {
@@ -1714,7 +2514,8 @@
     "risk": 26.1,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "syrma": {
@@ -1742,7 +2543,51 @@
     "risk": 6.6,
     "entry": 1491.1,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": [
+     {
+      "name": "NIFTY 500",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     },
+     {
+      "name": "NIFTY MIDSMALLCAP 400",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY MIDSMALLCAP400 50:50",
+      "kind": "broad",
+      "stage": "ABSTAIN",
+      "sub": null,
+      "verdict": "TOO YOUNG"
+     },
+     {
+      "name": "NIFTY SMALLCAP 250",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY TOTAL MARKET",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     },
+     {
+      "name": "NIFTY500 LARGEMIDSMALL EQUAL-CAP WEIGHTED",
+      "kind": "broad",
+      "stage": "S3",
+      "sub": null,
+      "verdict": "NO NEW BUYS"
+     }
+    ]
    }
   },
   "transraill": {
@@ -1773,7 +2618,23 @@
     "risk": 6.0,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": [
+     {
+      "name": "NIFTY MICROCAP 250",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY TOTAL MARKET",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     }
+    ]
    }
   },
   "tvssrichak": {
@@ -1801,7 +2662,8 @@
     "risk": 12.0,
     "entry": 4522.9,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "unimech": {
@@ -1832,7 +2694,8 @@
     "risk": 20.4,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "univcables": {
@@ -1860,7 +2723,8 @@
     "risk": -1.6,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "wabag": {
@@ -1888,7 +2752,23 @@
     "risk": 8.1,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": [
+     {
+      "name": "NIFTY MICROCAP 250",
+      "kind": "broad",
+      "stage": "TRANS",
+      "sub": null,
+      "verdict": "BETWEEN STAGES"
+     },
+     {
+      "name": "NIFTY TOTAL MARKET",
+      "kind": "broad",
+      "stage": "S1",
+      "sub": null,
+      "verdict": "BASE · WATCH"
+     }
+    ]
    }
   },
   "wheels": {
@@ -1916,7 +2796,8 @@
     "risk": 20.2,
     "entry": 2120.6,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   },
   "yash": {
@@ -1947,7 +2828,8 @@
     "risk": 26.9,
     "entry": null,
     "asof": "2026-11-23",
-    "chart": true
+    "chart": true,
+    "ix": []
    }
   }
  }
