@@ -532,6 +532,14 @@ footer.page-footer { text-align: center; padding: 24px; color: #888; font-size: 
 .ig-ixchip.broad { border-color: #bbb; color: #555; }
 .ig-icon { display: inline-block; margin-right: 6px; font-size: 1.05em; }
 .ig-title .ig-icon { font-size: 34px; vertical-align: 2px; }
+.ig-icon-img { width: 36px; height: 27px; object-fit: cover; border-radius: 5px; border: 1.5px solid #2b2b2b; vertical-align: -6px; margin-right: 9px; background: #fff; }
+.ig-polaroid { float: right; width: 132px; margin: 0 0 8px 12px; padding: 5px 5px 4px; background: #fff; border: 1px solid #e2dccb;
+  box-shadow: 0 3px 8px rgba(0,0,0,.16); transform: rotate(2.5deg); position: relative; }
+.ig-polaroid::before { content: ""; position: absolute; top: -9px; left: 50%; width: 50px; height: 15px; margin-left: -25px;
+  background: rgba(253,240,176,.9); border: 1px solid rgba(0,0,0,.06); transform: rotate(-5deg); }
+.ig-polaroid img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; background: #fffdf7; }
+.ig-polaroid figcaption { font-size: 11.5px; color: #555; text-align: center; line-height: 1.15; margin-top: 4px; }
+@media (max-width: 620px) { .ig-polaroid { width: 104px; } }
 .ig-prom-grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr) minmax(0, 1fr); gap: 16px; margin-top: 4px; }
 .ig-prom-bar { display: flex; height: 26px; border: 2px solid var(--ink); border-radius: 8px 3px 8px 3px; overflow: hidden; }
 .ig-prom-bar span { display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 14px; min-width: 18px; }
@@ -7228,7 +7236,7 @@ function igTiles(c) {
 function igSnapshot(s, c, hist) {
   return `<div class="ig-board">
     <div class="ig-box ig-c5" style="--hl:var(--yellow)"><div class="ig-h">The story in one line</div>
-      <p class="ig-thesis">${s.thesis}</p>${igConv(s.conviction)}</div>
+      ${igPolaroid(s.id)}<p class="ig-thesis">${s.thesis}</p>${igConv(s.conviction)}</div>
     <div class="ig-box ig-c4" style="--hl:var(--blue)"><div class="ig-h">Price path</div>${igSpark(hist)}${igRange(c)}</div>
     <div class="ig-box ig-c3" style="--hl:var(--green)"><div class="ig-h">Vital signs</div>${igTiles(c)}</div>
     ${igLenses(s.id)}
@@ -7463,7 +7471,88 @@ const IG_ICON = {
   shreerefr: '❄️', anthem: '🔬', atlantaele: '🧲', macpower: '🛠️', tvssrichak: '🛵', shreepushk: '🎨',
   jgchem: '⚪', cff: '🌊', wabag: '💦', panamapet: '⛽', univcables: '🔌', '63moons': '🌙', syncomf: '💊',
 };
-function igIcon(id) { return IG_ICON[id] ? `<span class="ig-icon" aria-hidden="true">${IG_ICON[id]}</span>` : ''; }
+// ---------- A picture of each business, beside its name (photos from the company's own filings; sketches where none was usable) ----------
+const IG_PIC = {
+  "63moons": ["jpg", "cybersecurity shield (63SATS)", "company annual report, p.5"],
+  "accent": ["jpg", "MCC powder and the three new excipients (CCS, SSG, CMC)", "company Q2 FY27 investor presentation, p.23"],
+  "aimtron": ["jpg", "circuit board on an automated assembly line", "company investor presentation, Apr-2026, p.40"],
+  "amic": ["jpg", "glowing forged billets", "company FY26 annual report, p.2"],
+  "anthem": ["svg", "lab flask and molecule (sketch)", "drawn for this dashboard"],
+  "anupam": ["jpg", "agrochemical research: pipette over a seedling", "company investor presentation, Aug-2026, p.2"],
+  "astec": ["jpg", "chemist with a flask in the lab", "company annual report, p.29"],
+  "atlantaele": ["jpg", "power transformers at a substation", "company investor presentation, May-2026, p.16"],
+  "aurion": ["jpg", "metro fare gates", "company investor presentation, May-2026, p.16"],
+  "avalon": ["jpg", "cable harness connectors", "company investor presentation, Aug-2026, p.41"],
+  "axiscades": ["svg", "drone under radar watch (sketch)", "drawn for this dashboard"],
+  "azad": ["jpg", "jet engine cutaway", "company investor presentation, Aug-2026, p.2"],
+  "care": ["jpg", "magnifying glass on a target (credit assessment)", "company Q2 FY27 investor presentation, p.8"],
+  "carysil": ["jpg", "kitchen sink with tap", "company investor presentation, Aug-2026, p.20"],
+  "cff": ["svg", "submarine (sketch)", "drawn for this dashboard"],
+  "concordbio": ["jpg", "rows of test tubes", "company investor presentation, Jun-2026, p.4"],
+  "concordcs": ["jpg", "commuter train", "company investor presentation, Jul-2024, p.12"],
+  "datamatics": ["jpg", "AI brain on a circuit board", "company investor presentation, Aug-2026, p.13"],
+  "dcmshriram": ["jpg", "chlor-alkali chemical complex", "company investor presentation, May-2026, p.2"],
+  "dee": ["jpg", "pipe glowing in an induction-bending machine", "company investor presentation, May-2026, p.26"],
+  "deep": ["jpg", "workover rig at sunset", "company investor presentation, May-2026, p.16"],
+  "diacabs": ["jpg", "drum of coloured cable", "company filing, May-2026, p.36"],
+  "dycl": ["jpg", "power cables of several sizes", "company investor presentation, May-2026, p.3"],
+  "dynamatic": ["jpg", "aircraft door structure on the assembly jig", "company investor presentation, Feb-2025, p.6"],
+  "ecl": ["jpg", "ductile-iron pipes stacked", "company investor presentation, Aug-2026, p.2"],
+  "eil": ["jpg", "refinery at dusk", "company filing, Aug-2026, p.2"],
+  "epl": ["jpg", "laminated tubes", "company investor presentation, Aug-2026, p.16"],
+  "garware": ["jpg", "car wrapped in Garware film at an application studio", "company investor presentation, Aug-2026, p.33"],
+  "gmdc": ["svg", "excavator at an open-cast mine (sketch)", "drawn for this dashboard"],
+  "gpil": ["jpg", "molten steel in the rolling mill", "company investor presentation, Aug-2026, p.7"],
+  "haldyn": ["jpg", "amber and green glass bottles (FY26 annual report cover)", "company FY26 annual report, p.2"],
+  "happy": ["jpg", "crankshaft under inspection", "company investor presentation, Aug-2026, p.43"],
+  "insecticides": ["jpg", "crop-protection product packs", "company investor presentation, Jun-2026, p.13"],
+  "interarch": ["jpg", "pre-engineered steel building frame", "company investor presentation, Feb-2025, p.13"],
+  "jgchem": ["jpg", "zinc slabs, the raw material for zinc oxide", "company investor presentation, May-2025, p.11"],
+  "kmew": ["jpg", "dredging at a port", "company investor presentation, Jun-2026, p.2"],
+  "kolte": ["jpg", "residential towers", "company investor presentation, Nov-2025, p.15"],
+  "macpower": ["jpg", "CNC lathe turning metal", "company investor presentation, Aug-2025, p.9"],
+  "mayur": ["jpg", "car seat, handbag, jacket and shoes in synthetic leather (FY26 annual report cover)", "company FY26 annual report, p.2"],
+  "monarch": ["jpg", "market chart over city towers", "company FY26 annual report, p.23"],
+  "morepen": ["jpg", "tablets and a stethoscope", "company filing, Nov-2025, p.13"],
+  "mps": ["svg", "book turning digital (sketch)", "drawn for this dashboard"],
+  "netweb": ["jpg", "rack servers", "company investor presentation, Jul-2026, p.15"],
+  "nitta": ["jpg", "knee joint (collagen for joint health)", "company annual report, Jul-2026, p.16"],
+  "nlc": ["jpg", "bucket-wheel excavator in a lignite mine", "company investor presentation, May-2026, p.5"],
+  "nrbbearing": ["svg", "needle roller bearing (sketch)", "drawn for this dashboard"],
+  "obsc": ["jpg", "molten metal being poured for precision castings", "company investor presentation, May-2026, p.35"],
+  "oriana": ["jpg", "solar farm", "company investor presentation, May-2025, p.20"],
+  "panamapet": ["svg", "oil drum and drop (sketch)", "drawn for this dashboard"],
+  "paras": ["jpg", "satellite in orbit", "company investor presentation, Jun-2025, p.36"],
+  "rajesh": ["jpg", "transmission tower", "company filing, Apr-2026, p.26"],
+  "rossell": ["jpg", "fighter jet, tank and warship (defence electronics)", "company filing, Sep-2026, p.7"],
+  "sansera": ["jpg", "CNC cutter machining a part", "company investor presentation, Aug-2026, p.13"],
+  "sathlokhar": ["jpg", "steel-frame building under construction", "company investor presentation, May-2026, p.33"],
+  "shreepushk": ["jpg", "dyed yarn and dye powders", "company investor presentation, May-2025, p.20"],
+  "shreerefr": ["jpg", "marine chiller units on the shop floor", "company annual report, Aug-2026, p.6"],
+  "ssw": ["jpg", "aluminium steering knuckle", "company investor presentation, Jul-2026, p.8"],
+  "sunita": ["jpg", "artillery shell body", "company investor presentation, Sep-2025, p.13"],
+  "syncomf": ["svg", "capsule and blister pack (sketch)", "drawn for this dashboard"],
+  "syrma": ["jpg", "PCBs by end market: automotive, appliances, display, lighting", "company investor presentation, Jun-2026, p.20"],
+  "transraill": ["jpg", "conductor drums in the yard", "company investor presentation, Aug-2026, p.7"],
+  "tvssrichak": ["jpg", "motorcycle tyres", "company annual report, p.9"],
+  "unimech": ["jpg", "aircraft with ground tooling", "company investor presentation, Jun-2025, p.10"],
+  "univcables": ["svg", "cable cross-section (sketch)", "drawn for this dashboard"],
+  "wabag": ["jpg", "membrane water-treatment plant", "company annual report, p.24"],
+  "wheels": ["svg", "steel wheel (sketch)", "drawn for this dashboard"],
+  "yash": ["jpg", "transformer bushing", "company annual report, p.26"]
+};
+function igPicSrc(id) { const p = IG_PIC[id]; return p ? `img/biz/${id}.${p[0]}` : ''; }
+function igIcon(id) {
+  const p = IG_PIC[id];
+  if (p) return `<img class="ig-icon-img" src="${igPicSrc(id)}" alt="" loading="lazy" aria-hidden="true">`;
+  return IG_ICON[id] ? `<span class="ig-icon" aria-hidden="true">${IG_ICON[id]}</span>` : '';
+}
+function igPolaroid(id) {
+  const p = IG_PIC[id];
+  if (!p) return '';
+  const cap = p[2] === 'drawn for this dashboard' ? 'Sketch: no usable photo in its filings' : 'From the ' + p[2];
+  return `<figure class="ig-polaroid" title="${igSafeLabel(p[1] + ' · ' + cap)}"><img src="${igPicSrc(id)}" alt="${igSafeLabel(p[1])}" loading="lazy"><figcaption>${p[1].replace(/ \(.*\)$/, '')}</figcaption></figure>`;
+}
 
 // ---------- Promises vs delivery (StockScans guidance report: management's promises with verdicts) ----------
 const IG_PROMISE_KEYS = [['d', 'Delivered', '#7cc47f'], ['o', 'On track', '#8fb9ea'], ['p', 'Partial', '#f2cf73'], ['m', 'Missed', '#ef9a9a'], ['n', 'Pending', '#cfcfcf']];
@@ -7488,7 +7577,7 @@ function renderInfographic(s, c, hist) {
   const g = (typeof INFOGRAPHIC !== 'undefined') ? INFOGRAPHIC[s.id] : null;
   if (!g) return igSnapshot(s, c, hist);
   return `<div class="ig-board">
-    <div class="ig-box ig-c4"><div class="ig-title">${igIcon(s.id)}${g.title}</div><div class="ig-hook">${g.hook}</div>
+    <div class="ig-box ig-c4">${igPolaroid(s.id)}<div class="ig-title">${g.title}</div><div class="ig-hook">${g.hook}</div>
       <div class="ig-hook2">${g.sub}</div>${igConv(s.conviction)}${igRange(c)}</div>
     <div class="ig-box ig-c8" style="--hl:var(--yellow)"><div class="ig-h">The journey</div>${igJourney(g.journey)}</div>
     <div class="ig-box ig-c4" style="--hl:var(--green)"><div class="ig-h">${g.quarter.title}</div>${igChecks(g.quarter.checks)}${igBars(g.quarter.bars)}</div>
