@@ -4017,6 +4017,2974 @@ function renderFactorSection(id) {
 // One entry per stock that has a hand-written board. Every figure comes from the stock's
 // profile (named section) or the source given on the panel. {pe} {pb} {cmp} fill live.
 const INFOGRAPHIC = {
+  // STAGED-BOARDS START
+  "dcmshriram": {
+    "asOf": "27-Nov-2026",
+    "title": "DCM Shriram",
+    "hook": "Six businesses in one P&L, waiting to be split",
+    "sub": "A cheap-looking P/E built on tax credits. The demerger is the case.",
+    "journey": {
+      "then": {
+        "label": "Then",
+        "when": "FY19 → FY26",
+        "items": [
+          "Chlor-alkali, PVC, sugar, fertiliser, seeds, Fenesta windows under one roof",
+          "ROCE 29% in FY19, 11.5% today",
+          "A ~₹4,500cr capex programme, much of it late",
+          "Promoter 66.53%, unchanged for 12 quarters"
+        ]
+      },
+      "now": {
+        "label": "Now",
+        "when": "Q2 FY27 · Sep-2026",
+        "items": [
+          "Revenue ₹3,977cr, +22%, but PAT −33%",
+          "Chemicals margin 27.9% → 11.7%",
+          "Vinyl margins tripled on the PVC minimum import price",
+          "TTM profit carries ~₹600cr of one-off tax credits"
+        ]
+      },
+      "next": {
+        "label": "Next",
+        "when": "still to prove",
+        "items": [
+          "Demerger application to government within FY27",
+          "AlCl₃ and CaCl₂ take chlorine to ~50% captive",
+          "PVC minimum import price lapses ~24-Jan-2027",
+          "Bioseed back to normal in FY28"
+        ]
+      }
+    },
+    "quarter": {
+      "title": "Q2 FY27 update",
+      "checks": [
+        {
+          "s": "good",
+          "t": "Revenue ₹3,977cr, +22% YoY"
+        },
+        {
+          "s": "bad",
+          "t": "PBDIT ₹319cr vs ₹408cr; PAT ₹106cr, −33%"
+        },
+        {
+          "s": "bad",
+          "t": "Chemicals PBDIT −38%: margin 27.9% → 11.7%"
+        },
+        {
+          "s": "bad",
+          "t": "Bioseed PBDIT −₹41cr vs −₹7cr"
+        },
+        {
+          "s": "good",
+          "t": "Caustic ECU ₹32,774/t, above the ₹30,000 trigger"
+        }
+      ],
+      "bars": {
+        "label": "Revenue by quarter, ₹cr (operating margin below)",
+        "points": [
+          {
+            "x": "Q2 FY26",
+            "v": 3272,
+            "note": "9.4%"
+          },
+          {
+            "x": "Q3",
+            "v": 3811,
+            "note": "13.9%"
+          },
+          {
+            "x": "Q4",
+            "v": 3193,
+            "note": "11.1%"
+          },
+          {
+            "x": "Q1 FY27",
+            "v": 3564,
+            "note": "9.4%"
+          },
+          {
+            "x": "Q2",
+            "v": 3977,
+            "note": "7.3%"
+          }
+        ],
+        "foot": "Bars: StockScans quarterly (revenue, OPM). Checklist: Q2 FY27 press release and deck (company PBDIT basis)."
+      }
+    },
+    "caps": {
+      "have": [
+        {
+          "i": "🏭",
+          "t": "Chlor-alkali at Bharuch and Kota, caustic ~89% utilised"
+        },
+        {
+          "i": "💰",
+          "t": "ICRA AA+; debt/EBITDA ~1.1x against a 1.5x ceiling"
+        },
+        {
+          "i": "🌾",
+          "t": "Sugar, ethanol and fertiliser: steady cash engines"
+        },
+        {
+          "i": "🪟",
+          "t": "Fenesta: a ₹1,000cr+ windows brand"
+        }
+      ],
+      "wip": [
+        {
+          "i": "🧪",
+          "t": "Epoxy chain: ECH ~70% utilised, 50 KTPA by Q2 FY28"
+        },
+        {
+          "i": "⚗️",
+          "t": "AlCl₃ / CaCl₂ to use chlorine that sells at −₹7–8k/t"
+        },
+        {
+          "i": "🧂",
+          "t": "Salt works (2.1 lakh TPA) acquisition, Q3 FY27"
+        }
+      ],
+      "away": [
+        {
+          "i": "✂️",
+          "t": "The demerger: announced once before, not yet filed"
+        },
+        {
+          "i": "🌱",
+          "t": "Bioseed: FY27 written off as a loss year"
+        },
+        {
+          "i": "📉",
+          "t": "ROCE back above the mid-teens"
+        }
+      ]
+    },
+    "peers": {
+      "names": [
+        "DCM Shriram",
+        "Guj. Alkalies",
+        "Balrampur"
+      ],
+      "colors": [
+        "#9cc3f0",
+        "#f4a7b3",
+        "#f7dc6f"
+      ],
+      "metrics": [
+        {
+          "label": "P/E (x)",
+          "vals": [
+            10.3,
+            31.7,
+            31.7
+          ]
+        },
+        {
+          "label": "ROCE (%)",
+          "vals": [
+            11.3,
+            5.1,
+            11.1
+          ]
+        }
+      ],
+      "note": "DCM's ~10x is made by tax credits. On normal earnings it is ~22x, much nearer its peers than it looks.",
+      "source": "StockScans, 27-Nov-2026; ROCE trailing twelve months. Normalised P/E from the DCMSHRIRAM profile."
+    },
+    "scenarios": {
+      "asOf": "4-Nov-2026",
+      "items": [
+        {
+          "name": "Bear",
+          "p": 20,
+          "value": 625
+        },
+        {
+          "name": "Base",
+          "p": 55,
+          "value": 981
+        },
+        {
+          "name": "Bull",
+          "p": 25,
+          "value": 1552
+        }
+      ],
+      "note": "My estimates: FY28 PAT × multiple → market cap (profile §6, 4-Nov re-derivation) ÷ ~15.6cr shares."
+    },
+    "promises": {
+      "since": "FY22",
+      "counts": {
+        "d": 17,
+        "o": 13,
+        "p": 10,
+        "m": 5,
+        "n": 2
+      },
+      "missed": [
+        "ECH plant by Q1 FY24: came Oct-2025 / Apr-2026, ~2 years late",
+        "Fenesta EBITDA margin 15–20%: 13.5% in FY26, target reset to ~14%",
+        "Ethanol towards 18 crore litres: capacity still 15–16 crore"
+      ],
+      "live": [
+        "Demerger application in FY27, completion Q1 FY28",
+        "Chlorine ~50% captive, ~85% tied up (about 70% now)",
+        "Tax outgo ~19% for 5 years on a ₹376cr MAT credit"
+      ],
+      "source": "StockScans guidance report, 27-Nov-2026: promises made on calls and in decks, with StockScans' verdicts against later filings."
+    },
+    "take": {
+      "points": [
+        "A strong family balance sheet: AA+ rated, promoter unchanged for 12 quarters.",
+        "The headline {pe}x P/E is tax credits. On normal earnings it is ~22x for an 11% ROCE.",
+        "Q2 showed the chemical engine sputtering: margin 27.9% → 11.7%.",
+        "The demerger filing is the one event that can re-rate it."
+      ],
+      "watchLabel": "Under Watch: downgrade if",
+      "watch": [
+        "caustic ECU holds below ₹30,000/t, or debt/EBITDA nears 1.5x",
+        "the demerger stalls again"
+      ],
+      "verdict": "Medium, Under Watch: six businesses waiting for their split."
+    },
+    "sources": "Q2 FY27 results, deck and call (26-Oct, transcript filed 3-Nov); StockScans quarterly financials, guidance report and ratios (27-Nov-2026); DCMSHRIRAM profile (4-Nov-2026 rewrite)."
+  },
+  "mayur": {
+    "asOf": "27-Nov-2026",
+    "title": "Mayur Uniquoters",
+    "hook": "From Rajasthan coating lines to Detroit car seats",
+    "sub": "Founder-run since 1974. Dollar exports are both the margin and the tariff risk.",
+    "journey": {
+      "then": {
+        "label": "Then",
+        "when": "1974 → FY24",
+        "items": [
+          "Synthetic leather for Indian footwear, two-wheelers and furniture",
+          "Founder Suresh Kumar Poddar, CMD for 51 years",
+          "US car-maker approvals won over 5–7 years each",
+          "FY24: revenue ₹803cr, +3.5%"
+        ]
+      },
+      "now": {
+        "label": "Now",
+        "when": "Q2 FY27 · Sep-2026",
+        "items": [
+          "Exports ~43% of revenue (consolidated)",
+          "Operating margin 27.6%; TTM revenue past ₹1,000cr",
+          "Capacity 75–78% used; new line ordered for Feb–Mar 2027",
+          "Promoter buying: 58.59% → 58.77%"
+        ]
+      },
+      "next": {
+        "label": "Next",
+        "when": "still to prove",
+        "items": [
+          "A plant outside India to answer US tariffs: undecided for ~2 years",
+          "Revenue +10–12% a year for 3 years, as guided",
+          "PU leather beyond ₹27cr a year",
+          "Succession, after shareholders voted down two promoter-family resolutions"
+        ]
+      }
+    },
+    "quarter": {
+      "title": "Q2 FY27 update",
+      "checks": [
+        {
+          "s": "good",
+          "t": "Revenue ₹283cr, +17.7% YoY"
+        },
+        {
+          "s": "good",
+          "t": "Operating margin 27.6%, above the 22% floor management set"
+        },
+        {
+          "s": "good",
+          "t": "PAT ₹58cr, +42%"
+        },
+        {
+          "s": "watch",
+          "t": "Standalone exports 35.8%: the 38% trigger fired on its wording"
+        },
+        {
+          "s": "watch",
+          "t": "The overseas plant is still not decided"
+        }
+      ],
+      "bars": {
+        "label": "Revenue by quarter, ₹cr (operating margin below)",
+        "points": [
+          {
+            "x": "Q2 FY26",
+            "v": 240,
+            "note": "21.0%"
+          },
+          {
+            "x": "Q3",
+            "v": 237,
+            "note": "23.4%"
+          },
+          {
+            "x": "Q4",
+            "v": 273,
+            "note": "31.4%"
+          },
+          {
+            "x": "Q1 FY27",
+            "v": 269,
+            "note": "21.9%"
+          },
+          {
+            "x": "Q2",
+            "v": 283,
+            "note": "27.6%"
+          }
+        ],
+        "foot": "Bars: StockScans quarterly (consolidated revenue, OPM). Q4 FY26's 31% was a one-time forex gain, management said."
+      }
+    },
+    "caps": {
+      "have": [
+        {
+          "i": "🚗",
+          "t": "Approved by Ford, GM, Mercedes and BMW: 5–7 years to earn"
+        },
+        {
+          "i": "🧵",
+          "t": "Integrated: base fabric, resin blending, coating, embossing"
+        },
+        {
+          "i": "💰",
+          "t": "86% cash conversion; no dilution in 3 years"
+        },
+        {
+          "i": "🇪🇺",
+          "t": "European subsidiary for retail exports"
+        }
+      ],
+      "wip": [
+        {
+          "i": "🏭",
+          "t": "New coating line, under ₹50cr, Feb–Mar 2027"
+        },
+        {
+          "i": "🌍",
+          "t": "Export share guided at 40–45% for FY27"
+        },
+        {
+          "i": "👟",
+          "t": "Sports-shoe brands: trial orders only"
+        }
+      ],
+      "away": [
+        {
+          "i": "🌎",
+          "t": "A plant outside India for the US market"
+        },
+        {
+          "i": "🧪",
+          "t": "PU leather at scale: lines 25–30% utilised"
+        },
+        {
+          "i": "👔",
+          "t": "A professional CEO and a succession plan"
+        }
+      ]
+    },
+    "peers": {
+      "names": [
+        "Mayur",
+        "Responsive",
+        "Sansera"
+      ],
+      "colors": [
+        "#9cc3f0",
+        "#f4a7b3",
+        "#f7dc6f"
+      ],
+      "metrics": [
+        {
+          "label": "P/E (x)",
+          "vals": [
+            12.4,
+            67.2,
+            75.9
+          ]
+        },
+        {
+          "label": "ROCE (%)",
+          "vals": [
+            24.8,
+            4.8,
+            14.4
+          ]
+        }
+      ],
+      "note": "Highest return of the three at the lowest multiple. Strip the other income (~21% of PBT) and it is still only ~16x.",
+      "source": "StockScans, 27-Nov-2026; ROCE trailing twelve months. Responsive is the nearest listed synthetic-leather maker; Sansera is from the profile's §6 set."
+    },
+    "scenarios": {
+      "asOf": "10-Nov-2026",
+      "items": [
+        {
+          "name": "Bear",
+          "p": 20,
+          "value": 509
+        },
+        {
+          "name": "Base",
+          "p": 55,
+          "value": 979
+        },
+        {
+          "name": "Bull",
+          "p": 25,
+          "value": 1382
+        }
+      ],
+      "note": "My estimates: FY28 PAT × multiple → market cap (profile §6) ÷ ~4.34cr shares."
+    },
+    "promises": {
+      "since": "FY22",
+      "counts": {
+        "d": 14,
+        "o": 6,
+        "p": 7,
+        "m": 21
+      },
+      "missed": [
+        "Mexico plant decision 'within 3 months' (Q2 FY25): still on hold",
+        "Revenue ₹1,100–1,200cr by FY25 'for sure': ₹880cr",
+        "Export OEM ~₹575cr by FY26: ~₹280cr"
+      ],
+      "live": [
+        "Margin 25–26% 'for sure' (TTM 26.2%)",
+        "Revenue +15% a year on average, FY27–FY28",
+        "New coating line running by Q1 FY28"
+      ],
+      "source": "StockScans guidance report, 27-Nov-2026: promises made on calls and in decks, with StockScans' verdicts against later filings."
+    },
+    "take": {
+      "points": [
+        "A real moat: car-maker approvals take 5–7 years to win.",
+        "Cheap at ~{pe}x for a 25% ROCE, with the promoter buying.",
+        "But ~4 in 10 rupees are dollar exports exposed to US tariffs, and the plant that would answer it is undecided.",
+        "Timelines slip: StockScans scores 21 of 48 promises as missed."
+      ],
+      "watchLabel": "Under Watch: the Q3 test",
+      "watch": [
+        "a second standalone quarter of exports below 38%, with export OEM not back near ₹75cr",
+        "any filing on the defeated promoter resolutions or on succession"
+      ],
+      "verdict": "High, Under Watch: a quality compounder with a tariff-shaped hole."
+    },
+    "sources": "Q2 FY27 results and call (5-Nov-2026, transcript checked against StockScans' summary); StockScans quarterly financials, guidance report and ratios (27-Nov-2026); MAYUR profile (10-Nov-2026 rewrite)."
+  },
+  "epl": {
+    "asOf": "27-Nov-2026",
+    "title": "EPL",
+    "hook": "One in three toothpaste tubes, now a beauty-packaging story",
+    "sub": "Growing at a record pace while it merges into Indorama Ventures.",
+    "journey": {
+      "then": {
+        "label": "Then",
+        "when": "Essel Propack → FY25",
+        "items": [
+          "World's largest laminated-tube maker; oral care the core",
+          "Blackstone took control in 2019 and renamed it EPL",
+          "Revenue growth 6–8% a year, FY23–FY25",
+          "Margins rebuilt to 20%+"
+        ]
+      },
+      "now": {
+        "label": "Now",
+        "when": "Q2 FY27 · Sep-2026",
+        "items": [
+          "Revenue +30% (underlying +20%); every region double digit",
+          "Beauty & cosmetics is now the largest category",
+          "Blackstone sold its entire 26.37% on 1-Sep",
+          "Net debt ₹656cr on capex ahead of demand"
+        ]
+      },
+      "next": {
+        "label": "Next",
+        "when": "still to prove",
+        "items": [
+          "Merger with Indovida (Indorama Ventures) by Q4 FY27; no open offer",
+          "Beauty market share 8% → 16%",
+          "ROCE 25%+ by FY29 (18.2% now)",
+          "Dividend resumes only after the merger"
+        ]
+      }
+    },
+    "quarter": {
+      "title": "Q2 FY27 update",
+      "checks": [
+        {
+          "s": "good",
+          "t": "Revenue ₹1,567cr, +30% YoY"
+        },
+        {
+          "s": "good",
+          "t": "Underlying EBITDA margin 20.4% (reported 18.4%)"
+        },
+        {
+          "s": "watch",
+          "t": "PAT ₹111cr, +5.6%: tax and interest absorb the growth"
+        },
+        {
+          "s": "bad",
+          "t": "Net debt ₹656cr, just over the ₹650cr trigger"
+        },
+        {
+          "s": "watch",
+          "t": "Europe margin 10.4%; recovery pushed out 2–3 quarters"
+        }
+      ],
+      "bars": {
+        "label": "Revenue by quarter, ₹cr (reported operating margin below)",
+        "points": [
+          {
+            "x": "Q2 FY26",
+            "v": 1206,
+            "note": "20.9%"
+          },
+          {
+            "x": "Q3",
+            "v": 1149,
+            "note": "20.1%"
+          },
+          {
+            "x": "Q4",
+            "v": 1300,
+            "note": "19.7%"
+          },
+          {
+            "x": "Q1 FY27",
+            "v": 1388,
+            "note": "18.8%"
+          },
+          {
+            "x": "Q2",
+            "v": 1567,
+            "note": "18.4%"
+          }
+        ],
+        "foot": "Bars: StockScans quarterly. Reported margin is diluted by landed-cost pass-through; underlying margin from the company deck."
+      }
+    },
+    "caps": {
+      "have": [
+        {
+          "i": "🧴",
+          "t": "World #1 in laminated tubes, plants in 11 countries"
+        },
+        {
+          "i": "🤝",
+          "t": "Colgate, P&G, Unilever, L'Oréal: decades-long relationships"
+        },
+        {
+          "i": "♻️",
+          "t": "Recyclable Platina tubes: 44% of volume"
+        },
+        {
+          "i": "📑",
+          "t": "Landed-cost pass-through written into contracts"
+        }
+      ],
+      "wip": [
+        {
+          "i": "💄",
+          "t": "Beauty & cosmetics: +43% in Q2"
+        },
+        {
+          "i": "🏭",
+          "t": "Thailand plant ramping since Q3 FY26"
+        },
+        {
+          "i": "🖨️",
+          "t": "Europe: Poland printing transition under way"
+        }
+      ],
+      "away": [
+        {
+          "i": "🔗",
+          "t": "Merger into Indovida: NCLT application filed 23-Oct"
+        },
+        {
+          "i": "📈",
+          "t": "ROCE 25%+ by FY29"
+        },
+        {
+          "i": "💸",
+          "t": "Debt/EBITDA 0.2–0.25x after the merger, as guided"
+        }
+      ]
+    },
+    "peers": {
+      "names": [
+        "EPL",
+        "Huhtamaki",
+        "Uflex",
+        "TCPL"
+      ],
+      "colors": [
+        "#9cc3f0",
+        "#f4a7b3",
+        "#f7dc6f",
+        "#b9e3b5"
+      ],
+      "metrics": [
+        {
+          "label": "P/E (x)",
+          "vals": [
+            19.2,
+            12.9,
+            4.9,
+            29.9
+          ]
+        },
+        {
+          "label": "ROCE (%)",
+          "vals": [
+            15.7,
+            13.2,
+            9.5,
+            18.2
+          ]
+        }
+      ],
+      "note": "Mid-pack on price among Indian packagers. The merger terms, not the multiple, will set the value.",
+      "source": "StockScans, 27-Nov-2026; ROCE trailing twelve months."
+    },
+    "scenarios": {
+      "asOf": "18-Nov-2026",
+      "items": [
+        {
+          "name": "Bear",
+          "p": 20,
+          "value": 201
+        },
+        {
+          "name": "Base",
+          "p": 55,
+          "value": 374
+        },
+        {
+          "name": "Bull",
+          "p": 25,
+          "value": 504
+        }
+      ],
+      "note": "My estimates, per share on the post-merger ~50.8cr shares: base EPS ₹18.7 × 20x, bull ₹21 × 24x, bear (merger fails) ₹13.4 × 15x (profile §6)."
+    },
+    "promises": {
+      "since": "FY22",
+      "counts": {
+        "d": 28,
+        "o": 8,
+        "p": 7,
+        "n": 4
+      },
+      "missLabel": "Fell short (none missed outright)",
+      "missed": [
+        "Europe EBITDA margin to mid-teens: 10.4% in Q2 FY27",
+        "EBITDA growing faster than revenue: +18% vs +30% in Q2",
+        "Capex back to the depreciation level: FY27 guided ₹625–700cr"
+      ],
+      "live": [
+        "Merger completes by Q4 FY27",
+        "Beauty global share 8% → 16%",
+        "ROCE 25%+ by FY29 (18.2% in Q2)"
+      ],
+      "source": "StockScans guidance report, 27-Nov-2026: promises made on calls and in decks, with StockScans' verdicts against later filings."
+    },
+    "take": {
+      "points": [
+        "A global #1 still growing 20%+ underlying.",
+        "Contracts passed the Middle East cost shock straight through to customers.",
+        "The merger changes the owner: Indorama gets control with no open offer to minorities.",
+        "At ~{pe}x the price is fair. Debt and the merger terms decide the return."
+      ],
+      "watchLabel": "Q3 FY27 rule (Rajat, 18-Nov)",
+      "watch": [
+        "net debt above ₹750cr or 0.8x TTM EBITDA counts as the trigger fired",
+        "any change to the swap ratio or promoter arrangement after Blackstone's exit"
+      ],
+      "verdict": "High, Under Watch: the business is firing; the deal is the unknown."
+    },
+    "sources": "Q2 FY27 results, deck and call; StockScans quarterly financials, guidance report and ratios (27-Nov-2026); EPL profile (18-Nov-2026 rewrite)."
+  },
+  "datamatics": {
+    "asOf": "27-Nov-2026",
+    "title": "Datamatics",
+    "hook": "A 50-year-old Mumbai back office, now selling AI agents",
+    "sub": "Margins re-rated from 13% to 21%. The open question is whether AI eats the work.",
+    "journey": {
+      "then": {
+        "label": "Then",
+        "when": "1975 → FY25",
+        "items": [
+          "Founded by Dr Lalit Kanodia; sons Rahul and Sameer run it",
+          "Back-office operations, IT services and publishing",
+          "EBITDA margin 12–15% (13.3% in FY25)",
+          "Missed most of its margin guides in FY24–FY25"
+        ]
+      },
+      "now": {
+        "label": "Now",
+        "when": "Q2 FY27 · Sep-2026",
+        "items": [
+          "Revenue ₹547cr, +11.5%; EBITDA margin 21.1%",
+          "Digital Operations: ~58% of revenue at ~23% EBIT margin",
+          "TNQ Tech (publishing technology) now wholly owned",
+          "Net cash ₹557cr after the last TNQ payment"
+        ]
+      },
+      "next": {
+        "label": "Next",
+        "when": "still to prove",
+        "items": [
+          "₹3,000cr revenue in ~3 years: 10–12% organic plus bolt-ons",
+          "Its own AI platforms winning larger deals",
+          "Spending the cash on an acquisition, carefully",
+          "Institutions own only ~0.6%"
+        ]
+      }
+    },
+    "quarter": {
+      "title": "Q2 FY27 update",
+      "checks": [
+        {
+          "s": "good",
+          "t": "Revenue ₹547cr, +11.5% YoY"
+        },
+        {
+          "s": "good",
+          "t": "EBITDA ₹116cr (+30%), margin 21.1%"
+        },
+        {
+          "s": "good",
+          "t": "H1 PAT after minorities ₹146cr, +28%"
+        },
+        {
+          "s": "watch",
+          "t": "Net cash ₹710cr → ₹557cr on the final TNQ payment"
+        },
+        {
+          "s": "watch",
+          "t": "Receivables at 66 days of sales"
+        }
+      ],
+      "bars": {
+        "label": "Revenue by quarter, ₹cr (operating margin below)",
+        "points": [
+          {
+            "x": "Q2 FY26",
+            "v": 490,
+            "note": "18.1%"
+          },
+          {
+            "x": "Q3",
+            "v": 510,
+            "note": "18.9%"
+          },
+          {
+            "x": "Q4",
+            "v": 519,
+            "note": "21.3%"
+          },
+          {
+            "x": "Q1 FY27",
+            "v": 514,
+            "note": "19.7%"
+          },
+          {
+            "x": "Q2",
+            "v": 547,
+            "note": "21.1%"
+          }
+        ],
+        "foot": "Bars: StockScans quarterly. Checklist: official transcript of the 4-Nov Q2 call (filed 9-Nov)."
+      }
+    },
+    "caps": {
+      "have": [
+        {
+          "i": "⚙️",
+          "t": "Digital Operations: the workhorse, ~23% EBIT margin"
+        },
+        {
+          "i": "💰",
+          "t": "₹557cr net cash; cash conversion 108% in FY26"
+        },
+        {
+          "i": "📚",
+          "t": "Publishing technology through Lumina Datamatics and TNQ"
+        },
+        {
+          "i": "👨‍👦",
+          "t": "Promoter 66.3%: no pledge, no dilution"
+        }
+      ],
+      "wip": [
+        {
+          "i": "🤖",
+          "t": "Own AI stack: TruAI, TruCap+, TruBot, FINATO"
+        },
+        {
+          "i": "🖥️",
+          "t": "Digital Technologies margin ~9.5%, rebuilding"
+        },
+        {
+          "i": "🛍️",
+          "t": "Customer-experience arm stabilising (+0.8%, 12% margin)"
+        }
+      ],
+      "away": [
+        {
+          "i": "🎯",
+          "t": "₹3,000cr revenue (TTM ₹2,090cr)"
+        },
+        {
+          "i": "🛒",
+          "t": "A sensible acquisition with the cash"
+        },
+        {
+          "i": "🧩",
+          "t": "Product revenue, not yet broken out"
+        }
+      ]
+    },
+    "peers": {
+      "names": [
+        "Datamatics",
+        "eClerx",
+        "Firstsource",
+        "Cyient"
+      ],
+      "colors": [
+        "#9cc3f0",
+        "#f4a7b3",
+        "#f7dc6f",
+        "#b9e3b5"
+      ],
+      "metrics": [
+        {
+          "label": "P/E (x)",
+          "vals": [
+            18.1,
+            19.1,
+            27.6,
+            33.6
+          ]
+        },
+        {
+          "label": "ROCE (%)",
+          "vals": [
+            16.9,
+            34.6,
+            16.6,
+            9.1
+          ]
+        }
+      ],
+      "note": "Priced like eClerx on half eClerx's returns, but ~14% of its market value is net cash.",
+      "source": "StockScans, 27-Nov-2026; ROCE trailing twelve months."
+    },
+    "scenarios": {
+      "asOf": "10-Nov-2026",
+      "items": [
+        {
+          "name": "Bear",
+          "p": 20,
+          "value": 508
+        },
+        {
+          "name": "Base",
+          "p": 55,
+          "value": 981
+        },
+        {
+          "name": "Bull",
+          "p": 25,
+          "value": 1481
+        }
+      ],
+      "note": "My estimates: FY28 PAT × multiple → market cap (profile §6) ÷ ~5.9cr shares."
+    },
+    "promises": {
+      "since": "FY22",
+      "counts": {
+        "d": 6,
+        "o": 4,
+        "m": 6
+      },
+      "missed": [
+        "Digital Technologies margin 'high teens' in 2–3 years: 9.5% now",
+        "FY24 revenue growth 15%+: 6.2%",
+        "FY25 EBITDA margin ~16%: 13.3%"
+      ],
+      "live": [
+        "₹3,000cr revenue in ~3 years (TTM ₹2,090cr)",
+        "FY27 EBITDA margin ~20% (H1 20.4%)",
+        "FY27 growth in high single digits (H1 +10.7%)"
+      ],
+      "source": "StockScans guidance report, 27-Nov-2026: promises made on calls and in decks, with StockScans' verdicts against later filings."
+    },
+    "take": {
+      "points": [
+        "The margin re-rating is real: 13% to 21%, held for five quarters.",
+        "Cash-rich and cash-generative: ~14% of the market value is net cash.",
+        "The CEO names the risk himself: clients automating in-house shrink outsourcing budgets.",
+        "At ~{pe}x it is fair for 10–12% earnings growth. The AI platforms are the upside."
+      ],
+      "watchLabel": "Would change the view",
+      "watch": [
+        "growth below the ~8% floor, or Digital Operations margin under 20%",
+        "cash spent on an acquisition that does not fit"
+      ],
+      "verdict": "Medium-High: a fair price for a business that got better."
+    },
+    "sources": "Q2 FY27 results and official call transcript (4-Nov, filed 9-Nov); StockScans quarterly financials, guidance report and ratios (27-Nov-2026); DATAMATICS profile (10-Nov-2026 rewrite)."
+  },
+  "deep": {
+    "asOf": "27-Nov-2026",
+    "title": "Deep Industries",
+    "hook": "Paid to squeeze more gas out of wells that already exist",
+    "sub": "~43% margins and no exploration risk, but two year-end write-offs in a row.",
+    "journey": {
+      "then": {
+        "label": "Then",
+        "when": "1991 → FY25",
+        "items": [
+          "Gas compressors and workover rigs rented to ONGC and Oil India",
+          "Savla family at the helm for 35 years",
+          "Bought Dolphin Offshore out of insolvency (2023)",
+          "Q4 FY25: a ₹245cr write-off in other income"
+        ]
+      },
+      "now": {
+        "label": "Now",
+        "when": "Q2 FY27 · Sep-2026",
+        "items": [
+          "Revenue ₹295cr, +34%; H1 +37%",
+          "Order book ₹3,089cr, ~3.5x FY26 revenue",
+          "Q4 FY26 brought a second year-end charge, ₹183cr",
+          "QIP shelved; borrowings ₹203cr against ₹1,999cr net worth"
+        ]
+      },
+      "next": {
+        "label": "Next",
+        "when": "still to prove",
+        "items": [
+          "PAT ₹350–370cr in FY27 and ₹470–500cr in FY28, as guided",
+          "ONGC production-enhancement contract ramps from Nov-2026",
+          "Kandla Energy revenue, now expected around Q4 FY27",
+          "Old Dolphin receivables (~₹160cr) collected or provided for"
+        ]
+      }
+    },
+    "quarter": {
+      "title": "Q2 FY27 update",
+      "checks": [
+        {
+          "s": "good",
+          "t": "Revenue ₹295cr, +33.7% YoY"
+        },
+        {
+          "s": "good",
+          "t": "Standalone +18.7%: clears the #1 trigger"
+        },
+        {
+          "s": "good",
+          "t": "PAT ₹81cr, +14%"
+        },
+        {
+          "s": "watch",
+          "t": "EBITDA margin 39.6% (company basis), below the 42–43% yearly guide"
+        },
+        {
+          "s": "watch",
+          "t": "Expected-credit-loss provisioning begun on Dolphin receivables"
+        }
+      ],
+      "bars": {
+        "label": "Revenue by quarter, ₹cr (operating margin below)",
+        "points": [
+          {
+            "x": "Q2 FY26",
+            "v": 221,
+            "note": "41.5%"
+          },
+          {
+            "x": "Q3",
+            "v": 222,
+            "note": "45.2%"
+          },
+          {
+            "x": "Q4",
+            "v": 249,
+            "note": "32.9%"
+          },
+          {
+            "x": "Q1 FY27",
+            "v": 279,
+            "note": "38.8%"
+          },
+          {
+            "x": "Q2",
+            "v": 295,
+            "note": "36.0%"
+          }
+        ],
+        "foot": "Bars: StockScans quarterly (its OPM basis is lower than the company's). Checklist: official transcript of the 4-Nov Q2 call."
+      }
+    },
+    "caps": {
+      "have": [
+        {
+          "i": "🛢️",
+          "t": "~85% of India's outsourced gas-compression market"
+        },
+        {
+          "i": "🧾",
+          "t": "Paid on equipment, not on finding oil: 'no success risk'"
+        },
+        {
+          "i": "🏦",
+          "t": "Debt/equity 0.13; capex only after a contract"
+        },
+        {
+          "i": "📋",
+          "t": "Order book held above ₹3,000cr since May-2026"
+        }
+      ],
+      "wip": [
+        {
+          "i": "⛽",
+          "t": "ONGC production-enhancement contract: ~₹150cr a year by FY28"
+        },
+        {
+          "i": "🚢",
+          "t": "Dolphin Offshore: barge Prabha, ₹281cr over 3 years"
+        },
+        {
+          "i": "🏭",
+          "t": "Kandla Energy revival"
+        }
+      ],
+      "away": [
+        {
+          "i": "🔩",
+          "t": "2,000–3,000 HP drilling rigs, through a JV"
+        },
+        {
+          "i": "💧",
+          "t": "Green hydrogen: one tender bid, no win yet"
+        },
+        {
+          "i": "🧮",
+          "t": "A year-end close with no write-off"
+        }
+      ]
+    },
+    "peers": {
+      "names": [
+        "Deep",
+        "Jindal Drilling",
+        "Asian Energy"
+      ],
+      "colors": [
+        "#9cc3f0",
+        "#f4a7b3",
+        "#f7dc6f"
+      ],
+      "metrics": [
+        {
+          "label": "P/E (x)",
+          "vals": [
+            18.4,
+            11.3,
+            20.4
+          ]
+        },
+        {
+          "label": "ROCE (%)",
+          "vals": [
+            8.4,
+            8.6,
+            15.4
+          ]
+        }
+      ],
+      "note": "Deep's reported P/E and ROCE carry the ₹183cr write-off. On the FY27 PAT guide it is ~11x.",
+      "source": "StockScans, 27-Nov-2026; ROCE trailing twelve months. Forward multiple: my arithmetic on ₹360cr."
+    },
+    "scenarios": {
+      "asOf": "10-Nov-2026",
+      "items": [
+        {
+          "name": "Bear",
+          "p": 20,
+          "value": 375
+        },
+        {
+          "name": "Base",
+          "p": 55,
+          "value": 756
+        },
+        {
+          "name": "Bull",
+          "p": 25,
+          "value": 1219
+        }
+      ],
+      "note": "My estimates: FY28 PAT × multiple → market cap (profile §6) ÷ ~6.4cr shares."
+    },
+    "promises": {
+      "since": "FY22",
+      "counts": {
+        "d": 15,
+        "o": 6,
+        "p": 3,
+        "m": 5,
+        "n": 2
+      },
+      "missed": [
+        "Prabha Energy investment back in FY23: loans still out (₹86cr returned by Q1 FY27)",
+        "CNG booster sales of 100, then 200 units a year: far below",
+        "Two more Dolphin vessels in FY26: none added"
+      ],
+      "live": [
+        "FY27 PAT ₹350–370cr (H1 ₹170cr)",
+        "FY28 PAT ₹470–500cr",
+        "ONGC production-enhancement contract ~₹150cr a year by FY28"
+      ],
+      "source": "StockScans guidance report, 27-Nov-2026: promises made on calls and in decks, with StockScans' verdicts against later filings."
+    },
+    "take": {
+      "points": [
+        "A near-monopoly in renting gas compressors, at ~43% margins.",
+        "The growth is real, and the order book covers ~3.5 years of revenue.",
+        "Two year-end write-offs, after an assurance of 'no more', are why the market discounts the guidance.",
+        "If FY27 lands near ₹350cr, the {pe}x reported P/E is really ~11x."
+      ],
+      "watchLabel": "Downgrade if",
+      "watch": [
+        "a third year-end charge appears",
+        "standalone growth stalls again, or the Prabha loan stays unexplained"
+      ],
+      "verdict": "High: cheap on its guidance, if the accounts stay clean."
+    },
+    "sources": "Q2 FY27 results and official call transcript (4-Nov, filed 6-Nov); StockScans quarterly financials, guidance report and ratios (27-Nov-2026); DEEP profile (10-Nov-2026 rewrite)."
+  },
+  "garware": {
+    "asOf": "27-Nov-2026",
+    "title": "Garware Hi-Tech Films",
+    "hook": "From polyester film to paint protection for premium cars",
+    "sub": "Record margins and a 30% customer, at a price that leaves little on the table.",
+    "journey": {
+      "then": {
+        "label": "Then",
+        "when": "FY21 → FY26",
+        "items": [
+          "Left the commodity polyester-film cycle for specialty films",
+          "Paint protection film (PPF) grew from ~₹70cr to ~₹450cr in a year",
+          "FY26 flat, as 50% US tariffs hit",
+          "Promoter 60.73% for 12 quarters"
+        ]
+      },
+      "now": {
+        "label": "Now",
+        "when": "Q2 FY27 · Sep-2026",
+        "items": [
+          "Revenue ₹696cr, +22%",
+          "Operating margin 24.4%, down from Q1's 27.2%",
+          "US 51% of sales; an analyst's 30% figure for one customer went undisputed",
+          "Joint MD died Jul-2026; CFO interim since Aug"
+        ]
+      },
+      "next": {
+        "label": "Next",
+        "when": "still to prove",
+        "items": [
+          "TPU line (₹118cr) in Q3 FY27: margin +1.5–2%, guided",
+          "New sun-control film line by June 2027",
+          "FY28: ₹3,000cr+ revenue at a 28%+ margin",
+          "Anti-dumping duty on Chinese PPF: not approved"
+        ]
+      }
+    },
+    "quarter": {
+      "title": "Q2 FY27 update",
+      "checks": [
+        {
+          "s": "good",
+          "t": "Revenue ₹696cr, +22.1% YoY"
+        },
+        {
+          "s": "good",
+          "t": "PAT ₹129cr, +42%"
+        },
+        {
+          "s": "watch",
+          "t": "Margin 27.2% → 24.4% QoQ (~22.8% excluding the tariff refund)"
+        },
+        {
+          "s": "bad",
+          "t": "Tariff refund ~₹27cr net, against ₹50cr+ guided"
+        },
+        {
+          "s": "watch",
+          "t": "TPU line still not commissioned"
+        }
+      ],
+      "bars": {
+        "label": "Revenue by quarter, ₹cr (operating margin below)",
+        "points": [
+          {
+            "x": "Q2 FY26",
+            "v": 570,
+            "note": "21.0%"
+          },
+          {
+            "x": "Q3",
+            "v": 459,
+            "note": "15.3%"
+          },
+          {
+            "x": "Q4",
+            "v": 597,
+            "note": "22.7%"
+          },
+          {
+            "x": "Q1 FY27",
+            "v": 633,
+            "note": "27.2%"
+          },
+          {
+            "x": "Q2",
+            "v": 696,
+            "note": "24.4%"
+          }
+        ],
+        "foot": "Bars: StockScans quarterly (margin excludes other income). Checklist: official Q2 transcript (filed 26-Oct)."
+      }
+    },
+    "caps": {
+      "have": [
+        {
+          "i": "🚗",
+          "t": "PPF sold direct through 250+ Garware studios"
+        },
+        {
+          "i": "☀️",
+          "t": "Sun-control films, auto and architectural (~₹400cr a year)"
+        },
+        {
+          "i": "📦",
+          "t": "~70% of India's shrink-film market"
+        },
+        {
+          "i": "💰",
+          "t": "Debt-free; capex paid from cash flow"
+        }
+      ],
+      "wip": [
+        {
+          "i": "🧪",
+          "t": "TPU line: makes PPF's key raw material in-house"
+        },
+        {
+          "i": "🏠",
+          "t": "Home window films: 14 studios, 50 by Dec-2027"
+        },
+        {
+          "i": "🌍",
+          "t": "Middle East subsidiary; MENA ~$15m of sales"
+        }
+      ],
+      "away": [
+        {
+          "i": "📈",
+          "t": "₹3,000cr+ revenue in FY28"
+        },
+        {
+          "i": "👔",
+          "t": "A permanent CFO"
+        },
+        {
+          "i": "🛡️",
+          "t": "Anti-dumping duty on Chinese PPF"
+        }
+      ]
+    },
+    "peers": {
+      "names": [
+        "Garware",
+        "Polyplex",
+        "Cosmo First"
+      ],
+      "colors": [
+        "#9cc3f0",
+        "#f4a7b3",
+        "#f7dc6f"
+      ],
+      "metrics": [
+        {
+          "label": "P/E (x)",
+          "vals": [
+            40.6,
+            13.7,
+            9.2
+          ]
+        },
+        {
+          "label": "ROCE (%)",
+          "vals": [
+            19.8,
+            9.9,
+            12.5
+          ]
+        }
+      ],
+      "note": "About twice the returns of the polyester-film makers, at 3–4x their multiple. The specialty escape is already in the price.",
+      "source": "StockScans, 27-Nov-2026; ROCE trailing twelve months."
+    },
+    "scenarios": {
+      "asOf": "5-Nov-2026",
+      "items": [
+        {
+          "name": "Bear",
+          "p": 23,
+          "value": 4707
+        },
+        {
+          "name": "Base",
+          "p": 55,
+          "value": 7888
+        },
+        {
+          "name": "Bull",
+          "p": 22,
+          "value": 11207
+        }
+      ],
+      "note": "My estimates: FY28 PAT × multiple → market cap (profile §6, 5-Nov re-underwrite) ÷ ~2.32cr shares."
+    },
+    "promises": {
+      "since": "FY21",
+      "counts": {
+        "d": 15,
+        "o": 7,
+        "p": 9,
+        "m": 7,
+        "n": 10
+      },
+      "missed": [
+        "FY26 revenue ₹2,500cr: ₹2,120cr after the 50% US tariff",
+        "PPF plant ₹300cr by Mar-2023: ~₹70–75cr, reached a year late",
+        "₹1,800–1,900cr by FY24, 'definitely': ₹1,677cr"
+      ],
+      "live": [
+        "FY28 ₹3,000cr+ at a 28%+ margin",
+        "TPU line in Q3 FY27, margin +1.5–2%",
+        "New sun-control line by June 2027 (₹450–500cr at full use)"
+      ],
+      "source": "StockScans guidance report, 27-Nov-2026: promises made on calls and in decks, with StockScans' verdicts against later filings."
+    },
+    "take": {
+      "points": [
+        "One of few Indian film makers to escape the commodity cycle.",
+        "Margins hit a record in Q1; Q2 fell back, and part of the lift was a tariff refund.",
+        "A 30% customer and a 51% US share concentrate the risk.",
+        "At ~{pe}x the price already pays for FY28: the base case is roughly flat from here."
+      ],
+      "watchLabel": "Under Watch: the Q3 FY27 test",
+      "watch": [
+        "back to Medium-High if the ex-other-income margin is ≥24% with inventory released, or a CFO is named",
+        "cut to Medium-Low if that margin is <21% and H2 cash conversion <70%"
+      ],
+      "verdict": "Medium, Under Watch: a great business at a full price."
+    },
+    "sources": "Q2 FY27 results and official call transcript (filed 26-Oct); StockScans quarterly financials, guidance report and ratios (27-Nov-2026); GARWARE profile (5-Nov-2026 re-underwrite)."
+  },
+  "accent": {
+    "asOf": "27-Nov-2026",
+    "title": "Accent Microcell",
+    "hook": "The white powder inside most tablets",
+    "sub": "Two full, high-return plants. The growth plant is a year late, and the MD sold 4%.",
+    "journey": {
+      "then": {
+        "label": "Then",
+        "when": "Patel family → SME listing Dec-2023",
+        "items": [
+          "Microcrystalline cellulose (MCC) from imported wood pulp",
+          "Pirana (2,000 t, domestic) and Dahej SEZ (7,200 t, export)",
+          "Exports to 75+ countries, 85% through distributors",
+          "FY26 revenue ₹349cr, +32%"
+        ]
+      },
+      "now": {
+        "label": "Now",
+        "when": "H1 FY27 · Sep-2026",
+        "items": [
+          "Revenue ₹175cr, +25%; PAT ₹31cr, +72%",
+          "EBITDA margin 23.6% excluding other income (17.2% a year ago)",
+          "Premium grades 13% of revenue (4% in FY25)",
+          "MD & CFO sold 4.07% of the company in Jun–Jul"
+        ]
+      },
+      "next": {
+        "label": "Next",
+        "when": "still to prove",
+        "items": [
+          "Unit III Phase 1 (CCS, CMC, SSG): four dates missed",
+          "Phase 2 MCC, 12,000 t: guided March 2027",
+          "Why traded purchases fell from ₹57.6cr to ₹3cr",
+          "A ₹17cr loan given in H1, counterparty undisclosed"
+        ]
+      }
+    },
+    "quarter": {
+      "title": "H1 FY27 update",
+      "checks": [
+        {
+          "s": "good",
+          "t": "Revenue ₹174.8cr, +25.4% YoY"
+        },
+        {
+          "s": "good",
+          "t": "PAT ₹31.1cr, +72.2%"
+        },
+        {
+          "s": "good",
+          "t": "Receivables halved to ₹45cr; operating cash ₹78cr"
+        },
+        {
+          "s": "bad",
+          "t": "Unit III: ₹134.7cr in work-in-progress, no revenue"
+        },
+        {
+          "s": "watch",
+          "t": "No results call; the margin jump is unexplained"
+        }
+      ],
+      "bars": {
+        "label": "Revenue by half-year, ₹cr (operating margin below)",
+        "points": [
+          {
+            "x": "H1 FY26",
+            "v": 139,
+            "note": "17.2%"
+          },
+          {
+            "x": "H2 FY26",
+            "v": 210,
+            "note": "15.6%"
+          },
+          {
+            "x": "H1 FY27",
+            "v": 175,
+            "note": "23.6%"
+          }
+        ],
+        "foot": "Half-yearly results (NSE SME). Margin is EBITDA excluding other income, my arithmetic from the filed P&L."
+      }
+    },
+    "caps": {
+      "have": [
+        {
+          "i": "💊",
+          "t": "MCC: the most-used tablet excipient"
+        },
+        {
+          "i": "🏭",
+          "t": "Two plants earning ~24% ROCE"
+        },
+        {
+          "i": "🌍",
+          "t": "US DMF at Dahej; exports 63% of FY26 revenue"
+        },
+        {
+          "i": "💰",
+          "t": "Debt-free (₹0.6cr)"
+        }
+      ],
+      "wip": [
+        {
+          "i": "🧪",
+          "t": "Unit III Phase 1: 2,800 t of premium excipients, awaiting consent to operate"
+        },
+        {
+          "i": "📈",
+          "t": "Premium grades 16–17% of revenue in FY27, guided"
+        },
+        {
+          "i": "🤝",
+          "t": "A new multinational customer, approved after 3–4 years"
+        }
+      ],
+      "away": [
+        {
+          "i": "🏗️",
+          "t": "Phase 2: 12,000 t of MCC (would roughly double capacity)"
+        },
+        {
+          "i": "🗣️",
+          "t": "Regular investor calls"
+        },
+        {
+          "i": "🔍",
+          "t": "Related-party trade (₹46cr bought from director-linked firms in FY26)"
+        }
+      ]
+    },
+    "peers": {
+      "names": [
+        "Accent",
+        "Sigachi"
+      ],
+      "colors": [
+        "#9cc3f0",
+        "#f4a7b3"
+      ],
+      "metrics": [
+        {
+          "label": "P/E (x)",
+          "vals": [
+            23.5,
+            45.7
+          ]
+        },
+        {
+          "label": "ROCE (%)",
+          "vals": [
+            26.5,
+            5.8
+          ]
+        }
+      ],
+      "note": "Sigachi, the only other listed MCC maker, lost money in FY26. Accent earns ~4x its returns at half the multiple.",
+      "source": "StockScans, 27-Nov-2026; ROCE trailing twelve months."
+    },
+    "scenarios": {
+      "asOf": "15-Oct-2026",
+      "items": [
+        {
+          "name": "Bear",
+          "p": 20,
+          "value": 360
+        },
+        {
+          "name": "Base",
+          "p": 55,
+          "value": 840
+        },
+        {
+          "name": "Bull",
+          "p": 25,
+          "value": 1307
+        }
+      ],
+      "note": "My estimates: FY28 PAT × multiple → market cap (profile, 15-Oct rewrite) ÷ ~2.4cr shares."
+    },
+    "promises": {
+      "since": "FY25",
+      "counts": {
+        "d": 6,
+        "o": 3,
+        "p": 3,
+        "m": 3,
+        "n": 11
+      },
+      "missed": [
+        "Unit III Phase 1 in production by Oct–Nov 2025: still not, four dates later",
+        "~₹70cr from Phase 1 in H2 FY26: nil",
+        "More frequent investor calls: a 10-month gap, none for H1 FY27"
+      ],
+      "live": [
+        "Phase 2 live by March 2027",
+        "EBITDA margin 20–22% within a couple of years",
+        "15–20% revenue growth a year for 3–5 years"
+      ],
+      "source": "StockScans guidance report, 27-Nov-2026: promises made on calls and in decks, with StockScans' verdicts against later filings."
+    },
+    "take": {
+      "points": [
+        "The existing business is excellent: 24% ROCE, debt-free, exporting to 75 countries.",
+        "H1 margins jumped as trading fell away, with no call to explain it.",
+        "The growth case rests on Unit III, whose start date has slipped four times.",
+        "The MD selling 4% while the plant waits is the governance flag."
+      ],
+      "watchLabel": "Under Watch: cut to Medium-Low if",
+      "watch": [
+        "no filing of Phase 1 commercial production by 31-Mar-2027",
+        "any further promoter sale, or FY27 related-party purchases ≥ ₹46.2cr"
+      ],
+      "verdict": "Medium, Under Watch: a fine business; the expansion has to show up."
+    },
+    "sources": "H1 FY27 results and investor presentation (14–15 Oct-2026); NSE SAST filings; StockScans guidance report and ratios (27-Nov-2026); ACCENT profile (15-Oct-2026 rewrite)."
+  },
+  "amic": {
+    "asOf": "27-Nov-2026",
+    "title": "Amic Forging",
+    "hook": "Bespoke steel forgings for nuclear, oil & gas and cement",
+    "sub": "Peer-best margins and a capacity doubling, priced at ~50x with no calls and negative cash flow.",
+    "journey": {
+      "then": {
+        "label": "Then",
+        "when": "2007 → FY26",
+        "items": [
+          "Chamaria family forge shop in Hooghly, West Bengal",
+          "Rounds, shafts and flanges for refineries, power and cement",
+          "FY26: revenue ₹142cr, margin 30% (+9 points)",
+          "No CFO from Apr-2026; three CFOs in seven months"
+        ]
+      },
+      "now": {
+        "label": "Now",
+        "when": "H1 FY27 · Sep-2026",
+        "items": [
+          "Revenue ₹97.8cr, +47%; PAT +53%",
+          "Phase 1 (₹150cr) live 18-Sep; commercial output from 12-Nov",
+          "Operating cash −₹17cr; free cash flow ≈ −₹67cr",
+          "New CFO appointed from 1-Dec-2026"
+        ]
+      },
+      "next": {
+        "label": "Next",
+        "when": "still to prove",
+        "items": [
+          "Phase 1 above 80% utilisation by Q4 FY27",
+          "Phase 1 extension: forging 40,000 → 55,000 t, Q4 FY27",
+          "Phase 2: a 5,000-t press, ordered, live by Q4 FY28",
+          "Qualification into defence and aerospace"
+        ]
+      }
+    },
+    "quarter": {
+      "title": "H1 FY27 update",
+      "checks": [
+        {
+          "s": "good",
+          "t": "Revenue ₹97.8cr, +47% YoY"
+        },
+        {
+          "s": "good",
+          "t": "PAT +53%; EBITDA margin 26.9%"
+        },
+        {
+          "s": "bad",
+          "t": "Operating cash −₹16.9cr on a ₹34cr receivables build"
+        },
+        {
+          "s": "watch",
+          "t": "Phase 1 went live ~3 months later than promised"
+        },
+        {
+          "s": "watch",
+          "t": "The shareholder letter's PAT does not match the filed PAT"
+        }
+      ],
+      "bars": {
+        "label": "Revenue by half-year, ₹cr (operating margin below)",
+        "points": [
+          {
+            "x": "H1 FY25",
+            "v": 64,
+            "note": "18.6%"
+          },
+          {
+            "x": "H2",
+            "v": 58,
+            "note": "28.0%"
+          },
+          {
+            "x": "H1 FY26",
+            "v": 67,
+            "note": "27.4%"
+          },
+          {
+            "x": "H2",
+            "v": 75,
+            "note": "32.6%"
+          },
+          {
+            "x": "H1 FY27",
+            "v": 98,
+            "note": "26.9%"
+          }
+        ],
+        "foot": "Bars: StockScans half-yearly (BSE SME). Checklist: H1 FY27 results and shareholders' letter (12-Nov)."
+      }
+    },
+    "caps": {
+      "have": [
+        {
+          "i": "🔥",
+          "t": "Peer-best margins: ~30% EBITDA in FY26"
+        },
+        {
+          "i": "⚛️",
+          "t": "Forgings for nuclear, refineries, cement kilns and wind"
+        },
+        {
+          "i": "🏦",
+          "t": "Borrowings ~₹6cr; promoters added money at ₹1,211 and ₹1,536"
+        },
+        {
+          "i": "🔩",
+          "t": "Ingot to machined part, in one plant"
+        }
+      ],
+      "wip": [
+        {
+          "i": "🏭",
+          "t": "Phase 1: ingot 48,000 t, forging 40,000 t, machining 33,000 t"
+        },
+        {
+          "i": "🛠️",
+          "t": "Phase 1 extension, ~₹58cr: presses and CNC"
+        },
+        {
+          "i": "👔",
+          "t": "A permanent CFO, from 1-Dec"
+        }
+      ],
+      "away": [
+        {
+          "i": "🏗️",
+          "t": "Phase 2: ~₹165cr, against ~₹10cr of FY26 operating cash"
+        },
+        {
+          "i": "🛡️",
+          "t": "A disclosed defence or aerospace approval"
+        },
+        {
+          "i": "💸",
+          "t": "Positive free cash flow (negative three years running)"
+        }
+      ]
+    },
+    "peers": {
+      "names": [
+        "AMIC",
+        "Happy Forgings",
+        "MM Forgings"
+      ],
+      "colors": [
+        "#9cc3f0",
+        "#f4a7b3",
+        "#f7dc6f"
+      ],
+      "metrics": [
+        {
+          "label": "P/E (x)",
+          "vals": [
+            51.3,
+            48,
+            14.9
+          ]
+        },
+        {
+          "label": "ROCE (%)",
+          "vals": [
+            18.8,
+            17.1,
+            13.1
+          ]
+        }
+      ],
+      "note": "Priced like Happy Forgings, a mainboard leader, while still a BSE-SME with no calls and no guidance.",
+      "source": "StockScans, 27-Nov-2026; ROCE trailing twelve months."
+    },
+    "scenarios": {
+      "asOf": "18-Nov-2026",
+      "items": [
+        {
+          "name": "Bear",
+          "p": 20,
+          "value": 537
+        },
+        {
+          "name": "Base",
+          "p": 55,
+          "value": 1732
+        },
+        {
+          "name": "Bull",
+          "p": 25,
+          "value": 3196
+        }
+      ],
+      "note": "My estimates: FY28 PAT × multiple → market cap (profile §6) ÷ ~1.16cr fully diluted shares."
+    },
+    "take": {
+      "points": [
+        "The forging business is genuinely good: ~30% margins, little debt.",
+        "Phase 1 doubles capacity, but output only started on 12-Nov.",
+        "Cash goes out faster than it comes in: three years of negative free cash flow, funded by equity.",
+        "At ~{pe}x the price assumes the ramp works; the base case is below today's price."
+      ],
+      "watchLabel": "Would lift the view",
+      "watch": [
+        "Phase 1 above 80% utilised by Q4 FY27 with operating cash positive",
+        "the price back near ~45x earnings with the new CFO in place"
+      ],
+      "verdict": "Medium-Low: a good forge at a price that has run ahead of it."
+    },
+    "sources": "H1 FY27 results and shareholders' letter (12-Nov-2026); Reg 30 filings; StockScans half-yearly financials and ratios (27-Nov-2026); AMIC profile (18-Nov-2026 rewrite). No guidance report exists: AMIC holds no calls."
+  },
+  "wheels": {
+    "asOf": "27-Nov-2026",
+    "title": "Wheels India",
+    "hook": "Truck and tractor wheels, now machining wind turbines",
+    "sub": "A TVS-family workhorse growing 35%, with a margin stuck below 8.5%.",
+    "journey": {
+      "then": {
+        "label": "Then",
+        "when": "1960 → FY26",
+        "items": [
+          "Steel wheels for trucks, cars, tractors and earthmovers",
+          "TSF (TVS) group, alongside Sundaram Finance and Brakes India",
+          "Operating margin 6.8–8.1% for nine quarters",
+          "FY26 cash from operations ₹477cr; free cash flow positive 4 years"
+        ]
+      },
+      "now": {
+        "label": "Now",
+        "when": "Q2 FY27 · Sep-2026",
+        "items": [
+          "Revenue ₹1,711cr, +35%; PAT ₹60cr, +88%",
+          "₹430cr raised: ₹180cr from promoters, ₹250cr QIP",
+          "Debt ₹1,167cr → ~₹910cr",
+          "ICRA upgrade to A+ in Oct-2026"
+        ]
+      },
+      "next": {
+        "label": "Next",
+        "when": "still to prove",
+        "items": [
+          "Double-digit EBITDA margin within ~2 years (8.4% now)",
+          "Alloy wheels: 130,000 a month by Mar-2027, PBT-positive from Dec",
+          "Windmill machining to ₹20cr a month in 2 years",
+          "FY27 capex ₹400–450cr (was ₹280–300cr)"
+        ]
+      }
+    },
+    "quarter": {
+      "title": "Q2 FY27 update",
+      "checks": [
+        {
+          "s": "good",
+          "t": "Revenue ₹1,711cr, +35% YoY"
+        },
+        {
+          "s": "good",
+          "t": "PAT ₹60.2cr vs ₹31.7cr"
+        },
+        {
+          "s": "bad",
+          "t": "Operating margin 7.49%: one basis point under the 7.5% trigger"
+        },
+        {
+          "s": "watch",
+          "t": "Industrial Components EBIT ₹7.3cr, −34% YoY"
+        },
+        {
+          "s": "good",
+          "t": "Exports ₹388cr vs ₹299cr"
+        }
+      ],
+      "bars": {
+        "label": "Revenue by quarter, ₹cr (operating margin below)",
+        "points": [
+          {
+            "x": "Q2 FY26",
+            "v": 1264,
+            "note": "7.3%"
+          },
+          {
+            "x": "Q3",
+            "v": 1371,
+            "note": "7.3%"
+          },
+          {
+            "x": "Q4",
+            "v": 1564,
+            "note": "8.1%"
+          },
+          {
+            "x": "Q1 FY27",
+            "v": 1491,
+            "note": "7.5%"
+          },
+          {
+            "x": "Q2",
+            "v": 1711,
+            "note": "7.5%"
+          }
+        ],
+        "foot": "Bars: StockScans quarterly (consolidated). Margin trigger computed from the filed P&L."
+      }
+    },
+    "caps": {
+      "have": [
+        {
+          "i": "🛞",
+          "t": "Wheels for CVs, tractors, cars and earthmovers: ten plants"
+        },
+        {
+          "i": "♻️",
+          "t": "Customer-supplied metal in industrial work: margin, not volume"
+        },
+        {
+          "i": "🏛️",
+          "t": "TSF group parentage; ICRA A+"
+        },
+        {
+          "i": "💰",
+          "t": "Cash conversion above 100% in 4 of 5 years"
+        }
+      ],
+      "wip": [
+        {
+          "i": "⚙️",
+          "t": "Alloy wheels: 80,000 → 130,000 a month"
+        },
+        {
+          "i": "🌬️",
+          "t": "Windmill hub machining, ~₹10cr a month"
+        },
+        {
+          "i": "🚌",
+          "t": "Air suspension volumes +50%"
+        }
+      ],
+      "away": [
+        {
+          "i": "📈",
+          "t": "Double-digit EBITDA margin"
+        },
+        {
+          "i": "🇪🇺",
+          "t": "Electronic air-suspension JV with Bosch, pending EU clearance"
+        },
+        {
+          "i": "🏭",
+          "t": "Industrial business at double-digit margins"
+        }
+      ]
+    },
+    "peers": {
+      "names": [
+        "Wheels India",
+        "SSWL",
+        "Sundram",
+        "Endurance"
+      ],
+      "colors": [
+        "#9cc3f0",
+        "#f4a7b3",
+        "#f7dc6f",
+        "#b9e3b5"
+      ],
+      "metrics": [
+        {
+          "label": "P/E (x)",
+          "vals": [
+            26.9,
+            25.4,
+            33.4,
+            37.3
+          ]
+        },
+        {
+          "label": "ROCE (%)",
+          "vals": [
+            17.2,
+            18.1,
+            16.3,
+            17.2
+          ]
+        }
+      ],
+      "note": "In line with auto-component peers on returns and price. Revenue understates activity, because customers supply the metal.",
+      "source": "StockScans, 27-Nov-2026; ROCE trailing twelve months."
+    },
+    "scenarios": {
+      "asOf": "4-Nov-2026",
+      "items": [
+        {
+          "name": "Bear",
+          "p": 17,
+          "value": 817
+        },
+        {
+          "name": "Base",
+          "p": 55,
+          "value": 1650
+        },
+        {
+          "name": "Bull",
+          "p": 28,
+          "value": 2570
+        }
+      ],
+      "note": "My estimates, per share, from the 22-Aug cases (FY28 EPS × multiple, profile §6). Set before ₹430cr of equity cut debt, so they overstate the downside."
+    },
+    "promises": {
+      "since": "FY21",
+      "counts": {
+        "d": 20,
+        "o": 16,
+        "n": 13
+      },
+      "missLabel": "Nothing missed; the big ones are open",
+      "missed": [
+        "Double-digit EBITDA margin within ~2 years: 8.4% now",
+        "Industrial business at double-digit margins after 3–4 quarters",
+        "Alloy wheels PBT-positive from December 2026"
+      ],
+      "live": [
+        "Exports doubling H1's ₹760cr for FY27",
+        "Alloy wheel market share 10–15% within a year",
+        "Windmill machining doubling to ₹20cr a month"
+      ],
+      "source": "StockScans guidance report, 27-Nov-2026: promises made on calls and in decks, with StockScans' verdicts against later filings. Many 'delivered' items are rating upgrades and filings."
+    },
+    "take": {
+      "points": [
+        "Growth has finally come: revenue +35% and profit nearly doubled.",
+        "Promoters put in ₹180cr of their own cash, and debt fell ~₹260cr.",
+        "But the margin has not moved in eleven quarters, and that is what the upgrade needed.",
+        "At ~{pe}x the price has run past every scenario except the bull case."
+      ],
+      "watchLabel": "Recommended MH → M (Rajat's call)",
+      "watch": [
+        "two of four triggers fired on their wording in Q2",
+        "new trigger: Q3 FY27 consolidated margin below 8% after the promised cost benefit"
+      ],
+      "verdict": "Medium-High, Under Watch: strong quarter, unmoved margin, full price."
+    },
+    "sources": "Q2 FY27 results (29-Oct) and call; Reg 30 filings on the preferential issue and QIP; StockScans quarterly financials, guidance report and ratios (27-Nov-2026); WHEELS profile (4-Nov-2026 rewrite)."
+  },
+  "transraill": {
+    "asOf": "27-Nov-2026",
+    "title": "Transrail Lighting",
+    "hook": "Builds the towers and lines that carry power across continents",
+    "sub": "Record revenue and net debt slashed. Orders are the problem.",
+    "journey": {
+      "then": {
+        "label": "Then",
+        "when": "1984 → FY26",
+        "items": [
+          "Founder Digambar Bagde; makes its own towers and conductors",
+          "IPO Dec-2024; MD Randeep Narang, ex-KEC",
+          "FY26 revenue ₹6,880cr, +30%",
+          "FY26 order intake ₹8,520cr, short of the ₹9,000cr guide"
+        ]
+      },
+      "now": {
+        "label": "Now",
+        "when": "Q2 FY27 · Sep-2026",
+        "items": [
+          "Revenue ₹2,056cr, a record, +32%",
+          "Net debt ₹466cr → ₹143cr in one quarter",
+          "Order book ₹14,218cr, down three quarters running",
+          "49% of a 990 MW solar project for ₹20cr; ~₹500cr equity to follow"
+        ]
+      },
+      "next": {
+        "label": "Next",
+        "when": "still to prove",
+        "items": [
+          "FY27 orders ₹10,000–11,000cr: ~₹3,500–4,000cr 'in the bag'",
+          "Revenue +20% a year for three years",
+          "₹600cr QIP: enabling only, at least 6 months away",
+          "Promoter pledge (~2–3%) released in 6–9 months"
+        ]
+      }
+    },
+    "quarter": {
+      "title": "Q2 FY27 update",
+      "checks": [
+        {
+          "s": "good",
+          "t": "Revenue ₹2,056cr, +32% YoY"
+        },
+        {
+          "s": "good",
+          "t": "EBITDA ₹238cr, margin 11.6% against an ~11% guide"
+        },
+        {
+          "s": "good",
+          "t": "H1 operating cash ₹435cr; net debt 0.2x EBITDA"
+        },
+        {
+          "s": "bad",
+          "t": "H1 order intake ₹1,638cr: the downgrade trigger fired"
+        },
+        {
+          "s": "watch",
+          "t": "₹80cr related-party loan (Burberry): repayment unconfirmed"
+        }
+      ],
+      "bars": {
+        "label": "Revenue by quarter, ₹cr (operating margin below)",
+        "points": [
+          {
+            "x": "Q2 FY26",
+            "v": 1561,
+            "note": "11.8%"
+          },
+          {
+            "x": "Q3",
+            "v": 1796,
+            "note": "12.7%"
+          },
+          {
+            "x": "Q4",
+            "v": 1863,
+            "note": "11.3%"
+          },
+          {
+            "x": "Q1 FY27",
+            "v": 1736,
+            "note": "11.7%"
+          },
+          {
+            "x": "Q2",
+            "v": 2056,
+            "note": "11.5%"
+          }
+        ],
+        "foot": "Bars: StockScans quarterly. Checklist: Q2 FY27 press release, deck and call (3-Nov)."
+      }
+    },
+    "caps": {
+      "have": [
+        {
+          "i": "🗼",
+          "t": "In-house towers (184,400 t a year), conductors and monopoles"
+        },
+        {
+          "i": "🏅",
+          "t": "AA− from both CRISIL and India Ratings"
+        },
+        {
+          "i": "🌍",
+          "t": "Projects on six continents; ~38% of the book overseas"
+        },
+        {
+          "i": "⚡",
+          "t": "20+ Power Grid jobs, including 800 kV HVDC"
+        }
+      ],
+      "wip": [
+        {
+          "i": "🔁",
+          "t": "Reconductoring with high-capacity wire: ₹777cr won"
+        },
+        {
+          "i": "🏭",
+          "t": "Towers to 2,00,000 t a year by FY27"
+        },
+        {
+          "i": "❄️",
+          "t": "Gactel: cooling-tower EPC"
+        }
+      ],
+      "away": [
+        {
+          "i": "☀️",
+          "t": "Solar IPP stake: ~₹500cr of equity, accounting undisclosed"
+        },
+        {
+          "i": "🖥️",
+          "t": "Data centres and battery storage: bidding only"
+        },
+        {
+          "i": "📦",
+          "t": "₹10,000cr a year of new orders"
+        }
+      ]
+    },
+    "peers": {
+      "names": [
+        "Transrail",
+        "KEC",
+        "Kalpataru",
+        "Skipper"
+      ],
+      "colors": [
+        "#9cc3f0",
+        "#f4a7b3",
+        "#f7dc6f",
+        "#b9e3b5"
+      ],
+      "metrics": [
+        {
+          "label": "P/E (x)",
+          "vals": [
+            13.9,
+            18.7,
+            18.9,
+            23.5
+          ]
+        },
+        {
+          "label": "ROCE (%)",
+          "vals": [
+            26.1,
+            10.3,
+            17.8,
+            19.6
+          ]
+        }
+      ],
+      "note": "The highest return and the lowest multiple in the transmission-EPC group.",
+      "source": "StockScans, 27-Nov-2026; ROCE trailing twelve months."
+    },
+    "scenarios": {
+      "asOf": "18-Nov-2026",
+      "items": [
+        {
+          "name": "Bear",
+          "p": 25,
+          "value": 299
+        },
+        {
+          "name": "Base",
+          "p": 50,
+          "value": 610
+        },
+        {
+          "name": "Bull",
+          "p": 25,
+          "value": 898
+        }
+      ],
+      "note": "My estimates: FY28 EPS × multiple on ~14.7cr shares after a QIP (profile §6)."
+    },
+    "promises": {
+      "since": "FY25",
+      "counts": {
+        "d": 14,
+        "o": 7,
+        "p": 2,
+        "n": 8
+      },
+      "missLabel": "Fell short (none missed outright)",
+      "missed": [
+        "FY26 order intake ₹9,000–10,000cr: ₹8,520cr",
+        "EBITDA margin '12.5%+ sustainable': guide since cut to ~11%",
+        "IPO money spent by FY25: deadline extended to FY27"
+      ],
+      "live": [
+        "FY27 order intake ₹10,000–11,000cr",
+        "Revenue +20% a year for at least 3 years (H1 +18%)",
+        "Promoter pledge removed in 6–9 months"
+      ],
+      "source": "StockScans guidance report, 27-Nov-2026: promises made on calls and in decks, with StockScans' verdicts against later filings."
+    },
+    "take": {
+      "points": [
+        "Execution is strong: record revenue, steady 11–12% margins, cash collected.",
+        "Orders are not keeping pace: the book has shrunk three quarters running.",
+        "The solar stake is a new balance-sheet commitment with its accounting undisclosed.",
+        "At ~{pe}x for a 26% ROCE the price is undemanding, if the orders come."
+      ],
+      "watchLabel": "An upgrade needs",
+      "watch": [
+        "FY27 order intake on course for ₹10,000cr by Q3",
+        "the Burberry loan repaid and the solar-stake accounting disclosed"
+      ],
+      "verdict": "Medium: a good builder with a thinning order book."
+    },
+    "sources": "Q2 FY27 press release, deck and call (3-Nov-2026); board filings on the solar SPV (19–21 Oct); StockScans quarterly financials, guidance report and ratios (27-Nov-2026); TRANSRAILL profile (18-Nov-2026 rewrite)."
+  },
+  "panamapet": {
+    "asOf": "27-Nov-2026",
+    "title": "Panama Petrochem",
+    "hook": "Turns imported base oil into white oil, jelly and transformer oil",
+    "sub": "Two windfall quarters on the Hormuz shock, from a family that stopped holding calls.",
+    "journey": {
+      "then": {
+        "label": "Then",
+        "when": "Rayani family → FY26",
+        "items": [
+          "~80 specialty oil grades for FMCG, pharma, power and printing",
+          "Five Indian plants plus a port-side plant in Ras Al Khaimah",
+          "Margin guide cut four times; ~9% in FY25–FY26",
+          "Last earnings call: Nov-2023"
+        ]
+      },
+      "now": {
+        "label": "Now",
+        "when": "Q2 FY27 · Sep-2026",
+        "items": [
+          "Revenue ₹1,722cr, +123%",
+          "H1 PAT ₹552cr, against ₹212cr for all of FY26",
+          "Receivables up ₹427cr in the half",
+          "Employee cost 3x a year ago, unexplained"
+        ]
+      },
+      "next": {
+        "label": "Next",
+        "when": "still to prove",
+        "items": [
+          "How much of the windfall survives once crude settles",
+          "An earnings call: none since Nov-2023",
+          "What happens to the windfall cash: dividend, buyback or neither",
+          "Ambernath export unit ramp (~5% more capacity)"
+        ]
+      }
+    },
+    "quarter": {
+      "title": "Q2 FY27 update",
+      "checks": [
+        {
+          "s": "good",
+          "t": "Revenue ₹1,722cr, +123% YoY"
+        },
+        {
+          "s": "good",
+          "t": "PAT ₹243cr vs ₹53cr"
+        },
+        {
+          "s": "good",
+          "t": "Operating margin 17.2%, no inventory write-down"
+        },
+        {
+          "s": "bad",
+          "t": "Receivables +₹427cr in H1"
+        },
+        {
+          "s": "watch",
+          "t": "Still no earnings call to explain any of it"
+        }
+      ],
+      "bars": {
+        "label": "Revenue by quarter, ₹cr (operating margin below)",
+        "points": [
+          {
+            "x": "Q2 FY26",
+            "v": 773,
+            "note": "8.9%"
+          },
+          {
+            "x": "Q3",
+            "v": 775,
+            "note": "7.8%"
+          },
+          {
+            "x": "Q4",
+            "v": 823,
+            "note": "11.1%"
+          },
+          {
+            "x": "Q1 FY27",
+            "v": 1735,
+            "note": "22.4%"
+          },
+          {
+            "x": "Q2",
+            "v": 1722,
+            "note": "17.2%"
+          }
+        ],
+        "foot": "Bars: StockScans quarterly. Checklist: Q2 FY27 results (4-Nov), a scanned filing rendered and read page by page."
+      }
+    },
+    "caps": {
+      "have": [
+        {
+          "i": "🛢️",
+          "t": "~80 grades: white oil, petroleum jelly, transformer and process oils"
+        },
+        {
+          "i": "⚓",
+          "t": "A port-side UAE plant beside Gulf base-oil refineries"
+        },
+        {
+          "i": "🏦",
+          "t": "ICRA A+; debt only ~3% of net worth"
+        },
+        {
+          "i": "🧴",
+          "t": "Supplies Dabur, Marico and MNC formulators"
+        }
+      ],
+      "wip": [
+        {
+          "i": "🏭",
+          "t": "Ambernath export unit, commercial since 6-Jul-2026"
+        },
+        {
+          "i": "📈",
+          "t": "Specialty products toward ~85% of sales"
+        },
+        {
+          "i": "💵",
+          "t": "~₹550cr of H1 profit to deploy"
+        }
+      ],
+      "away": [
+        {
+          "i": "🗣️",
+          "t": "Explaining itself to shareholders (no call since Nov-2023)"
+        },
+        {
+          "i": "📦",
+          "t": "Volume growth: ~260kt in both FY18 and FY22"
+        },
+        {
+          "i": "⚖️",
+          "t": "Family pay: ₹4cr 'additional salary' each to four directors"
+        }
+      ]
+    },
+    "peers": {
+      "names": [
+        "Panama",
+        "Savita Oil",
+        "Gulf Oil"
+      ],
+      "colors": [
+        "#9cc3f0",
+        "#f4a7b3",
+        "#f7dc6f"
+      ],
+      "metrics": [
+        {
+          "label": "P/E (x)",
+          "vals": [
+            3.8,
+            6.5,
+            14.1
+          ]
+        },
+        {
+          "label": "ROCE (%)",
+          "vals": [
+            40.5,
+            35.4,
+            24.9
+          ]
+        }
+      ],
+      "note": "Both base-oil processors print windfall returns at windfall-low multiples. On normal FY26 earnings Panama is ~12x.",
+      "source": "StockScans, 27-Nov-2026; ROCE trailing twelve months. Normal-earnings multiple: my arithmetic on FY26 EPS ₹35.13."
+    },
+    "scenarios": {
+      "asOf": "4-Nov-2026",
+      "items": [
+        {
+          "name": "Bear",
+          "p": 20,
+          "value": 294
+        },
+        {
+          "name": "Base",
+          "p": 55,
+          "value": 512
+        },
+        {
+          "name": "Bull",
+          "p": 25,
+          "value": 726
+        }
+      ],
+      "note": "My estimates: FY28 normal PAT × multiple plus retained windfall cash, per share (profile §6). Assumes H1 receivables are collected."
+    },
+    "promises": {
+      "since": "FY22",
+      "counts": {
+        "d": 2,
+        "p": 2,
+        "m": 1,
+        "n": 1
+      },
+      "missed": [
+        "EBITDA margin 12–14%, then 11–13%: ~9% in FY25–FY26",
+        "Capacity 350,000 t by FY25: 295,000 t",
+        "Revenue growth 15–20%: ~5% in FY23 and FY24"
+      ],
+      "live": [
+        "Specialty products ~85% of sales by FY27–FY29 (68% when last disclosed)",
+        "Stay debt-free, capex from cash flow",
+        "Nothing newer: no call since Nov-2023"
+      ],
+      "source": "StockScans guidance report, 27-Nov-2026: promises made on calls and in decks, with StockScans' verdicts against later filings. Few are tracked because the company stopped holding calls."
+    },
+    "take": {
+      "points": [
+        "A clean, debt-light processor that was in the right place when Hormuz closed.",
+        "The windfall is industry-wide: Savita printed the same quarter.",
+        "On normal earnings it is ~12x, a fair price, with the windfall cash on top.",
+        "Silence, family pay and a ₹427cr receivables build keep it at Medium-Low."
+      ],
+      "watchLabel": "Would lift the view",
+      "watch": [
+        "an earnings call, or a special dividend or buyback from the windfall",
+        "H1 receivables collected by March"
+      ],
+      "verdict": "Medium-Low: a windfall worth having, from managers who won't explain it."
+    },
+    "sources": "Q2 FY27 results (4-Nov-2026, scanned, rendered and read); FY26 annual report; StockScans quarterly financials, guidance report and ratios (27-Nov-2026); PANAMAPET profile (4-Nov-2026 rewrite)."
+  },
+  "univcables": {
+    "asOf": "27-Nov-2026",
+    "title": "Universal Cables",
+    "hook": "High-voltage cables up to 400 kV, inside a Birla holding maze",
+    "sub": "Its best growth in a decade, funded with debt, from a company that has never held a call.",
+    "journey": {
+      "then": {
+        "label": "Then",
+        "when": "MP Birla group → FY26",
+        "items": [
+          "Power cables, LV to 400 kV, at Satna (MP) and Goa",
+          "400 kV know-how licensed from NKT, Germany, to Aug-2028",
+          "FY26 revenue ₹3,023cr, +25.5%",
+          "Holds 29% of Vindhya Telelinks and 26% of Birla Furukawa Fibre"
+        ]
+      },
+      "now": {
+        "label": "Now",
+        "when": "Q2 FY27 · Sep-2026",
+        "items": [
+          "Revenue ₹1,019cr, +25%; exports +139%",
+          "Standalone PAT −9% as finance cost rose 50%",
+          "H1 operating cash −₹88cr; borrowings +₹296cr in six months",
+          "Latin America EHV turnkey order (~US$25m) confirmed"
+        ]
+      },
+      "next": {
+        "label": "Next",
+        "when": "still to prove",
+        "items": [
+          "Capacity phase 2 by Jun-2027 (budget ₹277cr → ₹617cr)",
+          "Universal's share of the fibre JV's ~₹4,800cr capex",
+          "A new CFO from 21-Oct: the third in 13 months",
+          "A first-ever earnings call"
+        ]
+      }
+    },
+    "quarter": {
+      "title": "Q2 FY27 update",
+      "checks": [
+        {
+          "s": "good",
+          "t": "Revenue ₹1,018.6cr, +25%, a record"
+        },
+        {
+          "s": "good",
+          "t": "Exports ₹137.7cr, +139%"
+        },
+        {
+          "s": "bad",
+          "t": "Standalone PAT ₹33.1cr vs ₹36.6cr"
+        },
+        {
+          "s": "bad",
+          "t": "H1 operating cash −₹88cr"
+        },
+        {
+          "s": "watch",
+          "t": "Margin 9.3% on the company's basis, ~8% excluding other income"
+        }
+      ],
+      "bars": {
+        "label": "Revenue by quarter, ₹cr (operating margin below)",
+        "points": [
+          {
+            "x": "Q2 FY26",
+            "v": 814,
+            "note": "9.1%"
+          },
+          {
+            "x": "Q3",
+            "v": 768,
+            "note": "7.8%"
+          },
+          {
+            "x": "Q4",
+            "v": 840,
+            "note": "8.2%"
+          },
+          {
+            "x": "Q1 FY27",
+            "v": 945,
+            "note": "9.7%"
+          },
+          {
+            "x": "Q2",
+            "v": 1019,
+            "note": "8.0%"
+          }
+        ],
+        "foot": "Bars: StockScans quarterly. Checklist: Q2 FY27 results (4-Nov-2026)."
+      }
+    },
+    "caps": {
+      "have": [
+        {
+          "i": "⚡",
+          "t": "EHV cables to 400 kV on two VCV lines"
+        },
+        {
+          "i": "🔬",
+          "t": "NABL EHV test labs; 400 kV jobs at home and abroad"
+        },
+        {
+          "i": "🔋",
+          "t": "Capacitors and power-quality: +78% in FY26"
+        },
+        {
+          "i": "🏛️",
+          "t": "Birla group support behind a CARE A rating"
+        }
+      ],
+      "wip": [
+        {
+          "i": "🏭",
+          "t": "Satna capacity 21,450 → ~35,450 km a year"
+        },
+        {
+          "i": "🌎",
+          "t": "Exports: H1 ₹258cr, +154%"
+        },
+        {
+          "i": "🌐",
+          "t": "Fibre JV swung from a loss to ₹76cr profit (FY26)"
+        }
+      ],
+      "away": [
+        {
+          "i": "💸",
+          "t": "Cash that follows revenue (FY26 CFO 22% of EBITDA)"
+        },
+        {
+          "i": "🗳️",
+          "t": "A settled promoter group: a 27% bloc votes against the board"
+        },
+        {
+          "i": "🗣️",
+          "t": "Any investor call at all"
+        }
+      ]
+    },
+    "peers": {
+      "names": [
+        "Universal",
+        "KEI",
+        "Polycab",
+        "Finolex Cab."
+      ],
+      "colors": [
+        "#9cc3f0",
+        "#f4a7b3",
+        "#f7dc6f",
+        "#b9e3b5"
+      ],
+      "metrics": [
+        {
+          "label": "P/E (x)",
+          "vals": [
+            17.4,
+            33,
+            34.9,
+            19.4
+          ]
+        },
+        {
+          "label": "ROCE (%)",
+          "vals": [
+            11.3,
+            19.8,
+            34.6,
+            18.4
+          ]
+        }
+      ],
+      "note": "Half the multiple of KEI and Polycab, on about half their returns. ~40% of profit comes from associates.",
+      "source": "StockScans, 27-Nov-2026; ROCE trailing twelve months (consolidated)."
+    },
+    "scenarios": {
+      "asOf": "10-Nov-2026",
+      "items": [
+        {
+          "name": "Bear",
+          "p": 20,
+          "value": 830
+        },
+        {
+          "name": "Base",
+          "p": 55,
+          "value": 1744
+        },
+        {
+          "name": "Bull",
+          "p": 25,
+          "value": 2738
+        }
+      ],
+      "note": "My estimates: FY28 standalone PAT × multiple plus the holdings → market cap (profile) ÷ ~3.47cr shares."
+    },
+    "take": {
+      "points": [
+        "Real growth in a scarce product: 400 kV cables, exports up 2.5x.",
+        "Cash does not follow: FY26 free cash flow −₹206cr, and borrowings keep rising.",
+        "Governance is the discount: a split promoter group, three CFOs in 13 months, no calls ever.",
+        "At ~{pe}x it is fair for the cables, and cheap only if the holdings are counted."
+      ],
+      "watchLabel": "Would lift the view",
+      "watch": [
+        "H2 operating cash positive with borrowings flat",
+        "a funding plan for the fibre JV that does not lean on Universal"
+      ],
+      "verdict": "Medium-Low: good cables, tangled wrapper."
+    },
+    "sources": "Q2 FY27 results (4-Nov-2026); BSE/NSE filings; StockScans quarterly financials and ratios (27-Nov-2026); UNIVCABLES profile (10-Nov-2026 rewrite). No guidance report exists: the company has never held a call."
+  },
+  "shreepushk": {
+    "asOf": "27-Nov-2026",
+    "title": "Shree Pushkar Chemicals",
+    "hook": "Burns sulphur into acid, then into dyes and fertiliser",
+    "sub": "A record quarter on a Chinese H-acid shortage, while cash went the other way.",
+    "journey": {
+      "then": {
+        "label": "Then",
+        "when": "1993 → FY26",
+        "items": [
+          "Dye intermediates (H-acid, vinyl sulphone) and reactive dyes",
+          "Single super phosphate and NPK fertiliser, 800+ dealers",
+          "Captive sulphuric acid links the two",
+          "FY26 revenue ₹977cr, +21%; PAT missed every guide"
+        ]
+      },
+      "now": {
+        "label": "Now",
+        "when": "Q2 FY27 · Sep-2026",
+        "items": [
+          "Revenue ₹403.5cr, +58%; PAT ₹35.7cr, +96%",
+          "Chemical prices ~2.2x on tonnage −17%",
+          "H1 operating cash −₹53cr; net cash turned to ~₹97cr net debt",
+          "Unit 5 dyes plant finally commercial"
+        ]
+      },
+      "next": {
+        "label": "Next",
+        "when": "still to prove",
+        "items": [
+          "Unit 6 NPK plant: trials on an eighth date (Nov–Dec 2026)",
+          "Unit 8 Meghnagar, ₹350cr, by Mar-2028",
+          "₹45cr of warrants to the CMD for a ₹70cr plant (EGM 2-Dec)",
+          "H-acid prices fall back, as the CMD expects"
+        ]
+      }
+    },
+    "quarter": {
+      "title": "Q2 FY27 update",
+      "checks": [
+        {
+          "s": "good",
+          "t": "Revenue ₹403.5cr, +58% YoY"
+        },
+        {
+          "s": "good",
+          "t": "PAT ₹35.7cr, +96%"
+        },
+        {
+          "s": "watch",
+          "t": "Chemical revenue +86% on tonnage −17%: price, not volume"
+        },
+        {
+          "s": "bad",
+          "t": "Receivables ₹179cr → ₹332cr; H1 operating cash −₹53cr"
+        },
+        {
+          "s": "watch",
+          "t": "FY27 revenue guide cut to ₹1,250–1,300cr"
+        }
+      ],
+      "bars": {
+        "label": "Revenue by quarter, ₹cr (operating margin below)",
+        "points": [
+          {
+            "x": "Q2 FY26",
+            "v": 255,
+            "note": "10.3%"
+          },
+          {
+            "x": "Q3",
+            "v": 249,
+            "note": "8.9%"
+          },
+          {
+            "x": "Q4",
+            "v": 218,
+            "note": "10.1%"
+          },
+          {
+            "x": "Q1 FY27",
+            "v": 280,
+            "note": "11.4%"
+          },
+          {
+            "x": "Q2",
+            "v": 403,
+            "note": "12.2%"
+          }
+        ],
+        "foot": "Bars: StockScans quarterly. Checklist: Q2 FY27 results (2-Nov) and call (3-Nov)."
+      }
+    },
+    "caps": {
+      "have": [
+        {
+          "i": "🧪",
+          "t": "Sulphur → acid → dyes and fertiliser, all in-house"
+        },
+        {
+          "i": "🎨",
+          "t": "H-acid and vinyl sulphone exports, led by Bangladesh"
+        },
+        {
+          "i": "🌾",
+          "t": "Fertiliser sold through 800+ dealers"
+        },
+        {
+          "i": "🏅",
+          "t": "ICRA A+; promoters have never sold"
+        }
+      ],
+      "wip": [
+        {
+          "i": "🏭",
+          "t": "Unit 6 NPK, 1.5 lakh t: built, not started"
+        },
+        {
+          "i": "🎨",
+          "t": "Unit 5 dyes: commercial in Q2 FY27"
+        },
+        {
+          "i": "☀️",
+          "t": "20.6 MW of captive solar"
+        }
+      ],
+      "away": [
+        {
+          "i": "🏗️",
+          "t": "Unit 8 Meghnagar: 3 lakh t, ₹350cr, Mar-2028"
+        },
+        {
+          "i": "💸",
+          "t": "Positive free cash flow (−₹45cr over FY22–FY26)"
+        },
+        {
+          "i": "🎯",
+          "t": "A profit guide it actually meets"
+        }
+      ]
+    },
+    "peers": {
+      "names": [
+        "Shree Pushkar",
+        "Bodal",
+        "Bhageria",
+        "Rama Phos."
+      ],
+      "colors": [
+        "#9cc3f0",
+        "#f4a7b3",
+        "#f7dc6f",
+        "#b9e3b5"
+      ],
+      "metrics": [
+        {
+          "label": "P/E (x)",
+          "vals": [
+            18.6,
+            12.2,
+            13.1,
+            7.4
+          ]
+        },
+        {
+          "label": "ROCE (%)",
+          "vals": [
+            12.9,
+            11.6,
+            19.3,
+            13.6
+          ]
+        }
+      ],
+      "note": "Priced above both its dye and its fertiliser peers, on similar returns.",
+      "source": "StockScans, 27-Nov-2026; ROCE trailing twelve months."
+    },
+    "scenarios": {
+      "asOf": "5-Nov-2026",
+      "items": [
+        {
+          "name": "Bear",
+          "p": 25,
+          "value": 284
+        },
+        {
+          "name": "Base",
+          "p": 50,
+          "value": 601
+        },
+        {
+          "name": "Bull",
+          "p": 25,
+          "value": 1008
+        }
+      ],
+      "note": "My estimates: FY28 EPS × multiple on ~3.39cr shares after warrants (profile §6, 5-Nov re-derivation)."
+    },
+    "promises": {
+      "since": "FY21",
+      "counts": {
+        "d": 11,
+        "o": 5,
+        "p": 9,
+        "m": 18,
+        "n": 6
+      },
+      "missed": [
+        "Fertiliser volume ~3 lakh t, promised four years running: 2.1–2.6 lakh t",
+        "Unit 5 revenue ₹200–250cr a year from FY23: the dyes unit started only in Q2 FY27",
+        "FY26 PAT ₹80cr ±5%: ₹70.1cr"
+      ],
+      "live": [
+        "FY27 PAT 'in 3 digits' (H1 ₹58.6cr)",
+        "FY28 revenue ~₹2,000cr",
+        "Unit 6 NPK trials by Nov–Dec 2026"
+      ],
+      "source": "StockScans guidance report, 27-Nov-2026: promises made on calls and in decks, with StockScans' verdicts against later filings."
+    },
+    "take": {
+      "points": [
+        "The integration works: margins held through a ~4x jump in sulphur prices.",
+        "But Q2's record rests on an H-acid shortage the CMD calls 'practically non-sustainable'.",
+        "Cash went backwards: receivables nearly doubled, net cash turned to net debt.",
+        "Plants arrive years late; StockScans scores 18 of 49 promises as missed."
+      ],
+      "watchLabel": "Cut to Speculative if",
+      "watch": [
+        "FY27 operating cash flow is negative",
+        "net debt goes above ₹150cr"
+      ],
+      "verdict": "Medium-Low, Under Watch: a price windfall on a stretched balance sheet."
+    },
+    "sources": "Q2 FY27 results (2-Nov-2026) and call (3-Nov); StockScans quarterly financials, guidance report and ratios (27-Nov-2026); SHREEPUSHK profile (5-Nov-2026 rewrite)."
+  },
+  // STAGED-BOARDS END
   "morepen": {
     asOf: "26-Nov-2026",
     title: "Morepen Labs",
@@ -4510,7 +7478,7 @@ function igPromises(pr) {
     <span class="ig-lens-note">${total} promises from management since ${pr.since}: ${kept}% delivered or on track.</span>
     <div class="ig-prom-grid">
       <div><div class="ig-prom-bar" role="img" aria-label="${legend.replace(/<[^>]+>/g, ' ')}">${bar}</div><div class="ig-legend" style="margin-top:6px">${legend}</div></div>
-      <div><div class="ig-capchip" style="background:var(--pink)">Biggest misses</div><ul class="ig-prom-list">${pr.missed.map(x => `<li>✗ ${x}</li>`).join('')}</ul></div>
+      <div><div class="ig-capchip" style="background:var(--pink)">${pr.missLabel || 'Biggest misses'}</div><ul class="ig-prom-list">${pr.missed.map(x => `<li>✗ ${x}</li>`).join('')}</ul></div>
       <div><div class="ig-capchip" style="background:var(--blue)">Live promises to watch</div><ul class="ig-prom-list">${pr.live.map(x => `<li>◷ ${x}</li>`).join('')}</ul></div>
     </div>
     <div class="ig-src">${pr.source}</div></div>`;
